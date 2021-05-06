@@ -8,20 +8,14 @@ role: Data Engineer
 level: Beginner
 exl-id: 1c45e005-1dd1-4b91-b928-7d0f4a51e075
 translation-type: tm+mt
-source-git-commit: 1eab5e9c54f2653b4b8ca9a7c2c4b06231980ed5
+source-git-commit: fa46fc3218d3bdc90c27d1abc9e944d73c7b91bc
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 45%
+source-wordcount: '348'
+ht-degree: 46%
 
 ---
 
 # Campaign v8 {#help-support-options}에 대한 도움말 및 지원 옵션
-
-
->[!AVAILABILITY]
->
-> :경고:**이 페이지는 Campaign v8**&#x200B;에 적용되지 않습니다. [자세히 알아보기](campaign-faq.md)
-
 
 FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 받을 수 있습니다. Campaign 커뮤니티에 가입하여 전문가에게 질문하거나 문제를 기록할 수도 있습니다
 
