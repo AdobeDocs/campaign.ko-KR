@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
 translation-type: tm+mt
-source-git-commit: a67c83eb531c795d621fdf36696ae4bde2151dba
+source-git-commit: 54837c7da2382696718ace7ec0ebde956efd33f4
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 1%
@@ -38,22 +38,25 @@ Adobe Campaign에는 내장된 기술 워크플로우가 포함되어 있습니�
 
 이러한 기술 워크플로우는 캠페인 탐색기의 **[!UICONTROL Administration > Production > Technical workflows > Full FFDA replication]** 노드에서 사용할 수 있습니다.
 
-## 데이터 복제{#data-replication}
-
-테이블은 위에서 설명한 전용 워크플로우를 통해 캠페인 데이터베이스에서 [!DNL Snowflake] 클라우드 데이터베이스로 복제됩니다.
-
-복제 정책은 테이블 크기를 기반으로 합니다. 일부 테이블이 복제됩니다. 일부 테이블은 실시간으로 복제되며, 다른 테이블은 시간별로 복제됩니다. 일부 탈목은 다른 항목을 교체할 때 증분 업데이트를 갖게 됩니다.
-
-| 네임스페이스 | 표 | 워크플로 복제 | 실시간 복제 |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | --------------------- |
-| XTK | xtk:enum<br>xtk:enumValue<br>xtk:enumAlias<br>xtk:folder<br>xtk:formRendering<br>xtk:operator<br>xtk:group<br>xtk:report<br>xtk:olapCube8/>xtk:olapDimension<br>xtk:olapMeasure<br>xtk:dictionaryString<br><br> | 예(증분) | 예 |
-| XTK | xtk:opsecurity<br>xtk:rights<br>xtk:operatorGroup<br>xtk:reportHistory<br>xtk:reportRights | 예(전체) | 예 |
-| NMS | nms:budget<br>nms:program<br>nms:operation<br>nms:plan<br>nms:TypioneryRule<br>nms:extAccount<br>nms:deliveryMapping<br>nms:delivery(즉시 복제)<br>nms:seed:seed 멤버<br>nms:webApp<br>nms:trackingUrl(즉시 복제)<br>nms:service<br>nms:offerEnv<br>nms:offerCategory<br>nms:offerSpace<br>nms ms:offer<br>nms:offerView<br>nms:recipient(증분?)<br><br>nms:<br>groupnms:<br>dlvExclusion:stock | 예(증분) | 예 |
-| NMS | nms:country<br>nms:localOrgUnit<br>nms:state<br>nms:suppressionAddress<br>nms:suppressionDomain<br>nms:category<br>nms:trackingUrlInfo<br>nms:webTrackingLog<br>nms:mobile App<br>nms:budgetCategory<br>nms:costType<br>nms:costCenter<br>nms:costStructure<br>nms:stockLine<br>nms:expenseLine<br>nms:cost:cost:costnmsnms4/>nms:costLine | 예(전체) | 예 |
-| NMS | nms:address<br>nms:userAgent<br>nms:userAgentReject<br>nms:userAgentStats<br>nms:broadLogMsg<br>nms:broadLog<br>nms:trackingLog<br>nms:deliveryStats <br>nms:appSubscription<br>nms:provision<br>nms:rcpGrpRel<br>nms:broadLogRcp<br>nms:excludeLogRcp<br>nms:trackingLogRcp<br>nms:provisionRcp<br>nms:localValidationRcp<br>nms:visitor<br>nms:broadLogVisitor<br>nms:trackingLogVisitor<br>nms:provisitor nms:webAppLogRcp<br>nms:appSubscriptionRcp<br>nms:broadLogAppSubRcp<br>nms:excludeLogAppSubRcp<br>nms:trackingLogLog appSubRcp<br>nms:eventHidto<br>nms:broadLogEventHitto<br>nms:trackingLogEventHitto<br>nms:subscription<br>nms:subHisto&lt;a2 9/>nms:trackingStats(Snowflake 사용만 해당)<br>nms:tmpBroadcast(Snowflake 사용만 해당)<br>nms:tmpBroadcastExclusion(Snowflake 사용만 해당)<br>nms:tmpBroadcastPaper(Snowflake 사용만 해당)<br><br> | 아니요 | 아니요 |
 
 **관련 항목**
 
 :arrow_upper_right:[Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)에서 워크플로우를 시작하는 방법을 알아봅니다.
 
 : 전구:[이 섹션](../dev/datamodel-best-practices.md#data-retention)의 데이터 보존 기간에 액세스
+
+
+## 데이터 복제{#data-replication}
+
+테이블은 위에서 설명한 전용 워크플로우를 통해 캠페인 데이터베이스에서 [!DNL Snowflake] 클라우드 데이터베이스로 복제됩니다.
+
+복제 정책은 테이블 크기를 기반으로 합니다. 일부 테이블이 복제됩니다. 일부 테이블은 실시간으로 복제되며, 다른 테이블은 시간별로 복제됩니다. 다른 테이블을 교체하면 일부 테이블에 증분 업데이트가 적용됩니다.
+
+| 네임스페이스 | 표 | 워크플로 복제 | 실시간 복제 |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | --------------------- |
+| **XTK** | xtk:enum<br>xtk:enumValue<br>xtk:enumAlias<br>xtk:folder<br>xtk:formRendering<br>xtk:operator<br>xtk:group<br>xtk:report<br>xtk:olapCube8/>xtk:olapDimension<br>xtk:olapMeasure<br>xtk:dictionaryString<br><br> | 예(증분) | 예 |
+| **XTK** | xtk:opsecurity<br>xtk:rights<br>xtk:operatorGroup<br>xtk:reportHistory<br>xtk:reportRights | 예(전체) | 예 |
+| **NMS** | nms:budget<br>nms:program<br>nms:operation<br>nms:plan<br>nms:TypioneryRule<br>nms:extAccount<br>nms:deliveryMapping<br>nms:delivery(즉시 복제)<br>nms:seed:seed 멤버<br>nms:webApp<br>nms:trackingUrl(즉시 복제)<br>nms:service<br>nms:offerEnv<br>nms:offerCategory<br>nms:offerSpace<br>nms ms:offer<br>nms:offerView<br>nms:recipient(증분?)<br><br>nms:<br>groupnms:<br>dlvExclusion:stock | 예(증분) | 예 |
+| **NMS** | nms:country<br>nms:localOrgUnit<br>nms:state<br>nms:suppressionAddress<br>nms:suppressionDomain<br>nms:category<br>nms:trackingUrlInfo<br>nms:webTrackingLog<br>nms:mobile App<br>nms:budgetCategory<br>nms:costType<br>nms:costCenter<br>nms:costStructure<br>nms:stockLine<br>nms:expenseLine<br>nms:cost:cost:costnmsnms4/>nms:costLine | 예(전체) | 예 |
+| **NMS** | nms:address<br>nms:userAgent<br>nms:userAgentReject<br>nms:userAgentStats<br>nms:broadLogMsg<br>nms:broadLog<br>nms:trackingLog<br>nms:deliveryStats <br>nms:appSubscription<br>nms:provision<br>nms:rcpGrpRel<br>nms:broadLogRcp<br>nms:excludeLogRcp<br>nms:trackingLogRcp<br>nms:provisionRcp<br>nms:localValidationRcp<br>nms:visitor<br>nms:broadLogVisitor<br>nms:trackingLogVisitor<br>nms:provisitor nms:webAppLogRcp<br>nms:appSubscriptionRcp<br>nms:broadLogAppSubRcp<br>nms:excludeLogAppSubRcp<br>nms:trackingLogLog appSubRcp<br>nms:eventHidto<br>nms:broadLogEventHitto<br>nms:trackingLogEventHitto<br>nms:subscription<br>nms:subHisto&lt;a2 9/>nms:trackingStats(Snowflake 사용만 해당)<br>nms:tmpBroadcast(Snowflake 사용만 해당)<br>nms:tmpBroadcastExclusion(Snowflake 사용만 해당)<br>nms:tmpBroadcastPaper(Snowflake 사용만 해당)<br><br> | 아니요 | 아니요 |
+
