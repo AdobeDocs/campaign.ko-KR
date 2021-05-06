@@ -5,9 +5,9 @@ title: 일반 아키텍처
 description: 캠페인 v8 일반 아키텍처
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 translation-type: tm+mt
-source-git-commit: 1bdc1f03a824f8867ae6066196e8e3984fa73af7
+source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Adobe Campaign에는 기본 이메일 브로드캐스트 기능이 있습니다.
 
 ## 데이터베이스 컨테이너 {#db-containers}
 
-Adobe Campaign Cloud 데이터베이스는 기능 데이터(프로필, 구독, 컨텐츠 등), 기술 데이터(배달 작업 및 로그, 추적 로그 등)가 포함된 Snowflake에 의존합니다. 및 솔루션에 대한 작업 데이터(구매, 리드) 및 모든 Adobe Campaign 구성 요소는 특정 작업을 수행하기 위해 데이터베이스와 통신합니다.
+Adobe Campaign Cloud 데이터베이스는 기능 데이터(프로필, 구독, 콘텐트 등), 기술 데이터(배달 작업 및 로그, 추적 로그 등)가 포함된 [!DNL Snowflake]을 사용합니다. 및 솔루션에 대한 작업 데이터(구매, 리드) 및 모든 Adobe Campaign 구성 요소는 특정 작업을 수행하기 위해 데이터베이스와 통신합니다.
 
 고객은 사전 정의된 데이터 마트 및 스키마를 사용하여 Adobe Campaign을 배포할 수 있고 확장할 수도 있습니다. 데이터 마트 내의 모든 데이터는 SQL 호출을 통해 Adobe Campaign에서 액세스합니다. 또한 Adobe Campaign은 데이터를 시스템에 가져오거나 시스템에 데이터를 내보낼 수 있는 ETL(Extract Transform and Load) 툴의 완벽한 보완 기능을 제공합니다.
 
