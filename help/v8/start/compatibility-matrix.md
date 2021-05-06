@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 translation-type: tm+mt
-source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
+source-git-commit: 29c13e6c1b08a5b0f6ba8bb433f7165e3e452942
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 27%
@@ -17,7 +17,7 @@ ht-degree: 27%
 
 # 캠페인 v8 호환성 표
 
-이 문서에서는 [Adobe Campaign v8 **의 최신 빌드](release-notes.md)에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다.** 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
+이 문서에서는 **Adobe Campaign v8**&#x200B;의 최신 빌드에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
 
 >[!CAUTION]
 >
