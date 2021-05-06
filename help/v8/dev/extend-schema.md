@@ -4,9 +4,9 @@ product: campaign
 title: 캠페인 스키마 확장
 description: 캠페인 스키마를 확장하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
+source-git-commit: 8e90eb762a6e08077270d4f5852bfc37ac783122
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '235'
 ht-degree: 1%
 
 ---
@@ -45,20 +45,26 @@ ht-degree: 1%
 
    ![](assets/extend-schema-edit.png)
 
-   아래 예제의 경우 멤버십 연도 속성을 추가하고 성(기본 이름을 덮어쓰게 됨)에 대한 길이 제한을 둔 다음 기본 제공 스키마에서 생년월일을 제거합니다.
+   아래 예에서 MembershipYear 속성을 추가하고 성 이름에 대해 길이 제한을 설정하고(이 제한은 기본 이름을 덮어씁니다) 기본 스키마에서 생년월일을 제거합니다.
+
+   ![](assets/extend-schema-sample.png)
 
    ```
    <srcSchema created="YY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
            img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YY-MM-DD"
            mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
-   <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
-           name="recipient">
-   <attribute name="Membership Year" label="memberYear" type="long"/>
+    <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
+          name="recipient">
+   <attribute label="Member since" name="MembershipYear" type="long"/>
    <attribute length="50" name="lastName"/>
    <attribute _operation="delete" name="birthDate"/>
    </element>
-   </srcSchema> 
+   </srcSchema>
    ```
+1. **[!UICONTROL Structure]** 탭에서 스키마 구조 업데이트를 확인하려면 Campaign의 연결을 끊거나 다시 연결하십시오.
+
+   ![](assets/extend-schema-structure.png)
 
 1. 데이터베이스 구조를 업데이트하여 변경 사항을 적용합니다. [자세히 알아보기](update-database-structure.md)
+
 1. 변경 사항이 데이터베이스에 구현되면 수신자 입력 양식을 조정하여 변경 사항을 표시할 수 있습니다. [자세히 알아보기](forms.md)
