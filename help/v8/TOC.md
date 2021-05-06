@@ -7,10 +7,10 @@ breadcrumb-title: 캠페인 v8
 title: 캠페인 v8 문서
 hide: true
 translation-type: tm+mt
-source-git-commit: 1bdc1f03a824f8867ae6066196e8e3984fa73af7
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 36%
+source-wordcount: '164'
+ht-degree: 37%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 36%
    + [Profiles &amp; Audiences](start/audiences.md)
    + [데이터 가져오기](start/import.md)
    + [캠페인 만들기](start/campaigns.md)
+   + [구독 관리](start/subscriptions.md)
    + [메시지 보내기](start/create-message.md)
    + [추적 및 모니터](start/tracking.md)
    + [지표 및 보고서](start/reporting.md)
@@ -80,6 +81,7 @@ ht-degree: 36%
       + [입력 양식](dev/forms.md)
    + API {#api}
       + [시작](dev/api.md)
+      + [새 API](dev/new-apis.md)
       + [캠페인 v8 API](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
 
 
