@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 translation-type: tm+mt
-source-git-commit: 9dcde5cff8b3bdbf240b01967cb27f9de8178f98
+source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Adobe Campaign v8의 새로운 기능{#ac-gs-what-is-new}
 
-Adobe Campaign v8에는 중요한 인프라, 보안, 제공 및 모니터링 기능이 개선되었습니다. Adobe Campaign은 클라우드 데이터베이스 기술인 Snowflake을 활용하여 고객의 규모와 속도를 크게 향상시키고 있으며, 더 많은 수의 고객 프로파일을 관리할 수 있을 뿐만 아니라 시간당 더욱 높은 전달 비율과 거래를 처리할 수 있습니다.
+Adobe Campaign v8에는 중요한 인프라, 보안, 제공 및 모니터링 기능이 개선되었습니다. Adobe Campaign은 클라우드 데이터베이스 기술인 [!DNL Snowflake]을 활용함으로써 고객의 규모와 속도를 크게 향상시키고 있으며, 더 많은 수의 고객 프로파일을 관리할 수 있을 뿐만 아니라 시간당 보다 높은 전달 비율과 트랜잭션을 처리할 수 있습니다.
 
 주요 기능은 다음과 같습니다.
 
@@ -40,7 +40,7 @@ Campaign v8은 타깃팅에서 최종 보고에 이르기까지 프로세스의 
 
 Campaign v8 데이터 관리 간소화:인덱스 없음, 데이터베이스 유지 관리 없음 Campaign v8에서는 클라우드 데이터베이스에 인덱스가 필요하지 않습니다. 표를 만들고 데이터를 복사하기만 하면 됩니다.
 
-Snowflake(일명 클라우드 데이터베이스)를 사용하면 속도와 인내심이 향상됩니다.시스템 활동이 과부하가 되지 않습니다.
+[!DNL Snowflake] 은 Campaign Cloud 데이터베이스이며, 다음과 같은 속도와 인내력을 발휘합니다.시스템 활동이 과부하가 되지 않습니다.
 
 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정 유지 관리가 필요하지 않습니다.
 
