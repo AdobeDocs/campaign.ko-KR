@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 translation-type: tm+mt
-source-git-commit: 5b9e381c154420c57a66e5b41b25bd4754036c60
+source-git-commit: ac75a1c085e13cd934af0f09ceba89c54bbc560a
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -28,7 +28,6 @@ Adobe Campaign에는 내장 프로필 테이블이 포함되어 있습니다.**n
 * 비표준 구조와 함께 프로필 데이터베이스 사용:단일 인스턴스를 사용하여 다양한 구조의 다양한 테이블에 저장된 프로파일에 전달할 수 있습니다.
 
 이 섹션에서는 Adobe Campaign의 기존 테이블을 매핑하기 위한 주요 포인트와 테이블을 기반으로 납품을 실행하는 데 적용할 구성 설정에 대해 설명합니다. 또한 최종 사용자를 위한 쿼리 인터페이스를 디자인하는 방법도 설명합니다.
-
 
 >[!CAUTION]
 >
