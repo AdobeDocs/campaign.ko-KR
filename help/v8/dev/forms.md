@@ -4,7 +4,7 @@ product: campaign
 title: 캠페인 입력 양식
 description: 입력 양식을 사용자 정의하는 방법 학습
 translation-type: tm+mt
-source-git-commit: b4d5ed24bcca46591543b835b2fec1c18b26fc74
+source-git-commit: 8e90eb762a6e08077270d4f5852bfc37ac783122
 workflow-type: tm+mt
 source-wordcount: '2557'
 ht-degree: 0%
@@ -292,8 +292,6 @@ Target 선택 항목은 편집 필드를 통해 액세스할 수 있습니다. �
 
 **[!UICONTROL Modify the link]**(폴더) 아이콘은 대상 요소 목록과 필터 영역이 있는 선택 양식을 시작합니다.
 
-![](assets/do-not-localize/form_exemple10.png)
-
 **[!UICONTROL Edit link]**(돋보기) 아이콘은 연결된 요소의 편집 양식을 시작합니다. 사용된 양식은 타깃팅된 스키마의 키에 기본적으로 추론됩니다. **form** 특성을 사용하면 편집 양식 이름(예:&quot;cus:company2&quot;).
 
 입력 양식의 링크 정의에서 **`<sysfilter>`** 요소를 추가하여 대상 요소 선택을 제한할 수 있습니다.
@@ -433,8 +431,6 @@ Target 선택 항목은 편집 필드를 통해 액세스할 수 있습니다. �
 
 이 컨트롤은 추가 및 삭제 단추가 포함된 도구 모음과 함께 편집 가능한 열 목록을 표시합니다.
 
-![](assets/do-not-localize/form_exemple13.png)
-
 ```
 <input xpath="rcpEvent" type="list">
   <input xpath="@label"/>
@@ -452,8 +448,6 @@ Target 선택 항목은 편집 필드를 통해 액세스할 수 있습니다. �
 
 도구 모음 단추를 가로로 정렬할 수 있습니다.
 
-![](assets/do-not-localize/form_exemple14.png)
-
 ```
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true">
   <input xpath="@label"/>
@@ -466,8 +460,6 @@ Target 선택 항목은 편집 필드를 통해 액세스할 수 있습니다. �
 ### 목록 {#zoom-in-a-list} 확대 사용
 
 목록의 데이터를 삽입하고 편집하는 작업은 별도의 편집 양식에 입력할 수 있습니다.
-
-![](assets/do-not-localize/form_exemple15.png)
 
 ```
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true" zoomOnAdd="true">
@@ -640,8 +632,6 @@ Target 선택 항목은 편집 필드를 통해 액세스할 수 있습니다. �
   ...
 </form>
 ```
-
-![](assets/do-not-localize/form_exemple19.png)
 
 `<form>` 요소에 **type=&quot;wizard&quot;** 특성이 있으므로 양식 구성에 마법사 모드를 정의할 수 있습니다. 페이지는 `<form>` 요소의 자식인 `<container>` 요소에서 완료됩니다. 페이지의 `<container>` 요소는 페이지 제목 아래에 설명을 표시하는 제목과 desc의 제목 속성으로 채워집니다. **[!UICONTROL Previous]** 및 **[!UICONTROL Next]** 단추가 자동으로 추가되어 페이지 간 검색을 허용합니다.
 
