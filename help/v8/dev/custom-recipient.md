@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 translation-type: tm+mt
-source-git-commit: fc258cac85f1f96b6d03d69eff4e7ac70ba4247d
+source-git-commit: 5b9e381c154420c57a66e5b41b25bd4754036c60
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -34,4 +34,3 @@ Adobe Campaign에는 내장 프로필 테이블이 포함되어 있습니다.**n
 >
 >Adobe Campaign 맞춤화는 전문가 사용자에게만 제공됩니다. 입력 양식과 스키마 디자인에 대한 전문 지식이 필요합니다.
 
-다음 사이트에서 유효하거나 유효하지 않은 항목을 확인하십시오.https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html?lang=en#configuring-campaign-classic
