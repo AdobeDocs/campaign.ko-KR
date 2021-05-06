@@ -4,7 +4,7 @@ product: campaign
 title: 캠페인 입력 양식
 description: 입력 양식을 사용자 정의하는 방법 학습
 translation-type: tm+mt
-source-git-commit: 8e90eb762a6e08077270d4f5852bfc37ac783122
+source-git-commit: 5adbec5dfc738c2bec260c0d2a7f80e5a232056c
 workflow-type: tm+mt
 source-wordcount: '2557'
 ht-degree: 0%
@@ -341,8 +341,6 @@ Target 선택 항목은 편집 필드를 통해 액세스할 수 있습니다. �
 ```
 
 입력 형식의 목록:
-
-![](assets/do-not-localize/form_exemple11.png)
 
 ```
  <input xpath="rcpEvent" type="linklist">
