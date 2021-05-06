@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 translation-type: tm+mt
-source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
+source-git-commit: c3eaaecd33c70be0b8c7e9e69a78aa43cf5d18b8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ Campaign v8은 타깃팅에서 최종 보고에 이르기까지 프로세스의 
 
 ## 간소화 및 성능 향상
 
-Campaign v8 데이터 관리 간소화:인덱스 없음, 데이터베이스 유지 관리 없음 Campaign v8에서는 클라우드 데이터베이스에 인덱스가 필요하지 않습니다. 표를 만들고 데이터를 복사하기만 하면 됩니다.
+Campaign v8은 **Full Federated Data Access**(FDA) 개념을 도입했습니다.이제 모든 데이터가 클라우드 데이터베이스에서 원격입니다.
+
+이 새로운 아키텍처로 Campaign v8을 사용하면 데이터 관리를 간소화할 수 있습니다.클라우드 데이터베이스에 인덱스가 필요하지 않습니다. 표를 만들고 데이터를 복사하기만 하면 됩니다.
 
 [!DNL Snowflake] 은 Campaign Cloud 데이터베이스이며, 다음과 같은 속도와 인내력을 발휘합니다.시스템 활동이 과부하가 되지 않습니다.
 
