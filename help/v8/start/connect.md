@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 translation-type: tm+mt
-source-git-commit: 97cc2dd6f78fac2723306f06bea74e808c84b4ad
+source-git-commit: c26e3b1af2f1706dbe2ca6cf9078f3e427e345cb
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '664'
 ht-degree: 4%
 
 ---
@@ -36,12 +36,6 @@ ht-degree: 4%
 >[!CAUTION]
 >
 >Adobe에서는 **[!UICONTROL No longer ask this question]** 옵션을 선택하지 않은 상태에서 새 버전의 콘솔을 사용할 수 있을 때 모든 사용자에게 경고가 표시되는지 확인할 것을 권장합니다.  이 옵션을 선택하면 사용자에게 사용 가능한 새 버전에 대한 정보를 제공하지 않습니다.
-
-### 자습서 비디오
-
-이 비디오에서는 Adobe Campaign 클라이언트를 설치하고 설정하는 방법을 보여 줍니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
 
 ## 연결 만들기
 
