@@ -5,9 +5,9 @@ description: toto
 title: Adobe Campaign v8 제품 설명서
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 translation-type: tm+mt
-source-git-commit: 5aaac8e63ef65ff7390e5263f877e7851e9be2c0
+source-git-commit: 5d62409009168045cdfd2349a2343710d879edca
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '87'
 ht-degree: 19%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 19%
 
 * **[구현 지침](start/implement.md)**  - 구현을 시작하는 방법 학습
 
-* **[Classic에서 v8로](start/capability-matrix.md)**  전환 - Campaign Classic에서 v8로 전환? 주요 차이점 학습
+* **[v7에서 v8로](start/capability-matrix.md)**  전환 - Campaign Classic v7에서 v8로 전환 주요 차이점 학습
 
 ## 시작
 
