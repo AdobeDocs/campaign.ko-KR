@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 translation-type: tm+mt
-source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
+source-git-commit: 29c13e6c1b08a5b0f6ba8bb433f7165e3e452942
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '383'
 ht-degree: 51%
 
 ---
@@ -45,7 +45,7 @@ Campaign Classic을 사용하여 작업하는 동안 도움이 필요하십니�
 
 1. 워크플로우 실행을 모니터링할 수 있습니까?
 
-   :arrow_upper_right:Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)에서 캠페인 워크플로우 실행 [을 모니터링하는 방법을 이해합니다.
+   :arrow_upper_right:Campaign Classic 문서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)에서 캠페인 워크플로우 실행 [을 모니터링하는 방법을 이해합니다.
 
 1. Campaign v8과 호환되는 시스템 및 구성 요소는 무엇입니까?
 
@@ -53,7 +53,7 @@ Campaign Classic을 사용하여 작업하는 동안 도움이 필요하십니�
 
 1. Campaign v8 릴리스 노트는 어디에 있습니까?
 
-   : 전구:이 페이지](release-notes.md)에서 최신 캠페인 릴리스 노트 [에 액세스할 수 있습니다.
+   : 전구:여기에서 최신 캠페인 릴리스 노트에 액세스할 수 있습니다.
 
 1. 도메인 구성의 절차는 무엇입니까?
 
