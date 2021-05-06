@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 translation-type: tm+mt
-source-git-commit: e802857529d2b72995ccc08563b2356d809e5309
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 57%
+source-wordcount: '384'
+ht-degree: 51%
 
 ---
 
@@ -41,11 +41,11 @@ Campaign Classic을 사용하여 작업하는 동안 도움이 필요하십니�
 
    Adobe Campaign에는 전자 메일 게재를 모니터링하는 대시보드 및 도구 세트가 포함되어 있습니다.
 
-   메시지가 전송되고 있는지 확인하고 실행을 모니터링하며 오류가 발생하면 작업을 수행하는 방법을 [보려면 여기를 클릭하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html).
+   [Campaign Classic v7 설명서를 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html) 참조하여 메시지가 전송되는지 확인하고, 오류가 발생하는 경우 실행을 모니터링하고 작업을 수행하는 방법을 알아보십시오.
 
 1. 워크플로우 실행을 모니터링할 수 있습니까?
 
-   :arrow_upper_right:이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)에서 캠페인 워크플로우 실행 [을 모니터링하는 방법을 이해합니다.
+   :arrow_upper_right:Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)에서 캠페인 워크플로우 실행 [을 모니터링하는 방법을 이해합니다.
 
 1. Campaign v8과 호환되는 시스템 및 구성 요소는 무엇입니까?
 
