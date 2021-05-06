@@ -4,7 +4,7 @@ product: campaign
 title: 캠페인 보안 모범 사례
 description: Campaign 보안 모범 사례 시작하기
 translation-type: tm+mt
-source-git-commit: c2d066ca2f935455861c3d6747c9805c847f2e0d
+source-git-commit: aad5f67453079211b14e371da09e9dfc757acba9
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -76,14 +76,7 @@ Adobe은 디지털 경험의 보안을 매우 중요하게 생각합니다. 보�
    확장된 srcSchema는 다음과 같습니다.
 
    ```
-   <srcSchema _cs="External Accounts (cus)" created="2017-05-12 07:53:49.691Z" createdBy-id="0"
-               desc="Definition of external accounts (Email, SMS...) used by the modules"
-               entitySchema="xtk:srcSchema" extendedSchema="nms:extAccount" img="" label="External Accounts"
-               labelSingular="External account" lastModified="2017-05-12 08:33:49.365Z"
-               mappingType="sql" md5="E9BB0CD6A4375F500027C86EA854E101" modifiedBy-id="0"
-               name="extAccount" namespace="cus" xtkschema="xtk:srcSchema">
-       <createdBy _cs="Administrator (admin)"/>
-       <modifiedBy _cs="Administrator (admin)"/>
+   <...>
        <element name="extAccount">
            <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
            <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
@@ -100,7 +93,7 @@ Adobe은 디지털 경험의 보안을 매우 중요하게 생각합니다. 보�
                <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
            </element>
        </element>
-   </srcSchema>    
+   <...> 
    ```
 
    >[!NOTE]
