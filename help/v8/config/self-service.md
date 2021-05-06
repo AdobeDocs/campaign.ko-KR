@@ -7,10 +7,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 1eab5e9c54f2653b4b8ca9a7c2c4b06231980ed5
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 57%
+source-wordcount: '358'
+ht-degree: 58%
 
 ---
 
@@ -28,28 +28,29 @@ ht-degree: 57%
 
 ## Campaign 컨트롤 패널에는 어떻게 액세스하나요?
 
-Campaign 컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 관리자에게만 액세스할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/accessing-control-panel.html)하십시오.
+Campaign 컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 관리자에게만 액세스할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html)하십시오.
 
 ## Campaign 컨트롤 패널 FAQ
 
-[여기를 클릭](https://docs.adobe.com/content/hecontrol-panel/using/faq.html)하여 Campaign 컨트롤 패널 FAQ에 액세스합니다.
+[여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html)하여 Campaign 컨트롤 패널 FAQ에 액세스합니다.
 
 ## SFTP 관리
 
-Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 저장소 용량을 모니터링하고, 허용 목록의 IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://docs.adobe.com/content/hecontrol-panel/using/sftp-management/about-sftp-management.html)하십시오.
+Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 저장소 용량을 모니터링하고, 허용 목록의 IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko#sftp-management)하십시오.
 
 ## 하위 도메인 및 인증서
 
 하위 도메인 및 해당 인증서를 모니터링할 수 있습니다. 자세히 알아보기:
-* [하위 도메인 브랜딩](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/subdomains-branding.html)
-* [새 하위 도메인 설정](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
-* [SSL 인증서 모니터링](https://docs.adobe.com/content/hecontrol-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html)
+* [하위 도메인 브랜딩](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+* [새 하위 도메인 설정](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
+* [SSL 인증서 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html)
 
 ## 인스턴스 설정
 
 Campaign 컨트롤 패널에서 캠페인 인스턴스 설정을 관리하는 방법을 알아봅니다.
-* [허용 목록의 IP](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/ip-whitelisting-instance-access.html)
-* [URL 권한](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/url-permissions.html)
-* [인스턴스 세부 사항](https://docs.adobe.com/content/hecontrol-panel/using/instances-settings/instance-details.html)
+* [허용 목록의 IP](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
+* [URL 권한](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
+* [인스턴스 세부 사항](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
+* [GPG 키 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
 
 :arrow_upper_right:[이 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)에서 모든 Campaign 컨트롤 패널 기능을 검색합니다.
