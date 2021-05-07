@@ -1,13 +1,13 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Campaign에서 구독 및 구독 취소 관리
 description: Campaign v8에서 구독 및 구독 취소 관리 방법 알아보기
 feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
