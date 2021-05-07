@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: 캠페인 및 실시간 고객 데이터 플랫폼 사용
 description: Adobe Campaign과 실시간 고객 데이터 플랫폼을 사용하여 작업하는 방법 살펴보기
 feature: 개요
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 translation-type: tm+mt
-source-git-commit: c2d066ca2f935455861c3d6747c9805c847f2e0d
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
