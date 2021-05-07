@@ -8,7 +8,7 @@ breadcrumb-title: 캠페인 v8
 title: 캠페인 v8 문서
 hide: true
 translation-type: tm+mt
-source-git-commit: 7b8de5083836e906f563250e1a86b46abcd68650
+source-git-commit: 21172287921c9188037fe6e4306f755826d783f8
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 36%
@@ -28,8 +28,8 @@ ht-degree: 36%
    + [Profiles &amp; Audiences](start/audiences.md)
    + [데이터 가져오기](start/import.md)
    + [캠페인 만들기](start/campaigns.md)
-   + [구독 관리](start/subscriptions.md)
    + [메시지 보내기](start/create-message.md)
+   + [구독 관리](start/subscriptions.md)
    + [추적 및 모니터](start/tracking.md)
    + [지표 및 보고서](start/reporting.md)
    + [FAQ](start/campaign-faq.md)
