@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: 추적 및 모니터링 기능 시작하기
 description: 추적 및 모니터링 기능 시작하기
 feature: 개요
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
 translation-type: tm+mt
-source-git-commit: 2fd86324b34b7a7d1e1cb36d1073b5adc24ebda7
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 2%
