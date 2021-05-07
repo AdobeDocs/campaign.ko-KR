@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 81a6d365554d87b020d47be6fd6a896f8ad33d57
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 29%
+source-wordcount: '702'
+ht-degree: 26%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign은 개인 정보와 중요한 데이터를 포함한 많은 양�
 
 계약에 따라 각 캠페인 인스턴스에는 청구 용도로 계산되는 특정 양의 활성 프로필이 제공됩니다. 구입한 활성 프로필 수에 대한 자세한 내용은 최신 계약서를 참조하십시오.
 
-&quot;프로파일&quot;은 정보 기록을 의미합니다(예:최종 고객, 잠재 고객 또는 리드를 나타내는 [수신자 테이블](../dev/datamodel.md)의 레코드 또는 특정 채널과 관련된 쿠키 ID, 고객 ID, 모바일 식별자 또는 기타 정보가 들어 있는 외부 테이블의 레코드입니다. 지난 12개월 동안 어느 채널을 통해 프로필을 타겟팅하거나 통신한 경우 프로필이 활성 상태로 간주됩니다.
+&quot;프로파일&quot;은 정보 기록을 의미합니다(예:최종 고객, 잠재 고객 또는 리드를 나타내는 [수신자 테이블](../dev/datamodel.md)의 레코드 또는 특정 채널과 관련된 쿠키 ID, 고객 ID, 모바일 식별자 또는 기타 정보가 들어 있는 외부 테이블의 레코드입니다. 지난 12개월 이내에 모든 채널을 통해 프로파일을 타깃팅하거나 커뮤니케이션한 경우 프로파일이 활성 상태로 간주됩니다.
 
 캠페인 Campaign 컨트롤 패널에서 직접 인스턴스에 사용된 활성 프로필 수를 모니터링할 수 있습니다.
 
