@@ -1,13 +1,13 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: 캠페인 트랜잭션 메시지 설정
 description: 캠페인 트랜잭션 메시지 설정
 feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: c2d066ca2f935455861c3d6747c9805c847f2e0d
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
