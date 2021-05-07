@@ -1,13 +1,13 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Adobe Campaign으로 다이렉트 메일 보내기
 description: Campaign에서 DM 시작하기
 feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 87836271deb6bd69b7fed07108884e49a55f814a
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 1%
