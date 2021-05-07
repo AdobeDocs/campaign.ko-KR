@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 085648ae3c21971993558f913079877caeef70d7
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '906'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## 캠페인의 추적 기능
 
-캠페인 추적 기능은 전송된 메시지를 추적하고 수신자의 행동을 분석하는 데 도움이 됩니다.열기, 링크 클릭, 구독/구독 취소 등. 전용 로그, 보고서 및 지표에 액세스하고 데이터베이스를 쿼리하여 수집된 데이터를 검토할 수 있습니다.
+캠페인 추적 기능은 전송된 메시지를 추적하고 수신자의 동작을 분석하는 데 도움이 됩니다.열기, 링크 클릭, 구독/구독 취소 등. 전용 로그, 보고서 및 지표에 액세스하고 데이터베이스를 쿼리하여 수집된 데이터를 검토할 수 있습니다.
 
 :arrow_upper_right: 자세한 내용은 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#tracking-tab)를 참조하십시오.
 
