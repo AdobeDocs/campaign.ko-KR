@@ -1,13 +1,13 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: 캠페인 웹 애플리케이션 및 웹 양식
 description: 웹 애플리케이션 및 웹 양식 시작하기
 feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 7cb9f1029cbec70d8cacb912c213e2b4b1a42431
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
