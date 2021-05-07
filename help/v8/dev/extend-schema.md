@@ -1,10 +1,10 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: 캠페인 스키마 확장
 description: 캠페인 스키마를 확장하는 방법 알아보기
 translation-type: tm+mt
-source-git-commit: 8e90eb762a6e08077270d4f5852bfc37ac783122
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 1%
