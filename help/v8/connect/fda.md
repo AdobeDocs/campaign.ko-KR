@@ -1,13 +1,13 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: 캠페인 및 외부 데이터베이스(FDA)를 사용한 작업
 description: 캠페인 및 외부 데이터베이스를 사용하여 작업하는 방법 학습
 feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 57cd4fb8287cdcc16b4ed803a31b3b84840b2834
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 2%
