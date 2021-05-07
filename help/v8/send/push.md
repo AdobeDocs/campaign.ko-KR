@@ -1,13 +1,13 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Adobe Campaign을 사용하여 푸시 알림 보내기
 description: Campaign에서 푸시 알림 시작하기
 feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 32f73f8ecf2ce66fa6e58adb5bce7320fc65f94c
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
