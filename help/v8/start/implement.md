@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 9b6190f48373b772a72d6c1ef1b7510ec41112be
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1159'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ## 시작하기 전
 
-이 섹션에는 구현을 시작하기 전에 개인 정보 및 보안에 대해 관리해야 하는 개발자를 위한 정보가 포함되어 있습니다.
+이 섹션에는 실제 구현을 시작하기 전에 검토하고 고려해야 하는 개인 정보 및 보안에 대한 중요한 정보가 포함되어 있습니다.
 
 ### 개인 정보
 
@@ -88,7 +88,7 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호 법 및 수
 
 1. Adobe Campaign에 내장된 데이터 모델 활용
 
-   Adobe Campaign은 사전 정의된 데이터 모델을 제공합니다. 환경을 구현하고 사용자 정의하려면 Adobe Campaign 데이터 모델의 내장된 테이블과 상호 작용에 익숙해야 합니다.
+   Adobe Campaign은 사전 정의된 데이터 모델을 제공합니다. 환경을 구현하고 사용자 정의하려면 Adobe Campaign 데이터 모델의 내장된 표와 이러한 데이터 모델이 서로 어떻게 연관되어 있는지 알아야 합니다.
 
    : 전구:[캠페인 데이터 모델](../dev/datamodel.md)에 대해 자세히 알아보십시오.
 
