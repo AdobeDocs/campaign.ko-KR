@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: e068642c1bc5bf5f0329fc09f7ca6ddbd1683d6a
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1480'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,10 @@ ht-degree: 1%
 
 :speech_bal풍선:관리 Cloud Services 사용자는 [Adobe](../start/support.md#support)에 연락하여 사용자 환경에서 캠페인 트랜잭션 메시지를 설치하고 구성합니다.
 
-트랜잭션 메시지는 다음에 사용됩니다.
+트랜잭션 메시지는 다음과 같이 전송하는 데 사용됩니다.
 
 * 알림(예: 주문 확인 또는 암호 재설정)
-* 고객 행동에 대한 개별 실시간 응답을 보냅니다.
+* 고객 행동에 대한 개별 실시간 응답
 * 홍보하지 않는 컨텐츠
 
 : 전구:트랜잭션 메시지 설정은 [이 섹션](../config/transactional-msg-settings.md)에 자세히 설명되어 있습니다.
