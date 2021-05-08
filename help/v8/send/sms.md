@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: bbaa603e73d4c1618f326624600ea3d357b265e6
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '309'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ SMS를 보내는 주요 단계는 다음 섹션에 자세히 설명되어 있습
 
 * [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#sending-messages)에서 SMS 채널을 구성하는 방법에 대해 알아봅니다.
 * [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#sending-messages)에서 SMS 배달을 만드는 방법에 대해 알아봅니다.
-* 대상을 정의하는 단계는 이 페이지](../start/audiences.md)에 자세히 [입니다.
+* 대상을 정의하는 단계는 이 페이지](../start/audiences.md)에 자세한 [입니다.
 * [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#defining-the-sms-content)에서 SMS 컨텐츠를 정의하는 방법을 알아봅니다.
 * SMS를 전송, 모니터링 및 추적하는 도구는 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html?lang=en#sending-messages)에 설명되어 있습니다.
 * [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html?lang=en#sending-messages)에서 SMS 배달 문제를 해결하는 방법에 대해 알아봅니다.
@@ -30,7 +30,7 @@ SMS를 보내는 주요 단계는 다음 섹션에 자세히 설명되어 있습
 SMS 전송을 시작하기 전:
 
 * 받는 사람 프로필에 휴대폰이 하나 이상 포함되어 있는지 확인합니다.
-* Campaign v8에도 적용되는 Adobe Campaign Classic [배달 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages)를 읽어 보십시오.
+* Campaign v8에도 적용되는 Adobe Campaign Classic [배달 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages)를 검토하십시오.
 
 또한 SMS 프로토콜 및 설정에 익숙해야 합니다. [이 문서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=en#sending-messages)에서 Adobe Campaign과 SMPP 공급자 사이에 설정된 연결을 살펴보십시오.
 
