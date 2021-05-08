@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: ddf60fb823cb0df99bdf3bc99f17d7a1abe6a33b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '562'
 ht-degree: 6%
 
 ---
@@ -25,13 +25,13 @@ ht-degree: 6%
 
 ## 새 데이터 필드 및 스키마 만들기
 
-Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
+Adobe Campaign에서는 데이터 스키마를 사용하여 다음을 수행합니다.
 
 * 애플리케이션 내의 데이터 개체가 기본 데이터베이스 테이블에 연결되어 있는 방식을 정의합니다
 * Campaign 애플리케이션 내에서 서로 다른 데이터 개체 간의 링크를 정의합니다
 * 각 개체에 포함된 개별 필드를 정의하고 설명합니다
 
-받는 사람 테이블(nms:recipient)과 같은 필드를 기존 테이블에 추가할 수 있으므로 해당 스키마를 확장해야 합니다.
+예를 들어 받는 사람 테이블(nms:recipient)과 같은 필드를 기존 테이블에 추가하려면 해당 스키마를 확장해야 합니다.
 
 두 개의 표 확장 모드를 사용할 수 있습니다.
 
@@ -44,7 +44,7 @@ Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
    : 전구:[이 섹션](../dev/extend-schema.md)에서 기존 스키마를 확장하는 방법을 알아봅니다.
 
 
-Campaign 데이터베이스에서 새 테이블을 만들고 내장 데이터 모델을 확장할 수 있습니다.
+캠페인 데이터베이스에서 새 테이블을 만들고 내장 데이터 모델을 확장할 수도 있습니다.
 
 Adobe Campaign에 기본적으로 존재하지 않는 완전히 새로운 유형의 데이터(예: 계약서 표)를 추가하려면 사용자 정의 스키마를 직접 만들 수 있습니다. 자세한 내용은 [이 예제](../dev/create-schema.md#example--creating-a-contract-table)를 참조하십시오.
 
@@ -57,7 +57,7 @@ Adobe Campaign에 기본적으로 존재하지 않는 완전히 새로운 유형
 
 ## 입력 양식 수정
 
-캠페인 입력 양식을 구현에 맞게 조정할 수 있습니다. XML 내용을 수정하여 필드를 추가하거나 제거할 수 있습니다.
+캠페인 입력 양식을 구현에 맞게 조정할 수 있습니다. XML 내용을 수정하여 양식 필드를 추가하거나 제거할 수 있습니다.
 
 : 전구:기존 입력 양식을 수정하거나 [이 섹션](../dev/forms.md)에서 새 양식을 만드는 방법에 대해 알아봅니다.
 
