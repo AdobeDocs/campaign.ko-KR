@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 84ee7eb2bf2e15d30c81f32f6b25c9801b3b12b1
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '253'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Adobe Campaign에는 내장 프로필 테이블이 포함되어 있습니다.**nmsRecipient**. 이 표에는 미리 정의된 필드 및 표가 많이 있으며 쉽게 확장할 수 있습니다. [이 페이지](datamodel.md#ootb-profiles)에서 이 표에 대해 자세히 알아보십시오.
 
-내장 표 확장 기능은 뛰어난 유연성을 제공하지만 사용하지 않는 일부 필드나 링크를 제거할 수는 없습니다. 따라서 데이터 모델이 Campaign 기본 제공 받는 사람 테이블 구조와 크게 다르거나 프로필이 많은 경우 사용자 지정 수신자 테이블을 사용하는 것이 좋습니다.  다만, 이 방법을 구현할 때에는 특정한 예방책이 필요하다.
+기본 제공 표 확장 기능은 유연성을 제공하지만 사용하지 않는 일부 필드나 링크를 제거할 수는 없습니다. 따라서 데이터 모델이 Campaign 기본 제공 받는 사람 테이블 구조와 크게 다르거나 프로필이 많은 경우 사용자 지정 수신자 테이블을 사용하는 것이 좋습니다.  다만, 이 방법을 구현할 때에는 특정한 예방책이 필요하다.
 
 이 기능을 통해 Adobe Campaign은 외부 데이터베이스의 데이터를 처리할 수 있습니다.이 데이터는 배달용 프로필 세트로 사용됩니다. 이 프로세스를 구현하려면 다음과 같은 제한 사항이 포함됩니다.
 
