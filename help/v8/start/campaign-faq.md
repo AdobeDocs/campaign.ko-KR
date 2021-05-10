@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 translation-type: tm+mt
-source-git-commit: 0f9827319484a84e762cf651fed18d704d4af66e
+source-git-commit: f413844de6b71b6a7d5b681af9ceb47a1f5ecaae
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 48%
@@ -25,7 +25,7 @@ Campaign을 사용하여 작업하는 동안 도움이 필요하십니까? 아�
 
    이러한 정기 업데이트 빈도는 최신 업데이트를 직접 경험해 보고 환경을 안전하게 지키며 Adobe 제품을 통해 경험을 향상시키는 것을 목표로 합니다. Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 생각하는 이유입니다.
 
-   환경을 업그레이드하려면 고객 지원 센터에 문의하십시오.
+   환경을 업그레이드하려면 Adobe 고객 지원 센터에 문의하십시오.
 
 1. Campaign v8에 연결하려면 어떻게 해야 합니까?
 
