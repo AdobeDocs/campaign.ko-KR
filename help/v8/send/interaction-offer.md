@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 3%
@@ -188,9 +188,9 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 :arrow_upper_right:자세한 내용은 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)를 참조하십시오.
 
-## 오퍼 프레젠테이션 관리
+## 오퍼 프레젠테이션 관리{#offer-presentation}
 
-Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 제안 흐름을 제어할 수 있습니다. 이러한 규칙은 캠페인 상호 작용에만 해당되며 분류 규칙입니다. 수신자에게 이미 수행한 proposition의 내역을 기반으로 오퍼를 제외할 수 있습니다. 이 항목은 환경에서 참조됩니다.
+Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 제안 흐름을 제어할 수 있습니다. 이러한 규칙은 캠페인 상호 작용에만 해당되며 **분류 규칙**&#x200B;입니다. 수신자에게 이미 수행한 proposition의 내역을 기반으로 오퍼를 제외할 수 있습니다. 이 항목은 환경에서 참조됩니다.
 
 :arrow_upper_right:자세한 내용은 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)를 참조하십시오.
 
