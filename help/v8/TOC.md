@@ -8,10 +8,10 @@ breadcrumb-title: 캠페인 v8
 title: 캠페인 v8 문서
 hide: true
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: 6f84e739f25caf5dbd2ef964e38a6264e4b4342b
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 34%
+source-wordcount: '197'
+ht-degree: 35%
 
 ---
 
@@ -57,6 +57,7 @@ ht-degree: 34%
          + [연산자 만들기](send/interaction-operators.md)
          + [환경 만들기](send/interaction-env.md)
          + [미리 정의된 필터 만들기](send/interaction-predefined-filters.md)
+         + [오퍼 공간 만들기](send/interaction-offer-spaces.md)
       + [오퍼 카탈로그 만들기](send/interaction-offer-catalog.md)
       + [오퍼 만들기](send/interaction-offer.md)
       + [오퍼 보내기](send/interaction-send-offers.md)
