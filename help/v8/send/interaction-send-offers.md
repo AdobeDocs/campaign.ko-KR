@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
@@ -150,7 +150,7 @@ ht-degree: 2%
 
 그러나 다음과 같이 이 정보를 저장할 수 있습니다.
 
-1. 쿼리 후와 배달 활동 전에 제출한 데이터 연계 강화 활동에서 오퍼 엔진에 대한 호출을 만듭니다. [자세히 알아보기](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine)
+1. 쿼리 후와 배달 활동 전에 제출한 데이터 연계 강화 활동에서 오퍼 엔진에 대한 호출을 만듭니다. [자세히 알아보기](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. 활동의 기본 창에서 **[!UICONTROL Edit additional data...]**&#x200B;을 선택합니다.
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -203,8 +203,7 @@ ht-degree: 2%
 
       ![](assets/int_offer_per_cell1.png)
 
-1. 그런 다음 선택한 채널에 해당하는 배달 활동을 구성합니다. 이에 대한 자세한 내용은 [전달](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery) 섹션에 오퍼 제안 삽입 섹션을 참조하십시오.
-
+1. 그런 다음 선택한 채널에 해당하는 배달 활동을 구성합니다.
 
 <!--
 
