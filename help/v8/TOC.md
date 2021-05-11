@@ -8,10 +8,10 @@ breadcrumb-title: 캠페인 v8
 title: 캠페인 v8 문서
 hide: true
 translation-type: tm+mt
-source-git-commit: 6f84e739f25caf5dbd2ef964e38a6264e4b4342b
+source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 35%
+source-wordcount: '199'
+ht-degree: 34%
 
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 35%
    + [이메일](send/email.md)
    + [SMS](send/sms.md)
    + [푸시 알림](send/push.md)
+   + [LINE 메시징](send/line.md)
    + [DM](send/direct-mail.md)
    + [트랜잭션 메시지 ](send/transactional.md)
    + 오퍼 추가{#interaction}
