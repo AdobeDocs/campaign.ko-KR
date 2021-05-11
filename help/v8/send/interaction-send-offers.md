@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: fcc0165aeba4347a53d33bed95aa7fbb5fa27005
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 2%
@@ -184,7 +184,7 @@ ht-degree: 2%
 
    ![](assets/int_offerengine_activity1.png)
 
-1. 그런 다음 선택한 채널에 해당하는 배달 활동을 구성합니다. [자세히 알아보기](inserting-an-offer-proposition-into-a-delivery)
+1. 그런 다음 선택한 채널에 해당하는 배달 활동을 구성합니다. [자세히 알아보기](#inserting-an-offer-proposition-into-a-delivery)
 
 ### 셀별 오퍼 {#offers-by-cell}
 
