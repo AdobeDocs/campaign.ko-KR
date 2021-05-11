@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: e94080bc5e56e642494de48ff4b739b806c6e2e7
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 27%
+source-wordcount: '323'
+ht-degree: 28%
 
 ---
 
@@ -55,12 +55,54 @@ ht-degree: 27%
 * **Microsoft Windows Server** 2016, 2012
 * **Microsoft Windows** 8, 10(일본어 인스턴스 권장)
 
+## 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
+
+:경고:캠페인 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
+
+### 운영 체제
+
+<table>
+<tbody>
+<tr>
+<td>Microsoft Windows Server</td>
+<td>
+<p>2016</p>
+<p>2012</p>
+</td>
+</tr>
+<tr>
+<td>Microsoft Windows</td>
+<td>
+<p>8</p>
+<p>10(일본어 인스턴스에 권장)</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 브라우저
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Internet Explorer</p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 모바일 SDK{#MobileSDK}
 
 * **Android** 7.x, 8.x, 9.0(모바일 SDK 빌드 1.0.27).
 * **Apple iOS** 9 - 모바일 SDK 빌드 1.0.26 14는 32비트 및 64비트 버전과 호환됩니다.
 
 ## 지원되는 브라우저 {#Browsers}
+
+다음 브라우저는 웹 액세스에 대한 캠페인과 호환됩니다.
 
 * **Microsoft Edge**,  **Mozilla Firefox**,  **Google Chrome**,  **Safari** (최신 버전)
 
