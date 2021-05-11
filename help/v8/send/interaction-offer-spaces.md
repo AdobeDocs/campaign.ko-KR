@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '606'
 ht-degree: 3%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 3%
 오퍼 카탈로그 컨텐츠는 오퍼 공간에 구성됩니다. 기본적으로 컨텐츠에는 다음 필드가 포함될 수 있습니다.**[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** 및 **[!UICONTROL Text content]**. 필드 시퀀스는 오퍼 공간에 구성됩니다.
 
 **기술 관리자**&#x200B;는 디자인 환경에서 오퍼 공간을 만들 수 있습니다. 오퍼 공간 하위 폴더에 액세스할 수 있어야 합니다. 오퍼가 생성되면 이러한 오퍼 공간은 오퍼 승인 중에 라이브 환경에 자동으로 복제됩니다.
-
-고급 매개 변수를 사용하면 연락처 식별 키(예: 다양한 요소, 이름 및 이메일 필드로 구성할 수 있음)를 지정할 수 있습니다. 자세한 내용은 [식별된 오퍼](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer) 표시 섹션을 참조하십시오.
 
 HTML 렌더링은 렌더링 함수를 통해 만들어집니다. 렌더링 함수에 정의된 필드의 시퀀스는 컨텐츠에 구성된 시퀀스와 동일해야 합니다.
 
@@ -66,8 +64,6 @@ HTML 렌더링은 렌더링 함수를 통해 만들어집니다. 렌더링 함�
 1. 렌더링 함수를 삽입합니다.
 
    ![](assets/offer_space_create_007.png)
-
-필요한 경우 HTML 및 텍스트 렌더링 함수를 오버로드할 수 있습니다. [자세히 알아보기](../../interaction/using/about-inbound-channels.md)
 
 ## 제안 상태 {#offer-proposition-statuses}
 
@@ -161,5 +157,5 @@ As soon as a visitor clicks the offer, and therefore the URL, the **[!UICONTROL 
 ![](assets/offer_space_overview_001.png)
 
 <!--
-The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to [Extension example](../../interaction/using/extension-example.md)).
+The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to Extension example.
 -->
