@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 translation-type: tm+mt
-source-git-commit: 221adcce8951a3884b83d5e5e2de1a73fbe96050
+source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '686'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,8 @@ Adobe Campaign v8에는 다음과 같은 전달 채널이 포함되어 있습니
 * **모바일 채널**:모바일 채널을 통해 전달하면 개인화된 SMS를 대상 모집단으로 보낼 수 있습니다.  [이 페이지](../send/sms.md)에서 자세히 알아보기
 
 * **모바일 애플리케이션 채널**:모바일 앱 게재를 사용하면 iOS 및 Android 시스템에 알림을 전송할 수 있습니다.  [이 페이지](../send/push.md)에서 자세히 알아보기
-* **LINE 채널**:LINE 배달 기능을 사용하면 모든 스마트폰에서 사용할 수 있는 인스턴트 메시징 애플리케이션인 LINE에서 메시지를 보낼 수 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html)에서 자세히 알아보기
+
+* **LINE 채널**:LINE 배달 기능을 사용하면 모든 스마트폰에서 사용할 수 있는 인스턴트 메시징 애플리케이션인 LINE에서 메시지를 보낼 수 있습니다. [이 페이지](../send/line.md)에서 자세히 알아보기
 
 ## 메시지를 보내는 방법 선택
 
