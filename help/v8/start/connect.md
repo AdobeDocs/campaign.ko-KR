@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 1ac6b58e1d5731d4df4d6d7c6a9b25f0f41ff563
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '674'
 ht-degree: 4%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 4%
 
 캠페인 클라이언트 콘솔은 캠페인 응용 프로그램 서버에 연결할 수 있는 리치 클라이언트입니다.
 
->[!CAUTION]
->
->시작하기 전에 캠페인 [호환성 매트릭스](compatibility-matrix.md)를 확인하고 캠페인 서버 URL과 사용자 자격 증명을 가져와야 합니다.
+시작하기 전에 다음을 수행해야 합니다.
+
+* [호환성 매트릭스](compatibility-matrix.md)에서 Adobe Campaign과 시스템 및 도구 호환성 확인
+* 캠페인 서버 URL 가져오기
+* 사용자 자격 증명 얻기
 
 ## 클라이언트 콘솔 다운로드 및 설치
 
@@ -93,7 +95,6 @@ Adobe Campaign에서는 다양한 연산자에 할당된 권한을 정의하고 
 사용자에 대한 자세한 내용과 권한을 [이 섹션](permissions.md)에서 정의하는 방법에 대해 알아보십시오.
 
 캠페인 관리자는 연산자를 만들고 사용자와 해당 자격 증명을 공유할 책임이 있습니다.
-
 
 ## Adobe ID{#connect-ims}에서 캠페인에 연결
 
