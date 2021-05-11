@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 1%
@@ -68,22 +68,22 @@ ht-degree: 1%
 
 1. 사용자 프로필을 만듭니다. [자세히 알아보기](interaction-operators.md)
 1. (선택 사항) 각 타깃팅 차원에 대한 오퍼 환경을 만듭니다. [자세히 알아보기](interaction-env.md)
-1. 각 환경에 대한 유형 규칙을 만듭니다. [자세히 알아보기](../../interaction/using/managing-offer-presentation.md#creating-and-referencing-an-offer-presentation-rule)
-1. 각 환경에 대한 오퍼 공간을 만들고 렌더링 기능을 구성합니다. [자세히 알아보기](../../interaction/using/creating-offer-spaces.md)
+1. 각 환경에 대한 유형 규칙을 만듭니다. [자세히 알아보기](interaction-offers.md#offer-presentation)
+1. 각 환경에 대한 오퍼 공간을 만들고 렌더링 기능을 구성합니다. [자세히 알아보기](interaction-offer-spaces.md)
 식별된 모드에서 단일 채널로 공백이 정의된 경우 이 공간에 대한 고급 매개 변수를 지정해야 합니다.
 
 ### 오퍼 카탈로그 만들기 및 게시 {#managing-the-offer-catalog-}
 
 **오퍼 관리자**&#x200B;는 다음 작업을 수행해야 합니다.
 
-1. 디자인 환경에서 오퍼 카테고리를 만듭니다. [자세히 알아보기](../../interaction/using/creating-offer-categories.md)
-1. 디자인 환경에서 오퍼를 만듭니다. [자세히 알아보기](../../interaction/using/creating-an-offer.md)
-1. 게재 관리자의 라이브 환경에서 오퍼를 사용할 수 있도록 하려면 하나 이상의 공간에 오퍼를 승인하고 게시하십시오. [자세히 알아보기](../../interaction/using/approving-and-activating-an-offer.md)
+1. 디자인 환경에서 오퍼 카테고리를 만듭니다. [자세히 알아보기](interaction-offer-catalog.md#creating-offer-categories)
+1. 디자인 환경에서 오퍼를 만듭니다. [자세히 알아보기](interaction-offer.md)
+1. 게재 관리자의 라이브 환경에서 오퍼를 사용할 수 있도록 하려면 하나 이상의 공간에 오퍼를 승인하고 게시하십시오. [자세히 알아보기](interaction-offer.md#approve-offers)
 
 ### 오퍼 카탈로그 사용 {#using-the-offer-catalog-}
 
 **배달 관리자**&#x200B;는 다음 작업을 수행해야 합니다.
 
 1. 캠페인 만들기.
-1. 캠페인 또는 게재의 오퍼를 참조합니다. [자세히 알아보기](../../interaction/using/about-outbound-channels.md)
+1. 캠페인 또는 게재의 오퍼를 참조합니다. [자세히 알아보기](interaction-send-offers.md)
 
