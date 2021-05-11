@@ -4,9 +4,9 @@ product: Adobe Campaign
 title: 캠페인 스키마 사용
 description: 스키마 시작하기
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1242'
 ht-degree: 4%
 
 ---
@@ -162,7 +162,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 ![](assets/schemaextension_2.png)
 
-속성의 전체 목록은 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model) 섹션의 `<attribute>` 요소 섹션에서 사용할 수 있습니다. 다음은 보다 일반적으로 사용되는 속성 중 일부를 설명해 놓은 것입니다.**@advanced**, **@dataPolicy**, **@default**, **@desc**@enum **,**@expr **>,**@label **,** 4/>@length **,**@name **,**@notNull **,**@required **,**@ref **,**@xml&lt;a222 5/>, **@type**.****
+속성의 전체 목록은 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model)의 `<attribute>` 요소 섹션에서 사용할 수 있습니다. 다음은 보다 일반적으로 사용되는 속성 중 일부를 설명해 놓은 것입니다.**@advanced**, **@dataPolicy**, **@default**, **@desc**@enum **,**@expr **>,**@label **,** 4/>@length **,**@name **,**@notNull **,**@required **,**@ref **,**@xml&lt;a222 5/>, **@type**.****
 
 :arrow_upper_right:각 속성에 대한 자세한 내용은 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)의 속성 설명을 참조하십시오.
 
