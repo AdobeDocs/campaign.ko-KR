@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 translation-type: tm+mt
-source-git-commit: 3419ede105f652f0a33362468a7d119687c078de
+source-git-commit: 1ac6b58e1d5731d4df4d6d7c6a9b25f0f41ff563
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 25%
+ht-degree: 24%
 
 ---
 
@@ -26,6 +26,19 @@ ht-degree: 25%
 
 
 ## 호환 시스템
+
+### 클라이언트 콘솔{#ClientConsoleoperatingsystems}
+
+:경고:캠페인 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
+
+**운영 체제**
+
+* **Microsoft Windows Server** 2016, 2012
+* **Microsoft Windows** 8, 10(일본어 인스턴스 권장)
+
+**브라우저**
+
+**Microsoft Internet Explorer** 11
 
 ### CRM 커넥터{#CRMconnectors}
 
@@ -49,19 +62,6 @@ ht-degree: 25%
    * HortonWorks HDP 2.4.X, 2.5.x, 2.6.x
    * HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6
    * Cloudera CDH6.x
-
-### 클라이언트 콘솔{#ClientConsoleoperatingsystems}
-
-:경고:캠페인 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
-
-**운영 체제**
-
-* **Microsoft Windows Server** 2016, 2012
-* **Microsoft Windows** 8, 10(일본어 인스턴스 권장)
-
-**브라우저**
-
-Microsoft Internet Explorer 11
 
 ### 모바일 SDK{#MobileSDK}
 
