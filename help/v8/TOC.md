@@ -8,10 +8,10 @@ breadcrumb-title: 캠페인 v8
 title: 캠페인 v8 문서
 hide: true
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 36%
+source-wordcount: '194'
+ht-degree: 34%
 
 ---
 
@@ -51,6 +51,16 @@ ht-degree: 36%
    + [푸시 알림](send/push.md)
    + [DM](send/direct-mail.md)
    + [트랜잭션 메시지 ](send/transactional.md)
+   + 오퍼 추가{#interaction}
+      + [인터랙션 시작하기](send/interaction.md)
+      + 설정 정의{#interaction}
+         + [연산자 만들기](send/interaction-operators.md)
+         + [환경 만들기](send/interaction-env.md)
+         + [미리 정의된 필터 만들기](send/interaction-predefined-filters.md)
+      + [오퍼 카탈로그 만들기](send/interaction-offer-catalog.md)
+      + [오퍼 만들기](send/interaction-offer.md)
+      + [오퍼 보내기](send/interaction-send-offers.md)
+      + [사용 사례](send/interaction-use-cases.md)
 + {#config} 구성
    + [자동화](config/workflows.md)
    + [데이터 관리](config/replication.md)
