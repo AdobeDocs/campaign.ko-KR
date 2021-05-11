@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: fcc0165aeba4347a53d33bed95aa7fbb5fa27005
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 3%
@@ -58,7 +58,7 @@ HTML 렌더링은 렌더링 함수를 통해 만들어집니다. 렌더링 함�
 
    **참고**  - XML 형식은 일시적으로 사용할 수 없는 인바운드 상호 작용으로 제한됩니다. [자세히 알아보기](../start/capability-matrix.md#gs-unavailable-features)
 
-   ![](assets/offer_spacecreate_006.png)_
+   ![](assets/offer_space_create_006.png)_
 
 1. **[!UICONTROL HTML rendering]** 탭으로 이동하여 **[!UICONTROL Overload the HTML rendering function]**&#x200B;를 선택합니다.
 1. 렌더링 함수를 삽입합니다.
