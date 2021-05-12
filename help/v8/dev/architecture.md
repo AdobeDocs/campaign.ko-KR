@@ -7,10 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 51efce79e4195c9d53db167be80c7adcda811e21
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -23,15 +22,15 @@ ht-degree: 0%
 
 캠페인 Cloud Service에서 사용할 수 있는 세 가지 환경:
 
-* 제작 환경:비즈니스 전문가를 위한 애플리케이션을 호스팅합니다.
+* **제작 환경**:비즈니스 전문가를 위한 애플리케이션을 호스팅합니다.
 
-* 스테이지 환경:애플리케이션 변경 사항이 프로덕션 환경에 푸시되기 전에 다양한 성능 및 품질 테스트에 사용됩니다.
+* **스테이지 환경**:애플리케이션 변경 사항이 프로덕션 환경에 푸시되기 전에 다양한 성능 및 품질 테스트에 사용됩니다.
 
-* 개발 환경:개발자는 단계 및 프로덕션 환경과 동일한 런타임 조건 하에 Campaign을 구현할 수 있습니다.
+* **개발 환경**:개발자는 단계 및 프로덕션 환경과 동일한 런타임 조건 하에 Campaign을 구현할 수 있습니다.
 
 한 환경에서 다른 환경으로 패키지를 내보내고 가져올 수 있습니다.
 
-:arrow_upper_right:[Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=en#about-data-packages)의 패키지에 대한 자세한 내용
+:arrow_upper_right:[Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)의 패키지에 대한 자세한 내용
 
 ## 중간 소싱 배포{#mid-sourcing-deployment}
 
