@@ -4,10 +4,9 @@ product: Adobe Campaign
 title: 일반 아키텍처
 description: 캠페인 v8 일반 아키텍처
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 51efce79e4195c9d53db167be80c7adcda811e21
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -123,3 +122,10 @@ Adobe Campaign Cloud 데이터베이스는 기능 데이터(프로필, 구독, �
 고객은 사전 정의된 데이터 마트 및 스키마를 사용하여 Adobe Campaign을 배포할 수 있고 확장할 수도 있습니다. 데이터 마트 내의 모든 데이터는 SQL 호출을 통해 Adobe Campaign에서 액세스합니다. 또한 Adobe Campaign은 데이터를 시스템에 가져오거나 시스템에 데이터를 내보낼 수 있는 ETL(Extract Transform and Load) 툴의 완벽한 보완 기능을 제공합니다.
 
 ![](assets/data-flow-diagram.png)
+
+
+>[!CAUTION]
+>
+>**캠페인 관리 Cloud Services**&#x200B;을(를) 사용할 경우, 라이선스 계약 약관에 따라 환경과 초기 구성이 Adobe에 의해 설정되었습니다. 설치된 내장 패키지, 내장 스키마 또는 보고서는 수정할 수 없습니다.
+>
+>캠페인 추가 기능이나 제공되지 않은 특정 기능을 사용해야 하는 경우 **Adobe 고객 지원 센터**&#x200B;에 문의해야 합니다.
