@@ -7,10 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-translation-type: tm+mt
-source-git-commit: 9b6190f48373b772a72d6c1ef1b7510ec41112be
+source-git-commit: 51efce79e4195c9d53db167be80c7adcda811e21
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1220'
 ht-degree: 2%
 
 ---
@@ -23,6 +22,12 @@ ht-degree: 2%
 1. **환경** 준비:프로필 가져오기, 대상 만들기, 디자인 워크플로우 및 캠페인 템플릿, 분류 규칙 만들기
 1. **인스턴스를 사용자 정의합니다**.새 데이터 필드 만들기, 테이블/스키마 추가
 1. **배포** 확장:Adobe 솔루션, 기타 제품 및 시스템(커넥터, 멀티 솔루션 설정)에 연결
+
+>[!CAUTION]
+>
+>**캠페인 관리 Cloud Services**&#x200B;을(를) 사용할 경우, 라이선스 계약 약관에 따라 환경과 초기 구성이 Adobe에 의해 설정되었습니다. 설치된 내장 패키지, 내장 스키마 또는 보고서는 수정할 수 없습니다.
+>
+>캠페인 추가 기능이나 제공되지 않은 특정 기능을 사용해야 하는 경우 **Adobe 고객 지원 센터**&#x200B;에 문의해야 합니다.
 
 ## 시작하기 전
 
@@ -40,7 +45,7 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호 법 및 수
 
 ### 보안
 
-[캠페인 보안 검사 목록](../config/security.md)에서 Adobe Campaign의 보안 지침 및 원칙에 대해 알아봅니다.
+[캠페인 보안 검사 목록](../config/security.md)에서 Adobe Campaign을 사용하여 보안 지침 및 원칙을 알아봅니다.
 
 ## 캠페인 설정 정의
 
