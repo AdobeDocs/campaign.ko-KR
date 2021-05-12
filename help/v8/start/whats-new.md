@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 translation-type: tm+mt
-source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
+source-git-commit: 3870395ec74dd51ed42944981a3851d1052ee255
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,13 @@ Adobe Campaign v8에는 중요한 인프라, 보안, 제공 및 모니터링 기
 
 * **Adobe Experience Platform** 연결. Adobe Campaign v8은 Adobe Experience Platform/RT-CDP의 데이터 커넥터, 통합 고객 프로파일 및 Journey Orchestration와의 기본 통합을 지원합니다. 이러한 투자를 통해 Adobe Campaign 고객 경험을 최적화하고 개별 실시간 고객 여정을 캠페인에 추가하는 기능과 같은 새로운 활용 사례를 확보할 수 있습니다.
 
-* **관리 Cloud Services**. Adobe Campaign v8은 **최고급 관리 Cloud Services으로**&#x200B;만 사용할 수 있으며, 사전 관리, 신속한 경고 및 서비스 거버넌스를 제공합니다. 마케터는 보다 민첩하고 확장 가능한 크로스채널 캠페인 관리 가치를 제공합니다.
+* **관리 Cloud Services**. Adobe Campaign v8은 선도적인 관리 Cloud Services으로 제공되며, 사전 관리 감독, 신속한 경고 및 서비스 거버넌스를 제공합니다. 마케터는 보다 민첩하고 확장 가능한 크로스채널 캠페인 관리 가치를 제공합니다.
 
 >[!CAUTION]
 >
->현재, Campaign v8은 관리 Cloud Service에서만 사용할 수 있습니다. 온-프레미스 또는 하이브리드 배포에서는 Campaign v8을 구현할 수 없습니다. Campaign Classic v7 환경에서의 마이그레이션을 아직 사용할 수 없습니다.
+>현재, Campaign v8은 **관리 Cloud Service에서 사용할 수 있는**&#x200B;만 있으며 온-프레미스 또는 하이브리드 환경에 배포할 수 없습니다.
+>
+>기존 Campaign Classic v7 환경에서의 마이그레이션을 아직 사용할 수 없습니다.
 
 
 ## 비율 조정
