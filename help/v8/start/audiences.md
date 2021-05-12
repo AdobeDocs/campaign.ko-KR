@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 translation-type: tm+mt
-source-git-commit: ea4e73f1c0810a46a0df4e4dff929e73830115bd
+source-git-commit: 3870395ec74dd51ed42944981a3851d1052ee255
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '702'
 ht-degree: 26%
 
 ---
@@ -30,7 +30,7 @@ Adobe Campaign에서 수신자는 게재(전자 메일, SMS 등)를 보낼 타�
 
 :arrow_forward:[비디오](https://video.tv.adobe.com/v/35611?quality=12)에 있는 프로필의 내용 이해
 
-:arrow_upper_right:[이 안내서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?target=&quot;_blank&quot;)에서 프로필을 관리하는 방법을 알아봅니다.
+:arrow_upper_right:[이 안내서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html)에서 프로필을 관리하는 방법을 알아봅니다.
 
 ## 개인 정보 및 동의
 
