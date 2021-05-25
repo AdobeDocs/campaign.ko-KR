@@ -1,22 +1,21 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: Adobe Campaign으로 다이렉트 메일 보내기
-description: Campaign에서 DM 시작하기
+title: Adobe Campaign으로 DM 보내기
+description: Campaign에서 DM 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '52'
 ht-degree: 1%
 
 ---
 
-# 직접 메일 배달 만들기
+# DM 전송 만들기
 
-직접 메일 배달에서는 대상 모집단에 대한 데이터를 포함하는 추출 파일을 생성할 수 있습니다.
+DM 게재를 사용하면 대상 모집단에 대한 데이터가 포함된 추출 파일을 생성할 수 있습니다.
 
-:arrow_upper_right:[Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html)에서 자세한 내용
+:arrow_upper_right:자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html)를 참조하십시오
 
