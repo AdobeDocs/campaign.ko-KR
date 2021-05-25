@@ -1,42 +1,41 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: 캠페인 트랜잭션 메시지 설정
-description: 캠페인 트랜잭션 메시지 설정
+title: Campaign 트랜잭션 메시지 설정
+description: Campaign 트랜잭션 메시지 설정
 feature: 개요
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
 # 트랜잭션 메시지 설정
 
-:speech_bal풍선:관리 Cloud Services 사용자는 [Adobe](../start/support.md#support)에 연락하여 사용자 환경에서 캠페인 트랜잭션 메시지를 설치하고 구성합니다.
+:speech_balon:관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 환경에 Campaign 트랜잭션 메시지를 설치하고 구성하십시오.
 
-: 전구:트랜잭션 메시지 기능은 [이 섹션](../send/transactional.md)에 자세히 설명되어 있습니다.
+:트랜잭션 메시지 기능은 [이 섹션](../send/transactional.md)에 자세히 설명되어 있습니다.
 
-: 전구:[이 페이지](../dev/architecture.md)에서 트랜잭션 메시징 아키텍처를 이해합니다.
+:[이 페이지](../dev/architecture.md)의 트랜잭션 메시지 아키텍처를 이해합니다.
 
 ## 권한 정의
 
-Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스용 새 사용자를 만들려면 Adobe 고객 지원 센터에 문의해야 합니다. 메시지 센터 사용자는 &#39;실시간 이벤트&#39;(nmsRtEvent) 폴더에 액세스하기 위한 전용 권한이 필요한 특정 연산자입니다.
+Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대한 새 사용자를 만들려면 Adobe 고객 지원 센터에 문의해야 합니다. 메시지 센터 사용자는 &#39;실시간 이벤트&#39;(nmsRtEvent) 폴더에 액세스하기 위해 전용 권한이 필요한 특정 연산자입니다.
 
 ## 스키마 확장
 
-제어 또는 실행 인스턴스에서 **Message Center 기술 워크플로**&#x200B;에 사용되는 스키마에 대해 수행된 모든 스키마 확장은 Adobe Campaign 트랜잭션 메시징 모듈에서 사용하는 다른 인스턴스에 복제되어야 합니다.
+제어 또는 실행 인스턴스에서 **메시지 센터 기술 워크플로우**&#x200B;에서 사용하는 스키마에서 수행되는 모든 스키마 확장은 Adobe Campaign 트랜잭션 메시지 모듈에서 사용하는 다른 인스턴스에 복제해야 합니다.
 
-:arrow_upper_right:[Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/technical-workflows.html?lang=en#control-instance-workflows)의 메시지 센터 기술 워크플로우에 대한 자세한 내용
+:arrow_upper_right:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/technical-workflows.html?lang=en#control-instance-workflows)의 메시지 센터 기술 워크플로우에 대해 자세히 알아보십시오
 
 ## 트랜잭션 푸시 알림 보내기
 
 모바일 앱 채널 모듈과 결합하면 트랜잭션 메시지를 통해 모바일 장치의 알림을 통해 트랜잭션 메시지를 푸시할 수 있습니다.
 
-:arrow_upper_right:모바일 앱 채널은 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages)에 자세히 설명되어 있습니다.
+:arrow_upper_right:모바일 앱 채널은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages)에 자세히 설명되어 있습니다.
 
 트랜잭션 푸시 알림을 전송하려면 다음 구성을 수행해야 합니다.
 
@@ -44,16 +43,16 @@ Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스용 새 �
 
    >[!CAUTION]
    >
-   >새 Campaign 내장 패키지를 설치하기 전에 라이선스 계약을 확인하십시오.
+   >새 Campaign 기본 제공 패키지를 설치하기 전에 라이선스 계약을 확인하십시오.
 
-1. 실행 인스턴스에서 **모바일 응용 프로그램** 서비스 및 관련 모바일 응용 프로그램을 복제합니다.
+1. 실행 인스턴스에서 **모바일 애플리케이션** 서비스와 관련 모바일 애플리케이션을 복제합니다.
 
-Campaign이 트랜잭션 푸시 알림을 전송하려면 이벤트에 다음 요소가 포함되어야 합니다.
+Campaign에서 트랜잭션 푸시 알림을 전송하려면 이벤트에 다음 요소가 포함되어야 합니다.
 
-* 모바일 장치 ID:Android용 **registrationId** 및 iOS용 **deviceToken**. 이 ID는 알림을 보낼 &quot;주소&quot;를 나타냅니다.
-* 응용 프로그램과 관련된 연결 정보를 검색할 수 있는 모바일 응용 프로그램 또는 통합 키(**uuid**)에 대한 링크입니다.
-* 알림을 보낼 채널(**whoseChannel**):iOS의 경우 41, Android의 경우 42
-* 개인화를 위한 기타 데이터
+* 모바일 장치 ID:**registrationId**(Android용) 및 iOS용 **deviceToken**. 이 ID는 알림을 전송할 &quot;주소&quot;를 나타냅니다.
+* 모바일 애플리케이션 또는 통합 키(**uuid**)에 대한 링크로서 애플리케이션별 연결 정보를 검색할 수 있습니다.
+* 알림을 전송할 채널(**WonderedChannel**):iOS용 41 및 Android용 42
+* 개인화를 위해 활용할 기타 데이터입니다.
 
 다음은 이 정보를 포함하는 이벤트의 예입니다.
 
