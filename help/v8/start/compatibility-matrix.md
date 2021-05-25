@@ -1,40 +1,39 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: 캠페인 v8 호환성 표
-description: Campaign v8과 호환되는 시스템 및 버전 학습
+title: Campaign v8 호환성 매트릭스
+description: Campaign v8과 호환되는 시스템 및 버전 알아보기
 feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-translation-type: tm+mt
-source-git-commit: 1ac6b58e1d5731d4df4d6d7c6a9b25f0f41ff563
+source-git-commit: ffdfc9a2e1bec191b5a3cc7f7b40683b2456bf3e
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 24%
+source-wordcount: '274'
+ht-degree: 30%
 
 ---
 
-# 캠페인 v8 호환성 표
+# Campaign v8 호환성 매트릭스
 
-이 문서에서는 **Adobe Campaign v8**&#x200B;의 최신 빌드에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
+이 문서는 **Adobe Campaign v8**&#x200B;의 최신 빌드에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
 
 >[!CAUTION]
 >
 >* 별도로 언급되지 않는 한 모든 부 릴리스가 지원됩니다.
->* 이러한 제3자 시스템 및 도구의 특정 버전이 EOL(End-of-Life)에 도달함에 따라 Adobe Campaign은 더 이상 해당 버전과 호환하지 않으며, 이 호환성 매트릭스에서 제거됩니다. 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
+>* 이러한 타사 시스템 및 도구의 특정 버전이 EOL(End-of-Life)에 도달함에 따라 Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며 이 호환성 매트릭스에서 제거됩니다. 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
 
 
 ## 호환 시스템
 
 ### 클라이언트 콘솔{#ClientConsoleoperatingsystems}
 
-:경고:캠페인 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
+:경고:Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
 
 **운영 체제**
 
 * **Microsoft Windows Server** 2016, 2012
-* **Microsoft Windows** 8, 10(일본어 인스턴스 권장)
+* **Microsoft Windows** 8, 10(일본어 인스턴스에 권장)
 
 **브라우저**
 
@@ -42,45 +41,36 @@ ht-degree: 24%
 
 ### CRM 커넥터{#CRMconnectors}
 
-* **** Salesforeconnector API 버전 49
-* **Microsoft** Dynamicssconnector, 웹 API:Dynamics 365 온프레미스 및 온라인
+* **** Salesforceconnector API 버전 49
+* **Microsoft** Dynamic Connector, 웹 API:Dynamics 365 온-프레미스 및 온라인
 
-### FDA (FEDERATED DATA ACCESS){#FederatedDataAccessFDA}
+### FDA (Federated Data Access){#FederatedDataAccessFDA}
 
-* **Microsoft Azure Synapse Analytics**
 * **Amazon Redshift**
 * **[!DNL Snowflake]**
-* **Oracle** 19c, 18c, 12c, 11G
-* **PostgreSQL** 12.x, 11.x, 10.x, 9.6.x, 9.5.x, 9.4.x
-* **Microsoft SQL Server** 2019, 2017, 2016, 2014, 2012 SP1 및 SP2
-* **MySQL** 5.7
-* **Teradata** 16.20, 16, 15.10, 15.0
-* **Netezza** 7.2
-* **sybase IQ** 16, ASE 15.7
-* **SAP** HANAversion 1 SPS 12
-* **Hadoop via HiveSQL**
-   * HortonWorks HDP 2.4.X, 2.5.x, 2.6.x
-   * HDInsight 3.4(HDP 2.4), 3.5(HDP 2.5), 3.6(HDP 2.6
-   * Cloudera CDH6.x
 
 ### 모바일 SDK{#MobileSDK}
 
-* **Android** 7.x, 8.x, 9.0(모바일 SDK 빌드 1.0.27).
-* **Apple iOS** 9 - 모바일 SDK 빌드 1.0.26 14는 32비트 및 64비트 버전과 호환됩니다.
+* **Android** 7.x, 8.x, 9.0(모바일 SDK 빌드 1.0.27 포함)
+* **Apple iOS** 9 - 14와 모바일 SDK 빌드 1.0.26는 32비트 및 64비트 버전과 호환됩니다.
 
 ### 지원되는 브라우저 {#Browsers}
 
-다음 브라우저는 웹 액세스에 대한 캠페인과 호환됩니다.
+다음 브라우저는 웹 액세스에 대한 Campaign과 호환됩니다.
 
 * **Microsoft Edge**,  **Mozilla Firefox**,  **Google Chrome**,  **Safari** (최신 버전)
 
 * **Internet Explorer** 11
 
-## 캠페인 버전을 확인하는 방법
+## Campaign 버전을 확인하는 방법
 
-**도움말 > 정보...** 메뉴를 사용하여 다음 정보에 액세스할 수 있습니다.
+**도움말 > 정보..** 메뉴를 사용하여 버전을 확인하십시오.
 
-* 캠페인 클라이언트 콘솔 및 애플리케이션 서버의 버전 번호
-* 캠페인 클라이언트 콘솔 및 애플리케이션 서버에 대한 빌드 번호
-* Adobe 고객 지원 센터에 연락하는 링크
-* Adobe 개인정보 보호정책, 사용 약관 및 쿠키 정책에 대한 링크
+![](assets/ac-version.png)
+
+다음 정보에 액세스합니다.
+
+* 클라이언트 콘솔 및 응용 프로그램 서버의 **버전** 번호입니다. 위의 샘플에서 버전은 클라이언트 콘솔과 애플리케이션 서버 모두에 대해 8.1.5입니다.
+* 괄호 사이의 SHA 번호입니다.
+* Adobe 고객 지원 센터에 문의하는 링크.
+* Adobe 개인 정보 보호 정책, 사용 약관 및 쿠키 정책에 대한 링크입니다.
