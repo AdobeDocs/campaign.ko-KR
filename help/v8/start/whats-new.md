@@ -1,63 +1,61 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Campaign v8의 새로운 기능
-description: 주요 기능에 대한 자세한 내용
+description: 주요 기능 추가
 feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-translation-type: tm+mt
-source-git-commit: 3870395ec74dd51ed42944981a3851d1052ee255
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
 # Adobe Campaign v8의 새로운 기능{#ac-gs-what-is-new}
 
-Adobe Campaign v8에는 중요한 인프라, 보안, 제공 및 모니터링 기능이 개선되었습니다. Adobe Campaign은 클라우드 데이터베이스 기술인 [!DNL Snowflake]을 활용함으로써 고객의 규모와 속도를 크게 향상시키고 있으며, 더 많은 수의 고객 프로파일을 관리할 수 있을 뿐만 아니라 시간당 보다 높은 전달 비율과 트랜잭션을 처리할 수 있습니다.
+Adobe Campaign v8은 중요한 인프라, 보안, 게재 기능 및 모니터링 개선 사항을 제공합니다. Adobe Campaign은 클라우드 데이터베이스 기술인 [[!DNL Snowflake]](https://www.snowflake.com/)을 활용하여 크기와 속도를 크게 향상하고, 더 많은 수의 고객 프로필을 관리할 수 있을 뿐만 아니라 시간당 훨씬 더 높은 전송률 및 트랜잭션을 관리할 수 있습니다.
 
 주요 기능은 다음과 같습니다.
 
-* **속도 및 크기 조절**. Adobe Campaign v8은 Cloud Database Manager를 활용하므로 최대 200배 더 빠르고 페타바이트급 용량의 메시지를 시간당 최대 20M/시간 또는 1.5M/시간 증가시켜 쿼리를 원활하게 수행하고 최대 2,00M의 활성 프로파일을 관리하여 1B에 도달할 수 있습니다.
+* **속도 및 크기 조절**. Adobe Campaign v8은 Cloud Database Manager를 활용하여 최대 200배 더 빠른 멀티페타바이트 규모의 쿼리, 시간당 최대 20M/시간 또는 1.5M/시간 트랜잭션 메시지를 통해 메시지 수를 증가시키고, 최대 200M의 활성 프로필을 관리하여 1B에 도달할 수 있습니다.
 
-* **Adobe Experience Platform** 연결. Adobe Campaign v8은 Adobe Experience Platform/RT-CDP의 데이터 커넥터, 통합 고객 프로파일 및 Journey Orchestration와의 기본 통합을 지원합니다. 이러한 투자를 통해 Adobe Campaign 고객 경험을 최적화하고 개별 실시간 고객 여정을 캠페인에 추가하는 기능과 같은 새로운 활용 사례를 확보할 수 있습니다.
+* **Adobe Experience Platform에 연결**. Adobe Campaign v8은 Adobe Experience Platform/RT-CDP를 사용하는 Data Connectors, 통합 고객 프로필 및 Journey Orchestration와의 기본 통합을 지원합니다. 이러한 투자를 통해 Adobe Campaign 고객 경험을 최적화하고 개별 실시간 고객 여정을 캠페인에 추가하는 기능과 같은 새로운 사용 사례를 잠금 해제할 수 있습니다.
 
-* **관리 Cloud Services**. Adobe Campaign v8은 선도적인 관리 Cloud Services으로 제공되며, 사전 관리 감독, 신속한 경고 및 서비스 거버넌스를 제공합니다. 마케터는 보다 민첩하고 확장 가능한 크로스채널 캠페인 관리 가치를 제공합니다.
+* **관리 Cloud Services**. Adobe Campaign v8은 동급 최강의 관리 Cloud Services으로 제공되므로 사전 관리, 적시 경고 및 서비스 거버넌스를 제공합니다. 마케팅 담당자의 가치는 보다 민첩하고 확장 가능한 크로스 채널 캠페인 관리입니다.
 
 >[!CAUTION]
 >
->현재, Campaign v8은 **관리 Cloud Service에서 사용할 수 있는**&#x200B;만 있으며 온-프레미스 또는 하이브리드 환경에 배포할 수 없습니다.
+>현재 Campaign v8은 **만 관리 Cloud Service으로 사용할 수 있으며, 온-프레미스 또는 하이브리드 환경에 배포할 수 없습니다.**
 >
->기존 Campaign Classic v7 환경에서의 마이그레이션을 아직 사용할 수 없습니다.
+>기존 Campaign Classic v7 환경에서 마이그레이션을 아직 사용할 수 없습니다.
 
 
-## 비율 조정
+## 크기 조정
 
-Campaign v8은 타깃팅에서 최종 보고에 이르기까지 프로세스의 모든 단계에서 엔드 투 엔드 스케일을 제공합니다.
+Campaign v8은 타깃팅에서 최종 보고에 이르기까지 프로세스의 모든 단계에서 종단 간 확장을 제공합니다.
 
-* 처리할 수 있는 데이터의 볼륨 크기 조절(8TB까지)
-* 세분화 및 타깃팅을 위한 쿼리 성능 외에도 데이터 수집 및 가져오기 기능 확장
-* 배달 준비 단계(시간-분)를 조정합니다.
-또한 데이터 관리를 동시에 간소화하고
+* 처리할 수 있는 데이터 볼륨(8TB까지) 확장
+* 세그먼테이션 및 타겟팅을 위한 쿼리의 성능 및 데이터 수집 및 수신
+* 게재 준비 비율 조정(시간 ~ 분)
 
-## 간소화 및 성능 향상
+## 단순화 및 성능 향상
 
-Campaign v8은 **Full Federated Data Access**(FDA) 개념을 도입했습니다.이제 모든 데이터가 클라우드 데이터베이스에서 원격입니다.
+Campaign v8은 **전체 Federated Data Access** (FDA)의 개념을 가져옵니다.이제 모든 데이터가 클라우드 데이터베이스에서 원격입니다.
 
-이 새로운 아키텍처로 Campaign v8을 사용하면 데이터 관리를 간소화할 수 있습니다.클라우드 데이터베이스에 인덱스가 필요하지 않습니다. 표를 만들고 데이터를 복사하기만 하면 됩니다.
+이 새로운 아키텍처를 통해 Campaign v8은 데이터 관리를 단순화합니다.클라우드 데이터베이스에 색인이 필요하지 않습니다. 표를 만들고 데이터를 복사하기만 하면 됩니다.
 
-[!DNL Snowflake] 은 Campaign Cloud 데이터베이스이며, 다음과 같은 속도와 인내력을 발휘합니다.시스템 활동이 과부하가 되지 않습니다.
+[!DNL Snowflake] 는 Campaign Cloud 데이터베이스이므로 빠르고 인내할 수 있습니다.시스템 활동에 과부하가 없습니다.
 
 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정 유지 관리가 필요하지 않습니다.
 
 ## 통합 에코시스템
 
-다음과 같은 강력한 Adobe 솔루션 세트와 Campaign을 통합할 수 있습니다.Adobe Analytics, 워크플로우, Journey Orchestration, 실시간 CDP 등
+Campaign을 다음과 같은 강력한 Adobe 솔루션 세트와 통합할 수 있습니다.Adobe Analytics, Workfront, Journey Orchestration, 실시간 CDP 등
 
-또한 여정 AI를 통해 예측 전송 시간 최적화 및 예측 참여 점수를 구성할 수 있고 열람률, 클릭 수 및 매출을 높일 수 있습니다.
+또한 여정 AI를 통해 예측 전송 시간 최적화 및 예측 참여 점수를 구성하고 오픈율, 클릭 수 및 매출을 높일 수 있습니다.
 
-: 전구:[캠페인 통합에 대해 자세히 알아보기](../connect/integration.md)
+:[Campaign 통합에 대해 자세히 알아보기](../connect/integration.md)
 
