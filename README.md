@@ -1,7 +1,6 @@
 ---
-source-git-commit: 4884271a9fcd96b4ad1da2e2aed5d25c8f267a7f
+source-git-commit: 098bb2252708f4c59e2ee186d4c3d0074ebec1fd
 workflow-type: tm+mt
-translation-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -13,6 +12,7 @@ Adobe 커뮤니티뿐만 아니라 문서 팀 외부 Adobe 직원으로부터의
 ## Adobe OOCT(Open Source Code of Conduct)
 
 이 프로젝트에서는 [Adobe OOCT(Open Source Code of Conduct)](code-of-conduct.md) 또는 [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct)가 채택되었습니다. 자세한 내용은 [기여](contributing.md) 문서를 참조하십시오.
+
 
 ## Adobe 콘텐츠에 대한 귀하의 기여도 정보
 
