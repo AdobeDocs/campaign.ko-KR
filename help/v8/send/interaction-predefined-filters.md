@@ -1,13 +1,12 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: 캠페인 상호 작용 오퍼에 미리 정의된 필터
-description: 미리 정의된 필터를 만드는 방법 알아보기
+title: Campaign 상호 작용 오퍼가 미리 정의된 필터
+description: 미리 정의된 필터를 만드는 방법을 알아봅니다
 feature: 개요
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 4%
@@ -16,11 +15,11 @@ ht-degree: 4%
 
 # 미리 정의된 필터 만들기{#creating-predefined-filters}
 
-미리 정의된 필터를 만들어 오퍼를 만드는 동안 쉽게 재사용할 수 있는 타겟 모집단 자격 규칙을 정의합니다. 각 환경에 따라 다르며 오퍼 매개 변수를 고려합니다.
+사전 정의된 필터를 만들어 오퍼를 만드는 동안 쉽게 다시 사용할 수 있는 대상 모집단에 대한 자격 규칙을 정의합니다. 각 환경에 따라 다르며 오퍼 매개 변수를 고려합니다.
 
-사전 정의된 필터를 만들려면 다음 프로세스를 적용합니다.
+미리 정의된 필터를 생성하려면 다음 프로세스를 적용합니다.
 
-1. **[!UICONTROL Administration]** 폴더로 이동하여 **[!UICONTROL Pre-defined offer filters]**&#x200B;을 선택합니다.
+1. **[!UICONTROL Administration]** 폴더로 이동하여 **[!UICONTROL Pre-defined offer filters]** 을 선택합니다.
 
    ![](assets/offer_filter_create_005.png)
 
@@ -40,7 +39,7 @@ ht-degree: 4%
 
    ![](assets/offer_filter_create_004.png)
 
-1. 필터 결과를 보려면 **[!UICONTROL Preview]**&#x200B;을 클릭합니다.
+1. 필터 결과를 보려면 **[!UICONTROL Preview]** 을 클릭하십시오.
 
    ![](assets/offer_filter_create_006.png)
 
