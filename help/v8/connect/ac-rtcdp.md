@@ -1,26 +1,25 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: 캠페인 및 실시간 고객 데이터 플랫폼 사용
-description: Adobe Campaign과 실시간 고객 데이터 플랫폼을 사용하여 작업하는 방법 살펴보기
+title: Campaign 및 실시간 고객 데이터 플랫폼을 사용한 작업
+description: Campaign 및 실시간 고객 데이터 플랫폼으로 작업하는 방법 알아보기
 feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
-# 캠페인 및 실시간 고객 데이터 플랫폼 사용
+# Campaign 및 실시간 고객 데이터 플랫폼을 사용한 작업
 
-Adobe Experience Platform을 사용하면 Campaign과 Adobe의 실시간 고객 데이터 플랫폼(RTCDP) 간에 데이터를 공유할 수 있습니다. 이렇게 하면 캠페인 워크플로우에서 Adobe Experience Platform 고객을 타깃팅한 다음 보내기, 열기 및 클릭과 같은 대상과 관련된 실시간 고객 데이터 플랫폼 데이터로 돌아갈 수 있습니다.
+**Adobe Experience Platform**&#x200B;을 사용하면 Campaign과 Adobe RTCDP(실시간 고객 데이터 플랫폼) 간에 데이터를 공유할 수 있습니다. 이를 통해 Campaign 워크플로우에서 Adobe Experience Platform 대상을 타깃팅한 다음, 전송, 열기 및 클릭과 같은 이러한 대상과 관련된 실시간 고객 데이터 플랫폼 Adobe으로 다시 보낼 수 있습니다.
 
-:arrow_upper_right:[이 섹션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=en)에서 RTCDP에 대한 자세한 내용
+:arrow_upper_right:[이 섹션](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=en)에서 RTCDP에 대해 자세히 알아보십시오
 
-:arrow_upper_right:[Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=en#integrating-with-adobe-experience-cloud)에서 Campaign과 함께 RTCDP를 구현하고 사용하는 방법에 대해 알아봅니다.
+:arrow_upper_right:[Campaign Classic v7 설명서에서 Campaign에서 RTCDP를 구현하고 사용하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=en#integrating-with-adobe-experience-cloud)
 
-:speech_bal풍선:관리 Cloud Services 사용자는 Adobe[에 연락하여 RTCDP 및 캠페인을 연결합니다.](../start/support.md#support)
+:speech_balon:관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 RTCDP 및 Campaign을 연결하십시오.
