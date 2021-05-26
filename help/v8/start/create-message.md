@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 4%
@@ -41,14 +41,15 @@ Adobe Campaign v8에는 다음과 같은 전달 채널이 포함되어 있습니
 메시지를 만들고 콘텐츠를 디자인하고 테스트하면 보낼 방법을 선택할 수 있습니다. Campaign은 다음과 같은 기능을 제공합니다.
 
 * 주요 타겟에게 수동으로 메시지 보내기
-:[!DNL :arrow_upper_right:]:[메시지 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
+   [!DNL :arrow_upper_right:] [메시지 전송 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
 * [마케팅 캠페인](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html)에 연결된 메시지 보내기
-:[!DNL :arrow_upper_right:]:[캠페인 컨텍스트에서 메시지를 보내는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html).
+   [!DNL :arrow_upper_right:] [캠페인 컨텍스트에서 메시지를 보내는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html).
 * [워크플로우](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html)를 통해 메시지 보내기
-:[!DNL :arrow_upper_right:]:[이메일 게재 자동화 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html)
-* [이벤트](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html) 에서 메시지 트리거:[!DNL :arrow_upper_right:]: [사용 사례:첨부 파일과 함께 트랜잭션 전자 메일을 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html)
+   [!DNL :arrow_upper_right:] [이메일 게재 자동화 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html)
+* [이벤트](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html) 에서 메시지 트리거
+   [!DNL :arrow_upper_right:] [사용 사례:첨부 파일과 함께 트랜잭션 전자 메일을 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html)
 * 메시지 예약
-:[!DNL :arrow_upper_right:]:[사용 사례:생일 전자 메일](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?) 예약 및 전송 방법을 알아봅니다.
+   [!DNL :arrow_upper_right:] [사용 사례:생일 전자 메일 예약 및 전송 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?)
 
 
 ## 개인화 추가
@@ -58,10 +59,11 @@ Adobe Campaign에서 전달하는 메시지는 다양한 방법으로 개인화�
 다음을 수행할 수 있습니다.
 
 * 동적 개인화 필드를 삽입합니다.
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)에서 개인화 필드를 사용하는 방법을 알아봅니다
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 개인화 필드를 사용하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
 * 사전 정의된 개인화 블록 삽입.
-:[!DNL :arrow_upper_right:]:개인화 블록이란 무엇이고 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)에서 사용하는 방법을 알아봅니다
-* 조건부 콘텐츠 만들기 :[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서에 조건부 콘텐츠를 삽입하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)
+   [!DNL :arrow_upper_right:] 개인화 블록이란 무엇이며  [Campaign Classic v7 설명서에서 이를 사용하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)
+* 조건부 콘텐츠 만들기 
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에 조건부 콘텐츠를 삽입하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)
 
 ## 트랜잭션 메시지 보내기
 
