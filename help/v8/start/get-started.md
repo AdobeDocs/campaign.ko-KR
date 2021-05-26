@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 43%
@@ -91,9 +91,9 @@ Campaign 작업 공간은 [클라이언트 콘솔](../dev/general-architecture.m
 
 Campaign 작업 영역은 필요에 따라 조정할 수 있습니다.
 
-:[!DNL :arrow_upper_right:]: [Campaign Classic v7 설명서에서 Campaign 작업 공간을 사용하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)
+[!DNL :arrow_upper_right:]   [Campaign Classic v7 설명서에서 Campaign 작업 공간을 사용하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)
 
-:[!DNL :arrow_upper_right:]: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)에서 목록을 사용자 지정하는 방법을 알아봅니다.
+[!DNL :arrow_upper_right:]   [Campaign Classic v7 설명서에서 목록을 사용자 지정하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)
 
 웹을 통해 일부 기능에 액세스할 수도 있습니다.
 
