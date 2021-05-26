@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1193'
 ht-degree: 2%
 
 ---
@@ -53,13 +53,13 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호 법 및 수
 
 Campaign에 사용자를 수동으로 추가하고 역할 계층 구조에 정렬하여 그룹과 연결할 수 있습니다. 그러면 사용자는 로그인하고 자신에게 적합한 데이터 및 권한에 액세스할 수 있습니다.
 
-:arrow_upper_right:[이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started)에서 Adobe Campaign에 사용자를 추가하는 방법을 알아봅니다.
+:[!DNL :arrow_upper_right:]:[이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started)에서 Adobe Campaign에 사용자를 추가하는 방법을 알아봅니다.
 
 ### Campaign 클라이언트 콘솔 설치
 
 애플리케이션의 기본 사용자 인터페이스는 리치 클라이언트로, 즉 표준 인터넷 프로토콜(SOAP, HTTP 등)로만 Adobe Campaign 애플리케이션 서버와 통신하는 기본 애플리케이션(Windows)입니다. Adobe Campaign Client Console은 생산성을 위한 사용자 친화적이며 로컬 캐시를 통해 대역폭을 거의 사용하지 않으며 쉽게 배포할 수 있도록 설계되었습니다. 이 콘솔은 인터넷 브라우저에서 배포할 수 있으며 자동으로 업데이트할 수 있으며 HTTP(S) 트래픽만 발생하므로 특정 네트워크 구성이 필요하지 않습니다.
 
-:[Campaign 클라이언트 콘솔에 대해 자세히 알아보십시오](connect.md).
+[!DNL :bulb:] [Campaign 클라이언트 콘솔에 대해 자세히 알아보십시오](connect.md).
 
 ## 환경 준비
 
@@ -69,33 +69,33 @@ Campaign에 사용자를 수동으로 추가하고 역할 계층 구조에 정�
 
    Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 로드하거나, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 테이블에 직접 프로필 정보를 입력할 수 있습니다.
 
-   :[프로필을 가져오는 방법을 알아봅니다](import.md).
+   [!DNL :bulb:] [프로필을 가져오는 방법을 알아봅니다](import.md).
 
    대상은 목록으로 그룹화되고 워크플로우를 통해 만들 수 있습니다. 그런 다음 크로스 채널 게재에서 타깃팅할 수 있습니다.
 
-   :[대상 정의 방법을 알아봅니다](audiences.md).
+   [!DNL :bulb:] [대상을 정의하는 방법을 알아봅니다](audiences.md).
 
 1. 템플릿 만들기
 
    캠페인, 게재, 작업 또는 워크플로우는 모두 주요 설정 및 기능을 저장하는 템플릿을 기반으로 합니다. 특정 구성이 정의되지 않은 각 구성 요소에 대해 내장 템플릿이 제공됩니다. 템플릿을 필요에 따라 구성 및 조정하고 최종 사용자가 사용할 수 있도록 해야 합니다.
 
-   :arrow_upper_right:[이메일 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+   :[!DNL :arrow_upper_right:]:[이메일 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
 
-   :arrow_upper_right:[이 페이지에서 캠페인 템플릿으로 작업하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)
+   :[!DNL :arrow_upper_right:]:[이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)에서 캠페인 템플릿으로 작업하는 방법을 알아봅니다
 
-   :arrow_upper_right:[이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=en#workflow-templates)에서 워크플로우 템플릿을 구성하는 방법을 알아봅니다
+   :[!DNL :arrow_upper_right:]:[이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=en#workflow-templates)에서 워크플로우 템플릿을 구성하는 방법을 알아봅니다
 
 1. 유형화 규칙 구성
 
    Campaign 유형화 규칙을 활용하여 게재 전송을 필터링, 제어 및 모니터링합니다. 예를 들어 피로도 규칙은 수신자의 과도한 요청을 방지하기 위해 메시지 빈도와 수량을 제어합니다. 구현되면 게재에서 유형화 규칙을 참조합니다.
 
-   :arrow_upper_right:[유형화 및 피로도 관리에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=en#orchestrating-campaigns)
+   :[!DNL :arrow_upper_right:]:[유형화 및 피로도 관리에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=en#orchestrating-campaigns)
 
 1. Campaign 기본 제공 데이터 모델을 잘 알고 있습니다
 
    Adobe Campaign은 사전 정의된 데이터 모델을 제공합니다. 환경을 구현하고 사용자 지정하려면 Adobe Campaign 데이터 모델의 기본 제공 테이블 및 이러한 표가 서로 어떤 관련이 있는지 알고 있어야 합니다.
 
-   :[Campaign 데이터 모델](../dev/datamodel.md)에 대해 자세히 알아보십시오.
+   [!DNL :bulb:] [Campaign 데이터 모델에 대해 자세히 알아보십시오](../dev/datamodel.md).
 
 ## 인스턴스 사용자 지정
 
@@ -105,19 +105,19 @@ Campaign에 사용자를 수동으로 추가하고 역할 계층 구조에 정�
 
    Adobe Campaign에는 다음과 같은 데이터를 식별하는 일반적인 스키마가 포함되어 있습니다.수신자, 게재 로그, 구독 등이 포함됩니다.
 
-   :[Campaign 기본 제공 데이터 모델](../dev/datamodel.md)에 대한 자세한 내용은 이 섹션을 참조하십시오.
+   [!DNL :bulb:] Campaign 기본 제공 데이터 모델에 대한 자세한  [내용은 이 섹션을 참조하십시오](../dev/datamodel.md).
 
-   :기존 스키마를 확장하거나 새로운 스키마를 처음부터 만들 수 있습니다. 자세한 내용은 [이 페이지](../dev/customize.md)를 참조하십시오.
+   [!DNL :bulb:] 기존 스키마를 확장하거나 새로운 스키마를 처음부터 만들 수 있습니다. 자세한 내용은 [이 페이지](../dev/customize.md)를 참조하십시오.
 
 1. **대시보드 및 목록**
 
    목록을 쉽게 구성하고, 필드를 추가 및 제거하고, 열을 사용자 지정할 수 있습니다.
 
-   :[이 페이지에서 Campaign의 필터 및 목록을 관리하는 방법을 알아봅니다](../dev/customize.md#gs-lists-and-filters).
+   [!DNL :bulb:]  [이 페이지](../dev/customize.md#gs-lists-and-filters)에서 Campaign의 필터 및 목록을 관리하는 방법을 배웁니다.
 
    필요에 따라 새 대시보드를 만들어 Campaign 데이터를 표시할 수도 있습니다.
 
-   :자세한 내용은 [이 페이지](../dev/customize.md#gs-custom-dashboards)를 참조하십시오.
+   [!DNL :bulb:] 자세한 내용은  [이 페이지에서 확인하십시오](../dev/customize.md#gs-custom-dashboards).
 
 1. **보고서**
 
@@ -125,7 +125,7 @@ Campaign에 사용자를 수동으로 추가하고 역할 계층 구조에 정�
 
    기본 제공 보고서 외에도 Adobe Campaign을 사용하면 다양한 컨텍스트에서 보고서를 생성하여 다양한 요구를 충족할 수 있습니다. 사용 원칙 및 구현 모드는 이 문서에 자세히 설명되어 있습니다.
 
-   :[이 페이지](reporting.md)에서 Campaign의 보고 기능에 대해 자세히 알아보십시오.
+   [!DNL :bulb:]  [이 페이지](reporting.md)에서 Campaign의 보고 기능에 대해 자세히 알아보십시오.
 
 
 ## 캠페인 자동화 설정
@@ -156,22 +156,22 @@ Campaign에 사용자를 수동으로 추가하고 역할 계층 구조에 정�
 
 SSO(Single Sign-On)를 사용하여 Campaign에 연결할 수도 있습니다. 자세한 내용은 [이 페이지](connect.md)를 참조하십시오.
 
-:이 페이지](../connect/integration.md)에서 Adobe Campaign [과 통합할 수 있는 Adobe 솔루션의 전체 목록을 살펴보십시오.
+[!DNL :bulb:] 이 페이지에서 Adobe Campaign과 통합할 수 있는 Adobe 솔루션의 전체 목록 [을 살펴봅니다](../connect/integration.md).
 
 ### 커넥터
 
 Campaign을 타사 시스템과 연결하여 다양한 기능을 결합하고 프로세스를 자동화합니다.
 
-:[이 섹션](../connect/integration.md)에서 사용 가능한 커넥터에 대해 자세히 알아보십시오.
+[!DNL :bulb:] 사용 가능한 커넥터에 대한 자세한 내용은  [이 섹션](../connect/integration.md)을 참조하십시오.
 
 **Campaign에 CRM 연결**
 
 Adobe Campaign 플랫폼을 CRM 타사 시스템에 연결하고 데이터를 동기화할 수 있습니다.연락처, 계정, 구매 등
 
-:[이 섹션에서 CRM 시스템을 Campaign에 연결하는 방법을 알아봅니다](../connect/integration.md#gs-crm-connectors)
+[!DNL :bulb:] 이 섹션에서 CRM 시스템을 Campaign에 연결하는  [방법을 알아봅니다](../connect/integration.md#gs-crm-connectors)
 
 **외부 데이터베이스에 연결**
 
 FDA(Federated Data Access) 모듈을 통해 Campaign Cloud 데이터베이스를 외부 시스템에 연결할 수 있습니다.
 
-:[이 섹션](../connect/integration.md#gs-fda)에서 액세스 매개 변수를 정의하도록 Campaign FDA 모듈을 구성하는 방법을 알아봅니다
+[!DNL :bulb:]  [이 섹션에서 액세스 매개 변수를 정의하도록 Campaign FDA 모듈을 구성하는 방법을 알아봅니다](../connect/integration.md#gs-fda)
