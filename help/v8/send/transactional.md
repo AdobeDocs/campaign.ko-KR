@@ -6,9 +6,9 @@ description: 트랜잭션 메시지 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 1%
 * 고객 작업에 대한 개별 실시간 응답
 * 홍보되지 않는 콘텐츠
 
-:트랜잭션 메시지 설정은 [이 섹션](../config/transactional-msg-settings.md)에 자세히 설명되어 있습니다.
+[!DNL :bulb:] 트랜잭션 메시지 설정은  [이 섹션에 자세히 설명되어 있습니다](../config/transactional-msg-settings.md).
 
-:[이 페이지](../dev/architecture.md)의 트랜잭션 메시지 아키텍처를 이해합니다.
+[!DNL :bulb:]  [이 페이지의 트랜잭션 메시지 아키텍처를 이해합니다](../dev/architecture.md).
 
 >[!CAUTION]
 >
@@ -152,7 +152,7 @@ ht-degree: 1%
 
 증명 전송에는 게재와 동일한 프로세스가 포함됩니다.
 
-:arrow_upper_right:[Campaign Classic v7 설명서]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))에서 증명에 대해 자세히 알아보십시오
+:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))에서 증명에 대해 자세히 알아보십시오
 
 그러나 트랜잭션 메시지의 증명을 보내려면 다음 작업을 수행해야 합니다.
 
