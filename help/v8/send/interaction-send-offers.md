@@ -6,7 +6,7 @@ description: 오퍼 카탈로그를 만드는 방법을 알아봅니다
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 2%
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 **데이터 보강** 활동을 사용하면 게재 수신자를 위한 오퍼에 오퍼나 링크를 추가할 수 있습니다.
 
-:[!DNL :arrow_upper_right:]:데이터 보강 활동에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)를 참조하십시오
+[!DNL :arrow_upper_right:] 데이터 보강 활동에 대한 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
 
 예를 들어 게재 전에 수신자 쿼리의 데이터를 보강할 수 있습니다.
 
@@ -166,7 +166,7 @@ ht-degree: 2%
 
 또한 **[!UICONTROL Offer engine]** 활동을 사용하면 게재 전에 오퍼 엔진에 대한 호출을 지정할 수 있습니다.
 
-:[!DNL :arrow_upper_right:]:**오퍼 엔진** 활동에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)를 참조하십시오
+[!DNL :arrow_upper_right:] 오퍼  **엔지니어링 활동에 대한 자세한** 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
 
 이 활동은 게재 전에 엔진에서 계산된 오퍼로 인바운드 모집단 데이터를 강화하여 엔진 호출을 사용하여 **데이터 보강** 활동과 동일한 원리에 작동합니다.
 
@@ -189,7 +189,7 @@ ht-degree: 2%
 
 **[!UICONTROL Offers by cell]** 활동을 사용하면 인바운드 모집단을 여러 세그먼트로 배포하고 이러한 각 세그먼트에 대해 표시할 오퍼를 지정할 수 있습니다.
 
-:[!DNL :arrow_upper_right:]:**Offer by cell** 활동에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)를 참조하십시오
+[!DNL :arrow_upper_right:] 셀랙티브한  **오퍼에 대한** 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
 
 이렇게 하려면 다음 프로세스를 사용합니다.
 
