@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 3fd91879485a33961769c684acba8ca3c48bbbed
+source-git-commit: 8ede6bc1bc08a27e74dde6a427561c33f154a883
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1187'
 ht-degree: 7%
 
 ---
@@ -59,12 +59,9 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시
 
 캠페인 트랜잭션 메시지를 사용하여 정보 시스템에서 트리거된 이벤트에서 생성된 메시지를 자동화합니다. 이러한 트랜잭션 메시지는 예를 들어 송장, 주문 확인, 배송 확인, 암호 변경, 제품 비가용성 알림, 계정 명세서 또는 웹 사이트 계정 생성일 수 있습니다. 이러한 메시지는 개별적으로 또는 이메일, SMS 또는 푸시 알림을 통해 일괄적으로 전송할 수 있습니다.
 
-[!DNL :arrow_upper_right:] 트랜잭션 메시지 기능에 대한 자세한 내용은  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=en#transactional-messaging)를 참조하십시오.
-
+[!DNL :bulb:] 트랜잭션 메시지 기능에 대한 자세한 내용은  [이 섹션](../send/transactional.md)을 참조하십시오.
 
 Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하고 거의 실시간으로 개인화된 메시지를 전송할 수 있습니다.
-
-[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 Campaign을 Analytics 트리거와 통합하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en#integrating-with-adobe-experience-cloud).
 
 [!DNL :bulb:] 이 섹션에서 Campaign을 다른 솔루션과 통합하는  [방법을 알아봅니다](../start/connect.md)
 
