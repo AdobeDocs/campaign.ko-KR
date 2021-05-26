@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Campaign 보안 모범 사례
 description: Campaign 보안 모범 사례 시작
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Adobe에서 Adobe는 디지털 경험의 보안을 매우 중요하게 생각합
 * 암호화된 암호가 제한되어 있는지 확인하십시오
 * Protect 미러 페이지, 웹 애플리케이션 등의 개인 정보를 포함할 수 있는 페이지를 설정합니다.
 
-:speech_balon:관리 Cloud Services 사용자인 Adobe은 사용자와 협력하여 환경에서 이러한 구성을 구현합니다.
+[!DNL :speech_balloon:] 관리 Cloud Services 사용자인 Adobe은 사용자와 협력하여 환경에서 이러한 구성을 구현합니다.
 
 ## 개인화
 
