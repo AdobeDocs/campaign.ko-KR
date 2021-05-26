@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '571'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 [!DNL Campaign Classic] 사용자는 [!DNL Campaign Classic] v7 기능 중 대부분 [!DNL Campaign] v8에서 사용할 수 있으며, 단, [이 섹션](#gs-removed)에 나열된 작은 기능 세트를 제외합니다. 다른 항목은 향후 릴리스에 제공될 예정입니다. [자세한 내용은 이 섹션에서 확인하십시오](#gs-unavailable-features)
 
-:[이 페이지](../dev/architecture.md)에서 [!DNL Campaign] v8 아키텍처에 대해 자세히 알아보십시오.
+[!DNL :bulb:]  [!DNL Campaign] 이 페이지 [에서 ](../dev/architecture.md)v8 아키텍처에 대해 자세히 알아보십시오.
 
 ## 제품 구성 변경 사항
 
