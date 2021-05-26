@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Adobe Campaign에서는 보고 도구 세트를 제공합니다.
 쿼리, 계산 및 볼륨의 복잡성에 따라 이러한 보고서에서 분석된 데이터를 쿼리를 통해 수집하고 목록(데이터 관리 유형 워크플로우)이나 큐브(Marketing Analytics 사용)에서 미리 집계할 수 있습니다. 피벗 테이블 또는 그룹 목록의 형태로 표시됩니다.
 
 
-:[!DNL :arrow_upper_right:]:보고 기능에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reporting-in-adobe-campaign/about-adobe-campaign-reporting-tools.html)을 참조하십시오.
+[!DNL :arrow_upper_right:] 보고 기능에 대한 자세한 정보는 이  [섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reporting-in-adobe-campaign/about-adobe-campaign-reporting-tools.html)을 참조하십시오.
 
 Adobe Campaign 보고서는 Campaign Classic v7보다 최적화되어 있으며 더 나은 확장 기능을 제공합니다. 큐브에 대한 기존 제한 사항은 적용되지 않습니다.
 
