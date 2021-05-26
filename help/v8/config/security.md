@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Campaign 보안 모범 사례
 description: Campaign 보안 모범 사례 시작
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Adobe에서 Adobe는 디지털 경험의 보안을 매우 중요하게 생각합
 * 각 연산자에 적절한 액세스 권한이 있는지 확인합니다
 * 관리 연산자를 사용하지 않도록 하고, 관리 그룹에 너무 많은 운영자가 없도록 하십시오
 
-:arrow_upper_right:자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator)를 참조하십시오
+:[!DNL :arrow_upper_right:]:자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator)를 참조하십시오
 
 ## 코딩 지침
 
@@ -120,4 +120,4 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때에는 
 
 * **웹 애플리케이션에서 캡처를 추가합니다**.공개 랜딩 페이지 및 구독 페이지에 캡처를 추가합니다.
 
-:arrow_upper_right:자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic)를 참조하십시오
+:[!DNL :arrow_upper_right:]:자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic)를 참조하십시오
