@@ -6,9 +6,9 @@ description: Campaign 외부 계정
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1009'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ Adobe Campaign **[!UICONTROL Explorer]**&#x200B;에서 외부 계정에 액세�
 
 다음 기술 계정은 Adobe Campaign에서 특정 프로세스를 활성화하고 실행하는 데 사용됩니다.
 
-:speech_balon:관리 Cloud Services 사용자로 Campaign에서 제공하는 모든 외부 계정을 Adobe에서 구성합니다.
+[!DNL :speech_balloon:] 관리 Cloud Services 사용자로 Campaign에서 제공하는 모든 외부 계정을 Adobe에서 구성합니다.
 
 * **바운스 메일(POP3)**
 
@@ -76,7 +76,7 @@ Adobe Campaign **[!UICONTROL Explorer]**&#x200B;에서 외부 계정에 액세�
 
    [!DNL :bulb:]  [이 섹션](../start/connect.md#connect-ims)에서 Identity Management 서비스(IMS)에 대해 자세히 알아보십시오.
 
-   :speech_balon:관리 Cloud Services 사용자로서 [은(는) Adobe](../start/campaign-faq.md#support)에 문의하여 Campaign으로 Adobe IMS를 구현하십시오.
+   [!DNL :speech_balloon:] 관리 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Campaign으로 Adobe IMS를 구현하십시오.
 
 * **웹 분석**
 
@@ -84,14 +84,14 @@ Adobe Campaign **[!UICONTROL Explorer]**&#x200B;에서 외부 계정에 액세�
 
    [!DNL :bulb:] Adobe Campaign -  [이 페이지](../connect/ac-aa.md)에서 Adobe Analytics 통합에 대해 자세히 알아보십시오.
 
-   :speech_balon:관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 Adobe Analytics을 Campaign과 통합하십시오.
+   [!DNL :speech_balloon:] 관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Adobe Analytics을 Campaign과 통합하십시오.
 
    * **Adobe Experience Manager**
    **[!UICONTROL AEM]** 외부 계정을 사용하면 Adobe Experience Manager에서 직접 양식과 이메일 게재 콘텐츠를 관리할 수 있습니다.
 
    [!DNL :bulb:] Adobe Campaign -  [이 페이지](../connect/ac-aem.md)에서 Adobe Analytics 통합에 대해 자세히 알아보십시오.
 
-   :speech_balon:관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 Adobe Experience Manager을 Adobe Campaign과 통합하십시오.
+   [!DNL :speech_balloon:] 관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Adobe Experience Manager을 Adobe Campaign과 통합하십시오.
 
 
 ## CRM 커넥터 외부 계정
