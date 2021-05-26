@@ -7,7 +7,7 @@ feature: 대상자
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 7%
@@ -55,33 +55,33 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 
    계층 및 스케줄을 정의하고 예산을 설정하고 자원을 추가하고 연산자를 선택합니다.
 
-   :[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서에서 마케팅 계획을 만들고 캠페인을 구성하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy)
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 마케팅 계획을 만들고 캠페인을 구성하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy)
 
    모든 마케팅 캠페인은 기본 설정 및 기능을 저장하는 템플릿을 기반으로 합니다. 특정 구성이 정의되지 않은 캠페인을 만들기 위해 내장 템플릿이 제공됩니다. 캠페인 템플릿을 만들고 구성한 다음 이러한 템플릿에서 캠페인을 만들 수 있습니다.
 
-   :[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)에서 캠페인 템플릿으로 작업하는 방법을 알아봅니다
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 캠페인 템플릿으로 작업하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)
 
-   :[!DNL :arrow_upper_right:]:반복 캠페인과 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)에서 이를 구성하는 방법을 알아봅니다
+   [!DNL :arrow_upper_right:] 반복 캠페인과  [Campaign Classic v7 설명서에서 캠페인 구성 방법을 살펴봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)
 
 1. **대상자 정의**
 
    워크플로우에서 대상을 만들거나 수신자 목록, 뉴스레터의 구독자, 이전 게재의 수신자 또는 필터링 조건 등 기존 그룹을 선택할 수 있습니다.
 
-   :[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns)에서 메시지 대상자를 정의하는 방법을 알아봅니다
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 메시지 대상자를 정의하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns)
 
 1. **게재 만들기**
 
    채널을 선택하고, 메시지 콘텐츠를 정의하고, 게재를 시작합니다.
 
-   :[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries)에서 마케팅 캠페인 게재를 만들고 시작하는 방법을 알아봅니다
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 마케팅 캠페인 게재를 만들고 시작하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries)
 
    다양한 문서를 캠페인과 연결할 수 있습니다.보고서, 사진, 웹 페이지, 다이어그램 등
 
-   :[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents)의 관련 문서에 대해 자세히 알아보십시오
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 관련 문서에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents)
 
 1. **승인 프로세스 설정**
 
    Adobe Campaign을 사용하면 마케팅 캠페인의 주요 단계에 대한 공동 승인 프로세스를 설정할 수 있습니다. 각 캠페인에 대해 게재 대상, 컨텐츠 및 비용을 승인할 수 있습니다. 승인이 필요한 Adobe Campaign 운영자는 전자 메일로 통보를 받을 수 있으며 콘솔 또는 웹 연결을 통해 승인을 수락하거나 거부할 수 있습니다.
 
-   :[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)에서 승인을 설정 및 관리하는 방법을 알아봅니다
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 승인을 설정하고 관리하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)
 
