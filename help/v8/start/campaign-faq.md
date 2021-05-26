@@ -7,10 +7,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 41%
+source-wordcount: '642'
+ht-degree: 42%
 
 ---
 
@@ -30,7 +30,7 @@ Campaign을 사용하여 작업하는 동안 도움이 필요하십니까? 아�
 
    Adobe Campaign에 연결하려면 Campaign 클라이언트 콘솔을 다운로드하여 설치해야 합니다.
 
-   :[자세한 내용을 보려면 여기를 클릭하십시오](connect.md).
+   [!DNL :bulb:] [자세한 내용을 보려면 여기를 클릭하십시오](connect.md).
 
 1. **Campaign v8을 온-프레미스 또는 하이브리드 환경에 설치할 수 있습니까?**
 
@@ -40,9 +40,9 @@ Campaign을 사용하여 작업하는 동안 도움이 필요하십니까? 아�
 
    모든 발신자의 마케팅 프로그램 성공에 중요한 구성 요소인 이메일 게재 기능은 항상 변경되는 기준 및 규칙을 특징으로 합니다. 이 디지털 세상을 효과적으로 탐색하려면 주요 게재 가능성 트렌드를 고려하여 이메일 전략을 정기적으로 조정하여 대상자에게 가장 효과적으로 도달해야 합니다.
 
-   :arrow_upper_right:[배달 우수 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)에 대해 알아보려면 이 안내서를 참조하십시오.
+   :[!DNL :arrow_upper_right:]:[배달 우수 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)에 대해 알아보려면 이 안내서를 참조하십시오.
 
-   :arrow_upper_right:이 안내서에서 Campaign [에서 게재 능력을 구현하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
+   :[!DNL :arrow_upper_right:]:이 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)에서 Campaign [에서 게재 능력을 구현하는 방법을 알아봅니다
 
 1. **게재가 오류 없이 전송되도록 하려면 어떻게 해야 합니까?**
 
@@ -52,7 +52,7 @@ Campaign을 사용하여 작업하는 동안 도움이 필요하십니까? 아�
 
 1. **워크플로우 실행을 모니터링할 수 있습니까?**
 
-   :arrow_upper_right:Campaign Classic v7 설명서에서 캠페인 워크플로우 실행 [을 모니터링하는 방법을 이해합니다](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
+   :[!DNL :arrow_upper_right:]:Campaign Classic v7 설명서에서 Campaign 워크플로우 실행 [을 모니터링하는 방법을 이해합니다](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
 
 1. **어떤 시스템과 구성 요소가 Campaign v8과 호환됩니까?**
 
