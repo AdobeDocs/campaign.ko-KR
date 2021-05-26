@@ -1,5 +1,5 @@
 ---
-keywords: Campaign Classic;홈;인기 있는 주제
+keywords: Campaign Classic;home;popular topics
 solution: Campaign v8
 description: Campaign v8 도움말 센터
 title: Adobe Campaign v8 제품 설명서
@@ -7,7 +7,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 source-git-commit: 30b363ca9905c71f24a9b3db2404a301a5965eac
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 17%
+ht-degree: 83%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 17%
 
 * **[ [!DNL Adobe Campaign]](start/get-started.md)**  소개 - 주요 기능 및 활용 사례
 
-* **[v8의 새로운 기능](start/whats-new.md)**  - Campaign v8 기능 살펴보기
+* **[v8의 새로운 기능](start/whats-new.md)** - Campaign v8 기능 자세히 알아보기
 
-* **[구현 지침](start/implement.md)**   - 구현을 시작하는 방법을 알아봅니다.
+* **[구현 지침](start/implement.md)** - 구현을 시작하는 방법 알아보기
 
-* **[v7에서 v8로](start/capability-matrix.md)**  전환 - Campaign Classic v7에서 v8로 전환 주요 차이점 알아보기
+* **[v7에서 v8로 전환](start/capability-matrix.md)** - Campaign Classic v7에서 v8로 전환 주요 차이점 알아보기
 
 ## 시작
 
@@ -31,10 +31,10 @@ ht-degree: 17%
 <tr>
   <td valign="bottom">
     <a href="start/connect.md">
-      <img alt="Connect" src="start/assets/do-not-localize/login.jpeg"/>
+      <img alt="연결" src="start/assets/do-not-localize/login.jpeg"/>
     </a>
     <div>
-    <a href="start/connect.md">캠페인에 연결</a>
+    <a href="start/connect.md">Campaign에 연결</a>
     </div>
     <br>
   </td>
