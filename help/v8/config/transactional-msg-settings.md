@@ -6,16 +6,16 @@ description: Campaign 트랜잭션 메시지 설정
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
 # 트랜잭션 메시지 설정
 
-:speech_balon:관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 환경에 Campaign 트랜잭션 메시지를 설치하고 구성하십시오.
+[!DNL :speech_balloon:] 관리 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 환경에 Campaign 트랜잭션 메시지를 설치하고 구성합니다.
 
 [!DNL :bulb:] 트랜잭션 메시지 기능은  [이 섹션에 자세히 설명되어 있습니다](../send/transactional.md).
 
