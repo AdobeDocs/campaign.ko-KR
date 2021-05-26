@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '989'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Adobe Target의 오퍼를 Adobe Campaign 이메일 게재에 포함하도록 Cam
 >[!NOTE]
 >통합은 정적 이미지만 지원합니다. 다른 유형의 콘텐츠는 개인화할 수 없습니다.
 
-:speech_balon:관리 Cloud Services 사용자로서 [은(는) Adobe](../start/campaign-faq.md#support)에 문의하여 Campaign으로 Experience Cloud 트리거를 구현합니다.
+[!DNL :speech_balloon:] 관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Campaign으로 Experience Cloud 트리거를 구현합니다.
 
 Adobe Target에서는 다음 유형의 데이터를 사용할 수 있습니다.
 
