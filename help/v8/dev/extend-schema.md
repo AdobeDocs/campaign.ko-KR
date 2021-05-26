@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Campaign 스키마 확장
 description: Campaign 스키마를 확장하는 방법을 알아보십시오
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '243'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Campaign 데이터 모델을 사용자 지정하는 주요 단계는 다음과 �
 >[!CAUTION]
 >기본 제공 스키마를 직접 수정해서는 안 됩니다. 기본 제공 스키마를 조정해야 하는 경우, 확장을 확장해야 합니다.
 
-:Campaign 기본 제공 테이블 및 상호 작용에 대한 자세한 내용은 [이 페이지](datamodel.md)를 참조하십시오.
+[!DNL :bulb:] Campaign 기본 제공 테이블 및 상호 작용에 대한 자세한 내용은  [이 페이지](datamodel.md)를 참조하십시오.
 
 스키마를 확장하려면 아래 단계를 따르십시오.
 
