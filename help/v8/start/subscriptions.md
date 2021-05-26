@@ -6,7 +6,7 @@ description: Campaign v8에서 구독 및 구독 취소를 관리하는 방법�
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -23,25 +23,25 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 
 * 수신자 프로필에 서비스를 수동으로 추가합니다.이렇게 하려면 해당 프로필의 **[!UICONTROL Subscriptions]** 탭에서 **[!UICONTROL Add]** 을(를) 클릭하고 관련 정보 서비스를 선택합니다.
 
-   :[!DNL :arrow_upper_right:]:자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)를 참조하십시오
+   [!DNL :arrow_upper_right:] 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
 * 서비스에 수신자 집합을 자동으로 구독합니다. 수신자 목록은 필터링 작업, 그룹, 폴더, 가져오기 또는 직접 수동 선택에서 가져올 수 있습니다. 이러한 수신자를 구독하려면 프로필을 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Actions > Subscribe selection to a service...]** 을 선택하고 관련 서비스를 선택한 다음 작업을 시작합니다.
 
-   :[!DNL :arrow_upper_right:]:자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)를 참조하십시오
+   [!DNL :arrow_upper_right:] 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
 
 * 수신자를 가져와 정보 서비스에 자동으로 구독합니다. 이렇게 하려면 가져오기 마법사의 마지막 단계에서 관련 서비스를 선택합니다.
 
-   :[!DNL :arrow_upper_right:]:자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=en#step-5---additional-step-when-importing-recipients)를 참조하십시오
+   [!DNL :arrow_upper_right:] 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=en#step-5---additional-step-when-importing-recipients)
 
 * 수신자가 서비스에 가입할 수 있도록 웹 양식을 사용하십시오.
 
-   :[!DNL :arrow_upper_right:]:자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)를 참조하십시오
+   [!DNL :arrow_upper_right:] 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
 
 
 * 타겟팅 워크플로우를 만들고 **[!UICONTROL Subscription service]** 활동을 사용합니다.
 
-   :[!DNL :arrow_upper_right:]:자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter)를 참조하십시오
+   [!DNL :arrow_upper_right:] 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter)
 
 
 서비스에서 프로필을 구독 취소(옵트아웃)하려면 다음 옵션을 사용할 수 있습니다.
