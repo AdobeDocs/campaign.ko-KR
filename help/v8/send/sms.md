@@ -6,7 +6,7 @@ description: Campaign에서 SMS 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 2%
@@ -41,4 +41,4 @@ SMS 전송을 시작하기 전:
 > 
 >이 작업에 대한 자세한 정보는 [이 섹션](push.md)을 참조하십시오.
 
-:[!DNL :arrow_upper_right:]:자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html)를 참조하십시오
+[!DNL :arrow_upper_right:] 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-channel.html)
