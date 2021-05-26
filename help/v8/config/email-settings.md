@@ -6,9 +6,9 @@ description: Campaign 전자 메일 채널 설정
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 3fd91879485a33961769c684acba8ca3c48bbbed
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '278'
 ht-degree: 3%
 
 ---
@@ -41,6 +41,15 @@ Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 선택�
 
 **Campaign Classic** v7 설명서의 관련 항목:
 
-* [이메일 게재 템플릿 사용](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
-* [전자 메일 매개 변수 검색](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html)
-* [게재 오류 이해](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html)
+
+[!DNL :arrow_upper_right:] [미러 페이지 생성](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page)
+
+[!DNL :arrow_upper_right:] [전자 메일 형식 선택](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats)
+
+[!DNL :arrow_upper_right:] [문자 인코딩 선택](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding)
+
+[!DNL :arrow_upper_right:] [바운스 이메일 주소 설정](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails)
+
+[!DNL :arrow_upper_right:] [이메일 게재 템플릿 사용](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+
+[!DNL :arrow_upper_right:] [게재 오류 이해](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html)
