@@ -7,7 +7,7 @@ feature: 대상자
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 85e439e9500d74206d557acbe3c3a472baa70441
+source-git-commit: 345d324363782df6f7753d5099c4382628f5a048
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 20%
@@ -37,7 +37,7 @@ Adobe Campaign에서 **수신자**&#x200B;는 게재(전자 메일, SMS 등)를 
 ![](assets/create-profile.png)
 
 
-[!DNL :arrow_upper_right:]]  [Adobe Campaign Classic v7 설명서에서 프로필을 관리하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html).
+[!DNL :arrow_upper_right:]  [Adobe Campaign Classic v7 설명서에서 프로필을 관리하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html).
 
 
 ## 개인 정보 및 동의
