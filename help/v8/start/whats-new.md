@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -57,5 +57,5 @@ Campaign을 다음과 같은 강력한 Adobe 솔루션 세트와 통합할 수 �
 
 또한 여정 AI를 통해 예측 전송 시간 최적화 및 예측 참여 점수를 구성하고 오픈율, 클릭 수 및 매출을 높일 수 있습니다.
 
-:[Campaign 통합에 대해 자세히 알아보기](../connect/integration.md)
+[!DNL :bulb:] [Campaign 통합에 대해 자세히 알아보기](../connect/integration.md)
 
