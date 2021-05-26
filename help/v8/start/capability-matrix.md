@@ -7,10 +7,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 93004d69f33fce39f8f2abb18eec2562177a7adf
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 65%
+source-wordcount: '623'
+ht-degree: 57%
 
 ---
 
@@ -69,9 +69,9 @@ ht-degree: 65%
 
 Campaign 사용자는 데이터베이스 전문가가 될 필요가 없습니다. 더 이상 복잡한 데이터베이스 유지 관리 작업이나 복잡한 테이블 인덱싱을 수행할 필요가 없습니다.
 
-## 일시적으로 사용할 수 없는 기능{#gs-unavailable-features}
+## 사용할 수 없는 기능{#gs-unavailable-features}
 
-다음과 같은 일부 기능은 이 첫 번째 버전에서 아직 사용할 수 없습니다.
+일부 기능은 다음과 같이 이 첫 번째 버전에서는 사용할 수 없습니다.
 
 * 마케팅 리소스 관리
 * 분산 마케팅
@@ -79,6 +79,14 @@ Campaign 사용자는 데이터베이스 전문가가 될 필요가 없습니다
 * Campaign 최적화
 * 반응 관리자
 * 하이브리드/온-프레미스 배포 모델
+
+>[!CAUTION]
+>
+>현재 Campaign v8은 **만 관리 Cloud Service으로 사용할 수 있으며, 온-프레미스 또는 하이브리드 환경에 배포할 수 없습니다.**
+>
+>기존 Campaign Classic v7 환경에서 마이그레이션을 아직 사용할 수 없습니다.
+>
+>배포 모델을 잘 모르거나 질문이 있는 경우 계정 팀에 문의하십시오.
 
 ## 제거된 기능{#gs-removed}
 
