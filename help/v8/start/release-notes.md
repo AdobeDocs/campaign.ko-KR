@@ -1,8 +1,8 @@
 ---
 solution: Campaign v8
 product: Adobe Campaign
-title: Campaign v8 릴리스 노트
-description: 최신 Campaign v8 릴리스
+title: Campaign v8 릴리스 정보
+description: Campaign v8 최신 릴리스
 feature: 개요
 role: Data Engineer
 level: Beginner
@@ -11,10 +11,10 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396
 source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '13'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
 # 릴리스 정보
 
-방법
+할 일
