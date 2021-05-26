@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: c659c31c15916077e71c63f3b3f4ca135d4d7f7d
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Campaign Cloud Service에서 사용할 수 있는 환경의 세 가지 유형은
 
 한 환경에서 다른 환경으로 패키지를 내보내고 가져올 수 있습니다.
 
-:arrow_upper_right:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)의 패키지에 대해 자세히 알아보십시오
+:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)의 패키지에 대해 자세히 알아보십시오
 
 ## 중간 소싱 배포{#mid-sourcing-deployment}
 
@@ -51,7 +51,7 @@ Campaign Cloud Service에서 사용할 수 있는 환경의 세 가지 유형은
 
 트랜잭션 메시지(메시지 센터)는 트리거 메시지를 관리하기 위해 설계된 캠페인 모듈입니다.
 
-:[이 섹션](../send/transactional.md)에서 트랜잭션 메시지를 보내는 방법을 알아봅니다.
+[!DNL :bulb:]  [이 섹션](../send/transactional.md)에서 트랜잭션 메시지를 보내는 방법을 알아봅니다.
 
 웹 사이트에서 고객이 수행한 작업에 대한 응답으로, 이벤트는 REST API를 통해 Campaign으로 전송되고, 메시지 템플릿에는 API 호출을 통해 제공된 정보 또는 데이터가 채워지고, 트랜잭션 메시지는 실시간으로 고객에게 전송됩니다. 이러한 메시지는 개별적으로 또는 이메일, SMS 또는 푸시 알림을 통해 일괄적으로 전송할 수 있습니다.
 
@@ -59,7 +59,7 @@ Campaign Cloud Service에서 사용할 수 있는 환경의 세 가지 유형은
 
 * **컨트롤 인스턴스**(또는 마케팅 인스턴스)는 마케터와 IT 팀이 메시지 템플릿을 만들고, 구성하고, 게시하기 위해 사용합니다. 또한 이 인스턴스는 이벤트 모니터링 및 기록을 중앙 집중화합니다.
 
-   :[이 섹션](../send/transactional.md)에서 메시지 템플릿을 만들고 게시하는 방법을 알아봅니다.
+   [!DNL :bulb:]  [이 섹션](../send/transactional.md)에서 메시지 템플릿을 만들고 게시하는 방법을 알아봅니다.
 
 * **실행 인스턴스**&#x200B;는 들어오는 이벤트(예를 들어, 웹 사이트의 암호 재설정 또는 주문)를 검색하고 개인화된 메시지를 보냅니다. 로드 밸런서를 통해 메시지를 처리하고 최대 가용성을 위해 진행할 이벤트 수의 크기를 조정하는 실행 인스턴스가 두 개 이상 있을 수 있습니다.
 
@@ -69,7 +69,7 @@ Campaign Cloud Service에서 사용할 수 있는 환경의 세 가지 유형은
 
 ![](assets/messagecenter_diagram.png)
 
-:arrow_upper_right:메시지 센터 아키텍처는 [Campaign Classic v7 설명서에 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)
+:[!DNL :arrow_upper_right:]:메시지 센터 아키텍처는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)에 설명되어 있습니다
 
 ### 인증
 
@@ -82,4 +82,4 @@ Adobe 호스팅 메시지 센터 실행 인스턴스와 상호 작용할 때, �
 * 여러 실행 인스턴스
 로드 밸런서 뒤에 여러 실행 인스턴스가 있는 다중 셀 실행 아키텍처에서 외부 응용 프로그램에서 호출하는 로그온 방법이 로드 밸런서를 통해 수행됩니다.따라서 토큰 기반 인증을 사용할 수 없습니다. 사용자/암호 기반 인증이 필요합니다.
 
-:arrow_upper_right:[Campaign Classic v7 설명서](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)에서 트랜잭션 메시지 이벤트에 대해 자세히 알아보십시오
+:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)에서 트랜잭션 메시지 이벤트에 대해 자세히 알아보십시오
