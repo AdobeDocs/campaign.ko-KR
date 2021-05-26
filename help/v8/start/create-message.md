@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 4%
@@ -73,19 +73,19 @@ Adobe Campaign에서 전달하는 메시지는 다양한 방법으로 개인화�
 
 [!DNL :bulb:] 트랜잭션 메시지를 구성하고 전송하는 단계는  [이 페이지에 자세히 설명되어 있습니다](../send/transactional.md)
 
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=en#transactional-messaging)의 엔드 투 엔드 사용 사례에서 이 기능을 살펴보십시오
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서의 엔드 투 엔드 사용 사례에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=en#transactional-messaging)
 
 ## 게재 및 추적 로그
 
 게재가 전송된 후 게재를 모니터링하는 것은 마케팅 캠페인이 효율적이고 고객에게 도달하도록 하는 주요 단계입니다. 게재를 보낸 후 모니터링할 수 있을 뿐만 아니라 게재 실패와 격리를 관리하는 방법을 이해할 수 있습니다.
 
-:[!DNL :arrow_upper_right:]:[이 섹션에서 게재를 모니터링하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages)
+[!DNL :arrow_upper_right:] [이 섹션에서 게재를 모니터링하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages)
 
 
 **관련 항목**
 
-:[!DNL :arrow_upper_right:]:  [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html)
+[!DNL :arrow_upper_right:]  [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html)
 
-:[!DNL :arrow_upper_right:]: [테스트 및 이메일 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
+[!DNL :arrow_upper_right:]  [이메일 테스트 및 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
 
-:[!DNL :arrow_upper_right:]: [증명 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+[!DNL :arrow_upper_right:]  [증명 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
