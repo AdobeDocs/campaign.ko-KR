@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 3fd91879485a33961769c684acba8ca3c48bbbed
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1223'
 ht-degree: 7%
 
 ---
@@ -31,19 +31,21 @@ ht-degree: 7%
 
 Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시지 준비에서 게재에 이르기까지 마케팅 캠페인의 모든 측면에 대한 속도와 크기를 향상시킬 수 있습니다.
 
-다음 섹션에서 워크플로우에 대해 자세히 알아보십시오.
+이[엔드 투 엔드 사용 사례](#end-to-end-uc)에서 워크플로우를 디자인하는 방법을 배웁니다.
 
-* [워크플로우 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
-* 워크플로우 활동
+워크플로우 사용자 인터페이스 및 Campaign Classic v7 설명서의 실행에 대해 자세히 알아보십시오.
+
+[!DNL :arrow_upper_right:]  [워크플로우 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
+* 워크플로우 활동:
    * [타겟팅 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html):쿼리, 읽기 목록, 데이터 보강, 결합 등
    * [흐름 제어 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html):스케줄러, 포크, 경고, 외부 신호 등
    * [작업 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html):크로스 채널 게재, Javascript 코드, CRM 활동, 업데이트 집계 등
    * [이벤트 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html):파일 전송, 웹 다운로드 등
-* [종단 간 사용 사례를 통해 알아보기](#end-to-end-uc)
-* [마케팅 캠페인 워크플로우에서 대상 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
-* [워크플로우 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html)
-* [기본 제공 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
-* [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html)
+      [!DNL :arrow_upper_right:]  [마케팅 캠페인 워크플로우에서 대상 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
+
+      [!DNL :arrow_upper_right:]  [워크플로우 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html)
+      [!DNL :arrow_upper_right:] [기본 제공 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
+      [!DNL :arrow_upper_right:] [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html)
 
 
 ## 반복 캠페인 설정
