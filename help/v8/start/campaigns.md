@@ -7,7 +7,7 @@ feature: 대상자
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 7%
@@ -44,7 +44,7 @@ Adobe Campaign을 사용하면 타겟팅되고 개인화된 캠페인을 전자 
 
 Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠페인을 만들고, 구성하고, 실행하고, 분석할 수 있습니다.
 
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서에서 마케팅 캠페인에 액세스하고 구현하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 마케팅 캠페인에 액세스하고 구현하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)
 
 
 ## 시작하는 주요 단계
