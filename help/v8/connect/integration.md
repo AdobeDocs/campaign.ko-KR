@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '340'
 ht-degree: 11%
 
 ---
@@ -24,7 +24,7 @@ Adobe Campaign에는 외부 애플리케이션과 통신하고, 데이터베이�
 
 구현을 현대화하고 모든 Adobe Experience Cloud 기능을 활용합니다.
 
-:speech_balon:관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 Campaign을 Adobe Experience Cloud 서비스 및 솔루션과 연결하세요. IMS(Adobe Identity Management 서비스)를 구현해야 합니다. [자세히 알아보기](../start/connect.md#connect-ims)
+[!DNL :speech_balloon:] 관리 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Campaign을 Adobe Experience Cloud 서비스 및 솔루션과 연결하십시오. IMS(Adobe Identity Management 서비스)를 구현해야 합니다. [자세히 알아보기](../start/connect.md#connect-ims)
 
 Campaign v8은 다음과 연결할 수 있습니다.
 
