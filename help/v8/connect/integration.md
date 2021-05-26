@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 11%
@@ -40,9 +40,9 @@ Campaign v8은 다음과 연결할 수 있습니다.
 
 자산 공유 및 대상 공유 기능을 사용하여 Experience Cloud 솔루션에서 **대상** 및 **자산**&#x200B;을 결합할 수도 있습니다.
 
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)에서 Campaign과 Experience Cloud 솔루션 간 **대상 공유**&#x200B;에 대해 자세히 알아보십시오
+[!DNL :arrow_upper_right:]  **Campaign Classic v7** 설명서에서 Campaign과  [Experience Cloud 솔루션 간의 대상 공유에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)에서 Campaign과 Experience Cloud 솔루션 간 **자산 공유**&#x200B;에 대해 자세히 알아보십시오
+[!DNL :arrow_upper_right:]  **Campaign Classic v7** 설명서에서 Campaign과  [Experience Cloud 솔루션 간의 자산 공유에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
 ## CRM 커넥터{#gs-crm-connectors}
 
