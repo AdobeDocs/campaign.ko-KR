@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 6%
@@ -36,7 +36,7 @@ Adobe Campaign에서는 데이터 스키마를 사용하여 다음을 수행합�
 
 * 인터페이스를 통해 **새 필드** 길잡이를 사용합니다.
 
-   :[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서에서 Campaign에 새 필드를 빠르게 추가하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 Campaign에서 새 필드를 빠르게 추가하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)
 
 * 프로그래밍 방식으로, 스키마를 확장하여
 
