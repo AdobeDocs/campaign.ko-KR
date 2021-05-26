@@ -6,9 +6,9 @@ description: Campaign 전자 메일 채널 설정
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '235'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 선택�
 
 * 성공적으로 전송된 이메일만 고려하며 바운스는 고려되지 않습니다.
 
-:speech_balon:관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 Campaign에서 이메일 BCC를 활성화하십시오. 선택한 BCC 이메일 주소는 Adobe 팀이 대신 구성하도록 제공해야 합니다.
+[!DNL :speech_balloon:] 관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Campaign에서 이메일 BCC를 활성화합니다. 선택한 BCC 이메일 주소는 Adobe 팀이 대신 구성하도록 제공해야 합니다.
 
 이메일 BCC가 구성되면 게재 템플릿에서 또는 **이메일 BCC** 옵션을 통해 게재에서 기능이 활성화되어 있는지 확인합니다.
 
