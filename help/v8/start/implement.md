@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 0dae3431ac1ddc840244d7df4929b0c949f8011f
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 2%
@@ -79,17 +79,17 @@ Campaign에 사용자를 수동으로 추가하고 역할 계층 구조에 정�
 
    캠페인, 게재, 작업 또는 워크플로우는 모두 주요 설정 및 기능을 저장하는 템플릿을 기반으로 합니다. 특정 구성이 정의되지 않은 각 구성 요소에 대해 내장 템플릿이 제공됩니다. 템플릿을 필요에 따라 구성 및 조정하고 최종 사용자가 사용할 수 있도록 해야 합니다.
 
-   :[!DNL :arrow_upper_right:]:[이메일 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+   [!DNL :arrow_upper_right:] [이메일 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
 
-   :[!DNL :arrow_upper_right:]:[이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)에서 캠페인 템플릿으로 작업하는 방법을 알아봅니다
+   [!DNL :arrow_upper_right:] 이 페이지에서 캠페인 템플릿으로 작업하는 방법 [을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)
 
-   :[!DNL :arrow_upper_right:]:[이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=en#workflow-templates)에서 워크플로우 템플릿을 구성하는 방법을 알아봅니다
+   [!DNL :arrow_upper_right:] 이 페이지에서 워크플로우 템플릿을 구성하는  [방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=en#workflow-templates)
 
 1. 유형화 규칙 구성
 
    Campaign 유형화 규칙을 활용하여 게재 전송을 필터링, 제어 및 모니터링합니다. 예를 들어 피로도 규칙은 수신자의 과도한 요청을 방지하기 위해 메시지 빈도와 수량을 제어합니다. 구현되면 게재에서 유형화 규칙을 참조합니다.
 
-   :[!DNL :arrow_upper_right:]:[유형화 및 피로도 관리에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=en#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] [유형화 및 피로도 관리에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=en#orchestrating-campaigns)
 
 1. Campaign 기본 제공 데이터 모델을 잘 알고 있습니다
 
