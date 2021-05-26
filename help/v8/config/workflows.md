@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 15b11b144d0086adf8aade0e2a3c9b388d6163dd
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1212'
 ht-degree: 7%
 
 ---
@@ -50,21 +50,21 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시
 
 반복 워크플로우를 디자인하고 워크플로우를 실행할 때마다 새 게재 인스턴스를 만듭니다. 예를 들어 워크플로우가 일주일에 한 번 실행되도록 디자인된 경우 1년 후 52개의 게재가 발생합니다. 즉, 로그는 각 게재 인스턴스별로 분리됩니다.
 
-:arrow_upper_right:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)에서 반복 캠페인을 만드는 방법을 알아봅니다.
+:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)에서 반복 캠페인을 만드는 방법을 알아봅니다.
 
 
 ## 트리거 이벤트 활용
 
 캠페인 트랜잭션 메시지를 사용하여 정보 시스템에서 트리거된 이벤트에서 생성된 메시지를 자동화합니다. 이러한 트랜잭션 메시지는 예를 들어 송장, 주문 확인, 배송 확인, 암호 변경, 제품 비가용성 알림, 계정 명세서 또는 웹 사이트 계정 생성일 수 있습니다. 이러한 메시지는 개별적으로 또는 이메일, SMS 또는 푸시 알림을 통해 일괄적으로 전송할 수 있습니다.
 
-:arrow_upper_right:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=en#transactional-messaging)의 트랜잭션 메시지 기능에 대해 자세히 알아보십시오.
+:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=en#transactional-messaging)의 트랜잭션 메시지 기능에 대해 자세히 알아보십시오.
 
 
 Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하고 거의 실시간으로 개인화된 메시지를 전송할 수 있습니다.
 
-:arrow_upper_right:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en#integrating-with-adobe-experience-cloud)에서 Campaign을 Analytics 트리거와 통합하는 방법을 알아봅니다.
+:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en#integrating-with-adobe-experience-cloud)에서 Campaign을 Analytics 트리거와 통합하는 방법을 알아봅니다.
 
-:[이 섹션에서 Campaign을 다른 솔루션과 통합하는 방법을 알아봅니다](../start/connect.md)
+[!DNL :bulb:] 이 섹션에서 Campaign을 다른 솔루션과 통합하는  [방법을 알아봅니다](../start/connect.md)
 
 
 ## 워크플로우 종단 간 사용 사례{#end-to-end-uc}
