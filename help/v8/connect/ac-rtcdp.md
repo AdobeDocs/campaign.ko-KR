@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ ht-degree: 0%
 
 [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 Campaign에서 RTCDP를 구현하고 사용하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=en#integrating-with-adobe-experience-cloud)
 
-:speech_balon:관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 RTCDP 및 Campaign을 연결하십시오.
+[!DNL :speech_balloon:] 관리 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 RTCDP 및 Campaign을 연결합니다.
