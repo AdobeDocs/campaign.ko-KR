@@ -7,9 +7,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 556cd7727c7c2bf0158d59d71ae0131b4c1013ee
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '364'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상�
 
 [이 페이지에서 Adobe Campaign 및 Adobe Analytics에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/adobe-analytics-data-connector.html)
 
-:speech_balon: 관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 Adobe Analytics 데이터 커넥터를 Campaign과 통합하십시오.
+[!DNL :speech_balloon:]  관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Adobe Analytics Data Connector를 Campaign과 통합하십시오.
 
 
 ## Experience Cloud 트리거
@@ -49,4 +49,4 @@ Experience Cloud 트리거 을 사용하여 파이프라인을 사용하여 Adob
 
 [이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en)에서 Adobe Campaign 및 Experience Cloud 트리거에 대해 자세히 알아보십시오.
 
-:speech_balon: 관리 Cloud Services 사용자로서 [은(는) Adobe](../start/campaign-faq.md#support)에 문의하여 Campaign으로 Experience Cloud 트리거를 구현합니다.
+[!DNL :speech_balloon:]  관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Campaign으로 Experience Cloud 트리거를 구현합니다.
