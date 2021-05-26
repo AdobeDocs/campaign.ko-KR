@@ -6,7 +6,7 @@ description: 트랜잭션 메시지 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 1%
@@ -152,7 +152,7 @@ ht-degree: 1%
 
 증명 전송에는 게재와 동일한 프로세스가 포함됩니다.
 
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))에서 증명에 대해 자세히 알아보십시오
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 증명에 대해 자세히 알아보십시오]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))
 
 그러나 트랜잭션 메시지의 증명을 보내려면 다음 작업을 수행해야 합니다.
 
