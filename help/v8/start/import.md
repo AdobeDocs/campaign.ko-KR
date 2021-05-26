@@ -7,10 +7,10 @@ feature: 프로필
 role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
-source-git-commit: 905003b74a1f875432f08c5c70edf3d0451b861f
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 0%
+source-wordcount: '306'
+ht-degree: 2%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 0%
 
 Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 로드하거나, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 테이블에 직접 프로필 정보를 입력할 수 있습니다.
 
-:[audiences](audiences.md) 시작
-:Campaign [데이터 모델](../dev/datamodel.md) 이해
+[!DNL :bulb:] 대상 시작캠페인  [](audiences.md)
+[!DNL :bulb:] 데이터 모델  [이해](../dev/datamodel.md)
 
 ## 워크플로우에서 프로필 가져오기
 
@@ -29,11 +29,11 @@ Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 
 
 자세한 내용은 Campaign Classic v7 설명서를 참조하십시오.
 
-:arrow_upper_right:[가져오기 및 내보내기 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html)
+:[!DNL :arrow_upper_right:]:[가져오기 및 내보내기 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html)
 
-:arrow_upper_right:[가져오기 및 내보내기 우수 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html)
+:[!DNL :arrow_upper_right:]: [가져오기 및 내보내기 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html)
 
-:arrow_upper_right:[가져오기 구성 및 실행](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html)
+:[!DNL :arrow_upper_right:]:[가져오기 구성 및 실행](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html)
 
 ## 단일 가져오기 실행
 
@@ -41,7 +41,7 @@ Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 
 
 ![](assets/new-import.png)
 
-:arrow_upper_right:단일 가져오기 작업을 실행하여 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html)에서 데이터베이스를 제공하는 방법을 알아봅니다.
+:[!DNL :arrow_upper_right:]:단일 가져오기 작업을 실행하여 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html)에서 데이터베이스를 제공하는 방법을 알아봅니다.
 
 ## 웹 앱을 통해 프로필 수집
 
@@ -49,7 +49,7 @@ Campaign을 사용하여 웹 양식을 만들고 쉽고 효율적으로 프로�
 
 ![](assets/web-form-page.png)
 
-:arrow_upper_right:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html)에서 웹 양식을 만드는 방법을 알아봅니다.
+:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html)에서 웹 양식을 만드는 방법을 알아봅니다.
 
 **관련 항목**
 
