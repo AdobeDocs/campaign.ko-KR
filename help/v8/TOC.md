@@ -10,7 +10,7 @@ hide: true
 source-git-commit: 6e098ffa538c4348889a35eb454da747c80d6262
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 31%
+ht-degree: 84%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 31%
    + [Classic v7에서 v8로](start/capability-matrix.md)
 + 시작 {#start}
    + [시작](start/get-started.md)
-   + [Profiles &amp; Audiences](start/audiences.md)
+   + [프로필 및 대상](start/audiences.md)
    + [데이터 가져오기](start/import.md)
    + [캠페인 만들기](start/campaigns.md)
    + [메시지 보내기](start/create-message.md)
@@ -35,16 +35,16 @@ ht-degree: 31%
    + [FAQ](start/campaign-faq.md)
 + 구현 {#implement}
    + [구현 단계](start/implement.md)
-   + [인스턴스 사용자 지정](dev/customize.md)
+   + [인스턴스 사용자 정의](dev/customize.md)
    + [보안 지침](config/security.md)
    + [웹 앱 및 양식 디자인](dev/webapps.md)
    + [데이터 모델 모범 사례](dev/datamodel-best-practices.md)
-+ {#deploy} 배포
++ 배포 {#deploy}
    + [호환성 매트릭스](start/compatibility-matrix.md)
-   + [캠페인에 연결](start/connect.md)
+   + [Campaign에 연결](start/connect.md)
    + [사용 권한](start/permissions.md)
    + [Campaign 컨트롤 패널](config/self-service.md)
-+ {#send} 보내기
++ 보내기 {#send}
    + [이메일](send/email.md)
    + [SMS](send/sms.md)
    + [푸시 알림](send/push.md)
@@ -62,13 +62,13 @@ ht-degree: 31%
       + [오퍼 만들기](send/interaction-offer.md)
       + [오퍼 보내기](send/interaction-send-offers.md)
       + [사용 사례](send/interaction-use-cases.md)
-+ {#config} 구성
++ 구성 {#config}
    + [워크플로우 자동화](config/workflows.md)
    + [데이터 관리](config/replication.md)
-   + [전자 메일 설정](config/email-settings.md)
+   + [이메일 설정](config/email-settings.md)
    + [트랜잭션 메시지 설정](config/transactional-msg-settings.md)
    + [외부 계정](config/external-accounts.md)
-+ {#connect} 연결
++ 연결 {#connect}
    + [다른 솔루션과 연결](connect/integration.md)
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
