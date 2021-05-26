@@ -6,9 +6,9 @@ description: Campaign API 스테이징 메커니즘
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 3%
 
 ---
@@ -51,7 +51,7 @@ Campaign Classic v7 API는 계속 사용할 수 있지만 이 새로운 스테�
    </srcSchema>
    ```
 
-   :[이 페이지](create-schema.md)에서 사용자 지정 스키마 만들기에 대해 자세히 알아보십시오.
+   [!DNL :bulb:]  [이 페이지에서 사용자 지정 스키마 만들기에 대한 자세한 내용을 살펴보십시오](create-schema.md).
 
 1. 데이터베이스 구조를 저장하고 업데이트합니다.  [자세히 알아보기](update-database-structure.md)
 
