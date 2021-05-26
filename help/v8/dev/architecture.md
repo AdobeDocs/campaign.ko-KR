@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 0dae3431ac1ddc840244d7df4929b0c949f8011f
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Campaign Cloud Service에서 사용할 수 있는 환경의 세 가지 유형은
 
 한 환경에서 다른 환경으로 패키지를 내보내고 가져올 수 있습니다.
 
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)의 패키지에 대해 자세히 알아보십시오
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 패키지에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
 ## 중간 소싱 배포{#mid-sourcing-deployment}
 
@@ -69,7 +69,7 @@ Campaign Cloud Service에서 사용할 수 있는 환경의 세 가지 유형은
 
 ![](assets/messagecenter_diagram.png)
 
-:[!DNL :arrow_upper_right:]:메시지 센터 아키텍처는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)에 설명되어 있습니다
+[!DNL :arrow_upper_right:] 메시지 센터 아키텍처는  [Campaign Classic v7 설명서에 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)
 
 ### 인증
 
@@ -82,4 +82,4 @@ Adobe 호스팅 메시지 센터 실행 인스턴스와 상호 작용할 때, �
 * 여러 실행 인스턴스
 로드 밸런서 뒤에 여러 실행 인스턴스가 있는 다중 셀 실행 아키텍처에서 외부 응용 프로그램에서 호출하는 로그온 방법이 로드 밸런서를 통해 수행됩니다.따라서 토큰 기반 인증을 사용할 수 없습니다. 사용자/암호 기반 인증이 필요합니다.
 
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)에서 트랜잭션 메시지 이벤트에 대해 자세히 알아보십시오
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 트랜잭션 메시지 이벤트에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)
