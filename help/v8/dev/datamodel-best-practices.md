@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: 데이터 모델 모범 사례
 description: Campaign 데이터 모델 확장 모범 사례 학습
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2679'
 ht-degree: 4%
 
 ---
@@ -177,7 +177,7 @@ Adobe Campaign에는 다음과 같은 몇 가지 해결 방법이 있어 레코�
 
 스키마에서 &quot;deleteStatus&quot; 속성을 선언할 수 있습니다. 레코드를 삭제로 표시한 다음 정리 작업에서 삭제를 연기하는 것이 더 효율적입니다.
 
-:speech_balon:관리 Cloud Services 사용자는 Adobe 컨설턴트나 기술 관리자에게 연락하여 보존에 대한 자세한 내용을 확인하거나 사용자 지정 테이블에 대한 보존을 설정해야 합니다.
+[!DNL :speech_balloon:] 관리 Cloud Services 사용자는 Adobe 컨설턴트나 기술 관리자에게 연락하여 보존에 대한 자세한 내용을 확인하거나 사용자 지정 테이블에 대한 보존을 설정해야 합니다.
 
 ## 성능 {#performance}
 
