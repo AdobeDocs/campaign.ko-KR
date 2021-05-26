@@ -4,9 +4,9 @@ product: Adobe Campaign
 title: 일반 아키텍처
 description: Campaign v8 일반 아키텍처
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ ht-degree: 0%
 
 * **클라이언트 콘솔**:애플리케이션의 기본 사용자 인터페이스는 표준 인터넷 프로토콜(SOAP, HTTP 등)을 사용하여 Adobe Campaign 애플리케이션 서버와 통신하는 기본 애플리케이션(Windows의 경우)입니다. Adobe Campaign Client Console은 생산성을 위한 사용자 친화적이며 로컬 캐시를 통해 대역폭을 거의 사용하지 않으며 쉽게 배포할 수 있도록 설계되었습니다. 이 콘솔은 인터넷 브라우저에서 배포할 수 있으며 자동으로 업데이트할 수 있으며 HTTP(S) 트래픽만 생성하므로 특정 네트워크 구성은 필요하지 않습니다.
 
-   :[Campaign 클라이언트 콘솔에 대해 자세히 알아보십시오](../start/connect.md).
+   [!DNL :bulb:] [Campaign 클라이언트 콘솔에 대해 자세히 알아보십시오](../start/connect.md).
 
 * **웹 액세스**:보고 모듈, 게재 승인 단계, 인스턴스 모니터링 등을 비롯한 HTML 사용자 인터페이스를 사용하는 간단한 웹 브라우저를 통해 응용 프로그램의 일부에 액세스할 수 있습니다.
 
-   :[Campaign Web Access](../start/connect.md)에 대해 자세히 알아보십시오.
+   [!DNL :bulb:] [Campaign Web Access에 대해 자세히 알아보십시오](../start/connect.md).
 
 * **Campaign API**:경우에 따라 SOAP 프로토콜을 통해 노출된 웹 서비스 API를 사용하여 외부 애플리케이션에서 시스템을 호출할 수 있습니다.
 
-   :[Campaign API에 대해 자세히 알아보십시오](../dev/api.md).
+   [!DNL :bulb:] [Campaign API에 대해 자세히 알아보십시오](../dev/api.md).
 
 ## 개발 환경 {#dev-env}
 
