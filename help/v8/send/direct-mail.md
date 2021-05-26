@@ -6,7 +6,7 @@ description: Campaign에서 DM 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 2%
@@ -17,5 +17,5 @@ ht-degree: 2%
 
 DM 게재를 사용하면 대상 모집단에 대한 데이터가 포함된 추출 파일을 생성할 수 있습니다.
 
-:[!DNL :arrow_upper_right:]:자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html)를 참조하십시오
+[!DNL :arrow_upper_right:] 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html)
 
