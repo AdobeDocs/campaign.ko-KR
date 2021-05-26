@@ -7,9 +7,9 @@ feature: 대상자
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '752'
 ht-degree: 4%
 
 ---
@@ -104,13 +104,13 @@ Campaign 사용자는 IMS(Adobe Identity Management System)를 통해 Adobe ID�
 * 강력한 암호 관리 정책.
 * 페더레이션 ID 계정 사용(외부 ID 공급자).
 
-:speech_balon:관리 Cloud Services 사용자로서 [은(는) Adobe](campaign-faq.md#support)에 문의하여 Campaign으로 Adobe IMS를 구현하십시오.
+[!DNL :speech_balloon:] 관리 Cloud Services 사용자는  [Adobe](campaign-faq.md#support) 에 문의하여 Campaign으로 Adobe IMS를 구현하십시오.
 
 ## LDAP 로그인으로 Campaign에 연결
 
 사용자가 LDAP 인증을 통해 플랫폼에 액세스하도록 Adobe Campaign을 구성할 수 있습니다.
 
-:speech_balon:관리 Cloud Services 사용자로서 [Adobe](campaign-faq.md#support)에 문의하여 Campaign과 LDAP 통합을 구성하십시오.
+[!DNL :speech_balloon:] 관리되는 Cloud Services 사용자는  [Adobe](campaign-faq.md#support) 에 문의하여 Campaign과의 LDAP 통합을 구성합니다.
 
 
 ## 웹 액세스{#web-access}
