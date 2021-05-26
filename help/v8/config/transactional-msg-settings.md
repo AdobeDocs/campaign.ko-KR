@@ -6,9 +6,9 @@ description: Campaign 트랜잭션 메시지 설정
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 :speech_balon:관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 환경에 Campaign 트랜잭션 메시지를 설치하고 구성하십시오.
 
-:트랜잭션 메시지 기능은 [이 섹션](../send/transactional.md)에 자세히 설명되어 있습니다.
+[!DNL :bulb:] 트랜잭션 메시지 기능은  [이 섹션에 자세히 설명되어 있습니다](../send/transactional.md).
 
-:[이 페이지](../dev/architecture.md)의 트랜잭션 메시지 아키텍처를 이해합니다.
+[!DNL :bulb:]  [이 페이지의 트랜잭션 메시지 아키텍처를 이해합니다](../dev/architecture.md).
 
 ## 권한 정의
 
@@ -29,13 +29,13 @@ Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대한
 
 제어 또는 실행 인스턴스에서 **메시지 센터 기술 워크플로우**&#x200B;에서 사용하는 스키마에서 수행되는 모든 스키마 확장은 Adobe Campaign 트랜잭션 메시지 모듈에서 사용하는 다른 인스턴스에 복제해야 합니다.
 
-:arrow_upper_right:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/technical-workflows.html?lang=en#control-instance-workflows)의 메시지 센터 기술 워크플로우에 대해 자세히 알아보십시오
+:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/technical-workflows.html?lang=en#control-instance-workflows)의 메시지 센터 기술 워크플로우에 대해 자세히 알아보십시오
 
 ## 트랜잭션 푸시 알림 보내기
 
 모바일 앱 채널 모듈과 결합하면 트랜잭션 메시지를 통해 모바일 장치의 알림을 통해 트랜잭션 메시지를 푸시할 수 있습니다.
 
-:arrow_upper_right:모바일 앱 채널은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages)에 자세히 설명되어 있습니다.
+:[!DNL :arrow_upper_right:]:모바일 앱 채널은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages)에 자세히 설명되어 있습니다.
 
 트랜잭션 푸시 알림을 전송하려면 다음 구성을 수행해야 합니다.
 
