@@ -6,10 +6,10 @@ description: 'Campaign 및 CRM으로 작업하는 방법 알아보기 '
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 21%
+source-wordcount: '269'
+ht-degree: 22%
 
 ---
 
@@ -31,12 +31,12 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 
 ## 구현 단계 {#crm-implementation-steps}
 
-:arrow_upper_right:[Campaign Classic v7 설명서에서 Campaign과 Microsoft Dynamics를 연결하는 단계별 절차를 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)
+:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)에서 Campaign과 Microsoft Dynamics를 연결하는 단계별 절차에 대해 알아봅니다.
 
-:arrow_upper_right:[Campaign Classic v7 설명서에서 Campaign 및 Salesforce를 연결하는 단계별 절차를 배웁니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)
+:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)에서 Campaign 및 Salesforce를 연결하는 단계별 절차를 배웁니다.
 
 
 Adobe Campaign과 CRM 간의 데이터 동기화는 전용 워크플로우 활동을 통해 수행됩니다. 워크플로우를 빌드하여 Campaign과 CRM 간 동기화를 자동화합니다. Microsoft Dynamics를 통해 연락처를 가져오고, 기존 Adobe Campaign 데이터와 동기화하며, 중복 연락처를 삭제한 다음 Adobe Campaign 데이터베이스를 업데이트하는 워크플로우를 만들 수 있습니다.
 
-:arrow_upper_right:자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)를 참조하십시오
+:[!DNL :arrow_upper_right:]:자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)를 참조하십시오
 
