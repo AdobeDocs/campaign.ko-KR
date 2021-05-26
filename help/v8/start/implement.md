@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 0dae3431ac1ddc840244d7df4929b0c949f8011f
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 2%
@@ -37,11 +37,11 @@ ht-degree: 2%
 
 Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호 법 및 수신자의 환경 설정을 준수하는 Campaign을 사용할 수 있는 프로세스 및 설정이 포함되어 있습니다. 다음을 관리할 수 있습니다.
 
-* **데이터 획득**:Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 관리하는 것이 중요합니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition)를 참조하십시오
+* **데이터 획득**:Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 관리하는 것이 중요합니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition)를 참조하십시오
 
-* **사용자 동의 및 데이터 유지**:사용자 동의, 이중 옵트인 구독 메커니즘 설정, 옵트아웃 촉진 및  [Campaign Classic 개인 정보 보호 문서에서 데이터 유지 구성 방법을 알아봅니다](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent)
+* **사용자 동의 및 데이터 유지**:사용자 동의, 이중 옵트인 구독 메커니즘 설정, 옵트아웃 촉진 및  [Campaign Classic 개인 정보 보호 문서에서 데이터 유지 구성 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent)
 
-* **개인 정보 보호 및 데이터 보호 규정**:유럽 연합의 GDPR( [General Data Protection Regulation), CCPA(California Consumer Privacy Act) 및 기타 국제 개인 정보 보호 요구 사항과 이러한 규정이 조직 및 Adobe Campaign에 미치는 영향에 대한 자세한 내용은 Campaign Classic 개인 정보 보호 ](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html) 설명서를 참조하십시오.
+* **개인 정보 보호 및 데이터 보호 규정**:유럽 연합의 GDPR( [General Data Protection Regulation), CCPA(California Consumer Privacy Act) 및 기타 국제 개인 정보 보호 요구 사항과 이러한 규정이 조직 및 Adobe Campaign에 미치는 영향에 대한 자세한 내용은 Campaign Classic 개인 정보 보호 ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html) 설명서를 참조하십시오.
 
 ### 보안
 
