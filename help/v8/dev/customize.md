@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 6%
@@ -49,9 +49,9 @@ Adobe Campaign(예: 계약 테이블)에 기본적으로 존재하지 않는 완
 
 **관련 항목**
 
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic)의 스키마 에디션의 예
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서의 스키마 에디션의 예](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic)
 
-:[!DNL :arrow_upper_right:]:사용 사례:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link)의 기존 참조 테이블에 필드를 연결합니다
+[!DNL :arrow_upper_right:] 사용 사례:v7  [Campaign Classic 설명서의 기존 참조 테이블에 필드 연결](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link)
 
 
 ## 입력 양식 수정
@@ -66,7 +66,7 @@ Adobe Campaign 인터페이스는 많은 웹 애플리케이션을 사용하여 
 
 기본 웹 응용 프로그램은 관리 > 구성 > 웹 응용 프로그램 노드에 저장됩니다.
 
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서에서 Campaign에서 개요 페이지를 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application)
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 Campaign에서 개요 페이지를 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application)
 
 
 ## 목록을 사용자 지정하고 필터 {#gs-lists-and-filters} 만들기
@@ -75,16 +75,16 @@ Adobe Campaign 인터페이스는 많은 웹 애플리케이션을 사용하여 
 
 캠페인 목록에는 탐색 및 데이터 시각화를 용이하게 하기 위해 사전 정의된 필터가 포함되어 있습니다.
 
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering)의 필터링 옵션에 대해 자세히 알아보십시오
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서의 필터링 옵션에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering)
 
 
 ### 탐색기에서 데이터에 액세스
 
 Adobe Campaign 탐색기 트리에서 탐색하면 데이터베이스에 포함된 데이터가 목록에 표시됩니다. 이러한 목록을 필터링하고, 검색을 실행하고, 정보를 추가하고, 데이터를 필터링하고, 정렬할 수 있습니다.
 
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en#getting-started)에서 목록을 구성하고 목록 구성을 저장하는 방법을 알아봅니다
+[!DNL :arrow_upper_right:] 목록 구성 및  [Campaign Classic v7 설명서 저장 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en#getting-started)
 
 
 이러한 목록에 필터를 적용하여 연산자가 필요한 데이터만 표시할 수 있습니다. 그런 다음 필터링된 데이터에 대해 작업을 실행할 수 있습니다. 필터 구성을 사용하면 목록에서 데이터를 동적으로 선택할 수 있습니다. 데이터가 수정되면 필터링된 데이터가 업데이트됩니다.
 
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서에서 데이터를 필터링하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters)
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 데이터를 필터링하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters)
