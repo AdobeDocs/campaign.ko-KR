@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Campaign 데이터베이스 매핑
 description: Campaign 데이터베이스 매핑
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -257,7 +257,7 @@ Federated Database Access를 사용한 조인 관계의 경우:
 * ![](assets/do-not-localize/join_fda_11.png) :카디널리티 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) :카디널리티 1-N
 
-:FDA 테이블에 대한 자세한 내용은 [Federated Data Access](../connect/fda.md)를 참조하십시오.
+[!DNL :bulb:] FDA 테이블에 대한 자세한 내용은  [Federated Data Access](../connect/fda.md)를 참조하십시오.
 
 주 요소를 통해 연결된 테이블의 외래 키가 포함된 스키마에서 링크를 선언해야 합니다.
 
@@ -378,7 +378,7 @@ Federated Database Access를 사용한 조인 관계의 경우:
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
-### 예제 4 {#example-4}
+### 예제 5 {#example-4}
 
 폴더(&quot;xtk:folder&quot; 스키마)에 대한 링크:
 
