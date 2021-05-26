@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 58%
@@ -56,4 +56,4 @@ Campaign 컨트롤 패널에서 Campaign 인스턴스 설정을 관리하는 방
 * [인스턴스 세부 사항](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
 * [GPG 키 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
 
-:[!DNL :arrow_upper_right:]:[이 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)에서 모든 Campaign 컨트롤 패널 기능 검색
+[!DNL :arrow_upper_right:] 이 설명서에서 모든 Campaign 컨트롤 패널  [기능을 살펴보십시오](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
