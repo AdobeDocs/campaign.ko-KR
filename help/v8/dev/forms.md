@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: 캠페인 입력 양식
 description: 입력 양식을 사용자 지정하는 방법 알아보기
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '2558'
+source-wordcount: '2555'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 기본적으로 각 필드는 단일 행에 표시되며 데이터 유형에 따라 사용 가능한 모든 공간을 차지합니다.
 
-:arrow_upper_right:모든 양식 속성은 [Campaign Classic v7 설명서](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html)에 나열되어 있습니다.
+:[!DNL :arrow_upper_right:]:모든 양식 속성은 [Campaign Classic v7 설명서](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html)에 나열되어 있습니다.
 
 ## 서식 {#formatting}
 
