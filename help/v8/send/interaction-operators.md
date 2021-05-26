@@ -6,7 +6,7 @@ description: 오퍼 관리 운영자 만들기
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 1. 새 연산자를 만듭니다.
 
-   :[!DNL :arrow_upper_right:]:Campaign에서 연산자를 만드는 단계는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)에 자세히 설명되어 있습니다
+   [!DNL :arrow_upper_right:] Campaign에서 연산자를 만드는 단계는  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. **[!UICONTROL Groups and named rights]** 창으로 이동하여 **[!UICONTROL Add]** 을 클릭하고 **[!UICONTROL Offer manager]** 그룹을 선택합니다.
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 1. 새 연산자를 만듭니다.
 
-   :[!DNL :arrow_upper_right:]:Campaign에서 연산자를 만드는 단계는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)에 자세히 설명되어 있습니다
+   [!DNL :arrow_upper_right:] Campaign에서 연산자를 만드는 단계는  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. **[!UICONTROL Groups and named rights]** 창으로 이동하여 **[!UICONTROL Add]** 을 클릭하고 **[!UICONTROL Delivery manager]** 그룹을 선택합니다.
 
