@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 2%
@@ -53,7 +53,7 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호 법 및 수
 
 Campaign에 사용자를 수동으로 추가하고 역할 계층 구조에 정렬하여 그룹과 연결할 수 있습니다. 그러면 사용자는 로그인하고 자신에게 적합한 데이터 및 권한에 액세스할 수 있습니다.
 
-:[!DNL :arrow_upper_right:]:[이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started)에서 Adobe Campaign에 사용자를 추가하는 방법을 알아봅니다.
+[!DNL :arrow_upper_right:]  [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started)에서 Adobe Campaign에 사용자를 추가하는 방법을 알아봅니다.
 
 ### Campaign 클라이언트 콘솔 설치
 
