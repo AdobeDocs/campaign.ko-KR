@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: 데이터 모델 모범 사례
 description: Campaign 데이터 모델 확장 모범 사례 학습
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '2683'
+source-wordcount: '2681'
 ht-degree: 4%
 
 ---
@@ -18,9 +18,9 @@ Adobe Campaign 시스템은 매우 유연하며 초기 구현 이상으로 확�
 
 Campaign 기본 제공 표와 이들이 상호 작용하는 방법에 대한 자세한 내용은 [이 섹션](datamodel.md) 을 참조하십시오.
 
-:Campaign 스키마를 시작하려면 [이 섹션](schemas.md)을 읽어 보십시오.
+[!DNL :bulb:] Campaign  [스키마를 ](schemas.md) 시작하려면 이 섹션을 참조하십시오.
 
-:[이 페이지](extend-schema.md)에서 Adobe Campaign 데이터베이스의 개념적 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법을 알아보십시오.
+[!DNL :bulb:]  [이 페이지](extend-schema.md)에서 Adobe Campaign 데이터베이스의 개념적 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법을 알아보십시오.
 
 ## 데이터 모델 아키텍처 {#data-model-architecture}
 
