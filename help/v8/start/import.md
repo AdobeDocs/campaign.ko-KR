@@ -10,40 +10,40 @@ exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 2%
+ht-degree: 59%
 
 ---
 
-# 데이터를 Campaign {#ootb-profiles}에 가져오기
+# 데이터를 Campaign으로 가져오기 {#ootb-profiles}
 
-Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 로드하거나, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 테이블에 직접 프로필 정보를 입력할 수 있습니다.
+Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 불러오고, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 표에 직접 프로필 정보를 입력할 수 있습니다.
 
 [!DNL :bulb:] 대상 시작캠페인  [](audiences.md)
 [!DNL :bulb:] 데이터 모델  [이해](../dev/datamodel.md)
 
 ## 워크플로우에서 프로필 가져오기
 
-프로필 가져오기는 **가져오기** 활동을 통해 워크플로우를 통해 실행되는 전용 템플릿에 구성됩니다. 예를 들어 일정에 따라 자동으로 반복될 수 있으므로 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html)를 참조하십시오.
+프로필 가져오기는 **가져오기** 활동을 통해 워크플로우를 통해 실행되는 전용 템플릿에서 구성됩니다. 일정에 따라 자동으로 반복될 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html?lang=ko)를 참조하십시오.
 
 ![](assets/import-wf.png)
 
 자세한 내용은 Campaign Classic v7 설명서를 참조하십시오.
 
-[!DNL :arrow_upper_right:] [가져오기 및 내보내기 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html)
+[!DNL :arrow_upper_right:] [가져오기 및 내보내기 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=ko)
 
-[!DNL :arrow_upper_right:] [가져오기 및 내보내기 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html)
+[!DNL :arrow_upper_right:] [가져오기 및 내보내기 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=ko)
 
-[!DNL :arrow_upper_right:] [가져오기 구성 및 실행](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html)
+[!DNL :arrow_upper_right:] [가져오기 구성 및 실행](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=ko)
 
 ## 단일 가져오기 실행
 
-일반 데이터 가져오기 작업을 만들어 실행하여 클라우드 데이터베이스에 연락처를 로드합니다.
+일반 데이터 가져오기 작업을 만들고 실행하여 Cloud 데이터베이스에서 연락처를 불러들입니다.
 
 ![](assets/new-import.png)
 
-[!DNL :arrow_upper_right:] 단일 가져오기 작업을 실행하여  [Campaign Classic v7 설명서에서 데이터베이스를 제공하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html).
+[!DNL :arrow_upper_right:] 단일 가져오기 작업을 실행하여  [Campaign Classic v7 설명서에서 데이터베이스를 제공하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ko).
 
-## 웹 앱을 통해 프로필 수집
+## 웹 앱을 통하여 프로필 수집
 
 Campaign을 사용하여 웹 양식을 만들고 쉽고 효율적으로 프로필 정보를 수집 및 관리할 수 있습니다. 이러한 양식을 웹 사이트에 공유할 수 있으므로 연락처가 해당 정보를 쉽게 제공할 수 있습니다. 해당 정보가 데이터베이스에 이미 있는 경우 프로필을 만들거나 정보를 업데이트하기 위해 Campaign으로 전송됩니다.
 
@@ -54,5 +54,5 @@ Campaign을 사용하여 웹 양식을 만들고 쉽고 효율적으로 프로�
 **관련 항목**
 
 * [대상자 만들기](audiences.md)
-* [프로필 중복 제거](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html)
-* [프로필 데이터 보강](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html)
+* [프로필 중복 제거](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=ko)
+* [프로필 데이터 강화](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html?lang=ko)
