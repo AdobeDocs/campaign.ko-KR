@@ -7,7 +7,7 @@ feature: 대상자
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 4%
@@ -117,8 +117,8 @@ Campaign 사용자는 IMS(Adobe Identity Management System)를 통해 Adobe ID�
 
 HTML 사용자 인터페이스를 사용하여 간단한 웹 브라우저를 통해 애플리케이션의 특정 부분에 액세스할 수 있습니다.Campaign 대시보드, 큐브 보고, 인스턴스 모니터링 등.
 
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서에서 웹 액세스에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access)
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 웹 액세스에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access)
 
 웹 액세스는 유효성 검사 프로세스에서도 사용됩니다.운영자는 승인 요청 이메일을 클릭하고 웹 브라우저를 통해 Campaign에 연결하여 게재 콘텐츠 또는 예산을 유효성 검사하거나 거부할 수 있습니다.
 
-:[!DNL :arrow_upper_right:]:[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)에서 승인을 설정 및 관리하는 방법을 알아봅니다
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 승인을 설정하고 관리하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)
