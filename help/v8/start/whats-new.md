@@ -7,10 +7,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: a48e69a3f34c48ed4828bf29b8a02a3dc07bfa7e
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 65%
+source-wordcount: '453'
+ht-degree: 52%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Campaign v8은 인프라, 보안, 제공 및 모니터링 기능이 상당
 
 주요 기능은 다음과 같습니다.
 
-* **속도 및 크기 조절**. Adobe Campaign v8은 Cloud Database Manager를 활용하므로 시간당 최대 200배 더 빠른 속도로, 멀티 페타바이트급 용량에 더 많아진 수의 메시지(시간당 최대 2천만 건, 트랜잭션 메시지는 최대 150만 건)를 처리하는 쿼리가 가능하며 최대 2억 건(잠재적으로는 최대 10억 건)의 활성 프로필을 관리할 수 있습니다.
+* **속도 및 크기 조절**. Adobe Campaign v8은 Cloud Database Manager를 활용하여 최대 200배 더 빠른 멀티페타바이트 규모의 쿼리, 시간당 최대 20M/시간 또는 1M/시간 트랜잭션 메시지를 통해 메시지 수를 증가시키는 쿼리, 최대 2억 개의 활성 프로필을 관리할 수 있으며, 최대 2억 개의 활성 프로필을 관리할 수 있습니다.
 
 * **Adobe Experience Platform 연결**. Adobe Campaign v8은 Adobe Experience Platform/RT-CDP 데이터 커넥터, 통합 고객 프로필, Journey Orchestration과의 기본 통합을 지원합니다. 이러한 투자를 통해 Adobe Campaign 고객 경험을 최적화하고 개별 실시간 고객 여정을 캠페인에 추가하는 기능과 같은 새로운 활용 사례를 확보할 수 있습니다.
 
@@ -31,6 +31,8 @@ Adobe Campaign v8은 인프라, 보안, 제공 및 모니터링 기능이 상당
 >현재 Campaign v8은 **만 관리 Cloud Service으로 사용할 수 있으며, 온-프레미스 또는 하이브리드 환경에 배포할 수 없습니다.**
 >
 >기존 Campaign Classic v7 환경에서 마이그레이션을 아직 사용할 수 없습니다.
+>
+>배포 모델을 잘 모르거나 질문이 있는 경우 계정 팀에 문의하십시오.
 
 
 ## 크기 조절
