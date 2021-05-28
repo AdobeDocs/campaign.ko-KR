@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 93004d69f33fce39f8f2abb18eec2562177a7adf
+source-git-commit: 15cd7228a4920702cae182c68e7a329345946e31
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 57%
@@ -61,7 +61,7 @@ ht-degree: 57%
 
 ### ID 관리
 
-이제 Campaign v8 개체에는 데이터를 식별하는 데 제한 없는 고유 값을 사용할 수 있는 **UUID(범용 고유 ID)**&#x200B;가 사용됩니다
+이제 Campaign v8 개체에는 데이터를 식별하는 데 제한 없는 고유 값을 사용할 수 있는 **UUID(범용 고유 ID)**&#x200B;가 사용됩니다.
 
 이 ID는 문자열 기반이며 순차적이지 않습니다.
 
