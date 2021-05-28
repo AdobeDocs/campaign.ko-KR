@@ -7,10 +7,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: eaad05675d2f875af2db5f71781afdad3a9ff004
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 11%
+source-wordcount: '342'
+ht-degree: 13%
 
 ---
 
@@ -29,13 +29,10 @@ Adobe Campaign에는 외부 애플리케이션과 통신하고, 데이터베이�
 Campaign v8은 다음과 연결할 수 있습니다.
 
 * [Adobe Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en)
-
 * [실시간 CDP](../connect/ac-rtcdp.md)
-
-* [Adobe Analytics 데이터 커넥터](../connect/ac-aa.md)
-
+* [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
-
+* [Adobe Experience Cloud 트리거](../connect/ac-triggers.md)
 * [Adobe Target](../connect/ac-at.md)
 
 자산 공유 및 대상 공유 기능을 사용하여 Experience Cloud 솔루션에서 **대상** 및 **자산**&#x200B;을 결합할 수도 있습니다.
@@ -53,11 +50,11 @@ CRM 커넥터를 사용하면 빠르고 손쉽게 데이터를 통합할 수 있
 
 [!DNL :bulb:] 이 페이지에서 Campaign을 Microsoft Dynamics 365 및 Salesforce.com과 통합하는  [방법을 알아봅니다](crm.md)
 
-## FDA (FEDERATED DATA ACCESS){#gs-fda}
+## FDA(Federated Data Access){#gs-fda}
 
 FDA 커넥터(Federated Data Access)를 사용하여 Campaign을 하나 이상의 **외부 데이터베이스**&#x200B;에 연결하고 Campaign Cloud 데이터베이스 데이터에 영향을 주지 않고 Campaign에 저장된 정보를 처리합니다.
 
-[!DNL :bulb:] 자세한 내용은  [이 페이지에서 확인하십시오](fda.md)
+[!DNL :bulb:][ 이 페이지](fda.md)에서 자세히 알아보기
 
 
 <!-- 
