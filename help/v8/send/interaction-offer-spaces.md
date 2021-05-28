@@ -6,7 +6,7 @@ description: 오퍼 공간을 만드는 방법을 알아봅니다
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 583a8f6a03b00e1eafa6d408c9949e60a6f8158d
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 3%
@@ -70,7 +70,7 @@ HTML 렌더링은 렌더링 함수를 통해 만들어집니다. 렌더링 함�
 
 >[!NOTE]
 >
->상태 업데이트는 비동기 프로세스입니다. 매시간마다 트리거되는 추적 워크플로우에 의해 수행됩니다.
+>상태 업데이트는 **비동기** 프로세스입니다. 매시간마다 트리거되는 추적 워크플로우에 의해 수행됩니다.
 
 ### 오퍼 상태 목록 {#status-list}
 
