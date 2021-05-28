@@ -7,21 +7,26 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 hidefromtoc: true
-source-git-commit: 6e098ffa538c4348889a35eb454da747c80d6262
+source-git-commit: 583a8f6a03b00e1eafa6d408c9949e60a6f8158d
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '158'
 ht-degree: 1%
 
 ---
 
 # 알려진 제한 사항
 
-* Campaign v8은 아직 온-프레미스/하이브리드 배포에 사용할 수 없습니다. Adobe 관리 Cloud Service으로 릴리스만 됩니다
+알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 해당 제품과 올바르게 상호 작용하지 않는 기능, 아키텍처 또는 프로세스를 식별합니다. 이러한 제한 사항을 신중하게 검토하십시오.
+
+Adobe Campaign v8의 경우 다음과 같은 제한 사항이 있습니다.
+
+* Adobe Campaign v8은 온-프레미스/하이브리드 배포에 사용할 수 없습니다. Adobe 관리 Cloud Service으로 릴리스만 됩니다
 * 기존 고객은 기존 Adobe Campaign 환경에서 Adobe Campaign v8로 마이그레이션할 수 없습니다
-* Campaign 로컬 데이터베이스에서만 클라우드 데이터베이스로 양방향 데이터 복제가 없습니다
-* 이 섹션](capability-matrix.md#gs-unavailable-features)에 나열된 기능은 아직 Campaign v8에서 사용할 수 없습니다[
-* 사용 가능하지 않거나 제거된 일부 임시 기능은 사용자 인터페이스에 계속 표시됩니다
-* 관리자 권한이 있어도 기본 제공 패키지를 설치할 수 없습니다
+* 양방향 데이터 복제 없음:Campaign 로컬 데이터베이스에서 클라우드 데이터베이스로의 복제만 수행됩니다
+* 이 섹션](capability-matrix.md#gs-unavailable-features)에 나열된 기능은 현재 Campaign v8 빌드에서 사용할 수 없습니다[
+* 사용 불가능하거나 제거된 일부 기능은 여전히 사용자 인터페이스에 표시됩니다
+* 구독(옵트인) 및 구독 취소(옵트아웃) 메커니즘 및 모바일 등록은 비동기 프로세스입니다. 요청은 특정 기술 워크플로우를 통해 매시간 처리됩니다. [자세히 알아보기](../config/replication.md#tech-wf)
+* ID 관리 - 중복 - 확인 + 세부 정보
 * 라인 - 확인 + 상세내역
 * 지연 - 확인 + 세부 정보
 
