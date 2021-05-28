@@ -7,7 +7,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 hidefromtoc: true
-source-git-commit: 583a8f6a03b00e1eafa6d408c9949e60a6f8158d
+source-git-commit: 15cd7228a4920702cae182c68e7a329345946e31
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Adobe Campaign v8의 경우 다음과 같은 제한 사항이 있습니다.
 
-* Adobe Campaign v8은 온-프레미스/하이브리드 배포에 사용할 수 없습니다. Adobe 관리 Cloud Service으로 릴리스만 됩니다
+* Adobe Campaign v8은 온-프레미스/하이브리드 배포에 사용할 수 없습니다. Adobe 관리 Cloud Service으로 릴리스만 됩니다.
 * 기존 고객은 기존 Adobe Campaign 환경에서 Adobe Campaign v8로 마이그레이션할 수 없습니다
 * 양방향 데이터 복제 없음:Campaign 로컬 데이터베이스에서 클라우드 데이터베이스로의 복제만 수행됩니다
 * 이 섹션](capability-matrix.md#gs-unavailable-features)에 나열된 기능은 현재 Campaign v8 빌드에서 사용할 수 없습니다[
@@ -29,5 +29,3 @@ Adobe Campaign v8의 경우 다음과 같은 제한 사항이 있습니다.
 * ID 관리 - 중복 - 확인 + 세부 정보
 * 라인 - 확인 + 상세내역
 * 지연 - 확인 + 세부 정보
-
-
