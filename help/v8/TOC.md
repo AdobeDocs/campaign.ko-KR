@@ -7,10 +7,10 @@ description: Campaign v8 설명서
 breadcrumb-title: Campaign v8
 title: Campaign v8 문서
 hide: true
-source-git-commit: 6e098ffa538c4348889a35eb454da747c80d6262
+source-git-commit: eaad05675d2f875af2db5f71781afdad3a9ff004
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 84%
+source-wordcount: '197'
+ht-degree: 83%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 84%
       + [오퍼 카탈로그 만들기](send/interaction-offer-catalog.md)
       + [오퍼 만들기](send/interaction-offer.md)
       + [오퍼 보내기](send/interaction-send-offers.md)
-      + [사용 사례](send/interaction-use-cases.md)
+      + [활용 사례](send/interaction-use-cases.md)
 + 구성 {#config}
    + [워크플로우 자동화](config/workflows.md)
    + [데이터 관리](config/replication.md)
@@ -73,13 +73,14 @@ ht-degree: 84%
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
    + [Campaign + Target](connect/ac-at.md)
+   + [Campaign + Experience Cloud 트리거](connect/ac-triggers.md)
    + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + 외부 데이터베이스](connect/fda.md)
    + [Campaign + CRM](connect/crm.md)
 + 개발자 리소스 {#architecture}
    + [글로벌 원칙](dev/general-architecture.md)
-   + [아키텍쳐](dev/architecture.md)
+   + [아키텍처](dev/architecture.md)
    + [데이터모델](dev/datamodel.md)
    + 스키마 및 양식 {#shemas-forms}
       + [스키마 작업](dev/schemas.md)
@@ -88,7 +89,7 @@ ht-degree: 84%
       + [스키마 구조](dev/schema-structure.md)
       + [데이터베이스 매핑](dev/database-mapping.md)
       + [PI 보기 제한](dev/restrict-pi-view.md)
-      + [사용자 지정 수신자 테이블 사용](dev/custom-recipient.md)
+      + [사용자 정의 수신자 테이블 사용](dev/custom-recipient.md)
       + [데이터베이스 업데이트](dev/update-database-structure.md)
       + [입력 양식](dev/forms.md)
    + API {#api}
