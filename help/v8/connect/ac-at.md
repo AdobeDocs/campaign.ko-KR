@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign을 Adobe Target과 함께 사용하기
 description: Campaign 및 Adobe Target을 사용하여 작업하는 방법 알아보기
@@ -7,7 +6,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 1%
@@ -98,7 +97,7 @@ Adobe Target에서는 다른 버전의 오퍼를 만들 수 있습니다. 각 �
 
 1. 나머지 리디렉션 오퍼에 대해 동일한 절차를 따르십시오. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=en#experiences)를 참조하십시오.
 
-### 대상 만들기 {#audiences-target}
+### 대상자 만들기 {#audiences-target}
 
 Adobe Target에서는 오퍼를 방문하는 사람이 전달할 다른 콘텐츠를 위해 분류될 두 대상을 만들어야 합니다. 각 대상에 대해 규칙을 추가하여 오퍼를 볼 수 있는 사용자를 정의합니다.
 
