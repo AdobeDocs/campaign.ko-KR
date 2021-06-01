@@ -1,12 +1,11 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign 보안 모범 사례
 description: Campaign 보안 모범 사례 시작
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -16,7 +15,7 @@ Adobe에서 Adobe는 디지털 경험의 보안을 매우 중요하게 생각합
 
 또한 Adobe의 파트너, 선도적인 연구 업체, 보안 연구소 및 기타 업계 조직과의 공동 작업은 최신 위협 및 취약점에 대한 최신 정보를 지속적으로 제공하는 데 도움이 되며, Adobe는 정기적으로 고급 보안 기술을 제공하는 제품 및 서비스에 통합합니다.
 
-## 개인 정보
+## 개인 정보 보호
 
 개인 정보 구성 및 경화는 보안 최적화의 주요 요소입니다. 다음은 개인 정보에 대해 따라야 할 몇 가지 모범 사례입니다.
 
@@ -41,7 +40,7 @@ Adobe에서 Adobe는 디지털 경험의 보안을 매우 중요하게 생각합
 
 낮은 권한 인증 사용자가 암호화된 암호를 액세스할 수 없도록 해야 합니다. 이를 위해 다음과 같은 두 가지 주요 방법이 있습니다.암호 필드에만 또는 전체 엔터티에 대한 액세스를 제한합니다.
 
-이 제한 사항으로 암호 필드를 제거할 수 있지만, 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있도록 유지합니다. 자세한 내용은 [이 페이지](../dev/restrict-pi-view.md)를 참조하십시오.
+이 제한 사항으로 암호 필드를 제거할 수 있지만, 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있도록 유지합니다. [이 페이지](../dev/restrict-pi-view.md)에서 자세히 알아보십시오.
 
 1. **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**&#x200B;로 이동합니다.
 
