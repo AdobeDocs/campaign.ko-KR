@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign을 Twitter과 함께 사용하기
 description: Campaign 및 Twitter 작업 방법 알아보기
@@ -9,7 +8,7 @@ level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 hidefromtoc: true
 hide: true
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 4%
@@ -33,7 +32,7 @@ twitter을 통해 고객 및 잠재 고객과 상호 작용하려면 **소셜 �
 https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-social-media/configuration/configuring-publishing-on-twitter.html?lang=en#integrating-with-social-media
 
 
-## Twitter에 게시
+## Twitter 게시
 
 다음 위치에서 정보 가져오기:
 
