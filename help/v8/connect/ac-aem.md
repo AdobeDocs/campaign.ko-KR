@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign을 Adobe Experience Manager과 함께 사용하기
 description: Campaign 및 Adobe Experience Manager을 사용하여 작업하는 방법 알아보기
@@ -7,7 +6,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
