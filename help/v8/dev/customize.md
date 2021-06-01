@@ -1,20 +1,19 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
-title: 인스턴스 사용자 지정
+title: 인스턴스 사용자 정의
 description: 인스턴스를 사용자 지정하는 방법 알아보기
 feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
-# 인스턴스 사용자 지정{#gs-ac-custom}
+# 인스턴스 사용자 정의{#gs-ac-custom}
 
 **Campaign 인스턴스를 사용자 지정하는 방법** 알아보기
 
