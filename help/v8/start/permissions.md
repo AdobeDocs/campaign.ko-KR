@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign v8에 권한 부여
 description: Campaign v8에 권한을 부여하는 방법 알아보기
@@ -7,7 +6,7 @@ feature: 대상자
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 2%
