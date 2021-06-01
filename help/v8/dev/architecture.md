@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign 아키텍처 시작
 description: Campaign 아키텍처 시작
@@ -7,10 +6,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -49,7 +48,7 @@ Campaign Cloud Service에서 사용할 수 있는 환경의 세 가지 유형은
 
 ## 메시지 센터 아키텍처{#transac-msg-archi}
 
-트랜잭션 메시지(메시지 센터)는 트리거 메시지를 관리하기 위해 설계된 캠페인 모듈입니다.
+트랜잭션 메시지(메시지 센터)는 트리거 메시지를 관리하기 위해 고안된 캠페인 모듈입니다.
 
 [!DNL :bulb:]  [이 섹션](../send/transactional.md)에서 트랜잭션 메시지를 보내는 방법을 알아봅니다.
 
