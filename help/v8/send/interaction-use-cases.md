@@ -1,19 +1,18 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign 상호 작용 활용 사례
 description: 상호 작용 사용 사례
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 4%
 
 ---
 
-# 사용 사례
+# 활용 사례
 
 Campaign Classic v7 설명서에서 사용할 수 있는 이러한 단계별 사용 사례를 통해 Campaign 상호 작용 기능을 활용하십시오.
 
