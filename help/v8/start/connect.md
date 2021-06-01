@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign v8에 연결하는 방법 알아보기
 description: Campaign v8에 연결
@@ -7,10 +6,10 @@ feature: 대상자
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '752'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -121,4 +120,4 @@ HTML 사용자 인터페이스를 사용하여 간단한 웹 브라우저를 통
 
 웹 액세스는 유효성 검사 프로세스에서도 사용됩니다.운영자는 승인 요청 이메일을 클릭하고 웹 브라우저를 통해 Campaign에 연결하여 게재 콘텐츠 또는 예산을 유효성 검사하거나 거부할 수 있습니다.
 
-[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 승인을 설정하고 관리하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 승인을 설정하고 관리하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=ko#orchestrating-campaigns)
