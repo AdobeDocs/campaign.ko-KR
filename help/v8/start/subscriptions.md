@@ -1,12 +1,11 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign에서 구독 및 구독 취소 관리
 description: Campaign v8에서 구독 및 구독 취소를 관리하는 방법을 알아봅니다
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
