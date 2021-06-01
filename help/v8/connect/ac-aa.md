@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign을 Adobe Analytics과 함께 사용하기
 description: Campaign 및 Adobe Analytics을 사용하여 작업하는 방법 알아보기
@@ -7,7 +6,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: f4a78f13256a56bef82cbd465339a646a36bfbc1
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 0%
