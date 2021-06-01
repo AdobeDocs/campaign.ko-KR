@@ -1,13 +1,12 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 일반 아키텍처
 description: Campaign v8 일반 아키텍처
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 0%
 
 응용 프로그램은 다음과 같은 다양한 방법으로 액세스할 수 있습니다.리치 클라이언트, 씬 클라이언트 또는 API 통합.
 
-* **클라이언트 콘솔**:애플리케이션의 기본 사용자 인터페이스는 표준 인터넷 프로토콜(SOAP, HTTP 등)을 사용하여 Adobe Campaign 애플리케이션 서버와 통신하는 기본 애플리케이션(Windows의 경우)입니다. Adobe Campaign Client Console은 생산성을 위한 사용자 친화적이며 로컬 캐시를 통해 대역폭을 거의 사용하지 않으며 쉽게 배포할 수 있도록 설계되었습니다. 이 콘솔은 인터넷 브라우저에서 배포할 수 있으며 자동으로 업데이트할 수 있으며 HTTP(S) 트래픽만 생성하므로 특정 네트워크 구성은 필요하지 않습니다.
+* **클라이언트 콘솔**:애플리케이션의 기본 사용자 인터페이스는 표준 인터넷 프로토콜(SOAP, HTTP 등)을 사용하여 Adobe Campaign 애플리케이션 서버와 통신하는 기본 애플리케이션(Windows의 경우)입니다. Adobe Campaign 클라이언트 콘솔은 생산성을 높여주는 탁월한 사용자 친화성을 제공하며, 로컬 캐시를 통해 거의 대역폭을 사용하지 않으며, 배포하기 쉽도록 설계되었습니다. 이 콘솔은 인터넷 브라우저에서 배포할 수 있으며 자동으로 업데이트할 수 있으며 HTTP(S) 트래픽만 생성하므로 특정 네트워크 구성은 필요하지 않습니다.
 
    [!DNL :bulb:] [Campaign 클라이언트 콘솔에 대해 자세히 알아보십시오](../start/connect.md).
 
