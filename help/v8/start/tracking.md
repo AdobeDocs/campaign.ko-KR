@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 추적 및 모니터링 기능 시작
 description: 추적 및 모니터링 기능 시작
@@ -7,10 +6,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -119,7 +118,7 @@ Adobe Campaign은 프로세스와 환경을 모니터링하는 기능 세트를 
 
 ### 게재 모니터링
 
-게재가 전송된 후 게재를 모니터링하는 것은 마케팅 캠페인이 효율적이고 고객에게 도달하도록 하는 주요 단계입니다.
+메시지를 게재한 후 마케팅 캠페인이 효율적이고 고객에게 도달하는지 확인하는 데 있어 게재 모니터링은 중요한 단계입니다.
 
 [!DNL :arrow_upper_right:] 게재를 보낸 후 모니터링할 수 있는 정보에 대해 자세히 알아보고,  [Campaign Classic v7 설명서에서 게재 실패와 격리를 관리하는 방법을 이해합니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages)
 
