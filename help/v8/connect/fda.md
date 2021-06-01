@@ -1,19 +1,18 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign 및 외부 데이터베이스 작업(FDA)
 description: Campaign 및 외부 데이터베이스로 작업하는 방법 알아보기
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 6f50be1e5c03937544e81582c2989b4345bb335d
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 3%
 
 ---
 
-# FDA (FEDERATED DATA ACCESS){#gs-fda}
+# FDA(Federated Data Access){#gs-fda}
 
 FDA 커넥터(Federated Data Access)를 사용하여 Campaign을 하나 이상의 **외부 데이터베이스**&#x200B;에 연결하고 Campaign Cloud 데이터베이스 데이터에 영향을 주지 않고 Campaign에 저장된 정보를 처리합니다. 그런 다음 Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다.
 
