@@ -1,15 +1,14 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign 전자 메일 채널 설정
 description: Campaign 전자 메일 채널 설정
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 3fd91879485a33961769c684acba8ca3c48bbbed
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -50,6 +49,6 @@ Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 선택�
 
 [!DNL :arrow_upper_right:] [바운스 이메일 주소 설정](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails)
 
-[!DNL :arrow_upper_right:] [이메일 게재 템플릿 사용](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+[!DNL :arrow_upper_right:] [이메일 게재 템플릿 사용](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko)
 
-[!DNL :arrow_upper_right:] [게재 오류 이해](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html)
+[!DNL :arrow_upper_right:] [게재 실패 이해](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html)
