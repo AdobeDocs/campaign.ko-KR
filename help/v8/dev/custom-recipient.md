@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 기본 수신자 테이블 변경
 description: 사용자 지정 수신자 테이블을 사용하는 방법을 알아봅니다
@@ -7,14 +6,14 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 2%
 
 ---
 
-# 사용자 지정 수신자 테이블 사용{#gs-ac-custom-recipient}
+# 사용자 정의 수신자 테이블 사용{#gs-ac-custom-recipient}
 
 Adobe Campaign에는 내장 프로필 테이블이 포함되어 있습니다.**nmsRecipient** 이 표에는 미리 정의된 필드와 테이블을 많이 추가하여 쉽게 확장할 수 있습니다. [이 페이지](datamodel.md#ootb-profiles)에서 이 표에 대해 자세히 알아보십시오.
 
