@@ -1,15 +1,14 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign을 CRM과 함께 작업
 description: 'Campaign 및 CRM으로 작업하는 방법 알아보기 '
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
