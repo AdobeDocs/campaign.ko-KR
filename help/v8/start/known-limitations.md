@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign v8 알려진 제한 사항
 description: 알려진 제한 사항
@@ -7,7 +6,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 hidefromtoc: true
-source-git-commit: 15cd7228a4920702cae182c68e7a329345946e31
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 1%
