@@ -1,9 +1,8 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 캠페인 입력 양식
 description: 입력 양식을 사용자 지정하는 방법 알아보기
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '2555'
 ht-degree: 0%
@@ -87,7 +86,7 @@ ht-degree: 0%
 
 [!DNL :arrow_upper_right:] 모든 양식 속성은  [Campaign Classic v7 설명서에 나열되어 있습니다](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
 
-## 서식 {#formatting}
+## 양식화 {#formatting}
 
 컨트롤 레이아웃은 HTML 표에 사용되는 레이아웃과 비슷하며 컨트롤을 여러 열로 분할하거나 요소를 삽입하거나 사용 가능한 공간의 위치를 지정할 수 있습니다. 그러나 이 서식을 지정하면 해당 영역을 비율로 나눌 수 있습니다.개체에 고정 치수를 지정할 수 없습니다.
 
