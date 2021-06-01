@@ -1,15 +1,14 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Adobe Campaign을 사용하여 이메일 보내기
 description: Campaign에서 이메일 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -32,7 +31,7 @@ Campaign으로 직접 만들거나 대상 및 이메일 콘텐츠를 가져올 �
 * 이메일 콘텐츠 가져오기
    [!DNL :arrow_upper_right:] [사용 사례:게재 콘텐츠를 로드하는 워크플로우 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
 * 이메일 템플릿 만들기 및 사용
-   [!DNL :arrow_upper_right:] [이메일 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+   [!DNL :arrow_upper_right:] [이메일 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko)
 * 이메일 대상자를 선택합니다
    [!DNL :arrow_upper_right:] [대상 모집단을 정의하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
 * 게재 유효성 검사 및 증명 보내기
