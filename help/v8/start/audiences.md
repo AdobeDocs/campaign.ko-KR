@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 대상자 시작
 description: 대상자 시작
@@ -7,10 +6,10 @@ feature: 대상자
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 345d324363782df6f7753d5099c4382628f5a048
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -40,7 +39,7 @@ Adobe Campaign에서 **수신자**&#x200B;는 게재(전자 메일, SMS 등)를 
 [!DNL :arrow_upper_right:]  [Adobe Campaign Classic v7 설명서에서 프로필을 관리하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html).
 
 
-## 개인 정보 및 동의
+## 개인 정보 보호 및 동의
 
 Adobe Campaign은 개인 정보와 중요한 데이터를 포함한 많은 양의 데이터를 수집하고 처리할 수 있는 강력한 데이터 도구입니다. Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다.
 
