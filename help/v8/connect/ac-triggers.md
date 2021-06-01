@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign 및 Adobe Experience Cloud 트리거를 사용하여 작업
 description: Campaign 및 Adobe Experience Cloud 트리거를 사용하여 작업하는 방법을 알아봅니다
@@ -7,7 +6,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: eaad05675d2f875af2db5f71781afdad3a9ff004
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
