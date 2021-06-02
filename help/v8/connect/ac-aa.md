@@ -1,14 +1,14 @@
 ---
 product: Adobe Campaign
 title: Campaign을 Adobe Analytics과 함께 사용하기
-description: Campaign 및 Adobe Analytics을 사용하여 작업하는 방법 알아보기
+description: Campaign과 Analytics를 통합하는 방법을 알아봅니다
 feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 7bb480eb69aa92e8876acaf2322e532dbb2f1f96
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -19,22 +19,15 @@ Campaign과 Analytics를 통합하도록 Adobe Analytics을 구성할 수 있습
 
 이 통합을 통해 Adobe Campaign 및 Adobe Analytics은 **Web Analytics 커넥터** 추가 기능을 통해 상호 작용할 수 있습니다. 이 통합은 Adobe Campaign이 Adobe Analytics에 제공하는 이메일 캠페인의 지표와 속성을 보냅니다.
 
+[!DNL :speech_balloon:] 관리 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Campaign을 Adobe Experience Cloud 서비스 및 솔루션과 연결하십시오. 인스턴스에 대해 IMS(Identity Management 서비스 Adobe)을 구현해야 합니다. [자세히 알아보기](../start/connect.md#connect-ims) Web Analytics 커넥터 추가 기능은 전용 패키지를 통해 사용자 환경에 설치해야 합니다.
+
 Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상자(Web Analytics)를 측정하는 방법이 있습니다. 웹 분석 도구를 사용하면 Adobe Campaign에서 지표 및 캠페인 속성을 Analytics에 전달할 수 있습니다.
 
 각 도구의 작업 둘레는 다음과 같습니다.
 
-* **Adobe Analytics**
+* **Adobe** Analytics는 Adobe Campaign으로 시작한 이메일 캠페인을 스마트합니다
 
-   * Adobe Campaign에서 시작한 이메일 캠페인을 표시합니다
-   * campaign 이메일을 클릭한 후 검색한 사이트에서 수신자 동작을 세그먼트 형태로 저장합니다. 세그먼트는 포기한 제품(열람했지만 장바구니에 추가되지 않음), 구매 또는 장바구니 포기 와 관련되어 있습니다.
-
-* **Adobe Campaign**
-
-   * indicators 및 campaign 속성을 커넥터로 전송하고 커넥터를 웹 분석 도구에 전달합니다
-   * 세그먼트 복구 및 분석
-   * 리마케팅 캠페인 트리거
-
-[!DNL :speech_balloon:]  관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Adobe Analytics 커넥터를 Campaign과 통합하십시오. Web Analytics 커넥터 추가 기능은 전용 패키지를 통해 사용자 환경에 설치해야 합니다.
+* **Adobe** Campaign은 표시기와 캠페인 속성을 커넥터로 전송하며 이 커넥터는 웹 분석 도구로 전달합니다
 
 
 >[!CAUTION]
@@ -47,7 +40,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 1. [전환 변수 및 성공 이벤트 구성](#configure-conversion-success)
 1. [Adobe Campaign에서 외부 계정 구성](#external-account-ac)
 
-## Adobe Analytics {#report-suite-analytics}에서 보고서 세트 만들기
+## Analytics 보고서 세트 {#report-suite-analytics} 만들기
 
 [!DNL Adobe Analytics]에서 **[!UICONTROL Report suite]**&#x200B;을(를) 만들려면 아래 단계를 수행하십시오.
 
@@ -122,7 +115,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 보고서 세트가 구성되면 Adobe Campaign에서 **[!UICONTROL External accounts]**&#x200B;을 구성해야 합니다.
 
-## Adobe Campaign {#external-account-ac}에서 외부 계정 구성
+## Campaign 외부 계정 구성 {#external-account-ac}
 
 이제 두 솔루션 간에 동기화를 활성화하려면 Adobe Campaign에서 **[!UICONTROL Web Analytics]** 외부 계정을 구성해야 합니다.
 
@@ -192,7 +185,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 >
 >여러 대상 측정 도구를 사용하는 경우 외부 계정을 만들 때 **[!UICONTROL Partners]** 드롭다운 목록에서 **[!UICONTROL Other]** 을 선택할 수 있습니다. 게재 속성에서 하나의 외부 계정만 참조할 수 있습니다.따라서 Adobe에서 기대하는 매개 변수와 사용된 다른 모든 측정 도구를 추가하여 추적된 URL의 공식을 조정해야 합니다.
 
-## 웹 분석 프로세스의 기술 워크플로우 {#technical-workflows-of-web-analytics-processes}
+## 웹 분석 프로세스 {#technical-workflows-of-web-analytics-processes} 의 기술 워크플로우
 
 Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작업으로 실행되는 기술 워크플로우로 처리됩니다.
 
@@ -232,7 +225,7 @@ Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작
 * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
 * **[!UICONTROL Contact date]** (예약/@contactDate)
 
-## Adobe Campaign {#tracking-deliveries-in-adobe-campaign}에서 게재 추적
+## 게재 추적 {#tracking-deliveries-in-adobe-campaign}
 
 Adobe Campaign에서 게재를 보낸 후 Adobe Experience Cloud이 사이트에서 활동을 추적할 수 있도록 하려면 게재 속성에서 일치하는 커넥터를 참조해야 합니다. 이렇게 하려면 다음 단계를 적용합니다.
 
@@ -246,46 +239,6 @@ Adobe Campaign에서 게재를 보낸 후 Adobe Experience Cloud이 사이트에
    ![](assets/webanalytics_delivery_properties_002.png)
 
 1. 이제 Adobe Analytics에서 게재를 보내고 보고서에 액세스할 수 있습니다.
-
-## 리마케팅 캠페인 만들기 {#creating-a-re-marketing-campaign}
-
-리마케팅 캠페인을 준비하려면 리마케팅 유형 캠페인에 사용할 게재 템플릿을 만들면 됩니다. 그런 다음 리마케팅 캠페인을 구성하고 세그먼트에 연결합니다. 각 세그먼트에는 다른 리마케팅 캠페인이 있어야 합니다.
-
-Adobe Campaign이 초기 캠페인으로 타겟팅된 사람의 동작을 분석하는 세그먼트 복구를 완료하면 리마케팅 캠페인이 자동으로 시작됩니다. 구매하지 않고 장바구니 포기 또는 제품을 보는 경우, 구매에서 사이트 탐색을 종료하기 위해 관련 수신자에게 게재가 전송됩니다.
-
-Adobe Campaign은 캠페인을 준비하기 위해 사용하거나 데이터베이스를 구축할 수 있는 개인화된 게재 템플릿을 제공합니다.
-
-1. **[!UICONTROL Explorer]**&#x200B;에서 Adobe Campaign 트리의 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 폴더로 이동합니다.
-
-1. **[!UICONTROL Email delivery (re-marketing)]** 템플릿 또는 Adobe Campaign에서 제공하는 리마케팅 템플릿 예제를 복제합니다.
-
-   ![](assets/webanalytics_delivery_model.png)
-
-1. 필요에 따라 템플릿을 개인화하고 저장합니다.
-
-1. 새 캠페인을 만들고 드롭다운 목록에서 **[!UICONTROL Re-marketing campaign]** 템플릿을 선택합니다.
-
-   ![](assets/webanalytics_remarketing_campaign_002.png)
-
-1. **[!UICONTROL Configure...]** 링크를 클릭하여 캠페인에 연결된 세그먼트 및 게재 템플릿을 지정합니다.
-
-1. 이전에 구성한 외부 계정을 선택합니다.
-
-   ![](assets/webanalytics_remarketing_campaign_003.png)
-
-1. 관련 세그먼트를 선택합니다.
-
-   ![](assets/webanalytics_remarketing_campaign_005.png)
-
-1. 이 리마케팅 캠페인에 사용할 게재 템플릿을 선택한 다음 **[!UICONTROL Finish]** 을 클릭하여 창을 닫습니다.
-
-   ![](assets/webanalytics_remarketing_campaign_006.png)
-
-1. **[!UICONTROL OK]** 을 클릭하여 캠페인 창을 닫습니다.
-
-**[!UICONTROL Re-marketing efficiency]** 보고서는 글로벌 보고서 페이지를 통해 액세스합니다. Adobe Campaign 리마케팅 캠페인 이후 장바구니 포기 수와 관련하여 전환된(즉, 구매된) 연락처 수를 볼 수 있도록 해줍니다. 전환율은 Adobe Campaign과 웹 분석 도구 간의 동기화 시작 이후 매주, 월 또는 단위로 계산됩니다.
-
-![](assets/webanalytics_reporting.png)
 
 
 **관련 항목**
