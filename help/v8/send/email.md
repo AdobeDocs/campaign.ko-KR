@@ -5,10 +5,10 @@ description: Campaign에서 이메일 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: d1e96b1311d9de24ceb918230186cd3cad609ab2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 9%
+source-wordcount: '801'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,71 @@ ht-degree: 9%
 
 나머지 고객 경험과 일관된 개인화된 상황별 관련 이메일을 만들 수 있습니다.
 
+![](assets/new-email-content.png)
+
 [!DNL :arrow_upper_right:] [Campaign Classic v7 설명서에서 이메일 배달을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
+
+
+다음 샘플에서는 개인화된 데이터, 외부 URL에 대한 링크, 미러 페이지에 대한 링크 및 웹 양식에 대한 링크가 포함된 Adobe Campaign에서 이메일 전달을 디자인하는 단계를 배웁니다.
+
+1. 게재 만들기
+
+   새 게재를 만들려면 **캠페인** 탭으로 이동하여 **게재**&#x200B;를 클릭하고 기존 게재 목록 위에 있는 **만들기** 단추를 클릭하십시오.
+
+   ![](assets/delivery_step_1.png)
+
+1. 템플릿을 선택합니다
+
+   게재 템플릿을 선택한 다음 게재의 이름을 지정합니다. 이 이름은 수신자가 아니라 Adobe Campaign 콘솔 사용자만 볼 수 있지만 게재 목록에는 이 제목이 표시됩니다. **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
+
+   ![](assets/dce_delivery_model.png)
+
+1. 콘텐츠 가져오기
+
+   **소스** 탭을 클릭하여 HTML 콘텐츠를 붙여넣습니다.
+
+   ![](assets/paste-content.png)
+
+
+1. 메시지 개인화
+
+
+   * 수신자의 이름과 두 번째 이름을 표시합니다
+
+      수신자의 첫 번째 및 두 번째 이름을 게재의 텍스트 필드에 삽입하려면 선택한 텍스트 필드를 클릭한 다음 표시하려는 위치에 커서를 놓습니다. 팝업 도구 모음에서 첫 번째 아이콘을 클릭한 다음 **[!UICONTROL Personalization block]** 을 클릭합니다. **[!UICONTROL Greetings]** 을 선택하고 **[!UICONTROL OK]** 을 클릭합니다.
+
+   * 이미지에 링크 삽입
+
+      이미지를 통해 게재 수신자를 외부 주소로 가져오려면 관련 이미지를 클릭하여 팝업 도구 모음을 표시하고 첫 번째 아이콘에 커서를 놓고 **[!UICONTROL Link to an external URL]** 를 클릭합니다.
+
+      **URL** 필드에 다음 형식의 **https://www.myURL.com**&#x200B;을 사용하여 링크의 URL을 입력한 다음 확인합니다.
+
+      언제든지 창 오른쪽의 섹션을 사용하여 링크를 변경할 수 있습니다.
+
+   * 텍스트에 링크 삽입
+
+      외부 링크를 게재의 텍스트에 통합하려면 일부 텍스트나 텍스트 블록을 선택한 다음 팝업 도구 모음에서 첫 번째 아이콘을 클릭합니다. **[!UICONTROL Link to an external URL]** 을 클릭하고 링크 주소를 **[!UICONTROL URL]** 필드에 입력합니다.
+
+      언제든지 창 오른쪽의 섹션을 사용하여 링크를 변경할 수 있습니다.
+
+   * 미러 페이지 추가
+
+      수신자가 웹 브라우저에서 게재 콘텐츠를 볼 수 있도록 하려면 미러 페이지에 대한 링크를 게재에 통합할 수 있습니다.
+
+      게시된 링크를 볼 텍스트 필드를 클릭합니다. 팝업 도구 모음에서 첫 번째 아이콘을 클릭하고 **[!UICONTROL Personalization block]**, **[!UICONTROL Link to Mirror Page (MirrorPage)]** 순으로 선택합니다. **[!UICONTROL Save]** 을 클릭하여 확인합니다.
+
+   * 웹 애플리케이션에 대한 링크 통합
+
+      디지털 콘텐츠 편집기를 사용하면 랜딩 페이지나 양식 페이지와 같은 Adobe Campaign 콘솔에서 웹 애플리케이션에 대한 링크를 통합할 수 있습니다. 자세한 내용은 [웹 응용 프로그램에 연결](../../web/using/editing-content.md#link-to-a-web-application)을 참조하십시오.
+
+      웹 응용 프로그램에 대한 링크의 텍스트 필드를 선택한 다음 첫 번째 아이콘을 클릭합니다. **[!UICONTROL Link to a Web application]** 을 선택한 다음 **웹 응용 프로그램** 필드 끝에 있는 아이콘을 클릭하여 원하는 응용 프로그램을 선택합니다.
+
+1. 메시지 보내기
+
+   컨텐츠가 통합되면 **저장**&#x200B;을 클릭하여 게재를 저장합니다. 이제 **[!UICONTROL Campaigns > Deliveries]** 탭에 있는 게재 목록에 표시됩니다.
+
+
+## 컨텐츠 만들기 및 대상자 선택
 
 Campaign으로 직접 만들거나 대상 및 이메일 콘텐츠를 가져올 수 있습니다. 아래 링크를 사용하여 다음 방법을 알아보십시오.
 
