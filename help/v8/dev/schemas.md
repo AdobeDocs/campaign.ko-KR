@@ -2,10 +2,10 @@
 product: Adobe Campaign
 title: Campaign 스키마로 작업
 description: 스키마 시작
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -135,7 +135,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 ## 키 {#keys}
 
-모든 테이블에는 하나 이상의 키가 있어야 하며, 종종 **@autouuid=true** 속성을 &quot;true&quot;로 설정하여 스키마의 기본 요소에 자동으로 설정됩니다.
+모든 테이블에는 하나 이상의 키가 있어야 하며, 종종 **@autouuid** 및 **autok** 속성을 **true**&#x200B;로 설정하여 스키마의 기본 요소에 자동으로 설정됩니다.
 
 기본 키는 **internal** 속성을 사용하여 정의할 수도 있습니다.
 
