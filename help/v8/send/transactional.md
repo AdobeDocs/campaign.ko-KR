@@ -5,7 +5,7 @@ description: 트랜잭션 메시지 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 1%
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 각 이벤트는 개인화된 메시지를 트리거할 수 있습니다. 이 경우 각 이벤트 유형과 일치하는 메시지 템플릿을 만들어야 합니다. 템플릿에는 트랜잭션 메시지를 개인화하는 데 필요한 정보가 포함되어 있습니다. 템플릿을 사용하여 최종 타겟에 게재하기 전에 메시지 미리 보기를 테스트하고 시드 주소를 사용하여 증명을 전송할 수도 있습니다.
 
-### 템플릿 만들기
+## 템플릿 만들기
 
 메시지 템플릿을 만들려면 아래 단계를 수행하십시오.
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 1. 특성과 설명을 입력한 다음 **[!UICONTROL Continue]** 을 클릭하여 메시지 본문을 만듭니다. [메시지 콘텐츠 만들기](#create-message-content)를 참조하십시오.
 
-### 컨텐츠 만들기{#create-message-content}
+## 컨텐츠 만들기{#create-message-content}
 
 트랜잭션 메시지 콘텐츠의 정의는 Adobe Campaign의 모든 게재와 동일합니다. 예를 들어 이메일 게재의 경우 HTML 또는 텍스트 형식으로 콘텐츠를 만들거나 첨부 파일을 추가하거나 게재 개체를 개인화할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../start/create-message.md)을 참조하십시오.
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
    ![](assets/messagecenter_create_custo_2.png)
 
-### 시드 주소 추가{#add-seeds}
+## 시드 주소 추가{#add-seeds}
 
 시드 주소를 사용하면 메시지를 보내기 전에 메시지 미리 보기를 표시하고, 증명을 보내고, 메시지 개인화를 테스트할 수 있습니다. 시드 주소는 게재에 연결되므로 다른 게재에 사용할 수 없습니다.
 
@@ -118,7 +118,7 @@ ht-degree: 1%
 
 주소가 만들어지면 미리 보기 및 개인화에 액세스할 수 있습니다.
 
-### 개인화 데이터 추가{#personalization-data}
+## 개인화 데이터 추가{#personalization-data}
 
 메시지 템플릿에 데이터를 추가하여 트랜잭션 메시지 개인화를 테스트할 수 있습니다. 이를 통해 미리 보기를 생성하거나 증명을 보낼 수 있습니다. **게재 가능성** 모듈을 설치하는 경우 이 데이터를 사용하면 다양한 데스크탑, 웹 또는 모바일 클라이언트에 대한 메시지 렌더링을 표시할 수 있습니다.
 
@@ -133,7 +133,7 @@ ht-degree: 1%
 
    ![](assets/messagecenter_create_custo_3.png)
 
-### 트랜잭션 메시지 보기{#transactional-message-preview}
+## 트랜잭션 메시지 보기{#transactional-message-preview}
 
 하나 이상의 시드 주소와 메시지 본문을 생성했으면 메시지를 미리 보고 개인화를 확인할 수 있습니다.
 
@@ -145,7 +145,7 @@ ht-degree: 1%
 
    ![](assets/messagecenter_create_seed_7.png)
 
-### 증명 보내기
+## 증명 보내기
 
 이전에 만든 시드 주소로 증명을 보내 메시지 전달을 테스트할 수 있습니다.
 
