@@ -1,15 +1,15 @@
 ---
 product: Adobe Campaign
-title: campaign 자동화 시작
-description: campaign 자동화 시작
+title: Adobe Campaign 워크플로우를 통해 프로세스 관리 및 자동화
+description: 워크플로우 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
+source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1189'
+ht-degree: 9%
 
 ---
 
