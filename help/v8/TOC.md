@@ -6,10 +6,10 @@ description: Campaign v8 설명서
 breadcrumb-title: Campaign v8
 title: Campaign v8 문서
 hide: true
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -83,6 +83,7 @@ ht-degree: 83%
    + [데이터모델](dev/datamodel.md)
    + 스키마 및 양식 {#shemas-forms}
       + [스키마 작업](dev/schemas.md)
+      + [키 관리 및 불편](dev/keys.md)
       + [스키마 만들기](dev/create-schema.md)
       + [스키마 확장](dev/extend-schema.md)
       + [스키마 구조](dev/schema-structure.md)
