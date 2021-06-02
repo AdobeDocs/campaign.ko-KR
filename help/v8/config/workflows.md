@@ -6,10 +6,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 9%
 
 Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시지 준비에서 게재에 이르기까지 마케팅 캠페인의 모든 측면에 대한 속도와 크기를 향상시킬 수 있습니다.
 
-이[엔드 투 엔드 사용 사례](#end-to-end-uc)에서 워크플로우를 디자인하는 방법을 배웁니다.
+이러한 [엔드 투 엔드 사용 사례](#end-to-end-uc)에서 워크플로우를 디자인하는 방법을 배웁니다.
 
 워크플로우 사용자 인터페이스 및 Campaign Classic v7 설명서의 실행에 대해 자세히 알아보십시오.
 
