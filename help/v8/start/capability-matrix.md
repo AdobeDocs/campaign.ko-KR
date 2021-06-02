@@ -6,10 +6,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 57%
+source-wordcount: '800'
+ht-degree: 44%
 
 ---
 
@@ -62,7 +62,12 @@ ht-degree: 57%
 
 이제 Campaign v8 개체에는 데이터를 식별하는 데 제한 없는 고유 값을 사용할 수 있는 **UUID(범용 고유 ID)**&#x200B;가 사용됩니다.
 
-이 ID는 문자열 기반이며 순차적이지 않습니다.
+이 ID는 문자열 기반이며 순차적이지 않습니다. 기본 키는 Campaign v8에서 숫자 값이 아니므로 스키마에서 **autouid** 및 **autok** 속성을 사용해야 합니다.
+
+Campaign Classic v7 및 이전 버전에서 스키마(즉, 테이블) 내의 키의 불용성은 데이터베이스 엔진 수준에서 처리됩니다. 일반적으로 PostgreSQL, Oracle 또는 SQL Server와 같은 클래식 데이터베이스 엔진에는 기본 키 및/또는 고유 인덱스를 통해 열 또는 열 세트를 기반으로 중복 행을 삽입하지 않는 기본 메커니즘이 포함되어 있습니다. 데이터베이스 수준에서 적절한 인덱스 및 기본 키가 설정되면 복제된 ID가 이러한 버전에 존재하지 않습니다.
+
+Adobe campaign v8에는 핵심 데이터베이스로 Snowflake이 포함되어 있습니다. 쿼리 크기가 크게 증가함에 따라 Snowflake 데이터베이스의 분산 아키텍처는 이러한 메커니즘을 제공하지 않으므로 테이블 내에서 키의 비특성을 관리할 수 있습니다. 따라서 Adobe Campaign v8에서는 테이블에 중복되는 키를 섭취할 수 있는 방법이 없습니다. 이제 최종 사용자는 Adobe Campaign 데이터베이스 내의 키의 일관성을 유지할 책임이 있습니다. [자세히 알아보기](../dev/keys.md)
+
 
 ### 유지 관리 간소화
 
