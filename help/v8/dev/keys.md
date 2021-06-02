@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Campaign의 키 관리 '
 description: 키 관리 시작
-source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
+source-git-commit: 08c1f2fbe79845fe54670e25ac4a63ab65517513
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ Campaign v8에서 기본 키는 문자 문자열인 UUID(Universally Unique IDen
 
 Adobe campaign v8에는 핵심 데이터베이스로 Snowflake이 포함되어 있습니다. Snowflake 데이터베이스의 분산 아키텍처에서는 테이블 내의 키 특성을 관리하는 메커니즘을 제공하지 않습니다.최종 사용자는 Adobe Campaign 데이터베이스 내의 키 일관성을 유지할 책임이 있습니다.
 
-관계형 데이터베이스 일관성을 유지하려면 키에 대한 중복 방지, 특히 기본 키에 대한 중복을 방지해야 합니다. 기본 키에 중복되면 쿼리, 조정, 업데이트 등의 데이터 관리 워크플로우 활동과 관련된 문제가 발생합니다.
+관계형 데이터베이스 일관성을 유지하려면 키에 대한 중복 방지, 특히 기본 키에 대한 중복을 방지해야 합니다. 기본 키에 대한 중복 항목을 사용하면 **Query**, **Reconciliation**, **데이터 업데이트** 등과 같은 데이터 관리 워크플로우 활동과 관련된 문제가 발생합니다.
 
-Adobe Campaign은 데이터를 조정하고, 데이터베이스(조정)의 존재 여부에 따라 데이터를 삽입 또는 업데이트하며, 데이터를 수집(중복 제거)하기 전에 중복을 제거하도록 강력한 데이터 관리 도구를 제공합니다. 가장 좋은 방법으로서, 중복 키가 데이터베이스에 로드되는 경우 Adobe은 전체 데이터 관리 프로세스의 일부로 [Detect](#detect-duplicates) 및 [Correct](#correct-duplicates) 전략을 채택하는 것이 좋습니다.
+Adobe Campaign은 데이터를 조정하기 위해 강력한 데이터 관리 도구를 제안하며 데이터베이스(**조정**)에 데이터가 있는지 여부에 따라 데이터를 삽입하거나 업데이트하는지 확인하고 데이터를 수집하기 전에 중복을 제거합니다(**중복 제거**). 가장 좋은 방법으로서, 중복 키가 데이터베이스에 로드되는 경우 Adobe은 전체 데이터 관리 프로세스의 일부로 [Detect](#detect-duplicates) 및 [Correct](#correct-duplicates) 전략을 채택하는 것이 좋습니다.
 
 ## 중복 검색{#detect-duplicates}
 
@@ -81,4 +81,4 @@ and urecipientid = 'c04d93f2-6012-4668-b523-88db1262cd46';
 
 ![](assets/sql-data-management.png)
 
-선택한 행이 새 UUID로 업데이트되면 인터페이스에서 업데이트된 행을 확인하고 UUID가 예상대로 업데이트되었음을 알 수 있습니다. 여기에 설명된 대로 &quot;중복 검색&quot; 워크플로우 [을 실행하여 데이터베이스에서 중복을 감지할 수도 있습니다.](#detect-duplicates)
+선택한 행이 새 UUID로 업데이트되면 인터페이스에서 업데이트된 행을 확인하고 UUID가 예상대로 업데이트되었음을 알 수 있습니다. 여기에 설명된 대로 **중복 검색** 워크플로우 [를 실행하여 데이터베이스에서 중복을 감지할 수도 있습니다.](#detect-duplicates)
