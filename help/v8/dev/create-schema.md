@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Campaign에서 새 스키마 만들기
 description: Campaign에서 새 스키마를 만드는 방법을 알아보십시오
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
