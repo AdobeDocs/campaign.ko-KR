@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: 데이터 모델 모범 사례
 description: Campaign 데이터 모델 확장 모범 사례 학습
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
 workflow-type: tm+mt
 source-wordcount: '2681'
 ht-degree: 4%
@@ -66,7 +66,6 @@ Adobe Campaign에서 속성을 필요로 하는지 여부를 결정하려면 속
 ### 필드 선택 {#choice-of-fields}
 
 타겟팅 또는 개인화 목적이 있는 경우 필드에 저장해야 합니다. 즉, 필드를 사용하여 개인화된 이메일을 전송하지 않거나 쿼리의 조건으로 사용하지 않으면 디스크 공간을 불필요하게 차지합니다.
-
 
 ### 키 선택 {#choice-of-keys}
 
