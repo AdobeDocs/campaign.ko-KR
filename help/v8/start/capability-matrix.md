@@ -6,9 +6,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 38ea3e82fca6299b067d6843424d4ccb92213d00
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '805'
 ht-degree: 44%
 
 ---
@@ -68,7 +68,6 @@ Campaign Classic v7 및 이전 버전에서 스키마(즉, 테이블) 내의 키
 
 Adobe campaign v8에는 핵심 데이터베이스로 Snowflake이 포함되어 있습니다. 쿼리 크기가 크게 증가함에 따라 Snowflake 데이터베이스의 분산 아키텍처는 이러한 메커니즘을 제공하지 않으므로 테이블 내에서 키의 비특성을 관리할 수 있습니다. 따라서 Adobe Campaign v8에서는 테이블에 중복되는 키를 섭취할 수 있는 방법이 없습니다. 이제 최종 사용자는 Adobe Campaign 데이터베이스 내의 키의 일관성을 유지할 책임이 있습니다. [자세히 알아보기](../dev/keys.md)
 
-
 ### 유지 관리 간소화
 
 Campaign 사용자는 데이터베이스 전문가가 될 필요가 없습니다. 더 이상 복잡한 데이터베이스 유지 관리 작업이나 복잡한 테이블 인덱싱을 수행할 필요가 없습니다.
@@ -84,6 +83,7 @@ Campaign 사용자는 데이터베이스 전문가가 될 필요가 없습니다
 * 반응 관리자
 * 하이브리드/온-프레미스 배포 모델
 * LINE 메시징
+* Campaign 컨트롤 패널
 
 >[!CAUTION]
 >
