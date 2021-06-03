@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Campaign의 키 관리 '
 description: 키 관리 시작
-source-git-commit: 9a1c44f74f6558f0397617353f3e78186fb15717
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Adobe campaign v8에는 핵심 데이터베이스로 Snowflake이 포함되어 �
 ## 중복 검색{#detect-duplicates}
 
 Campaign에는 게재를 준비하는 동안 대상자에서 자동으로 복제된 UUID를 제거하는 새로운 보호 기능이 포함되어 있습니다. 이 새 메커니즘은 게재를 준비하는 동안 오류가 발생하지 않도록 합니다.
+
+>[!CAUTION]
+>
+>중복되는 키는 UUID로 제한되지 않습니다. 사용자 지정 테이블에서 만들어진 사용자 지정 키를 포함하여 ID에서 발생할 수 있습니다.
 
 최종 사용자는 게재 로그에서 이 정보를 확인할 수 있습니다.중복 키로 인해 일부 수신자는 기본 대상에서 제외할 수 있습니다. 이 경우 다음 경고가 표시됩니다.`Exclusion of duplicates (based on the primary key or targeted records)`
 
