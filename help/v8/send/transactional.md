@@ -5,9 +5,9 @@ description: 트랜잭션 메시지 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
+source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1477'
 ht-degree: 1%
 
 ---
@@ -219,8 +219,8 @@ ht-degree: 1%
 
 트랜잭션 메시지 템플릿 게시를 취소하려면 아래 단계를 따르십시오.
 
-1. 컨트롤 인스턴스에서 트리의 **[!UICONTROL Message Center > Transactional message templates]** 폴더로 이동합니다.
-1. 게시를 취소하려는 템플릿을 선택합니다.
+1. 컨트롤 인스턴스에서 **[!UICONTROL Message Center > Transactional message templates]** 폴더를 찾습니다.
+1. 게시를 취소할 템플릿을 선택합니다.
 1. **[!UICONTROL Unpublish]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 
