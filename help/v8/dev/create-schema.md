@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: Campaign에서 새 스키마 만들기
 description: Campaign에서 새 스키마를 만드는 방법을 알아보십시오
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '408'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->기본 제공 데이터 스키마는 Adobe Campaign Classic 콘솔 관리자만 삭제할 수 있습니다.
+>기본 제공 데이터 스키마는 Adobe Campaign 콘솔 관리자만 삭제할 수 있습니다.
 
 ![](assets/schema_navtree.png)
 
@@ -61,6 +61,8 @@ ht-degree: 2%
    ![](assets/create_new_content.png)
 
 1. 계약 테이블에 대한 설정을 정의합니다.
+
+   가장 좋은 방법으로서, `dataSource="nms:extAccount:ffda"` 속성을 추가하여 클라우드 데이터베이스에서 테이블을 만듭니다. 이 속성은 새 테이블을 만들 때 기본적으로 추가됩니다.
 
    ```
    <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
