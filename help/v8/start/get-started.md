@@ -6,10 +6,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 0e99b836dc035c0076f6771b5b430dfd1bd8edaf
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -78,7 +78,7 @@ Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 
 
 ## Campaign 기능에 대한 자세한 정보 {#core-capabilities-and-add-ons}
 
-Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 기능을 구현하고 최적화하는 데 도움이 되는 기능의 집합을 제공합니다. 일부는 핵심 기능이며 일부는 패키지 설치 및 구성에 따라 다릅니다. 자세한 제품 설명은 [Adobe Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-classic---product-description.html)에 나와 있습니다.
+Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 기능을 구현하고 최적화하는 데 도움이 되는 기능의 집합을 제공합니다. 일부는 핵심 기능이며 일부는 패키지 설치 및 구성에 따라 다릅니다. 자세한 제품 설명은 [Adobe Campaign v8 제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)에 나와 있습니다.
 
 [!DNL :bulb:] 이미 Campaign Classic에 익숙합니까? [이 페이지](capability-matrix.md)에서 Campaign Classic과 Campaign v8 간의 주요 차이점을 알아봅니다.
 
