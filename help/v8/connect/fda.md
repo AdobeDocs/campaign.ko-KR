@@ -5,7 +5,7 @@ description: Campaign 및 외부 데이터베이스로 작업하는 방법 알�
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 3%
