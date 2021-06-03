@@ -5,7 +5,7 @@ description: 오퍼 카탈로그를 만드는 방법을 알아봅니다
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 2%
