@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 도움말 센터
 title: Adobe Campaign v8 제품 설명서
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 48aa738c81a811ccf314ca9cc710c34a685060c5
+source-git-commit: f266172e6b0e14aedd0029025260c42977cf467f
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 74%
+source-wordcount: '96'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 74%
 
 * **[구현 지침](start/implement.md)** - 구현을 시작하는 방법 알아보기
 
-* **[v7에서 v8로 전환](start/capability-matrix.md)** - Campaign Classic v7에서 v8로 전환 주요 차이점 알아보기
+* **[v7에서 v8로](start/capability-matrix.md)**  전환 - Campaign Classic v7에서 Campaign v8로 전환 주요 차이점 알아보기
 
 ## 시작
 
