@@ -6,7 +6,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 36e29801bcc95565c32e51742a23d4d74d4e3049
+source-git-commit: bf2c44adc560d2be700a27b02ab35f6630192d00
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 43%
@@ -33,6 +33,7 @@ Adobe Campaign v8은 인프라, 보안, 제공 및 모니터링 기능이 상당
 >
 >배포 모델을 잘 모르거나 질문이 있는 경우 계정 팀에 문의하십시오.
 
+![](assets/home-page.png)
 
 ## 크기 조절
 
