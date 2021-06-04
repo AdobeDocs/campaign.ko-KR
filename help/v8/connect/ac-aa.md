@@ -6,9 +6,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 36e29801bcc95565c32e51742a23d4d74d4e3049
+source-git-commit: 6a22bdd563bb0be26df12ce8d2b6da266d16f2e3
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -157,9 +157,9 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
    ![](assets/analytics_connnector_12.png)
 
-1. 필요한 경우 **[!UICONTROL Update Segments]** 탭에서 세그먼트를 추가하거나 제거할 수 있습니다.
-
-   ![](assets/analytics_connnector_12a.png)
+   >[!NOTE]
+   >
+   > 이 버전의 Campaign v8에서는 세그먼트를 추가하거나 제거할 수 없습니다.
 
 1. **[!UICONTROL External account]**&#x200B;에서 **[!UICONTROL Enrich the formula...]** 링크를 클릭하여 URL 계산 공식을 변경하여 웹 분석 도구 통합 정보(캠페인 ID)와 활동을 추적해야 하는 사이트의 도메인을 지정합니다.
 
