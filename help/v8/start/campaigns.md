@@ -6,7 +6,7 @@ feature: 대상
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 032bee3b58948b558efe50796efa789a046ff5e4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 85%
@@ -22,6 +22,8 @@ Adobe Campaign은 온라인과 오프라인의 모든 채널에서 캠페인을 
 ## 크로스 채널 캠페인 오케스트레이션
 
 Adobe Campaign을 사용하면 타기팅되고 개인화된 캠페인을 이메일, DM, SMS, 푸시 알림과 같은 다양한 채널에 디자인 및 오케스트레이션 할 수 있습니다. 단일 인터페이스는 모든 캠페인 및 커뮤니케이션을 일정 계획, 오케스트레이션, 구성, 개인화, 자동화, 실행 및 측정하는 데 필요한 모든 기능을 제공합니다.
+
+![](assets/campaign-tab.png)
 
 ### 핵심 개념
 
@@ -42,6 +44,8 @@ Adobe Campaign을 사용하면 타기팅되고 개인화된 캠페인을 이메�
 ## 마케팅 캠페인 작업 영역
 
 Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠페인을 생성, 구성, 실행 및 분석할 수 있습니다.
+
+![](assets/calendar.png)
 
 [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 마케팅 캠페인에 액세스하고 구현하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=ko#orchestrating-campaigns)
 
