@@ -6,10 +6,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 hidefromtoc: true
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: cf00895f988514fc029d0060d7404bdef0c8b30e
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 3%
+source-wordcount: '177'
+ht-degree: 2%
 
 ---
 
@@ -26,3 +26,6 @@ Adobe Campaign v8의 경우 다음과 같은 제한 사항이 있습니다.
 * 사용 불가능하거나 제거된 일부 기능은 여전히 사용자 인터페이스에 표시됩니다
 * 구독(옵트인) 및 구독 취소(옵트아웃) 메커니즘 및 모바일 등록은 비동기 프로세스입니다. 요청은 특정 기술 워크플로우를 통해 매시간 처리됩니다. [자세히 알아보기](../config/replication.md#tech-wf)
 * 최종 사용자가 중복을 수동으로 처리해야 합니다. [자세히 알아보기](../dev/keys.md)
+* Adobe Campaign v8은 API 및 웹 애플리케이션에서 확장된 처리량을 지원하지 않습니다. 특정 요구 사항이 있는 경우 Adobe에게 연락하여 지침을 받으십시오.
+
+
