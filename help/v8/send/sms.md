@@ -5,7 +5,7 @@ description: Campaign에서 SMS 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 04f9d80e26fab372a1819590f8e79298c7a69ab5
+source-git-commit: 35814053bff993d0b130bf598c8601c3f5adc407
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 3%
@@ -51,9 +51,9 @@ SMS 전송을 시작하기 전:
 
    ![](assets/sms-template-list.png)
 
-   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 SMPP 외부 계정을 만드는 방법을 알아봅니다](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account)
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 SMPP 외부 계정을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account)
 
-   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 모바일에 전달할 게재 템플릿을 만드는 방법을 알아봅니다](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template)
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 모바일에 전달할 게재 템플릿을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template)
 
 1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다.
 
