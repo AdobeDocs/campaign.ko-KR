@@ -6,9 +6,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 973e04eb25887f63564b416515c6e229ed5233a4
+source-git-commit: e6086620909277eaaf5966335df9b71c6830e726
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '608'
 ht-degree: 2%
 
 ---
@@ -67,8 +67,6 @@ Campaign Cloud Service에서 사용할 수 있는 환경의 세 가지 유형은
 >제어 인스턴스와 실행 인스턴스는 다른 컴퓨터에 설치해야 합니다. 동일한 Campaign 인스턴스를 공유할 수 없습니다.
 
 ![](assets/messagecenter_diagram.png)
-
-[!DNL :arrow_upper_right:] 메시지 센터 아키텍처는  [Campaign Classic v7 설명서에 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture.html)
 
 ### 인증
 
