@@ -5,9 +5,9 @@ description: Campaign에서 SMS 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: e65750c4e9ebd0367f0430455cac2cc6502ade7e
+source-git-commit: 04f9d80e26fab372a1819590f8e79298c7a69ab5
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '583'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Adobe Campaign을 사용하여 개인화된 SMS 메시지를 보냅니다.
 
 * 이 외부 계정을 참조하는 게재 템플릿입니다.
 
-[!DNL:arrow_upper_right:] [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#sending-messages)에서 SMS 채널을 구성하는 방법을 알아봅니다.
+[!DNL :arrow_upper_right:]   [Campaign Classic v7 설명서에서 SMS 채널을 구성하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#sending-messages)
 
 SMS 전송을 시작하기 전:
 
