@@ -5,9 +5,9 @@ description: Campaign v8에서 구독 및 구독 취소를 관리하는 방법�
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: f69d318b4ea767c44f8c19bf0cf45fb1b7001b11
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 프로필을 서비스에 구독(옵트인)하려면 다음 옵션을 사용할 수 있습니다.
 
 * 수신자 프로필에 서비스를 수동으로 추가합니다.이렇게 하려면 해당 프로필의 **[!UICONTROL Subscriptions]** 탭에서 **[!UICONTROL Add]** 을(를) 클릭하고 관련 정보 서비스를 선택합니다.
+
+   ![](assets/subscribe-to-a-service.png)
 
    [!DNL :arrow_upper_right:] 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
