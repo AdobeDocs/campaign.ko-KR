@@ -6,7 +6,7 @@ feature: 대상
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 032bee3b58948b558efe50796efa789a046ff5e4
+source-git-commit: efb236fe47653ddd45f8a5a08e0595b9f6287b7d
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 85%
@@ -70,11 +70,15 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 
    워크플로우에서 대상을 만들거나 수신자 목록, 뉴스레터 구독자, 이전 게재의 수신자 또는 필터링 조건 등과 같은 기존 그룹을 선택할 수 있습니다.
 
+   ![](assets/campaign-wf.png)
+
    [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 메시지 대상자를 정의하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=ko#orchestrating-campaigns)
 
 1. **게재 만들기**
 
    채널을 선택하고 메시지 컨텐츠를 정의하고 게재를 시작합니다.
+
+   ![](assets/campaign-dashboard.png)
 
    [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 마케팅 캠페인 게재를 만들고 시작하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=ko#creating-deliveries)
 
