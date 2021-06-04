@@ -6,7 +6,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
+source-git-commit: 9ecd0af7a6e8e173a89106c84a78de8b2311fef7
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 67%
@@ -40,14 +40,26 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 메시지가 만들어지고 컨텐츠가 디자인되고 테스트되면 메시지 전송 방법을 선택할 수 있습니다. Campaign은 다음과 같은 여러 가지 기능을 제공합니다.
 
 * 주요 타겟에게 수동으로 메시지 보내기
+
+   ![](assets/send-email.png)
+
    [!DNL :arrow_upper_right:] [메시지 전송 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=ko)
 * [마케팅 캠페인](campaigns.md)에 연결된 메시지 보내기
+
+   ![](assets/deliveries-in-a-campaign.png)
+
    [!DNL :arrow_upper_right:] [캠페인 컨텍스트에서 메시지를 보내는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=ko).
 * [워크플로우](../config/workflows.md)를 통해 메시지 보내기
+
+   ![](assets/send-in-a-wf.png)
+
    [!DNL :arrow_upper_right:] [이메일 게재 자동화 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=ko)
 * [이벤트](../send/transactional.md) 에서 메시지 트리거
    [!DNL :arrow_upper_right:] [사용 사례:첨부 파일과 함께 트랜잭션 전자 메일을 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=ko)
 * 메시지 예약
+
+   ![](assets/schedule-send.png)
+
    [!DNL :arrow_upper_right:] [사용 사례:생일 전자 메일 예약 및 전송 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=ko)
 
 
