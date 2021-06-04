@@ -5,7 +5,7 @@ description: Campaign에서 푸시 알림 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: c6f1cfdec3d05a81f8885cc73b370723024f858f
+source-git-commit: b0fcdefb638a2424e9464cf520724cc492fabc55
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 0%
@@ -97,19 +97,19 @@ Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
 
 1. **[!UICONTROL Deliver on Android (android)]** 배달 템플릿을 선택합니다.
 
-   ![](assets/push-template-android.png)
+   <!--![](assets/push-template-android.png)-->
 
 1. 알림의 대상을 정의하려면 **[!UICONTROL To]** 링크를 클릭한 다음 **[!UICONTROL Add]** 를 클릭합니다.
 
-   ![](assets/nmac_delivery_android_2.png)
+   <!--![](assets/nmac_delivery_android_2.png)-->
 
 1. **[!UICONTROL Subscribers of an Android mobile application]** 을 선택하고 모바일 애플리케이션과 관련된 서비스(이 경우 Neotrip)를 선택한 다음, 애플리케이션의 Android 버전을 선택합니다.
 
-   ![](assets/push-android-select-target.png)
+   <!--![](assets/push-android-select-target.png)-->
 
 1. 그런 다음 알림에 사용할 콘텐츠를 입력합니다.
 
-   ![](assets/push-android-content.png)
+   <!--![](assets/push-android-content.png)-->
 
 1. 푸시 알림에 이모티콘을 삽입하려면 **[!UICONTROL Insert emoticon]** 아이콘을 클릭합니다.
 
@@ -117,7 +117,7 @@ Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
 
 1. 알림이 구성되면 **[!UICONTROL Preview]** 탭을 클릭하여 알림을 미리 봅니다.
 
-   ![](assets/push-android-preview.png)
+   <!--![](assets/push-android-preview.png)-->
 
 ## 푸시 알림 테스트, 전송 및 모니터링
 
