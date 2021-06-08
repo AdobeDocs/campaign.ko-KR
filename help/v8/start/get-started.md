@@ -1,15 +1,15 @@
 ---
 product: Adobe Campaign
 title: Campaign v8 시작
-description: 주요 기능, 사용자 인터페이스 및 글로벌 지침을 살펴보십시오.
+description: Campaign을 처음 사용하십니까? 시작하는 방법 살펴보기
 feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: bf2c44adc560d2be700a27b02ab35f6630192d00
+source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 84%
+source-wordcount: '894'
+ht-degree: 83%
 
 ---
 
@@ -119,3 +119,8 @@ Campaign v8 사용자 인터페이스는 다음 언어로 제공됩니다.
 
 언어 영향을 받은 날짜 및 시간 형식. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#date-and-time)를 참조하십시오.
 
+**참조 -**
+
+* [Campaign v8 호환성 매트릭스](compatibility-matrix.md)
+* [Campaign에 연결](connect.md)
+* [FAQ](campaign-faq.md)
