@@ -1,5 +1,5 @@
 ---
-source-git-commit: 098bb2252708f4c59e2ee186d4c3d0074ebec1fd
+source-git-commit: f75b2ddc073d05548740cb3e9371063cf0d83ca5
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
@@ -36,7 +36,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Adobe 직원의 주요 변경
 
-Adobe Experience Cloud 솔루션 제품 팀의 기술 저작, 프로그램 관리자 또는 개발자로서 기술 문서를 기여하거나 작성하는 데 필요한 작업인 경우 `https://git.corp.adobe.com/AdobeDocs`의 개인 저장소를 사용해야 합니다 .
+Adobe Experience Cloud 솔루션 제품 팀의 기술 저작, 프로그램 관리자 또는 개발자로서 기술 문서를 기여하거나 작성하는 데 필요한 작업인 경우 `https://git.adobe.com/AdobeDocs`의 개인 저장소를 사용해야 합니다 .
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
