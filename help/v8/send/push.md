@@ -5,7 +5,7 @@ description: Campaign에서 푸시 알림 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 09979331284757527fc9a24479a53d2d488f4649
+source-git-commit: f75b2ddc073d05548740cb3e9371063cf0d83ca5
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
 
 이 섹션에서는 iOS 및 Android 알림 게재와 관련된 요소에 대해 자세히 설명합니다.
 
-[!DNL :arrow_upper_right:] 푸시 알림을 만드는 모든 단계는  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en)
+[!DNL :arrow_upper_right:] 푸시 알림을 만드는 모든 단계는  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en)
 
 >[!CAUTION]
 >
@@ -125,7 +125,7 @@ Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
 
    <!--![](assets/push-android-preview.png)-->
 
-[!DNL :arrow_upper_right:] Android에서 푸시 알림을 만들고 전송하는 자세한 단계는  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-android)
+[!DNL :arrow_upper_right:] Android에서 푸시 알림을 만들고 전송하는 자세한 단계는  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-android)
 
 ## 푸시 알림 테스트, 전송 및 모니터링
 
@@ -135,12 +135,12 @@ Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
    [!DNL :arrow_upper_right:] [게재의 유효성을 검사하는 주요 단계를 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 
 * 게재 확인 및 보내기
-   [!DNL :arrow_upper_right:] [게재를 보내는 주요 단계를 배웁니다.](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en)
+   [!DNL :arrow_upper_right:] [게재를 보내는 주요 단계를 배웁니다.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en)
 
 메시지를 보낸 후 게재를 모니터링하고 추적할 수 있습니다. 자세한 내용은 Campaign Classic v7 설명서를 참조하십시오.
 
 * 푸시 알림 격리
-   [!DNL :arrow_upper_right:] [푸시 알림 격리에 대한 자세한 정보](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines)
+   [!DNL :arrow_upper_right:] [푸시 알림 격리에 대한 자세한 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines)
 
 * 문제 해결
-   [!DNL :arrow_upper_right:] [푸시 알림 문제 해결 방법 알아보기](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en)
+   [!DNL :arrow_upper_right:] [푸시 알림 문제 해결 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en)
