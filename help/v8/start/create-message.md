@@ -6,10 +6,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 9ecd0af7a6e8e173a89106c84a78de8b2311fef7
+source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 67%
+source-wordcount: '600'
+ht-degree: 64%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 
    [!DNL :arrow_upper_right:] [이메일 게재 자동화 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=ko)
 * [이벤트](../send/transactional.md) 에서 메시지 트리거
-   [!DNL :arrow_upper_right:] [사용 사례:첨부 파일과 함께 트랜잭션 전자 메일을 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=ko)
+   [!DNL :arrow_upper_right:] [사용 사례:첨부 파일과 함께 트랜잭션 전자 메일을 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en)
 * 메시지 예약
 
    ![](assets/schedule-send.png)
@@ -84,7 +84,7 @@ Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화�
 
 [!DNL :bulb:] 트랜잭션 메시지를 구성하고 전송하는 단계는  [이 페이지에 자세히 설명되어 있습니다](../send/transactional.md)
 
-[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서의 엔드 투 엔드 사용 사례에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=ko#transactional-messaging)
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서의 엔드 투 엔드 사용 사례에서 이 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en)
 
 ## 게재 및 추적 로그
 
