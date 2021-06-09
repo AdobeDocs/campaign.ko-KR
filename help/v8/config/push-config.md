@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: ee0ea4c1e086ee579e63e391683cc8e896d09f0b
+source-git-commit: 170a80942aff9951859646942657938e206959fe
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
 * **Android에서**:
 
-   ```
+   ```sql
    Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
    Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
    Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
@@ -49,7 +49,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
 * **iOS에서**:
 
-   ```
+   ```sql
    Neolane_SDK *nl = [Neolane_SDK getInstance];
    [nl setMarketingHost:strMktHost];
    [nl setTrackingHost:strTckHost];
@@ -84,7 +84,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    Android SDK를 사용하기 전에 초기화해야 합니다. SDK 초기화는 활동의 `onCreate` 함수에서 수행할 수 있습니다.
 
-   ```
+   ```sql
    /** Called when the activity is first created. */
    @Override
    public void onCreate(Bundle savedInstanceState)
@@ -112,7 +112,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    앱 초기화 또는 사용자 작업 시 Adobe Campaign에 장치를 등록해야 합니다. `registerDevice` 메서드를 사용하여 쉽게 수행할 수 있습니다.
 
-   ```
+   ```sql
    public void onClick(View v)
    {
    SharedPreferences settings = this.context.getSharedPreferences(YourApplicationActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
@@ -127,7 +127,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    YourApplicationActivity.java
 
-   ```
+   ```sql
    public static void registerOnNeolane(final Context ctx, String registrationId, String userKey)
    {
        NeolaneAsyncRunner neolaneAs = new NeolaneAsyncRunner(Neolane.getInstance());
@@ -188,7 +188,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    YourApplicationFirebaseInstanceIDService.java
 
-   ```
+   ```sql
    package com.android.YourApplication;
    
    import android.content.Context;
@@ -225,7 +225,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    YourApplicationMessagingService.java
 
-   ```
+   ```sql
    package com.android.YourApplication;
    
    import android.content.Context;
@@ -270,7 +270,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    Campaign Android SDK v1.1.1용
 
-   ```
+   ```sql
    public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras)
    {
        if( message == null ) message = "No Content";
@@ -330,7 +330,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    Campaign Android SDK v1.1.1용
 
-   ```
+   ```sql
    public class NotificationActivity extends Activity {
        public void onCreate(Bundle savedBundle) {
            [...]
@@ -359,12 +359,13 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
            }
        }
    }
-   
+   ```
+
 1. **알림 메시지 열기 및 클릭 추적**
 
    알림 메시지의 경우 아래와 같이 애플리케이션 실행 활동 내의 `notifyOpening` 함수로 열기/클릭 추적을 수행해야 합니다.
 
-   ```
+   ```sql
    /** Called when the activity is first created. */
    @Override
    public void onCreate(Bundle savedInstanceState)
@@ -373,7 +374,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
    
        SharedPreferences settings = getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
    
-       // initialize Neolane sdk
+       // initialize Campaign SDK
        Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
        Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
        Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
@@ -429,7 +430,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    YourApplicationMessagingService.java
 
-   ```
+   ```sql
    package com.android.YourApplication;
    
    import android.content.Context;
@@ -472,7 +473,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
    }
    ```
 
-   ```
+   ```sql
    public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras){
        .....
        .....
@@ -500,7 +501,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    열기/클릭 추적과 동시에 수행해야 합니다.
 
-   ```
+   ```sql
    /** Called when the activity is first created. */
        @Override
        public void onCreate(Bundle savedInstanceState)
@@ -564,7 +565,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
    * 알림 ID 또는 푸시 ID(iOS용 deviceToken 및 Android용 registrationID)를 Adobe Campaign에 보냅니다.
    * 조정 키 또는 userKey 복구(예: 이메일 또는 계정 번호)
 
-   ```
+   ```sql
    // Callback called on successful registration to the APNs
     - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
    {
@@ -576,18 +577,18 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 1. **추적 함수 활성화**
 
-추적 함수를 사용하면 알림이 활성화되는 시점을 추적할 수 있습니다(열기).
+   추적 함수를 사용하면 알림이 활성화되는 시점을 추적할 수 있습니다(열기).
 
-```
-(void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
-fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
-{
-if( launchOptions ) { // Retrieve notification parameters here ... // Track application opening Neolane_SDK
-*nl = [Neolane_SDK getInstance]; [nl track:launchOptions:NL_TRACK_CLICK]; } 
-...  
-completionHandler(UIBackgroundFetchResultNoData);
-}
-```
+   ```sql
+   (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
+   fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+   {
+   if( launchOptions ) { // Retrieve notification parameters here ... // Track application opening Neolane_SDK
+   *nl = [Neolane_SDK getInstance]; [nl track:launchOptions:NL_TRACK_CLICK]; } 
+   ...  
+   completionHandler(UIBackgroundFetchResultNoData);
+   }
+   ```
 
 1. **자동 알림 추적**
 
@@ -595,7 +596,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    자동 알림을 추적하려면 아래 예를 따르십시오.
 
-   ```
+   ```sql
    // AppDelegate.m
    ...
    ...
@@ -610,7 +611,7 @@ completionHandler(UIBackgroundFetchResultNoData);
    if (launchOptions) NSLog(@"IN launchOptions: %@", [launchOptions description]);
    NSLog(@"Application state: %ld", (long)application.applicationState);
    
-   // Silent Notification (specific case, can use NL_TRACK_RECEIVE as the user doesn't have click/open the notification)
+   // Silent Notification (specific case, can use NL_TRACK_RECEIVE as the user does not have click/open the notification)
    if ([launchOptions[@"aps"][@"content-available"] intValue] == 1 )
        {
    NSLog(@"Silent Push Notification");
@@ -629,13 +630,13 @@ completionHandler(UIBackgroundFetchResultNoData);
    }
    ```
 
-1. 등록 상태 구성
+1. **등록 상태 구성**
 
    위임 프로토콜을 사용하면 **registerDevice** 호출 결과를 얻을 수 있으며, 등록하는 동안 오류가 발생했는지 확인하는 데 사용할 수 있습니다.
 
    **registerDeviceStatus** 프로토타입은 다음과 같습니다.
 
-   ```
+   ```sql
    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
    ```
 
@@ -687,7 +688,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    **Neolane_** SDKDelegateprotocol 및 registerDeviceStatusdelegate  **** 정의는 다음과 같습니다.
 
-   ```
+   ```sql
    //  Neolane_SDK.h
    //  Campaign SDK
    ..
@@ -721,7 +722,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    1. SDK 초기화 중에 **setDelegate**&#x200B;를 구현합니다.
 
-      ```
+      ```sql
       // AppDelegate.m
       ...
       ... 
@@ -750,7 +751,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    1. 클래스의 **@interface**&#x200B;에 프로토콜을 추가합니다.
 
-      ```
+      ```sql
       //  AppDelegate.h
       
       #import <UIKit/UIKit.h>
@@ -772,7 +773,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    1. **AppDelegate**&#x200B;에서 대리자를 구현합니다.
 
-      ```
+      ```sql
       //  AppDelegate.m
       
       #import "AppDelegate.h"
@@ -832,7 +833,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
 * **Android에서**:
 
-   ```
+   ```sql
    public void onReceive(Context context, Intent intent) {
         ...
        String event = intent.getStringExtra("VAR");
@@ -842,7 +843,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
 * **iOS에서**:
 
-   ```
+   ```sql
    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
    {
        ....
@@ -880,7 +881,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
 미디어는 알림 서비스 확장 수준에서 다운로드해야 합니다.
 
-```
+```sql
 #import "NotificationService.h"
 
 @interface NotificationService ()
@@ -926,7 +927,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    미디어 데이터를 위젯에 피드하려면 코드를 추가해야 합니다. 다음은 이미지에 대한 코드 예입니다.
 
-   ```
+   ```sql
    #import "NotificationViewController.h"
    #import <UserNotifications/UserNotifications.h>
    #import <UserNotificationsUI/UserNotificationsUI.h>
