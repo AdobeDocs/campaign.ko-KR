@@ -5,9 +5,9 @@ description: Campaign에서 푸시 알림 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: f75b2ddc073d05548740cb3e9371063cf0d83ca5
+source-git-commit: 42a83fefb9c4ae3cea906c5dce8ecf725909b4eb
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '790'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,8 @@ Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합
 ### Campaign SDK 통합
 
 Campaign SDK를 사용하면 모바일 애플리케이션을 Adobe Campaign 플랫폼에 간편하게 통합할 수 있습니다.
+
+호환 가능한 SDK 버전은 [Campaign 호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK)에 나열되어 있습니다.
 
 [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 Campaign SDK를 앱과 통합하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=en#loading-campaign-sdk)
 
