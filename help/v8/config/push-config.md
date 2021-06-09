@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: f1a854c6aa91755add4dfe422879ffd12e8d297b
+source-git-commit: afc624ffdcc3c537bdfa23989c1ed95271edabdb
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1284'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    `IntegrationKey`은(는) 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에서 설정된 &#39;IntegrationKey&#39;와 일치해야 합니다.
 
-2. **Adobe Campaign 서버에 모바일 장치 등록**
+1. **Adobe Campaign 서버에 모바일 장치 등록**
 
    등록 기능을 사용하면 다음 작업을 수행할 수 있습니다.
 
