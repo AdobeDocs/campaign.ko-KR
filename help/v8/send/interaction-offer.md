@@ -5,9 +5,9 @@ description: 오퍼를 만드는 방법을 알아봅니다
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
@@ -196,4 +196,4 @@ Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 프로
 
 시뮬레이션은 오퍼와 해당 프레젠테이션 규칙에 이전에 적용된 컨텍스트 및 자격 규칙을 고려합니다. 이렇게 하면 시뮬레이션이 타겟팅된 수신자에게 영향을 주지 않으므로 오퍼를 실제로 사용하거나 대상을 지나치게 모집하지 않고 다양한 버전의 오퍼 제안을 테스트하고 세분화할 수 있습니다.
 
-[!DNL :arrow_upper_right:] 오퍼 시뮬레이션에 대한 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.htm)
+[!DNL :arrow_upper_right:] 오퍼 시뮬레이션에 대한 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
