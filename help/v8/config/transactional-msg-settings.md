@@ -5,9 +5,9 @@ description: Campaign 트랜잭션 메시지 설정
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대한
 
 제어 또는 실행 인스턴스에서 **메시지 센터 기술 워크플로우**&#x200B;에서 사용하는 스키마에서 수행되는 모든 스키마 확장은 Adobe Campaign 트랜잭션 메시지 모듈에서 사용하는 다른 인스턴스에 복제해야 합니다.
 
-[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서의 메시지 센터 기술 워크플로우에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/technical-workflows.html?lang=en#control-instance-workflows)
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서의 메시지 센터 기술 워크플로우에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
 
 ## 트랜잭션 푸시 알림 보내기
 
