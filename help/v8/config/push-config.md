@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: d45913ac1da7dc3a447fd27294256522b399f1d0
+source-git-commit: f1a854c6aa91755add4dfe422879ffd12e8d297b
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 iOS 및 Android용 Campaign SDK를 사용하여 모바일 애플리케이션을 Adobe Campaign 플랫폼에 간편하게 통합할 수 있습니다.
 
-Android 및 iOS에서 지원되는 버전 및 Campaign v8용 Campaign SDK 호환 버전은 [호환성 매트릭스](../../rn/using/compatibility-matrix.md#MobileSDK)에 나열되어 있습니다.
+Android 및 iOS에서 지원되는 버전 및 Campaign v8용 Campaign SDK 호환 버전은 [호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK)에 나열되어 있습니다.
 
 >[!NOTE]
 >
@@ -422,6 +422,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 >
 > 사용자가 타깃팅된 활동 내에서 `click_action` 옵션을 사용하는 경우 유사한 관리를 수행해야 합니다.
 
+
 1. **데이터 메시지에 대한 추적 받기**
 
    데이터 메시지의 경우 추적은 `onMessageReceived` 호출 수준에서 수신됩니다. &#39;notifyReceive&#39; 함수를 호출해야 합니다.
@@ -552,8 +553,6 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
        }
    }
    ```
-
-
 
 
 ## iOS SDK 통합
