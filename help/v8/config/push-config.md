@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 29d6a1545722afa3a07c98de1ab453cdb0a618d2
+source-git-commit: 35fcedd8e4d44bb6c5a97b2a48ff55aa2632947d
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 2%
+source-wordcount: '1284'
+ht-degree: 1%
 
 ---
 
@@ -644,56 +644,15 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    * **** ErrorReason은 발생한 오류에 대한 자세한 정보를 제공합니다. 사용 가능한 오류 및 설명에 대한 자세한 내용은 아래 표를 참조하십시오.
 
+   | 상태 | 설명 | ErrorReason |
+   | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+   | ACCRregisterDeviceStatusSuccess | 등록 성공 | EMPTY |
+   | ACCReisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC 마케팅 서버 호스트 이름이 비어 있거나 설정되지 않았습니다. | EMPTY |
+   | ACCReisterDeviceStatusFailureIntegrationKeyEmpty | 통합 키가 비어 있거나 설정되지 않았습니다. | EMPTY |
+   | ACCReisterDeviceStatusFailureConnectionIssue | ACC의 연결 문제 | 추가 정보(OS 현재 언어) |
+   | ACCRregisterDeviceStatusFailureUnknownUUID | 제공된 UUID(통합 키)를 알 수 없습니다. | EMPTY |
+   | ACCRregisterDeviceStatusFailureUnexpectedError | ACC 서버에 예기치 않은 오류가 반환되었습니다. | ACC에 오류 메시지가 반환되었습니다. |
 
-      | 상태 | 설명 | ErrorReason |
-      | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
-      | ACCRregisterDeviceStatusSuccess | 등록 성공 | EMPTY |
-      | ACCReisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC 마케팅 서버 호스트 이름이 비어 있거나 설정되지 않았습니다. | EMPTY |
-      | ACCReisterDeviceStatusFailureIntegrationKeyEmpty | 통합 키가 비어 있거나 설정되지 않았습니다. | EMPTY |
-      | ACCReisterDeviceStatusFailureConnectionIssue | ACC의 연결 문제 | 추가 정보(OS 현재 언어) |
-      | ACCRregisterDeviceStatusFailureUnknownUUID | 제공된 UUID(통합 키)를 알 수 없습니다. | EMPTY |
-      | ACCRregisterDeviceStatusFailureUnexpectedError | ACC 서버에 예기치 않은 오류가 반환되었습니다. | ACC에 오류 메시지가 반환되었습니다. |
-   <table> 
-    <thead>
-    <tr>
-    <th> 상태<br /> </th>
-    <th> 설명<br /> </th>
-    <th> ErrorReason<br /> </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td> ACCRregisterDeviceStatusSuccess <br /> </td>
-    <td> 등록 성공<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCReisterDeviceStatusFailureMarketingServerHostnameEmpty <br /> </td>
-    <td> ACC 마케팅 서버 호스트 이름이 비어 있거나 설정되지 않았습니다.<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCReisterDeviceStatusFailureIntegrationKeyEmpty <br /> </td>
-    <td> 통합 키가 비어 있거나 설정되지 않았습니다.<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCReisterDeviceStatusFailureConnectionIssue<br /> </td>
-    <td> ACC<br />에 대한 연결 문제 </td>
-    <td> 추가 정보(OS 현재 언어)<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRregisterDeviceStatusFailureUnknownUUID<br /> </td>
-    <td> 제공된 UUID(통합 키)를 알 수 없습니다.<br /> </td>
-    <td> EMPTY<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRregisterDeviceStatusFailureUnexpectedError<br /> </td>
-    <td> ACC 서버에 예기치 않은 오류가 반환되었습니다.<br /> </td>
-    <td> ACC<br />에 반환된 오류 메시지 </td>
-    </tr>
-    </tbody>
-    </table>
 
    **Neolane_** SDKDelegateprotocol 및 registerDeviceStatusdelegate  **** 정의는 다음과 같습니다.
 
@@ -830,6 +789,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
       }
       @end
       ```
+
 
 
 ## 변수 {#variables}
