@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: eec769a09d59034dde59983bd0a53a4ac4fddde5
+source-git-commit: 9f05209e47f35c91720f68d56593812115726817
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 1%
@@ -644,7 +644,6 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    * **** ErrorReason은 발생한 오류에 대한 자세한 정보를 제공합니다. 사용 가능한 오류 및 설명에 대한 자세한 내용은 아래 표를 참조하십시오.
 
-
 | 상태 | 설명 | ErrorReason |
 | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
 | ACCRregisterDeviceStatusSuccess | 등록 성공 | EMPTY |
@@ -653,7 +652,6 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 | ACCReisterDeviceStatusFailureConnectionIssue | ACC의 연결 문제 | 추가 정보(OS 현재 언어) |
 | ACCRregisterDeviceStatusFailureUnknownUUID | 제공된 UUID(통합 키)를 알 수 없습니다. | EMPTY |
 | ACCRregisterDeviceStatusFailureUnexpectedError | ACC 서버에 예기치 않은 오류가 반환되었습니다. | ACC에 오류 메시지가 반환되었습니다. |
-
 
 {style=&quot;table-layout:auto&quot;}
 
