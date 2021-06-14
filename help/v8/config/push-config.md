@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 170a80942aff9951859646942657938e206959fe
+source-git-commit: 29d6a1545722afa3a07c98de1ab453cdb0a618d2
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 1%
+source-wordcount: '1346'
+ht-degree: 2%
 
 ---
 
@@ -419,9 +419,9 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
    }
    ```
 
->[!NOTE]
->
-> 사용자가 타깃팅된 활동 내에서 `click_action` 옵션을 사용하는 경우 유사한 관리를 수행해야 합니다.
+   >[!NOTE]
+   >
+   > 사용자가 타깃팅된 활동 내에서 `click_action` 옵션을 사용하는 경우 유사한 관리를 수행해야 합니다.
 
 
 1. **데이터 메시지에 대한 추적 받기**
@@ -644,6 +644,15 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    * **** ErrorReason은 발생한 오류에 대한 자세한 정보를 제공합니다. 사용 가능한 오류 및 설명에 대한 자세한 내용은 아래 표를 참조하십시오.
 
+
+      | 상태 | 설명 | ErrorReason |
+      | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+      | ACCRregisterDeviceStatusSuccess | 등록 성공 | EMPTY |
+      | ACCReisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC 마케팅 서버 호스트 이름이 비어 있거나 설정되지 않았습니다. | EMPTY |
+      | ACCReisterDeviceStatusFailureIntegrationKeyEmpty | 통합 키가 비어 있거나 설정되지 않았습니다. | EMPTY |
+      | ACCReisterDeviceStatusFailureConnectionIssue | ACC의 연결 문제 | 추가 정보(OS 현재 언어) |
+      | ACCRregisterDeviceStatusFailureUnknownUUID | 제공된 UUID(통합 키)를 알 수 없습니다. | EMPTY |
+      | ACCRregisterDeviceStatusFailureUnexpectedError | ACC 서버에 예기치 않은 오류가 반환되었습니다. | ACC에 오류 메시지가 반환되었습니다. |
    <table> 
     <thead>
     <tr>
