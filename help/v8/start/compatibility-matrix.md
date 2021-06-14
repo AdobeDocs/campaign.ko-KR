@@ -6,10 +6,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 29d6a1545722afa3a07c98de1ab453cdb0a618d2
+source-git-commit: 619edce939b39430832fd950ece734f817f9dce3
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 75%
+source-wordcount: '278'
+ht-degree: 68%
 
 ---
 
@@ -52,8 +52,8 @@ ht-degree: 75%
 
 ### 모바일 SDK{#MobileSDK}
 
-* **Android** 7.x, 8.x, 9.0(모바일 SDK 빌드 1.1.1).
-* **Apple iOS** 9 – 14(모바일 SDK 빌드 1.0.26). 32비트 및 64비트 버전과 호환됩니다.
+* **Android** 7.x, 8.x, 9.0(Campaign Android SDK 빌드 1.1.1 포함)
+* **Apple iOS** 9 - 14와 Campaign iOS SDK 빌드 1.0.26는 32비트 및 64비트 버전과 호환됩니다.
 
 ### 지원되는 브라우저 {#Browsers}
 
