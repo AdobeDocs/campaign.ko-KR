@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 9f05209e47f35c91720f68d56593812115726817
+source-git-commit: 673d2d3ace355a9552ecf54a3cab0104943e6a99
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1287'
 ht-degree: 1%
 
 ---
@@ -644,153 +644,154 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    * **** ErrorReason은 발생한 오류에 대한 자세한 정보를 제공합니다. 사용 가능한 오류 및 설명에 대한 자세한 내용은 아래 표를 참조하십시오.
 
-| 상태 | 설명 | ErrorReason |
-| ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
-| ACCRregisterDeviceStatusSuccess | 등록 성공 | EMPTY |
-| ACCReisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC 마케팅 서버 호스트 이름이 비어 있거나 설정되지 않았습니다. | EMPTY |
-| ACCReisterDeviceStatusFailureIntegrationKeyEmpty | 통합 키가 비어 있거나 설정되지 않았습니다. | EMPTY |
-| ACCReisterDeviceStatusFailureConnectionIssue | ACC의 연결 문제 | 추가 정보(OS 현재 언어) |
-| ACCRregisterDeviceStatusFailureUnknownUUID | 제공된 UUID(통합 키)를 알 수 없습니다. | EMPTY |
-| ACCRregisterDeviceStatusFailureUnexpectedError | ACC 서버에 예기치 않은 오류가 반환되었습니다. | ACC에 오류 메시지가 반환되었습니다. |
+   | 상태 | 설명 | ErrorReason |
+   | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+   | ACCRregisterDeviceStatusSuccess | 등록 성공 | EMPTY |
+   | ACCReisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC 마케팅 서버 호스트 이름이 비어 있거나 설정되지 않았습니다. | EMPTY |
+   | ACCReisterDeviceStatusFailureIntegrationKeyEmpty | 통합 키가 비어 있거나 설정되지 않았습니다. | EMPTY |
+   | ACCReisterDeviceStatusFailureConnectionIssue | ACC의 연결 문제 | 추가 정보(OS 현재 언어) |
+   | ACCRregisterDeviceStatusFailureUnknownUUID | 제공된 UUID(통합 키)를 알 수 없습니다. | EMPTY |
+   | ACCRregisterDeviceStatusFailureUnexpectedError | ACC 서버에 예기치 않은 오류가 반환되었습니다. | ACC에 오류 메시지가 반환되었습니다. |
 
-{style=&quot;table-layout:auto&quot;}
+   {style=&quot;table-layout:auto&quot;}
 
-    **Neolane_SDKDelegate** 프로토콜 및 **registerDeviceStatus** 위임 정의는 다음과 같습니다. 
-    
-    &quot;sql
-    // Neolane_SDK.h
-    / Campaign SDK
-    .
-    ..
-    // Register Device Status 
-    Enumtypedef NS_ENUM(NSInteger, ACCRegiterDeviceStatusSuccess, // Resiance 
-    SuccessfulACTERegisterDeviceStatusFailureMarketingServerHostnameEmpty, // Campaign Marketing Server 호스트 이름이 비어 있거나 설정되지 않은 
-    setACCTORACCTOReterDeviceKeyFailureStatusStatusStatusKeyStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatusStatus비어 있음, // 통합 키가 비어 있거나 
-    setACCRegiterDeviceStatusFailureConnectionIssue, // Campaign에 대한 연결 문제, errorReasonACCCegierDeviceStatusFailureUnknownUUID, // 제공된 UUID(통합 키)가 
-    unknownACCRegiterDeviceStatusFailureUnexpirtedError // Error/ Campaid ErrorErrorServer
-    에서 Error가 반환됨, CampaignErrorErrorErrorErrorReason ErrorErrorErrorInvalid}, 오류, 오류, 오류CampaignErrorErrorInvalidInvalidInvalidInvalidServerInvalidInvalid/// registerDeviceStatus 위임
-    @protocol Neolane_SDKDelegate 
-    @optional
-     
-      &lt;nsobject>
-     
-    -(void) registerDeviceStatus에 대한 프로토콜을 정의합니다.(ACCRregisterDeviceStatus) 상태 :(NSString *) errorReason;
-    @end
-    @interface Neolane_SDK:NSObject {
-    }
-    ..
-    ...
-    // registerDeviceStatus 위임
-    @property (nonatomic, weak) id  &lt;neolane_sdkdelegate> 위임;
-    ...
-    ...
-    @end
-    &quot;
-    
-    registerDeviceStatus** 위임을 구현하려면 
-    
-    1 단계를 수행합니다. SDK 초기화 중에 **setDelegate**를 구현합니다.
-    
-    &quot;sql
-    / AppDelegate.m
-    ..
-    ...
-    - (BOOL)application:(UIApplication *)application didFinishLaunchWithOptions:(NSDictionary *)launchOptions
-    {
-    ...
-    ...
-    // 저장된 
-    
-    설정 가져오기NSUserDefaults *기본값 = [NSUserDefaultUserDefaults];
-    NSString *strMktHost = [defaults objectForKey:@&quot;mktHost&quot;];
-    NSString *strTckHost = [defaultsKey:@&quot;tckHost&quot;];
-    NSString *IntegrationKeyKey = Key&quot;];
-    userKey = [defaults objectForKey:@&quot;userKey&quot;];
-    
-    // 첫 번째 
-    실행 시 Campaign SDK 구성Neolane_SDK *nl = [Neolane_SDK getInstance];
-    [nl setMarketingHost:strMktHost];
-    [nl 설정TrackingHost:strCkHost];
-     
-    [nlIntegrationKey:strKey] 위임// 여기
-    ...
-    ...
-    }
-    &quot; 
-    
-    1. 클래스의 **@interface**에 프로토콜을 추가합니다.
-    
-    &quot;sql
-    / AppDelegate.h
-    
-    #import  &lt;uikit>
-    #import  &lt;corelocation>
-    #import &quot;Neolane_SDK.h&quot;
-    
-    @class LandingPageViewController;
-    
-    @interface AppDelegate :IResponder  &lt;uiapplicationdelegate> {
-    CLLocationManager *locationManager;
-    NSString *userKey;
-    문자열 *mktServerUrl;
-    NSString *tckServerUrl;
-    NSString *homeURL;
-    NSS tring *strLandingPageUrl;
-    NST;
-    NST 타이머;
-    }
-    
-    1. **AppDelegate**에서 대리자를 구현합니다.
-    
-    &quot;sql
-    / AppDelegate.m
-    
-    #import &quot;AppDelegate.h&quot;
-    #import &quot;Neolane_SDK.h&quot;
-    #import &quot;LandingPageViewController.h&quot;
-    #import &quot;RootViewController.h&quot;
-    ...
-    ...
-    - (void) registerDeviceStatus:(ACCRregisterDeviceStatus) 상태 :(NSString *) errorReason
-    {
-    NSLog(@&quot;registerStatus:%lu&quot;,status);
-    
-    if ( errorReason != nil )
-    NSLog(@&quot;errorReason:%@&quot;,errorReason);
-    
-    if( 상태 == ACCRegiterDeviceStatusSuccess )
-    {
-    // 등록 성공
-    ...
-    ..
-    }
-    다른 { // 오류가 발생했습니다
-    NSString *message;
-    스위치( 상태 ){
-    케이스 ACCReisterDeviceStatusFailureUnknownUUID:
-    message = @&quot;Unknown IntegrationKey (UUID)&quot;;
-    break;
-    사례 ACCRServerMarketingStatusStatusFailure HostnameEmpty:
-    message = @&quot;마케팅 URL이 설정되지 않았거나 비어 있지 않음&quot;;
-    break;
-    대/소문자 ACCRregisterDeviceStatusFailureIntegrationKeyEmpty:
-    message = @&quot;통합 키가 설정되지 않았거나 비어 있지 않음&quot;;
-    break;
-    사례 ACCERDeviceStatusFaiLURE/&lt;A2ConnectionIsSUE2 MESSAGE = [NSString stringWithFormat:@&quot;%@&quot;,@&quot;연결 문제:&quot;,errorReason];
-    break;
-    대/소문자 ACCRregisterDeviceStatusFailureUnexpirdError:
-    default:
-    message = [NSString stringWithFormat:@&quot;%@&quot;,@&quot;,@&quot;Error5%@&quot;,&lt;aBreak2ReasonReason&quot;;;
-    }
-    ..
-    ...
-    }
-    }
-    @end
-    &quot;
+   **Neolane_** SDKDelegateprotocol 및 registerDeviceStatusdelegate  **** 정의는 다음과 같습니다.
 
-    
-    
+   ```sql
+   //  Neolane_SDK.h
+   //  Campaign SDK
+   ..
+   .. 
+   // Register Device Status Enum
+   typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
+   ACCRegisterDeviceStatusSuccess,                               // Resistration Succeed
+   ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty,   // The Campaign marketing server hostname is Empty or not set
+   ACCRegisterDeviceStatusFailureIntegrationKeyEmpty,            // The integration key is empty or not set
+   ACCRegisterDeviceStatusFailureConnectionIssue,                // Connection issue with Campaign, more information in errorReason
+   ACCRegisterDeviceStatusFailureUnknownUUID,                    // The provided UUID (integration key) is unknown
+   ACCRegisterDeviceStatusFailureUnexpectedError                 // Unexpected error returned by Campaign server, more information in errorReason
+   };
+   // define the protocol for the registerDeviceStatus delegate
+   @protocol Neolane_SDKDelegate <NSObject>
+   @optional
+   - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason;
+   @end
+   @interface Neolane_SDK: NSObject {
+   } 
+   ...
+   ...
+   // registerDeviceStatus delegate
+   @property (nonatomic, weak) id <Neolane_SDKDelegate> delegate;
+   ...
+   ...
+   @end
+   ```
+
+   **registerDeviceStatus** 위임을 구현하려면 다음 단계를 수행합니다.
+
+   1. SDK 초기화 중에 **setDelegate**&#x200B;를 구현합니다.
+
+      ```sql
+      // AppDelegate.m
+      ...
+      ... 
+      - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+      {
+      ...
+      ...
+          // Get the stored settings
+      
+          NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+          NSString *strMktHost = [defaults objectForKey:@"mktHost"];
+          NSString *strTckHost = [defaults objectForKey:@"tckHost"];
+          NSString *strIntegrationKey = [defaults objectForKey:@"integrationKey"];
+          userKey = [defaults objectForKey:@"userKey"];
+      
+          // Configure Campaign SDK on first launch
+          Neolane_SDK *nl = [Neolane_SDK getInstance];
+          [nl setMarketingHost:strMktHost];
+          [nl setTrackingHost:strTckHost];
+          [nl setIntegrationKey:strIntegrationKey];
+          [nl setDelegate:self];    // HERE
+      ...
+      ...
+      }
+      ```
+
+   1. 클래스의 **@interface**&#x200B;에 프로토콜을 추가합니다.
+
+      ```sql
+      //  AppDelegate.h
+      
+      #import <UIKit/UIKit.h>
+      #import <CoreLocation/CoreLocation.h>
+      #import "Neolane_SDK.h"
+      
+      @class LandingPageViewController;
+      
+      @interface AppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate, Neolane_SDKDelegate> {
+          CLLocationManager *locationManager;
+          NSString *userKey;
+          NSString *mktServerUrl;
+          NSString *tckServerUrl;
+          NSString *homeURL;
+          NSString *strLandingPageUrl;
+          NSTimer *timer;
+      }
+      ```
+
+   1. **AppDelegate**&#x200B;에서 대리자를 구현합니다.
+
+      ```sql
+      //  AppDelegate.m
+      
+      #import "AppDelegate.h"
+      #import "Neolane_SDK.h"
+      #import "LandingPageViewController.h"
+      #import "RootViewController.h"
+      ...
+      ...
+      - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason
+      {
+          NSLog(@"registerStatus: %lu",status);
+      
+          if ( errorReason != nil )
+              NSLog(@"errorReason: %@",errorReason);
+      
+          if( status == ACCRegisterDeviceStatusSuccess )
+          {
+              // Registration successful
+              ...
+              ...
+          }
+          else { // An error occurred
+              NSString *message;
+              switch ( status ){
+                  case ACCRegisterDeviceStatusFailureUnknownUUID:
+                      message = @"Unkown IntegrationKey (UUID)";
+                      break;
+                  case ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty:
+                      message = @"Marketing URL not set or Empty";
+                      break;
+                  case ACCRegisterDeviceStatusFailureIntegrationKeyEmpty:
+                      message = @"Integration Key not set or empty";
+                      break;
+                  case ACCRegisterDeviceStatusFailureConnectionIssue:
+                      message = [NSString stringWithFormat:@"%@ %@",@"Connection issue:",errorReason];
+                      break;
+                  case ACCRegisterDeviceStatusFailureUnexpectedError:
+                  default:
+                      message = [NSString stringWithFormat:@"%@ %@",@"Unexpected Error",errorReason];
+                      break;
+              }
+          ...
+          ...
+          }
+      }
+      @end
+      ```
+
+
 ## 변수 {#variables}
 
 변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드와 Adobe Campaign 콘솔의 전용 모바일 애플리케이션 서비스의 **[!UICONTROL Variables]** 탭에서 정의해야 합니다.
