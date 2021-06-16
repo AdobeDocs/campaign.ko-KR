@@ -5,10 +5,10 @@ description: Campaign에서 푸시 알림 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: d45913ac1da7dc3a447fd27294256522b399f1d0
+source-git-commit: aa3f2f17981ad10221771b3a22c76f7a445b94c9
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 1%
+source-wordcount: '765'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,10 @@ Campaign SDK를 사용하면 모바일 애플리케이션을 Adobe Campaign 플�
 
 호환 가능한 SDK 버전은 [Campaign 호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK)에 나열되어 있습니다.
 
-[!DNL :arrow_upper_right:] 이 섹션에서 Campaign Android 및 iOS SDK를 앱과 통합하는  [방법을 알아봅니다](../config/push-config.md)
+<!--
+[!DNL :arrow_upper_right:] Learn how to integrate Campaign Android and iOS SDKs with your app in [this section](../config/push-config.md)
+-->
+
 
 ### Launch에서 Campaign 확장 구성
 
