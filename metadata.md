@@ -10,8 +10,8 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/campaign.ko-KR
 index: true
 source-git-commit: f11b26d1145e0762484bbdd63cfcdbce48941de6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '65'
+ht-degree: 100%
 
 ---
 
