@@ -8,15 +8,15 @@ level: Beginner
 hidefromtoc: true
 hide: true
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Campaign 컨트롤 패널
 
-아직 사용할 수 없음
+아직 사용 불가
 
 Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하고 설정을 관리하여 Adobe Campaign의 제품 관리자로서 작업 효율을 높일 수 있습니다. 컨트롤 패널의 직관적인 인터페이스를 활용하면 주요 자산의 사용을 손쉽게 모니터링할 수 있을 뿐만 아니라 허용 목록에 IP 주소 추가, SFTP 스토리지 모니터링, 키 관리 등의 관리 작업도 수행할 수 있습니다.
 
@@ -55,4 +55,4 @@ Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스
 * [인스턴스 세부 사항](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ko)
 * [GPG 키 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko)
 
-[!DNL :arrow_upper_right:] 이 설명서에서 모든 Campaign 컨트롤 패널  [기능을 살펴보십시오](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
+[!DNL :arrow_upper_right:] Campaign 컨트롤 패널의 모든 기능: [이 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
