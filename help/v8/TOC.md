@@ -8,7 +8,7 @@ title: Campaign v8 문서
 source-git-commit: d45913ac1da7dc3a447fd27294256522b399f1d0
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 80%
+ht-degree: 98%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 80%
 # Adobe Campaign v8 설명서 {#campaign-v8}
 
 + [Campaign v8 설명서](campaign-home.md)
-+ 새로운 기능? {#start}
++ 새로운 기능 {#start}
    + [주요 기능](start/whats-new.md)
    + [릴리스 정보](start/release-notes.md)
    + [알려진 제한 사항](start/known-limitations.md)
    + [Classic v7에서 v8로](start/capability-matrix.md)
 + 시작 {#start}
    + [시작](start/get-started.md)
-   + [프로필 및 대상](start/audiences.md)
+   + [프로필 및 대상자](start/audiences.md)
    + [데이터 가져오기](start/import.md)
    + [캠페인 만들기](start/campaigns.md)
    + [메시지 보내기](start/create-message.md)
@@ -46,15 +46,15 @@ ht-degree: 80%
    + [이메일](send/email.md)
    + [SMS](send/sms.md)
    + [푸시 알림](send/push.md)
-   + [LINE 메시징](send/line.md)
+   + [LINE 메시지 보내기](send/line.md)
    + [DM](send/direct-mail.md)
    + [트랜잭션 메시지 ](send/transactional.md)
    + 오퍼 추가{#interaction}
       + [상호 작용 시작](send/interaction.md)
       + 설정 정의{#interaction}
-         + [연산자 만들기](send/interaction-operators.md)
+         + [운영자 만들기](send/interaction-operators.md)
          + [환경 만들기](send/interaction-env.md)
-         + [미리 정의된 필터 만들기](send/interaction-predefined-filters.md)
+         + [사전 정의 필터 만들기](send/interaction-predefined-filters.md)
          + [오퍼 공간 만들기](send/interaction-offer-spaces.md)
       + [오퍼 카탈로그 만들기](send/interaction-offer-catalog.md)
       + [오퍼 만들기](send/interaction-offer.md)
@@ -72,7 +72,7 @@ ht-degree: 80%
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
    + [Campaign + Target](connect/ac-at.md)
-   + [Campaign + Experience Cloud 트리거](connect/ac-triggers.md)
+   + [Campaign - Experience Cloud 트리거](connect/ac-triggers.md)
    + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + 외부 데이터베이스](connect/fda.md)
@@ -80,10 +80,10 @@ ht-degree: 80%
 + 개발자 리소스 {#architecture}
    + [글로벌 원칙](dev/general-architecture.md)
    + [아키텍처](dev/architecture.md)
-   + [데이터모델](dev/datamodel.md)
+   + [데이터 모델](dev/datamodel.md)
    + 스키마 및 양식 {#shemas-forms}
       + [스키마 작업](dev/schemas.md)
-      + [키 관리 및 불편](dev/keys.md)
+      + [키 관리 및 독자성](dev/keys.md)
       + [스키마 만들기](dev/create-schema.md)
       + [스키마 확장](dev/extend-schema.md)
       + [스키마 구조](dev/schema-structure.md)
