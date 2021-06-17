@@ -6,7 +6,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 source-git-commit: 58632224858391f673dfdc87b49417d65b2f9b09
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 76%
+ht-degree: 89%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 76%
 
 ## 새로운 기능
 
-* **[ [!DNL Adobe Campaign]](start/get-started.md)**  소개 - 주요 기능 및 활용 사례
+* **[ [!DNL Adobe Campaign]](start/get-started.md)** 소개 - 주요 기능 및 활용 사례
 
 * **[v8의 새로운 기능](start/whats-new.md)** - Campaign v8 기능 자세히 알아보기
 
