@@ -16,7 +16,7 @@ Adobe 커뮤니티뿐만 아니라 문서 팀 외부 Adobe 직원으로부터의
 
 ## Adobe 콘텐츠에 대한 귀하의 기여도 정보
 
-[Adobe Docs 기여자 가이드](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
+[Adobe Docs 기여자 가이드](https://docs.adobe.com/content/help/ko/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 기여 방식은 기여자 및 다음과 같은 기여 하고자 하는 유형의 변경에 따라 달라집니다.
 
