@@ -9,7 +9,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6e
 source-git-commit: 619edce939b39430832fd950ece734f817f9dce3
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 68%
+ht-degree: 92%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 68%
 * **Salesfore** connector API 버전 49
 * **Microsoft Dynamics** connector, Web API: Dynamics 365 온프레미스 및 온라인
 
-### FDA (Federated Data Access){#FederatedDataAccessFDA}
+### FDA(Federated Data Access){#FederatedDataAccessFDA}
 
 * **Amazon Redshift**
 * **[!DNL Google Big Query]**
@@ -57,7 +57,7 @@ ht-degree: 68%
 
 ### 지원되는 브라우저 {#Browsers}
 
-다음 브라우저는 웹 액세스에 대한 Campaign과 호환됩니다.
+다음 브라우저는 웹 액세스용 Campaign과 호환됩니다.
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari**(최신 버전)
 
@@ -65,13 +65,13 @@ ht-degree: 68%
 
 ## Campaign 버전을 확인하는 방법 및 빌드
 
-**도움말 > 정보..** 메뉴를 사용하여 버전을 확인하십시오.
+**도움말 및 정보...** 메뉴를 사용하여 버전을 확인하세요.
 
 ![](assets/ac-version.png)
 
-다음 정보에 액세스합니다.
+확인할 수 있는 정보:
 
-* 클라이언트 콘솔 및 응용 프로그램 서버의 **버전** 번호입니다. 위의 샘플에서 버전은 클라이언트 콘솔과 애플리케이션 서버 모두에 대해 8.1.5입니다.
-* 괄호 사이의 SHA 번호입니다.
-* Adobe 고객 지원 센터에 문의하는 링크.
-* Adobe 개인 정보 보호 정책, 사용 약관 및 쿠키 정책에 대한 링크입니다.
+* Campaign 클라이언트 콘솔 및 애플리케이션 서버의 **버전**. 위의 샘플에서는 클라이언트 콘솔과 애플리케이션 서버 모두 다 버전 8.1.5입니다.
+* 괄호 사이에 있는 SHA 번호.
+* Adobe 고객 지원 센터 연락을 위한 링크.
+* Adobe 개인 정보 보호 정책, 사용 약관 및 쿠키 정책에 대한 링크.
