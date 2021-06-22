@@ -6,10 +6,10 @@ feature: 대상자
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 4bd67cd3e4e88015d8044f07ca95927b6d7867f3
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 1%
+source-wordcount: '280'
+ht-degree: 4%
 
 ---
 
@@ -27,14 +27,14 @@ Adobe Campaign에는 캠페인 관리자 또는 워크플로우 감독자와 같
 예를 들어 **배달 준비** 명명된 오른쪽의 **배달 연산자** 그룹의 구성원에 대해 게재 편집기의 **분석** 단추가 활성화됩니다
 
 * 폴더에 액세스
-운영자 그룹의 멤버십은 폴더의 보안 설정을 변경하여 폴더에 대한 액세스 권한을 부여하거나 제한할 수 있습니다. [자세한 내용은 Campaign Classic v7 설명서에서 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder). 예를 들어 영향을 줄 수 있습니다.**새 엔티티(예: 게재, 프로필 등)를 만들려면** 쓰기 액세스&#x200B;**엔티티를 사용하려면 읽기 액세스**, **액세스**&#x200B;삭제 엔티티를 삭제합니다.
+운영자 그룹의 멤버십은 폴더의 보안 설정을 변경하여 폴더에 대한 액세스 권한을 부여하거나 제한할 수 있습니다. [자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target=&quot;_blank&quot;}에서 알아보십시오. 예를 들어 영향을 줄 수 있습니다.**새 엔티티(예: 게재, 프로필 등)를 만들려면** 쓰기 액세스&#x200B;**엔티티를 사용하려면 읽기 액세스**, **액세스**&#x200B;삭제 엔티티를 삭제합니다.
 
-**자세한** 내용은 Campaign Classic v7 설명서를 참조하십시오.
+**Campaign Classic v7 설명서에서 자세히 알아보기:**
 
-[!DNL :arrow_upper_right:] [기본 제공 명명된 권한](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html)
+[!DNL :arrow_upper_right:] [기본 제공 명명된 권한](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [기본 제공 연산자 그룹](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups)
+[!DNL :arrow_upper_right:] [내장 연산자 그룹](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [권한 설정 단계](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html)
+[!DNL :arrow_upper_right:] [권한](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html) 설정 단계{target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [폴더의 보안 설정입니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder).
+[!DNL :arrow_upper_right:] [폴더](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target=&quot;_blank&quot;}에 대한 보안 설정
