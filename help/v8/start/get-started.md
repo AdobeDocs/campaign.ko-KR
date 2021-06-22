@@ -6,10 +6,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 97%
+source-wordcount: '900'
+ht-degree: 95%
 
 ---
 
@@ -92,9 +92,9 @@ Campaign 작업 영역은 [클라이언트 콘솔](../dev/general-architecture.m
 
 Campaign 작업 영역은 필요에 따라 조정할 수 있습니다.
 
-[!DNL :arrow_upper_right:] Campaign 작업 영역을 사용하는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ko)
+[!DNL :arrow_upper_right:] Campaign 작업 영역을 사용하는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ko){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] 목록을 사용자 정의하는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=ko)
+[!DNL :arrow_upper_right:]   [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=ko){target=&quot;_blank&quot;}에서 목록을 사용자 지정하는 방법을 배웁니다.
 
 일부 기능은 웹을 통해 액세스할 수도 있습니다.
 
@@ -117,7 +117,7 @@ Campaign v8 사용자 인터페이스 제공 언어:
 >
 >인스턴스를 만든 후에는 언어를 변경할 수 없습니다.
 
-날짜 및 시간 표시 방식도 언어에 따라 달라집니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ko#date-and-time)를 참조하세요.
+날짜 및 시간 표시 방식도 언어에 따라 달라집니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ko#date-and-time){target=&quot;_blank&quot;}를 참조하십시오.
 
 **참조 -**
 
