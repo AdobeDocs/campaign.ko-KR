@@ -6,10 +6,10 @@ feature: 프로필
 role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 79%
 
 ---
 
@@ -22,17 +22,17 @@ Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 
 
 ## 워크플로우에서 프로필 가져오기
 
-프로필 가져오기는 **가져오기** 활동을 통해 워크플로우를 통해 실행되는 전용 템플릿에서 구성됩니다. 일정에 따라 자동으로 반복될 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html?lang=ko)를 참조하세요.
+프로필 가져오기는 **가져오기** 활동을 통해 워크플로우를 통해 실행되는 전용 템플릿에서 구성됩니다. 일정에 따라 자동으로 반복될 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html?lang=ko){target=&quot;_blank&quot;}를 참조하십시오.
 
 ![](assets/import-wf.png)
 
 Campaign Classic v7 설명서에서 자세히 알아보기:
 
-[!DNL :arrow_upper_right:] [가져오기 및 내보내기 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=ko)
+[!DNL :arrow_upper_right:] [가져오기 및 내보내기 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=ko){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [가져오기 및 내보내기 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=ko)
+[!DNL :arrow_upper_right:] [가져오기 및 내보내기 우수](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=ko) 사례{target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [가져오기 구성 및 실행](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=ko)
+[!DNL :arrow_upper_right:] [가져오기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=ko){target=&quot;_blank&quot;} 구성 및 실행
 
 ## 단일 가져오기 실행
 
@@ -40,7 +40,7 @@ Campaign Classic v7 설명서에서 자세히 알아보기:
 
 ![](assets/new-import.png)
 
-[!DNL :arrow_upper_right:]단일 가져오기 작업을 실행하여 데이터베이스에 데이터를 보충하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ko)를 참조하세요.
+[!DNL :arrow_upper_right:] 단일 가져오기 작업을 실행하여  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ko){target=&quot;_blank&quot;}에서 데이터베이스를 제공하는 방법을 알아봅니다.
 
 ## 웹 앱을 통해 프로필 수집
 
@@ -48,10 +48,10 @@ Campaign을 사용하여 웹 양식을 만들고 쉽고 효율적으로 프로�
 
 ![](assets/web-form-page.png)
 
-[!DNL :arrow_upper_right:] 웹 양식을 만드는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ko)를 참조하세요.
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ko){target=&quot;_blank&quot;}에서 웹 양식을 만드는 방법을 알아봅니다.
 
 **관련 항목**
 
 * [대상자 만들기](audiences.md)
-* [프로필 중복 제거](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=ko)
-* [프로필 데이터 강화](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html?lang=ko)
+* [프로필](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=ko) 중복 제거{target=&quot;_blank&quot;}
+* [프로필 데이터](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html?lang=ko){target=&quot;_blank&quot;} 보강
