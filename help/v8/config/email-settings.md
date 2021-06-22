@@ -5,10 +5,10 @@ description: Campaign 전자 메일 채널 설정
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 6%
+source-wordcount: '290'
+ht-degree: 4%
 
 ---
 
@@ -41,14 +41,14 @@ Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 선택�
 **Campaign Classic** v7 설명서의 관련 항목:
 
 
-[!DNL :arrow_upper_right:] [미러 페이지 생성](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page)
+[!DNL :arrow_upper_right:] [미러 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page){target=&quot;_blank&quot;}를 생성합니다.
 
-[!DNL :arrow_upper_right:] [전자 메일 형식 선택](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats)
+[!DNL :arrow_upper_right:] [전자 메일 형식](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats) {target=&quot;_blank&quot;} 선택
 
-[!DNL :arrow_upper_right:] [문자 인코딩 선택](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding)
+[!DNL :arrow_upper_right:] [문자 인코딩](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding){target=&quot;_blank&quot;} 선택
 
-[!DNL :arrow_upper_right:] [바운스 이메일 주소 설정](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails)
+[!DNL :arrow_upper_right:] [바운스 전자 메일 주소](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails){target=&quot;_blank&quot;} 설정
 
-[!DNL :arrow_upper_right:] [이메일 게재 템플릿 사용](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko)
+[!DNL :arrow_upper_right:] [전자 메일 게재 템플릿](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko) 사용{target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [게재 실패 이해](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html)
+[!DNL :arrow_upper_right:] [게재 실패](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html) 이해{target=&quot;_blank&quot;}
