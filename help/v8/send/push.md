@@ -5,10 +5,10 @@ description: Campaign에서 푸시 알림 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: aa3f2f17981ad10221771b3a22c76f7a445b94c9
+source-git-commit: 3aed82c4c054b45b7e1d90082dee6af7ba02ea69
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 2%
+source-wordcount: '714'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합
 1. 애플리케이션의 iOS 및 Android 버전을 이 서비스에 추가합니다.
 1. iOS 및 Android 모두에 대한 게재를 만듭니다.
 
-[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 모바일 앱을 시작하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html)
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target=&quot;_blank&quot;}에서 모바일 앱을 시작하는 방법을 알아봅니다
 
 ## Adobe SDK와 통합
 
@@ -33,30 +33,25 @@ Campaign SDK를 사용하면 모바일 애플리케이션을 Adobe Campaign 플�
 
 호환 가능한 SDK 버전은 [Campaign 호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK)에 나열되어 있습니다.
 
-<!--
-[!DNL :arrow_upper_right:] Learn how to integrate Campaign Android and iOS SDKs with your app in [this section](../config/push-config.md)
--->
-
+[!DNL :bulb:] 이 섹션에서 Campaign Android 및 iOS SDK를 앱과 통합하는  [방법을 알아봅니다](../config/push-config.md)
 
 ### Launch에서 Campaign 확장 구성
 
 Campaign Classic 확장을 활용하여 Adobe Experience Platform Launch SDK를 Campaign과 통합할 수 있습니다.
 
-[!DNL :arrow_upper_right:] 자세한 내용은  [Adobe Mobile SDK 문서에서 알아보십시오](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic)
+[!DNL :arrow_upper_right:] 자세한 내용은  [Adobe Mobile SDK 설명서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}에서 알아보십시오
 
 ## Campaign에서 앱 설정 구성
 
 Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
 
-[!DNL :arrow_upper_right:] iOS에 대한 구성 지침은  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages)
+[!DNL :arrow_upper_right:] iOS에 대한 구성 지침은  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages){target=&quot;_blank&quot;}에 자세히 설명되어 있습니다
 
-[!DNL :arrow_upper_right:] Android에 대한 구성 지침은  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages)
+[!DNL :arrow_upper_right:] Android에 대한 구성 지침은  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages){target=&quot;_blank&quot;}에 자세히 설명되어 있습니다
 
 ## 첫 번째 푸시 알림 만들기
 
 이 섹션에서는 iOS 및 Android 알림 게재와 관련된 요소에 대해 자세히 설명합니다.
-
-[!DNL :arrow_upper_right:] 푸시 알림을 만드는 모든 단계는  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en)
 
 >[!CAUTION]
 >
@@ -66,7 +61,7 @@ Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
 
 ![](assets/delivery_step_1.png)
 
-[!DNL :arrow_upper_right:] 게재를 만드는 방법에 대한 글로벌 정보는  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages)를 참조하십시오.
+[!DNL :arrow_upper_right:] 게재를 만드는 방법에 대한 글로벌 정보는  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target=&quot;_blank&quot;}를 참조하십시오
 
 ### iOS에서 알림 보내기 {#send-notifications-on-ios}
 
@@ -102,7 +97,6 @@ Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
 
    ![](assets/push-ios-preview.png)
 
-[!DNL :arrow_upper_right:] iOS에서 푸시 알림을 만들고 전송하는 자세한 단계는  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-ios)
 
 ### Android {#send-notifications-on-android}에서 알림 보내기
 
@@ -130,22 +124,20 @@ Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
 
    <!--![](assets/push-android-preview.png)-->
 
-[!DNL :arrow_upper_right:] Android에서 푸시 알림을 만들고 전송하는 자세한 단계는  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-android)
-
 ## 푸시 알림 테스트, 전송 및 모니터링
 
-증명을 보내고 최종 게재를 보내려면 이메일 게재와 동일한 프로세스를 사용합니다. 자세한 내용은 Campaign Classic v7 설명서를 참조하십시오.
+증명을 보내고 최종 게재를 보내려면 이메일 게재와 동일한 프로세스를 사용합니다. Campaign Classic v7 설명서에서 자세히 알아보기:
 
 * 게재 유효성 검사 및 증명 보내기
-   [!DNL :arrow_upper_right:] [게재의 유효성을 검사하는 주요 단계를 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+   [!DNL :arrow_upper_right:] [게재{target=&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)_blank&quot;} 유효성 검사를 위한 주요 단계를 배웁니다.
 
 * 게재 확인 및 보내기
-   [!DNL :arrow_upper_right:] [게재를 보내는 주요 단계를 배웁니다.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en)
+   [!DNL :arrow_upper_right:] [게재](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en){target=&quot;_blank&quot;}를 보내는 주요 단계를 배웁니다.
 
-메시지를 보낸 후 게재를 모니터링하고 추적할 수 있습니다. 자세한 내용은 Campaign Classic v7 설명서를 참조하십시오.
+메시지를 보낸 후 게재를 모니터링하고 추적할 수 있습니다. Campaign Classic v7 설명서에서 자세히 알아보기:
 
 * 푸시 알림 격리
-   [!DNL :arrow_upper_right:] [푸시 알림 격리에 대한 자세한 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines)
+   [!DNL :arrow_upper_right:] [푸시 알림 격리에 대한 자세한 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines){target=&quot;_blank&quot;}
 
 * 문제 해결
-   [!DNL :arrow_upper_right:] [푸시 알림 문제 해결 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en)
+   [!DNL :arrow_upper_right:] [푸시 알림](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en) 문제 해결 방법 알아보기{target=&quot;_blank&quot;}
