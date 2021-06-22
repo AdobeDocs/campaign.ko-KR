@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 619edce939b39430832fd950ece734f817f9dce3
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1289'
 ht-degree: 1%
 
 ---
@@ -797,7 +797,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드와 Adobe Campaign 콘솔의 전용 모바일 애플리케이션 서비스의 **[!UICONTROL Variables]** 탭에서 정의해야 합니다.
 
-[!DNL :arrow_upper_right:] 모바일 앱에 대한  **Campaign Classic v7** 설명서에서 자세히 알아보십시오. [Android용 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html) iOS 및  [구성 단계에 대한 구성 단계](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html).
+[!DNL :arrow_upper_right:] 모바일 앱에 대한  **Campaign Classic v7** 설명서에서 자세히 알아보십시오. [iOS ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} 및 Android에 대한  [구성 단계](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
 
 다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있도록 하는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
 
