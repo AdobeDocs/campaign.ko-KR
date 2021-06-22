@@ -5,9 +5,9 @@ description: Campaign 외부 계정
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: ff2c49a2b4f22cde7ebb798d9f565e133c0268fc
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1013'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,7 @@ Adobe Campaign **[!UICONTROL Explorer]**&#x200B;에서 외부 계정에 액세�
 
    **바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일을 받을 수 있습니다.
 
-   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 인바운드 이메일에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html)
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;}에서 인바운드 전자 메일에 대해 자세히 알아보십시오
 
 * **라우팅**
 
@@ -145,7 +145,7 @@ Adobe Campaign **[!UICONTROL Explorer]**&#x200B;에서 외부 계정에 액세�
 
 이러한 외부 계정은 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보내는 데 사용할 수 있습니다.
 
-[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 워크플로우의 파일 전송에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)
+[!DNL :arrow_upper_right:] 워크플로우의 파일 전송에 대해 자세히 알아보기  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html){target=&quot;_blank&quot;}
 
 * **FTP 및 SFTP**
 
