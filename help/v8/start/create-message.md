@@ -6,10 +6,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 97%
+source-wordcount: '644'
+ht-degree: 83%
 
 ---
 
@@ -43,24 +43,28 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 
    ![](assets/send-email.png)
 
-   [!DNL :arrow_upper_right:] [메시지 전송 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=ko)
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=ko){target=&quot;_blank&quot;}에서 메시지를 보내는 방법을 알아봅니다
+
 * [마케팅 캠페인](campaigns.md)에 연결된 메시지 보내기
 
    ![](assets/deliveries-in-a-campaign.png)
 
-   [!DNL :arrow_upper_right:] [캠페인 컨텍스트에 맞춘 메시지를 보내는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=ko).
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=ko){target=&quot;_blank&quot;}에서 캠페인 컨텍스트에서 메시지를 보내는 방법을 알아봅니다
+
 * [워크플로우](../config/workflows.md)를 통해 메시지 보내기
 
    ![](assets/send-in-a-wf.png)
 
-   [!DNL :arrow_upper_right:] [이메일 게재 자동화 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=ko)
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=ko){target=&quot;_blank&quot;}에서 전자 메일 게재를 자동화하는 방법을 알아봅니다
+
 * 이벤트를 통한 [메시지 트리거](../send/transactional.md)
-   [!DNL :arrow_upper_right:] [사용 사례:파일을 첨부한 트랜잭션 이메일을 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en)
+   [!DNL :arrow_upper_right:] [사용 사례:파일을 첨부한 트랜잭션 이메일을 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en){target=&quot;_blank&quot;}
+
 * 메시지 예약
 
    ![](assets/schedule-send.png)
 
-   [!DNL :arrow_upper_right:] [사용 사례:생일 축하 이메일을 예약하고 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=ko)
+   [!DNL :arrow_upper_right:] [사용 사례:생일 축하 이메일을 예약하고 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=ko){target=&quot;_blank&quot;}
 
 
 ## 개인화 추가
@@ -70,11 +74,11 @@ Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화�
 다음을 수행할 수 있습니다.
 
 * 동적 개인화 필드를 삽입합니다.
-   [!DNL :arrow_upper_right:] 개인화 필드를 사용하는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=ko)
+   [!DNL :arrow_upper_right:] 개인화 필드를 사용하는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=ko){target=&quot;_blank&quot;}
 * 사전 정의된 개인화 블록을 삽입합니다.
-   [!DNL :arrow_upper_right:] 개인화 블록의 정의 및 사용 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=ko)
+   [!DNL :arrow_upper_right:] 개인화 블록의 정의 및 사용 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=ko){target=&quot;_blank&quot;}
 * 조건부 콘텐츠를 만듭니다.
-   [!DNL :arrow_upper_right:] 조건부 콘텐츠를 삽입하는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=ko)
+   [!DNL :arrow_upper_right:] 조건부 콘텐츠를 삽입하는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=ko){target=&quot;_blank&quot;}
 
 ## 트랜잭션 메시지를 보냅니다.
 
@@ -84,19 +88,19 @@ Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화�
 
 [!DNL :bulb:] 트랜잭션 메시지를 구성하고 보내는 자세한 단계: [이 페이지](../send/transactional.md)
 
-[!DNL :arrow_upper_right:] 이 기능의 엔드 투 엔드 활용 사례: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en)
+[!DNL :arrow_upper_right:] 이 기능의 엔드 투 엔드 활용 사례: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ko){target=&quot;_blank&quot;}
 
 ## 게재 및 추적 로그
 
 메시지를 게재한 후 마케팅 캠페인이 효율적이고 고객에게 도달하는지 확인하는 데 있어 게재 모니터링은 중요한 단계입니다. 게재 후 모니터링은 물론 게재 실패와 검역된 메시지가 어떻게 관리되는지 파악할 수 있습니다.
 
-[!DNL :arrow_upper_right:] [게재 모니터링 방법 자세히 알아보기: 이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ko#sending-messages)
+[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html#sending-messages){target=&quot;_blank&quot;}에서 게재를 모니터링하는 방법을 알아봅니다
 
 
-**관련 항목**
+**Campaign Classic** v7 설명서의 관련 항목:
 
-[!DNL :arrow_upper_right:]  [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=ko)
+[!DNL :arrow_upper_right:]  [게재 우수 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=ko){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:]  [이메일 테스트 및 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
+[!DNL :arrow_upper_right:]  [전자 메일](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target=&quot;_blank&quot;} 테스트 및 보내기
 
-[!DNL :arrow_upper_right:]  [증명 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko)
+[!DNL :arrow_upper_right:]  [증명](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko) 보내기{target=&quot;_blank&quot;}
