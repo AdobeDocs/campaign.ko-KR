@@ -6,9 +6,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: 983b3cfc2f1569cd071848805e6b6b3411b4d6c6
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Adobe Campaign은 이 페이지에 나열된 보고 도구 세트를 제공합�
 
    ![](assets/built-in-reports.png)
 
-   [!DNL :arrow_upper_right:] 캠페인 기본 제공 보고서는  [Campaign Classic v7 설명서에 나와 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html)
+   [!DNL :arrow_upper_right:] 캠페인 기본 제공 보고서는  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html){target=&quot;_blank&quot;}에 나와 있습니다
 
 * **설명 데이터 분석**
 
@@ -37,13 +37,13 @@ Adobe Campaign은 이 페이지에 나열된 보고 도구 세트를 제공합�
 
    ![](assets/desc-analysis-report.png)
 
-   [!DNL :arrow_upper_right:] 캠페인 설명 분석 보고는  [Campaign Classic v7 설명서에 나와 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html)
+   [!DNL :arrow_upper_right:] 캠페인 설명 분석 보고는  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}에 나와 있습니다
 
 * **개인화된 보고서**
 
    Adobe Campaign을 사용하여 데이터베이스의 데이터에 대한 보고서를 만듭니다. 생성된 후에는 적절한 컨텍스트에서 액세스할 수 있도록 합니다.
 
-   [!DNL :arrow_upper_right:] 보고서를 만드는 단계는  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html). 개인화된 보고서 생성은 고급 사용자에게 예약됩니다.
+   [!DNL :arrow_upper_right:] 보고서를 만드는 단계는  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target=&quot;_blank&quot;}에 자세히 설명되어 있습니다. 개인화된 보고서 생성은 고급 사용자에게 예약됩니다.
 
 * **큐브**
 
@@ -53,7 +53,7 @@ Adobe Campaign은 이 페이지에 나열된 보고 도구 세트를 제공합�
 
    쿼리, 계산 및 볼륨의 복잡성에 따라 이러한 보고서에서 분석된 데이터를 쿼리를 통해 수집하고 목록(데이터 관리 유형 워크플로우)이나 큐브(Marketing Analytics 사용)에서 미리 집계할 수 있습니다. 피벗 테이블 또는 그룹 목록의 형태로 표시됩니다.
 
-   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서에서 큐브를 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html)
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html){target=&quot;_blank&quot;}에서 큐브를 만드는 방법을 알아봅니다
 
 
 Adobe Campaign 보고서는 Campaign Classic v7보다 최적화되어 있으며 더 나은 확장 기능을 제공합니다. 큐브에 대한 기존 제한 사항은 적용되지 않습니다.
