@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 619edce939b39430832fd950ece734f817f9dce3
-workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '277'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 
 ### 클라이언트 콘솔{#ClientConsoleoperatingsystems}
 
-:경고:Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
+:warning: Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다.
 
 **운영 체제**
 
@@ -52,8 +52,8 @@ ht-degree: 92%
 
 ### 모바일 SDK{#MobileSDK}
 
-* **Android** 7.x, 8.x, 9.0(Campaign Android SDK 빌드 1.1.1 포함)
-* **Apple iOS** 9 - 14와 Campaign iOS SDK 빌드 1.0.26는 32비트 및 64비트 버전과 호환됩니다.
+* **Android** 7.x, 8.x, 9.0(Campaign Android SDK 빌드 1.1.1 포함).
+* **Apple iOS** 9 - 14(Campaign iOS SDK 빌드 1.0.26 포함)는 32비트 및 64비트 버전과 호환됩니다.
 
 ### 지원되는 브라우저 {#Browsers}
 
