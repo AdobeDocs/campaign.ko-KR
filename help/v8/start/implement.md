@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호법 및 수�
 
 * **데이터 수집**: Adobe Campaign을 사용하면 개인 및 중요 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다. 자세히 알아보기: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#data-acquisition)
 
-* **사용자 동의 및 데이터 유지**: 사용자 동의를 얻는 방법, 이중 옵트인 구독 메커니즘을 설정하는 방법, 옵트아웃을 용이하게 하는 방법, 데이터 유지를 구성하는 방법에 대해 [Campaign Classic 개인 정보 보호 문서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#consent)에서 살펴봅니다.
+* **사용자 동의 및 데이터 보존**: 사용자 동의를 얻는 방법, 이중 옵트인 구독 메커니즘을 설정하는 방법, 옵트아웃을 용이하게 하는 방법, 데이터 유지를 구성하는 방법에 대해 [Campaign Classic 개인 정보 보호 문서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#consent)에서 살펴봅니다.
 
-* **개인 정보 보호 및 데이터 보호 규정**:유럽 연합의 GDPR(General Data Protection Regulation), CCPA(California Consumer Privacy Act) 및 기타 국제 개인 정보 보호 요구 사항과 이러한 규정이 조직 및 Adobe Campaign에 미치는 영향에 대한 자세한 내용은  [Campaign Classic 개인 정보 보호 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko){target=&quot;_blank&quot;}를 참조하십시오.
+* **개인 정보 보호 및 데이터 보호 규정**: 유럽 연합의 GDPR(General Data Protection Regulation), CCPA(California Consumer Privacy Act) 및 기타 국제 개인 정보 보호 요구 사항에 대한 정보와 이러한 규정이 조직 및 Adobe Campaign에 미치는 영향에 대한 자세한 내용은 [Campaign Classic privacy documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko){target=&quot;_blank&quot;}을 참조하십시오.
 
 ### 보안
 
@@ -52,7 +52,7 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호법 및 수�
 
 수동으로 Campaign에 사용자를 추가하고 역할 계층 구조에 맞게 그룹과 연결할 수 있습니다. 그러면 사용자는 로그인하여 자신에게 적합한 데이터와 권한에 액세스할 수 있습니다.
 
-[!DNL :arrow_upper_right:] Adobe Campaign에 사용자를 추가하는 방법 [을 이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ko#getting-started){target=&quot;_blank&quot;}에서 알아봅니다.
+[이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ko#getting-started){target=&quot;_blank&quot;}에서 [!DNL :arrow_upper_right:]Adobe Campaign에 사용자를 추가하는 방법을 알아봅니다.
 
 ### Campaign 클라이언트 콘솔 설치
 
@@ -80,7 +80,7 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호법 및 수�
 
    [!DNL :arrow_upper_right:] [이메일 템플릿 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=ko#orchestrating-campaigns){target=&quot;_blank&quot;}에서 캠페인 템플릿으로 작업하는 방법을 알아봅니다
+   Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=ko#orchestrating-campaigns)에서[!DNL :arrow_upper_right:]Campaign 템플릿으로 작업하는 방법을 알아봅니다. [{target=&quot;_blank&quot;}
 
    [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=ko#workflow-templates){target=&quot;_blank&quot;}에서 워크플로우 템플릿을 구성하는 방법을 알아봅니다
 
@@ -88,7 +88,7 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호법 및 수�
 
    캠페인 유형 규칙을 활용하여 게재 전송을 필터링, 제어 및 모니터링할 수 있습니다. 예를 들어, 피로 규칙은 수신자의 과도한 요청을 방지하기 위해 메시지 빈도와 양을 제어합니다. 구현되면 게재에서 유형 규칙을 참조합니다.
 
-   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=ko#orchestrating-campaigns){target=&quot;_blank&quot;}에서 유형화 및 피로 관리에 대해 자세히 알아보십시오
+   [!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=ko#orchestrating-campaigns){target=&quot;_blank&quot;}에서 유형화 및 피로 관리에 대해 자세히 알아봅니다
 
 1. Campaign의 내장 데이터 모델 익히기
 
