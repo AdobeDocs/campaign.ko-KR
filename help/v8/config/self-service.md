@@ -8,9 +8,9 @@ level: Beginner
 hidefromtoc: true
 hide: true
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스
 
 하위 도메인 및 해당 인증서를 모니터링할 수 있습니다. 자세히 알아보기:
 * [하위 도메인 브랜딩](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko){target=&quot;_blank&quot;}
-* [새 하위 도메인 ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko){target=&quot;_blank&quot;} 설정
+* [새 하위 도메인 설정](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko){target=&quot;_blank&quot;}
 * [SSL 인증서 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ko){target=&quot;_blank&quot;}
 
 ## 인스턴스 설정
@@ -55,4 +55,4 @@ Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스
 * [인스턴스 세부 정보](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ko){target=&quot;_blank&quot;}
 * [GPG 키 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:]  [{target=&quot;_blank&quot;}](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko) 설명서의 모든 Campaign 컨트롤 패널 기능 검색
+[이 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target=&quot;_blank&quot;}에서 [!DNL :arrow_upper_right:]모든 Campaign 컨트롤 패널의 기능을 살펴봅니다.
