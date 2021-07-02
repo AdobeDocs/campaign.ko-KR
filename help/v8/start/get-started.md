@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '900'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ Adobe Campaign에서 수신자는 게재(전자 메일, SMS 등)를 보낼 타�
 
 [!DNL :bulb:] Campaign에 프로필을 추가하는 방법은 [이 섹션](import.md)에서 알아봅니다.
 
-## 타겟팅된 세분화 {#targeted-segmentation}
+## 타기팅된 세분화 {#targeted-segmentation}
 
-Adobe Campaign은 고도로 타겟팅되고 차별화된 오퍼를 만들 수 있는 강력하고 사용자 친화적인 세분화 및 타겟팅 기능을 제공합니다. 설명 분석 기능을 사용하면 마케팅 캠페인의 업스트림 및 다운스트림에 대한 정보를 분석할 수 있으며 필터 관리 및 그래픽 쿼리 편집기 기능을 사용하면 구독자 모집단을 필터링하고 기준을 제한 없이 대상 그룹을 샘플링하거나 만들 수 있습니다.
+Adobe Campaign은 고도로 타기팅되고 차별화된 오퍼를 만들 수 있는 강력하고 사용자 친화적인 세분화 및 타기팅 기능을 제공합니다. 설명 분석 기능을 사용하면 마케팅 캠페인의 업스트림 및 다운스트림에 대한 정보를 분석할 수 있으며 필터 관리 및 그래픽 쿼리 편집기 기능을 사용하면 구독자 모집단을 필터링하고 기준을 제한 없이 대상 그룹을 샘플링하거나 만들 수 있습니다.
 
 고급 데이터 관리 기능은 데이터 처리 기능을 확장합니다. 데이터 마트에서 모델링되지 않은 데이터를 포함하여 타겟팅 프로세스를 단순화하고 최적화합니다.
 
@@ -78,7 +78,7 @@ Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 
 
 ## Campaign 기능에 대한 자세한 정보 {#core-capabilities-and-add-ons}
 
-Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 기능을 구현하고 최적화하는 데 도움이 되는 기능의 집합을 제공합니다. 일부는 핵심 기능이며 일부는 패키지 설치 및 구성에 따라 다릅니다. 자세한 제품 설명은 [Adobe Campaign v8 제품 설명](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)에 나와 있습니다.
+Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 기능을 구현하고 최적화하는 데 도움이 되는 기능의 집합을 제공합니다. 일부는 핵심 기능이며 일부는 패키지 설치 및 구성에 따라 다릅니다. 자세한 제품 설명은 [Adobe Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)에 나와 있습니다.
 
 [!DNL :bulb:]: Campaign Classic에 대해 이미 잘 알고 계신가요? [이 페이지](capability-matrix.md)에서 Campaign Classic과 Campaign v8 간의 주요 차이점을 알아봅니다.
 
@@ -94,7 +94,7 @@ Campaign 작업 영역은 필요에 따라 조정할 수 있습니다.
 
 [!DNL :arrow_upper_right:] Campaign 작업 영역을 사용하는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ko){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:]   [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=ko){target=&quot;_blank&quot;}에서 목록을 사용자 지정하는 방법을 배웁니다.
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=ko){target=&quot;_blank&quot;}에서 [!DNL :arrow_upper_right:] 목록을 사용자 지정하는 방법을 알아봅니다
 
 일부 기능은 웹을 통해 액세스할 수도 있습니다.
 
@@ -119,8 +119,8 @@ Campaign v8 사용자 인터페이스 제공 언어:
 
 날짜 및 시간 표시 방식도 언어에 따라 달라집니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ko#date-and-time){target=&quot;_blank&quot;}를 참조하십시오.
 
-**참조 -**
+**또한 다음을 참조하십시오**
 
-* [Campaign v8 호환성 매트릭스](compatibility-matrix.md)
+* [Campaign v8 호환성 표](compatibility-matrix.md)
 * [Campaign에 연결](connect.md)
 * [FAQ](campaign-faq.md)
