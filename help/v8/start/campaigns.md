@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '746'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 
    [!DNL :arrow_upper_right:] 캠페인 템플릿을 사용한 작업 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=ko#orchestrating-campaigns){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:] 반복 캠페인과  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=ko#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}에서 해당 캠페인을 구성하는 방법을 알아봅니다
+   [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=ko#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}에서 [!DNL :arrow_upper_right:]반복 캠페인과 이를 구성하는 방법을 살펴봅니다.
 
 1. **대상 정의**
 
