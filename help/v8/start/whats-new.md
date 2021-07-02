@@ -7,15 +7,15 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '455'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Adobe Campaign v8의 새로운 기능 {#ac-gs-what-is-new}
+# Adobe Campaign v8의 새로운 기능은 무엇입니까? {#ac-gs-what-is-new}
 
-Adobe Campaign v8은 인프라, 보안, 제공 및 모니터링 기능이 상당히 개선되었습니다. Adobe Campaign은 클라우드 데이터베이스 기술인 [[!DNL Snowflake]](https://www.snowflake.com/)를 활용함으로써 그 규모와 속도를 크게 향상시켜 훨씬 더 많은 수의 고객 프로필을 관리할 수 있을 뿐만 아니라 시간 당 훨씬 더 높은 게재율과 트랜잭션 처리량을 제공합니다.
+Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상당히 개선되었습니다. Adobe Campaign은 클라우드 데이터베이스 기술인 [[!DNL Snowflake]](https://www.snowflake.com/)를 활용함으로써 그 규모와 속도를 크게 향상시켜 훨씬 더 많은 수의 고객 프로필을 관리할 수 있을 뿐만 아니라 시간 당 훨씬 더 높은 게재율과 트랜잭션 처리량을 제공합니다.
 
 주요 기능은 다음과 같습니다.
 
@@ -45,7 +45,7 @@ Campaign v8은 타기팅에서 최종 보고에 이르기까지 프로세스의 
 
 ## 간소화 및 성능 향상
 
-Campaign v8은 **전체 Federated Data Access** (FFDA)의 개념을 가져옵니다.이제 모든 데이터가 클라우드 데이터베이스에서 원격입니다.
+Campaign v8은 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다.
 
 Campaign v8은 이 새로운 아키텍처를 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 표를 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다.
 
@@ -55,7 +55,7 @@ Campaign v8은 이 새로운 아키텍처를 통해 데이터 관리를 간소�
 
 ## 통합 에코시스템
 
-Campaign을 다음과 같은 강력한 Adobe 솔루션 세트와 통합할 수 있습니다.Adobe Analytics, Adobe Journey Orchestration, 실시간 CDP 등
+Adobe Analytics, Adobe Journey Orchestration, Real-Time CDP와 같은 강력한 Adobe 솔루션 세트와 Campaign을 통합할 수 있습니다. 
 
 또한 고객 여정 AI를 통해 예측 전송 시간 최적화 및 예측 참여 점수를 구성할 수 있고 열람률, 클릭 수 및 매출을 높일 수 있습니다.
 
