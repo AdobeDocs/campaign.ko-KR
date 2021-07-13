@@ -5,7 +5,7 @@ description: 오퍼 관리 운영자 만들기
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 1%
@@ -13,18 +13,18 @@ ht-degree: 1%
 ---
 
 
-# 연산자 프로필 {#operator-profiles}
+# 운영자 프로필 {#operator-profiles}
 
-두 가지 유형의 연산자가 캠페인 상호 작용을 사용할 수 있습니다.**오퍼 관리자** 및 **배달 관리자**&#x200B;입니다. 각 페이지에는 특정 권한 및 제한 사항이 있습니다. [이 페이지](../start/permissions.md)에서 Campaign 연산자 및 권한에 대해 자세히 알아보십시오.
+두 가지 유형의 연산자가 캠페인 상호 작용을 사용할 수 있습니다. **오퍼 관리자** 및 **배달 관리자**&#x200B;입니다. 각 페이지에는 특정 권한 및 제한 사항이 있습니다. [이 페이지](../start/permissions.md)에서 Campaign 연산자 및 권한에 대해 자세히 알아보십시오.
 
 * **[!UICONTROL Offer manager]** 은 오퍼를 만들고 유지 관리합니다.
 * **[!UICONTROL Delivery manager]** 은 오퍼를 승인하고 사용합니다
 
-## 오퍼 관리자 연산자{#offer-manager} 만들기
+## 오퍼 관리자 연산자 만들기{#offer-manager}
 
 1. 새 연산자를 만듭니다.
 
-   [!DNL :arrow_upper_right:] Campaign에서 연산자를 만드는 단계는  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ↗️ Campaign에서 연산자를 만드는 단계는 [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. **[!UICONTROL Groups and named rights]** 창으로 이동하여 **[!UICONTROL Add]** 을 클릭하고 **[!UICONTROL Offer manager]** 그룹을 선택합니다.
 
@@ -44,11 +44,11 @@ ht-degree: 1%
 >
 >**오퍼 관리자**&#x200B;는 검토자가 지정되지 않았거나 오퍼를 기반으로 한 오퍼 템플릿에서 검토자로 선언된 경우에만 오퍼를 승인할 수 있습니다.
 
-## 배달 관리자 연산자 {#delivery-manager} 만들기
+## 게재 관리자 연산자 만들기 {#delivery-manager}
 
 1. 새 연산자를 만듭니다.
 
-   [!DNL :arrow_upper_right:] Campaign에서 연산자를 만드는 단계는  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ↗️ Campaign에서 연산자를 만드는 단계는 [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. **[!UICONTROL Groups and named rights]** 창으로 이동하여 **[!UICONTROL Add]** 을 클릭하고 **[!UICONTROL Delivery manager]** 그룹을 선택합니다.
 
