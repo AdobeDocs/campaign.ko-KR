@@ -5,7 +5,7 @@ description: Campaign 트랜잭션 메시지 설정
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # 트랜잭션 메시지 설정
 
-[!DNL :speech_balloon:] 관리 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 환경에 Campaign 트랜잭션 메시지를 설치하고 구성합니다.
+?? 관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 환경에 Campaign 트랜잭션 메시지를 설치하고 구성하십시오.
 
-[!DNL :bulb:] 트랜잭션 메시지 기능은  [이 섹션에 자세히 설명되어 있습니다](../send/transactional.md).
+?? 트랜잭션 메시지 기능은 [이 섹션](../send/transactional.md)에 자세히 설명되어 있습니다.
 
-[!DNL :bulb:]  [이 페이지의 트랜잭션 메시지 아키텍처를 이해합니다](../dev/architecture.md).
+?? [이 페이지](../dev/architecture.md)의 트랜잭션 메시지 아키텍처를 이해합니다.
 
 ## 권한 정의
 
@@ -28,13 +28,13 @@ Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대한
 
 제어 또는 실행 인스턴스에서 **메시지 센터 기술 워크플로우**&#x200B;에서 사용하는 스키마에서 수행되는 모든 스키마 확장은 Adobe Campaign 트랜잭션 메시지 모듈에서 사용하는 다른 인스턴스에 복제해야 합니다.
 
-[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서의 메시지 센터 기술 워크플로우에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
+↗️ [Campaign Classic v7 설명서에서 메시지 센터 기술 워크플로우에 대해 자세히 알아보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
 
 ## 트랜잭션 푸시 알림 보내기
 
 모바일 앱 채널 모듈과 결합하면 트랜잭션 메시지를 통해 모바일 장치의 알림을 통해 트랜잭션 메시지를 푸시할 수 있습니다.
 
-[!DNL :arrow_upper_right:] 모바일 앱 채널은  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
+↗️ 모바일 앱 채널은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages)에 자세히 설명되어 있습니다.
 
 트랜잭션 푸시 알림을 전송하려면 다음 구성을 수행해야 합니다.
 
@@ -48,9 +48,9 @@ Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대한
 
 Campaign에서 트랜잭션 푸시 알림을 전송하려면 이벤트에 다음 요소가 포함되어야 합니다.
 
-* 모바일 장치 ID:**registrationId**(Android용) 및 iOS용 **deviceToken**. 이 ID는 알림을 전송할 &quot;주소&quot;를 나타냅니다.
+* 모바일 장치 ID: **registrationId**(Android용) 및 iOS용 **deviceToken**. 이 ID는 알림을 전송할 &quot;주소&quot;를 나타냅니다.
 * 모바일 애플리케이션 또는 통합 키(**uuid**)에 대한 링크로서 애플리케이션별 연결 정보를 검색할 수 있습니다.
-* 알림을 전송할 채널(**WonderedChannel**):iOS용 41 및 Android용 42
+* 알림을 전송할 채널(**WonderedChannel**): iOS용 41 및 Android용 42
 * 개인화를 위해 활용할 기타 데이터입니다.
 
 다음은 이 정보를 포함하는 이벤트의 예입니다.
