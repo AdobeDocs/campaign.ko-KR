@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 12%
+ht-degree: 26%
 
 ---
 
@@ -22,5 +22,5 @@ ht-degree: 12%
 
 LINE은 모든 모바일 장치 및 PC에서 사용할 수 있는 무료 인스턴트 메시지, 음성 및 비디오 호출을 위한 애플리케이션입니다. Adobe Campaign에서 LINE 메시지를 보낼 수 있습니다.
 
-[!DNL :arrow_upper_right:] 자세한 내용은  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ko){target=&quot;_blank&quot;}에서 알아보십시오
+↗️ 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ko)를 참조하십시오{target=&quot;_blank&quot;}
 
