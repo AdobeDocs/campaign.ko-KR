@@ -2,10 +2,10 @@
 product: Adobe Campaign
 title: Campaign 스키마로 작업
 description: 스키마 시작
-source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1247'
+ht-degree: 5%
 
 ---
 
@@ -83,25 +83,25 @@ Campaign 기본 제공 테이블 및 그 상호 작용에 대한 자세한 내�
 
 특정 네임스페이스는 Adobe Campaign 애플리케이션 작업에 필요한 시스템 엔터티에 대한 설명을 위해 예약되어 있습니다. 다음 네임스페이스 **은(는) 상위/하위 사례 조합에서 새 스키마를 식별하는 데 사용하지 않아야 합니다.**
 
-* **xxl**:클라우드 데이터베이스 스키마에 예약됨
-* **xtk**:플랫폼 시스템 데이터로 예약됨
-* **nl**:애플리케이션의 전체 사용에 예약됨
-* **nms**:게재에 예약됨(수신자, 게재, 추적 등)
-* **ncm**:콘텐츠 관리에 예약됨
-* **temp**:임시 스키마에 예약됨
-* **crm**:crm 커넥터 통합에 예약됨
+* **xxl**: 클라우드 데이터베이스 스키마에 예약됨
+* **xtk**: 플랫폼 시스템 데이터로 예약됨
+* **nl**: 애플리케이션의 전체 사용에 예약됨
+* **nms**: 게재에 예약됨(수신자, 게재, 추적 등)
+* **ncm**: 콘텐츠 관리에 예약됨
+* **temp**: 임시 스키마에 예약됨
+* **crm**: crm 커넥터 통합에 예약됨
 
-스키마의 ID 키는 네임스페이스와 콜론으로 구분하여 이름을 사용하여 작성된 문자열입니다.예:**nms:recipient**
+스키마의 ID 키는 네임스페이스와 콜론으로 구분하여 이름을 사용하여 작성된 문자열입니다. 예: **nms:recipient**
 
-## Campaign 스키마 {#create-or-extend-schemas} 만들기 또는 확장
+## Campaign 스키마 만들기 또는 확장 {#create-or-extend-schemas}
 
 수신자 테이블(nms:recipient)과 같은 Campaign의 핵심 데이터 스키마 중 하나에 필드나 다른 요소를 추가하려면 해당 스키마를 확장해야 합니다.
 
-[!DNL :bulb:] 자세한 내용은 스키마  [확장](extend-schema.md)을 참조하십시오.
+?? 자세한 내용은 [스키마 확장](extend-schema.md)을 참조하십시오.
 
 Adobe Campaign(예: 계약 테이블)에 존재하지 않는 완전히 새로운 유형의 데이터를 추가하려면 사용자 지정 스키마를 직접 생성할 수 있습니다.
 
-[!DNL :bulb:] 자세한 내용은 새 스키마  [만들기](create-schema.md)를 참조하십시오.
+?? 자세한 내용은 [새 스키마 만들기](create-schema.md)를 참조하십시오.
 
 ![](assets/schemaextension_1.png)
 
@@ -153,7 +153,7 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >새 스키마를 만들거나 스키마 확장 중에 전체 스키마에 대해 동일한 기본 키 시퀀스 값(@pkSequence)을 유지해야 합니다.
 
-[!DNL :bulb:]  [이 섹션](database-mapping.md#management-of-keys)에서 키에 대해 자세히 알아보십시오.
+?? [이 섹션](database-mapping.md#management-of-keys)의 키에 대해 자세히 알아보십시오.
 
 ## 속성(필드) {#attributes--fields-}
 
@@ -161,9 +161,9 @@ type="string" enum="exTransactionTypeEnum"/>
 
 ![](assets/schemaextension_2.png)
 
-속성의 전체 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model)의 `<attribute>` 요소 섹션에서 사용할 수 있습니다. 다음은 보다 일반적으로 사용되는 속성 중 일부입니다.**@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name******@required **,**@ref **,**@xml **,**@type **.**
+속성의 전체 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model)의 `<attribute>` 요소 섹션에서 사용할 수 있습니다. 다음은 보다 일반적으로 사용되는 속성 중 일부입니다. **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name******@required **,**@ref **,**@xml **,**@type **.**
 
-[!DNL :arrow_upper_right:] 각 속성에 대한 자세한 내용은  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)의 속성 설명을 참조하십시오.
+↗️ 각 속성에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)의 속성 설명을 참조하십시오.
 
 ### 예제 {#examples}
 
@@ -203,7 +203,7 @@ SQL 필드에 저장되고 **@dataPolicy** 특성이 있는 XML 필드의 예입
 
 링크는 링크가 연결된 테이블의 **외래 키**&#x200B;가 포함된 스키마에 선언됩니다.
 
-카디널리티는 다음 세 가지 유형이 있습니다.1-1, 1-N 및 N-N기본적으로 사용되는 1-N 유형입니다.
+카디널리티는 다음 세 가지 유형이 있습니다. 1-1, 1-N 및 N-N 기본적으로 사용되는 1-N 유형입니다.
 
 ### 예제 {#examples-1}
 
