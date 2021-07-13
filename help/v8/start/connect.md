@@ -6,9 +6,9 @@ feature: 대상자
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 136209f05cf302a1e73a2aa18c051260edeb0762
+source-git-commit: a468597714e3974c85e4ada3b6c2ee405717106a
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Campaign을 처음 사용하는 경우 또는 최신 버전으로 업그레이�
 
    예를 들어 [`https://<machine>.<domain>.com`](https://myserver.adobe.com) 유형 URL을 사용할 수 있습니다.
 
-1. 조직에 대해 IMS(Adobe Identity Management 시스템)가 구성된 경우 옵션 **[!UICONTROL Connect with an Adobe ID]** 을 선택합니다.
+1. **[!UICONTROL Connect with an Adobe ID]** 옵션을 선택합니다.
 
 1. **[!UICONTROL Ok]** 을 클릭하여 설정을 저장합니다.
 
