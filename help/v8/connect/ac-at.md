@@ -6,7 +6,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 1%
@@ -17,18 +17,18 @@ ht-degree: 1%
 
 Adobe Target의 오퍼를 Adobe Campaign 이메일 게재에 포함하도록 Campaign 및 Target을 연결합니다.
 
-이 통합은 다음과 같이 사용 사례를 구현하는 데 도움이 됩니다.수신자가 Adobe Campaign을 통해 전송된 이메일을 열면 Adobe Target을 호출하여 컨텐츠의 동적 버전을 표시할 수 있습니다. 이 동적 버전은 이메일을 만들 때 미리 지정한 규칙에 따라 계산됩니다.
+이 통합은 다음과 같이 사용 사례를 구현하는 데 도움이 됩니다. 수신자가 Adobe Campaign을 통해 전송된 이메일을 열면 Adobe Target을 호출하여 컨텐츠의 동적 버전을 표시할 수 있습니다. 이 동적 버전은 이메일을 만들 때 미리 지정한 규칙에 따라 계산됩니다.
 
 >[!NOTE]
 >통합은 정적 이미지만 지원합니다. 다른 유형의 콘텐츠는 개인화할 수 없습니다.
 
-[!DNL :speech_balloon:] 관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Campaign으로 Experience Cloud 트리거를 구현합니다.
+?? 관리 Cloud Services 사용자로서 [은(는) Adobe](../start/campaign-faq.md#support)에 문의하여 Campaign으로 Experience Cloud 트리거를 구현합니다.
 
 Adobe Target에서는 다음 유형의 데이터를 사용할 수 있습니다.
 
 * Adobe Campaign 데이터베이스의 데이터
 * 사용된 데이터에 법적 제한이 없는 경우에만 Adobe Target의 방문자 ID에 연결된 세그먼트가 적용됩니다
-* Adobe Target 데이터:사용자 에이전트, IP 주소, 지리화 데이터
+* Adobe Target 데이터: 사용자 에이전트, IP 주소, 지리화 데이터
 
 ## 동적 콘텐츠 삽입
 
@@ -52,7 +52,7 @@ Adobe Campaign 및 Adobe Target에서 다음 단계를 수행해야 합니다.
 1. [경험 타깃팅 활동 만들기](#creating-targeting-activity)
 1. [메시지 미리 보기 및 보내기](#preview-send-email)
 
-### 전자 메일 {#inserting-dynamic-offer}에 동적 오퍼 삽입
+### 이메일에 동적 오퍼 삽입 {#inserting-dynamic-offer}
 
 Adobe Campaign에서 이메일의 타겟 및 콘텐츠를 정의합니다. Adobe Target에서 동적 이미지를 삽입할 수 있습니다.
 
@@ -79,7 +79,7 @@ Adobe Target의 설정에서 엔터프라이즈 권한을 사용하는 경우 �
 
 ![](assets/target_13.png)
 
-### 리디렉션 오퍼 {#create-redirect-offers} 만들기
+### 리디렉션 오퍼 만들기 {#create-redirect-offers}
 
 Adobe Target에서는 다른 버전의 오퍼를 만들 수 있습니다. 각 사용자 경험에 따라 리디렉션 오퍼를 만들고 표시할 이미지를 지정할 수 있습니다.
 
@@ -161,7 +161,7 @@ Adobe Target에서는 경험 타깃팅 활동을 만들고, 다른 경험을 정
 
 ![](assets/target_experience_2.png)
 
-## 메시지 {#preview-send-email} 미리 보기 및 보내기
+## 메시지 미리 보기 및 보내기 {#preview-send-email}
 
 이제 Adobe Campaign에서 이메일을 미리 보고 다른 수신자로부터 전자 메일의 렌더링을 테스트할 수 있습니다.
 
