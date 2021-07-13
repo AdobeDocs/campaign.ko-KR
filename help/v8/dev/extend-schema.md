@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Campaign 스키마 확장
 description: Campaign 스키마를 확장하는 방법을 알아보십시오
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -11,7 +11,7 @@ ht-degree: 2%
 
 # 스키마 확장{#extend-schemas}
 
-기술 사용자는 구현의 요구 사항에 맞게 Campaign 데이터 모델을 사용자 지정할 수 있습니다.기존 스키마에 요소 추가, 스키마에서 요소 수정 또는 요소 삭제
+기술 사용자는 구현의 요구 사항에 맞게 Campaign 데이터 모델을 사용자 지정할 수 있습니다. 기존 스키마에 요소 추가, 스키마에서 요소 수정 또는 요소 삭제
 
 Campaign 데이터 모델을 사용자 지정하는 주요 단계는 다음과 같습니다.
 
@@ -22,7 +22,7 @@ Campaign 데이터 모델을 사용자 지정하는 주요 단계는 다음과 �
 >[!CAUTION]
 >기본 제공 스키마를 직접 수정해서는 안 됩니다. 기본 제공 스키마를 조정해야 하는 경우, 확장을 확장해야 합니다.
 
-[!DNL :bulb:] Campaign 기본 제공 테이블 및 상호 작용에 대한 자세한 내용은  [이 페이지](datamodel.md)를 참조하십시오. [이 페이지에서 새 스키마를 생성할 때 권장 사항을 참조하십시오](create-schema.md).
+?? Campaign 기본 제공 테이블 및 상호 작용에 대한 자세한 내용은 [이 페이지](datamodel.md)를 참조하십시오. [이 페이지에서 새 스키마를 생성할 때 권장 사항을 참조하십시오](create-schema.md).
 
 스키마를 확장하려면 아래 단계를 따르십시오.
 
