@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: 데이터 모델 모범 사례
 description: Campaign 데이터 모델 확장 모범 사례 학습
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '2683'
 ht-degree: 4%
@@ -17,9 +17,9 @@ Adobe Campaign 시스템은 매우 유연하며 초기 구현 이상으로 확�
 
 Campaign 기본 제공 표와 이들이 상호 작용하는 방법에 대한 자세한 내용은 [이 섹션](datamodel.md) 을 참조하십시오.
 
-[!DNL :bulb:] Campaign  [스키마를 ](schemas.md) 시작하려면 이 섹션을 참조하십시오.
+?? Campaign 스키마를 시작하려면 [이 섹션](schemas.md)을 읽어 보십시오.
 
-[!DNL :bulb:]  [이 페이지](extend-schema.md)에서 Adobe Campaign 데이터베이스의 개념적 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법을 알아보십시오.
+?? [이 페이지](extend-schema.md)에서 Adobe Campaign 데이터베이스의 개념적 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법을 알아보십시오.
 
 ## 데이터 모델 아키텍처 {#data-model-architecture}
 
@@ -90,7 +90,7 @@ Adobe Campaign 리소스에는 세 개의 식별자가 있으며 추가 식별�
 | 식별자 | 설명 | 모범 사례 |
 |--- |--- |--- |
 | Id | <ul><li>id는 Adobe Campaign 테이블의 실제 기본 키입니다. 기본 제공 테이블의 경우 UUID(Universally Unique ID)입니다</li><li>이 식별자는 고유해야 합니다. </li><li>UUID는 스키마 정의에 표시될 수 있습니다.</li></ul> | <ul><li>자동 생성된 식별자는 워크플로우 또는 패키지 정의에서 참조로 사용할 수 없습니다.</li><li>테이블의 ID는 UUID이므로 이 유형을 변경할 수 없습니다.</li></ul> |
-| 이름(또는 내부 이름) | <ul><li>이 정보는 테이블의 레코드의 고유 식별자입니다. 이 값은 일반적으로 생성된 이름으로 수동으로 업데이트할 수 있습니다.</li><li>이 식별자는 Adobe Campaign의 다른 인스턴스에 배포할 때 값을 유지하며 비워 둘 수 없습니다.</li></ul> | <ul><li>객체가 환경에서 다른 환경으로 배포하려는 경우 Adobe Campaign에서 생성한 레코드 이름의 이름을 변경합니다.</li><li>개체에 네임스페이스 속성(*스키마* 예)이 있으면 이 공통 네임스페이스는 생성된 모든 사용자 지정 개체에 활용됩니다. 일부 예약된 네임스페이스는 사용하지 않아야 합니다.*nms*, *xtk* 등  일부 네임스페이스는 내부용입니다. [자세히 알아보기](schemas.md#reserved-namespaces)</li><li>개체에 네임스페이스(*workflow* 또는 *배달*)가 없는 경우, 이 네임스페이스 개념은 내부 이름 개체의 접두사로 추가됩니다.*namespaceMyObjectName*.</li><li>공백 &quot;&quot;, 세미열 &quot;:&quot; 또는 하이픈 &quot;-&quot;과 같은 특수 문자는 사용하지 마십시오. 이러한 모든 문자는 밑줄 &quot;_&quot;(허용되는 문자)로 바뀝니다. 예를 들어 &quot;abc-def&quot; 및 &quot;abc:def&quot;는 &quot;abc_def&quot;로 저장되고 서로 덮어씁니다.</li></ul> |
+| 이름(또는 내부 이름) | <ul><li>이 정보는 테이블의 레코드의 고유 식별자입니다. 이 값은 일반적으로 생성된 이름으로 수동으로 업데이트할 수 있습니다.</li><li>이 식별자는 Adobe Campaign의 다른 인스턴스에 배포할 때 값을 유지하며 비워 둘 수 없습니다.</li></ul> | <ul><li>객체가 환경에서 다른 환경으로 배포하려는 경우 Adobe Campaign에서 생성한 레코드 이름의 이름을 변경합니다.</li><li>개체에 네임스페이스 속성(*스키마* 예)이 있으면 이 공통 네임스페이스는 생성된 모든 사용자 지정 개체에 활용됩니다. 일부 예약된 네임스페이스는 사용하지 않아야 합니다. *nms*, *xtk* 등  일부 네임스페이스는 내부용입니다. [자세히 알아보기](schemas.md#reserved-namespaces)</li><li>개체에 네임스페이스(*workflow* 또는 *배달*)가 없는 경우, 이 네임스페이스 개념은 내부 이름 개체의 접두사로 추가됩니다. *namespaceMyObjectName*.</li><li>공백 &quot;&quot;, 세미열 &quot;:&quot; 또는 하이픈 &quot;-&quot;과 같은 특수 문자는 사용하지 마십시오. 이러한 모든 문자는 밑줄 &quot;_&quot;(허용되는 문자)로 바뀝니다. 예를 들어 &quot;abc-def&quot; 및 &quot;abc:def&quot;는 &quot;abc_def&quot;로 저장되고 서로 덮어씁니다.</li></ul> |
 | 레이블 | <ul><li>레이블은 Adobe Campaign에 있는 개체 또는 레코드의 비즈니스 식별자입니다.</li><li>이 개체에는 공백 및 특수 문자가 허용됩니다.</li><li>그것은 레코드의 고유성을 보장하지 않습니다.</li></ul> | <ul><li>개체 레이블의 구조를 결정하는 것이 좋습니다.</li><li>Adobe Campaign 사용자의 레코드 또는 개체를 식별하는 데 가장 사용자 친화적인 솔루션입니다.</li></ul> |
 
 Adobe Campaign 기본 키는 모든 기본 테이블에 대해 자동 생성된 UUID입니다. 사용자 지정 테이블에 UUID를 사용할 수도 있습니다. [자세히 알아보기](keys.md)
@@ -127,7 +127,7 @@ ID 수가 무한하더라도 최적의 성능을 보장하기 위해 데이터�
 
 링크는 표의 실제 데이터와 일치하도록 정의해야 합니다. 잘못된 정의는 링크를 통해 검색된 데이터에 영향을 줄 수 있습니다(예: 예기치 않게 레코드를 복제하는 경우).
 
-링크의 이름을 테이블 이름으로 일관되게 지정합니다.링크 이름은 떨어진 테이블이 무엇인지 이해하는 데 도움이 됩니다.
+링크의 이름을 테이블 이름으로 일관되게 지정합니다. 링크 이름은 떨어진 테이블이 무엇인지 이해하는 데 도움이 됩니다.
 
 &quot;id&quot;가 있는 링크의 이름을 접미사로 지정하지 마십시오. 예를 들어 이름을 &quot;transactionId&quot;가 아닌 &quot;transaction&quot;로 지정합니다.
 
@@ -175,7 +175,7 @@ Adobe Campaign에는 다음과 같은 몇 가지 해결 방법이 있어 레코�
 
 스키마에서 &quot;deleteStatus&quot; 속성을 선언할 수 있습니다. 레코드를 삭제로 표시한 다음 정리 작업에서 삭제를 연기하는 것이 더 효율적입니다.
 
-[!DNL :speech_balloon:] 관리 Cloud Services 사용자는 Adobe 컨설턴트나 기술 관리자에게 연락하여 보존에 대한 자세한 내용을 확인하거나 사용자 지정 테이블에 대한 보존을 설정해야 합니다.
+?? 관리 Cloud Services 사용자는 Adobe 컨설턴트나 기술 관리자에게 연락하여 보존에 대한 자세한 내용을 확인하거나 사용자 지정 테이블에 대한 보존을 설정해야 합니다.
 
 ## 성능 {#performance}
 
@@ -209,7 +209,7 @@ Adobe Campaign은 타사 데이터베이스 엔진을 사용합니다. 공급자
 * 조인 키의 경우 숫자 또는 문자열 기반 값을 사용할 수 있습니다.
 * 로그 보존 깊이를 최대한 줄입니다. 더 깊은 기록이 필요한 경우 계산 및/또는 사용자 지정 로그 테이블을 처리하여 더 큰 내역을 저장할 수 있습니다.
 
-### 테이블 크기 {#size-of-tables}
+### 표 크기 {#size-of-tables}
 
 테이블 크기는 레코드 수와 레코드당 열 수의 조합입니다. 둘 다 쿼리 성능에 영향을 줄 수 있습니다.
 
