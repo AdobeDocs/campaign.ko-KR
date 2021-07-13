@@ -6,7 +6,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -19,4 +19,4 @@ Experience Cloud 트리거 을 사용하여 파이프라인을 사용하여 Adob
 
 [이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en)에서 Adobe Campaign 및 Experience Cloud 트리거에 대해 자세히 알아보십시오.
 
-[!DNL :speech_balloon:]  관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Campaign으로 Experience Cloud 트리거를 구현합니다.
+??  관리 Cloud Services 사용자로서 [은(는) Adobe](../start/campaign-faq.md#support)에 문의하여 Campaign으로 Experience Cloud 트리거를 구현합니다.
