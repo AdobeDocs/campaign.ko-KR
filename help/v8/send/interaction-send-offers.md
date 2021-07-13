@@ -5,10 +5,10 @@ description: 오퍼 카탈로그를 만드는 방법을 알아봅니다
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1276'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -59,12 +59,12 @@ ht-degree: 2%
 
 ### 오퍼 엔진의 매개 변수 {#parameters-for-calling-offer-engine}
 
-* **[!UICONTROL Space]** :오퍼 엔진을 활성화하기 위해 선택해야 하는 오퍼 환경의 공간입니다.
-* **[!UICONTROL Category]** :오퍼가 정렬되는 특정 폴더입니다. 카테고리를 지정하지 않으면 테마를 선택하지 않은 한 환경에 포함된 모든 오퍼가 오퍼 엔진에서 고려됩니다.
-* **[!UICONTROL Themes]** :카테고리에서 업스트림으로 정의된 주요 단어입니다. 오퍼는 필터로서 작동하며 카테고리 집합에서 오퍼를 선택하여 표시할 오퍼의 수를 개선할 수 있도록 해줍니다.
-* **[!UICONTROL Number of propositions]** :게재 본문에 삽입할 수 있는 엔진에서 반환한 오퍼 수입니다. 오퍼가 메시지에 삽입되지 않으면 오퍼가 계속 생성되지만 표시되지 않습니다.
-* **[!UICONTROL Exclude non-eligible recipients]** :이 옵션을 사용하면 적합한 오퍼가 충분하지 않은 수신자의 제외를 활성화하거나 비활성화할 수 있습니다. 해당 Proposition 수는 요청된 Proposition 수보다 작을 수 있습니다. 이 확인란을 선택하면 적절한 위치가 없는 수신자는 게재에서 제외됩니다. 이 옵션을 선택하지 않으면 이러한 수신자는 제외되지 않지만 요청된 프로필 수가 없습니다.
-* **[!UICONTROL Do not display anything if no offer is selected]** :이 옵션을 사용하면 프로필 중 하나가 없는 경우 메시지를 처리하는 방법을 선택할 수 있습니다. 이 상자를 선택하면 누락된 제안 표시가 표시되지 않고 이 제안에 대한 메시지에 콘텐츠가 표시되지 않습니다. 상자를 선택하지 않으면 메시지 자체가 전송 중에 취소되고 수신자는 더 이상 메시지를 받지 않습니다.
+* **[!UICONTROL Space]** : 오퍼 엔진을 활성화하기 위해 선택해야 하는 오퍼 환경의 공간입니다.
+* **[!UICONTROL Category]** : 오퍼가 정렬되는 특정 폴더입니다. 카테고리를 지정하지 않으면 테마를 선택하지 않은 한 환경에 포함된 모든 오퍼가 오퍼 엔진에서 고려됩니다.
+* **[!UICONTROL Themes]** : 카테고리에서 업스트림으로 정의된 주요 단어입니다. 오퍼는 필터로서 작동하며 카테고리 집합에서 오퍼를 선택하여 표시할 오퍼의 수를 개선할 수 있도록 해줍니다.
+* **[!UICONTROL Number of propositions]** : 게재 본문에 삽입할 수 있는 엔진에서 반환한 오퍼 수입니다. 오퍼가 메시지에 삽입되지 않으면 오퍼가 계속 생성되지만 표시되지 않습니다.
+* **[!UICONTROL Exclude non-eligible recipients]** : 이 옵션을 사용하면 적합한 오퍼가 충분하지 않은 수신자의 제외를 활성화하거나 비활성화할 수 있습니다. 해당 Proposition 수는 요청된 Proposition 수보다 작을 수 있습니다. 이 확인란을 선택하면 적절한 위치가 없는 수신자는 게재에서 제외됩니다. 이 옵션을 선택하지 않으면 이러한 수신자는 제외되지 않지만 요청된 프로필 수가 없습니다.
+* **[!UICONTROL Do not display anything if no offer is selected]** : 이 옵션을 사용하면 프로필 중 하나가 없는 경우 메시지를 처리하는 방법을 선택할 수 있습니다. 이 상자를 선택하면 누락된 제안 표시가 표시되지 않고 이 제안에 대한 메시지에 콘텐츠가 표시되지 않습니다. 상자를 선택하지 않으면 메시지 자체가 전송 중에 취소되고 수신자는 더 이상 메시지를 받지 않습니다.
 
 ## 워크플로우에서 오퍼 보내기
 
@@ -78,7 +78,7 @@ ht-degree: 2%
 
 **데이터 보강** 활동을 사용하면 게재 수신자를 위한 오퍼에 오퍼나 링크를 추가할 수 있습니다.
 
-[!DNL :arrow_upper_right:] 데이터 보강 활동에 대한 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
+↗️ 데이터 보강 활동에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html) 를 참조하십시오
 
 예를 들어 게재 전에 수신자 쿼리의 데이터를 보강할 수 있습니다.
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 * 오퍼 또는 오퍼 엔진 호출 지정
 * 오퍼 링크 참조.
 
-#### 오퍼 엔진 {#specifying-an-offer-or-a-call-to-the-offer-engine} 호출을 지정합니다.
+#### 오퍼 엔진에 대한 호출 또는 오퍼를 지정합니다 {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
 **쿼리** 활동을 구성한 후:
 
@@ -102,11 +102,11 @@ ht-degree: 2%
 1. 추가할 제안에 대한 레이블과 식별자를 지정합니다.
 1. 오퍼 선택을 지정합니다. 다음 두 가지 옵션을 사용할 수 있습니다.
 
-   * **[!UICONTROL Search for the best offer in a category]** :이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마), 연락 날짜, 유지할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. 두 필드를 동시에 완료하지 않고 **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드를 완료하는 것이 좋습니다.
+   * **[!UICONTROL Search for the best offer in a category]** : 이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마), 연락 날짜, 유지할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. 두 필드를 동시에 완료하지 않고 **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드를 완료하는 것이 좋습니다.
 
       ![](assets/int_enrichment_offer3.png)
 
-   * **[!UICONTROL A predefined offer]** :오퍼 엔진을 호출하지 않고 추가할 오퍼를 직접 구성하려면 이 옵션을 선택하고 오퍼 공간, 특정 오퍼 및 연락 날짜를 지정합니다.
+   * **[!UICONTROL A predefined offer]** : 오퍼 엔진을 호출하지 않고 추가할 오퍼를 직접 구성하려면 이 옵션을 선택하고 오퍼 공간, 특정 오퍼 및 연락 날짜를 지정합니다.
 
       ![](assets/int_enrichment_offer4.png)
 
@@ -116,7 +116,7 @@ ht-degree: 2%
    >
    >미리 보기에 사용할 수 있는 proposition 수는 게재에서 직접 수행되는 구성 대신 데이터 보강 활동에서 수행되는 구성에 따라 다릅니다.
 
-#### 오퍼 {#referencing-a-link-to-an-offer} 링크 참조
+#### 오퍼에 대한 링크 참조 {#referencing-a-link-to-an-offer}
 
 **데이터 보강** 활동에서 오퍼에 대한 링크를 참조할 수도 있습니다.
 
@@ -138,7 +138,7 @@ ht-degree: 2%
    >
    >미리 보기에 사용할 수 있는 proposition 수는 게재에서 수행된 구성에 따라 다릅니다.
 
-#### 오퍼 등급 및 가중치 {#storing-offer-rankings-and-weights} 저장
+#### 스토어 오퍼 등급 및 가중치 {#storing-offer-rankings-and-weights}
 
 기본적으로 **데이터 보강** 활동을 사용하여 오퍼를 제공하는 경우, 해당 순위 및 가중치는 제안 테이블에 저장되지 않습니다.
 
@@ -165,7 +165,7 @@ ht-degree: 2%
 
 또한 **[!UICONTROL Offer engine]** 활동을 사용하면 게재 전에 오퍼 엔진에 대한 호출을 지정할 수 있습니다.
 
-[!DNL :arrow_upper_right:] 오퍼  **엔지니어링 활동에 대한 자세한** 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
+↗️ **오퍼 엔진** 활동에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)를 참조하십시오
 
 이 활동은 게재 전에 엔진에서 계산된 오퍼로 인바운드 모집단 데이터를 강화하여 엔진 호출을 사용하여 **데이터 보강** 활동과 동일한 원리에 작동합니다.
 
@@ -188,7 +188,7 @@ ht-degree: 2%
 
 **[!UICONTROL Offers by cell]** 활동을 사용하면 인바운드 모집단을 여러 세그먼트로 배포하고 이러한 각 세그먼트에 대해 표시할 오퍼를 지정할 수 있습니다.
 
-[!DNL :arrow_upper_right:] 셀랙티브한  **오퍼에 대한** 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
+↗️ **Offer by cell** 활동에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)를 참조하십시오
 
 이렇게 하려면 다음 프로세스를 사용합니다.
 
