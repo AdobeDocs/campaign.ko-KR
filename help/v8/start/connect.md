@@ -6,9 +6,9 @@ feature: 대상자
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 13f3122a830c723fa940290689c8e3a1baa0443a
+source-git-commit: 136209f05cf302a1e73a2aa18c051260edeb0762
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Campaign을 처음 사용하는 경우 또는 최신 버전으로 업그레이�
 
 1. **[!UICONTROL Ok]**&#x200B;를 클릭합니다.
 
-1. 그런 다음 Campaign에 로그인할 수 있습니다.
+1. 그런 다음 [Adobe ID](#connect-ims)로 Campaign에 로그인할 수 있습니다.
 
    ![](assets/adobeID.png)
 
