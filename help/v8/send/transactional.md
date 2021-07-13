@@ -5,7 +5,7 @@ description: 트랜잭션 메시지 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 2%
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # 트랜잭션 메시지 시작{#send-transactional-messages}
 
-트랜잭션 메시지(메시지 센터)는 트리거 메시지를 관리하기 위해 설계된 캠페인 모듈입니다. 이러한 메시지는 정보 시스템에서 트리거된 이벤트에서 생성되며 다음을 수행할 수 있습니다.예를 들어 송장, 주문 확인, 출하 확인, 비밀번호 변경, 제품 미가용성 통지, 계정명세서 또는 웹사이트 계정 생성 등이 있습니다.
+트랜잭션 메시지(메시지 센터)는 트리거 메시지를 관리하기 위해 설계된 캠페인 모듈입니다. 이러한 메시지는 정보 시스템에서 트리거된 이벤트에서 생성되며 다음을 수행할 수 있습니다. 예를 들어 송장, 주문 확인, 출하 확인, 비밀번호 변경, 제품 미가용성 통지, 계정명세서 또는 웹사이트 계정 생성 등이 있습니다.
 
-[!DNL :speech_balloon:] 관리 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 환경에 Campaign 트랜잭션 메시지를 설치하고 구성합니다.
+?? 관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 환경에 Campaign 트랜잭션 메시지를 설치하고 구성하십시오.
 
 트랜잭션 메시지는 보내는 데 사용됩니다.
 
@@ -24,9 +24,9 @@ ht-degree: 2%
 * 고객 작업에 대한 개별 실시간 응답
 * 홍보되지 않는 콘텐츠
 
-[!DNL :bulb:] 트랜잭션 메시지 설정은  [이 섹션에 자세히 설명되어 있습니다](../config/transactional-msg-settings.md).
+?? 트랜잭션 메시지 설정은 [이 섹션](../config/transactional-msg-settings.md)에 자세히 설명되어 있습니다.
 
-[!DNL :bulb:]  [이 페이지의 트랜잭션 메시지 아키텍처를 이해합니다](../dev/architecture.md).
+?? [이 페이지](../dev/architecture.md)의 트랜잭션 메시지 아키텍처를 이해합니다.
 
 >[!CAUTION]
 >
@@ -88,7 +88,7 @@ ht-degree: 2%
 
    ![](assets/messagecenter_create_custo_1.png)
 
-1. 다음 구문을 사용하여 태그를 채웁니다.**요소 이름**.@**특성 이름**&#x200B;은 아래와 같이 표시됩니다.
+1. 다음 구문을 사용하여 태그를 채웁니다. **요소 이름**.@**특성 이름**&#x200B;은 아래와 같이 표시됩니다.
 
    ![](assets/messagecenter_create_custo_2.png)
 
@@ -102,7 +102,7 @@ ht-degree: 2%
 
 1. 나중에 쉽게 선택할 수 있도록 레이블을 지정한 다음 시드 주소(통신 채널에 따라 이메일 또는 휴대폰)를 입력합니다.
 
-1. 외부 식별자를 입력합니다.이 선택적 필드를 사용하면 비즈니스 키(고유 ID, 이름 + 이메일 등)를 입력할 수 있습니다. 이는 프로필을 식별하는 데 사용되는 웹 사이트의 모든 애플리케이션에서 일반적으로 사용됩니다. 이 필드가 Adobe Campaign 마케팅 데이터베이스에도 있으면 데이터베이스의 프로필로 이벤트를 조정할 수 있습니다.
+1. 외부 식별자를 입력합니다. 이 선택적 필드를 사용하면 비즈니스 키(고유 ID, 이름 + 이메일 등)를 입력할 수 있습니다. 이는 프로필을 식별하는 데 사용되는 웹 사이트의 모든 애플리케이션에서 일반적으로 사용됩니다. 이 필드가 Adobe Campaign 마케팅 데이터베이스에도 있으면 데이터베이스의 프로필로 이벤트를 조정할 수 있습니다.
 
    ![](assets/messagecenter_create_seed_2.png)
 
@@ -151,7 +151,7 @@ ht-degree: 2%
 
 증명 전송에는 게재와 동일한 프로세스가 포함됩니다.
 
-[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target=&quot;_blank&quot;}에서 증명에 대해 자세히 알아보십시오
+↗️ [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target=&quot;_blank&quot;}에서 증명에 대해 자세히 알아보십시오
 
 그러나 트랜잭션 메시지의 증명을 보내려면 다음 작업을 수행해야 합니다.
 
@@ -190,7 +190,7 @@ ht-degree: 2%
 
 1. 컨트롤 인스턴스에서 트리의 **[!UICONTROL Message Center > Transactional message templates]** 폴더로 이동합니다.
 1. 실행 인스턴스에 게시할 템플릿을 선택합니다.
-1. **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Publish]**&#x200B;를 클릭합니다.
 
    ![](assets/messagecenter_publish_template.png)
 
@@ -211,7 +211,7 @@ ht-degree: 2%
 
 메시지 템플릿이 실행 인스턴스에 게시되면 게시 취소할 수 있습니다.
 
-* 실제로, 게시된 템플릿은 해당 이벤트가 트리거되는 경우 여전히 호출할 수 있습니다.더 이상 메시지 템플릿을 사용하지 않는 경우 게시를 취소하는 것이 좋습니다. 실수로 원치 않는 트랜잭션 메시지를 보내지 않기 위한 것입니다.
+* 실제로, 게시된 템플릿은 해당 이벤트가 트리거되는 경우 여전히 호출할 수 있습니다. 더 이상 메시지 템플릿을 사용하지 않는 경우 게시를 취소하는 것이 좋습니다. 실수로 원치 않는 트랜잭션 메시지를 보내지 않기 위한 것입니다.
 
    예를 들어, 크리스마스 캠페인에만 사용하는 메시지 템플릿을 게시했습니다. 크리스마스 기간이 끝난 후에 게시를 취소하고, 내년에 다시 게시할 수 있습니다.
 
@@ -221,8 +221,8 @@ ht-degree: 2%
 
 1. 컨트롤 인스턴스에서 **[!UICONTROL Message Center > Transactional message templates]** 폴더를 찾습니다.
 1. 게시를 취소할 템플릿을 선택합니다.
-1. **[!UICONTROL Unpublish]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Unpublish]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Start]**&#x200B;를 클릭합니다.
 
 ![](assets/message-center-unpublish.png)
 
