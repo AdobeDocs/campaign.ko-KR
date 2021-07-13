@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Campaign 보안 모범 사례
 description: Campaign 보안 모범 사례 시작
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Adobe에서 Adobe는 디지털 경험의 보안을 매우 중요하게 생각합
 * 암호화된 암호가 제한되어 있는지 확인하십시오
 * Protect 미러 페이지, 웹 애플리케이션 등의 개인 정보를 포함할 수 있는 페이지를 설정합니다.
 
-[!DNL :speech_balloon:] 관리 Cloud Services 사용자인 Adobe은 사용자와 협력하여 환경에서 이러한 구성을 구현합니다.
+?? 관리 Cloud Services 사용자인 Adobe은 사용자와 협력하여 환경에서 이러한 구성을 구현합니다.
 
 ## 개인화
 
@@ -38,7 +38,7 @@ Adobe에서 Adobe는 디지털 경험의 보안을 매우 중요하게 생각합
 
 ## 데이터 제한
 
-낮은 권한 인증 사용자가 암호화된 암호를 액세스할 수 없도록 해야 합니다. 이를 위해 다음과 같은 두 가지 주요 방법이 있습니다.암호 필드에만 또는 전체 엔터티에 대한 액세스를 제한합니다.
+낮은 권한 인증 사용자가 암호화된 암호를 액세스할 수 없도록 해야 합니다. 이를 위해 다음과 같은 두 가지 주요 방법이 있습니다. 암호 필드에만 또는 전체 엔터티에 대한 액세스를 제한합니다.
 
 이 제한 사항으로 암호 필드를 제거할 수 있지만, 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있도록 유지합니다. [이 페이지](../dev/restrict-pi-view.md)에서 자세히 알아보십시오.
 
@@ -107,16 +107,16 @@ Adobe에서 Adobe는 디지털 경험의 보안을 매우 중요하게 생각합
 * 각 연산자에 적절한 액세스 권한이 있는지 확인합니다
 * 관리 연산자를 사용하지 않도록 하고, 관리 그룹에 너무 많은 운영자가 없도록 하십시오
 
-[!DNL :arrow_upper_right:] 자세한 내용은  [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}를 참조하십시오
+↗️ [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}에서 자세히 알아보기
 
 ## 코딩 지침
 
 Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때에는 항상 다음 지침을 따르십시오.
 
-* **스크립팅**:SQL 문을 사용하지 않도록 설정하고, 문자열 연결 대신 매개 변수화된 함수를 사용하고, 허용 목록에 사용할 SQL 함수를 추가하여 SQL 주입을 방지하십시오.
+* **스크립팅**: SQL 문을 사용하지 않도록 설정하고, 문자열 연결 대신 매개 변수화된 함수를 사용하고, 허용 목록에 사용할 SQL 함수를 추가하여 SQL 주입을 방지하십시오.
 
-* **데이터 모델** 보안:명명된 권한을 사용하여 운영자 작업을 제한하고 시스템 필터 추가(sysFilter)
+* **데이터 모델** 보안: 명명된 권한을 사용하여 운영자 작업을 제한하고 시스템 필터 추가(sysFilter)
 
-* **웹 애플리케이션에서 캡처를 추가합니다**.공개 랜딩 페이지 및 구독 페이지에 캡처를 추가합니다.
+* **웹 애플리케이션에서 캡처를 추가합니다**. 공개 랜딩 페이지 및 구독 페이지에 캡처를 추가합니다.
 
-[!DNL :arrow_upper_right:] 자세한 내용은  [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}를 참조하십시오
+↗️ [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}에서 자세히 알아보기
