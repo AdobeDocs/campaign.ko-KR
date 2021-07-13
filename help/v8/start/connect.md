@@ -6,14 +6,14 @@ feature: 대상자
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 5%
+source-wordcount: '731'
+ht-degree: 1%
 
 ---
 
-# Adobe Campaign v8{#gs-ac-connect}에 연결
+# Adobe Campaign v8에 연결{#gs-ac-connect}
 
 Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결할 수 있는 리치 클라이언트입니다.
 
@@ -21,7 +21,7 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 
 * [호환성 매트릭스](compatibility-matrix.md)에서 Adobe Campaign과의 시스템 및 도구 호환성을 확인합니다
 * Campaign 서버 URL 가져오기
-* 사용자 자격 증명 가져오기
+* Adobe ID을 만들거나 회사에서 사용자 자격 증명을 받을 수 있습니다
 
 ## 클라이언트 콘솔 다운로드 및 설치
 
@@ -31,7 +31,7 @@ Campaign을 처음 사용하는 경우 또는 최신 버전으로 업그레이�
 
 1. Campaign 관리자는 Adobe [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/encampaign.html)에 연결하고 클라이언트 콘솔 설치 프로그램을 다운로드합니다. 그런 다음 로컬 컴퓨터에 설치할 수 있습니다.
 
-1. 최종 사용자는 콘솔 을 배포할 수 있습니다.Console이 업데이트되면 팝업 창에서 최신 Client Console 버전을 다운로드하라는 메시지가 표시됩니다.
+1. 최종 사용자는 콘솔 을 배포할 수 있습니다. Console이 업데이트되면 팝업 창에서 최신 Client Console 버전을 다운로드하라는 메시지가 표시됩니다.
 
 >[!CAUTION]
 >
@@ -69,18 +69,15 @@ Campaign을 처음 사용하는 경우 또는 최신 버전으로 업그레이�
 
 1. 자격 증명 필드의 오른쪽 위 모서리에 있는 링크를 클릭하여 연결 구성 창에 액세스합니다.
 
+   ![](assets/connectToCampaign.png)
+
 1. 로그인해야 하는 Campaign 인스턴스를 선택합니다.
 
-1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Ok]**&#x200B;를 클릭합니다.
 
-1. 사용자 로그인 자격 증명을 입력하고 **[!UICONTROL LOG IN]** 을 클릭합니다.
+1. 그런 다음 Campaign에 로그인할 수 있습니다.
 
-   ![](assets/sign-in-v8.png)
-
-구성에 따라 자격 증명은 다음과 같습니다.
-
-* 액세스 권한을 부여한 Campaign 관리자가 제공
-* Adobe ID
+   ![](assets/adobeID.png)
 
 ## 사용자에게 액세스 권한 부여
 
@@ -94,29 +91,17 @@ Adobe Campaign을 사용하면 다양한 운영자에게 할당된 권한을 정
 
 Campaign 관리자는 연산자를 만들고 사용자와 해당 자격 증명을 공유할 책임이 있습니다.
 
-## Adobe ID{#connect-ims}을 사용하여 Campaign에 연결
+## Adobe ID을 통해 Campaign에 연결{#connect-ims}
 
-Campaign 사용자는 IMS(Adobe Identity Management System)를 통해 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결할 수 있습니다. 이 구현은 다음과 같은 이점을 제공합니다.
+Campaign 사용자는 IMS(Adobe Identity Management System)를 통해 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결합니다. 모든 Adobe 솔루션에서 동일한 ID를 사용할 수 있습니다. 다른 솔루션에서 Adobe Campaign을 사용할 때 연결이 저장됩니다.
 
-*  모든 Experience Cloud 솔루션에 동일한 ID를 사용할 수 있습니다.
-* 서로 다른 통합으로 Adobe Campaign을 사용하는 경우 연결이 기억됩니다.
-* 강력한 암호 관리 정책.
-* 페더레이션 ID 계정 사용(외부 ID 공급자).
-
-[!DNL :speech_balloon:] 관리 Cloud Services 사용자는  [Adobe](campaign-faq.md#support) 에 문의하여 Campaign으로 Adobe IMS를 구현하십시오.
-
-## LDAP 로그인으로 Campaign에 연결
-
-사용자가 LDAP 인증을 통해 플랫폼에 액세스하도록 Adobe Campaign을 구성할 수 있습니다.
-
-[!DNL :speech_balloon:] 관리되는 Cloud Services 사용자는  [Adobe](campaign-faq.md#support) 에 문의하여 Campaign과의 LDAP 통합을 구성합니다.
-
+[이 페이지](https://helpx.adobe.com/enterprise/using/identity.html)에서 Adobe IMS에 대해 자세히 알아보십시오.
 
 ## 웹 액세스{#web-access}
 
-HTML 사용자 인터페이스를 사용하여 간단한 웹 브라우저를 통해 애플리케이션의 특정 부분에 액세스할 수 있습니다.Campaign 대시보드, 큐브 보고, 인스턴스 모니터링 등.
+HTML 사용자 인터페이스를 사용하여 간단한 웹 브라우저를 통해 애플리케이션의 특정 부분에 액세스할 수 있습니다. Campaign 대시보드, 큐브 보고, 인스턴스 모니터링 등.
 
-[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target=&quot;_blank&quot;}에서 웹 액세스에 대해 자세히 알아보십시오
+↗️ [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target=&quot;_blank&quot;}에서 웹 액세스에 대해 자세히 알아보십시오
 
 웹 액세스는 콘솔과 유사하지만 기능 세트가 감소된 인터페이스를 제공합니다.
 
@@ -128,6 +113,6 @@ HTML 사용자 인터페이스를 사용하여 간단한 웹 브라우저를 통
 
 ![](assets/campaign-from-web.png)
 
-웹 액세스는 유효성 검사 프로세스에서도 사용됩니다.운영자는 승인 요청 이메일을 클릭하고 웹 브라우저를 통해 Campaign에 연결하여 게재 콘텐츠 또는 예산을 유효성 검사하거나 거부할 수 있습니다.
+웹 액세스는 유효성 검사 프로세스에서도 사용됩니다. 운영자는 승인 요청 이메일을 클릭하고 웹 브라우저를 통해 Campaign에 연결하여 게재 콘텐츠 또는 예산을 유효성 검사하거나 거부할 수 있습니다.
 
-[!DNL :arrow_upper_right:]  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=ko#orchestrating-campaigns){target=&quot;_blank&quot;}에서 승인을 설정하고 관리하는 방법을 알아봅니다.
+↗️ [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=ko#orchestrating-campaigns){target=&quot;_blank&quot;}에서 승인을 설정하고 관리하는 방법을 알아봅니다.
