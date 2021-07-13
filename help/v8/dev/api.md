@@ -6,14 +6,14 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
-# [!DNL Campaign] API{#gs-ac-api} 시작
+# [!DNL Campaign] API 시작{#gs-ac-api}
 
 [!DNL Adobe Campaign] 에는 사용할 수 있는 Javascript 함수 세트가 포함되어 있습니다.
 
@@ -22,10 +22,10 @@ ht-degree: 7%
 
 JavaScript API를 사용하여 Campaign 클라우드 데이터베이스에 작성하거나 데이터베이스에서 읽을 수 있습니다.
 
-* 각 객체에 대해 작업을 수행할 수 있는 비즈니스 특정 API:게재, 워크플로우, 구독 등. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html)를 참조하십시오.
-* 데이터 모델 데이터를 쿼리하기 위한 일반 데이터 액세스 API. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html)를 참조하십시오.
+* 각 객체에 대해 작업을 수행할 수 있는 비즈니스 특정 API: 게재, 워크플로우, 구독 등. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html)를 참조하세요.
+* 데이터 모델 데이터를 쿼리하기 위한 일반 데이터 액세스 API. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html)를 참조하세요.
 
-Campaign v8은 두 개의 데이터베이스에서 작동합니다.API를 통해 실시간 메시징 및 단일 쿼리 및 쓰기를 위한 사용자 인터페이스의 로컬 데이터베이스, 캠페인 실행, 보고, 데이터 수집, 배치 쿼리 및 워크플로우 실행을 위한 클라우드 데이터베이스.
+Campaign v8은 두 개의 데이터베이스에서 작동합니다. API를 통해 실시간 메시징 및 단일 쿼리 및 쓰기를 위한 사용자 인터페이스의 로컬 데이터베이스, 캠페인 실행, 보고, 데이터 수집, 배치 쿼리 및 워크플로우 실행을 위한 클라우드 데이터베이스.
 
 >[!CAUTION]
 >
@@ -49,13 +49,13 @@ API를 사용하고 [!DNL Adobe Campaign]과 상호 작용하려면 데이터 �
 
 [!DNL Campaign] 클라우드 데이터베이스를 사용하면 성능(지연 및 동시성)으로 인해 단일 호출을 권장하지 않습니다. 배치 작업이 항상 선호됩니다. API의 최적 성능을 보장하기 위해 Campaign은 로컬 데이터베이스 수준에서 API 호출을 계속 처리합니다.
 
-[!DNL :bulb:] [API 스테이징 메커니즘은 이 페이지에 자세히 설명되어 있습니다](staging.md)
+?? [API 스테이징 메커니즘이 이 이 페이지에 자세히 설명되어 있습니다](staging.md)
 
 ## 새 API
 
 새 API는 [!DNL Campaign] 로컬 데이터베이스와 클라우드 데이터베이스 간의 데이터 동기화를 관리하는 데 사용할 수 있습니다. 지연을 방지하고 전체 성능을 향상시키기 위해 로컬 데이터베이스 수준에서 API 호출을 처리하는 새로운 메커니즘이 도입되었습니다.
 
-[!DNL :bulb:] [새 API는 이 페이지에 자세히 설명되어 있습니다](new-apis.md)
+?? [새 API는 이 페이지에 자세히 설명되어 있습니다](new-apis.md)
 
 **관련 항목**
 
