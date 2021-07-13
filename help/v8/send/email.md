@@ -5,10 +5,10 @@ description: Campaign에서 이메일 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: e65750c4e9ebd0367f0430455cac2cc6502ade7e
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 이메일 게재를 사용하면 개인화된 이메일을 대상 모집단으로 보낼 수 있습니다.
 
-[!DNL :arrow_upper_right:] 자세한 내용은  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html)를 참조하십시오.
+↗️ 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html)를 참조하세요.
 
 ## 첫 번째 이메일 게재 만들기
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 1. **템플릿을 선택합니다**
 
-   게재 템플릿을 선택한 다음 게재의 이름을 지정합니다. 이 이름은 수신자가 아니라 Adobe Campaign 콘솔 사용자만 볼 수 있지만 게재 목록에는 이 제목이 표시됩니다. **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
+   게재 템플릿을 선택한 다음 게재의 이름을 지정합니다. 이 이름은 수신자가 아니라 Adobe Campaign 콘솔 사용자만 볼 수 있지만 게재 목록에는 이 제목이 표시됩니다. **[!UICONTROL Continue]**&#x200B;를 클릭합니다.
 
    ![](assets/dce_delivery_model.png)
 
@@ -72,28 +72,28 @@ ht-degree: 5%
       수신자가 웹 브라우저에서 게재 콘텐츠를 볼 수 있도록 하려면 메시지의 미러 페이지에 링크를 추가합니다.
 
       이 링크를 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 **[!UICONTROL Include]** 을 클릭하고 **[!UICONTROL link to mirror page]** 를 선택합니다.
-   컨텐츠가 준비되면 **저장**&#x200B;을 클릭합니다.이제 **[!UICONTROL Campaigns > Deliveries]** 탭의 게재 목록에 표시됩니다. 첫 번째 이메일 게재가 준비되었습니다. 이제 대상을 정의하고, 게재의 유효성을 확인하고, 전송해야 합니다.
+   컨텐츠가 준비되면 **저장**&#x200B;을 클릭합니다. 이제 **[!UICONTROL Campaigns > Deliveries]** 탭의 게재 목록에 표시됩니다. 첫 번째 이메일 게재가 준비되었습니다. 이제 대상을 정의하고, 게재의 유효성을 확인하고, 전송해야 합니다.
 
 
 자세한 내용은 Campaign Classic v7 설명서의 이러한 섹션에서 알아보십시오.
 
 * Campaign에서 이메일 디자인
-   [!DNL :arrow_upper_right:] [이메일 디자인 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
+↗️ [이메일을 디자인하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
 * 이메일 콘텐츠 가져오기
-   [!DNL :arrow_upper_right:] [사용 사례:게재 콘텐츠를 로드하는 워크플로우 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
+↗️ [사용 사례: 게재 콘텐츠를 로드하는 워크플로우 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
 * 이메일 템플릿 만들기 및 사용
-   [!DNL :arrow_upper_right:] [이메일 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko)
+↗️ [이메일 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko)
 * 이메일 대상자를 선택합니다
-   [!DNL :arrow_upper_right:] [대상 모집단을 정의하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
+↗️ [대상 모집단을 정의하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
 * 게재 유효성 검사 및 증명 보내기
-   [!DNL :arrow_upper_right:] [게재의 유효성을 검사하는 주요 단계를 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+↗️ [게재의 유효성을 검사하는 주요 단계를 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 * [시드 주소 추가](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
 
 ## 이메일 테스트 및 유효성 검사
 
 Campaign은 대상자에게 이메일을 보내기 전에 전자 메일을 테스트하고 확인하는 몇 가지 방법을 제공합니다.
 
-[!DNL :arrow_upper_right:] [Campaign Classic v7 설명서에 나열된 우수 사례 적용](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)
+↗️ [Campaign Classic v7 설명서에 나열된 우수 사례 적용](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)
 
 다음을 수행할 수 있습니다.
 
@@ -103,11 +103,11 @@ Campaign은 대상자에게 이메일을 보내기 전에 전자 메일을 테�
 * 컨트롤 그룹 사용
 * 전자 메일 렌더링 확인
 
-[!DNL :arrow_upper_right:] [자세한 내용은 Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+↗️ [Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 
 ## 이메일 모니터링
 
 전송되면 게재 대시보드에서 게재 상태를 확인하고 게재 로그 및 보고서에 액세스하여 메시지가 올바르게 전송되었는지 확인합니다.
 
-[!DNL :arrow_upper_right:] [자세한 내용은 Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
+↗️ [Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
 
