@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -30,14 +30,14 @@ Android 및 iOS에서 지원되는 버전 및 Campaign v8용 Campaign SDK 호환
 
 Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자가 개발자에게 다음 정보를 제공해야 합니다.
 
-* **통합 키**:Adobe Campaign 플랫폼을 활성화하여 모바일 애플리케이션을 식별합니다.
+* **통합 키**: Adobe Campaign 플랫폼을 활성화하여 모바일 애플리케이션을 식별합니다.
 
    >[!NOTE]
    >
    >이 통합 키는 모바일 애플리케이션 전용 서비스의 **[!UICONTROL Information]** 탭에 있는 Adobe Campaign 콘솔에 입력합니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#creating-ios-app)를 참조하십시오.
 
-* **추적 URL**:Adobe Campaign 추적 서버의 주소와 일치합니다.
-* **마케팅 URL**:을 클릭하여 구독을 수집할 수 있습니다.
+* **추적 URL**: Adobe Campaign 추적 서버의 주소와 일치합니다.
+* **마케팅 URL**: 을 클릭하여 구독을 수집할 수 있습니다.
 
 * **Android에서**:
 
@@ -58,7 +58,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
 ## Android SDK 통합
 
-Android SDK는 JAVA로 작성된 jar 라이브러리입니다. Android 개발자는 이 플러그인을 사용하여 Adobe Campaign과 통합할 수 있습니다.새 장치를 등록하고, 장치를 사용자에게 연결하고, 동작을 추적하는 등의 작업을 수행할 수 있습니다.
+Android SDK는 JAVA로 작성된 jar 라이브러리입니다. Android 개발자는 이 플러그인을 사용하여 Adobe Campaign과 통합할 수 있습니다. 새 장치를 등록하고, 장치를 사용자에게 연결하고, 동작을 추적하는 등의 작업을 수행할 수 있습니다.
 
 이 섹션에서는 [Google Firebase Cloud Messaging(FCM)](https://firebase.google.com/docs/cloud-messaging/)을 구현하는 Android 애플리케이션에서 Android SDK를 사용하는 방법을 알아봅니다.
 
@@ -225,7 +225,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 1. **Firebase 메시징 서비스 구성**
 
-   `onMessageReceived` 콜백에서 `FirebaseMessagingService`을 확장하여 메시지를 수신합니다. 모바일 장치에서 알림 수신을 추적하기 위해 `onMessageReceived` 콜백이 호출될 때 `notifyReceive` 함수를 호출하는 것이 좋습니다. Adobe Campaign에서 이 알림의 이름은 **print** 알림입니다.이 함수는 OS에서 알림을 표시하도록 요청하기 바로 전에 호출해야 합니다.
+   `onMessageReceived` 콜백에서 `FirebaseMessagingService`을 확장하여 메시지를 수신합니다. 모바일 장치에서 알림 수신을 추적하기 위해 `onMessageReceived` 콜백이 호출될 때 `notifyReceive` 함수를 호출하는 것이 좋습니다. Adobe Campaign에서 이 알림의 이름은 **print** 알림입니다. 이 함수는 OS에서 알림을 표시하도록 요청하기 바로 전에 호출해야 합니다.
 
    YourApplicationMessagingService.java
 
@@ -497,7 +497,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    알림 메시지의 경우 추적 수신은 두 가지 수준에서 구성해야 합니다.
 
-   * `onMessageReceived` (응용 프로그램이 백그라운드에 없음):구현은 이전 섹션에서 수행되었습니다
+   * `onMessageReceived` (응용 프로그램이 백그라운드에 없음): 구현은 이전 섹션에서 수행되었습니다
    * `onCreate` 론치 활동(또는 함수를 사용하는 경우 타깃팅된  `click_action`활동)의 호출. (응용 프로그램이 백그라운드에 없습니다.)
 
    열기/클릭 추적과 동시에 수행해야 합니다.
@@ -797,7 +797,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드와 Adobe Campaign 콘솔의 전용 모바일 애플리케이션 서비스의 **[!UICONTROL Variables]** 탭에서 정의해야 합니다.
 
-[!DNL :arrow_upper_right:] 모바일 앱에 대한  **Campaign Classic v7** 설명서에서 자세히 알아보십시오. [iOS ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} 및 Android에 대한  [구성 단계](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
+↗️ 모바일 앱의 **Campaign Classic v7 설명서**&#x200B;에서 자세히 알아보십시오. [iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} 및 [Android](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}에 대한 구성 단계.
 
 다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있도록 하는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
 
