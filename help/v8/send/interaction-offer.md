@@ -5,10 +5,10 @@ description: 오퍼를 만드는 방법을 알아봅니다
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 3%
 
 이 기간이 지나면 오퍼가 선택되지 않습니다. 오퍼 카테고리에 대한 자격 날짜도 구성한 경우 가장 제한적인 기간이 적용됩니다.
 
-### 대상 {#filters-on-the-target}에 필터 추가
+### 타겟에 필터 추가 {#filters-on-the-target}
 
 오퍼의 **[!UICONTROL Eligibility]** 탭에서 필터를 오퍼 대상에 적용합니다.
 
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 ![](assets/offer_eligibility_create_004.png)
 
-### 오퍼 가중치 {#offer-weight} 설정
+### 오퍼 가중치 설정 {#offer-weight}
 
 엔진이 Target이 사용할 수 있는 여러 오퍼 중에서 결정하도록 하려면 오퍼에 하나 이상의 가중치를 지정해야 합니다. 필요한 경우 필터를 대상에 적용하거나 가중치가 적용될 오퍼 공간을 제한할 수도 있습니다. 가중치가 더 큰 오퍼는 더 적은 무게의 오퍼보다 선호될 것이다.
 
@@ -108,7 +108,7 @@ ht-degree: 3%
 
 ![](assets/offer_eligibility_create_005.png)
 
-## 오퍼 컨텐츠 {#creating-the-offer-content} 를 만듭니다
+## 오퍼 컨텐츠 만들기 {#creating-the-offer-content}
 
 **[!UICONTROL Content]** 탭을 사용하여 오퍼 컨텐츠를 정의합니다.
 
@@ -116,10 +116,10 @@ ht-degree: 3%
 
 1. 오퍼 컨텐츠의 다양한 매개 변수를 정의합니다.
 
-   * **[!UICONTROL Title]** :오퍼에 표시할 제목을 지정합니다. 경고:이것은 **[!UICONTROL General]** 탭에 정의된 오퍼의 레이블을 참조하지 않습니다.
-   * **[!UICONTROL Destination URL]** :오퍼의 URL을 지정합니다. &quot;http://&quot; 또는 &quot;https://&quot;으로 시작해야 합니다.
-   * **[!UICONTROL Image URL]** :오퍼 이미지에 대한 URL 또는 액세스 경로를 지정합니다.
-   * **[!UICONTROL HTML content]** /  **[!UICONTROL Text content]** :원하는 탭에 오퍼 본문을 입력합니다. 추적을 생성하려면 **[!UICONTROL HTML content]** 을 `<div>` 유형 요소로 묶을 수 있는 HTML 요소로 구성해야 합니다. 예를 들어 HTML 페이지에서 `<table>` 요소의 결과는 다음과 같습니다.
+   * **[!UICONTROL Title]** : 오퍼에 표시할 제목을 지정합니다. 경고: 이것은 **[!UICONTROL General]** 탭에 정의된 오퍼의 레이블을 참조하지 않습니다.
+   * **[!UICONTROL Destination URL]** : 오퍼의 URL을 지정합니다. &quot;http://&quot; 또는 &quot;https://&quot;으로 시작해야 합니다.
+   * **[!UICONTROL Image URL]** : 오퍼 이미지에 대한 URL 또는 액세스 경로를 지정합니다.
+   * **[!UICONTROL HTML content]** /  **[!UICONTROL Text content]** : 원하는 탭에 오퍼 본문을 입력합니다. 추적을 생성하려면 **[!UICONTROL HTML content]** 을 `<div>` 유형 요소로 묶을 수 있는 HTML 요소로 구성해야 합니다. 예를 들어 HTML 페이지에서 `<table>` 요소의 결과는 다음과 같습니다.
 
    ```
       <div> 
@@ -146,7 +146,7 @@ ht-degree: 3%
 
    이 예에서 오퍼에는 제목, 이미지, HTML 콘텐츠 및 대상 URL이 포함되어야 합니다.
 
-## 오퍼 {#previewing-the-offer} 미리 보기
+## 오퍼 미리 보기 {#previewing-the-offer}
 
 오퍼 컨텐츠가 구성되면 수신자에 대해 표시될 오퍼를 미리 볼 수 있습니다.
 
@@ -182,13 +182,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 이제 오퍼를 승인하고 활성화하여 **Live** 환경에서 사용할 수 있도록 할 수 있습니다.
 
-[!DNL :arrow_upper_right:] 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
+↗️ 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)를 참조하세요
 
 ## 오퍼 프레젠테이션 관리{#offer-presentation}
 
 Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 프로필의 흐름을 제어할 수 있습니다. Campaign 상호 작용에 고유한 이러한 규칙은 **유형화 규칙**&#x200B;입니다. 수신자에게 이미 수행된 proposition 내역을 기반으로 오퍼를 제외할 수 있습니다. 환경에서 참조됩니다.
 
-[!DNL :arrow_upper_right:] 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
+↗️ 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)를 참조하세요
 
 ## 오퍼 시뮬레이션
 
@@ -196,4 +196,4 @@ Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 프로
 
 시뮬레이션은 오퍼와 해당 프레젠테이션 규칙에 이전에 적용된 컨텍스트 및 자격 규칙을 고려합니다. 이렇게 하면 시뮬레이션이 타겟팅된 수신자에게 영향을 주지 않으므로 오퍼를 실제로 사용하거나 대상을 지나치게 모집하지 않고 다양한 버전의 오퍼 제안을 테스트하고 세분화할 수 있습니다.
 
-[!DNL :arrow_upper_right:] 오퍼 시뮬레이션에 대한 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
+↗️ 오퍼 시뮬레이션에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en) 를 참조하십시오
