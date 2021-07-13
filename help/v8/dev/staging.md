@@ -5,7 +5,7 @@ description: Campaign API 스테이징 메커니즘
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 2%
@@ -24,7 +24,7 @@ Campaign 스테이징 기능은 일부 기본 제공 스키마에서 기본적�
 
 일부 기본 제공 스키마는 nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient와 같이 기본적으로 준비됩니다.
 
-Campaign Classic v7 API는 계속 사용할 수 있지만 이 새로운 스테이징 메커니즘을 사용할 수는 없습니다.API 호출은 클라우드 데이터베이스에 직접 연결되도록 플로우됩니다. Adobe은 Campaign Cloud 데이터베이스의 전체 압력 및 지연을 줄이기 위해 가능한 한 새로운 스테이징 메커니즘을 사용하는 것이 좋습니다.
+Campaign Classic v7 API는 계속 사용할 수 있지만 이 새로운 스테이징 메커니즘을 사용할 수는 없습니다. API 호출은 클라우드 데이터베이스에 직접 연결되도록 플로우됩니다. Adobe은 Campaign Cloud 데이터베이스의 전체 압력 및 지연을 줄이기 위해 가능한 한 새로운 스테이징 메커니즘을 사용하는 것이 좋습니다.
 
 >[!CAUTION]
 >
@@ -56,7 +56,7 @@ Campaign Classic v7 API는 계속 사용할 수 있지만 이 새로운 스테�
    </srcSchema>
    ```
 
-   [!DNL :bulb:]  [이 페이지에서 사용자 지정 스키마 만들기에 대한 자세한 내용을 살펴보십시오](create-schema.md).
+   ?? [이 페이지](create-schema.md)에서 사용자 지정 스키마 만들기에 대해 자세히 알아보십시오.
 
 1. 데이터베이스 구조를 저장하고 업데이트합니다.  [자세히 알아보기](update-database-structure.md)
 
