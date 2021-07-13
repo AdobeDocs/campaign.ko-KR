@@ -6,16 +6,16 @@ feature: 대상자
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
-# 대상 시작{#gs-ac-audiences}
+# 대상자 시작{#gs-ac-audiences}
 
-## 프로필 작업{#gs-ac-profiles}
+## 프로필을 사용한 작업{#gs-ac-profiles}
 
 프로필은 고객, 구독자 및 잠재 고객을 포함하여 Campaign 데이터베이스에 저장된 연락처입니다. 프로필을 가져오고 이 데이터베이스를 빌드하는 데 사용할 수 있는 메커니즘은 웹 양식을 통한 온라인 수집, 텍스트 파일 수동 또는 자동 가져오기, 회사 데이터베이스 또는 기타 정보 시스템을 사용한 복제와 같이 다양합니다. Adobe Campaign을 사용하면 마케팅 기록, 구매 정보, 환경 설정, CRM 데이터 및 관련 API 데이터를 통합 뷰에 통합하여 분석하고 조치를 취할 수 있습니다. 프로필에는 타겟팅, 자격 부여 및 개인 추적에 필요한 모든 정보가 포함되어 있습니다.
 
@@ -36,52 +36,52 @@ Adobe Campaign에서 **수신자**&#x200B;는 게재(전자 메일, SMS 등)를 
 ![](assets/create-profile.png)
 
 
-[!DNL :arrow_upper_right:]  [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html){target=&quot;_blank&quot;}에서 프로필을 관리하는 방법을 알아봅니다.
+↗️ [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html){target=&quot;_blank&quot;}에서 프로필을 관리하는 방법을 알아봅니다.
 
 
 ## 개인 정보 보호 및 동의
 
 Adobe Campaign은 개인 정보와 중요한 데이터를 포함한 많은 양의 데이터를 수집하고 처리할 수 있는 강력한 데이터 도구입니다. Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다.
 
-[!DNL :arrow_upper_right:]  [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target=&quot;_blank&quot;}에서 개인 정보 및 동의를 관리하는 방법을 알아봅니다.
+↗️ [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target=&quot;_blank&quot;}에서 개인 정보 및 동의를 관리하는 방법을 알아봅니다.
 
 ## 목록 만들기
 
 목록은 게재 작업에서 타겟팅되거나 가져오기 작업 또는 워크플로우 실행 중에 업데이트될 수 있는 정적 프로필 세트입니다. 예를 들어 쿼리를 통해 데이터베이스에서 추출한 모집단은 목록을 제공할 수 있습니다.
 
-[!DNL :arrow_upper_right:]  [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html){target=&quot;_blank&quot;}에서 목록을 만들고 관리하는 방법을 알아봅니다.
+↗️ [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html){target=&quot;_blank&quot;}에서 목록을 만들고 관리하는 방법을 알아봅니다.
 
 ## 데이터베이스를 쿼리합니다.
 
 워크플로우에서 **쿼리** 활동을 사용하여 데이터베이스를 쿼리하고, 세그먼트 데이터를 쿼리하고, 복잡한 대상을 빌드하십시오.
 
-[!DNL :arrow_upper_right:]  [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/targeting-data.html){target=&quot;_blank&quot;}의 Campaign 쿼리에 대해 자세히 알아보십시오.
+↗️ [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/targeting-data.html){target=&quot;_blank&quot;}에서 Campaign 쿼리에 대해 자세히 알아보십시오.
 
-[!DNL :arrow_upper_right:] 모든 타깃팅 활동은  [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}에 나열되어 있습니다.
+↗️ 모든 타깃팅 활동은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}에 나열되어 있습니다.
 
 ## 워크플로우에서 대상자 만들기
 
 워크플로우의 그래픽 시퀀스에서 쿼리 조합을 통해 타겟팅을 만들 수 있습니다. 요구 사항에 따라 타겟팅할 대상을 만들 수 있습니다. 워크플로우 편집기를 표시하려면 캠페인 대시보드에서 **[!UICONTROL Targeting and workflows]** 탭을 클릭합니다.
 
-[!DNL :arrow_upper_right:]  [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}에서 캠페인 워크플로우에서 대상을 만드는 방법을 알아봅니다.
+↗️ [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}에서 캠페인 워크플로우에서 대상을 만드는 방법을 알아봅니다.
 
 
 ## 활성 프로필{#active-profiles}
 
 계약에 따라 각 캠페인 인스턴스에는 청구 용도로 계산되는 특정 양의 활성 프로필이 제공됩니다. 구입한 활성 프로필 수에 대한 자세한 내용은 최신 계약서를 참조하십시오.
 
-**** 정보 레코드(예:최종 고객,  [잠재 고객 ](../dev/datamodel.md) 또는 리드를 나타내는 쿠키 ID, 고객 ID, 모바일 식별자 또는 특정 채널과 관련된 기타 정보가 포함된 외부 테이블 또는 수신자 테이블의 레코드. 지난 12개월 이내에 모든 채널을 통해 프로필을 타겟팅하거나 통신한 경우 프로필이 활성 상태로 간주됩니다.
+**** 정보 레코드(예: 최종 고객,  [잠재 고객 ](../dev/datamodel.md) 또는 리드를 나타내는 쿠키 ID, 고객 ID, 모바일 식별자 또는 특정 채널과 관련된 기타 정보가 포함된 외부 테이블 또는 수신자 테이블의 레코드. 지난 12개월 이내에 모든 채널을 통해 프로필을 타겟팅하거나 통신한 경우 프로필이 활성 상태로 간주됩니다.
 
 <!--
 You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
 
-[!DNL :arrow_upper_right:] For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+↗️ For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
 
 **Campaign Classic** v7 설명서의 관련 항목:
 
-[!DNL :arrow_upper_right:] [캠페인 특정 워크플로우](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html){target=&quot;_blank&quot;} 디자인 및 실행
+↗️ [캠페인 관련 워크플로우 디자인 및 실행](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [캠페인](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html) {target=&quot;_blank&quot;}의 대상자를 선택하는 방법을 알아봅니다
+↗️ [campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html){target=&quot;_blank&quot;} 대상자를 선택하는 방법을 알아봅니다.
 
-[!DNL :arrow_upper_right:] [워크플로우](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html) {target=&quot;_blank&quot;} 시작
+↗️ [워크플로우 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html){target=&quot;_blank&quot;}
