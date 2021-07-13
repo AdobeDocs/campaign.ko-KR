@@ -6,10 +6,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: ht
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -23,13 +23,13 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    이러한 정기 업데이트 빈도는 최신 업데이트를 직접 경험해 보고 사용 환경을 안전하게 지키며 Adobe 제품 경험을 향상시키는 것을 목표로 합니다. 이 때문에 Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 생각합니다.
 
-   [!DNL :speech_balloon:] Adobe는 새 릴리스가 나올 때마다 관리 클라우드 서비스 사용자의 인스턴스를 업그레이드합니다.
+   ?? Adobe는 새 릴리스가 나올 때마다 관리 클라우드 서비스 사용자의 인스턴스를 업그레이드합니다.
 
 1. **Campaign v8에 연결하는 방법은 무엇인가요?**
 
    Adobe Campaign에 연결하려면 Campaign 클라이언트 콘솔을 다운로드하여 설치해야 합니다.
 
-   [!DNL :bulb:] [여기를 클릭하여 자세한 내용을 확인](connect.md)하세요.
+   ?? [여기를 클릭하여 자세한 내용을 확인](connect.md)하세요.
 
 1. **Campaign v8을 온-프레미스 또는 하이브리드 환경에 설치할 수 있나요?**
 
@@ -39,9 +39,9 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    모든 발신자의 마케팅 프로그램 성공에 중요한 구성 요소인 이메일 전달성의 특징은 기준 및 규칙이 계속 변한다는 것입니다. 이 디지털 세상을 효과적으로 탐색하려면 주요 전달성 트렌드를 고려하여 이메일 전략을 정기적으로 조정함으로써 대상자에게 가장 효과적으로 도달해야 합니다.
 
-   [전달성 모범 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target=&quot;_blank&quot;}를 [!DNL :arrow_upper_right:]알아보려면 이 안내서를 참조하십시오
+   ↗️ [배달 우수 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target=&quot;_blank&quot;}에 대해 알아보려면 이 안내서를 참조하십시오
 
-    [이 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko){target=&quot;_blank&quot;}에서 [!DNL :arrow_upper_right:]Campaign에 전달성을 구현하는 방법을 알아봅니다
+   ↗️ 이 안내서에서 Campaign [에 게재 능력을 구현하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko){target=&quot;_blank&quot;}
 
 1. **게재가 오류 없이 전송되도록 하려면 어떻게 해야 하나요?**
 
@@ -51,7 +51,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
 1. **워크플로우 실행을 모니터링할 수 있습니까?**
 
-   [!DNL :arrow_upper_right:] Campaign 워크플로우 실행을 모니터링하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=ko)를 참조하십시오{target=&quot;_blank&quot;}
+   ↗️ Campaign 워크플로우 실행을 모니터링하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=ko)를 참조하십시오{target=&quot;_blank&quot;}
 
 1. **Campaign v8과 호환되는 시스템과 구성 요소에는 무엇이 있나요?**
 
@@ -61,7 +61,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    하위 도메인은 브랜드나 다양한 트래픽 유형(트랜잭션 메시지, 마케팅 정보 등)을 분리하는 데 사용할 수 있는 도메인의 개별 부분입니다.
 
-   [!DNL :speech_balloon:] 관리 클라우드 서비스 사용자는 [Adobe에 문의](../start/campaign-faq.md#support)하여 하위 도메인을 Adobe에 위임할 수 있습니다.
+   ?? 관리 클라우드 서비스 사용자는 [Adobe에 문의](../start/campaign-faq.md#support)하여 하위 도메인을 Adobe에 위임할 수 있습니다.
 
 1. **Campaign Classic v7 사용자는 Campaign v8로 마이그레이션할 수 있나요?**
 
