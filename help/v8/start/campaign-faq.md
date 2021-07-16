@@ -6,10 +6,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 96%
+source-wordcount: '663'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    하위 도메인은 브랜드나 다양한 트래픽 유형(트랜잭션 메시지, 마케팅 정보 등)을 분리하는 데 사용할 수 있는 도메인의 개별 부분입니다.
 
-   ?? 관리 클라우드 서비스 사용자는 [Adobe에 문의](../start/campaign-faq.md#support)하여 하위 도메인을 Adobe에 위임할 수 있습니다.
+   ?? 관리 클라우드 서비스 사용자는 Adobe에 문의하여 하위 도메인을 Adobe에 위임할 수 있습니다.
 
 1. **Campaign Classic v7 사용자는 Campaign v8로 마이그레이션할 수 있나요?**
 
@@ -71,7 +71,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    Adobe 다운로드 센터에서 설치 프로그램과 클라이언트 콘솔을 다운로드할 수 있습니다.
 
-   [여기를 클릭](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target=&quot;_blank&quot;}하여 Experience Cloud 소프트웨어 배포에 액세스합니다.
+   관리 사용자는 Adobe [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target=&quot;_blank&quot;}에 액세스하여 Adobe Campaign을 다운로드합니다.
 
    [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target=&quot;_blank&quot;}에서 배포 센터에 대해 자세히 알아봅니다.
 
