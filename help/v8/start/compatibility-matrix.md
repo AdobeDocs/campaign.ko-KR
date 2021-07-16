@@ -6,7 +6,7 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 610a818c1f5d8a43ea55659a3c5b46676405415d
+source-git-commit: f51c36ed426d200a4636290eb4fa1be6b077f976
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 96%
@@ -15,13 +15,9 @@ ht-degree: 96%
 
 # Campaign v8 호환성 표
 
-이 문서는 **Adobe Campaign v8**&#x200B;의 최신 빌드를 지원하는 모든 시스템 및 구성 요소를 나열합니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
+이 문서는 **Adobe Campaign v8**&#x200B;의 최신 빌드를 지원하는 모든 시스템 및 구성 요소를 나열합니다. 별도로 언급되지 않는 한 모든 마이너 릴리스도 지원됩니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
 
->[!CAUTION]
->
->* 별도로 언급되지 않는 한 모든 마이너 릴리스도 지원됩니다.
->* 이러한 타사 시스템 및 도구의 특정 버전이 EOL(End-of-Life)에 도달함에 따라 Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며 이후 이 호환성 매트릭스에서 제거됩니다. 문제가 생기지 않도록 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
-
+이러한 타사 시스템 및 도구의 특정 버전이 EOL(End-of-Life)에 도달함에 따라 Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며 이후 이 호환성 매트릭스에서 제거됩니다. 문제가 생기지 않도록 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
 
 ## 클라이언트 콘솔{#ClientConsoleoperatingsystems}
 
