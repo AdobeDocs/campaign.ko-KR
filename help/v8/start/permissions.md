@@ -6,10 +6,10 @@ description: Campaign v8에 권한을 부여하는 방법 알아보기
 feature: 대상자
 role: Data Engineer
 level: Beginner
-source-git-commit: a57855556751e85e7a1f7751a103ca157f434a8a
+source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 5%
+source-wordcount: '383'
+ht-degree: 7%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign에는 캠페인 관리자 또는 워크플로우 감독자와 같
 
 연산자는 콘솔의 프로필에서 보안 영역에 연결되며 **[!UICONTROL Administration > Access management > Operators]** 노드에서 액세스할 수 있습니다.
 
-?? Adobe은 관리되는 Cloud Services 사용자로 보안 영역을 설정합니다. 자세한 내용은 [Adobe](support.md#support)에 문의하십시오.
+?? Adobe은 관리되는 Cloud Services 사용자로 보안 영역을 설정합니다. 자세한 내용은 [Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}에 문의하십시오.
 
 **Campaign Classic v7 설명서에서 자세히 알아보기**
 
