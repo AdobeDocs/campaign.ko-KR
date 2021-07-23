@@ -9,7 +9,7 @@ exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d7
 source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -23,13 +23,13 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    이러한 정기 업데이트 빈도는 최신 업데이트를 직접 경험해 보고 사용 환경을 안전하게 지키며 Adobe 제품 경험을 향상시키는 것을 목표로 합니다. 이 때문에 Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 생각합니다.
 
-   ?? Adobe는 새 릴리스가 나올 때마다 관리 클라우드 서비스 사용자의 인스턴스를 업그레이드합니다.
+   ?? Adobe는 새 릴리스가 나올 때마다 관리 Cloud Services 사용자 인스턴스를 업그레이드합니다.
 
 1. **Campaign v8에 연결하는 방법은 무엇인가요?**
 
    Adobe Campaign에 연결하려면 Campaign 클라이언트 콘솔을 다운로드하여 설치해야 합니다.
 
-   ?? [여기를 클릭하여 자세한 내용을 확인](connect.md)하세요.
+   ?? [여기를 클릭하여 자세히 알아봅니다](connect.md).
 
 1. **Campaign v8을 온-프레미스 또는 하이브리드 환경에 설치할 수 있나요?**
 
@@ -39,9 +39,9 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    모든 발신자의 마케팅 프로그램 성공에 중요한 구성 요소인 이메일 전달성의 특징은 기준 및 규칙이 계속 변한다는 것입니다. 이 디지털 세상을 효과적으로 탐색하려면 주요 전달성 트렌드를 고려하여 이메일 전략을 정기적으로 조정함으로써 대상자에게 가장 효과적으로 도달해야 합니다.
 
-   ↗️ [배달 우수 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target=&quot;_blank&quot;}에 대해 알아보려면 이 안내서를 참조하십시오
+   이 안내서를 참조하여 [전달성 모범 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target=&quot;_blank&quot;}를 알아보기
 
-   ↗️ 이 안내서에서 Campaign [에 게재 능력을 구현하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko){target=&quot;_blank&quot;}
+   [이 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko){target=&quot;_blank&quot;}에서 Campaign에 전달성을 구현하는 방법 알아보기
 
 1. **게재가 오류 없이 전송되도록 하려면 어떻게 해야 하나요?**
 
