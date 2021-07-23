@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 불러오고, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 표에 직접 프로필 정보를 입력할 수 있습니다.
 
-?? [audiences](audiences.md) 시작
+?? [Audiences](audiences.md) 시작
 ?? Campaign [데이터 모델](../dev/datamodel.md) 이해
 
 ## 워크플로우에서 프로필 가져오기
@@ -28,7 +28,7 @@ Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 
 
 Campaign Classic v7 설명서에서 자세히 알아보기:
 
-↗️ [가져오기 및 내보내기 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=ko){target=&quot;_blank&quot;}
+↗️ [가져오기 및 내보내기 ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=ko){target=&quot;_blank&quot;}
 
 ↗️ [가져오기 및 내보내기 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=ko){target=&quot;_blank&quot;}
 
@@ -40,7 +40,7 @@ Campaign Classic v7 설명서에서 자세히 알아보기:
 
 ![](assets/new-import.png)
 
-↗️ 단일 가져오기 작업을 실행하여 데이터베이스에 데이터를 피드하는 방법은 [Campaign Classic v7설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ko)를 참조하십시오{target=&quot;_blank&quot;}.
+↗️ [Campaign Classic v7설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ko){target=&quot;_blank&quot;}에서 단일 가져오기 작업을 실행하여 데이터베이스에 데이터를 피드하는 방법을 알아봅니다.
 
 ## 웹 앱을 통해 프로필 수집
 
@@ -48,7 +48,7 @@ Campaign을 사용하여 웹 양식을 만들고 쉽고 효율적으로 프로�
 
 ![](assets/web-form-page.png)
 
-↗️ 웹 양식을 만드는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ko)를 참조하십시오{target=&quot;_blank&quot;}.
+↗️ [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ko){target=&quot;_blank&quot;}에서 웹 양식을 만드는 방법을 알아봅니다.
 
 **관련 항목**
 
