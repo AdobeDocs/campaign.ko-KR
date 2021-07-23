@@ -8,9 +8,9 @@ level: Beginner
 hidefromtoc: true
 hide: true
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,4 +55,4 @@ Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스
 * [인스턴스 세부 정보](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ko){target=&quot;_blank&quot;}
 * [GPG 키 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko){target=&quot;_blank&quot;}
 
-↗️ [이 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target=&quot;_blank&quot;}에서 모든 Campaign 컨트롤 패널 기능을 검색하십시오
+[이 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target=&quot;_blank&quot;}에서 모든 Campaign 컨트롤 패널의 기능을 살펴봅니다.
