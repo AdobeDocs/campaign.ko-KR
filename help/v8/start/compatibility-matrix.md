@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: f51c36ed426d200a4636290eb4fa1be6b077f976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 96%
 
 ## Campaign 버전을 확인하는 방법 및 빌드
 
-**도움말 > 정보..** 메뉴에 액세스하여 버전을 확인합니다.
+**도움말 및 정보…** 메뉴에 액세스하여 버전을 확인하세요.
 
 ![](assets/ac-version.png)
 
