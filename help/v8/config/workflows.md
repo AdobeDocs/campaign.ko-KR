@@ -6,9 +6,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: cc8707c7765a47fc00d46283eb6588e63a98499d
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1546'
 ht-degree: 2%
 
 ---
@@ -35,12 +35,59 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시
 워크플로우 사용자 인터페이스 및 Campaign Classic v7 설명서의 실행에 대해 자세히 알아보십시오.
 
 ↗️ [워크플로우 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
-* 워크플로우 활동:
-   * [타겟팅 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}: 쿼리, 읽기 목록, 데이터 보강, 결합 등
-   * [흐름 제어 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html){target=&quot;_blank&quot;}: 스케줄러, 포크, 경고, 외부 신호 등
-   * [작업 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}: 크로스 채널 게재, Javascript 코드, CRM 활동, 업데이트 집계 등
-   * [이벤트 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}: 파일 전송, 웹 다운로드 등↗️   [마케팅 캠페인 워크플로우에서 대상자 작성](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;} ↗️   [워크플로우 우수 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target=&quot;_blank&quot;} ↗️  [기본 제공 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;} ↗️  [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target=&quot;_blank&quot;}
 
+↗️ [워크플로우 우수 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target=&quot;_blank&quot;}
+
+↗️ [기본 제공 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
+
+↗️ [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target=&quot;_blank&quot;}
+
+↗️ [마케팅 캠페인 워크플로우에서 대상 작성](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}
+
+## 워크플로우 활동 {#wf-activities}
+
+↗️ 사용 가능한 워크플로우 활동 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target=&quot;_blank&quot;}에 대해 자세히 알아보십시오
+
+워크플로우 활동은 카테고리별로 그룹화됩니다. 네 가지 활동 카테고리를 사용할 수 있습니다.
+
+* [타겟팅 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}: 쿼리, 읽기 목록, 데이터 보강, 결합 등
+* [흐름 제어 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html){target=&quot;_blank&quot;}: 스케줄러, 포크, 경고, 외부 신호 등
+* [작업 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}: 크로스 채널 게재, Javascript 코드, CRM 활동, 업데이트 집계 등
+* [이벤트 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}: 파일 전송, 웹 다운로드 등
+
+### 데이터 소스 활동 변경 {#change-data-source-activity}
+
+**[!UICONTROL Change data source]** 활동을 사용하면 워크플로우 **[!UICONTROL Working table]**&#x200B;의 데이터 소스를 변경할 수 있습니다. 이렇게 하면 FDA, FFDA 및 로컬 데이터베이스와 같은 다양한 데이터 소스에서 데이터를 관리할 수 있는 유연성이 높아집니다.
+
+Adobe Campaign 워크플로우에서는 **[!UICONTROL Working table]**을(를) 통해 데이터를 처리하고 워크플로우 활동과 데이터를 공유할 수 있습니다.
+기본적으로 **[!UICONTROL Working table]**&#x200B;은(는) 우리가 쿼리하는 데이터의 소스와 동일한 데이터베이스에 만들어집니다.
+
+예를 들어 클라우드 데이터베이스에 저장된 **[!UICONTROL Profiles]** 테이블을 쿼리할 때 동일한 클라우드 데이터베이스에 **[!UICONTROL Working table]**을(를) 만듭니다.
+이를 변경하려면 **[!UICONTROL Change Data Source]** 활동을 추가하여 **[!UICONTROL Working table]** 의 다른 데이터 소스를 선택할 수 있습니다.
+
+**[!UICONTROL Change Data Source]** 활동을 사용할 때는 워크플로우 실행을 계속하려면 클라우드 데이터베이스로 다시 전환해야 합니다.
+
+**[!UICONTROL Change Data Source]** 활동을 사용하려면
+
+1. 워크플로우 만들기.
+
+1. **[!UICONTROL Query]** 활동을 사용하여 타겟팅된 수신자를 쿼리합니다.
+
+   **[!UICONTROL Query]** 활동에 대한 자세한 내용은 Campaign Classic V7 설명서의 [쿼리](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) 페이지를 참조하십시오.
+
+1. **[!UICONTROL Targeting]** 탭에서 **[!UICONTROL Change data source]** 활동을 추가하고 두 번 클릭하여 **[!UICONTROL Default data source]** 를 선택합니다.
+
+   쿼리 결과가 포함된 작업 테이블이 기본 PostgreSQL 데이터베이스로 이동합니다.
+
+1. **[!UICONTROL Actions]** 탭에서 **[!UICONTROL JavaScript code]** 활동을 끌어다 놓아 작업 테이블에서 단일 작업을 수행합니다.
+
+   **[!UICONTROL JavaScript code]** 활동에 대한 자세한 내용은 Campaign Classic V7 설명서의 [JavaScript 코드 및 고급 JavaScript 코드](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/sql-code-and-javascript-code.html#javascript-code) 페이지를 참조하십시오.
+
+1. 다른 **[!UICONTROL Change data source]** 활동을 추가하여 클라우드 데이터베이스로 다시 전환합니다.
+
+   활동을 두 번 클릭하고 **[!UICONTROL Active FDA external account]** 을 선택한 다음 해당 외부 계정을 선택합니다.
+
+1. 이제 워크플로우를 시작할 수 있습니다.
 
 ## 반복 캠페인 설정
 
@@ -158,4 +205,34 @@ Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하
 * [쿼리](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/javascript-scripts-and-templates.html?lang=en#example){target=&quot;_blank&quot;}에서 인스턴스 변수를 호출합니다.
 
    인스턴스 변수를 사용하여 모집단에 적용할 분할 비율을 동적으로 계산하는 방법을 알아봅니다.
+
+<!--
+### Change data source activity {#data-source-uc}
+
+The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. 
+
+In this use case, learn how to use the **[!UICONTROL Change data source]** activity to perform unitary operations to insert or update information to the recipient table.
+
+![](assets/wf_data_source_uc.png)
+
+1. Create a workflow and add a **[!UICONTROL Start]** activity.
+
+1. Query your targeted recipients from the NmsRecipient table with a **[!UICONTROL Query]** activity. 
+
+    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) page in Campaign Classic V7 documentation.
+
+1. 
+
+1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
+    
+    The working table, which contains the result of your query, is then moved to the default PostgreSQL database.
+
+1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
+
+1. Add another **[!UICONTROL Change data source]** activity to revert back to the Cloud database. 
+    
+    Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
+
+1. Add an **[!UICONTROL End]** activity and start your workflow.
+-->
 
