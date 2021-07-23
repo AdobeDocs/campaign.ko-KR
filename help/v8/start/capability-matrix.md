@@ -6,10 +6,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: bfd2df90e5e6bee89bdfc7c5da82c755ac5726df
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 94%
+source-wordcount: '916'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 [!DNL Campaign Classic] 사용자는 [!DNL Campaign Classic] v7 기능 중 대부분을 [!DNL Campaign] v8에서도 사용할 수 있습니다(일부 예외: [이 섹션](#gs-removed) 참조). 다른 기능은 향후 릴리스에서 제공될 예정입니다. [이 섹션에서 자세히 알아보기](#gs-unavailable-features)
 
-?? [이 페이지](../dev/architecture.md)에서 [!DNL Campaign] v8 아키텍처에 대해 자세히 알아보십시오.
+[!DNL Campaign]v8 아키텍처에 대한 자세한 내용은 [이 페이지](../dev/architecture.md)를 참조하십시오.
 
 ## 제품 구성 변경 사항
 
@@ -74,13 +74,21 @@ Campaign 사용자는 데이터베이스 전문가가 될 필요가 없습니다
 
 ## Campaign에 연결
 
-Campaign 사용자는 Adobe ID을 통해 연결됩니다. 동일한 Adobe ID을 사용하여 모든 Adobe 계획 및 제품을 단일 계정과 연결된 상태로 유지합니다.
+Campaign 사용자는 Adobe ID을 통해 연결합니다. 동일한 Adobe ID을 사용하여 모든 Adobe 계획 및 제품을 단일 계정과 연결된 상태로 유지합니다.
 
 ?? [이 페이지](connect.md)에서 [!DNL Campaign]에 연결하는 방법을 알아봅니다.
 
 ## 보고
 
 Adobe Campaign 보고서는 최적화되어 있으며 Campaign Classic v7보다 더 나은 확장 기능을 제공합니다. 큐브에 대한 기존 제한 사항은 적용되지 않습니다.
+
+## 워크플로우 {#workflow}
+
+Campaign v8에서는 추가적인 타깃팅 워크플로우 활동을 제공합니다. **[!UICONTROL Change data source]**
+
+**[!UICONTROL Change data source]** 활동을 사용하면 워크플로우 **[!UICONTROL Working table]**&#x200B;의 데이터 소스를 변경하여 FDA, FFDA 및 로컬 데이터베이스와 같은 다양한 데이터 소스에서 데이터를 관리할 수 있습니다.
+
+?? [이 페이지](../config/workflows.md#change-data-source-activity)의 **[!UICONTROL Change data source]** 활동에 대해 자세히 알아보십시오.
 
 ## 사용할 수 없는 기능{#gs-unavailable-features}
 
