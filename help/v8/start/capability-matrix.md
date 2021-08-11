@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: bfd2df90e5e6bee89bdfc7c5da82c755ac5726df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '916'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -84,11 +84,11 @@ Adobe Campaign 보고서는 최적화되어 있으며 Campaign Classic v7보다 
 
 ## 워크플로우 {#workflow}
 
-Campaign v8에서는 추가적인 타깃팅 워크플로우 활동을 제공합니다. **[!UICONTROL Change data source]**
+Campaign v8에서는 추가적인 타겟팅 워크플로우 활동으로 **[!UICONTROL Change data source]**&#x200B;를 제공합니다.
 
-**[!UICONTROL Change data source]** 활동을 사용하면 워크플로우 **[!UICONTROL Working table]**&#x200B;의 데이터 소스를 변경하여 FDA, FFDA 및 로컬 데이터베이스와 같은 다양한 데이터 소스에서 데이터를 관리할 수 있습니다.
+**[!UICONTROL Change data source]** 활동을 사용하면 워크플로우의 데이터 소스 **[!UICONTROL Working table]**&#x200B;을 변경하여 FDA, FFDA 및 로컬 데이터베이스와 같은 다양한 데이터 소스에 걸쳐 데이터를 관리할 수 있습니다.
 
-?? [이 페이지](../config/workflows.md#change-data-source-activity)의 **[!UICONTROL Change data source]** 활동에 대해 자세히 알아보십시오.
+?? **[!UICONTROL Change data source]** 활동에 대한 자세한 내용은 [이 페이지](../config/workflows.md#change-data-source-activity)를 참조하세요.
 
 ## 사용할 수 없는 기능{#gs-unavailable-features}
 
