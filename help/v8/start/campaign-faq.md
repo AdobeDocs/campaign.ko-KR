@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,11 +47,11 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    Adobe Campaign에는 이메일 게재를 모니터링하는 대시보드 및 도구 세트가 포함되어 있습니다.
 
-   메시지가 전송되고 있는지 확인하고 실행을 모니터링하며 오류가 발생하면 작업을 수행하는 방법을 알아보려면 [Campaign Classic v7 설명서를 읽어보십시오.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ko)
+   메시지가 전송되고 있는지 확인하고 실행을 모니터링하며 오류가 발생하면 작업을 수행하는 방법을 알아보려면 [Campaign Classic v7 설명서를 읽어보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ko){target=&quot;_blank&quot;}.
 
 1. **워크플로우 실행을 모니터링할 수 있습니까?**
 
-   ↗️ Campaign 워크플로우 실행을 모니터링하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=ko)를 참조하십시오{target=&quot;_blank&quot;}
+   ↗️ Campaign 워크플로우 실행을 모니터링하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=ko){target=&quot;_blank&quot;}를 참조하십시오
 
 1. **Campaign v8과 호환되는 시스템과 구성 요소에는 무엇이 있나요?**
 
@@ -61,7 +61,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    하위 도메인은 브랜드나 다양한 트래픽 유형(트랜잭션 메시지, 마케팅 정보 등)을 분리하는 데 사용할 수 있는 도메인의 개별 부분입니다.
 
-   ?? 관리 클라우드 서비스 사용자는 Adobe에 문의하여 하위 도메인을 Adobe에 위임할 수 있습니다.
+   ?? Managed Cloud Services 사용자는 Adobe에 문의하여 하위 도메인을 Adobe에 위임할 수 있습니다.
 
 1. **Campaign Classic v7 사용자는 Campaign v8로 마이그레이션할 수 있나요?**
 
@@ -71,7 +71,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    Adobe 다운로드 센터에서 설치 프로그램과 클라이언트 콘솔을 다운로드할 수 있습니다.
 
-   관리 사용자는 Adobe [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target=&quot;_blank&quot;}에 액세스하여 Adobe Campaign을 다운로드합니다.
+   관리 사용자로 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html) {target=&quot;_blank&quot;}에 액세스하여 Adobe Campaign을 다운로드합니다.
 
    [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target=&quot;_blank&quot;}에서 배포 센터에 대해 자세히 알아봅니다.
 
