@@ -1,22 +1,18 @@
 ---
 product: Adobe Campaign
 title: Campaign 컨트롤 패널
-description: Campaign 컨트롤 패널
+description: Campaign Campaign 컨트롤 패널 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-hidefromtoc: true
-hide: true
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
-source-wordcount: '374'
-ht-degree: 100%
+source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 91%
 
 ---
 
 # Campaign 컨트롤 패널
-
-아직 사용 불가
 
 Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하고 설정을 관리하여 Adobe Campaign의 제품 관리자로서 작업 효율을 높일 수 있습니다. 컨트롤 패널의 직관적인 인터페이스를 활용하면 주요 자산의 사용을 손쉽게 모니터링할 수 있을 뿐만 아니라 허용 목록에 IP 주소 추가, SFTP 스토리지 모니터링, 키 관리 등의 관리 작업도 수행할 수 있습니다.
 
@@ -27,6 +23,18 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 * 필요에 따라 액세스 설정을 제어하여 보안을 강화할 수 있습니다.
 
 또한, Campaign 컨트롤 패널을 사용하여 IP 허용 목록, URL 권한, 인스턴스에 대한 정보 검색과 같은 인스턴스 설정을 구성할 수도 있습니다.
+
+↗️ [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ko){target=&quot;_blank&quot;}에서 자세히 알아보십시오.
+
+>[!CAUTION]
+> 다음 기능은 아직 Campaign v8에서 지원되지 않습니다.
+>
+>* 하위 도메인 관리
+>* 인증서 관리
+
+>
+
+
 
 ## Campaign 컨트롤 패널에는 어떻게 액세스하나요?
 
@@ -40,13 +48,6 @@ Campaign 컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 �
 
 Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 저장소 용량을 모니터링하고, 허용 목록의 IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko#sftp-management)하십시오.
 
-## 하위 도메인 및 인증서
-
-하위 도메인 및 해당 인증서를 모니터링할 수 있습니다. 자세히 알아보기:
-* [하위 도메인 브랜딩](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko){target=&quot;_blank&quot;}
-* [새 하위 도메인 설정](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko){target=&quot;_blank&quot;}
-* [SSL 인증서 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ko){target=&quot;_blank&quot;}
-
 ## 인스턴스 설정
 
 컨트롤 패널에서 Campaign 인스턴스 설정을 관리하는 방법을 알아봅니다.
@@ -55,4 +56,3 @@ Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스
 * [인스턴스 세부 정보](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ko){target=&quot;_blank&quot;}
 * [GPG 키 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko){target=&quot;_blank&quot;}
 
-[이 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target=&quot;_blank&quot;}에서 모든 Campaign 컨트롤 패널의 기능을 살펴봅니다.
