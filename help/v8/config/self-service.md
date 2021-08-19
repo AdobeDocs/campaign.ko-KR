@@ -5,10 +5,10 @@ description: Campaign Campaign 컨트롤 패널 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: 8415bfce30948104840a92d1be0d72e07c8e29ee
+source-git-commit: f35122d5e5f5812d9a3fda9b21f2f7fd88aaaa0f
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 91%
+source-wordcount: '345'
+ht-degree: 82%
 
 ---
 
@@ -38,15 +38,15 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 
 ## Campaign 컨트롤 패널에는 어떻게 액세스하나요?
 
-Campaign 컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 관리자에게만 액세스할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ko)하십시오.
+Campaign 컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 관리자에게만 액세스할 수 있습니다. [자세한 내용을 보려면 여기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ko){target=&quot;_blank&quot;}를 클릭하십시오.
 
 ## Campaign 컨트롤 패널 FAQ
 
-[여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)하여 Campaign 컨트롤 패널 FAQ에 액세스합니다.
+[Campaign Campaign 컨트롤 패널 FAQ에 액세스하려면 여기](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=en#control-panel){target=&quot;_blank&quot;}를 클릭하십시오.
 
 ## SFTP 관리
 
-Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 저장소 용량을 모니터링하고, 허용 목록의 IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko#sftp-management)하십시오.
+Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 저장소 용량을 모니터링하고, 허용 목록의 IP 주소 및 공개 SSH 키를 관리할 수 있습니다. [자세한 내용을 보려면 여기](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko#sftp-management){target=&quot;_blank&quot;}를 클릭하십시오.
 
 ## 인스턴스 설정
 
