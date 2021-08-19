@@ -6,10 +6,10 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: bfd2df90e5e6bee89bdfc7c5da82c755ac5726df
-workflow-type: ht
-source-wordcount: '916'
-ht-degree: 100%
+source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
+workflow-type: tm+mt
+source-wordcount: '910'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ Campaign 사용자는 Adobe ID을 통해 연결합니다. 동일한 Adobe ID을 
 
 ## 보고
 
-Adobe Campaign 보고서는 최적화되어 있으며 Campaign Classic v7보다 더 나은 확장 기능을 제공합니다. 큐브에 대한 기존 제한 사항은 적용되지 않습니다.
+Adobe Campaign 보고서는 최적화되어 있으며 Campaign Classic v7보다 더 나은 확장 기능을 제공합니다. 큐브에 대한 제한 사항은 적용되지 않습니다.
 
 ## 워크플로우 {#workflow}
 
@@ -100,8 +100,6 @@ Campaign v8에서는 추가적인 타겟팅 워크플로우 활동으로 **[!UIC
 * Campaign 최적화
 * 반응 관리자
 * 하이브리드/온-프레미스 배포 모델
-* LINE 메시지 보내기
-* Campaign 컨트롤 패널
 
 >[!CAUTION]
 >
