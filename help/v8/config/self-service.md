@@ -5,9 +5,9 @@ description: Campaign Campaign 컨트롤 패널 시작
 feature: 개요
 role: Data Engineer
 level: Beginner
-source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
+source-git-commit: 8415bfce30948104840a92d1be0d72e07c8e29ee
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '337'
 ht-degree: 91%
 
 ---
@@ -24,7 +24,7 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 
 또한, Campaign 컨트롤 패널을 사용하여 IP 허용 목록, URL 권한, 인스턴스에 대한 정보 검색과 같은 인스턴스 설정을 구성할 수도 있습니다.
 
-↗️ [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ko){target=&quot;_blank&quot;}에서 자세히 알아보십시오.
+↗️ [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target=&quot;_blank&quot;}에서 자세히 알아보십시오.
 
 >[!CAUTION]
 > 다음 기능은 아직 Campaign v8에서 지원되지 않습니다.
