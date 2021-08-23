@@ -6,9 +6,9 @@ feature: 개요
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: 6334178f6e5d0ad0a33975838be6cf663862d892
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '392'
 ht-degree: 2%
 
 ---
@@ -43,6 +43,13 @@ Adobe Campaign에는 내장된 기술 워크플로우가 포함되어 있습니�
 
 기본 제공 테이블 중 일부는 위에 설명된 전용 워크플로우를 통해 Campaign 로컬 데이터베이스에서 [!DNL Snowflake] 클라우드 데이터베이스로 복제됩니다.
 
+Adobe Campaign v8에서 사용하는 데이터베이스, 데이터가 복제되는 이유, 복제되는 데이터 및 복제 프로세스 작동 방식을 이해합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
+
+
+### 데이터 복제 정책
+
 복제 정책은 테이블 크기를 기반으로 합니다. 일부 테이블은 실시간으로 복제되고 다른 테이블은 시간별로 복제됩니다. 일부 테이블은 다른 테이블을 교체하면 증분 업데이트가 있습니다.
 
 기본 제공 **참조 테이블 복제** 기술 워크플로우 외에도 워크플로우에서 데이터 복제를 강제 수행할 수 있습니다.
@@ -65,6 +72,8 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 ```
 
 ![](assets/nlmodule.png)
+
+
 
 **관련 항목**
 
