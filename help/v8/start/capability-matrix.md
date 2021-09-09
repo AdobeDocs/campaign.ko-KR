@@ -2,14 +2,14 @@
 product: Adobe Campaign
 title: Campaign Classic v7 - Campaign v8 기능 매트릭스
 description: Campaign Classic v7과 Campaign v8 간의 차이점 이해
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
-workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '909'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,6 @@ ht-degree: 99%
 >
 > 고객 데이터는 [!DNL Campaign] 로컬 데이터베이스에 저장되지 않습니다. 따라서 모든 사용자 정의 테이블을 클라우드 데이터베이스에서 만들어야 합니다.
 
-
 로컬 및 클라우드 데이터베이스 간에 데이터를 관리하는 데 특정 API를 사용할 수 있습니다. [이 페이지](../dev/new-apis.md)에서는 이 새로운 API의 작동 방식과 사용법을 알아봅니다.
 
 ### 데이터 복제
@@ -54,7 +53,6 @@ ht-degree: 99%
 >
 > 테이블 크기(XS, XL 등)에 따라 여러 복제 정책이 생성되었습니다.
 > 일부 테이블은 실시간으로 복제되고 다른 테이블은 시간별로 복제됩니다. 일부 테이블에는 증분 업데이트가 적용되고 다른 테이블에는 전체 업데이트가 적용됩니다.
-
 
 [데이터 복제 자세히 알아보기](../config/replication.md)
 
