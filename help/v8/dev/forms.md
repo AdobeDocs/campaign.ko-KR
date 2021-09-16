@@ -1,8 +1,8 @@
 ---
-product: Adobe Campaign
 title: 캠페인 입력 양식
 description: 입력 양식을 사용자 지정하는 방법 알아보기
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '2555'
 ht-degree: 0%
@@ -674,4 +674,3 @@ SOAP 메서드 실행은 페이지 끝에 채워진 **`<leave>`** 태그에서 �
   </soapCall>
 </leave>
 ```
-

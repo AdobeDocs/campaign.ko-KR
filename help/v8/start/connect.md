@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campaign v8에 연결
 description: Campaign v8에 연결하는 방법 알아보기
-feature: 대상자
+feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 44ddce019de74be96a955eefbc940e41e060a6d3
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '684'
 ht-degree: 1%
 
 ---
@@ -29,7 +28,7 @@ Campaign을 처음 사용하는 경우 또는 최신 버전으로 업그레이�
 
 다음 두 가지 옵션을 사용할 수 있습니다.
 
-1. Campaign 관리자는 Adobe [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에 연결하고 클라이언트 콘솔 설치 프로그램을 다운로드합니다. 그런 다음 로컬 컴퓨터에 설치할 수 있습니다.
+1. Campaign 관리자는 Adobe [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)에 연결하고 클라이언트 콘솔 설치 프로그램을 다운로드합니다. 그런 다음 로컬 컴퓨터에 설치할 수 있습니다.
 
 1. 최종 사용자는 콘솔 을 배포할 수 있습니다. Console이 업데이트되면 팝업 창에서 최신 Client Console 버전을 다운로드하라는 메시지가 표시됩니다.
 

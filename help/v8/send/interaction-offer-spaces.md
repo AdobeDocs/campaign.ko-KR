@@ -1,20 +1,20 @@
 ---
-product: Adobe Campaign
 title: Campaign 상호 작용 오퍼 공간
 description: 오퍼 공간을 만드는 방법을 알아봅니다
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '610'
 ht-degree: 3%
 
 ---
 
 # 오퍼 공간 만들기{#creating-offer-spaces}
 
-오퍼 카탈로그의 컨텐츠는 오퍼 공간에 구성되어 있습니다. 기본적으로 컨텐츠에는 다음 필드가 포함될 수 있습니다.**[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** 및 **[!UICONTROL Text content]**. 필드 시퀀스는 오퍼 공간에서 구성됩니다.
+오퍼 카탈로그의 컨텐츠는 오퍼 공간에 구성되어 있습니다. 기본적으로 컨텐츠에는 다음 필드가 포함될 수 있습니다. **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** 및 **[!UICONTROL Text content]**. 필드 시퀀스는 오퍼 공간에서 구성됩니다.
 
 **기술 관리자**&#x200B;는 디자인 환경에서 오퍼 공간을 만들 수 있습니다. 오퍼 공간 하위 폴더에 대한 액세스 권한이 있어야 합니다. 만들어진 이러한 오퍼 공간은 오퍼 승인 중에 라이브 환경에 자동으로 복제됩니다.
 
@@ -38,7 +38,7 @@ HTML 렌더링은 렌더링 함수를 통해 만들어집니다. 렌더링 함�
 
    ![](assets/offer_space_create_003.png)
 
-1. **[!UICONTROL Content]** 노드로 이동하고 다음 순서로 필드를 선택합니다.**[!UICONTROL Title]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]**, **[!UICONTROL Destination URL]** 순으로 선택합니다.
+1. **[!UICONTROL Content]** 노드로 이동하고 다음 순서로 필드를 선택합니다. **[!UICONTROL Title]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]**, **[!UICONTROL Destination URL]** 순으로 선택합니다.
 
    ![](assets/offer_space_create_004.png)
 
@@ -52,7 +52,7 @@ HTML 렌더링은 렌더링 함수를 통해 만들어집니다. 렌더링 함�
 
 1. 렌더링 함수를 만들려면 **[!UICONTROL Edit functions]** 을 클릭하십시오.
 
-   이러한 함수는 오퍼 공간에 대한 오퍼 표현을 생성하는 데 사용됩니다. 다음과 같은 몇 가지 가능한 형식이 있습니다.HTML 또는 텍스트입니다.
+   이러한 함수는 오퍼 공간에 대한 오퍼 표현을 생성하는 데 사용됩니다. 다음과 같은 몇 가지 가능한 형식이 있습니다. HTML 또는 텍스트입니다.
 
    **참고**  - XML 형식은 이 버전의 제품에서 사용할 수 없는 인바운드 상호 작용으로 제한됩니다. [자세히 알아보기](../start/capability-matrix.md#gs-unavailable-features)
 
@@ -82,7 +82,7 @@ HTML 렌더링은 렌더링 함수를 통해 만들어집니다. 렌더링 함�
 * **[!UICONTROL Presented]**
 * **[!UICONTROL Rejected]**
 
-이러한 값은 기본적으로 적용되지 않습니다.구성해야 합니다.
+이러한 값은 기본적으로 적용되지 않습니다. 구성해야 합니다.
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ HTML 렌더링은 렌더링 함수를 통해 만들어집니다. 렌더링 함�
 
    ![](assets/offer_update_status_001.png)
 
-### 제안을 수락하는 경우 오퍼 상태 {#configuring-the-status-when-the-proposition-is-accepted}
+### 제안 승인 시 상태 {#configuring-the-status-when-the-proposition-is-accepted}
 
 제안 제안이 **수락됨**&#x200B;되면 기본적으로 제공된 값 중 하나를 사용하여 제안의 새 상태를 구성하십시오. 이 업데이트는 수신자가 오퍼의 링크를 클릭할 때 적용됩니다.
 

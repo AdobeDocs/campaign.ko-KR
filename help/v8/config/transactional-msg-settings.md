@@ -1,14 +1,14 @@
 ---
-product: Adobe Campaign
 title: Campaign 트랜잭션 메시지 설정
 description: Campaign 트랜잭션 메시지 설정
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 2899f627-696d-422c-ae49-c1e293b283af
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 1%
+source-wordcount: '326'
+ht-degree: 0%
 
 ---
 
@@ -75,4 +75,3 @@ Campaign에서 트랜잭션 푸시 알림을 전송하려면 이벤트에 다음
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
-

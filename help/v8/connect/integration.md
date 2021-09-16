@@ -1,15 +1,14 @@
 ---
-product: Adobe Campaign
 title: 솔루션과 Campaign 연결
 description: campaign을 솔루션과 연결하는 방법 알아보기
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 12%
+source-wordcount: '349'
+ht-degree: 11%
 
 ---
 
@@ -57,7 +56,7 @@ CRM 커넥터를 사용하면 빠르고 손쉽게 데이터를 통합할 수 있
 
 FDA 커넥터(Federated Data Access)를 사용하여 Campaign을 하나 이상의 **외부 데이터베이스**&#x200B;에 연결하고 Campaign Cloud 데이터베이스 데이터에 영향을 주지 않고 Campaign에 저장된 정보를 처리합니다.
 
-[?? 이 페이지](fda.md)에서 자세히 알아보십시오
+[?? 이 페이지](fda.md)에서 자세히 알아보기
 
 
 <!-- 

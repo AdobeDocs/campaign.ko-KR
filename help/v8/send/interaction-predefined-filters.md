@@ -1,14 +1,14 @@
 ---
-product: Adobe Campaign
 title: Campaign 상호 작용 오퍼가 미리 정의된 필터
 description: 미리 정의된 필터를 만드는 방법을 알아봅니다
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
    ![](assets/offer_filter_create_005.png)
 
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
    ![](assets/offer_filter_create_001.png)
 
@@ -41,4 +41,3 @@ ht-degree: 4%
 1. 필터 결과를 보려면 **[!UICONTROL Preview]** 을 클릭하십시오.
 
    ![](assets/offer_filter_create_006.png)
-

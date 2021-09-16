@@ -1,8 +1,8 @@
 ---
-product: Adobe Campaign
 title: Campaign 보안 모범 사례
 description: Campaign 보안 모범 사례 시작
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 1%

@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Adobe Campaign을 사용하여 이메일 보내기
 description: Campaign에서 이메일 시작
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '604'
 ht-degree: 10%
 
 ---
@@ -110,4 +110,3 @@ Campaign은 대상자에게 이메일을 보내기 전에 전자 메일을 테�
 전송되면 게재 대시보드에서 게재 상태를 확인하고 게재 로그 및 보고서에 액세스하여 메시지가 올바르게 전송되었는지 확인합니다.
 
 ↗️ [Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
-

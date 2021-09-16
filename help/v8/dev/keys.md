@@ -1,19 +1,19 @@
 ---
-product: Adobe Campaign
-title: 'Campaign의 키 관리 '
+title: Campaign의 키 관리
 description: 키 관리 시작
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 키 관리 및 불편 {#key-management}
+# 키 관리 및 독자성 {#key-management}
 
 Campaign v8에서 기본 키는 문자 문자열인 UUID(Universally Unique IDentifier)입니다. 이 UUID를 만들려면 스키마의 기본 요소에 **autouid** 및 **autok** 속성이 **true**&#x200B;로 설정되어 있어야 합니다.
 
-Adobe campaign v8에는 핵심 데이터베이스로 Snowflake이 포함되어 있습니다. Snowflake 데이터베이스의 분산 아키텍처에서는 테이블 내의 키 특성을 관리하는 메커니즘을 제공하지 않습니다.최종 사용자는 Adobe Campaign 데이터베이스 내의 키 일관성을 유지할 책임이 있습니다.
+Adobe Campaign v8에는 핵심 데이터베이스로 Snowflake가 포함되어 있습니다. Snowflake 데이터베이스의 분산 아키텍처에서는 테이블 내의 키 특성을 관리하는 메커니즘을 제공하지 않습니다. 최종 사용자는 Adobe Campaign 데이터베이스 내의 키 일관성을 유지할 책임이 있습니다.
 
 관계형 데이터베이스 일관성을 유지하려면 키에 대한 중복 방지, 특히 기본 키에 대한 중복을 방지해야 합니다. 기본 키에 대한 중복 항목을 사용하면 **Query**, **Reconciliation**, **데이터 업데이트** 등과 같은 데이터 관리 워크플로우 활동과 관련된 문제가 발생합니다.
 
@@ -27,7 +27,7 @@ Campaign에는 게재를 준비하는 동안 대상자에서 자동으로 복제
 >
 >중복되는 키는 UUID로 제한되지 않습니다. 사용자 지정 테이블에서 만들어진 사용자 지정 키를 포함하여 ID에서 발생할 수 있습니다.
 
-최종 사용자는 게재 로그에서 이 정보를 확인할 수 있습니다.중복 키로 인해 일부 수신자는 기본 대상에서 제외할 수 있습니다. 이 경우 다음 경고가 표시됩니다.`Exclusion of duplicates (based on the primary key or targeted records)`
+최종 사용자는 게재 로그에서 이 정보를 확인할 수 있습니다. 중복 키로 인해 일부 수신자는 기본 대상에서 제외할 수 있습니다. 이 경우 다음 경고가 표시됩니다. `Exclusion of duplicates (based on the primary key or targeted records)`
 
 ![](assets/delivery-log-duplicates.png)
 
@@ -63,7 +63,7 @@ Campaign에는 게재를 준비하는 동안 대상자에서 자동으로 복제
 
 예제:
 
-* **사례 1**  - 동일한 UUID 및 동일한 프로필 정보(동일한 이메일, 이름 등)를 사용하는 중복 수신자 :수신자는 &quot;실제&quot; 중복과 유사하며 중복 중 하나를 제거하는 것일 수 있습니다.
+* **사례 1**  - 동일한 UUID 및 동일한 프로필 정보(동일한 이메일, 이름 등)를 사용하는 중복 수신자 : 수신자는 &quot;실제&quot; 중복과 유사하며 중복 중 하나를 제거하는 것일 수 있습니다.
 한 수신자의 정보를 다른 수신자에게 병합하는 방법도 있습니다.
 
 * **사례 2**  - UUID가 동일하지만 프로필 정보가 다른 중복 수신자 (다른 이메일, 이름 등):

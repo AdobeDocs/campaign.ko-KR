@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campaign 아키텍처 시작
 description: 환경 및 배포 기본 사항 살펴보기
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 2%
 
 ---

@@ -1,17 +1,16 @@
 ---
-product: Adobe Campaign
 title: Campaign 외부 계정
 description: Campaign 외부 계정
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1000'
 ht-degree: 4%
 
 ---
-
 
 # 외부 계정 구성
 
@@ -173,4 +172,3 @@ Adobe Campaign **[!UICONTROL Explorer]**&#x200B;에서 외부 계정에 액세�
    * **[!UICONTROL Encryption]**: 또는 간 암호화  **[!UICONTROL None]** 유형  **[!UICONTROL SSL]**.
 
    * **[!UICONTROL Access key]**:  **[!UICONTROL Access key]** Microsoft 설명서 [에서 사용자](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)를 찾는 방법을 알아봅니다.
-

@@ -1,14 +1,14 @@
 ---
-product: Adobe Campaign
 title: Campaign 전자 메일 채널 설정
 description: Campaign 전자 메일 채널 설정
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 7%
+source-wordcount: '289'
+ht-degree: 6%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 선택�
 ![](assets/email-bcc.png)
 
 
-**Campaign Classic** v7 설명서의 관련 항목:
+Campaign Classic v7 설명서의 **관련 항목**:
 
 
 ↗️ [미러 페이지 생성](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page){target=&quot;_blank&quot;}

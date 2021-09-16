@@ -1,16 +1,16 @@
 ---
-product: Adobe Campaign
 title: Campaign SDK를 앱과 통합
 description: Campaign Android 및 iOS SDK를 앱에 통합하는 방법을 알아봅니다
 version: v8
-feature: 푸시
+feature: Push
 role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1288'
 ht-degree: 1%
 
 ---
@@ -77,9 +77,8 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 >[!NOTE]
 >
 > * google-services.json을 다운로드하여 프로젝트에 추가하는 것을 잊지 마십시오.
-   >
-   > 
-* `apiKey` 은 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에서 설정된 `projectKey` 와 일치해야 합니다.
+>
+> * `apiKey` 은 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에서 설정된 `projectKey` 와 일치해야 합니다.
 
 
 ### Android SDK 구성

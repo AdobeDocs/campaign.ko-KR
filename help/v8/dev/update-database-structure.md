@@ -1,8 +1,8 @@
 ---
-product: Adobe Campaign
 title: 데이터베이스 구조 업데이트
 description: 데이터베이스 구조 업데이트
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+exl-id: fc64f3ca-67f1-47b7-b154-9c9dd044192c
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%

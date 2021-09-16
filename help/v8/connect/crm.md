@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campaign을 CRM과 함께 작업
-description: 'Campaign 및 CRM으로 작업하는 방법 알아보기 '
-feature: 개요
+description: Campaign 및 CRM으로 작업하는 방법 알아보기
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 25%
 
 ---
@@ -38,4 +38,3 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 Adobe Campaign과 CRM 간의 데이터 동기화는 전용 워크플로우 활동을 통해 수행됩니다. 워크플로우를 빌드하여 Campaign과 CRM 간 동기화를 자동화합니다. Microsoft Dynamics를 통해 연락처를 가져오고, 기존 Adobe Campaign 데이터와 동기화하며, 중복 연락처를 삭제한 다음 Adobe Campaign 데이터베이스를 업데이트하는 워크플로우를 만들 수 있습니다.
 
 ↗️ 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)를 참조하세요
-

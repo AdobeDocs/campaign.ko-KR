@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: 메시지 시작
 description: 메시지 시작
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
-source-wordcount: '644'
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
+source-wordcount: '643'
 ht-degree: 100%
 
 ---
@@ -101,6 +100,6 @@ Campaign Classic v7 설명서의 **관련 항목**:
 
 ↗️  [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=ko){target=&quot;_blank&quot;}
 
-↗️  [이메일 테스트 및 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=ko){target=&quot;_blank&quot;}
+↗️  [이메일 테스트 및 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target=&quot;_blank&quot;}
 
 ↗️  [증명 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target=&quot;_blank&quot;}

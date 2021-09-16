@@ -1,26 +1,26 @@
 ---
-product: Adobe Campaign
 title: 새 Campaign v8 API
 description: 새 Campaign v8 API
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: dd822f88-b27d-4944-879c-087f68e79825
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '431'
 ht-degree: 4%
 
 ---
 
-# 새 캠페인 API{#gs-new-api}
+# 새 Campaign API{#gs-new-api}
 
 Campaign v8에는 Campaign 로컬 데이터베이스와 Cloud 데이터베이스 간의 데이터를 관리하기 위한 두 개의 새로운 API가 포함되어 있습니다. 이를 사용하기 위한 사전 요구 사항은 스키마에서 스테이징 메커니즘을 활성화하는 것입니다. [자세히 알아보기](staging.md)
 
-* 수집 API:**xtk.session.ingest**
+* 수집 API: **xtk.session.ingest**
 
    이 API는 데이터 삽입에만 사용됩니다. [자세히 알아보기](#data-insert-api)
 
-* 데이터 업데이트/삭제 API:**xtk.session.ingestExt**
+* 데이터 업데이트/삭제 API: **xtk.session.ingestExt**
 
    이 API는 데이터를 업데이트하거나 삭제하는 데 사용됩니다. [자세히 알아보기](#data-update-api)
 

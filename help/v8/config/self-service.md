@@ -1,12 +1,12 @@
 ---
-product: Adobe Campaign
 title: Campaign 컨트롤 패널
 description: Campaign 컨트롤 패널 시작
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: f35122d5e5f5812d9a3fda9b21f2f7fd88aaaa0f
-workflow-type: ht
+exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
 
@@ -27,11 +27,11 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 ↗️ 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target=&quot;_blank&quot;}를 참조하십시오.
 
 >[!CAUTION]
->
 > Campaign v8에서 아직 지원하지 않는 기능:
 >
 >* 하위 도메인 관리
 >* 인증서 관리
+
 >
 
 
@@ -54,4 +54,3 @@ Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스
 * [URL 권한](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ko){target=&quot;_blank&quot;}
 * [인스턴스 세부 정보](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ko){target=&quot;_blank&quot;}
 * [GPG 키 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko){target=&quot;_blank&quot;}
-

@@ -1,17 +1,16 @@
 ---
-product: Adobe Campaign
 title: Campaign 상호 작용 연산자
 description: 오퍼 관리 운영자 만들기
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
-
 
 # 운영자 프로필 {#operator-profiles}
 

@@ -1,8 +1,8 @@
 ---
-product: Adobe Campaign
 title: Campaign에서 새 스키마 만들기
 description: Campaign에서 새 스키마를 만드는 방법을 알아보십시오
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 스키마의 전체 구조를 확인해야 하는 경우 **[!UICONTROL Preview]** 탭을 사용할 수 있습니다. 스키마가 확장되면 모든 확장을 시각화할 수 있습니다. 보충 자료로 **[!UICONTROL Documentation]** 탭에는 모든 스키마 속성 및 요소와 속성(SQL 필드, 유형/길이, 레이블, 설명)이 표시됩니다. **[!UICONTROL Documentation]** 탭은 생성된 스키마에만 적용됩니다.
 
-## 사용 사례:계약 테이블 {#example--creating-a-contract-table} 만들기
+## 사용 사례: 계약 테이블 만들기 {#example--creating-a-contract-table}
 
 다음 예제에서는 데이터베이스에 **contracts**&#x200B;에 대한 새 테이블을 만듭니다. 이 테이블을 사용하면 각 계약에 대해 소유자 및 공동 소유자의 이름과 전자 메일 주소를 저장할 수 있습니다.
 
@@ -111,4 +111,3 @@ ht-degree: 2%
    ![](assets/configuration_structure.png)
 
 1. 데이터베이스 구조를 업데이트하여 스키마가 연결될 테이블을 만듭니다. 이 작업에 대한 자세한 정보는 [이 섹션](update-database-structure.md)을 참조하십시오.
-

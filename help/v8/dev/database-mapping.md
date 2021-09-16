@@ -1,8 +1,8 @@
 ---
-product: Adobe Campaign
 title: Campaign 데이터베이스 매핑
 description: Campaign 데이터베이스 매핑
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%

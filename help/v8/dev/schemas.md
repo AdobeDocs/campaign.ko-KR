@@ -1,8 +1,8 @@
 ---
-product: Adobe Campaign
 title: Campaign 스키마로 작업
 description: 스키마 시작
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 5%
@@ -250,4 +250,3 @@ SQL 필드에 저장되고 **@dataPolicy** 특성이 있는 XML 필드의 예입
 >[!NOTE]
 >
 >수정 사항이 데이터베이스 구조에 영향을 주지 않는 경우 스키마를 다시 생성하기만 하면 됩니다. 이렇게 하려면 업데이트할 스키마를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **[!UICONTROL Actions > Regenerate selected schemas...]** 을(를) 선택합니다.
-

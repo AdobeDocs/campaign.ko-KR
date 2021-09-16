@@ -1,14 +1,14 @@
 ---
-product: Adobe Campaign
 title: Campaign 상호 작용 오퍼 카탈로그
 description: 오퍼 카탈로그를 만드는 방법을 알아봅니다
-feature: 개요
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+exl-id: 911096e2-0307-46a8-873c-ee2248b8e3e8
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 1%
+source-wordcount: '380'
+ht-degree: 2%
 
 ---
 
@@ -66,7 +66,6 @@ ht-degree: 1%
 
 1. 오퍼 카탈로그를 찾습니다.
 1. **[!UICONTROL Eligibility]** 탭을 클릭하고 **[!UICONTROL Always include this category in the recommendations]** 옵션을 선택합니다.
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
    ![](assets/offer_cat_default_001.png)
-
