@@ -348,7 +348,6 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 >
 >* **location/@** cityn이 잘못되었습니다. 다음 사용  **`[location/@city]`**
 >* **`[@email]`** 및  **@** emailable은
-
 >
 
 
