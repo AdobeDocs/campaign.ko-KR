@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 8668970b0270b990232b78d527d0713efd9d1a4d
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 100%
+source-wordcount: '929'
+ht-degree: 93%
 
 ---
 
@@ -89,7 +89,7 @@ Campaign v8에서는 추가적인 타겟팅 워크플로우 활동으로 **[!UIC
 
 ## 사용할 수 없는 기능{#gs-unavailable-features}
 
-다음과 같은 일부 기능은 이 첫 번째 버전에서 아직 사용할 수 없습니다.
+일부 기능은 다음과 같이 이 버전의 Campaign에서 사용할 수 없습니다.
 
 * 마케팅 리소스 관리
 * 분산 마케팅
@@ -97,23 +97,29 @@ Campaign v8에서는 추가적인 타겟팅 워크플로우 활동으로 **[!UIC
 * Campaign 최적화
 * 반응 관리자
 * 하이브리드/온-프레미스 배포 모델
+* Twitter 채널
 
 >[!CAUTION]
 >
->현재 Campaign v8은 관리 클라우드 서비스로&#x200B;**만** 사용할 수 있으며, 온-프레미스 또는 하이브리드 환경에 배포할 수 없습니다.
+>* 현재 Campaign v8은 관리 클라우드 서비스로&#x200B;**만** 사용할 수 있으며, 온-프레미스 또는 하이브리드 환경에 배포할 수 없습니다.
 >
->기존 Campaign Classic v7 환경에서의 마이그레이션은 아직 불가능합니다.
+>* 기존 Campaign Classic v7 환경에서의 마이그레이션은 아직 불가능합니다.
 >
->가지고 있는 배포 모델을 잘 모르거나 질문이 있는 경우 계정 팀에 문의해 주세요.
+>* 가지고 있는 배포 모델을 잘 모르거나 질문이 있는 경우 계정 팀에 문의해 주세요.
 
-## 제거된 기능{#gs-removed}
 
-Campaign v8의 새로운 아키텍처 및 배포 모델에 맞게 이전 Campaign Classic v7의 일부 기능은 Campaign v8에서 더 이상 사용할 수 없습니다.
+## 지원되지 않는 기능{#gs-removed}
+
+Campaign v8의 새로운 아키텍처 및 배포 모델에 맞춰 일부 이전 Campaign Classic v7 기능은 다음과 같이 Campaign v8에서 더 이상 지원되지 않습니다.
 
 * 쿠폰
 * 웹 추적
 * 설문 조사
-* 소셜 마케팅
+* 소셜 마케팅 facebook
 * ACS 커넥터(프라임 제공)
 * LDAP와 통합
 * 사용자/암호 로그인
+
+>[!NOTE]
+>
+>사용 불가능하거나 지원되지 않는 일부 기능은 사용자 인터페이스에 계속 표시될 수 있습니다.
