@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: bda1fc37181396d295ee23a7161053d839d9cfc7
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->**오퍼 관리자**&#x200B;는 검토자가 지정되지 않았거나 오퍼를 기반으로 한 오퍼 템플릿에서 검토자로 선언된 경우에만 오퍼를 승인할 수 있습니다.
+>**검토자** 가 지정되지 않았거나 오퍼 템플릿에서 검토자로 선언된 경우에만 오퍼 관리자가 오퍼를 승인합니다.
 
 ## 게재 관리자 연산자 만들기 {#delivery-manager}
 
@@ -51,15 +51,15 @@ ht-degree: 1%
 
 1. **[!UICONTROL Groups and named rights]** 창으로 이동하여 **[!UICONTROL Add]** 을 클릭하고 **[!UICONTROL Delivery manager]** 그룹을 선택합니다.
 
-게재 관리자에 지정된 권한은 다음 작업을 수행할 수 있도록 하거나, 활성화할 수 있습니다.
+게재 관리자에게 할당된 권한을 통해 다음 작업을 수행할 수 있습니다.
 
 * **[!UICONTROL Live]** 환경을 표시합니다.
 * 오퍼 카테고리를 표시하고 수정합니다.
-* s/s가 해당 검토자 중 하나로 지정된 경우 오퍼를 승인합니다.
+* 검토자인 경우 오퍼를 승인합니다.
 
    >[!NOTE]
    >
-   >**배달 관리자**&#x200B;는 오퍼 구성 중에 검토자로 선언된 경우에만 오퍼를 승인할 수 있습니다.
+   >**게재** 관리자는 오퍼 구성에서 검토자로 선언된 경우에만 오퍼를 승인할 수 있습니다.
 
 ## 상호 작용 연산자별 권한 매트릭스 {#recap-of-rights-according-to-operator}
 
