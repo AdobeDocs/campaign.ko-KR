@@ -5,9 +5,9 @@ description: Campaign v8 설명서
 breadcrumb-title: Campaign v8
 title: Campaign v8 문서
 source-git-commit: ea7d540af082782114f4a3e32c9d880b0d14df43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 97%
    + [데이터 관리](config/replication.md)
    + [이메일 설정](config/email-settings.md)
    + [트랜잭션 메시지 설정](config/transactional-msg-settings.md)
-   + [Campaign SDK를 앱과 통합](config/push-config.md)
+   + [Campaign SDK와 앱 통합](config/push-config.md)
    + [외부 계정](config/external-accounts.md)
 + 연결 {#connect}
    + [다른 솔루션과 연결](connect/integration.md)
