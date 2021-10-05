@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: 8668970b0270b990232b78d527d0713efd9d1a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Campaign v8에서는 추가적인 타겟팅 워크플로우 활동으로 **[!UIC
 
 ## 사용할 수 없는 기능{#gs-unavailable-features}
 
-일부 기능은 다음과 같이 이 버전의 Campaign에서 사용할 수 없습니다.
+다음과 같은 일부 기능은 이 버전에서 아직 사용할 수 없습니다.
 
 * 마케팅 리소스 관리
 * 분산 마케팅
@@ -97,7 +97,7 @@ Campaign v8에서는 추가적인 타겟팅 워크플로우 활동으로 **[!UIC
 * Campaign 최적화
 * 반응 관리자
 * 하이브리드/온-프레미스 배포 모델
-* Twitter 채널
+* 트위터 채널
 
 >[!CAUTION]
 >
@@ -110,16 +110,16 @@ Campaign v8에서는 추가적인 타겟팅 워크플로우 활동으로 **[!UIC
 
 ## 지원되지 않는 기능{#gs-removed}
 
-Campaign v8의 새로운 아키텍처 및 배포 모델에 맞춰 일부 이전 Campaign Classic v7 기능은 다음과 같이 Campaign v8에서 더 이상 지원되지 않습니다.
+Campaign v8의 새로운 아키텍처 및 배포 모델에 맞게 이전 Campaign Classic v7의 일부 기능은 Campaign v8에서 더 이상 사용할 수 없습니다:
 
 * 쿠폰
 * 웹 추적
 * 설문 조사
-* 소셜 마케팅 facebook
+* 소셜 마케팅 Facebook
 * ACS 커넥터(프라임 제공)
 * LDAP와 통합
 * 사용자/암호 로그인
 
 >[!NOTE]
 >
->사용 불가능하거나 지원되지 않는 일부 기능은 사용자 인터페이스에 계속 표시될 수 있습니다.
+>사용할 수 없거나 제거된 기능 중 일부는 계속 사용자 인터페이스에 표시됩니다.
