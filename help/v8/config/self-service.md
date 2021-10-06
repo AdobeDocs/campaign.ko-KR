@@ -27,11 +27,11 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 ↗️ 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target=&quot;_blank&quot;}를 참조하십시오.
 
 >[!CAUTION]
+>
 > Campaign v8에서 아직 지원하지 않는 기능:
 >
 >* 하위 도메인 관리
 >* 인증서 관리
-
 >
 
 
