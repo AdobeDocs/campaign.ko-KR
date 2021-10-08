@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 780a29dab99ad2bda554134ca95c435b9e76b494
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 2%
@@ -33,19 +33,19 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시
 
 워크플로우 사용자 인터페이스 및 Campaign Classic v7 설명서의 실행에 대해 자세히 알아보십시오.
 
-↗️ [워크플로우 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+* [워크플로우](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows) {target=&quot;_blank&quot;} 시작
 
-↗️ [워크플로우 우수 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target=&quot;_blank&quot;}
+* [워크플로우 우수 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target=&quot;_blank&quot;}
 
-↗️ [기본 제공 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
+* [기본 제공 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
 
-↗️ [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target=&quot;_blank&quot;}
+* [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target=&quot;_blank&quot;}
 
-↗️ [마케팅 캠페인 워크플로우에서 대상 작성](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}
+* [마케팅 캠페인 워크플로우에서 대상 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}
 
 ## 워크플로우 활동 {#wf-activities}
 
-↗️ 사용 가능한 워크플로우 활동 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target=&quot;_blank&quot;}에 대해 자세히 알아보십시오
+![](../assets/do-not-localize/book.png) 사용 가능한 워크플로우 활동  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target=&quot;_blank&quot;}에 대해 자세히 알아보십시오
 
 워크플로우 활동은 카테고리별로 그룹화됩니다. 네 가지 활동 카테고리를 사용할 수 있습니다.
 
@@ -92,18 +92,18 @@ Adobe Campaign 워크플로우에서는 **[!UICONTROL Working table]**을(를) �
 
 반복 워크플로우를 디자인하고 워크플로우를 실행할 때마다 새 게재 인스턴스를 만듭니다. 예를 들어 워크플로우가 일주일에 한 번 실행되도록 디자인된 경우 1년 후 52개의 게재가 발생합니다. 즉, 로그는 각 게재 인스턴스별로 분리됩니다.
 
-↗️ [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}에서 반복 캠페인을 만드는 방법을 알아봅니다
+![](../assets/do-not-localize/book.png)  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}에서 반복 캠페인을 만드는 방법을 알아봅니다
 
 
 ## 트리거 이벤트 활용
 
 캠페인 트랜잭션 메시지를 사용하여 정보 시스템에서 트리거된 이벤트에서 생성된 메시지를 자동화합니다. 이러한 트랜잭션 메시지는 예를 들어 송장, 주문 확인, 배송 확인, 암호 변경, 제품 비가용성 알림, 계정 명세서 또는 웹 사이트 계정 생성일 수 있습니다. 이러한 메시지는 개별적으로 또는 이메일, SMS 또는 푸시 알림을 통해 일괄적으로 전송할 수 있습니다.
 
-?? [이 섹션](../send/transactional.md)에서 트랜잭션 메시지 기능에 대해 자세히 알아보십시오.
+![](../assets/do-not-localize/glass.png) 트랜잭션 메시지 기능에 대한 자세한 내용은  [이 섹션](../send/transactional.md)을 참조하십시오.
 
 Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하고 거의 실시간으로 개인화된 메시지를 전송할 수 있습니다.
 
-?? [이 섹션에서 Campaign을 다른 솔루션과 통합하는 방법을 알아봅니다](../start/connect.md)
+![](../assets/do-not-localize/glass.png) 이 섹션에서 Campaign을 다른 솔루션과 통합하는  [방법을 알아봅니다](../start/connect.md)
 
 
 ## 워크플로우 종단 간 사용 사례{#end-to-end-uc}
@@ -143,7 +143,7 @@ Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하
 
 * [목록](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-a-report-to-a-list.html){target=&quot;_blank&quot;}에 보고서 보내기
 
-   월별 기본 제공 추적 지표 보고서를 PDF 형식으로 생성하여 Campaign 운영자 목록으로 보내는 방법을 알아봅니다.
+   월별 기본 추적 지표 보고서를 PDF 형식으로 생성하여 Campaign 운영자 목록으로 보내는 방법을 알아봅니다.
 
 * [워크플로우](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/supervising-workflows.html) 관리{target=&quot;_blank&quot;}
 

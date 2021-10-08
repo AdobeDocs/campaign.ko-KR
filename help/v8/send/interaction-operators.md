@@ -4,10 +4,9 @@ description: 오퍼 관리 운영자 만들기
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
-source-git-commit: bda1fc37181396d295ee23a7161053d839d9cfc7
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
@@ -21,9 +20,9 @@ ht-degree: 1%
 
 ## 오퍼 관리자 연산자 만들기{#offer-manager}
 
-1. 새 연산자를 만듭니다.
+1. 연산자를 만듭니다.
 
-   ↗️ Campaign에서 연산자를 만드는 단계는 [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ![](../assets/do-not-localize/book.png) Campaign에서 연산자를 만드는 단계는  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. **[!UICONTROL Groups and named rights]** 창으로 이동하여 **[!UICONTROL Add]** 을 클릭하고 **[!UICONTROL Offer manager]** 그룹을 선택합니다.
 
@@ -37,7 +36,7 @@ ht-degree: 1%
 * 오퍼 자격 을 구성합니다.
 * 오퍼를 승인합니다.
 
-오퍼가 워크플로우에서 사용되는 경우 워크플로우를 실행하려면 연산자를 **[!UICONTROL Administrator]** 또는 **[!UICONTROL Offer managers]** 운영자 그룹에 추가해야 합니다.
+워크플로우에서 오퍼를 사용하는 경우 워크플로우를 실행하려면 연산자를 **[!UICONTROL Administrator]** 또는 **[!UICONTROL Offer managers]** 운영자 그룹에 추가해야 합니다.
 
 >[!NOTE]
 >
@@ -45,9 +44,9 @@ ht-degree: 1%
 
 ## 게재 관리자 연산자 만들기 {#delivery-manager}
 
-1. 새 연산자를 만듭니다.
+1. 연산자를 만듭니다.
 
-   ↗️ Campaign에서 연산자를 만드는 단계는 [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ![](../assets/do-not-localize/book.png) Campaign에서 연산자를 만드는 단계는  [Campaign Classic v7 설명서에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. **[!UICONTROL Groups and named rights]** 창으로 이동하여 **[!UICONTROL Add]** 을 클릭하고 **[!UICONTROL Delivery manager]** 그룹을 선택합니다.
 

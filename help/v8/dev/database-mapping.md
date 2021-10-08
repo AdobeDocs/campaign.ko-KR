@@ -2,7 +2,7 @@
 title: Campaign 데이터베이스 매핑
 description: Campaign 데이터베이스 매핑
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -97,7 +97,7 @@ XML의 필드를 채우려면 **xml** 속성을 &quot;true&quot; 값으로 해�
    <element name="description" xml="true" type="html" label="Description"/>
    ```
 
-   html 유형을 사용하면 HTML 컨텐츠를 CDATA 태그에 저장하고 Adobe Campaign 클라이언트 인터페이스에 특수 HTML 편집 검사를 표시할 수 있습니다.
+   &quot;html&quot; 유형을 사용하면 HTML 컨텐츠를 CDATA 태그에 저장하고 Adobe Campaign 클라이언트 인터페이스에 특수 HTML 편집 검사를 표시할 수 있습니다.
 
 XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 필요 없이 필드를 추가할 수 있습니다. 리소스(SQL 필드에 할당된 크기, 테이블당 필드 수의 제한 등)를 줄일 수도 있습니다.
 
@@ -256,7 +256,7 @@ Federated Database Access를 사용한 조인 관계의 경우:
 * ![](assets/do-not-localize/join_fda_11.png) : 카디널리티 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) : 카디널리티 1-N
 
-?? FDA 테이블에 대한 자세한 내용은 [Federated Data Access](../connect/fda.md)를 참조하십시오.
+![](../assets/do-not-localize/glass.png) FDA 테이블에 대한 자세한 내용은  [Federated Data Access](../connect/fda.md)를 참조하십시오.
 
 주 요소를 통해 연결된 테이블의 외래 키가 포함된 스키마에서 링크를 선언해야 합니다.
 

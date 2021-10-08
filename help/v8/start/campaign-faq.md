@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    Adobe Campaign에 연결하려면 Campaign 클라이언트 콘솔을 다운로드하여 설치해야 합니다.
 
-   ?? [여기를 클릭하여 자세히 알아봅니다](connect.md).
+   ![](../assets/do-not-localize/glass.png) [여기를 클릭하여 자세한 내용을 확인](connect.md)하세요.
 
 1. **Campaign v8을 온-프레미스 또는 하이브리드 환경에 설치할 수 있나요?**
 
@@ -38,9 +38,9 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    모든 발신자의 마케팅 프로그램 성공에 중요한 구성 요소인 이메일 전달성의 특징은 기준 및 규칙이 계속 변한다는 것입니다. 이 디지털 세상을 효과적으로 탐색하려면 주요 전달성 트렌드를 고려하여 이메일 전략을 정기적으로 조정함으로써 대상자에게 가장 효과적으로 도달해야 합니다.
 
-   이 안내서를 참조하여 [전달성 모범 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target=&quot;_blank&quot;}를 알아보기
+   [전달성 모범 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target=&quot;_blank&quot;}를 ![](../assets/do-not-localize/book.png)알아보려면 이 안내서를 참조하십시오
 
-   [이 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko){target=&quot;_blank&quot;}에서 Campaign에 전달성을 구현하는 방법 알아보기
+    [이 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko){target=&quot;_blank&quot;}에서 ![](../assets/do-not-localize/book.png)Campaign에 전달성을 구현하는 방법을 알아봅니다
 
 1. **게재가 오류 없이 전송되도록 하려면 어떻게 해야 하나요?**
 
@@ -50,7 +50,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
 1. **워크플로우 실행을 모니터링할 수 있습니까?**
 
-   ↗️ Campaign 워크플로우 실행을 모니터링하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=ko){target=&quot;_blank&quot;}를 참조하십시오
+   ![](../assets/do-not-localize/book.png) Campaign 워크플로우 실행을 모니터링하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=ko)를 참조하십시오{target=&quot;_blank&quot;}
 
 1. **Campaign v8과 호환되는 시스템과 구성 요소에는 무엇이 있나요?**
 

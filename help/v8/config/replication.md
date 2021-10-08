@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 2%
@@ -20,13 +20,13 @@ Adobe Campaign에는 내장된 기술 워크플로우가 포함되어 있습니�
 
 이러한 워크플로우는 데이터베이스에서 유지 관리 작업을 수행하고, 게재 로그에서 추적 정보를 활용하고, 반복 캠페인을 만드는 등의 작업을 수행합니다.
 
-↗️ 기술 워크플로우의 전체 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}에 자세히 설명되어 있습니다
+![](../assets/do-not-localize/book.png) 기술 워크플로우의 전체 목록은  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}에 자세히 설명되어 있습니다
 
 
 이러한 기술 워크플로우 외에도 Campaign v8은 [데이터 복제](#data-replication)를 관리하는 특정 기술 워크플로우를 사용합니다.
 
 * **[!UICONTROL Replicate Reference tables]**
-이 워크플로우에서는 Campaign 로컬 데이터베이스(Postgres) 및 클라우드 데이터베이스([!DNL Snowflake])에 있어야 하는 기본 제공 테이블을 자동으로 복제합니다. 매일 매시간 실행되도록 예약되어 있습니다. **lastModified** 필드가 있으면 복제가 증분 발생하며, 그렇지 않으면 전체 테이블이 복제됩니다. 아래 배열에 있는 표의 순서는 복제 워크플로우에서 사용하는 순서입니다.
+이 워크플로우에서는 Campaign 로컬 데이터베이스(Postgres) 및 클라우드 데이터베이스([!DNL Snowflake])에 있어야 하는 기본 제공 테이블을 자동으로 복제합니다. 매시간 매일 실행되도록 예약되어 있습니다. **lastModified** 필드가 있으면 복제가 증분 발생하며, 그렇지 않으면 전체 테이블이 복제됩니다. 아래 배열에 있는 표의 순서는 복제 워크플로우에서 사용하는 순서입니다.
 * **[!UICONTROL Replicate Staging data]**
 이 워크플로우는 단일 호출에 대한 스테이징 데이터를 복제합니다. 매일 매시간 실행되도록 예약되어 있습니다.
 * **[!UICONTROL Deploy FFDA immediately]**\
@@ -76,6 +76,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **관련 항목**
 
-↗️ [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}에서 워크플로우를 시작하는 방법을 알아봅니다.
+![](../assets/do-not-localize/book.png)  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}에서 워크플로우를 시작하는 방법을 알아봅니다
 
-?? [이 섹션](../dev/datamodel-best-practices.md#data-retention)에서 데이터 보존 기간에 액세스합니다
+![](../assets/do-not-localize/glass.png) 이 섹션에서 데이터 보존 기간 [에 액세스합니다](../dev/datamodel-best-practices.md#data-retention)

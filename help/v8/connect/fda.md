@@ -4,8 +4,7 @@ description: Campaign 및 외부 데이터베이스로 작업하는 방법 알�
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 3%
@@ -165,8 +164,8 @@ Adobe Campaign에서 외부 데이터베이스의 스키마를 만들려면 아�
 1. 선택한 레이블을 지정하여 새 권한을 만듭니다.
 1. 다음 형식으로 명명된 오른쪽의 이름을 **user:base@server**(여기서)로 입력합니다.
 
-   * **** useris 외부 데이터베이스에 있는 사용자의 이름입니다
-   * **** basis는 외부 데이터베이스의 이름입니다
+   * **** useris 외부 데이터베이스의 사용자 이름입니다.
+   * **** 베이스란 외부 데이터베이스의 이름입니다
    * **** server는 외부 데이터베이스 서버의 이름입니다
 
 1. 이름이 지정됨 오른쪽 을 저장하고 Adobe Campaign 탐색기의 **[!UICONTROL Administration > Access Management > Operators]** 노드에서 선택한 연산자에 연결합니다.
@@ -187,7 +186,7 @@ Adobe Campaign에서 외부 데이터베이스의 스키마를 만들려면 아�
 
 |   | Snowflake | Amazon Redshift |
 |:-:|:-:|:-:|
-| **원격 데이터베이스에 연결** | 웨어하우스의 사용, 데이터베이스의 사용 및 스키마 권한에 대한 사용 | AWS 계정에 연결된 사용자 생성 |
+| **원격 데이터베이스에 연결** | 웨어하우스의 사용, 데이터베이스의 사용 및 스키마 권한에 대한 사용 | AWS 계정에 연결된 사용자 만들기 |
 | **표 만들기** | 스키마 권한에 대한 테이블 만들기 | 권한 만들기 |
 | **인덱스 만들기** | N/A | 권한 만들기 |
 | **함수 만들기** | 스키마 권한에 대한 함수 만들기 | 외부 python 스크립트를 호출할 수 있는 USAGE ON LANGUAGE plpythonu 권한 |

@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
 
@@ -58,5 +58,5 @@ Adobe Analytics, Adobe Journey Orchestration, Real-Time CDP와 같은 강력한 
 
 또한 고객 여정 AI를 통해 예측 전송 시간 최적화 및 예측 참여 점수를 구성할 수 있고 열람률, 클릭 수 및 매출을 높일 수 있습니다.
 
-?? [Campaign 통합에 대해 자세히 알아보기](../connect/integration.md)
+![](../assets/do-not-localize/glass.png) [Campaign 통합에 대해 자세히 알아보기](../connect/integration.md)
 

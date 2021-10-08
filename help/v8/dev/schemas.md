@@ -2,7 +2,7 @@
 title: Campaign 스키마로 작업
 description: 스키마 시작
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 5%
@@ -97,11 +97,11 @@ Campaign 기본 제공 테이블 및 그 상호 작용에 대한 자세한 내�
 
 수신자 테이블(nms:recipient)과 같은 Campaign의 핵심 데이터 스키마 중 하나에 필드나 다른 요소를 추가하려면 해당 스키마를 확장해야 합니다.
 
-?? 자세한 내용은 [스키마 확장](extend-schema.md)을 참조하십시오.
+![](../assets/do-not-localize/glass.png) 자세한 내용은 스키마  [확장](extend-schema.md)을 참조하십시오.
 
 Adobe Campaign(예: 계약 테이블)에 존재하지 않는 완전히 새로운 유형의 데이터를 추가하려면 사용자 지정 스키마를 직접 생성할 수 있습니다.
 
-?? 자세한 내용은 [새 스키마 만들기](create-schema.md)를 참조하십시오.
+![](../assets/do-not-localize/glass.png) 자세한 내용은 새 스키마  [만들기](create-schema.md)를 참조하십시오.
 
 ![](assets/schemaextension_1.png)
 
@@ -153,7 +153,7 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >새 스키마를 만들거나 스키마 확장 중에 전체 스키마에 대해 동일한 기본 키 시퀀스 값(@pkSequence)을 유지해야 합니다.
 
-?? [이 섹션](database-mapping.md#management-of-keys)의 키에 대해 자세히 알아보십시오.
+![](../assets/do-not-localize/glass.png)  [이 섹션](database-mapping.md#management-of-keys)에서 키에 대해 자세히 알아보십시오.
 
 ## 속성(필드) {#attributes--fields-}
 
@@ -163,7 +163,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 속성의 전체 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model)의 `<attribute>` 요소 섹션에서 사용할 수 있습니다. 다음은 보다 일반적으로 사용되는 속성 중 일부입니다. **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name******@required **,**@ref **,**@xml **,**@type **.**
 
-↗️ 각 속성에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)의 속성 설명을 참조하십시오.
+![](../assets/do-not-localize/book.png) 각 속성에 대한 자세한 내용은  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)의 속성 설명을 참조하십시오.
 
 ### 예제 {#examples}
 

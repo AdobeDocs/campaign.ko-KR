@@ -2,7 +2,7 @@
 title: Campaign 스키마 확장
 description: Campaign 스키마를 확장하는 방법을 알아보십시오
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Campaign 데이터 모델을 사용자 지정하는 주요 단계는 다음과 �
 >[!CAUTION]
 >기본 제공 스키마를 직접 수정해서는 안 됩니다. 기본 제공 스키마를 조정해야 하는 경우, 확장을 확장해야 합니다.
 
-?? Campaign 기본 제공 테이블 및 상호 작용에 대한 자세한 내용은 [이 페이지](datamodel.md)를 참조하십시오. [이 페이지에서 새 스키마를 생성할 때 권장 사항을 참조하십시오](create-schema.md).
+![](../assets/do-not-localize/glass.png) Campaign 기본 제공 테이블 및 상호 작용에 대한 자세한 내용은  [이 페이지](datamodel.md)를 참조하십시오. [이 페이지에서 새 스키마를 생성할 때 권장 사항을 참조하십시오](create-schema.md).
 
 스키마를 확장하려면 아래 단계를 따르십시오.
 

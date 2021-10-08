@@ -4,7 +4,7 @@ description: Campaign 및 Adobe Experience Manager을 사용하여 작업하는 
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 2dc5f54065d9dad6e007a2f70f1ccf1696121628
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -19,9 +19,8 @@ Adobe Campaign에서 이메일이나 랜딩 페이지를 편집하는 동안 Ado
 
 즉, Adobe Experience Manager 컨텐츠 편집 기능과 Adobe Campaign 전달 기능을 모두 활용할 수 있습니다.
 
-↗️ [이 문서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=en#aem-and-adobe-campaign-integration-workflow)
+![](../assets/do-not-localize/book.png) [자세한 내용은 이 문서를 참조하십시오](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=en#aem-and-adobe-campaign-integration-workflow)
 
-↗️ [이 종단 간 샘플에서 이 통합을 살펴보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) [이 종단간 샘플에서 이 통합을 살펴보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
 
 ?? 관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 Adobe Experience Manager을 Campaign과 통합하십시오.
-

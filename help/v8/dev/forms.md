@@ -2,9 +2,9 @@
 title: 캠페인 입력 양식
 description: 입력 양식을 사용자 지정하는 방법 알아보기
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2552'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,11 @@ ht-degree: 0%
 
 기본적으로 각 필드는 단일 행에 표시되며 데이터 유형에 따라 사용 가능한 모든 공간을 차지합니다.
 
-↗️ 모든 양식 속성은 [Campaign Classic v7 설명서](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html)에 나열되어 있습니다.
+![](../assets/do-not-localize/book.png) 모든 양식 속성은  [Campaign Classic v7 설명서에 나열되어 있습니다](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html).
 
 ## 양식화 {#formatting}
 
-컨트롤 레이아웃은 HTML 표에 사용되는 레이아웃과 비슷하며 컨트롤을 여러 열로 분할하거나 요소를 삽입하거나 사용 가능한 공간의 위치를 지정할 수 있습니다. 그러나 이 서식을 지정하면 해당 영역을 비율로 나눌 수 있습니다. 개체에 고정 치수를 지정할 수 없습니다.
+컨트롤의 레이아웃은 HTML 테이블에 사용되는 레이아웃과 비슷하며 컨트롤을 여러 열로 분할하거나 요소를 삽입하거나 사용 가능한 공간의 위치를 지정할 수 있습니다. 그러나 이 서식을 지정하면 해당 영역을 비율로 나눌 수 있습니다. 개체에 고정 치수를 지정할 수 없습니다.
 
 위의 예제 컨트롤을 두 열로 표시하려면 다음을 수행합니다.
 

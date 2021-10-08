@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 3%
@@ -78,7 +78,7 @@ ht-degree: 3%
 
 **데이터 보강** 활동을 사용하면 게재 수신자를 위한 오퍼에 오퍼나 링크를 추가할 수 있습니다.
 
-↗️ 데이터 보강 활동에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html) 를 참조하십시오
+![](../assets/do-not-localize/book.png) 데이터 보강 활동에 대한 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
 
 예를 들어 게재 전에 수신자 쿼리의 데이터를 보강할 수 있습니다.
 
@@ -165,7 +165,7 @@ ht-degree: 3%
 
 또한 **[!UICONTROL Offer engine]** 활동을 사용하면 게재 전에 오퍼 엔진에 대한 호출을 지정할 수 있습니다.
 
-↗️ **오퍼 엔진** 활동에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)를 참조하십시오
+![](../assets/do-not-localize/book.png) 오퍼  **엔지니어링 활동에 대한 자세한** 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
 
 이 활동은 게재 전에 엔진에서 계산된 오퍼로 인바운드 모집단 데이터를 강화하여 엔진 호출을 사용하여 **데이터 보강** 활동과 동일한 원리에 작동합니다.
 
@@ -188,7 +188,7 @@ ht-degree: 3%
 
 **[!UICONTROL Offers by cell]** 활동을 사용하면 인바운드 모집단을 여러 세그먼트로 배포하고 이러한 각 세그먼트에 대해 표시할 오퍼를 지정할 수 있습니다.
 
-↗️ **Offer by cell** 활동에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)를 참조하십시오
+![](../assets/do-not-localize/book.png) 셀랙티브한  **오퍼에 대한** 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
 
 이렇게 하려면 다음 프로세스를 사용합니다.
 

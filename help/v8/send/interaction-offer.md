@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 5%
@@ -144,7 +144,7 @@ ht-degree: 5%
 
    ![](assets/offer_content_create_003.png)
 
-   이 예에서 오퍼에는 제목, 이미지, HTML 콘텐츠 및 대상 URL이 포함되어야 합니다.
+   이 예에서 오퍼에는 제목, 이미지, HTML 컨텐츠 및 대상 URL이 포함되어야 합니다.
 
 ## 오퍼 미리 보기 {#previewing-the-offer}
 
@@ -182,13 +182,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 이제 오퍼를 승인하고 활성화하여 **Live** 환경에서 사용할 수 있도록 할 수 있습니다.
 
-↗️ 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)를 참조하세요
+![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)를 참조하세요
 
 ## 오퍼 프레젠테이션 관리{#offer-presentation}
 
 Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 프로필의 흐름을 제어할 수 있습니다. Campaign 상호 작용에 고유한 이러한 규칙은 **유형화 규칙**&#x200B;입니다. 수신자에게 이미 수행된 proposition 내역을 기반으로 오퍼를 제외할 수 있습니다. 환경에서 참조됩니다.
 
-↗️ 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)를 참조하세요
+![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)를 참조하세요
 
 ## 오퍼 시뮬레이션
 
@@ -196,4 +196,4 @@ Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 프로
 
 시뮬레이션은 오퍼와 해당 프레젠테이션 규칙에 이전에 적용된 컨텍스트 및 자격 규칙을 고려합니다. 이렇게 하면 시뮬레이션이 타겟팅된 수신자에게 영향을 주지 않으므로 오퍼를 실제로 사용하거나 대상을 지나치게 모집하지 않고 다양한 버전의 오퍼 제안을 테스트하고 세분화할 수 있습니다.
 
-↗️ 오퍼 시뮬레이션에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en) 를 참조하십시오
+![](../assets/do-not-localize/book.png) 오퍼 시뮬레이션에 대한 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)

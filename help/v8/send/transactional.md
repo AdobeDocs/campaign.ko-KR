@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
 workflow-type: tm+mt
 source-wordcount: '1486'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 1%
 * 고객 작업에 대한 개별 실시간 응답
 * 홍보되지 않는 콘텐츠
 
-?? 트랜잭션 메시지 설정은 [이 섹션](../config/transactional-msg-settings.md)에 자세히 설명되어 있습니다.
+![](../assets/do-not-localize/glass.png) 트랜잭션 메시지 설정은  [이 섹션에 자세히 설명되어 있습니다](../config/transactional-msg-settings.md).
 
-?? [이 페이지](../dev/architecture.md)의 트랜잭션 메시지 아키텍처를 이해합니다.
+![](../assets/do-not-localize/glass.png)  [이 페이지의 트랜잭션 메시지 아키텍처를 이해합니다](../dev/architecture.md).
 
 >[!CAUTION]
 >
@@ -71,7 +71,7 @@ ht-degree: 1%
 >메시지에 포함된 이미지는 공개적으로 액세스할 수 있어야 합니다. Adobe Campaign은 트랜잭션 메시지를 위한 이미지 업로드 메커니즘을 제공하지 않습니다.\
 >JSSP 또는 webApp과 달리 `<%=`에는 기본 이스케이프가 없습니다.
 >
->이벤트에서 들어오는 각 데이터를 제대로 이스케이프 처리해야 합니다. 이스케이프는 이 필드를 사용하는 방식에 따라 다릅니다. 예를 들어 URL 내에서 encodeURIComponent를 사용하십시오. HTML에 표시되도록 하려면 escapeXMLString을 사용할 수 있습니다.
+>이벤트에서 들어오는 각 데이터를 제대로 이스케이프 처리해야 합니다. 이스케이프는 이 필드를 사용하는 방식에 따라 다릅니다. 예를 들어 URL 내에서 encodeURIComponent를 사용하십시오. HTML에 표시하려면 escapeXMLString을 사용할 수 있습니다.
 
 메시지 콘텐츠를 정의하고 나면 이벤트 정보를 메시지 본문에 통합하여 개인화할 수 있습니다. 개인화 태그 덕분에 텍스트 본문에 이벤트 정보가 삽입됩니다.
 
@@ -151,7 +151,7 @@ ht-degree: 1%
 
 증명 전송에는 게재와 동일한 프로세스가 포함됩니다.
 
-↗️ [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target=&quot;_blank&quot;}에서 증명에 대해 자세히 알아보십시오
+![](../assets/do-not-localize/book.png)  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target=&quot;_blank&quot;}에서 증명에 대해 자세히 알아보십시오
 
 그러나 트랜잭션 메시지의 증명을 보내려면 다음 작업을 수행해야 합니다.
 

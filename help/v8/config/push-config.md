@@ -1,23 +1,23 @@
 ---
-title: Campaign SDK를 앱과 통합
-description: Campaign Android 및 iOS SDK를 앱에 통합하는 방법을 알아봅니다
+title: Campaign SDK와 앱 통합
+description: Campaign Android 및 iOS SDK를 앱과 통합하는 방법을 알아봅니다
 version: v8
 feature: Push
 role: Developer
 level: Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: ea7d540af082782114f4a3e32c9d880b0d14df43
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1288'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Campaign SDK를 앱과 통합 {#integrate-campaign-sdk}
+# Campaign SDK와 앱 통합 {#integrate-campaign-sdk}
 
-iOS 및 Android용 Campaign SDK를 사용하여 모바일 애플리케이션을 Adobe Campaign 플랫폼에 간편하게 통합할 수 있습니다.
+iOS 및 Android용 Campaign SDK를 사용하여 모바일 애플리케이션을 Adobe Campaign 플랫폼에 쉽게 통합할 수 있습니다.
 
-Android 및 iOS에서 지원되는 버전 및 Campaign v8용 Campaign SDK 호환 버전은 [호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK)에 나열되어 있습니다.
+Android 및 iOS 지원 버전과 Campaign v8용 Campaign SDK 호환 버전은 [호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK)에 나열되어 있습니다.
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 
 Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://firebase.google.com/docs/android/setup) 를 참조하십시오.
 
-[Google Documentation](https://firebase.google.com/docs/android/setup)에서 애플리케이션에서 FCM을 구현하는 방법을 알아봅니다.
+[Google 설명서](https://firebase.google.com/docs/android/setup)에서 응용 프로그램에서 FCM을 구현하는 방법을 알아봅니다.
 
 >[!NOTE]
 >
@@ -590,7 +590,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 1. **자동 알림 추적**
 
-   iOS를 사용하면 무음 알림, 알림 또는 데이터를 표시하지 않고 모바일 애플리케이션으로 직접 전송할 수 있습니다. Adobe Campaign에서 추적할 수 있습니다.
+   iOS을 사용하면 자동 알림, 알림 또는 데이터를 표시하지 않고 모바일 애플리케이션으로 직접 전송할 수 있습니다. Adobe Campaign에서 추적할 수 있습니다.
 
    자동 알림을 추적하려면 아래 예를 따르십시오.
 
@@ -638,9 +638,9 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
    ```
 
-   * **** 상태를 사용하면 등록에 성공했는지 또는 오류가 발생했는지 확인할 수 있습니다.
+   * **** Statusesuccessful을 사용하여 등록에 성공했는지 또는 오류가 발생했는지 알 수 있습니다.
 
-   * **** ErrorReason은 발생한 오류에 대한 자세한 정보를 제공합니다. 사용 가능한 오류 및 설명에 대한 자세한 내용은 아래 표를 참조하십시오.
+   * **** ErrorReason에서는 발생한 오류에 대한 자세한 정보를 제공합니다. 사용 가능한 오류 및 설명에 대한 자세한 내용은 아래 표를 참조하십시오.
 
    | 상태 | 설명 | ErrorReason |
    | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
@@ -794,7 +794,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드와 Adobe Campaign 콘솔의 전용 모바일 애플리케이션 서비스의 **[!UICONTROL Variables]** 탭에서 정의해야 합니다.
 
-↗️ 모바일 앱의 **Campaign Classic v7 설명서**&#x200B;에서 자세히 알아보십시오. [iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} 및 [Android](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}에 대한 구성 단계.
+![](../assets/do-not-localize/book.png) 모바일 앱에 대한  **Campaign Classic v7** 설명서에서 자세히 알아보십시오.  [iOS ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} 및 Android에 대한  [구성 단계](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
 
 다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있도록 하는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
 
