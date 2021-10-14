@@ -4,7 +4,8 @@ description: Campaign 및 Adobe Experience Manager을 사용하여 작업하는 
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -23,4 +24,4 @@ Adobe Campaign에서 이메일이나 랜딩 페이지를 편집하는 동안 Ado
 
 ![](../assets/do-not-localize/book.png) [이 종단간 샘플에서 이 통합을 살펴보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
 
-?? 관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 Adobe Experience Manager을 Campaign과 통합하십시오.
+![](../assets/do-not-localize/speech.png)  관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Adobe Experience Manager을 Campaign과 통합하십시오.

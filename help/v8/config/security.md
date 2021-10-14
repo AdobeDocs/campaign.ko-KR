@@ -2,7 +2,7 @@
 title: Campaign 보안 모범 사례
 description: Campaign 보안 모범 사례 시작
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 1%
@@ -17,14 +17,14 @@ Adobe에서 Adobe는 디지털 경험의 보안을 매우 중요하게 생각합
 
 ## 개인 정보 보호
 
-Privacy configuration and hardening is a key element of security optimization. 다음은 개인 정보에 대해 따라야 할 몇 가지 모범 사례입니다.
+개인 정보 구성 및 경화는 보안 최적화의 주요 요소입니다. 다음은 개인 정보에 대해 따라야 할 몇 가지 모범 사례입니다.
 
-* Protect your customer Personal Information (PI) by using HTTPS instead of HTTP
+* HTTP 대신 HTTPS를 사용하여 고객 개인 정보(PI)를 Protect
 * 개인 정보를 보호하고 데이터가 오용되지 않도록 하려면 [PI 보기 제한](../dev/restrict-pi-view.md)을 사용하십시오
 * 암호화된 암호가 제한되어 있는지 확인하십시오
 * Protect 미러 페이지, 웹 애플리케이션 등의 개인 정보를 포함할 수 있는 페이지를 설정합니다.
 
-?? 관리 Cloud Services 사용자인 Adobe은 사용자와 협력하여 환경에서 이러한 구성을 구현합니다.
+![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자인 Adobe은 사용자와 협력하여 환경에서 이러한 구성을 구현합니다.
 
 ## 개인화
 
@@ -40,13 +40,13 @@ Privacy configuration and hardening is a key element of security optimization. �
 
 낮은 권한 인증 사용자가 암호화된 암호를 액세스할 수 없도록 해야 합니다. 이를 위해 다음과 같은 두 가지 주요 방법이 있습니다. 암호 필드에만 또는 전체 엔터티에 대한 액세스를 제한합니다.
 
-This restriction allows you to remove passwords fields but leaves the external account accessible from the interface for all users. [이 페이지](../dev/restrict-pi-view.md)에서 자세히 알아보십시오.
+이 제한 사항으로 암호 필드를 제거할 수 있지만, 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있도록 유지합니다. [이 페이지](../dev/restrict-pi-view.md)에서 자세히 알아보십시오.
 
 1. **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**&#x200B;로 이동합니다.
 
-1. Create a new **[!UICONTROL Extension of a schema]**.
+1. 새 **[!UICONTROL Extension of a schema]**&#x200B;을(를) 만듭니다.
 
-1. Choose **[!UICONTROL External Account]** (extAccount).
+1. **[!UICONTROL External Account]** (extAccount)을 선택합니다.
 
 1. 마지막 화면에서는 새 srcSchema를 편집하여 모든 암호 필드에 대한 액세스를 제한할 수 있습니다.
 
@@ -96,14 +96,14 @@ This restriction allows you to remove passwords fields but leaves the external a
 
    >[!NOTE]
    >
-   >You can replace `$(loginId) = 0 or $(login) = 'admin'` by `hasNamedRight('admin')` to let all users with admin right see these passwords.
+   >`$(loginId) = 0 or $(login) = 'admin'` 을 `hasNamedRight('admin')` 로 대체하여 관리자 권한이 있는 모든 사용자가 이러한 암호를 볼 수 있도록 할 수 있습니다.
 
 
 ## 액세스 관리
 
-Access management is an important part of security hardening. Here are some of the main best practices:
+액세스 관리는 보안 강화의 중요한 부분입니다. 다음은 몇 가지 주요 우수 사례입니다.
 
-* Create enough security groups
+* 충분한 보안 그룹 만들기
 * 각 연산자에 적절한 액세스 권한이 있는지 확인합니다
 * 관리 연산자를 사용하지 않도록 하고, 관리 그룹에 너무 많은 운영자가 없도록 하십시오
 

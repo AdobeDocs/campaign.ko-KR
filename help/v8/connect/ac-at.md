@@ -4,7 +4,8 @@ description: Campaign 및 Adobe Target을 사용하여 작업하는 방법 알�
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 1%
@@ -20,7 +21,7 @@ Adobe Target의 오퍼를 Adobe Campaign 이메일 게재에 포함하도록 Cam
 >[!NOTE]
 >통합은 정적 이미지만 지원합니다. 다른 유형의 콘텐츠는 개인화할 수 없습니다.
 
-?? 관리 Cloud Services 사용자로서 [은(는) Adobe](../start/campaign-faq.md#support)에 문의하여 Campaign으로 Experience Cloud 트리거를 구현합니다.
+![](../assets/do-not-localize/speech.png)  관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Campaign으로 Experience Cloud 트리거를 구현합니다.
 
 Adobe Target에서는 다음 유형의 데이터를 사용할 수 있습니다.
 

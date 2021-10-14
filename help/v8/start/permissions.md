@@ -5,7 +5,7 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: c3ed24e16d5a8bc67b8a8c959bbf485ea0fd919c
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 7%
@@ -36,7 +36,7 @@ Adobe Campaign에는 캠페인 관리자 또는 워크플로우 감독자와 같
 
 연산자는 콘솔의 프로필에서 보안 영역에 연결되며 **[!UICONTROL Administration > Access management > Operators]** 노드에서 액세스할 수 있습니다.
 
-?? Adobe은 관리되는 Cloud Services 사용자로 보안 영역을 설정합니다. 자세한 내용은 [Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}에 문의하십시오.
+![](../assets/do-not-localize/speech.png)  Adobe은 관리되는 Cloud Services 사용자로 보안 영역을 설정합니다. 자세한 내용은 [Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}에 문의하십시오.
 
 **Campaign Classic v7 설명서에서 자세히 알아보기**
 

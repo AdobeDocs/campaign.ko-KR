@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 4%
@@ -34,7 +34,7 @@ Adobe Campaign **[!UICONTROL Explorer]**&#x200B;에서 외부 계정에 액세�
 
 다음 기술 계정은 Adobe Campaign에서 특정 프로세스를 활성화하고 실행하는 데 사용됩니다.
 
-?? 관리 Cloud Services 사용자로 Campaign에서 제공하는 모든 외부 계정을 Adobe에서 구성합니다.
+![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자로 Campaign에서 제공하는 모든 외부 계정을 Adobe에서 구성합니다.
 
 * **바운스 메일(POP3)**
 
@@ -80,14 +80,14 @@ Adobe Campaign **[!UICONTROL Explorer]**&#x200B;에서 외부 계정에 액세�
 
    ![](../assets/do-not-localize/glass.png) Adobe Campaign -  [이 페이지](../connect/ac-aa.md)에서 Adobe Analytics 통합에 대해 자세히 알아보십시오.
 
-   ?? 관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 Adobe Analytics을 Campaign과 통합하십시오.
+   ![](../assets/do-not-localize/speech.png)  관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Adobe Analytics을 Campaign과 통합하십시오.
 
    * **Adobe Experience Manager**
    **[!UICONTROL AEM]** 외부 계정을 사용하면 Adobe Experience Manager에서 직접 양식과 이메일 게재 콘텐츠를 관리할 수 있습니다.
 
    ![](../assets/do-not-localize/glass.png) Adobe Campaign -  [이 페이지](../connect/ac-aem.md)에서 Adobe Analytics 통합에 대해 자세히 알아보십시오.
 
-   ?? 관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 Adobe Experience Manager을 Adobe Campaign과 통합하십시오.
+   ![](../assets/do-not-localize/speech.png)  관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Adobe Experience Manager을 Adobe Campaign과 통합하십시오.
 
 
 ## CRM 커넥터 외부 계정

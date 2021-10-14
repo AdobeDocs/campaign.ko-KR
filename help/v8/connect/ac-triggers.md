@@ -4,7 +4,8 @@ description: Campaign 및 Adobe Experience Cloud 트리거를 사용하여 작�
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: a2ab85c3-ef5f-49fd-a6c4-2fd397c8d21b
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -17,4 +18,4 @@ Experience Cloud 트리거 을 사용하여 파이프라인을 사용하여 Adob
 
 [이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en)에서 Adobe Campaign 및 Experience Cloud 트리거에 대해 자세히 알아보십시오.
 
-??  관리 Cloud Services 사용자로서 [은(는) Adobe](../start/campaign-faq.md#support)에 문의하여 Campaign으로 Experience Cloud 트리거를 구현합니다.
+![](../assets/do-not-localize/speech.png)   관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Campaign으로 Experience Cloud 트리거를 구현합니다.

@@ -4,7 +4,8 @@ description: Campaign 및 CRM으로 작업하는 방법 알아보기
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 25%
@@ -25,7 +26,7 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 
 지원되는 CRM 및 버전은 Campaign [호환성 매트릭스](../start/compatibility-matrix.md)에 자세히 설명되어 있습니다.
 
-?? CRM 커넥터는 보안 URL(https)에서만 작동합니다.
+![](../assets/do-not-localize/speech.png)  CRM 커넥터는 보안 URL(https)에서만 작동합니다.
 
 ## 구현 단계 {#crm-implementation-steps}
 

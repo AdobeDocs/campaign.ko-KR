@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
-source-git-commit: 780a29dab99ad2bda554134ca95c435b9e76b494
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 6%
@@ -31,7 +31,7 @@ Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 선택�
 
 * 성공적으로 전송된 이메일만 고려하며 바운스는 고려되지 않습니다.
 
-?? 관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 Campaign에서 이메일 BCC를 활성화하십시오. 선택한 BCC 이메일 주소는 Adobe 팀이 대신 구성하도록 제공해야 합니다.
+![](../assets/do-not-localize/speech.png)  관리되는 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Campaign에서 이메일 BCC를 활성화합니다. 선택한 BCC 이메일 주소는 Adobe 팀이 대신 구성하도록 제공해야 합니다.
 
 이메일 BCC가 구성되면 게재 템플릿에서 또는 **이메일 BCC** 옵션을 통해 게재에서 기능이 활성화되어 있는지 확인합니다.
 

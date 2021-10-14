@@ -4,7 +4,8 @@ description: Campaign 및 Real-time Customer Data Platform을 사용하여 작�
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: d1e09eae-339e-4d14-9071-097dfcc635aa
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -19,4 +20,4 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/book.png)  [Campaign Classic v7 설명서에서 Campaign에서 RTCDP를 구현하고 사용하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=en#integrating-with-adobe-experience-cloud)
 
-?? 관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 RTCDP 및 Campaign을 연결하십시오.
+![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 RTCDP 및 Campaign을 연결합니다.

@@ -4,7 +4,8 @@ description: Campaign과 Analytics를 통합하는 방법을 알아봅니다
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 74%
@@ -17,7 +18,7 @@ Campaign과 Analytics를 통합하도록 Adobe Analytics을 구성할 수 있습
 
 이 통합을 통해 Adobe Campaign 및 Adobe Analytics은 **Web Analytics 커넥터** 추가 기능을 통해 상호 작용할 수 있습니다. 이 통합은 Adobe Campaign이 Adobe Analytics에 제공하는 이메일 캠페인의 지표와 속성을 보냅니다.
 
-?? 관리 Cloud Services 사용자로서 [Adobe](../start/campaign-faq.md#support)에 문의하여 Campaign을 Adobe Experience Cloud 서비스 및 솔루션과 연결하세요. Web Analytics 커넥터 추가 기능은 전용 패키지를 통해 사용자 환경에 설치해야 합니다.
+![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자는  [Adobe](../start/campaign-faq.md#support) 에 문의하여 Campaign을 Adobe Experience Cloud 서비스 및 솔루션과 연결하십시오. Web Analytics 커넥터 추가 기능은 전용 패키지를 통해 사용자 환경에 설치해야 합니다.
 
 Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상자를 측정하는 방법(웹 분석)이 있습니다. 웹 분석 도구를 사용하면 Adobe Campaign에서 지표 및 캠페인 속성을 Analytics에 전달할 수 있습니다.
 
