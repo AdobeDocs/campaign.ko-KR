@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8
 title: Campaign v8 문서
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: e0faeda87d5b84309524a72d9f021c381ac4619e
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 98%
+source-wordcount: '208'
+ht-degree: 97%
 
 ---
 
@@ -85,6 +85,7 @@ ht-degree: 98%
       + [키 관리 및 독자성](dev/keys.md)
       + [스키마 만들기](dev/create-schema.md)
       + [스키마 확장](dev/extend-schema.md)
+      + [스키마 필터링](dev/filter-schema.md)
       + [스키마 구조](dev/schema-structure.md)
       + [데이터베이스 매핑](dev/database-mapping.md)
       + [PI 보기 제한](dev/restrict-pi-view.md)
