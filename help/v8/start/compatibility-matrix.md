@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 83874f4d124d7892f99e973684b1e8ee571f31e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -33,18 +33,18 @@ Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브�
 
 >[!NOTE]
 >
->Adobe Campaign 서버 및 클라이언트 콘솔의 버전은 동일해야 합니다. [버전을 확인하는 방법을 알아봅니다](#version).
+>Adobe Campaign 서버와 클라이언트 콘솔의 버전은 동일해야 합니다. [버전을 확인하는 방법을 알아보세요](#version).
 
 ## CRM 커넥터{#CRMconnectors}
 
-Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템은 아래에 나와 있습니다. [자세히 알아보기](../connect/crm.md)
+Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다음과 같습니다. [자세히 알아보기](../connect/crm.md)
 
 * **Salesfore** connector API 버전 49
 * **Microsoft Dynamics** connector, Web API: Dynamics 365 온프레미스 및 온라인
 
 ## FDA(Federated Data Access){#FederatedDataAccessFDA}
 
-Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이터베이스는 아래에 나와 있습니다. [자세히 알아보기](../connect/fda.md)
+Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이터베이스 목록은 다음과 같습니다. [자세히 알아보기](../connect/fda.md)
 
 * **Amazon Redshift**
 * **[!DNL Google Big Query]**
@@ -53,14 +53,14 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 
 ## 모바일 SDK{#MobileSDK}
 
-Campaign을 사용하여 연결된 모바일 SDK를 사용하여 아래 나열된 운영 체제에서 [푸시 알림](../send/push.md)을 전송할 수 있습니다.
+다음 목록에 있는 운영 체제에서는 Campaign에서 연결된 모바일 SDK를 사용하여 [푸시 알림](../send/push.md)을 보낼 수 있습니다.
 
 * **Android** 7.x, 8.x, 9.0(Campaign Android SDK 빌드 1.1.1 포함).
 * **Apple iOS** 9 - 14(Campaign iOS SDK 빌드 1.0.26 포함)는 32비트 및 64비트 버전과 호환됩니다.
 
 ## 웹 액세스
 
-다음 브라우저는 [웹 액세스](connect.md#web-access)에 대한 Campaign과 호환됩니다.
+다음 브라우저는 [웹 액세스](connect.md#web-access)용 Campaign과 호환됩니다.
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari**(최신 버전)
 
