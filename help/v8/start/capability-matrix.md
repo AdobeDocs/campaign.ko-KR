@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Campaign 사용자는 데이터베이스 전문가가 될 필요가 없습니다
 
 Campaign 사용자는 Adobe ID을 통해 연결합니다. 동일한 Adobe ID을 사용하여 모든 Adobe 계획 및 제품을 단일 계정과 연결된 상태로 유지합니다.
 
-![](../assets/do-not-localize/glass.png)  [!DNL Campaign] 이 페이지 [에서](connect.md)에 연결하는 방법을 알아봅니다.
+![](../assets/do-not-localize/glass.png) [!DNL Campaign]에 연결하는 방법은 [이 페이지](connect.md)를 참조하세요.
 
 ## 보고
 
@@ -85,7 +85,7 @@ Campaign v8에서는 추가적인 타겟팅 워크플로우 활동으로 **[!UIC
 
 **[!UICONTROL Change data source]** 활동을 사용하면 워크플로우의 데이터 소스 **[!UICONTROL Working table]**&#x200B;을 변경하여 FDA, FFDA 및 로컬 데이터베이스와 같은 다양한 데이터 소스에 걸쳐 데이터를 관리할 수 있습니다.
 
-![](../assets/do-not-localize/glass.png)  **[!UICONTROL Change data source]** 이 페이지의  [활동에 대해 자세히 알아보십시오](../config/workflows.md#change-data-source-activity).
+![](../assets/do-not-localize/glass.png) **[!UICONTROL Change data source]** 활동에 대한 자세한 내용은 [이 페이지](../config/workflows.md#change-data-source-activity)를 참조하세요.
 
 ## 사용할 수 없는 기능{#gs-unavailable-features}
 
