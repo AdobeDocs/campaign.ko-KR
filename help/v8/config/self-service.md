@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 
 또한, Campaign 컨트롤 패널을 사용하여 IP 허용 목록, URL 권한, 인스턴스에 대한 정보 검색과 같은 인스턴스 설정을 구성할 수도 있습니다.
 
-![](../assets/do-not-localize/book.png) 자세한 내용은  [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target=&quot;_blank&quot;}에서 알아보십시오.
+![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target=&quot;_blank&quot;}를 참조하세요.
 
 >[!CAUTION]
 > Campaign v8에서 아직 지원하지 않는 기능:
