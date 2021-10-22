@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1213'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 
 >[!CAUTION]
 >
->**Campaign 관리 Cloud Services**&#x200B;을(를) 사용하면 라이선스 계약 약관에 따라 환경 및 초기 구성이 Adobe에 의해 설정되었습니다. 설치된 기본 제공 패키지, 기본 제공 스키마 또는 보고서는 수정할 수 없습니다.
+>**Campaign Managed Cloud Services**&#x200B;를 사용하면 Adobe가 라이선스 계약의 약관에 따라 환경 및 초기 구성을 설정합니다. 설치된 기본 제공 패키지, 기본 제공 스키마 또는 보고서는 수정할 수 없습니다.
 >
 >Campaign 추가 기능 또는 제공되지 않은 특정 기능을 사용해야 하는 경우 **Adobe 고객 지원 센터**&#x200B;에 문의해야 합니다.
 
@@ -49,7 +49,7 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호법 및 수�
 
 ### 사용자 추가 및 권한 부여
 
-Campaign에 사용자를 수동으로 추가하고 역할 계층 구조에 맞게 그룹에 연결할 수 있습니다. 그러면 사용자는 로그인하여 자신에게 적합한 데이터와 권한에 액세스할 수 있습니다.
+수동으로 Campaign에 사용자를 추가하고 역할 계층 구조에 맞게 그룹과 연결할 수 있습니다. 그러면 사용자는 로그인하여 자신에게 적합한 데이터와 권한에 액세스할 수 있습니다.
 
 [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ko#getting-started){target=&quot;_blank&quot;}에서 ![](../assets/do-not-localize/book.png)Adobe Campaign에 사용자를 추가하는 방법을 알아봅니다.
 
@@ -69,7 +69,7 @@ Campaign에 사용자를 수동으로 추가하고 역할 계층 구조에 맞�
 
    ![](../assets/do-not-localize/glass.png) [프로필을 가져오는 방법](import.md)을 알아보세요.
 
-   대상자는 목록으로 그룹화되어 워크플로우를 통해 만들 수 있습니다. 그런 다음 크로스 채널 게재에서 타기팅할 수 있습니다.
+   대상자를 그룹으로 묶어서 목록으로 만들고, 워크플로우를 통해 생성할 수 있습니다. 그런 다음 크로스채널 게재에서 타겟팅할 수 있습니다.
 
    ![](../assets/do-not-localize/glass.png) [대상자를 정의하는 방법](audiences.md)을 알아보세요.
 
