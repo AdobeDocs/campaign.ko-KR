@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: 780a29dab99ad2bda554134ca95c435b9e76b494
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 97%
 
 Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 불러오고, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 표에 직접 프로필 정보를 입력할 수 있습니다.
 
-![](../assets/do-not-localize/glass.png) 대상자  [시작](audiences.md)
+![](../assets/do-not-localize/glass.png) [대상자](audiences.md) 시작
 
-![](../assets/do-not-localize/glass.png) Campaign 데이터 모델  [이해](../dev/datamodel.md)
+![](../assets/do-not-localize/glass.png) Campaign [데이터 모델](../dev/datamodel.md) 이해
 
 ## 워크플로우에서 프로필 가져오기
 
@@ -28,7 +28,7 @@ Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 
 
 Campaign Classic v7 설명서에서 자세히 알아보기:
 
-* [가져오기 및 내보내기 ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=ko){target=&quot;_blank&quot;}
+* [가져오기 및 내보내기 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=ko){target=&quot;_blank&quot;}
 
 * [가져오기 및 내보내기 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=ko){target=&quot;_blank&quot;}
 
