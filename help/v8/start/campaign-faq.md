@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    이러한 정기 업데이트 빈도는 최신 업데이트를 직접 경험해 보고 사용 환경을 안전하게 지키며 Adobe 제품 경험을 향상시키는 것을 목표로 합니다. 이 때문에 Adobe Campaign의 최신 버전을 실행하는 것이 매우 중요하다고 생각합니다.
 
-   ![](../assets/do-not-localize/speech.png)  Adobe는 새 릴리스가 나올 때마다 관리 클라우드 서비스 사용자의 인스턴스를 업그레이드합니다.
+   ![](../assets/do-not-localize/speech.png)  Adobe는 새 릴리스가 나올 때마다 Managed Cloud Services 사용자의 인스턴스를 업그레이드합니다.
 
 1. **Campaign v8에 연결하는 방법은 무엇인가요?**
 
@@ -60,7 +60,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    하위 도메인은 브랜드나 다양한 트래픽 유형(트랜잭션 메시지, 마케팅 정보 등)을 분리하는 데 사용할 수 있는 도메인의 개별 부분입니다.
 
-   ![](../assets/do-not-localize/speech.png)  관리 클라우드 서비스 사용자는 Adobe에 문의하여 하위 도메인을 Adobe에 위임할 수 있습니다.
+   ![](../assets/do-not-localize/speech.png)  Managed Cloud Services 사용자는 Adobe에 문의하여 하위 도메인을 Adobe에 위임할 수 있습니다.
 
 1. **Campaign Classic v7 사용자는 Campaign v8로 마이그레이션할 수 있나요?**
 
