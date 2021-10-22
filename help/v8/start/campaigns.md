@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 
    모든 마케팅 캠페인은 기본 설정 및 기능을 저장하는 템플릿을 기반으로 합니다. 특정 구성이 정의되지 않은 캠페인을 만들기 위해 내장 템플릿이 제공됩니다. 캠페인 템플릿을 만들고 구성한 다음 그 템플릿에서 캠페인을 만들 수 있습니다.
 
-   Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=ko#orchestrating-campaigns)에서![](../assets/do-not-localize/book.png)Campaign 템플릿으로 작업하는 방법을 알아봅니다. [{target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) 캠페인 템플릿 작업 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=ko#orchestrating-campaigns){target=&quot;_blank&quot;}를 참조하세요.
 
    [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=ko#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}에서 ![](../assets/do-not-localize/book.png)반복 캠페인과 이를 구성하는 방법을 살펴봅니다.
 
