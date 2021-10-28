@@ -5,20 +5,20 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 3%
 
 ---
 
-# 사전 정의 필터 만들기{#creating-predefined-filters}
+# 사전 정의 필터 만들기{#creating-pre-defined-filters}
 
 사전 정의된 필터를 만들어 오퍼를 만드는 동안 쉽게 다시 사용할 수 있는 대상 모집단에 대한 자격 규칙을 정의합니다. 각 환경에 따라 다르며 오퍼 매개 변수를 고려합니다.
 
 미리 정의된 필터를 생성하려면 다음 프로세스를 적용합니다.
 
-1. **[!UICONTROL Administration]** 폴더로 이동하여 **[!UICONTROL Pre-defined offer filters]** 을 선택합니다.
+1. 다음 위치로 이동합니다. **[!UICONTROL Administration]** 폴더를 선택하고 **[!UICONTROL Pre-defined offer filters]**.
 
    ![](assets/offer_filter_create_005.png)
 
@@ -38,6 +38,6 @@ ht-degree: 3%
 
    ![](assets/offer_filter_create_004.png)
 
-1. 필터 결과를 보려면 **[!UICONTROL Preview]** 을 클릭하십시오.
+1. 클릭 **[!UICONTROL Preview]** 필터 결과를 확인합니다.
 
    ![](assets/offer_filter_create_006.png)

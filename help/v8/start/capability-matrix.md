@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
-workflow-type: ht
-source-wordcount: '929'
+source-git-commit: 95e1aff491257faeda8e12bf29aa95045901c8b2
+workflow-type: tm+mt
+source-wordcount: '922'
 ht-degree: 100%
 
 ---
@@ -93,8 +93,6 @@ Campaign v8에서는 추가적인 타겟팅 워크플로우 활동으로 **[!UIC
 
 * 마케팅 리소스 관리
 * 분산 마케팅
-* 인바운드 오퍼 관리(상호 작용 모듈)
-* Campaign 최적화
 * 반응 관리자
 * 하이브리드/온-프레미스 배포 모델
 * 트위터 채널

@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8
 title: Campaign v8 문서
-source-git-commit: e0faeda87d5b84309524a72d9f021c381ac4619e
-workflow-type: ht
-source-wordcount: '208'
-ht-degree: 100%
+source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 86%
 
 ---
 
@@ -48,8 +48,10 @@ ht-degree: 100%
    + [LINE 메시지 보내기](send/line.md)
    + [DM](send/direct-mail.md)
    + [트랜잭션 메시지 ](send/transactional.md)
-   + 오퍼 추가{#interaction}
-      + [상호 작용 시작](send/interaction.md)
+   + Campaign 상호 작용을 통해 오퍼 관리{#interaction}
+      + [실시간 상호 작용 시작](send/interaction.md)
+      + [환경 및 아키텍처](send/interaction-architecture.md)
+      + [모범 사례](send/interaction-best-practices.md)
       + 설정 정의{#interaction}
          + [운영자 만들기](send/interaction-operators.md)
          + [환경 만들기](send/interaction-env.md)
@@ -57,7 +59,12 @@ ht-degree: 100%
          + [오퍼 공간 만들기](send/interaction-offer-spaces.md)
       + [오퍼 카탈로그 만들기](send/interaction-offer-catalog.md)
       + [오퍼 만들기](send/interaction-offer.md)
-      + [오퍼 보내기](send/interaction-send-offers.md)
+      + [오퍼 보내기 (아웃바운드)](send/interaction-send-offers.md)
+      + 오퍼(인바운드) 제공{#inbound}
+         + [컨텍스트](send/interaction-present-offers.md)
+         + [웹 페이지에서 오퍼 호출](send/interaction-integration.md)
+         + [익명의 상호 작용 관리](send/anonymous-interactions.md)
+      + [보고서 및 내역](send/interaction-tracking.md)
       + [활용 사례](send/interaction-use-cases.md)
 + 구성 {#config}
    + [워크플로우 자동화](config/workflows.md)

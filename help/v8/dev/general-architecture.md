@@ -2,10 +2,10 @@
 title: 일반 아키텍처
 description: Campaign 아키텍처 및 구성 요소에 대해 자세히 알아보기
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 6%
 
 * **Campaign API**: 경우에 따라 SOAP 프로토콜을 통해 노출된 웹 서비스 API를 사용하여 외부 애플리케이션에서 시스템을 호출할 수 있습니다.
 
-   ![](../assets/do-not-localize/glass.png) [Campaign API에 대해 자세히 알아보십시오](../dev/api.md).
+   ![](../assets/do-not-localize/glass.png) [Campaign API에 대해 자세히 알아보기](../dev/api.md).
 
 ## 개발 환경 {#dev-env}
 
@@ -55,7 +55,7 @@ Adobe Campaign은 개방적이고 확장 가능한 아키텍처를 만들기 위
 
 주요 프로세스는 다음과 같습니다.
 
-**애플리케이션 서버** (nlserver 웹)
+**애플리케이션 서버** (nlserver web)
 
 이 프로세스는 웹 서비스 API(SOAP/HTTP + XML)를 통해 모든 범위의 Adobe Campaign 기능을 노출합니다. 또한 HTML 기반 액세스에 사용되는 웹 페이지(보고서, 웹 양식 등)를 동적으로 생성할 수 있습니다. 이를 위해 이 프로세스에는 Apache Tomcat JSP 서버가 포함됩니다. 콘솔이 연결되는 프로세스입니다.
 
@@ -65,9 +65,9 @@ Adobe Campaign은 개방적이고 확장 가능한 아키텍처를 만들기 위
 
 또한 다음을 포함하여 정기적으로 실행되는 기술 워크플로우를 처리합니다.
 
-* **Tracking**: Recovering and consolidating tracking logs. It enables you retrieve the logs from the redirection server and create the aggregate indicators used by the reporting module.
+* **추적**: 추적 로그 복구 및 통합. 이 기능을 사용하면 리디렉션 서버에서 로그를 검색하고 보고 모듈에서 사용하는 집계 지표를 만들 수 있습니다.
 * **정리**: 데이터베이스 정리. 이전 레코드를 제거하고 데이터베이스가 기하급수적으로 증가하는 것을 방지하는 데 사용됩니다.
-* **청구**: 플랫폼에 대한 활동 보고서 자동 전송(데이터베이스 크기, 마케팅 작업 수 등)
+* **과금**: 플랫폼에 대한 활동 보고서 자동 전송(데이터베이스 크기, 마케팅 작업 수 등)
 
 **배달 서버** (nlserver mta)
 
@@ -93,7 +93,7 @@ Adobe Campaign에는 기본 이메일 브로드캐스트 기능이 있습니다.
 
 이 프로세스는 SMS 라우터를 폴링하여 진행 상태를 수집하고 데이터베이스를 업데이트합니다.
 
-**로그 메시지 작성** (nlserver syslogd)
+**로그 메시지 쓰기** (nlserver syslogd)
 
 이 기술 프로세스는 다른 프로세스에서 생성한 로그 메시지와 추적을 캡처하여 하드 디스크에 씁니다. 따라서 문제 발생 시 진단을 위해 충분한 정보를 제공할 수 있습니다.
 
@@ -101,7 +101,7 @@ Adobe Campaign에는 기본 이메일 브로드캐스트 기능이 있습니다.
 
 이 프로세스는 리디렉션 프로세스에서 생성된 추적 로그를 디스크에 저장합니다.
 
-**인바운드 이벤트 쓰기** (nlserver 상호 작용)
+**인바운드 이벤트 쓰기** (nlserver interactiond)
 
 이 프로세스에서는 상호 작용 프레임워크 내에서 인바운드 이벤트의 디스크에 기록하는 것을 보장합니다.
 
@@ -115,7 +115,7 @@ Adobe Campaign에는 기본 이메일 브로드캐스트 기능이 있습니다.
 
 ## 데이터베이스 컨테이너 {#db-containers}
 
-Adobe Campaign Cloud 데이터베이스는 기능 데이터(프로필, 구독, 컨텐츠 등), 기술 데이터(게재 작업 및 로그, 추적 로그 등)가 포함된 [!DNL Snowflake] 을 사용합니다. 및 솔루션에 대한 작업 데이터(구매, 리드) 및 모든 Adobe Campaign 구성 요소는 특정 작업을 수행하기 위해 데이터베이스와 통신합니다.
+Adobe Campaign 클라우드 데이터베이스는 [!DNL Snowflake] 기능 데이터(프로필, 구독, 컨텐츠 등), 기술 데이터(게재 작업 및 로그, 추적 로그 등)가 포함된 및 솔루션에 대한 작업 데이터(구매, 리드) 및 모든 Adobe Campaign 구성 요소는 특정 작업을 수행하기 위해 데이터베이스와 통신합니다.
 
 고객은 사전 정의된 데이터베이스 및 스키마를 사용하여 Adobe Campaign을 배포할 수 있으며, 필요한 경우 사전 정의된 환경을 확장할 수 있습니다. SQL 호출을 통해 데이터 마트 내의 모든 데이터에 Adobe Campaign이 액세스합니다. 또한 Adobe Campaign은 데이터를 시스템 내외로 가져오고 내보내는 기능을 수행할 수 있는 ETL(변환 및 로드) 도구 전체를 제공합니다.
 
@@ -124,6 +124,6 @@ Adobe Campaign Cloud 데이터베이스는 기능 데이터(프로필, 구독, �
 
 >[!CAUTION]
 >
->**Campaign 관리 Cloud Services**&#x200B;을(를) 사용하면 라이선스 계약 약관에 따라 환경 및 초기 구성이 Adobe에 의해 설정되었습니다. 설치된 기본 제공 패키지, 기본 제공 스키마 또는 보고서는 수정할 수 없습니다.
+>**Campaign Managed Cloud Services**&#x200B;를 사용하면 Adobe가 라이선스 계약의 약관에 따라 환경 및 초기 구성을 설정합니다. 설치된 기본 제공 패키지, 기본 제공 스키마 또는 보고서는 수정할 수 없습니다.
 >
 >Campaign 추가 기능 또는 제공되지 않은 특정 기능을 사용해야 하는 경우 **Adobe 고객 지원 센터**&#x200B;에 문의해야 합니다.

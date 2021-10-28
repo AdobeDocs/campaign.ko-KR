@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 87c3f19cec5a756983def344620a1964b95a20d6
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 5%
@@ -16,19 +16,19 @@ ht-degree: 5%
 
 오퍼를 만들려면 아래 단계를 수행하십시오.
 
-1. **[!UICONTROL Campaigns]** 탭으로 이동하여 **[!UICONTROL Offers]** 링크를 클릭합니다.
+1. 다음 위치로 이동합니다. **[!UICONTROL Campaigns]** 탭을 클릭하고 **[!UICONTROL Offers]** 링크를 클릭합니다.
 
 1. **[!UICONTROL Create]** 버튼을 클릭합니다.
 
 1. 레이블을 변경하고 오퍼가 속해야 하는 카테고리를 선택합니다.
 
-1. **[!UICONTROL Save]** 을 클릭하여 오퍼를 만듭니다.
+1. 클릭 **[!UICONTROL Save]** 오퍼를 만들려면
 
    오퍼는 플랫폼에서 사용할 수 있으며 해당 콘텐츠를 구성할 수 있습니다.
 
 ## 자격 설정
 
-이제 **[!UICONTROL Eligibility]** 탭을 사용하여 다음을 정의할 수 있습니다.
+이제 를 사용할 수 있습니다 **[!UICONTROL Eligibility]** 탭:
 
 * 오퍼의 자격 기간입니다. [자세히 알아보기](#eligibility-period)
 * 오퍼 대상 모집단의 필터. [자세히 알아보기](#filters-on-the-target)
@@ -36,7 +36,7 @@ ht-degree: 5%
 
 ### 오퍼 자격 기간{#eligibility-period}
 
-오퍼의 **[!UICONTROL Eligibility]** 탭에서 오퍼의 자격 기간을 정의합니다. 드롭다운 목록을 사용하여 달력에서 시작 날짜와 종료 날짜를 선택합니다.
+에서 **[!UICONTROL Eligibility]** 오퍼의 탭에서 오퍼의 자격 기간을 정의합니다. 드롭다운 목록을 사용하여 달력에서 시작 날짜와 종료 날짜를 선택합니다.
 
 ![](assets/offer_eligibility_create_002.png)
 
@@ -44,13 +44,13 @@ ht-degree: 5%
 
 ### 타겟에 필터 추가 {#filters-on-the-target}
 
-오퍼의 **[!UICONTROL Eligibility]** 탭에서 필터를 오퍼 대상에 적용합니다.
+에서 **[!UICONTROL Eligibility]** 오퍼의 탭에서 필터를 오퍼 타겟에 적용합니다.
 
-이렇게 하려면 **[!UICONTROL Edit query]** 링크를 클릭하고 적용할 필터를 선택합니다.
+이렇게 하려면 **[!UICONTROL Edit query]** 을 링크하고 적용할 필터를 선택합니다.
 
 ![](assets/offer_eligibility_create_003.png)
 
-사전 정의된 필터가 이미 만들어진 경우 사용자 필터 목록에서 해당 필터를 선택할 수 있습니다. [자세히 알아보기](interaction-predefined-filters.md)
+미리 정의된 필터가 이미 만들어진 경우 사용자 필터 목록에서 해당 필터를 선택할 수 있습니다. [자세히 알아보기](interaction-predefined-filters.md)
 
 ![](assets/offer_eligibility_create_004.png)
 
@@ -68,7 +68,7 @@ ht-degree: 5%
 
 오퍼에서 가중치를 만들려면 다음 단계를 적용합니다.
 
-1. 오퍼의 **[!UICONTROL Eligibility]** 탭에서 **[!UICONTROL Add]** 을 클릭합니다.
+1. 에서 **[!UICONTROL Eligibility]** 오퍼의 탭에서 **[!UICONTROL Add]**.
 
    ![](assets/offer_weight_create_001.png)
 
@@ -92,7 +92,7 @@ ht-degree: 5%
 
    ![](assets/offer_weight_create_004.png)
 
-1. **[!UICONTROL OK]** 을 클릭하여 가중치를 저장합니다.
+1. 클릭 **[!UICONTROL OK]** 체중을 줄이기 위해
 
    ![](assets/offer_weight_create_005.png)
 
@@ -104,22 +104,22 @@ ht-degree: 5%
 
 구성이 완료되면 오퍼 대시보드에서 자격 규칙 요약을 사용할 수 있습니다.
 
-보려면 **[!UICONTROL Schedule and eligibility rules]** 링크를 클릭합니다.
+이를 보려면 **[!UICONTROL Schedule and eligibility rules]** 링크를 클릭합니다.
 
 ![](assets/offer_eligibility_create_005.png)
 
 ## 오퍼 컨텐츠 만들기 {#creating-the-offer-content}
 
-**[!UICONTROL Content]** 탭을 사용하여 오퍼 컨텐츠를 정의합니다.
+를 사용하십시오 **[!UICONTROL Content]** 탭을 클릭하여 오퍼 컨텐츠를 정의합니다.
 
 ![](assets/offer_content_create_001.png)
 
 1. 오퍼 컨텐츠의 다양한 매개 변수를 정의합니다.
 
-   * **[!UICONTROL Title]** : 오퍼에 표시할 제목을 지정합니다. 경고: 이것은 **[!UICONTROL General]** 탭에 정의된 오퍼의 레이블을 참조하지 않습니다.
+   * **[!UICONTROL Title]** : 오퍼에 표시할 제목을 지정합니다. 경고: 이것은 오퍼의 레이블을 참조하지 않으며, 이것은 **[!UICONTROL General]** 탭.
    * **[!UICONTROL Destination URL]** : 오퍼의 URL을 지정합니다. &quot;http://&quot; 또는 &quot;https://&quot;으로 시작해야 합니다.
    * **[!UICONTROL Image URL]** : 오퍼 이미지에 대한 URL 또는 액세스 경로를 지정합니다.
-   * **[!UICONTROL HTML content]** /  **[!UICONTROL Text content]** : 원하는 탭에 오퍼 본문을 입력합니다. 추적을 생성하려면 **[!UICONTROL HTML content]** 을 `<div>` 유형 요소로 묶을 수 있는 HTML 요소로 구성해야 합니다. 예를 들어 HTML 페이지에서 `<table>` 요소의 결과는 다음과 같습니다.
+   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** : 원하는 탭에 오퍼 본문을 입력합니다. 추적을 생성하려면 **[!UICONTROL HTML content]** 는 `<div>` 유형 요소입니다. 예를 들어 `<table>` HTML 페이지의 요소는 다음과 같습니다.
 
    ```
       <div> 
@@ -136,7 +136,7 @@ ht-degree: 5%
       </div>
    ```
 
-   [이 섹션](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted)에서 수락 URL을 정의하는 방법을 알아봅니다.
+   에서 수락 URL을 정의하는 방법을 알아봅니다. [이 섹션](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
 
    ![](assets/offer_content_create_002.png)
 
@@ -152,7 +152,7 @@ ht-degree: 5%
 
 방법은 다음과 같습니다.
 
-1. **[!UICONTROL Preview]** 탭을 클릭합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Preview]** 탭.
 
    ![](assets/offer_preview_create_001.png)
 
@@ -180,20 +180,20 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 ## 오퍼 승인 및 활성화{#approve-offers}
 
-이제 오퍼를 승인하고 활성화하여 **Live** 환경에서 사용할 수 있도록 할 수 있습니다.
+이제 오퍼를 승인하고 활성화하여 Marketing Cloud ID 클라이언트측 또는 서버측을 채우십시오 **라이브** 환경.
 
 ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)를 참조하세요
 
 ## 오퍼 프레젠테이션 관리{#offer-presentation}
 
-Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 프로필의 흐름을 제어할 수 있습니다. Campaign 상호 작용에 고유한 이러한 규칙은 **유형화 규칙**&#x200B;입니다. 수신자에게 이미 수행된 proposition 내역을 기반으로 오퍼를 제외할 수 있습니다. 환경에서 참조됩니다.
+Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 프로필의 흐름을 제어할 수 있습니다. Campaign 상호 작용에 관련된 이러한 규칙은 다음과 같습니다 **유형화 규칙**. 수신자에게 이미 수행된 proposition 내역을 기반으로 오퍼를 제외할 수 있습니다. 환경에서 참조됩니다.
 
 ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)를 참조하세요
 
 ## 오퍼 시뮬레이션
 
-시뮬레이션 모듈을 사용하면 수신자에게 제안을 보내기 전에 카테고리 또는 환경에 속하는 오퍼의 분포를 테스트할 수 있습니다.
+다음 **시뮬레이션** 모듈 을 사용하면 수신자에게 제안을 보내기 전에 카테고리 또는 환경에 속하는 오퍼의 분포를 테스트할 수 있습니다.
 
 시뮬레이션은 오퍼와 해당 프레젠테이션 규칙에 이전에 적용된 컨텍스트 및 자격 규칙을 고려합니다. 이렇게 하면 시뮬레이션이 타겟팅된 수신자에게 영향을 주지 않으므로 오퍼를 실제로 사용하거나 대상을 지나치게 모집하지 않고 다양한 버전의 오퍼 제안을 테스트하고 세분화할 수 있습니다.
 
-![](../assets/do-not-localize/book.png) 오퍼 시뮬레이션에 대한 자세한 내용은  [Campaign Classic v7 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
+![](../assets/do-not-localize/book.png) 오퍼 시뮬레이션에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)

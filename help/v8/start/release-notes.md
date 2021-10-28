@@ -6,16 +6,102 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
-source-wordcount: '756'
-ht-degree: 100%
+source-git-commit: 0061c536ff309d86061548b98d2c6e1124e01a0e
+workflow-type: tm+mt
+source-wordcount: '1597'
+ht-degree: 49%
 
 ---
 
 # 최신 릴리스{#latest-release}
 
 이 페이지에서는 **최신 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다.
+
+## 릴리스 8.2.1 {#release-8-2-1}
+
+_2021년 10월 28일_
+
+<table>
+<thead>
+<tr>
+<th><strong>인바운드 상호 작용</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 인바운드 채널에 대한 실시간 상호 작용 관리를 사용할 수 있습니다. Campaign 인바운드 상호 작용 모듈을 사용하여 고객이 웹 사이트를 방문하거나 콜 센터에 연락할 때 고객에게 최상의 오퍼를 제공합니다. 이 기능은 옵션으로 Campaign v8과 함께 제공되며, 인스턴스에 특정 구성이 필요합니다. 인바운드 상호 작용 모듈에 액세스하려면 Adobe 담당자에게 문의하십시오.</p>
+<p>자세한 내용은 <a href="../send/interaction-architecture.md">세부 설명서</a>를 참조하세요.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Campaign 최적화</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>이제 캠페인 최적화 모듈을 사용할 수 있습니다. 이 모듈을 사용하여 게재 전송을 제어, 필터링 및 모니터링할 수 있습니다. 캠페인 간의 충돌을 방지하기 위해 Adobe Campaign은 특정 제한 조건을 적용하여 다양한 조합을 테스트할 수 있습니다. 따라서 전송되는 메시지는 고객 및 회사 커뮤니케이션 정책의 요구 및 기대를 충족하도록 보장합니다.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html">Campaign Classic v7 설명서</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+<table> 
+<thead>
+<tr> 
+<th> <strong>Unity 서비스</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Unity Service는 새 Cloud Database Manager 구성 요소입니다. 클라우드 데이터베이스 테이블 내에서 고유한 키 제약 조건의 무결성을 유지 및 모니터링하는 데 도움이 됩니다. 이렇게 하면 중복 키를 삽입할 위험을 줄일 수 있습니다.
+<p>클라우드 데이터베이스가 원자성 제약 조건을 적용하지 않기 때문에 Unity Service는 응용 프로그램 수준에서 <b>새 가드 레일 세트</b> Adobe Campaign을 사용하여 데이터를 관리할 때 중복을 삽입하는 위험을 줄입니다.</p> 
+<p>Unity Service는 다음과 같은 새로운 내장 워크플로우를 시작합니다. <b>ffdaUnity</b> 중복이 검색될 때 원자성 제약 조건 및 경고를 모니터링하기 위한 것입니다.</p></td> </tr> 
+</tbody> 
+</table>
+
+**개선 사항**
+
+* Snowflake 커넥터가 성능이 향상되었습니다.
+* 이제 서버 구성 파일(serverConf.xml)에서 업데이트 및 커밋 복제 사이에 스키마당 대기 시간을 설정할 수 있습니다.
+* 모니터링 및 테스트 목적으로 **[!UICONTROL Replicate Staging data]** 이제 워크플로우에는 FFDA(Full Federated Data Access) 데이터베이스로 전송된 레코드 수가 포함됩니다.
+* 이제 SQL 코드 활동을 통해 SQL 스크립트를 저장할 데이터베이스를 선택할 수 있습니다. 기본 데이터 소스 또는 선택한 활성 FDA 외부 계정입니다.
+* 이제 미리 정의된 창고 세트를 사용할 수 있으며 세분화, ETL 또는 최고점과 같은 다양한 쿼리를 동시에 실행하는 데 사용할 수 있습니다. [자세히 표시](../config/workflows.md)
+
+**기타 변경 사항**
+
+* 다음 **[!UICONTROL Encrypted identifier]** 방문자 스키마에 필드가 추가되었습니다(`nms:visitor`). 이 필드는 계산되며 웹 애플리케이션에 사용됩니다.
+* 일부 중간 소싱 컨테이너에는 일부 IP 기능이 있지만 전부는 존재하지 않는 경우 게재 분석이 실패하는 문제를 해결했습니다. 이제 IP 관심도 모두 데이터베이스에 저장되므로 모든 컨테이너가 다른 모든 컨테이너에 있는 관심도에 액세스할 수 있습니다. (NEO-37564)
+* 이제 여러 스키마와 탐색 트리 노드가 있는 패키지를 가져올 수 있습니다.
+
+**패치**
+
+* 사용자가 제거되면 데이터 스키마에서 `<autoStg>` 속성을 테이블 정의 요소에서 사용하거나 값을 `true` to `false`관련 스테이징 테이블이 삭제되지 않았습니다. 이 문제가 수정되었습니다.
+* FFDA 데이터 소스를 사용하는 ID 관리로 인해 전용 양식으로 레코드를 만들 때 오류가 발생하는 문제를 해결했습니다.
+* 워크플로우에서 데이터 보강 활동으로 오퍼를 관리했을 때 오퍼가 게재에 삽입되지 않는 문제를 해결했습니다.
+* 패키지 가져오기 속도가 느려질 수 있는 문제를 수정했습니다.
+* 시드 주소가 있는 이메일 게재가 전송되지 않도록 하는 문제를 수정했습니다.
+* 오퍼 포지션 테이블에서 제안이 저장되지 않는 문제를 해결했습니다.
+* 네트워크 시간 초과 문제가 네트워크 오류 대신 스크립트 중단 문제로 잘못 기록되는 문제를 해결했습니다. 이 문제는 JavaScript 활동에 포함된 HTTP 요청의 경우에 발생했습니다.
+* 오퍼가 Snowflake의 라이브 오퍼 환경에 복제되지 않는 문제를 수정했습니다.
+* 확장이 아닌 기본 제공 스키마에 대해 &#39;autoStg&#39; 속성을 무시하던 문제를 수정했습니다.
+* 사용자가 다음을 선택할 수 없는 문제를 해결했습니다 **[!UICONTROL Country/Region]** 프로필을 미리 볼 때 연결합니다.
+* 사용자 지정 보고서에서 데이터 깜박임이 스크립트 오류를 발생하던 문제를 수정했습니다. (NEO-36345)
+* 구성 파일이 잘못된 경우 구성을 다시 생성할 때 시스템이 충돌하는 문제를 해결했습니다.
+* 마케팅 및 제어 인스턴스가 성공적으로 업그레이드되지 않는 문제를 해결했습니다.
+* 마케팅 인스턴스에서 청구 워크플로우가 충돌할 수 있는 문제를 수정했습니다.
+* FFDA Snowflake 기본 제공 테이블에서 키가 중복될 수 있는 문제를 수정했습니다. (NEO-38583)
+* 두 개의 중복 제거 활동을 차례로 편집할 때 워크플로우 임시 스키마가 유실되는 문제를 해결했습니다. (NEO-34063)
+* 시간 구성 요소를 추출하는 동안 Amazon Redshift HoursDiff 및 MinutesDiff 함수를 실행할 때 잘못된 결과를 반환하던 문제를 해결했습니다.(NEO-31673)
+* 프록시 구성 문제로 인해 사용자가 콘솔에 로그인하지 못하는 문제를 해결했습니다. (NEO-38388)
+* 다음을 금지했던 회귀 문제를 해결했습니다. **폴더 제거** 제대로 작동하지 않습니다. (NEO-37459)
+* 워크플로우에 첨부된 모바일 게재를 미리 볼 수 없는 문제를 수정했습니다.
+* 다음을 수행할 수 없는 문제를 해결했습니다. **목록 읽기** 목록이 음수 ID로 데이터베이스에서 식별되면 작업 중인 워크플로우 활동. (NEO-39607)
 
 ## 릴리스 8.1.20 {#release-8-1-20}
 
@@ -27,26 +113,26 @@ _2021년 9월 7일_
 
 **개선 사항**
 
-*  Flash의 수명이 종료됨에 따라 관련된 모든 캠페인 기능과 구성 요소에서 제거되고 HTML5로 대체되었습니다. 차트의 **측정** 유형이 제거되었습니다. (NEO-30330) [자세히 보기](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=ko)
-* 이제 Windows에 클라이언트 콘솔을 설치할 때 설치 관리자에서 상위 레지스트리 노드가 있는지 확인하고 누락된 경우 생성합니다. 따라서 콘솔을 시작할 때 발생할 수 있는 문제가 방지됩니다. (NEO-34854)
-* 타사 도구(이메일 클라이언트, 인터넷 브라우저 등)와 연결된 오류를 방지하기 위해 추적 서명 기능이 개선되었습니다. 특수 문자를 처리합니다. 이제 URL 매개 변수가 인코딩됩니다.
+* 수명 종료에 따라 Flash를 Campaign의 기능과 구성 요소에서 제거하고 HTML5로 대체했습니다. 차트의 **측정** 유형이 제거되었습니다. (NEO-30330) [자세히 보기](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=ko)
+* 이제 Windows에 클라이언트 콘솔을 설치할 때 설치 관리자에서 상위 레지스트리 노드가 있는지 확인하고 누락된 경우 클라이언트 콘솔을 만듭니다. 따라서 콘솔을 시작할 때 발생할 수 있는 문제를 방지할 수 있습니다. (NEO-34854)
+* 서드파티 도구(이메일 클라이언트, 인터넷 브라우저 등)의 특수문자 처리 방식과 관련된 오류를 방지하기 위해 추적 서명 기능이  개선되었습니다. 이제 URL 매개 변수가 인코딩됩니다.
 
 **기타 변경 사항**
 
-* 이전에 더 이상 사용되지 않는 Microsoft CRM 커넥터(Office 365 및 On-premise 배포)가 인터페이스에서 제거되었습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=ko#configure-acc-for-microsoft)
-* Tomcat 8로 마이그레이션한 후 IIS 통합 문제를 해결하기 위해 IIS 설정 스크립트가 업데이트되었습니다. (NEO-31019)
-* [과금 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=ko#billing-report)를 마케팅 인스턴스에서만 실행할 수 있도록 하기 위해 가드레일이 추가되었습니다.
-* 데이터 소스 식별이 워크플로우 전환 **모집단 보기** 창의 데이터 및 스키마 탭에서 개선되었습니다.
-* 데이터베이스 업데이트 문제를 방지하기 위해 누락된 데이터베이스 인덱스가 다음 스키마에 추가되었습니다. xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
+* 사용 종료된 Microsoft CRM 커넥터(Office 365 및 온프레미스 배포)를 인터페이스에서 제거했습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=ko#configure-acc-for-microsoft)
+* Tomcat 8로 마이그레이션한 후 IIS 설정 스크립트를 업데이트하여 IIS 통합 문제를 해결했습니다. (NEO-31019)
+* [청구 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=ko#billing-report)를 마케팅 인스턴스에서만 실행할 수 있도록 하기 위해 가드레일이 추가되었습니다.
+* 워크플로우 전환의 **모집단 보기** 창에서 데이터 및 스키마 탭에서 데이터 소스 식별이 개선되었습니다.
+* 데이터베이스 업데이트 문제를 방지하기 위해 누락된 데이터베이스 인덱스가 xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl 스키마에 추가되었습니다. 
 
 **패치**
 
 * 오퍼가 게재에 연결되어 있을 때 **핫 클릭** 보고서가 작동하지 않는 문제를 해결했습니다. (NEO-26295)
-* **하위 워크플로우** 실행 시 출력 테이블이 생성되지 않는 경우 활동 문제가 해결되었습니다. (NEO-36242)
+* 실행 시 출력 테이블이 생성되지 않는 경우 발생하는 **하위 워크플로우** 활동 문제를 해결했습니다. (NEO-36242)
 * **설명 분석** 보고서를 PDF로 내보낼 때 발생하는 다양한 문제를 해결했습니다. (NEO-25847)
-* 외부 메일 게재를 사용할 때 전송이 실패하는 문제를 해결했습니다. (NEO-37435)
-* 웹 API를 사용하여 Microsoft CRM에 연결할 때 발생하는 오류를 수정했습니다. 기능에 영향을 주지 않았으므로 오류 메시지가 제거되었습니다.
-* 미드 서버가 추적 및 마케팅 서버 간의 중계기로 설정되었을 때 추적 로그 중복 제거 문제를 수정했습니다. (NEO-36285)
+* 외부 메일 전송을 사용할 때 게재 실패를 유발할 수 있는 문제를 해결했습니다. (NEO-37435)
+* 웹 API를 사용하여 Microsoft CRM에 연결할 때 발생하는 오류를 수정했습니다. 기능에 영향을 주지 않으므로 오류 메시지를 제거했습니다.
+* 추적과 마케팅 서버 간의 중계기로 Mid 서버가 설정되었을 때 발생하는 추적 로그 중복 제거 문제를 수정했습니다. (NEO-36285)
 * Vault가 특정 코드 저장소로 사용되지 않는 회귀 문제를 해결했습니다.
 * 수신 전환이 FDA 데이터 소스에서 온 경우 **데이터 보강** 워크플로우 활동에서 변수를 사용할 수 없는 문제를 해결했습니다.
 * FFDA로 인해 운영자 그룹 및 권한이 제대로 복제되지 않는 문제를 해결했습니다.
