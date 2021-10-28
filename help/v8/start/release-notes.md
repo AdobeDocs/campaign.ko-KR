@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: 0061c536ff309d86061548b98d2c6e1124e01a0e
+source-git-commit: 4ce21dda9516a881cce39c94454d5ac7b43142a9
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 49%
+source-wordcount: '1574'
+ht-degree: 50%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 49%
 
 이 페이지에서는 **최신 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다.
 
-## 릴리스 8.2.1 {#release-8-2-1}
+## 릴리스 8.2.8 {#release-8-2-8}
 
 _2021년 10월 28일_
 
@@ -68,7 +68,6 @@ _2021년 10월 28일_
 **개선 사항**
 
 * Snowflake 커넥터가 성능이 향상되었습니다.
-* 이제 서버 구성 파일(serverConf.xml)에서 업데이트 및 커밋 복제 사이에 스키마당 대기 시간을 설정할 수 있습니다.
 * 모니터링 및 테스트 목적으로 **[!UICONTROL Replicate Staging data]** 이제 워크플로우에는 FFDA(Full Federated Data Access) 데이터베이스로 전송된 레코드 수가 포함됩니다.
 * 이제 SQL 코드 활동을 통해 SQL 스크립트를 저장할 데이터베이스를 선택할 수 있습니다. 기본 데이터 소스 또는 선택한 활성 FDA 외부 계정입니다.
 * 이제 미리 정의된 창고 세트를 사용할 수 있으며 세분화, ETL 또는 최고점과 같은 다양한 쿼리를 동시에 실행하는 데 사용할 수 있습니다. [자세히 표시](../config/workflows.md)
