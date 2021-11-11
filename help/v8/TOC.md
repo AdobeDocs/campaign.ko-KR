@@ -5,9 +5,9 @@ description: Campaign v8 설명서
 breadcrumb-title: Campaign v8
 title: Campaign v8 문서
 source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 86%
    + [LINE 메시지 보내기](send/line.md)
    + [DM](send/direct-mail.md)
    + [트랜잭션 메시지 ](send/transactional.md)
-   + Campaign 상호 작용을 통해 오퍼 관리{#interaction}
+   + Campaign 상호 작용을 통한 오퍼 관리{#interaction}
       + [실시간 상호 작용 시작](send/interaction.md)
       + [환경 및 아키텍처](send/interaction-architecture.md)
       + [모범 사례](send/interaction-best-practices.md)
@@ -63,8 +63,8 @@ ht-degree: 86%
       + 오퍼(인바운드) 제공{#inbound}
          + [컨텍스트](send/interaction-present-offers.md)
          + [웹 페이지에서 오퍼 호출](send/interaction-integration.md)
-         + [익명의 상호 작용 관리](send/anonymous-interactions.md)
-      + [보고서 및 내역](send/interaction-tracking.md)
+         + [익명 상호 작용 관리](send/anonymous-interactions.md)
+      + [보고서 및 기록](send/interaction-tracking.md)
       + [활용 사례](send/interaction-use-cases.md)
 + 구성 {#config}
    + [워크플로우 자동화](config/workflows.md)
