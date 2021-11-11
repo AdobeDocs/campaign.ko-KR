@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 50e138853b047c27b106401f007043a0fcb45f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -40,15 +40,15 @@ Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스
 
 ## 하위 도메인 및 인증서
 
-하위 도메인 및 해당 인증서를 모니터링하는 방법을 알아봅니다.
+하위 도메인과 그 인증서를 모니터링하는 방법을 알아봅니다.
 
-* [하위 도메인 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html){target=&quot;_blank&quot;}
-* [새 하위 도메인 설정](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html){target=&quot;_blank&quot;}
-* [하위 도메인의 SSL 인증서 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html){target=&quot;_blank&quot;}
+* [하위 도메인 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=ko){target=&quot;_blank&quot;}
+* [새 하위 도메인 설정](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko){target=&quot;_blank&quot;}
+* [하위 도메인의 SSL 인증서 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ko){target=&quot;_blank&quot;}
 
 ## 성능 모니터링
 
-Campaign 컨트롤 패널은 인스턴스를 모니터링하고 최적의 성능을 보장하는 데 도움이 되는 몇 가지 기능을 제공합니다. [여기를 클릭하십시오.](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko){target=&quot;_blank&quot;}
+Campaign 컨트롤 패널은 인스턴스를 모니터링하고 최적의 성능을 보장하는 데 도움이 되는 몇 가지 기능을 제공합니다. [여기를 클릭하세요](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko){target=&quot;_blank&quot;}
 
 
 ## 인스턴스 설정
