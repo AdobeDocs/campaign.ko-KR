@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '643'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화�
 * 동적 개인화 필드를 삽입합니다.
    ![](../assets/do-not-localize/book.png) 개인화 필드를 사용하는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=ko){target=&quot;_blank&quot;}
 * 사전 정의된 개인화 블록을 삽입합니다.
-   ![](../assets/do-not-localize/book.png) 개인화 블록이란 무엇이고 에서는 어떻게 사용하는지 알아봅니다 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=ko){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) 개인화 블록의 정의 및 사용 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=ko){target=&quot;_blank&quot;}를 참조하세요.
 * 조건부 콘텐츠를 만듭니다.
    ![](../assets/do-not-localize/book.png) 조건부 콘텐츠를 삽입하는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=ko){target=&quot;_blank&quot;}
 
@@ -100,6 +100,6 @@ Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화�
 
 * [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=ko){target=&quot;_blank&quot;}
 
-* [이메일 테스트 및 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target=&quot;_blank&quot;}
+* [이메일 테스트 및 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=ko){target=&quot;_blank&quot;}
 
 * [증명 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target=&quot;_blank&quot;}
