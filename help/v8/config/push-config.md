@@ -17,11 +17,11 @@ ht-degree: 2%
 
 iOS 및 Android용 Campaign SDK를 사용하여 모바일 애플리케이션을 Adobe Campaign 플랫폼에 쉽게 통합할 수 있습니다.
 
-Android 및 iOS 지원 버전과 Campaign v8용 Campaign SDK 호환 버전은 [호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK)에 나열되어 있습니다.
+Android 및 iOS 지원 버전과 Campaign v8용 Campaign SDK 호환 버전은 [호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK) .
 
 >[!NOTE]
 >
->Campaign 관리자는 [Experience Cloud 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에서 Campaign SDK를 다운로드할 수 있습니다. 자세한 내용은 [고객 지원 센터 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+>Campaign 관리자는 [Experience Cloud 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). 자세한 내용은 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 ## 통합 설정 선언 {#declaring-integration-settings}
@@ -32,7 +32,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
    >[!NOTE]
    >
-   >이 통합 키는 모바일 애플리케이션 전용 서비스의 **[!UICONTROL Information]** 탭에 있는 Adobe Campaign 콘솔에 입력합니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#creating-ios-app)를 참조하십시오.
+   >이 통합 키는 Adobe Campaign 콘솔의 **[!UICONTROL Information]** 모바일 애플리케이션 전용 서비스 탭. 을(를) 참조하십시오. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#creating-ios-app).
 
 * **추적 URL**: Adobe Campaign 추적 서버의 주소와 일치합니다.
 * **마케팅 URL**: 을 클릭하여 구독을 수집할 수 있습니다.
@@ -58,7 +58,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
 Android SDK는 JAVA로 작성된 jar 라이브러리입니다. Android 개발자는 이 플러그인을 사용하여 Adobe Campaign과 통합할 수 있습니다. 새 장치를 등록하고, 장치를 사용자에게 연결하고, 동작을 추적하는 등의 작업을 수행할 수 있습니다.
 
-이 섹션에서는 [Google Firebase Cloud Messaging(FCM)](https://firebase.google.com/docs/cloud-messaging/)을 구현하는 Android 애플리케이션에서 Android SDK를 사용하는 방법을 알아봅니다.
+이 섹션에서 다음을 구현하는 Android 애플리케이션에서 Android SDK를 사용하는 방법을 알아봅니다. [Google Firebase Cloud Messaging(FCM)](https://firebase.google.com/docs/cloud-messaging/).
 
 >[!CAUTION]
 >
@@ -66,24 +66,24 @@ Android SDK는 JAVA로 작성된 jar 라이브러리입니다. Android 개발자
 
 ### FCM 구성
 
-Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 알림을 받도록 Android 애플리케이션을 구성하고 애플리케이션을 FCM 계정에 연결해야 합니다. 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/cloud-messaging/)를 참조하십시오.
+Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 알림을 받도록 Android 애플리케이션을 구성하고 애플리케이션을 FCM 계정에 연결해야 합니다. 추가 정보 [Google 설명서](https://firebase.google.com/docs/cloud-messaging/).
 
-Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://firebase.google.com/docs/android/setup) 를 참조하십시오.
+을(를) 참조하십시오. [Google 설명서](https://firebase.google.com/docs/android/setup) android 프로젝트에 Firebase를 추가하려면 다음을 수행합니다.
 
-[Google 설명서](https://firebase.google.com/docs/android/setup)에서 응용 프로그램에서 FCM을 구현하는 방법을 알아봅니다.
+에서 애플리케이션에서 FCM을 구현하는 방법을 알아봅니다 [Google 설명서](https://firebase.google.com/docs/android/setup).
 
 >[!NOTE]
 >
 > * google-services.json을 다운로드하여 프로젝트에 추가하는 것을 잊지 마십시오.
 >
-> * `apiKey` 은 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에서 설정된 `projectKey` 와 일치해야 합니다.
+> * 다음 `apiKey` 와 일치해야 함 `projectKey` 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에서 을 설정합니다.
 
 
 ### Android SDK 구성
 
 1. **SDK 초기화**
 
-   Android SDK를 사용하기 전에 초기화해야 합니다. SDK 초기화는 활동의 `onCreate` 함수에서 수행할 수 있습니다.
+   Android SDK를 사용하기 전에 초기화해야 합니다. SDK 초기화는 `onCreate` 활동 함수입니다.
 
    ```sql
    /** Called when the activity is first created. */
@@ -102,7 +102,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
    }
    ```
 
-   `IntegrationKey`은(는) 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에서 설정된 &#39;IntegrationKey&#39;와 일치해야 합니다.
+   다음 `IntegrationKey` 는 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에서 설정된 &#39;IntegrationKey&#39;와 일치해야 합니다.
 
 1. **Adobe Campaign 서버에 모바일 장치 등록**
 
@@ -111,7 +111,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
    * 알림 ID 또는 푸시 ID(iOS용 deviceToken 및 Android용 registrationID)를 Adobe Campaign에 보냅니다.
    * 조정 키 또는 userKey 복구(예: 이메일 또는 계정 번호)
 
-   앱 초기화 또는 사용자 작업 시 Adobe Campaign에 장치를 등록해야 합니다. `registerDevice` 메서드를 사용하여 쉽게 수행할 수 있습니다.
+   앱 초기화 또는 사용자 작업 시 Adobe Campaign에 장치를 등록해야 합니다. 이 작업은 `registerDevice` 메서드를 사용합니다.
 
    ```sql
    public void onClick(View v)
@@ -183,7 +183,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 1. **사용자의 모바일 장치 토큰이 변경되면 Campaign에 알립니다**
 
-   `onTokenRefresh` 함수를 호출할 때 `registerDevice` 함수를 사용하여 사용자의 모바일 장치 토큰에 변경 사항을 Adobe Campaign에 알리는 것이 좋습니다.
+   을 사용하는 것이 좋습니다 `registerDevice` 함수 호출 시 `onTokenRefresh` 사용자의 모바일 장치 토큰에 변경 사항을 Adobe Campaign에 알리는 함수입니다.
 
    예제:
 
@@ -222,7 +222,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 1. **Firebase 메시징 서비스 구성**
 
-   `onMessageReceived` 콜백에서 `FirebaseMessagingService`을 확장하여 메시지를 수신합니다. 모바일 장치에서 알림 수신을 추적하기 위해 `onMessageReceived` 콜백이 호출될 때 `notifyReceive` 함수를 호출하는 것이 좋습니다. Adobe Campaign에서 이 알림의 이름은 **print** 알림입니다. 이 함수는 OS에서 알림을 표시하도록 요청하기 바로 전에 호출해야 합니다.
+   확장 `FirebaseMessagingService` 에서 `onMessageReceived` 메시지를 수신할 콜백입니다. 을(를) 호출할 것을 추천합니다 `notifyReceive` 함수 `onMessageReceived` 모바일 장치에서 알림 수신을 추적할 수 있도록 콜백이 호출됩니다. Adobe Campaign에서 이 이름은 다음과 같습니다 **인쇄** 알림: 이 함수는 OS에서 알림을 표시하도록 요청하기 바로 전에 호출해야 합니다.
 
    YourApplicationMessagingService.java
 
@@ -326,7 +326,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 1. **데이터 메시지 열기 추적**
 
-   데이터 메시지의 경우 사용자가 `notifyOpening` 함수를 사용하여 알림을 클릭하여 알림을 여는 시점을 추적할 수 있습니다. 사용자가 알림을 클릭하면 알림 활동이 만들어집니다( `onMessageReceived`함수 호출 중에 만들어짐)
+   데이터 메시지의 경우 사용자가 알림을 클릭하여 언제 알림을 열지를 추적할 수 있습니다. `notifyOpening` 함수 위에 있어야 합니다. 사용자가 알림(다음 기간 동안 만들어짐)을 클릭하면 알림 활동이 만들어집니다 `onMessageReceived`함수 호출)
 
    ```sql
    public class NotificationActivity extends Activity {
@@ -361,7 +361,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 1. **알림 메시지 열기 및 클릭 추적**
 
-   알림 메시지의 경우 아래와 같이 애플리케이션 실행 활동 내의 `notifyOpening` 함수로 열기/클릭 추적을 수행해야 합니다.
+   알림 메시지의 경우 열기/클릭 추적을 `notifyOpening` 함수 내에 있어야 합니다.
 
    ```sql
    /** Called when the activity is first created. */
@@ -419,12 +419,12 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    >[!NOTE]
    >
-   > 사용자가 타깃팅된 활동 내에서 `click_action` 옵션을 사용하는 경우 유사한 관리를 수행해야 합니다.
+   > 사용자가 `click_action` 타깃팅된 활동 내의 옵션.
 
 
 1. **데이터 메시지에 대한 추적 받기**
 
-   데이터 메시지의 경우 추적은 `onMessageReceived` 호출 수준에서 수신됩니다. &#39;notifyReceive&#39; 함수를 호출해야 합니다.
+   데이터 메시지의 경우 추적이에서 수신됩니다 `onMessageReceived` 호출 수준. &#39;notifyReceive&#39; 함수를 호출해야 합니다.
 
    YourApplicationMessagingService.java
 
@@ -495,7 +495,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
    알림 메시지의 경우 추적 수신은 두 가지 수준에서 구성해야 합니다.
 
    * `onMessageReceived` (응용 프로그램이 백그라운드에 없음): 구현은 이전 섹션에서 수행되었습니다
-   * `onCreate` 론치 활동(또는 함수를 사용하는 경우 타깃팅된  `click_action`활동)의 호출. (응용 프로그램이 백그라운드에 없습니다.)
+   * `onCreate` 실행 활동(또는 타깃팅된 경우) `click_action`가 사용됩니다. (응용 프로그램이 백그라운드에 없습니다.)
 
    열기/클릭 추적과 동시에 수행해야 합니다.
 
@@ -630,17 +630,17 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 1. **등록 상태 구성**
 
-   위임 프로토콜을 사용하면 **registerDevice** 호출 결과를 얻을 수 있으며, 등록하는 동안 오류가 발생했는지 확인하는 데 사용할 수 있습니다.
+   위임 프로토콜을 사용하면 **registerDevice** 및 를 호출하여 등록 중 오류가 발생했는지 확인할 수 있습니다.
 
-   **registerDeviceStatus** 프로토타입은 다음과 같습니다.
+   다음 **registerDeviceStatus** 프로토타입:
 
    ```sql
    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
    ```
 
-   * **** Statusesuccessful을 사용하여 등록에 성공했는지 또는 오류가 발생했는지 알 수 있습니다.
+   * **상태** 등록에 성공했는지 또는 오류가 발생했는지 알 수 있습니다.
 
-   * **** ErrorReason에서는 발생한 오류에 대한 자세한 정보를 제공합니다. 사용 가능한 오류 및 설명에 대한 자세한 내용은 아래 표를 참조하십시오.
+   * **ErrorReason** 발생한 오류에 대한 자세한 정보를 제공합니다. 사용 가능한 오류 및 설명에 대한 자세한 내용은 아래 표를 참조하십시오.
 
    | 상태 | 설명 | ErrorReason |
    | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
@@ -653,7 +653,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    {style=&quot;table-layout:auto&quot;}
 
-   **Neolane_** SDKDelegateprotocol 및 registerDeviceStatusdelegate  **** 정의는 다음과 같습니다.
+   **Neolane_SDKDelegate** 프로토콜 및 **registerDeviceStatus** 위임 정의는 다음과 같습니다.
 
    ```sql
    //  Neolane_SDK.h
@@ -685,9 +685,9 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
    @end
    ```
 
-   **registerDeviceStatus** 위임을 구현하려면 다음 단계를 수행합니다.
+   구현하려면 **registerDeviceStatus** 위임, 다음 단계를 수행합니다.
 
-   1. SDK 초기화 중에 **setDelegate**&#x200B;를 구현합니다.
+   1. 구현 **setDelegate** 를 클릭합니다.
 
       ```sql
       // AppDelegate.m
@@ -716,7 +716,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
       }
       ```
 
-   1. 클래스의 **@interface**&#x200B;에 프로토콜을 추가합니다.
+   1. 에 프로토콜을 추가합니다. **@interface** 네 수업 중에
 
       ```sql
       //  AppDelegate.h
@@ -738,7 +738,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
       }
       ```
 
-   1. **AppDelegate**&#x200B;에서 대리자를 구현합니다.
+   1. 에서 위임 구현 **AppDelegate**.
 
       ```sql
       //  AppDelegate.m
@@ -792,9 +792,9 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 ## 변수 {#variables}
 
-변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드와 Adobe Campaign 콘솔의 전용 모바일 애플리케이션 서비스의 **[!UICONTROL Variables]** 탭에서 정의해야 합니다.
+변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드와 Adobe Campaign 콘솔의 **[!UICONTROL Variables]** 전용 모바일 애플리케이션 서비스의 탭을 클릭합니다.
 
-![](../assets/do-not-localize/book.png) 모바일 앱에 대한  **Campaign Classic v7** 설명서에서 자세히 알아보십시오.  [iOS ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} 및 Android에 대한  [구성 단계](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) 추가 정보 **Campaign Classic v7 설명서** 모바일 앱에서: [iOS 구성 단계](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} 및 [Android용 구성 단계](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
 
 다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있도록 하는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
 
@@ -884,11 +884,11 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 * 컨텐츠 확장을 Adobe Campaign에서 보낸 카테고리에 연결합니다.
 
-   모바일 애플리케이션에서 이미지를 표시하려는 경우 Adobe Campaign 및 모바일 애플리케이션에서 카테고리 값을 &quot;image&quot;로 설정할 수 있습니다. 이때 **UNNotificationExtensionCategory** 매개 변수가 &quot;image&quot;로 설정된 알림 확장을 만들 수 있습니다. 장치에서 푸시 알림을 받으면 정의된 카테고리 값에 따라 확장이 호출됩니다.
+   모바일 애플리케이션에서 이미지를 표시하려는 경우 Adobe Campaign과 모바일 애플리케이션에서 카테고리 값을 &quot;이미지&quot;로 설정할 수 있으며, **UNNotificationExtensionCategory** 매개 변수가 &quot;image&quot;로 설정되어 있습니다. 장치에서 푸시 알림을 받으면 정의된 카테고리 값에 따라 확장이 호출됩니다.
 
 * 알림 레이아웃 정의
 
-   관련 위젯을 사용하여 레이아웃을 정의해야 합니다. 이미지의 경우 위젯의 이름은 **UIImageView**&#x200B;입니다.
+   관련 위젯을 사용하여 레이아웃을 정의해야 합니다. 이미지의 경우 위젯의 이름이 **ImageView**.
 
 * 미디어 표시
 

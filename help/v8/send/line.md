@@ -19,4 +19,4 @@ LINE은 모든 모바일 장치 및 PC에서 사용할 수 있는 무료 인스�
 
 ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ko)를 참조하십시오{target=&quot;_blank&quot;}.
 
-![](../assets/do-not-localize/book.png) 첫 번째  [LINE 게재를 만들고 전송하려면 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message) Campaign Classic v7 사용 설명서에서 이 종단간 샘플 설명서를 참조하십시오.
+![](../assets/do-not-localize/book.png) 다음을 참조하십시오 [엔드 투 엔드 샘플](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message) 첫 번째 LINE 배달을 만들고 전송하려면 Campaign Classic v7 설명서에서 를 참조하십시오.

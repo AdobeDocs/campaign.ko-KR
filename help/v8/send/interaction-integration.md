@@ -2,7 +2,8 @@
 product: campaign
 title: 오퍼 제출(인바운드 상호 작용)
 description: Campaign Interaction 모듈을 사용하여 최상의 오퍼를 제공하는 방법을 알아봅니다
-source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 0%

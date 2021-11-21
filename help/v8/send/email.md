@@ -16,7 +16,7 @@ ht-degree: 11%
 
 이메일 게재를 사용하면 개인화된 이메일을 대상 모집단으로 보낼 수 있습니다.
 
-![](../assets/do-not-localize/book.png)[ Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
+![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html)를 참조하세요.
 
 ## 첫 번째 이메일 게재 만들기
 
@@ -29,7 +29,7 @@ ht-degree: 11%
 
 1. **게재 만들기**
 
-   새 게재를 만들려면 **캠페인** 탭으로 이동하여 **게재**&#x200B;를 클릭하고 기존 게재 목록 위에 있는 **만들기** 단추를 클릭하십시오.
+   새 게재를 만들려면 **캠페인** 탭, **게재** 을 클릭하고 **만들기** 기존 게재 목록 위의 단추.
 
    ![](assets/delivery_step_1.png)
 
@@ -41,7 +41,7 @@ ht-degree: 11%
 
 1. **콘텐츠 가져오기**
 
-   **소스** 탭을 클릭하여 HTML 콘텐츠를 붙여넣습니다.
+   을(를) 클릭합니다. **소스** 탭을 사용하여 HTML 컨텐츠를 붙여넣습니다.
 
    ![](assets/paste-content.png)
 
@@ -51,7 +51,7 @@ ht-degree: 11%
 
    * 수신자의 이름과 성을 추가합니다
 
-      대상 프로필의 이름과 성을 메시지 콘텐츠에 삽입하려면 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 **[!UICONTROL Include]** 을 클릭하고 **[!UICONTROL Greetings]** 을 선택합니다.
+      대상 프로필의 이름과 성을 메시지 콘텐츠에 삽입하려면 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 를 클릭합니다 **[!UICONTROL Include]** 을(를) 선택합니다. **[!UICONTROL Greetings]**.
 
       ![](assets/include-greetings.png)
 
@@ -61,9 +61,9 @@ ht-degree: 11%
 
    * 추적된 링크 삽입
 
-      이미지나 텍스트를 통해 게재 수신자를 외부 주소로 가져오려면 선택하고 도구 모음에서 **[!UICONTROL Add a link]** 아이콘을 클릭합니다.
+      이미지나 텍스트를 통해 게재 수신자를 외부 주소로 가져오려면 선택하고 을(를) 클릭합니다 **[!UICONTROL Add a link]** 아이콘 을 클릭하여 제품에서 사용할 수 있습니다.
 
-      **URL** 필드에 다음 형식의 **https://www.myURL.com**&#x200B;을 사용하여 링크의 URL을 입력한 다음 확인합니다.
+      에 링크의 URL을 입력합니다. **URL** 다음 형식을 사용하는 필드 **https://www.myURL.com**&#x200B;를 입력한 다음 확인합니다.
 
       ![](assets/add-a-link.png)
 
@@ -71,8 +71,8 @@ ht-degree: 11%
 
       수신자가 웹 브라우저에서 게재 콘텐츠를 볼 수 있도록 하려면 메시지의 미러 페이지에 링크를 추가합니다.
 
-      이 링크를 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 **[!UICONTROL Include]** 을 클릭하고 **[!UICONTROL link to mirror page]** 를 선택합니다.
-   컨텐츠가 준비되면 **저장**&#x200B;을 클릭합니다. 이제 **[!UICONTROL Campaigns > Deliveries]** 탭의 게재 목록에 표시됩니다. 첫 번째 이메일 게재가 준비되었습니다. 이제 대상을 정의하고, 게재의 유효성을 확인하고, 전송해야 합니다.
+      이 링크를 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 **[!UICONTROL Include]** 을(를) 선택합니다. **[!UICONTROL link to mirror page]**.
+   컨텐츠가 준비되면 **저장**: 이제 게재 목록( **[!UICONTROL Campaigns > Deliveries]** 탭. 첫 번째 이메일 게재가 준비되었습니다. 이제 대상을 정의하고, 게재의 유효성을 확인하고, 전송해야 합니다.
 
 
 자세한 내용은 Campaign Classic v7 설명서의 이러한 섹션에서 알아보십시오.
@@ -87,7 +87,7 @@ ht-degree: 11%
    ![](../assets/do-not-localize/book.png) [대상 모집단을 정의하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
 * 게재 유효성 검사 및 증명 보내기
    ![](../assets/do-not-localize/book.png) [게재의 유효성을 검사하는 주요 단계를 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
-* [시드 주소 추가](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
+* 추가 [시드 주소](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
 
 ## 이메일 테스트 및 유효성 검사
 
@@ -103,10 +103,10 @@ Campaign은 대상자에게 이메일을 보내기 전에 전자 메일을 테�
 * 통제 그룹 사용
 * 전자 메일 렌더링 확인
 
-![](../assets/do-not-localize/book.png) [Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+![](../assets/do-not-localize/book.png) [자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)를 참조하세요
 
 ## 이메일 모니터링
 
 전송되면 게재 대시보드에서 게재 상태를 확인하고 게재 로그 및 보고서에 액세스하여 메시지가 올바르게 전송되었는지 확인합니다.
 
-![](../assets/do-not-localize/book.png) [Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
+![](../assets/do-not-localize/book.png) [자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)를 참조하세요

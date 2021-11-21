@@ -22,12 +22,12 @@ Campaign 데이터 모델을 사용자 지정하는 주요 단계는 다음과 �
 >[!CAUTION]
 >기본 제공 스키마를 직접 수정해서는 안 됩니다. 기본 제공 스키마를 조정해야 하는 경우, 확장을 확장해야 합니다.
 
-![](../assets/do-not-localize/glass.png) Campaign 기본 제공 테이블 및 상호 작용에 대한 자세한 내용은  [이 페이지](datamodel.md)를 참조하십시오. [이 페이지에서 새 스키마를 생성할 때 권장 사항을 참조하십시오](create-schema.md).
+![](../assets/do-not-localize/glass.png) Campaign 기본 제공 테이블 및 상호 작용에 대해 더 잘 이해하려면 다음을 참조하십시오 [이 페이지](datamodel.md). 에서 새 스키마를 생성할 때 권장 사항 을 참조하십시오 [이 페이지](create-schema.md).
 
 스키마를 확장하려면 아래 단계를 따르십시오.
 
-1. 탐색기에서 **[!UICONTROL Administration > Configuration > Data schemas]** 폴더로 이동합니다.
-1. **새로 만들기** 단추를 클릭하고 **[!UICONTROL Extend the data in a table using an extension schema]**&#x200B;를 선택합니다.
+1. 로 이동합니다 **[!UICONTROL Administration > Configuration > Data schemas]** 폴더를 제거합니다.
+1. 을(를) 클릭합니다. **새로 만들기** 단추를 누르고 선택합니다. **[!UICONTROL Extend the data in a table using an extension schema]**.
 
    ![](assets/extend-schema-option.png)
 
@@ -43,7 +43,7 @@ Campaign 데이터 모델을 사용자 지정하는 주요 단계는 다음과 �
 
    ![](assets/extend-schema-edit.png)
 
-   아래 예에서는 **MembershipYear** 속성을 추가하고, 성 이름에 대한 길이 제한을 지정하고(이 제한은 기본 이름을 덮어씁니다) 기본 스키마에서 생년월일을 제거합니다.
+   아래 예에서는 을 추가합니다. **멤버십 연도** 속성을 설정하고, 성(기본 이름을 덮어쓰게 됨)의 길이 제한을 지정하고, 기본 제공 스키마에서 생년월일을 제거합니다.
 
    ![](assets/extend-schema-sample.png)
 
@@ -59,7 +59,7 @@ Campaign 데이터 모델을 사용자 지정하는 주요 단계는 다음과 �
    </srcSchema>
    ```
 
-1. Campaign에 연결을 끊고 다시 연결하여 **[!UICONTROL Structure]** 탭에서 스키마 구조 업데이트를 확인합니다.
+1. Campaign에 연결 끊기 및 다시 연결하여 **[!UICONTROL Structure]** 탭.
 
    ![](assets/extend-schema-structure.png)
 

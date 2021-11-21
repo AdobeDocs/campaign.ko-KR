@@ -28,13 +28,13 @@ Campaign v8에는 Campaign 로컬 데이터베이스와 Cloud 데이터베이스
 
 ## 데이터 삽입{#data-insert-api}
 
-**xtk.session.ingest** API는 데이터 삽입에만 사용됩니다. 업데이트/삭제가 없습니다.
+다음 **xtk.session.ingest** API는 데이터 삽입에만 사용됩니다. 업데이트/삭제가 없습니다.
 
 ### 조정 없이 삽입
 
 **워크플로우에서**
 
-**Javascript 코드** 활동에서 다음 코드를 사용하여 조정 없이 클라우드 데이터베이스에 데이터를 삽입합니다.
+다음 코드를 **Javascript 코드** 조정 없이 클라우드 데이터베이스에 데이터를 삽입하는 활동:
 
 ```
 var xmlStagingSampleTable = <sampleTableStg
@@ -91,7 +91,7 @@ logInfo(strUuid);
 
 **워크플로우에서**
 
-**Javascript 코드** 활동에서 다음 코드를 사용하여 조정을 사용하여 클라우드 데이터베이스에 데이터를 삽입합니다.
+다음 코드를 **Javascript 코드** 조정을 사용하여 클라우드 데이터베이스에 데이터를 삽입하는 활동:
 
 ```
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
@@ -147,13 +147,13 @@ logInfo(strUuid);
 
 ## 데이터 업데이트 또는 삭제{#data-update-api}
 
-**xtk.session.IngestExt** API는 데이터 업데이트/삭제에 대해 최적화되어 있습니다. 삽입만 사용하려면 **xtk.session.ingest**&#x200B;를 사용하십시오. 레코드 키가 스테이징 테이블에 없는지 여부를 삽입하는 중입니다.
+다음 **xtk.session.IngestExt** 데이터 업데이트/삭제에 대해 API가 최적화되었습니다. 삽입만 하려면 **xtk.session.ingest**. 레코드 키가 스테이징 테이블에 없는지 여부를 삽입하는 중입니다.
 
 ### 삽입/업데이트
 
 **워크플로우에서**
 
-**Javascript 코드** 활동에서 다음 코드를 사용하여 클라우드 데이터베이스의 데이터를 업데이트하십시오.
+다음 코드를 **Javascript 코드** 활동을 통해 클라우드 데이터베이스의 데이터를 업데이트합니다.
 
 ```
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
@@ -206,9 +206,9 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 ## 구독 관리 {#sub-apis}
 
-Campaign의 구독 관리는 [이 페이지](../start/subscriptions.md)에 설명되어 있습니다.
+Campaign의 구독 관리는 [이 페이지](../start/subscriptions.md).
 
-구독 및 구독 취소 데이터는 Campaign 로컬 데이터베이스의 [스테이징 메커니즘](staging.md)에 의존합니다. 가입자 정보는 로컬 데이터베이스의 스테이징 테이블에 임시 저장되며 동기화 워크플로우는 로컬 데이터베이스에서 클라우드 데이터베이스로 이 데이터를 전송합니다. 따라서 구독 및 구독 취소 프로세스는 **비동기**&#x200B;입니다. 옵트인 및 옵트아웃 요청은 매 시간 특정 기술 워크플로우를 통해 처리됩니다. [자세히 알아보기](../config/replication.md#tech-wf)
+구독 및 구독 취소 데이터는 [스테이징 메커니즘](staging.md) ( Campaign 로컬 데이터베이스)를 참조하십시오. 가입자 정보는 로컬 데이터베이스의 스테이징 테이블에 임시 저장되며 동기화 워크플로우는 로컬 데이터베이스에서 클라우드 데이터베이스로 이 데이터를 전송합니다. 따라서 구독 및 구독 취소 프로세스는 다음과 같습니다 **비동기**. 옵트인 및 옵트아웃 요청은 매 시간 특정 기술 워크플로우를 통해 처리됩니다. [자세히 알아보기](../config/replication.md#tech-wf)
 
 
 **관련 항목**

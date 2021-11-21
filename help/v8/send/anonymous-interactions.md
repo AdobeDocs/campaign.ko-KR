@@ -2,7 +2,8 @@
 product: campaign
 title: 익명 프로필에 오퍼 제공(인바운드 상호 작용)
 description: 익명의 프로필에 오퍼를 제공하는 방법을 알아봅니다
-source-git-commit: c19336c84114a0c81563c4d5ae760330d3b284cb
+exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->예를 들어 하나 이상의 브랜드에 대해 제공되는 익명의 오퍼의 경우, 여러 유형의 방문자를 필터링하려면 각 브랜드에 대한 환경과 **[!UICONTROL Visitors]** 각 환경에 대한 폴더를 입력합니다.
+>예를 들어 하나 이상의 브랜드에 대해 제공되는 익명의 오퍼의 경우 여러 유형의 방문자를 필터링하려면 각 브랜드에 대한 환경과 **[!UICONTROL Visitors]** 각 환경에 대한 폴더를 입력합니다.
 
 ## 익명의 상호 작용에 대한 오퍼 카탈로그 {#offer-catalog-for-anonymous-interactions}
 

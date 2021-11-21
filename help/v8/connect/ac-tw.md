@@ -6,7 +6,8 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
+source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 5%
@@ -17,7 +18,7 @@ ht-degree: 5%
 
 **아직 사용 불가**
 
-twitter을 통해 고객 및 잠재 고객과 상호 작용하려면 **소셜 네트워크 관리(소셜 마케팅)** 옵션을 사용합니다.
+를 사용하십시오 **소셜 네트워크 관리(소셜 마케팅)** twitter을 통해 고객 및 잠재 고객과 교류할 수 있는 선택 사항.
 
 * 메시지 보내기 - Adobe Campaign Social Marketing을 사용하여 Twitter에서 메시지를 보냅니다. Adobe Campaign을 사용하면 twitter 계정에 직접 메시지를 게시할 수 있습니다. 모든 팔로워에게 직접 메시지를 보낼 수도 있습니다.
 

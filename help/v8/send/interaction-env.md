@@ -53,7 +53,7 @@ ht-degree: 2%
    >
    >옵션이 이미 선택되어 있다면 선택을 취소하고 다시 확인합니다.
 
-1. Adobe Campaign은 두 가지 환경을 만듭니다. **[!UICONTROL Design]** 및 **[!UICONTROL Live]** - 이전에 활성화된 target 매핑의 타깃팅 정보 사용. 환경은 타깃팅 정보로 미리 구성되어 있습니다.
+1. Adobe Campaign은 두 가지 환경을 만듭니다. **[!UICONTROL Design]** 및 **[!UICONTROL Live]** - 이전에 활성화된 target 매핑의 타깃팅 정보 포함. 환경은 타깃팅 정보로 미리 구성되어 있습니다.
 
 활성화한 경우 **[!UICONTROL Visitor]** 매핑, **[!UICONTROL Environment dedicated to incoming anonymous interactions]** 이 상자는 환경의 **[!UICONTROL General]** 탭.
 

@@ -2,7 +2,8 @@
 product: campaign
 title: Adobe Campaign 상호 작용 모범 사례
 description: Adobe Campaign에서 상호 작용 모듈을 관리하는 우수 사례
-source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
@@ -70,7 +71,7 @@ Adobe Campaign에서 오퍼를 관리하려면 효율적으로 운영해야 합�
 * &quot;rendering/html&quot;: html 렌더링. HTML 렌더링 기능을 사용합니다.
 * &quot;offer/view/html&quot;: html 콘텐츠. HTML 렌더링 기능을 사용하지 않습니다. 여기에는 HTML 필드만 포함됩니다.
 
-단일 이메일 게재에 여러 오퍼 공백을 포함하고, 일부 오퍼에 렌더링 기능이 있고 일부 오퍼에는 렌더링 기능이 없는 경우, 어떤 오퍼에서 어느 오퍼 공간을 사용하고 어떤 오퍼 공간에는 렌더링 기능이 있는지 기억해야 합니다.
+단일 이메일 게재에 여러 오퍼 공백을 포함하고, 일부 오퍼에 렌더링 기능이 있고 일부 오퍼에는 렌더링 기능이 없는 경우, 어느 오퍼에서 어느 오퍼 공간을 사용하고 어떤 오퍼 공간에는 렌더링 기능이 있는지 기억해야 합니다.
 
 따라서 문제를 방지하려면 오퍼 공간에만 HTML 컨텐츠가 필요한 경우에도 모든 오퍼 공간에 HTML 렌더링 기능이 정의된 것이 좋습니다.
 

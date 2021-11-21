@@ -101,7 +101,7 @@ HTML 렌더링은 렌더링 함수를 통해 만들어집니다. 렌더링 함�
 
    ![](assets/offer_update_status_001.png)
 
-### 제안 승인 시 상태 {#configuring-the-status-when-the-proposition-is-accepted}
+### 제안 승인 시 제안 상태 {#configuring-the-status-when-the-proposition-is-accepted}
 
 제안 제안이 생성되면 **허용**&#x200B;를 설정하는 경우 기본적으로 제공되는 값 중 하나를 사용하여 제안 상태의 새 상태를 구성합니다. 이 업데이트는 수신자가 오퍼의 링크를 클릭할 때 적용됩니다.
 

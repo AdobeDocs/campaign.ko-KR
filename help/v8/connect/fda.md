@@ -4,7 +4,8 @@ description: Campaign 및 외부 데이터베이스로 작업하는 방법 알�
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
+source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 3%
@@ -13,21 +14,21 @@ ht-degree: 3%
 
 # FDA(Federated Data Access){#gs-fda}
 
-FDA 커넥터(Federated Data Access)를 사용하여 Campaign을 하나 이상의 **외부 데이터베이스**&#x200B;에 연결하고 Campaign Cloud 데이터베이스 데이터에 영향을 주지 않고 Campaign에 저장된 정보를 처리합니다. 그런 다음 Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다.
+FDA 커넥터(Federated Data Access)를 사용하여 Campaign을 하나 이상 연결합니다 **외부 데이터베이스** 및 Campaign Cloud 데이터베이스 데이터에 영향을 주지 않고 데이터베이스에 저장된 정보를 처리합니다. 그런 다음 Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다.
 
 >[!NOTE]
 >
->FDA용 호환 데이터베이스는 [호환성 매트릭스](../start/compatibility-matrix.md)에 나열되어 있습니다.
+>FDA용 호환 데이터베이스는 [호환성 매트릭스](../start/compatibility-matrix.md).
 
 Campaign FDA 옵션을 사용하면 데이터 모델을 타사 데이터베이스에서 확장할 수 있습니다. 대상 테이블의 구조를 자동으로 감지하고 SQL 소스의 데이터를 사용합니다.
 
-특정 **권한**&#x200B;은 [!DNL Adobe Campaign] 및 외부 데이터베이스에서 함께 상호 작용해야 합니다. 자세한 내용은 [이 섹션](#fda-permissions)을 참조하십시오.
+특정 **권한** 에 필요합니다. [!DNL Adobe Campaign] 외부 데이터베이스에서 상호 작용할 수 있습니다. 추가 정보 [이 섹션](#fda-permissions).
 
 ## 모범 사례 및 제한 사항
 
 * **외부 데이터로 이메일 개인화 최적화**
 
-   전용 워크플로우에서 메시지 개인화를 미리 처리할 수 있습니다. 이렇게 하려면 게재 속성의 **[!UICONTROL Analysis]** 탭에서 사용할 수 있는 **[!UICONTROL Prepare the personalization data with a workflow]** 옵션을 사용합니다.
+   전용 워크플로우에서 메시지 개인화를 미리 처리할 수 있습니다. 이렇게 하려면 **[!UICONTROL Prepare the personalization data with a workflow]** 선택 사항, 사용 가능한 **[!UICONTROL Analysis]** 전달 속성의 탭입니다.
 
    게재 분석 중에 이 옵션은 외부 데이터베이스에 연결된 테이블의 데이터를 포함하여 대상에 연결된 모든 데이터를 임시 테이블에 저장하는 워크플로우를 자동으로 만들고 실행합니다.
 
@@ -63,7 +64,7 @@ Campaign 인스턴스를 외부 데이터베이스에 연결하려면 특정 외
 
 이를 실현하려면 아래 단계를 수행하십시오.
 
-1. Campaign **[!UICONTROL Explorer]**&#x200B;에서 **[!UICONTROL Administration]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL External accounts]**&#x200B;로 이동합니다.
+1. Campaign에서 **[!UICONTROL Explorer]**, 찾아보기 **[!UICONTROL Administration]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL External accounts]**.
 
 1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
 
@@ -71,7 +72,7 @@ Campaign 인스턴스를 외부 데이터베이스에 연결하려면 특정 외
    >
    > 활성화하려면 **[!UICONTROL Enabled]** 옵션을 선택해야 합니다. 필요한 경우 구성을 삭제하지 않고 이 데이터베이스에 대한 액세스를 비활성화하려면 이 옵션을 선택 취소합니다.
 
-1. 외부 계정의 **[!UICONTROL Type]**(으)로 **[!UICONTROL External database]**&#x200B;을(를) 선택합니다.
+1. 선택 **[!UICONTROL External database]** 외부 계정 **[!UICONTROL Type]**.
 
 1. 드롭다운 목록에서 외부 데이터베이스를 선택하고 외부 계정을 구성합니다. 다음을 지정해야 합니다.
 
@@ -85,15 +86,15 @@ Campaign 인스턴스를 외부 데이터베이스에 연결하려면 특정 외
 
       ![](assets/snowflake.png)
 
-1. **[!UICONTROL Parameters]** 탭을 클릭한 다음 **[!UICONTROL Deploy functions]** 버튼을 클릭하여 함수를 만듭니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Parameters]** 탭을 클릭한 다음 **[!UICONTROL Deploy functions]** 버튼을 클릭하여 함수를 만듭니다.
 
-1. 매개 변수가 입력되면 **[!UICONTROL Test the connection]** 버튼을 클릭하여 승인합니다.
+1. 매개 변수를 입력한 후 **[!UICONTROL Test the connection]** 단추를 클릭하여 승인합니다.
 
-1. Adobe Campaign이 이 데이터베이스에 액세스할 수 있도록 하려면 SQL 함수를 배포해야 합니다. **[!UICONTROL Parameters]** 탭을 클릭한 다음 **[!UICONTROL Deploy functions]** 버튼을 클릭합니다.
+1. Adobe Campaign이 이 데이터베이스에 액세스할 수 있도록 하려면 SQL 함수를 배포해야 합니다. 을(를) 클릭합니다. **[!UICONTROL Parameters]** 탭을 클릭한 다음 **[!UICONTROL Deploy functions]** 버튼을 클릭합니다.
 
-**[!UICONTROL Parameters]** 탭에서 테이블 및 인덱스에 대한 특정 작업 테이블스페이스를 정의할 수 있습니다.
+테이블 및 인덱스에 대한 특정 작업 테이블 공간을 **[!UICONTROL Parameters]** 탭.
 
-[!DNL Snowflake]의 경우 커넥터가 다음 옵션을 지원합니다.
+대상 [!DNL Snowflake]로 설정하면 커넥터가 다음 옵션을 지원합니다.
 
 | 옵션 | 설명 |
 |---|---|
@@ -108,7 +109,7 @@ Campaign 인스턴스를 외부 데이터베이스에 연결하려면 특정 외
 
 Adobe Campaign에서 외부 데이터베이스의 스키마를 만들려면 아래 단계를 수행하십시오.
 
-1. 데이터 스키마 목록 위에 있는 **[!UICONTROL New]** 단추를 클릭하고 **[!UICONTROL Access external data]** 을 선택합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL New]** 데이터 스키마 목록 위에 있는 버튼을 클릭하고 **[!UICONTROL Access external data]**.
 
    ![](assets/wf_new_schema_fda.png)
 
@@ -116,9 +117,9 @@ Adobe Campaign에서 외부 데이터베이스의 스키마를 만들려면 아�
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. **[!UICONTROL OK]** 을 클릭하여 확인합니다. Adobe Campaign은 선택한 테이블의 구조를 자동으로 감지하고 논리 스키마를 생성합니다. Adobe Campaign은 링크를 생성하지 않습니다.
+1. 클릭 **[!UICONTROL OK]** 확인합니다. Adobe Campaign은 선택한 테이블의 구조를 자동으로 감지하고 논리 스키마를 생성합니다. Adobe Campaign은 링크를 생성하지 않습니다.
 
-1. **[!UICONTROL Save]** 을 클릭하여 만들기를 확인합니다.
+1. 클릭 **[!UICONTROL Save]** 을 클릭하여 만들기를 확인합니다.
 
 ## 대상 매핑 정의{#define-data-mapping}
 
@@ -128,7 +129,7 @@ Adobe Campaign에서 외부 데이터베이스의 스키마를 만들려면 아�
 
 이렇게 하려면 다음 단계를 수행합니다.
 
-1. Adobe Campaign 탐색기에서 **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]**&#x200B;로 이동합니다.
+1. 찾아보기 **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** Adobe Campaign 탐색기 을 통해 검색할 수 있습니다.
 
 1. 새 대상 매핑을 만들고 타깃팅 차원으로 방금 만든 스키마를 선택합니다.
 
@@ -143,32 +144,32 @@ Adobe Campaign에서 외부 데이터베이스의 스키마를 만들려면 아�
 
    ![](assets/wf_new_mapping_define_names.png)
 
-   메시지(**broadlog**)가 포함된 제외(**excludelog**)를 저장할 것인지 아니면 별도의 테이블에 저장할 것인지 선택할 수 있습니다.
+   제외( )를 저장할지 여부를 선택할 수 있습니다&#x200B;**제외 로그**), 메시지( )**broadlog**) 또는 를 포함할 수도 있습니다.
 
-   이 배달 매핑에 대한 추적을 관리할지 여부를 선택할 수도 있습니다(**trackinglog**).
+   이 게재 매핑에 대한 추적을 관리할지 여부를 선택할 수도 있습니다(**trackinglog**).
 
 1. 그런 다음 고려할 확장을 선택합니다. 확장 유형은 플랫폼의 매개 변수 및 옵션에 따라 다릅니다(라이센스 계약 보기).
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   **[!UICONTROL Save]** 단추를 클릭하여 게재 매핑 만들기를 시작합니다. 연결된 모든 테이블은 선택한 매개변수를 기준으로 자동으로 생성됩니다.
+   을(를) 클릭합니다. **[!UICONTROL Save]** 버튼 - 게재 매핑 생성 시작: 연결된 모든 테이블은 선택한 매개변수를 기준으로 자동으로 생성됩니다.
 
 
 ## 사용 권한{#fda-permissions}
 
-특정 **권한**&#x200B;은 [!DNL Adobe Campaign] 및 외부 데이터베이스에서 함께 상호 작용해야 합니다.
+특정 **권한** 에 필요합니다. [!DNL Adobe Campaign] 외부 데이터베이스에서 상호 작용할 수 있습니다.
 
-먼저, 사용자가 FDA를 통해 외부 데이터베이스에서 작업을 수행할 수 있도록 연산자는 [!DNL Adobe Campaign]에 특정 명명된 권한을 가져야 합니다.
+먼저, 사용자가 FDA를 통해 외부 데이터베이스에서 작업을 수행할 수 있도록 연산자에는 특정 명명된 권한이 있어야 합니다. [!DNL Adobe Campaign].
 
-1. Adobe Campaign 탐색기에서 **[!UICONTROL Administration > Access Management > Named Rights]** 노드를 선택합니다.
+1. 을(를) 선택합니다 **[!UICONTROL Administration > Access Management > Named Rights]** 노드 아래에 있어야 합니다.
 1. 선택한 레이블을 지정하여 새 권한을 만듭니다.
-1. 다음 형식으로 명명된 오른쪽의 이름을 **user:base@server**(여기서)로 입력합니다.
+1. 다음 형식으로 명명된 권한의 이름을 입력합니다 **사용자:base@server**, 위치 :
 
-   * **** useris 외부 데이터베이스의 사용자 이름입니다.
-   * **** 베이스란 외부 데이터베이스의 이름입니다
-   * **** server는 외부 데이터베이스 서버의 이름입니다
+   * **사용자** 외부 데이터베이스의 사용자 이름입니다.
+   * **기본** 외부 데이터베이스의 이름입니다.
+   * **server** 외부 데이터베이스 서버의 이름입니다.
 
-1. 이름이 지정됨 오른쪽 을 저장하고 Adobe Campaign 탐색기의 **[!UICONTROL Administration > Access Management > Operators]** 노드에서 선택한 연산자에 연결합니다.
+1. 이름이 지정됨(Named) 권한을 저장하고 **[!UICONTROL Administration > Access Management > Operators]** 노드 아래에 나열된 상태로 남아 있습니다.
 
 그런 다음 외부 데이터베이스에 포함된 데이터를 처리하려면 Adobe Campaign 연산자가 작업 테이블을 만들 수 있도록 데이터베이스에 대해 최소 &#39;쓰기&#39; 권한을 가져야 합니다. 이러한 표는 Adobe Campaign에서 자동으로 삭제됩니다.
 
@@ -176,11 +177,11 @@ Adobe Campaign에서 외부 데이터베이스의 스키마를 만들려면 아�
 
 * **CONNECT**: 원격 데이터베이스에 연결
 * **데이터 읽기**: 고객 데이터가 포함된 테이블에 대한 읽기 전용 액세스
-* **&#39;MetaData&#39;** 읽기: 서버 데이터 카탈로그에 액세스하여 테이블 구조 가져오기
+* **&#39;MetaData&#39; 읽기**: 서버 데이터 카탈로그에 액세스하여 테이블 구조 가져오기
 * **로드**: 작업 테이블에서 일괄 로드(컬렉션 및 조인 작업 시 필요)
-* **테이블/** 색인/ **프로시저/함수 만들기/놓기** (Adobe Campaign에서 생성한 작업 테이블에만 해당)
+* **만들기/놓기** 대상 **테이블/인덱스/프로시저/함수** (Adobe Campaign에서 생성한 작업 테이블에만 해당)
 * **설명** (권장): 문제 발생 시 성능 모니터링
-* **WRITE 데이터** (통합 시나리오에 따라)
+* **데이터 쓰기** (통합 시나리오에 따라)
 
 데이터베이스 관리자는 아래 자세히 설명된 대로 이러한 권한을 각 데이터베이스 엔진에 대한 권한과 일치시켜야 합니다.
 
@@ -205,13 +206,13 @@ Adobe Campaign에서 외부 데이터베이스의 스키마를 만들려면 아�
 
 여러 활동을 사용하면 외부 데이터베이스의 데이터와 상호 작용할 수 있습니다.
 
-* **외부 데이터 필터**  -  **[!UICONTROL Query]** 활동을 사용하면 외부 데이터를 추가하고 정의된 필터 구성에 사용할 수 있습니다.
+* **외부 데이터 필터** - **[!UICONTROL Query]** 활동을 사용하면 외부 데이터를 추가하고 정의된 필터 구성에서 사용할 수 있습니다.
 
-* **하위 집합 만들기**  -  **[!UICONTROL Split]** 활동을 통해 하위 세트를 만들 수 있습니다. 외부 데이터를 사용하여 사용할 필터링 기준을 정의할 수 있습니다.
+* **하위 집합 만들기** - **[!UICONTROL Split]** 활동을 통해 하위 세트를 만들 수 있습니다. 외부 데이터를 사용하여 사용할 필터링 기준을 정의할 수 있습니다.
 
-* **외부 데이터베이스 로드**  - 활동에서 외부 데이터를 사용할 수  **[!UICONTROL Data loading (RDBMS)]** 있습니다.
+* **외부 데이터베이스 로드** - 외부 데이터는에서 사용할 수 있습니다. **[!UICONTROL Data loading (RDBMS)]** 활동.
 
-* **정보 및 링크 추가**  -  **[!UICONTROL Enrichment]** 활동을 사용하면 워크플로우의 작업 테이블에 추가 데이터를 추가하고 외부 테이블에 연결할 수 있습니다. 이 컨텍스트에서는 외부 데이터베이스의 데이터를 사용할 수 있습니다.
+* **정보 및 링크 추가** - **[!UICONTROL Enrichment]** 활동을 사용하면 워크플로우의 작업 테이블에 추가 데이터를 추가하고 외부 테이블에 연결할 수 있습니다. 이 컨텍스트에서는 외부 데이터베이스의 데이터를 사용할 수 있습니다.
 
 
 임시 사용을 위해 이러한 워크플로우 활동에서 외부 데이터베이스에 대한 연결을 직접 정의할 수도 있습니다. 이 경우 현재 워크플로우 내에서 사용하도록 예약된 로컬 외부 데이터베이스에 있습니다. 외부 계정에는 저장되지 않습니다.
@@ -220,14 +221,14 @@ Adobe Campaign에서 외부 데이터베이스의 스키마를 만들려면 아�
 >
 >이 유형의 구성은 데이터를 수집하는 데 임시로 사용해야 합니다. 다른 용도에는 외부 계정 구성을 사용하는 것이 좋습니다.
 
-예를 들어 **[!UICONTROL Query]** 활동에서 다음과 같이 외부 데이터베이스에 대한 임시 연결을 정의할 수 있습니다.
+예를 들어, **[!UICONTROL Query]** 다음과 같이 외부 데이터베이스에 대한 임시 연결을 정의할 수 있습니다.
 
-1. 활동을 열고 **[!UICONTROL Add data...]** 클릭
-1. **[!UICONTROL External data]** 옵션을 선택합니다
-1. **[!UICONTROL Locally defining the data source]** 옵션을 선택합니다
+1. 활동을 열고 을(를) 클릭합니다. **[!UICONTROL Add data...]**
+1. 을(를) 선택합니다 **[!UICONTROL External data]** 옵션
+1. 을(를) 선택합니다 **[!UICONTROL Locally defining the data source]** 옵션
 1. 드롭다운 목록에서 대상 데이터베이스 엔진을 선택합니다. 서버 이름을 입력하고 인증 매개 변수를 제공합니다. 외부 데이터베이스의 이름도 지정합니다.
 1. 데이터가 저장되는 테이블을 선택합니다. 해당 필드에 직접 테이블 이름을 입력하거나 편집 아이콘을 눌러 데이터베이스 테이블 목록에 액세스할 수 있습니다.
-1. 외부 데이터베이스 데이터와 Adobe Campaign 데이터베이스의 데이터 간에 하나 또는 여러 개의 조정 필드를 정의하려면 **[!UICONTROL Add]** 버튼을 클릭합니다. **[!UICONTROL Remote field]** 및 **[!UICONTROL Local field]**&#x200B;의 **[!UICONTROL Edit expression]** 아이콘을 사용하면 각 테이블의 필드 목록에 액세스할 수 있습니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Add]** 외부 데이터베이스 데이터와 Adobe Campaign 데이터베이스의 데이터 간에 하나 또는 여러 개의 조정 필드를 정의하는 단추입니다. 다음 **[!UICONTROL Edit expression]** 아이콘 **[!UICONTROL Remote field]** 및 **[!UICONTROL Local field]** 각 테이블의 필드 목록에 액세스할 수 있습니다.
 1. 필요한 경우 필터링 조건 및 데이터 정렬 모드를 지정합니다.
-1. 외부 데이터베이스에서 수집할 추가 데이터를 선택합니다. 이렇게 하려면 추가할 필드를 두 번 클릭하여 **[!UICONTROL Output columns]**&#x200B;에 표시합니다.
-1. **[!UICONTROL Finish]** 을 클릭하여 이 구성을 확인합니다.
+1. 외부 데이터베이스에서 수집할 추가 데이터를 선택합니다. 이렇게 하려면 추가할 필드를 두 번 클릭하여 을 **[!UICONTROL Output columns]**.
+1. 클릭 **[!UICONTROL Finish]** 이 구성을 확인합니다.

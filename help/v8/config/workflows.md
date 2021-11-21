@@ -1,5 +1,5 @@
 ---
-title: Adobe Campaign 워크플로우를 통해 프로세스 관리 및 자동화
+title: Manage and automate processes with Adobe Campaign workflows
 description: 워크플로우 시작
 feature: Overview
 role: Data Engineer
@@ -14,18 +14,18 @@ ht-degree: 2%
 
 # 프로세스 관리 및 자동화
 
-강력한 마케팅 캠페인 자동화 기능을 활용하도록 Campaign을 구성합니다.
+Configure Campaign to leverage powerful marketing campaign automation capabilities.
 
-다음을 설정할 수 있습니다.
+You can set up:
 
 * 워크플로우
 * 반복 캠페인
 * 종단 간 유효성 검사 주기
 * 경고
 * 자동 보고서 전송
-* 트리거된 이벤트
+* Triggered events
 
-## 워크플로우 디자인 및 사용{#gs-ac-wf}
+## Design and use workflows{#gs-ac-wf}
 
 Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시지 준비에서 게재에 이르기까지 마케팅 캠페인의 모든 측면에 대한 속도와 크기를 향상시킬 수 있습니다.
 
@@ -33,7 +33,7 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시
 
 워크플로우 사용자 인터페이스 및 Campaign Classic v7 설명서의 실행에 대해 자세히 알아보십시오.
 
-* [워크플로우 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+* [Get started with workflows](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
 
 * [워크플로우 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ko){target=&quot;_blank&quot;}
 
@@ -45,13 +45,13 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시
 
 ## 워크플로우 활동 {#wf-activities}
 
-![](../assets/do-not-localize/book.png) 사용 가능한 워크플로우 활동에 대해 자세히 알아보십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Learn more about the available workflow activities [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target=&quot;_blank&quot;}
 
 워크플로우 활동은 카테고리별로 그룹화됩니다. 네 가지 활동 카테고리를 사용할 수 있습니다.
 
-* [타겟팅 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}: 쿼리, 읽기 목록, 데이터 보강, 결합 등
+* [Targeting activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}: Query, Read list, Enrichment, Union, and more
 * [흐름 제어 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html){target=&quot;_blank&quot;}: 스케줄러, 포크, 경고, 외부 신호 등
-* [작업 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}: 크로스 채널 게재, Javascript 코드, CRM 활동, 업데이트 집계 등
+* [Action activities](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}: Cross-channel deliveries, Javascript code, CRM activities, Update aggregate, and more
 * [이벤트 활동](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}: 파일 전송, 웹 다운로드 등
 
 ### 데이터 소스 활동 변경 {#change-data-source-activity}
@@ -66,7 +66,7 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시
 
 를 사용할 때는 **[!UICONTROL Change Data Source]** 활동을 수행하려면 다시 클라우드 데이터베이스로 전환하여 워크플로우 실행을 계속해야 합니다.
 
-를 사용하려면 **[!UICONTROL Change Data Source]** 활동:
+To use the **[!UICONTROL Change Data Source]** activity:
 
 1. 워크플로우 만들기.
 
@@ -80,13 +80,13 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시
 
 1. 에서 **[!UICONTROL Actions]** 탭에서 끌어서 놓습니다 **[!UICONTROL JavaScript code]** 작업 테이블에서 단일 작업을 수행하는 활동.
 
-   에 대한 자세한 내용은 **[!UICONTROL JavaScript code]** 활동, [JavaScript 코드 및 고급 JavaScript 코드](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/sql-code-and-javascript-code.html#javascript-code) Campaign Classic V7 설명서의 페이지입니다.
+   For more information on the **[!UICONTROL JavaScript code]** activity, refer to the [JavaScript code and Advanced JavaScript code](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/sql-code-and-javascript-code.html#javascript-code) page in Campaign Classic V7 documentation.
 
-1. 다른 추가 **[!UICONTROL Change data source]** 활동을 사용하여 다시 클라우드 데이터베이스로 전환합니다.
+1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database.
 
    활동을 두 번 클릭하고 을 선택합니다 **[!UICONTROL Active FDA external account]** 그런 다음 해당 외부 계정을 사용합니다.
 
-1. 이제 워크플로우를 시작할 수 있습니다.
+1. You can now start your workflow.
 
 ## 가상 웨어하우스 관리 {#warehouse}
 
@@ -112,20 +112,20 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시
 
 ## 반복 캠페인 설정
 
-반복 워크플로우를 디자인하고 워크플로우를 실행할 때마다 새 게재 인스턴스를 만듭니다. 예를 들어 워크플로우가 일주일에 한 번 실행되도록 디자인된 경우 1년 후 52개의 게재가 발생합니다. 즉, 로그는 각 게재 인스턴스별로 분리됩니다.
+반복 워크플로우를 디자인하고 워크플로우를 실행할 때마다 새 게재 인스턴스를 만듭니다. For example, if your workflow is designed to run once a week, that would result in 52 Deliveries after one year. 즉, 로그는 각 게재 인스턴스별로 분리됩니다.
 
 ![](../assets/do-not-localize/book.png) 에서 반복 캠페인을 만드는 방법을 알아봅니다 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}
 
 
 ## 트리거 이벤트 활용
 
-캠페인 트랜잭션 메시지를 사용하여 정보 시스템에서 트리거된 이벤트에서 생성된 메시지를 자동화합니다. 이러한 트랜잭션 메시지는 예를 들어 송장, 주문 확인, 배송 확인, 암호 변경, 제품 비가용성 알림, 계정 명세서 또는 웹 사이트 계정 생성일 수 있습니다. 이러한 메시지는 개별적으로 또는 이메일, SMS 또는 푸시 알림을 통해 일괄적으로 전송할 수 있습니다.
+캠페인 트랜잭션 메시지를 사용하여 정보 시스템에서 트리거된 이벤트에서 생성된 메시지를 자동화합니다. These transactional messages can be invoice, order confirmation, shipping confirmation, password change, product unavailability notification, account statement or website account creation for instance. 이러한 메시지는 개별적으로 또는 이메일, SMS 또는 푸시 알림을 통해 일괄적으로 전송할 수 있습니다.
 
-![](../assets/do-not-localize/glass.png) 의 트랜잭션 메시지 기능에 대해 자세히 알아보십시오 [이 섹션](../send/transactional.md).
+![](../assets/do-not-localize/glass.png) Learn more about transactional messaging capabilities in in [this section](../send/transactional.md).
 
-Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하고 거의 실시간으로 개인화된 메시지를 전송할 수 있습니다.
+Connect Adobe Campaign and Adobe Analytics to retrieve user actions and send near real-time personalized messages.
 
-![](../assets/do-not-localize/glass.png) Campaign을 의 다른 솔루션과 통합하는 방법을 알아봅니다 [이 섹션](../start/connect.md)
+![](../assets/do-not-localize/glass.png) Learn how to integrate Campaign with other solutions in [this section](../start/connect.md)
 
 
 ## 워크플로우 종단 간 사용 사례{#end-to-end-uc}
@@ -142,7 +142,7 @@ Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하
 
 * [생일 전자 메일 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html){target=&quot;_blank&quot;}
 
-   이 사용 사례에서는 생일 날짜의 수신자 목록에 반복 이메일을 전송하는 방법을 설명합니다.
+   This use case presents how to plan sending a recurring email to a list of recipients on the day of their birthday.
 
 * [게재 콘텐츠 로드](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html){target=&quot;_blank&quot;} 원격 서버에 있는 HTML 파일에서 게재 콘텐츠를 사용할 수 있는 경우 이 콘텐츠를 Adobe Campaign 게재에 쉽게 로드할 수 있습니다.
 
@@ -150,11 +150,11 @@ Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하
 
    크로스 채널 게재 워크플로우를 구축하는 방법을 알아봅니다. 목표는 데이터베이스의 수신자로부터 대상자를 다른 그룹으로 세분화하고 첫 번째 그룹에는 전자 메일을 보내고 다른 그룹에는 SMS를 보내는 것입니다.
 
-* [사용자 지정 날짜 필드를 사용한 전자 메일 강화](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html){target=&quot;_blank&quot;}
+* [Email enrichment with custom date fields](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html){target=&quot;_blank&quot;}
 
    이번 달에 생일을 맞는 프로필에 사용자 정의 데이터 필드가 포함된 이메일을 보내는 방법을 알아봅니다. 이메일에는 생일 1주 전후에 유효한 쿠폰이 포함됩니다.
 
-* [콘텐츠 만들기, 에디션 및 게시 자동화](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html){target=&quot;_blank&quot;}
+* [Automating content creation, edition and publishing](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html){target=&quot;_blank&quot;}
 
    Campaign 콘텐츠 관리 추가 기능을 사용하여 콘텐츠 블록 만들기 및 전달을 자동화하는 방법을 알아봅니다.
 
@@ -163,7 +163,7 @@ Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
-* [목록으로 보고서 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-a-report-to-a-list.html){target=&quot;_blank&quot;}
+* [Send a report to a list](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-a-report-to-a-list.html){target=&quot;_blank&quot;}
 
    월별 기본 추적 지표 보고서를 PDF 형식으로 생성하여 Campaign 운영자 목록으로 보내는 방법을 알아봅니다.
 
@@ -179,17 +179,17 @@ Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [조정 데이터 업데이트](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/coordinating-data-updates.html){target=&quot;_blank&quot;}
+* [Coordinate data updates](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/coordinating-data-updates.html){target=&quot;_blank&quot;}
 
    다른 업데이트 작업을 실행하기 전에 업데이트 프로세스가 종료되었는지 확인하는 방법을 알아봅니다. 이렇게 하려면 인스턴스 변수를 설정하고, 인스턴스가 실행 중인지 워크플로우 테스트를 통해 워크플로우 실행을 계속 진행할지 여부를 결정하고 업데이트를 수행합니다.
 
-* [요약 목록 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/creating-a-summary-list.html){target=&quot;_blank&quot;}
+* [Create a summary list](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/creating-a-summary-list.html){target=&quot;_blank&quot;}
 
-   파일을 수집한 후 여러 가지 추가 작업을 수행한 후 요약 목록을 만들 수 있는 워크플로우를 만드는 방법을 알아봅니다. 이 예제에서는 스토어에서 구입한 연락처 목록을 기반으로 합니다.
+   파일을 수집한 후 여러 가지 추가 작업을 수행한 후 요약 목록을 만들 수 있는 워크플로우를 만드는 방법을 알아봅니다. The example is based on a list of contacts who made purchases in a store.
 
 * [데이터 보강](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html){target=&quot;_blank&quot;}
 
-   점수에 따라 최신 경쟁에 참여한 프로필에 개인화된 게재를 보내는 방법을 알아봅니다.
+   Learn how to send personalized deliveries to profiles who took part in the latest competition depending on their score.
 
 * [집계 사용](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/using-aggregates.html){target=&quot;_blank&quot;}
 
@@ -217,13 +217,13 @@ Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하
 
 * [계산 집계](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/performing-aggregate-computing.html){target=&quot;_blank&quot;}
 
-   성별에 따라 런던에 거주하는 프로필 수를 계산하는 방법을 알아봅니다.
+   Learn how to count the number of profiles living in London, according to gender.
 
 * [다대다 관계를 사용하여 쿼리](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-using-many-to-many-relationship.html){target=&quot;_blank&quot;}
 
-   지난 7일 동안 연락하지 않은 프로필을 찾는 방법을 알아봅니다.
+   Learn how to find profiles not contacted during the last 7 days.
 
-* [쿼리에서 인스턴스 변수 호출](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/javascript-scripts-and-templates.html?lang=en#example){target=&quot;_blank&quot;}
+* [Call an instance variable in a query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/javascript-scripts-and-templates.html?lang=en#example){target=&quot;_blank&quot;}
 
    인스턴스 변수를 사용하여 모집단에 적용할 분할 비율을 동적으로 계산하는 방법을 알아봅니다.
 
