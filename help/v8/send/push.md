@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 6fc085d59c75399b08be44cc1647083677ed337e
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 4%
+source-wordcount: '679'
+ht-degree: 3%
 
 ---
 
@@ -35,11 +35,14 @@ Campaign SDK를 사용하면 모바일 애플리케이션을 Adobe Campaign 플�
 
 ![](../assets/do-not-localize/glass.png) 에서 Campaign Android 및 iOS SDK를 앱과 통합하는 방법을 알아봅니다. [이 섹션](../config/push-config.md)
 
-### Launch에서 Campaign 확장 구성
+<!--
+### Configure Campaign Extension in Launch
 
-Campaign Classic 확장을 활용하여 Adobe Experience Platform Launch SDK를 Campaign과 통합할 수 있습니다.
+You can integrate Adobe Experience Platorm Launch SDK with Campaign, by leveraging Campaign Classic extension.
 
-![](../assets/do-not-localize/book.png) 추가 정보 [Adobe Mobile SDK 설명서](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Learn more in [Adobe Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target="_blank"}
+
+-->
 
 ## Campaign에서 앱 설정 구성
 
