@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8
 title: Campaign v8 문서
-source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+source-git-commit: a6182d37e6b839c8b67c25364b4c35aa7fdde7dc
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Campaign v8 설명서 {#campaign-v8}
 
 + [Campaign v8 설명서](campaign-home.md)
-+ 새로운 기능 {#start}
++ 새로운 기능 {#new}
    + [주요 기능](start/whats-new.md)
    + [릴리스 정보](start/release-notes.md)
    + [알려진 제한 사항](start/known-limitations.md)
@@ -47,25 +47,26 @@ ht-degree: 100%
    + [푸시 알림](send/push.md)
    + [LINE 메시지 보내기](send/line.md)
    + [DM](send/direct-mail.md)
+   + [소셜 마케팅](send/twitter.md)
    + [트랜잭션 메시지 ](send/transactional.md)
-   + Campaign 상호 작용을 통한 오퍼 관리{#interaction}
-      + [실시간 상호 작용 시작](send/interaction.md)
-      + [환경 및 아키텍처](send/interaction-architecture.md)
-      + [모범 사례](send/interaction-best-practices.md)
-      + 설정 정의{#interaction}
-         + [운영자 만들기](send/interaction-operators.md)
-         + [환경 만들기](send/interaction-env.md)
-         + [사전 정의 필터 만들기](send/interaction-predefined-filters.md)
-         + [오퍼 공간 만들기](send/interaction-offer-spaces.md)
-      + [오퍼 카탈로그 만들기](send/interaction-offer-catalog.md)
-      + [오퍼 만들기](send/interaction-offer.md)
-      + [오퍼 보내기 (아웃바운드)](send/interaction-send-offers.md)
-      + 오퍼(인바운드) 제공{#inbound}
-         + [컨텍스트](send/interaction-present-offers.md)
-         + [웹 페이지에서 오퍼 호출](send/interaction-integration.md)
-         + [익명 상호 작용 관리](send/anonymous-interactions.md)
-      + [보고서 및 기록](send/interaction-tracking.md)
-      + [활용 사례](send/interaction-use-cases.md)
++ 실시간 상호 작용{#interaction}
+   + [실시간 상호 작용 시작](interaction/interaction.md)
+   + [환경 및 아키텍처](interaction/interaction-architecture.md)
+   + [모범 사례](interaction/interaction-best-practices.md)
+   + 설정 정의{#interaction-settings}
+      + [운영자 만들기](interaction/interaction-operators.md)
+      + [환경 만들기](interaction/interaction-env.md)
+      + [사전 정의 필터 만들기](interaction/interaction-predefined-filters.md)
+      + [오퍼 공간 만들기](interaction/interaction-offer-spaces.md)
+   + [오퍼 카탈로그 만들기](interaction/interaction-offer-catalog.md)
+   + [오퍼 만들기](interaction/interaction-offer.md)
+   + [오퍼 보내기 (아웃바운드)](interaction/interaction-send-offers.md)
+   + 오퍼(인바운드) 제공{#inbound}
+      + [컨텍스트](interaction/interaction-present-offers.md)
+      + [웹 페이지에서 오퍼 호출](interaction/interaction-integration.md)
+      + [익명 상호 작용 관리](interaction/anonymous-interactions.md)
+   + [보고서 및 기록](interaction/interaction-tracking.md)
+   + [활용 사례](interaction/interaction-use-cases.md)
 + 구성 {#config}
    + [워크플로우 자동화](config/workflows.md)
    + [데이터 관리](config/replication.md)
