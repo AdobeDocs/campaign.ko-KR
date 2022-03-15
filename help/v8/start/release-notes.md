@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 hidefromtoc: false
-exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: b7db9597aa6b4ca4fb2e1e13f8b7b718f4840031
+exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
+source-git-commit: 9283f1e857706455c169eb1da93cd0d04df80da0
 workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 100%
@@ -45,7 +45,7 @@ _2021년 10월 28일_
 <tr>
 <td>
 <p>이제 인바운드 채널에 대해 실시간 상호 작용 관리를 사용할 수 있습니다. Campaign 인바운드 상호 작용 모듈로 고객이 웹사이트를 방문하거나 콜센터에 연락할 때 고객에게 최상의 오퍼를 제공할 수 있습니다. 이 기능은 Campaign v8과 함께 선택 기능으로 제공되며, 인스턴스에서 특정 구성을 진행해야 합니다. 인바운드 상호 작용 모듈에 대한 액세스 권한을 받으려면 Adobe 담당자에게 문의하세요.</p>
-<p>자세한 내용은 <a href="../send/interaction-architecture.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../interaction/interaction-architecture.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
