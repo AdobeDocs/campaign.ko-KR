@@ -1,22 +1,22 @@
 ---
-title: Campaign Interaction Offer catalog
-description: Learn how to create an offer catalog
+title: Campaign 상호 작용을 사용하여 오퍼 보내기
+description: 오퍼를 보내는 방법을 알아봅니다
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: c19ac91fe7b4b825f75ec096320efabc3e78328c
+source-git-commit: 213a10fea36b3b08c1dd8525084d212e191b2fc7
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1276'
 ht-degree: 3%
 
 ---
 
-# 오퍼 보내기
+# 오퍼 보내기{#send}
 
 오퍼 엔진에서 오퍼를 선택하려면 오퍼를 승인하고 다음 위치에서 사용할 수 있습니다 **라이브** 환경. [자세히 알아보기](interaction-offer.md#approve-offers)
 
-Offer presentation via an outbound communication channel is carried out via direct mail, email, or mobile deliveries. 트랜잭션 메시지(메시지 센터)와 함께 단일 모드를 사용할 수도 있습니다.
+아웃바운드 통신 채널을 통한 오퍼 프레젠테이션은 DM, 이메일 또는 모바일 게재를 통해 수행됩니다. 트랜잭션 메시지(메시지 센터)와 함께 단일 모드를 사용할 수도 있습니다.
 
 ## 게재에 오퍼 삽입 {#offer-into-a-delivery}
 
@@ -59,12 +59,12 @@ Offer presentation via an outbound communication channel is carried out via dire
 
 ### 오퍼 엔진의 매개 변수 {#parameters-for-calling-offer-engine}
 
-* **[!UICONTROL Space]** : space of the offer environment which must be selected to activate the Offer engine.
+* **[!UICONTROL Space]** : 오퍼 엔진을 활성화하기 위해 선택해야 하는 오퍼 환경의 공간입니다.
 * **[!UICONTROL Category]** : 오퍼가 정렬되는 특정 폴더입니다. 카테고리를 지정하지 않으면 테마를 선택하지 않은 한 환경에 포함된 모든 오퍼가 오퍼 엔진에서 고려됩니다.
-* **[!UICONTROL Themes]** : 카테고리에서 업스트림으로 정의된 주요 단어입니다. These act as a filter and let you refine the number of offers to be presented by selecting them in a set of categories.
+* **[!UICONTROL Themes]** : 카테고리에서 업스트림으로 정의된 주요 단어입니다. 오퍼는 필터로서 작동하며 카테고리 집합에서 오퍼를 선택하여 표시할 오퍼의 수를 개선할 수 있도록 해줍니다.
 * **[!UICONTROL Number of propositions]** : 게재 본문에 삽입할 수 있는 엔진에서 반환한 오퍼 수입니다. 오퍼가 메시지에 삽입되지 않으면 오퍼가 계속 생성되지만 표시되지 않습니다.
-* **[!UICONTROL Exclude non-eligible recipients]** : 이 옵션을 사용하면 적합한 오퍼가 충분하지 않은 수신자의 제외를 활성화하거나 비활성화할 수 있습니다. 해당 Proposition 수는 요청된 Proposition 수보다 작을 수 있습니다. If this box is checked, recipients who don&#39;t have enough propositions will be excluded from the delivery. 이 옵션을 선택하지 않으면 이러한 수신자는 제외되지 않지만 요청된 프로필 수가 없습니다.
-* **[!UICONTROL Do not display anything if no offer is selected]** : 이 옵션을 사용하면 프로필 중 하나가 없는 경우 메시지를 처리하는 방법을 선택할 수 있습니다. When this box is checked, the representation of the missing proposition is not displayed and no content will appear in the message for this proposition. 상자를 선택하지 않으면 메시지 자체가 전송 중에 취소되고 수신자는 더 이상 메시지를 받지 않습니다.
+* **[!UICONTROL Exclude non-eligible recipients]** : 이 옵션을 사용하면 적합한 오퍼가 충분하지 않은 수신자의 제외를 활성화하거나 비활성화할 수 있습니다. 해당 Proposition 수는 요청된 Proposition 수보다 작을 수 있습니다. 이 확인란을 선택하면 적절한 위치가 없는 수신자는 게재에서 제외됩니다. 이 옵션을 선택하지 않으면 이러한 수신자는 제외되지 않지만 요청된 프로필 수가 없습니다.
+* **[!UICONTROL Do not display anything if no offer is selected]** : 이 옵션을 사용하면 프로필 중 하나가 없는 경우 메시지를 처리하는 방법을 선택할 수 있습니다. 이 상자를 선택하면 누락된 제안 표시가 표시되지 않고 이 제안에 대한 메시지에 콘텐츠가 표시되지 않습니다. 상자를 선택하지 않으면 메시지 자체가 전송 중에 취소되고 수신자는 더 이상 메시지를 받지 않습니다.
 
 ## 워크플로우에서 오퍼 보내기{#offer-via-wf}
 
@@ -89,13 +89,13 @@ Offer presentation via an outbound communication channel is carried out via dire
 * 오퍼 또는 오퍼 엔진 호출 지정
 * 오퍼 링크 참조.
 
-#### Specify an offer or a call to the Offer engine {#specifying-an-offer-or-a-call-to-the-offer-engine}
+#### 오퍼 엔진에 대한 호출 또는 오퍼를 지정합니다 {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
 구성 후 **쿼리** 활동:
 
 1. 추가 및 열기 **데이터 보강** 활동.
 1. **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;를 선택합니다.
-1. Select **[!UICONTROL An offer proposition]** in the types of data to add.
+1. 선택 **[!UICONTROL An offer proposition]** 추가할 데이터 유형에서 을 참조하십시오.
 
    ![](assets/int_enrichment_offer2.png)
 
@@ -110,7 +110,7 @@ Offer presentation via an outbound communication channel is carried out via dire
 
       ![](assets/int_enrichment_offer4.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. [자세히 알아보기](#offer-into-a-delivery)
+1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [자세히 알아보기](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -136,15 +136,15 @@ Offer presentation via an outbound communication channel is carried out via dire
 
    >[!NOTE]
    >
-   >The number of propositions available for the preview depends on the configuration carried out in the delivery.
+   >미리 보기에 사용할 수 있는 proposition 수는 게재에서 수행된 구성에 따라 다릅니다.
 
-#### Store offer rankings and weights {#storing-offer-rankings-and-weights}
+#### 스토어 오퍼 등급 및 가중치 {#storing-offer-rankings-and-weights}
 
 기본적으로 **데이터 보강** 활동은 오퍼를 전달하는 데 사용되며, 그 순위 및 가중치는 제안 테이블에 저장되지 않습니다.
 
 >[!NOTE]
 >
->The **[!UICONTROL Offer engine]** activity does store this information by default.
+>다음 **[!UICONTROL Offer engine]** 활동은 기본적으로 이 정보를 저장합니다.
 
 그러나 다음과 같이 이 정보를 저장할 수 있습니다.
 
@@ -178,11 +178,11 @@ Offer presentation via an outbound communication channel is carried out via dire
 
    >[!CAUTION]
    >
-   >If you use this activity, only the offer propositions used in the delivery will be stored.
+   >이 활동을 사용하는 경우 게재에 사용된 오퍼 포지션만 저장됩니다.
 
    ![](assets/int_offerengine_activity1.png)
 
-1. Then configure a delivery activity that corresponds to your chosen channel. [자세히 알아보기](#inserting-an-offer-proposition-into-a-delivery)
+1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [자세히 알아보기](#inserting-an-offer-proposition-into-a-delivery)
 
 ### 셀별 오퍼 {#offers-by-cell}
 

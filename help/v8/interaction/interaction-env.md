@@ -1,13 +1,13 @@
 ---
-title: Campaign 상호 작용 연산자
-description: 오퍼 관리 운영자 만들기
+title: Campaign 상호 작용 환경
+description: Campaign 상호 작용을 위한 환경을 만드는 방법을 알아봅니다
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 31f38870-1781-4185-9022-d4fd6a31c94a
-source-git-commit: c19ac91fe7b4b825f75ec096320efabc3e78328c
+source-git-commit: 213a10fea36b3b08c1dd8525084d212e191b2fc7
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '397'
 ht-degree: 2%
 
 ---

@@ -61,14 +61,14 @@ ht-degree: 1%
    >
    >**게재 관리자** 오퍼는 오퍼 구성에서 검토자로 선언된 경우에만 승인할 수 있습니다.
 
-## Permission matrix per Interaction operator {#recap-of-rights-according-to-operator}
+## 상호 작용 연산자별 권한 매트릭스 {#recap-of-rights-according-to-operator}
 
 <table> 
  <tbody> 
   <tr> 
    <td> </td> 
    <td> <strong>오퍼 관리자(디자인 환경)</strong><br /> </td> 
-   <td> <strong>Offer manager (Live environment)</strong><br /> </td> 
+   <td> <strong>오퍼 관리자(라이브 환경)</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>트리 구조 수준</strong><br /> </td> 
@@ -77,7 +77,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 편집 중인 오퍼/라이브 오퍼<br /> </td> 
-   <td> Read / Write<br /> </td> 
+   <td> 읽기/쓰기<br /> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 

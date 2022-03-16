@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 일반 권장 사항 {#general-recommendations}
 
-Managing offers in Adobe Campaign requires careful management to operate efficiently. 문제를 방지하려면 연락처 수와 오퍼 카테고리 및 오퍼 수 간에 균형을 찾아야 합니다.
+Adobe Campaign에서 오퍼를 관리하려면 효율적으로 운영해야 합니다. 문제를 방지하려면 연락처 수와 오퍼 카테고리 및 오퍼 수 간에 균형을 찾아야 합니다.
 
 이 섹션에서는 **상호 작용** 자격 규칙, 사전 정의된 필터, 워크플로우 활동 및 데이터베이스 옵션을 비롯한 Adobe Campaign의 모듈입니다.
 
@@ -34,8 +34,8 @@ Managing offers in Adobe Campaign requires careful management to operate efficie
    * 전체 트리를 스캔하지 않도록 특정 카테고리에서 시작합니다.
    * 처리 시간을 절약하려면 조인으로 복잡한 규칙을 작성하는 대신 합계를 미리 계산하십시오. 이렇게 하려면 자격 규칙 내에서 조회할 수 있는 참조 테이블에 고객 데이터를 저장해 보십시오.
    * 최소 가중치를 사용하여 쿼리 수를 제한합니다.
-   * 오퍼 공간당 오퍼 수가 제한되어 있는 것이 좋습니다. This ensures faster retrieval of offers in any given space.
-   * Use indexes, especially on frequently used look-up columns.
+   * 오퍼 공간당 오퍼 수가 제한되어 있는 것이 좋습니다. 따라서 주어진 공간에서 오퍼를 신속하게 검색할 수 있습니다.
+   * 특히 자주 사용하는 조회 열 시 인덱스를 사용합니다.
 
 * 다음은 와(과) 관련된 몇 가지 우수 사례 목록입니다 **제안 테이블**:
 
@@ -55,7 +55,7 @@ Managing offers in Adobe Campaign requires careful management to operate efficie
 
 에서 오퍼를 선택할 때 **데이터 보강** 활동을 만들 때 사용할 오퍼 공간을 선택할 수 있습니다. 그러나 선택한 오퍼 공간에 관계없이 게재 사용자 지정 메뉴는 게재에 설정된 오퍼 공간에 따라 다릅니다.
 
-In the example below, the offer space selected in the delivery is **[!UICONTROL Email (Environment - Recipient)]**:
+아래 예에서는 게재에서 선택한 오퍼 공간이 있습니다 **[!UICONTROL Email (Environment - Recipient)]**:
 
 ![](assets/Interaction-best-practices-offer-space-selected.png)
 
@@ -69,7 +69,7 @@ In the example below, the offer space selected in the delivery is **[!UICONTROL 
 
 제안을 선택하면 **[!UICONTROL view]** 속성은 다음과 같습니다.
 * &quot;rendering/html&quot;: html 렌더링. HTML 렌더링 기능을 사용합니다.
-* &quot;offer/view/html&quot;: html 콘텐츠. It does not use the HTML rendering function. It only includes the HTML field.
+* &quot;offer/view/html&quot;: html 콘텐츠. HTML 렌더링 기능을 사용하지 않습니다. 여기에는 HTML 필드만 포함됩니다.
 
 단일 이메일 게재에 여러 오퍼 공백을 포함하고, 일부 오퍼에 렌더링 기능이 있고 일부 오퍼에는 렌더링 기능이 없는 경우, 어느 오퍼에서 어느 오퍼 공간을 사용하고 어떤 오퍼 공간에는 렌더링 기능이 있는지 기억해야 합니다.
 
@@ -97,7 +97,7 @@ In the example below, the offer space selected in the delivery is **[!UICONTROL 
 
 왜냐하면 이름이 인 제안 테이블에 필드가 있기 때문입니다 `@rank`을 지정하면 워크플로우 임시 테이블의 값이 복사됩니다.
 
-For more on storing additional fields in the proposition table, refer to [this section](interaction-send-offers.md#storing-offer-rankings-and-weights).
+제안 테이블에 추가 필드를 저장하는 방법에 대한 자세한 내용은 [이 섹션](interaction-send-offers.md#storing-offer-rankings-and-weights).
 
 상호 작용을 하는 아웃바운드 오퍼의 경우, 이 기능은 여러 오퍼를 선택하고 오퍼가 전자 메일에 표시될 순서를 기록하려는 경우 유용합니다.
 
