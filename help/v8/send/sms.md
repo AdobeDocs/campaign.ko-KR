@@ -20,7 +20,7 @@ Adobe Campaign을 사용하여 개인화된 SMS 메시지를 보냅니다.
 
 >[!NOTE]
 >
->또한 Adobe Campaign을 사용하면 해당 알림을 통해 모바일에 푸시 알림을 제출할 수도 있습니다 **Adobe Campaign 모바일 앱 채널(NMAC)** 선택 사항입니다. 추가 정보 [이 섹션](push.md).
+>또한 Adobe Campaign을 사용하면 해당 알림을 통해 모바일에 푸시 알림을 제출할 수도 있습니다 **Adobe Campaign Mobile 앱 채널(NMAC)** 선택 사항입니다. 추가 정보 [이 섹션](push.md).
 
 ## SMS 채널 구성
 

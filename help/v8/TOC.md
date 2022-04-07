@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8
 title: Campaign v8 문서
-source-git-commit: a6182d37e6b839c8b67c25364b4c35aa7fdde7dc
+source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 98%
+source-wordcount: '307'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,11 @@ ht-degree: 98%
    + [Classic v7에서 v8로](start/capability-matrix.md)
 + 시작 {#start}
    + [시작](start/get-started.md)
-   + [프로필 및 대상자](start/audiences.md)
+   + [구성 요소 및 프로세스](start/ac-components.md)
+   + Campaign UI {#ac-ui}
+      + [Campaign 인터페이스 검색](start/campaign-ui.md)
+      + [Campaign 인터페이스 사용자 지정](start/customize-ui.md)
+   + [대상자를 사용한 작업](start/audiences.md)
    + [데이터 가져오기](start/import.md)
    + [캠페인 만들기](start/campaigns.md)
    + [메시지 보내기](start/create-message.md)
@@ -41,7 +45,20 @@ ht-degree: 98%
    + [Campaign에 연결](start/connect.md)
    + [사용 권한](start/permissions.md)
    + [Campaign 컨트롤 패널](config/self-service.md)
-+ 보내기 {#send}
++ 프로필 및 대상자 {#profiles-and-audiences}
+   + [시작](audiences/gs-audiences.md)
+   + [프로필 액세스](audiences/view-profiles.md)
+   + 프로필 추가 {#add-profiles}
+      + [수동으로 프로필 만들기](audiences/create-profiles.md)
+      + [파일에서 프로필 가져오기](audiences/import-profiles.md)
+      + [외부 프로필 작업](audiences/external-profiles.md)
+      + [웹 양식에서 프로필 데이터 수집](audiences/collect-profiles.md)
+   + 대상자 만들기 {#create-audiences}
+      + [연락처 목록 만들기](audiences/create-audiences.md)
+      + [필터 만들기 및 관리](audiences/create-filters.md)
+   + [폴더 및 보기 관리](audiences/folders-and-views.md)
+   + [모범 사례](audiences/audiences-best-practices.md)
++ 메시지 보내기{#send}
    + [이메일](send/email.md)
    + [SMS](send/sms.md)
    + [푸시 알림](send/push.md)
@@ -49,6 +66,9 @@ ht-degree: 98%
    + [DM](send/direct-mail.md)
    + [소셜 마케팅](send/twitter.md)
    + [트랜잭션 메시지 ](send/transactional.md)
+   + 실패, 바운스 및 격리{#failures}
+      + [격리](send/quarantines.md)
+      + [게재 실패](send/delivery-failures.md)
 + 실시간 상호 작용{#interaction}
    + [실시간 상호 작용 시작](interaction/interaction.md)
    + [환경 및 아키텍처](interaction/interaction-architecture.md)
@@ -104,3 +124,4 @@ ht-degree: 98%
       + [시작](dev/api.md)
       + [새 API](dev/new-apis.md)
       + [API 스테이징 메커니즘](dev/staging.md)
++ [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)

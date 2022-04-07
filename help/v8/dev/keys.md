@@ -2,10 +2,10 @@
 title: Campaign의 키 관리
 description: 키 관리 시작
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 Campaign v8에서 기본 키는 문자 문자열인 UUID(Universally Unique IDentifier)입니다. 이 UUID를 만들려면 스키마의 기본 요소에 **autouid** 및 **자동** 으로 설정된 속성 **true**.
 
-Adobe Campaign v8에는 핵심 데이터베이스로 Snowflake가 포함되어 있습니다. Snowflake 데이터베이스의 분산 아키텍처에서는 테이블 내의 키 특성을 관리하는 메커니즘을 제공하지 않습니다. 최종 사용자는 Adobe Campaign 데이터베이스 내의 키 일관성을 유지할 책임이 있습니다.
+Adobe Campaign v8에는 핵심 데이터베이스로 Snowflake이 포함되어 있습니다. Snowflake 데이터베이스의 분산 아키텍처에서는 테이블 내의 키 특성을 관리하는 메커니즘을 제공하지 않습니다. 최종 사용자는 Adobe Campaign 데이터베이스 내의 키 일관성을 유지할 책임이 있습니다.
 
 관계형 데이터베이스 일관성을 유지하려면 키에 대한 중복 방지, 특히 기본 키에 대한 중복을 방지해야 합니다. 기본 키에 중복되면 다음과 같은 데이터 관리 워크플로우 활동에 문제가 발생합니다. **쿼리**, **조정**, **데이터 업데이트**, 등.
 

@@ -32,19 +32,19 @@ Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대한
 
 ## 트랜잭션 푸시 알림 보내기
 
-모바일 앱 채널 모듈과 결합하면 트랜잭션 메시지를 통해 모바일 장치의 알림을 통해 트랜잭션 메시지를 푸시할 수 있습니다.
+Mobile 앱 채널 모듈과 결합하면 트랜잭션 메시지를 통해 모바일 장치의 알림을 통해 트랜잭션 메시지를 푸시할 수 있습니다.
 
-![](../assets/do-not-localize/book.png) 모바일 앱 채널은에 자세히 설명되어 있습니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
+![](../assets/do-not-localize/book.png) Mobile 앱 채널은에 자세히 설명되어 있습니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
 
 트랜잭션 푸시 알림을 전송하려면 다음 구성을 수행해야 합니다.
 
-1. 설치 **모바일 앱 채널** 를 제어 및 실행 인스턴스에 패키지화합니다.
+1. 설치 **Mobile 앱 채널** 를 제어 및 실행 인스턴스에 패키지화합니다.
 
    >[!CAUTION]
    >
    >새 Campaign 기본 제공 패키지를 설치하기 전에 라이선스 계약을 확인하십시오.
 
-1. 복제 **모바일 애플리케이션** 실행 인스턴스의 서비스 및 관련 모바일 애플리케이션.
+1. 복제 **Mobile 애플리케이션** 실행 인스턴스의 서비스 및 관련 모바일 애플리케이션.
 
 Campaign에서 트랜잭션 푸시 알림을 전송하려면 이벤트에 다음 요소가 포함되어야 합니다.
 

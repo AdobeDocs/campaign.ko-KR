@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
+source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1841'
 ht-degree: 3%
 
 ---
@@ -140,7 +140,7 @@ Adobe Campaign에서 외부 데이터베이스의 스키마를 만들려면 아�
 
    ![](assets/wf_new_mapping_define_join.png)
 
-1. 확장 스키마의 접미사를 포함하여 정보 저장 영역에 대한 매개 변수를 쉽게 식별할 수 있도록 지정합니다.
+1. 확장 스키마의 접미사를 포함하여 정보 저장 영역에 대한 매개 변수를 지정하여 쉽게 식별할 수 있습니다.
 
    ![](assets/wf_new_mapping_define_names.png)
 

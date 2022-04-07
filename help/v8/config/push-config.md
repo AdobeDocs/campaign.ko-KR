@@ -76,7 +76,7 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 >
 > * google-services.json을 다운로드하여 프로젝트에 추가하는 것을 잊지 마십시오.
 >
-> * 다음 `apiKey` 와 일치해야 함 `projectKey` 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에서 을 설정합니다.
+> * 다음 `apiKey` 와 일치해야 함 `projectKey` 이 Android 애플리케이션에 연결된 Adobe Campaign Mobile 애플리케이션에서 을 설정합니다.
 
 
 ### Android SDK 구성
@@ -102,7 +102,7 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
    }
    ```
 
-   다음 `IntegrationKey` 는 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에서 설정된 &#39;IntegrationKey&#39;와 일치해야 합니다.
+   다음 `IntegrationKey` 는 이 Android 애플리케이션에 연결된 Adobe Campaign Mobile 애플리케이션의 &#39;IntegrationKey&#39; 세트와 일치해야 합니다.
 
 1. **Adobe Campaign 서버에 모바일 장치 등록**
 

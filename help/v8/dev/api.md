@@ -30,7 +30,7 @@ Campaign v8은 두 개의 데이터베이스에서 작동합니다. API를 통�
 >
 >[!DNL Adobe Campaign] v8에는 API 레이어의 처리량(TPS)에 대한 제한이 있습니다. 이 제한을 초과하면 표준 HTTP 오류(429)가 발생합니다. 관리 Cloud Services 사용자는 Adobe에 연락하여 각 API에 대한 전송률 조절 기능을 조정할 수 있습니다.
 
-## 필수 구성 요소
+## 전제 조건
 
 사용하기 전 [!DNL Adobe Campaign] API를 사용하려면 다음 주제를 알고 있어야 합니다.
 

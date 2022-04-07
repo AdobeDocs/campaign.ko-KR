@@ -5,16 +5,18 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: def9714448ef5fdde39cee070088615e8f50e522
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 85%
 
 ---
 
 # Adobe Campaign v8의 새로운 기능은 무엇입니까? {#ac-gs-what-is-new}
 
 Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상당히 개선되었습니다. Adobe Campaign은 클라우드 데이터베이스 기술인 [[!DNL Snowflake]](https://www.snowflake.com/)를 활용함으로써 그 규모와 속도를 크게 향상시켜 훨씬 더 많은 수의 고객 프로필을 관리할 수 있을 뿐만 아니라 시간 당 훨씬 더 높은 게재율과 트랜잭션 처리량을 제공합니다.
+
+## 주요 기능{#key-capabilities}
 
 주요 기능은 다음과 같습니다.
 
@@ -34,7 +36,7 @@ Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상
 
 ![](assets/home-page.png)
 
-## 크기 조절
+## 크기 조절{#scale}
 
 Campaign v8은 타기팅에서 최종 보고에 이르기까지 프로세스의 모든 단계에서 엔드 투 엔드 크기 조절을 제공합니다.
 
@@ -42,7 +44,23 @@ Campaign v8은 타기팅에서 최종 보고에 이르기까지 프로세스의 
 * 세분화 및 타겟팅 외에도 데이터 수집 및 가져오기를 위한 쿼리 성능의 크기 조절
 * 게재 준비 단위 조절(시간 ~ 분)
 
-## 간소화 및 성능 향상
+## 셀프서비스 관리 인터페이스{#self-service-admin}
+
+제품 관리자는 **캠페인 Campaign 컨트롤 패널**.
+
+관리자는 직관적인 사용자 인터페이스를 통해 주요 자산의 사용을 모니터링하고, IP 주소 허용 목록, SFTP 스토리지 모니터링, 키 관리 등의 고급 작업을 수행할 수 있습니다. 이 셀프 서비스 인터페이스는 보다 유연하고 다음과 같은 이점을 제공합니다.
+
+* Adobe 지원 센터에 문의하지 않고도 직접 설정을 빠르게 변경할 수 있습니다.
+* 상황별로 다양한 비즈니스 요구 사항에 따라 설정을 구성할 수 있습니다
+* 필요에 따라 액세스 설정을 제어하여 보안을 강화할 수 있습니다
+
+![](assets/subdomain1.png)
+
+![](../assets/do-not-localize/glass.png) [Campaign Campaign 컨트롤 패널에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target=&quot;_blank&quot;}
+
+
+
+## 간소화 및 성능 향상{#simplification-and-perf-increase}
 
 Campaign v8은 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다.
 

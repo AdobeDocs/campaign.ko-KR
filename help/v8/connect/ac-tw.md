@@ -4,10 +4,10 @@ description: Campaign 환경을 Twitter과 통합하는 방법을 알아봅니�
 feature: Overview
 role: Data Engineer
 level: Beginner
-hidefromtoc: true
 hide: true
+hidefromtoc: true
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 137dba3461a82621af7d2e5f54442bf87422ad47
+source-git-commit: 0f15112f0eec1d7cba26523adc1e88fc5d26997c
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 4%
@@ -83,7 +83,9 @@ Campaign 인스턴스를 Twitter 계정에 연결하려면 **Twitter** Campaign�
 
    >[!CAUTION]
    >
-   >다음 **[!UICONTROL Internal name]** 서비스 이름이 Twitter 계정의 이름과 정확히 같아야 합니다. 설정을 확인하려면 다음을 수행할 수 있습니다.
+   >다음 **[!UICONTROL Internal name]** 서비스 이름이 Twitter 계정의 이름과 정확히 같아야 합니다.
+
+   설정을 확인하려면 다음을 수행할 수 있습니다.
 
    * **[!UICONTROL Save]** 버튼을 클릭합니다.
    * 서비스 개요에서 **Twitter** 방금 만든 서비스입니다.

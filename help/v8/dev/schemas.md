@@ -1,6 +1,6 @@
 ---
-title: Campaign 스키마로 작업
-description: 스키마 시작
+title: Work with Campaign schemas
+description: Get started with schemas
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
@@ -19,17 +19,17 @@ ht-degree: 5%
 * 필드
 * 다른 테이블과 링크
 
-또한 데이터를 저장하는 데 사용되는 XML 구조에 대해 설명합니다.
+It also describes the XML structure used to store data:
 
 * 요소 및 속성
-* 요소 계층
+* Hierarchy of elements
 * 요소 및 속성 유형
-* 기본값
+* Default values
 * 레이블, 설명 및 기타 속성입니다.
 
 스키마를 사용하여 데이터베이스에서 엔티티를 정의할 수 있습니다. 각 엔티티에 대한 스키마가 있습니다.
 
-Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
+Adobe Campaign employs Data Schemas to:
 
 * 응용 프로그램 내의 데이터 개체가 기본 데이터베이스 테이블에 연결되어 있는 방식을 정의합니다.
 * Campaign 애플리케이션 내에서 서로 다른 데이터 개체 간의 링크를 정의합니다.
@@ -79,12 +79,12 @@ Campaign 기본 제공 테이블 및 상호 작용에 대해 더 잘 이해하�
 >
 >식별자는 숫자 문자로 시작하면 안 됩니다.
 
-## 예약된 네임스페이스 {#reserved-namespaces}
+## Reserved namespaces {#reserved-namespaces}
 
 특정 네임스페이스는 Adobe Campaign 애플리케이션 작업에 필요한 시스템 엔터티에 대한 설명을 위해 예약되어 있습니다. 다음 네임스페이스 **를 사용하지 않아야 합니다.** 새 스키마를 식별하려면 다음 상위/하위 사례 조합에서 다음을 수행합니다.
 
 * **xxl**: 클라우드 데이터베이스 스키마에 예약됨
-* **xtk**: 플랫폼 시스템 데이터로 예약됨
+* **xtk**: reserved to platform system data
 * **nl**: 애플리케이션의 전체 사용에 예약됨
 * **nms**: 게재에 예약됨(수신자, 게재, 추적 등)
 * **ncm**: 콘텐츠 관리에 예약됨
@@ -106,7 +106,7 @@ Adobe Campaign(예: 계약 테이블)에 존재하지 않는 완전히 새로운
 ![](assets/schemaextension_1.png)
 
 
-작업할 스키마를 만들거나 확장하면, 다음과 같은 순서로 XML 콘텐츠 요소를 정의하는 것이 좋습니다.
+Once you have created or extended a schema to work in, the best practice is to define its XML content elements in the same order they appear in below.
 
 ## 열거형 {#enumerations}
 
@@ -131,13 +131,13 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!NOTE]
 >
->사용자 관리 열거형(일반적으로 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) 를 사용하여 주어진 필드에 대한 값을 지정합니다. 이러한 열거형은 효과적으로 전역 열거형이며, 작업 중인 특정 스키마 외부에서 열거형을 사용할 수 있는 경우 더 나은 선택입니다.
+>You can also employ user-managed enumerations (usually under **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) to specify the values for a given field. 이러한 열거형은 효과적으로 전역 열거형이며, 작업 중인 특정 스키마 외부에서 열거형을 사용할 수 있는 경우 더 나은 선택입니다.
 
-## 키 {#keys}
+## Keys {#keys}
 
 모든 테이블에는 하나 이상의 키가 있어야 하며, 종종 를 사용하여 스키마의 기본 요소에 자동으로 설정됩니다 **@autouuid** 및 **자동** 으로 설정된 속성 **true**.
 
-기본 키는 **내부** 속성을 사용합니다.
+The primary key can also be defined using the **internal** attribute.
 
 예제:
 
@@ -151,7 +151,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!CAUTION]
 >
->새 스키마를 만들거나 스키마 확장 중에 전체 스키마에 대해 동일한 기본 키 시퀀스 값(@pkSequence)을 유지해야 합니다.
+>When creating a new schema or during a schema extension, you need to keep the same primary key sequence value (@pkSequence) for the whole schema.
 
 ![](../assets/do-not-localize/glass.png) 의 키에 대해 자세히 알아보기 [이 섹션](database-mapping.md#management-of-keys).
 
@@ -185,7 +185,7 @@ type="string" enum="exTransactionTypeEnum"/>
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
-SQL 필드에 저장되고 XML 필드의 예로서 **@dataPolicy** 속성을 사용합니다.
+Example of an XML field also stored in an SQL field and which has an **@dataPolicy** attribute.
 
 ```
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
@@ -193,7 +193,7 @@ SQL 필드에 저장되고 XML 필드의 예로서 **@dataPolicy** 속성을 사
 
 >[!CAUTION]
 >
->대부분의 특성이 데이터베이스의 물리적 필드에 1-1 카디널리티에 따라 연결되어 있지만 XML 필드나 계산된 필드의 경우에는 그렇지 않습니다.\
+>Although most attributes are linked according to a 1-1 cardinality to a physical field of the database, this is not the case for the XML fields or the computed fields.\
 >XML 필드는 테이블의 메모 필드(&quot;mData&quot;)에 저장됩니다.\
 >그러나 계산 필드는 쿼리가 시작될 때마다 동적으로 만들어지므로 응용 프로그램 계층에만 있습니다.
 
@@ -241,7 +241,7 @@ SQL 필드에 저장되고 XML 필드의 예로서 **@dataPolicy** 속성을 사
 
 ## 데이터베이스 구조 업데이트 {#updating-the-database-structure}
 
-변경 사항이 완료되고 저장되면 SQL 구조에 영향을 줄 수 있는 모든 변경 사항을 데이터베이스에 적용해야 합니다. 이렇게 하려면 데이터베이스 업데이트 도우미를 사용합니다.
+Once your changes are completed and saved, any changes that may impact the SQL structure need to be applied to the database. 이렇게 하려면 데이터베이스 업데이트 도우미를 사용합니다.
 
 ![](assets/schemaextension_3.png)
 
@@ -249,4 +249,4 @@ SQL 필드에 저장되고 XML 필드의 예로서 **@dataPolicy** 속성을 사
 
 >[!NOTE]
 >
->수정 사항이 데이터베이스 구조에 영향을 주지 않는 경우 스키마를 다시 생성하기만 하면 됩니다. 이렇게 하려면 업데이트할 스키마를 선택하고 마우스 오른쪽 버튼을 클릭한 다음 을(를) 선택합니다 **[!UICONTROL Actions > Regenerate selected schemas...]** .
+>When modifications do not impact the database structure, you just need to regenerate schemas. 이렇게 하려면 업데이트할 스키마를 선택하고 마우스 오른쪽 버튼을 클릭한 다음 을(를) 선택합니다 **[!UICONTROL Actions > Regenerate selected schemas...]** .

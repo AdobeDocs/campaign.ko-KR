@@ -50,7 +50,7 @@ ht-degree: 2%
 * 대상 모집단을 그룹(목록)에 저장할 때 저장된 필드의 특성은 데이터 소스와 동일합니다.
 * 기본적으로 데이터는 JS 코드에 액세스할 수 없습니다.
 
-## 추천 {#recommendations}
+## 권장 사항 {#recommendations}
 
 각 게재에서 이메일 주소는 **[!UICONTROL broadLog]** 그리고 **[!UICONTROL forecastLog]** 표: 따라서 이러한 필드도 보호해야 합니다.
 

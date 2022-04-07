@@ -23,7 +23,7 @@ Adobe Target의 오퍼를 Adobe Campaign 이메일 게재에 포함하도록 Cam
 
 ![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자로, [연락처 Adobe](../start/campaign-faq.md#support) campaign을 사용하여 Experience Cloud 트리거를 구현하려면 다음을 수행하십시오.
 
-The following types of data can be used by Adobe Target:
+Adobe Target에서는 다음 유형의 데이터를 사용할 수 있습니다.
 
 * Adobe Campaign 데이터베이스의 데이터
 * 사용된 데이터에 법적 제한이 없는 경우에만 Adobe Target의 방문자 ID에 연결된 세그먼트가 적용됩니다
@@ -31,7 +31,7 @@ The following types of data can be used by Adobe Target:
 
 ## 동적 콘텐츠 삽입
 
-In the example below, you will learn how to integrate **a dynamic offer** from Adobe Target into an Adobe Campaign email.
+아래 예에서는 를 통합하는 방법을 알아봅니다 **동적 오퍼** Adobe Target에서 Adobe Campaign 이메일에 이르기까지
 
 수신자의 국가에 따라 동적으로 변경되는 이미지를 사용하여 메시지를 만들려고 합니다. 데이터는 각 mbox 요청을 통해 전송되며 방문자의 IP 주소에 따라 다릅니다.
 
@@ -39,7 +39,7 @@ In the example below, you will learn how to integrate **a dynamic offer** from A
 
 * 이메일이 프랑스에서 열립니다.
 * 이메일이 미국에서 열립니다.
-* If none of these conditions apply, a default image is displayed.
+* 이러한 조건이 적용되지 않으면 기본 이미지가 표시됩니다.
 
 ![](assets/target_4.png)
 
@@ -59,7 +59,7 @@ Adobe Campaign에서 이메일의 타겟 및 콘텐츠를 정의합니다. Adobe
 
 Adobe Campaign에서는 Target의 동적 이미지를 이메일에 삽입하는 두 가지 방법이 있습니다.
 
-* If you are using the digital content editor, choose an existing image and select **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** from the toolbar.
+* 디지털 콘텐츠 편집기를 사용하는 경우 기존 이미지를 선택하고 을(를) 선택합니다 **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** 를 클릭합니다.
 
    ![](assets/target_5.png)
 
@@ -69,8 +69,8 @@ Adobe Campaign에서는 Target의 동적 이미지를 이메일에 삽입하는 
 
 그런 다음 이미지 매개 변수를 정의할 수 있습니다.
 
-* The **[!UICONTROL Default image]**&#39;s URL is the image that will be displayed when none of the conditions are fulfilled. You can also select an image from your Assets library.
-* 다음 **[!UICONTROL Target location]** 은 동적 오퍼 위치의 이름입니다. You will have to select this location in your Adobe Target activity.
+* 다음 **[!UICONTROL Default image]**&#x200B;의 URL은 조건이 충족되지 않을 때 표시되는 이미지입니다. 자산 라이브러리에서 이미지를 선택할 수도 있습니다.
+* 다음 **[!UICONTROL Target location]** 은 동적 오퍼 위치의 이름입니다. Adobe Target 활동에서 이 위치를 선택해야 합니다.
 * 다음 **[!UICONTROL Landing Page]** 기본 이미지를 기본 랜딩 페이지로 리디렉션할 수 있습니다. 이 URL은 최종 이메일에 기본 이미지가 표시되는 경우에만 적용됩니다. 선택 사항입니다.
 * 다음 **[!UICONTROL Additional decision parameters]**  Adobe Target 세그먼트에 정의된 필드와 Adobe Campaign 필드 간의 매핑을 정의합니다. 사용된 Adobe Campaign 필드를 rawbox에 지정해야 합니다. 이 예제에서는 국가 필드를 추가했습니다.
 
@@ -98,7 +98,7 @@ Adobe Target에서는 다른 버전의 오퍼를 만들 수 있습니다. 각 �
 
 ### 대상자 만들기 {#audiences-target}
 
-In Adobe Target, you need to create the two audiences into which the people who visit your offer will be categorized for the different contents to be delivered. 각 대상에 대해 규칙을 추가하여 오퍼를 볼 수 있는 사용자를 정의합니다.
+Adobe Target에서는 오퍼를 방문하는 사람이 전달할 다른 콘텐츠를 위해 분류될 두 대상을 만들어야 합니다. 각 대상에 대해 규칙을 추가하여 오퍼를 볼 수 있는 사용자를 정의합니다.
 
 1. Target에서 새 대상을 만들려면 **[!UICONTROL Audiences]** 탭, **[!UICONTROL Create Audience]**.
 
@@ -154,7 +154,7 @@ Adobe Target에서는 경험 타깃팅 활동을 만들고, 다른 경험을 정
 
 ![](assets/target_experience.png)
 
-The **[!UICONTROL Goal & Settings]** window allows you to personalize your activity by setting a priority, an objective, or a duration.
+다음 **[!UICONTROL Goal & Settings]** 창에서는 우선순위, 목표 또는 지속 기간을 설정하여 활동을 개인화할 수 있습니다.
 
 다음 **[!UICONTROL Reporting Settings]** 섹션에서 작업을 선택하고 목표가 달성되는 시기를 결정할 매개 변수를 편집할 수 있습니다.
 

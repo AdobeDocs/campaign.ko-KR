@@ -1,14 +1,14 @@
 ---
 title: Campaign v8에 연결
-description: Campaign v8에 연결하는 방법 알아보기
+description: Campaign v8에 연결하는 방법에 대해 알아보기
 feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 * Campaign 서버 URL 가져오기
 * Adobe ID을 만들거나 회사에서 사용자 자격 증명을 받을 수 있습니다
 
-## 클라이언트 콘솔 다운로드 및 설치
+## 클라이언트 콘솔 다운로드 및 설치{#download-ac-console}
 
 Campaign을 처음 사용하는 경우 또는 최신 버전으로 업그레이드해야 하는 경우 클라이언트 콘솔을 다운로드하여 설치해야 합니다.
 
@@ -36,7 +36,7 @@ Campaign을 처음 사용하는 경우 또는 최신 버전으로 업그레이�
 >
 >Adobe은 옵션을 그만두는 것이 좋습니다 **[!UICONTROL No longer ask this question]** Console의 새 버전을 사용할 수 있을 때 모든 사용자에게 경고하도록 선택하지 않았습니다.  이 옵션을 선택하면 사용자에게 사용 가능한 새 버전에 대한 정보가 표시되지 않습니다.
 
-## 연결 만들기
+## 연결 만들기{#create-your-connection}
 
 클라이언트 콘솔이 새로 설치되면 아래 단계에 따라 응용 프로그램 서버에 연결을 만듭니다.
 
@@ -60,7 +60,7 @@ Campaign을 처음 사용하는 경우 또는 최신 버전으로 업그레이�
 >
 >다음 **[!UICONTROL Add]** 버튼을 사용하면 만들 수 있습니다. **[!UICONTROL folders]** 를 입력하여 모든 연결을 구성할 수 있습니다. 각 연결을 폴더로 끌어다 놓으면 됩니다.
 
-## Adobe Campaign에 로그온
+## Adobe Campaign에 로그온 {#logon-to-ac}
 
 기존 인스턴스에 로그인하려면 아래 단계를 수행하십시오.
 
@@ -78,7 +78,7 @@ Campaign을 처음 사용하는 경우 또는 최신 버전으로 업그레이�
 
    ![](assets/adobeID.png)
 
-## 사용자에게 액세스 권한 부여
+## 사용자에게 액세스 권한 부여{#grant-access}
 
 Adobe Campaign을 사용하면 다양한 운영자에게 할당된 권한을 정의하고 관리할 수 있습니다. 권한을 부여하거나 거부한 권한 및 제한 세트입니다.
 
