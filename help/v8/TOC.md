@@ -7,7 +7,7 @@ title: Campaign v8 문서
 source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 81%
    + [시작](start/get-started.md)
    + [구성 요소 및 프로세스](start/ac-components.md)
    + Campaign UI {#ac-ui}
-      + [Campaign 인터페이스 검색](start/campaign-ui.md)
-      + [Campaign 인터페이스 사용자 지정](start/customize-ui.md)
+      + [Campaign 인터페이스 살펴보기](start/campaign-ui.md)
+      + [Campaign 인터페이스 사용자 정의](start/customize-ui.md)
    + [대상자를 사용한 작업](start/audiences.md)
    + [데이터 가져오기](start/import.md)
    + [캠페인 만들기](start/campaigns.md)
@@ -66,7 +66,7 @@ ht-degree: 81%
    + [DM](send/direct-mail.md)
    + [소셜 마케팅](send/twitter.md)
    + [트랜잭션 메시지 ](send/transactional.md)
-   + 실패, 바운스 및 격리{#failures}
+   + 실패, 바운스, 격리{#failures}
       + [격리](send/quarantines.md)
       + [게재 실패](send/delivery-failures.md)
 + 실시간 상호 작용{#interaction}

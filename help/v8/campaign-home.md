@@ -6,7 +6,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 source-git-commit: 21726c8bd0c17c88c83897b98947f56b20152979
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 80%
 
 * **[v7에서 v8로 전환](start/capability-matrix.md)** - Campaign Classic v7에서 v8로 전환 주요 차이점 알아보기
 
-* **[Campaign v8용 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target=&quot;_blank&quot;}** - Campaign Campaign 컨트롤 패널을 사용하여 직접 주요 관리자 작업을 수행합니다
+* **[Campaign v8용 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target=&quot;_blank&quot;}** - Campaign 컨트롤 패널을 사용하여 직접 주요 관리자 작업을 수행합니다.
 
 * **[릴리스 노트](start/release-notes.md)** - 최신 기능 및 개선 사항 살펴보기
 

@@ -8,7 +8,7 @@ exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: def9714448ef5fdde39cee070088615e8f50e522
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -46,17 +46,17 @@ Campaign v8은 타기팅에서 최종 보고에 이르기까지 프로세스의 
 
 ## 셀프서비스 관리 인터페이스{#self-service-admin}
 
-제품 관리자는 **캠페인 Campaign 컨트롤 패널**.
+제품 관리자는 **Campaign 컨트롤 패널**&#x200B;로 설정을 관리하고 각 Campaign v8 인스턴스 사용량을 추적할 수 있습니다.
 
-관리자는 직관적인 사용자 인터페이스를 통해 주요 자산의 사용을 모니터링하고, IP 주소 허용 목록, SFTP 스토리지 모니터링, 키 관리 등의 고급 작업을 수행할 수 있습니다. 이 셀프 서비스 인터페이스는 보다 유연하고 다음과 같은 이점을 제공합니다.
+관리자는 직관적인 사용자 인터페이스를 통해 주요 자산의 사용량을 모니터링하고, IP 주소 허용 목록, SFTP 스토리지 모니터링, 키 관리 등의 고급 작업을 수행할 수 있습니다. 이 셀프 서비스 인터페이스는 보다 유연하고 다음과 같은 이점이 있습니다.
 
-* Adobe 지원 센터에 문의하지 않고도 직접 설정을 빠르게 변경할 수 있습니다.
+* Adobe 고객 지원 센터에 문의하지 않고도 직접 설정을 빠르게 변경할 수 있습니다.
 * 상황별로 다양한 비즈니스 요구 사항에 따라 설정을 구성할 수 있습니다
 * 필요에 따라 액세스 설정을 제어하여 보안을 강화할 수 있습니다
 
 ![](assets/subdomain1.png)
 
-![](../assets/do-not-localize/glass.png) [Campaign Campaign 컨트롤 패널에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/glass.png) [Campaign 컨트롤 패널에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target=&quot;_blank&quot;}
 
 
 
