@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8
 title: Campaign v8 문서
-source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
+source-git-commit: 79a9d60175b06a11cf27b44275a8ba3fe11e4d3e
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 94%
 
 ---
 
@@ -103,7 +103,11 @@ ht-degree: 100%
    + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + 외부 데이터베이스](connect/fda.md)
-   + [Campaign + CRM](connect/crm.md)
+   + Campaign + CRM {#ac-crm}
+      + [CRM 커넥터 시작](connect/crm.md)
+      + [Campaign을 SFDC와 함께 사용하기](connect/ac-sfdc.md)
+      + [Campaign을 Microsoft Dynamics와 함께 사용하기](connect/ac-ms-dyn.md)
+      + [데이터 동기화](connect/crm-data-sync.md)
 + 개발자 리소스 {#architecture}
    + [글로벌 원칙](dev/general-architecture.md)
    + [아키텍처](dev/architecture.md)
