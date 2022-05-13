@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 12%
+source-wordcount: '235'
+ht-degree: 15%
 
 ---
 
@@ -43,17 +43,6 @@ API를 사용하고 [!DNL Adobe Campaign]또한 데이터 모델에 익숙해야
 >[!NOTE]
 >데이터 모델에 대한 전체 설명을 생성할 수 있습니다. [이 페이지](datamodel.md)에서 자세히 알아보십시오.
 
-## [!DNL Campaign] API 스테이징 메커니즘
-
-사용 [!DNL Campaign] 클라우드 데이터베이스인 경우 성능(지연 및 동시성)으로 인해 단일 호출을 권장하지 않습니다. 배치 작업이 항상 선호됩니다. API의 최적 성능을 보장하기 위해 Campaign은 로컬 데이터베이스 수준에서 API 호출을 계속 처리합니다.
-
-![](../assets/do-not-localize/glass.png) [API 스테이징 메커니즘은 이 페이지에 자세히 설명되어 있습니다](staging.md)
-
-## 새 API
-
-새 API는 두 API 간에 데이터 동기화를 관리하는 데 사용할 수 있습니다 [!DNL Campaign] 로컬 데이터베이스 및 클라우드 데이터베이스. 지연을 방지하고 전체 성능을 향상시키기 위해 로컬 데이터베이스 수준에서 API 호출을 처리하는 새로운 메커니즘이 도입되었습니다.
-
-![](../assets/do-not-localize/glass.png) [새 API는 이 페이지에 자세히 설명되어 있습니다](new-apis.md)
 
 **관련 항목**
 

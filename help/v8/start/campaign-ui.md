@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: b54a39ee6d106d68446878815c068571e310aaa3
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 ## Campaign UI 액세스
 
-Campaign 작업 영역은 [클라이언트 콘솔](../dev/general-architecture.md)을 통해 사용할 수 있습니다.
+Campaign 작업 영역은 [클라이언트 콘솔](../architecture/general-architecture.md)을 통해 사용할 수 있습니다.
 
 에서 Campaign 클라이언트 콘솔 설치 및 구성 방법을 알아봅니다. [이 섹션](../start/connect.md).
 

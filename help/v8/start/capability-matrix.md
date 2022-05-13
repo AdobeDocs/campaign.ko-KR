@@ -5,81 +5,52 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
+source-git-commit: 220ff4ff31e55aba085f47de67347e28bcb3e30d
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 100%
+source-wordcount: '556'
+ht-degree: 40%
 
 ---
 
 # [!DNL Campaign Classic] v7 - [!DNL Campaign] v8 기능{#gs-matrix}
 
-기존 [!DNL Campaign Classic] v7 사용자라면 [!DNL Adobe Campaign]과의 상호 작용 방식을 크게 바꿀 필요가 없습니다. v8의 변경 사항 대부분은 UI 및 구성 단계에 나타나는 작은 변경 사항을 제외하고는 사용자에게 표시되지 않습니다.
+이전 [!DNL Campaign Classic] v7 사용자는 일반적으로 상호 작용하는 방식으로 큰 중단을 기대하지 마십시오 [!DNL Adobe Campaign]. v8의 변경 사항 대부분은 UI 및 구성 단계에 나타나는 작은 변경 사항을 제외하고는 사용자에게 표시되지 않습니다.
 
-주요 변경 사항:
+Adobe Campaign v8은 **관리 Cloud Service**. 이 새로운 오퍼링에서는 업계 최고의 서비스를 사전 예방적 관리와 시기 적절한 경고 기능을 결합하여 세 가지 영역에 초점을 맞추고 있습니다.
 
-* 최대 200배 더 빠르게 세그먼트 만들기
-* 게재 속도 향상
-* 실시간 보고 (Cubes 사용)
+* **클라우드 민첩성** — Adobe에 의한 자동화, 보다 예측 가능한 성능, 뛰어난 민첩성 및 향상된 셀프 서비스 생산성을 위해 최적화된 표준화된 클라우드 배포를 제공합니다.
+* **서비스 경험** — 사전 예방적 가용성, 용량, 성능 모니터링 및 응답으로 중단 방지, 장애 해결 속도 향상, 지속적인 개선을 위해 정기적으로 서비스 검토
+* **Deep Campaign 전문 지식** — 전문 고객 엔지니어링 팀의 높은 친화성 서비스로 기능, 기술 또는 게재 능력 요구 사항을 충족하고 배포 위험을 줄이고 변경 관리를 개선합니다.
 
-[!DNL Campaign Classic] 사용자는 [!DNL Campaign Classic] v7 기능 중 대부분을 [!DNL Campaign] v8에서도 사용할 수 있습니다(일부 예외: [이 섹션](#gs-removed) 참조). 다른 기능은 향후 릴리스에서 제공될 예정입니다. [이 섹션에서 자세히 알아보기](#gs-unavailable-features)
-
-![](../assets/do-not-localize/glass.png) [!DNL Campaign] v8 아키텍처에 대한 자세한 내용은 [이 페이지](../dev/architecture.md)를 참조하세요.
-
-## 제품 구성 변경 사항
-
-### [!DNL Campaign] 및 [!DNL Snowflake] {#ac-gs-snowflake}
-
-[!DNL Adobe Campaign] v8은 두 개의 데이터베이스를 사용합니다. 하나는 사용자 인터페이스 실시간 메시지 보내기와 API를 통한 단일 쿼리 및 쓰기를 위한 로컬 데이터베이스이고, 다른 하나는 캠페인 실행, 쿼리 일괄 처리 및 워크플로우 실행을 위한 클라우드 데이터베이스입니다.
-
-소프트웨어 아키텍처의 근본적인 변화입니다. 이제 데이터는 원격지에 있으며 Campaign은 프로필을 포함한 전체 데이터를 통합합니다. 이제 [!DNL Campaign] 프로세스가 타기팅에서 메시지 실행에 이르기까지 전체 프로세스를 확장합니다. 데이터 수집, 세분화, 타기팅, 쿼리, 게재는 이제 일반적으로 몇 분 내에 실행됩니다. 이 새로운 버전은 동일한 수준의 유연성과 확장성을 유지하면서 크기를 조절해야 하는 문제 전체를 해결합니다. 프로필 수는 거의 제한이 없으며 데이터 유지율을 확장할 수 있습니다.
-
-클라우드 스토리지는 **[!DNL Snowflake]**&#x200B;에서 수행됩니다. Snowflake는 새로운 기본 제공 **외부 계정**&#x200B;으로 클라우드 데이터베이스와의 연결을 보장합니다. 이는 Adobe에서 구성하며 수정해서는 안 됩니다. [자세히 알아보기](../config/external-accounts.md)
-
-클라우드 데이터베이스에서 이동하거나 복제해야 하는 내장 스키마/테이블은 **xxl** 네임스페이스 아래에 내장된 스키마 확장과 함께 제공됩니다. 이 확장에는 내장된 스키마를 [!DNL Campaign] 로컬 데이터베이스에서 [!DNL Snowflake] 클라우드 데이터베이스로 이동하고 그에 따라 새로운 UUID, 업데이트된 링크 등 해당 구조를 조정하는 데 필요한 수정 사항이 모두 포함됩니다.
-
->[!CAUTION]
->
-> 고객 데이터는 [!DNL Campaign] 로컬 데이터베이스에 저장되지 않습니다. 따라서 모든 사용자 정의 테이블을 클라우드 데이터베이스에서 만들어야 합니다.
-
-로컬 및 클라우드 데이터베이스 간에 데이터를 관리하는 데 특정 API를 사용할 수 있습니다. [이 페이지](../dev/new-apis.md)에서는 이 새로운 API의 작동 방식과 사용법을 알아봅니다.
-
-### 데이터 복제
-
-특정 기술 워크플로우는 양쪽(Campaign 로컬 데이터베이스와 클라우드 데이터베이스)에 모두 표시되어야 하는 테이블 복제를 처리합니다. 이 워크플로우는 매 시간마다 트리거되며 새로운 내장 JavaScript 라이브러리를 사용합니다.
+이전 [!DNL Campaign Classic] 사용자는 대부분의 [!DNL Campaign Classic] v7 기능은 [!DNL Campaign] v8, 여기에 나열된 작은 세트를 제외하고 [이 섹션](#gs-removed). 다른 기능은 향후 릴리스에서 제공될 예정입니다. [이 섹션에서 자세히 알아보기](#gs-unavailable-features)
 
 >[!NOTE]
 >
-> 테이블 크기(XS, XL 등)에 따라 여러 복제 정책이 생성되었습니다.
-> 일부 테이블은 실시간으로 복제되고 다른 테이블은 시간별로 복제됩니다. 일부 테이블에는 증분 업데이트가 적용되고 다른 테이블에는 전체 업데이트가 적용됩니다.
+> Campaign v8은 하이브리드 아키텍처를 사용합니다. Campaign Classic v7에서 전환하는 경우 모든 게재는 중간 소싱 서버를 통과합니다. [자세히 알아보기](../architecture/architecture.md)
+>
+> 따라서 내부 라우팅은 **가능하지 않음** campaign v8에서 외부 계정이 그에 따라 비활성화되었습니다.
 
-[데이터 복제 자세히 알아보기](../config/replication.md)
 
-### ID 관리
+## [!DNL Campaign] 및 [!DNL Snowflake] {#ac-gs-snowflake}
 
-이제 Campaign v8 개체에는 데이터를 식별하는 데 제한 없는 고유 값을 사용할 수 있는 **UUID(범용 고유 ID)**&#x200B;가 사용됩니다.
+Campaign v8은 [!DNL Snowflake]. 두 가지 배포 모델을 사용할 수 있습니다.
 
-이 ID는 문자열 기반이며 순차적이 아님에 유의하세요. 기본 키는 Campaign v8에서 숫자 값이 아니므로 스키마에서 **autouid** 및 **autok** 속성을 사용해야 합니다.
+![](../assets/do-not-localize/glass.png) [!DNL Campaign] v8 아키텍처에 대한 자세한 내용은 [이 페이지](../architecture/architecture.md)를 참조하세요.
 
-Campaign Classic v7 및 이전 버전에서 스키마(즉 테이블) 내의 키 독자성은 데이터베이스 엔진 수준에서 처리됩니다. 일반적으로 PostgreSQL, Oracle 또는 SQL Server와 같은 클래식 데이터베이스 엔진에는 기본 키 및/또는 고유 인덱스를 통해 열 또는 열 세트를 기반으로 중복 행 삽입을 방지하는 기본 메커니즘이 포함되어 있습니다. 이 버전에서는 데이터베이스 수준에서 적절한 인덱스 및 기본 키를 설정한 경우 중복 ID가 존재하지 않습니다.
 
-Adobe Campaign v8에는 핵심 데이터베이스로 Snowflake가 포함되어 있습니다. 쿼리 크기가 크게 증가함에 따라 Snowflake 데이터베이스의 분산 아키텍처는 이와 같이 테이블 내에서 키 독자성을 관리하는 메커니즘을 제공하지 않습니다. 따라서 Adobe Campaign v8에서는 테이블에서 중복 키를 수집하는 것을 방지하는 장치가 없습니다. 이제 Adobe Campaign 데이터베이스 내의 키 독자성을 유지할 책임은 최종 사용자에게 있습니다. [자세히 알아보기](../dev/keys.md)
+## Adobe ID을 사용하여 Campaign에 연결{#adobe-id}
 
-### 유지 관리 간소화
-
-Campaign 사용자는 데이터베이스 전문가가 될 필요가 없습니다. 더 이상 복잡한 데이터베이스 유지 관리 작업이나 복잡한 테이블 인덱싱을 수행할 필요가 없습니다.
-
-## Campaign에 연결
-
-Campaign 사용자는 Adobe ID을 통해 연결합니다. 동일한 Adobe ID을 사용하여 모든 Adobe 계획 및 제품을 단일 계정과 연결된 상태로 유지합니다.
+Campaign 사용자는 Adobe ID을 통해 연결합니다. 동일한 Adobe ID을 사용하여 모든 Adobe Experience Cloud 솔루션에 대해 단일 계정과 연결된 모든 Adobe 계획 및 제품을 유지합니다.
 
 ![](../assets/do-not-localize/glass.png) [!DNL Campaign]에 연결하는 방법은 [이 페이지](connect.md)를 참조하세요.
 
-## 보고
+## 큐브로 데이터 분석{#adobe-reporting}
 
-Adobe Campaign 보고서는 최적화되어 있으며 Campaign Classic v7보다 더 나은 확장 기능을 제공합니다. 큐브에 대한 제한 사항은 적용되지 않습니다.
+Marketing Analytics 모듈을 사용하여 데이터를 분석 및 측정하고, 통계를 계산하며, 보고서 작성 및 계산을 간소화 및 최적화합니다. 또한 보고서를 만들고 대상 모집단을 빌드합니다. 식별되면 Adobe Campaign에서 사용할 수 있는 목록(타깃팅, 세그멘테이션 등)에 저장됩니다.
 
-## 워크플로우 {#workflow}
+Adobe Campaign 큐브 보고서는 Campaign Classic v7보다 최적화되고 더 나은 확장 기능을 제공합니다. 큐브에 대한 이전 제한 사항은 Campaign v8에서 적용되지 않습니다.
+
+## 데이터 소스 변경 {#change-data-source}
 
 Campaign v8에서는 추가적인 타겟팅 워크플로우 활동으로 **[!UICONTROL Change data source]**&#x200B;를 제공합니다.
 
@@ -102,7 +73,7 @@ Campaign v8에서는 추가적인 타겟팅 워크플로우 활동으로 **[!UIC
 >
 >* 기존 Campaign Classic v7 환경에서의 마이그레이션은 아직 불가능합니다.
 >
->* 가지고 있는 배포 모델을 잘 모르거나 질문이 있는 경우 계정 팀에 문의해 주세요.
+>* 배포 모델을 잘 모르거나 질문이 있는 경우 Adobe 계정 담당자에게 문의하십시오.
 
 
 ## 지원되지 않는 기능{#gs-removed}
@@ -119,4 +90,4 @@ Campaign v8의 새로운 아키텍처 및 배포 모델에 맞게 이전 Campaig
 
 >[!NOTE]
 >
->사용할 수 없거나 제거된 기능 중 일부는 계속 사용자 인터페이스에 표시됩니다.
+>사용 가능하지 않거나 지원되지 않는 일부 기능이 사용자 인터페이스에 계속 표시될 수 있습니다.

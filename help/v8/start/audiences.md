@@ -5,7 +5,7 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: b5fb8825734bce2ec62485208b468757b461005f
+source-git-commit: d7e0635c6fccd70ed012a5b8148258383a1f6766
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 19%
@@ -51,13 +51,11 @@ You can monitor the number of active profiles used on your instances directly fr
 ![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
 
-
-## 개인 정보 보호 및 동의
+## 개인 정보 보호 및 동의{#privacy-and-consent}
 
 Adobe Campaign은 개인 정보와 중요한 데이터를 포함한 많은 양의 데이터를 수집하고 처리할 수 있는 강력한 데이터 도구입니다. Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다.
 
 ![](../assets/do-not-localize/book.png) 에서 개인 정보 및 동의를 관리하는 방법을 알아봅니다 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko){target=&quot;_blank&quot;}.
-
 
 Campaign Classic v7 설명서의 **관련 항목**:
 

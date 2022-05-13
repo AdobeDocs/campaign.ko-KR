@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
-source-git-commit: dafdf471fcaf2b6c6e3e8d5028cd65e35e7df3eb
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Adobe Campaign 상호 작용 모듈은 두 가지 유형의 상호 작용을 제
 
 ## 분산 아키텍처
 
-확장을 지원하고 인바운드 채널에 24/7 서비스를 제공하려면 **상호 작용** 모듈은 분산 아키텍처에서 구현됩니다. 이 유형의 아키텍처는 이미 과 함께 사용됩니다 [메시지 센터](../dev/architecture.md#transac-msg-archi) 및 는 여러 인스턴스로 구성됩니다.
+확장을 지원하고 인바운드 채널에 24/7 서비스를 제공하려면 **상호 작용** 모듈은 분산 아키텍처에서 구현됩니다. 이 유형의 아키텍처는 이미 과 함께 사용됩니다 [메시지 센터](../architecture/architecture.md#transac-msg-archi) 및 는 여러 인스턴스로 구성됩니다.
 
 * 아웃바운드 채널에 전용되며 마케팅 및 환경 디자인 베이스를 포함하는 하나 또는 여러 개의 제어 인스턴스
 * 인바운드 채널을 위한 하나 또는 여러 개의 실행 인스턴스

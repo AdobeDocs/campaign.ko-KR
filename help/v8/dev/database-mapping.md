@@ -2,9 +2,9 @@
 title: Campaign 데이터베이스 매핑
 description: Campaign 데이터베이스 매핑
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -196,9 +196,9 @@ XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 �
    </schema>
    ```
 
-### 기본 키 - 식별자
+### 기본 키 - 식별자{#primary-key}
 
-Adobe Campaign 테이블의 기본 키는 **Universally Unique ID (UUID)** 데이터베이스 엔진에서 자동으로 생성됩니다. 키 값은 전체 데이터베이스에서 고유합니다. 레코드의 삽입 시 키의 내용이 자동으로 생성됩니다.
+의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)를 지정하는 경우 Adobe Campaign 테이블의 기본 키는 **Universally Unique ID (UUID)** 데이터베이스 엔진에서 자동으로 생성됩니다. 키 값은 전체 데이터베이스에서 고유합니다. 레코드의 삽입 시 키의 내용이 자동으로 생성됩니다.
 
 **예제**
 
@@ -353,6 +353,8 @@ Federated Database Access를 사용한 조인 관계의 경우:
 * **target**: 연결된 스키마 키(&quot;cus:recipient&quot; 스키마)
 * **언바운드**: 링크는 1-N 카디널리티에 대한 수집 요소로 선언됩니다(기본적으로)
 * **무결성**: 기본적으로 &quot;define&quot;(소스 스키마의 링크 정의에 &quot;revIntegrity&quot; 속성으로 강제 지정할 수 있음).
+
+다음 사항에 유의하십시오. `autouuid="true"`매개 변수는 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md) 전용.
 
 ### 예제 2 {#example-2}
 

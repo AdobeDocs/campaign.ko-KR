@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '545'
 ht-degree: 10%
 
 ---
@@ -76,7 +76,7 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 
 >[!CAUTION]
 >
->구독 및 구독 취소는 다음과 같습니다 **비동기** 프로세스. 옵트인 및 옵트아웃 요청은 매 시간 처리됩니다. [자세히 알아보기](../dev/new-apis.md#sub-apis)
+>의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 구독 및 구독 취소 **비동기** 프로세스. 옵트인 및 옵트아웃 요청은 매 시간 처리됩니다. [자세히 알아보기](../architecture/new-apis.md#sub-apis)
 
 게재 수신자가 메시지를 친구에게 전달하도록 설정할 수도 있습니다. 이렇게 하려면 관련 링크를 게재에 삽입합니다. 그런 다음 이 공유 프로세스와 관련 페이지에 대한 방문 수를 추적할 수 있습니다.
 

@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8
 title: Campaign v8 문서
-source-git-commit: 79a9d60175b06a11cf27b44275a8ba3fe11e4d3e
+source-git-commit: d7e0635c6fccd70ed012a5b8148258383a1f6766
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 94%
+source-wordcount: '352'
+ht-degree: 88%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 94%
       + [Campaign 인터페이스 살펴보기](start/campaign-ui.md)
       + [Campaign 인터페이스 사용자 정의](start/customize-ui.md)
    + [대상자를 사용한 작업](start/audiences.md)
+   + [개인 정보 보호 요청 관리](start/privacy.md)
    + [데이터 가져오기](start/import.md)
    + [캠페인 만들기](start/campaigns.md)
    + [메시지 보내기](start/create-message.md)
@@ -34,6 +35,18 @@ ht-degree: 94%
    + [추적 및 모니터링](start/tracking.md)
    + [지표 및 보고서](start/reporting.md)
    + [FAQ](start/campaign-faq.md)
++ 아키텍처 {#architecture}
+   + [글로벌 원칙](architecture/general-architecture.md)
+   + [아키텍처](architecture/architecture.md)
+   + FDA Snowflake 배포 {#fda}
+      + [FDA-Snowflake란?](architecture/fda-deployment.md)
+   + 엔터프라이즈(FFDA) 배포 {#ffda}
+      + [Campaign FDA란?](architecture/enterprise-deployment.md)
+      + 특성 {#ffda-characteristics}
+         + [키 관리 및 독자성](architecture/keys.md)
+         + [새 API](architecture/new-apis.md)
+         + [API 스테이징 메커니즘](architecture/staging.md)
+         + [복제 메커니즘](architecture/replication.md)
 + 구현 {#implement}
    + [구현 단계](start/implement.md)
    + [인스턴스 사용자 정의](dev/customize.md)
@@ -59,7 +72,9 @@ ht-degree: 94%
    + [폴더 및 보기 관리](audiences/folders-and-views.md)
    + [모범 사례](audiences/audiences-best-practices.md)
 + 메시지 보내기{#send}
-   + [이메일](send/email.md)
+   + 이메일 {#emails}
+      + [이메일 디자인 및 보내기](send/email.md)
+      + [향상된 MTA로 보내기](send/enhanced-mta.md)
    + [SMS](send/sms.md)
    + [푸시 알림](send/push.md)
    + [LINE 메시지 보내기](send/line.md)
@@ -89,7 +104,6 @@ ht-degree: 94%
    + [활용 사례](interaction/interaction-use-cases.md)
 + 구성 {#config}
    + [워크플로우 자동화](config/workflows.md)
-   + [데이터 관리](config/replication.md)
    + [이메일 설정](config/email-settings.md)
    + [트랜잭션 메시지 설정](config/transactional-msg-settings.md)
    + [Campaign SDK와 앱 통합](config/push-config.md)
@@ -108,13 +122,10 @@ ht-degree: 94%
       + [Campaign을 SFDC와 함께 사용하기](connect/ac-sfdc.md)
       + [Campaign을 Microsoft Dynamics와 함께 사용하기](connect/ac-ms-dyn.md)
       + [데이터 동기화](connect/crm-data-sync.md)
-+ 개발자 리소스 {#architecture}
-   + [글로벌 원칙](dev/general-architecture.md)
-   + [아키텍처](dev/architecture.md)
-   + [데이터 모델](dev/datamodel.md)
++ 개발자 리소스 {#developer}
+   + [Campaign 데이터 모델](dev/datamodel.md)
    + 스키마 및 양식 {#shemas-forms}
       + [스키마 작업](dev/schemas.md)
-      + [키 관리 및 독자성](dev/keys.md)
       + [스키마 만들기](dev/create-schema.md)
       + [스키마 확장](dev/extend-schema.md)
       + [스키마 필터링](dev/filter-schema.md)
@@ -124,8 +135,6 @@ ht-degree: 94%
       + [사용자 정의 수신자 테이블 사용](dev/custom-recipient.md)
       + [데이터베이스 업데이트](dev/update-database-structure.md)
       + [입력 양식](dev/forms.md)
-   + API {#api}
-      + [시작](dev/api.md)
-      + [새 API](dev/new-apis.md)
-      + [API 스테이징 메커니즘](dev/staging.md)
+   + [Campaign API](dev/api.md)
 + [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
+

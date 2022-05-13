@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '655'
 ht-degree: 4%
 
 ---
@@ -66,9 +66,9 @@ Adobe Campaign의 기본 제공 수신자 테이블(nmsrecipient)은 데이터 �
 
 ## Campaign 테이블 및 클라우드 데이터베이스
 
-Campaign v8의 테이블 관리를 더 잘 이해하려면 Campaign과 Campaign Cloud 데이터베이스 간에 테이블이 복제됩니다.
+Campaign v8의 표 관리를 더 잘 이해하려면 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 표는 Campaign과 Snowflake Cloud 데이터베이스 간에 복제됩니다.
 
-![](../assets/do-not-localize/glass.png) 의 복제 전략 및 메커니즘에 대해 자세히 알아보십시오. [이 섹션](../config/replication.md).
+![](../assets/do-not-localize/glass.png) 의 복제 전략 및 메커니즘에 대해 자세히 알아보십시오. [이 섹션](../architecture/replication.md).
 
 **관련 항목**
 

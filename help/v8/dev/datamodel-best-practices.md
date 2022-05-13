@@ -2,9 +2,9 @@
 title: 데이터 모델 모범 사례
 description: Campaign 데이터 모델 확장 모범 사례 학습
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '2683'
+source-wordcount: '2717'
 ht-degree: 4%
 
 ---
@@ -73,13 +73,9 @@ Adobe Campaign에서 속성을 필요로 하는지 여부를 결정하려면 속
 
 효율적인 키는 성능에 필수입니다. Snowflake을 사용하여 숫자 또는 문자열 기반 데이터 유형을 표의 키로 삽입할 수 있습니다.
 
-<!-- ### Dedicated tablespaces {#dedicated-tablespaces}
-
-The tablespace attribute in the schema allows you to specify a dedicated tablespace for a table.
-
-The installation wizard allows you to store objects by type (data, temporary).
-
-Dedicated tablespaces are better for partitioning, security rules, and allow fluid and flexible administration, better optimization, and performance. -->
+>[!NOTE]
+>
+>다음 **autouid** 속성만 적용됩니다. [엔터프라이즈(FDA) 배포](../architecture/enterprise-deployment.md).
 
 ## 식별자 {#identifiers}
 
@@ -93,7 +89,7 @@ Adobe Campaign 리소스에는 세 개의 식별자가 있으며 추가 식별�
 | 이름(또는 내부 이름) | <ul><li>이 정보는 테이블의 레코드의 고유 식별자입니다. 이 값은 일반적으로 생성된 이름으로 수동으로 업데이트할 수 있습니다.</li><li>이 식별자는 Adobe Campaign의 다른 인스턴스에 배포할 때 값을 유지하며 비워 둘 수 없습니다.</li></ul> | <ul><li>객체가 환경에서 다른 환경으로 배포하려는 경우 Adobe Campaign에서 생성한 레코드 이름의 이름을 변경합니다.</li><li>개체에 네임스페이스 특성(*스키마* 예를 들어) 이 공통 네임스페이스는 생성된 모든 사용자 지정 개체에서 활용됩니다. 일부 예약된 네임스페이스는 사용하지 않아야 합니다. *nms*, *xtk*&#x200B;등  일부 네임스페이스는 내부용입니다. [자세히 알아보기](schemas.md#reserved-namespaces)</li><li>개체에 네임스페이스가 없는 경우(*워크플로우* 또는 *게재* 예를 들어) 이 네임스페이스 개념은 내부 이름 개체의 접두사로 추가됩니다. *namespaceMyObjectName*.</li><li>공백 &quot;&quot;, 세미열 &quot;:&quot; 또는 하이픈 &quot;-&quot;과 같은 특수 문자는 사용하지 마십시오. 이러한 모든 문자는 밑줄 &quot;_&quot;(허용되는 문자)로 바뀝니다. 예를 들어 &quot;abc-def&quot; 및 &quot;abc:def&quot;는 &quot;abc_def&quot;로 저장되고 서로 덮어씁니다.</li></ul> |
 | 레이블 | <ul><li>레이블은 Adobe Campaign에 있는 개체 또는 레코드의 비즈니스 식별자입니다.</li><li>이 개체에는 공백 및 특수 문자가 허용됩니다.</li><li>그것은 레코드의 고유성을 보장하지 않습니다.</li></ul> | <ul><li>개체 레이블의 구조를 결정하는 것이 좋습니다.</li><li>Adobe Campaign 사용자의 레코드 또는 개체를 식별하는 데 가장 사용자 친화적인 솔루션입니다.</li></ul> |
 
-Adobe Campaign 기본 키는 모든 기본 테이블에 대해 자동 생성된 UUID입니다. 사용자 지정 테이블에 UUID를 사용할 수도 있습니다. [자세히 알아보기](keys.md)
+의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), Adobe Campaign 기본 키는 모든 기본 테이블에 대해 자동 생성된 UUID입니다. 사용자 지정 테이블에 UUID를 사용할 수도 있습니다. [자세히 알아보기](../architecture/keys.md)
 
 ID 수가 무한하더라도 최적의 성능을 보장하기 위해 데이터베이스 크기를 관리해야 합니다. 문제를 방지하려면 인스턴스 제거 설정을 조정해야 합니다. 자세한 내용은 [이 섹션](#data-retention)을 참조하십시오.
 
@@ -112,7 +108,9 @@ ID 수가 무한하더라도 최적의 성능을 보장하기 위해 데이터�
 
 >[!CAUTION]
 >
->워크플로우에서 autouid를 참조로 사용해서는 안 됩니다.
+>* 워크플로우에서 autouid를 참조로 사용해서는 안 됩니다.
+> * 다음 **autouid** 속성만 적용됩니다. [엔터프라이즈(FDA) 배포](../architecture/enterprise-deployment.md).
+>
 
 
 ## 링크 및 카디널리티 {#links-and-cardinality}
@@ -121,7 +119,7 @@ ID 수가 무한하더라도 최적의 성능을 보장하기 위해 데이터�
 
 큰 테이블에 있는 &quot;자체&quot; 무결성을 주의하십시오. &quot;자체&quot; 무결성에 큰 테이블이 있는 레코드를 삭제하면 인스턴스가 중지될 수 있습니다. 테이블이 잠겼고, 한 테이블씩 삭제한다. 따라서 용량이 큰 하위 테이블에서 &quot;중립&quot; 무결성을 사용하는 것이 가장 좋습니다.
 
-링크를 외부 조인으로 선언하는 것은 성능에 좋지 않습니다. 0ID 레코드는 외부 조인 기능을 에뮬레이션합니다. 링크가 **autouid**.
+링크를 외부 조인으로 선언하는 것은 성능에 좋지 않습니다. 0ID 레코드는 외부 조인 기능을 에뮬레이션합니다. 의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)를 사용하는 경우 외부 조인을 선언할 필요가 없습니다 **autouid**.
 
 워크플로우에서 테이블을 조인할 수 있지만 Adobe은 데이터 구조 정의에서 직접 리소스 간의 공통 링크를 정의하는 것을 권장합니다.
 

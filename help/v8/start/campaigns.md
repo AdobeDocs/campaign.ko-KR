@@ -5,10 +5,10 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 36b7a7be766febca4448c6114f5acac35e30873a
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 100%
+source-wordcount: '905'
+ht-degree: 82%
 
 ---
 
@@ -18,13 +18,13 @@ Adobe Campaign은 온라인과 오프라인의 모든 채널에서 캠페인을 
 
 캠페인에는 작업(게재) 및 프로세스(파일 가져오기 또는 추출)와 리소스(마케팅 문서, 게재 아웃라인)가 포함됩니다. 마케팅 캠페인에서 사용됩니다. 캠페인은 프로그램의 일부이며 프로그램은 캠페인 플랜에 포함됩니다.
 
-## 크로스 채널 캠페인 오케스트레이션
+## 크로스 채널 캠페인 오케스트레이션{#cross-channel-orchestration}
 
 Adobe Campaign을 사용하면 타기팅되고 개인화된 캠페인을 이메일, DM, SMS, 푸시 알림과 같은 다양한 채널에 디자인 및 오케스트레이션 할 수 있습니다. 단일 인터페이스는 모든 캠페인 및 커뮤니케이션을 일정 계획, 오케스트레이션, 구성, 개인화, 자동화, 실행 및 측정하는 데 필요한 모든 기능을 제공합니다.
 
 ![](assets/campaign-tab.png)
 
-### 핵심 개념
+### 핵심 개념{#ac-core-concepts}
 
 마케팅 캠페인을 구현하기 전에 다음 개념에 익숙해야 합니다.
 
@@ -40,7 +40,7 @@ Adobe Campaign을 사용하면 타기팅되고 개인화된 캠페인을 이메�
 
 * **정기 캠페인**: 정기 캠페인은 템플릿의 실행 일정에 따라 자동으로 생성되는 캠페인입니다.
 
-## 마케팅 캠페인 작업 영역
+## 마케팅 캠페인 작업 영역{#ac-workspace}
 
 Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠페인을 생성, 구성, 실행 및 분석할 수 있습니다.
 
@@ -49,7 +49,7 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 ![](../assets/do-not-localize/book.png) 마케팅 캠페인 액세스 및 구현 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=ko#orchestrating-campaigns){target=&quot;_blank&quot;}
 
 
-## 주요 시작 단계
+## 주요 시작 단계{#gs-ac-start}
 
 크로스 채널 마케팅 캠페인을 만들기 위한 주요 단계는 다음과 같습니다.
 
@@ -90,4 +90,25 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
    Adobe Campaign을 사용하면 마케팅 캠페인의 주요 단계에 대한 협업 승인 프로세스를 설정할 수 있습니다. 각 캠페인에 대해 게재 대상, 콘텐츠 및 비용을 승인할 수 있습니다. 승인을 담당하는 Adobe Campaign 운영자는 이메일로 통보를 받을 수 있으며 콘솔 또는 웹 연결을 통해 승인을 수락하거나 거부할 수 있습니다.
 
    ![](../assets/do-not-localize/book.png) 승인 설정 및 관리 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=ko#orchestrating-campaigns){target=&quot;_blank&quot;}
+
+
+## 분산 마케팅 추가 기능{#distributed-marketing-add-on}
+
+Adobe Campaign에서 제공하는 기능 **분산 마케팅** 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 캠페인을 구현하는 추가 기능 및 지역(상점, 지역 등)은 이러한 협력은 **[!UICONTROL List of campaign packages]**: 중앙 엔티티가 디자인한 캠페인 템플릿이 로컬 엔티티에 제공됩니다.
+
+>[!NOTE]
+>
+>이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+
+[](../assets/do-not-localize/book.png) 에서 Campaign Distributed Marketing 기능을 구성하고 사용하는 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html){target=&quot;_blank&quot;}
+
+## 분산 마케팅 추가 기능{#response-manager-add-on}
+
+Adobe Campaign에서 제공하는 기능 **응답 관리** 마케팅 캠페인의 성공 및 수익성을 측정하거나 커뮤니케이션 채널 간에 제안을 제공할 수 있는 추가 기능입니다. 이메일, 모바일, DM 등
+
+>[!NOTE]
+>
+>이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+
+[](../assets/do-not-localize/book.png) 에서 캠페인 응답 관리자를 구성하고 사용하는 방법을 알아봅니다 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html){target=&quot;_blank&quot;}
 

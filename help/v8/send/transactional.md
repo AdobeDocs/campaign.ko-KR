@@ -5,18 +5,18 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: ec044d6176b4d00302d7a7e24520b97669bede49
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1827'
 ht-degree: 2%
 
 ---
 
 # 트랜잭션 메시지 시작{#send-transactional-messages}
 
-트랜잭션 메시지(메시지 센터)는 트리거 메시지를 관리하기 위해 설계된 캠페인 모듈입니다. 이러한 메시지는 정보 시스템에서 트리거된 이벤트에서 생성되며 다음을 수행할 수 있습니다. 예를 들어 송장, 주문 확인, 출하 확인, 비밀번호 변경, 제품 미가용성 통지, 계정명세서 또는 웹사이트 계정 생성 등이 있습니다.
+트랜잭션 메시지(메시지 센터)는 트리거 메시지를 관리하기 위해 설계된 캠페인 모듈입니다. 이러한 알림은 정보 시스템에서 트리거되는 이벤트에서 생성되며 다음을 수행할 수 있습니다. 송장, 주문 확인, 배송 확인, 암호 변경, 제품 비가용성 알림, 계정 명세서, 웹 사이트 계정 생성 등
 
-![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자로, [연락처 Adobe](../start/campaign-faq.md#support) 를 사용 중인 환경에 Campaign 트랜잭션 메시지를 설치하고 구성하려면 다음을 수행하십시오.
+![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자로, [연락처 Adobe](../start/campaign-faq.md#support)환경에 Campaign 트랜잭션 메시지를 설치하고 구성하려면 {target=&quot;_blank&quot;}을(를) 사용합니다.
 
 트랜잭션 메시지는 보내는 데 사용됩니다.
 
@@ -26,13 +26,58 @@ ht-degree: 2%
 
 ![](../assets/do-not-localize/glass.png) 트랜잭션 메시지 설정은 [이 섹션](../config/transactional-msg-settings.md).
 
-![](../assets/do-not-localize/glass.png) 의 트랜잭션 메시지 아키텍처 이해 [이 페이지](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) 트랜잭션 메시지 아키텍처 이해 [이 페이지](../architecture/architecture.md).
 
->[!CAUTION]
+## 트랜잭션 메시지 작동 원리 {#transactional-messaging-operating-principle}
+
+Adobe Campaign 트랜잭션 메시지 모듈은 개인화된 트랜잭션 메시지로 변경할 이벤트를 반환하는 정보 시스템에 통합됩니다. 이러한 메시지는 개별적으로 또는 이메일, SMS 또는 푸시 알림을 통해 일괄적으로 전송할 수 있습니다.
+
+예를 들어 고객이 제품을 구입할 수 있는 웹 사이트가 있는 회사를 생각해 보십시오.
+
+Adobe Campaign을 사용하면 장바구니에 제품을 추가한 고객에게 알림 이메일을 보낼 수 있습니다. 구매(캠페인 이벤트를 트리거하는 외부 이벤트)를 완료하지 않고 웹 사이트를 떠나면 장바구니 중단 이메일을 자동으로 보냅니다(트랜잭션 메시지 게재).
+
+이 작업을 수행하는 주요 단계는 아래에 자세히 설명되어 있습니다.
+
+1. [이벤트 유형 만들기](#create-event-types).
+1. [메시지 템플릿 만들기 및 디자인](#create-message-template). 이 단계 동안 이벤트를 메시지에 연결해야 합니다.
+1. [메시지 테스트](#test-message-template).
+1. [메시지 템플릿을 게시합니다](#publish-message-template).
+
+트랜잭션 메시지 템플릿을 디자인하고 게시하면 해당 이벤트가 트리거되는 경우 PushEvent 및 PushEvents를 통해 관련 데이터가 Campaign으로 전송됩니다 [SOAP 메서드](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target=&quot;_blank&quot;} 이고 배달이 타겟팅된 수신자에게 전송됩니다.
+
+## 이벤트 유형 만들기 {#create-event-types}
+
+각 이벤트를 개인화된 메시지로 변경할 수 있도록 먼저 다음을 만들어야 합니다 **이벤트 유형**.
+
+When [메시지 템플릿 만들기](#create-message-template)을 지정하면 전송할 메시지와 일치하는 이벤트 유형을 선택합니다.
+
+>[!IMPORTANT]
 >
->트랜잭션 메시징에는 특정 라이센스가 필요합니다. 사용권 계약을 확인하십시오.
+>이벤트 유형을 메시지 템플릿에서 사용하기 전에 만들어야 합니다.
 
-## 트랜잭션 메시지 템플릿 정의
+Adobe Campaign에서 처리할 이벤트 유형을 만들려면 아래 단계를 수행하십시오.
+
+1. 에 로그인합니다. **제어 인스턴스**.
+
+1. 로 이동합니다. **[!UICONTROL Administration > Platform > Enumerations]** 트리의 폴더.
+
+1. 선택 **[!UICONTROL Event type]** 참조하십시오.
+
+1. 클릭 **[!UICONTROL Add]** 열거형 값을 만들려면 주문 확인, 암호 변경, 주문 전달 변경 등이 가능합니다.
+
+   <!--![](assets/messagecenter_eventtype_enum_001.png)-->
+
+   >[!IMPORTANT]
+   >
+   >각 이벤트 유형은 **[!UICONTROL Event type]** 열거형.
+
+1. 항목별 목록 값이 만들어지면 작성이 유효하도록 인스턴스에 로그오프했다가 다시 로그온합니다.
+
+>[!NOTE]
+>
+>의 항목별 목록에 대해 자세히 알아보십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+
+## 트랜잭션 메시지 템플릿 정의 {#create-message-template}
 
 각 이벤트는 개인화된 메시지를 트리거할 수 있습니다. 이 경우 각 이벤트 유형과 일치하는 메시지 템플릿을 만들어야 합니다. 템플릿에는 트랜잭션 메시지를 개인화하는 데 필요한 정보가 포함되어 있습니다. 템플릿을 사용하여 최종 타겟에 게재하기 전에 메시지 미리 보기를 테스트하고 시드 주소를 사용하여 증명을 전송할 수도 있습니다.
 
@@ -54,9 +99,9 @@ ht-degree: 2%
 
    ![](assets/messagecenter_create_model_003.png)
 
-   Adobe Campaign에서 처리하도록 지정된 이벤트 유형은 Adobe이 제어 인스턴스에서 만들어야 합니다.
+   Adobe Campaign에서 처리하도록 지정된 이벤트 유형은 미리 만들어야 합니다.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >이벤트 유형은 두 개 이상의 템플릿에 연결할 수 없습니다.
 
@@ -91,6 +136,8 @@ ht-degree: 2%
 1. 다음 구문을 사용하여 태그를 채웁니다. **요소 이름**.@**속성 이름** 아래와 같이 표시됩니다.
 
    ![](assets/messagecenter_create_custo_2.png)
+
+## 트랜잭션 메시지 템플릿 테스트 {#test-message-template}
 
 ### 시드 주소 추가{#add-seeds}
 
@@ -174,7 +221,7 @@ ht-degree: 2%
 
 ![](assets/messagecenter_send_proof_003.png)
 
-### 템플릿 게시
+## 템플릿 게시 {#publish-message-template}
 
 컨트롤 인스턴스에서 만든 메시지 템플릿이 완료되면 게시할 수 있습니다. 이 프로세스는 모든 실행 인스턴스에도 게시합니다.
 
@@ -206,8 +253,7 @@ ht-degree: 2%
 >
 >그러나 비어 있지 않은 값을 추가하는 경우 다음 게시 후 해당 필드가 평소대로 업데이트됩니다.
 
-
-### 템플릿 게시 취소
+## 템플릿 게시 취소
 
 메시지 템플릿이 실행 인스턴스에 게시되면 게시 취소할 수 있습니다.
 

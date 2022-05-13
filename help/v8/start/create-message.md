@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+source-git-commit: 79a220ad9c9c372b64db9a33efc1843c95a2a619
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 100%
@@ -34,7 +34,7 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 * **LINE channel**: LINE deliveries let you send messages on LINE, an instant messaging application available on all smartphones. Learn more in [this page](../send/line.md)
 -->
 
-## 메시지를 보내는 방법 선택
+## 메시지를 보내는 방법 선택{#gs-send-msg}
 
 메시지가 만들어지고 컨텐츠가 디자인되고 테스트되면 메시지 전송 방법을 선택할 수 있습니다. Campaign은 다음과 같은 여러 가지 기능을 제공합니다.
 
@@ -66,7 +66,7 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
    ![](../assets/do-not-localize/book.png) [사용 사례:생일 축하 이메일을 예약하고 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=ko){target=&quot;_blank&quot;}
 
 
-## 개인화 추가
+## 개인화 추가{#personalization}
 
 Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화할 수 있습니다.
 
@@ -79,17 +79,17 @@ Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화�
 * 조건부 콘텐츠를 만듭니다.
    ![](../assets/do-not-localize/book.png) 조건부 콘텐츠를 삽입하는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=ko){target=&quot;_blank&quot;}
 
-## 트랜잭션 메시지를 보냅니다.
+## 트랜잭션 메시지를 보냅니다.{#gs-transac-messages}
 
 트랜잭션 메시지(메시지 센터)는 트리거 메시지를 관리하기 위해 고안된 캠페인 모듈입니다.
 
-![](../assets/do-not-localize/glass.png) 트랜잭션 메시지 기능 자세히 알아보기: [이 섹션](../dev/architecture.md#transac-msg-archi)
+![](../assets/do-not-localize/glass.png) 트랜잭션 메시지 기능 자세히 알아보기: [이 섹션](../architecture/architecture.md#transac-msg-archi)
 
 ![](../assets/do-not-localize/glass.png) 트랜잭션 메시지를 구성하고 보내는 자세한 단계: [이 페이지](../send/transactional.md)
 
 ![](../assets/do-not-localize/book.png) 이 기능의 엔드 투 엔드 활용 사례: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ko){target=&quot;_blank&quot;}
 
-## 게재 및 추적 로그
+## 게재 및 추적 로그{#gs-tracking-logs}
 
 메시지를 게재한 후 마케팅 캠페인이 효율적이고 고객에게 도달하는지 확인하는 데 있어 게재 모니터링은 중요한 단계입니다. 게재 후 모니터링은 물론 게재 실패와 검역된 메시지가 어떻게 관리되는지 파악할 수 있습니다.
 

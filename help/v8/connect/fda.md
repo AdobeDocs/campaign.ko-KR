@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
+source-git-commit: 355b9219ffd9d481d15d2d0982d49923842cc27b
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1699'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,11 @@ FDA 커넥터(Federated Data Access)를 사용하여 Campaign을 하나 이상 �
 
 >[!NOTE]
 >
->FDA용 호환 데이터베이스는 [호환성 매트릭스](../start/compatibility-matrix.md).
+>* FDA용 호환 데이터베이스는 [호환성 매트릭스](../start/compatibility-matrix.md).
+>
+>* 의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)인 경우 Campaign 로컬 데이터베이스와 Snowflake 클라우드 데이터베이스 간의 통신을 관리하는 데 특정 외부 계정을 사용할 수 있습니다. 이 외부 계정은 Adobe이 설정하므로 수정할 수 없습니다.
+>
+
 
 Campaign FDA 옵션을 사용하면 데이터 모델을 타사 데이터베이스에서 확장할 수 있습니다. 대상 테이블의 구조를 자동으로 감지하고 SQL 소스의 데이터를 사용합니다.
 
@@ -56,7 +60,12 @@ FDA를 사용하여 외부 데이터베이스에 대한 액세스를 설정하�
 1. Adobe Managed Services 사용자는 Adobe에 문의하여 Campaign 인스턴스에 드라이버를 설치하십시오.
 1. 드라이버가 설치되면 Adobe Campaign 서버에서 데이터베이스에 해당하는 외부 계정을 설정하고 외부 계정을 테스트합니다. [자세히 알아보기](#fda-external-account)
 1. Adobe Campaign에서 외부 데이터베이스의 스키마를 만듭니다. 외부 데이터베이스의 데이터 구조를 식별할 수 있습니다. [자세히 알아보기](#create-data-schema)
-1. 필요한 경우 이전에 만든 스키마에서 새 대상 매핑을 만듭니다. 게재 수신자가 외부 데이터베이스에서 온 경우 필요합니다. 이 구현에는 메시지 개인화와 관련된 제한 사항이 포함되어 있습니다. [자세히 알아보기](#define-data-mapping)
+
+<!--
+1. If needed, create a new target mapping from the previously created schema. This is required if the recipients of your deliveries come from the external database. This implementation comes with limitations related to message personalization. [Learn more](#define-data-mapping)
+-->
+
+Campaign을 사용하면 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)FDA에서 액세스하는 외부 데이터베이스에 저장된 스키마에서 대상 매핑을 만들 수 없습니다. 따라서 게재 수신자는 외부 데이터베이스에서 가져올 수 없습니다.
 
 ## 외부 데이터베이스 외부 계정{#fda-external-account}
 
@@ -121,39 +130,40 @@ Adobe Campaign에서 외부 데이터베이스의 스키마를 만들려면 아�
 
 1. 클릭 **[!UICONTROL Save]** 을 클릭하여 만들기를 확인합니다.
 
-## 대상 매핑 정의{#define-data-mapping}
+<!-- 
+## Define the target mapping{#define-data-mapping}
 
-외부 테이블의 데이터에 대한 매핑을 정의할 수 있습니다.
+You can define a mapping on the data in an external table.
 
-이렇게 하려면 외부 테이블의 스키마가 만들어지면 이 테이블의 데이터를 게재 대상으로 사용하려면 새 게재 매핑을 만들어야 합니다.
+To do this, once the schema of the external table has been created, you need to create a new delivery mapping to use the data in this table as a delivery target.
 
-이렇게 하려면 다음 단계를 수행합니다.
+To do this, follow these steps:
 
-1. 찾아보기 **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** Adobe Campaign 탐색기 을 통해 검색할 수 있습니다.
+1. Browse to **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** from Adobe Campaign explorer.
 
-1. 새 대상 매핑을 만들고 타깃팅 차원으로 방금 만든 스키마를 선택합니다.
+1. Create a new target mapping and select the schema you just created as the targeting dimension.
 
    ![](assets/new-target-mapping.png)
 
 
-1. 게재 정보가 저장되는 필드(성, 이름, 이메일, 주소 등)를 지정합니다.
+1. Indicate the fields where the delivery information is stored (last name, first name, email, address, etc.).
 
    ![](assets/wf_new_mapping_define_join.png)
 
-1. 확장 스키마의 접미사를 포함하여 정보 저장 영역에 대한 매개 변수를 지정하여 쉽게 식별할 수 있습니다.
+1. Specify the parameters for information storage, including the suffix of the extension schemas for them to be easily identifiable.
 
    ![](assets/wf_new_mapping_define_names.png)
 
-   제외( )를 저장할지 여부를 선택할 수 있습니다&#x200B;**제외 로그**), 메시지( )**broadlog**) 또는 를 포함할 수도 있습니다.
+   You can choose whether to store exclusions (**excludelog**), with messages (**broadlog**) or in a separate table.
 
-   이 게재 매핑에 대한 추적을 관리할지 여부를 선택할 수도 있습니다(**trackinglog**).
+   You can also choose whether to manage tracking for this delivery mapping (**trackinglog**).
 
-1. 그런 다음 고려할 확장을 선택합니다. 확장 유형은 플랫폼의 매개 변수 및 옵션에 따라 다릅니다(라이센스 계약 보기).
+1. Then select the extensions to be taken into account. The extension type depends on your platform's parameters and options (view your license contract).
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   을(를) 클릭합니다. **[!UICONTROL Save]** 버튼 - 게재 매핑 생성 시작: 연결된 모든 테이블은 선택한 매개변수를 기준으로 자동으로 생성됩니다.
-
+   Click the **[!UICONTROL Save]** button to launch delivery mapping creation: all linked tables are created automatically based on the selected parameters.
+-->
 
 ## 사용 권한{#fda-permissions}
 

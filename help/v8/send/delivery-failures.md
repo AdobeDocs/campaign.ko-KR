@@ -5,16 +5,18 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: c316da3c431e42860c46b5a23c73a7c129abf3ac
+source-git-commit: 1ff06c69a4118afa228522d580dd5caa36a69275
 workflow-type: tm+mt
-source-wordcount: '3106'
+source-wordcount: '2849'
 ht-degree: 6%
 
 ---
 
-# 게재 실패 이해{#delivery-failures}
+# 게재 실패 이해 {#delivery-failures}
 
-바운스는 ISP가 백 실패 알림을 제공하는 게재 시도 및 실패 결과입니다. 반송 처리 처리는 목록 위생의 중요한 부분입니다. 지정된 이메일이 한 행에서 여러 번 바운스된 후 이 프로세스는 제외를 위해 플래그를 지정합니다. 이 프로세스에서는 시스템에서 잘못된 이메일 주소를 계속 전송할 수 없습니다. 바운스는 ISP가 IP 평판을 결정하는 데 사용하는 주요 데이터 중 하나입니다. 이 지표를 확인하는 것은 중요합니다. &quot;게재됨&quot;과 &quot;바운스됨&quot;은 마케팅 메시지 전달을 측정하는 가장 일반적인 방법입니다. 전달된 비율이 높을수록 좋습니다.
+바운스는 ISP가 백 실패 알림을 제공하는 게재 시도 및 실패 결과입니다. 반송 처리 처리는 목록 위생의 중요한 부분입니다. 지정된 이메일이 한 행에서 여러 번 바운스된 후 이 프로세스는 제외를 위해 플래그를 지정합니다.
+
+이 프로세스에서는 시스템에서 잘못된 이메일 주소를 계속 전송할 수 없습니다. 바운스는 ISP가 IP 평판을 결정하는 데 사용하는 주요 데이터 중 하나입니다. 이 지표를 확인하는 것은 중요합니다. &quot;게재됨&quot;과 &quot;바운스됨&quot;은 마케팅 메시지 전달을 측정하는 가장 일반적인 방법입니다. 전달된 비율이 높을수록 좋습니다.
 
 프로필에 메시지를 보낼 수 없는 경우 원격 서버는 오류 메시지를 Adobe Campaign에 자동으로 전송합니다. 이 오류는 이메일 주소, 전화 번호 또는 장치를 격리할지 여부를 결정할 수 있습니다. 자세한 내용은 [반송 메일 관리](#bounce-mail-qualification).
 
@@ -24,66 +26,21 @@ ht-degree: 6%
 
 ## 메시지 배달이 실패한 이유 {#delivery-failure-reasons}
 
-메시지가 실패하면 두 가지 유형의 오류가 있습니다. 각 오류 유형은 주소가 [격리](quarantines.md#quarantine-reason) 아님 아님
-
+메시지가 실패하면 두 가지 유형의 오류가 있습니다. 각 게재 실패 유형은 주소가 [격리](quarantines.md#quarantine-reason) 아님 아님
 
 * **하드 바운스 수**
-하드 바운스는 ISP가 배달할 수 없는 가입자 주소에 대한 메일링 시도를 결정한 후 생성된 영구 실패입니다. Adobe Campaign 내에서, 전달할 수 없는 것으로 분류된 하드 바운스가 격리에 추가되므로 다시 시도하지 않습니다. 실패의 원인을 알 수 없는 경우 하드 바운스가 무시되는 경우가 있습니다.
+하드 바운스는 ISP가 배달할 수 없는 가입자 주소에 대한 메일링 시도를 결정한 후 생성된 영구 실패입니다. Adobe Campaign 내에서, 전달할 수 없는 것으로 분류된 하드 바운스가 격리 목록에 추가되므로 다시 시도하지 않습니다. 실패의 원인을 알 수 없는 경우 하드 바운스가 무시되는 경우가 있습니다.
 
    다음은 하드 바운스의 몇 가지 일반적인 예입니다. 주소가 존재하지 않음, 계정이 비활성화됨, 잘못된 구문, 잘못된 도메인
 
-
 * **소프트 바운스**
-소프트 바운스는 ISP가 메일을 배달하기 어려울 때 생성하는 일시적인 실패입니다. 소프트 실패는 성공적인 게재를 시도하기 위해 여러 번(사용자 지정 또는 기본 제공 게재 설정의 사용에 따라 차이)을 재시도합니다. 최대 다시 시도 횟수를 시도할 때까지 계속해서 소프트 바운스를 격리에 추가하는 주소는 설정에 따라 다시 달라집니다.
+소프트 바운스는 ISP가 메일을 배달하기 어려울 때 생성하는 일시적인 실패입니다. 소프트 실패 [다시 시도](#retries) 성공적으로 전달을 시도하기 위해 여러 번(사용자 지정 또는 기본 제공 게재 설정의 사용에 따라 차이가 있음). 최대 다시 시도 횟수를 시도할 때까지 계속해서 소프트 바운스를 격리에 추가하는 주소는 설정에 따라 다시 달라집니다.
 
    소프트 바운스의 몇 가지 일반적인 원인은 다음과 같습니다. 사서함 가득 참, 전자 메일 서버 작동 중지, 보낸 사람 신뢰도 문제
 
-
 다음  **무시됨** 오류 유형은 &quot;부재 중&quot;과 같이 일시적인 것으로 알려져 있고, 예를 들어 발신자 유형이 &quot;postmaster&quot;인 경우와 같이 기술적인 오류입니다.
 
-
-
-### 반송 메일 조건 {#bounce-mail-qualification}
-
-Campaign에서 게재 실패를 평가하는 데 사용하는 규칙은 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 노드 아래에 있어야 합니다. 이 분류는 완벽하지 않으며, Adobe Campaign에 의해 정기적으로 업데이트되며, 사용자가 관리할 수도 있습니다.
-
-![](assets/delivery-log-qualification.png)
-
-에서 바운스 자격 **[!UICONTROL Delivery log qualification]** 표는 다음 용도로 사용되지 않습니다. **동기** 게재 실패 오류 메시지. 모멘텀은 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 전송합니다.
-
-**비동기** 바운스는 를 통해 inMail 프로세스에 의해 검증됩니다. **[!UICONTROL Inbound email]** 규칙.
-
-이 오류 유형의 첫 번째 발생 시 원격 서버에서 반환한 메시지가 **[!UICONTROL First text]** 열 **[!UICONTROL Audit]** 탭.
-
-![](assets/delivery-log-first-txt.png)
-
-Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날짜, 이메일 주소, 전화번호 등)를 삭제합니다. 및 는 필터링된 결과를 **[!UICONTROL Text]** 열. 변수가 **`#xxx#`**&#x200B;으로 대체된 주소를 제외하고 **`*`**.
-
-이 프로세스를 사용하면 동일한 유형의 모든 오류를 함께 가져올 수 있고, 게재 로그 자격 테이블에서 유사한 오류에 대한 여러 항목을 방지할 수 있습니다.
-
->[!NOTE]
->
->다음 **[!UICONTROL Number of occurrences]** 필드는 목록에서 메시지 발생 횟수를 표시합니다. 최대 100,000회 발생 횟수로 제한됩니다. 예를 들어 필드를 재설정하려면 필드를 편집할 수 있습니다.
-
-바운스 메일의 자격 상태는 다음과 같습니다.
-
-* **[!UICONTROL To qualify]** : 바운스 메일을 검증하지 못했습니다. 효율적인 플랫폼 게재 능력을 보장하려면 게재 가능성 팀에 자격을 할당해야 합니다. 자격이 없는 한 반송 메일은 이메일 관리 규칙 목록을 보강하는 데 사용되지 않습니다.
-* **[!UICONTROL Keep]** : 바운스 메일이 유효했으며 **게재 능력을 위해 새로 고침** 기존 이메일 관리 규칙과 비교하고 목록을 보강하는 워크플로우입니다.
-* **[!UICONTROL Ignore]** : 바운스 메일이 무시되었습니다. 즉, 이 바운스로 인해 받는 사람의 주소가 격리되지 않습니다. 이 함수는 **게재 능력을 위해 새로 고침** 워크플로우가 있고 클라이언트 인스턴스로 전송되지 않습니다.
-
-![](assets/delivery-log-status.png)
-
-
->[!NOTE]
->
->ISP가 중단되면 Campaign을 통해 보낸 이메일이 바운스로 잘못 표시됩니다. 이를 수정하려면 반송 조건을 업데이트해야 합니다.
-
-
-## 관리 다시 시도 {#retries}
-
-일시적인 오류( )로 인해 메시지 배달이 실패하는 경우&#x200B;**소프트** 또는 **무시됨**), CAmpaign 다시 시도를 전송합니다. 이러한 다시 시도는 게재 기간이 끝날 때까지 수행할 수 있습니다. 다시 시도 횟수와 빈도는 메시지의 ISP에서 돌아오는 반송 응답의 유형과 심각도를 기반으로, Moument에 의해 설정됩니다.
-
-기본 구성은 1시간 간격으로 5회의 다시 시도를 정의한 후 4일 동안 하루에 1회 다시 시도합니다. 다시 시도 횟수는 전역적으로 또는 각 게재 또는 게재 템플릿에 대해 변경할 수 있습니다. 게재 기간 및 다시 시도를 조정해야 하는 경우 Adobe 지원에 문의하십시오.
+피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에 대한 모든 게재를 차단할 수 있습니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않더라도 차단 목록에 추가된으로 제공됩니다. 주소는 (**NmsAddress**) 격리 테이블을 사용할 수 없습니다. (**NmsRecipient**) 수신자 테이블과 **[!UICONTROL Denylisted]** 상태. 의 피드백 루프 메커니즘에 대해 자세히 알아보십시오 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
 
 ## 동기 및 비동기 오류 {#synchronous-and-asynchronous-errors}
 
@@ -91,17 +48,58 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날
 
 이러한 유형의 오류는 다음과 같이 관리됩니다.
 
-* **동기 오류**: Adobe Campaign 게재 서버가 접속한 원격 서버는 오류 메시지를 즉시 반환하므로 게재를 프로필 서버로 보낼 수 없습니다. Adobe Campaign은 각 오류를 확인하여 관련 이메일 주소를 격리할지 여부를 결정합니다. [반송 메일 조건](#bounce-mail-qualification)을 참조하십시오.
+* **동기 오류**: Adobe Campaign 게재 서버가 접속한 원격 서버는 오류 메시지를 즉시 반환합니다. 게재를 프로필 서버로 보낼 수 없습니다. Enhanced MTA가 반송 유형을 결정하고 오류를 판별하고 해당 정보를 Campaign으로 다시 전송하여 관련 이메일 주소를 격리할지 여부를 결정합니다. [반송 메일 조건](#bounce-mail-qualification)을 참조하십시오.
 
 * **비동기 오류**: 반송 메일 또는 SR은 나중에 수신 서버에 의해 다시 전송됩니다. 이 오류는 오류와 관련된 레이블로 검증됩니다. 게재를 보낸 후 1주일까지 비동기 오류가 발생할 수 있습니다.
 
-   >[!NOTE]
-   >
-   >Managed Services 사용자는 바운스 사서함을 Adobe에 의해 구성합니다.
+>[!NOTE]
+>
+>Managed Services 사용자는 바운스 사서함을 Adobe에 의해 구성합니다.
 
-   피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에 대한 모든 게재를 차단할 수 있습니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 차단 목록 않았더라도 설정 중입니다. 주소는 ()차단 목록에 있습니다.**NmsAddress**) 격리 테이블이며 (**NmsRecipient**) 수신자 테이블. 에서 피드백 루프 메커니즘에 대해 자세히 알아보십시오 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
+## 반송 메일 조건 {#bounce-mail-qualification}
+
+<!--NO LONGER WITH MOMENTUM - Rules used by Campaign to qualify delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
+
+![](assets/delivery-log-qualification.png)-->
+
+현재 Adobe Campaign에서 반송 메일 자격을 처리하는 방법은 오류 유형에 따라 다릅니다.
+
+* **동기 오류**: Enhanced MTA가 반송 유형 및 조건을 결정하고 해당 정보를 Campaign으로 다시 전송합니다. 에서 바운스 자격 **[!UICONTROL Delivery log qualification]** 표는 다음 용도로 사용되지 않습니다. **동기** 게재 실패 오류 메시지.
+
+* **비동기 오류**: Campaign이 비동기 게재 실패를 평가하는 데 사용하는 규칙은 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 노드 아래에 있어야 합니다. 비동기 바운스는 를 통해 inMail 프로세스에 의해 검증됩니다. **[!UICONTROL Inbound email]** 규칙. 자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}.
+
+<!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
+
+![](assets/delivery-log-first-txt.png)
+
+Adobe Campaign filters this message to delete the variable content (such as IDs, dates, email addresses, phone numbers, etc.) and displays the filtered result in the **[!UICONTROL Text]** column. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
+
+This process allows to bring together all failures of the same type and avoid multiple entries for similar errors in the Delivery log qualification table.
+  
+>[!NOTE]
+>
+>The **[!UICONTROL Number of occurrences]** field displays the number of occurrences of the message in the list. It is limited to 100 000 occurrences. You can edit the field, if you want, for example, to reset it.
+
+Bounce mails can have the following qualification status:
+
+* **[!UICONTROL To qualify]** : the bounce mail could not be qualified. Qualification must be assigned to the Deliverability team to guarantee efficient platform deliverability. As long as it is not qualified, the bounce mail is not used to enrich the list of email management rules.
+* **[!UICONTROL Keep]** : the bounce mail was qualified and will be used by the **Refresh for deliverability** workflow to be compared to existing email management rules and enrich the list.
+* **[!UICONTROL Ignore]** : the bounce mail is ignored, meaning that this bounce will never cause the recipient's address to be quarantined. It will not be used by the **Refresh for deliverability** workflow and it will not be sent to client instances.
+
+![](assets/delivery-log-status.png)
+
+>[!NOTE]
+>
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification.-->
 
 
+## 관리 다시 시도 {#retries}
+
+일시적인 오류( )로 인해 메시지 배달이 실패하는 경우&#x200B;**소프트** 또는 **무시됨**), Campaign에서 다시 시도합니다. 이러한 다시 시도는 게재 기간이 끝날 때까지 수행할 수 있습니다.
+
+메시지의 ISP에서 돌아오는 바운스 응답 유형과 심각도를 기반으로, Enhanced MTA가 다시 시도 횟수와 빈도를 설정합니다.
+
+<!--NO LONGER WITH MOMENTUM - The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.-->
 
 ## 이메일 오류 유형 {#email-error-types}
 
@@ -116,7 +114,7 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날
    <td> 설명 </td> 
   </tr> 
   <tr> 
-   <td> 계정이 비활성화됨 </td> 
+   <td> 계정 비활성화 </td> 
    <td> 소프트/하드 </td> 
    <td> 4 </td> 
    <td> 주소에 연결된 계정이 더 이상 활성 상태가 아닙니다. IAP(인터넷 접속 제공자)가 장기간 동안 비활성화 상태를 감지하면 사용자의 계정을 닫을 수 있습니다. 그러면 사용자 주소로 게재할 수 없습니다. 6개월 동안 활동이 없어 계정을 일시적으로 사용할 수 없고 아직 활성화할 수 있는 경우, 오류 발생 상태가 할당되고 오류 카운터가 5에 도달할 때까지 계정을 다시 시도합니다. 오류가 계정이 영구적으로 비활성화되었음을 나타내는 경우 직접 격리로 설정됩니다.<br /> </td> 
@@ -197,7 +195,7 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날
    <td> 정의되지 않음 </td> 
    <td> 정의되지 않음 </td> 
    <td> 0 </td> 
-   <td> 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에게 알립니다. 그런 다음 를 통해 메시지 분석을 수행하고 이 오류에 대한 자격을 부여할 수 있습니다. <span class="uicontrol">관리</span> / <span class="uicontrol">캠페인 관리</span> / <span class="uicontrol">비결과물 관리</span> 노드 아래에 표시됩니다.<br /> </td> 
+   <td> 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에게 알립니다. 그런 다음 를 통해 메시지 분석을 수행하고 이 오류에 대한 자격을 부여할 수 있습니다. <span class="uicontrol">관리</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">비결과물 관리</span> 노드 아래에 표시됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 오퍼에 적합하지 않음 </td> 

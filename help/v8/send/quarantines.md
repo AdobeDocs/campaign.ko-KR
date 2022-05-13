@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: c316da3c431e42860c46b5a23c73a7c129abf3ac
+source-git-commit: 1ff06c69a4118afa228522d580dd5caa36a69275
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1093'
 ht-degree: 5%
 
 ---
@@ -27,8 +27,8 @@ Adobe Campaign은 온라인 채널(이메일, SMS, 푸시 알림)에 대해 격�
 >[!NOTE]
 >
 >수신자가 메시지를 스팸으로 보고하거나 &quot;STOP&quot; 등의 키워드로 SMS 메시지에 회신하면 해당 주소나 전화번호가 **[!UICONTROL Denylisted]**. 해당 프로필은 그에 따라 업데이트됩니다.
->
-> 이메일 채널의 경우 이메일 주소가 격리됩니다. 모바일 앱 채널의 경우 장치 토큰이 격리됩니다. SMS 채널의 경우 전화 번호가 격리됩니다.
+
+<!--For the email channel, email addresses are quarantined. For the mobile app channel, device tokens are quarantined. For the SMS channel, phone numbers are quarantined.?-->
 
 ## 전자 메일, 휴대폰 또는 장치가 격리되는 이유는 무엇입니까 {#quarantine-reason}
 
@@ -37,8 +37,7 @@ Adobe Campaign은 게재 실패 유형 및 그 이유에 따라 격리를 관리
 두 가지 유형 또는 오류를 캡처할 수 있습니다.
 
 * **하드 오류**: 이메일 주소, 전화번호 또는 장치는 즉시 격리됩니다.
-* **소프트 오류**: 소프트 오류의 경우 오류 카운터가 증가하며, 전자 메일, 전화 번호 또는 장치 토큰이 격리될 수 있습니다. 캠페인 성과 [다시 시도](delivery-failures.md#retries).: 오류 카운터가 제한 임계값에 도달하면 주소, 전화 번호 또는 장치 토큰이 격리됩니다. [자세히 알아보기](delivery-failures.md#retries)
-
+* **소프트 오류**: 소프트 오류의 경우 오류 카운터가 증가하며, 전자 메일, 전화 번호 또는 장치 토큰이 격리될 수 있습니다. Campaign에서 다음을 수행합니다 [다시 시도](delivery-failures.md#retries): 오류 카운터가 제한 임계값에 도달하면 주소, 전화 번호 또는 장치 토큰이 격리됩니다. [자세히 알아보기](delivery-failures.md#retries)
 
 격리된 주소 목록에서 **[!UICONTROL Error reason]** 필드는 선택한 주소가 격리된 이유를 나타냅니다. [자세히 알아보기](#identifying-quarantined-addresses-for-the-entire-platform)
 

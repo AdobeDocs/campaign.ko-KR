@@ -4,9 +4,10 @@ description: Campaign 및 Microsoft Dynamics 작업 방법 알아보기
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 59ccee717d857545ed2b3ba6fb850ef8a9d0907b
+exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1366'
 ht-degree: 2%
 
 ---
@@ -48,7 +49,7 @@ ht-degree: 2%
 
 저장하면 Microsoft Azure Directory에 고유한 가 할당됩니다 **애플리케이션(클라이언트) ID** 참조하십시오. 이 ID는 나중에 Adobe Campaign에서 Dynamics 365 구성에서 필요합니다.
 
-추가 정보 [Microsoft Dynamics 365 설명서](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
+추가 정보 [Microsoft Dynamics 365 설명서](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target=&quot;_blank&quot;}.
 
 ### Microsoft Dynamics 인증서 키 식별자 및 키 ID 생성 {#config-certificate-key-id}
 

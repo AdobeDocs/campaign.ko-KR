@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: 9457652f62810eb401c4010acd9b5da42d88d796
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '1086'
+ht-degree: 5%
 
 ---
 
@@ -25,10 +25,8 @@ Adobe Campaign에서 외부 계정에 액세스할 수 있습니다 **[!UICONTRO
 
 >[!CAUTION]
 >
->특정 **[!UICONTROL Full FDA]** (ffda) 외부 계정은 Campaign 로컬 데이터베이스와 클라우드 데이터베이스() 간의 연결을 관리합니다[!DNL Snowflake]).
->
->관리되는 Cloud Services 사용자로서, 이 외부 계정은 Adobe에 의해 인스턴스에 대해 구성됩니다. 수정해서는 안 됩니다.
-
+>의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 특정 **[!UICONTROL Full FDA]** (ffda) 외부 계정은 Campaign 로컬 데이터베이스와 클라우드 데이터베이스() 간의 연결을 관리합니다[!DNL Snowflake]).
+></br>관리되는 Cloud Services 사용자로서, 이 외부 계정은 Adobe에 의해 인스턴스에 대해 구성됩니다. 수정해서는 안 됩니다.
 
 ## 캠페인 특정 외부 계정
 
@@ -36,25 +34,84 @@ Adobe Campaign에서 외부 계정에 액세스할 수 있습니다 **[!UICONTRO
 
 ![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자로 Campaign에서 제공하는 모든 외부 계정을 Adobe에서 구성합니다.
 
-* **바운스 메일(POP3)**
+### 바운스 메일 {#bounce-mails-external-account}
 
-   다음 **바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일을 받을 수 있습니다.
+>[!NOTE]
+>
+>POP3 기능에 대한 Microsoft Exchange Online OAuth 2.0 인증은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 다음을 참조하십시오 [이 섹션](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-   ![](../assets/do-not-localize/book.png) 의 인바운드 전자 메일에 대해 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;}
+다음 **바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일을 받을 수 있습니다.
 
-* **라우팅**
+![](../assets/do-not-localize/book.png) 의 인바운드 전자 메일에 대해 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;}
 
-   다음 **[!UICONTROL Routing]** 외부 계정을 사용하면 설치된 패키지에 따라 Adobe Campaign에서 사용할 수 있는 각 채널을 구성할 수 있습니다.
+![](assets/bounce_external_1.png)
 
-   >[!CAUTION]
-   >
-   >다음 **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) 외부 계정 **필수가 아니어야 합니다.** Adobe Campaign v8에서 사용할 수 있습니다.
+를 구성하려면 **[!UICONTROL Bounce mails (defaultPopAccount)]** 외부 계정:
 
-* **실행 인스턴스**
+* **[!UICONTROL Server]**
 
-   트랜잭션 메시지 컨텍스트에서 실행 인스턴스는 제어 인스턴스에 연결되고 연결됩니다. 트랜잭션 메시지 템플릿은 실행 인스턴스에 배포됩니다.
+   POP3 서버의 URL입니다.
 
-   ![](../assets/do-not-localize/glass.png) 의 메시지 센터 아키텍처에 대해 자세히 알아보기 [이 페이지](../dev/architecture.md#transac-msg-archi).
+* **[!UICONTROL Port]**
+
+   POP3 연결 포트 번호입니다. 기본 포트는 110입니다.
+
+* **[!UICONTROL Account]**
+
+   사용자의 이름입니다.
+
+* **[!UICONTROL Password]**
+
+   사용자 계정 암호입니다.
+
+* **[!UICONTROL Encryption]**
+
+   선택한 암호화 유형 **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** 또는 **[!UICONTROL POP3S]**.
+다음 **바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일을 받을 수 있습니다.
+
+* **[!UICONTROL Function]**
+
+   인바운드 전자 메일 또는 SOAP 라우터
+
+![](assets/bounce_external_2.png)
+
+>[!IMPORTANT]
+>
+>Microsoft OAuth 2.0을 사용하여 POP3 외부 계정을 구성하기 전에 먼저 Azure 포털에서 응용 프로그램을 등록해야 합니다. 자세한 정보는 이 [페이지](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오.
+
+Microsoft OAuth 2.0을 사용하여 POP3 외부 를 구성하려면 다음을 확인합니다. **[!UICONTROL Microsoft OAuth 2.0]** 옵션을 선택하고 다음 필드를 채웁니다.
+
+* **[!UICONTROL Azure tenant]**
+
+   Azure ID(또는 디렉터리(테넌트) ID)는 **핵심 사항** azure 포털에서 애플리케이션 개요의 드롭다운
+
+* **[!UICONTROL Azure Client ID]**
+
+   클라이언트 ID(또는 애플리케이션(클라이언트) ID)는 **핵심 사항** azure 포털에서 애플리케이션 개요의 드롭다운
+
+* **[!UICONTROL Azure Client secret]**:
+
+   클라이언트 암호 ID는 **클라이언트 암호** 열 **인증서 및 기밀** azure 포털에서 응용 프로그램의 메뉴
+
+* **[!UICONTROL Azure Redirect URL]**:
+
+   리디렉션 URL은 **인증** azure 포털에서 응용 프로그램의 메뉴 다음 구문으로 끝나야 합니다 `nl/jsp/oauth.jsp`예: `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
+
+다른 자격 증명을 입력한 후 **[!UICONTROL Setup the connection]** 외부 계정 구성을 완료합니다.
+
+### 라우팅 {#routing}
+
+다음 **[!UICONTROL Routing]** 외부 계정을 사용하면 설치된 패키지에 따라 Adobe Campaign에서 사용할 수 있는 각 채널을 구성할 수 있습니다.
+
+>[!CAUTION]
+>
+>다음 **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) 외부 계정 **필수가 아니어야 합니다.** Adobe Campaign v8에서 사용할 수 있습니다.
+
+### 실행 인스턴스 {#execution-instance}
+
+트랜잭션 메시지 컨텍스트에서 실행 인스턴스는 제어 인스턴스에 연결되고 연결됩니다. 트랜잭션 메시지 템플릿은 실행 인스턴스에 배포됩니다.
+
+![](../assets/do-not-localize/glass.png) 의 메시지 센터 아키텍처에 대해 자세히 알아보기 [이 페이지](../architecture/architecture.md#transac-msg-archi).
 
 ## 외부 시스템 외부 계정에 대한 액세스
 
@@ -96,47 +153,13 @@ Adobe Campaign에서 외부 계정에 액세스할 수 있습니다 **[!UICONTRO
 
    다음 **[!UICONTROL Microsoft Dynamics CRM]** 외부 계정을 사용하여 Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
 
-   ![](../assets/do-not-localize/glass.png) Adobe Campaign - Microsoft Dynamics CRM 통합에서 자세한 내용을 알아보십시오. [이 페이지](../connect/crm.md).
-
-   사용 **[!UICONTROL Web API]** 배포 유형 및 **[!UICONTROL Password credentials]** 인증, 다음 세부 정보를 제공해야 합니다.
-
-   * **[!UICONTROL Account]**: Microsoft CRM에 로그인하는 데 사용되는 계정입니다.
-
-   * **[!UICONTROL Server]**: Microsoft CRM 서버의 URL.
-
-   * **[!UICONTROL Client identifier]**: 클라이언트 ID: **[!UICONTROL Update your code]** 카테고리, **[!UICONTROL Client ID]** 필드.
-
-   * **[!UICONTROL CRM version]**: 다음 사이의 CRM 버전 **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** 또는 **[!UICONTROL Dynamics CRM 2016]**.
-   사용 **[!UICONTROL Web API]** 배포 유형 및 **[!UICONTROL Certificate]** 인증, 다음 세부 정보를 제공해야 합니다.
-
-   * **[!UICONTROL Server]**: Microsoft CRM 서버의 URL.
-
-   * **[!UICONTROL Private Key (Base64 encoded)]**: Base64로 인코딩된 개인 키
-
-   * **[!UICONTROL Custom Key identifier]**
-
-   * **[!UICONTROL Key ID]**
-
-   * **[!UICONTROL Client identifier]**: 클라이언트 ID: **[!UICONTROL Update your code]** 카테고리, **[!UICONTROL Client ID]** 필드.
-
-   * **[!UICONTROL CRM version]**: 다음 사이의 CRM 버전 **[!UICONTROL Dynamics CRM 2007]**, **[!UICONTROL Dynamics CRM 2015]** 또는 **[!UICONTROL Dynamics CRM 2016]**.
-
+   ![](../assets/do-not-localize/glass.png) Adobe Campaign - Microsoft Dynamics CRM 통합에서 자세한 내용을 알아보십시오. [이 페이지](../connect/ac-ms-dyn.md).
 
 * **Salesforce.com**
 
    다음 **[!UICONTROL Salesforce CRM]** 외부 계정을 사용하면 Salesforce 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
 
-   Adobe Campaign에서 작동하도록 Salesforce CRM 외부 계정을 구성하려면 다음 세부 정보를 제공해야 합니다.
-
-   * **[!UICONTROL Account]**: Salesforce CRM에 로그인하는 데 사용되는 계정입니다.
-
-   * **[!UICONTROL Password]**: Salesforce CRM에 로그인하는 데 사용되는 암호입니다.
-
-   * **[!UICONTROL Client identifier]**: 에서 클라이언트 식별자를 찾는 방법을 알아봅니다. [이 페이지](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
-
-   * **[!UICONTROL Security token]**: 에서 보안 토큰을 찾는 방법을 알아봅니다. [이 페이지](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
-
-   * **[!UICONTROL API version]**: API 버전을 선택합니다. 이 외부 계정의 경우 구성 마법사를 사용하여 Salesforce CRM을 구성해야 합니다.
+   ![](../assets/do-not-localize/glass.png) 의 Adobe Campaign - Salesforce.com CRM 통합에 대해 자세히 알아보십시오. [이 페이지](../connect/ac-sfdc.md).
 
 ## 데이터 외부 계정 전송
 

@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 83874f4d124d7892f99e973684b1e8ee571f31e0
+source-git-commit: f89bc8baeb4b934bdde6b6fd33ee494195ab61b3
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 88%
 
 ---
 
@@ -18,22 +18,26 @@ ht-degree: 100%
 
 이러한 타사 시스템 및 도구의 특정 버전이 EOL(End-of-Life)에 도달함에 따라 Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며 이후 이 호환성 매트릭스에서 제거됩니다. 문제가 생기지 않도록 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
 
+>[!NOTE]
+>
+>Adobe Campaign 서버와 클라이언트 콘솔의 버전은 동일해야 합니다. [버전을 확인하는 방법을 알아보세요](#version).
+
 ## 클라이언트 콘솔{#ClientConsoleoperatingsystems}
 
 Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다. [자세히 알아보기](connect.md)
 
 ### 운영 체제
 
-* **Microsoft Windows Server** 2016, 2012
-* **Microsoft Windows** 8, 10(일본어 인스턴스에 권장))
+* **Microsoft Windows Server** 2019년, 2016년, 2012년
+* **Microsoft Windows** 11(Campaign v8.3 시작), 10, 8,
+
+>[!NOTE]
+>
+>일본어 인스턴스에 대해 Microsoft Windows 10이 권장됩니다.
 
 ### 브라우저
 
 **Microsoft Internet Explorer** 11
-
->[!NOTE]
->
->Adobe Campaign 서버와 클라이언트 콘솔의 버전은 동일해야 합니다. [버전을 확인하는 방법을 알아보세요](#version).
 
 ## CRM 커넥터{#CRMconnectors}
 
@@ -55,8 +59,8 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 
 다음 목록에 있는 운영 체제에서는 Campaign에서 연결된 모바일 SDK를 사용하여 [푸시 알림](../send/push.md)을 보낼 수 있습니다.
 
-* **Android** 7.x, 8.x, 9.0(Campaign Android SDK 빌드 1.1.1 포함).
-* **Apple iOS** 9 - 14(Campaign iOS SDK 빌드 1.0.26 포함)는 32비트 및 64비트 버전과 호환됩니다.
+* **Android** 12(Campaign v8.3 시작), 9.0, 8.x, 7.x(Campaign Android SDK 빌드 1.1.1 사용)
+* **Apple iOS** 9 - 15(Campaign iOS SDK 빌드 1.0.26 포함)는 32비트 및 64비트 버전과 호환됩니다. iOS 15는 Campaign v8부터 지원됩니다.
 
 ## 웹 액세스
 
@@ -64,9 +68,7 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari**(최신 버전)
 
-* **Internet Explorer** 11
-
-## Campaign 버전을 확인하는 방법 및 빌드{#version}
+## Campaign 버전을 확인하고 빌드하는 방법{#version}
 
 **도움말 및 정보…** 메뉴에 액세스하여 버전을 확인하세요.
 

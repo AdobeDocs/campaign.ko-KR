@@ -6,16 +6,108 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 0f15112f0eec1d7cba26523adc1e88fc5d26997c
+source-git-commit: d3137e75bfc4986e1d6badf32f21fda4c4353c8b
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 100%
+source-wordcount: '2240'
+ht-degree: 80%
 
 ---
 
 # 최신 릴리스{#latest-release}
 
 이 페이지에서는 **최신 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다.
+
+## 릴리스 8.3.7 {#release-8-3-7}
+
+_2022년 5월 16일_
+
+**새로운 기능**
+
+<table>
+<thead>
+<tr>
+<th><strong>반응 관리자</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>캠페인 응답 관리를 사용하면 마케팅 캠페인의 성공 및 ROI를 측정하거나 모든 채널에서 제안 제안을 제공할 수 있습니다. 이메일, 모바일, DM 등</p>
+<p>자세한 내용은 <a href="../start/campaigns.md#response-manager-add-on">세부 설명서</a>를 참조하세요.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>분산 마케팅</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>캠페인 분산 마케팅을 사용하면 중앙 엔터티(본사, 마케팅 부서 등) 간의 공동 캠페인을 구현할 수 있습니다. 및 지역 개체(영업 지점, 지역 기관 등)를 참조하십시오. 공유 작업 공간(캠페인 패키지)을 통해 캠페인 템플릿을 만들고 로컬 엔티티에 제안할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../start/campaigns.md#distributed-marketing-add-on">세부 설명서</a>를 참조하세요.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>시간 구분 알림</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>iOS 15에서 Apple은 알림이 민감하다고 간주되어 사용자에게 실시간으로 도달해야 할 때 앱 개발자에게 포커스 모드를 무시하도록 제어하는 중요한 알림 개념을 추가했습니다.</p>
+<p>자세한 내용은 <a href="../send/push.md#send-notifications-on-ios">세부 설명서</a>를 참조하세요.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>핵심 Privacy Service 통합</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>이제 Campaign v8이 Adobe 개인 정보 보호 핵심 서비스와 통합됩니다. 개인 정보 보호 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로우를 통해 Campaign에서 자동으로 처리됩니다.</p>
+<p>자세한 내용은 <a href="privacy.md">세부 설명서</a>를 참조하세요.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**호환성 업데이트**
+
+* 이제 Campaign v8 SDK는 푸시 알림용 Android 12 및 iOS 15를 지원합니다.
+* 이제 Campaign v8이 Windows 11과 호환됩니다.
+
+[캠페인 호환성 매트릭스](capability-matrix.md)를 참조하십시오.
+
+**개선 사항**
+
+* 이제 Campaign에서 POP3용 Microsoft Exchange Online OAuth 2.0 인증이 지원됩니다. [자세히 보기](../config/external-accounts.md#bounce-mails-external-account)
+* Microsoft Dynamics Connector 웹 API에 대한 중요 수정 사항이 적용되었습니다.
+* 사용자가 연산자(xtk:operator) 및 연산자 그룹(xtk:group) 스키마를 삽입, 업데이트 및 삭제할 수 있도록 하기 위해 이름이 인 새로운 연산자 및 그룹 스키마 쓰기(operatorWrite)가 추가되었습니다.
+* 이제 게재 속성의 전용 옵션을 통해 Campaign에서 보낸 이메일을 게재 수준에서 저장하는 이메일 BCC(blind carbon copy) 기능을 활성화할 수 있습니다. [자세히 보기](../config/email-settings.md#email-bcc)
+* 성능을 향상시키기 위해 이제 라우팅 외부 계정에서 새 &quot;분할&quot; 옵션이 기본적으로 활성화됩니다. 이 옵션을 사용하면 중간 소싱 인스턴스에서 메시지를 자동으로 분할하여 수신자에게 더 빨리 전달할 수 있습니다. 링크
+* 중간 소싱 설정의 LINE 게재에서 이제 중간 인스턴스에 동일한 유형의 여러 활성 계정이 있을 수 있습니다.
+* 웹 프로세스에 대한 기본 연결 수가 50개에서 150개로 증가했습니다.
+* Campaign에는 Snowflake 데이터베이스에 중복되는 키가 삽입되지 않도록 하는 새 보호 기능 세트가 포함되어 있습니다. [자세히 보기](../architecture/keys.md)
+
+**패치**
+
+* 동일한 반복 게재에서 시드 및 컨트롤 그룹을 사용할 때 발생하는 문제를 수정했습니다. (NEO-41197)
+* 개인화 블록에 다음 문자 중 하나가 들어 있을 때 전송 프로세스(최대 256개) 중에 동일한 deliveryPart에 속하는 모든 이력서에 대해 이메일 전송이 차단되는 FFDA 문제를 해결했습니다. `' & < > "`. 이제 이러한 문자가 개인화 블록에서 지원됩니다(예: firstname=&quot;Brian O&#39;Neil&quot;) (NEO-43184)
+* 사용자 지정 스키마를 대상 매핑으로 사용할 때 추적 워크플로우가 실패하는 문제를 해결했습니다. 이제 대상 매핑 마법사를 통해 broadLog 스키마를 생성할 때 사용자 지정 타깃팅 스키마에 대한 외부 링크 유형이 올바른지 확인합니다. (NEO-43506)
+* 영어 이외의 언어에 대해 FFDA 배포 워크플로우가 실패할 수 있는 문제를 해결했습니다. (NEO-44561)
 
 ## 릴리스 8.2.10 {#release-8-2-10}
 
@@ -76,7 +168,9 @@ _2021년 10월 28일_
 <tr> 
 <td> <p>[단일성 서비스]는 [클라우드 데이터베이스 관리자]의 새로운 구성 요소입니다. [클라우드 데이터베이스] 테이블 내에서 고유 키 제약 조건의 무결성을 유지 및 모니터링하는 데 도움이 됩니다. 이를 통해 중복 키를 삽입할 위험을 줄일 수 있습니다.
 <p>[클라우드 데이터베이스]는 단일성 제약 조건을 적용하지 않으므로, [단일성 서비스]는 애플리케이션 수준에서 <b>여러 새로운 가드레일</b>을 도입함으로써 Adobe Campaign으로 데이터를 관리할 때 중복 키를 삽입하는 위험을 줄여 줍니다.</p> 
-<p>[단일성 서비스]는 <b>ffdaUnicity</b>라는 새로운 내장 워크플로우를 시작하여 단일성 제약 조건 및 중복이 검색되었을 때의 경고를 모니터링합니다.</p></td> </tr> 
+<p>[단일성 서비스]는 <b>ffdaUnicity</b>라는 새로운 내장 워크플로우를 시작하여 단일성 제약 조건 및 중복이 검색되었을 때의 경고를 모니터링합니다.</p>
+<p>자세한 내용은 <a href="../architecture/keys.md">세부 설명서</a>를 참조하세요.</p>
+</td> </tr> 
 </tbody> 
 </table>
 
