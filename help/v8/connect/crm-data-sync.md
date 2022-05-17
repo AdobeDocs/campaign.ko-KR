@@ -2,7 +2,8 @@
 title: CRM 커넥터 데이터 동기화
 description: Campaign과 CRM 간의 데이터 관리
 feature: Salesforce Integration, Microsoft CRM Integration
-source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
+exl-id: 2a7ae88e-d47f-416b-84cd-986ab9be6aef
+source-git-commit: e55a60ae1628e534e32e86d347457b6c208db75b
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 0%

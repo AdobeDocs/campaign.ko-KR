@@ -7,7 +7,7 @@ title: Campaign v8 문서
 source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -105,8 +105,8 @@ ht-degree: 94%
    + [Campaign + 외부 데이터베이스](connect/fda.md)
    + Campaign + CRM {#ac-crm}
       + [CRM 커넥터 시작](connect/crm.md)
-      + [Campaign을 SFDC와 함께 사용하기](connect/ac-sfdc.md)
-      + [Campaign을 Microsoft Dynamics와 함께 사용하기](connect/ac-ms-dyn.md)
+      + [Campaign 및 SFDC 작업](connect/ac-sfdc.md)
+      + [Campaign 및 Microsoft Dynamics 작업](connect/ac-ms-dyn.md)
       + [데이터 동기화](connect/crm-data-sync.md)
 + 개발자 리소스 {#architecture}
    + [글로벌 원칙](dev/general-architecture.md)

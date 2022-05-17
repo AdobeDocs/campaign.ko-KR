@@ -1,17 +1,18 @@
 ---
-title: Campaign을 SFDC와 함께 사용하기
+title: Campaign 및 SFDC 작업
 description: Campaign 및 Salesforce.com으로 작업하는 방법 알아보기
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
+exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
+source-git-commit: e55a60ae1628e534e32e86d347457b6c208db75b
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Campaign을 SFDC와 함께 사용하기{#crm-sfdc}
+# Campaign 및 SFDC 작업{#crm-sfdc}
 
 Campaign v8을 연결하도록 Campaign CRM 커넥터를 구성하는 방법을 알아봅니다. **Salesforce.com**.
 

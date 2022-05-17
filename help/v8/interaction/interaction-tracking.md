@@ -30,7 +30,7 @@ ht-degree: 4%
 
    ![](assets/offer_followup_002.png)
 
-* 오퍼 공간 수준에서 **[!UICONTROL Propositions]** 탭.
+* At the offer space level, click the **[!UICONTROL Propositions]** tab.
 
    ![](assets/offer_space_prop_001_b.png)
 
@@ -48,8 +48,8 @@ ht-degree: 4%
 
    ![](assets/offer_report_perspaces.png)
 
-* 게재별:
+* By deliveries:
 
    ![](assets/offer_report_perdeliveries.png)
 
-데이터는 보고서의 위쪽 섹션에서 사용할 수 있는 다양한 기준에 따라 필터링될 수 있습니다. 원하는 기준을 선택하고 **[!UICONTROL Refresh]** 를 눌러 보고서에 적용합니다.
+Data can be filtered based on the various criteria available in the upper section of the report. Once you have selected the desired criteria, click the **[!UICONTROL Refresh]** link to apply them to the report.

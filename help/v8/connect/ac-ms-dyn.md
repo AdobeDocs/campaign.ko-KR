@@ -1,13 +1,14 @@
 ---
-title: Campaign을 Microsoft Dynamics와 함께 사용하기
+title: Campaign 및 Microsoft Dynamics 작업
 description: Campaign 및 Microsoft Dynamics 작업 방법 알아보기
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
+exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
+source-git-commit: e55a60ae1628e534e32e86d347457b6c208db75b
 workflow-type: tm+mt
 source-wordcount: '1365'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 

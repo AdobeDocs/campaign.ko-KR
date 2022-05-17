@@ -197,7 +197,7 @@ Adobe Campaign은 이 메시지를 필터링하여 변수 콘텐츠(예: ID, 날
    <td> 정의되지 않음 </td> 
    <td> 정의되지 않음 </td> 
    <td> 0 </td> 
-   <td> 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에게 알립니다. 그런 다음 를 통해 메시지 분석을 수행하고 이 오류에 대한 자격을 부여할 수 있습니다. <span class="uicontrol">관리</span> / <span class="uicontrol">캠페인 관리</span> / <span class="uicontrol">비결과물 관리</span> 노드 아래에 표시됩니다.<br /> </td> 
+   <td> 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에게 알립니다. 그런 다음 를 통해 메시지 분석을 수행하고 이 오류에 대한 자격을 부여할 수 있습니다. <span class="uicontrol">관리</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">비결과물 관리</span> 노드 아래에 표시됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 오퍼에 적합하지 않음 </td> 
