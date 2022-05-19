@@ -4,7 +4,8 @@ description: Adobe Campaign Enhanced MTA를 사용하여 전자 메일을 보내
 feature: Email
 role: Data Engineer
 level: Beginner
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
+source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 4%
@@ -112,4 +113,3 @@ Adobe Campaign에서 DKIM 전자 메일 인증 서명은 Enhanced MTA에 의해 
 | 소프트 바운스 메시지는 Enhanced MTA에서 다시 보고됩니다 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 서비스 공급자가 고려함 |
 | 소프트 바운스 메시지 다시 시도 성공 | **[!UICONTROL Success]** 백분율이 그에 따라 증가함 | 전송됨 |
 | 소프트 바운스 메시지 다시 시도 실패 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 실패 |
-
