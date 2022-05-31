@@ -4,7 +4,7 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8
 title: Campaign v8 문서
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 92%
@@ -73,8 +73,8 @@ ht-degree: 92%
    + [모범 사례](audiences/audiences-best-practices.md)
 + 메시지 보내기{#send}
    + 이메일 {#emails}
-      + [이메일 디자인 및 보내기](send/email.md)
-      + [향상된 MTA 정보](send/enhanced-mta.md)
+      + [이메일 디자인 및 유효성 검사](send/email.md)
+      + [이메일 보내기 및 모니터링](send/send.md)
    + [SMS](send/sms.md)
    + [푸시 알림](send/push.md)
    + [LINE 메시지 보내기](send/line.md)

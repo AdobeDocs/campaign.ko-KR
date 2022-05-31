@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '581'
 ht-degree: 12%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 이메일 게재를 사용하면 개인화된 이메일을 대상 모집단으로 보낼 수 있습니다.
 
-![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html)를 참조하세요.
+![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html)를 참조하십시오{target=&quot;_blank&quot;}
 
 ## 첫 번째 이메일 게재 만들기
 
@@ -78,22 +78,22 @@ ht-degree: 12%
 자세한 내용은 Campaign Classic v7 설명서의 이러한 섹션에서 알아보십시오.
 
 * Campaign에서 이메일 디자인
-   ![](../assets/do-not-localize/book.png) [이메일 디자인 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
+   ![](../assets/do-not-localize/book.png) [이메일 디자인 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html){target=&quot;_blank&quot;}
 * 이메일 콘텐츠 가져오기
-   ![](../assets/do-not-localize/book.png) [사용 사례: 게재 콘텐츠를 로드하는 워크플로우 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
+   ![](../assets/do-not-localize/book.png) [사용 사례: 게재 콘텐츠를 로드하는 워크플로우 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html){target=&quot;_blank&quot;}
 * 이메일 템플릿 만들기 및 사용
-   ![](../assets/do-not-localize/book.png) [이메일 템플릿 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko)
+   ![](../assets/do-not-localize/book.png) [이메일 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko){target=&quot;_blank&quot;}
 * 이메일 대상자를 선택합니다
-   ![](../assets/do-not-localize/book.png) [대상 모집단을 정의하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
+   ![](../assets/do-not-localize/book.png) [대상 모집단을 정의하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target=&quot;_blank&quot;}
 * 게재 유효성 검사 및 증명 보내기
-   ![](../assets/do-not-localize/book.png) [게재의 유효성을 검사하는 주요 단계를 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
-* 추가 [시드 주소](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
+   ![](../assets/do-not-localize/book.png) [게재의 유효성을 검사하는 주요 단계를 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
+* 추가 [시드 주소](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target=&quot;_blank&quot;}
 
 ## 이메일 테스트 및 유효성 검사
 
 Campaign은 대상자에게 이메일을 보내기 전에 전자 메일을 테스트하고 확인하는 몇 가지 방법을 제공합니다.
 
-![](../assets/do-not-localize/book.png) [Campaign Classic v7 설명서에 나열된 우수 사례 적용](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)
+![](../assets/do-not-localize/book.png) [Campaign Classic v7 설명서에 나열된 우수 사례 적용](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html){target=&quot;_blank&quot;}
 
 다음을 수행할 수 있습니다.
 
@@ -103,10 +103,4 @@ Campaign은 대상자에게 이메일을 보내기 전에 전자 메일을 테�
 * 통제 그룹 사용
 * 전자 메일 렌더링 확인
 
-![](../assets/do-not-localize/book.png) [자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)를 참조하세요
-
-## 이메일 모니터링
-
-전송되면 게재 대시보드에서 게재 상태를 확인하고 게재 로그 및 보고서에 액세스하여 메시지가 올바르게 전송되었는지 확인합니다.
-
-![](../assets/do-not-localize/book.png) [자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)를 참조하세요
+![](../assets/do-not-localize/book.png) [자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)를 참조하십시오{target=&quot;_blank&quot;}

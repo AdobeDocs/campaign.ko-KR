@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
-source-wordcount: '2849'
-ht-degree: 6%
+source-wordcount: '3009'
+ht-degree: 7%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 6%
 
 이러한 유형의 오류는 다음과 같이 관리됩니다.
 
-* **동기 오류**: Adobe Campaign 게재 서버가 접속한 원격 서버는 오류 메시지를 즉시 반환합니다. 게재를 프로필 서버로 보낼 수 없습니다. Enhanced MTA가 반송 유형을 결정하고 오류를 판별하고 해당 정보를 Campaign으로 다시 전송하여 관련 이메일 주소를 격리할지 여부를 결정합니다. [반송 메일 조건](#bounce-mail-qualification)을 참조하십시오.
+* **동기 오류**: Adobe Campaign 게재 서버가 접속한 원격 서버는 오류 메시지를 즉시 반환합니다. 게재를 프로필 서버로 보낼 수 없습니다. MTA(메일 전송 에이전트)는 바운스 유형을 결정하고 오류를 판별하며 해당 정보를 Campaign으로 다시 전송하여 관련 이메일 주소를 격리할지 여부를 결정합니다. [반송 메일 조건](#bounce-mail-qualification)을 참조하십시오.
 
 * **비동기 오류**: 반송 메일 또는 SR은 나중에 수신 서버에 의해 다시 전송됩니다. 이 오류는 오류와 관련된 레이블로 검증됩니다. 게재를 보낸 후 1주일까지 비동기 오류가 발생할 수 있습니다.
 
@@ -64,7 +64,7 @@ ht-degree: 6%
 
 현재 Adobe Campaign에서 반송 메일 자격을 처리하는 방법은 오류 유형에 따라 다릅니다.
 
-* **동기 오류**: Enhanced MTA가 반송 유형 및 조건을 결정하고 해당 정보를 Campaign으로 다시 전송합니다. 에서 바운스 자격 **[!UICONTROL Delivery log qualification]** 표는 다음 용도로 사용되지 않습니다. **동기** 게재 실패 오류 메시지.
+* **동기 오류**: MTA가 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 전송합니다. 에서 바운스 자격 **[!UICONTROL Delivery log qualification]** 표는 다음 용도로 사용되지 않습니다. **동기** 게재 실패 오류 메시지.
 
 * **비동기 오류**: Campaign이 비동기 게재 실패를 평가하는 데 사용하는 규칙은 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 노드 아래에 있어야 합니다. 비동기 바운스는 를 통해 inMail 프로세스에 의해 검증됩니다. **[!UICONTROL Inbound email]** 규칙. 자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}.
 
@@ -97,9 +97,22 @@ Bounce mails can have the following qualification status:
 
 일시적인 오류( )로 인해 메시지 배달이 실패하는 경우&#x200B;**소프트** 또는 **무시됨**), Campaign에서 다시 시도합니다. 이러한 다시 시도는 게재 기간이 끝날 때까지 수행할 수 있습니다.
 
-메시지의 ISP에서 돌아오는 바운스 응답 유형과 심각도를 기반으로, Enhanced MTA가 다시 시도 횟수와 빈도를 설정합니다.
+소프트 바운스 다시 시도 횟수와 그 사이의 시간은 메시지의 이메일 도메인에서 돌아오는 바운스 응답의 유형과 심각도를 기반으로 MTA에 의해 결정됩니다.
 
-<!--NO LONGER WITH MOMENTUM - The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.-->
+>[!NOTE]
+>
+>게재 속성의 다시 시도 설정은 Campaign에서 사용하지 않습니다.
+
+## 유효 기간
+
+Campaign 게재의 유효 기간 설정은 다음으로 제한됩니다 **3.5일 이하**. 게재의 경우, Campaign에서 3.5일 이상의 값을 정의하면 고려되지 않습니다.
+
+예를 들어 유효 기간이 Campaign에서 기본값 5일로 설정된 경우 소프트 바운스 메시지는 MTA 다시 시도 큐에 올라가 해당 메시지가 MTA에 도달한 후 최대 3.5일 동안만 다시 시도됩니다. 이 경우 Campaign에 설정된 값은 사용되지 않습니다.
+
+메시지가 3.5일 동안 MTA 큐에 있고 게재에 실패하면 시간이 초과되고 게재 로그에서 해당 상태가 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 업데이트됩니다.
+
+유효 기간에 대한 자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}.
+
 
 ## 이메일 오류 유형 {#email-error-types}
 
@@ -195,7 +208,7 @@ Bounce mails can have the following qualification status:
    <td> 정의되지 않음 </td> 
    <td> 정의되지 않음 </td> 
    <td> 0 </td> 
-   <td> 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에게 알립니다. 그런 다음 를 통해 메시지 분석을 수행하고 이 오류에 대한 자격을 부여할 수 있습니다. <span class="uicontrol">관리</span> / <span class="uicontrol">캠페인 관리</span> / <span class="uicontrol">비결과물 관리</span> 노드 아래에 표시됩니다.<br /> </td> 
+   <td> 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에게 알립니다. 그런 다음 를 통해 메시지 분석을 수행하고 이 오류에 대한 자격을 부여할 수 있습니다. <span class="uicontrol">관리</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">비결과물 관리</span> 노드 아래에 표시됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 오퍼에 적합하지 않음 </td> 
