@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 0c01b0a597e54ae93dd581ccba6f19b2ff13f956
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '550'
 ht-degree: 40%
 
 ---
@@ -63,8 +63,6 @@ Campaign v8에서는 추가적인 타겟팅 워크플로우 활동으로 **[!UIC
 다음과 같은 일부 기능은 이 버전에서 아직 사용할 수 없습니다.
 
 * 마케팅 리소스 관리
-* 분산 마케팅
-* 반응 관리자
 * 하이브리드/온-프레미스 배포 모델
 
 >[!CAUTION]
@@ -83,7 +81,7 @@ Campaign v8의 새로운 아키텍처 및 배포 모델에 맞게 이전 Campaig
 * 쿠폰
 * 웹 추적
 * 설문 조사
-* 소셜 마케팅 Facebook
+* 소셜 마케팅
 * ACS 커넥터(프라임 제공)
 * LDAP와 통합
 * 사용자/암호 로그인
