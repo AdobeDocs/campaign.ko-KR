@@ -7,7 +7,7 @@ title: Campaign v8 문서
 source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 92%
    + FDA Snowflake 배포 {#fda}
       + [FDA-Snowflake란?](architecture/fda-deployment.md)
    + 엔터프라이즈(FFDA) 배포 {#ffda}
-      + [Campaign FDA란?](architecture/enterprise-deployment.md)
+      + [Campaign FFDA란?](architecture/enterprise-deployment.md)
       + 특성 {#ffda-characteristics}
          + [키 관리 및 독자성](architecture/keys.md)
          + [새 API](architecture/new-apis.md)
