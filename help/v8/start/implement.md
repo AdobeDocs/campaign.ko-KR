@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1188'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 95%
 
 Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호법 및 수신자 기본 설정을 준수하는 Campaign을 사용할 수 있는 프로세스와 설정이 포함되어 있습니다. 다음을 관리할 수 있습니다.
 
-* **데이터 수집**: Adobe Campaign을 사용하면 개인 및 중요 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#data-acquisition)를 참조하십시오{target=&quot;_blank&quot;}
+* **데이터 수집**: Adobe Campaign을 사용하면 개인 및 중요 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#data-acquisition){target=&quot;_blank&quot;}를 참조하십시오
 
-* **사용자 동의 및 데이터 유지**: 사용자 동의, 이중 옵트인 구독 메커니즘 설정, 옵트아웃 촉진 및 데이터 보존 구성 방법을 알아봅니다. [Campaign Classic 개인 정보 보호 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#consent){target=&quot;_blank&quot;}
+* **사용자 동의 및 데이터 유지**: 사용자 동의를 얻는 방법, 이중 옵트인 구독 메커니즘을 설정하는 방법, 옵트아웃을 용이하게 하는 방법, 데이터 유지를 구성하는 방법에 대해 [Campaign Classic 개인 정보 보호 문서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#consent){target=&quot;_blank&quot;}에서 살펴봅니다.
 
-* **개인 정보 보호 및 데이터 보호 규정**: 참조 [이 섹션](privacy.md) 개인 정보 보호 요구 사항 및 이러한 규정이 조직 및 Adobe Campaign에 미치는 영향에 대한 정보입니다.
+* **개인 정보 보호 및 데이터 보호 규정**: 개인 정보 보호 요구 사항 및 이러한 규정이 조직과 Adobe Campaign에 미치는 영향에 대한 정보를 알아보려면 [이 섹션](privacy.md)을 참조하세요.
 
 ### 보안
 
