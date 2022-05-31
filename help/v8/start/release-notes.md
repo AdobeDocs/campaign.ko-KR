@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2161'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ _2022년 5월 18일_
 <table> 
 <thead>
 <tr> 
-<th> <strong>핵심 Privacy Service 통합</strong><br /> </th> 
+<th> <strong>핵심 개인 정보 보호 통합</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -58,13 +58,13 @@ _2022년 5월 18일_
 <table>
 <thead>
 <tr>
-<th><strong>반응 관리자</strong><br/></th>
+<th><strong>응답 매니저</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>캠페인 응답 관리를 사용하면 마케팅 캠페인의 성공 및 ROI를 측정하거나 모든 채널에서 제안 제안을 제공할 수 있습니다. 이메일, 모바일, DM 등</p>
+<p>캠페인 응답 관리를 사용하면 마케팅 캠페인의 성공 및 ROI를 측정하거나 이메일, 모바일, DM 등 모든 채널에서 제안을 제공할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../start/campaigns.md#response-manager-add-on">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
@@ -79,7 +79,7 @@ _2022년 5월 18일_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>캠페인 분산 마케팅을 사용하면 중앙 엔터티(본사, 마케팅 부서 등) 간의 공동 캠페인을 구현할 수 있습니다. 및 지역 개체(영업 지점, 지역 기관 등)를 참조하십시오. 공유 작업 공간(캠페인 패키지)을 통해 캠페인 템플릿을 만들고 로컬 엔티티에 제안할 수 있습니다.</p>
+<td> <p>캠페인 분산 마케팅을 사용하면 중앙 엔터티(본사, 마케팅 부서 등) 및 지역 엔터티(영업 지점, 지역 에이전시 등) 간의 공동 캠페인을 실시할 수 있습니다. 공유 작업 공간(캠페인 패키지)을 통해 캠페인 템플릿을 만들고 로컬 엔티티에 제안할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../start/campaigns.md#distributed-marketing-add-on">세부 설명서</a>를 참조하세요.</p>
 </td> 
 </tr> 
@@ -96,8 +96,8 @@ _2022년 5월 18일_
 **개선 사항**
 
 * 이제 Campaign에서 POP3용 Microsoft Exchange Online OAuth 2.0 인증이 지원됩니다. [자세히 보기](../config/external-accounts.md#bounce-mails-external-account)
-* Microsoft Dynamics Connector 웹 API에 대한 중요 수정 사항이 적용되었습니다.
-* 사용자가 연산자(xtk:operator) 및 연산자 그룹(xtk:group) 스키마를 삽입, 업데이트 및 삭제할 수 있도록 하기 위해 이름이 인 새로운 연산자 및 그룹 스키마 쓰기(operatorWrite)가 추가되었습니다.
+* Microsoft Dynamics Connector 웹 API에 대해 중요한 문제를 해결했습니다.
+* 사용자가 연산자(xtk:operator) 및 연산자 그룹(xtk:group) 스키마를 삽입, 업데이트 및 삭제할 수 있도록 하기 위해 이름이 right인 새로운 연산자 및 그룹 스키마 쓰기(operatorWrite)가 추가되었습니다.
 
 <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
 <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
@@ -107,10 +107,10 @@ _2022년 5월 18일_
 
 **패치**
 
-* 동일한 반복 게재에서 시드 및 컨트롤 그룹을 사용할 때 발생하는 문제를 수정했습니다. (NEO-41197)
-* 개인화 블록에 다음 문자 중 하나가 들어 있을 때 전송 프로세스(최대 256개) 중에 동일한 deliveryPart에 속하는 모든 이력서에 대해 이메일 전송이 차단되는 FFDA 문제를 해결했습니다. `' & < > "`. 이제 이러한 문자가 개인화 블록에서 지원됩니다(예: firstname=&quot;Brian O&#39;Neil&quot;) (NEO-43184)
+* 동일한 반복 게재에서 시드 및 컨트롤 그룹을 사용할 때 발생하는 문제를 해결했습니다. (NEO-41197)
+* 개인화 블록에 이러한 문자(`' & < > "`) 중 하나가 들어 있을 때 전송 프로세스(최대 256개) 중에 동일한 deliveryPart에 속하는 모든 수신자에 대해 이메일 전송이 차단되는 FFDA 문제를 해결했습니다. 이제 이러한 문자가 개인화 블록에서 지원됩니다(예: firstname=&quot;Brian O&#39;Neil&quot;) (NEO-43184)
 * 사용자 지정 스키마를 대상 매핑으로 사용할 때 추적 워크플로우가 실패하는 문제를 해결했습니다. 이제 대상 매핑 마법사를 통해 broadLog 스키마를 생성할 때 사용자 지정 타깃팅 스키마에 대한 외부 링크 유형이 올바른지 확인합니다. (NEO-43506)
-* 영어 이외의 언어에 대해 FFDA 배포 워크플로우가 실패할 수 있는 문제를 해결했습니다. (NEO-44561)
+* 영어 이외 언어에 대해 FFDA 배포 워크플로우가 실패할 수 있는 문제를 해결했습니다. (NEO-44561)
 
 ## 릴리스 8.2.10 {#release-8-2-10}
 
