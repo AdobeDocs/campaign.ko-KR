@@ -1,14 +1,14 @@
 ---
 title: Campaign의 개인 정보 보호 요청 관리
-description: Campaign에서 개인 정보 보호 요청을 관리하는 방법 알아보기
+description: Campaign의 개인 정보 보호 요청을 관리하는 방법 알아보기
 feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1050'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -18,23 +18,23 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)을 참조하세요.
 
 Adobe Campaign을 사용하면 개인 정보 보호 준비를 용이하게 하기 위해 액세스 및 삭제 요청을 처리할 수 있습니다.
 
 이러한 요청을 수행하려면 **개인 정보 보호 핵심 서비스** 통합을 사용해야 합니다. 개인 정보 보호 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로우를 통해 Campaign에서 자동으로 처리됩니다. [자세히 알아보기](#create-privacy-request)
 
-Adobe은 데이터 제어자에게 Campaign에 저장된 데이터에 대한 개인 정보 요청을 만들고 처리하는 도구를 제공합니다. 그러나 요청을 하는 데이터 주체의 ID를 확인하고 요청자에게 반환되는 데이터가 데이터 주체의 정보임을 확인하는 것은 데이터 컨트롤러로서의 책임입니다. 개인 데이터 및 의 데이터를 관리하는 다른 엔터티에 대해 자세히 알아보십시오 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#personal-data){target=&quot;_blank&quot;}.
+ Campaign은 저장된 데이터에 대한 개인 정보 보호 요청을 만들고 처리할 수 있는 도구를 데이터 컨트롤러에 제공합니다. 따라서 요청을 하는 데이터 주체의 ID를 확인하고 요청자에게 반환되는 데이터가 데이터 주체의 정보임을 확인하는 것은 데이터 컨트롤러로서의 책임입니다. 개인 데이터 및 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko){target=&quot;_blank&quot;}에서 데이터를 관리하는 다양한 엔터티에 대해 자세히 알아보세요.
 
-![](../assets/do-not-localize/speech.png) 에 대해 알아보기 **액세스 권한** 그리고 **잊혀질 권리** (요청 삭제) [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/speech.png)**액세스 권한** 및 **잊혀질 권리**(삭제 요청)에 대해 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko){target=&quot;_blank&quot;}에서 알아보세요.
 
 ## 네임스페이스 정의 {#namespaces}
 
-개인 정보 보호 요청을 만들기 전에 다음을 수행해야 합니다 **네임스페이스 정의** 사용할 수 있습니다. 네임스페이스는 Adobe Campaign 데이터베이스에서 데이터 주체를 식별하는 데 사용되는 키입니다.
+개인 정보 보호 요청을 만들기 전에 사용할 **네임스페이스를 정의**&#x200B;해야 합니다. 네임스페이스는 Adobe Campaign 데이터베이스에서 데이터 주체를 식별하는 데 사용되는 키입니다.
 
 >[!NOTE]
 >
->ID 네임스페이스에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}.
+>ID 네임스페이스에 대한 자세한 내용은 [Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko){target=&quot;_blank&quot;}를 참조하세요.
 
 현재 Adobe Campaign에서는 Experience Platform ID 네임스페이스 서비스에서 네임스페이스 가져오기를 지원하지 않습니다. 따라서 ID 네임스페이스 서비스에서 네임스페이스를 만들면 Adobe Campaign 인터페이스에서 해당 네임스페이스를 수동으로 만들어야 합니다. 이렇게 하려면 아래 단계를 수행합니다.
 
@@ -46,9 +46,9 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 >For optimal performance, it is recommended to use out-of-the-box namespaces.
 -->
 
-1. 에서 네임스페이스를 만듭니다. [ID 네임스페이스 서비스](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target=&quot;_blank&quot;}.
+1. [ID 네임스페이스 서비스](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace?lang=ko){target=&quot;_blank&quot;}에서 네임스페이스를 만듭니다.
 
-1. When [id 네임스페이스 나열](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces)조직에서 사용할 수 있는 {target=&quot;_blank&quot;} 네임스페이스는 다음과 같은 세부 정보를 제공합니다.
+1. 조직에서 사용 가능한 [ID 네임스페이스 목록을 나열](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces?lang=ko){target=&quot;_blank&quot;}할 때 네임스페이스는 다음과 같은 세부 정보를 제공합니다.
 
    ```
    {
@@ -65,7 +65,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
    }
    ```
 
-1. Adobe Campaign에서 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]** 을(를) 선택합니다. **[!UICONTROL New]**.
+1. Adobe Campaign에서 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**&#x200B;에 따라 이동한 다음 **[!UICONTROL New]**&#x200B;을(를) 선택합니다.
 
    ![](assets/privacy-namespaces-new.png)
 
@@ -73,15 +73,15 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. ID 네임스페이스 서비스에서 만든 네임스페이스와 일치하도록 새 네임스페이스 세부 사항을 입력합니다.
 
-   * a **[!UICONTROL AEC Namespace ID]** 는 &quot;id&quot; 속성과 일치해야 합니다.
-   * a **[!UICONTROL Internal name]** 는 &quot;code&quot; 속성과 일치해야 합니다.
-   * a **[!UICONTROL Reconciliation key]** 는 &quot;idType&quot; 속성과 일치해야 합니다.
+   * **[!UICONTROL AEC Namespace ID]**&#x200B;은(는) &quot;id&quot; 속성과 일치해야 합니다.
+   * **[!UICONTROL Internal name]**&#x200B;은(는) &quot;code&quot; 속성과 일치해야 합니다.
+   * **[!UICONTROL Reconciliation key]**&#x200B;은(는) &quot;idType&quot; 속성과 일치해야 합니다.
 
    ![](assets/privacy-namespaces-details.png)
 
-   다음 **[!UICONTROL Reconciliation key]** 필드는 Adobe Campaign 데이터베이스의 데이터 주체를 식별하는 데 사용됩니다.
+   **[!UICONTROL Reconciliation key]** 필드는 Adobe Campaign 데이터베이스의 데이터 주체를 식별하는 데 사용됩니다.
 
-1. 대상 매핑 선택 <!--(**[!UICONTROL Recipients]**, **[!UICONTROL Real time event]** or **[!UICONTROL Subscriptions]**)--> Adobe Campaign에서 네임스페이스가 조정되는 방법을 지정합니다.
+1. 대상 매핑 <!--(**[!UICONTROL Recipients]**, **[!UICONTROL Real time event]** or **[!UICONTROL Subscriptions]**)-->을(를) 선택하여 Adobe Campaign에서 네임스페이스가 조정되는 방법을 지정합니다.
 
    >[!NOTE]
    >
@@ -93,13 +93,13 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 ## 개인 정보 보호 요청 생성 {#create-privacy-request}
 
-다음 **개인 정보 보호 핵심 서비스** 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 개인 정보 보호 요청을 자동화할 수 있습니다. Adobe Campaign은 전용 워크플로우를 통해 개인 정보 보호 핵심 서비스에서 푸시된 요청을 자동으로 처리합니다.
+**개인 정보 보호 핵심 서비스** 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 개인 정보 보호 요청을 자동화할 수 있습니다. Adobe Campaign은 전용 워크플로우를 통해 개인 정보 보호 핵심 서비스에서 푸시된 요청을 자동으로 처리합니다.
 
 >[!CAUTION]
 >
 >개인 정보 보호 요청을 처리하려면 Adobe Campaign 인스턴스에 Experience Platform Identity 네임스페이스 서비스에서 만든 네임스페이스와 일치하는 네임스페이스를 만들어야 합니다.
 
-자세한 내용은 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)개인 정보 보호 핵심 서비스에서 개인 정보 보호 요청을 만드는 방법을 배우려면 {target=&quot;_blank&quot;} 설명서를 참조하십시오.
+개인 정보 보호 핵심 서비스에서 개인 정보 보호 요청을 만드는 방법에 대해 알아보려면 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko){target=&quot;_blank&quot;} 설명서를 참조하세요.
 
 각 개인 정보 보호 핵심 서비스 작업은 사용 중인 네임스페이스의 수를 기준으로 Adobe Campaign에서 여러 개인 정보 보호 요청으로 분할되며, 하나의 요청은 하나의 네임스페이스에 해당합니다.
 
@@ -154,12 +154,12 @@ Adobe Campaign의 개인 정보 보호 요청에 대한 다양한 상태는 다�
 * **[!UICONTROL Complete]**: 요청 처리가 오류 없이 끝났습니다.
 * **[!UICONTROL Error]**: 워크플로우에서 오류가 발생했습니다. 이유는 **[!UICONTROL Request status]** 열의 개인 정보 보호 요청 목록에 표시됩니다. 예를 들어 **[!UICONTROL Error data not found]**&#x200B;은(는) 데이터 주체의 **[!UICONTROL Reconciliation value]**&#x200B;와(과) 일치하는 수신자 데이터가 데이터베이스에 없음을 의미합니다.
 
-Campaign Classic v7 설명서의 **관련 항목:**
+**Campaign Classic v7 설명서의 관련 항목:**
 
-* [개인 정보 및 동의](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target=&quot;_blank&quot;}
+* [개인 정보 및 동의](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko){target=&quot;_blank&quot;}
 
-* [개인 정보 관리 시작하기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html){target=&quot;_blank&quot;}
+* [개인 정보 관리 시작하기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko){target=&quot;_blank&quot;}
 
-* [개인 정보 관리에 관한 규정](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#privacy-management-regulations){target=&quot;_blank&quot;} (GDPR, CPA, PDPA 및 LGPD)
+* [개인 정보 보호 관리에 관한 규정](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko){target=&quot;_blank&quot;}(GDPR, CPA, PDPA, LGPD)
 
-* [개인 정보 판매 옵트아웃](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html){target=&quot;_blank&quot;}(CCPA에만 해당)
+* [개인 정보 판매 옵트아웃](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html?lang=ko){target=&quot;_blank&quot;}(CCPA에만 해당)
