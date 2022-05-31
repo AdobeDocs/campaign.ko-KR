@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,12 +28,12 @@ Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브�
 
 ### 운영 체제
 
-* **Microsoft Windows Server** 2019년, 2016년, 2012년
-* **Microsoft Windows** 11(Campaign v8.3 시작), 10, 8,
+* **Microsoft Windows Server** 2019, 2016, 2012
+* **Microsoft Windows** 11(Campaign v8.3부터), 10, 8,
 
 >[!NOTE]
 >
->일본어 인스턴스에 Microsoft Windows 10이 권장됩니다.
+>일본어 인스턴스에 대해서는 Microsoft Windows 10을 권장합니다.
 
 ### 브라우저
 
@@ -59,7 +59,7 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 
 다음 목록에 있는 운영 체제에서는 Campaign에서 연결된 모바일 SDK를 사용하여 [푸시 알림](../send/push.md)을 보낼 수 있습니다.
 
-* **Android** 12(Campaign v8.3 시작), 9.0, 8.x, 7.x(Campaign Android SDK 빌드 1.1.1 사용)
+* **Android** 12(Campaign v8.3부터), 9.0, 8.x, 7.x(Campaign Android SDK 빌드 1.1.1 사용).
 * **Apple iOS** 9 - 15(Campaign iOS SDK 빌드 1.0.26 포함)는 32비트 및 64비트 버전과 호환됩니다. iOS 15는 Campaign v8부터 지원됩니다.
 
 ## 웹 액세스
@@ -68,7 +68,7 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari**(최신 버전)
 
-## Campaign 버전을 확인하고 빌드하는 방법{#version}
+## Campaign 버전 및 빌드를 확인하는 방법{#version}
 
 **도움말 및 정보…** 메뉴에 액세스하여 버전을 확인하세요.
 
