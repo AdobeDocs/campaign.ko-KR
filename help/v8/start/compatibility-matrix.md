@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+source-git-commit: d7621adc0f4bd4eaad1b2ff8f270943e91f4edde
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 다음 목록에 있는 운영 체제에서는 Campaign에서 연결된 모바일 SDK를 사용하여 [푸시 알림](../send/push.md)을 보낼 수 있습니다.
 
 * **Android** 12(Campaign v8.3부터), 9.0, 8.x, 7.x(Campaign Android SDK 빌드 1.1.1 사용).
-* **Apple iOS** 9 - 15(Campaign iOS SDK 빌드 1.0.26 포함)는 32비트 및 64비트 버전과 호환됩니다. iOS 15는 Campaign v8부터 지원됩니다.
+* **Apple iOS** 9 - 15(Campaign iOS SDK 빌드 1.0.26 포함)는 32비트 및 64비트 버전과 호환됩니다. iOS 15는 Campaign v8.3부터 지원됩니다.
 
 ## 웹 액세스
 
