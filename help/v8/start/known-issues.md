@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1b88ca57858efbfec6467452677620d59e9c9e32
+source-git-commit: fe425f9309af31a13b52695b103d530a6b89e3b1
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 2%
+source-wordcount: '433'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 >
 >Adobe은 자체 재량에 따라 이 알려진 문제 목록을 게시합니다. 고객 보고서 수, 심각도 및 해결 방법을 기반으로 합니다. 표시되는 문제가 나열되지 않으면 이 페이지에 게시하기 위한 기준에 맞지 않을 수 있습니다.
 
-## 데이터 소스 활동 변경 문제 {#issue-1}
+## 데이터 소스 활동 문제 #1 {#issue-1}
 
 ### 설명{#issue-1-desc}
 
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 
 
-## 백슬래시로 인해 데이터 소스 변경 활동이 실패했습니다 {#issue-2}
+## 데이터 소스 활동 문제 #2 {#issue-2}
 
 ### 설명{#issue-2-desc}
 
