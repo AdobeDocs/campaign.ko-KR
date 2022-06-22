@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8
 title: Campaign v8 문서
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
-workflow-type: ht
-source-wordcount: '351'
-ht-degree: 100%
+source-git-commit: 099d14ace04df1b98e03be283a6436f49f535958
+workflow-type: tm+mt
+source-wordcount: '353'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
    + [주요 기능](start/whats-new.md)
    + [릴리스 정보](start/release-notes.md)
    + [알려진 제한 사항](start/known-limitations.md)
+   + [알려진 문제](start/known-issues.md)
    + [Classic v7에서 v8로](start/capability-matrix.md)
 + 시작 {#start}
    + [시작](start/get-started.md)
