@@ -7,7 +7,7 @@ level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2161'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ _2022년 5월 18일_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>iOS 15에서 Apple은 알림이 민감하다고 간주되어 사용자에게 실시간으로 도달해야 할 때 앱 개발자에게 포커스 모드를 무시하도록 제어하는 중요한 알림 개념을 추가했습니다.</p>
+<td> <p>iOS 15에서 Apple은 알림이 긴급하다고 간주되어 사용자에게 실시간으로 연락해야 할 때 앱 개발자에게 포커스 모드를 무시하도록 제어하는 긴급한 알림 개념을 추가했습니다.</p>
 <p>자세한 내용은 <a href="../send/push.md#send-notifications-on-ios">세부 설명서</a>를 참조하세요.</p>
 </td> 
 </tr> 
