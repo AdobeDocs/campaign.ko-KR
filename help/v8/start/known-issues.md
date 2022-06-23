@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0d1d20f9692ffa7b7ea7a8fb1161ebd19f533bab
+source-git-commit: 2c9455a09d6b557d525b1af5da9374a1d59201d7
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 2%
+source-wordcount: '368'
+ht-degree: 3%
 
 ---
 
@@ -22,21 +22,22 @@ ht-degree: 2%
 >
 >Adobe은 자체 재량에 따라 이 알려진 문제 목록을 게시합니다. 고객 보고서 수, 심각도 및 해결 방법을 기반으로 합니다. 표시되는 문제가 나열되지 않으면 이 페이지에 게시하기 위한 기준에 맞지 않을 수 있습니다.
 
-## 데이터 소스 활동 문제 #1 {#issue-1}
+<!--
+## Change Data Source activity issue #1 {#issue-1}
 
-### 설명{#issue-1-desc}
+### Description{#issue-1-desc}
 
-다음 **데이터 소스 변경** Campaign 로컬 데이터베이스에서 Snowflake 클라우드 데이터베이스로 데이터를 전송할 때 활동이 실패합니다. 방향을 전환할 때 활동에서 문제를 생성할 수 있습니다.
+The **Change Data Source** activity is failing when transfering data from Campaign local database to Snowflake cloud database. When switching directions, the activity can generate issues.
 
-### 복제 단계{#issue-1-repro}
+### Reproduction steps{#issue-1-repro}
 
-1. 클라이언트 콘솔에 연결하고 워크플로우를 만듭니다.
-1. 추가 **쿼리** 활동 및 **데이터 소스 변경** 활동.
-1. 에서 쿼리를 정의합니다. **이메일**: 문자열입니다.
-1. 워크플로우를 실행하고 전환을 마우스 오른쪽 단추로 클릭하여 모집단을 확인합니다. 전자 메일 레코드가 `****`.
-1. 워크플로우 로그를 확인합니다. a **데이터 소스 변경** 활동은 이러한 레코드를 숫자 값으로 해석합니다.
+1. Connect to the client console and create a workflow.
+1. Add a **Query** activity and a **Change Data Source** activity.
+1. Define a query on the **email**, which is a string.
+1. Run the workflow and right-click the transition to view the population: the email records are displayed replaced by `****`.
+1. Check the workflow logs: the **Change Data Source** activity interprets these records as numeric values.
 
-### 오류 메시지{#issue-1-error}
+### Error message{#issue-1-error}
 
 ```sql
 04/13/2022 10:00:18 AM              Executing change data source 'Ok' (step 'Change Data Source')
@@ -47,17 +48,17 @@ ht-degree: 2%
 04/13/2022 10:00:26 AM              D_OPTIONALLY_ENCLOSED_BY = 'NONE') ON_ERROR = ABORT_STATEMENT PURGE = TRUE' could not be executed.
 ```
 
-### 해결 방법{#issue-1-workaround}
+### Workaround{#issue-1-workaround}
 
-데이터를 Snowflake 클라우드 데이터베이스에서 Campaign 로컬 데이터베이스로 전송하고 다시 Snowflake으로 전송하려면 서로 다른 두 개의 데이터를 사용해야 합니다 **데이터 소스 변경** 활동.
+To have the data transfered from Snowflake cloud database to Campaign local database and back to Snowflake, you must use two different **Change Data Source** activities.
 
-### 내부 참조{#issue-1-ref}
+### Internal reference{#issue-1-ref}
 
-참조: NEO-45549
+Reference: NEO-45549 
+-->
 
 
-
-## 데이터 소스 활동 문제 #2 {#issue-2}
+## 데이터 소스 활동 변경 문제 {#issue-2}
 
 ### 설명{#issue-2-desc}
 
@@ -85,7 +86,11 @@ Error:
 
 ### 해결 방법{#issue-2-workaround}
 
-해결 방법으로 문제 값(예: `Barker\`) 및 파일 형식 옵션을 포함합니다 `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
+해결 방법은 문자열 끝에서 백슬래시 문자가 포함된 데이터를 제외하거나 소스 파일에서 제거하는 것입니다.
+
+<!--
+As a workaround, export the files with double quotes around the problematic values (like `Barker\`) and include a file format option `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
+-->
 
 ### 내부 참조{#issue-2-ref}
 
@@ -113,7 +118,13 @@ Error:
 
 ### 해결 방법{#issue-3-workaround}
 
-서버에 파일을 업로드할 수 있으려면 이전 클라이언트 콘솔을 사용해야 합니다.
+해결 방법은 이전 클라이언트 콘솔을 사용하는 것입니다. 그러면 서버에 파일을 업로드할 수 있습니다.
+
+관리자는 [Adobe 배포 서비스](https://experience.adobe.com/downloads).
+
+Adobe 배포 서비스에 액세스하는 방법 알아보기 [이 페이지에서](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko)
+
+클라이언트 콘솔을 업그레이드하는 방법 알아보기 [이 페이지에서](connect.md)
 
 ### 내부 참조{#issue-3-ref}
 
