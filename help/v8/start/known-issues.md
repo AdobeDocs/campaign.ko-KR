@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 5fe921e83f36675837b72ca282315692151dcf67
+source-git-commit: c803c13c6d433d2c6730f32f43209c8effab1fde
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 3%
@@ -120,9 +120,9 @@ As a workaround, export the files with double quotes around the problematic valu
 
 해결 방법은 이전 클라이언트 콘솔을 사용하는 것입니다. 그러면 서버에 파일을 업로드할 수 있습니다.
 
-Campaign 관리자는 [Adobe 배포 서비스](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Repeat&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}.
+Campaign 관리자는 [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Repeat&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}.
 
-Adobe 배포 서비스에 액세스하는 방법 알아보기 [이 페이지에서](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target=&quot;_blank&quot;}.
+Adobe 소프트웨어 배포에 액세스하는 방법 알아보기 [이 페이지에서](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target=&quot;_blank&quot;}.
 
 클라이언트 콘솔을 업그레이드하는 방법 알아보기 [이 페이지에서](connect.md)
 
