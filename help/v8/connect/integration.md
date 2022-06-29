@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 14%
@@ -26,9 +26,8 @@ Adobe Campaign에는 외부 애플리케이션과 통신하고, 데이터베이�
 
 Campaign v8은 다음과 연결할 수 있습니다.
 
-
 * [Adobe Experience Cloud Real-Time CDP](../connect/ac-rtcdp.md)
-* [Adobe Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en).
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en).
 
    엔드 투 엔드 사용 사례 를 참조하십시오 [여기](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=ko).
 

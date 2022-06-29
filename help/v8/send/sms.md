@@ -1,14 +1,14 @@
 ---
 title: Adobe Campaign으로 SMS 보내기
 description: Campaign에서 SMS 시작
-feature: Overview
+feature: SMS
 role: Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Campaign을 사용하여 개인화된 SMS 메시지를 보냅니다.
 
 >[!NOTE]
 >
->또한 Adobe Campaign을 사용하면 해당 알림을 통해 모바일에 푸시 알림을 제출할 수도 있습니다 **Adobe Campaign Mobile 앱 채널(NMAC)** 선택 사항입니다. 추가 정보 [이 섹션](push.md).
+>또한 Adobe Campaign을 사용하면 해당 알림을 통해 모바일에 푸시 알림을 제출할 수도 있습니다 **Adobe Campaign 모바일 앱 채널(NMAC)** 선택 사항입니다. 추가 정보 [이 섹션](push.md).
 
 ## SMS 채널 구성
 

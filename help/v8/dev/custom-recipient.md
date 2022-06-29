@@ -1,11 +1,11 @@
 ---
 title: 기본 수신자 테이블 변경
 description: 사용자 지정 수신자 테이블을 사용하는 방법을 알아봅니다
-feature: Overview
+feature: Custom Resources, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 3%

@@ -1,14 +1,14 @@
 ---
 title: Adobe Campaign을 사용하여 이메일 보내기
 description: Campaign 이메일 시작하기
-feature: Overview
+feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 12%
 
 이메일 게재를 사용하면 개인화된 이메일을 대상 모집단으로 보낼 수 있습니다.
 
-![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html)를 참조하십시오{target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png)자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html){target=&quot;_blank&quot;}를 참조하십시오
 
 ## 첫 번째 이메일 게재 만들기
 
-나머지 고객 경험과 일관된 개인화된 상황별 관련 이메일을 만들 수 있습니다.
+나머지 고객 경험과 일관적인 개인화된 상황별 관련 이메일을 만들 수 있습니다.
 
 ![](assets/new-email-content.png)
 
@@ -103,4 +103,4 @@ Campaign은 대상자에게 이메일을 보내기 전에 전자 메일을 테�
 * 통제 그룹 사용
 * 전자 메일 렌더링 확인
 
-![](../assets/do-not-localize/book.png) [자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)를 참조하십시오{target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png)[자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}를 참조하십시오

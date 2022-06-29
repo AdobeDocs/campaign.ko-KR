@@ -1,11 +1,11 @@
 ---
 title: Campaign 및 Adobe Experience Cloud 트리거를 사용하여 작업
 description: Campaign 및 Adobe Experience Cloud 트리거를 사용하여 작업하는 방법을 알아봅니다
-feature: Overview
+feature: Triggers
 role: Data Engineer
 level: Beginner
 exl-id: a2ab85c3-ef5f-49fd-a6c4-2fd397c8d21b
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%

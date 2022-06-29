@@ -1,11 +1,11 @@
 ---
 title: Campaign 상호 작용 오퍼 카탈로그
 description: 오퍼 카탈로그를 만드는 방법을 알아봅니다
-feature: Overview
+feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: 911096e2-0307-46a8-873c-ee2248b8e3e8
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 2%

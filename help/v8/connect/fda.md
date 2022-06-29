@@ -1,11 +1,11 @@
 ---
 title: Campaign 및 외부 데이터베이스 작업(FDA)
 description: Campaign 및 외부 데이터베이스로 작업하는 방법 알아보기
-feature: Overview
+feature: Federated Data Access
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 3%
@@ -126,7 +126,7 @@ Adobe Campaign에서 외부 데이터베이스의 스키마를 만들려면 아�
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. 클릭 **[!UICONTROL OK]** 확인합니다. Adobe Campaign은 선택한 테이블의 구조를 자동으로 감지하고 논리 스키마를 생성합니다. Adobe Campaign은 링크를 생성하지 않습니다.
+1. **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 확인합니다. Adobe Campaign은 선택한 테이블의 구조를 자동으로 감지하고 논리 스키마를 생성합니다. Adobe Campaign은 링크를 생성하지 않습니다.
 
 1. 클릭 **[!UICONTROL Save]** 을 클릭하여 만들기를 확인합니다.
 

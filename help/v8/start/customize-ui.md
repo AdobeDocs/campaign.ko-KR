@@ -1,11 +1,11 @@
 ---
 title: Campaign UI 사용자 지정
 description: Campaign UI를 사용자 지정하는 방법 알아보기
-feature: Overview
+feature: Application Settings
 role: Data Engineer
 level: Beginner
 exl-id: a11d3895-00f1-43d0-b0f7-330fce9fd56b
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: c6a234f6c43531be032354d134e4745ad77cbcc7
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%

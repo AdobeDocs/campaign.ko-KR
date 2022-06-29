@@ -1,11 +1,11 @@
 ---
 title: 실시간 상호 작용 내역 및 보고
 description: Campaign 상호 작용을 통해 오퍼를 추적하고 측정하는 방법을 배웁니다
-feature: Overview
+feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: 83947f69-9f8e-4829-9a64-fd734d0cde37
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 4%

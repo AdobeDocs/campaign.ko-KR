@@ -1,11 +1,11 @@
 ---
 title: Adobe Campaign을 사용하여 DM 메시지 보내기
 description: LINE 메시지 시작
-feature: Overview
+feature: Line App
 role: Data Engineer
 level: Beginner
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
-source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
+source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 18%
