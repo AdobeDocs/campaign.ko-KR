@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: d7621adc0f4bd4eaad1b2ff8f270943e91f4edde
+source-git-commit: 39edd6c60c220118f34cd476b887194e1e7763e4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '356'
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브�
 Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다음과 같습니다. [자세히 알아보기](../connect/crm.md)
 
 * **Salesfore** connector API 버전 49
-* **Microsoft Dynamics** connector, Web API: Dynamics 365 온프레미스 및 온라인
+* **Microsoft Dynamics** 커넥터, 웹 API: Dynamics 365 온-프레미스 및 온라인
 
 ## FDA(Federated Data Access){#FederatedDataAccessFDA}
 
