@@ -3,8 +3,8 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 도움말 센터
 title: Adobe Campaign v8 제품 설명서
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: ht
+source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
+workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 * **[구현 지침](start/implement.md)** - 구현을 시작하는 방법 알아보기
 
-* **[v7에서 v8로 전환](start/capability-matrix.md)** - Campaign Classic v7에서 v8로 전환 주요 차이점 알아보기
+* **[v7에서 v8로 전환](start/v7-to-v8.md)** - Campaign Classic v7에서 v8로 전환 주요 차이점 알아보기
 
 * **[Campaign v8용 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target=&quot;_blank&quot;}** - Campaign 컨트롤 패널을 사용하여 직접 주요 관리자 작업을 수행합니다.
 

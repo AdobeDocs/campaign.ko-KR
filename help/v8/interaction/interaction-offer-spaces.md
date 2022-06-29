@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 3%
@@ -54,7 +54,7 @@ HTML 렌더링은 렌더링 함수를 통해 만들어집니다. 렌더링 함�
 
    이러한 함수는 오퍼 공간에 대한 오퍼 표현을 생성하는 데 사용됩니다. 다음과 같은 몇 가지 가능한 형식이 있습니다. HTML 또는 텍스트.
 
-   **참고** - XML 형식은 이 버전의 제품에서 사용할 수 없는 인바운드 상호 작용으로 제한됩니다. [자세히 알아보기](../start/capability-matrix.md#gs-unavailable-features)
+   **참고** - XML 형식은 이 버전의 제품에서 사용할 수 없는 인바운드 상호 작용으로 제한됩니다. [자세히 알아보기](../start/v7-to-v8.md#gs-unavailable-features)
 
    ![](assets/offer_space_create_006.png)_
 
