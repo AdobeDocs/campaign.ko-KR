@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 63e109f31706880a1723dfd0c611835842e39083
+source-git-commit: 70ad2603d299c3a848382503eb31571acae0ae48
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 78%
+source-wordcount: '635'
+ht-degree: 77%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 78%
 
 Adobe Campaign v8은 **관리 클라우드 서비스**&#x200B;로 사용 가능합니다.
 
-Adobe Campaign Managed Cloud Services은 크로스채널 고객 경험을 디자인할 수 있는 Managed Services 플랫폼을 제공하며 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리 및 크로스채널 실행 환경을 제공합니다. 에서 Campaign 관리 Cloud Services에 대해 자세히 알아보십시오 [제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}..
+Adobe Campaign Managed Cloud Services은 크로스채널 고객 경험을 디자인할 수 있는 Managed Services 플랫폼을 제공하며 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리 및 크로스채널 실행 환경을 제공합니다. 에서 Campaign 관리 Cloud Services에 대해 자세히 알아보십시오 [제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}.
 
 이 새로운 버전에서는 업계 최고의 서비스를 사전 예방적 관리와 시기 적절한 경고 기능을 결합했으며 세 가지 영역에 초점을 맞춥니다.
 
@@ -36,7 +36,7 @@ Adobe Campaign Managed Cloud Services은 크로스채널 고객 경험을 디자
 * **서비스 경험** — 사전 예방적 가용성, 용량, 성능 모니터링 및 응답으로 중단을 방지하고, 장애 해결 속도를 높이고, 정기적으로 서비스를 검토하여 지속적으로 개선됩니다.
 * **심층적인 Campaign 전문 지식** — 전문 고객 엔지니어링 팀의 높은 친화성 서비스로 기능, 기술 또는 게재 능력 요구 사항을 충족하고 배포 위험을 줄이고 변경 관리를 개선합니다.
 
-이전 [!DNL Campaign Classic] 사용자는 대부분의 [!DNL Campaign Classic] v7 기능을 [!DNL Campaign] v8에서도 사용할 수 있습니다(일부 예외 사항: [이 섹션](#gs-removed) 참조). 다른 기능은 향후 릴리스에서 제공될 예정입니다. [이 섹션에서 자세히 알아보기](#gs-unavailable-features)
+이전 [!DNL Campaign Classic] 사용자는 대부분의 [!DNL Campaign Classic] v7 기능을 [!DNL Campaign] v8에서도 사용할 수 있습니다(일부 예외 사항: [이 섹션](#gs-removed) 참조).
 
 >[!NOTE]
 >
