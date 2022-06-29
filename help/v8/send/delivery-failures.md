@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '3009'
+source-wordcount: '3008'
 ht-degree: 7%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 7%
 
 ![](assets/delivery-log-qualification.png)-->
 
-현재 Adobe Campaign에서 반송 메일 자격을 처리하는 방법은 오류 유형에 따라 다릅니다.
+Adobe Campaign에서 반송 메일 자격을 처리하는 방법은 오류 유형에 따라 다릅니다.
 
 * **동기 오류**: MTA가 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 전송합니다. 에서 바운스 자격 **[!UICONTROL Delivery log qualification]** 표는 다음 용도로 사용되지 않습니다. **동기** 게재 실패 오류 메시지.
 

@@ -6,7 +6,8 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c803c13c6d433d2c6730f32f43209c8effab1fde
+exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
+source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 
 # 알려진 문제{#known-issues}
 
-이 페이지에는 **최신 Campaign v8 릴리스**. 또한 Campaign v8에는 제한 사항이 나열되어 있습니다 [이 페이지에서](known-limitations.md).
+이 페이지에는 **최신 Campaign v8 릴리스**. 또한 Campaign v8에는 제한 사항이 나열되어 있습니다 [이 페이지에서](ac-guardrails.md).
 
 
 >[!NOTE]

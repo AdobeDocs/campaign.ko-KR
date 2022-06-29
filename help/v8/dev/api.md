@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 15%
+source-wordcount: '245'
+ht-degree: 16%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 15%
 
 JavaScript API를 사용하여 Campaign 클라우드 데이터베이스에 작성하거나 데이터베이스에서 읽을 수 있습니다.
 
-* 각 객체에 대해 작업을 수행할 수 있는 비즈니스 특정 API: 게재, 워크플로우, 구독 등. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html)를 참조하세요.
-* 데이터 모델 데이터를 쿼리하기 위한 일반 데이터 액세스 API. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html)를 참조하세요.
+* 각 객체에 대해 작업을 수행할 수 있는 비즈니스 특정 API: 게재, 워크플로우, 구독 등. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html)를 참조하십시오{target=&quot;_blank&quot;}.
+* 데이터 모델 데이터를 쿼리하기 위한 일반 데이터 액세스 API. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html)를 참조하십시오{target=&quot;_blank&quot;}.
 
-Campaign v8은 두 개의 데이터베이스에서 작동합니다. API를 통해 실시간 메시징 및 단일 쿼리 및 쓰기를 위한 사용자 인터페이스의 로컬 데이터베이스, 캠페인 실행, 보고, 데이터 수집, 배치 쿼리 및 워크플로우 실행을 위한 클라우드 데이터베이스.
+다음 사항에 주의하십시오 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), Campaign은 다음 두 개의 데이터베이스에서 작동합니다. API를 통해 실시간 메시징 및 단일 쿼리 및 쓰기를 위한 사용자 인터페이스의 로컬 데이터베이스, 캠페인 실행, 보고, 데이터 수집, 배치 쿼리 및 워크플로우 실행을 위한 클라우드 데이터베이스.
 
 >[!CAUTION]
 >

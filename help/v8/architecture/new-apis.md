@@ -1,20 +1,20 @@
 ---
-title: 새 Campaign v8 API
-description: 새 Campaign v8 API
+title: FFDA 배포 API
+description: FFDA 관련 API
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---
 
-# 새 Campaign API{#gs-new-api}
+# 특정 FFDA 캠페인 API{#gs-new-api}
 
-의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md), Campaign v8에는 Campaign 로컬 데이터베이스와 Cloud 데이터베이스 간의 데이터를 관리하는 두 개의 새로운 API가 포함되어 있습니다. 이를 사용하기 위한 사전 요구 사항은 스키마에서 스테이징 메커니즘을 활성화하는 것입니다. [자세히 알아보기](staging.md)
+의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md), Campaign v8에는 Campaign 로컬 데이터베이스와 Cloud 데이터베이스 간의 데이터를 관리하기 위한 두 개의 특정 API가 포함되어 있습니다. 이를 사용하기 위한 사전 요구 사항은 스키마에서 스테이징 메커니즘을 활성화하는 것입니다. [자세히 알아보기](staging.md)
 
 * 수집 API: **xtk.session.ingest**
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 다음 **xtk.session.ingest** API는 데이터 삽입에만 사용됩니다. 업데이트/삭제가 없습니다.
 
-### 조정 없이 삽입
+### 조정 없이 삽입{#insert-no-reconciliation}
 
 **워크플로우에서**
 
@@ -170,7 +170,6 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 **SOAP 호출에서**
 
-
 1. 인증 토큰을 가져옵니다.
 1. API를 트리거합니다. 페이로드는 다음과 같습니다.
 
@@ -213,4 +212,4 @@ Campaign의 구독 관리는 [이 페이지](../start/subscriptions.md).
 
 **관련 항목**
 
-* [Campaign Classic v7 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html)
+* [Campaign Classic v7 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target=&quot;_blank&quot;}

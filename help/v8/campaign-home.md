@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 도움말 센터
 title: Adobe Campaign v8 제품 설명서
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
+source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 100%
+source-wordcount: '130'
+ht-degree: 97%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ## 추가 리소스
 
-* [알려진 제한 사항](start/known-limitations.md)
+* [보호 및 제한 사항](start/ac-guardrails.md)
 * [아키텍처](architecture/architecture.md)
 * [측정 및 추적](start/reporting.md)
 * [다른 솔루션과 연결](connect/integration.md)

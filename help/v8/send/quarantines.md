@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1097'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ Adobe Campaign은 게재 실패 유형 및 그 이유에 따라 격리를 관리
 격리된 주소 목록에서 **[!UICONTROL Error reason]** 필드는 선택한 주소가 격리된 이유를 나타냅니다. [자세히 알아보기](#identifying-quarantined-addresses-for-the-entire-platform)
 
 
-사용자가 이메일을 스팸 처리하면 해당 메시지는 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL Denylisted]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은에 차단 목록 없습니다. 따라서 사용자는 계속해서 SMS 메시지와 푸시 알림을 수신합니다. 의 피드백 루프에 대해 자세히 알아보십시오 [게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
+사용자가 이메일을 스팸 처리하면 해당 메시지는 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL Denylisted]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은에 차단 목록 없습니다. 따라서 사용자는 계속해서 SMS 메시지와 푸시 알림을 수신합니다. 의 피드백 루프에 대해 자세히 알아보십시오 [게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target=&quot;_blank&quot;}.
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Adobe Campaign은 게재 실패 유형 및 그 이유에 따라 격리를 관리
 
 또한 **[!UICONTROL Non-deliverables and bounces]** 기본 제공 보고서, **보고서** 이 홈 페이지의 섹션에는 격리된 주소, 발생한 오류 유형 및 도메인별 실패 분류에 대한 정보가 표시됩니다. 특정 전달에 대한 데이터를 필터링하거나 필요에 따라 이 보고서를 사용자 지정할 수 있습니다.
 
-에서 바운스 주소에 대해 자세히 알아보십시오 [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html)
+에서 바운스 주소에 대해 자세히 알아보십시오 [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target=&quot;_blank&quot;}.
 
 ### 격리된 전자 메일 주소 {#quarantined-recipient}
 
