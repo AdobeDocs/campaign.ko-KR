@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 39edd6c60c220118f34cd476b887194e1e7763e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2161'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -254,7 +254,7 @@ _2021년 9월 7일_
 
 **기타 변경 사항**
 
-* 이전에 더 이상 사용되지 않는 Microsoft CRM 커넥터(Office 365 및 온-프레미스 배포)가 인터페이스에서 제거되었습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=ko#configure-acc-for-microsoft)
+* 이전에 사용 종료된 Microsoft CRM 커넥터(Office 365 및 온프레미스 배포)를 인터페이스에서 제거했습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=ko#configure-acc-for-microsoft)
 * Tomcat 8로 마이그레이션한 후 IIS 설정 스크립트를 업데이트하여 IIS 통합 문제를 해결했습니다. (NEO-31019)
 * [청구 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=ko#billing-report)를 마케팅 인스턴스에서만 실행할 수 있도록 하기 위해 가드레일이 추가되었습니다.
 * 워크플로우 전환의 **모집단 보기** 창에서 데이터 및 스키마 탭에서 데이터 소스 식별이 개선되었습니다.
