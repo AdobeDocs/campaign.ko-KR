@@ -5,7 +5,7 @@ description: Campaign v8 설명서
 breadcrumb-title: Campaign v8
 title: Campaign v8 문서
 source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 100%
 
