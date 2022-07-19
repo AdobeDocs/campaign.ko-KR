@@ -5,9 +5,9 @@ feature: Monitoring
 role: Data Engineer
 level: Beginner
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: c6a234f6c43531be032354d134e4745ad77cbcc7
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '898'
 ht-degree: 20%
 
 ---
@@ -123,7 +123,7 @@ Adobe Campaign은 프로세스와 환경을 모니터링하는 기능 세트를 
 
 ### 워크플로우 모니터링
 
-에서 워크플로우 실행을 모니터링하는 방법을 알아봅니다.  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+에서 워크플로우 실행을 모니터링하는 방법을 알아봅니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
 
 ### 인스턴스 모니터링
 

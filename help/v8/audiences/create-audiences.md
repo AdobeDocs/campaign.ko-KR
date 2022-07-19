@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 3%
+source-wordcount: '785'
+ht-degree: 2%
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Campaign의 목록 관리에 대해 자세히 알려면 이 비디오를 �
 
    ![](assets/targeting-wf-age-filter.png)
 
-   의 워크플로우에서 쿼리를 만드는 방법을 알아봅니다 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query){target=&quot;_blank&quot;}
+   의 워크플로우에서 쿼리를 만드는 방법을 알아봅니다 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
 
 1. 이 쿼리의 레이블을 추가하고 변경 사항을 저장합니다.
 1. 추가 **[!UICONTROL List update]** 활동을 편집하고 편집합니다.
@@ -124,7 +124,7 @@ Adobe Campaign의 목록 관리에 대해 자세히 알려면 이 비디오를 �
 
    ![](assets/access-new-list.png)
 
-   워크플로우에 스케줄러를 추가하여 이 워크플로우를 재귀적으로 만들 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html)를 참조하십시오{target=&quot;_blank&quot;}.
+   워크플로우에 스케줄러를 추가하여 이 워크플로우를 재귀적으로 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html)
 
 ## 목록에서 프로필 제거 {#remove-a-profile-from-a-list}
 

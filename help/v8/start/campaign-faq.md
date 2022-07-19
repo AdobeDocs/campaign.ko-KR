@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '657'
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
 1. **워크플로우 실행을 모니터링할 수 있습니까?**
 
-   ![](../assets/do-not-localize/book.png) Campaign 워크플로우 실행을 모니터링하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=ko)를 참조하십시오{target=&quot;_blank&quot;}
+   캠페인 워크플로우 실행을 모니터링하는 방법을 이해합니다 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html)
 
 1. **Campaign v8과 호환되는 시스템과 구성 요소에는 무엇이 있나요?**
 

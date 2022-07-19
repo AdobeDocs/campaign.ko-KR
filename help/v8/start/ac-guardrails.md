@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
-source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 97%
 
 ---
 
@@ -28,4 +28,4 @@ ht-degree: 100%
 * [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)의 컨텍스트에서는 구독(옵트인) 및 구독 취소(옵트아웃) 메커니즘 및 모바일 등록은 비동기 프로세스입니다. 요청은 특정 기술 워크플로우를 통해 한 시간에 한 번씩 처리됩니다. [자세히 알아보기](../architecture/replication.md#tech-wf)
 * 복제본은 최종 사용자가 수동으로 처리해야 합니다. [자세히 알아보기](../architecture/keys.md)
 * Adobe Campaign v8은 API 및 웹 애플리케이션에서 확장된 처리량을 지원하지 않습니다. 특정 요구 사항이 있는 경우 Adobe에 문의하여 안내를 받으시기 바랍니다.
-* Adobe Campaign의 캠페인 최적화 모듈은 압력 유형화 규칙에 대해 예약된 게재를 고려하지 않습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html?lang=ko#setting-the-period){target=&quot;_blank&quot;}를 참조하십시오
+* Adobe Campaign의 캠페인 최적화 모듈은 압력 유형화 규칙에 대해 예약된 게재를 고려하지 않습니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html)에서 자세히 알아보십시오.

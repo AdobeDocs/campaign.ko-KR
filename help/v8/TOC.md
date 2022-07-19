@@ -2,12 +2,12 @@
 audience: end-user
 user-guide-title: Campaign v8
 description: Campaign v8 설명서
-breadcrumb-title: Campaign v8
+breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
+source-git-commit: ca52da16933f57181a0c4228bda9a2d33ebcedef
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 100%
+source-wordcount: '361'
+ht-degree: 96%
 
 ---
 
@@ -138,4 +138,4 @@ ht-degree: 100%
       + [입력 양식](dev/forms.md)
    + [Campaign API](dev/api.md)
 + [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
-
++ [Campaign Automation 안내서](https://experienceleague.adobe.com/docs/campaign/automation/home.html)

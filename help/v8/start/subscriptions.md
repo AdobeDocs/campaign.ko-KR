@@ -5,10 +5,10 @@ feature: Subscriptions
 role: Data Engineer
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: c6a234f6c43531be032354d134e4745ad77cbcc7
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 12%
+source-wordcount: '539'
+ht-degree: 11%
 
 ---
 
@@ -56,7 +56,7 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 
    ![](assets/wf-subscription.png)
 
-   ![](../assets/do-not-localize/book.png)자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter){target=&quot;_blank&quot;}를 참조하십시오
+   [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html)에서 자세히 알아보십시오.
 
 서비스에서 프로필을 구독 취소(옵트아웃)하려면 다음 옵션을 사용할 수 있습니다.
 

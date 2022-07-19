@@ -5,10 +5,10 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 19%
+source-wordcount: '489'
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign에서, **수신자** 게재(이메일, SMS 등)를 보낼 타겟�
 
 워크플로우의 그래픽 시퀀스에서 쿼리 조합을 통해 타겟팅을 만들 수 있습니다. 요구 사항에 따라 타겟팅할 대상을 만들 수 있습니다. 워크플로우 편집기를 표시하려면 **[!UICONTROL Targeting and workflows]** campaign 대시보드의 탭입니다.
 
-![](../assets/do-not-localize/book.png) 에서 캠페인 워크플로우에서 대상을 만드는 방법을 알아봅니다 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}.
+에서 캠페인 워크플로우에서 대상을 만드는 방법을 알아봅니다 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
 
 
 ## 활성 프로필{#active-profiles}
@@ -57,10 +57,10 @@ Adobe Campaign은 개인 정보와 중요한 데이터를 포함한 많은 양�
 
 ![](../assets/do-not-localize/book.png) 에서 개인 정보 및 동의를 관리하는 방법을 알아봅니다 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko){target=&quot;_blank&quot;}.
 
-Campaign Classic v7 설명서의 **관련 항목**:
+**관련 항목**
 
-* [캠페인별 워크플로우 디자인 및 실행](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html){target=&quot;_blank&quot;}
+* [캠페인별 워크플로우 디자인 및 실행](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html)
 
-* [캠페인 대상자를 선택하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html){target=&quot;_blank&quot;}
+* [캠페인 대상자를 선택하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
 
-* [워크플로우 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html){target=&quot;_blank&quot;}
+* [워크플로우 시작](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)

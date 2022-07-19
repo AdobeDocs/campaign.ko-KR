@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: b6a5083f-2b5a-4f5b-ad30-d91363752896
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 6%
+source-wordcount: '268'
+ht-degree: 11%
 
 ---
 
@@ -22,17 +22,13 @@ Campaign 데이터베이스를 채우려면 다음을 수행할 수 있습니다
 
 ### 목록의 데이터 사용: 목록 읽기 {#data-from-read-list}
 
-워크플로우로 가져올 수 있도록 파일에서 데이터를 준비하여 구조화합니다.
-
-워크플로우에서 목록 읽기 활동 사용에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/read-list.html){target=&quot;_blank&quot;}.
+워크플로우로 가져올 수 있도록 파일에서 데이터를 준비하여 구조화합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html)
 
 ### 파일에서 데이터 로드 {#data-from-a-file}
 
-워크플로우에서 처리된 데이터를 구조화된 파일에서 추출하여 Adobe Campaign으로 가져올 수 있습니다.
+워크플로우에서 처리된 데이터를 구조화된 파일에서 추출하여 Adobe Campaign으로 가져올 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html)
 
-데이터 로드 활동에 대한 설명은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html){target=&quot;_blank&quot;}.
-
-데이터가 수집되면 워크플로우에서 사용할 수 있습니다. 예를 들어 게재를 보강하거나 데이터베이스를 업데이트하는 등의 작업을 할 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서]https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/how-to-use-workflow-data.htmll){target=&quot;_blank&quot;}.
+데이터가 수집되면 워크플로우에서 사용할 수 있습니다. 예를 들어 게재를 보강하거나 데이터베이스를 업데이트하는 등의 작업을 할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html)을 참조하십시오.
 
 ## 일회성 가져오기{#import-jobs}
 

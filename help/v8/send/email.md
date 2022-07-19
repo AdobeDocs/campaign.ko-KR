@@ -5,9 +5,9 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '576'
 ht-degree: 16%
 
 ---
@@ -75,12 +75,12 @@ ht-degree: 16%
    컨텐츠가 준비되면 **저장**: 이제 게재 목록( **[!UICONTROL Campaigns > Deliveries]** 탭. 첫 번째 이메일 게재가 준비되었습니다. 이제 대상을 정의하고, 게재의 유효성을 확인하고, 전송해야 합니다.
 
 
-자세한 내용은 Campaign Classic v7 설명서의 이러한 섹션에서 알아보십시오.
+여기에서 이메일 콘텐츠를 가져오는 방법을 알아봅니다 [사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
+
+자세한 내용은 **Campaign Classic v7 설명서**:
 
 * Campaign에서 이메일 디자인
    ![](../assets/do-not-localize/book.png) [이메일 디자인 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html){target=&quot;_blank&quot;}
-* 이메일 콘텐츠 가져오기
-   ![](../assets/do-not-localize/book.png) [사용 사례: 게재 콘텐츠를 로드하는 워크플로우 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html){target=&quot;_blank&quot;}
 * 이메일 템플릿 만들기 및 사용
    ![](../assets/do-not-localize/book.png) [이메일 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko){target=&quot;_blank&quot;}
 * 이메일 대상자를 선택합니다

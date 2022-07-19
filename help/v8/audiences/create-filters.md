@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
@@ -325,12 +325,12 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 고급 필터링 기능을 수행하려면 함수를 사용하여 필터의 콘텐츠를 정의합니다. 고급 필터 편집기는 Campaign 쿼리 편집기의 모든 기능을 활용합니다.
 
-Adobe Campaign Classic v7 설명서에서 고급 쿼리를 작성하는 방법을 알아봅니다. 예제:
+이러한 종단간 샘플에서 고급 쿼리를 만드는 방법을 알아봅니다.
 
-* 에서 간단한 수신자 특성을 타깃팅하는 방법을 알아봅니다 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html?lang=en#example--targeting-on-simple-recipient-attributes){target=&quot;_blank&quot;}.
-* 지난 7일 동안 연락하지 않은 수신자를 필터링하는 방법을 알아봅니다. [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-using-many-to-many-relationship.html){target=&quot;_blank&quot;}.
-* 운영자 목록을 복구하는 방법은 의 활성 계정으로 필터링합니다. [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/creating-a-filter.html){target=&quot;_blank&quot;}.
-* 에서 생일 이메일 대상자를 만드는 방법을 알아봅니다  [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=en#identifying-recipients-whose-birthday-it-is){target=&quot;_blank&quot;}.
+* 에서 간단한 수신자 특성을 타깃팅하는 방법을 알아봅니다 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
+* 지난 7일 동안 연락하지 않은 수신자를 필터링하는 방법을 알아봅니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html).
+* 운영자 목록을 복구하는 방법은 의 활성 계정으로 필터링합니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html).
+* 에서 생일 이메일 대상자를 만드는 방법을 알아봅니다  [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html).
 
 
 ### 사전 정의된 필터에 대한 고급 매개 변수 {#param-for-data-filters}

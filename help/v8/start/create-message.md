@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
-workflow-type: ht
-source-wordcount: '643'
-ht-degree: 100%
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+workflow-type: tm+mt
+source-wordcount: '633'
+ht-degree: 92%
 
 ---
 
@@ -48,13 +48,13 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 
    ![](assets/deliveries-in-a-campaign.png)
 
-   ![](../assets/do-not-localize/book.png)  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=ko){target=&quot;_blank&quot;}에서 캠페인 컨텍스트에서 메시지를 보내는 방법을 알아봅니다
+   에서 캠페인 컨텍스트에서 메시지를 보내는 방법을 알아봅니다 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html)
 
 * [워크플로우](../config/workflows.md)를 통해 메시지 보내기
 
    ![](assets/send-in-a-wf.png)
 
-   ![](../assets/do-not-localize/book.png)  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=ko){target=&quot;_blank&quot;}에서 메일 게재를 자동화하는 방법을 알아봅니다
+   ![](../assets/do-not-localize/glass.png) 에서 이메일 게재를 자동화하는 방법을 알아봅니다 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery.html)
 
 * 이벤트를 통한 [메시지 트리거](../send/transactional.md)
    ![](../assets/do-not-localize/book.png) [사용 사례:파일을 첨부한 트랜잭션 이메일을 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ko){target=&quot;_blank&quot;}
@@ -63,7 +63,7 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 
    ![](assets/schedule-send.png)
 
-   ![](../assets/do-not-localize/book.png) [사용 사례:생일 축하 이메일을 예약하고 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=ko){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/glass.png) [사용 사례:생일 축하 이메일을 예약하고 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
 
 
 ## 개인화 추가{#personalization}
@@ -100,6 +100,6 @@ Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화�
 
 * [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=ko){target=&quot;_blank&quot;}
 
-* [이메일 테스트 및 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=ko){target=&quot;_blank&quot;}
+* [이메일 테스트 및 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target=&quot;_blank&quot;}
 
 * [증명 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target=&quot;_blank&quot;}

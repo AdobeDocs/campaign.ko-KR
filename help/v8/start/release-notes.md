@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 39edd6c60c220118f34cd476b887194e1e7763e4
-workflow-type: ht
-source-wordcount: '2161'
-ht-degree: 100%
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+workflow-type: tm+mt
+source-wordcount: '2160'
+ht-degree: 99%
 
 ---
 
@@ -155,7 +155,7 @@ _2021년 10월 28일_
 <tbody> 
 <tr> 
 <td> <p>이제 Campaign 최적화 모듈을 사용할 수 있습니다. 이 모듈로 게재 전송을 제어, 필터링 및 모니터링할 수 있습니다. 캠페인 간의 충돌을 방지하기 위해 Adobe Campaign은 특정 제한 조건을 적용하여 다양한 조합을 테스트할 수 있습니다. 이를 통해 회사 커뮤니케이션 정책을 준수하면서 고객의 요구 사항과 기대치에 가장 적합한 메시지를 보내도록 보장합니다.</p>
-<p>자세한 내용은 관련 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=ko">Campaign Classic v7 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=en#campaign-optimization">세부 설명서</a>를 참조하세요.</p>
 </td> 
 </tr> 
 </tbody> 

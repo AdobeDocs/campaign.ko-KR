@@ -5,9 +5,9 @@ feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1265'
 ht-degree: 3%
 
 ---
@@ -76,9 +76,7 @@ ht-degree: 3%
 
 ### 데이터 보강 {#enrichment}
 
-다음 **데이터 보강** 활동을 사용하면 게재 수신자를 위한 오퍼에 오퍼나 링크를 추가할 수 있습니다.
-
-![](../assets/do-not-localize/book.png) 데이터 보강 활동에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
+다음 **데이터 보강** 활동을 사용하면 게재 수신자를 위한 오퍼에 오퍼나 링크를 추가할 수 있습니다.[자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html)
 
 예를 들어 게재 전에 수신자 쿼리의 데이터를 보강할 수 있습니다.
 
@@ -165,7 +163,7 @@ ht-degree: 3%
 
 다음 **[!UICONTROL Offer engine]** 또한 활동을 사용하면 게재 전에 오퍼 엔진에 대한 호출을 지정할 수 있습니다.
 
-![](../assets/do-not-localize/book.png) 자세한 내용은 **오퍼 엔진** 활동, [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
+자세한 내용은 **오퍼 엔진** 활동, [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html)
 
 이 활동은 다음과 같은 원리로 작동합니다 **데이터 보강** 게재 전, 엔진에서 계산된 오퍼로 인바운드 모집단 데이터를 강화하여 엔진 호출을 사용한 활동.
 
@@ -188,7 +186,7 @@ ht-degree: 3%
 
 다음 **[!UICONTROL Offers by cell]** 활동을 사용하면 인바운드 모집단을 여러 세그먼트로(예: 쿼리에서) 배포하고 이러한 각 세그먼트에 대해 표시할 오퍼를 지정할 수 있습니다.
 
-![](../assets/do-not-localize/book.png) 자세한 내용은 **셀별 오퍼** 활동, [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
+자세한 내용은 **셀별 오퍼** 활동, [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html)
 
 이렇게 하려면 다음 프로세스를 사용합니다.
 

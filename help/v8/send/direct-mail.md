@@ -5,10 +5,10 @@ feature: Direct Mail
 role: Data Engineer
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
-source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 15%
+source-wordcount: '407'
+ht-degree: 12%
 
 ---
 
@@ -46,9 +46,7 @@ DM 게재를 사용하면 대상 모집단에 대한 데이터가 포함된 추�
 
    ![](../assets/do-not-localize/book.png)자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html){target=&quot;_blank&quot;}를 참조하십시오
 
-   마케팅 캠페인 컨텍스트에서 추출 날짜에 추출 파일이 만들어집니다. 추출된 파일의 컨텐츠를 보거나, 승인하거나, 형식을 변경하고, 필요한 경우 추출을 다시 시작할 수 있습니다. 파일이 승인되면 라우터에 알림 이메일을 보낼 수 있습니다.
-
-   ![](../assets/do-not-localize/book.png)자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html#approving-an-extraction-file){target=&quot;_blank&quot;}를 참조하십시오
+   마케팅 캠페인 컨텍스트에서 추출 날짜에 추출 파일이 만들어집니다. 추출된 파일의 컨텐츠를 보거나, 승인하거나, 형식을 변경하고, 필요한 경우 추출을 다시 시작할 수 있습니다. 파일이 승인되면 라우터에 알림 이메일을 보낼 수 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html)에서 자세히 알아보기
 
 1. 게재 시작
 
@@ -56,6 +54,4 @@ DM 게재를 사용하면 대상 모집단에 대한 데이터가 포함된 추�
 
    확인이 지정된 파일에서 데이터 추출을 시작합니다.
 
-   마케팅 캠페인 컨텍스트에서 모든 승인이 부여되면 DM 게재가 추출 보류 중일 때 기본 구성에서 자동으로 시작되는 특수 워크플로우를 통해 추출 파일이 만들어집니다.
-
-   ![](../assets/do-not-localize/book.png)자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html#starting-an-offline-delivery){target=&quot;_blank&quot;}를 참조하십시오
+   마케팅 캠페인 컨텍스트에서 모든 승인이 부여되면 DM 게재가 추출 보류 중일 때 기본 구성에서 자동으로 시작되는 특수 워크플로우를 통해 추출 파일이 만들어집니다. 추가 정보 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html)
