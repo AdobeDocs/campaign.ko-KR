@@ -5,16 +5,16 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 39edd6c60c220118f34cd476b887194e1e7763e4
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+source-git-commit: 50b6c9c8f55bb870e95c91bd1de22e3392e732dd
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 91%
 
 ---
 
 # Campaign v8 호환성 표
 
-이 문서는 **Adobe Campaign v8**&#x200B;의 최신 빌드를 지원하는 모든 시스템 및 구성 요소를 나열합니다. 별도로 언급되지 않는 한 모든 마이너 릴리스도 지원됩니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
+이 문서에서는 **Adobe Campaign v8 최신 빌드**. 별도로 언급되지 않는 한 모든 마이너 릴리스도 지원됩니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
 
 이러한 타사 시스템 및 도구의 특정 버전이 EOL(End-of-Life)에 도달함에 따라 Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며 이후 이 호환성 매트릭스에서 제거됩니다. 문제가 생기지 않도록 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
 
@@ -24,20 +24,14 @@ ht-degree: 100%
 
 ## 클라이언트 콘솔{#ClientConsoleoperatingsystems}
 
-Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다. [자세히 알아보기](connect.md)
-
-### 운영 체제
+Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제 중 하나가 필요합니다. [자세히 알아보기](connect.md)
 
 * **Microsoft Windows Server** 2019, 2016, 2012
-* **Microsoft Windows** 11(Campaign v8.3부터), 10, 8,
+* **Microsoft Windows** 11(Campaign v8.3부터), 10, 8
 
 >[!NOTE]
 >
 >일본어 인스턴스에 대해서는 Microsoft Windows 10을 권장합니다.
-
-### 브라우저
-
-**Microsoft Internet Explorer** 11
 
 ## CRM 커넥터{#CRMconnectors}
 
