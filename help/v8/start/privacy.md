@@ -6,20 +6,20 @@ role: Data Engineer
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 source-git-commit: 41a213eea434b3fc6ee8b3ea3c29d4364f9c9761
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1080'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 # Campaign의 개인 정보 보호 요청 관리 {#privacy}
 
-비즈니스의 성격과 해당 기관이 운영하는 관할 구역에 따라 데이터 운영에 법적 개인 정보 보호 규정이 적용될 수 있습니다. 이러한 규정에서는 고객에게 수집된 데이터에 대한 액세스를 요청할 수 있는 권한과 저장된 데이터의 삭제를 요청할 수 있는 권한을 부여하는 경우가 많습니다. 개인 데이터에 대한 이러한 고객 요청을 설명서 전체에서 &quot;개인 정보 보호 요청&quot;이라고 합니다.
+비즈니스의 성격과 운영되는 관할 구역에 따라 데이터 운영에 법적 개인 정보 보호 규정이 적용될 수 있습니다. 이러한 규정에서는 고객에게 수집된 데이터에 대한 액세스를 요청할 수 있는 권한과 저장된 데이터의 삭제를 요청할 수 있는 권한을 부여하는 경우가 많습니다. 설명서 전체에서 개인 데이터에 대한 이러한 고객 요청을 “개인 정보 보호 요청”이라고 합니다.
 
  Campaign은 저장된 데이터에 대한 개인 정보 보호 요청을 만들고 처리할 수 있는 도구를 데이터 컨트롤러에 제공합니다. 따라서 요청을 하는 데이터 주체의 ID를 확인하고 요청자에게 반환되는 데이터가 데이터 주체의 정보임을 확인하는 것은 데이터 컨트롤러로서의 책임입니다. 개인 데이터 및 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko){target=&quot;_blank&quot;}에서 데이터를 관리하는 다양한 엔터티에 대해 자세히 알아보세요.
 
 
-Campaign에서 개인 정보 요청을 관리하려면 먼저 해야 합니다 [네임스페이스 정의](#namespaces). 그러면 개인 정보 요청을 만들고 관리할 수 있습니다. 개인 정보 요청을 수행하려면 **Adobe Privacy Service** 통합. Privacy Service에서 모든 Adobe Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로우를 통해 Campaign에서 자동으로 처리됩니다. [자세히 알아보기](#create-privacy-request)
+Campaign에서 개인 정보 요청을 관리하려면 먼저 [네임스페이스를 정의](#namespaces)해야 합니다. 그러면 개인 정보 요청을 만들고 관리할 수 있습니다. 개인 정보 요청을 수행하려면 **Adobe Privacy Service** 통합을 사용하십시오.  Privacy Service에서 모든 Adobe Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로우를 통해 Campaign에서 자동으로 처리됩니다. [자세히 알아보기](#create-privacy-request)
 
 ![](../assets/do-not-localize/speech.png)**액세스 권한** 및 **잊혀질 권리**(삭제 요청)에 대해 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko){target=&quot;_blank&quot;}에서 알아보세요.
 
@@ -30,11 +30,11 @@ Campaign에서 개인 정보 요청을 관리하려면 먼저 해야 합니다 [
 
 ## 네임스페이스 정의 {#namespaces}
 
-개인 정보 보호 요청을 만들기 전에 다음을 수행해야 합니다 **네임스페이스 정의** 를 사용하십시오. 네임스페이스는 데이터베이스에서 데이터 주체를 식별하는 데 사용되는 키입니다.
+개인 정보 보호 요청을 만들기 전에 사용할 **네임스페이스를 정의**&#x200B;해야 합니다. 네임스페이스는 데이터베이스에서 데이터 주체를 식별하는 데 사용되는 키입니다.
 
 >[!NOTE]
 >
->의 ID 네임스페이스에 대해 자세히 알아보십시오 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko){target=&quot;_blank&quot;}.
+>[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko){target=&quot;_blank&quot;}에서 ID 네임스페이스에 대해 자세히 알아보십시오.
 
 현재 Adobe Campaign에서는 Experience Platform ID 네임스페이스 서비스에서 네임스페이스 가져오기를 지원하지 않습니다. 따라서 ID 네임스페이스 서비스에서 네임스페이스를 만들면 Adobe Campaign 인터페이스에서 해당 네임스페이스를 수동으로 만들어야 합니다. 이렇게 하려면 아래 단계를 수행합니다.
 
@@ -48,7 +48,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. [ID 네임스페이스 서비스](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace?lang=ko){target=&quot;_blank&quot;}에서 네임스페이스를 만듭니다.
 
-1. When [id 네임스페이스 나열](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces?lang=ko)조직에서 사용할 수 있는 {target=&quot;_blank&quot;} 네임스페이스는 다음과 같은 세부 정보를 얻을 수 있습니다.
+1. 조직에서 사용 가능한 [ID 네임스페이스 목록을 나열](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces?lang=ko){target=&quot;_blank&quot;}할 때 네임스페이스는 다음과 같은 세부 정보를 제공합니다.
 
    ```
    {
@@ -65,7 +65,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
    }
    ```
 
-1. Adobe Campaign에서 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]** 을(를) 선택합니다. **[!UICONTROL New]**.
+1. Adobe Campaign에서 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**(으)로 이동한 다음 **[!UICONTROL New]**&#x200B;을(를) 선택합니다.
 
    ![](assets/privacy-namespaces-new.png)
 
@@ -73,8 +73,8 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. ID 네임스페이스 서비스에서 만든 네임스페이스와 일치하도록 새 네임스페이스 세부 사항을 입력합니다.
 
-   * a **[!UICONTROL AEC Namespace ID]** 는 &quot;id&quot; 속성과 일치해야 합니다
-   * a **[!UICONTROL Internal name]** 는 &quot;code&quot; 속성과 일치해야 합니다.
+   * **[!UICONTROL AEC Namespace ID]**&#x200B;은(는) &quot;id&quot; 속성과 일치해야 합니다.
+   * **[!UICONTROL Internal name]**&#x200B;은(는) &quot;code&quot; 속성과 일치해야 합니다.
    * **[!UICONTROL Reconciliation key]**&#x200B;은(는) &quot;idType&quot; 속성과 일치해야 합니다
 
    ![](assets/privacy-namespaces-details.png)
@@ -85,7 +85,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
    >[!NOTE]
    >
-   >여러 대상 매핑을 사용해야 하는 경우 대상 매핑당 하나의 네임스페이스를 만드십시오.
+   >여러 대상 매핑을 사용하려면 대상 매핑당 네임스페이스를 하나씩 만듭니다.
 
 1. 변경 내용을 저장합니다.
 
@@ -93,11 +93,11 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 ## 개인 정보 보호 요청 생성 {#create-privacy-request}
 
-다음 **[!DNL Adobe Experience Platform Privacy Service]** 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 개인 정보 보호 요청을 자동화할 수 있습니다. Adobe Campaign은 전용 워크플로우를 통해 Privacy Service에서 푸시된 요청을 자동으로 처리합니다.
+**[!DNL Adobe Experience Platform Privacy Service]** 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 개인 정보 보호 요청을 자동화할 수 있습니다. Adobe Campaign은 전용 워크플로우를 통해 Privacy Service에서 푸시된 요청을 자동으로 처리합니다.
 
 개인 정보 보호 핵심 서비스에서 개인 정보 보호 요청을 만드는 방법에 대해 알아보려면 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko){target=&quot;_blank&quot;} 설명서를 참조하세요.
 
-각 **[!DNL Privacy Service]**  작업은 사용 중인 네임스페이스의 수를 기준으로 Adobe Campaign에서 여러 개인 정보 보호 요청으로 분할되며, 하나의 요청은 하나의 네임스페이스에 해당합니다.
+각 **[!DNL Privacy Service]** 작업은 사용 중인 네임스페이스의 수를 기준으로 Adobe Campaign에서 여러 개인 정보 보호 요청으로 분할되며, 하나의 요청은 하나의 네임스페이스에 해당합니다.
 
 또한 하나의 작업은 여러 인스턴스에 대해 실행할 수 있습니다. 따라서 하나의 작업에 대해 여러 파일이 만들어집니다. 예를 들어, 요청에 두 개의 네임스페이스가 있고 세 개의 인스턴스에서 실행 중인 경우 총 6개의 파일이 전송됩니다. 네임스페이스 및 인스턴스당 하나의 파일입니다.
 
