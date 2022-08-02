@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '840'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 
 ![](assets/calendar.png)
 
-![](../assets/do-not-localize/book.png) 에서 마케팅 캠페인에 액세스하고 구현하는 방법을 알아봅니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html).
+![](../assets/do-not-localize/book.png) [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)에서는 마케팅 캠페인에 액세스하고 구현하는 방법을 알아봅니다.
 
 ## 주요 시작 단계{#gs-ac-start}
 
@@ -56,13 +56,13 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 
    계층 및 일정을 정의하고 예산을 설정하며 리소스를 추가하고 운영자를 선택합니다.
 
-   ![](../assets/do-not-localize/book.png) 에서 마케팅 계획을 만들고 캠페인을 구성하는 방법을 알아봅니다 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html).
+   ![](../assets/do-not-localize/book.png) [이 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ko)에서는 마케팅 계획을 세우고 캠페인을 구성하는 방법을 알아봅니다.
 
    모든 마케팅 캠페인은 기본 설정 및 기능을 저장하는 템플릿을 기반으로 합니다. 특정 구성이 정의되지 않은 캠페인을 만들기 위해 내장 템플릿이 제공됩니다. 캠페인 템플릿을 만들고 구성한 다음 그 템플릿에서 캠페인을 만들 수 있습니다.
 
-   캠페인 템플릿 작업 방법: [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
+   [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ko)에서 캠페인 템플릿으로 작업하는 방법을 알아봅니다.
 
-   반복 캠페인과 를 구성하는 방법을 알아봅니다 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html).
+   [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=ko)에서는 반복 캠페인과 이를 구성하는 방법을 알아봅니다.
 
 1. **대상 정의**
 
@@ -70,7 +70,7 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 
    ![](assets/campaign-wf.png)
 
-   에서 메시지 대상자를 정의하는 방법을 알아봅니다 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html).
+   [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko)에서는 메시지 대상자를 정의하는 방법을 알아봅니다.
 
 1. **게재 만들기**
 
@@ -78,17 +78,17 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 
    ![](assets/campaign-dashboard.png)
 
-   ![](../assets/do-not-localize/book.png) 에서 마케팅 캠페인 게재를 만들고 시작하는 방법을 알아봅니다 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html).
+   ![](../assets/do-not-localize/book.png) [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ko)에서는 마케팅 캠페인 게재를 만들고 시작하는 방법을 알아봅니다.
 
    보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인에 연결할 수 있습니다.
 
-   ![](../assets/do-not-localize/book.png) 의 관련 문서에 대해 자세히 알아보십시오 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html).
+   ![](../assets/do-not-localize/book.png) [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html?lang=ko)에서는 관련 문서에 대해 자세히 알아봅니다.
 
 1. **승인 프로세스 설정**
 
    Adobe Campaign을 사용하면 마케팅 캠페인의 주요 단계에 대한 협업 승인 프로세스를 설정할 수 있습니다. 각 캠페인에 대해 게재 대상, 콘텐츠 및 비용을 승인할 수 있습니다. 승인을 담당하는 Adobe Campaign 운영자는 이메일로 통보를 받을 수 있으며 콘솔 또는 웹 연결을 통해 승인을 수락하거나 거부할 수 있습니다.
 
-   에서 승인을 설정하고 관리하는 방법을 알아봅니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=en#campaign-orchestration).
+   [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=ko#campaign-orchestration)에서는 승인 설정 및 관리 방법을 알아봅니다.
 
 
 ## 분산 마케팅 추가 기능{#distributed-marketing-add-on}
@@ -99,7 +99,7 @@ Adobe Campaign에서는 **분산 마케팅** 추가 기능을 제공하는데, �
 >
 >이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)을 참조하세요.
 
-에서 Campaign Distributed Marketing 기능을 구성하고 사용하는 방법을 알아봅니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html)
+[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko)에서는 Campaign 분산 마케팅 기능을 구성하고 사용하는 방법을 알아봅니다.
 
 ## 응답 관리 추가 기능{#response-manager-add-on}
 
