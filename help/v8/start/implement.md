@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1170'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -78,18 +78,18 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호법 및 수�
    캠페인, 게재, 작업 또는 워크플로우는 모두 주요 설정 및 기능을 저장하는 템플릿을 기반으로 합니다. 특정 구성이 정의되지 않은 각 구성 요소에 대해서는 내장 템플릿이 제공됩니다. 템플릿을 요구 사항에 맞게 구성하고 조정하여 최종 사용자가 사용할 수 있도록 해야 합니다.
 
 
-   ![](../assets/do-not-localize/glass.png) 캠페인 템플릿 작업 방법: [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
+   ![](../assets/do-not-localize/glass.png) 캠페인 템플릿 작업 방법: [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ko)
 
-   ![](../assets/do-not-localize/glass.png) 워크플로우 템플릿 구성 방법: [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html)
+   ![](../assets/do-not-localize/glass.png) 워크플로우 템플릿 구성 방법: [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
 
-   ![](../assets/do-not-localize/book.png) 의 이메일 템플릿에 대해 자세히 알아보십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png)[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko){target=&quot;_blank&quot;}에서 이메일 템플릿에 대해 자세히 알아보기
 
 
 1. 유형 규칙 구성
 
    캠페인 유형 규칙을 활용하여 게재 전송을 필터링, 제어 및 모니터링할 수 있습니다. 예를 들어, 피로 규칙은 수신자의 과도한 요청을 방지하기 위해 메시지 빈도와 양을 제어합니다. 구현되면 게재에서 유형 규칙을 참조합니다.
 
-   의 유형화 및 피로도 관리에 대해 자세히 알아보십시오 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html).
+   [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ko)에서 유형화 및 피로도 관리에 대해 자세히 알아보십시오.
 
 1. Campaign의 내장 데이터 모델 익히기
 
