@@ -5,9 +5,9 @@ description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
 source-git-commit: ca52da16933f57181a0c4228bda9a2d33ebcedef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -138,4 +138,4 @@ ht-degree: 96%
       + [입력 양식](dev/forms.md)
    + [Campaign API](dev/api.md)
 + [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
-+ [Campaign Automation 안내서](https://experienceleague.adobe.com/docs/campaign/automation/home.html)
++ [Campaign Automation 안내서](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko)
