@@ -82,7 +82,7 @@ ht-degree: 16%
 * Campaign에서 이메일 디자인
    ![](../assets/do-not-localize/book.png) [이메일 디자인 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html){target=&quot;_blank&quot;}
 * 이메일 템플릿 만들기 및 사용
-   ![](../assets/do-not-localize/book.png) [이메일 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [이메일 템플릿에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target=&quot;_blank&quot;}
 * 이메일 대상자를 선택합니다
    ![](../assets/do-not-localize/book.png) [대상 모집단을 정의하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target=&quot;_blank&quot;}
 * 게재 유효성 검사 및 증명 보내기
