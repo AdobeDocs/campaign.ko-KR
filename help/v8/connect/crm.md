@@ -1,11 +1,11 @@
 ---
 title: Campaign을 CRM과 함께 작업
 description: Campaign 및 CRM으로 작업하는 방법 알아보기
-feature: Salesforce Integration, Microsoft Integration
+feature: Salesforce Integration, Microsoft CRM Integration
 role: Data Engineer
 level: Beginner
 exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: ce2509e5755d83c5408265b490220ae2a662314e
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 20%
