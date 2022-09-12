@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: a41bebfeb352b2f81f81b46c39b5f9b64431455b
+source-git-commit: 2c79ee6ae79355fba2a5f269076cf90a683a6070
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 100%
       + [파일에서 프로필 가져오기](audiences/import-profiles.md)
       + [외부 프로필 작업](audiences/external-profiles.md)
       + [웹 양식에서 프로필 데이터 수집](audiences/collect-profiles.md)
-      + [대상 매핑](audiences/target-mappings.md)
+      + [대상 매핑 작업](audiences/target-mappings.md)
    + 대상자 만들기 {#create-audiences}
       + [연락처 목록 만들기](audiences/create-audiences.md)
       + [필터 만들기 및 관리](audiences/create-filters.md)
