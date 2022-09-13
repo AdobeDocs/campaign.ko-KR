@@ -2,9 +2,12 @@
 keywords: Campaign Automation;home;popular topics
 product: campaign
 title: Adobe Campaign 자동화 홈
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+feature: Overview
+description: 개요
+exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 39%
 
 ---
@@ -76,4 +79,3 @@ Adobe Campaign을 사용하면 캠페인 오케스트레이션을 위한 편리�
   </td>
 </tr>
 </table>
-
