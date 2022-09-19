@@ -5,10 +5,10 @@ feature: Federated Data Access
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: bb03c804c1c65322d275d0a2ca1db0bfe974636d
+source-git-commit: ca9275017e36dae2f0152e0ff365541d7cab96de
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '727'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 FDA 커넥터(Federated Data Access)를 사용하여 Campaign을 하나 이상 연결합니다 **외부 데이터베이스** 및 Campaign Cloud 데이터베이스 데이터에 영향을 주지 않고 데이터베이스에 저장된 정보를 처리합니다. 그런 다음 Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다.
 
-![](../assets/do-not-localize/speech.png)   관리 Cloud Services 사용자로, [연락처 Adobe](../start/campaign-faq.md#support) campaign을 사용하여 Experience Cloud 트리거를 구현하려면 다음을 수행하십시오.
+![](../assets/do-not-localize/speech.png)   관리 Cloud Services 사용자로, [연락처 Adobe](../start/campaign-faq.md#support) 외부 데이터베이스를 Campaign과 연결
 
 
 >[!NOTE]
