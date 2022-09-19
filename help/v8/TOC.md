@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: 2c79ee6ae79355fba2a5f269076cf90a683a6070
+source-git-commit: fdaf107fd22f439a728f32ceb8cfc13a8c5bc1ad
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '368'
+ht-degree: 98%
 
 ---
 
@@ -83,6 +83,7 @@ ht-degree: 0%
    + [DM](send/direct-mail.md)
    + [소셜 마케팅](send/twitter.md)
    + [트랜잭션 메시지 ](send/transactional.md)
+   + [전송 시간 최적화](send/predictive.md)
    + 실패, 바운스, 격리{#failures}
       + [격리](send/quarantines.md)
       + [게재 실패](send/delivery-failures.md)
