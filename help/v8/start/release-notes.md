@@ -6,7 +6,7 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 5a516e278fc48f3a78292be6a1edd8d9c3d6bd5d
 workflow-type: tm+mt
 source-wordcount: '2758'
 ht-degree: 79%
@@ -17,9 +17,9 @@ ht-degree: 79%
 
 이 페이지에서는 **최신 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다.
 
-## 릴리스 8.4.0 {#release-8-4-0}
+## 릴리스 8.4.1 {#release-8-4-1}
 
-_2022년 9월 28일_
+_2022년 9월 30일_
 
 **새로운 기능**
 
