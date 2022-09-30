@@ -6,7 +6,7 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 5a516e278fc48f3a78292be6a1edd8d9c3d6bd5d
+source-git-commit: d0cabf4d5b8d177f1ff0a1be6163e9abe65c57d6
 workflow-type: tm+mt
 source-wordcount: '2758'
 ht-degree: 79%
@@ -35,7 +35,7 @@ _2022년 9월 30일_
 <ul><li>Adobe Campaign Managed Cloud Sources 커넥터를 사용하여 활성화를 위해 Adobe Campaign에 Experience Platform 세그먼트를 보낼 수 있습니다.</li>
 <li>Adobe Campaign Managed Cloud 대상 커넥터를 사용하여 Adobe Campaign 게재 및 추적 로그를 Adobe Experience Platform에 보냅니다.</li>
 </ul>
-<p>자세한 내용은 <a href="privacy.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../connect/ac-aep.md">세부 설명서</a>를 참조하세요.</p>
 </td> 
 </tr> 
 </tbody> 
