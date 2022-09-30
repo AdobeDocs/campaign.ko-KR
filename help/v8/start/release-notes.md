@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: d0cabf4d5b8d177f1ff0a1be6163e9abe65c57d6
+source-git-commit: c1a5dd3fcad5d377acb2f9df3a090897ed3b533e
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2754'
 ht-degree: 79%
 
 ---
@@ -65,9 +65,9 @@ _2022년 9월 30일_
 
 **개선 사항**
 
-* Microsoft Internet Explorer 11의 수명 종료 후 이제 콘솔의 HTML 렌더링 엔진이 을 사용합니다 **Microsoft Edge Chromium**. 또한 **Microsoft Edge WebView 2** 이제 모든 클라이언트 콘솔 설치에 런타임이 필요합니다. 자세히 표시
+* Microsoft Internet Explorer 11의 수명 종료 후 이제 콘솔의 HTML 렌더링 엔진이 을 사용합니다 **Microsoft Edge Chromium**. 또한 **Microsoft Edge WebView 2** 이제 모든 클라이언트 콘솔 설치에 런타임이 필요합니다.
 * 워크플로우 고가용성 을 사용하여 워크플로우 실행을 개선하여 여러 컨테이너에서 동시 워크플로우를 실행하여 워크플로우 서비스 손실을 방지하고 관련 실행 오류를 방지할 수 있습니다. **참고**: 이 새로운 기능은 고객 집합으로 제한적 가용성에 제공됩니다.
-* 이제 지정된 개인 정보 네임스페이스에 대해 개인 정보 보호 요청이 일괄적으로 수행됩니다. 이 개선 작업으로 GDPR/개인 정보 삭제 요청의 실행 시간이 늘어납니다. 자세히 표시
+* 이제 지정된 개인 정보 네임스페이스에 대해 개인 정보 보호 요청이 일괄적으로 수행됩니다. 이 개선 작업으로 GDPR/개인 정보 삭제 요청의 실행 시간이 늘어납니다.
 
 **호환성 업데이트**
 
