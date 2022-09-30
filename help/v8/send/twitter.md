@@ -4,9 +4,9 @@ description: Adobe Campaign Social Marketing 모듈을 사용하여 Twitter에 �
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 9f74e3bbff5bcbebf4f5a0ecf4ed7e458b9e38ed
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '812'
 ht-degree: 6%
 
 ---
@@ -18,9 +18,9 @@ Adobe Campaign과 **소셜 마케팅** twitter을 통해 고객 및 잠재 고�
 
 통합이 구성되면 다음을 수행할 수 있습니다.
 
-* twitter 시 메시지 보내기: Adobe Campaign을 사용하면 팔로워에게 직접 메시지를 보낼 수 있습니다.
-* 게시물 트윗: Adobe Campaign을 사용하여 Twitter 계정에 트윗을 게시합니다.
-* 새 연락처 수집: Adobe Campaign은 프로필 데이터를 자동으로 복구하여 타겟팅 캠페인을 수행하고, 가능한 경우 크로스 채널 전략을 구현할 수 있습니다. 이 작업을 수행하려면 사용자 동의가 필요합니다.
+* 팔로워에게 직접 메시지 보내기
+* twitter 계정에 트윗 게시
+* 타겟팅 캠페인을 수행하고 가능한 경우 크로스 채널 전략을 구현할 수 있는 프로필 데이터를 복구하여 새 연락처를 수집합니다. 이 작업을 수행하려면 사용자 동의가 필요합니다.
 
 twitter 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../connect/ac-tw.md).
 
