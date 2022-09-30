@@ -2,13 +2,13 @@
 title: Campaign Classic v7에서 Campaign v8로 전환
 description: Campaign Classic v7과 Campaign v8 간의 차이점 이해
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 6f9f3ed4d2eef28b6683bf04b81431fd6a3e3dba
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+workflow-type: ht
+source-wordcount: '636'
+ht-degree: 100%
 
 ---
 
