@@ -2,9 +2,9 @@
 title: 대상 매핑 작업
 description: 대상 매핑을 사용하고 만드는 방법을 알아봅니다
 feature: Audiences, Profiles
-role: Data Engineer
-level: Beginner
-source-git-commit: a41bebfeb352b2f81f81b46c39b5f9b64431455b
+role: User, Developer
+level: Beginner, Intermediate
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 1%

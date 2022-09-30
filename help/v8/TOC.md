@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: fdaf107fd22f439a728f32ceb8cfc13a8c5bc1ad
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 98%
+source-wordcount: '369'
+ht-degree: 97%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 98%
    + [푸시 알림](send/push.md)
    + [LINE 메시지 보내기](send/line.md)
    + [DM](send/direct-mail.md)
-   + [소셜 마케팅](send/twitter.md)
+   + [Twitter](send/twitter.md)
    + [트랜잭션 메시지 ](send/transactional.md)
    + [전송 시간 최적화](send/predictive.md)
    + 실패, 바운스, 격리{#failures}
@@ -113,11 +113,11 @@ ht-degree: 98%
    + [외부 계정](config/external-accounts.md)
 + 연결 {#connect}
    + [다른 솔루션과 연결](connect/integration.md)
+   + [Campaign + Adobe Experience Platform](connect/ac-aep.md)
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
    + [Campaign + Target](connect/ac-at.md)
    + [Campaign - Experience Cloud 트리거](connect/ac-triggers.md)
-   + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + 외부 데이터베이스](connect/fda.md)
    + Campaign + CRM {#ac-crm}

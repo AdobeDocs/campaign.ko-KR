@@ -1,8 +1,10 @@
 ---
 title: Campaign 데이터베이스 매핑
 description: Campaign 데이터베이스 매핑
+role: Developer
+level: Intermediate, Experienced
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 0%

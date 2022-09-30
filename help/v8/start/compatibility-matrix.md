@@ -2,12 +2,12 @@
 title: Campaign v8 호환성 표
 description: Campaign v8과 호환되는 시스템 및 버전 알아보기
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin
+level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 93d990509af2f7c917775217e95ba40dd407d0c1
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '374'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브�
 ### 운영 체제
 
 * **Microsoft Windows Server** 2019, 2016, 2012
-* **Microsoft Windows** 11(Campaign v8.3부터), 10, 8,
+* **Microsoft Windows** 11(Campaign v8.3부터), 10, 8
 
 >[!NOTE]
 >
@@ -37,7 +37,26 @@ Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브�
 
 ### 브라우저
 
-**Microsoft Internet Explorer** 11
+**Microsoft Edge**
+
+### Microsoft WebView2 런타임
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge WebView2 런타임
+</p>
+</td>
+<td>
+<p>최신 버전</p>
+</td>
+<td>
+<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr">Microsoft 개발자 웹 사이트에서 다운로드</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## CRM 커넥터{#CRMconnectors}
 
@@ -60,7 +79,7 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 다음 목록에 있는 운영 체제에서는 Campaign에서 연결된 모바일 SDK를 사용하여 [푸시 알림](../send/push.md)을 보낼 수 있습니다.
 
 * **Android** 12(Campaign v8.3부터), 9.0, 8.x, 7.x(Campaign Android SDK 빌드 1.1.1 사용).
-* **Apple iOS** 9 - 15(Campaign iOS SDK 빌드 1.0.26 포함)는 32비트 및 64비트 버전과 호환됩니다. iOS 15는 Campaign v8.3부터 지원됩니다.
+* **Apple iOS** 9 - 16(Campaign iOS SDK 빌드 1.0.26 포함)는 32비트 및 64비트 버전과 호환됩니다. iOS 16는 Campaign v8.3부터 지원됩니다.
 
 ## 웹 액세스
 

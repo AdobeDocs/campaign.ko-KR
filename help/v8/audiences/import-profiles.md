@@ -2,10 +2,10 @@
 title: Campaign에서 프로필 가져오기
 description: Campaign에서 연락처를 가져오는 방법을 알아봅니다
 feature: Audiences, Profiles
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: b6a5083f-2b5a-4f5b-ad30-d91363752896
-source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 11%

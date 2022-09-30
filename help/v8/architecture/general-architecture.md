@@ -1,11 +1,14 @@
 ---
 title: 일반 아키텍처
 description: Campaign 아키텍처 및 구성 요소에 대해 알아보기
+feature: Architecture
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1067'
+ht-degree: 6%
 
 ---
 

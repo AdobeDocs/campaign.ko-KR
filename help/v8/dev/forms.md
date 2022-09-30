@@ -1,8 +1,11 @@
 ---
 title: 캠페인 입력 양식
 description: 입력 양식을 사용자 지정하는 방법 알아보기
+feature: Web Forms
+role: Developer
+level: Beginner, Intermediate, Experienced
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 0%

@@ -2,13 +2,13 @@
 title: Campaign에서 대상자를 사용한 작업
 description: Campaign에서 대상자를 사용한 작업
 feature: Audiences
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign에서, **수신자** 게재(이메일, SMS 등)를 보낼 타겟�
 
 워크플로우의 그래픽 시퀀스에서 쿼리 조합을 통해 타겟팅을 만들 수 있습니다. 요구 사항에 따라 타겟팅할 대상을 만들 수 있습니다. 워크플로우 편집기를 표시하려면 **[!UICONTROL Targeting and workflows]** campaign 대시보드의 탭입니다.
 
-에서 캠페인 워크플로우에서 대상을 만드는 방법을 알아봅니다 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
+에서 캠페인 워크플로우에서 대상을 만드는 방법을 알아봅니다 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko)
 
 
 ## 활성 프로필{#active-profiles}

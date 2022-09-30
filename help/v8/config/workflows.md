@@ -2,13 +2,13 @@
 title: Adobe Campaign 워크플로우를 통해 프로세스 관리 및 자동화
 description: 워크플로우 시작
 feature: Workflows
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시
 
 * [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
 
-* [마케팅 캠페인 워크플로우에서 대상 만들기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
+* [마케팅 캠페인 워크플로우에서 대상 만들기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko)
 
 ## 워크플로우 활동 {#wf-activities}
 
@@ -114,7 +114,7 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시
 
 반복 워크플로우를 디자인하고 워크플로우를 실행할 때마다 새 게재 인스턴스를 만듭니다. 예를 들어 워크플로우가 일주일에 한 번 실행되도록 디자인된 경우 1년 후 52개의 게재가 발생합니다. 즉, 로그는 각 게재 인스턴스별로 분리됩니다.
 
-에서 반복 캠페인을 만드는 방법을 알아봅니다 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html)
+에서 반복 캠페인을 만드는 방법을 알아봅니다 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=ko)
 
 
 ## 트리거 이벤트 활용
@@ -137,7 +137,7 @@ Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 
-* [생일 이메일 보내기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
+* [생일 이메일 보내기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ko)
 
    이 사용 사례에서는 생일 날짜의 수신자 목록에 반복 이메일을 전송하는 방법을 설명합니다.
 

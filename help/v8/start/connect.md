@@ -1,14 +1,14 @@
 ---
 title: Campaign v8에 연결
 description: Campaign v8에 연결하는 방법에 대해 알아보기
-feature: Audiences
-role: Data Engineer
+feature: Client Console
+role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '832'
+ht-degree: 2%
 
 ---
 
@@ -21,6 +21,13 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 * 에서 Adobe Campaign과의 시스템 및 도구 호환성을 확인합니다. [호환성 매트릭스](compatibility-matrix.md)
 * Campaign 서버 URL 가져오기
 * Adobe ID을 만들거나 회사에서 사용자 자격 증명을 받을 수 있습니다
+* 시스템에 Microsoft Edge Webview2 런타임을 설치합니다(Campaign Classic 8.4 빌드 버전). [자세히 알아보기](#webview)
+
+## Microsoft Edge Webview2 런타임 설치 {#webview}
+
+Campaign Classic 8.4 빌드 버전에서 모든 콘솔 설치에 Microsoft Edge Webview 2 런타임이 필요합니다.
+
+웹 보기는 기본적으로 Windows 11 운영 체제의 일부로 설치됩니다. 시스템에 아직 없는 경우 Campaign 콘솔 설치 프로그램에서 다운로드 메시지를 표시합니다. [Microsoft 개발자 웹 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr). Microsoft에서 지원되지 않으므로 다운로드 링크가 Internet Explorer 11 브라우저에서 작동하지 않습니다. 링크에 액세스하려면 다른 브라우저를 사용해야 합니다.
 
 ## 클라이언트 콘솔 다운로드 및 설치{#download-ac-console}
 
@@ -77,6 +84,10 @@ Campaign을 처음 사용하는 경우 또는 최신 버전으로 업그레이�
 1. 그런 다음 [Adobe ID](#connect-ims).
 
    ![](assets/adobeID.png)
+
+>[!NOTE]
+>
+>campaign classic 8.4 빌드 버전의 경우 Adobe Campaign 클라이언트 콘솔은 프록시 인증 중에 프록시 자격 증명을 두 번 요청할 수 있습니다. 이는 Microsoft Edge Webview2가 Internet Explorer와 달리 캐시/암호 저장소에 프록시 자격 증명을 저장하지 않기 때문입니다.
 
 ## 사용자에게 액세스 권한 부여{#grant-access}
 

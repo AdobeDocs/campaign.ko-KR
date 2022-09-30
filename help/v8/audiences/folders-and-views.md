@@ -2,10 +2,10 @@
 title: 폴더 및 보기
 description: Campaign 탐색기에서 폴더 및 보기를 관리하는 방법을 알아봅니다
 feature: Audiences, Profiles, Application Settings
-role: Data Engineer
-level: Beginner
+role: User
+level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 1%

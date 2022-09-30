@@ -2,10 +2,10 @@
 title: 캠페인 트랜잭션 메시지
 description: 트랜잭션 메시지 시작
 feature: Transactional Messaging
-role: Data Engineer
-level: Beginner
+role: User
+level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 1%

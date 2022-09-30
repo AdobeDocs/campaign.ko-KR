@@ -2,14 +2,14 @@
 title: Campaign v8 릴리스 정보
 description: Campaign v8 최신 릴리스
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
-workflow-type: ht
-source-wordcount: '2160'
-ht-degree: 100%
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+workflow-type: tm+mt
+source-wordcount: '2758'
+ht-degree: 79%
 
 ---
 
@@ -17,12 +17,87 @@ ht-degree: 100%
 
 이 페이지에서는 **최신 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다.
 
+## 릴리스 8.4.0 {#release-8-4-0}
+
+_2022년 9월 28일_
+
+**새로운 기능**
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Adobe Experience Platform과 Adobe Campaign 통합</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td><p>이제 새로운 대상 및 소스 커넥터를 사용하여 Adobe Campaign과 Adobe Experience Platform 간의 원활한 통합을 수행할 수 있습니다.</p>
+<ul><li>Adobe Campaign Managed Cloud Sources 커넥터를 사용하여 활성화를 위해 Adobe Campaign에 Experience Platform 세그먼트를 보낼 수 있습니다.</li>
+<li>Adobe Campaign Managed Cloud 대상 커넥터를 사용하여 Adobe Campaign 게재 및 추적 로그를 Adobe Experience Platform에 보냅니다.</li>
+</ul>
+<p>자세한 내용은 <a href="privacy.md">세부 설명서</a>를 참조하세요.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Twitter 채널 가용성</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>다음 <a href="../send/twitter.md">소셜 채널 twitter</a> 이제 Campaign v8에서 사용할 수 있습니다. 다음을 수행할 수 있습니다.</p>
+<ul> 
+<li><p>twitter 시 메시지 보내기: Adobe Campaign을 사용하면 twitter 계정에 직접 메시지를 게시할 수 있습니다. 모든 팔로워에게 직접 메시지를 보낼 수도 있습니다.
+</p></li>
+<li><p>새 연락처 수집: Adobe Campaign은 프로필 데이터를 자동으로 복구하여 타겟팅 캠페인을 수행하고 크로스 채널 전략을 구현할 수 있습니다.
+</p></li>
+</ul>
+<p>에서 Campaign 및 Twitter을 연결하는 방법을 알아봅니다 <a href="../connect/ac-tw.md">세부 설명서</a>.</p>
+<p>Campaign에서 트윗을 게시하고 직접 메시지를 보내는 방법을 알아봅니다. <a href="../connect/ac-tw.md">이 페이지</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**개선 사항**
+
+* Microsoft Internet Explorer 11의 수명 종료 후 이제 콘솔의 HTML 렌더링 엔진이 을 사용합니다 **Microsoft Edge Chromium**. 또한 **Microsoft Edge WebView 2** 이제 모든 클라이언트 콘솔 설치에 런타임이 필요합니다. 자세히 표시
+* 워크플로우 고가용성 을 사용하여 워크플로우 실행을 개선하여 여러 컨테이너에서 동시 워크플로우를 실행하여 워크플로우 서비스 손실을 방지하고 관련 실행 오류를 방지할 수 있습니다. **참고**: 이 새로운 기능은 고객 집합으로 제한적 가용성에 제공됩니다.
+* 이제 지정된 개인 정보 네임스페이스에 대해 개인 정보 보호 요청이 일괄적으로 수행됩니다. 이 개선 작업으로 GDPR/개인 정보 삭제 요청의 실행 시간이 늘어납니다. 자세히 표시
+
+**호환성 업데이트**
+
+* 이제 Campaign v8 SDK는 푸시 알림용 iOS 16을 지원합니다.
+
+[캠페인 호환성 매트릭스](compatibility-matrix.md)를 참조하십시오.
+
+**패치**
+
+* FeatureFlag_GZIP_Compression 옵션이 활성화된 경우 MID 인스턴스에서 게재 로그 상태 업데이트에 영향을 주는 문제를 수정했습니다. (NEO-49183)
+* 게재가 계속 유지될 수 있는 문제를 해결했습니다 **보류 중** 연락 날짜가 도달한 경우에도 상태입니다. (NEO-48079)
+* 을 사용할 때 서버에서 파일이 업데이트되지 않는 워크플로우의 문제를 수정했습니다. **데이터 로드(파일)** 활동. 100%에 그쳤지만 한 번도 끝난 적이 없다. (NEO-47269)
+* 일본어 환경에서 업그레이드 후 문제를 해결했습니다. (NEO-46640)
+* MTA 프로세스 중에 게재가 정확한 크기에 도달하면 발생할 수 있는 문제를 수정했습니다. (NEO-46097)
+* 추적 로그가 수신자의 브라우저와 관련된 데이터를 반환하지 못하는 문제를 해결했습니다. (NEO-46612)
+* 외부 게재 모드를 사용하여 SMS 메시지를 보낼 때 개인화 문제가 발생하는 문제를 해결했습니다. (NEO-46415)
+* 추적 로그에서 중복을 생성할 수 있는 문제를 수정했습니다. (NEO-46409)
+* Adobe Analytics 도구에서 **[!UICONTROL Replicate Staging data]** (ffdaReplicateStagingData) 기술 워크플로우가 실행 중에 오류가 발생해도 중지되지 않습니다. (NEO-46280)
+* MTA 프로세스 중에 게재가 정확한 크기에 도달했을 때 발생할 수 있는 문제를 수정했습니다. (NEO-46097)
+* 시드 주소로 증명을 보낼 때 속도가 느려지지 않도록 하기 위해 이제 시드 멤버의 모든 연속 복제가 하나의 복제 요청으로 그룹화됩니다. (NEO-44844)
+* 메시지 센터 보관된 이벤트에서 게재를 미리 볼 때 오류가 표시되는 문제를 수정했습니다. (NEO-43620)
+* Campaign을 사용하여 Snowflake 클라우드 데이터베이스에 데이터를 삽입할 때 발생하는 문제를 해결했습니다 **쿼리** 활동 및 **데이터 소스 변경** 활동: 데이터에 백슬래시 문자가 있으면 프로세스가 실패했습니다. 소스 문자열이 이스케이프되지 않았으며 데이터가 Snowflake 시 올바르게 처리되지 않았습니다. (NEO-45549)
+* 를 사용할 때 발생하는 문제를 수정했습니다 **쿼리** 활동 및 테이블 필터링. 열 이름에 &quot;Update&quot;라는 단어가 포함된 경우 잘못된 식별자와 다음 메시지가 있는 컴파일 오류가 발생했습니다. &quot;업데이트된 행 수&quot; (NEO-46485)
+
+
 ## 릴리스 8.3.8 {#release-8-3-8}
 
 _2022년 5월 18일_
 
 **새로운 기능**
-
 
 <table> 
 <thead>
@@ -53,7 +128,6 @@ _2022년 5월 18일_
 </tr> 
 </tbody> 
 </table>
-
 
 <table>
 <thead>
@@ -177,29 +251,6 @@ _2021년 10월 28일_
 </tbody> 
 </table>
 
-<!--
-<table> 
-<thead>
-<tr> 
-<th> <strong>Twitter channel availability</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td> <p>The <a href="../send/twitter.md">Twitter social channel</a> is now available with Campaign v8. You can:</p>
-<ul> 
-<li><p>Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
-</p></li>
-<li><p>Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and implement cross-channel strategies.
-</p></li>
-</ul>
-<p>Learn how to connect Campaign and Twitter in the <a href="../connect/ac-tw.md">detailed documentation</a>.</p>
-<p>Learn how to post tweets and send direct messages with Campaign in <a href="../connect/ac-tw.md">this page</a>.</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
--->
 
 **개선 사항**
 

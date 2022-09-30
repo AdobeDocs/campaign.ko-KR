@@ -3,10 +3,10 @@ title: Campaign SDK와 앱 통합
 description: Campaign Android 및 iOS SDK를 앱과 통합하는 방법을 알아봅니다
 version: v8
 feature: Push
-role: Developer
-level: Experienced
+role: Admin, Developer
+level: Intermediate, Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 2%
@@ -102,7 +102,7 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
    }
    ```
 
-   다음 `IntegrationKey` 는 이 Android 애플리케이션에 연결된 Adobe Campaign Mobile 애플리케이션의 &#39;IntegrationKey&#39; 세트와 일치해야 합니다.
+   다음 `IntegrationKey` 는 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에서 설정된 &#39;IntegrationKey&#39;와 일치해야 합니다.
 
 1. **Adobe Campaign 서버에 모바일 장치 등록**
 

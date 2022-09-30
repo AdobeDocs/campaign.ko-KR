@@ -2,13 +2,13 @@
 title: Adobe Campaign에서 필터 만들기
 description: Campaign에서 데이터를 필터링하고 필터를 저장하는 방법을 알아봅니다
 feature: Audiences, Profiles
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1638'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

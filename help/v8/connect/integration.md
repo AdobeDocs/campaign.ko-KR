@@ -2,13 +2,13 @@
 title: 솔루션과 Campaign 연결
 description: Campaign을 솔루션과 연결하는 방법에 대해 알아보기
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin, User
+level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '347'
+ht-degree: 14%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign에는 외부 애플리케이션과 통신하고, 데이터베이�
 
 Campaign v8은 다음과 연결할 수 있습니다.
 
-* [Adobe Experience Cloud Real-Time CDP](../connect/ac-rtcdp.md)
+* [Adobe Experience Platform](../connect/ac-aep.md)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en).
 
    엔드 투 엔드 사용 사례 를 참조하십시오 [여기](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=ko).

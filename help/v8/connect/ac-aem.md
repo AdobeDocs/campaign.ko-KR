@@ -2,10 +2,10 @@
 title: Campaign을 Adobe Experience Manager과 함께 사용하기
 description: Campaign 및 Adobe Experience Manager을 사용하여 작업하는 방법 알아보기
 feature: Experience Manager Integration
-role: Data Engineer
-level: Beginner
+role: Admin, User
+level: Beginner, Intermediate
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
