@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: dfe675ca0f15050a9159172be3d8d8de7e8bf848
+source-git-commit: c9a4110b8ea2d7ad3571da6f7e506c639dfaaf50
 workflow-type: tm+mt
-source-wordcount: '2833'
+source-wordcount: '2835'
 ht-degree: 77%
 
 ---
@@ -32,8 +32,8 @@ _2022년 9월 30일_
 <tbody> 
 <tr> 
 <td><p>이제 새로운 대상 및 소스 커넥터를 사용하여 Adobe Campaign과 Adobe Experience Platform 간의 원활한 통합을 수행할 수 있습니다.</p>
-<ul><li>Adobe Campaign Managed Cloud Sources 커넥터를 사용하여 활성화를 위해 Adobe Campaign에 Experience Platform 세그먼트를 보낼 수 있습니다.</li>
-<li>Adobe Campaign Managed Cloud 대상 커넥터를 사용하여 Adobe Campaign 게재 및 추적 로그를 Adobe Experience Platform에 보냅니다.</li>
+<ul><li>Adobe Campaign Managed Cloud Services 대상 커넥터를 사용하여 활성화를 위해 Experience Platform 세그먼트를 Adobe Campaign에 보냅니다.</li>
+<li>Adobe Campaign 관리 Cloud Service 소스 커넥터를 사용하여 Adobe Campaign 게재 및 추적 로그를 Adobe Experience Platform에 보냅니다.</li>
 </ul>
 <p>자세한 내용은 <a href="../connect/ac-aep.md">세부 설명서</a>를 참조하세요.</p>
 </td> 
