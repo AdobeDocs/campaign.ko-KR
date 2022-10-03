@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c1a5dd3fcad5d377acb2f9df3a090897ed3b533e
+source-git-commit: dfe675ca0f15050a9159172be3d8d8de7e8bf848
 workflow-type: tm+mt
-source-wordcount: '2754'
-ht-degree: 79%
+source-wordcount: '2833'
+ht-degree: 77%
 
 ---
 
@@ -62,6 +62,18 @@ _2022년 9월 30일_
 </tr> 
 </tbody> 
 </table>
+
+**보안 개선**
+
+보안을 최적화하기 위해 Campaign에서 생성한 URL에서 보안 토큰이 제거되었습니다.
+
+* 이 변경 사항은 GET URL에만 적용됩니다. POST URL을 포함한 다른 유형은 영향을 받지 않습니다.
+* 사용자 지정 코드를 사용하는 경우 더 이상 GET URL 보안 토큰 매개 변수에서 보안 토큰이 검색되지 않습니다. 다음 JSSP 코드를 사용하여 새 보안 토큰을 생성해야 합니다.
+
+   ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
+
+   로그인 API를 사용하여 보안 토큰을 가져올 수도 있습니다.
+* 세션 토큰 관리에 변경 사항이 없습니다.
 
 **개선 사항**
 
