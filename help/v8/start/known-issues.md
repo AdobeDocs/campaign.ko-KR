@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 96e9f5fe5f07ea0c476395d33efa4d6bcf10cf60
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 2%
+source-wordcount: '532'
+ht-degree: 4%
 
 ---
 
@@ -23,22 +23,23 @@ ht-degree: 2%
 >
 >Adobe은 자체 재량에 따라 이 알려진 문제 목록을 게시합니다. 고객 보고서 수, 심각도 및 해결 방법을 기반으로 합니다. 표시되는 문제가 나열되지 않으면 이 페이지에 게시하기 위한 기준에 맞지 않을 수 있습니다.
 
-<!--
-## Change Data Source activity issue #1 {#issue-1}
+## Campaign v8.3.8{#8.3-issues}
 
-### Description{#issue-1-desc}
+### 데이터 소스 활동 문제 #1 {#issue-1}
 
-The **Change Data Source** activity is failing when transfering data from Campaign local database to Snowflake cloud database. When switching directions, the activity can generate issues.
+#### 설명{#issue-1-desc}
 
-### Reproduction steps{#issue-1-repro}
+다음 **데이터 소스 변경** Campaign 로컬 데이터베이스에서 Snowflake 클라우드 데이터베이스로 데이터를 전송할 때 활동이 실패합니다. 방향을 전환할 때 활동에서 문제를 생성할 수 있습니다.
 
-1. Connect to the client console and create a workflow.
-1. Add a **Query** activity and a **Change Data Source** activity.
-1. Define a query on the **email**, which is a string.
-1. Run the workflow and right-click the transition to view the population: the email records are displayed replaced by `****`.
-1. Check the workflow logs: the **Change Data Source** activity interprets these records as numeric values.
+#### 복제 단계{#issue-1-repro}
 
-### Error message{#issue-1-error}
+1. 클라이언트 콘솔에 연결하고 워크플로우를 만듭니다.
+1. 추가 **쿼리** 활동 및 **데이터 소스 변경** 활동.
+1. 에서 쿼리를 정의합니다. **이메일**: 문자열입니다.
+1. 워크플로우를 실행하고 전환을 마우스 오른쪽 단추로 클릭하여 모집단을 확인합니다. 전자 메일 레코드가 `****`.
+1. 워크플로우 로그를 확인합니다. a **데이터 소스 변경** 활동은 이러한 레코드를 숫자 값으로 해석합니다.
+
+#### 오류 메시지{#issue-1-error}
 
 ```sql
 04/13/2022 10:00:18 AM              Executing change data source 'Ok' (step 'Change Data Source')
@@ -49,35 +50,35 @@ The **Change Data Source** activity is failing when transfering data from Campai
 04/13/2022 10:00:26 AM              D_OPTIONALLY_ENCLOSED_BY = 'NONE') ON_ERROR = ABORT_STATEMENT PURGE = TRUE' could not be executed.
 ```
 
-### Workaround{#issue-1-workaround}
+#### 해결 방법{#issue-1-workaround}
 
-To have the data transfered from Snowflake cloud database to Campaign local database and back to Snowflake, you must use two different **Change Data Source** activities.
+데이터를 Snowflake 클라우드 데이터베이스에서 Campaign 로컬 데이터베이스로 전송하고 다시 Snowflake으로 전송하려면 서로 다른 두 개의 데이터를 사용해야 합니다 **데이터 소스 변경** 활동.
 
-### Internal reference{#issue-1-ref}
+#### 내부 참조{#issue-1-ref}
 
-Reference: NEO-45549 
-
-
-
-## Change Data Source activity issue {#issue-2}
-
-### Description{#issue-2-desc}
-
-When injecting data into Snowflake cloud database with a Campaign **Query** and a **Change Data Source** activity, the process fails when a backslash character is present in the data. The source string is not escaped, and data is not processed correctly on Snowflake.
-
-This issue only happens if the backslash character is at the end of string, for example: `Barker\`.
+참조: NEO-45549
 
 
-### Reproduction steps{#issue-2-repro}
 
-1. Connect to the client console and create a workflow.
-1. Add a **Query** activity and configure it.
-1. Select data with the characteristics described above.
-1. Add a **Change Data Source** activity and configure it to select Snowflake cloud database.
-1. Run the workflow and check the workflow logs to see the error.
+### 데이터 소스 활동 변경 문제 {#issue-2}
+
+#### 설명{#issue-2-desc}
+
+Campaign을 사용하여 Snowflake 클라우드 데이터베이스에 데이터를 삽입할 때 **쿼리** 그리고 **데이터 소스 변경** 활동, 백슬래시 문자가 데이터에 있으면 프로세스가 실패합니다. 소스 문자열이 이스케이프되지 않고 데이터가 Snowflake 시 올바르게 처리되지 않습니다.
+
+이 문제는 백슬래시 문자가 문자열 끝에 있는 경우에만 발생합니다(예: ). `Barker\`.
 
 
-### Error message{#issue-2-error}
+#### 복제 단계{#issue-2-repro}
+
+1. 클라이언트 콘솔에 연결하고 워크플로우를 만듭니다.
+1. 추가 **쿼리** 활동을 구성하고 구성합니다.
+1. 위에 설명된 특성을 사용하여 데이터를 선택합니다.
+1. 추가 **데이터 소스 변경** 활동을 구성하고 Snowflake 클라우드 데이터베이스를 선택하도록 구성합니다.
+1. 워크플로우를 실행하고 워크플로우 로그를 확인하여 오류를 확인합니다.
+
+
+#### 오류 메시지{#issue-2-error}
 
 ```sql
 Error:
@@ -85,46 +86,45 @@ Error:
 04/21/2022 4:01:58 PM    ODB-240000 ODBC error: String '100110668547' is too long and would be truncated   File 'wkf1656797_21_1_3057430574#458516uploadPart0.chunk.gz', line 1, character 0   Row 90058, column "WKF1656797_21_1"["SCARRIER_ROUTE":13]   If you would like to continue
 ```
 
-### Workaround{#issue-2-workaround}
+#### 해결 방법{#issue-2-workaround}
 
-Workaround is to exclude data containing backslash character at the end of string, or remove it from the source file.
-
-
-### Internal reference{#issue-2-ref}
-
-Reference: NEO-45549
+해결 방법은 문자열 끝에서 백슬래시 문자가 포함된 데이터를 제외하거나 소스 파일에서 제거하는 것입니다.
 
 
-## Data loading (file) activity failed to Upload file on server {#issue-3}
+#### 내부 참조{#issue-2-ref}
 
-### Description{#issue-3-desc}
-
-When uploading a file on Campaign server with a **Data loading (file)** activity, the process stops at 100% but never ends.
-
-### Reproduction steps{#issue-3-repro}
-
-1. Connect to the client console and create a workflow.
-1. Add a **Data loading (file)** activity and configure it.
-1. Select the **Upload on server** option.
-1. Select the file on your local machine,
-1. Click **Upload**
+참조: NEO-45549
 
 
-### Error message{#issue-3-error}
+### 데이터 로드(파일) 활동이 서버의 파일을 업로드하지 못했습니다. {#issue-3}
 
-The process never ends.
+#### 설명{#issue-3-desc}
 
-### Workaround{#issue-3-workaround}
+를 사용하여 Campaign 서버에 파일을 업로드할 때 **데이터 로드(파일)** 활동, 프로세스는 100%에서 중지되지만 종료되지 않습니다.
 
-The workaround is to use an older client console. You will then be able to upload the file on the server.
+#### 복제 단계{#issue-3-repro}
 
-As a Campaign administrator, you can download Campaign v8.3.1 client console in [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}.
+1. 클라이언트 콘솔에 연결하고 워크플로우를 만듭니다.
+1. 추가 **데이터 로드(파일)** 활동을 구성하고 구성합니다.
+1. 을(를) 선택합니다 **서버에 업로드** 선택 사항입니다.
+1. 로컬 컴퓨터에서 파일을 선택하고
+1. 클릭 **업로드**
 
-Learn how to access Adobe Software Distribution [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
 
-Learn how to upgrade your client console [in this page](connect.md)
+#### 오류 메시지{#issue-3-error}
 
-### Internal reference{#issue-3-ref}
+프로세스가 종료되지 않습니다.
 
-Reference: NEO-47269
--->
+#### 해결 방법{#issue-3-workaround}
+
+해결 방법은 이전 클라이언트 콘솔을 사용하는 것입니다. 그러면 서버에 파일을 업로드할 수 있습니다.
+
+Campaign 관리자는 [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Repeat&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}.
+
+Adobe 소프트웨어 배포에 액세스하는 방법 알아보기 [이 페이지에서](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target=&quot;_blank&quot;}.
+
+클라이언트 콘솔을 업그레이드하는 방법 알아보기 [이 페이지에서](connect.md)
+
+#### 내부 참조{#issue-3-ref}
+
+참조: NEO-47269
