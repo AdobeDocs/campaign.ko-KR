@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c9a4110b8ea2d7ad3571da6f7e506c639dfaaf50
+source-git-commit: eb134a16e5289d6410ef9b0eae33a31839365f82
 workflow-type: tm+mt
-source-wordcount: '2835'
-ht-degree: 77%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -98,12 +98,10 @@ _2022년 9월 30일_
 * 외부 게재 모드를 사용하여 SMS 메시지를 보낼 때 개인화 문제가 발생하는 문제를 해결했습니다. (NEO-46415)
 * 추적 로그에서 중복을 생성할 수 있는 문제를 수정했습니다. (NEO-46409)
 * Adobe Analytics 도구에서 **[!UICONTROL Replicate Staging data]** (ffdaReplicateStagingData) 기술 워크플로우가 실행 중에 오류가 발생해도 중지되지 않습니다. (NEO-46280)
-* MTA 프로세스 중에 게재가 정확한 크기에 도달했을 때 발생할 수 있는 문제를 수정했습니다. (NEO-46097)
 * 시드 주소로 증명을 보낼 때 속도가 느려지지 않도록 하기 위해 이제 시드 멤버의 모든 연속 복제가 하나의 복제 요청으로 그룹화됩니다. (NEO-44844)
 * 메시지 센터 보관된 이벤트에서 게재를 미리 볼 때 오류가 표시되는 문제를 수정했습니다. (NEO-43620)
 * Campaign을 사용하여 Snowflake 클라우드 데이터베이스에 데이터를 삽입할 때 발생하는 문제를 해결했습니다 **쿼리** 활동 및 **데이터 소스 변경** 활동: 데이터에 백슬래시 문자가 있으면 프로세스가 실패했습니다. 소스 문자열이 이스케이프되지 않았으며 데이터가 Snowflake 시 올바르게 처리되지 않았습니다. (NEO-45549)
 * 를 사용할 때 발생하는 문제를 수정했습니다 **쿼리** 활동 및 테이블 필터링. 열 이름에 &quot;Update&quot;라는 단어가 포함된 경우 잘못된 식별자와 다음 메시지가 있는 컴파일 오류가 발생했습니다. &quot;업데이트된 행 수&quot; (NEO-46485)
-
 
 ## 릴리스 8.3.8 {#release-8-3-8}
 
