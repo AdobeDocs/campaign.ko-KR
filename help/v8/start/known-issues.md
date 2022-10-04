@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 96e9f5fe5f07ea0c476395d33efa4d6bcf10cf60
+source-git-commit: b9dd9e76be14067740426b6cddfa2c5fcddf3158
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '403'
 ht-degree: 4%
 
 ---
@@ -24,41 +24,6 @@ ht-degree: 4%
 >Adobe은 자체 재량에 따라 이 알려진 문제 목록을 게시합니다. 고객 보고서 수, 심각도 및 해결 방법을 기반으로 합니다. 표시되는 문제가 나열되지 않으면 이 페이지에 게시하기 위한 기준에 맞지 않을 수 있습니다.
 
 ## Campaign v8.3.8{#8.3-issues}
-
-### 데이터 소스 활동 문제 #1 {#issue-1}
-
-#### 설명{#issue-1-desc}
-
-다음 **데이터 소스 변경** Campaign 로컬 데이터베이스에서 Snowflake 클라우드 데이터베이스로 데이터를 전송할 때 활동이 실패합니다. 방향을 전환할 때 활동에서 문제를 생성할 수 있습니다.
-
-#### 복제 단계{#issue-1-repro}
-
-1. 클라이언트 콘솔에 연결하고 워크플로우를 만듭니다.
-1. 추가 **쿼리** 활동 및 **데이터 소스 변경** 활동.
-1. 에서 쿼리를 정의합니다. **이메일**: 문자열입니다.
-1. 워크플로우를 실행하고 전환을 마우스 오른쪽 단추로 클릭하여 모집단을 확인합니다. 전자 메일 레코드가 `****`.
-1. 워크플로우 로그를 확인합니다. a **데이터 소스 변경** 활동은 이러한 레코드를 숫자 값으로 해석합니다.
-
-#### 오류 메시지{#issue-1-error}
-
-```sql
-04/13/2022 10:00:18 AM              Executing change data source 'Ok' (step 'Change Data Source')
-04/13/2022 10:00:18 AM              Starting 1 connection(s) on pool 'nms:extAccount:ffda tractorsupply_mkt_stage8' (Snowflake, server='adobe-acc_tractorsupply_us_west_2_aws.snowflakecomputing.com', login='tractorsupply_stage8_MKT:tractorsupply_stage8')
-04/13/2022 10:00:26 AM              ODB-240000 ODBC error: {*}Numeric value '{*}******{*}{{*}}' is not recognized\{*}   File 'wkf1285541_13_1_0_47504750#458318uploadPart0.chunk.gz', line 1, character 10140   Row 279, column "WKF1285541_13_1_0"["BICUST_ID":1]   If you would like to continue loading when a
-04/13/2022 10:00:26 AM              n error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client. SQLState: 22018
-04/13/2022 10:00:26 AM              WDB-200001 SQL statement 'COPY INTO wkf1285541_13_1_0 (SACTIVE, SADDRESS1, SADDRESS2, BICUST_ID, SEMAIL) FROM ( SELECT $1, $2, $3, $4, $5 FROM $$@BULK_wkf1285541_13_1_0$$) FILE_FORMAT = ( TYPE = CSV RECORD_DELIMITER = '\x02' FIELD_DELIMITER = '\x01' FIEL
-04/13/2022 10:00:26 AM              D_OPTIONALLY_ENCLOSED_BY = 'NONE') ON_ERROR = ABORT_STATEMENT PURGE = TRUE' could not be executed.
-```
-
-#### 해결 방법{#issue-1-workaround}
-
-데이터를 Snowflake 클라우드 데이터베이스에서 Campaign 로컬 데이터베이스로 전송하고 다시 Snowflake으로 전송하려면 서로 다른 두 개의 데이터를 사용해야 합니다 **데이터 소스 변경** 활동.
-
-#### 내부 참조{#issue-1-ref}
-
-참조: NEO-45549
-
-
 
 ### 데이터 소스 활동 변경 문제 {#issue-2}
 
