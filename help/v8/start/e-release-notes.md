@@ -6,22 +6,22 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: acb3223a9a70179ea1cb3a126ef17cf5e234b4ba
+source-git-commit: e873e945f7101c5c54b4b18a128951e08d329b87
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 초기 릴리스 정보 {#e-new-release}
 
-이 페이지에서는 다음 Campaign v8 릴리스에 포함된 개선 사항 및 수정 사항에 대해 설명합니다.
+이 페이지에서는 다음 Campaign v8 릴리스에 포함된 개선 사항 및 수정 사항에 대해 설명합니다. 이 콘텐츠는 릴리스 날짜까지 사전 통지 없이 변경될 수 있습니다. 공식 릴리스 노트는 다음에서 사용할 수 있습니다 [페이지](../start/release-notes.md).
+
+## 릴리스 8.3.9 {#release-8-3-9}
 
 >[!CAUTION]
 >
-> 이 콘텐츠는 릴리스 날짜까지 사전 통지 없이 변경될 수 있습니다. 공식 릴리스 노트는 다음에서 사용할 수 있습니다 [페이지](../start/release-notes.md).
-
-## 릴리스 8.3.9 {#release-8-3-9}
+> 클라이언트 콘솔 업그레이드는 필수입니다. 여기에서 클라이언트 콘솔을 업그레이드하는 방법을 알아봅니다 [페이지](../start/connect.md#download-ac-console).
 
 _2022년 10월 7일_
 
