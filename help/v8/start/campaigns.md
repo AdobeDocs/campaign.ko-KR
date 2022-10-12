@@ -1,18 +1,18 @@
 ---
-title: 캠페인 시작
-description: 캠페인 시작
+title: 업그레이드 시작하기
+description: 업그레이드 시작하기
 feature: Audiences
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '837'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 캠페인 시작{#gs-ac-campaigns}
+# 캠페인 시작하기{#gs-ac-campaigns}
 
 Adobe Campaign은 온라인과 오프라인의 모든 채널에서 캠페인을 개인화하고 게재할 수 있는 다양한 솔루션을 제공합니다. 마케팅 캠페인을 생성, 구성, 실행 및 분석할 수 있습니다. 모든 마케팅 캠페인은 통합 제어 센터에서 관리할 수 있습니다. 이 섹션에서 마케팅 캠페인을 검색하고 만드는 방법을 알아봅니다.
 
