@@ -5,10 +5,10 @@ feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b323dbf9504e39cca78f7082089b864544ee1633
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 11%
+source-wordcount: '474'
+ht-degree: 13%
 
 ---
 
@@ -78,6 +78,8 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 >
 >의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 구독 및 구독 취소 **비동기** 프로세스. 옵트인 및 옵트아웃 요청은 매 시간 처리됩니다. [자세히 알아보기](../architecture/new-apis.md#sub-apis)
 
-게재 수신자가 메시지를 친구에게 전달하도록 설정할 수도 있습니다. 이렇게 하려면 관련 링크를 게재에 삽입합니다. 그런 다음 이 공유 프로세스와 관련 페이지에 대한 방문 수를 추적할 수 있습니다.
+<!--
+You can also enable your delivery recipients to forward messages to a friend. To do this, insert the relevant links into your delivery. You may then track this sharing process as well as the number of visits to the concerned pages. 
 
-![](../assets/do-not-localize/book.png) 이 기능에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) For more on this capability, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend){target="_blank"}
+-->

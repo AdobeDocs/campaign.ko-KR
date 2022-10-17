@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6605a24cea536dbef5b1a7e909ff4d76b3d6c222
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 14%
+source-wordcount: '390'
+ht-degree: 10%
 
 ---
 
@@ -18,19 +18,16 @@ Campaign 인스턴스를 Adobe Experience Cloud 솔루션과 연결하여 기능
 
 Adobe Campaign에는 외부 애플리케이션과 통신하고, 데이터베이스 엔진에 연결하고, 데이터를 공유 및 동기화할 수 있는 여러 개의 커넥터가 포함되어 있습니다.
 
-## Adobe 솔루션 활용 {#gs-ac-integration}
+## Adobe 솔루션 결합 {#gs-ac-integration}
 
-구현을 현대화하고 모든 Adobe Experience Cloud 기능을 활용합니다.
+Adobe Experience Cloud 솔루션을 결합하여 구현 현대화.
 
 ![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자로, [연락처 Adobe](../start/campaign-faq.md#support) Adobe Experience Cloud 서비스 및 솔루션을 사용하여 Campaign을 연결할 수 있습니다.
 
 Campaign v8은 다음과 연결할 수 있습니다.
 
 * [Adobe Experience Platform](../connect/ac-aep.md)
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en).
-
-   엔드 투 엔드 사용 사례 를 참조하십시오 [여기](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=ko).
-
+* [Adobe Journey Optimizer](../connect/ac-ajo.md)
 * [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
 * [Adobe Experience Cloud 트리거](../connect/ac-triggers.md)
@@ -42,7 +39,7 @@ Campaign v8은 다음과 연결할 수 있습니다.
 
 ![](../assets/do-not-localize/book.png) 추가 정보 **자산 공유** 에서 Campaign과 Experience Cloud 솔루션 간 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
-## CRM 커넥터{#gs-crm-connectors}
+## CRM 커넥터와 통합{#gs-crm-connectors}
 
 Adobe Campaign 플랫폼을 **CRM 타사 시스템** 및 데이터를 동기화합니다. 연락처, 계정, 구매 등
 
@@ -51,22 +48,22 @@ CRM 커넥터를 사용하면 빠르고 손쉽게 데이터를 통합할 수 있
 
 ![](../assets/do-not-localize/glass.png) 에서 Microsoft Dynamics 365 및 Salesforce.com과 Campaign을 통합하는 방법을 알아봅니다. [이 페이지](crm.md)
 
-## FDA(Federated Data Access){#gs-fda}
+## 타사와 페더레이션 데이터 액세스 연결{#gs-fda}
 
 FDA 커넥터(Federated Data Access)를 사용하여 Campaign을 하나 이상 연결합니다 **외부 데이터베이스** 및 Campaign Cloud 데이터베이스 데이터에 영향을 주지 않고 데이터베이스에 저장된 정보를 처리합니다.
 
 ![](../assets/do-not-localize/glass.png)[ 이 페이지](fda.md)에서 자세히 알아보십시오
 
+## 소셜 미디어를 사용한 작업{#gs-social}
 
-<!--
-## Integrate with social media
+Adobe Campaign을 사용하여 Twitter을 통해 고객 및 잠재 고객과 교류할 수 있습니다.
 
-Use the **Managing social networks (Social Marketing)** option to interact with customers and prospects via Twitter.
+다음을 수행할 수 있습니다.
 
-* Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
-* Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies.
+* 팔로워에게 직접 메시지 보내기
+* twitter 계정에 트윗 게시
+* 새 연락처 수집
 
-![](../assets/do-not-localize/glass.png) Learn how to set up and use Campaign Social Marketing in [this page](../connect/ac-tw.md).
+![](../assets/do-not-localize/glass.png) 에서 Twitter 통합을 설정하고 사용하는 방법을 알아봅니다. [이 페이지](../connect/ac-tw.md).
 
-![](../assets/do-not-localize/glass.png) Learn how to create Twitter posts and send direct messages to your followers in [this page](../send/twitter.md).
--->
+![](../assets/do-not-localize/glass.png) 에서 Twitter 게시물을 만들고 팔로워에게 직접 메시지를 보내는 방법을 배웁니다 [이 페이지](../send/twitter.md).

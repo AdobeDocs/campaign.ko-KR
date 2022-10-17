@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: e7772364ab46673695f498911e2246056a04790e
+source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 97%
+source-wordcount: '433'
+ht-degree: 87%
 
 ---
 
@@ -15,53 +15,45 @@ ht-degree: 97%
 # Adobe Campaign v8 설명서 {#campaign-v8}
 
 + [Campaign v8 설명서](campaign-home.md)
-+ 새로운 기능 {#new}
-   + [주요 기능](start/whats-new.md)
++ 릴리스 및 최신 업데이트 {#releases}
    + [초기 릴리스 정보](start/e-release-notes.md)
    + [릴리스 정보](start/release-notes.md)
    + [보호 기능](start/ac-guardrails.md)
    + [알려진 문제](start/known-issues.md)
-   + [Classic v7에서 v8로](start/v7-to-v8.md)
+   + [호환성 매트릭스](start/compatibility-matrix.md)
 + 시작 {#start}
-   + [시작](start/get-started.md)
+   + [Adobe Campaign 시작](start/get-started.md)
+   + [주요 기능](start/whats-new.md)
    + [구성 요소 및 프로세스](start/ac-components.md)
+   + [Campaign에 연결](start/connect.md)
    + Campaign UI {#ac-ui}
       + [Campaign 인터페이스 살펴보기](start/campaign-ui.md)
       + [Campaign 인터페이스 사용자 정의](start/customize-ui.md)
-   + [대상자를 사용한 작업](start/audiences.md)
-   + [개인 정보 보호 요청 관리](start/privacy.md)
-   + [데이터 가져오기](start/import.md)
-   + [캠페인 만들기](start/campaigns.md)
-   + [메시지 보내기](start/create-message.md)
-   + [구독 관리](start/subscriptions.md)
-   + [추적 및 모니터링](start/tracking.md)
-   + [지표 및 보고서](start/reporting.md)
+      + [폴더 및 보기 관리](audiences/folders-and-views.md)
+   + [Classic v7에서 v8로](start/v7-to-v8.md)
    + [FAQ](start/campaign-faq.md)
-+ 아키텍처 {#architecture}
-   + [글로벌 원칙](architecture/general-architecture.md)
-   + [아키텍처](architecture/architecture.md)
-   + FDA Snowflake 배포 {#fda}
-      + [FDA-Snowflake란?](architecture/fda-deployment.md)
-   + 엔터프라이즈(FFDA) 배포 {#ffda}
-      + [Campaign FFDA란?](architecture/enterprise-deployment.md)
-      + 특성 {#ffda-characteristics}
-         + [키 관리 및 독자성](architecture/keys.md)
-         + [새 API](architecture/new-apis.md)
-         + [API 스테이징 메커니즘](architecture/staging.md)
-         + [복제 메커니즘](architecture/replication.md)
-+ 구현 {#implement}
-   + [구현 단계](start/implement.md)
-   + [인스턴스 사용자 정의](dev/customize.md)
-   + [보안 지침](config/security.md)
-   + [웹 앱 및 양식 디자인](dev/webapps.md)
-   + [데이터 모델 모범 사례](dev/datamodel-best-practices.md)
-+ 배포 {#deploy}
-   + [호환성 매트릭스](start/compatibility-matrix.md)
-   + [Campaign에 연결](start/connect.md)
-   + [사용 권한](start/permissions.md)
-   + [Campaign 컨트롤 패널](config/self-service.md)
-+ 프로필 및 대상자 {#profiles-and-audiences}
-   + [시작](audiences/gs-audiences.md)
++ Campaign Management {#campaigns}
+   + [업그레이드 시작하기](start/campaigns.md)
+   + [캠페인 오케스트레이션 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
+   + 메시지 보내기{#send}
+      + [메시지 시작](start/create-message.md)
+      + 이메일 {#emails}
+         + [이메일 디자인 및 유효성 검사](send/email.md)
+         + [이메일 보내기 및 모니터링](send/send.md)
+      + [SMS](send/sms.md)
+      + [푸시 알림](send/push.md)
+      + [LINE 메시지 보내기](send/line.md)
+      + [DM](send/direct-mail.md)
+      + [Twitter](send/twitter.md)
+      + [트랜잭션 메시지 ](send/transactional.md)
+      + 실패, 바운스, 격리{#failures}
+         + [격리](send/quarantines.md)
+         + [게재 실패](send/delivery-failures.md)
+      + [전송 시간 최적화](send/predictive.md)
+      + [구독 관리](start/subscriptions.md)
++ 프로필 및 대상 관리 {#audience}
+   + [프로필 및 대상자 시작](audiences/gs-audiences.md)
+   + [대상자를 사용한 작업](start/audiences.md)
    + [프로필 액세스](audiences/view-profiles.md)
    + 프로필 추가 {#add-profiles}
       + [수동으로 프로필 만들기](audiences/create-profiles.md)
@@ -72,23 +64,14 @@ ht-degree: 97%
    + 대상자 만들기 {#create-audiences}
       + [연락처 목록 만들기](audiences/create-audiences.md)
       + [필터 만들기 및 관리](audiences/create-filters.md)
-   + [폴더 및 보기 관리](audiences/folders-and-views.md)
+   + [Adobe 솔루션과 대상 공유](start/shared-audiences.md)
    + [모범 사례](audiences/audiences-best-practices.md)
-+ 메시지 보내기{#send}
-   + 이메일 {#emails}
-      + [이메일 디자인 및 유효성 검사](send/email.md)
-      + [이메일 보내기 및 모니터링](send/send.md)
-   + [SMS](send/sms.md)
-   + [푸시 알림](send/push.md)
-   + [LINE 메시지 보내기](send/line.md)
-   + [DM](send/direct-mail.md)
-   + [Twitter](send/twitter.md)
-   + [트랜잭션 메시지 ](send/transactional.md)
-   + [전송 시간 최적화](send/predictive.md)
-   + 실패, 바운스, 격리{#failures}
-      + [격리](send/quarantines.md)
-      + [게재 실패](send/delivery-failures.md)
-+ 실시간 상호 작용{#interaction}
++ 콘텐츠 관리 {#content}
+   + [웹 앱 및 양식 디자인](dev/webapps.md)
++ 개인 정보 및 보안 관리 {#privacy}
+   + [개인 정보 보호 요청 관리](start/privacy.md)
+   + [보안 지침](config/security.md)
++ 의사 결정 관리 {#offers}
    + [실시간 상호 작용 시작](interaction/interaction.md)
    + [환경 및 아키텍처](interaction/interaction-architecture.md)
    + [모범 사례](interaction/interaction-best-practices.md)
@@ -106,15 +89,17 @@ ht-degree: 97%
       + [익명 상호 작용 관리](interaction/anonymous-interactions.md)
    + [보고서 및 기록](interaction/interaction-tracking.md)
    + [활용 사례](interaction/interaction-use-cases.md)
-+ 구성 {#config}
-   + [워크플로우 자동화](config/workflows.md)
-   + [이메일 설정](config/email-settings.md)
-   + [트랜잭션 메시지 설정](config/transactional-msg-settings.md)
-   + [Campaign SDK와 앱 통합](config/push-config.md)
-   + [외부 계정](config/external-accounts.md)
-+ 연결 {#connect}
-   + [다른 솔루션과 연결](connect/integration.md)
-   + [Campaign + Adobe Experience Platform](connect/ac-aep.md)
++ 보고 및 분석 {#analytics}
+   + [추적 및 모니터링](start/tracking.md)
+   + [지표 및 보고서](start/reporting.md)
++ 데이터 관리 {#data}
+   + [워크플로우 시작](config/workflows.md)
+   + [데이터 가져오기](start/import.md)
+   + [워크플로우 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
++ 통합 {#connect}
+   + [Campaign을 다른 솔루션과 연결](connect/integration.md)
+   + [Campaign + Experience Platform](connect/ac-aep.md)
+   + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
    + [Campaign + Target](connect/ac-at.md)
@@ -126,6 +111,31 @@ ht-degree: 97%
       + [Campaign 및 SFDC 작업](connect/ac-sfdc.md)
       + [Campaign 및 Microsoft Dynamics 작업](connect/ac-ms-dyn.md)
       + [데이터 동기화](connect/crm-data-sync.md)
++ 관리 {#admin}
+   + [사용 권한](start/permissions.md)
+   + [Campaign 컨트롤 패널](config/self-service.md)
++ 아키텍처 및 구성 {#config}
+   + 아키텍처 {#architecture}
+      + [글로벌 원칙](architecture/general-architecture.md)
+      + [아키텍처](architecture/architecture.md)
+      + FDA Snowflake 배포 {#fda}
+         + [FDA-Snowflake란?](architecture/fda-deployment.md)
+      + 엔터프라이즈(FFDA) 배포 {#ffda}
+         + [Campaign FFDA란?](architecture/enterprise-deployment.md)
+         + 특성 {#ffda-characteristics}
+            + [키 관리 및 독자성](architecture/keys.md)
+            + [새 API](architecture/new-apis.md)
+            + [API 스테이징 메커니즘](architecture/staging.md)
+            + [복제 메커니즘](architecture/replication.md)
+   + 구현 {#implement}
+      + [구현 단계](start/implement.md)
+      + [인스턴스 사용자 정의](dev/customize.md)
+      + [데이터 모델 모범 사례](dev/datamodel-best-practices.md)
+   + 구성 {#configuration}
+      + [이메일 설정](config/email-settings.md)
+      + [트랜잭션 메시지 설정](config/transactional-msg-settings.md)
+      + [Campaign SDK와 앱 통합](config/push-config.md)
+      + [외부 계정](config/external-accounts.md)
 + 개발자 리소스 {#developer}
    + [Campaign 데이터 모델](dev/datamodel.md)
    + 스키마 및 양식 {#shemas-forms}

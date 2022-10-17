@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '710'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Campaign 데이터베이스는 지속성 레이어로 사용되며 Adobe Campaig
 
 Campaign 논리 애플리케이션 계층은 복잡한 비즈니스 요구 사항을 충족하도록 쉽게 구성할 수 있습니다. 개방적이고 확장 가능한 아키텍처를 만들기 위해 결합하는 다양한 애플리케이션을 사용하는 단일 플랫폼으로 Campaign을 사용할 수 있습니다. 각 Campaign 인스턴스는 애플리케이션 레이어의 프로세스 컬렉션으로, 일부는 공유되고 일부는 전용으로 사용됩니다.
 
-## Campaign Managed Services{#ac-managed-services}
+## Campaign 관리 Cloud Services{#ac-managed-services}
 
 Adobe Campaign v8이 as a Managed Service으로 배포됩니다. 사용자 인터페이스, 실행 관리 엔진 및 Campaign 데이터베이스를 포함한 Adobe Campaign의 모든 구성 요소는 이메일 실행, 미러 페이지, 추적 서버 및 구독 취소 페이지/기본 설정 센터 및 랜딩 페이지와 같은 외부 웹 구성 요소를 포함하여 Adobe에 의해 완전히 호스팅됩니다.
 

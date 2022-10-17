@@ -5,7 +5,7 @@ feature: Web Apps
 role: User, Developer
 level: Beginner
 exl-id: a460c1b4-4266-46ff-8cca-748050afd579
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 64bdd8332d0cf76b3e15db58f8abf09fdf163bba
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 웹 애플리케이션 및 웹 양식 시작{#gs-ac-web}
 
-Adobe Campaign은 정의 및 게시를 위한 그래픽 모듈을 통합합니다 **웹 양식** 입력 및 선택 필드가 포함된 페이지와 데이터베이스에 데이터가 포함될 수 있는 페이지를 만들려면 이를 통해 사용자가 정보를 보거나 입력할 수 있는 웹 페이지를 디자인하고 게시할 수 있습니다.
+Adobe Campaign은 정의 및 게시를 위한 그래픽 모듈을 통합합니다 **웹 양식** 입력 및 선택 필드가 있고 데이터베이스의 데이터를 포함할 수 있는 페이지를 만들려면 이를 통해 사용자가 정보를 보거나 입력할 수 있는 웹 페이지를 디자인하고 게시할 수 있습니다.
 
 ![](../assets/do-not-localize/book.png) 에서 웹 양식을 만들고 게시하는 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=en#designing-content){target=&quot;_blank&quot;}
 

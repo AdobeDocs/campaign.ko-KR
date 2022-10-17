@@ -5,7 +5,7 @@ feature: Audiences, Profiles, Application Settings
 role: User
 level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 특정 데이터에 대한 액세스를 제한하는 권한을 폴더에 할당할 수 있습니다. [자세히 알아보기](#restrict-access-to-a-folder)
 
-## 폴더 작업 시 모범 사례
+## 폴더 작업 시 모범 사례{#best-practices-folders}
 
 * **기본 제공 폴더 사용** 를 사용하면 프로젝트에 참여하는 모든 사람이 애플리케이션을 보다 쉽게 사용, 유지 관리 및 해결할 수 있습니다. 수신자, 목록, 게재 등에 대한 사용자 지정 폴더 구조를 만들지 않지만 다음과 같은 표준 폴더를 사용합니다 **관리**, **프로필 및 Target**, **캠페인 관리**.
 

@@ -5,9 +5,9 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3009'
 ht-degree: 11%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->Managed Services 사용자는 바운스 사서함을 Adobe에 의해 구성합니다.
+>관리되는 Cloud Services 사용자로서 바운스 사서함의 구성은 Adobe에 의해 수행됩니다.
 
 ## 반송 메일 조건 {#bounce-mail-qualification}
 

@@ -5,8 +5,8 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 0fd798fd21d781f7c0bf75ecb1838f891350bff6
-workflow-type: ht
+source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -80,6 +80,7 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 
 * **Android** 12(Campaign v8.3부터), 9.0, 8.x, 7.x(Campaign Android SDK 빌드 1.1.1 사용).
 * **Apple iOS** 9 - 16(Campaign iOS SDK 빌드 1.0.26 포함)는 32비트 및 64비트 버전과 호환됩니다. iOS 16는 Campaign v8.4부터 지원됩니다.
+
 
 ## 웹 액세스
 
