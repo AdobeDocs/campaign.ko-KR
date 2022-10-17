@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+source-git-commit: 1e84fdd61bb2591bf69f5efaf8f8fc01a0d3d93f
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 94%
+source-wordcount: '638'
+ht-degree: 86%
 
 ---
 
@@ -66,27 +66,28 @@ Campaign 사용자는 Adobe ID를 통해서만 연결합니다. 동일한 Adobe 
 
 Marketing Analytics 모듈을 사용하여 데이터를 분석 및 측정하고, 통계를 계산하며, 보고서 작성 및 계산을 간소화 및 최적화합니다. 또한 보고서를 만들고 대상 모집단을 빌드합니다. 식별되면 Adobe Campaign에서 사용할 수 있는 목록(타겟팅, 세그멘테이션 등)에 저장됩니다.
 
-Adobe Campaign 큐브 보고서는 최적화되어 있으며 Campaign Classic v7보다 더 나은 확장 기능을 제공합니다. 큐브에 대한 이전 제한 사항은 Campaign v8에 적용되지 않습니다.
+사용 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), Adobe Campaign 큐브 보고서는 Campaign Classic v7보다 최적화되어 더 나은 확장 기능을 제공합니다. 해당 특정 배포 모델에서 큐브의 이전 제한 사항은 Campaign v8에 적용되지 않습니다.
 
 ## 사용할 수 없는 기능{#gs-unavailable-features}
 
 다음과 같은 일부 기능은 이 버전에서 아직 사용할 수 없습니다.
 
 * 마케팅 리소스 관리
-* 하이브리드/온-프레미스 배포 모델
+* 쿠폰
+* 웹 추적
+* 설문 조사
 
 
 ## 지원되지 않는 기능{#gs-removed}
 
-Campaign v8의 새로운 아키텍처 및 배포 모델에 맞게 이전 Campaign Classic v7의 일부 기능은 Campaign v8에서 더 이상 사용할 수 없습니다:
+일부 이전 Campaign Classic v7 기능은 다음과 같이 Campaign v8에서 더 이상 지원되지 않습니다.
 
-* 쿠폰
-* 웹 추적
-* 설문 조사
-* 소셜 마케팅
+* facebook을 사용한 소셜 마케팅
 * ACS 커넥터(프라임 제공)
 * LDAP와 통합
 * 사용자/암호 로그인
+* 하이브리드/온-프레미스 배포 모델
+
 
 >[!NOTE]
 >
