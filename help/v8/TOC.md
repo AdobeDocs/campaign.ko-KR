@@ -7,7 +7,7 @@ title: Campaign v8 문서
 source-git-commit: f3090d1da1aaec1a50452bcfbf89e65e2669fc5c
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 87%
       + [Campaign 인터페이스 살펴보기](start/campaign-ui.md)
       + [Campaign 인터페이스 사용자 정의](start/customize-ui.md)
       + [폴더 및 보기 관리](audiences/folders-and-views.md)
-   + [Classic v7에서 v8로](start/v7-to-v8.md)
+   + [Classic v7에서 v8까지](start/v7-to-v8.md)
    + [FAQ](start/campaign-faq.md)
-+ Campaign Management {#campaigns}
++ 캠페인 관리 {#campaigns}
    + [업그레이드 시작하기](start/campaigns.md)
    + [캠페인 오케스트레이션 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
    + 메시지 보내기{#send}
@@ -51,7 +51,7 @@ ht-degree: 87%
          + [게재 실패](send/delivery-failures.md)
       + [전송 시간 최적화](send/predictive.md)
       + [구독 관리](start/subscriptions.md)
-+ 프로필 및 대상 관리 {#audience}
++ 프로필 및 대상자 관리 {#audience}
    + [프로필 및 대상자 시작](audiences/gs-audiences.md)
    + [대상자를 사용한 작업](start/audiences.md)
    + [프로필 액세스](audiences/view-profiles.md)
@@ -64,11 +64,11 @@ ht-degree: 87%
    + 대상자 만들기 {#create-audiences}
       + [연락처 목록 만들기](audiences/create-audiences.md)
       + [필터 만들기 및 관리](audiences/create-filters.md)
-   + [Adobe 솔루션과 대상 공유](start/shared-audiences.md)
+   + [Adobe 솔루션으로 대상자 공유](start/shared-audiences.md)
    + [모범 사례](audiences/audiences-best-practices.md)
 + 콘텐츠 관리 {#content}
    + [웹 앱 및 양식 디자인](dev/webapps.md)
-+ 개인 정보 및 보안 관리 {#privacy}
++ 개인 정보 보호 및 보안 관리 {#privacy}
    + [개인 정보 보호 요청 관리](start/privacy.md)
    + [보안 지침](config/security.md)
 + 의사 결정 관리 {#offers}
@@ -95,9 +95,9 @@ ht-degree: 87%
 + 데이터 관리 {#data}
    + [워크플로우 시작](config/workflows.md)
    + [데이터 가져오기](start/import.md)
-   + [워크플로우 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+   + [워크플로우 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
 + 통합 {#connect}
-   + [Campaign을 다른 솔루션과 연결](connect/integration.md)
+   + [캠페인을 다른 솔루션과 연결](connect/integration.md)
    + [Campaign + Experience Platform](connect/ac-aep.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign + Analytics](connect/ac-aa.md)
