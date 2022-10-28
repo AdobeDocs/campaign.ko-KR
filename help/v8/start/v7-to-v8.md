@@ -8,7 +8,7 @@ exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: 1e84fdd61bb2591bf69f5efaf8f8fc01a0d3d93f
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 86%
 
 Adobe Campaign v8은 **관리 클라우드 서비스**&#x200B;로 사용 가능합니다.
 
-Adobe Campaign Managed Cloud Services은 크로스 채널 고객 경험을 디자인하기 위한 관리 Cloud Services 플랫폼을 제공하며 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리 및 크로스 채널 실행 환경을 제공합니다. Campaign 관리 클라우드 서비스에 대해 [제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}에서 자세히 알아보십시오.
+Adobe Campaign 관리 클라우드 서비스는 크로스 채널 고객 경험을 설계하기 위한 관리 클라우드 서비스 플랫폼과 함께 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널 실행 환경을 제공합니다. Campaign 관리 클라우드 서비스에 대해 [제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}에서 자세히 알아보십시오.
 
 이 새로운 버전에서는 업계 최고의 서비스를 사전 예방적 관리와 시기 적절한 경고 기능을 결합했으며 세 가지 영역에 초점을 맞춥니다.
 
@@ -66,7 +66,7 @@ Campaign 사용자는 Adobe ID를 통해서만 연결합니다. 동일한 Adobe 
 
 Marketing Analytics 모듈을 사용하여 데이터를 분석 및 측정하고, 통계를 계산하며, 보고서 작성 및 계산을 간소화 및 최적화합니다. 또한 보고서를 만들고 대상 모집단을 빌드합니다. 식별되면 Adobe Campaign에서 사용할 수 있는 목록(타겟팅, 세그멘테이션 등)에 저장됩니다.
 
-사용 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), Adobe Campaign 큐브 보고서는 Campaign Classic v7보다 최적화되어 더 나은 확장 기능을 제공합니다. 해당 특정 배포 모델에서 큐브의 이전 제한 사항은 Campaign v8에 적용되지 않습니다.
+[엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)를 통해 Adobe Campaign 큐브 보고서는 최적화 되어 Campaign Classic v7보다 더 나은 확장 기능을 제공합니다. 해당 특정 배포 모델에서는 큐브에 대한 이전 제한 사항이 Campaign v8에 적용되지 않습니다.
 
 ## 사용할 수 없는 기능{#gs-unavailable-features}
 
@@ -80,9 +80,9 @@ Marketing Analytics 모듈을 사용하여 데이터를 분석 및 측정하고,
 
 ## 지원되지 않는 기능{#gs-removed}
 
-일부 이전 Campaign Classic v7 기능은 다음과 같이 Campaign v8에서 더 이상 지원되지 않습니다.
+일부 이전 Campaign Classic v7 기능은 다음과 같은 Campaign v8에서 더 이상 지원되지 않습니다:
 
-* facebook을 사용한 소셜 마케팅
+* Facebook을 사용한 소셜 마케팅
 * ACS 커넥터(프라임 제공)
 * LDAP와 통합
 * 사용자/암호 로그인
