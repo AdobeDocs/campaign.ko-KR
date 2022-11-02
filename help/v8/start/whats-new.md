@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
-source-wordcount: '876'
+source-git-commit: 0d9acc431efddc500701996996f846132eeafcdb
+workflow-type: tm+mt
+source-wordcount: '877'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상
 >
 >* Campaign v8은 현재 **관리 클라우드 서비스로만 사용할 수 있으며** 온-프레미스 또는 하이브리드 환경에 배포할 수 없습니다.
 >
->* 기존 Campaign Classic v7 환경에서의 마이그레이션은 아직 불가능합니다.
+>* 기존 Campaign Classic v7 환경에서의 자동 마이그레이션은 아직 불가능합니다.
 
 
 
