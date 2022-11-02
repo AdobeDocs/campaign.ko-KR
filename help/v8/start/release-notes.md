@@ -6,16 +6,24 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: f215d10c2b8deffc73407bfc39628e2f7958650c
+source-git-commit: ad5444284a3886f02c97e94952898e1836c6b7c3
 workflow-type: tm+mt
-source-wordcount: '3368'
-ht-degree: 100%
+source-wordcount: '3391'
+ht-degree: 99%
 
 ---
 
 # 최신 릴리스{#latest-release}
 
 이 페이지에서는 **최신 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다.
+
+## 릴리스 8.4.2 {#release-8-4-2}
+
+_2022년 10월 28일_
+
+**개선 사항**
+
+* Adobe Campaign Enhanced MTA를 사용할 때 성공 게재 표시기가 올바르게 업데이트되지 않는 문제를 수정했습니다. (NEO-50462)
 
 ## 릴리스 8.4.1 {#release-8-4-1}
 
