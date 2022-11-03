@@ -3,7 +3,7 @@ product: campaign
 title: 큐브를 사용하여 데이터에 대한 보고서를 만듭니다
 description: 큐브를 사용하여 보고서를 만드는 방법을 알아봅니다
 feature: Reporting
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 1%
@@ -60,7 +60,7 @@ ht-degree: 1%
 
    이러한 매개 변수는 선택한 차원의 데이터 유형에 따라 다릅니다.
 
-   예를 들어, 날짜의 경우 몇 가지 수준을 사용할 수 있습니다. 자세한 내용은 [측정값 표시](cube-best-practices.md#display-measures).
+   예를 들어, 날짜의 경우 몇 가지 수준을 사용할 수 있습니다. 자세한 내용은 [측정값 표시](customize-cubes.md#display-measures).
 
    이 경우 다음 옵션을 사용할 수 있습니다.
 
@@ -102,7 +102,7 @@ ht-degree: 1%
 
    ![](assets/cube-pivot-table-config.png)
 
-   그런 다음 측정값 레이블을 표시할지 여부를 선택할 수 있습니다. [자세히 알아보기](cube-best-practices.md#configure-the-display)
+   그런 다음 측정값 레이블을 표시할지 여부를 선택할 수 있습니다. [자세히 알아보기](customize-cubes.md#configure-the-display)
 
 1. 기존 측정값을 기반으로 새 측정값을 작성할 수 있습니다. 이렇게 하려면 **[!UICONTROL Create a measure]** 그리고 구성합니다.
 

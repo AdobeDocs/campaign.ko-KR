@@ -4,7 +4,7 @@ description: 큐브를 만드는 방법을 알아봅니다
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 2%
@@ -58,7 +58,7 @@ ht-degree: 2%
 1. 작업 테이블을 선택합니다. [자세히 알아보기](#select-the-work-table)
 1. 차원을 정의합니다. [자세히 알아보기](#define-dimensions)
 1. 측정 단위를 정의합니다. [자세히 알아보기](#build-indicators)
-1. 합계 만들기(선택 사항). [자세히 알아보기](cube-best-practices.md#calculate-and-use-aggregates)
+1. 합계 만들기(선택 사항). [자세히 알아보기](customize-cubes.md#calculate-and-use-aggregates)
 
 아래 예에서는 보고서에서 간단한 큐브를 빠르게 만들어 측정 단위를 내보내는 방법을 알아봅니다.
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 1. 이 예제에서는 수신자를 선택합니다 **연령**. 이 필드의 경우 페이지를 그룹화하고 정보를 더 쉽게 읽을 수 있도록 하는 이닝을 정의할 수 있습니다. 여러 개의 개별 값이 있을 가능성이 있는 경우 이닝을 사용하는 것이 좋습니다.
 
-이렇게 하려면 **[!UICONTROL Enable binning]** 선택 사항입니다. [자세히 알아보기](cube-best-practices.md#data-binning)
+이렇게 하려면 **[!UICONTROL Enable binning]** 선택 사항입니다. [자세히 알아보기](customize-cubes.md#data-binning)
 
 1. 추가 **날짜** 유형 차원. 여기에서는 수신자 프로필 생성 날짜를 표시하려고 합니다. 이렇게 하려면 **[!UICONTROL Add]** 을(를) 선택하고 을(를) 선택합니다. **[!UICONTROL Creation date]** 수신자 테이블의 필드.
 날짜 표시 모드를 사용자 지정할 수 있습니다. 이렇게 하려면 사용할 계층 및 생성할 레벨을 선택합니다.
@@ -109,7 +109,7 @@ ht-degree: 2%
 
 열거형의 값만 표시됩니다. 다른 항목은 **[!UICONTROL Label of the other values]** 필드.
 
-이 작업에 대한 자세한 정보는 [이 섹션](cube-best-practices.md#dynamically-manage-bins)을 참조하십시오.
+이 작업에 대한 자세한 정보는 [이 섹션](customize-cubes.md#dynamically-manage-bins)을 참조하십시오.
 
 ### 지표 작성 {#build-indicators}
 
@@ -124,7 +124,7 @@ ht-degree: 2%
 
    ![](assets/cube-new-measure.png)
 
-   를 사용하십시오 **[!UICONTROL Filter the measure data...]** 여성만 선택할 수 있습니다. [자세히 알아보기](cube-best-practices.md#define-measures)
+   를 사용하십시오 **[!UICONTROL Filter the measure data...]** 여성만 선택할 수 있습니다. [자세히 알아보기](customize-cubes.md#define-measures)
 
    ![](assets/cube-filter-measure-data.png)
 
