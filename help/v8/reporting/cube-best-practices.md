@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: 큐브를 사용한 구현 및 우수 사례
+title: 큐브 사용자 지정
 description: Adobe Campaign에서 큐브를 구현할 때의 모범 사례를 알아봅니다
 feature: Reporting
-source-git-commit: 80e5efc5998c67ce576e9f8208fab9543fc70d29
+source-git-commit: b9928cc3bda0c0a1a0d5a43b2604615d7472b419
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1453'
 ht-degree: 1%
 
 ---
 
-# 큐브를 사용한 구현 및 우수 사례{#cube-best-practices}
+# 큐브 사용자 지정{#cube-custom}
 
 ## 데이터 바인딩 {#data-binning}
 

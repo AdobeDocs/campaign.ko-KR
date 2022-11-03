@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: 863793e11b29f8f522e47d5158b64eacc0d2acb5
+source-git-commit: b9928cc3bda0c0a1a0d5a43b2604615d7472b419
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '470'
 ht-degree: 93%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 93%
          + [큐브 시작](reporting/gs-cubes.md)
          + [큐브 만들기](reporting/cube-indicators.md)
          + [큐브를 사용하여 보고서 만들기](reporting/cube-tables.md)
-         + [큐브 모범 사례](reporting/cube-best-practices.md)
+         + [큐브 사용자 지정](reporting/cube-best-practices.md)
       + 기본 제공 보고서{#ac-reports}
          + [기본 제공 보고서 목록](reporting/built-in-reports.md)
          + [전반적 보고서](reporting/global-reports.md)
