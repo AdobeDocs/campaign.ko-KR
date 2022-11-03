@@ -5,8 +5,8 @@ feature: Overview
 role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
+source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
+workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 100%
 
@@ -125,7 +125,7 @@ Campaign의 다양한 영역과 기능을 사용자 지정할 수 있습니다. 
 
    기본 제공 보고서 외에도 Adobe Campaign을 사용하면 다양한 컨텍스트에서 보고서를 생성하여 다양한 요구를 충족할 수 있습니다. 사용 및 구현 모드의 원칙은 이 문서에 자세히 설명되어 있습니다.
 
-   ![](../assets/do-not-localize/glass.png) Campaign의 보고 기능에 대한 자세한 정보는 [이 페이지](reporting.md)를 참조하세요.
+   ![](../assets/do-not-localize/glass.png) Campaign의 보고 기능에 대한 자세한 정보는 [이 페이지](../reporting/gs-reporting.md)를 참조하세요.
 
 
 ## 캠페인 자동화 설정

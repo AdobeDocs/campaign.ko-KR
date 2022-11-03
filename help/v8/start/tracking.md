@@ -5,9 +5,9 @@ feature: Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '880'
 ht-degree: 20%
 
 ---
@@ -109,7 +109,7 @@ Campaign에서 사용할 수 있는 주요 추적 기능은 아래에 나와 있
 
 다른 테이블에서는 게재 유형에 따라 다른 보고서에서 사용된 지표 목록과 계산 공식을 제공합니다.
 
-[자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/indicator-calculation.html?lang=en#reporting){target=&quot;_blank&quot;}를 참조하십시오
+[자세히 알아보기](../reporting/metrics-calculation.md)
 
 ## 모니터링 지침
 

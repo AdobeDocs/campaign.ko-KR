@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: f3090d1da1aaec1a50452bcfbf89e65e2669fc5c
+source-git-commit: 863793e11b29f8f522e47d5158b64eacc0d2acb5
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '471'
+ht-degree: 93%
 
 ---
 
@@ -91,7 +91,19 @@ ht-degree: 100%
    + [활용 사례](interaction/interaction-use-cases.md)
 + 보고 및 분석 {#analytics}
    + [추적 및 모니터링](start/tracking.md)
-   + [지표 및 보고서](start/reporting.md)
+   + 보고서를 사용한 작업{#reports}
+      + [보고서 시작](reporting/gs-reporting.md)
+      + 큐브 만들기{#cubes}
+         + [큐브 시작](reporting/gs-cubes.md)
+         + [큐브 만들기](reporting/cube-indicators.md)
+         + [큐브를 사용하여 보고서 만들기](reporting/cube-tables.md)
+         + [큐브 모범 사례](reporting/cube-best-practices.md)
+      + 기본 제공 보고서{#ac-reports}
+         + [기본 제공 보고서 목록](reporting/built-in-reports.md)
+         + [전반적 보고서](reporting/global-reports.md)
+         + [게재 보고서](reporting/delivery-reports.md)
+         + [내장 지표 계산](reporting/metrics-calculation.md)
+      + [사용자 지정 보고서](reporting/custom-reports.md)
 + 데이터 관리 {#data}
    + [워크플로우 시작](config/workflows.md)
    + [데이터 가져오기](start/import.md)

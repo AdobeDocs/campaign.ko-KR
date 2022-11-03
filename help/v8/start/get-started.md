@@ -5,8 +5,8 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
+source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
+workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ Adobe Campaign에서는 강력한 기본 보고 템플릿 외에도 게재, 캠�
 캠페인 보고 기능을 사용하면 동적 보고서를 쉽게 만들 수 있습니다. 드래그 앤 드롭 변수를 사용하여 보고서를 사용자 정의하고 캠페인의 성공을 분석할 수 있습니다. 쿼리 및 계산의 복잡성에 따라 데이터를 목록 보기로 집계하거나 마케팅 분석 보고서를 쉽게 생성할 수 있는 형식으로 액세스할 수 있습니다.
 
 
-![](../assets/do-not-localize/glass.png) [이 섹션](reporting.md)에서는 보고서 및 추적 기능에 대해 자세히 알아봅니다.
+![](../assets/do-not-localize/glass.png) [이 섹션](../reporting/gs-reporting.md)에서는 보고서 및 추적 기능에 대해 자세히 알아봅니다.
 
 ## Adobe Experience Cloud 통합 {#adobe-experience-cloud-integrations}
 
