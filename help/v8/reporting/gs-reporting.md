@@ -4,7 +4,7 @@ description: 캠페인의 성공을 측정하고 사용자 행동을 분석합�
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: d8dd91453c035703b4ffd5c8b9816f27392874d6
+source-git-commit: 8fb1f57b82ce3b99dabf584a6434d9111dc8b5af
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 4%
@@ -15,7 +15,6 @@ ht-degree: 4%
 # 보고 시작{#gs-ac-reports}
 
 Adobe Campaign은 이 페이지에 나열된 보고 도구 세트를 제공합니다.
-
 
 * **큐브**
 
