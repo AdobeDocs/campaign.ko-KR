@@ -3,16 +3,14 @@ product: campaign
 title: SQL 데이터 관리
 description: SQL 데이터 관리 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 2%
+source-wordcount: '366'
+ht-degree: 1%
 
 ---
 
 # SQL 데이터 관리{#sql-data-management}
-
-
 
 다음 **SQL 데이터 관리** 활동을 통해 고유한 SQL 스크립트를 작성하여 작업 테이블을 만들고 채울 수 있습니다.
 
@@ -20,16 +18,9 @@ ht-degree: 2%
 
 활동을 구성하기 전에 다음 전제 조건이 충족되었는지 확인하십시오.
 
-* 활동은 원격 데이터 소스에서만 사용할 수 있습니다. 입력한 URL의 유효성 검사가 완료되고 나면 입력한 페이지의 모든 하위 페이지도 포함되도록 URL 끝에 ** .
-
-   자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
-
-   !
-
-   ![](assets/do-not-localize/v8.png)[  Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
-
+* 활동은 원격 데이터 소스에서만 사용할 수 있습니다.
 * 아웃바운드 스키마가 데이터베이스에 있고 FDA 데이터베이스에 연결되어 있어야 합니다.
-* 워크플로우를 실행하는 연산자에는 가 **.
+
 
 ## SQL 데이터 관리 활동 구성 {#configuring-the-sql-data-management-activity}
 

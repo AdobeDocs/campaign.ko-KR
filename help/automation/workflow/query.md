@@ -3,9 +3,9 @@ product: campaign
 title: 쿼리
 description: 쿼리 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity, Query Editor
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
 
 ## 예: 단순 수신자 속성에 대한 타겟팅 {#example--targeting-on-simple-recipient-attributes}
 
-다음 예에서는 18세에서 30세 사이의 남자들과 프랑스에 거주하는 남성을 확인하려고 합니다. 이 쿼리는 예를 들어 독점 오퍼를 만드는 워크플로우에서 사용됩니다.
+다음 예에서는 18세에서 30세 사이의 남자 및 프랑스에 거주하는 남성을 확인하려고 합니다. 이 쿼리는 예를 들어 독점 오퍼를 만드는 워크플로우에서 사용됩니다.
 
 >[!NOTE]
 >
@@ -176,12 +176,6 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
    일반적인 실수: `iBlacklist='3'` 여기서 `iBlacklist` 는 숫자 필드이며 `3` 텍스트 값을 나타냅니다.
 
    쿼리의 실행 계획이 무엇인지 확인합니다. 특히 매분마다 실행되는 실시간 쿼리 또는 거의 실시간 쿼리에 대해서는 전체 테이블 검사를 사용하지 마십시오.
-
-   자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
-
-   !
-
-   ![](assets/do-not-localize/v8.png)[  Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html)
 
 ### 함수 {#functions}
 

@@ -3,7 +3,9 @@ product: campaign
 title: 큐브 사용자 지정
 description: Adobe Campaign에서 큐브를 구현할 때의 모범 사례를 알아봅니다
 feature: Reporting
-source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
+role: Data Engineer
+level: Beginner
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 1%

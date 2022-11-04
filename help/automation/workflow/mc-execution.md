@@ -3,25 +3,17 @@ product: campaign
 title: 메시지 센터(실행)
 description: 메시지 센터(실행)
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 7%
+source-wordcount: '203'
+ht-degree: 8%
 
 ---
 
 
 # 메시지 센터(실행){#message-center-execution}
 
-
-
 아래 자세히 설명된 워크플로우는 **메시지 센터 - 실행** 기본적으로 추가 기능.
-
-자세한 내용은 Campaign 버전에 따라 다음 섹션을 참조하십시오.
-
-!
-
-![](assets/do-not-localize/v8.png)[  Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html)
 
 <table> 
  <tbody> 
