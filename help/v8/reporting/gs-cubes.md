@@ -4,9 +4,9 @@ description: 큐브를 만드는 방법을 알아봅니다
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: bd39a18178edec2730707f0323a19c9d1c80cd76
+source-git-commit: bead34ec59f6f3dca0fbec8460d58ec7da2ed76f
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '525'
 ht-degree: 13%
 
 ---
@@ -20,11 +20,6 @@ Marketing Analytics 기능을 사용하여 데이터를 분석 및 측정하고,
 보고서 또는 표를 만들 때 계산, 측정 단위 및 통계를 처리할 때 기존(완전히 구성된) 큐브를 선택하기만 하면 되는 것과 같이 최종 사용자가 보고서 및 테이블을 쉽게 구성할 수 있도록 하면서 데이터베이스 탐색 및 분석 기능을 확장할 수 있습니다. 
 
 큐브는 다음을 포함한 특정 기본 제공 보고서를 생성하는 데 사용됩니다 [게재 보고서](delivery-reports.md) (게재 추적, 클릭, 열기 등).
-
->[!CAUTION]
->
->다음 [[!DNL Snowflake] FDA(기본) 배포](../architecture/fda-deployment.md), 큐브를 기반으로 하는 보고서는 500만 개의 팩트 라인 아래의 데이터 볼륨에만 사용할 수 있습니다.
-
 
 만들고 구성하고 난 후 큐브는 보고서 쿼리 상자 및 웹 애플리케이션에 사용됩니다. 피벗 테이블 내에서 사용하고 조작할 수 있습니다.
 
