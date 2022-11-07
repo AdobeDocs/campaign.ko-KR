@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
+source-git-commit: 43e515339a2483e82910603daf6009cad63eeeae
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 93%
+source-wordcount: '474'
+ht-degree: 92%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 93%
    + [캠페인 오케스트레이션 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
    + 메시지 보내기{#send}
       + [메시지 시작](start/create-message.md)
+      + [게재 템플릿 작업](send/create-templates.md)
       + 이메일 {#emails}
          + [이메일 디자인 및 유효성 검사](send/email.md)
          + [이메일 보내기 및 모니터링](send/send.md)
