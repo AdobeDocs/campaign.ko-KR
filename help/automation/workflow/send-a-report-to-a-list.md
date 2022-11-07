@@ -3,7 +3,7 @@ product: campaign
 title: 목록으로 보고서 보내기
 description: 워크플로우를 사용하여 목록으로 보고서를 보내는 방법 알아보기
 feature: Workflows
-source-git-commit: e211c0f01a4813ad29f47652fffac2b44bc0f867
+source-git-commit: 4c3caa8e31c2076d32a03a8778a28edce50cde63
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 3%
@@ -67,7 +67,7 @@ ht-degree: 3%
 
    * 을(를) 선택합니다 **[!UICONTROL Advanced]** 탭 및 확인 **[!UICONTROL Script the name of the file name displayed in the mails sent]**. 텍스트 영역에서 최종 게재에 있는 첨부 파일의 이름을 입력합니다.
 
-      ![](assets/use_case_report_6bis.png)
+      ![](assets/use_case_report_6b.png)
 
 ## 3단계: 워크플로우 만들기 {#step-3--creating-the-workflow}
 
