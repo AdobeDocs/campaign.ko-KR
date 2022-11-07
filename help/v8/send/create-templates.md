@@ -5,14 +5,14 @@ description: Campaign에서 게재 템플릿을 만들고 사용하는 방법을
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 822d1bee472330b6195ad9527a7e23e90c7650b4
+source-git-commit: 1c0015a02ff950d9bf9d33aacebf899db9e580fa
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '699'
 ht-degree: 7%
 
 ---
 
-# 게재 템플릿으로 작업{#creating-a-delivery-template}
+# 게재 템플릿으로 작업{#work-with-delivery-template}
 
 캠페인 실행 및 실행을 보다 신속하게 하기 위해 게재 템플릿을 사용하여 창의적인 모양과 느낌을 표준화할 수 있습니다.
 
@@ -27,9 +27,12 @@ ht-degree: 7%
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#delivery-template-video)
 
+
+## 템플릿 만들기{#create-a-delivery-template}
+
 게재 템플릿을 만들려면 기본 제공 템플릿을 복제하거나, 기존 게재를 템플릿으로 변환하거나, 게재 템플릿을 처음부터 만들 수 있습니다.
 
-## 기존 템플릿 복사{#copy-an-existing-template}
+### 기존 템플릿 복제{#copy-an-existing-template}
 
 Campaign에는 각 채널에 대한 기본 제공 템플릿 세트가 포함되어 있습니다. 이메일, 푸시, SMS, DM 등
 
@@ -51,7 +54,7 @@ Campaign에는 각 채널에 대한 기본 제공 템플릿 세트가 포함되�
 
 ![](assets/select-the-new-template.png)
 
-## 기존 게재를 템플릿으로 변환 {#convert-an-existing-delivery}
+### 기존 게재를 템플릿으로 변환 {#convert-an-existing-delivery}
 
 게재를 새로운 반복 게재 작업을 위해 템플릿으로 변환할 수 있습니다.
 
@@ -67,7 +70,7 @@ Campaign에는 각 채널에 대한 기본 제공 템플릿 세트가 포함되�
 
    ![](assets/template-select-folders.png)
 
-## 새 템플릿 만들기 {#create-a-new-template}
+### 새 템플릿 만들기 {#create-a-new-template}
 
 >[!NOTE]
 >
@@ -87,7 +90,9 @@ Campaign에는 각 채널에 대한 기본 제공 템플릿 세트가 포함되�
 1. 클릭 **저장**. 이제 템플릿을 게재에서 사용할 수 있습니다.
 
 
-## 템플릿에서 게재 만들기{#create-a-delivery-from-a-template}
+## 템플릿 사용{#use-a-delivery-template}
+
+### 템플릿에서 게재 만들기{#create-a-delivery-from-a-template}
 
 기존 템플릿을 기반으로 게재를 만들려면 사용 가능한 게재 템플릿 목록에서 템플릿을 선택합니다.
 
