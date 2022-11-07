@@ -3,16 +3,15 @@ product: campaign
 title: 크로스 채널 게재 워크플로우
 description: 크로스 채널 게재 워크플로우에 대해 자세히 알아보기
 feature: Workflows, Channels Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
+source-git-commit: 5b4d569a6e96c93828f63fb8376eb81301829854
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 3%
+source-wordcount: '626'
+ht-degree: 4%
 
 ---
 
 # 크로스 채널 게재 워크플로우{#cross-channel-delivery-workflow}
-
-
 
 이 사용 사례에서는 채널 간 게재 워크플로우와 관련된 예를 제공합니다. 크로스 채널 게재에 대한 일반적인 개념은 다음과 같습니다 [이 섹션](cross-channel-deliveries.md).
 
@@ -30,7 +29,7 @@ ht-degree: 3%
 
 ![](assets/wkf_cross-channel_7.png)
 
-## 1단계: 대상자 타겟팅 {#step-1--targeting-the-audience}
+## 1단계: 대상자 작성 {#step-1--build-the-audience}
 
 대상을 정의하려면 수신자를 식별하는 쿼리를 만듭니다.
 
@@ -43,9 +42,9 @@ ht-degree: 3%
 
 1. 변경 내용을 저장합니다.
 
-## 2단계: 오퍼가 포함된 이메일 만들기 {#step-2--creating-an-email-including-an-offer}
+## 2단계: 오퍼가 포함된 이메일 만들기 {#step-2--create-an-email-including-an-offer}
 
-1. ** .
+1. 이메일 게재 만들기.
 1. 메시지를 디자인하고 오퍼가 포함된 링크를 컨텐츠에 삽입합니다.
 
    ![](assets/wkf_cross-channel_1.png)
@@ -64,7 +63,7 @@ ht-degree: 3%
 
    ![](assets/wkf_cross-channel_4.png)
 
-## 3단계: 결과 대상 세그먼트화 {#step-3--segmenting-the-resulting-audience}
+## 3단계: 결과 대상을 세그먼트화합니다. {#step-3--segment-the-resulting-audience}
 
 타겟이 식별되고 첫 번째 게재를 만든 후에는 필터링 조건을 사용하여 대상을 다른 모집단으로 세분해야 합니다.
 
@@ -100,7 +99,7 @@ ht-degree: 3%
 
 1. 클릭 **[!UICONTROL Finish]** 변경 사항을 저장하려면 을 클릭합니다.
 
-## 4단계: 워크플로우 완료 {#step-4--finalizing-the-workflow}
+## 4단계: 워크플로우 완료 {#step-4--finalize-the-workflow}
 
 1. 워크플로우에 다음 위치에서 생성된 세 개의 하위 집합 뒤에 관련 활동을 추가합니다. **[!UICONTROL Split]** 활동:
 

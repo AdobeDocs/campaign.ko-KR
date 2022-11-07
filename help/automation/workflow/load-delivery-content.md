@@ -3,16 +3,15 @@ product: campaign
 title: 게재 콘텐츠 로드
 description: 게재 콘텐츠 로드
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 08febcbc-1703-4d36-89e1-32c903618084
+source-git-commit: 9dfb1acd97e529a8b60119154b3728c883dd9c97
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '304'
 ht-degree: 3%
 
 ---
 
 # 게재 콘텐츠 로드{#loading-delivery-content}
-
-
 
 게재 컨텐츠가 Amazon S3, FTP 또는 SFTP 서버에 있는 HTML 파일에서 사용할 수 있는 경우 Adobe Campaign 게재에 이 컨텐츠를 쉽게 로드할 수 있습니다.
 
@@ -51,6 +50,3 @@ ht-degree: 3%
 
 1. 워크플로우를 저장하고 실행합니다. 로드된 컨텐츠가 있는 새 게재는에서 만들어집니다 **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 
->[!NOTE]
->
->SFTP 서버 사용에 대한 우수 사례 및 문제 해결 방법이 자세히 설명되어 있습니다.
