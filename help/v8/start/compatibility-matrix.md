@@ -6,9 +6,9 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '0'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
@@ -99,4 +99,4 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 * Campaign 클라이언트 콘솔 및 애플리케이션 서버의 **버전**. 위의 샘플에서는 클라이언트 콘솔과 애플리케이션 서버 모두 다 버전 8.1.5입니다.
 * 괄호 사이에 있는 SHA 번호.
 * Adobe 고객 지원 센터 연락을 위한 링크.
-* Adobe 개인 정보 보호 정책, 사용 약관 및 쿠키 정책에 대한 링크.
+* Adobe 개인정보 처리방침, 사용 약관 및 쿠키 정책 보기.
