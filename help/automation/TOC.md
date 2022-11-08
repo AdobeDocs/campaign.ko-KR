@@ -2,7 +2,7 @@
 audience: user
 user-guide-title: Campaign Automation 안내서
 user-guide-description: Campaign Automation 안내서
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 85%
@@ -145,10 +145,10 @@ ht-degree: 85%
    + [공급자, 재고 및 예산](campaigns/providers--stocks-and-budgets.md)
 + Campaign 최적화(추가 기능){#campaign-optimization}
    + [캠페인 유형화 시작](campaign-opt/campaign-typologies.md)
+   + [필터링 규칙](campaign-opt/filtering-rules.md)
+   + [제어 규칙](campaign-opt/control-rules.md)
    + [압력 규칙](campaign-opt/pressure-rules.md)
    + [일관성 규칙](campaign-opt/consistency-rules.md)
-   + [제어 규칙](campaign-opt/control-rules.md)
-   + [필터링 규칙](campaign-opt/filtering-rules.md)
    + [규칙 적용](campaign-opt/apply-rules.md)
    + [캠페인 시뮬레이션](campaign-opt/campaign-simulations.md)
 + 분산 마케팅(추가 기능) {#distributed-marketing}
