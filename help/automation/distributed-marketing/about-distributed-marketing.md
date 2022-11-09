@@ -3,7 +3,8 @@ product: campaign
 title: 분산 마케팅 시작
 description: 분산 마케팅 시작
 feature: Distributed Marketing
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
+source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 1%
@@ -11,8 +12,6 @@ ht-degree: 1%
 ---
 
 # 분산 마케팅 시작{#about-distributed-marketing}
-
-
 
 Adobe Campaign에서 제공하는 기능 **분산 마케팅** 중앙 엔터티(본사, 마케팅 부서 등) 간의 협력 캠페인 구현 애플리케이션 공동 캠페인을 실시할 수 있습니다. 이러한 협력은 **[!UICONTROL list of campaign packages]**&#x200B;를 설정하는 경우, 중앙에서 만든 캠페인 템플릿 및 인스턴스가 로컬 엔티티에 제공됩니다.
 
@@ -102,7 +101,7 @@ Adobe Campaign에서 제공하는 기능 **분산 마케팅** 중앙 엔터티(�
 
 ![](assets/s_advuser_mkg_dist_local_create.png)
 
-### 조직 엔터티 {#organizational-entities}
+### 조직 엔티티 {#organizational-entities}
 
 조직 엔터티를 만들려면 **[!UICONTROL Administration > Access management > Organizational entities]** node 를 클릭하고 **[!UICONTROL New]** 엔티티 목록 위에 있는 아이콘.
 

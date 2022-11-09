@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Campaign Automation 안내서
 user-guide-description: Campaign Automation 안내서
-source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
+source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 85%
+source-wordcount: '447'
+ht-degree: 83%
 
 ---
 
@@ -151,8 +151,14 @@ ht-degree: 85%
    + [일관성 규칙](campaign-opt/consistency-rules.md)
    + [규칙 적용](campaign-opt/apply-rules.md)
    + [캠페인 시뮬레이션](campaign-opt/campaign-simulations.md)
++ 마케팅 리소스 관리 {#mrm}
+   + [MRM(마케팅 리소스 관리) 시작](mrm/about-marketing-resource-management.md)
+   + [작업 만들기 및 관리](mrm/creating-and-managing-tasks.md)
+   + [비용 제어](mrm/controlling-costs.md)
+   + [마케팅 리소스 관리](mrm/managing-marketing-resources.md)
+   + [토론 포럼](mrm/discussion-forums.md)
 + 분산 마케팅(추가 기능) {#distributed-marketing}
-   + [분산 마케팅 정보](distributed-marketing/about-distributed-marketing.md)
+   + [분산 마케팅 시작](distributed-marketing/about-distributed-marketing.md)
    + [로컬 캠페인 만들기](distributed-marketing/creating-a-local-campaign.md)
    + [공동 캠페인 만들기](distributed-marketing/creating-a-collaborative-campaign.md)
    + [캠페인 패키지 게시](distributed-marketing/publishing-the-campaign-package.md)

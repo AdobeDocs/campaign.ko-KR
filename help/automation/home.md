@@ -5,10 +5,10 @@ title: Adobe Campaign 자동화 홈
 feature: Overview
 description: 개요
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 612b3a4287a5ab880b7fd251cc2727586977fbde
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 39%
+source-wordcount: '191'
+ht-degree: 38%
 
 ---
 
@@ -74,6 +74,11 @@ Adobe Campaign을 사용하면 캠페인 오케스트레이션을 위한 편리�
     <br>
     <div>
     <a href="campaign-opt/campaign-typologies.md">캠페인 최적화</a>
+    </div>
+    <br>
+    <br>
+    <div>
+    <a href="mrm/about-marketing-resource-management.md">MRM(마케팅 리소스 관리)</a>
     </div>
     <br>
   </td>
