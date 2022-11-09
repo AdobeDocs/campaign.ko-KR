@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+source-git-commit: c267bf2db7dfd524bf2b56c9ae48b42da37c0376
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -70,13 +70,12 @@ Adobe Campaign v8을 사용하면 큐브 보고서가 최적화되어 Campaign C
 
 ## 사용할 수 없는 기능{#gs-unavailable-features}
 
-다음과 같은 일부 기능은 이 버전에서 아직 사용할 수 없습니다.
+일부 기능은 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md) 캠페인: 예:
 
 * 마케팅 리소스 관리
 * 쿠폰
 * 웹 추적
 * 설문 조사
-
 
 ## 지원되지 않는 기능{#gs-removed}
 

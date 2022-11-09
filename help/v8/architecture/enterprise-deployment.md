@@ -5,10 +5,10 @@ feature: Architecture, FFDA
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 51bba0a2b4be03577f508d352fc7c2b514ba28e5
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 55%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -112,6 +112,16 @@ Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입�
 Campaign Classic v7 및 이전 버전에서 스키마(즉 테이블) 내의 키 독자성은 데이터베이스 엔진 수준에서 처리됩니다. 일반적으로 PostgreSQL, Oracle 또는 SQL Server와 같은 클래식 데이터베이스 엔진에는 기본 키 및/또는 고유 인덱스를 통해 열 또는 열 세트를 기반으로 중복 행 삽입을 방지하는 기본 메커니즘이 포함되어 있습니다. 이 버전에서는 데이터베이스 수준에서 적절한 인덱스 및 기본 키를 설정한 경우 중복 ID가 존재하지 않습니다.
 
 Adobe Campaign v8에는 핵심 데이터베이스로 Snowflake가 포함되어 있습니다. 쿼리 크기가 크게 증가함에 따라 Snowflake 데이터베이스의 분산 아키텍처는 이와 같이 테이블 내에서 키 독자성을 관리하는 메커니즘을 제공하지 않습니다. 따라서 Adobe Campaign v8에서는 테이블에서 중복 키를 수집하는 것을 방지하는 장치가 없습니다. 이제 Adobe Campaign 데이터베이스 내의 키 독자성을 유지할 책임은 최종 사용자에게 있습니다. [자세히 알아보기](keys.md)
+
+### 기능 가용성 {#feature-availability}
+
+일부 기능은 Campaign의 FFDA(Enterprise) 배포 컨텍스트에서 사용할 수 없습니다. 예를 들면 다음과 같습니다.
+
+* 마케팅 리소스 관리
+* 쿠폰
+* 웹 추적
+* 설문 조사
+
 
 **관련 항목**
 
