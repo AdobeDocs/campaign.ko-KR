@@ -2,9 +2,10 @@
 product: campaign
 title: 작업 만들기 및 관리
 description: 작업 만들기 및 관리
-source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
+exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
+source-git-commit: 399c81276d29622a2161c8c90395df1a38954763
 workflow-type: tm+mt
-source-wordcount: '3703'
+source-wordcount: '3740'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 해당 항목이 속한 프로그램 일정에 표시될 수 있습니다.
 
-![](assets/d_ncs_user_tasks_in_planning.png)
+![](assets/campaign-calendar.png)
 
 ## 액세스 작업 {#accessing-tasks}
 
@@ -29,113 +30,123 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 작업은 을 통해 액세스할 수 있는 작업 목록에 표시됩니다 **[!UICONTROL Campaigns]** 탭.
 
-![](assets/s_ncs_user_task_edit_view.png)
+![](assets/campaign-task-dashboard.png)
 
-연결된 연산자의 모든 작업을 여기에서 볼 수 있습니다.
+현재 연산자의 모든 작업을 볼 수 있습니다.
 
 자세한 내용은 [작업의 실행 상태](#execution-status-of-a-task) 및 [작업의 진행 상태](#progress-status-of-a-task).
 
 ### 작업 필터링 {#filtering-tasks}
 
-이 보기를 표시할 때는 자동으로 필터링되어 표시만 됩니다 **[!UICONTROL operator tasks]**. 창의 위쪽 섹션에 있는 필드를 사용하여 작업을 필터링할 수도 있습니다.
-
-![](assets/s_ncs_user_task_filter_from_view.png)
+이 보기를 표시할 때 뷰만 표시되도록 자동으로 필터링됩니다 **현재 운영자 작업**. 창의 위쪽 섹션에 있는 필드를 사용하여 작업을 필터링할 수도 있습니다.
 
 ### 작업 편집 {#editing-tasks}
 
 작업을 클릭하여 편집합니다.
 
-![](assets/s_ncs_user_task_edit_from_view.png)
+![](assets/edit-a-task.png)
 
 ## 새 작업 만들기 {#creating-a-new-task}
 
-작업을 만들려면 **[!UICONTROL Tasks]** 링크 위치 **[!UICONTROL Campaigns]** 탭을 선택하고 **[!UICONTROL Create]**.
+작업을 만들려면 아래 단계를 수행하십시오.
 
-![](assets/s_ncs_user_task_create_new.png)
+1. 다음 위치로 이동합니다. **[!UICONTROL Tasks]** 링크 위치 **[!UICONTROL Campaigns]** 탭을 클릭하고 **[!UICONTROL Create]**.
 
-작업의 이름을 적어도 입력하고 연결된 캠페인을 선택합니다. 시작 및 종료 날짜도 지정해야 합니다. 이 세 가지 정보는 필수입니다.
+   ![](assets/create-a-task-from-dashboard.png)
 
-클릭 **[!UICONTROL Save]** 작업을 만들려면
+1. 작업 이름을 입력하고 연결된 캠페인을 선택합니다.
+1. 시작 및 종료 날짜를 설정합니다.
+1. 클릭 **[!UICONTROL Save]** 작업을 만들려면
 
-![](assets/s_ncs_user_task_create_simple.png)
+   ![](assets/new-task-edit.png)
 
 캠페인의 대시보드를 통해 작업을 만들 수도 있습니다. 이 경우 만든 캠페인에 자동으로 연결됩니다.
 
-![](assets/s_ncs_user_task_create_new_from_op.png)
+![](assets/add-a-task-in-a-campaign.png)
 
-작업이 만들어지면 캠페인 일정 및 작업 목록에 추가됩니다. 작업을 편집하려면 예약에서 선택하거나 작업 개요에서 해당 이름을 클릭한 다음 **[!UICONTROL Open]** 링크를 클릭합니다.
+작업이 만들어지면 캠페인 일정, 캠페인 대시보드 및 작업 목록에 추가됩니다. 작업을 편집하려면 작업 목록에서 해당 이름을 클릭하거나 예약 또는 캠페인 대시보드에서 선택한 다음 를 클릭합니다 **[!UICONTROL Open]**.
 
-![](assets/s_ncs_user_task_edit_simple.png)
+생성되면 다음을 정의하여 작업을 구성할 수 있습니다.
 
-구성하려면 다음을 표시해야 합니다.
+* 관리자 및 참여자입니다. [자세히 알아보기](#manager-and-participants)
+* 생성 일정입니다. [자세히 알아보기](#execution-schedule)
+* 비용을 지불했습니다. [자세히 알아보기](#expenses-and-revenues)
 
-* 관리자 및 참여자: 참조 [관리자 및 참가자](#manager-and-participants).
-* 생성 일정: 참조 [실행 일정](#execution-schedule).
-* 약정된 비용: 참조 [비용 및 수입](#expenses-and-revenues).
+추가할 수도 있습니다 [검토자](#reviewers) 및 [참조 문서](#documents-referenced).
 
-검토자를 추가할 수도 있습니다( [검토자](#reviewers)) 및 참조된 문서(참조 [참조된 문서](#documents-referenced)).
-
-작업 라이프 사이클은 [라이프 사이클](#life-cycle).
+작업 라이프 사이클은 [이 섹션](#life-cycle).
 
 ### 관리자 및 참가자 {#manager-and-participants}
 
-작업을 담당하는 연산자만 작업을 닫을 수 있습니다.
+기본적으로 작업은 만든 연산자에게 할당됩니다. 이 연산자는 해당 작업에 대한 작업이 필요할 때 알림을 받습니다.
 
-기본적으로 Adobe Campaign 연산자가 작업을 만들면 자동으로 해당 작업에 할당됩니다. 다른 연산자를 선택하려면 **[!UICONTROL Assigned to]** 필드.
+에서 다른 연산자를 선택할 수 있습니다 **[!UICONTROL Assigned to]** 드롭다운 목록.
 
-![](assets/s_ncs_user_task_edit_simple_general_tab.png)
+![](assets/task-assigned-to.png)
 
 >[!NOTE]
 >
 >운영자 관리는에 자세히 설명되어 있습니다. [이 섹션](../../v8/start/permissions.md).
+>
+>작업을 담당하는 연산자만 작업을 닫을 수 있습니다.
 
-작업 수행과 관련된 연산자를 지정할 수 있습니다. 이 연산자는 작업을 닫을 권한이 없습니다. 할당된 작업만 승인할 수 있습니다.
+작업 수행과 관련된 연산자를 더 많이 지정할 수 있습니다. 다음 연산자는 작업을 닫을 수 없습니다. 할당된 작업만 승인할 수 있습니다.
 
-이러한 ID는 **[!UICONTROL Resources]** 아이콘을 클릭합니다. 클릭 **[!UICONTROL Add]** 관련 연산자를 선택합니다.
+작업 연산자를 추가하려면 아래 단계를 따르십시오.
 
-![](assets/s_ncs_user_task_add_resources.png)
+1. 을(를) 클릭합니다. **[!UICONTROL Resources]** 아이콘을 클릭합니다.
 
-클릭 **[!UICONTROL Ok]** 그런 다음 사용률을 입력합니다. 작업 실행 기간 동안 연산자에 할당된 로드를 나타냅니다. 이 비율은 표시 전용이며 백분율로 표시됩니다.
+   ![](assets/add-task-resources.png)
 
-예를 들어 실행 일정이 10일로 설정된 작업의 경우 사용 비율이 50%인 연산자가 10일 동안 작업 시간의 절반을 이 작업에 동원됩니다.
+1. 클릭 **[!UICONTROL Add]** 관련 연산자를 선택합니다.
+1. 사용 비율을 입력합니다. 작업 실행 기간 동안 연산자에 할당된 작업 로드를 나타냅니다. 이 비율은 표시 전용이며 백분율로 표시됩니다.
 
-각 연산자에 대해 스케줄링된 작업 로드와 실제 작업 로드를 입력할 수 있습니다. 이러한 기간은 정보 용도로만 사용됩니다.
+   ![](assets/define-operator-task-workload.png)
 
-미리 알림을 구성하여 해당 종료 날짜 이전에 작업에 관련된 모든 작업자에게 자동으로 전송됩니다.
+   예를 들어 실행 일정이 10일로 설정된 작업의 경우 사용 비율이 50%인 연산자가 10일 동안 작업 시간의 절반을 이 작업에 동원됩니다.
 
-를 통해 Adobe Campaign 운영자 프로필을 볼 수 있습니다 **[!UICONTROL Edit link]** 아이콘.
+   각 연산자에 대해 스케줄링된 작업 로드와 실제 작업 로드를 입력할 수 있습니다. 이러한 기간은 정보 용도로만 사용됩니다.
 
-![](assets/s_ncs_user_task_edit_resource_profile.png)
+1. 에서 미리 알림을 구성할 수 있습니다 **[!UICONTROL Add a reminder...]** 링크를 클릭합니다. 전자 메일 알림은 종료 날짜 이전에 작업에 관련된 모든 운영자에게 전송됩니다.
+
+   ![](assets/task-op-add-a-reminder.png)
+
+1. 작업이 시작되기 전에 알림을 보낼 수도 있습니다. 이를 설정하려면 **[!UICONTROL Initial notification]** 필드.
+1. 종료 날짜에 도달하고 작업이 종료되지 않은 경우, 할당자나 작업에서 선택한 담당자 그룹에 알림을 보낼 수 있습니다 **[!UICONTROL Assignee]** 드롭다운 목록
+
 
 운영자 대시보드를 사용하여 작업 로드(진행 중인 다른 작업)를 확인할 수 있습니다.
 
-![](assets/s_ncs_user_task_edit_resource_planning.png)
+![](assets/operator-dashboard.png)
 
-### 검토자 {#reviewers}
+### 작업 승인 {#reviewers}
 
-참여자 외에, 담당자가 작업을 마감한 후 작업을 검토할 연산자를 정의할 수 있습니다. 이렇게 하려면 **[!UICONTROL Enable task approval]** 페이지의 왼쪽 아래 섹션에 있는 옵션 **[!UICONTROL Resources]** 창을 엽니다. 개별 연산자, 연산자 그룹 또는 연산자 목록일 수 있습니다.
+참여자 외에도 작업이 닫히면 검토할 연산자를 정의할 수 있습니다.
 
-![](assets/s_ncs_user_task_edit_resource_validation.png)
+이렇게 하려면 **[!UICONTROL Enable task approval]** 옵션 **[!UICONTROL Resources]** 창을 엽니다. 개별 연산자, 연산자 그룹 또는 연산자 목록일 수 있습니다.
 
 연산자 목록을 지정하려면 **[!UICONTROL Edit...]** 첫 번째 검토자의 오른쪽에 연결하고 아래 표시된 대로 필요한 만큼 연산자를 추가합니다.
 
-![](assets/s_ncs_user_task_edit_resource_operators.png)
+![](assets/enable-task-approval.png)
 
-검토자 구성 창의 아래 섹션에서 작업에 대한 승인 일정을 정의할 수 있습니다. 기본적으로 검토자는 제출 날짜부터 3일을 시작하여 작업을 승인합니다. 미리 알림을 구성하여 승인 마감 시간 전에 관련 운영자에게 자동으로 보낼 수 있습니다.
+구성 창의 하위 섹션에서 작업에 대한 승인 일정을 정의할 수 있습니다. 기본적으로 검토자는 제출 날짜부터 3일을 시작하여 작업을 승인합니다. 미리 알림을 추가할 수도 있습니다. 이 미리 알림은 승인 기간 전에 관련 운영자에게 자동으로 전송됩니다.
 
-![](assets/s_ncs_user_edit_op_valid_calendar.png)
-
-다른 작업자가 이미 이 작업을 수행하도록 지정된 경우에도 작업 담당자는 자신에게 승인 작업을 할당할 수 있습니다. 검토자가 정의되지 않은 경우 작업을 담당하는 사람에게 알림이 전송됩니다. 다른 모든 Adobe Campaign 연산자 **[!UICONTROL Administrator]** 권한을 통해 작업을 승인할 수도 있습니다. 하지만 알림을 받지 않습니다.
+다른 작업자가 이미 이 작업을 수행하도록 지정된 경우에도 작업 담당자는 자신에게 승인 작업을 할당할 수 있습니다. 검토자가 정의되지 않은 경우 작업을 담당하는 사람에게 알림이 전송됩니다. 다른 모든 Adobe Campaign 연산자 **[!UICONTROL Administrator]** 권한을 통해 작업을 승인할 수도 있습니다. 그러나 알림은 수신하지 않습니다.
 
 ### 참조된 문서 {#documents-referenced}
 
-추가할 수 있습니다 [문서 및 마케팅 리소스](managing-marketing-resources.md) 작업을 수행할 수 있습니다. 이렇게 하려면 작업을 열고 **[!UICONTROL Documents]** 아이콘을 클릭합니다.
+추가할 수 있습니다 [문서 및 마케팅 리소스](managing-marketing-resources.md) 작업을 수행할 수 있습니다.
 
-클릭 **[!UICONTROL Add]** 작업에 추가할 문서를 선택합니다. 마케팅 리소스에 동일한 프로세스를 적용합니다.
+다음을 수행하십시오.
 
-![](assets/s_ncs_user_task_edit_documents.png)
+1. 작업을 열고 **[!UICONTROL Documents]** 아이콘을 클릭합니다.
 
-참조된 문서는 작업 대시보드뿐만 아니라 작업에 관련된 운영자에게 전송된 알림에 나타납니다.
+   ![](assets/add-documents-to-a-task.png)
+
+1. 클릭 **[!UICONTROL Add]** 작업에 추가할 문서를 선택합니다. 마케팅 리소스에 동일한 프로세스를 적용합니다.
+
+
+참조된 문서가 작업에 관련된 운영자에게 전송된 알림에 추가됩니다. 작업 대시보드에도 추가됩니다.
 
 ![](assets/s_ncs_user_task_notification_documents.png)
 
