@@ -7,8 +7,8 @@ level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: c267bf2db7dfd524bf2b56c9ae48b42da37c0376
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '648'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ Campaign 사용자는 Adobe ID를 통해서만 연결합니다. 동일한 Adobe 
 
 Marketing Analytics 모듈을 사용하여 데이터를 분석 및 측정하고, 통계를 계산하며, 보고서 작성 및 계산을 간소화 및 최적화합니다. 또한 보고서를 만들고 대상 모집단을 빌드합니다. 식별되면 Adobe Campaign에서 사용할 수 있는 목록(타겟팅, 세그멘테이션 등)에 저장됩니다.
 
-Adobe Campaign v8을 사용하면 큐브 보고서가 최적화되어 Campaign Classic v7보다 더 나은 확장 기능을 제공합니다. 해당 특정 배포 모델에서는 큐브에 대한 이전 제한 사항이 Campaign v8에 적용되지 않습니다. 의 큐브에 대해 자세히 알아보기 [이 섹션](../../v8/reporting/gs-cubes.md).
+Adobe Campaign v8에서 큐브 보고서는 최적화되어 있으며 Campaign Classic v7보다 더 나은 확장 기능을 제공합니다. 해당 특정 배포 모델에서는 큐브에 대한 이전 제한 사항이 Campaign v8에 적용되지 않습니다. 큐브에 대한 자세한 내용은[이 섹션](../../v8/reporting/gs-cubes.md)을 참조하십시오.
 
 ## 사용할 수 없는 기능{#gs-unavailable-features}
 
