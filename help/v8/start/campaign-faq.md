@@ -1,14 +1,14 @@
 ---
 title: Campaign v8 FAQ
-description: Campaign 공통 Q&A 찾기
+description: 일반적인 Adobe Campaign 질문에 대한 답변을 얻을 수 있습니다.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
-source-wordcount: '657'
-ht-degree: 100%
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 91%
 
 ---
 
@@ -36,7 +36,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
 1. **이메일의 전달성을 높이는 방법은 무엇인가요?**
 
-   모든 발신자의 마케팅 프로그램 성공에 중요한 구성 요소인 이메일 전달성의 특징은 기준 및 규칙이 계속 변한다는 것입니다. 이 디지털 세상을 효과적으로 탐색하려면 주요 전달성 트렌드를 고려하여 이메일 전략을 정기적으로 조정함으로써 대상자에게 가장 효과적으로 도달해야 합니다.
+   모든 발신자의 마케팅 프로그램 성공에 중요한 구성 요소인 이메일 게재 기능은 항상 변경되는 기준 및 규칙을 특징으로 합니다. 이 디지털 세상을 효과적으로 탐색하려면 주요 전달성 트렌드를 고려하여 이메일 전략을 정기적으로 조정함으로써 대상자에게 가장 효과적으로 도달해야 합니다.
 
    [전달성 모범 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target=&quot;_blank&quot;}를 ![](../assets/do-not-localize/book.png)알아보려면 이 안내서를 참조하십시오
 
@@ -85,4 +85,4 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    문제를 기록하거나 새 시스템에서 채팅 세션을 시작하려면 [Adobe Admin Console](https://adminConsole.adobe.com/overview){target=&quot;_blank&quot;}에 연결하십시오.
 
-   새 시스템에서는 올바른 권한을 가진 각 사용자에 대해 새 개인 계정이 필요합니다. Adobe ID로 로그인할 수 없는 경우 Experience League을 통해 액세스를 요청하면 고객 지원 팀에서 가능한 한 빨리 설정을 완료합니다. [자세히 알아보기](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}
+   새 시스템에서는 올바른 권한을 가진 각 사용자에 대해 새 개인 계정이 필요합니다. Adobe ID에 로그인할 수 없는 경우 Experience League을 통해 액세스 권한을 요청하십시오. 그러면 고객 지원 팀이 가능한 한 빨리 설정해 드립니다. [자세히 알아보기](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}

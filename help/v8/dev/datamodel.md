@@ -1,14 +1,14 @@
 ---
 title: Campaign 데이터 모델 시작
-description: Campaign 데이터 모델 시작
+description: Campaign 데이터 모델을 시작하고 소스의 데이터를 활용하여 커뮤니케이션과 마케팅 출력을 향상시킬 수 있습니다.
 feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '669'
+ht-degree: 3%
 
 ---
 

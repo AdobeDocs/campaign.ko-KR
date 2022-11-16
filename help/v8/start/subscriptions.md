@@ -1,11 +1,11 @@
 ---
 title: Campaign에서 구독 및 구독 취소 관리
-description: Campaign v8에서 구독 및 구독 취소를 관리하는 방법 알아보기
+description: Campaign v8에서 구독 및 구독 취소를 관리하는 방법 알아보기.
 feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: b323dbf9504e39cca78f7082089b864544ee1633
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 13%

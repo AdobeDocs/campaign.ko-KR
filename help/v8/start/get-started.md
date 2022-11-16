@@ -1,14 +1,14 @@
 ---
 title: Campaign v8 시작
-description: Campaign을 처음 사용하십니까? 시작하는 방법 살펴보기
+description: Adobe Campaign을 처음 사용하십니까? 소프트웨어를 시작하고 실행하는 방법과 인터페이스를 시작할 위치에 대한 설명서를 찾습니다.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
-workflow-type: ht
-source-wordcount: '853'
-ht-degree: 100%
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+workflow-type: tm+mt
+source-wordcount: '867'
+ht-degree: 97%
 
 ---
 

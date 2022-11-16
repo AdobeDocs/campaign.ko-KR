@@ -1,13 +1,13 @@
 ---
 title: 일반 아키텍처
-description: Campaign 아키텍처 및 구성 요소에 대해 알아보기
+description: Adobe Campaign 아키텍처 및 구성 요소에 대해 자세히 알아보십시오. 클라이언트 콘솔 및 환경 개인화에 대한 자세한 내용을 확인하십시오.
 feature: Architecture
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1078'
 ht-degree: 6%
 
 ---
