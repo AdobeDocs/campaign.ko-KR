@@ -3,16 +3,15 @@ product: campaign
 title: 개인 정보 보호 규정 워크플로우
 description: 개인 정보 보호 규정 워크플로우에 대해 자세히 알아보십시오
 feature: Workflows, Privacy
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: ac4d0d0c16f429ca0948a3c3257558c46700baeb
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
 
 # 개인 정보 보호 규정{#general-data-protection-regulation-gdpr}
-
 
 
 아래 자세히 설명된 워크플로우는 **개인 정보 보호 규정** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 다음을 참조하십시오 [문서](https://helpx.adobe.com/kr/campaign/kb/acc-privacy.html).

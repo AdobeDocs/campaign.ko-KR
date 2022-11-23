@@ -3,7 +3,7 @@ product: campaign
 title: 작업 만들기 및 관리
 description: 작업 만들기 및 관리
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 399c81276d29622a2161c8c90395df1a38954763
+source-git-commit: 094743fef69e137f80b670f0bf31dce56c282c34
 workflow-type: tm+mt
 source-wordcount: '3740'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 
 
 >[!NOTE]
 >
->운영자 관리는에 자세히 설명되어 있습니다. [이 섹션](../../v8/start/permissions.md).
+>운영자 관리는에 자세히 설명되어 있습니다. [이 섹션](../../v8/start/gs-permissions.md).
 >
 >작업을 담당하는 연산자만 작업을 닫을 수 있습니다.
 

@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: 43e515339a2483e82910603daf6009cad63eeeae
-workflow-type: ht
-source-wordcount: '474'
-ht-degree: 100%
+source-git-commit: a9f7bf9a976a7f3b5415c090c042f83a1bb64c24
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 97%
 
 ---
 
@@ -125,7 +125,10 @@ ht-degree: 100%
       + [Campaign 및 Microsoft Dynamics 작업](connect/ac-ms-dyn.md)
       + [데이터 동기화](connect/crm-data-sync.md)
 + 관리 {#admin}
-   + [사용 권한](start/permissions.md)
+   + 사용자 및 권한 {#permissions}
+      + [사용 권한 시작](start/gs-permissions.md)
+      + [사용자 권한 관리](start/manage-permissions.md)
+      + [폴더에 권한 추가](start/folder-permissions.md)
    + [Campaign 컨트롤 패널](config/self-service.md)
 + 아키텍처 및 구성 {#config}
    + 아키텍처 {#architecture}

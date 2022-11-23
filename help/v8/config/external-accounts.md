@@ -5,9 +5,9 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6dee08f0f8673e5264f3cb111fe14493980a62fc
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1091'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,8 @@ Adobe Campaign에서 외부 계정에 액세스할 수 있습니다 **[!UICONTRO
 >[!CAUTION]
 >
 >의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 특정 **[!UICONTROL Full FDA]** (ffda) 외부 계정은 Campaign 로컬 데이터베이스와 클라우드 데이터베이스() 간의 연결을 관리합니다[!DNL Snowflake]).
-></br>관리되는 Cloud Services 사용자로서, 이 외부 계정은 Adobe에 의해 인스턴스에 대해 구성됩니다. 수정해서는 안 됩니다.
+>
+>관리 Cloud Services 사용자로서 외부 계정은 Adobe에 의해 인스턴스에 대해 구성되며 수정하면 안 됩니다.
 
 ## 캠페인 특정 외부 계정
 
@@ -117,34 +118,37 @@ Microsoft OAuth 2.0을 사용하여 POP3 외부 를 구성하려면 다음을 �
 
 * **외부 데이터베이스(FDA)**
 
-   를 사용하십시오 **외부 데이터베이스** FDA를 통해 외부 데이터베이스에 연결할 외부 계정을 입력합니다.
+   다음 **외부 데이터베이스** 유형 외부 계정은 FDA(Federated Data Access)를 통해 외부 데이터베이스에 연결하는 데 사용됩니다.
 
    Adobe Campaign v8과 호환되는 외부 데이터베이스는 [호환성 매트릭스](../start/compatibility-matrix.md)
 
    ![](../assets/do-not-localize/glass.png) 에서 FDA(Federated Data Access) 옵션에 대해 자세히 알아보십시오 [이 섹션](../connect/fda.md).
 
+* **Twitter**
+
+   다음 **Twitter** 유형 외부 계정은 Campaign을 twitter 계정에 연결하고 사용자를 대신하여 메시지를 게시하는 데 사용됩니다.
+
+   ![](../assets/do-not-localize/glass.png) 의 Twitter 통합에 대해 자세히 알아보십시오 [이 섹션](../connect/ac-tw.md).
+
 ## Adobe 솔루션 통합 외부 계정
 
 * **Adobe Experience Cloud**
 
-   다음 **[!UICONTROL Adobe Experience Cloud]** 외부 계정은 Adobe IMS를 구현하여 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하는 데 사용됩니다.
+   다음 **[!UICONTROL Adobe Experience Cloud]** 외부 계정은 IMS(Adobe Identity Management 서비스)를 구현하여 Adobe Campaign에 연결하는 데 사용됩니다.
 
    ![](../assets/do-not-localize/glass.png) 의 IMS(Adobe Identity Management Service)에 대해 자세히 알아보십시오 [이 섹션](../start/connect.md#connect-ims).
 
 * **웹 분석**
 
-   를 사용하십시오 **[!UICONTROL Web Analytics (Adobe Analytics)]** 외부 계정을 사용하여 Adobe Analytics에서 Adobe Campaign으로 데이터 전송을 구성합니다.
+   다음 **[!UICONTROL Web Analytics (Adobe Analytics)]** 외부 계정은 Adobe Analytics에서 Adobe Campaign으로 데이터 전송을 구성하는 데 사용됩니다.
 
    ![](../assets/do-not-localize/glass.png) Adobe Campaign - Adobe Analytics 통합에 대해 자세히 알아보기 [이 페이지](../connect/ac-aa.md).
 
-   ![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자로, [연락처 Adobe](../start/campaign-faq.md#support) Adobe Analytics을 Campaign과 통합하기 위해 사용됩니다.
+* **Adobe Experience Manager**
 
-   * **Adobe Experience Manager**
    다음 **[!UICONTROL AEM]** 외부 계정을 사용하면 Adobe Experience Manager에서 직접 양식을 비롯한 이메일 게재 콘텐츠를 관리할 수 있습니다.
 
    ![](../assets/do-not-localize/glass.png) Adobe Campaign - Adobe Analytics 통합에 대해 자세히 알아보기 [이 페이지](../connect/ac-aem.md).
-
-   ![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자로, [연락처 Adobe](../start/campaign-faq.md#support) Adobe Experience Manager을 Adobe Campaign과 통합하기 위해
 
 
 ## CRM 커넥터 외부 계정
