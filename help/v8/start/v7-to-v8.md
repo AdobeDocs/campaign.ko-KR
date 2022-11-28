@@ -1,14 +1,14 @@
 ---
 title: Campaign Classic v7에서 Campaign v8로 전환
-description: Campaign Classic v7와 Campaign v8 간의 차이점에 대해 알아봅니다.
+description: Campaign Classic v7과 Campaign v8 간의 차이점에 대해 알아봅니다.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Campaign v8에서 큐브 보고서는 최적화되어 있으며 Campaign C
 
 ## 사용할 수 없는 기능{#gs-unavailable-features}
 
-일부 기능은 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md) 캠페인: 예:
+Campaign의 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md) 컨텍스터에서는 일부 기능이 제공되지 않습니다. 예:
 
 * 마케팅 리소스 관리
 * 쿠폰
