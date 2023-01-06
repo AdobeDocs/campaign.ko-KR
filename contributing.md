@@ -1,8 +1,8 @@
 ---
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: d62a185eabf9536f7198d60702c02682af05e06d
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 24%
+source-wordcount: '294'
+ht-degree: 22%
 
 ---
 # 기여
@@ -18,7 +18,7 @@ ht-degree: 24%
 
 ## 기여자 안내서 설명서
 
-자세한 내용은 [기여자 안내서](https://docs.adobe.com/content/help/ko/contributor/contributor-guide/introduction.html).
+자세한 내용은 [기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 ## 질문이 있습니까?
 

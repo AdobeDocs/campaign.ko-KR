@@ -1,8 +1,8 @@
 ---
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: d62a185eabf9536f7198d60702c02682af05e06d
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
 # Contribute 문서
@@ -16,13 +16,13 @@ Adobe 커뮤니티뿐만 아니라 문서 팀 외부 Adobe 직원으로부터의
 
 ## Adobe 콘텐츠에 대한 귀하의 기여도 정보
 
-[Adobe Docs 기여자 가이드](https://docs.adobe.com/content/help/ko/contributor/contributor-guide/introduction.html)를 참조하십시오.
+[Adobe Docs 기여자 가이드](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 기여 방식은 기여자 및 다음과 같은 기여 하고자 하는 유형의 변경에 따라 달라집니다.
 
 ### 사소한 변경
 
-좋은 의도로 업데이트에 기여하고자 하는 경우 문서를 방문하여 문서에 대한 GitHub 소스로 이동하는 문서의 **편집** 링크를 클릭하십시오. GitHub UI를 사용하여 업데이트를 하면 됩니다. 자세한 내용은 일반 [Adobe Docs 기여자 가이드](https://docs.adobe.com/content/help/ko/contributor/contributor-guide/introduction.html)를 참조하십시오.
+좋은 의도로 업데이트에 기여하고자 하는 경우 문서를 방문하여 문서에 대한 GitHub 소스로 이동하는 문서의 **편집** 링크를 클릭하십시오. GitHub UI를 사용하여 업데이트를 하면 됩니다. 자세한 내용은 일반 [Adobe Docs 기여자 가이드](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 이 리포지토리의 문서 및 코드 예제를 위해 제출하는 사소한 수정 또는 설명은 Adobe 사용 약관의 적용을 받습니다.
 
@@ -44,7 +44,7 @@ Adobe Experience Cloud 솔루션 제품 팀의 기술 저작, 프로그램 관�
 
 커뮤니티 기여자는 주요 기여를 위해 기본 편집에 GitHub UI를 사용하거나 리포지토리를 포크할 수 있습니다.
 
-자세한 내용은 [Adobe Docs 기여자 가이드](https://docs.adobe.com/content/help/ko/contributor/contributor-guide/introduction.html)를 참조하십시오.
+자세한 내용은 [Adobe Docs 기여자 가이드](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 ## Markdown을 사용하여 토픽 서식 지정 방법
 
