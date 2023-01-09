@@ -5,9 +5,9 @@ feature: Overview
 role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
-workflow-type: ht
-source-wordcount: '1170'
+source-git-commit: 504b67ef9f20466e0d426b6a96f1dc4c6748d303
+workflow-type: tm+mt
+source-wordcount: '1157'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호법 및 수�
 
 수동으로 Campaign에 사용자를 추가하고 역할 계층 구조에 맞게 그룹과 연결할 수 있습니다. 그러면 사용자는 로그인하여 자신에게 적합한 데이터와 권한에 액세스할 수 있습니다.
 
-[이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ko#getting-started){target=&quot;_blank&quot;}에서 ![](../assets/do-not-localize/book.png)Adobe Campaign에 사용자를 추가하는 방법을 알아봅니다.
+![](../assets/do-not-localize/glass.png) Adobe Campaign에 사용자를 추가하는 방법은 [이 섹션](../start/gs-permissions.md)을 참조하세요.
 
 ### Campaign 클라이언트 콘솔 설치
 
