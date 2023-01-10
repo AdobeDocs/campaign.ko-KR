@@ -3,9 +3,10 @@ product: campaign
 title: 압력 규칙 구성
 description: 압력 규칙 구성 방법 알아보기
 feature: Fatigue Management, Typology Rules
-source-git-commit: 86c37772eca9e3fffbeaa0e1d4d7de5590d8d277
+exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
+source-git-commit: 6a1e2e0a872ce5886e7374d266c71975941e87b8
 workflow-type: tm+mt
-source-wordcount: '3040'
+source-wordcount: '3027'
 ht-degree: 5%
 
 ---
@@ -106,7 +107,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 
 ![](assets/campaign_opt_pressure_sample.png)
 
-임계값을 정의하려면 타겟팅 차원에 연결된 차원을 사용할 수 있습니다. 예를 들어 방문자 표에 저장된 수신자 프로필로 전달된 메시지를 포함하려면 (방문자 테이블에 대한 자세한 내용은 (이 섹션)(설문 조사/사용/사용 사례—creating-a-referring-a-friend-form.md) 을 참조하거나 수신자와 연결된 차원에서 식별된 동일한 가구에 매주 두 개 이상의 메시지(여러 이메일 주소를 참조할 수 있음)를 참조하십시오.
+임계값을 정의하려면 타겟팅 차원에 연결된 차원을 사용할 수 있습니다. 예를 들어, [방문자 테이블](../../v8/audiences/target-mappings.md) 또는 수신자의 이메일과 연결된 차원에서 식별된 동일한 가구(여러 이메일 주소 참조)에 매주 두 개 이상의 메시지를 보내지 않도록 합니다.
 
 이렇게 하려면 을(를) 선택합니다. **[!UICONTROL Count messages on a linked dimension]** 옵션을 선택한 다음 방문자 또는 연락처 테이블을 선택합니다.
 
@@ -352,12 +353,12 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
   <tr> 
    <th> 게재<br /> </th> 
    <th> 승인<br /> </th> 
-   <th> 두께<br /> </th> 
+   <th> 가중치<br /> </th> 
    <th> 추출 날짜/시간<br /> </th> 
-   <th> 연락 날짜<br /> </th> 
+   <th> 연락일<br /> </th> 
    <th> 배달 시작 날짜/시간<br /> </th> 
    <th> 중재 워크플로우 실행 날짜/시간<br /> </th> 
-   <th> 배달 상태<br /> </th> 
+   <th> 게재 상태<br /> </th> 
    <th> 전송 전송(날짜/시간)<br /> </th> 
   </tr> 
  </thead> 
@@ -366,9 +367,9 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
    <td> 배달 1<br /> </td> 
    <td> 비활성화<br /> </td> 
    <td> 5<br /> </td> 
-   <td> 오후 3시<br /> </td> 
+   <td> 3pm<br /> </td> 
    <td> 오전 8시(다음날)<br /> </td> 
-   <td> 오후 2시<br /> </td> 
+   <td> 2pm<br /> </td> 
    <td> 매일 밤<br /> </td> 
    <td> 제외됨<br /> </td> 
    <td> 제외됨<br /> </td> 
@@ -377,9 +378,9 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
    <td> 배달 2<br /> </td> 
    <td> 비활성화<br /> </td> 
    <td> 10<br /> </td> 
-   <td> 오후 4시<br /> </td> 
+   <td> 4pm<br /> </td> 
    <td> 오전 9시(다음날)<br /> </td> 
-   <td> 오후 2시<br /> </td> 
+   <td> 2pm<br /> </td> 
    <td> 매일 밤<br /> </td> 
    <td> 전송됨<br /> </td> 
    <td> 오전 9시(다음날)<br /> </td> 
