@@ -1,6 +1,6 @@
 ---
 title: Campaign v8에 연결
-description: 쉽게 액세스할 수 있도록 Adobe Campaign v8에 연결하고 컴퓨터에 콘솔을 설치하는 방법을 알아봅니다.
+description: Adobe Campaign v8에 연결하고 더욱 쉽게 액세스할 수 있도록 내 컴퓨터에 콘솔을 설치하는 방법을 알아봅니다.
 feature: Client Console
 role: User
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: f381a2ec91b7179a51d91f9b7414ea39db03cd71
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Campaign에서 구독 및 구독 취소 관리
-description: Campaign v8에서 구독 및 구독 취소를 관리하는 방법 알아보기.
+description: Campaign v8에서 구독 및 구독 취소를 관리하는 방법을 알아보십시오.
 feature: Subscriptions
 role: User
 level: Beginner
