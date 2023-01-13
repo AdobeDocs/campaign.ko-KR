@@ -3,7 +3,8 @@ product: campaign
 title: 마케팅 캠페인 만들기
 description: 마케팅 캠페인을 만들고 실행하는 방법을 알아봅니다
 feature: Campaigns, Cross Channel Orchestration, Programs
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
+source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 3%
@@ -102,7 +103,7 @@ Campaign 오케스트레이션 구성 요소는 **[!UICONTROL Campaigns]** 탭: 
 * 참조 문서 및 리소스: 캠페인에 문서(개요, 보고서, 이미지 등)를 연결할 수 있습니다. 모든 문서 형식이 지원됩니다. [자세히 알아보기](marketing-campaign-deliveries.md#manage-associated-documents)
 * 비용 정의: Adobe Campaign에서는 각 캠페인에 대해 마케팅 캠페인을 만들 때 사용할 수 있는 비용 항목 및 비용 계산 구조를 정의할 수 있습니다. 예: 인쇄비, 외부 기관의 사용, 객실 대여 등 [자세히 알아보기](providers--stocks-and-budgets.md#defining-cost-categories)
 * 목표 정의: 캠페인의 수량 가능한 목표(예: 구독자 수, 비즈니스 볼륨 등)를 정의할 수 있습니다. 이 정보는 나중에 캠페인 보고서에서 사용됩니다.
-* 시드 주소 및 제어 그룹을 관리합니다. [자세히 알아보기](marketing-campaign-deliveries.md#defining-a-control-group)).
+* 시드 주소 및 제어 그룹을 관리합니다. [자세히 알아보기](marketing-campaign-deliveries.md#defining-a-control-group)
 * 승인 관리: 승인할 처리를 선택할 수 있으며, 필요한 경우 검토 연산자 또는 연산자 그룹을 선택합니다. [자세히 알아보기](marketing-campaign-approval.md#checking-and-approving-deliveries)
 
 >[!NOTE]
@@ -185,8 +186,8 @@ Adobe Campaign을 사용하면 캠페인의 다양한 단계를 만들고 승인
 | 작업 | 작업 완료<br/>작업 취소 |
 | 마케팅 리소스 | 리소스 승인<br/>리소스 잠금 및 잠금 해제 |
 | 캠페인 패키지 | 승인을 위해 패키지 제출<br/>패키지 승인 또는 거부<br/>패키지 취소 |
-| 캠페인 순서 | 주문 만들기<br/>주문 수락 또는 거부 |
-| Stock | 재고 라인 삭제 |
+| 캠페인 주문 | 주문 만들기<br/>주문 수락 또는 거부 |
+| 재고 | 재고 라인 삭제 |
 | 오퍼 시뮬레이션 | 시뮬레이션 시작 및 중지 |
 | 타겟팅 워크플로우 | 워크플로우 시작, 일시 중지 및 중지 |
 | 보고서 | 보고서 기록에 현재 데이터를 저장합니다 |
@@ -206,4 +207,3 @@ Adobe Campaign을 사용하면 캠페인의 다양한 단계를 만들고 승인
 이 비디오에서는 마케팅 계획, 프로그램 및 캠페인을 만드는 방법을 보여줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)
-

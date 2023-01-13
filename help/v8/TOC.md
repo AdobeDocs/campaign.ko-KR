@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: a9f7bf9a976a7f3b5415c090c042f83a1bb64c24
+source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '486'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
    + [FAQ](start/campaign-faq.md)
 + 캠페인 관리 {#campaigns}
    + [업그레이드 시작하기](start/campaigns.md)
-   + [캠페인 오케스트레이션 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
+   + [캠페인 오케스트레이션 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
    + 메시지 보내기{#send}
       + [메시지 시작](start/create-message.md)
       + [게재 템플릿 작업](send/create-templates.md)
@@ -166,5 +166,5 @@ ht-degree: 100%
       + [데이터베이스 업데이트](dev/update-database-structure.md)
       + [입력 양식](dev/forms.md)
    + [Campaign API](dev/api.md)
-+ [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
-+ [Campaign Automation 안내서](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko)
++ [Campaign 컨트롤 패널 >](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
++ [Campaign Automation 안내서 >](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko)
