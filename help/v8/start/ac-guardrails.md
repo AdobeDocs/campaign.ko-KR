@@ -6,22 +6,22 @@ role: User
 level: Beginner, Intermediate, Experienced
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
 source-git-commit: 58fff46ba12f5c6221bbcd88a40fa0806a6c98b9
-workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '245'
+ht-degree: 100%
 
 ---
 
 # 제품 보호 기능{#guardrails}
 
-자격, 제품 제한, 성능 보호 기능은 [Adobe Campaign Managed Cloud Services 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}의 목록에서 확인할 수 있습니다.
+자격, 제품 제한, 성능 보호 기능은 [Adobe Campaign Managed Cloud Services 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}의 목록에서 확인할 수 있습니다.
 
 [!DNL Adobe Campaign] 사용 시 다음과 같은 추가 보호 기능 및 제한 사항이 있습니다.
 
 보호 기능 및 제한 사항에서는 이 제품의 해당 릴리스에서 지원하지 않거나 해당 릴리스와 올바르게 상호 작용하지 않는 기능, 아키텍처 또는 프로세스를 식별합니다. 이 제한 사항을 신중하게 검토해 주세요.
 
 * Adobe Campaign v8은 온-프레미스/하이브리드 배포에 사용할 수 없으며, Adobe 관리 클라우드 서비스로만 릴리스할 수 있습니다
-* 기존 고객은 Adobe Campaign v8로의 자동 마이그레이션을 사용할 수 없습니다
+* 기존 고객 대상 Adobe Campaign v8 자동 마이그레이션은 제공되지 않습니다.
 * [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)의 컨텍스트에서는 양방향 데이터 복제가 제공되지 않습니다. Campaign 로컬 데이터베이스에서 클라우드 데이터베이스로의 복제만 수행됩니다.
 * [이 섹션](v7-to-v8.md#gs-unavailable-features)에 나열된 기능은 현재 Campaign v8 빌드에서 사용할 수 없습니다.
 * 사용할 수 없거나 제거된 기능 중 일부는 계속 사용자 인터페이스에 표시됩니다.
