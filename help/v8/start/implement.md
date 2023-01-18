@@ -6,25 +6,25 @@ role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: a2c30979be786ce8374857eb270ba71ec0e1b2a3
-workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 89%
+workflow-type: ht
+source-wordcount: '1191'
+ht-degree: 100%
 
 ---
 
 # Campaign 구현 지침{#gs-implementation}
 
-이 섹션에서는 회사의 요구 사항에 맞게 Adobe Campaign을 조정하는 방법을 알아봅니다. 구현을 구조화하고 조직화하려면 다음 지침을 사용하십시오.
+이 섹션에서는 회사의 필요에 따라 Adobe Campaign을 조정하는 방법을 알아봅니다. 구현을 구조화하고 조직화하려면 다음 지침을 사용하십시오.
 
 1. **설정 정의**: 액세스 권한 부여, 클라이언트 콘솔 공유, 채널 구성(이메일, 푸시 알림, SMS). [자세히 알아보기](#implementation-ac-settings)
 1. **환경 준비**: 프로필 가져오기, 대상 만들기, 워크플로우 및 캠페인 템플릿 디자인하기, 유형 규칙 만들기. [자세히 알아보기](#implementation-prepare-your-env)
 1. **인스턴스 사용자 정의하기**: 새 데이터 필드 만들기, 테이블/스키마 추가하기. [자세히 알아보기](#implementation-custom-your-instance)
-1. **프로세스 자동화**: Adobe Campaign 자동화 기능을 구성합니다. [자세히 알아보기](#implementation-automation)
+1. **내 프로세스 자동화**: Adobe Campaign 자동화 기능을 구성합니다. [자세히 알아보기](#implementation-automation)
 1. **배포 확장**: Adobe 솔루션, 기타 제품 및 시스템(커넥터, 멀티 솔루션 설정)에 연결하기. [자세히 알아보기](#implementation-extend)
 
 >[!CAUTION]
 >
->사용 **Campaign 관리 Cloud Services**, 사용자의 환경 및 초기 구성은 사용권 계약 조건에 따라 Adobe에 의해 설정됩니다. 설치된 기본 제공 패키지, 기본 제공 스키마 또는 보고서를 수정할 수 없습니다.
+>**Campaign Managed Cloud Services**&#x200B;를 사용하면 Adobe가 라이선스 계약의 약관에 따라 환경 및 초기 구성을 설정합니다. 설치된 기본 제공 패키지, 기본 제공 스키마 또는 보고서는 수정할 수 없습니다.
 >
 >Campaign 추가 기능 또는 제공되지 않은 특정 기능을 사용해야 하는 경우 **Adobe 고객 지원 센터**&#x200B;에 문의해야 합니다.
 
@@ -38,11 +38,11 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호법 및 수�
 
 * **데이터 수집**: Adobe Campaign을 사용하면 개인 및 중요 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다.
 
-   자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#data-acquisition){target=&quot;_blank&quot;}를 참조하십시오
+   자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#data-acquisition)를 참조하세요{target="_blank"}
 
-* **사용자 동의 및 데이터 유지**: 사용자 동의를 받고, 이중 옵트인 구독 메커니즘을 설정하고, 옵트아웃을 촉진하고 데이터 보존 기능을 구성해야 합니다.
+* **사용자 동의 및 데이터 보유**: 사용자 동의를 받고, 이중 옵트인 구독 메커니즘을 설정하고, 쉽게 옵트아웃할 수 있도록 하고, 데이터 유지 조건을 구성해야 합니다.
 
-   추가 정보 [Campaign Classic v7 개인 정보 보호 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#consent){target=&quot;_blank&quot;}
+   [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#consent){target="_blank"}에서 자세히 알아보기
 
 * **개인 정보 보호 및 데이터 보호 규정**: 개인 정보 보호 요구 사항 및 이러한 규정이 조직과 Adobe Campaign에 미치는 영향에 대한 정보를 알아보려면 [이 섹션](privacy.md)을 참조하세요.
 
@@ -87,7 +87,7 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호법 및 수�
 
    ![](../assets/do-not-localize/glass.png) 워크플로우 템플릿 구성 방법: [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
 
-   ![](../assets/do-not-localize/book.png)[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko){target=&quot;_blank&quot;}에서 이메일 템플릿에 대해 자세히 알아보기
+   ![](../assets/do-not-localize/book.png) 이메일 템플릿에 대해 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko){target="_blank"}에서 자세히 알아보기
 
 
 1. **유형 규칙 구성**
@@ -137,11 +137,11 @@ Campaign의 다양한 영역과 기능을 사용자 지정할 수 있습니다. 
 
 여러 채널에서 여러 대상에 대해 복잡한 마케팅 캠페인을 통합 관리하려면 Campaign 자동화 기능을 활용하십시오.
 
-* 사용 **워크플로우** 프로세스 및 데이터를 관리합니다. 추가 정보 [이 설명서](../../automation/workflow/about-workflows.md)
+* **워크플로우**&#x200B;를 사용하여 프로세스 및 데이터를 관리합니다. 자세한 내용은 [이 설명서](../../automation/workflow/about-workflows.md)를 참조하세요
 
-* 설정 **구독** 프로세스 및 **랜딩 페이지**.  [이 페이지](../start/subscriptions.md)에서 자세히 알아보기
+* **구독** 프로세스 및 **랜딩 페이지**&#x200B;를 설정합니다.  [이 페이지](../start/subscriptions.md)에서 자세히 알아보기
 
-* 구성 **유형화 규칙** 피로도 및 통제 관리를 정의하려는 경우.  추가 정보 [이 설명서](../../automation/campaign-opt/campaign-typologies.md)
+* **유형화 규칙**&#x200B;을 구성하여 피로도를 정의하고 및 관리를 제어합니다.  자세한 내용은 [이 설명서](../../automation/campaign-opt/campaign-typologies.md)를 참조하세요
 
 
 ## 배포 확장{#implementation-extend}
