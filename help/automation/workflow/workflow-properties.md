@@ -3,9 +3,10 @@ product: campaign
 title: 워크플로우 속성
 description: Campaign 워크플로우 속성에 대해 자세히 알아보기
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
@@ -37,8 +38,6 @@ ht-degree: 1%
 * **[!UICONTROL Default affinity]**
 
    설치에 여러 워크플로우 서버가 포함된 경우 이 필드를 사용하여 워크플로우를 실행할 시스템을 선택합니다. 이 필드에 정의된 값이 서버에 없는 경우 워크플로우는 보류 중인 상태로 유지됩니다.
-
-   이 문서를 참조하십시오.
 
 * **[!UICONTROL History in days]**
 
