@@ -3,9 +3,10 @@ product: campaign
 title: 로딩(SOAP)
 description: 로딩(SOAP)
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 21c42a36-9a50-49b8-8a07-b041ba8b2026
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '229'
 ht-degree: 4%
 
 ---
@@ -39,8 +40,6 @@ ht-degree: 4%
    ![](assets/soap_load_001.png)
 
    예제를 업데이트하려면 **[!UICONTROL Re-analyze the example]**.
-
-   를 통해 열 데이터의 형식을 개인화할 수도 **.
 
 1. 라인 번호를 식별자로 사용하거나 SOAP 호출이 여러 요소를 반환하도록 지정할 수 있습니다.
 1. 함수에 따라 다음 탭 스크립트를 입력합니다.
