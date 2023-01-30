@@ -5,7 +5,7 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '2717'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 Adobe Campaign 시스템은 매우 유연하며 초기 구현 이상으로 확장할 수 있습니다. 그러나 가능성은 무한하지만 현명한 결정을 내리고 데이터 모델 디자인을 시작할 강력한 기반을 구축하는 것이 중요합니다.
 
-Campaign 기본 제공 표와 이들이 상호 작용하는 방법을 보다 잘 이해하려면 다음을 참조하십시오 [이 섹션](datamodel.md) .
+Campaign 기본 제공 표와 이들이 상호 작용하는 방법을 보다 잘 이해하려면 다음을 참조하십시오 [이 섹션](datamodel.md).
 
 ![](../assets/do-not-localize/glass.png) 읽기 [이 섹션](schemas.md) campaign 스키마를 시작하려면 다음을 수행하십시오.
 
