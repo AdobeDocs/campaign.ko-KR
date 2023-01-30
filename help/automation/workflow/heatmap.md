@@ -3,20 +3,17 @@ product: campaign
 title: 캠페인 워크플로우 열 지도
 description: 워크플로우 HeatMap을 사용하여 워크플로우 모니터링
 feature: Workflows, Heatmap
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1094'
 ht-degree: 3%
 
 ---
 
 # 워크플로우 히트맵 {#workflow-heatmap}
 
-
-
 캠페인 워크플로우 HeatMap은 현재 실행 중인 모든 워크플로우를 색상으로 구분된 그래픽으로 표시합니다. 다음 경우에만 사용할 수 있습니다 **Campaign 관리자**.
-
-에서 캠페인 프로세스를 모니터링하는 추가 방법을 알아봅니다.
 
 ## 워크플로우 열 지도 시작 {#about-the-workflow-heatmap}
 
@@ -52,8 +49,7 @@ ht-degree: 3%
    기본적으로 이 페이지에는 현재 날짜의 워크플로우 활동이 표시됩니다. 이를 변경하고 과거에 원하는 날짜를 선택할 수 있습니다.
 
    >[!NOTE]
-   >
-   >에서 삭제하지 않은 워크플로우만 **.\
+   > 
    >기본적으로 Workflow HeatMap 시간대는 현재 관리자 사용자를 위해 정의된 시간대입니다. 예를 들어 작업 중인 마케팅 사용자와 동일한 영역에 있지 않은 경우 변경할 수 있습니다.
 
 1. **[!UICONTROL Filters]** 버튼을 클릭합니다.
@@ -152,7 +148,7 @@ Campaign 관리자는 워크플로우 HeatMap을 사용하여 활동을 느리�
 
 1. 이동 **[!UICONTROL Monitoring]** 을 클릭하고 **[!UICONTROL Workflows]** 링크를 클릭하여 **[!UICONTROL Campaign Workflow HeatMap]** 페이지.
 1. 설정 **[!UICONTROL Min duration]** 5분으로 필터링.
-1. 설정 **[!UICONTROL Workflow type]** 필터 대상 **[!UICONTROL Marketing]** .
+1. 설정 **[!UICONTROL Workflow type]** 필터 대상 **[!UICONTROL Marketing]**.
 1. HeatMap 그리드에서 다음을 확인합니다.
 
    ![](assets/wkf_monitoring_without.png)
