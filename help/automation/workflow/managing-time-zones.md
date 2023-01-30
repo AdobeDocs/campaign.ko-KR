@@ -3,20 +3,17 @@ product: campaign
 title: 표준 시간대 관리
 description: 표준 시간대 관리
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 04b7638d-55dd-4317-b605-5d618ef014ba
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '266'
 ht-degree: 3%
 
 ---
 
-# 시간대 관리{#managing-time-zones}
-
-
+# 표준 시간대 관리{#managing-time-zones}
 
 Adobe Campaign을 사용하면 동일한 인스턴스에 의해 관련된 다양한 국가 간에 시간 지연을 관리할 수 있습니다. 적용된 구성은 인스턴스를 생성하는 동안 구성됩니다.
-
-Adobe Campaign에서 시간대 구성에 대한 자세한 내용은 을 참조하십시오.
 
 워크플로우에서는 활동 실행 일정을 조정하고 특정 시간대를 활동 또는 전체 워크플로우에 연결할 수 있습니다. 이 구성은 파일을 가져오거나 게재 예약 프레임워크 내에서 사용할 때 유용합니다.
 
