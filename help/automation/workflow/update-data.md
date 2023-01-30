@@ -3,9 +3,10 @@ product: campaign
 title: 데이터 업데이트
 description: 데이터 업데이트 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows, Targeting Activity, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
@@ -99,7 +100,7 @@ An **데이터 업데이트**-type activity에서는 데이터베이스의 필�
 
 1. 기본 레코드로 이동할 컬렉션을 선택하고 업데이트할 필드를 선택합니다.
 
-   하나 이상의 보조 레코드가 식별되면 이러한 레코드에 적용되는 규칙을 입력합니다. 이를 위해 표현식 빌더를 사용할 수 있습니다. 자세한 정보는 이 문서를 참조하십시오. 예를 들어, 유지해야 하는 여러 레코드 중에서 가장 최근에 업데이트된 값이라고 지정합니다.
+   하나 이상의 보조 레코드가 식별되면 이러한 레코드에 적용되는 규칙을 입력합니다. 이를 위해 표현식 빌더를 사용할 수 있습니다. 예를 들어, 유지해야 하는 여러 레코드 중에서 가장 최근에 업데이트된 값이라고 지정합니다.
 
    그런 다음 규칙에 대해 고려할 조건을 입력합니다.
 
