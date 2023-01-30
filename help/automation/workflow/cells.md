@@ -3,9 +3,10 @@ product: campaign
 title: 셀
 description: 셀
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: d85645a6-fc15-4c3a-9d67-d4230224e1f7
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
@@ -49,4 +50,4 @@ ht-degree: 2%
                 </container>
 ```
 
-Adobe Campaign의 입력 양식 개인화는 전문가 사용자를 위해 예약되어 있습니다. 자세한 정보는 이 문서를 참조하십시오.
+Adobe Campaign의 입력 양식 개인화는 전문가 사용자를 위해 예약되어 있습니다.
