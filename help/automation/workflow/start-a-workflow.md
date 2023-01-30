@@ -3,10 +3,11 @@ product: campaign
 title: 워크플로우 시작
 description: 워크플로우를 시작하고 워크플로우 작업 도구 모음 및 마우스 오른쪽 단추 클릭 메뉴를 검색하는 방법을 알아봅니다
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 1%
+source-wordcount: '742'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 1%
 
 ## 작업 도구 모음 {#actions-toolbar}
 
-도구 모음 버튼은 여기에 자세히 설명되어 있습니다. 다음 **[!UICONTROL Actions]** 버튼을 사용하면 선택한 워크플로우에서 작업을 수행할 수 있는 추가 실행 옵션에 액세스할 수 있습니다. 를 사용할 수도 있습니다 **[!UICONTROL File > Actions]** 메뉴를 클릭하거나 워크플로우를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]**.
+다음 **[!UICONTROL Actions]** 도구 모음의 단추를 사용하면 선택한 워크플로우에서 추가 실행 옵션에 액세스할 수 있습니다. 를 사용할 수도 있습니다 **[!UICONTROL File > Actions]** 메뉴를 클릭하거나 워크플로우를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]**.
 
 ![](assets/purge_historique.png)
 
@@ -52,8 +53,6 @@ ht-degree: 1%
 
    이 작업이 중지되고 워크플로우가 다시 시작됩니다. 대부분의 경우 보다 신속하게 다시 시작할 수 있습니다. 또한 일정 시간이 걸리는 중지 시 다시 시작을 자동화하는 것이 유용합니다. 워크플로우가 중지되는 경우 &#39;중지&#39; 명령을 사용할 수 없기 때문입니다.
 
-   입력한 URL의 유효성 검사가 완료되고 나면 입력한 페이지의 모든 하위 페이지도 포함되도록 URL 끝에 ** .
-
 * **[!UICONTROL Purge history]**
 
    이 작업을 통해 워크플로우 내역을 삭제할 수 있습니다. 자세한 내용은 [로그 제거](monitor-workflow-execution.md#purging-the-logs).
@@ -77,8 +76,6 @@ ht-degree: 1%
 * **[!UICONTROL Save as template]**
 
    이 작업은 선택한 워크플로우를 기반으로 새 워크플로우 템플릿을 만듭니다. 저장할 폴더( **[!UICONTROL Folder]** 필드)만 로드하는 것입니다.
-
-   입력한 URL의 유효성 검사가 완료되고 나면 입력한 페이지의 모든 하위 페이지도 포함되도록 URL 끝에 ** .
 
 ## 마우스 오른쪽 단추 클릭 메뉴 {#right-click-menu}
 
@@ -108,4 +105,3 @@ ht-degree: 1%
 >
 >활동 그룹을 선택하고 이러한 명령 중 하나를 해당 그룹에 적용할 수 있습니다.
 
-마우스 오른쪽 단추 클릭 메뉴 도 여기에 자세히 설명되어 있습니다.
