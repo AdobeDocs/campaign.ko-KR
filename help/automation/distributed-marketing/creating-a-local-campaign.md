@@ -3,9 +3,10 @@ product: campaign
 title: 로컬 캠페인 만들기
 description: 로컬 캠페인 만들기
 feature: Distributed Marketing
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: b46530b5-cb81-40d7-b596-c7685359782a
+source-git-commit: 7e5ffbec959785971280c394c416cebe83590897
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1554'
 ht-degree: 1%
 
 ---
@@ -68,7 +69,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >이 예제에서 사용되는 웹 응용 프로그램은 예제입니다. 양식을 사용할 수 있으려면 특정 웹 앱을 만들어야 합니다. 을 참조하십시오.
+   >이 예제에서 사용되는 웹 응용 프로그램은 예제입니다. 양식을 사용할 수 있으려면 특정 웹 앱을 만들어야 합니다.
 
    ![](assets/mkt_distr_7.png)
 
@@ -155,7 +156,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->캠페인 템플릿 및 일반적인 구성이에 자세히 설명되어 있습니다.
+>캠페인 템플릿과 일반적인 구성은 [이 페이지](../campaigns/marketing-campaign-templates.md).
 
 ## 캠페인 패키지 만들기 {#creating-the-campaign-package}
 
@@ -235,10 +236,6 @@ ht-degree: 1%
 1. 클릭 **[!UICONTROL Order campaign]** 알림 메시지에서 또는 Adobe Campaign에서 해당 버튼을 클릭합니다.
 
    캠페인 순서를 지정하려면 ID와 암호를 입력합니다. 인터페이스는 웹 애플리케이션에 정의된 페이지 세트로 구성됩니다.
-
-   >[!NOTE]
-   >
-   >웹 애플리케이션은에 자세히 설명되어 있습니다.
 
 1. 첫 번째 페이지(주문 레이블 및 주석)에 필요한 정보를 입력하고 **[!UICONTROL Next]**.
 
