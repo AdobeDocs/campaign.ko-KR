@@ -3,10 +3,11 @@ product: campaign
 title: 데이터 로딩(파일)
 description: 데이터 로드(파일) 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows, Data Management Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 15%
+source-wordcount: '1029'
+ht-degree: 14%
 
 ---
 
@@ -31,8 +32,6 @@ ht-degree: 15%
 파일 가져오기 중에 실행할 사전 프로세스를 정의할 수 있습니다. 예를 들어, 서버에서 파일의 압축을 해제하지 않고(따라서 압축 해제된 파일의 공간을 절약합니다) 파일 처리에 압축을 해제해야 합니다. 을(를) 선택합니다 **[!UICONTROL Pre-process the file]** 옵션을 선택하고 3가지 옵션 중 하나를 선택합니다. **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) 또는 **[!UICONTROL Decrypt]** (gpg).
 
 ![](assets/preprocessing-dataloading.png)
-
-이 작업에 대한 자세한 정보는 이 섹션을 참조하십시오:  .
 
 ## 파일 형식 정의 {#defining-the-file-format}
 
@@ -110,7 +109,7 @@ ht-degree: 15%
    * 첫 번째 열에는 이벤트와 일치하는 코드가 있습니다. 구매(3,000유로 이하), 하나 이상의 구매에 대한 구매나 환불이 없습니다.
    * 다음 네 개의 열에는 클라이언트의 이름, 성, 이메일 및 계정 번호가 포함됩니다.
 
-   로드할 파일의 형식 구성은 Adobe Campaign에서 데이터를 가져오는 동안 정의된 형식 구성과 일치합니다. 자세한 정보는 이 문서를 참조하십시오.
+   로드할 파일의 형식 구성은 Adobe Campaign에서 데이터를 가져오는 동안 정의된 형식 구성과 일치합니다.
 
 1. 분할 활동에서 다음에 따라 만들 하위 세트를 지정합니다. **이벤트** 열 값.
 
