@@ -5,7 +5,7 @@ feature: PI, Privacy
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 구현 {#implementation}
 
-요소나 속성에 적용할 수 있는 특정 속성이 스키마에 추가되어 기존 속성을 보완합니다 **[!UICONTROL visibleIf]** . 이 속성은 다음과 같습니다. **[!UICONTROL accessibleIf]** . 현재 사용자 컨텍스트와 관련된 XTK 표현식을 포함하는 경우 이를 활용할 수 있습니다 **[!UICONTROL HasNamedRight]** 또는 **[!UICONTROL $(login)]** 예:
+요소나 속성에 적용할 수 있는 특정 속성이 스키마에 추가되어 기존 속성을 보완합니다 **[!UICONTROL visibleIf]**. 이 속성은 다음과 같습니다. **[!UICONTROL accessibleIf]**. 현재 사용자 컨텍스트와 관련된 XTK 표현식을 포함하는 경우 이를 활용할 수 있습니다 **[!UICONTROL HasNamedRight]** 또는 **[!UICONTROL $(login)]**&#x200B;예:
 
 수신인 스키마 확장의 샘플은 이러한 사용을 아래에 보여 줍니다.
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 기본 속성은 다음과 같습니다.
 
 * **[!UICONTROL visibleIf]** : 는 메타데이터에서 필드를 숨기므로 스키마 보기, 열 선택 또는 표현식 빌더 내에서 액세스할 수 없습니다. 하지만 이렇게 해도 데이터가 숨기지 않고, 필드 이름을 표현식에 수동으로 입력하면 값이 표시됩니다.
-* **[!UICONTROL accessibleIf]** : 결과 쿼리의 데이터를 숨깁니다(빈 값으로 바꾸기). visibleIf 가 비어 있으면 와 동일한 표현식이 됩니다 **[!UICONTROL accessibleIf]** .
+* **[!UICONTROL accessibleIf]** : 결과 쿼리의 데이터를 숨깁니다(빈 값으로 바꾸기). visibleIf 가 비어 있으면 와 동일한 표현식이 됩니다 **[!UICONTROL accessibleIf]**.
 
 다음은 Campaign에서 이 속성을 사용할 때의 결과입니다.
 
