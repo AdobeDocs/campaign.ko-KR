@@ -3,10 +3,11 @@ product: campaign
 title: 크로스 채널 게재
 description: 크로스 채널 게재에 대해 자세히 알아보기
 feature: Workflows, Channels Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: fedcffcd-cf9b-4c3d-bd25-cb87dda30192
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 3%
+source-wordcount: '249'
+ht-degree: 4%
 
 ---
 
@@ -37,14 +38,14 @@ ht-degree: 3%
 1. 추가 **[!UICONTROL Split]** 활동을 워크플로우에 추가하여 모바일 번호가 있는 수신자와 이메일 주소가 있는 수신자를 구분할 수 있습니다.
 1. 에서 **[!UICONTROL Delivery]** 탭에서 각 타겟에 대한 게재를 선택합니다.
 
-   워크플로우에서 게재 활동을 두 번 클릭하여 클래식 게재 마법사와 동일한 방식으로 게재를 만듭니다. 자세한 정보는 이 문서를 참조하십시오.
+   워크플로우에서 게재 활동을 두 번 클릭하여 클래식 게재 마법사와 동일한 방식으로 게재를 만듭니다.
 
    ![](assets/cross_channel_delivery_3.png)
 
 1. 추가 및 구성 **[!UICONTROL Wait]** 받는 사람이 한 번에 너무 많은 게재를 받지 않도록 하는 활동.
 1. 추가 **[!UICONTROL Split]** 활동을 통해 iOS 또는 Android 모바일 애플리케이션의 구독자를 분할합니다.
 
-   각 운영 체제에 대한 서비스를 선택합니다. 서비스 만들기에 대한 자세한 내용은 이 를 참조하십시오.
+   각 운영 체제에 대한 서비스를 선택합니다.
 
    ![](assets/cross_channel_delivery_4.png)
 
