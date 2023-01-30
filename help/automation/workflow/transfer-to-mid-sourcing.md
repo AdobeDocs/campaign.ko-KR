@@ -3,19 +3,17 @@ product: campaign
 title: 중간 소싱으로 전송
 description: 중간 소싱 워크플로우로 전송에 대해 자세히 알아보십시오
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 7%
+source-wordcount: '95'
+ht-degree: 10%
 
 ---
 
 
 # 중간 소싱으로 전송{#transfer-to-mid-sourcing}
 
-
-
-아래 자세히 설명된 워크플로우는 **중간 소싱으로 전송** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 를 참조하십시오.
+아래 자세히 설명된 워크플로우는 **중간 소싱으로 전송** 기본적으로 모듈입니다.
 
 <table> 
  <tbody> 
