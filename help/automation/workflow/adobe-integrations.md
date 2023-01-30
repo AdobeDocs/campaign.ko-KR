@@ -3,19 +3,17 @@ product: campaign
 title: Adobe Experience Cloud 솔루션 워크플로우와 통합
 description: Adobe Experience Cloud 솔루션 워크플로우와의 통합에 대해 자세히 알아보십시오
 topic-tags: technical-workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 8%
+source-wordcount: '109'
+ht-degree: 10%
 
 ---
 
 
 # Adobe Experience Cloud 솔루션과 통합{#integrations-with-adobe-experience-cloud-solutions}
 
-
-
-아래 자세히 설명된 워크플로우는 **Adobe Experience Cloud과 통합** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 이 를 참조하십시오.
+아래 자세히 설명된 워크플로우는 **Adobe Experience Cloud과 통합** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 [이 페이지](../../v8/connect/integration.md).
 
 <table> 
  <tbody> 
