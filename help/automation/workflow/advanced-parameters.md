@@ -3,10 +3,11 @@ product: campaign
 title: 고급 매개 변수
 description: 고급 매개 변수
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: aafd977e-c8af-426b-904c-8388c9d8e595
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 2%
+source-wordcount: '492'
+ht-degree: 3%
 
 ---
 
@@ -44,11 +45,9 @@ ht-degree: 2%
 * **[!UICONTROL Do not activate]**: 이 작업과 다음 작업(동일한 분기에 있음)이 모두 실행되지 않습니다.
 * **[!UICONTROL Activate but do not execute]**: 이 작업과 다음 작업(동일한 분기에 있음)이 자동으로 중지됩니다. 이 기능은 작업이 시작될 때 해당 위치에 있기를 원하는 경우 유용합니다. 작업을 수동으로 실행하려면 활동을 마우스 오른쪽 단추로 클릭하고 을 선택합니다 **[!UICONTROL Normal execution]**.
 
-## 친화성 {#affinity}
+## 선호도 {#affinity}
 
 특정 컴퓨터에서 워크플로우 또는 워크플로우 활동을 강제로 실행하도록 선택할 수 있습니다. 이를 수행하려면 워크플로우 또는 관련 활동 수준에서 하나 이상의 자산을 정의해야 합니다.
-
-고가용성 워크플로우 구성에 대해서는 여기에서 자세히 설명합니다.
 
 
 ## 맥스 실행 기간 {#max--execution-period}
