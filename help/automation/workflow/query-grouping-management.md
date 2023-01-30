@@ -3,9 +3,10 @@ product: campaign
 title: 그룹 관리를 사용한 쿼리
 description: 그룹 관리를 사용하여 쿼리를 수행하는 방법을 알아봅니다
 feature: Query Editor
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 6fc4ef67-5d75-4c8c-8bcc-41e3ed155ca2
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '241'
 ht-degree: 4%
 
 ---
@@ -35,8 +36,6 @@ ht-degree: 4%
    ![](assets/query_editor_02.png)
 
 1. 에서 **[!UICONTROL Data to extract]** 창에서 **[!UICONTROL Email domain]** 및 **[!UICONTROL Primary key]** 필드. 에서 카운트 실행 **[!UICONTROL Primary key]** 필드.
-
-   기본 키 카운트에 대한 자세한 내용은 를 참조하십시오.
 
 1. 을(를) 확인합니다. **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** 상자.
 
