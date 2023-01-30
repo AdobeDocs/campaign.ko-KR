@@ -3,10 +3,10 @@ product: campaign
 title: 분산 마케팅
 description: 분산 마케팅 패키지에 대해 자세히 알아보기
 feature: Workflows, Data Management, Distributed Marketing
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 8%
+source-wordcount: '69'
+ht-degree: 11%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 8%
 
 
 
-아래 자세히 설명된 워크플로우는 **분산 마케팅** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 이 를 참조하십시오.
+아래 자세히 설명된 워크플로우는 **분산 마케팅** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 [이 섹션](../distributed-marketing/about-distributed-marketing.md).
 
 <table> 
  <tbody> 
