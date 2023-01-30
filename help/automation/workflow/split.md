@@ -3,7 +3,8 @@ product: campaign
 title: 분할
 description: 분할 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 0%
@@ -145,7 +146,6 @@ A **분할**-type 활동을 통해 대상을 여러 하위 집합으로 분할�
    * **[!UICONTROL Targeting dimension]**: 데이터 배포를 적용할 타겟팅 차원을 입력합니다. **[!UICONTROL Recipient]** 예를 들어, 이 스키마는 항상 타겟팅 워크플로우에 사용되는 데이터와 호환되어야 합니다.
    * **[!UICONTROL Distribution field]**: 타겟팅 차원을 통해 필드를 선택합니다. 예를 들어, **[!UICONTROL Email domain]** 필드에서는 수신자 목록이 도메인별로 분류됩니다.
    * **[!UICONTROL Distribution type]**: 대상에서 제한 값이 **[!UICONTROL Distribution]** 탭: **[!UICONTROL Percentage]** 또는 **[!UICONTROL Set]**.
-   * **.
    * **[!UICONTROL Approval storage]**: 만약 [로컬 승인](local-approval.md) 타겟팅 워크플로우에서 승인 결과가 저장되는 스키마를 입력합니다. 대상 스키마당 하나의 저장소 스키마를 지정해야 합니다. 를 사용하는 경우 **[!UICONTROL Recipients]** 타겟팅 스키마, 기본 입력 **[!UICONTROL Local approval of recipients]** 저장소 스키마.
 
       로컬 승인 없이 데이터 그룹화로 간단하게 제한되는 경우 **[!UICONTROL Approvals storage]** 필드.
