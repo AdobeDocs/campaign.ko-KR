@@ -3,17 +3,17 @@ product: campaign
 title: LINE 채널
 description: LINE 채널
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 11%
+source-wordcount: '95'
+ht-degree: 13%
 
 ---
 
 
 # LINE 채널{#line-channel}
 
-아래 자세히 설명된 워크플로우는 **LINE 채널** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 이 를 참조하십시오.
+아래 자세히 설명된 워크플로우는 **LINE 채널** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 [이 페이지](../../v8/send/line.md).
 
 <table> 
  <tbody> 
