@@ -4,9 +4,9 @@ title: 워크플로우의 JavaScript 코드 예
 description: 다음 예는 워크플로우에서 JavaScript 코드를 사용하는 방법을 보여줍니다
 feature: Workflows
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1752'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 2%
    1. 호출 `Write` 메서드 `xtk:session` 스키마.
 
       >[!IMPORTANT]
-      > Adobe Campaign v8을 사용하는 경우 **수집** 및 **데이터 업데이트/삭제** 용 API `Write` Snowflake 테이블의 메서드. [자세한 내용](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target=&quot;_blank&quot;}.
+      > Adobe Campaign v8을 사용하는 경우 **수집** 및 **데이터 업데이트/삭제** 용 API `Write` Snowflake 테이블의 메서드. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
 
    1. XML 코드를 쓰기 요청에 대한 인수로 전달합니다.
 
@@ -78,7 +78,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### 레코드 업데이트
 
-를 사용하십시오 `_update` 작업. .
+를 사용하십시오 `_update` 작업.
 
 다음 정보를 XML 특성으로 지정합니다.
 
@@ -560,7 +560,7 @@ for each (var w in res.recipient)
 * 다음 `delete` 작업
 
 >[!IMPORTANT]
-> Adobe Campaign v8을 사용하는 경우 **수집** 및 **데이터 업데이트/삭제** 용 API `Write` Snowflake 테이블의 메서드. [자세한 내용](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target=&quot;_blank&quot;}.
+> Adobe Campaign v8을 사용하는 경우 **수집** 및 **데이터 업데이트/삭제** 용 API `Write` Snowflake 테이블의 메서드. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target="_blank"}.
 
 #### 예제 1: 레코드 삽입 또는 업데이트
 
