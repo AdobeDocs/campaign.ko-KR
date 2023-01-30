@@ -3,16 +3,15 @@ product: campaign
 title: 콘텐츠 관리
 description: 콘텐츠 관리
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '395'
 ht-degree: 3%
 
 ---
 
 # 콘텐츠 관리{#content-management}
-
-
 
 A **콘텐츠 관리** 활동을 사용하면 컨텐츠를 만들고 조작하고 이 컨텐츠를 기반으로 파일을 생성할 수 있습니다. 그런 다음 &#39;배달&#39; 활동을 통해 이 콘텐츠를 전달할 수 있습니다.
 
@@ -27,8 +26,6 @@ A **콘텐츠 관리** 활동을 사용하면 컨텐츠를 만들고 조작하�
 * **작업**: 결과 컨텐츠를 저장하거나 생성할 수 있습니다.
 
    ![](assets/content_mgmt_edit.png)
-
-   Adobe Campaign에서 콘텐츠 관리 구성 및 사용에 대한 자세한 내용은 이 를 참조하십시오.
 
 1. **콘텐츠**
 
@@ -97,7 +94,3 @@ A **콘텐츠 관리** 활동을 사용하면 컨텐츠를 만들고 조작하�
 * 파일
 
    선택한 작업이 있는 경우 생성된 파일의 전체 이름 **[!UICONTROL Generate]**.
-
-## 예제 {#examples}
-
-예제가 여기에 제공됩니다.
