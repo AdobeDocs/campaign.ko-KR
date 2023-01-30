@@ -3,22 +3,17 @@ product: campaign
 title: 필터 만들기
 description: 쿼리를 수행할 때 필터를 만드는 방법을 알아봅니다
 feature: Query Editor, Workflows
-source-git-commit: 5cd75f18ac2f4e02f656fa016f61ba0c7c72670a
+exl-id: 8e6fd9b4-77c4-4af8-921b-c3fe104fa5bc
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '201'
 ht-degree: 2%
 
 ---
 
 # 필터 만들기 {#creating-a-filter}
 
-
-
 Adobe Campaign에서 사용할 수 있는 필터는 쿼리와 동일한 운영 모드를 사용하여 만들어지는 필터링 조건을 통해 정의됩니다.
-
->[!NOTE]
->
->필터 만들기에 대한 자세한 내용은 를 참조하십시오.
 
 다음 **[!UICONTROL Administration > Configuration > Predefined filters]** 노드에는 목록 및 개요에 사용되는 모든 필터가 포함되어 있습니다.
 
