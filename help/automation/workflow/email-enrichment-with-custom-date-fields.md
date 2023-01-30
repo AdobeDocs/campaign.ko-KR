@@ -3,7 +3,8 @@ product: campaign
 title: 사용자 정의 날짜 필드를 통한 이메일 강화
 description: 사용자 지정 날짜 필드를 사용하여 이메일을 보강하는 방법을 알아봅니다
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 2bb3443c-37d8-4d49-9be1-81217f56823c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 3%
@@ -106,7 +107,7 @@ ht-degree: 3%
            formatDate(targetData.alias of your expression,"%2D.%2M")  %>
    ```
 
-1. ![](assets/uc_enrichment_16.png)를 클릭합니다. 선택 **[!UICONTROL Target extension]** 그런 다음 이전에 만든 사용자 정의 유효성 날짜를 **[!UICONTROL Enrichment]** 활동을 통해 formatDate 표현식에 확장을 추가합니다.
+1. ![](assets/uc_enrichment_16.png)을(를) 클릭합니다. 선택 **[!UICONTROL Target extension]** 그런 다음 이전에 만든 사용자 정의 유효성 날짜를 **[!UICONTROL Enrichment]** 활동을 통해 formatDate 표현식에 확장을 추가합니다.
 
    ![](assets/uc_enrichment_19.png)
 
