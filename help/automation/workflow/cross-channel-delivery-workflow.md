@@ -4,9 +4,9 @@ title: 크로스 채널 게재 워크플로우
 description: 크로스 채널 게재 워크플로우에 대해 자세히 알아보기
 feature: Workflows, Channels Activity
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
-source-git-commit: 5b4d569a6e96c93828f63fb8376eb81301829854
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '588'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 대상을 정의하려면 수신자를 식별하는 쿼리를 만듭니다.
 
-1. 캠페인 만들기. 자세한 내용은 를 참조하십시오.
+1. 캠페인 만들기. [이 페이지](../campaigns/marketing-campaign-create.md)에서 자세히 알아보십시오.
 1. 에서 **[!UICONTROL Targeting and workflows]** 캠페인의 탭에서 다음을 추가합니다 **쿼리** 활동을 워크플로우에 추가합니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](query.md).
 1. 게재를 받을 수신자를 정의합니다. 예를 들어 &#39;골드&#39; 멤버를 대상 차원으로 선택합니다.
 1. 쿼리에 필터링 조건을 추가합니다. 이 예제에서는 이메일 주소와 모바일 번호가 있는 수신자를 선택합니다.
@@ -49,7 +49,7 @@ ht-degree: 4%
 
    ![](assets/wkf_cross-channel_1.png)
 
-   오퍼를 메시지 본문에 통합하는 방법에 대한 자세한 내용은 을 참조하십시오.
+   메시지 본문에 오퍼를 통합하는 방법에 대한 자세한 내용은 [이 페이지](../../v8/send/email.md).
 
 1. 변경 내용을 저장합니다.
 1. 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Email delivery]** 활동을 클릭하여 엽니다.
@@ -107,11 +107,8 @@ ht-degree: 4%
    * 추가 **[!UICONTROL Mobile delivery]** 활동을 통해 두 번째 하위 세트에 SMS 메시지를 보냅니다.
    * 추가 **[!UICONTROL List update]** 활동에 해당 수신자를 데이터베이스에 추가합니다.
 
-1. 워크플로우에서 게재 활동을 두 번 클릭하여 편집합니다. 이메일 및 SMS 만들기에 대한 자세한 내용은 을(를) 참조하십시오.
+1. 워크플로우에서 게재 활동을 두 번 클릭하여 편집합니다.
 1. 를 두 번 클릭합니다. **[!UICONTROL List update]** 활동을 선택하고 을(를) 선택합니다 **[!UICONTROL Generate an outbound transition]** 선택 사항입니다.
-
-   그런 다음 결과 수신자를 Adobe Campaign에서 Adobe Experience Cloud으로 내보낼 수 있습니다. 예를 들어 대상을 추가 하여 Adobe Target에서 사용할 **.
-
 1. 을(를) 클릭합니다. **시작** 작업 표시줄의 단추를 클릭하여 워크플로우를 실행합니다.
 
 타겟팅된 인구 **쿼리** 활동은 수신자의 행동에 따라 이메일 또는 SMS 게재를 수신하도록 세그먼트화됩니다. 나머지 모집단은 **[!UICONTROL List update]** 활동.
