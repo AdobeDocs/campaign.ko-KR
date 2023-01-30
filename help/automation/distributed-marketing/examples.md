@@ -3,9 +3,10 @@ product: campaign
 title: 분산 마케팅 샘플
 description: 분산 마케팅 샘플
 feature: Distributed Marketing
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -13,14 +14,11 @@ ht-degree: 0%
 # 분산 마케팅 샘플{#distributed-marketing-samples}
 
 
-
 ## 로컬 캠페인 만들기(양식 기준) {#creating-a-local-campaign--by-form-}
 
 다음 **양식 기준** 유형 웹 인터페이스 사용 **웹 애플리케이션**. 구성에 따라 이 웹 애플리케이션에는 정의된 개인화된 요소의 유형이 포함될 수 있습니다. 예를 들어 대상, 예산, 콘텐츠 등을 평가하는 링크를 제안할 수 있습니다. 전용 API를 통해
 
 >[!NOTE]
->
->API는 전용 문서에 자세히 설명되어 있습니다. .
 >
 >이 예제에 사용되는 웹 애플리케이션은 Adobe Campaign을 통해 기본적으로 제공되는 웹 앱이 아닙니다. 캠페인에서 양식을 사용하려면 전용 웹 애플리케이션을 만들어야 합니다.
 
