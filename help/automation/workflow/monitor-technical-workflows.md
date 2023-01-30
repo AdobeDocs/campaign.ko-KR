@@ -3,20 +3,17 @@ product: campaign
 title: 기술 워크플로우 모니터링
 description: 기술 워크플로우 모니터링
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '472'
 ht-degree: 5%
 
 ---
 
 # 기술 워크플로우 모니터링 {#monitoring-technical-workflows}
 
-
-
 기술 워크플로우를 모니터링해야 하며 실패한 경우 작업을 수행해야 합니다.
-
-다양한 캠페인 프로세스를 모니터링하는 추가 방법이에 나와 있습니다.
 
 ## 인스턴스 모니터링 대시보드 {#instance-monitoring-dashboard}
 
@@ -40,8 +37,7 @@ ht-degree: 5%
 
 대상 **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
-1. 확인 **..
-1. 저널을 확인하여 경과 시간이 시간에 따라 상대적으로 일정하며 다른 워크플로우를 방해하지 않는지 확인합니다.
+경과 시간이 시간에 따라 상대적으로 일정하고 다른 워크플로우를 방해하지 않는지 저널을 확인합니다.
 
 대상 **[!UICONTROL Tracking workflow (‘tracking’)]**:
 
