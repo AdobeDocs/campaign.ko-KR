@@ -3,20 +3,17 @@ product: campaign
 title: 전자 메일 게재 기능
 description: 이메일 게재 기능 패키지에 대해 자세히 알아보십시오
 feature: Workflows, Deliverability
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 3%
+source-wordcount: '92'
+ht-degree: 5%
 
 ---
 
 
 # 게재 기능 모니터링(전자 메일 게재 기능){#email-deliverability}
 
-
-
-아래 자세히 설명된 워크플로우는 기본적으로 모든 인스턴스에 설치되며 반송 메일 자격 규칙 목록, 도메인 목록 및 MX 목록을 초기화할 수 있습니다. 한 번 **게재 기능 모니터링(전자 메일 게재 기능)** 패키지가 설치되고 이 워크플로우는 야간 실행됩니다. 게재 기능 모니터링에 대한 자세한 내용은 이 을 참조하십시오.
-
+아래 자세히 설명된 워크플로우는 기본적으로 모든 인스턴스에 설치되며 반송 메일 자격 규칙 목록, 도메인 목록 및 MX 목록을 초기화할 수 있습니다. 한 번 **게재 기능 모니터링(전자 메일 게재 기능)** 패키지가 설치되고 이 워크플로우는 야간 실행됩니다.
 <table> 
  <tbody> 
   <tr> 
