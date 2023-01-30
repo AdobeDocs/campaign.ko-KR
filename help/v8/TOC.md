@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
+source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 100%
+source-wordcount: '496'
+ht-degree: 99%
 
 ---
 
@@ -18,9 +18,13 @@ ht-degree: 100%
 + 릴리스 및 최신 업데이트 {#releases}
    + [초기 릴리스 정보](start/e-release-notes.md)
    + [릴리스 정보](start/release-notes.md)
+   + 이전 릴리스 노트 {#previous-rn}
+      + [2022년](start/release-notes-2022.md)
+      + [2021](start/release-notes-2021.md)
    + [보호 기능](start/ac-guardrails.md)
    + [알려진 문제](start/known-issues.md)
    + [호환성 매트릭스](start/compatibility-matrix.md)
+   + [Classic v7에서 v8까지](start/v7-to-v8.md)
 + 시작 {#new}
    + [Adobe Campaign 시작](start/get-started.md)
    + [주요 기능](start/whats-new.md)
