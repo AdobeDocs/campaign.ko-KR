@@ -3,9 +3,10 @@ product: campaign
 title: 워크플로우 수명 주기
 description: 워크플로우의 라이프 사이클에 대해 자세히 알아보기
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 4356b90c-9d7c-49ef-88cd-716b2ccdb7f0
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '260'
 ht-degree: 3%
 
 ---
@@ -37,7 +38,5 @@ ht-degree: 3%
 문자 **574-확인** 다음 전환 위에 표시됩니다. **배달** 활동은 게재 준비가 574명의 수신자를 타겟팅했으며 작업이 성공적으로 완료되었음을 의미합니다. 이 정보는 실행 시 전환에 추가되며 데이터를 처리하는 활동으로 계산됩니다.
 
 워크플로우가 시작되었으며 **승인** 결정을 내릴 활동. 그룹에 속한 운영자에게 전자 메일 주소 또는 휴대폰 번호가 통지됩니다.
-
-운영자 관리에 대해서는 여기에 자세히 설명되어 있습니다.
 
 워크플로우를 모니터링하는 방법에 대한 자세한 내용은 [이 섹션](monitor-workflow-execution.md).
