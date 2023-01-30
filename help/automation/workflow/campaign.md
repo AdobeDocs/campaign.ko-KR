@@ -4,19 +4,17 @@ title: 캠페인
 description: 캠페인
 feature: Workflows
 topic-tags: technical-workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 3%
+source-wordcount: '155'
+ht-degree: 4%
 
 ---
 
 
 # 캠페인{#campaign}
 
-
-
-아래 자세히 설명된 워크플로우는 **캠페인** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 이 를 참조하십시오.
+아래 자세히 설명된 워크플로우는 **캠페인** 기본적으로 모듈입니다.
 
 >[!CAUTION]
 >
