@@ -3,10 +3,11 @@ product: campaign
 title: 워크플로우 권한 관리
 description: 워크플로우 권한 관리 방법 알아보기
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 3cb8aeec-e758-4b71-adef-67942cf9ded7
+source-git-commit: bff7d1d51b9847c515670e5594eed513fefbe816
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 0%
+source-wordcount: '321'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 또한 워크플로우에서 수행하는 작업(수신자 가져오기, 파일 액세스, 퓨전, SQL 스크립트 실행 등)과 일치하는 명명된 권한에 매핑해야 합니다.
 
-연산자 및 권한 관리에 대한 자세한 내용은 이 를 참조하십시오.
+운영자 및 권한 관리에 대한 자세한 내용은 [이 섹션](../../v8/start/gs-permissions.md).
 
 ## 운영자 그룹 {#operator-groups-wf}
 
