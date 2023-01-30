@@ -3,10 +3,10 @@ product: campaign
 title: 중간 소싱 플랫폼
 description: 중간 소싱 플랫폼
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 15%
+source-wordcount: '43'
+ht-degree: 23%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 15%
 
 
 
-아래 자세히 설명된 워크플로우는 **중간 소싱 플랫폼** 기본적으로 모듈입니다. 이 모듈에 대한 자세한 내용은 이 를 참조하십시오.
+아래 자세히 설명된 워크플로우는 **중간 소싱 플랫폼** 기본적으로 모듈입니다.
 
 <table> 
  <tbody> 
