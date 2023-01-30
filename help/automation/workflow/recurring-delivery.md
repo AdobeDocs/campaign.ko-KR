@@ -3,10 +3,11 @@ product: campaign
 title: 반복 게재
 description: 반복 게재 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 14%
+source-wordcount: '263'
+ht-degree: 15%
 
 ---
 
@@ -28,7 +29,7 @@ A **[!UICONTROL Recurring delivery]** 활동을 사용하면 캠페인에만 해
 
 1. 게재 템플릿을 구성합니다.
 
-이 활동에 대한 구성 프로세스는 사용 가능한 옵션 측면에서 게재 템플릿을 만드는 프로세스와 유사합니다. 자세한 정보는 이 문서를 참조하십시오.
+이 활동에 대한 구성 프로세스는 사용 가능한 옵션 측면에서 게재 템플릿을 만드는 프로세스와 유사합니다.
 
 사용 중인 이 활동의 예는 다음 항목을 참조하십시오 [섹션](send-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
