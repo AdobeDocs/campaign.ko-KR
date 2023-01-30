@@ -3,10 +3,10 @@ product: campaign
 title: 받은 편지함 렌더링 기술 워크플로우
 description: 이 섹션에서는 받은 편지함 렌더링 패키지와 함께 설치된 기술 워크플로우에 대해 설명합니다
 feature: Workflows, Inbox Rendering
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 2%
+source-wordcount: '64'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 
 
-아래 자세히 설명된 워크플로우는 **받은 편지함 렌더링(IR)** 기본적으로 모듈입니다. 받은 편지함 렌더링에 대한 자세한 내용은 이 를 참조하십시오.
+아래 자세히 설명된 워크플로우는 **받은 편지함 렌더링(IR)** 기본적으로 모듈입니다.
 
 <table> 
  <tbody> 
