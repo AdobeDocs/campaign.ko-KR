@@ -3,10 +3,11 @@ product: campaign
 title: 구독 서비스
 description: 구독 서비스 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows, Targeting Activity, Subscription Services Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 919630ed-b39f-40e5-b893-f3a203713b15
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 0%
+source-wordcount: '399'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +29,7 @@ A **구독 서비스**-type 활동을 사용하면 전환에서 지정된 모집
 1. 클릭 **[!UICONTROL Subscription]** 또는 **[!UICONTROL Unsubscription]** 지정된 모집단을 선택한 정보 서비스로 구독하거나 구독을 취소하려는 경우
 1. 선택 **[!UICONTROL Send a confirmation message]** 을 입력하여 수신자에게 자신이 서비스에 구독 또는 구독 취소되었음을 알립니다.
 
-   이 메시지의 콘텐츠는 정보 서비스와 관련된 게재 템플릿에 지정됩니다. 자세한 정보는 이 문서를 참조하십시오.
+   이 메시지의 콘텐츠는 정보 서비스와 관련된 게재 템플릿에 지정됩니다.
 
 ## 예: 뉴스레터에 수신자 목록 가입 {#example--subscribe-a-list-of-recipients-to-a-newsletter}
 
