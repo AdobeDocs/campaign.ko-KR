@@ -1,14 +1,14 @@
 ---
 title: Campaign v8 호환성 표
-description: Campaign v8과 호환되는 시스템 및 버전 알아보기
+description: Campaign v8과 호환되는 시스템 및 버전 검색
 feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
+source-git-commit: 00d95425ca9438cd03b27bbec171aa7c57d25d6f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '370'
+ht-degree: 93%
 
 ---
 
@@ -26,37 +26,20 @@ ht-degree: 0%
 
 Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다. [자세히 알아보기](connect.md)
 
-### 운영 체제
+### 운영 체제{#op-systems}
 
 * **Microsoft Windows Server** 2019, 2016, 2012
-* **Microsoft Windows** 11(Campaign v8.3부터), 10, 8
+* **Microsoft Windows** 11, 10, 8
 
 >[!NOTE]
 >
 >일본어 인스턴스에 대해서는 Microsoft Windows 10을 권장합니다.
 
-### 브라우저
+### 웹 브라우저{#web-browsers}
 
-**Microsoft Edge**
+* Microsoft Edge
 
-### Microsoft WebView2 런타임
-
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Edge WebView2 런타임
-</p>
-</td>
-<td>
-<p>최신 버전</p>
-</td>
-<td>
-<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr">Microsoft 개발자 웹 사이트에서 다운로드</a></p>
-</td>
-</tr>
-</tbody>
-</table>
+* Microsoft Edge WebView2 런타임, 최신 버전입니다. 다운로드 위치 [Microsoft 개발자 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr){target="_blank"}.
 
 ## CRM 커넥터{#CRMconnectors}
 
@@ -82,7 +65,7 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 * **Apple iOS** 9 - 16(Campaign iOS SDK 빌드 1.0.26 포함)는 32비트 및 64비트 버전과 호환됩니다. iOS 16는 Campaign v8.4부터 지원됩니다.
 
 
-## 웹 액세스
+## 웹 액세스{#web-access}
 
 다음 브라우저는 [웹 액세스](connect.md#web-access)용 Campaign과 호환됩니다.
 
