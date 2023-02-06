@@ -5,10 +5,10 @@ feature: Profiles, Monitoring
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b783b1444457b3204fea35b613582642499acf65
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 5%
+source-wordcount: '1181'
+ht-degree: 4%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign은 게재 실패 유형 및 그 이유에 따라 격리를 관리
 격리된 주소 목록에서 **[!UICONTROL Error reason]** 필드는 선택한 주소가 격리된 이유를 나타냅니다. [자세히 알아보기](#identifying-quarantined-addresses-for-the-entire-platform)
 
 
-사용자가 이메일을 스팸 처리하면 해당 메시지는 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL Denylisted]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은에 차단 목록 없습니다. 따라서 사용자는 계속해서 SMS 메시지와 푸시 알림을 수신합니다. 의 피드백 루프에 대해 자세히 알아보십시오 [게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target=&quot;_blank&quot;}.
+사용자가 이메일을 스팸 처리하면 해당 메시지는 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL Denylisted]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은에 차단 목록 없습니다. 따라서 사용자는 계속해서 SMS 메시지와 푸시 알림을 수신합니다. 의 피드백 루프에 대해 자세히 알아보십시오 [게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Adobe Campaign은 게재 실패 유형 및 그 이유에 따라 격리를 관리
 
 또한 **[!UICONTROL Non-deliverables and bounces]** 기본 제공 보고서, **보고서** 이 홈 페이지의 섹션에는 격리된 주소, 발생한 오류 유형 및 도메인별 실패 분류에 대한 정보가 표시됩니다. 특정 전달에 대한 데이터를 필터링하거나 필요에 따라 이 보고서를 사용자 지정할 수 있습니다.
 
-에서 바운스 주소에 대해 자세히 알아보십시오 [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target=&quot;_blank&quot;}.
+에서 바운스 주소에 대해 자세히 알아보십시오 [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
 ### 격리된 전자 메일 주소 {#quarantined-recipient}
 
@@ -112,8 +112,16 @@ Adobe Campaign은 게재 실패 유형 및 그 이유에 따라 격리를 관리
 
    ![](assets/tech-quarantine-status.png)
 
-* 상태를 로 변경 **[!UICONTROL Allowlisted]**: 이 경우 주소는 격리 목록에 남아 있지만 오류가 발생하는 경우에도 체계적으로 타겟팅됩니다.
+전자 메일이 수신자에게 성공적으로 배달될 수 없기 때문에 반송 횟수로 잘못 표시되는 ISP 중단 등의 경우, 격리 목록에서 벌크 업데이트를 수행해야 할 수 있습니다.
 
->[!CAUTION]
->
->격리 목록에서 주소를 제거하면 다시 이 주소로 보내집니다. 이로 인해 게재 능력과 IP 평판에 심각한 영향을 줄 수 있으므로 IP 주소 또는 전송 도메인이 차단될 수 있습니다. 격리된 주소 제거를 고려할 때 추가 주의가 필요합니다. 도움이 필요한 경우 Adobe 지원 센터에 문의하십시오.
+이렇게 하려면 워크플로우를 만들고 격리 테이블에 쿼리를 추가하여 영향을 받은 모든 수신자를 격리 목록에서 제거하고 향후 Campaign 이메일 게재에 포함할 수 있도록 필터링합니다.
+
+다음은 이 쿼리에 대한 권장 지침입니다.
+
+* **오류 텍스트(격리 텍스트)** contains &quot;Momen_Code10_InvalidRecipient&quot;
+* **이메일 도메인(@domain)** domain1.com과 같음 또는 **이메일 도메인(@domain)** domain2.com과 같음 또는 **이메일 도메인(@domain)** domain3com과 같음
+* **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 그 다음:MM:SS AM
+* **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 그 전:MM:SS PM
+
+영향을 받는 수신자 목록이 있으면 을(를) 추가합니다 **[!UICONTROL Update data]** 활동을 통해 상태를 로 설정 **[!UICONTROL Valid]** 따라서 다음을 통해 격리 목록에서 제거됩니다 **[!UICONTROL Database cleanup]** 워크플로우, 격리 테이블에서 삭제할 수도 있습니다.
+
