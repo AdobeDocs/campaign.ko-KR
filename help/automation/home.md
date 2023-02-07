@@ -5,10 +5,10 @@ title: Adobe Campaign 자동화 홈
 feature: Overview
 description: 개요
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
-source-git-commit: d8a009b1d6ea4f6921cef203d61c78032951f3ee
+source-git-commit: 143e90ef63fac4058008bc6864daf950c11ab2d1
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign을 사용하면 캠페인 오케스트레이션을 위한 편리�
   </td>
   <td valign="top">
     <div><img src="assets/do-not-localize/campaign.jpeg">
-    <b>Campaign 자동화</b>
+    <b>캠페인 오케스트레이션</b>
     </div>
     <br>
     <div>
