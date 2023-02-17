@@ -1,19 +1,19 @@
 ---
-title: Campaign v8 2021 릴리스 노트
-description: 2021년 Campaign v8 릴리스와 함께 제공되는 기능 및 개선 사항 목록
+title: Campaign v8 2021 릴리스 정보
+description: 2021 Campaign v8 릴리스의 기능 및 개선 사항 목록
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1585'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 2021 릴리스 노트{#2021-release}
+# 2021 릴리스 정보{#2021-release}
 
-이 페이지에는 다음과 같은 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다 **2021년 Campaign v8 릴리스**.
+이 페이지에서 **2021 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항, 버그 해결 사항 목록을 확인할 수 있습니다.
 
 ## 릴리스 8.2.8 {#release-8-2-8}
 
