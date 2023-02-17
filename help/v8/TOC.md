@@ -5,9 +5,9 @@ description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
 source-git-commit: 366cf800a81ea9ab10fe5e3063f44e5214bda927
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 99%
 + 릴리스 및 최신 업데이트 {#releases}
    + [초기 릴리스 정보](start/e-release-notes.md)
    + [릴리스 정보](start/release-notes.md)
-   + 이전 릴리스 노트 {#previous-rn}
-      + [2022년](start/release-notes-2022.md)
+   + 이전 릴리스 정보 {#previous-rn}
+      + [2022](start/release-notes-2022.md)
       + [2021](start/release-notes-2021.md)
    + [보호 기능](start/ac-guardrails.md)
    + [알려진 문제](start/known-issues.md)
