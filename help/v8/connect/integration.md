@@ -52,7 +52,7 @@ CRM 커넥터를 사용하면 빠르고 손쉽게 데이터를 통합할 수 있
 
 FDA 커넥터(Federated Data Access)를 사용하여 Campaign을 하나 이상 연결합니다 **외부 데이터베이스** 및 Campaign Cloud 데이터베이스 데이터에 영향을 주지 않고 데이터베이스에 저장된 정보를 처리합니다.
 
-![](../assets/do-not-localize/glass.png)[ 이 페이지](fda.md)에서 자세히 알아보십시오
+![](../assets/do-not-localize/glass.png)[ 이 페이지](fda.md)에서 자세히 알아보기
 
 ## 소셜 미디어를 사용한 작업{#gs-social}
 

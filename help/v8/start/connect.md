@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: f381a2ec91b7179a51d91f9b7414ea39db03cd71
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '817'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ Campaign 클라이언트 콘솔은 Campaign 애플리케이션 서버에 연결�
 
 Campaign Classic 8.4 빌드 버전에서 모든 콘솔 설치에 Microsoft Edge Webview 2 런타임이 필요합니다.
 
-웹 보기는 기본적으로 Windows 11 운영 체제의 일부로 설치됩니다. 시스템에 아직 없는 경우 Campaign 콘솔 설치 프로그램에서 다운로드 메시지를 표시합니다. [Microsoft 개발자 웹 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr){target=&quot;_blank&quot;}. Microsoft에서 지원되지 않으므로 다운로드 링크가 Internet Explorer 11 브라우저에서 작동하지 않습니다. 링크에 액세스하려면 다른 브라우저를 사용해야 합니다.
+웹 보기는 기본적으로 Windows 11 운영 체제의 일부로 설치됩니다. 시스템에 아직 없는 경우 Campaign 콘솔 설치 프로그램에서 다운로드 메시지를 표시합니다. [Microsoft 개발자 웹 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr){target="_blank"}. Microsoft에서 지원되지 않으므로 다운로드 링크가 Internet Explorer 11 브라우저에서 작동하지 않습니다. 링크에 액세스하려면 다른 브라우저를 사용해야 합니다.
 
 ## 클라이언트 콘솔 다운로드 및 설치{#download-ac-console}
 
@@ -35,7 +35,7 @@ Campaign을 처음 사용하는 경우 또는 최신 버전으로 업그레이�
 
 다음 두 가지 옵션을 사용할 수 있습니다.
 
-1. Campaign 관리자는 Adobe에 연결합니다 [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html){target=&quot;_blank&quot;} 및 Client Console 설치 프로그램을 다운로드합니다. 그런 다음 로컬 컴퓨터에 설치할 수 있습니다.
+1. Campaign 관리자는 Adobe에 연결합니다 [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html){target="_blank"} 클라이언트 콘솔 설치 프로그램을 다운로드합니다. 그런 다음 로컬 컴퓨터에 설치할 수 있습니다.
 
 1. 최종 사용자는 콘솔 을 배포할 수 있습니다. Console이 업데이트되면 팝업 창에서 최신 Client Console 버전을 다운로드하라는 메시지가 표시됩니다.
 
@@ -102,7 +102,7 @@ Campaign 관리자는 연산자를 만들고 사용자와 해당 자격 증명�
 
 Campaign 사용자는 IMS(Adobe Identity Management System)를 통해 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결합니다. 모든 Adobe 솔루션에서 동일한 ID를 사용할 수 있습니다. 다른 솔루션에서 Adobe Campaign을 사용할 때 연결이 저장됩니다.
 
-의 Adobe IMS에 대해 자세히 알아보십시오 [이 페이지](https://helpx.adobe.com/enterprise/using/identity.html){target=&quot;_blank&quot;}.
+의 Adobe IMS에 대해 자세히 알아보십시오 [이 페이지](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
 
 ## 웹 액세스{#web-access}
 

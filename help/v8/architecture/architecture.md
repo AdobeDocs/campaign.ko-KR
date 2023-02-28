@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '702'
 ht-degree: 14%
 
 ---
@@ -26,7 +26,7 @@ Campaign은 개별 인스턴스로서 사용할 수 있게 되었으며, 이때 
 
 한 환경에서 다른 환경으로 패키지를 내보내고 가져올 수 있습니다.
 
-![](../assets/do-not-localize/book.png) 의 패키지에 대해 자세히 알아보십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 의 패키지에 대해 자세히 알아보십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
 ## 배포 모델{#ac-deployment}
 
@@ -74,4 +74,4 @@ Campaign은 개별 인스턴스로서 사용할 수 있게 되었으며, 이때 
 
 * 다중 실행 인스턴스 로드 밸런서 뒤에 여러 실행 인스턴스가 있는 다중 셀 실행 아키텍처에서 외부 응용 프로그램에서 호출하는 로그온 방법은 로드 밸런서를 통해 수행됩니다. 따라서 토큰 기반 인증을 사용할 수 없습니다. 사용자/암호 기반 인증이 필요합니다.
 
-![](../assets/do-not-localize/book.png) 에서 트랜잭션 메시지 이벤트에 대해 자세히 알아보십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 에서 트랜잭션 메시지 이벤트에 대해 자세히 알아보십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel){target="_blank"}
