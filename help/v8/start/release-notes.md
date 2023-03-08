@@ -6,16 +6,33 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
-workflow-type: ht
-source-wordcount: '454'
-ht-degree: 100%
+source-git-commit: 55711ea42b9cc0be70e875e1544780b6983af98b
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 91%
 
 ---
 
 # 최신 릴리스{#latest-release}
 
 이 페이지에서는 **최신 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다.
+
+## 릴리스 8.4.4 {#release-8-4-4}
+
+>[!CAUTION]
+>
+> 클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../start/connect.md#download-ac-console)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
+
+_2023년 3월 8일_
+
+**보안 개선**
+
+* 보안을 개선하기 위해 Tomcat이 버전 8.5.81에서 8.5.85로 업데이트되었습니다. (NEO-50530)
+
+**패치**
+
+* 에서 스크롤하지 못하는 문제를 해결했습니다. **편집** 디지털 콘텐츠 편집기(DCE)의 탭입니다. (NEO-54474)
+* 복제 중에 웹 서버 충돌을 야기할 수 있는 문제를 해결했습니다. (NEO-53670)
 
 ## 릴리스 8.4.3 {#release-8-4-3}
 
