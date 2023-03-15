@@ -5,7 +5,7 @@ user-guide-description: Campaign Automation 안내서
 source-git-commit: 75b65efce6b37e3d948f6af4a89ea3b0a5ac1a86
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 83%
       + [워크플로우 정보](workflow/about-workflows.md)
       + 워크플로우 유형 {#wf-type}
          + [타겟팅 워크플로우](workflow/targeting-workflows.md)
-         + [캠페인 워크플로우](workflow/campaign-workflows.md)
+         + [캠페인 워크플로](workflow/campaign-workflows.md)
          + [기술 워크플로우](workflow/technical-workflows.md)
       + [워크플로우 구축](workflow/build-a-workflow.md)
       + [모범 사례](workflow/workflow-best-practices.md)
@@ -31,7 +31,7 @@ ht-degree: 83%
       + [워크플로우 실행 모니터링](workflow/monitor-workflow-execution.md)
       + [기술 워크플로우 모니터링](workflow/monitor-technical-workflows.md)
       + [워크플로우 히트맵](workflow/heatmap.md)
-   + 워크플로우 활동 {#wf-activities}
+   + 워크플로 활동 {#wf-activities}
       + [활동 시작](workflow/activities.md)
       + 타겟팅 활동 {#targeting-activities}
          + [타겟팅 활동 목록](workflow/targeting-activities.md)
