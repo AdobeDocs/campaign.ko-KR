@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 55711ea42b9cc0be70e875e1544780b6983af98b
+source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 91%
+source-wordcount: '522'
+ht-degree: 88%
 
 ---
 
@@ -19,10 +19,6 @@ ht-degree: 91%
 
 ## 릴리스 8.4.4 {#release-8-4-4}
 
->[!CAUTION]
->
-> 클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../start/connect.md#download-ac-console)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
-
 _2023년 3월 8일_
 
 **보안 개선**
@@ -31,14 +27,17 @@ _2023년 3월 8일_
 
 **패치**
 
-* 에서 스크롤하지 못하는 문제를 해결했습니다. **편집** 디지털 콘텐츠 편집기(DCE)의 탭입니다. (NEO-54474)
-* 복제 중에 웹 서버 충돌을 야기할 수 있는 문제를 해결했습니다. (NEO-53670)
+* 에서 스크롤하지 못하는 문제를 해결했습니다. **편집** dce(디지털 콘텐츠 편집기)의 탭입니다. (NEO-54474)
+* 복제 중 웹 서버 충돌을 야기할 수 있는 문제를 해결했습니다. (NEO-53670)
 
-## 릴리스 8.4.3 {#release-8-4-3}
 
 >[!CAUTION]
 >
-> 클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../start/connect.md#download-ac-console)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
+> 클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../start/connect.md#upgrade-ac-console)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
+
+
+## 릴리스 8.4.3 {#release-8-4-3}
+
 
 _2023년 1월 27일_
 
@@ -67,3 +66,6 @@ _2023년 1월 27일_
 * 성능을 개선하기 위해 여러 게재가 있는 워크플로우의 추적 URL 관리를 개선했습니다. (NEO-50894) <!--OKKKK-->
 * Xtkfolder를 사용하는 스키마의 복제가 실패하는 문제를 해결했습니다. (NEO-46787) <!--OKKKK-->
 * NmsSubscription 테이블에서 “lastModified” 사용자 정의 열을 삭제하는 문제를 해결했습니다. (NEO-48402)
+
+
+**이 릴리스에는 클라이언트 콘솔 업그레이드가 필요합니다** - 여기에서 클라이언트 콘솔을 업그레이드하는 방법을 알아봅니다. [페이지](../start/connect.md#upgrade-ac-console).
