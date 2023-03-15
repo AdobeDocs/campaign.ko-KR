@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
+source-git-commit: 814f7c81aa4f154fdf289effc82b8d02bdd9b4c6
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 88%
+source-wordcount: '519'
+ht-degree: 91%
 
 ---
 
@@ -68,4 +68,6 @@ _2023년 1월 27일_
 * NmsSubscription 테이블에서 “lastModified” 사용자 정의 열을 삭제하는 문제를 해결했습니다. (NEO-48402)
 
 
-**이 릴리스에는 클라이언트 콘솔 업그레이드가 필요합니다** - 여기에서 클라이언트 콘솔을 업그레이드하는 방법을 알아봅니다. [페이지](../start/connect.md#upgrade-ac-console).
+>[!CAUTION]
+>
+> 클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../start/connect.md#upgrade-ac-console)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
