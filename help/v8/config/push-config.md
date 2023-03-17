@@ -6,16 +6,20 @@ feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: ea660ce993c2529d81e625e687c8a8254f1e9904
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 3%
+source-wordcount: '1311'
+ht-degree: 2%
 
 ---
 
 # Campaign SDK와 앱 통합 {#integrate-campaign-sdk}
 
 iOS 및 Android용 Campaign SDK를 사용하여 모바일 애플리케이션을 Adobe Campaign 플랫폼에 쉽게 통합할 수 있습니다.
+
+>[!NOTE]
+>
+>데이터 수집 UI에서 Adobe Campaign 확장을 구성하여 Adobe Experience Platform Mobile SDK를 사용할 수도 있습니다. [개발자 설명서에서 자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
 Android 및 iOS 지원 버전과 Campaign v8용 Campaign SDK 호환 버전은 [호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK).
 
@@ -651,7 +655,7 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
    | ACCRregisterDeviceStatusFailureUnknownUUID | 제공된 UUID(통합 키)를 알 수 없습니다. | EMPTY |
    | ACCRregisterDeviceStatusFailureUnexpectedError | ACC 서버에 예기치 않은 오류가 반환되었습니다. | ACC에 오류 메시지가 반환되었습니다. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
    **Neolane_SDKDelegate** 프로토콜 및 **registerDeviceStatus** 위임 정의는 다음과 같습니다.
 
