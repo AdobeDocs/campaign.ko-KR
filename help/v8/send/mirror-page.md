@@ -1,17 +1,19 @@
 ---
 title: 미러 페이지에 링크 추가
-description: 미러 페이지에 대한 링크 방법 알아보기
+description: 미러 페이지에 대한 링크를 추가하고 관리하는 방법을 알아봅니다
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 2c35b169725b5300940260124a4b559eb44ffe43
+source-git-commit: d8ceefe1dd56aecb810878d99395ac900f889c2e
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
-# 이메일 미러 페이지 정보{#mirror-page}
+# 미러 페이지에 대한 링크{#mirror-page}
+
+## 미러 페이지 정보{#about-mirror-page}
 
 미러 페이지는 이메일의 온라인 버전입니다.
 
@@ -24,11 +26,9 @@ Adobe Campaign에서 생성한 미러 페이지에는 모든 개인화 데이터
 
 ## 미러 페이지에 링크 추가{#link-to-mirror-page}
 
-미러 페이지에 링크를 삽입하는 것이 좋습니다. 이 링크는 &#39;브라우저에서 이 전자 메일 보기&#39;와 같이 이메일의 머리글 또는 바닥글에 있는 경우가 많습니다.
+미러 페이지에 링크를 삽입하는 것이 좋습니다. 이 링크는 &#39;브라우저에서 이 전자 메일 보기&#39; 또는 &#39;온라인에서 이 전자 메일 읽기&#39;와 같은 것일 수 있습니다. 이메일의 머리글 또는 바닥글에 종종 있습니다.
 
-Adobe Campaign에서는 전용 페이지를 사용하여 전자 메일 콘텐츠의 미러 페이지에 대한 링크를 삽입할 수 있습니다 **개인화 블록**. 기본적으로 미러 페이지는 링크가 메시지 콘텐츠에 삽입된 경우에만 생성됩니다.
-
-기본 제공 **미러 페이지에 대한 링크** 개인화 블록은 이메일 콘텐츠에 다음 코드를 삽입합니다. `<%@ include view='MirrorPage' %>`.
+Adobe Campaign에서는 전용 페이지를 사용하여 전자 메일 콘텐츠의 미러 페이지에 대한 링크를 삽입할 수 있습니다 **개인화 블록**. 기본 제공 **미러 페이지에 대한 링크** 개인화 블록은 이메일 콘텐츠에 다음 코드를 삽입합니다. `<%@ include view='MirrorPage' %>`.
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
 
