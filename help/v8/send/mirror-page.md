@@ -4,7 +4,7 @@ description: 미러 페이지에 대한 링크 방법 알아보기
 feature: Email
 role: User
 level: Beginner
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 58cf4739c27dfed63cfbb0ca6c85121fe5336e8d
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -18,6 +18,11 @@ ht-degree: 0%
 대부분의 이메일 클라이언트는 문제 없이 이미지를 렌더링하지만, 일부 사전 설정은 보안상의 이유로 이미지를 표시하지 않을 수 있습니다. 사용자는 이메일의 미러 페이지로 이동할 수 있습니다. 예를 들어 받은 편지함에서 이미지를 보려 할 때 렌더링 문제 또는 이미지가 손상된 경우 이 페이지를 찾을 수 있습니다. 액세스 가능성을 위해 온라인 버전을 제공하거나 소셜 공유를 권장하는 것이 좋습니다.
 
 Adobe Campaign에서 생성한 미러 페이지에는 모든 개인화 데이터가 포함되어 있습니다.
+
+
+![](assets/mirror-page-link.png)
+
+
 
 ## 미러 페이지에 링크 추가{#link-to-mirror-page}
 
