@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: bd109f9d320b3009ab0d9414291d397b331373de
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 16%
@@ -69,7 +69,7 @@ ht-degree: 16%
 
    * 미러 페이지 추가
 
-      수신자가 웹 브라우저에서 게재 콘텐츠를 볼 수 있도록 하려면 메시지의 미러 페이지에 링크를 추가합니다.
+      수신자가 웹 브라우저에서 게재 콘텐츠를 볼 수 있도록 하려면 [미러 페이지](../send/mirror-page.md) 메시지를 표시합니다.
 
       이 링크를 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 **[!UICONTROL Include]** 을(를) 선택합니다. **[!UICONTROL link to mirror page]**.
    컨텐츠가 준비되면 **저장**: 이제 게재 목록( **[!UICONTROL Campaigns > Deliveries]** 탭. 첫 번째 이메일 게재가 준비되었습니다. 이제 대상을 정의하고, 게재의 유효성을 확인하고, 전송해야 합니다.
