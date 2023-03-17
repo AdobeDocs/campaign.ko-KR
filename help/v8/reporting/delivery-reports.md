@@ -2,13 +2,13 @@
 title: Adobe Campaign 기본 제공 게재 보고서
 description: Adobe Campaign 기본 제공 게재 보고서
 feature: Reporting
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1031'
 ht-degree: 2%
 
 ---
-
 
 # 게재 보고서 {#delivery-reports}
 
@@ -62,7 +62,7 @@ ht-degree: 2%
 * **[!UICONTROL Distinct opens for the population reached]** : 메시지를 한 번 이상 연 타겟팅된 수신자 수 예측 링크를 클릭하기 위해 이메일을 열어야 하므로 추적된 URL에 대한 클릭이 고려됩니다.
 * **[!UICONTROL Sum of opens for the population reached]** : 타겟팅된 수신자의 총 열기 수 예측
 * **[!UICONTROL Clicks on opt-out link]** : 구독 취소 링크에 대한 클릭 수입니다.
-* **[!UICONTROL Clicks on the mirror page link]** : 미러 페이지에 대한 링크에 대한 클릭 수입니다. 고려하려면 게재 마법사(추적된 URL)에서 링크는 다음과 같이 정의해야 합니다. <!--Refer to this [page](../../delivery/using/about-delivery-monitoring.md).-->
+* **[!UICONTROL Clicks on the mirror page link]** : 링크에 대한 클릭 수 [미러 페이지](../send/mirror-page.md). 고려하려면 게재 마법사(추적된 URL)에서 링크는 다음과 같이 정의해야 합니다.
 * **[!UICONTROL Estimation of forwards]** : 타겟팅된 수신자가 발송한 전자 메일 수의 예측입니다. 이 값은 개별 사용자의 수와 이메일을 클릭한 개별 수신자 수를 뺀 값을 계산합니다.
 
    >[!NOTE]
@@ -83,7 +83,7 @@ ht-degree: 2%
 >
 >이 보고서에 표시되는 도메인 이름은 큐브 수준에서 사용되는 항목별 목록에서 정의됩니다. 기본 도메인을 변경하거나 추가하려면 **[!UICONTROL Domains]** 항목화된 목록 및 값 및 별칭을 수정합니다. 다음 **[!UICONTROL Others]** 카테고리에는 항목별 목록 값에 속하지 않는 도메인 이름이 포함되어 있습니다.
 >
->에서 열거형에 액세스하고 구성하는 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+>에서 열거형에 액세스하고 구성하는 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
 
 
 **[!UICONTROL 4. Generated click streams]**
@@ -181,7 +181,7 @@ This chart shows the breakdown of cumulated clicks per day.
 >게재에 오퍼(상호 작용)가 포함되어 있으면 보고서 위 부분에 오퍼에 대한 클릭 비율을 표시하는 상자가 표시됩니다.
 
 
-## 통계 추적 {#tracking-statistics}
+## 추적 통계 {#tracking-statistics}
 
 이 보고서는 열기, 클릭 및 트랜잭션에 대한 통계를 제공합니다.
 
@@ -203,5 +203,3 @@ This chart shows the breakdown of cumulated clicks per day.
 목록에서 인접하지 않은 게재를 선택하려면 CTRL 키를 누른 채 선택합니다.
 
 다른 폴더에 저장된 게재를 선택하려면 **[!UICONTROL Display sub-levels]** 아이콘 - 도구 모음에서 액세스 가능. 그러면 동일한 목록에 표시됩니다.
-
-

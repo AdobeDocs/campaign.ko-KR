@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: 366cf800a81ea9ab10fe5e3063f44e5214bda927
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 100%
+source-wordcount: '496'
+ht-degree: 98%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 100%
       + [게재 템플릿 작업](send/create-templates.md)
       + 이메일 {#emails}
          + [이메일 디자인 및 유효성 검사](send/email.md)
+         + [미러 페이지에 대한 링크](send/mirror-page.md)
          + [이메일 보내기 및 모니터링](send/send.md)
       + [SMS](send/sms.md)
       + [푸시 알림](send/push.md)
@@ -132,7 +133,7 @@ ht-degree: 100%
       + [사용 권한 시작](start/gs-permissions.md)
       + [사용자 권한 관리](start/manage-permissions.md)
       + [폴더에 권한 추가](start/folder-permissions.md)
-   + [Campaign 컨트롤 패널](config/self-service.md)
+   + [컨트롤 패널](config/self-service.md)
 + 아키텍처 및 구성 {#config}
    + 아키텍처 {#architecture}
       + [글로벌 원칙](architecture/general-architecture.md)

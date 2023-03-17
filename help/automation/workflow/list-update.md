@@ -3,10 +3,11 @@ product: campaign
 title: 목록 업데이트
 description: 목록 업데이트
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: abb7f777-0b4a-4bf2-bcb6-32264f340a58
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -72,4 +73,4 @@ A **목록 업데이트** 활동은 전환에서 지정한 모집단을 수신�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-추가 Campaign Classic 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).
+추가 Campaign 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

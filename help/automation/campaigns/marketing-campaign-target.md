@@ -3,9 +3,10 @@ product: campaign
 title: 마케팅 캠페인 타겟 대상
 description: 마케팅 캠페인의 대상자를 정의하는 방법을 알아봅니다
 feature: Campaigns, Audiences
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 70a63632-f66d-40f2-806d-bde89303936a
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1459'
 ht-degree: 1%
 
 ---
@@ -241,4 +242,4 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
-추가 Campaign 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).
+추가 Campaign 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

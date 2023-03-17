@@ -3,10 +3,11 @@ product: campaign
 title: 지속적인 게재
 description: 지속적인 게재
 feature: Workflows, Channels Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -63,4 +64,4 @@ A **지속적인 게재** 유형 작업을 사용하면 기존 게재에 새 수
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-추가 Campaign Classic 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).
+추가 Campaign 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

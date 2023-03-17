@@ -4,10 +4,10 @@ title: 반복 게재
 description: 반복 게재 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -53,4 +53,4 @@ A **반복 게재** 가 실행될 때마다 새 게재 인스턴스를 만듭니
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-추가 Campaign Classic 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko).
+추가 Campaign 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
