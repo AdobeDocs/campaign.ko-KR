@@ -4,9 +4,9 @@ description: 미러 페이지에 대한 링크를 추가하고 관리하는 방�
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 9ebcfee199a2ba355b7b504c7f24732d30542a36
+source-git-commit: 903224da4ab15bf4221d8769bfb19933f4cbf2b0
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Campaign에서 생성한 미러 페이지에는 모든 개인화 데이터가 포함되어 있습니다.
 
-![](assets/mirror-page-link.png)
+![미러 링크 샘플](assets/mirror-page-link.png){width="300" align="center"}
 
 ## 미러 페이지에 링크 추가{#link-to-mirror-page}
 
