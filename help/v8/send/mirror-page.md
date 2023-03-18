@@ -4,7 +4,7 @@ description: 미러 페이지에 대한 링크를 추가하고 관리하는 방�
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 903224da4ab15bf4221d8769bfb19933f4cbf2b0
+source-git-commit: e2aaf80a5a0d74161152fabe8ea157d31923ee19
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Campaign에서 생성한 미러 페이지에는 모든 개인화 데이터가 포함되어 있습니다.
 
-![미러 링크 샘플](assets/mirror-page-link.png){width="300" align="center"}
+![미러 링크 샘플](assets/mirror-page-link.png){width="500" align="left"}
 
 ## 미러 페이지에 링크 추가{#link-to-mirror-page}
 
@@ -29,7 +29,7 @@ Adobe Campaign에서 생성한 미러 페이지에는 모든 개인화 데이터
 
 Adobe Campaign에서는 전용 페이지를 사용하여 전자 메일 콘텐츠의 미러 페이지에 대한 링크를 삽입할 수 있습니다 **개인화 블록**. 기본 제공 **미러 페이지에 대한 링크** 개인화 블록은 이메일 콘텐츠에 다음 코드를 삽입합니다. `<%@ include view='MirrorPage' %>`.
 
-![](assets/mirror-page-insert.png)
+![](assets/mirror-page-insert.png){width="500" align="left"}
 
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
@@ -43,7 +43,7 @@ Adobe Campaign에서는 전용 페이지를 사용하여 전자 메일 콘텐츠
 1. 다음 위치로 이동합니다. **[!UICONTROL Validity]** 전자 메일 속성의 탭입니다.
 1. 에서 **미러 페이지 관리** 섹션에서 **[!UICONTROL Mode]** 드롭다운 목록
 
-![](assets/mirror-page-generation.png)
+![](assets/mirror-page-generation.png){width="500" align="left"}
 
 기본 모드 외에 다음 옵션을 사용할 수 있습니다.
 
@@ -61,7 +61,7 @@ Adobe Campaign에서는 전용 페이지를 사용하여 전자 메일 콘텐츠
 
 1. 수신자를 선택하고 **[!UICONTROL Display the mirror page for this message...]** 링크를 클릭합니다.
 
-   ![](assets/mirror-page-display.png)
+   ![](assets/mirror-page-display.png){width="500" align="left"}
 
    미러 페이지는 선택한 수신자에 대한 개인화 데이터를 사용하여 전용 화면에 표시됩니다.
 
