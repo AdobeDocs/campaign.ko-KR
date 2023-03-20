@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 6%
+source-wordcount: '698'
+ht-degree: 5%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 6%
 
 캠페인 실행 및 실행을 보다 신속하게 하기 위해 게재 템플릿을 사용하여 창의적인 모양과 느낌을 표준화할 수 있습니다.
 
-템플릿에는 다음을 체계적으로 포함할 수 있습니다.
+템플릿에는 다음이 포함될 수 있습니다.
 
 * 유형화
 * 보낸 사람 및 회신 주소
-* 기본 개인화 블록
+* 기본 [개인화 블록](../send/personalization-blocks.md)
 * 링크 대상 [미러 페이지](../send/mirror-page.md) 및 구독 취소 링크
 * 콘텐츠, 회사 로고 또는 서명
 * 리소스 유효성, 다시 시도 매개 변수 또는 격리 설정과 같은 기타 게재 속성입니다.

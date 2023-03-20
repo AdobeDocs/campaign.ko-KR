@@ -5,7 +5,7 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
-source-git-commit: 7f9a95f3748b8322933137aa780897611de91678
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 20%
@@ -22,7 +22,9 @@ ht-degree: 20%
 
 ![](assets/recipients-in-explorer.png)
 
-Adobe Campaign에서, **수신자** 게재(이메일, SMS 등)를 보낼 타겟팅된 기본 프로필입니다. 데이터베이스에 저장된 수신자 데이터를 사용하면 주어진 게재를 받을 대상을 필터링하고 게재 콘텐츠에 개인화 데이터를 추가할 수 있습니다. 데이터베이스에 다른 유형의 프로필이 있습니다. 다양한 용도로 디자인되어 있습니다. 예를 들어 최종 대상으로 전송되기 전에 시드 프로필을 테스트하여 게재를 테스트합니다.
+Adobe Campaign에서, **수신자** 게재(이메일, SMS 등)를 보낼 타겟팅된 기본 프로필입니다.
+
+데이터베이스에 저장된 수신자 데이터를 사용하면 주어진 게재를 받을 대상을 필터링하고 게재 콘텐츠에 개인화 데이터를 추가할 수 있습니다. 데이터베이스에 다른 유형의 프로필이 있습니다. 다양한 용도로 디자인되어 있습니다. 예를 들어 최종 대상으로 전송되기 전에 시드 프로필을 테스트하여 게재를 테스트합니다.
 
 프로필 데이터로 Adobe Campaign을 채우려면 다음을 수행할 수 있습니다.
 

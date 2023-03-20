@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: bd109f9d320b3009ab0d9414291d397b331373de
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '576'
 ht-degree: 16%
 
 ---
@@ -48,7 +48,6 @@ ht-degree: 16%
 
 1. **메시지 개인화**
 
-
    * 수신자의 이름과 성을 추가합니다
 
       대상 프로필의 이름과 성을 메시지 콘텐츠에 삽입하려면 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 를 클릭합니다 **[!UICONTROL Include]** 을(를) 선택합니다. **[!UICONTROL Greetings]**.
@@ -58,6 +57,8 @@ ht-degree: 16%
       수신자를 선택하여 미리 보기 탭으로 이동하여 개인화를 확인합니다.
 
       ![](assets/perso-check.png)
+
+      의 개인화 옵션에 대해 자세히 알아보십시오 [이 섹션](personalize.md).
 
    * 추적된 링크 삽입
 

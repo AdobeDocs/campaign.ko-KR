@@ -4,9 +4,9 @@ title: 분산 마케팅 샘플
 description: 분산 마케팅 샘플
 feature: Distributed Marketing
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 0%
 
 #### 데이터 배포 활동 만들기 {#creating-a-data-distribution-activity}
 
-1. 공동 작업 캠페인을 설정하려면(대상 승인을 통해) 먼저 **[!UICONTROL Data distribution activity]**. 을(를) 클릭합니다. **[!UICONTROL New]** 아이콘( **[!UICONTROL Resources > Campaign management > Data distribution]** 노드 아래에 있어야 합니다.
+1. 공동 작업 캠페인을 설정하려면(대상 승인을 통해) 먼저 **[!UICONTROL Data distribution activity]**. 을(를) 클릭합니다. **[!UICONTROL New]** 아이콘( **[!UICONTROL Resources > Campaign management > Data distribution]** 캠페인 탐색기의 폴더.
 
    ![](assets/mkg_dist_use_case_target_valid3.png)
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
 #### 공동 캠페인 만들기 {#creating-a-collaborative-campaign}
 
-1. 에서 **[!UICONTROL Campaign management > Campaign]** 노드, 새 만들기 **[!UICONTROL collaborative campaign (by target approval)]**.
+1. 에서 **[!UICONTROL Campaign management > Campaign]** campaign 탐색기의 폴더에서 새 만들기 **[!UICONTROL collaborative campaign (by target approval)]**.
 1. 에서 **[!UICONTROL Targeting and workflows]** 탭에서 캠페인에 대한 워크플로우를 만듭니다. 여기에는 다음이 포함되어야 합니다 **분할** 활동 **[!UICONTROL Record count limitation]** 는 **[!UICONTROL Data distribution]** 활동.
 
    ![](assets/mkg_dist_use_case_target_valid5.png)

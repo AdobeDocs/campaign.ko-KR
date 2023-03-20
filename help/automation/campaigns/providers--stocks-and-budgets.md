@@ -3,7 +3,8 @@ product: campaign
 title: 공급자, 재고 및 예산
 description: 공급자, 재고 및 예산
 feature: Budget Management, Campaigns
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 1%
@@ -18,7 +19,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 각 서비스 공급자는 연락처 정보, 서비스 템플릿 및 관련 작업이 있는 파일에 저장됩니다.
 
-서비스 공급자는 **[!UICONTROL Administration > Campaign management]** 노드 아래에 있어야 합니다.
+서비스 공급자는 **[!UICONTROL Administration > Campaign management]** 캠페인 탐색기의 폴더.
 
 게재 중에 수행되는 작업은 서비스 제공자가 수행합니다. 특히 DM 및 모바일 채널에 대해 수행합니다. 예를 들어 이러한 서비스 공급업체는 메시지 인쇄 또는 배포에 관여할 수 있습니다. 이러한 작업에는 각 서비스 공급자와 관련된 구성 및 비용이 포함됩니다. 서비스 공급자 구성에는 4단계가 포함됩니다.
 
@@ -128,7 +129,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 * 다음 **[!UICONTROL Notification email]** 섹션을 통해 파일을 보낸 후 서비스 공급자에게 알리는 템플릿을 지정할 수 있습니다. 경고 메시지와 수신자 그룹을 만드는 데 사용되는 템플릿을 선택합니다.
 
-   기본적으로 알림 메시지의 게재 템플릿은 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 노드 - 일반 보기에서 액세스할 수 있습니다.
+   기본적으로 알림 메시지의 게재 템플릿은 **[!UICONTROL Administration > Campaign management > Technical delivery templates]** 폴더 - 일반 보기에서 액세스할 수 있습니다.
 
 * 다음 **[!UICONTROL Post-processing]** 섹션을 통해 게재를 승인한 후 시작할 워크플로우를 선택할 수 있습니다. 워크플로우 템플릿을 입력하면 승인이 적용된 즉시 워크플로우 인스턴스가 자동으로 만들어지고 실행됩니다. 이 워크플로우는 예를 들어 처리를 위해 추출 파일을 외부 서비스 공급자에게 보낼 수 있습니다.
 

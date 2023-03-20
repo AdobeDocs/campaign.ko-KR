@@ -3,9 +3,10 @@ product: campaign
 title: 유형화 규칙 적용
 description: 유형화 규칙을 적용하는 방법 알아보기
 feature: Typology Rules
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '956'
 ht-degree: 8%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 8%
 
 1. 캠페인 유형화를 만듭니다.
 
-   유형화는 **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** 노드 아래에 있어야 합니다.
+   유형화는 **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** 캠페인 탐색기의 폴더.
 
 1. 로 이동합니다. **[!UICONTROL Rules]** 탭에서 **[!UICONTROL Add]** 버튼을 클릭하고 이 유형화에 적용할 규칙을 선택합니다.
 

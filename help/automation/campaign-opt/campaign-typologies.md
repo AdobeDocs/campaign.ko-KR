@@ -4,7 +4,7 @@ title: 캠페인 유형화 시작
 description: 캠페인 유형화를 구성하고 구현하는 방법을 알아봅니다
 feature: Typology Rules
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
-source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 19%
@@ -29,7 +29,7 @@ ht-degree: 19%
 
 캠페인 유형화에는 여러 가지 유형화 규칙이 포함될 수 있지만 게재는 하나의 유형화만 참조할 수 있습니다.
 
-내장된 유형화 규칙 및 유형화는 **[!UICONTROL Administration > Campaign management > Typology management]** campaign Explorer 노드 아래에 있습니다.
+내장된 유형화 규칙 및 유형화는 **[!UICONTROL Administration > Campaign management > Typology management]** 캠페인 탐색기의 폴더.
 
 각 유형화의 경우 **[!UICONTROL Rules]** 탭에서는 적용할 유형화 규칙을 추가, 삭제 또는 볼 수 있습니다.
 

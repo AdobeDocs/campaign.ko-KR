@@ -2,7 +2,8 @@
 product: campaign
 title: 비용 제어
 description: 비용 관리 방법 알아보기
-source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
+exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '2409'
 ht-degree: 1%
@@ -33,7 +34,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 예산을 생성하려면 아래 절차를 따르십시오.
 
-1. 다음 위치로 이동합니다. **[!UICONTROL Campaign management > Budgets]** Campaign 탐색기의 노드.
+1. 다음 위치로 이동합니다. **[!UICONTROL Campaign management > Budgets]** 캠페인 탐색기의 폴더.
 1. 을(를) 클릭합니다. **[!UICONTROL New]** 아이콘, 이름을 지정하고 예산을 저장합니다.
 1. 초기 금액을 입력합니다. 관련 필드에 할당된 금액을 지정합니다. 다른 금액은 자동으로 입력됩니다. [자세히 알아보기](#calculating-amounts)
 1. 시작 및 종료 일자를 입력하여 유효 기간을 정의합니다. 이 정보는 설명만 합니다.
@@ -90,7 +91,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 비용이 송장을 발생시키고 송장이 지급되면 그 금액은 **[!UICONTROL Invoiced]** 필드.
 
-### 비용 범주 {#expense-categories}
+### 경비 범주 {#expense-categories}
 
 이 금액은 데이터의 가독성을 높이고 마케팅 투자에 대한 자세한 보고를 위해 여러 비용 범주로 분배할 수 있습니다. 비용 범주는 예산 생성 중에 다음을 통해 정의됩니다 **[!UICONTROL Budgets]** 노드 아래에 있어야 합니다.
 

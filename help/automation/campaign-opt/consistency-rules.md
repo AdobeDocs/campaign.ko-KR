@@ -3,7 +3,8 @@ product: campaign
 title: 일관성 규칙
 description: 일관성 규칙
 feature: Typology Rules
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 4%
@@ -26,7 +27,7 @@ Adobe Campaign은 캠페인 유형화에 포함된 규칙 세트를 사용하여
 
 새 용량 규칙을 디자인하려면 아래 단계를 수행하십시오.
 
-1. 아래에 **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** 노드, **[!UICONTROL New]**.
+1. 아래에 **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** 폴더, **[!UICONTROL New]**.
 1. 선택 **[!UICONTROL Capacity]** 규칙 유형.
 
    ![](assets/campaign_opt_create_capacity_01.png)

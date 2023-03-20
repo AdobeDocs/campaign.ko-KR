@@ -2,10 +2,11 @@
 title: 워크플로우 데이터 사용
 description: 워크플로우 데이터 사용 방법 알아보기
 feature: Workflows, Data Management
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 4%
+source-wordcount: '707'
+ht-degree: 3%
 
 ---
 
@@ -43,7 +44,7 @@ ht-degree: 4%
 
    이 메뉴를 사용하면 변환 데이터에 대한 통계 및 보고서를 생성할 수 있는 설명 분석 마법사에 액세스할 수 있습니다.
 
-   자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}를 참조하십시오.
+   자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
 
 워크플로우가 실행되면 타겟 데이터가 삭제됩니다. 마지막 작업 테이블만 액세스할 수 있습니다. 모든 작업 테이블에 액세스할 수 있도록 워크플로우를 구성할 수 있습니다. 확인 **[!UICONTROL Keep the result of interim populations between two executions]** 옵션을 클릭합니다.
 
@@ -56,7 +57,7 @@ ht-degree: 4%
 
 ### Target 데이터 활용 {#target-data}
 
-워크플로우 임시 작업 테이블에 저장된 데이터는 개인화 작업에 사용할 수 있습니다. 데이터는 개인화 필드에서 사용할 수 있습니다.
+워크플로우 임시 작업 테이블에 저장된 데이터는 개인화 작업에 사용할 수 있습니다. 데이터는에서 사용할 수 있습니다 [개인화 필드](../../v8/send/personalization-fields.md).
 
 이렇게 하면 예를 들어 게재의 목록을 통해 수집된 데이터를 사용할 수 있습니다. 이렇게 하려면 다음 구문을 사용합니다.
 
@@ -138,6 +139,3 @@ Adobe Campaign 데이터베이스 및 기존 목록의 데이터는 두 개의 �
 ### 구독 관리 {#subscription-management}
 
 워크플로우를 통해 정보 서비스에 받는 사람 구독 및 구독 취소에 대한 자세한 내용은 [구독 서비스](subscription-services.md).
-
-
-

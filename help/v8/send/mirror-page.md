@@ -4,9 +4,9 @@ description: 미러 페이지에 대한 링크를 추가하고 관리하는 방�
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 2a2887fcd476566d2105edd9824feba4c1caca8a
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Adobe Campaign에서는 전용 페이지를 사용하여 전자 메일 콘텐츠
 ![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
-<!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
+사용자 지정 콘텐츠 블록 삽입에 대한 자세한 내용은 [개인화 블록](personalization-blocks.md).
 
 ## 미러 페이지 생성{#mirror-page-generation}
 

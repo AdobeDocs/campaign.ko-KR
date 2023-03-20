@@ -4,10 +4,10 @@ description: Adobe Campaign Social Marketing 모듈을 사용하여 Twitter에 �
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 6%
+source-wordcount: '806'
+ht-degree: 4%
 
 ---
 
@@ -124,7 +124,7 @@ twitter 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지
 
    ![](assets/tw-dm-content.png)
 
-   개인화 필드는 이메일 게재와 동일한 방법으로 사용할 수 있습니다. 예를 들어 메시지 본문에 팔로워 이름을 추가할 수 있습니다. 추가 정보 [이 섹션](../start/create-message.md#personalization).
+   개인화 필드는 이메일 게재와 동일한 방법으로 사용할 수 있습니다. 예를 들어 메시지 본문에 팔로워 이름을 추가할 수 있습니다. 추가 정보 [이 섹션](../send/personalize.md).
 
 1. 메시지 미리 보기
 
@@ -140,7 +140,7 @@ twitter 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지
 
    메시지를 보내기 전에 테스트 계정에 증명을 보내 유효성 검사를 확인하십시오. 그런 다음 개인 Twitter 계정에서 메시지의 정확한 렌더링을 받고 콘텐츠 및 개인화를 확인할 수 있습니다.
 
-   ![](../assets/do-not-localize/book.png) [게재의 유효성을 검사하는 주요 단계를 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [게재의 유효성을 검사하는 주요 단계를 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target="_blank"}
 
 1. 직접 메시지 보내기
 
@@ -151,7 +151,7 @@ twitter 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지
 
 >[!CAUTION]
 >
->하루에 250개 이상의 직접 메시지를 보낼 수 없습니다. 이 임계값을 초과하지 않도록, 여러분은 파도로 전달할 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en#sending-using-multiple-waves){target=&quot;_blank&quot;}를 참조하십시오.
+>하루에 250개 이상의 직접 메시지를 보낼 수 없습니다. 이 임계값을 초과하지 않도록, 여러분은 파도로 전달할 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en#sending-using-multiple-waves){target="_blank"}.
 
 
 ## 추적 데이터 액세스 {#tw-tracking}
@@ -160,5 +160,5 @@ twitter 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지
 
 추적 데이터는 게재 보고서와 **[!UICONTROL Edit > Tracking]** 게재 및 서비스의 탭입니다.
 
-추적 구성은 이메일 게재와 동일합니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ko)를 참조하십시오{target=&quot;_blank&quot;}.
+추적 구성은 이메일 게재와 동일합니다. 자세히 알아보기: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ko){target="_blank"}.
 

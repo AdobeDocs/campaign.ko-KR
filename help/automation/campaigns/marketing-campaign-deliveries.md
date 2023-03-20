@@ -3,9 +3,10 @@ product: campaign
 title: 마케팅 캠페인 게재
 description: 마케팅 캠페인 게재에 대해 자세히 알아보기
 feature: Campaigns, Resource Management, Cross Channel Orchestration
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '706'
 ht-degree: 1%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 1%
 
 게재 승인 흐름을 설정하고 실행하는 방법을 알아봅니다 [이 페이지에서](marketing-campaign-approval.md).
 
-## 게재 시작 {#start-a-delivery}
+## 게재를 시작합니다 {#start-a-delivery}
 
 모든 승인이 부여되면 게재를 보낼 수 있습니다. 게재 실행 프로세스는 채널에 따라 다릅니다.
 
@@ -56,7 +57,7 @@ ht-degree: 1%
 
 ![](assets/select-delivery-reviewers.png)
 
-그러나 게재 또는 캠페인 속성에서 특정 검토자가 정의된 경우에도 캠페인 소유자가 전송을 확인하도록 허용할 수도 있습니다. 이렇게 하려면 관리자는 **NmsCampaign_Activate_OwnerConfirmation** 옵션을 설정하고 **1**. 옵션은 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** 노드 아래에 있어야 합니다.
+그러나 게재 또는 캠페인 속성에서 특정 검토자가 정의된 경우에도 캠페인 소유자가 전송을 확인하도록 허용할 수도 있습니다. 이렇게 하려면 관리자는 **NmsCampaign_Activate_OwnerConfirmation** 옵션을 설정하고 **1**. 옵션은 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** 캠페인 탐색기의 폴더.
 
 
 ### DM 게재 시작 {#start-an-offline-delivery}

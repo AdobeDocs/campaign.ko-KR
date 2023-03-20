@@ -3,9 +3,10 @@ product: campaign
 title: 캠페인 시뮬레이션 시작
 description: 캠페인 시뮬레이션을 구성하는 방법 알아보기
 feature: Campaigns
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -196,7 +197,7 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 >[!NOTE]
 >
 >각 시뮬레이션에 대해 개별적으로 정의하지 않고 시뮬레이션 템플릿에서 계산 축을 정의하는 것이 좋습니다.\
->시뮬레이션 템플릿은 **[!UICONTROL Resources > Templates > Simulation templates]** 노드 아래에 나열된 상태로 남아 있습니다.
+>시뮬레이션 템플릿은 **[!UICONTROL Resources > Templates > Simulation templates]** 캠페인 탐색기의 폴더.
 
 **예제:**
 

@@ -3,9 +3,10 @@ product: campaign
 title: 데이터 강화
 description: 데이터 보강 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Enrichment Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 3b3fa15f-b16e-42c8-a2e6-03350aee1903
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '744'
 ht-degree: 1%
 
 ---
@@ -41,17 +42,17 @@ ht-degree: 1%
 워크플로우를 만들려면 다음 단계를 적용합니다.
 
 1. 2 **[!UICONTROL Query]** 활동 및 하나 **[!UICONTROL Intersection]** 이 활동은 마지막 대회에 참가한 신규 구독자를 타겟으로 추가됩니다.
-1. 다음 **[!UICONTROL Enrichment]** 활동을 통해 **[!UICONTROL Competition results]** 테이블. 다음 **[!UICONTROL Score]** 게재 개인화가 발생할 필드가 워크플로우의 작업 테이블에 추가됩니다.
-1. 다음 **[!UICONTROL Split]** 유형 활동을 통해 점수를 기반으로 수신자 하위 세트를 만들 수 있습니다.
-1. 각 하위 세트에 대해 **[!UICONTROL Delivery]** 유형 활동이 추가됩니다.
+1. 다음 **[!UICONTROL Enrichment]** 활동은 에 저장된 데이터를 추가하는 데 사용됩니다 **[!UICONTROL Competition results]** 테이블. 다음 **[!UICONTROL Score]** 게재 개인화가 발생할 필드가 워크플로우의 작업 테이블에 추가됩니다.
+1. 다음 **[!UICONTROL Split]** 유형 활동은 점수를 기반으로 수신자 하위 세트를 만드는 데 사용됩니다.
+1. 각 하위 세트에 대해 **[!UICONTROL Delivery]** 활동이 추가되었습니다.
 
 ## 1단계: 타깃팅 {#step-1--targeting}
 
-첫 번째 쿼리를 사용하면 지난 6개월 내에 데이터베이스에 추가된 수신자를 타겟팅할 수 있습니다.
+첫 번째 쿼리는 지난 6개월 내에 데이터베이스에 추가된 수신자를 타겟팅하는 데 사용됩니다.
 
 ![](assets/uc1_enrich_4.png)
 
-두 번째 쿼리는 마지막 경쟁에 참가한 수신자를 타겟팅할 수 있도록 합니다.
+두 번째 쿼리는 마지막 대회에 참가한 수신자를 타겟팅하는 데 사용됩니다.
 
 ![](assets/uc1_enrich_5.png)
 
@@ -59,7 +60,7 @@ An **[!UICONTROL Intersection]** 그런 다음 유형 활동이 추가되어 지
 
 ## 2단계: 데이터 보강 {#step-2--enrichment}
 
-이 예에서는 **[!UICONTROL Score]** 에 저장된 필드 **[!UICONTROL Competition results]** 테이블. 이 테이블에는 수신자 테이블과 1n 유형의 관계가 있습니다. 다음 **[!UICONTROL Enrichment]** 활동을 사용하면 필터링 차원에 연결된 테이블의 데이터를 워크플로우의 작업 테이블에 추가할 수 있습니다.
+이 예제에서는 **[!UICONTROL Score]** 에 저장된 필드 **[!UICONTROL Competition results]** 테이블. 이 테이블에는 수신자 테이블과 1n 유형의 관계가 있습니다. 다음 **[!UICONTROL Enrichment]** 활동은 필터링 차원에 연결된 테이블의 데이터를 워크플로우의 작업 테이블에 추가하는 데 사용됩니다.
 
 1. 데이터 보강 활동의 편집 화면에서 **[!UICONTROL Add data]**, 그런 다음 **[!UICONTROL Data linked to the filtering dimension]** 을(를) 클릭합니다. **[!UICONTROL Next]**.
 
