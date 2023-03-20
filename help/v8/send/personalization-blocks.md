@@ -1,18 +1,18 @@
 ---
-title: 개인화 블록
+title: 개인화 블록 사용
 description: 메시지 콘텐츠에서 내장된 개인화 블록을 사용하는 방법을 알아봅니다
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: badcbb83c4bd0cf509c156557f5ea6f7cf7ae771
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 개인화 블록{#personalization-blocks}
+# 개인화 블록 사용{#personalization-blocks}
 
 개인화 블록은 게재에 삽입할 수 있는 특정 렌더링을 포함하는 동적 콘텐츠입니다. 예를 들어 로고, 인사말 또는 미러 페이지에 대한 링크를 추가할 수 있습니다.
 

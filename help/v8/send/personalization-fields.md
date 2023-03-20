@@ -1,18 +1,18 @@
 ---
-title: 개인화 필드
+title: 개인화 필드 추가
 description: 메시지 콘텐츠에 개인화 데이터를 삽입하는 방법을 알아봅니다
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: badcbb83c4bd0cf509c156557f5ea6f7cf7ae771
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 개인화 필드{#personalization-fields}
+# 개인화 필드 추가{#personalization-fields}
 
 개인화 필드를 사용하여 각 수신자에 대해 설정한 규칙에 따라 개인화된 콘텐츠를 일대일로 전달합니다.
 
