@@ -4,10 +4,10 @@ title: 유형화 규칙 적용
 description: 유형화 규칙을 적용하는 방법 알아보기
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 8%
+source-wordcount: '951'
+ht-degree: 9%
 
 ---
 
@@ -15,7 +15,9 @@ ht-degree: 8%
 
 ## 게재에 유형화 적용 {#apply-a-typology-to-a-delivery}
 
-생성한 유형화 규칙을 적용하려면 유형화에 해당 유형화를 연결한 다음 게재에서 이 유형화를 참조해야 합니다. 방법은 다음과 같습니다.
+생성한 유형화 규칙을 적용하려면 유형화에 연결한 다음 게재에서 이 유형화를 참조합니다.
+
+이렇게 하려면 아래 단계를 수행합니다:
 
 1. 캠페인 유형화를 만듭니다.
 
@@ -27,7 +29,7 @@ ht-degree: 8%
 
 1. 유형화를 저장합니다. 기존 유형화 목록에 추가됩니까?
 1. 규칙을 적용할 게재를 엽니다.
-1. 게재 속성을 열고 **[!UICONTROL Typology]** 탭.
+1. 게재 속성을 탐색하고 를 엽니다 **[!UICONTROL Typology]** 탭.
 1. 드롭다운 목록에서 유형화를 선택합니다.
 
    ![](assets/campaign_opt_pressure_sample_1_7.png)
@@ -91,11 +93,11 @@ ht-degree: 8%
 
 의 해당 필드를 사용하여 동일한 유형의 규칙의 실행 시퀀스를 조정할 수 있습니다 **[!UICONTROL General]** 규칙의 탭입니다. 동일한 메시지 처리 단계 동안 여러 규칙이 실행될 때 **[!UICONTROL Execution sequence]** 필드.
 
-예를 들어 실행 순서가 20인 압력 규칙이 실행 순서가 30인 압력 규칙 전에 실행됩니다.
+예를 들어 실행 순서가 20인 압력 규칙이 실행 순서가 30인 압력 규칙 이전에 실행됩니다.
 
 ### 제어 규칙 {#control-rules}
 
-대상 **[!UICONTROL Control]** 규칙을 사용하면 게재 라이프사이클의 어느 지점에서(타깃팅 전 또는 후, 분석 종료 시 개인화 시작 시) 규칙을 적용할 것인지 결정할 수 있습니다. 의 드롭다운 목록에서 적용할 값을 선택합니다 **[!UICONTROL Phase]** 필드, **[!UICONTROL General]** 유형화 규칙의 탭입니다.
+대상 **[!UICONTROL Control]** 규칙을 사용하여 규칙이 적용되는 게재 수명 주기 지점을 결정할 수 있습니다. 타깃팅 전 또는 후, 개인화 시작 시 분석 종료 시. 의 드롭다운 목록에서 적용할 값을 선택합니다 **[!UICONTROL Phase]** 필드, **[!UICONTROL General]** 유형화 규칙의 탭입니다.
 
 ![](assets/campaign_opt_define_control_phase.png)
 
