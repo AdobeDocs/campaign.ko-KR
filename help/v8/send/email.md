@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '567'
 ht-degree: 16%
 
 ---
@@ -92,9 +92,7 @@ ht-degree: 16%
 
 ## 이메일 테스트 및 유효성 검사
 
-Campaign은 대상자에게 이메일을 보내기 전에 전자 메일을 테스트하고 확인하는 몇 가지 방법을 제공합니다.
-
-![](../assets/do-not-localize/book.png) [Campaign Classic v7 설명서에 나열된 우수 사례 적용](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html){target="_blank"}
+Campaign은 대상자에게 이메일을 보내기 전에 전자 메일을 테스트하고 확인하는 몇 가지 방법을 제공합니다. 에서 이메일 콘텐츠를 미리 보고 테스트하는 방법을 알아봅니다 [이 페이지](../send/preview-and-proof.md).
 
 다음을 수행할 수 있습니다.
 
@@ -102,6 +100,5 @@ Campaign은 대상자에게 이메일을 보내기 전에 전자 메일을 테�
 * 증명 보내기
 * 시드 주소 추가
 * 통제 그룹 사용
-* 전자 메일 렌더링 확인
 
 ![](../assets/do-not-localize/book.png) [자세한 내용은 Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target="_blank"}

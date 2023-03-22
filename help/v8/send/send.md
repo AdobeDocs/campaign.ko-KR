@@ -5,9 +5,9 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '795'
 ht-degree: 3%
 
 ---
@@ -15,16 +15,9 @@ ht-degree: 3%
 
 # 이메일 보내기 및 모니터링
 
-게재를 구성하고 전송할 준비가 되면 게재 분석을 실행했는지 확인하십시오.
-
-![](../assets/do-not-localize/book.png) [자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#confirming-delivery)를 참조하십시오{target=&quot;_blank&quot;}
+게재를 구성하고 전송할 준비가 되면 게재 분석을 실행했는지 확인하십시오. [자세히 알아보기](delivery-analysis.md)
 
 완료되면 게재를 확인하여 메시지 게재를 시작합니다.
-
-다음을 수행할 수도 있습니다.
-
-* 을 사용하여 나중으로 게재를 예약합니다. [배달 옵션을 연기합니다.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#scheduling-the-delivery-sending){target=&quot;_blank&quot;},
-* 을 사용하여 여러 배치로 보내기 [다중 전파](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target=&quot;_blank&quot;}.
 
 에서 게재 실행을 추적합니다 **배달** 탭으로서, 이 게재의 세부 사항 또는 게재 목록을 통해 액세스할 수 있습니다.
 
@@ -32,7 +25,7 @@ ht-degree: 3%
 
 전송되면 게재 대시보드에서 게재 상태를 확인하고 게재 로그 및 보고서에 액세스하여 메시지가 올바르게 전송되었는지 확인합니다.
 
-![](../assets/do-not-localize/book.png) [자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)를 참조하십시오{target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) [자세한 내용은 Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 
 ## Campaign MTA {#mta}
@@ -59,7 +52,7 @@ MTA는 SMTP 바운스를 자격을 부여하고 해당 자격을 Campaign 바운
 
 >[!NOTE]
 >
->현재 **비동기** 바운스는 를 통해 inMail 프로세스에 의해 검증됩니다. **[!UICONTROL Inbound email]** 규칙. 자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}. <!--Refer to [bounce mail qualification](delivery-failures.md#bounce-mail-qualification)-->
+>현재 **비동기** 바운스는 를 통해 inMail 프로세스에 의해 검증됩니다. **[!UICONTROL Inbound email]** 규칙.
 
 에서 게재 실패에 대해 자세히 알아보기 [이 섹션](delivery-failures.md).
 
@@ -76,7 +69,7 @@ Domain Keys Identified Mail(DKIM)은 위조 발신자 주소(일반적으로 스
 
 Adobe Campaign에서 DKIM 이메일 인증 서명은 MTA에 의해 수행됩니다.
 
-에서 DKIM에 대해 자세히 알아보십시오 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target=&quot;_blank&quot;}.
+에서 DKIM에 대해 자세히 알아보십시오 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}.
 
 ## 이메일 피드백 서비스 {#email-feedback-service}
 
@@ -90,7 +83,7 @@ EFS(이메일 피드백 서비스) 기능을 사용하면 피드백이 MTA에서
 
 하드 바운스 메시지가 MTA에서 다시 보고되면 로그 상태는 **[!UICONTROL Taken into account by the service provider]** to **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-소프트 바운스 메시지가 MTA에서 다시 보고되면 로그 상태가 변경되지 않고 유지됩니다(**[!UICONTROL Taken into account by the service provider]**): 유일한 [오류 원인](delivery-failures.md#delivery-failure-reasons) 업데이트됨<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. 다음 **[!UICONTROL Success]** 백분율은 변경되지 않은 상태로 유지됩니다. 그런 다음 소프트 바운스 메시지가 게재 동안 다시 시도됩니다 [유효 기간](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}:
+소프트 바운스 메시지가 MTA에서 다시 보고되면 로그 상태가 변경되지 않고 유지됩니다(**[!UICONTROL Taken into account by the service provider]**): 유일한 [오류 원인](delivery-failures.md#delivery-failure-reasons) 업데이트됨<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. 다음 **[!UICONTROL Success]** 백분율은 변경되지 않은 상태로 유지됩니다. 그런 다음 소프트 바운스 메시지가 게재 동안 다시 시도됩니다 [유효 기간](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}:
 
 * 유효 기간이 끝나기 전에 재시도가 성공하면 메시지 상태가 **[!UICONTROL Sent]** 그리고 **[!UICONTROL Success]** 백분율이 그에 따라 증가합니다.
 
@@ -106,8 +99,8 @@ EFS(이메일 피드백 서비스) 기능을 사용하면 피드백이 MTA에서
 
 | 전송 프로세스의 단계 | KPI 요약 | 전송 로그 상태 |
 |--- |--- |--- |
-| 메시지가 Campaign에서 MTA로 성공적으로 전달되었습니다 | **[!UICONTROL Success]** 백분율이 표시되지 않음(0%에서 시작) | 서비스 공급자가 고려함 |
+| 메시지가 Campaign에서 MTA로 성공적으로 전달되었습니다 | **[!UICONTROL Success]** 백분율이 표시되지 않음(0%에서 시작) | 서비스 제공자의 고려 |
 | MTA에서 하드 바운스 메시지가 다시 보고됩니다 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 실패 |
-| 소프트 바운스 메시지는 MTA에서 다시 보고됩니다 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 서비스 공급자가 고려함 |
+| 소프트 바운스 메시지는 MTA에서 다시 보고됩니다 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 서비스 제공자의 고려 |
 | 소프트 바운스 메시지 다시 시도 성공 | **[!UICONTROL Success]** 백분율이 그에 따라 증가함 | 전송됨 |
 | 소프트 바운스 메시지 다시 시도 실패 | 에서 변경 없음 **[!UICONTROL Success]** 백분율 | 실패 |

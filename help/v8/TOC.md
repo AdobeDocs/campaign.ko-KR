@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 96%
+source-wordcount: '520'
+ht-degree: 94%
 
 ---
 
@@ -62,6 +62,9 @@ ht-degree: 96%
       + [개인화 필드 추가](send/personalization-fields.md)
       + [개인화 블록 사용](send/personalization-blocks.md)
       + [조건 만들기](send/conditions.md)
+   + 게재 유효성 검사 {#validate}
+      + [미리 보기 및 증명](send/preview-and-proof.md)
+      + [게재 분석](send/delivery-analysis.md)
 + 프로필 및 대상자 관리 {#audience}
    + [프로필 및 대상자 시작](audiences/gs-audiences.md)
    + [대상자를 사용한 작업](start/audiences.md)

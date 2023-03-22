@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
-source-wordcount: '633'
-ht-degree: 100%
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 
    ![](assets/send-email.png)
 
-   ![](../assets/do-not-localize/book.png)  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=ko){target=&quot;_blank&quot;}에서 메시지를 보내는 방법을 알아봅니다
+   에서 메시지를 보내는 방법 알아보기 [이 섹션](../send/send.md)
 
 * [마케팅 캠페인](campaigns.md)에 연결된 메시지 보내기
 
@@ -54,30 +54,26 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 
    ![](assets/send-in-a-wf.png)
 
-   ![](../assets/do-not-localize/glass.png) [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery.html?lang=ko)에서는 이메일 게재를 자동화하는 방법을 알아봅니다.
+    [이 페이지](../../automation/workflow/delivery.md)에서는 이메일 게재를 자동화하는 방법을 알아봅니다.
 
 * 이벤트를 통한 [메시지 트리거](../send/transactional.md)
-   ![](../assets/do-not-localize/book.png) [사용 사례:파일을 첨부한 트랜잭션 이메일을 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ko){target=&quot;_blank&quot;}
 
 * 메시지 예약
 
    ![](assets/schedule-send.png)
 
-   ![](../assets/do-not-localize/glass.png) [사용 사례:생일 축하 이메일을 예약하고 보내는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ko)
+[사용 사례:생일 축하 이메일을 예약하고 보내는 방법 알아보기](../../automation/workflow/send-a-birthday-email.md)
 
 
 ## 개인화 추가{#personalization}
 
-Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화할 수 있습니다.
+Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화할 수 있습니다. [개인화 기능에 대해 자세히 알아보기](../send/personalize.md)
 
 다음을 수행할 수 있습니다.
 
-* 동적 개인화 필드를 삽입합니다.
-   ![](../assets/do-not-localize/book.png) 개인화 필드를 사용하는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=ko){target=&quot;_blank&quot;}
-* 사전 정의된 개인화 블록을 삽입합니다.
-   ![](../assets/do-not-localize/book.png) 개인화 블록의 정의 및 사용 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=ko){target=&quot;_blank&quot;}를 참조하세요.
-* 조건부 콘텐츠를 만듭니다.
-   ![](../assets/do-not-localize/book.png) 조건부 콘텐츠를 삽입하는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=ko){target=&quot;_blank&quot;}
+* 동적 개인화 필드를 삽입합니다. [자세히 알아보기](../send/personalization-fields.md)
+* 사전 정의된 개인화 블록을 삽입합니다. [자세히 알아보기](../send/personalization-blocks.md)
+* 조건부 콘텐츠 만들기 [자세히 알아보기](../send/conditions.md)
 
 ## 트랜잭션 메시지를 보냅니다.{#gs-transac-messages}
 
@@ -87,19 +83,11 @@ Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화�
 
 ![](../assets/do-not-localize/glass.png) 트랜잭션 메시지를 구성하고 보내는 자세한 단계: [이 페이지](../send/transactional.md)
 
-![](../assets/do-not-localize/book.png) 이 기능의 엔드 투 엔드 활용 사례: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ko){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 이 기능의 엔드 투 엔드 활용 사례: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ko){target="_blank"}
 
 ## 게재 및 추적 로그{#gs-tracking-logs}
 
 메시지를 게재한 후 마케팅 캠페인이 효율적이고 고객에게 도달하는지 확인하는 데 있어 게재 모니터링은 중요한 단계입니다. 게재 후 모니터링은 물론 게재 실패와 검역된 메시지가 어떻게 관리되는지 파악할 수 있습니다.
 
-![](../assets/do-not-localize/book.png)  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ko){target=&quot;_blank&quot;}에서 게재를 모니터링하는 방법을 알아봅니다
+![](../assets/do-not-localize/book.png) 에서 게재를 모니터링하는 방법을 알아봅니다 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ko){target="_blank"}
 
-
-**Campaign Classic** v7 설명서의 관련 항목:
-
-* [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=ko){target=&quot;_blank&quot;}
-
-* [이메일 테스트 및 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=ko){target=&quot;_blank&quot;}
-
-* [증명 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target=&quot;_blank&quot;}
