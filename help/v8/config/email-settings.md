@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Intermediate, Experienced
 exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 8%
+source-wordcount: '411'
+ht-degree: 5%
 
 ---
 
@@ -66,7 +66,16 @@ BCC 이메일 주소가 정의되면 게재 수준에서 전용 옵션을 활성
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->
 
-**자세한 내용은 Campaign Classic v7 설명서**&#x200B;를 참조하세요
+**자세히 알아보기**
+
+다음 섹션에서 다음을 수행합니다.
+
+* [이메일 게재 템플릿 사용](../send/create-templates.md)
+
+* [게재 실패 이해](../send/delivery-failures.md)
+
+
+및 Campaign Classic v7 설명서에서:
 
 * [전자 메일 형식 선택](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats){target="_blank"}
 
@@ -74,6 +83,3 @@ BCC 이메일 주소가 정의되면 게재 수준에서 전용 옵션을 활성
 
 * [바운스 이메일 주소 설정](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails){target="_blank"}
 
-* [이메일 게재 템플릿 사용](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko){target="_blank"}
-
-* [게재 실패 이해](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target="_blank"}

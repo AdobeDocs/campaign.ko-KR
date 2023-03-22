@@ -5,9 +5,9 @@ feature: Privacy, PI
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 864f2179384d3e3cfcf310fcd04fe02240bfbefa
+source-git-commit: cfe559b83a7db36ab8d9223d04d348f3afd74730
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '603'
 ht-degree: 1%
 
 ---
@@ -36,9 +36,8 @@ Adobe에서 Adobe는 디지털 경험의 보안을 매우 중요하게 생각합
 
 * 충분한 보안 그룹 만들기
 * 각 연산자에 적절한 액세스 권한이 있는지 확인합니다
-* 관리 연산자를 사용하지 않도록 하고, 관리 그룹에 너무 많은 운영자가 없도록 하십시오
 
-![](../assets/do-not-localize/book.png) 추가 정보 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+사용 권한에 대해 자세히 알아보기 [이 섹션](../start/gs-permissions.md)
 
 ## 코딩 지침
 
@@ -50,7 +49,7 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때에는 
 
 * **웹 애플리케이션에서 캡션 추가**: 공개 랜딩 페이지 및 구독 페이지에 캡처를 추가합니다.
 
-![](../assets/do-not-localize/book.png) 추가 정보 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 추가 정보 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target="_blank"}
 
 
 ## 개인화
@@ -132,9 +131,8 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때에는 
 
 * 충분한 보안 그룹 만들기
 * 각 연산자에 적절한 액세스 권한이 있는지 확인합니다
-* 관리 연산자를 사용하지 않도록 하고, 관리 그룹에 너무 많은 운영자가 없도록 하십시오
 
-![](../assets/do-not-localize/book.png) 추가 정보 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+사용 권한에 대해 자세히 알아보기 [이 섹션](../start/gs-permissions.md).
 
 ## 코딩 지침
 
@@ -146,4 +144,4 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때에는 
 
 * **웹 애플리케이션에서 캡션 추가**: 공개 랜딩 페이지 및 구독 페이지에 캡처를 추가합니다.
 
-![](../assets/do-not-localize/book.png) 추가 정보 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 추가 정보 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target="_blank"}

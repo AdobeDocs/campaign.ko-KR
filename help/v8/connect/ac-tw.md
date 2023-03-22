@@ -4,10 +4,10 @@ description: Campaign 환경을 Twitter과 통합하는 방법을 알아봅니�
 role: User, Admin
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 3%
+source-wordcount: '1061'
+ht-degree: 4%
 
 ---
 
@@ -32,9 +32,9 @@ twitter 계정에 트윗을 게시하도록 Adobe Campaign을 구성하려면 �
 
 ## Twitter 개발자 계정 {#dev-account}
 
-이 통합을 시작하려면 [Twitter 개발자 계정](https://developer.twitter.com){target=&quot;_blank&quot;}.
+이 통합을 시작하려면 [Twitter 개발자 계정](https://developer.twitter.com){target="_blank"}.
 
-Campaign은 Twitter API의 1.1 버전을 사용합니다. 이를 사용하려면 개발자 포털을 통해 높은 액세스 권한을 적용해야 합니다. 관리자 권한 Twitter에 대해 자세히 알아보기 [이 페이지에서](https://developer.twitter.com/en/portal/products/elevated){target=&quot;_blank&quot;}.
+Campaign은 Twitter API의 1.1 버전을 사용합니다. 이를 사용하려면 개발자 포털을 통해 높은 액세스 권한을 적용해야 합니다. 관리자 권한 Twitter에 대해 자세히 알아보기 [이 페이지에서](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}.
 
 ## twitter 시 애플리케이션 만들기 {#create-an-app-on-twitter}
 
@@ -111,7 +111,7 @@ Campaign과 Twitter 간의 동기화는 전용 기술 워크플로우를 통해 
 
 다음 **[!UICONTROL Synchronization of Twitter accounts]** 기술 워크플로우는 Adobe Campaign에서 Twitter 계정을 동기화합니다. 이 워크플로우는 직접 메시지를 보낼 수 있도록 Twitter 팔로워의 목록을 복구합니다. [자세히 알아보기](../send/twitter.md#direct-tw-messages)
 
-기본적으로 이 워크플로우는 매주 목요일 오전 7:30에 트리거됩니다. 를 사용할 수 있습니다 **[!UICONTROL Execute pending task(s) now]** 이 통합을 구현할 때 언제든지 워크플로우를 시작할 수 있는 옵션입니다.  스케줄러를 편집하여 워크플로우 트리거 빈도를 변경할 수도 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html)를 참조하십시오{target=&quot;_blank&quot;}.
+기본적으로 이 워크플로우는 매주 목요일 오전 7:30에 트리거됩니다. 를 사용할 수 있습니다 **[!UICONTROL Execute pending task(s) now]** 이 통합을 구현할 때 언제든지 워크플로우를 시작할 수 있는 옵션입니다.  스케줄러를 편집하여 워크플로우 트리거 빈도를 변경할 수도 있습니다. [이 페이지](../../automation/workflow/scheduler.md)에서 자세히 알아보십시오.
 
 >[!CAUTION]
 >
