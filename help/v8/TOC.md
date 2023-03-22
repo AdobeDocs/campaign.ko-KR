@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 23f30dee861250532490da8598e6e0e18f72c1b0
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '521'
 ht-degree: 94%
 
 ---
@@ -56,15 +56,15 @@ ht-degree: 94%
          + [게재 실패](send/delivery-failures.md)
       + [전송 시간 최적화](send/predictive.md)
       + [구독 관리](start/subscriptions.md)
-   + 콘텐츠 개인화 {#personalize}
-      + [개인화 시작](send/personalize.md)
-      + [개인화 데이터](send/personalization-data.md)
-      + [개인화 필드 추가](send/personalization-fields.md)
-      + [개인화 블록 사용](send/personalization-blocks.md)
-      + [조건 만들기](send/conditions.md)
-   + 게재 유효성 검사 {#validate}
-      + [미리 보기 및 증명](send/preview-and-proof.md)
-      + [게재 분석](send/delivery-analysis.md)
+      + 콘텐츠 개인화 {#personalize}
+         + [개인화 시작](send/personalize.md)
+         + [개인화 데이터](send/personalization-data.md)
+         + [개인화 필드 추가](send/personalization-fields.md)
+         + [개인화 블록 사용](send/personalization-blocks.md)
+         + [조건 만들기](send/conditions.md)
+      + 게재 유효성 검사 {#validate}
+         + [증명 미리 보기 및 이메일 증명](send/preview-and-proof.md)
+         + [게재 분석](send/delivery-analysis.md)
 + 프로필 및 대상자 관리 {#audience}
    + [프로필 및 대상자 시작](audiences/gs-audiences.md)
    + [대상자를 사용한 작업](start/audiences.md)
