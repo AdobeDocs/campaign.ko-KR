@@ -6,16 +6,33 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 814f7c81aa4f154fdf289effc82b8d02bdd9b4c6
+source-git-commit: 44743e585119e8cd81a8fcc9b4d667c25c0d438e
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 100%
+source-wordcount: '678'
+ht-degree: 79%
 
 ---
 
 # 최신 릴리스{#latest-release}
 
 이 페이지에서는 **최신 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다.
+
+## 릴리스 8.4.5 {#release-8-4-5}
+
+_2023년 4월 3일_
+
+**패치**
+
+* 여러 승인 워크플로우가 동일한 예약으로 설정된 경우 중복 키 제한 오류가 발생하는 문제를 수정했습니다. (NEO-48968)
+* DCE(디지털 콘텐츠 편집기)에서 이미지를 업로드할 때 본문 태그의 스타일 속성이 변경되는 NEO-54474(8.4.4)에서 발생하는 회귀 문제를 해결했습니다. (NEO-57697)
+* 임시 테이블에 uuid 대신 긴 키로 정의된 기본 키가 있는 경우 CRM 커넥터를 사용하여 데이터를 내보낼 때 오류가 발생하는 문제를 해결했습니다. (NEO-54153)
+* 패키지 내보내기, HTTP를 통한 FDA 및 보고에 오류가 발생할 수 있는 8.4.1에 도입된 회귀 문제를 수정했습니다. (NEO-57731)
+* 잘못된 ID가 있는 게재에 대해 게재 상태가 올바르게 업데이트되지 않는 8.3.8에 도입된 회귀 문제를 수정했습니다. (NEO-54675)
+* Big Query 커넥터를 사용하여 데이터를 가져올 때 부울 필드 문제를 수정했습니다(NEO-49181).
+
+>[!CAUTION]
+>
+> 클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../start/connect.md#upgrade-ac-console)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
 
 ## 릴리스 8.4.4 {#release-8-4-4}
 
