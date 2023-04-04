@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign은 고도로 타기팅되고 차별화된 오퍼를 만들 수 �
 
 고급 데이터 관리 기능은 데이터 처리 기능을 확장합니다. 데이터 마트에서 모델링되지 않은 데이터를 포함하여 타겟팅 프로세스를 단순화하고 최적화합니다.
 
-![](../assets/do-not-localize/glass.png) 의 세그멘테이션 및 대상 만들기에 대해 자세히 알아보십시오 [이 섹션](audiences.md).
+![](../assets/do-not-localize/glass.png) [이 섹션](audiences.md)에서 세분화와 대상자를 만드는 자세한 방법을 알아봅니다.
 
 ## 크로스 채널 캠페인 오케스트레이션 {#cross-channel-campaign-orchestration}
 
