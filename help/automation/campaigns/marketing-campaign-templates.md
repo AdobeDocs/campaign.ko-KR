@@ -6,7 +6,7 @@ feature: Campaigns, Templates
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
 source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '997'
 ht-degree: 5%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 5%
 
    ![](assets/template-activate-4.png)
 
-* **타겟팅 및 워크플로우**
+* **타겟팅 및 워크플로**
 
    을(를) 선택하는 경우 **[!UICONTROL Targeting and workflows]** 모듈에는 이 템플릿을 기반으로 캠페인에 대해 하나 이상의 워크플로우를 만들 수 있는 탭이 추가됩니다. 워크플로우는 이 템플릿을 기준으로 각 캠페인에 대해 개별적으로 구성할 수도 있습니다. [이 섹션](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow).
 
@@ -167,7 +167,7 @@ ht-degree: 5%
 * 을(를) 입력합니다. **레이블** 템플릿: 레이블은 필수이며 이 템플릿을 기반으로 하는 모든 캠페인에 대한 기본 레이블입니다.
 * 캠페인을 선택합니다 **자연** 드롭다운 목록에서 을 선택합니다. 이 목록에서 사용할 수 있는 값은 **[!UICONTROL natureOp]** 열거형.
 
-에서 열거형에 액세스하고 구성하는 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+에서 열거형에 액세스하고 구성하는 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
 
 
 * 을(를) 선택합니다 **캠페인 유형**: 고유, 반복 또는 주기적. 기본적으로 캠페인 템플릿은 고유한 캠페인에 적용됩니다. 반복 및 주기적 캠페인은 [이 섹션](recurring-periodic-campaigns.md).

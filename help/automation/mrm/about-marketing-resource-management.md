@@ -3,7 +3,8 @@ product: campaign
 title: 마케팅 리소스 관리 시작
 description: 마케팅 리소스 관리 살펴보기
 role: Admin, Developer, User
-source-git-commit: d40e9a1744f5d7379b09c08a19699940b9523e68
+exl-id: 6fa4f4e3-c5a5-4d7f-8e71-826dee4e926a
+source-git-commit: e6b1790832be6331f4b27cc50b5d034ad738a822
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 1%

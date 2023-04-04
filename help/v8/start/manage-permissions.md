@@ -4,9 +4,10 @@ description: Campaign v8 사용자에게 권한을 부여하는 방법을 알아
 feature: Permissions
 role: User, Admin
 level: Beginner
-source-git-commit: b63dc1616bc7ce1387a7bd0590c289b59f11b33f
+exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
+source-git-commit: b96ac3bd2365c548d071e626721d606dd33200b5
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1632'
 ht-degree: 1%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 1%
 
 사용자를 추가하려면 아래 단계를 따르십시오.
 
-1. 에서 [Admin Console](https://adminconsole.adobe.com/enterprise){target=&quot;_blank&quot;} 홈 페이지에서 다음을 선택합니다. **사용자 추가**.
+1. 에서 [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"} 홈 페이지, 선택 **사용자 추가**.
 
    ![](assets/add-a-user.png)
 
@@ -34,7 +35,7 @@ ht-degree: 1%
 
 1. 클릭 **저장**. 사용자가 추가되고 사용자 목록에 표시됩니다. 사용자에게 관리자 역할 또는 제품 프로필을 할당하면 사용자에게 이메일 알림이 전송됩니다. 사용자는 링크를 따라 프로필을 완료해야 합니다.
 
-의 Admin Console에서 사용자 만들기에 대해 자세히 알아보십시오 [이 페이지](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target=&quot;_blank&quot;}.
+의 Admin Console에서 사용자 만들기에 대해 자세히 알아보십시오 [이 페이지](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
 
 새 사용자가 [campaign에 로그온](connect.md) Adobe ID을 사용하면 클라이언트 콘솔의 Campaign 연산자 목록에 추가됩니다. Campaign 연산자는 **[!UICONTROL Administration > Access management > Operators]** 캠페인 탐색기의 폴더.
 
@@ -74,7 +75,7 @@ campaign - 테스트 - 게재
 
 #### Admin Console에서 제품 프로필 만들기{#create-profile-in-admin-console}
 
-1. 에 연결 [Admin Console](https://adminconsole.adobe.com/enterprise){target=&quot;_blank&quot;}.
+1. 에 연결 [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
 1. 에서 **제품 및 서비스** 섹션에서 Campaign 제품을 엽니다.
 1. 클릭 **새 프로필** 및에 작성할 제품 프로필의 이름을 입력하고, 설명된 대로 정확한 구문을 사용합니다 [여기](#product-profiles). 이 예제에서는 다음을 입력합니다. campaign - `<your-instance-name>` - 검토자
 
@@ -174,7 +175,7 @@ Adobe Campaign에는 기본 제공 **제품 프로필** Adobe이 환경을 활�
 
 Admin Console을 사용하여 사용자 그룹을 만들고 사용자를 해당 그룹에 지정할 수 있습니다.
 
-사용자 그룹은 공유 권한 집합을 지정해야 하는 다양한 사용자의 컬렉션입니다. 에서 사용자 그룹을 만드는 방법을 알아봅니다. [이 섹션](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target=&quot;_blank&quot;}.
+사용자 그룹은 공유 권한 집합을 지정해야 하는 다양한 사용자의 컬렉션입니다. 에서 사용자 그룹을 만드는 방법을 알아봅니다. [이 섹션](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}.
 
 제품 프로필을 사용자 그룹에 할당할 수 있습니다. 따라서 해당 그룹의 모든 사용자는 동일한 제품 권한 세트를 받게 됩니다.
 

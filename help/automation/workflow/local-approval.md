@@ -3,10 +3,11 @@ product: campaign
 title: 로컬 승인
 description: 로컬 승인
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -32,7 +33,7 @@ ht-degree: 1%
 
    ![](assets/local_validation_intro_3.png)
 
-## Target 승인 알림 {#target-approval-notification}
+## 대상 승인 미리 알림 {#target-approval-notification}
 
 이 경우 **[!UICONTROL Local approval]** 활동은 업스트림 타깃팅과 게재 사이에 배치됩니다.
 

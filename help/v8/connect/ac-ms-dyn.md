@@ -7,7 +7,7 @@ level: Beginner, Intermediate, Experienced
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1364'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 저장하면 Microsoft Azure Directory에 고유한 가 할당됩니다 **애플리케이션(클라이언트) ID** 참조하십시오. 이 ID는 나중에 Adobe Campaign에서 Dynamics 365 구성에서 필요합니다.
 
-추가 정보 [Microsoft Dynamics 365 설명서](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target=&quot;_blank&quot;}.
+추가 정보 [Microsoft Dynamics 365 설명서](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target="_blank"}.
 
 ### Microsoft Dynamics 인증서 키 식별자 및 키 ID 생성 {#config-certificate-key-id}
 
@@ -203,7 +203,7 @@ Microsoft Dynamics 365의 경우 지원/지원되지 않는 속성 유형이 아
 | 속성 유형 | 지원됨 |
 | --------------------------------------------------------------------------------- | --------- |
 | 기본 유형 : 부울, datetime, decimal, float, double, 정수, bigint, 문자열 | 예 |
-| 금액(이중) | 예 |
+| 돈(이중) | 예 |
 | 메모, entityname , primarykey, uniqueidentifier (as string) | 예 |
 | 상태, picklist(가능한 값을 열거형에 저장함), 상태(문자열) | 예 |
 | 소유자(문자열로) | 예 |

@@ -3,7 +3,8 @@ product: campaign
 title: 워크플로우의 이벤트 활동
 description: 워크플로우의 이벤트 활동 목록
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 0e8ab370-06bc-431e-a685-310ac54a1246
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -22,5 +23,3 @@ ht-degree: 0%
 * **[인바운드 전자 메일](inbound-emails.md)**: 전자 메일을 검색하고 처리합니다.
 * **[인바운드 SMS](inbound-sms.md)**: SMS 복구 및 처리
 * **[웹 다운로드](web-download.md)**: 웹에서 파일을 다운로드합니다.
-
-

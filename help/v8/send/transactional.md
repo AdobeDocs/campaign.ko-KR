@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1519'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 트랜잭션 메시지(메시지 센터)는 트리거 메시지를 관리하기 위해 설계된 캠페인 모듈입니다. 이러한 알림은 정보 시스템에서 트리거되는 이벤트에서 생성되며 다음을 수행할 수 있습니다. 송장, 주문 확인, 배송 확인, 암호 변경, 제품 비가용성 알림, 계정 명세서, 웹 사이트 계정 생성 등
 
-![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자로, [연락처 Adobe](../start/campaign-faq.md#support){target=&quot;_blank&quot;} 를 사용하여 환경에 Campaign 트랜잭션 메시지를 구성합니다.
+![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자로, [연락처 Adobe](../start/campaign-faq.md#support){target="_blank"} campaign 트랜잭션 메시지를 환경에 구성하려면 다음을 수행하십시오.
 
 트랜잭션 메시지는 보내는 데 사용됩니다.
 
@@ -43,7 +43,7 @@ Adobe Campaign을 사용하면 장바구니에 제품을 추가한 고객에게 
 1. [메시지 테스트](#test-message-template).
 1. [메시지 템플릿을 게시합니다](#publish-message-template).
 
-트랜잭션 메시지 템플릿을 디자인하고 게시하면 해당 이벤트가 트리거되는 경우 PushEvent 및 PushEvents를 통해 관련 데이터가 Campaign으로 전송됩니다 [SOAP 메서드](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target=&quot;_blank&quot;} 이고 배달이 타겟팅된 수신자에게 전송됩니다.
+트랜잭션 메시지 템플릿을 디자인하고 게시하면 해당 이벤트가 트리거되는 경우 PushEvent 및 PushEvents를 통해 관련 데이터가 Campaign으로 전송됩니다 [SOAP 메서드](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target="_blank"}타겟팅된 수신자에게 게재를 전송합니다.
 
 ## 이벤트 유형 만들기 {#create-event-types}
 
@@ -73,7 +73,7 @@ Adobe Campaign에서 처리할 이벤트 유형을 만들려면 아래 단계를
 
 >[!NOTE]
 >
->의 항목별 목록에 대해 자세히 알아보십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+>의 항목별 목록에 대해 자세히 알아보십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
 
 ## 트랜잭션 메시지 템플릿 정의 {#create-message-template}
 
@@ -199,7 +199,7 @@ This information enables you to personalize message content using personalizatio
 
 증명 전송에는 게재와 동일한 프로세스가 포함됩니다.
 
-![](../assets/do-not-localize/book.png) 에서 증명에 대해 자세히 알아보십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) 에서 증명에 대해 자세히 알아보십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target="_blank"}
 
 그러나 트랜잭션 메시지의 증명을 보내려면 다음 작업을 수행해야 합니다.
 

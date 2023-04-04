@@ -3,15 +3,15 @@ product: campaign
 title: 워크플로우 유형
 description: Campaign에서 다양한 유형의 워크플로우 살펴보기
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: f511332c-1fcc-444f-851b-e8b470b719b4
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-
-# 캠페인 워크플로우 {#campaign-workflows}
+# 캠페인 워크플로 {#campaign-workflows}
 
 각 캠페인에 대해 **[!UICONTROL Targeting and workflows]** 탭. 이러한 워크플로우는 캠페인에만 적용됩니다.
 

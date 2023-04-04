@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
 source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Adobe Campaign 상호 작용 모듈은 두 가지 유형의 상호 작용을 제
 
 >[!NOTE]
 >
->패키지를 설치할 때 **장기간** 의 유형 필드 **nms:제안** 제안 ID와 같은 표는 다음과 같습니다. **int64** 유형 필드. 이 유형의 데이터는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=en#mapping-the-types-of-adobe-campaign-dbms-data){target=&quot;_blank&quot;}.
+>패키지를 설치할 때 **장기간** 의 유형 필드 **nms:제안** 제안 ID와 같은 표는 다음과 같습니다. **int64** 유형 필드. 이 유형의 데이터는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=en#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
 데이터 보존 기간은 를 통해 각 인스턴스에 구성됩니다 **[!UICONTROL Data purge]** 창을 클릭합니다(배포 마법사의 창). 실행 인스턴스에서 이 기간은 유형화 규칙(슬라이딩 기간) 및 자격 규칙을 계산하는 데 필요한 이전 깊이에 해당해야 합니다.
 

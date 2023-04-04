@@ -330,7 +330,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 * 에서 간단한 수신자 특성을 타깃팅하는 방법을 알아봅니다 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
 * 지난 7일 동안 연락하지 않은 수신자를 필터링하는 방법을 알아봅니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html).
 * 운영자 목록을 복구하는 방법은 의 활성 계정으로 필터링합니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html).
-* 에서 생일 이메일 대상자를 만드는 방법을 알아봅니다  [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html).
+* 에서 생일 이메일 대상자를 만드는 방법을 알아봅니다  [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ko).
 
 
 ### 사전 정의된 필터에 대한 고급 매개 변수 {#param-for-data-filters}

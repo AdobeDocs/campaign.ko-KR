@@ -3,7 +3,8 @@ product: campaign
 title: 웹 다운로드
 description: 웹 다운로드 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 73bacf61-ac03-4a5c-b03b-6dfbe3fb9538
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 1%

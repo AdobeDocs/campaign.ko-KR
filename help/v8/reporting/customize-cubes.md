@@ -1,18 +1,19 @@
 ---
 product: campaign
-title: 큐브 사용자 지정
+title: 큐브 사용자 정의
 description: Adobe Campaign에서 큐브를 구현할 때의 모범 사례를 알아봅니다
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '1417'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 큐브 사용자 지정{#cube-custom}
+# 큐브 사용자 정의{#cube-custom}
 
 ## 데이터 바인딩 {#data-binning}
 
@@ -167,7 +168,7 @@ Adobe Campaign은 또한 다음 예와 같이 데이터베이스에 있는 모�
 * 보고서에 표시/숨길 정보. [자세히 알아보기](#configuring-the-display)
 * 표시할 측정값: 백분율, 총, 소수 수 등 [자세히 알아보기](#changing-the-type-of-measure-displayed)
 
-### 표시 시퀀스 {#display-sequence}
+### 시퀀스 표시 {#display-sequence}
 
 큐브에서 계산된 측정 단위는 를 통해 구성됩니다 **[!UICONTROL Measures]** 버튼을 클릭합니다.
 

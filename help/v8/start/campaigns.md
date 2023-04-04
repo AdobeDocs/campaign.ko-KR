@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '835'
+ht-degree: 98%
 
 ---
 
@@ -109,5 +109,5 @@ Adobe Campaign에서는 마케팅 캠페인의 성공 및 수익성을 측정하
 >
 >이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)을 참조하세요.
 
-[](../assets/do-not-localize/book.png) [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ko){target=&quot;_blank&quot;}에서 캠페인 응답 관리자를 구성하고 사용하는 방법을 알아봅니다.
+[](../assets/do-not-localize/book.png) 에서 캠페인 응답 관리자를 구성하고 사용하는 방법을 알아봅니다 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ko){target="_blank"}
 

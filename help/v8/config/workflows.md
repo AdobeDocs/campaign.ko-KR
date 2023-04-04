@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 source-git-commit: b323dbf9504e39cca78f7082089b864544ee1633
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 3%
+source-wordcount: '1570'
+ht-degree: 4%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시
 
 워크플로우 사용자 인터페이스 및 다음 페이지의 실행에 대해 자세히 알아보십시오.
 
-* [워크플로우 시작](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+* [워크플로우 시작](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
 
 * [워크플로우 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html)
 
@@ -43,7 +43,7 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기 및 메시
 
 * [마케팅 캠페인 워크플로우에서 대상 만들기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko)
 
-## 워크플로우 활동 {#wf-activities}
+## 워크플로 활동 {#wf-activities}
 
 에서 사용 가능한 워크플로우 활동에 대해 자세히 알아보십시오 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html)
 
@@ -152,9 +152,11 @@ Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하
 
 Campaign v7 설명서의 이러한 페이지를 확인합니다.
 
-* [컨텐츠 작성, 편집 및 게시 자동화](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html){target=&quot;_blank&quot;} Campaign 콘텐츠 관리 추가 기능을 사용하여 콘텐츠 블록 만들기 및 전달을 자동화하는 방법을 알아봅니다.
+* [컨텐츠 작성, 편집 및 게시 자동화](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html){target="_blank"}
+Campaign 콘텐츠 관리 추가 기능을 사용하여 콘텐츠 블록 만들기 및 전달을 자동화하는 방법을 알아봅니다.
 
-* [A/B 테스트](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html){target=&quot;_blank&quot;} 타겟팅 워크플로우를 통해 두 개의 이메일 게재 콘텐츠를 비교하는 방법을 알아봅니다. 메시지와 텍스트는 두 게재에서 동일합니다. 레이아웃만 변경됩니다. 타겟팅된 모집단은 다음 세 개로 나누어집니다. 두 개의 테스트 그룹과 나머지 모집단. 각 테스트 그룹에 다른 버전의 게재가 전송됩니다.
+* [A/B 테스트](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html){target="_blank"}
+타겟팅 워크플로우를 통해 두 개의 이메일 게재 콘텐츠를 비교하는 방법을 알아봅니다. 메시지와 텍스트는 두 게재에서 동일합니다. 레이아웃만 변경됩니다. 타겟팅된 모집단은 다음 세 개로 나누어집니다. 두 개의 테스트 그룹과 나머지 모집단. 각 테스트 그룹에 다른 버전의 게재가 전송됩니다.
 
 ### 모니터링 {#monitoring}
 
@@ -179,7 +181,7 @@ Newsletter를 열었지만 Newsletter에 포함된 링크를 클릭하지 않은
 * [요약 목록 만들기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html)
 파일을 수집한 후 여러 가지 추가 작업을 수행한 후 요약 목록을 만들 수 있는 워크플로우를 만드는 방법을 알아봅니다. 이 예제에서는 스토어에서 구입한 연락처 목록을 기반으로 합니다.
 
-* [데이터 보강](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html)
+* [데이터 보강](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=ko)
 점수에 따라 최신 경쟁에 참여한 프로필에 개인화된 게재를 보내는 방법을 알아봅니다.
 
 * [집계 사용](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html)

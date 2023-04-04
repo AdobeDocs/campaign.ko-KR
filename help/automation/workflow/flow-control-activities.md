@@ -3,7 +3,8 @@ product: campaign
 title: 워크플로우의 흐름 제어 활동
 description: 흐름 제어 활동 목록
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 904f2d94-bd3e-4c46-aeab-2ef77a7bdeee
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -26,4 +27,4 @@ ht-degree: 0%
 * **[테스트](test.md)**: 테스트 결과를 기반으로 전환을 활성화합니다.
 * **[시간 제한](time-constraint.md)**: 설정된 기간 동안 작업을 일시 중지할 수 있습니다.
 * **[대기](wait.md)**: 지정된 시간 제한 후 아웃바운드 전환을 활성화합니다.
-<!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->
+   <!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->

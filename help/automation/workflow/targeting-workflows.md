@@ -2,7 +2,8 @@
 title: 타겟팅 워크플로우 만들기
 description: 워크플로우에서 타겟 대상자를 만드는 방법을 알아봅니다
 feature: Query Editor, Data Management
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '2248'
 ht-degree: 4%

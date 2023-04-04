@@ -2,10 +2,11 @@
 title: 중복 제거 활동의 병합 기능 사용
 description: 중복 제거 작업의 병합 기능을 사용하는 방법을 알아봅니다.
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: ee201cfd-a351-41d8-a5ad-2f2e538dc643
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 7%
 
 다음 **[!UICONTROL Deduplication]** 활동은 데이터 세트에서 중복 행을 제거하는 데 사용됩니다. 이 사용 사례에서는 아래에 표시된 데이터가 이메일 필드를 기반으로 복제됩니다.
 
-| 마지막 수정 날짜 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
+| 마지막 수정일 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
 |-----|------------|-----------|-------|--------------|------|
 | 5/19/2020 | 로버트 | 티너 | bob@mycompany.com | 444-444-444 | 777-777-7777 |
 | 7/22/2020 | 바비 | 티너 | bob@mycompany.com |  | 777-777-7777 |
@@ -89,7 +90,7 @@ ht-degree: 7%
 
 이러한 규칙을 구성한 후 **[!UICONTROL Deduplication]** 활동.
 
-| 수정 날짜 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
+| 수정일 | 이름 | 성 | 이메일 | 휴대폰 | 휴대폰 |
 |-----|------------|-----------|-------|--------------|------|
 | 5/19/2020 | 로버트 | 티너 | bob@mycompany.com | 444-444-444 | 777-777-7777 |
 | 7/22/2020 | 바비 | 티너 | bob@mycompany.com |  | 777-777-7777 |

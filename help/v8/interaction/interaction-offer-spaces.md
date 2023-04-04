@@ -7,7 +7,7 @@ level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
 source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 3%
 
 ---
@@ -156,4 +156,4 @@ HTML 렌더링은 렌더링 함수를 통해 만들어집니다. 렌더링 함�
 
 공백으로 제한될 때 미리 보기는 컨텍스트를 무시할 수 있습니다. 이는 인바운드 채널을 사용하여 공간에서 참조되는 필드를 추가하도록 상호 작용 스키마가 확장된 경우입니다.
 
-![](../assets/do-not-localize/book.png)  자세한 내용은 의 이 샘플을 참조하십시오. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png)  자세한 내용은 의 이 샘플을 참조하십시오. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.

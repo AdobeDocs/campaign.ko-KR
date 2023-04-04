@@ -194,7 +194,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ## 속성(필드) {#attributes--fields-}
 
-속성을 사용하면 데이터 개체를 구성하는 필드를 정의할 수 있습니다. 를 사용할 수 있습니다 **[!UICONTROL Insert]** 스키마 편집 도구 모음의 단추를 눌러 빈 속성 템플릿을 커서가 있는 XML에 놓습니다. 추가 정보 [이 섹션](create-schema.md).
+속성을 사용하면 데이터 개체를 구성하는 필드를 정의할 수 있습니다. 를 사용할 수 있습니다 **[!UICONTROL Insert]** 스키마 편집 도구 모음의 단추를 눌러 빈 속성 템플릿을 커서가 있는 XML에 놓습니다. [이 섹션](create-schema.md)에서 자세히 알아봅니다.
 
 ![](assets/schemaextension_2.png)
 

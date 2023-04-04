@@ -4,13 +4,13 @@ description: 캠페인의 성공을 측정하고 사용자 행동을 분석합�
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 8fb1f57b82ce3b99dabf584a6434d9111dc8b5af
+exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 4%
+source-wordcount: '322'
+ht-degree: 6%
 
 ---
-
 
 # 보고 시작{#gs-ac-reports}
 
@@ -46,10 +46,10 @@ Adobe Campaign은 이 페이지에 나열된 보고 도구 세트를 제공합�
 
    ![](assets/desc-analysis-report.png)
 
-   ![](../assets/do-not-localize/book.png) 캠페인 설명 분석 보고에는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) 캠페인 설명 분석 보고에는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
 
-* **사용자 지정 보고서**
+* **사용자 정의 보고서**
 
    Adobe Campaign을 사용하여 데이터베이스의 데이터에 대한 보고서를 만듭니다. 생성된 후에는 적절한 컨텍스트에서 액세스할 수 있도록 합니다.
 
-   ![](../assets/do-not-localize/book.png) 보고서를 만드는 단계는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target=&quot;_blank&quot;}. 개인화된 보고서 생성은 고급 사용자에게 예약됩니다.
+   ![](../assets/do-not-localize/book.png) 보고서를 만드는 단계는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. 개인화된 보고서 생성은 고급 사용자에게 예약됩니다.

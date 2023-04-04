@@ -4,10 +4,11 @@ description: 대상 매핑을 사용하고 만드는 방법을 알아봅니다
 feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -24,7 +25,7 @@ Adobe Campaign에는 다음과 같은 기본 제공 target 매핑이 포함되�
 | 이름 | 다음 방법 사용 | 스키마 |
 |---|---|---|
 | 수신자 | 수신자에게 게재(기본 제공 수신자 테이블) | nms:recipient |
-| 방문자 수 | 참조(바이럴 마케팅)를 통해 프로필을 수집한 방문자에게 게재를 합니다. | mns:visitor |
+| 방문자 | 참조(바이럴 마케팅)를 통해 프로필을 수집한 방문자에게 게재를 합니다. | mns:visitor |
 | 구독 | 뉴스레터와 같은 정보 서비스를 구독한 수신자에게 게재 | nms:구독 |
 | 방문자 구독 | 정보 서비스를 구독한 방문자에게 게재 | nms:visitorSub |
 | 연산자 | Adobe Campaign 운영자에게 게재 | nms:operator |
@@ -65,4 +66,3 @@ Adobe Campaign target 매핑 생성 마법사는 사용자 지정 대상 매핑�
    ![](assets/wf_new_mapping_define_extensions.png)
 
    을(를) 클릭합니다. **[!UICONTROL Save]** 버튼 - 게재 매핑 생성 시작: 연결된 모든 테이블은 선택한 매개변수를 기준으로 자동으로 생성됩니다.
-

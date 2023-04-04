@@ -3,10 +3,11 @@ product: campaign
 title: SQL 코드 및 JavaScript 코드
 description: SQL 및 JavaScript 코드 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 8c385847-a320-4cd9-9048-2bf9daf2ee07
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 

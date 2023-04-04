@@ -3,10 +3,11 @@ product: campaign
 title: 외부 데이터베이스 액세스(FDA)
 description: 외부 데이터베이스 액세스(FDA)
 feature: Workflows, Data Management, Federated Data Access
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: ddafca28-1db4-42f2-9bfb-73da1240235c
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 34%
+source-wordcount: '104'
+ht-degree: 35%
 
 ---
 
@@ -21,4 +22,4 @@ Adobe Campaign은 하나 이상의 외부 데이터베이스에 저장된 정보
 * 데이터 보강
 * 데이터 로드
 
-FDA 옵션 사용은 Adobe Campaign 라이선스에 따라 다릅니다. 이 옵션을 구성하고 사용에 연결된 모범 사례 및 제한 사항을 자세히 설명합니다 [이 섹션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target=&quot;_blank&quot;}.
+FDA 옵션 사용은 Adobe Campaign 라이선스에 따라 다릅니다. 이 옵션을 구성하고 사용에 연결된 모범 사례 및 제한 사항을 자세히 설명합니다 [이 섹션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}.

@@ -7,7 +7,7 @@ exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -124,7 +124,7 @@ twitter 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지
 
    ![](assets/tw-dm-content.png)
 
-   개인화 필드는 이메일 게재와 동일한 방법으로 사용할 수 있습니다. 예를 들어 메시지 본문에 팔로워 이름을 추가할 수 있습니다. 추가 정보 [이 섹션](../send/personalize.md).
+   개인화 필드는 이메일 게재와 동일한 방법으로 사용할 수 있습니다. 예를 들어 메시지 본문에 팔로워 이름을 추가할 수 있습니다. [이 섹션](../send/personalize.md)에서 자세히 알아봅니다.
 
 1. 메시지 미리 보기
 

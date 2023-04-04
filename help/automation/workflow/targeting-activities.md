@@ -3,7 +3,8 @@ product: campaign
 title: 타겟팅 활동 기본 정보
 description: 타겟팅 활동 기본 정보
 feature: Workflows, Audiences, Targeting Activity
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: e89c9f20-fc10-421f-9c14-2e33be562a8d
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 1%
@@ -34,4 +35,3 @@ ht-degree: 1%
 * **[구독 서비스](subscription-services.md)**: 을 사용하면 정보 서비스에 대한 target 구독 및 구독 취소를 관리할 수 있습니다.
 * **[결합](union.md)**: 여러 활동의 결과를 하나의 타겟으로 그룹화할 수 있습니다.
 * **[데이터 업데이트](update-data.md)**: 데이터베이스의 데이터를 대량으로 업데이트할 수 있습니다.
-

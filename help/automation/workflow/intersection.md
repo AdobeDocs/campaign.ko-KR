@@ -3,10 +3,11 @@ product: campaign
 title: 교차
 description: 교차
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 12777107-5ccc-4f19-9dcd-8f6cade3ee98
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 An **교차**-type 활동은 수신한 대상의 교차 지점에서 대상을 만듭니다.
 
-교차 기능을 사용하면 모든 인바운드 활동 결과에 공통인 모집단만 추출할 수 있습니다. 수신한 모든 결과가 있는 대상이 만들어집니다. 따라서 교차를 실행하기 전에 모든 이전 활동을 완료해야 합니다. 이 활동을 구성하려면 결과와 관련된 옵션뿐만 아니라 해당 활동에 대한 레이블을 입력해야 합니다.
+교차를 통해 모든 인바운드 활동 결과에 공통인 모집단만 추출할 수 있습니다. 수신한 모든 결과가 있는 대상이 만들어집니다. 따라서 교차를 실행하기 전에 모든 이전 활동을 완료해야 합니다. 이 활동을 구성하려면 결과와 관련된 옵션뿐만 아니라 해당 활동에 대한 레이블을 입력해야 합니다.
 
 ![](assets/s_user_segmentation_inter.png)
 

@@ -3,14 +3,15 @@ product: campaign
 title: 워크플로우 활동 기본 정보
 description: 활동 정보
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 636f9ad0-9576-421e-ad8b-62d6602ee26a
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
-# 워크플로우 활동{#wf-activities}
+# 워크플로 활동{#wf-activities}
 
 워크플로우 활동은 네 개의 서로 다른 탭에서 카테고리별로 그룹화됩니다.
 

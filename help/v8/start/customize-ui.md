@@ -7,7 +7,7 @@ level: Beginner, Intermediate, Experienced
 exl-id: a11d3895-00f1-43d0-b0f7-330fce9fd56b
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 목록 사용자 지정{#customize-lists}
 
-열 추가, 레코드 계산, 목록 구성 및 목록 설정 공유 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en){target=&quot;_blank&quot;}.
+열 추가, 레코드 계산, 목록 구성 및 목록 설정 공유 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en){target="_blank"}.
 
 에서 필터를 만드는 방법을 알아봅니다. [이 페이지](../audiences/create-filters.md).
 
@@ -37,7 +37,7 @@ Campaign 사용자 인터페이스의 드롭다운 목록에서 값을 선택할
 
 대상 **열기** 열거형에서는 값에 첫 번째 문자를 입력할 수도 있으며 가능한 값이 표시됩니다.
 
-에서 열거형에 액세스하고 구성하는 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+에서 열거형에 액세스하고 구성하는 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
 
 
 ## 기본 단위 {#default-units}

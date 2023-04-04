@@ -3,7 +3,8 @@ product: campaign
 title: 워크플로우 사용 사례
 description: Campaign 워크플로우를 사용하여 수행할 수 있는 사용 사례에 대해 자세히 알아보십시오
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 59%

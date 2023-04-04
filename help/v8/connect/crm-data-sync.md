@@ -190,7 +190,7 @@ Adobe Campaign 데이터를 CRM에 내보내 전체 컨텐츠를 CRM 데이터�
 * **[!UICONTROL Without time offset]**: 기본 모드에서 적용된 시간대 관리를 취소합니다.
 * **[!UICONTROL Copy/Paste]**: 문자열(변환 없음)과 같은 원시 데이터를 사용합니다.
 
-### 처리 오류 {#error-processing}
+### 오류 처리 중 {#error-processing}
 
 데이터 가져오기 또는 내보내기의 프레임워크 내에서 특정 프로세스를 오류 및 거부에 적용할 수 있습니다. 이렇게 하려면 **[!UICONTROL Keep the rejections in a file]** 및 **[!UICONTROL Process errors]** 옵션 **[!UICONTROL Behavior]** 탭.
 
@@ -216,7 +216,7 @@ CRM에서 삭제된 개체를 Adobe Campaign에 가져올 수 있습니다.
    >
    >삭제 기간은 CRM 관련 제한 사항과 일치해야 합니다. 예를 들어 Salesforce.com의 경우 30일 전에 삭제된 요소는 복구할 수 없습니다.
 
-## CRM에서 개체 삭제 {#deleting-objects-in-the-crm}
+## CRM의 오브젝트 삭제 {#deleting-objects-in-the-crm}
 
 CRM에서 개체를 삭제하려면 삭제할 원격 요소의 기본 키를 지정합니다.
 

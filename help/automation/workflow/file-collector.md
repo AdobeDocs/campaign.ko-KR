@@ -3,7 +3,8 @@ product: campaign
 title: 파일 수집기
 description: 파일 수집기 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 614becf7-4cbf-40f9-a1b1-06efa054bfd9
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%

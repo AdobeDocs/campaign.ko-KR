@@ -6,9 +6,9 @@ role: User, Admin
 level: Beginner, Intermediate
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
-source-wordcount: '410'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 96%
 
 ---
 
@@ -24,37 +24,37 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 
 또한, Campaign 컨트롤 패널을 사용하여 IP 허용 목록, URL 권한, 인스턴스에 대한 정보 검색과 같은 인스턴스 설정을 구성할 수도 있습니다.
 
-![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target=&quot;_blank&quot;}를 참조하세요.
+![](../assets/do-not-localize/book.png) 추가 정보 [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target="_blank"}.
 
-## Campaign 컨트롤 패널에는 어떻게 액세스하나요?
+## 컨트롤 패널에는 어떻게 액세스하나요?
 
-Campaign 컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 관리자에게만 액세스할 수 있습니다. 자세한 내용은 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ko){target=&quot;_blank&quot;}하십시오.
+컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 관리자에게만 액세스할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ko){target="_blank"}하십시오.
 
-## Campaign 컨트롤 패널 FAQ
+## 컨트롤 패널 FAQ
 
-Campaign 컨트롤 패널 FAQ를 확인하려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko#control-panel){target=&quot;_blank&quot;}하십시오.
+[여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko#control-panel){target="_blank"}하여 Campaign 컨트롤 패널 FAQ에 액세스합니다.
 
 ## SFTP 관리
 
-Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 저장소 용량을 모니터링하고, 허용 목록의 IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 내용은 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko#sftp-management){target=&quot;_blank&quot;}하십시오.
+컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 저장소 용량을 모니터링하고, 허용 목록의 IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko#sftp-management){target="_blank"}하십시오.
 
 ## 하위 도메인 및 인증서
 
 하위 도메인과 그 인증서를 모니터링하는 방법을 알아봅니다.
 
-* [하위 도메인 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=ko){target=&quot;_blank&quot;}
-* [새 하위 도메인 설정](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko){target=&quot;_blank&quot;}
-* [하위 도메인의 SSL 인증서 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ko){target=&quot;_blank&quot;}
+* [하위 도메인 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=ko){target="_blank"}
+* [새 하위 도메인 설정](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko){target="_blank"}
+* [하위 도메인의 SSL 인증서 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ko){target="_blank"}
 
 ## 성능 모니터링
 
-Campaign 컨트롤 패널은 인스턴스를 모니터링하고 최적의 성능을 보장하는 데 도움이 되는 몇 가지 기능을 제공합니다. [여기를 클릭하세요](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko){target=&quot;_blank&quot;}
+컨트롤 패널은 인스턴스를 모니터링하고 최적의 성능을 보장하는 데 도움이 되는 몇 가지 기능을 제공합니다. [여기](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko)를 클릭하십시오{target="_blank"}
 
 
 ## 인스턴스 설정
 
 컨트롤 패널에서 Campaign 인스턴스 설정을 관리하는 방법을 알아봅니다.
-* [허용 목록의 IP](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko){target=&quot;_blank&quot;}
-* [URL 권한](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ko){target=&quot;_blank&quot;}
-* [인스턴스 세부 정보](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ko){target=&quot;_blank&quot;}
-* [GPG 키 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko){target=&quot;_blank&quot;}
+* [허용 목록의 IP](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko){target="_blank"}
+* [URL 권한](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ko){target="_blank"}
+* [인스턴스 세부 사항](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ko){target="_blank"}
+* [GPG 키 관리](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko){target="_blank"}

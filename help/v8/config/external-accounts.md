@@ -7,8 +7,8 @@ level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 source-git-commit: 6dee08f0f8673e5264f3cb111fe14493980a62fc
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 5%
+source-wordcount: '1081'
+ht-degree: 6%
 
 ---
 
@@ -182,13 +182,13 @@ Microsoft OAuth 2.0을 사용하여 POP3 외부 를 구성하려면 다음을 �
 
    * **[!UICONTROL AWS S3 Account Server]**: 다음과 같이 채워진 서버 URL:   ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
 
-   * **[!UICONTROL AWS access key ID]**: 에서 AWS 액세스 키 ID를 찾는 방법을 알아봅니다. [Amazon 설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target=&quot;_blank&quot;}.
+   * **[!UICONTROL AWS access key ID]**: 에서 AWS 액세스 키 ID를 찾는 방법을 알아봅니다. [Amazon 설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
-   * **[!UICONTROL Secret access key to AWS]**: 에서 AWS에 대한 비밀 액세스 키를 찾는 방법을 알아봅니다 [Amazon 설명서](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target=&quot;_blank&quot;}.
+   * **[!UICONTROL Secret access key to AWS]**: 에서 AWS에 대한 비밀 액세스 키를 찾는 방법을 알아봅니다 [Amazon 설명서](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"}.
 
-   * **[!UICONTROL AWS Region]**: 의 AWS 지역에 대해 자세히 알아보십시오 [Amazon 설명서](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target=&quot;_blank&quot;}.
+   * **[!UICONTROL AWS Region]**: 의 AWS 지역에 대해 자세히 알아보십시오 [Amazon 설명서](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}.
 
-   * 다음 **[!UICONTROL Use server side encryption]** 확인란을 통해 파일을 S3 암호화 모드로 저장할 수 있습니다. 에서 액세스 키 ID 및 암호 액세스 키를 찾는 방법을 알아봅니다. [Amazon 설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target=&quot;_blank&quot;}.
+   * 다음 **[!UICONTROL Use server side encryption]** 확인란을 통해 파일을 S3 암호화 모드로 저장할 수 있습니다. 에서 액세스 키 ID 및 암호 액세스 키를 찾는 방법을 알아봅니다. [Amazon 설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
 * **Azure Blob 스토리지**
 
@@ -198,4 +198,4 @@ Microsoft OAuth 2.0을 사용하여 POP3 외부 를 구성하려면 다음을 �
 
    * **[!UICONTROL Encryption]**: 암호화 유형 **[!UICONTROL None]** 또는 **[!UICONTROL SSL]**.
 
-   * **[!UICONTROL Access key]**: 를 찾는 방법 알아보기 **[!UICONTROL Access key]** in [Microsoft 설명서](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target=&quot;_blank&quot;}.
+   * **[!UICONTROL Access key]**: 를 찾는 방법 알아보기 **[!UICONTROL Access key]** in [Microsoft 설명서](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}.

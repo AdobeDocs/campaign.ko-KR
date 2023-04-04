@@ -3,7 +3,8 @@ product: campaign
 title: 목록 읽기
 description: 목록 읽기 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 91c87f8f-bdd2-4ca1-94c2-ec9e7affc1a0
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%

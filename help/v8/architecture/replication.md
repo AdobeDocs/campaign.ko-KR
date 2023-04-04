@@ -8,7 +8,7 @@ exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Campaign v8은 이러한 기술 워크플로우 외에도 특정 기술 워크�
 * **[!UICONTROL Replicate Reference tables]**
 이 워크플로우에서는 Campaign 로컬 데이터베이스(Postgres) 및 클라우드 데이터베이스( )에 있어야 하는 기본 제공 테이블을 자동으로 복제합니다[!DNL Snowflake]). 매시간 매일 실행되도록 예약되어 있습니다. If **lastModified** 필드가 존재하면 복제가 점진적으로 수행되며, 그렇지 않으면 전체 테이블이 복제됩니다. 아래 배열에 있는 표의 순서는 복제 워크플로우에서 사용하는 순서입니다.
 * **[!UICONTROL Replicate Staging data]**
-이 워크플로우는 단일 호출에 대한 스테이징 데이터를 복제합니다. 매일 매시간 실행되도록 예약되어 있습니다.
+이 워크플로우는 단일 호출에 대한 스테이징 데이터를 복제합니다. 매시간 매일 실행되도록 예약되어 있습니다.
 * **[!UICONTROL Deploy FFDA immediately]**\
    이 워크플로우는 클라우드 데이터베이스에 즉시 배포를 수행합니다.
 * **[!UICONTROL Replicate FFDA data immediately]**
@@ -74,6 +74,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **관련 항목**
 
-* [워크플로우 시작 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+* [워크플로우 시작 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
 
 * [데이터 유지 기간](../dev/datamodel-best-practices.md#data-retention)

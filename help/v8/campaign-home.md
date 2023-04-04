@@ -4,9 +4,9 @@ description: Campaign v8 도움말 센터
 title: Adobe Campaign v8 제품 설명서
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
-workflow-type: ht
-source-wordcount: '147'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 새로운 기능
 
-* **[[!DNL Adobe Campaign] 자동화 안내서](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko){target=&quot;_blank&quot;}** - 워크플로우 및 캠페인을 구축하는 방법 알아보기
+* **[[!DNL Adobe Campaign] 자동화 안내서](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko){target="_blank"}** - 워크플로우 및 캠페인을 구축하는 방법 알아보기
 
 * **[ [!DNL Adobe Campaign]](start/get-started.md)** 소개 - 주요 기능 및 활용 사례
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 * **[v7에서 v8로 전환](start/v7-to-v8.md)** - Campaign Classic v7에서 v8로 전환 주요 차이점 알아보기
 
-* **[Campaign v8용 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target=&quot;_blank&quot;}** - Campaign 컨트롤 패널을 사용하여 직접 주요 관리자 작업을 수행합니다.
+* **[Campaign v8용 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}** - Campaign Campaign 컨트롤 패널을 사용하여 직접 주요 관리자 작업을 수행합니다
 
 * **[릴리스 노트](start/release-notes.md)** - 최신 기능 및 개선 사항 살펴보기
 
@@ -72,4 +72,4 @@ ht-degree: 100%
 * [측정 및 추적](reporting/gs-reporting.md)
 * [다른 솔루션과 연결](connect/integration.md)
 * [Campaign v8 FAQ](start/campaign-faq.md)
-* [Adobe Campaign v8 제품 설명서](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}
+* [Adobe Campaign v8 제품 설명서](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}

@@ -2,7 +2,8 @@
 title: Adobe Campaign 글로벌 보고서
 description: 글로벌 보고서에 액세스하고 사용하는 방법을 알아봅니다
 feature: Reporting, Monitoring
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 3%
@@ -49,7 +50,7 @@ ht-degree: 3%
 >
 >를 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html).
 >
->Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
+>컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 
 ## 사용자 활동 {#user-activities}
 
@@ -291,7 +292,7 @@ The following indicators are used:
 * **[!UICONTROL Clicks]** : 게재를 한 번 이상 클릭한 사람 수의 백분율로, 성공적으로 처리된 메시지 수와 비교됩니다.
 * **[!UICONTROL Unsubscription]** : 성공적으로 처리된 메시지 수와 비교하여 구독 취소 링크에 대한 클릭 수의 비율입니다.
 
-## 열기 분류 {#breakdown-of-opens}
+## 열람 분류 {#breakdown-of-opens}
 
 이 보고서는 관련 기간 동안 운영 체제, 장치 및 브라우저별 열기 수를 보여줍니다. 각 카테고리에 대해 두 개의 차트가 사용됩니다. 첫 번째는 컴퓨터 및 모바일 장치에서 열리는 통계에 대한 통계입니다. 두 번째는 모바일 장치에서 열리는 경우에만 관련된 통계를 표시합니다.
 

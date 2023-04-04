@@ -2,10 +2,11 @@
 title: 기본 제공 보고서 지표 계산
 description: 기본 제공 보고서 지표 계산
 feature: Reporting
-source-git-commit: 80e5efc5998c67ce576e9f8208fab9543fc70d29
+exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '2978'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -25,19 +26,19 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> 오픈율<br /> </td> 
-   <td> @opens<br /> </td> 
+   <td> @열기<br /> </td> 
    <td> URL 기본 키가 1인 모든 @totalClicks의 합계.<br /> </td> 
    <td> sum(Iif([@url-id]=1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭수<br /> </td> 
-   <td> @clicks<br /> </td> 
+   <td> 클릭 수<br /> </td> 
+   <td> @클릭수<br /> </td> 
    <td> URL 유형을 가진 모든 @totalClicks의 합계가 "이메일 클릭"과 같습니다.<br /> </td> 
    <td> sum(Iif([url/@type]=1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> 거래<br /> </td> 
-   <td> @transactions<br /> </td> 
+   <td> @거래<br /> </td> 
    <td> URL 유형을 가진 모든 @totalClicks의 합계가 "Transaction"과 같습니다.<br /> </td> 
    <td> sum(Iif([url/@type]=5, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -146,7 +147,7 @@ ht-degree: 4%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 방문자 수<br /> </td> 
+   <td> 방문자<br /> </td> 
    <td> @totalVisitors<br /> </td> 
    <td> 게재를 한 번 이상 클릭한 이 브라우저의 총 타깃팅된 수신자 수입니다.<br /> </td> 
    <td> Sum(@visitors)<br /> </td> 
@@ -319,7 +320,7 @@ ht-degree: 4%
    <td> 열기 횟수 <br /> </td> 
    <td> @open<br /> </td> 
    <td> 웹 추적 테이블에 있는 총 추적 라인 수입니다.<br /> </td> 
-   <td> 수<br /> </td> 
+   <td> 횟수<br /> </td> 
   </tr> 
   <tr> 
    <td> 분류<br /> </td> 
@@ -388,13 +389,13 @@ ht-degree: 4%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 방문자 수<br /> </td> 
+   <td> 방문자<br /> </td> 
    <td> @totalVisitors / @days<br /> </td> 
    <td> 게재를 한 번 이상 클릭한 운영 체제에서 타겟팅한 총 수신자 수의 일별 평균입니다.<br /> </td> 
    <td> Sum(@visitors)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 본 페이지<br /> </td> 
+   <td> 조회한 페이지<br /> </td> 
    <td> @totalPages / @days<br /> </td> 
    <td> 모든 게재에 대한 운영 체제당 게재 링크에 대한 총 클릭 수의 일별 평균 입니다.<br /> </td> 
    <td> Sum(@pages)<br /> </td> 
@@ -456,7 +457,7 @@ ht-degree: 4%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 등록<br /> </td> 
+   <td> 등록됨<br /> </td> 
    <td> @_subscriber<br /> </td> 
    <td> 이전 날짜의 등록된 사람 수입니다.<br /> </td> 
    <td> sum(@created &lt; addDays(getDate(), (-1), 1, 0))<br /> </td> 
@@ -539,7 +540,7 @@ ht-degree: 4%
    <td> count(Iif([url/@type]=6, @id, 0)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 포워드 추정<br /> </td> 
+   <td> 발송 예측<br /> </td> 
    <td> @forward<br /> </td> 
    <td> 개별 사용자 수와 이메일을 한 번 이상 클릭한 개별 수신자 수 간의 차이입니다.<br /> </td> 
    <td> @personClick - @recipientClick<br /> </td> 
@@ -563,7 +564,7 @@ ht-degree: 4%
    <td> Countdistinct([@broadLog-id])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭수<br /> </td> 
+   <td> 클릭 수<br /> </td> 
    <td> @recipientClick<br /> </td> 
    <td> URL 유형이 "이메일 클릭"과 동일한 @broadLog-ids의 고유 수입니다. <br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @broadLog-id, 0))<br /> </td> 
@@ -581,7 +582,7 @@ ht-degree: 4%
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 누적 클릭 수<br /> </td> 
+   <td> 누적된 클릭 수<br /> </td> 
    <td> @totalRecipientClick<br /> </td> 
    <td> "이메일 클릭"과 같은 URL 카테고리가 있는 모든 @ids.<br /> </td> 
    <td> count(Iif([url/@type]=1, @id, 0)<br /> </td> 
@@ -706,25 +707,25 @@ ht-degree: 4%
    <td> percent([표시기/@recipientClick], [표시기/@estimatedRecipientOpen])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 개별적인 클릭<br /> </td> 
+   <td> 고유 클릭 수<br /> </td> 
    <td> @distinctClicks<br /> </td> 
    <td> 게재에서 최소 한 번 이상 클릭한 개별 사용자 수의 비율입니다. 성공한 메시지 수와 비교됩니다.<br /> </td> 
    <td> percent([표시기/@personClick], [표시기/@success])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 누적 클릭 수<br /> </td> 
+   <td> 누적된 클릭 수<br /> </td> 
    <td> @totalClicks<br /> </td> 
    <td> 성공과 함께 전달된 메시지 수와 비교하여 타겟팅된 수신자의 총 클릭 수입니다.<br /> </td> 
    <td> percent([표시기/@totalRecipientClick], [표시기/@success])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭수<br /> </td> 
+   <td> 클릭 수<br /> </td> 
    <td> @_click<br /> </td> 
    <td> URL 기본 키가 1과 다른 모든 @totalClicks 수<br /> </td> 
    <td> count(Iif([@url-id] != 1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭수 (%)<br /> </td> 
+   <td> 클릭 수 (%)<br /> </td> 
    <td> -<br /> </td> 
    <td> 누적 클릭 수와 비교한 클릭 수의 백분율입니다.<br /> </td> 
    <td> percent(@_click, @_total)<br /> </td> 
@@ -791,7 +792,7 @@ ht-degree: 4%
 
 이 보고서는 각 링크에 대한 클릭 비율( HTML 및/또는 텍스트)을 포함하는 메시지 콘텐츠를 보여줍니다. 개인화 블록은 구독 취소 링크 및 미러 페이지 링크를 합한 총 클릭 수를 고려하지만 보고서에 표시되지 않습니다.
 
-## 통계 추적 {#tracking-statistics-1}
+## 추적 통계 {#tracking-statistics-1}
 
 이 보고서는 **[!UICONTROL Delivery]** 표(nms:delivery).
 
@@ -807,19 +808,19 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> 거래<br /> </td> 
-   <td> @transactions<br /> </td> 
+   <td> @거래<br /> </td> 
    <td> "Transaction"과 같은 URL 유형을 사용하는 모든 @totalClicks의 합계입니다.<br /> </td> 
    <td> sum(Iif([url/@type] = 5, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭수<br /> </td> 
-   <td> @clicks<br /> </td> 
+   <td> 클릭 수<br /> </td> 
+   <td> @클릭수<br /> </td> 
    <td> "이메일 클릭"과 같은 URL 유형을 사용하는 모든 @totalClicks의 합계.<br /> </td> 
    <td> sum(Iif([url/@type] = 1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> 열기<br /> </td> 
-   <td> @opens<br /> </td> 
+   <td> @열기<br /> </td> 
    <td> URL 기본 키가 1인 모든 @totalClicks의 합계.<br /> </td> 
    <td> sum(Iif([@url-id] = 1, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -847,7 +848,7 @@ ht-degree: 4%
    <td> @prepared + @error + @success<br /> </td> 
   </tr> 
   <tr> 
-   <td> 전달됨<br /> </td> 
+   <td> 게재됨<br /> </td> 
    <td> @success<br /> </td> 
    <td> 성공적으로 처리된 메시지 수입니다.<br /> </td> 
    <td> 표시기/@success<br /> </td> 
@@ -871,7 +872,7 @@ ht-degree: 4%
    <td> Countdistinct([@broadLog-id])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭수<br /> </td> 
+   <td> 클릭 수<br /> </td> 
    <td> @personClick<br /> </td> 
    <td> URL 카테고리가 "이메일 클릭"과 같은 총 @source-ids 수입니다. <br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0)) <br /> </td> 
@@ -885,7 +886,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-## 열기 분류 {#breakdown-of-opens-1}
+## 열람 분류 {#breakdown-of-opens-1}
 
 이 보고서는 **게재** (nms:delivery) 및 **추적 로그** (nms:trackingLogRcp) 표를 참조하십시오.
 

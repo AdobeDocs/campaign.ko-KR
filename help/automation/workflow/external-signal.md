@@ -3,7 +3,8 @@ product: campaign
 title: 외부 신호
 description: 외부 신호 워크플로우 활동에 대해 자세히 알아보십시오
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 45cb95ec-77bf-4bab-895f-b94f6ce660fd
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 2%

@@ -1,17 +1,17 @@
 ---
-title: 개인화 시작
+title: 개인화 시작하기
 description: 메시지 콘텐츠를 개인화하는 방법 알아보기
 feature: Personalization
 role: User
 level: Beginner
 source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '471'
+ht-degree: 7%
 
 ---
 
-# 개인화 시작 {#personalize-content}
+# 개인화 시작하기 {#personalize-content}
 
 Adobe Campaign은 모든 마케팅 캠페인을 최대한 활용하기 위해 고객에게 수준에 맞는 맞춤형 콘텐츠를 제공하는 방법을 제공합니다. 프로필 데이터를 기반으로 개인화 기능을 통해 다양한 그룹 및 개인을 위한 사용자 지정 경험을 만들 수 있습니다. 보유한 데이터 및 정보를 활용하여 메시지를 특정 수신자에게 적용할 수 있습니다. 그것은 그들의 이름, 관심, 그들이 사는 곳, 그들이 산 것 등이 될 수 있습니다.
 

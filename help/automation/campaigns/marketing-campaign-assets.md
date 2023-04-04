@@ -3,7 +3,8 @@ product: campaign
 title: 마케팅 캠페인 자산, 문서 및 게재 개요
 description: 마케팅 캠페인 문서 및 게재 개요에 대해 자세히 알아보십시오
 feature: Campaigns
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
