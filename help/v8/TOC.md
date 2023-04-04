@@ -5,9 +5,9 @@ description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
 source-git-commit: 464898df7a362c137d20ebaf2b96bfef71131ae6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 94%
       + [게재 템플릿 작업](send/create-templates.md)
       + 이메일 {#emails}
          + [이메일 디자인 및 유효성 검사](send/email.md)
-         + [미러 페이지에 대한 링크](send/mirror-page.md)
+         + [미러 페이지로 가는 링크](send/mirror-page.md)
          + [이메일 보내기 및 모니터링](send/send.md)
       + [SMS](send/sms.md)
       + [푸시 알림](send/push.md)
@@ -57,7 +57,7 @@ ht-degree: 94%
       + [전송 시간 최적화](send/predictive.md)
       + [구독 관리](start/subscriptions.md)
       + 콘텐츠 개인화 {#personalize}
-         + [개인화 시작](send/personalize.md)
+         + [개인화 시작하기](send/personalize.md)
          + [개인화 데이터](send/personalization-data.md)
          + [개인화 필드 추가](send/personalization-fields.md)
          + [개인화 블록 사용](send/personalization-blocks.md)
