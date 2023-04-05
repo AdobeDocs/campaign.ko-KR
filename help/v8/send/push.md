@@ -5,31 +5,26 @@ feature: Push
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: d8ceefe1dd56aecb810878d99395ac900f889c2e
+source-git-commit: 1bcb1b3d1e6062a8b5c0368725248edfc7e3d1b4
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 5%
+source-wordcount: '1748'
+ht-degree: 3%
 
 ---
 
 # 푸시 알림 만들기 및 전송{#push-notifications-create}
 
-모바일 앱 게재를 사용하면 iOS 및 Android 시스템에 알림을 전송할 수 있습니다.
+모바일 앱 게재를 사용하면 iOS 및 Android 장치에 알림을 보낼 수 있습니다.
 
 Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합니다.
 
-1. Campaign 환경 구성
-1. 모바일 애플리케이션에 대한 모바일 애플리케이션 유형 정보 서비스를 만듭니다.
-1. 애플리케이션의 iOS 및 Android 버전을 이 서비스에 추가합니다.
-1. iOS 및 Android 모두에 대한 게재를 만듭니다.
-
-![](../assets/do-not-localize/book.png) 에서 모바일 앱을 시작하는 방법을 알아봅니다 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target="_blank"}
+1. SDK를 앱과 통합합니다. [자세히 알아보기](#push-sdk)
+1. 모바일 애플리케이션에 대한 모바일 애플리케이션 유형 정보 서비스를 만들고 해당 서비스에 애플리케이션의 iOS 및 Android 버전을 추가합니다. [자세히 알아보기](#push-config)
+1. iOS 및 Android 모두에 대한 게재를 만듭니다. [자세히 알아보기](#push-create)
 
 ## SDK 통합 {#push-sdk}
 
 데이터 수집 UI에서 Adobe Campaign 확장을 구성하여 Adobe Experience Platform Mobile SDK를 사용할 수 있습니다. Adobe Experience Platform Mobile SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 제공하는 데 도움이 됩니다. SDK 구성은 유연한 구성 및 확장 가능한 규칙 기반 통합을 위해 데이터 수집 UI를 통해 관리됩니다. [Adobe Developer 설명서에서 자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
-
-Adobe Experience Platform Mobile SDK를 구성 및 설치하는 방법을 알아봅니다 [이 비디오에서](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/configure-push-using-aep-mobile-sdk.html?lang=en){target="_blank"}.
 
 또한 Campaign SDK를 통합하여 모바일 애플리케이션을 Adobe Campaign 플랫폼에 쉽게 통합할 수 있습니다. 호환 가능한 SDK 버전은 [Campaign 호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK).
 
@@ -37,11 +32,131 @@ Adobe Experience Platform Mobile SDK를 구성 및 설치하는 방법을 알아
 
 ## Campaign에서 앱 설정 구성{#push-config}
 
-Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
+푸시 알림을 전송하기 전에 Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
 
-![](../assets/do-not-localize/book.png) iOS에 대한 구성 지침은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages){target="_blank"}
+푸시 알림은 전용 서비스를 통해 앱 사용자에게 전송됩니다. 사용자가 앱을 설치하면 이 서비스에 가입합니다. Adobe Campaign은 이 서비스를 사용하여 앱의 구독자만 타겟팅합니다. 이 서비스에서는 iOS 및 Android 장치에서 전송하기 위해 iOS 및 Android 앱을 추가해야 합니다.
 
-![](../assets/do-not-localize/book.png) Android에 대한 구성 지침은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages){target="_blank"}
+푸시 알림을 전송하는 서비스를 만들려면 아래 단계를 수행하십시오.
+
+1. 찾아보기 **[!UICONTROL Profiles and Targets > Services and Subscriptions]** 탭을 클릭한 다음 **[!UICONTROL Create]**.
+
+   ![](assets/new-service-push.png){width="800" align="left"}
+
+1. 을(를) 입력합니다. **[!UICONTROL Label]** 그리고 **[!UICONTROL Internal name]**, 을(를) 선택하고 을(를) 선택합니다. **[!UICONTROL Mobile application]** 유형.
+
+   >[!NOTE]
+   >
+   >기본값 **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** 대상 매핑은 수신자 테이블에 연결됩니다. 다른 대상 매핑을 사용하려면 새 대상 매핑을 생성하고 여기에 입력해야 합니다 **[!UICONTROL Target mapping]** 서비스의 필드입니다. 에서 타겟 매핑에 대해 자세히 알아보십시오 [이 페이지](../audiences/target-mappings.md).
+
+1. 그런 다음 **[!UICONTROL Add]** 아이콘을 클릭합니다.
+
+>[!BEGINTABS]
+
+>[!TAB iOS]
+
+iOS 장치용 앱을 만들려면 다음 단계를 수행하십시오.
+
+1. **[!UICONTROL Create an iOS application]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
+
+   ![](assets/new-ios-app.png){width="600" align="left"}
+
+1. 에 앱 이름을 입력합니다 **[!UICONTROL Label]** 필드.
+1. (선택 사항) 일부 항목을 사용하여 푸시 메시지 콘텐츠를 보강할 수 있습니다 **[!UICONTROL Application variables]**. 사용자 지정할 수 있으며 모바일 장치로 전송되는 메시지 페이로드의 일부입니다.
+
+   아래 예제에서 **mediaURL** 및 **mediaExt** 리치 푸시 알림을 만들기 위해 변수가 추가되고 알림 내에 표시할 이미지를 애플리케이션에 제공합니다.
+
+   ![](assets/ios-app-parameters.png){width="600" align="left"}
+
+1. 다음 위치로 이동합니다. **[!UICONTROL Subscription parameters]** 탭을 사용하여 확장 기능을 사용하는 매핑을 정의할 수 있습니다 **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 스키마.
+
+1. 다음 위치로 이동합니다. **[!UICONTROL Sounds]** 탭하여 재생할 사운드를 정의합니다. 클릭 **[!UICONTROL Add]** 및 채우기 **[!UICONTROL Internal name]** 응용 프로그램에 포함된 파일의 이름 또는 시스템 사운드의 이름을 포함해야 하는 필드입니다.
+
+1. 클릭 **[!UICONTROL Next]** 개발 애플리케이션 구성을 시작하려면 다음을 수행하십시오.
+
+1. 통합 키는 각 애플리케이션에만 적용됩니다. 모바일 애플리케이션을 Adobe Campaign에 연결합니다.
+
+   동일한 **[!UICONTROL Integration key]** 는 Adobe Campaign에 정의되며, SDK를 통해 애플리케이션 코드에 정의됩니다.
+
+   Campaign SDK를 사용하는 경우 자세히 알아보기[이 페이지](../config/push-config.md).
+
+
+   Adobe Experience Platform SDK(데이터 수집)를 사용하는 경우에서 자세히 알아보십시오 [이 페이지](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+
+
+   >[!NOTE]
+   >
+   > 다음 **[!UICONTROL Integration key]** 는 문자열 값으로 완전히 사용자 지정할 수 있지만 SDK에 지정된 값과 동일해야 합니다.
+   >
+   > 개발 버전(샌드박스) 및 응용 프로그램의 프로덕션 버전에 동일한 인증서를 사용할 수 없습니다.
+
+1. 에서 아이콘을 선택합니다 **[!UICONTROL Application icon]** 필드에서 모바일 애플리케이션을 개인화할 수 있습니다.
+
+1. **[!UICONTROL Authentication mode]**&#x200B;을(를) 선택합니다. 다음 두 가지 모드를 사용할 수 있습니다.
+
+   * (권장) **[!UICONTROL Token-based authentication]**: APNs 연결 설정 입력 **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** 및 **[!UICONTROL Bundle Id]** 그런 다음 를 클릭하여 p8 인증서를 선택합니다. **[!UICONTROL Enter the private key...]**. 자세한 내용 **[!UICONTROL Token-based authentication]**&#x200B;를 참조하려면 [Apple 설명서](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
+
+   * **[!UICONTROL Certificate-based authentication]**: 클릭 **[!UICONTROL Enter the certificate...]**  그런 다음 p12 키를 선택하고 모바일 애플리케이션 개발자가 제공한 암호를 입력합니다.
+   인증 모드를 나중에 **[!UICONTROL Certificate]** 모바일 애플리케이션의 탭입니다.
+
+1. 를 사용하십시오 **[!UICONTROL Test the connection]** 단추를 클릭하여 구성을 확인합니다.
+
+1. 클릭 **[!UICONTROL Next]** 프로덕션 애플리케이션 구성을 시작하고 위의 설명과 동일한 단계를 수행하십시오.
+
+1. **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
+
+이제 iOS 애플리케이션을 Campaign에서 사용할 준비가 되었습니다.
+
+>[!TAB Android]
+
+Android 장치용 앱을 만들려면 다음 단계를 수행하십시오.
+
+1. **[!UICONTROL Create an Android application]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
+
+   ![](assets/new-android-app.png){width="600" align="left"}
+
+1. 에 앱 이름을 입력합니다 **[!UICONTROL Label]** 필드.
+1. 통합 키는 각 애플리케이션에만 적용됩니다. 모바일 애플리케이션을 Adobe Campaign에 연결합니다.
+
+   동일한 **[!UICONTROL Integration key]** 는 Adobe Campaign에 정의되며, SDK를 통해 애플리케이션 코드에 정의됩니다.
+
+   Campaign SDK를 사용하는 경우 자세히 알아보기 [이 페이지](../config/push-config.md).
+
+   Adobe Experience Platform SDK(데이터 수집)를 사용하는 경우에서 자세히 알아보십시오 [이 페이지](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+
+
+   >[!NOTE]
+   >
+   > 다음 **[!UICONTROL Integration key]** 는 문자열 값으로 완전히 사용자 지정할 수 있지만 SDK에 지정된 값과 동일해야 합니다.
+
+1. 에서 아이콘을 선택합니다 **[!UICONTROL Application icon]** 필드에서 모바일 애플리케이션을 개인화할 수 있습니다.
+1. 선택 **HTTP v1** in  **[!UICONTROL API version]** 드롭다운 목록.
+1. 클릭 **[!UICONTROL Load project json file to extract project details...]** 링크를 클릭하여 JSON 키 파일을 로드합니다. JSON 파일을 추출하는 방법에 대한 자세한 내용은 [Google Firebase 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+
+   다음 세부 정보를 수동으로 입력할 수도 있습니다.
+   * **[!UICONTROL Project Id]**
+   * **[!UICONTROL Private Key]**
+   * **[!UICONTROL Client Email]**
+
+1. 를 사용하십시오 **[!UICONTROL Test the connection]** 단추를 클릭하여 구성을 확인합니다.
+
+   >[!CAUTION]
+   >
+   >다음 **[!UICONTROL Test connection]** 버튼은 MID 서버가 FCM 서버에 액세스할 수 있는지 확인하지 않습니다.
+
+1. (선택 사항) 일부 항목을 사용하여 푸시 메시지 콘텐츠를 보강할 수 있습니다 **[!UICONTROL Application variables]** 필요한 경우 사용자 지정할 수 있으며 모바일 장치로 전송되는 메시지 페이로드의 일부입니다.
+
+1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 이제 Android 애플리케이션을 Campaign에서 사용할 준비가 되었습니다.
+
+푸시 알림을 추가로 개인화하기 위한 FCM 페이로드 이름은 다음과 같습니다.
+
+| 메시지 유형 | 구성 가능한 메시지 요소(FCM 페이로드 이름) | 구성 가능한 옵션(FCM 페이로드 이름) |
+|:-:|:-:|:-:|
+| 데이터 메시지 | N/A | valid_only |
+| 알림 메시지 | 제목, body, android_channel_id, 아이콘, 사운드, 태그, 색상, click_action, 이미지, 티커, 가시성, notification_priority, notification_count <br> | valid_only |
+
+
+>[!ENDTABS]
+
 
 ## 첫 번째 푸시 알림 만들기{#push-create}
 
@@ -55,13 +170,11 @@ Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
 
 ![](assets/delivery_step_1.png)
 
-![](../assets/do-not-localize/book.png) 게재를 만드는 방법에 대한 글로벌 정보는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target="_blank"}
+>[!BEGINTABS]
 
-### iOS에서 알림 보내기 {#send-notifications-on-ios}
+>[!TAB iOS]
 
->[!NOTE]
->
->이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)을 참조하세요.
+iOS 장치에서 알림을 전송하려면 다음 단계를 수행합니다.
 
 1. 을(를) 선택합니다 **[!UICONTROL Deliver on iOS]** 게재 템플릿.
 
@@ -106,13 +219,9 @@ Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
       >[!NOTE]
       > 
       >사운드는 응용 프로그램에 포함되고 서비스를 만들 때 정의해야 합니다.
-      >
-      >iOS에 대한 구성 지침은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target="_blank"}.
    ![](assets/push_ios_5.png)
 
 1. 에서 **[!UICONTROL Application variables]** 탭, **[!UICONTROL Application variables]** 이 자동으로 추가됩니다. 알림 동작을 정의할 수 있도록 해줍니다. 예를 들어, 사용자가 알림을 활성화하면 표시되는 특정 애플리케이션 화면을 구성할 수 있습니다.
-
-   자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target="_blank"}.
 
 1. 에서 **[!UICONTROL Advanced]** 탭에서 다음 일반 옵션을 편집할 수 있습니다.
 
@@ -147,7 +256,10 @@ Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
 
    ![](assets/push-ios-preview.png)
 
-### Android에서 알림 보내기 {#send-notifications-on-android}
+
+>[!TAB Android]
+
+Android 장치에서 알림을 전송하려면 다음 단계를 수행합니다.
 
 1. 을(를) 선택합니다 **[!UICONTROL Deliver on Android (android)]** 게재 템플릿.
 
@@ -173,20 +285,16 @@ Adobe Campaign에서 iOS 및 Android 앱 설정을 정의해야 합니다.
 
    <!--![](assets/push-android-preview.png)-->
 
+>[!ENDTABS]
+
+
 ## 푸시 알림 테스트, 전송 및 모니터링
 
-증명을 보내고 최종 게재를 보내려면 이메일 게재와 동일한 프로세스를 사용합니다. Campaign Classic v7 설명서에서 자세히 알아보기:
+증명을 보내고 최종 게재를 보내려면 다른 게재와 동일한 프로세스를 사용하십시오.
 
-* 게재 유효성 검사 및 증명 보내기
-   ![](../assets/do-not-localize/book.png) [게재의 유효성을 검사하는 주요 단계를 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target="_blank"}
+에서 게재의 유효성을 검사하는 방법을 알아봅니다 [이 페이지](preview-and-proof.md).
 
-* 게재 확인 및 보내기
-   ![](../assets/do-not-localize/book.png) [게재를 보내는 주요 단계를 배웁니다.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html){target="_blank"}
+게재를 확인하고 보내는 방법을 알아봅니다 [이 페이지](send.md)
 
-메시지를 보낸 후 게재를 모니터링하고 추적할 수 있습니다. Campaign Classic v7 설명서에서 자세히 알아보기:
+메시지를 보낸 후 게재를 모니터링하고 추적할 수 있습니다. 푸시 알림 게재 실패 이유에 대해 자세히 알아보기 [이 페이지](delivery-failures.md#push-error-types).
 
-* 푸시 알림 격리
-   ![](../assets/do-not-localize/book.png) [푸시 알림 격리에 대한 자세한 정보](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#push-notification-quarantines){target="_blank"}
-
-* 문제 해결
-   ![](../assets/do-not-localize/book.png) [푸시 알림 문제 해결 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html){target="_blank"}
