@@ -4,7 +4,7 @@ description: 보내기 전에 게재의 유효성을 검사하는 방법을 알�
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: e0129524a051827a52de478c3fdc45b963d6c4bb
+source-git-commit: a6d2cb72968fe489a73f92f00f6a50be8ed3e997
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 4%
@@ -63,7 +63,7 @@ ht-degree: 4%
    >
    >시드 주소는 기본 수신자 테이블(nms:recipient)에 속하지 않고 별도의 테이블에 생성됩니다. 수신자 테이블을 새 데이터로 확장하는 경우, 시드 주소 테이블과 동일한 데이터를 확장해야 합니다.
 
-   의 시드 주소에 대해 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.htmll){target="_blank"}.
+   의 시드 주소에 대해 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
 * 를 사용하십시오 **[!UICONTROL Specific target and Seed addresses]** 시드 주소와 특정 이메일 주소를 결합하는 옵션. 그런 다음 관련 구성이 두 개의 개별 하위 탭에서 정의됩니다.
 
