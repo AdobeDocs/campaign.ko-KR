@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: 464898df7a362c137d20ebaf2b96bfef71131ae6
+source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,13 @@ ht-degree: 100%
       + [LINE 메시지 보내기](send/line.md)
       + [DM](send/direct-mail.md)
       + [Twitter](send/twitter.md)
-      + [트랜잭션 메시지 ](send/transactional.md)
+      + 트랜잭션 메시지  {#real-time}
+         + [트랜잭션 메시지 시작](send/transactional.md)
+         + [템플릿 만들기 및 게시](send/transactional-template.md)
+         + 이벤트 관리 {#event}
+         + [이벤트 수집 및 처리](send/event-processing.md)
+         + [이벤트 설명 이해](send/event-description.md)
+         + [메시지 보내기](send/delivery-execution.md)
       + 실패, 바운스, 격리{#failures}
          + [격리](send/quarantines.md)
          + [게재 실패](send/delivery-failures.md)
