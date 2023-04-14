@@ -5,10 +5,10 @@ feature: Push
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 1bcb1b3d1e6062a8b5c0368725248edfc7e3d1b4
+source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
 workflow-type: tm+mt
-source-wordcount: '1748'
-ht-degree: 3%
+source-wordcount: '1671'
+ht-degree: 4%
 
 ---
 
@@ -24,11 +24,12 @@ Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합
 
 ## SDK 통합 {#push-sdk}
 
-데이터 수집 UI에서 Adobe Campaign 확장을 구성하여 Adobe Experience Platform Mobile SDK를 사용할 수 있습니다. Adobe Experience Platform Mobile SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 제공하는 데 도움이 됩니다. SDK 구성은 유연한 구성 및 확장 가능한 규칙 기반 통합을 위해 데이터 수집 UI를 통해 관리됩니다. [Adobe Developer 설명서에서 자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+Adobe Campaign으로 푸시 알림을 전송하려면 Adobe Experience Platform Mobile SDK의 데이터 수집 UI에서 Adobe Campaign 확장을 구성해야 합니다.
 
-또한 Campaign SDK를 통합하여 모바일 애플리케이션을 Adobe Campaign 플랫폼에 쉽게 통합할 수 있습니다. 호환 가능한 SDK 버전은 [Campaign 호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK).
+Adobe Experience Platform Mobile SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 제공하는 데 도움이 됩니다. SDK 구성은 유연한 구성 및 확장 가능한 규칙 기반 통합을 위해 데이터 수집 UI를 통해 관리됩니다.
 
-에서 Campaign Android 및 iOS SDK를 앱과 통합하는 방법을 알아봅니다. [이 페이지](../config/push-config.md)
+[Adobe Developer 설명서에서 자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+
 
 ## Campaign에서 앱 설정 구성{#push-config}
 
@@ -77,10 +78,7 @@ iOS 장치용 앱을 만들려면 다음 단계를 수행하십시오.
 
    동일한 **[!UICONTROL Integration key]** 는 Adobe Campaign에 정의되며, SDK를 통해 애플리케이션 코드에 정의됩니다.
 
-   Campaign SDK를 사용하는 경우 자세히 알아보기[이 페이지](../config/push-config.md).
-
-
-   Adobe Experience Platform SDK(데이터 수집)를 사용하는 경우에서 자세히 알아보십시오 [이 페이지](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   추가 정보 [개발자 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
 
    >[!NOTE]
@@ -119,9 +117,7 @@ Android 장치용 앱을 만들려면 다음 단계를 수행하십시오.
 
    동일한 **[!UICONTROL Integration key]** 는 Adobe Campaign에 정의되며, SDK를 통해 애플리케이션 코드에 정의됩니다.
 
-   Campaign SDK를 사용하는 경우 자세히 알아보기 [이 페이지](../config/push-config.md).
-
-   Adobe Experience Platform SDK(데이터 수집)를 사용하는 경우에서 자세히 알아보십시오 [이 페이지](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   추가 정보 [개발자 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
 
    >[!NOTE]

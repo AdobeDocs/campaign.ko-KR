@@ -4,13 +4,13 @@ description: 조건부 콘텐츠 만들기 방법 알아보기
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+exl-id: bcbf3101-d43c-4ed3-ab02-a9936ec55b71
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 10%
 
 ---
-
 
 # 조건부 콘텐츠를 만듭니다{#conditional-content}
 
@@ -87,4 +87,3 @@ ht-degree: 10%
 다중 언어 뉴스레터의 예에 따라 게재에 조건부 콘텐츠를 추가하는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)
-

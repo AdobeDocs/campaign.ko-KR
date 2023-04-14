@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: b4593dd9fbb3e4742183719281ff0e5a78b9e6c8
+source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '339'
+ht-degree: 92%
 
 ---
 
@@ -55,10 +55,7 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 
 ## 모바일 SDK{#MobileSDK}
 
-Campaign으로 [푸시 알림](../send/push.md)을 보내려면 데이터 수집 UI에서 Adobe Campaign을 구성하여 Adobe Experience Platform Mobile SDK를 사용할 수 있습니다. 아래 목록의 Campaign SDK를 사용할 수도 있습니다.
-
-* **Android** 12, 9.0, 8.x, 7.x(Campaign Android SDK 빌드 1.1.1 설치).
-* **Apple iOS** 9 - 16(Campaign iOS SDK 빌드 1.0.26 포함)는 32비트 및 64비트 버전과 호환됩니다. Apple iOS 16은 Campaign v8.4부터 지원됩니다.
+보내려면 [푸시 알림](../send/push.md) campaign을 사용하는 경우 데이터 수집 UI에서 Adobe Campaign Classic 확장을 구성하여 Adobe Experience Platform Mobile SDK를 사용하십시오.
 
 
 ## 웹 액세스{#web-access}

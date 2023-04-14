@@ -4,7 +4,8 @@ description: 게재를 준비하고 확인하는 방법을 알아봅니다
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 51b333492ad50849751208c7549dc00f66140b82
+exl-id: 1526048d-9f02-4853-948f-8fb618670dbd
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -89,5 +90,3 @@ ht-degree: 0%
 * **[!UICONTROL Start job in a detached process]** : 이 옵션을 사용하면 별도의 프로세스에서 게재 분석을 시작할 수 있습니다. 분석 함수는 기본적으로 Adobe Campaign 애플리케이션 서버 프로세스(웹 nlserver)를 사용합니다. 이 옵션을 선택하면 애플리케이션 서버 장애 시에도 분석이 완료됩니다.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** : 이 옵션은 분석 단계 동안 게재 저널에 SQL 쿼리 로그를 추가합니다.
 * **[!UICONTROL Ignore personalization scripts during sending]** : 이 옵션을 사용하면 HTML 컨텐츠에 있는 JavaScript 지시문의 해석을 무시할 수 있습니다. 전달된 컨텐츠에 그대로 표시됩니다. 이러한 지시문은 `<%=` 태그에 가깝게 포함했습니다.
-
-
