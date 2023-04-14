@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 2a85ffc2fe3a839c14a5c844deaa7a09687743eb
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 1%
@@ -24,9 +24,9 @@ ht-degree: 1%
 * 고객 작업에 대한 개별 실시간 응답
 * 홍보되지 않는 콘텐츠
 
-![](../assets/do-not-localize/glass.png) 트랜잭션 메시지 설정은 [이 섹션](../config/transactional-msg-settings.md).
+트랜잭션 메시지 설정은 [이 섹션](../config/transactional-msg-settings.md).
 
-![](../assets/do-not-localize/glass.png) 트랜잭션 메시지 아키텍처 이해 [이 페이지](../architecture/architecture.md#transac-msg-archi).
+트랜잭션 메시지 아키텍처 이해 [이 페이지](../architecture/architecture.md#transac-msg-archi).
 
 ## 트랜잭션 메시지 작동 원리 {#transactional-messaging-operating-principle}
 
