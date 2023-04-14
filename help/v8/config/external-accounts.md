@@ -5,10 +5,10 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 6dee08f0f8673e5264f3cb111fe14493980a62fc
+source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -24,10 +24,12 @@ Adobe Campaign에서 외부 계정에 액세스할 수 있습니다 **[!UICONTRO
 
 
 >[!CAUTION]
+>* 관리 Cloud Services 사용자로서 외부 계정은 Adobe에 의해 인스턴스에 대해 구성되며 수정하면 안 됩니다.
+
 >
->의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 특정 **[!UICONTROL Full FDA]** (ffda) 외부 계정은 Campaign 로컬 데이터베이스와 클라우드 데이터베이스() 간의 연결을 관리합니다[!DNL Snowflake]).
+>* >의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 특정 **[!UICONTROL Full FDA]** (ffda) 외부 계정은 Campaign 로컬 데이터베이스와 클라우드 데이터베이스() 간의 연결을 관리합니다[!DNL Snowflake]).
 >
->관리 Cloud Services 사용자로서 외부 계정은 Adobe에 의해 인스턴스에 대해 구성되며 수정하면 안 됩니다.
+
 
 ## 캠페인 특정 외부 계정
 
@@ -38,8 +40,7 @@ Adobe Campaign에서 외부 계정에 액세스할 수 있습니다 **[!UICONTRO
 ### 바운스 메일 {#bounce-mails-external-account}
 
 >[!NOTE]
->
->POP3 기능에 대한 Microsoft Exchange Online OAuth 2.0 인증은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 다음을 참조하십시오 [이 섹션](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+POP3 기능에 대한 Microsoft Exchange Online OAuth 2.0 인증은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 다음을 참조하십시오 [이 섹션](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 다음 **바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일을 받을 수 있습니다.
 
@@ -77,8 +78,7 @@ Adobe Campaign에서 외부 계정에 액세스할 수 있습니다 **[!UICONTRO
 ![](assets/bounce_external_2.png)
 
 >[!IMPORTANT]
->
->Microsoft OAuth 2.0을 사용하여 POP3 외부 계정을 구성하기 전에 먼저 Azure 포털에서 응용 프로그램을 등록해야 합니다. 자세한 정보는 이 [페이지](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)를 참조하십시오.
+Microsoft OAuth 2.0을 사용하여 POP3 외부 계정을 구성하기 전에 먼저 Azure 포털에서 응용 프로그램을 등록해야 합니다. 자세한 내용은 다음을 참조하십시오 [페이지](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 Microsoft OAuth 2.0을 사용하여 POP3 외부 를 구성하려면 다음을 확인합니다. **[!UICONTROL Microsoft OAuth 2.0]** 옵션을 선택하고 다음 필드를 채웁니다.
 
@@ -105,8 +105,7 @@ Microsoft OAuth 2.0을 사용하여 POP3 외부 를 구성하려면 다음을 �
 다음 **[!UICONTROL Routing]** 외부 계정을 사용하면 설치된 패키지에 따라 Adobe Campaign에서 사용할 수 있는 각 채널을 구성할 수 있습니다.
 
 >[!CAUTION]
->
->다음 **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) 외부 계정 **필수가 아니어야 합니다.** Adobe Campaign v8에서 사용할 수 있습니다.
+다음 **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) 외부 계정 **필수가 아니어야 합니다.** Adobe Campaign v8에서 사용할 수 있습니다.
 
 ### 실행 인스턴스 {#execution-instance}
 
@@ -116,60 +115,30 @@ Microsoft OAuth 2.0을 사용하여 POP3 외부 를 구성하려면 다음을 �
 
 ## 외부 시스템 외부 계정에 대한 액세스
 
-* **외부 데이터베이스(FDA)**
-
-   다음 **외부 데이터베이스** 유형 외부 계정은 FDA(Federated Data Access)를 통해 외부 데이터베이스에 연결하는 데 사용됩니다.
+* **외부 데이터베이스(FDA)** - **외부 데이터베이스** 유형 외부 계정은 FDA(Federated Data Access)를 통해 외부 데이터베이스에 연결하는 데 사용됩니다. 에서 FDA(Federated Data Access) 옵션에 대해 자세히 알아보십시오 [이 섹션](../connect/fda.md).
 
    Adobe Campaign v8과 호환되는 외부 데이터베이스는 [호환성 매트릭스](../start/compatibility-matrix.md)
 
-   ![](../assets/do-not-localize/glass.png) 에서 FDA(Federated Data Access) 옵션에 대해 자세히 알아보십시오 [이 섹션](../connect/fda.md).
-
-* **Twitter**
-
-   다음 **Twitter** 유형 외부 계정은 Campaign을 twitter 계정에 연결하고 사용자를 대신하여 메시지를 게시하는 데 사용됩니다.
-
-   ![](../assets/do-not-localize/glass.png) 의 Twitter 통합에 대해 자세히 알아보십시오 [이 섹션](../connect/ac-tw.md).
+* **Twitter** - **Twitter** 유형 외부 계정은 Campaign을 twitter 계정에 연결하고 사용자를 대신하여 메시지를 게시하는 데 사용됩니다. 의 Twitter 통합에 대해 자세히 알아보십시오 [이 섹션](../connect/ac-tw.md).
 
 ## Adobe 솔루션 통합 외부 계정
 
-* **Adobe Experience Cloud**
+* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]** 외부 계정은 IMS(Adobe Identity Management 서비스)를 구현하여 Adobe Campaign에 연결하는 데 사용됩니다. 의 IMS(Adobe Identity Management Service)에 대해 자세히 알아보십시오 [이 섹션](../start/connect.md#connect-ims).
 
-   다음 **[!UICONTROL Adobe Experience Cloud]** 외부 계정은 IMS(Adobe Identity Management 서비스)를 구현하여 Adobe Campaign에 연결하는 데 사용됩니다.
+* **웹 분석** - **[!UICONTROL Web Analytics (Adobe Analytics)]** 외부 계정은 Adobe Analytics에서 Adobe Campaign으로 데이터 전송을 구성하는 데 사용됩니다. Adobe Campaign - Adobe Analytics 통합에 대해 자세히 알아보기 [이 페이지](../connect/ac-aa.md).
 
-   ![](../assets/do-not-localize/glass.png) 의 IMS(Adobe Identity Management Service)에 대해 자세히 알아보십시오 [이 섹션](../start/connect.md#connect-ims).
-
-* **웹 분석**
-
-   다음 **[!UICONTROL Web Analytics (Adobe Analytics)]** 외부 계정은 Adobe Analytics에서 Adobe Campaign으로 데이터 전송을 구성하는 데 사용됩니다.
-
-   ![](../assets/do-not-localize/glass.png) Adobe Campaign - Adobe Analytics 통합에 대해 자세히 알아보기 [이 페이지](../connect/ac-aa.md).
-
-* **Adobe Experience Manager**
-
-   다음 **[!UICONTROL AEM]** 외부 계정을 사용하면 Adobe Experience Manager에서 직접 양식을 비롯한 이메일 게재 콘텐츠를 관리할 수 있습니다.
-
-   ![](../assets/do-not-localize/glass.png) Adobe Campaign - Adobe Analytics 통합에 대해 자세히 알아보기 [이 페이지](../connect/ac-aem.md).
+* **Adobe Experience Manager** - **[!UICONTROL AEM]** 외부 계정을 사용하면 Adobe Experience Manager에서 직접 양식을 비롯한 이메일 게재 콘텐츠를 관리할 수 있습니다. Adobe Campaign - Adobe Analytics 통합에 대해 자세히 알아보기 [이 페이지](../connect/ac-aem.md).
 
 
 ## CRM 커넥터 외부 계정
 
-* **Microsoft Dynamics CRM**
+* **Microsoft Dynamics CRM** - **[!UICONTROL Microsoft Dynamics CRM]** 외부 계정을 사용하여 Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. Adobe Campaign - Microsoft Dynamics CRM 통합에서 자세한 내용을 알아보십시오. [이 페이지](../connect/ac-ms-dyn.md).
 
-   다음 **[!UICONTROL Microsoft Dynamics CRM]** 외부 계정을 사용하여 Microsoft Dynamics 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
-
-   ![](../assets/do-not-localize/glass.png) Adobe Campaign - Microsoft Dynamics CRM 통합에서 자세한 내용을 알아보십시오. [이 페이지](../connect/ac-ms-dyn.md).
-
-* **Salesforce.com**
-
-   다음 **[!UICONTROL Salesforce CRM]** 외부 계정을 사용하면 Salesforce 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다.
-
-   ![](../assets/do-not-localize/glass.png) 의 Adobe Campaign - Salesforce.com CRM 통합에 대해 자세히 알아보십시오. [이 페이지](../connect/ac-sfdc.md).
+* **Salesforce.com** - **[!UICONTROL Salesforce CRM]** 외부 계정을 사용하면 Salesforce 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있습니다. 의 Adobe Campaign - Salesforce.com CRM 통합에 대해 자세히 알아보십시오. [이 페이지](../connect/ac-sfdc.md).
 
 ## 데이터 외부 계정 전송
 
-이러한 외부 계정은 데이터를 **[!UICONTROL Transfer file]** 워크플로우 활동.
-
-워크플로우의 파일 전송에 대해 자세히 알아보십시오 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
+이러한 외부 계정은 데이터를 **[!UICONTROL Transfer file]** 워크플로우 활동. 워크플로우의 파일 전송에 대해 자세히 알아보십시오 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
 
 * **FTP 및 SFTP**
 

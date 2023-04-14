@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 96%
+source-wordcount: '543'
+ht-degree: 95%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 96%
          + 이벤트 관리 {#event}
          + [이벤트 수집 및 처리](send/event-processing.md)
          + [이벤트 설명 이해](send/event-description.md)
-         + [메시지 보내기](send/delivery-execution.md)
+         + [메시지 보내기 및 모니터링](send/delivery-execution.md)
       + 실패, 바운스, 격리{#failures}
          + [격리](send/quarantines.md)
          + [게재 실패](send/delivery-failures.md)
