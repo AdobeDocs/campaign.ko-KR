@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 95%
+source-wordcount: '550'
+ht-degree: 94%
 
 ---
 
@@ -166,10 +166,11 @@ ht-degree: 95%
       + [구현 단계](start/implement.md)
       + [인스턴스 사용자 정의](dev/customize.md)
       + [데이터 모델 모범 사례](dev/datamodel-best-practices.md)
-   + 구성 {#configuration}
+   + 설정 및 구성 {#configuration}
+      + [사용자 인터페이스 설정](config/ui-settings.md)
       + [이메일 설정](config/email-settings.md)
       + [트랜잭션 메시지 설정](config/transactional-msg-settings.md)
-      + [Campaign SDK와 앱 통합](config/push-config.md)
+      + [Campaign SDK와 앱 통합 - 사용되지 않는 페이지](config/push-config.md)
       + [외부 계정](config/external-accounts.md)
 + 개발자 리소스 {#developer}
    + [Campaign 데이터 모델](dev/datamodel.md)
