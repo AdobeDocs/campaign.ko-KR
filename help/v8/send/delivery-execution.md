@@ -4,13 +4,13 @@ description: 트랜잭션 메시지 보내기 및 모니터링 방법 알아보�
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
-source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
+exl-id: 084607f6-47d8-40c0-89ba-bfbb88fc2e53
+source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '778'
+ht-degree: 2%
 
 ---
-
 
 # 트랜잭션 메시지 보내기 및 모니터링 {#delivery-execution}
 
@@ -110,4 +110,3 @@ Adobe Campaign에서는 활동을 제어하고 실행 인스턴스의 원활한 
 1. 임계값을 변경하려면 화살표를 사용합니다.
 
    ![](assets/mc-thresholds.png)
-
