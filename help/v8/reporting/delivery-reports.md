@@ -3,9 +3,9 @@ title: Adobe Campaign 기본 제공 게재 보고서
 description: Adobe Campaign 기본 제공 게재 보고서
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1021'
 ht-degree: 2%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 2%
 >
 >이 보고서에 표시되는 도메인 이름은 큐브 수준에서 사용되는 항목별 목록에서 정의됩니다. 기본 도메인을 변경하거나 추가하려면 **[!UICONTROL Domains]** 항목화된 목록 및 값 및 별칭을 수정합니다. 다음 **[!UICONTROL Others]** 카테고리에는 항목별 목록 값에 속하지 않는 도메인 이름이 포함되어 있습니다.
 >
->에서 열거형에 액세스하고 구성하는 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+>에서 열거형에 액세스하고 구성하는 방법을 알아봅니다. [이 페이지](../config/ui-settings.md).
 
 
 **[!UICONTROL 4. Generated click streams]**
