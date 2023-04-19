@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: use-cases
 feature: Workflows, Data Management
 exl-id: 4fe2ae81-faa6-4777-a332-70c451bca75b
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # 열거형 유형 계산 필드 추가 {#adding-an-enumeration-type-calculated-field}
-
-
 
 여기에서는 **[!UICONTROL Enumerations]** 계산된 필드를 입력합니다. 이 필드는 데이터 미리 보기 창에서 추가 열을 생성합니다. 이 열에는 각 수신자(0, 1 및 2)에 대한 결과로 반환되는 숫자 값이 지정됩니다. 새 열의 각 값에 성이 할당됩니다. &quot;1&quot;의 경우 &quot;Male&quot;, &quot;2&quot;의 경우 &quot;Female&quot; 또는 &quot;Not indicated&quot;의 경우 값이 &quot;0&quot;입니다.
 
