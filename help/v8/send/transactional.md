@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 2a85ffc2fe3a839c14a5c844deaa7a09687743eb
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1510'
 ht-degree: 1%
 
 ---
@@ -57,10 +57,8 @@ When [메시지 템플릿 만들기](#create-message-template)을 지정하면 �
 
 Adobe Campaign에서 처리할 이벤트 유형을 만들려면 아래 단계를 수행하십시오.
 
-1. 로 이동합니다. **[!UICONTROL Administration > Platform > Enumerations]** 트리의 폴더.
-
-1. 선택 **[!UICONTROL Event type]** 참조하십시오.
-
+1. 다음 위치로 이동합니다. **[!UICONTROL Administration > Platform > Enumerations]** 캠페인 탐색기의 폴더.
+1. 을(를) 선택합니다 **[!UICONTROL Event type]** 목록의 열거형입니다.
 1. 클릭 **[!UICONTROL Add]** 열거형 값을 만들려면 주문 확인, 암호 변경, 주문 전달 변경 등이 가능합니다.
 
    ![](assets/messagecenter_eventtype_enum_001.png)
@@ -73,7 +71,8 @@ Adobe Campaign에서 처리할 이벤트 유형을 만들려면 아래 단계를
 
 >[!NOTE]
 >
->의 항목별 목록에 대해 자세히 알아보십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+>의 열거형에 대해 자세히 알아보기 [이 페이지](../../v8/config/ui-settings.md#enumerations).
+
 
 ## 트랜잭션 메시지 템플릿 정의 {#create-message-template}
 
