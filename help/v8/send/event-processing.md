@@ -4,13 +4,13 @@ description: Campaign 트랜잭션 메시징이 이벤트를 수집하고 처리
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
+source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 1%
 
 ---
-
 
 # 이벤트 처리 {#event-processing}
 
@@ -102,6 +102,3 @@ ht-degree: 1%
 >[!CAUTION]
 >
 >이 단계는 워크플로우를 사용해야만 수행할 수 있으며, 따라서 전문가 사용자를 위해 예약되어 있습니다. 자세한 내용은 Adobe 계정 담당자에게 문의하십시오.
-
-
-
