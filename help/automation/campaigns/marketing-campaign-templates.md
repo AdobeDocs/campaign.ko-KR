@@ -4,9 +4,9 @@ title: 마케팅 캠페인 템플릿
 description: 마케팅 캠페인 템플릿
 feature: Campaigns, Templates
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '987'
 ht-degree: 5%
 
 ---
@@ -167,7 +167,7 @@ ht-degree: 5%
 * 을(를) 입력합니다. **레이블** 템플릿: 레이블은 필수이며 이 템플릿을 기반으로 하는 모든 캠페인에 대한 기본 레이블입니다.
 * 캠페인을 선택합니다 **자연** 드롭다운 목록에서 을 선택합니다. 이 목록에서 사용할 수 있는 값은 **[!UICONTROL natureOp]** 열거형.
 
-에서 열거형에 액세스하고 구성하는 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+에서 열거형에 액세스하고 구성하는 방법을 알아봅니다. [이 페이지](../../v8/config/ui-settings.md#enumerations).
 
 
 * 을(를) 선택합니다 **캠페인 유형**: 고유, 반복 또는 주기적. 기본적으로 캠페인 템플릿은 고유한 캠페인에 적용됩니다. 반복 및 주기적 캠페인은 [이 섹션](recurring-periodic-campaigns.md).
