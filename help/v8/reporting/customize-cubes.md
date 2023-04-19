@@ -6,9 +6,9 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1431'
 ht-degree: 2%
 
 ---
@@ -64,6 +64,8 @@ SQL 마스크를 사용하여 여러 값을 필터에 결합할 수 있습니다
 
    열거형 값이 업데이트될 때마다 일치하는 저장소가 자동으로 조정됩니다.
 
+의 열거형에 대해 자세히 알아보기 [이 페이지](../../v8/config/ui-settings.md#enumerations).
+
 ### 값 범위 만들기 {#create-value-ranges}
 
 원하는 간격을 기준으로 값을 범위로 그룹화할 수 있습니다.
@@ -111,6 +113,8 @@ Adobe Campaign은 또한 다음 예와 같이 데이터베이스에 있는 모�
 다음 **[!UICONTROL Domains]** 열거형은 도메인 목록을 표시하는 기본 제공 보고서를 생성하는 데 사용됩니다. 이러한 보고서의 컨텐츠를 조정하기 위해 이 목록을 편집할 수 있습니다.
 
 시작 예약된 다른 열거형을 만들어 다른 큐브에 사용할 수 있습니다. 모든 별칭 값은 첫 번째 열거형 탭에 지정된 저장소에 다시 그룹화됩니다.
+
+의 열거형에 대해 자세히 알아보기 [이 페이지](../../v8/config/ui-settings.md#enumerations).
 
 ## 큐브의 합계 {#calculate-and-use-aggregates}
 
