@@ -5,9 +5,9 @@ feature: Application Settings
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: a11d3895-00f1-43d0-b0f7-330fce9fd56b
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,7 @@ Campaign 사용자 인터페이스의 드롭다운 목록에서 값을 선택할
 
 대상 **열기** 열거형에서는 값에 첫 번째 문자를 입력할 수도 있으며 가능한 값이 표시됩니다.
 
-에서 열거형에 액세스하고 구성하는 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
-
+의 열거형에 대해 자세히 알아보기 [이 페이지](../../v8/config/ui-settings.md#enumerations).
 
 ## 기본 단위 {#default-units}
 
