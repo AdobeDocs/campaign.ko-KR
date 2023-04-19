@@ -5,7 +5,7 @@ version: v8
 feature: Application Settings
 role: Admin, Developer
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 0b4483e0f16f14582a1a4bc28b0e1ff719823ef3
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 1%
@@ -89,7 +89,7 @@ ht-degree: 1%
    ![새 별칭 만들기](assets/define-new-alias.png)
 
 
->[!CAUTION]
+>[!NOTE]
 >
 >에서 별칭 발생 항목을 추적할 수 있습니다 **[!UICONTROL Hits]** 열 **[!UICONTROL Alias]** 하위 탭. 이 값을 입력한 횟수를 표시할 수 있습니다.  [자세히 알아보기](#calculate-entry-occurrences)
 
