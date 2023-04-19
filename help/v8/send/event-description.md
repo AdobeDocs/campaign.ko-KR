@@ -4,13 +4,13 @@ description: SOAP 메서드를 사용하여 Adobe Campaign Classic에서 트랜�
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3
+source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
 
 ---
-
 
 # 이벤트 설명 이해 {#about-event-desc}
 
@@ -225,4 +225,3 @@ Adobe Campaign이 이벤트를 수신하면 고유한 반환 ID를 생성합니�
       </SOAP-ENV:Body>
    </SOAP-ENV:Envelope>
    ```
-
