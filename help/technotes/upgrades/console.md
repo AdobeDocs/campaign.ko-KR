@@ -4,9 +4,9 @@ title: 클라이언트 콘솔 32비트 사용 중단
 description: 클라이언트 콘솔 32비트 사용 중단
 hide: true
 hidefromtoc: true
-source-git-commit: 52fd89d9b8b19e096173e1660982382215dad5dc
+source-git-commit: dd3490f43016cb7f6e0ccc5c171d78b8ee3ca234
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -39,13 +39,15 @@ ht-degree: 1%
 
 +++더 이상 32비트 운영 체제를 지원하지 않는 Campaign v8 버전은 무엇입니까?
 
-8.5부터 모든 Campaign v8 릴리스는 더 이상 32비트 운영 체제를 지원하지 않습니다.
+8.6부터 모든 Campaign v8 릴리스는 더 이상 32비트 운영 체제를 지원하지 않습니다.
 
 +++
 
 +++Windows(32비트)에서 Windows(64비트) 운영 체제로 업그레이드하려면 어떻게 합니까?
 
 컴퓨터 프로세서가 64비트 운영 체제 설치를 지원하는지 확인하십시오. 32비트 버전에서 64비트 버전의 Windows로 업그레이드하려면 하드 디스크를 다시 포맷하고 64비트 버전의 Windows를 설치한 다음 장치에 제공된 모든 것을 다시 설치해야 합니다. 자세한 내용은 [32비트 및 64비트 Windows: FAQ](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
+
++++
 
 +++ 32비트 컴퓨터 또는 64비트를 사용하고 있는지 확인하려면 어떻게 해야 합니까?
 
