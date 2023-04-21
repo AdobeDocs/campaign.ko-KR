@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
+source-git-commit: dcb12339d891c61f308cf7b7e518784f3ba1ff31
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 92%
+source-wordcount: '385'
+ht-degree: 81%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 92%
 ## 클라이언트 콘솔{#ClientConsoleoperatingsystems}
 
 Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다. [자세히 알아보기](connect.md)
+
+>[!NOTE]
+>
+>32비트 버전의 클라이언트 콘솔은 8.5 릴리스에서 더 이상 사용되지 않습니다. 8.6부터 클라이언트 콘솔은 64비트 내에서만 사용할 수 있습니다. 운영 체제를 업그레이드하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [기술 정보](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
 
 ### 운영 체제{#op-systems}
 
