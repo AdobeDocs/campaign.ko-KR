@@ -4,20 +4,16 @@ title: 클라이언트 콘솔 32비트 사용 중단
 description: 클라이언트 콘솔 32비트 사용 중단
 hide: true
 hidefromtoc: true
-source-git-commit: dcb12339d891c61f308cf7b7e518784f3ba1ff31
+source-git-commit: 52fd89d9b8b19e096173e1660982382215dad5dc
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
 
 # 32비트 운영 체제에서 지원 종료 | Adobe Campaign v8 {#console-eol}
 
-<!--
-The 32-bit version of Campaign v8 Client Console will be deprecated in 8.5 release. Starting 8.6, the Client Console will only be available in 64-bits.
--->
-
-8.5 릴리스부터 Campaign v8은 제품 및 보안 업데이트를 포함한 32비트 운영 체제를 더 이상 지원하지 않습니다. Adobe은 보안 업데이트를 최신 상태로 유지할 것을 강력히 권장합니다.
+32비트 버전의 클라이언트 콘솔은 8.5 릴리스에서 더 이상 사용되지 않습니다. 8.6 릴리스부터 Campaign v8은 제품 및 보안 업데이트를 포함한 32비트 운영 체제를 더 이상 지원하지 않습니다. Adobe은 보안 업데이트를 최신 상태로 유지할 것을 강력히 권장합니다.
 
 ## 지원 종료
 
