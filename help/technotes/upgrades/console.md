@@ -4,10 +4,10 @@ title: 클라이언트 콘솔 32비트 사용 중단
 description: 클라이언트 콘솔 32비트 사용 중단
 hide: true
 hidefromtoc: true
-source-git-commit: dd3490f43016cb7f6e0ccc5c171d78b8ee3ca234
+source-git-commit: 87e8ef65a2fea2f0d019babc69ed8a8a74017aa6
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,11 +53,11 @@ ht-degree: 1%
 
 **WINDOWS 10 및 WINDOWS 8.1**
 
-1. 시작 단추를 선택한 다음 을 선택합니다 **설정** > **시스템** > **정보**.
-1. 오른쪽 아래 **장치 사양**&#x200B;를 참조하십시오. **시스템 유형**.
+1. 을(를) 클릭합니다. **시작** 단추를 누른 다음 **설정** > **시스템** > **정보**.
+1. 아래 **장치 사양**&#x200B;를 참조하십시오. **시스템 유형**.
 
 **WINDOWS 7**
-1. 을(를) 선택합니다 **시작** 단추, 마우스 오른쪽 단추 클릭 **컴퓨터**&#x200B;를 선택한 다음 을 선택합니다. **속성**.
+1. 을(를) 선택합니다 **시작** 단추, 마우스 오른쪽 단추 클릭 **컴퓨터** 을(를) 선택합니다. **속성**.
 1. 아래 **시스템**&#x200B;시스템 유형을 참조하십시오.
 
 자세한 내용은 [32비트 및 64비트 Windows: FAQ](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
