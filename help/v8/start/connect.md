@@ -5,7 +5,7 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 445e62c290466003886f2dc49386d0c1edb80eeb
+source-git-commit: 7f27dbdd0ff53cd7437f956ccfef3d792020893b
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 3%
@@ -83,7 +83,7 @@ Campaign 사용자는 IMS(Adobe Identity Management System)를 통해 Adobe ID�
 
 1. **[!UICONTROL Ok]**&#x200B;를 클릭합니다.
 
-그런 다음 [Adobe ID](#connect-ims).
+그런 다음 Adobe ID으로 Campaign에 로그인할 수 있습니다.
 
 ![](assets/adobeID.png)
 

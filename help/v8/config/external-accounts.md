@@ -5,7 +5,7 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 7b8a9a323afc3154e250b4c70c4339d6c6c265c0
+source-git-commit: 7f27dbdd0ff53cd7437f956ccfef3d792020893b
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 4%
@@ -101,7 +101,7 @@ Microsoft OAuth 2.0을 사용하여 POP3 외부 를 구성하려면 다음을 �
 
 ## Adobe 솔루션 통합 외부 계정
 
-* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]** 외부 계정은 IMS(Adobe Identity Management 서비스)를 구현하여 Adobe Campaign에 연결하는 데 사용됩니다. 의 IMS(Adobe Identity Management Service)에 대해 자세히 알아보십시오 [이 섹션](../start/connect.md#connect-ims).
+* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]** 외부 계정은 IMS(Adobe Identity Management 서비스)를 구현하여 Adobe Campaign에 연결하는 데 사용됩니다. 의 IMS(Adobe Identity Management Service)에 대해 자세히 알아보십시오 [이 섹션](../start/connect.md#logon-to-ac).
 
 * **웹 분석** - **[!UICONTROL Web Analytics (Adobe Analytics)]** 외부 계정은 Adobe Analytics에서 Adobe Campaign으로 데이터 전송을 구성하는 데 사용됩니다. Adobe Campaign - Adobe Analytics 통합에 대해 자세히 알아보기 [이 페이지](../connect/ac-aa.md).
 
