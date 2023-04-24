@@ -8,7 +8,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6e
 source-git-commit: dcb12339d891c61f308cf7b7e518784f3ba1ff31
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 81%
+ht-degree: 88%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 
 ## 모바일 SDK{#MobileSDK}
 
-보내려면 [푸시 알림](../send/push.md) campaign을 사용하는 경우 데이터 수집 UI에서 Adobe Campaign Classic 확장을 구성하여 Adobe Experience Platform Mobile SDK를 사용하십시오.
+Campaign으로 [푸시 알림](../send/push.md)을 보내려면 데이터 수집 UI에서 Adobe Campaign Classic을 구성하여 Adobe Experience Platform Mobile SDK를 사용합니다.
 
 
 ## 웹 액세스{#web-access}

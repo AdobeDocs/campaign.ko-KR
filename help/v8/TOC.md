@@ -7,7 +7,7 @@ title: Campaign v8 문서
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 94%
          + 이벤트 관리 {#event}
          + [이벤트 수집 및 처리](send/event-processing.md)
          + [이벤트 설명 이해](send/event-description.md)
-         + [메시지 보내기 및 모니터링](send/delivery-execution.md)
+         + [메시지 전송 및 모니터링](send/delivery-execution.md)
       + 실패, 바운스, 격리{#failures}
          + [격리](send/quarantines.md)
          + [게재 실패](send/delivery-failures.md)
