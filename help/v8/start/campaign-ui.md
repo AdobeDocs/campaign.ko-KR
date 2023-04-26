@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: eed3396584940f99a865eef2358887b6bf5c4936
+source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 9%
@@ -74,10 +74,9 @@ Campaign에 연결되면 홈 페이지에 액세스합니다. 기능에 액세�
 
 왼쪽 섹션에는 Campaign Explorer 트리가 표시되고 권한에 따라 인스턴스의 모든 구성 요소 및 설정을 찾을 수 있습니다.
 
-상단 섹션에는 현재 폴더의 레코드 목록이 표시됩니다. 이러한 목록은 사용자 지정이 가능합니다. [자세히 알아보기](customize-ui.md)
+상단 섹션에는 현재 폴더의 레코드 목록이 표시됩니다. 이러한 목록은 사용자 지정이 가능합니다. [자세히 알아보기](../config/ui-settings.md)
 
 아래 섹션에는 선택한 레코드의 세부 정보가 표시됩니다.
-
 
 ## 언어{#languages}
 
@@ -96,7 +95,6 @@ Campaign v8 사용자 인터페이스 제공 언어:
 >인스턴스를 만든 후에는 언어를 변경할 수 없습니다.
 
 언어는 날짜 및 시간 형식에 영향을 줍니다.
-
 
 미국 영어 및 영국 영어 간의 주요 차이점은 다음과 같습니다.
 

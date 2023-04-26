@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '547'
 ht-degree: 98%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 98%
    + [Campaign에 연결](start/connect.md)
    + Campaign UI {#ac-ui}
       + [Campaign 인터페이스 살펴보기](start/campaign-ui.md)
-      + [Campaign 인터페이스 사용자 정의](start/customize-ui.md)
       + [폴더 및 보기 관리](audiences/folders-and-views.md)
    + [Classic v7에서 v8까지](start/v7-to-v8.md)
    + [FAQ](start/campaign-faq.md)
