@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 11%
@@ -46,7 +46,7 @@ Adobe Campaign 플랫폼을 **CRM 타사 시스템** 및 데이터를 동기화�
 채널 간 통신에서 CRM 데이터 활성화: crm 시스템에서 Adobe Campaign으로 연락처를 전달하고 Adobe Campaign에서 CRM 시스템으로 캠페인 데이터를 다시 공유하는 방법을 알아봅니다.
 CRM 커넥터를 사용하면 빠르고 손쉽게 데이터를 통합할 수 있습니다. Adobe Campaign은 CRM에서 사용할 수 있는 테이블을 수집하고 선택하는 전용 도우미를 제공합니다. 이렇게 하면 시스템 전체에서 항상 데이터가 최신 상태로 유지되도록 양방향 동기화를 보장합니다.
 
-![](../assets/do-not-localize/glass.png) 에서 Microsoft Dynamics 365 및 Salesforce.com과 Campaign을 통합하는 방법을 알아봅니다. [이 페이지](crm.md)
+에서 Microsoft Dynamics 365 및 Salesforce.com과 Campaign을 통합하는 방법을 알아봅니다. [이 페이지](crm.md)
 
 ## 타사와 페더레이션 데이터 액세스 연결{#gs-fda}
 
@@ -64,6 +64,6 @@ Adobe Campaign을 사용하여 Twitter을 통해 고객 및 잠재 고객과 교
 * twitter 계정에 트윗 게시
 * 새 연락처 수집
 
-![](../assets/do-not-localize/glass.png) 에서 Twitter 통합을 설정하고 사용하는 방법을 알아봅니다. [이 페이지](../connect/ac-tw.md).
+에서 Twitter 통합을 설정하고 사용하는 방법을 알아봅니다. [이 페이지](../connect/ac-tw.md).
 
-![](../assets/do-not-localize/glass.png) 에서 Twitter 게시물을 만들고 팔로워에게 직접 메시지를 보내는 방법을 배웁니다 [이 페이지](../send/twitter.md).
+에서 Twitter 게시물을 만들고 팔로워에게 직접 메시지를 보내는 방법을 배웁니다 [이 페이지](../send/twitter.md).

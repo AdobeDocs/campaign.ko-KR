@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1491'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Adobe Campaign을 사용하면 장바구니에 제품을 추가한 고객에게 
 1. [메시지 테스트](#test-message-template).
 1. [메시지 템플릿을 게시합니다](#publish-message-template).
 
-트랜잭션 메시지 템플릿을 디자인하고 게시하면 해당 이벤트가 트리거되는 경우 PushEvent 및 PushEvents를 통해 관련 데이터가 Campaign으로 전송됩니다 [SOAP 메서드](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target="_blank"}타겟팅된 수신자에게 게재를 전송합니다.
+트랜잭션 메시지 템플릿을 디자인하고 게시하면 해당 이벤트가 트리거되는 경우 PushEvent 및 PushEvents를 통해 관련 데이터가 Campaign으로 전송됩니다 [SOAP 메서드](../send/event-description.md)타겟팅된 수신자에게 게재를 전송합니다.
 
 ## 이벤트 유형 만들기 {#create-event-types}
 
@@ -196,9 +196,7 @@ This information enables you to personalize message content using personalizatio
 
 이전에 만든 시드 주소로 증명을 보내 메시지 전달을 테스트할 수 있습니다.
 
-증명 전송에는 게재와 동일한 프로세스가 포함됩니다.
-
-![](../assets/do-not-localize/book.png) 에서 증명에 대해 자세히 알아보십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target="_blank"}
+증명 전송에는 게재와 동일한 프로세스가 포함됩니다. 에서 증명에 대해 자세히 알아보십시오 [이 섹션](../send/preview-and-proof.md).
 
 그러나 트랜잭션 메시지의 증명을 보내려면 다음 작업을 수행해야 합니다.
 

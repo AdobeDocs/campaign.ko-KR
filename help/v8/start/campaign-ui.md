@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '524'
 ht-degree: 9%
 
 ---
@@ -72,11 +72,11 @@ Campaign에 연결되면 홈 페이지에 액세스합니다. 기능에 액세�
 
 이 작업공간을 사용하면 탐색기 트리에 액세스하여 모든 기능과 옵션을 검색할 수 있습니다.
 
-왼쪽 섹션에는 Campaign Explorer 트리가 표시되고 권한에 따라 인스턴스의 모든 구성 요소 및 설정을 찾을 수 있습니다.
+* 왼쪽 섹션에는 Campaign Explorer 트리가 표시되고 권한에 따라 인스턴스의 모든 구성 요소 및 설정을 찾을 수 있습니다. 에 설명된 대로 폴더를 추가 및 사용자 지정할 수 있습니다. [이 페이지](../audiences/folders-and-views.md).
 
-상단 섹션에는 현재 폴더의 레코드 목록이 표시됩니다. 이러한 목록은 사용자 지정이 가능합니다. [자세히 알아보기](../config/ui-settings.md)
+* 상단 섹션에는 현재 폴더의 레코드 목록이 표시됩니다. 이러한 목록은 사용자 지정이 가능합니다. [자세히 알아보기](../config/ui-settings.md)
 
-아래 섹션에는 선택한 레코드의 세부 정보가 표시됩니다.
+* 아래 섹션에는 선택한 레코드의 세부 정보가 표시됩니다.
 
 ## 언어{#languages}
 

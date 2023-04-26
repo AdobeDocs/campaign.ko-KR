@@ -5,7 +5,7 @@ feature: Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Adobe Campaign 관리 Cloud Service 대상 및 소스 커넥터를 사용하면 Adobe Campaign과 Adobe Experience Platform 간에 원활하게 통합할 수 있습니다.
 
-* 사용 **Adobe Campaign Managed Cloud Services** 활성화를 위해 Experience Platform 세그먼트를 Adobe Campaign에 전송하는 대상 연결
+* 사용 **Adobe Campaign Managed Cloud Services 대상** 활성화를 위해 Experience Platform 세그먼트를 Adobe Campaign에 전송하는 연결
 
    ![](assets/aep-destination.png)
 
-* 사용 **Adobe Campaign Managed Cloud Services** Adobe Campaign 게재 및 추적 로그를 Adobe Experience Platform에 보내기 위한 소스 연결입니다.
+* 사용 **Adobe Campaign Managed Cloud Services 소스** Adobe Campaign 게재 및 추적 로그를 Adobe Experience Platform에 전송하는 연결
 
    ![](assets/aep-logs.png)
 
@@ -32,7 +32,7 @@ Adobe Experience Platform에서 이 통합을 구성하는 단계는 다음과 �
 
    [Adobe Campaign Managed Cloud Services 대상 연결을 만드는 방법을 알아봅니다](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en)
 
-1. Campaign 이벤트를 Adobe Experience Platform으로 수집하기 위한 새 Adobe Campaign Managed Cloud Services 소스 연결을 구성합니다.
+1. Campaign 이벤트를 Adobe Experience Platform에 수집하기 위한 새 Adobe Campaign Managed Cloud Services 소스 연결을 구성합니다.
 
    Campaign 인스턴스 및 사용할 스키마에 대한 세부 정보를 제공하고, 데이터를 수집할 데이터 세트를 선택한 다음 검색할 필드를 구성합니다.
 

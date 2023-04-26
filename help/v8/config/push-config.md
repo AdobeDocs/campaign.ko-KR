@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1261'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
    >[!NOTE]
    >
-   >이 통합 키는 Adobe Campaign 콘솔의 **[!UICONTROL Information]** 모바일 애플리케이션 전용 서비스 탭. 을(를) 참조하십시오. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#creating-ios-app).
+   >이 통합 키는 Adobe Campaign 콘솔의 **[!UICONTROL Information]** 모바일 애플리케이션 전용 서비스 탭.
 
 * **추적 URL**: Adobe Campaign 추적 서버의 주소와 일치합니다.
 * **마케팅 URL**: 을 클릭하여 구독을 수집할 수 있습니다.
@@ -798,7 +798,6 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 
 변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드와 Adobe Campaign 콘솔의 **[!UICONTROL Variables]** 전용 모바일 애플리케이션 서비스의 탭을 클릭합니다.
 
-![](../assets/do-not-localize/book.png) 추가 정보 **Campaign Classic v7 설명서** 모바일 앱에서: [iOS 구성 단계](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target="_blank"} and [Configuration steps for Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target="_blank"}.
 
 다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있도록 하는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
 

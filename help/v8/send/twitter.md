@@ -4,10 +4,10 @@ description: Adobe Campaign Social Marketing 모듈을 사용하여 Twitter에 �
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 5%
+source-wordcount: '791'
+ht-degree: 4%
 
 ---
 
@@ -138,9 +138,7 @@ twitter 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지
 
 1. 증명 보내기
 
-   메시지를 보내기 전에 테스트 계정에 증명을 보내 유효성 검사를 확인하십시오. 그런 다음 개인 Twitter 계정에서 메시지의 정확한 렌더링을 받고 콘텐츠 및 개인화를 확인할 수 있습니다.
-
-   ![](../assets/do-not-localize/book.png) [게재의 유효성을 검사하는 주요 단계를 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target="_blank"}
+   메시지를 보내기 전에 [테스트 계정에 증명 보내기](../send/preview-and-proof.md): 그런 다음 개인 Twitter 계정에서 메시지의 정확한 렌더링을 받고 콘텐츠 및 개인화를 확인할 수 있습니다.
 
 1. 직접 메시지 보내기
 

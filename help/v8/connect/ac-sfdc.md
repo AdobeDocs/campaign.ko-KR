@@ -5,9 +5,9 @@ feature: Salesforce Integration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '348'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,6 @@ Campaign v8을 연결하도록 Campaign CRM 커넥터를 구성하는 방법을 
 >[!NOTE]
 >
 >지원되는 SFDC 버전은 Campaign에 자세히 설명되어 있습니다 [호환성 매트릭스](../start/compatibility-matrix.md).
-
 
 Salesforce 데이터를 Adobe Campaign으로 가져오고 내보낼 수 있는 전용 외부 계정을 구성하려면 아래 단계를 따르십시오.
 
@@ -73,8 +72,7 @@ Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니�
 
 1. 클릭 **[!UICONTROL Next]** 그리고 **[!UICONTROL Start]** 열거형 가져오기를 시작하려면
 
-1. 찾아보기 **[!UICONTROL Administration > Platform > Enumerations]** 노드 를 사용하여 가져온 값을 확인합니다.
-
+1. 찾아보기 **[!UICONTROL Administration > Platform > Enumerations]** 노드 를 사용하여 가져온 값을 확인합니다. 의 열거형에 대해 자세히 알아보기 [이 페이지](../config/ui-settings.md#enumerations).
 
 이제 Adobe Campaign 및 Salesforce.com이 연결됩니다. 두 시스템 간에 데이터 동기화를 설정할 수 있습니다.
 

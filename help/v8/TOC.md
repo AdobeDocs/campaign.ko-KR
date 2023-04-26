@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 title: Campaign v8 문서
-source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
+source-git-commit: 58b2f850284b68c6d65773166b895f9520718385
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '544'
 ht-degree: 98%
 
 ---
@@ -29,9 +29,7 @@ ht-degree: 98%
    + [주요 기능](start/whats-new.md)
    + [구성 요소 및 프로세스](start/ac-components.md)
    + [Campaign에 연결](start/connect.md)
-   + Campaign UI {#ac-ui}
-      + [Campaign 인터페이스 살펴보기](start/campaign-ui.md)
-      + [폴더 및 보기 관리](audiences/folders-and-views.md)
+   + [Campaign 인터페이스](start/campaign-ui.md)
    + [Classic v7에서 v8까지](start/v7-to-v8.md)
    + [FAQ](start/campaign-faq.md)
 + 캠페인 관리 {#campaigns}
@@ -167,6 +165,7 @@ ht-degree: 98%
       + [데이터 모델 모범 사례](dev/datamodel-best-practices.md)
    + 설정 및 구성 {#configuration}
       + [사용자 인터페이스 설정](config/ui-settings.md)
+      + [폴더 및 보기 관리](audiences/folders-and-views.md)
       + [이메일 설정](config/email-settings.md)
       + [트랜잭션 메시지 설정](config/transactional-msg-settings.md)
       + [Campaign SDK와 앱 통합 - 사용되지 않는 페이지](config/push-config.md)

@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
@@ -136,7 +136,7 @@ This information enables you to personalize message content using personalizatio
 
 증명 전송에는 게재와 동일한 프로세스가 포함됩니다.
 
-![](../assets/do-not-localize/book.png) 에서 증명에 대해 자세히 알아보십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target="_blank"}
+에서 증명에 대해 자세히 알아보십시오 [이 섹션](../send/preview-and-proof.md#proofs-send).
 
 그러나 트랜잭션 메시지의 증명을 보내려면 다음 작업을 수행해야 합니다.
 

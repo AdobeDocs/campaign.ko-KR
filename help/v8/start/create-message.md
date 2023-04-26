@@ -5,9 +5,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '429'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 100%
 Adobe Campaign에서는 이메일, SMS, 푸시 알림 및 DM 등 크로스 채널 캠페인을 보내고, 다양한 전용 보고서를 사용하여 캠페인의 효과를 측정할 수 있습니다. 이러한 메시지는 게재를 통해 디자인되고 전송되며 각 수신자에 대해 개인화할 수 있습니다.
 
 핵심 기능에는 타기팅, 정의 및 메시지 개인화, 커뮤니케이션 실행 및 관련 운영 보고서가 포함됩니다. 주요 기능 액세스 포인트는 게재 도우미입니다. 이 액세스 포인트는 Adobe Campaign에서 다루는 다양한 기능으로 이어집니다.
-
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=ko)에서 게재를 만드는 주요 단계를 알아볼 수 있습니다.
 
 Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니다.
 
@@ -79,11 +77,10 @@ Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화�
 
 트랜잭션 메시지(메시지 센터)는 트리거 메시지를 관리하기 위해 고안된 캠페인 모듈입니다.
 
-![](../assets/do-not-localize/glass.png) 트랜잭션 메시지 기능 자세히 알아보기: [이 섹션](../architecture/architecture.md#transac-msg-archi)
+트랜잭션 메시지 기능 자세히 알아보기: [이 섹션](../architecture/architecture.md#transac-msg-archi)
 
-![](../assets/do-not-localize/glass.png) 트랜잭션 메시지를 구성하고 보내는 자세한 단계: [이 페이지](../send/transactional.md)
+트랜잭션 메시지를 구성하고 보내는 자세한 단계: [이 페이지](../send/transactional.md)
 
-![](../assets/do-not-localize/book.png) 이 기능의 엔드 투 엔드 활용 사례: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ko){target="_blank"}
 
 ## 게재 및 추적 로그{#gs-tracking-logs}
 
