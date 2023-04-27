@@ -4,9 +4,9 @@ title: 마케팅 캠페인 타겟 대상
 description: 마케팅 캠페인의 대상자를 정의하는 방법을 알아봅니다
 feature: Campaigns, Audiences
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: a2518ea0c0ab23f50b3132b750a14e98b4ffad7d
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1457'
 ht-degree: 1%
 
 ---
@@ -236,10 +236,10 @@ To build the delivery target, you can define filtering criteria for the recipien
 이 구성은 **[!UICONTROL Split]** 활동 을 만들 수 있습니다. 컨트롤 그룹은 이러한 하위 집합 중 하나입니다.
 
 
-#### 튜토리얼 비디오 {#create-email-video}
+### 튜토리얼 비디오 {#create-email-video}
 
-이 비디오에서는 Adobe Campaign에서 캠페인 및 이메일을 만드는 방법을 설명합니다.
+다음 비디오에서는 캠페인에 컨트롤 그룹을 추가하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
 추가 Campaign 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
