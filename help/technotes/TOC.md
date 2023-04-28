@@ -2,13 +2,13 @@
 audience: end-user
 user-guide-title: Campaign 기술 정보
 type: Event
+title: Adobe Campaign 기술 정보
 description: Campaign 기술 정보
 breadcrumb-title: Campaign 기술 정보
-title: Campaign 기술 정보
-source-git-commit: dcb12339d891c61f308cf7b7e518784f3ba1ff31
+source-git-commit: 67368286cb04d97cbf4564846eab91d64b8f90f1
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 35%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
