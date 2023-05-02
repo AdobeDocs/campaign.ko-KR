@@ -5,7 +5,7 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 7f27dbdd0ff53cd7437f956ccfef3d792020893b
+source-git-commit: c46eaa73deed643a4e92928b6ce2b1beb1596d73
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 4%
@@ -25,10 +25,10 @@ Adobe Campaign에서 외부 계정에 액세스할 수 있습니다 **[!UICONTRO
 
 
 >[!CAUTION]
->* 관리 Cloud Services 사용자로서 외부 계정은 Adobe에 의해 인스턴스에 대해 구성되며 수정하면 안 됩니다.
-
 >
->* >의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 특정 **[!UICONTROL Full FDA]** (ffda) 외부 계정은 Campaign 로컬 데이터베이스와 클라우드 데이터베이스() 간의 연결을 관리합니다[!DNL Snowflake]).
+>* 관리 Cloud Services 사용자로서 외부 계정은 Adobe에 의해 인스턴스에 대해 구성되며 수정하면 안 됩니다.
+>
+>* 의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 특정 **[!UICONTROL Full FDA]** (ffda) 외부 계정은 Campaign 로컬 데이터베이스와 클라우드 데이터베이스() 간의 연결을 관리합니다[!DNL Snowflake]).
 >
 
 
@@ -39,7 +39,8 @@ Adobe Campaign에서 외부 계정에 액세스할 수 있습니다 **[!UICONTRO
 ### 바운스 메일 {#bounce-mails-external-account}
 
 >[!NOTE]
-POP3 기능에 대한 Microsoft Exchange Online OAuth 2.0 인증은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 다음을 참조하십시오 [이 섹션](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion).
+>
+>POP3 기능에 대한 Microsoft Exchange Online OAuth 2.0 인증은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 다음을 참조하십시오 [이 섹션](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion).
 
 다음 **바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. POP3 액세스를 위해 구성된 모든 서버를 사용하여 반환 메일을 받을 수 있습니다.
 
@@ -66,7 +67,8 @@ POP3 기능에 대한 Microsoft Exchange Online OAuth 2.0 인증은 Campaign v8.
 ![](assets/bounce_external_2.png)
 
 >[!CAUTION]
-Microsoft OAuth 2.0을 사용하여 POP3 외부 계정을 구성하기 전에 먼저 Azure 포털에서 응용 프로그램을 등록해야 합니다. 자세한 내용은 다음을 참조하십시오 [페이지](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
+>
+>Microsoft OAuth 2.0을 사용하여 POP3 외부 계정을 구성하기 전에 먼저 Azure 포털에서 응용 프로그램을 등록해야 합니다. 자세한 내용은 다음을 참조하십시오 [페이지](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 Microsoft OAuth 2.0을 사용하여 POP3 외부 를 구성하려면 다음을 확인합니다. **[!UICONTROL Microsoft OAuth 2.0]** 옵션을 선택하고 다음 필드를 채웁니다.
 
@@ -85,7 +87,8 @@ Microsoft OAuth 2.0을 사용하여 POP3 외부 를 구성하려면 다음을 �
 다음 **[!UICONTROL Routing]** 외부 계정을 사용하면 설치된 패키지에 따라 Adobe Campaign에서 사용할 수 있는 각 채널을 구성할 수 있습니다.
 
 >[!CAUTION]
-다음 **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) 외부 계정 **필수가 아니어야 합니다.** Adobe Campaign v8에서 사용할 수 있습니다.
+>
+>다음 **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) 외부 계정 **필수가 아니어야 합니다.** Adobe Campaign v8에서 사용할 수 있습니다.
 
 ### 실행 인스턴스 {#execution-instance}
 
