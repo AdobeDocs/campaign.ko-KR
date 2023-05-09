@@ -5,9 +5,9 @@ title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
 source-git-commit: 67368286cb04d97cbf4564846eab91d64b8f90f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -168,7 +168,7 @@ ht-degree: 98%
       + [폴더 및 보기 관리](audiences/folders-and-views.md)
       + [이메일 설정](config/email-settings.md)
       + [트랜잭션 메시지 설정](config/transactional-msg-settings.md)
-      + [Campaign SDK와 앱 통합 - 사용되지 않는 페이지](config/push-config.md)
+      + [Campaign SDK와 앱 통합 - 이제 사용하지 않는 페이지](config/push-config.md)
       + [외부 계정](config/external-accounts.md)
 + 개발자 리소스 {#developer}
    + [Campaign 데이터 모델](dev/datamodel.md)
