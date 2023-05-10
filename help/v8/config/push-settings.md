@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 3bef6d2544a86bf1d5efa4868b82ec59c7e36484
+source-git-commit: ff6990f3db1122670bff4919f417b9f9f04d3183
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
@@ -132,13 +132,14 @@ The mobile app push credential registration is required to authorize Adobe to se
 ## Adobe Experience Platform 데이터 수집에서 모바일 태그 속성 설정 {#launch-property}
 
 모바일 속성을 설정하면 모바일 앱 개발자 또는 마케터가 모바일 SDK를 구성할 수 있습니다. 일반적으로 관리할 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. 에서 모바일 속성을 만들고 구성하는 방법을 알아봅니다 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+<!--
+To get the SDKs needed for push notification to work you will need the following SDK extensions, for both Android and iOS:
 
-푸시 알림이 작동하는 데 필요한 SDK를 얻으려면 Android와 iOS 모두에 대해 다음 SDK 확장이 필요합니다.
-
-* **[!UICONTROL Mobile Core]** (자동으로 설치됨)
-* **[!UICONTROL Profile]** (자동으로 설치됨)
+* **[!UICONTROL Mobile Core]** (installed automatically)
+* **[!UICONTROL Profile]** (installed automatically)
 * **[!UICONTROL Adobe Experience Platform Edge]**
-* **[!UICONTROL Adobe Experience Platform Assurance]**, 선택 사항이지만 모바일 구현을 디버깅하는 것이 좋습니다.
+* **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
+-->
 
 추가 정보 [!DNL Adobe Experience Platform Data Collection] 태그 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
 
@@ -154,7 +155,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 다음 **Adobe Campaign Classic 확장** Adobe Experience Platform Mobile SDK용 는 모바일 앱에 대한 푸시 알림을 활성화하고 사용자 푸시 토큰을 수집하고 Adobe Experience Platform 서비스와의 상호 작용 측정을 관리하는 데 도움이 됩니다.
 
-이 확장은 환경에 사전 설치되어 있으며 구성해야 합니다. 모바일 태그 속성에 대한 확장을 구성하려면 다음 단계를 수행합니다.
+Campaign Classic v7와 Campaign v8에 모두 적용되는 이 확장은 환경에 사전 설치되어 있으며 구성해야 합니다. 모바일 태그 속성에 대한 확장을 구성하려면 다음 단계를 수행합니다.
 
 1. 이전에 만든 태그 속성을 엽니다.
 1. 왼쪽 탐색에서 **확장**, 그리고 를 엽니다. **카탈로그** 탭. 검색 필드를 사용하여 **Adobe Campaign Classic** 확장.
