@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 093204ca69cc0925bc1be5581e518995b50b3fc1
+source-git-commit: 3bef6d2544a86bf1d5efa4868b82ec59c7e36484
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '959'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
 1. 설정 [모바일 태그 속성](#launch-property) ( Adobe Experience Platform 데이터 수집).
 1. 자세히 설명하면 Adobe Experience Platform Mobile SDK를 가져옵니다 [이 페이지에서](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}.
 1. (선택 사항) 자세히 설명된 대로 로깅 및 라이프사이클 지표를 활성화합니다 [이 페이지에서](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
-1. (선택 사항) 추가 [앱에 Adobe Experience Platform Assurance](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} 를 클릭하여 구현의 유효성을 검사합니다.
+1. (선택 사항) 추가 [앱에 Adobe Experience Platform Assurance](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} to validate your implementation. Learn how to implement Adobe Experience Platform Assurance extension [in this page](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}.
 1. 팔로우 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} 앱에서 Adobe Experience Platform Mobile SDK를 사용하여 설정하려면 다음을 수행하십시오.
 1. 설치 및 구성 [Adobe Campaign 확장](#configure-extension) 참조하십시오.
 1. 자세히 설명된 대로 Adobe Campaign에서 iOS 및 Android 모바일 서비스를 구성합니다 [이 페이지에서](../send/push.md#push-config).
