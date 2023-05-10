@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 251ce05310f158b0f9ebccc94b42686f892338b1
+source-git-commit: 093204ca69cc0925bc1be5581e518995b50b3fc1
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '958'
 ht-degree: 2%
 
 ---
@@ -23,16 +23,15 @@ Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모
 
 Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다음 단계를 따르십시오.
 
-1. 확인 [전제 조건](#before-starting)
-1. 설정 [모바일 태그 속성](#launch-property) Adobe Experience Platform 데이터 수집에서
-1. 자세히 설명하면 Adobe Experience Platform Mobile SDK를 가져옵니다 [이 페이지에서](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}
-1. (선택 사항) 자세히 설명된 대로 로깅 및 라이프사이클 지표를 활성화합니다 [이 페이지에서](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}
-1. (선택 사항) 추가 [앱에 Adobe Experience Platform Assurance](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} 구현의 유효성을 검사하려면
+1. 확인 [전제 조건](#before-starting).
+1. 설정 [모바일 태그 속성](#launch-property) ( Adobe Experience Platform 데이터 수집).
+1. 자세히 설명하면 Adobe Experience Platform Mobile SDK를 가져옵니다 [이 페이지에서](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}.
+1. (선택 사항) 자세히 설명된 대로 로깅 및 라이프사이클 지표를 활성화합니다 [이 페이지에서](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
+1. (선택 사항) 추가 [앱에 Adobe Experience Platform Assurance](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} 를 클릭하여 구현의 유효성을 검사합니다.
 1. 팔로우 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} 앱에서 Adobe Experience Platform Mobile SDK를 사용하여 설정하려면 다음을 수행하십시오.
-1. 설치 및 구성 [Adobe Campaign 확장](#configure-extension) 모바일 속성에서
+1. 설치 및 구성 [Adobe Campaign 확장](#configure-extension) 참조하십시오.
 1. 자세히 설명된 대로 Adobe Campaign에서 iOS 및 Android 모바일 서비스를 구성합니다 [이 페이지에서](../send/push.md#push-config).
 
-이 작업을 완료하여에 모바일 속성도 만들고 구성해야 했습니다 [!DNL Adobe Experience Platform Data Collection]. 일반적으로 관리할 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. 에서 모바일 속성을 만들고 구성하는 방법을 알아봅니다 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 ## 전제 조건 {#before-starting}
 
@@ -132,9 +131,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 ## Adobe Experience Platform 데이터 수집에서 모바일 태그 속성 설정 {#launch-property}
 
-모바일 속성을 설정하면 모바일 앱 개발자 또는 마케터가 세션 시간 초과와 같은 모바일 SDK 속성을 구성할 수 있습니다. [!DNL Adobe Experience Platform] 타겟팅할 샌드박스 및 **[!UICONTROL Adobe Experience Platform Datasets]** 로 데이터를 전송하는 데 모바일 SDK에 사용할 수 있습니다.
-
-설정 방법에 대한 자세한 내용 및 절차 **모바일 속성** 에서 자세히 설명하는 단계를 참조하십시오. [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+모바일 속성을 설정하면 모바일 앱 개발자 또는 마케터가 모바일 SDK를 구성할 수 있습니다. 일반적으로 관리할 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. 에서 모바일 속성을 만들고 구성하는 방법을 알아봅니다 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 푸시 알림이 작동하는 데 필요한 SDK를 얻으려면 Android와 iOS 모두에 대해 다음 SDK 확장이 필요합니다.
 
