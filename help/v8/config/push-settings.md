@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e3ea361cc486096fe6c19ac469e8a71b636371ac
+source-git-commit: 251ce05310f158b0f9ebccc94b42686f892338b1
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
@@ -17,10 +17,24 @@ ht-degree: 2%
 
 # AEP SDK + 캠페인: 푸시 알림 채널 구성 {#push-notification-configuration}
 
-Adobe Campaign으로 푸시 알림을 전송하기 전에 모바일 앱 및 Adobe Experience Platform의 태그에 구성 및 통합이 제대로 수행되었는지 확인해야 합니다... .... ....
+Adobe Campaign으로 푸시 알림을 전송하기 전에 모바일 앱 및 Adobe Experience Platform의 태그에 구성 및 통합이 제대로 수행되었는지 확인해야 합니다.
 
+Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일용 클라이언트측 통합 API를 제공합니다.
 
-## 시작하기 전 {#before-starting}
+Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다음 단계를 따르십시오.
+
+1. 확인 [전제 조건](#before-starting)
+1. 설정 [모바일 태그 속성](#launch-property) Adobe Experience Platform 데이터 수집에서
+1. 자세히 설명하면 Adobe Experience Platform Mobile SDK를 가져옵니다 [이 페이지에서](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}
+1. (선택 사항) 자세히 설명된 대로 로깅 및 라이프사이클 지표를 활성화합니다 [이 페이지에서](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}
+1. (선택 사항) 추가 [앱에 Adobe Experience Platform Assurance](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} 구현의 유효성을 검사하려면
+1. 팔로우 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} 앱에서 Adobe Experience Platform Mobile SDK를 사용하여 설정하려면 다음을 수행하십시오.
+1. 설치 및 구성 [Adobe Campaign 확장](#configure-extension) 모바일 속성에서
+1. 자세히 설명된 대로 Adobe Campaign에서 iOS 및 Android 모바일 서비스를 구성합니다 [이 페이지에서](../send/push.md#push-config).
+
+이 작업을 완료하여에 모바일 속성도 만들고 구성해야 했습니다 [!DNL Adobe Experience Platform Data Collection]. 일반적으로 관리할 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. 에서 모바일 속성을 만들고 구성하는 방법을 알아봅니다 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+
+## 전제 조건 {#before-starting}
 
 ### 권한 설정 {#setup-permissions}
 
@@ -77,52 +91,46 @@ Adobe Campaign으로 푸시 알림을 전송하기 전에 모바일 앱 및 Adob
 * 대상 **Apple iOS**: 의 APNs에 앱을 등록하는 방법을 알아봅니다. [Apple 설명서](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
 * 대상 **Google Android**: Android에서 Firebase Cloud Messaging 클라이언트 앱을 설정하는 방법을 알아봅니다. [Google 설명서](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
 
-### 모바일 앱을 Adobe Experience Platform SDK와 통합합니다 {#integrate-mobile-app}
+<!--
+## Add your app push credentials in Adobe Experience Platform Data Collection {#push-credentials}
 
-Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일용 클라이언트측 통합 API를 제공합니다. 팔로우 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} 앱에서 Adobe Experience Platform Mobile SDK를 사용하여 설정하려면 다음을 수행하십시오.
+After granting the correct user permissions, you now need to add your mobile application push credentials in Adobe Experience Platform Data Collection. 
 
-이 작업을 완료하여에 모바일 속성도 만들고 구성해야 했습니다 [!DNL Adobe Experience Platform Data Collection]. 일반적으로 관리할 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. 에서 모바일 속성을 만들고 구성하는 방법을 알아봅니다 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+The mobile app push credential registration is required to authorize Adobe to send push notifications on your behalf. Refer to the steps detailed below:
 
+1. From [!DNL Adobe Experience Platform Data Collection], browse to **[!UICONTROL App Surfaces]** in the left rail.
 
-## 1단계: Adobe Experience Platform 데이터 수집에 앱 푸시 자격 증명 추가 {#push-credentials}
+1. Click **[!UICONTROL Create App Surface]** to create a new configuration.
 
-올바른 사용자 권한을 부여했으면 이제 Adobe Experience Platform 데이터 수집에서 모바일 애플리케이션 푸시 자격 증명을 추가해야 합니다.
+1. Enter a **[!UICONTROL Name]** for the configuration.
 
-Adobe이 대신 푸시 알림을 전송하도록 승인하려면 모바일 앱 푸시 자격 증명 등록이 필요합니다. 아래 절차를 참조하십시오.
+1. From **[!UICONTROL Mobile Application Configuration]**, select the system and enter settings.
 
-1. From [!DNL Adobe Experience Platform Data Collection], 찾아보기 **[!UICONTROL App Surfaces]** 왼쪽 레일에 있습니다.
+    * **For iOS**
 
-1. 클릭 **[!UICONTROL Create App Surface]** 새 구성을 만들려면
+        1. Enter the mobile app **Bundle Id** in the **[!UICONTROL App ID (iOS Bundle ID)]** field. The app Bundle ID can be found in the **General** tab of the primary target in **XCode**.
+        
+        1. Switched on the **[!UICONTROL Push Credentials]** button to add your credentials.
+        
+        1. Drag and drop your .p8 Apple Push Notification Authentication Key file. This key can be acquired from the **Certificates**, **Identifiers** and **Profiles** page.
 
-1. 을(를) 입력합니다. **[!UICONTROL Name]** 참조하십시오.
+        1. Provide the **Key ID**. This is a 10 character string assigned during the creation of p8 auth key. It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** page.
+        
+        1. Provide the **Team ID**. This is a string value which can be found under the Membership tab.
 
-1. From **[!UICONTROL Mobile Application Configuration]**&#x200B;운영 시스템을 선택합니다.
+    * **For Android**
 
-   * **iOS용**
+        1. Provide the **[!UICONTROL App ID (Android package name)]**: usually the package name is the app id in your `build.gradle` file.
 
-      1. 모바일 앱 입력 **번들 Id** 에서 **[!UICONTROL App ID (iOS Bundle ID)]** 필드. 앱 번들 ID는 **일반** 의 기본 대상 탭 **XCode**.
+        1. Switched on the **[!UICONTROL Push Credentials]** button to add your credentials.
 
-      1. 켜짐 **[!UICONTROL Push Credentials]** 단추를 클릭하여 자격 증명을 추가합니다.
+        1. Drag and drop the FCM push credentials. For more details on how to get the push credentials refer to [Google Documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+    
 
-      1. .p8 Apple 푸시 알림 인증 키 파일을 끌어서 놓습니다. 이 키는 **인증서**, **식별자** 및 **프로필** 페이지.
+1. Click **[!UICONTROL Save]** to create your app configuration.
+-->
 
-      1. 다음을 제공합니다. **키 ID**. p8 인증 키를 만드는 동안 지정된 10자 문자열입니다. 아래에서도 찾을 수 있습니다 **키** 탭 **인증서**, **식별자** 및 **프로필** 페이지.
-
-      1. 다음을 제공합니다. **팀 ID**. 멤버십 탭에서 찾을 수 있는 문자열 값입니다.
-   * **Android용**
-
-      1. 다음을 제공합니다. **[!UICONTROL App ID (Android package name)]**: 일반적으로 패키지 이름은 의 앱 id입니다 `build.gradle` 파일.
-
-      1. 켜짐 **[!UICONTROL Push Credentials]** 단추를 클릭하여 자격 증명을 추가합니다.
-
-      1. FCM 푸시 자격 증명을 끌어다 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
-
-
-
-1. 클릭 **[!UICONTROL Save]** 앱 구성을 만들려면
-
-
-## 2단계: Adobe Experience Platform 데이터 수집에서 모바일 태그 속성 설정 {#launch-property}
+## Adobe Experience Platform 데이터 수집에서 모바일 태그 속성 설정 {#launch-property}
 
 모바일 속성을 설정하면 모바일 앱 개발자 또는 마케터가 세션 시간 초과와 같은 모바일 SDK 속성을 구성할 수 있습니다. [!DNL Adobe Experience Platform] 타겟팅할 샌드박스 및 **[!UICONTROL Adobe Experience Platform Datasets]** 로 데이터를 전송하는 데 모바일 SDK에 사용할 수 있습니다.
 
@@ -145,7 +153,7 @@ Adobe이 대신 푸시 알림을 전송하도록 승인하려면 모바일 앱 �
 1. 마지막으로 이 라이브러리를 **작업 라이브러리 선택** 버튼을 클릭합니다.
 
 
-## 3단계: 모바일 속성에서 Adobe Campaign 확장 구성 {#configure-extension}
+## 모바일 속성에서 Adobe Campaign 확장 구성 {#configure-extension}
 
 다음 **Adobe Campaign Classic 확장** Adobe Experience Platform Mobile SDK용 는 모바일 앱에 대한 푸시 알림을 활성화하고 사용자 푸시 토큰을 수집하고 Adobe Experience Platform 서비스와의 상호 작용 측정을 관리하는 데 도움이 됩니다.
 
@@ -158,7 +166,7 @@ Adobe이 대신 푸시 알림을 전송하도록 승인하려면 모바일 앱 �
 
 이제 Campaign을 앱에 자세히 설명되어 있는 대로 추가할 수 있습니다.  [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
 
-## 4단계: Campaign에서 모바일 서비스 구성{#push-service}
+## Campaign에서 모바일 서비스 구성{#push-service}
 
 모바일 앱을에서 설정했으면 [!DNL Adobe Experience Platform Data Collection]에서 푸시 알림을 전송하려면 두 개의 서비스(iOS 장치용으로 하나씩, Android 장치용)를 만들어야 합니다 **[!DNL Adobe Campaign]**.
 
