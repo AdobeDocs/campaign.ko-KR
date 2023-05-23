@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 집계 업데이트
-description: 업데이트 집계 워크플로우 활동에 대해 자세히 알아보십시오
+description: 업데이트 집계 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
 role: Data Engineer
 level: Beginner
@@ -15,13 +15,13 @@ ht-degree: 3%
 
 # 집계 업데이트{#update-aggregate}
 
-에 정의된 합계 [큐브](../../v8/reporting/gs-cubes.md) 보고 목적으로 특정 활동으로 업데이트할 수 있습니다. A **[!UICONTROL Workflow]** 합계를 구성할 때 탭을 사용할 수 있습니다.
+다음에 정의된 집계 [큐브](../../v8/reporting/gs-cubes.md) 보고 목적으로 특정 활동으로 업데이트할 수 있습니다. A **[!UICONTROL Workflow]** 합계를 구성할 때 탭을 사용할 수 있습니다.
 
-의 큐브 및 집계에 대해 자세히 알아보십시오 [이 섹션](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates).
+에서 큐브 및 합계에 대해 자세히 알아봅니다. [이 섹션](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates).
 
-집계를 업데이트하려면 **[!UICONTROL Update aggregate]** 활동을 선택하고 업데이트할 큐브와 합계를 선택합니다.
+합계를 업데이트하려면 **[!UICONTROL Update aggregate]** 활동을 참조하고 업데이트할 큐브와 합계를 선택합니다.
 
-을(를) 구성할 수 있습니다 **전체 업데이트** 또는 **부분 업데이트**.
+다음을 구성할 수 있습니다. **전체 업데이트** 또는 **부분 업데이트**.
 
 ![](assets/update-aggregate-details.png)
 
@@ -29,4 +29,4 @@ ht-degree: 3%
 
 ![](assets/update-aggregate-partial.png)
 
-좋은 방법은 **[!UICONTROL Scheduler]** 활동을 사용하여 계산 업데이트 빈도를 설정합니다.
+를 추가하는 것이 좋습니다. **[!UICONTROL Scheduler]** 계산 업데이트 빈도를 설정하는 활동.

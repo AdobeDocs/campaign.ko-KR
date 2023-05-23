@@ -1,6 +1,6 @@
 ---
 title: AEP SDK 및 Campaign 통합
-description: Adobe Experience Platform Mobile SDK를 앱과 통합하는 방법을 알아봅니다
+description: Adobe Experience Platform mobile SDK를 앱과 통합하는 방법에 대해 알아봅니다
 version: v8
 feature: Push
 role: Admin, Developer
@@ -15,39 +15,39 @@ ht-degree: 2%
 ---
 
 
-# AEP SDK + 캠페인: 푸시 알림 채널 구성 {#push-notification-configuration}
+# AEP SDK + Campaign: 푸시 알림 채널 구성 {#push-notification-configuration}
 
-Adobe Campaign으로 푸시 알림을 전송하기 전에 모바일 앱 및 Adobe Experience Platform의 태그에 구성 및 통합이 제대로 수행되었는지 확인해야 합니다.
+Adobe Campaign을 사용하여 푸시 알림 전송을 시작하기 전에 모바일 앱과 Adobe Experience Platform의 태그에 대한 구성 및 통합이 제대로 되어 있는지 확인해야 합니다.
 
-Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일용 클라이언트측 통합 API를 제공합니다.
+Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다.
 
 Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다음 단계를 따르십시오.
 
 1. 확인 [전제 조건](#before-starting).
-1. 설정 [모바일 태그 속성](#launch-property) ( Adobe Experience Platform 데이터 수집).
-1. 자세히 설명하면 Adobe Experience Platform Mobile SDK를 가져옵니다 [이 페이지에서](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}.
-1. (선택 사항) 자세히 설명된 대로 로깅 및 라이프사이클 지표를 활성화합니다 [이 페이지에서](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
-1. (선택 사항) 추가 [앱에 Adobe Experience Platform Assurance](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} to validate your implementation. Learn how to implement Adobe Experience Platform Assurance extension [in this page](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}.
-1. 팔로우 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} 앱에서 Adobe Experience Platform Mobile SDK를 사용하여 설정하려면 다음을 수행하십시오.
-1. 설치 및 구성 [Adobe Campaign 확장](#configure-extension) 참조하십시오.
-1. 자세히 설명된 대로 Adobe Campaign에서 iOS 및 Android 모바일 서비스를 구성합니다 [이 페이지에서](../send/push.md#push-config).
+1. 설정 [모바일 태그 속성](#launch-property) Adobe Experience Platform 데이터 수집에서.
+1. Adobe Experience Platform Mobile SDK를 자세히 알아보십시오 [이 페이지에서](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}.
+1. (선택 사항) 자세한 대로 로깅 및 라이프사이클 지표를 활성화합니다 [이 페이지에서](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
+1. (선택 사항) 추가 [앱에 대한 Adobe Experience Platform 보증](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} to validate your implementation. Learn how to implement Adobe Experience Platform Assurance extension [in this page](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}.
+1. 팔로우 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} 앱에서 Adobe Experience Platform Mobile SDK를 사용하여 설정을 가져옵니다.
+1. 설치 및 구성 [Adobe Campaign 확장](#configure-extension) 모바일 속성에서.
+1. Adobe Campaign에서 iOS 및 Android 모바일 서비스 구성(자세히 표시) [이 페이지에서](../send/push.md#push-config).
 
 
 ## 전제 조건 {#before-starting}
 
 ### 권한 설정 {#setup-permissions}
 
-모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform에서 태그에 대한 올바른 사용자 권한이 있는지 또는 지정했는지 확인해야 합니다. Adobe Experience Platform의 태그에 대한 사용자 권한은 Adobe Admin Console을 통해 사용자에게 할당됩니다. 추가 정보 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
+모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform의 태그에 대한 올바른 사용자 권한이 있는지 확인하거나 사용자에게 할당해야 합니다. Adobe Experience Platform의 태그에 대한 사용자 권한은 Adobe Admin Console을 통해 사용자에게 할당됩니다. 다음에서 자세히 알아보기 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
->푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현에 관련된 개인에 따라 전체 권한 세트를 단일 제품 프로필에 할당하거나 앱 개발자와 앱 개발자 간에 권한을 공유해야 할 수 있습니다 **Adobe Campaign** 관리자
+>푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현에 포함된 담당자에 따라 전체 권한 집합을 단일 제품 프로필에 할당하거나 앱 개발자와 사용자 간에 권한을 공유해야 할 수 있습니다. **Adobe Campaign** 관리자.
 
-할당하려면 **속성** 및 **회사** 권한을 갖고 아래 절차를 따르십시오.
+할당하려면 **속성** 및 **회사** 권한 아래 단계를 따르십시오.
 
-1. 액세스 권한 **[!DNL Admin Console]**.
-1. 에서 **[!UICONTROL Products]** 탭에서 을 선택합니다 **[!UICONTROL Adobe Experience Platform Data Collection]** 카드.
-1. 기존 항목 선택 **[!UICONTROL Product Profile]** 또는 **[!UICONTROL New profile]** 버튼을 클릭합니다. 새로 만드는 방법 알아보기 **[!UICONTROL New profile]** 에서 [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
+1. 액세스 **[!DNL Admin Console]**.
+1. 다음에서 **[!UICONTROL Products]** 탭에서 **[!UICONTROL Adobe Experience Platform Data Collection]** 카드.
+1. 기존 항목 선택 **[!UICONTROL Product Profile]** 또는 를 사용하여 새 템플릿을 만듭니다. **[!UICONTROL New profile]** 단추를 클릭합니다. 새로 만드는 방법 알아보기 **[!UICONTROL New profile]** 다음에서 [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 1. **[!UICONTROL Permissions]** 탭에서, **[!UICONTROL Property Rights]**&#x200B;를 선택합니다.
 1. **[!UICONTROL Add all]**&#x200B;을(를) 클릭합니다. 이렇게 하면 제품 프로필에 다음 권한이 추가됩니다.
    * **[!UICONTROL Approve]**
@@ -57,38 +57,38 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
    * **[!UICONTROL Manage Extensions]**
    * **[!UICONTROL Publish]**
 
-   Adobe Campaign 확장을 설치 및 게시하고 앱 속성을 게시하려면 다음 권한이 필요합니다. **Adobe Experience Platform Mobile SDK**.
+   Adobe Campaign 확장을 설치 및 게시하고 앱 속성을 게시하는 데 이러한 권한이 필요합니다. **Adobe Experience Platform Mobile SDK**.
 
-1. 그런 다음 **[!UICONTROL Company rights]** 왼쪽 메뉴에 있습니다.
+1. 그런 다음 을 선택합니다. **[!UICONTROL Company rights]** 왼쪽 메뉴에서 을 클릭합니다.
 1. 다음 권한을 추가합니다.
 
    * **[!UICONTROL Manage App Configurations]**
    * **[!UICONTROL Manage Properties]**
 
-   이러한 권한은 모바일 앱 개발자가 푸시 자격 증명을 설정하려면에서 설정하는 데 필요합니다 **Adobe Experience Platform 데이터 수집**.
+   모바일 앱 개발자가에서 푸시 자격 증명을 설정하려면 이러한 권한이 필요합니다. **Adobe Experience Platform 데이터 수집**.
 
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
-이를 할당하려면 **[!UICONTROL Product profile]** 사용자에게 알려면 아래 단계를 수행하십시오.
+할당하려면 **[!UICONTROL Product profile]** 사용자에게 아래 단계를 수행합니다.
 
-1. 액세스 권한 **[!DNL Admin Console]**.
-1. 에서 **[!UICONTROL Products]** 탭에서 을 선택합니다 **[!UICONTROL Adobe Experience Platform Data Collection]** 카드.
+1. 액세스 **[!DNL Admin Console]**.
+1. 다음에서 **[!UICONTROL Products]** 탭에서 **[!UICONTROL Adobe Experience Platform Data Collection]** 카드.
 1. 이전에 구성한 **[!UICONTROL Product profile]**&#x200B;를 선택합니다.
 1. **[!UICONTROL Users]** 탭에서 **[!UICONTROL Add user]**&#x200B;을 클릭합니다.
-1. 사용자 이름이나 이메일 주소를 입력하고 사용자를 선택합니다. 그런 다음 **[!UICONTROL Save]**.
+1. 사용자의 이름 또는 이메일 주소를 입력하고 사용자를 선택합니다. 그런 다음 을 클릭합니다. **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
-   >이전에 Admin Console에서 사용자를 만들지 않은 경우 [사용자 추가 설명서](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"}.
+   >사용자가 이전에 Admin Console에서 생성되지 않은 경우 다음을 참조하십시오. [사용자 설명서 추가](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"}.
 
 ### 앱 구성 {#configure-app}
 
-기술 설정에는 앱 개발자와 비즈니스 관리자 간의 긴밀한 공동 작업이 포함됩니다. 푸시 알림 전송을 시작하기 전에 [!DNL Adobe Campaign]를 지정하는 경우에서 설정을 정의해야 합니다 [!DNL Adobe Experience Platform Data Collection] Adobe Experience Platform Mobile SDK와 모바일 앱을 통합합니다.
+기술 설정에는 앱 개발자와 비즈니스 관리자 간의 긴밀한 협업이 포함됩니다. 다음으로 푸시 알림 전송을 시작하기 전에 [!DNL Adobe Campaign], 다음에서 설정을 정의해야 합니다. [!DNL Adobe Experience Platform Data Collection] 모바일 앱을 Adobe Experience Platform Mobile SDK와 통합할 수 있습니다.
 
 아래 링크에 자세히 설명된 구현 단계를 따르십시오.
 
-* 대상 **Apple iOS**: 의 APNs에 앱을 등록하는 방법을 알아봅니다. [Apple 설명서](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
-* 대상 **Google Android**: Android에서 Firebase Cloud Messaging 클라이언트 앱을 설정하는 방법을 알아봅니다. [Google 설명서](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
+* 대상 **Apple iOS**: 의 APNs에 앱을 등록하는 방법에 대해 알아봅니다. [Apple 설명서](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
+* 대상 **Google Android**: Android에서 Firebase Cloud Messaging 클라이언트 앱을 설정하는 방법에 대해 알아봅니다. [Google 설명서](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
 
 <!--
 ## Add your app push credentials in Adobe Experience Platform Data Collection {#push-credentials}
@@ -131,7 +131,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 ## Adobe Experience Platform 데이터 수집에서 모바일 태그 속성 설정 {#launch-property}
 
-모바일 속성을 설정하면 모바일 앱 개발자 또는 마케터가 모바일 SDK를 구성할 수 있습니다. 일반적으로 관리할 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. 에서 모바일 속성을 만들고 구성하는 방법을 알아봅니다 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+모바일 속성을 설정하면 모바일 앱 개발자 또는 마케터가 모바일 SDK를 구성할 수 있습니다. 일반적으로 관리하려는 각 모바일 애플리케이션에 대해 모바일 속성을 만듭니다. 에서 모바일 속성을 만들고 구성하는 방법에 대해 알아봅니다. [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 <!--
 To get the SDKs needed for push notification to work you will need the following SDK extensions, for both Android and iOS:
 
@@ -141,31 +141,31 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 -->
 
-추가 정보 [!DNL Adobe Experience Platform Data Collection] 태그 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
+자세히 알아보기 [!DNL Adobe Experience Platform Data Collection] 의 태그 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
 
-만든 후 새 태그 속성을 열고 라이브러리를 만듭니다. 방법은 다음과 같습니다.
+만든 후에는 새 태그 속성을 열고 라이브러리를 만듭니다. 방법은 다음과 같습니다.
 
-1. 찾아보기 **게시 흐름** 왼쪽 탐색에서 를 선택하고 을(를) 선택합니다. **라이브러리 추가**.
+1. 다음으로 이동 **게시 플로우** 왼쪽 탐색에서 다음을 선택합니다. **라이브러리 추가**.
 1. 라이브러리 이름을 입력하고 환경을 선택합니다.
-1. 선택 **변경된 모든 리소스 추가**, 및 **저장 및 개발에 빌드**.
-1. 마지막으로 이 라이브러리를 **작업 라이브러리 선택** 버튼을 클릭합니다.
+1. 선택 **변경된 모든 리소스 추가**, 및 **개발에 저장 및 구축**.
+1. 마지막으로,에서 이 라이브러리를 작업 라이브러리로 설정합니다. **작업 라이브러리 선택** 단추를 클릭합니다.
 
 
 ## 모바일 속성에서 Adobe Campaign 확장 구성 {#configure-extension}
 
-다음 **Adobe Campaign Classic 확장** Adobe Experience Platform Mobile SDK용 는 모바일 앱에 대한 푸시 알림을 활성화하고 사용자 푸시 토큰을 수집하고 Adobe Experience Platform 서비스와의 상호 작용 측정을 관리하는 데 도움이 됩니다.
+다음 **Adobe Campaign Classic 확장** Adobe Experience Platform용 Mobile SDK는 모바일 앱에 대한 푸시 알림을 실행하고 사용자 푸시 토큰을 수집하고 Adobe Experience Platform 서비스와의 상호 작용 측정을 관리할 수 있습니다.
 
-Campaign Classic v7와 Campaign v8에 모두 적용되는 이 확장은 환경에 사전 설치되어 있으며 구성해야 합니다. 모바일 태그 속성에 대한 확장을 구성하려면 다음 단계를 수행합니다.
+Campaign Classic v7 및 Campaign v8 모두에 적용되는 이 확장은 환경에 사전 설치되어 있으므로 구성해야 합니다. 모바일 태그 속성에 대한 확장을 구성하려면 다음 단계를 수행합니다.
 
 1. 이전에 만든 태그 속성을 엽니다.
-1. 왼쪽 탐색에서 **확장**, 그리고 를 엽니다. **카탈로그** 탭. 검색 필드를 사용하여 **Adobe Campaign Classic** 확장.
-1. Campaign Classic 카드에서 **설치** 버튼을 클릭합니다.
-1. 에 설명된 대로 설정을 입력합니다. [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"}.
+1. 왼쪽 탐색에서 다음 위치로 이동합니다. **확장**&#x200B;를 클릭하고 **카탈로그** 탭. 검색 필드를 사용하여 **Adobe Campaign Classic** 확장명.
+1. Campaign Classic 카드에서 **설치** 단추를 클릭합니다.
+1. 에 설명된 대로 설정 입력 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"}.
 
-이제 Campaign을 앱에 자세히 설명되어 있는 대로 추가할 수 있습니다.  [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
+다음에서 자세히 설명했듯이 앱에 캠페인을 추가할 수 있습니다.  [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
 
 ## Campaign에서 모바일 서비스 구성{#push-service}
 
-모바일 앱을에서 설정했으면 [!DNL Adobe Experience Platform Data Collection]에서 푸시 알림을 전송하려면 두 개의 서비스(iOS 장치용으로 하나씩, Android 장치용)를 만들어야 합니다 **[!DNL Adobe Campaign]**.
+모바일 앱이에 설정되면 [!DNL Adobe Experience Platform Data Collection]에서 푸시 알림을 전송할 수 있도록 두 개의 서비스(iOS 디바이스용 서비스, Android 디바이스용 서비스)를 만들어야 합니다 **[!DNL Adobe Campaign]**.
 
-에서 iOS 및 Android 푸시 알림용 서비스를 만들고 구성하는 방법을 알아봅니다 [이 섹션](../send/push.md#push-config).
+에서 iOS 및 Android 푸시 알림용 서비스를 만들고 구성하는 방법에 대해 알아봅니다. [이 섹션](../send/push.md#push-config).

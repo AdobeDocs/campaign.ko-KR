@@ -19,9 +19,9 @@ ht-degree: 4%
 
 iOS 및 Android용 Campaign SDK를 사용하여 모바일 애플리케이션을 Adobe Campaign 플랫폼에 쉽게 통합할 수 있습니다.
 
-Android 및 iOS 지원 버전과 Campaign v8용 Campaign SDK 호환 버전은 [호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK).
+Android 및 iOS 지원 버전 및 Campaign v8용 Campaign SDK 호환 버전은 [호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK).
 
-Campaign 관리자는 [Experience Cloud 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html). 자세한 내용은 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Campaign 관리자는 [Experience Cloud 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html). 자세한 내용은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 >[!NOTE]
@@ -32,16 +32,16 @@ Campaign 관리자는 [Experience Cloud 소프트웨어 배포](https://experien
 
 Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자가 개발자에게 다음 정보를 제공해야 합니다.
 
-* **통합 키**: Adobe Campaign 플랫폼을 활성화하여 모바일 애플리케이션을 식별합니다.
+* **통합 키**: Adobe Campaign 플랫폼에서 모바일 애플리케이션을 식별할 수 있도록 합니다.
 
    >[!NOTE]
    >
-   >이 통합 키는 Adobe Campaign 콘솔의 **[!UICONTROL Information]** 모바일 애플리케이션 전용 서비스 탭.
+   >이 통합 키는 Adobe Campaign 콘솔의 **[!UICONTROL Information]** 모바일 애플리케이션 전용 서비스 탭입니다.
 
-* **추적 URL**: Adobe Campaign 추적 서버의 주소와 일치합니다.
-* **마케팅 URL**: 을 클릭하여 구독을 수집할 수 있습니다.
+* **추적 URL**: Adobe Campaign 추적 서버 주소와 일치합니다.
+* **마케팅 URL**: 구독 컬렉션을 활성화합니다.
 
-* **Android에서**:
+* **Android**:
 
    ```sql
    Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
@@ -60,9 +60,9 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
 ## Android SDK 통합
 
-Android SDK는 JAVA로 작성된 jar 라이브러리입니다. Android 개발자는 이 플러그인을 사용하여 Adobe Campaign과 통합할 수 있습니다. 새 장치를 등록하고, 장치를 사용자에게 연결하고, 동작을 추적하는 등의 작업을 수행할 수 있습니다.
+Android SDK는 JAVA로 작성된 jar 라이브러리입니다. 이를 통해 Android 개발자는 Adobe Campaign과 통합할 수 있습니다. 즉, 새 장치를 등록하고, 장치를 사용자와 연결하고, 동작을 추적하는 등의 작업이 가능합니다.
 
-이 섹션에서 다음을 구현하는 Android 애플리케이션에서 Android SDK를 사용하는 방법을 알아봅니다. [Google Firebase Cloud Messaging(FCM)](https://firebase.google.com/docs/cloud-messaging/).
+이 섹션에서는 Android 애플리케이션 구현에서 Android SDK를 사용하는 방법을 알아봅니다 [Google FCM(Firebase Cloud Messaging)](https://firebase.google.com/docs/cloud-messaging/).
 
 >[!CAUTION]
 >
@@ -70,24 +70,24 @@ Android SDK는 JAVA로 작성된 jar 라이브러리입니다. Android 개발자
 
 ### FCM 구성
 
-Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 알림을 받도록 Android 애플리케이션을 구성하고 애플리케이션을 FCM 계정에 연결해야 합니다. 추가 정보 [Google 설명서](https://firebase.google.com/docs/cloud-messaging/).
+Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 알림을 받도록 Android 애플리케이션을 구성하고 애플리케이션을 FCM 계정에 연결해야 합니다. 다음에서 자세히 알아보기 [Google 설명서](https://firebase.google.com/docs/cloud-messaging/).
 
-을(를) 참조하십시오. [Google 설명서](https://firebase.google.com/docs/android/setup) android 프로젝트에 Firebase를 추가하려면 다음을 수행합니다.
+을(를) 참조하십시오 [Google 설명서](https://firebase.google.com/docs/android/setup) android 프로젝트에 Firebase를 추가합니다.
 
-에서 애플리케이션에서 FCM을 구현하는 방법을 알아봅니다 [Google 설명서](https://firebase.google.com/docs/android/setup).
+에서 애플리케이션에서 FCM을 구현하는 방법을 알아봅니다. [Google 설명서](https://firebase.google.com/docs/android/setup).
 
 >[!NOTE]
 >
 > * google-services.json을 다운로드하여 프로젝트에 추가하는 것을 잊지 마십시오.
 >
-> * 다음 `apiKey` 와 일치해야 함 `projectKey` 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에서 을 설정합니다.
+> * 다음 `apiKey` 은(는) 과(와) 일치해야 합니다. `projectKey` 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에서 를 설정합니다.
 
 
 ### Android SDK 구성
 
 1. **SDK 초기화**
 
-   Android SDK를 사용하기 전에 초기화해야 합니다. SDK 초기화는 `onCreate` 활동 함수입니다.
+   Android SDK를 사용하기 전에 초기화해야 합니다. SDK 초기화는에서 수행할 수 있습니다. `onCreate` 활동의 함수입니다.
 
    ```sql
    /** Called when the activity is first created. */
@@ -106,16 +106,16 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
    }
    ```
 
-   다음 `IntegrationKey` 는 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에서 설정된 &#39;IntegrationKey&#39;와 일치해야 합니다.
+   다음 `IntegrationKey` 은(는) 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에 설정된 &#39;IntegrationKey&#39;와 일치해야 합니다.
 
 1. **Adobe Campaign 서버에 모바일 장치 등록**
 
-   등록 기능을 사용하면 다음 작업을 수행할 수 있습니다.
+   등록 기능을 사용하여 다음을 수행할 수 있습니다.
 
-   * 알림 ID 또는 푸시 ID(iOS용 deviceToken 및 Android용 registrationID)를 Adobe Campaign에 보냅니다.
-   * 조정 키 또는 userKey 복구(예: 이메일 또는 계정 번호)
+   * 알림 ID 또는 푸시 ID(iOS의 경우 deviceToken, Android의 경우 registrationID)를 Adobe Campaign에 보냅니다.
+   * 조정 키 또는 userKey(예: 이메일 또는 계정 번호) 복구
 
-   앱 초기화 또는 사용자 작업 시 Adobe Campaign에 장치를 등록해야 합니다. 이 작업은 `registerDevice` 메서드를 사용합니다.
+   앱 초기화 또는 사용자 작업 시 Adobe Campaign에 장치를 등록해야 합니다. 다음을 사용하여 쉽게 수행할 수 있습니다. `registerDevice` 메서드를 사용합니다.
 
    ```sql
    public void onClick(View v)
@@ -185,9 +185,9 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
    }
    ```
 
-1. **사용자의 모바일 장치 토큰이 변경되면 Campaign에 알립니다**
+1. **사용자의 모바일 장치 토큰이 변경되면 Campaign에 알림**
 
-   을 사용하는 것이 좋습니다 `registerDevice` 함수 호출 시 `onTokenRefresh` 사용자의 모바일 장치 토큰에 변경 사항을 Adobe Campaign에 알리는 함수입니다.
+   다음을 사용하는 것이 좋습니다. `registerDevice` 호출 시 함수 `onTokenRefresh` 사용자의 모바일 장치 토큰의 변경을 Adobe Campaign에 알리는 기능입니다.
 
    예제:
 
@@ -226,7 +226,7 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 
 1. **Firebase 메시징 서비스 구성**
 
-   확장 `FirebaseMessagingService` 에서 `onMessageReceived` 메시지를 수신할 콜백입니다. 을(를) 호출할 것을 추천합니다 `notifyReceive` 함수 `onMessageReceived` 모바일 장치에서 알림 수신을 추적할 수 있도록 콜백이 호출됩니다. Adobe Campaign에서 이 이름은 다음과 같습니다 **인쇄** 알림: 이 함수는 OS에서 알림을 표시하도록 요청하기 바로 전에 호출해야 합니다.
+   확장 `FirebaseMessagingService` 다음에서 `onMessageReceived` 메시지를 수신할 콜백입니다. 다음으로 전화하는 것이 좋습니다. `notifyReceive` 함수 위치: `onMessageReceived` 모바일 장치에서 알림 수신을 추적할 수 있도록 하려면 callback을 호출합니다. Adobe Campaign에서 이 이름은 다음과 같습니다 **인쇄** 알림: 이 함수는 OS에 알림을 표시하도록 요청하기 직전에 호출해야 합니다.
 
    YourApplicationMessagingService.java
 
@@ -328,9 +328,9 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
    }
    ```
 
-1. **데이터 메시지 열기 추적**
+1. **데이터 메시지 열람 추적**
 
-   데이터 메시지의 경우 사용자가 알림을 클릭하여 언제 알림을 열지를 추적할 수 있습니다. `notifyOpening` 함수 위에 있어야 합니다. 사용자가 알림(다음 기간 동안 만들어짐)을 클릭하면 알림 활동이 만들어집니다 `onMessageReceived`함수 호출)
+   데이터 메시지의 경우 다음을 사용하여 사용자가 알림을 클릭하여 여는 시기를 추적할 수 있습니다. `notifyOpening` 함수. 알림 활동은 사용자가 알림을 클릭할 때 만들어집니다( 만드는 동안 생성됨). `onMessageReceived`함수 호출)
 
    ```sql
    public class NotificationActivity extends Activity {
@@ -363,9 +363,9 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
    }
    ```
 
-1. **알림 메시지 열기 및 클릭 추적**
+1. **알림 메시지에 대한 열기 및 클릭 추적**
 
-   알림 메시지의 경우 열기/클릭 추적을 `notifyOpening` 함수 내에 있어야 합니다.
+   알림 메시지의 경우 열기/클릭 추적을 `notifyOpening` 다음과 같이 애플리케이션 실행 활동 내에서 작동합니다.
 
    ```sql
    /** Called when the activity is first created. */
@@ -423,12 +423,12 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 
    >[!NOTE]
    >
-   > 사용자가 `click_action` 타깃팅된 활동 내의 옵션.
+   > 사용자가 을 사용하는 경우에도 유사한 관리를 수행해야 합니다. `click_action` 타겟팅된 활동 내의 옵션입니다.
 
 
-1. **데이터 메시지에 대한 추적 받기**
+1. **데이터 메시지에 대한 추적 수신**
 
-   데이터 메시지의 경우 추적이에서 수신됩니다 `onMessageReceived` 호출 수준. &#39;notifyReceive&#39; 함수를 호출해야 합니다.
+   데이터 메시지의 경우 추적은에서 수신됩니다. `onMessageReceived` 호출 수준. &#39;notifyReceive&#39; 함수를 호출해야 합니다.
 
    YourApplicationMessagingService.java
 
@@ -494,12 +494,12 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
    }
    ```
 
-1. **알림 메시지에 대한 추적 받기**
+1. **알림 메시지에 대한 추적 수신**
 
-   알림 메시지의 경우 추적 수신은 두 가지 수준에서 구성해야 합니다.
+   알림 메시지의 경우 추적 수신을 다음 두 가지 수준으로 구성해야 합니다.
 
-   * `onMessageReceived` (응용 프로그램이 백그라운드에 없음): 구현은 이전 섹션에서 수행되었습니다
-   * `onCreate` 실행 활동(또는 타깃팅된 경우) `click_action`가 사용됩니다. (응용 프로그램이 백그라운드에 없습니다.)
+   * `onMessageReceived` (백그라운드에 없는 애플리케이션): 구현은 이전 섹션에서 수행되었습니다
+   * `onCreate` 론치 활동(또는 다음과 같은 경우 타겟팅된 활동) `click_action`함수를 사용합니다.) (백그라운드에 응용 프로그램이 없음).
 
    열기/클릭 추적과 동시에 수행해야 합니다.
 
@@ -562,10 +562,10 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 
 1. **Adobe Campaign 서버에 모바일 장치 등록**
 
-   등록 기능을 사용하면 다음 작업을 수행할 수 있습니다.
+   등록 기능을 사용하여 다음을 수행할 수 있습니다.
 
-   * 알림 ID 또는 푸시 ID(iOS용 deviceToken 및 Android용 registrationID)를 Adobe Campaign에 보냅니다.
-   * 조정 키 또는 userKey 복구(예: 이메일 또는 계정 번호)
+   * 알림 ID 또는 푸시 ID(iOS의 경우 deviceToken, Android의 경우 registrationID)를 Adobe Campaign에 보냅니다.
+   * 조정 키 또는 userKey(예: 이메일 또는 계정 번호) 복구
 
    ```sql
    // Callback called on successful registration to the APNs
@@ -577,9 +577,9 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
    }
    ```
 
-1. **추적 함수 활성화**
+1. **추적 기능 활성화**
 
-   추적 함수를 사용하면 알림이 활성화되는 시점을 추적할 수 있습니다(열기).
+   추적 기능을 사용하면 알림이 활성화(열기)되는 시기를 추적할 수 있습니다.
 
    ```sql
    (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
@@ -594,7 +594,7 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 
 1. **자동 알림 추적**
 
-   iOS을 사용하면 자동 알림, 알림 또는 데이터를 표시하지 않고 모바일 애플리케이션으로 직접 전송할 수 있습니다. Adobe Campaign에서 추적할 수 있습니다.
+   iOS을 사용하면 모바일 애플리케이션에 표시되지 않고 직접 전송되는 자동 알림, 알림 또는 데이터를 전송할 수 있습니다. Adobe Campaign을 사용하면 이러한 도구를 추적할 수 있습니다.
 
    자동 알림을 추적하려면 아래 예를 따르십시오.
 
@@ -634,7 +634,7 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 
 1. **등록 상태 구성**
 
-   위임 프로토콜을 사용하면 **registerDevice** 및 를 호출하여 등록 중 오류가 발생했는지 확인할 수 있습니다.
+   위임 프로토콜을 사용하면 의 결과를 가져올 수 있습니다. **registerDevice** 를 호출하고 를 사용하여 등록 중에 오류가 발생했는지 확인할 수 있습니다.
 
    다음 **registerDeviceStatus** 프로토타입:
 
@@ -642,18 +642,18 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
    ```
 
-   * **상태** 등록에 성공했는지 또는 오류가 발생했는지 알 수 있습니다.
+   * **상태** 등록이 성공했는지 또는 오류가 발생했는지 알 수 있습니다.
 
-   * **ErrorReason** 발생한 오류에 대한 자세한 정보를 제공합니다. 사용 가능한 오류 및 설명에 대한 자세한 내용은 아래 표를 참조하십시오.
+   * **ErrorReason** 은 발생한 오류에 대한 자세한 정보를 제공합니다. 사용 가능한 오류 및 해당 설명에 대한 자세한 내용은 아래 표를 참조하십시오.
 
    | 상태 | 설명 | ErrorReason |
    | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
-   | ACCRregisterDeviceStatusSuccess | 등록 성공 | EMPTY |
-   | ACCReisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC 마케팅 서버 호스트 이름이 비어 있거나 설정되지 않았습니다. | EMPTY |
-   | ACCReisterDeviceStatusFailureIntegrationKeyEmpty | 통합 키가 비어 있거나 설정되지 않았습니다. | EMPTY |
-   | ACCReisterDeviceStatusFailureConnectionIssue | ACC의 연결 문제 | 추가 정보(OS 현재 언어) |
-   | ACCRregisterDeviceStatusFailureUnknownUUID | 제공된 UUID(통합 키)를 알 수 없습니다. | EMPTY |
-   | ACCRregisterDeviceStatusFailureUnexpectedError | ACC 서버에 예기치 않은 오류가 반환되었습니다. | ACC에 오류 메시지가 반환되었습니다. |
+   | ACCRegisterDeviceStatusSuccess | 등록 성공 | 비어 있음 |
+   | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC 마케팅 서버 호스트 이름이 비어 있거나 설정되지 않았습니다. | 비어 있음 |
+   | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | 통합 키가 비어 있거나 설정되지 않았습니다. | 비어 있음 |
+   | ACCRegisterDeviceStatusFailureConnectionIssue | ACC 연결 문제 | 추가 정보(OS 현재 언어) |
+   | ACCRegisterDeviceStatusFailureUnknownUUID | 입력한 UUID(통합 키)를 알 수 없습니다. | 비어 있음 |
+   | ACCRegisterDeviceStatusFailureUnexpectedError | ACC 서버에 예기치 않은 오류가 반환되었습니다. | ACC에 오류 메시지가 반환되었습니다. |
 
    {style="table-layout:auto"}
 
@@ -689,9 +689,9 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
    @end
    ```
 
-   구현하려면 **registerDeviceStatus** 위임, 다음 단계를 수행합니다.
+   구현하려면 **registerDeviceStatus** 위임자는 다음 단계를 수행합니다.
 
-   1. 구현 **setDelegate** 를 클릭합니다.
+   1. 구현 **setDelegate** sdk 초기화 중에.
 
       ```sql
       // AppDelegate.m
@@ -720,7 +720,7 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
       }
       ```
 
-   1. 에 프로토콜을 추가합니다. **@interface** 네 수업 중에
+   1. 에 프로토콜 추가 **@interface** 수업 중.
 
       ```sql
       //  AppDelegate.h
@@ -796,12 +796,12 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 
 ## 변수 {#variables}
 
-변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드와 Adobe Campaign 콘솔의 **[!UICONTROL Variables]** 전용 모바일 애플리케이션 서비스의 탭을 클릭합니다.
+변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드 및 Adobe Campaign 콘솔의 **[!UICONTROL Variables]** 전용 모바일 애플리케이션 서비스의 탭.
 
 
-다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있도록 하는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
+다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
 
-* **Android에서**:
+* **Android**:
 
    ```sql
    public void onReceive(Context context, Intent intent) {
@@ -843,7 +843,7 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 
 >[!CAUTION]
 >
->Adobe은 iOS 및 Android의 경우 알림 크기가 4kB로 제한되므로 짧은 변수 이름을 선택할 것을 권장합니다.
+>Adobe 알림 크기가 iOS 및 Android의 경우 4kB로 제한되므로 짧은 변수 이름을 선택하는 것이 좋습니다.
 
 ## 알림 서비스 확장 {#notification-service-extension}
 
@@ -885,17 +885,17 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 
 이 수준에서 다음을 수행해야 합니다.
 
-* 컨텐츠 확장을 Adobe Campaign에서 보낸 카테고리에 연결합니다.
+* 컨텐츠 확장을 Adobe Campaign에서 전송한 카테고리에 연결:
 
-   모바일 애플리케이션에서 이미지를 표시하려는 경우 Adobe Campaign과 모바일 애플리케이션에서 카테고리 값을 &quot;이미지&quot;로 설정할 수 있으며, **UNNotificationExtensionCategory** 매개 변수가 &quot;image&quot;로 설정되어 있습니다. 장치에서 푸시 알림을 받으면 정의된 카테고리 값에 따라 확장이 호출됩니다.
+   모바일 애플리케이션에서 이미지를 표시하도록 하려면 Adobe Campaign에서 카테고리 값을 &quot;이미지&quot;로 설정하고 모바일 애플리케이션에서 를 사용하여 알림 확장을 만듭니다. **UNNotificationExtension범주** 매개 변수가 &quot;image&quot;로 설정되어 있습니다. 푸시 알림이 디바이스에서 수신되면 정의된 카테고리 값에 따라 확장이 호출됩니다.
 
 * 알림 레이아웃 정의
 
-   관련 위젯을 사용하여 레이아웃을 정의해야 합니다. 이미지의 경우 위젯의 이름이 **ImageView**.
+   관련 위젯으로 레이아웃을 정의해야 합니다. 이미지의 경우 위젯 이름이 로 지정됩니다. **UImageView**.
 
 * 미디어 표시
 
-   미디어 데이터를 위젯에 피드하려면 코드를 추가해야 합니다. 다음은 이미지에 대한 코드 예입니다.
+   위젯에 미디어 데이터를 피드하려면 코드를 추가해야 합니다. 다음은 이미지에 대한 코드의 예입니다.
 
    ```sql
    #import "NotificationViewController.h"

@@ -70,9 +70,9 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    Adobe 다운로드 센터에서 설치 프로그램과 클라이언트 콘솔을 다운로드할 수 있습니다.
 
-   관리자는 Adobe에 액세스합니다 [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html) {target="_blank"} Adobe Campaign을 다운로드하려면 다음을 수행하십시오.
+   관리 사용자로 Adobe 액세스 [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html) {target="_blank"} Adobe Campaign을 다운로드하려면 다음을 수행하십시오.
 
-   배포 센터에 대해 자세히 알아보십시오 [이 페이지에서](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}.
+   배포 센터에 대해 자세히 알아보기 [이 페이지에서](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}.
 
 1. **Campaign 전문가와 소통할 수 있을까요?**
 
@@ -83,6 +83,6 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    사례를 만들면 Adobe 제품에 발생하는 모든 문제에 대해 Adobe 고객 지원 팀으로 문의할 수 있습니다. 문제를 확인하거나 해결하려면 Adobe Admin Console을 통해 Adobe 고객 지원 센터와 채팅할 수 있습니다.
 
-   새 시스템에서 문제를 기록하거나 채팅 세션을 시작하려면 [Adobe Admin Console](https://adminConsole.adobe.com/overview){target="_blank"}.
+   문제를 기록하거나 새 시스템에서 채팅 세션을 시작하려면 다음으로 연결하십시오. [Adobe Admin Console](https://adminConsole.adobe.com/overview){target="_blank"}.
 
    새 시스템에서는 올바른 권한을 가진 각 사용자에 대해 새 개인 계정이 필요합니다. Adobe ID로 로그인할 수 없는 경우 Experience League를 통해 액세스를 요청하면 고객 지원 팀에서 가능한 한 빨리 설정을 완료합니다. [자세히 알아보기](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}

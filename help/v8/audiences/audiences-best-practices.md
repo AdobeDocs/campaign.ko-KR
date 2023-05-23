@@ -1,6 +1,6 @@
 ---
-title: 대상을 사용한 우수 사례
-description: 대상을 사용한 모범 사례 학습
+title: 대상자를 사용한 모범 사례
+description: 대상자를 사용한 모범 사례 학습
 feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 ---
 
-# 대상을 사용한 우수 사례
+# 대상자를 사용한 모범 사례

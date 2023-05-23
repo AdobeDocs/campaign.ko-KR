@@ -26,7 +26,7 @@ ht-degree: 82%
 
 * **[v7에서 v8로 전환](start/v7-to-v8.md)** - Campaign Classic v7에서 v8로 전환 주요 차이점 알아보기
 
-* **[Campaign v8용 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}** - Campaign Campaign 컨트롤 패널을 사용하여 직접 주요 관리자 작업을 수행합니다
+* **[Campaign v8 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}** - Campaign Campaign 컨트롤 패널으로 직접 주요 관리자 작업 수행
 
 * **[릴리스 노트](start/release-notes.md)** - 최신 기능 및 개선 사항 살펴보기
 

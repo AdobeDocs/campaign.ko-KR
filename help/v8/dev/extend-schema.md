@@ -1,6 +1,6 @@
 ---
 title: Campaign 스키마 확장
-description: Campaign 스키마를 확장하는 방법을 알아보십시오
+description: Campaign 스키마를 확장하는 방법 알아보기
 feature: Schema Extension
 role: Developer
 level: Intermediate, Experienced
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 스키마 확장{#extend-schemas}
 
-기술 사용자는 구현의 요구 사항에 맞게 Campaign 데이터 모델을 사용자 지정할 수 있습니다. 기존 스키마에 요소 추가, 스키마에서 요소 수정 또는 요소 삭제
+기술 사용자는 기존 스키마에 요소 추가, 스키마의 요소 수정 또는 요소 삭제와 같은 구현 요구 사항에 맞게 Campaign 데이터 모델을 사용자 지정할 수 있습니다.
 
 Campaign 데이터 모델을 사용자 지정하는 주요 단계는 다음과 같습니다.
 
@@ -23,14 +23,14 @@ Campaign 데이터 모델을 사용자 지정하는 주요 단계는 다음과 �
 1. 입력 양식 조정
 
 >[!CAUTION]
->기본 제공 스키마를 직접 수정해서는 안 됩니다. 기본 제공 스키마를 조정해야 하는 경우, 확장을 확장해야 합니다.
+>기본 제공 스키마는 직접 수정할 수 없습니다. 기본 제공 스키마를 조정해야 하는 경우 확장해야 합니다.
 
-![](../assets/do-not-localize/glass.png) Campaign 기본 제공 테이블 및 상호 작용에 대해 더 잘 이해하려면 다음을 참조하십시오 [이 페이지](datamodel.md). 에서 새 스키마를 생성할 때 권장 사항 을 참조하십시오 [이 페이지](create-schema.md).
+![](../assets/do-not-localize/glass.png) Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 을(를) 참조하십시오. [이 페이지](datamodel.md). 에서 새 스키마를 생성할 때 권장 사항 을 참조하십시오. [이 페이지](create-schema.md).
 
-스키마를 확장하려면 아래 단계를 따르십시오.
+스키마를 확장하려면 아래 단계를 수행합니다.
 
-1. 로 이동합니다 **[!UICONTROL Administration > Configuration > Data schemas]** 폴더를 제거합니다.
-1. 을(를) 클릭합니다. **새로 만들기** 단추를 누르고 선택합니다. **[!UICONTROL Extend the data in a table using an extension schema]**.
+1. 다음 위치로 이동 **[!UICONTROL Administration > Configuration > Data schemas]** 폴더의 Explorer에서 폴더를 검색합니다.
+1. 다음을 클릭합니다. **신규** 단추 및 선택 **[!UICONTROL Extend the data in a table using an extension schema]**.
 
    ![](assets/extend-schema-option.png)
 
@@ -42,11 +42,11 @@ Campaign 데이터 모델을 사용자 지정하는 주요 단계는 다음과 �
 
    ![](assets/extend-schema-validate.png)
 
-1. 스키마 편집기에서 상황별 메뉴를 사용하여 필요한 요소를 추가하고 저장합니다.
+1. 스키마 편집기에서 상황별 메뉴를 사용하여 필요한 요소를 추가한 다음 저장합니다.
 
    ![](assets/extend-schema-edit.png)
 
-   아래 예에서는 을 추가합니다. **멤버십 연도** 속성을 설정하고, 성(기본 이름을 덮어쓰게 됨)의 길이 제한을 지정하고, 기본 제공 스키마에서 생년월일을 제거합니다.
+   아래 예에서는 **MembershipYear** 특성을 설정하고 성에 대한 길이 제한을 추가하고(이 제한은 기본 제한을 덮어씀) 기본 제공 스키마에서 생년월일을 제거합니다.
 
    ![](assets/extend-schema-sample.png)
 
@@ -62,10 +62,10 @@ Campaign 데이터 모델을 사용자 지정하는 주요 단계는 다음과 �
    </srcSchema>
    ```
 
-1. Campaign에 연결 끊기 및 다시 연결하여 **[!UICONTROL Structure]** 탭.
+1. 연결을 끊고 Campaign에 다시 연결하여 의 스키마 구조 업데이트 확인 **[!UICONTROL Structure]** 탭.
 
    ![](assets/extend-schema-structure.png)
 
 1. 데이터베이스 구조를 업데이트하여 변경 사항을 적용합니다. [자세히 알아보기](update-database-structure.md)
 
-1. 변경 사항이 데이터베이스에 구현되면 수신자 입력 양식을 조정하여 변경 사항을 표시할 수 있습니다. [자세히 알아보기](forms.md)
+1. 데이터베이스에 변경 사항이 구현되면 수신자 입력 양식을 조정하여 변경 사항을 표시할 수 있습니다. [자세히 알아보기](forms.md)

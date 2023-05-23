@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 워크플로우 사용 사례
-description: Campaign 워크플로우를 사용하여 수행할 수 있는 사용 사례에 대해 자세히 알아보십시오
+description: Campaign 워크플로우를 사용하여 수행할 수 있는 사용 사례에 대해 자세히 알아보기
 feature: Workflows, Data Management
 exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
@@ -13,7 +13,7 @@ ht-degree: 59%
 
 # 워크플로우 사용 사례 {#about-workflow-use-cases}
 
-워크플로우를 사용할 수 있는 다양한 컨텍스트와 종단 간 사용 사례를 통해 워크플로우를 구현하는 방법을 알아봅니다.
+워크플로우를 사용할 수 있는 다양한 컨텍스트와 엔드 투 엔드 사용 사례를 통해 워크플로를 구현하는 방법을 알아봅니다.
 
 ## 게재 {#deliveries}
 
@@ -32,7 +32,7 @@ ht-degree: 59%
 * [목록으로 보고서 보내기](send-a-report-to-a-list.md)
 * [워크플로우 관리](workflow-supervision.md)
 * [운영자에게 개인화된 경고 보내기](send-alerts-to-operators.md)
-* [게재가 전송되기 전에 수신자 승인 프로세스를 설정합니다](local-approval-activity.md)
+* [게재를 보내기 전에 수신자 승인 프로세스 설정](local-approval-activity.md)
 
 ## 데이터 관리 {#management}
 
@@ -60,4 +60,4 @@ ht-degree: 59%
 * [필터 만들기](create-a-filter.md)
 * [중복 수신자 필터링](filter-duplicated-recipients.md)
 * [쿼리에서 인스턴스 변수 호출](javascript-scripts-and-templates.md#calling-an-instance-variable-in-a-query)
-* [모집단에서 분할 비율 적용](javascript-scripts-and-templates.md#example)
+* [모집단에 분할 비율 적용](javascript-scripts-and-templates.md#example)

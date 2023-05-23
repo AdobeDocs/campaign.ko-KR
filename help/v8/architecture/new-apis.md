@@ -1,6 +1,6 @@
 ---
-title: 새 Campaign v8 API
-description: 새 Campaign v8 API
+title: 새로운 Campaign v8 API
+description: 새로운 Campaign v8 API
 feature: API, FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
@@ -12,13 +12,13 @@ ht-degree: 2%
 
 ---
 
-# 특정 FFDA 캠페인 API{#gs-new-api}
+# 특정 FFDA Campaign API{#gs-new-api}
 
-의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md), Campaign v8에는 Campaign 로컬 데이터베이스와 Cloud 데이터베이스 간의 데이터를 관리하기 위한 두 개의 특정 API가 포함되어 있습니다. 이를 사용하기 위한 사전 요구 사항은 스키마에서 스테이징 메커니즘을 활성화하는 것입니다. [자세히 알아보기](staging.md)
+의 맥락에서 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md), Campaign v8에는 Campaign 로컬 데이터베이스와 클라우드 데이터베이스 간의 데이터를 관리하는 두 개의 특정 API가 포함되어 있습니다. 이를 사용하기 위한 사전 요구 사항은 스키마에서 스테이징 메커니즘을 활성화하는 것입니다. [자세히 알아보기](staging.md)
 
 * 수집 API: **xtk.session.ingest**
 
-   이 API는 데이터 삽입에만 사용됩니다. [자세히 알아보기](#data-insert-api)
+   이 API는 데이터 삽입 전용입니다. [자세히 알아보기](#data-insert-api)
 
 * 데이터 업데이트/삭제 API: **xtk.session.ingestExt**
 
@@ -28,13 +28,13 @@ ht-degree: 2%
 
 ## 데이터 삽입{#data-insert-api}
 
-다음 **xtk.session.ingest** API는 데이터 삽입에만 사용됩니다. 업데이트/삭제가 없습니다.
+다음 **xtk.session.ingest** API는 데이터 삽입 전용입니다. 업데이트/삭제 없음.
 
 ### 조정 없이 삽입{#insert-no-reconciliation}
 
-**워크플로우에서**
+**워크플로우 내**
 
-다음 코드를 **Javascript 코드** 조정 없이 클라우드 데이터베이스에 데이터를 삽입하는 활동:
+에서 다음 코드 사용 **Javascript 코드** 조정 없이 클라우드 데이터베이스에 데이터를 삽입하는 활동:
 
 ```
 var xmlStagingSampleTable = <sampleTableStg
@@ -51,7 +51,7 @@ logInfo(strUuid);
 **SOAP 호출에서**
 
 1. 인증 토큰을 가져옵니다.
-1. API를 트리거합니다. 페이로드는 다음과 같습니다.
+1. API를 트리거합니다. 페이로드는
 
    ```
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
@@ -83,15 +83,15 @@ logInfo(strUuid);
    </SOAP-ENV:Envelope>
    ```
 
-따라서 스테이징 테이블은 예상대로 제공됩니다.
+그 결과 스테이징 테이블이 예상대로 제공됩니다.
 
 ![](assets/no-reconciliation.png)
 
-### 조정을 사용하여 삽입
+### 조정과 함께 삽입
 
-**워크플로우에서**
+**워크플로우 내**
 
-다음 코드를 **Javascript 코드** 조정을 사용하여 클라우드 데이터베이스에 데이터를 삽입하는 활동:
+에서 다음 코드 사용 **Javascript 코드** 조정으로 클라우드 데이터베이스에 데이터를 삽입하는 활동:
 
 ```
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
@@ -111,7 +111,7 @@ logInfo(strUuid);
 **SOAP 호출에서**
 
 1. 인증 토큰을 가져옵니다.
-1. API를 트리거합니다. 페이로드는 다음과 같습니다.
+1. API를 트리거합니다. 페이로드는
 
    ```
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
@@ -131,7 +131,7 @@ logInfo(strUuid);
    </soapenv:Envelope>
    ```
 
-1. 이 경우 UUID는 페이로드에서 제공되었으므로 응답으로 다시 제공되지 않습니다. 응답은 다음과 같습니다.
+1. 이 경우 UUID는 페이로드에 제공되었으므로 응답에 다시 제공되지 않습니다. 응답은 다음과 같습니다.
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -143,17 +143,17 @@ logInfo(strUuid);
    </SOAP-ENV:Envelope>
    ```
 
-따라서 스테이징 테이블은 예상대로 제공됩니다.
+그 결과 스테이징 테이블이 예상대로 제공됩니다.
 
 ## 데이터 업데이트 또는 삭제{#data-update-api}
 
-다음 **xtk.session.IngestExt** 데이터 업데이트/삭제에 대해 API가 최적화되었습니다. 삽입만 하려면 **xtk.session.ingest**. 레코드 키가 스테이징 테이블에 없는지 여부를 삽입하는 중입니다.
+다음 **xtk.session.IngestExt** 데이터 업데이트/삭제를 위해 API가 최적화되었습니다. 삽입에만 사용할 경우 **xtk.session.ingest**. 레코드 키가 준비 테이블에 없는지 여부에 관계없이 Insert가 작동합니다.
 
 ### 삽입/업데이트
 
-**워크플로우에서**
+**워크플로우 내**
 
-다음 코드를 **Javascript 코드** 활동을 통해 클라우드 데이터베이스의 데이터를 업데이트합니다.
+에서 다음 코드 사용 **Javascript 코드** 클라우드 데이터베이스의 데이터를 업데이트하는 활동:
 
 ```
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
@@ -171,7 +171,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 **SOAP 호출에서**
 
 1. 인증 토큰을 가져옵니다.
-1. API를 트리거합니다. 페이로드는 다음과 같습니다.
+1. API를 트리거합니다. 페이로드는
 
    ```
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
@@ -201,13 +201,13 @@ xtk.session.IngestExt(xmlStagingRecipient);
    </SOAP-ENV:Envelope>
    ```
 
-따라서 스테이징 테이블은 예상대로 업데이트됩니다.
+결과적으로 스테이징 테이블이 예상대로 업데이트됩니다.
 
 ## 구독 관리 {#sub-apis}
 
-Campaign의 구독 관리는 [이 페이지](../start/subscriptions.md).
+Campaign의 구독 관리에 대해서는 다음에서 설명합니다. [이 페이지](../start/subscriptions.md).
 
-구독 및 구독 취소 데이터는 [스테이징 메커니즘](staging.md) ( Campaign 로컬 데이터베이스)를 참조하십시오. 가입자 정보는 로컬 데이터베이스의 스테이징 테이블에 임시 저장되며 동기화 워크플로우는 로컬 데이터베이스에서 클라우드 데이터베이스로 이 데이터를 전송합니다. 따라서 구독 및 구독 취소 프로세스는 다음과 같습니다 **비동기**. 옵트인 및 옵트아웃 요청은 매 시간 특정 기술 워크플로우를 통해 처리됩니다. [자세히 알아보기](replication.md#tech-wf)
+구독 및 구독 취소 데이터 삽입은 [스테이징 메커니즘](staging.md) Campaign 로컬 데이터베이스에서. 가입자 정보는 로컬 데이터베이스의 스테이징 테이블에 임시로 저장되며 동기화 워크플로우는 이 데이터를 로컬 데이터베이스에서 클라우드 데이터베이스로 전송합니다. 따라서 구독 및 구독 취소 프로세스는 다음과 같습니다 **비동기**. 옵트인 및 옵트아웃 요청은 특정 기술 워크플로우를 통해 한 시간마다 처리됩니다. [자세히 알아보기](replication.md#tech-wf)
 
 
 **관련 항목**

@@ -15,7 +15,7 @@ ht-degree: 23%
 
 
 
-아래 자세히 설명된 워크플로우는 **중간 소싱 플랫폼** 기본적으로 모듈입니다.
+아래에 설명된 워크플로우는 **중간 소싱 플랫폼** 기본적으로 모듈입니다.
 
 <table> 
  <tbody> 
@@ -26,8 +26,8 @@ ht-degree: 23%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">게재 지표</span> <br /> </td> 
-   <td> <span class="uicontrol">deliveryIndicators</span> <br /> </td> 
-   <td> 이 워크플로우는 게재에 대한 게재 추적 지표를 업데이트합니다. 이 워크플로우는 기본적으로 매시간 트리거됩니다.<br /> </td> 
+   <td> <span class="uicontrol">게재 지표</span> <br /> </td> 
+   <td> 이 워크플로우는 게재에 대한 게재 추적 지표를 업데이트합니다. 이 워크플로우는 기본적으로 매 시간마다 트리거됩니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

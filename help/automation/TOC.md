@@ -42,7 +42,7 @@ ht-degree: 84%
          + [중복 제거](workflow/deduplication.md)
          + [게재 개요](workflow/delivery-outline.md)
          + [스키마 편집](workflow/edit-schema.md)
-         + [데이터 보강](workflow/enrichment.md)
+         + [보강](workflow/enrichment.md)
          + [예외](workflow/exclusion.md)
          + [증분 쿼리](workflow/incremental-query.md)
          + [교차](workflow/intersection.md)
@@ -117,7 +117,7 @@ ht-degree: 84%
       + 쿼리 및 필터 {#designing-queries}
          + [수신자 테이블 쿼리](workflow/querying-recipient-table.md)
          + [쿼리 게재 정보](workflow/query-delivery-info.md)
-         + [계산 집계](workflow/compute-aggregates.md)
+         + [집계 계산](workflow/compute-aggregates.md)
          + [그룹 관리를 사용한 쿼리](workflow/query-grouping-management.md)
          + [다대다 관계를 사용한 쿼리](workflow/query-many-to-many-relationship.md)
          + [열거형 계산 필드 추가](workflow/adding-enumeration-type-calculated-field.md)
@@ -165,4 +165,4 @@ ht-degree: 84%
    + [캠페인 액세스](distributed-marketing/accessing-campaigns.md)
    + [캠페인 추적](distributed-marketing/tracking-a-campaign.md)
    + [활용 사례](distributed-marketing/examples.md)
-+ [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko)
++ [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)

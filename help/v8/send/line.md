@@ -1,5 +1,5 @@
 ---
-title: Adobe Campaign을 사용하여 DM 메시지 보내기
+title: Adobe Campaign으로 LINE 다이렉트 메시지 보내기
 description: LINE 메시지 시작
 feature: Line App
 role: Data Engineer
@@ -14,9 +14,9 @@ ht-degree: 16%
 
 # LINE 게재 만들기
 
-LINE은 모든 모바일 장치 및 PC에서 사용할 수 있는 무료 인스턴트 메시지, 음성 및 비디오 호출을 위한 애플리케이션입니다. Adobe Campaign에서 LINE 메시지를 보낼 수 있습니다.
+LINE은 무료 인스턴트 메시징, 음성 및 화상 통화를 위한 응용 프로그램으로 모든 모바일 장치와 PC에서 사용할 수 있습니다. Adobe Campaign을 사용하면 LINE 메시지를 보낼 수 있습니다.
 
 
 ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ko){target="_blank"}.
 
-![](../assets/do-not-localize/book.png) 다음을 참조하십시오 [엔드 투 엔드 샘플](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message){target="_blank"} 첫 번째 LINE 배달을 만들고 전송하려면 Campaign Classic v7 설명서에서 를 참조하십시오.
+![](../assets/do-not-localize/book.png) 다음을 참조하십시오. [엔드투엔드 샘플](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message){target="_blank"} 첫 번째 LINE 게재를 만들고 전송하기 위한 v7 Campaign Classic 설명서에서 확인할 수 있습니다.
