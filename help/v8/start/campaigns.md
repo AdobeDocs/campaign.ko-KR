@@ -5,10 +5,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 98%
+source-wordcount: '833'
+ht-degree: 97%
 
 ---
 
@@ -88,7 +88,7 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 
    Adobe Campaign을 사용하면 마케팅 캠페인의 주요 단계에 대한 협업 승인 프로세스를 설정할 수 있습니다. 각 캠페인에 대해 게재 대상, 콘텐츠 및 비용을 승인할 수 있습니다. 승인을 담당하는 Adobe Campaign 운영자는 이메일로 통보를 받을 수 있으며 콘솔 또는 웹 연결을 통해 승인을 수락하거나 거부할 수 있습니다.
 
-   [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=ko#campaign-orchestration)에서는 승인 설정 및 관리 방법을 알아봅니다.
+   [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#campaign-orchestration)에서는 승인 설정 및 관리 방법을 알아봅니다.
 
 
 ## 분산 마케팅 추가 기능{#distributed-marketing-add-on}
@@ -109,5 +109,5 @@ Adobe Campaign에서는 마케팅 캠페인의 성공 및 수익성을 측정하
 >
 >이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)을 참조하세요.
 
-[](../assets/do-not-localize/book.png) 에서 캠페인 응답 관리자를 구성하고 사용하는 방법을 알아봅니다 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ko){target="_blank"}
+[](../assets/do-not-localize/book.png) 에서 캠페인 응답 관리자를 구성하고 사용하는 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ko){target="_blank"}
 

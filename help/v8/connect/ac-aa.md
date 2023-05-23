@@ -1,32 +1,32 @@
 ---
-title: Campaign을 Adobe Analytics과 함께 사용하기
+title: Campaign 및 Adobe Analytics 작업
 description: Campaign과 Analytics를 통합하는 방법을 알아봅니다
 feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 74%
+source-wordcount: '1075'
+ht-degree: 70%
 
 ---
 
-# Campaign을 Adobe Analytics과 함께 사용하기
+# Campaign 및 Adobe Analytics 작업
 
 Campaign과 Analytics를 통합하도록 Adobe Analytics을 구성할 수 있습니다.
 
-이 통합을 통해 Adobe Campaign 및 Adobe Analytics은 **웹 Analytics 커넥터** 추가 기능. 이 통합은 Adobe Campaign이 Adobe Analytics에 제공하는 이메일 캠페인의 지표와 속성을 보냅니다.
+이 통합을 통해 Adobe Campaign 및 Adobe Analytics은 **웹 분석 커넥터** 추가 기능. 이 통합은 Adobe Campaign에서 게재한 이메일 캠페인의 지표와 특성을 Adobe Analytics으로 보냅니다.
 
-![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자로, [연락처 Adobe](../start/campaign-faq.md#support) Adobe Experience Cloud 서비스 및 솔루션을 사용하여 Campaign을 연결할 수 있습니다. Web Analytics 커넥터 추가 기능은 전용 패키지를 통해 사용자 환경에 설치해야 합니다.
+![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Adobe Experience Cloud 서비스 및 솔루션과 Campaign을 연결합니다. Web Analytics 커넥터 추가 기능은 전용 패키지를 통해 환경에 설치해야 합니다.
 
-Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상자를 측정하는 방법(웹 분석)이 있습니다. 웹 분석 도구를 사용하면 Adobe Campaign에서 지표 및 캠페인 속성을 Analytics에 전달할 수 있습니다.
+Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상자를 측정하는 방법(웹 분석)이 있습니다. Adobe Campaign은 웹 분석 도구를 통해 지표와 캠페인 속성을 Analytics에 전달할 수 있습니다.
 
-각 도구의 작업 둘레는 다음과 같습니다.
+각 도구의 동작 둘레는 다음과 같습니다.
 
-* **Adobe Analytics** Adobe Campaign에서 시작한 이메일 캠페인을 표시합니다
+* **Adobe Analytics** Adobe Campaign으로 시작한 이메일 캠페인을 표시합니다.
 
-* **Adobe Campaign** indicators 및 campaign 속성을 커넥터로 전송하고 커넥터를 웹 분석 도구에 전달합니다
+* **Adobe Campaign** 지표 및 캠페인 속성을 커넥터로 전송하면 커넥터가 이 속성을 웹 분석 도구에 전달합니다
 
 
 >[!CAUTION]
@@ -41,7 +41,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 ## Analytics 보고서 세트 만들기 {#report-suite-analytics}
 
-을(를) 만들려면 **[!UICONTROL Report suite]** in [!DNL Adobe Analytics], 아래 절차를 따르십시오.
+다음을 만들려면 **[!UICONTROL Report suite]** 위치: [!DNL Adobe Analytics]을(를) 클릭하고 아래 단계를 수행합니다.
 
 1. [!DNL Adobe Analytics]에서 **[!UICONTROL Admin tab]**&#x200B;을 선택한 다음 **[!UICONTROL All admin]**&#x200B;를 클릭합니다.
 
@@ -53,7 +53,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 1. **[!UICONTROL Report suite manager]** 페이지에서 **[!UICONTROL Create new]**&#x200B;를 클릭한 다음 **[!UICONTROL Report suite]**&#x200B;를 클릭합니다.
 
-   **[!UICONTROL Report suite]** 만들기에 대한 자세한 절차는 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=ko#prerequisites)을 참조하십시오.
+   **[!UICONTROL Report suite]** 만들기에 대한 자세한 절차는 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites)을 참조하십시오.
 
    ![](assets/analytics_connnector_3.png)
 
@@ -83,7 +83,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 1. 이메일 캠페인의 영향을 측정하는 데 필요한 식별자, 즉, 내부 캠페인 이름(cid) 및 iNmsBroadlog(bid) 테이블 ID를 만들려면 **[!UICONTROL Add new]**&#x200B;를 클릭합니다.
 
-   **[!UICONTROL Conversion variables]**&#x200B;을(를) 편집하는 방법에 대해 알아보려면 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=ko#admin-tools)을 참조하십시오.
+   **[!UICONTROL Conversion variables]**&#x200B;을(를) 편집하는 방법에 대해 알아보려면 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools)을 참조하십시오.
 
    ![](assets/analytics_connnector_6.png)
 
@@ -106,13 +106,13 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   **[!UICONTROL Success events]**&#x200B;를 구성하는 방법에 대해 알아보려면 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=ko#admin-tools)을 참조하십시오.
+   **[!UICONTROL Success events]**&#x200B;를 구성하는 방법에 대해 알아보려면 이 [섹션](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools)을 참조하십시오.
 
    ![](assets/analytics_connnector_8.png)
 
 1. 구성을 완료하면 **[!UICONTROL Save]** 을(를) 클릭합니다.
 
-보고서 세트가 구성되면 **[!UICONTROL External accounts]** Adobe Campaign.
+보고서 세트가 구성되면 다음을 구성해야 합니다 **[!UICONTROL External accounts]** Adobe Campaign.
 
 ## Campaign 외부 계정 구성 {#external-account-ac}
 
@@ -120,7 +120,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 외부 계정을 구성할 때 **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** 또는 **[!UICONTROL Success events]** 중 하나가 표시되지 않으면 사용자와 연결된 **[!UICONTROL Product profile]**&#x200B;에서 새로 만든 이 구성 요소에 대한 권한이 누락되었음을 의미합니다.
 
-자세한 내용은 [Adobe Analytics용 제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko#product-profile-admins) 페이지를 참조하십시오.
+자세한 내용은 [Adobe Analytics용 제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins) 페이지를 참조하십시오.
 
 1. Adobe Campaign 트리의 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** 폴더로 이동하여 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
@@ -158,7 +158,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
    >[!NOTE]
    >
-   > 이 버전의 Campaign v8에서는 세그먼트를 추가하거나 제거할 수 없습니다.
+   > 이 Campaign v8 버전에서는 세그먼트를 추가하거나 제거할 수 없습니다.
 
 1. **[!UICONTROL External account]**&#x200B;에서 **[!UICONTROL Enrich the formula...]** 링크를 클릭하여 URL 계산 공식을 변경해서 웹 분석 도구 통합 정보(캠페인 ID)와 활동을 추적해야 하는 사이트의 도메인을 지정합니다.
 
@@ -189,13 +189,13 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 ## 웹 분석 프로세스의 기술 워크플로우 {#technical-workflows-of-web-analytics-processes}
 
-Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작업으로 실행되는 기술 워크플로우로 처리됩니다.
+Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작업으로 실행되는 기술 워크플로우에서 처리합니다.
 
-이 워크플로우는 Campaign Explorer 트리의 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]** 폴더를 입력합니다.
+이 워크플로우는 캠페인 탐색기 트리의 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]** 폴더를 삭제합니다.
 
 ![](assets/webanalytics_workflows.png)
 
-다음 **[!UICONTROL Sending of indicators and campaign attributes]** 워크플로우에서는 Adobe Campaign을 통해 Adobe Analytics 커넥터를 사용하여 Adobe Experience Cloud으로 이메일 캠페인 표시기를 보낼 수 있습니다. 이 워크플로우는 매일 오전 4시에 트리거되며 데이터를 Analytics에 전송하는 데 24시간이 걸릴 수 있습니다.
+다음 **[!UICONTROL Sending of indicators and campaign attributes]** 워크플로우를 사용하면 Adobe Analytics Connector를 사용하여 Adobe Campaign을 통해 Adobe Experience Cloud으로 이메일 캠페인 지표를 보낼 수 있습니다. 이 워크플로우는 매일 오전 4시에 트리거되며 데이터를 Analytics에 전송하는 데 24시간이 걸릴 수 있습니다.
 
 이 워크플로우를 다시 시작하지 않아야 합니다. 그렇지 않으면 Analytics 결과를 왜곡할 수 있는 모든 이전 데이터가 다시 전송됩니다.
 
@@ -236,7 +236,7 @@ Adobe Campaign에서 게재를 보낸 후 Adobe Experience Cloud가 사이트에
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. 게재 속성을 엽니다.
-1. **[!UICONTROL Web Analytics]** 탭으로 이동하여 이전에 만든 외부 계정을 선택합니다. 을(를) 참조하십시오. [Adobe Campaign에서 외부 계정 구성](#external-account-ac).
+1. **[!UICONTROL Web Analytics]** 탭으로 이동하여 이전에 만든 외부 계정을 선택합니다. 을(를) 참조하십시오 [Adobe Campaign에서 외부 계정 구성](#external-account-ac).
 
    ![](assets/webanalytics_delivery_properties_002.png)
 

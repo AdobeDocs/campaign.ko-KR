@@ -1,27 +1,27 @@
 ---
-title: Campaign을 Adobe Experience Manager과 함께 사용하기
-description: Campaign 및 Adobe Experience Manager을 사용하여 작업하는 방법 알아보기
+title: Campaign 및 Adobe Experience Manager 작업
+description: Campaign을 Adobe Experience Manager과 함께 사용하는 방법에 대해 알아보기
 feature: Experience Manager Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
-# Campaign을 Adobe Experience Manager과 함께 사용하기
+# Campaign 및 Adobe Experience Manager 작업
 
-Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 Adobe Experience Manager에서 직접 양식을 비롯한 이메일 게재 콘텐츠를 관리할 수 있습니다.
+Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게재의 콘텐츠와 양식을 Adobe Experience Manager에서 직접 관리할 수 있습니다.
 
-Adobe Campaign에서 이메일이나 랜딩 페이지를 편집하는 동안 Adobe Experience Manager 자산 라이브러리의 자산을 직접 삽입할 수도 있습니다. 이 기능은 Adobe Experience Manager Assets에 자세히 설명되어 있습니다 [장](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html).
+Adobe Campaign에서 이메일 또는 랜딩 페이지를 편집하는 동안 Adobe Experience Manager Assets 라이브러리에서 자산을 직접 삽입할 수도 있습니다. 이 기능은 Adobe Experience Manager 자산에 자세히 설명되어 있습니다 [챕터](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html).
 
 즉, Adobe Experience Manager 컨텐츠 편집 기능과 Adobe Campaign 전달 기능을 모두 활용할 수 있습니다.
 
-![](../assets/do-not-localize/book.png) [자세한 내용은 이 문서를 참조하십시오](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=en#aem-and-adobe-campaign-integration-workflow)
+![](../assets/do-not-localize/book.png) [이 문서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow)
 
-![](../assets/do-not-localize/book.png) [이 종단간 샘플에서 이 통합을 살펴보십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) [이 전체적인 샘플에서 이 통합에 대해 알아봅니다.](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자로, [연락처 Adobe](../start/campaign-faq.md#support) Adobe Experience Manager을 Campaign과 통합하기 위해 사용됩니다.
+![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Adobe Experience Manager을 Campaign과 통합하기 위해
