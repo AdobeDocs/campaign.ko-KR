@@ -3,9 +3,9 @@ product: campaign
 title: 마케팅 리소스 관리
 description: 마케팅 리소스를 관리하는 방법 알아보기
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: 399c81276d29622a2161c8c90395df1a38954763
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Adobe Campaign을 통해 관리되는 각 마케팅 리소스에 대해 언제�
 
 ![](assets/mkt-resouce-approve.png)
 
-그런 다음 승인된 운영자는 승인을 수락하거나 거부할 수 있습니다. 이 작업은 다음 중 하나를 통해 수행할 수 있습니다. (알림 메시지의 링크를 클릭하여) 보낸 이메일 메시지 또는 (콘솔을 클릭하여) **[!UICONTROL Approve]** ) 단추를 클릭합니다.
+그런 다음 승인된 운영자는 승인을 수락하거나 거부할 수 있습니다. 이 작업은 다음 중 하나를 통해 수행할 수 있습니다. (알림 메시지의 링크를 클릭하여) 전송된 이메일 메시지를 통해 또는 (클라이언트 콘솔을 클릭하여) **[!UICONTROL Approve]** ) 단추를 클릭합니다.
 
 승인 창에서 설명을 입력할 수 있습니다.
 

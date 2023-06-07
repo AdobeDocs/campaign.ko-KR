@@ -6,9 +6,9 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner, Intermediate, Experienced
 exl-id: fefb6d80-c3d1-448b-82ab-648da58a0ba4
-source-git-commit: 666dbdac8330cae17693142cf45cc3d3d2d187a9
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1846'
 ht-degree: 1%
 
 ---
@@ -211,7 +211,7 @@ Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. �
 
 1. 변경 내용을 저장합니다. 값 교체는 **별칭 정리** 매일 밤 실행되는 워크플로우입니다. 을(를) 참조하십시오 [데이터 정리 실행](#running-data-cleansing).
 
-이 열거형을 기반으로 하는 모든 필드의 경우 사용자가 값을 입력할 때 **Adobe** &quot;회사&quot; 필드(Adobe Campaign 콘솔의 웹 양식)에서는 값으로 자동 대체됩니다. **Adobe**.
+이 열거형을 기반으로 하는 모든 필드의 경우 사용자가 값을 입력할 때 **Adobe** &quot;회사&quot; 필드(Adobe Campaign 클라이언트 콘솔의 웹 양식)에서는 값으로 자동 대체됩니다. **Adobe**.
 
 #### 잘못된 값을 별칭으로 변환{#convert-to-alias}
 

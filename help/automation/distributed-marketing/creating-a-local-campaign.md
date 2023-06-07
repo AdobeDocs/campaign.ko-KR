@@ -4,9 +4,9 @@ title: 로컬 캠페인 만들기
 description: 로컬 캠페인 만들기
 feature: Distributed Marketing
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 7e5ffbec959785971280c394c416cebe83590897
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1555'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 1%
 
    ![](assets/mkt_distr_7.png)
 
-* **[!UICONTROL By external form]** : 로컬 엔티티는 엑스트라넷의 캠페인 매개 변수에 액세스할 수 있습니다(Adobe Campaign 아님). 이러한 매개 변수는 **로컬 캠페인(양식 기준)**.
+* **[!UICONTROL By external form]** : 로컬 엔티티는 엑스트라넷의 캠페인 매개 변수에 액세스할 수 있습니다(Adobe Campaign 아님). 이러한 매개변수는 의 매개변수와 동일합니다. **로컬 캠페인(양식 기준)**.
 * **[!UICONTROL Pre-set]** : 로컬 엔티티는 현지화하지 않고 기본 양식을 사용하여 캠페인을 주문합니다.
 
    ![](assets/mkt_distr_5.png)
@@ -295,9 +295,9 @@ ht-degree: 1%
 
 ![](assets/mkg_dist_command_valid_web.png)
 
-#### Adobe Campaign 콘솔을 통해 승인 {#approving-via-the-adobe-campaign-console}
+#### 클라이언트 콘솔을 통해 승인 {#approving-via-the-adobe-campaign-console}
 
-캠페인 주문 개요에서 콘솔을 통해 주문을 승인할 수도 있습니다. 주문을 승인하려면 주문을 선택하고 **[!UICONTROL Approve the order]**.
+캠페인 주문 개요에서 클라이언트 콘솔을 통해 주문을 승인할 수도 있습니다. 주문을 승인하려면 주문을 선택하고 **[!UICONTROL Approve the order]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 
@@ -321,7 +321,7 @@ ht-degree: 1%
 
 검토자가 주문을 거부하면 관련 알림이 관련 로컬 엔티티에 자동으로 전송됩니다. 여기에는 승인을 거부한 운영자가 입력한 댓글이 표시됩니다.
 
-정보는 캠페인 패키지 목록 페이지 또는 캠페인 주문 페이지에 표시됩니다. Adobe Campaign 콘솔에 액세스할 수 있는 경우 로컬 엔티티에 이 거부에 대한 알림이 표시됩니다.
+정보는 캠페인 패키지 목록 페이지 또는 캠페인 주문 페이지에 표시됩니다. Adobe Campaign 클라이언트 콘솔에 액세스할 수 있는 경우 로컬 엔티티에 이 거부에 대한 알림이 표시됩니다.
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 

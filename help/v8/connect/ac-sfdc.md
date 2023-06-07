@@ -5,9 +5,9 @@ feature: Salesforce Integration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '349'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,7 @@ Salesforce 데이터를 Adobe Campaign으로 가져오고 내보내도록 전용
 
 >[!NOTE]
 >
->설정을 승인하려면 Adobe Campaign 콘솔에서 로그오프했다가 다시 로그온해야 합니다.
+>설정을 승인하려면 Adobe Campaign 클라이언트 콘솔에서 로그오프했다가 다시 로그온해야 합니다.
 
 ## 동기화할 테이블 선택{#sfdc-create-tables}
 

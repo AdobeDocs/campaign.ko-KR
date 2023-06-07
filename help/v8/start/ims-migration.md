@@ -3,7 +3,7 @@ title: 개발자 콘솔에서 기술 사용자를 기술 계정으로 마이그�
 description: 개발자 콘솔에서 기술 사용자를 기술 계정으로 마이그레이션
 hide: true
 hidefromtoc: true
-source-git-commit: 1f9efc0744792c1173e77965ff81eaee0ed2c618
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%

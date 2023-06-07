@@ -4,11 +4,11 @@ description: 일반적인 Adobe Campaign 질문에 대한 답변을 얻을 수 �
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
-exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -68,7 +68,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
 1. **Campaign을 다운로드하는 방법은 무엇인가요?**
 
-   Adobe 다운로드 센터에서 설치 프로그램과 클라이언트 콘솔을 다운로드할 수 있습니다.
+   Adobe 다운로드 센터에서 설치 프로그램과 클라이언트 콘솔을 가져올 수 있습니다.
 
    관리 사용자로 Adobe 액세스 [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html) {target="_blank"} Adobe Campaign을 다운로드하려면 다음을 수행하십시오.
 

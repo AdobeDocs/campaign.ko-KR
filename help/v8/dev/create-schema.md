@@ -5,7 +5,7 @@ feature: Schema Extension
 role: Developer
 level: Intermediate, Experienced
 exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 새 스키마 만들기{#create-new-schema}
 
-스키마를 편집, 생성 및 구성하려면 **[!UICONTROL Administration > Configuration > Data schemas]** Adobe Campaign 클라이언트 콘솔의 노드입니다.
+스키마를 편집, 생성 및 구성하려면 **[!UICONTROL Administration > Configuration > Data schemas]** Adobe Campaign 클라이언트 콘솔의 노드.
 
 >[!NOTE]
 >

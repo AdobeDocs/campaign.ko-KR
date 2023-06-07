@@ -4,9 +4,9 @@ title: 워크플로우 실행 모니터링
 description: 워크플로우 실행 모니터링
 feature: Workflows
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1935'
 ht-degree: 2%
 
 ---
@@ -121,7 +121,7 @@ Adobe Campaign 탐색기에서 워크플로 목록에 **[!UICONTROL Failed]** �
 
 ![](assets/wf-notification_error-msg.png)
 
-이 링크를 사용하면 웹 모드에서 Adobe Campaign 콘솔에 액세스하고 로그인한 후 오류 워크플로우를 작업할 수 있습니다.
+이 링크를 사용하면 웹 모드에서 Adobe Campaign 클라이언트 콘솔에 액세스하고 로그인한 후 오류 워크플로우를 작업할 수 있습니다.
 
 ![](assets/wf-notification_error-console.png)
 

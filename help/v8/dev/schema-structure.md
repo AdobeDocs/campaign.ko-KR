@@ -5,7 +5,7 @@ feature: Schema Extension
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 1%
@@ -361,7 +361,7 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 이 언어의 잠재력을 강화하기 위해 표현식에 높은 수준의 함수가 추가되었습니다.
 
-Adobe Campaign 클라이언트 콘솔에서 표현식 편집기를 통해 사용 가능한 함수 목록에 액세스할 수 있습니다.
+Adobe Campaign 클라이언트 콘솔의 표현식 편집기를 통해 사용 가능한 함수 목록에 액세스할 수 있습니다.
 
 ![](assets/schema_function.png)
 

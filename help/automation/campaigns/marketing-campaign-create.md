@@ -4,9 +4,9 @@ title: 마케팅 캠페인 만들기
 description: 마케팅 캠페인을 만들고 실행하는 방법 알아보기
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: ad286059a9f4b63d7de4fa5130760f36d0976431
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1298'
 ht-degree: 3%
 
 ---
@@ -159,7 +159,7 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 
 ## 웹 인터페이스 사용 {#use-the-web-interface-}
 
-인터넷 브라우저를 통해 Adobe Campaign 콘솔 화면에 액세스하여 모든 캠페인과 게재 및 데이터베이스의 프로필에 대한 보고서와 정보를 볼 수 있습니다. 이 액세스는 레코드 생성을 활성화하지 않습니다. 운영자 권한에 따라 데이터베이스의 데이터를 보거나 작업할 수 있습니다. 예를 들어 캠페인 콘텐츠 및 타겟팅을 승인하고, 게재를 다시 시작하거나 중지할 수 있습니다.
+인터넷 브라우저를 통해 Adobe Campaign 클라이언트 콘솔 화면에 액세스하여 모든 캠페인 및 게재는 물론, 데이터베이스의 프로필에 대한 보고서 및 정보를 볼 수 있습니다. 이 액세스는 레코드 생성을 활성화하지 않습니다. 운영자 권한에 따라 데이터베이스의 데이터를 보거나 작업할 수 있습니다. 예를 들어 캠페인 콘텐츠 및 타겟팅을 승인하고, 게재를 다시 시작하거나 중지할 수 있습니다.
 
 1. https://을 통해 평소대로 로그온하십시오.`<your instance>:<port>/view/home`.
 1. 메뉴를 사용하여 개요에 액세스합니다.

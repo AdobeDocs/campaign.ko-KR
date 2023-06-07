@@ -4,9 +4,9 @@ title: 로컬 승인
 description: 로컬 승인
 feature: Workflows
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -81,13 +81,13 @@ ht-degree: 2%
 
 이 예에서는 워크플로우 게재에 대한 승인 프로세스를 설정하는 방법을 보여 줍니다. 게재 워크플로우 만들기에 대한 자세한 내용은 [예: 게재 워크플로우](delivery.md#example--delivery-workflow) 섹션.
 
-연산자는 두 가지 방법 중 하나로 게재를 승인할 수 있습니다. 이메일 메시지에 연결된 웹 페이지를 사용하거나 콘솔을 통해.
+연산자는 두 가지 방법 중 하나로 게재를 승인할 수 있습니다. 이메일 메시지에 연결된 웹 페이지를 사용하거나 클라이언트 콘솔을 통해 말입니다.
 
 * 웹 승인
 
    관리자 그룹의 운영자에게 전송된 전자 메일을 통해 게재 대상을 승인할 수 있습니다. 메시지는 정의된 텍스트를 사용하고 JavaScript 표현식은 계산된 값(이 경우, &#39;574&#39;)으로 대체됩니다.
 
-   게재를 승인하려면 관련 링크를 클릭하고 Adobe Campaign 콘솔에 로그온합니다.
+   게재를 승인하려면 관련 링크를 클릭하고 Adobe Campaign 클라이언트 콘솔에 로그온합니다.
 
    ![](assets/new-workflow-valid-webaccess.png)
 
@@ -95,7 +95,7 @@ ht-degree: 2%
 
    ![](assets/new-workflow-valid-webaccess-confirm.png)
 
-* 콘솔을 통한 승인
+* 클라이언트 콘솔을 통한 승인
 
    트리 구조에서 **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** 노드에는 현재 연결된 운영자가 승인할 작업 목록이 포함되어 있습니다. 목록에 한 줄이 표시됩니다. 응답하려면 이 줄을 두 번 클릭하십시오. 다음 창이 표시됩니다.
 

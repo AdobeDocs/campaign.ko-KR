@@ -4,9 +4,9 @@ description: Campaign 환경을 Twitter과 통합하는 방법을 알아봅니�
 role: User, Admin
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1062'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ Campaign 인스턴스를 Twitter 계정과 연결하려면 **Twitter** Campaign�
 >
 >각 **Twitter** 서비스는 MID 인스턴스의 Adobe에 의해서도 생성되어야 합니다. 환경을 구성하려면 Adobe 담당자에게 문의하십시오.
 
-설정을 입력하려면 Adobe Campaign 콘솔 및 Twitter 앱 권한 모두에 액세스해야 합니다.
+설정을 입력하려면 Adobe Campaign 클라이언트 콘솔과 Twitter 앱 권한 모두에 액세스해야 합니다.
 
 1. 위치 **Adobe Campaign**&#x200B;로 이동하여 **[!UICONTROL Profiles and targets]** 탭을 클릭하고 **[!UICONTROL Services and Subscriptions]** 링크
 1. 새 서비스를 만듭니다.

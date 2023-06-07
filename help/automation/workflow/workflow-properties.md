@@ -4,9 +4,9 @@ title: 워크플로 속성
 description: Campaign 워크플로우 속성에 대해 자세히 알아보기
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '544'
 ht-degree: 39%
 
 ---
@@ -76,6 +76,6 @@ ht-degree: 39%
 
    ![](assets/wf-properties_select-supervisors.png)
 
-   다음 **[!UICONTROL Notification to a workflow supervisor]** 기본 템플릿에는 수신자가 로그인한 후 문제를 처리할 수 있도록 웹을 통해 Adobe Campaign 콘솔에 액세스하기 위한 링크가 포함되어 있습니다.
+   다음 **[!UICONTROL Notification to a workflow supervisor]** 기본 템플릿에는 수신자가 로그인한 후 문제를 처리할 수 있도록 웹을 통해 Adobe Campaign 클라이언트 콘솔에 액세스하기 위한 링크가 포함되어 있습니다.
 
    개인화된 템플릿을 만들려면 **[!UICONTROL Administration>Campaign management>Technical deliveries and templates]**.

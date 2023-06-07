@@ -4,16 +4,14 @@ title: 캠페인 패키지 게시
 description: 캠페인 패키지 게시
 feature: Distributed Marketing
 exl-id: 2cd1981d-f192-41dc-b2f2-4fcd60493079
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 2%
 
 ---
 
 # 캠페인 패키지 게시{#publishing-the-campaign-package}
-
-
 
 중앙 엔티티 운영자는 로컬 엔티티에 제공하려는 캠페인을 **[!UICONTROL list of campaign packages]**.
 
@@ -43,19 +41,19 @@ ht-degree: 2%
 
 ![](assets/s_advuser_mkg_dist_select_op_valid.png)
 
-## 승인 기간 {#approval-periods}
+## 승인 타임라인 {#approval-periods}
 
 기본적으로 검토자에게는 승인을 처리할 제출 날짜로부터 3일이 제공됩니다.
 
 검토자 편집 창에서 캠페인 패키지가 승인되지 않은 경우 하나 이상의 메시지를 전송하도록 미리 알림을 설정할 수도 있습니다. 이렇게 하려면 **[!UICONTROL Add reminder]** 링크를 클릭한 다음 **[!UICONTROL Add]** 단추를 클릭합니다.
 
-미리 알림은 지정된 날짜 및/또는 **x** 제출일로부터 일 후. 미리 알림 유형은 미리 알림 테이블의 첫 번째 열에서 구성할 수 있습니다. 아래 예에서 검토자는 2014/29/01, 즉 에서 선택한 날짜 2일 전에 일에 대한 미리 알림 메시지를 수신하게 됩니다. **[!UICONTROL Date]** 열 및 승인 기간 종료 1일 전, 즉 승인 날짜에 대한 제출 후 2일 후 두 번째 미리 알림입니다.
+미리 알림은 지정된 날짜 및/또는 **x** 제출일로부터 일 후. 미리 알림 유형은 미리 알림 테이블의 첫 번째 열에서 구성할 수 있습니다. 아래 예에서 검토자는 2023년 1월 11일에, 즉 에서 선택한 날짜 2일 전에 미리 알림 메시지를 수신하게 됩니다. **[!UICONTROL Date]** 열 및 승인 기간 종료 1일 전, 즉 승인 날짜에 대한 제출 후 2일 후 두 번째 미리 알림입니다.
 
 ![](assets/s_advuser_mkg_dist_reminder_planning.png)
 
 정의되어 있고 승인을 위해 패키지가 제출되면 실행 일정이에 표시됩니다. **[!UICONTROL Audit]** 탭. 이전 구성을 기반으로 계산된 처리 기한과 구성된 모든 미리 알림의 날짜가 표시됩니다.
 
-## Adobe Campaign 콘솔을 통해 승인 {#approving-via-the-adobe-campaign-console}
+## 클라이언트 콘솔을 통해 승인 {#approving-via-the-adobe-campaign-console}
 
 검토자가 지정되지 않았거나 통지된 운영자가 패키지를 승인하지 않은 경우 **[!UICONTROL Approve the package]** 버튼을 사용하면 캠페인 패키지에서 바로 승인할 수 있습니다 **[!UICONTROL Dashboard]** 또는 패키지 개요에서 참조할 수 있습니다.
 

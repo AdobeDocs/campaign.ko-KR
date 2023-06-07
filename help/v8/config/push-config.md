@@ -8,9 +8,9 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1262'
 ht-degree: 4%
 
 ---
@@ -796,7 +796,7 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 
 ## 변수 {#variables}
 
-변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드 및 Adobe Campaign 콘솔의 **[!UICONTROL Variables]** 전용 모바일 애플리케이션 서비스의 탭.
+변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드 및 Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Variables]** 전용 모바일 애플리케이션 서비스의 탭.
 
 
 다음은 모바일 애플리케이션에서 알림에 추가된 변수를 수집할 수 있는 코드의 예입니다. 이 예제에서는 &quot;VAR&quot; 변수를 사용합니다.
