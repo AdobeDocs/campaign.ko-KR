@@ -3,9 +3,9 @@ title: 개발자 콘솔에서 기술 사용자를 기술 계정으로 마이그�
 description: 개발자 콘솔에서 기술 사용자를 기술 계정으로 마이그레이션
 hide: true
 hidefromtoc: true
-source-git-commit: 8842404511bd6166d920ebdeee942007b33a1bab
+source-git-commit: 1f9efc0744792c1173e77965ff81eaee0ed2c618
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Campaign v8.5부터 Campaign v8에 대한 인증 프로세스가 개선되고 �
 
 Campaign 일반 사용자는 이미 IMS(Identity Management System) Adobe을 통해 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결합니다. 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 이제 Adobe Campaign 클라이언트 애플리케이션이 IMS 기술 계정 토큰을 사용하여 Campaign API를 직접 호출합니다.
 
-새 서버 간 인증 프로세스에 대해 자세히 알아보기 [Adobe Developer 콘솔 설명서에서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+에서 새 서버 간 인증 프로세스에 대해 자세히 알아봅니다. [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 이 변경 사항은 Campaign v8.5부터 적용되며 다음과 같습니다. **필수** campaign v8.6을 시작하는 중입니다.
 
@@ -46,7 +46,7 @@ Campaign 프로젝트에 액세스할 수 있으면 API, Adobe Campaign 및 I/O 
 
 ### 2단계 - 서버 간 인증을 사용하여 프로젝트에 API 추가{#ims-migration-step-2}
 
-Adobe Developer 콘솔에서 프로젝트가 생성되면 서버 인증을 사용하는 API를 추가하십시오. 에서 OAuth 서버 간 자격 증명을 설정하는 방법에 대해 알아봅니다. [Adobe Developer 콘솔 설명서에서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
+Adobe Developer 콘솔에서 프로젝트가 생성되면 서버 인증을 사용하는 API를 추가하십시오. 에서 OAuth 서버 간 자격 증명을 설정하는 방법에 대해 알아봅니다. [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
 
 API가 성공적으로 연결되면 클라이언트 ID 및 클라이언트 암호를 포함하여 새로 생성된 자격 증명에 액세스하고 액세스 토큰을 생성할 수 있습니다.
 
