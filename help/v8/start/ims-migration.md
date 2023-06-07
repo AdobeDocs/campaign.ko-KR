@@ -3,14 +3,14 @@ title: 개발자 콘솔에서 기술 사용자를 기술 계정으로 마이그�
 description: 개발자 콘솔에서 기술 사용자를 기술 계정으로 마이그레이션
 hide: true
 hidefromtoc: true
-source-git-commit: 7b4942b5334826adf27c8a31dbdb9a5bfb5d50eb
+source-git-commit: 8842404511bd6166d920ebdeee942007b33a1bab
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
-# 개발자 콘솔에서 기술 사용자를 기술 계정으로 마이그레이션 {#migrate-tech-users-to-ims}
+# Campaign 기술 운영자를 Adobe Developer 콘솔로 마이그레이션 {#migrate-tech-users-to-ims}
 
 Campaign v8.5부터 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 기술 운영자는 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} Campaign에 연결합니다. 기술 운영자는 API 통합을 위해 명시적으로 생성된 Campaign 사용자 프로필입니다. 이 문서에서는 Adobe Developer 콘솔에서 기술 연산자를 기술 계정으로 마이그레이션하는 데 필요한 단계에 대해 자세히 설명합니다.
 
@@ -23,7 +23,7 @@ Campaign 일반 사용자는 이미 IMS(Identity Management System) Adobe을 통
 이 변경 사항은 Campaign v8.5부터 적용되며 다음과 같습니다. **필수** campaign v8.6을 시작하는 중입니다.
 
 
-## 영향을 받습니까?{#ims-imacts}
+## 영향을 받습니까?{#ims-impacts}
 
 Campaign API를 사용하는 경우 아래에 자세히 설명된 대로 기술 연산자를 Adobe Developer 콘솔로 마이그레이션해야 합니다.
 
@@ -33,7 +33,7 @@ Campaign API를 사용하는 경우 아래에 자세히 설명된 대로 기술 
 
 마이그레이션 프로세스를 시작하기 전에 Adobe 기술 팀이 기존 운영자 그룹과 IMS(Identity Management System) Adobe에 대한 명명된 권한을 마이그레이션할 수 있도록 Adobe 담당자에게 문의해야 합니다.
 
-### 1단계 - Adobe Developer 콘솔에서 프로젝트 만들기{#ims-migration-step-1}
+### 1단계 - Adobe Developer 콘솔에서 Campaign 프로젝트 만들기/업데이트{#ims-migration-step-1}
 
 통합은 의 일부로 만들어집니다. **프로젝트** Adobe Developer 콘솔 내에서. 의 프로젝트에 대해 자세히 알아보기 [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
@@ -68,7 +68,7 @@ API가 성공적으로 연결되면 클라이언트 ID 및 클라이언트 암�
 
 >[!CAUTION]
 >
->기술 운영자에 대한 인증 유형을 업데이트하면 이 기술 운영자와의 모든 API 통합 작업이 중지됩니다
+>기술 운영자에 대한 인증 유형을 업데이트하면 이 기술 운영자와의 모든 API 통합 작업이 중지됩니다. 다음을 수행해야 합니다. [api 통합 업데이트](#ims-migration-step-6).
 
 기술 운영자 인증 모드를 IMS로 업데이트하려면 다음 단계를 따르십시오.
 
@@ -89,7 +89,6 @@ API가 성공적으로 연결되면 클라이언트 ID 및 클라이언트 암�
    ```
 
 1. 변경 내용을 저장합니다.
-
 
 SQL 스크립트나 Campaign API를 사용하여 기술 연산자를 프로그래밍 방식으로 업데이트할 수도 있습니다. 이러한 모드를 사용하면 운영자의 이름을 관련 기술 계정 이메일 주소 및/또는 인증 유형으로 업데이트하는 단계를 자동화할 수 있습니다.
 
@@ -148,8 +147,12 @@ SQL 스크립트나 Campaign API를 사용하여 기술 연산자를 프로그�
 
 연결을 시도하려면 다음에서 자세히 설명하는 단계를 수행합니다. [Adobe Developer 콘솔 자격 증명 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} 액세스 토큰을 생성하고 제공된 샘플 cURL 명령을 복사합니다.
 
-API 통합 단계에 대한 자세한 내용은 을 참조하십시오. [Adobe Developer 콘솔 인증 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
+### 6단계 - 서드파티 API 통합 업데이트 {#ims-migration-step-6}
+
+타사 시스템과의 API 통합을 업데이트해야 합니다.
+
+원활한 통합을 위한 샘플 코드를 포함하여 API 통합 단계에 대한 자세한 내용은 을 참조하십시오. [Adobe Developer 콘솔 인증 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 
 ### Soap 호출 샘플{#ims-migration-samples}
@@ -172,7 +175,7 @@ API 통합 단계에 대한 자세한 내용은 을 참조하십시오. [Adobe D
            <urn:sessiontoken>SESSION_TOKEN</urn:sessiontoken>
            <urn:domEvent>
                <!--You may enter ANY elements at this point-->
-               <rtEvent type="melon" email="dchavan@adobe.com"/>
+               <rtEvent type="type" email="name@domain.com"/>
            </urn:domEvent>
        </urn:PushEvent>
    </soapenv:Body>
@@ -181,7 +184,7 @@ API 통합 단계에 대한 자세한 내용은 을 참조하십시오. [Adobe D
 
 * 마이그레이션 후
 
-   ```
+   ```sql
    POST /nl/jsp/soaprouter.jsp HTTP/1.1
    Host: localhost:8080
    Content-Type: application/soap+xml;
@@ -196,7 +199,7 @@ API 통합 단계에 대한 자세한 내용은 을 참조하십시오. [Adobe D
            <urn:sessiontoken></urn:sessiontoken>
            <urn:domEvent>
                <!--You may enter ANY elements at this point-->
-               <rtEvent type="melon" email="dchavan@adobe.com"/>
+               <rtEvent type="type" email="name@domain.com"/>
            </urn:domEvent>
        </urn:PushEvent>
    </soapenv:Body>
