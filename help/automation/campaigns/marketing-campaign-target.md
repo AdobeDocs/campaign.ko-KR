@@ -4,9 +4,9 @@ title: 마케팅 캠페인 타겟 대상자
 description: 마케팅 캠페인 대상을 정의하는 방법 알아보기
 feature: Campaigns, Audiences
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: a2518ea0c0ab23f50b3132b750a14e98b4ffad7d
+source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1464'
 ht-degree: 1%
 
 ---
@@ -17,8 +17,7 @@ ht-degree: 1%
 
 * 타겟 대상자입니다. 에 메시지를 보낼 수 있습니다. [수신자 목록](#send-to-a-group) 또는 빌드 [워크플로우의 대상자](#build-the-main-target-in-a-workflow)
 * 컨트롤 그룹입니다. 다음을 수행할 수 있습니다. [컨트롤 그룹 추가](#add-a-control-group) 메시지 게재 후 수신자 동작을 모니터링하려면
-<!--
-* Seed addresses - Learn more in [this section](../../delivery/using/about-seed-addresses.md).-->
+* 시드 주소 - 자세한 내용 [이 섹션](../../v8/audiences/test-profiles.md).—>
 
 이 정보 중 일부는 [캠페인 템플릿](marketing-campaign-templates.md#campaign-templates).
 
@@ -56,7 +55,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 >
 >캠페인에 28개 이상의 워크플로우를 추가해서는 안 됩니다. 이 제한을 초과하면 추가 워크플로우가 인터페이스에 표시되지 않고 오류를 생성할 수 있습니다.
 
-### 워크플로우 만들기 {#create-a-targeting-workflow}
+### 워크플로 만들기 {#create-a-targeting-workflow}
 
 타겟팅은 워크플로우의 그래픽 시퀀스에서 필터링 조건의 조합을 통해 만들 수 있습니다. 요구 사항에 따라 타겟팅할 모집단과 하위 모집단을 만들 수 있습니다. 워크플로우 편집기를 표시하려면 **[!UICONTROL Targeting and workflows]** 캠페인 대시보드의 탭입니다.
 
@@ -109,9 +108,9 @@ To build the delivery target, you can define filtering criteria for the recipien
 
    * 다음 **[!UICONTROL Start]** 아이콘을 사용하면 타겟팅 워크플로우를 시작할 수 있습니다. 이 아이콘을 클릭하면 입력 전환이 없는 모든 활동이 활성화됩니다(끝점 이동 제외).
 
-      ![](assets/start.png)
+     ![](assets/start.png)
 
-      서버는 상태와 같이 요청을 고려합니다. **[!UICONTROL Start as soon as possible]**.
+     서버는 상태와 같이 요청을 고려합니다. **[!UICONTROL Start as soon as possible]**.
 
    * 적절한 도구 모음 아이콘을 통해 타겟팅 워크플로우를 다시 시작할 수 있습니다. 이 명령은 다음과 같은 경우에 유용합니다. **[!UICONTROL Start]** 예를 들어 타겟팅 워크플로우 중지가 진행 중인 경우 아이콘을 사용할 수 없습니다. 이 경우 **[!UICONTROL Restart]** 다시 시작을 예상하는 아이콘입니다. 서버는 상태가 다음과 같이 요청을 고려합니다. **[!UICONTROL Restart requested]**.
 
@@ -119,51 +118,52 @@ To build the delivery target, you can define filtering criteria for the recipien
 
    * 도구 모음 아이콘을 사용하면 진행 중인 타겟팅 워크플로우를 중지하거나 일시 중지할 수 있습니다.
 
-      다음을 클릭: **[!UICONTROL Pause]**, 작업 진행 중 **[!UICONTROL are not]** 일시 중지되었지만 다음 다시 시작할 때까지 다른 활동이 실행되지 않습니다.
+     다음을 클릭: **[!UICONTROL Pause]**, 작업 진행 중 **[!UICONTROL are not]** 일시 중지되었지만 다음 다시 시작할 때까지 다른 활동이 실행되지 않습니다.
 
-      ![](assets/pause.png)
+     ![](assets/pause.png)
 
-      서버는 상태가 다음과 같이 명령을 고려합니다. **[!UICONTROL Pause requested]**.
+     서버는 상태가 다음과 같이 명령을 고려합니다. **[!UICONTROL Pause requested]**.
 
-      타겟팅 워크플로우 실행이 특정 활동에 도달하면 자동으로 일시 중지할 수도 있습니다. 이렇게 하려면 타겟팅 워크플로우를 일시 중지할 활동을 마우스 오른쪽 단추로 클릭하고 를 선택합니다 **[!UICONTROL Enable but do not execute]**.
+     타겟팅 워크플로우 실행이 특정 활동에 도달하면 자동으로 일시 중지할 수도 있습니다. 이렇게 하려면 타겟팅 워크플로우를 일시 중지할 활동을 마우스 오른쪽 단추로 클릭하고 를 선택합니다 **[!UICONTROL Enable but do not execute]**.
 
-      ![](assets/donotexecute.png)
+     ![](assets/donotexecute.png)
 
-      이 구성은 특수 아이콘으로 표시됩니다.
+     이 구성은 특수 아이콘으로 표시됩니다.
 
-      ![](assets/pause_activity.png)
+     ![](assets/pause_activity.png)
 
-      >[!NOTE]
-      >
-      >이 옵션은 고급 타겟팅 캠페인 디자인 및 테스트 단계 중에 유용합니다.
+     >[!NOTE]
+     >
+     >이 옵션은 고급 타겟팅 캠페인 디자인 및 테스트 단계 중에 유용합니다.
 
-      클릭 **[!UICONTROL Start]** 실행을 다시 시작합니다.
+     클릭 **[!UICONTROL Start]** 실행을 다시 시작합니다.
 
    * 다음을 클릭합니다. **[!UICONTROL Stop]** ( 진행 중인 실행을 중지하는 아이콘)
 
-      ![](assets/stop.png)
+     ![](assets/stop.png)
 
-      서버는 상태가 다음과 같이 명령을 고려합니다. **[!UICONTROL Stop requested]**.
-   실행이 활동에 도달하면 타겟팅 워크플로우를 자동으로 중지할 수도 있습니다. 이렇게 하려면 타겟팅 워크플로우가 중단될 활동을 마우스 오른쪽 버튼으로 클릭하고 을 선택합니다. **[!UICONTROL Do not activate]**.
+     서버는 상태가 다음과 같이 명령을 고려합니다. **[!UICONTROL Stop requested]**.
 
-   ![](assets/donotactivate.png)
+  실행이 활동에 도달하면 타겟팅 워크플로우를 자동으로 중지할 수도 있습니다. 이렇게 하려면 타겟팅 워크플로우가 중단될 활동을 마우스 오른쪽 버튼으로 클릭하고 을 선택합니다. **[!UICONTROL Do not activate]**.
 
-   이 구성은 특수 아이콘으로 표시됩니다.
+  ![](assets/donotactivate.png)
 
-   ![](assets/unactivation.png)
+  이 구성은 특수 아이콘으로 표시됩니다.
+
+  ![](assets/unactivation.png)
 
 
-   >[!NOTE]
-   >
-   >이 옵션은 고급 타겟팅 캠페인 디자인 및 테스트 단계 중에 유용합니다.
+  >[!NOTE]
+  >
+  >이 옵션은 고급 타겟팅 캠페인 디자인 및 테스트 단계 중에 유용합니다.
 
 * 무조건 정지
 
-   탐색기에서 **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** 모든 캠페인 워크플로우에 액세스하고 작업을 수행합니다.
+  탐색기에서 **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** 모든 캠페인 워크플로우에 액세스하고 작업을 수행합니다.
 
-   다음을 클릭하여 워크플로를 무조건 중단할 수 있습니다. **[!UICONTROL Actions]** 아이콘 및 선택 **[!UICONTROL Unconditional]** 멈춰. 이 작업은 캠페인 워크플로우를 종료합니다.
+  다음을 클릭하여 워크플로를 무조건 중단할 수 있습니다. **[!UICONTROL Actions]** 아이콘 및 선택 **[!UICONTROL Unconditional]** 멈춰. 이 작업은 캠페인 워크플로우를 종료합니다.
 
-   ![](assets/stop_unconditional.png)
+  ![](assets/stop_unconditional.png)
 
 ## 컨트롤 그룹 추가 {#add-a-control-group}
 

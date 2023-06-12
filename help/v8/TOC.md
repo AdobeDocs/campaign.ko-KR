@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
-source-git-commit: eadd204088bc9ca6cf526a2ef4af3e8a61e48a25
+source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '553'
 ht-degree: 98%
 
 ---
@@ -80,6 +80,7 @@ ht-degree: 98%
       + [외부 프로필 작업](audiences/external-profiles.md)
       + [웹 양식에서 프로필 데이터 수집](audiences/collect-profiles.md)
       + [대상 매핑 작업](audiences/target-mappings.md)
+      + [테스트 프로필 만들기](audiences/test-profiles.md)
    + 대상자 만들기 {#create-audiences}
       + [연락처 목록 만들기](audiences/create-audiences.md)
       + [필터 만들기 및 관리](audiences/create-filters.md)

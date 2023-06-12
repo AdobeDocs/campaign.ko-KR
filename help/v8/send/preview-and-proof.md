@@ -5,9 +5,9 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '703'
 ht-degree: 7%
 
 ---
@@ -51,20 +51,20 @@ ht-degree: 7%
 * 사용 **[!UICONTROL Substitution of the address]** 이메일 주소를 입력하고 target 수신자 데이터를 사용하여 콘텐츠의 유효성을 검사하는 옵션입니다. 대체 주소는 수동으로 입력하거나 드롭다운 목록에서 선택할 수 있습니다. 연결된 열거형은 대체 주소(rcpAddress)입니다.
 기본적으로 대체는 무작위로 수행되지만, 기본 타겟에서 다음을 통해 특정 수신자를 선택할 수 있습니다.  **[!UICONTROL Detail]** 아이콘.
 
-   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
-   다음을 선택합니다. **[!UICONTROL Select a profile (must be included in the target)]** 을(를) 선택하고 수신자를 선택합니다.
+  다음을 선택합니다. **[!UICONTROL Select a profile (must be included in the target)]** 을(를) 선택하고 수신자를 선택합니다.
 
-   ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
 
 
 * 사용 **[!UICONTROL Seed addresses]**  시드 주소를 증명 대상으로 사용하는 옵션입니다. 이러한 주소는 파일에서 가져오거나 수동으로 입력할 수 있습니다.
 
-   >[!NOTE]
-   >
-   >시드 주소는 기본 수신자 테이블(nms:recipient)에 속하지 않으며, 별도의 테이블에 생성됩니다. 새 데이터로 수신자 테이블을 확장하는 경우 동일한 데이터로 시드 주소 테이블을 확장해야 합니다.
+  >[!NOTE]
+  >
+  >시드 주소는 기본 수신자 테이블(nms:recipient)에 속하지 않으며, 별도의 테이블에 생성됩니다. 새 데이터로 수신자 테이블을 확장하는 경우 동일한 데이터로 시드 주소 테이블을 확장해야 합니다.
 
-   의 시드 주소에 대해 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+  의 시드 주소에 대해 자세히 알아보기 [이 섹션](../audiences/test-profiles.md).
 
 * 사용 **[!UICONTROL Specific target and Seed addresses]** 시드 주소와 특정 이메일 주소를 결합하는 옵션. 그런 다음 관련 구성이 두 개의 개별 하위 탭에서 정의됩니다.
 
