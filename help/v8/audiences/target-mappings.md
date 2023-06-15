@@ -5,16 +5,18 @@ feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: db27abf860b0744a4120166c68e2cc2ae8a3d172
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '366'
 ht-degree: 4%
 
 ---
 
 # 대상 매핑 작업{#gs-target-mappings}
 
-기본적으로 게재 템플릿은 타겟팅합니다 **[!UICONTROL Recipients]**. 따라서 대상 매핑은 의 필드를 사용합니다 **nms:recipient** 테이블.
+기본적으로 이메일 및 SMS 게재 템플릿은 타겟팅됩니다 **[!UICONTROL Recipients]**. 따라서 대상 매핑은 의 필드를 사용합니다 **nms:recipient** 테이블.
+
+푸시 알림의 경우 기본 대상 매핑은 입니다. **구독자 애플리케이션(nms:appSubscriptionRcp)**: 수신자 테이블에 연결됩니다.
 
 게재에 다른 타겟 매핑을 사용하거나 새 타겟 매핑을 만들 수 있습니다.
 
