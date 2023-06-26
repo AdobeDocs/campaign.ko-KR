@@ -5,9 +5,9 @@ description: 클라이언트 콘솔 32비트 사용 중단
 hide: true
 hidefromtoc: true
 exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: ac356acdbbc8072ce8263b1c62804a4703781ca9
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,12 @@ ht-degree: 1%
 Adobe 최신 기능과 향상된 보안을 활용하려면 컴퓨터를 64비트 OS로 업그레이드하는 것이 좋습니다.
 
 ## FAQ(자주 묻는 질문)
+
++++Campaign v8 32비트에서 Campaign v8 64비트로 업그레이드하려면 어떻게 해야 합니까?
+
+업그레이드가 원활합니다. 일반 업그레이드와 같은 설치 프로그램을 통해 새 버전을 설치하면 됩니다.
+
++++
 
 +++64비트 버전의 Campaign v8 클라이언트 콘솔이 32비트 컴퓨터와 호환됩니까?
 
