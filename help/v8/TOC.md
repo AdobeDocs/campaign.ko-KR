@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+source-git-commit: cd8ce8e16622010c1498bfaa244dda7095d9adc1
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 98%
+source-wordcount: '560'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,9 @@ ht-degree: 98%
          + [미러 페이지로 가는 링크](send/mirror-page.md)
          + [이메일 보내기 및 모니터링](send/send.md)
       + [SMS](send/sms.md)
-      + [푸시 알림](send/push.md)
+      + 푸시 알림 {#push}
+         + [푸시 알림 만들기 및 전송](send/push.md)
+         + [푸시 알림 채널 구성](send/push-settings.md)
       + [LINE 메시지 보내기](send/line.md)
       + [DM](send/direct-mail.md)
       + [Twitter](send/twitter.md)
@@ -170,7 +172,6 @@ ht-degree: 98%
       + [사용자 인터페이스 설정](config/ui-settings.md)
       + [폴더 및 보기 관리](audiences/folders-and-views.md)
       + [이메일 설정](config/email-settings.md)
-      + [푸시 설정](config/push-settings.md)
       + [트랜잭션 메시지 설정](config/transactional-msg-settings.md)
       + [Campaign SDK와 앱 통합 - 이제 사용하지 않는 페이지](config/push-config.md)
       + [외부 계정](config/external-accounts.md)
