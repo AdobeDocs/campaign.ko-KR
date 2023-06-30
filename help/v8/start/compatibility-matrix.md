@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 93%
+source-wordcount: '378'
+ht-degree: 88%
 
 ---
 
@@ -26,14 +26,14 @@ ht-degree: 93%
 
 Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다. [자세히 알아보기](connect.md)
 
->[!NOTE]
->
->클라이언트 콘솔 32비트 버전은 8.5 릴리스 이후 사용되지 않습니다. 8.6 릴리스부터 클라이언트 콘솔은 64비트로만 사용할 수 있습니다. 운영 체제를 업그레이드하는 자세한 방법은 [기술 정보](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html?lang=ko)를 참조하십시오.
-
 ### 운영 체제{#op-systems}
 
 * **Microsoft Windows Server** 2019, 2016, 2012
 * **Microsoft Windows** 11, 10, 8
+
+>[!NOTE]
+>
+>클라이언트 콘솔의 32비트 버전은 8.5 릴리스부터 더 이상 사용되지 않습니다. 8.6 릴리스부터 클라이언트 콘솔은 64비트로만 사용할 수 있습니다. 운영 체제를 업그레이드하는 자세한 방법은 [기술 정보](../../technotes/upgrades/console.md)를 참조하십시오.
 
 ### 웹 브라우저{#web-browsers}
 
@@ -52,7 +52,8 @@ Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다
 
 Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이터베이스 목록은 다음과 같습니다. [자세히 알아보기](../connect/fda.md)
 
-* **Amazon Redshift**
+* **[!DNL Amazon Redshift]**
+* **[!DNL Azure Synapse]**, Campaign v8.5부터
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**

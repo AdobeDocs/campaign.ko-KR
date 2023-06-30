@@ -5,9 +5,9 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: c46eaa73deed643a4e92928b6ce2b1beb1596d73
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1085'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,6 @@ Adobe Campaign에서 외부 계정에 액세스할 수 있습니다. **[!UICONTR
 >* 의 맥락에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 특정 **[!UICONTROL Full FDA]** (ffda) 외부 계정은 Campaign 로컬 데이터베이스와 클라우드 데이터베이스 간의 연결을 관리합니다([!DNL Snowflake]).
 >
 
-
 ## 캠페인별 외부 계정
 
 Adobe Campaign에서는 특정 프로세스를 활성화하고 실행하는 데 다음 기술 계정을 사용합니다.
@@ -41,6 +40,7 @@ Adobe Campaign에서는 특정 프로세스를 활성화하고 실행하는 데 
 >[!NOTE]
 >
 >POP3 기능에 대한 Microsoft Exchange Online OAuth 2.0 인증은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 다음을 참조하십시오. [이 섹션](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion).
+>
 
 다음 **바운스 메일** 외부 계정은 이메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는 데 사용할 수 있습니다.
 
@@ -60,7 +60,7 @@ Adobe Campaign에서는 특정 프로세스를 활성화하고 실행하는 데 
 
 * **[!UICONTROL Encryption]** - 다음 사이에 선택한 암호화 유형: **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** 또는 **[!UICONTROL POP3S]**.
 
-   다음 **바운스 메일** 외부 계정은 이메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는 데 사용할 수 있습니다.
+  다음 **바운스 메일** 외부 계정은 이메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는 데 사용할 수 있습니다.
 
 * **[!UICONTROL Function]** - 인바운드 이메일 또는 SOAP 라우터
 
@@ -69,6 +69,7 @@ Adobe Campaign에서는 특정 프로세스를 활성화하고 실행하는 데 
 >[!CAUTION]
 >
 >Microsoft OAuth 2.0을 사용하여 POP3 외부 계정을 구성하기 전에 먼저 Azure 포털에 애플리케이션을 등록해야 합니다. 자세한 정보는 다음을 참조하십시오. [페이지](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
+>
 
 Microsoft OAuth 2.0을 사용하여 외부 POP3을 구성하려면 **[!UICONTROL Microsoft OAuth 2.0]** 옵션을 선택하고 다음 필드를 채웁니다.
 
@@ -80,15 +81,11 @@ Microsoft OAuth 2.0을 사용하여 외부 POP3을 구성하려면 **[!UICONTROL
 
 * **[!UICONTROL Azure Redirect URL]** - 리디렉션 URL은 **인증** Azure 포털에 있는 애플리케이션의 메뉴. 다음 구문으로 끝나야 합니다 `nl/jsp/oauth.jsp`, 예: `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
 
-   다른 자격 증명을 입력한 후 **[!UICONTROL Setup the connection]** 외부 계정 구성을 완료합니다.
+  다른 자격 증명을 입력한 후 **[!UICONTROL Setup the connection]** 외부 계정 구성을 완료합니다.
 
 ### 라우팅 {#routing}
 
 다음 **[!UICONTROL Routing]** 외부 계정을 사용하면 설치된 패키지에 따라 Adobe Campaign에서 사용할 수 있는 각 채널을 구성할 수 있습니다.
-
->[!CAUTION]
->
->다음 **[!UICONTROL Internal email delivery routing]** (defaultEmailBulk) 외부 계정 **은(는) 해서는 안 됨** Adobe Campaign v8에서 활성화할 수 있습니다.
 
 ### 실행 인스턴스 {#execution-instance}
 
@@ -98,7 +95,7 @@ Microsoft OAuth 2.0을 사용하여 외부 POP3을 구성하려면 **[!UICONTROL
 
 * **외부 데이터베이스(FDA)** - **외부 데이터베이스** 유형 외부 계정은 FDA(Federated Data Access)를 통해 외부 데이터베이스에 연결하는 데 사용됩니다. 에서 FDA(Federated Data Access) 옵션에 대해 자세히 알아봅니다. [이 섹션](../connect/fda.md).
 
-   Adobe Campaign v8과 호환되는 외부 데이터베이스는 [호환성 매트릭스](../start/compatibility-matrix.md)
+  Adobe Campaign v8과 호환되는 외부 데이터베이스는 [호환성 매트릭스](../start/compatibility-matrix.md)
 
 * **Twitter** - **Twitter** 유형 외부 계정은 Campaign을 twitter 계정에 연결하여 귀하를 대신하여 메시지를 게시하는 데 사용됩니다. 에서 Twitter 통합에 대해 자세히 알아보기 [이 섹션](../connect/ac-tw.md).
 
@@ -123,7 +120,11 @@ Microsoft OAuth 2.0을 사용하여 외부 POP3을 구성하려면 **[!UICONTROL
 
 * **FTP 및 SFTP** - **FTP** 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 SFTP 또는 FTP 서버 898과 같은 외부 시스템과의 연결을 설정하려면 고유한 외부 계정을 만들 수 있습니다.
 
-   이렇게 하려면 이 외부 계정에서 SFTP 또는 FTP 서버에 연결하는 데 사용되는 주소와 자격 증명을 지정합니다.
+  이렇게 하려면 이 외부 계정에서 SFTP 또는 FTP 서버에 연결하는 데 사용되는 주소와 자격 증명을 지정합니다.
+
+  >[!NOTE]
+  >
+  >이제 릴리스 8.5부터 SFTP 외부 계정을 구성할 때 개인 키를 사용하여 안전하게 인증할 수 있습니다. [키 관리에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html)
 
 * **Amazon Simple Storage Service (S3)** - **AWS** 커넥터를 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보낼 수 있습니다. **[!UICONTROL Transfer file]** 워크플로우 활동. 이 새 외부 계정을 설정할 때 다음 세부 사항을 제공해야 합니다.
 

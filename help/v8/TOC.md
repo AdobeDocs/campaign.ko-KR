@@ -4,7 +4,7 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
-source-git-commit: cd8ce8e16622010c1498bfaa244dda7095d9adc1
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 97%
@@ -24,8 +24,6 @@ ht-degree: 97%
    + [보호 기능](start/ac-guardrails.md)
    + [알려진 문제](start/known-issues.md)
    + [호환성 매트릭스](start/compatibility-matrix.md)
-   + 기술 노트{#technotes}
-      + [기술 연산자를 Developer Console로 마이그레이션](start/ims-migration.md)
 + 시작 {#new}
    + [Adobe Campaign 시작](start/get-started.md)
    + [주요 기능](start/whats-new.md)
@@ -48,6 +46,7 @@ ht-degree: 97%
       + 푸시 알림 {#push}
          + [푸시 알림 만들기 및 전송](send/push.md)
          + [푸시 알림 채널 구성](send/push-settings.md)
+         + [데이터 수집으로 푸시 알림 구성](send/push-data-collection.md)
       + [LINE 메시지 보내기](send/line.md)
       + [DM](send/direct-mail.md)
       + [Twitter](send/twitter.md)

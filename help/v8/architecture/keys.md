@@ -5,9 +5,9 @@ feature: FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '549'
 ht-degree: 3%
 
 ---
@@ -74,19 +74,6 @@ Adobe Campaign은 게재를 준비하는 동안 대상에서 복제된 UUID를 �
 의 맥락에서 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md), 내부 키(UUID)를 워크플로우에서 데이터를 업데이트할 필드로 선택할 수 없습니다.
 
 ![](assets/update-data-no-internal-key.png)
-
-명시적 조정 키를 사용할 때 **데이터 업데이트** 활동은 다음을 수행하여 이 키를 기반으로 대상 스키마의 독자성을 자동으로 보장합니다.
-
-1. 들어오는 데이터 중복 제거(전환에서)
-1. 대상 테이블로 데이터 중복 제거(병합)
-
-
-![](assets/update-data-deduplicate.png)
-
->[!CAUTION]
->
->이 가드레일은 옵션에만 적용됩니다. **[!UICONTROL Using reconciliation keys]**.
-
 
 ### 중복 항목을 포함하는 스키마 쿼리{#query-with-duplicates}
 

@@ -5,7 +5,7 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 3%
@@ -100,6 +100,8 @@ Campaign 사용자는 IMS(Identity Management System) Adobe을 통해 Adobe ID�
 >[!CAUTION]
 >
 >Adobe은 이 옵션을 종료하는 것을 권장합니다. **[!UICONTROL No longer ask this question]** 새 버전의 콘솔을 사용할 수 있을 때 알림을 받으려면 선택을 해제했습니다. 이 옵션을 선택하면 콘솔 업그레이드가 필요하다는 메시지가 사용자에게 표시되지 않습니다.
+>
+
 
 
 ## 사용자에게 액세스 권한 부여{#grant-access}
