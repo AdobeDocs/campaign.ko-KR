@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
+source-git-commit: 500de76853772313b1aac655da2f1b3562de2c55
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '508'
 ht-degree: 9%
 
 ---
@@ -48,49 +48,55 @@ ht-degree: 9%
 
    * 수신자의 이름과 성 추가
 
-      메시지 콘텐츠에 타겟팅된 프로필의 이름과 성을 삽입하려면 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 을 클릭합니다 **[!UICONTROL Include]** 및 선택 **[!UICONTROL Greetings]**.
+     메시지 콘텐츠에 타겟팅된 프로필의 이름과 성을 삽입하려면 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 을 클릭합니다 **[!UICONTROL Include]** 및 선택 **[!UICONTROL Greetings]**.
 
-      ![](assets/include-greetings.png)
+     ![](assets/include-greetings.png)
 
-      미리보기 탭으로 이동하여 수신자를 선택하여 개인화를 확인합니다.
+     미리보기 탭으로 이동하여 수신자를 선택하여 개인화를 확인합니다.
 
-      ![](assets/perso-check.png)
+     ![](assets/perso-check.png)
 
-      에서 개인화 옵션에 대해 자세히 알아보기 [이 섹션](personalize.md).
+     에서 개인화 옵션에 대해 자세히 알아보기 [이 섹션](personalize.md).
 
    * 추적된 링크 삽입
 
-      이미지 또는 텍스트를 통해 게재 수신자를 외부 주소로 보내려면 해당 주소를 선택하고 **[!UICONTROL Add a link]** 아이콘을 클릭합니다.
+     이미지 또는 텍스트를 통해 게재 수신자를 외부 주소로 보내려면 해당 주소를 선택하고 **[!UICONTROL Add a link]** 아이콘을 클릭합니다.
 
-      에 링크의 URL을 입력합니다. **URL** 다음 형식을 사용하는 필드 **https://www.myURL.com**&#x200B;를 클릭한 다음 확인합니다.
+     에 링크의 URL을 입력합니다. **URL** 다음 형식을 사용하는 필드 **https://www.myURL.com**&#x200B;를 클릭한 다음 확인합니다.
 
-      ![](assets/add-a-link.png)
+     ![](assets/add-a-link.png)
 
    * 미러 페이지 추가
 
-      수신자가 웹 브라우저에서 게재 콘텐츠를 볼 수 있도록 하려면 [미러 페이지](../send/mirror-page.md) 메시지.
+     수신자가 웹 브라우저에서 게재 콘텐츠를 볼 수 있도록 하려면 [미러 페이지](mirror-page.md) 메시지.
 
-      이 링크를 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 를 클릭합니다 **[!UICONTROL Include]** 및 선택 **[!UICONTROL link to mirror page]**.
-   컨텐츠가 준비되면 을(를) 클릭합니다. **저장**: 이제 게재 목록의 **[!UICONTROL Campaigns > Deliveries]** 탭. 첫 번째 이메일 게재가 준비되었습니다. 이제 대상자를 정의하고 게재를 확인하고 전송해야 합니다.
+     이 링크를 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 를 클릭합니다 **[!UICONTROL Include]** 및 선택 **[!UICONTROL link to mirror page]**.
 
+     에서 미러 페이지 관리에 대해 자세히 알아보기 [이 섹션](mirror-page.md#link-to-mirror-page).
+
+1. BBC 주소로 메시지 사본 보내기, 메시지 형식 변경, 특정 인코딩 설정 등과 같은 이메일에 대한 추가 매개 변수를 정의할 수 있습니다. [이 섹션](email-parameters.md)에서 자세히 알아보십시오.
+
+1. 컨텐츠가 준비되면 을(를) 클릭합니다. **저장**: 이제 게재 목록의 **[!UICONTROL Campaigns > Deliveries]** 탭.
+
+첫 번째 이메일 게재가 준비되었습니다. 이제 대상자를 정의하고 게재를 확인하고 전송해야 합니다.
 
 에서 이메일 콘텐츠를 가져오는 방법 알아보기 [사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
 
 다음 섹션에서 자세히 알아보세요.
 
-* [Campaign에서 이메일 디자인](../send/email.md)
+<!--[Design an email in Campaign]-->
 * [이메일 템플릿 만들기 및 사용](../send/create-templates.md)
 * [이메일 대상자 선택](../audiences/gs-audiences.md)
-* [게재 유효성 검사 및 증명 보내기](../send/preview-and-proof.md)
+* [게재 유효성 검사 및 증명 보내기](preview-and-proof.md)
+* [게재 구성 및 보내기](configure-and-send.md)
 
 ## 이메일 테스트 및 유효성 검사
 
-Campaign은 대상자에게 이메일을 보내기 전에 테스트하고 유효성을 검사하는 여러 가지 방법을 제공합니다. 에서 이메일 콘텐츠를 미리 보고 테스트하는 방법을 알아봅니다. [이 페이지](../send/preview-and-proof.md).
+Campaign은 대상자에게 이메일을 보내기 전에 테스트하고 유효성을 검사하는 여러 가지 방법을 제공합니다. 에서 이메일 콘텐츠를 미리 보고 테스트하는 방법을 알아봅니다. [이 섹션](../send/preview-and-proof.md).
 
 다음을 수행할 수 있습니다.
 
-* 게재 분석 로그 확인
-* 증명 보내기
-* 시드 주소 추가
+* [증명 보내기](preview-and-proof.md)
+* [시드 주소 추가](../audiences/test-profiles.md)
+* [게재 분석 로그 확인](delivery-analysis.md)
 
-[자세히 알아보기](../send/delivery-analysis.md)

@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 4f3e6227193fc607a968f9170484017e551fa560
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 97%
+source-wordcount: '569'
+ht-degree: 95%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 97%
       + 이메일 {#emails}
          + [이메일 디자인 및 유효성 검사](send/email.md)
          + [미러 페이지로 가는 링크](send/mirror-page.md)
+         + [추가 이메일 매개 변수 정의](send/email-parameters.md)
          + [이메일 보내기 및 모니터링](send/send.md)
       + [SMS](send/sms.md)
       + 푸시 알림 {#push}
@@ -71,6 +72,7 @@ ht-degree: 97%
       + 게재 유효성 검사 {#validate}
          + [미리 보기 및 증명](send/preview-and-proof.md)
          + [게재 분석](send/delivery-analysis.md)
+      + [게재 구성 및 보내기](send/configure-and-send.md)
 + 프로필 및 대상자 관리 {#audience}
    + [프로필 및 대상자 시작](audiences/gs-audiences.md)
    + [대상자를 사용한 작업](start/audiences.md)
