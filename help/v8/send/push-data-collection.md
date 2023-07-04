@@ -5,20 +5,22 @@ feature: Push
 role: Data Engineer
 level: Beginner
 badge: label="제한된 가용성" type="정보"
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1392'
 ht-degree: 1%
 
 ---
 
 # 수정된 푸시 알림 구성 {#push-notifications-config}
 
+Campaign v8.5는 최신 첨단 기술을 기반으로 구축된 강력한 프레임워크를 기반으로 하는 최신 푸시 알림 서비스를 도입했습니다. 이 서비스는 새로운 차원의 확장성을 제공하도록 설계되었으므로, 원활한 효율성으로 더 많은 대상자에게 알림이 전달될 수 있습니다. 향상된 인프라와 최적화된 프로세스를 통해 더 높은 규모와 신뢰성을 기대할 수 있으며, 이전과 달리 모바일 앱 사용자를 참여시키고 연결할 수 있는 역량을 확보할 수 있습니다.
+
 >[!AVAILABILITY]
 >
-> 이 기능은 릴리스 8.5부터 시작하여 선택한 고객 세트로 점진적으로 배포되는 신규 고객에게만 제공됩니다. 2023년 6월 이전에 환경이 프로비저닝된 경우 자세한 절차를 따라야 합니다 [이 페이지에서](push-settings.md).
+> 이 기능은 Campaign v8.5부터 시작하여 선택한 고객 세트로 점진적으로 배포되는 신규 고객에게만 제공됩니다. 2023년 6월 이전에 환경이 프로비저닝된 경우 이 페이지가 적용되지 않으므로 자세한 절차를 따라야 합니다 [이 페이지에서](push-settings.md).
 
-Adobe Campaign에서 푸시 알림을 전송하려면 다음을 수행해야 합니다.
+이 업데이트된 구현의 맥락에서 Adobe Campaign에서 푸시 알림을 보내려면 다음 단계를 따르십시오.
 
 1. [Adobe Experience Platform 데이터 수집에서 앱 표면 만들기](#create-app-surface)
 

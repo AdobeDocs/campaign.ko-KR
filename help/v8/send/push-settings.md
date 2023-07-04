@@ -6,14 +6,14 @@ feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: b5a0fe46-f7b4-4be1-abf0-162fc1412886
-source-git-commit: d941d9a364ffb2df77ba6726e655ca2916448f89
+source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1659'
 ht-degree: 3%
 
 ---
 
-# AEP SDK + Campaign: 푸시 알림 채널 구성 {#push-notification-configuration}
+# 푸시 알림 채널 구성 {#push-notification-configuration}
 
 Adobe Campaign을 사용하여 푸시 알림 전송을 시작하기 전에 모바일 앱과 Adobe Experience Platform의 태그에 대한 구성 및 통합이 제대로 되어 있는지 확인해야 합니다.
 

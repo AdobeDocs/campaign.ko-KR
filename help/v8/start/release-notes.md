@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1319'
 ht-degree: 57%
 
 ---
@@ -34,7 +34,7 @@ _2023년 6월 30일_
 </thead> 
 <tbody> 
 <tr> 
-<td><p>Campaign 8.5는 최신 첨단 기술을 기반으로 구축된 강력한 프레임워크를 기반으로 하는 v8의 최신 푸시 알림 서비스를 도입합니다. 이 서비스는 새로운 차원의 확장성을 제공하도록 설계되었으므로, 원활한 효율성으로 더 많은 대상자에게 알림이 전달될 수 있습니다. 향상된 인프라와 최적화된 프로세스를 통해 더 높은 규모와 신뢰성을 기대할 수 있으며, 이전과 달리 모바일 앱 사용자를 참여시키고 연결할 수 있는 역량을 확보할 수 있습니다. 이 기능은 선택한 고객 그룹만 사용할 수 있습니다(제한된 가용성).</p>
+<td><p>Campaign v8.5는 최신 첨단 기술을 기반으로 구축된 강력한 프레임워크를 기반으로 하는 최신 푸시 알림 서비스를 도입했습니다. 이 서비스는 새로운 차원의 확장성을 제공하도록 설계되었으므로, 원활한 효율성으로 더 많은 대상자에게 알림이 전달될 수 있습니다. 향상된 인프라와 최적화된 프로세스를 통해 더 높은 규모와 신뢰성을 기대할 수 있으며, 이전과 달리 모바일 앱 사용자를 참여시키고 연결할 수 있는 역량을 확보할 수 있습니다. 이 기능은 선택한 고객 그룹만 사용할 수 있습니다(제한된 가용성).</p>
 <p>자세한 내용은 <a href="../send/push-data-collection.md">세부 설명서</a>를 참조하세요.</p>
 
 </td> 
