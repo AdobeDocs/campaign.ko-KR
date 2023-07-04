@@ -4,10 +4,10 @@ description: Adobe Campaign에서 이메일을 구성하는 방법에 대해 알
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 44f30f753e3ed75b7e56caf7bd8cdfa7cbee5c35
+source-git-commit: 21e251acd76f2bbb751f8e295934d597af336559
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 7%
+source-wordcount: '1129'
+ht-degree: 8%
 
 ---
 
@@ -102,6 +102,74 @@ ht-degree: 7%
 
   ![](assets/delivery-waves-ex-call-center.png)
 
+## 게재 확인 {#confirm-delivery}
+
+게재가 구성되어 전송할 준비가 되면 전송을 확인하기 전에 게재 분석을 실행했는지 확인하십시오.
+
+이렇게 하려면 아래 단계를 수행합니다.
+
+1. 클릭 **[!UICONTROL Send]**&#x200B;를 클릭하고 원하는 작업을 선택합니다.
+
+   * 게재를 즉시 보내려면 [**가능한 한 빨리 제공**].
+   * 전송을 이후 날짜로 예약하려면 다음을 선택합니다. **[!UICONTROL Postpone the delivery]**. [자세히 알아보기](#schedule-delivery-sending)
+
+1. **[!UICONTROL Analyze]**&#x200B;을(를) 클릭합니다. 자세한 내용은 [분석 실행](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+
+   ![](assets/delivery-send-analyze.png)
+
+1. 완료되면 다음을 클릭합니다. **[!UICONTROL Confirm delivery]** 메시지 게재를 시작합니다.
+
+   ![](assets/delivery-send-confirm.png)
+
+1. 게재 마법사를 닫고 다음에서 게재 실행을 추적할 수 있습니다 **[!UICONTROL Delivery]** 탭입니다. 이 게재의 세부 정보 또는 게재 목록을 통해 액세스할 수 있습니다.
+
+   자세한 내용은 아래 섹션을 참조하십시오.
+
+   * [게재 모니터링](send.md)
+   * [게재 실패 이해](delivery-failures.md)
+
+<!--About message tracking-->
+
+## 게재 전송 예약 {#schedule-delivery-sending}
+
+게재 예약이나 판매 압력을 관리하고 모집단을 지나치게 모집하지 않기 위해 메시지 게재를 연기할 수 있습니다.
+
+1. 다음을 클릭합니다. **[!UICONTROL Send]** 버튼을 클릭하고 다음을 선택합니다. **[!UICONTROL Postpone delivery]** 옵션을 선택합니다.
+
+1. 에서 시작 날짜 지정 **[!UICONTROL Contact date]** 필드.
+
+   ![](assets/delivery-send-postpone.png)
+
+1. 게재 분석을 시작하고 게재 전송을 확인합니다. 그러나 게재 전송은 에 지정된 날짜까지 시작되지 않습니다. **[!UICONTROL Contact date]** 필드.
+
+   >[!IMPORTANT]
+   >
+   >분석을 시작하면 정의한 연락 날짜가 수정됩니다. 이 날짜를 수정하는 경우 수정 사항을 고려하기 위해 분석을 다시 시작해야 합니다.
+
+   ![](assets/delivery-send-scheduled.png)
+
+게재 목록에는 게재가 다음과 같이 표시됩니다. **[!UICONTROL Pending]** 상태.
+
+예약을 업스트림으로 구성할 수도 있습니다. **[!UICONTROL Scheduling]** 게재 단추.
+
+![](assets/delivery-scheduling-button.png)
+
+이 옵션을 사용하면 게재를 나중 날짜로 연기하거나 임시 캘린더에 게재를 저장할 수 있습니다.
+
+* 다음 **[!UICONTROL Schedule delivery (no automatic execution)]** 옵션을 사용하면 게재의 임시 분석을 예약할 수 있습니다.
+
+  이 구성이 저장되면 게재가 다음으로 변경됩니다. **[!UICONTROL Targeting pending]** 상태. 분석은 지정된 날짜에 시작됩니다.
+
+* 다음 **[!UICONTROL Schedule delivery (automatic execution on planned date)]** 옵션을 사용하면 배달 날짜를 지정할 수 있습니다.
+
+  클릭 **[!UICONTROL Send]** 및 선택 **[!UICONTROL Postpone delivery]** 그런 다음 분석을 시작하고 게재를 확인합니다. 분석이 완료되면 게재 대상이 준비되고 지정된 날짜에 메시지가 자동으로 전송됩니다.
+
+날짜 및 시간은 현재 연산자의 시간대로 표시됩니다. 다음 **[!UICONTROL Time zone]** 연락 날짜 입력 필드 아래에 있는 드롭다운 목록을 사용하면 입력한 날짜 및 시간을 선택한 시간대로 자동으로 변환할 수 있습니다.
+
+예를 들어 런던 시간 8시에 자동으로 게재를 실행하도록 예약하는 경우 시간은 선택한 시간대로 자동 변환됩니다.
+
+![](assets/delivery-schedule-time-zone.png)
+
 <!--
 ## Adjust delivery failure management {#delivery-failure-management}
 
@@ -136,65 +204,4 @@ When the delivery has been launched, the messages (and any retries) can be sent 
 * **Validity limit of resources**: The **[!UICONTROL Validity limit]** field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 
   The values in this field can be expressed in the units listed in [this section](../../platform/using/adobe-campaign-workspace.md#default-units).
-
-## Confirm the delivery {#confirm-delivery}
-
-When the delivery is configured and ready to be sent, make sure you have run the delivery analysis.
-
-To do this, click **[!UICONTROL Send]**, select the desired action and click **[!UICONTROL Analyze]**. For more on this, see [Launching the analysis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
-
-![](assets/s_ncs_user_email_del_send.png)
-
-Once done, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages.
-
-You can then close the delivery wizard and track the execution of the delivery from the **[!UICONTROL Delivery]** tab, accessible via the detail of this delivery or via the list of deliveries.
-
-After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
-
-* [Monitoring a delivery](send.md)
-* [Understanding delivery failures](delivery-failures.md)
-* [About message tracking]
-
-## Schedule the delivery sending {#schedule-delivery-sending}
-
-You can defer the delivery of messages in order to schedule the delivery or to manage sales pressure and avoid over-soliciting a population.
-
-1. Click the **[!UICONTROL Send]** button and select the **[!UICONTROL Postpone delivery]** option.
-
-1. Specify a start date in the **[!UICONTROL Contact date]** field.
-
-  ![](assets/)
-
-1. You can then start the delivery analysis, then confirm the delivery sending. However, the delivery sending will not start until the date given in the **[!UICONTROL Contact date]** field.
-
-  >[!IMPORTANT]
-  >
-  >Once you have started the analysis, the contact date that you defined is fixed. If you modify this date, you will have to restart the analysis so that your modifications are taken into account.
-
-  ![](assets/)
-
-In the delivery list, the delivery will appear with **[!UICONTROL Pending]** status.
-
-![](assets/send-schedule-pending-status.png)
-
-Scheduling can also be configured upstream via the **[!UICONTROL Scheduling]** button of the delivery.
-
-![](assets/send-scheduling-button.png)
-
-It lets you defer the delivery to a later date or save the delivery in the provisional calendar.
-
-* The **[!UICONTROL Schedule delivery (no automatic execution)]** option lets you schedule a provisional analysis of the delivery.
-
-  When this configuration is saved, the delivery changes to **[!UICONTROL Targeting pending]** status. The analysis will be launched on the specified date.
-
-* The **[!UICONTROL Schedule delivery (automatic execution on planned date)]** option lets you specify the delivery date.
-
-  Click **[!UICONTROL Send]** and select **[!UICONTROL Postpone delivery]** then launch the analysis and confirm delivery. When the analysis is complete, the delivery target is ready and messages will automatically be sent on the specified date.
-
-Dates and times are expressed in the time zone of the current operator. The **[!UICONTROL Time zone]** drop-down list located below the contact date input field lets you automatically convert the entered date and time into the selected time zone.
-
-For instance, if you schedule a delivery to be executed automatically at 8 o'clock London time, the time is automatically converted into the selected time zone:
-
-![](assets/send-schedule-time-zone.png)
-
 -->
