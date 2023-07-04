@@ -4,9 +4,9 @@ description: Adobe Campaign에서 이메일을 구성하는 방법에 대해 알
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 21e251acd76f2bbb751f8e295934d597af336559
+source-git-commit: 263ec61c3717c054cc135f1c4fb1f7e287e4a154
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1128'
 ht-degree: 8%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 8%
    * 게재를 즉시 보내려면 [**가능한 한 빨리 제공**].
    * 전송을 이후 날짜로 예약하려면 다음을 선택합니다. **[!UICONTROL Postpone the delivery]**. [자세히 알아보기](#schedule-delivery-sending)
 
-1. **[!UICONTROL Analyze]**&#x200B;을(를) 클릭합니다. 자세한 내용은 [분석 실행](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+1. **[!UICONTROL Analyze]**&#x200B;을(를) 클릭합니다. 자세한 내용은 [이 섹션](delivery-analysis.md)을 참조하십시오.
 
    ![](assets/delivery-send-analyze.png)
 
