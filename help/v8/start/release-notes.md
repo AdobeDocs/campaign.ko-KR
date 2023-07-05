@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
+source-git-commit: d5bd383dca524e15a098fc63661236b50144cb3d
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 57%
@@ -20,7 +20,7 @@ Adobe는 새 릴리스가 나올 때마다 Managed Cloud Services 사용자의 �
 
 또한 고객은 다음에 나열된 시스템에서 지원되는 최신 버전을 사용하고 있는지 확인하십시오. [호환성 매트릭스](compatibility-matrix.md).
 
-## 릴리스 8.5 {#release-8-5}
+## 릴리스 8.5.1 {#release-8-5}
 
 _2023년 6월 30일_
 
@@ -34,7 +34,7 @@ _2023년 6월 30일_
 </thead> 
 <tbody> 
 <tr> 
-<td><p>Campaign v8.5는 최신 첨단 기술을 기반으로 구축된 강력한 프레임워크를 기반으로 하는 최신 푸시 알림 서비스를 도입했습니다. 이 서비스는 새로운 차원의 확장성을 제공하도록 설계되었으므로, 원활한 효율성으로 더 많은 대상자에게 알림이 전달될 수 있습니다. 향상된 인프라와 최적화된 프로세스를 통해 더 높은 규모와 신뢰성을 기대할 수 있으며, 이전과 달리 모바일 앱 사용자를 참여시키고 연결할 수 있는 역량을 확보할 수 있습니다. 이 기능은 선택한 고객 그룹만 사용할 수 있습니다(제한된 가용성).</p>
+<td><p>Campaign v8.5.1은 최신 첨단 기술을 기반으로 구축된 강력한 프레임워크에서 제공하는 최신 푸시 알림 서비스를 도입했습니다. 이 서비스는 새로운 차원의 확장성을 제공하도록 설계되었으므로, 원활한 효율성으로 더 많은 대상자에게 알림이 전달될 수 있습니다. 향상된 인프라와 최적화된 프로세스를 통해 더 높은 규모와 신뢰성을 기대할 수 있으며, 이전과 달리 모바일 앱 사용자를 참여시키고 연결할 수 있는 역량을 확보할 수 있습니다. 이 기능은 선택한 고객 그룹만 사용할 수 있습니다(제한된 가용성).</p>
 <p>자세한 내용은 <a href="../send/push-data-collection.md">세부 설명서</a>를 참조하세요.</p>
 
 </td> 
@@ -56,7 +56,7 @@ _2023년 6월 30일_
 
 **향상된 보안 기능**
 
-* Campaign v8.5부터 Campaign v8에 대한 인증 프로세스가 개선되었습니다. 기술 운영자는 IMS(Adobe Identity Management System)를 사용하여 Campaign에 연결해야 합니다. 에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다. [이 기술 노트](../../technotes/upgrades/ims-migration.md).
+* Campaign v8.5.1부터 Campaign v8에 대한 인증 프로세스가 개선되었습니다. 기술 운영자는 IMS(Adobe Identity Management System)를 사용하여 Campaign에 연결해야 합니다. 에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다. [이 기술 노트](../../technotes/upgrades/ims-migration.md).
 * Campaign 클라이언트 콘솔에서는 더 이상 연산자를 만들 수 없습니다. 사용자 인터페이스가 이에 따라 업데이트되었습니다. 이제 Adobe Admin Console을 사용해야 합니다. [자세히 알아보기](../start/gs-permissions.md)
 * 보안을 최적화하기 위해 여러 타사 도구가 업데이트되었습니다.
 
