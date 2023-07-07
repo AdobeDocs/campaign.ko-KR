@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 도움말 센터
 title: Adobe Campaign v8 제품 설명서
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
+source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 82%
+source-wordcount: '157'
+ht-degree: 80%
 
 ---
 
@@ -31,39 +31,55 @@ ht-degree: 82%
 * **[릴리스 노트](start/release-notes.md)** - 최신 기능 및 개선 사항 살펴보기
 
 
-## 시작
+## 시작하기
 
-<table>
-<tr>
-  <td valign="bottom">
-    <a href="start/connect.md">
-      <img alt="연결" src="start/assets/do-not-localize/login.jpeg"/>
-    </a>
-    <div>
-    <a href="start/connect.md">Campaign에 연결</a>
-    </div>
-    <br>
-  </td>
 
-<td valign="bottom">
-      <a href="start/import.md">
-       <img alt="가져오기" src="start/assets/do-not-localize/profiles.jpeg" />
-       </a>
-    <div><a href="start/import.md">프로필 가져오기</a>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-    <a href="start/create-message.md">
-      <img alt="이메일" src="start/assets/do-not-localize/email-design.jpeg" />
-    </a>
-    <div>
-    <a href="start/create-message.md">이메일 만들기</a>
-    </div>
-    <br>
-  </td>
-</tr>
-</table>
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="start/connect.md">
+<img alt="Campaign v8에 연결" src="start/assets/do-not-localize/login.jpeg">
+</a>
+<div><a href="start/connect.md"><strong>Campaign에 연결</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="start/import.md">
+<img alt="프로필 가져오기" src="start/assets/do-not-localize/profiles.jpeg">
+</a>
+<div>
+<a href="start/import.md"><strong>프로필 가져오기</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="start/create-message.md">
+<img alt="이메일 만들기" src="start/assets/do-not-localize/email-design.jpeg">
+</a>
+<div>
+<a href="start/create-message.md"><strong>이메일 만들기</strong></a>
+</div>
+<p></td>
+<td>
+<a href="send/push.md">
+<img alt="푸시 알림 보내기" src="start/assets/do-not-localize/push-send.jpeg">
+</a>
+<div>
+<a href="send/push.md"><strong>푸시 알림 보내기</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../automation/workflow/about-workflows.md">
+<img alt="캠페인 만들기" src="start/assets/do-not-localize/workflow.jpeg">
+</a>
+<div>
+<a href="../automation/workflow/about-workflows.md"><strong>워크플로우 만들기</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
+
 
 ## 추가 리소스
 

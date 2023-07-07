@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: d5bd383dca524e15a098fc63661236b50144cb3d
+source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 57%
@@ -42,12 +42,10 @@ _2023년 6월 30일_
 </tbody> 
 </table>
 
-**호환성 업데이트**
-
-* 이제 클라이언트 콘솔의 32비트 버전은 더 이상 사용되지 않습니다. 8.6 릴리스부터 클라이언트 콘솔은 64비트로만 사용할 수 있습니다. 클라이언트 콘솔의 64비트 버전으로 원활하게 업그레이드됩니다. 운영 체제를 업그레이드하는 자세한 방법은 [기술 정보](../../technotes/upgrades/console.md)를 참조하십시오.
-* 이제 Campaign v8 인스턴스를 Azure synapse 외부 데이터베이스에 연결할 수 있습니다. 이 연결은 새 외부 계정을 통해 관리됩니다. 다음에서 자세히 알아보기 [Campaign 호환성 매트릭스](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
-
 **개선 사항**
+
+
+
 
 * SMS 처리량은 다양한 최적화를 구현하여 크게 향상되었으므로 SMS 커뮤니케이션의 속도와 효율성이 향상되었습니다.
 * 이제 Adobe Experience Platform 대상 연결을 활용하여 Adobe Experience Platform과 Campaign v8 데이터베이스 간에 옵트아웃 데이터와 같은 프로필 속성을 동기화할 수 있습니다.
@@ -59,6 +57,13 @@ _2023년 6월 30일_
 * Campaign v8.5.1부터 Campaign v8에 대한 인증 프로세스가 개선되었습니다. 기술 운영자는 IMS(Adobe Identity Management System)를 사용하여 Campaign에 연결해야 합니다. 에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다. [이 기술 노트](../../technotes/upgrades/ims-migration.md).
 * Campaign 클라이언트 콘솔에서는 더 이상 연산자를 만들 수 없습니다. 사용자 인터페이스가 이에 따라 업데이트되었습니다. 이제 Adobe Admin Console을 사용해야 합니다. [자세히 알아보기](../start/gs-permissions.md)
 * 보안을 최적화하기 위해 여러 타사 도구가 업데이트되었습니다.
+
+**호환성 업데이트**
+
+* 이제 클라이언트 콘솔의 32비트 버전은 더 이상 사용되지 않습니다. 8.6 릴리스부터 클라이언트 콘솔은 64비트로만 사용할 수 있습니다. 클라이언트 콘솔의 64비트 버전으로 원활하게 업그레이드됩니다. 운영 체제를 업그레이드하는 자세한 방법은 [기술 정보](../../technotes/upgrades/console.md)를 참조하십시오.
+* 이제 Campaign v8 인스턴스를 Azure synapse 외부 데이터베이스에 연결할 수 있습니다. 이 연결은 새 외부 계정을 통해 관리됩니다. 다음에서 자세히 알아보기 [Campaign 호환성 매트릭스](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+
+
 
 **패치**
 
