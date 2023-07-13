@@ -5,7 +5,7 @@ feature: Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: 8f7c723b8ef7ab6c8449eaec8ff6c87b9ee5deec
+source-git-commit: d9a91fddbdcfae0f59fe780f8b6962238b89c886
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Adobe Experience Platform 대상을 Adobe Campaign으로 보내고 게재 및 �
 
       ![](assets/aep-audience-sync.png){width="800" align="center"}
 
-   1. Adobe 캠페인에 보낼 세그먼트를 선택합니다.
+   1. Adobe Campaign으로 전송할 세그먼트를 선택하십시오.
    1. 대상에서 내보낼 속성을 구성합니다.
    1. 흐름이 구성되면 선택한 대상을 Adobe Campaign에 활성화할 수 있습니다.
 
@@ -52,7 +52,7 @@ Adobe Campaign을 Adobe Experience Platform과 연결하면 Adobe Experience Pla
 
 >[!NOTE]
 >
->Adobe 캠페인 데이터베이스에 이미 있는 프로필에 대해 프로필 속성 동기화를 사용할 수 있습니다.
+>프로필 속성 동기화는 Adobe Campaign 데이터베이스에 이미 있는 프로필에 사용할 수 있습니다.
 
 Adobe Experience Platform 프로필 속성을 Adobe Campaign과 동기화하는 주요 단계는 다음과 같습니다.
 
