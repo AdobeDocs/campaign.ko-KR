@@ -4,7 +4,7 @@ title: 게재 콘텐츠 로드
 description: 게재 콘텐츠 로드
 feature: Workflows
 exl-id: 08febcbc-1703-4d36-89e1-32c903618084
-source-git-commit: 9dfb1acd97e529a8b60119154b3728c883dd9c97
+source-git-commit: 23026cf93c89c1f6a410337b17bfa2553e41c987
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 3%
@@ -43,7 +43,7 @@ ht-degree: 3%
 1. 다음에서 **[!UICONTROL Script]** 의 탭 **[!UICONTROL Delivery]** 활동에서 다음 명령을 추가하여 가져온 파일의 콘텐츠를 게재에 로드합니다.
 
    ```
-   delivery.content.md.source=loadFile(vars.filename)
+   delivery.content.html.source=loadFile(vars.filename)
    ```
 
    ![](assets/delivery_loadcontent_script.png)
