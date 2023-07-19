@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
+source-git-commit: 70171ecfb39116f4db4c05ab03b55502e3faed43
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 57%
+source-wordcount: '1337'
+ht-degree: 56%
 
 ---
 
@@ -80,6 +80,7 @@ _2023년 6월 30일_
 * 이메일 콘텐츠 편집기에서 이미지를 클릭할 때 팝업 창이 열리는 문제를 해결했습니다. (NEO-60752)
 * 게재 콘텐츠를 편집할 때 오류를 일으키고 스크롤하지 못하는 문제를 해결했습니다. (NEO-61364)
 * 이제 Adobe Analytics 커넥터가 올바른 채널 유형으로 지표를 내보냅니다. 이전에는 항상 &#39;이메일&#39; 채널로 설정되었습니다. (NEO-26340)
+* 날짜/시간 필드에 큰 쿼리 커넥터를 사용할 때 오류가 발생할 수 있는 문제를 해결했습니다. (NEO-49768)
 
 
 ## 릴리스 8.4.5 {#release-8-4-5}
