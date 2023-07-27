@@ -4,9 +4,9 @@ title: 압력 규칙 구성
 description: 압력 규칙 구성 방법 알아보기
 feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
-source-git-commit: 6a1e2e0a872ce5886e7374d266c71975941e87b8
+source-git-commit: 5810f9b53bd3ad5383d4b9767bc65a3d595862c7
 workflow-type: tm+mt
-source-wordcount: '3027'
+source-wordcount: '3037'
 ht-degree: 8%
 
 ---
@@ -57,7 +57,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 
    >[!NOTE]
    >
-   >예약된 게재는 고려되지 않습니다.
+   >의 맥락에서 [엔터프라이즈(FFDA) 배포](../../v8/architecture/enterprise-deployment.md) Campaign의 예약된 게재는 고려되지 않습니다.
 
 1. 가장 많은 메시지 수를 계산하는 방법을 정의합니다.
 
@@ -82,7 +82,8 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
    * 이 탭의 상단 섹션에서는 관련 수신자를 제한할 수 있습니다.
    * 이 탭의 아래 섹션에서는 계산할 메시지를 필터링할 수 있습니다.
 
-      다음 예제에서는 수신자만 **새 연락처** 폴더 및 다음으로 시작하는 게재 고려 **뉴스레터** 걱정하고 있습니다.
+     다음 예제에서는 수신자만 **새 연락처** 폴더 및 다음으로 시작하는 게재 고려 **뉴스레터** 걱정하고 있습니다.
+
    ![](assets/campaign_opt_create_a_rule_05.png)
 
 1. 다음 **[!UICONTROL Typologies]** 탭에서는 이 규칙을 적용하는 캠페인 유형화를 보거나 규칙을 하나 이상의 기존 유형화에 연결할 수 있습니다. [자세히 알아보기](campaign-typologies.md#apply-typologies)
@@ -264,15 +265,15 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 캠페
 
 * 분석 결과 보기:
 
-   ![](assets/campaign_opt_pressure_sample_1_8.png)
+  ![](assets/campaign_opt_pressure_sample_1_8.png)
 
 * 게재를 편집하고 **[!UICONTROL Delivery]** 탭 및 **[!UICONTROL Exclusions]** 하위 탭:
 
-   ![](assets/campaign_opt_pressure_sample_1_9.png)
+  ![](assets/campaign_opt_pressure_sample_1_9.png)
 
 * 다음을 클릭합니다. **[!UICONTROL Audit]** 탭을 클릭한 다음 **[!UICONTROL Causes of exclusions]** 제외 수 및 적용된 유형화 규칙을 표시하는 하위 탭:
 
-   ![](assets/campaign_opt_pressure_sample_1_10.png)
+  ![](assets/campaign_opt_pressure_sample_1_10.png)
 
 ### 비헤이비어를 기반으로 게재 가중치 계산 {#calculate-the-delivery-weight-based-on-behavior}
 

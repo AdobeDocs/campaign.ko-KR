@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner, Intermediate, Experienced
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
-source-git-commit: 58fff46ba12f5c6221bbcd88a40fa0806a6c98b9
+source-git-commit: 5810f9b53bd3ad5383d4b9767bc65a3d595862c7
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 84%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 * [이 섹션](v7-to-v8.md#gs-unavailable-features)에 나열된 기능은 현재 Campaign v8 빌드에서 사용할 수 없습니다.
 * 사용할 수 없거나 제거된 기능 중 일부는 계속 사용자 인터페이스에 표시됩니다.
 * [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)의 컨텍스트에서는 구독(옵트인) 및 구독 취소(옵트아웃) 메커니즘 및 모바일 등록은 비동기 프로세스입니다. 요청은 특정 기술 워크플로우를 통해 한 시간에 한 번씩 처리됩니다. [자세히 알아보기](../architecture/replication.md#tech-wf)
-* 복제본은 최종 사용자가 수동으로 처리해야 합니다. [자세히 알아보기](../architecture/keys.md)
+* 
+   * 의 맥락에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 복제는 최종 사용자가 수동으로 처리해야 합니다. [자세히 알아보기](../architecture/keys.md)
 * Adobe Campaign v8은 API 및 웹 애플리케이션에서 확장된 처리량을 지원하지 않습니다. 특정 요구 사항이 있는 경우 Adobe에 문의하여 안내를 받으시기 바랍니다.
-* Adobe Campaign의 캠페인 최적화 모듈은 압력 유형화 규칙에 대해 예약된 게재를 고려하지 않습니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko)에서 자세히 알아보기
+* 의 맥락에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), Adobe Campaign Campaign 최적화 모듈은 압력 유형화 규칙의 예약된 게재를 고려하지 않습니다. [이 페이지](../../automation/campaign-opt/pressure-rules.md)에서 자세히 알아보기
