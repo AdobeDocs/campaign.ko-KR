@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 5d307e0fcafdc4d25402c62c6869ecc07c1a47e4
+source-git-commit: 1297d5a602d125cb80ca6efb490b12174bcea8d6
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -37,13 +37,11 @@ Adobe Campaign 관리 클라우드 서비스는 크로스 채널 고객 경험�
 
 이전 [!DNL Campaign Classic] 사용자는 대부분의 [!DNL Campaign Classic] v7 기능을 [!DNL Campaign] v8에서도 사용할 수 있습니다(일부 예외 사항: [이 섹션](#gs-removed) 참조).
 
+Campaign v8은 **하이브리드 아키텍처**. Campaign Classic v7에서 전환하는 경우 모든 게재는 중간 소싱 서버를 거칩니다. [자세히 알아보기](../architecture/architecture.md). 따라서 내부 라우팅은 Campaign v8에서 **불가능**&#x200B;하며, 외부 계정이 이에 따라 비활성화되었습니다.
+
 >[!NOTE]
 >
-> Campaign v8은 하이브리드 아키텍처를 사용합니다. Campaign Classic v7에서 전환하는 경우 모든 게재는 중간 소싱 서버를 거칩니다. [자세히 알아보기](../architecture/architecture.md)
->
-> 따라서 내부 라우팅은 Campaign v8에서 **불가능**&#x200B;하며, 외부 계정이 이에 따라 비활성화되었습니다.
-
-새로운 클라우드 아키텍처를 통해 Campaign은 프로세스를 간소화하고, 비용을 절감하고, 위험을 관리하고, 데이터 보안을 개선할 수 있습니다. Campaign v8 환경에는 사전 구성된 전용 Virtual Private Cloud(VPC)가 포함되어 있습니다.
+>새로운 클라우드 아키텍처를 통해 Campaign은 프로세스를 간소화하고, 비용을 절감하고, 위험을 관리하고, 데이터 보안을 개선할 수 있습니다. Campaign v8 환경에는 사전 구성된 전용 Virtual Private Cloud(VPC)가 포함되어 있습니다.
 
 ## [!DNL Campaign] 및 [!DNL Snowflake] {#ac-gs-snowflake}
 
