@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 5d307e0fcafdc4d25402c62c6869ecc07c1a47e4
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 98%
+source-wordcount: '682'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 98%
 >* 현재 Campaign v8은 관리 클라우드 서비스로&#x200B;**만** 사용할 수 있으며, 온-프레미스 또는 하이브리드 환경에 배포할 수 없습니다. [자세히 알아보기](#cloud-services)
 >
 >* 기존 Campaign Classic v7 환경에서의 자동 마이그레이션은 아직 불가능합니다.
-
 
 
 ## 관리 클라우드 서비스{#cloud-services}
@@ -44,6 +43,7 @@ Adobe Campaign 관리 클라우드 서비스는 크로스 채널 고객 경험�
 >
 > 따라서 내부 라우팅은 Campaign v8에서 **불가능**&#x200B;하며, 외부 계정이 이에 따라 비활성화되었습니다.
 
+새로운 클라우드 아키텍처를 통해 Campaign은 프로세스를 간소화하고, 비용을 절감하고, 위험을 관리하고, 데이터 보안을 개선할 수 있습니다. Campaign v8 환경에는 사전 구성된 전용 Virtual Private Cloud(VPC)가 포함되어 있습니다.
 
 ## [!DNL Campaign] 및 [!DNL Snowflake] {#ac-gs-snowflake}
 
