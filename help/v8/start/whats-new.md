@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 1297d5a602d125cb80ca6efb490b12174bcea8d6
+source-git-commit: f16fe79b8417a3fa146baf432f829c73fb839953
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 93%
@@ -32,7 +32,7 @@ Adobe Campaign을 사용하면 캠페인 오케스트레이션을 위한 편리�
 
 ![](../assets/do-not-localize/glass.png) [Campaign 워크플로우에 대해 자세히 알아보기](../config/workflows.md)
 
-## 개인화된 이메일 마케팅 {#perso-email-mkt}
+### 개인화된 이메일 마케팅 {#perso-email-mkt}
 
 나머지 고객 경험과 일관적인 개인화된 상황별 관련 이메일을 만들 수 있습니다.
 
