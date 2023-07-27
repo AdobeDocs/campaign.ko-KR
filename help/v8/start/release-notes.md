@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 70171ecfb39116f4db4c05ab03b55502e3faed43
+source-git-commit: 32d0264c03eb4ec6ab1959d0a66be78c06a0dccb
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 56%
+source-wordcount: '1453'
+ht-degree: 51%
 
 ---
 
@@ -24,32 +24,57 @@ Adobe는 새 릴리스가 나올 때마다 Managed Cloud Services 사용자의 �
 
 _2023년 6월 30일_
 
-**새로운 기능**
 
-<table> 
-<thead>
-<tr> 
-<th> <strong>향상된 푸시 알림 서비스</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td><p>Campaign v8.5.1은 최신 첨단 기술을 기반으로 구축된 강력한 프레임워크에서 제공하는 최신 푸시 알림 서비스를 도입했습니다. 이 서비스는 새로운 차원의 확장성을 제공하도록 설계되었으므로, 원활한 효율성으로 더 많은 대상자에게 알림이 전달될 수 있습니다. 향상된 인프라와 최적화된 프로세스를 통해 더 높은 규모와 신뢰성을 기대할 수 있으며, 이전과 달리 모바일 앱 사용자를 참여시키고 연결할 수 있는 역량을 확보할 수 있습니다. 이 기능은 선택한 고객 그룹만 사용할 수 있습니다(제한된 가용성).</p>
-<p>자세한 내용은 <a href="../send/push-data-collection.md">세부 설명서</a>를 참조하세요.</p>
+**향상된 푸시 알림 서비스**
 
-</td> 
-</tr> 
-</tbody> 
-</table>
+Campaign v8.5.1은 최신 첨단 기술을 기반으로 구축된 강력한 프레임워크에서 제공하는 최신 푸시 알림 서비스를 도입했습니다. 이 서비스는 새로운 차원의 확장성을 제공하도록 설계되었으므로, 원활한 효율성으로 더 많은 대상자에게 알림이 전달될 수 있습니다. 향상된 인프라와 최적화된 프로세스를 통해 더 높은 규모와 신뢰성을 기대할 수 있으며, 이전과 달리 모바일 앱 사용자를 참여시키고 연결할 수 있는 역량을 확보할 수 있습니다. 이 기능은 선택한 고객 그룹만 사용할 수 있습니다(제한된 가용성).
 
-**개선 사항**
+자세한 내용은 [세부 설명서](../send/push-data-collection.md)를 참조하세요.
 
 
+**모바일 채널 처리량 증가**
+
+<!--
+The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5).
+
+* Push Notifications (Android): up to **5x** faster
+* Push Notifications (iOS): up to **2.2x** faster
+
+SMS throughput has undergone substantial enhancements through a series of optimizations, resulting in notable improvements in speed and efficiency for SMS communication. These upgrades have led to increased throughput from the previous version (v8.4) to the latest version (v8.5), encompassing both sending and feedback updates. Users can now experience the benefits of this enhanced SMS service.</p>
+
+* SMS throughput: up to **5x** faster
+
+These max throughput performances have been measured by Adobe testing teams, in lab conditions.
+-->
+
+<table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
+<td>
+<img alt="처리량 개선" src="../start/assets/do-not-localize/improvements.jpeg">
+<p>
+</td>
+<td>
+<div>
+
+<p>새로 도입된 푸시 알림 서비스는 이전 버전(v8.4)과 비교하여 푸시 Android 및 푸시 iOS 모두에서 처리량이 크게 향상되었음을 보여 줍니다. 사용자는 최신 버전(v8.5)에서 업그레이드된 서비스로 현저하게 향상된 성능을 경험할 수 있습니다. </p>
+<ul>
+<li>푸시 알림(Android): 최대 <strong>5배</strong> 빠름 </li>
+<li>푸시 알림(iOS): 최대 <strong>2.2x</strong> 빠름</li>
+</ul>
+<p>SMS 처리량은 일련의 최적화를 통해 크게 향상되어 SMS 커뮤니케이션의 속도와 효율성이 크게 향상되었습니다. 이러한 업그레이드를 통해 전송 및 피드백 업데이트를 모두 포함하여 이전 버전(v8.4)에서 최신 버전(v8.5)으로 처리량이 증가했습니다. 이제 사용자는 이 향상된 SMS 서비스의 이점을 경험할 수 있습니다.</p>
+<ul>
+<li>SMS 처리량: 최대 <strong>5배</strong> 빠름</li>
+</ul>
+<p><em>이러한 최대 처리량 성능은 Adobe 테스트 팀이 실험실 조건에서 측정했습니다.</em></p>
+</div>
+<p></p>
+</td>
+</tr></table>
 
 
-* SMS 처리량은 다양한 최적화를 구현하여 크게 향상되었으므로 SMS 커뮤니케이션의 속도와 효율성이 향상되었습니다.
+**일반 개선 사항**
+
 * 이제 Adobe Experience Platform 대상 연결을 활용하여 Adobe Experience Platform과 Campaign v8 데이터베이스 간에 옵트아웃 데이터와 같은 프로필 속성을 동기화할 수 있습니다.
-* 게재 준비가 최적화되었습니다.
+* 모든 채널에서 게재 준비가 최적화되었습니다.
 * 기존 사용자/암호 인증 방식과 함께 SFTP 외부 계정에 대해 새로운 키 기반 인증 옵션이 추가되었습니다. 이제 사용자는 개인 키를 사용하여 안전하게 인증할 수 있으므로 보안을 강화하고 SFTP 액세스에 대한 대체 인증 메커니즘을 제공합니다. [이 섹션](../config/external-accounts.md)에서 자세히 알아보십시오.
 
 **향상된 보안 기능**
@@ -62,7 +87,6 @@ _2023년 6월 30일_
 
 * 이제 클라이언트 콘솔의 32비트 버전은 더 이상 사용되지 않습니다. 8.6 릴리스부터 클라이언트 콘솔은 64비트로만 사용할 수 있습니다. 클라이언트 콘솔의 64비트 버전으로 원활하게 업그레이드됩니다. 운영 체제를 업그레이드하는 자세한 방법은 [기술 정보](../../technotes/upgrades/console.md)를 참조하십시오.
 * 이제 Campaign v8 인스턴스를 Azure synapse 외부 데이터베이스에 연결할 수 있습니다. 이 연결은 새 외부 계정을 통해 관리됩니다. 다음에서 자세히 알아보기 [Campaign 호환성 매트릭스](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
-
 
 
 **패치**
