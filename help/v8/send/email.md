@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 500de76853772313b1aac655da2f1b3562de2c55
+source-git-commit: a08dd72a2be703e5e9cd3cdc20dbb3064b06b35d
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '519'
 ht-degree: 9%
 
 ---
@@ -43,6 +43,9 @@ ht-degree: 9%
 
    ![](assets/paste-content.png)
 
+   >[!NOTE]
+   >
+   >성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100KB를 초과할 수 없습니다.
 
 1. **메시지 개인화**
 
@@ -62,7 +65,7 @@ ht-degree: 9%
 
      이미지 또는 텍스트를 통해 게재 수신자를 외부 주소로 보내려면 해당 주소를 선택하고 **[!UICONTROL Add a link]** 아이콘을 클릭합니다.
 
-     에 링크의 URL을 입력합니다. **URL** 다음 형식을 사용하는 필드 **https://www.myURL.com**&#x200B;를 클릭한 다음 확인합니다.
+     에 링크의 URL을 입력합니다 **URL** 다음 형식을 사용하는 필드 **https://www.myURL.com**&#x200B;를 클릭한 다음 확인합니다.
 
      ![](assets/add-a-link.png)
 
