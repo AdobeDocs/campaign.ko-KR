@@ -5,10 +5,10 @@ feature: API
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 9c7a4f7d4e84fde4b74bf6f8e0432681aa7e42d3
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 15%
+source-wordcount: '276'
+ht-degree: 13%
 
 ---
 
@@ -28,7 +28,10 @@ JavaScript API를 사용하여 Campaign 클라우드 데이터베이스에서 �
 
 >[!CAUTION]
 >
->[!DNL Adobe Campaign] v8에는 API 계층의 처리량(TPS)이 제한됩니다. 제한을 위반하면 표준 HTTP 오류(429)가 발생합니다. 관리 Cloud Services 사용자는 Adobe에 문의하여 각 API에 대한 제한을 조정할 수 있습니다.
+>* Campaign v8.5.1부터 Campaign v8에 대한 인증 프로세스가 변경되었습니다. 기술 운영자는 IMS(Adobe Identity Management System)를 사용하여 Campaign에 연결해야 합니다. 에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다. [이 기술 노트](../../technotes/upgrades/ims-migration.md).
+>
+>* [!DNL Adobe Campaign] v8에는 API 계층의 처리량(TPS)이 제한됩니다. 제한을 위반하면 표준 HTTP 오류(429)가 발생합니다. 관리 Cloud Services 사용자는 Adobe에 문의하여 각 API에 대한 제한을 조정할 수 있습니다.
+> 
 
 ## 전제 조건
 
