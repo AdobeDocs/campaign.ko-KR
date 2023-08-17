@@ -47,6 +47,6 @@ ht-degree: 4%
    * **[!UICONTROL Initialization]**: SOAP 연결을 설정합니다.
    * **[!UICONTROL Iteration]**: SOAP 서비스에 대한 호출을 수행합니다. 이 함수에 대한 반환은 예제 또는 WSDL의 설명과 호환되는 XML 개체여야 합니다.
 
-      이 탭의 코드는 null XML 개체가 반환될 때까지 Adobe Campaign에서 루프에서 호출됩니다.
+     이 탭의 코드는 null XML 개체가 반환될 때까지 Adobe Campaign에서 루프에서 호출됩니다.
 
    * **[!UICONTROL Finalization]**: 연결을 닫거나 처리 중에 생성된 다른 리소스를 해제합니다.

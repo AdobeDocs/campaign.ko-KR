@@ -30,21 +30,21 @@ ht-degree: 8%
 
 * **[!UICONTROL Display the target...]**
 
-   이 메뉴는 대상 모집단에서 사용 가능한 데이터를 표시합니다.
+  이 메뉴는 대상 모집단에서 사용 가능한 데이터를 표시합니다.
 
-   ![](assets/wf-right-click-display.png)
+  ![](assets/wf-right-click-display.png)
 
-   에서 작업 테이블의 구조에 액세스할 수 있습니다. **[!UICONTROL Schema]** 탭.
+  에서 작업 테이블의 구조에 액세스할 수 있습니다. **[!UICONTROL Schema]** 탭.
 
-   ![](assets/wf-right-click-schema.png)
+  ![](assets/wf-right-click-schema.png)
 
-   이 작업에 대한 자세한 정보는 [이 섹션](monitor-workflow-execution.md#worktables-and-workflow-schema)을 참조하십시오.
+  이 작업에 대한 자세한 정보는 [이 섹션](monitor-workflow-execution.md#worktables-and-workflow-schema)을 참조하십시오.
 
 * **[!UICONTROL Analyze target...]**
 
-   이 메뉴를 사용하여 전환 데이터에 대한 통계 및 보고서를 작성할 수 있는 설명 분석 마법사에 액세스할 수 있습니다.
+  이 메뉴를 사용하여 전환 데이터에 대한 통계 및 보고서를 작성할 수 있는 설명 분석 마법사에 액세스할 수 있습니다.
 
-   자세한 내용은 다음을 참조하십시오. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
+  자세한 내용은 다음을 참조하십시오. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
 
 워크플로우가 실행되면 대상 데이터가 제거됩니다. 마지막 작업 테이블만 액세스할 수 있습니다. 모든 작업 테이블에 액세스할 수 있도록 워크플로를 구성할 수 있습니다. 다음을 확인하십시오. **[!UICONTROL Keep the result of interim populations between two executions]** 옵션을 선택합니다.
 
@@ -126,15 +126,15 @@ ht-degree: 8%
 
 * 다음 **[!UICONTROL List update]** 활동을 사용하면 작업 테이블을 데이터 목록에 저장할 수 있습니다.
 
-   기존 목록을 선택하거나 만들 수 있습니다. 이 경우 이름과 레코드 폴더가 계산됩니다.
+  기존 목록을 선택하거나 만들 수 있습니다. 이 경우 이름과 레코드 폴더가 계산됩니다.
 
-   ![](assets/s_user_create_list.png)
+  ![](assets/s_user_create_list.png)
 
-   을(를) 참조하십시오 [목록 업데이트](list-update.md).
+  을(를) 참조하십시오 [목록 업데이트](list-update.md).
 
 * 다음 **[!UICONTROL Update data]** 활동은 데이터베이스의 필드에 대한 대량 업데이트를 수행합니다.
 
-   자세한 내용은 다음을 참조하십시오. [데이터 업데이트](update-data.md).
+  자세한 내용은 다음을 참조하십시오. [데이터 업데이트](update-data.md).
 
 ### 구독 관리 {#subscription-management}
 

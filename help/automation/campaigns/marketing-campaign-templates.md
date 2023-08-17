@@ -66,96 +66,96 @@ ht-degree: 5%
 
 * 예를 들어 다음 설정을 사용합니다.
 
-   ![](assets/campaign-template-select-functionalities.png)
+  ![](assets/campaign-template-select-functionalities.png)
 
-   캠페인 대시보드에는 다음이 표시됩니다.
+  캠페인 대시보드에는 다음이 표시됩니다.
 
-   ![](assets/campaign-template-dashboard-sample-1.png)
+  ![](assets/campaign-template-dashboard-sample-1.png)
 
-   다음 사항에 주의하십시오. **[!UICONTROL Targeting and workflows]** 탭이 누락되었습니다.
+  다음 사항에 주의하십시오. **[!UICONTROL Targeting and workflows]** 탭이 누락되었습니다.
 
-   다음 기능을 사용할 수 있습니다.
+  다음 기능을 사용할 수 있습니다.
 
-   ![](assets/campaign-template-edit-sample-1.png)
+  ![](assets/campaign-template-edit-sample-1.png)
 
-   다음 사항에 주의하십시오. **[!UICONTROL Budget]** 탭이 누락되었습니다.
+  다음 사항에 주의하십시오. **[!UICONTROL Budget]** 탭이 누락되었습니다.
 
-   캠페인 고급 설정도 이 구성을 반영합니다.
+  캠페인 고급 설정도 이 구성을 반영합니다.
 
-   ![](assets/campaign-template-parameters-sample-1.png)
+  ![](assets/campaign-template-parameters-sample-1.png)
 
-   다음 사항에 주의하십시오. **[!UICONTROL Approvals]** 탭을 사용할 수 없습니다.
+  다음 사항에 주의하십시오. **[!UICONTROL Approvals]** 탭을 사용할 수 없습니다.
 
 * 이 구성:
-   ![](assets/campaign-template-dashboard-sample-2.png)
+  ![](assets/campaign-template-dashboard-sample-2.png)
 
-   캠페인 대시보드에는 다음이 표시됩니다.
+  캠페인 대시보드에는 다음이 표시됩니다.
 
-   ![](assets/campaign-template-select-functionalities-2.png)
+  ![](assets/campaign-template-select-functionalities-2.png)
 
-   다음 사항에 주의하십시오. **[!UICONTROL Targeting and workflows]** 탭은 사용할 수 있지만 **문서 추가** 링크가 누락되었습니다.
+  다음 사항에 주의하십시오. **[!UICONTROL Targeting and workflows]** 탭은 사용할 수 있지만 **문서 추가** 링크가 누락되었습니다.
 
-   다음 기능을 사용할 수 있습니다.
+  다음 기능을 사용할 수 있습니다.
 
-   ![](assets/campaign-template-edit-sample-2.png)
+  ![](assets/campaign-template-edit-sample-2.png)
 
-   다음 사항에 주의하십시오. **[!UICONTROL Budget]** 탭을 사용할 수 있습니다.
+  다음 사항에 주의하십시오. **[!UICONTROL Budget]** 탭을 사용할 수 있습니다.
 
-   캠페인 고급 설정도 이 구성을 반영합니다.
+  캠페인 고급 설정도 이 구성을 반영합니다.
 
-   ![](assets/campaign-template-parameters-sample-2.png)
+  ![](assets/campaign-template-parameters-sample-2.png)
 
-   다음 사항에 주의하십시오. **[!UICONTROL Approvals]** 탭은 사용할 수 있지만 **[!UICONTROL Control population]** 및 **[!UICONTROL Seed addresses]** 탭이 활성화되어 있지 않습니다.
+  다음 사항에 주의하십시오. **[!UICONTROL Approvals]** 탭은 사용할 수 있지만 **[!UICONTROL Control population]** 및 **[!UICONTROL Seed addresses]** 탭이 활성화되어 있지 않습니다.
 
 
 ## 모듈 유형화 {#typology-of-enabled-modules}
 
 * **컨트롤 그룹**
 
-   이 모듈을 선택하면 템플릿 및 이 템플릿을 기반으로 하는 캠페인의 고급 설정에 추가 탭이 추가됩니다. 템플릿을 통해 또는 각 캠페인에 대해 개별적으로 구성을 정의할 수 있습니다. 에서 컨트롤 그룹에 대해 자세히 알아보기 [이 섹션](marketing-campaign-deliveries.md#defining-a-control-group).
+  이 모듈을 선택하면 템플릿 및 이 템플릿을 기반으로 하는 캠페인의 고급 설정에 추가 탭이 추가됩니다. 템플릿을 통해 또는 각 캠페인에 대해 개별적으로 구성을 정의할 수 있습니다. 에서 컨트롤 그룹에 대해 자세히 알아보기 [이 섹션](marketing-campaign-deliveries.md#defining-a-control-group).
 
-   ![](assets/template-activate-1.png)
+  ![](assets/template-activate-1.png)
 
 
 * **시드 주소**
 
-   이 모듈을 선택하면 템플릿 및 이 템플릿을 기반으로 하는 캠페인의 고급 설정에 추가 탭이 추가됩니다. 템플릿을 통해 또는 각 캠페인에 대해 개별적으로 구성을 정의할 수 있습니다.
+  이 모듈을 선택하면 템플릿 및 이 템플릿을 기반으로 하는 캠페인의 고급 설정에 추가 탭이 추가됩니다. 템플릿을 통해 또는 각 캠페인에 대해 개별적으로 구성을 정의할 수 있습니다.
 
-   ![](assets/template-activate-2.png)
+  ![](assets/template-activate-2.png)
 
 * **문서**
 
-   이 모듈을 선택하면 추가 탭이 **[!UICONTROL Edit]** 템플릿 및 이 템플릿을 기반으로 하는 캠페인의 탭입니다. 첨부된 문서는 템플릿에서 또는 각 캠페인에 대해 개별적으로 추가할 수 있습니다. 의 문서에 대해 자세히 알아보기 [이 섹션](marketing-campaign-deliveries.md#manage-associated-documents).
+  이 모듈을 선택하면 추가 탭이 **[!UICONTROL Edit]** 템플릿 및 이 템플릿을 기반으로 하는 캠페인의 탭입니다. 첨부된 문서는 템플릿에서 또는 각 캠페인에 대해 개별적으로 추가할 수 있습니다. 의 문서에 대해 자세히 알아보기 [이 섹션](marketing-campaign-deliveries.md#manage-associated-documents).
 
-   ![](assets/template-activate-3.png)
+  ![](assets/template-activate-3.png)
 
 * **게재 개요**
 
-   이 모듈을 선택하면 **[!UICONTROL Delivery outlines]** 하위 탭이 **[!UICONTROL Documents]** 탭으로 이동하여 캠페인에 대한 게재 개요를 정의합니다. 에서 게재 개요에 대해 자세히 알아보기 [이 섹션](marketing-campaign-assets.md#delivery-outlines).
+  이 모듈을 선택하면 **[!UICONTROL Delivery outlines]** 하위 탭이 **[!UICONTROL Documents]** 탭으로 이동하여 캠페인에 대한 게재 개요를 정의합니다. 에서 게재 개요에 대해 자세히 알아보기 [이 섹션](marketing-campaign-assets.md#delivery-outlines).
 
-   ![](assets/template-activate-4.png)
+  ![](assets/template-activate-4.png)
 
 * **타겟팅 및 워크플로**
 
-   다음을 선택하면 **[!UICONTROL Targeting and workflows]** 모듈에서는 이 템플릿을 기반으로 캠페인용 워크플로우를 하나 이상 만들 수 있는 탭이 추가됩니다. 이 템플릿을 기반으로 각 캠페인에 대해 개별적으로 워크플로우를 구성할 수도 있습니다.에서 캠페인 워크플로우에 대해 자세히 알아보세요. [이 섹션](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow).
+  다음을 선택하면 **[!UICONTROL Targeting and workflows]** 모듈에서는 이 템플릿을 기반으로 캠페인용 워크플로우를 하나 이상 만들 수 있는 탭이 추가됩니다. 이 템플릿을 기반으로 각 캠페인에 대해 개별적으로 워크플로우를 구성할 수도 있습니다.에서 캠페인 워크플로우에 대해 자세히 알아보세요. [이 섹션](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow).
 
-   ![](assets/template-activate-5.png)
+  ![](assets/template-activate-5.png)
 
-   이 모듈이 활성화되면 **[!UICONTROL Jobs]** campaign의 고급 설정에 탭이 추가되어 프로세스 실행 시퀀스를 정의합니다.
+  이 모듈이 활성화되면 **[!UICONTROL Jobs]** campaign의 고급 설정에 탭이 추가되어 프로세스 실행 시퀀스를 정의합니다.
 
 * **승인**
 
-   을(를) 활성화하면 **[!UICONTROL Approvals]**&#x200B;를 통해 승인할 프로세스 및 승인 담당 연산자를 선택할 수 있습니다. 에서 승인에 대해 자세히 알아보기 [이 섹션](marketing-campaign-approval.md#select-reviewers).
+  을(를) 활성화하면 **[!UICONTROL Approvals]**&#x200B;를 통해 승인할 프로세스 및 승인 담당 연산자를 선택할 수 있습니다. 에서 승인에 대해 자세히 알아보기 [이 섹션](marketing-campaign-approval.md#select-reviewers).
 
-   ![](assets/template-activate-6.png)
+  ![](assets/template-activate-6.png)
 
-   다음을 통해 프로세스 승인을 사용할지 여부를 선택할 수 있습니다. **[!UICONTROL Approvals]** 템플릿 고급 설정 섹션의 탭입니다.
+  다음을 통해 프로세스 승인을 사용할지 여부를 선택할 수 있습니다. **[!UICONTROL Approvals]** 템플릿 고급 설정 섹션의 탭입니다.
 
 * **경비 및 목표**
 
-   이 모듈을 선택하면 **[!UICONTROL Budget]** 관련 예산을 선택할 수 있도록 이 템플릿을 기반으로 하는 캠페인 및 템플릿의 세부 정보에 탭이 추가됩니다.
+  이 모듈을 선택하면 **[!UICONTROL Budget]** 관련 예산을 선택할 수 있도록 이 템플릿을 기반으로 하는 캠페인 및 템플릿의 세부 정보에 탭이 추가됩니다.
 
-   ![](assets/template-activate-7.png)
+  ![](assets/template-activate-7.png)
 
 
 ## 템플릿 속성 {#template-properties}
@@ -173,7 +173,7 @@ ht-degree: 5%
 * 다음 항목 선택 **캠페인 유형**: 고유, 반복 또는 주기적입니다. 기본적으로 캠페인 템플릿은 고유한 캠페인에 적용됩니다. 반복 및 정기 캠페인에 대해서는 다음에서 자세히 설명합니다. [이 섹션](recurring-periodic-campaigns.md).
 * 캠페인 기간, 즉 캠페인이 진행될 일 수를 지정합니다. 이 템플릿을 기반으로 캠페인을 만들 때 캠페인 시작 및 종료 날짜가 자동으로 채워집니다.
 
-   캠페인이 반복되면 템플릿에서 직접 캠페인 시작 및 종료 날짜를 지정해야 합니다.
+  캠페인이 반복되면 템플릿에서 직접 캠페인 시작 및 종료 날짜를 지정해야 합니다.
 
 * 다음을 지정합니다. **관련 프로그램** 템플릿 중: 이 템플릿을 기반으로 하는 캠페인이 선택한 프로그램에 연결됩니다.
 

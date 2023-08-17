@@ -29,9 +29,9 @@ ht-degree: 1%
 
 * 캠페인 워크플로우에서 **[!UICONTROL Targeting and workflows]** 게재를 추가하여 탭합니다.
 
-   ![](assets/campaign-wf-delivery.png)
+  ![](assets/campaign-wf-delivery.png)
 
-   워크플로우가 시작되면 게재가 캠페인 대시보드에 추가됩니다.
+  워크플로우가 시작되면 게재가 캠페인 대시보드에 추가됩니다.
 
 게재 승인 흐름을 설정하고 실행하는 방법을 알아봅니다 [이 페이지에서](marketing-campaign-approval.md).
 
@@ -92,23 +92,23 @@ ht-degree: 1%
 
 파일 추출에서는 예산 계산과 재고 계산의 두 가지 프로세스를 시작합니다. 예산 항목이 갱신됩니다.
 
-* 다음 **[!UICONTROL Budget]** 탭에서는 캠페인에 대한 예산을 관리할 수 있습니다. 비용 항목의 합계는 다음에 표시됩니다. **[!UICONTROL Calculated cost]** 캠페인의 메인 탭 및 해당 캠페인이 속한 프로그램의 필드. 금액은 캠페인 예산에도 반영됩니다.
+* 다음 **[!UICONTROL Budget]** 탭에서는 캠페인에 대한 예산을 관리할 수 있습니다. 비용 항목의 합계는 다음에 표시됩니다. **[!UICONTROL Calculated cost]** 캠페인의 메인 탭 필드 및 캠페인이 속한 프로그램. 금액은 캠페인 예산에도 반영됩니다.
 
-   ![](assets/campaign-budget-tab.png)
+  ![](assets/campaign-budget-tab.png)
 
-   실제 비용은 결국 라우터가 제공한 정보로부터 산출될 것이다. 실제로 전송된 메시지만 송장이 발행됩니다.
+  실제 비용은 결국 라우터가 제공한 정보로부터 산출될 것이다. 실제로 전송된 메시지만 송장이 발행됩니다.
 
 * 주식은 다음에 정의됩니다. **[!UICONTROL Administration > Campaign management > Stocks]** 트리의 노드.
 
-   ![](assets/campaign-stocks.png)
+  ![](assets/campaign-stocks.png)
 
-   의 비용 구조 **[!UICONTROL Administration > Campaign management > Service providers]** 노드.
+  의 비용 구조 **[!UICONTROL Administration > Campaign management > Service providers]** 노드.
 
-   ![](assets/campaign-service-providers.png)
+  ![](assets/campaign-service-providers.png)
 
-   재고 라인이 재고 섹션에 표시됩니다. 초기 재고를 정의하려면 재고 라인을 엽니다. 게재가 발생할 때마다 재고가 감소합니다. 경고 수준 및 알림을 정의할 수 있습니다.
+  재고 라인이 재고 섹션에 표시됩니다. 초기 재고를 정의하려면 재고 라인을 엽니다. 게재가 발생할 때마다 재고가 감소합니다. 경고 수준 및 알림을 정의할 수 있습니다.
 
 
-   >[!NOTE]
-   >
-   >예산에 대해 자세히 알아보기 [이 섹션에서](providers--stocks-and-budgets.md).
+  >[!NOTE]
+  >
+  >예산에 대해 자세히 알아보기 [이 섹션에서](providers--stocks-and-budgets.md).

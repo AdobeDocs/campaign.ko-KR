@@ -16,7 +16,7 @@ ht-degree: 1%
 
 FDA 커넥터(Federated Data Access)를 사용하여 Campaign을 하나 이상에 연결합니다 **외부 데이터베이스** Campaign Cloud 데이터베이스 데이터에 영향을 주지 않고 저장된 정보를 처리합니다. 그런 다음 Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다.
 
-![](../assets/do-not-localize/speech.png) 관리 Cloud Services 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) 외부 데이터베이스를 Campaign에 연결합니다.
+![](../assets/do-not-localize/speech.png) 관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) 외부 데이터베이스를 Campaign에 연결합니다.
 
 
 >[!NOTE]

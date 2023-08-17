@@ -56,13 +56,13 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 
 * 포럼에 가입하려면 **[!UICONTROL Follow discussions]** 메시지 목록 위에 있는 오른쪽 상단 섹션의 단추입니다.
 
-   섹션이 파란색으로 바뀌고 포럼에 가입했음을 보여 줍니다.
+  섹션이 파란색으로 바뀌고 포럼에 가입했음을 보여 줍니다.
 
 * 포럼에서 가입을 해지하려면 **[!UICONTROL Unsubscribe]** 단추를 클릭합니다.
 
 * 개인 대시보드에는 구독 중인 포럼이 나열됩니다. 다음을 클릭합니다. **[!UICONTROL Subscription to discussion forums]** 링크를 클릭하여 목록을 표시한 다음, 원하는 항목을 클릭하여 해당 포럼에 액세스합니다.
 
-   ![](assets/forum-subscribed.png)
+  ![](assets/forum-subscribed.png)
 
 
 ## 알림 전달 문제 해결 {#checking-notification-delivery}
@@ -75,4 +75,5 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 
    * Adobe Campaign 홈페이지에서 다음 위치로 이동합니다. **[!UICONTROL Campaigns > Navigation > Deliveries]**&#x200B;을(를) 열고 **[!UICONTROL Discussion forum notification]** 게재.
    * Campaign 탐색기에서 **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Discussion forum notifications]**.
-   다음에서 **[!UICONTROL Discussion forum notifications]** 상자에서 게재 로그는 **[!UICONTROL Edit > Delivery]** 탭. 다음을 볼 수도 있습니다. **[!UICONTROL Tracking > Log]** 및 **[!UICONTROL Exclusion causes]** 탭.
+
+  다음에서 **[!UICONTROL Discussion forum notifications]** 상자에서 게재 로그는 **[!UICONTROL Edit > Delivery]** 탭. 다음을 볼 수도 있습니다. **[!UICONTROL Tracking > Log]** 및 **[!UICONTROL Exclusion causes]** 탭.

@@ -6,7 +6,7 @@ feature: Workflows, Interaction
 source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 5%
    <td> <strong>설명</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">전체 합계 계산(propositionrcp 큐브)</span> <br /> </td> 
+   <td> <span class="uicontrol">전체 집계 계산 (propositionrcp 큐브)</span> <br /> </td> 
    <td> <span class="uicontrol">agg_nmspropositionrcp_full</span> <br /> </td> 
    <td> 이 워크플로우는 <strong>전체</strong> 다음에 대한 집계 <strong>오퍼 제안</strong> 큐브. 기본적으로 매일 오전 6시에 트리거됩니다. 이 집계는 채널, 게재, 마케팅 오퍼 및 날짜 차원을 캡처합니다.<br /> 다음 <strong>오퍼 제안</strong> 그런 다음 오퍼를 기반으로 보고서를 생성하는 데 큐브를 사용합니다.<br /> </td> 
   </tr> 

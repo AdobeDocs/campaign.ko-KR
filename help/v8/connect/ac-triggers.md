@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->관리 Cloud Services 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Campaign으로 Experience Cloud 트리거를 구현합니다.
+>관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Campaign으로 Experience Cloud 트리거를 구현합니다.
 
 Experience Cloud 트리거 를 사용하여 파이프라인을 사용하여 Adobe Campaign과 Adobe Analytics 간에 데이터를 연결할 수 있습니다. 파이프라인은 사용자의 작업 또는 트리거를 웹 사이트에서 검색합니다. 장바구니 포기는 트리거의 예입니다. 트리거는 거의 실시간으로 이메일을 보내기 위해 Adobe Campaign에서 처리됩니다.
 

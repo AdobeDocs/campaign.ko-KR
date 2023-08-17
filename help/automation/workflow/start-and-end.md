@@ -19,16 +19,16 @@ ht-degree: 4%
 
 * **[!UICONTROL Start]**
 
-   워크플로우 실행은 인바운드 전환 및 시작 유형 활동 없이 활동으로 시작합니다.
+  워크플로우 실행은 인바운드 전환 및 시작 유형 활동 없이 활동으로 시작합니다.
 
-   ![](assets/s_user_segmentation_start_stop.png)
+  ![](assets/s_user_segmentation_start_stop.png)
 
 * **[!UICONTROL End]**
 
-   다음을 구성할 수 있습니다. **[!UICONTROL End]** 진행 중인 모든 작업을 중단하기 위한 활동. 이렇게 하려면 활동을 두 번 클릭하여 속성을 표시한 다음 적절한 옵션을 선택합니다.
+  다음을 구성할 수 있습니다. **[!UICONTROL End]** 진행 중인 모든 작업을 중단하기 위한 활동. 이렇게 하려면 활동을 두 번 클릭하여 속성을 표시한 다음 적절한 옵션을 선택합니다.
 
-   ![](assets/s_user_segmentation_end.png)
+  ![](assets/s_user_segmentation_end.png)
 
-   종료 활동이 활성화되면 작업 테이블의 데이터가 자동으로 삭제됩니다. 필요하지 않고 불필요한 로드를 방지하기 위해 마지막 활동 출력에서 전환을 비활성화하도록 선택할 수 있습니다. 예를 들어 게재 출력에서 프로세스가 예약되지 않은 경우 다음과 같이 관련 옵션의 선택을 취소합니다.
+  종료 활동이 활성화되면 작업 테이블의 데이터가 자동으로 삭제됩니다. 필요하지 않고 불필요한 로드를 방지하기 위해 마지막 활동 출력에서 전환을 비활성화하도록 선택할 수 있습니다. 예를 들어 게재 출력에서 프로세스가 예약되지 않은 경우 다음과 같이 관련 옵션의 선택을 취소합니다.
 
-   ![](assets/s_advuser_delivery_option_no_output.png)
+  ![](assets/s_advuser_delivery_option_no_output.png)

@@ -75,9 +75,9 @@ ht-degree: 2%
    * **[!UICONTROL Label]**: 승인 및 피드백 알림에 표시할 도메인의 레이블을 입력합니다.
    * **[!UICONTROL Group or operator]**: 도메인에 할당된 연산자 또는 연산자 그룹을 선택합니다.
 
-      >[!CAUTION]
-      >
-      >운영자에게 적절한 권한이 할당되었는지 확인합니다.
+     >[!CAUTION]
+     >
+     >운영자에게 적절한 권한이 할당되었는지 확인합니다.
 
 ## 2단계: 타겟팅 워크플로우 만들기 {#step-2--creating-the-targeting-workflow}
 

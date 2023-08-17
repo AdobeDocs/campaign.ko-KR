@@ -21,11 +21,11 @@ ht-degree: 2%
 
 * 다음 **[!UICONTROL Audit]** 하위 탭에 활동 분개가 표시됩니다. 여기에는 워크플로우 생성 또는 시작, 승인, 추출, 재고 관리 등 캠페인에서 실행되는 작업이 포함됩니다.
 
-   ![](assets/campaign-audit-tab.png)
+  ![](assets/campaign-audit-tab.png)
 
 * 다음 **[!UICONTROL Deliveries]** 하위 탭에는 캠페인의 모든 게재가 포함되어 있습니다. 이 보기에서 편집할 수 있습니다. 이렇게 하려면 게재를 선택하고 **[!UICONTROL Detail]** 아이콘.
 
-   ![](assets/campaign-delivery-tab.png)
+  ![](assets/campaign-delivery-tab.png)
 
 * 다음 **[!UICONTROL Approvals]** 하위 탭에는 캠페인에 대한 모든 승인 프로세스가 포함되어 있습니다. 세부 정보 및 주석을 확인할 수 있습니다
 

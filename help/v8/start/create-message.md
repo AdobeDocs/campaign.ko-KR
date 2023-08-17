@@ -38,27 +38,27 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 
 * 주요 타겟에게 수동으로 메시지 보내기
 
-   ![](assets/send-email.png)
+  ![](assets/send-email.png)
 
-   [이 섹션](../send/send.md)에서 메시지를 보내는 방법을 알아봅니다.
+  [이 섹션](../send/send.md)에서 메시지를 보내는 방법을 알아봅니다.
 
 * [마케팅 캠페인](campaigns.md)에 연결된 메시지 보내기
 
-   ![](assets/deliveries-in-a-campaign.png)
+  ![](assets/deliveries-in-a-campaign.png)
 
-   [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ko)에서는 캠페인 컨텍스트에 맞춘 메시지를 보내는 방법을 알아봅니다.
+  [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ko)에서는 캠페인 컨텍스트에 맞춘 메시지를 보내는 방법을 알아봅니다.
 
 * [워크플로우](../config/workflows.md)를 통해 메시지 보내기
 
-   ![](assets/send-in-a-wf.png)
+  ![](assets/send-in-a-wf.png)
 
-    [이 페이지](../../automation/workflow/delivery.md)에서는 이메일 게재를 자동화하는 방법을 알아봅니다.
+   [이 페이지](../../automation/workflow/delivery.md)에서는 이메일 게재를 자동화하는 방법을 알아봅니다.
 
 * 이벤트를 통한 [메시지 트리거](../send/transactional.md)
 
 * 메시지 예약
 
-   ![](assets/schedule-send.png)
+  ![](assets/schedule-send.png)
 
 [사용 사례:생일 축하 이메일을 예약하고 보내는 방법 알아보기](../../automation/workflow/send-a-birthday-email.md)
 

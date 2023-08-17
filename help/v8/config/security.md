@@ -27,7 +27,7 @@ Adobe 시 디지털 환경의 보안을 매우 중요하게 생각합니다. 보
 * 암호화된 암호가 제한되어 있는지 확인하십시오.
 * Protect 미러 페이지, 웹 애플리케이션 등과 같은 개인 정보가 포함될 수 있는 페이지입니다.
 
-![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자는 Adobe과 함께 환경에 이러한 구성을 구현합니다.
+![](../assets/do-not-localize/speech.png)  관리 Cloud Service 사용자는 Adobe과 함께 환경에 이러한 구성을 구현합니다.
 
 
 ## 액세스 관리

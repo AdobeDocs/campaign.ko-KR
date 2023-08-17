@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 예외
+title: 제외
 description: 제외 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity
 exl-id: 8ea831e2-8e6e-4ef0-ac05-f27ebf89ccb9
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# 예외{#exclusion}
+# 제외{#exclusion}
 
 
 

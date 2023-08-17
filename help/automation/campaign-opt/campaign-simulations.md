@@ -77,7 +77,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >타겟이 계산된 게재만 시뮬레이션을 계산할 때 고려됩니다(상태: **Target 준비** 또는 **게재 준비 완료**).
+   >타겟이 계산된 게재만 시뮬레이션을 계산할 때 고려됩니다(상태: **대상 준비** 또는 **게재 준비 완료**).
 
 1. 다음에서 **[!UICONTROL Calculations]** 탭에서 수신자 스키마 등의 분석 차원을 선택합니다.
 
@@ -114,9 +114,9 @@ ht-degree: 0%
    * 다음 **[!UICONTROL Initial count]** 게재 시 추정 중 계산된 목표입니다.
    * 다음 **[!UICONTROL Final count]** 시뮬레이션 후 카운트된 수신자 수입니다.
 
-      초기 카운트와 최종 카운트 간의 차이는 시뮬레이션 전에 구성된 다양한 규칙 또는 필터의 적용을 반영한다.
+     초기 카운트와 최종 카운트 간의 차이는 시뮬레이션 전에 구성된 다양한 규칙 또는 필터의 적용을 반영한다.
 
-      이 계산에 대해 자세히 알아보려면 **[!UICONTROL Exclusions]** 하위 탭.
+     이 계산에 대해 자세히 알아보려면 **[!UICONTROL Exclusions]** 하위 탭.
 
 1. 다음 **[!UICONTROL Exclusions]** 하위 탭에서는 제외 분류를 볼 수 있습니다.
 
@@ -212,15 +212,15 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 
    * **[!UICONTROL Generate target overlap statistics]** 시뮬레이션 보고서에서 모든 중복 통계를 복구할 수 있습니다. 중복은 하나의 시뮬레이션 내 두 개 이상의 게재에서 타겟팅된 수신자입니다.
 
-      >[!CAUTION]
-      >
-      >이 옵션을 선택하면 시뮬레이션 실행 시간이 상당히 늘어납니다.
+     >[!CAUTION]
+     >
+     >이 옵션을 선택하면 시뮬레이션 실행 시간이 상당히 늘어납니다.
 
    * **[!UICONTROL Keep the simulation work table]** 시뮬레이션 추적을 유지할 수 있습니다.
 
-      >[!CAUTION]
-      >
-      >이러한 테이블을 자동으로 저장하려면 상당한 저장 용량이 필요합니다. 데이터베이스가 충분히 큰지 확인하십시오.
+     >[!CAUTION]
+     >
+     >이러한 테이블을 자동으로 저장하려면 상당한 저장 용량이 필요합니다. 데이터베이스가 충분히 큰지 확인하십시오.
 
 시뮬레이션 결과가 표시되면 선택한 표현식에 대한 정보가 **[!UICONTROL Overlaps]** 하위 탭.
 

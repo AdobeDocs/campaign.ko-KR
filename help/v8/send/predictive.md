@@ -23,6 +23,7 @@ Adobe Campaign은 두 가지 새로운 머신 러닝 모델을 제공합니다. 
 >이 기능은 제품의 일부로 기본 제공되지 않습니다. Adobe Campaign Classic v7 또는 Adobe Campaign v8을 실행하는 Adobe Campaign Managed Cloud Services 고객에게만 제공됩니다.
 >
 >구현하려면 Adobe Consulting 서비스가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>
 
 
 ## 예측 전송 시간 최적화{#predictive-send}
@@ -64,6 +65,7 @@ Adobe Campaign은 두 가지 새로운 머신 러닝 모델을 제공합니다. 
 >[!NOTE]
 >
 >모델은 유효한 결과를 얻으려면 적어도 한 달의 데이터가 필요합니다. 이러한 예측 기능은 이메일 및 푸시 채널에만 적용됩니다.
+>
 
 
 ## 예측 참여 점수 책정 {#predictive-scoring}

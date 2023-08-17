@@ -27,4 +27,4 @@ ht-degree: 0%
 * **[테스트](test.md)**: 테스트 결과를 기반으로 전환을 활성화합니다.
 * **[시간 제한](time-constraint.md)**: 일정 기간 동안 작업을 일시 중지할 수 있습니다.
 * **[대기](wait.md)**: 주어진 시간 제한 후 아웃바운드 전환을 활성화합니다.
-   <!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->
+  <!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->

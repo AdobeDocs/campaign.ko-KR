@@ -34,13 +34,13 @@ Campaign은 각 인스턴스가 전체 Campaign 환경을 나타내는 개별 �
 
 * **Campaign FDA [!DNL Snowflake] 배포**
 
-   의 [[!DNL Snowflake] FDA 배포](fda-deployment.md), [!DNL Adobe Campaign] v8이 (으)로 연결되어 있습니다. [!DNL Snowflake] Federated Data Access 기능을 통해 데이터에 액세스하려면에 저장된 외부 데이터 및 정보에 액세스하고 이를 처리할 수 있습니다. [!DNL Snowflake] Adobe Campaign 데이터의 구조를 변경하지 않고 데이터베이스를 구축할 수 있습니다. PostgreSQL은 기본 데이터베이스이고 Snowflake은 보조 데이터베이스입니다. 데이터 모델을 확장하고 Snowflake에 데이터를 저장할 수 있습니다. 그런 다음 ETL, 세그먼테이션 및 뛰어난 성능이 포함된 대규모 데이터 세트에 대한 보고서를 실행할 수 있습니다.
+  의 [[!DNL Snowflake] FDA 배포](fda-deployment.md), [!DNL Adobe Campaign] v8이 (으)로 연결되어 있습니다. [!DNL Snowflake] Federated Data Access 기능을 통해 데이터에 액세스하려면에 저장된 외부 데이터 및 정보에 액세스하고 이를 처리할 수 있습니다. [!DNL Snowflake] Adobe Campaign 데이터의 구조를 변경하지 않고 데이터베이스를 구축할 수 있습니다. PostgreSQL은 기본 데이터베이스이고 Snowflake은 보조 데이터베이스입니다. 데이터 모델을 확장하고 Snowflake에 데이터를 저장할 수 있습니다. 그런 다음 ETL, 세그먼테이션 및 뛰어난 성능이 포함된 대규모 데이터 세트에 대한 보고서를 실행할 수 있습니다.
 
 * **Campaign Enterprise(FFDA) 배포**
 
-   의 맥락에서 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md), [!DNL Adobe Campaign] v8은 두 개의 데이터베이스를 사용합니다. 하나는 로컬이고, 다른 하나는 [!DNL Campaign] API 및 클라우드를 통한 사용자 인터페이스 실시간 메시징 및 단일 쿼리 및 쓰기를 위한 데이터베이스 [!DNL Snowflake] 캠페인 실행, 일괄 쿼리 및 워크플로우 실행을 위한 데이터베이스.
+  의 맥락에서 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md), [!DNL Adobe Campaign] v8은 두 개의 데이터베이스를 사용합니다. 하나는 로컬이고, 다른 하나는 [!DNL Campaign] API 및 클라우드를 통한 사용자 인터페이스 실시간 메시징 및 단일 쿼리 및 쓰기를 위한 데이터베이스 [!DNL Snowflake] 캠페인 실행, 일괄 쿼리 및 워크플로우 실행을 위한 데이터베이스.
 
-   Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8 엔터프라이즈(FFDA) 배포는 이 새로운 아키텍처를 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 표를 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
+  Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8 엔터프라이즈(FFDA) 배포는 이 새로운 아키텍처를 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 표를 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
 
 ## 분할 게재 실행 {#split}
 
@@ -97,7 +97,7 @@ Campaign v8 패키지에 따라 게재 실행을 담당하는 특정 수의 중�
 
 * 다음 **컨트롤 인스턴스** (또는 마케팅 인스턴스)는 마케터와 IT 팀이 메시지 템플릿을 만들고 구성하고 게시하는 데 사용됩니다. 또한 이 인스턴스는 이벤트 모니터링 및 내역을 중앙 집중화합니다.
 
-   ![](../assets/do-not-localize/glass.png) 에서 메시지 템플릿을 만들고 게시하는 방법에 대해 알아봅니다. [이 섹션](../send/transactional.md).
+  ![](../assets/do-not-localize/glass.png) 에서 메시지 템플릿을 만들고 게시하는 방법에 대해 알아봅니다. [이 섹션](../send/transactional.md).
 
 * 다음 **실행 인스턴스** 들어오는 이벤트(예: 암호 재설정 또는 웹 사이트의 주문)를 검색하고 개인화된 메시지를 전송합니다. 로드 밸런서를 통해 메시지를 처리하고 최대 가용성을 위해 처리할 이벤트 수를 확장하기 위한 실행 인스턴스가 두 개 이상 있을 수 있습니다.
 

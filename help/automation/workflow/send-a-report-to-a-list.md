@@ -49,25 +49,25 @@ ht-degree: 3%
 
    * 다음을 클릭합니다. **[!UICONTROL Attachments]** 링크를 클릭하고 옆에 있는 화살표를 클릭합니다 **[!UICONTROL Add]** 단추를 클릭합니다. **[!UICONTROL Calculated attachment...]**&#x200B;을(를) 선택합니다.
 
-      ![](assets/use_case_report_4.png)
+     ![](assets/use_case_report_4.png)
 
    * 다음에서 **[!UICONTROL Type]** 드롭다운 목록에서 최신 옵션을 선택합니다. **[!UICONTROL File name is computed during delivery of each message (it may then depend on the recipient profile)]**.
 
-      ![](assets/use_case_report_5.png)
+     ![](assets/use_case_report_5.png)
 
-      에 입력한 값 **[!UICONTROL Label]** 최종 게재에는 필드가 표시되지 않습니다.
+     에 입력한 값 **[!UICONTROL Label]** 최종 게재에는 필드가 표시되지 않습니다.
 
    * 텍스트 영역에 파일의 액세스 경로와 이름을 입력합니다.
 
-      ![](assets/use_case_report_6.png)
+     ![](assets/use_case_report_6.png)
 
-      >[!CAUTION]
-      >
-      >경로 및 이름은 다음에 입력한 것과 동일해야 합니다 **[!UICONTROL JavaScript code]** 에 설명된 대로 워크플로우의 활동을 입력합니다. [3단계: 워크플로우 만들기](#step-3--creating-the-workflow).
+     >[!CAUTION]
+     >
+     >경로 및 이름은 다음에 입력한 것과 동일해야 합니다 **[!UICONTROL JavaScript code]** 에 설명된 대로 워크플로우의 활동을 입력합니다. [3단계: 워크플로우 만들기](#step-3--creating-the-workflow).
 
    * 다음 항목 선택 **[!UICONTROL Advanced]** tab 키 및 check **[!UICONTROL Script the name of the file name displayed in the mails sent]**. 텍스트 영역에 최종 게재에 있는 첨부 파일의 이름을 입력합니다.
 
-      ![](assets/use_case_report_6b.png)
+     ![](assets/use_case_report_6b.png)
 
 ## 3단계: 워크플로우 만들기 {#step-3--creating-the-workflow}
 
@@ -117,9 +117,9 @@ ht-degree: 3%
    * **var reportName**: 보고서의 내부 이름을 큰따옴표로 입력하십시오. 이 경우 의 내부 이름 **추적 표시기** 보고서는 &quot;deliveryFeedback&quot;입니다.
    * **var 경로**: 파일의 저장 경로(&quot;tmp&quot;), 파일에 지정할 이름(&quot;deliveryFeedback&quot;) 및 파일 확장자(&quot;.pdf&quot;)를 입력합니다. 이 경우 파일 이름으로 내부 이름을 사용했습니다. 값은 큰따옴표 사이여야 하며 &quot;+&quot; 문자로 구분해야 합니다.
 
-      >[!CAUTION]
-      >
-      >파일을 서버에 저장해야 합니다. 과 동일한 경로와 이름을 입력해야 합니다. **[!UICONTROL General]** 계산된 첨부 파일의 편집 창 탭(자세히 표시) [여기](#step-2--create-the-delivery-template)).
+     >[!CAUTION]
+     >
+     >파일을 서버에 저장해야 합니다. 과 동일한 경로와 이름을 입력해야 합니다. **[!UICONTROL General]** 계산된 첨부 파일의 편집 창 탭(자세히 표시) [여기](#step-2--create-the-delivery-template)).
 
    * **var exportFormat**: 파일의 내보내기 형식(&quot;PDF&quot;)을 입력합니다.
    * **var _ctx** (컨텍스트): 이 경우 **[!UICONTROL Tracking indicators]** 전역 컨텍스트에서 보고합니다.

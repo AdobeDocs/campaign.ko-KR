@@ -65,7 +65,7 @@ ht-degree: 9%
 
      이미지 또는 텍스트를 통해 게재 수신자를 외부 주소로 보내려면 해당 주소를 선택하고 **[!UICONTROL Add a link]** 아이콘을 클릭합니다.
 
-     에 링크의 URL을 입력합니다 **URL** 다음 형식을 사용하는 필드 **https://www.myURL.com**&#x200B;를 클릭한 다음 확인합니다.
+     에 링크의 URL을 입력합니다. **URL** 다음 형식을 사용하는 필드 **https://www.myURL.com**&#x200B;를 클릭한 다음 확인합니다.
 
      ![](assets/add-a-link.png)
 

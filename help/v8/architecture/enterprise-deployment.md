@@ -33,6 +33,7 @@ Campaign v8 Enterprise(FFDA)는 타깃팅에서 최종 보고에 이르기까지
 >[!CAUTION]
 >
 > 고객 데이터는 [!DNL Campaign] 로컬 데이터베이스에 저장되지 않습니다. 따라서 모든 사용자 정의 테이블을 클라우드 데이터베이스에서 만들어야 합니다.
+>
 
 ## Campaign Enterprise(FFDA) 아키텍처{#ffda-archi}
 
@@ -64,7 +65,7 @@ Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입�
 * 게재 및 캠페인 설정, 워크플로우 및 서비스 정의를 포함하여 모든 캠페인 데이터를 저장합니다.
 * 모든 기본 제공 참조 테이블(열거형, 국가 등) 저장 복제됩니다. [!DNL Snowflake].
 
-   단, 다음과 같은 작업은 수행할 수 없습니다.
+  단, 다음과 같은 작업은 수행할 수 없습니다.
    * 고객 데이터에 대한 사용자 정의를 만듭니다. 예를 들어 PostgreSQL에서 가정용 테이블을 만들지 않고 Snowflake에서만 가정용 테이블을 만듭니다
    * 게재 로그, 추적 로그 등을 저장합니다. FFDA 타겟팅 차원에서.
    * 대량의 데이터를 저장합니다.
@@ -100,6 +101,7 @@ Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입�
 >
 > 테이블 크기(XS, XL 등)에 따라 여러 복제 정책이 생성되었습니다.
 > 일부 테이블은 실시간으로 복제되고 다른 테이블은 시간별로 복제됩니다. 일부 테이블에는 증분 업데이트가 적용되고 다른 테이블에는 전체 업데이트가 적용됩니다.
+>
 
 [데이터 복제 자세히 알아보기](replication.md)
 

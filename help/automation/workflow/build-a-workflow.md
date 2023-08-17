@@ -19,7 +19,7 @@ ht-degree: 4%
 
 * 만들기 [타겟팅 워크플로우](#targeting-workflows) 다음에서 **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** Explorer의 노드 또는 **[!UICONTROL Profiles and Targets]** 을 통해 홈 페이지의 탭 **[!UICONTROL Targeting workflows]** 하위 탭.
 
-   ![](assets/create-targeting-wf.png)
+  ![](assets/create-targeting-wf.png)
 
 * 만들기 [캠페인 워크플로우](#campaign-workflows) 다음에서 **[!UICONTROL Targeting and workflows]** 캠페인의 탭
 
@@ -74,28 +74,28 @@ ht-degree: 4%
 
 * **도구 모음 사용**
 
-   다이어그램 편집 도구 모음을 사용하면 워크플로우의 레이아웃 및 실행 기능에 액세스할 수 있습니다.
+  다이어그램 편집 도구 모음을 사용하면 워크플로우의 레이아웃 및 실행 기능에 액세스할 수 있습니다.
 
-   ![](assets/wf-toolbar.png)
+  ![](assets/wf-toolbar.png)
 
-   이렇게 하면 팔레트 표시와 그래픽 객체의 개요, 크기 및 정렬과 같은 편집 도구의 레이아웃을 조정할 수 있습니다.
+  이렇게 하면 팔레트 표시와 그래픽 객체의 개요, 크기 및 정렬과 같은 편집 도구의 레이아웃을 조정할 수 있습니다.
 
-   ![](assets/s_user_segmentation_toolbar.png)
+  ![](assets/s_user_segmentation_toolbar.png)
 
-   진행률 및 로그 표시와 관련된 아이콘은 다음 섹션에 자세히 설명되어 있습니다.
+  진행률 및 로그 표시와 관련된 아이콘은 다음 섹션에 자세히 설명되어 있습니다.
 
    * [진행 상황 표시](monitor-workflow-execution.md#displaying-progress)
    * [로그 표시](monitor-workflow-execution.md#displaying-logs)
 
 * **개체 정렬**
 
-   아이콘을 정렬하려면 아이콘을 선택하고 **[!UICONTROL Align vertically]** 또는 **[!UICONTROL Align horizontally]** 아이콘.
+  아이콘을 정렬하려면 아이콘을 선택하고 **[!UICONTROL Align vertically]** 또는 **[!UICONTROL Align horizontally]** 아이콘.
 
-   사용 **CTRL** 키를 눌러 여러 분산 활동을 선택하거나 하나 이상의 활동을 선택 해제합니다. 다이어그램 배경을 클릭하여 모든 항목을 선택 취소합니다.
+  사용 **CTRL** 키를 눌러 여러 분산 활동을 선택하거나 하나 이상의 활동을 선택 해제합니다. 다이어그램 배경을 클릭하여 모든 항목을 선택 취소합니다.
 
 * **이미지 관리**
 
-   다이어그램의 배경 이미지와 다양한 활동과 관련된 배경 이미지를 사용자 지정할 수 있습니다. 을(를) 참조하십시오 [활동 이미지 변경](change-activity-images.md).
+  다이어그램의 배경 이미지와 다양한 활동과 관련된 배경 이미지를 사용자 지정할 수 있습니다. 을(를) 참조하십시오 [활동 이미지 변경](change-activity-images.md).
 
 ## 활동 구성 {#configure-activities}
 

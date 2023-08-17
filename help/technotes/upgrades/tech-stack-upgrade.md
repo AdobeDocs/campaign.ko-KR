@@ -16,13 +16,14 @@ ht-degree: 11%
 
 Campaign 인프라는 최신 버전 및 수정 사항으로 정기적으로 업데이트해야 하는 서드파티 시스템을 사용합니다. 이러한 업데이트는 서비스의 연속성을 보장하고 보안 위험으로부터 Campaign 환경을 보호하기 위해 필수입니다. 또한 서드파티 시스템 변경 사항과의 호환성을 보장하려면 Campaign을 업그레이드해야 합니다.
 
-로서의 **관리되는 Cloud Services 고객**, Adobe은 이러한 업그레이드가 필요할 때 사용자에게 알려 줍니다. 규정 준수를 보장하려면 권장 사항에 따라 환경을 업그레이드해야 합니다.
+로서의 **관리되는 Cloud Service 고객**, Adobe은 이러한 업그레이드가 필요할 때 사용자에게 알려 줍니다. 규정 준수를 보장하려면 권장 사항에 따라 환경을 업그레이드해야 합니다.
 
 보안상의 이유로 Adobe은 [최신 Campaign 빌드 설치](#ac-upgrade)을 클릭한 다음 을(를) 업그레이드하십시오 [운영 체제](#os-upgrade) 및/또는 사용자 [RDBMS(관계 데이터베이스 관리 시스템)](#pg-upgrade).
 
 >[!NOTE]
 >
 >이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+>
 
 ## Campaign 빌드 업그레이드 {#ac-upgrade}
 
@@ -32,7 +33,7 @@ Campaign 인프라는 최신 버전 및 수정 사항으로 정기적으로 업�
 
 **업데이트 방법**
 
-관리 Cloud Services 고객은 Adobe에게 연락하여 Campaign 버전을 업그레이드합니다.
+관리 Cloud Service 고객은 Adobe에게 연락하여 Campaign 버전을 업그레이드합니다.
 
 ## 운영 체제 업그레이드 {#os-upgrade}
 
@@ -42,7 +43,7 @@ Campaign 인프라는 최신 버전 및 수정 사항으로 정기적으로 업�
 
 **업데이트 방법**
 
-관리 Cloud Services 고객은 Adobe에게 연락하여 환경을 업그레이드합니다.
+관리 Cloud Service 고객은 Adobe에게 연락하여 환경을 업그레이드합니다.
 
 ## 데이터베이스 시스템 업그레이드 {#pg-upgrade}
 
@@ -52,4 +53,4 @@ Campaign용 데이터베이스 시스템이 PostgreSQL인 경우 최신 PostgreS
 
 **업데이트 방법**
 
-관리 Cloud Services 고객은 Adobe에게 연락하여 데이터베이스 시스템을 PostgreSQL 11에서 PostgreSQL 14로 업그레이드합니다.
+관리 Cloud Service 고객은 Adobe에게 연락하여 데이터베이스 시스템을 PostgreSQL 11에서 PostgreSQL 14로 업그레이드합니다.

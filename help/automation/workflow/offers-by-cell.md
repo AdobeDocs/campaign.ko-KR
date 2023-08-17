@@ -28,6 +28,6 @@ ht-degree: 7%
    * 사용 가능한 필터링 및 제한 규칙을 사용하여 하위 집합 모집단을 지정합니다.
    * 그런 다음 하위 세트에 제공할 오퍼를 선택합니다. 사용 가능한 오퍼는 이전 단계에서 선택한 오퍼 공간에 적합한 오퍼입니다.
 
-      ![](assets/int_offer_per_cell1.png)
+     ![](assets/int_offer_per_cell1.png)
 
 1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. 을(를) 참조하십시오 [크로스 채널 게재](cross-channel-deliveries.md).

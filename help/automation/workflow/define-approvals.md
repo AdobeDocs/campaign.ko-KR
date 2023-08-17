@@ -84,15 +84,15 @@ ht-degree: 4%
 * **지정된 날짜 이전으로 지연**: 만료는 지정한 날짜에서 시간을 빼서 계산됩니다.
 * **스크립트로 계산된 만료**: 만료는 JavaScript를 사용하여 계산됩니다.
 
-   다음 예제에서는 게재가 시작되기 24시간 전에 만료를 계산합니다( 로 식별됨). **vars.deliveryId**):
+  다음 예제에서는 게재가 시작되기 24시간 전에 만료를 계산합니다( 로 식별됨). **vars.deliveryId**):
 
-   ```
-   var delivery = nms.delivery.get(vars.deliveryId)
-   var expiration = delivery.scheduling.contactDate
-   var oneDay = 1000*60*60*24
-   expiration.setTime(expiration.getTime() - oneDay)
-   return expiration
-   ```
+  ```
+  var delivery = nms.delivery.get(vars.deliveryId)
+  var expiration = delivery.scheduling.contactDate
+  var oneDay = 1000*60*60*24
+  expiration.setTime(expiration.getTime() - oneDay)
+  return expiration
+  ```
 
 ## 여러 승인 {#multiple-approval}
 

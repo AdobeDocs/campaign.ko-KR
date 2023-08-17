@@ -133,7 +133,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
   </tr> 
   <tr> 
    <td> 게재 요약(deliveryStatistics)<br /> </td> 
-   <td> 선택한 게재에 대한 요약 테이블: Target, 제외 및 보낸 메시지.<br /> </td> 
+   <td> 선택한 게재에 대한 요약 테이블: 타겟, 제외 및 보낸 메시지.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
@@ -202,7 +202,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
   </tr> 
   <tr> 
    <td> 게재 요약(operationStatistics)<br /> </td> 
-   <td> 캠페인 게재의 요약 차트(Target, 제외 및 보낸 메시지).<br /> </td> 
+   <td> 캠페인 게재의 요약 차트(타겟, 제외 및 보낸 메시지).<br /> </td> 
   </tr> 
   <tr> 
    <td> URL 및 클릭 처리량(operationTopUrlDelivery)<br /> </td> 

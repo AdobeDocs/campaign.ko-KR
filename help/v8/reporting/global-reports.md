@@ -51,6 +51,7 @@ ht-degree: 8%
 >를 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다. [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html).
 >
 >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
+>
 
 ## 사용자 활동 {#user-activities}
 
@@ -94,11 +95,11 @@ ht-degree: 8%
 * **[!UICONTROL Unreachable]** : 메시지 배포 문자열에서 발생하는 오류 유형: SMTP 릴레이 장애, 일시적으로 도메인에 연결할 수 없음 등
 * **[!UICONTROL Not connected]** : 전송 시 수신자의 휴대폰이 꺼져 있거나 네트워크에서 연결이 끊겼음을 나타내는 오류 유형입니다.
 
-   >[!NOTE]
-   >
-   >이 표시기는 의 게재와 관련이 있습니다. [모바일 채널](../send/send.md) 만 해당.
+  >[!NOTE]
+  >
+  >이 표시기는 의 게재와 관련이 있습니다. [모바일 채널](../send/send.md) 만 해당.
 
-   다음을 눌러 값 테이블의 각 행을 열 수 있습니다. `[+]` 기호. 각 오류 유형에 대해 도메인별 오류 메시지 분류를 표시할 수 있습니다.
+  다음을 눌러 값 테이블의 각 행을 열 수 있습니다. `[+]` 기호. 각 오류 유형에 대해 도메인별 오류 메시지 분류를 표시할 수 있습니다.
 
 **[!UICONTROL Breakdown of errors per domain]**
 
@@ -284,15 +285,15 @@ The following indicators are used:
 * **[!UICONTROL Hard bounces]** : 처리된 총 메시지 수 대비 &quot;하드&quot; 바운스 수의 백분율입니다.
 * **[!UICONTROL Soft bounces]** : 처리된 총 메시지 수 대비 &quot;소프트&quot; 바운스 수의 백분율입니다.
 
-   >[!NOTE]
-   >
-   >하드 및 소프트 바운스에 대한 자세한 내용은 [이 페이지](../send/quarantines.md).
+  >[!NOTE]
+  >
+  >하드 및 소프트 바운스에 대한 자세한 내용은 [이 페이지](../send/quarantines.md).
 
 * **[!UICONTROL Opens]** : 성공적으로 처리된 메시지 수와 비교하여 메시지를 한 번 이상 연 타겟팅된 수신자 수의 백분율입니다.
 * **[!UICONTROL Clicks]** : 성공적으로 처리된 메시지 수와 비교하여 게재를 한 번 이상 클릭한 사람 수의 백분율입니다.
 * **[!UICONTROL Unsubscription]** : 성공적으로 처리된 메시지 수와 비교한 구독 취소 링크의 클릭 수의 백분율입니다.
 
-## 열람 분류 {#breakdown-of-opens}
+## 열람수 분류 {#breakdown-of-opens}
 
 이 보고서는 해당 기간에 대한 운영 체제, 장치 및 브라우저별 열기 분석을 보여 줍니다. 각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째 차트에는 모바일 디바이스에서의 열람과 관련된 통계만 표시됩니다.
 

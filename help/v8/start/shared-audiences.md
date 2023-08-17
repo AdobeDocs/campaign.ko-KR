@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: c4d30771-db5e-40be-8af6-50f0fab9f9af
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 100%
 
@@ -32,11 +32,11 @@ ht-degree: 100%
 * **방문자 ID**: 이 유형의 식별자는 Adobe Experience Cloud 방문자를 Adobe Campaign 수신자와 조정합니다.
 * **선언 ID**: 이 유형의 식별자는 모든 유형의 데이터를 Adobe Campaign 데이터베이스의 요소와 조정합니다. Adobe Campaign에서는 사전 정의된 조정 키로 표시됩니다.
 
-   >[!NOTE]
-   >
-   > 선언된 ID 데이터 소스는 People 핵심 서비스 통합에도 사용할 수 있습니다.
-   >
-   >People 핵심 서비스 통합을 사용 중이고 Audience Manager 통합을 추가하려면 Adobe Audience Manager 컨설턴트의 도움이 필요합니다. 도움을 통해 Adobe Audience Manage 컨텍스트에서 선언 ID 데이터 소스를 사용하여 전환할 때 수집된 모든 ID 동기화를 손실되지 않도록 할 수 있습니다.
+  >[!NOTE]
+  >
+  > 선언된 ID 데이터 소스는 People 핵심 서비스 통합에도 사용할 수 있습니다.
+  >
+  >People 핵심 서비스 통합을 사용 중이고 Audience Manager 통합을 추가하려면 Adobe Audience Manager 컨설턴트의 도움이 필요합니다. 도움을 통해 Adobe Audience Manage 컨텍스트에서 선언 ID 데이터 소스를 사용하여 전환할 때 수집된 모든 ID 동기화를 손실되지 않도록 할 수 있습니다.
 
 보기:
 

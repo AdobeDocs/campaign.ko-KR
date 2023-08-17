@@ -24,15 +24,15 @@ ht-degree: 4%
 
 * 오퍼 수준에서 **[!UICONTROL Edit]** 탭을 클릭하고 **[!UICONTROL Propositions]**.
 
-   ![](assets/offer_followup_006.png)
+  ![](assets/offer_followup_006.png)
 
 * 수신자 프로필에서 **[!UICONTROL Propositions]** 탭.
 
-   ![](assets/offer_followup_002.png)
+  ![](assets/offer_followup_002.png)
 
 * 오퍼 공간 수준에서 **[!UICONTROL Propositions]** 탭.
 
-   ![](assets/offer_space_prop_001_b.png)
+  ![](assets/offer_space_prop_001_b.png)
 
 ## 오퍼 분석 보고서{#offer-analysis-report}
 
@@ -42,14 +42,14 @@ ht-degree: 4%
 
 * 날짜별:
 
-   ![](assets/offer_report_perdate.png)
+  ![](assets/offer_report_perdate.png)
 
 * 스페이스별:
 
-   ![](assets/offer_report_perspaces.png)
+  ![](assets/offer_report_perspaces.png)
 
 * 게재별:
 
-   ![](assets/offer_report_perdeliveries.png)
+  ![](assets/offer_report_perdeliveries.png)
 
 데이터는 보고서의 상단 섹션에서 사용할 수 있는 다양한 기준을 기반으로 필터링할 수 있습니다. 원하는 기준을 선택한 후 **[!UICONTROL Refresh]** 링크를 클릭하여 보고서에 적용합니다.

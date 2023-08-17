@@ -6,7 +6,7 @@ role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 100%
 
@@ -38,11 +38,11 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호법 및 수�
 
 * **데이터 수집**: Adobe Campaign을 사용하면 개인 및 중요 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다.
 
-   자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#data-acquisition)를 참조하세요{target="_blank"}
+  자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#data-acquisition)를 참조하세요{target="_blank"}
 
 * **사용자 동의 및 데이터 보유**: 사용자 동의를 받고, 이중 옵트인 구독 메커니즘을 설정하고, 쉽게 옵트아웃할 수 있도록 하고, 데이터 유지 조건을 구성해야 합니다.
 
-   [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#consent){target="_blank"}에서 자세히 알아보기
+  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#consent){target="_blank"}에서 자세히 알아보기
 
 * **개인 정보 보호 및 데이터 보호 규정**: 개인 정보 보호 요구 사항 및 이러한 규정이 조직과 Adobe Campaign에 미치는 영향에 대한 정보를 알아보려면 [이 섹션](privacy.md)을 참조하세요.
 

@@ -6,7 +6,7 @@ feature: Workflows
 source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 8%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">일괄 처리 이벤트 처리 중</span> <br /> </td> 
+   <td> <span class="uicontrol">일괄 이벤트 처리 중</span> <br /> </td> 
    <td> <span class="uicontrol">batchEventsProcessing</span> <br /> </td> 
    <td> 이 워크플로우를 사용하면 메시지 템플릿과 연결하기 전에 일괄 처리 이벤트를 대기열에 넣을 수 있습니다. <br /> </td> 
   </tr> 

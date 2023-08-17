@@ -27,11 +27,11 @@ A **게재 제어**-type 작업을 사용하여 게재를 시작, 일시 중지 
 
 * **[!UICONTROL Generate an outbound transition]**
 
-   실행 종료 시 활성화될 아웃바운드 전환을 만듭니다. 아웃바운드 게재의 타겟을 검색할지 여부를 선택할 수 있습니다.
+  실행 종료 시 활성화될 아웃바운드 전환을 만듭니다. 아웃바운드 게재의 타겟을 검색할지 여부를 선택할 수 있습니다.
 
 * **[!UICONTROL Processing errors]**
 
-   을(를) 참조하십시오 [처리 오류](monitor-workflow-execution.md#processing-errors).
+  을(를) 참조하십시오 [처리 오류](monitor-workflow-execution.md#processing-errors).
 
 ## 입력 매개 변수 {#input-parameters}
 

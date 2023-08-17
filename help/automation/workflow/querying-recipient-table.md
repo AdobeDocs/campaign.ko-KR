@@ -19,19 +19,19 @@ ht-degree: 3%
 
 * 어떤 테이블을 선택해야 할까요?
 
-   수신자 테이블(nms:recipient)
+  수신자 테이블(nms:recipient)
 
 * 출력 열로 선택할 필드
 
-   이메일, 이름, 도시 및 계정 번호
+  이메일, 이름, 도시 및 계정 번호
 
 * 수신자의 필터링 조건은 무엇입니까?
 
-   구/군/시 및 이메일 도메인
+  구/군/시 및 이메일 도메인
 
 * 정렬이 구성되었습니까?
 
-   예, 기준 **[!UICONTROL Account number]** 및 **[!UICONTROL Last name]**
+  예, 기준 **[!UICONTROL Account number]** 및 **[!UICONTROL Last name]**
 
 이 예제를 만들려면 다음 단계를 적용합니다.
 

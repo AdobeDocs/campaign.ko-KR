@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * **readAccess**: 스키마 데이터에 대한 읽기 전용 액세스를 제공합니다.
 
-   **경고** - 연결된 모든 테이블은 동일한 제한으로 설정해야 합니다. 이 구성은 성능에 영향을 줄 수 있습니다.
+  **경고** - 연결된 모든 테이블은 동일한 제한으로 설정해야 합니다. 이 구성은 성능에 영향을 줄 수 있습니다.
 
 * **writeAccess**: 스키마 데이터에 대한 쓰기 액세스 권한을 제공합니다.
 
@@ -32,29 +32,29 @@ ht-degree: 0%
 
 * 쓰기 권한 제한
 
-   여기서 필터는 ADMINISTRATION 권한이 없는 연산자에 대해 스키마에 대한 WRITE 권한을 허용하지 않는 데 사용됩니다. 즉, 관리자만 이 스키마에서 설명한 엔티티에 대한 쓰기 권한을 갖습니다.
+  여기서 필터는 ADMINISTRATION 권한이 없는 연산자에 대해 스키마에 대한 WRITE 권한을 허용하지 않는 데 사용됩니다. 즉, 관리자만 이 스키마에서 설명한 엔티티에 대한 쓰기 권한을 갖습니다.
 
-   ```
-   <sysFilter name="writeAccess">      
-    <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="writeAccess">      
+   <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
+  </sysFilter>
+  ```
 
 * 읽기 및 쓰기 권한 제한:
 
-   여기서 필터는 모든 연산자에 대해 스키마에 대한 읽기 및 쓰기 권한을 모두 허용하지 않는 데 사용됩니다. 만 **내부** 계정, 표현식 &quot;$(loginId)!=0&quot;에는 이러한 권한이 있습니다.
+  여기서 필터는 모든 연산자에 대해 스키마에 대한 읽기 및 쓰기 권한을 모두 허용하지 않는 데 사용됩니다. 만 **내부** 계정, 표현식 &quot;$(loginId)!=0&quot;에는 이러한 권한이 있습니다.
 
-   ```
-   <sysFilter name="readAccess"> 
-    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
-   </sysFilter>
-   
-   <sysFilter name="writeAccess">  
-    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="readAccess"> 
+   <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
+  </sysFilter>
+  
+  <sysFilter name="writeAccess">  
+   <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
+  </sysFilter>
+  ```
 
-   가능 **expr** 조건을 정의하는 데 사용되는 속성 값은 TRUE 또는 FALSE입니다.
+  가능 **expr** 조건을 정의하는 데 사용되는 속성 값은 TRUE 또는 FALSE입니다.
 
 >[!NOTE]
 >

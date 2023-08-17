@@ -112,9 +112,9 @@ ht-degree: 1%
 
 * 각 **`<element>`** 및 **`<attribute>`** 은(는) 다음을 통해 이름으로 식별되어야 합니다. **이름** 특성.
 
-   >[!CAUTION]
-   >
-   >요소의 이름은 간결해야 하며, 가급적 영어로 작성해야 하고, XML 이름 지정 규칙에 따라 승인된 문자만 포함해야 합니다.
+  >[!CAUTION]
+  >
+  >요소의 이름은 간결해야 하며, 가급적 영어로 작성해야 하고, XML 이름 지정 규칙에 따라 승인된 문자만 포함해야 합니다.
 
 * 전용 **`<element>`** 요소는 다음을 포함할 수 있습니다. **`<attribute>`** 요소 및 **`<element>`** 요소를 XML 구조로 만듭니다.
 * An **`<attribute>`** 요소는 다음 내에서 고유한 이름을 가져야 합니다. **`<element>`**.
@@ -132,7 +132,7 @@ ht-degree: 1%
 
 * **문자열**: 문자열. 예: 이름, 마을 등
 
-   크기는 다음을 통해 지정할 수 있습니다 **length** attribute(선택 사항, 기본값 &quot;255&quot;).
+  크기는 다음을 통해 지정할 수 있습니다 **length** attribute(선택 사항, 기본값 &quot;255&quot;).
 
 * **부울**: 부울 필드. 가능한 값의 예: true/false, 0/1, yes/no 등.
 * **바이트**, **짧음**, **길게**: 정수(1바이트, 2바이트, 4바이트). 예: 나이, 계정 번호, 포인트 수 등
@@ -143,9 +143,9 @@ ht-degree: 1%
 * **메모**: 긴 텍스트 필드(여러 줄). 예: 설명, 주석 등
 * **uuid**: &quot;uniqueidentifier&quot; 필드
 
-   >[!NOTE]
-   >
-   >포함 **uuid** 필드에서는 &quot;newuuid()&quot; 함수를 추가하고 기본값으로 완료해야 합니다.
+  >[!NOTE]
+  >
+  >포함 **uuid** 필드에서는 &quot;newuuid()&quot; 함수를 추가하고 기본값으로 완료해야 합니다.
 
 다음은 입력한 유형이 포함된 예제 스키마입니다.
 
@@ -170,33 +170,33 @@ ht-degree: 1%
 
 * 다음 **레이블** 속성을 사용하면 간단한 설명을 입력할 수 있습니다.
 
-   >[!NOTE]
-   >
-   >레이블은 인스턴스의 현재 언어와 연결됩니다.
+  >[!NOTE]
+  >
+  >레이블은 인스턴스의 현재 언어와 연결됩니다.
 
-   **예제**:
+  **예제**:
 
-   ```
-   <attribute name="email" type="string" length="80" label="Email"/>
-   ```
+  ```
+  <attribute name="email" type="string" length="80" label="Email"/>
+  ```
 
-   레이블은 Adobe Campaign 클라이언트 콘솔 입력 양식에서 볼 수 있습니다.
+  레이블은 Adobe Campaign 클라이언트 콘솔 입력 양식에서 볼 수 있습니다.
 
-   ![](assets/schema_label.png)
+  ![](assets/schema_label.png)
 
 * 다음 **desc** 속성을 사용하면 긴 설명을 입력할 수 있습니다.
 
-   설명은 Adobe Campaign 클라이언트 콘솔 주 창의 상태 표시줄에 있는 입력 양식에서 볼 수 있습니다.
+  설명은 Adobe Campaign 클라이언트 콘솔 주 창의 상태 표시줄에 있는 입력 양식에서 볼 수 있습니다.
 
-   >[!NOTE]
-   >
-   >설명은 인스턴스의 현재 언어와 연결됩니다.
+  >[!NOTE]
+  >
+  >설명은 인스턴스의 현재 언어와 연결됩니다.
 
-   **예제**:
+  **예제**:
 
-   ```
-   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
-   ```
+  ```
+  <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
+  ```
 
 ### 기본값 {#default-values}
 
@@ -209,11 +209,11 @@ ht-degree: 1%
 * 현재 날짜: **default=&quot;GetDate()&quot;**
 * 카운터: **default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
 
-   이 예제에서 기본값은 문자열의 연결을 사용하여 생성되며 **카운터 값** 무료 카운터 이름이 있는 함수. 반환되는 숫자는 삽입 시마다 하나씩 증가합니다.
+  이 예제에서 기본값은 문자열의 연결을 사용하여 생성되며 **카운터 값** 무료 카운터 이름이 있는 함수. 반환되는 숫자는 삽입 시마다 하나씩 증가합니다.
 
-   >[!NOTE]
-   >
-   >Adobe Campaign 클라이언트 콘솔에서 **[!UICONTROL Administration>Counters]** 노드는 카운터를 관리하는 데 사용됩니다.
+  >[!NOTE]
+  >
+  >Adobe Campaign 클라이언트 콘솔에서 **[!UICONTROL Administration>Counters]** 노드는 카운터를 관리하는 데 사용됩니다.
 
 필드에 기본값을 연결하려면 `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
@@ -277,13 +277,13 @@ ht-degree: 1%
 
 * 다음 **드베넘** 속성을 사용하면 속성과 유사한 속성을 가진 열거형을 정의할 수 있습니다. **enum** 속성.
 
-   그러나 **이름** 속성은 값을 내부적으로 저장하지 않으며, 관련 테이블을 스키마를 수정하지 않고 확장할 수 있는 코드를 저장합니다.
+  그러나 **이름** 속성은 값을 내부적으로 저장하지 않으며, 관련 테이블을 스키마를 수정하지 않고 확장할 수 있는 코드를 저장합니다.
 
-   값은 다음을 통해 정의됩니다. **[!UICONTROL Administration>Enumerations]** 노드.
+  값은 다음을 통해 정의됩니다. **[!UICONTROL Administration>Enumerations]** 노드.
 
-   예를 들어 이 열거형은 캠페인의 특성을 지정하는 데 사용됩니다.
+  예를 들어 이 열거형은 캠페인의 특성을 지정하는 데 사용됩니다.
 
-   ![](assets/schema_dbenum.png)
+  ![](assets/schema_dbenum.png)
 
 ### 예제 {#example}
 
@@ -352,7 +352,6 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 >* **위치/@city** 은(는) 유효하지 않습니다. 다음을 사용하십시오. **`[location/@city]`**
 >* **`[@email]`** 및 **@email** 등가물
 >
-
 
 다음 산술 연산과 같은 복잡한 표현식을 정의할 수도 있습니다.
 

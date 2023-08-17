@@ -7,7 +7,7 @@ topic-tags: technical-workflows
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 4%
+ht-degree: 15%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 4%
    <td> 이 워크플로우는 마케팅 캠페인(론치 타기팅, 파일 추출 등)에 대한 작업을 관리합니다. 또한 반복 및 정기 캠페인과 관련된 워크플로우를 만듭니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">서비스 공급자의 작업</span> <br /> </td> 
+   <td> <span class="uicontrol">서비스 공급자에 대한 작업</span> <br /> </td> 
    <td> <span class="uicontrol">supplierMgt</span> <br /> </td> 
    <td> 게재가 승인되면 이 워크플로우는 공급자 처리(라우터로의 이메일 전송 및 사후 처리)를 시작합니다. <br /> </td> 
   </tr> 

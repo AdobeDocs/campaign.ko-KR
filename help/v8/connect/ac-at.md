@@ -21,7 +21,7 @@ Campaign과 Target을 연결하여 Adobe Campaign 이메일 게재에 Adobe Targ
 >[!NOTE]
 >통합은 정적 이미지만 지원합니다. 다른 유형의 콘텐츠는 개인화할 수 없습니다.
 
-![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Campaign으로 Experience Cloud 트리거를 구현합니다.
+![](../assets/do-not-localize/speech.png)  관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Campaign으로 Experience Cloud 트리거를 구현합니다.
 
 Adobe Target에서는 다음 유형의 데이터를 사용할 수 있습니다.
 
@@ -61,11 +61,11 @@ Adobe Campaign에서는 Target의 동적 이미지를 이메일에 삽입하는 
 
 * 디지털 콘텐츠 편집기를 사용하는 경우 기존 이미지를 선택하고 을 선택합니다 **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** 을 클릭합니다.
 
-   ![](assets/target_5.png)
+  ![](assets/target_5.png)
 
 * 표준 편집기를 사용하는 경우 이미지를 삽입할 위치에 커서를 놓고 을 선택합니다 **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]** 개인화 드롭다운 메뉴에서 을(를) 선택합니다.
 
-   ![](assets/target_12.png)
+  ![](assets/target_12.png)
 
 그런 다음 이미지 매개 변수를 정의할 수 있습니다.
 
@@ -74,7 +74,7 @@ Adobe Campaign에서는 Target의 동적 이미지를 이메일에 삽입하는 
 * 다음 **[!UICONTROL Landing Page]** 기본 이미지를 기본 랜딩 페이지로 리디렉션할 수 있습니다. 이 URL은 기본 이미지가 최종 이메일에 표시되는 경우에만 적용됩니다. 선택 사항입니다.
 * 다음 **[!UICONTROL Additional decision parameters]**  는 Adobe Target 세그먼트에 정의된 필드와 Adobe Campaign 필드 간의 매핑을 정의합니다. 사용된 Adobe Campaign 필드는 rawbox에 지정했어야 합니다. 이 예제에서는 국가 필드를 추가했습니다.
 
-Adobe Target의 설정에서 Enterprise 권한을 사용하는 경우 이 필드에 해당 속성을 추가합니다. 에서 엔터프라이즈 권한 Target에 대해 자세히 알아보기 [이 페이지](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html#administer).
+Adobe Target의 설정에서 Enterprise 권한을 사용하는 경우 이 필드에 해당 속성을 추가합니다. 에서 Target 엔터프라이즈 권한에 대해 자세히 알아보십시오. [이 페이지](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html#administer).
 
 ![](assets/target_13.png)
 

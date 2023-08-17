@@ -34,7 +34,7 @@ Adobe Campaign에는 캠페인 관리자 또는 워크플로우 감독자와 같
 
 연산자는 콘솔의 프로필에서 보안 영역에 연결되어 있고 **[!UICONTROL Administration > Access management > Operators]** 노드.
 
-![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자는 Adobe이 보안 영역을 설정합니다. 자세한 내용은 [연락처 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+![](../assets/do-not-localize/speech.png)  관리 Cloud Service 사용자는 Adobe이 보안 영역을 설정합니다. 자세한 내용은 [연락처 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 **자세히 알아보기**
 

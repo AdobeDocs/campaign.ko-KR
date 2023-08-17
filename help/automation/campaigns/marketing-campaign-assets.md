@@ -90,11 +90,11 @@ ht-degree: 0%
 * 예를 들어, 여기에서 참조되고 설명되며 게재에 첨부될 실제 문서가 항목일 수 있습니다.
 * 개인화 필드를 사용하면 수신자가 아닌 게재와 관련된 개인화 요소를 만들 수 있습니다. 따라서 특정 대상(환영 오퍼, 할인 등)에 대한 게재에 사용할 값을 만들 수 있습니다. Adobe Campaign에서 만들어지고 를 통해 아웃라인으로 가져옵니다. **[!UICONTROL Import personalization fields...]** 링크를 클릭합니다.
 
-   ![](assets/del-outline-perso-field.png)
+  ![](assets/del-outline-perso-field.png)
 
-   아웃라인에서 직접 생성할 수도 있습니다. **[!UICONTROL Add]** 목록 영역 오른쪽에 있는 아이콘.
+  아웃라인에서 직접 생성할 수도 있습니다. **[!UICONTROL Add]** 목록 영역 오른쪽에 있는 아이콘.
 
-   ![](assets/add-del-outline-button.png)
+  ![](assets/add-del-outline-button.png)
 
 
 ### 윤곽선 선택 {#select-an-outline}

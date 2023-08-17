@@ -22,41 +22,41 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 
 * 수신자 프로필에 서비스를 수동으로 추가: 이렇게 하려면 다음에서 하십시오. **[!UICONTROL Subscriptions]** 프로필 탭, 클릭 **[!UICONTROL Add]** 관련 정보 서비스를 선택합니다.
 
-   ![](assets/subscribe-to-a-service.png)
+  ![](assets/subscribe-to-a-service.png)
 
-   ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}
+  ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}
 
 * 수신자 집합을 서비스에 자동으로 구독합니다. 수신자 목록은 필터링 작업, 그룹, 폴더, 가져오기 또는 직접 수동 선택에서 가져올 수 있습니다. 이러한 수신자를 구독하려면 프로필을 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Actions > Subscribe selection to a service...]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/subscribe-selection.png)
+  ![](assets/subscribe-selection.png)
 
-   관련 서비스를 선택하고 작업을 시작합니다.
+  관련 서비스를 선택하고 작업을 시작합니다.
 
-   ![](assets/subscribe-confirm.png)
+  ![](assets/subscribe-confirm.png)
 
-   ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}
+  ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}
 
 
 * 수신자를 가져와 정보 서비스에 자동으로 가입합니다. 이렇게 하려면 가져오기 마법사의 마지막 단계에서 관련 서비스를 선택합니다.
 
-   ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}
+  ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}
 
 * 수신자가 서비스에 가입할 수 있도록 웹 양식을 사용하십시오.
 
-   ![](assets/opt-in-webapp.png)
+  ![](assets/opt-in-webapp.png)
 
-   Campaign에는 옵트인을 관리할 수 있는 기본 웹 양식이 포함되어 있습니다. 개인화하고 프로필 데이터를 매핑할 수 있습니다.
+  Campaign에는 옵트인을 관리할 수 있는 기본 웹 양식이 포함되어 있습니다. 개인화하고 프로필 데이터를 매핑할 수 있습니다.
 
-   ![](assets/web-app.png)
+  ![](assets/web-app.png)
 
-   ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}
+  ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}
 
 
 * 타겟팅 워크플로우 만들기 및 사용 **[!UICONTROL Subscription service]** 활동.
 
-   ![](assets/wf-subscription.png)
+  ![](assets/wf-subscription.png)
 
-   [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html)에서 자세히 알아보십시오.
+  [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html)에서 자세히 알아보십시오.
 
 서비스에서 프로필 구독을 취소(옵트아웃)하려면 사용 가능한 옵션은 다음과 같습니다.
 

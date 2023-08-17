@@ -29,7 +29,7 @@ ht-degree: 4%
 * **[!UICONTROL Replicate Staging data]**
 이 워크플로우는 단일 호출에 대한 스테이징 데이터를 복제합니다. 매시간, 매일 실행되도록 예약되어 있습니다.
 * **[!UICONTROL Deploy FFDA immediately]**\
-   이 워크플로우는 클라우드 데이터베이스에 대한 즉각적인 배포를 수행합니다.
+  이 워크플로우는 클라우드 데이터베이스에 대한 즉각적인 배포를 수행합니다.
 * **[!UICONTROL Replicate FFDA data immediately]**
 이 워크플로우는 지정된 외부 계정에 대한 XS 데이터를 복제합니다.
 

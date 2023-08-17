@@ -168,7 +168,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 >[!NOTE]
 >
->다음 **%** 모든 문자열은 문자로 바뀝니다. 예를 들어 다음을 입력합니다. `%@gmail.com` 이메일 필드에 Gmail 주소가 있는 모든 프로필을 표시합니다. 입력 `%@L` 을 눌러 성에 L이 있는 모든 프로필을 표시합니다.
+>다음 **%** 모든 문자열은 문자로 바뀝니다. 예를 들어, 을 입력합니다. `%@gmail.com` 이메일 필드에 Gmail 주소가 있는 모든 프로필을 표시합니다. 입력 `%@L` 을 눌러 성에 L이 있는 모든 프로필을 표시합니다.
 
 수신자 목록에 대한 기본 필터를 변경하려면 **[!UICONTROL Profiles and Targets > Predefined filters]** 노드.
 
@@ -339,7 +339,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 * 이 문서 유형을 기반으로 하는 모든 목록에 대한 필터를 기본적으로 표시하려면 **[!UICONTROL Default filter for the associated document type]** 옵션을 선택합니다.
 
-   예를 들어 **[!UICONTROL By name or login]** 필터가 연산자에 적용됩니다. 이 옵션이 선택되어 있으므로 필터는 항상 모든 연산자 목록에 표시됩니다.
+  예를 들어 **[!UICONTROL By name or login]** 필터가 연산자에 적용됩니다. 이 옵션이 선택되어 있으므로 필터는 항상 모든 연산자 목록에 표시됩니다.
 
 * 모든 Campaign 연산자가 필터를 사용할 수 있도록 하려면 다음을 선택합니다.  **[!UICONTROL Filter shared with other operators]** 옵션을 선택합니다.
 

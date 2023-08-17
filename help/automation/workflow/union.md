@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 결합
+title: 합집합
 description: 결합 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity
 exl-id: 4109e198-bf9d-4dd2-92a1-16bbadbe30e8
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 ---
 
-# 결합{#union}
+# 합집합{#union}
 
 A **[!UICONTROL Union]** 여러 인바운드 활동의 결과를 하나의 타겟으로 그룹화합니다. 수신된 모든 결과와 함께 대상이 생성됩니다. 따라서 조합을 실행하려면 모든 이전 활동이 완료되어야 합니다.
 

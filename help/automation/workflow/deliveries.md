@@ -27,7 +27,7 @@ ht-degree: 7%
   <tr> 
    <td> <span class="uicontrol">합계 보고</span> <br /> </td> 
    <td> <span class="uicontrol">reportingAggregates</span> <br /> </td> 
-   <td> 이 워크플로우는 보고서에 사용되는 합계를 업데이트합니다. 기본적으로 매일 오전 2시에 트리거됩니다.<br /> </td> 
+   <td> 이 워크플로우는 보고서에 사용된 합계를 업데이트합니다. 기본적으로 매일 오전 2시에 트리거됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">과금</span> <br /> </td> 

@@ -33,7 +33,7 @@ Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 
 * 인터페이스를 통해 **새 필드** 어시스턴트
 
-   Campaign에서 새 필드를 빠르게 추가하는 방법 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}
+  Campaign에서 새 필드를 빠르게 추가하는 방법 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}
 
 * 프로그래밍 방식으로 스키마를 확장하여 에서 기존 스키마를 확장하는 방법 알아보기 [이 섹션](../dev/extend-schema.md).
 

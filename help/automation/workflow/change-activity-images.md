@@ -19,27 +19,27 @@ ht-degree: 3%
 
 * 배경 이미지를 변경하려면 원하는 타겟팅 워크플로우를 선택하고 **[!UICONTROL Properties]** 탭.
 
-   ![](assets/s_user_segmentation_properties_tab.png)
+  ![](assets/s_user_segmentation_properties_tab.png)
 
-   사용할 이미지를 선택하려면 **[!UICONTROL Select link]** 아이콘 의 오른쪽 **[!UICONTROL Background image]** 필드.
+  사용할 이미지를 선택하려면 **[!UICONTROL Select link]** 아이콘 의 오른쪽 **[!UICONTROL Background image]** 필드.
 
-   >[!NOTE]
-   >
-   >배경 이미지의 너비(픽셀 단위)는 4의 배수여야 합니다.
+  >[!NOTE]
+  >
+  >배경 이미지의 너비(픽셀 단위)는 4의 배수여야 합니다.
 
-   ![](assets/s_user_segmentation_background_select.png)
+  ![](assets/s_user_segmentation_background_select.png)
 
-   다음 **[!UICONTROL Edit link]** 아이콘을 사용하면 선택한 이미지를 볼 수 있습니다.
+  다음 **[!UICONTROL Edit link]** 아이콘을 사용하면 선택한 이미지를 볼 수 있습니다.
 
 * 활동과 연관된 이미지를 변경하려면 개체를 두 번 클릭한 다음 **[!UICONTROL Advanced]** 탭.
 
-   사용할 이미지를 선택하려면 **[!UICONTROL Select link]** 아이콘 의 오른쪽 **[!UICONTROL Image]** 필드.
+  사용할 이미지를 선택하려면 **[!UICONTROL Select link]** 아이콘 의 오른쪽 **[!UICONTROL Image]** 필드.
 
-   ![](assets/s_user_segmentation_activity_image.png)
+  ![](assets/s_user_segmentation_activity_image.png)
 
-   다음 **[!UICONTROL Edit link]** 아이콘을 사용하면 선택한 이미지를 볼 수 있습니다.
+  다음 **[!UICONTROL Edit link]** 아이콘을 사용하면 선택한 이미지를 볼 수 있습니다.
 
-   ![](assets/s_user_segmentation_activity_image_select.png)
+  ![](assets/s_user_segmentation_activity_image_select.png)
 
 >[!NOTE]
 >

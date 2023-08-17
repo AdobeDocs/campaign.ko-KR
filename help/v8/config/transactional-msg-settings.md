@@ -18,7 +18,7 @@ ht-degree: 5%
 
 의 트랜잭션 메시지 아키텍처 이해 [이 페이지](../architecture/architecture.md#transac-msg-archi).
 
-![](../assets/do-not-localize/speech.png) 관리 Cloud Services 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Campaign 트랜잭션 메시지를 환경에 설치하고 구성합니다.
+![](../assets/do-not-localize/speech.png) 관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Campaign 트랜잭션 메시지를 환경에 설치하고 구성합니다.
 
 ## 권한 정의
 
@@ -101,7 +101,7 @@ Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대해
 * **[!UICONTROL Processing real time events]** (내부 이름: **[!UICONTROL rtEventsProcessing]** ): 이 워크플로우를 사용하면 메시지 템플릿에 연결되기 전에 대기열의 실시간 이벤트를 분류할 수 있습니다.
 * **[!UICONTROL Update event status]** (내부 이름: **[!UICONTROL updateEventStatus]** ): 이 워크플로우를 사용하면 이벤트에 상태를 지정할 수 있습니다.
 
-   가능한 이벤트 상태는 다음과 같습니다.
+  가능한 이벤트 상태는 다음과 같습니다.
 
    * **[!UICONTROL Pending]**: 이벤트가 큐에 있습니다. 메시지 템플릿이 아직 할당되지 않았습니다.
    * **[!UICONTROL Pending delivery]**: 이벤트가 큐에 있고 메시지 템플릿이 할당되어 게재에 의해 처리되는 중입니다.

@@ -37,7 +37,7 @@ An **데이터 업데이트**-type 활동은 데이터베이스의 필드에 대
 
 * 데이터 항목이 기존 타겟팅 차원과 관련된 경우 **[!UICONTROL By directly using the targeting dimension]** 옵션을 선택하고 **[!UICONTROL Updated dimension]** 필드.
 
-   다음을 사용하여 선택한 차원에 대한 필드를 표시할 수 있습니다. **[!UICONTROL Edit this link]** 돋보기 단추.
+  다음을 사용하여 선택한 차원에 대한 필드를 표시할 수 있습니다. **[!UICONTROL Edit this link]** 돋보기 단추.
 
 * 그렇지 않으면 데이터베이스의 데이터를 식별하거나 조정 키를 직접 사용할 수 있는 링크를 하나 이상 지정합니다.
 

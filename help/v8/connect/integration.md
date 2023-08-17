@@ -22,7 +22,7 @@ Adobe Campaign에는 외부 애플리케이션과 통신하고, 데이터베이�
 
 Adobe Experience Cloud 솔루션을 결합하여 구현을 현대화합니다.
 
-![](../assets/do-not-localize/speech.png)  관리 Cloud Services 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Adobe Experience Cloud 서비스 및 솔루션과 Campaign을 연결합니다.
+![](../assets/do-not-localize/speech.png)  관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Adobe Experience Cloud 서비스 및 솔루션과 Campaign을 연결합니다.
 
 Campaign v8은 다음과 연결할 수 있습니다.
 

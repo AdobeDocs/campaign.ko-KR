@@ -65,9 +65,9 @@ ht-degree: 9%
 * **[!UICONTROL Clicks on the mirror page link]** : 링크 클릭 수 [미러 페이지](../send/mirror-page.md). 고려하려면 게재 마법사(추적된 URL)에서 링크를 이와 같이 정의해야 합니다.
 * **[!UICONTROL Estimation of forwards]** : 타겟팅된 수신자가 전달한 이메일 수 예상. 이 값은 고유 사람 수와 이메일을 클릭한 고유 수신자 수를 빼서 계산합니다.
 
-   >[!NOTE]
-   >
-   >고유 사용자와 대상 수신자 간의 차이에 대한 자세한 내용은 을 참조하십시오. [타겟팅된 사람/수신자](metrics-calculation.md#targeted-persons---recipients).
+  >[!NOTE]
+  >
+  >고유 사용자와 대상 수신자 간의 차이에 대한 자세한 내용은 을 참조하십시오. [타겟팅된 사람/수신자](metrics-calculation.md#targeted-persons---recipients).
 
 **[!UICONTROL 3. Open and click-through rate]**
 

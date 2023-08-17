@@ -7,7 +7,7 @@ exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 1%
    * **activity.tableName**: 아웃바운드 작업 테이블의 SQL 이름입니다.
    * **task.incomingTransitionByName(&#39;name&#39;).tableName**: 사용할 들어오는 전환(해당 전환으로 식별됨)에 의해 수행되는 작업 테이블의 SQL 이름.
 
-      >[!NOTE]
-      >
-      >(&#39;name&#39;) 값은 **[!UICONTROL Name]** 전환 속성의 필드입니다.
+     >[!NOTE]
+     >
+     >(&#39;name&#39;) 값은 **[!UICONTROL Name]** 전환 속성의 필드입니다.
 
 1. SQL 스크립트에 이미 아웃바운드 작업 테이블을 만드는 명령이 포함되어 있는 경우 **[!UICONTROL Automatically create work table]** 옵션을 선택합니다. 그렇지 않으면 워크플로우가 실행되면 작업 테이블이 자동으로 만들어집니다.
 1. 클릭 **[!UICONTROL Ok]** 활동 구성을 확인합니다.

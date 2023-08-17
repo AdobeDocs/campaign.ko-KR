@@ -48,7 +48,7 @@ ht-degree: 2%
 
    * 다음에서 자격 일자 할당 **[!UICONTROL Eligibility]** 탭.
 
-      ![](assets/offer_cat_create_004.png)
+     ![](assets/offer_cat_create_004.png)
 
    * **[!UICONTROL Edit query]** 을 클릭하여 오퍼 대상에 필터를 적용합니다.
 

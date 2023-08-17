@@ -18,11 +18,11 @@ ht-degree: 2%
 
 * 수집 API: **xtk.session.ingest**
 
-   이 API는 데이터 삽입 전용입니다. [자세히 알아보기](#data-insert-api)
+  이 API는 데이터 삽입 전용입니다. [자세히 알아보기](#data-insert-api)
 
 * 데이터 업데이트/삭제 API: **xtk.session.ingestExt**
 
-   이 API는 데이터를 업데이트하거나 삭제하는 데 사용됩니다. [자세히 알아보기](#data-update-api)
+  이 API는 데이터를 업데이트하거나 삭제하는 데 사용됩니다. [자세히 알아보기](#data-update-api)
 
 전용 기본 제공 워크플로우는 클라우드 데이터베이스의 데이터를 동기화합니다.
 

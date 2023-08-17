@@ -81,7 +81,7 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 | **실시간 이벤트 처리 중** (rtEventsProcessing) | 트랜잭션 메시지 실행(메시지 센터 - 실행) | 이 워크플로우를 사용하면 실시간 이벤트를 메시지 템플릿과 연결하기 전에 대기열에 넣을 수 있습니다. |
 | **제안 동기화** (제안 동기화) | 실행 인스턴스가 있는 오퍼 엔진 제어 | 이 워크플로우는 상호 작용에 사용되는 마케팅 인스턴스와 실행 인스턴스 간의 제안을 동기화합니다. |
 | **웹 이벤트 복구** (webAnalyticsGetWebevents) | 웹 분석 커넥터 | 매시간마다 이 워크플로우는 주어진 사이트에서 인터넷 사용자 비헤이비어에 대한 세그먼트를 다운로드하여 Adobe Campaign 데이터베이스에 넣고 리마케팅 워크플로우를 시작합니다. |
-| **합계 보고** (reportingAggregates) | 게재 | 이 워크플로우는 보고서에 사용되는 합계를 업데이트합니다. 기본적으로 매일 오전 2시에 트리거됩니다. |
+| **합계 보고** (reportingAggregates) | 게재 | 이 워크플로우는 보고서에 사용된 합계를 업데이트합니다. 기본적으로 매일 오전 2시에 트리거됩니다. |
 | **지표 및 캠페인 속성 전송** (webAnalyticsSendMetric) | 웹 분석 커넥터 | 이 워크플로우를 사용하면 Adobe® Analytics 커넥터를 통해 Adobe Campaign에서 Adobe Experience Cloud Suite로 이메일 캠페인 지표를 보낼 수 있습니다. 관련 지표는 다음과 같습니다. 전송됨(iSent), 총 열람 수(iTotalRecipientOpen), 클릭한 총 수신자 수(iTotalRecipientClick), 오류(iError), 옵트아웃(optOut) |
 | **재고: 주문 및 경고** (stockMgt) | 기본적으로 설치됨 | 이 워크플로우는 주문 라인에서 재고 계산을 시작하고 경고 경고 임계값을 관리합니다. |
 | **Adobe Experience Platform 데이터 수집에서 모바일 앱 동기화** (syncWithLaunch) | 기본적으로 설치됨, v8.5부터 | 이 워크플로우는 데이터 수집에서 모바일 속성을 Adobe Campaign에 자동으로 동기화합니다. |

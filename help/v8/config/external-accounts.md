@@ -26,7 +26,7 @@ Adobe Campaign에서 외부 계정에 액세스할 수 있습니다. **[!UICONTR
 
 >[!CAUTION]
 >
->* 관리 Cloud Services 사용자는 Adobe에 의해 인스턴스에 대해 외부 계정이 구성되며 수정해서는 안 됩니다.
+>* 관리 Cloud Service 사용자는 Adobe에 의해 인스턴스에 대해 외부 계정이 구성되며 수정해서는 안 됩니다.
 >
 >* 의 맥락에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 특정 **[!UICONTROL Full FDA]** (ffda) 외부 계정은 Campaign 로컬 데이터베이스와 클라우드 데이터베이스 간의 연결을 관리합니다([!DNL Snowflake]).
 >

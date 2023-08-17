@@ -6,7 +6,7 @@ exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '2978'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> 열람 수<br /> </td> 
-   <td> @열기<br /> </td> 
+   <td> @opens<br /> </td> 
    <td> URL 기본 @totalClicks이 1인 모든 방문자의 합계입니다.<br /> </td> 
    <td> sum(Iif([@url-id]=1, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -106,7 +106,7 @@ ht-degree: 6%
    <td> Count(@status=2 및 msg/@failureReason=5)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 오류<br /> </td> 
+   <td> 오류수<br /> </td> 
    <td> @값<br /> </td> 
    <td> 이 유형의 오류에 대해 실패한 메시지 수입니다.<br /> </td> 
    <td> Count(@status=2 및 msg/@failureReason="오류 유형의 값")<br /> </td> 
@@ -217,7 +217,7 @@ ht-degree: 6%
   <tr> 
    <td> 게재할 메시지 수<br /> </td> 
    <td> @totalTarget<br /> </td> 
-   <td> 게재 분석 중 처리된 총 메시지 수입니다.<br /> </td> 
+   <td> 게재 분석 시 처리된 총 메시지 수입니다.<br /> </td> 
    <td> sum([속성/@totalTarget])<br /> </td> 
   </tr> 
   <tr> 
@@ -469,7 +469,7 @@ ht-degree: 6%
    <td> sum(Iif(@action = 1 및 @date &gt; addDays(getDate(), (-1)), 1, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 구독 취소<br /> </td> 
+   <td> 구독 최소 건수<br /> </td> 
    <td> @_unsubscription<br /> </td> 
    <td> 전날 구독 취소 수(작업 = 0).<br /> </td> 
    <td> sum(Iif(@action = 0 및 @date &gt; addDays(getDate(), (-1)), 1, 0))<br /> </td> 
@@ -748,7 +748,7 @@ ht-degree: 6%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 초기 모집단<br /> </td> 
+   <td> 초기 집단<br /> </td> 
    <td> @totalTarget<br /> </td> 
    <td> 게재 대상의 총 수신자 수입니다.<br /> </td> 
    <td> sum([속성/@totalTarget])<br /> </td> 
@@ -756,7 +756,7 @@ ht-degree: 6%
   <tr> 
    <td> 규칙에 의해 거부된 메시지<br /> </td> 
    <td> @reject<br /> </td> 
-   <td> 유형화 규칙을 준수하며 분석 중에 무시되는 주소 수: 지정되지 않은 주소, 격리된 주소, 차단 목록 등<br /> </td> 
+   <td> 유형화 규칙을 준수하며 분석 중에 무시되는 주소 수: 지정되지 않은 주소, 격리된 주소, 차단 목록에 추가하다 등<br /> </td> 
    <td> sum([속성/@reject])<br /> </td> 
   </tr> 
   <tr> 
@@ -772,7 +772,7 @@ ht-degree: 6%
    <td> sum([표시기/@success])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 오류<br /> </td> 
+   <td> 오류수<br /> </td> 
    <td> @error<br /> </td> 
    <td> 게재 및 자동 바운스 처리 중 누적된 총 오류 수입니다.<br /> </td> 
    <td> sum([표시기/@error])<br /> </td> 
@@ -820,7 +820,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> 열기<br /> </td> 
-   <td> @열기<br /> </td> 
+   <td> @opens<br /> </td> 
    <td> URL 기본 키가 1인 모든 @totalClicks 수의 합계입니다.<br /> </td> 
    <td> sum(Iif([@url-id] = 1, @totalClicks, 0))<br /> </td> 
   </tr> 
@@ -848,7 +848,7 @@ ht-degree: 6%
    <td> @prepared + @error + @success<br /> </td> 
   </tr> 
   <tr> 
-   <td> 게재됨<br /> </td> 
+   <td> 게재 대상<br /> </td> 
    <td> @success<br /> </td> 
    <td> 정상적으로 처리된 메시지 수.<br /> </td> 
    <td> 지표/@success<br /> </td> 
@@ -878,7 +878,7 @@ ht-degree: 6%
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0)) <br /> </td> 
   </tr> 
   <tr> 
-   <td> 구독 취소<br /> </td> 
+   <td> 구독 최소 건수<br /> </td> 
    <td> @optOut<br /> </td> 
    <td> URL 카테고리가 "옵트아웃"과 같은 총 @ids 수입니다.<br /> </td> 
    <td> count(Iif([url/@type]=3, @id, 0))<br /> </td> 
@@ -886,7 +886,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-## 열람 분류 {#breakdown-of-opens-1}
+## 열람수 분류 {#breakdown-of-opens-1}
 
 이 보고서는 다음을 기반으로 합니다. **게재** (nms:delivery) 및 **추적 로그** (nms:trackingLogRcp) 테이블.
 

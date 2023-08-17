@@ -43,7 +43,7 @@ ht-degree: 84%
          + [게재 개요](workflow/delivery-outline.md)
          + [스키마 편집](workflow/edit-schema.md)
          + [보강](workflow/enrichment.md)
-         + [예외](workflow/exclusion.md)
+         + [제외](workflow/exclusion.md)
          + [증분 쿼리](workflow/incremental-query.md)
          + [교차](workflow/intersection.md)
          + [목록 업데이트](workflow/list-update.md)
@@ -53,7 +53,7 @@ ht-degree: 84%
          + [목록 읽기](workflow/read-list.md)
          + [분할](workflow/split.md)
          + [구독 서비스](workflow/subscription-services.md)
-         + [결합](workflow/union.md)
+         + [합집합](workflow/union.md)
          + [데이터 업데이트](workflow/update-data.md)
       + 흐름 제어 활동 {#flow-control-activities}
          + [흐름 제어 활동 목록](workflow/flow-control-activities.md)

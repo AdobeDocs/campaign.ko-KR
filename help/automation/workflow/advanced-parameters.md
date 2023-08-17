@@ -19,11 +19,11 @@ ht-degree: 5%
 
 * 간소화된 버전(용 **[!UICONTROL Start]** 및 **[!UICONTROL End]** 활동(예: )
 
-   ![](assets/wf-advanced-basic.png)
+  ![](assets/wf-advanced-basic.png)
 
 * 더 자세한 버전 (용 **[!UICONTROL Query]** 활동(예: )
 
-   ![](assets/wf-advanced-full.png)
+  ![](assets/wf-advanced-full.png)
 
 에 입력할 필드 **[!UICONTROL Advanced]** 탭은 다음 섹션에 자세히 설명되어 있습니다.
 

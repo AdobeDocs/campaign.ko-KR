@@ -4,10 +4,10 @@ description: Campaign에서 푸시 알림 시작
 feature: Push
 role: Data Engineer
 level: Beginner
-badge: label="제한된 가용성" type="정보"
+badge: label="제한된 가용성" type="Informative"
 source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1389'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ Campaign v8.5는 최신 첨단 기술을 기반으로 구축된 강력한 프레
 
 푸시 알림은 전용 서비스를 통해 앱 사용자에게 전송됩니다. 사용자가 앱을 설치할 때 이 서비스에 가입합니다. Adobe Campaign은 이 서비스를 사용하여 앱 가입자만 타깃팅합니다. 이 서비스에서는 iOS 및 Android 장치에서 전송할 iOS 및 Android 앱을 추가해야 합니다.
 
-푸시 알림을 전송할 서비스를 만들려면 아래 단계를 수행하십시오.
+푸시 알림을 전송하는 서비스를 만들려면 아래 단계를 수행하십시오.
 
 1. 다음으로 이동 **[!UICONTROL Profiles and Targets > Services and Subscriptions]** 탭을 클릭하고 다음을 클릭합니다. **[!UICONTROL Create]**.
 

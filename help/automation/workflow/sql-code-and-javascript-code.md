@@ -23,11 +23,11 @@ An **[!UICONTROL SQL code]** 활동은 SQL 스크립트를 실행합니다. 스�
 
 * **[!UICONTROL Script]**
 
-   편집기의 중앙 영역에는 실행할 스크립트가 포함되어 있습니다. 이 스크립트는 JST 템플릿이므로 워크플로우 컨텍스트에 따라 구성할 수 있습니다.
+  편집기의 중앙 영역에는 실행할 스크립트가 포함되어 있습니다. 이 스크립트는 JST 템플릿이므로 워크플로우 컨텍스트에 따라 구성할 수 있습니다.
 
 * **[!UICONTROL Processing errors]**
 
-   을(를) 참조하십시오 [처리 오류](monitor-workflow-execution.md#processing-errors).
+  을(를) 참조하십시오 [처리 오류](monitor-workflow-execution.md#processing-errors).
 
 ## JavaScript 코드 및 고급 JavaScript 코드 {#javascript-code}
 

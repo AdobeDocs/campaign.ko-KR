@@ -24,7 +24,7 @@ ht-degree: 2%
 * &#39;Test&#39; 활동은 적절한 전환을 활성화하기 위해 JavaScript 표현식을 평가합니다.
 * 대부분의 텍스트 필드는 JavaScript 템플릿입니다. JavaScript 표현식은 &lt;%=~%> 사이에 포함될 수 있습니다. 이러한 필드에는 표현식 입력에 도움이 되는 드롭다운 목록을 여는 버튼이 있습니다.
 
-   ![](assets/script-button.png)
+  ![](assets/script-button.png)
 
 ## 오브젝트 노출됨 {#objects-exposed}
 

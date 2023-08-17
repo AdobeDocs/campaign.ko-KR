@@ -139,7 +139,7 @@ Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하
 
 * [생일 이메일 보내기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ko)
 
-   이 사용 사례에서는 생일 당일 수신자 목록에 반복 이메일 전송을 계획하는 방법을 제공합니다.
+  이 사용 사례에서는 생일 당일 수신자 목록에 반복 이메일 전송을 계획하는 방법을 제공합니다.
 
 * [게재 콘텐츠 로드](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html)
 게재 콘텐츠를 원격 서버에 있는 HTML 파일에서 사용할 수 있으면 이 콘텐츠를 Adobe Campaign 게재에 쉽게 로드할 수 있습니다.

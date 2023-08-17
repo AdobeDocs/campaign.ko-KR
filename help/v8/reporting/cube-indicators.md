@@ -24,30 +24,31 @@ ht-degree: 3%
 
 * 보고서에서 직접 데이터 내보내기, **[!UICONTROL Reports]** Adobe Campaign 플랫폼 탭.
 
-   이렇게 하려면 새 보고서를 만들고 사용할 큐브를 선택합니다.
+  이렇게 하려면 새 보고서를 만들고 사용할 큐브를 선택합니다.
 
-   ![](assets/create-new-cube.png)
+  ![](assets/create-new-cube.png)
 
-   큐브는 보고서를 작성하는 데 사용하는 템플릿처럼 표시됩니다. 템플릿을 선택한 다음 을(를) 클릭합니다. **[!UICONTROL Create]** 새 보고서를 구성하고 봅니다.
+  큐브는 보고서를 작성하는 데 사용하는 템플릿처럼 표시됩니다. 템플릿을 선택한 다음 을(를) 클릭합니다. **[!UICONTROL Create]** 새 보고서를 구성하고 봅니다.
 
-   측정값을 조정하거나 표시 모드를 변경하거나 테이블을 구성한 다음 기본 단추를 사용하여 보고서를 표시할 수 있습니다.
+  측정값을 조정하거나 표시 모드를 변경하거나 테이블을 구성한 다음 기본 단추를 사용하여 보고서를 표시할 수 있습니다.
 
-   ![](assets/display-cube-table.png)
+  ![](assets/display-cube-table.png)
 
 * 에서 큐브 참조 **[!UICONTROL Query]** 아래 표시된 대로 지표를 사용할 보고서 상자입니다.
 
-   ![](assets/cube-report-query.png)
+  ![](assets/cube-report-query.png)
 
 * 큐브를 기반으로 한 피벗 테이블을 보고서의 페이지에 삽입합니다. 이렇게 하려면 다음에서 사용할 큐브를 참조하십시오 **[!UICONTROL Data]** 관련 페이지의 피벗 테이블 탭
 
-   ![](assets/cube-in-a-report.png)
+  ![](assets/cube-in-a-report.png)
 
-   자세한 내용은 다음을 참조하십시오. [보고서의 데이터 탐색](cube-tables.md#explore-the-data-in-a-report).
+  자세한 내용은 다음을 참조하십시오. [보고서의 데이터 탐색](cube-tables.md#explore-the-data-in-a-report).
 
 
 >[!CAUTION]
 >
 >큐브를 만들려면 관리자 권한이 필요합니다.
+>
 
 ## 큐브 작성{#cube-create}
 

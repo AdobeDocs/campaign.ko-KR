@@ -42,11 +42,11 @@ ht-degree: 2%
 * **[!UICONTROL Define a link whose target is still available]**: 테이블 간에 1-1 카디널리티가 있는 링크를 정의할 수 있습니다. 조인 조건은 대상 테이블의 단일 레코드로 정의해야 합니다.
 * **[!UICONTROL Define a link whose target does not necessarily exist in the base]**: 테이블 간에 0-1 카디널리티가 있는 링크를 정의할 수 있습니다. 조인 조건은 0 또는 1(최대)로 정의해야 합니다. 대상 테이블에 기록합니다.
 
-   이 옵션은 **[!UICONTROL Simple Join]** 를 통해 액세스할 수 있는 탭 **[!UICONTROL Edit additional data]** 링크 **[!UICONTROL Enrichment]** 활동.
+  이 옵션은 **[!UICONTROL Simple Join]** 를 통해 액세스할 수 있는 탭 **[!UICONTROL Edit additional data]** 링크 **[!UICONTROL Enrichment]** 활동.
 
 * **[!UICONTROL Define a link by searching for a reference among several options]**: 이 유형의 링크는 고유 레코드에 대한 조정을 정의합니다. Adobe Campaign은 고유 레코드에 대한 참조를 저장하기 위해 대상 테이블에 외래 키를 추가하여 대상 테이블에 대한 링크를 만듭니다.
 
-   이 옵션은 **[!UICONTROL Reconciliation and deduplication]** 를 통해 액세스할 수 있는 탭 **[!UICONTROL Edit additional data]** 링크 **[!UICONTROL Enrichment]** 활동.
+  이 옵션은 **[!UICONTROL Reconciliation and deduplication]** 를 통해 액세스할 수 있는 탭 **[!UICONTROL Edit additional data]** 링크 **[!UICONTROL Enrichment]** 활동.
 
 해당 컨텍스트에서 데이터 보강 활동의 운영에 대해 자세히 설명하는 사용 사례는 다음 섹션에서도 사용할 수 있습니다.
 
@@ -170,11 +170,11 @@ ht-degree: 2%
 
    * **[!UICONTROL Search for the best offer in a category]**: 이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마, 연락 날짜, 유지할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. 다음 중 하나를 완료하는 것이 좋습니다. **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드입니다. 두 필드를 동시에 사용하는 것이 아닙니다.
 
-      ![](assets/int_enrichment_offer3.png)
+     ![](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL A predefined offer]**: 이 옵션을 선택하고 오퍼 공간, 특정 오퍼 및 연락 날짜를 지정하여 오퍼 엔진을 호출하지 않고 추가하려는 오퍼를 직접 구성합니다.
 
-      ![](assets/int_enrichment_offer4.png)
+     ![](assets/int_enrichment_offer4.png)
 
 1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. 을(를) 참조하십시오 [크로스 채널 게재](cross-channel-deliveries.md).
 

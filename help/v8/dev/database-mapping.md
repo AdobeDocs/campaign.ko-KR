@@ -46,19 +46,19 @@ SQL 이름 지정 규칙은 다음과 같습니다.
 
 * 표: 스키마 네임스페이스 및 이름의 연결
 
-   이 예제에서 표의 이름은 스키마의 기본 요소를 통해 **sqltable** 특성:
+  이 예제에서 표의 이름은 스키마의 기본 요소를 통해 **sqltable** 특성:
 
-   ```
-   <element name="recipient" sqltable="CusRecipient">
-   ```
+  ```
+  <element name="recipient" sqltable="CusRecipient">
+  ```
 
 * 필드: 유형에 따라 정의된 접두사가 앞에 오는 요소의 이름(정수는 &#39;i&#39;, double은 &#39;d&#39;, 문자열은 &#39;s&#39;, 날짜는 &#39;ts&#39; 등)
 
-   필드 이름은 **sqlname** 입력된 각 속성에 대한 속성 **`<attribute>`** 및 **`<element>`**:
+  필드 이름은 **sqlname** 입력된 각 속성에 대한 속성 **`<attribute>`** 및 **`<element>`**:
 
-   ```
-   <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
-   ```
+  ```
+  <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
+  ```
 
 >[!NOTE]
 >
@@ -89,17 +89,17 @@ XML에서 필드를 채우려면 다음을 추가해야 합니다. **xml** 관�
 
 * 여러 줄 주석 필드:
 
-   ```
-   <element name="comment" xml="true" type="memo" label="Comment"/>
-   ```
+  ```
+  <element name="comment" xml="true" type="memo" label="Comment"/>
+  ```
 
 * HTML 형식의 데이터 설명:
 
-   ```
-   <element name="description" xml="true" type="html" label="Description"/>
-   ```
+  ```
+  <element name="description" xml="true" type="html" label="Description"/>
+  ```
 
-   html 유형을 사용하면 HTML 콘텐츠를 CDATA 태그에 저장하고 Adobe Campaign 클라이언트 인터페이스에 특수 HTML 편집 검사를 표시할 수 있습니다.
+  html 유형을 사용하면 HTML 콘텐츠를 CDATA 태그에 저장하고 Adobe Campaign 클라이언트 인터페이스에 특수 HTML 편집 검사를 표시할 수 있습니다.
 
 XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 필요 없이 필드를 추가할 수 있습니다. 또 다른 장점은 리소스(SQL 필드에 할당된 크기, 테이블당 필드 수 제한 등)를 적게 사용한다는 것입니다.
 
@@ -126,77 +126,77 @@ XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 �
 
 * 이메일 주소 및 구/군/시에 키 추가:
 
-   ```
-   <srcSchema name="recipient" namespace="cus">
-     <element name="recipient">
-       <key name="email">
-         <keyfield xpath="@email"/> 
-         <keyfield xpath="location/@city"/> 
-       </key>
-   
-       <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
-       <element name="location" label="Location">
-         <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
-       </element>
-     </element>
-   </srcSchema>
-   ```
+  ```
+  <srcSchema name="recipient" namespace="cus">
+    <element name="recipient">
+      <key name="email">
+        <keyfield xpath="@email"/> 
+        <keyfield xpath="location/@city"/> 
+      </key>
+  
+      <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+      <element name="location" label="Location">
+        <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
+      </element>
+    </element>
+  </srcSchema>
+  ```
 
-   생성된 스키마:
+  생성된 스키마:
 
-   ```
-   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-     <element name="recipient" sqltable="CusRecipient">    
-      <key name="email">      
-       <keyfield xpath="@email"/>      
-       <keyfield xpath="location/@city"/>    
-      </key>    
-   
-      <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
-      <element label="Location" name="location">      
-        <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
-      </element>  
-     </element>
-   </schema>
-   ```
+  ```
+  <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
+    <element name="recipient" sqltable="CusRecipient">    
+     <key name="email">      
+      <keyfield xpath="@email"/>      
+      <keyfield xpath="location/@city"/>    
+     </key>    
+  
+     <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
+     <element label="Location" name="location">      
+       <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
+     </element>  
+    </element>
+  </schema>
+  ```
 
 * &quot;id&quot; 이름 필드에 기본 키 또는 내부 키 추가:
 
-   ```
-   <srcSchema name="recipient" namespace="cus">
-     <element name="recipient">
-       <key name="id" internal="true">
-         <keyfield xpath="@id"/> 
-       </key>
-   
-       <key name="email">
-         <keyfield xpath="@email"/> 
-       </key>
-   
-       <attribute name="id" type="long" label="Identifier"/>
-       <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
-     </element>
-   </srcSchema>
-   ```
+  ```
+  <srcSchema name="recipient" namespace="cus">
+    <element name="recipient">
+      <key name="id" internal="true">
+        <keyfield xpath="@id"/> 
+      </key>
+  
+      <key name="email">
+        <keyfield xpath="@email"/> 
+      </key>
+  
+      <attribute name="id" type="long" label="Identifier"/>
+      <attribute name="email" type="string" length="80" label="Email" desc="E-mail address of recipient"/>
+    </element>
+  </srcSchema>
+  ```
 
-   생성된 스키마:
+  생성된 스키마:
 
-   ```
-   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-     <element name="recipient" sqltable="CusRecipient">    
-       <key name="email">      
-         <keyfield xpath="@email"/>    
-       </key>  
-   
-       <key internal="true" name="id">      
-        <keyfield xpath="@id"/>    
-       </key>    
-   
-       <attribute label="Identifier" name="id" sqlname="iRecipientId" type="long"/>    
-       <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
-     </element>
-   </schema>
-   ```
+  ```
+  <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
+    <element name="recipient" sqltable="CusRecipient">    
+      <key name="email">      
+        <keyfield xpath="@email"/>    
+      </key>  
+  
+      <key internal="true" name="id">      
+       <keyfield xpath="@id"/>    
+      </key>    
+  
+      <attribute label="Identifier" name="id" sqlname="iRecipientId" type="long"/>    
+      <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
+    </element>
+  </schema>
+  ```
 
 ### 기본 키 - 식별자{#primary-key}
 
@@ -285,11 +285,11 @@ Federated Database Access를 사용하는 조인 관계의 경우
       * **소유**: 소스 발생 항목을 삭제하면 타겟 발생 항목이 삭제되고,
       * **owncopy**: 와 동일 **소유** (삭제 시) 또는 발생 횟수 중복(중복 시),
       * **중립**: 아무 작업도 하지 않습니다.
+
    * **revIntegrity** (선택 사항): 대상 스키마의 무결성 (선택 사항, 기본적으로 &quot;보통&quot;),
    * **반대 카디널리티** (선택 사항): 값 &quot;single&quot;을 사용하면 카디널리티가 유형 1-1(기본적으로 1-N)로 채워집니다.
    * **externalJoin** (선택 사항): 외부 조인을 강제 적용합니다
    * **revExternalJoin** (선택 사항): 역방향 링크에 외부 조인을 강제 적용합니다
-
 
 * 링크는 소스 테이블에서 대상 테이블로 하나 이상의 필드를 참조합니다. 조인을 구성하는 필드( `<join>`  요소)는 대상 스키마의 내부 키를 사용하여 기본적으로 자동으로 추론되므로 채우지 않아도 됩니다.
 * 링크는 두 개의 절반 링크로 구성되며, 첫 번째 링크는 소스 스키마에서 선언되고 두 번째 링크는 대상 스키마의 확장 스키마에서 자동으로 만들어집니다.

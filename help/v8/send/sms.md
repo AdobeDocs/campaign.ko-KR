@@ -69,15 +69,15 @@ SMS를 만들고 디자인하는 주요 단계는 Campaign Classic v7 설명서�
 
 * SMS 만들기
 
-   ![](../assets/do-not-localize/book.png) [SMS 게재를 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html#sending-messages){target="_blank"}
+  ![](../assets/do-not-localize/book.png) [SMS 게재를 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html#sending-messages){target="_blank"}
 
 * SMS 콘텐츠 디자인
 
-   ![](../assets/do-not-localize/book.png) [SMS 콘텐츠를 정의하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html#defining-the-sms-content){target="_blank"}
+  ![](../assets/do-not-localize/book.png) [SMS 콘텐츠를 정의하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html#defining-the-sms-content){target="_blank"}
 
 * 이메일 대상자 선택
 
-   ![](../assets/do-not-localize/book.png) [대상 모집단을 정의하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
+  ![](../assets/do-not-localize/book.png) [대상 모집단을 정의하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
 
 ![](../assets/do-not-localize/glass.png) 대상자를 정의하는 단계는에 자세히 설명되어 있습니다. [이 페이지](../start/audiences.md).
 
@@ -90,9 +90,9 @@ SMS를 만들고 디자인하는 주요 단계는 Campaign Classic v7 설명서�
 증명을 보내려면 Campaign Classic v7 설명서의 다음 섹션을 참조하십시오.
 
 * 게재 유효성 검사 및 증명 보내기
-   ![](../assets/do-not-localize/book.png) [게재 유효성 검사를 위한 주요 단계 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target="_blank"}
+  ![](../assets/do-not-localize/book.png) [게재 유효성 검사를 위한 주요 단계 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ko){target="_blank"}
 * 시드 주소 추가
-   ![](../assets/do-not-localize/book.png) [시드 주소에 대해 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+  ![](../assets/do-not-localize/book.png) [시드 주소에 대해 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
 ## SMS 게재 보내기 및 모니터링
 
@@ -100,8 +100,8 @@ SMS를 보내고 모니터링하는 주요 단계는 Campaign Classic v7 설명�
 
 * SMS 게재 보내기, 모니터링 및 추적
 
-   ![](../assets/do-not-localize/book.png) [SMS 전송, 모니터링 및 추적 도구에 대해 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html#sending-messages){target="_blank"}
+  ![](../assets/do-not-localize/book.png) [SMS 전송, 모니터링 및 추적 도구에 대해 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html#sending-messages){target="_blank"}
 
 * SMS 게재 문제 해결
 
-   ![](../assets/do-not-localize/book.png) [SMS 문제 해결에 대해 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html#sending-messages){target="_blank"}
+  ![](../assets/do-not-localize/book.png) [SMS 문제 해결에 대해 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html#sending-messages){target="_blank"}

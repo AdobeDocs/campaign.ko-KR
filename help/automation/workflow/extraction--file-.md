@@ -58,7 +58,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Count]** (집계된 필드의) 중복 값을 포함하여 집계될 필드의 null이 아닌 모든 값을 계산하려면
 
-   **[!UICONTROL Distinct]** 집계할 필드의 서로 다른 값과 null이 아닌 값의 총 수를 계산하려면(중복 값은 계산 전에 제외됨)
+  **[!UICONTROL Distinct]** 집계할 필드의 서로 다른 값과 null이 아닌 값의 총 수를 계산하려면(중복 값은 계산 전에 제외됨)
 
 * **[!UICONTROL Sum]** 숫자 필드 값의 합계를 계산하려면
 * **[!UICONTROL Minimum value]** 필드의 최소값(숫자 또는 기타)을 계산하려면

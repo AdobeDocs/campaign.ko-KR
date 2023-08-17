@@ -50,7 +50,7 @@ ht-degree: 17%
 * **[!UICONTROL Registration link (with referrer)]**: 구독 링크를 삽입하여 방문자 및 게재를 식별합니다. 이 링크는 인스턴스 설정에서 정의됩니다.
 * **[!UICONTROL Registration page URL]**: 구독 URL 삽입
 * **[!UICONTROL Style of content emails]** 및 **[!UICONTROL Notification style]**: 사전 정의된 HTML 스타일을 사용하여 이메일 서식을 지정하는 코드를 생성합니다.
-* **[!UICONTROL Unsubscription link]**: 모든 게재 구독 취소(차단 목록)에 대한 링크를 삽입합니다. 기본 관련 콘텐츠는 다음과 같습니다. “귀하가 ***조직 이름***&#x200B;의 소식을 받고 있거나 제휴를 맺고 있기 때문에 이 메시지가 전송되었습니다. 더 이상 ***조직 이름***&#x200B;에서 메시지를 받지 않으려면 여기를 클릭하십시오.”
+* **[!UICONTROL Unsubscription link]**: 모든 게재 구독 취소(차단 목록에 추가하다)에 대한 링크를 삽입합니다. 기본 관련 콘텐츠는 다음과 같습니다. “귀하가 ***조직 이름***&#x200B;의 소식을 받고 있거나 제휴를 맺고 있기 때문에 이 메시지가 전송되었습니다. 더 이상 ***조직 이름***&#x200B;에서 메시지를 받지 않으려면 여기를 클릭하십시오.”
 
 ## 맞춤형 개인화 블록 만들기 {#create-custom-personalization-blocks}
 

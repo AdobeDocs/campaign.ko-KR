@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 게재 템플릿 작업
-description: Campaign에서 게재 템플릿을 만들고 사용하는 방법을 알아봅니다
+description: 캠페인에서 게재 템플릿을 만들고 사용하는 방법 알아보기
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
@@ -9,13 +9,13 @@ exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '698'
-ht-degree: 5%
+ht-degree: 33%
 
 ---
 
 # 게재 템플릿 작업{#work-with-delivery-template}
 
-게재 템플릿을 사용하여 크리에이티브 룩과 느낌을 표준화하여 캠페인 실행 및 론칭을 보다 신속하게 수행할 수 있습니다.
+캠페인 실행 및 론칭을 보다 신속하게 수행하기 위해 게재 템플릿을 사용하여 크리에이티브 룩과 느낌을 표준화합니다.
 
 템플릿에는 다음이 포함될 수 있습니다.
 
@@ -23,15 +23,15 @@ ht-degree: 5%
 * 보낸 사람 및 회신 주소
 * 기본 [개인화 블록](../send/personalization-blocks.md)
 * 링크 대상 [미러 페이지](../send/mirror-page.md) 및 구독 취소 링크
-* 컨텐츠, 회사 로고 또는 서명
-* 리소스 유효성, 다시 시도 매개 변수 또는 격리 설정과 같은 기타 게재 속성.
+* 콘텐츠, 회사 로고 또는 서명
+* 리소스 유효성, 재시도 매개 변수 또는 격리 설정 등 다른 게재 속성입니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#delivery-template-video)
 
 
 ## 템플릿 만들기{#create-a-delivery-template}
 
-게재 템플릿을 만들려면 기본 제공 템플릿을 복제하거나, 기존 게재를 템플릿으로 변환하거나, 처음부터 게재 템플릿을 만들 수 있습니다.
+게재 템플릿을 만들기 위해 기본 제공 템플릿을 복제하고, 기존 게재를 템플릿으로 전환하거나 처음부터 게재 템플릿을 만들 수 있습니다.
 
 ### 기존 템플릿 복제{#copy-an-existing-template}
 
@@ -39,7 +39,7 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 게재 템플릿을 만드는 가장 쉬운 방법은 기본 제공 템플릿을 복제하고 사용자 지정하는 것입니다.
 
-게재 템플릿을 복제하려면 아래 단계를 따르십시오.
+게재 템플릿을 복제하려면 아래 단계를 수행합니다.
 
 1. 다음으로 이동 **[!UICONTROL Resources > Templates > Delivery templates]** Adobe Campaign 탐색기를 참조하십시오.
 1. 기본 제공 게재 템플릿을 선택합니다. 기본 제공 템플릿은 목록에서 굵게 표시됩니다.
@@ -51,15 +51,15 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
    ![](assets/delivery-template-new.png)
 
-게재 템플릿 목록에 템플릿이 추가됩니다. 이제 새 게재를 만들 때 선택할 수 있습니다.
+템플릿이 게재 템플릿 목록에 추가됩니다. 이제 새 게재를 만들면 선택할 수 있습니다.
 
 ![](assets/select-the-new-template.png)
 
-### 기존 게재를 템플릿으로 변환 {#convert-an-existing-delivery}
+### 기존 게재를 템플릿으로 전환 {#convert-an-existing-delivery}
 
 게재를 템플릿으로 변환하여 반복된 새로운 게재 작업을 수행할 수 있습니다.
 
-게재를 템플릿으로 변환하려면 아래 단계를 따르십시오.
+게재를 템플릿으로 전환하려면 아래 단계를 수행합니다.
 
 1. 게재 목록에서 게재를 선택하고 **[!UICONTROL Campaign management]** 캠페인 탐색기의 노드입니다.
 
@@ -75,9 +75,9 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 >[!NOTE]
 >
->구성 오류를 방지하려면 Adobe은 다음을 권장합니다. [기본 제공 템플릿 복제](#copy-an-existing-template) 새 템플릿을 만들지 않고 속성을 사용자 지정할 수 있습니다.
+>구성 오류를 방지하려면 [기본 제공 템플릿을 복제하고](#copy-an-existing-template) 새 템플릿을 만드는 대신 해당 속성을 사용자 지정하는 것이 좋습니다.
 
-게재 템플릿을 처음부터 구성하려면 아래 단계를 따르십시오.
+처음부터 게재 템플릿을 구성하려면 아래 단계를 수행합니다.
 
 1. 다음으로 이동 **리소스** 폴더를 Campaign 탐색기에서 선택하고 **템플릿** 그러면 **게재 템플릿**.
 1. 클릭 **신규** 을 클릭하여 새 게재 템플릿을 만듭니다.

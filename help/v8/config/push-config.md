@@ -27,6 +27,7 @@ Campaign 관리자는 [Experience Cloud 소프트웨어 배포](https://experien
 >[!NOTE]
 >
 >데이터 수집 UI에서 Adobe Campaign 확장을 구성하여 Adobe Experience Platform Mobile SDK를 사용할 수도 있습니다. [개발자 설명서에서 자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+>
 
 ## 통합 설정 선언 {#declaring-integration-settings}
 
@@ -34,29 +35,29 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
 * **통합 키**: Adobe Campaign 플랫폼에서 모바일 애플리케이션을 식별할 수 있도록 합니다.
 
-   >[!NOTE]
-   >
-   >이 통합 키는 Adobe Campaign 콘솔의 **[!UICONTROL Information]** 모바일 애플리케이션 전용 서비스 탭입니다.
+  >[!NOTE]
+  >
+  >이 통합 키는 Adobe Campaign 콘솔의 **[!UICONTROL Information]** 모바일 애플리케이션 전용 서비스 탭입니다.
 
 * **추적 URL**: Adobe Campaign 추적 서버 주소와 일치합니다.
 * **마케팅 URL**: 구독 컬렉션을 활성화합니다.
 
 * **Android**:
 
-   ```sql
-   Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
-   Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
-   Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
-   ```
+  ```sql
+  Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
+  Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
+  Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
+  ```
 
 * **iOS에서**:
 
-   ```sql
-   Neolane_SDK *nl = [Neolane_SDK getInstance];
-   [nl setMarketingHost:strMktHost];
-   [nl setTrackingHost:strTckHost];
-   [nl setIntegrationKey:strIntegrationKey];
-   ```
+  ```sql
+  Neolane_SDK *nl = [Neolane_SDK getInstance];
+  [nl setMarketingHost:strMktHost];
+  [nl setTrackingHost:strTckHost];
+  [nl setIntegrationKey:strIntegrationKey];
+  ```
 
 ## Android SDK 통합
 
@@ -81,7 +82,6 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 > * google-services.json을 다운로드하여 프로젝트에 추가하는 것을 잊지 마십시오.
 >
 > * 다음 `apiKey` 은(는) 과(와) 일치해야 합니다. `projectKey` 이 Android 애플리케이션에 연결된 Adobe Campaign 모바일 애플리케이션에서 를 설정합니다.
-
 
 ### Android SDK 구성
 
@@ -567,6 +567,7 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
    * 알림 ID 또는 푸시 ID(iOS의 경우 deviceToken, Android의 경우 registrationID)를 Adobe Campaign에 보냅니다.
    * 조정 키 또는 userKey(예: 이메일 또는 계정 번호) 복구
 
+
    ```sql
    // Callback called on successful registration to the APNs
     - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
@@ -793,7 +794,6 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
       @end
       ```
 
-
 ## 변수 {#variables}
 
 변수를 사용하면 알림을 받은 후 모바일 애플리케이션 동작을 정의할 수 있습니다. 이러한 변수는 모바일 애플리케이션 코드 및 Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Variables]** 전용 모바일 애플리케이션 서비스의 탭.
@@ -803,43 +803,43 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 
 * **Android**:
 
-   ```sql
-   public void onReceive(Context context, Intent intent) {
-        ...
-       String event = intent.getStringExtra("VAR");
-        ...
-   }
-   ```
+  ```sql
+  public void onReceive(Context context, Intent intent) {
+       ...
+      String event = intent.getStringExtra("VAR");
+       ...
+  }
+  ```
 
 * **iOS에서**:
 
-   ```sql
-   - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-   {
-       ....
-       if( launchOptions )
-       {
-           // When application is not already launched, the notification data if any are stored in the key 'UIApplicationLaunchOptionsRemoteNotificationKey'
-           NSDictionary *localLaunchOptions = [launchOptions objectForKey:@"UIApplicationLaunchOptionsRemoteNotificationKey"];
-           if( localLaunchOptions )
-           {
-            ...
-            [localLaunchOptions objectForKey:@"VAR"];
+  ```sql
+  - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+  {
+      ....
+      if( launchOptions )
+      {
+          // When application is not already launched, the notification data if any are stored in the key 'UIApplicationLaunchOptionsRemoteNotificationKey'
+          NSDictionary *localLaunchOptions = [launchOptions objectForKey:@"UIApplicationLaunchOptionsRemoteNotificationKey"];
+          if( localLaunchOptions )
+          {
            ...
-           }
+           [localLaunchOptions objectForKey:@"VAR"];
+          ...
+          }
+     }
+  }
+  
+  // Callback called when the application is already launched (whether the application is running foreground or background)
+  - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
+  {
+      if( launchOptions )
+      {
+       ...
+          [launchOptions objectForKey:@"VAR"];
       }
-   }
-   
-   // Callback called when the application is already launched (whether the application is running foreground or background)
-   - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
-   {
-       if( launchOptions )
-       {
-        ...
-           [launchOptions objectForKey:@"VAR"];
-       }
-   }
-   ```
+  }
+  ```
 
 >[!CAUTION]
 >
@@ -887,46 +887,46 @@ Android에서 푸시 알림을 사용하려면 FCM 계정이 있어야 하며 �
 
 * 컨텐츠 확장을 Adobe Campaign에서 전송한 카테고리에 연결:
 
-   모바일 애플리케이션에서 이미지를 표시하도록 하려면 Adobe Campaign에서 카테고리 값을 &quot;이미지&quot;로 설정하고 모바일 애플리케이션에서 를 사용하여 알림 확장을 만듭니다. **UNNotificationExtension범주** 매개 변수가 &quot;image&quot;로 설정되어 있습니다. 푸시 알림이 디바이스에서 수신되면 정의된 카테고리 값에 따라 확장이 호출됩니다.
+  모바일 애플리케이션에서 이미지를 표시하도록 하려면 Adobe Campaign에서 카테고리 값을 &quot;이미지&quot;로 설정하고 모바일 애플리케이션에서 를 사용하여 알림 확장을 만듭니다. **UNNotificationExtension범주** 매개 변수가 &quot;image&quot;로 설정되어 있습니다. 푸시 알림이 디바이스에서 수신되면 정의된 카테고리 값에 따라 확장이 호출됩니다.
 
 * 알림 레이아웃 정의
 
-   관련 위젯으로 레이아웃을 정의해야 합니다. 이미지의 경우 위젯 이름이 로 지정됩니다. **UImageView**.
+  관련 위젯으로 레이아웃을 정의해야 합니다. 이미지의 경우 위젯 이름이 로 지정됩니다. **UImageView**.
 
 * 미디어 표시
 
-   위젯에 미디어 데이터를 피드하려면 코드를 추가해야 합니다. 다음은 이미지에 대한 코드의 예입니다.
+  위젯에 미디어 데이터를 피드하려면 코드를 추가해야 합니다. 다음은 이미지에 대한 코드의 예입니다.
 
-   ```sql
-   #import "NotificationViewController.h"
-   #import <UserNotifications/UserNotifications.h>
-   #import <UserNotificationsUI/UserNotificationsUI.h>
-   
-   @interface NotificationViewController () <UNNotificationContentExtension>
-   
-   @property (strong, nonatomic) IBOutlet UIImageView *imageView;
-   @property (strong, nonatomic) IBOutlet UILabel *notifContent;
-   @property (strong, nonatomic) IBOutlet UILabel *label;
-   
-   @end
-   
-   @implementation NotificationViewController
-   
-   - (void)viewDidLoad {
-       [super viewDidLoad];
-       // Do any required interface initialization here.
-   }
-   
-   - (void)didReceiveNotification:(UNNotification *)notification {
-       self.label.text = notification.request.content.title;
-       self.notifContent.text = notification.request.content.body;
-       UNNotificationAttachment *attachment = [notification.request.content.attachments objectAtIndex:0];
-       if ([attachment.URL startAccessingSecurityScopedResource])
-       {
-         NSData * imageData = [[NSData alloc] initWithContentsOfURL:attachment.URL];
-         self.imageView.image =[UIImage imageWithData: imageData];
-         [attachment.URL stopAccessingSecurityScopedResource];
-       }
-   }
-   @end
-   ```
+  ```sql
+  #import "NotificationViewController.h"
+  #import <UserNotifications/UserNotifications.h>
+  #import <UserNotificationsUI/UserNotificationsUI.h>
+  
+  @interface NotificationViewController () <UNNotificationContentExtension>
+  
+  @property (strong, nonatomic) IBOutlet UIImageView *imageView;
+  @property (strong, nonatomic) IBOutlet UILabel *notifContent;
+  @property (strong, nonatomic) IBOutlet UILabel *label;
+  
+  @end
+  
+  @implementation NotificationViewController
+  
+  - (void)viewDidLoad {
+      [super viewDidLoad];
+      // Do any required interface initialization here.
+  }
+  
+  - (void)didReceiveNotification:(UNNotification *)notification {
+      self.label.text = notification.request.content.title;
+      self.notifContent.text = notification.request.content.body;
+      UNNotificationAttachment *attachment = [notification.request.content.attachments objectAtIndex:0];
+      if ([attachment.URL startAccessingSecurityScopedResource])
+      {
+        NSData * imageData = [[NSData alloc] initWithContentsOfURL:attachment.URL];
+        self.imageView.image =[UIImage imageWithData: imageData];
+        [attachment.URL stopAccessingSecurityScopedResource];
+      }
+  }
+  @end
+  ```

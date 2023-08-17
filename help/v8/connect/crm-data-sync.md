@@ -104,9 +104,9 @@ Adobe Campaign에서 CRM을 통해 데이터를 가져오려면 다음 유형의
 * **vars.crmStartImport**: 마지막 데이터 가져오기 시작일(포함).
 * **vars.crmEndDate**: 마지막 데이터 가져오기의 종료일(제외됨)
 
-   >[!NOTE]
-   >
-   >이 날짜는 다음 형식으로 표시됩니다. **yyyy/MM/dd hh:mm:ss**.
+  >[!NOTE]
+  >
+  >이 날짜는 다음 형식으로 표시됩니다. **yyyy/MM/dd hh:mm:ss**.
 
 ### 데이터 필터링 {#filtering-data}
 

@@ -20,9 +20,9 @@ ht-degree: 0%
 
 * A **디자인** 오퍼를 사용할 수 있도록 오퍼 관리자가 오퍼를 만들고 분류하고, 편집하고, 승인 프로세스를 시작하는 환경을 제공합니다. 각 카테고리에 대한 규칙, 오퍼가 표시될 수 있는 오퍼 공간 및 오퍼의 자격 조건을 정의하는 데 사용되는 사전 정의된 필터도 이 환경에서 정의됩니다.
 
-   범주는 온라인 환경에서 수동으로 게시할 수도 있습니다.
+  범주는 온라인 환경에서 수동으로 게시할 수도 있습니다.
 
-   오퍼 승인 프로세스가 자세히 설명되어 있습니다 [이 섹션에서](interaction-offer.md#approve-offers).
+  오퍼 승인 프로세스가 자세히 설명되어 있습니다 [이 섹션에서](interaction-offer.md#approve-offers).
 
 * A **live** 디자인 환경의 승인된 오퍼와 디자인 환경에 구성된 다양한 오퍼 공간, 필터, 카테고리 및 규칙을 모두 찾을 수 있습니다. 오퍼 엔진을 호출하는 동안 엔진은 항상 라이브 환경의 오퍼를 사용합니다.
 
@@ -102,10 +102,11 @@ Adobe Campaign 상호 작용 모듈은 다음 두 가지 유형의 상호 작용
    * 사용된 애플리케이션 유형 확인: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**&#x200B;또는 둘 다.
    * 사용된 FDA 계정을 입력합니다. 연산자는 실행 인스턴스에 만들어야 하며 해당 인스턴스의 데이터베이스에 대해 다음 읽기 및 쓰기 권한이 있어야 합니다.
 
-      ```
-      grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
-      grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
-      ```
+     ```
+     grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
+     grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
+     ```
+
    >[!NOTE]
    >
    >제어 인스턴스의 IP 주소는 실행 인스턴스에서 인증되어야 합니다.
@@ -117,9 +118,9 @@ Adobe Campaign 상호 작용 모듈은 다음 두 가지 유형의 상호 작용
    * 실행 인스턴스 목록을 추가합니다.
    * 각각에 대해 동기화 기간 및 필터 기준(예: 국가별)을 지정합니다.
 
-      >[!NOTE]
-      >
-      >오류가 발생하면 동기화 워크플로우 및 오퍼 알림을 참조할 수 있습니다. 애플리케이션의 기술 워크플로우에서 찾을 수 있습니다.
+     >[!NOTE]
+     >
+     >오류가 발생하면 동기화 워크플로우 및 오퍼 알림을 참조할 수 있습니다. 애플리케이션의 기술 워크플로우에서 찾을 수 있습니다.
 
 최적화를 위해 마케팅 데이터베이스의 일부만 실행 인스턴스에 복제되는 경우 환경에 연결된 제한된 스키마를 지정하여 사용자가 실행 인스턴스에서 사용할 수 있는 데이터만 사용할 수 있도록 할 수 있습니다. 실행 인스턴스에서 사용할 수 없는 데이터를 사용하여 오퍼를 만들 수 있습니다. 이렇게 하려면 아웃바운드 채널에서 이 규칙을 제한하여 다른 채널에서 규칙을 비활성화해야 합니다(**[!UICONTROL Taken into account if]** field).
 

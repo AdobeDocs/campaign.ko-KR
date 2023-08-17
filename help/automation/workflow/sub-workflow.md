@@ -53,7 +53,7 @@ ht-degree: 0%
 * 중간 모집단 수를 표시할 수 없습니다.
 * 하위 워크플로우 로그는 기본 워크플로우에 표시됩니다.
 
-   ![](assets/subworkflow_logs.png)
+  ![](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >

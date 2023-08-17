@@ -57,7 +57,7 @@ Campaign 오케스트레이션 구성 요소는 **[!UICONTROL Campaigns]** 탭: 
 
 * 다음 **편집** 탭에서는 이름, 시작 및 종료 일자, 예산, 링크된 문서 등 프로그램을 개인화할 수 있습니다.
 
-   ![](assets/new-program-edit-tab.png)
+  ![](assets/new-program-edit-tab.png)
 
 ## 캠페인 작업{#work-with-campaigns}
 
