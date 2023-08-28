@@ -4,9 +4,9 @@ title: 데이터 로딩(파일)
 description: 데이터 로드(파일) 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Data Management Activity
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: cf88140d1e8b71203729732163f66060423965a0
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1037'
 ht-degree: 14%
 
 ---
@@ -32,6 +32,10 @@ ht-degree: 14%
 예를 들어, 서버에서 파일의 압축을 풀지 않고(따라서 압축 해제된 파일에 대한 공간을 절약할 필요가 없음) 파일 처리 시 압축 해제를 포함할 수 있도록 파일 가져오기 중에 실행할 사전 프로세스를 정의할 수 있습니다. 다음 항목 선택 **[!UICONTROL Pre-process the file]** 옵션을 선택하고 다음 세 가지 옵션 중 하나를 선택합니다. **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) 또는 **[!UICONTROL Decrypt]** (gpg).
 
 ![](assets/preprocessing-dataloading.png)
+
+>[!IMPORTANT]
+>
+>4Gb보다 큰 압축 파일은 압축을 풀 수 없습니다.
 
 ## 파일 형식 정의 {#defining-the-file-format}
 
