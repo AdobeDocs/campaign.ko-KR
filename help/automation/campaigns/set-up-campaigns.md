@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: 첫 번째 캠페인 만들기
+title: 마케팅 캠페인 시작
 description: 마케팅 캠페인으로 시작하는 방법 알아보기
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: ac4473625697d0fd545586a01868e3229bccc672
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 14%
+source-wordcount: '444'
+ht-degree: 16%
 
 ---
 
-# 첫 번째 캠페인 만들기{#gs-marketing-campaigns}
+# 마케팅 캠페인 시작 {#gs-marketing-campaigns}
 
 Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. Adobe Campaign은 마케팅 전략을 위한 통합 주문 및 실행 센터 역할을 합니다. 드래그 앤 드롭 시각적 워크플로우 인터페이스를 통해 여러 데이터 소스를 관리하고, 대상 세그먼트를 정의하고, 여러 단계로 구성된 크로스 채널 캠페인을 계획 및 실행합니다.
 
