@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
-source-git-commit: 4f3e6227193fc607a968f9170484017e551fa560
+source-git-commit: 4ff6e8134c887da6c207afc7f9532a60ff9ef31e
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 95%
+source-wordcount: '570'
+ht-degree: 94%
 
 ---
 
@@ -35,44 +35,43 @@ ht-degree: 95%
 + 캠페인 관리 {#campaigns}
    + [업그레이드 시작하기](start/campaigns.md)
    + [캠페인 오케스트레이션 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
-   + 메시지 보내기{#send}
-      + [메시지 시작](start/create-message.md)
-      + [게재 템플릿 작업](send/create-templates.md)
-      + 이메일 {#emails}
-         + [이메일 디자인 및 유효성 검사](send/email.md)
-         + [미러 페이지로 가는 링크](send/mirror-page.md)
-         + [추가 이메일 매개 변수 정의](send/email-parameters.md)
-         + [이메일 보내기 및 모니터링](send/send.md)
-      + [SMS](send/sms.md)
-      + 푸시 알림 {#push}
-         + [푸시 알림 만들기 및 전송](send/push.md)
-         + [푸시 알림 채널 구성](send/push-settings.md)
-         + [데이터 수집으로 푸시 알림 구성](send/push-data-collection.md)
-      + [LINE 메시지 보내기](send/line.md)
-      + [DM](send/direct-mail.md)
-      + [Twitter](send/twitter.md)
-      + 트랜잭션 메시지  {#real-time}
-         + [트랜잭션 메시지 시작](send/transactional.md)
-         + [템플릿 만들기 및 게시](send/transactional-template.md)
-         + 이벤트 관리 {#event}
++ 메시지 보내기{#send}
+   + [메시지 시작](start/create-message.md)
+   + 이메일 {#emails}
+      + [이메일 디자인 및 유효성 검사](send/email.md)
+      + [미러 페이지로 가는 링크](send/mirror-page.md)
+      + [추가 이메일 매개 변수 정의](send/email-parameters.md)
+      + [이메일 보내기 및 모니터링](send/send.md)
+   + [SMS](send/sms.md)
+   + 푸시 알림 {#push}
+      + [푸시 알림 만들기 및 전송](send/push.md)
+      + [푸시 알림 채널 구성](send/push-settings.md)
+      + [데이터 수집으로 푸시 알림 구성](send/push-data-collection.md)
+   + [LINE 메시지 보내기](send/line.md)
+   + [DM](send/direct-mail.md)
+   + [Twitter](send/twitter.md)
+   + 콘텐츠 개인화 {#personalize}
+      + [개인화 시작하기](send/personalize.md)
+      + [개인화 데이터](send/personalization-data.md)
+      + [개인화 필드 추가](send/personalization-fields.md)
+      + [개인화 블록 사용](send/personalization-blocks.md)
+      + [조건 만들기](send/conditions.md)
+   + 게재 확인 및 보내기 {#validate}
+   + [미리 보기 및 증명](send/preview-and-proof.md)
+   + [게재 분석](send/delivery-analysis.md)
+   + [게재 구성 및 보내기](send/configure-and-send.md)
+   + [전송 시간 최적화](send/predictive.md)
+   + 실패, 바운스, 격리{#failures}
+      + [격리](send/quarantines.md)
+      + [게재 실패](send/delivery-failures.md)
+   + [게재 템플릿 작업](send/create-templates.md)
+   + 트랜잭션 메시지 {#real-time}
+      + [트랜잭션 메시지 시작](send/transactional.md)
+      + [템플릿 만들기 및 게시](send/transactional-template.md)
+      + 이벤트 관리 {#event}
          + [이벤트 수집 및 처리](send/event-processing.md)
          + [이벤트 설명 이해](send/event-description.md)
          + [메시지 전송 및 모니터링](send/delivery-execution.md)
-      + 실패, 바운스, 격리{#failures}
-         + [격리](send/quarantines.md)
-         + [게재 실패](send/delivery-failures.md)
-      + [전송 시간 최적화](send/predictive.md)
-      + [구독 관리](start/subscriptions.md)
-      + 콘텐츠 개인화 {#personalize}
-         + [개인화 시작하기](send/personalize.md)
-         + [개인화 데이터](send/personalization-data.md)
-         + [개인화 필드 추가](send/personalization-fields.md)
-         + [개인화 블록 사용](send/personalization-blocks.md)
-         + [조건 만들기](send/conditions.md)
-      + 게재 유효성 검사 {#validate}
-         + [미리 보기 및 증명](send/preview-and-proof.md)
-         + [게재 분석](send/delivery-analysis.md)
-      + [게재 구성 및 보내기](send/configure-and-send.md)
 + 프로필 및 대상자 관리 {#audience}
    + [프로필 및 대상자 시작](audiences/gs-audiences.md)
    + [대상자를 사용한 작업](start/audiences.md)
@@ -87,8 +86,9 @@ ht-degree: 95%
    + 대상자 만들기 {#create-audiences}
       + [연락처 목록 만들기](audiences/create-audiences.md)
       + [필터 만들기 및 관리](audiences/create-filters.md)
-   + [Adobe 솔루션으로 대상자 공유](start/shared-audiences.md)
+      + [Adobe 솔루션으로 대상자 공유](start/shared-audiences.md)
    + [모범 사례](audiences/audiences-best-practices.md)
+   + [구독 관리](start/subscriptions.md)
 + 콘텐츠 관리 {#content}
    + [웹 앱 및 양식 디자인](dev/webapps.md)
 + 개인 정보 보호 및 보안 관리 {#privacy}
