@@ -3,9 +3,9 @@ title: 캠페인 운영자를 IMS(Identity Management System) Adobe으로 마이
 description: Campaign 연산자를 IMS(Identity Management System) Adobe으로 마이그레이션하는 방법에 대해 알아봅니다.
 hide: true
 hidefromtoc: true
-source-git-commit: 11128dcb26119383b86aa62561ec0ce1a3c138ad
+source-git-commit: a141ba08b9c40fb89cfdf63c3078082d32afd861
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ IMS 마이그레이션은 다른 대부분의 Adobe DX 앱이 이미 IMS에 있�
 이제 다음 내용에 따라 기술 사용자가 IMS로 마이그레이션하도록 계획할 수 있습니다. [이 기술 노트](ims-migration.md)을 클릭하고, 완료되면 Adobe 전환 관리자에게 문의하십시오.
 그러면 Adobe이 마이그레이션을 완료로 표시하고 플래그를 켜서 새로운 기본 사용자 생성 및 기본 사용자 로그인을 차단합니다.
 
-## FAQ? {#ims-migration-faq}
+## FAQ(자주 묻는 질문) {#ims-migration-faq}
 
 ### 언제 마이그레이션을 시작할 수 있습니까? {#ims-migration-start}
 
@@ -58,7 +58,7 @@ IMS(Adobe Identity Management System)로 마이그레이션하기 위한 전제 
 
 Campaign v8.5.2로 업그레이드한 후 프로덕션 환경을 위한 계획을 수립하면 스테이징 환경에서 IMS 마이그레이션을 시작할 수 있습니다.
 
-### 8.5.2 빌드 업그레이드 후에는 어떻게 됩니까? {#ims-migration-after-upgrade}
+### Campaign v8.5.2로 빌드 업그레이드 후 어떻게 됩니까? {#ims-migration-after-upgrade}
 
 환경이 Campaign v8.5.2로 업그레이드되면 IMS(Identity Management System) 마이그레이션 Adobe을 수행할 수 있습니다.
 
@@ -90,3 +90,20 @@ Campaign 관리자는 클라이언트 콘솔에서 모든 기본 사용자에게
 ### IMS를 통해 Campaign에 로그인하는 방법 {#ims-migration-log}
 
 에서 Adobe ID을 사용하여 Campaign에 연결하는 방법 알아보기 [이 섹션](../../v8/start/connect.md).
+
+### 이 마이그레이션 도중 중단 시간이 발생합니까? {#ims-migration-downtime}
+
+마이그레이션을 완료하려면(Adobe 및 제품 프로필 마이그레이션) 인스턴스(워크플로 등)에 대한 가동 중지 시간 없이 1시간 동안 마이그레이션이 필요합니다.
+
+이 기간 동안 IMS로의 마이그레이션이 완료되면 모든 Campaign 사용자는 로그오프한 후 Adobe ID으로 다시 로그인해야 합니다.
+
+
+### IMS 사용자 마이그레이션 중에 로그인한 사용자는 어떻게 됩니까? {#ims-migration-log-off}
+
+Adobe은 마이그레이션 기간 동안 모든 사용자를 로그오프할 것을 강력히 권장합니다.
+
+### 조직의 사용자가 이미 IMS를 사용하고 있습니다. IMS 마이그레이션을 수행해야 합니까?
+
+이 마이그레이션에는 비기술적 &quot;사람&quot; 사용자 마이그레이션과 기술 사용자 마이그레이션(사용자 지정 코드의 API에 사용됨)의 두 가지 측면이 있습니다.
+
+모든 사용자(Campaign 운영자)가 IMS에 있는 경우 이 마이그레이션을 수행할 필요가 없습니다. 하지만 사용자 지정 코드에서 사용했을 수 있는 기술 사용자를 계속 마이그레이션해야 합니다. [이 페이지](ims-migration.md)에서 자세히 알아보십시오.
