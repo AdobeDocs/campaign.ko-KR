@@ -1,13 +1,13 @@
 ---
-title: Campaign 및 Adobe Experience Platform 작업
-description: Campaign을 Adobe Experience Platform과 함께 사용하는 방법에 대해 알아보기
+title: 대상 및 프로필 속성
+description: Adobe Experience Platform 대상자 및 프로필 속성을 Campaign과 동기화하는 방법 알아보기
 feature: Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: d9a91fddbdcfae0f59fe780f8b6962238b89c886
+source-git-commit: 2bd007dec1a61828a499d6c4db738e7673382fb4
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
