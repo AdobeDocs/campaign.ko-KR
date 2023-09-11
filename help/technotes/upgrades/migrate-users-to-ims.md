@@ -3,9 +3,9 @@ title: 캠페인 운영자를 IMS(Identity Management System) Adobe으로 마이
 description: Campaign 연산자를 IMS(Identity Management System) Adobe으로 마이그레이션하는 방법에 대해 알아봅니다.
 hide: true
 hidefromtoc: true
-source-git-commit: 74d97c4c61a305aff1d2f108a8a24cb6943dea07
+source-git-commit: 53412ab167721c8a8f9d84e07112b0f410d4785d
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1094'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,6 @@ Campaign v8을 사용하면 모든 일반 사용자가 이미 IMS(Identity Manag
 또한 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 이제 Adobe Campaign 클라이언트 애플리케이션이 IMS 기술 계정 토큰을 사용하여 Campaign API를 직접 호출합니다. 기술 운영자를 위한 마이그레이션에 대해서는 전용 문서에 자세히 설명되어 있으며 다음에서 사용할 수 있습니다. [이 페이지](ims-migration.md).
 
 이 변경 사항은 Campaign v8.5.2부터 적용되며 다음과 같습니다. **필수** campaign v8.6을 시작하는 중입니다.
-
 
 ## 영향을 받습니까?{#migrate-ims-impacts}
 
@@ -49,8 +48,9 @@ Campaign v8을 사용하면 모든 일반 사용자가 이미 IMS(Identity Manag
 1. Adobe과 협력하여 기술 전문가가 아닌 사용자(운영자) 및 제품 프로필에 대해 Adobe이 자동 마이그레이션을 실행할 수 있는 날짜를 확보하십시오. 이 단계에는 인스턴스에 대한 가동 중지 시간 없이 1시간 기간이 필요합니다.
 1. 내부 Campaign 관리자가 이러한 변경 사항을 확인하고 승인을 제공합니다. 이 마이그레이션 후에는 더 이상 이 로그인 및 암호로 인증하는 연산자를 만들지 않아야 합니다.
 
-이제 다음 내용에 따라 기술 사용자가 IMS로 마이그레이션하도록 계획할 수 있습니다. [이 기술 노트](ims-migration.md)을 클릭하고, 완료되면 Adobe 전환 관리자에게 문의하십시오.
-그러면 Adobe이 마이그레이션을 완료로 표시하고 플래그를 켜서 새로운 기본 사용자 생성 및 기본 사용자 로그인을 차단합니다.
+다음과같이 기술 연산자를 Adobe Developer 콘솔로 마이그레이션할 수 있습니다. [이 기술 노트](ims-migration.md). Campaign API를 사용하는 경우 이 단계는 필수입니다.
+
+이 마이그레이션이 완료되면 Adobe 전환 관리자에게 문의하십시오. Adobe은 마이그레이션을 완료로 표시하고 새로운 기본 사용자 생성 및 기본 사용자 로그인을 차단합니다. 그런 다음 환경을 보호하고 표준화합니다.
 
 ## FAQ(자주 묻는 질문) {#ims-migration-faq}
 
@@ -105,10 +105,19 @@ CSV 파일을 가져와서 모든 운영자 프로필의 이메일을 업데이�
 
 Adobe은 마이그레이션 기간 동안 모든 사용자를 로그오프할 것을 강력히 권장합니다.
 
-### 조직의 사용자가 이미 IMS를 사용하고 있습니다. IMS 마이그레이션을 수행해야 합니까?
+### 조직의 사용자가 이미 IMS를 사용하고 있습니다. IMS 마이그레이션을 수행해야 합니까?{#ims-migration-needed}
 
 이 마이그레이션에는 최종 사용자 마이그레이션과 기술 사용자 마이그레이션(사용자 지정 코드의 API에 사용됨)의 두 가지 측면이 있습니다.
 
 모든 사용자(Campaign 운영자)가 IMS에 있는 경우 이 마이그레이션을 수행할 필요가 없습니다. 하지만 사용자 지정 코드에서 사용했을 수 있는 기술 사용자를 계속 마이그레이션해야 합니다. [이 페이지](ims-migration.md)에서 자세히 알아보십시오.
 
 이 마이그레이션이 완료되면 Adobe이 마이그레이션을 완료할 수 있도록 Adobe 전환 관리자에게 문의해야 합니다.
+
+## 유용한 링크 {#ims-useful-links}
+
+* [기술 사용자를 Adobe Developer 콘솔로 마이그레이션](ims-migration.md)
+* [Adobe Campaign v8에 연결하는 방법](../../v8/start/connect.md)
+* [Adobe Campaign v8의 액세스 및 권한](../../v8/start/gs-permissions.md)
+* [Adobe Campaign v8 릴리스 노트](../../v8/start/release-notes.md)
+* [IMS(Identity Management System) Adobe](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}
+
