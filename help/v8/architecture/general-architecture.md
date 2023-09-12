@@ -5,9 +5,9 @@ feature: Architecture
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: d791cb9afc51457e799ee62f8bb845fd888fecf2
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1129'
 ht-degree: 7%
 
 ---
@@ -78,6 +78,7 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 
 * **통계 서버** (nlserver stat) - 이 프로세스는 연결 수, 메시지를 보내는 각 메일 서버에 대해 전송된 메시지 및 제한 사항(최대 동시 연결 수, 시간당 메시지 수 및/또는 연결)에 대한 통계를 유지 관리합니다. 또한 동일한 공개 IP 주소를 공유하는 경우 여러 인스턴스 또는 시스템을 페더레이션할 수 있습니다.
 
+
 ## 데이터베이스 컨테이너 {#db-containers}
 
 Adobe Campaign Cloud 데이터베이스는 [!DNL Snowflake] 기능 데이터(프로필, 구독, 콘텐츠 등), 기술 데이터(게재 작업 및 로그, 추적 로그 등)가 포함되어 있습니다. 솔루션에 대한 작업 데이터(구매, 리드) 및 모든 Adobe Campaign 구성 요소는 특정 작업을 수행하기 위해 데이터베이스와 통신합니다.
@@ -92,3 +93,9 @@ Adobe Campaign Cloud 데이터베이스는 [!DNL Snowflake] 기능 데이터(프
 >**Campaign Managed Cloud Services**&#x200B;를 사용하면 Adobe가 라이선스 계약의 약관에 따라 환경 및 초기 구성을 설정합니다. 설치된 기본 제공 패키지, 기본 제공 스키마 또는 보고서는 수정할 수 없습니다.
 >
 >Campaign 추가 기능 또는 제공되지 않은 특정 기능을 사용해야 하는 경우 **Adobe 고객 지원 센터**&#x200B;에 문의해야 합니다.
+
+## 데이터베이스 저장소 {#db-storage}
+
+총 저장 용량은 기본 데이터베이스와 Snowflake 웨어하우스 간에 분할됩니다. 데이터가 저장되는 위치는 고객별 사용 사례에 따라 구현 또는 업그레이드 시 결정되어야 합니다.
+
+에서 데이터베이스 사용량을 모니터링하는 방법 알아보기 [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.
