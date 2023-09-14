@@ -1,11 +1,9 @@
 ---
 title: 캠페인 운영자를 IMS(Identity Management System) Adobe으로 마이그레이션
 description: Campaign 연산자를 IMS(Identity Management System) Adobe으로 마이그레이션하는 방법에 대해 알아봅니다.
-hide: true
-hidefromtoc: true
-source-git-commit: 53412ab167721c8a8f9d84e07112b0f410d4785d
+source-git-commit: a85368a8cd34c9bcdfcea91b71fa4b519b6437a3
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1078'
 ht-degree: 1%
 
 ---
@@ -88,7 +86,7 @@ Campaign 관리자는 클라이언트 콘솔에서 모든 기본 사용자에게
 1. 에 운영자의 이메일을 입력합니다. **연락처** 연산자 양식의 섹션입니다.
 1. 변경 내용을 저장합니다.
 
-CSV 파일을 가져와서 모든 운영자 프로필의 이메일을 업데이트할 수도 있습니다.
+<!--You can also import a CSV file to update all your operator profiles with their email.-->
 
 
 ### IMS를 통해 Campaign에 로그인하는 방법 {#ims-migration-log}
