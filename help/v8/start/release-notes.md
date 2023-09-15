@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 758d542b353a2d784407954089586e761825d740
+source-git-commit: c4a1539f140e85e1e8c97f743f9c6c0bba52e4de
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 51%
+source-wordcount: '1489'
+ht-degree: 55%
 
 ---
 
@@ -38,7 +38,6 @@ Campaign v8.5.1은 최신 첨단 기술을 기반으로 구축된 강력한 프�
 자세한 내용은 [세부 설명서](../send/push-data-collection.md)를 참조하세요.
 
 
-**모바일 채널 처리량 증가**
 
 <!--
 The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5).
@@ -60,7 +59,7 @@ These max throughput performances have been measured by Adobe testing teams, in 
 </td>
 <td>
 <div>
-
+<p><strong>모바일 채널 처리량 증가</strong></p>
 <p>새로 도입된 푸시 알림 서비스는 이전 버전(v8.4)과 비교하여 푸시 Android 및 푸시 iOS 모두에서 처리량이 크게 향상되었음을 보여 줍니다. 사용자는 최신 버전(v8.5)에서 업그레이드된 서비스로 현저하게 향상된 성능을 경험할 수 있습니다. </p>
 <ul>
 <li>푸시 알림(Android): 최대 <strong>5배</strong> 빠름 </li>
@@ -85,8 +84,8 @@ These max throughput performances have been measured by Adobe testing teams, in 
 
 **향상된 보안 기능**
 
-* Campaign v8.5.1부터 Campaign v8에 대한 인증 프로세스가 개선되었습니다. 기술 운영자는 IMS(Adobe Identity Management System)를 사용하여 Campaign에 연결해야 합니다. 에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다. [이 기술 노트](../../technotes/upgrades/ims-migration.md).
-* Campaign 클라이언트 콘솔에서는 더 이상 연산자를 만들 수 없습니다. 사용자 인터페이스가 이에 따라 업데이트되었습니다. 이제 Adobe Admin Console을 사용해야 합니다. [자세히 알아보기](../start/gs-permissions.md)
+* Campaign v8.5.1을 사용하면 Campaign v8에 대한 인증 프로세스가 개선되고 보호됩니다. 이제 기술 운영자는 IMS(Adobe Identity Management System)를 사용하여 Campaign에 연결해야 합니다. 에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다. [이 기술 노트](../../technotes/upgrades/ims-migration.md).
+* 예정된 v8.6부터 더 이상 Campaign 클라이언트 콘솔에서 연산자를 만들 수 없습니다. 로그인/암호 기본 인증을 사용하는 경우 연산자를 Adobe Identity Management System(IMS)으로 마이그레이션해야 합니다. 에서 연산자를 마이그레이션하는 방법을 알아봅니다. [이 기술 노트](../../technotes/upgrades/migrate-users-to-ims.md).
 * 보안을 최적화하기 위해 여러 타사 도구가 업데이트되었습니다.
 
 **호환성 업데이트**
