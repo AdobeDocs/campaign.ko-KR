@@ -3,7 +3,7 @@ title: Amazon Web Services으로 Campaign 전송 인프라 마이그레이션(AW
 description: Amazon Web Services으로 Campaign 전송 인프라 마이그레이션(AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: d0935df57d8a25fa023dd93e7923c2728d889577
+source-git-commit: 53080e3641e0070b0b6e47d1ec8b55b4c7aa2b1a
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 5%
@@ -31,7 +31,7 @@ v8 고객, v7 호스팅, 하이브리드 또는 Managed Services Campaign 고객
 
 Campaign 고객은 마이그레이션 예약된 대로 추가 알림을 받게 됩니다. 마이그레이션 최소 7일 전에 알림이 전송됩니다.
 
-## 어떤 영향이 있습니까?{#aws-impact}
+## 어떤 영향이 있습니까?{#impact}
 
 이러한 움직임은 고객에게 투명합니다.
 
