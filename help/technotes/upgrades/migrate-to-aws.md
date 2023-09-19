@@ -3,10 +3,10 @@ title: Amazon Web Services으로 Campaign 전송 인프라 마이그레이션(AW
 description: Amazon Web Services으로 Campaign 전송 인프라 마이그레이션(AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: 53080e3641e0070b0b6e47d1ec8b55b4c7aa2b1a
+source-git-commit: 557d61e0e015fa955b70858d614e476febd467cb
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 5%
+source-wordcount: '401'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,11 @@ ht-degree: 5%
 
 ## 영향을 받습니까?{#aws-impact}
 
-v8 고객, v7 호스팅, 하이브리드 또는 Managed Services Campaign 고객은 영향을 받습니다.
+이 변경 사항은 다음 사항에 영향을 줍니다.
+
+* Campaign Classic v7 호스팅 및 하이브리드 고객
+* Campaign Managed Services 고객
+* 모든 Campaign v8 고객
 
 ## 이러한 마이그레이션은 언제 발생합니까?{#aws-timeline}
 
@@ -29,21 +33,43 @@ v8 고객, v7 호스팅, 하이브리드 또는 Managed Services Campaign 고객
 
 프로덕션 환경 마이그레이션은 다음 일자에 시작되도록 예약되었습니다. **2024년 1월**. 더 자세한 내용은 날짜가 가까워지면 제공될 것입니다.
 
-Campaign 고객은 마이그레이션 예약된 대로 추가 알림을 받게 됩니다. 마이그레이션 최소 7일 전에 알림이 전송됩니다.
+Campaign 고객은 마이그레이션 예약된 대로 추가 알림을 받게 됩니다. 스테이지 환경의 경우 마이그레이션 최소 7일 전에 알림이 전송되고, 프로덕션 환경의 경우 마이그레이션 최소 30일 전에 알림이 전송됩니다.
 
 ## 어떤 영향이 있습니까?{#impact}
 
 이러한 움직임은 고객에게 투명합니다.
 
-* 전송 IP 및 캠페인 빌드 버전은 이동 전과 동일하게 유지됩니다.
+* 마이그레이션에 30분~60분 정도 걸릴 것으로 예상됩니다
 
 * 마이그레이션 기간 동안 Campaign 인스턴스에서 메일을 보낼 수 없습니다. 다른 캠페인 기능은 영향을 받지 않습니다.
 
-* 유지 관리 기간 전에 배달 대기 중인 모든 메일은 다시 전송해야 합니다.
 
->[!NOTE]
->
->이 마이그레이션에 대한 질문이 있으면 Adobe 담당자에게 문의하거나 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
->
+## FAQ(자주 묻는 질문) {#aws-faq}
+
+* **필수 업그레이드인 이유는 무엇입니까?**
+
+  Adobe 웹 서비스(AWS)에서 호스팅하는 새로운 Campaign 전송 인프라는 고객에게 더 나은 품질과 안정성을 제공합니다. 또한 보다 나은 가용성과 최적의 처리량을 보장하기 위해 강력하고 현대적인 인프라를 제공합니다.
+
+* **이 마이그레이션의 대상이 되는 고객은 무엇입니까?**
+
+  모든 Campaign v8 고객과 Campaign Classic v7 하이브리드, 호스팅 및 Campaign Managed Services의 환경이 마이그레이션됩니다.
+
+* **예상되는 다운타임은 무엇입니까?**
+
+  예상되는 다운타임은 30~60분 사이입니다.
+
+* **마이그레이션을 위해 고객이 수행해야 하는 작업이 있습니까?**
+
+  마이그레이션은 Adobe에 의해 자동으로 실행되므로 작업이 필요하지 않습니다.
+
+* **고객이 실행해야 하는 유효성 검사는 무엇입니까?**
+
+  이 보안 업그레이드에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support)
 
 
+* **예약된 보안 업그레이드 슬롯에 대한 날짜/시간 변경을 요청할 수 있습니까?**
+
+  이는 필수 마이그레이션이므로 기존 일정에 적응하는 것이 좋습니다.
+
+
+기타 문의 사항은 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support).
