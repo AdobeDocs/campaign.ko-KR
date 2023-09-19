@@ -3,9 +3,9 @@ title: Amazon Web Services으로 Campaign 전송 인프라 마이그레이션(AW
 description: Amazon Web Services으로 Campaign 전송 인프라 마이그레이션(AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: 557d61e0e015fa955b70858d614e476febd467cb
+source-git-commit: 3a8fd0a0c721d03f1818dce45b58a841284bbb00
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ Campaign 고객은 마이그레이션 예약된 대로 추가 알림을 받게 �
 
 * **고객이 실행해야 하는 유효성 검사는 무엇입니까?**
 
-  이 보안 업그레이드에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+  이 마이그레이션에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support)
 
 
 * **예약된 보안 업그레이드 슬롯에 대한 날짜/시간 변경을 요청할 수 있습니까?**
