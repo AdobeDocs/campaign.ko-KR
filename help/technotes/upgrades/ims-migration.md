@@ -1,9 +1,9 @@
 ---
 title: 기술 사용자를 Adobe Developer 콘솔로 마이그레이션
 description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 계정으로 마이그레이션하는 방법을 알아봅니다
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 825e8147f6080e1d943184c97c4b64ac681f9411
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,16 @@ Campaign 일반 사용자는 이미 IMS(Identity Management System) Adobe을 통
 Campaign API를 사용하는 경우 아래에 자세히 설명된 대로 기술 연산자를 Adobe Developer 콘솔로 마이그레이션해야 합니다.
 
 ## 마이그레이션 방법{#ims-migration-procedure}
+
+각 기술 운영자는 최소 하나 이상의 기술 계정을 보유해야 합니다.
+
+주요 단계:
+
+1. 먼저 기술 연산자에 해당하는 기술 계정을 만듭니다. 예를 들어 기술 연산자(TO1)에 대해 새로 생성된 기술 계정(TA1)을 가정해 보겠습니다.
+1. 기술 계정 TA1에 대해 아래에 설명된 단계를 실행합니다.
+   [4단계](#ims-migration-step-4) 는 선택 사항이며 기술 운영자가 특정 폴더 권한을 가지는 경우에만 필요합니다.
+1. 모든 Campaign API 통합 구현을 새로 만든 기술 계정 TA1로 마이그레이션합니다.
+1. TA1에서 API/통합 관련 고객이 모두 작동하게 되면 기술 운영자 TO1을 기술 계정 TA1로 교체하십시오.
 
 ### 전제 조건{#ims-migration-prerequisites}
 
@@ -61,7 +71,6 @@ API가 성공적으로 연결되면 클라이언트 ID 및 클라이언트 암�
 1. 다음으로 이동 **자격 증명 세부 정보** 프로젝트의 탭을 복사한 다음 **기술 계정 이메일** 값.
 
 ### 4단계 - 클라이언트 콘솔에서 기술 연산자 업데이트 {#ims-migration-step-4}
-
 
 이 단계는 (운영자의 그룹을 통하지 않고) 이 운영자에 대해 특정 폴더 권한 또는 명명된 권한이 정의된 경우에만 필요합니다.
 
@@ -181,7 +190,7 @@ You can also update the technical operator programmatically, using SQL scripts o
 
 마이그레이션 프로세스가 달성되고 유효성이 확인되면 Soap 호출이 다음과 같이 업데이트됩니다.
 
-* 마이그레이션 전
+* 마이그레이션 전: 기술 계정 액세스 토큰에 대한 지원이 없었습니다.
 
   ```sql
   POST /nl/jsp/soaprouter.jsp HTTP/1.1
@@ -204,7 +213,7 @@ You can also update the technical operator programmatically, using SQL scripts o
   </soapenv:Envelope>
   ```
 
-* 마이그레이션 후
+* 마이그레이션 후: 기술 계정 액세스 토큰에 대한 지원이 있습니다. 액세스 토큰이에 다음에서 제공해야 합니다. `Authorization` 헤더를 전달자 토큰으로 사용합니다. 아래 soap 호출 샘플에 표시된 대로 여기서는 세션 토큰 사용을 무시해야 합니다.
 
   ```sql
   POST /nl/jsp/soaprouter.jsp HTTP/1.1
