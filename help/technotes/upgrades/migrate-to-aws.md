@@ -3,9 +3,9 @@ title: Amazon Web Services으로 Campaign 전송 인프라 마이그레이션(AW
 description: Amazon Web Services으로 Campaign 전송 인프라 마이그레이션(AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: f1b4002063c8b94eb7251a9bcde9fe11791d0be3
+source-git-commit: 15beb6e4aae7a00b245277bcb4c6c60c13b22884
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '430'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 2%
 * Campaign Classic v7 호스팅 및 하이브리드 고객
 * Campaign Managed Services 고객
 * 모든 Campaign v8 고객
+* Campaign Standard 고객
 
 ## 이러한 마이그레이션은 언제 발생합니까?{#aws-timeline}
 
@@ -48,11 +49,13 @@ Campaign 고객은 마이그레이션 예약된 대로 추가 알림을 받게 �
 
 * **필수 업그레이드인 이유는 무엇입니까?**
 
-  Adobe 웹 서비스(AWS)에서 호스팅하는 새로운 Campaign 전송 인프라는 고객에게 더 나은 품질과 안정성을 제공합니다. 또한 보다 나은 가용성과 최적의 처리량을 보장하기 위해 강력하고 현대적인 인프라를 제공합니다.
+  Adobe은 기존 데이터 센터를 서비스 해제할 계획이며, 이 곳에서 실행 중인 Adobe Campaign 인스턴스를 새 참조 데이터 센터인 Amazon Web Services(AWS)로 전송해야 합니다.
+
+  Adobe Managed Services 클라우드는 현대적이고 안전하며 최적화된 환경인 Amazon Web Services(AWS)에서 호스팅됩니다. [Amazon Web Services에 대해 자세히 알아보기](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}.
 
 * **이 마이그레이션의 대상이 되는 고객은 무엇입니까?**
 
-  모든 Campaign v8 고객과 Campaign Classic v7 하이브리드, 호스팅 및 Campaign Managed Services의 환경이 마이그레이션됩니다.
+  모든 Campaign v8 고객과 Campaign Classic v7 하이브리드, 호스팅 및 Campaign Managed Services의 환경이 마이그레이션됩니다. Campaign Standard 고객도 영향을 받습니다.
 
 * **예상되는 다운타임은 무엇입니까?**
 
@@ -64,7 +67,7 @@ Campaign 고객은 마이그레이션 예약된 대로 추가 알림을 받게 �
 
 * **고객이 실행해야 하는 유효성 검사는 무엇입니까?**
 
-  이 마이그레이션에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+  이 마이그레이션에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 * **예약된 보안 업그레이드 슬롯에 대한 날짜/시간 변경을 요청할 수 있습니까?**
@@ -72,4 +75,4 @@ Campaign 고객은 마이그레이션 예약된 대로 추가 알림을 받게 �
   이는 필수 마이그레이션이므로 기존 일정에 적응하는 것이 좋습니다.
 
 
-기타 문의 사항은 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+기타 문의 사항은 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
