@@ -3,9 +3,9 @@ title: Amazon Web Services으로 Campaign 전송 인프라 마이그레이션(AW
 description: Amazon Web Services으로 Campaign 전송 인프라 마이그레이션(AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: 15beb6e4aae7a00b245277bcb4c6c60c13b22884
+source-git-commit: 9401e3564b53b920dd6a640ca6d00531992a2f21
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ Campaign 고객은 마이그레이션 예약된 대로 추가 알림을 받게 �
 
 이러한 움직임은 고객에게 투명합니다.
 
-* 마이그레이션에 30분~60분 정도 걸릴 것으로 예상됩니다
+* 각 마이그레이션 웨이브의 길이는 영향을 받는 Campaign 인스턴스의 수에 따라 달라질 수 있습니다. 마이그레이션 웨이브가 예약되면 알림에 예상 기간이 포함됩니다.
 
 * 마이그레이션 기간 동안 Campaign 인스턴스에서 메일을 보낼 수 없습니다. 다른 캠페인 기능은 영향을 받지 않습니다.
 
@@ -59,7 +59,7 @@ Campaign 고객은 마이그레이션 예약된 대로 추가 알림을 받게 �
 
 * **예상되는 다운타임은 무엇입니까?**
 
-  예상되는 다운타임은 30~60분 사이입니다.
+  마이그레이션은 30분~60분 정도 소요될 것으로 예상되지만, 각 마이그레이션 웨이브 길이는 영향을 받는 Campaign 인스턴스의 수에 따라 달라질 수 있습니다. 마이그레이션 웨이브가 예약되면 알림에 예상 기간이 포함됩니다.
 
 * **마이그레이션을 위해 고객이 수행해야 하는 작업이 있습니까?**
 
@@ -72,7 +72,6 @@ Campaign 고객은 마이그레이션 예약된 대로 추가 알림을 받게 �
 
 * **예약된 보안 업그레이드 슬롯에 대한 날짜/시간 변경을 요청할 수 있습니까?**
 
-  이는 필수 마이그레이션이므로 기존 일정에 적응하는 것이 좋습니다.
-
+  이는 필수 마이그레이션이므로 기존 일정에 대한 수정 사항을 수용할 수 없습니다.
 
 기타 문의 사항은 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
