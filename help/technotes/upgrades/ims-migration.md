@@ -1,9 +1,9 @@
 ---
 title: 기술 사용자를 Adobe Developer 콘솔로 마이그레이션
 description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 계정으로 마이그레이션하는 방법을 알아봅니다
-source-git-commit: 43a124dd64532ffe84ca2b300113cacc545a811a
+source-git-commit: 35263dc042642a6ba2f162461364b9399c30ad18
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -39,15 +39,15 @@ Campaign API를 사용하는 경우 아래에 자세히 설명된 대로 기술 
 
 ### 전제 조건{#ims-migration-prerequisites}
 
-마이그레이션 프로세스를 시작하기 전에 Adobe 기술 팀이 기존 운영자 그룹과 IMS(Identity Management System) Adobe에 대한 명명된 권한을 마이그레이션할 수 있도록 Adobe 담당자에게 문의해야 합니다.
+마이그레이션 프로세스를 시작하기 전에 Adobe 기술 팀이 기존 운영자 그룹과 IMS(Identity Management System) Adobe에 대한 명명된 권한을 마이그레이션할 수 있도록 Adobe 전환 관리자에게 문의해야 합니다.
 
 ### 1단계 - Adobe Developer 콘솔에서 Campaign 프로젝트 만들기/업데이트{#ims-migration-step-1}
 
 통합은 의 일부로 만들어집니다. **프로젝트** Adobe Developer 콘솔 내에서. 의 프로젝트에 대해 자세히 알아보기 [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-Campaign v8 사용자는 이미 Adobe Developer 콘솔에 프로젝트가 있어야 합니다. 그렇지 않은 경우 프로젝트를 만들어야 합니다. 프로젝트를 만드는 단계는 자세히 설명되어 있습니다 [Adobe Developer 콘솔 설명서에서](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
+이전에 만든 프로젝트를 사용하거나 새 프로젝트를 만들 수 있습니다. 프로젝트를 만드는 단계는 [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
 
-Campaign 프로젝트에 액세스할 수 있으면 API, Adobe Campaign 및 I/O 관리 API를 포함한 서비스를 추가할 수 있습니다. 이 마이그레이션의 경우 프로젝트에서 아래 API를 추가해야 합니다. **I/O 관리 API** 및 **Adobe Campaign**.
+이 마이그레이션의 경우 프로젝트에서 아래 API를 추가해야 합니다. **I/O 관리 API** 및 **Adobe Campaign**.
 
 ![](assets/do-not-localize/ims-products-and-services.png)
 
