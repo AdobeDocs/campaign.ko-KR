@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign 테크노트
 description: Campaign 기술 정보
 breadcrumb-title: 캠페인 기술 정보
-source-git-commit: d0935df57d8a25fa023dd93e7923c2728d889577
+source-git-commit: 45ef2b46f2612bdb814270d8ef9e257fcaf98e5b
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 27%
+source-wordcount: '56'
+ht-degree: 25%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 27%
    + [사용자를 IMS로 마이그레이션](upgrades/migrate-users-to-ims.md)
    + [기술 연산자를 Developer Console로 마이그레이션](upgrades/ims-migration.md)
    + [Campaign에서 AWS으로 인프라 마이그레이션 전송](upgrades/migrate-to-aws.md)
+   + [Campaign 이메일 전송 인프라 업그레이드](upgrades/migration-to-aws.md)
    + [Apache 버전 업그레이드](upgrades/apache.md)
    + [인터넷 브라우저](upgrades/browsers.md)
    + [2023년 시스템 업그레이드](upgrades/tech-stack-upgrade.md)
