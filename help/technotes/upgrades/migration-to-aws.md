@@ -3,9 +3,9 @@ title: Campaign 이메일 전송 인프라 업그레이드
 description: Campaign 이메일 전송 인프라 업그레이드
 hide: true
 hidefromtoc: true
-source-git-commit: 45ef2b46f2612bdb814270d8ef9e257fcaf98e5b
+source-git-commit: aa3ec8e96d3bda80d5cbd4b4d98cad07b4560b14
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '366'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,6 @@ ht-degree: 2%
 * Adobe Campaign Classic Managed Services 고객
 * Adobe Campaign Managed Cloud Services 고객
 * Adobe Campaign Standard 온디맨드 고객
-* Adobe Campaign Cloud Messaging 온디맨드 고객
 
 ## 이러한 마이그레이션은 언제 발생합니까?{#aws-timeline}
 
