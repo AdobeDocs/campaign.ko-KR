@@ -3,8 +3,9 @@ product: campaign
 title: 수신자 테이블 쿼리
 description: 수신자 테이블을 쿼리하는 방법 알아보기
 feature: Query Editor
+role: User, Data Engineer
 exl-id: 7f859ce9-7ab8-46e1-8bd6-43aaffe30da2
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 3%
