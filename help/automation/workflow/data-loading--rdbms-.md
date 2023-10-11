@@ -3,8 +3,9 @@ product: campaign
 title: 데이터 로딩(RDBMS)
 description: RDBMS(데이터 로드) 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Data Management Activity
+role: User
 exl-id: 2d650573-f630-4aba-bd40-2db88ef1c346
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 3%

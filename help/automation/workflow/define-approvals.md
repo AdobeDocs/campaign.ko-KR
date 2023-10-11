@@ -3,8 +3,9 @@ product: campaign
 title: 승인 정의
 description: 승인을 사용하면 운영자가 워크플로우를 관리하는 결정을 하거나 워크플로우의 지속적인 실행을 확인할 수 있습니다
 feature: Approvals
+role: User
 exl-id: 8ac159c1-fd2e-4fb9-8275-18154f6f210c
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 4%

@@ -3,8 +3,9 @@ product: campaign
 title: 데이터 강화
 description: 데이터 보강 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Enrichment Activity
+role: User
 exl-id: 3b3fa15f-b16e-42c8-a2e6-03350aee1903
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 1%

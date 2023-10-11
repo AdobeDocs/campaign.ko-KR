@@ -3,8 +3,9 @@ product: campaign
 title: 기술 워크플로우 모니터링
 description: 기술 워크플로우 모니터링
 feature: Workflows
+role: Admin
 exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 5%
@@ -35,15 +36,15 @@ ht-degree: 5%
 
 각 기술 워크플로우가 수행해야 하는 작업을 더 잘 이해하려면 다음을 참조하십시오 [섹션](technical-workflows.md).
 
-대상 **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
+대상 **[!UICONTROL Database Cleanup workflow ('cleanup')]**:
 
 저널을 확인하여 경과 시간이 시간에 따라 비교적 일정하고 다른 워크플로우에 영향을 주지 않는지 확인하십시오.
 
-대상 **[!UICONTROL Tracking workflow (‘tracking’)]**:
+대상 **[!UICONTROL Tracking workflow ('tracking')]**:
 
 추적 워크플로우가 예약된 대로(기본적으로 매 시간) 실행되고 저널이 반복적인 오류를 강조 표시하지 않는지 확인합니다. 자세한 정보는 이 [섹션](delivery.md)을 참조하십시오.
 
-대상 **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
+대상 **[!UICONTROL Deliverability update ('deliverabilityUpdate')]**:
 
 1. 다음을 확인하십시오. **[!UICONTROL Deliverability update]** 워크플로우가 매일 성공적으로 실행 및 완료됩니다.
 1. 저널에서 규칙이 정기적으로 업데이트되고 있는지 확인합니다.

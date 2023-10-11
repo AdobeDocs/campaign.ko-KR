@@ -2,11 +2,12 @@
 title: 기본 제공 보고서 지표 계산
 description: 기본 제공 보고서 지표 계산
 feature: Reporting
+role: Data Engineer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '2978'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -31,7 +32,7 @@ ht-degree: 7%
    <td> sum(Iif([@url-id]=1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭 수<br /> </td> 
+   <td> 클릭수<br /> </td> 
    <td> @clicks<br /> </td> 
    <td> URL 유형이 "이메일 클릭"과 동일한 모든 @totalClicks 요소의 합계입니다.<br /> </td> 
    <td> sum(Iif([url/@type]=1, @totalClicks, 0))<br /> </td> 
@@ -45,7 +46,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-이 보고서는 **[!UICONTROL Consolidated tracking]** 테이블(nms:trackingStats). 이 집계 테이블은 보고서를 표시할 때 보고서 대신 성능상의 이유로 사용됩니다. **[!UICONTROL Recipient tracking logs]** 테이블(nms:trackingLogRcp) 및 실시간으로 계산되지 않습니다. 이 테이블은 추적 로그를 검색한 후 몇 분 후에 생성됩니다. 지표가 최신일 경우 결과는 지표의 지표와 동일하게 나타날 것이다 **지표 추적** 보고서. @totalclicks 표시기는 5분 동안 총 클릭 수를 표현합니다.
+이 보고서는 **[!UICONTROL Consolidated tracking]** 테이블(nms:trackingStats). 이 집계 테이블은 보고서를 표시할 때 보고서 대신 성능상의 이유로 사용됩니다. **[!UICONTROL Recipient tracking logs]** 테이블(nms:trackingLogRcp) 및 실시간으로 계산되지 않습니다. 추적 로그가 검색되고 몇 분 후에 테이블이 생성됩니다. 지표가 최신일 경우 결과는 지표의 지표와 동일하게 나타날 것이다 **지표 추적** 보고서. @totalclicks 표시기는 5분 동안 총 클릭 수를 표현합니다.
 
 ## 게재 불가 및 이탈 {#non-deliverables-and-bounces-1}
 
@@ -95,7 +96,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 계정 비활성화<br /> </td> 
-   <td> @disabled<br /> </td> 
+   <td> @비활성화됨<br /> </td> 
    <td> 상태가 "실패"와 같고 이유가 "계정 사용 안 함"과 같은 모든 메시지의 개수입니다.<br /> </td> 
    <td> Count(@status=2 및 msg/@failureReason=4)<br /> </td> 
   </tr> 
@@ -106,7 +107,7 @@ ht-degree: 7%
    <td> Count(@status=2 및 msg/@failureReason=5)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 오류수<br /> </td> 
+   <td> 오류 수<br /> </td> 
    <td> @값<br /> </td> 
    <td> 이 유형의 오류에 대해 실패한 메시지 수입니다.<br /> </td> 
    <td> Count(@status=2 및 msg/@failureReason="오류 유형의 값")<br /> </td> 
@@ -181,7 +182,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> 사용률<br /> </td> 
-   <td> @visitors<br /> </td> 
+   <td> @방문자 수<br /> </td> 
    <td> 이 브라우저를 사용하는 하루 방문자 수와 방문이 가장 많은 날에 측정된 방문자 수의 백분율입니다.<br /> </td> 
    <td> percent(sum(@visitors),max(@visitorsOfTheDay))<br /> </td> 
   </tr> 
@@ -423,7 +424,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> 사용률<br /> </td> 
-   <td> @visitors<br /> </td> 
+   <td> @방문자 수<br /> </td> 
    <td> 가장 많은 방문이 있는 날에 측정된 방문자 수와 비교하여 이 운영 체제에서 일일 방문자 수의 백분율입니다.<br /> </td> 
    <td> percent(sum(@visitors), max(@visitorsOfTheDay))<br /> </td> 
   </tr> 
@@ -469,7 +470,7 @@ ht-degree: 7%
    <td> sum(Iif(@action = 1 및 @date &gt; addDays(getDate(), (-1)), 1, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 구독 최소 건수<br /> </td> 
+   <td> 구독 취소 건수<br /> </td> 
    <td> @_unsubscription<br /> </td> 
    <td> 전날 구독 취소 수(작업 = 0).<br /> </td> 
    <td> sum(Iif(@action = 0 및 @date &gt; addDays(getDate(), (-1)), 1, 0))<br /> </td> 
@@ -564,7 +565,7 @@ ht-degree: 7%
    <td> Countdistinct([@broadLog-id])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭 수<br /> </td> 
+   <td> 클릭수<br /> </td> 
    <td> @recipientClick<br /> </td> 
    <td> URL 유형이 "이메일 클릭"과 동일한 @broadLog-ids의 고유 개수. <br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @broadLog-id, 0))<br /> </td> 
@@ -719,13 +720,13 @@ ht-degree: 7%
    <td> percent([표시기/@totalRecipientClick], [표시기/@success])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭 수<br /> </td> 
+   <td> 클릭수<br /> </td> 
    <td> @_click<br /> </td> 
    <td> URL 기본 키가 1과 다른 모든 @totalClicks 수<br /> </td> 
    <td> count(Iif([@url-id] != 1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭 수 (%)<br /> </td> 
+   <td> 클릭수 (%)<br /> </td> 
    <td> -<br /> </td> 
    <td> 누적된 총 클릭 수와 비교한 클릭 수의 백분율입니다.<br /> </td> 
    <td> percent(@_click, @_total)<br /> </td> 
@@ -772,13 +773,13 @@ ht-degree: 7%
    <td> sum([표시기/@success])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 오류수<br /> </td> 
+   <td> 오류 수<br /> </td> 
    <td> @error<br /> </td> 
    <td> 게재 및 자동 바운스 처리 중 누적된 총 오류 수입니다.<br /> </td> 
    <td> sum([표시기/@error])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 새로운 격리<br /> </td> 
+   <td> 새 격리<br /> </td> 
    <td> @newQuarantine<br /> </td> 
    <td> 게재 실패 후 격리된 주소 수(사용자 알 수 없음, 잘못된 도메인).<br /> </td> 
    <td> sum([표시기/@newQuarantine])<br /> </td> 
@@ -813,7 +814,7 @@ ht-degree: 7%
    <td> sum(Iif([url/@type] = 5, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭 수<br /> </td> 
+   <td> 클릭수<br /> </td> 
    <td> @clicks<br /> </td> 
    <td> URL 유형이 "이메일 클릭"과 같은 모든 @totalClicks 요소의 합계입니다.<br /> </td> 
    <td> sum(Iif([url/@type] = 1, @totalClicks, 0))<br /> </td> 
@@ -848,7 +849,7 @@ ht-degree: 7%
    <td> @prepared + @error + @success<br /> </td> 
   </tr> 
   <tr> 
-   <td> 게재 대상<br /> </td> 
+   <td> 게재됨<br /> </td> 
    <td> @success<br /> </td> 
    <td> 정상적으로 처리된 메시지 수.<br /> </td> 
    <td> 지표/@success<br /> </td> 
@@ -872,13 +873,13 @@ ht-degree: 7%
    <td> Countdistinct([@broadLog-id])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 클릭 수<br /> </td> 
+   <td> 클릭수<br /> </td> 
    <td> @personClick<br /> </td> 
    <td> URL 범주가 "이메일 클릭"과 같은 총 @source-ids 수입니다. <br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0)) <br /> </td> 
   </tr> 
   <tr> 
-   <td> 구독 최소 건수<br /> </td> 
+   <td> 구독 취소 건수<br /> </td> 
    <td> @optOut<br /> </td> 
    <td> URL 카테고리가 "옵트아웃"과 같은 총 @ids 수입니다.<br /> </td> 
    <td> count(Iif([url/@type]=3, @id, 0))<br /> </td> 
@@ -919,7 +920,7 @@ ht-degree: 7%
 
 ## 열람 추적 {#tracking-opens-}
 
-Adobe Campaign에서 메시지 열기를 감지하려면 수신자가 이메일의 이미지를 다운로드해야 합니다. HTML 및 다중 파트/대체 이메일에는 열려 있는 메시지를 감지할 수 있는 0픽셀 이미지가 포함되어 있습니다. 텍스트 형식의 메시지에는 이미지가 포함되지 않기 때문에 열림 여부를 감지할 수 없습니다. 이미지 표시에 연결된 오류 여백으로 인해 메시지 열기를 기반으로 계산된 값은 항상 예상 값입니다.
+Adobe Campaign에서 메시지 열기를 감지하려면 수신자가 이메일의 이미지를 다운로드해야 합니다. HTML 및 다중 파트/대체 이메일에는 열람된 메시지를 감지할 수 있는 0픽셀 이미지가 포함되어 있습니다. 텍스트 포맷의 메시지에는 이미지가 포함되어 있지 않으므로 열람되었는지 여부를 감지할 수 없습니다. 메시지 열람 수를 기준으로 계산된 값은 이미지 표시와 관련된 오차 범위로 인해 언제까지나 추정치에 불과합니다.
 
 ## 타겟팅된 사람/수신자 {#targeted-persons---recipients}
 

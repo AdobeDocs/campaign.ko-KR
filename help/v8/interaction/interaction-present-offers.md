@@ -2,8 +2,9 @@
 product: campaign
 title: 오퍼(인바운드 상호 작용) 제공
 description: Campaign 상호 작용 모듈을 사용하여 최상의 오퍼를 제공하는 방법 알아보기
+role: User, Admin
 exl-id: d0137fa7-3d04-4205-b49c-46973e45a5b8
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 9%

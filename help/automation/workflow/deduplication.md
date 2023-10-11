@@ -3,8 +3,9 @@ product: campaign
 title: 중복 제거
 description: 중복 제거 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity
+role: User
 exl-id: f79a979d-bd1d-4a86-8844-563886692941
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 11%

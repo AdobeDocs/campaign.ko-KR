@@ -2,10 +2,10 @@
 title: 캠페인 상호 작용 오퍼 사전 정의 필터
 description: 사전 정의된 필터를 만드는 방법 알아보기
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 3%

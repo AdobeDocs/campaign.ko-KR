@@ -3,8 +3,9 @@ product: campaign
 title: 마케팅 캠페인 에셋, 문서 및 게재 개요
 description: 마케팅 캠페인 문서 및 게재 개요에 대해 자세히 알아보기
 feature: Campaigns
+role: User
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%

@@ -3,8 +3,9 @@ product: campaign
 title: 증분 쿼리를 사용한 분기별 목록 업데이트
 description: 이 사용 사례에서는 수신자 목록을 자동으로 업데이트하는 데 증분 쿼리를 사용합니다.
 feature: Workflows
+role: User
 exl-id: eedc796a-865f-47a8-8807-5980546b8adf
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 5%

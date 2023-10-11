@@ -2,10 +2,10 @@
 title: 캠페인 상호 작용 오퍼
 description: 오퍼를 만드는 방법 알아보기
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 5%

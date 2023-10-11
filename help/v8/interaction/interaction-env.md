@@ -2,10 +2,10 @@
 title: Campaign 상호 작용 환경 작업
 description: Campaign 상호 작용을 위한 환경을 만드는 방법 알아보기
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 31f38870-1781-4185-9022-d4fd6a31c94a
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 2%

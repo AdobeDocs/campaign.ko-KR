@@ -2,8 +2,9 @@
 product: campaign
 title: 마케팅 리소스 관리
 description: 마케팅 리소스를 관리하는 방법 알아보기
+role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 1%

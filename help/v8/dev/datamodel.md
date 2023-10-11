@@ -5,7 +5,7 @@ feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 87e56e7c296884458a0c8fd704b82611f56e695d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 5%
@@ -34,7 +34,7 @@ Adobe Campaign 데이터 모델의 기본 구조는 다음과 같이 설명할 �
 
 >[!NOTE]
 >
->각 테이블의 설명에 액세스하려면 관리 > 구성 > 데이터 스키마로 이동하여 목록에서 리소스를 선택하고 **설명서** 탭.
+>각 테이블의 설명에 액세스하려면 다음으로 이동합니다. **관리 > 구성 > 데이터 스키마**&#x200B;목록에서 리소스를 선택하고 **설명서** 탭.
 
 Adobe Campaign으로 시작할 때 기본 데이터 모델을 평가하여 마케팅 데이터를 저장하는 데 가장 적합한 테이블을 확인해야 합니다.
 

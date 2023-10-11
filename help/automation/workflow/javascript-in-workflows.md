@@ -3,8 +3,9 @@ product: campaign
 title: 워크플로우의 JavaScript 코드 예
 description: 다음 예에서는 워크플로우에서 JavaScript 코드를 사용하는 방법을 보여 줍니다
 feature: Workflows
+role: Developer
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1752'
 ht-degree: 3%

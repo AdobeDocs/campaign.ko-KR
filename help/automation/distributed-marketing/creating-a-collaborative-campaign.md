@@ -3,8 +3,9 @@ product: campaign
 title: 공동 캠페인 만들기
 description: 공동 작업 캠페인을 만드는 방법 알아보기
 feature: Distributed Marketing
+role: User
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 4%

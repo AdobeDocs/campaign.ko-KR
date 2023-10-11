@@ -3,8 +3,9 @@ product: campaign
 title: 집계 계산 수행
 description: 쿼리에서 집계 컴퓨팅을 수행하는 방법에 대해 알아봅니다
 feature: Workflows
+role: User, Developer
 exl-id: 00e564b5-3c8e-45d4-b240-c872a8b8ccb6
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%

@@ -3,8 +3,9 @@ product: campaign
 title: 게재
 description: 게재 유형 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Channels Activity
+role: User
 exl-id: 58574983-86c7-46f5-b41b-bae90171048d
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%

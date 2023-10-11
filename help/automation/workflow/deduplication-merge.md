@@ -2,8 +2,9 @@
 title: 중복 제거 활동의 병합 기능 사용
 description: 중복 제거 활동의 병합 기능을 사용하는 방법에 대해 알아봅니다
 feature: Workflows, Data Management
+role: User
 exl-id: ee201cfd-a351-41d8-a5ad-2f2e538dc643
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 8%

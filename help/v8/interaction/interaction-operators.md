@@ -2,10 +2,10 @@
 title: 운영자 프로필
 description: 오퍼 관리 운영자 만들기
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
-source-git-commit: eed3396584940f99a865eef2358887b6bf5c4936
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 8%

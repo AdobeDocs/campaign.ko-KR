@@ -2,10 +2,10 @@
 title: 캠페인 상호 작용 오퍼 공간
 description: 오퍼 공간을 만드는 방법 알아보기
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 3%

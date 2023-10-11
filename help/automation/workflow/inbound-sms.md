@@ -3,8 +3,9 @@ product: campaign
 title: 인바운드 SMS
 description: 인바운드 SMS 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Channels Activity
+role: User
 exl-id: 2c12c45b-4429-4e60-bc96-ff70a95d4c9e
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 4%
