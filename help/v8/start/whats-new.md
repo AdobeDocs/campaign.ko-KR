@@ -1,11 +1,11 @@
 ---
 title: Campaign v8의 새로운 기능
 description: Adobe Campaign v8의 주요 기능, 새로운 기능 및 최신 릴리스에서 기대할 수 있는 사항을 알아보십시오.
-feature: Overview
+feature: Overview, Release Notes
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: f16fe79b8417a3fa146baf432f829c73fb839953
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 93%
