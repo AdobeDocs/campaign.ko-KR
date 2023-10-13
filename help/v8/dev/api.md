@@ -5,14 +5,14 @@ feature: API
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 9c7a4f7d4e84fde4b74bf6f8e0432681aa7e42d3
+source-git-commit: 4c2d3bba282f629a9f5cadcda9ab79a810ac9832
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 13%
 
 ---
 
-# 시작 [!DNL Campaign] API{#gs-ac-api}
+# 시작 [!DNL Campaign] API {#gs-ac-api}
 
 [!DNL Adobe Campaign] 에는 다음과 같이 사용할 수 있는 Javascript 함수 세트가 포함되어 있습니다.
 
@@ -33,7 +33,7 @@ JavaScript API를 사용하여 Campaign 클라우드 데이터베이스에서 �
 >* [!DNL Adobe Campaign] v8에는 API 계층의 처리량(TPS)이 제한됩니다. 제한을 위반하면 표준 HTTP 오류(429)가 발생합니다. 관리 Cloud Service 사용자는 Adobe에 문의하여 각 API에 대한 제한을 조정할 수 있습니다.
 > 
 
-## 전제 조건
+## 전제 조건 {#ac-api-prerequisites}
 
 사용 전 [!DNL Adobe Campaign] API를 사용하려면 다음 주제에 익숙해야 합니다.
 
