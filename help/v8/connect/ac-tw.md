@@ -2,16 +2,17 @@
 title: Campaign 및 Twitter 작업
 description: Campaign 환경을 Twitter과 통합하는 방법을 알아봅니다
 role: User, Admin
+feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 4%
 
 ---
 
-# Campaign 및 Twitter 작업{#tw-ac-ovv}
+# Campaign 및 Twitter 작업 {#tw-ac-ovv}
 
 다음 **소셜 네트워크 관리(소셜 마케팅)** 모듈을 사용하면 Twitter을 통해 고객과 상호 작용할 수 있습니다. 이 기능을 사용하여 다음을 수행할 수 있습니다.
 

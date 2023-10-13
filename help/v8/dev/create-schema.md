@@ -1,18 +1,18 @@
 ---
 title: Campaign에서 새 스키마 만들기
 description: Campaign에서 새 스키마를 만드는 방법 알아보기
-feature: Schema Extension
+feature: Schema Extension, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
 
 ---
 
-# 새 스키마 만들기{#create-new-schema}
+# 새 스키마 만들기 {#create-new-schema}
 
 스키마를 편집, 생성 및 구성하려면 **[!UICONTROL Administration > Configuration > Data schemas]** Adobe Campaign 클라이언트 콘솔의 노드.
 

@@ -5,14 +5,14 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 5%
 
 ---
 
-# 트랜잭션 메시지 설정
+# 트랜잭션 메시지 설정 {#mc-settings}
 
 트랜잭션 메시지(메시지 센터)는 트리거된 메시지를 관리하기 위해 고안된 캠페인 모듈입니다. 에서 트랜잭션 메시지에 대해 자세히 알아보기 [이 섹션](../send/transactional.md).
 
@@ -20,15 +20,15 @@ ht-degree: 5%
 
 ![](../assets/do-not-localize/speech.png) 관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Campaign 트랜잭션 메시지를 환경에 설치하고 구성합니다.
 
-## 권한 정의
+## 권한 정의 {#mc-permissions}
 
 Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대해 새 사용자를 만들려면 Adobe 고객 지원 센터에 문의해야 합니다. 메시지 센터 사용자는 &#39;실시간 이벤트&#39;(nmsRtEvent) 폴더에 액세스하기 위해 전용 권한이 필요한 특정 운영자입니다.
 
-## 스키마 확장
+## 스키마 확장  {#mc-schema-ext}
 
 에서 사용하는 스키마에 만들어진 모든 스키마 확장 [메시지 센터 기술 워크플로우](#technical-workflows) 제어 또는 실행 인스턴스 중 하나를 Adobe Campaign 트랜잭션 메시지 모듈에서 사용하는 다른 인스턴스에 복제해야 합니다.
 
-## 트랜잭션 푸시 알림 보내기
+## 트랜잭션 푸시 알림 보내기 {#mc-transactional-push}
 
 과 결합 시 [모바일 앱 채널 모듈](../send/push.md), 트랜잭션 메시지 를 사용하면 모바일 디바이스에서 알림을 통해 트랜잭션 메시지를 푸시할 수 있습니다.
 
@@ -59,7 +59,7 @@ Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대해
          <urn:domEvent>
 
               <rtEvent wishedChannel="41" type="DELIVERY" registrationToken="2cefnefzef758398493srefzefkzq483974">
-                <mobileApp _operation=”none” uuid="com.adobe.NeoMiles"/>
+                <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
                     <url>http://www.adobe.com</url>
@@ -71,8 +71,6 @@ Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대해
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
-
-
 
 ## 이벤트 제거 {#purge-events}
 

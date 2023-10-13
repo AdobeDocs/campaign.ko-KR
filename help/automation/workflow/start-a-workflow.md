@@ -3,9 +3,10 @@ product: campaign
 title: 워크플로우 시작
 description: 워크플로우를 시작하고 워크플로우 작업 을 검색하는 방법 도구 모음 및 마우스 오른쪽 버튼 클릭 메뉴
 feature: Workflows
+level: Beginner
 role: User, Admin
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: d4e28ddf6081881f02042416aa8214761ea42be9
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 0%

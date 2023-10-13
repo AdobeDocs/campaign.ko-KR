@@ -5,7 +5,7 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: b323dbf9504e39cca78f7082089b864544ee1633
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1570'
 ht-degree: 4%
@@ -25,7 +25,7 @@ ht-degree: 4%
 * 자동 보고서 전송
 * 트리거된 이벤트
 
-## 워크플로 디자인 및 사용{#gs-ac-wf}
+## 워크플로 디자인 및 사용 {#gs-ac-wf}
 
 Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기, 메시지 준비에서 게재에 이르기까지 마케팅 캠페인의 모든 측면에 대한 속도와 규모를 개선합니다.
 

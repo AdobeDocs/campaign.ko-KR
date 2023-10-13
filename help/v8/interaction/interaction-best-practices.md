@@ -2,16 +2,17 @@
 product: campaign
 title: Adobe Campaign 상호 작용 모범 사례
 description: Adobe Campaign에서 상호 작용 모듈을 관리하는 모범 사례 접근 방식
+feature: Interaction, Offers
 role: User, Admin
 exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
 
 ---
 
-# 상호 작용 모범 사례{#interaction-best-practices}
+# 상호 작용 모범 사례 {#interaction-best-practices}
 
 ## 일반 권장 사항 {#general-recommendations}
 

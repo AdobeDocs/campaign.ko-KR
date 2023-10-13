@@ -1,18 +1,18 @@
 ---
 title: 캠페인 입력 양식
 description: 입력 양식을 사용자 지정하는 방법 알아보기
-feature: Web Forms
+feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '2552'
 ht-degree: 0%
 
 ---
 
-# 입력 양식 시작{#gs-ac-forms}
+# 입력 양식 시작 {#gs-ac-forms}
 
 스키마를 만들거나 확장할 때 관련 입력 양식을 만들거나 수정하여 최종 사용자가 해당 변경 사항을 볼 수 있도록 해야 합니다.
 

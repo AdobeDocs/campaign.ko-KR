@@ -1,11 +1,11 @@
 ---
 title: Campaign API 스테이징 메커니즘
 description: Campaign API 스테이징 메커니즘
-feature: API, FFDA
+feature: Configuration, API, FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Campaign Classic v7 API는 계속 사용할 수 있지만 이 새로운 스테�
 >* 스테이징은 클라우드 데이터베이스에 저장된 스키마에만 적용됩니다. 복제된 스키마에 스테이징을 사용하지 마십시오. 로컬 스키마에서 스테이징을 사용하지 마십시오. 스테이징된 스키마에서 스테이징을 사용하지 않음
 >
 
-## 구현 단계{#implement-staging}
+## 구현 단계 {#implement-staging}
 
 특정 표에서 캠페인 스테이징 메커니즘을 구현하려면 아래 단계를 따르십시오.
 

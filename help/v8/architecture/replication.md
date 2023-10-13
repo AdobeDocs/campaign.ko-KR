@@ -5,16 +5,16 @@ feature: Workflows, FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 4%
 
 ---
 
-# 기술 워크플로우 및 데이터 복제
+# 기술 워크플로우 및 데이터 복제 {#wf-data-replication}
 
-## 기술 워크플로우{#tech-wf}
+## 기술 워크플로우 {#tech-wf}
 
 의 맥락에서 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md), Adobe Campaign에는 기본 제공 기술 워크플로우가 포함되어 있습니다. 기술 워크플로우는 서버에서 정기적으로 예약된 프로세스 또는 작업을 실행합니다.
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 필요한 경우 데이터 동기화를 수동으로 시작할 수 있습니다. 이렇게 하려면 다음을 마우스 오른쪽 단추로 클릭합니다. **스케줄러** 활동 및 선택 **지금 보류 중인 작업 실행**.
 
-## 데이터 복제{#data-replication}
+## 데이터 복제 {#data-replication}
 
 일부 기본 제공 테이블은 Campaign 로컬 데이터베이스에서 [!DNL Snowflake] 위에서 설명한 전용 워크플로우를 통한 클라우드 데이터베이스.
 
@@ -46,7 +46,7 @@ Adobe Campaign v8에서 사용하는 데이터베이스, 데이터를 복제하�
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
 
-### 데이터 복제 정책{#data-replication-policies}
+### 데이터 복제 정책 {#data-replication-policies}
 
 복제 정책은 표의 크기를 기반으로 합니다. 일부 테이블은 실시간으로 복제되고 다른 테이블은 시간별로 복제됩니다. 일부 테이블은 교체될 때 증분 업데이트가 있습니다.
 

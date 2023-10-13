@@ -2,16 +2,17 @@
 product: campaign
 title: 익명 프로필에 오퍼 제공(인바운드 상호 작용)
 description: 익명 프로필에 오퍼를 제공하는 방법을 알아봅니다
+feature: Interaction, Offers
 role: User, Admin
 exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
 
 ---
 
-# 익명의 상호 작용{#anonymous-interactions}
+# 익명의 상호 작용 {#anonymous-interactions}
 
 ## 익명 상호 작용을 위한 환경 {#environment-for-anonymous-interactions}
 

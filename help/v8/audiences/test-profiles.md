@@ -1,10 +1,11 @@
 ---
 title: Campaign에서 테스트 프로필 만들기
 description: Adobe Campaign에서 테스트 프로필을 만들고 관리하는 방법 알아보기
-feature: Audiences, Profiles
+feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 1%
@@ -103,4 +104,3 @@ DM 게재의 경우 추출 파일 형식은 다음 제한 사항을 준수해야
 이 경우 게재에 시드 주소를 추가하려면 일치 탭에 직접 해당 필드를 입력하거나 주소 템플릿을 가져옵니다.
 
 <!--The **nms:seedMember** schema extension is [this section](../../configuration/using/seed-addresses.md).-->
-

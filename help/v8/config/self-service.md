@@ -1,18 +1,18 @@
 ---
 title: Campaign 컨트롤 패널
 description: Campaign 컨트롤 패널 시작
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: User, Admin
 level: Beginner, Intermediate
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 95%
 
 ---
 
-# Campaign 컨트롤 패널
+# Campaign 컨트롤 패널 {#ac-control-panel}
 
 Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하고 설정을 관리하여 Adobe Campaign의 제품 관리자로서 작업 효율을 높일 수 있습니다. 컨트롤 패널의 직관적인 인터페이스를 활용하면 주요 자산의 사용을 손쉽게 모니터링할 수 있을 뿐만 아니라 허용 목록에 IP 주소 추가, SFTP 스토리지 모니터링, 키 관리 등의 관리 작업도 수행할 수 있습니다.
 
@@ -26,19 +26,19 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 
 ![](../assets/do-not-localize/book.png) 다음에서 자세히 알아보기 [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target="_blank"}.
 
-## 컨트롤 패널에는 어떻게 액세스하나요?
+## 컨트롤 패널에는 어떻게 액세스하나요? {#ac-control-panel-access}
 
 컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 관리자에게만 액세스할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ko){target="_blank"}하십시오.
 
-## 컨트롤 패널 FAQ
+## 컨트롤 패널 FAQ {#ac-control-faq}
 
 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#control-panel){target="_blank"}하여 Campaign 컨트롤 패널 FAQ에 액세스합니다.
 
-## SFTP 관리
+## SFTP 관리 {#ac-control-sftp}
 
 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 저장소 용량을 모니터링하고, 허용 목록의 IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko#sftp-management){target="_blank"}하십시오.
 
-## 하위 도메인 및 인증서
+## 하위 도메인 및 인증서 {#ac-control-subdomain}
 
 하위 도메인과 그 인증서를 모니터링하는 방법을 알아봅니다.
 

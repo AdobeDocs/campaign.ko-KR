@@ -5,14 +5,14 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 70%
 
 ---
 
-# Campaign 및 Adobe Analytics 작업
+# Campaign 및 Adobe Analytics 작업 {#ac-aa}
 
 Campaign과 Analytics를 통합하도록 Adobe Analytics을 구성할 수 있습니다.
 

@@ -4,14 +4,14 @@ description: 기본 제공 보고서
 feature: Reporting
 role: User
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 2%
 
 ---
 
-# Adobe Campaign 기본 제공 보고서{#ootb-reports}
+# Adobe Campaign 기본 제공 보고서 {#ootb-reports}
 
 이 페이지에서는 Adobe Campaign 기본 제공 보고서, 해당 콘텐츠 및 컨텍스트 목록을 제공합니다. Adobe Campaign은 클라이언트 콘솔 또는 인터넷 브라우저로 액세스할 수 있는 다양한 기본 제공 보고서를 제공합니다.
 

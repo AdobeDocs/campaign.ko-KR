@@ -5,14 +5,14 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: df08cdb90271f4d18fd37b8ae528ebd872d0ea63
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '2718'
 ht-degree: 4%
 
 ---
 
-# 데이터 모델 모범 사례{#data-model-best-practices}
+# 데이터 모델 모범 사례 {#data-model-best-practices}
 
 이 문서에서는 Adobe Campaign 데이터 모델을 디자인하는 동안 주요 권장 사항에 대해 간략하게 설명합니다.
 
@@ -89,7 +89,7 @@ Adobe Campaign 리소스에는 세 개의 식별자가 있으며, 식별자를 �
 | 식별자 | 설명 | 모범 사례 |
 |--- |--- |--- |
 | ID | <ul><li>ID는 Adobe Campaign 테이블의 물리적 기본 키입니다. 기본 제공 테이블의 경우 UUID(범용 고유 ID)입니다</li><li>이 식별자는 고유해야 합니다. </li><li>스키마 정의에 UUID를 표시할 수 있습니다.</li></ul> | <ul><li>자동 생성된 식별자는 워크플로우 또는 패키지 정의에서 참조로 사용할 수 없습니다.</li><li>테이블의 ID는 UUID이며 이 유형을 변경해서는 안 됩니다.</li></ul> |
-| 이름(또는 내부 이름) | <ul><li>이 정보는 테이블에 있는 레코드의 고유 식별자입니다. 이 값은 일반적으로 생성된 이름으로 수동으로 업데이트할 수 있습니다.</li><li>이 식별자는 Adobe Campaign의 다른 인스턴스에 배포할 때 값을 유지하며 비워 둘 수 없습니다.</li></ul> | <ul><li>객체가 환경에서 다른 환경으로 배포되는 경우 Adobe Campaign에서 생성된 레코드 이름의 이름을 바꿉니다.</li><li>오브젝트에 네임스페이스 특성( )이 있는 경우&#x200B;*스키마* 예를 들어) 이 공통 네임스페이스는 생성된 모든 사용자 지정 개체에 활용됩니다. 일부 예약된 네임스페이스는 사용할 수 없습니다. *nms*, *xtk*&#x200B;등  일부 네임스페이스는 내부용입니다. [자세히 알아보기](schemas.md#reserved-namespaces)</li><li>오브젝트에 네임스페이스()가 없는 경우&#x200B;*워크플로우* 또는 *게재* 예를 들어) 이 네임스페이스 개념은 내부 이름 개체의 접두사로 추가됩니다. *namespaceMyObjectName*.</li><li>공백 &quot;, 반열 &quot;:&quot; 또는 하이픈 &quot;-&quot;와 같은 특수 문자는 사용하지 마십시오. 이 모든 문자는 밑줄 &quot;_&quot;(허용된 문자)로 대체됩니다. 예를 들어 &quot;abc-def&quot;와 &quot;abc:def&quot;는 &quot;abc_def&quot;로 저장되고 서로 덮어쓰기됩니다.</li></ul> |
+| 이름(또는 내부 이름) | <ul><li>이 정보는 테이블에 있는 레코드의 고유 식별자입니다. 이 값은 일반적으로 생성된 이름으로 수동으로 업데이트할 수 있습니다.</li><li>이 식별자는 Adobe Campaign의 다른 인스턴스에 배포할 때 값을 유지하며 비워 둘 수 없습니다.</li></ul> | <ul><li>객체가 환경에서 다른 환경으로 배포되는 경우 Adobe Campaign에서 생성된 레코드 이름의 이름을 바꿉니다.</li><li>오브젝트에 네임스페이스 특성( )이 있는 경우&#x200B;*스키마* 예를 들어) 이 공통 네임스페이스는 생성된 모든 사용자 지정 개체에 활용됩니다. 일부 예약된 네임스페이스는 사용할 수 없습니다. *nms*, *xtk*&#x200B;등  일부 네임스페이스는 내부용입니다. [자세히 알아보기](schemas.md#reserved-namespaces)</li><li>오브젝트에 네임스페이스()가 없는 경우&#x200B;*워크플로우* 또는 *게재* 예를 들어) 이 네임스페이스 개념은 내부 이름 개체의 접두사로 추가됩니다. *namespaceMyObjectName*.</li><li>공백 &quot; &quot;, 반열 &quot;:&quot; 또는 하이픈 &quot;-&quot;와 같은 특수 문자는 사용하지 마십시오. 이 모든 문자는 밑줄 &quot;_&quot;(허용된 문자)로 대체됩니다. 예를 들어 &quot;abc-def&quot;와 &quot;abc:def&quot;는 &quot;abc_def&quot;로 저장되고 서로 덮어쓰기됩니다.</li></ul> |
 | 레이블 | <ul><li>레이블은 Adobe Campaign에 있는 개체 또는 레코드의 비즈니스 식별자입니다.</li><li>이 개체에는 공백과 특수 문자가 허용됩니다.</li><li>그것은 기록의 고유성을 보장하지 않는다.</li></ul> | <ul><li>개체 레이블의 구조를 결정하는 것이 좋습니다.</li><li>이는 Adobe Campaign 사용자의 레코드 또는 개체를 식별하는 가장 사용자 친화적인 솔루션입니다.</li></ul> |
 
 의 맥락에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), Adobe Campaign 기본 키는 모든 기본 제공 테이블에 대해 자동으로 생성된 UUID입니다. UUID는 사용자 지정 테이블에도 사용할 수 있습니다. [자세히 알아보기](../architecture/keys.md)
@@ -129,7 +129,7 @@ Adobe 워크플로우의 모든 테이블을 조인할 수 있지만 데이터 �
 
 링크 이름을 테이블 이름으로 일관되게 지정합니다. 링크 이름은 떨어진 테이블이 무엇인지 이해하는 데 도움이 됩니다.
 
-&quot;id&quot;가 접미사 인 링크의 이름을 지정하지 마십시오. 예를 들어 이름을 &quot;transactionId&quot;가 아닌 &quot;transaction&quot;으로 지정합니다.
+&quot;id&quot;가 있는 링크의 이름을 접미사로 지정하지 마십시오. 예를 들어 이름을 &quot;transactionId&quot;가 아닌 &quot;transaction&quot;으로 지정합니다.
 
 기본적으로 Adobe Campaign은 외부 테이블의 기본 키를 사용하여 링크를 만듭니다. 좀 더 명확하게 하기 위해, 링크 정의에서 조인을 명시적으로 정의하는 것이 바람직하다.
 
@@ -183,7 +183,7 @@ Adobe Campaign에서 레코드의 필요성을 최소화하는 몇 가지 솔루
 
 ### 일반 권장 사항 {#general-recommendations}
 
-* 쿼리에 &quot;포함&quot;과 같은 작업을 사용하지 마십시오. 예상되는 항목을 알고 필터링하려는 경우 &quot;EQUAL TO&quot; 또는 다른 특정 필터 연산자를 사용하여 동일한 조건을 적용합니다.
+* 쿼리에 &quot;CONTAINS&quot;와 같은 작업을 사용하지 마십시오. 예상되는 항목을 알고 필터링하려는 경우 &quot;EQUAL TO&quot; 또는 다른 특정 필터 연산자와 함께 동일한 조건을 적용합니다.
 * 업무 시간 외에 가져오기 및 내보내기 등의 프로세스가 수행되는지 확인하십시오.
 * 모든 일상 활동에 대한 일정이 있는지 확인하고 일정을 준수합니다.
 * 일별 프로세스 중 하나 또는 일부가 실패하고 해당 날짜에 실행해야 하는 경우, 시스템 성능에 영향을 줄 수 있으므로 수동 프로세스를 시작할 때 충돌하는 프로세스가 실행되고 있지 않은지 확인하십시오.

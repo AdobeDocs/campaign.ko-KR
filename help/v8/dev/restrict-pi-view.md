@@ -1,11 +1,11 @@
 ---
 title: PI 보기 제한
 description: PI 보기를 제한하는 방법 알아보기
-feature: PI, Privacy
+feature: PI, Privacy, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 2%

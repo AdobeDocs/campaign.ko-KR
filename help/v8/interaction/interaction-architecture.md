@@ -1,11 +1,11 @@
 ---
 title: Campaign 상호 작용 아키텍처 이해
 description: Campaign 상호 작용 아키텍처 기본 사항
-feature: Interaction
+feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1310'
 ht-degree: 0%

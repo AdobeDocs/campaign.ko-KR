@@ -1,18 +1,18 @@
 ---
 title: Campaign FFDA 배포 시작
 description: Campaign FFDA 배포 시작
-feature: Architecture, FFDA
+feature: Architecture, FFDA, Deployment
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 51bba0a2b4be03577f508d352fc7c2b514ba28e5
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 54%
 
 ---
 
-# [!DNL Campaign] FFDA 배포{#gs-ac-ffda}
+# [!DNL Campaign] FFDA 배포 {#gs-ac-ffda}
 
 활용 [[!DNL Snowflake]](https://www.snowflake.com/), 클라우드 데이터베이스 기술인 Adobe Campaign Enterprise FFDA(Full Federated Access) 배포는 규모와 속도를 크게 향상시키며, 훨씬 더 많은 수의 고객 프로필을 관리할 수 있을 뿐만 아니라 시간당 훨씬 더 높은 게재율과 트랜잭션을 처리할 수 있습니다.
 
