@@ -5,9 +5,9 @@ description: 데이터 로드(파일) 워크플로우 활동에 대해 자세히
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d946d4a50a4fc13e848b22ee87b02a10b7dfd2ad
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1060'
 ht-degree: 14%
 
 ---
@@ -51,6 +51,10 @@ ht-degree: 14%
 일반적인 파일 형식을 사용하면 열을 인식하는 방법(파일 인코딩, 구분 기호 사용 등)을 정의할 수 있습니다.
 
 열 포맷을 사용하면 각 열의 값 처리를 정의할 수 있습니다.
+
+>[!NOTE]
+>
+>원하는 만큼 열을 추가할 수 있습니다. 각 열의 최대 값 길이는 선택한 데이터 형식에 의해 결정됩니다.
 
 * **[!UICONTROL Ignore column]**: 데이터를 로드하는 동안 이 열을 처리하지 않습니다.
 * **[!UICONTROL Data type]**: 각 열에 필요한 데이터 형식을 지정합니다.
