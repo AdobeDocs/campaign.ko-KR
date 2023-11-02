@@ -3,9 +3,9 @@ title: Campaign 및 SFDC 작업
 description: Campaign 및 Salesforce.com 을 사용하여 작업하는 방법을 알아봅니다.
 feature: Salesforce Integration
 role: Admin, User
-level: Beginner, Intermediate, Experienced
+level: Beginner, Intermediate
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 3%

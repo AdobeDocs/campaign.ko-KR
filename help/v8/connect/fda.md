@@ -3,9 +3,9 @@ title: Campaign 및 외부 데이터베이스(FDA) 작업
 description: Campaign 및 외부 데이터베이스로 작업하는 방법을 알아봅니다
 feature: Federated Data Access
 role: Admin
-level: Beginner, Intermediate
+level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 1%

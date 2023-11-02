@@ -3,9 +3,9 @@ title: Campaign 및 Microsoft Dynamics 작업
 description: Campaign 및 Microsoft Dynamics 작업 방법 알아보기
 feature: Microsoft CRM Integration
 role: Admin, User
-level: Beginner, Intermediate, Experienced
+level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 3%
@@ -53,7 +53,7 @@ Microsoft Dynamics 365 데이터를 Adobe Campaign으로 가져오고 내보내�
 
 ### Microsoft Dynamics 인증서 키 식별자 및 키 ID 생성 {#config-certificate-key-id}
 
-을(를) 가져오려면 **인증서 키 식별자(customKeyIdentifier)** 및 **키 ID (keyId)**, 인증서를 업로드해야 합니다. 인증서는 토큰을 요청할 때 애플리케이션의 ID를 증명하는 비밀로 사용될 수 있습니다. 공개 키라고도 합니다.
+을(를) 가져오려면 **인증서 키 식별자(customKeyIdentifier)** 및 **키 ID (keyId)**, 인증서를 업로드해야 합니다. 인증서는 토큰을 요청할 때 애플리케이션의 ID를 증명하는 비밀로 사용될 수 있다. 공개 키라고도 합니다.
 
 아래의 단계를 수행하십시오.
 

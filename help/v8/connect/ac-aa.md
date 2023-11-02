@@ -3,9 +3,9 @@ title: Campaign 및 Adobe Analytics 작업
 description: Campaign과 Analytics를 통합하는 방법을 알아봅니다
 feature: Analytics Integration, Reporting
 role: Admin, User
-level: Beginner, Intermediate
+level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 70%

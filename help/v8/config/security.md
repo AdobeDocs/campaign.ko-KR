@@ -3,12 +3,12 @@ title: Campaign 보안 모범 사례
 description: Campaign 보안 모범 사례 시작
 feature: Privacy, PI
 role: Developer
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe 시 디지털 환경의 보안을 매우 중요하게 생각합니다. 보
 * 충분한 보안 그룹 만들기
 * 각 운영자에게 적절한 액세스 권한이 있는지 확인합니다
 
-의 권한에 대해 자세히 알아보기 [이 섹션](../start/gs-permissions.md)
+[이 섹션](../start/gs-permissions.md)에서 권한에 대해 자세히 알아보십시오
 
 ## 코딩 지침
 
