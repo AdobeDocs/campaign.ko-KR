@@ -5,7 +5,7 @@ description: 데이터 추출(파일) 워크플로우 활동에 대해 자세히
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 8510e879-2862-491f-bc52-ca8f56105932
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4c787abbf9b13c08263e602930bc532d73e08a5a
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # 데이터 추출(파일){#extraction-file}
-
-
 
 를 사용하여 외부 파일의 워크플로 테이블에서 데이터를 추출할 수 있습니다. **[!UICONTROL Data extraction (file)]** 활동.
 

@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
-source-git-commit: db27abf860b0744a4120166c68e2cc2ae8a3d172
+source-git-commit: 4c787abbf9b13c08263e602930bc532d73e08a5a
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 4%
+source-wordcount: '379'
+ht-degree: 5%
 
 ---
 
@@ -32,6 +32,8 @@ Adobe Campaign에는 다음과 같은 기본 제공 대상 매핑이 포함되�
 | 방문자 구독 | 정보 서비스를 구독한 방문자에게 게재 | nms:visitorSub |
 | 연산자 | Adobe Campaign 운영자에게 게재 | nms:operator |
 | 외부 파일 | 게재에 필요한 모든 정보가 포함된 파일을 통해 게재 | 연결된 스키마 없음, 입력된 대상 없음 |
+| 구독자 애플리케이션 | 애플리케이션을 구독한 수신자에게 게재 | nms:appSubscriptionRcp |
+
 
 ## 대상 매핑 만들기 {#new-mapping}
 
