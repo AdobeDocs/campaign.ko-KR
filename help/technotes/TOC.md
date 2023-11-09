@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign 테크노트
 description: Campaign 기술 정보
 breadcrumb-title: 캠페인 기술 정보
-source-git-commit: 47fc1ee7e0a1cb96d66151cf79137c80ef2d67d5
+source-git-commit: 11330ed8e79ec256b158747914f178b8b6857a33
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 25%
+source-wordcount: '61'
+ht-degree: 22%
 
 ---
 
@@ -25,4 +25,5 @@ ht-degree: 25%
    + [인터넷 브라우저](upgrades/browsers.md)
    + [2023년 시스템 업그레이드](upgrades/tech-stack-upgrade.md)
    + [클라이언트 콘솔 32비트 사용 중단](upgrades/console.md)
+   + [푸시 알림 채널 예정된 변경 사항](upgrades/push-technote.md)
 + [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
