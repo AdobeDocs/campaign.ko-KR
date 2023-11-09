@@ -1,13 +1,13 @@
 ---
 title: Campaign 이메일 전송 인프라 업그레이드
 description: Campaign 이메일 전송 인프라 업그레이드
-source-git-commit: 4478c4b4b1eb3697ff03acfcd618ebfb1d875df9
+exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
+source-git-commit: 557a74dbfbd0af385cc5104801ce3ab91dd33a95
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 2%
 
 ---
-
 
 # Campaign 이메일 전송 인프라 업그레이드 {#migrate-infra-to-aws}
 
@@ -64,4 +64,4 @@ Campaign 고객은 최소 30일 전에 프로덕션 업그레이드와 관련된
 
   아니요. 기존 일정에 대해 요청된 수정 사항을 수용할 수 없습니다. 다른 고객에 대해 할당된 업그레이드 이벤트가 중단될 수 있기 때문입니다.
 
-기타 문의 사항은 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+기타 문의 사항은 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}..
