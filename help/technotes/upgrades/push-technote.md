@@ -4,24 +4,22 @@ title: 푸시 알림 채널 예정된 변경 사항
 description: 푸시 알림 채널 예정된 변경 사항
 hide: true
 hidefromtoc: true
-source-git-commit: 11330ed8e79ec256b158747914f178b8b6857a33
+source-git-commit: 70d1e7336cce7660890b13def5efcb614c0dc12e
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 1%
+source-wordcount: '699'
+ht-degree: 2%
 
 ---
 
 # 푸시 알림 채널 예정된 변경 사항 {#push-upgrade}
 
-이 페이지에서는 Adobe Campaign Classic의 Firebase Cloud Messaging을 통해 푸시 알림 채널에 대해 예정된 변경 사항에 대해 설명합니다.
+Adobe Campaign Classic 구현에 영향을 줄 수 있는 Firebase Cloud Messaging(FCM) 서비스에 대한 중요한 변경 사항이 있습니다.
 
-여기서 는 Adobe Campaign Classic 구현에 영향을 줄 수 있는 Firebase Cloud Messaging(FCM) 서비스에 대한 중요한 변경 사항입니다.
-
-서비스 개선을 위한 Google의 지속적인 노력의 일환으로 레거시 FCM API는 2024년 6월에 중단됩니다(Firebase Cloud Messaging HTTP 프로토콜: https://firebase.google.com/docs/cloud-messaging/http-server-ref)
+서비스 개선을 위한 Google의 지속적인 노력의 일환으로 레거시 FCM API는 2024년 6월에 중단됩니다([Firebase Cloud Messaging HTTP 프로토콜](https://firebase.google.com/docs/cloud-messaging/http-server-ref))
 
 이러한 API는 현재 푸시 알림 메시지를 보내기 위해 Adobe Campaign Classic과 통합되었습니다. 당사는 귀하와 같은 많은 고객이 마케팅 캠페인 및 커뮤니케이션 요구 사항, 특히 Android 디바이스를 위해 이러한 서비스에 의존하고 있음을 잘 알고 있습니다.
 
-## 어떤 영향을 미칩니까?
+## 영향을 받습니까?
 
 * **HTTP(기존) API 사용자**: 활성 푸시 알림 캠페인이 HTTP(레거시) API를 활용하는 경우 설정은 이 변경의 영향을 직접 받습니다. 현재 구성을 검토하고 최신 API로의 마이그레이션을 준비하는 것이 좋습니다.
 
@@ -35,7 +33,7 @@ ht-degree: 1%
 
 * **지원**: 이 전환 전반에 걸쳐 EMC 고객 지원 팀에서 도움을 드릴 수 있습니다. 또한 전환에 대한 기술 측면과 모범 사례를 다루기 위해 웨비나와 활성화 세션을 호스팅할 수 있습니다.
 
-## 어떤 영향을 미칩니까?
+## 우리가 당신에게 기대하는 것은 무엇입니까?
 
 * **최신 정보 수신**: 세부 전환 계획을 포함하여 더 이상 당사에서 커뮤니케이션을 할 수 없도록 받은 편지함을 주시하십시오.
 
@@ -53,7 +51,7 @@ ht-degree: 1%
 
 ### 빌드 업그레이드
 
-* Campaign Classic: AC7 20.3.1 릴리스에 HTTPv1에 대한 지원이 추가되었습니다. 이전 버전을 사용하는 경우 먼저 최신 Campaign Classic 빌드로 업그레이드해야 합니다.
+* Campaign Classic: 20.3.1 릴리스에서 HTTPv1에 대한 지원이 추가되었습니다. 이전 버전을 사용하는 경우 먼저 최신 Campaign Classic 빌드로 업그레이드해야 합니다.
 
 * Campaign v8: HTTPv1은 모든 Campaign v8 릴리스에서 지원됩니다. 업그레이드할 필요가 없습니다.
 
