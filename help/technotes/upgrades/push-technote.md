@@ -4,20 +4,20 @@ title: 푸시 알림 채널 예정된 변경 사항
 description: 푸시 알림 채널 예정된 변경 사항
 hide: true
 hidefromtoc: true
-source-git-commit: fc274e1266d37611c8781a007ccb6a293a683c21
+source-git-commit: 5ed6a5c9c458381ef701428aeab146afe4788d58
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '819'
 ht-degree: 1%
 
 ---
 
 # 푸시 알림 채널 예정된 변경 사항 {#push-upgrade}
 
-Campaign을 사용하여 Android 디바이스에서 푸시 알림을 전송할 수 있습니다. 이를 위해 Campaign은 특정 Android 외부 계정 및 구독 서비스를 사용합니다. Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줄 수 있습니다.
+Campaign을 사용하여 Android 디바이스에서 푸시 알림을 전송할 수 있습니다. 이를 수행하기 위해 Campaign은 특정 구독 서비스를 사용합니다. Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다.
 
 ## 변경 사항 {#fcm-changes}
 
-서비스 개선을 위한 Google의 지속적인 노력의 일환으로 레거시 FCM API는에서 중단됩니다. **2024년 6월 20일**. 에서 Firebase Cloud Messaging HTTP 프로토콜에 대해 자세히 알아보기 [Google 설명서](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+서비스 개선을 위한 Google의 지속적인 노력의 일환으로 레거시 FCM API는에서 중단됩니다. **2024년 6월 20일**. 에서 Firebase Cloud Messaging HTTP 프로토콜에 대해 자세히 알아보기 [Google Firebase 설명서](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
 Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시지를 보내기 위해 최신 API를 지원합니다. 그러나 일부 이전 구현은 여전히 이전 API에 의존합니다. 이러한 구현을 업데이트해야 합니다.
 
@@ -30,30 +30,33 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 ![](assets/filter-services-fcm.png)
 
 
-* 활성 푸시 알림 캠페인이 **HTTP(기존)** API, 설정은 이 변경의 영향을 직접적으로 받습니다. 아래 설명된 대로 현재 구성을 검토하고 최신 API로 마이그레이션해야 합니다.
+* 활성 푸시 알림 서비스에서 **HTTP(기존)** API, 설정은 이 변경의 영향을 직접적으로 받습니다. 아래 설명된 대로 현재 구성을 검토하고 최신 API로 마이그레이션해야 합니다.
 
 * 설정에서 **HTTP v1** Android 푸시 알림용 API라면 이미 을(를) 준수하고 있으므로 추가 작업이 필요하지 않습니다.
 
-## 마이그레이션 방법{#fcm-migration-procedure}
+## 마이그레이션 방법 {#fcm-migration-procedure}
 
-### 전제 조건{#fcm-migration-prerequisites}
+### 전제 조건 {#fcm-migration-prerequisites}
 
-* Campaign Classic v7의 경우 20.3.1 릴리스에서 HTTP v1에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 HTTP v1로 마이그레이션하기 위한 필수 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Campaign v8의 경우 HTTP v1은 모든 릴리스에서 지원됩니다. 업그레이드할 필요가 없습니다.
+* Campaign Classic v7의 경우 20.3.1 릴리스에서 HTTP v1에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 HTTP v1로 마이그레이션하기 위한 필수 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Campaign v8의 경우 HTTP v1은 모든 릴리스에서 지원되며 업그레이드할 필요가 없습니다.
 
-* 마이그레이션을 수행하려면 모바일 애플리케이션을 HTTPv1로 이동하려면 Android Firebase Admin SDK 서비스의 계정 JSON 파일이 필요합니다. 다음을 참조하십시오. [페이지](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+* 모바일 애플리케이션을 HTTP v1로 이동하려면 Android Firebase 관리 SDK 서비스의 계정 JSON 파일이 필요합니다. 에서 이 파일을 가져오는 방법 알아보기 [Google Firebase 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* 하이브리드, 호스팅 및 Managed Services 배포의 경우 Adobe에 연락하여 실시간(RT) 실행 서버를 업데이트합니다.
+* 하이브리드, 호스팅 및 Managed Services 배포의 경우 아래 마이그레이션 절차 외에도 Adobe에 문의하여 실시간(RT) 실행 서버를 업데이트합니다. 중간 소싱 서버는 영향을 받지 않습니다.
+
+* Campaign Classic v7 온-프레미스 사용자는 마케팅 및 실시간 실행 서버를 모두 업그레이드해야 합니다. 중간 소싱 서버는 영향을 받지 않습니다.
 
 ### 마이그레이션 절차 {#fcm-migration-steps}
 
-환경을 HTTP v1로 마이그레이션하려면 마케팅 및 실시간 실행 서버에서 다음 단계를 따르십시오.
+환경을 HTTP v1로 마이그레이션하려면 다음 단계를 따르십시오.
 
 1. 내 목록 찾아보기 **서비스 및 구독**.
-1. 를 사용하여 모든 모바일 애플리케이션을 찾습니다. **HTTP(기존)** API 버전.
+1. 다음을 사용하여 모든 모바일 애플리케이션 나열 **HTTP(기존)** API 버전.
 1. 이러한 각 모바일 애플리케이션에 대해 **API 버전** 끝 **HTTP v1**.
 1. 다음을 클릭합니다. **[!UICONTROL Load project json file to extract project details...]** JSON 키 파일을 직접 로드하는 링크.
 
    다음 세부 정보를 수동으로 입력할 수도 있습니다.
+
    * **[!UICONTROL Project Id]**
    * **[!UICONTROL Private Key]**
    * **[!UICONTROL Client Email]**
