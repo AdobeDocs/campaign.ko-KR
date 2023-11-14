@@ -4,7 +4,7 @@ title: 푸시 알림 채널 예정된 변경 사항
 description: 푸시 알림 채널 예정된 변경 사항
 hide: true
 hidefromtoc: true
-source-git-commit: 9ff84e523e7de6f1d6bb4e8cd193d19743fcf90c
+source-git-commit: fc274e1266d37611c8781a007ccb6a293a683c21
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 1%
@@ -49,11 +49,8 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 환경을 HTTP v1로 마이그레이션하려면 마케팅 및 실시간 실행 서버에서 다음 단계를 따르십시오.
 
 1. 내 목록 찾아보기 **서비스 및 구독**.
-
 1. 를 사용하여 모든 모바일 애플리케이션을 찾습니다. **HTTP(기존)** API 버전.
-
 1. 이러한 각 모바일 애플리케이션에 대해 **API 버전** 끝 **HTTP v1**.
-
 1. 다음을 클릭합니다. **[!UICONTROL Load project json file to extract project details...]** JSON 키 파일을 직접 로드하는 링크.
 
    다음 세부 정보를 수동으로 입력할 수도 있습니다.
@@ -64,9 +61,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
    ![](assets/android-http-v1-config.png)
 
 1. 클릭 **[!UICONTROL Test the connection]** 구성이 올바르고 마케팅 서버가 FCM에 액세스할 수 있는지 확인하려면 다음을 수행하십시오. 중간 소싱 배포의 경우 **[!UICONTROL Test connection]** 서버에 Android FCM(Firebase Cloud Messaging) 서비스에 대한 액세스 권한이 있는지 단추가 확인할 수 없습니다.
-
 1. 옵션으로 다음을 사용하여 푸시 메시지 콘텐츠를 보강할 수 있습니다 **[!UICONTROL Application variables]** 필요한 경우. 이는 완전히 맞춤화가 가능하며 모바일 디바이스로 전송되는 메시지 페이로드의 일부입니다.
-
 1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 다음은 푸시 알림을 추가로 개인화할 FCM 페이로드 이름입니다. 이러한 옵션은 자세히 설명되어 있습니다 [여기](#fcm-apps).
