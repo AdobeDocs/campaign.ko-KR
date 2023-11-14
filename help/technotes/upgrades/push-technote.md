@@ -4,9 +4,9 @@ title: 푸시 알림 채널 예정된 변경 사항
 description: 푸시 알림 채널 예정된 변경 사항
 hide: true
 hidefromtoc: true
-source-git-commit: 4072421cd8f0f3ab3b15c4a475428a59503aa955
+source-git-commit: 9ff84e523e7de6f1d6bb4e8cd193d19743fcf90c
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 
 1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-다음은 푸시 알림을 추가로 개인화할 FCM 페이로드 이름입니다.
+다음은 푸시 알림을 추가로 개인화할 FCM 페이로드 이름입니다. 이러한 옵션은 자세히 설명되어 있습니다 [여기](#fcm-apps).
 
 | 메시지 유형 | 구성 가능한 메시지 요소(FCM 페이로드 이름) | 구성 가능한 옵션(FCM 페이로드 이름) |
 |:-:|:-:|:-:|
@@ -79,7 +79,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 
 >[!NOTE]
 >
->HTTP v1 API로의 전환은 모든 새 게재에 적용됩니다. 다시 시도하거나, 진행 중이거나, 사용 중인 게재에서는 여전히 HTTP(기존) API를 사용합니다.
+>이러한 변경 사항이 모든 서버에 적용되면 Android 디바이스에 대한 모든 새로운 푸시 알림 게재는 HTTP v1 API를 사용합니다. 재시도 중, 진행 중 및 사용 중인 기존 푸시 게재는 여전히 HTTP(기존) API를 사용합니다.
 
 ### 내 Android 앱의 영향은 무엇입니까? {#fcm-apps}
 
@@ -89,6 +89,7 @@ Android 모바일 애플리케이션의 코드에는 특정 변경 사항이 필
 
 ![](assets/android-push-additional-options.png)
 
+다음을 수행할 수 있습니다.
 
 * 사용 **[!UICONTROL Ticker]** 알림의 티커 텍스트를 설정할 필드입니다.
 * 사용 **[!UICONTROL Image]** 알림에 표시할 이미지의 URL을 설정하는 필드입니다.
