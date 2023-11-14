@@ -4,90 +4,98 @@ title: 푸시 알림 채널 예정된 변경 사항
 description: 푸시 알림 채널 예정된 변경 사항
 hide: true
 hidefromtoc: true
-source-git-commit: 70d1e7336cce7660890b13def5efcb614c0dc12e
+source-git-commit: 4072421cd8f0f3ab3b15c4a475428a59503aa955
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 2%
+source-wordcount: '753'
+ht-degree: 1%
 
 ---
 
 # 푸시 알림 채널 예정된 변경 사항 {#push-upgrade}
 
-Adobe Campaign Classic 구현에 영향을 줄 수 있는 Firebase Cloud Messaging(FCM) 서비스에 대한 중요한 변경 사항이 있습니다.
+Campaign을 사용하여 Android 디바이스에서 푸시 알림을 전송할 수 있습니다. 이를 위해 Campaign은 특정 Android 외부 계정 및 구독 서비스를 사용합니다. Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줄 수 있습니다.
 
-서비스 개선을 위한 Google의 지속적인 노력의 일환으로 레거시 FCM API는 2024년 6월에 중단됩니다([Firebase Cloud Messaging HTTP 프로토콜](https://firebase.google.com/docs/cloud-messaging/http-server-ref))
+## 변경 사항 {#fcm-changes}
 
-이러한 API는 현재 푸시 알림 메시지를 보내기 위해 Adobe Campaign Classic과 통합되었습니다. 당사는 귀하와 같은 많은 고객이 마케팅 캠페인 및 커뮤니케이션 요구 사항, 특히 Android 디바이스를 위해 이러한 서비스에 의존하고 있음을 잘 알고 있습니다.
+서비스 개선을 위한 Google의 지속적인 노력의 일환으로 레거시 FCM API는에서 중단됩니다. **2024년 6월 20일**. 에서 Firebase Cloud Messaging HTTP 프로토콜에 대해 자세히 알아보기 [Google 설명서](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-## 영향을 받습니까?
+Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시지를 보내기 위해 최신 API를 지원합니다. 그러나 일부 이전 구현은 여전히 이전 API에 의존합니다. 이러한 구현을 업데이트해야 합니다.
 
-* **HTTP(기존) API 사용자**: 활성 푸시 알림 캠페인이 HTTP(레거시) API를 활용하는 경우 설정은 이 변경의 영향을 직접 받습니다. 현재 구성을 검토하고 최신 API로의 마이그레이션을 준비하는 것이 좋습니다.
+## 영향을 받습니까? {#fcm-impact}
 
-* **HTTP v1 API 사용자를 위한 유용한 뉴스**: Android 푸시 알림용 HTTP v1 API만 사용하는 경우 이미 을(를) 준수하고 있으므로 추가 작업이 필요하지 않습니다.
+현재 구현이 기존 API를 사용하여 FCM에 연결하는 구독 서비스를 지원하는 경우 영향을 받습니다. 서비스가 중단되지 않도록 하려면 최신 API로 마이그레이션해야 합니다. 이 경우 Adobe 팀이 연락을 드릴 것입니다.
 
-## 뭐하는 거야?
+영향을 받는지 확인하려면 다음을 필터링할 수 있습니다. **서비스 및 구독** 아래 필터에 따라:
 
-* **전환 계획**: 우리 팀은 포괄적인 전환 계획을 수립하기 위해 적극적으로 노력하고 있습니다. 이렇게 하면 필요한 경우 최신 버전의 Adobe Campaign에서 이미 사용 가능하고 캠페인에 대한 중단을 최소화하면서 구현을 최신 FCM API로 업데이트할 수 있습니다.
+![](assets/filter-services-fcm.png)
 
-* **자세한 지침**: 원활한 전환 프로세스를 촉진하기 위한 단계별 안내서와 기타 리소스를 제공합니다.
 
-* **지원**: 이 전환 전반에 걸쳐 EMC 고객 지원 팀에서 도움을 드릴 수 있습니다. 또한 전환에 대한 기술 측면과 모범 사례를 다루기 위해 웨비나와 활성화 세션을 호스팅할 수 있습니다.
+* 활성 푸시 알림 캠페인이 **HTTP(기존)** API, 설정은 이 변경의 영향을 직접적으로 받습니다. 아래 설명된 대로 현재 구성을 검토하고 최신 API로 마이그레이션해야 합니다.
 
-## 우리가 당신에게 기대하는 것은 무엇입니까?
+* 설정에서 **HTTP v1** Android 푸시 알림용 API라면 이미 을(를) 준수하고 있으므로 추가 작업이 필요하지 않습니다.
 
-* **최신 정보 수신**: 세부 전환 계획을 포함하여 더 이상 당사에서 커뮤니케이션을 할 수 없도록 받은 편지함을 주시하십시오.
+## 마이그레이션 방법{#fcm-migration-procedure}
 
-* **현재 설정 검토**: 필요한 경우 변경할 수 있도록 Adobe Campaign Classic의 현재 구성 및 사용자 지정을 검토하십시오.
+### 전제 조건{#fcm-migration-prerequisites}
 
-* **연락처**: 즉각적인 우려 사항이나 질문이 있는 경우 주저하지 말고 지원 팀에 문의하십시오.
+* Campaign Classic v7의 경우 20.3.1 릴리스에서 HTTP v1에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 HTTP v1로 마이그레이션하기 위한 필수 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Campaign v8의 경우 HTTP v1은 모든 릴리스에서 지원됩니다. 업그레이드할 필요가 없습니다.
 
-## 구현 단계
+* 마이그레이션을 수행하려면 모바일 애플리케이션을 HTTPv1로 이동하려면 Android Firebase Admin SDK 서비스의 계정 JSON 파일이 필요합니다. 다음을 참조하십시오. [페이지](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-앞으로 몇 주 이내에 타임라인 및 작업 항목을 포함하여 레거시 FCM API의 전환 계획에 대한 자세한 내용을 공유할 예정입니다. 안심하십시오. 당사의 주요 목표는 귀사와 귀하의 팀이 최대한 원활하게 전환하는 것입니다.
+* 하이브리드, 호스팅 및 Managed Services 배포의 경우 Adobe에 연락하여 실시간(RT) 실행 서버를 업데이트합니다.
 
-귀사의 비즈니스에 감사드리며 이러한 변화에 적응해 주신 데 대해 감사드립니다. 여러분의 성공이 저희의 최우선 과제이며, 저희는 여러분을 지원하기 위해 최선을 다하고 있습니다.
+### 마이그레이션 절차 {#fcm-migration-steps}
 
-따라서 변경 사항을 예측할 수 있습니다. 다음은 푸시 구성을 HTTP(레거시)에서 FCM HTTPv1 API로 마이그레이션하는 데 필요한 일반 단계입니다.
+환경을 HTTP v1로 마이그레이션하려면 마케팅 및 실시간 실행 서버에서 다음 단계를 따르십시오.
 
-### 빌드 업그레이드
+1. 내 목록 찾아보기 **서비스 및 구독**.
 
-* Campaign Classic: 20.3.1 릴리스에서 HTTPv1에 대한 지원이 추가되었습니다. 이전 버전을 사용하는 경우 먼저 최신 Campaign Classic 빌드로 업그레이드해야 합니다.
+1. 를 사용하여 모든 모바일 애플리케이션을 찾습니다. **HTTP(기존)** API 버전.
 
-* Campaign v8: HTTPv1은 모든 Campaign v8 릴리스에서 지원됩니다. 업그레이드할 필요가 없습니다.
+1. 이러한 각 모바일 애플리케이션에 대해 **API 버전** 끝 **HTTP v1**.
 
-### 마케팅 서버
+1. 다음을 클릭합니다. **[!UICONTROL Load project json file to extract project details...]** JSON 키 파일을 직접 로드하는 링크.
 
-구성 변경은 고객/파트너가 수행할 수 있습니다.
+   다음 세부 정보를 수동으로 입력할 수도 있습니다.
+   * **[!UICONTROL Project Id]**
+   * **[!UICONTROL Private Key]**
+   * **[!UICONTROL Client Email]**
 
-1. 먼저 JSON 파일을 추출해야 합니다. 모바일 애플리케이션을 HTTPv1로 이동하려면 Firebase Admin SDK 서비스의 계정 JSON 파일이 필요합니다. 다음을 참조하십시오. [페이지](https://firebase.google.com/docs/admin/setup#initialize-sdk).
+   ![](assets/android-http-v1-config.png)
 
-1. 내 목록으로 이동 **서비스 및 구독**.
+1. 클릭 **[!UICONTROL Test the connection]** 구성이 올바르고 마케팅 서버가 FCM에 액세스할 수 있는지 확인하려면 다음을 수행하십시오. 중간 소싱 배포의 경우 **[!UICONTROL Test connection]** 서버에 Android FCM(Firebase Cloud Messaging) 서비스에 대한 액세스 권한이 있는지 단추가 확인할 수 없습니다.
 
-1. HTTP(기존) API 버전을 사용하여 모든 모바일 애플리케이션을 찾습니다.
+1. 옵션으로 다음을 사용하여 푸시 메시지 콘텐츠를 보강할 수 있습니다 **[!UICONTROL Application variables]** 필요한 경우. 이는 완전히 맞춤화가 가능하며 모바일 디바이스로 전송되는 메시지 페이로드의 일부입니다.
 
-1. 이러한 각 모바일 애플리케이션에 대해 **API 버전** HTTPv1에 연결한 다음 [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html).
+1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+다음은 푸시 알림을 추가로 개인화할 FCM 페이로드 이름입니다.
+
+| 메시지 유형 | 구성 가능한 메시지 요소(FCM 페이로드 이름) | 구성 가능한 옵션(FCM 페이로드 이름) |
+|:-:|:-:|:-:|
+| 데이터 메시지 | N/A | validate_only |
+| 알림 메시지 | 제목, 본문, android_channel_id, 아이콘, 사운드, 태그, 색상, click_action, 이미지, 티커, 고정, 가시성, notification_priority, notification_count <br> | validate_only |
+
 
 >[!NOTE]
 >
->HTTPv1 API로의 전환은 새 게재를 위해 고려됩니다. 다시 시도하거나, 진행 중이거나, 사용 중인 게재는 여전히 HTTP(기존) API를 사용합니다.
+>HTTP v1 API로의 전환은 모든 새 게재에 적용됩니다. 다시 시도하거나, 진행 중이거나, 사용 중인 게재에서는 여전히 HTTP(기존) API를 사용합니다.
 
-### 중간 소싱 서버
-
-필요한 변경 사항이 없습니다.
-
-### 실시간 실행 서버
-
-이 경우 Adobe Campaign 지원 센터에 문의해야 합니다. 마이그레이션 절차는 마케팅 서버와 동일합니다.
-
-### Android OS 및 Android 모바일 애플리케이션
+### 내 Android 앱의 영향은 무엇입니까? {#fcm-apps}
 
 Android 모바일 애플리케이션의 코드에는 특정 변경 사항이 필요하지 않으며 알림 동작은 변경되지 않아야 합니다.
 
-그럼에도 불구하고 HTTPv1은 세 가지 새로운 페이로드 요소를 도입하고 있습니다.
+그러나 HTTP v1을 사용하면 을 통해 푸시 알림을 추가로 개인화할 수 있습니다. **[!UICONTROL HTTPV1 additional options]**.
 
-| 이름 | 기본 값 |
-|---|---|
-| 고정 | 거짓 |
-| 우선 순위 | 기본 |
-| 가시성 | 거짓 |
-| 고정 | 개인 |
+![](assets/android-push-additional-options.png)
+
+
+* 사용 **[!UICONTROL Ticker]** 알림의 티커 텍스트를 설정할 필드입니다.
+* 사용 **[!UICONTROL Image]** 알림에 표시할 이미지의 URL을 설정하는 필드입니다.
+* 사용 **[!UICONTROL Notification Count]** 애플리케이션 아이콘에 직접 표시할 읽지 않은 새 정보의 수를 설정하는 필드입니다.
+* 설정 **[!UICONTROL Sticky]** 옵션을 false로 설정하여 사용자가 알림을 클릭할 때 알림이 자동으로 해제되도록 할 수 있습니다. true로 설정하면 사용자가 알림을 클릭할 때에도 알림이 계속 표시됩니다.
+* 설정 **[!UICONTROL Notification Priority]** 알림 수준을 기본값, 최소, 낮음 또는 높음으로 설정합니다.
+* 설정 **[!UICONTROL Visibility]** 공개, 비공개 또는 비밀에 대한 알림 수준.
+
+자세한 내용은 **[!UICONTROL HTTP v1 additional options]** 이러한 필드를 채우는 방법은 다음을 참조하십시오. [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
+
