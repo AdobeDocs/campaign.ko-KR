@@ -3,9 +3,9 @@ title: 기술 사용자를 Adobe Developer 콘솔로 마이그레이션
 description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 계정으로 마이그레이션하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: 6655a62e18ea14e8ae126dfec88a17dd04c7b488
+source-git-commit: 87d155cbc2a5c6f4cbeeadb6ae7ae8aa3166a321
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1580'
 ht-degree: 0%
 
 ---
@@ -19,32 +19,32 @@ Campaign v8.5부터 보안 및 인증 프로세스를 강화하기 위한 노력
 
 ## 영향을 받습니까?{#ims-impacts}
 
-Campaign 외부 시스템에서 캠페인 마케팅 인스턴스 또는 실시간 메시지 센터 인스턴스로 API를 호출하는 모든 캠페인 고객은 아래에 설명된 대로 Adobe Developer 콘솔을 통해 기술 연산자를 기술 계정으로 마이그레이션해야 합니다.
+Campaign 외부 시스템에서 캠페인 마케팅 인스턴스 또는 실시간 메시지 센터 인스턴스로 API를 호출하는 경우 아래에 설명된 대로 Adobe Developer 콘솔을 통해 기술 연산자를 기술 계정으로 마이그레이션해야 합니다.
 
 이 변경 사항은 Campaign v8.5부터 적용됩니다.
 
 
 ## 마이그레이션 프로세스 {#ims-migration-procedure}
 
-아래 단계에 따라 Adobe Developer 콘솔 내에서 기술 계정을 만든 다음 새로 만든 계정을 사용하여 Adobe Campaign에서 API를 호출하는 모든 외부 시스템에 대한 인증 방법을 변경할 수 있습니다.
+아래 단계에 따라 Adobe Developer 콘솔 내에 기술 계정을 만든 다음 새로 만든 계정을 사용하여 Adobe Campaign에서 API를 호출하는 모든 외부 시스템에 대한 인증 방법을 변경할 수 있습니다.
 
 단계에 대한 개요는 다음과 같습니다.
 
 * Adobe Developer 콘솔 내에서 프로젝트 만들기
 * 새로 생성된 프로젝트에 적절한 API 할당
 * 프로젝트에 필요한 캠페인 제품 프로필 부여
-* 새로 만든 기술 계정 자격 증명을 사용하도록 고객 측 API 업데이트
+* 새로 만든 기술 계정 자격 증명을 사용하도록 API 업데이트
 * Campaign 인스턴스에서 기존 기술 연산자 제거
 
 ### 마이그레이션 사전 요구 사항{#ims-migration-prerequisites}
 
-기술 운영자를 교체하는 데 사용할 기술 계정을 만들려면 모든 Campaign 인스턴스에 대해 Admin Console 내에 적절한 Campaign 제품 프로필이 있는지 확인해야 합니다. 의 Adobe 콘솔에서 제품 프로필에 대해 자세히 알아볼 수 있습니다. [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+기술 운영자를 대체하는 기술 계정을 만들려면 모든 Campaign 인스턴스에 대해 Admin Console 내에 적절한 Campaign 제품 프로필이 존재해야 한다는 전제 조건을 확인해야 합니다. 의 Adobe 콘솔에서 제품 프로필에 대해 자세히 알아볼 수 있습니다. [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
 메시지 센터 인스턴스에 대한 API 호출의 경우 Campaign v8.5로 업그레이드하는 동안 또는 인스턴스를 프로비저닝하는 동안 제품 프로필을 만들어야 합니다. 이 제품 프로필의 이름은 다음과 같습니다.
 
 `campaign - <your campaign instance> - messagecenter`
 
-Campaign에 대한 사용자 액세스에 이미 IMS 기반 인증을 사용하고 있는 경우 API 호출에 필요한 제품 프로필이 Admin Console 내에 이미 존재해야 합니다. 마케팅 인스턴스에 대한 API 호출을 위해 Campaign 내의 사용자 지정 연산자 그룹을 사용하는 경우 Admin Console 내에 해당 제품 프로필을 만들게 됩니다.
+Campaign에 대한 사용자 액세스에 이미 IMS 기반 인증을 사용하고 있는 경우 API 호출에 필요한 제품 프로필이 Admin Console 내에 이미 존재해야 합니다. 마케팅 인스턴스에 대한 API 호출을 위해 Campaign 내의 사용자 지정 연산자 그룹을 사용하는 경우 Admin Console 내에 해당 제품 프로필을 만들어야 합니다.
 
 다른 경우에는 Adobe 기술 팀이 기존 운영자 그룹 및 명명된 권한을 Admin Console 내의 제품 프로필로 마이그레이션할 수 있도록 Adobe 전환 관리자에게 연락해야 합니다.
 
@@ -67,7 +67,7 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 다음을 사용할 수 있습니다. **프로젝트 편집** 단추를 클릭하여 이 프로젝트의 이름을 변경합니다.
 
 
-### 2단계 - 프로젝트에 API 추가{#ims-migration-step-2}
+### 2단계 - 프로젝트에 API 추가 {#ims-migration-step-2}
 
 새로 만든 프로젝트 화면에서 이 프로젝트를 Adobe Campaign에 대한 API 호출에 대한 기술 계정으로 사용할 수 있도록 API에 를 추가합니다.
 
@@ -131,7 +131,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 이렇게 하면 새로 생성된 프로젝트의 I/O 관리 API 내의 프로젝트 화면으로 돌아갑니다. 화면 상단의 경로에서 프로젝트 이름을 클릭하여 기본 프로젝트 세부 정보 페이지로 돌아갑니다.
 
 
-### 6단계 - 프로젝트 설정 확인{#ims-migration-step-6}
+### 6단계 - 프로젝트 설정 확인 {#ims-migration-step-6}
 
 프로젝트를 검토하여 이 기능이 아래와 유사한지 확인합니다. **I/O 관리 API** 및 **ADOBE CAMPAIGN API** 제품 및 서비스 섹션에 표시되며, **OAuth 서버 간** 자격 증명 섹션에서 다음을 수행합니다.
 
@@ -203,10 +203,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 
 
-
-
-
-### 9단계 - (선택 사항) Campaign 클라이언트 콘솔 내에서 기술 계정 운영자 업데이트 {#ims-migration-step-9}
+### 9단계 - (선택 사항) Campaign 클라이언트 콘솔 내에서 기술 계정 연산자 업데이트 {#ims-migration-step-9}
 
 이 단계는 선택 사항이며 메시지 센터 인스턴스가 아닌 마케팅 인스턴스 내에서만 사용할 수 있습니다. 지정된 운영자 그룹을 통하지 않는 기술 운영자에 대해 특정 폴더 권한 또는 명명된 권한이 정의된 경우. 이제 Admin Console에서 새로 만든 기술 계정 사용자를 업데이트하여 필요한 폴더 권한 또는 명명된 권한을 부여해야 합니다.
 
