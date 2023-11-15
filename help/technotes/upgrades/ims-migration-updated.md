@@ -3,7 +3,7 @@ title: 기술 사용자를 Adobe Developer 콘솔로 마이그레이션
 description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 계정으로 마이그레이션하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: 4863679106dec92d6b63f63cec0911738853dc04
+source-git-commit: 6655a62e18ea14e8ae126dfec88a17dd04c7b488
 workflow-type: tm+mt
 source-wordcount: '1599'
 ht-degree: 0%
@@ -66,9 +66,10 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 
 다음을 사용할 수 있습니다. **프로젝트 편집** 단추를 클릭하여 이 프로젝트의 이름을 변경합니다.
 
-새로 만든 프로젝트 화면에서 이 프로젝트를 Adobe Campaign에 대한 API 호출에 대한 기술 계정으로 사용할 수 있도록 API에 를 추가합니다.
 
 ### 2단계 - 프로젝트에 API 추가{#ims-migration-step-2}
+
+새로 만든 프로젝트 화면에서 이 프로젝트를 Adobe Campaign에 대한 API 호출에 대한 기술 계정으로 사용할 수 있도록 API에 를 추가합니다.
 
 프로젝트에 API를 추가하려면 다음 단계를 수행합니다.
 
