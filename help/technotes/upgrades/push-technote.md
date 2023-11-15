@@ -2,11 +2,16 @@
 product: campaign
 title: 푸시 알림 채널 예정된 변경 사항
 description: 푸시 알림 채널 예정된 변경 사항
+feature: Push
+role: Admin
+level: Experienced
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에도 적용됩니다."
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8에 적용"
 hide: true
 hidefromtoc: true
-source-git-commit: 5ed6a5c9c458381ef701428aeab146afe4788d58
+source-git-commit: 65b8d84e600e1814484fa81fb814475c0a8b9296
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '831'
 ht-degree: 1%
 
 ---
