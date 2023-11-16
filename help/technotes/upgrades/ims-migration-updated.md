@@ -3,7 +3,7 @@ title: 기술 사용자를 Adobe Developer 콘솔로 마이그레이션
 description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 계정으로 마이그레이션하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: 87d155cbc2a5c6f4cbeeadb6ae7ae8aa3166a321
+source-git-commit: d52744e1d798447bb6b90909607e42082f7eeaf5
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 0%
@@ -118,7 +118,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 ![](assets/do-not-localize/ims-updates-04.png)
 
-다음에서 **API 추가** 화면, 아래로 스크롤하여 **I/O 관리 API** 카드. 카드 위에 마우스를 올려 놓으면 나타나는 확인란을 클릭하여 선택합니다. 그런 다음 **다음** 화면 맨 아래에.
+다음에서 **API 추가** 화면, 아래로 스크롤하여 **I/O 관리 API** 카드. 카드 위에 마우스를 가져다 대면 나타나는 확인란을 클릭하여 선택합니다. 그런 다음 **다음** 화면 맨 아래에.
 
 ![](assets/do-not-localize/ims-updates-05.png)
 
