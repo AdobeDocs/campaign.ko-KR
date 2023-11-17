@@ -1,194 +1,158 @@
 ---
 title: 기술 사용자를 Adobe Developer 콘솔로 마이그레이션
 description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 계정으로 마이그레이션하는 방법을 알아봅니다
-source-git-commit: 35263dc042642a6ba2f162461364b9399c30ad18
+feature: Technote
+role: Admin
+source-git-commit: 9f93057d2d729d4251d914426488f46b6ef24bbb
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
 
 # Campaign 기술 운영자를 Adobe Developer 콘솔로 마이그레이션 {#migrate-tech-users-to-ims}
 
-Campaign v8.5부터 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 기술 운영자는 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} Campaign에 연결합니다. 기술 운영자는 API 통합을 위해 명시적으로 생성된 Campaign 사용자 프로필입니다. 이 문서에서는 Adobe Developer 콘솔에서 기술 연산자를 기술 계정으로 마이그레이션하는 데 필요한 단계에 대해 자세히 설명합니다.
+Campaign v8.5부터 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 기술 운영자는 이제 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
-## 변경 사항{#ims-changes}
-
-Campaign 일반 사용자는 이미 IMS(Identity Management System) Adobe을 통해 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결합니다. 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 이제 Adobe Campaign 클라이언트 애플리케이션이 IMS 기술 계정 토큰을 사용하여 Campaign API를 직접 호출합니다.
-
-에서 새 서버 간 인증 프로세스에 대해 자세히 알아봅니다. [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
-
-이 변경 사항은 Campaign v8.5부터 적용되며 다음과 같습니다. **필수** campaign v8.6을 시작하는 중입니다.
+기술 운영자는 API 통합을 위해 명시적으로 생성된 Campaign 사용자 프로필입니다. 이 문서에서는 Adobe Developer 콘솔을 통해 기술 연산자를 기술 계정으로 마이그레이션하는 데 필요한 단계에 대해 자세히 설명합니다.
 
 
 ## 영향을 받습니까?{#ims-impacts}
 
-Campaign API를 사용하는 경우 아래에 자세히 설명된 대로 기술 연산자를 Adobe Developer 콘솔로 마이그레이션해야 합니다.
+Campaign 외부 시스템에서 캠페인 마케팅 인스턴스 또는 실시간 메시지 센터 인스턴스로 API를 호출하는 경우 아래에 설명된 대로 Adobe Developer 콘솔을 통해 기술 연산자를 기술 계정으로 마이그레이션해야 합니다.
 
-## 마이그레이션 방법{#ims-migration-procedure}
+이 변경 사항은 Campaign v8.5부터 적용되며 다음과 같습니다. **필수** campaign v8.6을 시작하는 중입니다.
 
-각 기술 운영자는 최소 하나 이상의 기술 계정을 보유해야 합니다.
 
-주요 단계:
+## 마이그레이션 프로세스 {#ims-migration-procedure}
 
-1. 먼저 기술 연산자에 해당하는 기술 계정을 만듭니다. 예를 들어 기술 연산자(TO1)에 대해 새로 생성된 기술 계정(TA1)을 가정해 보겠습니다.
-1. 기술 계정 TA1에 대해 아래에 설명된 단계를 실행합니다.
-   [4단계](#ims-migration-step-4) 는 선택 사항이며 기술 운영자가 특정 폴더 권한을 가지는 경우에만 필요합니다.
-1. 모든 Campaign API 통합 구현을 새로 만든 기술 계정 TA1로 마이그레이션합니다.
-1. TA1에서 API/통합 관련 고객이 모두 작동하게 되면 기술 운영자 TO1을 기술 계정 TA1로 교체하십시오.
+아래 단계에 따라 Adobe Developer 콘솔 내에 기술 계정을 만든 다음 새로 만든 계정을 사용하여 Adobe Campaign에서 API를 호출하는 모든 외부 시스템에 대한 인증 방법을 변경할 수 있습니다.
 
-### 전제 조건{#ims-migration-prerequisites}
+단계에 대한 개요는 다음과 같습니다.
 
-마이그레이션 프로세스를 시작하기 전에 Adobe 기술 팀이 기존 운영자 그룹과 IMS(Identity Management System) Adobe에 대한 명명된 권한을 마이그레이션할 수 있도록 Adobe 전환 관리자에게 문의해야 합니다.
+* Adobe Developer 콘솔 내에서 프로젝트 만들기
+* 새로 생성된 프로젝트에 적절한 API 할당
+* 프로젝트에 필요한 캠페인 제품 프로필 부여
+* 새로 만든 기술 계정 자격 증명을 사용하도록 API 업데이트
+* Campaign 인스턴스에서 기존 기술 연산자 제거
 
-### 1단계 - Adobe Developer 콘솔에서 Campaign 프로젝트 만들기/업데이트{#ims-migration-step-1}
+### 마이그레이션 사전 요구 사항{#ims-migration-prerequisites}
+
+기술 운영자를 대체하는 기술 계정을 만들려면 모든 Campaign 인스턴스에 대해 Admin Console 내에 적절한 Campaign 제품 프로필이 존재해야 한다는 전제 조건을 확인해야 합니다. 의 Adobe 콘솔에서 제품 프로필에 대해 자세히 알아볼 수 있습니다. [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+
+메시지 센터 인스턴스에 대한 API 호출의 경우 Campaign v8.5로 업그레이드하는 동안 또는 인스턴스를 프로비저닝하는 동안 제품 프로필을 만들어야 합니다. 이 제품 프로필의 이름은 다음과 같습니다.
+
+`campaign - <your campaign instance> - messagecenter`
+
+Campaign에 대한 사용자 액세스에 이미 IMS 기반 인증을 사용하고 있는 경우 API 호출에 필요한 제품 프로필이 Admin Console 내에 이미 존재해야 합니다. 마케팅 인스턴스에 대한 API 호출을 위해 Campaign 내의 사용자 지정 연산자 그룹을 사용하는 경우 Admin Console 내에 해당 제품 프로필을 만들어야 합니다.
+
+다른 경우에는 Adobe 기술 팀이 기존 운영자 그룹 및 명명된 권한을 Admin Console 내의 제품 프로필로 마이그레이션할 수 있도록 Adobe 전환 관리자에게 연락해야 합니다.
+
+
+### 1단계 - Adobe Developer 콘솔 내에서 Campaign 프로젝트 만들기 {#ims-migration-step-1}
 
 통합은 의 일부로 만들어집니다. **프로젝트** Adobe Developer 콘솔 내에서. 의 프로젝트에 대해 자세히 알아보기 [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-이전에 만든 프로젝트를 사용하거나 새 프로젝트를 만들 수 있습니다. 프로젝트를 만드는 단계는 [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
-
-이 마이그레이션의 경우 프로젝트에서 아래 API를 추가해야 합니다. **I/O 관리 API** 및 **Adobe Campaign**.
-
-![](assets/do-not-localize/ims-products-and-services.png)
-
-
-### 2단계 - 서버 간 인증을 사용하여 프로젝트에 API 추가{#ims-migration-step-2}
-
-Adobe Developer 콘솔에서 프로젝트가 생성되면 서버 간 인증을 사용하는 API를 추가하십시오. 에서 OAuth 서버 간 자격 증명을 설정하는 방법에 대해 알아봅니다. [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
-
-API가 성공적으로 연결되면 클라이언트 ID 및 클라이언트 암호를 포함하여 새로 생성된 자격 증명에 액세스하고 액세스 토큰을 생성할 수 있습니다.
-
-### 3단계 - 프로젝트에 제품 프로필 추가{#ims-migration-step-3}
-
-이제 아래에 자세히 설명된 대로 Campaign 제품 프로필을 프로젝트에 추가할 수 있습니다.
-
-1. Adobe Campaign API를 엽니다.
-1. 다음을 클릭합니다. **제품 프로필 편집** 단추
-
-   ![](assets/do-not-localize/ims-edit-api.png)
-
-1. 모든 관련 제품 프로필을 API(예: &#39;messagecenter&#39;)에 할당하고 변경 사항을 저장합니다.
-1. 다음으로 이동 **자격 증명 세부 정보** 프로젝트의 탭을 복사한 다음 **기술 계정 이메일** 값.
-
-### 4단계 - 클라이언트 콘솔에서 기술 연산자 업데이트 {#ims-migration-step-4}
-
-이 단계는 (운영자의 그룹을 통하지 않고) 이 운영자에 대해 특정 폴더 권한 또는 명명된 권한이 정의된 경우에만 필요합니다.
-
-이제 Adobe Campaign 클라이언트 콘솔에서 새로 만든 기술 연산자를 업데이트해야 합니다. 기존 기술 운영자 폴더 권한을 새 기술 운영자에게 적용해야 합니다.
-이 연산자를 업데이트하려면 다음 단계를 수행합니다.
-
-1. Campaign 클라이언트 콘솔 탐색기에서 **관리 > 액세스 관리 > 연산자**.
-1. API에 사용되는 기존 기술 운영자에 액세스합니다.
-1. 폴더 권한을 찾아 권한을 확인합니다.
-1. 새로 만든 기술 운영자에게 동일한 권한을 적용합니다. 이 운영자의 이메일은 **기술 계정 이메일** 값이 이전에 복사되었습니다.
-1. 변경 내용을 저장합니다.
-
-
->[!CAUTION]
->
->새 기술 운영자가 Campaign 클라이언트 콘솔에 추가할 API 호출을 하나 이상 수행해야 합니다.
->
+이전에 만든 프로젝트를 사용하거나 새 프로젝트를 만들 수 있습니다. 프로젝트를 만드는 단계는 [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}. 아래 주요 단계를 확인할 수 있습니다
 
 <!--
+For this migration, you must add below APIs in your project: **I/O Management API** and **Adobe Campaign**.
 
->[!CAUTION]
->
->After updating the authentication type for the technical operator, all API integrations with this technical operator will stop working. You must [update your API integrations](#ims-migration-step-6). 
+![](assets/do-not-localize/ims-products-and-services.png)-->
 
-To update the technical operator authentication mode to IMS, follow these steps:
+새 프로젝트를 만들려면 **새 프로젝트 만들기** Adobe Developer 콘솔의 기본 화면에서 다음을 수행합니다.
 
-1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
-1. Edit the existing technical operator used for APIs.
-1. Replace the **Name (login)** of this technical operator by the technical account email retrieved earlier.
-1. Browse to the **Edit** button on the top left beside **File**, and select **Edit the XML source**.
-1. Update the authentication mode to `ims`, as follows:
+![](assets/New-Project.png)
 
-    ```javascript
-    <operator 
-    ...
-        <access authenticationType="ims" ...
-        ...
-        </access>
-    ...
-    </operator>
-    ```
-
-1. Save your changes.
-
-You can also update the technical operator programmatically, using SQL scripts or Campaign APIs. These modes help you automate the steps which update operator's name with associated Technical account email address and/or authentication type. 
-
-* Use the following **SQL Script** to replace operator's name with associated email:
-
-    ```sql
-    UPDATE xtkoperator
-    SET sauthenticationtype = 'ims',
-            sname = '{email}'
-    WHERE sname = '{name}' AND itype = 0;
-    ```
-
-* Use the following `queryDef.ExecuteQuery` **Campaign API** to fetch id of an operator for given technical operator:
-
-    ```javascript
-    <?xml version="1.0" encoding="utf-8"?>
-    <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-        <soap:Body>
-            <ExecuteQuery xmlns="urn:xtk:queryDef">
-                <sessiontoken>{session_token}</sessiontoken>
-                <entity>
-                    <queryDef schema="xtk:operator" operation="select">
-                        <select>
-                            <node expr="@id"/>
-                        </select>
-                        <where>
-                            <condition expr="@name='{name}'"/>
-                            <condition expr="@type=0"/>
-                        </where>
-                    </queryDef>
-                </entity>
-            </ExecuteQuery>
-        </soap:Body>
-    </soap:Envelope>
-    ```
-
-* Use the following `session.Write` **Campaign API** to update name with given technical account email address:
-
-    ```javascript
-    <?xml version="1.0" encoding="utf-8"?>
-    <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-        <soap:Body>
-            <Write xmlns="urn:xtk:session">
-                <sessiontoken>{session_token}</sessiontoken>
-                <domDoc xsi:type='ns:Element' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
-                    <operator _operation="update" id="{id}" name="{email}" xtkschema="xtk:operator">
-                        <access authenticationType="ims" />
-                    </operator>
-                </domDoc>
-            </Write>
-        </soap:Body>
-    </soap:Envelope>
-    ```
--->
-
-### 5단계 - 구성 유효성 검사 {#ims-migration-step-5}
-
-연결을 시도하려면 다음에서 자세히 설명하는 단계를 수행합니다. [Adobe Developer 콘솔 자격 증명 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} 액세스 토큰을 생성하고 제공된 샘플 cURL 명령을 복사합니다.
+다음을 사용할 수 있습니다. **프로젝트 편집** 단추를 클릭하여 이 프로젝트의 이름을 변경합니다.
 
 
-### 6단계 - 서드파티 API 통합 업데이트 {#ims-migration-step-6}
+### 2단계 - 프로젝트에 API 추가 {#ims-migration-step-2}
 
-타사 시스템과의 API 통합을 업데이트해야 합니다.
+새로 만든 프로젝트 화면에서 이 프로젝트를 Adobe Campaign에 대한 API 호출에 대한 기술 계정으로 사용할 수 있도록 API에 를 추가합니다.
 
-원활한 통합을 위한 샘플 코드를 포함하여 API 통합 단계에 대한 자세한 내용은 을 참조하십시오. [Adobe Developer 콘솔 인증 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+프로젝트에 API를 추가하려면 다음 단계를 수행합니다.
+
+1. 클릭 **API 추가** 프로젝트에 추가할 API를 선택합니다.
+   ![](assets/do-not-localize/ims-updates-01.png)
+1. Adobe Campaign API를 선택하고 프로젝트에 추가합니다. 카드를 마우스로 가리키면 표시되는 Adobe Campaign 카드의 오른쪽 상단 모서리에 있는 상자를 선택합니다
+   ![](assets/do-not-localize/ims-updates-02.png)
+1. 클릭 **다음** 화면 맨 아래에.
+
+### 3단계 - 인증 유형 선택  {#ims-migration-step-3}
+
+다음에서 **API 구성** 화면에서 필요한 인증 유형을 선택합니다. **OAuth 서버 간** 이 프로젝트에는 인증이 필요합니다. 선택되었는지 확인하고 를 클릭합니다. **다음** 화면 맨 아래에.
+
+![](assets/do-not-localize/ims-updates-03.png)
+
+<!--
+Once your project is created in the Adobe Developer Console, add an API that uses Server-to-Server authentication. Learn how to set up the OAuth Server-to-Server credential in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
+
+When the API has been successfully connected, you can access the newly generated credentials including Client ID and Client Secret, as well as generate an access token.-->
+
+### 4단계 - 제품 프로필 선택 {#ims-migration-step-4}
+
+전제 조건 섹션에 설명된 대로 프로젝트에서 사용할 적절한 제품 프로필을 할당해야 합니다. 이 단계에서는 생성 중인 기술 계정에서 사용할 제품 프로필을 선택해야 합니다.
+
+이 기술 계정을 사용하여 메시지 센터 인스턴스에 대한 API를 호출하는 경우 다음으로 끝나는 제품 프로필 만들기 Adobe을 선택해야 합니다. `messagecenter`.
+
+마케팅 인스턴스에 대한 API 호출의 경우 인스턴스 및 운영자 그룹에 해당하는 제품 프로필을 선택합니다.
+
+필요한 제품 프로필을 선택하고 을(를) 클릭합니다. **구성된 API 저장** 화면 맨 아래에.
+
+<!--
+You can now add your Campaign product profile to the project, as detailed below:
+
+1. Open the Adobe Campaign API.
+1. Click the **Edit product profiles** button
+
+    ![](assets/do-not-localize/ims-edit-api.png)
+
+1. Assign all the relevant Product Profiles to the API, for example 'messagecenter', and save your changes.
+1. Browse to the **Credential details** tab of your project, and copy the **Technical Account Email** value.-->
+
+### 5단계 - 프로젝트에 I/O 관리 API 추가 {#ims-migration-step-5}
 
 
-### 7단계 - 이전 기술 연산자 제거 {#ims-migration-step-7}
+프로젝트 화면에서 **[!UICONTROL + Add to Project]** 및 선택 **[!UICONTROL API]** 화면의 왼쪽 상단에서 이 프로젝트에 I/O 관리 API를 추가할 수 있습니다.
+
+![](assets/do-not-localize/ims-updates-04.png)
+
+다음에서 **API 추가** 화면, 아래로 스크롤하여 **I/O 관리 API** 카드. 카드 위에 마우스를 가져다 대면 나타나는 확인란을 클릭하여 선택합니다. 그런 다음 **다음** 화면 맨 아래에.
+
+![](assets/do-not-localize/ims-updates-05.png)
 
 
-기술 계정 사용자와 모든 API/사용자 정의 코드 통합 마이그레이션 후. Campaign 클라이언트 콘솔에서 이전 기술 연산자를 삭제할 수 있습니다.
+다음에서 **API 구성** 화면에 OAuth 서버 간 인증이 이미 있습니다. 클릭 **구성된 API 저장** 화면 맨 아래에.
 
-### Soap 호출 샘플{#ims-migration-samples}
+
+![](assets/do-not-localize/ims-updates-06.png)
+
+이렇게 하면 새로 생성된 프로젝트의 I/O 관리 API 내의 프로젝트 화면으로 돌아갑니다. 화면 상단의 경로에서 프로젝트 이름을 클릭하여 기본 프로젝트 세부 정보 페이지로 돌아갑니다.
+
+
+### 6단계 - 프로젝트 설정 확인 {#ims-migration-step-6}
+
+프로젝트를 검토하여 이 기능이 아래와 유사한지 확인합니다. **I/O 관리 API** 및 **ADOBE CAMPAIGN API** 제품 및 서비스 섹션에 표시되며, **OAuth 서버 간** 자격 증명 섹션에서 다음을 수행합니다.
+
+![](assets/do-not-localize/ims-updates-07.png)
+
+
+### 7단계 - 구성 유효성 검사 {#ims-migration-step-7}
+
+연결을 시도하려면 다음에서 자세히 설명하는 단계를 수행합니다. [Adobe Developer 콘솔 자격 증명 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} 액세스 토큰을 생성하고 제공된 샘플 cURL 명령을 복사합니다. 이러한 자격 증명을 사용하여 soap 호출을 만들어 Adobe Campaign 인스턴스를 올바르게 인증하고 연결할 수 있는지 테스트할 수 있습니다. 타사 API 통합을 모두 변경하기 전에 이 유효성 검사를 수행하는 것이 좋습니다.
+
+### 8단계 - 서드파티 API 통합 업데이트 {#ims-migration-step-8}
+
+이제 Adobe Campaign에 호출하여 새로 만든 기술 계정을 사용하려면 API 통합 을 업데이트해야 합니다.
+
+원활한 통합을 위한 샘플 코드를 포함하여 API 통합 단계에 대한 자세한 내용은 을 참조하십시오. [Adobe Developer 콘솔 인증 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+
+다음은 타사 시스템에 대한 마이그레이션 호출 전후의 SOAP 호출 샘플을 보여 줍니다.
 
 마이그레이션 프로세스가 달성되고 유효성이 확인되면 Soap 호출이 다음과 같이 업데이트됩니다.
+
+
 
 * 마이그레이션 전: 기술 계정 액세스 토큰에 대한 지원이 없었습니다.
 
@@ -236,3 +200,43 @@ You can also update the technical operator programmatically, using SQL scripts o
   </soapenv:Body>
   </soapenv:Envelope>
   ```
+
+
+
+### 9단계 - (선택 사항) Campaign 클라이언트 콘솔 내에서 기술 계정 연산자 업데이트 {#ims-migration-step-9}
+
+이 단계는 선택 사항이며 메시지 센터 인스턴스가 아닌 마케팅 인스턴스 내에서만 사용할 수 있습니다. 지정된 운영자 그룹을 통하지 않는 기술 운영자에 대해 특정 폴더 권한 또는 명명된 권한이 정의된 경우. 이제 Admin Console에서 새로 만든 기술 계정 사용자를 업데이트하여 필요한 폴더 권한 또는 명명된 권한을 부여해야 합니다.
+
+Campaign 인스턴스에 대한 API 호출이 하나 이상 만들어져야 IMS가 Campaign 내에서 사용자를 만들 수 있으므로 기술 계정 사용자는 Adobe Campaign에 존재하지 않습니다. Campaign 내에서 기술 사용자를 찾을 수 없는 경우 설명된 대로 API 호출을 성공적으로 보낼 수 있는지 확인하십시오 [7단계](#ims-migration-step-7).
+
+1. 새 기술 계정 사용자에게 필요한 변경 사항을 적용하려면 Campaign 클라이언트 콘솔 내에서 이메일 주소로 해당 변경 사항을 찾습니다. 이 이메일 주소는 위의 프로젝트 만들기 및 인증 단계 동안 만들어졌습니다.
+
+   다음을 클릭하여 이 이메일 주소를 찾을 수 있습니다. **OAuth 서버 간** 제목 **자격 증명** 섹션에 있는 마지막 항목이 될 필요가 없습니다.
+
+   ![](assets/do-not-localize/ims-updates-07.png)
+
+   자격 증명 화면에서 아래로 스크롤하여 **기술 계정 이메일**을 찾고 **복사** 단추를 클릭합니다.
+
+   ![](assets/do-not-localize/ims-updates-08.png)
+
+1. 이제 Adobe Campaign 클라이언트 콘솔에서 새로 만든 기술 연산자를 업데이트해야 합니다. 기존 기술 운영자 폴더 권한을 새 기술 운영자에게 적용해야 합니다.
+
+   이 연산자를 업데이트하려면 다음 단계를 수행합니다.
+
+   1. Campaign 클라이언트 콘솔 탐색기에서 **관리 > 액세스 관리 > 연산자**.
+   1. API에 사용되는 기존 기술 운영자에 액세스합니다.
+   1. 폴더 권한을 찾아 권한을 확인합니다.
+   1. 새로 만든 기술 운영자에게 동일한 권한을 적용합니다. 이 운영자의 이메일은 **기술 계정 이메일** 값이 이전에 복사되었습니다.
+   1. 변경 내용을 저장합니다.
+
+
+>[!CAUTION]
+>
+>새 기술 운영자가 Campaign 클라이언트 콘솔에 추가할 API 호출을 하나 이상 수행해야 합니다.
+>
+
+### 10단계 - Adobe Campaign에서 이전 기술 연산자 제거 {#ims-migration-step-10}
+
+모든 타사 시스템을 마이그레이션하여 IMS 인증이 있는 새 기술 계정을 사용하면 Campaign 클라이언트 콘솔에서 이전 기술 연산자를 삭제할 수 있습니다.
+
+이렇게 하려면 Campaign 클라이언트 콘솔에 로그인하고 로 이동합니다. **관리 > 액세스 관리 > 연산자** 이전 기술 사용자를 찾아 삭제합니다.
