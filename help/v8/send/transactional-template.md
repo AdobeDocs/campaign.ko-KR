@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 555e1d64ada12dc145fbba9124611e30d7746ba5
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1170'
 ht-degree: 1%
 
 ---
@@ -158,6 +158,18 @@ This information enables you to personalize message content using personalizatio
 증명을 각 템플릿에서 **[!UICONTROL Audit]** 탭.
 
 ![](assets/messagecenter_send_proof_003.png)
+
+#### 전환 위치 [!DNL Campaign Classic] v7
+
+다음과 같은 경우 [Campaign Classic v7에서 전환](../start/v7-to-v8.md), 모든 게재는 중간 소싱 서버를 거칩니다.
+
+하지만 트랜잭션 메시지 템플릿을 만들 때 템플릿을 성공적으로 사용하는 데 필요한 라우팅은 입니다. **내부 이메일 게재**. 이 라우팅으로 인해 증명을 보낼 수 없습니다.
+
+따라서 트랜잭션 메시지 템플릿에 대한 증명을 보내려면 내부 이메일 게재에서 다음으로 라우팅을 변경해야 합니다. **중간 소싱 라우팅 계정**.
+
+![](assets/messagecenter_send_proof_004.png)
+
+증명을 보낸 후에는 트랜잭션 메시지 템플릿을 게시하기 전에 다시 내부 이메일 게재로 라우팅을 변경해야 합니다.
 
 ## 템플릿 게시 {#publish-message-template}
 
