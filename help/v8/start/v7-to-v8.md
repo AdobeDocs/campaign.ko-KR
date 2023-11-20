@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 92%
+source-wordcount: '694'
+ht-degree: 90%
 
 ---
 
@@ -37,7 +37,9 @@ Adobe Campaign 관리 클라우드 서비스는 크로스 채널 고객 경험�
 
 이전 [!DNL Campaign Classic] 사용자는 대부분의 [!DNL Campaign Classic] v7 기능을 [!DNL Campaign] v8에서도 사용할 수 있습니다(일부 예외 사항: [이 섹션](#gs-removed) 참조).
 
-Campaign v8은 **하이브리드 아키텍처**. Campaign Classic v7에서 전환하는 경우 모든 게재는 중간 소싱 서버를 거칩니다. 따라서 내부 라우팅은 Campaign v8에서 **불가능**&#x200B;하며, 외부 계정이 이에 따라 비활성화되었습니다. [자세히 알아보기](../architecture/architecture.md)
+Campaign v8은 **하이브리드 아키텍처**. Campaign Classic v7에서 전환하는 경우 모든 게재는 중간 소싱 서버를 거칩니다. 따라서 내부 라우팅은 Campaign v8에서 **불가능**&#x200B;하며, 외부 계정이 이에 따라 비활성화되었습니다.
+
+![](../assets/do-not-localize/glass.png) 의 v7에서 전환할 때 트랜잭션 메시지 증명 보내기에 대해 자세히 알아보기 [이 페이지](../send/transactional-template.md#transition-from-v7).
 
 >[!NOTE]
 >

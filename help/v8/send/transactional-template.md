@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 555e1d64ada12dc145fbba9124611e30d7746ba5
+source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 1%
@@ -130,7 +130,7 @@ This information enables you to personalize message content using personalizatio
 
    ![](assets/messagecenter_create_seed_7.png)
 
-### 증명 보내기
+### 증명 보내기 {#send-proof}
 
 이전에 만든 시드 주소로 증명을 전송하여 메시지 게재를 테스트할 수 있습니다.
 
@@ -159,7 +159,7 @@ This information enables you to personalize message content using personalizatio
 
 ![](assets/messagecenter_send_proof_003.png)
 
-#### 전환 위치 [!DNL Campaign Classic] v7
+#### 전환 위치 [!DNL Campaign Classic] v7 {#transition-from-v7}
 
 다음과 같은 경우 [Campaign Classic v7에서 전환](../start/v7-to-v8.md), 모든 게재는 중간 소싱 서버를 거칩니다.
 
