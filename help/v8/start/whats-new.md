@@ -1,18 +1,18 @@
 ---
 title: Campaign v8의 새로운 기능
-description: Adobe Campaign v8의 주요 기능, 새로운 기능 및 최신 릴리스에서 기대할 수 있는 사항을 알아보십시오.
-feature: Overview, Release Notes
+description: Adobe Campaign v8의 주요 기능 살펴보기
+feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 5c4bbbd06eb7bf6dc9ada1d08c3fc696e88ee760
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 93%
+source-wordcount: '911'
+ht-degree: 92%
 
 ---
 
-# Adobe Campaign v8의 새로운 기능은 무엇입니까? {#ac-gs-what-is-new}
+# Adobe Campaign v8 주요 기능 {#ac-gs-what-is-new}
 
 Adobe Campaign v8은 엔터프라이즈 규모의 크로스 채널 캠페인을 위한 업계 최고의 클라우드 솔루션을 필요로 하는 크로스 채널 마케터를 위해 설계되었습니다. 완벽한 캠페인을 제작 및 큐레이션하는 데 도움이 되는 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정을 핵심으로 집중하는 풍부한 멀티 터치 마케팅 프로그램을 제공합니다. 또한 마케팅 팀이 암호 재설정, 주문 확인, 전자 수신 등의 작업에 대해 모든 것을 포함하는 페이로드를 기반으로 사전 정의된 메시지를 모든 IT 시스템에서 전송할 수 있도록 지원하는 확장 가능한 실시간 메시징 서버와 나란히 제공됩니다.
 
