@@ -1,18 +1,18 @@
 ---
-title: Campaign 프로세스 및 구성 요소 이해
-description: Campaign 프로세스 및 구성 요소 이해
+title: Campaign 구성 요소 및 프로세스 이해
+description: Campaign 구성 요소 및 프로세스 이해
 feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 7deb5e8f646b086adec2e0652538a187e68adbee
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 1%
 
 ---
 
-# Campaign 프로세스 및 구성 요소 이해 {#components-and-processes}
+# Campaign 구성 요소 및 프로세스 이해 {#components-and-processes}
 
 Adobe Campaign은 이메일, 모바일, 소셜 및 오프라인 캠페인을 자동화하는 크로스 채널 마케팅 솔루션입니다. Adobe Campaign은 고객 데이터 및 프로필에 액세스할 수 있는 중앙 위치를 제공합니다. Adobe Campaign을 사용하여 고객에 대한 일관된 경험을 오케스트레이션하고, 채널 전반에서 마케팅을 설계, 실행 및 개인화하는 동시에 모든 디바이스 및 접점에서 고객 경험을 향상시킬 수 있습니다. Adobe Campaign을 사용하면 드래그 앤 드롭 시각적 워크플로우 인터페이스를 통해 여러 데이터 소스를 관리하고, 대상 세그먼트를 정의하고, 여러 단계의 크로스 채널 캠페인을 계획 및 실행할 수 있습니다.
 
