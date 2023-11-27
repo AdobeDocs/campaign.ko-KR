@@ -3,9 +3,9 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 도움말 센터
 title: Adobe Campaign v8 제품 설명서
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 05afe85c73a6fc54af6e139cdaadb98cd7a832b6
+source-git-commit: 09aacde1f06b679899ca8a736419f64a5cf46823
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '455'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 ## 새로운 기능
 
-Journey Optimizer의 최신 개선 사항을 엿볼 수 있습니다! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세 정보를 확인하십시오 [릴리스 정보](start/release-notes.md).
+Adobe Campaign v8의 최신 개선 사항을 엿볼 수 있습니다! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세 정보를 확인하십시오 [릴리스 정보](start/release-notes.md).
 
 >[!BEGINTABS]
 
