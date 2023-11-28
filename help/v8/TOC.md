@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: b9e4cb3cbbb5a29879146eeecf7261b59f413993
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 91%
 
 ---
@@ -161,11 +161,10 @@ ht-degree: 91%
       + [Campaign FDA 배포](architecture/fda-deployment.md)
       + 엔터프라이즈(FFDA) 배포 {#ffda}
          + [Campaign FFDA란?](architecture/enterprise-deployment.md)
-         + 특성 {#ffda-characteristics}
-            + [키 관리 및 독자성](architecture/keys.md)
-            + [새 API](architecture/new-apis.md)
-            + [API 스테이징 메커니즘](architecture/staging.md)
-            + [복제 메커니즘](architecture/replication.md)
+         + [키 관리 및 독자성](architecture/keys.md)
+         + [새 API](architecture/new-apis.md)
+         + [API 스테이징 메커니즘](architecture/staging.md)
+         + [복제 메커니즘](architecture/replication.md)
    + 구현 {#implement}
       + [구현 단계](start/implement.md)
       + [인스턴스 사용자 정의](dev/customize.md)
