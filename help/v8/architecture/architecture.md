@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 10%
@@ -38,7 +38,7 @@ Campaign은 각 인스턴스가 전체 Campaign 환경을 나타내는 개별 �
 
   >[!NOTE]
   >
-  >이 배포 모델에서는 [!DNL Snowflake] 보조 데이터베이스는 요청 시에만 사용할 수 있습니다. 을(를) 사용하여 배포를 업데이트하려면 [!DNL Snowflake], Adobe 기술 계정 관리자에게 문의하십시오.
+  >이 배포 모델에서는 [!DNL Snowflake] 보조 데이터베이스는 요청 시에만 사용할 수 있습니다. 을(를) 사용하여 배포를 업데이트하려면 [!DNL Snowflake], Adobe 전환 관리자에게 문의하십시오.
   >
 
 * **Campaign Enterprise(FFDA) 배포**
@@ -70,7 +70,7 @@ Campaign v8 패키지에 따라 게재 실행을 담당하는 특정 수의 중�
 
 >[!IMPORTANT]
 >
->분할 라우팅 모드는 &quot;분할 게재 - 이메일&quot; 계정에 대해 기본적으로 활성화됩니다. 기타 모든 채널 외부 계정의 경우 고객 지원 센터에 문의하여 옵션을 활성화하십시오.
+>분할 라우팅 모드는 &quot;분할 게재 - 이메일&quot; 계정에 대해 기본적으로 활성화됩니다. 기타 모든 채널 외부 계정의 경우 Adobe 전환 관리자에게 문의하여 옵션을 활성화하십시오.
 >
 >기본적으로 여러 MID 간에 게재를 분할하는 임계값 크기 값은 100K입니다. 의 &quot;NmsDelivery_MultiMidSplitThreshold&quot; 옵션에서 이 값을 변경할 수 있습니다. **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 

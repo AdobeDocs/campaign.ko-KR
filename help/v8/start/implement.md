@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 100%
+source-wordcount: '1188'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >
 >**Campaign Managed Cloud Services**&#x200B;를 사용하면 Adobe가 라이선스 계약의 약관에 따라 환경 및 초기 구성을 설정합니다. 설치된 기본 제공 패키지, 기본 제공 스키마 또는 보고서는 수정할 수 없습니다.
 >
->Campaign 추가 기능 또는 제공되지 않은 특정 기능을 사용해야 하는 경우 **Adobe 고객 지원 센터**&#x200B;에 문의해야 합니다.
+>Campaign 추가 기능 또는 제공되지 않은 특정 기능을 사용해야 하는 경우 **Adobe 전환 관리자**.
 
 ## 시작하기 전{#before-starting}
 

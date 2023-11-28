@@ -5,10 +5,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 95%
+source-wordcount: '379'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 
 컨트롤 패널에서 제공되는 주요 이점은 다음과 같습니다.
 
-* 고객 지원 센터에 문의하지 않고도 직접 설정을 빠르게 변경할 수 있습니다.
+* Adobe에 연결하지 않고 직접 설정을 빠르게 변경할 수 있습니다.
 * 상황별로 다양한 비즈니스 요구 사항에 따라 설정을 구성할 수 있습니다.
 * 필요에 따라 액세스 설정을 제어하여 보안을 강화할 수 있습니다.
 
