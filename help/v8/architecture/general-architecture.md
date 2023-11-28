@@ -5,9 +5,9 @@ feature: Architecture, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1136'
 ht-degree: 7%
 
 ---
@@ -81,7 +81,7 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 
 ## 데이터베이스 컨테이너 {#db-containers}
 
-Adobe Campaign Cloud 데이터베이스는 [!DNL Snowflake] 기능 데이터(프로필, 구독, 콘텐츠 등), 기술 데이터(게재 작업 및 로그, 추적 로그 등)가 포함되어 있습니다. 솔루션에 대한 작업 데이터(구매, 리드) 및 모든 Adobe Campaign 구성 요소는 특정 작업을 수행하기 위해 데이터베이스와 통신합니다.
+의 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md), Adobe Campaign Cloud 데이터베이스는 [!DNL Snowflake] 기능 데이터(프로필, 구독, 콘텐츠 등), 기술 데이터(게재 작업 및 로그, 추적 로그 등)가 포함되어 있습니다. 솔루션에 대한 작업 데이터(구매, 리드) 및 모든 Adobe Campaign 구성 요소는 특정 작업을 수행하기 위해 데이터베이스와 통신합니다.
 
 사전 정의된 데이터베이스 및 스키마를 사용하여 Adobe Campaign을 배포할 수 있으며 필요한 경우 이 사전 정의된 환경을 확장할 수 있습니다. 데이터 마트 내의 모든 데이터는 SQL 호출을 통해 Adobe Campaign에서 액세스합니다. 또한 Adobe Campaign은 추출 변환 및 로드(ETL) 도구를 완전히 보완하여 데이터를 시스템으로 가져오거나 시스템에서 내보낼 수 있습니다.
 
@@ -96,6 +96,6 @@ Adobe Campaign Cloud 데이터베이스는 [!DNL Snowflake] 기능 데이터(프
 
 ## 데이터베이스 저장소 {#db-storage}
 
-총 저장 용량은 기본 데이터베이스와 Snowflake 웨어하우스 간에 분할됩니다. 데이터가 저장되는 위치는 고객별 사용 사례에 따라 구현 또는 업그레이드 시 결정되어야 합니다.
+총 저장 용량은 기본 데이터베이스와 (선택 사항) Snowflake 보조 데이터베이스 간에 분할됩니다. 데이터가 저장되는 위치는 고객별 사용 사례에 따라 구현 또는 업그레이드 시 결정되어야 합니다.
 
 에서 데이터베이스 사용량을 모니터링하는 방법 알아보기 [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.

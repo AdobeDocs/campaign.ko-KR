@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 90%
+source-wordcount: '690'
+ht-degree: 84%
 
 ---
 
@@ -47,9 +47,7 @@ Campaign v8은 **하이브리드 아키텍처**. Campaign Classic v7에서 전�
 
 ## [!DNL Campaign] 및 [!DNL Snowflake] {#ac-gs-snowflake}
 
-Campaign v8은 [!DNL Snowflake]과(와) 함께 사용 가능합니다.
-
-[엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)에서 [!DNL Adobe Campaign] v8은 두 개의 데이터베이스를 사용합니다. 하나는 사용자 인터페이스 실시간 메시지 보내기와 API를 통한 단일 쿼리 및 쓰기를 위한 로컬 [!DNL Campaign] 데이터베이스이고, 다른 하나는 캠페인 실행, 쿼리 일괄 처리 및 워크플로우 실행을 위한 클라우드[!DNL Snowflake] 데이터베이스입니다.
+의 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8은 두 개의 데이터베이스를 사용합니다. 하나는 로컬이고, 다른 하나는 [!DNL Campaign] API 및 클라우드를 통한 사용자 인터페이스 실시간 메시징 및 단일 쿼리 및 쓰기를 위한 데이터베이스 [!DNL Snowflake] 캠페인 실행, 일괄 쿼리 및 워크플로우 실행을 위한 데이터베이스.
 
 Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8 엔터프라이즈(FFDA) 배포는 이 새로운 아키텍처를 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 표를 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
 

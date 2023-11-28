@@ -5,7 +5,7 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
 source-wordcount: '1570'
 ht-degree: 4%
@@ -94,7 +94,7 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기, 메시지
 
 자세히 알아보기 **워크플로우 속성** 위치: [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html).
 
-다음에서 **[!UICONTROL Execution]** 워크플로우 탭 **[!UICONTROL Properties]**, 워크플로우를 다른 웨어하우스에 연결하고 워크로드 관리를 최적화하도록 선택할 수 있습니다. 에 대한 자세한 내용 **웨어하우스**&#x200B;을(를) 참조하십시오. [Snowflake 설명서](https://docs.snowflake.com/en/user-guide/warehouses-overview.html).
+다음에서 **[!UICONTROL Execution]** 워크플로우 탭 **[!UICONTROL Properties]**, 워크플로우를 다른 웨어하우스에 연결하고 워크로드 관리를 최적화하도록 선택할 수 있습니다. 에 대한 자세한 내용 **웨어하우스**&#x200B;을(를) 참조하십시오. [Snowflake 설명서](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
 
 ![](assets/warehouse.png)
 

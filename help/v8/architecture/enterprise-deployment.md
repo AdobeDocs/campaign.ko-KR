@@ -5,7 +5,7 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 54%
@@ -14,7 +14,7 @@ ht-degree: 54%
 
 # [!DNL Campaign] FFDA 배포 {#gs-ac-ffda}
 
-활용 [[!DNL Snowflake]](https://www.snowflake.com/), 클라우드 데이터베이스 기술인 Adobe Campaign Enterprise FFDA(Full Federated Access) 배포는 규모와 속도를 크게 향상시키며, 훨씬 더 많은 수의 고객 프로필을 관리할 수 있을 뿐만 아니라 시간당 훨씬 더 높은 게재율과 트랜잭션을 처리할 수 있습니다.
+활용 [[!DNL Snowflake]](https://www.snowflake.com/){target="_blank"}, 클라우드 데이터베이스 기술인 Adobe Campaign Enterprise FFDA(Full Federated Access) 배포는 규모와 속도를 크게 향상시키며, 훨씬 더 많은 수의 고객 프로필을 관리할 수 있을 뿐만 아니라 시간당 훨씬 더 높은 게재율과 트랜잭션을 처리할 수 있습니다.
 
 ## 이점 {#ffda-benefits}
 

@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
-source-git-commit: cb5bec3107872d4d6da83b4ddbc7cad3e9276b00
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -155,11 +155,10 @@ ht-degree: 92%
       + [폴더에 권한 추가](start/folder-permissions.md)
    + [컨트롤 패널](config/self-service.md)
 + 아키텍처 및 구성 {#config}
-   + 아키텍처 {#architecture}
+   + Campaign v8 아키텍처 {#architecture}
       + [글로벌 원칙](architecture/general-architecture.md)
-      + [아키텍처](architecture/architecture.md)
-      + FDA Snowflake 배포 {#fda}
-         + [FDA-Snowflake란?](architecture/fda-deployment.md)
+      + [아키텍처 모델](architecture/architecture.md)
+      + [Campaign FDA 배포](architecture/fda-deployment.md)
       + 엔터프라이즈(FFDA) 배포 {#ffda}
          + [Campaign FFDA란?](architecture/enterprise-deployment.md)
          + 특성 {#ffda-characteristics}

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 5c4bbbd06eb7bf6dc9ada1d08c3fc696e88ee760
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 92%
+source-wordcount: '910'
+ht-degree: 90%
 
 ---
 
@@ -82,7 +82,7 @@ Adobe 관리 클라우드 서비스는 마케터에게 민첩하고 안전하며
 
 Adobe Campaign은 이제 클라우드 규모 데이터베이스 기술을 활용하여 규모와 속도를 획기적으로 개선할 수 있습니다.
 
-[Campaign v8 Enterprise](../architecture/enterprise-deployment.md)는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8은 이 새로운 기능을 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 표를 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. [!DNL Snowflake]는 Campaign 클라우드 데이터베이스로 시스템 활동이 정점에 달해도 과부하가 걸리지 않는 속도와 지구력을 제공합니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
+[Campaign v8 Enterprise](../architecture/enterprise-deployment.md)는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8은 이 새로운 기능을 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 표를 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. [!DNL Snowflake] 는 Campaign 클라우드 데이터베이스로 시스템 활동이 정점에 달해도 과부하가 걸리지 않는 속도와 지구력을 제공합니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
 
 ![](../assets/do-not-localize/glass.png) [엔터프라이즈(FDA) 배포에 대해 자세히 알아보기](../architecture/enterprise-deployment.md)
 

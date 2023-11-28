@@ -1,20 +1,20 @@
 ---
-title: Campaign FDA-Snowflake 배포 시작
-description: Campaign FDA-Snowflake 배포 시작
+title: Campaign FDA 배포 시작
+description: Campaign FDA 배포 시작
 feature: Architecture, Federated Data Access, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: b3df0336-f40e-4ac1-b6a4-068b8827dca2
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# [!DNL Campaign] FDA [!DNL Snowflake] 배포{#gs-fda-snowflake}
+# [!DNL Campaign] FDA 배포{#gs-fda}
 
-다음 기간 [!DNL Snowflake] FDA(기본값) 배포, [!DNL Adobe Campaign] v8이 (으)로 연결되어 있습니다. [!DNL Snowflake] 을 통해 데이터에 액세스 [페더레이션 데이터 액세스](../connect/fda.md) 기능: 에 저장된 외부 데이터 및 정보에 액세스하고 이를 처리할 수 있습니다. [!DNL Snowflake] Adobe Campaign 데이터의 구조를 변경하지 않고 데이터베이스를 구축할 수 있습니다.
+Campaign FDA(기본값) 배포에서 [!DNL Adobe Campaign] v8에 연결할 수 있음 [!DNL Snowflake] 을 통해 데이터에 액세스 [페더레이션 데이터 액세스](../connect/fda.md) 기능:에 저장된 외부 데이터 및 정보에 액세스하고 이를 처리할 수 있습니다. [!DNL Snowflake] Adobe Campaign 데이터의 구조를 변경하지 않고 데이터베이스를 구축할 수 있습니다.
 
 ## 이점{#fda-benefits}
 
@@ -37,4 +37,4 @@ ht-degree: 0%
 
 ![](assets/fda-architecture.png)
 
-PostgreSQL은 기본 데이터베이스이고 Snowflake은 보조 데이터베이스입니다. 데이터 모델을 확장하고 Snowflake에 데이터를 저장할 수 있습니다. 그런 다음 ETL, 세그먼테이션 및 뛰어난 성능이 포함된 대규모 데이터 세트에 대한 보고서를 실행할 수 있습니다.
+PostgreSQL은 기본 데이터베이스이며 Snowflake을 보조 데이터베이스로 사용할 수 있습니다. 데이터 모델을 확장하고 Snowflake에 데이터를 저장할 수 있습니다. 그런 다음 ETL, 세그먼테이션 및 뛰어난 성능이 포함된 대규모 데이터 세트에 대한 보고서를 실행할 수 있습니다.
