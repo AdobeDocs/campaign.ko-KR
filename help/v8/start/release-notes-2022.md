@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '1839'
-ht-degree: 94%
+source-wordcount: '1847'
+ht-degree: 91%
 
 ---
 
@@ -51,20 +51,20 @@ _2022년 9월 30일_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Twitter 채널 가용성</strong><br /> </th> 
+<th> <strong>X(이전의 Twitter) 채널 가용성</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p><a href="../send/twitter.md">Twitter 소셜 채널</a>은 이제 Campaign v8에서 사용할 수 있습니다. 다음을 수행할 수 있습니다.</p>
+<td> <p>다음 <a href="../send/twitter.md">X 소셜 채널</a> 는 이제 Campaign v8에서 사용할 수 있습니다. 다음을 수행할 수 있습니다.</p>
 <ul> 
-<li><p>Twitter에서 메시지 보내기: Adobe Campaign을 사용하면 Twitter 계정에 직접 메시지를 게시할 수 있습니다. 모든 팔로워에게 직접 메시지를 보낼 수도 있습니다.
+<li><p>X에서 메시지 보내기(이전의 Twitter): Adobe Campaign을 사용하면 메시지를 X 계정에 직접 게시할 수 있습니다. 모든 팔로워에게 직접 메시지를 보낼 수도 있습니다.
 </p></li>
 <li><p>새 연락처 수집: Adobe Campaign은 프로필 데이터를 자동으로 복구하여 타겟팅 캠페인을 수행하고 크로스 채널 전략을 구현할 수 있습니다.
 </p></li>
 </ul>
-<p><a href="../connect/ac-tw.md">세부 설명서</a>에서 Campaign 및 Twitter를 연결하는 방법을 알아봅니다.</p>
-<p><a href="../connect/ac-tw.md">이 페이지</a>에서 캠페인을 통해 Twitter에 메세지를 게시하고 다이렉트 메시지를 보내는 방법에 대해 자세히 알아보십시오.</p>
+<p>에서 Campaign과 X를 연결하는 방법을 알아봅니다. <a href="../connect/ac-tw.md">자세한 설명서</a>.</p>
+<p>에서 Campaign을 사용하여 게시물을 만들고 다이렉트 메시지를 보내는 방법을 배웁니다. <a href="../connect/ac-tw.md">이 페이지</a>.</p>
 </td> 
 </tr> 
 </tbody> 

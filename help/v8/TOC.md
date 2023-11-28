@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: 캠페인 개요
-source-git-commit: b9e4cb3cbbb5a29879146eeecf7261b59f413993
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 91%
+source-wordcount: '579'
+ht-degree: 90%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 91%
       + [데이터 수집으로 푸시 알림 구성](send/push-data-collection.md)
    + [LINE 메시지 보내기](send/line.md)
    + [DM](send/direct-mail.md)
-   + [Twitter](send/twitter.md)
+   + [X (Twitter)](send/twitter.md)
    + 콘텐츠 개인화 {#personalize}
       + [개인화 시작하기](send/personalize.md)
       + [개인화 데이터](send/personalization-data.md)
@@ -141,7 +141,7 @@ ht-degree: 91%
    + [Campaign + Experience Manager](connect/ac-aem.md)
    + [Campaign + Target](connect/ac-at.md)
    + [Campaign - Experience Cloud 트리거](connect/ac-triggers.md)
-   + [Campaign + Twitter](connect/ac-tw.md)
+   + [Campaign + X(Twitter)](connect/ac-tw.md)
    + [Campaign + 외부 데이터베이스](connect/fda.md)
    + Campaign + CRM {#ac-crm}
       + [CRM 커넥터 시작](connect/crm.md)

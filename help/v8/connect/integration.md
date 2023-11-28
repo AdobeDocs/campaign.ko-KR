@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 11%
 
 ---
@@ -52,18 +52,18 @@ CRM 커넥터를 사용하면 빠르고 간편하게 데이터를 통합할 수 
 
 FDA 커넥터(Federated Data Access)를 사용하여 Campaign을 하나 이상에 연결합니다 **외부 데이터베이스** Campaign Cloud 데이터베이스 데이터에 영향을 주지 않고 저장된 정보를 처리합니다.
 
-![](../assets/do-not-localize/glass.png)[ 이 페이지](fda.md)에서 자세히 알아보기
+![](../assets/do-not-localize/glass.png)[ 이 페이지](fda.md)에서 자세히 알아보십시오
 
 ## 소셜 미디어로 작업{#gs-social}
 
-Adobe Campaign을 사용하여 Twitter을 통해 고객 및 잠재 고객과 상호 작용할 수 있습니다.
+Adobe Campaign을 사용하여 X(이전의 Twitter)를 통해 고객 및 잠재 고객과 상호 작용할 수 있습니다.
 
 다음을 수행할 수 있습니다.
 
 * 팔로워에게 다이렉트 메시지 보내기
-* twitter 계정에 트윗 게시
+* X 계정에 게시
 * 새 연락처 수집
 
-에서 Twitter 통합을 설정하고 사용하는 방법에 대해 알아봅니다. [이 페이지](../connect/ac-tw.md).
+에서 X 통합을 설정하고 사용하는 방법에 대해 알아봅니다. [이 페이지](../connect/ac-tw.md).
 
-에서 Twitter 게시물을 만들고 팔로워에게 직접 메시지를 보내는 방법을 배웁니다. [이 페이지](../send/twitter.md).
+에서 X 개의 게시물을 만들고 팔로워에게 직접 메시지를 보내는 방법을 알아봅니다. [이 페이지](../send/twitter.md).

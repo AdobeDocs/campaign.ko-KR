@@ -5,9 +5,9 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1089'
 ht-degree: 4%
 
 ---
@@ -97,7 +97,7 @@ Microsoft OAuth 2.0을 사용하여 외부 POP3을 구성하려면 **[!UICONTROL
 
   Adobe Campaign v8과 호환되는 외부 데이터베이스는 [호환성 매트릭스](../start/compatibility-matrix.md)
 
-* **Twitter** - **Twitter** 유형 외부 계정은 Campaign을 twitter 계정에 연결하여 귀하를 대신하여 메시지를 게시하는 데 사용됩니다. 에서 Twitter 통합에 대해 자세히 알아보기 [이 섹션](../connect/ac-tw.md).
+* **X(이전 명칭: Twitter)** - **Twitter** 유형 외부 계정은 Campaign을 X 계정에 연결하여 귀하를 대신하여 메시지를 게시하는 데 사용됩니다. 에서 X 통합에 대해 자세히 알아보기 [이 섹션](../connect/ac-tw.md).
 
 ## Adobe 솔루션 통합 외부 계정 {#adobe-integration-external-accounts}
 

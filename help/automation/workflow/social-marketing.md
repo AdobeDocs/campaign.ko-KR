@@ -3,9 +3,9 @@ product: campaign
 title: 소셜 마케팅
 description: 소셜 마케팅 기술 워크플로우에 대해 자세히 알아보기
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '120'
 ht-degree: 18%
 
 ---
@@ -46,12 +46,12 @@ ht-degree: 18%
   <tr> 
    <td> <span class="uicontrol">Twitter 통계 계산</span> <br /> </td> 
    <td> <span class="uicontrol">statsTwitter</span> <br /> </td> 
-   <td> 이 워크플로우는 Twitter 시 리트윗 및 방문에 연결된 통계를 계산합니다.<br /> </td> 
+   <td> 이 워크플로우는 X(이전에는 Twitter)의 리트윗 및 방문에 연결된 통계를 계산합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">twitter 페이지 동기화</span> <br /> </td> 
    <td> <span class="uicontrol">syncTwitter</span> <br /> </td> 
-   <td> 이 워크플로우는 매일 오전 7시에 Twitter 팔로워를 Adobe Campaign으로 가져옵니다.<br /> </td> 
+   <td> 이 워크플로우는 매일 오전 7시에 X명의 팔로워를 Adobe Campaign으로 가져옵니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
