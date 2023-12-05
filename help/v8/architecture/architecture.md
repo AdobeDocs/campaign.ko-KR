@@ -1,14 +1,14 @@
 ---
 title: Campaign 아키텍처 시작
-description: 환경 및 배포와 관련된 기본적인 사항과캠페인 환경에서 보고하는 방법을 살펴봅니다.
+description: Campaign 환경에 대한 보고 방법을 포함하여 환경 및 배포 기본 사항을 살펴봅니다.
 feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 10%
+source-wordcount: '1025'
+ht-degree: 9%
 
 ---
 
@@ -30,7 +30,7 @@ Campaign은 각 인스턴스가 전체 Campaign 환경을 나타내는 개별 �
 
 ## 배포 모델{#ac-deployment}
 
-두 가지 배포 모델을 사용할 수 있습니다:
+두 가지 배포 모델을 사용할 수 있습니다.
 
 * **Campaign FDA 배포**
 
