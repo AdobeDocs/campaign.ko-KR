@@ -3,9 +3,10 @@ title: 기술 사용자를 Adobe Developer 콘솔로 마이그레이션
 description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 계정으로 마이그레이션하는 방법을 알아봅니다
 feature: Technote
 role: Admin
-source-git-commit: 9f93057d2d729d4251d914426488f46b6ef24bbb
+exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -38,7 +39,7 @@ Campaign 외부 시스템에서 캠페인 마케팅 인스턴스 또는 실시�
 
 ### 마이그레이션 사전 요구 사항{#ims-migration-prerequisites}
 
-기술 운영자를 대체하는 기술 계정을 만들려면 모든 Campaign 인스턴스에 대해 Admin Console 내에 적절한 Campaign 제품 프로필이 존재해야 한다는 전제 조건을 확인해야 합니다. 의 Adobe 콘솔에서 제품 프로필에 대해 자세히 알아볼 수 있습니다. [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+<!--To be able to create the technical accounts which replace the technical operators, the prerequisite that the proper Campaign Product Profiles exist within the Admin Console for all Campaign instances need to be validated. You can learn more about Product Profiles within the Adobe Console in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.-->
 
 메시지 센터 인스턴스에 대한 API 호출의 경우 Campaign v8.5로 업그레이드하는 동안 또는 인스턴스를 프로비저닝하는 동안 제품 프로필을 만들어야 합니다. 이 제품 프로필의 이름은 다음과 같습니다.
 

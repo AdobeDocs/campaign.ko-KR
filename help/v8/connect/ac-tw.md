@@ -5,10 +5,10 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 3%
+source-wordcount: '1065'
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Campaign은 X API의 1.1 버전을 사용합니다. 이 기능을 사용하려�
 
 ## X에서 응용 프로그램 만들기 {#create-an-app-on-twitter}
 
-관리자 권한 승인을 받았으면 X 애플리케이션을 만들어 Adobe Campaign에서 X 계정에 게시물을 만들 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
+관리자 권한 승인을 받았으면 X 애플리케이션을 만들어 Adobe Campaign에서 X 계정에 게시물을 만들 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. X 계정에 로그온합니다.
 1. 연결 대상 [X 개발자 포털](https://developer.twitter.com/en/apps).
@@ -124,7 +124,7 @@ Campaign 인스턴스를 X 계정과 연결하려면 **Twitter** Campaign에 대
 
 각 팔로워에 대해 Adobe Campaign은 다음 정보를 저장합니다.
 
-* **[!UICONTROL Origin]**: Twitter
+* **[!UICONTROL Origin]**: TWITTER
 * **[!UICONTROL External ID]**: 사용자 식별자
 * **[!UICONTROL Username]**: 사용자의 계정 이름
 * **[!UICONTROL Full name]**: 사용자 이름
@@ -135,12 +135,12 @@ Campaign 인스턴스를 X 계정과 연결하려면 **Twitter** Campaign에 대
 
 ## X에서 테스트 계정 만들기 {#tw-test-account}
 
-X 계정 외에 전송에 사용할 수 있는 개인 X 계정을 만듭니다. [트윗 증명](../send/twitter.md#send-tw-proofs). 이렇게 하려면 아래 단계를 수행합니다:
+X 계정 외에 전송에 사용할 수 있는 개인 X 계정을 만듭니다. [트윗 증명](../send/twitter.md#send-tw-proofs). 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 새 X 계정을 만듭니다.
 1. 계정 액세스  **설정**.
 1. 다음으로 이동 **개인 정보 및 안전** 및 **대상자 및 태깅** 및 확인 **게시물 Protect** 옵션을 선택합니다. 귀하의 게시물 및 기타 계정 정보는 귀하를 따르는 사람에게만 표시됩니다.
 
-![](assets/social_tw_test_page.png)
+![](assets/do-not-localize/social_tw_test_page.png)
 
 위에서 설명한 대로 이 테스트 계정으로 작동하도록 X 앱 및 Campaign 서비스를 구성합니다.

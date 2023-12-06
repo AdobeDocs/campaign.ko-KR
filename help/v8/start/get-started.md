@@ -5,9 +5,9 @@ feature: Overview, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '862'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Campaign을 사용하여 다음을 수행할 수 있습니다.
 * 이메일, 모바일, 온라인 및 오프라인 채널을 고객 여정에 **통합**
 * 의미 있고 시의적절한 메시지 및 오퍼 게재 **자동화**
 
-![](assets/ac-capabilities.png)
+![](assets/do-not-localize/ac-capabilities.png)
 
 ## Integrated Customer Profile {#integrated-customer-profile}
 

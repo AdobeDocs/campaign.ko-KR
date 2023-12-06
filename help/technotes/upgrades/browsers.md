@@ -5,9 +5,9 @@ description: Chrome, Firefox 및 Edge 브라우저의 Campaign 웹 구성 요소
 hide: true
 hidefromtoc: true
 exl-id: 912ad71e-2b23-4b16-b5f9-47d547fc83d5
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Mozilla Firefox 100으로 웹 페이지를 테스트하려면 사용자 에이�
 1. 검색 대상 `general.useragent.override`.
 1. &#39;문자열&#39;을 선택한 다음 더하기(+) 기호를 클릭합니다.
 
-   ![](assets/force-user-agent-firefox.png)
+   ![](assets/do-not-localize/force-user-agent-firefox.png)
 
 1. 필드에 다음 텍스트를 입력합니다.
 
@@ -68,7 +68,7 @@ Mozilla Firefox 100으로 웹 페이지를 테스트하려면 사용자 에이�
 1. Chrome을 열고 를 입력합니다. `chrome://flags` 주소 표시줄에서 enter 키를 누릅니다.
 1. 검색 `Force major version to 100 in User-Agent` 검색 필드에서 을 선택한 다음 아래와 같이 활성화합니다.
 
-   ![](assets/force-user-agent-chrome.png)
+   ![](assets/do-not-localize/force-user-agent-chrome.png)
 
 1. 브라우저를 다시 시작합니다.
 1. 닫기 `chrome://flags` 탭.
@@ -83,7 +83,7 @@ v97부터 사이트 소유자는 실험 플래그를 활성화하여 이 버전�
 1. Microsoft Edge를 열고 를 입력합니다. `edge://flags` 주소 표시줄에서 enter 키를 누릅니다.
 1. 검색 대상 `force-major-version-to-100` 을 누르고 아래에 표시된 대로 활성화합니다.
 
-   ![](assets/force-user-agent-edge.png)
+   ![](assets/do-not-localize/force-user-agent-edge.png)
 
 1. 브라우저를 다시 시작합니다.
 1. 닫기 `edge://flags` 탭.
