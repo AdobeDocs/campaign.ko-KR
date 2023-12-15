@@ -6,18 +6,22 @@ feature: Push
 role: Admin, Developer
 level: Intermediate
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '1659'
-ht-degree: 3%
+source-wordcount: '1631'
+ht-degree: 2%
 
 ---
 
 # 푸시 알림 채널 구성 {#push-notification-configuration}
 
-Adobe Campaign을 사용하여 푸시 알림 전송을 시작하기 전에 모바일 앱과 Adobe Experience Platform의 태그에 대한 구성 및 통합이 제대로 되어 있는지 확인해야 합니다.
+Adobe Campaign을 사용하여 푸시 알림을 전송하려면 먼저 이 페이지에 설명된 대로 환경 및 앱을 구성해야 합니다. Adobe Campaign에서 푸시 알림을 전송하는 채널은 모바일 앱 채널입니다.
 
-Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다.
+>[!CAUTION]
+>
+>Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 이미 확인하고 조치를 취할 수 있습니다. [자세히 알아보기](../../technotes/upgrades/push-technote.md)
+
+Adobe Campaign을 사용하여 푸시 알림 전송을 시작하기 전에 모바일 앱과 Adobe Experience Platform의 태그에 대한 구성 및 통합이 제대로 되어 있는지 확인해야 합니다. Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다.
 
 Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다음 단계를 따르십시오.
 
@@ -30,7 +34,7 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
 1. 설치 및 구성 [Adobe Campaign 확장](#configure-extension) 모바일 속성에서.
 1. 팔로우 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} 앱에서 Adobe Experience Platform Mobile SDK를 사용하여 설정을 가져옵니다.
 
-## 전제 조건 {#before-starting}
+## 필수 구성 요소 {#before-starting}
 
 ### 권한 설정 {#setup-permissions}
 
@@ -259,7 +263,7 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. (선택 사항) 몇 가지 방법으로 푸시 메시지 콘텐츠를 보강할 수 있습니다 **[!UICONTROL Application variables]** 필요한 경우. 이는 완전히 맞춤화가 가능하며 모바일 디바이스로 전송되는 메시지 페이로드의 일부입니다.
 
-1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 이제 Android 애플리케이션을 Campaign에서 사용할 준비가 되었습니다.
+1. 클릭 **[!UICONTROL Finish]** 그러면 **[!UICONTROL Save]**. 이제 Android 애플리케이션을 Campaign에서 사용할 준비가 되었습니다.
 
 다음은 푸시 알림을 추가로 개인화할 FCM 페이로드 이름입니다.
 

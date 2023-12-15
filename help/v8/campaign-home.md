@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 도움말 센터
 title: Adobe Campaign v8 제품 설명서
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 0f86b6303bd380f5079b38de88ee3d097e415695
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 5%
+source-wordcount: '348'
+ht-degree: 7%
 
 ---
 
@@ -18,24 +18,17 @@ Adobe Campaign v8 제품 및 설명서의 최신 개선 사항을 살펴보십�
 
 >[!BEGINTABS]
 
+>[!TAB 예정된 채널 변경 사항 푸시]
+
+Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 이미 확인하고 조치를 취할 수 있습니다.
+
+[![이미지](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
+
 >[!TAB 향상된 푸시 알림 서비스]
 
 Campaign v8.5.1은 최신 첨단 기술을 기반으로 구축된 강력한 프레임워크에서 제공하는 최신 푸시 알림 서비스를 도입했습니다. 이 서비스는 새로운 차원의 확장성을 제공하도록 설계되었으므로, 원활한 효율성으로 더 많은 대상자에게 알림이 전달될 수 있습니다. 향상된 인프라와 최적화된 프로세스를 통해 더 높은 규모와 신뢰성을 기대할 수 있으며, 이전과 달리 모바일 앱 사용자를 참여시키고 연결할 수 있는 역량을 확보할 수 있습니다. 이 기능은 선택한 고객 그룹만 사용할 수 있습니다(제한된 가용성).
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](send/push-data-collection.md)
-
->[!TAB 모바일 채널 처리량 증가]
-
-새로 도입된 푸시 알림 서비스는 이전 버전(v8.4)과 비교하여 푸시 Android 및 푸시 iOS 모두에서 처리량이 크게 향상되었음을 보여 줍니다. 사용자는 최신 버전(v8.5)에서 업그레이드된 서비스로 현저하게 향상된 성능을 경험할 수 있습니다.
-
-* 푸시 알림(Android): 최대 **5배** 빠름
-* 푸시 알림(iOS): 최대 **2.2x** 빠름
-
-SMS 처리량은 일련의 최적화를 통해 크게 향상되어 SMS 커뮤니케이션의 속도와 효율성이 크게 향상되었습니다. 이러한 업그레이드를 통해 전송 및 피드백 업데이트를 모두 포함하여 이전 버전(v8.4)에서 최신 버전(v8.5)으로 처리량이 증가했습니다. 이제 사용자는 이 향상된 SMS 서비스의 이점을 경험할 수 있습니다.
-
-* SMS 처리량: 최대 <strong>5배</strong> 빠름</li>
-
-이러한 최대 처리량 성능은 Adobe 테스트 팀이 실험실 조건에서 측정했습니다.
 
 >[!ENDTABS]
 

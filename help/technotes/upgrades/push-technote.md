@@ -1,22 +1,21 @@
 ---
 product: campaign
-title: 푸시 알림 채널 예정된 변경 사항
-description: 푸시 알림 채널 예정된 변경 사항
+title: 푸시 알림 채널 변경 예정 사항
+description: 푸시 알림 채널 변경 예정 사항
 feature: Push
 role: Admin
 level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에도 적용됩니다."
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에 적용"
-hide: true
-hidefromtoc: true
-source-git-commit: 65b8d84e600e1814484fa81fb814475c0a8b9296
+exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 1%
+source-wordcount: '804'
+ht-degree: 3%
 
 ---
 
-# 푸시 알림 채널 예정된 변경 사항 {#push-upgrade}
+# 푸시 알림 채널 변경 예정 사항 {#push-upgrade}
 
 Campaign을 사용하여 Android 디바이스에서 푸시 알림을 전송할 수 있습니다. 이를 수행하기 위해 Campaign은 특정 구독 서비스를 사용합니다. Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다.
 
@@ -41,7 +40,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 
 ## 마이그레이션 방법 {#fcm-migration-procedure}
 
-### 전제 조건 {#fcm-migration-prerequisites}
+### 필수 구성 요소 {#fcm-migration-prerequisites}
 
 * Campaign Classic v7의 경우 20.3.1 릴리스에서 HTTP v1에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 HTTP v1로 마이그레이션하기 위한 필수 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Campaign v8의 경우 HTTP v1은 모든 릴리스에서 지원되며 업그레이드할 필요가 없습니다.
 
@@ -51,7 +50,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 
 * Campaign Classic v7 온-프레미스 사용자는 마케팅 및 실시간 실행 서버를 모두 업그레이드해야 합니다. 중간 소싱 서버는 영향을 받지 않습니다.
 
-### 마이그레이션 절차 {#fcm-migration-steps}
+### 마이그레이션 프로시저 {#fcm-migration-steps}
 
 환경을 HTTP v1로 마이그레이션하려면 다음 단계를 따르십시오.
 
@@ -102,4 +101,3 @@ Android 모바일 애플리케이션의 코드에는 특정 변경 사항이 필
 * 설정 **[!UICONTROL Visibility]** 공개, 비공개 또는 비밀에 대한 알림 수준.
 
 자세한 내용은 **[!UICONTROL HTTP v1 additional options]** 이러한 필드를 채우는 방법은 다음을 참조하십시오. [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
-
