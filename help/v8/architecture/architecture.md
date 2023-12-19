@@ -1,6 +1,6 @@
 ---
 title: Campaign 아키텍처 시작
-description: Campaign 환경에 대한 보고 방법을 포함하여 환경 및 배포 기본 사항을 살펴봅니다.
+description: 캠페인 환경에 대한 보고 방법을 포함하여 환경 및 배포 기본 사항을 알아봅니다.
 feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
