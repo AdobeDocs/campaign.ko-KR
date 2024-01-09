@@ -1,13 +1,14 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
+user-guide-description: Adobe Campaign v8 제품 및 설명서의 최신 개선 사항에 대해 알아봅니다.
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 24785675a2138e3ce9c806fb52ac29a6a18c6d31
+source-git-commit: 7ab4fd76abb18a9d3d5acac7f4f0639bc4f1f346
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 85%
+source-wordcount: '568'
+ht-degree: 84%
 
 ---
 
