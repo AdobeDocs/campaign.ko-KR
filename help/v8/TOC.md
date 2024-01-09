@@ -3,11 +3,11 @@ audience: end-user
 user-guide-title: Campaign v8
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
-breadcrumb-title: 캠페인 개요
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+breadcrumb-title: Campaign v8 설명서
+source-git-commit: 24785675a2138e3ce9c806fb52ac29a6a18c6d31
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 90%
+source-wordcount: '557'
+ht-degree: 85%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 90%
       + [오퍼 공간 만들기](interaction/interaction-offer-spaces.md)
    + [오퍼 카탈로그 만들기](interaction/interaction-offer-catalog.md)
    + [오퍼 만들기](interaction/interaction-offer.md)
-   + [오퍼 보내기 (아웃바운드)](interaction/interaction-send-offers.md)
+   + [오퍼 보내기(아웃바운드)](interaction/interaction-send-offers.md)
    + 오퍼(인바운드) 제공{#inbound}
       + [컨텍스트](interaction/interaction-present-offers.md)
       + [웹 페이지에서 오퍼 호출](interaction/interaction-integration.md)
@@ -143,7 +143,7 @@ ht-degree: 90%
    + [Campaign - Experience Cloud 트리거](connect/ac-triggers.md)
    + [Campaign + X(Twitter)](connect/ac-tw.md)
    + [Campaign + 외부 데이터베이스](connect/fda.md)
-   + Campaign + CRM {#ac-crm}
+   + Campaign + 내 CRM {#ac-crm}
       + [CRM 커넥터 시작](connect/crm.md)
       + [Campaign 및 SFDC 작업](connect/ac-sfdc.md)
       + [Campaign 및 Microsoft Dynamics 작업](connect/ac-ms-dyn.md)
@@ -174,7 +174,7 @@ ht-degree: 90%
       + [폴더 및 보기 관리](audiences/folders-and-views.md)
       + [이메일 설정](config/email-settings.md)
       + [트랜잭션 메시지 설정](config/transactional-msg-settings.md)
-      + [Campaign SDK와 앱 통합 - 이제 사용하지 않는 페이지](config/push-config.md)
+      + [Campaign SDK를 앱과 통합 - 더 이상 사용되지 않는 페이지](config/push-config.md)
       + [외부 계정](config/external-accounts.md)
 + 개발자 리소스 {#developer}
    + [Campaign 데이터 모델](dev/datamodel.md)
