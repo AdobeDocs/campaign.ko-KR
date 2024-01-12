@@ -4,7 +4,7 @@ title: 필터링 규칙 구성
 description: 필터링 규칙을 구성하는 방법 알아보기
 feature: Typology Rules
 exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
-source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
+source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 1%
@@ -28,7 +28,7 @@ ht-degree: 1%
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. 다음에서 **필터** 탭에서 기본 타겟팅 차원을 다음으로 변경 **구독** (**nms:subscription**).
+1. 다음에서 **필터** 탭 기본 타겟팅 차원을 다음으로 변경 **구독** (**nms:subscription**).
 
    ![](assets/campaign_opt_create_filter_02.png)
 
