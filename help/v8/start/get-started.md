@@ -5,16 +5,18 @@ feature: Overview, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
-source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
+source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '953'
+ht-degree: 98%
 
 ---
 
 # Adobe Campaign 시작{#gs-ac-v8}
 
 Adobe Campaign은 크로스채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스채널 실행을 위한 환경을 제공합니다.
+
+Adobe Campaign v8은 이메일 및 DM(Direct Mail)과 같은 기존 마케팅 채널을 위해 구축된 차세대 캠페인 도구입니다. 완벽한 캠페인을 제작 및 큐레이션하는 데 도움이 되는 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정을 핵심으로 집중하는 풍부한 멀티 터치 마케팅 프로그램을 제공합니다. 또한 마케팅 팀이 암호 재설정, 주문 확인, 전자 수신 등의 작업에 대해 모든 것을 포함하는 페이로드를 기반으로 사전 정의된 메시지를 모든 IT 시스템에서 전송할 수 있도록 지원하는 확장 가능한 실시간 메시징 서버와 나란히 제공됩니다.
 
 Campaign을 사용하여 다음을 수행할 수 있습니다.
 

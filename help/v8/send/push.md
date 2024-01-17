@@ -5,7 +5,7 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
+source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 5%
@@ -27,7 +27,7 @@ Adobe Campaign을 사용하여 푸시 알림 전송을 시작하기 전에 모�
 
 이 섹션에서는 iOS 및 Android 알림 전달과 관련된 요소에 대해 자세히 설명합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >의 맥락에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 이제 모바일 등록은 **비동기**. [자세히 알아보기](../architecture/staging.md)
 
