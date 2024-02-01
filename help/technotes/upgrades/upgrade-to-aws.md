@@ -2,10 +2,10 @@
 title: Campaign 이메일 전송 인프라 업그레이드
 description: Campaign 이메일 전송 인프라 업그레이드
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 557a74dbfbd0af385cc5104801ce3ab91dd33a95
+source-git-commit: 68252db5ad53e2a37c76765cd35650f824101289
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 2%
+source-wordcount: '331'
+ht-degree: 1%
 
 ---
 
@@ -25,11 +25,9 @@ ht-degree: 2%
 
 ## 이 업그레이드는 언제 수행됩니까?{#aws-timeline}
 
-개발 및 스테이징 환경 업그레이드는 다음 위치에서 수행될 예정입니다. **2023년 10월**.
+개발 및 스테이징 환경 업그레이드는 다음 위치에서 시작되었습니다. **2023년 10월**.
 
-다음 시간부터 프로덕션 환경 업그레이드를 예약할 예정입니다. **2024년 1월**.
-
-Campaign 고객은 최소 30일 전에 프로덕션 업그레이드와 관련된 추가 알림을 받게 됩니다.
+에서 시작된 프로덕션 환경 업그레이드 **2024년 1월**.
 
 ## 기대 사항{#impact}
 
