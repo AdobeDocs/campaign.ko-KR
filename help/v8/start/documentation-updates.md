@@ -7,7 +7,7 @@ level: Beginner
 source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 29%
+ht-degree: 89%
 
 ---
 
@@ -18,4 +18,4 @@ ht-degree: 29%
 
 ## 2024년 1월 {#jan-2024}
 
-* DM에 대한 기본 postalAddress 필드를 정의하는 방법과 주소가 완전한지 확인하는 것이 중요한 이유에 대한 정보가 추가되었습니다. [자세히 보기](../send/direct-mail.md)
+* 다이렉트 메일의 기본 postalAddress 필드를 정의하는 방법과 주소가 완전한지 확인하는 것이 중요한 이유에 관한 정보를 추가했습니다. [자세히 보기](../send/direct-mail.md)
