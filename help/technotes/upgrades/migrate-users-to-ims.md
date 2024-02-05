@@ -1,16 +1,17 @@
 ---
 title: 캠페인 운영자를 IMS(Identity Management System) Adobe으로 마이그레이션
 description: Campaign 연산자를 IMS(Identity Management System) Adobe으로 마이그레이션하는 방법에 대해 알아봅니다.
-source-git-commit: a85368a8cd34c9bcdfcea91b71fa4b519b6437a3
+exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
+source-git-commit: 1cdb21533138623fc603424503063cf3dbc2d94c
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 1%
+source-wordcount: '1116'
+ht-degree: 2%
 
 ---
 
 # 캠페인 운영자를 IMS(Identity Management System) Adobe으로 마이그레이션 {#migrate-users-to-ims}
 
-Campaign v8.6부터 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 모든 연산자는 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} **전용** Campaign에 연결합니다. 사용자/암호(즉, 기본 인증)와의 연결은 더 이상 허용되지 않습니다. Adobe Campaign v8.5.2에서 이 마이그레이션을 수행하여 Campaign v8.6으로 원활하게 마이그레이션할 수 있도록 하는 것이 좋습니다.
+Campaign v8.6부터 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 모든 연산자는 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} **전용** Campaign에 연결합니다. 사용자/암호(즉, 기본 인증)와의 연결은 더 이상 허용되지 않습니다. Adobe Campaign v8.5.2에서 이 마이그레이션을 수행하여 Campaign v8.6으로 원활하게 마이그레이션할 수 있도록 하는 것이 좋습니다.
 
 Campaign Classic v7 Managed Services 고객은 Campaign v8로 마이그레이션하는 경우 이 절차가 또한 적용됩니다.
 
@@ -28,11 +29,11 @@ Campaign v8을 사용하면 모든 일반 사용자가 이미 IMS(Identity Manag
 
 조직의 운영자가 로그인/암호(예: )를 사용하여 Campaign 클라이언트 콘솔에 연결하는 경우 기본 인증)을 사용하는 경우 영향을 받게 되며 아래에 자세히 설명된 대로 이러한 연산자를 Adobe IMS로 마이그레이션해야 합니다.
 
-다음으로 마이그레이션 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} 는 다른 대부분의 Adobe Experience Cloud 솔루션과 앱이 이미 IMS에 있으므로 환경을 안전하고 표준화해야 하는 보안 과제입니다.
+다음으로 마이그레이션 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} 는 다른 대부분의 Adobe Experience Cloud 솔루션과 앱이 이미 IMS에 있으므로 환경을 안전하고 표준화해야 하는 보안 과제입니다.
 
 ## 마이그레이션 방법{#ims-migration-procedure}
 
-### 전제 조건{#ims-migration-prerequisites}
+### 필수 구성 요소{#ims-migration-prerequisites}
 
 마이그레이션 프로세스를 시작하기 전에 Adobe 기술 팀이 기존 운영자 그룹과 IMS(Identity Management System) Adobe에 대한 명명된 권한을 마이그레이션할 수 있도록 Adobe 담당자(전환 관리자)에게 연락해야 합니다.
 
@@ -54,13 +55,13 @@ Campaign v8을 사용하면 모든 일반 사용자가 이미 IMS(Identity Manag
 
 ### 언제 마이그레이션을 시작할 수 있습니까? {#ims-migration-start}
 
-(으)로 마이그레이션하기 위한 사전 요구 사항 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} 환경을 Campaign v8.5.2로 업그레이드하는 것입니다.
+(으)로 마이그레이션하기 위한 사전 요구 사항 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} 환경을 Campaign v8.5.2로 업그레이드하는 것입니다.
 
 Campaign v8.5.2로 업그레이드한 후 프로덕션 환경을 위한 계획을 수립하면 스테이징 환경에서 IMS 마이그레이션을 시작할 수 있습니다.
 
 ### Campaign v8.5.2로 빌드 업그레이드 후 어떻게 됩니까? {#ims-migration-after-upgrade}
 
-환경이 Campaign v8.5.2로 업그레이드된 후 로 전환을 시작할 수 있습니다. [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+환경이 Campaign v8.5.2로 업그레이드된 후 로 전환을 시작할 수 있습니다. [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}.
 
 IMS 마이그레이션이 완료될 때까지 새 기본 사용자 생성이 계속 허용됩니다.
 
@@ -111,11 +112,28 @@ Adobe은 마이그레이션 기간 동안 모든 사용자를 로그오프할 �
 
 이 마이그레이션이 완료되면 Adobe이 마이그레이션을 완료할 수 있도록 Adobe 전환 관리자에게 문의해야 합니다.
 
+### 운영자의 인증 유형을 보는 방법
+
+Campaign에서 연산자의 인증 유형을 보는 방법을 알아봅니다.
+
+1. 다음에서 **탐색기**, 액세스 **관리** `>` **액세스 관리** `>` **연산자**.
+
+1. 머리글 행을 마우스 오른쪽 단추로 클릭하고 **목록 구성** 메뉴 아래의 제품에서 사용할 수 있습니다.
+
+   ![](assets/ims_2.png)
+
+1. 추가 **계정 비활성화됨** 및 **인증 유형** 다음으로: **출력 열**.
+
+   ![](assets/ims_1.png)
+
+이제 의 목록을 볼 수 있습니다. **연산자** 및 해당 **인증 유형**.
+
+![](assets/ims_3.png)
+
 ## 유용한 링크 {#ims-useful-links}
 
 * [기술 사용자를 Adobe Developer 콘솔로 마이그레이션](ims-migration.md)
 * [Adobe Campaign v8에 연결하는 방법](../../v8/start/connect.md)
 * [Adobe Campaign v8의 액세스 및 권한](../../v8/start/gs-permissions.md)
 * [Adobe Campaign v8 릴리스 노트](../../v8/start/release-notes.md)
-* [IMS(Identity Management System) Adobe](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}
-
+* [IMS(Identity Management System) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}
