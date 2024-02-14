@@ -5,9 +5,9 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: 92fe7c41047aafd26cca70a547025a3eff73e398
+source-git-commit: 2f8cee4522efb59782a568334fc1300fc39d559f
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게
 
 ![](../assets/do-not-localize/book.png) [이 문서에서 Adobe Experience Manager에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow)
 
-## Adobe Experience Manager으로 작성 {#integrating-with-aem}
+## Adobe Experience Manager에서 컨텐츠 가져오기 {#integrating-with-aem}
 
 ![](../assets/do-not-localize/speech.png)  관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Adobe Experience Manager을 Campaign과 통합하기 위해
 
@@ -80,7 +80,13 @@ Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게
 
 1. 이전에 만든 AEM 게재 선택 [!DNL Adobe Experience Manager] 을(를) 클릭하여 확인 **[!UICONTROL Ok]**.
 
+   ![](assets/aem_authoring_11.png)
+
 1. 을(를) 클릭하여 **[!UICONTROL Refresh content]** AEM 게재를 수정할 때마다 단추
+
+   ![](assets/aem_authoring_12.png)
+
+1. Experience Manager과 캠페인 간의 연결을 제거하려면 **[!UICONTROL Desynchronize]**.
 
 이제 이메일을 대상자에게 보낼 준비가 되었습니다.
 
@@ -88,22 +94,42 @@ Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게
 
 에서 직접 에셋을 삽입할 수도 있습니다. [!DNL Adobe Experience Manager Assets Library] Adobe Campaign에서 이메일 또는 랜딩 페이지를 편집하는 동안. 이 기능은에 자세히 설명되어 있습니다. [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en).
 
-1. 에서 에셋 업로드 **Adobe Experience Manager Assets 라이브러리**. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+**Adobe Experience Manager에서:**
+
+1. 다음으로 이동 [!DNL Adobe Experience Manager] 작성자 인스턴스를 클릭하고 페이지의 왼쪽 상단 모서리에 있는 Adobe 경험 을 클릭합니다. 선택 **[!UICONTROL Assets]** `>` **[!UICONTROL Files]** 메뉴에서 삭제할 수 있습니다.
+
+   ![](assets/aem_assets_1.png)
+
+1. 클릭 **만들기** 그러면 **파일** 에셋을 로 가져오려면 **Adobe Experience Manager Assets 라이브러리**. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+
+   ![](assets/aem_assets_2.png)
+
+1. 필요한 경우 에셋 이름을 변경하고 을 선택합니다. **업로드**.
+
+이제 에셋이 **Adobe Experience Manager Assets 라이브러리**.
+
+**Adobe Campaign에서:**
 
 1. Adobe Campaign에서 를 찾아 새 게재를 만듭니다. **캠페인** 탭을 클릭하고 **게재** 을(를) 클릭하고 **만들기** 기존 게재 목록 위에 있는 단추입니다.
+
+   ![](assets/aem_assets_3.png)
 
 1. 선택 **게재 템플릿**&#x200B;그런 다음 게재 이름을 지정합니다.
 
 1. 메시지 콘텐츠를 정의하고 개인화합니다. [자세히 알아보기](../send/email.md)
 
-1. 을(를) 사용하려면 **Adobe Experience Manager Assets 라이브러리**, 액세스 **[!UICONTROL Properties]** AEM 게재 후 선택 **[!UICONTROL Advanced]** 탭. 활성화 **[!UICONTROL Use above AEM instance as shared asset library]** 옵션을 선택합니다.
+1. 을(를) 사용하려면 **Adobe Experience Manager Assets 라이브러리**, 액세스 **[!UICONTROL Properties]** AEM 게재 후 선택 **[!UICONTROL Advanced]** 탭.
+
+   다음 항목 선택 **AEM 계정** 및 활성화 **[!UICONTROL Use above AEM instance as shared asset library]** 옵션을 선택합니다.
 
    ![](assets/aem_authoring_9.png)
 
 1. 다음에서 **이미지** 아이콘, 액세스 **[!UICONTROL Select a shared asset]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-   ![](assets/aem_authoring_10.png)
+   ![](assets/aem_assets_4.png)
 
-1. 선택 창에서 **Adobe Experience Manager Assets 라이브러리**&#x200B;를 클릭한 다음 확인합니다.
+1. 선택 창에서 **Adobe Experience Manager Assets 라이브러리**, 그런 다음 **선택**.
 
-이메일 게재가 준비되었습니다. 이제 타겟 대상을 지정하고, 게재를 확인하고, 전송을 진행할 수 있습니다.
+   ![](assets/aem_assets_5.png)
+
+이제 에셋이 이메일 게재에 업로드됩니다. 이제 타겟 대상을 지정하고, 게재를 확인하고, 전송을 진행할 수 있습니다.
