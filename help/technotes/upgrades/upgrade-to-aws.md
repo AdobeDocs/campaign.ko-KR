@@ -2,7 +2,7 @@
 title: Campaign 이메일 전송 인프라 업그레이드
 description: Campaign 이메일 전송 인프라 업그레이드
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 68252db5ad53e2a37c76765cd35650f824101289
+source-git-commit: 4c41e5d1fef1dcb3279a26f6025338e41525e6b3
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 개발 및 스테이징 환경 업그레이드는 다음 위치에서 시작되었습니다. **2023년 10월**.
 
-에서 시작된 프로덕션 환경 업그레이드 **2024년 1월**.
+프로덕션 환경 업그레이드는 다음 위치에서 시작되었습니다. **2024년 1월**.
 
 ## 기대 사항{#impact}
 

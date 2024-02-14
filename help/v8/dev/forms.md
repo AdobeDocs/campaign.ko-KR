@@ -5,9 +5,9 @@ feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '2552'
+source-wordcount: '2551'
 ht-degree: 0%
 
 ---
@@ -502,7 +502,7 @@ A **`<static>`** 요소를 사용하여 입력 양식 서식을 지정할 수 �
 <input xpath="@gender" readOnly="true"/>
 ```
 
-## 라디오 단추 추가 {#radio-button}
+## 라디오 버튼 추가 {#radio-button}
 
 라디오 버튼을 사용하면 여러 옵션 중에서 선택할 수 있습니다. 다음 **`<input>`** 태그는 가능한 옵션을 나열하는 데 사용됩니다. **checkedValue** attribute는 선택 사항과 연결된 값을 지정합니다.
 
@@ -666,7 +666,7 @@ SOAP 메서드 실행은 채워진 **`<leave>`** 태그로 묶습니다.
 
 다음 **exprIn** 속성에는 매개 변수로 전달할 데이터의 위치가 포함됩니다.
 
-**예제**:
+**예**:
 
 ```
 <leave>

@@ -1,14 +1,14 @@
 ---
 title: 일반 아키텍처
-description: Adobe Campaign 아키텍처 및 구성 요소에 대해 알아봅니다. 클라이언트 콘솔 및 환경을 개인 맞춤화하는 방법에 대해 자세히 알아보십시오.
+description: Adobe Campaign 아키텍처 및 구성 요소에 대해 알아봅니다. 클라이언트 콘솔 및 환경을 개인화하는 방법에 대해 자세히 알아보십시오.
 feature: Architecture, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
 workflow-type: tm+mt
 source-wordcount: '1136'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 7%
 
 ## 개인화된 클라이언트 환경 {#client-env}
 
-리치 클라이언트, 씬 클라이언트 또는 API 통합 등 다양한 방식으로 애플리케이션에 액세스할 수 있습니다.
+웹 사용자 인터페이스, 클라이언트 콘솔(리치 클라이언트), 웹 액세스(씬 클라이언트) 또는 API 통합 등 다양한 방식으로 애플리케이션에 액세스할 수 있습니다.
 
-![](../assets/do-not-localize/glass.png) [Campaign 프레젠테이션 레이어에 대해 자세히 알아보기](../start/ac-components.md).
+![](../assets/do-not-localize/glass.png) [Campaign 사용자 인터페이스에 대해 자세히 알아보기](../start/campaign-ui.md).
 
 ## 개발 환경 {#dev-env}
 

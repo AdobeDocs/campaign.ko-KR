@@ -5,15 +5,15 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 3%
+source-wordcount: '808'
+ht-degree: 2%
 
 ---
 
 
-# 이메일 전송 및 모니터링
+# 이메일 전송 및 모니터링  {#send-and-monitor-emails}
 
 게재가 구성되어 전송할 준비가 되면 게재 분석을 실행했는지 확인합니다. [자세히 알아보기](delivery-analysis.md)
 
@@ -21,12 +21,18 @@ ht-degree: 3%
 
 에서 게재 실행을 추적합니다. **게재** 탭입니다. 이 게재의 세부 정보 또는 게재 목록을 통해 액세스할 수 있습니다.
 
-## 이메일 모니터링
+## 이메일 모니터링 {#email-monitoring}
 
-메시지가 전송되면 게재 대시보드에서 게재 상태를 확인하고 게재 로그 및 보고서에 액세스하여 메시지가 올바르게 전송되었는지 확인합니다.
+전송 완료 후 **게재 대시보드** 게재 로그 및 보고서에 액세스하여 메시지가 올바르게 전송되었는지 확인할 수 있습니다.
 
-![](../assets/do-not-localize/book.png) [자세한 내용은 Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
+게재 대시보드에서 처리된 메시지 및 게재 감사 로그를 확인할 수 있습니다. 게재 로그에서 메시지 상태를 제어할 수도 있습니다.
 
+>[!NOTE]
+>
+>게재 상태는 실시간으로 표시되지 않습니다. 이메일 피드백 서비스에 대해 자세히 알아보기 [이 섹션에서](#email-feedback-service).
+
+
+![](../assets/do-not-localize/book.png) [Campaign Classic v7 설명서에서 게재 모니터링에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 ## 캠페인 MTA {#mta}
 
@@ -36,7 +42,7 @@ Campaign v8 MTA(Mail Transfer Agent)는 최적의 전달성, 신뢰도, 처리�
 
 ### 이점
 
-Adobe Campaign은 SparkPost의 라는 상업용 이메일 MTA를 실행하는 MTA(메일 전송 에이전트)를 사용합니다. **운동량**.
+Adobe Campaign은 (이)라는 SparkPost의 상업용 이메일 MTA를 실행하는 MTA(메일 전송 에이전트)를 사용합니다. **운동량**.
 
 모멘텀은 발송자가 최적의 받은 편지함 게재 비율을 달성하고 유지하는 데 도움이 되는 자동화된 게재 능력 최적화 기능과 더 스마트한 바운스 처리를 포함하는 혁신적인 고성능 MTA 기술을 나타냅니다.
 
@@ -73,11 +79,9 @@ Adobe Campaign에서 DKIM 이메일 인증 서명은 MTA에서 수행합니다.
 
 ## 이메일 피드백 서비스 {#email-feedback-service}
 
-EFS(이메일 피드백 서비스) 기능을 사용하면 피드백이 MTA에서 직접 캡처되므로 각 이메일의 상태가 정확하게 보고됩니다.
+EFS(Campaign Email Feedback Service)는 Adobe Campaign을 통해 전송되는 각 이메일 게재의 상태를 보고합니다.
 
-게재가 시작되기만 하면 **[!UICONTROL Success]** 메시지가 Campaign에서 MTA로 성공적으로 릴레이되는 경우의 백분율입니다.
-
-게재 로그에는 다음이 표시됩니다. **[!UICONTROL Taken into account by the service provider]** 타겟팅된 각 주소의 상태입니다.
+게재가 시작되기만 하면 **[!UICONTROL Success]** 메시지가 Campaign에서 MTA로 성공적으로 릴레이되는 경우의 백분율입니다. 게재 로그에는 다음이 표시됩니다. **[!UICONTROL Taken into account by the service provider]** 타겟팅된 각 주소의 상태입니다.
 
 메시지가 타겟팅된 프로필에 실제로 전달되고 MTA에서 이 정보가 실시간으로 보고되면 게재 로그에 **[!UICONTROL Sent]** 메시지를 성공적으로 수신한 각 주소의 상태입니다. 다음 **[!UICONTROL Success]** 성공하는 각 게재에 따라 백분율이 적절하게 증가합니다.
 
@@ -95,12 +99,12 @@ EFS(이메일 피드백 서비스) 기능을 사용하면 피드백이 MTA에서
 >
 >일시적 게재 실패 후 다시 시도에 대한 자세한 내용은 [이 섹션](delivery-failures.md#retries).
 
-아래 표는 EFS 기능을 사용하여 전송 프로세스의 각 단계에서 KPI 및 전송 로그 상태를 업데이트하는 방법을 보여 줍니다.
+아래 표는 전송 프로세스의 각 단계에서 KPI 및 전송 로그 상태를 업데이트하는 방법을 보여 줍니다.
 
 | 전송 프로세스의 단계 | KPI 요약 | 전송 로그 상태 |
 |--- |--- |--- |
 | 메시지가 Campaign에서 MTA로 정상적으로 중계됨 | **[!UICONTROL Success]** 백분율이 표시되지 않음(0%에서 시작) | 서비스 제공자의 고려 |
 | 하드 바운스 메시지가 MTA에서 다시 보고됨 | 변경 내용 없음 **[!UICONTROL Success]** 백분율 | 실패 |
 | 소프트 바운싱 메시지는 MTA에서 다시 보고됨 | 변경 내용 없음 **[!UICONTROL Success]** 백분율 | 서비스 제공자의 고려 |
-| 소프트 바운싱 메시지 다시 시도 성공 | **[!UICONTROL Success]** 그에 따라 백분율 증가 | 전송됨 |
+| 소프트 바운싱 메시지 다시 시도 성공 | **[!UICONTROL Success]** 그에 따라 백분율 증가 | 보냄 |
 | 소프트 바운싱 메시지 다시 시도 실패 | 변경 내용 없음 **[!UICONTROL Success]** 백분율 | 실패 |

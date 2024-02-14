@@ -4,10 +4,10 @@ description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 �
 exl-id: 63008b58-4384-4d2b-864a-57f11d701c01
 hide: true
 hidefromtoc: true
-source-git-commit: 9f93057d2d729d4251d914426488f46b6ef24bbb
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 1%
+source-wordcount: '861'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ Campaign API를 사용하는 경우 아래에 자세히 설명된 대로 기술 
 1. 모든 Campaign API 통합 구현을 새로 만든 기술 계정 TA1로 마이그레이션합니다.
 1. TA1에서 API/통합 관련 고객이 모두 작동하게 되면 기술 운영자 TO1을 기술 계정 TA1로 교체하십시오.
 
-### 전제 조건{#ims-migration-prerequisites}
+### 필수 구성 요소{#ims-migration-prerequisites}
 
 마이그레이션 프로세스를 시작하기 전에 Adobe 기술 팀이 기존 운영자 그룹과 IMS(Identity Management System) Adobe에 대한 명명된 권한을 마이그레이션할 수 있도록 Adobe 전환 관리자에게 문의해야 합니다.
 
@@ -100,7 +100,7 @@ API가 성공적으로 연결되면 클라이언트 ID 및 클라이언트 암�
 
 To update the technical operator authentication mode to IMS, follow these steps:
 
-1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
+1. From Campaign client console explorer, browse to the **Administration > Access Management > Operators**.
 1. Edit the existing technical operator used for APIs.
 1. Replace the **Name (login)** of this technical operator by the technical account email retrieved earlier.
 1. Browse to the **Edit** button on the top left beside **File**, and select **Edit the XML source**.

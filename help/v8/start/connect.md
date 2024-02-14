@@ -1,22 +1,20 @@
 ---
-title: Campaign v8에 연결
-description: Adobe Campaign v8에 연결하고 더욱 쉽게 액세스할 수 있도록 내 컴퓨터에 콘솔을 설치하는 방법을 알아봅니다.
+title: 클라이언트 콘솔을 사용하여 Campaign에 연결
+description: 컴퓨터에 Campaign 클라이언트 콘솔을 설치하고 Adobe Campaign에 연결하는 방법을 알아봅니다.
 feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 3%
+source-wordcount: '850'
+ht-degree: 1%
 
 ---
 
-# Adobe Campaign v8에 연결{#gs-ac-connect}
+# 클라이언트 콘솔을 사용하여 Campaign에 연결{#gs-ac-connect}
 
-Campaign 작업을 시작하려면 클라이언트 콘솔을 설치하고 구성해야 합니다.
-
-클라이언트 콘솔은 SOAP 및 HTTP와 같은 표준 인터넷 프로토콜을 통해 Adobe Campaign 애플리케이션 서버와 통신하는 기본 애플리케이션입니다. Campaign 클라이언트 콘솔은 모든 기능과 설정을 중앙 집중화하며 로컬 캐시에 의존하기 때문에 최소한의 대역폭이 필요합니다. 간편한 배포를 위해 설계된 Campaign 클라이언트 콘솔은 인터넷 브라우저에서 배포하고 자동으로 업데이트될 수 있으며, HTTP(S) 트래픽만 생성하므로 특정 네트워크 구성이 필요하지 않습니다.
+클라이언트 콘솔을 사용하여 Campaign에 연결하려면 먼저 설치하고 구성해야 합니다.
 
 시작하기 전에 다음을 수행해야 합니다.
 
@@ -25,13 +23,19 @@ Campaign 작업을 시작하려면 클라이언트 콘솔을 설치하고 구성
 * Adobe ID을 만들거나 회사에서 사용자 자격 증명을 가져옵니다.
 * 시스템에 Microsoft Edge Webview2 런타임을 설치합니다. [자세히 알아보기](#webview)
 
+
+>[!NOTE]
+>
+>웹 브라우저를 사용하여 Campaign 웹 사용자 인터페이스에 연결할 수도 있습니다. 에서 새로운 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보십시오. [이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+
+
 ## 클라이언트 콘솔 설치{#download-ac-console}
 
 ### Microsoft Edge Webview2 런타임 {#webview}
 
 Campaign Classic 8.4 빌드 버전에서 클라이언트 콘솔을 설치하려면 Microsoft Edge Webview 2 런타임을 설치해야 합니다.
 
-Web View는 기본적으로 Windows 11 운영 체제의 일부로 설치됩니다. 시스템에 아직 없는 경우 Campaign 클라이언트 콘솔 설치 프로그램에서에 다운로드할 것인지 묻는 메시지가 표시됩니다. [Microsoft 개발자 웹 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr){target="_blank"}. Microsoft에서 해당 지원이 더 이상 사용되지 않으므로 다운로드 링크가 Internet Explorer 11 브라우저에서 작동하지 않습니다. 다른 브라우저를 사용하여 링크에 액세스해야 합니다.
+Web View는 기본적으로 Windows 11 운영 체제의 일부로 설치됩니다. 시스템에 아직 없는 경우 Campaign 클라이언트 콘솔 설치 프로그램이에서 다운로드하라는 메시지가 표시됩니다. [Microsoft 개발자 웹 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr){target="_blank"}. Microsoft에서 해당 지원이 더 이상 사용되지 않으므로 다운로드 링크가 Internet Explorer 11 브라우저에서 작동하지 않습니다. 다른 브라우저를 사용하여 링크에 액세스해야 합니다.
 
 ### 콘솔 다운로드{#install-ac-console}
 
@@ -71,7 +75,7 @@ Campaign을 처음 사용하는 경우 클라이언트 콘솔을 다운로드하
 
 ## Adobe Campaign에 로그온 {#logon-to-ac}
 
-Campaign 사용자는 IMS(Identity Management System) Adobe을 통해 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결합니다. 모든 Adobe 솔루션에 동일한 ID를 사용할 수 있습니다. 다른 솔루션과 함께 Adobe Campaign을 사용할 때 연결이 저장됩니다. 에서 Adobe IMS에 대해 자세히 알아보기 [이 페이지](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+Campaign 사용자는 IMS(Identity Management System) Adobe을 통해 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결합니다. 모든 Adobe 솔루션에 동일한 ID를 사용할 수 있습니다. 다른 솔루션과 함께 Adobe Campaign을 사용할 때 연결이 저장됩니다. 에서 Adobe IMS에 대해 자세히 알아보기 [이 페이지](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}.
 
 인스턴스에 로그온하려면 아래 단계를 수행합니다.
 

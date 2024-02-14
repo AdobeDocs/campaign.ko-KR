@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 84%
+source-wordcount: '714'
+ht-degree: 76%
 
 ---
 
@@ -37,13 +37,21 @@ Adobe Campaign 관리 클라우드 서비스는 크로스 채널 고객 경험�
 
 이전 [!DNL Campaign Classic] 사용자는 대부분의 [!DNL Campaign Classic] v7 기능을 [!DNL Campaign] v8에서도 사용할 수 있습니다(일부 예외 사항: [이 섹션](#gs-removed) 참조).
 
-Campaign v8은 **하이브리드 아키텍처**. Campaign Classic v7에서 전환하는 경우 모든 게재는 중간 소싱 서버를 거칩니다. 따라서 내부 라우팅은 Campaign v8에서 **불가능**&#x200B;하며, 외부 계정이 이에 따라 비활성화되었습니다.
+>새로운 클라우드 아키텍처를 통해 Campaign은 프로세스를 간소화하고, 비용을 절감하고, 위험을 관리하고, 데이터 보안을 개선할 수 있습니다. Campaign v8 환경에는 사전 구성된 전용 Virtual Private Cloud(VPC)가 포함되어 있습니다.
+
+
+## 하이브리드 아키텍처 {#hybrid-archi}
+
+Campaign v8은 **하이브리드 아키텍처**. Campaign Classic v7에서 전환하는 경우 모든 게재는 중간 소싱 서버를 거칩니다.
+
+그 결과:
+
+* 내부 라우팅 **불가능** campaign v8에서 외부 계정이 이에 따라 비활성화되었습니다.
+* 게재 상태가 즉시 업데이트되지 않음 - 마케팅 인스턴스에서 기술 프로세스가 실행되어 게재 상태가 적시에 업데이트됩니다.
+
 
 ![](../assets/do-not-localize/glass.png) 의 v7에서 전환할 때 트랜잭션 메시지 증명 보내기에 대해 자세히 알아보기 [이 페이지](../send/transactional-template.md#transition-from-v7).
 
->[!NOTE]
->
->새로운 클라우드 아키텍처를 통해 Campaign은 프로세스를 간소화하고, 비용을 절감하고, 위험을 관리하고, 데이터 보안을 개선할 수 있습니다. Campaign v8 환경에는 사전 구성된 전용 Virtual Private Cloud(VPC)가 포함되어 있습니다.
 
 ## [!DNL Campaign] 및 [!DNL Snowflake] {#ac-gs-snowflake}
 

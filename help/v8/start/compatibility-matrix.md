@@ -5,24 +5,24 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 374c0df2cd95e656cfbaa1fb355bf1f48828dfee
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 88%
+source-wordcount: '360'
+ht-degree: 63%
 
 ---
 
-# Campaign v8 호환성 표
+# Campaign v8 호환성 표 {#compat-matrix}
 
-이 문서는 **Adobe Campaign v8**&#x200B;의 최신 빌드를 지원하는 모든 시스템 및 구성 요소를 나열합니다. 별도로 언급되지 않는 한 모든 마이너 릴리스도 지원됩니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
+이 문서에서는 의 최신 빌드에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다. **Adobe Campaign v8** 클라이언트 콘솔입니다. 별도로 언급되지 않는 한 모든 마이너 릴리스도 지원됩니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
 
 이러한 타사 시스템 및 도구의 특정 버전이 EOL(End-of-Life)에 도달함에 따라 Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며 이후 이 호환성 매트릭스에서 제거됩니다. 문제가 생기지 않도록 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
 
 >[!NOTE]
 >
->Adobe Campaign 서버와 클라이언트 콘솔의 버전은 동일해야 합니다. [버전을 확인하는 방법을 알아보세요](#version).
+>Adobe Campaign 서버 및 Campaign 클라이언트 콘솔의 버전은 동일해야 합니다. [버전을 확인하는 방법을 알아보세요](upgrades.md#version).
 
-## 클라이언트 콘솔{#ClientConsoleoperatingsystems}
+## 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
 
 Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다. [자세히 알아보기](connect.md)
 
@@ -33,15 +33,15 @@ Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브�
 
 >[!NOTE]
 >
->클라이언트 콘솔의 32비트 버전은 8.5 릴리스부터 더 이상 사용되지 않습니다. 8.6 릴리스부터 클라이언트 콘솔은 64비트로만 사용할 수 있습니다. 운영 체제를 업그레이드하는 자세한 방법은 [기술 정보](../../technotes/upgrades/console.md)를 참조하십시오.
+>클라이언트 콘솔의 32비트 버전은 8.5 릴리스 이후 더 이상 사용되지 않습니다. 8.6부터 클라이언트 콘솔은 64비트로만 사용할 수 있습니다. 시스템을 업그레이드하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [기술 노트](../../technotes/upgrades/console.md).
 
-### 웹 브라우저{#web-browsers}
+### 웹 브라우저 {#web-browsers}
 
 * **Microsoft Edge**
 
 * **Microsoft Edge WebView2**, 최신 버전. [Microsoft 개발자 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr){target="_blank"}에서 다운로드하세요.
 
-## CRM 커넥터{#CRMconnectors}
+## CRM 커넥터 {#CRMconnectors}
 
 Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다음과 같습니다. [자세히 알아보기](../connect/crm.md)
 
@@ -58,26 +58,24 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**
 
-## 모바일 SDK{#MobileSDK}
+## 모바일 SDK {#MobileSDK}
 
 Campaign으로 [푸시 알림](../send/push.md)을 보내려면 데이터 수집 UI에서 Adobe Campaign Classic을 구성하여 Adobe Experience Platform Mobile SDK를 사용합니다.
 
+iOS 및 Android용 호환 버전은 [Adobe Developer 설명서](https://developer.adobe.com/client-sdks/home/)
 
-## 웹 액세스{#web-access}
+## 웹 액세스 {#web-access}
 
 다음 브라우저는 [웹 액세스](connect.md#web-access)용 Campaign과 호환됩니다.
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari**(최신 버전)
 
-## Campaign 버전 및 빌드를 확인하는 방법{#version}
 
-**도움말 및 정보…** 메뉴에 액세스하여 버전을 확인하세요.
+## 추가 리소스 {#support}
 
-![](assets/ac-version.png)
+* [Campaign 릴리스 업데이트](upgrades.md)
+* [Campaign 버전 확인](upgrades.md#version)
+* [Campaign 클라이언트 콘솔 설치](connect.md)
+* [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko){target="_blank"}.
 
-확인할 수 있는 정보:
-
-* 다음 **버전** 클라이언트 콘솔 및 애플리케이션 서버 번호. 위의 샘플에서 버전은 클라이언트 콘솔과 애플리케이션 서버 모두 8.1.5입니다.
-* 괄호 사이에 있는 SHA 번호.
-* Adobe 고객 지원 센터 연락을 위한 링크.
-* Adobe 개인정보 처리방침, 사용 약관 및 쿠키 정책 보기.
+새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 받으려면 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}.

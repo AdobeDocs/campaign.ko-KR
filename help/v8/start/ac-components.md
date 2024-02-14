@@ -5,9 +5,9 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
+source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,7 @@ Adobe Campaign 구성 요소 및 글로벌 아키텍처는 아래에 설명되�
 
 ![](assets/do-not-localize//ac-components.png)
 
-### 프레젠테이션 레이어{#presentation-layer}
 
-리치 클라이언트, 씬 클라이언트 또는 API 통합을 통해 Adobe Campaign에 액세스할 수 있습니다.
-
-* 리치 클라이언트
-
-  Campaign Rich 클라이언트는 SOAP 및 HTTP와 같은 표준 인터넷 프로토콜을 통해 Adobe Campaign 애플리케이션 서버와 통신하는 기본 애플리케이션입니다. [Campaign 클라이언트 콘솔에 대해 자세히 알아보기](../start/connect.md).
-
-* 씬 클라이언트
-
-  Adobe Campaign 웹 액세스 기능을 사용하면 HTML 사용자 인터페이스를 사용하여 웹 브라우저에서 Campaign 기능의 하위 집합에 액세스할 수 있습니다. 이 웹 인터페이스를 사용하여 보고서에 액세스하고, 메시지를 제어 및 검증하고, 모니터링 대시보드에 액세스합니다.  [Campaign 웹 액세스에 대해 자세히 알아보기](../start/connect.md).
-
-* API를 사용하는 외부 애플리케이션
-
-  경우에 따라 SOAP 프로토콜을 통해 노출된 웹 서비스 API를 사용하여 외부 애플리케이션에서 시스템을 호출할 수 있습니다. [Campaign API에 대해 자세히 알아보기](../dev/api.md).
 
 ### 지속성 레이어{#persistance-layer}
 

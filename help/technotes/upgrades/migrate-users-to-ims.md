@@ -2,10 +2,10 @@
 title: 캠페인 운영자를 IMS(Identity Management System) Adobe으로 마이그레이션
 description: Campaign 연산자를 IMS(Identity Management System) Adobe으로 마이그레이션하는 방법에 대해 알아봅니다.
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: 1cdb21533138623fc603424503063cf3dbc2d94c
+source-git-commit: b539b84907c7232f236b96ae8dfd11c8998a06b9
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 2%
+source-wordcount: '1345'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,41 @@ Campaign 관리자는 클라이언트 콘솔에서 모든 기본 사용자에게
 1. 에 운영자의 이메일을 입력합니다. **연락처** 연산자 양식의 섹션입니다.
 1. 변경 내용을 저장합니다.
 
-<!--You can also import a CSV file to update all your operator profiles with their email.-->
+워크플로우 감독자 또는 캠페인 관리자로서 워크플로우로 연산자를 대량으로 업데이트할 수도 있습니다.
+
++++워크플로우로 연산자를 업데이트하는 주요 단계
+
+기본 연산자의 대량 업데이트를 수행하려면 다음 단계를 수행합니다.
+
+1. 기본 인증 모드로 Campaign에 연결하는 모든 연산자를 CSV 파일로 추출할 워크플로우를 만듭니다. 사용 **쿼리** 활동 및 a **데이터 추출(파일)** 활동 을 통해 CSV 파일을 만들 수 있습니다. 각 연산자의 프로필 데이터를 기반으로 다음 열을 내보낼 수 있습니다. `Name, Label`.
+
+   에 대해 자세히 알아보기 **쿼리** 의 활동 [이 페이지](../../automation/workflow/query.md)
+
+   에 대해 자세히 알아보기 **데이터 추출(파일)** 의 활동 [이 페이지](../../automation/workflow/extraction--file-.md)
+
+1. 연산자의 이메일이 포함된 새 열로 CSV 파일을 업데이트합니다.
+
+1. 업데이트된 데이터를 가져올 워크플로우를 만듭니다. **데이터 로드 중(파일)** 활동 및 **데이터 업데이트** 워크플로우의 활동.
+
+   ![](assets/update-operators-wf.png){width="70%"}
+
+1. 편집 **데이터 로드 중(파일)** 활동을 참조하고 아래 샘플에 따라 업데이트된 CSV 파일을 로드하는 설정을 정의합니다.
+
+   ![](assets/data-loading-activity.png){width="70%"}
+
+   에 대해 자세히 알아보기 **데이터 로드 중(파일)** 의 활동 [이 페이지](../../automation/workflow/data-loading--file-.md)
+
+1. 편집 **데이터 업데이트** 활동을 참조하고 아래 샘플에 따라 설정을 정의합니다. 다음 사항에 주의하십시오. **업데이트된 차원** 이(가) (으)로 변경되었습니다. `Operators (xtk)`.
+
+   ![](assets/update-data-activity.png){width="70%"}
+
+   에 대해 자세히 알아보기 **데이터 업데이트** 의 활동 [이 페이지](../../automation/workflow/update-data.md)
+
+1. 워크플로우를 실행하고 결과를 확인합니다. 운영자의 프로필에 이메일 주소를 추가했습니다.
+
+   ![](assets/updated-operator.png){width="70%"}
+
++++
 
 
 ### IMS를 통해 Campaign에 로그인하는 방법 {#ims-migration-log}

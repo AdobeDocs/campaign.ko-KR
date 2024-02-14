@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 1%
+source-wordcount: '1607'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
-## 사전 정의된 필터{#predefined-filters}
+## 미리 정의된 필터{#predefined-filters}
 
 사전 정의된 필터는 다음 위치에서 사용할 수 있습니다. **필터** 각 목록 위에 있는 단추입니다.
 
@@ -214,7 +214,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
    ![](assets/add-filter-above-the-list.png)
 
 
-양식에서 사용할 수 없는 필드를 필터링해야 하는 경우 열에서 필터링하고 해당 열에서 필터링합니다. 삭제 방법,
+양식에서 사용할 수 없는 필드를 필터링해야 하는 경우 열에서 필터링하고 해당 열에서 필터링합니다. 이렇게 하려면,
 
 1. 다음을 클릭합니다. **[!UICONTROL Configure list]** 아이콘.
 

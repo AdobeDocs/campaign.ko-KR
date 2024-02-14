@@ -2,10 +2,10 @@
 product: campaign
 title: 클라이언트 콘솔 32비트 사용 중단
 description: 클라이언트 콘솔 32비트 사용 중단
-exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
+source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 클라이언트 콘솔의 32비트 버전은 8.5 릴리스에서 더 이상 사용되지 않습니다. 원활한 업그레이드를 위해 새로운 64비트 버전의 클라이언트 콘솔을 사용할 수 있습니다.
 
-8.6 릴리스부터 Campaign v8은 제품 및 보안 업데이트를 포함하여 32비트 운영 체제에 대한 지원을 중단합니다. Adobe은 보안 업데이트를 최신 상태로 유지할 것을 강력히 권장합니다.
+8.6 릴리스부터 Campaign은 제품 및 보안 업데이트를 포함하여 32비트 운영 체제에 대한 지원을 중단합니다. Adobe은 보안 업데이트를 최신 상태로 유지할 것을 강력히 권장합니다.
 
 32비트 버전의 Windows 8 또는 10이 있는 경우에만 이 변경의 영향을 받습니다.
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 +++
 
-+++새 Campaign v8 32비트 클라이언트 콘솔 설치를 중지할 계획이 있습니까?
++++새로운 Campaign v8 32비트 클라이언트 콘솔 설치를 중지할 계획이 있습니까?
 
 예. 8.6 릴리스부터 Campaign v8 클라이언트 콘솔을 더 이상 32비트로 사용할 수 없습니다. 64비트 버전만 사용할 수 있습니다.
 

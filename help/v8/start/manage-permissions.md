@@ -5,9 +5,9 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1618'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
    에서 사용자 그룹을 만드는 방법 알아보기 [이 섹션](#user-groups)
 
-1. **저장**&#x200B;을 클릭합니다. 사용자가 추가되고 사용자 목록에 표시됩니다. 사용자에게 관리자 역할 또는 제품 프로필을 할당하면 사용자에게 이메일 알림이 전송됩니다. 사용자는 링크를 따라 프로필을 완료해야 합니다.
+1. 클릭 **저장**. 사용자가 추가되고 사용자 목록에 표시됩니다. 사용자에게 관리자 역할 또는 제품 프로필을 할당하면 사용자에게 이메일 알림이 전송됩니다. 사용자는 링크를 따라 프로필을 완료해야 합니다.
 
 의 Admin Console에서 사용자 만들기에 대해 자세히 알아보기 [이 페이지](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
 
@@ -104,7 +104,7 @@ Adobe Campaign에는 내장 기능이 포함되어 있습니다 **제품 프로�
 
    * **[!UICONTROL ADMINISTRATION]**: 워크플로우, 게재, 스크립트 등과 같은 개체를 실행/생성/편집/삭제할 권한.
 
-1. **[!UICONTROL Delivery operators]** (배달)
+1. **[!UICONTROL Delivery operators]** (게재)
 
    이 그룹의 운영자는 게재 관리를 담당합니다. 이를 통해 게재를 만들고 준비하는 데 필요한 기본 리소스(캠페인 유형화, 게재 매핑, 기본 템플릿, 개인화 블록 등)에 액세스할 수 있습니다.
 
@@ -161,7 +161,7 @@ Adobe Campaign에는 내장 기능이 포함되어 있습니다 **제품 프로�
    * 보기 **[!UICONTROL Live]** 환경.
    * 관리 기능(사전 정의된 스페이스 및 필터)을 구성합니다.
    * 범주를 만들고 업데이트합니다.
-   * 오퍼 만들기.
+   * 오퍼를 만듭니다.
    * 오퍼 자격 조건을 구성합니다.
    * 오퍼를 승인합니다.
 

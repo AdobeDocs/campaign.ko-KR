@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b5574ba2d9fa520b701f7af4e34862304b825a66
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '552'
 ht-degree: 2%
 
 ---
@@ -84,14 +84,12 @@ ht-degree: 2%
 
 ## 활성 프로필 {#active-profiles}
 
-활성 프로필은 청구 용도로 계산되는 프로필입니다.
+활성 프로필은 고객이 지난 12개월 동안 모든 채널을 통해 통신하려고 시도한 프로필입니다. 라이선스 지표는 활성 프로필을 기반으로 합니다. 다음에서 자세히 알아보기 [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-청구는 다음 프로필에만 관련됩니다. **활성**. 지난 12개월 동안 어떤 채널을 통해 프로필을 타겟팅하거나 통신한 경우 프로필이 활성 상태로 간주됩니다.
-
-여러 게재에서 타겟팅한 프로필은 한 번만 카운트됩니다.
-
-다음에 대한 활성 프로필 수를 사용할 수 있습니다. **마케팅 인스턴스** 만 해당. 실행 인스턴스에는 사용할 수 없습니다. 즉, MID(중간 소싱) 및 RT(메시지 센터/실시간 메시징) 인스턴스를 의미합니다.
-
->[!NOTE]
+>[!CAUTION]
 >
->Campaign Campaign 컨트롤 패널에서 직접 인스턴스의 활성 프로필 수를 모니터링할 수도 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>* 여러 게재에서 타겟팅한 프로필은 한 번만 카운트됩니다.
+>
+>* X에서의 소셜 마케팅(이전의 Twitter)의 컨텍스트에서 타겟팅된 프로필은 활성 프로필로 간주되지 않습니다.
+
+Campaign Campaign 컨트롤 패널에서 직접 인스턴스의 활성 프로필 수를 모니터링할 수 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.

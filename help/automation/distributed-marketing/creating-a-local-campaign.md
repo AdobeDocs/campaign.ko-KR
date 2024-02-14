@@ -5,9 +5,9 @@ description: 로컬 캠페인 만들기
 feature: Distributed Marketing
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -46,17 +46,17 @@ ht-degree: 1%
 
 ![](assets/mkt_distr_4.png)
 
-### 웹 인터페이스 {#web-interface}
+### 인터페이스 유형 {#web-interface}
 
-다음에서 **분산 마케팅** 탭에서 웹 인터페이스 유형을 선택하고 로컬 엔티티가 주문을 할 때 입력할 기본값과 매개변수를 지정할 수 있습니다.
+다음에서 **분산 마케팅** 탭에서 인터페이스 유형을 선택하고 로컬 엔티티가 순서를 지정할 때 입력할 기본값과 매개변수를 지정할 수 있습니다.
 
-웹 인터페이스는 캠페인 주문 시 로컬 엔티티가 채울 양식에 해당합니다.
+인터페이스는 캠페인 주문 시 로컬 엔티티가 채울 양식에 해당합니다.
 
-템플릿에서 만든 캠페인에 적용할 웹 인터페이스 유형을 선택합니다.
+템플릿에서 만든 캠페인에 적용할 인터페이스 유형을 선택합니다.
 
 ![](assets/mkt_distr_1.png)
 
-다음 네 가지 유형의 웹 인터페이스를 사용할 수 있습니다.
+네 가지 유형의 인터페이스를 사용할 수 있습니다.
 
 * **[!UICONTROL By brief]** : 로컬 엔티티는 캠페인 구성을 설명하는 설명을 제공해야 합니다. 주문이 승인되면 중앙 엔티티는 캠페인 전체를 구성하고 실행합니다.
 

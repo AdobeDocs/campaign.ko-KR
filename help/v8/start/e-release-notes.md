@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 9fceeb04344f891fbfd8af1e643b2ad5331db158
+source-git-commit: eae364fb3d082c91022fee6bf29802c9eb6dfcf5
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 21%
+source-wordcount: '464'
+ht-degree: 22%
 
 ---
 
@@ -27,16 +27,22 @@ _2024년 2월 14일_
 
 * 이번 릴리스부터 새로운 기능에 액세스할 수 있습니다. **Campaign 웹 사용자 인터페이스**, 중앙 Adobe Experience Cloud 환경을 통해 사용할 수 있습니다. Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능, 서비스에 빠르게 액세스할 수 있습니다. Adobe Experience Cloud에 연결하고 Adobe Campaign 웹 인터페이스에 액세스하는 방법에 대해 알아봅니다 [이 페이지에서](campaign-ui.md#ac-web-ui).
 
-
-* Adobe Campaign v8은 이제 와 통합됩니다. **Adobe Experience Manager as a Cloud Service**, Adobe Campaign 웹 사용자 인터페이스를 통해서만 작성 가능
-
-* 이제 다음을 사용할 수 있습니다. **Adobe Experience Manager Assets 라이브러리** Experience Cloud 에셋과 함께 **Adobe Experience Cloud과 통합** 패키지가 Adobe Campaign 인스턴스에 설치됩니다.
+* 이제 클라이언트 콘솔의 32비트 버전은 더 이상 사용되지 않습니다. 8.6부터 클라이언트 콘솔은 64비트로만 사용할 수 있습니다. 클라이언트 콘솔의 64비트 버전으로 원활하게 업그레이드됩니다. 운영 체제를 업그레이드하는 자세한 방법은 [기술 정보](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html?lang=ko)를 참조하십시오.
 
 
 ### 일반 개선 사항 {#improvements-8-6-1}
 
 * Campaign v8.6은 다음을 위한 향상된 처리량을 제공합니다. **이메일 게재 추적 표시기**. 최적화된 프로세스로 수집 및 계산 시간 추적이 감소하며 게재 키 지표를 훨씬 빠르게 확인할 수 있습니다.
 
+* 이제 Campaign v8 인스턴스를 Azure synapse 외부 데이터베이스에 연결할 수 있습니다. 이 연결은 새 외부 계정을 통해 관리됩니다.
+
+* Adobe Campaign v8은 이제 와 통합됩니다. **Adobe Experience Manager as a Cloud Service**, Adobe Campaign 웹 사용자 인터페이스를 통해서만 작성 가능
+
+* 이제 다음을 사용할 수 있습니다. **Adobe Experience Manager Assets 라이브러리** Experience Cloud 에셋과 함께 **Adobe Experience Cloud과 통합** 패키지가 Adobe Campaign 인스턴스에 설치됩니다.
+
+* 더 이상 클라이언트 콘솔에서 연산자를 만들 수 없습니다. 이제 Admin Console을 사용해야 합니다. [자세히 알아보기](../start/gs-permissions.md)
+
+* 보안을 최적화하기 위해 여러 타사 도구가 업데이트되었습니다.
 
 ### 게재 기능 업데이트 {#deliverability-8-6-1}
 

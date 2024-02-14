@@ -5,10 +5,10 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 3%
+source-wordcount: '1376'
+ht-degree: 2%
 
 ---
 
@@ -165,7 +165,7 @@ Microsoft Dynamics 365 데이터를 Adobe Campaign으로 가져오고 내보내�
 
 >[!NOTE]
 >
->설정을 승인하려면 로그오프한 후 Adobe Campaign 클라이언트 콘솔로 다시 로그온합니다.
+>설정을 승인하려면 Adobe Campaign 클라이언트 콘솔에서 로그오프했다가 다시 로그온합니다.
 
 ### 동기화할 테이블 선택{#ms-dyn-create-tables}
 

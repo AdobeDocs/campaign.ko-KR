@@ -5,9 +5,9 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1394'
 ht-degree: 1%
 
 ---
@@ -174,7 +174,7 @@ ht-degree: 1%
   >
   >레이블은 인스턴스의 현재 언어와 연결됩니다.
 
-  **예제**:
+  **예**:
 
   ```
   <attribute name="email" type="string" length="80" label="Email"/>
@@ -192,7 +192,7 @@ ht-degree: 1%
   >
   >설명은 인스턴스의 현재 언어와 연결됩니다.
 
-  **예제**:
+  **예**:
 
   ```
   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
@@ -204,7 +204,7 @@ ht-degree: 1%
 
 값은 XPath 언어를 준수하는 표현식이어야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](#reference-with-xpath)을 참조하십시오.
 
-**예제**:
+**예**:
 
 * 현재 날짜: **default=&quot;GetDate()&quot;**
 * 카운터: **default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
@@ -337,7 +337,7 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 요소는 이름으로 지정되고, 속성은 &quot;@&quot; 문자 앞에 오는 이름으로 지정됩니다.
 
-**예제**:
+**예**:
 
 * **@email**: 이메일을 선택하고,
 * **위치/@city**: 아래에서 &quot;city&quot; 속성을 선택합니다. **`<location>`** 요소
@@ -360,11 +360,11 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 이 언어의 잠재력을 강화하기 위해 표현식에 높은 수준의 함수가 추가되었습니다.
 
-Adobe Campaign 클라이언트 콘솔의 표현식 편집기를 통해 사용 가능한 함수 목록에 액세스할 수 있습니다.
+Adobe Campaign 클라이언트 콘솔에서 표현식 편집기를 통해 사용 가능한 함수 목록에 액세스할 수 있습니다.
 
 ![](assets/schema_function.png)
 
-**예제**:
+**예**:
 
 * **GetDate()**: 현재 날짜를 반환합니다.
 * **Year(@created)**: &quot;created&quot; 속성에 포함된 날짜의 연도를 반환합니다.
