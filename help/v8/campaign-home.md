@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 도움말 센터
 title: Adobe Campaign v8 제품 설명서
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
+source-git-commit: 08a7a5f51d20068c31980e7b256e80c36ba6ff31
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 13%
+source-wordcount: '319'
+ht-degree: 15%
 
 ---
 
@@ -14,9 +14,23 @@ ht-degree: 13%
 
 ## 새로운 기능
 
-Adobe Campaign v8 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세한 [릴리스 정보](start/release-notes.md)를 확인하십시오. 다음을 방문하여 설명서의 최신 변경 사항을 최신 상태로 유지하십시오. [설명서 업데이트 정보](start/documentation-updates.md) 페이지를 가리키도록 업데이트하는 중입니다.
+Adobe Campaign v8(클라이언트 콘솔) 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세한 [릴리스 정보](start/release-notes.md)를 확인하십시오. 다음을 방문하여 설명서의 최신 변경 사항을 최신 상태로 유지하십시오. [설명서 업데이트 정보](start/documentation-updates.md) 페이지를 가리키도록 업데이트하는 중입니다.
 
 >[!BEGINTABS]
+
+>[!TAB Campaign v8.6 릴리스 정보]
+
+Adobe Campaign의 최신 버전이 이제 라이브입니다. 자세한 내용은 릴리스 정보 를 참조하십시오.
+
+[![이미지](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
+
+
+>[!TAB 새 Campaign 웹 사용자 인터페이스]
+
+새로운 Adobe Campaign 사용자 인터페이스를 경험하십시오. 보다 현대적이고 직관적이며 역동적입니다!
+
+[![이미지](assets/do-not-localize/learn-more-button.svg)](start/campaign-ui.md#ac-web-ui)
+
 
 >[!TAB 예정된 채널 변경 사항 푸시]
 
@@ -24,11 +38,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
 
->[!TAB 향상된 푸시 알림 서비스]
 
-Campaign v8.5.1은 최신 첨단 기술을 기반으로 구축된 강력한 프레임워크에서 제공하는 최신 푸시 알림 서비스를 도입했습니다. 이 서비스는 새로운 차원의 확장성을 제공하도록 설계되었으므로, 원활한 효율성으로 더 많은 대상자에게 알림이 전달될 수 있습니다. 향상된 인프라와 최적화된 프로세스를 통해 더 높은 규모와 신뢰성을 기대할 수 있으며, 이전과 달리 모바일 앱 사용자를 참여시키고 연결할 수 있는 역량을 확보할 수 있습니다. 이 기능은 선택한 고객 그룹만 사용할 수 있습니다(제한된 가용성).
-
-[![이미지](assets/do-not-localize/learn-more-button.svg)](send/push-data-collection.md)
 
 >[!ENDTABS]
 
@@ -102,5 +112,5 @@ Campaign v8.5.1은 최신 첨단 기술을 기반으로 구축된 강력한 프�
 
 ## 추가 리소스
 
-[Adobe Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
+[Adobe Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
 
