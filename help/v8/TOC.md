@@ -1,14 +1,14 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: Adobe Campaign v8의 제품 설명서입니다.
+user-guide-description: Adobe Campaign v8(클라이언트 콘솔)에 대한 제품 설명서입니다.
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
+source-git-commit: df0c05495788fc497af51092f482e879fe2dffa7
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 86%
+source-wordcount: '575'
+ht-degree: 83%
 
 ---
 
@@ -17,10 +17,12 @@ ht-degree: 86%
 
 + [Campaign v8 설명서](campaign-home.md)
 + 릴리스 및 최신 업데이트 {#releases}
-   + [설명서 업데이트 정보](start/documentation-updates.md)
+   + [설명서 업데이트](start/documentation-updates.md)
    + [초기 릴리스 정보](start/e-release-notes.md)
+   + [버전 및 업그레이드](start/upgrades.md)
    + [릴리스 정보](start/release-notes.md)
    + 이전 릴리스 정보 {#previous-rn}
+      + [2023](start/release-notes-2023.md)
       + [2022](start/release-notes-2022.md)
       + [2021](start/release-notes-2021.md)
    + [보호 기능](start/ac-guardrails.md)
@@ -29,9 +31,9 @@ ht-degree: 86%
 + 시작 {#new}
    + [Adobe Campaign 시작](start/get-started.md)
    + [주요 기능](start/whats-new.md)
-   + [구성 요소 및 프로세스](start/ac-components.md)
+   + [사용자 인터페이스 살펴보기](start/campaign-ui.md)
    + [Campaign에 연결](start/connect.md)
-   + [Campaign 인터페이스](start/campaign-ui.md)
+   + [구성 요소 및 프로세스](start/ac-components.md)
    + [Classic v7에서 v8까지](start/v7-to-v8.md)
    + [FAQ](start/campaign-faq.md)
 + 캠페인 관리 {#campaigns}
@@ -42,6 +44,7 @@ ht-degree: 86%
    + 이메일 {#emails}
       + [이메일 디자인 및 유효성 검사](send/email.md)
       + [미러 페이지로 가는 링크](send/mirror-page.md)
+      + [BCC 주소 추가](send/email-bcc.md)
       + [추가 이메일 매개 변수 정의](send/email-parameters.md)
       + [이메일 보내기 및 모니터링](send/send.md)
    + [SMS](send/sms.md)
@@ -174,7 +177,6 @@ ht-degree: 86%
    + 설정 및 구성 {#configuration}
       + [사용자 인터페이스 설정](config/ui-settings.md)
       + [폴더 및 보기 관리](audiences/folders-and-views.md)
-      + [이메일 설정](config/email-settings.md)
       + [트랜잭션 메시지 설정](config/transactional-msg-settings.md)
       + [Campaign SDK를 앱과 통합 - 더 이상 사용되지 않는 페이지](config/push-config.md)
       + [외부 계정](config/external-accounts.md)
