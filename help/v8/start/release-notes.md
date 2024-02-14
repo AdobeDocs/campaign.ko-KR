@@ -5,7 +5,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 2dbe73df0cbc194ec6c239e13851395a0b94c991
+source-git-commit: 92fe7c41047aafd26cca70a547025a3eff73e398
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 16%
@@ -33,7 +33,7 @@ _2024년 2월 14일_
 
 * Adobe Campaign v8은 이제 와 통합됩니다. **Adobe Experience Manager as a Cloud Service**, Adobe Campaign 웹 사용자 인터페이스를 통해서만 작성 가능 [자세히 알아보기](../connect/ac-aem.md)
 
-* 이제 다음을 사용할 수 있습니다. **Adobe Experience Manager Assets 라이브러리** Adobe Campaign 인스턴스에 Adobe Experience Cloud 패키지와 통합이 설치된 경우에도 Experience Cloud Assets와 함께 사용할 수 있습니다.[자세히 알아보기](../connect/ac-aem.md)
+* 이제 다음을 사용할 수 있습니다. **Adobe Experience Manager Assets 라이브러리** Adobe Campaign 인스턴스에 Adobe Experience Cloud 패키지와 통합이 설치된 경우에도 Experience Cloud Assets와 함께 사용할 수 있습니다.[자세히 알아보기](../connect/ac-aem.md#assets-library)
 
 ### 일반 개선 사항 {#improvements-8-6-1}
 

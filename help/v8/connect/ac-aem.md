@@ -5,9 +5,9 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: b267cb37a94bd389232ccfb9b8df69c9c2caa990
+source-git-commit: 92fe7c41047aafd26cca70a547025a3eff73e398
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -80,12 +80,30 @@ Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게
 
 1. 이전에 만든 AEM 게재 선택 [!DNL Adobe Experience Manager] 을(를) 클릭하여 확인 **[!UICONTROL Ok]**.
 
-1. 에서 직접 자산을 삽입할 수 있습니다. [!DNL Adobe Experience Manager Assets] 또는 [!DNL Adobe Experience Manager Assets Library] Adobe Campaign에서 이메일을 편집하는 동안. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html)
-
-   을(를) 사용하려면 **Adobe Experience Manager Assets 라이브러리**, 액세스 **[!UICONTROL Properties]** AEM 게재 후 선택 **[!UICONTROL Advanced]** 탭. 활성화 **[!UICONTROL Use above AEM instance as shared asset library]** 옵션을 선택합니다.
-
-   ![](assets/aem_authoring_9.png)
-
 1. 을(를) 클릭하여 **[!UICONTROL Refresh content]** AEM 게재를 수정할 때마다 단추
 
 이제 이메일을 대상자에게 보낼 준비가 되었습니다.
+
+## Adobe Experience Manager Assets 라이브러리에서 자산 가져오기 {#assets-library}
+
+에서 직접 에셋을 삽입할 수도 있습니다. [!DNL Adobe Experience Manager Assets Library] Adobe Campaign에서 이메일 또는 랜딩 페이지를 편집하는 동안. 이 기능은에 자세히 설명되어 있습니다. [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en).
+
+1. 에서 에셋 업로드 **Adobe Experience Manager Assets 라이브러리**. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+
+1. Adobe Campaign에서 를 찾아 새 게재를 만듭니다. **캠페인** 탭을 클릭하고 **게재** 을(를) 클릭하고 **만들기** 기존 게재 목록 위에 있는 단추입니다.
+
+1. 선택 **게재 템플릿**&#x200B;그런 다음 게재 이름을 지정합니다.
+
+1. 메시지 콘텐츠를 정의하고 개인화합니다. [자세히 알아보기](../send/email.md)
+
+1. 을(를) 사용하려면 **Adobe Experience Manager Assets 라이브러리**, 액세스 **[!UICONTROL Properties]** AEM 게재 후 선택 **[!UICONTROL Advanced]** 탭. 활성화 **[!UICONTROL Use above AEM instance as shared asset library]** 옵션을 선택합니다.
+
+   ![](assets/aem_authoring_9.png)
+
+1. 다음에서 **이미지** 아이콘, 액세스 **[!UICONTROL Select a shared asset]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+
+   ![](assets/aem_authoring_10.png)
+
+1. 선택 창에서 **Adobe Experience Manager Assets 라이브러리**&#x200B;를 클릭한 다음 확인합니다.
+
+이메일 게재가 준비되었습니다. 이제 타겟 대상을 지정하고, 게재를 확인하고, 전송을 진행할 수 있습니다.
