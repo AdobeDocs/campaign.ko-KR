@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
-source-git-commit: b5574ba2d9fa520b701f7af4e34862304b825a66
+source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '452'
 ht-degree: 2%
 
 ---
@@ -80,16 +80,3 @@ ht-degree: 2%
 * **추적**&#x200B;를 추가합니다. 이 정보는 게재 후 프로필 동작을 추적하는 데 사용됩니다. 이 탭은 게재에서 추적된 모든 URL의 누적 합계를 보여줍니다. 목록은 구성할 수 있으며, 일반적으로 다음과 같은 항목이 포함됩니다. 클릭한 URL, 클릭한 날짜 및 시간, URL이 포함된 문서
 
   추적에 대해 자세히 알아보기 [이 섹션에서](../start/tracking.md).
-
-
-## 활성 프로필 {#active-profiles}
-
-활성 프로필은 고객이 지난 12개월 동안 모든 채널을 통해 통신하려고 시도한 프로필입니다. 라이선스 지표는 활성 프로필을 기반으로 합니다. 다음에서 자세히 알아보기 [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
-
->[!CAUTION]
->
->* 여러 게재에서 타겟팅한 프로필은 한 번만 카운트됩니다.
->
->* X에서의 소셜 마케팅(이전의 Twitter)의 컨텍스트에서 타겟팅된 프로필은 활성 프로필로 간주되지 않습니다.
-
-Campaign Campaign 컨트롤 패널에서 직접 인스턴스의 활성 프로필 수를 모니터링할 수 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.

@@ -5,10 +5,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 22%
+source-wordcount: '453'
+ht-degree: 16%
 
 ---
 
@@ -39,17 +39,17 @@ Adobe Campaign, **수신자** 게재(이메일, SMS 등)를 보낼 타겟팅된 
 캠페인 워크플로우에서 대상자를 만드는 방법 알아보기 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko)
 
 
-## 활성 프로필{#active-profiles}
+## 활성 프로필 {#active-profiles}
 
-계약에 따라 각 Campaign 인스턴스에는 청구 용도로 계산되는 특정 수의 활성 프로필이 제공됩니다. 구입한 활성 프로필 수에 대한 자세한 내용은 최신 계약서를 참조하십시오.
+활성 프로필은 고객이 지난 12개월 동안 모든 채널을 통해 통신하려고 시도한 프로필입니다. 라이선스 지표는 활성 프로필을 기반으로 합니다. 다음에서 자세히 알아보기 [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-**프로필** 은 정보의 레코드(예: 의 레코드)를 의미합니다. [수신자 테이블](../dev/datamodel.md) 또는 최종 고객, 잠재 고객 또는 잠재 고객을 나타내는 쿠키 ID, 고객 ID, 모바일 식별자 또는 특정 채널과 관련된 기타 정보가 포함된 외부 테이블입니다. 지난 12개월 내에 모든 채널을 통해 타겟팅되거나 통신한 프로필은 활성 상태로 간주됩니다.
+Campaign Campaign 컨트롤 패널에서 직접 인스턴스의 활성 프로필 수를 모니터링할 수 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
-<!--
-You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
-
-![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
--->
+>[!CAUTION]
+>
+>* 여러 게재에서 타겟팅한 프로필은 한 번만 카운트됩니다.
+>
+>* X의 소셜 마케팅(Twitter) 컨텍스트에서 타깃팅된 프로필은 활성 프로필로 간주되지 않습니다.
 
 ## 개인 정보 보호 및 동의{#privacy-and-consent}
 
