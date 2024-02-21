@@ -3,9 +3,9 @@ title: 타겟팅 워크플로우 만들기
 description: 워크플로우에서 타겟 대상자를 만드는 방법을 알아봅니다
 feature: Query Editor, Data Management
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '2248'
+source-wordcount: '2252'
 ht-degree: 7%
 
 ---
@@ -270,7 +270,7 @@ Adobe Campaign에서 데이터 관리 는 보다 효율적이고 유연한 도�
 
 Adobe Campaign에서는 이러한 작업을 구현하기 위해 다음을 제공합니다.
 
-* 데이터 수집 활동: [파일 전송](file-transfer.md), [데이터 로드 중(파일)](data-loading--file-.md), [데이터 로드(RDBMS)](data-loading--rdbms-.md), [데이터 업데이트](update-data.md). 데이터를 수집하는 이 첫 번째 단계에서는 다른 활동에서 처리할 수 있도록 데이터를 준비합니다. 워크플로우가 올바르게 실행되고 예상 결과가 제공되도록 여러 매개 변수를 모니터링해야 합니다. 예를 들어 데이터를 가져올 때 이 데이터의 기본 키(Pkey)는 각 레코드에 대해 고유해야 합니다.
+* 데이터 수집 활동: [파일 전송](file-transfer.md), [데이터 로드 중(파일)](data-loading-file.md), [데이터 로드(RDBMS)](data-loading-rdbms.md), [데이터 업데이트](update-data.md). 데이터를 수집하는 이 첫 번째 단계에서는 다른 활동에서 처리할 수 있도록 데이터를 준비합니다. 워크플로우가 올바르게 실행되고 예상 결과가 제공되도록 여러 매개 변수를 모니터링해야 합니다. 예를 들어 데이터를 가져올 때 이 데이터의 기본 키(Pkey)는 각 레코드에 대해 고유해야 합니다.
 * 데이터 관리 옵션으로 보강된 타겟팅 활동: [쿼리](query.md), [합집합](union.md), [교차](intersection.md), [분할](split.md). 이를 통해 데이터 조정이 가능한 한 여러 다른 타겟팅 차원의 데이터 간 결합 또는 교차를 구성할 수 있습니다.
 * 데이터 변환 활동: [데이터 보강](enrichment.md), [차원 변경](change-dimension.md).
 

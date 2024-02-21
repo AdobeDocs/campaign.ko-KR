@@ -5,9 +5,9 @@ description: 마케팅 캠페인 게재에 대해 자세히 알아보기
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 게재 승인 흐름을 설정하고 실행하는 방법을 알아봅니다 [이 페이지에서](marketing-campaign-approval.md).
 
-## 게재를 시작합니다 {#start-a-delivery}
+## 게재 시작 {#start-a-delivery}
 
 모든 승인이 승인되면 게재를 보낼 수 있습니다. 게재 실행 프로세스는 채널에 따라 다릅니다.
 
@@ -112,4 +112,4 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >예산에 대해 자세히 알아보기 [이 섹션에서](providers--stocks-and-budgets.md).
+  >예산에 대해 자세히 알아보기 [이 섹션에서](providers-stocks-and-budgets.md).

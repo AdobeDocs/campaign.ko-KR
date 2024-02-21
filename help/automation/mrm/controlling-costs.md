@@ -5,9 +5,9 @@ description: 비용 제어 방법 알아보기
 feature: Campaigns, Resource Management
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2428'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 1. 예산을 정의합니다. [자세히 알아보기](#creating-a-budget)
 
-1. 원가 계산 방법을 정의합니다. 원가 구조는 서비스 공급자에 대해 정의됩니다. [자세히 알아보기](../campaigns/providers--stocks-and-budgets.md)
+1. 원가 계산 방법을 정의합니다. 원가 구조는 서비스 공급자에 대해 정의됩니다. [자세히 알아보기](../campaigns/providers-stocks-and-budgets.md)
 
 1. 캠페인 비용(게재/작업) 정의 : 게재 및 작업으로 인해 발생한 비용은 캠페인 템플릿에 대해 개별적으로 또는 전체적으로 입력됩니다. [자세히 알아보기](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks)
 
@@ -144,7 +144,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 >[!NOTE]
 >
->비용 범주 및 구조는에 나와 있습니다. [이 페이지](../campaigns/providers--stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
+>비용 범주 및 구조는에 나와 있습니다. [이 페이지](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
 
 ## 비용 약정, 계산 및 과금 {#cost-commitment--calculation-and-charging}
 
@@ -207,7 +207,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 #### 2단계 - 서비스 공급자 구성 및 원가 구조 정의 {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. 에서 비용 구조를 사용하여 서비스 제공업체 및 서비스 템플릿을 만듭니다. **[!UICONTROL Administration > Campaigns]** 노드. 이 작업에 대한 자세한 정보는 [이 섹션](../campaigns/providers--stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)을 참조하십시오.
+1. 에서 비용 구조를 사용하여 서비스 제공업체 및 서비스 템플릿을 만듭니다. **[!UICONTROL Administration > Campaigns]** 노드. 이 작업에 대한 자세한 정보는 [이 섹션](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)을 참조하십시오.
 
    DM 게재의 경우 비용 범주 만들기 **[!UICONTROL Envelopes]** (유형 114x229 및 162x229), **[!UICONTROL Postage]** 및 **[!UICONTROL Print]** (유형 A3 및 A4). 그런 다음 다음과 같은 비용 구조를 생성합니다.
 

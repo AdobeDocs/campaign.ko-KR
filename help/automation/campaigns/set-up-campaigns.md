@@ -5,10 +5,10 @@ description: 마케팅 캠페인으로 시작하는 방법 알아보기
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 16%
+ht-degree: 11%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Campaign에서 마케팅 캠페인을 만들고 실행하는 주요 단계
 대시보드에서 캠페인을 추적하고 Campaign UI에서 게재 상태 및 실행을 확인합니다. [자세히 알아보기](marketing-campaign-monitoring.md)
 
 1. **예산, 재고 및 관련 비용 추적**.
-Adobe Campaign을 사용하여 예산 할당을 제어하고 공급자, 재고 및 비용을 관리합니다. [자세히 알아보기](providers--stocks-and-budgets.md#create-service-providers-and-their-cost-structures)
+Adobe Campaign을 사용하여 예산 할당을 제어하고 공급자, 재고 및 비용을 관리합니다. [자세히 알아보기](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures)
 
 이러한 단계가 완료되면 다음 작업을 수행할 수 있습니다 [게재 시작](marketing-campaign-deliveries.md#start-a-delivery), 게재와 관련된 데이터, 프로세스 및 정보를 확인하고 필요한 경우 [관련 문서 관리](marketing-campaign-deliveries.md#manage-associated-documents). 다음을 수행할 수도 있습니다. [실행 추적 및 모니터링](marketing-campaign-monitoring.md) 을 참조하십시오.
 

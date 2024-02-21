@@ -5,7 +5,7 @@ description: 흐름 제어 활동 목록
 feature: Workflows
 role: User
 exl-id: 904f2d94-bd3e-4c46-aeab-2ef77a7bdeee
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 * **[승인](approval.md)**: 운영자 또는 운영자 그룹에 이메일을 보내고 승인이 실행되어 계속 지날 때까지 기다릴 수 있습니다.
 * **[외부 신호](external-signal.md)**: 외부 신호를 받은 후 아웃바운드 전환을 활성화할 수 있습니다.
 * **[포크](fork.md)**: 모든 아웃바운드 전환을 활성화할 수 있습니다.
-* **[이동(시작점 및 끝점)](jump--start-point-and-end-point-.md)**: 링크 없이 전환을 구현할 수 있도록 해줍니다.
+* **[이동(시작점 및 끝점)](jump-start-point-and-end-point.md)**: 링크 없이 전환을 구현할 수 있도록 해줍니다.
 * **[시작 및 종료](start-and-end.md)**: 워크플로우의 시작과 끝점을 표시할 수 있습니다.
 * **[스케줄러](scheduler.md)**: 워크플로우 실행 일정을 정의할 수 있습니다.
 * **[하위 워크플로우](sub-workflow.md)**: 다른 워크플로우를 실행할 수 있습니다.

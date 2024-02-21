@@ -5,7 +5,7 @@ description: 작업 만들기 및 관리
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '3758'
 ht-degree: 0%
@@ -190,7 +190,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 >[!NOTE]
 >
->비용 및 예산에 대한 자세한 내용은 [이 섹션](../campaigns/providers--stocks-and-budgets.md#cost-commitment--calculation-and-charging).
+>비용 및 예산에 대한 자세한 내용은 [이 섹션](../campaigns/providers-stocks-and-budgets.md#cost-commitment--calculation-and-charging).
 
 이 창에서는 도달할 목표를 정의할 수도 있습니다. 목표는 해당 작업의 예측 매출로 표시됩니다.
 

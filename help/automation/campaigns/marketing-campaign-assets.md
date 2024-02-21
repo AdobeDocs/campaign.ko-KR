@@ -5,7 +5,7 @@ description: 마케팅 캠페인 문서 및 게재 개요에 대해 자세히 �
 feature: Campaigns
 role: User
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -120,4 +120,4 @@ ht-degree: 0%
 
 ![](assets/campaign-export-template.png)
 
-내보내기 모델은 관련 게재에 대해 선택한 서비스 공급자와 연결되어야 합니다. [이 섹션](providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)을 참조하십시오.
+내보내기 모델은 관련 게재에 대해 선택한 서비스 공급자와 연결되어야 합니다. 다음을 참조하십시오 [이 섹션](providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).

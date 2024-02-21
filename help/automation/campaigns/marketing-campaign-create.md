@@ -5,7 +5,7 @@ description: 마케팅 캠페인을 만들고 실행하는 방법 알아보기
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: d7750add8d71bb51ea1c099a45a7bce05da3b4d7
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 3%
@@ -92,7 +92,7 @@ Campaign 오케스트레이션 구성 요소는 **[!UICONTROL Campaigns]** 탭: 
 * [에셋 및 문서 관리](marketing-campaign-assets.md)
 * [타겟 대상자 작성](marketing-campaign-target.md)
 * [승인 프로세스 설정](marketing-campaign-approval.md)
-* [재고 및 예산 관리](providers--stocks-and-budgets.md)
+* [재고 및 예산 관리](providers-stocks-and-budgets.md)
 
 
 ### 캠페인 설정 편집 {#campaign-settings}
@@ -102,7 +102,7 @@ Campaign 오케스트레이션 구성 요소는 **[!UICONTROL Campaigns]** 탭: 
 각 캠페인에 대해 다음 기능을 사용할 수 있습니다.
 
 * 참조 문서 및 리소스: 문서(개요, 보고서, 이미지 등)를 캠페인과 연결할 수 있습니다. 모든 문서 형식이 지원됩니다. [자세히 알아보기](marketing-campaign-deliveries.md#manage-associated-documents)
-* 비용 정의: Adobe Campaign을 사용하면 각 캠페인에 대해 마케팅 캠페인을 생성할 때 사용할 수 있는 비용 입력 및 비용 계산 구조를 정의할 수 있습니다. 예를 들어 인쇄 비용, 외부 에이전시 사용, 객실 대여 등이 있습니다. [자세히 알아보기](providers--stocks-and-budgets.md#defining-cost-categories)
+* 비용 정의: Adobe Campaign을 사용하면 각 캠페인에 대해 마케팅 캠페인을 생성할 때 사용할 수 있는 비용 입력 및 비용 계산 구조를 정의할 수 있습니다. 예를 들어 인쇄 비용, 외부 에이전시 사용, 객실 대여 등이 있습니다. [자세히 알아보기](providers-stocks-and-budgets.md#defining-cost-categories)
 * 목표 정의: 구독자 수, 거래량 등과 같은 캠페인에 대한 수량 목표를 정의할 수 있습니다. 이 정보는 나중에 캠페인 보고서에 사용됩니다.
 * 시드 주소 및 컨트롤 그룹을 관리합니다. [자세히 알아보기](marketing-campaign-deliveries.md#defining-a-control-group)
 * 승인 관리: 승인할 처리를 선택하고 필요한 경우 검토 운영자 또는 운영자 그룹을 선택할 수 있습니다. [자세히 알아보기](marketing-campaign-approval.md#checking-and-approving-deliveries)

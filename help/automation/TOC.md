@@ -1,23 +1,23 @@
 ---
 audience: user
-user-guide-title: Campaign Automation 안내서
-user-guide-description: Campaign Automation 안내서
-source-git-commit: 75b65efce6b37e3d948f6af4a89ea3b0a5ac1a86
+user-guide-title: Campaign 자동화 안내서
+user-guide-description: Campaign 자동화 안내서
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 84%
+source-wordcount: '442'
+ht-degree: 81%
 
 ---
 
 
 # Campaign 자동화 안내서 {#automation}
 
-+ [Campaign Automation 안내서](home.md)
++ [Campaign 자동화 안내서](home.md)
 + 워크플로우 자동화 {#workflows}
    + 워크플로우 시작 {#introduction}
       + [워크플로우 정보](workflow/about-workflows.md)
       + 워크플로우 유형 {#wf-type}
-         + [타겟팅 워크플로우](workflow/targeting-workflows.md)
+         + [타겟팅 워크플로](workflow/targeting-workflows.md)
          + [캠페인 워크플로](workflow/campaign-workflows.md)
          + [기술 워크플로우](workflow/technical-workflows.md)
       + [워크플로우 구축](workflow/build-a-workflow.md)
@@ -31,7 +31,7 @@ ht-degree: 84%
       + [워크플로우 실행 모니터링](workflow/monitor-workflow-execution.md)
       + [기술 워크플로우 모니터링](workflow/monitor-technical-workflows.md)
       + [워크플로우 히트맵](workflow/heatmap.md)
-   + 워크플로 활동 {#wf-activities}
+   + 워크플로우 활동 {#wf-activities}
       + [활동 시작](workflow/activities.md)
       + 타겟팅 활동 {#targeting-activities}
          + [타겟팅 활동 목록](workflow/targeting-activities.md)
@@ -62,7 +62,7 @@ ht-degree: 84%
          + [승인](workflow/approval.md)
          + [외부 신호](workflow/external-signal.md)
          + [포크](workflow/fork.md)
-         + [이동(시작점 및 끝점)](workflow/jump--start-point-and-end-point-.md)
+         + [이동(시작점 및 끝점)](workflow/jump-start-point-and-end-point.md)
          + [시작 및 종료](workflow/start-and-end.md)
          + [예약](workflow/scheduler.md)
          + [하위 워크플로우](workflow/sub-workflow.md)
@@ -74,9 +74,9 @@ ht-degree: 84%
          + [콘텐츠 관리](workflow/content-management.md)
          + [지속적인 게재](workflow/continuous-delivery.md)
          + [크로스 채널 게재](workflow/cross-channel-deliveries.md)
-         + [데이터 추출(파일)](workflow/extraction--file-.md)
-         + [데이터 로딩(파일)](workflow/data-loading--file-.md)
-         + [데이터 로딩(RDBMS)](workflow/data-loading--rdbms-.md)
+         + [데이터 추출(파일)](workflow/extraction-file.md)
+         + [데이터 로딩(파일)](workflow/data-loading-file.md)
+         + [데이터 로딩(RDBMS)](workflow/data-loading-rdbms.md)
          + [게재](workflow/delivery.md)
          + [게재 제어](workflow/delivery-control.md)
          + [로컬 승인](workflow/local-approval.md)
@@ -128,7 +128,7 @@ ht-degree: 84%
       + [고급 매개 변수](workflow/advanced-parameters.md)
       + [JavaScript 스크립트 및 템플릿](workflow/javascript-scripts-and-templates.md)
       + [워크플로우의 JavaScript 코드 예](workflow/javascript-in-workflows.md)
-      + [외부 데이터베이스 액세스](workflow/accessing-an-external-database--fda-.md)
+      + [외부 데이터베이스 액세스](workflow/accessing-an-external-database-fda.md)
       + [권한 관리](workflow/managing-rights.md)
       + [활동 이미지 변경](workflow/change-activity-images.md)
       + [표준 시간대 관리](workflow/managing-time-zones.md)
@@ -142,7 +142,7 @@ ht-degree: 84%
    + [승인 설정 및 관리](campaigns/marketing-campaign-approval.md)
    + [반복 및 정기 캠페인](campaigns/recurring-periodic-campaigns.md)
    + [캠페인 모니터링](campaigns/marketing-campaign-monitoring.md)
-   + [공급자, 재고 및 예산](campaigns/providers--stocks-and-budgets.md)
+   + [공급자, 재고 및 예산](campaigns/providers-stocks-and-budgets.md)
 + Campaign 최적화(추가 기능){#campaign-optimization}
    + [캠페인 유형화 시작](campaign-opt/campaign-typologies.md)
    + [필터링 규칙](campaign-opt/filtering-rules.md)
@@ -165,4 +165,4 @@ ht-degree: 84%
    + [캠페인 액세스](distributed-marketing/accessing-campaigns.md)
    + [캠페인 추적](distributed-marketing/tracking-a-campaign.md)
    + [활용 사례](distributed-marketing/examples.md)
-+ [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)
++ [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko)

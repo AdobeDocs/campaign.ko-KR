@@ -5,7 +5,7 @@ description: 작업 활동 정보
 feature: Workflows, Data Management
 role: User
 exl-id: feed4cc1-d654-45e7-a3b2-2bc46418a90b
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
@@ -17,11 +17,11 @@ ht-degree: 1%
 * **[콘텐츠 관리](content-management.md)**: 컨텐츠를 만들거나 사용자 정의할 수 있습니다.
 * **[연속 게재](continuous-delivery.md)**: 활동에 지정된 시나리오에서 게재를 시작할 수 있습니다.
 * **[크로스 채널 게재](cross-channel-deliveries.md)** (캠페인 워크플로우만 해당): 해당 채널(이메일, 푸시, 모바일, DM)에서 게재를 구성할 수 있습니다.
-* **[데이터 로드 중(파일)](data-loading--rdbms-.md)**: 외부 데이터 소스에 액세스하여 해당 데이터를 사용할 수 있습니다.
-* **[데이터 로드(RDBMS)](data-loading--rdbms-.md)**: 외부 데이터베이스에 액세스하여 데이터를 가져올 수 있습니다.
+* **[데이터 로드 중(파일)](data-loading-rdbms.md)**: 외부 데이터 소스에 액세스하여 해당 데이터를 사용할 수 있습니다.
+* **[데이터 로드(RDBMS)](data-loading-rdbms.md)**: 외부 데이터베이스에 액세스하여 데이터를 가져올 수 있습니다.
 * **[게재](delivery.md)**: 게재 작업을 구성할 수 있습니다.
 * **[게재 제어](delivery-control.md)**: 게재를 시작, 일시 중지 또는 중지할 수 있습니다.
-* **[추출(파일)](extraction--file-.md)**: 파일의 테이블에서 데이터를 추출할 수 있습니다.
+* **[추출(파일)](extraction-file.md)**: 파일의 테이블에서 데이터를 추출할 수 있습니다.
 * **[로드 중(SOAP)](loading-soap.md)**: SOAP 호출을 통해 데이터를 수집할 수 있습니다.
 * **[로컬 승인](local-approval.md)**: 분산 마케팅 컨텍스트 내에서 승인 및 타겟팅 알림을 수행할 수 있습니다(선택 모듈).
 * **[Nlserver 모듈](nlserver-module.md)**: 인수로 nlserver 모듈을 시작합니다.

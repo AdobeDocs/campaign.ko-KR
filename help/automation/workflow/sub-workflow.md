@@ -4,9 +4,9 @@ title: 하위 워크플로우
 description: 하위 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
 exl-id: c530fb4e-d21e-4059-88e1-77a8d33a7832
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 단일 워크플로우에서 여러 하위 워크플로우를 호출할 수 있습니다. 하위 워크플로우는 동기적으로 실행됩니다.
 
-아래 예에서 기본 워크플로우는 점프를 사용하여 하위 워크플로를 호출하는 것입니다. 점프 유형 그래픽 객체에 대한 자세한 내용은 [이 섹션](jump--start-point-and-end-point-.md).
+아래 예에서 기본 워크플로우는 점프를 사용하여 하위 워크플로를 호출하는 것입니다. 점프 유형 그래픽 객체에 대한 자세한 내용은 [이 섹션](jump-start-point-and-end-point.md).
 
 1. 다른 워크플로우에서 하위 워크플로우로 사용할 워크플로우를 만듭니다.
 1. 삽입 **[!UICONTROL Jump (end point)]** 워크플로우 시작 시 우선순위가 1인 활동. &quot;끝점&quot; 유형 점프가 여러 개 있는 경우 Adobe Campaign에서 가장 낮은 숫자의 &quot;끝점&quot; 점프를 사용합니다.

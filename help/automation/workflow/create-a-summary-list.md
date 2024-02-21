@@ -5,10 +5,10 @@ description: 요약 목록 만들기
 feature: Workflows, Data Management
 role: User
 exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 2%
+source-wordcount: '975'
+ht-degree: 1%
 
 ---
 
@@ -56,7 +56,7 @@ Phone;500;London 5
 
    다음 **파일 수집기** 활동을 사용하면 Adobe Campaign 서버에서 파일을 수집하고 전송할 수 있습니다.
 
-   다음 **데이터 로드 중(파일)** 활동을 사용하면 수집된 데이터로 워크플로우의 작업 테이블을 보강할 수 있습니다. 이 활동에 대한 자세한 내용은 [이 페이지](data-loading--file-.md).
+   다음 **데이터 로드 중(파일)** 활동을 사용하면 수집된 데이터로 워크플로우의 작업 테이블을 보강할 수 있습니다. 이 활동에 대한 자세한 내용은 [이 페이지](data-loading-file.md).
 
 1. 구성 **파일 수집기** 텍스트 수집을 위한 활동(&#42;.txt) 선택한 디렉토리에서 파일을 입력합니다.
 

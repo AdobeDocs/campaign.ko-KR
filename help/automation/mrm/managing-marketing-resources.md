@@ -5,7 +5,7 @@ description: 마케팅 리소스를 관리하는 방법 알아보기
 feature: Campaigns, Resource Management
 role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 1%
@@ -172,7 +172,7 @@ Adobe Campaign을 게시하려면 적절한 워크플로우를 만들어 리소�
 
 마케팅 리소스를 주식과 연결하려면 아래 단계를 따르십시오.
 
-1. 재고를 편집하거나 새 재고를 생성합니다. 의 주식에 대해 자세히 알아보기 [이 섹션](../campaigns/providers--stocks-and-budgets.md#stock-management).
+1. 재고를 편집하거나 새 재고를 생성합니다. 의 주식에 대해 자세히 알아보기 [이 섹션](../campaigns/providers-stocks-and-budgets.md#stock-management).
 
 1. 재고 라인을 추가하고 해당 마케팅 리소스를 선택합니다.
 

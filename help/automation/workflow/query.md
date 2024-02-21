@@ -5,7 +5,7 @@ description: 쿼리 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: 0191ca8c29813c448040fc887f98550c74197578
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 ![](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
 
 * 선택 **[!UICONTROL Data linked to the filtering dimension]** Adobe Campaign 데이터베이스의 데이터를 선택합니다.
-* 선택 **[!UICONTROL External data]** 외부 데이터베이스에서 데이터를 추가합니다. 이 옵션은 를 구입한 경우에만 사용할 수 있습니다. **페더레이션 데이터 액세스** 옵션을 선택합니다. 자세한 내용은 다음을 참조하십시오. [외부 데이터베이스 액세스(FDA)](accessing-an-external-database--fda-.md).
+* 선택 **[!UICONTROL External data]** 외부 데이터베이스에서 데이터를 추가합니다. 이 옵션은 를 구입한 경우에만 사용할 수 있습니다. **페더레이션 데이터 액세스** 옵션을 선택합니다. 자세한 내용은 다음을 참조하십시오. [외부 데이터베이스 액세스(FDA)](accessing-an-external-database-fda.md).
 * 다음 항목 선택 **[!UICONTROL An offer proposition]** 오퍼 엔진에서 생성된 최상의 제안을 저장할 수 있는 열 세트를 추가하는 옵션. 이 옵션은 를 구입한 경우에만 사용할 수 있습니다. **상호 작용** 모듈.
 
 플랫폼에 선택적 모듈이 설치되어 있지 않으면 이 단계가 표시되지 않습니다. 다음 단계로 바로 이동합니다.

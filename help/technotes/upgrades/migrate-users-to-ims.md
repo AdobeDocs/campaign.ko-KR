@@ -2,7 +2,7 @@
 title: 캠페인 운영자를 IMS(Identity Management System) Adobe으로 마이그레이션
 description: Campaign 연산자를 IMS(Identity Management System) Adobe으로 마이그레이션하는 방법에 대해 알아봅니다.
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: b539b84907c7232f236b96ae8dfd11c8998a06b9
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 1%
@@ -97,7 +97,7 @@ Campaign 관리자는 클라이언트 콘솔에서 모든 기본 사용자에게
 
    에 대해 자세히 알아보기 **쿼리** 의 활동 [이 페이지](../../automation/workflow/query.md)
 
-   에 대해 자세히 알아보기 **데이터 추출(파일)** 의 활동 [이 페이지](../../automation/workflow/extraction--file-.md)
+   에 대해 자세히 알아보기 **데이터 추출(파일)** 의 활동 [이 페이지](../../automation/workflow/extraction-file.md)
 
 1. 연산자의 이메일이 포함된 새 열로 CSV 파일을 업데이트합니다.
 
@@ -109,7 +109,7 @@ Campaign 관리자는 클라이언트 콘솔에서 모든 기본 사용자에게
 
    ![](assets/data-loading-activity.png){width="70%"}
 
-   에 대해 자세히 알아보기 **데이터 로드 중(파일)** 의 활동 [이 페이지](../../automation/workflow/data-loading--file-.md)
+   에 대해 자세히 알아보기 **데이터 로드 중(파일)** 의 활동 [이 페이지](../../automation/workflow/data-loading-file.md)
 
 1. 편집 **데이터 업데이트** 활동을 참조하고 아래 샘플에 따라 설정을 정의합니다. 다음 사항에 주의하십시오. **업데이트된 차원** 이(가) (으)로 변경되었습니다. `Operators (xtk)`.
 
