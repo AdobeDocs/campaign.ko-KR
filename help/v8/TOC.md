@@ -1,14 +1,14 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: Adobe Campaign v8(클라이언트 콘솔)에 대한 제품 설명서입니다.
+user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설명서입니다.
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
 source-git-commit: 05b911d0675fa69fb8041bbc6d5c465266d9f806
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 

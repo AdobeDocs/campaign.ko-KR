@@ -1,6 +1,6 @@
 ---
 title: 클라이언트 콘솔을 사용하여 Campaign에 연결
-description: 컴퓨터에 Campaign 클라이언트 콘솔을 설치하고 Adobe Campaign에 연결하는 방법을 알아봅니다.
+description: 컴퓨터에 Campaign 클라이언트 콘솔을 설치하고 Adobe Campaign에 연결하는 방법을 알아보십시오
 feature: Client Console
 role: User
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
 workflow-type: tm+mt
 source-wordcount: '850'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
