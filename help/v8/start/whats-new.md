@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 90%
+source-wordcount: '1029'
+ht-degree: 77%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 Adobe Campaign v8은 엔터프라이즈 규모의 크로스 채널 캠페인을 위한 업계 최고의 클라우드 솔루션을 필요로 하는 크로스 채널 마케터를 위해 설계되었습니다. 완벽한 캠페인을 제작 및 큐레이션하는 데 도움이 되는 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정을 핵심으로 집중하는 풍부한 멀티 터치 마케팅 프로그램을 제공합니다. 또한 마케팅 팀이 암호 재설정, 주문 확인, 전자 수신 등의 작업에 대해 모든 것을 포함하는 페이로드를 기반으로 사전 정의된 메시지를 모든 IT 시스템에서 전송할 수 있도록 지원하는 확장 가능한 실시간 메시징 서버와 나란히 제공됩니다.
 
-Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상당히 개선되었습니다.
+Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상당히 개선되었습니다. 로 사용할 수 있습니다. **관리 Cloud Service** 서비스를 사전 예방적 감독 및 적시 교체와 결합합니다. Campaign 관리 Cloud Service에 대해 자세히 알아보기 [이 섹션에서](#acms-desc).
 
 ![](assets/home-page.png)
 
@@ -70,9 +70,11 @@ Adobe Campaign v8은 실시간 CDP와 Adobe Experience Platform과 함께 데이
 
 ### 관리 클라우드 서비스 {#acms-desc}
 
-Adobe Campaign v8은 최고의 관리 클라우드 서비스로 제공되며, 사전 예방적인 감독, 적시 경고, 서비스 거버넌스를 제공합니다.
+Adobe Campaign v8은 관리 Cloud Service으로 제공되며, 사전 예방적 감독, 신속한 경고 및 서비스 거버넌스를 제공합니다. Adobe 관리 클라우드 서비스는 마케터에게 민첩하고 안전하며 확장 가능하고 TCO가 낮은 크로스 채널 캠페인 관리 솔루션을 제공합니다. 이 새로운 기능은 서비스를 사전 예방적 감독 및 적시 경고 기능과 결합합니다.
 
-Adobe 관리 클라우드 서비스는 마케터에게 민첩하고 안전하며 확장 가능하고 TCO가 낮은 크로스 채널 캠페인 관리 솔루션을 제공합니다. 이 새로운 기능은 서비스를 사전 예방적 감독 및 적시 경고 기능과 결합합니다.
+관리 서비스 접근 방식을 통해 마케터는 내부 IT 리소스의 과도한 지원 없이 클라우드 인프라의 운영 규모 및 경제성을 활용할 수 있습니다. Adobe 컨설팅 및 구현 팀은 고객과 협력하여 마케팅 계획, 기존 사례, 데이터 요구 사항 및 메시징 볼륨을 평가한 다음 가장 적합한 서비스, 지원 및 전달성 패키지를 권장합니다. 그런 다음 Adobe Campaign Managed Cloud Services 팀은 캠페인 성과, 브랜드 평판, 고객 경험 지표 등을 모니터링하고 보고할 수 있습니다.
+
+[이 백서 다운로드](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf) Adobe Campaign Managed Cloud Services의 비즈니스 가치에 대해 자세히 알아보십시오.
 
 >[!NOTE]
 >

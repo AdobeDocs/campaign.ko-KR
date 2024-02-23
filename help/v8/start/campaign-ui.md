@@ -4,10 +4,10 @@ description: Campaign 사용자 인터페이스를 찾아보고 사용하는 방
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 8666c04f0e98cd6444af831d47056c46019c6088
+source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 3%
+source-wordcount: '1003'
+ht-degree: 2%
 
 ---
 
@@ -23,17 +23,7 @@ ht-degree: 3%
 
   에서 Campaign 클라이언트 콘솔을 설치하고 구성하는 방법에 대해 알아봅니다. [이 섹션](../start/connect.md).
 
-<!--    ![](assets/home-page.png) -->
-
 * **웹 사용자 인터페이스** - v8.6.1 릴리스를 시작하는 Campaign v8 사용자는 이제 중앙 Adobe Experience Cloud 사용자 인터페이스를 통해 사용할 수 있는 웹 환경에 액세스할 수 있습니다. 그런 다음 웹 브라우저에서 Adobe Campaign에 연결할 수 있습니다. 이 새 인터페이스를 사용하면 주요 마케팅 작업을 생성, 관리 및 실행할 수 있습니다. 그러나 모든 Campaign 기능을 사용할 수는 없습니다. [자세히 알아보기](#ac-web-ui)
-
-  Campaign 웹 사용자 인터페이스는 클라이언트 콘솔 홈 페이지를 통해 사용할 수 있습니다.
-
-  ![](assets/web-ui.png)
-
-  >[!NOTE]
-  >
-  >새 액세스 카드가 표시되지 않으면 Adobe Experience Cloud 외부 계정 내에 다음 필드가 비어 있지 않은지 확인하십시오. **서버**, **임차인**, **콜백 서버**, 및 **연결 표시**.
 
 * **웹 액세스** - Adobe Campaign 웹 액세스 기능을 사용하면 HTML 사용자 인터페이스를 사용하여 웹 브라우저에서 Campaign 기능의 하위 집합에 액세스할 수 있습니다. 이 웹 인터페이스를 사용하여 보고서에 액세스하고, 메시지를 제어 및 검증하고, 모니터링 대시보드에 액세스합니다.  Campaign 웹 액세스에 대해 자세히 알아보기 [이 섹션에서](../start/connect.md#web-access).
 
@@ -42,9 +32,15 @@ ht-degree: 3%
 
 ## 클라이언트 콘솔 작업 {#ui-access}
 
-Campaign 클라이언트 콘솔은 SOAP 및 HTTP와 같은 표준 인터넷 프로토콜을 통해 Adobe Campaign 애플리케이션 서버와 통신하는 기본 애플리케이션입니다. Campaign 클라이언트 콘솔은 모든 기능과 설정을 중앙 집중화하며 로컬 캐시에 의존하기 때문에 최소한의 대역폭이 필요합니다. 손쉬운 배포를 위해 설계된 Campaign 클라이언트 콘솔은 인터넷 브라우저에서 배포하고 자동으로 업데이트할 수 있으며 HTTP(S) 트래픽만 생성하므로 특정 네트워크 구성이 필요하지 않습니다.  [Campaign 클라이언트 콘솔에 대해 자세히 알아보기](../start/connect.md).
+Campaign 클라이언트 콘솔은 SOAP 및 HTTP와 같은 표준 인터넷 프로토콜을 통해 Adobe Campaign 애플리케이션 서버와 통신하는 기본 애플리케이션입니다. Campaign 클라이언트 콘솔은 모든 기능과 설정을 중앙 집중화하며 로컬 캐시에 의존하기 때문에 최소한의 대역폭이 필요합니다. 손쉬운 배포를 위해 설계된 Campaign 클라이언트 콘솔은 인터넷 브라우저에서 배포하고 자동으로 업데이트할 수 있으며 HTTP(S) 트래픽만 생성하므로 특정 네트워크 구성이 필요하지 않습니다.  [Campaign 클라이언트 콘솔에 대해 자세히 알아보기](../start/connect.md). 클라이언트 콘솔 홈 페이지의 전용 카드에서 Campaign 웹 사용자 인터페이스로 전환할 수 있습니다.
 
-![](assets/home-page.png)
+![](assets/web-ui.png)
+
+
+>[!NOTE]
+>
+>새 액세스 카드가 표시되지 않으면 Adobe Experience Cloud 외부 계정 내에 다음 필드가 비어 있지 않은지 확인하십시오. **서버**, **임차인**, **콜백 서버**, 및 **연결 표시**.
+
 
 웹 브라우저를 사용하여 Campaign에 액세스할 수도 있습니다. 이 컨텍스트에서는 Campaign 기능의 하위 집합만 사용할 수 있습니다. [자세히 알아보기](#web-browser)
 
