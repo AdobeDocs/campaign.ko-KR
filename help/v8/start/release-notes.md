@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 2f8cee4522efb59782a568334fc1300fc39d559f
+source-git-commit: 3b790305984436f1168f9c73aa09df509b2217f0
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '478'
 ht-degree: 16%
 
 ---
@@ -21,10 +21,19 @@ Managed Cloud Service 사용자는 Adobe에 의해 모든 새 버전으로 인�
 또한 고객은 다음에 나열된 시스템에서 지원되는 최신 버전을 사용하고 있는지 확인하십시오. [호환성 매트릭스](compatibility-matrix.md).
 
 
+## 릴리스 8.6.2 {#release-8-6-2}
+
+_2024년 2월 23일_
+
+### 수정 사항 {#fixes-8-6-2}
+
+이 릴리스에서는 다음 문제가 해결되었습니다.
+
+* 중간 소싱 인스턴스에서 발생할 수 있는 성능 문제를 해결했습니다(NEO-72595).
+
 ## 릴리스 8.6.1 {#release-8-6-1}
 
 _2024년 2월 14일_
-
 
 ### 새로운 기능 {#new-8-6-1}
 
