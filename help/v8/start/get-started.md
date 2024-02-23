@@ -5,10 +5,10 @@ feature: Overview, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
-source-git-commit: c7bedcffeff59a5c3b631cde6c7df67057d4a483
+source-git-commit: 86a6979b8258bbe3136ed9e4de6ce44a8164d5d9
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '994'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 100%
 Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널을 실행할 수 있는 환경을 제공합니다.
 
 Adobe Campaign v8은 이메일, 푸시 알림, SMS, 다이렉트 메일 등 다양한 마케팅 채널을 위해 구축된 차세대 캠페인 도구입니다. 완벽한 캠페인을 제작 및 큐레이션하는 데 도움이 되는 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정을 핵심으로 집중하는 풍부한 멀티 터치 마케팅 프로그램을 제공합니다. 또한 암호 재설정, 주문 확인, 전자 수신 등 커뮤니케이션의 전반을 포함하는 페이로드를 기반으로, 마케팅 팀이 사전 정의된 메시지를 모든 IT 시스템에서 전송할 수 있도록 지원하는 확장 가능한 실시간 메시징 서버도 제공합니다.
+
+Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상당히 개선되었습니다. 로 사용할 수 있습니다. **관리 Cloud Service** 서비스를 사전 예방적 감독 및 적시 교체와 결합합니다. Campaign 관리 Cloud Service에 대해 자세히 알아보기 [이 페이지에서](whats-new.md#acms-desc).
 
 Campaign을 사용하여 다음을 수행할 수 있습니다.
 
@@ -50,7 +52,7 @@ Adobe Campaign을 사용하면 타기팅되고 개인화된 캠페인을 이메�
 
 ![](../assets/do-not-localize/glass.png)[ 이 섹션](campaigns.md)에서는 캠페인을 디자인, 예약 및 실행하는 방법을 알아봅니다.
 
-## 워크플로우
+## 워크플로우 {#wf-gsv8}
 
 Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡한 프로세스를 디자인할 수 있는 포괄적인 그래픽 환경을 제공합니다. 예를 들어 워크플로우를 통해 서버에서 파일을 다운로드하고 압축을 해제한 다음 Adobe Campaign 데이터베이스에 포함된 레코드를 가져올 수 있습니다.
 
