@@ -2,9 +2,8 @@
 title: Adobe Campaign 및 Adobe Workfront 작업
 description: Campaign을 Adobe Workfront과 함께 사용하는 방법에 대해 알아보기
 role: Admin, User
-feature: Adobe Workfront Integration
 level: Beginner
-source-git-commit: acec0a14fb9267d4c7c60b8056c5367742cc37bd
+source-git-commit: 00f720fb4d7a5c4415afbe19b453f463f740c63d
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
