@@ -5,7 +5,7 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: acec0a14fb9267d4c7c60b8056c5367742cc37bd
+source-git-commit: a79ae8611f413b910fe31c1e1c5213f40e873879
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 84%
@@ -146,7 +146,7 @@ ht-degree: 84%
    + [Campaign + Experience Manager](connect/ac-aem.md)
    + [Campaign + Target](connect/ac-at.md)
    + [Campaign - Experience Cloud 트리거](connect/ac-triggers.md)
-   + [Campaign + Workfront](connect/ac-workfont.md)
+   + [Campaign + Workfront](connect/ac-workfront.md)
    + [Campaign + X(Twitter)](connect/ac-tw.md)
    + [Campaign + 외부 데이터베이스](connect/fda.md)
    + Campaign + 내 CRM {#ac-crm}
