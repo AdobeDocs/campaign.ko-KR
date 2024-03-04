@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: a79ae8611f413b910fe31c1e1c5213f40e873879
+source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '581'
 ht-degree: 84%
 
 ---
@@ -190,6 +190,8 @@ ht-degree: 84%
       + [스키마 필터링](dev/filter-schema.md)
       + [스키마 구조](dev/schema-structure.md)
       + [데이터베이스 매핑](dev/database-mapping.md)
+      + [주요 관리](dev/database-keys.md)
+      + [링크 관리](dev/database-links.md)
       + [PI 보기 제한](dev/restrict-pi-view.md)
       + [사용자 정의 수신자 테이블 사용](dev/custom-recipient.md)
       + [데이터베이스 업데이트](dev/update-database-structure.md)
