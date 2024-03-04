@@ -4,7 +4,7 @@ description: Adobe Campaign 스키마의 링크 관리 이해
 feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
+source-git-commit: c7171a121f03eff0d945e64758e3ba1842e5436f
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
@@ -26,14 +26,14 @@ ht-degree: 0%
 
 캠페인 테이블/데이터베이스와의 조인 관계의 경우:
 
-* ![](assets/join_with_campaign11.png) : 카디널리티 1-1. 예를 들어 수신자와 현재 주문 간에 적용될 수 있습니다. 수신자는 현재 주문 테이블을 한 번에 하나만 연결할 수 있습니다.
-* ![](assets/externaljoin11.png) : 카디널리티 1-1, 외부 조인. 예를 들어 수신자와 해당 국가 간. 수신자는 한 테이블 국가에만 관련될 수 있습니다. 국가 테이블의 내용은 저장되지 않습니다.
-* ![](assets/join_with_campaign1n.png) : 카디널리티 1-N. 예를 들어 수신자와 구독 테이블 간 수신자는 구독 테이블의 여러 발생 횟수와 관련될 수 있습니다.
+* ![](assets/do-not-localize/join_with_campaign11.png) : 카디널리티 1-1. 예를 들어 수신자와 현재 주문 간에 적용될 수 있습니다. 수신자는 현재 주문 테이블을 한 번에 하나만 연결할 수 있습니다.
+* ![](assets/do-not-localize/externaljoin11.png) : 카디널리티 1-1, 외부 조인. 예를 들어 수신자와 해당 국가 간. 수신자는 한 테이블 국가에만 관련될 수 있습니다. 국가 테이블의 내용은 저장되지 않습니다.
+* ![](assets/do-not-localize/join_with_campaign1n.png) : 카디널리티 1-N. 예를 들어 수신자와 구독 테이블 간 수신자는 구독 테이블의 여러 발생 횟수와 관련될 수 있습니다.
 
 FDA(Federated Database Access)를 사용하는 조인 관계의 경우:
 
-* ![](assets/join_fda_11.png) : 카디널리티 1-1
-* ![](assets/join_fda_1m.png) : 카디널리티 1-N
+* ![](assets/do-not-localize/join_fda_11.png) : 카디널리티 1-1
+* ![](assets/do-not-localize/join_fda_1m.png) : 카디널리티 1-N
 
 FDA 표에 대한 자세한 내용은 [외부 데이터베이스 액세스](../../installation/using/about-fda.md).
 
