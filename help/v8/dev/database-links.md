@@ -4,7 +4,7 @@ description: Adobe Campaign 스키마의 링크 관리 이해
 feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: c7171a121f03eff0d945e64758e3ba1842e5436f
+source-git-commit: 6db351c8b5d30f722ddc4b0261af93cd8e3b72cd
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
@@ -35,7 +35,7 @@ FDA(Federated Database Access)를 사용하는 조인 관계의 경우:
 * ![](assets/do-not-localize/join_fda_11.png) : 카디널리티 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) : 카디널리티 1-N
 
-FDA 표에 대한 자세한 내용은 [외부 데이터베이스 액세스](../../installation/using/about-fda.md).
+FDA 표에 대한 자세한 내용은 [외부 데이터베이스 액세스](../connect/fda.md).
 
 주 요소를 통해 연결된 테이블의 외래 키를 포함하는 스키마에서 링크를 선언해야 합니다.
 
