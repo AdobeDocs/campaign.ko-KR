@@ -5,7 +5,7 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: 2f8cee4522efb59782a568334fc1300fc39d559f
+source-git-commit: fc461fbbae23925dd29f17c8674cc287ba360147
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게재의 콘텐츠와 양식을 Adobe Experience Manager에서 직접 관리할 수 있습니다. 다음을 가져올 수 있습니다. **Adobe Experience Manager** 콘텐츠를 Campaign에 포함하거나 다음을 연결합니다. **Adobe Experience Manager as a Cloud service** 계정을 통해 웹 인터페이스에서 직접 콘텐츠를 편집할 수 있습니다.
 
-![](../assets/do-not-localize/book.png) [Campaign 웹 인터페이스 내에서 Adobe Experience Manager을 Cloud Service 콘텐츠로 편집하는 방법에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/integrations/aem-content.html?lang=en)
+![](../assets/do-not-localize/book.png) [Campaign 웹 인터페이스 내에서 Adobe Experience Manager을 Cloud Service 콘텐츠로 편집하는 방법에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html?lang=en)
 
 ![](../assets/do-not-localize/book.png) [이 문서에서 Adobe Experience Manager에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow)
 
