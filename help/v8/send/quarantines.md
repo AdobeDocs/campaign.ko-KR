@@ -5,9 +5,9 @@ feature: Profiles, Monitoring
 role: User, Data Engineer
 level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1167'
 ht-degree: 4%
 
 ---
@@ -73,7 +73,7 @@ Adobe Campaign은 게재 실패 유형 및 이유에 따라 격리를 관리합�
 >
 >1년말: (1)&#42;0.33)/(1+0.5)=22%.
 >
->2년말: (1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%.
+2년말: (1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%.
 
 또한 **[!UICONTROL Non-deliverables and bounces]** 기본 제공 보고서, 다음에서 사용 가능: **보고서** 이 홈 페이지의 섹션에는 격리된 주소, 발생한 오류 유형 및 도메인별 실패 분류에 대한 정보가 표시됩니다. 특정 게재에 대한 데이터를 필터링하거나 필요에 따라 이 보고서를 사용자 지정할 수 있습니다.
 
@@ -104,7 +104,7 @@ Adobe Campaign은 게재 실패 유형 및 이유에 따라 격리를 관리합�
 
 >[!CAUTION]
 >
->에 주소가 있는 수신자 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 이메일을 수신하더라도 상태는 제거되지 않습니다.
+에 주소가 있는 수신자 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 이메일을 수신하더라도 상태는 제거되지 않습니다.
 
 격리 목록에서 주소를 수동으로 제거할 수도 있습니다. 격리에서 주소를 제거하려면 다음을 수행할 수 있습니다.
 
@@ -120,8 +120,8 @@ Adobe Campaign은 게재 실패 유형 및 이유에 따라 격리를 관리합�
 
 * **오류 텍스트(격리 텍스트)** 에는 &quot;Momen_Code10_InvalidRecipient&quot;가 포함되어 있습니다.
 * **이메일 도메인(@domain)** domain1.com과 같음 또는 **이메일 도메인(@domain)** domain2.com과 같음 또는 **이메일 도메인(@domain)** domain3.com과 같음
-* **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 이후:MM:오전 SS
-* **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 이전:MM:오후
+* **업데이트 상태(@lastModified)** 다음 또는 이후 `MM/DD/YYYY HH:MM:SS AM`
+* **업데이트 상태(@lastModified)** 다음 또는 이전 `MM/DD/YYYY HH:MM:SS PM`
 
 영향을 받는 수신자 목록이 있으면 **[!UICONTROL Update data]** 상태를 다음으로 설정할 활동 **[!UICONTROL Valid]** 따라서 다음을 통해 격리 목록에서 제거됩니다. **[!UICONTROL Database cleanup]** 워크플로,. 격리 테이블에서 삭제할 수도 있습니다.
 

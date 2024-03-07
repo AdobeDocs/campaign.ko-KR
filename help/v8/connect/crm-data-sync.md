@@ -5,9 +5,9 @@ feature: Salesforce Integration, Microsoft CRM Integration
 role: Admin
 level: Beginner
 exl-id: 2a7ae88e-d47f-416b-84cd-986ab9be6aef
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1315'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Adobe Campaign에서 CRM을 통해 데이터를 가져오려면 다음 유형의
 >
 >이 참고는 원본에만 적용됩니다. **[!UICONTROL CRM Connector]** 활동. 다른 CRM 활동의 경우 프로세스는 자동입니다.
 >
->이 옵션은에서 수동으로 만들고 채워야 합니다. **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. 이 옵션은 텍스트 옵션이어야 하며 값은 다음 형식과 일치해야 합니다. **yyyy/MM/dd hh:mm:ss**.
+>이 옵션은에서 수동으로 만들고 채워야 합니다. **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. 이 옵션은 텍스트 옵션이어야 하며 값은 다음 형식과 일치해야 합니다. **`yyyy/MM/dd hh:mm:ss`**.
 > 
 >추가 가져오기를 수행하려면 이 옵션을 수동으로 업데이트해야 합니다.
 
@@ -106,7 +106,7 @@ Adobe Campaign에서 CRM을 통해 데이터를 가져오려면 다음 유형의
 
   >[!NOTE]
   >
-  >이 날짜는 다음 형식으로 표시됩니다. **yyyy/MM/dd hh:mm:ss**.
+  >이 날짜는 다음 형식으로 표시됩니다. **`yyyy/MM/dd hh:mm:ss`**.
 
 ### 데이터 필터링 {#filtering-data}
 
@@ -129,7 +129,7 @@ Microsoft Dynamics 및 Salesforce.com에서 가져올 원격 필드를 오름차
 
 ![](assets/crm-import-order.png)
 
-### 기록 식별 {#record-identification}
+### 레코드 식별 {#record-identification}
 
 CRM에 포함되고 필터링될 수 있는 요소를 가져오지 않고 워크플로우에서 미리 계산된 모집단을 사용할 수 있습니다.
 
