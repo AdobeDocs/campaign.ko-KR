@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 032c11f794956d5bdd4a6540ee5dd5b2f92c94dc
+source-git-commit: f6ccec05d63c397d0a286c18f4114eb414156d45
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 10%
+source-wordcount: '410'
+ht-degree: 11%
 
 ---
 
@@ -24,15 +24,15 @@ Adobe Experience Cloud 솔루션을 결합하여 구현을 현대화합니다.
 
 ![](../assets/do-not-localize/speech.png)  관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Adobe Experience Cloud 서비스 및 솔루션과 Campaign을 연결합니다.
 
-Campaign v8은 다음과 연결할 수 있습니다.
+Campaign v8은 다음 Adobe 솔루션과 연결할 수 있습니다. 사용 사례, 구성 및 지침에 대한 자세한 내용은 링크를 찾아보십시오.
 
-* [Adobe Analytics](../connect/ac-aa.md)
-* [Adobe Experience Cloud 트리거](../connect/ac-triggers.md)
-* [Adobe Experience Manager](../connect/ac-aem.md)
-* [Adobe Experience Platform](../connect/ac-aep.md)
-* [Adobe Journey Optimizer](../connect/ac-ajo.md)
-* [Adobe Target](../connect/ac-at.md)
-* [Adobe Workfront](../connect/ac-workfront.md)
+* Adobe Analytics.[자세히 알아보기](../connect/ac-aa.md)
+* Adobe Experience Cloud 트리거. [자세히 알아보기](../connect/ac-triggers.md)
+* Adobe Experience Manager. [자세히 알아보기](../connect/ac-aem.md)
+* Adobe Experience Platform. [자세히 알아보기](../connect/ac-aep.md)
+* Adobe Journey Optimizer. [자세히 알아보기](../connect/ac-ajo.md)
+* Adobe Target. [자세히 알아보기](../connect/ac-at.md)
+* Adobe Workfront. [자세히 알아보기](../connect/ac-workfront.md)
 
 다음을 결합할 수도 있습니다 **대상** 및 **assets** 다양한 Experience Cloud 솔루션에서 에셋 공유 및 대상 공유 기능을 사용할 수 있습니다.
 
