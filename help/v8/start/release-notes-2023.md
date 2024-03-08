@@ -4,7 +4,8 @@ description: 2023 Campaign v8 릴리스의 기능 및 개선 사항 목록
 feature: Release Notes
 role: User
 level: Beginner
-source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
+exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
+source-git-commit: 3a63539bc6bb20fa79bdac76dd60efe7b232458b
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 57%
@@ -13,7 +14,7 @@ ht-degree: 57%
 
 # 2023 릴리스 정보 {#2023-rn}
 
-이 페이지에서는 **2022 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항, 버그 해결 사항 목록을 확인할 수 있습니다.
+이 페이지에서는 **2023 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항, 버그 해결 사항 목록을 확인할 수 있습니다.
 
 ## 릴리스 8.5.2 {#release-8-5-2}
 
@@ -151,5 +152,3 @@ _2023년 1월 27일_
 * 성능을 개선하기 위해 여러 게재가 있는 워크플로우의 추적 URL 관리를 개선했습니다. (NEO-50894) <!--OKKKK-->
 * Xtkfolder를 사용하는 스키마의 복제가 실패하는 문제를 해결했습니다. (NEO-46787) <!--OKKKK-->
 * NmsSubscription 테이블에서 “lastModified” 사용자 정의 열을 삭제하는 문제를 해결했습니다. (NEO-48402)
-
-

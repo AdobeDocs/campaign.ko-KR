@@ -5,7 +5,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 3b790305984436f1168f9c73aa09df509b2217f0
+source-git-commit: 3a63539bc6bb20fa79bdac76dd60efe7b232458b
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 16%
@@ -16,9 +16,9 @@ ht-degree: 16%
 
 Adobe Campaign은 정기적으로 업데이트됩니다. 이러한 정기 업데이트 빈도는 최신 업데이트를 직접 경험해 보고 사용 환경을 안전하게 지키며 Adobe 제품 경험을 향상시키는 것을 목표로 합니다. Adobe은 모든 고객에게 최신 버전으로 업그레이드할 것을 강력히 권장합니다. Campaign 버전 및 권장 사항에 대해 자세히 알아보기 [이 페이지에서](upgrades.md).
 
-Managed Cloud Service 사용자는 Adobe에 의해 모든 새 버전으로 인스턴스가 업그레이드됩니다. Adobe이 귀하에게 연락하여 환경을 업그레이드합니다. Campaign 클라이언트 콘솔 **은(는) 동일한 버전으로 업그레이드해야 합니다.** Campaign 서버로. 클라이언트 콘솔을 업그레이드하는 방법: [페이지](../start/connect.md#upgrade-ac-console).
+Managed Cloud Service 사용자는 Adobe에 의해 모든 새 버전으로 인스턴스가 업그레이드됩니다. Adobe이 귀하에게 연락하여 환경을 업그레이드합니다. Campaign 클라이언트 콘솔 **은(는) 동일한 버전으로 업그레이드해야 합니다.** Campaign 서버로. 클라이언트 콘솔을 업그레이드하는 방법 알아보기 [이 페이지에서](../start/connect.md#upgrade-ac-console).
 
-또한 고객은 다음에 나열된 시스템에서 지원되는 최신 버전을 사용하고 있는지 확인하십시오. [호환성 매트릭스](compatibility-matrix.md).
+또한 고객은 다음에 나열된 지원되는 최신 버전의 시스템을 사용하고 있는지 확인합니다. [호환성 매트릭스](compatibility-matrix.md).
 
 
 ## 릴리스 8.6.2 {#release-8-6-2}
