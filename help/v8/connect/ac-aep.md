@@ -1,18 +1,18 @@
 ---
-title: 대상 및 프로필 속성
+title: Adobe Experience Platform에서 대상자 및 프로필 속성 공유 및 동기화
 description: Adobe Experience Platform 대상자 및 프로필 속성을 Campaign과 동기화하는 방법 알아보기
 feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: 6ebbdf2ab57577594a4f964e2cfcba46fcb7b4ca
+source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
-# Campaign 및 Adobe Experience Platform 작업
+# Adobe Experience Platform과 대상자 공유 및 동기화 {#gs-ac-aep}
 
 Adobe Campaign 관리 Cloud Service 대상 및 소스 커넥터를 사용하면 Adobe Campaign과 Adobe Experience Platform 간의 원활한 통합을 수행할 수 있습니다. 이 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 

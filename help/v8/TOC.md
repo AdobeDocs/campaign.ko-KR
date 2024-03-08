@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
+source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 84%
+source-wordcount: '587'
+ht-degree: 83%
 
 ---
 
@@ -139,8 +139,8 @@ ht-degree: 84%
 + 통합 {#connect}
    + [캠페인을 다른 솔루션과 연결](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}
-      + [대상 및 프로필 속성](connect/ac-aep.md)
-      + [Campaign 랜딩 페이지 및 프로필 속성](connect/ac-aep-landing-pages.md)
+      + [대상자 및 프로필 속성 공유 및 동기화](connect/ac-aep.md)
+      + [Campaign 랜딩 페이지에서 AEP 프로필 업데이트](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)

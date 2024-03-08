@@ -1,20 +1,20 @@
 ---
-title: Campaign 랜딩 페이지 및 프로필 속성
+title: Adobe Campaign 랜딩 페이지에서 Adobe Experience Platform 프로필 업데이트
 description: Adobe Campaign 랜딩 페이지 및 Adobe Experience Platform 프로필 속성을 동기화하는 방법 알아보기
 feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: a17c4325917ef1466bbb2c397aea55ebcf7fbcb5
+source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1031'
 ht-degree: 1%
 
 ---
 
-# Adobe Campaign 랜딩 페이지에서 Adobe Experience Platform 프로필 업데이트
+# Adobe Campaign 랜딩 페이지에서 Adobe Experience Platform 프로필 업데이트 {#ac-aep-lp}
 
-Adobe Campaign과 Adobe Experience Platform을 통합하면 Adobe Campaign 랜딩 페이지와 Adobe Experience Platform 간에 데이터를 원활하게 동기화할 수 있습니다. 이 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
+Adobe Campaign과 Adobe Experience Platform을 통합하면 Adobe Campaign 랜딩 페이지와 Adobe Experience Platform 간에 프로필 데이터를 원활하게 동기화할 수 있습니다. 이 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 * Adobe Experience Platform 프로필 속성을 검색하여 Adobe Campaign 랜딩 페이지에 업데이트된 정보를 표시합니다.
 * 업데이트된 프로필 속성을 Adobe Experience Platform으로 다시 보내어 랜딩 페이지에서 채워지고 제출된 사항을 기반으로 해당 속성을 업데이트합니다.
@@ -40,9 +40,9 @@ Adobe Cloud Platform API는 인증 및 권한 부여에 OAuth 2.0 프로토콜�
 1. Adobe Experience Platform API 제품을 사용하여 새 API 연결을 만듭니다. OAuth 2.0 액세스 토큰을 얻는 방법에 대한 자세한 단계는 [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/).
 1. 연결이 만들어지면 다음으로 이동합니다. **[!UICONTROL OAuth Server-to-Server]** 아래 세부 사항을 복사하여 인증을 위해 Campaign에 필요합니다.
 
-   * 클라이언트 ID
-   * 클라이언트 암호
-   * 조직 ID
+   * `CLIENT ID`
+   * `CLIENT SECRET`
+   * `조직 ID
 
    ![](assets/ac-lp-oauth.png){width="70%"}
 
@@ -102,7 +102,7 @@ HTTP API 소스 연결이 구성되면 Adobe Campaign에 특정 옵션을 추가
 
 워크플로우 실행 시 옵션은 제공된 값으로 Campaign 콘솔에 자동으로 만들어집니다.
 
-    &quot;
+    &quot;javascript
     loadLibrary(&quot;xtk:shared/nl.js&quot;);
     loadLibrary(&quot;xtk:shared/xtk.js&quot;);
     loadLibrary(&quot;xtk:shared/json2.js&quot;);
@@ -138,7 +138,7 @@ HTTP API 소스 연결이 구성되면 Adobe Campaign에 특정 옵션을 추가
 
    이 코드는 랜딩 페이지를 로드하기 전에 Adobe Experience Platform에 프로필이 있는지 확인합니다. 프로필 속성을 검색하고 랜딩 페이지의 해당 필드에 표시합니다.
 
-   ```
+   ```javascript
    // API implementation to read profile from AEP
    function getProfileInfo(email)
    {
@@ -161,7 +161,7 @@ HTTP API 소스 연결이 구성되면 Adobe Campaign에 특정 옵션을 추가
 
    이 코드는 Adobe Experience Platform의 프로필 속성을 랜딩 페이지에 제출된 값으로 업데이트합니다.
 
-   ```
+   ```javascript
    // API implementation to update profile in AEP
    loadLibrary("xtk:shared/nl.js");
    loadLibrary("xtk:shared/xtk.js");
@@ -215,7 +215,7 @@ Adobe Campaign에 추가된 JavaScript 코드를 사용하여 랜딩 페이지 �
 
 +++ 스크립트 1 - Experience Platform에서 프로필 속성 로드
 
-  ```
+  ```javascript
   // Script code to read profile from AEP.
   
   logInfo("Loading profile from AEP");
@@ -255,7 +255,7 @@ Adobe Campaign에 추가된 JavaScript 코드를 사용하여 랜딩 페이지 �
 
 +++ 스크립트 2 - Experience Platform 프로필 속성 업데이트
 
-  ```
+  ```javascript
   // Script code to update profile in AEP and ACC.
   
   logInfo("Executing script to update AEP profile.");
