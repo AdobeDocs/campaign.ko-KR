@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 83%
+source-wordcount: '588'
+ht-degree: 82%
 
 ---
 
@@ -16,18 +16,18 @@ ht-degree: 83%
 # Adobe Campaign v8 설명서 {#campaign-v8}
 
 + [Campaign v8 설명서](campaign-home.md)
-+ 릴리스 및 최신 업데이트 {#releases}
-   + [설명서 업데이트](start/documentation-updates.md)
++ 릴리스 정보 {#releases}
    + [초기 릴리스 정보](start/e-release-notes.md)
    + [버전 및 업그레이드](start/upgrades.md)
-   + [릴리스 정보](start/release-notes.md)
+   + [최신 릴리스](start/release-notes.md)
    + 이전 릴리스 정보 {#previous-rn}
-      + [2023](start/release-notes-2023.md)
-      + [2022](start/release-notes-2022.md)
-      + [2021](start/release-notes-2021.md)
+      + [2023 릴리스](start/release-notes-2023.md)
+      + [2022년 릴리스](start/release-notes-2022.md)
+      + [2021년 릴리스](start/release-notes-2021.md)
    + [보호 기능](start/ac-guardrails.md)
    + [알려진 문제](start/known-issues.md)
    + [호환성 매트릭스](start/compatibility-matrix.md)
+   + [설명서 업데이트](start/documentation-updates.md)
 + 시작 {#new}
    + [Adobe Campaign 시작](start/get-started.md)
    + [주요 기능](start/whats-new.md)

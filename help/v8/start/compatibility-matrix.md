@@ -5,10 +5,10 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: 374c0df2cd95e656cfbaa1fb355bf1f48828dfee
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 63%
+source-wordcount: '406'
+ht-degree: 52%
 
 ---
 
@@ -26,13 +26,12 @@ ht-degree: 63%
 
 Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브라우저가 필요합니다. [자세히 알아보기](connect.md)
 
-### 운영 체제{#op-systems}
+### 운영 체제 {#op-systems}
 
 * **Microsoft Windows Server** 2019, 2016
 * **Microsoft Windows** 11, 10
 
 >[!NOTE]
->
 >클라이언트 콘솔의 32비트 버전은 8.5 릴리스 이후 더 이상 사용되지 않습니다. 8.6부터 클라이언트 콘솔은 64비트로만 사용할 수 있습니다. 시스템을 업그레이드하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [기술 노트](../../technotes/upgrades/console.md).
 
 ### 웹 브라우저 {#web-browsers}
@@ -43,14 +42,14 @@ Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브�
 
 ## CRM 커넥터 {#CRMconnectors}
 
-Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다음과 같습니다. [자세히 알아보기](../connect/crm.md)
+Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다음과 같습니다. CRM 커넥터에 대해 자세히 알아보기 [이 페이지에서](../connect/crm.md).
 
 * **Salesfore** connector API 버전 49
 * **Microsoft Dynamics** 커넥터, Web API: Dynamics 365 온프레미스 및 온라인
 
 ## FDA(Federated Data Access){#FederatedDataAccessFDA}
 
-Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이터베이스 목록은 다음과 같습니다. [자세히 알아보기](../connect/fda.md)
+Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이터베이스 목록은 다음과 같습니다. FDA에 대해 자세히 알아보기 [이 페이지에서](../connect/fda.md).
 
 * **[!DNL Amazon Redshift]**
 * **[!DNL Azure Synapse]**, Campaign v8.5부터
@@ -62,14 +61,19 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 
 Campaign으로 [푸시 알림](../send/push.md)을 보내려면 데이터 수집 UI에서 Adobe Campaign Classic을 구성하여 Adobe Experience Platform Mobile SDK를 사용합니다.
 
-iOS 및 Android용 호환 버전은 [Adobe Developer 설명서](https://developer.adobe.com/client-sdks/home/)
+iOS 및 Android용 호환 버전은 [Adobe Developer 설명서](https://developer.adobe.com/client-sdks/home/){target="_blank"}.
+
+## 웹 사용자 인터페이스 {#web-ui}
+
+다음 브라우저는 Campaign 웹 사용자 인터페이스와 호환됩니다. Campaign 웹 UI에 대해 자세히 알아보기 [이 페이지에서](campaign-ui.md#ac-web-ui).
+
+* **Microsoft Edge**, **Google 크롬**, **Safari** (최신 버전)
 
 ## 웹 액세스 {#web-access}
 
-다음 브라우저는 [웹 액세스](connect.md#web-access)용 Campaign과 호환됩니다.
+다음 브라우저는 웹 액세스용 Campaign과 호환됩니다. Campaign 웹 액세스에 대해 자세히 알아보기 [이 페이지에서](connect.md#web-access).
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari**(최신 버전)
-
 
 ## 추가 리소스 {#support}
 

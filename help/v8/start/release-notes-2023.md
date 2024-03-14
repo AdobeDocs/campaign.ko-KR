@@ -5,16 +5,16 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
-source-git-commit: 3a63539bc6bb20fa79bdac76dd60efe7b232458b
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 57%
+ht-degree: 56%
 
 ---
 
 # 2023 릴리스 정보 {#2023-rn}
 
-이 페이지에서는 **2023 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항, 버그 해결 사항 목록을 확인할 수 있습니다.
+이 페이지에는 의 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다. **2023년 Campaign v8 릴리스**.
 
 ## 릴리스 8.5.2 {#release-8-5-2}
 

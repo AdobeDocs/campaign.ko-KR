@@ -5,10 +5,10 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 3%
+source-wordcount: '937'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->웹 브라우저를 사용하여 Campaign 웹 사용자 인터페이스에 연결할 수도 있습니다. 에서 새로운 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보십시오. [이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+>웹 브라우저를 사용하여 Campaign 웹 사용자 인터페이스에 연결할 수도 있습니다. 에서 새로운 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보십시오. [이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}.
 
 
 ## 클라이언트 콘솔 설치{#download-ac-console}
@@ -117,7 +117,17 @@ Campaign 관리자는 운영자를 만들고 사용자와 해당 자격 증명�
 에서 사용자 및 사용자 권한을 정의하는 방법에 대해 자세히 알아보기 [이 섹션](gs-permissions.md).
 
 
-## 웹 액세스{#web-access}
+## 웹 브라우저로 Campaign 액세스 {#connect-web-ac}
+
+### 웹 사용자 인터페이스 {#connect-web-ui}
+
+Campaign v8.6 릴리스부터는 새로운 기능에 대한 액세스 권한이 제공됩니다 **Campaign 웹 사용자 인터페이스**, 중앙 Adobe Experience Cloud 환경을 통해 사용할 수 있습니다. Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능 및 서비스에 빠르게 액세스할 수 있습니다.
+
+Adobe Experience Cloud에 연결하고 Adobe Campaign 웹 인터페이스에 액세스하는 방법에 대해 알아봅니다 [이 페이지에서](campaign-ui.md#ac-web-ui).
+
+다음에서 자세히 알아보기 [Adobe Campaign 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+
+### 웹 액세스 {#web-access}
 
 HTML 사용자 인터페이스(보고, 게재 승인, 인스턴스 모니터링 등)를 사용하여 웹 브라우저를 통해 애플리케이션의 특정 부분에 액세스할 수 있습니다.
 
