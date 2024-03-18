@@ -8,7 +8,7 @@ breadcrumb-title: Campaign v8 설명서
 source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 82%
+ht-degree: 99%
 
 ---
 
@@ -49,19 +49,19 @@ ht-degree: 82%
       + [이메일 보내기 및 모니터링](send/send.md)
    + [SMS](send/sms.md)
    + 푸시 알림 {#push}
-      + [푸시 알림 만들기 및 전송](send/push.md)
+      + [푸시 알림 구성 및 전송](send/push.md)
       + [푸시 알림 채널 구성](send/push-settings.md)
       + [데이터 수집으로 푸시 알림 구성](send/push-data-collection.md)
    + [LINE 메시지 보내기](send/line.md)
    + [DM](send/direct-mail.md)
-   + [X (Twitter)](send/twitter.md)
+   + [X(Twitter)](send/twitter.md)
    + 콘텐츠 개인화 {#personalize}
       + [개인화 시작하기](send/personalize.md)
       + [개인화 데이터](send/personalization-data.md)
       + [개인화 필드 추가](send/personalization-fields.md)
       + [개인화 블록 사용](send/personalization-blocks.md)
       + [조건 만들기](send/conditions.md)
-   + 게재 확인 및 보내기 {#validate}
+   + 게재 유효성 검사 및 보내기 {#validate}
    + [미리 보기 및 증명](send/preview-and-proof.md)
    + [게재 분석](send/delivery-analysis.md)
    + [게재 구성 및 보내기](send/configure-and-send.md)
@@ -149,7 +149,7 @@ ht-degree: 82%
    + [Campaign + Workfront](connect/ac-workfront.md)
    + [Campaign + X(Twitter)](connect/ac-tw.md)
    + [Campaign + 외부 데이터베이스](connect/fda.md)
-   + Campaign + 내 CRM {#ac-crm}
+   + Campaign + CRM {#ac-crm}
       + [CRM 커넥터 시작](connect/crm.md)
       + [Campaign 및 SFDC 작업](connect/ac-sfdc.md)
       + [Campaign 및 Microsoft Dynamics 작업](connect/ac-ms-dyn.md)
@@ -179,7 +179,7 @@ ht-degree: 82%
       + [사용자 인터페이스 설정](config/ui-settings.md)
       + [폴더 및 보기 관리](audiences/folders-and-views.md)
       + [트랜잭션 메시지 설정](config/transactional-msg-settings.md)
-      + [Campaign SDK를 앱과 통합 - 더 이상 사용되지 않는 페이지](config/push-config.md)
+      + [Campaign SDK와 앱 통합 - 더 이상 사용되지 않는 페이지](config/push-config.md)
       + [외부 계정](config/external-accounts.md)
 + 개발자 리소스 {#developer}
    + [Campaign 데이터 모델](dev/datamodel.md)
@@ -190,7 +190,7 @@ ht-degree: 82%
       + [스키마 필터링](dev/filter-schema.md)
       + [스키마 구조](dev/schema-structure.md)
       + [데이터베이스 매핑](dev/database-mapping.md)
-      + [주요 관리](dev/database-keys.md)
+      + [키 관리](dev/database-keys.md)
       + [링크 관리](dev/database-links.md)
       + [PI 보기 제한](dev/restrict-pi-view.md)
       + [사용자 정의 수신자 테이블 사용](dev/custom-recipient.md)
