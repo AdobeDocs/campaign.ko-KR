@@ -8,7 +8,7 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에도 적용됩니다."
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에 적용"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: c81744fdf4a4fc47820c077f69288a0ea66fa5e4
+source-git-commit: a494ac834b1febcafe04f4bb05eb74834df7b024
 workflow-type: tm+mt
 source-wordcount: '1352'
 ht-degree: 1%
@@ -33,32 +33,32 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 
 ### 영향을 받습니까? {#fcm-impact}
 
-현재 구현이 기존 API를 사용하여 FCM에 연결하는 구독 서비스를 지원하는 경우 영향을 받습니다. 서비스가 중단되지 않도록 하려면 최신 API로 마이그레이션해야 합니다. 이 경우 Adobe 팀이 연락을 드릴 것입니다.
+현재 구현이 기존 API를 사용하여 FCM에 연결하는 구독 서비스를 지원하는 경우 영향을 받습니다. 서비스가 중단되지 않도록 하려면 최신 API로 전환해야 합니다. 이 경우 Adobe 팀이 연락을 드릴 것입니다.
 
 영향을 받는지 확인하려면 다음을 필터링할 수 있습니다. **서비스 및 구독** 아래 필터에 따라:
 
 ![](assets/filter-services-fcm.png)
 
 
-* 활성 푸시 알림 서비스에서 **HTTP(기존)** API, 설정은 이 변경의 영향을 직접적으로 받습니다. 아래 설명된 대로 현재 구성을 검토하고 최신 API로 마이그레이션해야 합니다.
+* 활성 푸시 알림 서비스에서 **HTTP(기존)** API, 설정은 이 변경의 영향을 직접적으로 받습니다. 아래 설명된 대로 현재 구성을 검토하고 최신 API로 이동해야 합니다.
 
 * 설정에서 **HTTP v1** Android 푸시 알림용 API라면 이미 을(를) 준수하고 있으므로 추가 작업이 필요하지 않습니다.
 
-### 마이그레이션 방법 {#fcm-migration-procedure}
+### 업데이트 방법 {#fcm-transition-procedure}
 
-#### 필수 구성 요소 {#fcm-migration-prerequisites}
+#### 필수 구성 요소 {#fcm-transition-prerequisites}
 
-* Campaign Classic v7의 경우 20.3.1 릴리스에서 HTTP v1에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 HTTP v1로 마이그레이션하기 위한 필수 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Campaign v8의 경우 HTTP v1은 모든 릴리스에서 지원되며 업그레이드할 필요가 없습니다.
+* Campaign Classic v7의 경우 20.3.1 릴리스에서 HTTP v1에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 HTTP v1로 전환하기 위한 전제 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Campaign v8의 경우 HTTP v1은 모든 릴리스에서 지원되며 업그레이드할 필요가 없습니다.
 
 * 모바일 애플리케이션을 HTTP v1로 이동하려면 Android Firebase 관리 SDK 서비스의 계정 JSON 파일이 필요합니다. 에서 이 파일을 가져오는 방법 알아보기 [Google Firebase 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* 하이브리드, 호스팅 및 Managed Services 배포의 경우 아래 마이그레이션 절차 외에도 Adobe에 문의하여 실시간(RT) 실행 서버를 업데이트합니다. 중간 소싱 서버는 영향을 받지 않습니다.
+* 하이브리드, 호스팅 및 Managed Services 배포의 경우 아래 전환 절차 외에도 Adobe에 문의하여 실시간(RT) 실행 서버를 업데이트합니다. 중간 소싱 서버는 영향을 받지 않습니다.
 
 * Campaign Classic v7 온-프레미스 사용자는 마케팅 및 실시간 실행 서버를 모두 업그레이드해야 합니다. 중간 소싱 서버는 영향을 받지 않습니다.
 
-#### 마이그레이션 프로시저 {#fcm-migration-steps}
+#### 전환 절차 {#fcm-transition-steps}
 
-환경을 HTTP v1로 마이그레이션하려면 다음 단계를 따르십시오.
+환경을 HTTP v1로 이동하려면 다음 단계를 수행합니다.
 
 1. 내 목록 찾아보기 **서비스 및 구독**.
 1. 다음을 사용하여 모든 모바일 애플리케이션 나열 **HTTP(기존)** API 버전.
@@ -129,7 +129,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 토큰 기반 연결과 인�
 
 ### 영향을 받습니까? {#ios-impact}
 
-현재 구현이 APNs에 연결하기 위해 인증서 기반 요청을 사용하는 경우 영향을 받습니다. 토큰 기반 연결로 마이그레이션하는 것이 좋습니다.
+현재 구현이 APNs에 연결하기 위해 인증서 기반 요청을 사용하는 경우 영향을 받습니다. 토큰 기반 연결로 전환하는 것이 좋습니다.
 
 영향을 받는지 확인하려면 다음을 필터링할 수 있습니다. **서비스 및 구독** 아래 필터에 따라:
 
@@ -140,21 +140,21 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 토큰 기반 연결과 인�
 
 * 설정에서 **토큰 기반 인증** iOS 푸시 알림에 대한 모드에서는 구현이 이미 최신 상태이며 추가 작업이 필요하지 않습니다.
 
-### 마이그레이션 방법 {#ios-migration-procedure}
+### 업데이트 방법 {#ios-transition-procedure}
 
-#### 필수 구성 요소 {#ios-migration-prerequisites}
+#### 필수 구성 요소 {#ios-transition-prerequisites}
 
 * Campaign Classic v7의 경우 **토큰 기반 인증** 모드는 20.2 릴리스에 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 전제 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Campaign v8의 경우 **토큰 기반 인증** 모드는 모든 릴리스에서 지원되며 업그레이드가 필요하지 않습니다.
 
 * 서버에서 사용하는 토큰을 생성하려면 APNs 인증 토큰 서명 키가 필요합니다. 에 설명된 대로 Apple 개발자 계정에서 이 키를 요청합니다. [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
-* 하이브리드, 호스팅 및 Managed Services 배포의 경우 아래 마이그레이션 절차 외에도 Adobe에 문의하여 실시간(RT) 실행 서버를 업데이트합니다. 중간 소싱 서버는 영향을 받지 않습니다.
+* 하이브리드, 호스팅 및 Managed Services 배포의 경우 아래 전환 절차 외에도 Adobe에 문의하여 실시간(RT) 실행 서버를 업데이트합니다. 중간 소싱 서버는 영향을 받지 않습니다.
 
 * Campaign Classic v7 온-프레미스 사용자는 마케팅 및 실시간 실행 서버를 모두 업그레이드해야 합니다. 중간 소싱 서버는 영향을 받지 않습니다.
 
-#### 마이그레이션 프로시저 {#ios-migration-steps}
+#### 전환 절차 {#ios-transition-steps}
 
-iOS 모바일 애플리케이션을 토큰 기반 인증 모드로 마이그레이션하려면 다음 단계를 따르십시오.
+iOS 모바일 애플리케이션을 토큰 기반 인증 모드로 이동하려면 다음 단계를 따르십시오.
 
 1. 내 목록 찾아보기 **서비스 및 구독**.
 1. 다음을 사용하여 모든 모바일 애플리케이션 나열 **인증서 기반 인증** 모드.
