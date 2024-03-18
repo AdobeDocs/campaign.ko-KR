@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 55324243c70f2bbdace4acac233d1dd470562414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 Adobe Campaign v8은 엔터프라이즈 규모의 크로스 채널 캠페인을 위한 업계 최고의 클라우드 솔루션을 필요로 하는 크로스 채널 마케터를 위해 설계되었습니다. 완벽한 캠페인을 제작 및 큐레이션하는 데 도움이 되는 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정을 핵심으로 집중하는 풍부한 멀티 터치 마케팅 프로그램을 제공합니다. 또한 마케팅 팀이 암호 재설정, 주문 확인, 전자 수신 등의 작업에 대해 모든 것을 포함하는 페이로드를 기반으로 사전 정의된 메시지를 모든 IT 시스템에서 전송할 수 있도록 지원하는 확장 가능한 실시간 메시징 서버와 나란히 제공됩니다.
 
-Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상당히 개선되었습니다. 로 사용할 수 있습니다. **관리 Cloud Service** 서비스를 사전 예방적 감독 및 적시 교체와 결합합니다. Campaign 관리 Cloud Service에 대해 자세히 알아보기 [이 섹션에서](#acms-desc).
+Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상당히 개선되었습니다. 서비스와 사전 감독 및 시기적절한 변경을 결합한 **관리 클라우드 서비스**&#x200B;로 제공됩니다. [이 섹션에서](#acms-desc) Campaign Managed Cloud Services에 대해 자세히 알아보십시오.
 
 ![](assets/home-page.png)
 
@@ -55,7 +55,7 @@ Adobe Campaign v8은 마케터에게 채널 전체의 캠페인을 계획, 시�
 ![](../assets/do-not-localize/glass.png) [캠페인 통합에 대해 자세히 알아보기](campaigns.md)
 
 
-### Adobe Experience Platform 연결 {#connection-to-aep}
+### Adobe Experience Platform에 대한 연결 {#connection-to-aep}
 
 Adobe Campaign v8은 실시간 CDP와 Adobe Experience Platform과 함께 데이터 커넥터를 지원하므로 조직에서 실시간 통합 고객 프로필을 활용할 수 있습니다.
 
@@ -68,13 +68,13 @@ Adobe Campaign v8은 실시간 CDP와 Adobe Experience Platform과 함께 데이
 
 ### 관리 클라우드 서비스 {#acms-desc}
 
-Adobe Campaign v8은 관리 Cloud Service으로 제공되며, 사전 예방적 감독, 신속한 경고 및 서비스 거버넌스를 제공합니다. Adobe 관리 클라우드 서비스는 마케터에게 민첩하고 안전하며 확장 가능하고 TCO가 낮은 크로스 채널 캠페인 관리 솔루션을 제공합니다. 이 새로운 기능은 서비스를 사전 예방적 감독 및 적시 경고 기능과 결합합니다.
+Adobe Campaign v8은 관리 클라우드 서비스로 제공되며, 사전 예방적인 감독, 적시 경고, 서비스 거버넌스를 제공합니다. Adobe 관리 클라우드 서비스는 마케터에게 민첩하고 안전하며 확장 가능하고 TCO가 낮은 크로스 채널 캠페인 관리 솔루션을 제공합니다. 이 새로운 기능은 서비스를 사전 예방적 감독 및 적시 경고 기능과 결합합니다.
 
-관리 서비스 접근 방식을 통해 마케터는 내부 IT 리소스의 과도한 지원 없이 클라우드 인프라의 운영 규모 및 경제성을 활용할 수 있습니다. Adobe 컨설팅 및 구현 팀은 고객과 협력하여 마케팅 계획, 기존 사례, 데이터 요구 사항 및 메시징 볼륨을 평가한 다음 가장 적합한 서비스, 지원 및 전달성 패키지를 권장합니다. 그런 다음 Adobe Campaign Managed Cloud Services 팀은 캠페인 성과, 브랜드 평판, 고객 경험 지표 등을 모니터링하고 보고할 수 있습니다.
+관리 서비스 접근 방식을 통해 마케터는 내부 IT 리소스의 과도한 지원 없이 클라우드 인프라의 운영 규모 및 경제성을 활용할 수 있습니다. Adobe Consulting 및 구현 팀은 고객과 협력하여 마케팅 계획, 기존 사례, 데이터 요구 사항 및 메시징 볼륨을 평가한 후 가장 적합한 서비스, 지원 및 전달성 패키지를 권장합니다. 그런 다음 Adobe Campaign Managed Cloud Services 팀은 캠페인 성과, 브랜드 평판, 고객 경험 지표 등을 모니터링하고 보고할 수 있습니다.
 
-[!BADGE PDF]{type=Informative}[이 백서 읽기](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} Adobe Campaign Managed Cloud Services의 비즈니스 가치에 대해 자세히 알아보십시오.
+[!BADGE PDF]{type=Informative}Adobe Campaign Managed Cloud Services의 비즈니스 가치에 대해 자세히 알아보려면 [이 백서 읽어보십시오](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"}.
 
-새로운 클라우드 아키텍처를 통해 Campaign은 프로세스를 간소화하고, 비용을 절감하고, 위험을 관리하고, 데이터 보안을 개선할 수 있습니다. Campaign v8 환경에는 사전 구성된 전용 Virtual Private Cloud(VPC)가 포함되어 있습니다.
+Campaign은 새로운 클라우드 아키텍처를 통해 프로세스를 간소화하고, 비용을 절감하며, 위험을 관리하고, 데이터 보안을 개선할 수 있습니다. Campaign v8 환경에는 사전 구성된 전용 VPC(Virtual Private Cloud)가 포함되어 있습니다.
 
 
 >[!AVAILABILITY]
@@ -88,7 +88,7 @@ Adobe Campaign v8은 관리 Cloud Service으로 제공되며, 사전 예방적 �
 
 Adobe Campaign은 이제 클라우드 규모 데이터베이스 기술을 활용하여 규모와 속도를 획기적으로 개선할 수 있습니다.
 
-[Campaign v8 Enterprise](../architecture/enterprise-deployment.md)는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8은 이 새로운 기능을 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 표를 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. [!DNL Snowflake] 는 Campaign 클라우드 데이터베이스로 시스템 활동이 정점에 달해도 과부하가 걸리지 않는 속도와 지구력을 제공합니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
+[Campaign v8 Enterprise](../architecture/enterprise-deployment.md)는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8은 이 새로운 기능을 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 표를 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. [!DNL Snowflake]는 Campaign 클라우드 데이터베이스로, 시스템 활동이 최고조에 달해도 과부하가 걸리지 않는 속도와 내구성을 제공합니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
 
 ![](../assets/do-not-localize/glass.png) [엔터프라이즈(FDA) 배포에 대해 자세히 알아보기](../architecture/enterprise-deployment.md)
 
@@ -105,6 +105,6 @@ Adobe Campaign은 이제 클라우드 규모 데이터베이스 기술을 활용
 
 ![](assets/subdomain1.png)
 
-![](../assets/do-not-localize/glass.png) [Campaign Campaign 컨트롤 패널에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
+![](../assets/do-not-localize/glass.png) [Campaign 컨트롤 패널에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
 
 
