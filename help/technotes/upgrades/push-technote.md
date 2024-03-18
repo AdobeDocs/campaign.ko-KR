@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에도 적용됩니다."
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에 적용"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a494ac834b1febcafe04f4bb05eb74834df7b024
+source-git-commit: a280e560a6e84f5afa214daaded9ac5331018d7c
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1357'
 ht-degree: 1%
 
 ---
@@ -136,7 +136,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 토큰 기반 연결과 인�
 ![](assets/filter-services-ios.png)
 
 
-* 활성 푸시 알림 서비스에서 **인증서 기반 인증** 모드: 현재 구현을 검토하고 로 이동해야 합니다. **토큰 기반 인증** 아래에 설명된 대로 설정합니다.
+* 활성 푸시 알림 서비스에서 **인증서 기반 인증** 모드(.p12), 현재 구현을 검토하고 **토큰 기반 인증** 아래에 설명된 대로 모드(.p8)를 설정합니다.
 
 * 설정에서 **토큰 기반 인증** iOS 푸시 알림에 대한 모드에서는 구현이 이미 최신 상태이며 추가 작업이 필요하지 않습니다.
 
@@ -157,9 +157,9 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 토큰 기반 연결과 인�
 iOS 모바일 애플리케이션을 토큰 기반 인증 모드로 이동하려면 다음 단계를 따르십시오.
 
 1. 내 목록 찾아보기 **서비스 및 구독**.
-1. 다음을 사용하여 모든 모바일 애플리케이션 나열 **인증서 기반 인증** 모드.
+1. 다음을 사용하여 모든 모바일 애플리케이션 나열 **인증서 기반 인증** 모드(.p12).
 1. 이러한 각 모바일 애플리케이션을 편집하고 **인증서/개인 키** 탭.
-1. 다음에서 **인증 모드** 드롭다운, 선택 **토큰 기반 인증**.
+1. 다음에서 **인증 모드** 드롭다운, 선택 **토큰 기반 인증** 모드(.p8).
 1. APNs 연결 설정을 입력하십시오. **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** 및 **[!UICONTROL Bundle Id]** 그런 다음 를 클릭하여 p8 인증서를 선택합니다. **[!UICONTROL Enter the private key...]**.
 
    ![](assets/token-based-certif.png)
