@@ -6,10 +6,10 @@ feature: Push
 role: Admin, Developer
 level: Intermediate
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
+source-git-commit: 550e3cbd064ae7831855377f1d08d6acecd55c9e
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 2%
+source-wordcount: '1664'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Campaign을 사용하여 푸시 알림을 전송하려면 먼저 이 페�
 
 >[!CAUTION]
 >
->Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 이미 확인하고 조치를 취할 수 있습니다. [자세히 알아보기](../../technotes/upgrades/push-technote.md)
+>Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 미칠 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 이미 확인하고 조치를 취할 수 있습니다. [자세히 알아보기](../../technotes/upgrades/push-technote.md)
 
 Adobe Campaign을 사용하여 푸시 알림 전송을 시작하기 전에 모바일 앱과 Adobe Experience Platform의 태그에 대한 구성 및 통합이 제대로 되어 있는지 확인해야 합니다. Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다.
 
@@ -213,9 +213,7 @@ iOS 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
    * (권장) **[!UICONTROL Token-based authentication]**: APNs 연결 설정을 입력합니다 **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** 및 **[!UICONTROL Bundle Id]** 그런 다음 를 클릭하여 p8 인증서를 선택합니다. **[!UICONTROL Enter the private key...]**. 에 대한 자세한 내용 **[!UICONTROL Token-based authentication]**, 참조 [Apple 설명서](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
 
-   * **[!UICONTROL Certificate-based authentication]**: 클릭 **[!UICONTROL Enter the certificate...]**  그런 다음 p12 키를 선택하고 모바일 애플리케이션 개발자가 제공한 암호를 입력합니다.
-
-   인증 모드는 나중에 **[!UICONTROL Certificate]** 모바일 애플리케이션의 탭입니다.
+   * **[!UICONTROL Certificate-based authentication]**: 클릭 **[!UICONTROL Enter the certificate...]**  그런 다음 p12 키를 선택하고 모바일 애플리케이션 개발자가 제공한 암호를 입력합니다. 이 인증서는 만료 날짜가 포함되어 있으며 매년 갱신해야 합니다. 사용자의 서비스가 중단되지 않도록 하려면 인증서가 만료되기 전에 인증서를 업데이트하십시오. 인증서는 1년 동안 유효하며 APNs와 계속 통신하려면 인증서를 업데이트해야 합니다.
 
 1. 사용 **[!UICONTROL Test the connection]** 단추를 클릭하여 구성을 확인합니다.
 

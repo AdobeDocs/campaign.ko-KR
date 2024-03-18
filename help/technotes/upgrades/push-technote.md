@@ -8,24 +8,30 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에도 적용됩니다."
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에 적용"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
+source-git-commit: 550e3cbd064ae7831855377f1d08d6acecd55c9e
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 3%
+source-wordcount: '1353'
+ht-degree: 2%
 
 ---
 
 # 푸시 알림 채널 변경 예정 사항 {#push-upgrade}
 
-Campaign을 사용하여 Android 디바이스에서 푸시 알림을 전송할 수 있습니다. 이를 수행하기 위해 Campaign은 특정 구독 서비스를 사용합니다. Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다.
+Campaign을 사용하여 iOs 및 Android 디바이스에서 푸시 알림을 전송할 수 있습니다. 이를 위해 Campaign은 모바일 애플리케이션 구독 서비스를 사용합니다.
 
-## 변경 사항 {#fcm-changes}
+Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스되며, Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다.
+
+또한 Adobe은 보다 안전하고 확장 가능한 인증 기반 연결보다 토큰 기반 연결을 APNs로 이동하는 것이 좋습니다.
+
+## Google Android FCM(Firebase Cloud Messaging) 서비스 {#fcm-push-upgrade}
+
+### 변경 사항 {#fcm-changes}
 
 서비스 개선을 위한 Google의 지속적인 노력의 일환으로 레거시 FCM API는에서 중단됩니다. **2024년 6월 20일**. 에서 Firebase Cloud Messaging HTTP 프로토콜에 대해 자세히 알아보기 [Google Firebase 설명서](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
 Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시지를 보내기 위해 최신 API를 지원합니다. 그러나 일부 이전 구현은 여전히 이전 API에 의존합니다. 이러한 구현을 업데이트해야 합니다.
 
-## 영향을 받습니까? {#fcm-impact}
+### 영향을 받습니까? {#fcm-impact}
 
 현재 구현이 기존 API를 사용하여 FCM에 연결하는 구독 서비스를 지원하는 경우 영향을 받습니다. 서비스가 중단되지 않도록 하려면 최신 API로 마이그레이션해야 합니다. 이 경우 Adobe 팀이 연락을 드릴 것입니다.
 
@@ -38,9 +44,9 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 
 * 설정에서 **HTTP v1** Android 푸시 알림용 API라면 이미 을(를) 준수하고 있으므로 추가 작업이 필요하지 않습니다.
 
-## 마이그레이션 방법 {#fcm-migration-procedure}
+### 마이그레이션 방법 {#fcm-migration-procedure}
 
-### 필수 구성 요소 {#fcm-migration-prerequisites}
+#### 필수 구성 요소 {#fcm-migration-prerequisites}
 
 * Campaign Classic v7의 경우 20.3.1 릴리스에서 HTTP v1에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 HTTP v1로 마이그레이션하기 위한 필수 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Campaign v8의 경우 HTTP v1은 모든 릴리스에서 지원되며 업그레이드할 필요가 없습니다.
 
@@ -50,7 +56,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 
 * Campaign Classic v7 온-프레미스 사용자는 마케팅 및 실시간 실행 서버를 모두 업그레이드해야 합니다. 중간 소싱 서버는 영향을 받지 않습니다.
 
-### 마이그레이션 프로시저 {#fcm-migration-steps}
+#### 마이그레이션 프로시저 {#fcm-migration-steps}
 
 환경을 HTTP v1로 마이그레이션하려면 다음 단계를 따르십시오.
 
@@ -101,3 +107,65 @@ Android 모바일 애플리케이션의 코드에는 특정 변경 사항이 필
 * 설정 **[!UICONTROL Visibility]** 공개, 비공개 또는 비밀에 대한 알림 수준.
 
 자세한 내용은 **[!UICONTROL HTTP v1 additional options]** 이러한 필드를 채우는 방법은 다음을 참조하십시오. [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
+
+
+
+
+## Apple iOS APNs(푸시 알림 서비스) {#apns-push-upgrade}
+
+### 변경 사항 {#ios-changes}
+
+Apple에서 권장하는 대로 상태 비저장 인증 토큰을 사용하여 APNs(Apple 푸시 알림 서비스)와의 통신을 보호해야 합니다.
+
+토큰 기반 인증은 APNs와 통신하는 상태 비저장 방법을 제공합니다. 상태 비저장 통신은 APNs가 공급자 서버와 관련된 인증서 또는 기타 정보를 조회할 필요가 없기 때문에 인증서 기반 통신보다 빠릅니다. 토큰 기반 인증을 사용하면 다음과 같은 다른 이점이 있습니다.
+
+* 여러 공급자 서버에서 동일한 토큰을 사용할 수 있습니다.
+
+* 하나의 토큰을 사용하여 회사의 모든 앱에 대한 알림을 배포할 수 있습니다.
+
+에서 APNs에 대한 토큰 기반 연결에 대해 자세히 알아보십시오. [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+
+Adobe Campaign Classic v7 및 Adobe Campaign v8은 토큰 기반 연결과 인증서 기반 연결을 모두 지원합니다. 구현이 인증서 기반 연결을 사용하는 경우 Adobe은 토큰 기반 연결로 업데이트할 것을 강력히 권장합니다.
+
+### 영향을 받습니까? {#ios-impact}
+
+현재 구현이 APNs에 연결하기 위해 인증서 기반 요청을 사용하는 경우 영향을 받습니다. 토큰 기반 연결로 마이그레이션하는 것이 좋습니다.
+
+영향을 받는지 확인하려면 다음을 필터링할 수 있습니다. **서비스 및 구독** 아래 필터에 따라:
+
+![](assets/filter-services-ios.png)
+
+
+* 활성 푸시 알림 서비스에서 **인증서 기반 인증** 모드: 현재 구현을 검토하고 로 이동해야 합니다. **토큰 기반 인증** 아래에 설명된 대로 설정합니다.
+
+* 설정에서 **토큰 기반 인증** iOS 푸시 알림에 대한 모드에서는 구현이 이미 최신 상태이며 추가 작업이 필요하지 않습니다.
+
+### 마이그레이션 방법 {#ios-migration-procedure}
+
+#### 필수 구성 요소 {#ios-migration-prerequisites}
+
+* Campaign Classic v7의 경우 **토큰 기반 인증** 모드는 20.2 릴리스에 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 전제 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Campaign v8의 경우 **토큰 기반 인증** 모드는 모든 릴리스에서 지원되며 업그레이드가 필요하지 않습니다.
+
+* 서버에서 사용하는 토큰을 생성하려면 APNs 인증 토큰 서명 키가 필요합니다. 에 설명된 대로 Apple 개발자 계정에서 이 키를 요청합니다. [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+
+* 하이브리드, 호스팅 및 Managed Services 배포의 경우 아래 마이그레이션 절차 외에도 Adobe에 문의하여 실시간(RT) 실행 서버를 업데이트합니다. 중간 소싱 서버는 영향을 받지 않습니다.
+
+* Campaign Classic v7 온-프레미스 사용자는 마케팅 및 실시간 실행 서버를 모두 업그레이드해야 합니다. 중간 소싱 서버는 영향을 받지 않습니다.
+
+#### 마이그레이션 프로시저 {#ios-migration-steps}
+
+iOS 모바일 애플리케이션을 토큰 기반 인증 모드로 마이그레이션하려면 다음 단계를 따르십시오.
+
+1. 내 목록 찾아보기 **서비스 및 구독**.
+1. 다음을 사용하여 모든 모바일 애플리케이션 나열 **인증서 기반 인증** 모드.
+1. 이러한 각 모바일 애플리케이션을 편집하고 **인증서/개인 키** 탭.
+1. 다음에서 **인증 모드** 드롭다운, 선택 **토큰 기반 인증**.
+1. APNs 연결 설정을 입력하십시오. **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** 및 **[!UICONTROL Bundle Id]** 그런 다음 를 클릭하여 p8 인증서를 선택합니다. **[!UICONTROL Enter the private key...]**.
+
+   ![](assets/token-based-certif.png)
+
+1. 클릭 **[!UICONTROL Test the connection]** 구성이 올바르고 서버에서 APNs에 액세스할 수 있는지 확인합니다. 중간 소싱 배포의 경우 **[!UICONTROL Test connection]** 서버에서 APNs에 액세스할 수 있는지 확인할 수 없습니다.
+1. 클릭 **[!UICONTROL Next]** 프로덕션 애플리케이션 구성을 시작하고 위에 설명된 것과 동일한 단계를 수행합니다.
+1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+이제 iOS 애플리케이션이 토큰 기반 인증 모드로 이동되었습니다.
