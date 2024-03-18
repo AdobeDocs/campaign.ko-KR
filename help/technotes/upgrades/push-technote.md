@@ -8,14 +8,14 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에도 적용됩니다."
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에 적용"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 550e3cbd064ae7831855377f1d08d6acecd55c9e
+source-git-commit: c81744fdf4a4fc47820c077f69288a0ea66fa5e4
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 2%
+source-wordcount: '1352'
+ht-degree: 1%
 
 ---
 
-# 푸시 알림 채널 변경 예정 사항 {#push-upgrade}
+# 푸시 알림 채널 변경 사항 {#push-upgrade}
 
 Campaign을 사용하여 iOs 및 Android 디바이스에서 푸시 알림을 전송할 수 있습니다. 이를 위해 Campaign은 모바일 애플리케이션 구독 서비스를 사용합니다.
 
