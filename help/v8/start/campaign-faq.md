@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 193d2459d5a4ba55822c20a7e376d18b3c6d8795
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 82%
+source-wordcount: '706'
+ht-degree: 73%
 
 ---
 
@@ -30,9 +30,14 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    ![](../assets/do-not-localize/glass.png) [여기를 클릭하여 자세한 내용을 확인](connect.md)하세요.
 
+   Campaign v8.6 릴리스부터는 새로운 기능에 대한 액세스 권한이 제공됩니다 **Campaign 웹 사용자 인터페이스**, 중앙 Adobe Experience Cloud 환경을 통해 사용할 수 있습니다. Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능 및 서비스에 빠르게 액세스할 수 있습니다.
+
+   [이 페이지에서](campaign-ui.md#ac-web-ui) Adobe Experience Cloud에 연결하여 Adobe Campaign Web 인터페이스에 액세스하는 방법을 알아보십시오.
+
+   다음에서 자세히 알아보기 [Adobe Campaign 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 1. **Campaign v8을 온-프레미스 또는 하이브리드 환경에 설치할 수 있나요?**
 
-   현재 Campaign v8은 Adobe가 완전히 호스팅하는 관리 클라우드 서비스에서만 사용할 수 있습니다.
+   Campaign v8은 Adobe이 완전히 호스팅하는 관리 Cloud Service에서만 사용할 수 있습니다.
 
 1. **이메일의 전달성을 높이는 방법은 무엇인가요?**
 
@@ -60,11 +65,15 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    하위 도메인은 브랜드나 다양한 트래픽 유형(트랜잭션 메시지, 마케팅 정보 등)을 분리하는 데 사용할 수 있는 도메인의 개별 부분입니다.
 
-   ![](../assets/do-not-localize/speech.png)  Managed Cloud Services 사용자는 Adobe에 문의하여 하위 도메인을 Adobe에 위임할 수 있습니다.
+   ![](../assets/do-not-localize/speech.png) 관리 Cloud Service 사용자는 Adobe에게 문의하여 하위 도메인을 Adobe에 위임할 수 있습니다.
 
 1. **Campaign Classic v7 사용자는 Campaign v8로 마이그레이션할 수 있나요?**
 
-   현재 Campaign v8은 새로운 구현에만 사용할 수 있습니다.
+   기존 Campaign Classic v7 환경에서의 자동 마이그레이션은 아직 불가능합니다.
+
+   Campaign v8은 현재 **관리 클라우드 서비스로만 사용할 수 있으며** 온-프레미스 또는 하이브리드 환경에 배포할 수 없습니다.
+
+   ![](../assets/do-not-localize/speech.png) 마이그레이션 프로세스에 대한 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 1. **Campaign을 다운로드하는 방법은 무엇인가요?**
 
