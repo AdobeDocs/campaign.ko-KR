@@ -5,10 +5,10 @@ feature: Configuration, Application Settings
 role: Developer
 level: Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 8%
+source-wordcount: '451'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 8%
 
 Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 
-* 애플리케이션 내의 데이터 개체가 기본 데이터베이스 테이블에 연결되어 있는 방식을 정의합니다
-* Campaign 애플리케이션 내에서 서로 다른 데이터 개체 간의 링크를 정의합니다
-* 각 개체에 포함된 개별 필드를 정의하고 설명합니다
+* 응용 프로그램 내의 데이터 개체가 기본 데이터베이스 테이블에 연결되는 방식을 정의합니다.
+* Campaign 애플리케이션 내에서 서로 다른 데이터 개체 간의 링크를 정의합니다.
+* 각 개체에 포함된 개별 필드 정의 및 설명
 
 예를 들어 수신자 테이블(nms:recipient)과 같은 기존 테이블에 필드를 추가하려면 해당 스키마를 확장해야 합니다.
 
@@ -44,9 +44,9 @@ Adobe Campaign에 즉시 존재하지 않는 완전히 새로운 유형의 데�
 
 **관련 항목**
 
-![](../assets/do-not-localize/book.png) 의 스키마 에디션 예 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
+의 스키마 에디션 예 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
 
-![](../assets/do-not-localize/book.png) 사용 사례:에서 기존 참조 테이블에 필드 연결 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
+사용 사례:에서 기존 참조 테이블에 필드 연결 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
 
 
 ## 입력 양식 수정

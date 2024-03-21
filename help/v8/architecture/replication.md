@@ -5,10 +5,10 @@ feature: Workflows, FFDA
 role: Developer
 level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: f807963a7640773ac18d49999b561f2f3b894d7f
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 4%
+source-wordcount: '365'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 이러한 워크플로우는 데이터베이스에서 유지 관리 작업을 수행하고, 게재 로그의 추적 정보를 활용하고, 반복 캠페인을 만드는 등의 작업을 수행합니다.
 
-![](../assets/do-not-localize/glass.png) 기술 워크플로우의 전체 목록은에 자세히 설명되어 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html).
+기술 워크플로우의 전체 목록은에 자세히 설명되어 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html).
 
 이러한 기술 워크플로우 외에도 Campaign v8은 특정 기술 워크플로우를 통해 관리합니다 [데이터 복제](#data-replication).
 

@@ -5,7 +5,7 @@ feature: Schema Extension, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Campaign 데이터 모델을 사용자 지정하는 주요 단계는 다음과 �
 >[!CAUTION]
 >기본 제공 스키마는 직접 수정할 수 없습니다. 기본 제공 스키마를 조정해야 하는 경우 확장해야 합니다.
 
-![](../assets/do-not-localize/glass.png) Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 을(를) 참조하십시오. [이 페이지](datamodel.md). 에서 새 스키마를 생성할 때 권장 사항 을 참조하십시오. [이 페이지](create-schema.md).
+Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 을(를) 참조하십시오. [이 페이지](datamodel.md). 에서 새 스키마를 생성할 때 권장 사항 을 참조하십시오. [이 페이지](create-schema.md).
 
 스키마를 확장하려면 아래 단계를 수행합니다.
 

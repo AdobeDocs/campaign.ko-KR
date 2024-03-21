@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 86fa52c445b89227cfabb65e74627c5da7d3db1f
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 10%
@@ -26,7 +26,7 @@ Campaign은 각 인스턴스가 전체 Campaign 환경을 나타내는 개별 �
 
 한 환경에서 다른 환경으로 패키지를 내보내고 가져올 수 있습니다.
 
-![](../assets/do-not-localize/book.png) 의 패키지에 대해 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
+의 패키지에 대해 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
 ## 배포 모델 {#ac-deployment}
 
@@ -100,7 +100,7 @@ Campaign v8 패키지에 따라 게재 실행을 담당하는 특정 수의 중�
 
 트랜잭션 메시지(메시지 센터)는 트리거 메시지를 관리하기 위해 고안된 캠페인 모듈입니다.
 
-![](../assets/do-not-localize/glass.png) 트랜잭션 메시지를 보내는 방법 알아보기 [이 섹션](../send/transactional.md).
+트랜잭션 메시지를 보내는 방법 알아보기 [이 섹션](../send/transactional.md).
 
 웹 사이트에서의 고객 동작에 대한 응답으로, 이벤트는 REST API를 통해 Campaign으로 전송되고, 메시지 템플릿은 API 호출을 통해 제공된 정보 또는 데이터로 채워지고, 트랜잭션 메시지는 실시간으로 고객에게 전송됩니다. 이러한 메시지는 이메일, SMS 또는 푸시 알림을 통해 개별적으로 또는 일괄적으로 전송할 수 있습니다.
 
@@ -108,7 +108,7 @@ Campaign v8 패키지에 따라 게재 실행을 담당하는 특정 수의 중�
 
 * 다음 **컨트롤 인스턴스** (또는 마케팅 인스턴스)는 마케터와 IT 팀이 메시지 템플릿을 만들고 구성하고 게시하는 데 사용됩니다. 또한 이 인스턴스는 이벤트 모니터링 및 내역을 중앙 집중화합니다.
 
-  ![](../assets/do-not-localize/glass.png) 에서 메시지 템플릿을 만들고 게시하는 방법에 대해 알아봅니다. [이 섹션](../send/transactional.md).
+  에서 메시지 템플릿을 만들고 게시하는 방법에 대해 알아봅니다. [이 섹션](../send/transactional.md).
 
 * 다음 **실행 인스턴스** 들어오는 이벤트(예: 암호 재설정 또는 웹 사이트의 주문)를 검색하고 개인화된 메시지를 전송합니다. 로드 밸런서를 통해 메시지를 처리하고 최대 가용성을 위해 처리할 이벤트 수를 확장하기 위한 실행 인스턴스가 두 개 이상 있을 수 있습니다.
 

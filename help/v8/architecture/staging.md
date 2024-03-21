@@ -5,7 +5,7 @@ feature: Configuration, API, FFDA
 role: Developer
 level: Intermediate
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Campaign Classic v7 API는 계속 사용할 수 있지만 이 새로운 스테�
    </srcSchema>
    ```
 
-   ![](../assets/do-not-localize/glass.png) 에서 사용자 정의 스키마 만들기에 대해 자세히 알아보기 [이 페이지](../dev/create-schema.md).
+   에서 사용자 정의 스키마 만들기에 대해 자세히 알아보기 [이 페이지](../dev/create-schema.md).
 
 1. 데이터베이스 구조를 저장하고 업데이트합니다.  [자세히 알아보기](../dev/update-database-structure.md)
 

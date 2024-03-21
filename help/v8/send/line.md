@@ -5,18 +5,18 @@ feature: Line App
 role: Data Engineer
 level: Beginner
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
-source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 16%
+source-wordcount: '70'
+ht-degree: 30%
 
 ---
 
 # LINE 게재 만들기
 
-LINE은 무료 인스턴트 메시징, 음성 및 화상 통화를 위한 응용 프로그램으로 모든 모바일 장치와 PC에서 사용할 수 있습니다. Adobe Campaign을 사용하면 LINE 메시지를 보낼 수 있습니다.
+LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 인스턴트 메시지, 음성 및 영상 통화용 애플리케이션입니다. Adobe Campaign을 사용하면 LINE 메시지를 보낼 수 있습니다.
 
 
-![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ko){target="_blank"}.
+다음에서 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ko){target="_blank"}.
 
-![](../assets/do-not-localize/book.png) 다음을 참조하십시오. [엔드투엔드 샘플](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message){target="_blank"} 첫 번째 LINE 게재를 만들고 전송하기 위한 v7 Campaign Classic 설명서에서 확인할 수 있습니다.
+다음을 참조하십시오. [엔드투엔드 샘플](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message){target="_blank"} 첫 번째 LINE 게재를 만들고 전송하기 위한 v7 Campaign Classic 설명서에서 확인할 수 있습니다.

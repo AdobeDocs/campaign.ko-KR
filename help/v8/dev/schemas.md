@@ -1,13 +1,13 @@
 ---
 title: Campaign 스키마 작업
-description: 스키마 시작
+description: 스키마 시작하기
 feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1250'
 ht-degree: 5%
 
 ---
@@ -100,11 +100,11 @@ Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 
 
 수신자 테이블(nms:recipient)과 같이, Campaign의 핵심 데이터 스키마 중 하나에 필드나 다른 요소를 추가하려면 해당 스키마를 확장해야 합니다.
 
-![](../assets/do-not-localize/glass.png) 자세한 내용은 다음을 참조하십시오. [스키마 확장](extend-schema.md).
+자세한 내용은 다음을 참조하십시오. [스키마 확장](extend-schema.md).
 
 Adobe Campaign에 존재하지 않는 완전히 새로운 유형의 데이터(예: 계약 테이블)를 추가하려면 사용자 지정 스키마를 직접 만들 수 있습니다.
 
-![](../assets/do-not-localize/glass.png) 자세한 내용은 다음을 참조하십시오. [새 스키마 만들기](create-schema.md).
+자세한 내용은 다음을 참조하십시오. [새 스키마 만들기](create-schema.md).
 
 ![](assets/schemaextension_1.png)
 
@@ -115,7 +115,7 @@ Adobe Campaign에 존재하지 않는 완전히 새로운 유형의 데이터(�
 
 먼저 스키마의 주 요소 앞에 열거형을 정의합니다. 값을 목록에 표시하여 주어진 필드에 대해 사용자가 선택할 수 있는 사항을 제한할 수 있습니다.
 
-예제:
+예:
 
 ```
 <enumeration basetype="byte" name="exTransactionTypeEnum" default="store">
@@ -176,7 +176,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 기본 키는 다음을 사용하여 정의할 수도 있습니다. **내부** 특성.
 
-예제:
+예:
 
 ```
 <key name="householdId" internal="true">
@@ -190,7 +190,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 >
 >새 스키마를 생성하거나 스키마 확장 중에 전체 스키마에 대해 동일한 기본 키 시퀀스 값(@pkSequence)을 유지해야 합니다.
 
-![](../assets/do-not-localize/glass.png) 의 키에 대해 자세히 알아보기 [이 섹션](database-mapping.md#management-of-keys).
+의 키에 대해 자세히 알아보기 [이 섹션](database-mapping.md#management-of-keys).
 
 ## 속성(필드) {#attributes--fields-}
 
@@ -200,7 +200,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 속성의 전체 목록은 `<attribute>` 의 요소 섹션 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model). 다음은 가장 일반적으로 사용되는 속성 중 일부입니다. **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
-![](../assets/do-not-localize/book.png) 각 속성에 대한 자세한 내용은 의 속성 설명을 참조하십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic).
+각 속성에 대한 자세한 내용은 의 속성 설명을 참조하십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic).
 
 ### 예제 {#examples}
 

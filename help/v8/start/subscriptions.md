@@ -5,10 +5,10 @@ feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: b0150b38b50b04c08b10ed73b3be3064a09d7b88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 11%
+source-wordcount: '391'
+ht-degree: 13%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들고 모니터링하고 이러한 서비스에 대한 구독/구독 취소를 관리할 수 있습니다. 예를 들어 특정 제품 카테고리, 테마 또는 웹 사이트 영역에 대한 전문가 뉴스레터, 다양한 유형의 경고 메시지 구독 및 실시간 알림과 같은 여러 서비스를 동시에 정의할 수 있습니다.
 
-![](../assets/do-not-localize/book.png) 정보 서비스를 만들고, 뉴스레터를 전송하고, 옵트인 및 옵트아웃을 관리하는 방법에 대해 알아봅니다 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}
+정보 서비스를 만들고, 뉴스레터를 전송하고, 옵트인 및 옵트아웃을 관리하는 방법에 대해 알아봅니다 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}
 
 프로필의 서비스 가입(옵트인)을 위해 사용할 수 있는 옵션은 다음과 같습니다.
 
@@ -24,7 +24,7 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 
   ![](assets/subscribe-to-a-service.png)
 
-  ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}
+  자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab)를 참조하세요{target="_blank"}
 
 * 수신자 집합을 서비스에 자동으로 구독합니다. 수신자 목록은 필터링 작업, 그룹, 폴더, 가져오기 또는 직접 수동 선택에서 가져올 수 있습니다. 이러한 수신자를 구독하려면 프로필을 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Actions > Subscribe selection to a service...]**&#x200B;을(를) 선택합니다.
 
@@ -34,12 +34,12 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 
   ![](assets/subscribe-confirm.png)
 
-  ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}
+  자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab)를 참조하세요{target="_blank"}
 
 
 * 수신자를 가져와 정보 서비스에 자동으로 가입합니다. 이렇게 하려면 가져오기 마법사의 마지막 단계에서 관련 서비스를 선택합니다.
 
-  ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}
+  자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients)를 참조하세요{target="_blank"}
 
 * 수신자가 서비스에 가입할 수 있도록 웹 양식을 사용하십시오.
 
@@ -49,7 +49,7 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 
   ![](assets/web-app.png)
 
-  ![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}
+  자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in)를 참조하세요{target="_blank"}
 
 
 * 타겟팅 워크플로우 만들기 및 사용 **[!UICONTROL Subscription service]** 활동.
@@ -71,7 +71,7 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 * 정보 서비스의 기간 제한을 지정하십시오. 유효 기간이 만료되면 수신자는 자동으로 구독 취소됩니다. 이 기간은 서비스 속성의 편집 탭에 지정됩니다. 일 단위로 표시됩니다.
 * 모집단에 대한 구독 취소 워크플로우를 설정합니다.
 
-![](../assets/do-not-localize/book.png) 자세한 내용은 [Campaign Classic v7 설명서를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service){target="_blank"}
+자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service)를 참조하세요{target="_blank"}
 
 
 >[!CAUTION]
@@ -81,5 +81,5 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 <!--
 You can also enable your delivery recipients to forward messages to a friend. To do this, insert the relevant links into your delivery. You may then track this sharing process as well as the number of visits to the concerned pages. 
 
-![](../assets/do-not-localize/book.png) For more on this capability, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html#viral-marketing--forward-to-a-friend){target="_blank"}
+For more on this capability, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html#viral-marketing--forward-to-a-friend){target="_blank"}
 -->

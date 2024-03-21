@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 55c177b6931ef2c427c8e9793b463274b8abb015
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 76%
@@ -37,7 +37,7 @@ Adobe Campaign 관리 클라우드 서비스는 크로스 채널 고객 경험�
 
 이전 [!DNL Campaign Classic] 사용자는 대부분의 [!DNL Campaign Classic] v7 기능을 [!DNL Campaign] v8에서도 사용할 수 있습니다(일부 예외 사항: [이 섹션](#gs-removed) 참조).
 
->새로운 클라우드 아키텍처를 통해 Campaign은 프로세스를 간소화하고, 비용을 절감하고, 위험을 관리하고, 데이터 보안을 개선할 수 있습니다. Campaign v8 환경에는 사전 구성된 전용 Virtual Private Cloud(VPC)가 포함되어 있습니다.
+>새로운 클라우드 아키텍처를 통해 Campaign은 프로세스를 간소화하고, 비용을 절감하고, 위험을 관리하고, 데이터 보안을 개선할 수 있습니다. Campaign v8 환경에는 사전 구성된 전용 VPC(Virtual Private Cloud)가 포함되어 있습니다.
 
 
 ## 하이브리드 아키텍처 {#hybrid-archi}
@@ -50,7 +50,7 @@ Campaign v8은 **하이브리드 아키텍처**. Campaign Classic v7에서 전�
 * 게재 상태가 즉시 업데이트되지 않음 - 마케팅 인스턴스에서 기술 프로세스가 실행되어 게재 상태가 적시에 업데이트됩니다.
 
 
-![](../assets/do-not-localize/glass.png) 의 v7에서 전환할 때 트랜잭션 메시지 증명 보내기에 대해 자세히 알아보기 [이 페이지](../send/transactional-template.md#transition-from-v7).
+의 v7에서 전환할 때 트랜잭션 메시지 증명 보내기에 대해 자세히 알아보기 [이 페이지](../send/transactional-template.md#transition-from-v7).
 
 
 ## [!DNL Campaign] 및 [!DNL Snowflake] {#ac-gs-snowflake}
@@ -59,14 +59,14 @@ Campaign v8은 **하이브리드 아키텍처**. Campaign Classic v7에서 전�
 
 Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8 엔터프라이즈(FFDA) 배포는 이 새로운 아키텍처를 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 표를 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
 
-![](../assets/do-not-localize/glass.png) [!DNL Campaign] v8 아키텍처에 대한 자세한 내용은 [이 페이지](../architecture/architecture.md)를 참조하세요.
+자세히 알아보기 [!DNL Campaign] 의 v8 아키텍처 [이 페이지](../architecture/architecture.md).
 
 
 ## Adobe ID를 사용하여 Campaign에 연결{#adobe-id}
 
 Campaign 사용자는 Adobe ID를 통해서만 연결합니다. 동일한 Adobe ID를 사용하여 모든 Adobe Experience Cloud 솔루션에 대해 하나의 계정과 연결된 모든 Adobe 플랜 및 제품을 유지합니다.
 
-![](../assets/do-not-localize/glass.png) [!DNL Campaign]에 연결하는 방법은 [이 페이지](connect.md)를 참조하세요.
+에 연결하는 방법 알아보기 [!DNL Campaign] 위치: [이 페이지](connect.md).
 
 ## 큐브로 데이터 분석{#adobe-reporting}
 

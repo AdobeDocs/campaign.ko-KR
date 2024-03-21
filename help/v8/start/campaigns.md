@@ -5,10 +5,10 @@ feature: Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 100%
+source-wordcount: '772'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 
 ![](assets/calendar.png)
 
-![](../assets/do-not-localize/book.png) [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)에서는 마케팅 캠페인에 액세스하고 구현하는 방법을 알아봅니다.
+에서 마케팅 캠페인에 액세스하고 구현하는 방법을 알아봅니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko).
 
 ## 주요 시작 단계{#gs-ac-start}
 
@@ -56,7 +56,7 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 
    계층 및 일정을 정의하고 예산을 설정하며 리소스를 추가하고 운영자를 선택합니다.
 
-   ![](../assets/do-not-localize/book.png) [이 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ko)에서는 마케팅 계획을 세우고 캠페인을 구성하는 방법을 알아봅니다.
+   에서 마케팅 플랜을 만들고 캠페인을 구성하는 방법을 알아봅니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ko).
 
    모든 마케팅 캠페인은 기본 설정 및 기능을 저장하는 템플릿을 기반으로 합니다. 특정 구성이 정의되지 않은 캠페인을 만들기 위해 내장 템플릿이 제공됩니다. 캠페인 템플릿을 만들고 구성한 다음 그 템플릿에서 캠페인을 만들 수 있습니다.
 
@@ -78,11 +78,11 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 
    ![](assets/campaign-dashboard.png)
 
-   ![](../assets/do-not-localize/book.png) [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ko)에서는 마케팅 캠페인 게재를 만들고 시작하는 방법을 알아봅니다.
+   에서 마케팅 캠페인 게재를 만들고 시작하는 방법 알아보기 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ko).
 
    보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인에 연결할 수 있습니다.
 
-   ![](../assets/do-not-localize/book.png) [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html?lang=ko)에서는 관련 문서에 대해 자세히 알아봅니다.
+   에서 관련 문서에 대해 자세히 알아보기 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html?lang=ko).
 
 1. **승인 프로세스 설정**
 

@@ -5,7 +5,7 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 >게재 상태는 실시간으로 표시되지 않습니다. 이메일 피드백 서비스에 대해 자세히 알아보기 [이 섹션에서](#email-feedback-service).
 
 
-![](../assets/do-not-localize/book.png) [Campaign Classic v7 설명서에서 게재 모니터링에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
+[Campaign Classic v7 설명서에서 게재 모니터링에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 ## 캠페인 MTA {#mta}
 

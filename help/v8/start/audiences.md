@@ -5,7 +5,7 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 16%
@@ -24,13 +24,13 @@ Adobe Campaign, **수신자** 게재(이메일, SMS 등)를 보낼 타겟팅된 
 
 목록은 게재 작업에서 타겟팅되거나 가져오기 또는 다른 워크플로우 작업 중에 업데이트될 수 있는 정적 연락처 집합입니다. 예를 들어 쿼리를 통해 데이터베이스에서 추출한 모집단을 목록으로 저장할 수 있습니다.
 
-![](../assets/do-not-localize/glass.png) 에서 목록을 만들고 관리하는 방법 알아보기 [이 페이지](../audiences/create-audiences.md).
+에서 목록을 만들고 관리하는 방법 알아보기 [이 페이지](../audiences/create-audiences.md).
 
 ## 데이터베이스 필터링{#filter-the-database}
 
 필터 구성을 통해 목록에서 데이터를 선택할 수 있습니다. **[!UICONTROL dynamically]**: 데이터가 수정되면 필터링된 데이터가 업데이트됩니다. 필터를 직접 만들거나 기본 제공 필터를 사용하여 타겟 대상자를 정의할 수 있습니다.
 
-![](../assets/do-not-localize/glass.png) 에서 필터를 만들고 관리하는 방법 알아보기 [이 페이지](../audiences/create-filters.md).
+에서 필터를 만들고 관리하는 방법 알아보기 [이 페이지](../audiences/create-filters.md).
 
 ## 워크플로우에서 대상자 만들기
 
@@ -55,7 +55,7 @@ Campaign Campaign 컨트롤 패널에서 직접 인스턴스의 활성 프로필
 
 Adobe Campaign은 개인 정보와 중요한 데이터를 포함한 많은 양의 데이터를 수집하고 처리할 수 있는 강력한 데이터 도구입니다. Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다.
 
-![](../assets/do-not-localize/book.png) 에서 개인 정보 및 동의를 관리하는 방법 알아보기 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko){target="_blank"}.
+에서 개인 정보 및 동의를 관리하는 방법 알아보기 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko){target="_blank"}.
 
 **관련 항목**
 

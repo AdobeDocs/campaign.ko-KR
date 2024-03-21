@@ -4,10 +4,11 @@ description: Campaign 사용자 인터페이스를 찾아보고 사용하는 방
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
+exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->이 설명서는 Campaign 클라이언트 콘솔 사용에 중점을 두고 있습니다. Campaign 웹 사용자 인터페이스를 사용 중이라면 을 참조하십시오. [이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+>이 설명서는 Campaign 클라이언트 콘솔 사용에 중점을 두고 있습니다. Campaign 웹 사용자 인터페이스를 사용 중이라면 을 참조하십시오. [이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}.
 
 * **클라이언트 콘솔** - Campaign 클라이언트 콘솔은 SOAP 및 HTTP와 같은 표준 인터넷 프로토콜을 통해 Adobe Campaign 애플리케이션 서버와 통신하는 기본 애플리케이션입니다. Campaign 클라이언트 콘솔은 모든 기능과 설정을 중앙 집중화하며 로컬 캐시에 의존하기 때문에 최소한의 대역폭이 필요합니다. 손쉬운 배포를 위해 설계된 Campaign 클라이언트 콘솔은 인터넷 브라우저에서 배포하고 자동으로 업데이트할 수 있으며 HTTP(S) 트래픽만 생성하므로 특정 네트워크 구성이 필요하지 않습니다. [자세히 알아보기](#ui-access)
 
@@ -83,7 +84,7 @@ You can also access a subset of Campaign capabilities through the a web browser.
 
 The web access interface is similar to the console interface. From a browser, you can use the same navigation and display features as in the console, but you can perform only a reduced set of actions on campaigns. For example, you can view and cancel campaigns, but you cannot modify campaigns. 
 
-![](../assets/do-not-localize/glass.png) [Learn more about Campaign web access](../start/connect.md#web-access).-->
+[Learn more about Campaign web access](../start/connect.md#web-access).-->
 
 ### 캠페인 탐색기 액세스 {#ac-explorer-ui}
 
@@ -106,9 +107,9 @@ v8.6.1 릴리스를 시작하는 Campaign v8 클라이언트 콘솔 사용자는
 
 ![Adobe Campaign 웹 사용자 인터페이스 홈 페이지](assets/ac-web-home.png)
 
-에서 새로운 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보십시오. [이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+에서 새로운 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보십시오. [이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}.
 
-추가 및 고급 기능, 구성 및 설정은 클라이언트 콘솔에서만 사용할 수 있습니다. 두 사용자 인터페이스에서 모두 사용할 수 있는 기능에 대해 자세히 알아보십시오 [Campaign 웹 사용자 인터페이스 설명서에서](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html){target="_blank"}.
+추가 및 고급 기능, 구성 및 설정은 클라이언트 콘솔에서만 사용할 수 있습니다. 두 사용자 인터페이스에서 모두 사용할 수 있는 기능에 대해 자세히 알아보십시오 [Campaign 웹 사용자 인터페이스 설명서에서](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=ko){target="_blank"}.
 
 
 ## 지원 언어 {#languages}

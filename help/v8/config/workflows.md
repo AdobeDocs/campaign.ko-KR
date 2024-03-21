@@ -5,10 +5,10 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 4%
+source-wordcount: '1307'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 다음을 설정할 수 있습니다.
 
-* 워크플로
+* 워크플로우
 * 반복 캠페인
 * 엔드 투 엔드 유효성 검사 주기
 * 경고
@@ -43,9 +43,9 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기, 메시지
 
 * [마케팅 캠페인 워크플로우에서 대상자 만들기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko)
 
-## 워크플로 활동 {#wf-activities}
+## 워크플로우 활동 {#wf-activities}
 
-에서 사용 가능한 워크플로우 활동에 대해 자세히 알아보십시오. [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html)
+에서 사용 가능한 워크플로우 활동에 대해 자세히 알아보십시오. [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=ko)
 
 워크플로우 활동은 범주별로 그룹화됩니다. 네 가지 활동 카테고리를 사용할 수 있습니다.
 
@@ -68,7 +68,7 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기, 메시지
 
 을(를) 사용하려면 **[!UICONTROL Change Data Source]** 활동:
 
-1. 워크플로 만들기.
+1. 워크플로우를 만듭니다.
 
 1. 을(를) 사용하여 타겟팅된 수신자 쿼리 **[!UICONTROL Query]** 활동.
 
@@ -121,11 +121,11 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기, 메시지
 
 Campaign 트랜잭션 메시지를 사용하여 정보 시스템에서 트리거된 이벤트에서 생성된 메시지를 자동화합니다. 이러한 트랜잭션 메시지는 예를 들어 송장, 주문 확인, 배송 확인, 암호 변경, 제품 불가능 알림, 계정 명세서 또는 웹 사이트 계정 생성일 수 있습니다. 이러한 메시지는 이메일, SMS 또는 푸시 알림을 통해 개별적으로 또는 일괄적으로 전송할 수 있습니다.
 
-![](../assets/do-not-localize/glass.png) 에서 트랜잭션 메시지 기능에 대해 자세히 알아봅니다. [이 섹션](../send/transactional.md).
+에서 트랜잭션 메시지 기능에 대해 자세히 알아봅니다. [이 섹션](../send/transactional.md).
 
 Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하고 거의 실시간으로 개인화된 메시지를 전송합니다.
 
-![](../assets/do-not-localize/glass.png) 에서 Campaign을 다른 솔루션과 통합하는 방법을 알아봅니다. [이 섹션](../start/connect.md)
+에서 Campaign을 다른 솔루션과 통합하는 방법을 알아봅니다. [이 섹션](../start/connect.md)
 
 
 ## 워크플로 전체 사용 사례{#end-to-end-uc}
@@ -193,7 +193,7 @@ PDF 형식으로 월별 내장 추적 지표 보고서를 생성하여 Campaign 
 * [반복 가져오기 워크플로우 설정](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html)
 Adobe Campaign 데이터베이스의 CRM에서 가져온 프로필을 가져오는 데 다시 사용할 수 있는 워크플로우를 디자인하는 방법을 알아봅니다.
 
-###  타겟팅  {#designing-queries}
+### 타겟팅 {#designing-queries}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 

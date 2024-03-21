@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: f6ccec05d63c397d0a286c18f4114eb414156d45
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -36,9 +36,9 @@ Campaign v8은 다음 Adobe 솔루션과 연결할 수 있습니다. 사용 사�
 
 다음을 결합할 수도 있습니다 **대상** 및 **assets** 다양한 Experience Cloud 솔루션에서 에셋 공유 및 대상 공유 기능을 사용할 수 있습니다.
 
-![](../assets/do-not-localize/book.png) 자세히 알아보기 **대상 공유** 의 Campaign과 Experience Cloud 솔루션 간 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+자세히 알아보기 **대상 공유** 의 Campaign과 Experience Cloud 솔루션 간 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/book.png) 자세히 알아보기 **자산 공유** 의 Campaign과 Experience Cloud 솔루션 간 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+자세히 알아보기 **자산 공유** 의 Campaign과 Experience Cloud 솔루션 간 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
 
 ## CRM 커넥터와 통합{#gs-crm-connectors}
 
@@ -53,7 +53,7 @@ CRM 커넥터를 사용하면 빠르고 간편하게 데이터를 통합할 수 
 
 FDA 커넥터(Federated Data Access)를 사용하여 Campaign을 하나 이상에 연결합니다 **외부 데이터베이스** Campaign Cloud 데이터베이스 데이터에 영향을 주지 않고 저장된 정보를 처리합니다.
 
-![](../assets/do-not-localize/glass.png) 다음에서 자세히 알아보기 [이 페이지](fda.md)
+[이 페이지](fda.md)에서 자세히 알아보기
 
 ## 소셜 미디어로 작업{#gs-social}
 

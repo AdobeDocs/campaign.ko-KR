@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 193d2459d5a4ba55822c20a7e376d18b3c6d8795
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 73%
@@ -28,7 +28,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    Adobe Campaign에 연결하려면 Campaign 클라이언트 콘솔을 다운로드하여 설치해야 합니다.
 
-   ![](../assets/do-not-localize/glass.png) [여기를 클릭하여 자세한 내용을 확인](connect.md)하세요.
+   자세한 내용을 보려면 [여기](connect.md)를 클릭하십시오.
 
    Campaign v8.6 릴리스부터는 새로운 기능에 대한 액세스 권한이 제공됩니다 **Campaign 웹 사용자 인터페이스**, 중앙 Adobe Experience Cloud 환경을 통해 사용할 수 있습니다. Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능 및 서비스에 빠르게 액세스할 수 있습니다.
 
@@ -43,9 +43,9 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    모든 발신자의 마케팅 프로그램 성공에 중요한 구성 요소인 이메일 게재 기능의 특징은 기준과 규칙이 계속 변한다는 것입니다. 이 디지털 세상을 효과적으로 탐색하려면 주요 전달성 트렌드를 고려하여 이메일 전략을 정기적으로 조정함으로써 대상자에게 가장 효과적으로 도달해야 합니다.
 
-   ![](../assets/do-not-localize/book.png) 자세한 내용은 이 안내서 를 참조하십시오 [전달성 모범 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target="_blank"}
+   자세한 내용은 이 안내서 를 참조하십시오 [전달성 모범 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target="_blank"}
 
-   ![](../assets/do-not-localize/book.png) Campaign에서 전달성을 구현하는 방법 알아보기 [이 안내서에서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko){target="_blank"}
+   Campaign에서 전달성을 구현하는 방법 알아보기 [이 안내서에서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko){target="_blank"}
 
 1. **게재가 오류 없이 전송되도록 하려면 어떻게 해야 하나요?**
 

@@ -5,7 +5,7 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
@@ -54,4 +54,4 @@ Campaign 프로세스 간의 전체 통신은 다음 독립형 배포 다이어�
 
 사용자는 HTTP를 사용하여 Campaign 애플리케이션 서버에 연결합니다. 모든 데이터와 정보는 Campaign 데이터베이스에서 관리됩니다. Campaign 개발자가 구성 변경을 수행하는 경우 데이터베이스에 캡처됩니다. 마케터가 새 캠페인을 만들 경우 이 새 캠페인과 관련된 모든 정보 및 데이터도 데이터베이스에서 관리됩니다. 마케터가 캠페인을 실행하면 이메일 게재가 SMTP 서버를 통해 Campaign 서버의 프로필로 전송됩니다. 프로필이 이메일을 여는 것과 같이 이메일 게재와 상호 작용하면 해당 추적 데이터가 추적 서버로 다시 전송됩니다.
 
-![](../assets/do-not-localize/glass.png) [Campaign 프로세스에 대해 자세히 알아보기](../architecture/general-architecture.md#dev-env).
+[Campaign 프로세스에 대해 자세히 알아보기](../architecture/general-architecture.md#dev-env).

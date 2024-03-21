@@ -1,18 +1,18 @@
 ---
-title: Campaign 데이터 모델 시작
+title: Campaign 데이터 모델 시작하기
 description: Campaign 데이터 모델을 시작하고 소스의 데이터를 활용하여 더 나은 커뮤니케이션 및 마케팅 결과를 얻으십시오.
 feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '705'
 ht-degree: 5%
 
 ---
 
-# Campaign 데이터 모델 시작 {#gs-ac-datamodel}
+# Campaign 데이터 모델 시작하기 {#gs-ac-datamodel}
 
 Adobe Campaign은 사전 정의된 데이터 모델을 제공합니다. 이 섹션에서는 Adobe Campaign 데이터 모델의 기본 제공 테이블과 상호 작용에 대한 몇 가지 세부 정보를 제공합니다. Adobe Campaign은 함께 연결된 테이블이 포함된 클라우드 데이터베이스를 사용합니다.
 
@@ -43,7 +43,7 @@ Adobe Campaign으로 시작할 때 기본 데이터 모델을 평가하여 마�
 * [기존 테이블 확장](extend-schema.md) 새 필드 사용. 예를 들어 수신자 테이블에 새 &quot;충성도&quot; 필드를 추가할 수 있습니다.
 * [새 테이블 만들기](create-schema.md)예를 들어 데이터베이스의 각 프로필에서 수행한 모든 구매를 나열하는 &quot;구매&quot; 테이블을 사용하여 수신자 테이블에 연결합니다.
 
-![](../assets/do-not-localize/glass.png) 에서 Campaign 데이터 모델을 사용할 때의 모범 사례 살펴보기 [이 섹션](datamodel-best-practices.md).
+에서 Campaign 데이터 모델을 사용할 때의 모범 사례 살펴보기 [이 섹션](datamodel-best-practices.md).
 
 ## 기본 제공 프로필 표 {#ootb-profiles}
 
@@ -58,9 +58,9 @@ Adobe Campaign의 기본 제공 수신자 테이블(nmsrecipient)은 데이터 �
 
 수신자 테이블을 확장할 수 있지만 테이블에 있는 필드나 링크의 수는 줄일 수 없습니다.
 
-![](../assets/do-not-localize/glass.png) 에서 기존 스키마를 확장하는 방법 알아보기 [이 섹션](extend-schema.md).
+에서 기존 스키마를 확장하는 방법 알아보기 [이 섹션](extend-schema.md).
 
-![](../assets/do-not-localize/book.png) 에서 내장된 수신자 테이블 확장의 예를 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
+에서 내장된 수신자 테이블 확장의 예를 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
 
 비즈니스 또는 기능 요구 사항에 더 잘 부합하도록 다른 수신자 테이블을 사용할 수도 있습니다. 이 방법에는 제한 사항이 있으며 다음에서 설명합니다. [이 섹션](custom-recipient.md).
 
@@ -68,9 +68,9 @@ Adobe Campaign의 기본 제공 수신자 테이블(nmsrecipient)은 데이터 �
 
 Campaign v8의 테이블 관리를 더 잘 이해하려면 의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md): Campaign과 해당 Snowflake 클라우드 데이터베이스 간에 테이블이 복제됩니다.
 
-![](../assets/do-not-localize/glass.png) 에서 복제 전략 및 메커니즘에 대해 자세히 알아보십시오. [이 섹션](../architecture/replication.md).
+에서 복제 전략 및 메커니즘에 대해 자세히 알아보십시오. [이 섹션](../architecture/replication.md).
 
 **관련 항목**
 
-![](../assets/do-not-localize/glass.png) 에서 프로필을 가져오는 방법 살펴보기 [이 섹션](../start/import.md)
-![](../assets/do-not-localize/glass.png) 에서 Campaign 대상자에 대해 자세히 알아보기 [이 섹션](../start/audiences.md)
+에서 프로필을 가져오는 방법 살펴보기 [이 섹션](../start/import.md)
+에서 Campaign 대상자에 대해 자세히 알아보기 [이 섹션](../start/audiences.md)
