@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 12%
@@ -22,8 +22,6 @@ Adobe Campaign에는 외부 애플리케이션과 통신하고, 데이터베이�
 
 Adobe Experience Cloud 솔루션을 결합하여 구현을 현대화합니다.
 
-![](../assets/do-not-localize/speech.png)  관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Adobe Experience Cloud 서비스 및 솔루션과 Campaign을 연결합니다.
-
 Campaign v8은 다음 Adobe 솔루션과 연결할 수 있습니다. 사용 사례, 구성 및 지침에 대한 자세한 내용은 링크를 찾아보십시오.
 
 * Adobe Analytics.[자세히 알아보기](../connect/ac-aa.md)
@@ -36,9 +34,14 @@ Campaign v8은 다음 Adobe 솔루션과 연결할 수 있습니다. 사용 사�
 
 다음을 결합할 수도 있습니다 **대상** 및 **assets** 다양한 Experience Cloud 솔루션에서 에셋 공유 및 대상 공유 기능을 사용할 수 있습니다.
 
-자세히 알아보기 **대상 공유** 의 Campaign과 Experience Cloud 솔루션 간 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+자세히 알아보기 **대상 공유** 의 Campaign과 Experience Cloud 솔루션 간 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-자세히 알아보기 **자산 공유** 의 Campaign과 Experience Cloud 솔루션 간 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
+자세히 알아보기 **자산 공유** 의 Campaign과 Experience Cloud 솔루션 간 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
+
+>[!NOTE]
+>
+>관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Adobe Experience Cloud 서비스 및 솔루션과 Campaign을 연결합니다.
+
 
 ## CRM 커넥터와 통합{#gs-crm-connectors}
 

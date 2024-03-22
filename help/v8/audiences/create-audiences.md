@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 2%
+source-wordcount: '773'
+ht-degree: 3%
 
 ---
 
@@ -103,7 +103,7 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
    ![](assets/targeting-wf-age-filter.png)
 
-   워크플로우에서 쿼리를 만드는 방법 알아보기 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
+   워크플로우에서 쿼리를 만드는 방법 알아보기 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. 이 쿼리에 대한 레이블을 추가하고 변경 사항을 저장합니다.
 1. 추가 **[!UICONTROL List update]** 및 를 추가하고 편집합니다.
@@ -124,7 +124,7 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
    ![](assets/access-new-list.png)
 
-   워크플로우에 스케줄러를 추가하여 이 워크플로우를 반복적으로 수행할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html)
+   워크플로우에 스케줄러를 추가하여 이 워크플로우를 반복적으로 수행할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
 
 ## 목록에서 프로필 제거 {#remove-a-profile-from-a-list}
 

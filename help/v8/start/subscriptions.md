@@ -5,10 +5,10 @@ feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 13%
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 
 * 수신자를 가져와 정보 서비스에 자동으로 가입합니다. 이렇게 하려면 가져오기 마법사의 마지막 단계에서 관련 서비스를 선택합니다.
 
-  자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients)를 참조하세요{target="_blank"}
+  다음에서 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}.
 
 * 수신자가 서비스에 가입할 수 있도록 웹 양식을 사용하십시오.
 
@@ -49,14 +49,14 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 
   ![](assets/web-app.png)
 
-  자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in)를 참조하세요{target="_blank"}
+  다음에서 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}.
 
 
 * 타겟팅 워크플로우 만들기 및 사용 **[!UICONTROL Subscription service]** 활동.
 
   ![](assets/wf-subscription.png)
 
-  [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html)에서 자세히 알아보십시오.
+  다음에서 자세히 알아보기 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html){target="_blank"}.
 
 서비스에서 프로필 구독을 취소(옵트아웃)하려면 사용 가능한 옵션은 다음과 같습니다.
 
@@ -71,7 +71,7 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 * 정보 서비스의 기간 제한을 지정하십시오. 유효 기간이 만료되면 수신자는 자동으로 구독 취소됩니다. 이 기간은 서비스 속성의 편집 탭에 지정됩니다. 일 단위로 표시됩니다.
 * 모집단에 대한 구독 취소 워크플로우를 설정합니다.
 
-자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service)를 참조하세요{target="_blank"}
+다음에서 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service){target="_blank"}.
 
 
 >[!CAUTION]

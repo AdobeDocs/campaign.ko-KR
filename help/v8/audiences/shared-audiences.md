@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 73%
 
 ---
 
@@ -34,10 +34,10 @@ ht-degree: 100%
   >
   > 선언된 ID 데이터 소스는 People 핵심 서비스 통합에도 사용할 수 있습니다.
   >
-  >People 핵심 서비스 통합을 사용 중이고 Audience Manager 통합을 추가하려면 Adobe Audience Manager 컨설턴트의 도움이 필요합니다. 도움을 통해 Adobe Audience Manage 컨텍스트에서 선언 ID 데이터 소스를 사용하여 전환할 때 수집된 모든 ID 동기화를 손실되지 않도록 할 수 있습니다.
+  >사용자 핵심 서비스 통합을 사용 중이며 Audience Manager 통합을 추가하려는 경우 Adobe Audience Manager 컨텍스트에서 이 선언된 ID 데이터 소스를 사용함으로 전환할 때 수집된 모든 ID 동기화를 손실하지 않도록 Adobe Audience Manager 컨설턴트의 도움이 필요합니다.
 
 보기:
 
-[https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ko](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ko)
+[Adobe Audience Manager 기술 자료](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ko){target="_blank"}.
 
-[https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ko](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ko)
+[Adobe Experience Cloud 중앙 인터페이스 구성 요소 안내서](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ko){target="_blank"}.

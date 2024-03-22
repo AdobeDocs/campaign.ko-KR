@@ -5,9 +5,9 @@ description: 반복 가져오기에 대한 워크플로우 템플릿을 구성�
 feature: Workflows, Data Management
 role: User, Data Engineer
 exl-id: 13f0091b-b62c-47df-9658-6631ba1cf03a
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    * 다음에서 **[!UICONTROL Name of the file to load]** 섹션, 선택 **[!UICONTROL Upload a file from the local machine]** 필드를 비워 둡니다. 이 템플릿에서 새 워크플로우를 만들 때마다 정의된 구조에 해당하는 한 원하는 파일을 여기에서 지정할 수 있습니다.
 
-     옵션을 사용할 수 있지만 그에 따라 템플릿을 수정해야 합니다. 예를 들어, **[!UICONTROL Specified in the transition]**, 다음을 추가할 수 있습니다. **[!UICONTROL File Transfer]** ftp/SFTP 서버에서 가져올 파일을 검색하기 전 작업입니다. S3 또는 SFTP 연결을 통해 Adobe Real-time Customer Data Platform을 사용하여 세그먼트 데이터를 Adobe Campaign으로 가져올 수도 있습니다. 자세한 정보는 다음을 참조하십시오. [설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+     옵션을 사용할 수 있지만 그에 따라 템플릿을 수정해야 합니다. 예를 들어, **[!UICONTROL Specified in the transition]**, 다음을 추가할 수 있습니다. **[!UICONTROL File Transfer]** ftp/SFTP 서버에서 가져올 파일을 검색하기 전 작업입니다. S3 또는 SFTP 연결을 통해 Adobe Real-time Customer Data Platform을 사용하여 세그먼트 데이터를 Adobe Campaign으로 가져올 수도 있습니다. 자세한 내용은 다음을 참조하십시오. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}.
 
      ![](assets/import_template_example1.png)
 

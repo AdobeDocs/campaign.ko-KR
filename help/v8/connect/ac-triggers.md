@@ -5,9 +5,9 @@ feature: Triggers
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: a2ab85c3-ef5f-49fd-a6c4-2fd397c8d21b
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -22,5 +22,5 @@ Experience Cloud 트리거 를 사용하여 파이프라인을 사용하여 Adob
 
 의 Adobe Campaign 및 Experience Cloud 트리거에 대해 자세히 알아보기 [이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html){target="_blank"}.
 
-![](../assets/do-not-localize/speech.png) 방법 살펴보기 [Experience Cloud 트리거 만들기](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html) 또한 중요한 소비자 행동을 식별하고, 정의하고, 모니터링합니다.
+방법 살펴보기 [Experience Cloud 트리거 만들기](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html){target="_blank"} 또한 중요한 소비자 행동을 식별하고, 정의하고, 모니터링합니다.
 

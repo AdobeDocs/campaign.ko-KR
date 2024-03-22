@@ -5,7 +5,7 @@ feature: Federated Data Access
 role: Admin
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 1%
@@ -16,15 +16,13 @@ ht-degree: 1%
 
 FDA 커넥터(Federated Data Access)를 사용하여 Campaign을 하나 이상에 연결합니다 **외부 데이터베이스** Campaign Cloud 데이터베이스 데이터에 영향을 주지 않고 저장된 정보를 처리합니다. 그런 다음 Adobe Campaign 데이터의 구조를 변경하지 않고 외부 데이터에 액세스할 수 있습니다.
 
-![](../assets/do-not-localize/speech.png) 관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) 외부 데이터베이스를 Campaign에 연결합니다.
-
-
 >[!NOTE]
 >
 >* Federated Data Access에 호환되는 데이터베이스는 [호환성 매트릭스](../start/compatibility-matrix.md).
 >
 >* 의 맥락에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 특정 외부 계정을 사용하여 Campaign 로컬 데이터베이스와 Snowflake 클라우드 데이터베이스 간의 통신을 관리할 수 있습니다. 이 외부 계정은 Adobe 및 **은(는) 해서는 안 됨** 수정해야 합니다.
 >
+>* 관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) 외부 데이터베이스를 Campaign에 연결합니다.
 
 
 ## 모범 사례 및 제한 사항

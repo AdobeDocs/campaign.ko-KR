@@ -5,7 +5,7 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '2740'
 ht-degree: 4%
@@ -175,7 +175,7 @@ Adobe Campaign에서 레코드의 필요성을 최소화하는 몇 가지 솔루
 
 스키마에서 &quot;deleteStatus&quot; 속성을 선언할 수 있습니다. 레코드를 삭제된 것으로 표시한 다음 정리 작업에서 삭제를 연기하는 것이 더 효율적입니다.
 
-![](../assets/do-not-localize/speech.png)  관리 Cloud Service 사용자는 Adobe 컨설턴트 또는 기술 관리자에게 문의하여 보존에 대한 자세한 내용을 확인하거나 사용자 지정 테이블에 대한 보존을 설정해야 합니다.
+관리 Cloud Service 사용자는 Adobe 컨설턴트 또는 기술 관리자에게 문의하여 보존에 대한 자세한 내용을 확인하거나 사용자 지정 테이블에 대한 보존을 설정해야 합니다.
 
 ## 성능 {#performance}
 

@@ -5,7 +5,7 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 5%
@@ -46,7 +46,7 @@ Adobe Campaign은 이 페이지에 나와 있는 보고 도구 세트를 제공�
 
   ![](assets/desc-analysis-report.png)
 
-  Campaign 설명 분석 보고는에 나와 있습니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ko){target="_blank"}
+  Campaign 설명 분석 보고는에 나와 있습니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ko){target="_blank"}.
 
 * **사용자 정의 보고서**
 

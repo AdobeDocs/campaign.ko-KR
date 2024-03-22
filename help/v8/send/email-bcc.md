@@ -4,13 +4,13 @@ description: Adobe Campaign에서 이메일 BCC를 활성화하는 방법 알아
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 87c971ac6cf4abb6b04d52ce60ac2036055e1e02
+exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
 
 ---
-
 
 # BCC 주소로 메시지 사본 보내기 {#bcc}
 
@@ -26,7 +26,9 @@ Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 보낸 �
 
 보관 대상은 선택한 BCC 이메일 주소이며 게재 수신자에게 표시되지 않습니다. BCC 이메일 주소가 정의되면 [게재 템플릿](create-templates.md) 레벨.
 
-![](../assets/do-not-localize/speech.png)  관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support){target="_blank"} 보관에 사용할 BCC 이메일 주소를 전달합니다.
+>[!NOTE]
+>
+>관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support){target="_blank"} 보관에 사용할 BCC 이메일 주소를 전달합니다.
 
 >[!CAUTION]
 >

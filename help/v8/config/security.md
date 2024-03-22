@@ -5,7 +5,7 @@ feature: Privacy, PI
 role: Developer
 level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 1%
@@ -27,7 +27,10 @@ Adobe 시 디지털 환경의 보안을 매우 중요하게 생각합니다. 보
 * 암호화된 암호가 제한되어 있는지 확인하십시오.
 * Protect 미러 페이지, 웹 애플리케이션 등과 같은 개인 정보가 포함될 수 있는 페이지입니다.
 
-![](../assets/do-not-localize/speech.png)  관리 Cloud Service 사용자는 Adobe과 함께 환경에 이러한 구성을 구현합니다.
+
+>[!NOTE]
+>
+>관리 Cloud Service 사용자는 Adobe과 함께 환경에 이러한 구성을 구현합니다.
 
 
 ## 액세스 관리
@@ -49,7 +52,7 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항
 
 * **웹 애플리케이션에서 captcha 추가**: 공개 랜딩 페이지 및 구독 페이지에 captcha를 추가합니다.
 
-다음에서 자세히 알아보기 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
+다음에서 자세히 알아보기 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.
 
 
 ## 개인화
@@ -144,4 +147,4 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항
 
 * **웹 애플리케이션에서 captcha 추가**: 공개 랜딩 페이지 및 구독 페이지에 captcha를 추가합니다.
 
-다음에서 자세히 알아보기 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
+다음에서 자세히 알아보기 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.

@@ -5,7 +5,7 @@ feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: bbe3ba03bfecf5b0931795ff827d25560f955702
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 1%
@@ -56,7 +56,7 @@ OAuth 연결이 있는 경우 다음 단계는 **[!UICONTROL HTTP API]** Adobe E
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. 필요에 따라 연결을 구성합니다. HTTP API 연결을 구성하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 소스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html).
+1. 필요에 따라 연결을 구성합니다. HTTP API 연결을 구성하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 소스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
 
    위치: **[!UICONTROL Authentication]** 단계, 켜기/끄기 **[!UICONTROL Enable authentication]** OAuth 통합을 통해 이전에 생성된 액세스 토큰을 사용하여 인증하는 옵션입니다.
 
@@ -98,7 +98,7 @@ HTTP API 소스 연결이 구성되면 Adobe Campaign에 특정 옵션을 추가
 
 >[!TAB JavaScript 코드 활동을 사용하여 옵션 추가]
 
-랜딩 페이지 워크플로를 실행할 때 이러한 옵션을 자동으로 구성하려면 **[!UICONTROL JavaScript code]** 활동은 아래 코드를 사용하여 워크플로우에 연결합니다. [JavaScript 코드 활동을 구성하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code).
+랜딩 페이지 워크플로를 실행할 때 이러한 옵션을 자동으로 구성하려면 **[!UICONTROL JavaScript code]** 활동은 아래 코드를 사용하여 워크플로우에 연결합니다. [JavaScript 코드 활동을 구성하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}.
 
 워크플로우 실행 시 옵션은 제공된 값으로 Campaign 콘솔에 자동으로 만들어집니다.
 
@@ -344,5 +344,5 @@ Adobe Campaign에 추가된 JavaScript 코드를 사용하여 랜딩 페이지 �
 ### 추가 정보
 
 * [JavaScript 코드 활동 구성](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [랜딩 페이지 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html)
+* [랜딩 페이지 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
 * [구독 및 구독 취소 관리](../start/subscriptions.md)

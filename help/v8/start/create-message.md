@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 
   ![](assets/deliveries-in-a-campaign.png)
 
-  [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ko)에서는 캠페인 컨텍스트에 맞춘 메시지를 보내는 방법을 알아봅니다.
+  의 캠페인 컨텍스트에 맞춘 메시지를 보내는 방법 알아보기 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ko){target="_blank"}
 
 * [워크플로우](../config/workflows.md)를 통해 메시지 보내기
 

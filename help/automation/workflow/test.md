@@ -4,10 +4,10 @@ title: 테스트
 description: 테스트 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
 exl-id: 0d4d13f6-7128-44d3-ad5c-4ed02257ee64
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 4%
+source-wordcount: '187'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ A **테스트** 유형 활동은 연결된 조건을 충족하는 첫 번째 전
 
 ![](assets/edit_test.png)
 
-워크플로우 JavaScript를 통해 액세스할 수 있는 응용 프로그램 서버의 모든 추가 JavaScript 함수 및 SOAP 메서드에 대한 자세한 내용은 다음을 참조하십시오. [JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko).
+워크플로우 JavaScript를 통해 액세스할 수 있는 응용 프로그램 서버의 모든 추가 JavaScript 함수 및 SOAP 메서드에 대한 자세한 내용은 다음을 참조하십시오. [JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko){target="_blank"}.
 
 이 편집기에서 직접 변수를 삽입할 수도 있습니다. 변수로 작업하는 방법에 대한 자세한 내용은 을(를) 참조하십시오. [이 섹션](javascript-scripts-and-templates.md#variables).
 

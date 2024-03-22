@@ -5,17 +5,17 @@ description: 파일 전송 워크플로우 활동에 대해 자세히 알아보�
 feature: Workflows, Data Management
 role: User
 exl-id: 794de398-f35d-4c2b-af29-d6fd38eb9394
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 2%
+source-wordcount: '550'
+ht-degree: 1%
 
 ---
 
 # 파일 전송{#file-transfer}
 
 다음 **파일 전송** 활동을 사용하면 서버에서 파일을 받거나 보내고, 파일 존재 여부를 테스트하거나, 파일을 나열할 수 있습니다. 사용되는 프로토콜은 Azure Blob Storage, Amazon Simple Storage Service(S3), FTP 또는 SFTP입니다.
-S3, Azure Blob Storage 또는 SFTP 연결을 통해 Adobe 실시간 고객 데이터 플랫폼을 통해 세그먼트 데이터를 Adobe Campaign으로 가져올 수도 있습니다. 자세한 정보는 다음을 참조하십시오. [설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+S3, Azure Blob Storage 또는 SFTP 연결을 통해 Adobe 실시간 고객 데이터 플랫폼을 통해 세그먼트 데이터를 Adobe Campaign으로 가져올 수도 있습니다. 자세한 정보는 다음을 참조하십시오. [설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}.
 
 ## 속성 {#properties}
 
@@ -51,7 +51,7 @@ S3, Azure Blob Storage 또는 SFTP 연결을 통해 Adobe 실시간 고객 데�
 
    다음 **[!UICONTROL Keep history of files sent]** 옵션을 사용하면 전송된 파일을 추적할 수 있습니다. 이 기록은 디렉토리에서 액세스할 수 있습니다.
 
-1. **파일의 존재 여부를 확인하는 테스트**
+1. **파일이 있는지 테스트**
 
    파일이 있는지 테스트하려면 **[!UICONTROL Test to see if file exists]** 의 옵션 **[!UICONTROL Action]** 필드. 원격 서버의 구성은 파일 다운로드와 동일합니다. 자세한 내용은 다음을 참조하십시오. [섹션](#properties).
 

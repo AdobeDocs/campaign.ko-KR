@@ -5,10 +5,10 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 5%
+source-wordcount: '302'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign에는 캠페인 관리자 또는 워크플로우 감독자와 같
 
 * 작업 수행 예: **분석** 게재 편집기의 버튼이 구성원에 대해 활성화됩니다. **게재 연산자** 이(가) 있는 그룹 **게재 준비** 명명된 권한
 
-* 폴더 액세스 운영자 그룹의 멤버쉽은 폴더에 대한 보안 설정을 변경하여 폴더에 대한 액세스 권한을 부여하거나 제한할 수 있습니다. [이 페이지](../start/folder-permissions.md)에서 자세히 알아보십시오. 예를 들어 다음 항목에 영향을 줄 수 있습니다. **쓰기 액세스 권한** 게재, 프로필 등과 같은 새 엔티티를 만들려면 **읽기 액세스** 엔티티를 사용하려면 **액세스 삭제** 엔티티를 삭제합니다.
+* 폴더 액세스 운영자 그룹의 멤버쉽은 폴더에 대한 보안 설정을 변경하여 폴더에 대한 액세스 권한을 부여하거나 제한할 수 있습니다. 다음에서 자세히 알아보기 [이 페이지](../start/folder-permissions.md). 예를 들어 다음 항목에 영향을 줄 수 있습니다. **쓰기 액세스 권한** 게재, 프로필 등과 같은 새 엔티티를 만들려면 **읽기 액세스** 엔티티를 사용하려면 **액세스 삭제** 엔티티를 삭제합니다.
 
 ## 보안 영역
 
@@ -34,7 +34,9 @@ Adobe Campaign에는 캠페인 관리자 또는 워크플로우 감독자와 같
 
 연산자는 콘솔의 프로필에서 보안 영역에 연결되어 있고 **[!UICONTROL Administration > Access management > Operators]** 노드.
 
-![](../assets/do-not-localize/speech.png)  관리 Cloud Service 사용자는 Adobe이 보안 영역을 설정합니다. 자세한 내용은 [연락처 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+>[!NOTE]
+>
+>관리 Cloud Service 사용자는 Adobe이 보안 영역을 설정합니다. 자세한 내용은 [연락처 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 **자세히 알아보기**
 

@@ -5,7 +5,7 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 2%
@@ -20,7 +20,10 @@ ht-degree: 2%
 
 * 새 연락처 수집 - Adobe Campaign Social Marketing을 사용하면 새로운 연락처를 쉽게 확보할 수 있습니다. 사용자에게 연락하여 프로필 정보를 공유할지 물어보십시오. 수락하면 Adobe Campaign이 데이터를 자동으로 복구하므로 타겟팅 캠페인을 수행하고, 가능한 경우 크로스 채널 전략을 구현할 수 있습니다.
 
-![](../assets/do-not-localize/speech.png) 관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Campaign을 X와 연결합니다.  **소셜 네트워크 관리(소셜 마케팅)** 전용 패키지를 통해 환경에 추가 기능을 설치하고 외부 계정 Twitter을 구성해야 합니다.
+
+>[!NOTE]
+>
+>관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Campaign을 X와 연결합니다.  **소셜 네트워크 관리(소셜 마케팅)** 전용 패키지를 통해 환경에 추가 기능을 설치하고 외부 계정 Twitter을 구성해야 합니다.
 
 
 X 계정에 트윗을 게시하도록 Adobe Campaign을 구성하려면 이러한 계정에 대해 Adobe Campaign에 쓰기 액세스 권한을 위임하십시오. 이렇게 하려면 다음을 수행해야 합니다.
@@ -42,7 +45,7 @@ Campaign은 X API의 1.1 버전을 사용합니다. 이 기능을 사용하려�
 관리자 권한 승인을 받았으면 X 애플리케이션을 만들어 Adobe Campaign에서 X 계정에 게시물을 만들 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. X 계정에 로그온합니다.
-1. 연결 대상 [X 개발자 포털](https://developer.twitter.com/en/apps).
+1. 연결 대상 [X 개발자 포털](https://developer.twitter.com/en/apps){target="_blank"}.
 1. 선택 **앱 만들기**.
 1. X 도우미가 프로세스를 안내하도록 합니다.
 1. Adobe Campaign에서 계정에 게시물을 만들도록 허용하려면 을(를) 편집하십시오. **앱 권한** 앱의 사용자 인증 설정 섹션에서 다음을 수행합니다. 선택 **읽기, 쓰기 및 다이렉트 메시지**.

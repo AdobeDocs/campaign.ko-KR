@@ -5,7 +5,7 @@ feature: Reporting
 role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Campaign 홈페이지, 전용 보고서 대시보드 또는 게재 목록에서 
 
 주요 보고서 목록은 홈페이지에서 사용할 수 있으며, 이를 통해 게재 데이터에 빠르게 액세스할 수 있습니다. 이 목록은 필요에 따라 변경할 수 있습니다. 또한 보고서에 자신의 보고서를 추가하는 방법을 배울 수 있습니다 **[!UICONTROL Reports]** 탭.
 
-이러한 사용자 지정 구성에 대한 자세한 내용은 다음을 참조하십시오. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html).
+이러한 사용자 지정 구성에 대한 자세한 내용은 다음을 참조하십시오. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=ko){target="_blank"}.
 
 
 ## 기본 제공 보고서 액세스 {#access-ootb-reports}

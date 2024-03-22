@@ -5,9 +5,9 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,16 @@ ht-degree: 0%
 
 Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게재의 콘텐츠와 양식을 Adobe Experience Manager에서 직접 관리할 수 있습니다. 다음을 가져올 수 있습니다. **Adobe Experience Manager** 콘텐츠를 Campaign에 포함하거나 다음을 연결합니다. **Adobe Experience Manager as a Cloud service** 계정을 통해 웹 인터페이스에서 직접 콘텐츠를 편집할 수 있습니다.
 
-[Campaign 웹 인터페이스 내에서 Adobe Experience Manager을 Cloud Service 콘텐츠로 편집하는 방법에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html?lang=en)
+[Campaign 웹 인터페이스 내에서 Adobe Experience Manager을 Cloud Service 콘텐츠로 편집하는 방법에 대해 알아봅니다](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html){target="_blank"}.
 
-[이 문서에서 Adobe Experience Manager에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow)
+[이 문서에서 Adobe Experience Manager에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow){target="_blank"}.
+
+
+>[!NOTE]
+>
+>관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Adobe Experience Manager을 Campaign과 통합하기 위해
 
 ## Adobe Experience Manager에서 컨텐츠 가져오기 {#integrating-with-aem}
-
-![](../assets/do-not-localize/speech.png)  관리 Cloud Service 사용자는 [연락처 Adobe](../start/campaign-faq.md#support) Adobe Experience Manager을 Campaign과 통합하기 위해
 
 예를 들어 이 통합을 사용하여 Adobe Experience Manager에서 뉴스레터를 생성하고 이메일 캠페인의 일부로 Adobe Campaign에서 사용할 수 있습니다.
 
@@ -44,7 +47,7 @@ Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게
 
    ![](assets/aem_authoring_3.png)
 
-1. Adobe Campaign의 개인화 필드와 같은 구성 요소를 추가하여 이메일 콘텐츠를 사용자 지정합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=en#editing-email-content)
+1. Adobe Campaign의 개인화 필드와 같은 구성 요소를 추가하여 이메일 콘텐츠를 사용자 지정합니다. 다음에서 자세히 알아보기 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html#editing-email-content){target="_blank"}.
 
 1. 이메일이 준비되면 다음 위치로 이동합니다. **[!UICONTROL Page information]** 메뉴 및 클릭 **[!UICONTROL Start workflow]**.
 
@@ -92,7 +95,7 @@ Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게
 
 ## Adobe Experience Manager Assets 라이브러리에서 자산 가져오기 {#assets-library}
 
-에서 직접 에셋을 삽입할 수도 있습니다. [!DNL Adobe Experience Manager Assets Library] Adobe Campaign에서 이메일 또는 랜딩 페이지를 편집하는 동안. 이 기능은에 자세히 설명되어 있습니다. [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en).
+에서 직접 에셋을 삽입할 수도 있습니다. [!DNL Adobe Experience Manager Assets Library] Adobe Campaign에서 이메일 또는 랜딩 페이지를 편집하는 동안. 이 기능은에 자세히 설명되어 있습니다. [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html){target="_blank"}.
 
 **Adobe Experience Manager에서:**
 
@@ -100,7 +103,7 @@ Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게
 
    ![](assets/aem_assets_1.png)
 
-1. 클릭 **만들기** 그러면 **파일** 에셋을 로 가져오려면 **Adobe Experience Manager Assets 라이브러리**. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+1. 클릭 **만들기** 그러면 **파일** 에셋을 로 가져오려면 **Adobe Experience Manager Assets 라이브러리**. 다음에서 자세히 알아보기 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html#uploading-assets){target="_blank"}.
 
    ![](assets/aem_assets_2.png)
 

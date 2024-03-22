@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 1%
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 데이터 유형은 다음을 통해 입력됩니다. **유형** 의 속성 **`<attribute>`** 및 **`<element>`** 요소.
 
-자세한 목록은에서 사용할 수 있습니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic).
+자세한 목록은에서 사용할 수 있습니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 이 속성이 채워지지 않으면 **문자열** 요소에 자식 요소가 포함되지 않은 경우 는 기본 데이터 형식입니다. 이 경우 요소를 계층적으로 구성하는 데만 사용됩니다(**`<location>`** 요소(예)를 참조하십시오.
 

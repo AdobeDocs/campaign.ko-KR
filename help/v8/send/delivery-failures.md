@@ -5,10 +5,10 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '3005'
-ht-degree: 12%
+source-wordcount: '2990'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 12%
 
 이 프로세스를 수행하면 시스템이 잘못된 이메일 주소를 계속 보내지 못합니다. 바운스 수는 ISP가 IP 평판을 확인하는 데 사용하는 주요 데이터 중 하나입니다. 이 지표를 주시하는 것이 중요합니다. &quot;전달됨&quot;과 &quot;바운스됨&quot;은 마케팅 메시지 전달을 측정하는 가장 일반적인 방법입니다. 전달률이 높을수록 좋습니다.
 
-프로필에 메시지를 보낼 수 없는 경우 원격 서버는 오류 메시지를 자동으로 Adobe Campaign에 보냅니다. 이 오류는 이메일 주소, 전화 번호 또는 장치를 격리해야 하는지 여부를 결정할 수 있습니다. 다음을 참조하십시오 [바운스 메일 관리](#bounce-mail-qualification).
+메시지를 프로필로 보낼 수 없는 경우 원격 서버는 자동으로 Adobe Campaign에 오류 메시지를 보냅니다. 이 오류는 이메일 주소, 전화 번호 또는 장치를 격리해야 하는지 여부를 결정할 수 있습니다. 다음을 참조하십시오 [바운스 메일 관리](#bounce-mail-qualification).
 
 메시지가 전송되면 게재 로그에서 각 프로필에 대한 게재 상태 및 관련 실패 유형과 이유를 확인할 수 있습니다.
 
@@ -40,7 +40,7 @@ ht-degree: 12%
 
 다음  **무시됨** 오류 유형은 &quot;부재 중&quot;과 같이 일시적인 것으로 알려지거나 기술 오류가 발생한 것으로 알려집니다. 예를 들어 발신자 유형이 &quot;postmaster&quot;인 경우입니다.
 
-피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 전달되는 모든 것을 차단할 수 있습니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않았더라도 차단 목록에 추가된으로 제공됩니다. 주소가 (**Nms 주소**) 격리 테이블을 (**NmsRecipient**) 수신자 테이블 **[!UICONTROL Denylisted]** 상태. 에서 피드백 루프 메커니즘에 대해 자세히 알아보기 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops).
+피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 전달되는 모든 것을 차단할 수 있습니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않았더라도 차단 목록에 추가된으로 제공됩니다. 주소가 (**Nms 주소**) 격리 테이블을 (**NmsRecipient**) 수신자 테이블 **[!UICONTROL Denylisted]** 상태. 에서 피드백 루프 메커니즘에 대해 자세히 알아보기 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
 ## 동기 및 비동기 오류 {#synchronous-and-asynchronous-errors}
 
@@ -109,7 +109,7 @@ Campaign 게재의 유효 기간 설정은 다음으로 제한됩니다. **3.5�
 
 예를 들어 Campaign에서 유효 기간을 기본값 5일로 설정하면 소프트 바운싱 메시지는 MTA 다시 시도 대기열로 이동하며 해당 메시지가 MTA에 도달한 시점부터 최대 3.5일 동안만 다시 시도됩니다. 이 경우 Campaign에 설정된 값은 사용되지 않습니다.
 
-메시지가 3.5일 동안 MTA 큐에 있고 게재에 실패하면 시간이 초과되고 게재 로그에서 해당 상태가 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 업데이트됩니다.
+메시지가 3.5일 동안 MTA 큐에 있고 게재에 실패하면 시간이 초과되고 다음부터 상태가 업데이트됩니다. **[!UICONTROL Sent]** 끝 **[!UICONTROL Failed]** 게재 로그에서.
 
 유효 기간에 대한 자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.
 
@@ -208,7 +208,7 @@ Campaign 게재의 유효 기간 설정은 다음으로 제한됩니다. **3.5�
    <td> 정의되지 않음 </td> 
    <td> 정의되지 않음 </td> 
    <td> 0 </td> 
-   <td> 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에게 알립니다. 그런 다음 를 통해 메시지 분석을 수행하고 이 오류를 평가할 수 있습니다. <span class="uicontrol">관리</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">비게재 항목 관리</span> 트리 구조의 노드<br /> </td> 
+   <td> 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에 알립니다. 그런 다음 를 통해 메시지 분석을 수행하고 이 오류를 평가할 수 있습니다. <span class="uicontrol">관리</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">비게재 항목 관리</span> 트리 구조의 노드<br /> </td> 
   </tr> 
   <tr> 
    <td> 오퍼에 적합하지 않음 </td> 
@@ -332,7 +332,7 @@ HTTP/V2 프로토콜을 통해 각 푸시 게재에 대한 직접 피드백 및 
    <td> 실패<br /> </td> 
    <td> 등록되지 않음<br /> </td> 
    <td> 하드<br /> </td> 
-   <td> 사용자 알 수 없음<br /> </td> 
+   <td> 알 수 없는 사용자<br /> </td> 
    <td> 아니요<br /> </td> 
   </tr> 
   <tr> 
@@ -437,7 +437,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 실패<br /> </td> 
    <td> </td> 
    <td> 하드<br /> </td> 
-   <td> 사용자 알 수 없음<br /> </td> 
+   <td> 알 수 없는 사용자<br /> </td> 
    <td> 아니요<br /> </td> 
   </tr> 
   <tr> 
@@ -469,7 +469,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 실패<br /> </td> 
    <td> SENDER_ID_MISMATCH </td> 
    <td> 소프트</td>
-   <td> 사용자 알 수 없음<br /> </td> 
+   <td> 알 수 없는 사용자<br /> </td> 
    <td> 아니요<br /> </td> 
   </tr>
     <tr> 
@@ -477,7 +477,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> 실패<br /> </td>
    <td> 등록되지 않음 </td> 
    <td> 하드</td> 
-   <td> 사용자 알 수 없음<br /> </td> 
+   <td> 알 수 없는 사용자<br /> </td> 
    <td> 아니요<br /> </td> 
   </tr>
     <tr> 
@@ -607,7 +607,7 @@ SMS 채널에 대한 특성은 아래에 나와 있습니다.
   </tr> 
   <tr> 
    <td> 모바일에서 수신됨<br /> </td> 
-   <td> 수신됨<br /> </td> 
+   <td> 받음<br /> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
