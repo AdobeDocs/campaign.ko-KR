@@ -7,8 +7,8 @@ role: User
 exl-id: 12777107-5ccc-4f19-9dcd-8f6cade3ee98
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 8%
+source-wordcount: '400'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 An **교차**-type 활동은 수신된 타겟의 교차에서 타겟을 생성합니다.
 
-교차를 통해 모든 인바운드 활동 결과에 공통인 모집단만 추출할 수 있습니다. 모든 결과가 수신된 타겟이 생성됩니다. 따라서 교차를 실행하려면 모든 이전 활동이 완료되어야 합니다. 이 활동을 구성하려면 활동에 대한 레이블과 결과에 대한 옵션을 입력해야 합니다.
+교차를 사용하면 모든 인바운드 활동 결과에 공통되는 모집단만 추출할 수 있습니다. 모든 결과가 수신된 타겟이 생성됩니다. 따라서 교차를 실행하려면 모든 이전 활동이 완료되어야 합니다. 이 활동을 구성하려면 활동에 대한 레이블과 결과에 대한 옵션을 입력해야 합니다.
 
 ![](assets/s_user_segmentation_inter.png)
 

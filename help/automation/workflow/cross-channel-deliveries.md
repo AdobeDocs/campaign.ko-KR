@@ -8,7 +8,7 @@ exl-id: fedcffcd-cf9b-4c3d-bd25-cb87dda30192
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 아래 예에서는 푸시 알림 구독자를 위해 이메일 또는 SMS를 보낸 다음 1주일 후에 푸시 알림을 전송하는 워크플로우를 만드는 방법을 알아봅니다. 방법은 다음과 같습니다.
 
-1. 캠페인 만들기.
+1. 캠페인을 만듭니다.
 1. 다음에서 **[!UICONTROL Targeting and workflows]** 캠페인의 탭에서 **[!UICONTROL Query]** 활동.
 1. 쿼리 구성: 푸시 알림을 구독하는 수신자를 대상 차원으로 선택합니다.
 

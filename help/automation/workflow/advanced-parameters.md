@@ -51,7 +51,7 @@ ht-degree: 5%
 특정 컴퓨터에서 워크플로우 또는 워크플로우 활동을 강제로 실행하도록 선택할 수 있습니다. 이렇게 하려면 워크플로우 또는 관련 활동 수준에서 하나 이상의 성향을 정의해야 합니다.
 
 
-## 최대. 실행 기간 {#max--execution-period}
+## 최대 실행 기간 {#max--execution-period}
 
 이 필드에서는 작업이 너무 오래 걸리는 경우에 대한 경고를 설정할 수 있습니다. 워크플로우 작업에는 영향을 주지 않습니다. 다음 시간까지 작업이 완료되지 않은 경우 **[!UICONTROL Max. execution period]** 종료, **[!UICONTROL Instance monitoring]** 이 워크플로에 대한 경고가 페이지에 표시됩니다. 이 페이지는 **[!UICONTROL Monitoring]** 홈 페이지의 탭입니다.
 

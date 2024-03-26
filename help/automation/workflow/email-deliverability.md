@@ -7,7 +7,7 @@ role: User
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 8%
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 8%
    <td> <strong>설명</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>전달성 새로 고침</strong><br /> </td> 
+   <td> <strong>게재 가능성을 위해 새로 고침</strong><br /> </td> 
    <td> <span class="uicontrol">게재능력업데이트</span> <br /> </td> 
    <td>  한 번 <strong>전달성 모니터링(이메일 전달성)</strong> 패키지가 설치되었습니다. 이 워크플로우는 매일 밤 실행되어 규칙 목록을 정기적으로 업데이트하며 플랫폼 전달성을 능동적으로 관리할 수 있습니다.<br /> </td> 
   </tr> 

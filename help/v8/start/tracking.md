@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 17%
+source-wordcount: '680'
+ht-degree: 19%
 
 ---
 
@@ -34,32 +34,32 @@ Campaign에서 사용할 수 있는 키 추적 기능은 아래에 나열되어 
 
 메시지 수신 및 메시지 콘텐츠에 삽입된 링크의 활성화를 추적하여 수신자의 동작을 더 잘 이해할 수 있습니다.
 
-[자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages)를 참조하세요{target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}
 
 **URL 추적**
 
 추적 옵션은 추적된 URL을 활성화하거나 비활성화하여 구성할 수 있습니다.
 
-[자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/personalizing-url-tracking.html#sending-messages)를 참조하세요{target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/personalizing-url-tracking.html#sending-messages){target="_blank"}
 
 
 **추적된 링크 개인화**
 
 Campaign 추적 기능을 사용하면 개인화할 수 있고 추적을 지원하는 이메일에 링크를 추가할 수 있습니다.
 
-[자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/tracking-personalized-links/tracking-personalized-links.html#sending-messages)를 참조하세요{target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/tracking-personalized-links/tracking-personalized-links.html#sending-messages){target="_blank"}
 
 **추적 로그**
 
 다음 **추적** 기술 워크플로우는 게재가 전송되고 추적이 활성화되면 추적 데이터를 검색합니다. 이 데이터는 게재의 추적 탭에서 찾을 수 있습니다.
 
-[자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html#sending-messages)를 참조하세요{target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html#sending-messages){target="_blank"}
 
 **추적 테스트**
 
 추적을 사용하여 메시지를 보내기 전에 미러 페이지, 이메일 로그 및 링크에서 추적을 테스트할 수 있습니다.
 
-[자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/testing-tracking.html#sending-messages)를 참조하세요{target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/testing-tracking.html#sending-messages){target="_blank"}
 
 ### 웹 애플리케이션 추적 {#web-application-tracking}
 
@@ -69,13 +69,13 @@ Campaign 추적 기능을 사용하면 개인화할 수 있고 추적을 지원�
 
 추적 태그를 사용하여 웹 애플리케이션 페이지에서 방문을 추적하고 측정할 수도 있습니다. 이 기능은 양식 및 온라인 설문 조사와 같은 모든 웹 애플리케이션 유형에 사용할 수 있습니다.
 
-[자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html#designing-content)를 참조하세요{target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html#designing-content){target="_blank"}
 
 **웹 애플리케이션 추적 옵트아웃**
 
 웹 애플리케이션 추적 옵트아웃을 사용하면 행동 추적을 옵트아웃한 최종 사용자의 웹 행동 추적을 중지할 수 있습니다. 웹 애플리케이션이나 랜딩 페이지에 배너를 표시하여 사용자가 옵트아웃할 수 있도록 하는 기능을 포함할 수 있습니다.
 
-[자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html#designing-content)를 참조하세요{target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html#designing-content){target="_blank"}
 
 ### 추적 보고서 {#tracking-reports}
 
@@ -85,25 +85,25 @@ Campaign 추적 기능을 사용하면 개인화할 수 있고 추적을 지원�
 
 이 보고서는 열기, 클릭 및 트랜잭션에 대한 통계를 제공하며 게재의 마케팅 영향을 추적할 수 있습니다.
 
-[자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html#tracking-reports)를 참조하세요{target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html#tracking-reports){target="_blank"}
 
 **URL 및 클릭 스트림**
 
 이 보고서는 게재 후 방문한 페이지 목록을 보여줍니다.
 
-[자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#urls-and-click-streams)를 참조하세요{target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#urls-and-click-streams){target="_blank"}
 
 **개인/사용자 및 수신자**
 
 이 예제를 통해 Adobe Campaign의 사용자/사용자와 수신자 간의 추적 차이를 더 잘 이해할 수 있습니다.
 
-[자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html#reporting)를 참조하세요{target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html#reporting){target="_blank"}
 
 **지표 추적**
 
 이 보고서는 열기, 클릭스루 비율 및 클릭 스트림과 같은 게재 수신 시 수신자의 동작을 추적하기 위한 주요 지표를 결합합니다.
 
-[자세한 내용은 Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#reporting)를 참조하세요{target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#reporting){target="_blank"}
 
 **지표 계산**
 

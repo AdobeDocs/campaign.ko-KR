@@ -8,7 +8,7 @@ exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 4%
 
 캠페인 워크플로우는 다음과 통합되어야 합니다. **로컬 승인** 활동을 입력합니다. 활동 매개 변수는 다음과 같습니다.
 
-* **[!UICONTROL Action to perform]** : 대상 승인 미리 알림.
+* **[!UICONTROL Action to perform]** : Target 승인 알림입니다.
 * **[!UICONTROL Distribution context]** : 명시적.
 * **[!UICONTROL Data distribution]** : 로컬 엔티티 배포
 
@@ -100,7 +100,7 @@ ht-degree: 4%
 
 ![](assets/mkg_dist_mutual_op_by_valid2.png)
 
-### 단순 {#simple}
+### 심플 {#simple}
 
 간단한 공동 작업 캠페인을 만들려면 **[!UICONTROL Collaborative campaign (simple)]** 템플릿을 선택해야 합니다.
 

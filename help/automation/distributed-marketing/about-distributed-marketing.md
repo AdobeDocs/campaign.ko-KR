@@ -7,8 +7,8 @@ role: User
 exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 2%
+source-wordcount: '1135'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Campaign은 **분산 마케팅** 중앙 엔터티(본사, 마케팅 부서
 >
 >분산 마케팅 모듈은 **캠페인** 옵션을 선택합니다. 사용권 계약을 확인하십시오.
 
-## 용어 {#terminology}
+## Terminology {#terminology}
 
 * **중앙 엔티티**
 
@@ -41,7 +41,7 @@ Adobe Campaign은 **분산 마케팅** 중앙 엔터티(본사, 마케팅 부서
 
   분산 마케팅을 통해 로컬 엔티티는 실행 비용을 최적화하는 동시에 더 많은 자율성을 가질 수 있습니다.
 
-* **현지화**
+* **로컬라이제이션**
 
   로컬라이제이션은 로컬 엔티티가 캠페인의 대상과 콘텐츠를 수정할 수 있는 기능입니다. 가능한 현지화 수준은 캠페인 유형 및 해당 구현에 따라 다릅니다.
 

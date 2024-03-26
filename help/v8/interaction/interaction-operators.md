@@ -8,7 +8,7 @@ exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 8%
+ht-degree: 2%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 8%
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 
-   <td> 오퍼 범주<br /> </td> 
+   <td> 오퍼 카테고리<br /> </td> 
    <td> 읽기 / 쓰기<br /> </td> 
    <td> 읽기<br /> </td> 
   </tr> 
@@ -156,7 +156,7 @@ ht-degree: 8%
    <td> 읽기<br /> </td> 
   </tr> 
   <tr> 
-   <td> 오퍼 범주<br /> </td> 
+   <td> 오퍼 카테고리<br /> </td> 
    <td> </td> 
    <td> 읽기<br /> </td> 
   </tr> 

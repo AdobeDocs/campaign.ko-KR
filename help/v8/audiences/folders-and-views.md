@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 source-git-commit: 515520bb5b7131fc2ed2d1b2a843373f01af306a
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '674'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Campaign 폴더는 탐색기 트리의 노드입니다. 유형에 따라 특정 
 
 1. 만들기 **[!UICONTROL Deliveries]** 폴더를 만들고 이름을 지정합니다. **미국 게재**.
 1. 이 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Properties...]**.
-1. **[!UICONTROL Restriction]** 탭에서 **[!UICONTROL This folder is a view]**&#x200B;를 선택합니다. 그러면 데이터베이스의 모든 게재가 표시됩니다.
+1. 다음에서 **[!UICONTROL Restriction]** 탭, 선택 **[!UICONTROL This folder is a view]**. 그러면 데이터베이스의 모든 게재가 표시됩니다.
 
    ![](assets/this-folder-is-a-view.png)
 

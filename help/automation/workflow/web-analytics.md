@@ -6,7 +6,7 @@ feature: Workflows, Analytics Integration
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 13%
+ht-degree: 3%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 13%
    <td> 이 워크플로우를 사용하면 Adobe® Analytics 커넥터를 통해 Adobe Campaign에서 Adobe Experience Cloud Suite로 이메일 캠페인 지표를 보낼 수 있습니다. 관련 지표는 다음과 같습니다. <strong>전송됨</strong> (iSent), <strong>총 열람 수</strong> (iTotalRecipientOpen), <strong>클릭한 총 수신자 수</strong> (iTotalRecipientClick), <strong>오류</strong> (iError), <strong>옵트아웃</strong> (옵트아웃) (iOptOut).<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">변환 연락처 식별</span> <br /> </td> 
+   <td> <span class="uicontrol">전환된 연락처 식별</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsFindConverted</span> <br /> </td> 
    <td> 이 워크플로우는 리마케팅 캠페인 후 구매를 완료한 사이트 방문자를 색인화합니다. 이 워크플로우에서 복구한 데이터는 <span class="uicontrol">리마케팅 효율성 보고서</span> ( 이 참조). <br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">이벤트 제거</span> <br /> </td> 
+   <td> <span class="uicontrol">이벤트 삭제</span> <br /> </td> 
    <td> <span class="uicontrol">웹 분석 제거 웹 이벤트</span> <br /> </td> 
    <td> 이 워크플로우에서에 구성된 기간에 따라 데이터베이스 필드에서 모든 이벤트를 삭제할 수 있습니다. <span class="uicontrol">수명</span> 필드. <br /> </td> 
   </tr> 

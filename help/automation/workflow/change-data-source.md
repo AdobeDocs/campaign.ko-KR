@@ -7,7 +7,7 @@ exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 을(를) 사용하려면 **[!UICONTROL Change Data Source]** 활동. 다음을 수행해야 합니다.
 
-1. 워크플로 만들기.
+1. 워크플로우를 만듭니다.
 
 1. 을(를) 사용하여 타겟팅된 수신자 쿼리 **[!UICONTROL Query]** 활동.
 

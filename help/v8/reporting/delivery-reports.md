@@ -6,7 +6,7 @@ exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -168,9 +168,9 @@ This chart shows the breakdown of cumulated clicks per day.
 이 섹션에는 다음 지표가 포함됩니다.
 
 * **[!UICONTROL Messages to be delivered]** : 게재 분석 후 게재할 총 메시지 수
-* **[!UICONTROL Success]** : 정상적으로 처리된 메시지 수. 연관된 비율은 게재할 메시지 수와 관련된 비율입니다.
-* **[!UICONTROL Errors]** : 게재 및 자동 반올림 처리 중 누적된 총 오류 수. 연관된 비율은 게재할 메시지 수와 관련된 비율입니다.
-* **[!UICONTROL New quarantines]** : 게재 실패 후 격리된 주소 수(사용자 알 수 없음, 잘못된 도메인). 연관된 비율은 게재할 메시지 수와 관련된 비율입니다.
+* **[!UICONTROL Success]** : 정상적으로 처리된 메시지 수. 결합된 비율은 게재될 메시지 수에 대한 비율입니다.
+* **[!UICONTROL Errors]** : 게재 및 자동 반올림 처리 중 누적된 총 오류 수. 결합된 비율은 게재될 메시지 수에 대한 비율입니다.
+* **[!UICONTROL New quarantines]** : 게재 실패 후 격리된 주소 수(사용자 알 수 없음, 잘못된 도메인). 결합된 비율은 게재될 메시지 수에 대한 비율입니다.
 
 ## 핫 클릭 {#hot-clicks}
 
@@ -185,7 +185,7 @@ This chart shows the breakdown of cumulated clicks per day.
 
 이 보고서는 열기, 클릭 및 트랜잭션에 대한 통계를 제공합니다.
 
-게재의 마케팅 효과를 추적할 수 있습니다. 시간표(1시간, 3시간 또는 24시간 보기 등)를 변경하여 값이 표시되는 방식을 구성할 수 있습니다. **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하여 선택 항목을 확인합니다.
+게재의 마케팅 효과를 추적할 수 있습니다. 시간표(1시간, 3시간 또는 24시간 보기 등)를 변경하여 값이 표시되는 방식을 구성할 수 있습니다. 클릭 **[!UICONTROL Refresh]** 을 클릭하여 선택 항목을 확인합니다.
 
 이 보고서는 게재가 최대 효율에 도달하는 데 필요한 시간을 표시하는 값 테이블과 파레토 차트를 제공합니다. 다음 지표가 사용됩니다.
 

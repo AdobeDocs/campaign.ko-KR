@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 두 메서드 모두 **`<urn:sessiontoken>`** 트랜잭션 메시지 모듈에 로그온하기 위한 요소입니다. 신뢰할 수 있는 IP 주소를 통해 식별 방법을 사용하는 것이 좋습니다. 세션 토큰을 검색하려면 로그온 SOAP 호출을 수행한 다음 get 토큰 뒤에 로그오프를 수행합니다. 여러 RT 호출에 동일한 토큰을 사용합니다. 이 섹션에 포함된 예는 권장되는 세션 토큰 메서드를 사용하는 것입니다.
 
-부하 분산 서버를 사용하는 경우 사용자/암호 인증(RT 메시지 수준)을 사용할 수 있습니다. 예제:
+부하 분산 서버를 사용하는 경우 사용자/암호 인증(RT 메시지 수준)을 사용할 수 있습니다. 예:
 
 ```
 <PushEvent xmlns="urn:nms:rtEvent">

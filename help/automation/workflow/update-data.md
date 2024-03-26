@@ -6,7 +6,7 @@ feature: Workflows, Targeting Activity, Data Management
 exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ An **데이터 업데이트**-type 활동은 데이터베이스의 필드에 대
 
 다음 **[!UICONTROL Batch size]** 필드를 사용하면 업데이트할 인바운드 전환 요소 수를 선택할 수 있습니다. 예를 들어 500이라고 지정하면 처음 처리된 500개의 레코드가 업데이트됩니다.
 
-## 기록 식별 {#record-identification}
+## 레코드 식별 {#record-identification}
 
 데이터베이스의 레코드를 식별하는 방법을 지정합니다.
 

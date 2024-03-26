@@ -8,7 +8,7 @@ exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
 source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign은 Campaign 인프라의 성능, 보안, 논리 및 유용성을 
 
 각 새 버전에 대한 자세한 내용은 [릴리스 정보](release-notes.md).
 
-안정적인 구성을 위해서는 Adobe에서 설치하는 것이 좋습니다 **정확히 동일한 버전** 모든 Campaign 서버에서. 또한,에서 별도로 언급되지 않는 한 [릴리스 정보](release-notes.md), 클라이언트 콘솔은 켜져 있어야 합니다. **정확히 동일한 버전** 을 서버 인스턴스로 사용합니다. 클라이언트 콘솔을 업그레이드하는 방법 알아보기 [이 페이지에서](../start/connect.md#upgrade-ac-console).
+안정적인 구성을 위해서는 Adobe에서 설치하는 것이 좋습니다 **정확히 동일한 버전** 모든 Campaign 서버에서. 또한,에서 별도로 언급되지 않는 한 [릴리스 정보](release-notes.md), 클라이언트 콘솔은 켜져 있어야 합니다. **정확히 동일한 버전** 을 서버 인스턴스로 사용합니다. [이 페이지에서](../start/connect.md#upgrade-ac-console) 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
 
 Campaign Managed Services 고객은 새 Campaign 버전을 사용할 수 있게 되면 추가 조치 없이 Adobe으로 인프라가 업그레이드됩니다.
 
@@ -52,7 +52,7 @@ Campaign 버전을 확인하려면 **도움말 > 정보...** 클라이언트 콘
 
 새 버전 및 해당 버전이 가져오는 변경 사항이에 나열되어 있습니다. [릴리스 정보](release-notes.md). 새 버전을 사용할 수 있게 되면 Adobe이 사용자에게 연락하여 환경을 업그레이드합니다.
 
-새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 받으려면 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}.
+새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 받으려면 [Adobe 주요 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}를 구독하십시오.
 
 다음을 방문하실 수도 있습니다. [캠페인 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} 릴리스 업데이트에 대한 정보를 받습니다.
 

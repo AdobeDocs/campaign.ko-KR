@@ -8,7 +8,7 @@ exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
 source-git-commit: 143e90ef63fac4058008bc6864daf950c11ab2d1
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 43%
+ht-degree: 36%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign을 사용하면 캠페인 오케스트레이션을 위한 편리�
     </div>
     <br>     
     <div>
-    <a href="workflow/build-a-workflow.md">첫 워크플로 만들어 보기</a>
+    <a href="workflow/build-a-workflow.md">첫 번째 워크플로우 만들기</a>
     </div>
     <br>
     <div>
@@ -55,7 +55,7 @@ Adobe Campaign을 사용하면 캠페인 오케스트레이션을 위한 편리�
     </div>
     <br>
     <div>
-    <a href="campaigns/marketing-campaign-create.md">첫 캠페인 만들어 보기</a>
+    <a href="campaigns/marketing-campaign-create.md">첫 번째 캠페인 만들기</a>
     </div>
     <br>
     <div>
@@ -73,7 +73,7 @@ Adobe Campaign을 사용하면 캠페인 오케스트레이션을 위한 편리�
     </div>
     <br>
     <div>
-    <a href="campaign-opt/campaign-typologies.md">캠페인 최적화</a>
+    <a href="campaign-opt/campaign-typologies.md">Campaign 최적화</a>
     </div>
     <br>
     <div>

@@ -7,8 +7,8 @@ role: User
 exl-id: 23bfabac-62cc-4f86-a739-a34a0e183c31
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 2%
+source-wordcount: '1297'
+ht-degree: 1%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 해당 컨텍스트에서 데이터 보강 활동의 운영에 대해 자세히 설명하는 사용 사례는 다음 섹션에서도 사용할 수 있습니다.
 
-* [사용자 지정 날짜 필드를 사용한 전자 메일 강화](email-enrichment-with-custom-date-fields.md).
+* [사용자 정의 날짜 필드를 사용한 전자 메일 강화](email-enrichment-with-custom-date-fields.md).
 * [데이터 강화](enrich-data.md)
 * [요약 목록 만들기](create-a-summary-list.md)
 
@@ -124,7 +124,7 @@ ht-degree: 2%
 
    ![](assets/enrichment_edit_after_file_box.png)
 
-1. 다음 항목 선택 **[!UICONTROL Link definition]** 옵션을 클릭하고 **[!UICONTROL Next]** 단추를 클릭합니다. 만들 링크의 유형을 지정합니다. 이 예제에서는 파일 수신자의 국가를 데이터베이스의 전용 테이블에 있는 사용 가능한 국가 목록에 있는 국가와 조정하려고 합니다. **[!UICONTROL Define a link by searching for a reference among several options]** 옵션을 선택합니다. 에서 국가 테이블을 선택합니다. **[!UICONTROL Target schema]** 필드.
+1. 다음 항목 선택 **[!UICONTROL Link definition]** 옵션을 클릭하고 **[!UICONTROL Next]** 단추를 클릭합니다. 만들 링크의 유형을 지정합니다. 이 예제에서는 파일 수신자의 국가를 데이터베이스의 전용 테이블에 있는 사용 가능한 국가 목록에 있는 국가와 조정하려고 합니다. 다음을 선택합니다. **[!UICONTROL Define a link by searching for a reference among several options]** 옵션을 선택합니다. 에서 국가 테이블을 선택합니다. **[!UICONTROL Target schema]** 필드.
 
    ![](assets/enrichment_add_a_link_select_option4.png)
 
@@ -142,7 +142,7 @@ ht-degree: 2%
 
 다음 항목 선택 **[!UICONTROL Identify the targeting document based on work data]** 옵션을 선택하고 링크를 생성할 스키마를 지정하고 가입 조건을 정의합니다. 이렇게 하려면 작업 데이터에서 조정할 필드를 선택합니다(**[!UICONTROL Source expression]**) 및 타겟팅 차원(**[!UICONTROL Destination expression]**).
 
-하나 이상의 조정 기준을 사용할 수 있습니다.
+조정 기준을 하나 이상 사용할 수 있습니다.
 
 ![](assets/enrichment_reconciliations_tab_01.png)
 
@@ -161,7 +161,7 @@ ht-degree: 2%
 쿼리를 구성한 후(이 참조) [섹션](query.md)):
 
 1. 데이터 보강 활동을 추가하고 엽니다.
-1. **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;를 선택합니다.
+1. 다음에서 **[!UICONTROL Enrichment]** 탭, 선택 **[!UICONTROL Add data]**.
 1. 선택 **[!UICONTROL An offer proposition]** 추가할 데이터 형식에서 을 참조하십시오.
 
    ![](assets/int_enrichment_offer2.png)

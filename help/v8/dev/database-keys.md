@@ -4,13 +4,13 @@ description: Adobe Campaign 스키마의 키 관리 이해
 feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
+exl-id: cf1f5cfc-172f-44ec-ac97-804d15f9d628
+source-git-commit: 0f5efba364ef924447324bdd806e15e6db8d799d
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
 
 ---
-
 
 # 키 관리 {#management-of-keys}
 
@@ -142,4 +142,3 @@ ht-degree: 1%
 >[!CAUTION]
 >
 >기본 키가 0으로 설정된 레코드는 테이블 생성 시 자동으로 삽입됩니다. 이 레코드는 볼륨 테이블에 적용되지 않는 외부 조인을 피하는 데 사용됩니다. 기본적으로 모든 외래 키는 값 0으로 초기화되므로 데이터 항목이 채워지지 않은 경우 조인에서 항상 결과가 반환될 수 있습니다.
-

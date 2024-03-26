@@ -7,8 +7,8 @@ role: User
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 4%
+source-wordcount: '592'
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 대상을 정의하려면 수신자를 식별하는 쿼리를 만듭니다.
 
-1. 캠페인 만들기. [이 페이지](../campaigns/marketing-campaign-create.md)에서 자세히 알아보십시오.
+1. 캠페인을 만듭니다. [이 페이지](../campaigns/marketing-campaign-create.md)에서 자세히 알아보십시오.
 1. 다음에서 **[!UICONTROL Targeting and workflows]** 캠페인의 탭에서 **쿼리** 활동을 워크플로우에 추가합니다. 이 활동 사용에 대한 자세한 내용은 을 참조하십시오. [이 섹션](query.md).
 1. 게재를 받을 수신자를 정의합니다. 예를 들어 &#39;골드&#39; 멤버를 대상 차원으로 선택합니다.
 1. 쿼리에 필터링 조건을 추가합니다. 이 예에서는 전자 메일 주소와 휴대폰 번호가 있는 수신자를 선택합니다.
@@ -45,7 +45,7 @@ ht-degree: 4%
 
 ## 2단계: 오퍼를 포함하는 이메일 만들기 {#step-2--create-an-email-including-an-offer}
 
-1. 이메일 게재 만들기.
+1. 이메일 게재를 만듭니다.
 1. 메시지를 디자인하고 오퍼를 포함하는 링크를 콘텐츠에 삽입합니다.
 
    ![](assets/wkf_cross-channel_1.png)

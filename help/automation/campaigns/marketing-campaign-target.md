@@ -7,8 +7,8 @@ role: User
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 1%
+source-wordcount: '1463'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 ## 그룹에 보내기{#send-to-a-group}
 
-모집단을 목록으로 가져온 다음 게재에서 이 목록을 타겟팅할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
+모집단을 목록으로 가져온 다음 게재에서 이 목록을 타겟팅할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 게재를 편집하고 **[!UICONTROL To]** 대상 모집단을 변경하는 링크입니다.
 1. 다음에서 **[!UICONTROL Main target]** 탭에서 **[!UICONTROL Defined via the database]** 옵션 및 클릭 **[!UICONTROL Add]** 수신자를 선택합니다.

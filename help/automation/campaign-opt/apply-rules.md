@@ -6,8 +6,8 @@ feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
 source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 9%
+source-wordcount: '955'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 생성한 유형화 규칙을 적용하려면 유형화에 유형화를 연결한 다음 게재에서 이 유형화를 참조하십시오.
 
-이렇게 하려면 아래 단계를 수행합니다:
+이렇게 하려면 아래 단계를 수행합니다.
 
 1. 캠페인 유형화를 만듭니다.
 

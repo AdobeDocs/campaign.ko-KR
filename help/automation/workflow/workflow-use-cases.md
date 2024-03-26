@@ -7,7 +7,7 @@ exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 59%
+ht-degree: 55%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 59%
 * [중복 제거 활동의 병합 기능 사용](deduplication-merge.md)
 * [가져오기 반복 워크플로우 설정](recurring-import-workflow.md)
 
-##  타겟팅  {#designing-queries}
+## 타겟팅 {#designing-queries}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 

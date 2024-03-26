@@ -1,14 +1,14 @@
 ---
 title: 예측 사용자 참여 기능
-description: 예측 전송 시간 및 참여 점수 책정 사용 방법을 알아봅니다
+description: 예측 전송 시간 및 참여 점수 책정 사용 방법 알아보기
 feature: Send Time Optimization
 role: User
 level: Beginner
 exl-id: 648fefcc-6476-4af8-9f0d-c9a87a7a3019
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 67%
+source-wordcount: '783'
+ht-degree: 64%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign은 두 가지 새로운 머신 러닝 모델을 제공합니다. 
 
 **모델 출력**: 메시지를 보내는 최적의 시간(열기 및 클릭)
 
-출력 세부 사항:
+출력 세부 정보:
 
 * 주 7일간 1시간 간격(예: 오전 9:00, 오전 10:00, 오전 11:00)으로 이메일을 전송하기 위해 하루 중 가장 적합한 시간을 계산
 * 이 모델은 가장 적합한 요일과 해당 요일의 가장 적합한 시간을 나타냅니다
@@ -64,7 +64,7 @@ Adobe Campaign은 두 가지 새로운 머신 러닝 모델을 제공합니다. 
 
 >[!NOTE]
 >
->모델은 유효한 결과를 얻으려면 적어도 한 달의 데이터가 필요합니다. 이러한 예측 기능은 이메일 및 푸시 채널에만 적용됩니다.
+>모델은 유의미한 결과를 얻으려면 최소 1개월의 데이터가 필요합니다. 이러한 예측 기능은 이메일 및 푸시 채널에만 적용됩니다.
 >
 
 

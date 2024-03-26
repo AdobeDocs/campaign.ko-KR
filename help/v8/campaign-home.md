@@ -6,7 +6,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 source-git-commit: 08a7a5f51d20068c31980e7b256e80c36ba6ff31
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 15%
+ht-degree: 35%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign의 최신 버전이 이제 라이브입니다. 자세한 내용�
 
 >[!TAB 예정된 채널 변경 사항 푸시]
 
-Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 이미 확인하고 조치를 취할 수 있습니다.
+Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 미칠 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 미리 확인하고 조치를 취할 수 있습니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
 
@@ -60,7 +60,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     </div></td>
     <td>
     <a href="audiences/create-profiles.md"><img src="assets/do-not-localize/start-profiles.png"></a>
-    <div><strong>프로필 가져오기</strong><br/>Adobe Campaign v8 데이터베이스의 프로필 생성을 쉽게 살펴볼 수 있습니다. 수동으로 또는 가져오기를 통해 프로필을 추가하고, 고객 데이터를 개선하고 캠페인을 손쉽게 사용자 지정할 수 있습니다.</div>
+    <div><strong>프로필 가져오기</strong><br/>Adobe Campaign v8 데이터베이스의 프로필 생성을 쉽게 살펴볼 수 있습니다. 수동으로 또는 가져오기를 통해 프로필을 추가하여 고객 데이터를 세분화하고 캠페인을 손쉽게 사용자 지정할 수 있습니다.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -112,5 +112,5 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
 
 ## 추가 리소스
 
-[Adobe Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
+[Adobe Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web user interface documentation](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ko){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
 

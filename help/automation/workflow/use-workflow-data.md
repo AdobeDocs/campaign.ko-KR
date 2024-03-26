@@ -5,7 +5,7 @@ feature: Workflows, Data Management
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '702'
 ht-degree: 8%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 8%
 
   이 메뉴를 사용하여 전환 데이터에 대한 통계 및 보고서를 작성할 수 있는 설명 분석 마법사에 액세스할 수 있습니다.
 
-  자세한 내용은 다음을 참조하십시오. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
+  자세한 내용은 다음을 참조하십시오. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ko){target="_blank"}.
 
 워크플로우가 실행되면 대상 데이터가 제거됩니다. 마지막 작업 테이블만 액세스할 수 있습니다. 모든 작업 테이블에 액세스할 수 있도록 워크플로를 구성할 수 있습니다. 다음을 확인하십시오. **[!UICONTROL Keep the result of interim populations between two executions]** 옵션을 선택합니다.
 

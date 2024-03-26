@@ -8,7 +8,7 @@ exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 5%
 
    ![](assets/campaign-template-create-wf.png)
 
-1. **저장**&#x200B;을 클릭합니다. 이제 템플릿을 사용하여 새 캠페인을 만들 준비가 되었습니다.
+1. 클릭 **저장**. 이제 템플릿을 사용하여 새 캠페인을 만들 준비가 되었습니다.
 
 캠페인 템플릿의 다양한 탭과 하위 탭을 사용하면에 설명된 설정에 액세스할 수 있습니다. [일반 구성](#general-configuration).
 
@@ -136,7 +136,7 @@ ht-degree: 5%
 
   ![](assets/template-activate-4.png)
 
-* **타겟팅 및 워크플로**
+* **타겟팅 및 워크플로우**
 
   다음을 선택하면 **[!UICONTROL Targeting and workflows]** 모듈에서는 이 템플릿을 기반으로 캠페인용 워크플로우를 하나 이상 만들 수 있는 탭이 추가됩니다. 이 템플릿을 기반으로 각 캠페인에 대해 개별적으로 워크플로우를 구성할 수도 있습니다.에서 캠페인 워크플로우에 대해 자세히 알아보세요. [이 섹션](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow).
 

@@ -8,11 +8,11 @@ exl-id: 636f9ad0-9576-421e-ad8b-62d6602ee26a
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
-# 워크플로 활동{#wf-activities}
+# 워크플로우 활동{#wf-activities}
 
 워크플로우 활동은 카테고리별로 네 개의 서로 다른 탭으로 그룹화됩니다.
 

@@ -1,5 +1,5 @@
 ---
-title: 이메일 미리보기 및 테스트
+title: 이메일 미리 보기 및 테스트
 description: 보내기 전에 게재의 유효성을 검사하는 방법 알아보기
 feature: Personalization
 role: User
@@ -8,13 +8,13 @@ exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
 source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
-# 이메일 미리보기 및 테스트 {#preview-test}
+# 이메일 미리 보기 및 테스트 {#preview-test}
 
-메시지가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다. 를 삽입한 경우 [개인화된 콘텐츠](personalize.md), 테스트 프로필 데이터를 사용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다. 또한 메시지 콘텐츠나 개인화 설정에서 발생할 수 있는 오류를 탐지하려면 테스트 프로필로 증명을 보냅니다. 최신 콘텐츠의 유효성을 검사하려면 변경 사항이 있을 때마다 증명을 보내야 합니다.
+메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다. 를 삽입한 경우 [개인화된 콘텐츠](personalize.md), 테스트 프로필 데이터를 사용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다. 또한 메시지 콘텐츠나 개인화 설정에서 발생할 수 있는 오류를 탐지하려면 테스트 프로필로 증명을 보냅니다. 최신 콘텐츠의 유효성을 검사하려면 변경 사항이 있을 때마다 증명을 보내야 합니다.
 
 ## 콘텐츠 미리보기{#preview-content}
 
@@ -101,7 +101,7 @@ ht-degree: 7%
 ![](assets/proof-parameters.png){width="800" align="left"}
 
 
-## 방법 비디오 {#video-proof}
+## 사용법 비디오 {#video-proof}
 
 이메일 게재에 대한 증명을 보내고 확인하는 방법을 알아봅니다.
 

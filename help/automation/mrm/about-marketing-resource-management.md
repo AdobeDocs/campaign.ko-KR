@@ -8,7 +8,7 @@ exl-id: 6fa4f4e3-c5a5-4d7f-8e71-826dee4e926a
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -58,6 +58,6 @@ MRM(마케팅 리소스 관리) 추가 기능을 사용하면 계획 및 프로�
 
 * **예산 관리**. [자세히 알아보기](controlling-costs.md)
 
-* **작업 관리**. [자세히 알아보기](creating-and-managing-tasks.md)
+* **작업 관리**.  [자세히 알아보기](creating-and-managing-tasks.md)
 
 * **리소스 관리**. [자세히 알아보기](managing-marketing-resources.md)

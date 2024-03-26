@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '692'
 ht-degree: 33%
 
 ---
@@ -88,7 +88,7 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 1. 다음을 완료합니다. **이메일 매개 변수** 이메일 제목과 타겟팅된 모집단을 포함하는 카테고리.
 1. 사용자 추가 **HTML 컨텐츠** 템플릿을 개인화하기 위해 다음을 표시할 수 있습니다. [미러 페이지 링크](../send/mirror-page.md) 구독 취소 링크.
 1. 다음 항목 선택 **미리 보기** 탭. 다음에서 **개인화 테스트** 드롭다운 메뉴에서 다음을 선택합니다. **수신자** 을 클릭하여 템플릿을 선택한 프로필로 미리 봅니다.
-1. **저장**&#x200B;을 클릭합니다. 이제 템플릿을 게재에서 사용할 준비가 되었습니다.
+1. 클릭 **저장**. 이제 템플릿을 게재에서 사용할 준비가 되었습니다.
 
 
 ## 템플릿 사용{#use-a-delivery-template}

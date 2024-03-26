@@ -8,7 +8,7 @@ exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
 source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1327'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Campaign 오케스트레이션 구성 요소는 **[!UICONTROL Campaigns]** 탭: 
 
 ### 계획 및 프로그램 계층 구조 만들기 {#create-plan-and-program}
 
-각 캠페인은 플랜에 속하는 프로그램에 속합니다. 모든 플랜, 프로그램 및 캠페인은 **[!UICONTROL Campaign calendar]** 의 메뉴 **캠페인** 탭.
+각 캠페인은 프로그램에 속하며, 프로그램은 기획에 속합니다. 모든 플랜, 프로그램 및 캠페인은 **[!UICONTROL Campaign calendar]** 의 메뉴 **캠페인** 탭.
 
 캠페인 및 게재 빌드를 시작하기 전에 마케팅 계획 및 프로그램에 대한 폴더 계층 구조를 구성합니다.
 

@@ -175,7 +175,7 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 
 결과를 비교하려면 보고서를 사용해야 합니다. 실제로 Adobe Campaign을 사용하면 보고서 기록을 저장하여 나중에 다시 볼 수 있습니다. 이 기록은 시뮬레이션의 라이프사이클 동안 저장됩니다.
 
-**예제:**
+**예:**
 
 1. 유형화를 사용하는 게재에 대한 시뮬레이션 만들기 **A** 적용 대상.
 1. 다음에서 **[!UICONTROL Reports]** 탭에서 사용 가능한 보고서 중 하나(예: ) 편집 **[!UICONTROL Detail of simulation exclusions]** 예.
@@ -199,7 +199,7 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 >각 시뮬레이션에 대해 개별적으로 정의하지 않고 시뮬레이션 템플릿에서 계산 축을 정의하는 것이 좋습니다.\
 >시뮬레이션 템플릿은에 저장됩니다 **[!UICONTROL Resources > Templates > Simulation templates]** Campaign 탐색기 폴더.
 
-**예제:**
+**예:**
 
 아래 예에서는 수신자의 상태(&quot;고객&quot;, &quot;잠재 고객&quot; 또는 없음)를 기반으로 추가 보고 축을 생성하려고 합니다.
 

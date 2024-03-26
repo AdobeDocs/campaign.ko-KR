@@ -6,8 +6,8 @@ feature: Workflows
 exl-id: 7522f449-341e-4aef-8c1e-c49e13809c08
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 2%
+source-wordcount: '615'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 
    ![](assets/datamanagement_usecase_2.png)
 
-1. **[!UICONTROL Edit additional data]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Advanced parameters...]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]** 옵션을 선택합니다.
+1. 클릭 **[!UICONTROL Edit additional data]** 그러면 **[!UICONTROL Advanced parameters...]**. **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]** 옵션을 선택합니다.
 
    이 옵션을 사용하면 모든 수신자가 결과로 표시되지 않고 명시적으로 추가된 데이터가 유지되지 않습니다. 이 경우 수신자가 마지막으로 생성된 날짜를 나타냅니다.
 
