@@ -8,19 +8,19 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 52%
+ht-degree: 99%
 
 ---
 
 # Campaign v8 호환성 표 {#compat-matrix}
 
-이 문서에서는 의 최신 빌드에 대해 지원되는 모든 시스템 및 구성 요소를 나열합니다. **Adobe Campaign v8** 클라이언트 콘솔입니다. 별도로 언급되지 않는 한 모든 마이너 릴리스도 지원됩니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
+이 문서는 **Adobe Campaign v8** 클라이언트 콘솔의 최신 빌드를 지원하는 모든 시스템 및 구성 요소 목록을 제공합니다. 별도로 언급되지 않는 한 모든 마이너 릴리스도 지원됩니다. 이 목록에 포함되지 않은 제품 및 버전은 Adobe Campaign과 호환되지 않습니다.
 
 이러한 타사 시스템 및 도구의 특정 버전이 EOL(End-of-Life)에 도달함에 따라 Adobe Campaign은 더 이상 해당 버전과 호환되지 않으며 이후 이 호환성 매트릭스에서 제거됩니다. 문제가 생기지 않도록 호환성 매트릭스에 나와 있는 모든 시스템의 지원 버전을 사용하고 있는지 확인하십시오.
 
 >[!NOTE]
 >
->Adobe Campaign 서버 및 Campaign 클라이언트 콘솔의 버전은 동일해야 합니다. [버전을 확인하는 방법을 알아보세요](upgrades.md#version).
+>Adobe Campaign 서버와 Campaign 클라이언트 콘솔의 버전은 동일해야 합니다. [버전을 확인하는 방법을 알아보십시오](upgrades.md#version).
 
 ## 클라이언트 콘솔 {#ClientConsoleoperatingsystems}
 
@@ -29,10 +29,10 @@ Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브�
 ### 운영 체제 {#op-systems}
 
 * **Microsoft Windows Server** 2019, 2016
-* **Microsoft Windows** 11, 10
+* **Microsoft Windows** 11, 10
 
 >[!NOTE]
->클라이언트 콘솔의 32비트 버전은 8.5 릴리스 이후 더 이상 사용되지 않습니다. 8.6부터 클라이언트 콘솔은 64비트로만 사용할 수 있습니다. 시스템을 업그레이드하는 방법에 대한 자세한 내용은 다음을 참조하십시오 [기술 노트](../../technotes/upgrades/console.md).
+>클라이언트 콘솔의 32비트 버전은 8.5 릴리스 이후 더 이상 사용되지 않습니다. 8.6 릴리스부터 클라이언트 콘솔은 64비트로만 사용할 수 있습니다. 시스템을 업그레이드하는 자세한 방법은 [기술 정보](../../technotes/upgrades/console.md)를 참조하십시오.
 
 ### 웹 브라우저 {#web-browsers}
 
@@ -42,14 +42,14 @@ Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브�
 
 ## CRM 커넥터 {#CRMconnectors}
 
-Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다음과 같습니다. CRM 커넥터에 대해 자세히 알아보기 [이 페이지에서](../connect/crm.md).
+Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다음과 같습니다. [이 페이지에서](../connect/crm.md) CRM 커넥터에 대해 자세히 알아봅니다.
 
 * **Salesfore** connector API 버전 49
 * **Microsoft Dynamics** 커넥터, Web API: Dynamics 365 온프레미스 및 온라인
 
 ## FDA(Federated Data Access){#FederatedDataAccessFDA}
 
-Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이터베이스 목록은 다음과 같습니다. FDA에 대해 자세히 알아보기 [이 페이지에서](../connect/fda.md).
+Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이터베이스 목록은 다음과 같습니다. [이 페이지에서](../connect/fda.md) FDA에 대해 자세히 알아봅니다.
 
 * **[!DNL Amazon Redshift]**
 * **[!DNL Azure Synapse]**, Campaign v8.5부터
@@ -61,17 +61,17 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 
 Campaign으로 [푸시 알림](../send/push.md)을 보내려면 데이터 수집 UI에서 Adobe Campaign Classic을 구성하여 Adobe Experience Platform Mobile SDK를 사용합니다.
 
-iOS 및 Android용 호환 버전은 [Adobe Developer 설명서](https://developer.adobe.com/client-sdks/home/){target="_blank"}.
+iOS 및 Android와 호환되는 버전은 [Adobe Developer 설명서](https://developer.adobe.com/client-sdks/home/){target="_blank"}에서 자세히 설명합니다.
 
-## 웹 사용자 인터페이스 {#web-ui}
+## Web 사용자 인터페이스 {#web-ui}
 
-다음 브라우저는 Campaign 웹 사용자 인터페이스와 호환됩니다. Campaign 웹 UI에 대해 자세히 알아보기 [이 페이지에서](campaign-ui.md#ac-web-ui).
+다음 브라우저는 Campaign Web 사용자 인터페이스와 호환됩니다. [이 페이지에서](campaign-ui.md#ac-web-ui) Campaign Web UI에 대해 자세히 알아봅니다.
 
-* **Microsoft Edge**, **Google 크롬**, **Safari** (최신 버전)
+* **Microsoft Edge**, **Google Chrome**, **Safari**(최신 버전)
 
 ## 웹 액세스 {#web-access}
 
-다음 브라우저는 웹 액세스용 Campaign과 호환됩니다. Campaign 웹 액세스에 대해 자세히 알아보기 [이 페이지에서](connect.md#web-access).
+다음 브라우저는 웹 액세스용 Campaign과 호환됩니다. [이 페이지에서](connect.md#web-access) Campaign Web 액세스에 대해 자세히 알아봅니다.
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari**(최신 버전)
 
@@ -82,4 +82,4 @@ iOS 및 Android용 호환 버전은 [Adobe Developer 설명서](https://develope
 * [Campaign 클라이언트 콘솔 설치](connect.md)
 * [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko){target="_blank"}
 
-새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 받으려면 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}.
+새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 받으려면 [Adobe 주요 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}를 구독하십시오.
