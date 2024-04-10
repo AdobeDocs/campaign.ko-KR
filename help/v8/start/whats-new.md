@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상
 
 Adobe Campaign을 사용하면 캠페인 오케스트레이션을 위한 편리한 단일 인터페이스를 통해 채널을 손쉽게 동기화할 수 있습니다. 이메일, 웹, 모바일, 소셜과 같은 온라인 채널은 DM, 콜 센터, 매장 등을 비롯한 오프라인 채널에 맞게 조정할 수 있습니다. 이를 통해 고객은 디지털 채널과 기존 채널 모두에서 일관되고 상황에 맞는 경험을 제공할 수 있습니다. Adobe Campaign을 사용하면 고객이 모든 채널에서 선택할 수 있는 모든 경로에 컨텐츠를 간편하게 전달할 수 있습니다.
 
-[Campaign 워크플로우에 대해 자세히 알아보기](../config/workflows.md)
+[캠페인 워크플로우에 대해 자세히 알아보기](../config/workflows.md)
 
 ### 개인화된 이메일 마케팅 {#perso-email-mkt}
 
@@ -105,6 +105,6 @@ Adobe Campaign은 이제 클라우드 규모 데이터베이스 기술을 활용
 
 ![](assets/subdomain1.png)
 
-[Campaign Campaign 컨트롤 패널에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
+[Campaign 컨트롤 패널에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
 
 

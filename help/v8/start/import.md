@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 84%
 
 Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 불러오고, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 표에 직접 프로필 정보를 입력할 수 있습니다.
 
-시작 [대상](audiences.md)
+[대상자](audiences.md) 시작하기
 
-Campaign 이해 [데이터 모델](../dev/datamodel.md)
+Campaign [데이터 모델](../dev/datamodel.md) 이해
 
 ## 워크플로우에서 프로필 가져오기
 
@@ -33,7 +33,7 @@ Campaign 이해 [데이터 모델](../dev/datamodel.md)
 
 ![](assets/new-import.png)
 
-단일 가져오기 작업을 실행하여 데이터베이스에 데이터를 피드하는 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ko){target="_blank"}.
+단일 가져오기 작업을 실행하여 데이터베이스에 데이터를 보충하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 웹 앱을 통해 프로필 수집
 
@@ -41,7 +41,7 @@ Campaign을 사용하여 웹 양식을 만들고 쉽고 효율적으로 프로�
 
 ![](assets/web-form-page.png)
 
-에서 웹 양식을 만드는 방법 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ko){target="_blank"}.
+웹 양식을 만드는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ko){target="_blank"}를 참조하십시오.
 
 **관련 항목**
 

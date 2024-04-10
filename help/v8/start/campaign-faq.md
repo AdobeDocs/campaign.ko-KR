@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '706'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    >[!NOTE]
    >
-   >Managed Cloud Service 사용자는 새로운 릴리스가 나올 때마다 Adobe에 의해 인스턴스가 업그레이드됩니다.
+   >Adobe는 새 릴리스가 나올 때마다 Managed Cloud Services 사용자의 인스턴스를 업그레이드합니다.
 
 1. **Campaign v8에 연결하는 방법은 무엇인가요?**
 
@@ -32,28 +32,28 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    자세한 내용을 보려면 [여기](connect.md)를 클릭하십시오.
 
-   Campaign v8.6 릴리스부터는 새로운 기능에 대한 액세스 권한이 제공됩니다 **Campaign 웹 사용자 인터페이스**, 중앙 Adobe Experience Cloud 환경을 통해 사용할 수 있습니다. Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능 및 서비스에 빠르게 액세스할 수 있습니다.
+   이번 릴리스부터 중앙 Adobe Experience Cloud 환경을 통해 사용할 수 있는 새로운 **Campaign Web 사용자 인터페이스**&#x200B;에 액세스할 수 있습니다. Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능, 서비스에 빠르게 액세스할 수 있습니다. 
 
    [이 페이지에서](campaign-ui.md#ac-web-ui) Adobe Experience Cloud에 연결하여 Adobe Campaign Web 인터페이스에 액세스하는 방법을 알아보십시오.
 
-   다음에서 자세히 알아보기 [Adobe Campaign 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+   [Adobe Campaign 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home){target="_blank"}에서 자세히 알아보십시오.
 1. **Campaign v8을 온-프레미스 또는 하이브리드 환경에 설치할 수 있나요?**
 
-   Campaign v8은 Adobe이 완전히 호스팅하는 관리 Cloud Service에서만 사용할 수 있습니다.
+   현재 Campaign v8은 Adobe가 완전히 호스팅하는 Managed Cloud Services에서만 사용할 수 있습니다.
 
 1. **이메일의 전달성을 높이는 방법은 무엇인가요?**
 
    모든 발신자의 마케팅 프로그램 성공에 중요한 구성 요소인 이메일 게재 기능의 특징은 기준과 규칙이 계속 변한다는 것입니다. 이 디지털 세상을 효과적으로 탐색하려면 주요 전달성 트렌드를 고려하여 이메일 전략을 정기적으로 조정함으로써 대상자에게 가장 효과적으로 도달해야 합니다.
 
-   자세한 내용은 이 안내서 를 참조하십시오 [전달성 모범 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target="_blank"}
+   [전달성 모범 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target="_blank"}를 알아보려면 이 안내서를 참조하십시오.
 
-   Campaign에서 전달성을 구현하는 방법 알아보기 [이 안내서에서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko){target="_blank"}
+   [이 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko){target="_blank"}에서 Campaign의 전달성을 구현하는 방법을 알아보십시오.
 
 1. **게재가 오류 없이 전송되도록 하려면 어떻게 해야 하나요?**
 
    Adobe Campaign에는 이메일 게재를 모니터링하는 대시보드 및 도구 세트가 포함되어 있습니다.
 
-   [자세한 내용은 Campaign Classic v7 설명서 를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ko){target="_blank"} 메시지가 전송되고 있는지 확인하고 실행을 모니터링하며 오류가 발생하면 작업을 수행하는 방법
+   메시지가 전송되고 있는지 확인하고 실행을 모니터링하며 오류가 발생하면 작업을 수행하는 방법을 알아보려면 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ko){target="_blank"}를 끝까지 읽어 보십시오.
 
 1. **워크플로우 실행을 모니터링할 수 있습니까?**
 
@@ -69,7 +69,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    >[!NOTE]
    >
-   >관리 Cloud Service 사용자는 Adobe에게 문의하여 하위 도메인을 Adobe에 위임할 수 있습니다.
+   >Managed Cloud Services 사용자는 Adobe에 문의하여 하위 도메인을 Adobe에 위임할 수 있습니다.
 
 1. **Campaign Classic v7 사용자는 Campaign v8로 마이그레이션할 수 있나요?**
 
@@ -83,9 +83,9 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    Adobe 다운로드 센터에서 설치 프로그램과 클라이언트 콘솔을 다운로드할 수 있습니다.
 
-   관리 사용자로 Adobe 액세스 [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html) {target="_blank"} Adobe Campaign을 다운로드하려면 다음을 수행하십시오.
+   관리 사용자로 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html){target="_blank"}에 액세스하여 Adobe Campaign을 다운로드합니다.
 
-   배포 센터에 대해 자세히 알아보기 [이 페이지에서](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}.
+   [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}에서 배포 센터에 대해 자세히 알아보십시오.
 
 1. **Campaign 전문가와 소통할 수 있을까요?**
 
@@ -96,6 +96,6 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    사례를 만들면 Adobe 제품에 발생하는 모든 문제에 대해 Adobe 고객 지원 팀으로 문의할 수 있습니다. 문제를 확인하거나 해결하려면 Adobe Admin Console을 통해 Adobe 고객 지원 센터와 채팅할 수 있습니다.
 
-   문제를 기록하거나 새 시스템에서 채팅 세션을 시작하려면 다음으로 연결하십시오. [Adobe Admin Console](https://adminConsole.adobe.com/overview){target="_blank"}.
+   문제를 기록하거나 새 시스템에서 채팅 세션을 시작하려면 [Adobe Admin Console](https://adminConsole.adobe.com/overview){target="_blank"}에 연결하십시오.
 
    새 시스템에서는 올바른 권한을 가진 각 사용자에 대해 새 개인 계정이 필요합니다. Adobe ID로 로그인할 수 없는 경우 Experience League를 통해 액세스를 요청하면 고객 지원 팀에서 가능한 한 빨리 설정을 완료합니다. [자세히 알아보기](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
