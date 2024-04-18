@@ -4,9 +4,9 @@ title: 웹 다운로드
 description: 웹 다운로드 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
 exl-id: 73bacf61-ac03-4a5c-b03b-6dfbe3fb9538
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 76a5737e2326e9691113957d1c7bf390ea969695
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '483'
 ht-degree: 1%
 
 ---
@@ -58,6 +58,10 @@ ht-degree: 1%
 1. **고급 매개 변수**
 
    다음 **[!UICONTROL Advanced parameters...]** 링크를 사용하면 아래에 표시된 추가 옵션을 지정할 수 있습니다.
+
+   * **[!UICONTROL Follow redirections]**: 파일 리디렉션을 사용하면 재정의를 사용하여 데이터 입력 또는 출력을 다른 유형의 장치로 보낼 수 있습니다.
+   * **[!UICONTROL Add the HTTP headers to the file]**: 경우에 따라 파일에 추가 HTTP 헤더를 추가할 수 있습니다. 가장 일반적으로 이러한 헤더는 문제 해결 목적으로 추가 정보를 제공하는 데 사용됩니다. [CORS(원본 간 리소스 공유)](https://developer.mozilla.org/docs/Web/HTTP/CORS)또는 특정 캐싱 지시문을 설정합니다.
+   * **[!UICONTROL Ignore the HTTP return code]**: HTTP 상태 코드라고도 하는 HTTP 반환 코드는 HTTP 요청의 결과를 나타냅니다.
 
    ![](assets/download_web_edit_advanced.png)
 
