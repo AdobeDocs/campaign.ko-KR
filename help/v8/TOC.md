@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 782362d6d742a3121d3b87b26c2f1481731ff694
-workflow-type: ht
-source-wordcount: '594'
-ht-degree: 100%
+source-git-commit: 19593cd689609515264aa2995e33e53f3bc95c95
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 99%
 
 ---
 
@@ -100,6 +100,7 @@ ht-degree: 100%
 + 개인 정보 보호 및 보안 관리 {#privacy}
    + [개인 정보 보호 요청 관리](start/privacy.md)
    + [보안 지침](config/security.md)
+   + [향상된 보안](config/enhanced-security.md)
 + 의사 결정 관리 {#offers}
    + [실시간 상호 작용 시작](interaction/interaction.md)
    + [환경 및 아키텍처](interaction/interaction-architecture.md)
