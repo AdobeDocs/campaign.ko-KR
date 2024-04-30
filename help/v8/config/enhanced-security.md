@@ -6,55 +6,59 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: cec935c2c73e3df4d2e03d54305004df9bd2655e
+exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
+source-git-commit: f9b064dffa0f8792e8653760cb2ac44cfdf43848
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
-
 
 # 향상된 보안 추가 기능 {#enhanced-security}
 
 네트워크 연결을 보다 안전하게 만들고 리소스에 대해 향상된 보안을 제공하기 위해 [!DNL Adobe Campaign] 새 항목 제공 **향상된 보안** 추가 기능.
 
-이 추가 기능에는 현재 다음 두 가지 생태계 기능이 포함되어 있습니다.
+이 추가 기능에는 다음 두 가지 생태계 기능이 포함됩니다.
 
 * [보안 CMK 통합](#secure-cmk-integration)
 
 * [보안 VPN 터널링](#secure-vpn-tunneling)
 
+이러한 기능은 아래에 자세히 설명되어 있습니다.
+
 ## 보안 CMK 통합 {#secure-cmk-integration}
 
-**CMK(Secure Customer-Managed Key) 통합** 에서는 AWS 계정을 통해 자체 키를 사용하여 인스턴스 및 데이터를 암호화할 수 있습니다<!--instead of Adobe-owned keys-->. 암호화 키 생성 및 관리를 책임지게 함으로써 키 취소 등 암호화 키를 보다 세밀하게 제어할 수 있습니다.
+다음 **CMK(Secure Customer-Managed Key) 통합** 에서는 Amazon Web Services(AWS) 계정을 통해 자체 키를 사용하여 인스턴스 및 데이터를 암호화할 수 있습니다.
+
+고객 관리 키는 사용자가 생성, 소유 및 관리하는 AWS 계정의 KMS(키 관리 서비스) 키입니다. 이러한 KMS 키를 완벽하게 제어할 수 있으며 이 키를 사용하여 데이터를 암호화하고 해독합니다. 암호화 키 생성 및 관리를 책임지게 함으로써 키 취소 등 암호화 키를 보다 세밀하게 제어할 수 있습니다.
 
 >[!CAUTION]
 >
 >키를 취소하는 경우 영향을 알고 있어야 합니다. [자세히 알아보기](#cmk-callouts)
 
-이 기능을 활성화하려면 아래 단계를 따르십시오.
+Campaign과 CMK 통합을 사용하려면 아래 단계를 따르십시오.
 
-1. 다음 항목이 있는지 확인하십시오. [AWS](https://aws.amazon.com/){target="_blank"} 계정입니다.
+1. 다음에 연결 [Amazon Web Services(AWS)](https://aws.amazon.com/){target="_blank"} 계정입니다.
 
-1. AWS KMS(키 관리 서비스)를 사용하여 자동 순환이 설정된 키를 생성합니다. [방법 알아보기](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}
+1. AWS KMS(키 관리 서비스)를 사용하여 자동 순환이 설정된 키를 생성합니다. [방법 알아보기](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}.
 
-1. 리소스에 대한 액세스 권한을 부여하려면 Adobe으로 제공된 정책을 AWS 계정에 적용하십시오. [자세히 알아보기](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"} <!--link TBC-->
+1. 리소스에 대한 액세스 권한을 부여하려면 Adobe으로 제공된 정책을 AWS 계정에 적용하십시오. [자세히 알아보기](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}. <!--link TBC-->
 
-1. Amazon 리소스 이름(키 ARN)을 공유할 대상: [!DNL Adobe Campaign]. 이렇게 하려면 Adobe 담당자에게 문의하십시오. <!--or Adobe transition manager?-->
+1. 공유하기 [Amazon 리소스 이름(키 ARN)](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"} 포함 [!DNL Adobe Campaign]. 이렇게 하려면 Adobe 담당자에게 문의하십시오. <!--or Adobe transition manager?-->
 
-1. Amazon EventBridge 규칙을 만들고 테스트하여 Adobe으로 키를 모니터링할 수 있습니다&#x200B;. [자세히 알아보기](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}
+1. Amazon EventBridge 규칙을 만들고 테스트하여 Adobe으로 키를 모니터링할 수 있습니다&#x200B;. [자세히 알아보기](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
 
 ## 보안 VPN 터널링 {#secure-vpn-tunneling}
 
-**보안 가상 사설망(VPN) 터널링** 는 사용자의 구내에서 로 개인 네트워크를 통해 전송되는 데이터에 대한 보안 액세스를 제공하는 사이트 간 VPN입니다. [!DNL Adobe Campaign] 인스턴스.
+다음 **보안 가상 사설망(VPN) 터널링** 는 사용자의 구내에서 로 개인 네트워크를 통해 전송되는 데이터에 대한 보안 액세스를 제공하는 사이트 간 VPN입니다. [!DNL Adobe Campaign] 인스턴스.
 
 <!--As it connects two networks together, it is a site-to-site VPN.-->
 
-고가용성(HA)을 보장하기 위해 한 터널에서 문제가 발생할 경우 두 개의 터널을 사용하여 중단을 방지합니다
+HA(High Availability)를 보장하기 위해 한 터널에서 문제가 발생할 경우 두 개의 터널을 사용하여 중단을 방지합니다.
 
 다음 세 가지 사용 사례가 지원됩니다.
 
-* VPN을 통한 FDA<!--to access your on-premise database from the Campaign instance over VPN-->
+* VPN을 통한 FDA(Federated Data Access)<!--to access your on-premise database from the Campaign instance over VPN-->
 
 * Thick 클라이언트에서 VPN을 통해 인스턴스 로그인
 
@@ -68,7 +72,7 @@ ht-degree: 1%
 
 * Adobe 측 VPN 구성을 기반으로 측 VPN을 설정합니다.
 
-* HA를 위해 두 터널을 위쪽으로 유지하라.
+* 고가용성을 위해 두 터널을 모두 위로 유지합니다.
 
 * 측면 터널을 모니터링합니다.
 
