@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 도움말 센터
 title: Adobe Campaign v8 제품 설명서
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 08a7a5f51d20068c31980e7b256e80c36ba6ff31
+source-git-commit: 520a7798cd1969e7c29519cbc918b66a44ff2a71
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 35%
+source-wordcount: '326'
+ht-degree: 34%
 
 ---
 
@@ -18,9 +18,9 @@ Adobe Campaign v8(클라이언트 콘솔) 제품 및 설명서의 최신 개선 
 
 >[!BEGINTABS]
 
->[!TAB Campaign v8.6 릴리스 정보]
+>[!TAB Campaign v8.7 릴리스 정보]
 
-Adobe Campaign의 최신 버전이 이제 라이브입니다. 자세한 내용은 릴리스 정보 를 참조하십시오.
+Adobe Campaign의 최신 버전이 이제 라이브입니다. 이 제품은 LA(Limited Availability)에서 출시됩니다. 자세한 내용은 릴리스 정보 를 참조하십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
 

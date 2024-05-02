@@ -5,7 +5,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 39a3412ab2fae2f45768598feffb7e5078c6acac
+source-git-commit: 520a7798cd1969e7c29519cbc918b66a44ff2a71
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 51%
@@ -22,7 +22,7 @@ Adobe는 새 버전이 나올 때마다 Managed Cloud Services 사용자의 인�
 
 ## 릴리스 8.7.1 {#release-8-7-1}
 
-_2024년 4월 30일 수요일_
+_2024년 5월 2일 금요일_
 
 >[!AVAILABILITY]
 >
