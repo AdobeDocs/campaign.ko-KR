@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 520a7798cd1969e7c29519cbc918b66a44ff2a71
+source-git-commit: c4a289e713d01297a7d38158b3cd4450ceef5276
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '907'
 ht-degree: 51%
 
 ---
@@ -46,7 +46,7 @@ _2024년 5월 2일 금요일_
 
 ### 호환성 업데이트 {#comp-8-7-1}
 
-이제 데이터 블록은 Adobe Campaign FDA(Federated Data Access)를 통해 외부 데이터베이스로 지원됩니다. [이 페이지에서](../connect/fda.md) FDA에 대해 자세히 알아봅니다.
+이제 데이터 블록은 Adobe Campaign FDA(Federated Data Access)를 통해 외부 데이터베이스로 지원됩니다. [이 페이지](compatibility-matrix.md#FederatedDataAccessFDA)에서 자세히 알아보십시오.
 
 ### 일반 개선 사항 {#improvements-8-7-1}
 
