@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c4a289e713d01297a7d38158b3cd4450ceef5276
+source-git-commit: b4f54deaf35c852012a88d1445268bce9be4e8c1
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '912'
 ht-degree: 51%
 
 ---
@@ -28,7 +28,7 @@ _2024년 5월 2일 금요일_
 >
 >이 릴리스는 다음 단계에 있습니다. **제한된 가용성** (LA) 고객 마이그레이션에 제한됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8까지**, 및 은 다른 환경에 배포할 수 없습니다.
 >
->다음 설명서 페이지를 참조하십시오. [Campaign v8로 Campaign Standard 전환](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/acs-migration) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+>Campaign v8로 전환하는 Campaign Standard 사용자는 다음을 참조하십시오. [Campaign v8로 Campaign Standard 전환](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/acs-migration) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
 ### 새로운 기능 {#new-8-7-1}
 
