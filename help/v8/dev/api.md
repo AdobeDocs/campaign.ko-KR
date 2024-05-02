@@ -5,9 +5,9 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 07e85c2933194a24b4275519dd7da9c3226f6a3c
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '282'
 ht-degree: 9%
 
 ---
@@ -27,6 +27,8 @@ JavaScript API를 사용하여 Campaign 클라우드 데이터베이스에서 �
 참고 사항: [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), Campaign은 두 개의 데이터베이스를 사용합니다. 하나는 사용자 인터페이스 실시간 메시지 보내기와 API를 통한 단일 쿼리 및 쓰기를 위한 로컬 데이터베이스이고, 다른 하나는 캠페인 실행, 보고, 데이터 수집, 쿼리 일괄 처리 및 워크플로우 실행을 위한 클라우드 데이터베이스입니다.
 
 >[!CAUTION]
+>
+>* Campaign Standard에서 전환하는 Campaign 사용자는 Campaign v8에서 REST API를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
 >
 >* Campaign v8.5.1부터 Campaign v8에 대한 인증 프로세스가 변경되었습니다. 기술 운영자는 IMS(Adobe Identity Management System)를 사용하여 Campaign에 연결해야 합니다. [이 기술 노트](../../technotes/upgrades/ims-migration.md)에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다.
 >
