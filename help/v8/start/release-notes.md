@@ -5,21 +5,58 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 3a63539bc6bb20fa79bdac76dd60efe7b232458b
+source-git-commit: 39a3412ab2fae2f45768598feffb7e5078c6acac
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '909'
+ht-degree: 51%
 
 ---
 
 # 최신 릴리스{#latest-release}
 
-Adobe Campaign은 정기적으로 업데이트됩니다. 이러한 정기 업데이트 빈도는 최신 업데이트를 직접 경험해 보고 사용 환경을 안전하게 지키며 Adobe 제품 경험을 향상시키는 것을 목표로 합니다. Adobe는 모든 고객에게 최신 버전으로 업그레이드할 것을 강력히 권장합니다. [이 페이지에서](upgrades.md) Campaign 버전 및 권장 사항에 대해 자세히 알아보십시오.
+Adobe Campaign은 정기적으로 업데이트됩니다. 이러한 정기 업데이트 빈도는 최신 업데이트를 직접 경험해 보고 사용 환경을 안전하게 지키며 Adobe 제품 경험을 향상시키는 것을 목표로 합니다. Adobe은 모든 고객에게 최신 버전으로 업그레이드할 것을 강력히 권장합니다.
 
-Adobe는 새 버전이 나올 때마다 Managed Cloud Services 사용자의 인스턴스를 업그레이드합니다. Adobe이 귀하에게 연락하여 환경을 업그레이드합니다. Campaign 클라이언트 콘솔은 **Campaign 서버와 동일한 버전으로 업그레이드**&#x200B;되어야 합니다. [이 페이지에서](../start/connect.md#upgrade-ac-console) 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
+Adobe는 새 버전이 나올 때마다 Managed Cloud Services 사용자의 인스턴스를 업그레이드합니다. Adobe이 귀하에게 연락하여 환경을 업그레이드합니다. Campaign 클라이언트 콘솔은 **Campaign 서버와 동일한 버전으로 업그레이드**&#x200B;되어야 합니다. 클라이언트 콘솔을 업그레이드하는 방법: [페이지](../start/connect.md#upgrade-ac-console).
 
-또한 고객은 [호환성 매트릭스](compatibility-matrix.md)에 나열된 최신 지원 버전의 시스템을 사용하고 있는지 확인하십시오.
+또한 고객은 다음에 나열된 시스템에서 지원되는 최신 버전을 사용하고 있는지 확인하십시오. [호환성 매트릭스](compatibility-matrix.md).
 
+## 릴리스 8.7.1 {#release-8-7-1}
+
+_2024년 4월 30일 수요일_
+
+>[!AVAILABILITY]
+>
+>이 릴리스는 다음 단계에 있습니다. **제한된 가용성** (LA) 고객 마이그레이션에 제한됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8까지**, 및 은 다른 환경에 배포할 수 없습니다.
+>
+>다음 설명서 페이지를 참조하십시오. [Campaign v8로 Campaign Standard 전환](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/acs-migration) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+
+### 새로운 기능 {#new-8-7-1}
+
+* **리치 푸시 알림 템플릿** - 이제 Android를 통해 리치 푸시 알림을 전송할 수 있습니다. 리치 푸시 알림은 이미지, 대화형 버튼 또는 기타 리치 미디어 컨텐츠와 같은 멀티미디어 요소를 통합하여 간단한 텍스트 메시지를 넘어 향상된 형태의 모바일 알림입니다. [자세히 보기](../send/rich-push.md)
+
+* **브랜딩** - 이제 기술 관리자는 Campaign Standard을 마이그레이션한 사용자로서 한 개 또는 여러 브랜드를 정의하여 브랜드 이미지에 영향을 주는 매개 변수를 중앙 집중화할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+
+* **나머지 API** - Campaign Standard을 마이그레이션한 사용자는 Rest API를 사용하여 Adobe Campaign을 위한 통합을 만들고 사용하는 기술 패널과 Adobe Campaign을 연결하여 고유한 에코시스템을 구축할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
+
+* **다이내믹 보고** - Campaign Standard을 마이그레이션한 사용자는 완전히 맞춤화가 가능한 실시간 보고서를 제공하는 Dynamic Reporting에 액세스하여 마케팅 활동의 영향을 측정할 수 있습니다. 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 실용적인 이메일 캠페인 데이터 외에도 성별, 도시 및 연령 등의 프로필 차원별 인구 통계 분석을 활성화합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+
+<!--
+* **New Enhanced security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling.
+-->
+
+### 호환성 업데이트 {#comp-8-7-1}
+
+이제 데이터 블록은 Adobe Campaign FDA(Federated Data Access)를 통해 외부 데이터베이스로 지원됩니다. [이 페이지에서](../connect/fda.md) FDA에 대해 자세히 알아봅니다.
+
+### 일반 개선 사항 {#improvements-8-7-1}
+
+* 여러 스키마가 32비트에서 64비트로 변경되었습니다. 이는 Campaign Standard에서 마이그레이션하는 고객에게만 적용됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html).
+
+* Campaign 테이블에서 새 플래그를 사용하면 lastModified, created 및 createdBy-id 속성에 대한 수정 사항을 처리할 수 있습니다. 플래그가 켜지면 사용자가 이러한 속성에 제공한 값이 무시됩니다. 사용자 컨텍스트의 서버 시간과 ID만 사용됩니다. 플래그가 꺼져 있으면 이러한 속성에 대해 사용자가 제공한 값이 사용됩니다. ignoreTimestampsID 플래그는 &quot;shared&quot; 노드 아래의 serverConf.xml에 있습니다.
+
+### 수정 사항 {#fixes-8-7-1}
+
+이 릴리스에서는 NEO-72648, NEO-71534, NEO-71473, NEO-70263, NEO-70195, NEO-69651, NEO-68704, NEO-68192, NEO-67814, NEO-67702, NEO-67620, NEO-66022, NEO-65774, NEO-65633, NEO-64199, NEO-63706, NEO-63705, NEO-63287, NEO-63197, NEO-62575, NEO-60250, NEO-60192, NEO-58596, NEO-58314 58004 40054 등의 문제가 해결되었습니다
 
 ## 릴리스 8.6.2 {#release-8-6-2}
 

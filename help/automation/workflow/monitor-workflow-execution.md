@@ -5,9 +5,9 @@ description: 워크플로우 실행 모니터링
 feature: Workflows
 role: Admin
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: a78019d11a0a2acbd8c0d9ba7c2082c09f90356c
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1926'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 &quot;일시 중지됨&quot;, &quot;중지됨&quot; 또는 &quot;오류 있음&quot;인 워크플로 세트의 상태를 모니터링할 수 있는 워크플로 생성 방법에 대한 사용 사례는에서 사용할 수 있습니다. [이 섹션](workflow-supervision.md#supervising-workflows).
 
-또한 인스턴스 관리자는 **감사 추적** 워크플로우에 대해 수행된 활동 및 마지막 수정 사항을 확인하려면 워크플로우의 상태를 확인합니다. 에서 감사 추적에 대해 자세히 알아보기  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}.
+또한 인스턴스 관리자는 **감사 추적** 워크플로우에 대해 수행된 활동 및 마지막 수정 사항을 확인하려면 워크플로우의 상태를 확인합니다. 여기에서 감사 추적에 대해 자세히 알아보십시오. [페이지](../../v8/reporting/audit-trail.md){target="_blank"}.
 
 ## 진행 상황 표시 {#displaying-progress}
 

@@ -5,9 +5,9 @@ feature: Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: a78019d11a0a2acbd8c0d9ba7c2082c09f90356c
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '677'
 ht-degree: 19%
 
 ---
@@ -131,4 +131,4 @@ Adobe Campaign은 프로세스와 환경을 모니터링하는 일련의 기능�
 
 감사 추적 셀프서비스 인터페이스를 사용하여 인스턴스 내에서 수행된 변경 사항을 모니터링합니다. 감사 추적은 Adobe Campaign 인스턴스 내에서 발생하는 작업 및 이벤트의 포괄적인 목록을 실시간으로 캡처합니다. 데이터 기록에 액세스하여 워크플로우에 발생한 일, 워크플로우를 마지막으로 업데이트한 사람 또는 사용자가 인스턴스에서 수행한 작업 등의 질문에 답변할 수 있습니다.
 
-에서 감사 추적에 대해 자세히 알아보기  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}
+여기에서 감사 추적에 대해 자세히 알아보십시오. [페이지](../reporting/audit-trail.md){target="_blank"}

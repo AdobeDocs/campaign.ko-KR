@@ -5,17 +5,19 @@ description: Adobe Campaign 웹을 사용하여 Android 리치 푸시 알림 게
 feature: Push
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 5f1ffd5d59791a0e6ff8a67feb08c8eed128cc1e
+source-git-commit: 94dba45c59c699680675bdcd2b73da386d727435
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1135'
 ht-degree: 5%
 
 ---
 
 # Android 리치 푸시 게재 디자인 {#rich-push}
+
+>[!AVAILABILITY]
+>
+>이 기능은 다음 위치에 있습니다. **제한된 가용성** (LA)
 
 Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에서 선택할 수 있습니다.
 
