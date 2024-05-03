@@ -4,7 +4,7 @@ description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 �
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5d3dd679eb7a756200d604601c20c3fed5770fc2
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 0%
@@ -145,7 +145,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 ### 8단계 - 서드파티 API 통합 업데이트 {#ims-migration-step-8}
 
-이제 Adobe Campaign에 호출하여 새로 만든 기술 계정을 사용하려면 API 통합 을 업데이트해야 합니다.
+이제 Adobe Campaign에 호출하여 새로 만든 기술 계정을 사용하려면 모든 API 통합을 업데이트해야 합니다.
 
 원활한 통합을 위한 샘플 코드를 포함하여 API 통합 단계에 대한 자세한 내용은 을 참조하십시오. [Adobe Developer 콘솔 인증 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
