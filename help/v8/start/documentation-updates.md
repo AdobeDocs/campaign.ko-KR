@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
+source-git-commit: 91d19874dfb313a1a470ac4f39cf5af7ca7dfa19
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '151'
 ht-degree: 25%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 25%
 
 ## 2024년 5월 {#may-2024}
 
-다음을 지정하는 메모가 추가되었습니다. **[!UICONTROL Change Dimension]** 및 **[!UICONTROL Change Data source]** 활동은 한 행에 추가해서는 안 되며 **[!UICONTROOL 강화]** 활동. 자세한 내용 [차원 변경](../../automation/workflow/change-dimension.md) 및 [데이터 소스 변경](../../automation/workflow/change-data-source.md) 섹션.
+다음을 지정하는 메모가 추가되었습니다. **[!UICONTROL Change Dimension]** 및 **[!UICONTROL Change Data source]** 활동은 한 행에 추가해서는 안 되며 **[!UICONTROL Enrichement]** 활동. 자세한 내용 [차원 변경](../../automation/workflow/change-dimension.md) 및 [데이터 소스 변경](../../automation/workflow/change-data-source.md) 섹션.
 
 ## 2024년 2월 {#feb-2024}
 
