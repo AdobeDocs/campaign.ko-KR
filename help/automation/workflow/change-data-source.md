@@ -4,9 +4,9 @@ description: 데이터 소스 변경 활동에 대해 자세히 알아보기
 feature: Workflows, Data Management, Federated Data Access
 role: User
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 2%
 사용 **[!UICONTROL Change Data Source]** 다른 데이터 소스를 사용하기 위한 활동 **[!UICONTROL Working table]**.
 
 를 사용할 때는 **[!UICONTROL Change Data Source]** 활동에서 워크플로우 실행을 계속하려면 클라우드 데이터베이스로 다시 전환해야 합니다.
+
+>[!IMPORTANT]
+>
+>다음 사항에 유의하십시오. **[!UICONTROL Change Dimension]** 및 **[!UICONTROL Change Data source]** 활동은 한 행에 추가해서는 안 됩니다. 두 활동을 연속해서 사용해야 하는 경우 다음을 포함해야 합니다. **[!UICONTROOL 강화]** 활동. 이렇게 하면 적절한 실행이 보장되며 잠재적인 충돌 또는 오류가 방지됩니다.
 
 을(를) 사용하려면 **[!UICONTROL Change Data Source]** 활동. 다음을 수행해야 합니다.
 

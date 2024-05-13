@@ -5,9 +5,9 @@ description: 차원 변경 활동을 사용하는 방법 알아보기
 feature: Workflows, Targeting Activity
 role: User
 exl-id: 71f36413-377a-4be6-921c-9e794fe882fd
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '414'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 사용 **[!UICONTROL Change dimension]** 활동을 통해 대상을 구축할 때 타겟팅 차원을 변경할 수 있습니다. 이 활동은 데이터 템플릿과 입력 차원에 따라 축을 전환합니다. 예를 들어 &quot;계약&quot; 차원에서 &quot;클라이언트&quot; 차원으로 전환합니다.
 
 또한 이 활동을 사용하여 새 타겟의 추가 열을 정의하고 데이터 중복 제거 기준을 정의할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>다음 사항에 유의하십시오. **[!UICONTROL Change Dimension]** 및 **[!UICONTROL Change Data source]** 활동은 한 행에 추가해서는 안 됩니다. 두 활동을 연속해서 사용해야 하는 경우 다음을 포함해야 합니다. **[!UICONTROOL 강화]** 활동. 이렇게 하면 적절한 실행이 보장되며 잠재적인 충돌 또는 오류가 방지됩니다.
 
 을(를) 구성하려면 다음을 수행하십시오. **[!UICONTROL Change dimension]** 활동에서 다음 단계를 적용합니다.
 
