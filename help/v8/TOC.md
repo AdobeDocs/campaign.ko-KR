@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 7ea0224f3483221596b9277133516e4624afdabf
+source-git-commit: 5ad40a349df472ace07f124776517c41f4bddc5e
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 99%
+source-wordcount: '612'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
    + [사용자 인터페이스 살펴보기](start/campaign-ui.md)
    + [Campaign에 연결](start/connect.md)
    + [구성 요소 및 프로세스](start/ac-components.md)
-   + [Classic v7에서 v8까지](start/v7-to-v8.md)
+   + [Campaign Classic v7에서 v8까지](start/v7-to-v8.md)
    + [Campaign Standard에서 v8로의 전환](start/acs-to-v8.md)
    + [FAQ](start/campaign-faq.md)
 + 캠페인 관리 {#campaigns}
@@ -201,5 +201,7 @@ ht-degree: 99%
       + [데이터베이스 업데이트](dev/update-database-structure.md)
       + [입력 양식](dev/forms.md)
    + [Campaign API](dev/api.md)
-+ [Campaign 컨트롤 패널 >](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
-+ [Campaign Automation 안내서 >](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko)
++ [Campaign 컨트롤 패널 >](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home)
++ [Campaign Automation 안내서 >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
++ [Campaign 웹 사용자 인터페이스 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home)
+
