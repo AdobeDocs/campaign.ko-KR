@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 1f113f63089395269c494a9328d633684977912a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 97%
+source-wordcount: '898'
+ht-degree: 90%
 
 ---
 
@@ -52,7 +52,7 @@ _2024년 5월 2일_
 
 * 여러 스키마가 32비트에서 64비트로 변경되었습니다. 이는 Campaign Standard에서 마이그레이션하는 고객에게만 적용됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=ko).
 
-* Campaign 테이블에서 새 플래그를 사용하면 lastModified, created 및 createdBy-id 속성에 대한 수정 사항을 처리할 수 있습니다. 플래그가 켜져 있으면 사용자가 이러한 속성에 제공한 값이 무시됩니다. 사용자 컨텍스트의 서버 시간과 ID만 사용됩니다. 플래그가 꺼져 있으면 사용자가 이러한 속성에 제공한 값이 사용됩니다. ignoreTimestampsID 플래그는 “shared” 노드 아래의 serverConf.xml에 있습니다.
+* 이제 Campaign 테이블에서 lastModified, created, createdBy-id 속성은 기본적으로 서버 날짜 및 시간으로 채워집니다. API 호출에서 사용자가 제공한 값은 무시됩니다. 이 구성은 Campaign 서버 구성 파일에서 변경할 수 있습니다. 관리 Cloud Service 고객인 경우 이 기본 구성을 변경하려면 Adobe에 연락해야 합니다.
 
 ### 수정 사항 {#fixes-8-7-1}
 
