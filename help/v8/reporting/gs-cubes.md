@@ -46,7 +46,7 @@ Campaign Marketing Analytics 모듈을 사용하여 다음을 수행합니다.
 1. 큐브에서 계산되고 집계된 데이터를 사용하여 쿼리를 작성합니다.
 1. 모집단을 식별하고 목록에서 참조합니다.
 
-## Terminology {#terminology}
+## 용어 {#terminology}
 
 큐브로 작업할 때의 특정 용어는 아래에 나와 있습니다.
 

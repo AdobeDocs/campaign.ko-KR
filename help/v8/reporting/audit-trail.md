@@ -3,7 +3,8 @@ product: campaign
 title: 감사 추적
 description: Campaign 감사 추적을 사용하여 인스턴스를 모니터링하는 방법 알아보기
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: bb74393f0b24fa5b9781eee15c4527daba527192
+exl-id: 6a937575-42d4-4dc5-8168-43c25bb2cde6
+source-git-commit: b4b361a4aabd1b33554166c2638989b99a02baec
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 2%

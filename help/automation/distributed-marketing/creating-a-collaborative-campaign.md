@@ -100,7 +100,7 @@ ht-degree: 3%
 
 ![](assets/mkg_dist_mutual_op_by_valid2.png)
 
-### 심플 {#simple}
+### 단순 {#simple}
 
 간단한 공동 작업 캠페인을 만들려면 **[!UICONTROL Collaborative campaign (simple)]** 템플릿을 선택해야 합니다.
 

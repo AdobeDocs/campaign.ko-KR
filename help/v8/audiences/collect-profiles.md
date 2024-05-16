@@ -8,7 +8,7 @@ exl-id: a228c0dc-80f5-4c51-b73b-ced0aa27a65a
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 24%
+ht-degree: 38%
 
 ---
 
@@ -18,4 +18,4 @@ Campaign을 사용하여 웹 양식을 만들고 쉽고 효율적으로 프로�
 
 ![](assets/web-form-page.png)
 
-에서 웹 양식을 만드는 방법 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ko){target="_blank"}.
+웹 양식을 만드는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ko){target="_blank"}를 참조하십시오.

@@ -8,7 +8,7 @@ exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
 source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
 workflow-type: tm+mt
 source-wordcount: '1919'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -121,7 +121,7 @@ _2022년 9월 30일_
 
 >[!CAUTION]
 >
-> 클라이언트 콘솔 업그레이드는 필수입니다. 클라이언트 콘솔을 업그레이드하는 방법: [페이지](../start/connect.md#download-ac-console).
+> 클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../start/connect.md#download-ac-console)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
 
 _2022년 10월 7일_
 

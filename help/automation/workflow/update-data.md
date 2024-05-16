@@ -7,7 +7,7 @@ exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -80,7 +80,7 @@ An **데이터 업데이트**-type 활동은 데이터베이스의 필드에 대
 
 **[!UICONTROL Generate an outbound transition for the rejects]**
 
-업데이트 후 올바르게 처리되지 않은 레코드(예: 중복이 있는 경우)가 들어 있는 아웃바운드 전환을 만듭니다. 업데이트는 일반적으로 타겟팅 워크플로우의 끝을 표시하므로 옵션이 기본적으로 활성화되지 않습니다.
+업데이트 후 올바르게 처리되지 않은 레코드(예: 중복이 있는 경우)가 들어 있는 아웃바운드 전환을 만듭니다. 업데이트는 일반적으로 타겟팅 워크플로의 끝을 표시하므로 해당 옵션은 기본적으로 활성화되지 않습니다.
 
 ## 컬렉션 업데이트 및 병합 {#updating-and-merging-collections}
 

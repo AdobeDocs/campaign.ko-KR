@@ -24,7 +24,7 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 
   ![](assets/subscribe-to-a-service.png)
 
-  자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab)를 참조하세요{target="_blank"}
+  자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}를 참조하세요
 
 * 수신자 집합을 서비스에 자동으로 구독합니다. 수신자 목록은 필터링 작업, 그룹, 폴더, 가져오기 또는 직접 수동 선택에서 가져올 수 있습니다. 이러한 수신자를 구독하려면 프로필을 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Actions > Subscribe selection to a service...]**&#x200B;을(를) 선택합니다.
 
@@ -34,7 +34,7 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 
   ![](assets/subscribe-confirm.png)
 
-  자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab)를 참조하세요{target="_blank"}
+  자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}를 참조하세요
 
 
 * 수신자를 가져와 정보 서비스에 자동으로 가입합니다. 이렇게 하려면 가져오기 마법사의 마지막 단계에서 관련 서비스를 선택합니다.

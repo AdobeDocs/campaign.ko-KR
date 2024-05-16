@@ -8,7 +8,7 @@ exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -103,7 +103,7 @@ The web access interface is similar to the console interface. From a browser, yo
 
 ## Campaign 웹 사용자 인터페이스 {#ac-web-ui}
 
-v8.6.1 릴리스를 시작하는 Campaign v8 클라이언트 콘솔 사용자는 이제 중앙 Adobe Experience Cloud 사용자 인터페이스를 통해 사용 가능한 웹 환경에 액세스할 수 있습니다. Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능 및 서비스에 빠르게 액세스할 수 있습니다.
+v8.6.1 릴리스를 시작하는 Campaign v8 클라이언트 콘솔 사용자는 이제 중앙 Adobe Experience Cloud 사용자 인터페이스를 통해 사용 가능한 웹 환경에 액세스할 수 있습니다. Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능, 서비스에 빠르게 액세스할 수 있습니다. 
 
 ![Adobe Campaign 웹 사용자 인터페이스 홈 페이지](assets/ac-web-home.png)
 

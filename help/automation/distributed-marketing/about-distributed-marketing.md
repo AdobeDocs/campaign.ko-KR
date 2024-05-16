@@ -22,7 +22,7 @@ Adobe Campaign은 **분산 마케팅** 중앙 엔터티(본사, 마케팅 부서
 >
 >분산 마케팅 모듈은 **캠페인** 옵션을 선택합니다. 사용권 계약을 확인하십시오.
 
-## Terminology {#terminology}
+## 용어 {#terminology}
 
 * **중앙 엔티티**
 

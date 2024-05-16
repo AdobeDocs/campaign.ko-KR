@@ -95,7 +95,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 **[!DNL Adobe Experience Platform Privacy Service]** 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 개인 정보 보호 요청을 자동화할 수 있습니다. Adobe Campaign은 전용 워크플로우를 통해 Privacy Service에서 푸시된 요청을 자동으로 처리합니다.
 
-개인 정보 보호 핵심 서비스에서 개인 정보 보호 요청을 만드는 방법에 대해 알아보려면 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko) 설명서를 참조하십시오.{target="_blank"}
+개인 정보 보호 핵심 서비스에서 개인 정보 보호 요청을 만드는 방법에 대해 알아보려면 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko){target="_blank"} 설명서를 참조하십시오.
 
 각 **[!DNL Privacy Service]** 작업은 사용 중인 네임스페이스의 수를 기준으로 Adobe Campaign에서 여러 개인 정보 보호 요청으로 분할되며, 하나의 요청은 하나의 네임스페이스에 해당합니다.
 
