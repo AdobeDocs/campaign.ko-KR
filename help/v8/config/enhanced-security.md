@@ -7,9 +7,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 042a1cc96b819a1a77442e274defbadeb393eafc
+source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 ## 안전한 고객 관리 키 통합 {#secure-cmk-integration}
 
-다음 **CMK(Secure Customer-Managed Key) 통합** 에서는 Amazon Web Services(AWS) 계정을 통해 자체 키를 사용하여 인스턴스 및 데이터를 암호화할 수 있습니다.
+다음 **CMK(Secure Customer-Managed Key) 통합** 에서는 Amazon Web Services(AWS) 계정을 통해 자체 키를 사용하여 미사용 데이터를 암호화할 수 있습니다.
 
 고객 관리 키는 사용자가 생성, 소유 및 관리하는 AWS 계정의 KMS(키 관리 서비스) 키입니다. 이러한 KMS 키를 완벽하게 제어할 수 있으며 이 키를 사용하여 데이터를 암호화하고 해독합니다. 암호화 키 생성 및 관리를 책임지게 함으로써 키 취소 등 암호화 키를 보다 세밀하게 제어할 수 있습니다.
 
