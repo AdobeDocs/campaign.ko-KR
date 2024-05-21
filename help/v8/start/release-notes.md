@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: b364b557bdf060e022196786a970517056eb2bf7
+source-git-commit: 247d687597c6784aec49b70f9e68f50e49d169dd
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '868'
 ht-degree: 93%
 
 ---
@@ -52,7 +52,7 @@ _2024년 5월 2일_
 
 * 여러 스키마가 32비트에서 64비트로 변경되었습니다. 이는 Campaign Standard에서 마이그레이션하는 고객에게만 적용됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=ko){target="_blank"}
 
-* 이제 Campaign 테이블에서 lastModified, created, createdBy-id 속성은 기본적으로 서버 날짜 및 시간으로 채워집니다. API 호출에서 사용자가 제공한 값은 무시됩니다. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
+* 이제 Campaign 테이블에서 다음 속성이 서버 날짜 및 시간으로 기본적으로 채워집니다. `lastModified` 및 `created`. API 호출에서 사용자가 제공한 값은 무시됩니다. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### 수정 사항 {#fixes-8-7-1}
 
