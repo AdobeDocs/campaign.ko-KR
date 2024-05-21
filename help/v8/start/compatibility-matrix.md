@@ -5,10 +5,10 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: 1857f0f40d554abededfaa0c1e3dec4b57ca23b7
+source-git-commit: 55c16fe19125ea54035a8f97928484c7baea161b
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 95%
 
 ---
 
@@ -57,6 +57,10 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**
+
+
+>[!AVAILABILITY]
+>또한 [향상된 보안 추가 기능](../config/enhanced-security.md)보안 VPN 튜닝을 통해 온-프레미스 데이터베이스에 액세스할 수 있습니다. [자세히 알아보기](../config/enhanced-security.md#vpn-callouts)
 
 ## 모바일 SDK {#MobileSDK}
 

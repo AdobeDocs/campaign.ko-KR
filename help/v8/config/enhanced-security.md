@@ -4,12 +4,10 @@ description: Campaign 향상된 보안 추가 기능 시작
 feature: Configuration
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 55c16fe19125ea54035a8f97928484c7baea161b
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '753'
 ht-degree: 3%
 
 ---
@@ -90,7 +88,7 @@ HA(High Availability)를 보장하기 위해 한 터널에서 문제가 발생�
 
 다음 세 가지 사용 사례가 지원됩니다.
 
-* VPN을 통한 FDA(Federated Data Access)<!--to access your on-premise database from the Campaign instance over VPN-->
+* VPN을 통해 Campaign 인스턴스에서 온-프레미스 데이터베이스에 액세스하기 위한 VPN을 통한 FDA(Federated Data Access)
 
 * Thick 클라이언트에서 VPN을 통해 인스턴스 로그인
 
@@ -117,7 +115,7 @@ HA(High Availability)를 보장하기 위해 한 터널에서 문제가 발생�
 
 Adobe Campaign v8과의 VPN 터널링 통합에는 다음 보호 기능 및 제한 사항이 적용됩니다.
 
-* 현재 지원되는 온-프레미스 데이터베이스는 다음과 같습니다<!--Richa to check the list with PM-->:
+* 온-프레미스 데이터베이스만 지원됩니다. 예:<!--Richa to check the list with PM-->:
 
    * MySQL
    * Netezza
