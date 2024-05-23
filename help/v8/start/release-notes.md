@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 247d687597c6784aec49b70f9e68f50e49d169dd
+source-git-commit: 74523cc93f694710e136b191fec3372872605ab6
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 93%
+source-wordcount: '996'
+ht-degree: 81%
 
 ---
 
@@ -46,13 +46,18 @@ _2024년 5월 2일_
 
 ### 호환성 업데이트 {#comp-8-7-1}
 
-이제 Databricks는 Adobe Campaign FDA(Federated Data Access)를 통해 외부 데이터베이스로 지원됩니다. [이 페이지](compatibility-matrix.md#FederatedDataAccessFDA)에서 자세히 알아보십시오.
+* 이제 Databricks는 Adobe Campaign FDA(Federated Data Access)를 통해 외부 데이터베이스로 지원됩니다. [이 페이지](compatibility-matrix.md#FederatedDataAccessFDA)에서 자세히 알아보십시오.
+
+* 이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Adobe은 Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 위해 JWT를 OAuth로 마이그레이션합니다.
+
+  Campaign과 인바운드 통합을 구현하면에 자세히 설명된 대로 기술 계정을 마이그레이션해야 합니다. [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 기존 서비스 계정(JWT) 자격 증명은 **2025년 1월 27일**. 또한 개발자 콘솔은 까지 새 서비스 계정(JWT) 자격 증명 만들기를 계속 지원합니다 **2024년 6월 3일**. 이 날짜 이후에는 새 서비스 계정(JWT) 자격 증명을 만들거나 프로젝트에 추가할 수 없습니다.
+
 
 ### 일반 개선 사항 {#improvements-8-7-1}
 
 * 여러 스키마가 32비트에서 64비트로 변경되었습니다. 이는 Campaign Standard에서 마이그레이션하는 고객에게만 적용됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=ko){target="_blank"}
 
-* 이제 Campaign 테이블에서 다음 속성이 서버 날짜 및 시간으로 기본적으로 채워집니다. `lastModified` 및 `created`. API 호출에서 사용자가 제공한 값은 무시됩니다. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
+* 이제 Campaign 테이블에서 다음 속성이 서버 날짜 및 시간으로 기본적으로 채워집니다. `lastModified` 및 `created`. 다음 `createdBy-id` 이제 속성 값이 기본적으로 현재 로그인 ID로 채워집니다. API 호출에서 사용자가 제공한 값은 무시됩니다. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### 수정 사항 {#fixes-8-7-1}
 
