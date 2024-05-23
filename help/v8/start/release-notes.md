@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 74523cc93f694710e136b191fec3372872605ab6
+source-git-commit: b280be52621890c9bd840182d3ad0389912568d4
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 81%
+source-wordcount: '1035'
+ht-degree: 78%
 
 ---
 
@@ -40,9 +40,8 @@ _2024년 5월 2일_
 
 * **다이내믹 보고** - Campaign Standard를 마이그레이션한 사용자는 완전히 맞춤화가 가능한 실시간 보고서를 제공하는 다이내믹 보고에 액세스하여 마케팅 활동의 영향을 측정할 수 있습니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ko){target="_blank"}
 
-<!--
-* **New Enhanced security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling.
--->
+* **새로운 향상된 보안 추가 기능**: 네트워크 연결을 보다 안전하게 만들고 리소스에 대한 향상된 보안을 제공하기 위해 Adobe Campaign에서는 보안 CMK 통합 및 보안 VPN 터널링의 두 가지 기능이 포함된 새로운 향상된 보안 추가 기능을 제공합니다. [자세히 보기](../config/enhanced-security.md)
+
 
 ### 호환성 업데이트 {#comp-8-7-1}
 
