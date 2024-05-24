@@ -8,7 +8,7 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: b280be52621890c9bd840182d3ad0389912568d4
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 78%
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,7 @@ _2024년 5월 2일_
 >
 >이 릴리스는 **제한 공개**(LA) 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 >
->Campaign Standard 사용자가 Campaign v8로 전환하는 경우에서 이 전환에 대해 자세히 알아보십시오. [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}.
+>Campaign v8로 전환하는 Campaign Standard 사용자라면 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}를 통해 전환 과정을 자세히 확인할 수 있습니다.
 
 ### 새로운 기능 {#new-8-7-1}
 
@@ -36,7 +36,7 @@ _2024년 5월 2일_
 
 * **브랜딩** - Campaign Standard로 마이그레이션한 사용자로서 기술 관리자는 이제 하나 이상의 브랜드를 정의하여 브랜드의 정체성에 영향을 미치는 매개 변수를 중앙 집중화할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ko){target="_blank"}
 
-* **Rest API** - Campaign Standard를 마이그레이션한 사용자는 Rest API를 사용하여 Adobe Campaign을 위한 통합을 만들고 사용하는 기술 패널과 Adobe Campaign을 연결하여 고유한 에코시스템을 구축할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ko){target="_blank"}
+* **Rest API** - Campaign Standard를 마이그레이션한 사용자는 Rest API를 사용하여 Adobe Campaign을 위한 통합을 만들고, 사용하는 기술 패널과 Adobe Campaign을 연결하여 고유한 에코시스템을 구축할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ko){target="_blank"}
 
 * **다이내믹 보고** - Campaign Standard를 마이그레이션한 사용자는 완전히 맞춤화가 가능한 실시간 보고서를 제공하는 다이내믹 보고에 액세스하여 마케팅 활동의 영향을 측정할 수 있습니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ko){target="_blank"}
 
@@ -56,7 +56,7 @@ _2024년 5월 2일_
 
 * 여러 스키마가 32비트에서 64비트로 변경되었습니다. 이는 Campaign Standard에서 마이그레이션하는 고객에게만 적용됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=ko){target="_blank"}
 
-* 이제 Campaign 테이블에서 다음 속성이 서버 날짜 및 시간으로 기본적으로 채워집니다. `lastModified` 및 `created`. 다음 `createdBy-id` 이제 속성 값이 기본적으로 현재 로그인 ID로 채워집니다. API 호출에서 사용자가 제공한 값은 무시됩니다. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
+* 이제 Campaign 테이블에서 `lastModified` 및 `created` 속성에 기본적으로 서버 날짜 및 시간이 입력됩니다. 다음 `createdBy-id` 이제 속성 값이 기본적으로 현재 로그인 ID로 채워집니다. API 호출에서 사용자가 제공한 값은 무시됩니다. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### 수정 사항 {#fixes-8-7-1}
 
