@@ -5,14 +5,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: fb0b7dbeae1d083935da91bbe50a711ce5f47b7e
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1319'
 ht-degree: 29%
 
 ---
 
-# 메시지 시작{#gs-ac-audiences}
+# 메시지 시작 {#gs-ac-audiences}
+
+## 게재 채널 {#gs-ac-channels}
 
 Adobe Campaign에서는 이메일, SMS, 푸시 알림 및 DM 등 크로스 채널 캠페인을 보내고, 다양한 전용 보고서를 사용하여 캠페인의 효과를 측정할 수 있습니다. 이러한 메시지는 게재를 통해 디자인되고 전송되며 각 수신자에 대해 개인화할 수 있습니다.
 
@@ -35,7 +37,7 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
   >
   >사용 가능한 채널 수는 계약에 따라 다릅니다. 사용권 계약을 확인하십시오.
 
-## 채널 선택{#gs-channel}
+## 채널 선택 {#gs-channel}
 
 ### 이메일 채널 {#gs-channel-email}
 

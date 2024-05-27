@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 3e95a56825a143a4457ab7ee242208d7daaeb414
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1160'
 ht-degree: 9%
 
 ---
@@ -44,42 +44,45 @@ ht-degree: 9%
 
 로드 밸런싱을 위해 게재를 여러 배치로 나눌 수 있습니다. 전체 게재에 대한 배치 수와 배치 비율을 구성합니다.
 
->[!NOTE]
->
->크기와 두 연속 예약된 예약된 예약된 일괄 처리 사이의 지연 시간만 정의할 수 있습니다. 각 웨이브에 대한 수신자 선택 기준을 구성할 수 없습니다.
+웨이브를 정의하려면 다음 단계를 수행합니다.
 
-1. 게재 속성 창을 열고 **[!UICONTROL Delivery]** 탭.
-1. 다음 항목 선택 **[!UICONTROL Send using multiple waves]** 옵션을 클릭하고 **[!UICONTROL Define waves...]** 링크를 클릭합니다.
+1. 게재 속성을 열고 **[!UICONTROL Delivery]** 탭.
+1. 활성화 **[!UICONTROL Send using multiple waves]** 옵션을 클릭하고 **[!UICONTROL Define waves...]** 링크를 클릭합니다.
 
    ![](assets/delivery-define-waves.png)
 
-1. 웨이브를 구성하려면 다음 중 하나를 수행할 수 있습니다.
 
-   * 각 웨이브의 크기를 정의합니다. 예를 들어, **[!UICONTROL 30%]** 해당 필드에서 각 웨이브는 게재에 포함된 메시지의 30%를 나타내며, 마지막 웨이브는 메시지의 10%를 나타냅니다.
+1. 아래에 자세히 설명된 대로 웨이브를 구성합니다.
 
-     다음에서 **[!UICONTROL Period]** 필드에서는 연속되는 두 예약된 일괄 처리 시작 사이의 지연 시간을 지정합니다. 예를 들어, **[!UICONTROL 2d]**&#x200B;이제 곧 바로 첫 번째 물결이 시작될 것이고 두 번째 물결이 이틀 만에, 세 번째 물결이 나흘 만에 시작될 것이다.
-
-     ![](assets/delivery-waves-size.png)
-
-   * 각 웨이브를 보내는 달력을 정의합니다.
-
-     다음에서 **[!UICONTROL Start]** 열에서 연속되는 두 예약된 일괄 처리 시작 사이의 지연 시간을 지정합니다. 다음에서 **[!UICONTROL Size]** 열에서 고정 숫자 또는 백분율을 입력합니다.
-
-     아래 예에서 첫 번째 웨이브는 게재에 포함된 총 메시지 수의 25%를 나타내며 즉시 시작됩니다. 다음 두 파동은 배달을 완료하고 6시간 간격으로 시작하도록 설정된다.
-
-     ![](assets/delivery-waves-calendar.png)
-
-   특정 유형화 규칙, **[!UICONTROL Wave scheduling check]**&#x200B;를 사용하면 게재 유효성 검사 제한 전에 마지막 웨이브가 계획되도록 할 수 있습니다. 캠페인 유형화 및 해당 규칙, **[!UICONTROL Typology]** 게재 속성의 탭은에 표시됩니다. [이 섹션](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
-
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >마지막 예약된 일괄 처리가 **[!UICONTROL Validity]** 탭. 그렇지 않으면 일부 메시지가 전송되지 않을 수 있습니다.
-   >
-   >마지막 웨이브를 구성할 때 재시도 시간도 충분히 허용해야 합니다. <!--See [this section]().-->
+   >크기와 두 연속 예약된 예약된 예약된 일괄 처리 사이의 지연 시간만 정의할 수 있습니다. 각 웨이브에 대한 수신자 선택 기준을 구성할 수 없습니다.
 
-1. 전송을 모니터링하려면 게재 로그로 이동합니다. [이 페이지](send.md)<!--ref TBC-->를 참조하십시오.
+다음 중 하나를 정의할 수 있습니다.
 
-   처리된 웨이브에서 이미 전송된 게재를 볼 수 있습니다(**[!UICONTROL Sent]** 상태) 및 나머지 웨이브로 전송할 게재(**[!UICONTROL Pending]** 상태).
+    * **각 물결의 크기**. 예를 들어, 를 입력하는 경우 다음을 수행합니다**[!UICONTROL 30%]** 필드에서 각 웨이브는 게재에 포함된 메시지의 30%를 나타내며, 마지막 웨이브는 메시지의 10%를 나타냅니다.
+    
+    **[!UICONTROL Period]** 필드에서는 연속되는 두 예약된 일괄 처리 시작 사이의 지연 시간을 지정합니다. 예를 들어, 를 입력하는 경우 다음을 수행합니다**[!UICONTROL 2d]** 1차 물결이 바로 시작되겠고 2차 물결이 이틀 만에, 3차 물결이 나흘 만에 시작되겠지요.
+    
+    ![](assets/delivery-waves-size.png)
+    
+    **각 웨이브를 보내는 캘린더**  예를 들어 첫 번째 파는 게재에 포함된 총 메시지 수의 25%를 나타내며 즉시 시작됩니다. 다음 두 파동은 배달을 완료하고 6시간 간격으로 시작하도록 설정된다.
+    
+    **[!UICONTROL Start]열** 연속되는 두 웨이브의 시작 사이의 지연 시간을 지정합니다. **[!UICONTROL Size]열** 고정 숫자 또는 백분율을 입력합니다.
+    
+    ![](assets/delivery-waves-calendar.png)
+
+특정 유형화 규칙, **[!UICONTROL Wave scheduling check]**&#x200B;를 사용하면 게재 유효성 검사 제한 전에 마지막 웨이브가 계획되도록 할 수 있습니다. 캠페인 유형화 및 해당 규칙, **[!UICONTROL Typology]** 게재 속성의 탭은에 표시됩니다. [이 섹션](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+
+>[!IMPORTANT]
+>
+>마지막 예약된 일괄 처리가 **[!UICONTROL Validity]** 탭. 그렇지 않으면 일부 메시지가 전송되지 않을 수 있습니다. 에서 게재 유효 기간에 대해 자세히 알아보기 [이 섹션](delivery-failures.md#valid-period).
+>
+>마지막 웨이브를 구성할 때 재시도 시간도 충분히 설정해야 합니다. 에서 다시 시도에 대해 자세히 알아보기 [이 섹션](delivery-failures.md#retries).
+
+전송을 모니터링하려면 게재 로그를 찾습니다. 다음을 참조하십시오 [이 페이지](send.md)
+
+처리된 웨이브에서 이미 전송된 게재를 볼 수 있습니다(**[!UICONTROL Sent]** 상태) 및 나머지 웨이브로 전송할 게재(**[!UICONTROL Pending]** 상태).
 
 아래의 두 가지 예는 다중 웨이브를 사용하는 가장 일반적인 사용 사례입니다.
 
@@ -93,11 +96,11 @@ ht-degree: 9%
 
   ![](assets/delivery-waves-ex-ramp-up.png)
 
-* **콜 센터 관련 캠페인**
+* **콜 센터가 있는 캠페인**
 
-  전화 충성도 캠페인을 관리할 때 조직에서는 구독자에게 연락하는 호출 수를 처리하는 데 제한이 있습니다.
+  전화로 충성도 캠페인을 관리할 때 조직에서는 연락하는 구독자에 대한 호출 수를 처리하는 데 제한이 있습니다.
 
-  웨이브를 사용하여 메시지 수를 콜센터의 일일 처리 용량인 하루에 20개로 제한할 수 있습니다.
+  예를 들어, 콜센터의 일일 처리 용량을 고려하여 웨이브를 사용하여 메시지 수를 하루에 20개로 제한할 수 있습니다.
 
   이렇게 하려면 **[!UICONTROL Schedule multiple waves of the same size]** 옵션을 선택합니다. 입력 **[!UICONTROL 20]** 파도의 크기와 **[!UICONTROL 1d]** 다음에서 **[!UICONTROL Period]** 필드.
 

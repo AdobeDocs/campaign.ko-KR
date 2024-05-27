@@ -5,9 +5,9 @@ description: 공급자, 재고 및 예산
 feature: Budget Management, Campaigns
 role: User
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '1832'
+source-wordcount: '1830'
 ht-degree: 1%
 
 ---
@@ -148,7 +148,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
   ![](assets/supplier-mail-delivery-select.png)
 
-* 모바일 채널 또는 전화에서 전송하는 경우에도 동일한 선택 모드가 적용됩니다.
+* 모바일 채널에서 전송하는 경우에도 동일한 선택 모드가 적용됩니다.
 * 이메일 게재의 경우 다음에서 서비스가 선택됩니다. **[!UICONTROL Advanced]** 다음 예제와 같이 게재 속성에서 탭을 선택합니다.
 
   ![](assets/supplier-email-delivery-select.png)

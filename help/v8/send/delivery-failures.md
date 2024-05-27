@@ -5,7 +5,7 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
 source-wordcount: '2990'
 ht-degree: 5%
@@ -103,7 +103,7 @@ Bounce mails can have the following qualification status:
 >
 >게재 속성의 다시 시도 설정은 Campaign에서 사용되지 않습니다.
 
-## 유효 기간
+## 유효 기간 {#valid-period}
 
 Campaign 게재의 유효 기간 설정은 다음으로 제한됩니다. **3.5일 이하**. 게재의 경우 Campaign에서 3.5일보다 큰 값을 정의하면 고려되지 않습니다.
 
