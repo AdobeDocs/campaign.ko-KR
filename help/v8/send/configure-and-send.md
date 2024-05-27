@@ -5,14 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
+source-git-commit: 52863e9cb3b9ccf03c8e2b838827af862b30e3b9
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 9%
+source-wordcount: '1178'
+ht-degree: 8%
 
 ---
 
 # 게재 구성 및 보내기 {#configure-delivery}
+
+게재 매개 변수에 액세스하여 더 많은 설정을 구성하고 메시지를 보내는 방법을 정의합니다. 게재를 정의할 수 있습니다 [우선 순위](#delivery-priority), 설정 [예약된 일괄 처리](#sending-using-multiple-waves), 게재 전송을 테스트합니다. 이 구성이 완료되면 의 설명에 따라 전송을 확인할 수 있습니다. [이 섹션](#confirm-delivery). 그런 다음 메시지는 즉시 또는 게재를 기반으로 전송됩니다 [예약](#schedule-delivery-sending).
 
 ## 추가 매개 변수 설정 {#delivery-additional-parameters}
 
@@ -20,25 +22,27 @@ ht-degree: 9%
 
 ![](assets/delivery-properties-delivery.png)
 
-* **[!UICONTROL Delivery priority]**: 이 옵션을 사용하여 우선 순위 수준을 설정하여 게재 전송 순서를 변경할 수 있습니다. **[!UICONTROL Very low]** 끝 **[!UICONTROL Very high]** (기본값: **[!UICONTROL Normal]**).
+### 게재 우선 순위 {#delivery-priority}
 
-* **[!UICONTROL Message batch quantity]**: 이 옵션을 사용하여 동일한 XML 게재 패키지 내에 그룹화된 메시지 수를 정의합니다. 매개 변수를 0으로 설정하면 메시지가 자동으로 그룹화됩니다. 패키지 크기는 계산에 의해 정의됩니다 `<delivery size>/1024`패키지로 최소 8개, 최대 256개의 메시지 전송
+사용 **[!UICONTROL Delivery priority]** 우선 순위 수준을 설정하여 게재의 전송 순서를 변경하는 옵션이에서 **[!UICONTROL Very low]** 끝 **[!UICONTROL Very high]** (기본값: **[!UICONTROL Normal]**).
 
-  >[!IMPORTANT]
-  >
-  >기존 게재를 복제하여 게재를 만들 때 이 매개 변수는 재설정됩니다.
+### 일괄 처리 수량
 
-* **[!UICONTROL Send using multiple waves]**: 이 옵션을 사용하여 메시지를 전체 대상자에게 한 번에 보내지 않고 일괄적으로 보낼 수 있습니다. [자세히 알아보기](#sending-using-multiple-waves)
+사용  **[!UICONTROL Message batch quantity]** 동일한 XML 게재 패키지 내에서 그룹화된 메시지 수를 정의하는 옵션입니다. 매개 변수를 0으로 설정하면 메시지가 자동으로 그룹화됩니다. 패키지 크기는 계산에 의해 정의됩니다 `<delivery size>/1024`패키지로 최소 8개, 최대 256개의 메시지 전송
 
-* **[!UICONTROL Test SMTP delivery]**: SMTP를 통한 전송을 테스트하려면 이 옵션을 사용합니다. 게재는 SMTP 서버에 연결될 때까지 처리되지만 전송되지는 않습니다. 게재의 모든 수신자에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행한 다음 SMTP DATA 명령 전에 연결을 종료합니다.
+>[!IMPORTANT]
+>
+>기존 게재를 복제하여 게재를 만들 때 이 매개 변수는 재설정됩니다.
 
-  >[!NOTE]
-  >
-  >* 중간 소싱에서는 이 옵션을 설정하지 않아야 합니다.
-  >
-  >* 에서 SMTP 서버 구성에 대해 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
+### 게재 전송 테스트
 
-* **[!UICONTROL Email BCC]**: 이 옵션을 사용하여 BCC 이메일 주소를 메시지 타겟에 추가하여 BCC를 통해 외부 시스템에 이메일을 저장합니다. [자세히 알아보기](email-parameters.md)
+사용  **[!UICONTROL Test SMTP delivery]** SMTP를 통한 전송을 테스트하는 옵션입니다. 게재는 SMTP 서버에 연결될 때까지 처리되지만 전송되지는 않습니다. 게재의 모든 수신자에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행한 다음 SMTP DATA 명령 전에 연결을 종료합니다.
+
+>[!NOTE]
+>
+>* 중간 소싱에서는 이 옵션을 설정하지 않아야 합니다.
+>
+>* 에서 SMTP 서버 구성에 대해 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
 
 ## 예약된 일괄 처리를 사용해 보내기 {#sending-using-multiple-waves}
 
