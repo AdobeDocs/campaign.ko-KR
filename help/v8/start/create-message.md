@@ -5,7 +5,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
+source-git-commit: fb0b7dbeae1d083935da91bbe50a711ce5f47b7e
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 29%
@@ -114,7 +114,7 @@ A **연속 게재** 은 워크플로우의 컨텍스트에서 사용할 수 있�
 
 예를 들어, 한 달에 한 번 이 유형의 활동을 실행하면 1년 후에 한 번의 게재가 제공됩니다(게재를 변경하지 않은 경우).
 
-연속 게재는 다음을 통해 워크플로우 내에서 생성됩니다. [지속적인 게재 활동](../../automation/workflow/contin).
+연속 게재는 다음을 통해 워크플로우 내에서 생성됩니다. [지속적인 게재 활동](../../automation/workflow/continuous-delivery.md).
 
 
 ## 메시지를 보내는 방법 선택{#gs-send-msg}
