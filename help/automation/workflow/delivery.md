@@ -5,7 +5,7 @@ description: 게재 유형 워크플로우 활동에 대해 자세히 알아보�
 feature: Workflows, Channels Activity
 role: User
 exl-id: 58574983-86c7-46f5-b41b-bae90171048d
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # 게재{#delivery}
-
-
 
 A **게재**-type 활동을 사용하면 게재 작업을 만들 수 있습니다. 게재 유형 활동은 입력 요소를 사용하여 생성할 수 있습니다.
 

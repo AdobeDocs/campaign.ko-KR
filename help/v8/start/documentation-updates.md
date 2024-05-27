@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: 91d19874dfb313a1a470ac4f39cf5af7ca7dfa19
+source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 25%
+source-wordcount: '165'
+ht-degree: 23%
 
 ---
 
@@ -17,9 +17,11 @@ ht-degree: 25%
 
 이 페이지에는 의 모든 최신 업데이트가 나열됩니다. [!DNL Campaign] v8(콘솔) 설명서.
 
+
 ## 2024년 5월 {#may-2024}
 
-다음을 지정하는 메모가 추가되었습니다. **[!UICONTROL Change Dimension]** 및 **[!UICONTROL Change Data source]** 활동은 한 행에 추가해서는 안 되며 **[!UICONTROL Enrichement]** 활동. 자세한 내용 [차원 변경](../../automation/workflow/change-dimension.md) 및 [데이터 소스 변경](../../automation/workflow/change-data-source.md) 섹션.
+* 이제 채널 및 게재 유형 목록이에 나열되어 있습니다 [이 페이지](create-message.md).
+* 다음을 지정하는 메모가 추가되었습니다. **[!UICONTROL Change Dimension]** 및 **[!UICONTROL Change Data source]** 활동은 한 행에 추가해서는 안 되며 **[!UICONTROL Enrichement]** 활동. 자세한 내용 [차원 변경](../../automation/workflow/change-dimension.md) 및 [데이터 소스 변경](../../automation/workflow/change-data-source.md) 섹션.
 
 ## 2024년 2월 {#feb-2024}
 
