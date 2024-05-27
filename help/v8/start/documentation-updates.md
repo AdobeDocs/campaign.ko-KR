@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
+source-git-commit: 5f62addc95197ce5f4f80c026cc51ac14e61ff58
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 23%
+source-wordcount: '179'
+ht-degree: 22%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 23%
 ## 2024년 5월 {#may-2024}
 
 * 이제 채널 및 게재 유형 목록이에 나열되어 있습니다 [이 페이지](create-message.md).
+* 게재 설정 및 웨이브 관리 섹션이 재구성되고 개선되었습니다. [자세히 보기](../send/configure-and-send.md).
 * 다음을 지정하는 메모가 추가되었습니다. **[!UICONTROL Change Dimension]** 및 **[!UICONTROL Change Data source]** 활동은 한 행에 추가해서는 안 되며 **[!UICONTROL Enrichement]** 활동. 자세한 내용 [차원 변경](../../automation/workflow/change-dimension.md) 및 [데이터 소스 변경](../../automation/workflow/change-data-source.md) 섹션.
 
 ## 2024년 2월 {#feb-2024}
