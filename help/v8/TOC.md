@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 338432b41276317f1f07a92f0106e20177b5becd
+source-git-commit: 41ba91fca46747760fc42ea6cd78600abbd74c02
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '613'
 ht-degree: 99%
 
 ---
@@ -201,6 +201,7 @@ ht-degree: 99%
       + [사용자 정의 수신자 테이블 사용](dev/custom-recipient.md)
       + [데이터베이스 업데이트](dev/update-database-structure.md)
       + [입력 양식](dev/forms.md)
+   + [데이터 패키지를 사용한 작업](dev/packages.md)
    + [Campaign API](dev/api.md)
 + [Campaign 컨트롤 패널 >](https://experienceleague.adobe.com/ko/docs/control-panel/using/control-panel-home)
 + [Campaign Automation 안내서 >](https://experienceleague.adobe.com/ko/docs/campaign/automation/home)
