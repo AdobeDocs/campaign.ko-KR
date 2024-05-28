@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: b280be52621890c9bd840182d3ad0389912568d4
+source-git-commit: 306d827883a0c3a15fd52b8c9fb566d028f22360
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 84%
+source-wordcount: '1183'
+ht-degree: 73%
 
 ---
 
@@ -19,6 +19,21 @@ Adobe Campaign은 정기적으로 업데이트됩니다. 이러한 정기 업데
 Adobe는 새 버전이 나올 때마다 Managed Cloud Services 사용자의 인스턴스를 업그레이드합니다. Adobe이 귀하에게 연락하여 환경을 업그레이드합니다. Campaign 클라이언트 콘솔은 **Campaign 서버와 동일한 버전으로 업그레이드**&#x200B;되어야 합니다. 이 [페이지](../start/connect.md#upgrade-ac-console)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
 
 또한 고객은 [호환성 매트릭스](compatibility-matrix.md)에 나열된 최신 지원 버전의 시스템을 사용하고 있는지 확인하십시오.
+
+## 릴리스 8.5.3 {#release-8-5-3}
+
+_2024년 5월 28일 수요일_
+
+### JWT(서비스 계정) 자격 증명에서 OAuth 서버 간 자격 증명으로 마이그레이션  {#change-8-5-3}
+
+* 이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Adobe은 Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 위해 JWT를 OAuth로 마이그레이션합니다.
+
+  Campaign과 인바운드 통합을 구현하면에 자세히 설명된 대로 기술 계정을 마이그레이션해야 합니다. [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 기존 서비스 계정(JWT) 자격 증명은 **2025년 1월 27일**. 또한 개발자 콘솔은 까지 새 서비스 계정(JWT) 자격 증명 만들기를 계속 지원합니다 **2024년 6월 3일**. 이 날짜 이후에는 새 서비스 계정(JWT) 자격 증명을 만들거나 프로젝트에 추가할 수 없습니다.
+
+
+### 수정 사항 {#fixes-8-5-3}
+
+NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-59544, NEO-52542
 
 ## 릴리스 8.7.1 {#release-8-7-1}
 
