@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 306d827883a0c3a15fd52b8c9fb566d028f22360
+source-git-commit: 607ef2ab8f1f1c7400451019e188c70f8c7d6091
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 73%
+source-wordcount: '1178'
+ht-degree: 74%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe는 새 버전이 나올 때마다 Managed Cloud Services 사용자의 인�
 
 _2024년 5월 28일 수요일_
 
-### JWT(서비스 계정) 자격 증명에서 OAuth 서버 간 자격 증명으로 마이그레이션  {#change-8-5-3}
+### OAuth 서버 간 자격 증명으로 마이그레이션 {#change-8-5-3}
 
 * 이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Adobe은 Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 위해 JWT를 OAuth로 마이그레이션합니다.
 
