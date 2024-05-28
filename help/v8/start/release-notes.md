@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 607ef2ab8f1f1c7400451019e188c70f8c7d6091
+source-git-commit: 8621ad138d90fed92788d1b9753adeb2fe772a71
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 74%
+source-wordcount: '1097'
+ht-degree: 79%
 
 ---
 
@@ -26,10 +26,7 @@ _2024년 5월 28일 수요일_
 
 ### OAuth 서버 간 자격 증명으로 마이그레이션 {#change-8-5-3}
 
-* 이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Adobe은 Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 위해 JWT를 OAuth로 마이그레이션합니다.
-
-  Campaign과 인바운드 통합을 구현하면에 자세히 설명된 대로 기술 계정을 마이그레이션해야 합니다. [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 기존 서비스 계정(JWT) 자격 증명은 **2025년 1월 27일**. 또한 개발자 콘솔은 까지 새 서비스 계정(JWT) 자격 증명 만들기를 계속 지원합니다 **2024년 6월 3일**. 이 날짜 이후에는 새 서비스 계정(JWT) 자격 증명을 만들거나 프로젝트에 추가할 수 없습니다.
-
+이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. [자세히 알아보기](#change-8-7-1)
 
 ### 수정 사항 {#fixes-8-5-3}
 
@@ -62,9 +59,11 @@ _2024년 5월 2일_
 
 * 이제 Databricks는 Adobe Campaign FDA(Federated Data Access)를 통해 외부 데이터베이스로 지원됩니다. [이 페이지](compatibility-matrix.md#FederatedDataAccessFDA)에서 자세히 알아보십시오.
 
-* 이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Adobe은 Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 위해 JWT를 OAuth로 마이그레이션합니다.
+### OAuth 서버 간 자격 증명으로 마이그레이션 {#change-8-7-1}
 
-  Campaign과 인바운드 통합을 구현하면에 자세히 설명된 대로 기술 계정을 마이그레이션해야 합니다. [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 기존 서비스 계정(JWT) 자격 증명은 **2025년 1월 27일**. 또한 개발자 콘솔은 까지 새 서비스 계정(JWT) 자격 증명 만들기를 계속 지원합니다 **2024년 6월 3일**. 이 날짜 이후에는 새 서비스 계정(JWT) 자격 증명을 만들거나 프로젝트에 추가할 수 없습니다.
+이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Adobe은 Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 위해 JWT를 OAuth로 마이그레이션합니다.
+
+Campaign과 인바운드 통합을 구현하면에 자세히 설명된 대로 기술 계정을 마이그레이션해야 합니다. [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 기존 서비스 계정(JWT) 자격 증명은 **2025년 1월 27일**. 또한 개발자 콘솔은 까지 새 서비스 계정(JWT) 자격 증명 만들기를 계속 지원합니다 **2024년 6월 3일**. 이 날짜 이후에는 새 서비스 계정(JWT) 자격 증명을 만들거나 프로젝트에 추가할 수 없습니다.
 
 
 ### 일반 개선 사항 {#improvements-8-7-1}
