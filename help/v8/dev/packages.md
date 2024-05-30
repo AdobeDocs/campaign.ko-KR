@@ -4,7 +4,7 @@ description: 데이터 패키지 작업
 feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 933c266febdc293dccdf9b7383d94d7a5dce22bc
+source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
 workflow-type: tm+mt
 source-wordcount: '1941'
 ht-degree: 0%
@@ -93,7 +93,7 @@ XML 문서는 다음으로 시작하고 끝나야 합니다 `<package>` 요소�
    >
    >를 내보내는 경우 **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** 또는 **[!UICONTROL Plan]** 폴더를 입력하세요. 폴더를 선택하지 마십시오. **xtk:folder** 데이터가 손실될 수 있습니다. 폴더에 해당하는 엔티티를 선택합니다. **nms:offer범주** 오퍼 범주의 경우 **nms:offer환경** 오퍼 환경의 경우 **nms:program** 프로그램 및 **nms:plan** 계획용입니다.
 
-   종속성 메커니즘은 엔티티 내보내기 시퀀스를 제어합니다. 자세한 내용은 다음을 참조하십시오. [종속성 관리](#managing-dependencies).
+   종속성 메커니즘은 엔티티 내보내기 시퀀스를 제어합니다. 자세한 내용은 다음을 참조하십시오. [종속성 관리](#manage-dependencies).
 
 1. 클릭 **[!UICONTROL Next]** 추출할 문서 유형에 필터 쿼리를 정의합니다. 데이터 추출을 위해 필터링 절을 구성해야 합니다.
 

@@ -5,7 +5,7 @@ feature: Configuration, FFDA
 role: Developer
 level: Intermediate
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # 키 관리 및 독자성 {#key-management}
 
-의 맥락에서 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md), 기본 키는 UUID(범용 고유 IDentifier)이며, 이것은 문자에 대한 문자열입니다. 이 UUID를 만들려면 스키마의 기본 요소에 **autuuid** 및 **autopk** 속성이 로 설정됨 **true**.
+의 맥락에서 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md), 기본 키는 문자열로 구성된 UUID(범용 고유 IDentifier)입니다. 이 UUID를 만들려면 스키마의 기본 요소에 **autuuid** 및 **autopk** 속성이 로 설정됨 **true**.
 
 Adobe Campaign v8 사용 [!DNL Snowflake] 를 핵심 데이터베이스로 사용합니다. 의 분산 아키텍처 [!DNL Snowflake] 데이터베이스는 테이블 내에서 키의 독자성을 보장하기 위한 메커니즘을 제공하지 않습니다. 최종 사용자는 Adobe Campaign 데이터베이스 내에서 키 일관성을 담당합니다.
 

@@ -5,7 +5,7 @@ role: Admin, User
 feature: Journey Optimizer Integration
 level: Beginner
 exl-id: 52d8e2a5-9fdf-498a-bdbd-13a9935a94d6
-source-git-commit: 7cd2e433cbfce9634b5664d037ad6e73e05b7516
+source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
@@ -25,4 +25,4 @@ Adobe Campaign과 Adobe Journey Optimizer 간의 통합을 통해 Adobe Journey 
 [이 전체적인 샘플에서 이 통합에 대해 알아봅니다.](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}.
 
 
-[Journey Optimizer 설명서에서 자세히 알아보기]https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.
+[Journey Optimizer 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.
