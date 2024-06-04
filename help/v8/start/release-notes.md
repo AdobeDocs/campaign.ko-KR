@@ -4,17 +4,17 @@ description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 338432b41276317f1f07a92f0106e20177b5becd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 # 최신 릴리스 {#latest-release}
 
-Adobe Campaign은 정기적으로 업데이트됩니다. 이러한 정기 업데이트 빈도는 최신 업데이트를 직접 경험해 보고 사용 환경을 안전하게 지키며 Adobe 제품 경험을 향상시키는 것을 목표로 합니다. Adobe는 모든 고객에게 최신 버전으로 업그레이드할 것을 강력히 권장합니다. 이 페이지에서는 Campaign v8(콘솔) 최신 릴리스의 새로운 기능, 개선 사항 및 버그 해결 사항 목록을 확인할 수 있습니다. 에서 Campaign 버전 및 업데이트에 대해 자세히 알아봅니다. [이 페이지](upgrades.md).
+Adobe Campaign은 정기적으로 업데이트됩니다. 이러한 정기 업데이트 빈도는 최신 업데이트를 직접 경험해 보고 사용 환경을 안전하게 지키며 Adobe 제품 경험을 향상시키는 것을 목표로 합니다. Adobe는 모든 고객에게 최신 버전으로 업그레이드할 것을 강력히 권장합니다. 이 페이지에는 최신 Campaign v8 릴리스(콘솔)의 최신 릴리스와 함께 새로운 기능, 개선 및 수정 사항이 나와 있습니다. [이 페이지](upgrades.md)에서 Campaign 버전 및 업데이트에 대해 자세히 알아보십시오.
 
-Adobe는 새 버전이 나올 때마다 Managed Cloud Services 사용자의 인스턴스를 업그레이드합니다. Adobe이 귀하에게 연락하여 환경을 업그레이드합니다. Campaign 클라이언트 콘솔은 **Campaign 서버와 동일한 버전으로 업그레이드**&#x200B;되어야 합니다. 에서 클라이언트 콘솔을 업그레이드하는 방법에 대해 알아보십시오. [이 페이지](../start/connect.md#upgrade-ac-console).
+Adobe는 새 버전이 나올 때마다 Managed Cloud Services 사용자의 인스턴스를 업그레이드합니다. Adobe이 귀하에게 연락하여 환경을 업그레이드합니다. Campaign 클라이언트 콘솔은 **Campaign 서버와 동일한 버전으로 업그레이드**&#x200B;되어야 합니다. [이 페이지](../start/connect.md#upgrade-ac-console)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
 
 또한 고객은 [호환성 매트릭스](compatibility-matrix.md)에 나열된 최신 지원 버전의 시스템을 사용하고 있는지 확인하십시오.
 
@@ -52,7 +52,7 @@ _2024년 5월 2일_
 
 * **다이내믹 보고** - Campaign Standard를 마이그레이션한 사용자는 완전히 맞춤화가 가능한 실시간 보고서를 제공하는 다이내믹 보고에 액세스하여 마케팅 활동의 영향을 측정할 수 있습니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ko){target="_blank"}
 
-* **새로운 향상된 보안 추가 기능**: 네트워크 연결을 보다 안전하게 만들고 리소스에 대한 향상된 보안을 제공하기 위해 Adobe Campaign에서는 보안 CMK 통합 및 보안 VPN 터널링의 두 가지 기능이 포함된 새로운 향상된 보안 추가 기능을 제공합니다. [자세히 보기](../config/enhanced-security.md)
+* **새로운 향상된 보안 추가 기능**: 네트워크 연결을 더욱 안전하게 만들고 리소스에 대한 향상된 보안을 제공하기 위해 Adobe Campaign에서는 보안 CMK 통합 및 보안 VPN 터널링의 두 가지 기능이 포함된 향상된 새 보안 추가 기능을 제공합니다. [자세히 보기](../config/enhanced-security.md)
 
 
 ### 호환성 업데이트 {#comp-8-7-1}
@@ -61,16 +61,16 @@ _2024년 5월 2일_
 
 ### OAuth 서버 간 자격 증명으로 마이그레이션 {#change-8-7-1}
 
-이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Adobe은 Campaign-Analytics 통합 또는 Experience Cloud 트리거 통합과 같은 아웃바운드 통합을 위해 JWT를 OAuth로 마이그레이션합니다.
+이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Adobe은 Campaign-Analytics 통합 또는 Experience Cloud Triggers 통합과 같은 아웃바운드 통합을 위해 JWT를 OAuth로 마이그레이션합니다.
 
-Campaign과 인바운드 통합을 구현하면에 자세히 설명된 대로 기술 계정을 마이그레이션해야 합니다. [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 기존 서비스 계정(JWT) 자격 증명은 **2025년 1월 27일**. 또한 개발자 콘솔은 까지 새 서비스 계정(JWT) 자격 증명 만들기를 계속 지원합니다 **2024년 6월 3일**. 이 날짜 이후에는 새 서비스 계정(JWT) 자격 증명을 만들거나 프로젝트에 추가할 수 없습니다.
+Campaign과 인바운드 통합을 구현했다면 기술 계정을 마이그레이션해야 합니다. 마이그레이션 방법은 [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}에 자세히 나와 있습니다. **2025년 1월 27일**&#x200B;까지는 기존 서비스 계정(JWT) 자격 증명을 계속 사용할 수 있습니다. 또한 Developer Console에서 **2024년 6월 3일**&#x200B;까지 신규 서비스 계정(JWT) 자격 증명 만들기를 계속 지원합니다 이 날짜 이후에는 신규 서비스 계정(JWT) 자격 증명을 만들거나 프로젝트에 추가할 수 없습니다.
 
 
 ### 일반 개선 사항 {#improvements-8-7-1}
 
 * 여러 스키마가 32비트에서 64비트로 변경되었습니다. 이는 Campaign Standard에서 마이그레이션하는 고객에게만 적용됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=ko){target="_blank"}
 
-* 이제 Campaign 테이블에서 `lastModified` 및 `created` 속성에 기본적으로 서버 날짜 및 시간이 입력됩니다. 다음 `createdBy-id` 이제 속성 값이 기본적으로 현재 로그인 ID로 채워집니다. API 호출에서 사용자가 제공한 값은 무시됩니다. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
+* 이제 Campaign 테이블에서 `lastModified` 및 `created` 속성에 기본적으로 서버 날짜 및 시간이 입력됩니다. 이제 `createdBy-id` 속성 값이 기본적으로 현재 로그인 ID로 채워집니다. API 호출에서 사용자가 제공한 값은 무시됩니다. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### 수정 사항 {#fixes-8-7-1}
 
