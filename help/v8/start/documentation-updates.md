@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: 5f62addc95197ce5f4f80c026cc51ac14e61ff58
+source-git-commit: ab6c16af7652f2e8dbfa5c899c2152cefb7fc7c6
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 22%
+source-wordcount: '198'
+ht-degree: 21%
 
 ---
 
@@ -17,6 +17,9 @@ ht-degree: 22%
 
 이 페이지에는 의 모든 최신 업데이트가 나열됩니다. [!DNL Campaign] v8(콘솔) 설명서.
 
+## 2024년 6월 {#june-2024}
+
+워크플로우를 다시 시작할 때 인스턴스 변수를 지우는 방법을 지정하는 메모가 추가되었습니다. [자세히 보기](../../automation/workflow/start-a-workflow.md)
 
 ## 2024년 5월 {#may-2024}
 
