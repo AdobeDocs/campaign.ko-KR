@@ -4,16 +4,16 @@ description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 �
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: 5d3dd679eb7a756200d604601c20c3fed5770fc2
+source-git-commit: 07c2a7460c407a0afb536d8b64f4105d8bc547f4
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
 
 # Campaign 기술 운영자를 Adobe Developer 콘솔로 마이그레이션 {#migrate-tech-users-to-ims}
 
-Campaign v8.5부터 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 기술 운영자는 이제 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Campaign v8.5부터 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 기술 운영자는 이제 [Adobe Identity Management 시스템(IMS)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} Campaign에 연결합니다. 에서 새 서버 간 인증 프로세스에 대해 자세히 알아봅니다. [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 기술 운영자는 API 통합을 위해 명시적으로 생성된 Campaign 사용자 프로필입니다. 이 문서에서는 Adobe Developer 콘솔을 통해 기술 연산자를 기술 계정으로 마이그레이션하는 데 필요한 단계에 대해 자세히 설명합니다.
 
@@ -151,9 +151,13 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 다음은 타사 시스템에 대한 마이그레이션 호출 전후의 SOAP 호출 샘플을 보여 줍니다.
 
+IMS(Adobe Identity Management 시스템) 인증을 사용할 때 WSDL 파일을 생성하려면 다음을 추가해야 합니다. `Authorization: Bearer <IMS_Technical_Token_Token>` postman 호출:
+
+```
+curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent' \--header 'Authorization: Bearer <Technical account access token>'
+```
+
 마이그레이션 프로세스가 달성되고 유효성이 확인되면 Soap 호출이 다음과 같이 업데이트됩니다.
-
-
 
 * 마이그레이션 전: 기술 계정 액세스 토큰에 대한 지원이 없었습니다.
 
@@ -201,8 +205,6 @@ You can now add your Campaign product profile to the project, as detailed below:
   </soapenv:Body>
   </soapenv:Envelope>
   ```
-
-
 
 ### 9단계 - (선택 사항) Campaign 클라이언트 콘솔 내에서 기술 계정 연산자 업데이트 {#ims-migration-step-9}
 
