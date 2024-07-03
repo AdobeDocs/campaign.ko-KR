@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 070aa96187c5654e40665cb5b23329d3f7d508d6
+source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 사용 **[!UICONTROL Delivery priority]** 우선 순위 수준을 설정하여 게재의 전송 순서를 변경하는 옵션이에서 **[!UICONTROL Very low]** 끝 **[!UICONTROL Very high]** (기본값: **[!UICONTROL Normal]**).
 
-### 일괄 처리 수량
+### 일괄 처리 수량 {#delivery-batch-quantity}
 
 사용  **[!UICONTROL Message batch quantity]** 동일한 XML 게재 패키지 내에서 그룹화된 메시지 수를 정의하는 옵션입니다. 매개 변수를 0으로 설정하면 메시지가 자동으로 그룹화됩니다. 패키지 크기는 계산에 의해 정의됩니다 `<delivery size>/1024`패키지로 최소 8개, 최대 256개의 메시지 전송
 
