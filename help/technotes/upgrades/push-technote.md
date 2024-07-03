@@ -8,10 +8,10 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에도 적용됩니다."
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에 적용"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 24d9adddbc983a600f99dab8bab1235585b48ceb
+source-git-commit: 9eb8521a1cc264d4d0137c68654ca45ccade81bd
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 2%
+source-wordcount: '1422'
+ht-degree: 1%
 
 ---
 
@@ -77,12 +77,14 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 1. 옵션으로 다음을 사용하여 푸시 메시지 콘텐츠를 보강할 수 있습니다 **[!UICONTROL Application variables]** 필요한 경우. 이는 완전히 맞춤화가 가능하며 모바일 디바이스로 전송되는 메시지 페이로드의 일부입니다.
 1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-다음은 푸시 알림을 추가로 개인화할 FCM 페이로드 이름입니다. 이러한 옵션은 자세히 설명되어 있습니다 [여기](#fcm-apps).
+   다음은 푸시 알림을 추가로 개인화할 FCM 페이로드 이름입니다. 이러한 옵션은 자세히 설명되어 있습니다 [여기](#fcm-apps).
 
-| 메시지 유형 | 구성 가능한 메시지 요소(FCM 페이로드 이름) | 구성 가능한 옵션(FCM 페이로드 이름) |
-|:-:|:-:|:-:|
-| 데이터 메시지 | N/A | validate_only |
-| 알림 메시지 | 제목, 본문, android_channel_id, 아이콘, 사운드, 태그, 색상, click_action, 이미지, 티커, 고정, 가시성, notification_priority, notification_count <br> | validate_only |
+   | 메시지 유형 | 구성 가능한 메시지 요소(FCM 페이로드 이름) | 구성 가능한 옵션(FCM 페이로드 이름) |
+   |:-:|:-:|:-:|
+   | 데이터 메시지 | N/A | validate_only |
+   | 알림 메시지 | 제목, 본문, android_channel_id, 아이콘, 사운드, 태그, 색상, click_action, 이미지, 티커, 고정, 가시성, notification_priority, notification_count <br> | validate_only |
+
+1. 전환 HTTP v1이 완료되면 다음을 업데이트해야 합니다. **게재 템플릿** 배치 메시지 수를 늘리기 위한 Android 푸시 알림용. 이렇게 하려면 Android 게재 템플릿의 속성으로 이동하여 **게재** 탭에서 다음을 설정합니다. **메시지 일괄 처리 수량** 끝 **256**. 이 변경 사항을 Android 게재에 사용되는 모든 Android 게재 템플릿과 기존의 모든 Android 게재에 적용합니다.
 
 
 >[!NOTE]
@@ -107,7 +109,6 @@ Android 모바일 애플리케이션의 코드에는 특정 변경 사항이 필
 * 설정 **[!UICONTROL Visibility]** 공개, 비공개 또는 비밀에 대한 알림 수준.
 
 자세한 내용은 **[!UICONTROL HTTP v1 additional options]** 이러한 필드를 채우는 방법은 다음을 참조하십시오. [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
-
 
 
 
