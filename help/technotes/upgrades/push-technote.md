@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에도 적용됩니다."
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에 적용"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
+source-git-commit: 4ef40ff971519c064b980df8235188c717855f27
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1421'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
    | 데이터 메시지 | N/A | validate_only |
    | 알림 메시지 | 제목, 본문, android_channel_id, 아이콘, 사운드, 태그, 색상, click_action, 이미지, 티커, 고정, 가시성, notification_priority, notification_count <br> | validate_only |
 
-1. 전환 HTTP v1이 완료되면 다음을 업데이트해야 합니다. **게재 템플릿** 배치 메시지 수를 늘리기 위한 Android 푸시 알림용. 이렇게 하려면 Android 게재 템플릿의 속성으로 이동하여 **게재** 탭에서 다음을 설정합니다. [메시지 일괄 처리 수량](../../v8/send/configure-and-send.md#delivery-batch-quantity) 끝 **256**. 이 변경 사항을 Android 게재에 사용되는 모든 Android 게재 템플릿과 기존의 모든 Android 게재에 적용합니다.
+1. 전환 HTTP v1이 완료되면 다음을 업데이트해야 합니다. **게재 템플릿** 배치 메시지 수를 늘리기 위한 Android 푸시 알림용. 이렇게 하려면 Android 게재 템플릿의 속성으로 이동하여 **게재** 탭에서 다음을 설정합니다. [메시지 일괄 처리 수량](../../v8/send/configure-and-send.md#delivery-batch-quantity) 끝 **256**. 이 변경 사항을 Android 게재에 사용되는 모든 게재 템플릿과 기존의 모든 Android 게재에 적용합니다.
 
 
 >[!NOTE]
