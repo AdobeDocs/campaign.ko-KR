@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 41ba91fca46747760fc42ea6cd78600abbd74c02
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 99%
 
 ---
 
@@ -99,6 +99,8 @@ ht-degree: 100%
    + [구독 관리](start/subscriptions.md)
 + 콘텐츠 관리 {#content}
    + [웹 앱 및 양식 디자인](dev/webapps.md)
++ 자동화 및 워크플로 {#automation}
+   + [Campaign Automation 안내서 >](https://experienceleague.adobe.com/ko/docs/campaign/automation/home)
 + 개인 정보 보호 및 보안 관리 {#privacy}
    + [개인 정보 보호 요청 관리](start/privacy.md)
    + [보안 지침](config/security.md)
@@ -203,7 +205,6 @@ ht-degree: 100%
       + [입력 양식](dev/forms.md)
    + [데이터 패키지 작업](dev/packages.md)
    + [Campaign API](dev/api.md)
-+ [Campaign 컨트롤 패널 >](https://experienceleague.adobe.com/ko/docs/control-panel/using/control-panel-home)
-+ [Campaign Automation 안내서 >](https://experienceleague.adobe.com/ko/docs/campaign/automation/home)
++ [Campaign 기술 >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
 + [Campaign 웹 사용자 인터페이스 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home)
 
