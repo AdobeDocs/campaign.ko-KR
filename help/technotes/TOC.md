@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign 테크노트
 description: Campaign 기술 정보
 breadcrumb-title: 캠페인 기술 정보
-source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
+source-git-commit: 29665df166a12a4928c6e356e1ff1a3bb47e30e5
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 30%
+source-wordcount: '64'
+ht-degree: 25%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 30%
 
 + [캠페인 기술 정보](technotes-home.md)
 + 업그레이드{#tn-new}
+   + [푸시 알림 채널 변경 사항](upgrades/push-technote.md)
    + [사용자를 IMS로 마이그레이션](upgrades/migrate-users-to-ims.md)
    + [기술 운영자를 Developer Console로 마이그레이션](upgrades/ims-migration.md)
    + [기술 연산자를 Developer Console으로 마이그레이션](upgrades/ims-migration-old.md)
@@ -26,5 +27,4 @@ ht-degree: 30%
    + [인터넷 브라우저](upgrades/browsers.md)
    + [2023년 시스템 업그레이드](upgrades/tech-stack-upgrade.md)
    + [클라이언트 콘솔 32비트 사용 중단](upgrades/console.md)
-   + [푸시 알림 채널 변경 사항](upgrades/push-technote.md)
-+ [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
++ [&lt; Campaign v8 설명서로 이동](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
