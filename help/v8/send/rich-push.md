@@ -1,14 +1,14 @@
 ---
 audience: end-user
 title: 리치 푸시 알림 게재 디자인
-description: Adobe Campaign 웹을 사용하여 Android 리치 푸시 알림 게재를 디자인하는 방법을 알아봅니다
+description: Adobe Campaign 웹을 사용하여 Android 리치 푸시 알림 전달을 디자인하는 방법을 알아봅니다
 feature: Push
 role: User
 level: Beginner
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 94dba45c59c699680675bdcd2b73da386d727435
+source-git-commit: 5236cc94e78db11b8975ad84c49594b282fdecf3
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1157'
 ht-degree: 5%
 
 ---
@@ -26,6 +26,10 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 * 다음 **[!UICONTROL Notification message]** FCM SDK에 의해 자동으로 처리됩니다. FCM은 클라이언트 앱을 대신하여 사용자의 장치에 메시지를 자동으로 표시합니다. 알림 메시지에는 사전 정의된 매개 변수 및 옵션 세트가 포함되어 있지만 사용자 지정 애플리케이션 변수를 사용하여 추가로 개인화할 수 있습니다.
 
 ## 알림 콘텐츠 정의 {#push-message}
+
+>[!IMPORTANT]
+>
+>리치 푸시 알림을 디자인하기 전에 먼저 커넥터를 구성해야 합니다. 을(를) 참조하십시오 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) 자세한 절차.
 
 푸시 게재가 만들어지면 해당 콘텐츠를 정의할 수 있습니다. 세 가지 템플릿을 사용할 수 있습니다.
 
@@ -158,7 +162,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 | 매개변수 | 설명 |
 |---------|---------|
-| **[!UICONTROL Ticker]** | 알림의 티커 텍스트를 설정합니다. Android 5.0 Lollipop으로 설정된 장치에서만 사용할 수 있습니다. |
+| **[!UICONTROL Ticker]** | 알림의 티커 텍스트를 설정합니다. Android 5.0 Lollipop으로 설정된 장치에만 사용할 수 있습니다. |
 | **[!UICONTROL Sticky]** | 활성화되면 사용자가 알림을 클릭한 후에도 알림이 계속 표시됩니다. <br>비활성화되면 사용자가 알림과 상호 작용할 때 알림이 자동으로 해제됩니다. 고정 동작을 사용하면 중요한 알림을 더 오랜 시간 동안 화면에 유지할 수 있습니다. |
 | **[!UICONTROL Image]** | 알림에 표시할 이미지의 URL을 설정합니다. |
 | **[!UICONTROL Notification Priority]** | 알림의 우선 순위 수준을 기본, 최소, 낮음 또는 높음으로 설정합니다. 우선 순위 수준은 알림이 표시되는 방식과 특정 시스템 설정을 우회할 수 있는지 여부에 영향을 주며 알림의 중요도와 긴급도를 결정합니다. 자세한 내용은 다음을 참조하십시오. [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
