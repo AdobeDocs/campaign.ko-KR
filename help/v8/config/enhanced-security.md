@@ -5,17 +5,17 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 55c16fe19125ea54035a8f97928484c7baea161b
+source-git-commit: c225b3ee5b356d98d6a5e3bb9bd1cb0feae0300a
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 3%
+source-wordcount: '738'
+ht-degree: 2%
 
 ---
 
 
 # Campaign 향상된 보안 추가 기능 {#enhanced-security}
 
-네트워크 연결을 보다 안전하게 만들고 리소스에 대해 향상된 보안을 제공하기 위해 [!DNL Adobe Campaign] 새 항목 제공 **향상된 보안** 추가 기능.
+네트워크 연결을 보다 안전하게 만들고 리소스에 향상된 보안을 제공하기 위해 [!DNL Adobe Campaign]에서는 새로운 **향상된 보안** 추가 기능을 제공합니다.
 
 이 추가 기능에는 다음 두 가지 생태계 기능이 포함됩니다.
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## 안전한 고객 관리 키 통합 {#secure-cmk-integration}
 
-다음 **CMK(Secure Customer-Managed Key) 통합** 에서는 Amazon Web Services(AWS) 계정을 통해 자체 키를 사용하여 미사용 데이터를 암호화할 수 있습니다.
+**CMK(Secure Customer-Managed Key) 통합**&#x200B;을(를) 사용하면 Amazon Web Services(AWS) 계정을 통해 자체 키를 사용하여 사용하지 않는 데이터를 암호화할 수 있습니다.
 
 고객 관리 키는 사용자가 생성, 소유 및 관리하는 AWS 계정의 KMS(키 관리 서비스) 키입니다. 이러한 KMS 키를 완벽하게 제어할 수 있으며 이 키를 사용하여 데이터를 암호화하고 해독합니다. 암호화 키 생성 및 관리를 책임지게 함으로써 키 취소 등 암호화 키를 보다 세밀하게 제어할 수 있습니다.
 
@@ -45,30 +45,30 @@ ht-degree: 3%
 
 Campaign과 CMK 통합을 사용하려면 아래 단계를 따르십시오.
 
-1. 다음에 연결 [Amazon Web Services(AWS)](https://aws.amazon.com/){target="_blank"} 계정입니다.
+1. [Amazon Web Services(AWS)](https://aws.amazon.com/){target="_blank"} 계정에 연결합니다.
 
-1. AWS KMS(키 관리 서비스)를 사용하여 자동 순환이 설정된 키를 생성합니다. [방법 알아보기](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}.
+1. AWS KMS(키 관리 서비스)를 사용하여 자동 순환이 설정된 키를 생성합니다. [방법을 알아보세요](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}.
 
 1. 리소스에 대한 액세스 권한을 부여하려면 Adobe으로 제공된 정책을 AWS 계정에 적용하십시오. [자세히 알아보기](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}. <!--link TBC-->
 
-1. 공유하기 [Amazon 리소스 이름(키 ARN)](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"} 포함 [!DNL Adobe Campaign]. 이렇게 하려면 Adobe 담당자에게 문의하십시오. <!--or Adobe transition manager?-->
+1. [Amazon 리소스 이름(키 ARN)](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"}을(를) [!DNL Adobe Campaign]과(와) 공유합니다. 이렇게 하려면 Adobe 담당자에게 문의하십시오. <!--or Adobe transition manager?-->
 
-1. Amazon EventBridge 규칙을 만들고 테스트하여 Adobe으로 키를 모니터링할 수 있습니다&#x200B;. [자세히 알아보기](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
+1. Amazon EventBridge 규칙을 만들고 테스트하여 Adobe으로 키를 모니터링할 수 있습니다&#x200B;. [자세히 알아보기](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}
 
 
 ### 보호 기능 및 제한 사항 {#cmk-callouts}
 
 Adobe Campaign v8과 CMK 통합에는 다음과 같은 보호 기능 및 제한 사항이 적용됩니다.
 
-* Adobe이 다음을 제공하지 않음 [Amazon Web Services(AWS)](https://aws.amazon.com/){target="_blank"} 계정입니다. 고유한 AWS 계정이 있어야 하며, 이 계정을 설정하여 키를 생성하고 Adobe과 공유해야 합니다.
+* Adobe이 [Amazon Web Services(AWS)](https://aws.amazon.com/){target="_blank"} 계정을 제공하지 않습니다. 고유한 AWS 계정이 있어야 하며, 이 계정을 설정하여 키를 생성하고 Adobe과 공유해야 합니다.
 
-* 전용 [AWS 키 관리 서비스](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS) 키가 지원됩니다. KMS 외부의 고객 생성 키를 사용할 수 없습니다&#x200B;.
+* [AWS 키 관리 서비스](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"}(KMS) 키만 지원됩니다. KMS 외부의 고객 생성 키를 사용할 수 없습니다&#x200B;.
 
 * 다운타임은 처음 설치하는 동안 예상됩니다. &#x200B;다운타임 기간은 데이터베이스의 크기에 따라 다릅니다.
 
 * 고객은 키를 소유하고 유지 관리합니다. 키가 변경되면 Adobe에 연락해야 합니다&#x200B;.
 
-* 다음을 사용하여 키를 감사할 수 있습니다. [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} 필요한 경우 취소합니다&#x200B;.
+* [AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"}을(를) 사용하여 키를 감사하고 필요한 경우 취소할 수 있습니다&#x200B;.
 
 * 키를 취소, 비활성화 또는 삭제하는 경우 해당 작업을 되돌릴 때까지 암호화된 리소스 및 인스턴스에 액세스할 수 없습니다.
 
@@ -80,7 +80,7 @@ Adobe Campaign v8과 CMK 통합에는 다음과 같은 보호 기능 및 제한 
 
 ## 보안 가상 개인 네트워크 터널링 {#secure-vpn-tunneling}
 
-다음 **보안 가상 사설망(VPN) 터널링** 는 사용자의 구내에서 로 개인 네트워크를 통해 전송되는 데이터에 대한 보안 액세스를 제공하는 사이트 간 VPN입니다. [!DNL Adobe Campaign] 인스턴스.
+**Secure Virtual Private Network(VPN) 터널링**&#x200B;은(는) 개인 네트워크를 통해 전송 중인 데이터에 대한 보안 액세스를 사용자의 전제에서 [!DNL Adobe Campaign] 인스턴스로 제공하는 사이트 간 VPN입니다.
 
 <!--As it connects two networks together, it is a site-to-site VPN.-->
 
@@ -96,7 +96,7 @@ HA(High Availability)를 보장하기 위해 한 터널에서 문제가 발생�
 
 >[!CAUTION]
 >
->온-프레미스 데이터베이스 및 AWS 호환 VPN 장치만 지원됩니다. [자세히 알아보기](#vpn-callouts)
+>온-프레미스 데이터베이스 및 AWS 호환 VPN 장치만 지원됩니다. [자세히 알아보기](#vpn-databases)
 
 이 기능을 올바르게 사용하려면 아래 지침을 따르십시오.
 
@@ -110,24 +110,23 @@ HA(High Availability)를 보장하기 위해 한 터널에서 문제가 발생�
 
 * 연결 실패가 발생할 경우를 대비하여 끝에 다시 시도 메커니즘을 설정합니다.
 
+### 지원되는 데이터베이스 및 디바이스 {#vpn-databases}
 
-### 보호 기능 및 제한 사항 {#vpn-callouts}
+지원되는 온-프레미스 데이터베이스는 다음과 같습니다.
 
-Adobe Campaign v8과의 VPN 터널링 통합에는 다음 보호 기능 및 제한 사항이 적용됩니다.
+* MySQL
+* Netezza
+* Oracle
+* SAP HANA
+* SQL Server
+* Sybase
+* Teradata
+* Hadoop via HiveSQL
 
-* 온-프레미스 데이터베이스만 지원됩니다. 예:<!--Richa to check the list with PM-->:
+AWS 호환 VPN 장치만 지원됩니다. [이 페이지](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}에서 호환되는 장치 목록을 사용할 수 있습니다.
 
-   * MySQL
-   * Netezza
-   * Oracle
-   * SAP HANA
-   * SQL Server
-   * Sybase
-   * Teradata
-   * Hadoop via HiveSQL
-
-* AWS 호환 VPN 장치만 지원됩니다. 호환되는 장치 목록은에서 사용할 수 있습니다. [이 페이지](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}<!--check which list should be communicated-->.
-
-* 서드파티 또는 외부 공급업체에 대한 VPN 연결은 지원되지 않습니다.
-
-* 개인 클라우드 데이터베이스에 대한 Adobe 관리 추가 VPN은 포함되지 않습니다.
+>[!NOTE]
+>
+>* 서드파티 또는 외부 공급업체에 대한 VPN 연결은 지원되지 않습니다.
+>
+>* 개인 클라우드 데이터베이스에 대한 Adobe 관리 추가 VPN은 포함되지 않습니다.
