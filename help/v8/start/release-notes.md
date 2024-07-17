@@ -3,10 +3,10 @@ title: Campaign v8 릴리스 정보
 description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: e119c415ce363a635f9f0318e3fd70f90f4bde06
-workflow-type: ht
-source-wordcount: '801'
-ht-degree: 100%
+source-git-commit: 09b8ced170ff28b24713722e0a82852038053201
+workflow-type: tm+mt
+source-wordcount: '781'
+ht-degree: 89%
 
 ---
 
@@ -71,7 +71,7 @@ _2024년 5월 2일_
 
 이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Adobe은 Campaign-Analytics 통합 또는 Experience Cloud Triggers 통합과 같은 아웃바운드 통합을 위해 JWT를 OAuth로 마이그레이션합니다.
 
-Campaign과 인바운드 통합을 구현했다면 기술 계정을 마이그레이션해야 합니다. 마이그레이션 방법은 [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}에 자세히 나와 있습니다. **2025년 1월 27일**&#x200B;까지는 기존 서비스 계정(JWT) 자격 증명을 계속 사용할 수 있습니다. 또한 Developer Console에서 **2024년 6월 3일**&#x200B;까지 신규 서비스 계정(JWT) 자격 증명 만들기를 계속 지원합니다 이 날짜 이후에는 신규 서비스 계정(JWT) 자격 증명을 만들거나 프로젝트에 추가할 수 없습니다.
+Campaign과 인바운드 통합을 구현했다면 기술 계정을 마이그레이션해야 합니다. 마이그레이션 방법은 [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}에 자세히 나와 있습니다. 기존 서비스 계정(JWT) 자격 증명은 **2025년 1월 27일**&#x200B;까지 계속 작동합니다.
 
 
 ### 일반 개선 사항 {#improvements-8-7-1}
@@ -80,7 +80,11 @@ Campaign과 인바운드 통합을 구현했다면 기술 계정을 마이그레
 
 * 이제 Campaign 테이블에서 `lastModified` 및 `created` 속성에 기본적으로 서버 날짜 및 시간이 입력됩니다. 이제 `createdBy-id` 속성 값이 기본적으로 현재 로그인 ID로 채워집니다. API 호출에서 사용자가 제공한 값은 무시됩니다. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
+* 애플리케이션 간의 모든 통신에 대한 보안을 강화하기 위해 이제 외부 API 호출에 대해 mTLS가 지원됩니다.
+
+
 ### 수정 사항 {#fixes-8-7-1}
 
-다음 문제는 아래 릴리스에서 해결되었습니다.
-NEO-72648, NEO-71534, NEO-71473, NEO-70263, NEO-70195, NEO-69651, NEO-68704, NEO-68192, NEO-67814, NEO-67702, NEO-67620, NEO-66022, NEO-65774, NEO-65633, NEO-64199, NEO-63706, NEO-63705, NEO-63287, NEO-63197, NEO-62575, NEO-60250, NEO-60192, NEO-58596, NEO-58314, NEO-58004, NEO-40054
+이 릴리스에서는 다음 문제가 해결되었습니다.
+
+NEO-72648, NEO-71534, NEO-71473, NEO-70263, NEO-70195, NEO-69651, NEO-68704, NEO-68192, NEO-67814, NEO-67702, NEO-67620, NEO-66022, NEO-65774, NEO-65633, NEO-64199, NEO-63706, NEO-63705, NEO-63287, NEO-63197, NEO-62575, NEO-60250, NEO-60192, NEO-58596, NEO-58314 58004 40054
