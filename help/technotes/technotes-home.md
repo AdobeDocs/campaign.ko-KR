@@ -18,7 +18,7 @@ ht-degree: 39%
 
 >[!BEGINTABS]
 
->[!TAB 푸시 알림 채널 변경 사항]
+>[!TAB 푸시 알림 채널 변경]
 
 Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스되며, Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다.
 
@@ -26,7 +26,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
 [![이미지](../v8//assets/do-not-localize/learn-more-button.svg)](upgrades/push-technote.md)
 
 
->[!TAB Identity Management 시스템(IMS)]
+>[!TAB IMS(Identity Management 시스템)]
 
 Campaign v8.6부터 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 모든 운영자는 IMS(Adobe Identity Management 시스템)를 사용하여 Campaign에 연결합니다
 
@@ -75,5 +75,5 @@ Campaign v8.6부터 Campaign v8에 대한 인증 프로세스가 개선되고 �
 
 ## 추가 리소스
 
-[Adobe Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ko){target="_blank"} - [[!DNL Adobe Campaign] 자동화 안내서](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko){target="_blank"} - [Campaign v8 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
+[Adobe Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ko){target="_blank"} - [[!DNL Adobe Campaign] 자동화 안내서](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko){target="_blank"} - [Campaign v8용 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
 

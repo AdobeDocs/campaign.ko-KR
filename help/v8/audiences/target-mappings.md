@@ -14,9 +14,9 @@ ht-degree: 5%
 
 # 대상 매핑 작업{#gs-target-mappings}
 
-기본적으로 이메일 및 SMS 게재 템플릿은 타겟팅됩니다 **[!UICONTROL Recipients]**. 따라서 대상 매핑은 의 필드를 사용합니다 **nms:recipient** 테이블.
+기본적으로 전자 메일 및 SMS 게재 템플릿은 **[!UICONTROL Recipients]**&#x200B;을(를) 대상으로 합니다. 따라서 대상 매핑은 **nms:recipient** 테이블의 필드를 사용합니다.
 
-푸시 알림의 경우 기본 대상 매핑은 입니다. **구독자 애플리케이션(nms:appSubscriptionRcp)**: 수신자 테이블에 연결됩니다.
+푸시 알림의 경우 기본 대상 매핑은 수신자 테이블에 연결된 **구독자 애플리케이션(nms:appSubscriptionRcp)**&#x200B;입니다.
 
 게재에 다른 타겟 매핑을 사용하거나 새 타겟 매핑을 만들 수 있습니다.
 
@@ -42,11 +42,11 @@ Adobe Campaign에는 다음과 같은 기본 제공 대상 매핑이 포함되�
 * 사용자 지정 수신자 테이블을 사용하면
 * 대상 매핑 화면에서 기본 제공 타겟팅 차원과 다른 필터링 차원을 구성합니다.
 
-에서 사용자 정의 수신자 테이블에 대해 자세히 알아보기 [이 페이지](../dev/custom-recipient.md).
+[이 페이지](../dev/custom-recipient.md)에서 사용자 지정 받는 사람 테이블에 대해 자세히 알아보세요.
 
 Adobe Campaign 대상 매핑 생성 마법사는 사용자 지정 대상 매핑을 사용하는 데 필요한 모든 스키마를 만드는 데 도움이 됩니다.
 
-1. 다음으로 이동 **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** Adobe Campaign 탐색기에서
+1. Adobe Campaign 탐색기에서 **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]**(으)로 이동합니다.
 
 1. 새 타겟 매핑을 만들고 사용자 지정 스키마를 타겟팅 차원으로 선택합니다.
 
@@ -61,12 +61,12 @@ Adobe Campaign 대상 매핑 생성 마법사는 사용자 지정 대상 매핑�
 
    ![](assets/wf_new_mapping_define_names.png)
 
-   제외를 저장할지 여부를 선택할 수 있습니다(**excludelog**), 메시지(**broadlog**) 또는 를 사용하여 메시지를 타깃팅할 수 있습니다.
+   메시지(**broadlog**)와 함께 제외(**excludelog**)를 저장할지 또는 별도의 테이블에 저장할지 선택할 수 있습니다.
 
-   이 게재 매핑에 대한 추적을 관리할지 여부도 선택할 수 있습니다(**trackinglog**).
+   이 게재 매핑(**trackinglog**)에 대한 추적을 관리할지 여부를 선택할 수도 있습니다.
 
 1. 그런 다음 고려할 확장을 선택합니다. 확장 유형은 Campaign 설정 및 추가 기능에 따라 다릅니다.
 
    ![](assets/wf_new_mapping_define_extensions.png)
 
-   다음을 클릭합니다. **[!UICONTROL Save]** 게재 매핑 생성을 시작하는 단추: 연결된 모든 테이블은 선택한 매개 변수를 기반으로 자동으로 생성됩니다.
+   **[!UICONTROL Save]** 단추를 클릭하여 게재 매핑 만들기를 시작합니다. 연결된 모든 테이블은 선택한 매개 변수를 기반으로 자동으로 만들어집니다.

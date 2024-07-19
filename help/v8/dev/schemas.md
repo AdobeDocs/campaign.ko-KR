@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # 스키마 작업{#gs-ac-schemas}
 
-애플리케이션에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. 라고 하는 Adobe Campaign 고유의 문법을 따릅니다. **스키마**.
+애플리케이션에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. **schema**&#x200B;이라고 하는 Adobe Campaign 관련 문법을 따릅니다.
 
 스키마는 데이터베이스 테이블과 연관된 XML 문서입니다. 데이터 구조를 정의하고 테이블의 SQL 정의를 설명합니다.
 
@@ -38,17 +38,17 @@ Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 * Campaign 애플리케이션 내에서 서로 다른 데이터 개체 간의 링크를 정의합니다.
 * 각 개체에 포함된 개별 필드를 정의하고 설명합니다.
 
-Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 을(를) 참조하십시오. [이 섹션](datamodel.md).
+Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 [이 섹션](datamodel.md)을 참조하세요.
 
 >[!CAUTION]
 >
->일부 기본 제공 Campaign 스키마에는 클라우드 데이터베이스에 연결된 스키마가 있습니다. 이러한 스키마는 **Xxl** 네임스페이스이며, 수정하거나 확장해서는 안 됩니다.
+>일부 기본 제공 Campaign 스키마에는 클라우드 데이터베이스에 연결된 스키마가 있습니다. 이러한 스키마는 **Xxl** 네임스페이스로 식별되며 수정하거나 확장해서는 안 됩니다.
 
 ## 스키마 구문 {#syntax-of-schemas}
 
-스키마의 루트 요소는 **`<srcschema>`**. 여기에는 **`<element>`** 및 **`<attribute>`** 하위 요소.
+스키마의 루트 요소는 **`<srcschema>`**&#x200B;입니다. **`<element>`** 및 **`<attribute>`** 하위 요소가 포함되어 있습니다.
 
-첫 번째 **`<element>`** 하위 요소는 엔티티 루트와 일치합니다.
+첫 번째 **`<element>`** 하위 요소는 엔터티의 루트와 일치합니다.
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -68,13 +68,13 @@ Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 
 
 ![](assets/schema_and_entity.png)
 
-다음 **`<element>`** 태그는 엔티티 요소의 이름을 정의합니다. **`<attribute>`** 스키마 태그는 의 속성 이름을 정의합니다. **`<element>`** 태그가 연결되어 있습니다.
+**`<element>`** 태그는 엔터티 요소의 이름을 정의합니다. 스키마의 **`<attribute>`** 태그는 연결된 **`<element>`** 태그의 특성 이름을 정의합니다.
 
 ## 스키마 식별 {#identification-of-a-schema}
 
 데이터 스키마는 이름 및 네임스페이스로 식별됩니다.
 
-네임스페이스를 사용하면 관심 영역별로 스키마 세트를 그룹화할 수 있습니다. 예를 들어 **cus** 네임스페이스는 고객별 구성(**고객**).
+네임스페이스를 사용하면 관심 영역별로 스키마 세트를 그룹화할 수 있습니다. 예를 들어 **cus** 네임스페이스는 고객별 구성(**customers**)에 사용됩니다.
 
 >[!CAUTION]
 >
@@ -84,27 +84,27 @@ Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 
 
 ## 예약된 네임스페이스 {#reserved-namespaces}
 
-특정 네임스페이스는 Adobe Campaign 애플리케이션 작업에 필요한 시스템 엔터티의 설명을 위해 예약되어 있습니다. 다음 네임스페이스 **은(는) 을(를) 사용할 수 없습니다.** 대문자/소문자 조합에서 새 스키마를 식별하려면 다음을 수행하십시오.
+특정 네임스페이스는 Adobe Campaign 애플리케이션 작업에 필요한 시스템 엔터티의 설명을 위해 예약되어 있습니다. 다음 네임스페이스 **은(는) 사용 안 함**&#x200B;을(를) 사용하여 대/소문자 조합에서 새 스키마를 식별해야 합니다.
 
 * **xxl**: 클라우드 데이터베이스 스키마에 예약됨
 * **xtk**: 플랫폼 시스템 데이터에 예약됨
-* **nl**: 애플리케이션의 전체 사용을 위해 예약됨
+* **nl**: 애플리케이션의 전체 사용으로 예약됨
 * **nms**: 게재(수신자, 게재, 추적 등)에 예약됨
 * **ncm**: 콘텐츠 관리에 예약됨
-* **임시**: 임시 스키마에 예약됨
+* **temp**: 임시 스키마에 예약됨
 * **crm**: CRM 커넥터 통합에 예약됨
 
-스키마의 식별 키는 네임스페이스와 콜론으로 구분된 이름을 사용하여 빌드된 문자열입니다. 예: **nms:recipient**.
+스키마의 식별 키는 네임스페이스와 콜론으로 구분된 이름을 사용하여 만든 문자열입니다(예: **nms:recipient**).
 
 ## Campaign 스키마 만들기 또는 확장 {#create-or-extend-schemas}
 
 수신자 테이블(nms:recipient)과 같이, Campaign의 핵심 데이터 스키마 중 하나에 필드나 다른 요소를 추가하려면 해당 스키마를 확장해야 합니다.
 
-자세한 내용은 다음을 참조하십시오. [스키마 확장](extend-schema.md).
+자세한 내용은 [스키마 확장](extend-schema.md)을 참조하세요.
 
 Adobe Campaign에 존재하지 않는 완전히 새로운 유형의 데이터(예: 계약 테이블)를 추가하려면 사용자 지정 스키마를 직접 만들 수 있습니다.
 
-자세한 내용은 다음을 참조하십시오. [새 스키마 만들기](create-schema.md).
+자세한 내용은 [새 스키마 만들기](create-schema.md)를 참조하세요.
 
 ![](assets/schemaextension_1.png)
 
@@ -134,7 +134,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!NOTE]
 >
->사용자 관리 열거형을 사용할 수도 있습니다(일반적으로 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** )을 클릭하여 특정 필드의 값을 지정합니다. 이러한 열거형은 효과적으로 전역 열거형이며, 작업 중인 특정 스키마 외부에서 열거형을 사용할 수 있는 경우 더 나은 선택입니다.
+>사용자 관리 열거형(일반적으로 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** 아래)을 사용하여 지정된 필드에 대한 값을 지정할 수도 있습니다. 이러한 열거형은 효과적으로 전역 열거형이며, 작업 중인 특정 스키마 외부에서 열거형을 사용할 수 있는 경우 더 나은 선택입니다.
 
 <!--
 ## Index {#index} 
@@ -170,11 +170,11 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ## 키 {#keys}
 
-모든 테이블에는 하나 이상의 키가 있어야 하며, 종종 를 사용하여 스키마의 기본 요소에 자동으로 설정됩니다. **autopk** 속성이 로 설정됨 **true**.
+모든 테이블에는 하나 이상의 키가 있어야 하며 대개 **true**(으)로 설정된 **autopk** 특성을 사용하여 스키마의 기본 요소에 자동으로 설정됩니다.
 
-또한 의 컨텍스트에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), 사용 **@autouuid** 및 설정 **true**.
+또한 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)의 컨텍스트에서 **@autouuid**&#x200B;을(를) 사용하여 **true**(으)로 설정하십시오.
 
-기본 키는 다음을 사용하여 정의할 수도 있습니다. **내부** 특성.
+**internal** 특성을 사용하여 기본 키를 정의할 수도 있습니다.
 
 예:
 
@@ -184,23 +184,23 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 </key>
 ```
 
-이 예제에서는 를 허용하는 대신 **@autopk** 또는 **@autouuid** attribute 고유한 &quot;householdId&quot; 기본 키를 지정하는 &quot;id&quot;라는 기본 기본 키를 만듭니다.
+이 예제에서는 **@autopk** 또는 **@autouuid** 특성이 &quot;id&quot;라는 기본 기본 키를 만들도록 하는 대신 고유한 &quot;householdId&quot; 기본 키를 지정합니다.
 
 >[!CAUTION]
 >
 >새 스키마를 생성하거나 스키마 확장 중에 전체 스키마에 대해 동일한 기본 키 시퀀스 값(@pkSequence)을 유지해야 합니다.
 
-의 키에 대해 자세히 알아보기 [이 섹션](database-mapping.md#management-of-keys).
+[이 섹션](database-mapping.md#management-of-keys)의 키에 대해 자세히 알아보세요.
 
 ## 속성(필드) {#attributes--fields-}
 
-속성을 사용하면 데이터 개체를 구성하는 필드를 정의할 수 있습니다. 다음을 사용할 수 있습니다. **[!UICONTROL Insert]** 빈 속성 템플릿을 커서가 있는 XML에 끌어 놓기 위한 스키마 편집 도구 모음의 단추입니다. [이 섹션](create-schema.md)에서 자세히 알아보십시오.
+속성을 사용하면 데이터 개체를 구성하는 필드를 정의할 수 있습니다. 스키마 편집 도구 모음의 **[!UICONTROL Insert]** 단추를 사용하여 커서가 있는 XML에 빈 특성 템플릿을 놓을 수 있습니다. [이 섹션](create-schema.md)에서 자세히 알아보십시오.
 
 ![](assets/schemaextension_2.png)
 
-속성의 전체 목록은 `<attribute>` 의 요소 섹션 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}. 다음은 가장 일반적으로 사용되는 속성 중 일부입니다. **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
+전체 특성 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}의 `<attribute>` 요소 섹션에서 사용할 수 있습니다. 일반적으로 사용되는 특성 중 일부는 다음과 같습니다. **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull @required @ref @xml @type**, ****, ****, ****, ****.
 
-각 속성에 대한 자세한 내용은 의 속성 설명을 참조하십시오 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
+각 특성에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}의 특성 설명을 참조하십시오.
 
 ### 예제 {#examples}
 
@@ -216,13 +216,13 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
 ```
 
-를 사용하여 숨겨진 계산된 필드의 예 **@advanced** 특성:
+**@advanced** 특성을 사용하여 숨겨진 계산 필드의 예:
 
 ```
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
-SQL 필드에 저장되며 **@dataPolicy** 특성.
+SQL 필드에 저장되며 **@dataPolicy** 특성이 있는 XML 필드의 예입니다.
 
 ```
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
@@ -238,7 +238,7 @@ SQL 필드에 저장되며 **@dataPolicy** 특성.
 
 링크는 스키마의 기본 요소에 있는 마지막 요소 중 일부입니다. 인스턴스의 모든 스키마가 서로 관련되는 방식을 정의합니다.
 
-링크는 를 포함하는 스키마에서 선언됩니다. **외래 키** 연결된 테이블의
+링크가 연결된 테이블의 **외래 키**&#x200B;을(를) 포함하는 스키마에서 링크가 선언되었습니다.
 
 카디널리티에는 1-1, 1-N, N-N의 세 가지 유형이 있습니다. 기본적으로 사용되는 1-N 유형입니다.
 
@@ -286,4 +286,4 @@ SQL 필드에 저장되며 **@dataPolicy** 특성.
 
 >[!NOTE]
 >
->수정 사항이 데이터베이스 구조에 영향을 주지 않으면 스키마만 재생성하면 됩니다. 이렇게 하려면 업데이트할 스키마를 선택하고 마우스 오른쪽 버튼을 클릭한 다음 을(를) 선택합니다 **[!UICONTROL Actions > Regenerate selected schemas...]**.
+>수정 사항이 데이터베이스 구조에 영향을 주지 않으면 스키마만 재생성하면 됩니다. 이렇게 하려면 업데이트할 스키마를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **[!UICONTROL Actions > Regenerate selected schemas...]**&#x200B;을(를) 선택합니다.

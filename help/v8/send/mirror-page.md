@@ -33,7 +33,7 @@ Adobe Campaign에서는 전용 **개인 맞춤화 블록**&#x200B;을 사용하�
 ![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
-개인화 콘텐츠 블록 삽입에 대한 자세한 내용은 을 참조하십시오. [개인화 블록](personalization-blocks.md).
+개인화 콘텐츠 블록 삽입에 대한 자세한 내용은 [개인화 블록](personalization-blocks.md)을 참조하세요.
 
 ## 미러 페이지 생성 관리 {#mirror-page-generation}
 
@@ -41,16 +41,16 @@ Adobe Campaign에서는 전용 **개인 맞춤화 블록**&#x200B;을 사용하�
 
 사용자는 이메일 미러 페이지의 생성 모드를 제어할 수 있습니다. 옵션은 게재 속성에서 사용할 수 있습니다. 다음 옵션에 액세스하려면:
 
-1. 다음으로 이동 **[!UICONTROL Validity]** 전자 메일 속성의 탭입니다.
-1. 다음에서 **미러 페이지 관리** 섹션, 다음을 확인: **[!UICONTROL Mode]** 드롭다운 목록입니다.
+1. 전자 메일 속성의 **[!UICONTROL Validity]** 탭으로 이동합니다.
+1. **미러 페이지 관리** 섹션에서 **[!UICONTROL Mode]** 드롭다운 목록을 확인하십시오.
 
 ![](assets/mirror-page-generation.png){width="800" align="left"}
 
 기본 모드 외에 다음 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL Force the generation of the mirror page]**: 게재에 미러 페이지 링크가 삽입되지 않은 경우에도 이 모드를 사용하여 미러 페이지를 생성합니다.
-* **[!UICONTROL Do not generate the mirror page]**: 링크가 게재에 있더라도 미러 페이지가 생성되지 않도록 하려면 이 모드를 사용하십시오.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: 미러 페이지 링크가 이메일 콘텐츠에 없는 경우 이 옵션을 사용하여 게재 로그 창에서 아래에 설명된 대로 미러 페이지의 콘텐츠에 액세스할 수 있습니다.
+* **[!UICONTROL Force the generation of the mirror page]**: 게재에 미러 페이지 링크가 삽입되지 않은 경우에도 이 모드를 사용하여 미러 페이지를 생성하십시오.
+* **[!UICONTROL Do not generate the mirror page]**: 링크가 게재에 있더라도 미러 페이지를 생성하지 않도록 하려면 이 모드를 사용하십시오.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: 미러 페이지 링크가 전자 메일 콘텐츠에 없는 경우 이 옵션을 사용하여 아래 설명된 대로 게재 로그 창에서 미러 페이지의 콘텐츠에 액세스할 수 있도록 설정하십시오.
 
 ## 수신자에 대한 미러 페이지 확인 {#mirror-page-access}
 
@@ -58,9 +58,9 @@ Adobe Campaign에서는 전용 **개인 맞춤화 블록**&#x200B;을 사용하�
 
 이 미러 페이지에 액세스하려면:
 
-1. 게재가 전송되면 열고 게재를 찾습니다 **[!UICONTROL Delivery]** 탭.
+1. 게재가 전송되면 게재를 열고 **[!UICONTROL Delivery]** 탭으로 이동합니다.
 
-1. 수신자를 선택하고 **[!UICONTROL Display the mirror page for this message...]** 링크를 클릭합니다.
+1. 받는 사람을 선택하고 **[!UICONTROL Display the mirror page for this message...]** 링크를 클릭합니다.
 
    ![](assets/mirror-page-display.png){width="800" align="left"}
 

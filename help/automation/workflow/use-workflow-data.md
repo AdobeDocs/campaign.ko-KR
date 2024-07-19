@@ -14,7 +14,7 @@ ht-degree: 8%
 
 워크플로우 활동을 사용하여 여러 작업을 수행할 수 있습니다. 아래 사용 샘플을 찾아 목록을 만들고, 구독을 관리하고, 워크플로우를 통해 메시지를 보내거나, 게재 및 대상자를 보강하여 데이터베이스를 업데이트합니다.
 
-일련의 워크플로우 사용 사례는에서 사용할 수 있습니다. [이 섹션](workflow-use-cases.md).
+[이 섹션](workflow-use-cases.md)에서 일련의 워크플로우 사용 사례를 사용할 수 있습니다.
 
 ## 데이터 수명 주기 {#data-life-cycle}
 
@@ -34,7 +34,7 @@ ht-degree: 8%
 
   ![](assets/wf-right-click-display.png)
 
-  에서 작업 테이블의 구조에 액세스할 수 있습니다. **[!UICONTROL Schema]** 탭.
+  **[!UICONTROL Schema]** 탭에서 작업 테이블의 구조에 액세스할 수 있습니다.
 
   ![](assets/wf-right-click-schema.png)
 
@@ -44,9 +44,9 @@ ht-degree: 8%
 
   이 메뉴를 사용하여 전환 데이터에 대한 통계 및 보고서를 생성할 수 있는 설명 분석 마법사에 액세스할 수 있습니다.
 
-  에서 설명 분석 마법사를 사용하는 방법을 알아봅니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ko){target="_blank"}.
+  설명 분석 마법사를 사용하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ko){target="_blank"}를 참조하세요.
 
-워크플로우가 실행되면 대상 데이터가 제거됩니다. 마지막 작업 테이블만 액세스할 수 있습니다. 모든 작업 테이블에 액세스할 수 있도록 워크플로를 구성할 수 있습니다. 다음을 확인하십시오. **[!UICONTROL Keep the result of interim populations between two executions]** 옵션을 선택합니다.
+워크플로우가 실행되면 대상 데이터가 제거됩니다. 마지막 작업 테이블만 액세스할 수 있습니다. 모든 작업 표에 액세스할 수 있도록 워크플로를 구성할 수 있습니다. 워크플로 속성에서 **[!UICONTROL Keep the result of interim populations between two executions]** 옵션을 선택하십시오.
 
 ![](assets/wf-purge-data-option.png)
 
@@ -57,7 +57,7 @@ ht-degree: 8%
 
 ### 대상 데이터 활용 {#target-data}
 
-워크플로우 임시 작업 테이블에 저장된 데이터는 개인화 작업에 사용할 수 있습니다. 데이터는에서 사용할 수 있습니다 [개인화 필드](../../v8/send/personalization-fields.md).
+워크플로우 임시 작업 테이블에 저장된 데이터는 개인화 작업에 사용할 수 있습니다. 데이터는 [개인화 필드](../../v8/send/personalization-fields.md)에서 사용할 수 있습니다.
 
 예를 들어 게재 시 목록을 통해 수집된 데이터를 사용할 수 있습니다. 이렇게 하려면 다음 구문을 사용합니다.
 
@@ -65,7 +65,7 @@ ht-degree: 8%
 %= targetData.FIELD %
 ```
 
-**[!UICONTROL Target extension]** (targetData) 유형 개인화 요소는 타깃팅 워크플로우에 사용할 수 없습니다. 게재 대상은 워크플로우에 빌드되고 게재의 인바운드 전환에서 지정되어야 합니다.
+**[!UICONTROL Target extension]**(targetData) 유형 개인화 요소는 타깃팅 워크플로우에 사용할 수 없습니다. 게재 대상은 워크플로우에 빌드되고 게재의 인바운드 전환에서 지정되어야 합니다.
 
 다음 예제에서는 개인화된 이메일에 사용할 고객에 대한 정보 목록을 수집하고 있습니다. 다음 단계를 적용합니다.
 
@@ -85,25 +85,25 @@ ht-degree: 8%
    [...]
    ```
 
-   파일을 로드하려면 다음을 구성합니다. **[!UICONTROL Data loading (file)]** 활동은 다음과 같습니다.
+   파일을 로드하려면 다음과 같이 **[!UICONTROL Data loading (file)]** 활동을 구성하십시오.
 
    ![](assets/wf-targetdata-sample-2.png)
 
-1. 구성 **[!UICONTROL Enrichment]** 활동은 수집된 데이터를 Adobe Campaign 데이터베이스에 이미 있는 데이터와 조정합니다. 여기서 조정 키는 계정 번호입니다.
+1. 수집된 데이터를 Adobe Campaign 데이터베이스에 이미 있는 데이터와 조정하도록 **[!UICONTROL Enrichment]** 활동을 구성합니다. 여기서 조정 키는 계정 번호입니다.
 
    ![](assets/wf-targetdata-sample-3.png)
 
-1. 그런 다음 을(를) 구성합니다 **[!UICONTROL Delivery]**: 템플릿을 기반으로 생성되며 수신자는 인바운드 전환에 의해 지정됩니다.
+1. **[!UICONTROL Delivery]**&#x200B;을(를) 구성하십시오. 템플릿으로 만들고 인바운드 전환으로 받는 사람을 지정합니다.
 
    ![](assets/wf-targetdata-sample-4.png)
 
    >[!CAUTION]
    >
-   >전환에 포함된 데이터만 게재를 개인화하는 데 사용할 수 있습니다. **targetData** 유형 개인화 필드는 의 인바운드 모집단에만 사용할 수 있습니다. **[!UICONTROL Delivery]** 활동.
+   >전환에 포함된 데이터만 게재를 개인화하는 데 사용할 수 있습니다. **targetData** 유형 개인화 필드는 **[!UICONTROL Delivery]** 활동의 인바운드 모집단에만 사용할 수 있습니다.
 
 1. 게재 템플릿에서 워크플로우에서 수집된 필드를 사용합니다.
 
-   이렇게 하려면 를 삽입합니다. **[!UICONTROL Target extension]** 개인화 필드를 입력합니다.
+   이렇게 하려면 **[!UICONTROL Target extension]** 형식 개인화 필드를 삽입합니다.
 
    ![](assets/wf-targetdata-sample-5.png)
 
@@ -113,7 +113,7 @@ ht-degree: 8%
 
    ![](assets/wf-targetdata-sample-6.png)
 
-   **[!UICONTROL Target extension]** (targetData) 유형 데이터는 모든 개인화 필드와 동일한 특성을 사용하여 게재에 삽입됩니다. 제목, 링크 레이블 또는 링크 자체에서도 사용할 수 있습니다.
+   **[!UICONTROL Target extension]**(targetData) 유형 데이터는 모든 개인화 필드와 동일한 특성을 사용하여 게재에 삽입됩니다. 제목, 링크 레이블 또는 링크 자체에서도 사용할 수 있습니다.
 
 
 ## 데이터베이스 업데이트 {#update-the-database}
@@ -124,18 +124,18 @@ ht-degree: 8%
 
 두 가지 전용 활동을 사용하여 Adobe Campaign 데이터베이스 및 기존 목록의 데이터를 업데이트할 수 있습니다.
 
-* 다음 **[!UICONTROL List update]** 활동을 사용하면 작업 테이블을 데이터 목록에 저장할 수 있습니다.
+* **[!UICONTROL List update]** 활동을 통해 작업 테이블을 데이터 목록에 저장할 수 있습니다.
 
   기존 목록을 선택하거나 만들 수 있습니다. 이 경우 이름과 레코드 폴더가 계산됩니다.
 
   ![](assets/s_user_create_list.png)
 
-  을(를) 참조하십시오 [목록 업데이트](list-update.md).
+  [목록 업데이트](list-update.md)를 참조하세요.
 
-* 다음 **[!UICONTROL Update data]** 활동은 데이터베이스의 필드에 대한 대량 업데이트를 수행합니다.
+* **[!UICONTROL Update data]** 활동에서는 데이터베이스의 필드에 대한 대량 업데이트를 수행합니다.
 
-  자세한 내용은 다음을 참조하십시오. [데이터 업데이트](update-data.md).
+  자세한 내용은 [데이터 업데이트](update-data.md)를 참조하세요.
 
 ### 구독 관리 {#subscription-management}
 
-워크플로우를 통해 정보 서비스에 수신자를 구독 및 구독 취소하는 방법에 대한 자세한 내용은 [구독 서비스](subscription-services.md).
+워크플로우를 통해 정보 서비스에 수신자를 구독 및 구독 취소하는 방법에 대한 자세한 내용은 [구독 서비스](subscription-services.md)를 참조하세요.

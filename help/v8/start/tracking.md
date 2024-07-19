@@ -18,11 +18,11 @@ ht-degree: 19%
 
 캠페인 추적 기능은 보낸 메시지를 추적하고 열기, 링크 클릭, 구독/구독 취소 등과 같은 수신자의 행동을 분석하는 데 도움이 됩니다. 전용 로그, 보고서 및 지표에 액세스하고, 데이터베이스를 쿼리하여 수집된 데이터를 검토할 수 있습니다.
 
-자세한 내용은 다음을 참조하십시오. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#tracking-tab){target="_blank"}.
+자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#tracking-tab){target="_blank"}를 참조하세요.
 
 게재 대시보드는 메시지를 보내는 동안 게재 및 잠재적인 문제를 모니터링하는 주요 도구입니다.
 
-자세한 내용은 다음을 참조하십시오. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"}.
+자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"}를 참조하세요.
 
 Campaign에서 사용할 수 있는 키 추적 기능은 아래에 나열되어 있습니다.
 
@@ -51,7 +51,7 @@ Campaign 추적 기능을 사용하면 개인화할 수 있고 추적을 지원�
 
 **추적 로그**
 
-다음 **추적** 기술 워크플로우는 게재가 전송되고 추적이 활성화되면 추적 데이터를 검색합니다. 이 데이터는 게재의 추적 탭에서 찾을 수 있습니다.
+**Tracking** 기술 워크플로우는 게재를 보내고 추적을 활성화하면 추적 데이터를 검색합니다. 이 데이터는 게재의 추적 탭에서 찾을 수 있습니다.
 
 [Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html#sending-messages){target="_blank"}
 
@@ -119,16 +119,16 @@ Adobe Campaign은 프로세스와 환경을 모니터링하는 일련의 기능�
 
 메시지를 게재한 후 마케팅 캠페인이 효율적이고 고객에게 도달하는지 확인하는 데 있어 게재 모니터링은 중요한 단계입니다.
 
-게재를 보낸 후 모니터링할 수 있는 정보에 대해 자세히 알아보고, 게재 실패 및 격리를 관리하는 방법을 이해합니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ko#sending-messages){target="_blank"}
+게재를 보낸 후 모니터링할 수 있는 정보에 대해 자세히 알아보고, [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ko#sending-messages){target="_blank"}에서 게재 실패 및 격리를 관리하는 방법을 이해합니다.
 
 ### 워크플로우 모니터링
 
-에서 워크플로우 실행을 모니터링하는 방법 알아보기 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
+[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)에서 워크플로우 실행을 모니터링하는 방법을 알아봅니다.
 
 ### 인스턴스 모니터링
 
-인스턴스 모니터링 지침은 다음 위치에서 제공됩니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html#monitoring-campaign-classic){target="_blank"}
+인스턴스 모니터링 지침은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html#monitoring-campaign-classic){target="_blank"}에서 확인할 수 있습니다.
 
 감사 추적 셀프서비스 인터페이스를 사용하여 인스턴스 내에서 수행된 변경 사항을 모니터링합니다. 감사 추적은 Adobe Campaign 인스턴스 내에서 발생하는 작업 및 이벤트의 포괄적인 목록을 실시간으로 캡처합니다. 데이터 기록에 액세스하여 워크플로우에 발생한 일, 워크플로우를 마지막으로 업데이트한 사람 또는 사용자가 인스턴스에서 수행한 작업 등의 질문에 답변할 수 있습니다.
 
-여기에서 감사 추적에 대해 자세히 알아보십시오. [페이지](../reporting/audit-trail.md){target="_blank"}
+이 [페이지](../reporting/audit-trail.md){target="_blank"}에서 감사 추적에 대해 자세히 알아보기

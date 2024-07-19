@@ -25,12 +25,12 @@ Campaign 데이터 모델을 사용자 지정하는 주요 단계는 다음과 �
 >[!CAUTION]
 >기본 제공 스키마는 직접 수정할 수 없습니다. 기본 제공 스키마를 조정해야 하는 경우 확장해야 합니다.
 
-Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 을(를) 참조하십시오. [이 페이지](datamodel.md). 에서 새 스키마를 생성할 때 권장 사항 을 참조하십시오. [이 페이지](create-schema.md).
+Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 [이 페이지](datamodel.md)를 참조하세요. [이 페이지](create-schema.md)에서 새 스키마를 만들 때의 권장 사항도 참조하세요.
 
 스키마를 확장하려면 아래 단계를 수행합니다.
 
-1. 다음 위치로 이동 **[!UICONTROL Administration > Configuration > Data schemas]** 폴더의 Explorer에서 폴더를 검색합니다.
-1. 다음을 클릭합니다. **신규** 단추 및 선택 **[!UICONTROL Extend the data in a table using an extension schema]**.
+1. 탐색기에서 **[!UICONTROL Administration > Configuration > Data schemas]** 폴더로 이동합니다.
+1. **새로 만들기** 단추를 클릭하고 **[!UICONTROL Extend the data in a table using an extension schema]**&#x200B;을(를) 선택합니다.
 
    ![](assets/extend-schema-option.png)
 
@@ -46,7 +46,7 @@ Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 
 
    ![](assets/extend-schema-edit.png)
 
-   아래 예에서는 **MembershipYear** 특성을 설정하고 성에 대한 길이 제한을 추가하고(이 제한은 기본 제한을 덮어씀) 기본 제공 스키마에서 생년월일을 제거합니다.
+   아래 예제에서는 **MembershipYear** 특성을 추가하고 성에 대한 길이 제한을 지정하고(이 제한은 기본 제한을 덮어쓰게 됨) 기본 제공 스키마에서 생년월일을 제거합니다.
 
    ![](assets/extend-schema-sample.png)
 
@@ -62,7 +62,7 @@ Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 
    </srcSchema>
    ```
 
-1. 연결을 끊고 Campaign에 다시 연결하여 의 스키마 구조 업데이트 확인 **[!UICONTROL Structure]** 탭.
+1. **[!UICONTROL Structure]** 탭에서 스키마 구조 업데이트를 확인하기 위해 연결을 끊고 Campaign에 다시 연결합니다.
 
    ![](assets/extend-schema-structure.png)
 

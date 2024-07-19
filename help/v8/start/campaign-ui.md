@@ -18,29 +18,29 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->이 설명서는 Campaign 클라이언트 콘솔 사용에 중점을 두고 있습니다. Campaign 웹 사용자 인터페이스를 사용 중이라면 을 참조하십시오. [이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}.
+>이 설명서는 Campaign 클라이언트 콘솔 사용에 중점을 두고 있습니다. Campaign 웹 사용자 인터페이스를 사용하는 경우 [이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}를 참조하세요.
 
 * **클라이언트 콘솔** - Campaign 클라이언트 콘솔은 SOAP 및 HTTP와 같은 표준 인터넷 프로토콜을 통해 Adobe Campaign 애플리케이션 서버와 통신하는 기본 애플리케이션입니다. Campaign 클라이언트 콘솔은 모든 기능과 설정을 중앙 집중화하며 로컬 캐시에 의존하기 때문에 최소한의 대역폭이 필요합니다. 손쉬운 배포를 위해 설계된 Campaign 클라이언트 콘솔은 인터넷 브라우저에서 배포하고 자동으로 업데이트할 수 있으며 HTTP(S) 트래픽만 생성하므로 특정 네트워크 구성이 필요하지 않습니다. [자세히 알아보기](#ui-access)
 
-  에서 Campaign 클라이언트 콘솔을 설치하고 구성하는 방법에 대해 알아봅니다. [이 섹션](../start/connect.md).
+  [이 섹션](../start/connect.md)에서 Campaign 클라이언트 콘솔을 설치하고 구성하는 방법을 알아봅니다.
 
-* **웹 사용자 인터페이스** - v8.6.1 릴리스를 시작하는 Campaign v8 사용자는 이제 중앙 Adobe Experience Cloud 사용자 인터페이스를 통해 사용할 수 있는 웹 환경에 액세스할 수 있습니다. 그런 다음 웹 브라우저에서 Adobe Campaign에 연결할 수 있습니다. 이 새 인터페이스를 사용하면 주요 마케팅 작업을 생성, 관리 및 실행할 수 있습니다. 그러나 모든 Campaign 기능을 사용할 수는 없습니다. [자세히 알아보기](#ac-web-ui)
+* **웹 사용자 인터페이스** - v8.6.1 릴리스를 시작하는 Campaign v8 사용자는 이제 중앙 Adobe Experience Cloud 사용자 인터페이스를 통해 사용할 수 있는 웹 환경에 액세스할 수 있습니다. 그런 다음 웹 브라우저에서 Adobe Campaign에 연결할 수 있습니다. 이 새 인터페이스를 사용하면 주요 마케팅 작업을 생성, 관리 및 실행할 수 있습니다. 그러나 모든 Campaign 기능을 사용할 수는 없습니다. [자세히 알아보기](#ac-web-ui).
 
-* **웹 액세스** - Adobe Campaign 웹 액세스 기능을 사용하면 HTML 사용자 인터페이스를 사용하여 웹 브라우저에서 Campaign 기능의 하위 집합에 액세스할 수 있습니다. 이 웹 인터페이스를 사용하여 보고서에 액세스하고, 메시지를 제어 및 검증하고, 모니터링 대시보드에 액세스합니다.  Campaign 웹 액세스에 대해 자세히 알아보기 [이 섹션에서](../start/connect.md#web-access).
+* **웹 액세스** - Adobe Campaign 웹 액세스 기능을 사용하면 HTML 사용자 인터페이스를 사용하여 웹 브라우저에서 Campaign 기능의 하위 집합에 액세스할 수 있습니다. 이 웹 인터페이스를 사용하여 보고서에 액세스하고, 메시지를 제어 및 검증하고, 모니터링 대시보드에 액세스합니다.  이 섹션](../start/connect.md#web-access)에서 Campaign 웹 액세스 [에 대해 자세히 알아보세요.
 
-* **API** - 더 많은 사용 사례를 해결하기 위해 SOAP 프로토콜을 통해 노출된 웹 서비스 API를 사용하여 외부 애플리케이션에서 시스템을 호출할 수 있습니다. Campaign API에 대해 자세히 알아보기 [이 페이지에서](../dev/api.md).
+* **API** - 더 많은 사용 사례를 해결하기 위해 SOAP 프로토콜을 통해 노출된 웹 서비스 API를 사용하여 외부 응용 프로그램에서 시스템을 호출할 수 있습니다. 이 페이지](../dev/api.md)에서 Campaign API [에 대해 자세히 알아보세요.
 
 
 ## 클라이언트 콘솔 작업 {#ui-access}
 
-Campaign 클라이언트 콘솔은 SOAP 및 HTTP와 같은 표준 인터넷 프로토콜을 통해 Adobe Campaign 애플리케이션 서버와 통신하는 기본 애플리케이션입니다. Campaign 클라이언트 콘솔은 모든 기능과 설정을 중앙 집중화하며 로컬 캐시에 의존하기 때문에 최소한의 대역폭이 필요합니다. 손쉬운 배포를 위해 설계된 Campaign 클라이언트 콘솔은 인터넷 브라우저에서 배포하고 자동으로 업데이트할 수 있으며 HTTP(S) 트래픽만 생성하므로 특정 네트워크 구성이 필요하지 않습니다.  [Campaign 클라이언트 콘솔에 대해 자세히 알아보기](../start/connect.md). 클라이언트 콘솔 홈 페이지의 전용 카드에서 Campaign 웹 사용자 인터페이스로 전환할 수 있습니다.
+Campaign 클라이언트 콘솔은 SOAP 및 HTTP와 같은 표준 인터넷 프로토콜을 통해 Adobe Campaign 애플리케이션 서버와 통신하는 기본 애플리케이션입니다. Campaign 클라이언트 콘솔은 모든 기능과 설정을 중앙 집중화하며 로컬 캐시에 의존하기 때문에 최소한의 대역폭이 필요합니다. 손쉬운 배포를 위해 설계된 Campaign 클라이언트 콘솔은 인터넷 브라우저에서 배포하고 자동으로 업데이트할 수 있으며 HTTP(S) 트래픽만 생성하므로 특정 네트워크 구성이 필요하지 않습니다.  [Campaign 클라이언트 콘솔에 대해 자세히 알아보세요](../start/connect.md). 클라이언트 콘솔 홈 페이지의 전용 카드에서 Campaign 웹 사용자 인터페이스로 전환할 수 있습니다.
 
 ![](assets/web-ui.png)
 
 
 >[!NOTE]
 >
->새 액세스 카드가 표시되지 않으면 Adobe Experience Cloud 외부 계정 내에 다음 필드가 비어 있지 않은지 확인하십시오. **서버**, **임차인**, **콜백 서버**, 및 **연결 표시**.
+>새 액세스 카드가 표시되지 않으면 Adobe Experience Cloud 외부 계정 내에 **서버**, **테넌트**, **콜백 서버** 및 **연결 표시** 필드가 비어 있지 않은지 확인하십시오.
 
 
 웹 브라우저를 사용하여 Campaign에 액세스할 수도 있습니다. 이 컨텍스트에서는 Campaign 기능의 하위 집합만 사용할 수 있습니다. [자세히 알아보기](#web-browser)
@@ -59,9 +59,9 @@ Campaign 클라이언트 콘솔에 연결되면 홈 페이지에 액세스합니
 >
 >액세스할 수 있는 핵심 기능 목록은 사용 권한 및 구현에 따라 다릅니다.
 
-각 기능에 대해 **[!UICONTROL Browsing]** 섹션. 다음 **[!UICONTROL More]** 링크를 통해 다른 모든 구성 요소에 액세스할 수 있습니다.
+각 기능에 대해 **[!UICONTROL Browsing]** 섹션의 주요 기능 집합에 액세스할 수 있습니다. **[!UICONTROL More]** 링크를 사용하여 다른 모든 구성 요소에 액세스할 수 있습니다.
 
-예를 들어 을 찾아 **[!UICONTROL Profiles and targets]** 탭에서는 수신자 목록, 구독 서비스, 기존 타겟팅 워크플로 및 이러한 모든 구성 요소를 만들기 위한 바로 가기에 액세스할 수 있습니다.
+예를 들어 **[!UICONTROL Profiles and targets]** 탭으로 이동할 때 수신자 목록, 구독 서비스, 기존 타겟팅 워크플로 및 이러한 모든 구성 요소를 만들기 위한 바로 가기에 액세스할 수 있습니다.
 
 ![](assets/overview-list.png)
 
@@ -71,9 +71,9 @@ Campaign 클라이언트 콘솔에 연결되면 홈 페이지에 액세스합니
 
 ### 요소 만들기 {#create-an-element}
 
-에서 바로 가기 사용 **[!UICONTROL Create]** 섹션에 새 요소를 추가합니다. 다음을 사용할 수도 있습니다 **[!UICONTROL Create]** 목록 위에 있는 단추를 클릭하여 현재 목록에 새 요소를 추가합니다.
+화면 왼쪽의 **[!UICONTROL Create]** 섹션에서 바로 가기를 사용하여 새 요소를 추가합니다. 목록 위에 있는 **[!UICONTROL Create]** 단추를 사용하여 현재 목록에 새 요소를 추가할 수도 있습니다.
 
-예를 들어 게재 페이지에서 **[!UICONTROL Create]** 단추를 클릭하여 새 게재를 만듭니다.
+예를 들어 게재 페이지에서 **[!UICONTROL Create]** 단추를 사용하여 새 게재를 만듭니다.
 
 ![](assets/new-recipient.png)
 
@@ -94,7 +94,7 @@ The web access interface is similar to the console interface. From a browser, yo
 
 이 작업 영역을 사용하면 탐색기 트리에 액세스하여 모든 기능과 옵션을 찾아볼 수 있습니다.
 
-* 왼쪽 섹션에는 캠페인 탐색기 트리가 표시되며, 사용자 권한에 따라 인스턴스의 모든 구성 요소와 설정을 검색할 수 있습니다. 에 설명된 대로 폴더를 추가하고 사용자 정의할 수 있습니다 [이 페이지](../audiences/folders-and-views.md).
+* 왼쪽 섹션에는 캠페인 탐색기 트리가 표시되며, 사용자 권한에 따라 인스턴스의 모든 구성 요소와 설정을 검색할 수 있습니다. [이 페이지](../audiences/folders-and-views.md)에 설명된 대로 폴더를 추가하고 사용자 지정할 수 있습니다.
 
 * 상단 섹션에는 현재 폴더의 레코드 목록이 표시됩니다. 이러한 목록은 완전히 사용자 지정할 수 있습니다. [자세히 알아보기](../config/ui-settings.md)
 
@@ -107,9 +107,9 @@ v8.6.1 릴리스를 시작하는 Campaign v8 클라이언트 콘솔 사용자는
 
 ![Adobe Campaign 웹 사용자 인터페이스 홈 페이지](assets/ac-web-home.png)
 
-에서 새로운 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보십시오. [이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}.
+[이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}에서 새 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보세요.
 
-추가 및 고급 기능, 구성 및 설정은 클라이언트 콘솔에서만 사용할 수 있습니다. 두 사용자 인터페이스에서 모두 사용할 수 있는 기능에 대해 자세히 알아보십시오 [Campaign 웹 사용자 인터페이스 설명서에서](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=ko){target="_blank"}.
+추가 및 고급 기능, 구성 및 설정은 클라이언트 콘솔에서만 사용할 수 있습니다. Campaign 웹 사용자 인터페이스 설명서 [의 두 사용자 인터페이스에서 사용할 수 있는 기능에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=ko){target="_blank"}.
 
 
 ## 지원 언어 {#languages}
@@ -129,7 +129,7 @@ v8.6.1 릴리스를 시작하는 Campaign v8 클라이언트 콘솔 사용자는
   >
   >언어는 설치 프로세스 중에 선택되며 나중에 변경할 수 없습니다.
 
-* Campaign 웹 사용자 인터페이스가 지원하는 언어의 경우 [이 페이지 참조](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}.
+* Campaign 웹 사용자 인터페이스가 지원하는 언어에 대해서는 [이 페이지를 참조하세요](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}.
 
 
 언어는 날짜 및 시간 형식에 영향을 줍니다.
@@ -147,8 +147,8 @@ v8.6.1 릴리스를 시작하는 Campaign v8 클라이언트 콘솔 사용자는
  <tbody> 
   <tr> 
    <td> 날짜<br /> </td> 
-   <td> 일요일부터 주 시작<br /> </td> 
-   <td> 월요일부터 주 시작<br /> </td> 
+   <td> 주간이 일요일<br />에 시작 </td> 
+   <td> 주간이 월요일<br />에 시작 </td> 
   </tr> 
   <tr> 
    <td> 간단한 날짜<br /> </td> 
@@ -156,8 +156,8 @@ v8.6.1 릴리스를 시작하는 Campaign v8 클라이언트 콘솔 사용자는
    <td> <p>%2D/%2M/%4Y</p><p><strong>예: 2018/25/09</strong></p> </td> 
   </tr> 
   <tr> 
-   <td> 시간이 포함된 간단한 날짜<br /> </td> 
-   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>예: 2018/09/25 10:47:25피코미터</strong></p> </td> 
+   <td> 시간이 <br />인 간단한 날짜 </td> 
+   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>예: 2018/09/25 오후 10:47:25</strong></p> </td> 
    <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>예: 2018/25/09 22:47:25</strong></p> </td> 
   </tr> 
  </tbody> 

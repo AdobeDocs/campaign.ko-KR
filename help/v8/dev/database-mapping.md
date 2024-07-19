@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 설명 {#description}
 
-스키마의 루트 요소가 더 이상 아닙니다. **`<srcschema>`**, 하지만 **`<schema>`**.
+스키마의 루트 요소가 더 이상 **`<srcschema>`**&#x200B;이(가) 아닌 **`<schema>`**&#x200B;입니다.
 
 이를 통해 소스 스키마에서 자동으로 생성되는 다른 유형의 문서(간단히 스키마라고 함)로 이동합니다. 이 스키마는 Adobe Campaign 애플리케이션에서 사용됩니다.
 
@@ -47,7 +47,7 @@ SQL 이름 지정 규칙은 다음과 같습니다.
 
 * 표: 스키마 네임스페이스 및 이름의 연결
 
-  이 예제에서 표의 이름은 스키마의 기본 요소를 통해 **sqltable** 특성:
+  이 예제에서 테이블 이름은 **sqltable** 특성에 있는 스키마의 main 요소를 통해 입력됩니다.
 
   ```sql
   <element name="recipient" sqltable="CusRecipient">
@@ -55,7 +55,7 @@ SQL 이름 지정 규칙은 다음과 같습니다.
 
 * 필드: 유형에 따라 정의된 접두사가 앞에 오는 요소의 이름(정수는 &#39;i&#39;, double은 &#39;d&#39;, 문자열은 &#39;s&#39;, 날짜는 &#39;ts&#39; 등)
 
-  필드 이름은 **sqlname** 입력된 각 속성에 대한 속성 **`<attribute>`** 및 **`<element>`**:
+  입력한 각 **`<attribute>`** 및 **`<element>`**&#x200B;에 대해 **sqlname** 특성을 통해 필드 이름을 입력합니다.
 
   ```sql
   <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
@@ -82,9 +82,9 @@ SQL 필드 제약 조건은 다음과 같습니다.
 
 ## XML 필드 {#xml-fields}
 
-기본적으로 모든 입력 **`<attribute>`** 및 **`<element>`** 요소는 데이터 스키마 테이블의 SQL 필드에 매핑됩니다. 그러나 SQL 대신 XML로 이 필드를 참조할 수 있습니다. 즉, 모든 XML 필드의 값이 들어 있는 테이블의 메모 필드(&quot;mData&quot;)에 데이터가 저장됩니다. 이러한 데이터의 저장소는 스키마 구조를 관찰하는 XML 문서입니다.
+기본적으로 형식화된 **`<attribute>`** 및 **`<element>`** 요소는 데이터 스키마 테이블의 SQL 필드에 매핑됩니다. 그러나 SQL 대신 XML로 이 필드를 참조할 수 있습니다. 즉, 모든 XML 필드의 값이 들어 있는 테이블의 메모 필드(&quot;mData&quot;)에 데이터가 저장됩니다. 이러한 데이터의 저장소는 스키마 구조를 관찰하는 XML 문서입니다.
 
-XML에서 필드를 채우려면 다음을 추가해야 합니다. **xml** 관련 요소에 &quot;true&quot; 값이 있는 특성.
+XML의 필드를 채우려면 값이 &quot;true&quot;인 **xml** 특성을 관련 요소에 추가해야 합니다.
 
 **예제**
 

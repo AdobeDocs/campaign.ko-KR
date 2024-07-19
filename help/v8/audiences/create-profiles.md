@@ -14,21 +14,21 @@ ht-degree: 3%
 
 # 수동으로 프로필 만들기{#create-profiles-manual}
 
-Campaign 데이터베이스를 채우려면 [프로필 가져오기](import-profiles.md) 또는 아래에 자세히 설명된 대로 수동으로 추가하십시오.
+Campaign 데이터베이스를 채우려면 아래 설명된 대로 [프로필을 가져오거나](import-profiles.md)하거나 수동으로 추가할 수 있습니다.
 
 수신자를 수동으로 생성하려면 아래 단계를 수행하십시오.
 
-1. 다음으로 이동 **[!UICONTROL Profiles and targets]** 탭을 클릭하고 다음을 선택합니다. **[!UICONTROL Recipients]** 범주.
+1. **[!UICONTROL Profiles and targets]** 탭으로 이동하여 **[!UICONTROL Recipients]** 범주를 선택합니다.
 
    ![](assets/profiles-and-targets.png)
 
-   기본적으로 수신자는 **[!UICONTROL Profiles and Targets > Recipients]** 트리의 노드. 이 보기에서 수신자를 만들 수도 있습니다.
+   기본적으로 수신자는 트리의 **[!UICONTROL Profiles and Targets > Recipients]** 노드에 저장됩니다. 이 보기에서 수신자를 만들 수도 있습니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Create button]**.
+1. **[!UICONTROL Create button]**&#x200B;을(를) 클릭합니다.
 1. 프로필의 데이터를 입력합니다.
 
    ![](assets/new-recipient.png)
 
-   에서 수신자 기본 제공 양식에 대해 자세히 알아보기 [이 페이지](view-profiles.md#edit-a-profiles).
+   [이 페이지](view-profiles.md#edit-a-profiles)에서 받는 사람의 기본 제공 양식에 대해 자세히 알아보세요.
 
-1. 클릭 **[!UICONTROL Save]**: 프로필이 기본 수신자 폴더의 Campaign에 추가됩니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 프로필이 기본 받는 사람 폴더의 Campaign에 추가됩니다.

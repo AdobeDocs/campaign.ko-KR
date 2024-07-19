@@ -20,7 +20,7 @@ DM 게재는 대상 모집단에서 데이터를 포함하는 추출 파일을 �
 
 1. 게재 만들기
 
-   템플릿을 기반으로 DM 게재를 만듭니다. 다음을 복제하고 구성할 수 있습니다. **[!UICONTROL Deliver by direct mail (paper)]** 기본 제공 템플릿입니다.
+   템플릿을 기반으로 DM 게재를 만듭니다. **[!UICONTROL Deliver by direct mail (paper)]** 기본 제공 템플릿을 복제하고 구성할 수 있습니다.
 
    자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html){target="_blank"}를 참조하세요
 
@@ -50,8 +50,8 @@ DM 게재는 대상 모집단에서 데이터를 포함하는 추출 파일을 �
 
 1. 게재 시작
 
-   추출 파일의 유효성을 검사한 후 **게재 확인** 확인 메시지를 통해 게재를 시작할 수 있습니다.
+   추출 파일의 유효성을 검사하면 **게재 확인**&#x200B;을 클릭합니다. 확인 메시지를 통해 게재를 시작할 수 있습니다.
 
    확인이 지정된 파일에서 데이터 추출을 시작합니다.
 
-   마케팅 캠페인의 컨텍스트에서 모든 승인이 승인되면 DM 게재가 추출 보류 중일 때 기본 구성에서 자동으로 시작되는 특수 워크플로우를 통해 추출 파일이 만들어집니다. 다음에서 자세히 알아보기 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ko){target="_blank"}.
+   마케팅 캠페인의 컨텍스트에서 모든 승인이 승인되면 DM 게재가 추출 보류 중일 때 기본 구성에서 자동으로 시작되는 특수 워크플로우를 통해 추출 파일이 만들어집니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ko){target="_blank"}을 참조하세요.

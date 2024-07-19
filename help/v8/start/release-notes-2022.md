@@ -49,20 +49,20 @@ _2022년 9월 30일_
 <table> 
 <thead>
 <tr> 
-<th> <strong>X(이전의 Twitter) 채널 가용성</strong><br /> </th> 
+<th> <strong>X(이전 Twitter) 채널 가용성</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>다음 <a href="../send/twitter.md">X 소셜 채널</a> 는 이제 Campaign v8에서 사용할 수 있습니다. 다음을 수행할 수 있습니다.</p>
+<td> <p>이제 Campaign v8에서 <a href="../send/twitter.md">X 소셜 채널</a>을(를) 사용할 수 있습니다. 다음을 수행할 수 있습니다.</p>
 <ul> 
 <li><p>X에서 메시지 보내기(이전의 Twitter): Adobe Campaign을 사용하면 메시지를 X 계정에 직접 게시할 수 있습니다. 모든 팔로워에게 직접 메시지를 보낼 수도 있습니다.
 </p></li>
 <li><p>새 연락처 수집: Adobe Campaign은 프로필 데이터를 자동으로 복구하여 타겟팅 캠페인을 수행하고 크로스 채널 전략을 구현할 수 있습니다.
 </p></li>
 </ul>
-<p>에서 Campaign과 X를 연결하는 방법을 알아봅니다. <a href="../connect/ac-tw.md">자세한 설명서</a>.</p>
-<p>에서 Campaign을 사용하여 게시물을 만들고 다이렉트 메시지를 보내는 방법을 배웁니다. <a href="../connect/ac-tw.md">이 페이지</a>.</p>
+<p><a href="../connect/ac-tw.md">자세한 설명서</a>에서 Campaign과 X를 연결하는 방법을 알아보세요.</p>
+<p><a href="../connect/ac-tw.md">이 페이지</a>에서 Campaign으로 게시물을 만들고 다이렉트 메시지를 보내는 방법을 알아봅니다.</p>
 </td> 
 </tr> 
 </tbody> 

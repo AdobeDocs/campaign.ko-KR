@@ -16,7 +16,7 @@ ht-degree: 81%
 + 워크플로우 자동화 {#workflows}
    + 워크플로우 시작 {#introduction}
       + [워크플로우 정보](workflow/about-workflows.md)
-      + 워크플로우 유형 {#wf-type}
+      + 워크플로 유형 {#wf-type}
          + [타겟팅 워크플로](workflow/targeting-workflows.md)
          + [캠페인 워크플로](workflow/campaign-workflows.md)
          + [기술 워크플로우](workflow/technical-workflows.md)
@@ -143,7 +143,7 @@ ht-degree: 81%
    + [반복 및 정기 캠페인](campaigns/recurring-periodic-campaigns.md)
    + [캠페인 모니터링](campaigns/marketing-campaign-monitoring.md)
    + [공급자, 재고 및 예산](campaigns/providers-stocks-and-budgets.md)
-+ Campaign 최적화(추가 기능){#campaign-optimization}
++ 캠페인 최적화(추가 기능){#campaign-optimization}
    + [캠페인 유형화 시작](campaign-opt/campaign-typologies.md)
    + [필터링 규칙](campaign-opt/filtering-rules.md)
    + [제어 규칙](campaign-opt/control-rules.md)
@@ -165,4 +165,4 @@ ht-degree: 81%
    + [캠페인 액세스](distributed-marketing/accessing-campaigns.md)
    + [캠페인 추적](distributed-marketing/tracking-a-campaign.md)
    + [활용 사례](distributed-marketing/examples.md)
-+ [&lt; Campaign v8 설명서로 이동](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)
++ [&lt; Campaign v8 설명서로 돌아가기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)

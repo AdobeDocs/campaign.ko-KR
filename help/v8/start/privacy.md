@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 96%
+source-wordcount: '942'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 Campaign에서 개인 정보 요청을 관리하려면 먼저 [네임스페이스를 정의](#namespaces)해야 합니다. 그러면 개인 정보 요청을 만들고 관리할 수 있습니다. 개인 정보 요청을 수행하려면 **Adobe Privacy Service** 통합을 사용하십시오.  Privacy Service에서 모든 Adobe Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로우를 통해 Campaign에서 자동으로 처리됩니다. [자세히 알아보기](#create-privacy-request)
 
-에 대해 알아보기 **액세스 권한** 및 **잊혀질 권리** (삭제 요청) 위치 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko){target="_blank"}.
+[Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko){target="_blank"}에서 **액세스 권한** 및 **잊혀질 권리**(삭제 요청)에 대해 알아보세요.
 
 <!--
 >[!NOTE]
@@ -109,7 +109,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 >[!CAUTION]
 >
->사용자 정의 네임스페이스 유형을 사용하여 요청을 제출하려면 [JSON 메서드](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ko#access-delete){target="_blank"}를 활용하여 요청을 만듭니다.
+>사용자 지정 네임스페이스 유형을 사용하여 요청을 제출하려면 [JSON 메서드](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#json){target="_blank"}를 활용하고 요청에 namespaceId를 추가하거나 [API 호출](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ko#access-delete){target="_blank"}을(를) 사용하여 요청하십시오.
 >
 >표준 네임스페이스 유형을 사용하여 요청을 제출할 때는 [개인 정보 사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#request-builder){target="_blank"}만 사용할 수 있습니다.
 

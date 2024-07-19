@@ -16,7 +16,7 @@ ht-degree: 3%
 
 
 
-아래에 설명된 워크플로우는 **받은 편지함 렌더링(IR)** 기본적으로 모듈입니다.
+아래에 설명된 워크플로는 기본적으로 **받은 편지함 렌더링(IR)** 모듈로 설치됩니다.
 
 <table> 
  <tbody> 
@@ -26,9 +26,9 @@ ht-degree: 3%
    <td> <strong>설명</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>받은 편지함 렌더링용 시드 네트워크 업데이트</strong><br /> </td> 
+   <td> <strong>받은 편지함 렌더링에 대한 시드 네트워크 업데이트</strong><br /> </td> 
    <td> <span class="uicontrol">updateRenderingSeeds</span> <br /> </td> 
-   <td> 이 워크플로우는 받은 편지함 렌더링에 사용되는 이메일 주소를 업데이트하며,에 대한 HTTPS 포트가 열려 있는 경우에만 작동합니다. <strong>deliverability.neolane.net</strong>.<br /> </td> 
+   <td> 이 워크플로는 받은 편지함 렌더링에 사용되는 전자 메일 주소를 업데이트하며 <strong>deliverability.neolane.net</strong>.<br />에 대해 HTTPS 포트가 열려 있는 경우에만 작동합니다. </td> 
   </tr> 
  </tbody> 
 </table>

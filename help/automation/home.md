@@ -73,11 +73,11 @@ Adobe Campaign을 사용하면 캠페인 오케스트레이션을 위한 편리�
     </div>
     <br>
     <div>
-    <a href="campaign-opt/campaign-typologies.md">Campaign 최적화</a>
+    <a href="campaign-opt/campaign-typologies.md">캠페인 최적화</a>
     </div>
     <br>
     <div>
-    <a href="mrm/about-marketing-resource-management.md">마케팅 리소스 관리(MRM)</a>
+    <a href="mrm/about-marketing-resource-management.md">MRM(마케팅 리소스 관리)</a>
     </div>
     <br>
   </td>

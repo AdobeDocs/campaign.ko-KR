@@ -12,23 +12,23 @@ ht-degree: 9%
 
 ---
 
-# 시작 [!DNL Campaign] API {#gs-ac-api}
+# [!DNL Campaign] API 시작 {#gs-ac-api}
 
-[!DNL Adobe Campaign] 에는 다음과 같이 사용할 수 있는 Javascript 함수 세트가 포함되어 있습니다.
+[!DNL Adobe Campaign]에는 사용할 수 있는 Javascript 함수 집합이 포함되어 있습니다.
 
-* 스크립트에서 - 에서 [!DNL Adobe Campaign] 워크플로
+* 스크립트에서 - [!DNL Adobe Campaign] 워크플로에서
 * API를 통해 - 외부 시스템에서
 
-JavaScript API를 사용하여 Campaign 클라우드 데이터베이스에서 작성하거나 데이터베이스에서 읽을 수 있습니다.
+JavaScript API를 사용하여 Campaign 클라우드 데이터베이스에 쓰거나 데이터베이스에서 읽을 수 있습니다.
 
-* 게재, 워크플로우, 구독 등 각 오브젝트에 대해 작업을 수행할 수 있는 비즈니스별 API입니다. 다음에서 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
-* 데이터 모델 데이터 쿼리를 위한 일반 데이터 액세스 API입니다. 다음에서 자세히 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}.
+* 게재, 워크플로우, 구독 등 각 오브젝트에 대해 작업을 수행할 수 있는 비즈니스별 API입니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}를 참조하세요.
+* 데이터 모델 데이터 쿼리를 위한 일반 데이터 액세스 API입니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}를 참조하세요.
 
-참고 사항: [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), Campaign은 두 개의 데이터베이스를 사용합니다. 하나는 사용자 인터페이스 실시간 메시지 보내기와 API를 통한 단일 쿼리 및 쓰기를 위한 로컬 데이터베이스이고, 다른 하나는 캠페인 실행, 보고, 데이터 수집, 쿼리 일괄 처리 및 워크플로우 실행을 위한 클라우드 데이터베이스입니다.
+[엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)에서 Campaign은 두 개의 데이터베이스를 사용합니다. 하나는 사용자 인터페이스 실시간 메시지 보내기와 API를 통한 단일 쿼리 및 쓰기를 위한 로컬 데이터베이스이고, 다른 하나는 캠페인 실행, 보고, 데이터 수집, 쿼리 일괄 처리 및 워크플로우 실행을 위한 클라우드 데이터베이스입니다.
 
 >[!CAUTION]
 >
->* Campaign Standard에서 전환하는 Campaign 사용자는 Campaign v8에서 REST API를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
+>* Campaign Standard에서 전환하는 Campaign 사용자는 Campaign v8에서 REST API를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}
 >
 >* Campaign v8.5.1부터 Campaign v8에 대한 인증 프로세스가 변경되었습니다. 기술 운영자는 IMS(Adobe Identity Management System)를 사용하여 Campaign에 연결해야 합니다. [이 기술 노트](../../technotes/upgrades/ims-migration.md)에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다.
 >
@@ -37,13 +37,13 @@ JavaScript API를 사용하여 Campaign 클라우드 데이터베이스에서 �
 
 ## 필수 구성 요소 {#ac-api-prerequisites}
 
-사용 전 [!DNL Adobe Campaign] API를 사용하려면 다음 주제에 익숙해야 합니다.
+[!DNL Adobe Campaign] API를 사용하기 전에 다음 항목을 숙지해야 합니다.
 
 * JavaScript
-* 프로토콜
+* SOAP 프로토콜
 * [!DNL Adobe Campaign] 데이터 모델
 
-API를 사용하고 와 상호 작용하려면 [!DNL Adobe Campaign]또한 데이터 모델에 익숙해야 합니다.
+API를 사용하고 [!DNL Adobe Campaign]과(와) 상호 작용하려면 데이터 모델도 잘 알고 있어야 합니다.
 
 >[!NOTE]
 >데이터 모델에 대한 전체 설명을 생성할 수 있습니다. [이 페이지](datamodel.md)에서 자세히 알아보십시오.

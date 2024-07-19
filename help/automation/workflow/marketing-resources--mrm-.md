@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # 마케팅 리소스(MRM){#marketing-resources-mrm}
 
-아래에 설명된 워크플로우는 **마케팅 리소스(MRM)** 기본적으로 모듈입니다.
+아래에 설명된 워크플로는 기본적으로 **마케팅 리소스(MRM)** 모듈과 함께 설치됩니다.
 
 <table> 
  <tbody> 
@@ -31,13 +31,13 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">작업 알림</span> <br /> </td> 
-   <td> <span class="uicontrol">작업 관리</span> <br /> </td> 
-   <td> 이 워크플로우를 통해 마케팅 캠페인의 작업과 관련된 알림 메시지를 보낼 수 있습니다.<br /> </td> 
+   <td> <span class="uicontrol">taskMgt</span> <br /> </td> 
+   <td> 이 워크플로우를 사용하면 마케팅 캠페인의 작업과 관련된 알림 메시지를 보낼 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">토론 포럼 프로세스</span> <br /> </td> 
-   <td> <span class="uicontrol">뉴스 그룹 관리</span> <br /> </td> 
-   <td> 이 워크플로우는 토론 포럼에서 알림 전달을 관리합니다. 승인 신호가 수신되면 트리거됩니다.<br /> </td> 
+   <td> <span class="uicontrol">newsgroupMgt</span> <br /> </td> 
+   <td> 이 워크플로우는 토론 포럼에서 알림 전달을 관리합니다. 승인 신호를 받으면 트리거됩니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

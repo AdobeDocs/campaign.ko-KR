@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 프로그램 및 캠페인 만들기{#create-programs-and-campaigns}
 
-Campaign 오케스트레이션 구성 요소는 **[!UICONTROL Campaigns]** 탭: 여기에서 마케팅 프로그램 및 캠페인과 관련 요소에 대한 개요를 볼 수 있습니다.
+캠페인 오케스트레이션 구성 요소는 **[!UICONTROL Campaigns]** 탭에 있습니다. 여기에서 마케팅 프로그램 및 캠페인과 관련 요소에 대한 개요를 볼 수 있습니다.
 
 마케팅 프로그램은 게재, 리소스 등으로 구성되는 캠페인으로 구성됩니다. 게재, 예산, 검토자 및 연결된 문서에 관한 모든 정보는 캠페인에 그룹화됩니다.
 
@@ -26,24 +26,24 @@ Campaign 오케스트레이션 구성 요소는 **[!UICONTROL Campaigns]** 탭: 
 
 ### 계획 및 프로그램 계층 구조 만들기 {#create-plan-and-program}
 
-각 캠페인은 프로그램에 속하며, 프로그램은 기획에 속합니다. 모든 플랜, 프로그램 및 캠페인은 **[!UICONTROL Campaign calendar]** 의 메뉴 **캠페인** 탭.
+각 캠페인은 프로그램에 속하며, 프로그램은 기획에 속합니다. 모든 계획, 프로그램 및 캠페인은 **캠페인** 탭의 **[!UICONTROL Campaign calendar]** 메뉴를 통해 사용할 수 있습니다.
 
 캠페인 및 게재 빌드를 시작하기 전에 마케팅 계획 및 프로그램에 대한 폴더 계층 구조를 구성합니다.
 
-1. 다음을 클릭합니다. **탐색기** 홈 페이지의 아이콘입니다.
+1. 홈 페이지에서 **탐색기** 아이콘을 클릭합니다.
 1. 계획을 생성할 폴더를 마우스 오른쪽 단추로 누릅니다.
-1. 선택 **새 폴더 추가 > Campaign Management > 계획**.
+1. **새 폴더 추가 > Campaign Management > 플랜**&#x200B;을 선택합니다.
 
    ![](assets/create-new-plan-folder.png)
 
 1. 플랜 이름을 변경합니다.
-1. 새로 생성된 계획을 마우스 오른쪽 버튼으로 클릭하고 다음을 선택합니다. **속성...**.
-1. 다음에서 **일반** 탭, 수정 **내부 이름** 패키지를 내보내는 동안 중복을 방지합니다.
+1. 새로 만든 계획을 마우스 오른쪽 단추로 클릭하고 **속성...**&#x200B;을 선택합니다.
+1. **일반** 탭에서 **내부 이름**&#x200B;을(를) 수정하여 패키지를 내보내는 동안 중복되지 않도록 합니다.
 
    ![](assets/plan-properties.png)
 
 1. **저장**&#x200B;을 클릭합니다.
-1. 새로 생성된 계획을 마우스 오른쪽 버튼으로 클릭하고 다음을 선택합니다. **새 &#39;Program&#39; 폴더 만들기**.
+1. 새로 만든 계획을 마우스 오른쪽 단추로 클릭하고 **새 &#39;프로그램&#39; 폴더 만들기**&#x200B;를 선택합니다.
 
    ![](assets/program-folder.png)
 
@@ -54,9 +54,9 @@ Campaign 오케스트레이션 구성 요소는 **[!UICONTROL Campaigns]** 탭: 
 
 프로그램을 편집할 때 아래 설명된 탭을 사용하여 프로그램을 탐색하고 구성합니다.
 
-* 다음 **예약** 탭에는 달력 헤더에서 클릭하는 탭에 따라 월, 주 또는 일의 프로그램 달력이 표시됩니다. 이 페이지에서 캠페인, 프로그램 또는 작업을 만들 수 있습니다. [자세히 알아보기](#campaign-calendar)
+* **일정** 탭에는 일정 헤더에서 클릭하는 탭에 따라 한 달, 주 또는 일의 프로그램 일정이 표시됩니다. 이 페이지에서 캠페인, 프로그램 또는 작업을 만들 수 있습니다. [자세히 알아보기](#campaign-calendar)
 
-* 다음 **편집** 탭에서는 이름, 시작 및 종료 일자, 예산, 링크된 문서 등 프로그램을 개인화할 수 있습니다.
+* **편집** 탭에서는 이름, 시작 및 종료 날짜, 예산, 연결된 문서 등 프로그램을 개인화할 수 있습니다.
 
   ![](assets/new-program-edit-tab.png)
 
@@ -64,9 +64,9 @@ Campaign 오케스트레이션 구성 요소는 **[!UICONTROL Campaigns]** 탭: 
 
 ### 캠페인 만들기 {#create-a-campaign}
 
-캠페인 목록을 통해 캠페인을 만들 수 있습니다. 이 보기를 표시하려면 **[!UICONTROL Campaigns]** 의 메뉴 **[!UICONTROL Campaigns]** 대시보드 및 클릭 **[!UICONTROL Create]**.
+캠페인 목록을 통해 캠페인을 만들 수 있습니다. 이 보기를 표시하려면 **[!UICONTROL Campaigns]** 대시보드에서 **[!UICONTROL Campaigns]** 메뉴를 선택하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-다음 **[!UICONTROL Program]** 필드를 사용하면 캠페인을 첨부할 프로그램을 선택할 수 있습니다. 이 정보는 필수입니다.
+**[!UICONTROL Program]** 필드를 사용하면 캠페인을 연결할 프로그램을 선택할 수 있습니다. 이 정보는 필수입니다.
 
 ![](assets/new-campaign-settings.png)
 
@@ -74,12 +74,12 @@ Campaign 오케스트레이션 구성 요소는 **[!UICONTROL Campaigns]** 탭: 
 
 캠페인 생성 창에서 캠페인 템플릿을 선택하고 캠페인에 대한 이름 및 설명을 추가합니다. 캠페인 시작 및 종료 날짜를 지정할 수도 있습니다.
 
-클릭 **[!UICONTROL OK]** 캠페인을 만들기 위해 사용됩니다. 프로그램 일정 및 캠페인 목록에 추가됩니다.
+캠페인을 만들려면 **[!UICONTROL OK]**&#x200B;을(를) 클릭하십시오. 프로그램 일정 및 캠페인 목록에 추가됩니다.
 
 그런 다음 방금 만든 캠페인을 편집하고 해당 매개 변수를 정의할 수 있습니다. 이 캠페인을 열고 구성하려면 다음을 수행할 수 있습니다.
 
-1. 캠페인 달력을 검색하고 표시할 캠페인을 선택한 다음 **[!UICONTROL Open]** 링크를 클릭합니다.
-1. 찾아보기 **[!UICONTROL Schedule]** 프로그램의 탭에서 캠페인을 선택하고 엽니다.
+1. 캠페인 일정을 검색하고 표시할 캠페인을 선택한 다음 **[!UICONTROL Open]** 링크를 클릭합니다.
+1. 프로그램의 **[!UICONTROL Schedule]** 탭을 검색하고 캠페인을 선택한 다음 엽니다.
 1. 캠페인 목록을 검색하고 편집할 캠페인의 이름을 클릭합니다.
 
 이 모든 작업을 수행하면 캠페인 대시보드로 이동합니다.
@@ -101,29 +101,29 @@ Campaign 오케스트레이션 구성 요소는 **[!UICONTROL Campaigns]** 탭: 
 
 각 캠페인에 대해 다음 기능을 사용할 수 있습니다.
 
-* 참조 문서 및 리소스: 문서(개요, 보고서, 이미지 등)를 캠페인과 연결할 수 있습니다. 모든 문서 형식이 지원됩니다. [자세히 알아보기](marketing-campaign-deliveries.md#manage-associated-documents)
-* 비용 정의: Adobe Campaign을 사용하면 각 캠페인에 대해 마케팅 캠페인을 생성할 때 사용할 수 있는 비용 입력 및 비용 계산 구조를 정의할 수 있습니다. 예를 들어 인쇄 비용, 외부 에이전시 사용, 객실 대여 등이 있습니다. [자세히 알아보기](providers-stocks-and-budgets.md#defining-cost-categories)
+* 참조 문서 및 리소스: 문서(개요, 보고서, 이미지 등)를 캠페인과 연결할 수 있습니다. 모든 문서 형식이 지원됩니다. [자세히 알아보기](marketing-campaign-deliveries.md#manage-associated-documents).
+* 비용 정의: Adobe Campaign을 사용하면 각 캠페인에 대해 마케팅 캠페인을 생성할 때 사용할 수 있는 비용 입력 및 비용 계산 구조를 정의할 수 있습니다. 예를 들어 인쇄 비용, 외부 에이전시 사용, 객실 대여 등이 있습니다. [자세히 알아보기](providers-stocks-and-budgets.md#defining-cost-categories).
 * 목표 정의: 구독자 수, 거래량 등과 같은 캠페인에 대한 수량 목표를 정의할 수 있습니다. 이 정보는 나중에 캠페인 보고서에 사용됩니다.
-* 시드 주소 및 컨트롤 그룹을 관리합니다. [자세히 알아보기](marketing-campaign-deliveries.md#defining-a-control-group)
-* 승인 관리: 승인할 처리를 선택하고 필요한 경우 검토 운영자 또는 운영자 그룹을 선택할 수 있습니다. [자세히 알아보기](marketing-campaign-approval.md#checking-and-approving-deliveries)
+* 시드 주소 및 컨트롤 그룹을 관리합니다. [자세히 알아보기](marketing-campaign-deliveries.md#defining-a-control-group).
+* 승인 관리: 승인할 처리를 선택하고 필요한 경우 검토 운영자 또는 운영자 그룹을 선택할 수 있습니다. [자세히 알아보기](marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 >[!NOTE]
 >
->캠페인 설정에 액세스하고 업데이트하려면 **[!UICONTROL Advanced campaign parameters...]** 링크 **[!UICONTROL Edit]** 탭.
+>캠페인 설정에 액세스하고 업데이트하려면 **[!UICONTROL Edit]** 탭에서 **[!UICONTROL Advanced campaign parameters...]** 링크로 이동하십시오.
 
 ### 캠페인 모니터링 {#monitor-a-campaign}
 
 각 캠페인에 대해 작업, 리소스 및 게재는 대시보드에서 중앙 집중화됩니다. 이 인터페이스를 사용하여 마케팅 작업을 관리하고 오케스트레이션할 수 있습니다.
 
-Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양한 단계를 만들고 승인하기 위한 공동 작업 프로세스를 설정할 수 있습니다. 이 오케스트레이션에 자세히 설명되어 있습니다. [이 섹션](marketing-campaign-approval.md).
+Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양한 단계를 만들고 승인하기 위한 공동 작업 프로세스를 설정할 수 있습니다. 이 오케스트레이션은 [이 섹션](marketing-campaign-approval.md)에 자세히 설명되어 있습니다.
 
 ![](assets/campaigns-dashboard-approval-tab.png)
 
 >[!NOTE]
 >
->캠페인에서 사용할 수 있는 구성 요소는 템플릿에 따라 다릅니다. 캠페인 템플릿 구성은에 표시됩니다. [이 섹션](marketing-campaign-templates.md#campaign-templates).
+>캠페인에서 사용할 수 있는 구성 요소는 템플릿에 따라 다릅니다. 캠페인 템플릿 구성이 [이 섹션](marketing-campaign-templates.md#campaign-templates)에 표시됩니다.
 
-캠페인이 달성되면 다음을 사용하십시오. **[!UICONTROL Reports]** 캠페인 보고서에 액세스하기 위한 링크입니다.
+캠페인이 달성되면 **[!UICONTROL Reports]** 링크를 사용하여 캠페인 보고서에 액세스합니다.
 
 ![](assets/campaigns-reports-dashboard.png)
 
@@ -131,11 +131,11 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 
 캠페인 캘린더에는 모든 프로그램, 계획, 캠페인 및 게재가 표시됩니다.
 
-계획, 프로그램, 캠페인 또는 게재를 편집하려면 달력에서 해당 이름을 찾은 다음 **[!UICONTROL Open]** 링크를 클릭합니다. 그런 다음 아래와 같이 새 탭에 표시됩니다.
+플랜, 프로그램, 캠페인 또는 게재를 편집하려면 일정에서 해당 이름을 찾은 다음 **[!UICONTROL Open]** 링크를 사용하세요. 그런 다음 아래와 같이 새 탭에 표시됩니다.
 
 ![](assets/campaign-calendar.png)
 
-캠페인 캘린더에 표시되는 정보를 필터링할 수 있습니다. 이렇게 하려면 **[!UICONTROL Filter]** 필터링 기준을 연결하고 선택합니다.
+캠페인 캘린더에 표시되는 정보를 필터링할 수 있습니다. 이렇게 하려면 **[!UICONTROL Filter]** 링크를 클릭하고 필터링 기준을 선택합니다.
 
 ![](assets/campaign_planning_filter.png)
 
@@ -143,11 +143,11 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 >
 >날짜를 필터링하면 시작 날짜가 지정된 날짜 이후이거나 종료 날짜가 지정된 날짜 이전인 모든 캠페인이 표시됩니다. 날짜는 각 필드의 오른쪽에 있는 달력을 사용하여 선택됩니다.
 
-다음을 사용할 수도 있습니다 **[!UICONTROL Search]** 표시된 항목을 필터링할 필드입니다.
+**[!UICONTROL Search]** 필드를 사용하여 표시된 항목을 필터링할 수도 있습니다.
 
 각 항목에 연결된 아이콘을 사용하면 완료, 진행 중, 편집 중 등의 해당 상태를 볼 수 있습니다.
 
-표시할 캠페인을 필터링하려면 다음을 클릭하십시오. **[!UICONTROL Filter]** 표시할 캠페인의 상태를 링크하고 선택합니다.
+표시할 캠페인을 필터링하려면 **[!UICONTROL Filter]** 링크를 클릭하고 표시할 캠페인의 상태를 선택하십시오.
 
 ![](assets/calendar-filter-options.png)
 
@@ -155,7 +155,7 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 
 ![](assets/campaign-create-from-calendar.png)
 
-다음을 통해 캠페인을 만들 때 **[!UICONTROL Schedule]** 프로그램의 탭에서 캠페인은 관련 프로그램에 자동으로 연결됩니다. 다음 **[!UICONTROL Program]** 이 경우에는 필드가 숨겨집니다.
+프로그램의 **[!UICONTROL Schedule]** 탭을 통해 캠페인을 만들면 해당 캠페인이 관련 프로그램에 자동으로 연결됩니다. 이 경우 **[!UICONTROL Program]** 필드가 숨겨집니다.
 
 
 ## 웹 브라우저로 Campaign 액세스 {#use-the-web-interface}
@@ -163,11 +163,11 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 
 >[!AVAILABILITY]
 >
->Campaign v8.6부터 Campaign은 웹 사용자 인터페이스에서 사용할 수 있습니다. 대부분의 마케팅 작업은 이 새 인터페이스에서 수행할 수 있습니다. [자세히 알아보기](../../v8/start/campaign-ui.md#discover-the-user-interface)
+>Campaign v8.6부터 Campaign은 웹 사용자 인터페이스에서 사용할 수 있습니다. 대부분의 마케팅 작업은 이 새 인터페이스에서 수행할 수 있습니다. [자세히 알아보기](../../v8/start/campaign-ui.md#discover-the-user-interface).
 
 인터넷 브라우저를 통해 Adobe Campaign 클라이언트 콘솔 화면 중 일부에 액세스하여 모든 캠페인과 게재 및 데이터베이스의 프로필에 대한 보고서와 정보를 볼 수 있습니다. 이 웹 액세스에서 구성 요소를 만들 수는 없지만 액세스 권한에 따라 데이터베이스의 데이터를 보거나 작업할 수 있습니다. 일반적으로 캠페인 컨텐츠 및 타겟팅을 승인하고, 게재를 다시 시작하거나 중지할 수 있습니다.
 
-1. https://을 통해 평소대로 로그온하십시오.`<your instance>:<port>/view/home`.
+1. 평소대로 https://`<your instance>:<port>/view/home`을(를) 통해 로그온합니다.
 1. 메뉴를 사용하여 개요에 액세스합니다.
 
    ![](assets/web-access-campaigns.png)
@@ -186,9 +186,9 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 | --- | --- |
 | 캠페인, 게재, 오퍼 등 목록 | 목록 항목 삭제 |
 | 캠페인 | 캠페인 취소 |
-| 게재 | 게재 콘텐츠 및 타겟 승인<br/>게재 콘텐츠 제출<br/>게재 확인<br/>게재 일시 중지 및 중지 |
-| 웹 애플리케이션 | 웹 애플리케이션 만들기<br/>애플리케이션 컨텐츠 및 속성 편집<br/>애플리케이션 콘텐츠를 템플릿으로 저장<br/>애플리케이션 게시 |
-| 오퍼 | 오퍼 콘텐츠 및 자격 승인<br/>온라인 오퍼 비활성화 |
+| 게재 | 게재 콘텐츠 및 대상 승인<br/>게재 콘텐츠 제출<br/>게재 확인<br/>게재 일시 중지 및 중지 |
+| 웹 애플리케이션 | 웹 응용 프로그램을 만듭니다<br/>응용 프로그램 콘텐츠 및 속성을 편집합니다<br/>응용 프로그램 콘텐츠를 템플릿으로 저장합니다<br/>응용 프로그램 Publish |
+| 오퍼 | 오퍼 콘텐츠 및 자격 승인<br/>온라인 오퍼 사용 안 함 |
 | 작업 | 작업 완료<br/>작업 취소 |
 | 마케팅 리소스 | 리소스 승인<br/>리소스 잠금 및 잠금 해제 |
 | 캠페인 패키지 | 승인용 패키지 제출<br/>패키지 승인 또는 거부<br/>패키지 취소 |
@@ -197,7 +197,7 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 | 오퍼 시뮬레이션 | 시뮬레이션 시작 및 중지 |
 | 타겟팅 워크플로우 | 워크플로우 시작, 일시 중지 및 중지 |
 | 보고 | 보고서 내역에 현재 데이터 저장 |
-| 포럼 | 토론 추가<br/>토론의 메시지에 회신<br/>토론을 팔로우하고 구독을 취소합니다 |
+| 포럼 | 토론 추가<br/>토론에서 메시지에 답글 작성<br/>토론을 팔로우하고 구독을 취소하세요 |
 
 ### 승인 관리
 

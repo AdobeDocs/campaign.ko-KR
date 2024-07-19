@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 특정 FFDA Campaign API{#gs-new-api}
 
-의 맥락에서 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md), Campaign v8에는 Campaign 로컬 데이터베이스와 클라우드 데이터베이스 간의 데이터를 관리하는 두 개의 특정 API가 포함되어 있습니다. 이를 사용하기 위한 사전 요구 사항은 스키마에서 스테이징 메커니즘을 활성화하는 것입니다. [자세히 알아보기](staging.md)
+[엔터프라이즈(FFDA) 배포](enterprise-deployment.md)의 컨텍스트에서 Campaign v8에는 Campaign 로컬 데이터베이스와 클라우드 데이터베이스 간의 데이터를 관리하기 위한 두 개의 특정 API가 포함되어 있습니다. 이를 사용하기 위한 사전 요구 사항은 스키마에서 스테이징 메커니즘을 활성화하는 것입니다. [자세히 알아보기](staging.md)
 
 * 수집 API: **xtk.session.ingest**
 
@@ -28,13 +28,13 @@ ht-degree: 2%
 
 ## 데이터 삽입{#data-insert-api}
 
-다음 **xtk.session.ingest** API는 데이터 삽입 전용입니다. 업데이트/삭제 없음.
+**xtk.session.ingest** API는 데이터 삽입 전용입니다. 업데이트/삭제 없음.
 
 ### 조정 없이 삽입{#insert-no-reconciliation}
 
-**워크플로우 내**
+**워크플로우에서**
 
-에서 다음 코드 사용 **Javascript 코드** 조정 없이 클라우드 데이터베이스에 데이터를 삽입하는 활동:
+**Javascript 코드** 활동에서 다음 코드를 사용하여 조정 없이 클라우드 데이터베이스에 데이터를 삽입합니다.
 
 ```
 var xmlStagingSampleTable = <sampleTableStg
@@ -89,9 +89,9 @@ logInfo(strUuid);
 
 ### 조정과 함께 삽입
 
-**워크플로우 내**
+**워크플로우에서**
 
-에서 다음 코드 사용 **Javascript 코드** 조정으로 클라우드 데이터베이스에 데이터를 삽입하는 활동:
+**Javascript 코드** 활동에서 다음 코드를 사용하여 조정으로 클라우드 데이터베이스에 데이터를 삽입합니다.
 
 ```
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
@@ -147,13 +147,13 @@ logInfo(strUuid);
 
 ## 데이터 업데이트 또는 삭제{#data-update-api}
 
-다음 **xtk.session.IngestExt** 데이터 업데이트/삭제를 위해 API가 최적화되었습니다. 삽입에만 사용할 경우 **xtk.session.ingest**. 레코드 키가 준비 테이블에 없는지 여부에 관계없이 Insert가 작동합니다.
+**xtk.session.IngestExt** API가 데이터 업데이트/삭제에 최적화되었습니다. 삽입 전용의 경우 **xtk.session.ingest**&#x200B;를 선호합니다. 레코드 키가 준비 테이블에 없는지 여부에 관계없이 Insert가 작동합니다.
 
 ### 삽입/업데이트
 
-**워크플로우 내**
+**워크플로우에서**
 
-에서 다음 코드 사용 **Javascript 코드** 클라우드 데이터베이스의 데이터를 업데이트하는 활동:
+**Javascript 코드** 활동에서 다음 코드를 사용하여 클라우드 데이터베이스의 데이터를 업데이트합니다.
 
 ```
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
@@ -205,11 +205,11 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 ## 구독 관리 {#sub-apis}
 
-Campaign의 구독 관리에 대해서는 다음에서 설명합니다. [이 페이지](../start/subscriptions.md).
+Campaign의 구독 관리는 [이 페이지](../start/subscriptions.md)에 설명되어 있습니다.
 
-구독 및 구독 취소 데이터 삽입은 [스테이징 메커니즘](staging.md) Campaign 로컬 데이터베이스에서. 가입자 정보는 로컬 데이터베이스의 스테이징 테이블에 임시로 저장되며 동기화 워크플로우는 이 데이터를 로컬 데이터베이스에서 클라우드 데이터베이스로 전송합니다. 따라서 구독 및 구독 취소 프로세스는 다음과 같습니다 **비동기**. 옵트인 및 옵트아웃 요청은 특정 기술 워크플로우를 통해 한 시간마다 처리됩니다. [자세히 알아보기](replication.md#tech-wf)
+구독 및 구독 취소 데이터 삽입은 Campaign 로컬 데이터베이스의 [스테이징 메커니즘](staging.md)을(를) 사용합니다. 가입자 정보는 로컬 데이터베이스의 스테이징 테이블에 임시로 저장되며 동기화 워크플로우는 이 데이터를 로컬 데이터베이스에서 클라우드 데이터베이스로 전송합니다. 따라서 구독 및 구독 취소 프로세스는 **비동기**&#x200B;입니다. 옵트인 및 옵트아웃 요청은 특정 기술 워크플로우를 통해 한 시간마다 처리됩니다. [자세히 알아보기](replication.md#tech-wf)
 
 
 **관련 항목**
 
-* [캠페인 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
+* [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}

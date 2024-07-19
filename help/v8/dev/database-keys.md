@@ -26,7 +26,7 @@ ht-degree: 1%
 </key>
 ```
 
-키를 스키마에서 처음 채울 때 또는 가 포함된 경우 &#39;기본 키&#39;라고 합니다 `internal` 속성이 &quot;true&quot;로 설정되어 있습니다.
+스키마에서 처음 채울 때 또는 &quot;true&quot;로 설정된 `internal` 특성이 포함된 경우 키를 &#39;기본 키&#39;라고 합니다.
 
 키는 테이블에서 하나 이상의 필드를 참조할 수 있습니다.
 
@@ -108,7 +108,7 @@ ht-degree: 1%
 
 ## 기본 키 - 식별자{#primary-key}
 
-의 맥락에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md): Adobe Campaign 테이블의 기본 키는 **UUID(범용 고유 ID)** 데이터베이스 엔진에서 자동으로 생성됩니다. 키 값은 전체 데이터베이스에서 고유합니다. 키의 콘텐츠는 레코드를 삽입하면 자동으로 생성됩니다.
+[엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)의 컨텍스트에서 Adobe Campaign 테이블의 기본 키는 데이터베이스 엔진에서 자동으로 생성한 **UUID(범용 고유 ID)**&#x200B;입니다. 키 값은 전체 데이터베이스에서 고유합니다. 키의 콘텐츠는 레코드를 삽입하면 자동으로 생성됩니다.
 
 **예제**
 

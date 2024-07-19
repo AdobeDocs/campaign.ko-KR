@@ -29,11 +29,11 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 
 >[!NOTE]
 >
->이 기능은 Adobe Campaign에서 다음을 통해 사용할 수 있습니다. **CRM 커넥터** 전용 패키지.
+>이 기능은 **CRM 커넥터** 전용 패키지를 통해 Adobe Campaign에서 사용할 수 있습니다.
 
 ## 호환 시스템 {#compatible-crm-systems-and-limitations}
 
-지원되는 CRM 및 버전은 Campaign에 자세히 설명되어 있습니다. [호환성 매트릭스](../start/compatibility-matrix.md).
+지원되는 CRM 및 버전은 Campaign [호환성 매트릭스](../start/compatibility-matrix.md)에 자세히 설명되어 있습니다.
 
 >[!CAUTION]
 >
@@ -41,8 +41,8 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 
 ## 구현 단계 {#crm-implementation-steps}
 
-에서 Campaign과 Microsoft Dynamics를 연결하는 단계별 절차 알아보기 [이 페이지](ac-ms-dyn.md).
+[이 페이지](ac-ms-dyn.md)에서 Campaign과 Microsoft Dynamics를 연결하는 단계별 절차에 대해 알아봅니다.
 
-에서 Campaign과 Salesforce.com을 연결하는 단계별 절차 알아보기 [이 페이지](ac-sfdc.md).
+[이 페이지](ac-sfdc.md)에서 Campaign과 Salesforce.com을 연결하는 단계별 절차에 대해 알아봅니다.
 
 Adobe Campaign과 CRM 간의 데이터 동기화는 전용 워크플로우 활동을 통해 수행됩니다. 워크플로우를 빌드하여 Campaign과 CRM 간의 동기화를 자동화합니다. Microsoft Dynamics를 통해 연락처를 가져와 기존 Adobe Campaign 데이터와 동기화하고 중복 연락처를 삭제한 다음 Adobe Campaign 데이터베이스를 업데이트하는 워크플로우를 만들 수 있습니다. [이 페이지](crm-data-sync.md)에서 자세히 알아보십시오.

@@ -2,16 +2,17 @@
 title: Campaign v8(콘솔) 2023 릴리스 정보
 description: 2023 Campaign v8 릴리스의 기능 및 개선 사항 목록
 feature: Release Notes
-source-git-commit: 4fecae16b2db0f174de6d77acf5b846906073aeb
+exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
+source-git-commit: 69ef7e81d5fc0f5cf0dc74fa16d970ef89607331
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 75%
+ht-degree: 77%
 
 ---
 
 # 2024 릴리스 정보 {#2024-rn}
 
-이 페이지에는 의 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다. **2024년 Campaign v8 릴리스**.
+이 페이지에는 **2024 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다.
 
 
 ## 릴리스 8.6.2 {#release-8-6-2}

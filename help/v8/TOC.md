@@ -205,6 +205,6 @@ ht-degree: 99%
       + [입력 양식](dev/forms.md)
    + [데이터 패키지 작업](dev/packages.md)
    + [Campaign API](dev/api.md)
-+ [Campaign 기술 >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
++ [Campaign 기술 정보 >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
 + [Campaign 웹 사용자 인터페이스 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home)
 

@@ -22,7 +22,7 @@ ht-degree: 33%
 * 유형화
 * 보낸 사람 및 회신 주소
 * 기본 [개인화 블록](../send/personalization-blocks.md)
-* 링크 대상 [미러 페이지](../send/mirror-page.md) 및 구독 취소 링크
+* [미러 페이지](../send/mirror-page.md) 링크 및 구독 취소 링크
 * 콘텐츠, 회사 로고 또는 서명
 * 리소스 유효성, 재시도 매개 변수 또는 격리 설정 등 다른 게재 속성입니다.
 
@@ -41,9 +41,9 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 게재 템플릿을 복제하려면 아래 단계를 수행합니다.
 
-1. 다음으로 이동 **[!UICONTROL Resources > Templates > Delivery templates]** Adobe Campaign 탐색기를 참조하십시오.
+1. Adobe Campaign 탐색기에서 **[!UICONTROL Resources > Templates > Delivery templates]**(으)로 이동합니다.
 1. 기본 제공 게재 템플릿을 선택합니다. 기본 제공 템플릿은 목록에서 굵게 표시됩니다.
-1. 마우스 오른쪽 단추를 클릭하고 선택 **[!UICONTROL Duplicate]**.
+1. 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 
    ![](assets/duplicate-built-in-template.png)
 
@@ -61,13 +61,13 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 게재를 템플릿으로 전환하려면 아래 단계를 수행합니다.
 
-1. 게재 목록에서 게재를 선택하고 **[!UICONTROL Campaign management]** 캠페인 탐색기의 노드입니다.
+1. 게재 목록에서 게재를 선택합니다. Campaign 탐색기의 **[!UICONTROL Campaign management]** 노드를 통해 액세스할 수 있습니다.
 
-1. 마우스 오른쪽 단추를 클릭하고 선택 **[!UICONTROL Actions > Save as template...]**.
+1. 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Actions > Save as template...]**&#x200B;을(를) 선택합니다.
 
    ![](assets/save-as-template.png)
 
-1. 게재 속성을 편집하고에서 새 템플릿을 저장해야 하는 폴더를 선택합니다. **[!UICONTROL Folder]** 필드)와 이 템플릿을 기반으로 하여 만든 게재가 만들어져야 하는 폴더( **[!UICONTROL Execution folder]** field).
+1. 게재 속성을 편집하고 새 템플릿을 저장해야 하는 폴더(**[!UICONTROL Folder]** 필드)와 이 템플릿을 기반으로 만들어진 게재를 만들어야 하는 폴더(**[!UICONTROL Execution folder]** 필드)를 선택합니다.
 
    ![](assets/template-select-folders.png)
 
@@ -79,16 +79,16 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 처음부터 게재 템플릿을 구성하려면 아래 단계를 수행합니다.
 
-1. 다음으로 이동 **리소스** 폴더를 Campaign 탐색기에서 선택하고 **템플릿** 그러면 **게재 템플릿**.
-1. 클릭 **신규** 을 클릭하여 새 게재 템플릿을 만듭니다.
-1. 설정 **레이블** 및 **내부 이름** 폴더의 입니다.
+1. Campaign 탐색기에서 **리소스** 폴더로 이동한 다음 **템플릿**, **게재 템플릿**&#x200B;을 선택합니다.
+1. 도구 모음에서 **새로 만들기**&#x200B;를 클릭하여 새 게재 템플릿을 만듭니다.
+1. 폴더의 **레이블** 및 **내부 이름**&#x200B;을 설정합니다.
 1. 템플릿을 저장하고 다시 엽니다.
-1. 다음에서 **속성** 단추, 설정을 조정합니다.
-1. 다음에서 **일반** 탭에서 선택한 위치를 확인하거나 변경합니다. **실행 폴더**, **폴더**, 및 **라우팅** 드롭다운 메뉴.
-1. 다음을 완료합니다. **이메일 매개 변수** 이메일 제목과 타겟팅된 모집단을 포함하는 카테고리.
-1. 사용자 추가 **HTML 컨텐츠** 템플릿을 개인화하기 위해 다음을 표시할 수 있습니다. [미러 페이지 링크](../send/mirror-page.md) 구독 취소 링크.
-1. 다음 항목 선택 **미리 보기** 탭. 다음에서 **개인화 테스트** 드롭다운 메뉴에서 다음을 선택합니다. **수신자** 을 클릭하여 템플릿을 선택한 프로필로 미리 봅니다.
-1. 클릭 **저장**. 이제 템플릿을 게재에서 사용할 준비가 되었습니다.
+1. **속성** 단추에서 설정을 조정합니다.
+1. **일반** 탭에서 **실행 폴더**, **폴더** 및 **라우팅** 드롭다운 메뉴에서 선택한 위치를 확인하거나 변경합니다.
+1. 전자 메일 제목과 대상 모집단을 사용하여 **전자 메일 매개 변수** 범주를 완료합니다.
+1. **HTML 콘텐츠**&#x200B;를 추가하여 템플릿을 개인화하십시오. [미러 페이지 링크](../send/mirror-page.md) 및 구독 취소 링크를 표시할 수 있습니다.
+1. **미리 보기** 탭을 선택합니다. **개인화 테스트** 드롭다운 메뉴에서 **수신자**&#x200B;를 선택하여 선택한 프로필로 템플릿을 미리 봅니다.
+1. **저장**&#x200B;을 클릭합니다. 이제 템플릿을 게재에서 사용할 준비가 되었습니다.
 
 
 ## 템플릿 사용{#use-a-delivery-template}
@@ -99,13 +99,13 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 ![](assets/select-the-new-template.png)
 
-템플릿이 표시되지 않으면 **[!UICONTROL Select link]** 필드 오른쪽에 있는 폴더를 찾아 Campaign 폴더를 찾습니다.
+템플릿을 볼 수 없는 경우 필드 오른쪽의 **[!UICONTROL Select link]** 폴더를 클릭하여 Campaign 폴더를 찾습니다.
 
 ![](assets/browse-templates.png)
 
-에서 원하는 디렉토리를 선택합니다. **[!UICONTROL Folder]** 필드를 클릭하거나 **[!UICONTROL Display sub-levels]** 아이콘 - 현재 디렉토리의 하위 트리에 디렉토리 내용을 표시합니다.
+**[!UICONTROL Folder]** 필드에서 원하는 디렉터리를 선택하거나 **[!UICONTROL Display sub-levels]** 아이콘을 클릭하여 현재 디렉터리의 하위 트리에 있는 디렉터리의 내용을 표시합니다.
 
-사용할 게재 템플릿을 선택하고 **[!UICONTROL Ok]**.
+사용할 게재 템플릿을 선택하고 **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
 ### 템플릿 실행 {#execute-a-template}
 
@@ -113,11 +113,11 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 이렇게 하려면 실행할 템플릿을 선택하고 마우스 오른쪽 버튼을 클릭합니다. **[!UICONTROL Actions>Execute the delivery template...]**&#x200B;을(를) 선택합니다.
 
-다음을 사용할 수도 있습니다. **[!UICONTROL File>Actions>Execute the delivery template...]**.
+**[!UICONTROL File>Actions>Execute the delivery template...]**&#x200B;을(를) 사용할 수도 있습니다.
 
 ![](assets/execute-delivery-template.png)
 
-게재 매개 변수를 입력하고 **[!UICONTROL Send]**.
+게재 매개 변수를 입력하고 **[!UICONTROL Send]**&#x200B;을(를) 클릭합니다.
 
 이 작업은 템플릿에 연결된 폴더에서 게재를 생성합니다. 이 게재 이름은 이 게재를 만든 게재 템플릿의 이름입니다.
 
@@ -142,4 +142,4 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-추가 캠페인 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}에서 사용할 수 있습니다.

@@ -17,23 +17,23 @@ ht-degree: 1%
 
 큐브를 사용하여 보고서를 만들고 데이터베이스에서 데이터를 식별하고 선택합니다. 다음을 수행할 수 있습니다.
 
-* 큐브를 기반으로 보고서를 만듭니다. [자세히 알아보기](#explore-the-data-in-a-report)
-* 데이터베이스에서 데이터를 수집하고 목록으로 그룹화합니다(예: 타겟 및 게재를 식별하고 빌드함). [자세히 알아보기](#build-a-target-population)
-* 피벗 테이블을 보고서에 삽입하고 기존 큐브를 참조합니다. [자세히 알아보기](#insert-a-pivot-table-into-a-report)
+* 큐브를 기반으로 보고서를 만듭니다. [자세히 알아보기](#explore-the-data-in-a-report).
+* 데이터베이스에서 데이터를 수집하고 목록으로 그룹화합니다(예: 타겟 및 게재를 식별하고 빌드함). [자세히 알아보기](#build-a-target-population).
+* 피벗 테이블을 보고서에 삽입하고 기존 큐브를 참조합니다. [자세히 알아보기](#insert-a-pivot-table-into-a-report).
 
 ## 보고서의 데이터 탐색 {#explore-the-data-in-a-report}
 
 ### 1단계 - 큐브를 기반으로 보고서 만들기 {#step-1---create-a-report-based-on-a-cube}
 
-한 번 [큐브가 구성되었습니다.](cube-indicators.md)를 사용하여 새 보고서를 작성하기 위한 템플릿으로 사용할 수 있습니다.
+[큐브가 구성](cube-indicators.md)되면 새 보고서를 만들기 위한 템플릿으로 사용할 수 있습니다.
 
 기존 큐브를 기반으로 보고서를 만들려면 아래 단계를 수행합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Create]** 의 단추 **[!UICONTROL Reports]** 을(를) 탭하고 방금 만든 큐브를 선택합니다.
+1. **[!UICONTROL Reports]** 탭의 **[!UICONTROL Create]** 단추를 클릭하고 방금 만든 큐브를 선택합니다.
 
    ![](assets/new-report-based-on-cube.png)
 
-1. 다음을 클릭합니다. **[!UICONTROL Create]** 확인할 단추: 보고서 구성 및 보기 페이지로 이동합니다.
+1. 확인하려면 **[!UICONTROL Create]** 단추를 클릭하세요. 이렇게 하면 보고서 구성 및 보기 페이지로 이동합니다.
 
    기본적으로 처음 사용 가능한 두 차원은 행과 열로 제공되지만 값은 테이블에 표시되지 않습니다. 테이블을 생성하려면 기본 아이콘을 누릅니다.
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 기본 표시에는 큐브의 처음 두 차원(이 경우 연령 및 도시)이 표시됩니다.
 
-다음 **[!UICONTROL Add]** 각 축의 단추를 사용하면 차원을 추가할 수 있습니다.
+각 축의 **[!UICONTROL Add]** 단추를 사용하면 차원을 추가할 수 있습니다.
 
 ![](assets/cube-switch.png)
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
    이러한 매개 변수는 선택한 차원의 데이터 유형에 따라 다릅니다.
 
-   예를 들어 날짜의 경우 여러 수준을 사용할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [측정값 표시](customize-cubes.md#display-measures).
+   예를 들어 날짜의 경우 여러 수준을 사용할 수 있습니다. 자세한 내용은 [측정값 표시](customize-cubes.md#display-measures)를 참조하세요.
 
    이 경우 다음 옵션을 사용할 수 있습니다.
 
@@ -77,9 +77,9 @@ ht-degree: 1%
    * 오름차순(a-z, 0-9) 또는 내림차순(z-a, 9-0)으로 값을 표시합니다.
    * 로드 시 표시할 열 수를 변경합니다(기본값: 200).
 
-1. 클릭 **[!UICONTROL Ok]** 확인: 차원이 기존 차원에 추가됩니다.
+1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭하여 확인합니다. 차원이 기존 차원에 추가됩니다.
 
-   표 위에 있는 노란색 배너는 변경 내용을 표시합니다. **[!UICONTROL Save]** 단추를 클릭하여 저장합니다.
+   표 위에 있는 노란색 배너에는 변경 내용이 표시됩니다. **[!UICONTROL Save]** 단추를 클릭하여 저장하십시오.
 
    ![](assets/cube-in-report.png)
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    ![](assets/cube-measure-button.png)
 
-1. 위트 더 **[!UICONTROL Use a measure]** 버튼을 누르고 기존 측정 단위 중 하나를 선택합니다.
+1. **[!UICONTROL Use a measure]** 단추에서 기존 측정값 중 하나를 선택합니다.
 
    ![](assets/cube-add-measure.png)
 
@@ -101,13 +101,13 @@ ht-degree: 1%
 
    ![](assets/cube-measure-options.png)
 
-   전체 측정 구성은 를 통해서도 사용할 수 있습니다. **[!UICONTROL Edit the configuration of the pivot table]** 아이콘으로 표시됩니다.
+   헤더의 **[!UICONTROL Edit the configuration of the pivot table]** 아이콘을 통해서도 전체 측정을 구성할 수 있습니다.
 
    ![](assets/cube-pivot-table-config.png)
 
-   그런 다음 측정값 레이블을 표시할지 여부를 선택할 수 있습니다. [자세히 알아보기](customize-cubes.md#configure-the-display)
+   그런 다음 측정값 레이블을 표시할지 여부를 선택할 수 있습니다. [자세히 알아보기](customize-cubes.md#configure-the-display).
 
-1. 기존 측정값을 기반으로 새 측정값을 작성할 수 있습니다. 이렇게 하려면 다음을 클릭하십시오. **[!UICONTROL Create a measure]** 및 를 구성합니다.
+1. 기존 측정값을 기반으로 새 측정값을 작성할 수 있습니다. 이렇게 하려면 **[!UICONTROL Create a measure]**&#x200B;을(를) 클릭하고 구성하십시오.
 
    ![](assets/cube-create-new-measure.png)
 
@@ -125,9 +125,9 @@ ht-degree: 1%
 
    ![](assets/cube-display-new-measure.png)
 
-   측정값을 생성하면 해당 측정값을 편집하고 구성을 변경할 수 있습니다. 이렇게 하려면 **[!UICONTROL Measures]** 버튼을 클릭한 다음 편집할 측정값의 탭으로 이동합니다.
+   측정값을 생성하면 해당 측정값을 편집하고 구성을 변경할 수 있습니다. 이렇게 하려면 **[!UICONTROL Measures]** 단추를 클릭한 다음 편집할 측정값의 탭으로 이동합니다.
 
-   그런 다음 **[!UICONTROL Edit the dynamic measure]** 설정 메뉴에 액세스합니다.
+   **[!UICONTROL Edit the dynamic measure]**&#x200B;을(를) 클릭하여 설정 메뉴에 액세스합니다.
 
 ## 대상 모집단 작성 {#build-a-target-population}
 
@@ -135,23 +135,23 @@ ht-degree: 1%
 
 모집단을 목록으로 그룹화하려면 아래 단계를 수행합니다.
 
-1. 수집할 모집단을 포함하는 셀을 클릭하여 선택한 다음 **[!UICONTROL Add to cart]** 아이콘.
+1. 수집할 모집단을 포함하는 셀을 클릭하여 선택한 다음 **[!UICONTROL Add to cart]** 아이콘을 클릭합니다.
 
    ![](assets/cube-add-to-cart.png)
 
    이를 위해 필요한 만큼 여러 프로필을 수집합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Show cart]** 단추를 클릭하여 내보내기를 실행하기 전에 콘텐츠를 봅니다.
+1. 내보내기를 실행하기 전에 콘텐츠를 보려면 **[!UICONTROL Show cart]** 단추를 클릭하십시오.
 
    ![](assets/cube-show-cart.png)
 
-1. 사용 **[!UICONTROL Export]** 단추를 클릭하여 장바구니의 항목을 목록으로 그룹화합니다.
+1. **[!UICONTROL Export]** 단추를 사용하여 장바구니에 있는 항목을 목록으로 그룹화합니다.
 
    목록의 이름을 입력하고 수행할 내보내기 유형을 선택합니다.
 
    ![](assets/cube-export-report.png)
 
-   클릭 **[!UICONTROL Start]** 내보내기를 실행합니다.
+   내보내기를 실행하려면 **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 
 1. 내보내기가 완료되면 실행 및 처리된 레코드 수를 확인하는 메시지가 표시됩니다.
 
@@ -159,7 +159,7 @@ ht-degree: 1%
 
    장바구니의 컨텐츠를 저장하거나 장바구니를 비울 수 있습니다.
 
-   새 목록은 **[!UICONTROL Profiles and targets]** 탭.
+   새 목록은 **[!UICONTROL Profiles and targets]** 탭을 통해 사용할 수 있습니다.
 
    ![](assets/cube-list-available.png)
 
@@ -171,8 +171,8 @@ ht-degree: 1%
 
    ![](assets/cube-insert-in-report.png)
 
-1. 다음에서 **[!UICONTROL Data]** 페이지의 탭에서 큐브를 선택하여 포함된 차원을 처리하고 계산된 측정 단위를 표시합니다.
+1. 페이지의 **[!UICONTROL Data]** 탭에서 큐브를 선택하여 포함된 차원을 처리하고 계산된 측정값을 표시합니다.
 
    ![](assets/cube-selected-in-report.png)
 
-   이렇게 하면 표시할 보고서를 작성할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [2단계 - 라인 및 열 선택](#step-2---select-lines-and-columns).
+   이렇게 하면 표시할 보고서를 작성할 수 있습니다. 자세한 내용은 [2단계 - 줄 및 열 선택](#step-2---select-lines-and-columns)을 참조하세요.

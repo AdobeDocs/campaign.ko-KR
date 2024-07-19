@@ -27,7 +27,7 @@ ht-degree: 76%
 
 Adobe Campaign v8은 **관리 클라우드 서비스**&#x200B;로 사용 가능합니다.
 
-Adobe Campaign 관리 클라우드 서비스는 크로스 채널 고객 경험을 설계하기 위한 관리 클라우드 서비스 플랫폼과 함께 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널 실행 환경을 제공합니다. 에서 Campaign 관리 Cloud Service에 대해 자세히 알아보십시오. [제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign 관리 클라우드 서비스는 크로스 채널 고객 경험을 설계하기 위한 관리 클라우드 서비스 플랫폼과 함께 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널 실행 환경을 제공합니다. [제품 설명 Cloud Service](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}에서 Campaign 관리 페이지에 대해 자세히 알아보세요.
 
 이 새로운 버전에서는 업계 최고의 서비스를 사전 예방적 관리와 시기 적절한 경고 기능을 결합했으며 세 가지 영역에 초점을 맞춥니다.
 
@@ -42,31 +42,31 @@ Adobe Campaign 관리 클라우드 서비스는 크로스 채널 고객 경험�
 
 ## 하이브리드 아키텍처 {#hybrid-archi}
 
-Campaign v8은 **하이브리드 아키텍처**. Campaign Classic v7에서 전환하는 경우 모든 게재는 중간 소싱 서버를 거칩니다.
+Campaign v8은 **하이브리드 아키텍처**&#x200B;를 사용합니다. Campaign Classic v7에서 전환하는 경우 모든 게재는 중간 소싱 서버를 거칩니다.
 
 그 결과:
 
-* 내부 라우팅 **불가능** campaign v8에서 외부 계정이 이에 따라 비활성화되었습니다.
+* 내부 라우팅은 Campaign v8에서 **불가능**&#x200B;하며, 이에 따라 외부 계정이 비활성화되었습니다.
 * 게재 상태가 즉시 업데이트되지 않음 - 마케팅 인스턴스에서 기술 프로세스가 실행되어 게재 상태가 적시에 업데이트됩니다.
 
 
-의 v7에서 전환할 때 트랜잭션 메시지 증명 보내기에 대해 자세히 알아보기 [이 페이지](../send/transactional-template.md#transition-from-v7).
+[이 페이지](../send/transactional-template.md#transition-from-v7)에서 v7에서 전환할 때 트랜잭션 메시지 증명을 보내는 방법에 대해 자세히 알아보세요.
 
 
 ## [!DNL Campaign] 및 [!DNL Snowflake] {#ac-gs-snowflake}
 
-의 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8은 두 개의 데이터베이스를 사용합니다. 하나는 로컬이고, 다른 하나는 [!DNL Campaign] API 및 클라우드를 통한 사용자 인터페이스 실시간 메시징 및 단일 쿼리 및 쓰기를 위한 데이터베이스 [!DNL Snowflake] 캠페인 실행, 일괄 쿼리 및 워크플로우 실행을 위한 데이터베이스.
+[엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)에서 [!DNL Adobe Campaign] v8은(는) 두 개의 데이터베이스를 사용합니다. 하나는 사용자 인터페이스 실시간 메시지 보내기와 API를 통한 단일 쿼리 및 쓰기를 위한 로컬 [!DNL Campaign] 데이터베이스이고, 다른 하나는 캠페인 실행, 쿼리 일괄 처리 및 워크플로우 실행을 위한 클라우드 [!DNL Snowflake] 데이터베이스입니다.
 
 Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8 엔터프라이즈(FFDA) 배포는 이 새로운 아키텍처를 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 표를 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
 
-자세히 알아보기 [!DNL Campaign] 의 v8 아키텍처 [이 페이지](../architecture/architecture.md).
+[이 페이지](../architecture/architecture.md)에서 [!DNL Campaign] v8 아키텍처에 대해 자세히 알아보세요.
 
 
 ## Adobe ID를 사용하여 Campaign에 연결{#adobe-id}
 
 Campaign 사용자는 Adobe ID를 통해서만 연결합니다. 동일한 Adobe ID를 사용하여 모든 Adobe Experience Cloud 솔루션에 대해 하나의 계정과 연결된 모든 Adobe 플랜 및 제품을 유지합니다.
 
-에 연결하는 방법 알아보기 [!DNL Campaign] 위치: [이 페이지](connect.md).
+[이 페이지](connect.md)에서 [!DNL Campaign]에 연결하는 방법을 알아보세요.
 
 ## 큐브로 데이터 분석{#adobe-reporting}
 

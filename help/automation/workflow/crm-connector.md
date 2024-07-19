@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # CRM 커넥터{#crm-connector}
 
-다음 **CRM 커넥터** 활동을 사용하면 Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성할 수 있습니다.
+**CRM 커넥터** 활동을 통해 Adobe Campaign과 CRM 시스템 간의 데이터 동기화를 구성할 수 있습니다.
 
 이 활동을 통해 다음을 수행할 수 있습니다.
 
@@ -28,4 +28,4 @@ ht-degree: 10%
 
 ![](assets/crm_task_select_obj.png)
 
-Adobe Campaign의 CRM 커넥터에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}.
+Adobe Campaign의 CRM 커넥터에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}을 참조하세요.

@@ -30,9 +30,9 @@ ht-degree: 0%
 
 ## 이러한 마이그레이션은 언제 발생합니까?{#aws-timeline}
 
-개발 및 스테이징 환경 마이그레이션은 다음 위치에서 수행됩니다. **2023년 10월**.
+개발 및 스테이징 환경 마이그레이션은 **2023년 10월**&#x200B;에 수행됩니다.
 
-프로덕션 환경 마이그레이션은 다음 일자에 시작되도록 예약되었습니다. **2024년 1월**. 더 자세한 내용은 날짜가 가까워지면 제공될 것입니다.
+프로덕션 환경 마이그레이션이 **2024년 1월**&#x200B;에 시작되도록 예약되었습니다. 더 자세한 내용은 날짜가 가까워지면 제공될 것입니다.
 
 Campaign 고객은 마이그레이션 예약된 대로 추가 알림을 받게 됩니다. 스테이지 환경의 경우 마이그레이션 최소 7일 전에 알림이 전송되고, 프로덕션 환경의 경우 마이그레이션 최소 30일 전에 알림이 전송됩니다.
 
@@ -57,7 +57,7 @@ Campaign 고객은 마이그레이션 예약된 대로 추가 알림을 받게 �
 
   모든 Campaign v8 고객과 Campaign Classic v7 하이브리드, 호스팅 및 Campaign Managed Services의 환경이 마이그레이션됩니다. Campaign Standard 고객도 영향을 받습니다.
 
-* **예상되는 다운타임은 무엇입니까?**
+* **예상되는 가동 중지 시간은 무엇입니까?**
 
   마이그레이션은 30분~60분 정도 소요될 것으로 예상되지만, 각 마이그레이션 웨이브 길이는 영향을 받는 Campaign 인스턴스의 수에 따라 달라질 수 있습니다. 마이그레이션 웨이브가 예약되면 알림에 예상 기간이 포함됩니다.
 
@@ -67,11 +67,11 @@ Campaign 고객은 마이그레이션 예약된 대로 추가 알림을 받게 �
 
 * **고객이 실행해야 하는 유효성 검사는 무엇입니까?**
 
-  이 마이그레이션에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+  이 마이그레이션에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 [고객 지원 Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}에 문의하세요.
 
 
 * **예약된 보안 업그레이드 슬롯에 대한 날짜/시간 변경을 요청할 수 있습니까?**
 
   이는 필수 마이그레이션이므로 기존 일정에 대한 수정 사항을 수용할 수 없습니다.
 
-기타 문의 사항은 다음으로 문의하십시오. [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+기타 문의 사항은 [고객 지원 Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}에 문의하십시오.

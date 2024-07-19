@@ -27,25 +27,26 @@ Campaign 폴더는 탐색기 트리의 노드입니다. 유형에 따라 특정 
 
 ## 폴더 작업 모범 사례{#best-practices-folders}
 
-* **기본 제공 폴더 사용** 을 사용하면 프로젝트에 참여하는 모든 사람이 애플리케이션을 보다 쉽게 사용하고 유지 관리하며 문제를 해결할 수 있습니다. 수신자, 목록, 게재 등에 대한 사용자 정의 폴더 구조를 만들지 않고 다음과 같은 표준 폴더를 사용합니다. **관리**, **프로필 및 타겟**, **캠페인 관리**.
+* **기본 제공 폴더 사용**&#x200B;을 통해 프로젝트에 참여하는 모든 사람이 응용 프로그램을 쉽게 사용하고 유지 관리하고 문제를 해결할 수 있습니다. 수신자, 목록, 게재 등에 대한 사용자 지정 폴더 구조를 만들지 말고 **관리**, **프로필 및 대상**, **캠페인 관리**&#x200B;와 같은 표준 폴더를 사용하십시오.
 
-* **하위 폴더 만들기**&#x200B;예를 들어 기술 워크플로우를 기본 제공 폴더 아래에 저장합니다. **[!UICONTROL Administration > Production > Technical Workflows]**&#x200B;워크플로 유형별로 하위 폴더를 생성합니다.
+* **하위 폴더를 만듭니다**. 예를 들어 기술 워크플로를 기본 제공 폴더 **[!UICONTROL Administration > Production > Technical Workflows]** 아래에 저장하고 워크플로 유형별로 하위 폴더를 만듭니다.
 
-* **명명 규칙 정의 및 적용**, 예를 들어 워크플로의 이름을 알파벳 순서로 지정하여 다음과 같이 실행 순서대로 정렬되어 표시되도록 할 수 있습니다.
+* **명명 규칙을 정의하고 적용**&#x200B;합니다. 예를 들어 워크플로의 이름을 알파벳 순서로 지정하여 다음과 같이 실행 순서대로 정렬되도록 할 수 있습니다.
 
-  A1 - 수신자 가져오기, 10:00에 시작; A2 - 티켓 가져오기, 11:00에 시작.
+  A1 - 수신자 가져오기, 10:00에 시작;
+A2 - 11:00에 시작하는 티켓 가져오기.
 
 ## 폴더 만들기{#create-a-folder}
 
 폴더를 만들려면 기존 폴더를 마우스 오른쪽 단추로 클릭하고 상황별 메뉴를 사용합니다.
 
-선택한 폴더와 동일한 유형의 폴더를 만들려면 상황별 메뉴에서 첫 번째 옵션을 선택합니다. 예를 들어 수신자 폴더에서 을 선택합니다 **[!UICONTROL Create a new 'Recipients' folder]**.
+선택한 폴더와 동일한 유형의 폴더를 만들려면 상황별 메뉴에서 첫 번째 옵션을 선택합니다. 예를 들어 수신자 폴더에서 **[!UICONTROL Create a new 'Recipients' folder]**&#x200B;을(를) 선택합니다.
 
 ![](assets/create-recipient-folder.png)
 
 필요에 따라 새 폴더를 끌어다 놓아 Campaign 탐색기 트리를 구성할 수 있습니다.
 
-다른 유형의 폴더를 만들려면 기존 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Add new folder]**. 저장할 데이터에 따라 모든 유형의 폴더를 만들 수 있습니다.
+다른 유형의 폴더를 만들려면 기존 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Add new folder]**&#x200B;을(를) 선택합니다. 저장할 데이터에 따라 모든 유형의 폴더를 만들 수 있습니다.
 
 ![](assets/add-new-folder.png)
 
@@ -67,9 +68,9 @@ Campaign 폴더는 탐색기 트리의 노드입니다. 유형에 따라 특정 
 
 아래 예제에서는 내부 이름을 기반으로 미국 게재만 표시하는 새 폴더를 만들겠습니다.
 
-1. 만들기 **[!UICONTROL Deliveries]** 폴더를 만들고 이름을 지정합니다. **미국 게재**.
-1. 이 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Properties...]**.
-1. 다음에서 **[!UICONTROL Restriction]** 탭, 선택 **[!UICONTROL This folder is a view]**. 그러면 데이터베이스의 모든 게재가 표시됩니다.
+1. **[!UICONTROL Deliveries]** 폴더를 만들고 이름을 **미국 게재**&#x200B;로 지정합니다.
+1. 이 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Properties...]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Restriction]** 탭에서 **[!UICONTROL This folder is a view]**&#x200B;을(를) 선택합니다. 그러면 데이터베이스의 모든 게재가 표시됩니다.
 
    ![](assets/this-folder-is-a-view.png)
 
@@ -79,20 +80,20 @@ Campaign 폴더는 탐색기 트리의 노드입니다. 유형에 따라 특정 
 
    >[!NOTE]
    >
-   >에서 쿼리를 디자인하는 방법을 알아봅니다. [이 페이지](create-filters.md#advanced-filters)
+   >[이 페이지](create-filters.md#advanced-filters)에서 쿼리를 디자인하는 방법을 알아보세요.
 
 
 >[!CAUTION]
 >
->관리 시 [트랜잭션 메시지](../send/transactional.md) events, **[!UICONTROL Real time events]** 또는 **[!UICONTROL Batch events]** 실행 인스턴스의 보기로 설정하면 권한 문제가 발생할 수 있으므로 폴더를 설정하면 안 됩니다.
+>[트랜잭션 메시지](../send/transactional.md) 이벤트를 관리할 때 권한 문제가 발생할 수 있으므로 **[!UICONTROL Real time events]** 또는 **[!UICONTROL Batch events]** 폴더를 실행 인스턴스의 보기로 설정하지 않아야 합니다.
 
 ## 폴더 구성{#organize-your-folders}
 
 기본적으로 계층 구조의 맨 위에 새 폴더가 추가됩니다.
 
-찾아보기 **하위 폴더** 하위 폴더를 구성하는 폴더 속성의 탭입니다.
+폴더 속성의 **하위 폴더** 탭을 검색하여 해당 하위 폴더를 구성하십시오.
 
-오른쪽에 있는 화살표를 사용하여 폴더를 이동하거나 **[!UICONTROL Sort the sub-folders in alphabetical order]** 자동으로 정렬하는 옵션입니다.
+오른쪽에 있는 화살표를 사용하여 폴더를 이동하거나 **[!UICONTROL Sort the sub-folders in alphabetical order]** 옵션을 선택하여 폴더를 자동으로 정렬할 수 있습니다.
 
 ![](assets/sort-folders.png)
 
@@ -108,4 +109,4 @@ Campaign 폴더는 탐색기 트리의 노드입니다. 유형에 따라 특정 
 
 ## 폴더에 대한 액세스 제한{#restrict-access-to-a-folder}
 
-폴더에 대한 권한을 사용하여 Campaign 데이터에 대한 액세스를 구성하고 제어합니다. 의 폴더에 대한 권한에 대해 자세히 알아보기 [이 섹션](../start/folder-permissions.md).
+폴더에 대한 권한을 사용하여 Campaign 데이터에 대한 액세스를 구성하고 제어합니다. [이 섹션](../start/folder-permissions.md)의 폴더에 대한 권한에 대해 자세히 알아보세요.

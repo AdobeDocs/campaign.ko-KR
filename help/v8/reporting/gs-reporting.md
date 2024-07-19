@@ -32,7 +32,7 @@ Adobe Campaign은 이 페이지에 나와 있는 보고 도구 세트를 제공�
 
   Adobe Campaign에는 게재, 캠페인, 플랫폼 활동, 선택적 기능 등에 대한 보고서가 함께 제공됩니다. 이러한 보고서는 관련 다양한 기능을 통해 사용할 수 있습니다. 특정 요구 사항에 맞게 조정할 수 있습니다.
 
-  사용 **보고서** 탭으로 이동하여 이러한 보고서에 액세스합니다.
+  **보고서** 탭을 사용하여 이러한 보고서에 액세스합니다.
 
   ![](assets/built-in-reports.png)
 
@@ -42,14 +42,14 @@ Adobe Campaign은 이 페이지에 나와 있는 보고 도구 세트를 제공�
 
   Adobe Campaign은 데이터베이스의 데이터에 대한 통계를 생성하는 시각적 도구를 제공합니다. 전용 도우미를 사용하여 설명 분석 보고서를 만들고 필요에 따라 콘텐츠와 레이아웃을 조정할 수 있습니다.
 
-  사용 **[!UICONTROL Tools > Descriptive analysis...]** 새 보고서를 만드는 메뉴입니다.
+  **[!UICONTROL Tools > Descriptive analysis...]** 메뉴를 사용하여 새 보고서를 만드십시오.
 
   ![](assets/desc-analysis-report.png)
 
-  Campaign 설명 분석 보고는에 나와 있습니다. [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ko){target="_blank"}.
+  Campaign 설명 분석 보고는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ko){target="_blank"}에 나와 있습니다.
 
-* **사용자 정의 보고서**
+* **사용자 지정 보고서**
 
   Adobe Campaign을 사용하여 데이터베이스의 데이터에 대한 보고서를 만듭니다. 이러한 항목이 생성되면 적절한 컨텍스트에서 액세스할 수 있도록 합니다.
 
-  보고서를 만드는 단계는에 자세히 설명되어 있습니다 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. 개인화된 보고서 생성은 고급 사용자에게 예약되어 있습니다.
+  보고서를 만드는 단계는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}에 자세히 설명되어 있습니다. 개인화된 보고서 생성은 고급 사용자에게 예약되어 있습니다.

@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # 셀{#cells}
 
-다음 **[!UICONTROL Cells]** 활동은 다양한 하위 집합의 보기를 데이터 열로 제공합니다. 하위 집합 조작을 용이하게 하고 개인화 기능을 활용하도록 설계되었습니다.
+**[!UICONTROL Cells]** 활동은 다양한 하위 집합의 보기를 데이터 열로 제공합니다. 하위 집합 조작을 용이하게 하고 개인화 기능을 활용하도록 설계되었습니다.
 
 ![](assets/wf_split_cells.png)
 
-이 활동은 사용자 요구에 따라 특정 매개 변수를 입력하도록 구성할 수 있습니다. 기본적으로 각 하위 집합의 세부 정보는 다음을 통해 전용 창에 자세히 설명되어 있습니다. **[!UICONTROL Cells]** 및 **[!UICONTROL Advanced]** 탭.
+이 활동은 사용자 요구에 따라 특정 매개 변수를 입력하도록 구성할 수 있습니다. 기본적으로 각 하위 집합의 세부 정보는 **[!UICONTROL Cells]** 및 **[!UICONTROL Advanced]** 탭을 통해 전용 창에 자세히 표시됩니다.
 
 ![](assets/wf_split_cells_with_customization.png)
 
-아래 예에서는 입력 양식이 수정되었습니다. a **[!UICONTROL Data]** 각 하위 집합에 대해 오퍼와 우선 순위 수준을 연결할 수 있도록 탭이 추가되었습니다.
+아래 예에서는 입력 양식이 수정되었습니다. 각 하위 집합에 대해 오퍼와 우선 순위 수준을 연결할 수 있도록 **[!UICONTROL Data]** 탭이 추가되었습니다.
 
 ![](assets/cells-activity-sample.png)
 
-이 구성의 경우, 다음 정보가 의 워크플로 양식에 추가되었습니다. **[!UICONTROL Administration > Configurations > Input forms]** Adobe Campaign 탐색기의 노드:
+이 구성의 경우 Adobe Campaign 탐색기의 **[!UICONTROL Administration > Configurations > Input forms]** 노드에서 다음 정보가 워크플로 양식에 추가되었습니다.
 
 ```
 <container img="nms:miniatures/mini-enrich.png" label="Data">

@@ -20,11 +20,11 @@ ht-degree: 21%
 
 사용 권한, 구현 및 워크플로가 디자인된 컨텍스트에 따라 사용 가능한 활동이 다를 수 있습니다.
 
-예를 들어 캠페인에서 생성된 워크플로에는 **게재** 모든 채널이 포함된 탭입니다. 이 탭은에서 사용할 수 없습니다. [기술 워크플로우](technical-workflows.md).
+예를 들어 캠페인에서 만든 워크플로우에는 모든 채널이 포함된 특정 **게재** 탭이 있습니다. [기술 워크플로우](technical-workflows.md)에서는 이 탭을 사용할 수 없습니다.
 
 ![](assets/campaign-wf-activities.png)
 
-기술 워크플로우에는 다음과 같은 특정 기능이 있습니다 **이벤트** 에서 사용할 수 없는 탭 [캠페인 워크플로우](campaign-workflows.md).
+기술 워크플로우에는 [캠페인 워크플로우](campaign-workflows.md)에서 사용할 수 없는 특정 **이벤트** 탭이 있습니다.
 
 ![](assets/tech-wf-activities.png)
 

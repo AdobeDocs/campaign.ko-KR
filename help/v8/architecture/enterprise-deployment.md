@@ -14,7 +14,7 @@ ht-degree: 50%
 
 # [!DNL Campaign] FFDA 배포 {#gs-ac-ffda}
 
-활용 [[!DNL Snowflake]](https://www.snowflake.com/){target="_blank"}, 클라우드 데이터베이스 기술인 Adobe Campaign Enterprise FFDA(Full Federated Access) 배포는 규모와 속도를 크게 향상시키며, 훨씬 더 많은 수의 고객 프로필을 관리할 수 있을 뿐만 아니라 시간당 훨씬 더 높은 게재율과 트랜잭션을 처리할 수 있습니다.
+Adobe Campaign Enterprise FFDA(Full Federated Access) 배포는 클라우드 데이터베이스 기술인 [[!DNL Snowflake]](https://www.snowflake.com/){target="_blank"}을(를) 활용함으로써 그 규모와 속도를 크게 향상시키며, 훨씬 더 많은 수의 고객 프로필을 관리할 수 있을 뿐만 아니라 시간당 훨씬 더 높은 게재율과 트랜잭션을 처리할 수 있습니다.
 
 ## 이점 {#ffda-benefits}
 
@@ -37,9 +37,9 @@ Campaign v8 Enterprise(FFDA)는 타깃팅에서 최종 보고에 이르기까지
 
 ## Campaign Enterprise(FFDA) 아키텍처{#ffda-archi}
 
-다음에서 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8은 두 개의 데이터베이스를 사용합니다. 하나는 로컬이고, 다른 하나는 [!DNL Campaign] API 및 클라우드를 통한 사용자 인터페이스 실시간 메시징 및 단일 쿼리 및 쓰기를 위한 데이터베이스 [!DNL Snowflake] 캠페인 실행, 일괄 쿼리 및 워크플로우 실행을 위한 데이터베이스.
+[엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)에서 [!DNL Adobe Campaign] v8은(는) 두 개의 데이터베이스를 사용합니다. 하나는 사용자 인터페이스 실시간 메시지 보내기와 API를 통한 단일 쿼리 및 쓰기를 위한 로컬 [!DNL Campaign] 데이터베이스이고, 다른 하나는 캠페인 실행, 쿼리 일괄 처리 및 워크플로우 실행을 위한 클라우드 [!DNL Snowflake] 데이터베이스입니다.
 
-Campaign v8 Enterprise는 다음과 같은 개념을 제공합니다. **전체 Federated Data Access** (FFDA): 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다.
+Campaign v8 Enterprise는 **FFDA(Full Federated Data Access**) 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다.
 
 로컬 및 클라우드 데이터베이스 간에 데이터를 관리하는 데 특정 API를 사용할 수 있습니다. [이 페이지](new-apis.md)에서는 이 새로운 API의 작동 방식과 사용법을 알아봅니다.
 
@@ -48,9 +48,9 @@ Campaign v8 Enterprise는 다음과 같은 개념을 제공합니다. **전체 F
 ![](assets/architecture.png)
 
 * 실행 및 바운스 관리 모듈은 인스턴스에서 비활성화됩니다.
-* 애플리케이션은 SOAP 호출(HTTP 또는 HTTPS를 통해)을 사용하여 구동되는 원격 &quot;중간 소스&quot; 서버에서 메시지 실행을 수행하도록 구성됩니다.
+* SOAP 호출을 사용하여 구동되는 원격 &quot;중간 소스&quot; 서버에서(HTTP 또는 HTTPS를 통해) 메시지를 실행하도록 애플리케이션이 구성됩니다.
 
-다음 [!DNL Snowflake] 마케팅 측의 데이터베이스는 다음과 같은 작업을 수행하는 데 사용됩니다.
+마케팅 측의 [!DNL Snowflake] 데이터베이스는 다음 작업을 수행하는 데 사용됩니다.
 
 * 프로필, 거래, 제품, 위치 등과 같은 사용자 지정 데이터 등 모든 고객 데이터를 저장합니다.
 * 게재 로그, 추적 로그, 푸시 등록 등과 같이 Campaign에서 생성하거나 수집한 모든 이벤트 및 동작 데이터를 저장합니다.
@@ -63,7 +63,7 @@ Campaign v8 Enterprise는 다음과 같은 개념을 제공합니다. **전체 F
 
 * 낮은 볼륨 API와 같은 특정 워크로드를 실행합니다.
 * 게재 및 캠페인 설정, 워크플로우 및 서비스 정의를 포함하여 모든 캠페인 데이터를 저장합니다.
-* 모든 기본 제공 참조 테이블(열거형, 국가 등) 저장 복제됩니다. [!DNL Snowflake].
+* 모든 기본 제공 참조 테이블(열거형, 국가 등) 저장 [!DNL Snowflake]에 복제됩니다.
 
   단, 다음과 같은 작업은 수행할 수 없습니다.
    * 고객 데이터에 대한 사용자 정의를 만듭니다. 예를 들어 PostgreSQL에서 가정용 테이블을 만들지 않고 Snowflake에서만 가정용 테이블을 만듭니다
@@ -82,13 +82,13 @@ Campaign v8 Enterprise는 다음과 같은 개념을 제공합니다. **전체 F
 
 ### [!DNL Campaign] API 스테이징 메커니즘{#staging-api}
 
-포함 [!DNL Campaign] 클라우드 데이터베이스, 폭발 단일 호출은 성능(지연 및 동시성)으로 인해 권장되지 않습니다. 배치 작업이 항상 선호됩니다. API의 최적 성능을 보장하기 위해 Campaign은 로컬 데이터베이스 수준에서 API 호출을 계속 처리합니다.
+[!DNL Campaign] 클라우드 데이터베이스의 경우 성능(지연 및 동시 실행)으로 인해 단일 호출이 폭발하지 않는 것이 좋습니다. 배치 작업이 항상 선호됩니다. API의 최적 성능을 보장하기 위해 Campaign은 로컬 데이터베이스 수준에서 API 호출을 계속 처리합니다.
 
 [API 스테이징 메커니즘은 이 페이지에 자세히 설명되어 있습니다.](staging.md)
 
 ### 새 API{#new-apis}
 
-다음 사이의 데이터 동기화를 관리하는 데 새 API를 사용할 수 있습니다 [!DNL Campaign] 로컬 데이터베이스 및 클라우드 데이터베이스. 지연을 방지하고 전체 성능을 높이기 위해 로컬 데이터베이스 수준에서 API 호출을 처리하는 새로운 메커니즘도 도입되었습니다.
+[!DNL Campaign] 로컬 데이터베이스와 클라우드 데이터베이스 간의 데이터 동기화를 관리하는 데 새 API를 사용할 수 있습니다. 지연을 방지하고 전체 성능을 높이기 위해 로컬 데이터베이스 수준에서 API 호출을 처리하는 새로운 메커니즘도 도입되었습니다.
 
 [새 API는 이 페이지에 자세히 설명되어 있습니다.](new-apis.md)
 
@@ -107,7 +107,7 @@ Campaign v8 Enterprise는 다음과 같은 개념을 제공합니다. **전체 F
 
 ### ID 관리{#id-mgt-ffda}
 
-이제 Campaign v8 오브젝트는 **UUID(범용 고유 ID)**: 데이터를 식별하는 데 제한 없는 고유 값을 사용할 수 있습니다.
+이제 Campaign v8 개체에는 데이터를 식별하는 데 제한 없는 고유 값을 사용할 수 있는 **UUID(범용 고유 ID)**&#x200B;이(가) 사용됩니다.
 
 이 ID는 문자열 기반이며 순차적이 아님에 유의하세요. 기본 키는 Campaign v8에서 숫자 값이 아니므로 스키마에서 **autouid** 및 **autok** 속성을 사용해야 합니다.
 

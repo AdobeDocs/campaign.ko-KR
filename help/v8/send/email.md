@@ -27,7 +27,7 @@ ht-degree: 10%
 
 1. **게재 만들기**
 
-   새 게재를 만들려면 **캠페인** 탭을 클릭하고 **게재** 을(를) 클릭하고 **만들기** 기존 게재 목록 위에 있는 단추입니다.
+   새 게재를 만들려면 **캠페인** 탭으로 이동하여 **게재**&#x200B;를 클릭하고 기존 게재 목록 위에 있는 **만들기** 단추를 클릭하십시오.
 
    ![](assets/delivery_step_1.png)
 
@@ -39,7 +39,7 @@ ht-degree: 10%
 
 1. **콘텐츠 가져오기**
 
-   다음을 클릭합니다. **소스** 탭으로 이동하여 HTML 컨텐츠를 붙여넣습니다.
+   **Source** 탭을 클릭하여 HTML 콘텐츠를 붙여넣습니다.
 
    ![](assets/paste-content.png)
 
@@ -51,7 +51,7 @@ ht-degree: 10%
 
    * 수신자의 이름과 성 추가
 
-     메시지 콘텐츠에 타겟팅된 프로필의 이름과 성을 삽입하려면 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 을 클릭합니다 **[!UICONTROL Include]** 및 선택 **[!UICONTROL Greetings]**.
+     대상 프로필의 이름과 성을 메시지 내용에 삽입하려면 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 **[!UICONTROL Include]**&#x200B;을(를) 클릭하고 **[!UICONTROL Greetings]**&#x200B;을(를) 선택합니다.
 
      ![](assets/include-greetings.png)
 
@@ -59,31 +59,31 @@ ht-degree: 10%
 
      ![](assets/perso-check.png)
 
-     에서 개인화 옵션에 대해 자세히 알아보기 [이 섹션](personalize.md).
+     [이 섹션](personalize.md)에서 개인화 옵션에 대해 자세히 알아보세요.
 
    * 추적된 링크 삽입
 
-     이미지 또는 텍스트를 통해 게재 수신자를 외부 주소로 보내려면 해당 주소를 선택하고 **[!UICONTROL Add a link]** 아이콘을 클릭합니다.
+     이미지 또는 텍스트를 통해 게재 수신자를 외부 주소로 보내려면 해당 주소를 선택하고 도구 모음에서 **[!UICONTROL Add a link]** 아이콘을 클릭합니다.
 
-     에 링크의 URL을 입력합니다. **URL** 다음 형식을 사용하는 필드 **https://www.myURL.com**&#x200B;를 클릭한 다음 확인합니다.
+     **https://www.myURL.com** 형식을 사용하여 **URL** 필드에 링크의 URL을 입력한 다음 확인하십시오.
 
      ![](assets/add-a-link.png)
 
    * 미러 페이지 추가
 
-     수신자가 웹 브라우저에서 게재 콘텐츠를 볼 수 있도록 하려면 [미러 페이지](mirror-page.md) 메시지.
+     받는 사람이 웹 브라우저에서 게재 콘텐츠를 볼 수 있도록 하려면 메시지의 [미러 페이지](mirror-page.md)에 링크를 추가하십시오.
 
-     이 링크를 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 를 클릭합니다 **[!UICONTROL Include]** 및 선택 **[!UICONTROL link to mirror page]**.
+     이 링크를 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 **[!UICONTROL Include]**&#x200B;을(를) 클릭하고 **[!UICONTROL link to mirror page]**&#x200B;을(를) 선택합니다.
 
-     에서 미러 페이지 관리에 대해 자세히 알아보기 [이 섹션](mirror-page.md#link-to-mirror-page).
+     [이 섹션](mirror-page.md#link-to-mirror-page)에서 미러 페이지 관리에 대해 자세히 알아보세요.
 
 1. BBC 주소로 메시지 사본 보내기, 메시지 형식 변경, 특정 인코딩 설정 등과 같은 이메일에 대한 추가 매개 변수를 정의할 수 있습니다. [이 섹션](email-parameters.md)에서 자세히 알아보십시오.
 
-1. 컨텐츠가 준비되면 을(를) 클릭합니다. **저장**: 이제 게재 목록의 **[!UICONTROL Campaigns > Deliveries]** 탭.
+1. 콘텐츠가 준비되면 **저장**&#x200B;을 클릭합니다. 이제 콘텐츠가 **[!UICONTROL Campaigns > Deliveries]** 탭의 게재 목록에 표시됩니다.
 
 첫 번째 이메일 게재가 준비되었습니다. 이제 대상자를 정의하고 게재를 확인하고 전송해야 합니다.
 
-에서 이메일 콘텐츠를 가져오는 방법 알아보기 [사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
+이 [사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}에서 전자 메일 콘텐츠를 가져오는 방법을 알아보세요.
 
 다음 섹션에서 자세히 알아보세요.
 
@@ -95,7 +95,7 @@ ht-degree: 10%
 
 ## 이메일 테스트 및 유효성 검사
 
-Campaign은 대상자에게 이메일을 보내기 전에 테스트하고 유효성을 검사하는 여러 가지 방법을 제공합니다. 에서 이메일 콘텐츠를 미리 보고 테스트하는 방법을 알아봅니다. [이 섹션](../send/preview-and-proof.md).
+Campaign은 대상자에게 이메일을 보내기 전에 테스트하고 유효성을 검사하는 여러 가지 방법을 제공합니다. [이 섹션](../send/preview-and-proof.md)에서 전자 메일 콘텐츠를 미리 보고 테스트하는 방법을 알아보세요.
 
 다음을 수행할 수 있습니다.
 

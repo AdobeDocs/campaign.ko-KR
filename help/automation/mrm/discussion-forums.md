@@ -20,22 +20,22 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 
 ## 포럼 액세스 {#accessing-a-forum}
 
-포럼에 액세스하려면 대시보드로 이동하여 **[!UICONTROL Forum]** 오른쪽 상단의 링크입니다.
+포럼에 액세스하려면 대시보드로 이동하여 오른쪽 상단의 **[!UICONTROL Forum]** 링크를 클릭하십시오.
 
 ![](assets/mrm-forum-icon.png)
 
 메시지와 해당 응답이 최신 항목부터 오래된 항목까지 표시됩니다.
 
-새 스레드를 시작하려면 **[!UICONTROL Add a discussion]** 단추를 클릭합니다. 다음 **[!UICONTROL Discussion forum]** 상자가 표시됩니다(아래 참조).
+새 스레드를 시작하려면 오른쪽 상단의 **[!UICONTROL Add a discussion]** 단추를 클릭합니다. **[!UICONTROL Discussion forum]** 상자가 나타납니다(아래 참조).
 
 ![](assets/mrm-forum-new-thread.png)
 
 
-에 텍스트를 입력하십시오. **[!UICONTROL Message]** 필드 및 토론 제목 **[!UICONTROL Subject]** 필드.
+**[!UICONTROL Message]** 필드에 텍스트를 입력하고 **[!UICONTROL Subject]** 필드에 토론 제목을 입력합니다.
 
 이 포럼에 이미 메시지를 게시한 운영자는 기본적으로 알림을 받습니다. 통지할 추가 연산자를 선택할 수 있습니다. 여러 연산자에게 알리려면 연산자 그룹을 선택합니다.
 
-다음을 사용하여 메시지에 첨부 파일을 추가할 수 있습니다.  **[!UICONTROL Browse...]** 단추를 클릭합니다. 첨부 파일도 알림 이메일에 포함됩니다. 첨부 파일은 개별적으로 보낼 수만 있습니다. 여러 파일을 보내려면 .zip 파일로 압축해야 합니다.
+**[!UICONTROL Browse...]** 단추를 사용하여 메시지에 첨부 파일을 추가할 수 있습니다. 첨부 파일도 알림 이메일에 포함됩니다. 첨부 파일은 개별적으로 보낼 수만 있습니다. 여러 파일을 보내려면 .zip 파일로 압축해야 합니다.
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 
 운영자의 포럼에 액세스하려면 다음을 수행할 수 있습니다.
 
-* 다음으로 이동 **[!UICONTROL Administration > Access management > Operators]** campaign 탐색기의 폴더에서 연산자를 선택하여 대시보드를 연 다음, **[!UICONTROL Forum]** 오른쪽 상단 모서리에 있는 링크입니다.
+* Campaign 탐색기의 **[!UICONTROL Administration > Access management > Operators]** 폴더를 찾은 다음 연산자를 선택하여 대시보드를 연 다음 오른쪽 상단의 **[!UICONTROL Forum]** 링크를 클릭합니다.
 * Adobe Campaign UI에서 (이 운영자가 포럼에 게시한 메시지를 통해, 해당 운영자에게 할당된 작업) 운영자 이름을 찾고 이를 클릭하여 운영자 대시보드에 액세스합니다.
 
 ## 포럼 구독 {#subscribing-to-a-forum}
@@ -56,13 +56,13 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 
 메시지에 응답하려면 이메일 본문을 클릭한 다음 Adobe Campaign 웹 인터페이스에 로그인합니다.
 
-* 포럼에 가입하려면 **[!UICONTROL Follow discussions]** 메시지 목록 위에 있는 오른쪽 상단 섹션의 단추입니다.
+* 포럼에 가입하려면 메시지 목록 위에 있는 오른쪽 상단의 **[!UICONTROL Follow discussions]** 단추를 클릭하십시오.
 
   섹션이 파란색으로 바뀌고 포럼에 가입했음을 보여 줍니다.
 
-* 포럼에서 가입을 해지하려면 **[!UICONTROL Unsubscribe]** 단추를 클릭합니다.
+* 포럼에서 구독을 취소하려면 **[!UICONTROL Unsubscribe]** 단추를 클릭하십시오.
 
-* 개인 대시보드에는 구독 중인 포럼이 나열됩니다. 다음을 클릭합니다. **[!UICONTROL Subscription to discussion forums]** 링크를 클릭하여 목록을 표시한 다음, 원하는 항목을 클릭하여 해당 포럼에 액세스합니다.
+* 개인 대시보드에는 구독 중인 포럼이 나열됩니다. **[!UICONTROL Subscription to discussion forums]** 링크를 클릭하여 목록을 표시한 다음 원하는 항목을 클릭하여 해당 포럼에 액세스합니다.
 
   ![](assets/forum-subscribed.png)
 
@@ -72,10 +72,10 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 포럼을 구독한 운영자가 예상대로 알림을 받지 못하는 경우:
 
 * 운영자의 프로필에 이메일 주소를 입력했는지 확인합니다.
-* 다음으로 이동 **[!UICONTROL Administration > Production > Technical workflows > Campaign processes]** Campaign 탐색기 폴더 및 **[!UICONTROL Jobs in discussion forums]** 워크플로가 오류 없이 시작됩니다.
+* Campaign 탐색기의 **[!UICONTROL Administration > Production > Technical workflows > Campaign processes]** 폴더로 이동하여 **[!UICONTROL Jobs in discussion forums]** 워크플로가 오류 없이 시작되었는지 확인하십시오.
 * 게재 로그 확인:
 
-   * Adobe Campaign 홈페이지에서 다음 위치로 이동합니다. **[!UICONTROL Campaigns > Navigation > Deliveries]**&#x200B;을(를) 열고 **[!UICONTROL Discussion forum notification]** 게재.
-   * Campaign 탐색기에서 **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL Discussion forum notifications]**.
+   * Adobe Campaign 홈페이지에서 **[!UICONTROL Campaigns > Navigation > Deliveries]**(으)로 이동한 다음 **[!UICONTROL Discussion forum notification]** 게재를 엽니다.
+   * Campaign 탐색기에서 **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**&#x200B;을(를) 찾은 다음 **[!UICONTROL Discussion forum notifications]**&#x200B;을(를) 클릭합니다.
 
-  다음에서 **[!UICONTROL Discussion forum notifications]** 상자에서 게재 로그는 **[!UICONTROL Edit > Delivery]** 탭. 다음을 볼 수도 있습니다. **[!UICONTROL Tracking > Log]** 및 **[!UICONTROL Exclusion causes]** 탭.
+  **[!UICONTROL Discussion forum notifications]** 상자의 게재 로그는 **[!UICONTROL Edit > Delivery]** 탭에 있습니다. **[!UICONTROL Tracking > Log]** 및 **[!UICONTROL Exclusion causes]** 탭도 볼 수 있습니다.

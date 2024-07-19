@@ -56,7 +56,7 @@ ht-degree: 1%
 
 +++Windows(32비트) 운영 체제를 Windows(64비트) 운영 체제로 업그레이드하려면 어떻게 해야 합니까?
 
-컴퓨터 프로세서가 64비트 운영 체제 설치를 지원하는지 확인합니다. 32비트 버전에서 64비트 버전의 Windows로 업그레이드하려면 하드 디스크를 다시 포맷하고 64비트 버전의 Windows를 설치한 다음 장치에 있는 다른 모든 것을 다시 설치해야 합니다. 자세한 내용은 [32비트 및 64비트 Windows: 자주 묻는 질문](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
+컴퓨터 프로세서가 64비트 운영 체제 설치를 지원하는지 확인합니다. 32비트 버전에서 64비트 버전의 Windows로 업그레이드하려면 하드 디스크를 다시 포맷하고 64비트 버전의 Windows를 설치한 다음 장치에 있는 다른 모든 것을 다시 설치해야 합니다. 자세한 내용은 [32비트 및 64비트 Windows: FAQ](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}를 참조하십시오.
 
 +++
 

@@ -20,41 +20,41 @@ Adobe Campaign은 Campaign 인프라의 성능, 보안, 논리 및 유용성을 
 
 이러한 업그레이드는 다음과 같을 수 있습니다.
 
-* **주요 업그레이드**: v7에서 v8과 같은 주요 버전에서 다른 버전으로 마이그레이션하는 작업. 이러한 업그레이드는 새로운 기능, 개선 사항, 호환성 및 보안 업데이트 및 수정 사항을 제공합니다.
-* **소규모 업그레이드**&#x200B;는 부 버전에서 다른 버전으로(예: v8.5에서 v8.6으로) 변환됩니다. 이러한 업그레이드는 개선 사항, 호환성 및 보안 업데이트 및 수정 사항을 제공합니다.
-* **패치 업그레이드**: 패치 버전에서 다른 버전으로(예: v8.5.1부터 v8.5.2까지). 이러한 업그레이드는 보안 업데이트 및 수정 사항을 제공합니다.
+* **주요 버전에서 다른 버전으로**(예: v7에서 v8로) 업그레이드합니다. 이러한 업그레이드는 새로운 기능, 개선 사항, 호환성 및 보안 업데이트 및 수정 사항을 제공합니다.
+* **작은 버전에서 다른 버전으로**(예: v8.5에서 v8.6으로) 작은 업그레이드입니다. 이러한 업그레이드는 개선 사항, 호환성 및 보안 업데이트 및 수정 사항을 제공합니다.
+* 패치 버전에서 다른 버전으로 **패치 업그레이드**(예: v8.5.1에서 v8.5.2로) 이러한 업그레이드는 보안 업데이트 및 수정 사항을 제공합니다.
 
-각 새 버전에 대한 자세한 내용은 [릴리스 정보](release-notes.md).
+각 새 버전에 대한 자세한 내용은 [릴리스 정보](release-notes.md)에서 확인할 수 있습니다.
 
-안정적인 구성을 위해서는 Adobe에서 설치하는 것이 좋습니다 **정확히 동일한 버전** 모든 Campaign 서버에서. 또한,에서 별도로 언급되지 않는 한 [릴리스 정보](release-notes.md), 클라이언트 콘솔은 켜져 있어야 합니다. **정확히 동일한 버전** 을 서버 인스턴스로 사용합니다. [이 페이지에서](../start/connect.md#upgrade-ac-console) 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
+Adobe 안정적인 구성을 위해서는 모든 Campaign 서버에 **정확히 동일한 버전**&#x200B;을 설치하는 것이 좋습니다. 또한 [릴리스 정보](release-notes.md)에서 별도로 언급되지 않는 한, 클라이언트 콘솔은 서버 인스턴스와 **정확히 동일한 버전**&#x200B;에 있어야 합니다. [이 페이지에서](../start/connect.md#upgrade-ac-console) 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
 
 Campaign Managed Services 고객은 새 Campaign 버전을 사용할 수 있게 되면 추가 조치 없이 Adobe으로 인프라가 업그레이드됩니다.
 
-고객은 다음에 나열된 지원되는 최신 버전의 시스템을 사용하고 있는지 확인해야 합니다. [호환성 매트릭스](compatibility-matrix.md).
+고객은 [호환성 매트릭스](compatibility-matrix.md)에 나열된 시스템의 지원되는 최신 버전을 사용하고 있는지 확인해야 합니다.
 
 
 ## FAQ(자주 묻는 질문) {#upgrades-faq}
 
 ### 내 Campaign 버전을 확인하는 방법 {#version}
 
-Campaign 버전을 확인하려면 **도움말 > 정보...** 클라이언트 콘솔의 메뉴입니다.
+Campaign 버전을 확인하려면 클라이언트 콘솔에서 **도움말 > 정보...** 메뉴에 액세스합니다.
 
 ![](assets/ac-version.png)
 
 확인할 수 있는 정보:
 
-* 다음 **버전** 클라이언트 콘솔 및 애플리케이션 서버의 번호입니다. 위의 샘플에서 버전은 클라이언트 콘솔과 애플리케이션 서버 모두 8.1.5입니다.
+* 클라이언트 콘솔 및 응용 프로그램 서버의 **버전** 번호입니다. 위의 샘플에서 버전은 클라이언트 콘솔과 애플리케이션 서버 모두 8.1.5입니다.
 * 괄호 사이에 있는 SHA 번호.
 * Adobe 고객 지원 센터 연락을 위한 링크.
 * Adobe 개인정보 처리방침, 사용 약관 및 쿠키 정책 보기.
 
 ### 새 버전의 릴리스에 대한 정보는 어떻게 얻을 수 있습니까? {#upgrades-0}
 
-새 버전 및 해당 버전이 가져오는 변경 사항이에 나열되어 있습니다. [릴리스 정보](release-notes.md). 새 버전을 사용할 수 있게 되면 Adobe이 사용자에게 연락하여 환경을 업그레이드합니다.
+새 버전 및 변경 사항이 [릴리스 정보](release-notes.md)에 나열됩니다. 새 버전을 사용할 수 있게 되면 Adobe이 사용자에게 연락하여 환경을 업그레이드합니다.
 
 새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 받으려면 [Adobe 주요 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}를 구독하십시오.
 
-다음을 방문하실 수도 있습니다. [캠페인 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} 릴리스 업데이트에 대한 정보를 받습니다.
+[Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"}를 방문하여 릴리스 업데이트에 대한 정보를 받을 수도 있습니다.
 
 
 ### 내 조직에 이 업그레이드가 필요한 이유는 무엇인가요? {#upgrades-1}

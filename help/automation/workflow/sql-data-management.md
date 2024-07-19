@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # SQL 데이터 관리{#sql-data-management}
 
-다음 **SQL 데이터 관리** 활동을 사용하면 고유한 SQL 스크립트를 작성하여 작업 테이블을 만들고 채울 수 있습니다.
+**SQL 데이터 관리** 활동을 사용하면 고유한 SQL 스크립트를 작성하여 작업 테이블을 만들고 채울 수 있습니다.
 
 ## 필수 구성 요소 {#prerequisites}
 
@@ -27,8 +27,8 @@ ht-degree: 3%
 
 ## SQL 데이터 관리 활동 구성 {#configuring-the-sql-data-management-activity}
 
-1. 활동 지정 **[!UICONTROL Label]**.
-1. 다음 항목 선택 **[!UICONTROL External account]** 을 사용하려면 다음을 선택합니다. **[!UICONTROL Outbound schema]** 이 외부 계정에 연결되었습니다.
+1. **[!UICONTROL Label]** 활동을 지정하십시오.
+1. 사용할 **[!UICONTROL External account]**&#x200B;을(를) 선택한 다음 이 외부 계정에 연결된 **[!UICONTROL Outbound schema]**&#x200B;을(를) 선택하십시오.
 
    >[!CAUTION]
    >
@@ -40,7 +40,7 @@ ht-degree: 3%
    >
    >SQL 스크립트가 작동하고 해당 참조(필드 이름 등)가 작동하는지 확인하는 것은 SQL 스크립트 작성자의 책임입니다. 은 아웃바운드 스키마를 따릅니다.
 
-   기존 SQL 코드를 로드하려면 **[!UICONTROL The SQL script is contained in an entity stored in the database]** 옵션을 선택합니다. SQL 스크립트는에서 만들고 저장해야 합니다. **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL SQL scripts]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+   기존 SQL 코드를 로드하려면 **[!UICONTROL The SQL script is contained in an entity stored in the database]** 옵션을 선택하십시오. SQL 스크립트를 만들고 **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL SQL scripts]** 메뉴에 저장해야 합니다.
 
    그렇지 않으면 전용 영역에 SQL 스크립트를 입력하거나 복사하여 붙여넣습니다.
 
@@ -49,14 +49,14 @@ ht-degree: 3%
    활동을 통해 스크립트에서 다음 변수를 사용할 수 있습니다.
 
    * **activity.tableName**: 아웃바운드 작업 테이블의 SQL 이름입니다.
-   * **task.incomingTransitionByName(&#39;name&#39;).tableName**: 사용할 들어오는 전환(해당 전환으로 식별됨)에 의해 수행되는 작업 테이블의 SQL 이름.
+   * **task.incomingTransitionByName(&#39;name&#39;).tableName**: 사용할 들어오는 전환에 의해 전달되는 작업 테이블의 SQL 이름(전환은 해당 이름으로 식별됨).
 
      >[!NOTE]
      >
-     >(&#39;name&#39;) 값은 **[!UICONTROL Name]** 전환 속성의 필드입니다.
+     >(&#39;name&#39;) 값은 전환 속성의 **[!UICONTROL Name]** 필드에 해당합니다.
 
-1. SQL 스크립트에 이미 아웃바운드 작업 테이블을 만드는 명령이 포함되어 있는 경우 **[!UICONTROL Automatically create work table]** 옵션을 선택합니다. 그렇지 않으면 워크플로우가 실행되면 작업 테이블이 자동으로 만들어집니다.
-1. 클릭 **[!UICONTROL Ok]** 활동 구성을 확인합니다.
+1. SQL 스크립트에 아웃바운드 작업 테이블을 만드는 명령이 이미 있는 경우 **[!UICONTROL Automatically create work table]** 옵션을 선택 취소합니다. 그렇지 않으면 워크플로우가 실행되면 작업 테이블이 자동으로 만들어집니다.
+1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭하여 활동 구성을 확인합니다.
 
 이제 활동이 구성되었습니다. 워크플로우에서 실행할 준비가 되었습니다.
 

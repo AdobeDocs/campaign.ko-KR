@@ -24,7 +24,7 @@ Adobe Campaign과 Adobe Experience Platform을 통합하면 Adobe Campaign 랜�
 <table>
 <tr>
 <td><img src="../assets/do-not-localize/icon-connection.svg" width="60px"><p><a href="#oauth">OAuth 연결 설정</a></p></td>
-<td><img src="../assets/do-not-localize/icon-source.svg" width="60px"><p><a href="#source">HTTP API 소스 연결 만들기</a></p></td>
+<td><img src="../assets/do-not-localize/icon-source.svg" width="60px"><p><a href="#source">HTTP API Source 연결 만들기</a></p></td>
 <td><img src="../assets/do-not-localize/icon-options.svg" width="60px"><p><a href="#xtk">Campaign에서 인증 옵션 추가</a></p></td>
 <td><img src="../assets/do-not-localize/icon-javascript.svg" width="60px"><p><a href="#javascript">Campaign에서 JavaScript 코드 추가</a></p></td>
 <td><img src="../assets/do-not-localize/icon-workflow.svg" width="60px"><p><a href="#script">랜딩 페이지 워크플로우 구성</a></p></td>
@@ -32,13 +32,13 @@ Adobe Campaign과 Adobe Experience Platform을 통합하면 Adobe Campaign 랜�
 
 ## Oauth 연결 설정 {#oauth}
 
-Adobe Cloud Platform API는 인증 및 권한 부여에 OAuth 2.0 프로토콜을 사용합니다. API 호출을 사용하여 Adobe Experience Platform을 Adobe Campaign에 연결하려면 Adobe Developer 콘솔에서 만든 OAuth 통합을 사용하여 액세스 토큰을 생성해야 합니다.
+Adobe Cloud Platform API는 인증 및 권한 부여에 OAuth 2.0 프로토콜을 사용합니다. API 호출을 사용하여 Adobe Experience Platform을 Adobe Campaign에 연결하려면 Adobe Developer Console에서 만든 OAuth 통합을 사용하여 액세스 토큰을 생성해야 합니다.
 
 이렇게 하려면 다음 단계를 수행합니다.
 
-1. Adobe Developer 콘솔에 액세스합니다.
-1. Adobe Experience Platform API 제품을 사용하여 새 API 연결을 만듭니다. OAuth 2.0 액세스 토큰을 얻는 방법에 대한 자세한 단계는 [Adobe Developer 콘솔 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/).
-1. 연결이 만들어지면 다음으로 이동합니다. **[!UICONTROL OAuth Server-to-Server]** 아래 세부 사항을 복사하여 인증을 위해 Campaign에 필요합니다.
+1. Adobe Developer Console에 액세스
+1. Adobe Experience Platform API 제품을 사용하여 새 API 연결을 만듭니다. OAuth 2.0 액세스 토큰을 얻는 방법에 대한 자세한 단계는 [Adobe Developer Console 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/)에서 확인할 수 있습니다.
+1. 연결이 만들어지면 **[!UICONTROL OAuth Server-to-Server]** 메뉴로 이동하여 인증을 위해 Campaign에 필요한 아래 세부 정보를 복사합니다.
 
    * `CLIENT ID`
    * `CLIENT SECRET`
@@ -46,19 +46,19 @@ Adobe Cloud Platform API는 인증 및 권한 부여에 OAuth 2.0 프로토콜�
 
    ![](assets/ac-lp-oauth.png){width="70%"}
 
-Oauth 연결이 구성되었으므로 이제 새 을(를) 만들고 구성합니다. **[!UICONTROL HTTP API]** Adobe Campaign을 Adobe Experience Platform에 연결하는 소스 연결.
+Oauth 연결이 구성되었으므로 이제 새 **[!UICONTROL HTTP API]** Source 연결을 만들고 구성하여 Adobe Campaign을 Adobe Experience Platform에 연결합니다.
 
-## HTTP API 소스 연결 만들기 {#source}
+## HTTP API Source 연결 만들기 {#source}
 
-OAuth 연결이 있는 경우 다음 단계는 **[!UICONTROL HTTP API]** Adobe Experience Platform의 소스 연결. 이 연결을 통해 API를 사용하여 Adobe Experience Platform에 데이터를 스트리밍할 수 있습니다. 다음 단계를 수행하십시오.
+OAuth 연결을 통해 다음 단계는 Adobe Experience Platform에서 **[!UICONTROL HTTP API]** Source 연결을 만드는 것입니다. 이 연결을 통해 API를 사용하여 Adobe Experience Platform에 데이터를 스트리밍할 수 있습니다. 다음 단계를 수행하십시오.
 
-1. Adobe Experience Platform으로 이동 **[!UICONTROL Sources]**, 검색 **[!UICONTROL HTTP API]** 소스를 클릭한 다음 클릭 **[!UICONTROL Add data]**.
+1. Adobe Experience Platform **[!UICONTROL Sources]**(으)로 이동하여 **[!UICONTROL HTTP API]** 원본을 검색한 다음 **[!UICONTROL Add data]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. 필요에 따라 연결을 구성합니다. HTTP API 연결을 구성하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 소스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
+1. 필요에 따라 연결을 구성합니다. HTTP API 연결을 구성하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 소스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}를 참조하세요.
 
-   위치: **[!UICONTROL Authentication]** 단계, 켜기/끄기 **[!UICONTROL Enable authentication]** OAuth 통합을 통해 이전에 생성된 액세스 토큰을 사용하여 인증하는 옵션입니다.
+   **[!UICONTROL Authentication]** 단계에서 OAuth 통합을 통해 이전에 생성된 액세스 토큰을 사용하여 인증하려면 **[!UICONTROL Enable authentication]** 옵션을 켜십시오.
 
    ![](assets/ac-lp-source-authentication.png){width="70%"}
 
@@ -66,15 +66,15 @@ OAuth 연결이 있는 경우 다음 단계는 **[!UICONTROL HTTP API]** Adobe E
 
    ![](assets/ac-lp-endpoint.png){width="70%"}
 
-   에서 새로 만든 데이터 흐름을 열어 Adobe Experience Platform에 수집된 데이터 형식 샘플에 액세스할 수도 있습니다. **[!UICONTROL Dataflows]** 탭.
+   **[!UICONTROL Dataflows]** 탭에서 새로 만든 데이터 흐름을 열어 Adobe Experience Platform에 수집된 데이터 형식 샘플에 액세스할 수도 있습니다.
 
    ![](assets/ac-lp-schema.png){width="70%"}
 
-HTTP API 소스 연결이 설정되었으므로 이제 Adobe Experience Platform에 연결할 수 있도록 Adobe Campaign에 특정 옵션을 추가해야 합니다.
+HTTP API Source 연결이 설정되었으므로 이제 Adobe Experience Platform에 연결할 수 있도록 Adobe Campaign에 특정 옵션을 추가해야 합니다.
 
 ## Adobe Campaign에서 인증 옵션 추가 {#xtk}
 
-HTTP API 소스 연결이 구성되면 Adobe Campaign에 특정 옵션을 추가하여 Adobe Experience Platform에 연결할 수 있도록 해야 합니다. 이 작업은 Campaign 관리 메뉴에서 수행하거나 특정 항목을 추가하여 랜딩 페이지 워크플로우를 실행할 때 수행할 수 있습니다 **[!UICONTROL JavaScript code]** 활동.
+HTTP API Source 연결이 구성되면 Adobe Campaign에 특정 옵션을 추가하여 Adobe Experience Platform에 연결할 수 있도록 해야 합니다. 이 작업은 Campaign 관리 메뉴에서 수행하거나 특정 **[!UICONTROL JavaScript code]** 활동을 추가하여 랜딩 페이지 워크플로를 실행할 때 수행할 수 있습니다.
 
 아래 탭을 탐색하여 두 가지 방법을 알아보십시오.
 
@@ -82,8 +82,8 @@ HTTP API 소스 연결이 구성되면 Adobe Campaign에 특정 옵션을 추가
 
 >[!TAB 관리 메뉴에서 옵션 추가]
 
-1. 다음 위치로 이동 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**  메뉴 아래의 제품에서 사용할 수 있습니다.
-1. Adobe Developer 콘솔의 해당 값과 함께 다음 옵션을 추가합니다.
+1. **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** 메뉴로 이동합니다.
+1. Adobe Developer Console의 해당 값과 함께 다음 옵션을 추가합니다.
 
    * IMS_CLIENT_ID = cryptString(클라이언트 ID)
    * IMS_CLIENT_SECRET = cryptString(클라이언트 암호)
@@ -98,7 +98,7 @@ HTTP API 소스 연결이 구성되면 Adobe Campaign에 특정 옵션을 추가
 
 >[!TAB JavaScript 코드 활동을 사용하여 옵션 추가]
 
-랜딩 페이지 워크플로를 실행할 때 이러한 옵션을 자동으로 구성하려면 **[!UICONTROL JavaScript code]** 활동은 아래 코드를 사용하여 워크플로우에 연결합니다. [JavaScript 코드 활동을 구성하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}.
+랜딩 페이지 워크플로우를 실행할 때 이러한 옵션을 자동으로 구성하려면 아래 코드를 사용하여 워크플로우에 **[!UICONTROL JavaScript code]** 활동을 추가합니다. [JavaScript 코드 활동을 구성하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}.
 
 워크플로우 실행 시 옵션은 제공된 값으로 Campaign 콘솔에 자동으로 만들어집니다.
 
@@ -108,24 +108,24 @@ HTTP API 소스 연결이 구성되면 Adobe Campaign에 특정 옵션을 추가
     loadLibrary(&quot;xtk:shared/json2.js&quot;);
     loadLibrary(&quot;xtk:common.js&quot;);
     
-    함수 setAuthCredentials()
+    function setAuthCredentials()
     {
     setOption(&quot;IMS_CLIENT_ID&quot;, cryptString(&#39;CLIENT ID&#39;));
     setOption(&quot;IMS_CLIENT_SECRET&quot;, cryptString(&#39;CLIENT SECRET&#39;));
-    setOption(&quot;IMS_ORG_ID&quot;, cryptString(&#39;ORGANIZATION ID&#39;));
+    setOption(&quot;IMS_ORG_ID&quot;, cryptString(&#39;조직 ID&#39;));
     setOption(&quot;IMS_CLIENT_API_KEY&quot;, cryptString(&#39;CLIENT ID&#39;));
     }
     &quot;
 
 >[!ENDTABS]
 
-이제 인증 옵션이 Campaign에 구성되었으므로 랜딩 페이지에서 Campaign과 Adobe Experience Platform 간의 데이터 동기화를 허용할 사용자 지정 JavaScript 코드를 만들어야 합니다.
+이제 인증 옵션이 Campaign에 구성되었으므로 랜딩 페이지에서 Campaign과 Adobe Experience Platform 간에 데이터를 동기화할 수 있는 사용자 지정 JavaScript 코드를 만들어야 합니다.
 
 ## 워크플로우 실행 시 옵션 추가 {#javacript}
 
 랜딩 페이지와 Adobe Experience Platform 간에 데이터를 동기화할 수 있으려면 사용자 지정 JavaScript 코드를 Adobe Campaign에 추가해야 합니다. 다음 단계를 수행하십시오.
 
-1. 다음 위치로 이동 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL JavaScript codes]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+1. **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL JavaScript codes]** 메뉴로 이동합니다.
 1. 새 JavaScript 코드를 만들고 아래 코드 조각을 복사하여 붙여넣습니다.
 
    >[!NOTE]
@@ -205,13 +205,13 @@ HTTP API 소스 연결이 구성되면 Adobe Campaign에 특정 옵션을 추가
 
 +++
 
-사용자 지정 JavaScript 코드가 Adobe Campaign에 생성되었으므로 데이터 동기화에 이러한 JavaScript 코드를 사용하도록 랜딩 페이지를 포함하는 워크플로를 구성할 수 있습니다.
+이제 사용자 지정 JavaScript 코드가 Adobe Campaign에 생성되었으므로 데이터 동기화에 이러한 JavaScript 코드를 사용하도록 랜딩 페이지를 포함하는 워크플로우를 구성할 수 있습니다.
 
 ## 랜딩 페이지 워크플로우 구성 {#script}
 
-Adobe Campaign에 추가된 JavaScript 코드를 사용하여 랜딩 페이지 워크플로에 활용할 수 있습니다. **[!UICONTROL JavaScript code]** 활동:
+Adobe Campaign에 추가된 JavaScript 코드를 사용하여 **[!UICONTROL JavaScript code]** 활동을 사용하여 랜딩 페이지 워크플로에 활용할 수 있습니다.
 
-* 랜딩 페이지를 로드하기 전에 Experience Platform에서 데이터를 로드하려면 **[!UICONTROL JavaScript code]** 랜딩 페이지 활동 앞에 활동 을 추가하고, 붙여넣기 스크립트 1을 복사합니다.
+* 랜딩 페이지를 로드하기 전에 Experience Platform에서 데이터를 로드하려면 랜딩 페이지 활동 앞에 **[!UICONTROL JavaScript code]** 활동을 추가하고 붙여넣기 스크립트 1을 복사합니다.
 
 +++ 스크립트 1 - Experience Platform에서 프로필 속성 로드
 
@@ -251,7 +251,7 @@ Adobe Campaign에 추가된 JavaScript 코드를 사용하여 랜딩 페이지 �
 
 +++
 
-* Experience Platform 프로필 속성을 랜딩 페이지에 제출된 데이터로 업데이트하려면 **[!UICONTROL JavaScript code]** 랜딩 페이지 활동 뒤의 활동 및 복사 붙여넣기 스크립트 2.
+* Experience Platform 프로필 속성을 랜딩 페이지에 제출된 데이터로 업데이트하려면 랜딩 페이지 활동 뒤에 **[!UICONTROL JavaScript code]** 활동을 추가하고 붙여넣기 스크립트 2를 복사합니다.
 
 +++ 스크립트 2 - Experience Platform 프로필 속성 업데이트
 

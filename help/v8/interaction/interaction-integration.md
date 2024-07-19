@@ -22,11 +22,11 @@ URL을 호출하는 스크립트는 다음과 같습니다.
 <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=" type="text/javascript"></script>
 ```
 
-&quot;**환경**&quot;매개 변수는 익명 상호 작용 전용 라이브 환경의 내부 이름을 받습니다.
+&quot;**env**&quot; 매개 변수는 익명 상호 작용 전용 라이브 환경의 내부 이름을 받습니다.
 
 오퍼를 표시하려면 Adobe Campaign에서 환경 및 오퍼 공간을 만든 다음 HTML 페이지를 구성해야 합니다.
 
-다음 사용 사례에서는 JavaScript를 통해 오퍼를 통합하는 데 사용할 수 있는 옵션에 대해 자세히 설명합니다.
+다음 사용 사례에서는 JavaScript을 통해 오퍼를 통합할 수 있는 옵션을 자세히 설명합니다.
 
 ## 옵션 1: HTML 모드 {#html-mode}
 
@@ -38,7 +38,7 @@ URL을 호출하는 스크립트는 다음과 같습니다.
 1. 익명 환경에 연결된 오퍼 공간을 만듭니다.
 1. 오퍼 및 오퍼 공간에 연결된 오퍼 표현을 만듭니다.
 
-**2단계: HTML 페이지 콘텐츠 업데이트**
+**2단계: HTML 페이지의 콘텐츠 업데이트**
 
 HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 내부 이름 값이 있는 @id 속성이 있는 요소가 포함되어야 합니다. 오퍼는 상호 작용에 의해 이 요소에 삽입됩니다.
 
@@ -56,7 +56,7 @@ HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 
 
 >[!CAUTION]
 >
->다음 `<script>` 태그는 자동 닫기가 아니어야 합니다.
+>`<script>` 태그는 자동으로 닫으면 안 됩니다.
 
 이 정적 호출은 오퍼 엔진에 필요한 모든 매개 변수를 포함하는 동적 호출을 자동으로 생성합니다.
 
@@ -90,7 +90,7 @@ HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 
 
 ### 식별된 오퍼 제공 {#presenting-an-identified-offer}
 
-식별된 연락처에 오퍼를 제공하기 위한 프로세스는 상세한 프로세스와 유사합니다 [이 섹션에서](#presenting-an-anonymous-offer).
+식별된 연락처에 오퍼를 제공하기 위한 프로세스는 이 섹션](#presenting-an-anonymous-offer)의 자세한 [과(와) 유사합니다.
 
 웹 페이지의 콘텐츠에서 오퍼 엔진 호출 중에 연락처를 식별하는 다음 스크립트를 추가해야 합니다.
 
@@ -100,7 +100,7 @@ HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 
 </script>
 ```
 
-1. 웹 페이지에서 호출할 오퍼 공간으로 이동한 다음 **[!UICONTROL Advanced parameters]** 및 하나 이상의 식별 키를 추가합니다.
+1. 웹 페이지에서 호출할 오퍼 공간으로 이동하여 **[!UICONTROL Advanced parameters]**&#x200B;을(를) 클릭하고 ID 키를 하나 이상 추가합니다.
 
    ![](assets/interaction_htmlmode_001.png)
 
@@ -122,7 +122,7 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
 1. 오퍼 공간으로 이동하여 **[!UICONTROL Edit functions]** 링크를 클릭합니다.
 1. **[!UICONTROL Overload the HTML rendering function]**&#x200B;을(를) 선택합니다.
-1. 로 이동 **[!UICONTROL HTML rendering]** 을 탭하고 오퍼 콘텐츠에 대해 정의된 필드와 일치하는 변수를 오퍼 공간에 삽입합니다.
+1. **[!UICONTROL HTML rendering]** 탭으로 이동하여 오퍼 콘텐츠에 대해 정의된 필드와 일치하는 변수를 오퍼 공간에 삽입합니다.
 
    ![](assets/interaction_htmlmode_002.png)
 
@@ -132,7 +132,7 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
 ### 오퍼 제공 {#presenting-an-offer}
 
-캠페인 **상호 작용** 모듈을 사용하면 오퍼 엔진을 호출하는 HTML 페이지로 XML 노드를 반환할 수 있습니다. 이 XML 노드는 고객 측에서 개발해야 하는 함수에 의해 처리될 수 있습니다.
+Campaign **상호 작용** 모듈을 사용하면 오퍼 엔진을 호출하는 HTML 페이지에 XML 노드를 반환할 수 있습니다. 이 XML 노드는 고객 측에서 개발해야 하는 함수에 의해 처리될 수 있습니다.
 
 오퍼 엔진에 대한 호출은 다음과 같습니다.
 
@@ -140,17 +140,17 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 <script type="text/javascript" id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=&cb="></script>
 ```
 
-* &quot;**환경**&quot;매개변수는 라이브 환경의 내부 이름을 수신합니다.
+* &quot;**env**&quot; 매개 변수는 라이브 환경의 내부 이름을 받습니다.
 
-* &quot;**cb**&quot;매개 변수는 (콜백) 제안이 포함된 엔진에서 반환한 XML 노드를 읽는 함수의 이름을 받습니다. 이 매개 변수는 선택 사항입니다.
+* &quot;**cb**&quot; 매개 변수는 (콜백) 제안을 포함하는 엔진에서 반환된 XML 노드를 읽을 함수의 이름을 받습니다. 이 매개 변수는 선택 사항입니다.
 
-* &quot;**t**&quot;매개변수는 식별된 상호 작용에 대해서만 타겟의 값을 수신합니다. 이 매개 변수는 **interactionTarget** 변수를 채우는 방법에 따라 페이지를 순서대로 표시합니다. 이 매개 변수는 선택 사항입니다.
+* &quot;**t**&quot; 매개 변수는 식별된 상호 작용에 대해서만 대상 값을 받습니다. 이 매개 변수는 **interactionTarget** 변수와 함께 전달할 수도 있습니다. 이 매개 변수는 선택 사항입니다.
 
-* &quot;**c**&quot;매개변수는 범주의 내부 이름 목록을 수신합니다. 이 매개 변수는 선택 사항입니다.
+* &quot;**c**&quot; 매개 변수는 범주의 내부 이름 목록을 받습니다. 이 매개 변수는 선택 사항입니다.
 
-* &quot;**번째**&quot;매개 변수는 테마 목록을 받습니다. 이 매개 변수는 선택 사항입니다.
+* &quot;**th**&quot; 매개 변수는 테마 목록을 받습니다. 이 매개 변수는 선택 사항입니다.
 
-* &quot;**gctx**&quot; 매개 변수는 전체 페이지에 대한 호출 데이터 글로벌(컨텍스트)을 수신합니다. 이 매개 변수는 선택 사항입니다.
+* &quot;**gctx**&quot; 매개 변수는 전체 페이지에 대한 호출 데이터 전역(컨텍스트)을 수신합니다. 이 매개 변수는 선택 사항입니다.
 
 반환된 XML 노드는 다음과 같습니다.
 
@@ -167,15 +167,15 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
 1. **환경 및 오퍼 공간 만들기**
 
-   환경 만들기에 대한 자세한 내용은 [이 페이지](interaction-env.md).
+   환경 만들기에 대한 자세한 내용은 [이 페이지](interaction-env.md)를 참조하세요.
 
-   오퍼 공간을 만드는 방법에 대한 자세한 내용은 을(를) 참조하십시오. [이 페이지](interaction-offer-spaces.md).
+   오퍼 공간을 만드는 방법에 대한 자세한 내용은 [이 페이지](interaction-offer-spaces.md)를 참조하세요.
 
 1. **오퍼 스키마를 확장하여 새 필드 추가**
 
    이 스키마는 제목 번호 2 및 가격 필드를 정의합니다.
 
-   예제의 스키마 이름은 다음과 같습니다. **cus:offer**
+   예제의 스키마 이름은 **cus:offer**&#x200B;입니다.
 
    ```
    <srcSchema _cs="Marketing offers (cus)" created="2013-01-18 17:14:20.762Z" createdBy-id="0"
@@ -208,9 +208,9 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
    오퍼 스키마를 확장하여 배치 및 단일 모드와 모든 형식(텍스트, HTML 및 XML)의 새 필드를 추가할 수 있습니다.
 
-1. **오퍼 공식을 확장하여 새 필드를 편집하고 기존 필드를 수정합니다**
+1. **오퍼 수식을 확장하여 새 필드를 편집하고 기존 필드를 수정합니다**
 
-   편집 **오퍼(nsm)** 입력 양식.
+   **오퍼(nsm)** 입력 양식을 편집합니다.
 
    &quot;보기&quot; 섹션에 다음 콘텐츠가 있는 두 개의 새 필드를 삽입합니다.
 
@@ -243,17 +243,17 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 
    >[!CAUTION]
    >
-   >( )의 필드 `<input>`) 양식은 생성된 스키마에 정의된 CDATA 유형 요소를 가리켜야 합니다.
+   >( `<input>`) 양식의 필드는 만들어진 스키마에 정의된 CDATA 형식 요소를 가리켜야 합니다.
 
    오퍼 표시 양식의 렌더링은 다음과 같습니다.
 
    ![](assets/interaction_xmlmode_form.png)
 
-   다음 **[!UICONTROL Title 2]** 및 **[!UICONTROL Price]** 필드가 추가되었으며 **[!UICONTROL Destination URL]** 필드가 더 이상 표시되지 않습니다.
+   **[!UICONTROL Title 2]** 및 **[!UICONTROL Price]** 필드가 추가되었으며 **[!UICONTROL Destination URL]** 필드가 더 이상 표시되지 않습니다.
 
 1. **오퍼 만들기**
 
-   오퍼 만들기에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](interaction-offer.md).
+   오퍼 만들기에 대한 자세한 내용은 [이 페이지](interaction-offer.md)를 참조하세요.
 
    다음 사용 사례에서는 오퍼를 다음과 같이 입력합니다.
 
@@ -271,9 +271,9 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
    <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=OE7&cb=alert" type="text/javascript">
    ```
 
-   값 &quot;**환경**&quot;매개 변수는 라이브 환경의 내부 이름입니다.
+   &quot;**env**&quot; 매개 변수의 값은 라이브 환경의 내부 이름입니다.
 
-   값 &quot;**cb**&#x200B;매개 변수는 엔진에서 반환한 XML 노드를 해석해야 하는 함수의 이름입니다. 이 예에서 호출된 up 함수는 모달 창(alert() 함수)을 엽니다.
+   &quot;**cb**&quot; 매개 변수의 값은 엔진에서 반환된 XML 노드를 해석해야 하는 함수의 이름입니다. 이 예에서 호출된 up 함수는 모달 창(alert() 함수)을 엽니다.
 
    오퍼 엔진에서 반환된 XML 노드는 다음과 같습니다.
 
@@ -299,7 +299,7 @@ XML 렌더링 함수를 사용하여 오퍼 프레젠테이션을 만들 수 있
 
 1. 오퍼 공간으로 이동하여 **[!UICONTROL Edit functions]** 링크를 클릭합니다.
 1. **[!UICONTROL Overload the XML rendering function]**&#x200B;을(를) 선택합니다.
-1. 로 이동 **[!UICONTROL XML rendering]** 을 탭하고 원하는 함수를 삽입합니다.
+1. **[!UICONTROL XML rendering]** 탭으로 이동하여 원하는 함수를 삽입합니다.
 
    함수는 다음과 같이 표시될 수 있습니다.
 
@@ -318,12 +318,12 @@ XML 렌더링 함수를 사용하여 오퍼 프레젠테이션을 만들 수 있
 
 ### 오퍼 제안 {#offer-proposition}
 
-SOAP를 통한 오퍼 제안에 대해 **nms:proposition#제안** 명령 뒤에 다음 매개 변수가 옵니다.
+SOAP을 통한 오퍼 제안에 대해 **nms:proposition#Propose** 명령과 다음 매개 변수를 추가합니다.
 
-* **targetId**: 수신자의 기본 키(복합 키일 수 있음).
-* **maxCount**: 연락처에 대한 오퍼 제안 수를 지정합니다.
-* **컨텍스트**: 공간 스키마에 컨텍스트 정보를 추가할 수 있습니다. 사용된 스키마가 **nms:interaction**, **`<empty>`** 을 추가해야 합니다.
-* **카테고리**: 오퍼가 속해야 하는 범주/코드를 지정합니다.
+* **targetId**: 받는 사람의 기본 키(복합 키일 수 있음).
+* **maxCount**: 연락처의 오퍼 제안 수를 지정합니다.
+* **컨텍스트**: 스페이스 스키마에 컨텍스트 정보를 추가할 수 있습니다. 사용된 스키마가 **nms:interaction**&#x200B;인 경우 **`<empty>`**&#x200B;을(를) 추가해야 합니다.
+* **categories**: 오퍼가 속해야 하는 범주/IE를 지정합니다.
 * **테마**: 오퍼가 속해야 하는 테마를 지정합니다.
 * **uuid**: Adobe Campaign 영구 쿠키의 값(&quot;uuid230&quot;).
 * **nli**: Adobe Campaign 세션 쿠키의 값(&quot;nlid&quot;)입니다.
@@ -331,20 +331,20 @@ SOAP를 통한 오퍼 제안에 대해 **nms:proposition#제안** 명령 뒤에 
 
 >[!NOTE]
 >
->다음 **targetId** 및 **maxCount** 설정은 필수입니다. 다른 것들은 선택 사항입니다.
+>**targetId** 및 **maxCount** 설정은 필수입니다. 다른 것들은 선택 사항입니다.
 
 쿼리에 대한 응답으로 SOAP 서비스는 다음 매개 변수를 반환합니다.
 
 * **interactionId**: 인터랙션의 ID입니다.
-* **제안**: XML 요소이며, 각각 고유한 ID와 HTML 표현이 있는 제안 목록을 포함합니다.
+* **제안**: XML 요소에는 각각 고유한 ID와 HTML 표현이 있는 제안 목록이 포함됩니다.
 
 ### 오퍼 업데이트 {#offer-update}
 
-추가 **nms:interaction#UpdateStatus** 다음 매개 변수가 뒤에 옵니다.
+**nms:interaction#UpdateStatus** 명령을 URL에 추가한 다음 다음 매개 변수를 추가합니다.
 
-* **제안**: 문자열로 구성되며 오퍼 제안 중 출력으로 제공된 제안 ID를 포함합니다. 을(를) 참조하십시오 [오퍼 제안](#offer-proposition).
-* **상태**: 문자열 유형으로 오퍼의 새 상태를 지정합니다. 가능한 값은 **제안 상태** 열거형, **nms:common** 스키마. 예를 들어, 기본적으로 숫자 3은 **수락됨** 상태.
-* **컨텍스트**: XML 요소를 사용하여 공간 스키마에 컨텍스트 정보를 추가할 수 있습니다. 사용된 스키마가 **nms:interaction**, **`<empty>`** 을 추가해야 합니다.
+* **제안**: 문자열로, 오퍼 제안 중 출력으로 제공된 제안 ID가 포함되어 있습니다. [오퍼 제안](#offer-proposition)을 참조하세요.
+* **상태**: 문자열 형식이며 오퍼의 새 상태를 지정합니다. 가능한 값은 **nms:common** 스키마의 **propositionStatus** 열거형에 나열됩니다. 예를 들어, 기본적으로 숫자 3은 **수락됨** 상태에 해당합니다.
+* **context**: XML 요소를 사용하면 공간 스키마에 컨텍스트 정보를 추가할 수 있습니다. 사용된 스키마가 **nms:interaction**&#x200B;인 경우 **`<empty>`**&#x200B;을(를) 추가해야 합니다.
 
 ### SOAP 호출 사용 예 {#example-using-a-soap-call}
 

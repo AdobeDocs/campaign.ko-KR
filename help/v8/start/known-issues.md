@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # 알려진 문제{#known-issues}
 
-이 페이지에는 다음에서 식별된 알려진 문제가 나열됩니다. **최신 Campaign v8 릴리스**. 또한 Campaign v8에 포함된 제한 사항이 나열되어 있습니다 [이 페이지에서](ac-guardrails.md).
+이 페이지에는 **최신 Campaign v8 릴리스**&#x200B;에서 식별된 알려진 문제가 나열됩니다. 또한 Campaign v8에서 발생하는 제한 사항은 [이 페이지의 ](ac-guardrails.md)에 나열되어 있습니다.
 
 
 >[!NOTE]
@@ -25,21 +25,21 @@ ht-degree: 2%
 
 ## Campaign v8.3.8{#8.3-issues}
 
-### 데이터 소스 활동 문제 변경 {#issue-2}
+### 데이터 Source 활동 문제 변경 {#issue-2}
 
 #### 설명{#issue-2-desc}
 
-Campaign을 사용하여 Snowflake 클라우드 데이터베이스에 데이터를 삽입할 때 **쿼리** 및 a **데이터 소스 변경** 활동에 백슬래시 문자가 데이터에 있으면 프로세스가 실패합니다. 소스 문자열이 이스케이프되지 않고 데이터가 Snowflake 시 올바르게 처리되지 않습니다.
+Campaign **Query** 및 **데이터 변경 Source** 활동을 사용하여 Snowflake 클라우드 데이터베이스에 데이터를 삽입할 때 데이터에 백슬래시 문자가 있으면 프로세스가 실패합니다. 소스 문자열이 이스케이프되지 않고 데이터가 Snowflake 시 올바르게 처리되지 않습니다.
 
-이 문제는 백슬래시 문자가 문자열 끝에 있는 경우에만 발생합니다. 예: `Barker\`.
+이 문제는 백슬래시 문자가 문자열 끝에 있는 경우에만 발생합니다(예: `Barker\`).
 
 
 #### 재생 단계{#issue-2-repro}
 
 1. 클라이언트 콘솔에 연결하고 워크플로우를 만듭니다.
-1. 추가 **쿼리** 활동을 설정하고 구성합니다.
+1. **쿼리** 활동을 추가하고 구성합니다.
 1. 위에서 설명한 특성을 사용하여 데이터를 선택합니다.
-1. 추가 **데이터 소스 변경** 활동을 수행하고 Snowflake 클라우드 데이터베이스를 선택하도록 구성합니다.
+1. **데이터 변경 Source** 활동을 추가하고 Snowflake 클라우드 데이터베이스를 선택하도록 구성합니다.
 1. 워크플로우를 실행하고 워크플로우 로그를 확인하여 오류를 확인합니다.
 
 
@@ -65,15 +65,15 @@ Error:
 
 #### 설명{#issue-3-desc}
 
-를 사용하여 Campaign 서버에 파일을 업로드할 때 **데이터 로드 중(파일)** 활동. 프로세스는 100%에서 중지되지만 종료되지 않습니다.
+**데이터 로드(파일)** 활동을 사용하여 Campaign 서버에 파일을 업로드할 때 프로세스가 100%에서 중지되지만 종료되지 않습니다.
 
 #### 재생 단계{#issue-3-repro}
 
 1. 클라이언트 콘솔에 연결하고 워크플로우를 만듭니다.
-1. 추가 **데이터 로드 중(파일)** 활동을 설정하고 구성합니다.
-1. 다음 항목 선택 **서버에 업로드** 옵션을 선택합니다.
+1. **데이터 로드(파일)** 활동을 추가하고 구성합니다.
+1. **서버에 업로드** 옵션을 선택하십시오.
 1. 로컬 컴퓨터에서 파일을 선택하고
-1. 클릭 **업로드**
+1. **업로드** 클릭
 
 
 #### 오류 메시지{#issue-3-error}
@@ -84,11 +84,11 @@ Error:
 
 해결 방법은 이전 클라이언트 콘솔을 사용하는 것입니다. 그런 다음 서버에 파일을 업로드할 수 있습니다.
 
-Campaign 관리자는 에서 Campaign v8.3.1 클라이언트 콘솔을 다운로드할 수 있습니다. [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
+Campaign 관리자는 [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}에서 Campaign v8.3.1 클라이언트 콘솔을 다운로드할 수 있습니다.
 
-Adobe 소프트웨어 배포에 액세스하는 방법 알아보기 [이 페이지에서](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}.
+이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}에서 Adobe 소프트웨어 배포 [에 액세스하는 방법을 알아보세요.
 
-클라이언트 콘솔을 업그레이드하는 방법 알아보기 [이 페이지에서](connect.md)
+클라이언트 콘솔을 업그레이드하는 방법: [이 페이지에서](connect.md)
 
 #### 내부 참조{#issue-3-ref}
 
