@@ -3,10 +3,10 @@ title: Campaign v8 릴리스 정보
 description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 65efda7469c5ad35e8d03703951c3d1480b015f4
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+source-git-commit: bd53d04791af91afffe683ca92fa78562640170a
+workflow-type: tm+mt
+source-wordcount: '931'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,33 @@ Adobe Campaign은 정기적으로 업데이트됩니다. 이러한 정기 업데
 Adobe는 새 버전이 나올 때마다 Managed Cloud Services 사용자의 인스턴스를 업그레이드합니다. Adobe이 귀하에게 연락하여 환경을 업그레이드합니다. Campaign 클라이언트 콘솔은 **Campaign 서버와 동일한 버전으로 업그레이드**&#x200B;되어야 합니다. [이 페이지](../start/connect.md#upgrade-ac-console)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
 
 또한 고객은 [호환성 매트릭스](compatibility-matrix.md)에 나열된 최신 지원 버전의 시스템을 사용하고 있는지 확인하십시오.
+
+
+
+## 릴리스 8.6.3 {#release-8-6-3}
+
+_2024년 7월 30일 수요일_
+
+### 새로운 기능 {#new-8-6-3}
+
+* **리치 푸시 알림** - 이제 리치 푸시 알림을 보낼 수 있습니다. 리치 푸시 알림은 이미지, 대화형 버튼 또는 기타 리치 미디어 콘텐츠와 같은 멀티미디어 요소를 통합하여 단순한 문자 메시지를 뛰어 넘는 향상된 형태의 모바일 알림입니다. 이 버전에서는 이제 iOS 및 Android 앱에서 리치 푸시 알림에 대한 템플릿 세트를 사용할 수 있습니다. [자세히 보기](../send/rich-push.md).
+
+* 이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. [자세히 알아보기](release-notes.md#change-8-7-1)
+
+### 일반 개선 사항 {#improvements-8-6-3}
+
+* 애플리케이션 간 모든 통신에 대한 보안을 강화하기 위해 이제 외부 API 호출에도 mTLS를 지원합니다.
+
+### 수정 사항 {#fixes-8-6-3}
+
+이 릴리스에서는 다음 문제가 해결되었습니다.
+
+NEO-79328, NEO-78843, NEO-77795, NEO-77014, NEO-76958, NEO-76097, NEO-75898, NEO-72504, NEO-70263, NEO-67620, NEO-63197, NEO-58596 56832.
+
+<!--
+https://jira.corp.adobe.com/issues/?filter=585288&jql=fixVersion%20%3D%208.6.3%20AND%20type%20not%20in%20(epic%2C%20test%2C%20sub-task%2C%20Roadmap)%20AND%20resolution%20!%3D%20unresolved%20AND%20%22Fixed%20in%20Build%22%20is%20not%20EMPTY%20and%20type%20in%20(%22customer%20request%22)
+-->
+
 
 ## 릴리스 8.5.3 {#release-8-5-3}
 
