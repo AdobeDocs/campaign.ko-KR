@@ -5,7 +5,7 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 48aba38f3dc8bb322e6d0b38c1b743e980671cd7
+source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 6%
@@ -21,7 +21,6 @@ Adobe Campaign을 사용하여 푸시 알림 전송을 시작하기 전에 모�
 >[!CAUTION]
 >
 >Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항이 2024년에 출시될 예정이며, 이는 Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 이미 확인하고 조치를 취할 수 있습니다. [자세히 알아보기](../../technotes/upgrades/push-technote.md).
-
 
 ## 첫 번째 푸시 알림 만들기 {#push-create}
 
