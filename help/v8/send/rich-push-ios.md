@@ -5,7 +5,7 @@ description: Adobe Campaign 웹을 사용하여 iOS 리치 푸시 알림 전달�
 feature: Push
 role: User
 level: Beginner
-source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
+source-git-commit: 0c13ee22a7d40aaa9a8c27d3450ec3275a02748f
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 4%
@@ -187,4 +187,3 @@ ht-degree: 4%
 | **[!UICONTROL Click action]** | 사용자 알림의 사용자 클릭과 관련된 작업을 설정합니다. |
 | **[!UICONTROL Interruption level]** | <ul><li>활성: 기본적으로 설정되어 있으면 시스템에서 알림을 즉시 표시하고 화면을 켜며 사운드를 재생할 수 있습니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li>수동: 화면에 불이 들어오거나 소리가 재생되지 않고 알림 목록에 알림이 추가됩니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li> 시간에 민감함: 시스템에서 알림을 즉시 표시하고 화면을 켜며 사운드를 재생하고 포커스 모드를 중단할 수 있습니다. 이 수준에서는 Apple의 특별한 권한이 필요하지 않습니다.</li><li>심각: 시스템에서 알림을 즉시 표시하고 화면을 켜며 음소거 스위치나 포커스 모드를 무시합니다. 이 수준에는 Apple의 특별한 권한이 필요합니다.</li></ul> |
 | **[!UICONTROL Relevance score]** | 관련성 점수를 0에서 100으로 설정합니다. 시스템은 이 옵션을 사용하여 알림 요약의 알림을 정렬합니다. |
-
