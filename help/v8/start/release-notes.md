@@ -3,7 +3,7 @@ title: Campaign v8 릴리스 정보
 description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 0c13ee22a7d40aaa9a8c27d3450ec3275a02748f
+source-git-commit: 4e52e596d4eb2a8e1a1799fcd7104dcd894b6c2d
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 93%
@@ -17,7 +17,6 @@ Adobe Campaign은 정기적으로 업데이트됩니다. 이러한 정기 업데
 Adobe는 새 버전이 나올 때마다 Managed Cloud Services 사용자의 인스턴스를 업그레이드합니다. Adobe이 귀하에게 연락하여 환경을 업그레이드합니다. Campaign 클라이언트 콘솔은 **Campaign 서버와 동일한 버전으로 업그레이드**&#x200B;되어야 합니다. [이 페이지](../start/connect.md#upgrade-ac-console)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
 
 또한 고객은 [호환성 매트릭스](compatibility-matrix.md)에 나열된 최신 지원 버전의 시스템을 사용하고 있는지 확인하십시오.
-
 
 ## 릴리스 8.6.3 {#release-8-6-3}
 

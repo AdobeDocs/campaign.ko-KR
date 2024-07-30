@@ -6,7 +6,7 @@ feature: Push
 role: User
 level: Beginner
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 0c13ee22a7d40aaa9a8c27d3450ec3275a02748f
+source-git-commit: 4e52e596d4eb2a8e1a1799fcd7104dcd894b6c2d
 workflow-type: tm+mt
 source-wordcount: '1989'
 ht-degree: 3%
@@ -358,4 +358,3 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 | **[!UICONTROL Notification Count]** | 애플리케이션 아이콘에 직접 표시할 읽지 않은 새 정보의 수를 설정합니다. 사용자는 이를 통해 보류 중인 알림 수를 빠르게 확인할 수 있습니다. |
 | **[!UICONTROL Visibility]** | 공개, 비공개 또는 비밀일 수 있는 알림의 가시성 수준을 설정합니다. 표시 수준은 잠금 화면 및 기타 중요 영역에 표시되는 알림 콘텐츠의 양을 결정합니다. 자세한 내용은 [FCM 설명서](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility)를 참조하세요. |
 | **[!UICONTROL Application variables]** | 알림 동작을 정의할 수 있습니다. 이러한 변수는 완전히 사용자 정의할 수 있으며 모바일 디바이스로 전송되는 메시지 페이로드의 일부로 포함됩니다. |
-
