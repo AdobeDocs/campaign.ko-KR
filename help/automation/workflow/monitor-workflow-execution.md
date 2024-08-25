@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 워크플로우 실행 모니터링
-description: 워크플로우 실행 모니터링
+title: 워크플로 실행 모니터링
+description: 워크플로 실행 모니터링
 feature: Workflows
 role: Admin
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 ---
 
-# 워크플로우 실행 모니터링 {#monitoring-workflow-execution}
+# 워크플로 실행 모니터링 {#monitoring-workflow-execution}
 
 이 섹션에서는 워크플로우 실행을 모니터링하는 방법에 대해 설명합니다.
 

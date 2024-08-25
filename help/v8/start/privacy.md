@@ -19,7 +19,7 @@ ht-degree: 93%
  Campaign은 저장된 데이터에 대한 개인 정보 보호 요청을 만들고 처리할 수 있는 도구를 데이터 컨트롤러에 제공합니다. 따라서 요청을 하는 데이터 주체의 ID를 확인하고 요청자에게 반환되는 데이터가 데이터 주체의 정보임을 확인하는 것은 데이터 컨트롤러로서의 책임입니다. [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko){target="_blank"}의 개인 데이터와 데이터를 관리하는 다양한 엔터티에 대해 자세히 알아봅니다.
 
 
-Campaign에서 개인 정보 요청을 관리하려면 먼저 [네임스페이스를 정의](#namespaces)해야 합니다. 그러면 개인 정보 요청을 만들고 관리할 수 있습니다. 개인 정보 요청을 수행하려면 **Adobe Privacy Service** 통합을 사용하십시오.  Privacy Service에서 모든 Adobe Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로우를 통해 Campaign에서 자동으로 처리됩니다. [자세히 알아보기](#create-privacy-request)
+Campaign에서 개인 정보 요청을 관리하려면 먼저 [네임스페이스를 정의](#namespaces)해야 합니다. 그러면 개인 정보 요청을 만들고 관리할 수 있습니다. 개인 정보 요청을 수행하려면 **Adobe Privacy Service** 통합을 사용하십시오.  Privacy Service에서 모든 Adobe Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로를 통해 Campaign에서 자동으로 처리됩니다. [자세히 알아보기](#create-privacy-request)
 
 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko){target="_blank"}에서 **액세스 권한** 및 **잊혀질 권리**(삭제 요청)에 대해 알아보세요.
 
@@ -93,7 +93,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 ## 개인 정보 보호 요청 생성 {#create-privacy-request}
 
-**[!DNL Adobe Experience Platform Privacy Service]** 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 개인 정보 보호 요청을 자동화할 수 있습니다. Adobe Campaign은 전용 워크플로우를 통해 Privacy Service에서 푸시된 요청을 자동으로 처리합니다.
+**[!DNL Adobe Experience Platform Privacy Service]** 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 개인 정보 보호 요청을 자동화할 수 있습니다. Adobe Campaign은 전용 워크플로를 통해 Privacy Service에서 푸시된 요청을 자동으로 처리합니다.
 
 개인 정보 보호 핵심 서비스에서 개인 정보 보호 요청을 만드는 방법에 대해 알아보려면 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko){target="_blank"} 설명서를 참조하십시오.
 
@@ -143,12 +143,12 @@ Adobe Campaign은 Delete 또는 Access 개인 정보 보호 요청을 수행할 
 
 Adobe Campaign의 개인 정보 보호 요청에 대한 다양한 상태와 이를 해석하는 방법을 아래에서 확인할 수 있습니다.
 
-* **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: 진행 중이며 워크플로우는 아직 요청을 처리하지 않았습니다.
-* **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: 워크플로우가 요청을 처리하고 있습니다.
-* **[!UICONTROL Delete pending]**: 워크플로우는 삭제하려는 모든 수신자 데이터를 식별했습니다.
-* **[!UICONTROL Delete in progress]**: 워크플로우가 삭제를 처리하고 있습니다.
+* **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: 진행 중이며 워크플로는 아직 요청을 처리하지 않았습니다.
+* **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: 워크플로가 요청을 처리하고 있습니다.
+* **[!UICONTROL Delete pending]**: 워크플로는 삭제하려는 모든 수신자 데이터를 식별했습니다.
+* **[!UICONTROL Delete in progress]**: 워크플로가 삭제를 처리하고 있습니다.
 * **[!UICONTROL Complete]**: 요청 처리가 오류 없이 끝났습니다.
-* **[!UICONTROL Error]**: 워크플로우에서 오류가 발생했습니다. 이유는 **[!UICONTROL Request status]** 열의 개인 정보 보호 요청 목록에 표시됩니다. 예를 들어 **[!UICONTROL Error data not found]**&#x200B;은(는) 데이터 주체의 **[!UICONTROL Reconciliation value]**&#x200B;와(과) 일치하는 수신자 데이터가 데이터베이스에 없음을 의미합니다.
+* **[!UICONTROL Error]**: 워크플로에서 오류가 발생했습니다. 이유는 **[!UICONTROL Request status]** 열의 개인 정보 보호 요청 목록에 표시됩니다. 예를 들어 **[!UICONTROL Error data not found]**&#x200B;은(는) 데이터 주체의 **[!UICONTROL Reconciliation value]**&#x200B;와(과) 일치하는 수신자 데이터가 데이터베이스에 없음을 의미합니다.
 
 **Campaign Classic v7 설명서의 관련 항목:**
 

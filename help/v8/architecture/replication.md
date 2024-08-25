@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 기술 워크플로우 및 데이터 복제 {#wf-data-replication}
 
-## 기술 워크플로우 {#tech-wf}
+## 기술 워크플로 {#tech-wf}
 
 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md)의 컨텍스트에서 Adobe Campaign에는 기본 제공 기술 워크플로우 집합이 포함되어 있습니다. 기술 워크플로우는 서버에서 정기적으로 예약된 프로세스 또는 작업을 실행합니다.
 

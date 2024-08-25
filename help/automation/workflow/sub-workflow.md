@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 하위 워크플로우
+title: 하위 워크플로
 description: 하위 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
 exl-id: c530fb4e-d21e-4059-88e1-77a8d33a7832
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 ---
 
-# 하위 워크플로우{#sub-workflow}
+# 하위 워크플로{#sub-workflow}
 
 
 

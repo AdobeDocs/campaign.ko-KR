@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 워크플로우 구축
+title: 워크플로 구축
 description: 워크플로우 구축 방법 알아보기
 feature: Workflows
 role: User
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 ---
 
-# 워크플로우 구축 {#build-a-workflow}
+# 워크플로 구축 {#build-a-workflow}
 
 ## 새 워크플로우 만들기 {#create-a-new-workflow}
 

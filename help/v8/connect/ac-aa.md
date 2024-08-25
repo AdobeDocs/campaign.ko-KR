@@ -187,7 +187,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 >[!NOTE]
 >
->여러 대상 측정 도구를 사용하는 경우 외부 계정을 만들 때 **[!UICONTROL Partners]** 드롭다운 목록에서 **[!UICONTROL Other]**&#x200B;을(를) 선택할 수 있습니다. 게재 속성에서 하나의 외부 계정만 참조할 수 있습니다.따라서 Adobe에서 기대하는 매개 변수와 사용된 다른 모든 측정 도구를 추가하여 추적된 URL의 공식을 조정해야 합니다.
+>여러 대상자 측정 도구를 사용하는 경우 외부 계정을 만들 때 **[!UICONTROL Partners]** 드롭다운 목록에서 **[!UICONTROL Other]**&#x200B;을(를) 선택할 수 있습니다. 게재 속성에서 하나의 외부 계정만 참조할 수 있습니다.따라서 Adobe에서 기대하는 매개 변수와 사용된 다른 모든 측정 도구를 추가하여 추적된 URL의 공식을 조정해야 합니다.
 
 ## 웹 분석 프로세스의 기술 워크플로우 {#technical-workflows-of-web-analytics-processes}
 
@@ -197,9 +197,9 @@ Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작
 
 ![](assets/webanalytics_workflows.png)
 
-**[!UICONTROL Sending of indicators and campaign attributes]** 워크플로를 사용하면 Adobe Analytics 커넥터를 사용하여 Adobe Campaign을 통해 Adobe Experience Cloud으로 이메일 캠페인 지표를 보낼 수 있습니다. 이 워크플로우는 매일 오전 4시에 트리거되며 데이터를 Analytics에 전송하는 데 24시간이 걸릴 수 있습니다.
+**[!UICONTROL Sending of indicators and campaign attributes]** 워크플로를 사용하면 Adobe Analytics 커넥터를 사용하여 Adobe Campaign을 통해 Adobe Experience Cloud으로 이메일 캠페인 지표를 보낼 수 있습니다. 이 워크플로는 매일 오전 4시에 트리거되며 데이터를 Analytics에 전송하는 데 24시간이 걸릴 수 있습니다.
 
-이 워크플로우를 다시 시작하지 않아야 합니다. 그렇지 않으면 Analytics 결과를 왜곡할 수 있는 모든 이전 데이터가 다시 전송됩니다.
+이 워크플로를 다시 시작하지 않아야 합니다. 그렇지 않으면 Analytics 결과를 왜곡할 수 있는 모든 이전 데이터가 다시 전송됩니다.
 
 관련 지표는 다음과 같습니다.
 

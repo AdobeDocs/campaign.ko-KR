@@ -6,7 +6,7 @@ title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
 source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
 
@@ -101,7 +101,7 @@ ht-degree: 100%
    + [구독 관리](start/subscriptions.md)
 + 콘텐츠 관리 {#content}
    + [웹 앱 및 양식 디자인](dev/webapps.md)
-+ 자동화와 워크플로우 {#automation}
++ 자동화와 워크플로 {#automation}
    + [Campaign Automation 안내서 >](https://experienceleague.adobe.com/ko/docs/campaign/automation/home)
 + 개인 정보 보호 및 보안 관리 {#privacy}
    + [개인 정보 보호 요청 관리](start/privacy.md)
@@ -142,9 +142,9 @@ ht-degree: 100%
          + [기본 제공 메트릭 계산](reporting/metrics-calculation.md)
       + [사용자 정의 보고서](reporting/custom-reports.md)
 + 데이터 관리 {#data}
-   + [워크플로우 시작](config/workflows.md)
+   + [워크플로 시작](config/workflows.md)
    + [데이터 가져오기](start/import.md)
-   + [워크플로우 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
+   + [워크플로 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
 + 통합 {#connect}
    + [캠페인을 다른 솔루션과 연결](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}

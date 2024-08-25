@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 기술 워크플로우
+title: 기술 워크플로
 description: Campaign에서 사용할 수 있는 기술 워크플로우에 대해 자세히 알아보기
 feature: Workflows
 role: User, Admin
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# 기술 워크플로우{#about-technical-workflows}
+# 기술 워크플로{#about-technical-workflows}
 
 Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버에서 주기적으로 실행되도록 예약된 작업과 작업을 관리합니다. 이 도구를 사용하여 데이터베이스 유지 관리를 수행하거나, 게재에 대한 추적 정보를 전달하거나, 게재에 대한 임시 프로세스를 설정할 수 있습니다. 기술 워크플로우는 **[!UICONTROL Administration > Production > Technical workflows]** 노드를 통해 구성됩니다.
 
@@ -48,7 +48,7 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 
 ## 기술 워크플로우 목록 {#list-technical-workflows}
 
-| 기술 워크플로우 | 패키지 | 설명 |
+| 기술 워크플로 | 패키지 | 설명 |
 |------|--------|-----------|
 | **별칭 정리**(aliasCleaning) | 기본적으로 설치됨 | 이 워크플로우는 열거형 값을 표준화합니다. 기본적으로 매일 오전 3시에 트리거됩니다. |
 | **청구**(청구) | 기본적으로 설치됨 | 이 워크플로우는 &#39;과금&#39; 운영자에게 이메일로 시스템 활동 보고서를 보냅니다. 마케팅 인스턴스에서 매월 25일에 트리거됩니다. |

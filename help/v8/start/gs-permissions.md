@@ -8,7 +8,7 @@ exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
 source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 1%
 Adobe Campaign을 사용하면 사용자에게 할당된 권한을 정의하고 관리할 수 있습니다. 다음은 권한을 부여하거나 거부한 권한 및 제한 세트입니다.
 
 * 특정 기능에 액세스
-* 특정 데이터 액세스
-* 특정 작업(만들기, 수정, 삭제)에 대한 액세스
+* 특정 데이터에 액세스
+* 특정 액션(만들기, 수정, 삭제)에 액세스
 
 이러한 권한은 명명된 권한 및 폴더에 대한 권한을 연산자 그룹 권한으로 결합하여 정의됩니다.
 

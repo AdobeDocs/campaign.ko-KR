@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 워크플로우의 JavaScript 코드 예
+title: 워크플로의 JavaScript 코드 예
 description: 다음 예에서는 워크플로우에서 JavaScript 코드를 사용하는 방법을 보여 줍니다
 feature: Workflows
 role: Developer
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 ---
 
-# 워크플로우의 JavaScript 코드 예{#javascript-in-workflows}
+# 워크플로의 JavaScript 코드 예{#javascript-in-workflows}
 
 다음 예에서는 워크플로우에서 JavaScript 코드를 사용하는 방법을 보여 줍니다.
 
@@ -35,7 +35,7 @@ ht-degree: 2%
    워크플로우 빌드에 대해 [자세히 알아보기](build-a-workflow.md).
 
 1. 활동에 JavaScript 코드를 추가합니다. [자세히 알아보기](advanced-parameters.md).
-1. 워크플로우를 저장합니다.
+1. 워크플로를 저장합니다.
 1. 예제를 테스트합니다.
    1. 워크플로우를 시작합니다. [자세히 알아보기](start-a-workflow.md).
    1. 분개를 엽니다. [자세히 알아보기](monitor-workflow-execution.md#displaying-logs).

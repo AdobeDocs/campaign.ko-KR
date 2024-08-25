@@ -43,7 +43,7 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기, 메시지
 
 * [마케팅 캠페인 워크플로우에서 대상자 만들기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko){target="_blank"}
 
-## 워크플로우 활동 {#wf-activities}
+## 워크플로 활동 {#wf-activities}
 
 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=ko){target="_blank"}에서 사용 가능한 워크플로우 활동에 대해 자세히 알아보세요.
 

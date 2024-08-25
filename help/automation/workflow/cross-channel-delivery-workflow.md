@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 크로스 채널 게재 워크플로우
+title: 크로스 채널 게재 워크플로
 description: 크로스 채널 게재 워크플로우에 대해 자세히 알아보기
 feature: Workflows, Channels Activity
 role: User
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 ---
 
-# 크로스 채널 게재 워크플로우{#cross-channel-delivery-workflow}
+# 크로스 채널 게재 워크플로{#cross-channel-delivery-workflow}
 
 이 사용 사례에서는 채널 간 게재 워크플로우와 관련된 예제를 제공합니다. 크로스 채널 게재의 일반적인 개념은 [이 섹션](cross-channel-deliveries.md)에 나와 있습니다.
 

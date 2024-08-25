@@ -13,24 +13,24 @@ ht-degree: 81%
 # Campaign 자동화 안내서 {#automation}
 
 + [Campaign 자동화 안내서](home.md)
-+ 워크플로우 자동화 {#workflows}
-   + 워크플로우 시작 {#introduction}
-      + [워크플로우 정보](workflow/about-workflows.md)
++ 워크플로 자동화 {#workflows}
+   + 워크플로 시작 {#introduction}
+      + [워크플로 정보](workflow/about-workflows.md)
       + 워크플로 유형 {#wf-type}
          + [타겟팅 워크플로](workflow/targeting-workflows.md)
          + [캠페인 워크플로](workflow/campaign-workflows.md)
-         + [기술 워크플로우](workflow/technical-workflows.md)
-      + [워크플로우 구축](workflow/build-a-workflow.md)
+         + [기술 워크플로](workflow/technical-workflows.md)
+      + [워크플로 구축](workflow/build-a-workflow.md)
       + [모범 사례](workflow/workflow-best-practices.md)
-      + [워크플로우 데이터 사용](workflow/use-workflow-data.md)
-   + 워크플로우 실행 {#executing-a-workflow}
-      + [워크플로우 시작](workflow/start-a-workflow.md)
-      + [워크플로우 수명 주기](workflow/workflow-life-cycle.md)
+      + [워크플로 데이터 사용](workflow/use-workflow-data.md)
+   + 워크플로 실행 {#executing-a-workflow}
+      + [워크플로 시작](workflow/start-a-workflow.md)
+      + [워크플로 수명 주기](workflow/workflow-life-cycle.md)
       + [승인 설정](workflow/define-approvals.md)
-   + 워크플로우 모니터링 {#monitoring-workflows}
-      + [워크플로우 실행 모니터링](workflow/monitor-workflow-execution.md)
-      + [기술 워크플로우 모니터링](workflow/monitor-technical-workflows.md)
-      + [워크플로우 히트맵](workflow/heatmap.md)
+   + 워크플로 모니터링 {#monitoring-workflows}
+      + [워크플로 실행 모니터링](workflow/monitor-workflow-execution.md)
+      + [기술 워크플로 모니터링](workflow/monitor-technical-workflows.md)
+      + [워크플로 히트맵](workflow/heatmap.md)
    + 워크플로우 활동 {#wf-activities}
       + [활동 시작](workflow/activities.md)
       + 타겟팅 활동 {#targeting-activities}
@@ -65,7 +65,7 @@ ht-degree: 81%
          + [이동(시작점 및 끝점)](workflow/jump-start-point-and-end-point.md)
          + [시작 및 종료](workflow/start-and-end.md)
          + [예약](workflow/scheduler.md)
-         + [하위 워크플로우](workflow/sub-workflow.md)
+         + [하위 워크플로](workflow/sub-workflow.md)
          + [테스트](workflow/test.md)
          + [시간 제한](workflow/time-constraint.md)
          + [대기](workflow/wait.md)
@@ -94,16 +94,16 @@ ht-degree: 81%
          + [인바운드 SMS](workflow/inbound-sms.md)
          + [웹 다운로드](workflow/web-download.md)
    + 사용 사례 {#use-cases}
-      + [워크플로우 사용 사례 기본 정보](workflow/workflow-use-cases.md)
+      + [워크플로 사용 사례 기본 정보](workflow/workflow-use-cases.md)
       + 게재 {#deliveries}
          + [로컬 승인 활동 사용](workflow/local-approval-activity.md)
          + [생일 이메일 보내기](workflow/send-a-birthday-email.md)
          + [게재 콘텐츠 로드](workflow/load-delivery-content.md)
-         + [크로스 채널 게재 워크플로우](workflow/cross-channel-delivery-workflow.md)
+         + [크로스 채널 게재 워크플로](workflow/cross-channel-delivery-workflow.md)
          + [사용자 정의 날짜 필드를 통한 이메일 강화](workflow/email-enrichment-with-custom-date-fields.md)
       + 모니터링 {#monitoring}
          + [목록으로 보고서 보내기](workflow/send-a-report-to-a-list.md)
-         + [워크플로우 관리](workflow/workflow-supervision.md)
+         + [워크플로 관리](workflow/workflow-supervision.md)
          + [운영자에게 개인화된 경고 보내기](workflow/send-alerts-to-operators.md)
       + 데이터 관리 {#data-management}
          + [데이터 업데이트 조정](workflow/coordinate-data-updates.md)
@@ -111,7 +111,7 @@ ht-degree: 81%
          + [데이터 강화](workflow/enrich-data.md)
          + [집계 사용](workflow/using-aggregates.md)
          + [중복 제거 활동의 병합 기능 사용](workflow/deduplication-merge.md)
-         + [가져오기 반복 워크플로우 설정](workflow/recurring-import-workflow.md)
+         + [가져오기 반복 워크플로 설정](workflow/recurring-import-workflow.md)
       + 쿼리 디자인 {#designing-queries}
          + [증분 쿼리를 사용한 분기별 목록 업데이트](workflow/quarterly-list-update.md)
       + 쿼리 및 필터 {#designing-queries}
@@ -124,10 +124,10 @@ ht-degree: 81%
          + [필터 만들기](workflow/create-a-filter.md)
          + [중복 수신자 필터링](workflow/filter-duplicated-recipients.md)
    + 고급 설정 {#advanced-management}
-      + [워크플로우 속성](workflow/workflow-properties.md)
+      + [워크플로 속성](workflow/workflow-properties.md)
       + [고급 매개 변수](workflow/advanced-parameters.md)
       + [JavaScript 스크립트 및 템플릿](workflow/javascript-scripts-and-templates.md)
-      + [워크플로우의 JavaScript 코드 예](workflow/javascript-in-workflows.md)
+      + [워크플로의 JavaScript 코드 예](workflow/javascript-in-workflows.md)
       + [외부 데이터베이스 액세스](workflow/accessing-an-external-database-fda.md)
       + [권한 관리](workflow/managing-rights.md)
       + [활동 이미지 변경](workflow/change-activity-images.md)

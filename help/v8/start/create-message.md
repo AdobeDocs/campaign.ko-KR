@@ -88,7 +88,7 @@ Adobe Campaign에는 외부 게재를 만드는 데 사용되는 전화 게재 �
 
 ‘기타’ 유형 게재는 프로세스를 실행하지 않는 특정 기술 템플릿을 사용합니다. 그래서 Adobe Campaign 플랫폼 외부에서 실행되는 마케팅 액션을 관리할 수 있습니다.
 
-이 채널에 특수한 메커니즘이 있는 것은 아닙니다. Adobe Campaign에서 사용할 수 있는 다른 커뮤니케이션 채널과 마찬가지로 자체 외부 계정 라우팅 옵션, 게재 템플릿 유형, 캠페인 워크플로우 활동이 있는 일반적인 채널입니다. 이 채널은 단순 설명 목적으로 설계되었습니다. 예를 들어 Adobe Campaign 이외의 도구에서 수행한 캠페인의 대상을 추적하기 위한 게재를 정의하는 데 사용할 수 있습니다.
+이 채널에 특수한 메커니즘이 있는 것은 아닙니다. Adobe Campaign에서 사용할 수 있는 다른 커뮤니케이션 채널과 마찬가지로 자체 외부 계정 라우팅 옵션, 게재 템플릿 유형, 캠페인 워크플로 활동이 있는 일반적인 채널입니다. 이 채널은 단순 설명 목적으로 설계되었습니다. 예를 들어 Adobe Campaign 이외의 도구에서 수행한 캠페인의 대상을 추적하기 위한 게재를 정의하는 데 사용할 수 있습니다.
 
 ## 게재 유형 선택 {#types-of-deliveries}
 
@@ -135,7 +135,7 @@ Campaign에는 세 가지 유형의 게재 개체가 있습니다.
 
   [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ko){target="_blank"}에서는 캠페인 컨텍스트에 맞춘 메시지를 보내는 방법을 알아봅니다.
 
-* [워크플로우](../config/workflows.md)를 통해 메시지 보내기
+* [워크플로](../config/workflows.md)를 통해 메시지 보내기
 
   ![](assets/send-in-a-wf.png)
 

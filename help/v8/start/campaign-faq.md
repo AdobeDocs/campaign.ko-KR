@@ -55,9 +55,9 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    메시지가 전송되고 있는지 확인하고 실행을 모니터링하며 오류가 발생하면 작업을 수행하는 방법을 알아보려면 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ko){target="_blank"}를 끝까지 읽어 보십시오.
 
-1. **워크플로우 실행을 모니터링할 수 있습니까?**
+1. **워크플로 실행을 모니터링할 수 있습니까?**
 
-   [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=ko)에서는 Campaign 워크플로우 실행을 모니터링하는 방법을 이해합니다.
+   [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=ko)에서는 Campaign 워크플로 실행을 모니터링하는 방법을 이해합니다.
 
 1. **Campaign v8과 호환되는 시스템과 구성 요소에는 무엇이 있나요?**
 

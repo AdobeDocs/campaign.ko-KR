@@ -4,7 +4,7 @@ description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 4e52e596d4eb2a8e1a1799fcd7104dcd894b6c2d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 100%
 

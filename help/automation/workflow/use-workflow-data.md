@@ -1,5 +1,5 @@
 ---
-title: 워크플로우 데이터 사용
+title: 워크플로 데이터 사용
 description: 워크플로우 데이터 사용 방법 알아보기
 feature: Workflows, Data Management
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
@@ -10,7 +10,7 @@ ht-degree: 8%
 
 ---
 
-# 워크플로우 데이터 사용{#how-to-use-workflow-data}
+# 워크플로 데이터 사용{#how-to-use-workflow-data}
 
 워크플로우 활동을 사용하여 여러 작업을 수행할 수 있습니다. 아래 사용 샘플을 찾아 목록을 만들고, 구독을 관리하고, 워크플로우를 통해 메시지를 보내거나, 게재 및 대상자를 보강하여 데이터베이스를 업데이트합니다.
 

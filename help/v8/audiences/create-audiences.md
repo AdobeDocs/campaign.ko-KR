@@ -118,7 +118,7 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 1. **[!UICONTROL Create or use a list with its own table]** 옵션도 선택된 상태로 두십시오.
 1. **[!UICONTROL Generate an outbound transition]** 옵션을 선택하지 않은 상태로 둡니다.
 1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭하고 워크플로를 저장합니다.
-1. 워크플로우를 시작합니다.
+1. 워크플로를 시작합니다.
 
    그러면 일치하는 수신자 목록이 만들어집니다. 홈 페이지의 **[!UICONTROL Lists]** 항목에서 이 목록에 액세스할 수 있습니다.
 

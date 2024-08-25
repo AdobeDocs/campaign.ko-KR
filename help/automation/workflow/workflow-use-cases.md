@@ -22,7 +22,7 @@ ht-degree: 55%
 * [로컬 승인 활동 사용](local-approval-activity.md)
 * [생일 이메일 보내기](send-a-birthday-email.md)
 * [게재 콘텐츠 로드](load-delivery-content.md)
-* [크로스 채널 게재 워크플로우](cross-channel-delivery-workflow.md)
+* [크로스 채널 게재 워크플로](cross-channel-delivery-workflow.md)
 * [사용자 정의 날짜 필드를 통한 이메일 강화](email-enrichment-with-custom-date-fields.md)
 
 ## 모니터링 {#monitoring}
@@ -30,7 +30,7 @@ ht-degree: 55%
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
 * [목록으로 보고서 보내기](send-a-report-to-a-list.md)
-* [워크플로우 관리](workflow-supervision.md)
+* [워크플로 관리](workflow-supervision.md)
 * [운영자에게 개인화된 경고 보내기](send-alerts-to-operators.md)
 * [게재를 보내기 전에 수신자 승인 프로세스 설정](local-approval-activity.md)
 
@@ -45,7 +45,7 @@ ht-degree: 55%
 * [Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](use-workflow-data.md#use-case-gpg-encrypt)
 * [증분 쿼리를 사용한 분기별 목록 업데이트](quarterly-list-update.md)
 * [중복 제거 활동의 병합 기능 사용](deduplication-merge.md)
-* [가져오기 반복 워크플로우 설정](recurring-import-workflow.md)
+* [가져오기 반복 워크플로 설정](recurring-import-workflow.md)
 
 ## 타겟팅 {#designing-queries}
 
