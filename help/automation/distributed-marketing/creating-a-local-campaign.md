@@ -5,7 +5,7 @@ description: 로컬 캠페인 만들기
 feature: Distributed Marketing
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 1%
@@ -58,11 +58,11 @@ ht-degree: 1%
 
 네 가지 유형의 인터페이스를 사용할 수 있습니다.
 
-* **[!UICONTROL By brief]** : 로컬 엔터티가 캠페인 구성을 설명하는 설명을 제공해야 합니다. 주문이 승인되면 중앙 엔티티는 캠페인 전체를 구성하고 실행합니다.
+* **[!UICONTROL By brief]**: 로컬 엔터티가 캠페인 구성을 설명하는 설명을 제공해야 합니다. 주문이 승인되면 중앙 엔티티는 캠페인 전체를 구성하고 실행합니다.
 
   ![](assets/mkt_distr_6.png)
 
-* **[!UICONTROL By form]** : 로컬 엔터티는 사용된 템플릿에 따라 콘텐츠, 대상, 최대 크기, 개인화 필드를 사용한 만들기 및 추출 날짜를 편집할 수 있는 웹 양식에 액세스할 수 있습니다. 로컬 엔티티는 이 웹 양식에서 타겟을 평가하고 콘텐츠를 미리 볼 수 있습니다.
+* **[!UICONTROL By form]**: 로컬 엔터티는 사용된 템플릿에 따라 콘텐츠, 대상, 최대 크기, 개인화 필드를 사용한 생성 및 추출 날짜를 편집할 수 있는 웹 양식에 액세스할 수 있습니다. 로컬 엔티티는 이 웹 양식에서 타겟을 평가하고 콘텐츠를 미리 볼 수 있습니다.
 
   ![](assets/mkt_distr_8.png)
 
@@ -74,8 +74,8 @@ ht-degree: 1%
 
   ![](assets/mkt_distr_7.png)
 
-* **[!UICONTROL By external form]** : 로컬 엔터티가 엑스트라넷의 캠페인 매개 변수에 액세스할 수 있습니다(Adobe Campaign 아님). 이러한 매개 변수는 **로컬 캠페인(양식 기준)**&#x200B;의 매개 변수와 동일합니다.
-* **[!UICONTROL Pre-set]** : 로컬 엔터티는 기본 양식을 현지화하지 않고 사용하여 캠페인을 주문합니다.
+* **[!UICONTROL By external form]**: 로컬 엔터티가 엑스트라넷의 캠페인 매개 변수에 액세스할 수 있습니다(Adobe Campaign 아님). 이러한 매개 변수는 **로컬 캠페인(양식 기준)**&#x200B;의 매개 변수와 동일합니다.
+* **[!UICONTROL Pre-set]**: 로컬 엔터티는 기본 양식을 현지화하지 않고 사용하여 캠페인을 주문합니다.
 
   ![](assets/mkt_distr_5.png)
 

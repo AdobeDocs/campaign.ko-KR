@@ -5,7 +5,7 @@ description: 작업 만들기 및 관리
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '3758'
 ht-degree: 0%
@@ -374,10 +374,10 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 만드는 동안 작업에 다음 요소를 입력해야 합니다.
 
-* **[!UICONTROL Assigned to]** : 전자 메일을 받을 운영자 또는 운영자 그룹입니다. 이메일을 보낸 후 작업을 다시 할당하면 새 운영자에게 이메일이 전송되지 않습니다(이렇게 하려면 작업을 다시 초기화하고 시작 날짜를 변경해야 함).
+* **[!UICONTROL Assigned to]**: 전자 메일을 받을 운영자 또는 운영자 그룹입니다. 이메일을 보낸 후 작업을 다시 할당하면 새 운영자에게 이메일이 전송되지 않습니다(이렇게 하려면 작업을 다시 초기화하고 시작 날짜를 변경해야 함).
 * **작업 시작 날짜**: 알림 전자 메일을 보낼 날짜입니다. 이 날짜는 작업 기록 시 미래여야 합니다.
 * **작업 종료 날짜**: 작업 상태가 **[!UICONTROL Finished]**(으)로 변경되는 날짜. 기본적으로 종료 날짜는 시작 날짜와 동일합니다. 그러나 작업에 기간을 할당하면 필요한 경우 운영자가 일정에서 수행해야 하는 시간을 상징할 수 있습니다.
-* **[!UICONTROL Description]** : 여기에 입력한 텍스트가 알림 전자 메일의 본문에 표시됩니다.
+* **[!UICONTROL Description]**: 여기에 입력한 텍스트가 알림 전자 메일의 본문에 나타납니다.
 
   ![](assets/mrm_task_notif_dashboard_msg.png)
 

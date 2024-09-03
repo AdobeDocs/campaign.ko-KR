@@ -4,7 +4,7 @@ description: 글로벌 보고서에 액세스하고 사용하는 방법을 알�
 feature: Reporting, Monitoring
 role: User, Data Engineer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1750'
 ht-degree: 6%
@@ -25,19 +25,19 @@ ht-degree: 6%
 >
 >이 섹션에는 게재에 연결된 보고서만 표시됩니다.
 
-* **[!UICONTROL Delivery throughput]** : [게재 처리량](#delivery-throughput)을(를) 참조하세요.
-* **[!UICONTROL Browsers]** : [브라우저](#browsers)를 참조하세요.
-* **[!UICONTROL Sharing to social networks]** : [소셜 네트워크에 공유](#sharing-to-social-networks)를 참조하세요.
-* **[!UICONTROL Statistics on sharing activities]** : [공유 활동에 대한 통계](#statistics-on-sharing-activities)를 참조하세요.
-* **[!UICONTROL Operating systems]** : [운영 체제](#operating-systems)를 참조하세요.
-* **[!UICONTROL URLs and click streams]** : [URL 및 클릭 스트림](delivery-reports.md#urls-and-click-streams)을 참조하세요.
-* **[!UICONTROL Tracking indicators]** : [추적 표시기](delivery-reports.md#tracking-indicators)를 참조하세요.
-* **[!UICONTROL Non-deliverables and bounces]** : [게재 불가 및 바운스](#non-deliverables-and-bounces)를 참조하세요.
-* **[!UICONTROL User activities]** : [사용자 활동](#user-activities)을 참조하세요.
-* **[!UICONTROL Subscription tracking]** : [구독 추적](#subscription-tracking)을 참조하세요.
-* **[!UICONTROL Delivery summary]** : [게재 요약](delivery-reports.md#delivery-summary)을 참조하세요.
-* **[!UICONTROL Delivery statistics]** : [게재 통계](#delivery-statistics)를 참조하세요.
-* **[!UICONTROL Breakdown of opens]** : [열기 분석](#breakdown-of-opens)을 참조하세요.
+* **[!UICONTROL Delivery throughput]**: [게재 처리량](#delivery-throughput)을 참조하세요.
+* **[!UICONTROL Browsers]**: [브라우저](#browsers)를 참조하세요.
+* **[!UICONTROL Sharing to social networks]**: [소셜 네트워크에 공유](#sharing-to-social-networks)를 참조하세요.
+* **[!UICONTROL Statistics on sharing activities]**: [공유 활동에 대한 통계](#statistics-on-sharing-activities)를 참조하세요.
+* **[!UICONTROL Operating systems]**: [운영 체제](#operating-systems)를 참조하세요.
+* **[!UICONTROL URLs and click streams]**: [URL 및 클릭 스트림](delivery-reports.md#urls-and-click-streams)을 참조하세요.
+* **[!UICONTROL Tracking indicators]**: [추적 표시기](delivery-reports.md#tracking-indicators)를 참조하세요.
+* **[!UICONTROL Non-deliverables and bounces]**: [비게재 항목 및 바운스](#non-deliverables-and-bounces)를 참조하세요.
+* **[!UICONTROL User activities]**: [사용자 활동](#user-activities)을 참조하세요.
+* **[!UICONTROL Subscription tracking]**: [구독 추적](#subscription-tracking)을 참조하세요.
+* **[!UICONTROL Delivery summary]**: [게재 요약](delivery-reports.md#delivery-summary)을 참조하세요.
+* **[!UICONTROL Delivery statistics]**: [게재 통계](#delivery-statistics)를 참조하세요.
+* **[!UICONTROL Breakdown of opens]**: [열기 분석](#breakdown-of-opens)을 참조하세요.
 
 ## 게재 처리량 {#delivery-throughput}
 
@@ -60,10 +60,10 @@ ht-degree: 6%
 
 다음 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL Opens]** : 열린 총 메시지 수입니다. 텍스트 형식의 이메일은 고려되지 않습니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-).
-* **[!UICONTROL Clicks]** : 게재의 총 링크 클릭 수입니다. 구독 취소 링크 및 미러 페이지에 대한 클릭은 고려되지 않습니다.
+* **[!UICONTROL Opens]**: 열린 총 메시지 수입니다. 텍스트 형식의 이메일은 고려되지 않습니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-).
+* **[!UICONTROL Clicks]**: 게재에서 링크를 클릭한 총 횟수입니다. 구독 취소 링크 및 미러 페이지에 대한 클릭은 고려되지 않습니다.
 <!--
-* **[!UICONTROL Transactions]** : Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
+* **[!UICONTROL Transactions]**: Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 -->
 
 ## 게재 불가 및 이탈 {#non-deliverables-and-bounces}
@@ -88,13 +88,13 @@ ht-degree: 6%
 
 다음 지표가 사용됩니다.
 
-* **[!UICONTROL User unknown]** : 전자 메일 주소가 잘못되었음을 나타내기 위해 게재 중에 생성된 오류 유형입니다.
-* **[!UICONTROL Invalid domain]** : 전자 메일 주소의 도메인이 잘못되었거나 존재하지 않음을 나타내기 위해 게재를 보낼 때 생성되는 오류 유형입니다.
-* **[!UICONTROL Inbox full]** : 5회 게재 시도 후 생성된 오류 유형은 받는 사람의 받은 편지함에 메시지가 너무 많음을 나타냅니다.
-* **[!UICONTROL Account disabled]** : 주소가 더 이상 존재하지 않음을 나타내기 위해 게재를 보낼 때 생성되는 오류 유형입니다.
-* **[!UICONTROL Rejected]** : 보안 규칙(스팸 방지 소프트웨어)을 적용한 다음 IAP(인터넷 액세스 공급자)에서 주소를 거부할 때 생성되는 오류 유형입니다.
-* **[!UICONTROL Unreachable]** : 메시지 배포 문자열에서 발생하는 오류 유형: SMTP 릴레이의 문제, 일시적으로 연결할 수 없는 도메인 등
-* **[!UICONTROL Not connected]** : 전송 시 받는 사람의 휴대폰이 꺼져 있거나 네트워크 연결이 끊어져 있음을 나타내는 오류 형식입니다.
+* **[!UICONTROL User unknown]**: 전자 메일 주소가 잘못되었음을 나타내기 위해 배달하는 동안 오류 형식이 생성되었습니다.
+* **[!UICONTROL Invalid domain]**: 전자 메일 주소의 도메인이 잘못되었거나 존재하지 않음을 나타내기 위해 게재를 보낼 때 생성되는 오류 유형입니다.
+* **[!UICONTROL Inbox full]**: 5회 게재 시도 후 생성된 오류 유형은 받는 사람의 받은 편지함에 너무 많은 메시지가 있음을 나타냅니다.
+* **[!UICONTROL Account disabled]**: 주소가 더 이상 존재하지 않음을 나타내기 위해 게재를 보낼 때 오류 형식이 생성되었습니다.
+* **[!UICONTROL Rejected]**: 보안 규칙(스팸 방지 소프트웨어)을 적용한 다음 IAP(인터넷 액세스 공급자)에서 주소를 거부할 때 생성되는 오류 유형입니다.
+* **[!UICONTROL Unreachable]**: 메시지 배포 문자열에서 발생하는 오류 유형: SMTP 릴레이의 문제, 일시적으로 연결할 수 없는 도메인 등
+* **[!UICONTROL Not connected]**: 전송 시 받는 사람의 휴대폰이 꺼져 있거나 네트워크 연결이 끊어져 있음을 나타내는 오류 형식입니다.
 
   >[!NOTE]
   >
@@ -136,9 +136,9 @@ ht-degree: 6%
 
 다음 지표가 사용됩니다.
 
-* **[!UICONTROL Visitors]** : 대상을 지정하고(인터넷 브라우저당) 한 번 이상 게재를 클릭한 총 수신자 수입니다.
-* **[!UICONTROL Pages viewed]** : 모든 게재에 대한 게재(인터넷 브라우저당)의 총 링크 클릭 수입니다.
-* **[!UICONTROL Usage rate]** : 이 비율은 총 방문자 수와 관련된 방문자 수(인터넷 브라우저당)의 분류를 나타냅니다.
+* **[!UICONTROL Visitors]**: 대상을 지정하고(인터넷 브라우저당) 한 번 이상 게재를 클릭한 총 수신자 수입니다.
+* **[!UICONTROL Pages viewed]**: 모든 게재에 대한 게재(인터넷 브라우저당)의 총 링크 클릭 수입니다.
+* **[!UICONTROL Usage rate]**: 이 비율은 총 방문자 수와 관련된 방문자 수(인터넷 브라우저당)의 분류를 나타냅니다.
 
 **브라우저당 통계**
 
@@ -154,8 +154,8 @@ ht-degree: 6%
 
 값 테이블에서는 다음 지표를 사용합니다.
 
-* **[!UICONTROL Global rate]** : 이 비율은 (모든 브라우저에서) 총 방문자 수와 비교한 버전당 방문자 수를 나타냅니다.
-* **[!UICONTROL Relative rate]** : 이 비율은 (이 브라우저의) 총 방문자 수와 비교한 버전당 방문자 수를 나타냅니다.
+* **[!UICONTROL Global rate]**: 이 비율은 (모든 브라우저에서) 총 방문자 수와 비교한 버전당 방문자 수를 나타냅니다.
+* **[!UICONTROL Relative rate]**: 이 비율은 (이 브라우저의) 총 방문자 수와 비교한 버전당 방문자 수를 나타냅니다.
 
 
 <!--
@@ -171,8 +171,8 @@ This report shows the breakdown of shared and opened messages per social network
 
 In the email delivery statistics, two values are displayed:
 
-* **[!UICONTROL Number of messages to be delivered]** : Total number of messages processed during delivery analysis.
-* **[!UICONTROL Number of successful deliveries]** : Number of messages processed successfully.
+* **[!UICONTROL Number of messages to be delivered]**: Total number of messages processed during delivery analysis.
+* **[!UICONTROL Number of successful deliveries]**: Number of messages processed successfully.
 
 **[!UICONTROL Sharing activities and mail open statistics]**
 
@@ -180,15 +180,15 @@ The central table shows the statistics on email shares and opens.
 
 In the **[!UICONTROL Shares]** column, we have the following indicators:
 
-* **[!UICONTROL No. of sharing activities]** : Total number of messages shared on each social network. This value equals the total number of clicks on the icon of the matching **[!UICONTROL Links for sharing to social networks]** personalization block.
-* **[!UICONTROL Breakdown]** : This rate represents the breakdown of shares per social network, in relation to the total number of shares.
-* **[!UICONTROL Sharing rate]** : This rate represents the breakdown of shares per social network, in relation to the number of messages to be delivered.
+* **[!UICONTROL No. of sharing activities]**: Total number of messages shared on each social network. This value equals the total number of clicks on the icon of the matching **[!UICONTROL Links for sharing to social networks]** personalization block.
+* **[!UICONTROL Breakdown]**: This rate represents the breakdown of shares per social network, in relation to the total number of shares.
+* **[!UICONTROL Sharing rate]**: This rate represents the breakdown of shares per social network, in relation to the number of messages to be delivered.
 
 In the **[!UICONTROL Opens]** column, we have the following indicators:
 
-* **[!UICONTROL No. of opens]** : Total number of messages opened by people whom the message was forwarded to (via the **[!UICONTROL Links for sharing to social networks]** personalization block). This value equals the number of times the mirror page was displayed. Opens by delivery recipients are not taken into account.
-* **[!UICONTROL Breakdown]** : This rate represents the breakdown of opens per social network, in relation to the total number of opens.
-* **[!UICONTROL Rate of opens]** : This rate represents the breakdown of opens per social network, in relation to the total number of shares.
+* **[!UICONTROL No. of opens]**: Total number of messages opened by people whom the message was forwarded to (via the **[!UICONTROL Links for sharing to social networks]** personalization block). This value equals the number of times the mirror page was displayed. Opens by delivery recipients are not taken into account.
+* **[!UICONTROL Breakdown]**: This rate represents the breakdown of opens per social network, in relation to the total number of opens.
+* **[!UICONTROL Rate of opens]**: This rate represents the breakdown of opens per social network, in relation to the total number of shares.
 
 **[!UICONTROL Breakdown of sharing activities and opens]**
 
@@ -205,9 +205,9 @@ Statistics are presented in the form of a table of values and a chart.
 
 The following indicators are used:
 
-* **[!UICONTROL New contacts]** : Number of new subscriptions following the reception of a message shared via email. This value matches the number of people who received a message shared via email, clicked the **[!UICONTROL Subscription link]** and filled in the subscription form. 
-* **[!UICONTROL Opens]** : Total number of messages opened by people whom the message was transferred to (via the **[!UICONTROL Link for sharing to social networks]** personalization block). This value equals the number of times the mirror page was displayed. Opens by delivery recipients are not taken into account.
-* **[!UICONTROL Sharing activities]** : Total number of messages shared via social networks. This value matches the total number of clicks on the icon of the **[!UICONTROL Links for sharing to social networks]** personalization block.
+* **[!UICONTROL New contacts]**: Number of new subscriptions following the reception of a message shared via email. This value matches the number of people who received a message shared via email, clicked the **[!UICONTROL Subscription link]** and filled in the subscription form. 
+* **[!UICONTROL Opens]**: Total number of messages opened by people whom the message was transferred to (via the **[!UICONTROL Link for sharing to social networks]** personalization block). This value equals the number of times the mirror page was displayed. Opens by delivery recipients are not taken into account.
+* **[!UICONTROL Sharing activities]**: Total number of messages shared via social networks. This value matches the total number of clicks on the icon of the **[!UICONTROL Links for sharing to social networks]** personalization block.
 -->
 
 ## 운영 체제 {#operating-systems}
@@ -226,9 +226,9 @@ The following indicators are used:
 
 다음 지표가 사용됩니다.
 
-* **[!UICONTROL Visitors]** : 게재를 한 번 이상 클릭한 총 대상 받는 사람 수(운영 체제당)의 일일 평균.
-* **[!UICONTROL Pages viewed]** : 모든 게재에 대한 게재 링크의 총 클릭 수(운영 체제당)의 일일 평균.
-* **[!UICONTROL Rate of use]** : 이 비율은 총 방문자 수와 관련된 방문자(운영 체제당)의 분류를 나타냅니다.
+* **[!UICONTROL Visitors]**: 게재를 한 번 이상 클릭한 총 대상 받는 사람 수(운영 체제당)의 일일 평균.
+* **[!UICONTROL Pages viewed]**: 모든 게재에 대한 게재 링크의 총 클릭 수(운영 체제당)의 일일 평균.
+* **[!UICONTROL Rate of use]**: 이 비율은 총 방문자 수와 관련된 방문자(운영 체제당)의 분류를 나타냅니다.
 
 **운영 체제별 통계**
 
@@ -244,8 +244,8 @@ The following indicators are used:
 
 값 테이블에서는 다음 지표를 사용합니다.
 
-* **[!UICONTROL Global rate]** : 이 비율은 운영 체제 전체의 총 방문자 수와 관련된 방문자 수(버전당)의 분류를 나타냅니다.
-* **[!UICONTROL Relative rate]** : 이 비율은 이 운영 체제에 대한 총 방문자 수와 관련된 방문자 수(버전당)의 분류를 나타냅니다.
+* **[!UICONTROL Global rate]**: 이 비율은 운영 체제 전체의 총 방문자 수와 관련된 방문자 수(버전당)의 분류를 나타냅니다.
+* **[!UICONTROL Relative rate]**: 이 비율은 이 운영 체제에 대한 총 방문자 수와 관련된 방문자 수(버전당)의 분류를 나타냅니다.
 
 ## 구독 추적 {#subscription-tracking}
 
@@ -263,11 +263,11 @@ The following indicators are used:
 
 값 테이블에서는 다음 지표를 사용합니다.
 
-* **[!UICONTROL Subscribers]** : 해당 기간의 총 구독자 수.
-* **[!UICONTROL Subscriptions]** : 해당 기간의 구독 수입니다.
-* **[!UICONTROL Unsubscriptions]** : 관련 기간의 구독 취소 수입니다.
-* **[!UICONTROL Evolution]** : 구독 취소 수에서 구독 수를 뺀 값입니다. 요금은 총 가입자 수를 기준으로 계산됩니다.
-* **[!UICONTROL Loyalty]** : 해당 기간 동안 구독자의 충성도 비율입니다.
+* **[!UICONTROL Subscribers]**: 해당 기간의 총 구독자 수.
+* **[!UICONTROL Subscriptions]**: 해당 기간의 구독 수입니다.
+* **[!UICONTROL Unsubscriptions]**: 해당 기간의 구독 취소 수입니다.
+* **[!UICONTROL Evolution]**: 구독 취소 수에서 구독 수를 뺀 값입니다. 요금은 총 가입자 수를 기준으로 계산됩니다.
+* **[!UICONTROL Loyalty]**: 해당 기간 동안 구독자의 충성도 비율입니다.
 
 **[!UICONTROL Subscription evolution curves]**
 
@@ -281,18 +281,18 @@ The following indicators are used:
 
 다음 지표가 사용됩니다.
 
-* **[!UICONTROL Emails processed]** : 게재 서버에서 처리된 총 메시지 수입니다.
-* **[!UICONTROL Delivered]** : 처리된 총 메시지 수와 비교하여 성공적으로 처리된 메시지 수의 비율입니다.
-* **[!UICONTROL Hard bounces]** : 처리된 총 메시지 수와 비교한 &quot;하드&quot; 바운스 수의 비율입니다.
-* **[!UICONTROL Soft bounces]** : 처리된 총 메시지 수와 비교한 &quot;소프트&quot; 바운스 수의 비율입니다.
+* **[!UICONTROL Emails processed]**: 게재 서버에서 처리한 총 메시지 수입니다.
+* **[!UICONTROL Delivered]**: 처리된 총 메시지 수와 비교하여 성공적으로 처리된 메시지 수의 백분율입니다.
+* **[!UICONTROL Hard bounces]**: 처리된 총 메시지 수와 비교한 &quot;하드&quot; 바운스 수의 비율입니다.
+* **[!UICONTROL Soft bounces]**: 처리된 총 메시지 수와 비교한 &quot;소프트&quot; 바운스 수의 비율입니다.
 
   >[!NOTE]
   >
   >하드 및 소프트 바운스에 대한 자세한 내용은 [이 페이지](../send/quarantines.md)를 참조하세요.
 
-* **[!UICONTROL Opens]** : 처리된 메시지 수와 비교하여 메시지를 한 번 이상 연 대상 받는 사람 수의 비율입니다.
-* **[!UICONTROL Clicks]** : 배달을 한 번 이상 클릭한 사람 수와 성공적으로 처리된 메시지 수의 비율입니다.
-* **[!UICONTROL Unsubscription]** : 성공적으로 처리된 메시지 수와 비교한 구독 취소 링크의 클릭 수의 백분율입니다.
+* **[!UICONTROL Opens]**: 처리된 메시지 수와 비교하여 메시지를 한 번 이상 연 대상 받는 사람 수의 비율입니다.
+* **[!UICONTROL Clicks]**: 게재를 한 번 이상 클릭한 사람 수와 성공적으로 처리된 메시지 수의 비율입니다.
+* **[!UICONTROL Unsubscription]**: 성공적으로 처리된 메시지 수와 비교하여 구독 취소 링크의 클릭 수의 백분율입니다.
 
 ## 열람수 분류 {#breakdown-of-opens}
 

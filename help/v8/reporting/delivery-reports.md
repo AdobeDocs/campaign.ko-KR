@@ -3,7 +3,7 @@ title: Adobe Campaign 기본 제공 게재 보고서
 description: Adobe Campaign 기본 제공 게재 보고서
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 12%
@@ -50,8 +50,8 @@ ht-degree: 12%
 
 **[!UICONTROL 1. Delivery statistics]**
 
-* **[!UICONTROL Messages to deliver]** : 게재 분석 후 게재할 총 메시지 수
-* **[!UICONTROL Success]** : 성공적으로 처리된 메시지 수입니다.
+* **[!UICONTROL Messages to deliver]**: 게재 분석 후 게재할 총 메시지 수
+* **[!UICONTROL Success]**: 성공적으로 처리된 메시지 수입니다.
 
 **[!UICONTROL 2. Reception statistics]**
 
@@ -59,11 +59,11 @@ ht-degree: 12%
 >
 >관련 백분율은 성공적으로 전달된 메시지 수를 기반으로 계산됩니다.
 
-* **[!UICONTROL Distinct opens for the population reached]** : 메시지를 한 번 이상 연 대상 받는 사람 수 예상. 링크를 클릭하려면 이메일을 열어야 하므로 추적된 URL에 대한 클릭 수가 고려됩니다.
-* **[!UICONTROL Sum of opens for the population reached]** : 타깃팅된 수신자의 총 열람 수 예상.
-* **[!UICONTROL Clicks on opt-out link]** : 구독 취소 링크의 클릭 수입니다.
-* **[!UICONTROL Clicks on the mirror page link]** : [미러 페이지](../send/mirror-page.md) 링크를 클릭한 횟수. 고려하려면 게재 마법사(추적된 URL)에서 링크를 이와 같이 정의해야 합니다.
-* **[!UICONTROL Estimation of forwards]** : 타겟팅된 수신자가 전달한 전자 메일 수 예상. 이 값은 고유 사람 수와 이메일을 클릭한 고유 수신자 수를 빼서 계산합니다.
+* **[!UICONTROL Distinct opens for the population reached]**: 메시지를 한 번 이상 연 대상 받는 사람 수 예상. 링크를 클릭하려면 이메일을 열어야 하므로 추적된 URL에 대한 클릭 수가 고려됩니다.
+* **[!UICONTROL Sum of opens for the population reached]**: 대상 수신자의 총 열람 수 예상.
+* **[!UICONTROL Clicks on opt-out link]**: 구독 취소 링크의 클릭 수입니다.
+* **[!UICONTROL Clicks on the mirror page link]**: [미러 페이지](../send/mirror-page.md) 링크를 클릭한 횟수 고려하려면 게재 마법사(추적된 URL)에서 링크를 이와 같이 정의해야 합니다.
+* **[!UICONTROL Estimation of forwards]**: 대상 받는 사람이 전달한 전자 메일 수를 예상합니다. 이 값은 고유 사람 수와 이메일을 클릭한 고유 수신자 수를 빼서 계산합니다.
 
   >[!NOTE]
   >
@@ -73,11 +73,11 @@ ht-degree: 12%
 
 이 값 표에는 인터넷 도메인별 게재, 열기, 클릭 수 및 원시 재활동 분류가 표시됩니다. 다음 지표가 사용됩니다.
 
-* **[!UICONTROL Sent]** : 이 도메인에서 보낸 총 메시지 수입니다.
-* **[!UICONTROL Complaints]** : 받는 사람이 원치 않는 것으로 보고한 이 도메인에 대한 메시지 수입니다. 이 비율은 이 도메인에서 보낸 총 메시지 수를 기반으로 계산됩니다.
-* **[!UICONTROL Opens]** : 이 도메인에 대해 최소 한 번 이상 메시지를 연 고유한 타겟팅된 받는 사람 수 이 비율은 이 도메인에서 보낸 총 메시지 수를 기반으로 계산됩니다.
-* **[!UICONTROL Clicks]** : 동일한 게재를 한 번 이상 클릭한 고유한 타깃팅된 수신자 수입니다. 이 비율은 이 도메인에서 보낸 총 메시지 수를 기반으로 계산됩니다
-* **[!UICONTROL Raw reactivity]** : 게재를 한 번 이상 클릭한 수신자 수와 게재를 한 번 이상 연 수신자 수의 비율입니다.
+* **[!UICONTROL Sent]**: 이 도메인에서 보낸 총 메시지 수
+* **[!UICONTROL Complaints]**: 받는 사람이 원치 않는 것으로 보고한 이 도메인에 대한 메시지 수입니다. 이 비율은 이 도메인에서 보낸 총 메시지 수를 기반으로 계산됩니다.
+* **[!UICONTROL Opens]**: 이 도메인에 대해 최소 한 번 이상 메시지를 연 고유한 대상 받는 사람의 수입니다. 이 비율은 이 도메인에서 보낸 총 메시지 수를 기반으로 계산됩니다.
+* **[!UICONTROL Clicks]**: 동일한 게재를 한 번 이상 클릭한 고유한 타깃팅된 받는 사람 수입니다. 이 비율은 이 도메인에서 보낸 총 메시지 수를 기반으로 계산됩니다
+* **[!UICONTROL Raw reactivity]**: 게재를 한 번 이상 클릭한 수신자 수와 게재를 한 번 이상 연 수신자 수의 백분율입니다.
 
 >[!NOTE]
 >
@@ -92,20 +92,20 @@ ht-degree: 12%
 >
 >관련 백분율은 성공적으로 전달된 메시지 수를 기반으로 계산됩니다.
 
-* **[!UICONTROL Distinct clicks for the population reached]** : 한 번 이상 게재를 클릭한 고유한 사람 수입니다.
-* **[!UICONTROL Cumulated clicks]** : 구독 취소 링크 및 미러 페이지를 제외한 타깃팅된 수신자의 총 클릭 수입니다.
-* **[!UICONTROL Recipient clicks]** : 동일한 게재를 한 번 이상 클릭한 고유한 타깃팅된 수신자 수입니다.
-* **[!UICONTROL Estimated recipient reactivity]** : 게재를 한 번 이상 클릭한 수신자 수와 게재를 한 번 이상 연 것으로 예상되는 수신자 수의 비율입니다. 옵트아웃 및 미러 페이지 링크에 대한 클릭은 고려되지 않습니다.
+* **[!UICONTROL Distinct clicks for the population reached]**: 게재를 한 번 이상 클릭한 고유 사용자 수입니다.
+* **[!UICONTROL Cumulated clicks]**: 구독 취소 링크 및 미러 페이지를 제외한 타깃팅된 수신자의 총 클릭 수입니다.
+* **[!UICONTROL Recipient clicks]**: 동일한 게재를 한 번 이상 클릭한 고유한 타깃팅된 받는 사람 수입니다.
+* **[!UICONTROL Estimated recipient reactivity]**: 게재를 한 번 이상 클릭한 수신자 수와 게재를 한 번 이상 연 예상 수신자 수의 비율입니다. 옵트아웃 및 미러 페이지 링크에 대한 클릭은 고려되지 않습니다.
 <!--
 **[!UICONTROL 5. Web tracking]**
 
-* **[!UICONTROL Visited pages]** : Number of web pages visited following message reception.
-* **[!UICONTROL Transactions]** : Number of purchases following message reception.
-* **[!UICONTROL Total amount]** : Total amount of purchases following message reception. 
-* **[!UICONTROL Average transaction amount]** : Average purchase made by distinct delivery recipients. 
-* **[!UICONTROL Articles]** : Number of articles purchased by the delivery recipients. 
-* **[!UICONTROL Average count of articles per transaction]** : Average number of items per purchase made by distinct recipients.
-* **[!UICONTROL Average amount per message]** : Average amount of purchases generated per message.
+* **[!UICONTROL Visited pages]**: Number of web pages visited following message reception.
+* **[!UICONTROL Transactions]**: Number of purchases following message reception.
+* **[!UICONTROL Total amount]**: Total amount of purchases following message reception. 
+* **[!UICONTROL Average transaction amount]**: Average purchase made by distinct delivery recipients. 
+* **[!UICONTROL Articles]**: Number of articles purchased by the delivery recipients. 
+* **[!UICONTROL Average count of articles per transaction]**: Average number of items per purchase made by distinct recipients.
+* **[!UICONTROL Average amount per message]**: Average amount of purchases generated per message.
 
   >[!NOTE]
   >
@@ -125,21 +125,21 @@ You can configure the contents of this report by selecting: the score chart to b
 
 The following rates are displayed in the upper section of the report:
 
-* **[!UICONTROL Reactivity]** : Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery. Clicks on the opt-out link and on the mirror page are not taken into account.
+* **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery. Clicks on the opt-out link and on the mirror page are not taken into account.
 
   >[!NOTE]
   >
   >For more information on tracking opens, refer to [this section](metrics-calculation.md#tracking-opens-).
 
-* **[!UICONTROL Distinct clicks]** : Number of distinct people having clicked at least once (excluding unsubscription link and mirror page) in a delivery. The rate displayed is calculated based on the number of messages delivered successfully. 
-* **[!UICONTROL Cumulated clicks]** : Total number of clicks by targeted recipients (excluding unsubscription link and mirror page). The rate displayed is calculated based on the number of messages forwarded successfully.
+* **[!UICONTROL Distinct clicks]**: Number of distinct people having clicked at least once (excluding unsubscription link and mirror page) in a delivery. The rate displayed is calculated based on the number of messages delivered successfully. 
+* **[!UICONTROL Cumulated clicks]**: Total number of clicks by targeted recipients (excluding unsubscription link and mirror page). The rate displayed is calculated based on the number of messages forwarded successfully.
 
-**[!UICONTROL Platform average]** : This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
+**[!UICONTROL Platform average]**: This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
 
 The central table provides the following information:
 
-* **[!UICONTROL Clicks]** : Number of cumulated clicks, per link. 
-* **[!UICONTROL Clicks (in %)]** : Breakdown of the number of clicks per link, in relation to the total number of cumulated clicks.
+* **[!UICONTROL Clicks]**: Number of cumulated clicks, per link. 
+* **[!UICONTROL Clicks (in %)]**: Breakdown of the number of clicks per link, in relation to the total number of cumulated clicks.
 
 **[!UICONTROL Breakdown of clicks in time]**
 
@@ -156,8 +156,8 @@ This chart shows the breakdown of cumulated clicks per day.
 
 이 섹션에는 두 개의 표시기가 있습니다.
 
-* **[!UICONTROL Initial population]** : 게재를 대상으로 하는 총 수신자 수입니다.
-* **[!UICONTROL Messages rejected by the rule]** : 유형화 규칙을 적용할 때 분석 중에 무시되는 주소 수: 주소 누락, 격리됨, 차단 목록 등 <!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
+* **[!UICONTROL Initial population]**: 게재를 대상으로 하는 총 받는 사람 수
+* **[!UICONTROL Messages rejected by the rule]**: 유형화 규칙을 적용할 때 분석 중에 무시된 주소 수: 주소 누락, 격리됨, 차단 목록 등 <!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
 
 **[!UICONTROL Causes of exclusion]**
 
@@ -167,10 +167,10 @@ This chart shows the breakdown of cumulated clicks per day.
 
 이 섹션에는 다음 지표가 포함됩니다.
 
-* **[!UICONTROL Messages to be delivered]** : 게재 분석 후 게재할 총 메시지 수
-* **[!UICONTROL Success]** : 성공적으로 처리된 메시지 수입니다. 결합된 비율은 게재될 메시지 수에 대한 비율입니다.
-* **[!UICONTROL Errors]** : 게재 및 자동 반동 처리 중 누적된 총 오류 수. 결합된 비율은 게재될 메시지 수에 대한 비율입니다.
-* **[!UICONTROL New quarantines]** : 게재 실패 후 격리된 주소 수(사용자 알 수 없음, 잘못된 도메인). 결합된 비율은 게재될 메시지 수에 대한 비율입니다.
+* **[!UICONTROL Messages to be delivered]**: 게재 분석 후 게재할 총 메시지 수
+* **[!UICONTROL Success]**: 처리된 메시지 수입니다. 결합된 비율은 게재될 메시지 수에 대한 비율입니다.
+* **[!UICONTROL Errors]**: 게재 및 자동 반동 처리 중 누적된 총 오류 수 결합된 비율은 게재될 메시지 수에 대한 비율입니다.
+* **[!UICONTROL New quarantines]**: 게재 실패 후 격리된 주소 수(사용자 알 수 없음, 잘못된 도메인). 결합된 비율은 게재될 메시지 수에 대한 비율입니다.
 
 ## 핫 클릭 {#hot-clicks}
 
@@ -189,10 +189,10 @@ This chart shows the breakdown of cumulated clicks per day.
 
 이 보고서는 게재가 최대 효율에 도달하는 데 필요한 시간을 표시하는 값 테이블과 파레토 차트를 제공합니다. 다음 지표가 사용됩니다.
 
-* **[!UICONTROL Opens]** : 열려 있는 총 메시지 수의 비율에 도달하는 데 필요한 시간을 예상합니다. 텍스트 형식의 이메일은 고려되지 않습니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-).
-* **[!UICONTROL Clicks]** : 기록된 총 클릭 수의 비율에 도달하는 데 필요한 시간을 예상합니다. 옵트아웃 링크 및 미러 페이지 클릭 수는 고려되지 않습니다.
+* **[!UICONTROL Opens]**: 열린 총 메시지 수의 비율에 도달하는 데 필요한 시간을 예상합니다. 텍스트 형식의 이메일은 고려되지 않습니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-).
+* **[!UICONTROL Clicks]**: 기록된 총 클릭 수의 비율에 도달하는 데 필요한 시간을 예상합니다. 옵트아웃 링크 및 미러 페이지 클릭 수는 고려되지 않습니다.
 <!--
-* **[!UICONTROL Transactions]** : Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
+* **[!UICONTROL Transactions]**: Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 -->
 
 

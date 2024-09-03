@@ -5,10 +5,10 @@ feature: Privacy
 role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '942'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -101,7 +101,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 또한 하나의 작업은 여러 인스턴스에 대해 실행할 수 있습니다. 따라서 하나의 작업에 대해 여러 파일이 만들어집니다. 예를 들어, 요청에 두 개의 네임스페이스가 있고 세 개의 인스턴스에서 실행 중인 경우 총 6개의 파일이 전송됩니다. 네임스페이스 및 인스턴스당 하나의 파일입니다.
 
-파일 이름의 패턴은 `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml` 입니다.
+파일 이름의 패턴은 `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`입니다.
 
 * **InstanceName**: 캠페인 인스턴스 이름
 * **NamespaceId**: 사용된 네임스페이스의 ID 서비스 네임스페이스 ID

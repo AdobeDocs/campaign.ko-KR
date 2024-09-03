@@ -5,7 +5,7 @@ description: 비용 제어 방법 알아보기
 feature: Campaigns, Resource Management
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '2428'
 ht-degree: 1%
@@ -28,7 +28,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 1. 원가 계산 방법을 정의합니다. 원가 구조는 서비스 공급자에 대해 정의됩니다. [자세히 알아보기](../campaigns/providers-stocks-and-budgets.md).
 
-1. 캠페인 비용(게재/작업) 정의 : 게재 및 작업으로 인해 발생한 비용은 캠페인 템플릿에 대해 개별적으로 또는 전체적으로 입력됩니다. [자세히 알아보기](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks).
+1. 캠페인 비용(게재/작업) 정의: 게재 및 작업으로 발생한 비용은 캠페인 템플릿에 대해 개별적으로 또는 전체적으로 입력됩니다. [자세히 알아보기](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks).
 
 1. 통합: 작업, 게재 및 캠페인의 진행 상태에 따라 비용이 계산되고 해당 예산에 전달됩니다. 캠페인 생성이 충분히 진행되면 캠페인 예산의 진행 상태를 **[!UICONTROL Specified]**(으)로 변경할 수 있습니다. 그런 다음 프로그램의 계산된 비용은 캠페인에서 계산된 비용과 함께 자동으로 입력됩니다. [자세히 알아보기](#cost-commitment--calculation-and-charging).
 

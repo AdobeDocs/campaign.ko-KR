@@ -6,7 +6,7 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 2%
@@ -70,7 +70,7 @@ SQL 마스크를 사용하여 여러 값을 필터로 결합할 수 있습니다
 
 원하는 간격에 따라 값을 범위로 그룹화할 수 있습니다.
 
-범위를 수동으로 정의하려면 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Define a range]**:
+범위를 수동으로 정의하려면 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Define a range]**&#x200B;을(를) 선택합니다.
 
 그런 다음 하한과 상한을 지정하고 **[!UICONTROL Ok]**&#x200B;을(를) 클릭하여 확인합니다.
 

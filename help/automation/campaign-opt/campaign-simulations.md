@@ -4,7 +4,7 @@ title: 캠페인 시뮬레이션 시작
 description: 캠페인 시뮬레이션 구성 방법 알아보기
 feature: Campaigns
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 0%
@@ -153,9 +153,9 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 
 기본적으로 다음 보고서가 제공됩니다.
 
-* **[!UICONTROL Detail of simulation exclusions]** : 이 보고서는 관련된 모든 게재에 대한 제외 원인에 대한 자세한 차트를 제공합니다.
-* **[!UICONTROL Simulation summary]** : 이 보고서는 여러 게재 전반에 걸쳐 시뮬레이션에서 제외된 모집단을 보여줍니다.
-* **[!UICONTROL Summary of exclusions linked to the simulation]** : 이 보고서는 적용된 유형화 규칙과 함께 시뮬레이션으로 인해 발생한 제외 차트 및 규칙당 제외 비율을 보여 주는 차트를 보여 줍니다.
+* **[!UICONTROL Detail of simulation exclusions]**: 이 보고서는 관련된 모든 게재에 대한 제외 원인에 대한 자세한 차트를 제공합니다.
+* **[!UICONTROL Simulation summary]**: 이 보고서는 여러 게재 전반에 걸쳐 시뮬레이션에서 제외된 모집단을 표시합니다.
+* **[!UICONTROL Summary of exclusions linked to the simulation]**: 이 보고서는 적용된 유형화 규칙과 함께 시뮬레이션으로 인해 발생한 제외 차트 및 규칙당 제외 비율을 보여 주는 차트를 보여 줍니다.
 
 <!--
 >[!NOTE]

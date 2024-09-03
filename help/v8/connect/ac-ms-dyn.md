@@ -5,7 +5,7 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 2%
@@ -202,7 +202,7 @@ Microsoft Dynamics 365의 경우 지원되는/지원되지 않는 특성 유형�
 
 | 속성 유형 | 지원됨 |
 | --------------------------------------------------------------------------------- | --------- |
-| 기본 유형 : 부울, 날짜/시간, 십진수, 부동 소수점, 더블, 정수, bigint , 문자열 | 예 |
+| 기본 유형: 부울, 날짜/시간, 십진수, 부동 소수점, 더블, 정수, bigint , 문자열 | 예 |
 | 금액(두 배로 표시) | 예 |
 | memo, entityname , primarykey, uniqueidentifier(문자열로 표시) | 예 |
 | 상태, 선택 목록(가능한 값은 열거형으로 저장됨), 상태(문자열) | 예 |

@@ -5,7 +5,7 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 1%
@@ -118,8 +118,8 @@ ht-degree: 1%
 * **중재**: 환경에 표시할 오퍼를 선택합니다(적격 오퍼). 차익 거래 원칙은 범주, 오퍼 및 컨텍스트 오퍼에 정의된 기준에 따라 우선 순위별로 오퍼에 등급을 지정합니다.
 * **연락처**: 인바운드 상호 작용의 연락처. 엔진 호출 처리 중에 연락처는 타겟팅 차원과 연결됩니다. 연락처에는 두 가지 유형이 있습니다.
 
-   * **[!UICONTROL Identified contact]** : 채널에서 자발적으로 식별된 연락처입니다. 아웃바운드 상호 작용에서 연락처는 자동으로 식별됩니다.
-   * **[!UICONTROL Anonymous contact]** : 채널을 통해 자발적으로 구독한 것은 아니지만 쿠키를 통해 암시적으로 식별할 수 있는 연락처입니다. 이 용어는 수신 상호 작용에만 사용됩니다.
+   * **[!UICONTROL Identified contact]**: 채널에서 자발적으로 식별된 연락처입니다. 아웃바운드 상호 작용에서 연락처는 자동으로 식별됩니다.
+   * **[!UICONTROL Anonymous contact]**: 채널을 통해 자발적으로 구독한 것은 아니지만 쿠키를 통해 암시적으로 식별할 수 있는 연락처입니다. 이 용어는 수신 상호 작용에만 사용됩니다.
 
      >[!NOTE]
      >
@@ -131,8 +131,8 @@ ht-degree: 1%
 * **단일 모드**: 한 번에 하나의 연락처가 처리됩니다. 이 모드는 일반적으로 인바운드 상호 작용 및 트랜잭션 메시지에 적용됩니다.
 * **식별 모드**: 연락처의 상태를 나타냅니다.
 
-   * **[!UICONTROL explicit]** : 연락처는 채널 인터페이스에 로그인하여 식별됩니다.
-   * **[!UICONTROL implicit]** : 연락처는 쿠키(영구 또는 세션)로 식별됩니다. 익명 또는 식별된 연락처로 처리할 수 있습니다.
+   * **[!UICONTROL explicit]**: 연락처는 채널 인터페이스에 로그인하여 식별됩니다.
+   * **[!UICONTROL implicit]**: 연락처는 쿠키(영구 또는 세션)로 식별됩니다. 익명 또는 식별된 연락처로 처리할 수 있습니다.
    * **[!UICONTROL anonymous]**: 연락처를 식별할 수 없습니다.
 
 * **적격 오퍼**: 대상에 일관되게 제공할 수 있는 업스트림에 정의된 제약 조건을 충족하는 오퍼입니다.

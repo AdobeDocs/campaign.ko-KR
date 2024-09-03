@@ -5,7 +5,7 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 3%
@@ -116,10 +116,10 @@ ht-degree: 3%
 
 1. 오퍼 컨텐츠의 다양한 매개 변수를 정의합니다.
 
-   * **[!UICONTROL Title]** : 오퍼에 표시할 제목을 지정합니다. 경고: 이는 **[!UICONTROL General]** 탭에 정의된 오퍼의 레이블을 참조하지 않습니다.
-   * **[!UICONTROL Destination URL]** : 오퍼의 URL을 지정합니다. &quot;http://&quot; 또는 &quot;https://&quot;로 시작해야 합니다.
-   * **[!UICONTROL Image URL]** : 오퍼 이미지에 대한 URL 또는 액세스 경로를 지정합니다.
-   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** : 원하는 탭에 오퍼의 본문을 입력합니다. 추적을 생성하려면 **[!UICONTROL HTML content]**&#x200B;을(를) `<div>` 형식 요소로 묶을 수 있는 HTML 요소로 구성해야 합니다. 예를 들어 HTML 페이지의 `<table>` 요소 결과는 다음과 같습니다.
+   * **[!UICONTROL Title]**: 오퍼에 표시할 제목을 지정합니다. 경고: 이는 **[!UICONTROL General]** 탭에 정의된 오퍼의 레이블을 참조하지 않습니다.
+   * **[!UICONTROL Destination URL]**: 오퍼의 URL을 지정하십시오. &quot;http://&quot; 또는 &quot;https://&quot;로 시작해야 합니다.
+   * **[!UICONTROL Image URL]**: 오퍼 이미지에 대한 URL 또는 액세스 경로를 지정하십시오.
+   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: 원하는 탭에 오퍼의 본문을 입력합니다. 추적을 생성하려면 **[!UICONTROL HTML content]**&#x200B;을(를) `<div>` 형식 요소로 묶을 수 있는 HTML 요소로 구성해야 합니다. 예를 들어 HTML 페이지의 `<table>` 요소 결과는 다음과 같습니다.
 
    ```
       <div> 

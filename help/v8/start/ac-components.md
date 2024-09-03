@@ -5,9 +5,9 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 6926d84576df1810b511ef1a9976593cb99585bb
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ Campaign 웹 서버는 Campaign 웹 프로세스에 대한 액세스를 제어�
 
 Campaign 클라이언트 콘솔은 HTTP를 통해 SOAP XML을 사용하여 웹 서버에 연결합니다. 웹 서버는 보안 계층을 제공하고 Javascript를 사용하여 요청을 응용 프로그램 계층에 전달하고 Campaign 내부 프로세스는 SQL을 사용하여 데이터베이스에 대한 액세스를 처리합니다.
 
-Campaign 프로세스 간의 전체 통신은 다음 독립형 배포 다이어그램에 설명되어 있습니다. 모든 Campaign 구성 요소는 동일한 컴퓨터에 설치됩니다.
+<!--The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
 
-![](assets/do-not-localize//ac-standalone.png)
+![](assets/do-not-localize//ac-standalone.png) -->
 
 사용자는 HTTP를 사용하여 Campaign 애플리케이션 서버에 연결합니다. 모든 데이터와 정보는 Campaign 데이터베이스에서 관리됩니다. Campaign 개발자가 구성 변경을 수행하는 경우 데이터베이스에 캡처됩니다. 마케터가 새 캠페인을 만들 경우 이 새 캠페인과 관련된 모든 정보 및 데이터도 데이터베이스에서 관리됩니다. 마케터가 캠페인을 실행하면 이메일 게재가 SMTP 서버를 통해 Campaign 서버의 프로필로 전송됩니다. 프로필이 이메일을 여는 것과 같이 이메일 게재와 상호 작용하면 해당 추적 데이터가 추적 서버로 다시 전송됩니다.
 

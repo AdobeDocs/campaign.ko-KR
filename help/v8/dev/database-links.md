@@ -5,7 +5,7 @@ feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: f7047c6e-f045-4534-b117-311dd90dd92b
-source-git-commit: 0f5efba364ef924447324bdd806e15e6db8d799d
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
@@ -26,14 +26,14 @@ ht-degree: 0%
 
 캠페인 테이블/데이터베이스와의 조인 관계의 경우:
 
-* ![](assets/do-not-localize/join_with_campaign11.png) : 카디널리티 1-1. 예를 들어 수신자와 현재 주문 간에 적용될 수 있습니다. 수신자는 현재 주문 테이블을 한 번에 하나만 연결할 수 있습니다.
-* ![](assets/do-not-localize/externaljoin11.png) : 카디널리티 1-1, 외부 조인. 예를 들어 수신자와 해당 국가 간. 수신자는 한 테이블 국가에만 관련될 수 있습니다. 국가 테이블의 내용은 저장되지 않습니다.
-* ![](assets/do-not-localize/join_with_campaign1n.png) : 카디널리티 1-N. 예를 들어 수신자와 구독 테이블 간 수신자는 구독 테이블의 여러 발생 횟수와 관련될 수 있습니다.
+* ![](assets/do-not-localize/join_with_campaign11.png): 카디널리티 1-1. 예를 들어 수신자와 현재 주문 간에 적용될 수 있습니다. 수신자는 현재 주문 테이블을 한 번에 하나만 연결할 수 있습니다.
+* ![](assets/do-not-localize/externaljoin11.png): 카디널리티 1-1, 외부 조인. 예를 들어 수신자와 해당 국가 간. 수신자는 한 테이블 국가에만 관련될 수 있습니다. 국가 테이블의 내용은 저장되지 않습니다.
+* ![](assets/do-not-localize/join_with_campaign1n.png): 카디널리티 1-N. 예를 들어 수신자와 구독 테이블 간 수신자는 구독 테이블의 여러 발생 횟수와 관련될 수 있습니다.
 
 FDA(Federated Database Access)를 사용하는 조인 관계의 경우:
 
-* ![](assets/do-not-localize/join_fda_11.png) : 카디널리티 1-1
-* ![](assets/do-not-localize/join_fda_1m.png) : 카디널리티 1-N
+* ![](assets/do-not-localize/join_fda_11.png): 카디널리티 1-1
+* ![](assets/do-not-localize/join_fda_1m.png): 카디널리티 1-N
 
 FDA 테이블에 대한 자세한 내용은 [외부 데이터베이스 액세스](../connect/fda.md)를 참조하십시오.
 

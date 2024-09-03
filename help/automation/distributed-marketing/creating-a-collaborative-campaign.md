@@ -5,7 +5,7 @@ description: 공동 작업 캠페인을 만드는 방법 알아보기
 feature: Distributed Marketing
 role: User
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 3%
@@ -76,9 +76,9 @@ ht-degree: 3%
 
 캠페인 워크플로는 **로컬 승인** 유형 활동을 통합해야 합니다. 활동 매개 변수는 다음과 같습니다.
 
-* **[!UICONTROL Action to perform]** : 대상 승인 알림입니다.
-* **[!UICONTROL Distribution context]** : 명시적.
-* **[!UICONTROL Data distribution]** : 로컬 엔터티 배포.
+* **[!UICONTROL Action to perform]**: 대상 승인 알림입니다.
+* **[!UICONTROL Distribution context]**: 명시적.
+* **[!UICONTROL Data distribution]**: 로컬 엔터티 배포입니다.
 
 **로컬 엔터티 배포** 형식 데이터 배포를 만들어야 합니다. 데이터 배포 템플릿을 사용하면 그룹화 값 목록에서 레코드 수를 제한할 수 있습니다. **[!UICONTROL Resources > Campaign management > Data distribution]**&#x200B;에서 **[!UICONTROL New]** 아이콘을 클릭하여 새 **[!UICONTROL Data distribution]**&#x200B;을(를) 만듭니다. 데이터 배포에 대한 자세한 내용은
 

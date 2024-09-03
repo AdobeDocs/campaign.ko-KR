@@ -5,7 +5,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
+source-git-commit: c508c80bea39e4fc32786d92d06651a1f91ca697
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 100%
@@ -55,7 +55,7 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 
 ### 모바일 채널 {#gs-channel-sms}
 
-Adobe Campaign에서는 모바일로 [SMS](../send/sms.md) 및 [LINE](../send/line.md) 메시지를 게재할 수 있습니다.
+Adobe Campaign에서는 모바일로 [SMS](../send/sms/sms.md) 및 [LINE](../send/line.md) 메시지를 게재할 수 있습니다.
 
 SMS 메시지의 경우 텍스트 포맷으로만 메시지를 만들고 수정하고 개인화할 수 있습니다. SMS 메시지를 보내기 전에 미리 볼 수도 있습니다.
 

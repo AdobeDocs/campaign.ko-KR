@@ -5,7 +5,7 @@ description: 워크플로우 HeatMap으로 워크플로우 모니터링
 feature: Workflows, Heatmap
 role: Admin
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 3%
@@ -71,8 +71,8 @@ Campaign 워크플로우 HeatMap은 현재 실행 중인 모든 워크플로우�
 
 1. **[!UICONTROL Workflow type]**&#x200B;을(를) 필터링할 수도 있습니다.
 
-   * **[!UICONTROL Technical]** : [기본 제공 기술 워크플로우](technical-workflows.md) 및 [데이터 관리 워크플로우](targeting-workflows.md#data-management)만 표시됩니다.
-   * **[!UICONTROL Marketing]** : 마케팅 캠페인에 연결된 워크플로([캠페인 워크플로](campaign-workflows.md))만 표시됩니다.
+   * **[!UICONTROL Technical]**: [기본 제공 기술 워크플로우](technical-workflows.md) 및 [데이터 관리 워크플로우](targeting-workflows.md#data-management)만 표시됩니다.
+   * **[!UICONTROL Marketing]**: 마케팅 캠페인에 연결된 워크플로([캠페인 워크플로](campaign-workflows.md))만 표시됩니다.
 
 1. 이름으로 특정 워크플로를 검색하려면 **[!UICONTROL Workflow name filter]** 필드도 사용하십시오.
 

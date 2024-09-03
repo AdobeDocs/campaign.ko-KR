@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
+source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '675'
+ht-degree: 93%
 
 ---
 
@@ -49,7 +49,23 @@ ht-degree: 100%
       + [BCC 주소 추가](send/email-bcc.md)
       + [추가 이메일 매개 변수 정의](send/email-parameters.md)
       + [이메일 보내기 및 모니터링](send/send.md)
-   + [SMS](send/sms.md)
+   + SMS {#sms}
+      + [SMS 시작](send/sms/sms.md)
+      + SMS 채널 구성 {#config-sms}
+         + [SMPP 외부 계정 설정](send/sms/smpp-external-account.md)
+         + [SMS 채널 특성](send/sms/sms-channel.md)
+         + [SMPP 연결 확인](send/sms/smpp-connection.md)
+         + [독립 실행형 인스턴스](send/sms/sms-standalone-instance.md)
+         + [중간 소싱 인프라](send/sms/sms-mid-sourcing.md)
+         + [SMPP 커넥터 설명](send/sms/smpp-connector-delivery.md)
+      + SMS {#create-sms} 만들기
+         + [SMS 게재 설정](send/sms/sms-delivery-settings.md)
+         + [콘텐츠 정의](send/sms/sms-content.md)
+         + [대상자 선택](send/sms/sms-audience.md)
+      + SMS {#validate-sms}의 유효성 검사 및 보내기
+         + [SMS 증명 보내기](send/sms/sms-proofs.md)
+         + [대상자에게 보내기](send/sms/sms-send.md)
+      + [SMS 모니터링 및 추적](send/sms/sms-monitor.md)
    + 푸시 알림 {#push}
       + [푸시 알림 구성 및 전송](send/push.md)
       + 리치 푸시 {#rich-push}
@@ -67,10 +83,10 @@ ht-degree: 100%
       + [개인화 블록 사용](send/personalization-blocks.md)
       + [조건 만들기](send/conditions.md)
    + 게재 유효성 검사 및 보내기 {#validate}
-   + [미리 보기 및 증명](send/preview-and-proof.md)
-   + [게재 분석](send/delivery-analysis.md)
-   + [게재 구성 및 보내기](send/configure-and-send.md)
-   + [전송 시간 최적화](send/predictive.md)
+      + [미리 보기 및 증명](send/preview-and-proof.md)
+      + [게재 분석](send/delivery-analysis.md)
+      + [게재 구성 및 보내기](send/configure-and-send.md)
+      + [전송 시간 최적화](send/predictive.md)
    + 실패, 바운스, 격리{#failures}
       + [격리](send/quarantines.md)
       + [게재 실패](send/delivery-failures.md)

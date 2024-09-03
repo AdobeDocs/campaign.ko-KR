@@ -5,7 +5,7 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 2%
@@ -59,12 +59,12 @@ ht-degree: 2%
 
 ### 오퍼 엔진의 매개변수 {#parameters-for-calling-offer-engine}
 
-* **[!UICONTROL Space]** : 오퍼 엔진을 활성화하기 위해 선택해야 하는 오퍼 환경의 공간입니다.
-* **[!UICONTROL Category]** : 오퍼가 정렬되는 특정 폴더입니다. 카테고리를 지정하지 않으면 테마를 선택하지 않은 경우 환경에 포함된 모든 오퍼는 오퍼 엔진에서 고려됩니다.
-* **[!UICONTROL Themes]** : 범주에서 업스트림에 정의된 주요 단어. 필터 역할을 하며 카테고리 세트에서 오퍼를 선택하여 표시할 오퍼 수를 구체화할 수 있습니다.
-* **[!UICONTROL Number of propositions]** : 엔진에서 반환된 게재 본문에 삽입할 수 있는 오퍼 수입니다. 오퍼가 메시지에 삽입되지 않으면 오퍼가 계속 생성되지만 표시되지 않습니다.
-* **[!UICONTROL Exclude non-eligible recipients]** : 이 옵션을 사용하면 적격 오퍼가 충분하지 않은 수신자의 제외를 활성화하거나 비활성화할 수 있습니다. 적격 제안 수는 요청된 제안 수보다 적을 수 있습니다. 이 상자를 선택하면 제안이 충분하지 않은 수신자는 게재에서 제외됩니다. 이 옵션을 선택하지 않으면 이러한 수신자는 제외되지 않지만 요청된 제안 수는 없습니다.
-* **[!UICONTROL Do not display anything if no offer is selected]** : 이 옵션을 사용하면 제안 중 하나가 없는 경우 메시지를 처리하는 방법을 선택할 수 있습니다. 이 상자를 선택하면 누락된 제안의 표현이 표시되지 않고 이 제안에 대한 메시지에 콘텐츠가 표시되지 않습니다. 상자를 선택하지 않으면 보내는 동안 메시지 자체가 취소되고 수신자는 더 이상 메시지를 받지 않습니다.
+* **[!UICONTROL Space]**: 오퍼 엔진을 활성화하기 위해 선택해야 하는 오퍼 환경의 공간입니다.
+* **[!UICONTROL Category]**: 오퍼가 정렬되는 특정 폴더입니다. 카테고리를 지정하지 않으면 테마를 선택하지 않은 경우 환경에 포함된 모든 오퍼는 오퍼 엔진에서 고려됩니다.
+* **[!UICONTROL Themes]**: 범주에서 업스트림에 정의된 키워드가 있습니다. 필터 역할을 하며 카테고리 세트에서 오퍼를 선택하여 표시할 오퍼 수를 구체화할 수 있습니다.
+* **[!UICONTROL Number of propositions]**: 엔진에서 반환된 게재 본문에 삽입할 수 있는 오퍼 수입니다. 오퍼가 메시지에 삽입되지 않으면 오퍼가 계속 생성되지만 표시되지 않습니다.
+* **[!UICONTROL Exclude non-eligible recipients]**: 이 옵션을 사용하면 적격 오퍼가 충분하지 않은 수신자의 제외를 활성화하거나 비활성화할 수 있습니다. 적격 제안 수는 요청된 제안 수보다 적을 수 있습니다. 이 상자를 선택하면 제안이 충분하지 않은 수신자는 게재에서 제외됩니다. 이 옵션을 선택하지 않으면 이러한 수신자는 제외되지 않지만 요청된 제안 수는 없습니다.
+* **[!UICONTROL Do not display anything if no offer is selected]**: 이 옵션을 사용하면 제안 중 하나가 없는 경우 메시지를 처리하는 방법을 선택할 수 있습니다. 이 상자를 선택하면 누락된 제안의 표현이 표시되지 않고 이 제안에 대한 메시지에 콘텐츠가 표시되지 않습니다. 상자를 선택하지 않으면 보내는 동안 메시지 자체가 취소되고 수신자는 더 이상 메시지를 받지 않습니다.
 
 ## 워크플로우에서 오퍼 보내기{#offer-via-wf}
 
@@ -100,11 +100,11 @@ ht-degree: 2%
 1. 추가할 제안에 대한 레이블과 식별자를 지정합니다.
 1. 오퍼 선택을 지정합니다. 다음과 같은 두 가지 옵션이 있습니다.
 
-   * **[!UICONTROL Search for the best offer in a category]** : 이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마, 연락 날짜, 유지할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드를 동시에 완료하지 않는 것이 좋습니다.
+   * **[!UICONTROL Search for the best offer in a category]**: 이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마, 연락 날짜, 유지할 오퍼 수)를 지정하십시오. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드를 동시에 완료하지 않는 것이 좋습니다.
 
      ![](assets/int_enrichment_offer3.png)
 
-   * **[!UICONTROL A pre-defined offer]** : 이 옵션을 선택하고 오퍼 공간, 특정 오퍼 및 연락 날짜를 지정하여 오퍼 엔진을 호출하지 않고 추가하려는 오퍼를 직접 구성하십시오.
+   * **[!UICONTROL A pre-defined offer]**: 이 옵션을 선택하고 오퍼 스페이스, 특정 오퍼 및 연락 날짜를 지정하여 오퍼 엔진을 호출하지 않고 추가하려는 오퍼를 직접 구성하십시오.
 
      ![](assets/int_enrichment_offer4.png)
 

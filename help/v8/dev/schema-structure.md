@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 1%
@@ -217,9 +217,9 @@ ht-degree: 1%
 
 필드에 기본값을 연결하려면 `<default>  or  <sqldefault>   field.  </sqldefault> </default>`을(를) 사용합니다.
 
-`<default>` : 엔터티를 만들 때 기본값으로 필드를 미리 채울 수 있도록 해줍니다. 이 값은 기본 SQL 값이 아닙니다.
+`<default>`: 엔터티를 만들 때 기본값으로 필드를 미리 채울 수 있도록 해줍니다. 이 값은 기본 SQL 값이 아닙니다.
 
-`<sqldefault>` : 필드를 만들 때 값을 추가할 수 있습니다. 이 값은 SQL 결과로 나타납니다. 스키마 업데이트 중에는 새 레코드만 이 값의 영향을 받습니다.
+`<sqldefault>`: 필드를 만들 때 값을 추가할 수 있습니다. 이 값은 SQL 결과로 나타납니다. 스키마 업데이트 중에는 새 레코드만 이 값의 영향을 받습니다.
 
 ### 열거형 {#enumerations}
 
