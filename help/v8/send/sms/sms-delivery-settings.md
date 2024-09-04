@@ -4,9 +4,10 @@ description: SMS 게재를 설정하는 방법 알아보기
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: af1d453179c2d739eca243b435dec90a4b8e2dd5
+badge: label="제한 공개" type="Informative"
+source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---

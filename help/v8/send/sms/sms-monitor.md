@@ -4,9 +4,10 @@ description: SMS 게재 모니터링 및 추적 정보
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+badge: label="제한 공개" type="Informative"
+source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
