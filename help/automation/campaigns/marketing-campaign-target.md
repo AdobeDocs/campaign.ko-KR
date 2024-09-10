@@ -5,9 +5,9 @@ description: 마케팅 캠페인 대상을 정의하는 방법 알아보기
 feature: Campaigns, Audiences
 role: User
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
@@ -165,6 +165,10 @@ To build the delivery target, you can define filtering criteria for the recipien
   **[!UICONTROL Actions]** 아이콘을 클릭하고 **[!UICONTROL Unconditional]** 중지를 선택하여 워크플로우를 무조건적으로 중지할 수 있습니다. 이 작업은 캠페인 워크플로우를 종료합니다.
 
   ![](assets/stop_unconditional.png)
+
+  >[!CAUTION]
+  >
+  >무조건부 중지는 관리자 사용자로 제한됩니다.
 
 ## 컨트롤 그룹 추가 {#add-a-control-group}
 
