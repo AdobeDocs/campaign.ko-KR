@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에도 적용됩니다."
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에 적용"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: dffe082d5e31eda4ecfba369b92d8a2d441fca04
+source-git-commit: e7f0f20deb930be2a3b2f798f70d17644c646fb6
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1633'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 >
 >이러한 변경 사항이 모든 서버에 적용되면 Android 장치에 대한 모든 **새로운** 푸시 알림 배달에서 HTTP v1 API를 사용합니다. 재시도 중, 진행 중 및 사용 중인 기존 푸시 게재는 여전히 HTTP(기존) API를 사용합니다. 아래 섹션에서 업데이트 방법을 알아보세요.
 
-### 기존 템플릿 업데이트 {#fcm-transition-update}
+#### 기존 템플릿 업데이트 {#fcm-transition-update}
 
 전환 HTTP v1이 완료되면 Android 푸시 알림용 **게재 템플릿**&#x200B;을 업데이트하여 일괄 처리 메시지 수를 늘려야 합니다. 이렇게 하려면 Android 게재 템플릿의 속성을 찾은 다음 **게재** 탭에서 [메시지 일괄 처리 수량](../../v8/send/configure-and-send.md#delivery-batch-quantity)을 **256**(으)로 설정합니다. 이 변경 사항을 Android 게재에 사용되는 모든 게재 템플릿과 기존의 모든 Android 게재에 적용합니다.
 
@@ -99,16 +99,16 @@ HTTP v1을 지원하는 버전으로 업그레이드하기 전에 만든 기존 
 
 * 관리 Cloud Service 또는 호스팅 고객의 경우 Adobe에 연락하여 기존 Android 게재 템플릿을 업데이트합니다.
 
-* 온-프레미스 환경의 경우 아래에 자세히 설명된 대로 `fcm-httpv1-migration.js` 스크립트를 다운로드하여 실행합니다.
+* 온-프레미스 환경의 경우 `fcm-httpv1-migration.js` 스크립트를 다운로드하고 아래에 자세히 설명된 대로 실행합니다.
 
-  [fcm-httpv1-migration.js 다운로드](assets/do-not-localize/fcm-httpv1-migration.js)
+  [fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration.zip) 다운로드
 
   >[!CAUTION]
   >
   >스크립트는 마케팅, 중간 소싱 및 실시간 환경에서 실행해야 합니다.
 
 
-  +++기존 게재 및 템플릿 업데이트 단계
+  +++기존 게재 및 템플릿 업데이트 단계(온-프레미스만 해당)
 
   HTTP v1을 지원하는 버전으로 업그레이드하기 전에 생성된 모든 게재 및 게재 템플릿을 패치하려면 다음 단계를 수행합니다.
 
