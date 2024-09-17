@@ -5,13 +5,13 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="제한 공개" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
+exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
+source-git-commit: 8dffc24ff859ded70ea9c5b9ede39512c1543e74
 workflow-type: tm+mt
 source-wordcount: '893'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # SMS 게재 설정 {#sms-settings}
 
@@ -55,12 +55,12 @@ SMS 게재에 필요한 기술 설정은 다음과 같습니다.
 
 * **[!UICONTROL Transmission mode]**
 
-이 필드는 전송할 SMS 종류를 나타냅니다(모바일 또는 SIM 카드에 저장된 일반 또는 플래시 메시지). 이 설정은 SUBMIT_SM PDU의 dest_addr_subunit 선택 필드에서 전송됩니다.
+  이 필드는 전송할 SMS 종류를 나타냅니다(모바일 또는 SIM 카드에 저장된 일반 또는 플래시 메시지). 이 설정은 SUBMIT_SM PDU의 dest_addr_subunit 선택 필드에서 전송됩니다.
 
-* **Flash**&#x200B;이(가) 값을 1로 설정합니다. 이 메시지는 모바일에 표시되며 메모리에 저장되지 않는 플래시 메시지를 보냅니다.
-* **보통**&#x200B;은 값을 0으로 설정합니다. 정상적인 메시지를 보냅니다.
-* **모바일에 저장**&#x200B;에서 값을 2로 설정합니다. SMS를 내부 메모리에 저장하도록 전화기에 알립니다.
-* **터미널에 저장**&#x200B;에서 값을 3으로 설정합니다. SMS를 SIM 카드에 저장하도록 전화기에 알려줍니다.
+   * **Flash**&#x200B;이(가) 값을 1로 설정합니다. 이 메시지는 모바일에 표시되며 메모리에 저장되지 않는 플래시 메시지를 보냅니다.
+   * **보통**&#x200B;은 값을 0으로 설정합니다. 정상적인 메시지를 보냅니다.
+   * **모바일에 저장**&#x200B;에서 값을 2로 설정합니다. SMS를 내부 메모리에 저장하도록 전화기에 알립니다.
+   * **터미널에 저장**&#x200B;에서 값을 3으로 설정합니다. SMS를 SIM 카드에 저장하도록 전화기에 알려줍니다.
 
 * **[!UICONTROL Priority, Communication type]**
 
@@ -103,7 +103,7 @@ SMS 게재에 필요한 기술 설정은 다음과 같습니다.
 
 1. 게재 대시보드 또는 **[!UICONTROL Explorer]**&#x200B;의 게재 폴더에서 새 게재를 만듭니다.  기본적으로 &quot;이메일 게재&quot;라는 레이블이 지정됩니다.
 
-1. SMS 전송을 위해 만든 게재 템플릿을 선택합니다. [자세히 알아보기](sms-mid-sourcing.md#sms-delivery-template).
+1. SMS 전송을 위해 만든 게재 템플릿을 선택합니다. [여기에서 자세히 알아보십시오](sms-mid-sourcing.md#sms-delivery-template).
 
    ![](assets/sms_create.png){zoomable="yes"}
 
