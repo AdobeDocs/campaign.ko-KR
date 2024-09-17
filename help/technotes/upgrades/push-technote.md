@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에도 적용됩니다."
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에 적용"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 4ef40ff971519c064b980df8235188c717855f27
+source-git-commit: dffe082d5e31eda4ecfba369b92d8a2d441fca04
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1630'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,8 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 
 * Campaign Classic v7 온-프레미스 사용자는 마케팅 및 실시간 실행 서버를 모두 업그레이드해야 합니다. 중간 소싱 서버는 영향을 받지 않습니다.
 
+* Campaign Classic v7 온-프레미스 또는 하이브리드 사용자는 Android 라우팅 외부 계정이 `androidPushConnectorV2.js`(으)로 구성되어 있는지 확인하세요. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)
+
 #### 전환 절차 {#fcm-transition-steps}
 
 환경을 HTTP v1로 이동하려면 다음 단계를 수행합니다.
@@ -84,12 +86,73 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
    | 데이터 메시지 | N/A | validate_only |
    | 알림 메시지 | 제목, 본문, android_channel_id, 아이콘, 사운드, 태그, 색상, click_action, 이미지, 티커, 고정, 가시성, notification_priority, notification_count <br> | validate_only |
 
-1. 전환 HTTP v1이 완료되면 Android 푸시 알림용 **게재 템플릿**&#x200B;을 업데이트하여 일괄 처리 메시지 수를 늘려야 합니다. 이렇게 하려면 Android 게재 템플릿의 속성을 찾은 다음 **게재** 탭에서 [메시지 일괄 처리 수량](../../v8/send/configure-and-send.md#delivery-batch-quantity)을 **256**(으)로 설정합니다. 이 변경 사항을 Android 게재에 사용되는 모든 게재 템플릿과 기존의 모든 Android 게재에 적용합니다.
-
 
 >[!NOTE]
 >
->이러한 변경 사항이 모든 서버에 적용되면 Android 디바이스에 대한 모든 새로운 푸시 알림 게재는 HTTP v1 API를 사용합니다. 재시도 중, 진행 중 및 사용 중인 기존 푸시 게재는 여전히 HTTP(기존) API를 사용합니다.
+>이러한 변경 사항이 모든 서버에 적용되면 Android 장치에 대한 모든 **새로운** 푸시 알림 배달에서 HTTP v1 API를 사용합니다. 재시도 중, 진행 중 및 사용 중인 기존 푸시 게재는 여전히 HTTP(기존) API를 사용합니다. 아래 섹션에서 업데이트 방법을 알아보세요.
+
+### 기존 템플릿 업데이트 {#fcm-transition-update}
+
+전환 HTTP v1이 완료되면 Android 푸시 알림용 **게재 템플릿**&#x200B;을 업데이트하여 일괄 처리 메시지 수를 늘려야 합니다. 이렇게 하려면 Android 게재 템플릿의 속성을 찾은 다음 **게재** 탭에서 [메시지 일괄 처리 수량](../../v8/send/configure-and-send.md#delivery-batch-quantity)을 **256**(으)로 설정합니다. 이 변경 사항을 Android 게재에 사용되는 모든 게재 템플릿과 기존의 모든 Android 게재에 적용합니다.
+
+HTTP v1을 지원하는 버전으로 업그레이드하기 전에 만든 기존 게재 및 게재 템플릿을 업데이트할 수도 있습니다. 다음을 수행하십시오.
+
+* 관리 Cloud Service 또는 호스팅 고객의 경우 Adobe에 연락하여 기존 Android 게재 템플릿을 업데이트합니다.
+
+* 온-프레미스 환경의 경우 아래에 자세히 설명된 대로 `fcm-httpv1-migration.js` 스크립트를 다운로드하여 실행합니다.
+
+  [fcm-httpv1-migration.js 다운로드](assets/do-not-localize/fcm-httpv1-migration.js)
+
+  >[!CAUTION]
+  >
+  >스크립트는 마케팅, 중간 소싱 및 실시간 환경에서 실행해야 합니다.
+
+
+  +++기존 게재 및 템플릿 업데이트 단계
+
+  HTTP v1을 지원하는 버전으로 업그레이드하기 전에 생성된 모든 게재 및 게재 템플릿을 패치하려면 다음 단계를 수행합니다.
+
+   1. 패치 작업 중에 예기치 않은 문제가 발생한 경우 복원할 수 있도록 기존 게재 및 게재 템플릿을 패키지로 내보냅니다.
+   1. Posgresql에서 다음 명령을 실행합니다.
+
+      ```sql
+      pg_dump -Fp -f /sftp/<db_name>-nmsdelivery-before_rd_script.sql -t nmsdelivery -d <db_name>
+      ```
+
+   1. 기본적으로 스크립트는 `dryrun` 모드에 있으며 해당 모드에서 시작하여 일부 게재를 패치해야 하는지 확인할 수 있습니다.
+
+      명령
+
+      ```sql
+      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js 
+      ```
+
+      출력
+
+      ```sql
+      ...
+      HH:MM:SS >   Processing delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+      HH:MM:SS >   Processing delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+      ...
+      HH:MM:SS >   Summary (XYZ processed deliverie(s) or delivery template(s)):
+      HH:MM:SS >>  - X had not patchable androidCheckParams formula!
+      HH:MM:SS >   - Y had androidCheckParams formula patched.
+      HH:MM:SS >   - Z ignored as alreading having androidCheckParams formula patched.
+      ```
+
+      >[!NOTE]
+      >
+      >`not patchable` 게재를 수동으로 업데이트해야 합니다. 해당 ID는 로그에서 찾을 수 있습니다.
+
+   1. 다음과 같은 방법으로 실행 모드에서 스크립트를 실행하여 게재를 업데이트합니다.
+
+      ```sql
+      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
+      ```
+
++++
 
 ### 내 Android 앱의 영향은 무엇입니까? {#fcm-apps}
 
