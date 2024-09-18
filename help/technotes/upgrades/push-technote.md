@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7에도 적용됩니다."
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8에 적용"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: aba0048e5aff1caa2067eb61d26548b08a3deb36
+source-git-commit: a9aa9cb508ca1f5cdcd59e61b5be029e3de1a82f
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1665'
 ht-degree: 1%
 
 ---
@@ -105,11 +105,11 @@ HTTP v1을 지원하는 버전으로 업그레이드하기 전에 만든 기존 
 
 * 온-프레미스 환경의 경우 `fcm-httpv1-migration.js` 스크립트를 다운로드하고 아래에 자세히 설명된 대로 실행합니다.
 
-  [fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration-js.zip) 다운로드
+  [fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration-js.zip)을(를) 다운로드합니다.
 
   >[!CAUTION]
   >
-  >마케팅 인스턴스에서 스크립트를 실행해야 합니다.
+  >스크립트는 온-프레미스 마케팅 인스턴스에서 실행해야 합니다.
 
 
   +++기존 게재 및 템플릿 업데이트 단계(온-프레미스만 해당)
