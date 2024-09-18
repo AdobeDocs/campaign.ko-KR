@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 100%
+source-wordcount: '1148'
+ht-degree: 98%
 
 ---
 
@@ -100,7 +100,7 @@ Adobe Campaign에서 사용자를 추가하는 방법은 [이 섹션](../start/g
 
    Adobe Campaign은 사전 정의된 데이터 모델을 제공합니다. 환경을 구현하고 사용자 정의하려면 Adobe Campaign 데이터 모델의 내장된 표와 이러한 데이터 모델이 서로 어떻게 연관되어 있는지 알아야 합니다.
 
-   [Campaign 데이터 모델에 대해 자세히 알아보십시오](../dev/datamodel.md).
+   [Campaign 데이터 모델에 대해 자세히 알아보세요](../dev/datamodel.md).
 
 ## 인스턴스 사용자 정의{#implementation-custom-your-instance}
 
@@ -110,7 +110,7 @@ Campaign의 다양한 영역과 기능을 사용자 지정할 수 있습니다. 
 
    Adobe Campaign에는 수신자, 게재 로그, 구독 등과 같은 데이터를 식별하기 위한 일반적인 스키마가 포함되어 있습니다.
 
-   [Campaign 기본 제공 데이터 모델](../dev/datamodel.md)에 대한 자세한 내용은 이 섹션을 참조하십시오.
+   [Campaign 기본 제공 데이터 모델](../dev/datamodel.md)에 대한 자세한 내용은 이 섹션을 참조하세요.
 
    기존 스키마를 확장하거나 새 스키마를 처음부터 만들 수 있습니다. [이 페이지](../dev/customize.md)에서 자세히 알아보십시오.
 
