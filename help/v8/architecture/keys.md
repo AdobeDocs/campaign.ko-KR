@@ -5,9 +5,9 @@ feature: Configuration, FFDA
 role: Developer
 level: Intermediate
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '572'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Adobe Campaign v8에서는 [!DNL Snowflake]을(를) 핵심 데이터베이스로
 ![](assets/wf-alert-activity.png)
 
 
-## 추가 보호 기능{#duplicates-guardrails}
+## 추가 보호 기능 {#duplicates-guardrails}
 
 Campaign에는 [!DNL Snowflake] 데이터베이스에 중복 키가 삽입되지 않도록 하는 새 보호 기능 집합이 포함되어 있습니다.
 
@@ -63,19 +63,19 @@ Campaign에는 [!DNL Snowflake] 데이터베이스에 중복 키가 삽입되지
 >
 >이러한 보호 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)을 참조하세요.
 
-### 게재 준비{#remove-duplicates-delivery-preparation}
+### 게재 준비 {#remove-duplicates-delivery-preparation}
 
 Adobe Campaign은 게재를 준비하는 동안 대상에서 복제된 UUID를 자동으로 제거합니다. 이 메커니즘은 게재를 준비하는 동안 오류가 발생하지 않도록 합니다. 최종 사용자는 게재 로그에서 이 정보를 확인할 수 있습니다. 일부 수신자는 중복 키로 인해 기본 대상에서 제외될 수 있습니다. 이 경우 `Exclusion of duplicates (based on the primary key or targeted records)` 경고가 표시됩니다.
 
 ![](assets/exclusion-duplicates-log.png)
 
-### 워크플로우에서 데이터 업데이트{#duplicates-update-data}
+### 워크플로우에서 데이터 업데이트 {#duplicates-update-data}
 
 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md)의 컨텍스트에서는 내부 키(UUID)를 워크플로우에서 데이터를 업데이트할 필드로 선택할 수 없습니다.
 
 ![](assets/update-data-no-internal-key.png)
 
-### 중복 항목을 포함하는 스키마 쿼리{#query-with-duplicates}
+### 중복 항목을 포함하는 스키마 쿼리 {#query-with-duplicates}
 
 워크플로우가 스키마에서 쿼리 실행을 시작하면 Adobe Campaign은 [감사 유니시티 테이블](#unicity-wf)에 중복 레코드가 보고되는지 확인합니다. 이 경우 워크플로우에서는 중복 데이터에 대한 후속 작업이 워크플로우 결과에 영향을 줄 수 있으므로 경고를 기록합니다.
 
@@ -86,3 +86,8 @@ Adobe Campaign은 게재를 준비하는 동안 대상에서 복제된 UUID를 �
 * 쿼리
 * 증분 쿼리
 * 목록 읽기
+
+
+>[!NOTE]
+>
+>다른 Campaign 버전에서 전환하는 경우 전환에 영향을 주지 않도록 중복 항목을 제거하고, 문제를 해결하며, 데이터를 소독해야 합니다.

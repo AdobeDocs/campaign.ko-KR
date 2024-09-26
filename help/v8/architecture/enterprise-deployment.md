@@ -5,9 +5,9 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1050'
 ht-degree: 50%
 
 ---
@@ -82,7 +82,7 @@ Campaign v8 Enterprise는 **FFDA(Full Federated Data Access**) 개념을 도입�
 
 ### [!DNL Campaign] API 스테이징 메커니즘{#staging-api}
 
-[!DNL Campaign] 클라우드 데이터베이스의 경우 성능(지연 및 동시 실행)으로 인해 단일 호출이 폭발하지 않는 것이 좋습니다. 배치 작업이 항상 선호됩니다. API의 최적 성능을 보장하기 위해 Campaign은 로컬 데이터베이스 수준에서 API 호출을 계속 처리합니다.
+[!DNL Campaign] 클라우드 데이터베이스의 경우 성능(지연 및 동시 실행)으로 인해 단일 호출이 폭발하지 않는 것이 좋습니다. 전송 볼륨이 아무리 많아도 API의 최적의 성능을 보장하기 위해 일괄 처리 작업을 사용해야 합니다. Campaign은 로컬 데이터베이스 수준에서 API 호출을 계속 처리합니다.
 
 [API 스테이징 메커니즘은 이 페이지에 자세히 설명되어 있습니다.](staging.md)
 

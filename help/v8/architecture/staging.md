@@ -5,16 +5,16 @@ feature: Configuration, API, FFDA
 role: Developer
 level: Intermediate
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
 
 # Campaign API 스테이징 메커니즘
 
-[엔터프라이즈(FFDA) 배포](enterprise-deployment.md)의 컨텍스트에서는 성능(대기 시간 및 동시성)과 관련하여 단일 호출을 폭파하지 않는 것이 좋습니다. 일괄 처리 작업이 항상 선호됩니다. 성능을 개선하기 위해 수집 API는 로컬 데이터베이스로 리디렉션됩니다.
+[엔터프라이즈(FFDA) 배포](enterprise-deployment.md)의 컨텍스트에서는 성능(대기 시간 및 동시성)과 관련하여 단일 호출을 폭파하지 않는 것이 좋습니다. 매우 적은 볼륨을 보내는 경우가 아니면 일괄 처리 작업 **must**&#x200B;을(를) 사용할 수 있습니다. 성능을 개선하기 위해 수집 API는 로컬 데이터베이스로 리디렉션됩니다.
 
 Campaign 스테이징 기능은 일부 기본 제공 스키마에서 기본적으로 활성화됩니다. 모든 사용자 지정 스키마에서 활성화할 수도 있습니다. 간단히 말해 스테이징 메커니즘:
 
