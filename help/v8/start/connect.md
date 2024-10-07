@@ -5,9 +5,9 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 10b1113a20c11e0b97804f597cb0a48568fcae3d
+source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '936'
 ht-degree: 11%
 
 ---
@@ -61,7 +61,7 @@ Campaign을 처음 사용하는 경우 클라이언트 콘솔을 다운로드하
 
 1. URL을 통해 Adobe Campaign 애플리케이션 서버에 대한 연결을 지정합니다. 컴퓨터의 DNS, 별칭 또는 IP 주소를 사용합니다.
 
-   예를 들어 [`https://<machine>.<domain>.com`](https://myserver.adobe.com) 유형 URL을 사용할 수 있습니다.
+   예를 들어 `https://<machine>.<domain>.com` 유형 URL을 사용할 수 있습니다.
 
 1. **[!UICONTROL Connect with an Adobe ID]** 옵션을 선택하십시오.
 
