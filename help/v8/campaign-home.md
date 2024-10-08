@@ -4,9 +4,9 @@ description: Campaign v8 도움말 센터
 title: Adobe Campaign v8 제품 설명서
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

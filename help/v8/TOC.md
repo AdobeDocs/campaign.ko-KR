@@ -6,9 +6,9 @@ title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,15 +54,15 @@ ht-degree: 93%
       + SMS 채널 구성 {#config-sms}
          + [SMPP 외부 계정 설정](send/sms/smpp-external-account.md)
          + [SMS 채널 특성](send/sms/sms-channel.md)
-         + [SMPP 연결 확인](send/sms/smpp-connection.md)
-         + [독립 실행형 인스턴스](send/sms/sms-standalone-instance.md)
+         + [SMPP 연결 유효성 검사](send/sms/smpp-connection.md)
+         + [독립형 인스턴스](send/sms/sms-standalone-instance.md)
          + [중간 소싱 인프라](send/sms/sms-mid-sourcing.md)
          + [SMPP 커넥터 설명](send/sms/smpp-connector-delivery.md)
-      + SMS {#create-sms} 만들기
+      + SMS 만들기  {#create-sms}
          + [SMS 게재 설정](send/sms/sms-delivery-settings.md)
          + [콘텐츠 정의](send/sms/sms-content.md)
          + [대상자 선택](send/sms/sms-audience.md)
-      + SMS {#validate-sms}의 유효성 검사 및 보내기
+      + SMS 유효성 검사 및 전송 {#validate-sms}
          + [SMS 증명 보내기](send/sms/sms-proofs.md)
          + [대상자에게 보내기](send/sms/sms-send.md)
       + [SMS 모니터링 및 추적](send/sms/sms-monitor.md)
