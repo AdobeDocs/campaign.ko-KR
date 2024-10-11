@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign으로 이메일 보내기
-description: Adobe Campaign에서 이메일을 시작하십시오. 대상 모집단에게 개인 맞춤화된 이메일을 전송합니다.
+description: Adobe Campaign에서 이메일을 시작합니다. 대상 모집단에게 개인 맞춤화된 이메일을 전송합니다.
 feature: Email
 role: User
 level: Beginner
