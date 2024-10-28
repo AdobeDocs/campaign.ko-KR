@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign 테크노트
 description: Campaign 기술 정보
 breadcrumb-title: 캠페인 기술 정보
-source-git-commit: a9a376e1726bf92ddce937d5598314cbfd744f1f
+source-git-commit: ccd60b7ff54bb538ae21693eff41a3943f1c6c88
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 23%
+source-wordcount: '77'
+ht-degree: 20%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 23%
    + [인터넷 브라우저](upgrades/browsers.md)
    + [2023년 시스템 업그레이드](upgrades/tech-stack-upgrade.md)
    + [클라이언트 콘솔 32비트 사용 중단](upgrades/console.md)
+   + [Campaign Standard에서 Campaign V8로의 사용자 액세스 관리](upgrades/user-management-acs.md)
    + 보안 {#security}
       + [고객 자격 증명 순환](security/credential-rotation-guide.md)
 + [&lt; Campaign v8 설명서로 돌아가기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)
