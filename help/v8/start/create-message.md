@@ -5,7 +5,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: cf292ecd7d30862d7d195536ecc5be709fe037b3
+source-git-commit: 1bf3c4b2d0c8d9b1bdbc82a9047c52c0d80cd997
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 4%
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->이 섹션에서 설명하는 단계에서는 외부 게재의 경우를 제외하고 모든 대상 받는 사람 및 해당 프로필이 데이터베이스에 저장되어 있다고 가정합니다([외부 받는 사람 선택](steps-defining-the-target-population.md#selecting-external-recipients) 참조).
+>이 섹션에서 설명하는 단계에서는 외부 게재의 경우를 제외하고 모든 대상 수신자 및 해당 프로필이 데이터베이스에 저장되어 있다고 가정합니다. [외부 수신자 선택](#selecting-external-recipients)을 참조하십시오.
 
 ## 게재 만들기 {#create-the-delivery}
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 
    DM, 이메일, 전화, 모바일 채널(SMS), X(Twitter) 등 설치한 각 채널에 기본 제공 템플릿이 제공됩니다. 목록에서 사용할 수 있는 채널은 사용권 계약에 따라 다릅니다.
 
-   필요에 따라 특정 매개 변수를 사전 구성하기 위해 새 게재 템플릿을 만들 수 있습니다. 템플릿에 대한 자세한 정보는 [이 섹션](about-templates.md)을 참조하세요.
+   필요에 따라 특정 매개 변수를 사전 구성하기 위해 새 게재 템플릿을 만들 수 있습니다. 템플릿에 대한 자세한 정보는 [이 섹션](../send/create-templates.md)을 참조하세요.
 
 1. **[!UICONTROL Label]** 필드에 게재 이름을 입력하십시오.
 
@@ -74,7 +74,7 @@ ht-degree: 4%
 
 ### 게재의 기본 수신자 선택 {#select-the-main-target}
 
-대부분의 경우 기본 대상은 Adobe Campaign 데이터베이스(기본 모드)에서 추출됩니다. 그러나 수신자는 [외부 파일](steps-defining-the-target-population.md#selecting-external-recipients)에도 저장할 수 있습니다.
+대부분의 경우 기본 대상은 Adobe Campaign 데이터베이스(기본 모드)에서 추출됩니다. 그러나 수신자는 [외부 파일](#selecting-external-recipients)에도 저장할 수 있습니다.
 
 게재 수신자를 선택하려면 아래 단계를 따르십시오.
 
@@ -157,7 +157,7 @@ ht-degree: 4%
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**: 이 옵션은 기본적으로 활성화되어 있으며 배달하는 동안 중복 이메일 주소를 제거합니다. 적용되는 전략은 Adobe Campaign 사용 방법과 데이터베이스의 데이터 유형에 따라 달라질 수 있습니다. 각 게재 템플릿에 대해 옵션 값을 구성할 수 있습니다.
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]**(즉, 이메일 주소가 차단 목록에 추가하다에 있는 수신자(&#39;옵트아웃&#39;)). 이 옵션은 e-마케팅의 직업 윤리를 준수하기 위해 선택된 상태로 유지되어야 합니다.
-* **[!UICONTROL Exclude quarantined recipients]**: 이 옵션을 사용하면 격리된 주소가 있는 모든 프로필을 대상에서 제외할 수 있습니다. 이 옵션은 계속 선택하는 것이 좋습니다. [이 섹션](understanding-quarantine-management.md)에서 격리 관리에 대해 자세히 알아보세요.
+* **[!UICONTROL Exclude quarantined recipients]**: 이 옵션을 사용하면 격리된 주소가 있는 모든 프로필을 대상에서 제외할 수 있습니다. 이 옵션은 계속 선택하는 것이 좋습니다. [이 섹션](../send/quarantines.md)에서 격리 관리에 대해 자세히 알아보세요.
 * **[!UICONTROL Limit delivery]**&#x200B;을(를) 지정한 메시지 수만큼 보냅니다. 이 옵션을 사용하면 전송할 최대 메시지 수를 입력할 수 있습니다. 타겟 대상이 표시된 메시지 수를 초과하면 타겟에 무작위 선택이 적용됩니다. 모든 메시지를 보내려면 이 값을 &#39;0&#39;으로 유지합니다.
 * **[!UICONTROL Keep duplicate records (same identifier)]**: 이 옵션을 사용하면 여러 타겟팅 기준을 충족하는 수신자에게 여러 게재를 보낼 수 있습니다.
 
