@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: cf292ecd7d30862d7d195536ecc5be709fe037b3
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '522'
 ht-degree: 10%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 10%
 # 이메일 디자인 및 보내기
 
 이메일 게재를 사용하면 개인화된 이메일을 대상 모집단으로 보낼 수 있습니다. [자세히 알아보기](../send/send.md)
+
+[이 페이지](../start/create-message.md)에서 게재를 만들고 구성하는 주요 단계를 알아봅니다.
 
 ## 첫 번째 이메일 게재 만들기
 
