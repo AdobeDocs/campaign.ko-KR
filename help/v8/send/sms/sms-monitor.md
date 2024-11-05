@@ -4,14 +4,13 @@ description: SMS 게재 모니터링 및 추적 정보
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="제한 공개" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
+exl-id: 42be45db-3a90-4ad0-896d-f082afff1f8e
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
-
 
 # SMS 모니터링 및 추적
 
@@ -52,4 +51,3 @@ SMS를 보낸 후에는 변경 시 게재 콘텐츠에 대한 **[!UICONTROL SMS]
 SMS에 대한 실패 유형 및 실패 이유는 이메일과 동일합니다.
 
 [게재 실패](../delivery-failures.md)에 대해 자세히 알아보고 특히 [SMS 격리](../delivery-failures.md#sms-quarantines)에 대해 자세히 알아보세요.
-

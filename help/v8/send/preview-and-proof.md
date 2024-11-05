@@ -5,7 +5,7 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 메시지 콘텐츠가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다. [개인 맞춤화된 콘텐츠](personalize.md)를 삽입한 경우 테스트 프로필 데이터를 사용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다. 또한 메시지 콘텐츠나 개인화 설정에서 발생할 수 있는 오류를 탐지하려면 테스트 프로필로 증명을 보냅니다. 최신 콘텐츠의 유효성을 검사하려면 변경 사항이 있을 때마다 증명을 보내야 합니다.
 
-## 콘텐츠 미리보기{#preview-content}
+## 콘텐츠 미리보기 {#preview-content}
 
 증명을 보내기 전에 게재 창의 미리보기 섹션에서 메시지 콘텐츠를 확인하는 것이 좋습니다.
 
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 * 시드 주소와 특정 이메일 주소를 조합하려면 **[!UICONTROL Specific target and Seed addresses]** 옵션을 사용하십시오. 그런 다음 관련 구성이 두 개의 개별 하위 탭에서 정의됩니다.
 
-### 증명 보내기{#proofs-send}
+### 증명 보내기 {#proofs-send}
 
 메시지 증명을 보내려면 아래 단계를 따르십시오.
 
@@ -88,7 +88,7 @@ ht-degree: 3%
 >
 >보낸 증명에서 미러 페이지 링크가 활성화되지 않았습니다. 최종 메시지에서만 활성화됩니다.
 
-### 증명 속성{#proofs-properties}
+### 증명 속성 {#proofs-properties}
 
 증명 속성은 게재 속성 창의 **[!UICONTROL Advanced]** 탭에서 설정됩니다. **[!UICONTROL Proof properties...]** 링크로 이동하여 증명의 매개 변수와 레이블을 정의합니다. 다음을 유지하도록 선택할 수 있습니다.
 

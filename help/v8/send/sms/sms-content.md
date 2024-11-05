@@ -4,14 +4,13 @@ description: SMS 게재의 콘텐츠를 설정하는 방법 알아보기
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="제한 공개" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
+exl-id: 71d9376c-86e8-41ec-92dc-863455d40c7a
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 1%
+source-wordcount: '234'
+ht-degree: 0%
 
 ---
-
 
 # SMS 콘텐츠 {#sms-content}
 

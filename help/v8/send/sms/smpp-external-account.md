@@ -4,14 +4,13 @@ description: SMPP 외부 계정을 구성하는 방법에 대해 알아봅니다
 feature: SMS
 role: User
 level: Intermediate
-badge: label="제한 공개" type="Informative"
-source-git-commit: 36bb1e2c9e2391065360c3cd2ad97612373ec0c2
+exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '3652'
-ht-degree: 3%
+source-wordcount: '3650'
+ht-degree: 2%
 
 ---
-
 
 # SMPP 외부 계정 설정 {#smpp-external-account}
 

@@ -6,20 +6,20 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 33%
+source-wordcount: '714'
+ht-degree: 25%
 
 ---
 
-# 게재 템플릿 작업{#work-with-delivery-template}
+# 게재 템플릿 작업 {#work-with-delivery-template}
 
-캠페인 실행 및 론칭을 보다 신속하게 수행하기 위해 게재 템플릿을 사용하여 크리에이티브 룩과 느낌을 표준화합니다.
+각 게재는 템플릿을 기반으로 만들어집니다. 기본 제공 템플릿은 각 채널에 사용할 수 있습니다. 이러한 설정을 사용자 지정하여 게재 세트에 동일한 설정을 적용할 수 있습니다.
 
-템플릿에는 다음이 포함될 수 있습니다.
+템플릿에는 다음이 포함됩니다.
 
-* 유형화
+* 유형화 규칙
 * 보낸 사람 및 회신 주소
 * 기본 [개인화 블록](../send/personalization-blocks.md)
 * [미러 페이지](../send/mirror-page.md) 링크 및 구독 취소 링크
@@ -28,10 +28,9 @@ ht-degree: 33%
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#delivery-template-video)
 
+## 템플릿 만들기 {#create-a-delivery-template}
 
-## 템플릿 만들기{#create-a-delivery-template}
-
-게재 템플릿을 만들기 위해 기본 제공 템플릿을 복제하고, 기존 게재를 템플릿으로 전환하거나 처음부터 게재 템플릿을 만들 수 있습니다.
+게재 템플릿을 만들려면 기본 제공 템플릿을 복제하거나 기존 게재를 템플릿으로 변환할 수 있습니다. 처음부터 게재 템플릿을 만들 수도 있지만 권장되지는 않습니다. 이러한 방법은 아래에 자세히 설명되어 있습니다.
 
 ### 기존 템플릿 복제{#copy-an-existing-template}
 
@@ -91,9 +90,9 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 1. **저장**&#x200B;을 클릭합니다. 이제 템플릿을 게재에서 사용할 준비가 되었습니다.
 
 
-## 템플릿 사용{#use-a-delivery-template}
+## 템플릿 사용 {#use-a-delivery-template}
 
-### 템플릿에서 게재 만들기{#create-a-delivery-from-a-template}
+### 템플릿에서 게재 만들기 {#create-a-delivery-from-a-template}
 
 기존 템플릿을 기반으로 게재를 만들려면 사용 가능한 게재 템플릿 목록에서 템플릿을 선택합니다.
 

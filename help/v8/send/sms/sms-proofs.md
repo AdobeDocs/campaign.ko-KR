@@ -4,14 +4,13 @@ description: SMS 게재 증명을 보내는 방법 알아보기
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="제한 공개" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
+exl-id: d2ec4d92-7f00-47c8-98e6-0613d6387de0
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
-
 
 # SMS 게재 증명 보내기 {#sms-proof}
 
