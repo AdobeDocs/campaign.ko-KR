@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: cf292ecd7d30862d7d195536ecc5be709fe037b3
+source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 10%
+source-wordcount: '521'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 [이 페이지](../start/create-message.md)에서 게재를 만들고 구성하는 주요 단계를 알아봅니다.
 
-## 첫 번째 이메일 게재 만들기
+## 이메일 게재 만들기
 
 나머지 고객 경험과 일관적인 개인화된 상황별 관련 이메일을 만들 수 있습니다.
 
