@@ -1,38 +1,40 @@
 ---
-title: SMS 콘텐츠 정의
-description: SMS 게재의 콘텐츠를 설정하는 방법 알아보기
+title: SMS 콘텐츠 정의 및 개인화
+description: SMS 게재 콘텐츠를 정의하고 개인화하는 방법을 알아봅니다
 feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: 71d9376c-86e8-41ec-92dc-863455d40c7a
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
-# SMS 콘텐츠 {#sms-content}
+# SMS 콘텐츠 정의 {#sms-content}
 
 SMS 게재의 콘텐츠를 구성하려면:
 
-1. **[!UICONTROL Text content]** 마법사에 메시지 내용 입력
+1. **[!UICONTROL Text content]** 탭에 메시지 내용을 입력합니다.
 
    ![](assets/sms_content.png){zoomable="yes"}
 
-1. 개인화 필드 삽입(예: 이름 추가) 또는 사전 정의된 개인화 블록 삽입(예: 인사 추가)을 통해 메시지를 개인화할 수 있습니다. 개인화 버튼을 클릭하여 다음을 추가할 수 있습니다.
+1. 개인화 필드 삽입(예: 이름 추가) 또는 사전 정의된 개인화 블록 삽입(예: 인사 추가)을 통해 메시지를 개인화할 수 있습니다. 개인화 버튼을 클릭하여 다음 항목을 추가합니다.
 
    ![](assets/sms_perso.png){zoomable="yes"}
 
-   **[!UICONTROL Recipient]** > **[!UICONTROL First name]**&#x200B;을(를) 클릭하면 다음과 같은 개인화가 이루어집니다.
+   예를 들어 **[!UICONTROL Recipient]** > **[!UICONTROL First name]**&#x200B;을(를) 클릭하면 SMS 콘텐츠가 아래와 같이 개인화 필드로 업데이트됩니다.
 
    ![](assets/sms_perso_recipient.png){zoomable="yes"}
 
-1. **[!UICONTROL Preview]** 탭에서 **[!UICONTROL Test personalization]** 드롭다운 목록을 클릭하고 **[!UICONTROL Recipient]** 테이블에서 수신자를 선택하여 게재를 미리 볼 수 있습니다.
+   [이 섹션](../personalize.md)에서 Adobe Campaign의 개인화에 대해 자세히 알아보세요.
+
+1. **[!UICONTROL Preview]** 탭에서 게재 콘텐츠를 미리 볼 수 있습니다. 개인화 설정을 확인하려면 **[!UICONTROL Test personalization]** 드롭다운 목록을 클릭하고 받는 사람을 선택하십시오.
 
    ![](assets/sms_preview.png){zoomable="yes"}
 
-   개인화된 SMS를 미리 볼 수 있습니다.
+   개인화를 통해 SMS 미리보기를 확인할 수 있습니다.
 
    ![](assets/sms_preview_phone.png){zoomable="yes"}
 

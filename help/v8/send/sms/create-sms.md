@@ -4,10 +4,10 @@ description: SMS 게재를 만드는 방법 알아보기
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 6%
+source-wordcount: '170'
+ht-degree: 4%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 6%
 
 새 SMS 게재를 만들려면 아래 단계를 수행합니다.
 
-1. 새 게재를 만들고 SMS 보내기를 위해 만든 SMS 게재 템플릿을 선택합니다. [여기에서 자세히 알아보십시오](sms-mid-sourcing.md#sms-delivery-template).
+1. 새 게재를 만들고 SMS 전송을 위해 만든 [SMS 게재 템플릿](sms-mid-sourcing.md#sms-delivery-template)을(를) 선택합니다.
 
    ![](assets/sms_create.png){zoomable="yes"}
 
-   [이 페이지](../../start/create-message.md)에서 게재 만들기 단계에 대해 자세히 알아보세요.
+   게재 만들기 단계는 [이 페이지](../../start/create-message.md)에 자세히 설명되어 있습니다.
 
 <!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
 * For mid-sourcing infrastructure, -->
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 1. 필요에 따라 모두 설정된 **[!UICONTROL Properties]** 단추를 확인할 수 있습니다. [SMS 탭에 대해 자세히 알아보기](sms-delivery-settings.md#sms-tab)
 
-![](assets/sms_settings.png){zoomable="yes"}
+   ![](assets/sms_settings.png){zoomable="yes"}
 
 1. 게재의 [콘텐츠를 정의](sms-content.md)합니다.
 
