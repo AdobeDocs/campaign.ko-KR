@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '685'
 ht-degree: 99%
 
 ---
@@ -53,6 +53,7 @@ ht-degree: 99%
    + SMS {#sms}
       + [SMS 시작](send/sms/sms.md)
       + SMS 채널 구성 {#config-sms}
+         + [SMS 게재 설정](send/sms/sms-delivery-settings.md)
          + [SMPP 외부 계정 설정](send/sms/smpp-external-account.md)
          + [SMS 채널 특성](send/sms/sms-channel.md)
          + [SMPP 연결 유효성 검사](send/sms/smpp-connection.md)
@@ -60,7 +61,7 @@ ht-degree: 99%
          + [중간 소싱 인프라](send/sms/sms-mid-sourcing.md)
          + [SMPP 커넥터 설명](send/sms/smpp-connector-delivery.md)
       + SMS 만들기  {#create-sms}
-         + [SMS 게재 설정](send/sms/sms-delivery-settings.md)
+         + [SMS 게재 만들기](send/sms/create-sms.md)
          + [콘텐츠 정의](send/sms/sms-content.md)
          + [대상자 선택](send/sms/sms-audience.md)
       + SMS 유효성 검사 및 전송 {#validate-sms}

@@ -5,7 +5,7 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
 workflow-type: tm+mt
 source-wordcount: '3650'
 ht-degree: 2%
@@ -16,16 +16,13 @@ ht-degree: 2%
 
 Adobe Campaign은 SMPP 프로토콜을 사용하여 서비스 공급자에게 SMS를 전송합니다.
 
->[!IMPORTANT]
->
->Adobe Campaign은 SMPP 프로토콜 버전 3.4를 지원합니다.
-
-
 Adobe Campaign의 SMS 커넥터는 공식 사양을 약간 벗어나는 경향이 있는 대부분의 SMPP 공급자와 호환되도록 동작을 조정할 수 있는 많은 옵션을 제공합니다.
 
 >[!IMPORTANT]
 >
->새 공급자에 대한 연결을 설정하려면 TCP, 이진, 16진수 표현 및 텍스트 인코딩에 대한 기술 지식 및 몇 가지 기술이 필요할 수 있습니다. 또한 제공자와의 적극적인 협력이 필요할 것이다.
+>* Adobe Campaign은 SMPP 프로토콜 버전 3.4를 지원합니다.
+>
+>* 새 공급자에 대한 연결을 설정하려면 TCP, 이진, 16진수 표현 및 텍스트 인코딩에 대한 기술 지식 및 몇 가지 기술이 필요할 수 있습니다. 또한 제공자와의 적극적인 협력이 필요할 것이다.
 
 SMS 서비스 공급자 측의 네트워크 장비는 종종 SMSC라고 합니다.
 

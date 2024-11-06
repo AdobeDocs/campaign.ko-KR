@@ -6,10 +6,10 @@ role: User
 level: Beginner, Intermediate
 badge: label="제한 공개" type="Informative"
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-source-git-commit: 8dffc24ff859ded70ea9c5b9ede39512c1543e74
+source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 1%
+source-wordcount: '787'
+ht-degree: 0%
 
 ---
 
@@ -23,13 +23,12 @@ ht-degree: 1%
 
 SMS 게재에 필요한 기술 설정은 다음과 같습니다.
 
-* 라우팅: [SMPP 외부 계정](smpp-external-account.md#smpp-connection-settings)
-
-* [  ](#sms-tab)
+* 메시지 라우팅을 위한 SMPP 외부 계정입니다. [자세히 알아보기](smpp-external-account.md#smpp-connection-settings)
+* SMS 탭을 구성합니다. [방법 알아보기](#sms-tab)
 
 각 SMS 게재 만들기에 대한 설정을 수행하지 않도록 게재 템플릿에서 이러한 모든 것을 설정할 수 있습니다.
 
-## **[!UICONTROL SMS]** 탭 구성 {#sms-tab}
+## SMS 탭 구성 {#sms-tab}
 
 ![](assets/send_settings.png){zoomable="yes"}
 
@@ -97,25 +96,3 @@ SMS 게재에 필요한 기술 설정은 다음과 같습니다.
   >
   >이진 형식은 항상 big-endian 형식으로 인코딩됩니다.
 
-## SMS 게재 만들기 {#sms-delivery}
-
-새 SMS 게재를 만들려면 아래 단계를 수행합니다.
-
-1. 게재 대시보드 또는 **[!UICONTROL Explorer]**&#x200B;의 게재 폴더에서 새 게재를 만듭니다.  기본적으로 &quot;이메일 게재&quot;라는 레이블이 지정됩니다.
-
-1. SMS 전송을 위해 만든 게재 템플릿을 선택합니다. [여기에서 자세히 알아보십시오](sms-mid-sourcing.md#sms-delivery-template).
-
-   ![](assets/sms_create.png){zoomable="yes"}
-
-<!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
-* For mid-sourcing infrastructure, -->
-
-1. **[!UICONTROL Label]** 필드에서 게재 이름을 바꾸고 추적에 필요한 경우 **[!UICONTROL Delivery code]** 필드 및 **[!UICONTROL Nature]** 목록에 정보를 추가합니다. 게재에 **[!UICONTROL Description]**&#x200B;을(를) 추가할 수도 있습니다.
-
-1. **[!UICONTROL Continue]** 단추를 클릭합니다. 이제 게재에 템플릿의 모든 설정이 포함됩니다.
-
-1. 필요에 따라 모두 설정된 **[!UICONTROL Properties]** 단추를 확인할 수 있습니다. [SMS 탭에 대해 자세히 알아보기](#sms-tab)
-
-![](assets/sms_settings.png){zoomable="yes"}
-
-이제 [SMS 콘텐츠](sms-content.md)를 구성할 수 있습니다.
