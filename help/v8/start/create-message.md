@@ -5,9 +5,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 1bf3c4b2d0c8d9b1bdbc82a9047c52c0d80cd997
+source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1530'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 1. **대상 모집단 선택**. [자세히 알아보기](#target-population)
 
-그런 다음 메시지를 준비, 테스트, 전송 및 모니터링할 수 있습니다.
+그런 다음 Adobe Campaign을 사용하여 메시지를 준비, 테스트, 전송 및 모니터링할 수 있습니다.
 
 >[!NOTE]
 >
@@ -34,13 +34,14 @@ ht-degree: 4%
 
 게재를 만들려면 다음 단계를 수행합니다.
 
-1. 게재 목록 위에 있는 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다. 새 게재를 만들 때 게재 채널을 선택해야 합니다. 이렇게 하려면 **[!UICONTROL Delivery template]** 필드의 드롭다운 목록에서 적절한 게재 템플릿을 선택합니다.
+1. 게재 목록을 찾은 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+1. 게재 채널을 선택합니다. 이렇게 하려면 드롭다운 목록에서 적절한 게재 템플릿을 선택합니다.
 
    ![](../send/assets/select-the-new-template.png)
 
-   DM, 이메일, 전화, 모바일 채널(SMS), X(Twitter) 등 설치한 각 채널에 기본 제공 템플릿이 제공됩니다. 목록에서 사용할 수 있는 채널은 사용권 계약에 따라 다릅니다.
+   이메일, 전화, 모바일 채널(푸시/SMS), DM, X(Twitter) 등 설치한 각 채널에 기본 제공 템플릿이 제공됩니다. 목록에서 사용할 수 있는 채널은 사용권 계약에 따라 다릅니다.
 
-   필요에 따라 특정 매개 변수를 사전 구성하기 위해 새 게재 템플릿을 만들 수 있습니다. 템플릿에 대한 자세한 정보는 [이 섹션](../send/create-templates.md)을 참조하세요.
+   필요에 따라 특정 매개 변수를 사전 구성하기 위해 새 게재 템플릿을 만들 수 있습니다.  [자세히 알아보기](../send/create-templates.md).
 
 1. **[!UICONTROL Label]** 필드에 게재 이름을 입력하십시오.
 
@@ -48,7 +49,7 @@ ht-degree: 4%
 
 1. (선택 사항) **[!UICONTROL Description]** 필드에 설명을 추가합니다.
 1. (선택 사항) 관련 필드에서 게재 특성을 선택합니다. 이 정보는 게재 추적에 유용합니다. 게재 목록에서 이 기준을 기반으로 필터링하거나 이 선택 기준을 사용하여 쿼리를 작성할 수 있습니다.
-1. **[!UICONTROL Continue]**&#x200B;을(를) 클릭하여 이 정보를 확인하고 메시지 구성 창을 표시합니다.
+1. **[!UICONTROL Continue]**&#x200B;을(를) 클릭하여 메시지 콘텐츠 창을 표시합니다.
 
 ## 게재 콘텐츠 정의 {#content-of-the-delivery}
 
@@ -126,7 +127,7 @@ ht-degree: 4%
 
    ![](assets/target-remove-criterion.png)
 
-#### 외부 수신자 선택 {#selecting-external-recipients}
+### 외부 수신자 선택 {#selecting-external-recipients}
 
 데이터베이스에 저장되지 않고 외부 파일에 있는 프로필에 메시지를 보낼 수 있습니다. 예를 들어 텍스트 파일에서 가져온 수신자에게 게재를 보내려면 다음 단계를 수행합니다.
 
@@ -141,25 +142,31 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->이메일 게재를 위한 메시지의 콘텐츠를 정의할 때 미러 페이지에 대한 링크를 포함하지 마십시오. 이 게재 모드에서는 생성할 수 없습니다.
+>외부 수신자에게 전자 메일을 전송할 메시지의 콘텐츠를 정의할 때 미러 페이지에 대한 링크를 포함하지 마십시오. 이 게재 모드에서는 생성할 수 없습니다.
 
-#### 제외 설정 정의 {#define-exclusion-settings}
+### 제외 설정 {#define-exclusion-settings}
 
-게재 대상을 정의할 때 **[!UICONTROL Exclusions]** 탭을 사용하여 메시지 수를 제한합니다. 기본 매개 변수를 사용하는 것이 좋지만 필요에 따라 설정을 조정할 수 있습니다. 그러나 이러한 옵션은 오용과 오류를 방지하기 위해 전문가 사용자만 변경해야 합니다.
+게재의 [대상자](#target-population)를 정의할 때 **[!UICONTROL Exclusions]** 탭을 사용하여 메시지 수를 제한합니다. 기본 매개 변수를 사용하는 것이 좋지만 필요에 따라 설정을 조정할 수 있습니다. 그러나 이러한 옵션은 오용과 오류를 방지하기 위해 전문가 사용자만 변경해야 합니다.
 
-특정 수의 연속 오류에 도달했거나 품질 등급이 이 창에 지정된 임계값 미만인 주소는 제외하도록 선택할 수 있습니다. 데이터가 반환되지 않은 비적격 주소를 승인할지 여부도 선택할 수 있습니다.
+>[!CAUTION]
+>
+>Adobe 전문가 사용자로서 특정 사용 사례의 경우 이러한 설정을 변경할 수 있지만 기본 구성을 유지하는 것이 좋습니다.
 
-기본 구성을 수정하려면 **[!UICONTROL Edit...]** 링크를 클릭하십시오.
+특정 수의 연속 오류에 도달했거나 품질 등급이 이 창에서 지정된 임계값 미만인 주소는 제외할 수 있습니다. 데이터가 반환되지 않은 비적격 주소를 승인할지 여부도 선택할 수 있습니다.
+
+기본 구성을 수정하려면 **[!UICONTROL Edit...]** 링크를 클릭합니다.
 
 ![](assets/target-exclusion-settings.png)
 
-다음 옵션을 사용할 수 있습니다.
++++ 사용 가능한 옵션 보기
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**: 이 옵션은 기본적으로 활성화되어 있으며 배달하는 동안 중복 이메일 주소를 제거합니다. 적용되는 전략은 Adobe Campaign 사용 방법과 데이터베이스의 데이터 유형에 따라 달라질 수 있습니다. 각 게재 템플릿에 대해 옵션 값을 구성할 수 있습니다.
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]**(즉, 이메일 주소가 차단 목록에 추가하다에 있는 수신자(&#39;옵트아웃&#39;)). 이 옵션은 e-마케팅의 직업 윤리를 준수하기 위해 선택된 상태로 유지되어야 합니다.
 * **[!UICONTROL Exclude quarantined recipients]**: 이 옵션을 사용하면 격리된 주소가 있는 모든 프로필을 대상에서 제외할 수 있습니다. 이 옵션은 계속 선택하는 것이 좋습니다. [이 섹션](../send/quarantines.md)에서 격리 관리에 대해 자세히 알아보세요.
 * **[!UICONTROL Limit delivery]**&#x200B;을(를) 지정한 메시지 수만큼 보냅니다. 이 옵션을 사용하면 전송할 최대 메시지 수를 입력할 수 있습니다. 타겟 대상이 표시된 메시지 수를 초과하면 타겟에 무작위 선택이 적용됩니다. 모든 메시지를 보내려면 이 값을 &#39;0&#39;으로 유지합니다.
 * **[!UICONTROL Keep duplicate records (same identifier)]**: 이 옵션을 사용하면 여러 타겟팅 기준을 충족하는 수신자에게 여러 게재를 보낼 수 있습니다.
++++
+
 
 ### 증명 메시지 수신자 선택 {#select-the-proof-target}
 
