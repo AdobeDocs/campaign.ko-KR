@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
+source-git-commit: 55b752713a29c035680dd39e42422b1743e15269
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 4%
+source-wordcount: '1525'
+ht-degree: 3%
 
 ---
 
@@ -176,15 +176,12 @@ ht-degree: 4%
 
 증명 수신자 및 전송에 대한 자세한 내용은 [이 섹션](../send/preview-and-proof.md#send-proofs)을 참조하세요.
 
-![](../send/assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#seeds-and-proofs-video)
-
 
 #### 튜토리얼 비디오 {#seeds-and-proofs-video}
 
 이 비디오에서는 기존 이메일에 시드 및 증명을 추가하는 방법과 이를 보내는 방법을 알아봅니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
-
 
 추가 Campaign Classic 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
 
@@ -200,7 +197,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->위의 두 단계는 메시지 콘텐츠를 수정할 때마다 실행해야 합니다.
+>메시지 내용을 수정할 때마다 **위의 두 단계를**&#x200B;실행해야 합니다.
 
 
 ## 게재 구성 및 보내기 {#configuring-and-sending-the-delivery}
