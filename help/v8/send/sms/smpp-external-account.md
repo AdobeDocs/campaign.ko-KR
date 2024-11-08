@@ -5,7 +5,7 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
 workflow-type: tm+mt
 source-wordcount: '3650'
 ht-degree: 2%
@@ -71,7 +71,7 @@ Adobe Campaign v8.7.2 이상의 경우 이 옵션은 항상 활성화되어 있�
 
 ![](assets/smpp_channel_settings.png){zoomable="yes"}
 
-### 문자 음역 승인
+### 문자 음역 승인 {#smpp-transliteration}
 
 음역은 누락된 문자와 동등한 문자를 찾는 프로세스입니다. 예를 들어 프랑스어 &quot;ê&quot;(곡절 악센트가 있는 e) 문자가 GSM 인코딩에서 누락되었지만 가독성을 너무 손상시키지 않고 &quot;e&quot;로 대체할 수 있습니다.
 

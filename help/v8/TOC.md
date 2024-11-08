@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '688'
 ht-degree: 99%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 99%
 + 메시지 보내기{#send}
    + [메시지 시작](start/gs-message.md)
    + [첫 번째 게재 만들기](start/create-message.md)
+   + [게재 모범 사례](start/delivery-best-practices.md)
    + 이메일 {#emails}
       + [이메일 디자인 및 유효성 검사](send/email.md)
       + [미러 페이지로 가는 링크](send/mirror-page.md)

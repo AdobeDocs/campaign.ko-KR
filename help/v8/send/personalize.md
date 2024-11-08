@@ -5,9 +5,9 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '471'
 ht-degree: 48%
 
 ---
@@ -47,7 +47,7 @@ Adobe Campaign은 개인화를 간소화합니다. 단일 [메시지 템플릿](
 
 ## 보호 및 권장 사항{#perso-guardrails}
 
-### Personalization 시간 초과{#perso-timeout}
+### Personalization 시간 초과 {#perso-timeout}
 
 게재 보호를 개선하기 위해 개인화 단계에 대한 시간 제한 기간을 설정할 수 있습니다.
 
