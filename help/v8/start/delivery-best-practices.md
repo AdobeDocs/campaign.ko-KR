@@ -4,7 +4,7 @@ description: Adobe Campaign을 사용하여 게재를 디자인하고 전송할 
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: b4fad76b43a77909a4ea2c0877527af80027681a
+source-git-commit: 10af828319569ad9aeeecc809bc213f9608791ac
 workflow-type: tm+mt
 source-wordcount: '2869'
 ht-degree: 2%
@@ -151,7 +151,7 @@ var brand = "xxx"
 
 **팁**: 사람의 실수는 항상 가능하므로 보낼 때마다 옵트아웃 링크가 올바르게 작동하는지 확인하세요. 예를 들어 증명을 보낼 때 링크가 유효한지, 양식이 온라인 상태인지, `No longer contact this recipient ` 필드가 `Yes`(으)로 변경되었는지 확인합니다.
 
-이 섹션](personalization-blocks.md#personalization-blocks-example)에서 옵트아웃 링크 [을(를) 삽입하는 방법을 알아봅니다.
+이 섹션](../send/personalization-blocks.md)에서 옵트아웃 링크 [을(를) 삽입하는 방법을 알아봅니다.
 
 ### 이메일 크기
 
@@ -328,7 +328,7 @@ Adobe Campaign 연산자 및 그룹을 포함하는 전체 유효성 검사 프�
 
 #### 예약된 일괄 처리 사용
 
-웨이브를 사용하여 전송되는 볼륨을 점진적으로 늘릴 수 있습니다. 이렇게 하면 메시지가 스팸으로 표시되거나 하루에 메시지 수를 제한하려는 경우를 방지할 수 있습니다. 웨이브를 사용하여 동시에 대량의 메시지를 전송하는 대신 게재를 여러 배치로 나눌 수 있습니다. 자세한 내용은 [이 섹션](../send/configure-and-send.mdsending-using-multiple-waves)을 참조하세요.
+웨이브를 사용하여 전송되는 볼륨을 점진적으로 늘릴 수 있습니다. 이렇게 하면 메시지가 스팸으로 표시되거나 하루에 메시지 수를 제한하려는 경우를 방지할 수 있습니다. 웨이브를 사용하여 동시에 대량의 메시지를 전송하는 대신 게재를 여러 배치로 나눌 수 있습니다. 자세한 내용은 [이 섹션](../send/configure-and-send.md#sending-using-multiple-waves)을 참조하세요.
 
 #### 메시지 우선 순위 지정
 
