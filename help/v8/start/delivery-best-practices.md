@@ -5,9 +5,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
-source-git-commit: 61c86c3c9d6dbbabf2d5174b8b7b1721b38280cb
+source-git-commit: 58d88498c8472381a43d735b4dfb2a802a293952
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2934'
 ht-degree: 2%
 
 ---
@@ -66,11 +66,11 @@ Adobe Campaign은 반환된 오류 유형에 따라 잘못된 주소를 관리�
 
 게재 템플릿은 가장 일반적인 유형의 활동에 대해 준비된 시나리오를 제공하여 효율성을 높입니다. 마케터는 템플릿을 사용하여 짧은 시간 내에 최소한의 사용자 지정으로 새 캠페인을 배포할 수 있습니다. [게재 템플릿에 대해 자세히 알아보기](../send/create-templates.md).
 
-### 브랜딩
+### 하위 도메인 및 브랜딩 {#subdomains-and-branding}
 
 Adobe Campaign에서 여러 브랜드를 관리할 때, Adobe은 브랜드당 하나의 하위 도메인을 사용하는 것을 권장합니다. 예를 들어 은행은 각 지역 기관에 해당하는 여러 하위 도메인을 가질 수 있습니다. 은행이 bluebank.com 도메인을 소유하는 경우 해당 하위 도메인은 @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com 등이 될 수 있습니다. 하위 도메인당 하나의 게재 템플릿을 사용하면 각 브랜드에 대해 항상 올바른 사전 구성된 매개 변수를 사용할 수 있으므로 오류를 방지하고 시간을 절약할 수 있습니다. [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}에서 하위 도메인 브랜딩에 대해 자세히 알아보세요.
 
-### 주소 구성
+### 주소 구성 {#configure-addresses}
 
 다음 지침을 적용하십시오.
 
@@ -79,7 +79,7 @@ Adobe Campaign에서 여러 브랜드를 관리할 때, Adobe은 브랜드당 �
 * 주소는 발신자를 명시적으로 식별해야 합니다. 도메인은 발신자가 소유하고 등록해야 합니다.
 * Adobe은 게재 및 회신에 대해 지정된 주소에 해당하는 이메일 계정을 만들 것을 권장합니다. 메시징 시스템 관리자에게 문의하십시오.
 
-+++ **Campaign UI에서 주소 구성**
++++ **Campaign UI에서 주소를 구성하는 단계**
 
 Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르십시오.
 
@@ -91,15 +91,15 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 1. **[!UICONTROL Reply address text]** 필드에서는 보낸 사람의 주소가 기본적으로 회신에 사용됩니다. 그러나 Adobe은 브랜드의 고객 지원 센터와 같은 기존 실제 주소를 사용하는 것을 권장합니다. 이 경우 수신자가 회신을 보내면 고객 지원 센터에서 이를 처리할 수 있습니다.
 
-### 컨트롤 그룹 설정
+### 컨트롤 그룹 설정 {#set-up-control-group}
 
 게재가 전송되면 제외된 수신자의 행동을 게재를 받은 수신자와 비교할 수 있습니다. 그런 다음 캠페인의 효율성을 측정할 수 있습니다. 컨트롤 그룹 [이 섹션](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)에 대해 자세히 알아보세요.
 
-### 유형화를 사용하여 필터 또는 제어 규칙 적용
+### 유형화를 사용하여 필터 또는 제어 규칙 적용 {#create-typologies}
 
 유형화에는 메시지를 보내기 전에 분석 단계 중에 적용되는 확인 규칙이 포함되어 있습니다.
 
-템플릿 속성의 **[!UICONTROL Typology]** 탭에서 필요에 따라 기본 유형화를 변경합니다.
+필요한 경우 템플릿 속성의 **[!UICONTROL Typology]** 탭에서 사용자 지정 유형화를 선택할 수 있습니다.
 
 예를 들어 아웃바운드 트래픽을 더 잘 제어하기 위해 하위 도메인당 하나의 선호도를 정의하고 선호도당 하나의 유형화를 만들어 사용할 수 있는 IP 주소를 정의할 수 있습니다. 관심도는 인스턴스의 구성 파일에 정의됩니다. Adobe Campaign 관리자에게 문의하십시오.
 
@@ -111,17 +111,20 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 메시지를 개인화하기 위해 데이터베이스에 저장되거나 추적, 랜딩 페이지, 구독 등을 통해 수집된 수신자의 데이터를 사용할 수 있습니다. Personalization 기본 사항은 [이 섹션](../send/personalize.md)에 나와 있습니다.
 
-메시지 콘텐츠가 개인화와 관련될 수 있는 오류를 방지하기 위해 올바르게 디자인되었는지 확인하십시오. Adobe Campaign 개인화 태그에는 항상 `<%=table.field%>` 형식이 있습니다. 개인화 블록에서 매개 변수를 잘못 사용하면 문제가 될 수 있습니다. 예를 들어 JavaScript의 변수는 다음과 같이 사용해야 합니다.
++++ **모범 사례 몇 가지 읽기**
 
-``
-<%
-var brand = "xxx"
-%>
-``
+* 개인화 설정 확인 - 메시지 콘텐츠가 개인화와 관련된 오류를 방지하기 위해 제대로 디자인되었는지 확인하십시오. Adobe Campaign 개인화 태그에는 항상 `<%=table.field%>` 형식이 있습니다. 개인화 블록에서 매개 변수를 잘못 사용하면 문제가 될 수 있습니다. 예를 들어 JavaScript의 변수는 다음과 같이 사용해야 합니다.
 
-개인화 블록에 대한 자세한 내용은 [이 섹션](../send/personalization-blocks.md)을 참조하세요.
+  ``
+  <%
+  var brand = "xxx"
+  %>
+  ``
 
-워크플로우에서 개인화 데이터를 준비하여 게재 준비 분석을 개선할 수 있습니다. 개인화 데이터가 FDA(Federated Data Access)를 통해 외부 테이블에서 제공되는 경우 특별히 사용해야 합니다. 이 옵션은 이 [이 섹션](../send/personalization-data.md#optimize-personalization)에 설명되어 있습니다.
+  개인화 블록에 대한 자세한 내용은 [이 섹션](../send/personalization-blocks.md)을 참조하세요.
+
+* 개인화 데이터 준비 - 워크플로우에서 개인화 데이터를 준비하여 게재 준비 분석을 개선할 수 있습니다. 개인화 데이터가 FDA(Federated Data Access)를 통해 외부 테이블에서 제공되는 경우 특별히 사용해야 합니다. 이 옵션은 이 [이 섹션](../send/personalization-data.md#optimize-personalization)에 설명되어 있습니다.
++++
 
 ### 최적화된 컨텐츠 작성 {#build-optimized-content}
 
@@ -142,7 +145,7 @@ var brand = "xxx"
 +++
 
 
-### 제목 줄
+### 제목 줄  {#subject-line-check}
 
 열람률을 향상시키려면 전자 메일 [제목 줄](../send/personalization-fields.md#personalization-fields-uc)을 사용하세요.
 
@@ -154,15 +157,17 @@ var brand = "xxx"
 
 * 스팸으로 간주될 수 있는 &quot;무료&quot; 또는 &quot;오퍼&quot;와 같은 단어를 반복적으로 사용하지 마십시오
 
-* 대문자와 &quot;!&quot;, &quot;!&quot;, &quot; €&quot;, &quot;$&quot;와 같은 특수 문자는 사용하지 마십시오.
+* 대문자는 피하십시오.
+
+* &quot;!&quot;, &quot;-&quot;, &quot; €&quot;, &quot;$&quot;와 같은 특수 문자를 사용하지 마십시오.
 
 +++
 
-### 페이지 미러링
+### 페이지 미러링 {#mirror-page-check}
 
 항상 미러 페이지 링크를 포함하십시오. 기본 위치는 이메일의 상단입니다. [이 페이지](../send/mirror-page.md)에서 미러 페이지에 대해 자세히 알아보기
 
-### 구독 취소 링크
+### 구독 취소 링크 {#unsub-link-check}
 
 구독 취소 링크는 필수입니다. 표시 및 유효해야 하며 양식이 제대로 작동해야 합니다. 기본적으로 메시지를 분석할 때 기본 제공 **[!UICONTROL Unsubscription link approval]** [유형화 규칙](../../automation/campaign-opt/control-rules.md)이(가) 옵트아웃 링크가 포함되어 있는지 확인하고 누락된 경우 경고를 생성합니다.
 
@@ -174,7 +179,7 @@ var brand = "xxx"
 
 +++
 
-### 이메일 크기
+### 이메일 크기 {#email-size-check}
 
 성능 또는 게재 가능성 문제를 방지하기 위해 이메일의 권장 최대 크기는 약 **35KB**&#x200B;입니다. 메시지 크기를 확인하려면 **[!UICONTROL Preview]** 탭을 탐색하고 테스트 프로필을 선택하십시오. 생성되면 메시지 크기가 오른쪽 상단 모서리에 표시됩니다.
 
@@ -192,17 +197,18 @@ var brand = "xxx"
 +++
 
 
-### SMS 길이
+### SMS 길이 {#sms-length-check}
 
 기본적으로 SMS의 문자 수는 GSM(이동통신 글로벌 시스템) 표준을 충족합니다. GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, 또는 여러 부분으로 나누어 전송되는 메시지의 경우 153자로 제한됩니다.
 
-변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다. SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다. 해당 **[!UICONTROL External account]**&#x200B;의 SMPP 채널 설정 탭에서 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다.
 
 +++ **모범 사례 몇 가지 읽기**
 
 * SMS 메시지의 모든 문자를 그대로 유지하려면 적절한 이름을 변경하지 마십시오(예: 음역을 활성화하지 마십시오).
 
 * 그러나 SMS 메시지에 GSM 표준에서 고려하지 않는 문자가 많이 포함된 경우 음역을 활성화하여 메시지 전송 비용을 제한하십시오. 자세한 내용은 [이 섹션](../send/sms/smpp-external-account.md#smpp-transliteration)을 참조하세요.
+
+* GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 SMS 음역을 적용할 수 있습니다. SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다. Campaign 관리자는 해당 **[!UICONTROL External account]**&#x200B;의 SMPP 채널 설정 탭에서 해당 상자를 선택하여 문자 변환을 활성화할 수 있습니다. [자세히 알아보기](../send/sms/smpp-external-account.md#smpp-transliteration)
 
 +++
 
@@ -221,26 +227,28 @@ To avoid common formatting errors, check the following elements:
 
 * Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).-->
 
-
 ## 이미지 관리 {#manage-images}
 
 다음은 이메일 마케팅 캠페인에 대한 이미지를 최적화하기 위한 몇 가지 특정 지침입니다.
 
-### 이미지 차단 방지
+### 이미지 차단 방지 {#image-blocking}
 
-일부 이메일 클라이언트는 기본적으로 이미지를 차단하며, 일부 사용자는 설정을 변경하여 데이터 사용 시 저장할 이미지를 차단합니다. 따라서 이미지를 다운로드하지 않으면 전체 메시지가 손실될 수 있습니다. 이 문제를 방지하려면
+일부 이메일 클라이언트는 기본적으로 이미지를 차단하며, 사용자는 설정을 변경하여 데이터 사용 시 저장할 이미지를 차단할 수 있습니다.  따라서 이미지를 다운로드하지 않으면 전체 메시지가 손실될 수 있습니다.
 
-* 이미지 및 텍스트와 콘텐츠의 균형을 맞추십시오. 전체 이미지 기반 이메일을 사용하지 마십시오.
++++ 이를 방지하기 위해 이러한 모범 사례를 적용할 수 있습니다
+
+* 전체 이미지 기반 이메일을 사용하지 마십시오. 이미지 및 텍스트와 콘텐츠의 균형을 맞추십시오.
 
 * 이미지에 텍스트가 포함되어야 하는 경우에는 대체 및 제목 텍스트를 사용하여 메시지가 전달되는지 확인하십시오. 대체/제목 텍스트의 스타일을 지정하여 모양을 개선합니다.
 
 * 일부 이메일 클라이언트에서는 배경 이미지를 지원하지 않으므로 배경 이미지를 사용하지 마십시오.
++++
 
-### 이미지 반응형 만들기
+### 이미지 반응형 만들기 {#responsive-images}
 
-반응형 및 크기 변경이 가능한 이미지를 만드십시오. 빌드하는 데 시간이 더 오래 걸리기 때문에 비용에 영향을 줄 수 있습니다.
+모든 컨텍스트 및 장치에서 이미지를 볼 수 있도록 반응형 및 크기 조정할 수 있도록 하십시오. 빌드하는 데 시간이 더 오래 걸리기 때문에 비용에 영향을 줄 수 있습니다.
 
-### 절대 이미지 참조 사용
+### 절대 이미지 참조 사용 {#absolute-images}
 
 외부에서 액세스할 수 있으려면 캠페인에 연결된 이메일 및 공개 리소스에 사용된 이미지가 외부에서 액세스할 수 있는 서버에 있어야 합니다.
 
