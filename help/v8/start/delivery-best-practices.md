@@ -4,9 +4,10 @@ description: Adobe Campaign을 사용하여 게재를 디자인하고 전송할 
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 10af828319569ad9aeeecc809bc213f9608791ac
+exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
+source-git-commit: 61c86c3c9d6dbbabf2d5174b8b7b1721b38280cb
 workflow-type: tm+mt
-source-wordcount: '2869'
+source-wordcount: '2890'
 ht-degree: 2%
 
 ---
@@ -44,7 +45,7 @@ Campaign 게재 기능을 사용한 모범 사례를 확인하십시오.
 기술 권장 사항은 [이 섹션](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}에 나열되어 있습니다.
 
 
-**팁**
++++ **모범 사례 몇 가지 읽기**
 
 * Adobe 잘못된 주소 목록이 있는 경우 **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]**&#x200B;을(를) 통해 격리 테이블로 가져오는 것이 좋습니다.
 
@@ -52,6 +53,9 @@ Campaign 게재 기능을 사용한 모범 사례를 확인하십시오.
 Adobe Campaign은 반환된 오류 유형에 따라 잘못된 주소를 관리합니다. [격리에 대해 자세히 알아보기](../send/quarantines.md)
 
 * 일부 인터넷 액세스 공급자는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 이러한 공급자에 의해 차단 목록에 추가하다에 추가되는 것을 피할 수 있습니다.
+
++++
+
 
 
 ### 이중 옵트인 메커니즘 {#double-opt-in}
@@ -74,6 +78,8 @@ Adobe Campaign에서 여러 브랜드를 관리할 때, Adobe은 브랜드당 �
 * 잘못된 형식의 주소는 수신 서버에서 거부될 수 있습니다. 주소가 정확한지 확인해야 합니다.
 * 주소는 발신자를 명시적으로 식별해야 합니다. 도메인은 발신자가 소유하고 등록해야 합니다.
 * Adobe은 게재 및 회신에 대해 지정된 주소에 해당하는 이메일 계정을 만들 것을 권장합니다. 메시징 시스템 관리자에게 문의하십시오.
+
++++ **Campaign UI에서 주소 구성**
 
 Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르십시오.
 
@@ -119,7 +125,9 @@ var brand = "xxx"
 
 ### 최적화된 컨텐츠 작성 {#build-optimized-content}
 
-이메일을 작성할 때 아래의 일반적인 모범 사례를 염두에 두십시오.
+이메일을 작성할 때 이메일 콘텐츠에 대한 일반적인 모범 사례를 적용합니다.
+
++++ **모범 사례 몇 가지 읽기**
 
 * 디자인 간소화
 
@@ -131,15 +139,24 @@ var brand = "xxx"
 
 * 특수 문자 인코딩
 
++++
+
+
 ### 제목 줄
 
-열람률을 향상시키려면 [제목 줄](../send/personalization-fields.md#personalization-fields-uc)을 사용하세요.
+열람률을 향상시키려면 전자 메일 [제목 줄](../send/personalization-fields.md#personalization-fields-uc)을 사용하세요.
+
+
++++ **모범 사례 몇 가지 읽기**
+
 
 * 너무 긴 과목은 피하세요. 최대 50자 사용
 
 * 스팸으로 간주될 수 있는 &quot;무료&quot; 또는 &quot;오퍼&quot;와 같은 단어를 반복적으로 사용하지 마십시오
 
 * 대문자와 &quot;!&quot;, &quot;!&quot;, &quot; €&quot;, &quot;$&quot;와 같은 특수 문자는 사용하지 마십시오.
+
++++
 
 ### 페이지 미러링
 
@@ -149,15 +166,20 @@ var brand = "xxx"
 
 구독 취소 링크는 필수입니다. 표시 및 유효해야 하며 양식이 제대로 작동해야 합니다. 기본적으로 메시지를 분석할 때 기본 제공 **[!UICONTROL Unsubscription link approval]** [유형화 규칙](../../automation/campaign-opt/control-rules.md)이(가) 옵트아웃 링크가 포함되어 있는지 확인하고 누락된 경우 경고를 생성합니다.
 
-**팁**: 사람의 실수는 항상 가능하므로 보낼 때마다 옵트아웃 링크가 올바르게 작동하는지 확인하세요. 예를 들어 증명을 보낼 때 링크가 유효한지, 양식이 온라인 상태인지, `No longer contact this recipient ` 필드가 `Yes`(으)로 변경되었는지 확인합니다.
-
 이 섹션](../send/personalization-blocks.md)에서 옵트아웃 링크 [을(를) 삽입하는 방법을 알아봅니다.
+
++++ **이 모범 사례 적용**
+
+사람의 오류는 항상 가능하므로 전송할 때마다 옵트아웃 링크가 올바르게 작동하는지 확인하십시오. 예를 들어 증명을 보낼 때 링크가 유효한지, 양식이 온라인 상태인지, `No longer contact this recipient ` 필드가 `Yes`(으)로 변경되었는지 확인합니다.
+
++++
 
 ### 이메일 크기
 
 성능 또는 게재 가능성 문제를 방지하기 위해 이메일의 권장 최대 크기는 약 **35KB**&#x200B;입니다. 메시지 크기를 확인하려면 **[!UICONTROL Preview]** 탭을 탐색하고 테스트 프로필을 선택하십시오. 생성되면 메시지 크기가 오른쪽 상단 모서리에 표시됩니다.
 
-이메일을 제한 이하로 유지하려면 다음 사항을 고려하십시오.
+
++++ **모범 사례 몇 가지 읽기**
 
 * 중복 또는 사용하지 않는 스타일 제거
 
@@ -167,19 +189,22 @@ var brand = "xxx"
 
 최종 전송 전에 모든 변경 사항을 테스트해야 합니다.
 
++++
+
+
 ### SMS 길이
 
 기본적으로 SMS의 문자 수는 GSM(이동통신 글로벌 시스템) 표준을 충족합니다. GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, 또는 여러 부분으로 나누어 전송되는 메시지의 경우 153자로 제한됩니다.
 
 변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다. SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다. 해당 **[!UICONTROL External account]**&#x200B;의 SMPP 채널 설정 탭에서 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다.
 
-**팁**
++++ **모범 사례 몇 가지 읽기**
 
 * SMS 메시지의 모든 문자를 그대로 유지하려면 적절한 이름을 변경하지 마십시오(예: 음역을 활성화하지 마십시오).
 
-* 그러나 SMS 메시지에 GSM 표준에서 고려하지 않는 문자가 많이 포함된 경우 음역을 활성화하여 메시지 전송 비용을 제한하십시오.
+* 그러나 SMS 메시지에 GSM 표준에서 고려하지 않는 문자가 많이 포함된 경우 음역을 활성화하여 메시지 전송 비용을 제한하십시오. 자세한 내용은 [이 섹션](../send/sms/smpp-external-account.md#smpp-transliteration)을 참조하세요.
 
-자세한 내용은 [이 섹션](../send/sms/smpp-external-account.md#smpp-transliteration)을 참조하세요.
++++
 
 ### 첨부 파일 방지
 
@@ -385,8 +410,7 @@ Campaign 게재 대시보드에서 처리된 메시지 및 게재 감사 로그�
 
 수신자의 동작을 더 잘 알기 위해 수신, 열기, 링크 클릭, 구독 취소 등 수신자가 게재에 어떻게 반응하는지를 추적할 수 있습니다. Campaign에서 이 정보는 게재의 대상인 수신자의 **추적** 탭과 게재의 추적 탭에 표시됩니다.
 
-**팁**: 메시지 추적은 기본적으로 사용할 수 있습니다. URL을 구성하려면 게재 도우미의 아래 섹션에서 URL 표시 옵션을 선택합니다. 메시지의 각 URL에 대해 추적을 활성화할지 여부를 선택할 수 있습니다.
+메시지 추적은 기본적으로 활성화되어 있습니다. URL을 구성하려면 게재 도우미의 아래 섹션에서 URL 표시 옵션을 선택합니다. 메시지의 각 URL에 대해 추적을 활성화할지 여부를 선택할 수 있습니다.
 
 
 [Campaign Classic v7 설명서에서 추적 기능에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}
-
