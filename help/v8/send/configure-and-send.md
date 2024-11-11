@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
+source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 8%
@@ -83,9 +83,9 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->마지막 전파가 **[!UICONTROL Validity]** 탭에 정의된 배달 기한을 초과하지 않도록 하십시오. 그렇지 않으면 일부 메시지가 전송되지 않을 수 있습니다. [이 섹션](delivery-failures.md#valid-period)에서 게재 유효 기간에 대해 자세히 알아보세요.
+>* 마지막 전파가 **[!UICONTROL Validity]** 탭에 정의된 배달 기한을 초과하지 않도록 하십시오. 그렇지 않으면 일부 메시지가 전송되지 않을 수 있습니다. [이 섹션](delivery-failures.md#valid-period)에서 게재 유효 기간에 대해 자세히 알아보세요.
 >
->마지막 웨이브를 구성할 때 재시도 시간도 충분히 설정해야 합니다. [이 섹션](delivery-failures.md#retries)에서 다시 시도에 대해 자세히 알아보세요.
+>* 마지막 웨이브를 구성할 때 재시도 시간도 충분히 설정해야 합니다. [이 섹션](delivery-failures.md#retries)에서 다시 시도에 대해 자세히 알아보세요.
 
 ### 예약된 일괄 처리 모니터링 {#monitor-waves}
 

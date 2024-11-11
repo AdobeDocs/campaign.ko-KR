@@ -1,20 +1,20 @@
 ---
 title: 게재 모범 사례
 description: Adobe Campaign을 사용하여 게재를 디자인하고 전송할 때의 모범 사례에 대해 알아봅니다
-feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+feature: Email, Push, SMS, Direct Mail
 role: User
 level: Beginner
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
-source-git-commit: 58d88498c8472381a43d735b4dfb2a802a293952
+source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '2936'
 ht-degree: 2%
 
 ---
 
 # 게재 모범 사례 {#delivery-best-practices}
 
-Campaign 게재 기능을 사용한 모범 사례를 확인하십시오.
+Campaign 게재 기능을 사용한 다음 모범 사례를 살펴보십시오.
 
 ## 게재 최적화 {#optimize-delivery}
 
