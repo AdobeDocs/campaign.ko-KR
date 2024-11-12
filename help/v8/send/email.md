@@ -5,16 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
+source-git-commit: 578f774152afbd42342da0f161b679ba9dd10c78
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 11%
+source-wordcount: '528'
+ht-degree: 10%
 
 ---
 
 # 이메일 디자인 및 보내기
 
-이메일 게재를 사용하면 개인화된 이메일을 대상 모집단으로 보낼 수 있습니다. [자세히 알아보기](../send/send.md)
+Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메일을 대상 모집단으로 보냅니다. [자세히 알아보기](../send/send.md)
 
 [이 페이지](../start/create-message.md)에서 게재를 만들고 구성하는 주요 단계를 알아봅니다.
 
@@ -85,15 +85,16 @@ ht-degree: 11%
 
 첫 번째 이메일 게재가 준비되었습니다. 이제 대상자를 정의하고 게재를 확인하고 전송해야 합니다.
 
-이 [사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}에서 전자 메일 콘텐츠를 가져오는 방법을 알아보세요.
+이 [사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}에서 전자 메일 콘텐츠를 가져오는 워크플로우를 만드는 방법을 알아봅니다.
 
-다음 섹션에서 자세히 알아보세요.
-
-<!--[Design an email in Campaign]-->
-* [이메일 템플릿 만들기 및 사용](../send/create-templates.md)
-* [이메일 대상자 선택](../audiences/gs-audiences.md)
-* [게재 유효성 검사 및 증명 보내기](preview-and-proof.md)
-* [게재 구성 및 보내기](configure-and-send.md)
+>[!MORELIKETHIS]
+>
+>* [게재 만들기](../start/create-message.md)
+>* [전자 메일 템플릿 만들기 및 사용](create-templates.md)
+>* [전자 메일 대상자 선택](../audiences/gs-audiences.md)
+>* [게재 확인 및 증명 보내기](preview-and-proof.md)
+>* [게재 구성 및 보내기](configure-and-send.md)
+>* [게재 모범 사례](../start/delivery-best-practices.md)
 
 ## 이메일 테스트 및 유효성 검사
 
