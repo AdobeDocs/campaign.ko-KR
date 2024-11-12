@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 5054dd1352972b402d54c1b51cfee1fb41ff4d1c
+source-git-commit: 9f19d5c9836c21cea7b4b55241f828e295831339
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '989'
 ht-degree: 18%
 
 ---
@@ -121,7 +121,7 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 ### 템플릿 실행 {#execute-a-template}
 
-먼저 게재를 만들지 않고 템플릿 목록에서 직접 템플릿 실행을 시작할 수 있습니다. [이 섹션](../../automation/workflow/deliveries.md)에 설명된 대로 게재 템플릿을 수동으로 실행하거나 아래에 자세히 설명하거나 이벤트에 의해 트리거할 수 있습니다(서버에서 파일을 사용할 수 있을 때 설정된 시간에 실행됨).
+먼저 게재를 만들지 않고 템플릿 목록에서 직접 템플릿 실행을 시작할 수 있습니다. [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery)에 설명된 대로 게재 템플릿을 수동으로 실행하거나 아래에 자세히 설명하거나 이벤트에 의해 트리거할 수 있습니다(서버에서 파일을 사용할 수 있을 때 설정된 시간에 실행됨).
 
 템플릿을 수동으로 실행하려면 다음 단계를 수행하십시오.
 
