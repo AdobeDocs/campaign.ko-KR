@@ -5,14 +5,14 @@ feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 6%
 
 ---
 
-# 구독 및 구독 취소 관리{#optin-optout}
+# 구독 및 구독 취소 관리 {#optin-optout}
 
 Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들고 모니터링하고 이러한 서비스에 대한 구독/구독 취소를 관리할 수 있습니다. 예를 들어 특정 제품 카테고리, 테마 또는 웹 사이트 영역에 대한 전문가 뉴스레터, 다양한 유형의 경고 메시지 구독 및 실시간 알림과 같은 여러 서비스를 동시에 정의할 수 있습니다.
 

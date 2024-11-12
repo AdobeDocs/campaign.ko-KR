@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 12de29e15d660cd5a40cda059fc19e45311fe312
+source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '990'
+ht-degree: 18%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->사용 가능한 템플릿은 액세스 권한, 인스턴스 구성 및 컨텍스트에 따라 다릅니다. 예를 들어, 정보 서비스를 생성할 때 확인 메시지에 대한 전달 템플릿을 연결할 수 있습니다. 그런 다음 대상 매핑이 구독 매핑인 템플릿에만 액세스할 수 있습니다. 이 컨텍스트에서는 다른 템플릿이 표시되지 않습니다. 자세한 내용은 [대상 매핑 선택](../audiences/target-mappings.md) 및 [서비스 및 구독](../start/subscriptions.md)을 참조하세요.
+>사용 가능한 템플릿은 액세스 권한, 인스턴스 구성 및 컨텍스트에 따라 다릅니다. 예를 들어, 정보 서비스를 생성할 때 확인 메시지에 대한 전달 템플릿을 연결할 수 있습니다. 그런 다음 대상 매핑이 구독 매핑인 템플릿에만 액세스할 수 있습니다. 이 컨텍스트에서는 다른 템플릿이 표시되지 않습니다. 자세한 내용은 [대상 매핑 작업](../audiences/target-mappings.md) 및 [구독 및 구독 취소 관리](../start/subscriptions.md)를 참조하세요.
 
 
 ## 템플릿 만들기 {#create-a-delivery-template}
