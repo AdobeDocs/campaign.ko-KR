@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: acb559c74aea3f59c05792b7596d0f85ff05047c
+source-git-commit: 5054dd1352972b402d54c1b51cfee1fb41ff4d1c
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 19%
+source-wordcount: '988'
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 19%
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#delivery-template-video)
 
-Adobe Campaign에서는 두 가지 유형의 템플릿으로 작업할 수 있습니다.
+게재 템플릿은 Explorer의 **[!UICONTROL Resources > Templates > Delivery templates]** 폴더에 저장됩니다. Adobe Campaign에서는 두 가지 유형의 템플릿으로 작업할 수 있습니다.
 
 1. Adobe Campaign **기본 제공** 게재 템플릿 - 각 채널마다 기본 제공 템플릿을 사용할 수 있습니다. 수정하거나 삭제할 수 없습니다. 여기에는 각 게재 채널에 대한 기본 구성이 포함됩니다. 관리자는 기본값을 설정하거나 추적 매개 변수, 보낸 사람 이메일 주소 수정 등과 같은 특정 기능을 최종 사용자에게 제한할 수 있습니다. 기본 제공 템플릿은 템플릿 목록에 굵게 표시됩니다.
 
@@ -121,18 +121,19 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 ### 템플릿 실행 {#execute-a-template}
 
-먼저 게재를 만들지 않고 템플릿 목록에서 직접 템플릿 실행을 시작할 수 있습니다.
+먼저 게재를 만들지 않고 템플릿 목록에서 직접 템플릿 실행을 시작할 수 있습니다. [이 섹션](../../automation/workflow/deliveries.md)에 설명된 대로 게재 템플릿을 수동으로 실행하거나 아래에 자세히 설명하거나 이벤트에 의해 트리거할 수 있습니다(서버에서 파일을 사용할 수 있을 때 설정된 시간에 실행됨).
 
-이렇게 하려면 실행할 템플릿을 선택하고 마우스 오른쪽 버튼을 클릭합니다. **[!UICONTROL Actions>Execute the delivery template...]**&#x200B;을(를) 선택합니다.
+템플릿을 수동으로 실행하려면 다음 단계를 수행하십시오.
 
-**[!UICONTROL File>Actions>Execute the delivery template...]**&#x200B;을(를) 사용할 수도 있습니다.
+1. 실행할 템플릿을 선택하고 마우스 오른쪽 버튼을 클릭합니다. **[!UICONTROL Actions>Execute the delivery template...]**&#x200B;을(를) 선택합니다.
 
-![](assets/execute-delivery-template.png)
+   **[!UICONTROL File>Actions>Execute the delivery template...]**&#x200B;을(를) 사용할 수도 있습니다.
 
-게재 매개 변수를 입력하고 **[!UICONTROL Send]**&#x200B;을(를) 클릭합니다.
+   ![](assets/execute-delivery-template.png)
+
+1. 게재 매개 변수를 입력하고 **[!UICONTROL Send]**&#x200B;을(를) 클릭합니다.
 
 이 작업은 템플릿에 연결된 폴더에서 게재를 생성합니다. 이 게재 이름은 이 게재를 만든 게재 템플릿의 이름입니다.
-
 
 ## 튜토리얼 비디오 {#delivery-template-video}
 
