@@ -6,20 +6,22 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: acb559c74aea3f59c05792b7596d0f85ff05047c
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 25%
+source-wordcount: '939'
+ht-degree: 19%
 
 ---
 
 # 게재 템플릿 작업 {#work-with-delivery-template}
 
-각 게재는 템플릿을 기반으로 만들어집니다. 기본 제공 템플릿은 각 채널에 사용할 수 있습니다. 이러한 설정을 사용자 지정하여 게재 세트에 동일한 설정을 적용할 수 있습니다.
+## 게재 템플릿 시작
 
-템플릿에는 다음이 포함됩니다.
+각 게재는 템플릿을 기반으로 만들어집니다. 템플릿은 구현을 용이하게 하고 표준화하는 데 재사용할 수 있는 구성입니다. 기본 제공 또는 사용자 지정 템플릿을 사용할 수 있습니다.
 
-* 유형화 규칙
+템플릿에는 다음과 같은 부분 또는 전체 구성 설정이 포함될 수 있습니다.
+
+* [유형화 규칙](../../automation/campaign-opt/campaign-typologies.md)
 * 보낸 사람 및 회신 주소
 * 기본 [개인화 블록](../send/personalization-blocks.md)
 * [미러 페이지](../send/mirror-page.md) 링크 및 구독 취소 링크
@@ -27,6 +29,17 @@ ht-degree: 25%
 * 리소스 유효성, 재시도 매개 변수 또는 격리 설정 등 다른 게재 속성입니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#delivery-template-video)
+
+Adobe Campaign에서는 두 가지 유형의 템플릿으로 작업할 수 있습니다.
+
+1. Adobe Campaign **기본 제공** 게재 템플릿 - 각 채널마다 기본 제공 템플릿을 사용할 수 있습니다. 수정하거나 삭제할 수 없습니다. 여기에는 각 게재 채널에 대한 기본 구성이 포함됩니다. 관리자는 기본값을 설정하거나 추적 매개 변수, 보낸 사람 이메일 주소 수정 등과 같은 특정 기능을 최종 사용자에게 제한할 수 있습니다. 기본 제공 템플릿은 템플릿 목록에 굵게 표시됩니다.
+
+1. **사용자 지정** 게재 템플릿 - Adobe Campaign 관리자는 새 게재 템플릿을 만들 수 있습니다. 가장 좋은 방법은 템플릿을 처음부터 새로 만드는 것이 아니라 기본 제공 템플릿을 복제하고 업데이트하는 것입니다. 예를 들어 이메일 게재 템플릿을 구성할 수 있으며, 사용자가 이 템플릿에서 게재를 만들 때는 텍스트 또는 HTML 콘텐츠만 입력하면 됩니다. 다른 모든 설정은 이미 정의되어 있습니다.
+
+>[!NOTE]
+>
+>사용 가능한 템플릿은 액세스 권한, 인스턴스 구성 및 컨텍스트에 따라 다릅니다. 예를 들어, 정보 서비스를 생성할 때 확인 메시지에 대한 전달 템플릿을 연결할 수 있습니다. 그런 다음 대상 매핑이 구독 매핑인 템플릿에만 액세스할 수 있습니다. 이 컨텍스트에서는 다른 템플릿이 표시되지 않습니다. 자세한 내용은 [대상 매핑 선택](../audiences/target-mappings.md) 및 [서비스 및 구독](../start/subscriptions.md)을 참조하세요.
+
 
 ## 템플릿 만들기 {#create-a-delivery-template}
 
