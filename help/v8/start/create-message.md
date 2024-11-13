@@ -5,16 +5,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 55b752713a29c035680dd39e42422b1743e15269
+source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
 
 # 첫 번째 게재 만들기 {#create-a-msg}
 
-이 페이지에서는 일회성 단일 게재를 만드는 방법을 배웁니다. 다른 유형의 게재를 만들어 사용 사례를 해결할 수 있습니다. [이 페이지](gs-message.md)에서 다양한 유형의 게재와 게재를 만드는 방법에 대해 자세히 알아보세요.
+이 페이지에서 일회성 단일 게재를 만드는 방법을 알아봅니다. 다른 유형의 게재를 만들어 사용 사례를 빌드할 수 있습니다. [이 페이지](gs-message.md)에서 다양한 유형의 게재와 게재를 만드는 방법에 대해 자세히 알아보세요.
 
 일회성 게재를 만드는 주요 단계는 다음과 같습니다.
 
