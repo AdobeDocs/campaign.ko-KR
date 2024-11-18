@@ -1,18 +1,18 @@
 ---
-title: 업그레이드 시작하기
+title: 캠페인 시작
 description: 업그레이드 시작하기
 feature: Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 8d6c3e03f9b7533f7f325b755e3b6d4f74b63a8d
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
-# 캠페인 시작하기 {#gs-ac-campaigns}
+# 업그레이드 시작하기 {#gs-ac-campaigns}
 
 Adobe Campaign은 온라인과 오프라인의 모든 채널에서 캠페인을 개인화하고 게재할 수 있는 다양한 솔루션을 제공합니다. 마케팅 캠페인을 생성, 구성, 실행 및 분석할 수 있습니다. 모든 마케팅 캠페인은 통합 제어 센터에서 관리할 수 있습니다. 이 섹션에서 마케팅 캠페인을 검색하고 만드는 방법을 알아봅니다.
 
