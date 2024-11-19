@@ -6,9 +6,9 @@ title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
 source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 99%
    + [캠페인 오케스트레이션 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
 + 메시지 보내기{#send}
    + [메시지 시작](start/gs-message.md)
-   + [첫 번째 게재 만들기](start/create-message.md)
+   + [첫 게재 만들어 보기](start/create-message.md)
    + [게재 모범 사례](start/delivery-best-practices.md)
    + 이메일 {#emails}
       + [이메일 디자인 및 유효성 검사](send/email.md)
