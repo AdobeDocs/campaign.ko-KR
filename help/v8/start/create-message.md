@@ -6,15 +6,15 @@ role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 첫 게재 만들어 보기 {#create-a-msg}
 
-이 페이지에서 일회성 단일 게재를 만드는 방법을 알아봅니다. 다른 유형의 게재를 만들어 사용 사례를 빌드할 수 있습니다. [이 페이지](gs-message.md)에서는 게재의 다양한 유형과 이를 만드는 방법을 자세히 알아봅니다.
+이 페이지에서는 일회성 단일 게재를 만드는 방법을 알아봅니다. 사용 사례를 구축하기 위한 다른 유형의 게재를 만들 수 있습니다. [이 페이지](gs-message.md)에서는 게재의 다양한 유형과 이를 만드는 방법을 자세히 알아봅니다.
 
 일회성 게재를 만드는 주요 단계는 다음과 같습니다.
 
