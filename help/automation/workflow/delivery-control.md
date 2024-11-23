@@ -5,7 +5,7 @@ description: 게재 제어 워크플로우 활동에 대해 자세히 알아보�
 feature: Workflows
 role: User
 exl-id: 09fe638d-5e1c-49d1-9196-6300c1e56703
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 2%
@@ -13,8 +13,6 @@ ht-degree: 2%
 ---
 
 # 게재 제어{#delivery-control}
-
-
 
 **게재 제어** 유형 작업을 사용하면 게재를 시작, 일시 중지 또는 중지할 수 있습니다.
 
@@ -38,4 +36,4 @@ ht-degree: 2%
 
 * deliveryId
 
-선택한 작업이 **[!UICONTROL Specified in the transition]**&#x200B;인 경우 게재 식별자.
+  선택한 작업이 **[!UICONTROL Specified in the transition]**&#x200B;인 경우 게재 식별자.

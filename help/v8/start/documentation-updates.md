@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: 4cb825c1899243e72a66b9dea2e56c45dc466fde
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '226'
 ht-degree: 28%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 28%
 
 ## 2024년 11월 {#october-2024}
 
-기술 워크플로우 목록에 **ffdaUnsuscribe** 워크플로우를 추가했습니다.[자세히 알아보기](../../automation/workflow/technical-workflows.md)
+* 기술 워크플로우 목록에 **ffdaUnsuscribe** 워크플로우를 추가했습니다. [자세히 알아보기](../../automation/workflow/technical-workflows.md)
+* Campaign 버전 및 업그레이드에 대한 페이지가 개선되었습니다. [자세히 알아보기](upgrades.md)
 
 ## 2024년 6월 {#june-2024}
 

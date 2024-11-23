@@ -2,9 +2,9 @@
 title: 캠페인 운영자를 IMS(Identity Management System) Adobe으로 마이그레이션
 description: Campaign 연산자를 IMS(Identity Management System) Adobe으로 마이그레이션하는 방법에 대해 알아봅니다.
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1343'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,11 @@ Campaign Classic v7 Managed Services 고객은 Campaign v8로 마이그레이션
 
 ## 변경 사항{#move-to-ims-changes}
 
-Campaign v8을 사용하면 모든 일반 사용자가 이미 IMS(Identity Management System) Adobe을 통해 Adobe ID을 사용하여 Adobe Campaign 클라이언트 콘솔에 연결해야 합니다. 그러나 일부 이전 구성에서는 사용자/암호 연결을 계속 사용할 수 있었습니다. **Campaign v8.6.**&#x200B;부터 더 이상 사용할 수 없습니다.
+Campaign v8을 사용하면 모든 일반 사용자가 이미 IMS(Identity Management System) Adobe을 통해 Adobe ID을 사용하여 Adobe Campaign 클라이언트 콘솔에 연결해야 합니다. 그러나 일부 이전 구성에서는 사용자/암호 연결을 계속 사용할 수 있었습니다. **Campaign v8.6.**&#x200B;을(를) 시작할 수 없습니다.
 
 또한 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 이제 Adobe Campaign 클라이언트 애플리케이션이 IMS 기술 계정 토큰을 사용하여 Campaign API를 직접 호출합니다. 기술 운영자에 대한 마이그레이션은 전용 문서에 자세히 설명되어 있습니다. [이 페이지](ims-migration.md)에서 확인할 수 있습니다.
 
-이 변경 사항은 Campaign v8.5.2부터 적용되며 Campaign v8.6부터 **필수**&#x200B;이 됩니다.
+이 변경 사항은 Campaign v8.5.2부터 적용되며 Campaign v8.6부터 **필수**&#x200B;입니다.
 
 ## 영향을 받습니까?{#migrate-ims-impacts}
 

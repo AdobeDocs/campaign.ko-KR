@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 8%
+source-wordcount: '1188'
+ht-degree: 10%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 8%
 
 1. **[!UICONTROL Send]**&#x200B;을(를) 클릭하고 원하는 작업을 선택합니다.
 
-   * 게재를 즉시 보내려면 [**최대한 빨리 게재**]&#x200B;을(를) 선택하십시오.
+   * 게재를 즉시 보내려면 **[!UICONTROL Deliver as soon as possible]**&#x200B;을(를) 선택합니다.
    * 전송을 나중에 예약하려면 **[!UICONTROL Postpone the delivery]**&#x200B;을(를) 선택하십시오. [자세히 알아보기](#schedule-delivery-sending)
 
 1. **[!UICONTROL Analyze]**&#x200B;을(를) 클릭합니다. 자세한 내용은 [이 섹션](delivery-analysis.md)을 참조하십시오.
