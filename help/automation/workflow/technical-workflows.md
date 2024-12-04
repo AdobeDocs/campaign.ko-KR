@@ -5,48 +5,41 @@ description: Campaign에서 사용할 수 있는 기술 워크플로우에 대�
 feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 4cb825c1899243e72a66b9dea2e56c45dc466fde
+source-git-commit: 97ab8259c0044b65fec2ad5ddc44d28f0cbf65e5
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
 
 # 기술 워크플로{#about-technical-workflows}
 
-Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버에서 주기적으로 실행되도록 예약된 작업과 작업을 관리합니다. 이 도구를 사용하여 데이터베이스 유지 관리를 수행하거나, 게재에 대한 추적 정보를 전달하거나, 게재에 대한 임시 프로세스를 설정할 수 있습니다. 기술 워크플로우는 **[!UICONTROL Administration > Production > Technical workflows]** 노드를 통해 구성됩니다.
-
-![](assets/navtree.png)
-
-기술 워크플로우를 만드는 데 기본 템플릿을 사용할 수 있습니다. 필요에 맞게 구성할 수 있습니다.
-
-**[!UICONTROL Campaign process]** 하위 폴더는 캠페인 내에서 프로세스를 실행하는 데 필요한 워크플로(작업 알림, 재고 관리, 비용 계산 등)를 중앙 집중화합니다.
-
-![](assets/campaign-processes-wf.png)
-
-
->[!NOTE]
->
->각 모듈과 함께 설치된 기술 워크플로우 목록은 [전용 섹션](technical-workflows.md)에서 사용할 수 있습니다.
-
-트리 구조의 **[!UICONTROL Administration > Production > Technical workflows]** 노드에서 다른 기술 워크플로우를 만들 수 있습니다. 그러나 이 프로세스는 전문가 사용자용으로 예약되어 있습니다.
-
-제공되는 활동은 타겟팅 워크플로우와 동일합니다. [자세히 알아보기](targeting-workflows.md)
-
-이 섹션에 자세히 설명된 워크플로우는 다른 Adobe Campaign 기본 제공 패키지와 함께 설치됩니다. 이러한 패키지 및 관련 기술 워크플로우는 라이선스 계약에 따라 다릅니다.
+Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버에서 주기적으로 실행되도록 예약된 작업과 작업을 제어합니다. 기술 워크플로우는 Campaign 데이터베이스에서 유지 관리 작업을 실행하고, 게재의 추적 데이터를 관리하며, 게재의 임시 프로세스를 설정합니다.
 
 기본적으로 기술 워크플로우는 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** 노드의 하위 폴더에서 사용할 수 있습니다.
 
-기술 워크플로우는 관리 권한이 있는 운영자만 시작하고 수정할 수 있습니다.
+![](assets/navtree.png){width="50%" align="center" zoomable="yes"}
 
 >[!NOTE]
 >
->메시지 센터 추가 기능과 관련된 기술 워크플로우는 기본적으로 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** 노드에서 사용할 수 있습니다.
+>* 각 모듈과 함께 설치된 기술 워크플로우 목록은 [이 섹션](#list-technical-workflows)에서 사용할 수 있습니다.
+>
+>* 메시지 센터 추가 기능과 관련된 기술 워크플로는 기본적으로 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** 노드에 저장됩니다.
 
-이 [전용 섹션](monitor-technical-workflows.md)에서 기술 워크플로우를 모니터링하는 방법을 알아봅니다.
+**[!UICONTROL Campaign process]** 하위 폴더는 캠페인 내에서 프로세스를 실행하는 데 필요한 워크플로(작업 알림, 재고 관리, 비용 계산 등)를 중앙 집중화합니다.
 
+![](assets/campaign-processes-wf.png){width="70%" align="center" zoomable="yes"}
+
+
+## 기술 워크플로우 관리 및 만들기 {#manage-tech-workflows}
+
+**관리** 권한이 있는 운영자만 Campaign 기술 워크플로우를 시작하고 수정할 수 있습니다. 이 [전용 섹션](monitor-technical-workflows.md)에서 기술 워크플로우를 모니터링하는 방법을 알아봅니다.
+
+트리 구조의 **[!UICONTROL Administration > Production > Technical workflows]** 노드에서 사용자 지정 기술 워크플로우를 만들 수 있습니다. 기술 워크플로우를 만드는 데 기본 템플릿을 사용할 수 있습니다. 필요에 맞게 구성할 수 있습니다. 그러나 이 프로세스는 전문가 사용자용으로 예약되어 있습니다. 기술 워크플로우에서 사용할 수 있는 활동은 타겟팅 워크플로우와 동일합니다. [자세히 알아보기](targeting-workflows.md).
 
 ## 기술 워크플로우 목록 {#list-technical-workflows}
+
+이 페이지에 설명된 워크플로우는 Adobe Campaign 기본 제공 패키지와 함께 설치됩니다. 이러한 패키지 및 관련 기술 워크플로우는 라이선스 계약 및 추가 기능에 따라 다릅니다.
 
 | 기술 워크플로 | 패키지 | 설명 |
 |------|--------|-----------|
@@ -59,12 +52,12 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 | **데이터베이스 정리**(정리) | 기본적으로 설치됨 | 이 워크플로우는 데이터베이스 유지 관리 워크플로우입니다. 통계 및 프로세스에서 다른 계산을 수행하고 배포 도우미에 정의된 구성에 따라 데이터베이스에서 오래된 데이터를 삭제합니다. 기본적으로 매일 오전 4시에 트리거됩니다. |
 | **차단된 LINE 사용자 삭제**(deleteBlockedLineUsersV2) | LINE 채널 | 이 워크플로우에서는 180일 동안 LINE 공식 계정을 차단한 후 LINE V2 사용자의 데이터를 삭제합니다. |
 | **개인 정보 보호 요청 데이터 삭제**(deletePrivacyRequestsData) | 개인 정보 보호 규정 | 이 워크플로우는 Adobe Campaign에 저장된 수신자의 데이터를 삭제합니다. |
-| **게재 표시기**(deliveryIndicators) | 중간 소싱 플랫폼 | 이 워크플로우는 게재에 대한 게재 추적 지표를 업데이트합니다. 이 워크플로우는 기본적으로 매 시간마다 트리거됩니다. |
+| **게재 표시기**(deliveryIndicators) | 기본적으로 설치됨 | 이 워크플로우는 게재에 대한 게재 추적 지표를 업데이트합니다. 이 워크플로우는 기본적으로 매 시간마다 트리거됩니다. |
 | **분산 마케팅 프로세스**(centralLocalMgt) | 중앙/로컬 마케팅(분산 마케팅) | 이 워크플로우는 분산 마케팅 모듈 사용과 관련된 처리를 시작합니다. 로컬 캠페인 생성을 시작하고 주문 및 캠페인 패키지 가용성과 관련된 알림을 관리합니다. |
 | **이벤트 제거**(webAnalyticsPurgeWebEvents) | 웹 분석 커넥터 | 이 워크플로우를 사용하면 수명 필드에 구성된 기간에 따라 데이터베이스 필드에서 모든 이벤트를 삭제할 수 있습니다. |
 | **Adobe Experience Cloud으로 대상 내보내기**(exportSharedAudience) | Adobe Experience Cloud과 통합 | 이 워크플로우에서는 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상은 사용하는 다른 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. |
 | **ffdaUnsuscribe** | 기본적으로 설치됨 | 이 워크플로는 `<mailto>` 목록 구독 취소 메서드를 사용하여 바운스 메일로 다시 받은 구독 취소를 처리합니다. 엔터프라이즈(FFDA) 배포가 있는 마케팅 인스턴스에서만 1시간마다 매일 실행됩니다.<br/><br/>워크플로는 inMail 모듈(NmsBroadLog 테이블의 iFlags 열에 설정된 표시)에서 구독 취소로 표시된 특정 시간 범위(마지막 처리 시간 및 현재 시간)의 브로드로그를 확인하고 브로드로그 서비스의 설정 여부에 따라 구독 취소를 처리합니다.<ul><li>serviceId가 0(정의되지 않음)이면 수신자는 차단 목록에 추가된으로 수신됩니다.</li><li>serviceId가 0(기존 서비스에 연결됨)이 아니면 수신자는 해당 서비스의 구독을 취소하게 됩니다.</li></ul><br/>참고: 이 워크플로는 바운스 구독 취소만 처리합니다. 구독 취소는 옵트아웃 링크를 통해 수행되고 원클릭 구독 취소(URL 메서드)는 이 워크플로의 외부에서 별도로 처리됩니다. |
-| **예측**(예측) | 게재 | 이 워크플로우는 임시 캘린더에 저장된 게재를 분석합니다(임시 로그 생성). 기본적으로 매일 오전 1시에 트리거됩니다. |
+| **예측**(예측) | 기본적으로 설치됨 | 이 워크플로우는 임시 캘린더에 저장된 게재를 분석합니다(임시 로그 생성). 기본적으로 매일 오전 1시에 트리거됩니다. |
 | **전체 집계 계산(propositionrcp 큐브)**(agg_nmspropositionrcp_full) | 오퍼 엔진(상호 작용) | 이 워크플로우는 오퍼 제안 큐브에 대한 전체 집계를 업데이트합니다. 기본적으로 매일 오전 6시에 트리거됩니다. 이 집계는 채널, 게재, 마케팅 오퍼 및 날짜 차원을 캡처합니다. 그런 다음 오퍼 제안 큐브를 사용하여 오퍼를 기반으로 보고서를 생성합니다. [이 섹션](../../v8/reporting/gs-cubes.md)에서 큐브에 대해 자세히 알아보세요. |
 | **변환된 연락처 식별**(webAnalyticsFindConverted) | 웹 분석 커넥터 | 이 워크플로우는 리마케팅 캠페인 후 구매를 완료한 사이트 방문자를 색인화합니다. 이 워크플로우에서 복구한 데이터는 리마케팅 효율성 보고서에서 액세스할 수 있습니다(이 페이지 참조). |
 | **Adobe Experience Cloud에서 대상 가져오기**(importSharedAudience) | Adobe Experience Cloud과 통합 | 이 워크플로우를 통해 다른 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져올 수 있습니다. |
