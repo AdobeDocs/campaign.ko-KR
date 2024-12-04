@@ -5,9 +5,9 @@ description: Campaign에서 사용할 수 있는 기술 워크플로우에 대�
 feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 97ab8259c0044b65fec2ad5ddc44d28f0cbf65e5
+source-git-commit: e8546d56232c50dbf4aedf054a7d63838e3fd957
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 
 기본적으로 기술 워크플로우는 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** 노드의 하위 폴더에서 사용할 수 있습니다.
 
-![](assets/navtree.png){width="50%" align="center" zoomable="yes"}
+![](assets/navtree.png){width="50%" align="left" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -28,8 +28,7 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 
 **[!UICONTROL Campaign process]** 하위 폴더는 캠페인 내에서 프로세스를 실행하는 데 필요한 워크플로(작업 알림, 재고 관리, 비용 계산 등)를 중앙 집중화합니다.
 
-![](assets/campaign-processes-wf.png){width="70%" align="center" zoomable="yes"}
-
+![](assets/campaign-processes-wf.png)
 
 ## 기술 워크플로우 관리 및 만들기 {#manage-tech-workflows}
 
@@ -37,7 +36,7 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 
 트리 구조의 **[!UICONTROL Administration > Production > Technical workflows]** 노드에서 사용자 지정 기술 워크플로우를 만들 수 있습니다. 기술 워크플로우를 만드는 데 기본 템플릿을 사용할 수 있습니다. 필요에 맞게 구성할 수 있습니다. 그러나 이 프로세스는 전문가 사용자용으로 예약되어 있습니다. 기술 워크플로우에서 사용할 수 있는 활동은 타겟팅 워크플로우와 동일합니다. [자세히 알아보기](targeting-workflows.md).
 
-## 기술 워크플로우 목록 {#list-technical-workflows}
+## 내장 기술 워크플로우 {#list-technical-workflows}
 
 이 페이지에 설명된 워크플로우는 Adobe Campaign 기본 제공 패키지와 함께 설치됩니다. 이러한 패키지 및 관련 기술 워크플로우는 라이선스 계약 및 추가 기능에 따라 다릅니다.
 
