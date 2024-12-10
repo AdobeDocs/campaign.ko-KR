@@ -4,15 +4,15 @@ description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 최신 릴리스 {#latest-release}
 
-이 페이지에는 최신 Campaign v8 릴리스(콘솔)의 최신 릴리스와 함께 새로운 기능, 개선 및 수정 사항이 나와 있습니다. [이 페이지](upgrades.md)에서 Campaign 릴리스, 버전 및 업그레이드에 대해 자세히 알아보세요.
+이 페이지에는 최신 Campaign v8 릴리스(콘솔)의 최신 릴리스와 함께 새로운 기능, 개선 및 수정 사항이 나와 있습니다. [이 페이지](upgrades.md)에서 Campaign 릴리스와 버전, 업그레이드에 대해 자세히 알아보십시오.
 
 ## 릴리스 8.7.2 {#release-8-7-2}
 
