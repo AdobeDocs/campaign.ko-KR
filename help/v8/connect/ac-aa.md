@@ -5,10 +5,10 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
+source-git-commit: e465b846b3144a2138bb912b4baa09238f8c5b4c
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 67%
+source-wordcount: '1333'
+ht-degree: 65%
 
 ---
 
@@ -143,6 +143,10 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 
 1. **[!UICONTROL eVars]** 카테고리에서 [!DNL Adobe Analytics]에 구성된 두 **[!UICONTROL Conversion variables]**&#x200B;을(를) 매핑합니다.
+
+   >[!NOTE]
+   >
+   >Campaign ID 및 Broadload ID 필드는 랜딩 페이지의 JavaScript 또는 처리 규칙을 통해 수집됩니다. [처리 규칙에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 
