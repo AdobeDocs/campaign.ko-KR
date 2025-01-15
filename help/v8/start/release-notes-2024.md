@@ -3,10 +3,10 @@ title: Campaign v8(콘솔) 2023 릴리스 정보
 description: 2023 Campaign v8 릴리스의 기능 및 개선 사항 목록
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: fb7abba9009591a2757c07f584c0a7c59c6eb01a
+source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 91%
+source-wordcount: '1430'
+ht-degree: 92%
 
 ---
 
@@ -14,28 +14,41 @@ ht-degree: 91%
 
 이 페이지에는 **2024 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다.
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서**
+
+* Campaign v8.7 - [릴리스 8.7.1](#release-8-7-1) | [릴리스 8.7.2](#release-8-7-2)
+* Campaign v8.6 - [릴리스 8.6.1](#release-8-6-1) | [릴리스 8.6.2](#release-8-6-2) | [릴리스 8.6.3](#release-8-6-3)
+* Campaign v8.5 - [릴리스 8.5.3](#release-8-5-3)
+
+>[!ENDSHADEBOX]
 
 
-## 릴리스 8.5.3 {#release-8-5-3}
+## 릴리스 8.7.2 {#release-8-7-2}
 
-_2024년 5월 28일 수요일_
+_2024년 9월 3일_
 
-### OAuth 서버 간 자격 증명으로 마이그레이션 {#change-8-5-3}
+>[!AVAILABILITY]
+>
+>이 릴리스는 **제한 공개**(LA) 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
+>
+>Campaign v8로 전환하는 Campaign Standard 사용자라면 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"}를 통해 전환 과정을 자세히 확인할 수 있습니다.
 
-이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. [자세히 알아보기](#change-8-7-1)
+### 새로운 기능 {#new-8-7-2}
 
-### 수정 사항 {#fixes-8-5-3}
+* **새로운 SMS 전송 커넥터** - SMS 전송 커넥터가 최신화되고 개선되었습니다. 송수신기 모드 SMPP 연결 및 영구 SMPP 연결을 사용할 수 있으며 Adobe Campaign Standard에서 전환할 때 환경에 대해 보다 나은 호환성을 보장합니다. 이제 모든 새 SMS 구현에 새 SMS 외부 계정을 사용할 수 있습니다. 기존 구현도 여전히 지원하지만 새롭게 확장된 최신형 커넥터로 옮기는 것을 권장합니다. [자세히 보기](../send/sms/sms.md).
+
+* **리치 푸시 알림(GA)** - 이제 리치 푸시 알림을 전송할 수 있습니다. 리치 푸시 알림은 이미지, 대화형 버튼 또는 기타 리치 미디어 콘텐츠와 같은 멀티미디어 요소를 통합하여 단순한 문자 메시지를 뛰어 넘는 향상된 형태의 모바일 알림입니다. 이번 버전에서는 이제 iOS 및 Android 앱에서 리치 푸시 알림을 위한 템플릿 세트를 사용할 수 있습니다. [자세히 보기](../send/rich-push-android.md).
+
+* **브랜딩** - 이제 SMS 및 다이렉트 메일을 포함한 모든 채널에서 브랜딩 옵션을 사용할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ko){target="_blank"}
+
+### 수정 사항 {#fixes-8-7-2}
 
 이 릴리스에서는 다음 문제가 해결되었습니다.
 
-NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-59544, NEO-52542
+NEO-48232, NEO-56832, NEO-72504, NEO-74855, NEO-75898, NEO-76097, NEO-76958, NEO-77014, NEO-77795, NEO-78843, NEO-79328.
 
-
-## 5월 업데이트 {#may-updates}
-
-다음 변경 사항은 5월에 릴리스되었으며 이제 Campaign v8 사용자가 사용할 수 있습니다.
-
-* **새로운 향상된 보안 추가 기능**: 네트워크 연결을 더욱 안전하게 만들고 리소스에 대한 향상된 보안을 제공하기 위해 Adobe Campaign에서는 보안 CMK 통합 및 보안 VPN 터널링의 두 가지 기능이 포함된 향상된 새 보안 추가 기능을 제공합니다. [자세히 보기](../config/enhanced-security.md)
 
 
 ## 릴리스 8.7.1 {#release-8-7-1}
@@ -46,13 +59,13 @@ _2024년 5월 2일_
 >
 >이 릴리스는 **제한 공개**(LA) 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 >
->Campaign v8로 전환하는 Campaign Standard 사용자라면 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}를 통해 전환 과정을 자세히 확인할 수 있습니다.
+>Campaign v8로 전환하는 Campaign Standard 사용자라면 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"}를 통해 전환 과정을 자세히 확인할 수 있습니다.
 
 ### 새로운 기능 {#new-8-7-1}
 
 * **리치 푸시 알림 템플릿** - 이제 Android를 통해 리치 푸시 알림을 전송할 수 있습니다. 리치 푸시 알림은 이미지, 대화형 버튼 또는 기타 리치 미디어 콘텐츠와 같은 멀티미디어 요소를 통합하여 단순한 문자 메시지를 뛰어 넘는 향상된 형태의 모바일 알림입니다. [자세히 보기](../send/rich-push-ios.md).
 
-* **브랜딩** - Campaign Standard로 마이그레이션한 사용자로서 기술 관리자는 이제 하나 이상의 브랜드를 정의하여 브랜드의 정체성에 영향을 미치는 매개 변수를 중앙 집중화할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ko){target="_blank"}
+* **브랜딩** - Campaign Standard로 마이그레이션한 사용자로서 기술 관리자는 이제 하나 이상의 브랜드를 정의하여 브랜드의 아이덴티티에 영향을 미치는 매개 변수를 중앙 집중화할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ko){target="_blank"}
 
 * **Rest API** - Campaign Standard를 마이그레이션한 사용자는 Rest API를 사용하여 Adobe Campaign을 위한 통합을 만들고, 사용하는 기술 패널과 Adobe Campaign을 연결하여 고유한 에코시스템을 구축할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ko){target="_blank"}
 
@@ -82,6 +95,38 @@ Campaign과 인바운드 통합을 구현했다면 기술 계정을 마이그레
 
 NEO-72648, NEO-71534, NEO-71473, NEO-70263, NEO-70195, NEO-69651, NEO-68704, NEO-68192, NEO-67814, NEO-67702, NEO-67620, NEO-66022, NEO-65774, NEO-65633, NEO-64199, NEO-63706, NEO-63705, NEO-63287, NEO-63197, NEO-62575, NEO-60250, NEO-60192, NEO-58596, NEO-58314, NEO-58004, NEO-40054
 
+
+
+## 릴리스 8.6.3 {#release-8-6-3}
+
+_2024년 7월 30일_
+
+### 새로운 기능 {#new-8-6-3}
+
+* **리치 푸시 알림** - 이제 리치 푸시 알림을 전송할 수 있습니다. 리치 푸시 알림은 이미지, 대화형 버튼 또는 기타 리치 미디어 콘텐츠와 같은 멀티미디어 요소를 통합하여 단순한 문자 메시지를 뛰어 넘는 향상된 형태의 모바일 알림입니다. 이번 버전에서는 이제 iOS 및 Android 앱에서 리치 푸시 알림을 위한 템플릿 세트를 사용할 수 있습니다. [자세히 보기](../send/rich-push-android.md).
+
+* 이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. [자세히 알아보기](release-notes-2024.md#change-8-7-1)
+
+### 일반 개선 사항 {#improvements-8-6-3}
+
+* 애플리케이션 간 모든 통신에 대한 보안을 강화하기 위해 이제 외부 API 호출에도 mTLS를 지원합니다.
+
+### 수정 사항 {#fixes-8-6-3}
+
+이 릴리스에서는 다음 문제가 해결되었습니다.
+
+NEO-79328, NEO-78843, NEO-77795, NEO-77014, NEO-76958, NEO-76097, NEO-75898, NEO-72504, NEO-70263, NEO-67620, NEO-63197, NEO-58596, NEO-56832.
+
+<!--
+https://jira.corp.adobe.com/issues/?filter=585288&jql=fixVersion%20%3D%208.6.3%20AND%20type%20not%20in%20(epic%2C%20test%2C%20sub-task%2C%20Roadmap)%20AND%20resolution%20!%3D%20unresolved%20AND%20%22Fixed%20in%20Build%22%20is%20not%20EMPTY%20and%20type%20in%20(%22customer%20request%22)
+-->
+
+
+## 2024년 5월 업데이트 {#may-updates}
+
+다음 변경 사항은 5월에 릴리스되었으며 이제 Campaign v8 사용자가 사용할 수 있습니다.
+
+* **새로운 향상된 보안 추가 기능**: 네트워크 연결을 더욱 안전하게 만들고 리소스에 대한 향상된 보안을 제공하기 위해 Adobe Campaign에서는 보안 CMK 통합 및 보안 VPN 터널링의 두 가지 기능이 포함된 향상된 새 보안 추가 기능을 제공합니다. [자세히 보기](../config/enhanced-security.md)
 
 ## 릴리스 8.6.2 {#release-8-6-2}
 
@@ -123,3 +168,19 @@ _2024년 2월 14일_
 이 릴리스에서는 다음 문제가 해결되었습니다.
 
 NEO-67892, NEO-67235, NEO-66797, NEO-66462, NEO-65091, NEO-65036, NEO-64984, NEO-64680, NEO-63973, NEO-63879, NEO-63815, NEO-63657, NEO-63539, NEO-63387, NEO-63294, NEO-63174, NEO-62964, NEO-62750, NEO-62686, NEO-62455, NEO-62406, NEO-61580, NEO-61199, NEO-60786, NEO-59544, NEO-59198, NEO-59059 58637 55197 52542 50488 47789
+
+
+
+## 릴리스 8.5.3 {#release-8-5-3}
+
+_2024년 5월 28일 수요일_
+
+### OAuth 서버 간 자격 증명으로 마이그레이션 {#change-8-5-3}
+
+이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. [자세히 알아보기](#change-8-7-1)
+
+### 수정 사항 {#fixes-8-5-3}
+
+이 릴리스에서는 다음 문제가 해결되었습니다.
+
+NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-59544, NEO-52542

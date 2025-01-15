@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
-source-git-commit: ad198540dc65152680e1d14c45286b94397948fd
+source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 57%
+source-wordcount: '1496'
+ht-degree: 56%
 
 ---
 
@@ -16,6 +16,14 @@ ht-degree: 57%
 
 이 페이지에는 **2023 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다.
 
+>[!BEGINSHADEBOX]
+
+**이 페이지에서**
+
+* Campaign v8.5 - [릴리스 8.5.1](#release-8-5-1) | [릴리스 8.5.2](#release-8-5-2)
+* Campaign v8.4 - [릴리스 8.4.3](#release-8-4-3) | [릴리스 8.4.4](#release-8-4-4) | [릴리스 8.4.5](#release-8-4-5)
+
+>[!ENDSHADEBOX]
 
 ## 릴리스 8.5.2 {#release-8-5-2}
 
@@ -32,7 +40,7 @@ _2023년 6월 30일 토요일_
 
 Campaign v8.5.1은 최신 첨단 기술을 기반으로 구축된 강력한 프레임워크에서 제공하는 최신 푸시 알림 서비스를 도입했습니다. 이 서비스는 새로운 차원의 확장성을 제공하도록 설계되었으므로, 원활한 효율성으로 더 많은 대상자에게 알림이 전달될 수 있습니다. 향상된 인프라와 최적화된 프로세스를 통해 더 높은 규모와 신뢰성을 기대할 수 있으며, 이전과 달리 모바일 앱 사용자를 참여시키고 연결할 수 있는 역량을 확보할 수 있습니다. 이 기능은 선택한 고객 그룹만 사용할 수 있습니다(제한된 가용성).
 
-자세한 내용은 [세부 설명서](../send/push-data-collection.md)를 참조하세요.
+자세한 내용은 [세부 설명서](../send/push-data-collection.md)를 참조하십시오.
 
 
 <table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
