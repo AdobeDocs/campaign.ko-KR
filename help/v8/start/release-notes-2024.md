@@ -3,10 +3,10 @@ title: Campaign v8(콘솔) 2024 릴리스 정보
 description: 2024 Campaign v8 릴리스의 기능 및 개선 사항 목록
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: 3bf433f3125183001d9f2a02a6a91011de1aa6ad
+source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 90%
+source-wordcount: '1217'
+ht-degree: 88%
 
 ---
 
@@ -121,6 +121,10 @@ _2024년 2월 14일_
 
 * 이번 릴리스부터 중앙 Adobe Experience Cloud 환경을 통해 사용할 수 있는 새로운 **Campaign Web 사용자 인터페이스**&#x200B;에 액세스할 수 있습니다. Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능, 서비스에 빠르게 액세스할 수 있습니다. [이 페이지에서](campaign-ui.md#ac-web-ui) Adobe Experience Cloud에 연결하여 Adobe Campaign Web 인터페이스에 액세스하는 방법을 알아보십시오.
 
+  >[!AVAILABILITY]
+  >
+  >Campaign 웹 사용자 인터페이스는 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다. [IMS(Identity Management 시스템) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}에 대해 자세히 알아보세요.
+  >
 
 * Adobe Campaign v8은 이제 **Adobe Experience Manager as a Cloud Service**&#x200B;와 통합되어 Adobe Campaign Web 사용자 인터페이스를 통해서만 작성이 가능합니다. [자세히 알아보기](../connect/ac-aem.md)
 

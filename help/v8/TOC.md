@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 100%
       + [개인화 블록 사용](send/personalization-blocks.md)
       + [조건 만들기](send/conditions.md)
    + 게재 유효성 검사 및 보내기 {#validate}
-      + [미리 보기 및 증명](send/preview-and-proof.md)
+      + [미리 보기 및 교정쇄](send/preview-and-proof.md)
       + [게재 분석](send/delivery-analysis.md)
       + [게재 구성 및 보내기](send/configure-and-send.md)
       + [전송 시간 최적화](send/predictive.md)
@@ -95,7 +95,7 @@ ht-degree: 100%
       + [게재 실패](send/delivery-failures.md)
    + [게재 템플릿 작업](send/create-templates.md)
    + 트랜잭션 메시지 {#real-time}
-      + [트랜잭션 메시지 시작](send/transactional.md)
+      + [트랜잭션 메시지 시작하기](send/transactional.md)
       + [템플릿 만들기 및 게시](send/transactional-template.md)
       + 이벤트 관리 {#event}
          + [이벤트 수집 및 처리](send/event-processing.md)
@@ -119,6 +119,7 @@ ht-degree: 100%
    + [모범 사례](audiences/audiences-best-practices.md)
    + [구독 관리](start/subscriptions.md)
 + 콘텐츠 관리 {#content}
+   + [랜딩 페이지 만들기](dev/landing-pages.md)
    + [웹 앱 및 양식 디자인](dev/webapps.md)
 + 자동화와 워크플로 {#automation}
    + [Campaign Automation 안내서 >](https://experienceleague.adobe.com/ko/docs/campaign/automation/home)

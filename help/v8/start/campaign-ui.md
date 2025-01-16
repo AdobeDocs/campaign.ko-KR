@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 87426a5924e1044faf212631ba868753ae43fad6
+source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1055'
 ht-degree: 5%
 
 ---
@@ -25,6 +25,11 @@ ht-degree: 5%
   [이 섹션](../start/connect.md)에서 Campaign 클라이언트 콘솔을 설치하고 구성하는 방법을 알아봅니다.
 
 * **웹 사용자 인터페이스** - v8.6.1 릴리스를 시작하는 Campaign v8 사용자는 이제 중앙 Adobe Experience Cloud 사용자 인터페이스를 통해 사용할 수 있는 웹 환경에 액세스할 수 있습니다. 그런 다음 웹 브라우저에서 Adobe Campaign에 연결할 수 있습니다. 이 새 인터페이스를 사용하면 주요 마케팅 작업을 생성, 관리 및 실행할 수 있습니다. 그러나 모든 Campaign 기능을 사용할 수는 없습니다. [자세히 알아보기](#ac-web-ui).
+
+  >[!AVAILABILITY]
+  >
+  >Campaign 웹 사용자 인터페이스는 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다. [IMS(Identity Management 시스템) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}에 대해 자세히 알아보세요.
+  >
 
 * **웹 액세스** - Adobe Campaign 웹 액세스 기능을 사용하면 HTML 사용자 인터페이스를 사용하여 웹 브라우저에서 Campaign 기능의 하위 집합에 액세스할 수 있습니다. 이 웹 인터페이스를 사용하여 보고서에 액세스하고, 메시지를 제어 및 검증하고, 모니터링 대시보드에 액세스합니다.  이 섹션](../start/connect.md#web-access)에서 Campaign 웹 액세스 [에 대해 자세히 알아보세요.
 
@@ -108,6 +113,7 @@ v8.6.1 릴리스를 시작하는 Campaign v8 클라이언트 콘솔 사용자는
 ![Adobe Campaign 웹 사용자 인터페이스 홈 페이지](assets/ac-web-home.png)
 
 >[!AVAILABILITY]
+>
 >Campaign 웹 사용자 인터페이스는 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다. [IMS(Identity Management 시스템) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}에 대해 자세히 알아보세요.
 >
 

@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 100%
@@ -37,6 +37,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
    [이 페이지에서](campaign-ui.md#ac-web-ui) Adobe Experience Cloud에 연결하여 Adobe Campaign Web 인터페이스에 액세스하는 방법을 알아보십시오.
 
    [Adobe Campaign 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home){target="_blank"}에서 자세히 알아보십시오.
+
 1. **Campaign v8을 온-프레미스 또는 하이브리드 환경에 설치할 수 있나요?**
 
    현재 Campaign v8은 Adobe가 완전히 호스팅하는 Managed Cloud Services에서만 사용할 수 있습니다.
