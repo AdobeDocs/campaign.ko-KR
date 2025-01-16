@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 description: Campaign v8 도움말 센터
 title: Adobe Campaign v8 제품 설명서
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: ht
-source-wordcount: '342'
-ht-degree: 100%
+source-git-commit: 11614d555aa250adfcabce40dedb455328845eaa
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 98%
 
 ---
 
@@ -18,9 +18,9 @@ Adobe Campaign v8(클라이언트 콘솔) 제품 및 설명서의 최신 개선 
 
 >[!BEGINTABS]
 
->[!TAB Campaign v8.7.2 릴리스 공개]
+>[!TAB Campaign v8.6.4 릴리스 정보]
 
-Adobe Campaign의 최신 버전이 공개되었습니다. **제한 공개**(LA)로 출시됩니다. 자세한 내용은 릴리스 정보를 참조하십시오.
+Adobe Campaign의 최신 버전이 공개되었습니다. 자세한 내용은 릴리스 정보를 참조하십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
 
@@ -88,7 +88,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>메시지 보내기</strong><br/><a href="start/create-message.md">시작</a> - <a href="send/preview-and-proof.md">미리 보기 및 증명</a> - <a href="send/predictive.md">전송 시간 최적화</a> - <a href="reporting/gs-reporting.md">보고 및 분석</a>
+      <strong>메시지 보내기</strong><br/><a href="start/create-message.md">시작</a> - <a href="send/preview-and-proof.md">미리 보기 및 교정쇄</a> - <a href="send/predictive.md">전송 시간 최적화</a> - <a href="reporting/gs-reporting.md">보고 및 분석</a>
     </td>
   </tr>
   <tr style="border: 0;">
