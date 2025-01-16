@@ -4,16 +4,14 @@ title: 워크플로 속성
 description: Campaign 워크플로우 속성에 대해 자세히 알아보기
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 63b7eaba3ea7b580d9b6c3c0e0c015c057539aa8
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 39%
+source-wordcount: '628'
+ht-degree: 34%
 
 ---
 
 # 워크플로 속성{#workflow-properties}
-
-
 
 ## 실행 탭 {#execution-tab}
 
@@ -54,6 +52,16 @@ ht-degree: 39%
 * **[!UICONTROL Execute in the engine]**
 
   이 옵션은 디버깅에만 사용할 수 있으며 프로덕션에서는 사용할 수 없습니다. 활성화되면 워크플로우가 우선하며 이 워크플로우가 완료될 때까지 다른 모든 워크플로우가 중지됩니다.
+
+* **[!UICONTROL Enable watchdog supervisor to keep workflow running permanently]**
+
+  이 옵션을 사용하면 오류가 발생한 후 워크플로우가 자동으로 다시 시작됩니다. 활성화되면 다시 시작은 30초마다 워크플로우의 상태를 확인하고 필요한 경우 다시 시작합니다. 30초 간격을 조정하려면 `XtkWorkflow_WatchdogTimerTimeout` 기술 옵션을 만들고 정수 데이터 형식을 사용하여 원하는 지연을 지정할 수 있습니다.
+
+  >[!NOTE]
+  >
+  >이 옵션은 고급 사용자를 대상으로 하며 **기술 워크플로우**&#x200B;에 대해서만 활성화해야 합니다.
+  >
+  >`fullFdaMkt` 패키지에서 사용할 수 있는 중앙 복제 워크플로에 대해 기본적으로 활성화되어 있습니다.
 
 ### 오류 관리 {#error-management}
 

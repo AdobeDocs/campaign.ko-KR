@@ -5,7 +5,7 @@ feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 02d7909c409bd25cfa3cc7aad189247ce7b5176e
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 1%
@@ -121,7 +121,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
 
 이제 인증 옵션이 Campaign에 구성되었으므로 랜딩 페이지에서 Campaign과 Adobe Experience Platform 간에 데이터를 동기화할 수 있는 사용자 지정 JavaScript 코드를 만들어야 합니다.
 
-## 워크플로우 실행 시 옵션 추가 {#javacript}
+## 워크플로우 실행 시 옵션 추가 {#javascript}
 
 랜딩 페이지와 Adobe Experience Platform 간에 데이터를 동기화할 수 있으려면 사용자 지정 JavaScript 코드를 Adobe Campaign에 추가해야 합니다. 다음 단계를 수행하십시오.
 
