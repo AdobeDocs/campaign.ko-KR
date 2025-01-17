@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 1cb92c6075e9478b641b11eae52372a909258cd3
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -22,6 +22,11 @@ ht-degree: 1%
 ## 이메일 BCC 정보 {#gs-bcc}
 
 플랫폼에서 전송된 이메일 사본을 유지하도록 Adobe Campaign을 구성할 수 있습니다. 이 옵션을 사용하면 외부 시스템을 사용하여 메시지를 처리하고 보관할 수 있는 전용 BCC(숨은 참조) 이메일 주소로 메시지를 보낼 수 있습니다.
+
+>[!CAUTION]
+>
+>개인정보 보호를 위해 BCC 이메일은 PII(개인 식별 정보)를 안전하게 저장할 수 있는 보관 시스템에 의해 처리되어야 합니다.
+
 Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 보낸 이메일에 해당하는 .eml 파일은 SMTP 이메일 서버와 같은 원격 서버로 전송할 수 있습니다.
 
 보관 대상은 선택한 BCC 이메일 주소이며 게재 수신자에게 표시되지 않습니다. BCC 이메일 주소가 정의되면 [게재 템플릿](create-templates.md) 수준에서 전용 옵션을 활성화해야 합니다.
@@ -29,11 +34,6 @@ Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 보낸 �
 >[!NOTE]
 >
 >관리 Cloud Service 사용자는 보관에 사용할 BCC 전자 메일 주소를 전달하려면 [Adobe에게 문의](../start/campaign-faq.md#support){target="_blank"}하십시오.
-
->[!CAUTION]
->
->개인정보 보호를 위해 BCC 이메일은 PII(개인 식별 정보)를 안전하게 저장할 수 있는 보관 시스템에 의해 처리되어야 합니다.
-
 
 ## 이메일 BCC 활성화 {#enable-bcc}
 
