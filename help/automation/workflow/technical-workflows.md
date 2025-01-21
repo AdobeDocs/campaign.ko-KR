@@ -5,9 +5,9 @@ description: Campaign에서 사용할 수 있는 기술 워크플로우에 대�
 feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 0a074b2ef84e89e67363b722372718e4c46d65e5
+source-git-commit: b8f774ce507cff67163064b6bd1341b31512c08f
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,7 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 | **차단된 LINE 사용자 삭제**(deleteBlockedLineUsersV2) | LINE 채널 | 이 워크플로우에서는 180일 동안 LINE 공식 계정을 차단한 후 LINE V2 사용자의 데이터를 삭제합니다. |
 | **개인 정보 보호 요청 데이터 삭제**(deletePrivacyRequestsData) | 개인 정보 보호 규정 | 이 워크플로우는 Adobe Campaign에 저장된 수신자의 데이터를 삭제합니다. |
 | **게재 표시기**(deliveryIndicators) | 기본적으로 설치됨 | 이 워크플로우는 게재에 대한 게재 추적 지표를 업데이트합니다. 이 워크플로우는 기본적으로 매 시간마다 트리거됩니다. |
+| **FFDA를 즉시 배포**(ffdaDeploy) | 기본적으로 [Campaign Enterprise(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에만 설치됩니다. | 클라우드 데이터베이스에 대한 즉각적인 배포를 수행합니다. [데이터 복제에 대해 자세히 알아보기](../../v8/architecture/replication.md) |
 | **분산 마케팅 프로세스**(centralLocalMgt) | 중앙/로컬 마케팅(분산 마케팅) | 이 워크플로우는 분산 마케팅 모듈 사용과 관련된 처리를 시작합니다. 로컬 캠페인 생성을 시작하고 주문 및 캠페인 패키지 가용성과 관련된 알림을 관리합니다. |
 | **이벤트 제거**(webAnalyticsPurgeWebEvents) | 웹 분석 커넥터 | 이 워크플로우를 사용하면 수명 필드에 구성된 기간에 따라 데이터베이스 필드에서 모든 이벤트를 삭제할 수 있습니다. |
 | **Adobe Experience Cloud으로 대상 내보내기**(exportSharedAudience) | Adobe Experience Cloud과 통합 | 이 워크플로우에서는 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상은 사용하는 다른 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. |
@@ -74,6 +75,13 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 | **실시간 이벤트 처리**(rtEventsProcessing) | 트랜잭션 메시지 실행(메시지 센터 - 실행) | 이 워크플로우를 사용하면 실시간 이벤트를 메시지 템플릿과 연결하기 전에 대기열에 넣을 수 있습니다. |
 | **제안 동기화**(propositionSynch) | 실행 인스턴스가 있는 오퍼 엔진 제어 | 이 워크플로우는 상호 작용에 사용되는 마케팅 인스턴스와 실행 인스턴스 간의 제안을 동기화합니다. |
 | **웹 이벤트 복구**(webAnalyticsGetWebEvents) | 웹 분석 커넥터 | 매시간마다 이 워크플로우는 주어진 사이트에서 인터넷 사용자 비헤이비어에 대한 세그먼트를 다운로드하여 Adobe Campaign 데이터베이스에 넣고 리마케팅 워크플로우를 시작합니다. |
+| **FFDA 데이터를 즉시 복제**(ffdaReplicate) | 기본적으로 [Campaign Enterprise(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에만 설치됩니다. | 지정된 외부 계정에 대한 XS 데이터를 복제합니다. [데이터 복제에 대해 자세히 알아보기](../../v8/architecture/replication.md) |
+| **nmsDelivery 큐 복제**(ffdaReplicateQueueDelivery) | 기본적으로 [Campaign Enterprise(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에만 설치됩니다. | `nms:delivery` 테이블에 대한 큐. [데이터 복제에 대해 자세히 알아보기](../../v8/architecture/replication.md) |
+| **nmsDlvExclusion 큐 복제**(ffdaReplicateQueueDlvExclusion) | 기본적으로 [Campaign Enterprise(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에만 설치됩니다. | `nms:dlvExclusion` 테이블에 대한 큐. [데이터 복제에 대해 자세히 알아보기](../../v8/architecture/replication.md) |
+| **nmsDlvMidRemoteIdRel 큐 복제**(ffdaReplicateQueueDlvMidRemoteIdRel) | 기본적으로 [Campaign Enterprise(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에만 설치됩니다. | `nms:dlvRemoteIdRel` 테이블에 대한 큐. [데이터 복제에 대해 자세히 알아보기](../../v8/architecture/replication.md) |
+| **nmsTrackingUrl 큐 복제**(ffdaReplicateQueueTrackingUrl)<br/>**동시 실행 시 nmsTrackingUrl 큐 복제**(ffdaReplicateQueueTrackingUrl_2) | 기본적으로 [Campaign Enterprise(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에만 설치됩니다. | 서로 다른 우선 순위를 기준으로 요청을 처리하여 효율성을 개선하기 위해 두 개의 워크플로우를 활용하는 `nms:trackingUrl` 테이블의 동시 큐. [데이터 복제에 대해 자세히 알아보기](../../v8/architecture/replication.md) |
+| **참조 테이블 복제**(ffdaReplicateReferenceTables) | 기본적으로 [Campaign Enterprise(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에만 설치됩니다. | Campaign 로컬 데이터베이스(PostgreSQL) 및 클라우드 데이터베이스([!DNL Snowflake])에 있어야 하는 기본 제공 테이블의 자동 복제를 수행합니다. 매시간, 매일 실행되도록 예약되어 있습니다. **lastModified** 필드가 있으면 복제가 점진적으로 발생하고 그렇지 않으면 전체 테이블이 복제됩니다. [데이터 복제에 대해 자세히 알아보기](../../v8/architecture/replication.md) |
+| **스테이징 데이터 복제**(ffdaReplicateStagingData) | 기본적으로 [Campaign Enterprise(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에만 설치됩니다. | 단일 호출에 대한 스테이징 데이터를 복제합니다. 매시간, 매일 실행되도록 예약되어 있습니다. [데이터 복제에 대해 자세히 알아보기](../../v8/architecture/replication.md) |
 | **집계 보고**(reportingAggregates) | 게재 | 이 워크플로우는 보고서에 사용된 합계를 업데이트합니다. 기본적으로 매일 오전 2시에 트리거됩니다. |
 | **지표 및 캠페인 특성 전송**(webAnalyticsSendMetrics) | 웹 분석 커넥터 | 이 워크플로우를 사용하면 Adobe® Analytics 커넥터를 통해 Adobe Campaign에서 Adobe Experience Cloud Suite로 이메일 캠페인 지표를 보낼 수 있습니다. 관련 지표는 다음과 같습니다. 전송됨(iSent), 총 열람 수(iTotalRecipientOpen), 클릭한 총 수신자 수(iTotalRecipientClick), 오류(iError), 옵트아웃(optOut) |
 | **재고: 주문 및 경고**(stockMgt) | 기본적으로 설치됨 | 이 워크플로우는 주문 라인에서 재고 계산을 시작하고 경고 경고 임계값을 관리합니다. |
