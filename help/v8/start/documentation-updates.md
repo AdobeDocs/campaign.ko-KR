@@ -6,16 +6,20 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
+source-git-commit: fdd0e534feb80e3acaec0a68238ac4ac596980e2
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 28%
+source-wordcount: '246'
+ht-degree: 26%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Campaign] v8(콘솔) 설명서의 모든 최신 업데이트가 나열됩니다.
+
+## 2025년 1월 {#january-2025}
+
+FFDA 배포를 위한 데이터 복제 관련 페이지가 재구성되었으며 새 정보로 보강되었습니다. [자세히 알아보기](../architecture/replication.md)
 
 ## 2024년 11월 {#october-2024}
 
