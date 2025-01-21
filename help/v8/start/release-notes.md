@@ -3,9 +3,9 @@ title: Campaign v8 릴리스 정보
 description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 0c11cdd3c0b623333e6a7cff66c734f18e3d3985
+source-git-commit: 4a4bcb0b540d6e8a426839e77bf81ad30eb93653
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '558'
 ht-degree: 51%
 
 ---
@@ -22,7 +22,7 @@ _2025년 1월 15일_
 
 * [엔터프라이즈(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)의 컨텍스트에서 게재 분석 중에 캠페인 응용 프로그램 안정성이 향상되었습니다.
 * 이 릴리스에는 주요 관리, 스테이징 및 데이터 복제를 비롯한 향상된 FFDA 아키텍처 메커니즘이 함께 제공됩니다.
-* [엔터프라이즈(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에 새로운 기술 워크플로우가 도입되었습니다. 이러한 워크플로우는 해당 테이블에 병렬 복제 요청을 중앙에서 관리하여 게재 및 관련 데이터를 복제합니다. 이 워크플로는 `Replicate nms`(으)로 시작합니다.
+* [엔터프라이즈(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에 새로운 기술 워크플로우가 도입되었습니다. 이러한 워크플로우는 해당 테이블에 병렬 복제 요청을 중앙에서 관리하여 게재 및 관련 데이터를 복제합니다. 이 워크플로는 `Replicate nms`(으)로 시작합니다. [자세히 알아보기](../architecture/replication.md)
 * 이제 워크플로 속성에서 **워크플로를 영구적으로 실행할 수 있도록 감시장치 감독자를 활성화** 옵션을 사용할 수 있습니다. 이 옵션을 활성화하면 오류가 발생한 후 워크플로가 자동으로 다시 시작됩니다. 워크플로우가 여전히 오류인 경우 기본적으로 30초마다 다시 시작됩니다. 이 간격을 조정하려면 새 `XtkWorkflow_WatchdogTimerTimeout` 옵션을 만들고 Integer 데이터 형식을 설정하여 새 지연을 지정할 수 있습니다. 이 옵션은 기술 워크플로우에서만 활성화해야 합니다. [자세히 알아보기](../../automation/workflow/workflow-properties.md#execution)
 
 ### 보안 개선 사항 {#security-8-6-4}
