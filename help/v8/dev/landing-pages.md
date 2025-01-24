@@ -5,19 +5,18 @@ feature: Landing Pages
 role: User, Developer
 level: Beginner
 exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
-source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
+source-git-commit: 465d5d4ba10596ad2c3ced1fe621a93327fc48ab
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 24%
+source-wordcount: '294'
+ht-degree: 7%
 
 ---
 
 # 랜딩 페이지 만들기 및 관리 {#ac-gs-lp}
 
-랜딩 페이지를 통해 사용자가 자신의 데이터를 업데이트하거나 커뮤니케이션 수신에 옵트인/옵트아웃하거나 뉴스레터와 같은 특정 서비스에 가입할 수 있는 온라인 양식으로 사용자를 보낼 수 있습니다.
+랜딩 페이지는 특정 마케팅 목표로 설계된 전용 웹 페이지입니다. 방문자는 일반적으로 이메일, 소셜 미디어 게시물 또는 검색 엔진 결과에서 링크를 클릭한 후 랜딩 페이지에 도달합니다. 일반 웹 사이트 페이지와 달리 랜딩 페이지는 구매, 서비스 구독/구독 취소 또는 리소스 다운로드와 같은 잘 정의된 단일 작업 추진에 중점을 둡니다. Adobe Campaign을 사용하여 랜딩 페이지를 만들어 사용자가 데이터를 업데이트하거나, 커뮤니케이션 수신을 옵트인/옵트아웃하거나, 뉴스레터와 같은 특정 서비스를 구독할 수 있는 온라인 양식으로 안내합니다.
 
 랜딩 페이지를 만들려면 [웹 사용자 인터페이스](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui)로 이동하십시오. Adobe Campaign에는 웹 사용자 인터페이스에서만 사용할 수 있는 랜딩 페이지에 대한 이미지 재작성 사용자 환경이 제공됩니다.
-
 
 >[!AVAILABILITY]
 >
