@@ -4,16 +4,19 @@ description: 랜딩 페이지 시작
 feature: Landing Pages
 role: User, Developer
 level: Beginner
-source-git-commit: 45999f56c2d9e4417c6a54987d8395b69cdd2b2f
+exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
+source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 8%
+source-wordcount: '228'
+ht-degree: 24%
 
 ---
 
 # 랜딩 페이지 만들기 및 관리 {#ac-gs-lp}
 
-[Adobe Campaign v8 웹 사용자 인터페이스](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui)에는 랜딩 페이지를 위한 상상된 사용자 환경이 포함되어 있습니다. Campaign에서는 랜딩 페이지를 만들고, 디자인하고, 공유할 수 있습니다. 랜딩 페이지를 사용하여 데이터를 업데이트하거나, 커뮤니케이션 수신을 옵트인/옵트아웃하거나, 뉴스레터와 같은 특정 서비스를 구독할 수 있는 온라인 양식으로 사용자를 안내할 수 있습니다. Campaign v8 사용자는 이 새로운 사용자 인터페이스에 액세스하여 작업을 수행하고 Adobe Campaign을 사용할 때 환경을 간소화할 수 있습니다. 자세히 알아보기
+랜딩 페이지를 통해 사용자가 자신의 데이터를 업데이트하거나 커뮤니케이션 수신에 옵트인/옵트아웃하거나 뉴스레터와 같은 특정 서비스에 가입할 수 있는 온라인 양식으로 사용자를 보낼 수 있습니다.
+
+랜딩 페이지를 만들려면 [웹 사용자 인터페이스](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui)로 이동하십시오. Adobe Campaign에는 웹 사용자 인터페이스에서만 사용할 수 있는 랜딩 페이지에 대한 이미지 재작성 사용자 환경이 제공됩니다.
 
 
 >[!AVAILABILITY]

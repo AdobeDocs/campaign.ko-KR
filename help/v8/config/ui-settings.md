@@ -6,7 +6,7 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Campaign 탐색기에 폴더를 추가하고 보기를 만들고 권한을 할�
 
 [이 페이지](../audiences/folders-and-views.md)에서 폴더 및 보기를 관리하는 방법을 알아보세요.
 
-## 목록 관리 및 사용자 지정{#customize-lists}
+## 목록 관리 및 사용자 지정 {#customize-lists}
 
 Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. 이러한 목록을 필요에 맞게 조정할 수 있습니다. 예를 들어 열을 추가하고, 데이터를 필터링하고, 레코드를 카운트하고, 설정을 저장하고 공유할 수 있습니다.
 
