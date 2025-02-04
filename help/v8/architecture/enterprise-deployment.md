@@ -5,9 +5,9 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
+source-git-commit: 3235701e0939466d4275b1e9202f82694ccdb352
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1053'
 ht-degree: 50%
 
 ---
@@ -55,7 +55,7 @@ Campaign v8 Enterprise는 **FFDA(Full Federated Data Access**) 개념을 도입�
 * 프로필, 거래, 제품, 위치 등과 같은 사용자 지정 데이터 등 모든 고객 데이터를 저장합니다.
 * 게재 로그, 추적 로그, 푸시 등록 등과 같이 Campaign에서 생성하거나 수집한 모든 이벤트 및 동작 데이터를 저장합니다.
 * 위의 모든 데이터 합계를 저장합니다.
-* 참조 테이블(예: 게재, 열거형, 국가 등)의 사본(h+1)을 저장합니다. 워크플로우, 캠페인 및 보고서에서 사용됩니다.
+* 워크플로우, 캠페인 및 보고서에 사용되는 참조 테이블(예: 게재, 열거형, 국가 등)의 사본(h+1)을 저장합니다.
 * 모든 일괄 처리 프로세스 및 작업 로드 실행
 
 
@@ -63,7 +63,7 @@ Campaign v8 Enterprise는 **FFDA(Full Federated Data Access**) 개념을 도입�
 
 * 낮은 볼륨 API와 같은 특정 워크로드를 실행합니다.
 * 게재 및 캠페인 설정, 워크플로우 및 서비스 정의를 포함하여 모든 캠페인 데이터를 저장합니다.
-* 모든 기본 제공 참조 테이블(열거형, 국가 등) 저장 [!DNL Snowflake]에 복제됩니다.
+* [!DNL Snowflake]에 복제된 모든 기본 제공 참조 테이블(열거형, 국가 등)을 저장합니다.
 
   단, 다음과 같은 작업은 수행할 수 없습니다.
    * 고객 데이터에 대한 사용자 정의를 만듭니다. 예를 들어 PostgreSQL에서 가정용 테이블을 만들지 않고 Snowflake에서만 가정용 테이블을 만듭니다
@@ -82,9 +82,7 @@ Campaign v8 Enterprise는 **FFDA(Full Federated Data Access**) 개념을 도입�
 
 ### [!DNL Campaign] API 스테이징 메커니즘{#staging-api}
 
-[!DNL Campaign] 클라우드 데이터베이스의 경우 성능(지연 및 동시 실행)으로 인해 단일 호출이 폭발하지 않는 것이 좋습니다. 전송 볼륨이 아무리 많아도 API의 최적의 성능을 보장하기 위해 일괄 처리 작업을 사용해야 합니다. Campaign은 로컬 데이터베이스 수준에서 API 호출을 계속 처리합니다.
-
-[API 스테이징 메커니즘은 이 페이지에 자세히 설명되어 있습니다.](staging.md)
+[!DNL Campaign] 클라우드 데이터베이스를 사용하면 성능(대기 시간 및 동시성)과 관련하여 단일 호출을 트리거하지 않는 것이 좋습니다. 매우 낮은 볼륨을 보내는 경우가 아니라면 최적의 API 성능을 보장하기 위해 일괄 처리 작업을 사용해야 합니다. 성능을 개선하기 위해 수집 API는 로컬 데이터베이스로 리디렉션됩니다. [Campaign API 스테이징 메커니즘에 대해 자세히 알아보기](staging.md)
 
 ### 새 API{#new-apis}
 
