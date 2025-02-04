@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
+source-git-commit: 9d5a2ca1e9858a727377b8afa6bdd7e3761c1b56
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1072'
 ht-degree: 5%
 
 ---
@@ -117,7 +117,7 @@ v8.6.1 릴리스를 시작하는 Campaign v8 클라이언트 콘솔 사용자는
 >Campaign 웹 사용자 인터페이스는 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다. [IMS(Identity Management 시스템) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}에 대해 자세히 알아보세요.
 >
 
-[이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}에서 새 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보세요.
+[이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}에서 새 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보세요. Campaign 웹 사용자 인터페이스 설명서에서 전용 [자주 묻는 질문 페이지](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/faq){target="_blank"}를 방문할 수도 있습니다.
 
 추가 및 고급 기능, 구성 및 설정은 클라이언트 콘솔에서만 사용할 수 있습니다. Campaign 웹 사용자 인터페이스 설명서 [의 두 사용자 인터페이스에서 사용할 수 있는 기능에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=ko){target="_blank"}.
 
