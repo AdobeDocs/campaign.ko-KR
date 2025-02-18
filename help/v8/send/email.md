@@ -5,16 +5,21 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 578f774152afbd42342da0f161b679ba9dd10c78
+source-git-commit: a76d2c30d3e1c723bcd4881f28980d346aade3dc
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 10%
+source-wordcount: '565'
+ht-degree: 9%
 
 ---
 
 # 이메일 디자인 및 보내기
 
 Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메일을 대상 모집단으로 보냅니다. [자세히 알아보기](../send/send.md)
+
+>[!NOTE]
+>
+>매력적인 개인화된 전자 메일을 만들려면 [웹 사용자 인터페이스](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui)로 이동하세요. Adobe Campaign에는 모든 이메일에 대한 모든 콘텐츠를 디자인하고 세분화할 수 있는 직관적인 드래그 앤 드롭 인터페이스인 이메일 Designer이 포함되어 있습니다.
+
 
 [이 페이지](../start/create-message.md)에서 게재를 만들고 구성하는 주요 단계를 알아봅니다.
 
@@ -102,7 +107,7 @@ Campaign은 대상자에게 이메일을 보내기 전에 테스트하고 유효
 
 다음을 수행할 수 있습니다.
 
-* [증명 보내기](preview-and-proof.md)
+* [교정쇄 보내기](preview-and-proof.md)
 * [시드 주소 추가](../audiences/test-profiles.md)
 * [게재 분석 로그 확인](delivery-analysis.md)
 
