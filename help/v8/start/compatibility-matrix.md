@@ -5,10 +5,10 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: 5b649e17f464d09124064f61712856d9301fc6d6
+source-git-commit: ba27d1e56f7354e500e747f01a27412f8d553e2b
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 99%
+source-wordcount: '437'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,8 @@ Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다
 
 Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이터베이스 목록은 다음과 같습니다. [이 페이지에서](../connect/fda.md) FDA에 대해 자세히 알아봅니다.
 
-* **[!DNL Amazon Redshift]**
+* **[!DNL Amazon Redshift]** ODBC 커넥터, Campaign v8.6.4부터
+* **[!DNL Amazon Redshift]** 레거시 커넥터
 * **[!DNL Azure Synapse]**, Campaign v8.5부터
 * **[!DNL Databricks]**, Campaign v8.6.4/v8.7부터
 * **[!DNL Google Big Query]**
