@@ -3,10 +3,10 @@ title: Campaign v8(콘솔) 2024 릴리스 정보
 description: 2024 Campaign v8 릴리스의 기능 및 개선 사항 목록
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: 54cc5686cc5187a1ab0514abcaf9fcd69e7a1ede
+source-git-commit: 041df8d2d6128d72a04008affbc9680ba5b640a1
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 88%
+source-wordcount: '1308'
+ht-degree: 81%
 
 ---
 
@@ -48,7 +48,16 @@ _2024년 5월 2일_
 
 ### 호환성 업데이트 {#comp-8-7-1}
 
-* 이제 Databricks는 Adobe Campaign FDA(Federated Data Access)를 통해 외부 데이터베이스로 지원됩니다. [이 페이지](compatibility-matrix.md#FederatedDataAccessFDA)에서 자세히 알아보십시오.
+다음 FDA 커넥터가 추가되었습니다. 이 [페이지](compatibility-matrix.md#FederatedDataAccessFDA)를 참조하세요.
+
+* 이제 데이터 블록은 Adobe Campaign FDA(Federated Data Access)를 통해 외부 데이터베이스로 지원됩니다.
+
+* 이제 새로운 Amazon Redshift FDA ODBC 커넥터를 사용할 수 있습니다. 향상된 연결성, 쉬운 유지 관리 및 향상된 호환성을 제공합니다. 이 새 버전은 다음과 같은 개선 사항을 제공합니다.
+
+   * 새 커넥터는 최신 FDA 커넥터에 맞는 ODBC 인터페이스를 기반으로 합니다. 이를 통해 장기적인 지원이 보장됩니다.
+   * 또한 s3 버킷을 사용하는 새로운 데이터 로드 메커니즘을 도입하여 성능이 크게 향상되었습니다.
+
+  레거시 커넥터는 계속 사용할 수 있습니다. 새로운 기능을 사용해 보려면 Adobe 담당자에게 문의하십시오.
 
 ### OAuth 서버 간 자격 증명으로 마이그레이션 {#change-8-7-1}
 
@@ -123,7 +132,7 @@ _2024년 2월 14일_
 
   >[!AVAILABILITY]
   >
-  >Campaign 웹 사용자 인터페이스는 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다. [IMS(Identity Management 시스템) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}에 대해 자세히 알아보세요.
+  >Campaign 웹 사용자 인터페이스는 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다. [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}에 대해 자세히 알아보세요.
   >
 
 * Adobe Campaign v8은 이제 **Adobe Experience Manager as a Cloud Service**&#x200B;와 통합되어 Adobe Campaign Web 사용자 인터페이스를 통해서만 작성이 가능합니다. [자세히 알아보기](../connect/ac-aem.md)
