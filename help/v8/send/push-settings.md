@@ -1,14 +1,14 @@
 ---
 title: AEP SDK 및 Campaign 통합
-description: Adobe Experience Platform mobile SDK를 앱과 통합하는 방법에 대해 알아봅니다
+description: Adobe Experience Platform mobile SDK을 앱과 통합하는 방법에 대해 알아봅니다
 version: v8
 feature: Push
 role: Admin, Developer
 level: Intermediate
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: 550e3cbd064ae7831855377f1d08d6acecd55c9e
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1681'
 ht-degree: 4%
 
 ---
@@ -21,15 +21,15 @@ Adobe Campaign을 사용하여 푸시 알림을 전송하려면 먼저 이 페�
 >
 >Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 미칠 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 이미 확인하고 조치를 취할 수 있습니다. [자세히 알아보기](../../technotes/upgrades/push-technote.md).
 
-Adobe Campaign을 사용하여 푸시 알림 전송을 시작하기 전에 모바일 앱과 Adobe Experience Platform의 태그에 대한 구성 및 통합이 제대로 되어 있는지 확인해야 합니다. Adobe Experience Platform Mobile SDK는 Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다.
+Adobe Campaign을 사용하여 푸시 알림 전송을 시작하기 전에 모바일 앱과 Adobe Experience Platform의 태그에 대한 구성 및 통합이 제대로 되어 있는지 확인해야 합니다. Adobe Experience Platform Mobile SDK은 Android 및 iOS 호환 SDK를 통해 모바일에 대한 클라이언트측 통합 API를 제공합니다.
 
 Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다음 단계를 따르십시오.
 
 1. [필수 구성 요소](#before-starting)를 확인하십시오.
 1. Adobe Experience Platform 데이터 수집에서 [모바일 태그 속성](#launch-property)을 설정합니다.
-1. 이 페이지에서 [자세히](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}(으)로 Adobe Experience Platform Mobile SDK를 가져옵니다.
+1. 이 페이지에서 [자세히](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}(으)로 Adobe Experience Platform Mobile SDK을 가져옵니다.
 1. (선택 사항) 로깅 및 라이프사이클 지표를 사용하도록 설정합니다. 자세한 내용은 이 페이지의 [을(를) 참조하십시오](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
-1. (선택 사항) 앱에 [Adobe Experience Platform Assurance를 추가](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}하여 구현의 유효성을 검사합니다. 이 페이지](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}에서 Adobe Experience Platform Assurance 확장 [을(를) 구현하는 방법을 알아봅니다.
+1. (선택 사항) 구현의 유효성을 검사하려면 [Adobe Experience Platform Assurance을 앱에 추가](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}합니다. 이 페이지](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}에서 Adobe Experience Platform Assurance 확장 [을(를) 구현하는 방법을 알아보세요.
 1. 이 페이지의 [자세히](#push-service)로 Adobe Campaign에서 iOS 및 Android Mobile Services를 구성합니다.
 1. 모바일 속성에 [Adobe Campaign 확장](#configure-extension)을 설치하고 구성합니다.
 1. 앱에서 Adobe Experience Platform Mobile SDK를 설정하려면 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}를 따르십시오.
@@ -196,7 +196,7 @@ iOS 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. 통합 키는 각 애플리케이션에 따라 다릅니다. 모바일 애플리케이션을 Adobe Campaign에 연결합니다.
 
-   동일한 **[!UICONTROL Integration key]**&#x200B;이(가) SDK를 통해 Adobe Campaign 및 응용 프로그램 코드에 정의되어 있는지 확인하십시오.
+   Adobe Campaign 및 SDK을 통한 응용 프로그램 코드에서 동일한 **[!UICONTROL Integration key]**&#x200B;이(가) 정의되었는지 확인하십시오.
 
    자세한 내용은 [개발자 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}를 참조하세요
 
@@ -234,7 +234,7 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 1. **[!UICONTROL Label]** 필드에 앱 이름을 입력합니다.
 1. 통합 키는 각 애플리케이션에 따라 다릅니다. 모바일 애플리케이션을 Adobe Campaign에 연결합니다.
 
-   동일한 **[!UICONTROL Integration key]**&#x200B;이(가) SDK를 통해 Adobe Campaign 및 응용 프로그램 코드에 정의되어 있는지 확인하십시오.
+   Adobe Campaign 및 SDK을 통한 응용 프로그램 코드에서 동일한 **[!UICONTROL Integration key]**&#x200B;이(가) 정의되었는지 확인하십시오.
 
    자세한 내용은 [개발자 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}를 참조하세요
 
@@ -257,7 +257,7 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
    >[!CAUTION]
    >
-   >**[!UICONTROL Test connection]** 단추는 MID 서버가 FCM 서버에 액세스할 수 있는지 여부를 확인하지 않습니다.
+   >**[!UICONTROL Test connection]** 단추는 MID(중간 소싱) 서버에서 FCM 서버에 액세스할 수 있는지 확인하지 않습니다.
 
 1. (선택 사항) 필요한 경우 일부 **[!UICONTROL Application variables]**(으)로 푸시 메시지 콘텐츠를 보강할 수 있습니다. 이는 완전히 맞춤화가 가능하며 모바일 디바이스로 전송되는 메시지 페이로드의 일부입니다.
 
@@ -282,6 +282,6 @@ Campaign Classic v7 및 Campaign v8 모두에 적용되는 이 확장은 환경�
 1. 이전에 만든 태그 속성을 엽니다.
 1. 왼쪽 탐색에서 **확장**(으)로 이동한 다음 **카탈로그** 탭을 엽니다. 검색 필드를 사용하여 **Adobe Campaign Classic** 확장을 찾습니다.
 1. Campaign Classic 카드에서 **설치** 단추를 클릭합니다.
-1. [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"}에 설명된 대로 설정을 입력합니다.
+1. [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"}에 설명된 대로 설정을 입력하십시오.
 
 이제 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}에 자세히 설명된 대로 앱에 캠페인을 추가할 수 있습니다.

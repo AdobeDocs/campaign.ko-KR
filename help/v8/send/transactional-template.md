@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 253f3be945cbfa304fa7342c68f0c73b079e2870
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1170'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 개인화 태그를 이메일 메시지 본문에 삽입하려면 다음 단계를 적용합니다.
 
-1. 메시지 템플릿에서 전자 메일 형식(HTML 또는 텍스트)과 일치하는 탭을 클릭합니다.
+1. 메시지 템플릿에서 이메일 형식(HTML 또는 텍스트)과 일치하는 탭을 클릭합니다.
 1. 메시지 본문을 입력합니다.
 1. 텍스트 본문에서 **[!UICONTROL Real time events>Event XML]** 메뉴를 사용하여 태그를 삽입합니다.
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 1. 나중에 쉽게 선택할 수 있도록 레이블을 할당한 다음 시드 주소(통신 채널에 따라 이메일 또는 휴대폰)를 입력합니다.
 
-1. 외부 식별자 입력: 이 선택적 필드를 사용하면 비즈니스 키(고유 ID, 이름 + 이메일 등)를 입력할 수 있습니다. 이는 웹 사이트의 모든 애플리케이션에 공통적이며, 프로필을 식별하는 데 사용됩니다. 이 필드가 Adobe Campaign 마케팅 데이터베이스에도 있는 경우 데이터베이스의 프로필과 이벤트를 조정할 수 있습니다.
+1. 외부 식별자 입력: 이 선택적 필드에서는 웹 사이트의 모든 애플리케이션에 공통적인 비즈니스 키(고유 ID, 이름 + 이메일 등)를 입력할 수 있습니다. 이 키는 프로필을 식별하는 데 사용됩니다. 이 필드가 Adobe Campaign 마케팅 데이터베이스에도 있는 경우 데이터베이스의 프로필과 이벤트를 조정할 수 있습니다.
 
    ![](assets/messagecenter_create_seed_2.png)
 
@@ -130,7 +130,7 @@ This information enables you to personalize message content using personalizatio
 
    ![](assets/messagecenter_create_seed_7.png)
 
-### 증명 보내기 {#send-proof}
+### 교정쇄 보내기 {#send-proof}
 
 이전에 만든 시드 주소로 증명을 전송하여 메시지 게재를 테스트할 수 있습니다.
 
@@ -161,7 +161,7 @@ This information enables you to personalize message content using personalizatio
 
 #### [!DNL Campaign Classic] v7에서 전환 {#transition-from-v7}
 
-[Campaign Classic v7에서 전환](../start/v7-to-v8.md)하는 경우 모든 게재는 중간 소싱 서버를 거칩니다.
+[Campaign Classic v7에서 전환](../start/v7-to-v8.md)하는 경우 모든 게재는 중간 소싱(MID) 서버를 거칩니다.
 
 그러나 트랜잭션 메시지 템플릿을 만들 때 템플릿을 성공적으로 사용하는 데 필요한 라우팅은 **내부 전자 메일 게재**&#x200B;입니다. 이 라우팅으로 인해 증명을 보낼 수 없습니다.
 
@@ -171,7 +171,7 @@ This information enables you to personalize message content using personalizatio
 
 증명을 보낸 후에는 트랜잭션 메시지 템플릿을 게시하기 전에 다시 내부 이메일 게재로 라우팅을 변경해야 합니다.
 
-## 템플릿 Publish {#publish-message-template}
+## 템플릿 게시 {#publish-message-template}
 
 만든 메시지 템플릿 <!-- on the control instance-->이(가) 완료되면 게시할 수 있으며, 이를 통해 실시간 및 일괄 처리 이벤트에 연결된 메시지를 보낼 수 있습니다.
 

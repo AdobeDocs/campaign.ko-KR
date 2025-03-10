@@ -5,9 +5,9 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1049'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ Adobe Campaign **[!UICONTROL Explorer]**&#x200B;에서 외부 계정에 액세�
 
 >[!CAUTION]
 >
->* 관리 Cloud Service 사용자는 Adobe에 의해 인스턴스에 대해 외부 계정이 구성되며 수정해서는 안 됩니다.
+>* Managed Cloud Services 사용자는 Adobe에서 인스턴스에 대해 외부 계정을 구성하므로 수정해서는 안 됩니다.
 >
 >* [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)의 컨텍스트에서 특정 **[!UICONTROL Full FDA]**(ffda) 외부 계정은 Campaign 로컬 데이터베이스와 클라우드 데이터베이스([!DNL Snowflake]) 간의 연결을 관리합니다.
 >
@@ -87,6 +87,8 @@ Microsoft OAuth 2.0을 사용하여 외부 POP3을 구성하려면 **[!UICONTROL
 
 **[!UICONTROL Routing]** 외부 계정을 사용하면 설치된 패키지에 따라 Adobe Campaign에서 사용할 수 있는 각 채널을 구성할 수 있습니다.
 
+[이 섹션](../architecture/architecture.md#split)에서 외부 계정 관리 및 게재 실행에 대해 자세히 알아보세요.
+
 ### 실행 인스턴스 {#execution-instance}
 
 트랜잭션 메시지의 컨텍스트에서 실행 인스턴스는 제어 인스턴스에 연결되어 있습니다. 트랜잭션 메시지 템플릿이 실행 인스턴스에 배포됩니다. [이 페이지](../architecture/architecture.md#transac-msg-archi)에서 메시지 센터 아키텍처에 대해 자세히 알아보세요.
@@ -101,7 +103,7 @@ Microsoft OAuth 2.0을 사용하여 외부 POP3을 구성하려면 **[!UICONTROL
 
 ## Adobe 솔루션 통합 외부 계정 {#adobe-integration-external-accounts}
 
-* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]** 외부 계정은 Adobe Campaign에 연결하기 위해 IMS(Adobe Identity Management 서비스)를 구현하는 데 사용됩니다. [이 섹션](../start/connect.md#logon-to-ac)에서 IMS(Identity Management 서비스) Adobe에 대해 자세히 알아보세요.
+* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]** 외부 계정은 Adobe Campaign에 연결하기 위해 Adobe IMS(Identity Management Service)를 구현하는 데 사용됩니다. [이 섹션](../start/connect.md#logon-to-ac)에서 Adobe Identity Management 서비스(IMS)에 대해 자세히 알아보세요.
 
 * **웹 분석** - **[!UICONTROL Web Analytics (Adobe Analytics)]** 외부 계정은 Adobe Analytics에서 Adobe Campaign으로 데이터 전송을 구성하는 데 사용됩니다. [이 페이지](../connect/ac-aa.md)에서 Adobe Campaign - Adobe Analytics 통합에 대해 자세히 알아보세요.
 

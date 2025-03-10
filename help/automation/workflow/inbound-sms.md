@@ -5,10 +5,10 @@ description: 인바운드 SMS 워크플로우 활동에 대해 자세히 알아�
 feature: Workflows, Channels Activity
 role: User
 exl-id: 2c12c45b-4429-4e60-bc96-ff70a95d4c9e
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 4%
+source-wordcount: '108'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 **인바운드 SMS** 활동의 첫 번째 탭에서는 SMS 메시지의 라우팅 매개 변수를 입력하고 각 메시지를 받을 때 실행할 스크립트를 입력할 수 있습니다. 두 번째 탭에서는 활동에 일정을 할당할 수 있고 세 번째 탭에서는 활동의 만료 조건을 정의할 수 있습니다.
 
-1. **[!UICONTROL SMS routing]**: SMS 복구에 사용할 외부 계정을 선택하십시오. 외부 계정은 트리의 **[!UICONTROL Administration > Platform > External accounts]** 노드를 통해 구성됩니다.
+1. **[!UICONTROL SMS routing]**: SMS 복구에 사용할 외부 계정을 선택하십시오. 외부 계정은 트리의 **[!UICONTROL Administration > Platform > External accounts]** 노드를 통해 구성됩니다. [자세히 알아보기](../../v8/config/external-accounts.md)
 1. **[!UICONTROL Script]**
 1. **[!UICONTROL Schedule]**
 

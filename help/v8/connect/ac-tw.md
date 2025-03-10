@@ -1,20 +1,20 @@
 ---
 title: Campaign을 X와 함께 사용하기(Twitter)
-description: Campaign 환경을 X(이전에는 Twitter)와 통합하는 방법을 알아봅니다
+description: Campaign 환경을 X(이전에는 Twitter라고 함)와 통합하는 방법에 대해 알아봅니다
 role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1066'
 ht-degree: 2%
 
 ---
 
 # Campaign을 X와 함께 사용하기(Twitter) {#tw-ac-ovv}
 
-**소셜 네트워크 관리(소셜 마케팅)** 모듈을 사용하면 X(이전의 Twitter)를 통해 고객과 상호 작용할 수 있습니다. 이 기능을 사용하여 다음을 수행할 수 있습니다.
+**소셜 네트워크 관리(소셜 마케팅)** 모듈을 사용하면 X(이전 Twitter)를 통해 고객과 상호 작용할 수 있습니다. 이 기능을 사용하여 다음을 수행할 수 있습니다.
 
 * 메시지 게시 및 DM 보내기 - Adobe Campaign 소셜 마케팅을 사용하여 X에 메시지를 게시합니다. 모든 팔로워에게 직접 메시지를 보낼 수도 있습니다.
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->관리 Cloud Service 사용자는 Campaign을 X와 연결하려면 [Adobe에게 문의](../start/campaign-faq.md#support)하십시오. 전용 패키지를 통해 **소셜 네트워크 관리(소셜 마케팅)** 추가 기능을 환경에 설치하고 외부 계정 Twitter을 구성해야 합니다.
+>Managed Cloud Services 사용자는 Campaign을 X와 연결하려면 [Adobe에 문의](../start/campaign-faq.md#support)하십시오. **소셜 네트워크 관리(소셜 마케팅)** 추가 기능은 전용 패키지를 통해 환경에 설치해야 하며 Twitter 외부 계정을 구성해야 합니다.
 
 
 X 계정에 트윗을 게시하도록 Adobe Campaign을 구성하려면 이러한 계정에 대해 Adobe Campaign에 쓰기 액세스 권한을 위임하십시오. 이렇게 하려면 다음을 수행해야 합니다.
@@ -74,7 +74,7 @@ Campaign 인스턴스를 X 계정과 연결하려면 **Twitter** 서비스를 �
 >
 >X 계정당 하나의 **Twitter** 서비스를 만듭니다. 따라서 증명을 [테스트 계정](#tw-test-account)에 보내려면 다른 테스트 서비스를 만들어야 합니다.
 >
->각 **Twitter** 서비스는 MID 인스턴스의 Adobe에 의해서도 생성되어야 합니다. 환경을 구성하려면 Adobe 담당자에게 문의하십시오.
+>각 **Twitter** 서비스는 중간 소싱(MID) 인스턴스에 Adobe에서 만들어야 합니다. Adobe 담당자에게 문의하여 환경을 구성하십시오.
 >
 
 설정을 입력하려면 Adobe Campaign 클라이언트 콘솔과 X 앱 권한 모두에 액세스해야 합니다.
@@ -127,7 +127,7 @@ Campaign 인스턴스를 X 계정과 연결하려면 **Twitter** 서비스를 �
 
 각 팔로워에 대해 Adobe Campaign은 다음 정보를 저장합니다.
 
-* **[!UICONTROL Origin]**: Twitter
+* **[!UICONTROL Origin]**: 트위터
 * **[!UICONTROL External ID]**: 사용자 식별자
 * **[!UICONTROL Username]**: 사용자의 계정 이름
 * **[!UICONTROL Full name]**: 사용자 이름
@@ -142,7 +142,7 @@ X 계정 외에 [트윗 증명](../send/twitter.md#send-tw-proofs)을 보내는 
 
 1. 새 X 계정을 만듭니다.
 1. **설정** 계정에 액세스하십시오.
-1. **개인 정보 및 안전 정보** 및 **대상자 및 태그 지정**&#x200B;으로 이동하여 **게시물 Protect** 옵션을 확인하세요. 귀하의 게시물 및 기타 계정 정보는 귀하를 따르는 사람에게만 표시됩니다.
+1. **개인 정보 보호 및 안전** 및 **대상자 및 태그 지정**&#x200B;으로 이동하여 **게시물 보호** 옵션을 확인하세요. 귀하의 게시물 및 기타 계정 정보는 귀하를 따르는 사람에게만 표시됩니다.
 
 ![](assets/do-not-localize/social_tw_test_page.png)
 
