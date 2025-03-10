@@ -5,7 +5,7 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 19f85d4e19f756d8a45ce5364dd0601373128f50
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 4%
@@ -44,7 +44,7 @@ Adobe Campaign에서 사용자는 **운영자**&#x200B;이고 **운영자 그룹
 
 Adobe Admin Console은 조직 전체에서 Adobe 권한을 관리하기 위한 중앙 위치입니다. 제품 관리자만 액세스할 수 있습니다.
 
-Admin Console을 사용하여 사용자를 추가하고, 제품 프로필(운영자 역할 그룹)을 만들고, 할당합니다.
+Admin Console을 사용하여 사용자를 추가하고, 제품 프로필(운영자 역할 그룹)을 만들고 할당할 수 있습니다.
 
 [이 페이지](manage-permissions.md#add-users)에서 사용자를 추가하는 방법을 알아보세요.
 
