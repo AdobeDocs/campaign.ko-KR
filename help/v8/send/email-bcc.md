@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
-source-git-commit: 1cb92c6075e9478b641b11eae52372a909258cd3
+source-git-commit: 286af4739c33b79c74b3cb7fa90ad167670a4b4c
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 보낸 �
 
 >[!NOTE]
 >
->관리 Cloud Service 사용자는 보관에 사용할 BCC 전자 메일 주소를 전달하려면 [Adobe에게 문의](../start/campaign-faq.md#support){target="_blank"}하십시오.
+>Managed Cloud Services 사용자는 보관에 사용할 BCC 전자 메일 주소를 전달하려면 [Adobe에 문의](../start/campaign-faq.md#support){target="_blank"}하십시오.
 
 ## 이메일 BCC 활성화 {#enable-bcc}
 
@@ -42,7 +42,7 @@ Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 보낸 �
 1. 캠페인 탐색기에서 게재 템플릿 폴더를 찾습니다. 기본적으로 게재 템플릿은 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 폴더에 저장됩니다.
 1. BCC로 업데이트할 게재 템플릿을 편집합니다.
 1. **[!UICONTROL Properties]** 버튼을 클릭합니다.
-1. **[!UICONTROL Delivery]** 탭에서 **[!UICONTROL Email BCC]** 옵션을 선택합니다.
+1. **[!UICONTROL Delivery]** 탭에서 **[!UICONTROL Email BCC with enhanced Momentum]** 옵션을 선택합니다.
 
    ![](assets/email-bcc.png)
 
