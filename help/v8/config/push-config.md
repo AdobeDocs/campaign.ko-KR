@@ -1,14 +1,13 @@
 ---
 title: Campaign SDK와 앱 통합
 description: Campaign Android 및 iOS SDK를 앱과 통합하는 방법을 알아봅니다
-version: v8
 feature: Push
 role: Admin, Developer
 level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 1%
@@ -21,17 +20,17 @@ iOS 및 Android용 Campaign SDK를 사용하여 모바일 애플리케이션을 
 
 Android 및 iOS 지원 버전 및 Campaign v8용 Campaign SDK 호환 버전은 [호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK)에 나와 있습니다.
 
-Campaign 관리자는 [Experience Cloud 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)에서 Campaign SDK를 다운로드할 수 있습니다. 자세한 내용은 [고객 지원 Adobe](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+캠페인 관리자는 [Experience Cloud 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)에서 Campaign SDK를 다운로드할 수 있습니다. 자세한 내용은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
 
 >[!NOTE]
 >
->데이터 수집 UI에서 Adobe Experience Platform 확장 기능을 구성하여 Adobe Campaign Mobile SDK를 사용할 수도 있습니다. [개발자 설명서에서 자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+>데이터 수집 UI에서 Adobe Experience Platform 확장 기능을 구성하여 Adobe Campaign Mobile SDK을 사용할 수도 있습니다. [개발자 설명서에서 자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 >
 
 ## 통합 설정 선언 {#declaring-integration-settings}
 
-Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자가 개발자에게 다음 정보를 제공해야 합니다.
+Campaign SDK을 모바일 애플리케이션에 통합하려면 기능 관리자가 개발자에게 다음 정보를 제공해야 합니다.
 
 * **통합 키**: Adobe Campaign 플랫폼에서 모바일 애플리케이션을 식별할 수 있도록 합니다.
 
@@ -61,9 +60,9 @@ Campaign SDK를 모바일 애플리케이션에 통합하려면 기능 관리자
 
 ## Android SDK 통합
 
-Android SDK는 JAVA로 작성된 jar 라이브러리입니다. 이를 통해 Android 개발자는 새 장치를 등록하고, 사용자와 장치를 연결하고, 동작을 추적하는 등의 작업을 Adobe Campaign과 통합할 수 있습니다.
+Android SDK은 JAVA로 작성된 jar 라이브러리입니다. 이를 통해 Android 개발자는 새 장치를 등록하고, 사용자와 장치를 연결하고, 동작을 추적하는 등의 작업을 Adobe Campaign과 통합할 수 있습니다.
 
-이 섹션에서는 [Android FCM(Firebase Cloud Messaging)](https://firebase.google.com/docs/cloud-messaging/)을 구현하는 Android 애플리케이션에서 Google SDK를 사용하는 방법에 대해 알아봅니다.
+이 섹션에서는 [Android FCM(Firebase Cloud Messaging)](https://firebase.google.com/docs/cloud-messaging/)을 구현하는 Android 애플리케이션에서 Google SDK을 사용하는 방법에 대해 알아봅니다.
 
 >[!CAUTION]
 >
@@ -87,7 +86,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 1. **SDK 초기화**
 
-   Android SDK를 사용하기 전에 초기화해야 합니다. SDK 초기화는 활동의 `onCreate` 함수에서 수행할 수 있습니다.
+   Android SDK을 사용하기 전에 초기화해야 합니다. SDK 초기화는 활동의 `onCreate` 함수에서 수행할 수 있습니다.
 
    ```sql
    /** Called when the activity is first created. */
@@ -499,7 +498,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
    알림 메시지의 경우 추적 수신을 다음 두 가지 수준으로 구성해야 합니다.
 
    * `onMessageReceived`(응용 프로그램이 백그라운드에 없음): 이전 섹션에서 구현되었습니다.
-   * `onCreate` 실행 활동(또는 `click_action`함수가 사용되는 경우 타깃팅된 활동) (백그라운드에 응용 프로그램이 없음).
+   * `onCreate` 실행 활동(또는 `click_action`함수가 사용되는 경우 타깃팅된 활동)(응용 프로그램이 백그라운드에 있지 않음) 중
 
    열기/클릭 추적과 동시에 수행해야 합니다.
 
@@ -692,7 +691,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
    **registerDeviceStatus** 대리자를 구현하려면 다음 단계를 수행하십시오.
 
-   1. SDK를 초기화하는 동안 **setDelegate**&#x200B;을 구현합니다.
+   1. SDK 초기화 중에 **setDelegate**&#x200B;을(를) 구현합니다.
 
       ```sql
       // AppDelegate.m
@@ -843,7 +842,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 >[!CAUTION]
 >
->Adobe 알림 크기가 iOS 및 Android의 경우 4kB로 제한되므로 짧은 변수 이름을 선택하는 것이 좋습니다.
+>Adobe iOS 및 Android의 경우 알림 크기가 4kB로 제한되므로 짧은 변수 이름을 선택하는 것이 좋습니다.
 
 ## 알림 서비스 확장 {#notification-service-extension}
 
