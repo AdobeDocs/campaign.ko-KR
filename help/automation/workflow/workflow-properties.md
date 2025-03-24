@@ -4,10 +4,10 @@ title: 워크플로 속성
 description: Campaign 워크플로우 속성에 대해 자세히 알아보기
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: c6b4f4cee6f033218c77a495c39885e231c06126
+source-git-commit: d31040885ec45068d70a7d4c0b481269c8af7a33
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 34%
+source-wordcount: '640'
+ht-degree: 33%
 
 ---
 
@@ -59,9 +59,11 @@ ht-degree: 34%
 
   >[!NOTE]
   >
-  >이 옵션은 고급 사용자를 대상으로 하며 **기술 워크플로우**&#x200B;에 대해서만 활성화해야 합니다.
+  >* 이 옵션은 v8.6.4부터 사용할 수 있습니다.
   >
-  >`fullFdaMkt` 패키지에서 사용할 수 있는 중앙 복제 워크플로에 대해 기본적으로 활성화되어 있습니다.
+  >* 이 옵션은 고급 사용자를 대상으로 하며 **기술 워크플로우**&#x200B;에 대해서만 활성화해야 합니다.
+  >
+  >* 이 옵션은 [엔터프라이즈(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)의 사용 가능한 중앙 복제 워크플로에 대해 기본적으로 활성화됩니다. [자세히 알아보기](../../v8/architecture/replication.md)
 
 ### 오류 관리 {#error-management}
 
