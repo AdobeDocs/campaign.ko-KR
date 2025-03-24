@@ -4,7 +4,7 @@ title: 워크플로 속성
 description: Campaign 워크플로우 속성에 대해 자세히 알아보기
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 63b7eaba3ea7b580d9b6c3c0e0c015c057539aa8
+source-git-commit: c6b4f4cee6f033218c77a495c39885e231c06126
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 34%
@@ -55,7 +55,7 @@ ht-degree: 34%
 
 * **[!UICONTROL Enable watchdog supervisor to keep workflow running permanently]**
 
-  이 옵션을 사용하면 오류가 발생한 후 워크플로우가 자동으로 다시 시작됩니다. 활성화되면 다시 시작은 30초마다 워크플로우의 상태를 확인하고 필요한 경우 다시 시작합니다. 30초 간격을 조정하려면 `XtkWorkflow_WatchdogTimerTimeout` 기술 옵션을 만들고 정수 데이터 형식을 사용하여 원하는 지연을 지정할 수 있습니다.
+  이 옵션을 사용하면 오류가 발생한 후 워크플로우가 자동으로 다시 시작됩니다. 활성화되면 다시 시작은 30초마다 워크플로우의 상태를 확인하고 필요한 경우 다시 시작합니다. 30초 간격을 조정하려면 `XtkWorkflow_WatchdogRestartTimerTimeout` 기술 옵션을 만들고 정수 데이터 형식을 사용하여 원하는 지연을 지정할 수 있습니다.
 
   >[!NOTE]
   >
