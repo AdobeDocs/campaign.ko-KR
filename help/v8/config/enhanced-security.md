@@ -5,9 +5,9 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: c225b3ee5b356d98d6a5e3bb9bd1cb0feae0300a
+source-git-commit: 24b252373923a9724743650b13a69d4f2c8dcd24
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 이 페이지에는 향상된 보안 기능과 관련된 몇 가지 보호 기능 및 제한 사항이 나와 있습니다. 또한 모든 보안 CMK 통합 / 보안 VPN 터널링 사용 사례가 작동하는지 확인해야 합니다.
 
-이러한 기능이 구현되면 Adobe 모니터가 다음을 수행합니다.
+이러한 기능이 구현되면 Adobe은 다음을 모니터링합니다.
 
 * 인스턴스를 사용할 수 있고 키를 사용할 수 없는 경우 경고 를 계속 진행합니다.
 
@@ -49,18 +49,18 @@ Campaign과 CMK 통합을 사용하려면 아래 단계를 따르십시오.
 
 1. AWS KMS(키 관리 서비스)를 사용하여 자동 순환이 설정된 키를 생성합니다. [방법을 알아보세요](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}.
 
-1. 리소스에 대한 액세스 권한을 부여하려면 Adobe으로 제공된 정책을 AWS 계정에 적용하십시오. [자세히 알아보기](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}. <!--link TBC-->
+1. 리소스에 대한 액세스 권한을 부여하려면 Adobe에서 제공한 정책을 AWS 계정에 적용하십시오. [자세히 알아보기](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}. <!--link TBC-->
 
 1. [Amazon 리소스 이름(키 ARN)](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"}을(를) [!DNL Adobe Campaign]과(와) 공유합니다. 이렇게 하려면 Adobe 담당자에게 문의하십시오. <!--or Adobe transition manager?-->
 
-1. Amazon EventBridge 규칙을 만들고 테스트하여 Adobe으로 키를 모니터링할 수 있습니다&#x200B;. [자세히 알아보기](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}
+1. Amazon EventBridge 규칙을 만들고 테스트하여 Adobe에서 키를 모니터링할 수 있습니다&#x200B;. [자세히 알아보기](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}
 
 
 ### 보호 기능 및 제한 사항 {#cmk-callouts}
 
 Adobe Campaign v8과 CMK 통합에는 다음과 같은 보호 기능 및 제한 사항이 적용됩니다.
 
-* Adobe이 [Amazon Web Services(AWS)](https://aws.amazon.com/){target="_blank"} 계정을 제공하지 않습니다. 고유한 AWS 계정이 있어야 하며, 이 계정을 설정하여 키를 생성하고 Adobe과 공유해야 합니다.
+* Adobe은 [Amazon Web Services(AWS)](https://aws.amazon.com/){target="_blank"} 계정을 제공하지 않습니다. 자신의 AWS 계정이 있어야 하며, 이 계정을 설정하여 Adobe에서 키를 생성하고 공유해야 합니다.
 
 * [AWS 키 관리 서비스](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"}(KMS) 키만 지원됩니다. KMS 외부의 고객 생성 키를 사용할 수 없습니다&#x200B;.
 
@@ -129,4 +129,4 @@ AWS 호환 VPN 장치만 지원됩니다. [이 페이지](https://docs.aws.amazo
 >
 >* 서드파티 또는 외부 공급업체에 대한 VPN 연결은 지원되지 않습니다.
 >
->* 개인 클라우드 데이터베이스에 대한 Adobe 관리 추가 VPN은 포함되지 않습니다.
+>* Adobe에서 관리하는 사설 클라우드 데이터베이스에 대한 추가 VPN은 포함되지 않습니다.
