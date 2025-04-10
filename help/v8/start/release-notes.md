@@ -3,10 +3,10 @@ title: Campaign v8 릴리스 정보
 description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c6b4f4cee6f033218c77a495c39885e231c06126
+source-git-commit: 49ce7d776eb626d6a927da7630ed7d0e2644fda3
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 17%
+source-wordcount: '737'
+ht-degree: 19%
 
 ---
 
@@ -18,11 +18,33 @@ ht-degree: 17%
 
 **이 페이지에서**
 
-* Campaign v8.6 - [릴리스 8.6.4](#release-8-6-4)
-* Campaign v8.7 - [릴리스 8.7.3](#release-8-7-3)
+* [릴리스 8.7.4](#release-8-7-4)
+* [릴리스 8.7.3](#release-8-7-3)
+* [릴리스 8.6.4](#release-8-6-4)
 
 >[!ENDSHADEBOX]
 
+## 릴리스 8.7.4 {#release-8-7-4}
+
+_2025년 4월 10일 금요일_
+
+>[!AVAILABILITY]
+>
+>이 릴리스는 **제한 공개**(LA) 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
+>
+>Campaign Standard 사용자가 Campaign v8로 전환하는 경우 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"}에서 이 전환에 대해 자세히 알아보세요.
+
+### 새로운 기능 {#features-8-7-4}
+
+* **SMS REST API 지원** - 이제 SMS 채널에 트랜잭션 메시지 REST API를 사용할 수 있습니다. 이메일과 휴대폰이 모두 페이로드에 있으면 &quot;wishedChannel&quot; 필드를 사용하여 채널을 지정할 수 있습니다. 제공하지 않을 경우 wiredChannel이 명시적으로 SMS를 요청하지 않는 한 이메일이 기본적으로 사용됩니다.
+
+* **다국어 게재** - Campaign 웹 사용자 인터페이스 4월 릴리스를 시작하면 여러 언어로 여러 이메일 게재를 보내고 관련 동적 보고서에 액세스할 수 있습니다. 이 기능은 4월 말에 Adobe Campaign 웹 사용자 인터페이스에서만 사용할 수 있으며 Campaign v8.7.4로 서버를 업데이트해야 합니다.
+
+### 수정 사항 {#fixes-8-7-4}
+
+이 릴리스에서는 다음 문제가 해결되었습니다.
+
+NEO-80245, NEO-83559
 
 ## 릴리스 8.7.3 {#release-8-7-3}
 
@@ -32,13 +54,13 @@ _2025년 2월 14일_
 >
 >이 릴리스는 **제한 공개**(LA) 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 >
->Campaign v8로 전환하는 Campaign Standard 사용자라면 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"}를 통해 전환 과정을 자세히 확인할 수 있습니다.
+>Campaign Standard 사용자가 Campaign v8로 전환하는 경우 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"}에서 이 전환에 대해 자세히 알아보세요.
 
 ### 새로운 기능 {#features-8-7-3}
 
-* **트랜잭션 메시지에 대한 동적 보고** - 이제 동적 보고 사용자 인터페이스에서 트랜잭션 메시지를 모니터링할 수 있습니다. 이러한 보고서는 마케터가 템플릿을 통해 실시간으로 전송된 게재 분류와 트랜잭션 메시지의 모든 보고 지표와 차원을 볼 수 있는 기능을 제공합니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+* **트랜잭션 메시지에 대한 동적 보고** - 이제 동적 보고 사용자 인터페이스에서 트랜잭션 메시지를 모니터링할 수 있습니다. 이러한 보고서는 마케터가 템플릿을 통해 실시간으로 전송된 게재 분류와 트랜잭션 메시지의 모든 보고 지표와 차원을 볼 수 있는 기능을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 
-* **트랜잭션 메시지 REST API** - 이제 전자 메일에 이벤트 기반 트랜잭션 API를 사용할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
+* **트랜잭션 메시지 REST API** - 이제 전자 메일에 이벤트 기반 트랜잭션 API를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 
 ### 수정 사항 {#fixes-8-7-3}
 
@@ -60,7 +82,7 @@ _2025년 1월 15일_
 
 ### 보안 개선 사항 {#security-8-6-4}
 
-보안을 강화하기 위해 **[!UICONTROL Adobe Experience Cloud]** 외부 계정을 통해 Adobe 솔루션 및 앱과의 연결을 업데이트했습니다.
+보안을 강화하기 위해 **[!UICONTROL Adobe Experience Cloud]** 외부 계정을 통한 Adobe 솔루션 및 앱 연결을 업데이트했습니다.
 
 <!--
 ### Connection to Campaign {#ims-8-6-4}
