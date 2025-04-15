@@ -3,16 +3,26 @@ title: Campaign v8(콘솔) 2025 릴리스 정보
 description: 2025 Campaign v8 릴리스의 기능 및 개선 사항 목록
 feature: Release Notes
 exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
-source-git-commit: ff874a8e06303625b4c96f49fdf4f303b50fb908
+source-git-commit: 66e4b59915eae595b28076622f7bcfb5b5a0ffa4
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 66%
+source-wordcount: '428'
+ht-degree: 64%
 
 ---
 
 # 2025 릴리스 정보 {#2025-rn}
 
 이 페이지에는 **2025 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다. 최신 릴리스는 [이 페이지](release-notes.md)에 나열되어 있습니다.
+
+>[!BEGINSHADEBOX]
+
+**이 페이지에서**
+
+* Campaign v8.7 - [릴리스 8.7.2](#release-8-7-2) | [릴리스 8.7.3](#release-8-7-3)
+
+
+>[!ENDSHADEBOX]
+
 
 ## 릴리스 8.7.3 {#release-8-7-3}
 

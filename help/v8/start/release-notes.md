@@ -3,9 +3,9 @@ title: Campaign v8 릴리스 정보
 description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: ff874a8e06303625b4c96f49fdf4f303b50fb908
+source-git-commit: 66e4b59915eae595b28076622f7bcfb5b5a0ffa4
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '594'
 ht-degree: 16%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 16%
 **이 페이지에서**
 
 * [릴리스 8.7.4](#release-8-7-4)
-* [릴리스 8.7.3](#release-8-7-3)
 * [릴리스 8.6.4](#release-8-6-4)
 
 >[!ENDSHADEBOX]
@@ -32,7 +31,7 @@ _2025년 4월 10일 금요일_
 >
 >이 릴리스는 **제한 공개**(LA) 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 >
->Campaign Standard 사용자가 Campaign v8로 전환하는 경우 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration)에서 이 전환에 대해 자세히 알아보세요.
+>Campaign Standard 사용자가 Campaign v8로 전환하는 경우 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"}에서 이 전환에 대해 자세히 알아보세요.
 
 ### 새로운 기능 {#features-8-7-4}
 
