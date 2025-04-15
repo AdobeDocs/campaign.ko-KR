@@ -5,16 +5,21 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c748654c76c6b6ce8ad4d4886a1f73004a41e7ac
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 7%
 
 ---
 
 # 사전 정의 필터 만들기{#creating-pre-defined-filters}
 
 사전 정의된 필터를 만들어 오퍼 생성 중 쉽게 다시 사용할 수 있는 대상 모집단의 자격 규칙을 정의합니다. 각 환경에 따라 다르며 오퍼 매개 변수를 고려합니다.
+
+>[!NOTE]
+>
+>Adobe Campaign Web UI는 특정 요구 사항에 맞게 사전 정의된 필터를 손쉽게 관리하고 사용자 정의할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 만들고 나중에 사용할 수 있도록 저장하십시오. 웹 UI용 사전 정의된 필터에 대한 자세한 내용은 [Adobe Campaign 웹 UI 설명서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/predefined-filters){target=_blank}를 참조하세요.
+
 
 사전 정의된 필터를 만들려면 다음 프로세스를 적용합니다.
 
