@@ -4,9 +4,9 @@ title: SQL 데이터 관리
 description: SQL 데이터 관리 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
 Role: User
-Level: Experienced
+level: Experienced
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 64b24d7a72c2cdee841ea301ca46b0204f1fccaa
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 3%
@@ -38,7 +38,7 @@ ht-degree: 3%
 
    >[!CAUTION]
    >
-   >SQL 스크립트가 작동하고 해당 참조(필드 이름 등)가 작동하는지 확인하는 것은 SQL 스크립트 작성자의 책임입니다. 은 아웃바운드 스키마를 따릅니다.
+   >SQL 스크립트가 작동하고 해당 참조(필드 이름 등)가 아웃바운드 스키마를 준수하는지 확인하는 것은 SQL 스크립트 작성기의 책임입니다.
 
    기존 SQL 코드를 로드하려면 **[!UICONTROL The SQL script is contained in an entity stored in the database]** 옵션을 선택하십시오. SQL 스크립트를 만들고 **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** / **[!UICONTROL SQL scripts]** 메뉴에 저장해야 합니다.
 
