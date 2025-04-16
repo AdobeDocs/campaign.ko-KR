@@ -1,18 +1,18 @@
 ---
 title: Adobe Campaign 워크플로우를 통해 프로세스 관리 및 자동화
-description: 워크플로 시작
+description: 워크플로 시작하기
 feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 8e1401ef0aada30d941905936b45c6c1819c83a7
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 1%
+source-wordcount: '1344'
+ht-degree: 2%
 
 ---
 
-# 워크플로 시작{#gs-with-workflows}
+# 워크플로 시작하기{#gs-with-workflows}
 
 강력한 마케팅 캠페인 자동화 기능을 활용하도록 Campaign을 구성합니다.
 
@@ -25,6 +25,11 @@ ht-degree: 1%
 * 자동 보고서 전송
 * 트리거된 이벤트
 
+>[!NOTE]
+>
+>Adobe Campaign Web UI에는 워크플로우에 대해 다시 설계된 캔버스가 함께 제공되므로 보다 역동적이고 개인화된 고객 여정을 만들 수 있습니다. 웹 UI용 워크플로에 대한 자세한 내용은 [Adobe Campaign 웹 UI 설명서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank}를 참조하세요.
+
+
 ## 워크플로 디자인 및 사용 {#gs-ac-wf}
 
 Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기, 메시지 준비에서 게재에 이르기까지 마케팅 캠페인의 모든 측면에 대한 속도와 규모를 개선합니다.
@@ -33,9 +38,9 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기, 메시지
 
 다음 페이지에서 워크플로우 사용자 인터페이스 및 실행에 대해 자세히 알아보십시오.
 
-* [워크플로우 시작](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"}
+* [워크플로 시작](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"}
 
-* [워크플로우 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
+* [워크플로 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
 * [기본 제공 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
 
@@ -137,14 +142,14 @@ Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 
-* [생일 전자 메일 보내기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ko){target="_blank"}
+* [생일 이메일 보내기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ko){target="_blank"}
 
   이 사용 사례에서는 생일 당일 수신자 목록에 반복 이메일 전송을 계획하는 방법을 제공합니다.
 
 * [게재 콘텐츠 로드](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}
 게재 콘텐츠를 원격 서버에 있는 HTML 파일에서 사용할 수 있으면 이 콘텐츠를 Adobe Campaign 게재에 쉽게 로드할 수 있습니다.
 
-* [채널 간 게재 워크플로우](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html){target="_blank"}
+* [채널 간 게재 워크플로](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html){target="_blank"}
 크로스 채널 게재 워크플로우를 빌드하는 방법을 알아봅니다. 목표는 데이터베이스의 수신자로부터 대상을 다른 그룹으로 세분하고 첫 번째 그룹에는 전자 메일을 보내고 다른 그룹에는 SMS를 보내는 것입니다.
 
 * [사용자 지정 날짜 필드를 사용한 전자 메일 강화](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html){target="_blank"}
@@ -193,7 +198,7 @@ PDF 형식으로 월별 내장 추적 지표 보고서를 생성하여 Campaign 
 * [반복 가져오기 워크플로우 설정](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
 Adobe Campaign 데이터베이스의 CRM에서 가져온 프로필을 가져오는 데 다시 사용할 수 있는 워크플로우를 디자인하는 방법을 알아봅니다.
 
-### 타겟팅 {#designing-queries}
+### 타기팅 {#designing-queries}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
