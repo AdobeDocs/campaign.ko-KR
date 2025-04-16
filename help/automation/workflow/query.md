@@ -5,9 +5,9 @@ description: 쿼리 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 71bad190894243f8c4dd82792dcc379faa947e04
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1607'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 1%
 
 쿼리를 사용하면 기준에 따라 대상을 선택할 수 있습니다. 쿼리 결과에 세그먼트 코드를 연결하고 추가 데이터를 삽입할 수 있습니다.
 쿼리 샘플에 대한 자세한 내용은 이 [이 섹션](querying-recipient-table.md)을 참조하세요.
+
+>[!NOTE]
+>
+>Adobe Campaign Web UI는 다양한 기준에 따라 특정 대상을 선택하기 위해 데이터베이스를 필터링하는 프로세스를 단순화하는 강력한 쿼리 모델러를 제공하여 쿼리를 보다 쉽게 만들고 관리할 수 있도록 해 줍니다. 웹 UI용 쿼리 모델러에 대한 자세한 내용은 [Adobe Campaign 웹 UI 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}를 참조하세요.
+
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
