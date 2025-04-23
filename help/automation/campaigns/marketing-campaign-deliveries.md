@@ -4,8 +4,9 @@ title: 마케팅 캠페인 게재
 description: 마케팅 캠페인 게재에 대해 자세히 알아보기
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 1%
@@ -14,7 +15,7 @@ ht-degree: 1%
 
 # 마케팅 캠페인 게재 {#marketing-campaign-deliveries}
 
-캠페인에서 크로스 채널 게재 오케스트레이션: 개인화된 이메일, SMS, 푸시 알림 및 인앱 메시지를 통해 Adobe Campaign과의 커뮤니케이션을 간소화합니다. 비디오, 이모지 또는 GIF과 같은 리치 미디어를 사용하고 직접 통합할 수 있습니다.
+캠페인에서 크로스 채널 게재 오케스트레이션: 개인화된 이메일, SMS, 푸시 알림 및 인앱 메시지를 통해 Adobe Campaign과의 커뮤니케이션을 간소화합니다. 비디오, 이모지 또는 GIF와 같은 리치 미디어를 사용하고 직접 통합할 수 있습니다.
 
 게재는 캠페인 대시보드, 캠페인 워크플로우 또는 게재 개요를 통해 직접 만들 수 있습니다. 캠페인에서 생성되면 게재는 이 캠페인에 연결되고 캠페인 수준에서 통합됩니다.
 

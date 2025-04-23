@@ -4,8 +4,9 @@ title: 공급자, 재고 및 예산
 description: 공급자, 재고 및 예산
 feature: Budget Management, Campaigns
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
-source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '1830'
 ht-degree: 1%
@@ -138,7 +139,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 서비스 공급자는 캠페인 게재와 연결됩니다. 게재 템플릿에서 참조되어 이 템플릿을 통해 만든 게재에서 서비스를 제공합니다.
 
-서비스를 선택하면 게재 유형(DM, 이메일 등)에 해당하는 비용 범주 정의된 처리 옵션과 함께 중앙 테이블에 자동으로 표시됩니다.
+서비스를 선택하면 정의된 처리 옵션과 함께 게재 유형에 해당하는 비용 범주(DM, 이메일 등)가 중앙 표에 자동으로 표시됩니다.
 
 >[!NOTE]
 >

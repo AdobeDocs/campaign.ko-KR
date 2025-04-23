@@ -4,8 +4,9 @@ title: 마케팅 캠페인 만들기
 description: 마케팅 캠페인을 만들고 실행하는 방법 알아보기
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 4%
@@ -32,7 +33,7 @@ ht-degree: 4%
 
 1. 홈 페이지에서 **탐색기** 아이콘을 클릭합니다.
 1. 계획을 생성할 폴더를 마우스 오른쪽 단추로 누릅니다.
-1. **새 폴더 추가 > Campaign Management > 플랜**&#x200B;을 선택합니다.
+1. **새 폴더 추가 > 캠페인 관리 > 플랜**&#x200B;을 선택합니다.
 
    ![](assets/create-new-plan-folder.png)
 
@@ -187,7 +188,7 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 | 캠페인, 게재, 오퍼 등 목록 | 목록 항목 삭제 |
 | 캠페인 | 캠페인 취소 |
 | 게재 | 게재 콘텐츠 및 대상 승인<br/>게재 콘텐츠 제출<br/>게재 확인<br/>게재 일시 중지 및 중지 |
-| 웹 애플리케이션 | 웹 응용 프로그램을 만듭니다<br/>응용 프로그램 콘텐츠 및 속성을 편집합니다<br/>응용 프로그램 콘텐츠를 템플릿으로 저장합니다<br/>응용 프로그램 Publish |
+| 웹 애플리케이션 | 웹 응용 프로그램을 만듭니다<br/>응용 프로그램 콘텐츠 및 속성을 편집합니다<br/>응용 프로그램 콘텐츠를 템플릿으로 저장합니다<br/>응용 프로그램을 게시합니다. |
 | 오퍼 | 오퍼 콘텐츠 및 자격 승인<br/>온라인 오퍼 사용 안 함 |
 | 작업 | 작업 완료<br/>작업 취소 |
 | 마케팅 리소스 | 리소스 승인<br/>리소스 잠금 및 잠금 해제 |

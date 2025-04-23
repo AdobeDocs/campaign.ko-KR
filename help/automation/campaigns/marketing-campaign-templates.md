@@ -4,8 +4,9 @@ title: 마케팅 캠페인 템플릿
 description: 마케팅 캠페인 템플릿
 feature: Campaigns, Templates
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 4%
@@ -59,7 +60,7 @@ ht-degree: 4%
 
 ![](assets/campaign-template-select-modules.png)
 
-기능을 선택하지 않으면 프로세스와 관련된 요소(메뉴, 아이콘, 옵션, 탭, 하위 탭 등)가 템플릿의 인터페이스 또는 이 템플릿을 기반으로 하는 캠페인에 나타나지 마십시오. 캠페인 세부 정보의 왼쪽에 있는 탭과 사용 가능한 탭은 템플릿에서 선택한 기능과 일치합니다. 예를 들어 **경비 및 목표** 기능을 사용할 수 없으므로 이 템플릿을 기반으로 하는 캠페인에 해당 **[!UICONTROL Budget]** 탭이 표시되지 않습니다.
+기능을 선택하지 않으면 프로세스와 관련된 요소(메뉴, 아이콘, 옵션, 탭, 하위 탭 등)가 템플릿 인터페이스나 이 템플릿을 기반으로 하는 캠페인에 표시되지 않습니다. 캠페인 세부 정보의 왼쪽에 있는 탭과 사용 가능한 탭은 템플릿에서 선택한 기능과 일치합니다. 예를 들어 **경비 및 목표** 기능을 사용할 수 없으므로 이 템플릿을 기반으로 하는 캠페인에 해당 **[!UICONTROL Budget]** 탭이 표시되지 않습니다.
 
 또한 구성 창에 대한 단축키가 캠페인 대시보드에 추가됩니다. 기능을 활성화하면 직접 링크를 통해 캠페인 대시보드에서 액세스할 수 있습니다.
 
