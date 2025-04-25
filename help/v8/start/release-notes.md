@@ -3,10 +3,10 @@ title: Campaign v8 릴리스 정보
 description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 66e4b59915eae595b28076622f7bcfb5b5a0ffa4
+source-git-commit: 5ece3ca4ebf9f3973d9cbd1a00ea57b29c1f2e93
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 16%
+source-wordcount: '781'
+ht-degree: 32%
 
 ---
 
@@ -18,10 +18,37 @@ ht-degree: 16%
 
 **이 페이지에서**
 
+* [릴리스 8.6.5](#release-8-6-4)
 * [릴리스 8.7.4](#release-8-7-4)
 * [릴리스 8.6.4](#release-8-6-4)
 
 >[!ENDSHADEBOX]
+
+## 릴리스 8.6.5 {#release-8-6-5}
+
+_2025년 4월 25일 토요일_
+
+>[!AVAILABILITY]
+>
+>이 릴리스는 **제한된 가용성**(LA)에 있습니다.
+
+### 새로운 기능 {#features-8-6-5}
+
+**새로운 SMS 전송 커넥터** - SMS 전송 커넥터가 최신화되고 개선되었습니다. 송수신기 모드 SMPP 연결 및 영구 SMPP 연결을 사용할 수 있으며 Adobe Campaign Standard에서 전환할 때 환경에 대해 보다 나은 호환성을 보장합니다. 이제 모든 새 SMS 구현에 새 SMS 외부 계정을 사용할 수 있습니다. 기존 구현도 여전히 지원하지만 새롭게 확장된 최신형 커넥터로 옮기는 것을 권장합니다. [자세히 보기](../send/sms/sms.md).
+
+### 일반 개선 사항 {#improvements-8-6-5}
+
+* 엔터프라이즈(FFDA) 배포 환경에서 게재 증명 전송 및 데이터베이스 정리를 포함하여 애플리케이션의 전역 성능이 개선되었습니다.
+
+* 애플리케이션 간 모든 통신에 대한 보안을 강화하기 위해 이제 외부 API 호출에도 mTLS를 지원합니다.
+
+* 메일 전송 에이전트(MTA) - 분리된 MTA 하위 요소가 **[!UICONTROL Start pending]** 상태에서 중단되는 문제를 해결했습니다.
+
+### 해결 사항 {#fixes-8-6-5}
+
+이 릴리스에서는 다음 문제도 해결합니다.
+
+NEO-67620, NEO-71534, NEO-80245, NEO-81105, NEO-81758, NEO-81908, NEO-82351, NEO-82742, NEO-83044, NEO-83138, NEO-83350, NEO-83729, NEO-83793, NEO-83809, NEO-84038, NEO-84108, NEO-85269, NEO-86121, NEO-86556, NEO-86739
 
 ## 릴리스 8.7.4 {#release-8-7-4}
 
