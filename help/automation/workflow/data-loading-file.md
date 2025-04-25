@@ -5,9 +5,9 @@ description: 데이터 로드(파일) 워크플로우 활동에 대해 자세히
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1097'
 ht-degree: 14%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->&quot;플랫&quot; 구조 파일만 지원됩니다(예: CSV, TXT 등). XML 형식은 사용하지 않는 것이 좋습니다.
+>&quot;플랫&quot; 구조 파일만 지원됩니다(예: CSV, TXT 등). XML 형식은 사용하지 않는 것이 좋습니다. 클라이언트 콘솔을 사용하면 최대 150MB의 크기로 파일을 로드할 수 있습니다. 웹 사용자 인터페이스에서 파일 로드 활동의 제한은 50MB입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 
@@ -93,7 +93,7 @@ ht-degree: 14%
 
 1. 파일 컬렉터를 사용하면 지정된 빈도에 따라 디렉토리에 저장된 파일을 복구할 수 있습니다.
 
-   **[!UICONTROL Directory]** 탭에는 복구할 파일에 대한 정보가 포함되어 있습니다. 이 예제에서 이름에 &#39;customers&#39;라는 단어가 포함되어 있고 서버의 tmp/Adobe/데이터/파일 디렉터리에 저장된 텍스트 형식의 모든 파일은 복구됩니다.
+   **[!UICONTROL Directory]** 탭에는 복구할 파일에 대한 정보가 포함되어 있습니다. 이 예제에서 이름에 &#39;customers&#39;라는 단어가 포함되어 있고 서버의 tmp/Adobe/Data/files 디렉터리에 저장된 텍스트 형식의 모든 파일이 복구됩니다.
 
    **[!UICONTROL File collector]** 사용에 대해서는 [파일 수집기](file-collector.md) 섹션에 자세히 설명되어 있습니다.
 

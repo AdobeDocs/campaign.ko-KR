@@ -4,9 +4,9 @@ title: 압력 규칙 구성
 description: 압력 규칙 구성 방법 알아보기
 feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
-source-git-commit: 5810f9b53bd3ad5383d4b9767bc65a3d595862c7
+source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3126'
 ht-degree: 7%
 
 ---
@@ -36,6 +36,10 @@ ht-degree: 7%
 ## 압력 규칙 만들기 {#create-a-pressure-rule}
 
 Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저 캠페인 유형화를 만들고 연결된 유형화 규칙(**압력** 규칙)을 정의하세요.
+
+>[!NOTE]
+>
+>압력 규칙이 올바르게 적용되려면 규칙의 타겟팅 차원이 게재 매핑의 타겟팅 차원과 일치해야 합니다.
 
 **[!UICONTROL Pressure]** 유형화 규칙을 만들고 구성하려면 다음 단계를 수행합니다.
 
