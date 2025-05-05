@@ -68,7 +68,7 @@ Adobe에 새 제품 프로필을 추가하려면 먼저 Campaign 클라이언트
 #### Campaign에서 연산자 그룹 만들기{#create-op-group}
 
 1. Campaign에 연결하여 탐색기를 열고 **[!UICONTROL Administration > Access management > Operator groups]**(으)로 이동합니다.
-1. **[!UICONTROL New]**을(를) 클릭하고 연산자 그룹의 이름을 정의하고 내부 이름(&#39;검토자&#39;)을 설정합니다.
+1. **[!UICONTROL New]**&#x200B;을(를) 클릭하고 연산자 그룹의 이름을 정의하고 내부 이름(&#39;검토자&#39;)을 설정합니다.
    ![](assets/new-op-group.png)
 1. 명명된 권한을 선택하여 관련 권한을 정의합니다. 명명된 권한은 [이 섹션](#use-named-rights)에 자세히 설명되어 있습니다.
 1. 새 연산자 그룹을 저장합니다.

@@ -90,7 +90,7 @@ HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 
 
 ### 식별된 오퍼 제공 {#presenting-an-identified-offer}
 
-식별된 연락처에 오퍼를 제공하기 위한 프로세스는 이 섹션](#presenting-an-anonymous-offer)의 자세한 [과(와) 유사합니다.
+식별된 연락처에 오퍼를 제공하기 위한 프로세스는 이 섹션[&#128279;](#presenting-an-anonymous-offer)의 자세한 과(와) 유사합니다.
 
 웹 페이지의 콘텐츠에서 오퍼 엔진 호출 중에 연락처를 식별하는 다음 스크립트를 추가해야 합니다.
 
