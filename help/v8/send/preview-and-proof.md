@@ -105,4 +105,4 @@ ht-degree: 3%
 
 이메일 게재에 대한 증명을 보내고 확인하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/333404)
+>[!VIDEO](https://video.tv.adobe.com/v/3447006?captions=kor)

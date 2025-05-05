@@ -59,4 +59,4 @@ Adobe Campaign을 사용하여 예산 할당을 제어하고 공급자, 재고 �
 
 이 비디오에서는 마케팅 캠페인의 주요 개념을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/326577?quality=12&captions=kor)

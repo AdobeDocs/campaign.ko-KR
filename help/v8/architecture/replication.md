@@ -115,6 +115,6 @@ var xml = xtk.builder.CopyXxlData(
 
 이 비디오는 Adobe Campaign v8에서 사용하는 데이터베이스, 데이터를 복제하는 이유, 복제하는 데이터 및 복제 프로세스의 작동 방식에 대한 주요 개념을 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416867?quality=12&captions=kor)
 
 추가 Campaign v8 클라이언트 콘솔 자습서는 [여기](https://experienceleague.adobe.com/ko/docs/campaign-learn/tutorials/overview)에서 확인할 수 있습니다.
