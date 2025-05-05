@@ -20,7 +20,7 @@ ht-degree: 1%
 
 시드 주소에는 다음과 같은 이점이 있습니다.
 
-* 수신자 프로필에서 가져온 데이터로 필드를 임의로 대체: 시드 주소 섹션과 같은 이메일 주소만 입력하고 Campaign에서 프로필의 다른 필드를 자동으로 채울 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}를 참조하세요.
+* 수신자 프로필에서 가져온 데이터로 필드를 임의로 대체: 시드 주소 섹션과 같은 이메일 주소만 입력하고 Campaign에서 프로필의 다른 필드를 자동으로 채울 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=ko){target="_blank"}를 참조하세요.
 * Datamanagement 기능이 있는 워크플로우를 사용하는 경우 게재에서 처리된 추가 데이터를 시드 주소 수준에서 입력하여 값을 강제 적용할 수 있습니다. 이는 무작위 값 대체를 회피합니다.
 * 시드 주소는 **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]** 게재 통계의 보고서에서 자동으로 제외됩니다.
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 >
 >시드 주소는 수신자 표에 만들어지지 않고 별도의 표에 만들어집니다. 새 데이터로 수신자 테이블을 확장하는 경우 동일한 데이터로 시드 주소 테이블을 확장해야 합니다. 그렇지 않으면 확장 필드는 시드 주소에 대해 고려되지 않습니다.
 >
->시드 주소 테이블을 확장하는 방법의 예는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}에 나와 있습니다.
+>시드 주소 테이블을 확장하는 방법의 예는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=ko){target="_blank"}에 나와 있습니다.
 
 ## 시드 주소 만들기
 
@@ -85,7 +85,7 @@ DM 게재의 경우 추출 파일 형식은 다음 제한 사항을 준수해야
 
 1. 삽입할 제어 주소를 동적으로 선택하는 조건을 만듭니다. 이렇게 하려면 **[!UICONTROL Edit the dynamic condition...]** 링크를 클릭한 다음 시드 주소 선택 매개 변수를 입력합니다. 예를 들어 특정 폴더에 포함된 모든 시드 주소 또는 조직의 특정 부서에 속한 시드 주소를 포함할 수 있습니다.
 
-   이에 대한 예는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}에 나와 있습니다.
+   이에 대한 예는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=ko){target="_blank"}에 나와 있습니다.
 
 게재의 경우 추출 파일에 주소를 삽입하는 방법을 사용자 지정할 수도 있습니다. 기본적으로 출력 파일의 정렬 순서에 삽입되지만 파일의 끝이나 시작 부분에 삽입하거나 기본 대상의 수신자 중에 임의로 삽입하도록 선택할 수 있습니다.
 

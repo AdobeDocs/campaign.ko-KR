@@ -22,13 +22,13 @@ Campaign 데이터베이스를 채우려면 아래 설명된 대로 [프로필�
 
 ### 목록의 데이터 사용: 목록 읽기 {#data-from-read-list}
 
-워크플로우로 가져올 데이터를 파일에 준비하고 구성합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html){target="_blank"}
+워크플로우로 가져올 데이터를 파일에 준비하고 구성합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=ko){target="_blank"}
 
 ### 파일에서 데이터 로드 {#data-from-a-file}
 
-워크플로우에서 처리된 데이터는 Adobe Campaign으로 가져올 수 있도록 구조화된 파일에서 추출할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html){target="_blank"}
+워크플로우에서 처리된 데이터는 Adobe Campaign으로 가져올 수 있도록 구조화된 파일에서 추출할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html?lang=ko){target="_blank"}
 
-데이터가 수집되면 워크플로우에서 사용할 수 있습니다. 예를 들어 게재를 보강하거나 데이터베이스를 업데이트할 수 있습니다. 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html){target="_blank"}을 참조하세요.
+데이터가 수집되면 워크플로우에서 사용할 수 있습니다. 예를 들어 게재를 보강하거나 데이터베이스를 업데이트할 수 있습니다. 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=ko){target="_blank"}을 참조하세요.
 
 ## 일회성 가져오기{#import-jobs}
 

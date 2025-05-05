@@ -28,4 +28,4 @@ ht-degree: 10%
 
 ![](assets/crm_task_select_obj.png)
 
-Adobe Campaign의 CRM 커넥터에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}을 참조하세요.
+Adobe Campaign의 CRM 커넥터에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=ko){target="_blank"}을 참조하세요.

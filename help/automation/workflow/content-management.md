@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Adobe Campaign 웹 사용자 인터페이스를 사용하면 콘텐츠에 콘텐츠 조각을 사용할 수 있습니다. 이를 통해 마케팅 사용자는 하나 이상의 메시지에서 참조할 수 있는 재사용 가능한 구성 요소 덕분에 여러 사용자 지정 콘텐츠 블록을 사전 빌드할 수 있으므로 향상된 디자인 프로세스에서 메시지 콘텐츠를 신속하게 조합할 수 있습니다. 콘텐츠 조각에 대한 자세한 내용은 [Adobe Campaign 웹 UI 설명서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}를 참조하세요.
+>Adobe Campaign 웹 사용자 인터페이스를 사용하면 콘텐츠에 콘텐츠 조각을 사용할 수 있습니다. 이를 통해 마케팅 사용자는 하나 이상의 메시지에서 참조할 수 있는 재사용 가능한 구성 요소 덕분에 여러 사용자 지정 콘텐츠 블록을 사전 빌드할 수 있으므로 향상된 디자인 프로세스에서 메시지 콘텐츠를 신속하게 조합할 수 있습니다. 콘텐츠 조각에 대한 자세한 내용은 [Adobe Campaign 웹 UI 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}를 참조하세요.
 
 활동의 속성은 다음 세 단계로 나뉘어 있습니다.
 

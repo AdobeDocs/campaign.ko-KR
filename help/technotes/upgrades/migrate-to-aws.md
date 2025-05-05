@@ -67,11 +67,11 @@ Campaign 고객은 마이그레이션 예약된 대로 추가 알림을 받게 �
 
 * **고객이 실행해야 하는 유효성 검사는 무엇입니까?**
 
-  이 마이그레이션에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 [고객 지원 Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}에 문의하세요.
+  이 마이그레이션에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 [고객 지원 Adobe](https://experienceleague.adobe.com/ko?support-solution=Campaign#support){target="_blank"}에 문의하세요.
 
 
 * **예약된 보안 업그레이드 슬롯에 대한 날짜/시간 변경을 요청할 수 있습니까?**
 
   이는 필수 마이그레이션이므로 기존 일정에 대한 수정 사항을 수용할 수 없습니다.
 
-기타 문의 사항은 [고객 지원 Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
+기타 문의 사항은 [고객 지원 Adobe](https://experienceleague.adobe.com/ko?support-solution=Campaign#support){target="_blank"}에 문의하십시오.

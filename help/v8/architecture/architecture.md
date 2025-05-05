@@ -26,7 +26,7 @@ Campaign은 각 인스턴스가 전체 Campaign 환경을 나타내는 개별 �
 
 한 환경에서 다른 환경으로 패키지를 내보내고 가져올 수 있습니다.
 
-패키지에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}를 참조하세요
+패키지에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ko){target="_blank"}를 참조하세요
 
 ## 배포 모델 {#ac-deployment}
 

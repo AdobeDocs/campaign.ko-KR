@@ -21,14 +21,14 @@ ht-degree: 9%
 
 JavaScript API를 사용하여 Campaign 클라우드 데이터베이스에 쓰거나 데이터베이스에서 읽을 수 있습니다.
 
-* 게재, 워크플로우, 구독 등 각 오브젝트에 대해 작업을 수행할 수 있는 비즈니스별 API입니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}를 참조하세요.
-* 데이터 모델 데이터 쿼리를 위한 일반 데이터 액세스 API입니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}를 참조하세요.
+* 게재, 워크플로우, 구독 등 각 오브젝트에 대해 작업을 수행할 수 있는 비즈니스별 API입니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ko){target="_blank"}를 참조하세요.
+* 데이터 모델 데이터 쿼리를 위한 일반 데이터 액세스 API입니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=ko){target="_blank"}를 참조하세요.
 
 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)에서 Campaign은 두 개의 데이터베이스를 사용합니다. 하나는 사용자 인터페이스 실시간 메시지 보내기와 API를 통한 단일 쿼리 및 쓰기를 위한 로컬 데이터베이스이고, 다른 하나는 캠페인 실행, 보고, 데이터 수집, 쿼리 일괄 처리 및 워크플로우 실행을 위한 클라우드 데이터베이스입니다.
 
 >[!CAUTION]
 >
->* Campaign Standard에서 전환하는 Campaign 사용자는 Campaign v8에서 REST API를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}
+>* Campaign Standard에서 전환하는 Campaign 사용자는 Campaign v8에서 REST API를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}
 >
 >* Campaign v8.5.1부터 Campaign v8에 대한 인증 프로세스가 변경되었습니다. 기술 운영자는 IMS(Adobe Identity Management System)를 사용하여 Campaign에 연결해야 합니다. [이 기술 노트](../../technotes/upgrades/ims-migration.md)에서 기존 기술 계정을 마이그레이션하는 방법을 알아봅니다.
 >

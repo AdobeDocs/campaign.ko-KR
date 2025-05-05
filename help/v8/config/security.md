@@ -52,7 +52,7 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항
 
 * **웹 응용 프로그램에 captcha 추가**: 공개 랜딩 페이지 및 구독 페이지에 captcha를 추가합니다.
 
-자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}를 참조하세요.
+자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ko#installing-campaign-classic){target="_blank"}를 참조하세요.
 
 
 ## 개인화
@@ -147,4 +147,4 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항
 
 * **웹 응용 프로그램에 captcha 추가**: 공개 랜딩 페이지 및 구독 페이지에 captcha를 추가합니다.
 
-자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}를 참조하세요.
+자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ko#installing-campaign-classic){target="_blank"}를 참조하세요.

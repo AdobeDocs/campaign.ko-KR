@@ -34,34 +34,34 @@ ht-degree: 7%
 * 수신자가 커뮤니케이션 수신을 거부할 수 있도록 합니다.
 
 
-[Campaign 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}에서 랜딩 페이지에 대해 자세히 알아보세요.
+[Campaign 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}에서 랜딩 페이지에 대해 자세히 알아보세요.
 
 다음 섹션도 찾아볼 수 있습니다.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp">
+<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/create-lp">
 <img alt="리드" src="assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp"><strong>랜딩 페이지 만들기</strong>
+<div><a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/create-lp"><strong>랜딩 페이지 만들기</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content">
+<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/lp-content">
 <img alt="유효성 검사" src="assets/do-not-localize//lp-design.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content"><strong>랜딩 페이지 디자인</strong></a>
+<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/lp-content"><strong>랜딩 페이지 디자인</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates">
+<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/lp-templates">
 <img alt="유효성 검사" src="assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates"><strong>랜딩 페이지 템플릿 작업</strong></a>
+<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/lp-templates"><strong>랜딩 페이지 템플릿 작업</strong></a>
 </div>
 <p>
 </td>

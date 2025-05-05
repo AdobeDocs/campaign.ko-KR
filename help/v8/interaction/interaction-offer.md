@@ -182,13 +182,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 이제 **Live** 환경에서 사용할 수 있도록 오퍼를 승인하고 활성화할 수 있습니다.
 
-자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=ko#approving-offer-content){target="_blank"}를 참조하세요.
 
 ## 오퍼 프레젠테이션 관리{#offer-presentation}
 
 Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 제안의 흐름을 제어할 수 있습니다. Campaign Interaction에 해당하는 이러한 규칙은 **유형화 규칙**&#x200B;입니다. 수신자에게 이미 제안된 이력을 기반으로 오퍼를 제외할 수 있습니다. 환경에서 참조됩니다.
 
-자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html#managing-offers){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=ko#managing-offers){target="_blank"}를 참조하세요.
 
 ## 오퍼 시뮬레이션
 
@@ -196,4 +196,4 @@ Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 제안
 
 시뮬레이션은 오퍼에 이전에 적용된 컨텍스트 및 자격 규칙과 해당 프레젠테이션 규칙을 고려합니다. 시뮬레이션은 타겟팅된 수신자에게 영향을 주지 않으므로 실제로 오퍼를 사용하지 않거나 대상을 초과/요청하지 않고 오퍼 제안의 다양한 버전을 테스트하고 세분화할 수 있습니다.
 
-Campaign Classic 시뮬레이션에 대한 자세한 내용은 [오퍼 v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html){target="_blank"}를 참조하세요.
+Campaign Classic 시뮬레이션에 대한 자세한 내용은 [오퍼 v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=ko){target="_blank"}를 참조하세요.

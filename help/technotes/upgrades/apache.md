@@ -25,7 +25,7 @@ Adobe Campaign 팀은 이 Apache 취약성을 완화하고 인스턴스 환경�
 
 이 업그레이드는 정상 업무 시간 외에 자동으로 실행되므로 Campaign 서비스를 중단 없이 계속 사용할 수 있습니다.
 
-프로덕션 인스턴스를 업그레이드하기 전에 먼저 팀이 비프로덕션 인스턴스를 업그레이드합니다. 이는 Adobe이 소유한 자동 업그레이드 프로세스이므로 사용자 측에서 필요한 작업이 없습니다. 그러나 문제가 발생하는 경우 [고객 지원 Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
+프로덕션 인스턴스를 업그레이드하기 전에 먼저 팀이 비프로덕션 인스턴스를 업그레이드합니다. 이는 Adobe이 소유한 자동 업그레이드 프로세스이므로 사용자 측에서 필요한 작업이 없습니다. 그러나 문제가 발생하는 경우 [고객 지원 Adobe](https://experienceleague.adobe.com/ko?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
 
 
 >[!NOTE]
@@ -53,7 +53,7 @@ Adobe Campaign 팀은 이 Apache 취약성을 완화하고 인스턴스 환경�
 
 * **고객이 실행해야 하는 유효성 검사는 무엇입니까?**
 
-  이 보안 업그레이드에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 [고객 지원 Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}에 문의하세요.
+  이 보안 업그레이드에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 [고객 지원 Adobe](https://experienceleague.adobe.com/ko?support-solution=Campaign#support){target="_blank"}에 문의하세요.
 
 
 * **예약된 보안 업그레이드 슬롯에 대한 날짜/시간 변경을 요청할 수 있습니까?**
@@ -61,4 +61,4 @@ Adobe Campaign 팀은 이 Apache 취약성을 완화하고 인스턴스 환경�
   이는 보안 수정 사항이므로 기존 일정에 적응하는 것이 좋습니다.
 
 
-기타 문의 사항은 [고객 지원 Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
+기타 문의 사항은 [고객 지원 Adobe](https://experienceleague.adobe.com/ko?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
