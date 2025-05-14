@@ -3,10 +3,10 @@ title: Campaign v8 릴리스 정보
 description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 5ece3ca4ebf9f3973d9cbd1a00ea57b29c1f2e93
+source-git-commit: 6d2425f7e7f35f5461151790fbda2bef2959bff4
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 32%
+ht-degree: 35%
 
 ---
 
@@ -62,7 +62,7 @@ _2025년 4월 10일 금요일_
 
 ### 새로운 기능 {#features-8-7-4}
 
-* **SMS REST API 지원** - 이제 SMS 채널에 트랜잭션 메시지 REST API를 사용할 수 있습니다. 이메일과 휴대폰이 모두 페이로드에 있으면 &quot;wishedChannel&quot; 필드를 사용하여 채널을 지정할 수 있습니다. 제공하지 않을 경우 wiredChannel이 명시적으로 SMS를 요청하지 않는 한 이메일이 기본적으로 사용됩니다.
+* **SMS REST API 지원** - 이제 SMS 채널에 트랜잭션 메시지 REST API를 사용할 수 있습니다. 페이로드에 이메일과 휴대폰이 모두 있는 경우 “wishedChannel” 필드를 사용하여 채널을 지정할 수 있습니다. 제공하지 않을 경우 wiredChannel이 명시적으로 SMS를 요청하지 않는 한 이메일이 기본적으로 사용됩니다.
 
 * **다국어 게재** - Campaign 웹 사용자 인터페이스 4월 릴리스를 시작하면 여러 언어로 여러 이메일 게재를 보내고 관련 동적 보고서에 액세스할 수 있습니다. 이 기능은 4월 말에 Adobe Campaign 웹 사용자 인터페이스에서만 사용할 수 있으며 Campaign v8.7.4로 서버를 업데이트해야 합니다.
 
