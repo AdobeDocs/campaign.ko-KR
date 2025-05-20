@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: d50c746d11b6f1bb0b5af0d5ddab5660b99dc359
+source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 99%
+source-wordcount: '695'
+ht-degree: 89%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 # Adobe Campaign v8(콘솔) 설명서 {#campaign-v8}
 
 + [Campaign v8 설명서](campaign-home.md)
-+ 릴리스 정보 {#releases}
++ 릴리스 정보 {#releases}
    + [초기 릴리스 정보](start/e-release-notes.md)
    + [버전 및 업그레이드](start/upgrades.md)
    + [최신 릴리스](start/release-notes.md)
@@ -40,10 +40,10 @@ ht-degree: 99%
    + [Campaign Standard에서 v8로의 전환](start/acs-to-v8.md)
    + [FAQ](start/campaign-faq.md)
 + 캠페인 관리 {#campaigns}
-   + [업그레이드 시작하기](start/campaigns.md)
+   + [캠페인 시작하기](start/campaigns.md)
    + [캠페인 오케스트레이션 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
 + 메시지 보내기{#send}
-   + [메시지 시작](start/gs-message.md)
+   + [메시지 시작하기](start/gs-message.md)
    + [첫 게재 만들어 보기](start/create-message.md)
    + [게재 모범 사례](start/delivery-best-practices.md)
    + 이메일 {#emails}
@@ -66,7 +66,7 @@ ht-degree: 99%
          + [SMS 게재 만들기](send/sms/create-sms.md)
          + [콘텐츠 정의](send/sms/sms-content.md)
          + [대상자 선택](send/sms/sms-audience.md)
-      + SMS 유효성 검사 및 전송 {#validate-sms}
+      + SMS 확인 및 보내기 {#validate-sms}
          + [SMS 증명 보내기](send/sms/sms-proofs.md)
          + [대상자에게 보내기](send/sms/sms-send.md)
       + [SMS 모니터링 및 추적](send/sms/sms-monitor.md)
@@ -80,23 +80,24 @@ ht-degree: 99%
    + [LINE 메시지 보내기](send/line.md)
    + [DM](send/direct-mail.md)
    + [X(Twitter)](send/twitter.md)
+   + [사용자 지정 외부 채널](send/custom-channel.md)
    + 콘텐츠 개인화 {#personalize}
       + [개인화 시작하기](send/personalize.md)
       + [개인화 데이터](send/personalization-data.md)
       + [개인화 필드 추가](send/personalization-fields.md)
       + [개인화 블록 사용](send/personalization-blocks.md)
       + [조건 만들기](send/conditions.md)
-   + 게재 유효성 검사 및 보내기 {#validate}
+   + 게재 확인 및 보내기 {#validate}
       + [미리 보기 및 교정쇄](send/preview-and-proof.md)
       + [게재 분석](send/delivery-analysis.md)
       + [게재 구성 및 보내기](send/configure-and-send.md)
       + [전송 시간 최적화](send/predictive.md)
-   + 실패, 바운스, 격리{#failures}
+   + 실패, 바운스 및 격리{#failures}
       + [격리](send/quarantines.md)
       + [게재 실패](send/delivery-failures.md)
    + [게재 템플릿 작업](send/create-templates.md)
    + 트랜잭션 메시지 {#real-time}
-      + [트랜잭션 메시지 시작하기](send/transactional.md)
+      + [트랜잭션 메시지 시작](send/transactional.md)
       + [템플릿 만들기 및 게시](send/transactional-template.md)
       + 이벤트 관리 {#event}
          + [이벤트 수집 및 처리](send/event-processing.md)
@@ -122,7 +123,7 @@ ht-degree: 99%
 + 콘텐츠 관리 {#content}
    + [랜딩 페이지 만들기](dev/landing-pages.md)
    + [웹 앱 및 양식 디자인](dev/webapps.md)
-+ 자동화와 워크플로 {#automation}
++ 자동화 및 워크플로 {#automation}
    + [Campaign Automation 안내서 >](https://experienceleague.adobe.com/ko/docs/campaign/automation/home)
 + 개인 정보 보호 및 보안 관리 {#privacy}
    + [개인 정보 보호 요청 관리](start/privacy.md)
@@ -150,7 +151,7 @@ ht-degree: 99%
    + [추적 및 모니터링](start/tracking.md)
    + [감사 추적](reporting/audit-trail.md)
    + 보고서 작업{#reports}
-      + [보고서 시작](reporting/gs-reporting.md)
+      + [보고서 시작하기](reporting/gs-reporting.md)
       + 큐브 만들기{#cubes}
          + [큐브 시작](reporting/gs-cubes.md)
          + [큐브 만들기](reporting/cube-indicators.md)

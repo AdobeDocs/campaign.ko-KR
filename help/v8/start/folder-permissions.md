@@ -5,9 +5,9 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
-source-git-commit: 0513b9f65e9431f5207b384a0e2d8c5aeb8e209f
+source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,12 @@ ht-degree: 0%
 * **그룹 또는 연산자를 승인**&#x200B;하려면 **[!UICONTROL Add]** 단추를 클릭하고 이 폴더에 대한 승인을 할당할 그룹 또는 연산자를 선택하십시오.
 * **그룹 또는 연산자를 금지하려면** **[!UICONTROL Delete]**&#x200B;을(를) 클릭하고 그룹 또는 연산자를 선택하여 이 폴더에 대한 권한을 제거하십시오.
 * **그룹 또는 연산자에 할당된 권한을 선택**&#x200B;하려면 그룹 또는 연산자를 선택하고 부여할 액세스 권한을 선택한 다음 다른 권한을 선택 취소합니다.
+
+>[!NOTE]
+>
+>쓰기 권한이 있는 폴더가 하나 이상 없는 객체를 만들 수 없습니다.
+>
+>관리자가 아니어도 조각을 만들 수 있지만 적어도 하나의 &quot;콘텐츠 시각적 조각&quot; 폴더에 대한 쓰기 권한이 있어야 합니다. 그렇지 않으면 시각적 조각을 만들 수 없습니다.
 
 ## 권한 전파 {#propagate-permissions}
 
