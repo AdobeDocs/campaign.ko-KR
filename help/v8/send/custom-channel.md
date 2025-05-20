@@ -3,7 +3,7 @@ title: 사용자 지정 외부 채널 시작
 description: Adobe Campaign 웹을 사용하여 사용자 지정 외부 채널 게재를 만들고 보내는 방법을 알아봅니다
 role: User
 level: Beginner, Intermediate
-source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
+source-git-commit: 4ba419c52d6804e4f25f88990c226081ef0a06e6
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
