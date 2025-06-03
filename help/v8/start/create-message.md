@@ -4,11 +4,12 @@ description: 첫 게재 만들어 보기
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
-workflow-type: ht
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+workflow-type: tm+mt
 source-wordcount: '1523'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -136,7 +137,7 @@ ht-degree: 100%
 1. 수신자가 포함된 파일을 선택합니다.
 1. 수신자를 가져올 때는 **[!UICONTROL File format definition...]** 링크를 클릭하여 외부 파일을 선택하고 구성합니다.
 
-   데이터 가져오기에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}를 참조합니다.
+   데이터 가져오기에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}를 참조하세요.
 
 1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭하고 게재를 표준 게재로 구성합니다.
 
@@ -181,7 +182,7 @@ ht-degree: 100%
 
 이 비디오에서는 기존 이메일에 시드 및 증명을 추가하는 방법과 이를 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447006?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.
 

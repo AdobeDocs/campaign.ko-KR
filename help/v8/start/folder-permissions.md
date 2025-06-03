@@ -5,10 +5,11 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
-source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
@@ -33,9 +34,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->쓰기 권한이 있는 폴더가 하나 이상 없는 객체를 만들 수 없습니다.
+>쓰기 권한이 있는 폴더가 최소 하나 이상 있어야 오브젝트를 만들 수 있습니다.
 >
->관리자가 아니어도 조각을 만들 수 있지만 적어도 하나의 &quot;콘텐츠 시각적 조각&quot; 폴더에 대한 쓰기 권한이 있어야 합니다. 그렇지 않으면 시각적 조각을 만들 수 없습니다.
+>조각을 만들려면 관리자 권한은 필요는 없지만 적어도 하나의 “콘텐츠 시각적 조각” 폴더에 대한 쓰기 권한이 있어야 합니다. 그렇지 않으면 시각적 조각을 만들 수 없습니다.
 
 ## 권한 전파 {#propagate-permissions}
 

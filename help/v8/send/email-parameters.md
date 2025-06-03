@@ -4,8 +4,9 @@ description: Adobe Campaign의 이메일 게재와 관련된 옵션 및 설정�
 feature: Email
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
-source-git-commit: 87c971ac6cf4abb6b04d52ce60ac2036055e1e02
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 10%
@@ -34,7 +35,7 @@ ht-degree: 10%
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
-  메시지에는 텍스트 및 HTML 두 가지 형식이 모두 포함되어 있습니다. 수신에 표시되는 형식은 수신자의 메일 소프트웨어(다중 파트 대체)의 구성에 따라 다릅니다.
+  메시지에는 텍스트 및 HTML의 두 형식 모두가 포함됩니다. 수신에 표시되는 형식은 수신자의 메일 소프트웨어(다중 파트 대체)의 구성에 따라 다릅니다.
 
   >[!IMPORTANT]
   >

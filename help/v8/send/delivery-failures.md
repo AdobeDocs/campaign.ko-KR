@@ -5,9 +5,9 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
-source-wordcount: '2990'
+source-wordcount: '2976'
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 5%
 
 **무시됨** 유형의 오류는 &quot;부재 중&quot;과 같은 일시적인 오류이거나 예를 들어 발신자 유형이 &quot;postmaster&quot;인 경우와 같은 기술적인 오류로 알려져 있습니다.
 
-피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 전달되는 모든 것을 차단할 수 있습니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않았더라도 차단 목록에 추가된으로 제공됩니다. 주소는 **[!UICONTROL Denylisted]** 상태의 (**NmsRecipient**) 받는 사람 테이블이 아니라 (**NmsAddress**) 격리 테이블에 추가됩니다. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#feedback-loops){target="_blank"}에서 피드백 루프 메커니즘에 대해 자세히 알아보세요.
+피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 전달되는 모든 것을 차단할 수 있습니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않았더라도 차단 목록에 추가된으로 제공됩니다. 주소는 **[!UICONTROL Denylisted]** 상태의 (**NmsRecipient**) 받는 사람 테이블이 아니라 (**NmsAddress**) 격리 테이블에 추가됩니다. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}에서 피드백 루프 메커니즘에 대해 자세히 알아보세요.
 
 ## 동기 및 비동기 오류 {#synchronous-and-asynchronous-errors}
 
@@ -48,13 +48,13 @@ ht-degree: 5%
 
 이러한 유형의 오류는 다음과 같이 관리됩니다.
 
-* **동기 오류**: Adobe Campaign 게재 서버가 접속한 원격 서버에서 즉시 오류 메시지를 반환합니다. 프로필 서버로 게재를 보낼 수 없습니다. MTA(메일 전송 에이전트)는 반송 유형을 결정하고 오류를 검증하며, 관련 이메일 주소를 격리해야 하는지 여부를 결정하기 위해 해당 정보를 Campaign으로 다시 보냅니다. [반송 메일 조건](#bounce-mail-qualification)을 참조하십시오.
+* **동기 오류**: Adobe Campaign 게재 서버가 접속한 원격 서버에서 즉시 오류 메시지를 반환합니다. 프로필 서버로 게재를 보낼 수 없습니다. MTA(메일 전송 에이전트)는 반송 유형을 결정하고 오류를 검증하며, 관련 이메일 주소를 격리해야 하는지 여부를 결정하기 위해 해당 정보를 Campaign으로 다시 보냅니다. [바운스 메일 선별](#bounce-mail-qualification)을 참조하십시오.
 
 * **비동기 오류**: 반송 메일 또는 SR이 나중에 수신 서버에 의해 다시 전송됩니다. 이 오류는 오류와 관련된 레이블로 확인됩니다. 게재를 보낸 후 1주일까지 비동기 오류가 발생할 수 있습니다.
 
 >[!NOTE]
 >
->관리 Cloud Service 사용자는 Adobe에서 바운스 사서함 구성을 수행합니다.
+>Managed Cloud Services 사용자는 Adobe에서 바운스 사서함 구성을 수행합니다.
 
 ## 반송 메일 조건 {#bounce-mail-qualification}
 
@@ -66,7 +66,7 @@ Adobe Campaign에서 바운스 메일 자격이 처리되는 방식은 오류 �
 
 * **동기 오류**: MTA가 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 보냅니다. **[!UICONTROL Delivery log qualification]** 테이블의 반송 조건은 **동기** 게재 실패 오류 메시지에 사용되지 않습니다.
 
-* **비동기 오류**: Campaign에서 비동기 게재 실패를 확인하기 위해 사용하는 규칙이 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 노드에 나열됩니다. 비동기 바운스는 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 검증됩니다. 자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=ko#bounce-mail-qualification){target="_blank"}를 참조하세요.
+* **비동기 오류**: Campaign에서 비동기 게재 실패를 확인하기 위해 사용하는 규칙이 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 노드에 나열됩니다. 비동기 바운스는 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 검증됩니다. 자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}를 참조하세요.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -111,7 +111,7 @@ Campaign 게재의 유효 기간 설정이 **3.5일 이하**(으)로 제한됩�
 
 메시지가 3.5일 동안 MTA 큐에 있고 배달하지 못하면 시간이 초과되고 게재 로그에서 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 상태가 업데이트됩니다.
 
-유효 기간에 대한 자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ko#defining-validity-period){target="_blank"}를 참조하십시오.
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## 이메일 오류 유형 {#email-error-types}
@@ -208,7 +208,7 @@ Campaign 게재의 유효 기간 설정이 **3.5일 이하**(으)로 제한됩�
    <td> 정의되지 않음 </td> 
    <td> 정의되지 않음 </td> 
    <td> 0 </td> 
-   <td> 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에 알립니다. 그런 다음 트리 구조의 <span class="uicontrol">관리</span> / <span class="uicontrol">Campaign Management</span> / <span class="uicontrol">비게재 항목 관리</span> 노드를 통해 메시지 분석을 수행하고 이 오류를 검증할 수 있습니다.<br /> </td> 
+   <td> 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에 알립니다. 그런 다음 트리 구조의 <span class="uicontrol">관리</span> / <span class="uicontrol">캠페인 관리</span> / <span class="uicontrol">비게재 항목 관리</span> 노드를 통해 메시지 분석을 수행하고 이 오류를 검증할 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 오퍼에 적합하지 않음 </td> 

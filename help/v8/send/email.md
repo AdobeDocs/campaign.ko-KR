@@ -4,8 +4,9 @@ description: Adobe Campaign에서 이메일을 시작합니다. 대상 모집단
 feature: Email
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 693b9d9d50d5e60061bd952090380382ebaf8df8
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 9%
@@ -90,7 +91,7 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 
 첫 번째 이메일 게재가 준비되었습니다. 이제 대상자를 정의하고 게재를 확인하고 전송해야 합니다.
 
-이 [사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ko){target="_blank"}에서 전자 메일 콘텐츠를 가져오는 워크플로우를 만드는 방법을 알아봅니다.
+이 [사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}에서 전자 메일 콘텐츠를 가져오는 워크플로우를 만드는 방법을 알아봅니다.
 
 >[!MORELIKETHIS]
 >

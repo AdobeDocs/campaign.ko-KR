@@ -4,13 +4,14 @@ description: SMS 게재를 만드는 방법 알아보기
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
+version: Campaign v8, Campaign Classic v7
+exl-id: 3b15eb3e-8625-4049-bf0d-327407ae5ea6
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 4%
 
 ---
-
 
 # 첫 번째 SMS 게재 만들기 {#sms-delivery}
 
@@ -50,5 +51,3 @@ ht-degree: 4%
 ## SMS 모니터링 및 추적 {#sms-monitor}
 
 전송 후 [SMS를 모니터링하고 추적하는 방법을 알아보세요](sms-monitor.md).
-
-

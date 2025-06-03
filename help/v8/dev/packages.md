@@ -5,7 +5,8 @@ feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
 exl-id: bf1ae889-9c07-4acf-8fd0-55b57151bc47
-source-git-commit: 69ef7e81d5fc0f5cf0dc74fa16d970ef89607331
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '1941'
 ht-degree: 0%
@@ -279,7 +280,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 >[!IMPORTANT]
 >
->Adobe은 다른 버전 간 가져오기를 지원하지 않습니다.
+>Adobe에서는 다른 버전 간 가져오기를 지원하지 않습니다.
 
 스키마와 데이터베이스 구조에 주의하십시오. 스키마를 사용하여 패키지를 가져온 다음에는 스키마가 생성되어야 합니다.
 

@@ -4,11 +4,12 @@ description: SMS 게재 대상을 설정하는 방법 알아보기
 feature: SMS
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: e0603a4d-cde1-4199-a164-bf0c992ba937
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -32,7 +33,7 @@ ht-degree: 1%
 
    다른 대상 매핑을 사용할 수 있으며, 일부는 특정 구성과 관련될 수 있습니다. 대상 매핑에 대한 자세한 내용은 [대상 매핑 작업](../../audiences/target-mappings.md)을 참조하세요.
 
-1. 제한 필터를 정의하려면 **[!UICONTROL Add]** 단추를 클릭하십시오.
+1. **[!UICONTROL Add]** 버튼을 클릭하여 제한 필터를 정의합니다.
 
    그런 다음 적용할 필터링 유형을 선택할 수 있습니다.
 
@@ -51,7 +52,7 @@ ht-degree: 1%
    * **[!UICONTROL Subscribers of an information service]**: 이 옵션을 사용하면 만들어지는 게재에서 수신자를 타겟팅하기 위해 구독해야 하는 뉴스레터를 선택할 수 있습니다.
    * **[!UICONTROL User filters]**: 미리 정의된 필터를 사용할 수 있습니다.
 
-   **[!UICONTROL Exclude recipients from this segment]** 옵션을 사용하면 정의된 대상 기준을 충족하지 않는 수신자를 타깃팅할 수 있습니다. 이 옵션을 사용하려면 적절한 상자를 선택한 다음 앞에서 정의한 대로 타겟팅을 적용하여 결과 프로필을 제외합니다.
+   **[!UICONTROL Exclude recipients from this segment]** 옵션을 사용하면 정의된 대상 기준을 충족하지 않는 수신자를 타깃팅할 수 있습니다. 이 옵션을 사용하려면 적절한 상자를 선택한 다음 앞에서 정의한 대로 타기팅을 적용하여 결과 프로필을 제외합니다.
 
 1. 레이블 필드에 대상자의 이름을 입력하고 **[!UICONTROL Finish]** 단추를 클릭하여 대상자의 유효성을 검사하십시오.
 

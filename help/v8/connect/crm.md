@@ -5,7 +5,8 @@ feature: Salesforce Integration, Microsoft CRM Integration
 role: Admin, User
 level: Beginner
 exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 20%
@@ -20,7 +21,7 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 
 주요 이점은 다음과 같습니다.
 
-* 영업 및 마케팅 간의 일관된 메시징: CRM과 Adobe Campaign의 통합을 통해 두 시스템에서 고객 인사이트 액세스 및 이메일 마케팅 기록을 제공하여 모든 메시지를 고객에게 동일한 일관된 메시지를 공유할 수 있습니다.
+* 영업 및 마케팅 간의 일관된 메시징: CRM과 Adobe Campaign의 통합을 통해 고객 insight에 대한 액세스 권한과 이메일 마케팅 내역을 모두 활용하여 고객에게 동일한 일관된 메시지를 공유할 수 있습니다.
 
 * 모든 잠재 고객 및 고객 데이터에 대한 전체적인 보기: Adobe Campaign을 CRM과 통합하여 CRM 시스템 내에서 각 연락처의 이메일 마케팅 내역을 공유하고 액세스할 수 있습니다.
 
@@ -41,8 +42,8 @@ Adobe Campaign은 Adobe Campaign 플랫폼을 타사 시스템에 연결하는 �
 
 ## 구현 단계 {#crm-implementation-steps}
 
-[이 페이지](ac-ms-dyn.md)에서 Campaign과 Microsoft Dynamics를 연결하는 단계별 절차에 대해 알아봅니다.
+[이 페이지](ac-ms-dyn.md)에서 Campaign과 Microsoft Dynamics을 연결하는 단계별 절차에 대해 알아봅니다.
 
 [이 페이지](ac-sfdc.md)에서 Campaign과 Salesforce.com을 연결하는 단계별 절차에 대해 알아봅니다.
 
-Adobe Campaign과 CRM 간의 데이터 동기화는 전용 워크플로우 활동을 통해 수행됩니다. 워크플로우를 빌드하여 Campaign과 CRM 간의 동기화를 자동화합니다. Microsoft Dynamics를 통해 연락처를 가져와 기존 Adobe Campaign 데이터와 동기화하고 중복 연락처를 삭제한 다음 Adobe Campaign 데이터베이스를 업데이트하는 워크플로우를 만들 수 있습니다. [이 페이지](crm-data-sync.md)에서 자세히 알아보십시오.
+Adobe Campaign과 CRM 간의 데이터 동기화는 전용 워크플로우 활동을 통해 수행됩니다. 워크플로우를 빌드하여 Campaign과 CRM 간의 동기화를 자동화합니다. Microsoft Dynamics을 통해 연락처를 가져오고, 기존 Adobe Campaign 데이터와 동기화하고, 중복된 연락처를 삭제한 다음 Adobe Campaign 데이터베이스를 업데이트하는 워크플로우를 만들 수 있습니다. [이 페이지](crm-data-sync.md)에서 자세히 알아보십시오.

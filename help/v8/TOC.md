@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '712'
 ht-degree: 89%
 
 ---
@@ -48,10 +48,14 @@ ht-degree: 89%
    + [게재 모범 사례](start/delivery-best-practices.md)
    + 이메일 {#emails}
       + [이메일 디자인 및 유효성 검사](send/email.md)
+      + [이메일 콘텐츠 정의](send/defining-the-email-content.md)
+      + [대화형 콘텐츠 정의](send/defining-interactive-content.md)
       + [미러 페이지로 가는 링크](send/mirror-page.md)
       + [BCC 주소 추가](send/email-bcc.md)
       + [추가 이메일 매개 변수 정의](send/email-parameters.md)
       + [이메일 보내기 및 모니터링](send/send.md)
+      + [일본어 모바일에서 이메일 보내기](send/sending-emails-on-japanese-mobiles.md)
+      + [이메일에 파일 첨부](send/attaching-files.md)
    + SMS {#sms}
       + [SMS 시작](send/sms/sms.md)
       + SMS 채널 구성 {#config-sms}
@@ -80,7 +84,7 @@ ht-degree: 89%
    + [LINE 메시지 보내기](send/line.md)
    + [DM](send/direct-mail.md)
    + [X(Twitter)](send/twitter.md)
-   + [사용자 지정 외부 채널](send/custom-channel.md)
+   + [사용자 정의 외부 채널](send/custom-channel.md)
    + 콘텐츠 개인화 {#personalize}
       + [개인화 시작하기](send/personalize.md)
       + [개인화 데이터](send/personalization-data.md)
