@@ -38,4 +38,4 @@ Adobe Campaign을 프로필 데이터로 채우려면 다음을 수행할 수 �
 
 <!--You can also select your message audience in an external file: recipients are stored not in the database, but in files. These are known as "external" deliveries. These contacts can be imported or not in Adobe Campaign. [Learn more](external-profiles.md).-->
 
-가져온 후에는 메시지를 보낼 대상을 만들 수 있습니다. 이 섹션](create-audiences.md)에서 대상 [을(를) 만드는 방법을 알아보세요.
+가져온 후에는 메시지를 보낼 대상을 만들 수 있습니다. 이 섹션[&#128279;](create-audiences.md)에서 대상 을(를) 만드는 방법을 알아보세요.
