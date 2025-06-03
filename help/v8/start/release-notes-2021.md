@@ -5,10 +5,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
+source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
 workflow-type: tm+mt
 source-wordcount: '1581'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ _2021년 10월 28일_
 <tr> 
 <td> <p>[단일성 서비스]는 [클라우드 데이터베이스 관리자]의 새로운 구성 요소입니다. [클라우드 데이터베이스] 테이블 내에서 고유 키 제약 조건의 무결성을 유지 및 모니터링하는 데 도움이 됩니다. 이를 통해 중복 키를 삽입할 위험을 줄일 수 있습니다.
 <p>[클라우드 데이터베이스]는 단일성 제약 조건을 적용하지 않으므로, [단일성 서비스]는 애플리케이션 수준에서 <b>여러 새로운 가드레일</b>을 도입함으로써 Adobe Campaign으로 데이터를 관리할 때 중복 키를 삽입하는 위험을 줄여 줍니다.</p> 
-<p>[단일성 서비스]는 <b>ffdaUnicity</b>라는 새로운 내장 워크플로를 시작하여 단일성 제약 조건 및 중복이 검색되었을 때의 경고를 모니터링합니다.</p>
+<p>[단일성 서비스]는 <b>ffdaUnicity</b>라는 새로운 기본 제공 워크플로를 시작하여 단일성 제약 조건 및 중복이 검색되었을 때의 경고를 모니터링합니다.</p>
 <p>자세한 내용은 <a href="../architecture/keys.md">세부 설명서</a>를 참조하세요.</p>
 </td> </tr> 
 </tbody> 
@@ -117,11 +117,11 @@ _2021년 9월 7일_
 
 * 수명 종료에 따라 Flash를 Campaign의 기능과 구성 요소에서 제거하고 HTML5로 대체했습니다. 차트의 **측정** 유형이 제거되었습니다. (NEO-30330) [자세히 보기](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=ko)
 * 이제 Windows에 클라이언트 콘솔을 설치할 때 설치 관리자에서 상위 레지스트리 노드가 있는지 확인하고 누락된 경우 클라이언트 콘솔을 만듭니다. 따라서 콘솔을 시작할 때 발생할 수 있는 문제를 방지할 수 있습니다. (NEO-34854)
-* 서드파티 도구(이메일 클라이언트, 인터넷 브라우저 등)의 특수문자 처리 방식과 관련된 오류를 방지하기 위해 추적 서명 기능이  개선되었습니다. 이제 URL 매개 변수가 인코딩됩니다.
+* 서드파티 도구(이메일 클라이언트, 인터넷 브라우저 등)에서 특수 문자를 처리하는 방식과 관련된 오류를 방지하기 위해 추적 서명 기능을 개선했습니다. 이제 URL 매개 변수가 인코딩됩니다.
 
 **기타 변경 사항**
 
-* 이전에 사용 종료된 Microsoft CRM 커넥터(Office 365 및 온프레미스 배포)를 인터페이스에서 제거했습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html?lang=ko#configure-acc-for-microsoft)
+* 이전에 사용 종료된 Microsoft CRM 커넥터(Office 365 및 온프레미스 배포)를 인터페이스에서 제거했습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
 
 * Tomcat 8로 마이그레이션한 후 IIS 설정 스크립트를 업데이트하여 IIS 통합 문제를 해결했습니다. (NEO-31019)
 * [청구 기술 워크플로](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=ko#billing-report)를 마케팅 인스턴스에서만 실행할 수 있도록 하기 위해 가드레일이 추가되었습니다.

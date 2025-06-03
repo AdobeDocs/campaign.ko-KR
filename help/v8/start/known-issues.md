@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 2%
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 #### 설명{#issue-2-desc}
 
-Campaign **Query** 및 **데이터 변경 Source** 활동을 사용하여 Snowflake 클라우드 데이터베이스에 데이터를 삽입할 때 데이터에 백슬래시 문자가 있으면 프로세스가 실패합니다. 소스 문자열이 이스케이프되지 않고 데이터가 Snowflake 시 올바르게 처리되지 않습니다.
+Campaign **Query** 및 **데이터 변경 Source** 활동을 사용하여 Snowflake 클라우드 데이터베이스에 데이터를 삽입할 때 데이터에 백슬래시 문자가 있으면 프로세스가 실패합니다. 소스 문자열이 이스케이프되지 않고 데이터가 Snowflake에서 올바르게 처리되지 않습니다.
 
 이 문제는 백슬래시 문자가 문자열 끝에 있는 경우에만 발생합니다(예: `Barker\`).
 
@@ -86,9 +86,9 @@ Error:
 
 Campaign 관리자는 [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}에서 Campaign v8.3.1 클라이언트 콘솔을 다운로드할 수 있습니다.
 
-이 페이지[&#128279;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}에서 Adobe 소프트웨어 배포 에 액세스하는 방법을 알아보세요.
+이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}에서 Adobe 소프트웨어 배포 [에 액세스하는 방법을 알아보세요.
 
-클라이언트 콘솔을 업그레이드하는 방법: [이 페이지에서](connect.md)
+이 페이지에서 클라이언트 콘솔 [을(를) 업그레이드하는 방법](connect.md)
 
 #### 내부 참조{#issue-3-ref}
 

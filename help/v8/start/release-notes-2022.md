@@ -3,7 +3,7 @@ title: Campaign v8 2022 릴리스 정보
 description: 2022 Campaign v8 릴리스의 기능 및 개선 사항 목록
 feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
+source-git-commit: b3ca222fb28c1a5d35190e41cfbbe463c5d1bcad
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 89%
@@ -68,7 +68,7 @@ _2022년 9월 30일_
 <tr> 
 <td> <p>이제 Campaign v8에서 <a href="../send/twitter.md">X 소셜 채널</a>을(를) 사용할 수 있습니다. 다음을 수행할 수 있습니다.</p>
 <ul> 
-<li><p>X에서 메시지 보내기(이전의 Twitter): Adobe Campaign을 사용하면 메시지를 X 계정에 직접 게시할 수 있습니다. 모든 팔로워에게 직접 메시지를 보낼 수도 있습니다.
+<li><p>X에서 메시지 보내기(이전의 Twitter): Adobe Campaign을 사용하면 X 계정에 직접 메시지를 게시할 수 있습니다. 모든 팔로워에게 직접 메시지를 보낼 수도 있습니다.
 </p></li>
 <li><p>새 연락처 수집: Adobe Campaign은 프로필 데이터를 자동으로 복구하여 타겟팅 캠페인을 수행하고 크로스 채널 전략을 구현할 수 있습니다.
 </p></li>

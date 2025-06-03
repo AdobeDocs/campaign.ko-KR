@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
 source-git-commit: b8f774ce507cff67163064b6bd1341b31512c08f
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '797'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 클라우드 데이터베이스([!DNL Snowflake])는 1백만 개의 주소 업데이트와 같은 대용량 데이터 일괄 처리를 처리하도록 최적화되었습니다. 한편, Campaign 로컬 데이터베이스(PostgreSQL)는 단일 시드 주소 업데이트와 같은 개별 또는 소규모 볼륨 작업에 더 적합합니다. 동기화는 백그라운드에서 자동으로 투명하게 수행되므로 Campaign 로컬 데이터베이스(PostgreSQL)의 데이터가 클라우드 데이터베이스([!DNL Snowflake])에 실시간으로 복제되어 두 데이터베이스가 모두 동기화됩니다. 데이터 동기화에는 스키마 및 테이블과 데이터가 포함됩니다.
 
-➡️[비디오에서 데이터 복제가 작동하는 방식 알아보기](#video)
+➡️ [비디오에서 데이터 복제가 작동하는 방식 알아보기](#video)
 
 ## 복제 모드 {#modes}
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 Campaign v8은 특정 기술 워크플로우를 통해 예약된 데이터 복제를 관리합니다. 이러한 기술 워크플로우는 Campaign 탐색기의 **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** 노드에서 사용할 수 있습니다. **수정해서는 안 됩니다.**
 
-기술 워크플로우는 서버에서 정기적으로 예약된 프로세스 또는 작업을 실행합니다. 기술 워크플로우의 전체 목록은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다.
+기술 워크플로우는 서버에서 정기적으로 예약된 프로세스 또는 작업을 실행합니다. 기술 워크플로우의 전체 목록은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}에 자세히 설명되어 있습니다.
 
 데이터 복제를 보장하는 기술 워크플로우는 다음과 같습니다.
 
@@ -115,6 +115,6 @@ var xml = xtk.builder.CopyXxlData(
 
 이 비디오는 Adobe Campaign v8에서 사용하는 데이터베이스, 데이터를 복제하는 이유, 복제하는 데이터 및 복제 프로세스의 작동 방식에 대한 주요 개념을 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416867?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-추가 Campaign v8 클라이언트 콘솔 자습서는 [여기](https://experienceleague.adobe.com/ko/docs/campaign-learn/tutorials/overview)에서 확인할 수 있습니다.
+추가 Campaign v8 클라이언트 콘솔 자습서는 [여기](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview)에서 확인할 수 있습니다.

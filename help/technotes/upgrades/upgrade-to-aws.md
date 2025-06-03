@@ -2,7 +2,7 @@
 title: Campaign 이메일 전송 인프라 업그레이드
 description: Campaign 이메일 전송 인프라 업그레이드
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 * 스테이징 및 프로덕션 환경 모두에서 Campaign 인스턴스는 업그레이드 기간 동안 메일을 보낼 수 없습니다. 다른 Campaign 기능은 영향을 받지 않습니다.
 
-## FAQ(자주 묻는 질문) {#aws-faq}
+## 자주 묻는 질문 {#aws-faq}
 
 * **이 업그레이드가 필수입니까?**
 
@@ -51,15 +51,15 @@ ht-degree: 1%
 
 * **업그레이드를 위해 고객이 수행해야 하는 작업이 있습니까?**
 
-  별도의 작업이 필요하지 않습니다. Adobe은 자동으로 실행되는 업그레이드 프로세스를 관리합니다.
+  별도의 작업이 필요하지 않습니다. Adobe에서 자동으로 실행되는 업그레이드 프로세스를 관리합니다.
 
 * **고객에게 필요한 테스트는 무엇입니까?**
 
-  이 업그레이드 이벤트와 관련하여 고객이 어떤 테스트도 예상치 않습니다. 문제가 발생하는 경우 [고객 지원 Adobe](https://experienceleague.adobe.com/ko?support-solution=Campaign#support){target="_blank"}에 문의하세요.
+  이 업그레이드 이벤트와 관련하여 고객이 어떤 테스트도 예상치 않습니다. 문제가 발생하는 경우 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
 
 
 * **예약된 보안 업그레이드 슬롯에 대한 날짜/시간 변경을 요청할 수 있습니까?**
 
   아니요. 기존 일정에 대해 요청된 수정 사항을 수용할 수 없습니다. 다른 고객에 대해 할당된 업그레이드 이벤트가 중단될 수 있기 때문입니다.
 
-기타 문의 사항은 [고객 지원 Adobe](https://experienceleague.adobe.com/ko?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
+기타 문의 사항은 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}에 문의하십시오.

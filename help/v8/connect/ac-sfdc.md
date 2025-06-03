@@ -5,7 +5,7 @@ feature: Salesforce Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Campaign 및 SFDC 작업{#crm-sfdc}
 
-Campaign v8을 **Salesforce.com**&#x200B;에 연결하도록 Campaign CRM 커넥터를 구성하는 방법에 대해 알아봅니다.
+Campaign v8을 **Salesforce.com**&#x200B;에 연결하도록 Campaign CRM 커넥터를 구성하는 방법을 알아봅니다.
 
 구성이 완료되면 전용 워크플로우 활동을 통해 시스템 간의 데이터 동기화가 수행됩니다. [자세히 알아보기](crm-data-sync.md).
 
@@ -76,6 +76,6 @@ Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니�
 
 이제 Adobe Campaign 및 Salesforce.com이 연결되었습니다. 두 시스템 간에 데이터 동기화를 설정할 수 있습니다.
 
-Adobe Campaign 데이터와 SFDC 간의 데이터를 동기화하려면 워크플로우를 만들고 **[!UICONTROL CRM connector]** 활동을 사용하십시오.
+Adobe Campaign 데이터와 SFDC 간에 데이터를 동기화하려면 워크플로우를 만들고 **[!UICONTROL CRM connector]** 활동을 사용합니다.
 
-이 페이지[&#128279;](crm-data-sync.md)에서 데이터 동기화 에 대해 자세히 알아보세요.
+이 페이지](crm-data-sync.md)에서 데이터 동기화 [에 대해 자세히 알아보세요.

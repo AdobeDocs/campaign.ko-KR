@@ -4,7 +4,7 @@ title: 워크플로 속성
 description: Campaign 워크플로우 속성에 대해 자세히 알아보기
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: d31040885ec45068d70a7d4c0b481269c8af7a33
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 33%

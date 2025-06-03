@@ -5,7 +5,7 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 2%
@@ -38,7 +38,7 @@ X 계정에 트윗을 게시하도록 Adobe Campaign을 구성하려면 이러�
 
 이 통합을 시작하려면 [X 개발자 계정](https://developer.twitter.com){target="_blank"}에 등록해야 합니다.
 
-Campaign은 X API의 1.1 버전을 사용합니다. 이 기능을 사용하려면 개발자 포털을 통해 관리자 권한으로 액세스 권한을 신청해야 합니다. 이 페이지에서 [&#128279;](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}의 X 액세스 권한 상승에 대해 자세히 알아보세요.
+Campaign은 X API의 1.1 버전을 사용합니다. 이 기능을 사용하려면 개발자 포털을 통해 관리자 권한으로 액세스 권한을 신청해야 합니다. 이 페이지에서 [X 관리자 권한 ](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}에 대해 자세히 알아보세요.
 
 ## X에서 응용 프로그램 만들기 {#create-an-app-on-twitter}
 

@@ -5,25 +5,25 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
 # Campaign 및 Adobe Experience Manager 작업 {#ac-aem}
 
-Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게재의 콘텐츠와 양식을 Adobe Experience Manager에서 직접 관리할 수 있습니다. **Adobe Experience Manager** 콘텐츠를 Campaign으로 가져오거나 **Adobe Experience Manager as a Cloud Service** 계정에 연결할 수 있는 옵션이 있으므로 웹 인터페이스에서 직접 콘텐츠를 편집할 수 있습니다.
+Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게재의 콘텐츠와 양식을 Adobe Experience Manager에서 직접 관리할 수 있습니다.
 
-[Campaign 웹 인터페이스 내에서 Cloud Service 콘텐츠로 Adobe Experience Manager을 편집하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html?lang=ko){target="_blank"}.
+[Campaign 웹 인터페이스 내에서 Adobe Experience Manager as Cloud Service 콘텐츠를 편집하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html){target="_blank"}.
 
-[이 문서에서 Adobe Experience Manager에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=ko#aem-and-adobe-campaign-integration-workflow){target="_blank"}.
+[이 문서에서 Adobe Experience Manager에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow){target="_blank"}.
 
 
 >[!NOTE]
 >
->관리 Cloud Service 사용자는 Adobe Experience Manager을 Campaign과 통합하려면 [Adobe에게 문의](../start/campaign-faq.md#support)하십시오.
+>Managed Cloud Services 사용자는 [Adobe에 문의](../start/campaign-faq.md#support)하여 Adobe Experience Manager을 Campaign과 통합하세요.
 
 ## Adobe Experience Manager에서 컨텐츠 가져오기 {#integrating-with-aem}
 
@@ -31,7 +31,7 @@ Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게
 
 **Adobe Experience Manager에서:**
 
-1. [!DNL Adobe Experience Manager] 작성자 인스턴스로 이동하여 페이지의 왼쪽 상단에 있는 경험 Adobe 를 클릭합니다. 메뉴에서 **[!UICONTROL Sites]**&#x200B;을(를) 선택합니다.
+1. [!DNL Adobe Experience Manager] 작성자 인스턴스로 이동하여 페이지의 왼쪽 상단에 있는 Adobe Experience를 클릭합니다. 메뉴에서 **[!UICONTROL Sites]**&#x200B;을(를) 선택합니다.
 
    ![](assets/aem_authoring_1.png)
 
@@ -47,7 +47,7 @@ Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게
 
    ![](assets/aem_authoring_3.png)
 
-1. Adobe Campaign의 개인화 필드와 같은 구성 요소를 추가하여 이메일 콘텐츠를 사용자 지정합니다. 자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=ko#editing-email-content){target="_blank"}를 참조하세요.
+1. Adobe Campaign의 개인화 필드와 같은 구성 요소를 추가하여 이메일 콘텐츠를 사용자 지정합니다. 자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html#editing-email-content){target="_blank"}를 참조하세요.
 
 1. 전자 메일이 준비되면 **[!UICONTROL Page information]** 메뉴로 이동하여 **[!UICONTROL Start workflow]**&#x200B;을(를) 클릭합니다.
 
@@ -89,21 +89,21 @@ Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게
 
    ![](assets/aem_authoring_12.png)
 
-1. Experience Manager과 캠페인 간의 연결을 제거하려면 **[!UICONTROL Desynchronize]**&#x200B;을(를) 클릭하십시오.
+1. Experience Manager과 Campaign 간의 연결을 제거하려면 **[!UICONTROL Desynchronize]**&#x200B;을(를) 클릭합니다.
 
 이제 이메일을 대상자에게 보낼 준비가 되었습니다.
 
 ## Adobe Experience Manager Assets 라이브러리에서 자산 가져오기 {#assets-library}
 
-Adobe Campaign에서 전자 메일 또는 랜딩 페이지를 편집하는 동안 [!DNL Adobe Experience Manager Assets Library]에서 직접 자산을 삽입할 수도 있습니다. 이 기능은 [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다.
+Adobe Campaign에서 전자 메일 또는 랜딩 페이지를 편집하는 동안 [!DNL Adobe Experience Manager Assets Library]에서 직접 자산을 삽입할 수도 있습니다. 이 기능은 [Adobe Experience Manager Assets 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html){target="_blank"}에 자세히 설명되어 있습니다.
 
 **Adobe Experience Manager에서:**
 
-1. [!DNL Adobe Experience Manager] 작성자 인스턴스로 이동하여 페이지의 왼쪽 상단에 있는 경험 Adobe 를 클릭합니다. 메뉴에서 **[!UICONTROL Assets]** `>` **[!UICONTROL Files]**&#x200B;을(를) 선택합니다.
+1. [!DNL Adobe Experience Manager] 작성자 인스턴스로 이동하여 페이지의 왼쪽 상단에 있는 Adobe Experience를 클릭합니다. 메뉴에서 **[!UICONTROL Assets]** `>` **[!UICONTROL Files]**&#x200B;을(를) 선택합니다.
 
    ![](assets/aem_assets_1.png)
 
-1. **만들기**&#x200B;를 클릭한 다음 **파일**&#x200B;을 클릭하여 자산을 **Adobe Experience Manager Assets 라이브러리**&#x200B;로 가져옵니다. 자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=ko#uploading-assets){target="_blank"}를 참조하세요.
+1. **만들기**&#x200B;를 클릭한 다음 **파일**&#x200B;을 클릭하여 자산을 **Adobe Experience Manager Assets 라이브러리**&#x200B;로 가져옵니다. 자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html#uploading-assets){target="_blank"}를 참조하세요.
 
    ![](assets/aem_assets_2.png)
 
@@ -123,7 +123,7 @@ Adobe Campaign에서 전자 메일 또는 랜딩 페이지를 편집하는 동�
 
 1. **Adobe Experience Manager Assets 라이브러리**&#x200B;를 사용하려면 AEM 게재의 **[!UICONTROL Properties]**&#x200B;에 액세스하여 **[!UICONTROL Advanced]** 탭을 선택하십시오.
 
-   **AEM 계정**&#x200B;을(를) 선택하고 **[!UICONTROL Use above AEM instance as shared asset library]** 옵션을 활성화하십시오.
+   **AEM 계정**&#x200B;을(를) 선택하고 **[!UICONTROL Use above AEM instance as shared asset library]** 옵션을 활성화하세요.
 
    ![](assets/aem_authoring_9.png)
 

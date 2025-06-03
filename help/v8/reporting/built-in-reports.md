@@ -5,7 +5,7 @@ feature: Reporting
 role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 1%
@@ -381,7 +381,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
   </tr> 
   <tr> 
    <td> 소셜 잠재 고객 확보 기록(socialVisitorStatistics)<br /> </td> 
-   <td> X(이전의 Twitter) 및 Facebook 잠재 고객 확보 기록은 소셜 마케팅 추가 기능에 따라 다릅니다.<br /> </td> 
+   <td> X(이전 Twitter) 및 Facebook 잠재 고객 확보 기록은 소셜 마케팅 추가 기능에 따라 다릅니다.<br /> </td> 
    <td> nms:visitor<br /> </td> 
   </tr> 
   <tr> 

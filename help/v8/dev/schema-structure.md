@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 1%
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 데이터 형식은 **`<attribute>`** 및 **`<element>`** 요소의 **type** 특성을 통해 입력됩니다.
 
-자세한 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ko#configuring-campaign-classic){target="_blank"}를 참조하세요.
+자세한 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}를 참조하세요.
 
 이 특성이 채워지지 않으면 요소에 자식 요소가 들어 있지 않으면 **string**&#x200B;이(가) 기본 데이터 형식입니다. 이 경우 요소를 계층 구조화하는 데만 사용됩니다(이 예제에서는 **`<location>`** 요소).
 
@@ -360,7 +360,7 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 이 언어의 잠재력을 강화하기 위해 표현식에 높은 수준의 함수가 추가되었습니다.
 
-Adobe Campaign 클라이언트 콘솔에서 표현식 편집기를 통해 사용 가능한 함수 목록에 액세스할 수 있습니다.
+Adobe Campaign 클라이언트 콘솔의 표현식 편집기를 통해 사용 가능한 함수 목록에 액세스할 수 있습니다.
 
 ![](assets/schema_function.png)
 

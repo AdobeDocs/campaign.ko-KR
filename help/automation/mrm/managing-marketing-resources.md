@@ -5,7 +5,7 @@ description: 마케팅 리소스를 관리하는 방법 알아보기
 feature: Campaigns, Resource Management
 role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 1%
@@ -113,7 +113,7 @@ Adobe Campaign을 통해 관리되는 각 마케팅 리소스에 대해 언제�
 >
 >각 마케팅 리소스에 대해 지정된 검토자 외에도 관리자 권한과 리소스 매니저를 가진 운영자는 마케팅 리소스를 승인할 수 있는 권한이 있습니다.
 
-### Publish a 리소스 {#publishing-a-resource}
+### 리소스 게시 {#publishing-a-resource}
 
 승인되면 마케팅 리소스를 게시해야 합니다. 출판 과정은 회사 요구사항에 따라 구체적인 시행이 이루어져야 한다. 즉, 엑스트라넷 또는 다른 서버에 리소스를 게시할 수 있으며, 특정 정보를 외부 서비스 공급자 등으로 전송할 수 있습니다.
 

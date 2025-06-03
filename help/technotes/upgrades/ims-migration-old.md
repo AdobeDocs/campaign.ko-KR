@@ -4,7 +4,7 @@ description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 �
 exl-id: 63008b58-4384-4d2b-864a-57f11d701c01
 hide: true
 hidefromtoc: true
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Campaign 기술 운영자를 Adobe Developer Console으로 마이그레이션 {#migrate-tech-users-to-ims}
 
-Campaign v8.5부터 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 기술 운영자가 Campaign에 연결하려면 [IMS(Identity Management System) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}을(를) 사용해야 합니다. 기술 운영자는 API 통합을 위해 명시적으로 생성된 Campaign 사용자 프로필입니다. 이 문서에서는 Adobe Developer 콘솔에서 기술 연산자를 기술 계정으로 마이그레이션하는 데 필요한 단계에 대해 자세히 설명합니다.
+Campaign v8.5부터 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 기술 운영자가 Campaign에 연결하려면 [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 사용해야 합니다. 기술 운영자는 API 통합을 위해 명시적으로 생성된 Campaign 사용자 프로필입니다. 이 문서에서는 Adobe Developer 콘솔에서 기술 연산자를 기술 계정으로 마이그레이션하는 데 필요한 단계에 대해 자세히 설명합니다.
 
 ## 변경 사항{#ims-changes}
 
-Campaign 일반 사용자는 이미 IMS(Identity Management System) Adobe을 통해 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결합니다. 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 이제 Adobe Campaign 클라이언트 애플리케이션이 IMS 기술 계정 토큰을 사용하여 Campaign API를 직접 호출합니다.
+Campaign 일반 사용자는 이미 Adobe IMS(Identity Management System)를 통해 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결합니다. 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 이제 Adobe Campaign 클라이언트 애플리케이션이 IMS 기술 계정 토큰을 사용하여 Campaign API를 직접 호출합니다.
 
 [Adobe Developer Console 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}에서 새 서버 간 인증 프로세스에 대해 자세히 알아보세요.
 
@@ -42,7 +42,7 @@ Campaign API를 사용하는 경우 아래에 자세히 설명된 대로 기술 
 
 ### 필수 구성 요소{#ims-migration-prerequisites}
 
-마이그레이션 프로세스를 시작하기 전에 Adobe 기술 팀이 기존 운영자 그룹과 IMS(Identity Management System) Adobe에 대한 명명된 권한을 마이그레이션할 수 있도록 Adobe 전환 관리자에게 문의해야 합니다.
+마이그레이션 프로세스를 시작하기 전에 Adobe 기술 팀이 기존 운영자 그룹 및 명명된 권한을 Adobe Identity Management System(IMS)으로 마이그레이션할 수 있도록 Adobe 전환 관리자에게 문의해야 합니다.
 
 ### 1단계 - Adobe Developer Console에서 Campaign 프로젝트 만들기/업데이트{#ims-migration-step-1}
 
@@ -100,7 +100,7 @@ API가 성공적으로 연결되면 클라이언트 ID 및 클라이언트 암�
 
 To update the technical operator authentication mode to IMS, follow these steps:
 
-1. From Campaign client console explorer, browse to the **Administration > Access Management > Operators**.
+1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
 1. Edit the existing technical operator used for APIs.
 1. Replace the **Name (login)** of this technical operator by the technical account email retrieved earlier.
 1. Browse to the **Edit** button on the top left beside **File**, and select **Edit the XML source**.

@@ -5,10 +5,10 @@ feature: Privacy
 role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 92%
+source-wordcount: '957'
+ht-degree: 82%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 92%
 
 비즈니스의 성격과 운영되는 관할 구역에 따라 데이터 운영에 법적 개인 정보 보호 규정이 적용될 수 있습니다. 이러한 규정에서는 고객에게 수집된 데이터에 대한 액세스를 요청할 수 있는 권한과 저장된 데이터의 삭제를 요청할 수 있는 권한을 부여하는 경우가 많습니다. 설명서 전체에서 개인 데이터에 대한 이러한 고객 요청을 &quot;개인 정보 보호 요청&quot;이라고 합니다.
 
- Campaign은 저장된 데이터에 대한 개인 정보 보호 요청을 만들고 처리할 수 있는 도구를 데이터 컨트롤러에 제공합니다. 따라서 요청을 하는 데이터 주체의 ID를 확인하고 요청자에게 반환되는 데이터가 데이터 주체의 정보임을 확인하는 것은 데이터 컨트롤러로서의 책임입니다. [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko){target="_blank"}의 개인 데이터와 데이터를 관리하는 다양한 엔터티에 대해 자세히 알아봅니다.
+ Campaign은 저장된 데이터에 대한 개인 정보 보호 요청을 만들고 처리할 수 있는 도구를 데이터 컨트롤러에 제공합니다. 따라서 요청을 하는 데이터 주체의 ID를 확인하고 요청자에게 반환되는 데이터가 데이터 주체의 정보임을 확인하는 것은 데이터 컨트롤러로서의 책임입니다. [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko){target="_blank"}에서 개인 데이터 및 데이터를 관리하는 다양한 엔터티에 대해 자세히 알아보세요.
 
 
 Campaign에서 개인 정보 요청을 관리하려면 먼저 [네임스페이스를 정의](#namespaces)해야 합니다. 그러면 개인 정보 요청을 만들고 관리할 수 있습니다. 개인 정보 요청을 수행하려면 **Adobe Privacy Service** 통합을 사용하십시오.  Privacy Service에서 모든 Adobe Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로를 통해 Campaign에서 자동으로 처리됩니다. [자세히 알아보기](#create-privacy-request)
 
 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko){target="_blank"}에서 **액세스 권한** 및 **잊혀질 권리**(삭제 요청)에 대해 알아보세요.
 
-<!--
+
 >[!NOTE]
 >
->This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)-->
+>이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)을 참조하세요.
 
 ## 네임스페이스 정의 {#namespaces}
 
@@ -34,7 +34,7 @@ Campaign에서 개인 정보 요청을 관리하려면 먼저 [네임스페이�
 
 >[!NOTE]
 >
->[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko){target="_blank"}에서 신원 네임스페이스에 대해 자세히 알아봅니다.
+>[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ko){target="_blank"}에서 ID 네임스페이스에 대해 자세히 알아보세요.
 
 현재 Adobe Campaign에서는 Experience Platform ID 네임스페이스 서비스에서 네임스페이스 가져오기를 지원하지 않습니다. 따라서 ID 네임스페이스 서비스에서 네임스페이스를 만들면 Adobe Campaign 인터페이스에서 해당 네임스페이스를 수동으로 만들어야 합니다. 이렇게 하려면 아래 단계를 수행합니다.
 
@@ -46,9 +46,9 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 >For optimal performance, it is recommended to use out-of-the-box namespaces.
 -->
 
-1. [신원 네임스페이스 서비스](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace?lang=ko){target="_blank"}에서 네임스페이스를 만듭니다.
+1. [ID 네임스페이스 서비스](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace?lang=ko){target="_blank"}에서 네임스페이스를 만듭니다.
 
-1. 조직에서 사용할 수 있는 [신원 네임스페이스 목록](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}을 만들면 네임스페이스에 다음과 같은 세부 정보가 표시됩니다.
+1. 조직에서 사용 가능한 [ID 네임스페이스를 나열](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}할 때 네임스페이스는 다음과 같은 세부 정보를 제공합니다.
 
    ```
    {
@@ -111,7 +111,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 >
 >사용자 지정 네임스페이스 유형을 사용하여 요청을 제출하려면 [JSON 메서드](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#json){target="_blank"}를 활용하고 요청에 namespaceId를 추가하거나 [API 호출](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ko#access-delete){target="_blank"}을(를) 사용하여 요청하십시오.
 >
->표준 네임스페이스 유형을 사용하여 요청을 제출할 때는 [개인 정보 사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#request-builder){target="_blank"}만 사용할 수 있습니다.
+>표준 네임스페이스 형식을 사용하여 요청을 제출할 때는 [개인 정보 보호 사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#request-builder){target="_blank"}만 사용하십시오.
 
 ### 요청을 처리할 때 검색된 테이블 {#list-of-tables}
 
@@ -152,10 +152,10 @@ Adobe Campaign의 개인 정보 보호 요청에 대한 다양한 상태와 이�
 
 **Campaign Classic v7 설명서의 관련 항목:**
 
-* [개인 정보 보호 및 동의](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko){target="_blank"}
+* [개인 정보 및 동의](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko){target="_blank"}
 
-* [개인 정보 관리 시작하기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko){target="_blank"}
+* [개인 정보 관리 시작](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko){target="_blank"}
 
-* [개인 정보 관리에 관한 규정](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko){target="_blank"}(GDPR, CPA, PDPA, LGPD)
+* [개인 정보 관리에 관한 규정](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko){target="_blank"}(GDPR, CCPA, PDPA 및 LGPD)
 
 * [개인 정보 판매 옵트아웃](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html?lang=ko){target="_blank"}(CCPA에만 해당)

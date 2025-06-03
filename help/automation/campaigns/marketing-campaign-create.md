@@ -6,9 +6,9 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1298'
 ht-degree: 4%
 
 ---
@@ -159,14 +159,9 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 프로그램의 **[!UICONTROL Schedule]** 탭을 통해 캠페인을 만들면 해당 캠페인이 관련 프로그램에 자동으로 연결됩니다. 이 경우 **[!UICONTROL Program]** 필드가 숨겨집니다.
 
 
-## 웹 브라우저로 Campaign 액세스 {#use-the-web-interface}
+## 웹 인터페이스 사용 {#use-the-web-interface-}
 
-
->[!AVAILABILITY]
->
->Campaign v8.6부터 Campaign은 웹 사용자 인터페이스에서 사용할 수 있습니다. 대부분의 마케팅 작업은 이 새 인터페이스에서 수행할 수 있습니다. [자세히 알아보기](../../v8/start/campaign-ui.md#discover-the-user-interface).
-
-인터넷 브라우저를 통해 Adobe Campaign 클라이언트 콘솔 화면 중 일부에 액세스하여 모든 캠페인과 게재 및 데이터베이스의 프로필에 대한 보고서와 정보를 볼 수 있습니다. 이 웹 액세스에서 구성 요소를 만들 수는 없지만 액세스 권한에 따라 데이터베이스의 데이터를 보거나 작업할 수 있습니다. 일반적으로 캠페인 컨텐츠 및 타겟팅을 승인하고, 게재를 다시 시작하거나 중지할 수 있습니다.
+인터넷 브라우저를 통해 Adobe Campaign 클라이언트 콘솔 화면에 액세스하여 모든 캠페인 및 게재는 물론, 데이터베이스의 프로필에 대한 보고서 및 정보를 볼 수 있습니다. 이 액세스는 레코드 생성을 활성화하지 않습니다. 운영자 권한에 따라 데이터베이스의 데이터를 보거나 작업할 수 있습니다. 예를 들어 캠페인 콘텐츠 및 타겟팅을 승인하고, 게재를 다시 시작하거나 중지할 수 있습니다.
 
 1. 평소대로 https://`<your instance>:<port>/view/home`을(를) 통해 로그온합니다.
 1. 메뉴를 사용하여 개요에 액세스합니다.
@@ -213,4 +208,4 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 
 이 비디오에서는 마케팅 계획, 프로그램 및 캠페인을 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449909?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)

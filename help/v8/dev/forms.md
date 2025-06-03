@@ -5,7 +5,7 @@ feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 0%
@@ -87,11 +87,11 @@ ht-degree: 0%
 
 기본적으로 각 필드는 한 줄에 표시되며 데이터 유형에 따라 사용 가능한 모든 공간을 차지합니다.
 
-모든 양식 특성은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=ko){target="_blank"}에 나와 있습니다.
+모든 양식 특성은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}에 나와 있습니다.
 
 ## 양식화 {#formatting}
 
-컨트롤의 레이아웃은 HTML 테이블에 사용된 레이아웃과 비슷하며 컨트롤을 여러 열로 나누거나 요소를 교차시키거나 사용 가능한 공간 위치를 지정할 수 있습니다. 그러나 이 서식을 지정하면 영역을 비례로만 나눌 수 있습니다. 객체에 대해 고정 치수를 지정할 수 없습니다.
+컨트롤의 레이아웃은 HTML 테이블에 사용된 레이아웃처럼 보이며, 컨트롤을 여러 열로 나누거나 요소를 교차시키거나 사용 가능한 공간 위치를 지정할 수 있습니다. 그러나 이 서식을 지정하면 영역을 비례로만 나눌 수 있습니다. 객체에 대해 고정 치수를 지정할 수 없습니다.
 
 위의 예의 컨트롤을 두 열에 표시하려면 다음을 수행합니다.
 

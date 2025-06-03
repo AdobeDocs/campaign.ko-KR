@@ -5,7 +5,7 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '1618'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 1. **저장**&#x200B;을 클릭합니다. 사용자가 추가되고 사용자 목록에 표시됩니다. 사용자에게 관리자 역할 또는 제품 프로필을 할당하면 사용자에게 이메일 알림이 전송됩니다. 사용자는 링크를 따라 프로필을 완료해야 합니다.
 
-[이 Admin Console](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}의 페이지에서 사용자를 만드는 방법에 대해 자세히 알아보세요.
+[이 페이지](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}에서 Admin Console의 사용자 만들기에 대해 자세히 알아보세요.
 
 새 사용자가 Adobe ID으로 [Campaign에 로그인](connect.md)하면 클라이언트 콘솔의 Campaign 연산자 목록에 추가됩니다. Campaign 연산자는 Campaign 탐색기의 **[!UICONTROL Administration > Access management > Operators]** 폴더에 저장됩니다.
 
@@ -53,7 +53,7 @@ Admin Console에서 제품 프로필은 다음 구문을 사용합니다.
 
 campaign - `<your instance>` - 연산자 그룹의 내부 이름
 
-예를 들어 &#39;test&#39; Admin Console의 **Delivery 연산자** 그룹의 경우 인스턴스의 제품 프로필은 다음과 같습니다.
+예를 들어 &#39;test&#39; 인스턴스의 **배달 연산자** 그룹의 경우 Admin Console의 제품 프로필은 다음과 같습니다.
 
 캠페인 - 테스트 - 게재
 
@@ -68,7 +68,7 @@ Adobe에 새 제품 프로필을 추가하려면 먼저 Campaign 클라이언트
 #### Campaign에서 연산자 그룹 만들기{#create-op-group}
 
 1. Campaign에 연결하여 탐색기를 열고 **[!UICONTROL Administration > Access management > Operator groups]**(으)로 이동합니다.
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭하고 연산자 그룹의 이름을 정의하고 내부 이름(&#39;검토자&#39;)을 설정합니다.
+1. **[!UICONTROL New]**을(를) 클릭하고 연산자 그룹의 이름을 정의하고 내부 이름(&#39;검토자&#39;)을 설정합니다.
    ![](assets/new-op-group.png)
 1. 명명된 권한을 선택하여 관련 권한을 정의합니다. 명명된 권한은 [이 섹션](#use-named-rights)에 자세히 설명되어 있습니다.
 1. 새 연산자 그룹을 저장합니다.
@@ -115,7 +115,7 @@ Adobe Campaign에는 Adobe에서 환경을 활성화할 때 정의된 기본 제
 
 1. **[!UICONTROL Campaign managers]**(작업)
 
-   이 그룹의 운영자는 마케팅 캠페인을 관리할 수 있습니다. 캠페인에 연결된 오브젝트(계획, 프로그램, 워크플로우, 예산 등)에 액세스할 수 있습니다. **[!UICONTROL Campaign]**&#x200B;의 프레임워크 내에 있습니다(선택적 Adobe Campaign 모듈).
+   이 그룹의 운영자는 마케팅 캠페인을 관리할 수 있습니다. **[!UICONTROL Campaign]**(선택 사항 Adobe Campaign 모듈) 프레임워크 내에서 캠페인에 연결된 개체(계획, 프로그램, 워크플로, 예산 등)에 액세스할 수 있습니다.
 
    이 그룹에는 다음과 같은 명명된 권한이 포함되어 있습니다.
 

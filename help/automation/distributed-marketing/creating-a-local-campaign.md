@@ -5,9 +5,9 @@ description: 로컬 캠페인 만들기
 feature: Distributed Marketing
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
@@ -46,17 +46,17 @@ ht-degree: 1%
 
 ![](assets/mkt_distr_4.png)
 
-### 인터페이스 유형 {#web-interface}
+### 웹 인터페이스 {#web-interface}
 
-**분산 마케팅** 탭에서 인터페이스 유형을 선택하고 로컬 엔터티가 주문을 할 때 입력할 기본값과 매개 변수를 지정할 수 있습니다.
+**분산 마케팅** 탭에서 웹 인터페이스의 유형을 선택하고 로컬 엔터티가 주문을 할 때 입력할 기본값과 매개 변수를 지정할 수 있습니다.
 
-인터페이스는 캠페인 주문 시 로컬 엔티티가 채울 양식에 해당합니다.
+웹 인터페이스는 캠페인 주문 시 로컬 엔티티가 채울 양식에 해당합니다.
 
-템플릿에서 만든 캠페인에 적용할 인터페이스 유형을 선택합니다.
+템플릿에서 만든 캠페인에 적용할 웹 인터페이스 유형을 선택합니다.
 
 ![](assets/mkt_distr_1.png)
 
-네 가지 유형의 인터페이스를 사용할 수 있습니다.
+다음 네 가지 유형의 웹 인터페이스를 사용할 수 있습니다.
 
 * **[!UICONTROL By brief]**: 로컬 엔터티가 캠페인 구성을 설명하는 설명을 제공해야 합니다. 주문이 승인되면 중앙 엔티티는 캠페인 전체를 구성하고 실행합니다.
 
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 ### 문서 {#documents}
 
-로컬 엔티티 운영자가 문서(텍스트 파일, 스프레드시트, 이미지, 캠페인 설명 등)를 연결할 수 있도록 할 수 있습니다. 주문을 생성할 때 로컬 캠페인에 사용됩니다. **[!UICONTROL Advanced parameters for campaign entry...]** 링크를 사용하여 문서 수를 제한할 수 있습니다. 이렇게 하려면 **[!UICONTROL Number of documents]** 필드에 허용된 최대 수를 입력하기만 하면 됩니다.
+순서를 생성할 때 로컬 엔티티 운영자가 문서(텍스트 파일, 스프레드시트, 이미지, 캠페인 설명 등)를 로컬 캠페인에 연결할 수 있도록 할 수 있습니다. **[!UICONTROL Advanced parameters for campaign entry...]** 링크를 사용하여 문서 수를 제한할 수 있습니다. 이렇게 하려면 **[!UICONTROL Number of documents]** 필드에 허용된 최대 수를 입력하기만 하면 됩니다.
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 
@@ -147,7 +147,7 @@ ht-degree: 1%
 
 ![](assets/mkg_dist_local_op_creation4e.png)
 
-게재 HTML을 찾습니다. 예를 들어 **[!UICONTROL Delivery > Current order > Additional fields]**&#x200B;에서 **[!UICONTROL Age segment]** 필드를 사용하여 대상 기간에 따라 게재를 찾습니다.
+게재의 HTML을 찾습니다. 예를 들어 **[!UICONTROL Delivery > Current order > Additional fields]**&#x200B;에서 **[!UICONTROL Age segment]** 필드를 사용하여 대상 기간에 따라 게재를 찾습니다.
 
 ![](assets/mkt_dist_local_campaign_localize_html.png)
 
