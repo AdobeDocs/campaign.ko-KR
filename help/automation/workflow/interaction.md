@@ -1,10 +1,11 @@
 ---
 product: campaign
-title: 상호 작용 수
-description: 상호 작용 수
+title: 인터랙션
+description: 인터랙션
 feature: Workflows, Interaction
 role: User, Admin
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+version: Campaign v8, Campaign Classic v7
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 3%
@@ -12,7 +13,7 @@ ht-degree: 3%
 ---
 
 
-# 상호 작용 수{#interaction}
+# 인터랙션{#interaction}
 
 아래에 설명된 워크플로는 기본적으로 **오퍼 엔진(상호 작용)** 추가 기능으로 설치됩니다.
 

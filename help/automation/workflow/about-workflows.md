@@ -3,16 +3,17 @@ product: campaign
 title: 워크플로 정보
 description: 워크플로를 통해 프로세스를 자동화하고 데이터 및 대상자를 관리하며 메시지 전송 등을 수행할 수 있습니다.
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: 297aa4e3-b672-46b5-9016-5accee8568b8
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 44%
 
 ---
 
-# 워크플로 시작{#gs-workflows}
+# 워크플로 시작하기{#gs-workflows}
 
 ## 워크플로 정보{#about-workflows}
 
@@ -20,7 +21,7 @@ Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체
 
 예를 들어 워크플로에서 서버에서 파일을 다운로드하고 압축을 해제한 다음 Adobe Campaign 데이터베이스에 포함된 레코드를 가져올 수 있습니다.
 
-워크플로에는 알림을 받거나 프로세스를 선택하고 승인할 수 있는 운영자가 한 명 이상 포함될 수도 있습니다. 이러한 방식으로 게재 작업을 만들고, 콘텐츠를 사용하여 작업하도록 한 명 이상의 운영자에게 작업을 할당하고, 대상을 지정하고, 게재를 시작하기 전에 증명을 승인할 수 있습니다.
+워크플로에는 알림을 받거나 프로세스를 선택하고 승인할 수 있는 운영자가 한 명 이상 포함될 수도 있습니다. 이러한 방식으로 게재 작업을 만들고, 콘텐츠를 사용하여 작업하도록 한 명 이상의 운영자에게 작업을 할당하고, 대상을 지정하고, 게재를 시작하기 전에 교정쇄를 승인할 수 있습니다.
 
 워크플로는 캠페인 관리 프로세스의 다양한 컨텍스트 및 단계 내에서 발생합니다.
 

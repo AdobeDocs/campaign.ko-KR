@@ -3,8 +3,9 @@ product: campaign
 title: 개인 정보 보호 규정 워크플로
 description: 개인 정보 보호 규정 워크플로우에 대해 자세히 알아보십시오
 role: User
+version: Campaign v8, Campaign Classic v7
 feature: Workflows, Privacy
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 2%

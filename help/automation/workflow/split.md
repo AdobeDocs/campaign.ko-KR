@@ -3,8 +3,9 @@ product: campaign
 title: 분할
 description: 분할 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity
+version: Campaign v8, Campaign Classic v7
 exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
-source-git-commit: a5d44321c3d68b9370cfb6e9b1df62435de0dbda
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1832'
 ht-degree: 3%
@@ -207,7 +208,7 @@ ht-degree: 3%
 
 이 옵션이 제대로 작동하려면 인바운드 데이터에 기본 키가 있어야 합니다.
 
-예를 들어, **[!UICONTROL Data loading (RDBMS)]** 활동을 통해 Netezza(인덱스 개념을 지원하지 않음)과 같은 외부 데이터베이스에서 직접 데이터를 읽으면 **[!UICONTROL Split]** 활동으로 생성된 보조 데이터가 올바르지 않습니다.
+예를 들어, **[!UICONTROL Data loading (RDBMS)]** 활동을 통해 Netezza(인덱스 개념을 지원하지 않음)와 같은 외부 데이터베이스에서 직접 데이터를 읽으면 **[!UICONTROL Split]** 활동으로 생성된 보조 데이터가 올바르지 않습니다.
 
 이를 방지하기 위해 **[!UICONTROL Enrichment]** 활동을 **[!UICONTROL Split]** 활동 바로 앞에 끌어다 놓을 수 있습니다. **[!UICONTROL Enrichment]** 활동에서 **[!UICONTROL Keep all additional data from the main set]**&#x200B;을(를) 확인하고 추가 데이터에 **[!UICONTROL Split]** 활동의 필터를 구성하는 데 사용할 열을 지정합니다. 그런 다음 **[!UICONTROL Split]** 활동의 인바운드 전환에서 가져온 데이터가 Adobe Campaign 서버의 임시 테이블에 로컬로 저장되고 보조 항목을 올바르게 생성할 수 있습니다.
 

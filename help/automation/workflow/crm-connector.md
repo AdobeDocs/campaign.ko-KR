@@ -3,8 +3,9 @@ title: CRM 커넥터 활동
 description: CRM 커넥터에 대해 자세히 알아보고 데이터 동기화를 구성합니다.
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 9da636a7-ed57-440f-8166-6982dce0213c
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 10%
@@ -28,4 +29,4 @@ ht-degree: 10%
 
 ![](assets/crm_task_select_obj.png)
 
-Adobe Campaign의 CRM 커넥터에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=ko){target="_blank"}을 참조하세요.
+Adobe Campaign의 CRM 커넥터에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}을 참조하세요.

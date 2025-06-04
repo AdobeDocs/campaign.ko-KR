@@ -3,7 +3,8 @@ product: campaign
 title: 웹 분석
 description: 웹 분석 패키지에 대해 자세히 알아보기
 feature: Workflows, Analytics Integration
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+version: Campaign v8, Campaign Classic v7
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 3%

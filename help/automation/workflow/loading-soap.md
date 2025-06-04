@@ -4,8 +4,9 @@ title: 로딩(SOAP)
 description: 로딩(SOAP)
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 21c42a36-9a50-49b8-8a07-b041ba8b2026
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 4%
@@ -42,7 +43,7 @@ ht-degree: 4%
 
    예제를 업데이트하려면 **[!UICONTROL Re-analyze the example]**&#x200B;을(를) 선택합니다.
 
-1. 줄 번호를 식별자로 사용하거나 SOAP 호출이 여러 요소를 반환하도록 지정할 수 있습니다.
+1. 줄 번호를 식별자로 사용하고/하거나 SOAP 호출이 여러 요소를 반환하도록 지정할 수 있습니다.
 1. 기능에 따라 다음 탭 스크립트를 입력합니다.
 
    * **[!UICONTROL Initialization]**: SOAP 연결을 설정합니다.

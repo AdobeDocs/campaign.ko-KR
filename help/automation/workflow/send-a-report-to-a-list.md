@@ -3,8 +3,9 @@ product: campaign
 title: 목록으로 보고서 보내기
 description: 워크플로우가 있는 목록으로 보고서를 보내는 방법을 알아봅니다
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 5bc576d0-cab7-4d26-a3a5-91982a00e356
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 3%
@@ -13,7 +14,7 @@ ht-degree: 3%
 
 # 목록으로 보고서 보내기{#send-a-report-to-a-list}
 
-이 사용 사례에서는 PDF 형식으로 기본 제공되는 월별 **[!UICONTROL Tracking indicators]** 보고서를 생성하는 방법과 받는 사람 목록으로 보내는 방법을 자세히 설명합니다.
+이 사용 사례에서는 PDF 형식으로 기본 제공되는 월별 **[!UICONTROL Tracking indicators]** 보고서를 생성하는 방법과 이를 수신자 목록으로 보내는 방법을 자세히 설명합니다.
 
 ![](assets/use_case_report_intro.png)
 
@@ -78,7 +79,7 @@ ht-degree: 3%
 세 가지 활동을 사용합니다.
 
 * 한 달에 한 번 워크플로우를 실행하는 **[!UICONTROL Scheduler]** 활동,
-* PDF 형식으로 보고서를 생성하는 **[!UICONTROL JavaScript code]** 활동,
+* PDF 형식으로 보고서를 생성하는 **[!UICONTROL JavaScript code]** 활동
 * 이전에 만든 게재 템플릿을 참조하는 **[!UICONTROL Delivery]** 활동.
 
 이 워크플로우를 빌드하려면 아래 단계를 수행합니다.

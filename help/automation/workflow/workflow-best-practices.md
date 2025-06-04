@@ -4,8 +4,9 @@ title: 워크플로 모범 사례
 description: 캠페인 워크플로우 모범 사례 학습
 feature: Workflows
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: 8bcaf367-5b1f-4d31-80c9-c77df43c6ed1
-source-git-commit: d4e28ddf6081881f02042416aa8214761ea42be9
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 11%
@@ -18,7 +19,7 @@ ht-degree: 11%
 
 ## 워크플로 폴더 {#workflow-folders}
 
-Adobe은 전용 폴더에 워크플로우를 만들 것을 권장합니다.
+Adobe에서는 전용 폴더에 워크플로우를 만들 것을 권장합니다.
 
 워크플로가 플랫폼 전체에 영향을 주는 경우(예: 정리 프로세스) 기본 제공 **[!UICONTROL Technical Workflows]** 폴더에 하위 폴더를 추가하는 것이 좋습니다.
 

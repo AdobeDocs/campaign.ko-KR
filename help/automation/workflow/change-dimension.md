@@ -4,8 +4,9 @@ title: 워크플로우에서 차원 변경
 description: 차원 변경 활동을 사용하는 방법 알아보기
 feature: Workflows, Targeting Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 71f36413-377a-4be6-921c-9e794fe882fd
-source-git-commit: b77c37ab9ba9556fdefc563deac6b55ab0d91dc8
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 1%

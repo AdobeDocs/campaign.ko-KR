@@ -4,8 +4,9 @@ title: 중복 제거
 description: 중복 제거 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: f79a979d-bd1d-4a86-8844-563886692941
-source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 9%

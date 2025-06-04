@@ -4,8 +4,9 @@ title: 열거형 유형 계산 필드 추가
 description: 열거형 유형 계산 필드를 추가하는 방법 알아보기
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 4fe2ae81-faa6-4777-a332-70c451bca75b
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -79,6 +80,6 @@ ht-degree: 0%
 
    ![](assets/query_editor_nveau_79.png)
 
-   다른 예를 들어 열거형 값 &quot;2&quot;가 입력되지 않았다고 가정해 보겠습니다. **[!UICONTROL Generate an error and reject the line]** 함수 선택: 모든 성별 &quot;2&quot; 받는 사람이 예외 항목 및 기타 정보(성 및 이름 등)를 줄바꿈합니다. 은(는) 내보내지지 않습니다. 데이터 미리 보기 창의 **[!UICONTROL Logs generated during export]** 필드에 오류 로그가 표시됩니다. 이 로그는 열거형 값 &quot;2&quot;가 입력되지 않았음을 나타냅니다.
+   다른 예를 들어 열거형 값 &quot;2&quot;가 입력되지 않았다고 가정해 보겠습니다. **[!UICONTROL Generate an error and reject the line]** 함수 선택: 모든 성별 &quot;2&quot; 수신자가 예외 항목을 발생시키고 줄에 있는 다른 정보(이름, 성 등)는 내보내지지 않습니다. 데이터 미리 보기 창의 **[!UICONTROL Logs generated during export]** 필드에 오류 로그가 표시됩니다. 이 로그는 열거형 값 &quot;2&quot;가 입력되지 않았음을 나타냅니다.
 
    ![](assets/query_editor_nveau_80.png)

@@ -4,8 +4,9 @@ title: 집계 계산 수행
 description: 쿼리에서 집계 컴퓨팅을 수행하는 방법에 대해 알아봅니다
 feature: Workflows
 role: User, Developer
+version: Campaign v8, Campaign Classic v7
 exl-id: 00e564b5-3c8e-45d4-b240-c872a8b8ccb6
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%

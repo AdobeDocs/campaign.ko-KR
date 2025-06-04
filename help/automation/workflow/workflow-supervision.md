@@ -3,8 +3,9 @@ product: campaign
 title: 워크플로우 감독
 description: Campaign 워크플로우를 관리하는 방법 알아보기
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 362b347b-f914-4ebf-84d7-9989aef28a82
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -132,7 +133,7 @@ vars.strWorkflowStop = strStop;
 이 템플릿에는 다음이 포함되어야 합니다.
 
 * **감독자의 전자 메일 주소**.
-* 개인화된 텍스트를 삽입하기 위한 **HTML 컨텐츠**.
+* 개인화된 텍스트를 삽입하기 위한 **HTML 콘텐츠**
 
   ![](assets/uc_monitoring_workflow_variables_diffusion.png)
 

@@ -2,8 +2,9 @@
 title: 타겟팅 워크플로우 만들기
 description: 워크플로우에서 타겟 대상자를 만드는 방법을 알아봅니다
 feature: Query Editor, Data Management
+version: Campaign v8, Campaign Classic v7
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
-source-git-commit: 122d78e310e66d5f354ffbc86c27a2fbff007447
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '2252'
 ht-degree: 7%
@@ -42,7 +43,7 @@ ht-degree: 7%
 
 ## 차원 타겟팅 및 필터링 {#targeting-and-filtering-dimensions}
 
-데이터 세분화 작업 중에 타겟팅 키는 필터링 차원에 매핑됩니다. 타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 필터링 차원을 사용하면 약정 소유자, 뉴스레터 구독자 등 특정 기준에 따라 모집단을 선택할 수 있습니다.
+데이터 세분화 작업 중에 타겟팅 키는 필터링 차원에 매핑됩니다. 타기팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타기팅하는 집단을 정의할 수 있습니다. 필터링 차원을 사용하면 약정 소유자, 뉴스레터 구독자 등 특정 기준에 따라 모집단을 선택할 수 있습니다.
 
 예를 들어, 5년 이상 생명 보험 계약을 보유한 클라이언트를 선택하려면 다음 대상 차원을 선택합니다. **클라이언트** 및 필터링 차원: **계약 소유자**. 그런 다음 쿼리 활동 내에 필터링 조건을 정의할 수 있습니다
 

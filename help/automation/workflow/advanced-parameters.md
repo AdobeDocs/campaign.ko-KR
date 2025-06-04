@@ -4,8 +4,9 @@ title: 고급 매개 변수
 description: 고급 매개 변수
 feature: Workflows, Data Management
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: aafd977e-c8af-426b-904c-8388c9d8e595
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 5%
@@ -78,6 +79,6 @@ ht-degree: 5%
 
 이 필드에서는 변수를 초기화하거나 활동 속성을 수정할 수 있습니다. 자세한 내용은 [JavaScript 스크립트 및 템플릿](javascript-scripts-and-templates.md)을 참조하세요.
 
-## 댓글 {#comment}
+## 주석 {#comment}
 
 **[!UICONTROL Comment]** 필드는 설명을 추가할 수 있는 자유 필드입니다.

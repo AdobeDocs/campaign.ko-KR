@@ -4,11 +4,12 @@ title: 요약 목록 만들기
 description: 요약 목록 만들기
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -84,7 +85,7 @@ Phone;500;London 5
 
    ![](assets/uc2_enrich_enrich2.png)
 
-1. **[!UICONTROL Define a collection]** 옵션을 선택하십시오.
+1. **[!UICONTROL Define a collection]** 옵션을 선택합니다.
 1. 대상으로 &quot;저장소&quot; 스키마를 선택합니다.
 
    ![](assets/uc2_enrich_enrich3.png)
@@ -169,7 +170,7 @@ Phone;500;London 5
 마지막 단계에는 보강된 모든 데이터를 목록에 작성하는 작업이 포함됩니다.
 
 1. 워크플로우에 **목록 업데이트** 활동을 추가합니다. 이 활동은 두 번째 데이터 보강 활동의 아웃바운드 전환에 연결해야 합니다.
-1. **[!UICONTROL Create the list if necessary (Calculated name)]** 옵션을 선택하십시오.
+1. **[!UICONTROL Create the list if necessary (Calculated name)]** 옵션을 선택합니다.
 1. 계산된 이름의 값을 선택합니다. 목록에 대해 선택한 레이블은 현재 날짜입니다. &lt;%= formatDate(new Date(), &quot;%2D/%2M/%2Y&quot;) %>.
 
 워크플로우가 실행되면 목록에 다음이 포함됩니다.

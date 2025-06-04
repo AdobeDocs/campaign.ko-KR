@@ -3,8 +3,9 @@ title: 데이터 소스 변경
 description: 데이터 소스 변경 활동에 대해 자세히 알아보기
 feature: Workflows, Data Management, Federated Data Access
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: b77c37ab9ba9556fdefc563deac6b55ab0d91dc8
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 워크플로우 **[!UICONTROL Working table]**&#x200B;은(는) 워크플로우 활동과 데이터를 처리하고 공유하는 데 사용됩니다.
 
-기본적으로 **[!UICONTROL Working table]**&#x200B;은(는) 쿼리해야 하는 데이터의 원본과 동일한 데이터베이스에 만들어집니다.
+기본적으로 **[!UICONTROL Working table]**은(는) 쿼리해야 하는 데이터의 원본과 동일한 데이터베이스에 만들어집니다.
 예를 들어 클라우드 데이터베이스에 저장된 **[!UICONTROL Recipients]** 테이블을 쿼리하는 경우 워크플로우는 동일한 클라우드 데이터베이스에 **[!UICONTROL Working table]**&#x200B;을(를) 만듭니다.
 
 **[!UICONTROL Change Data Source]** 활동을 사용하여 **[!UICONTROL Working table]**&#x200B;에 대해 다른 데이터 원본을 사용하십시오.

@@ -3,8 +3,9 @@ product: campaign
 title: 워크플로 속성
 description: Campaign 워크플로우 속성에 대해 자세히 알아보기
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 33%

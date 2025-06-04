@@ -3,8 +3,9 @@ product: campaign
 title: 생일 이메일 보내기
 description: 워크플로우로 생일 이메일을 보내는 방법 알아보기
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: c3a80871-e045-454c-b1ca-8f484d2e14e1
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 2%

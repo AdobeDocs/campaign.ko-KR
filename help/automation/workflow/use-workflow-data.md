@@ -2,8 +2,9 @@
 title: 워크플로 데이터 사용
 description: 워크플로우 데이터 사용 방법 알아보기
 feature: Workflows, Data Management
+version: Campaign v8, Campaign Classic v7
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
-source-git-commit: 41ba91fca46747760fc42ea6cd78600abbd74c02
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 8%
@@ -118,7 +119,7 @@ ht-degree: 8%
 
 ## 데이터베이스 업데이트 {#update-the-database}
 
-수집된 모든 데이터는 데이터베이스 또는 게재를 업데이트하는 데 사용할 수 있습니다. 예를 들어 메시지 콘텐츠 개인화 가능성을 보강할 수 있습니다(메시지에 계약 수 포함, 지난해 평균 장바구니 지정 등). 또는 세부 모집단 타겟팅(계약 공동 소유자에게 메시지 보내기, 온라인 서비스 우수 구독자 1,000명 타겟팅 등) 이 데이터를 내보내거나 목록에 보관할 수도 있습니다.
+수집된 모든 데이터는 데이터베이스 또는 게재를 업데이트하는 데 사용할 수 있습니다. 예를 들어 메시지 콘텐츠 개인화 가능성을 보강하거나(메시지에 계약 수 포함, 지난 해 평균 장바구니 지정 등) 모집단 타겟팅을 세부적으로 지정할 수 있습니다(계약 공동 소유자에게 메시지 보내기, 온라인 서비스 우수 구독자 1,000명 타겟팅 등). 이 데이터를 내보내거나 목록에 보관할 수도 있습니다.
 
 ### 목록 업데이트  {#list-updates}
 

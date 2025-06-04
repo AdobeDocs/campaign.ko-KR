@@ -4,8 +4,9 @@ title: 워크플로 구축
 description: 워크플로우 구축 방법 알아보기
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 1%
@@ -133,7 +134,7 @@ ht-degree: 1%
 
 다양한 유형의 워크플로우를 복제할 수 있습니다. 복제되고 나면 워크플로우의 수정 사항이 워크플로우의 복사본으로 옮겨지지 않습니다.
 
-Adobe은 활동의 복사/붙여넣기를 수행하는 것보다 워크플로우를 복제하는 것을 권장합니다. 활동을 복사하면 해당 설정이 모두 유지됩니다. 채널 활동의 경우 활동과 연관된 게재 개체도 복사되므로 주요 문제가 발생할 수 있습니다.
+Adobe에서는 활동의 복사/붙여넣기를 수행하지 않고 워크플로우를 복제하는 것을 권장합니다. 활동을 복사하면 해당 설정이 모두 유지됩니다. 채널 활동의 경우 활동과 연관된 게재 개체도 복사되므로 주요 문제가 발생할 수 있습니다.
 
 1. 워크플로우를 마우스 오른쪽 버튼으로 클릭합니다.
 1. **복제**&#x200B;를 클릭합니다.

@@ -3,8 +3,9 @@ product: campaign
 title: 합집합
 description: 결합 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity
+version: Campaign v8, Campaign Classic v7
 exl-id: 4109e198-bf9d-4dd2-92a1-16bbadbe30e8
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%

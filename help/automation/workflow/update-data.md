@@ -3,8 +3,9 @@ product: campaign
 title: 데이터 업데이트
 description: 데이터 업데이트 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity, Data Management
+version: Campaign v8, Campaign Classic v7
 exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 4%
@@ -80,7 +81,7 @@ Adobe Campaign에서 업데이트할 필드를 자동으로 식별하려면 **[!
 
 **[!UICONTROL Generate an outbound transition for the rejects]**
 
-업데이트 후 올바르게 처리되지 않은 레코드(예: 중복이 있는 경우)가 들어 있는 아웃바운드 전환을 만듭니다. 업데이트는 일반적으로 타겟팅 워크플로의 끝을 표시하므로 해당 옵션은 기본적으로 활성화되지 않습니다.
+업데이트 후 올바르게 처리되지 않은 레코드(예: 중복이 있는 경우)가 들어 있는 아웃바운드 전환을 만듭니다. 업데이트는 일반적으로 타기팅 워크플로의 끝을 표시하므로 해당 옵션은 기본적으로 활성화되지 않습니다.
 
 ## 컬렉션 업데이트 및 병합 {#updating-and-merging-collections}
 

@@ -4,8 +4,9 @@ title: 워크플로우 유형
 description: Campaign에서 다양한 유형의 워크플로우 살펴보기
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: f511332c-1fcc-444f-851b-e8b470b719b4
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 4%

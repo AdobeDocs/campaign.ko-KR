@@ -3,8 +3,9 @@ product: campaign
 title: 워크플로우 사용 사례
 description: Campaign 워크플로우를 사용하여 수행할 수 있는 사용 사례에 대해 자세히 알아보기
 feature: Workflows, Data Management
+version: Campaign v8, Campaign Classic v7
 exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 55%
@@ -47,7 +48,7 @@ ht-degree: 55%
 * [중복 제거 활동의 병합 기능 사용](deduplication-merge.md)
 * [가져오기 반복 워크플로 설정](recurring-import-workflow.md)
 
-## 타겟팅 {#designing-queries}
+## 타기팅 {#designing-queries}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
