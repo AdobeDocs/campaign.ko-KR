@@ -73,6 +73,6 @@ ht-degree: 1%
 
 이 비디오는 Explorer에서 수신자 목록을 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31902?captions=kor)
 
 추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ko){target="_blank"}에서 사용할 수 있습니다.
