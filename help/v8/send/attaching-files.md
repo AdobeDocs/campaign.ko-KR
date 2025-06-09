@@ -5,7 +5,8 @@ description: 파일 첨부 중
 feature: Email
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+exl-id: 27d13642-2971-466b-818d-39328c198b14
+source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 1%
@@ -20,7 +21,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. Campaign 옵션 목록에서 권장 임계값을 구성할 수 있습니다. [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ko#delivery)를 참조하세요.
+>성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. Campaign 옵션 목록에서 권장 임계값을 구성할 수 있습니다. [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery)를 참조하세요.
 
 두 가지 가능한 경우가 있습니다.
 
@@ -37,7 +38,7 @@ ht-degree: 1%
 
 Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 기본적으로 하나의 파일만 전자 메일에 첨부 파일로 추가할 수 있습니다. 이 임계값은 `NmsDelivery_MaxRecommendedAttachments` 옵션에서 구성할 수 있습니다.
 
-[Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ko#delivery)의 Campaign 옵션 목록에서 자세히 알아보세요.
+[Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery)의 Campaign 옵션 목록에서 자세히 알아보세요.
 
 ## 로컬 파일 첨부 {#attaching-a-local-file}
 

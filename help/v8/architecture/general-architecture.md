@@ -48,7 +48,7 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 
 주요 프로세스는 다음과 같습니다.
 
-* **응용 프로그램 서버**(nlserver web) - 이 프로세스는 웹 서비스 API(SOAP/HTTP + XML)를 통해 모든 범위의 Adobe Campaign 기능을 노출합니다. 또한 HTML 기반 액세스에 사용되는 웹 페이지(보고서, 웹 양식 등)를 동적으로 생성할 수 있습니다. 이를 위해 이 프로세스에는 Apache Tomcat JSP 서버가 포함됩니다. 콘솔이 연결하는 프로세스입니다.
+* **응용 프로그램 서버**(nlserver web) - 이 프로세스는 웹 서비스 API(SOAP / HTTP + XML)를 통해 모든 범위의 Adobe Campaign 기능을 노출합니다. 또한 HTML 기반 액세스에 사용되는 웹 페이지(보고서, 웹 양식 등)를 동적으로 생성할 수 있습니다. 이를 위해 이 프로세스에는 Apache Tomcat JSP 서버가 포함됩니다. 콘솔이 연결하는 프로세스입니다.
 
 * **워크플로 엔진**(nlserver wfserver) - 이 프로세스는 응용 프로그램에 정의된 워크플로 프로세스를 실행합니다. 또한 다음을 포함하여 주기적으로 실행되는 기술 워크플로우도 처리합니다.
 
@@ -60,11 +60,11 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 
 * **리디렉션 서버**(nlserver webmdl) - 이메일의 경우, Adobe Campaign에서 자동으로 열기 및 클릭 추적을 처리합니다(웹 사이트 수준의 트랜잭션 추적이 가능한 경우). 이를 위해 이메일 메시지에 포함된 URL이 이 모듈을 가리키도록 다시 작성됩니다. 이 모듈은 필요한 URL로 리디렉션하기 전에 인터넷 사용자의 전달을 등록합니다.
 
-  이 프로세스는 고가용성을 보장하기 위해 데이터베이스와 완전히 독립적입니다. 다른 서버 프로세스는 SOAP 호출(HTTP, HTTP(S) 및 XML)만 사용하여 데이터베이스와 통신합니다. 기술적으로 이 기능은 HTTP 서버의 확장 모듈(IIS의 ISAPI 확장 또는 DSO Apache 모듈 등)에서 구현됩니다. 및 는 Windows에서만 사용할 수 있습니다.
+  이 프로세스는 고가용성을 보장하기 위해 데이터베이스와 완전히 독립적입니다. 다른 서버 프로세스는 SOAP 호출(HTTP, HTTP(S) 및 XML)만 사용하여 데이터베이스와 통신합니다. 기술적으로 이 기능은 HTTP 서버의 확장 모듈(IIS의 ISAPI 확장 또는 DSO Apache 모듈 등)에서 구현되며 Windows에서만 사용할 수 있습니다.
 
 기타 추가 기술 프로세스도 사용할 수 있습니다.
 
-* **바운스 전자 메일 관리**(nlserver inMail) - 이 프로세스를 사용하면 배달 실패 시 반환되는 반송된 메시지를 받도록 구성된 사서함에서 전자 메일을 자동으로 선택할 수 있습니다. 그런 다음 이러한 메시지는 규칙 기반 처리를 거쳐 배달 못 함(알 수 없는 수신자, 할당량 초과 등) 원인을 파악합니다 데이터베이스의 게재 상태를 업데이트합니다. 이러한 모든 작업은 완전히 자동이며 사전 구성되어 있습니다.
+* **바운스 전자 메일 관리**(nlserver inMail) - 이 프로세스를 사용하면 배달 실패 시 반환되는 반송된 메시지를 받도록 구성된 사서함에서 전자 메일을 자동으로 선택할 수 있습니다. 그런 다음 이러한 메시지는 규칙 기반 처리를 거쳐 배달 못 함(알 수 없는 수신자, 할당량 초과 등)의 원인을 파악하고 데이터베이스의 배달 상태를 업데이트합니다. 이러한 모든 작업은 완전히 자동이며 사전 구성되어 있습니다.
 
 * **SMS 게재 상태**(nlserver sms) - 이 프로세스는 SMS 라우터를 폴링하여 진행 상태를 수집하고 데이터베이스를 업데이트합니다.
 
@@ -81,7 +81,7 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 
 ## 데이터베이스 컨테이너 {#db-containers}
 
-[엔터프라이즈(FFDA) 배포](enterprise-deployment.md)에서 Adobe Campaign Cloud 데이터베이스는 기능 데이터(프로필, 구독, 콘텐츠 등), 기술 데이터(게재 작업 및 로그, 추적 로그 등)가 포함된 [!DNL Snowflake]을(를) 사용합니다. 솔루션에 대한 작업 데이터(구매, 리드) 및 모든 Adobe Campaign 구성 요소는 특정 작업을 수행하기 위해 데이터베이스와 통신합니다.
+[엔터프라이즈(FFDA) 배포](enterprise-deployment.md)에서 Adobe Campaign Cloud 데이터베이스는 기능 데이터(프로필, 구독, 콘텐츠 등), 기술 데이터(게재 작업 및 로그, 추적 로그 등) 및 솔루션에 대한 작업 데이터(구매, 리드)가 포함된 [!DNL Snowflake]을(를) 사용하며, 모든 Adobe Campaign 구성 요소는 특정 작업을 수행하기 위해 데이터베이스와 통신합니다.
 
 사전 정의된 데이터베이스 및 스키마를 사용하여 Adobe Campaign을 배포할 수 있으며 필요한 경우 이 사전 정의된 환경을 확장할 수 있습니다. 데이터 마트 내의 모든 데이터는 SQL 호출을 통해 Adobe Campaign에서 액세스합니다. 또한 Adobe Campaign은 추출 변환 및 로드(ETL) 도구를 완전히 보완하여 데이터를 시스템으로 가져오거나 시스템에서 내보낼 수 있습니다.
 
@@ -98,4 +98,4 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 
 총 저장 용량은 기본 데이터베이스와 (선택 사항) Snowflake 보조 데이터베이스 간에 분할됩니다. 데이터가 저장되는 위치는 고객별 사용 사례에 따라 구현 또는 업그레이드 시 결정되어야 합니다.
 
-데이터베이스 사용량을 모니터링하는 방법은 [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=ko){target="_blank"}를 참조하세요.
+데이터베이스 사용량을 모니터링하는 방법은 [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}를 참조하세요.

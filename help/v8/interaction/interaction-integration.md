@@ -24,7 +24,7 @@ URL을 호출하는 스크립트는 다음과 같습니다.
 
 &quot;**env**&quot; 매개 변수는 익명 상호 작용 전용 라이브 환경의 내부 이름을 받습니다.
 
-오퍼를 표시하려면 Adobe Campaign에서 환경 및 오퍼 공간을 만든 다음 HTML 페이지를 구성해야 합니다.
+오퍼를 표시하려면 Adobe Campaign에서 환경과 오퍼 공간을 만든 다음 HTML 페이지를 구성해야 합니다.
 
 다음 사용 사례에서는 JavaScript을 통해 오퍼를 통합할 수 있는 옵션을 자세히 설명합니다.
 
@@ -64,7 +64,7 @@ HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 
 
 **3단계: HTML 페이지에 결과 표시**
 
-오퍼 표시의 콘텐츠가 오퍼 엔진에 의해 HTML 페이지로 반환됩니다.
+오퍼 표시 콘텐츠는 오퍼 엔진에 의해 HTML 페이지로 반환됩니다.
 
 ```
 <div id="banner_header">
@@ -90,7 +90,7 @@ HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 
 
 ### 식별된 오퍼 제공 {#presenting-an-identified-offer}
 
-식별된 연락처에 오퍼를 제공하기 위한 프로세스는 이 섹션[&#128279;](#presenting-an-anonymous-offer)의 자세한 과(와) 유사합니다.
+식별된 연락처에 오퍼를 제공하기 위한 프로세스는 이 섹션](#presenting-an-anonymous-offer)의 자세한 [과(와) 유사합니다.
 
 웹 페이지의 콘텐츠에서 오퍼 엔진 호출 중에 연락처를 식별하는 다음 스크립트를 추가해야 합니다.
 
@@ -163,7 +163,7 @@ Campaign **상호 작용** 모듈을 사용하면 오퍼 엔진을 호출하는 
 </propositions>
 ```
 
-아래 사용 사례에서는 XML 모드를 활성화하기 위해 Adobe Campaign에서 수행하는 구성에 대해 자세히 설명한 다음 HTML 페이지에 엔진 호출 결과를 표시합니다.
+아래 사용 사례에서는 XML 모드를 활성화하기 위해 Adobe Campaign에서 수행하는 구성에 대해 자세히 설명한 후 HTML 페이지에 엔진 호출 결과를 표시합니다.
 
 1. **환경 및 오퍼 공간 만들기**
 
@@ -333,10 +333,10 @@ SOAP을 통한 오퍼 제안에 대해 **nms:proposition#Propose** 명령과 다
 >
 >**targetId** 및 **maxCount** 설정은 필수입니다. 다른 것들은 선택 사항입니다.
 
-쿼리에 대한 응답으로 SOAP 서비스는 다음 매개 변수를 반환합니다.
+쿼리에 대해 SOAP 서비스는 다음 매개 변수를 반환합니다.
 
 * **interactionId**: 인터랙션의 ID입니다.
-* **제안**: XML 요소에는 각각 고유한 ID와 HTML 표현이 있는 제안 목록이 포함됩니다.
+* **제안**: XML 요소에는 각각 고유한 ID와 HTML 표현이 있는 제안 목록이 포함되어 있습니다.
 
 ### 오퍼 업데이트 {#offer-update}
 

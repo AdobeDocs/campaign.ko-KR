@@ -11,7 +11,7 @@ exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
 source-git-commit: a9aa9cb508ca1f5cdcd59e61b5be029e3de1a82f
 workflow-type: tm+mt
 source-wordcount: '1665'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Campaign을 사용하여 iOs 및 Android 디바이스에서 푸시 알림을 전
 
 Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스되며, Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다.
 
-또한 Adobe은 보다 안전하고 확장 가능한 인증 기반 연결보다 토큰 기반 연결을 APNs로 이동하는 것이 좋습니다.
+또한 Adobe에서는 보다 안전하고 확장 가능한 인증 기반 연결보다 토큰 기반 연결을 APNs로 이동하는 것이 좋습니다.
 
 ## Google Android FCM(Firebase Cloud Messaging) 서비스 {#fcm-push-upgrade}
 
@@ -33,7 +33,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 
 ### 영향을 받습니까? {#fcm-impact}
 
-현재 구현이 기존 API를 사용하여 FCM에 연결하는 구독 서비스를 지원하는 경우 영향을 받습니다. 서비스가 중단되지 않도록 하려면 최신 API로 전환해야 합니다. 이 경우 Adobe 팀이 연락을 드릴 것입니다.
+현재 구현이 기존 API를 사용하여 FCM에 연결하는 구독 서비스를 지원하는 경우 영향을 받습니다. 서비스가 중단되지 않도록 하려면 최신 API로 전환해야 합니다. 이 경우 Adobe 팀이 연락할 수 있습니다.
 
 영향을 받았는지 확인하려면 아래 필터에 따라 **서비스 및 구독**&#x200B;을 필터링할 수 있습니다.
 
@@ -48,19 +48,19 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 
 #### 필수 구성 요소 {#fcm-transition-prerequisites}
 
-* 모바일 애플리케이션을 HTTP v1로 이동하려면 Android Firebase 관리 SDK 서비스의 계정 JSON 파일이 필요합니다. [Google Firebase 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}에서 이 파일을 가져오는 방법을 알아보세요.
+* 모바일 애플리케이션을 HTTP v1로 이동하려면 Android Firebase Admin SDK 서비스의 계정 JSON 파일이 필요합니다. [Google Firebase 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}에서 이 파일을 가져오는 방법을 알아보세요.
 
-* Campaign Classic v7의 경우 20.3.1 릴리스에서 HTTP v1에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 HTTP v1로 전환하기 위한 필수 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ko){target="_blank"}(으)로 업그레이드하는 것입니다. Campaign v8의 경우 HTTP v1은 모든 릴리스에서 지원되며 업그레이드할 필요가 없습니다.
+* Campaign Classic v7의 경우 20.3.1 릴리스에서 HTTP v1에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 HTTP v1로 전환하기 위한 필수 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}(으)로 업그레이드하는 것입니다. Campaign v8의 경우 HTTP v1은 모든 릴리스에서 지원되며 업그레이드할 필요가 없습니다.
 
 * Campaign Classic v7 온-프레미스 사용자는 마케팅 및 실시간 실행 서버를 모두 업그레이드해야 합니다.
 
-* 하이브리드, 호스팅 및 관리 Cloud Service 배포의 경우 아래 전환 절차 외에도 Adobe에 문의하여 실시간(RT) 실행 서버를 업데이트합니다.
+* 하이브리드, 호스팅 및 관리 Cloud Services 배포의 경우 아래 전환 절차 외에도 Adobe에 문의하여 실시간(RT) 실행 서버를 업데이트합니다.
 
 * Android 라우팅 외부 계정 정보:
 
-   * Campaign Classic v7 온-프레미스 또는 하이브리드 사용자는 Android 라우팅 외부 계정이 `androidPushConnectorV2.js`(으)로 구성되어 있는지 확인하세요. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}를 참조하세요.
+   * Campaign Classic v7 온-프레미스 또는 하이브리드 사용자는 Android 라우팅 외부 계정이 `androidPushConnectorV2.js`(으)로 구성되어 있는지 확인하세요. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}를 참조하세요.
 
-   * 하이브리드, 호스팅 및 관리 Cloud Service 배포의 경우 중간 소싱 서버의 Android 라우팅 외부 계정에서 `androidPushConnectorV2.js (nms)` 커넥터가 선택되었는지 확인하려면 Adobe 고객 지원 팀과 연결해야 합니다.
+   * 하이브리드, 호스팅 및 관리 Cloud Services 배포의 경우 Adobe 고객 지원 팀과 연결하여 중간 소싱 서버의 Android 라우팅 외부 계정에서 `androidPushConnectorV2.js (nms)` 커넥터가 선택되었는지 확인해야 합니다.
 
 #### 전환 절차 {#fcm-transition-steps}
 
@@ -101,7 +101,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 
 HTTP v1을 지원하는 버전으로 업그레이드하기 전에 만든 기존 게재 및 게재 템플릿을 업데이트할 수도 있습니다. 다음을 수행하십시오.
 
-* 관리 Cloud Service 또는 호스팅 고객의 경우 Adobe에 연락하여 기존 Android 게재 템플릿을 업데이트합니다.
+* Managed Cloud Services 또는 호스팅된 고객의 경우 Adobe에 연락하여 기존 Android 게재 템플릿을 업데이트하십시오.
 
 * 온-프레미스 환경의 경우 `fcm-httpv1-migration.js` 스크립트를 다운로드하고 아래에 자세히 설명된 대로 실행합니다.
 
@@ -156,7 +156,7 @@ HTTP v1을 지원하는 버전으로 업그레이드하기 전에 만든 기존 
       nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
       ```
 
-  +++
++++
 
 ### 내 Android 앱의 영향은 무엇입니까? {#fcm-apps}
 
@@ -193,7 +193,7 @@ Apple에서 권장하는 대로 상태 비저장 인증 토큰을 사용하여 A
 
 [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}에서 APNs에 대한 토큰 기반 연결에 대해 자세히 알아보세요.
 
-Adobe Campaign Classic v7 및 Adobe Campaign v8은 토큰 기반 연결과 인증서 기반 연결을 모두 지원합니다. 구현이 인증서 기반 연결을 사용하는 경우 Adobe은 토큰 기반 연결로 업데이트할 것을 강력히 권장합니다.
+Adobe Campaign Classic v7 및 Adobe Campaign v8은 토큰 기반 연결과 인증서 기반 연결을 모두 지원합니다. 구현이 인증서 기반 연결을 사용하는 경우 Adobe에서는 토큰 기반 연결로 업데이트할 것을 강력히 권장합니다.
 
 ### 영향을 받습니까? {#ios-impact}
 
@@ -212,7 +212,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 토큰 기반 연결과 인�
 
 #### 필수 구성 요소 {#ios-transition-prerequisites}
 
-* Campaign Classic v7의 경우 20.2 릴리스에서 **토큰 기반 인증** 모드에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 필수 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ko){target="_blank"}(으)로 업그레이드하는 것입니다. Campaign v8의 경우 **토큰 기반 인증** 모드가 모든 릴리스에서 지원되며 업그레이드할 필요가 없습니다.
+* Campaign Classic v7의 경우 20.2 릴리스에서 **토큰 기반 인증** 모드에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 필수 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}(으)로 업그레이드하는 것입니다. Campaign v8의 경우 **토큰 기반 인증** 모드가 모든 릴리스에서 지원되며 업그레이드할 필요가 없습니다.
 
 * 서버에서 사용하는 토큰을 생성하려면 APNs 인증 토큰 서명 키가 필요합니다. [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}에 설명된 대로 Apple 개발자 계정에서 이 키를 요청합니다.
 

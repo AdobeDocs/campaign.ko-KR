@@ -5,7 +5,8 @@ description: Adobe Campaign 웹을 사용하여 iOS 리치 푸시 알림 전달�
 feature: Push
 role: User
 level: Beginner
-source-git-commit: 4e52e596d4eb2a8e1a1799fcd7104dcd894b6c2d
+exl-id: 75a57ddb-558e-4dd2-a684-e63e51545554
+source-git-commit: fef2c829da637b43067147b51aff7030d25c9744
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 5%
@@ -16,7 +17,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->리치 푸시 알림을 디자인하기 전에 먼저 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)를 참조하세요.
+>리치 푸시 알림을 디자인하기 전에 먼저 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)를 참조하세요.
 
 ## iOS 알림의 콘텐츠 정의 {#push-message}
 
@@ -187,4 +188,3 @@ ht-degree: 5%
 | **[!UICONTROL Click action]** | 사용자 알림의 사용자 클릭과 관련된 작업을 설정합니다. |
 | **[!UICONTROL Interruption level]** | <ul><li>활성: 기본적으로 설정되어 있으면 시스템에서 알림을 즉시 표시하고 화면을 켜며 사운드를 재생할 수 있습니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li>수동: 화면에 불이 들어오거나 소리가 재생되지 않고 알림 목록에 알림이 추가됩니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li> 시간에 민감함: 시스템에서 알림을 즉시 표시하고 화면을 켜며 사운드를 재생하고 포커스 모드를 중단할 수 있습니다. 이 수준에서는 Apple의 특별한 권한이 필요하지 않습니다.</li><li>심각: 시스템에서 알림을 즉시 표시하고 화면을 켜며 음소거 스위치나 포커스 모드를 무시합니다. 이 수준에는 Apple의 특별한 권한이 필요합니다.</li></ul> |
 | **[!UICONTROL Relevance score]** | 관련성 점수를 0에서 100으로 설정합니다. 시스템은 이 옵션을 사용하여 알림 요약의 알림을 정렬합니다. |
-

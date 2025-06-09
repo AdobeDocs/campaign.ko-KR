@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Adobe Experience Platform과 대상자 공유 및 동기화 {#gs-ac-aep}
 
-Adobe Campaign 관리 Cloud Service 대상 및 Source 커넥터를 사용하면 Adobe Campaign과 Adobe Experience Platform 간의 원활한 통합을 수행할 수 있습니다. 이 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
+Adobe Campaign Managed Cloud Service Destination 및 Source 커넥터를 사용하면 Adobe Campaign과 Adobe Experience Platform 간의 원활한 통합을 수행할 수 있습니다. 이 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 * Adobe Experience Platform 대상자를 Adobe Campaign으로 보내고, 분석 목적으로 게재 및 추적 로그를 Adobe Experience Platform으로 다시 보냅니다.
 * Adobe Experience Platform 프로필 속성을 Adobe Campaign으로 가져오고 정기적으로 업데이트할 수 있도록 동기화 프로세스를 준비하십시오.

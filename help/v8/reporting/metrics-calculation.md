@@ -228,7 +228,7 @@ ht-degree: 3%
    <td> sum([표시기/@success])<br /> </td> 
   </tr> 
   <tr> 
-   <td> 전자 메일<br /> </td> 
+   <td> 이메일<br /> </td> 
    <td> @email<br /> </td> 
    <td> URL 범주가 "@totalClicks"인 모든 항목의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='email',@totalClicks,0))<br /> </td> 
@@ -236,13 +236,13 @@ ht-degree: 3%
   <tr> 
    <td> Facebook<br /> </td> 
    <td> @facebook<br /> </td> 
-   <td> URL 범주가 "facebook"와 같은 모든 @totalClicks 수의 합계입니다.<br /> </td> 
+   <td> URL 범주가 "facebook"인 모든 @totalClicks 수의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='facebook',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Twitter<br /> </td> 
    <td> @twitter<br /> </td> 
-   <td> URL 범주가 "twitter"와 같은 모든 @totalClicks 수의 합계입니다.<br /> </td> 
+   <td> URL 범주가 "twitter"인 모든 @totalClicks 수의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='twitter',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
@@ -367,7 +367,7 @@ ht-degree: 3%
   <tr> 
    <td> 공유<br /> </td> 
    <td> @shared<br /> </td> 
-   <td> 'email' , 'facebook' , 'twitter' , '맛있는' , 'digg' , 'google' , 'linkedin'<br />에 포함된 URL 범주: "email", "facebook", "twitter", "맛있는", "digg", "google" 또는 "linkedin"과 같은 URL 범주가 있는 모든 @totalClicks 수.<br /> </td> 
+   <td> 'email' , 'facebook' , 'twitter' , 'delicious' , 'digg' , 'google' , 'linkedin'<br />에 포함된 URL 범주: "email", "facebook", "twitter", "delicious", "digg", "google" 또는 "linkedin"과 같은 URL 범주가 있는 모든 @totalClicks 수.<br /> </td> 
    <td> count (Iif([url/@category] IN (이메일' , 'facebook' , 'twitter' , '맛있는' , 'digg' , 'google' , 'linkedin'), @totalClicks, 0)<br /> </td> 
   </tr> 
  </tbody> 
@@ -643,7 +643,7 @@ ht-degree: 3%
    <td> div(@amount, @toDeliver)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 전자 메일<br /> </td> 
+   <td> 이메일<br /> </td> 
    <td> @email<br /> </td> 
    <td> URL 범주가 "@totalClicks"인 모든 전자 메일의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='email',@totalClicks,0))<br /> </td> 
@@ -651,13 +651,13 @@ ht-degree: 3%
   <tr> 
    <td> Facebook<br /> </td> 
    <td> @facebook<br /> </td> 
-   <td> "facebook"와 같은 URL 범주가 있는 모든 @totalClicks 수의 합계입니다.<br /> </td> 
+   <td> "facebook"과 같은 URL 범주가 있는 모든 @totalClicks 수의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='facebook',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Twitter<br /> </td> 
    <td> @twitter<br /> </td> 
-   <td> "twitter"과 같은 URL 범주가 있는 모든 @totalClicks 수의 합계입니다.<br /> </td> 
+   <td> URL 범주가 "twitter"인 모든 @totalClicks 수의 합계입니다.<br /> </td> 
    <td> Sum(iIf([url/@category]='twitter',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 

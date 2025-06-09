@@ -26,9 +26,9 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
 
 1. [필수 구성 요소](#before-starting)를 확인하십시오.
 1. Adobe Experience Platform 데이터 수집에서 [모바일 태그 속성](#launch-property)을 설정합니다.
-1. 이 페이지에서 [자세히](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}(으)로 Adobe Experience Platform Mobile SDK을 가져옵니다.
-1. (선택 사항) 로깅 및 라이프사이클 지표를 사용하도록 설정합니다. 자세한 내용은 이 페이지의 [을(를) 참조하십시오](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
-1. (선택 사항) 구현의 유효성을 검사하려면 [Adobe Experience Platform Assurance을 앱에 추가](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}합니다. 이 페이지[&#128279;](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}에서 Adobe Experience Platform Assurance 확장 을(를) 구현하는 방법을 알아보세요.
+1. 이 페이지에서 [자세히](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}대로 Adobe Experience Platform Mobile SDK을 가져옵니다.
+1. (선택 사항) 로깅 및 라이프사이클 지표를 사용하도록 설정합니다(자세한 정보: 이 [페이지](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}).
+1. (선택 사항) 구현의 유효성을 검사하려면 [Adobe Experience Platform Assurance을 앱에 추가](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}하십시오. 이 페이지](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}에서 Adobe Experience Platform Assurance 확장 [을(를) 구현하는 방법을 알아보세요.
 1. 이 페이지의 [자세히](#push-service)로 Adobe Campaign에서 iOS 및 Android Mobile Services를 구성합니다.
 1. 모바일 속성에 [Adobe Campaign 확장](#configure-extension)을 설치하고 구성합니다.
 1. 앱에서 Adobe Experience Platform Mobile SDK를 설정하려면 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}를 따르십시오.
@@ -37,7 +37,7 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
 
 ### 권한 설정 {#setup-permissions}
 
-모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform의 태그에 대한 올바른 사용자 권한이 있는지 확인하거나 사용자에게 할당해야 합니다. Adobe Experience Platform의 태그에 대한 사용자 권한은 Adobe Admin Console을 통해 사용자에게 할당됩니다. 자세한 내용은 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko){target="_blank"}를 참조하세요.
+모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform의 태그에 대한 올바른 사용자 권한이 있는지 확인하거나 사용자에게 할당해야 합니다. Adobe Experience Platform의 태그에 대한 사용자 권한은 Adobe Admin Console을 통해 사용자에게 할당됩니다. 자세한 내용은 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}를 참조하세요.
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
 
 1. **[!DNL Admin Console]**&#x200B;에 액세스합니다.
 1. **[!UICONTROL Products]** 탭에서 **[!UICONTROL Adobe Experience Platform Data Collection]** 카드를 선택합니다.
-1. 기존 **[!UICONTROL Product Profile]**&#x200B;을(를) 선택하거나 **[!UICONTROL New profile]** 단추를 사용하여 새 을(를) 만듭니다. [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=ko#ui){target="_blank"}에서 새 **[!UICONTROL New profile]**&#x200B;을(를) 만드는 방법을 알아보세요.
+1. 기존 **[!UICONTROL Product Profile]**&#x200B;을(를) 선택하거나 **[!UICONTROL New profile]** 단추를 사용하여 새 을(를) 만듭니다. [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}에서 새 **[!UICONTROL New profile]**&#x200B;을(를) 만드는 방법을 알아보세요.
 1. **[!UICONTROL Permissions]** 탭에서, **[!UICONTROL Property Rights]**&#x200B;를 선택합니다.
 1. **[!UICONTROL Add all]**&#x200B;을(를) 클릭합니다. 이렇게 하면 제품 프로필에 다음 권한이 추가됩니다.
    * **[!UICONTROL Approve]**
@@ -79,7 +79,7 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
 
    >[!NOTE]
    >
-   >사용자가 이전에 Admin Console에서 만들어진 것이 아니라면 [사용자 추가 설명서](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html#add-users){target="_blank"}를 참조하세요.
+   >사용자가 이전에 Admin Console에서 만들어진 것이 아니라면 [사용자 추가 설명서](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"}를 참조하세요.
 
 ### 앱 구성 {#configure-app}
 
@@ -88,7 +88,7 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
 아래 링크에 자세히 설명된 구현 단계를 따르십시오.
 
 * **Apple iOS**&#x200B;의 경우: [Apple 설명서](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}에서 APNs에 앱을 등록하는 방법에 대해 알아보세요.
-* **Google Android**&#x200B;의 경우: Android에서 Firebase Cloud Messaging 클라이언트 앱을 설정하는 방법은 [Google 설명서](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}를 참조하세요.
+* **Google Android**&#x200B;의 경우: [Google 설명서](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}에서 Android에서 Firebase Cloud Messaging 클라이언트 앱을 설정하는 방법을 알아보세요.
 
 <!--
 ## Add your app push credentials in Adobe Experience Platform Data Collection {#push-credentials}
@@ -141,7 +141,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 -->
 
-[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=ko){target="_blank"}에서 [!DNL Adobe Experience Platform Data Collection] 태그에 대해 자세히 알아보세요.
+[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}에서 [!DNL Adobe Experience Platform Data Collection] 태그에 대해 자세히 알아보세요.
 
 만든 후에는 새 태그 속성을 열고 라이브러리를 만듭니다. 방법은 다음과 같습니다.
 
@@ -281,6 +281,6 @@ Campaign Classic v7 및 Campaign v8 모두에 적용되는 이 확장은 환경�
 1. 이전에 만든 태그 속성을 엽니다.
 1. 왼쪽 탐색에서 **확장**(으)로 이동한 다음 **카탈로그** 탭을 엽니다. 검색 필드를 사용하여 **Adobe Campaign Classic** 확장을 찾습니다.
 1. Campaign Classic 카드에서 **설치** 단추를 클릭합니다.
-1. [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"}에 설명된 대로 설정을 입력하십시오.
+1. [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"}에 설명된 대로 설정을 입력합니다.
 
 이제 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}에 자세히 설명된 대로 앱에 캠페인을 추가할 수 있습니다.

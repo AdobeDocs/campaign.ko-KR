@@ -29,7 +29,7 @@ Campaign v8.5는 최신 첨단 기술을 기반으로 구축된 강력한 프레
 
 1. [Adobe Experience Platform 데이터 수집에서 모바일 속성 만들기 및 구성](#create-mobile-property)
 
-1. [Adobe Adobe Experience Platform 보증 확장 추가](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}(권장)
+1. [Adobe Adobe Experience Platform Assurance 확장 추가](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}(권장)
 
 1. [모바일 애플리케이션에 Campaign Classic 추가](#campaign-mobile-ap)
 
@@ -43,7 +43,7 @@ Campaign v8.5는 최신 첨단 기술을 기반으로 구축된 강력한 프레
 
 [!DNL Adobe Experience Platform Data Collection]에 모바일 응용 프로그램 푸시 자격 증명을 추가해야 합니다.
 
-사용자를 대신하여 푸시 알림을 보낼 Adobe을 승인하려면 모바일 앱 푸시 자격 증명 등록이 필요합니다. 아래에 자세히 설명된 단계를 참조하십시오.
+Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려면 모바일 앱 푸시 자격 증명 등록이 필요합니다. 아래에 자세히 설명된 단계를 참조하십시오.
 
 1. [!DNL Adobe Experience Platform Data Collection]에서 왼쪽 패널의 **[!UICONTROL App Surfaces]** 탭을 선택합니다.
 
@@ -143,7 +143,7 @@ iOS 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL Integration key]**&#x200B;은(는) 각 응용 프로그램에만 적용됩니다. 모바일 애플리케이션을 Adobe Campaign에 연결하며 Campaign 확장을 구성할 때 사용됩니다.
 
-   동일한 **[!UICONTROL Integration key]**&#x200B;이(가) SDK를 통해 Adobe Campaign 및 응용 프로그램 코드에 정의되어 있는지 확인하십시오.
+   Adobe Campaign 및 SDK을 통한 응용 프로그램 코드에서 동일한 **[!UICONTROL Integration key]**&#x200B;이(가) 정의되었는지 확인하십시오.
 
    자세한 내용은 [개발자 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}를 참조하세요
 
@@ -178,7 +178,7 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. 통합 키는 각 애플리케이션에 따라 다릅니다. 모바일 애플리케이션을 Adobe Campaign에 연결하며 Campaign 확장을 구성할 때 사용됩니다.
 
-   동일한 **[!UICONTROL Integration key]**&#x200B;이(가) SDK를 통해 Adobe Campaign 및 응용 프로그램 코드에 정의되어 있는지 확인하십시오.
+   Adobe Campaign 및 SDK을 통한 응용 프로그램 코드에서 동일한 **[!UICONTROL Integration key]**&#x200B;이(가) 정의되었는지 확인하십시오.
 
    자세한 내용은 [개발자 설명서](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}를 참조하세요
 

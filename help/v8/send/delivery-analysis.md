@@ -90,4 +90,4 @@ ht-degree: 5%
 
 * **[!UICONTROL Start job in a detached process]**: 이 옵션을 사용하면 배달 분석을 별도의 프로세스에서 시작할 수 있습니다. 분석 함수는 기본적으로 Adobe Campaign 애플리케이션 서버 프로세스(web nlserver)를 사용합니다. 이 옵션을 선택하면 애플리케이션 서버에 장애가 발생하더라도 분석이 완료됩니다.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]**: 이 옵션은 분석 단계 동안 SQL 쿼리 로그를 게재 저널에 추가합니다.
-* **[!UICONTROL Ignore personalization scripts during sending]**: 이 옵션을 사용하면 HTML 콘텐츠에 있는 JavaScript 지시문을 해석하지 않을 수 있습니다. 전달된 콘텐츠에 있는 그대로 표시됩니다. 이러한 지시문은 `<%=` 태그와 함께 도입됩니다.
+* **[!UICONTROL Ignore personalization scripts during sending]**: 이 옵션을 사용하면 HTML 콘텐츠에 있는 JavaScript 지시문을 해석하지 않아도 됩니다. 전달된 콘텐츠에 있는 그대로 표시됩니다. 이러한 지시문은 `<%=` 태그와 함께 도입됩니다.

@@ -27,7 +27,7 @@ ht-degree: 76%
 
 Adobe Campaign v8은 **관리 클라우드 서비스**&#x200B;로 사용 가능합니다.
 
-Adobe Campaign 관리 클라우드 서비스는 크로스 채널 고객 경험을 설계하기 위한 관리 클라우드 서비스 플랫폼과 함께 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널 실행 환경을 제공합니다. [제품 설명 Cloud Service](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}에서 Campaign 관리 페이지에 대해 자세히 알아보세요.
+Adobe Campaign 관리 클라우드 서비스는 크로스 채널 고객 경험을 설계하기 위한 관리 클라우드 서비스 플랫폼과 함께 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널 실행 환경을 제공합니다. [제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}에서 Campaign Managed Cloud Services에 대해 자세히 알아보세요.
 
 이 새로운 버전에서는 업계 최고의 서비스를 사전 예방적 관리와 시기 적절한 경고 기능을 결합했으며 세 가지 영역에 초점을 맞춥니다.
 
@@ -57,7 +57,7 @@ Campaign v8은 **하이브리드 아키텍처**&#x200B;를 사용합니다. Camp
 
 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)에서 [!DNL Adobe Campaign] v8은(는) 두 개의 데이터베이스를 사용합니다. 하나는 사용자 인터페이스 실시간 메시지 보내기와 API를 통한 단일 쿼리 및 쓰기를 위한 로컬 [!DNL Campaign] 데이터베이스이고, 다른 하나는 캠페인 실행, 쿼리 일괄 처리 및 워크플로우 실행을 위한 클라우드 [!DNL Snowflake] 데이터베이스입니다.
 
-Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8 엔터프라이즈(FFDA) 배포는 이 새로운 아키텍처를 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 표를 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
+Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8 엔터프라이즈(FFDA) 배포는 이 새로운 아키텍처를 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 테이블을 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
 
 [이 페이지](../architecture/architecture.md)에서 [!DNL Campaign] v8 아키텍처에 대해 자세히 알아보세요.
 

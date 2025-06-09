@@ -55,7 +55,7 @@ ht-degree: 10%
 아래 예에서는 다국어 이메일을 만드는 방법을 알아봅니다. 콘텐츠는 수신자의 선호 언어에 따라 하나의 언어 또는 다른 언어로 표시됩니다.
 
 1. 이메일을 만들고 대상 모집단을 선택합니다. 이 예제에서 한 버전 또는 다른 버전을 표시하는 조건은 받는 사람 프로필의 **Language** 값을 기반으로 합니다. 이 값은 **EN**, **FR**, **ES**(으)로 설정됩니다.
-1. 전자 메일 HTML 콘텐츠에서 **[!UICONTROL Source]** 탭을 클릭하고 다음 코드를 붙여넣습니다.
+1. 이메일 HTML 콘텐츠에서 **[!UICONTROL Source]** 탭을 클릭하고 다음 코드를 붙여넣습니다.
 
    ```
    <% if (language == "EN" ) { %>
@@ -86,4 +86,4 @@ ht-degree: 10%
 
 다중 언어 뉴스레터의 예에 따라 게재에 조건부 콘텐츠를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446718?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)

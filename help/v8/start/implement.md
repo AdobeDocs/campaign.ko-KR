@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -38,11 +38,11 @@ Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호법 및 수�
 
 * **데이터 수집**: Adobe Campaign을 사용하면 개인 및 중요 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다.
 
-  자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#data-acquisition){target="_blank"}를 참조하세요
+  자세히 알아보기: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#data-acquisition){target="_blank"}
 
 * **사용자 동의 및 데이터 보유**: 사용자 동의를 받고, 이중 옵트인 구독 메커니즘을 설정하고, 쉽게 옵트아웃할 수 있도록 하고, 데이터 유지 조건을 구성해야 합니다.
 
-  [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#consent){target="_blank"}에서 자세히 알아보기
+  [Campaign Classic v7 개인 정보 보호 문서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#consent){target="_blank"}에서 자세히 알아보기
 
 * **개인 정보 보호 및 데이터 보호 규정**: 개인 정보 보호 요구 사항 및 이러한 규정이 조직과 Adobe Campaign에 미치는 영향에 대한 정보를 알아보려면 [이 섹션](privacy.md)을 참조하세요.
 
@@ -70,7 +70,7 @@ Adobe Campaign에서 사용자를 추가하는 방법은 [이 섹션](../start/g
 
 1. **프로필 가져오기 및 대상자 만들기**
 
-   Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 불러오고, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 표에 직접 프로필 정보를 입력할 수 있습니다.
+   Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 불러오고, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 테이블에 직접 프로필 정보를 입력할 수 있습니다.
 
    [프로필을 가져오는 방법 알아보기](import.md)
 
@@ -80,14 +80,14 @@ Adobe Campaign에서 사용자를 추가하는 방법은 [이 섹션](../start/g
 
 1. **템플릿 사용**
 
-   캠페인, 게재, 작업 또는 워크플로는 모두 주요 설정 및 기능을 저장하는 템플릿을 기반으로 합니다. 특정 구성이 정의되지 않은 각 구성 요소에 대해서는 내장 템플릿이 제공됩니다. 템플릿을 요구 사항에 맞게 구성하고 조정하여 최종 사용자가 사용할 수 있도록 해야 합니다.
+   캠페인, 게재, 작업 또는 워크플로는 모두 주요 설정 및 기능을 저장하는 템플릿을 기반으로 합니다. 특정 구성이 정의되지 않은 각 구성 요소에 대해서는 기본 제공 템플릿이 제공됩니다. 템플릿을 요구 사항에 맞게 구성하고 조정하여 최종 사용자가 사용할 수 있도록 해야 합니다.
 
 
    [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ko){target="_blank"}에서 캠페인 템플릿으로 작업하는 방법을 알아봅니다.
 
-   워크플로 템플릿을 구성하는 방법은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"}에서 알아보십시오.
+   [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"}에서 워크플로 템플릿을 구성하는 방법을 알아보세요.
 
-   [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko){target="_blank"}에서 이메일 템플릿에 대해 자세히 알아보십시오.
+   [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko){target="_blank"}에서 전자 메일 템플릿에 대해 자세히 알아보세요.
 
 
 1. **유형 규칙 구성**
@@ -96,9 +96,9 @@ Adobe Campaign에서 사용자를 추가하는 방법은 [이 섹션](../start/g
 
    [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ko){target="_blank"}에서 유형화 및 피로도 관리에 대해 자세히 알아보십시오.
 
-1. **Campaign의 내장 데이터 모델 익히기**
+1. **Campaign의 기본 제공 데이터 모델 익히기**
 
-   Adobe Campaign은 사전 정의된 데이터 모델을 제공합니다. 환경을 구현하고 사용자 정의하려면 Adobe Campaign 데이터 모델의 내장된 표와 이러한 데이터 모델이 서로 어떻게 연관되어 있는지 알아야 합니다.
+   Adobe Campaign은 사전 정의된 데이터 모델을 제공합니다. 환경을 구현하고 사용자 정의하려면 Adobe Campaign 데이터 모델의 기본 제공 테이블과 이러한 데이터 모델이 서로 어떻게 연관되어 있는지 알아야 합니다.
 
    [Campaign 데이터 모델에 대해 자세히 알아봅니다](../dev/datamodel.md).
 
@@ -126,7 +126,7 @@ Campaign의 다양한 영역과 기능을 사용자 지정할 수 있습니다. 
 
 1. **보고서**
 
-   Campaign은 게재 모니터링, URL 및 클릭 스트림, 추적, 전달 가능성 지표 등에 대한 내장된 보고서 세트를 제공합니다.
+   Campaign은 게재 모니터링, URL 및 클릭 스트림, 추적, 전달 가능성 지표 등에 대한 보고서 세트를 기본 제공합니다.
 
    기본 제공 보고서 외에도 Adobe Campaign을 사용하면 다양한 컨텍스트에서 보고서를 생성하여 다양한 요구를 충족할 수 있습니다. 사용 및 구현 모드의 원칙은 이 문서에 자세히 설명되어 있습니다.
 

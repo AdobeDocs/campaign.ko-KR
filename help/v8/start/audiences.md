@@ -45,13 +45,13 @@ Adobe Campaign에서 **수신자**&#x200B;는 게재(이메일, SMS 등)를 보�
 
 계약에 따라 각 캠페인 인스턴스에는 청구 용도로 계산되는 특정 양의 활성 프로필이 제공됩니다. 구입한 활성 프로필 수에 대한 자세한 내용은 최신 계약을 참조하십시오. [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}에서 자세히 알아보세요.
 
-Campaign Campaign 컨트롤 패널에서 직접 인스턴스의 활성 프로필 수를 모니터링할 수 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ko){target="_blank"}를 참조하세요.
+Campaign Campaign 컨트롤 패널에서 직접 인스턴스의 활성 프로필 수를 모니터링할 수 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}를 참조하세요.
 
 
 다음과 같은 보호 기능 및 제한 사항이 적용됩니다.
 
 * 여러 게재에서 타겟팅한 프로필은 한 번만 카운트됩니다.
-* X의 소셜 마케팅(Twitter) 컨텍스트에서 타깃팅된 프로필은 활성 프로필로 간주되지 않습니다.
+* X의 소셜 마케팅(Twitter) 컨텍스트에서 타겟팅된 프로필은 활성 프로필로 간주되지 않습니다.
 * 카운트는 수신자 기본 키를 기반으로 합니다. 따라서 프로필이 두 개의 서로 다른 수신자 테이블에 있으면 활성 프로필로 두 번 계산될 수 있습니다.
 
 ## 개인 정보 보호 및 동의{#privacy-and-consent}

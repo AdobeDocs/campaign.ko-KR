@@ -8,13 +8,13 @@ exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 84%
+ht-degree: 77%
 
 ---
 
 # 제품 보호 기능{#guardrails}
 
-자격, 제품 제한, 성능 보호 기능은 [Adobe Campaign Managed Cloud Services 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}의 목록에서 확인할 수 있습니다.
+자격, 제품 제한 사항 및 성능 보호는 [Adobe Campaign Managed Cloud Services 제품 설명 페이지](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}에 나와 있습니다.
 
 [!DNL Adobe Campaign] 사용 시 다음과 같은 추가 보호 기능 및 제한 사항이 있습니다.
 

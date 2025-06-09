@@ -7,7 +7,7 @@ exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->[Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ko){target="_blank"}을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다.
+>[Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다.
 >
 >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel){target="_blank"}에 자세히 설명되어 있습니다.
 >

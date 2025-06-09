@@ -71,7 +71,7 @@ logInfo(strUuid);
    </soapenv:Envelope>
    ```
 
-1. UUID가 SOAP 응답으로 다시 전송됩니다.
+1. UUID가 다시 SOAP 응답으로 전송됩니다.
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -212,4 +212,4 @@ Campaign의 구독 관리는 [이 페이지](../start/subscriptions.md)에 설�
 
 **관련 항목**
 
-* [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ko){target="_blank"}
+* [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}

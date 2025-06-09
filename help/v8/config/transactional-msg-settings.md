@@ -21,11 +21,11 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->관리 Cloud Service 사용자는 [Adobe에게 문의](../start/campaign-faq.md#support)하여 환경에 Campaign 트랜잭션 메시지를 설치하고 구성하세요.
+>Managed Cloud Services 사용자는 [Adobe에 문의](../start/campaign-faq.md#support)하여 환경에 Campaign 트랜잭션 메시지를 설치하고 구성하세요.
 
 ## 권한 정의 {#mc-permissions}
 
-Adobe 클라우드에서 호스팅되는 메시지 센터 실행 인스턴스에 대해 새 사용자를 만들려면 Adobe 전환 관리자에게 문의하십시오. 메시지 센터 사용자는 &#39;실시간 이벤트&#39;(nmsRtEvent) 폴더에 액세스하기 위해 전용 권한이 필요한 특정 운영자입니다.
+Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대해 새 사용자를 만들려면 Adobe 전환 관리자에게 문의하십시오. 메시지 센터 사용자는 &#39;실시간 이벤트&#39;(nmsRtEvent) 폴더에 액세스하기 위해 전용 권한이 필요한 특정 운영자입니다.
 
 ## 스키마 확장  {#mc-schema-ext}
 

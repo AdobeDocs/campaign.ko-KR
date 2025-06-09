@@ -28,7 +28,7 @@ Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 �
 
 >[!TAB IMS(Identity Management 시스템)]
 
-Campaign v8.6부터 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 모든 운영자는 IMS(Adobe Identity Management 시스템)를 사용하여 Campaign에 연결합니다
+Campaign v8.6부터 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 모든 운영자는 Adobe IMS(Identity Management System)를 사용하여 Campaign에 연결합니다
 
 [![이미지](../v8/assets/do-not-localize/learn-more-button.svg)](upgrades/migrate-users-to-ims.md)
 
@@ -51,7 +51,7 @@ Campaign v8.6부터 Campaign v8에 대한 인증 프로세스가 개선되고 �
     <td>
       <img src="../v8/assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>메시지 보내기</strong><br/><a href="../v8/start/create-message.md">시작</a> - <a href="../v8/send/preview-and-proof.md">미리 보기 및 증명</a> - <a href="../v8/send/predictive.md">전송 시간 최적화</a> - <a href="../v8/reporting/gs-reporting.md">보고 및 분석</a>
+      <strong>메시지 보내기</strong><br/><a href="../v8/start/create-message.md">시작</a> - <a href="../v8/send/preview-and-proof.md">미리 보기 및 교정쇄</a> - <a href="../v8/send/predictive.md">전송 시간 최적화</a> - <a href="../v8/reporting/gs-reporting.md">보고 및 분석</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -75,5 +75,5 @@ Campaign v8.6부터 Campaign v8에 대한 인증 프로세스가 개선되고 �
 
 ## 추가 리소스
 
-[Adobe Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ko){target="_blank"} - [[!DNL Adobe Campaign] 자동화 안내서](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko){target="_blank"} - [Campaign v8용 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
+[Adobe Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"} - [자습서](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ko){target="_blank"} - [[!DNL Adobe Campaign] 자동화 안내서](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko){target="_blank"} - [Campaign v8 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
 

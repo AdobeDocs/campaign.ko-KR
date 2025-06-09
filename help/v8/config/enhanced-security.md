@@ -53,7 +53,7 @@ Campaign과 CMK 통합을 사용하려면 아래 단계를 따르십시오.
 
 1. [Amazon 리소스 이름(키 ARN)](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"}을(를) [!DNL Adobe Campaign]과(와) 공유합니다. 이렇게 하려면 Adobe 담당자에게 문의하십시오. <!--or Adobe transition manager?-->
 
-1. Amazon EventBridge 규칙을 만들고 테스트하여 Adobe에서 키를 모니터링할 수 있습니다&#x200B;. [자세히 알아보기](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}
+1. Amazon EventBridge 규칙을 만들고 테스트하여 Adobe에서 키를 모니터링할 수 있습니다&#x200B;. [자세히 알아보기](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
 
 
 ### 보호 기능 및 제한 사항 {#cmk-callouts}

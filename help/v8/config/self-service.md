@@ -8,7 +8,7 @@ exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 
 또한, Campaign 컨트롤 패널을 사용하여 IP 허용 목록, URL 권한, 인스턴스에 대한 정보 검색과 같은 인스턴스 설정을 구성할 수도 있습니다.
 
-자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target="_blank"}를 참조하십시오.
+자세한 내용은 [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 컨트롤 패널에는 어떻게 액세스하나요? {#ac-control-panel-access}
 
@@ -32,7 +32,7 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 
 ## 컨트롤 패널 FAQ {#ac-control-faq}
 
-Campaign 컨트롤 패널 FAQ에 액세스하려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko#control-panel){target="_blank"}하십시오.
+[여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko#control-panel){target="_blank"}하여 Campaign 컨트롤 패널 FAQ에 액세스합니다.
 
 ## SFTP 관리 {#ac-control-sftp}
 
@@ -48,7 +48,7 @@ Campaign 컨트롤 패널 FAQ에 액세스하려면 [여기를 클릭](https://e
 
 ## 성능 모니터링
 
-컨트롤 패널은 인스턴스를 모니터링하고 최적의 성능을 보장하는 데 도움이 되는 몇 가지 기능을 제공합니다. [여기를 클릭하십시오](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko){target="_blank"}
+컨트롤 패널은 인스턴스를 모니터링하고 최적의 성능을 보장하는 데 도움이 되는 몇 가지 기능을 제공합니다. [여기를 클릭하세요](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko){target="_blank"}
 
 
 ## 인스턴스 설정

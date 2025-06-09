@@ -71,7 +71,7 @@ ht-degree: 17%
    * **게재** 콘텐츠 형식을 선택하십시오.
    * 개인화 필드 삽입 아이콘에서 이 블록에 액세스할 수 있도록 하려면 **[!UICONTROL Visible in the customization menus]** 옵션을 활성화하십시오.
    * 필요한 경우 **[!UICONTROL The content of the personalization block depends upon the format]** 옵션을 활성화하여 HTML 및 텍스트 전자 메일에 대해 서로 다른 두 개의 블록을 정의합니다.
-   * 컨텐츠 입력(HTML, 텍스트, JavaScript 등) 개인화 블록의 을(를) 클릭하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+   * 개인화 블록의 콘텐츠(HTML, 텍스트, JavaScript 등)를 입력하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 저장하면 게재 편집기에서 새 개인화 블록을 사용할 수 있습니다.
 
@@ -79,4 +79,4 @@ ht-degree: 17%
 
 다음 비디오에서는 다이내믹 콘텐츠 블록을 만드는 방법과 이 블록을 사용하여 이메일 게재 콘텐츠를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449013?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

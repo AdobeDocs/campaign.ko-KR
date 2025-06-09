@@ -20,7 +20,7 @@ Adobe Campaign과 CRM 간의 데이터 동기화는 **CRM 커넥터** 워크플�
 
 ![](assets/ms-dyn-wf.png)
 
-이 워크플로는 Microsoft Dynamics를 통해 연락처를 가져와 기존 Adobe Campaign 데이터와 동기화하고 중복된 연락처를 삭제하고 Adobe Campaign 데이터베이스를 업데이트합니다.
+이 워크플로우는 Microsoft Dynamics을 통해 연락처를 가져오고, 기존 Adobe Campaign 데이터와 동기화하며, 중복된 연락처를 삭제하고, Adobe Campaign 데이터베이스를 업데이트합니다.
 
 데이터를 동기화하려면 **[!UICONTROL CRM Connector]** 활동을 구성해야 합니다.
 
@@ -95,7 +95,7 @@ Adobe Campaign에서 CRM을 통해 데이터를 가져오려면 다음 유형의
 
 기본적으로 다음 필드가 지정된 순서로 사용됩니다.
 
-* Microsoft Dynamics: **수정 완료**,
+* Microsoft Dynamics의 경우: **수정**,
 * Salesforce.com의 경우: **LastModifiedDate**, **SystemModstamp**.
 
 **[!UICONTROL Automatic index]** 옵션을 활성화하면 **[!UICONTROL JavaScript code]** 유형 활동을 통해 동기화 워크플로우에서 사용할 수 있는 세 가지 변수가 생성됩니다. 이러한 활동은 다음과 같습니다.
@@ -119,7 +119,7 @@ Adobe Campaign에서 CRM을 통해 데이터를 가져오려면 다음 유형의
 * 조인 비교는 지원되지 않습니다.
 * 왼쪽 열의 식은 필드여야 합니다. 여러 표현식, 숫자 등의 조합이 될 수 없습니다.
 
-### 정렬 기준 {#order-by}
+### 주문 기준 {#order-by}
 
 Microsoft Dynamics 및 Salesforce.com에서 가져올 원격 필드를 오름차순 또는 내림차순으로 정렬할 수 있습니다.
 

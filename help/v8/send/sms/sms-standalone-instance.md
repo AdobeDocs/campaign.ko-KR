@@ -7,13 +7,13 @@ hide: true
 hidefromtoc: true
 level: Beginner, Intermediate
 badge: label="제한 공개" type="Informative"
-source-git-commit: 6926d84576df1810b511ef1a9976593cb99585bb
+exl-id: 7cebcde0-c5a8-4b9b-baba-27a62bebde91
+source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
 
 ---
-
 
 # 독립 실행형 인스턴스의 SMS {#sms-standalone}
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >이 설명서는 Adobe Campaign v8.7.2 이상에 대한 것입니다.
 >
->이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)를 참조하세요.
+>이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)를 참조하세요.
 
 독립형 인스턴스에서 SMS 게재를 보내려면 다음이 필요합니다.
 

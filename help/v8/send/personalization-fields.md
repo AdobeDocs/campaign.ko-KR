@@ -64,4 +64,4 @@ ht-degree: 4%
 
 다음 비디오에서는 제목 줄과 이메일 게재 콘텐츠에 개인화 필드를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31879?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)

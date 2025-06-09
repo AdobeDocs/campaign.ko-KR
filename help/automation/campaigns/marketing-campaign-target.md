@@ -248,4 +248,4 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ko){target="_blank"}에서 사용할 수 있습니다.
+추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}에서 사용할 수 있습니다.

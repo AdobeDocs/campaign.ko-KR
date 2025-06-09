@@ -8,7 +8,7 @@ breadcrumb-title: 캠페인 기술 정보
 source-git-commit: 0fa6767f042eb595b1697d086e5c5cd5fc42625e
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 

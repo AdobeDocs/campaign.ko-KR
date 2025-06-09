@@ -94,7 +94,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Data distribution]** 활동을 만듭니다.
 1. 공동 작업 캠페인을 만듭니다.
-1. Publish 캠페인입니다.
+1. 캠페인을 게시합니다.
 
 ### 로컬 엔티티 측 {#local-entity-side}
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 1. 레코드를 저장합니다.
 
-#### 캠페인 Publish {#publishing-the-campaign}
+#### 캠페인 게시 {#publishing-the-campaign}
 
 이제 **[!UICONTROL Campaigns]** 탭에서 **캠페인 패키지**&#x200B;를 추가할 수 있습니다.
 

@@ -22,7 +22,7 @@ ht-degree: 0%
 
   범주는 온라인 환경에서 수동으로 게시할 수도 있습니다.
 
-  오퍼 승인 프로세스는 이 섹션[&#128279;](interaction-offer.md#approve-offers)에 자세히 설명되어 있습니다.
+  오퍼 승인 프로세스는 이 섹션](interaction-offer.md#approve-offers)에 자세히 설명되어 있습니다.[
 
 * 디자인 환경의 승인된 오퍼와 디자인 환경에 구성된 다양한 오퍼 공간, 필터, 카테고리 및 규칙이 모두 있는 **live** 환경을 찾을 수 있습니다. 오퍼 엔진을 호출하는 동안 엔진은 항상 라이브 환경의 오퍼를 사용합니다.
 
@@ -78,13 +78,13 @@ Adobe Campaign 상호 작용 모듈은 다음 두 가지 유형의 상호 작용
 
 ### 패키지 구성 {#packages-configuration}
 
-**상호 작용**&#x200B;에 직접 연결된 모든 스키마 확장(오퍼, 제안, 수신자 등) 은(는) 실행 인스턴스에 배포되어야 합니다.
+**상호 작용**&#x200B;에 직접 연결된 모든 스키마 확장(오퍼, 제안, 수신자 등)은 실행 인스턴스에 배포해야 합니다.
 
 **Interaction** 패키지가 모든 인스턴스(제어 및 실행)에 설치됩니다. 두 개의 추가 패키지를 사용할 수 있습니다. 하나는 제어 인스턴스에 대한 패키지이고 다른 하나는 각 실행 인스턴스에 대한 패키지입니다.
 
 >[!NOTE]
 >
->패키지를 설치할 때 제안 ID와 같은 **nms:proposition** 테이블의 **long** 유형 필드는 **int64** 유형 필드가 됩니다. 이 유형의 데이터는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=ko#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}에 자세히 설명되어 있습니다.
+>패키지를 설치할 때 제안 ID와 같은 **nms:proposition** 테이블의 **long** 유형 필드는 **int64** 유형 필드가 됩니다. 이 유형의 데이터는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}에 자세히 설명되어 있습니다.
 
 데이터 보존 기간은 배포 마법사의 **[!UICONTROL Data purge]** 창을 통해 각 인스턴스에 구성됩니다. 실행 인스턴스에서 이 기간은 유형화 규칙(슬라이딩 기간) 및 자격 규칙을 계산하는 데 필요한 기록 깊이에 해당해야 합니다.
 

@@ -18,7 +18,7 @@ ht-degree: 1%
 
 **기술 관리자**&#x200B;로서 디자인 환경에서 오퍼 공간을 만들 수 있습니다. 오퍼 공간 하위 폴더에 대한 액세스 권한이 있어야 합니다. 이러한 오퍼 공간이 만들어지면 오퍼 승인 중에 라이브 환경에 자동으로 복제됩니다.
 
-HTML 렌더링은 렌더링 함수를 통해 생성됩니다. 렌더링 함수에 정의된 필드의 시퀀스는 콘텐츠에 구성된 시퀀스와 동일해야 합니다.
+HTML 렌더링은 렌더링 기능을 통해 만들어집니다. 렌더링 함수에 정의된 필드의 시퀀스는 콘텐츠에 구성된 시퀀스와 동일해야 합니다.
 
 ![](assets/offer_space_create_009.png)
 
@@ -156,4 +156,4 @@ HTML 렌더링은 렌더링 함수를 통해 생성됩니다. 렌더링 함수�
 
 컨텍스트가 공백으로 제한되면 미리보기에서 해당 컨텍스트를 무시할 수 있습니다. 이는 인바운드 채널을 사용하여 스페이스에서 참조된 필드를 추가하기 위해 상호 작용 스키마를 확장한 경우입니다.
 
-자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=ko){target="_blank"}에서 이 샘플을 참조하세요.
+자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}에서 이 샘플을 참조하세요.

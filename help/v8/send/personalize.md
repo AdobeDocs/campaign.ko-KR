@@ -70,4 +70,4 @@ Adobe Campaign은 개인화를 간소화합니다. 단일 [메시지 템플릿](
 다양한 유형의 다이내믹 콘텐츠를 파악하고 개인화 블록 및 조건문을 만들어 게재에 적용하는 방법을 알아봅니다.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3452875?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)

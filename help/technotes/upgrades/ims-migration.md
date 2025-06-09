@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Campaign 기술 운영자를 Adobe Developer Console으로 마이그레이션 {#migrate-tech-users-to-ims}
 
-Campaign v8.5부터 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 기술 운영자는 이제 [IMS(Identity Management System) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 사용하여 Campaign에 연결할 수 있습니다. [Adobe Developer Console 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}에서 새 서버 간 인증 프로세스에 대해 자세히 알아보세요.
+Campaign v8.5부터 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 이제 기술 운영자가 [IMS(Adobe Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 사용하여 Campaign에 연결할 수 있습니다. [Adobe Developer Console 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}에서 새 서버 간 인증 프로세스에 대해 자세히 알아보세요.
 
 기술 운영자는 API 통합을 위해 명시적으로 생성된 Campaign 사용자 프로필입니다. 이 문서에서는 Adobe Developer 콘솔을 통해 기술 연산자를 기술 계정으로 마이그레이션하는 데 필요한 단계에 대해 자세히 설명합니다.
 
@@ -74,7 +74,7 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 
 프로젝트에 API를 추가하려면 다음 단계를 수행합니다.
 
-1. **API 추가**&#x200B;를 클릭하여 프로젝트에 추가할 API를 선택합니다.
+1. **API 추가**를 클릭하여 프로젝트에 추가할 API를 선택합니다.
    ![](assets/do-not-localize/ims-updates-01.png)
 1. Adobe Campaign API를 선택하고 프로젝트에 추가합니다. 카드를 마우스로 가리키면 표시되는 Adobe Campaign 카드의 오른쪽 상단 모서리에 있는 상자를 선택합니다
    ![](assets/do-not-localize/ims-updates-02.png)
@@ -95,7 +95,7 @@ When the API has been successfully connected, you can access the newly generated
 
 전제 조건 섹션에 설명된 대로 프로젝트에서 사용할 적절한 제품 프로필을 할당해야 합니다. 이 단계에서는 생성 중인 기술 계정에서 사용할 제품 프로필을 선택해야 합니다.
 
-이 기술 계정을 사용하여 메시지 센터 인스턴스에 대한 API를 호출하는 경우 `messagecenter`(으)로 끝나는 제품 프로필 만들기 Adobe을 선택하십시오.
+이 기술 계정을 사용하여 메시지 센터 인스턴스에 대한 API를 호출하는 경우 `messagecenter`(으)로 끝나는 Adobe 제품 프로필 만들기를 선택하십시오.
 
 마케팅 인스턴스에 대한 API 호출의 경우 인스턴스 및 운영자 그룹에 해당하는 제품 프로필을 선택합니다.
 
@@ -149,9 +149,9 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 원활한 통합을 위한 샘플 코드를 포함하여 API 통합 단계에 대한 자세한 내용은 [Adobe Developer Console 인증 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}를 참조하십시오.
 
-다음은 서드파티 시스템에 대한 마이그레이션 호출 전후의 샘플 SOAP 호출입니다.
+다음은 타사 시스템에 대한 마이그레이션 호출 전과 후를 보여주는 샘플 SOAP 호출입니다.
 
-IMS(Adobe Identity Management 시스템) 인증을 사용할 때 WSDL 파일을 생성하려면 postman 호출에 `Authorization: Bearer <IMS_Technical_Token_Token>`을(를) 추가해야 합니다.
+Adobe Identity Management 시스템(IMS) 인증을 사용할 때 WSDL 파일을 생성하려면 postman 호출에 `Authorization: Bearer <IMS_Technical_Token_Token>`을(를) 추가해야 합니다.
 
 ```
 curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent' \--header 'Authorization: Bearer <Technical account access token>'

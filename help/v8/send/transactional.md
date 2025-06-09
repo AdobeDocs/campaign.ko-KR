@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->관리 Cloud Service 사용자는 [Adobe에게 문의](../start/campaign-faq.md#support){target="_blank"}하여 환경에서 Campaign 트랜잭션 메시지를 구성하세요.
+>Managed Cloud Services 사용자는 [Adobe에 문의](../start/campaign-faq.md#support){target="_blank"}하여 환경에서 Campaign 트랜잭션 메시지를 구성하세요.
 
 트랜잭션 메시지는 다음을 전송하는 데 사용됩니다.
 
@@ -43,7 +43,7 @@ Adobe Campaign을 사용하면 장바구니에 제품을 추가한 고객에게 
 1. [이벤트 형식을 만듭니다](#create-event-types).
 1. [메시지 템플릿을 만들고 디자인합니다](transactional-template.md#create-message-template). 이 단계에서 메시지에 이벤트를 연결해야 합니다.
 1. [메시지를 테스트합니다](transactional-template.md#test-message-template).
-1. [메시지 템플릿을 Publish](transactional-template.md#publish-message-template).
+1. [메시지 템플릿을 게시](transactional-template.md#publish-message-template)합니다.
 
 트랜잭션 메시지 템플릿을 디자인하고 게시하면 해당 이벤트가 트리거되면 PushEvent 및 PushEvents [SOAP 메서드](../send/event-description.md)를 통해 관련 데이터가 Campaign으로 전송되고 대상 수신자에게 게재가 전송됩니다.
 

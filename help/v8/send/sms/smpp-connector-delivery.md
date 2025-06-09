@@ -5,13 +5,13 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="제한 공개" type="Informative"
-source-git-commit: 36bb1e2c9e2391065360c3cd2ad97612373ec0c2
+exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
+source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
 workflow-type: tm+mt
 source-wordcount: '1326'
 ht-degree: 5%
 
 ---
-
 
 # SMPP 커넥터 설명 {#smpp-connector-desc}
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 >
 >이는 Adobe Campaign v8.7.2 이상에 적용됩니다.
 >
->이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}를 참조하세요.
+>이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}를 참조하세요.
 
 ## SMS 커넥터 데이터 흐름 {#sms-data-flow}
 

@@ -28,12 +28,12 @@ ht-degree: 5%
 
   >[!AVAILABILITY]
   >
-  >Campaign 웹 사용자 인터페이스는 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다. [IMS(Identity Management 시스템) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}에 대해 자세히 알아보세요.
+  >Campaign 웹 사용자 인터페이스는 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다. [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}에 대해 자세히 알아보세요.
   >
 
-* **웹 액세스** - Adobe Campaign 웹 액세스 기능을 사용하면 HTML 사용자 인터페이스를 사용하여 웹 브라우저에서 Campaign 기능의 하위 집합에 액세스할 수 있습니다. 이 웹 인터페이스를 사용하여 보고서에 액세스하고, 메시지를 제어 및 검증하고, 모니터링 대시보드에 액세스합니다.  이 섹션[&#128279;](../start/connect.md#web-access)에서 Campaign 웹 액세스 에 대해 자세히 알아보세요.
+* **웹 액세스** - Adobe Campaign 웹 액세스 기능을 사용하면 HTML 사용자 인터페이스를 사용하여 웹 브라우저에서 Campaign 기능의 하위 집합에 액세스할 수 있습니다. 이 웹 인터페이스를 사용하여 보고서에 액세스하고, 메시지를 제어 및 검증하고, 모니터링 대시보드에 액세스합니다.  이 섹션](../start/connect.md#web-access)에서 Campaign 웹 액세스 [에 대해 자세히 알아보세요.
 
-* **API** - 더 많은 사용 사례를 해결하기 위해 SOAP 프로토콜을 통해 노출된 웹 서비스 API를 사용하여 외부 응용 프로그램에서 시스템을 호출할 수 있습니다. 이 페이지[&#128279;](../dev/api.md)에서 Campaign API 에 대해 자세히 알아보세요.
+* **API** - 더 많은 사용 사례를 해결하기 위해 SOAP 프로토콜을 통해 노출된 웹 서비스 API를 사용하여 외부 응용 프로그램에서 시스템을 호출할 수 있습니다. 이 페이지](../dev/api.md)에서 Campaign API [에 대해 자세히 알아보세요.
 
 
 ## 클라이언트 콘솔 작업 {#ui-access}
@@ -114,12 +114,12 @@ v8.6.1 릴리스를 시작하는 Campaign v8 클라이언트 콘솔 사용자는
 
 >[!AVAILABILITY]
 >
->Campaign 웹 사용자 인터페이스는 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다. [IMS(Identity Management 시스템) Adobe](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}에 대해 자세히 알아보세요.
+>Campaign 웹 사용자 인터페이스는 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다. [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}에 대해 자세히 알아보세요.
 >
 
-[이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}에서 새 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보세요. Campaign 웹 사용자 인터페이스 설명서에서 전용 [자주 묻는 질문 페이지](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/faq){target="_blank"}를 방문할 수도 있습니다.
+[이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}에서 새 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보세요. Campaign 웹 사용자 인터페이스 설명서에서 전용 [FAQ 페이지](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/faq){target="_blank"}를 방문할 수도 있습니다.
 
-추가 및 고급 기능, 구성 및 설정은 클라이언트 콘솔에서만 사용할 수 있습니다. Campaign 웹 사용자 인터페이스 설명서 [의 두 사용자 인터페이스에서 사용할 수 있는 기능에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=ko){target="_blank"}.
+추가 및 고급 기능, 구성 및 설정은 클라이언트 콘솔에서만 사용할 수 있습니다. Campaign 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=ko){target="_blank"}의 두 사용자 인터페이스에서 사용할 수 있는 기능에 대해 자세히 알아보세요. [.
 
 
 ## 지원 언어 {#languages}
@@ -139,7 +139,7 @@ v8.6.1 릴리스를 시작하는 Campaign v8 클라이언트 콘솔 사용자는
   >
   >언어는 설치 프로세스 중에 선택되며 나중에 변경할 수 없습니다.
 
-* Campaign 웹 사용자 인터페이스가 지원하는 언어에 대해서는 [이 페이지를 참조하세요](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=ko#language-pref){target="_blank"}.
+* Campaign 웹 사용자 인터페이스가 지원하는 언어에 대해서는 [이 페이지를 참조하세요](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}.
 
 
 언어는 날짜 및 시간 형식에 영향을 줍니다.

@@ -6,7 +6,7 @@ feature: Overview
 source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 81%
+ht-degree: 78%
 
 ---
 
@@ -14,17 +14,17 @@ ht-degree: 81%
 # Campaign 자동화 안내서 {#automation}
 
 + [Campaign 자동화 안내서](home.md)
-+ 워크플로 자동화 {#workflows}
-   + 워크플로 시작 {#introduction}
++ 워크플로로 자동화 {#workflows}
+   + 워크플로 시작하기 {#introduction}
       + [워크플로 정보](workflow/about-workflows.md)
-      + 워크플로 유형 {#wf-type}
+      + 워크플로우 유형 {#wf-type}
          + [타겟팅 워크플로](workflow/targeting-workflows.md)
          + [캠페인 워크플로](workflow/campaign-workflows.md)
          + [기술 워크플로](workflow/technical-workflows.md)
       + [워크플로 구축](workflow/build-a-workflow.md)
       + [모범 사례](workflow/workflow-best-practices.md)
       + [워크플로 데이터 사용](workflow/use-workflow-data.md)
-   + 워크플로 실행 {#executing-a-workflow}
+   + 워크플로우 실행 {#executing-a-workflow}
       + [워크플로 시작](workflow/start-a-workflow.md)
       + [워크플로 수명 주기](workflow/workflow-life-cycle.md)
       + [승인 설정](workflow/define-approvals.md)
@@ -32,7 +32,7 @@ ht-degree: 81%
       + [워크플로 실행 모니터링](workflow/monitor-workflow-execution.md)
       + [기술 워크플로 모니터링](workflow/monitor-technical-workflows.md)
       + [워크플로 히트맵](workflow/heatmap.md)
-   + 워크플로우 활동 {#wf-activities}
+   + 워크플로 활동 {#wf-activities}
       + [활동 시작](workflow/activities.md)
       + 타겟팅 활동 {#targeting-activities}
          + [타겟팅 활동 목록](workflow/targeting-activities.md)
@@ -94,7 +94,7 @@ ht-degree: 81%
          + [인바운드 이메일](workflow/inbound-emails.md)
          + [인바운드 SMS](workflow/inbound-sms.md)
          + [웹 다운로드](workflow/web-download.md)
-   + 사용 사례 {#use-cases}
+   + 활용 사례 {#use-cases}
       + [워크플로 사용 사례 기본 정보](workflow/workflow-use-cases.md)
       + 게재 {#deliveries}
          + [로컬 승인 활동 사용](workflow/local-approval-activity.md)
@@ -144,7 +144,7 @@ ht-degree: 81%
    + [반복 및 정기 캠페인](campaigns/recurring-periodic-campaigns.md)
    + [캠페인 모니터링](campaigns/marketing-campaign-monitoring.md)
    + [공급자, 재고 및 예산](campaigns/providers-stocks-and-budgets.md)
-+ 캠페인 최적화(추가 기능){#campaign-optimization}
++ Campaign 최적화(추가 기능){#campaign-optimization}
    + [캠페인 유형화 시작](campaign-opt/campaign-typologies.md)
    + [필터링 규칙](campaign-opt/filtering-rules.md)
    + [제어 규칙](campaign-opt/control-rules.md)

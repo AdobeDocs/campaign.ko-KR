@@ -8,7 +8,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: fb2cf4407750f8cff65ca53f0e87c32e9702de92
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브�
 
 * **Microsoft Edge**
 
-* **Microsoft Edge WebView2**, 최신 버전. [Microsoft 개발자 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr){target="_blank"}에서 다운로드하세요.
+* **Microsoft Edge WebView2**, 최신 버전. [Microsoft 개발자 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr){target="_blank"}에서 다운로드합니다.
 
 ## CRM 커넥터 {#CRMconnectors}
 
@@ -67,7 +67,7 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 
 Campaign으로 [푸시 알림](../send/push.md)을 보내려면 데이터 수집 UI에서 Adobe Campaign Classic을 구성하여 Adobe Experience Platform Mobile SDK를 사용합니다.
 
-iOS 및 Android와 호환되는 버전은 [Adobe Developer 설명서](https://developer.adobe.com/client-sdks/home/){target="_blank"}에서 자세히 설명합니다.
+iOS 및 Android의 호환 버전은 [Adobe Developer 설명서](https://developer.adobe.com/client-sdks/home/){target="_blank"}에 자세히 설명되어 있습니다.
 
 ## Web 사용자 인터페이스 {#web-ui}
 
@@ -88,4 +88,4 @@ iOS 및 Android와 호환되는 버전은 [Adobe Developer 설명서](https://de
 * [Campaign 클라이언트 콘솔 설치](connect.md)
 * [컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko){target="_blank"}
 
-새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 받으려면 [Adobe 주요 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}를 구독하십시오.
+새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 받으려면 [Adobe 주요 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}를 구독하세요.

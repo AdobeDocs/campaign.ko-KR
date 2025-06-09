@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >이 설명서는 Adobe Campaign v8.7.2 이상에 대한 것입니다.
 >
->이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)를 참조하세요.
+>이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)를 참조하세요.
 
 SMS 게재에 필요한 기술 설정은 다음과 같습니다.
 

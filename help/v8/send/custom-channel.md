@@ -3,13 +3,13 @@ title: 사용자 지정 외부 채널 시작
 description: Adobe Campaign 웹을 사용하여 사용자 지정 외부 채널 게재를 만들고 보내는 방법을 알아봅니다
 role: User
 level: Beginner, Intermediate
-source-git-commit: 4ba419c52d6804e4f25f88990c226081ef0a06e6
+exl-id: d2d92de6-3974-41c5-a0fd-09bbf6cf0020
+source-git-commit: f94074d954137c4db39b2ef9f85141b79fe3356b
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
 
 ---
-
 
 # 사용자 지정 외부 채널 시작 {#gs-custom-channel}
 
@@ -17,7 +17,7 @@ Adobe Campaign을 사용하면 서드파티와 통합된 사용자 지정 외부
 
 게재 만들기와 전송은 클라이언트 콘솔과 웹 UI 모두에서 수행할 수 있습니다. 그러나 사용자 지정 외부 채널은 클라이언트 콘솔에서만 수행됩니다.
 
-사용자 지정 외부 채널을 기반으로 게재를 만들고 보내는 방법을 알아보려면 이 [페이지](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ko)를 참조하세요.
+사용자 지정 외부 채널을 기반으로 게재를 만들고 보내는 방법을 알아보려면 이 [페이지](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html)를 참조하세요.
 
 클라이언트 콘솔에서 새 외부 사용자 지정 채널을 만드는 단계는 다음과 같습니다.
 
@@ -69,5 +69,3 @@ Adobe Campaign을 사용하면 서드파티와 통합된 사용자 지정 외부
    ![](assets/cus-template.png){zoomable="yes"}
 
 이제 새 채널을 사용할 수 있습니다. 이 채널을 기반으로 하여 게재를 만들고 실행할 수 있습니다.
-
-

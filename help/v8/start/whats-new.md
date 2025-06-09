@@ -8,7 +8,7 @@ exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Campaign v8은 관리 클라우드 서비스로 제공되며, 사전 예�
 
 관리 서비스 접근 방식을 통해 마케터는 내부 IT 리소스의 과도한 지원 없이 클라우드 인프라의 운영 규모 및 경제성을 활용할 수 있습니다. Adobe Consulting 및 구현 팀은 고객과 협력하여 마케팅 계획, 기존 사례, 데이터 요구 사항 및 메시징 볼륨을 평가한 후 가장 적합한 서비스, 지원 및 전달성 패키지를 권장합니다. 그런 다음 Adobe Campaign Managed Cloud Services 팀은 캠페인 성과, 브랜드 평판, 고객 경험 지표 등을 모니터링하고 보고할 수 있습니다.
 
-[!BADGE PDF]{type=Informative}Adobe Campaign Managed Cloud Services의 비즈니스 가치에 대해 자세히 알아보려면 [이 백서 읽어보십시오](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"}.
+[!BADGE PDF]{type=Informative} [이 백서를 읽고](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} Adobe Campaign Managed Cloud Services의 비즈니스 가치에 대해 자세히 알아보십시오.
 
 Campaign은 새로운 클라우드 아키텍처를 통해 프로세스를 간소화하고, 비용을 절감하며, 위험을 관리하고, 데이터 보안을 개선할 수 있습니다. Campaign v8 환경에는 사전 구성된 전용 VPC(Virtual Private Cloud)가 포함되어 있습니다.
 
@@ -88,7 +88,7 @@ Campaign은 새로운 클라우드 아키텍처를 통해 프로세스를 간소
 
 Adobe Campaign은 이제 클라우드 규모 데이터베이스 기술을 활용하여 규모와 속도를 획기적으로 개선할 수 있습니다.
 
-[Campaign v8 Enterprise](../architecture/enterprise-deployment.md)는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8은 이 새로운 기능을 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 표를 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. [!DNL Snowflake]는 Campaign 클라우드 데이터베이스로, 시스템 활동이 최고조에 달해도 과부하가 걸리지 않는 속도와 내구성을 제공합니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
+[Campaign v8 Enterprise](../architecture/enterprise-deployment.md)는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8은 이 새로운 기능을 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 테이블을 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. [!DNL Snowflake]는 Campaign 클라우드 데이터베이스로, 시스템 활동이 최고조에 달해도 과부하가 걸리지 않는 속도와 내구성을 제공합니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
 
 [엔터프라이즈(FFDA) 배포에 대해 자세히 알아보기](../architecture/enterprise-deployment.md)
 
@@ -105,6 +105,6 @@ Adobe Campaign은 이제 클라우드 규모 데이터베이스 기술을 활용
 
 ![](assets/subdomain1.png)
 
-[Campaign 컨트롤 패널에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
+[Campaign Campaign 컨트롤 패널에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
 
 

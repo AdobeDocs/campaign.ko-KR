@@ -38,7 +38,7 @@ Adobe Campaign에는 캠페인 관리자 또는 워크플로우 감독자와 같
 
 >[!NOTE]
 >
->관리 Cloud Service 사용자는 Adobe이 보안 영역을 설정합니다. 자세한 내용은 [Adobe 문의](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}하세요.
+>Managed Cloud Services 사용자는 Adobe에서 보안 영역을 설정합니다. 자세한 내용은 [Adobe에 문의](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}하세요.
 
 **자세히 알아보기**
 

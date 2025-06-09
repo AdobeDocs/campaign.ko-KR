@@ -8,7 +8,7 @@ exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
 source-git-commit: e465b846b3144a2138bb912b4baa09238f8c5b4c
 workflow-type: tm+mt
 source-wordcount: '1333'
-ht-degree: 65%
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ Campaign과 Analytics를 통합하도록 Adobe Analytics을 구성할 수 있습
 
 >[!NOTE]
 >
->관리 Cloud Service 사용자는 Campaign을 Adobe Experience Cloud 서비스 및 솔루션과 연결하려면 [Adobe에게 문의](../start/campaign-faq.md#support)하십시오. Web Analytics 커넥터 추가 기능은 전용 패키지를 통해 환경에 설치해야 합니다.
+>Managed Cloud Services 사용자는 Campaign을 Adobe Experience Cloud 서비스 및 솔루션과 연결하려면 [Adobe에 문의](../start/campaign-faq.md#support)하십시오. Web Analytics 커넥터 추가 기능은 전용 패키지를 통해 환경에 설치해야 합니다.
 
 Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상자를 측정하는 방법(웹 분석)이 있습니다. Adobe Campaign은 웹 분석 도구를 통해 지표와 캠페인 속성을 Analytics에 전달할 수 있습니다.
 
@@ -55,7 +55,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 1. **[!UICONTROL Report suite manager]** 페이지에서 **[!UICONTROL Create new]**&#x200B;를 클릭한 다음 **[!UICONTROL Report suite]**&#x200B;를 클릭합니다.
 
-   **[!UICONTROL Report suite]** 만들기에 대한 자세한 절차는 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=ko#prerequisites){target="_blank"}를 참조하세요.
+   **[!UICONTROL Report suite]** 만들기에 대한 자세한 절차는 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites){target="_blank"}를 참조하세요.
 
    ![](assets/analytics_connnector_3.png)
 
@@ -85,7 +85,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 1. 이메일 캠페인의 영향을 측정하는 데 필요한 식별자, 즉, 내부 캠페인 이름(cid) 및 iNmsBroadlog(bid) 테이블 ID를 만들려면 **[!UICONTROL Add new]**&#x200B;를 클릭합니다.
 
-   **[!UICONTROL Conversion variables]**&#x200B;을(를) 편집하는 방법에 대해 알아보려면 이 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=ko#admin-tools){target="_blank"}를 참조하세요.
+   **[!UICONTROL Conversion variables]**&#x200B;을(를) 편집하는 방법에 대해 알아보려면 이 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools){target="_blank"}를 참조하세요.
 
    ![](assets/analytics_connnector_6.png)
 
@@ -108,7 +108,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   **[!UICONTROL Success events]**&#x200B;을(를) 구성하는 방법에 대해 알아보려면 이 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html?lang=ko)를 참조하세요.
+   **[!UICONTROL Success events]**&#x200B;을(를) 구성하는 방법에 대해 알아보려면 이 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html)를 참조하세요.
 
    ![](assets/analytics_connnector_8.png)
 
@@ -122,7 +122,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 외부 계정을 구성할 때 **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** 또는 **[!UICONTROL Success events]** 중 하나가 표시되지 않으면 사용자와 연결된 **[!UICONTROL Product profile]**&#x200B;에서 새로 만든 이 구성 요소에 대한 권한이 누락되었음을 의미합니다.
 
-자세한 내용은 [Adobe Analytics의 제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko#product-profile-admins){target="_blank"} 페이지를 참조하세요.
+자세한 내용은 [Adobe Analytics용 제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"} 페이지를 참조하십시오.
 
 1. Adobe Campaign 탐색기 트리의 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** 폴더로 이동한 다음 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
@@ -146,7 +146,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
    >[!NOTE]
    >
-   >Campaign ID 및 Broadload ID 필드는 랜딩 페이지의 JavaScript 또는 처리 규칙을 통해 수집됩니다. [처리 규칙에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >Campaign ID 및 Broadload ID 필드는 랜딩 페이지의 JavaScript 또는 처리 규칙을 통해 수집됩니다. [처리 규칙에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 

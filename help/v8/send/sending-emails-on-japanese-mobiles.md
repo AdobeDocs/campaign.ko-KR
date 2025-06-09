@@ -5,7 +5,8 @@ description: 일본어 모바일에서 읽을 이메일을 구성, 디자인 및
 feature: Email, Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+exl-id: 02cca21f-b1ac-4ac2-9761-015f6c7f5567
+source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Adobe Campaign은 모바일에서 이메일에 대한 세 가지 특정 일본�
 
 그러나 **[!UICONTROL Email format]** 옵션을 **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** 또는 **[!UICONTROL Text]**(으)로 두면 Adobe Campaign은 메시지가 올바르게 표시되도록 사용할 일본어 형식을 자동으로 검색합니다(전자 메일을 보낼 때).
 
-이 자동 검색 시스템은 **[!UICONTROL Management of Email Formats]** 메일 규칙 집합에 정의된 사전 정의된 도메인 목록을 기반으로 합니다. 전자 메일 형식 관리에 대한 자세한 내용은 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=ko#managing-email-formats)를 참조하세요.
+이 자동 검색 시스템은 **[!UICONTROL Management of Email Formats]** 메일 규칙 집합에 정의된 사전 정의된 도메인 목록을 기반으로 합니다. 전자 메일 형식 관리에 대한 자세한 내용은 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#managing-email-formats)를 참조하세요.
 
 ## 제한 사항 및 권장 사항 {#limitations-and-recommendations}
 

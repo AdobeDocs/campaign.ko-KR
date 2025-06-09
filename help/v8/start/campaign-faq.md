@@ -48,7 +48,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    [전달성 모범 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target="_blank"}에 대해 알아보려면 이 안내서를 참조하세요.
 
-   이 안내서[&#128279;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko){target="_blank"}에서 Campaign 의 전달성을 구현하는 방법을 알아봅니다.
+   이 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko){target="_blank"}에서 Campaign [의 전달성을 구현하는 방법을 알아봅니다.
 
 1. **게재가 오류 없이 전송되도록 하려면 어떻게 해야 하나요?**
 
@@ -90,7 +90,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
 1. **Campaign 전문가와 소통할 수 있을까요?**
 
-   Campaign 커뮤니티 가입: 기존 질문에서 답변을 검색하거나 전문가에게 질문할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko){target="_blank"}
+   Campaign 커뮤니티 가입: 기존 질문에서 답변을 검색하거나 전문가에게 질문할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **문제에 대해 문의하는 방법은 무엇인가요?**

@@ -91,7 +91,7 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 
 첫 번째 이메일 게재가 준비되었습니다. 이제 대상자를 정의하고 게재를 확인하고 전송해야 합니다.
 
-이 [사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ko){target="_blank"}에서 전자 메일 콘텐츠를 가져오는 워크플로우를 만드는 방법을 알아봅니다.
+이 [사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}에서 전자 메일 콘텐츠를 가져오는 워크플로우를 만드는 방법을 알아봅니다.
 
 >[!MORELIKETHIS]
 >

@@ -36,7 +36,7 @@ _2025년 2월 14일_
 
 ### 새로운 기능 {#features-8-7-3}
 
-* **트랜잭션 메시지에 대한 동적 보고** - 이제 동적 보고 사용자 인터페이스에서 트랜잭션 메시지를 모니터링할 수 있습니다. 이러한 보고서는 마케터가 템플릿을 통해 실시간으로 전송된 게재 분류와 트랜잭션 메시지의 모든 보고 지표와 차원을 볼 수 있는 기능을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+* **트랜잭션 메시지에 대한 동적 보고** - 이제 동적 보고 사용자 인터페이스에서 트랜잭션 메시지를 모니터링할 수 있습니다. 이러한 보고서는 마케터가 템플릿을 통해 실시간으로 전송된 게재 분류와 트랜잭션 메시지의 모든 보고 지표와 차원을 볼 수 있는 기능을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 
 * **트랜잭션 메시지 REST API** - 이제 전자 메일에 이벤트 기반 트랜잭션 API를 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 

@@ -1,18 +1,18 @@
 ---
-title: Adobe Campaign을 사용하여 X(Twitter)에 메시지 게시
-description: Adobe Campaign 소셜 마케팅 모듈을 사용하여 X(이전의 Twitter)에 메시지를 게시하고 팔로워에게 직접 메시지를 보내는 방법을 알아봅니다
+title: Adobe Campaign으로 X(Twitter)에 메시지 게시
+description: Adobe Campaign 소셜 마케팅 모듈을 사용하여 X(이전 Twitter)에 메시지를 게시하고 팔로워에게 직접 메시지를 보내는 방법을 알아봅니다
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Adobe Campaign을 사용하여 X(Twitter)에 메시지 게시 {#post-tw-messages}
+# Adobe Campaign으로 X(Twitter)에 메시지 게시 {#post-tw-messages}
 
 Adobe Campaign에는 X(이전 Twitter)를 통해 고객 및 잠재 고객과 상호 작용할 수 있는 **소셜 마케팅** 모듈이 포함되어 있습니다.
 
@@ -80,7 +80,7 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
    1. **[!UICONTROL Test personalization]** 드롭다운 메뉴를 클릭하고 **[!UICONTROL Service]**&#x200B;을(를) 선택합니다.
    1. **[!UICONTROL Folder]** 필드에서 X 계정이 포함된 서비스 폴더를 선택합니다.
 
-1. 증명 보내기
+1. 교정쇄 보내기
 
    트윗을 게시하기 전에 게시 증명을 보내 유효성을 검사하십시오. 그런 다음 비공개 X 테스트 페이지에서 게시의 정확한 렌더링을 가져올 수 있습니다.
 
@@ -136,7 +136,7 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
    1. **[!UICONTROL Test personalization]** 드롭다운 메뉴를 클릭하고 **[!UICONTROL Visitor Subscription]**&#x200B;을(를) 선택합니다.
    1. 미리보기를 테스트할 X 계정을 선택합니다.
 
-1. 증명 보내기
+1. 교정쇄 보내기
 
    메시지를 보내기 전에 [테스트 계정에 증명 보내기](../send/preview-and-proof.md)를 통해 유효성을 검사하십시오. 그런 다음 개인 X 계정에서 메시지의 정확한 렌더링을 가져오고 콘텐츠 및 개인화를 확인할 수 있습니다.
 
@@ -149,7 +149,7 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
 >[!CAUTION]
 >
->하루에 250개 이상의 다이렉트 메시지를 보낼 수 없습니다. 이 임계값을 초과하지 않도록 하기 위해 를 웨이브로 제공할 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ko#sending-using-multiple-waves){target="_blank"}를 참조하세요.
+>하루에 250개 이상의 다이렉트 메시지를 보낼 수 없습니다. 이 임계값을 초과하지 않도록 하기 위해 를 웨이브로 제공할 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}를 참조하세요.
 
 
 ## 추적 데이터 액세스 {#tw-tracking}

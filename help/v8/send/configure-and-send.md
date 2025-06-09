@@ -42,7 +42,7 @@ ht-degree: 10%
 >
 >* 중간 소싱에서는 이 옵션을 설정하지 않아야 합니다.
 >
->* [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ko#smtp-relay){target="_blank"}에서 SMTP 서버 구성에 대해 자세히 알아보세요.
+>* [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}에서 SMTP 서버 구성에 대해 자세히 알아보세요.
 
 ## 예약된 일괄 처리를 사용해 보내기 {#sending-using-multiple-waves}
 
