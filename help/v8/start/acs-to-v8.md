@@ -24,5 +24,5 @@ ht-degree: 7%
 
 * [이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}에서 새 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보세요.
 
-* Campaign v8에 Campaign Standard 기능이 추가되어 간편하게 전환할 수 있습니다. 이러한 기능은 Campaign Standard에서 전환하는 고객으로 제한되며 [이 설명서](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}에 설명되어 있습니다.
+* Campaign v8에 Campaign Standard 기능이 추가되어 간편하게 전환할 수 있습니다. 이러한 기능은 Campaign Standard에서 전환하는 고객으로 제한되며 [이 설명서](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}에 설명되어 있습니다.
 

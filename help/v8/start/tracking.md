@@ -18,11 +18,11 @@ ht-degree: 20%
 
 캠페인 추적 기능은 보낸 메시지를 추적하고 열기, 링크 클릭, 구독/구독 취소 등과 같은 수신자의 행동을 분석하는 데 도움이 됩니다. 전용 로그, 보고서 및 지표에 액세스하고, 데이터베이스를 쿼리하여 수집된 데이터를 검토할 수 있습니다.
 
-자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#tracking-tab){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ko#tracking-tab){target="_blank"}를 참조하세요.
 
 게재 대시보드는 메시지를 보내는 동안 게재 및 잠재적인 문제를 모니터링하는 주요 도구입니다.
 
-자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=ko#sending-messages){target="_blank"}를 참조하세요.
 
 Campaign에서 사용할 수 있는 키 추적 기능은 아래에 나열되어 있습니다.
 
@@ -69,13 +69,13 @@ Campaign 추적 기능을 사용하면 개인화할 수 있고 추적을 지원�
 
 추적 태그를 사용하여 웹 애플리케이션 페이지에서 방문을 추적하고 측정할 수도 있습니다. 이 기능은 양식 및 온라인 설문 조사와 같은 모든 웹 애플리케이션 유형에 사용할 수 있습니다.
 
-[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html#designing-content){target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html?lang=ko#designing-content){target="_blank"}
 
 **웹 애플리케이션 추적 옵트아웃**
 
 웹 애플리케이션 추적 옵트아웃을 사용하면 행동 추적을 옵트아웃한 최종 사용자의 웹 행동 추적을 중지할 수 있습니다. 웹 애플리케이션이나 랜딩 페이지에 배너를 표시하여 사용자가 옵트아웃할 수 있도록 하는 기능을 포함할 수 있습니다.
 
-[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html#designing-content){target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html?lang=ko#designing-content){target="_blank"}
 
 ### 추적 보고서 {#tracking-reports}
 
@@ -91,19 +91,19 @@ Campaign 추적 기능을 사용하면 개인화할 수 있고 추적을 지원�
 
 이 보고서는 게재 후 방문한 페이지 목록을 보여줍니다.
 
-[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#urls-and-click-streams){target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=ko#urls-and-click-streams){target="_blank"}
 
 **개인/사용자 및 수신자**
 
 이 예제를 통해 Adobe Campaign의 사용자/사용자와 수신자 간의 추적 차이를 더 잘 이해할 수 있습니다.
 
-[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html#reporting){target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=ko#reporting){target="_blank"}
 
 **지표 추적**
 
 이 보고서는 열기, 클릭스루 비율 및 클릭 스트림과 같은 게재 수신 시 수신자의 동작을 추적하기 위한 주요 지표를 결합합니다.
 
-[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#reporting){target="_blank"}
+[Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=ko#reporting){target="_blank"}
 
 **지표 계산**
 
@@ -123,11 +123,11 @@ Adobe Campaign은 프로세스와 환경을 모니터링하는 일련의 기능�
 
 ### 워크플로우 모니터링
 
-[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)에서 워크플로우 실행을 모니터링하는 방법을 알아봅니다.
+[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko)에서 워크플로우 실행을 모니터링하는 방법을 알아봅니다.
 
 ### 인스턴스 모니터링
 
-인스턴스 모니터링 지침은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html#monitoring-campaign-classic){target="_blank"}에서 제공됩니다
+인스턴스 모니터링 지침은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html?lang=ko#monitoring-campaign-classic){target="_blank"}에서 제공됩니다
 
 감사 추적 셀프서비스 인터페이스를 사용하여 인스턴스 내에서 수행된 변경 사항을 모니터링합니다. 감사 추적은 Adobe Campaign 인스턴스 내에서 발생하는 작업 및 이벤트의 포괄적인 목록을 실시간으로 캡처합니다. 데이터 기록에 액세스하여 워크플로우에 발생한 일, 워크플로우를 마지막으로 업데이트한 사람 또는 사용자가 인스턴스에서 수행한 작업 등의 질문에 답변할 수 있습니다.
 

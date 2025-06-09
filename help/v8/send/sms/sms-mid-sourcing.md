@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >이 설명서는 Adobe Campaign v8.7.2 이상에 대한 것입니다.
 >
->이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)를 참조하세요.
+>이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)를 참조하세요.
 
 중간 소싱 인프라를 사용하여 SMS 게재를 전송하려면 다음이 필요합니다.
 

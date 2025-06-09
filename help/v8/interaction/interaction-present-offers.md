@@ -20,7 +20,7 @@ ht-degree: 9%
 
 오퍼 엔진에서 오퍼를 선택하려면 오퍼를 승인하고 라이브 환경에서 사용할 수 있어야 합니다.
 
-자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=ko#approving-offer-content){target="_blank"}를 참조하세요.
 
 인바운드 연락처의 컨텍스트에서 페이지를 탐색하는 사용자를 웹 사이트로 식별하거나 식별하지 못할 수 있습니다. 오퍼 엔진은 식별된 프로필과 익명 프로필에 대해 서로 다른 오퍼를 제공합니다.
 

@@ -149,7 +149,7 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
 >[!CAUTION]
 >
->하루에 250개 이상의 다이렉트 메시지를 보낼 수 없습니다. 이 임계값을 초과하지 않도록 하기 위해 를 웨이브로 제공할 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}를 참조하세요.
+>하루에 250개 이상의 다이렉트 메시지를 보낼 수 없습니다. 이 임계값을 초과하지 않도록 하기 위해 를 웨이브로 제공할 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ko#sending-using-multiple-waves){target="_blank"}를 참조하세요.
 
 
 ## 추적 데이터 액세스 {#tw-tracking}

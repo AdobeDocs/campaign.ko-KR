@@ -17,7 +17,7 @@ Adobe Campaign을 사용하면 서드파티와 통합된 사용자 지정 외부
 
 게재 만들기와 전송은 클라이언트 콘솔과 웹 UI 모두에서 수행할 수 있습니다. 그러나 사용자 지정 외부 채널은 클라이언트 콘솔에서만 수행됩니다.
 
-사용자 지정 외부 채널을 기반으로 게재를 만들고 보내는 방법을 알아보려면 이 [페이지](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html)를 참조하세요.
+사용자 지정 외부 채널을 기반으로 게재를 만들고 보내는 방법을 알아보려면 이 [페이지](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ko)를 참조하세요.
 
 클라이언트 콘솔에서 새 외부 사용자 지정 채널을 만드는 단계는 다음과 같습니다.
 

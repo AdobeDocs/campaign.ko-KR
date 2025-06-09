@@ -52,4 +52,4 @@ Adobe Campaign은 이 페이지에 나와 있는 보고 도구 세트를 제공�
 
   Adobe Campaign을 사용하여 데이터베이스의 데이터에 대한 보고서를 만듭니다. 이러한 항목이 생성되면 적절한 컨텍스트에서 액세스할 수 있도록 합니다.
 
-  보고서를 만드는 단계는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}에 자세히 설명되어 있습니다. 개인화된 보고서 생성은 고급 사용자에게 예약되어 있습니다.
+  보고서를 만드는 단계는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다. 개인화된 보고서 생성은 고급 사용자에게 예약되어 있습니다.

@@ -117,7 +117,7 @@ v8.6.1 릴리스를 시작하는 Campaign v8 클라이언트 콘솔 사용자는
 >Campaign 웹 사용자 인터페이스는 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다. [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}에 대해 자세히 알아보세요.
 >
 
-[이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}에서 새 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보세요. Campaign 웹 사용자 인터페이스 설명서에서 전용 [FAQ 페이지](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/faq){target="_blank"}를 방문할 수도 있습니다.
+[이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}에서 새 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보세요. Campaign 웹 사용자 인터페이스 설명서에서 전용 [FAQ 페이지](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/faq){target="_blank"}를 방문할 수도 있습니다.
 
 추가 및 고급 기능, 구성 및 설정은 클라이언트 콘솔에서만 사용할 수 있습니다. Campaign 웹 사용자 인터페이스 설명서[&#128279;](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=ko){target="_blank"}의 두 사용자 인터페이스에서 사용할 수 있는 기능에 대해 자세히 알아보세요. .
 
@@ -139,7 +139,7 @@ v8.6.1 릴리스를 시작하는 Campaign v8 클라이언트 콘솔 사용자는
   >
   >언어는 설치 프로세스 중에 선택되며 나중에 변경할 수 없습니다.
 
-* Campaign 웹 사용자 인터페이스가 지원하는 언어에 대해서는 [이 페이지를 참조하세요](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}.
+* Campaign 웹 사용자 인터페이스가 지원하는 언어에 대해서는 [이 페이지를 참조하세요](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=ko#language-pref){target="_blank"}.
 
 
 언어는 날짜 및 시간 형식에 영향을 줍니다.

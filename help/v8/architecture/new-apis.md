@@ -212,4 +212,4 @@ Campaign의 구독 관리는 [이 페이지](../start/subscriptions.md)에 설�
 
 **관련 항목**
 
-* [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
+* [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ko){target="_blank"}
