@@ -26,7 +26,7 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
 이 비디오를 통해 Adobe Campaign의 목록 관리에 대해 자세히 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3426462?quality=12&captions=kor)
 
 
 ## 연락처 목록 만들기 {#create-a-list-of-contacts}
