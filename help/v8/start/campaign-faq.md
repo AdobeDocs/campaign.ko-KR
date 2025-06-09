@@ -48,7 +48,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    [전달성 모범 사례](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko){target="_blank"}에 대해 알아보려면 이 안내서를 참조하세요.
 
-   이 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko){target="_blank"}에서 Campaign [의 전달성을 구현하는 방법을 알아봅니다.
+   이 안내서[&#128279;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ko){target="_blank"}에서 Campaign 의 전달성을 구현하는 방법을 알아봅니다.
 
 1. **게재가 오류 없이 전송되도록 하려면 어떻게 해야 하나요?**
 

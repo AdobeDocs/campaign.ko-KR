@@ -73,7 +73,7 @@ Campaign 관리자는 **[!UICONTROL Administration > Campaign Management > Non d
 >
 >1년말: (1&#42;0.33)/(1+0.5)=22%
 >
-2년말: ((1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%
+>2년말: ((1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%
 
 또한 이 홈 페이지의 **보고서** 섹션에서 사용할 수 있는 **[!UICONTROL Non-deliverables and bounces]** 기본 제공 보고서에는 격리된 주소, 발생한 오류 유형 및 도메인별 오류 분류에 대한 정보가 표시됩니다. 특정 게재에 대한 데이터를 필터링하거나 필요에 따라 이 보고서를 사용자 지정할 수 있습니다.
 
@@ -104,7 +104,7 @@ Campaign 관리자는 **[!UICONTROL Administration > Campaign Management > Non d
 
 >[!CAUTION]
 >
-주소가 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 상태인 수신자는 이메일을 수신하더라도 제거되지 않습니다.
+>주소가 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 상태인 수신자는 이메일을 수신하더라도 제거되지 않습니다.
 
 격리 목록에서 주소를 수동으로 제거할 수도 있습니다. 격리에서 주소를 제거하려면 다음을 수행할 수 있습니다.
 

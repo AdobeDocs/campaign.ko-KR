@@ -116,11 +116,11 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 * 개인화 설정 확인 - 메시지 콘텐츠가 개인화와 관련된 오류를 방지하기 위해 제대로 디자인되었는지 확인하십시오. Adobe Campaign 개인화 태그에는 항상 `<%=table.field%>` 형식이 있습니다. 개인화 블록에서 매개 변수를 잘못 사용하면 문제가 될 수 있습니다. 예를 들어 JavaScript의 변수는 다음과 같이 사용해야 합니다.
 
-  ``
+  &grave;&grave;
   <%
   var brand = "xxx"
   %>
-  ``
+  &grave;&grave;
 
   개인화 블록에 대한 자세한 내용은 [이 섹션](../send/personalization-blocks.md)을 참조하세요.
 
@@ -172,7 +172,7 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 구독 취소 링크는 필수입니다. 표시 및 유효해야 하며 양식이 제대로 작동해야 합니다. 기본적으로 메시지를 분석할 때 기본 제공 **[!UICONTROL Unsubscription link approval]** [유형화 규칙](../../automation/campaign-opt/control-rules.md)이(가) 옵트아웃 링크가 포함되어 있는지 확인하고 누락된 경우 경고를 생성합니다.
 
-이 섹션](../send/personalization-blocks.md)에서 옵트아웃 링크 [을(를) 삽입하는 방법을 알아봅니다.
+이 섹션[&#128279;](../send/personalization-blocks.md)에서 옵트아웃 링크 을(를) 삽입하는 방법을 알아봅니다.
 
 +++ **이 모범 사례 적용**
 
