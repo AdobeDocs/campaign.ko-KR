@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 567ca1cd8fa6e4f03c8871488152710753ea02f1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '686'
 ht-degree: 1%
 
 ---
@@ -21,8 +21,8 @@ Campaign 폴더는 탐색기 트리의 노드입니다. 유형에 따라 특정 
 
 
 >[!NOTE]
->뷰를 표준 폴더와 구별하기 위해 해당 이름은 검정 대신 연한 파란색으로 표시됩니다.
 >
+>뷰를 표준 폴더와 구별하기 위해 해당 이름은 검정 대신 연한 파란색으로 표시됩니다.
 
 폴더에 권한을 할당하여 특정 데이터에 대한 액세스를 제한할 수 있습니다. [자세히 알아보기](#restrict-access-to-a-folder)
 
@@ -52,14 +52,19 @@ A2 - 11:00에 시작하는 티켓 가져오기.
 ![](assets/add-new-folder.png)
 
 >[!CAUTION]
->이러한 변경 사항은 모든 Campaign 사용자에게 적용됩니다.
 >
+>이러한 변경 사항은 모든 Campaign 사용자에게 적용됩니다.
 
 ## 폴더를 보기로 전환{#turn-a-folder-to-a-view}
 
 뷰는 데이터를 포함하지 않지만 동일한 유형의 다른 폴더에 물리적으로 저장된 데이터를 표시하는 특정 폴더입니다.
 
 모든 폴더를 보기로 전환할 수 있지만 폴더는 비어 있어야 합니다. 폴더에 저장된 모든 데이터는 폴더를 보기로 전환할 때 삭제됩니다.
+
+>[!IMPORTANT]
+>
+>기본 제공 폴더는 보기로 변환해서는 안 됩니다.
+
 
 >[!CAUTION]
 >
