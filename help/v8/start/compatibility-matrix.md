@@ -6,9 +6,9 @@ role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: fb2cf4407750f8cff65ca53f0e87c32e9702de92
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Campaign 클라이언트 콘솔을 사용하려면 다음 운영 체제와 브�
 
 * **Microsoft Edge**
 
-* **Microsoft Edge WebView2**, 최신 버전. [Microsoft 개발자 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr){target="_blank"}에서 다운로드합니다.
+* **Microsoft Edge WebView2**, 최신 버전. [Microsoft 개발자 사이트](http://www.adobe.com/go/acc-ms-webview2-runtime-download_kr){target="_blank"}에서 다운로드하세요.
 
 ## CRM 커넥터 {#CRMconnectors}
 
@@ -51,7 +51,7 @@ Adobe Campaign과 호환되는 CRM(고객 관계 관리) 시스템 목록은 다
 
 Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이터베이스 목록은 다음과 같습니다. [이 페이지에서](../connect/fda.md) FDA에 대해 자세히 알아봅니다.
 
-* **[!DNL Amazon Redshift]** ODBC 커넥터, Campaign v8.6.4 / v8.7.1부터
+* **[!DNL Amazon Redshift]** ODBC 커넥터, Campaign v8.6.4/v8.7.1부터
 * **[!DNL Amazon Redshift]** 레거시 커넥터
 * **[!DNL Azure Synapse]**, Campaign v8.5부터
 * **[!DNL Databricks]**, Campaign v8.6.4/v8.7부터
@@ -67,7 +67,7 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 
 Campaign으로 [푸시 알림](../send/push.md)을 보내려면 데이터 수집 UI에서 Adobe Campaign Classic을 구성하여 Adobe Experience Platform Mobile SDK를 사용합니다.
 
-iOS 및 Android의 호환 버전은 [Adobe Developer 설명서](https://developer.adobe.com/client-sdks/home/){target="_blank"}에 자세히 설명되어 있습니다.
+iOS 및 Android와 호환되는 버전은 [Adobe Developer 설명서](https://developer.adobe.com/client-sdks/home/){target="_blank"}에서 자세히 설명합니다.
 
 ## Web 사용자 인터페이스 {#web-ui}
 

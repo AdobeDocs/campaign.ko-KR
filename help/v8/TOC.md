@@ -6,9 +6,9 @@ title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 89%
          + [SMS 게재 만들기](send/sms/create-sms.md)
          + [콘텐츠 정의](send/sms/sms-content.md)
          + [대상자 선택](send/sms/sms-audience.md)
-      + SMS 확인 및 보내기 {#validate-sms}
+      + SMS 유효성 검사 및 전송 {#validate-sms}
          + [SMS 증명 보내기](send/sms/sms-proofs.md)
          + [대상자에게 보내기](send/sms/sms-send.md)
       + [SMS 모니터링 및 추적](send/sms/sms-monitor.md)
@@ -91,12 +91,12 @@ ht-degree: 89%
       + [개인화 필드 추가](send/personalization-fields.md)
       + [개인화 블록 사용](send/personalization-blocks.md)
       + [조건 만들기](send/conditions.md)
-   + 게재 확인 및 보내기 {#validate}
+   + 게재 유효성 검사 및 전송 {#validate}
       + [미리 보기 및 교정쇄](send/preview-and-proof.md)
       + [게재 분석](send/delivery-analysis.md)
       + [게재 구성 및 보내기](send/configure-and-send.md)
       + [전송 시간 최적화](send/predictive.md)
-   + 실패, 바운스 및 격리{#failures}
+   + 실패, 바운스, 격리{#failures}
       + [격리](send/quarantines.md)
       + [게재 실패](send/delivery-failures.md)
    + [게재 템플릿 작업](send/create-templates.md)
@@ -127,7 +127,7 @@ ht-degree: 89%
 + 콘텐츠 관리 {#content}
    + [랜딩 페이지 만들기](dev/landing-pages.md)
    + [웹 앱 및 양식 디자인](dev/webapps.md)
-+ 자동화 및 워크플로 {#automation}
++ 자동화와 워크플로 {#automation}
    + [Campaign Automation 안내서 >](https://experienceleague.adobe.com/ko/docs/campaign/automation/home)
 + 개인 정보 보호 및 보안 관리 {#privacy}
    + [개인 정보 보호 요청 관리](start/privacy.md)
@@ -145,7 +145,7 @@ ht-degree: 89%
    + [오퍼 카탈로그 만들기](interaction/interaction-offer-catalog.md)
    + [오퍼 만들기](interaction/interaction-offer.md)
    + [오퍼 보내기(아웃바운드)](interaction/interaction-send-offers.md)
-   + 오퍼(인바운드) 제공{#inbound}
+   + 오퍼 제공(인바운드){#inbound}
       + [컨텍스트](interaction/interaction-present-offers.md)
       + [웹 페이지에서 오퍼 호출](interaction/interaction-integration.md)
       + [익명 상호 작용 관리](interaction/anonymous-interactions.md)
