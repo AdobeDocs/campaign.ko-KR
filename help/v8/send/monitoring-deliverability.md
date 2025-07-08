@@ -30,7 +30,7 @@ Adobe Campaign에서는 아래 나열된 모든 게재 기능 도구에 액세�
 
   <!--For more on this, see the [Delivery statistics](../reporting/global-reports.md#delivery-statistics) section.-->
 
-* 일반적으로 [게재 대시보드](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"}를 통해 다음에 액세스할 수 있습니다.
+* 일반적으로 [게재 대시보드](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=ko#sending-messages){target="_blank"}를 통해 다음에 액세스할 수 있습니다.
    * 전송 세부 정보 및 성공적으로 전송, 처리 및 전송된 메시지 수를 보여 주는 게재 요약
    * 제외된 타겟 및 이유를 보여 주는 게재 로그 및 기록
    * 열기 및 클릭 수와 같은 추적 정보를 표시하는 추적 로그.
@@ -42,7 +42,7 @@ Adobe Campaign에서는 아래 나열된 모든 게재 기능 도구에 액세�
 * 전체 플랫폼에 대한 [게재 처리량](../reporting/global-reports.md#delivery-throughput)을(를) 정기적으로 확인하여 원본 설정과 일치하는지 확인하십시오.
 * 게재 템플릿에 [다시 시도](delivery-failures.md#retries)가 올바르게 설정되었는지(다시 시도 기간 30분 및 20번 이상 다시 시도) 확인하십시오.
 * [바운스](delivery-failures.md#bounce-mail-qualification) 사서함에 액세스할 수 있고 계정이 곧 만료되지 않는지 정기적으로 확인하십시오.
-* [게재 대시보드](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"}에서 액세스할 수 있는 각 게재 처리량을 확인하여 게재 콘텐츠의 유효성과 일치하는지 확인합니다(예: &#39;플래시 판매&#39;는 일 수가 아닌 분 단위로 제공되어야 함). 는 메시지를 보내는 동안 게재 및 잠재적인 문제를 모니터링하는 주요 도구입니다.
+* [게재 대시보드](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=ko#sending-messages){target="_blank"}에서 액세스할 수 있는 각 게재 처리량을 확인하여 게재 콘텐츠의 유효성과 일치하는지 확인합니다(예: &#39;플래시 판매&#39;는 일 수가 아닌 분 단위로 제공되어야 함). 는 메시지를 보내는 동안 게재 및 잠재적인 문제를 모니터링하는 주요 도구입니다.
 * [예약된 일괄 처리](configure-and-send.md#sending-using-multiple-waves)를 사용하는 경우 다음 예약된 일괄 처리가 트리거되기 전에 각 일괄 처리를 완료할 시간이 충분한지 확인하십시오.
 * 오류 수와 새 [격리](quarantines.md)이(가) 다른 게재와 일치하는지 확인하십시오.
-* 강조 표시된 오류 종류(차단 목록, DNS 문제, 스팸 방지 규칙 등)를 확인하려면 [게재 로그](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#delivery-logs-and-history){target="_blank"}를 자세히 참조하세요.
+* 강조 표시된 오류 종류(차단 목록, DNS 문제, 스팸 방지 규칙 등)를 확인하려면 [게재 로그](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=ko#delivery-logs-and-history){target="_blank"}를 자세히 참조하세요.
