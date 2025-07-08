@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '712'
+source-git-commit: b4947c8c20e123877e24f57d5ad7a15aa3f304a2
+workflow-type: tm+mt
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 100%
 + 메시지 보내기{#send}
    + [메시지 시작하기](start/gs-message.md)
    + [첫 게재 만들어 보기](start/create-message.md)
+   + [게재 템플릿 작업](send/create-templates.md)
    + [게재 모범 사례](start/delivery-best-practices.md)
    + 이메일 {#emails}
       + [이메일 디자인 및 유효성 검사](send/email.md)
@@ -99,7 +100,12 @@ ht-degree: 100%
    + 실패, 바운스, 격리{#failures}
       + [격리](send/quarantines.md)
       + [게재 실패](send/delivery-failures.md)
-   + [게재 템플릿 작업](send/create-templates.md)
+   + 전달성 관리 {#deliverability-management}
+      + [전달성의 정의](send/about-deliverability.md)
+      + [메시지 콘텐츠 제어](send/control-message-content.md)
+      + [전달성 모니터링](send/monitoring-deliverability.md)
+      + [받은 편지함 렌더링](send/inbox-rendering.md)
+      + [SpamAssassin](send/spamassassin.md)
    + 트랜잭션 메시지 {#real-time}
       + [트랜잭션 메시지 시작](send/transactional.md)
       + [템플릿 만들기 및 게시](send/transactional-template.md)
