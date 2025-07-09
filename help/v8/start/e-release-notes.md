@@ -27,7 +27,7 @@ _2024년 9월 3일_
 >
 >이 릴리스는 **제한 공개**(LA) 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 >
->Campaign v8로 전환하는 Campaign Standard 사용자라면 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/start/acs-migration.html){target="_blank"}에서 전환 과정을 자세히 확인할 수 있습니다.
+>Campaign v8로 전환하는 Campaign Standard 사용자라면 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/start/acs-migration.html?lang=ko){target="_blank"}에서 전환 과정을 자세히 확인할 수 있습니다.
 
 ### 새로운 기능 {#new-8-7-2}
 
