@@ -5,16 +5,20 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 3ca0b96c9235008148067dc9a309f420bd9a92f8
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 5%
+source-wordcount: '369'
+ht-degree: 12%
 
 ---
 
 # 보고 시작{#gs-ac-reports}
 
 Adobe Campaign은 이 페이지에 나와 있는 보고 도구 세트를 제공합니다.
+
+* **동적 보고**
+
+  Campaign 웹 UI에서 사용할 수 있는 동적 보고는 마케팅 활동의 영향을 측정하기 위한 사용자 지정 및 실시간 보고서를 제공합니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [웹 UI v7 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}를 참조하세요.
 
 * **큐브**
 
@@ -52,4 +56,4 @@ Adobe Campaign은 이 페이지에 나와 있는 보고 도구 세트를 제공�
 
   Adobe Campaign을 사용하여 데이터베이스의 데이터에 대한 보고서를 만듭니다. 이러한 항목이 생성되면 적절한 컨텍스트에서 액세스할 수 있도록 합니다.
 
-  보고서를 만드는 단계는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다. 개인화된 보고서 생성은 고급 사용자에게 예약되어 있습니다.
+  보고서를 만드는 단계는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}에 자세히 설명되어 있습니다. 개인화된 보고서 생성은 고급 사용자에게 예약되어 있습니다.

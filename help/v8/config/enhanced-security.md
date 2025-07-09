@@ -5,10 +5,10 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 24b252373923a9724743650b13a69d4f2c8dcd24
+source-git-commit: 3f36d7c425dd5a9a13e1de7a77371b29a462dbea
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 2%
+source-wordcount: '727'
+ht-degree: 3%
 
 ---
 
@@ -96,7 +96,7 @@ HA(High Availability)를 보장하기 위해 한 터널에서 문제가 발생�
 
 >[!CAUTION]
 >
->온-프레미스 데이터베이스 및 AWS 호환 VPN 장치만 지원됩니다. [자세히 알아보기](#vpn-databases)
+>온-프레미스 및 클라우드 데이터베이스가 지원됩니다. [자세히 알아보기](#vpn-databases)
 
 이 기능을 올바르게 사용하려면 아래 지침을 따르십시오.
 
@@ -122,8 +122,9 @@ HA(High Availability)를 보장하기 위해 한 터널에서 문제가 발생�
 * Sybase
 * Teradata
 * Hadoop via HiveSQL
+* PostgreSQL
 
-AWS 호환 VPN 장치만 지원됩니다. [이 페이지](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}에서 호환되는 장치 목록을 사용할 수 있습니다.
+클라우드 데이터베이스가 지원됩니다. [호환성 매트릭스](../start/compatibility-matrix.md#FederatedDataAccessFDA)를 참조하세요.
 
 >[!NOTE]
 >

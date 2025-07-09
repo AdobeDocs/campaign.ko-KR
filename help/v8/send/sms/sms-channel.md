@@ -4,11 +4,10 @@ description: SMS 채널의 특성 알아보기
 feature: SMS
 role: User
 level: Intermediate
-badge: label="제한 공개" type="Informative"
 exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -17,10 +16,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->이 설명서는 Adobe Campaign v8.7.2 이상에 대한 것입니다.
+>이 설명서는 Adobe Campaign v8.7.2 이상에 적용됩니다. 기존 SMS 커넥터에서 새 SMS 커넥터로 전환하려면 이 [기술 정보](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}를 참조하세요.
 >
->이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol)를 참조하세요.
-
+>이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}를 참조하세요.
 
 ## SMS 유형 {#sms-types}
 

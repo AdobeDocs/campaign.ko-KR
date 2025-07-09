@@ -4,11 +4,10 @@ description: 중간 소싱 인프라에서 SMS 게재를 구성하는 방법을 
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="제한 공개" type="Informative"
 exl-id: b5eb9eaa-0ca8-478c-9ed5-e5006e9b5609
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -17,9 +16,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 설명서는 Adobe Campaign v8.7.2 이상에 대한 것입니다.
+>이 설명서는 Adobe Campaign v8.7.2 이상에 적용됩니다. 기존 SMS 커넥터에서 새 SMS 커넥터로 전환하려면 이 [기술 정보](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}를 참조하세요.
 >
->이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)를 참조하세요.
+>이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}를 참조하세요.
 
 중간 소싱 인프라를 사용하여 SMS 게재를 전송하려면 다음이 필요합니다.
 
@@ -44,7 +43,7 @@ SMS 연산자를 만들려면 아래 단계를 수행합니다.
    ![](assets/smsoperator_mid.png){zoomable="yes"}
 
 1. **[!UICONTROL Groups and named rights]** 부분에서 **[!UICONTROL Add]** 단추를 클릭합니다.
-새 창이 열리면 **[!UICONTROL Folder]** 목록에서 **[!UICONTROL Named rights]**&#x200B;을(를) 선택하고 오른쪽 목록에서 **[!UICONTROL ADMINISTRATION]**&#x200B;을(를) 선택합니다.
+새 창이 열리면 **[!UICONTROL Named rights]** 목록에서 **[!UICONTROL Folder]**&#x200B;을(를) 선택하고 오른쪽 목록에서 **[!UICONTROL ADMINISTRATION]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Ok]** 단추를 클릭합니다.
 
@@ -80,7 +79,7 @@ SMS 연산자를 만들려면 아래 단계를 수행합니다.
 
    ![](assets/midtab_smsextaccount.png){zoomable="yes"}
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 중간 서버에서 SMPP 외부 계정 만들기 {#smpp-external-account-mid}
 
@@ -101,7 +100,7 @@ SMS 연산자를 만들려면 아래 단계를 수행합니다.
    >내부 이름을 할당할 때 지정된 명명 규칙을 따라야 합니다. `SMS Operator Name_Internal Name of the Marketing SMS external account`.
    >
 
-   계정 유형을 **[!UICONTROL Routing]**(으)로 정의하고 **[!UICONTROL Enabled]** 상자를 선택한 다음 채널의 경우 **[!UICONTROL Mobile (SMS)]**&#x200B;을(를) 선택하고 게재 모드의 경우 **[!UICONTROL Bulk delivery]**&#x200B;을(를) 선택합니다.
+   계정 유형을 **[!UICONTROL Routing]**(으)로 정의하고 **[!UICONTROL Enabled]** 상자를 선택한 다음 채널의 경우 **[!UICONTROL Mobile (SMS)]**&#x200B;을(를) 선택하고 게재 모드의 경우 **[!UICONTROL Bulk delivery]**을(를) 선택합니다.
    ![](assets/mid_extaccount.png){zoomable="yes"}
 
 1. **[!UICONTROL Mobile]** 탭에서 **[!UICONTROL Extended generic SMPP]**&#x200B;을(를) **[!UICONTROL Connector]** 드롭다운 목록에 유지합니다.

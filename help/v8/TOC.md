@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: b4947c8c20e123877e24f57d5ad7a15aa3f304a2
+source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 100%
+source-wordcount: '790'
+ht-degree: 97%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 100%
       + [게재 분석](send/delivery-analysis.md)
       + [게재 구성 및 보내기](send/configure-and-send.md)
       + [전송 시간 최적화](send/predictive.md)
-   + 실패, 바운스, 격리{#failures}
+   + 실패, 바운스, 격리 {#failures}
       + [격리](send/quarantines.md)
       + [게재 실패](send/delivery-failures.md)
    + 전달성 관리 {#deliverability-management}
@@ -239,6 +239,32 @@ ht-degree: 100%
       + [입력 양식](dev/forms.md)
    + [데이터 패키지 작업](dev/packages.md)
    + [Campaign API](dev/api.md)
+   + REST API {#apis}
+      + [REST API 시작](dev/api/get-started-apis.md)
+      + [권장 사항 및 제한 사항](dev/api/limitations.md)
+      + [REST API의 장점](dev/api/why-using-campaign-standard-apis.md)
+      + [API 액세스 설정](dev/api/setting-up-api-access.md)
+      + 전반적 개념 {#global-concepts}
+         + [반드시 알아야 할 사항](dev/api/must-read.md)
+         + [엔드포인트](dev/api/endpoints.md)
+         + [메타데이터 메커니즘](dev/api/metadata-mechanism.md)
+         + [동사](dev/api/verbs.md)
+         + [추가 작업](dev/api/sorting.md)
+         + [사용자 정의 리소스](dev/api/custom-resources.md)
+      + [사용자 정의 리소스와 상호 작용](dev/api/interacting-with-custom-resources.md)
+      + 프로필 관리 {#managing-profiles}
+         + [프로필 검색](dev/api/retrieving-profiles.md)
+         + [프로필 업데이트](dev/api/updating-profiles.md)
+         + [프로필 만들기](dev/api/creating-profiles-api.md)
+      + 서비스 및 구독 관리 {#managing-services-and-subscriptiopns}
+         + [서비스 만들기](dev/api/creating-a-service.md)
+         + [구독 검색](dev/api/retrieving-subscriptions.md)
+         + [구독 수행](dev/api/perform-subscriptions.md)
+         + [구독 삭제](dev/api/deleting-subscriptions.md)
+      + [트랜잭션 메시지 관리](dev/api/managing-transactional-messages.md)
+      + 워크플로 관리 {#managing-workflows}
+         + [워크플로 제어](dev/api/controlling-a-workflow.md)
+         + [신호 활동 트리거](dev/api/triggering-a-signal-activity.md)
 + [Campaign 기술 노트 >](https://experienceleague.adobe.com/ko/docs/campaign/technotes-ac/technotes-home)
 + [Campaign 웹 사용자 인터페이스 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home)
 

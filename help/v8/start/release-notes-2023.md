@@ -5,20 +5,23 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
-source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
+source-git-commit: b52308bcbe68a7c382918fe28f8166e3bfcb6cde
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1518'
 ht-degree: 56%
 
 ---
 
 # 2023 릴리스 정보 {#2023-rn}
 
-이 페이지에는 **2023 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다.
+이 페이지에는 **2023 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 해결 사항이 나와 있습니다. 최신 릴리스는 [이 페이지](release-notes.md)를 참조하세요.
+
+새 구현이나 기존 환경으로 업그레이드하려면 [최신 릴리스](release-notes.md)를 설치하십시오.
+
 
 >[!BEGINSHADEBOX]
 
-**이 페이지에서**
+**이 페이지의 내용**
 
 * Campaign v8.5 - [릴리스 8.5.1](#release-8-5-1) | [릴리스 8.5.2](#release-8-5-2)
 * Campaign v8.4 - [릴리스 8.4.3](#release-8-4-3) | [릴리스 8.4.4](#release-8-4-4) | [릴리스 8.4.5](#release-8-4-5)

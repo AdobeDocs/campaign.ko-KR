@@ -5,10 +5,10 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
+source-git-commit: d43fb6dc75113e7e89315b731ed8b4a77951125c
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 5%
+source-wordcount: '1118'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign에서는 특정 프로세스를 활성화하고 실행하는 데 
 
 **바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는 데 사용할 수 있습니다.
 
-[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ko){target="_blank"}에서 인바운드 전자 메일에 대해 자세히 알아보세요.
+[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}에서 인바운드 전자 메일에 대해 자세히 알아보세요.
 
 ![](assets/bounce_external_1.png)
 
@@ -118,7 +118,7 @@ Microsoft OAuth 2.0을 사용하여 외부 POP3을 구성하려면 **[!UICONTROL
 
 ## 외부 계정 데이터 전송 {#transfer-data-external-accounts}
 
-이러한 외부 계정은 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보내는 데 사용할 수 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}에서 워크플로우의 **파일 전송**&#x200B;에 대해 자세히 알아보세요.
+이러한 외부 계정은 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보내는 데 사용할 수 있습니다. **이 페이지**&#x200B;에서 워크플로우의 [파일 전송](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}에 대해 자세히 알아보세요.
 
 * **FTP 및 SFTP** - **FTP** 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 SFTP 또는 FTP 서버 898과 같은 외부 시스템과의 연결을 설정하려면 고유한 외부 계정을 만들 수 있습니다.
 
@@ -126,7 +126,7 @@ Microsoft OAuth 2.0을 사용하여 외부 POP3을 구성하려면 **[!UICONTROL
 
   >[!NOTE]
   >
-  >이제 릴리스 8.5부터 SFTP 외부 계정을 구성할 때 개인 키를 사용하여 안전하게 인증할 수 있습니다. [키 관리에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ko){target="_blank"}.
+  >이제 릴리스 8.5부터 SFTP 외부 계정을 구성할 때 개인 키를 사용하여 안전하게 인증할 수 있습니다. [키 관리에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
 
 * **Amazon Simple Storage Service(S3)** - **AWS S3** 커넥터를 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 이 새 외부 계정을 설정할 때 다음 세부 사항을 제공해야 합니다.
 
@@ -146,4 +146,12 @@ Microsoft OAuth 2.0을 사용하여 외부 POP3을 구성하려면 **[!UICONTROL
 
    * **[!UICONTROL Encryption]**: **[!UICONTROL None]**&#x200B;과(와) **[!UICONTROL SSL]** 사이의 암호화 유형입니다.
 
-   * **[!UICONTROL Access key]**: [Microsoft 설명서](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}에서 **[!UICONTROL Access key]**&#x200B;을(를) 찾는 방법에 대해 알아보세요.
+   * **[!UICONTROL Access key]**: **[!UICONTROL Access key]** Microsoft 설명서[에서 ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}을(를) 찾는 방법에 대해 알아보세요.
+
+* **Microsoft 패브릭** - **Microsoft 패브릭** 외부 계정을 사용하면 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Microsoft 패브릭과 Adobe Campaign 간에 데이터를 가져오고 내보낼 수 있습니다. 이 통합을 구성하려면 다음 세부 정보를 제공합니다.
+
+   * **[!UICONTROL Server]**: Microsoft 패브릭 저장소 서버의 URL입니다.
+
+   * **[!UICONTROL Application ID]**: Microsoft Fabric 리소스를 인증하고 액세스하는 데 사용되는 응용 프로그램의 고유 식별자입니다.
+
+   * **[!UICONTROL Client secret]**: Microsoft Fabric에 안전하게 연결하는 데 필요한 응용 프로그램과 연결된 인증 키 또는 암호입니다.
