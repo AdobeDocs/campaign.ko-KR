@@ -3,7 +3,7 @@ title: Campaign v8 릴리스 정보
 description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: ab83c41a5eb51167479db76682ea2200f0c85b5f
+source-git-commit: 0a898be0381eb13253b9b0f3d53920f89accccf4
 workflow-type: tm+mt
 source-wordcount: '2171'
 ht-degree: 12%
@@ -33,32 +33,32 @@ _2025년 7월 9일 목요일_
 <!-- * **Enrichment in transactional messages** (to remove?) -->
 
 <!--
-* **Multilingual delivery creation** in the Web UI - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html?lang=ko)
+* **Multilingual delivery creation** in the Web UI - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html)
 
 ACC - Multilingual deliveries - Starting Campaign Web User interface April release, you will be able to send multiple email deliveries in different languages, and access the related dynamic reports. This capability will only be available in Adobe Campaign Web User Interface at the end of April, and require a server update to Campaign v8.7.4.
 -->
 
 <!--
-*  **Visual fragments** in the Web UI - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=ko){target="_blank"}
+*  **Visual fragments** in the Web UI - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 (already available in console and web, to remove?) 
 web - * Visual fragments - You can now archive visual content fragments. Learn more
 -->
 
 <!--
-* **Delivery alerting** in the Web UI - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html?lang=ko){target="_blank"}
+* **Delivery alerting** in the Web UI - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html){target="_blank"}
 -->
 
 <!--
 * **Landing pages improvements**  in the Web UI- The following improvements to landing pages are now available:
 
-    * You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/work-with-services/manage-services.html?lang=ko#create-service){target="_blank"}
-    * A new option in the landing page configuration allows anonymous visitors to access the landing page. If you unselect this option, only identified users can access and submit the form. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ko#create-landing-page){target="_blank"}
-    * A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ko#create-landing-page){target="_blank"}
-    * A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one). [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ko#define-actions-on-form-submission){target="_blank"}
-    * Conditional content is now supported in landing pages. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/lp-content.html?lang=ko){target="_blank"}
-    * You can link a landing page to a service, and send a confirmation message when users validate it. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/lp-content.html?lang=ko#lp-message){target="_blank"}
-    * You can add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ko#captcha){target="_blank"}
+    * You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/work-with-services/manage-services.html#create-service){target="_blank"}
+    * A new option in the landing page configuration allows anonymous visitors to access the landing page. If you unselect this option, only identified users can access and submit the form. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page){target="_blank"}
+    * A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page){target="_blank"}
+    * A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one). [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#define-actions-on-form-submission){target="_blank"}
+    * Conditional content is now supported in landing pages. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/lp-content.html){target="_blank"}
+    * You can link a landing page to a service, and send a confirmation message when users validate it. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/lp-content.html#lp-message){target="_blank"}
+    * You can add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#captcha){target="_blank"}
 
 web - * **Subscriptions with Landing pages** - You can now link a landing page to a service, and send a confirmation message when users validate it. [Learn more](../landing-pages/lp-content.md#lp-message){target="_blank"}.
 Web - * **Captcha in landing pages** - You can now add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. [Learn more](../landing-pages/create-lp.md#captcha)
@@ -72,9 +72,9 @@ ACC * Rich Push Notification templates - You can now send rich push notification
 이전에 제한된 가용성으로 릴리스된 다음 기능을 이제 **온디맨드**&#x200B;로 사용할 수 있습니다.
 
 <!--
-* **Dynamic Reporting** - You can now access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Dynamic reporting is also available for multilingual email deliveries and transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ko){target="_blank"}
+* **Dynamic Reporting** - You can now access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Dynamic reporting is also available for multilingual email deliveries and transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}
 
-ACC **Dynamic Reporting for Transactional messages** - You can now monitor your transactional messages in the Dynamic Reporting user interface. These reports provide the ability to the marketer to view the all the reporting metrics and dimensions of transactional messages, breakdown of deliveries sent through a template in real time. [Read more](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+ACC **Dynamic Reporting for Transactional messages** - You can now monitor your transactional messages in the Dynamic Reporting user interface. These reports provide the ability to the marketer to view the all the reporting metrics and dimensions of transactional messages, breakdown of deliveries sent through a template in real time. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Read more
 * **Dynamic Reporting for Multilingual** - Dynamic reporting is now available for multilingual email deliveries. For more information, refer to the [detailed documentation](../reporting/global-reports.md).
 -->
@@ -87,20 +87,20 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
-* **SMS REST API support (LA)** - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS. For more information, refer to the [detailed documentation](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
+* **SMS REST API support (LA)** - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS. For more information, refer to the [detailed documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
 ACC - SMS REST API support - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS.
-ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
+ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 -->
 
 위에 나열된 기능 외에도 이 릴리스에는 Campaign 웹 사용자 인터페이스에서 사용할 수 있는 기능 집합이 포함되어 있습니다.
 
-* [다국어 게재 만들기](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html?lang=ko#multilingual-delivery){target="_blank"}
-* [게재 경고](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html?lang=ko){target="_blank"}
-* [랜딩 페이지 개선 사항](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html?lang=ko){target="_blank"}
+* [다국어 게재 만들기](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html#multilingual-delivery){target="_blank"}
+* [게재 경고](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html){target="_blank"}
+* [랜딩 페이지 개선 사항](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html){target="_blank"}
 * [동적 보고](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}(주문형 전용)
-* [중앙 브랜딩](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ko){target="_blank"}(주문형 전용)
+* [중앙 브랜딩](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"}(주문형 전용)
 
-Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko){target="_blank"}를 참조하세요.
+Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}를 참조하세요.
 
 ### 일반 개선 사항 {#improvements-8-8-1}
 
@@ -110,18 +110,17 @@ Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campa
 * SMS 2.0 커넥터의 &quot;들어오는 트래픽&quot; 섹션에 &quot;공급자 ID&quot; 필드 집합이 새로 추가되었습니다. [자세히 알아보기](../send/sms/smpp-external-account.md#incoming-traffic)
 * &quot;mailto&quot; 목록 구독 취소 메서드를 통해 구독 취소된 수신자는 더 이상 격리로 전송되지 않습니다. 게재와 연계된 서비스를 구독하거나 게재에 대해 정의된 서비스가 없는 경우 차단 목록 취소(프로필의 &quot;더 이상 연락 안 함&quot; 섹션)로 전송됩니다. [자세히 알아보기](../send/quarantines.md)
 * 받은 편지함 렌더링 보고서의 개선된 버전을 이제 Adobe Campaign 클라이언트 콘솔에서 사용할 수 있습니다. [자세히 알아보기](../send/inbox-rendering.md)
+* setup-client.exe 파일이 ac-client.msi 파일로 대체되었습니다. 이렇게 하면 관리자가 사용자 개입 없이 대량 업그레이드를 보다 쉽게 수행할 수 있습니다.
 
 ### 해결 사항 {#fixes-8-8-1}
 
 * SMS 2.0에서 유효 기간이 잘못되어 자동 답글이 수신되지 않던 문제를 해결했습니다. 이렇게 하면 마이그레이션 후 적절한 메시지 게재가 보장됩니다. (NEO-88088)
 * `inSms` 테이블의 특정 필드가 올바르게 업데이트되지 않아 SMS 기능에 대한 정확한 데이터 삽입을 보장하는 SMS 2.0의 문제를 해결했습니다. (NEO-87906)
-
 <!--
 * NOOOO Addressed delivery preparation failures for IndiGo Aviation after upgrading to v7.4.2. This fix resolves personalization and deduplication-related errors, enabling smooth delivery workflows. (NEO-87693)
 * NOOOO Corrected Redshift database function definitions in version 8.6.4, ensuring proper execution of functions like `AddDays`, `AddHours`, `AddMinutes`, and `AddSeconds`. (NEO-87305)
+* Provided a silent installation mechanism for the client console to facilitate mass upgrades without user intervention. This resolves challenges with manual installations. (NEO-69772)
 -->
-
-* 클라이언트 콘솔에 자동 설치 메커니즘을 제공하여 사용자 개입 없이 대량 업그레이드를 용이하게 했습니다. 이렇게 하면 수동 설치의 문제가 해결됩니다. (NEO-69772)
 * SQL 쿼리에서 누락되거나 잘못된 열 참조로 인한 데이터베이스 정리 워크플로우 오류를 해결했습니다. 이렇게 하면 로그 및 방문자 데이터를 적절히 지울 수 있습니다. (NEO-86813)
 * 게재 로그에서 이벤트 날짜가 누락되는 문제를 해결했습니다. 이 수정 사항은 예약된 트리거 및 워크플로에 중요한 정확한 이벤트 날짜 채우기를 보장합니다. (NEO-86708)
 * SMS 2.0에서 SMS 게재 로그 삽입 문제를 해결하여 `nmsBroadLogMid` 표에 제대로 로깅하도록 했습니다. (NEO-86556)
