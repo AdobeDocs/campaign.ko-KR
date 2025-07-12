@@ -88,7 +88,7 @@ _2025년 2월 14일_
 
 ### 새로운 기능 {#features-8-7-3}
 
-* **트랜잭션 메시지에 대한 Dynamic Reporting** - 이제 Dynamic Reporting 사용자 인터페이스에서 트랜잭션 메시지를 모니터링할 수 있습니다. 이러한 보고서는 마케터가 템플릿을 통해 실시간으로 전송된 게재 분류와 트랜잭션 메시지의 모든 보고 지표와 차원을 볼 수 있는 기능을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
+* **트랜잭션 메시지에 대한 Dynamic Reporting** - 이제 Dynamic Reporting 사용자 인터페이스에서 트랜잭션 메시지를 모니터링할 수 있습니다. 이러한 보고서는 마케터가 템플릿을 통해 실시간으로 전송된 게재 분류와 트랜잭션 메시지의 모든 보고 지표와 차원을 볼 수 있는 기능을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=ko){target="_blank"}
 
 * **트랜잭션 메시지 REST API** - 이벤트 기반 트랜잭션 API를 이제 이메일에 사용할 수 있습니다. [자세히 알아보기](../dev/api/get-started-apis.md)
 

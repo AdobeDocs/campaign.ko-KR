@@ -18,7 +18,7 @@ Adobe Campaign은 이 페이지에 나와 있는 보고 도구 세트를 제공�
 
 * **동적 보고**
 
-  Campaign 웹 UI에서 사용할 수 있는 동적 보고는 마케팅 활동의 영향을 측정하기 위한 사용자 지정 및 실시간 보고서를 제공합니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [웹 UI v7 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}를 참조하세요.
+  Campaign 웹 UI에서 사용할 수 있는 동적 보고는 마케팅 활동의 영향을 측정하기 위한 사용자 지정 및 실시간 보고서를 제공합니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [웹 UI v7 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=ko){target="_blank"}를 참조하세요.
 
 * **큐브**
 
