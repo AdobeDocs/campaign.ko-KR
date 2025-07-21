@@ -5,20 +5,20 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1342'
 ht-degree: 5%
 
 ---
 
 # SMPP 커넥터 설명 {#smpp-connector-desc}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
->이 설명서는 Adobe Campaign v8.7.2 이상에 적용됩니다. 기존 SMS 커넥터에서 새 SMS 커넥터로 전환하려면 이 [기술 정보](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}를 참조하세요.
+>이 기능은 모든 Campaign FDA 환경에서 사용할 수 있습니다. Campaign FFDA 배포에 **사용할 수 없음**. 이 설명서는 Adobe Campaign v8.7.2 이상에 적용됩니다. 기존 SMS 커넥터에서 새 SMS 커넥터로 전환하려면 이 [기술 정보](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}를 참조하세요.
 >
->이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}를 참조하세요.
+>이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}를 참조하세요.
 
 ## SMS 커넥터 데이터 흐름 {#sms-data-flow}
 
@@ -32,13 +32,13 @@ SMS 프로세스는 SMPP 공급자와의 통신을 처리하는 SMPP 커넥터 �
 
 ### SMPP 계정의 데이터 흐름 {#sms-data-flow-smpp-accounts}
 
-SMS 프로세스는 nms:extAccount를 폴링하고 SMPP 커넥터에 새 연결을 생성하여 각 계정의 설정을 전달합니다. *configRefreshMillis* 설정의 serverConf에서 폴링 빈도를 조정할 수 있습니다.
+SMS 프로세스는 nms:extAccount을(를) 폴링하고 SMPP 커넥터에 새 연결을 생성하여 각 계정의 설정을 전달합니다. *configRefreshMillis* 설정의 serverConf에서 폴링 빈도를 조정할 수 있습니다.
 
 각 활성 SMPP 계정에 대해 SMPP 커넥터는 항상 연결을 활성 상태로 유지하려고 합니다. 연결이 끊기면 다시 연결됩니다.
 
 ### 메시지를 보내는 동안 데이터 흐름 {#sms-data-flow-sending-msg}
 
-* SMS 프로세스는 nms:delivery를 스캔하여 활성 게재를 선택합니다. 다음의 경우 게재가 활성화됩니다.
+* SMS 프로세스는 nms:delivery을(를) 스캔하여 활성 게재를 선택합니다. 다음의 경우 게재가 활성화됩니다.
    * 상태는 메시지를 보낼 수 있음을 의미합니다
    * 유효 기간이 만료되지 않았습니다.
    * 실제로 게재입니다(예: 템플릿이 아니라 삭제되지 않음).
@@ -49,28 +49,28 @@ SMS 프로세스는 nms:extAccount를 폴링하고 SMPP 커넥터에 새 연결�
 * SMPP 커넥터는 송신기(또는 송수신기) 연결을 통해 MT를 전송합니다.
 * 공급자가 이 MT에 대한 ID를 반환합니다. nms:providerMsgId에 삽입됩니다.
 * SMS 프로세스는 광범위한 로그를 전송됨 상태로 업데이트합니다.
-* 최종 오류가 발생하면 SMS 프로세스가 이에 따라 브로드 로그를 업데이트하고 nms:broadLogMsg에 새로운 종류의 오류를 생성할 수 있습니다.
+* 최종 오류가 발생하면 SMS 프로세스가 이에 따라 브로드 로그를 업데이트하며 nms:broadLogMsg에 새로운 종류의 오류가 발생할 수 있습니다.
 
 ### SR 수신 중 데이터 흐름 {#sms-data-flow-sr}
 
 * SMPP 커넥터는 SR(DELIVER_SM PDU)을 수신하고 디코딩합니다. 외부 계정에 정의된 정규 표현식을 사용하여 메시지 ID와 상태를 가져옵니다.
-* 메시지 ID 및 상태가 nms:providerMsgStatus에 삽입됨
+* 메시지 ID 및 상태가 nms:providerMsgStatus에 삽입되었습니다.
 * 삽입된 SMPP 커넥터는 DELIVER_SM_RESP PDU로 응답합니다.
 * 프로세스 중에 문제가 발생하면 SMPP 커넥터가 음수 DELIVER_SM_RESP PDU를 전송하고 메시지를 기록합니다.
 
 ### MO를 받는 동안 데이터 흐름 {#sms-data-flow-mo}
 
 * SMPP 커넥터는 MO(DELIVER_SM PDU)를 수신하고 디코딩합니다.
-* 키워드는 메시지에서 추출됩니다. 선언된 키워드와 일치하는 경우 해당 작업이 실행됩니다. nms:address에 기록하여 격리를 업데이트할 수 있습니다.
+* 키워드는 메시지에서 추출됩니다. 선언된 키워드와 일치하는 경우 해당 작업이 실행됩니다. 격리를 업데이트하기 위해 nms:address에 쓸 수 있습니다.
 * 사용자 지정 TLV를 선언하면 해당 설정에 따라 디코딩됩니다.
-* 완전히 디코딩되고 처리된 MO는 nms:inSms 테이블에 삽입됩니다.
+* 완전히 디코딩되고 처리된 MO가 nms:inSms 테이블에 삽입됩니다.
 * SMPP 커넥터가 DELIVER_SM_RESP PDU로 응답합니다. 오류가 감지되면 공급자에게 오류 코드가 반환됩니다.
 
 ### MT 및 SR 조정 중 데이터 흐름 {#sms-reconciling-mt-sr}
 
-* SR 조정 구성 요소는 주기적으로 nms:providerMsgId 및 nms:providerMsgStatus를 읽습니다. 두 테이블의 데이터가 결합됩니다.
+* SR 조정 구성 요소는 정기적으로 nms:providerMsgId 및 nms:providerMsgStatus을(를) 읽습니다. 두 테이블의 데이터가 결합됩니다.
 * 두 테이블에 항목이 있는 모든 메시지의 경우 일치하는 nms:broadLog 항목이 업데이트됩니다.
-* 새로운 종류의 오류가 감지되거나 수동으로 검증되지 않은 오류에 대한 카운터를 업데이트하기 위해 nms:broadLogMsg 테이블을 프로세스에서 업데이트할 수 있습니다.
+* 새로운 종류의 오류가 검색되거나 수동으로 정규화되지 않은 오류에 대한 카운터를 업데이트하기 위해 nms:broadLogMsg 테이블을 프로세스에서 업데이트할 수 있습니다.
 
 ## 일치하는 MT, SR 및 broadlog 항목 {#sms-matching-entries}
 
