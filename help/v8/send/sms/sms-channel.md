@@ -18,7 +18,7 @@ ht-degree: 1%
 >
 >이 기능은 모든 Campaign FDA 환경에서 사용할 수 있습니다. Campaign FFDA 배포에 **사용할 수 없음**. 이 설명서는 Adobe Campaign v8.7.2 이상에 적용됩니다. 기존 SMS 커넥터에서 새 SMS 커넥터로 전환하려면 이 [기술 정보](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}를 참조하세요.
 >
->이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}를 참조하세요.
+>이전 버전의 경우 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}를 참조하세요.
 
 ## SMS 유형 {#sms-types}
 
