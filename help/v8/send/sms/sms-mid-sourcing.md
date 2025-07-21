@@ -100,7 +100,7 @@ SMS 연산자를 만들려면 아래 단계를 수행합니다.
    >내부 이름을 할당할 때 지정된 명명 규칙을 따라야 합니다. `SMS Operator Name_Internal Name of the Marketing SMS external account`.
    >
 
-   계정 유형을 **[!UICONTROL Routing]**(으)로 정의하고 **[!UICONTROL Enabled]** 상자를 선택한 다음 채널의 경우 **[!UICONTROL Mobile (SMS)]**&#x200B;을(를) 선택하고 게재 모드의 경우 **[!UICONTROL Bulk delivery]**을(를) 선택합니다.
+   계정 유형을 **[!UICONTROL Routing]**(으)로 정의하고 **[!UICONTROL Enabled]** 상자를 선택한 다음 채널의 경우 **[!UICONTROL Mobile (SMS)]**&#x200B;을(를) 선택하고 게재 모드의 경우 **[!UICONTROL Bulk delivery]**&#x200B;을(를) 선택합니다.
    ![](assets/mid_extaccount.png){zoomable="yes"}
 
 1. **[!UICONTROL Mobile]** 탭에서 **[!UICONTROL Extended generic SMPP]**&#x200B;을(를) **[!UICONTROL Connector]** 드롭다운 목록에 유지합니다.
