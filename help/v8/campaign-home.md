@@ -1,12 +1,12 @@
 ---
 keywords: Campaign Classic;home;popular topics
-description: Campaign v8 도움말 센터
+description: Adobe Campaign v8 도움말 센터에서 도움말을 확인합니다. Campaign v8의 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
 title: Adobe Campaign v8 제품 설명서
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: e921339532697109758f7ca9f3a136cef58e48ab
+source-git-commit: dc8aef5fe542db06368a2cc0c832b4d43b069fc7
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 98%
+source-wordcount: '350'
+ht-degree: 91%
 
 ---
 
