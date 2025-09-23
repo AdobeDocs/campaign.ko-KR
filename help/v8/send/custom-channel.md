@@ -17,7 +17,7 @@ Adobe Campaign을 사용하면 서드파티와 통합된 사용자 지정 외부
 
 게재 만들기와 전송은 클라이언트 콘솔과 웹 UI 모두에서 수행할 수 있습니다. 하지만 사용자 지정 채널 구성은 클라이언트 콘솔에서만 수행됩니다.
 
-사용자 지정 채널을 기반으로 게재를 만들고 보내는 방법을 알아보려면 이 [페이지](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html){target="_blank"}를 참조하세요.
+사용자 지정 채널을 기반으로 게재를 만들고 보내는 방법을 알아보려면 이 [페이지](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ko){target="_blank"}를 참조하세요.
 
 다음은 클라이언트 콘솔에서 새 사용자 지정 채널을 구성하는 단계입니다. 이러한 단계는 사용자 지정 외부 및 API 채널에 공통됩니다.
 
@@ -90,7 +90,7 @@ Campaign 웹 UI에서 사용자 정의 화면 정의를 설정합니다.
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. 채널에 해당하는 탭을 선택하고 게재의 콘텐츠 화면에 필드가 표시되는 방법을 정의합니다. 화면 편집에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}를 참조하세요.
+1. 채널에 해당하는 탭을 선택하고 게재의 콘텐츠 화면에 필드가 표시되는 방법을 정의합니다. 화면 편집에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=ko#fields){target="_blank"}를 참조하세요.
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 
