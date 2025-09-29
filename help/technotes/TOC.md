@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign 테크노트
 description: Campaign 기술 정보
 breadcrumb-title: 캠페인 기술 정보
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: d80d81bf8c25c467c909c9ccac7c31e6963409f0
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 25%
+source-wordcount: '73'
+ht-degree: 24%
 
 ---
 
@@ -30,4 +30,5 @@ ht-degree: 25%
    + [클라이언트 콘솔 32비트 사용 중단](upgrades/console.md)
    + 보안 {#security}
       + [고객 자격 증명 순환](security/credential-rotation-guide.md)
+      + [무수암호화](security/asymetric-encryption.md)
 + [&lt; Campaign v8 설명서로 돌아가기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)
