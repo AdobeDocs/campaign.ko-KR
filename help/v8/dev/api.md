@@ -5,9 +5,9 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 1d9d4111cde1e230220a04c8fd10a126116339ad
+source-git-commit: 115b7b6824f3736e03f9fb87898f1264f9bab636
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '286'
 ht-degree: 14%
 
 ---
@@ -21,13 +21,12 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->* 배포 모델에 따라 Campaign v8에서 REST API를 사용할 수도 있습니다. [자세히 알아보기](../dev/api/get-started-apis.md).
+>배포 모델에 따라 Campaign v8에서 REST API를 사용할 수도 있습니다. [자세히 알아보기](../dev/api/get-started-apis.md)
 
+[Campaign JavaScript API](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}를 사용하여 Campaign 클라우드 데이터베이스에 쓰거나 데이터베이스에서 읽을 수 있습니다.
 
-JavaScript API를 사용하여 Campaign 클라우드 데이터베이스에 쓰거나 데이터베이스에서 읽을 수 있습니다.
-
-* 게재, 워크플로우, 구독 등 각 오브젝트에 대해 작업을 수행할 수 있는 비즈니스별 API입니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ko){target="_blank"}를 참조하세요.
-* 데이터 모델 데이터 쿼리를 위한 일반 데이터 액세스 API입니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=ko){target="_blank"}를 참조하세요.
+* 게재, 워크플로우, 구독 등 각 오브젝트에 대해 작업을 수행할 수 있는 비즈니스별 API입니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}를 참조하세요.
+* 데이터 모델 데이터 쿼리를 위한 일반 데이터 액세스 API입니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}를 참조하세요.
 
 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)에서 Campaign은 두 개의 데이터베이스를 사용합니다. 하나는 사용자 인터페이스 실시간 메시지 보내기와 API를 통한 단일 쿼리 및 쓰기를 위한 로컬 데이터베이스이고, 다른 하나는 캠페인 실행, 보고, 데이터 수집, 쿼리 일괄 처리 및 워크플로우 실행을 위한 클라우드 데이터베이스입니다.
 
@@ -55,3 +54,4 @@ API를 사용하고 [!DNL Adobe Campaign]과(와) 상호 작용하려면 데이�
 **관련 항목**
 
 * [데이터 모델 모범 사례](datamodel-best-practices.md)
+* [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
