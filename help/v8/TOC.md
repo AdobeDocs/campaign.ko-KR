@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
+source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 97%
+source-wordcount: '793'
+ht-degree: 96%
 
 ---
 
@@ -215,6 +215,7 @@ ht-degree: 97%
    + 구현 {#implement}
       + [구현 단계](start/implement.md)
       + [인스턴스 사용자 정의](dev/customize.md)
+      + [열거형을 사용한 작업](dev/enumerations.md)
       + [데이터 모델 모범 사례](dev/datamodel-best-practices.md)
    + 설정 및 구성 {#configuration}
       + [사용자 인터페이스 설정](config/ui-settings.md)

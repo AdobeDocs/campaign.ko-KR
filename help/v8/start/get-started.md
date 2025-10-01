@@ -6,10 +6,10 @@ role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '994'
-ht-degree: 100%
+source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+workflow-type: tm+mt
+source-wordcount: '1033'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,13 @@ Campaign을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 * 의미 있고 시의적절한 메시지 및 오퍼 게재 **자동화**
 
 ![](assets/do-not-localize/ac-capabilities.png)
+
+
+>[!AVAILABILITY]
+>
+>페이지에 언급된 경우를 제외하고 Adobe Campaign(콘솔) 설명서는 Campaign Classic v7 및 Campaign v8에 적용됩니다.
+>
+>설명서 내의 특정 참조는 이전 브랜딩을 계속 참조할 수 있지만 현재 제공에 여전히 적용할 수 있습니다.
 
 ## Integrated Customer Profile {#integrated-customer-profile}
 
