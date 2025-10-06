@@ -26,7 +26,7 @@ SMS 게재에 대한 증명을 전송하여 유효성을 검사할 수 있습니
    증명을 보낼 수 있는 모드가 여러 개 있습니다.
 
    * **[!UICONTROL Definition of a specific proof target]**: 데이터베이스의 주소를 증명 대상으로 필터링하여 쿼리할 수 있습니다.
-   * **[!UICONTROL Substitution of the address]**: 테스트 주소를 입력하고 대상 받는 사람 데이터를 사용하여 콘텐츠의 유효성을 검사할 수 있습니다. 대체 주소는 수동으로 입력하거나 드롭다운 목록에서 선택할 수 있습니다. 연결된 [열거형](../../config/enumerations.md)은(는) **[!UICONTROL Substitution address (rcpAddress)]**입니다.
+   * **[!UICONTROL Substitution of the address]**: 테스트 주소를 입력하고 대상 받는 사람 데이터를 사용하여 콘텐츠의 유효성을 검사할 수 있습니다. 대체 주소는 수동으로 입력하거나 드롭다운 목록에서 선택할 수 있습니다. 연결된 [열거형](../../config/enumerations.md)은(는) **[!UICONTROL Substitution address (rcpAddress)]**&#x200B;입니다.
 기본적으로 대체는 임의로 수행되지만 **[!UICONTROL Detail]** 아이콘을 통해 기본 대상에서 특정 받는 사람을 선택할 수 있습니다.
    * **[!UICONTROL Seed addresses]**: 증명 대상이 될 시드 주소에 액세스할 수 있도록 해줍니다. 이러한 주소는 파일에서 가져오거나 수동으로 입력할 수 있습니다.
    * **[!UICONTROL Specific target and Seed addresses]**: 받는 사람의 시드 주소와 주소를 결합할 수 있습니다.
