@@ -5,9 +5,9 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1417'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
 </srcSchema>
 ```
 
-데이터 스키마의 XML 문서에는 스키마 이름과 해당 네임스페이스를 채우려면 **이름** 및 **네임스페이스** 특성이 있는 **`<srcschema>`** 루트 요소가 있어야 합니다.
+데이터 스키마의 XML 문서에는 스키마 이름과 해당 네임스페이스를 채우려면 **`<srcschema>`**&#x200B;이름&#x200B;**및**&#x200B;네임스페이스&#x200B;**특성이 있는** 루트 요소가 있어야 합니다.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -122,9 +122,9 @@ ht-degree: 1%
 
 ## 데이터 유형 {#data-types}
 
-데이터 형식은 **`<attribute>`** 및 **`<element>`** 요소의 **type** 특성을 통해 입력됩니다.
+데이터 형식은 **및** 요소의 **`<attribute>`** type **`<element>`** 특성을 통해 입력됩니다.
 
-자세한 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ko#configuring-campaign-classic){target="_blank"}를 참조하세요.
+자세한 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}를 참조하세요.
 
 이 특성이 채워지지 않으면 요소에 자식 요소가 들어 있지 않으면 **string**&#x200B;이(가) 기본 데이터 형식입니다. 이 경우 요소를 계층 구조화하는 데만 사용됩니다(이 예제에서는 **`<location>`** 요소).
 
@@ -222,6 +222,8 @@ ht-degree: 1%
 `<sqldefault>`: 필드를 만들 때 값을 추가할 수 있습니다. 이 값은 SQL 결과로 나타납니다. 스키마 업데이트 중에는 새 레코드만 이 값의 영향을 받습니다.
 
 ### 열거형 {#enumerations}
+
+필드 값을 제어하려면 무료, 고정 또는 데이터베이스 기반 [열거형](../dev/enumerations.md)을 사용하세요. 보다 쉬운 입력, 일관된 데이터 및 유연한 스키마 디자인을 위한 드롭다운 목록을 제공합니다.
 
 #### 자유 열거형 {#free-enumeration}
 

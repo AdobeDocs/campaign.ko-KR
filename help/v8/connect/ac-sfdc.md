@@ -5,9 +5,9 @@ feature: Salesforce Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '359'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Campaign v8을 **Salesforce.com**&#x200B;에 연결하도록 Campaign CRM 커넥터를 구성하는 방법을 알아봅니다.
 
-구성이 완료되면 전용 워크플로우 활동을 통해 시스템 간의 데이터 동기화가 수행됩니다. [자세히 알아보기](crm-data-sync.md).
+구성이 완료되면 전용 워크플로우 활동을 통해 시스템 간의 데이터 동기화가 수행됩니다. [자세히 알아보기](crm-data-sync.md)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Salesforce 데이터를 Adobe Campaign으로 가져오고 내보내도록 전용
 먼저 Salesforce 외부 계정을 만들어야 합니다.
 
 1. Campaign 탐색기의 **[!UICONTROL Administration > Platform > External accounts]** 노드를 검색하고 외부 계정을 만듭니다.
-1. **Type** 섹션에서 **[!UICONTROL Salesforce.com]** 외부 계정을 선택하십시오.
+1. **[!UICONTROL Salesforce.com]** Type **섹션에서** 외부 계정을 선택하십시오.
 1. 연결을 활성화하려면 설정을 입력하십시오.
 
    ![](assets/sfdc-external-account.png)
@@ -66,7 +66,7 @@ Salesforce 데이터를 Adobe Campaign으로 가져오고 내보내도록 전용
 
 1. **[!UICONTROL Synchronizing enumerations...]** 링크에서 도우미를 엽니다.
 1. Salesforce 열거와 일치하는 Adobe Campaign 열거를 선택합니다.
-Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니다. 이렇게 하려면 **[!UICONTROL Replace]** 열에서 **[!UICONTROL Yes]**&#x200B;을(를) 선택하십시오.
+Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니다. 이렇게 하려면 **[!UICONTROL Yes]** 열에서 **[!UICONTROL Replace]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/sfdc-enum.png)
 
@@ -78,4 +78,6 @@ Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니�
 
 Adobe Campaign 데이터와 SFDC 간에 데이터를 동기화하려면 워크플로우를 만들고 **[!UICONTROL CRM connector]** 활동을 사용합니다.
 
-이 페이지[&#128279;](crm-data-sync.md)에서 데이터 동기화 에 대해 자세히 알아보세요.
+이 페이지[에서 데이터 동기화 ](crm-data-sync.md)에 대해 자세히 알아보세요.
+
+이 페이지[에서 Campaign ](../dev/enumerations.md)의 열거 관리에 대해 자세히 알아보세요.

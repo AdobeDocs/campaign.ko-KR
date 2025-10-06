@@ -5,10 +5,10 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 2%
+source-wordcount: '1386'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 크로스 채널 통신에서 CRM 데이터 활성화: **Microsoft Dynamics 365**&#x200B;에서 Adobe Campaign으로 연락처를 전달하고 Adobe Campaign 성능 데이터(전송, 열기, 클릭, 바운스)를 다시 Microsoft Dynamics 365로 공유하는 방법을 알아봅니다.
 
-구성이 완료되면 전용 워크플로우 활동을 통해 시스템 간의 데이터 동기화가 수행됩니다. [자세히 알아보기](crm-data-sync.md).
+구성이 완료되면 전용 워크플로우 활동을 통해 시스템 간의 데이터 동기화가 수행됩니다. [자세히 알아보기](crm-data-sync.md)
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Microsoft Dynamics 365 데이터를 Adobe Campaign으로 가져오고 내보내�
 
 ## Microsoft Dynamics 365 구성 {#config-crm-microsoft}
 
-**웹 API**&#x200B;를 통해 Adobe Campaign에서 작동하도록 Microsoft Dynamics 365를 연결하려면 **전역 관리자** 자격 증명을 사용하여 [Microsoft Azure 디렉터리](https://portal.azure.com)에 로그온한 후 아래 단계를 수행합니다.
+**웹 API**&#x200B;를 통해 Adobe Campaign에서 작동하도록 Microsoft Dynamics 365를 연결하려면 [전역 관리자](https://portal.azure.com) 자격 증명을 사용하여 **Microsoft Azure 디렉터리**&#x200B;에 로그온한 후 아래 단계를 수행합니다.
 
 1. Dynamics 365 응용 프로그램(클라이언트) ID를 가져옵니다. [자세히 알아보기](#get-client-id-microsoft)
 1. Microsoft Dynamics 인증서 키 식별자 및 키 ID를 생성합니다. [자세히 알아보기](#config-certificate-key-id)
@@ -63,7 +63,7 @@ Microsoft Dynamics 365 데이터를 Adobe Campaign으로 가져오고 내보내�
 1. 공개 인증서를 업로드합니다.
 1. **매니페스트** 링크로 이동하여 **인증서 키 식별자(customKeyIdentifier)** 및 **키 ID(keyId)**&#x200B;를 가져옵니다.
 
-인증서 **[!UICONTROL CRM O-Auth type]**&#x200B;을(를) 사용하여 Microsoft Dynamics 365 CRM 외부 계정을 구성하려면 Campaign에서 **인증서 키 식별자(customKeyIdentifier)** 및 **키 ID(keyId)**&#x200B;이(가) 필요합니다.
+인증서 **을(를) 사용하여 Microsoft Dynamics 365 CRM 외부 계정을 구성하려면 Campaign에서**&#x200B;인증서 키 식별자(customKeyIdentifier)**및**&#x200B;키 ID(keyId)**[!UICONTROL CRM O-Auth type]**&#x200B;이(가) 필요합니다.
 
 +++ 공개 인증서를 생성하는 방법
 
@@ -129,7 +129,7 @@ Microsoft Dynamics 365 데이터를 Adobe Campaign으로 가져오고 내보내�
 1. [Microsoft Azure](https://portal.azure.com)에서 **설정 > 보안 > 사용자**(으)로 이동합니다.
 1. 드롭다운을 클릭하고 **응용 프로그램 사용자**&#x200B;를 선택한 다음 **새로 만들기**&#x200B;를 클릭합니다.
 1. 위의 active directory에서 만든 사용자와 동일한 사용자 이름을 사용합니다.
-1. [이전에 만든 응용 프로그램](#get-client-id-microsoft)에 대해 **응용 프로그램 ID**&#x200B;을(를) 지정하십시오.
+1. **이전에 만든 응용 프로그램**&#x200B;에 대해 [응용 프로그램 ID](#get-client-id-microsoft)을(를) 지정하십시오.
 1. **역할 관리**&#x200B;를 클릭하고 사용자에게 **시스템 관리자** 역할을 선택하십시오.
 
 ## Campaign 구성 {#configure-acc-for-microsoft}
@@ -139,7 +139,7 @@ Microsoft Dynamics 365 데이터를 Adobe Campaign으로 가져오고 내보내�
 먼저 Microsoft Dynamics 365 외부 계정을 만들어야 합니다.
 
 1. Campaign 탐색기의 **[!UICONTROL Administration > Platform > External accounts]** 노드를 검색하고 외부 계정을 만듭니다.
-1. **Type** 섹션에서 **[!UICONTROL Microsoft Dynamics CRM]** 외부 계정을 선택하십시오.
+1. **[!UICONTROL Microsoft Dynamics CRM]** Type **섹션에서** 외부 계정을 선택하십시오.
 1. **[!UICONTROL CRM O-Auth type]** 드롭다운 목록에서 인증 방법을 선택하십시오.
 
    ![](assets/ms-dyn-external-account.png)
@@ -156,8 +156,8 @@ Microsoft Dynamics 365 데이터를 Adobe Campaign으로 가져오고 내보내�
 
       * **서버**: Microsoft CRM 서버의 URL. Microsoft CRM Server URL을 찾으려면 Microsoft Dynamics CRM 계정에 액세스한 다음 Dynamics 365를 클릭하고 앱을 선택하십시오. 그런 다음 브라우저의 주소 표시줄에서 서버 URL을 찾을 수 있습니다(예: https://myserver.crm.dynamics.com/).
       * **개인 키**: [이 섹션](#config-certificate-key-id)에 설명된 대로 base64로 인코딩된 개인 키를 복사하거나 붙여 넣습니다.
-      * **키 ID**: [이 섹션](#config-certificate-key-id)에 설명된 대로 응용 프로그램의 **매니페스트** 탭에서 사용할 수 있는 키입니다.
-      * **사용자 지정 키 식별자**: [이 섹션](#config-certificate-key-id)에 설명된 대로 응용 프로그램의 **매니페스트** 탭에서 사용할 수 있는 식별자입니다.
+      * **키 ID**: **이 섹션**&#x200B;에 설명된 대로 응용 프로그램의 [매니페스트](#config-certificate-key-id) 탭에서 사용할 수 있는 키입니다.
+      * **사용자 지정 키 식별자**: **이 섹션**&#x200B;에 설명된 대로 응용 프로그램의 [매니페스트](#config-certificate-key-id) 탭에서 사용할 수 있는 식별자입니다.
       * **클라이언트 식별자**: [이 섹션](#get-client-id-microsoft)에 설명된 대로 Microsoft Azure 관리 포털에서 찾을 수 있는 응용 프로그램(클라이언트) ID입니다.
       * **CRM 버전**: Dynamics CRM 365 CRM 버전을 선택하십시오.
 
@@ -185,7 +185,7 @@ Microsoft Dynamics 365 데이터를 Adobe Campaign으로 가져오고 내보내�
 
 1. **[!UICONTROL Synchronizing enumerations...]** 링크에서 도우미를 엽니다.
 1. Dynamics 365 열거와 일치하는 Adobe Campaign 열거를 선택합니다.
-Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니다. 이렇게 하려면 **[!UICONTROL Replace]** 열에서 **[!UICONTROL Yes]**&#x200B;을(를) 선택하십시오.
+Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니다. 이렇게 하려면 **[!UICONTROL Yes]** 열에서 **[!UICONTROL Replace]**&#x200B;을(를) 선택하십시오.
 1. 열거형을 가져오려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 1. 가져온 값을 확인하려면 **[!UICONTROL Administration > Platform > Enumerations]** 노드를 검색하십시오.
 
@@ -193,7 +193,9 @@ Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니�
 
 Adobe Campaign 데이터와 Microsoft CRM 간의 데이터를 동기화하려면 워크플로우를 만들고 **[!UICONTROL CRM connector]** 활동을 사용합니다.
 
-이 페이지[&#128279;](crm-data-sync.md)에서 데이터 동기화 에 대해 자세히 알아보세요.
+이 페이지[에서 데이터 동기화 ](crm-data-sync.md)에 대해 자세히 알아보세요.
+
+이 페이지[에서 Campaign ](../dev/enumerations.md)의 열거 관리에 대해 자세히 알아보세요.
 
 ### 지원되는 필드 데이터 유형 {#ms-dyn-supported-types}
 
