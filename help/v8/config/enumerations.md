@@ -5,9 +5,9 @@ feature: Configuration, Application Settings
 role: Developer
 version: Campaign v8, Campaign Classic v7
 level: Intermediate, Experienced
-source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
+source-git-commit: a1f479538a2d93a2ec13e35cb6813e09c8c4a5f8
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
@@ -16,19 +16,19 @@ ht-degree: 1%
 
 열거형(항목별 목록이라고도 함)은 특정 필드를 채우는 데 사용할 수 있는 미리 정의된 값 목록입니다. 열거형을 사용하면 필드 값을 표준화하여 데이터 항목을 보다 일관되게 만들고 쿼리를 단순화할 수 있습니다.
 
-사용 가능한 경우 값이 드롭다운 목록에 나타납니다. 값을 직접 선택하거나 입력을 시작할 수 있습니다. 예측 입력은 일치하는 값을 제안하고 자동으로 완료합니다.
+정의된 값은 드롭다운 목록에 표시됩니다. 값을 직접 선택하거나 일치하는 항목을 제안하고 완료하는 예측 입력을 사용하여 입력할 수 있습니다. 일부 필드에는 사전 정의된 열거형이 포함되어 있으며, 필요한 경우 추가 열거형을 만들 수 있습니다.
 
 ![](assets/enum_values.png)
 
-일부 콘솔 필드는 열거형으로 구성됩니다. 열거형이 **open**&#x200B;인 경우 필드에 직접 새 값을 추가할 수도 있습니다.
-
-![열거형 액세스](../config/assets/enumerations-menu.png)
 
 ## 열거형 유형 {#types-of-enum}
 
 열거형은 탐색기의 **[!UICONTROL Administration > Platform > Enumerations]** 폴더에 저장됩니다.
 
-열기, 시스템, 이모티콘 또는 닫힘 상태일 수 있습니다.
+![열거형 액세스](../config/assets/enumerations-menu.png)
+
+
+열거형은 **열기**, **시스템**, **이모티콘** 또는 **닫힘**&#x200B;일 수 있습니다.
 
 * **Open** 열거형을 사용하면 이 열거형을 기반으로 필드에 직접 새 값을 추가할 수 있습니다.
 * **Closed** 열거형에는 탐색기의 **[!UICONTROL Administration > Platform > Enumerations]** 폴더에서만 수정할 수 있는 고정 값 목록이 있습니다.
@@ -44,11 +44,12 @@ ht-degree: 1%
 
 ## 별칭 정리 {#alias-cleansing}
 
-열거형 필드에서 값을 선택하거나 드롭다운 목록에서 사용할 수 없는 사용자 지정 값을 입력할 수 있습니다. 사용자 지정 값을 기존 열거형 값에 새 값으로 추가할 수 있습니다. 이 경우 **[!UICONTROL Open]** 옵션을 선택해야 합니다. 이러한 사용자 지정 값은 별칭 정리 기능을 사용하여 정리할 수 있습니다. 예를 들어 사용자가 `Adob` 대신 `Adobe`을(를) 입력하면 별칭 정리 프로세스에서 자동으로 올바른 용어로 대체할 수 있습니다.
+열거형 필드의 드롭다운 목록에서 값을 선택하거나, 목록에서 값을 사용할 수 없는 경우 수동으로 입력할 수 있습니다. **[!UICONTROL Open]** 옵션을 사용하도록 설정하면 사용자 지정 값을 열거에 추가할 수 있습니다. 이러한 값은 나중에 별칭 정리를 통해 표준화할 수 있습니다. 별칭 정리는 올바른 용어로 변형을 자동으로 바꿉니다(예: `Adob`을(를) `Adobe`(으)로 변환).
+
 
 >[!CAUTION]
 >
->데이터 정리는 데이터베이스의 데이터에 영향을 주는 중요한 프로세스입니다. Adobe Campaign은 대량 데이터 업데이트를 수행하여 일부 값이 삭제될 수 있습니다. 따라서 이 작업은 전문가 사용자용으로 예약되어 있습니다.
+>데이터 정리는 데이터베이스 값에 영향을 주는 중요한 작업입니다. Adobe Campaign은 대량 데이터 업데이트를 수행하여 특정 값이 삭제될 수 있습니다. 이 작업은 전문가 사용자만을 대상으로 합니다.
 
 열거에 데이터 정리 기능을 사용하려면 **[!UICONTROL Alias cleansing]** 옵션을 활성화하십시오. 이 옵션을 선택하면 **[!UICONTROL Alias]** 탭이 창 하단에 표시됩니다.
 
