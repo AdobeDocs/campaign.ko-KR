@@ -135,4 +135,4 @@ Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하
 
 ## 워크플로 전체 사용 사례{#end-to-end-uc}
 
-이 섹션[에서 캠페인 워크플로우 기능 ](../../automation/workflow/workflow-use-cases.md)을(를) 활용하는 사용 사례를 통해 알아봅니다.
+이 섹션[에서 캠페인 워크플로우 기능 &#x200B;](../../automation/workflow/workflow-use-cases.md)을(를) 활용하는 사용 사례를 통해 알아봅니다.
