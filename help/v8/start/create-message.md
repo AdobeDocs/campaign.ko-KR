@@ -6,8 +6,8 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+workflow-type: tm+mt
 source-wordcount: '1523'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
    다음과 같은 대상 유형을 사용할 수 있습니다.
 
-   * **[!UICONTROL Filtering conditions]**: 쿼리를 정의하고 결과를 표시하려면 이 옵션을 사용합니다. [이 섹션](../../automation/workflow/query.md)에서 쿼리를 디자인하는 방법을 알아보십시오.
+   * **[!UICONTROL Filtering conditions]**: 쿼리를 정의하고 결과를 표시하려면 이 옵션을 사용합니다. [이 섹션](../start/query-editor.md)에서 쿼리를 디자인하는 방법을 알아보십시오.
    * **[!UICONTROL A list of recipients]**: 프로필 목록을 타기팅하려면 이 옵션을 사용합니다. 목록에 대한 자세한 내용은 [이 섹션](../audiences/create-audiences.md)을 참조하십시오.
    * **[!UICONTROL A recipient]**: 데이터베이스의 특정 프로필을 선택하려면 이 옵션을 사용합니다.
    * **[!UICONTROL Recipients included in a folder]**: 특정 폴더에 포함된 모든 프로필을 타기팅하려면 이 옵션을 사용합니다.
@@ -182,7 +182,7 @@ ht-degree: 100%
 
 이 비디오에서는 기존 이메일에 시드 및 증명을 추가하는 방법과 이를 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447006?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.
 

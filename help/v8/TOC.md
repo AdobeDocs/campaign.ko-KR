@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '791'
 ht-degree: 96%
 
 ---
@@ -133,8 +133,9 @@ ht-degree: 96%
 + 콘텐츠 관리 {#content}
    + [랜딩 페이지 만들기](dev/landing-pages.md)
    + [웹 앱 및 양식 디자인](dev/webapps.md)
-+ 자동화와 워크플로 {#automation}
-   + [Campaign Automation 안내서 >](https://experienceleague.adobe.com/ko/docs/campaign/automation/home)
++ 워크플로 {#workflows}
+   + [워크플로 시작하기](config/workflows.md)
+   + [워크플로 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
 + 개인 정보 보호 및 보안 관리 {#privacy}
    + [개인 정보 보호 요청 관리](start/privacy.md)
    + [보안 지침](config/security.md)
@@ -174,9 +175,11 @@ ht-degree: 96%
          + [기본 제공 메트릭 계산](reporting/metrics-calculation.md)
       + [사용자 정의 보고서](reporting/custom-reports.md)
 + 데이터 관리 {#data}
-   + [워크플로 시작](config/workflows.md)
+   + [워크플로 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
    + [데이터 가져오기](start/import.md)
-   + [워크플로 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
+   + 쿼리 만들기 {#query}
+      + [쿼리 디자인](start/query-editor.md)
+      + [필터 조건 정의](start/filter-conditions.md)
 + 통합 {#connect}
    + [캠페인을 다른 솔루션과 연결](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}

@@ -6,7 +6,7 @@ feature: Campaigns, Audiences
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 1%
@@ -182,7 +182,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 캠페인 수준에서 컨트롤 그룹을 정의할 수 있습니다. 이 경우 컨트롤 그룹은 해당 캠페인의 각 게재에 적용됩니다.
 
 1. 관련 캠페인을 편집하고 **[!UICONTROL Edit]** 탭을 클릭합니다.
-1. **[!UICONTROL Advanced campaign parameters...]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Advanced campaign parameters...]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/enable-control-group.png)
 
@@ -222,7 +222,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 >[!NOTE]
 >
->Adobe Campaign 쿼리 편집기가 [이 섹션](../workflow/query.md)에 표시됩니다.
+>Adobe Campaign 쿼리 편집기가 [이 섹션](../../v8/start/query-editor.md)에 표시됩니다.
 
 ### 주 대상에서 컨트롤 그룹 추출 {#extract-the-control-group-from-the-main-target}
 
@@ -248,4 +248,4 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ko){target="_blank"}에서 사용할 수 있습니다.
+추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}에서 사용할 수 있습니다.

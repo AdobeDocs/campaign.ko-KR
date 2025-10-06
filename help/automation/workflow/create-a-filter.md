@@ -6,24 +6,24 @@ feature: Query Editor, Workflows
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 8e6fd9b4-77c4-4af8-921b-c3fe104fa5bc
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '220'
 ht-degree: 2%
 
 ---
 
 # 필터 만들기 {#creating-a-filter}
 
-Adobe Campaign에서 사용할 수 있는 필터는 쿼리와 동일한 운영 모드를 사용하여 만드는 필터링 조건을 통해 정의됩니다.
+Adobe Campaign에서 사용할 수 있는 필터는 [쿼리 편집기](../../v8/start/query-editor.md)에서 쿼리를 작성할 때와 동일한 운영 모드를 사용하여 만든 필터링 조건을 통해 정의됩니다.
 
-**[!UICONTROL Administration > Configuration > Predefined filters]** 노드에는 목록 및 개요에 사용된 모든 필터가 포함되어 있습니다.
+**[!UICONTROL Administration > Configuration > Predefined filters]** 노드에 모든 기본 필터가 있습니다. 이들 중 일부는 목록 및 개요에 사용됩니다. [기본 제공 미리 정의된 필터](../../v8/audiences/create-filters.md)에 대해 자세히 알아보세요.
 
 예를들어 연산자 목록은 **[!UICONTROL Active accounts]**(으)로 필터링될 수 있습니다.
 
 ![](assets/query_editor_filter_sample_1.png)
 
-일치하는 필터에 **[!UICONTROL Operators]** 스키마의 **[!UICONTROL Account disabled]** 값에 대한 쿼리가 포함되어 있습니다.
+일치하는 필터에 **[!UICONTROL Account disabled]** 스키마의 **[!UICONTROL Operators]** 값에 대한 쿼리가 포함되어 있습니다.
 
 ![](assets/query_editor_filter_sample_2.png)
 

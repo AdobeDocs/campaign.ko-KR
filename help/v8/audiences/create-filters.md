@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '1607'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 ![](assets/built-in-filter-preview.png)
 
 
-기본 제공 사전 정의된 필터는 다음과 같습니다.
++++  기본 제공 사전 정의된 필터
 
 <table> 
  <tbody> 
@@ -159,6 +159,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
  </tbody> 
 </table>
 
++++
 
 ### 기본 필터{#default-filters}
 
@@ -196,7 +197,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 빠른 필터는 각 연산자에 따라 다르며 연산자가 클라이언트 콘솔의 캐시를 지울 때마다 다시 초기화됩니다.
 
-필터를 다시 사용해야 하는 경우 **고급 필터**&#x200B;를 만들어 저장합니다. [자세히 알아보기](#advanced-filters).
+필터를 다시 사용해야 하는 경우 **고급 필터**&#x200B;를 만들어 저장합니다. [자세히 알아보기](#advanced-filters)
 
 **빠른 필터**&#x200B;를 만들려면 다음 단계를 수행합니다.
 
@@ -247,7 +248,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 필터링 조건을 정의합니다. 아래 예에서는 계정 번호가 NL로 시작하지 않은 수신자 및 Paris 또는 Los Angeles에 사는 수신자를 필터링합니다.
 
-1. **[!UICONTROL Expression]** 열의 **[!UICONTROL Edit expression]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Edit expression]** 열의 **[!UICONTROL Expression]** 아이콘을 클릭합니다.
 
    ![](assets/edit-exp.png)
 
@@ -328,9 +329,9 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 이러한 통합 샘플에서 고급 쿼리를 작성하는 방법을 알아봅니다.
 
-* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}에서 간단한 받는 사람 특성을 타깃팅하는 방법에 대해 알아봅니다.
-* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=ko){target="_blank"}에서 지난 7일 동안 연락하지 않은 받는 사람을 필터링하는 방법을 알아보세요.
-* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ko){target="_blank"}에서 활성 계정으로 필터링할 수 있는 연산자 목록을 복구하는 방법을 알아봅니다.
+* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}에서 간단한 받는 사람 특성을 타깃팅하는 방법에 대해 알아봅니다.
+* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}에서 지난 7일 동안 연락하지 않은 받는 사람을 필터링하는 방법을 알아보세요.
+* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}에서 활성 계정으로 필터링할 수 있는 연산자 목록을 복구하는 방법을 알아봅니다.
 * [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ko){target="_blank"}에서 생일 전자 메일 대상자를 만드는 방법을 알아보세요.
 
 
@@ -353,3 +354,6 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
    * SQL 테이블을 필터와 연결하여 테이블을 공유하는 모든 편집자에게 공통되도록 할 수 있습니다.
    * 사용자가 필터를 오버라이드하지 못하도록 하려면 **[!UICONTROL Do not restrict the filter]** 옵션을 선택하십시오. 예를 들어 이 옵션은 게재 마법사에서 사용할 수 있는 &quot;게재 수신자&quot; 및 &quot;폴더에 속한 게재 수신자&quot; 필터에 대해 활성화됩니다. 이러한 필터는 오버로드할 수 없습니다.
+
+
+### 연산자

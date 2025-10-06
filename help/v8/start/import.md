@@ -6,35 +6,22 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
-source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '4027'
-ht-degree: 5%
+source-wordcount: '3832'
+ht-degree: 4%
 
 ---
 
 # 데이터를 Campaign으로 가져오기 {#ootb-profiles}
 
-Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 불러오고, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 테이블에 직접 프로필 정보를 입력할 수 있습니다.
-
-[대상자](audiences.md) 시작하기
-
-Campaign [데이터 모델](../dev/datamodel.md) 이해
-
-## 워크플로에서 프로필 가져오기
+Campaign을 사용하면 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 불러오고, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 테이블에 직접 프로필 정보를 입력할 수 있습니다.
 
 프로필 가져오기는 **가져오기** 활동을 통해 워크플로를 통해 실행되는 전용 템플릿에서 구성됩니다. 일정에 따라 자동으로 반복될 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. [이 섹션](../../automation/workflow/recurring-import-workflow.md)에서 자세히 알아봅니다.
 
 ![](assets/import-wf.png)
 
-
-## 단일 가져오기 실행
-
-일반 데이터 가져오기 작업을 만들고 실행하여 Cloud 데이터베이스에서 연락처를 불러들입니다.
-
-![](assets/new-import.png)
-
-### 데이터 가져오기
+## 가져오기 실행
 
 Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB 또는 XML 형식으로 데이터를 데이터베이스로 가져올 수 있습니다. 이러한 파일은 테이블(기본 파일 또는 연결된 파일)과 연결되고 소스 파일의 각 필드는 데이터베이스의 필드와 연결됩니다.
 
@@ -42,19 +29,18 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 >
 >**[!UICONTROL Import a list]** 함수를 사용하여 데이터베이스 데이터와 매핑하지 않고 데이터를 가져올 수 있습니다. 그런 다음 **[!UICONTROL Read list]** 개체를 통해 워크플로우에서만 데이터를 사용할 수 있습니다. 자세한 정보는 이 [페이지](../../automation/workflow/read-list.md)를 참조하십시오.
 
+
+## 가져오기 도우미 사용
+
 가져오기 도우미에서 가져오기를 구성하고, 해당 옵션(예: 데이터 변환)을 정의하고, 실행을 시작할 수 있습니다. 가져오기 유형(단순 또는 다중)과 운영자의 권한에 따라 콘텐츠가 달라지는 일련의 화면입니다.
 
 가져오기 도우미는 새 가져오기 작업을 만든 후에 표시됩니다.
 
->[!NOTE]
->
->IIS 웹 서버를 사용하는 경우 대용량 파일(28MB 초과) 업로드를 승인하려면 구성이 필요할 수 있습니다.
-
-#### 소스 파일 {#source-file}
+![](assets/new-import.png)
 
 소스 파일에서 각 행은 레코드와 일치합니다. 레코드의 데이터는 구분 기호(공백, 탭, 문자 등)로 구분됩니다. 즉, 데이터는 열 형태로 검색되며 각 열은 데이터베이스의 필드와 연결됩니다.
 
-## 1단계 - 가져오기 템플릿 선택 {#step-1---choosing-the-import-template}
+### 1단계 - 가져오기 템플릿 선택 {#step-1---choosing-the-import-template}
 
 가져오기 도우미를 시작할 때 먼저 템플릿을 선택해야 합니다. 예를 들어 뉴스레터를 수신한 수신자의 가져오기를 구성하려면 아래 단계를 따르십시오.
 
@@ -84,37 +70,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
    >
    >여러 가져오기는 특정 요구 사항만 충족해야 하며 권장되지 않습니다.
 
-### 고급 매개 변수 {#advanced-parameters}
-
-**[!UICONTROL Advanced parameters]** 링크를 사용하여 다음 옵션에 액세스할 수 있습니다.
-
-* **[!UICONTROL General]** 탭
-
-   * **[!UICONTROL Stop execution if there are too many rejects]**
-
-     이 옵션은 기본적으로 선택되어 있습니다. 거부 수에 관계없이 가져오기를 계속 실행하려면 가져오기를 선택 해제할 수 있습니다. 기본적으로 처음 100개 행이 거부되면 실행이 중지됩니다.
-
-   * **[!UICONTROL Trace mode]**
-
-     각 라인에 대한 가져오기 실행을 추적하려면 이 옵션을 선택합니다.
-
-   * **[!UICONTROL Start the job in a detached process]**
-
-     이 옵션은 기본적으로 선택되어 있습니다. 가져오기 실행을 분리하여 데이터베이스에서 진행 중인 다른 작업에 영향을 주지 않도록 할 수 있습니다.
-
-   * **[!UICONTROL Do not update enumerations]**
-
-     데이터베이스에 열거형 값 목록이 보강되지 않도록 하려면 이 옵션을 선택합니다. [열거형](../config/enumerations.md)에 대해 자세히 알아보세요.
-
-* **[!UICONTROL Variables]** 탭
-
-  쿼리 편집기 및 계산된 필드에서 액세스할 수 있는 작업과 관련된 변수를 정의할 수 있습니다. 변수를 만들려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 변수 편집기를 사용하십시오.
-
-  >[!IMPORTANT]
-  >
-  >**[!UICONTROL Variables]** 탭은 워크플로 형식 프로그래밍 전용이며 전문가 사용자만 구성해야 합니다.
-
-## 2단계 - Source 파일 선택 {#step-2---source-file-selection}
+#### 2단계 - Source 파일 선택 {#step-2---source-file-selection}
 
 소스 파일은 텍스트 형식(txt, csv, tab, 고정 열) 또는 xml일 수 있습니다.
 
@@ -146,7 +102,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 서식을 저장한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 다음 단계를 표시합니다.
 
-## 3단계 - 필드 매핑 {#step-3---field-mapping}
+### 3단계 - 필드 매핑 {#step-3---field-mapping}
 
 그런 다음 대상 스키마를 선택하고 각 열의 데이터를 데이터베이스의 필드에 매핑해야 합니다.
 
@@ -173,7 +129,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 * 중앙 테이블의 오른쪽에 있는 적절한 아이콘을 사용하여 계산된 필드를 추가할 수 있습니다. 계산된 필드를 사용하면 복잡한 변환을 수행하거나 가상 열을 추가하거나 여러 열의 데이터를 병합할 수 있습니다. 다양한 가능성에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
-### 계산된 필드 {#calculated-fields}
+#### 계산된 필드 {#calculated-fields}
 
 계산된 필드는 소스 파일에 추가된 새 열이며 다른 열에서 계산됩니다. 그런 다음 계산된 필드를 Adobe Campaign 데이터베이스의 필드와 연결할 수 있습니다. 그러나 계산된 필드에서는 조정 작업을 수행할 수 없습니다.
 
@@ -190,7 +146,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
   ![](assets/s_ncs_user_import_wizard03_4.png)
 
-#### 4단계 - 조정 {#step-4---reconciliation}
+### 4단계 - 조정 {#step-4---reconciliation}
 
 가져오기 도우미의 조정 단계에서는 파일의 데이터를 데이터베이스의 기존 데이터와 조정하는 모드를 정의하고 파일 데이터와 데이터베이스 데이터 간의 우선순위 규칙을 설정할 수 있습니다. 구성 창은 다음과 같습니다.
 
@@ -292,7 +248,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 ![](assets/s_ncs_user_import_errors_export.png)
 
-#### 5단계 - 수신자를 가져올 때 추가 단계 {#step-5---additional-step-when-importing-recipients}
+### 5단계 - 수신자를 가져올 때 추가 단계 {#step-5---additional-step-when-importing-recipients}
 
 가져오기 도우미의 다음 단계에서는 데이터를 가져올 폴더를 선택하거나 만들고, 가져온 수신자를 (신규 또는 기존) 목록에 자동으로 매핑하고, 수신자를 서비스에 가입할 수 있습니다.
 
@@ -348,7 +304,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 이 단계의 유효성을 검사하고 다음 단계를 표시합니다.
 
-## 6단계 - 가져오기 시작 {#step-6---launching-the-import}
+### 6단계 - 가져오기 시작 {#step-6---launching-the-import}
 
 도우미의 마지막 단계에서는 데이터 가져오기를 시작할 수 있습니다. 이렇게 하려면 **[!UICONTROL Start]** 단추를 클릭하십시오.
 
@@ -356,7 +312,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 그런 다음 가져오기 작업의 실행을 모니터링할 수 있습니다([워크플로우 실행 모니터링](../../automation/workflow/monitor-workflow-execution.md) 참조).
 
-### 데이터 내보내기
+## 데이터 내보내기
 
 내보내기 작업을 사용하면 연락처, 클라이언트, 목록, 세그먼트 등 데이터베이스에서 데이터를 액세스하고 추출할 수 있습니다.
 
@@ -366,7 +322,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 내보내기 도우미는 새 내보내기 작업을 만든 후에 표시됩니다.
 
-#### 1단계 - 내보내기 템플릿 선택 {#step-1---choosing-the-export-template}
+### 1단계 - 내보내기 템플릿 선택 {#step-1---choosing-the-export-template}
 
 내보내기 도우미를 시작할 때 먼저 템플릿을 선택해야 합니다. 예를 들어 최근에 등록한 수신자의 내보내기를 구성하려면 아래 단계를 수행합니다.
 
@@ -382,7 +338,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 1. **[!UICONTROL Label]** 필드에 내보낼 이름을 입력합니다. 설명을 추가할 수 있습니다.
 1. 내보내기 유형을 선택합니다. 내보내기 유형에는 두 가지가 있습니다. 하나 이상의 원본 문서 유형에서 한 개의 파일만 내보내는 **[!UICONTROL Simple export]**&#x200B;과(와) 한 번의 실행으로 여러 개의 파일을 내보내는 **[!UICONTROL Multiple export]**&#x200B;이(가) 있습니다.
 
-## 2단계 - 내보낼 파일 유형 {#step-2---type-of-file-to-export}
+### 2단계 - 내보낼 파일 유형 {#step-2---type-of-file-to-export}
 
 내보낼 문서 유형(예: 내보낼 데이터의 스키마)을 선택합니다.
 
@@ -415,7 +371,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 * 날짜 형식과 숫자 형식을 나타냅니다. 이렇게 하려면 관련 필드의 **[!UICONTROL Edit]** 단추를 클릭하고 편집기를 사용합니다.
 * 열거형 값이 포함된 필드의 경우 **[!UICONTROL Export labels instead of internal values of enumerations]**&#x200B;을(를) 선택할 수 있습니다. 예를 들어 제목은 **1=Mr 형식으로 저장할 수 있습니다.**, **2=Miss**, **3=Mrs.**. 이 옵션을 선택하면 **Mr**, **Miss** 및 **Mrs**&#x200B;을(를) 내보냅니다.
 
-#### 4단계 - 데이터 선택 {#step-4---data-selection}
+### 4단계 - 데이터 선택 {#step-4---data-selection}
 
 내보낼 필드를 선택합니다. 방법은 다음과 같습니다.
 
@@ -426,19 +382,19 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 1. 함수를 호출하려면 **[!UICONTROL Add]** 단추를 클릭하십시오.
 
-#### 5단계 - 열 정렬 {#step-5---sorting-columns}
+### 5단계 - 열 정렬 {#step-5---sorting-columns}
 
 열의 정렬 순서를 선택합니다.
 
 ![](assets/s_ncs_user_export_wizard05.png)
 
-#### 6단계 - 조건 필터링 {#step-6---filter-conditions-}
+### 6단계 - 조건 필터링 {#step-6---filter-conditions-}
 
 모든 데이터를 내보내지 않도록 필터 조건을 추가할 수 있습니다. 이 필터링의 구성은 게재 도우미에서 수신자 타겟팅과 동일합니다.
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
-#### 7단계 - 데이터 서식 {#step-7---data-formatting}
+### 7단계 - 데이터 서식 {#step-7---data-formatting}
 
 출력 파일에 대한 필드의 순서와 레이블을 수정하고 소스 데이터에 변환을 적용할 수 있습니다.
 
@@ -458,7 +414,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 ![](assets/s_ncs_user_export_wizard06_c.png)
 
-#### 8단계 - 데이터 미리보기 {#step-8---data-preview}
+### 8단계 - 데이터 미리보기 {#step-8---data-preview}
 
 내보내기 결과를 미리 보려면 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭합니다. 기본적으로 처음 200개의 줄이 표시됩니다. 이 값을 변경하려면 **[!UICONTROL Lines to display]** 필드 오른쪽에 있는 화살표를 클릭합니다.
 
@@ -466,7 +422,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 열 결과 미리 보기에서 XML로 전환하려면 길잡이 아래쪽에 있는 탭을 클릭합니다. 생성된 SQL 쿼리를 볼 수도 있습니다.
 
-#### 9단계 - 내보내기 시작 {#step-9---launching-the-export}
+### 9단계 - 내보내기 시작 {#step-9---launching-the-export}
 
 데이터 내보내기를 시작하려면 **[!UICONTROL Start]**&#x200B;을(를) 클릭하십시오.
 
@@ -488,3 +444,4 @@ Campaign을 사용하여 웹 양식을 만들고 쉽고 효율적으로 프로�
 * [대상자 만들기](audiences.md)
 * [프로필 중복 제거](../../automation/workflow/deduplication-merge.md)
 * [프로필 데이터 강화](../../automation/workflow/enrich-data.md)
+* Campaign [데이터 모델](../dev/datamodel.md) 이해
