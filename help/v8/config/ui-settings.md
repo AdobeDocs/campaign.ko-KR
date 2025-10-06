@@ -5,7 +5,7 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 0%
@@ -160,4 +160,4 @@ Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. �
 ## 추가 리소스
 
 * **[Campaign 사용자 인터페이스를 시작합니다](../start/campaign-ui.md)** - Adobe Campaign 인터페이스에 액세스하고 검색하는 방법을 알아봅니다.
-* **[열거형으로 작업](../dev/enumerations.md)** - 더 빠르고 일관된 데이터 항목을 위해 필드 값을 미리 정의된 드롭다운 목록으로 표준화합니다.
+* **[열거형으로 작업](../config/enumerations.md)** - 더 빠르고 일관된 데이터 항목을 위해 필드 값을 미리 정의된 드롭다운 목록으로 표준화합니다.

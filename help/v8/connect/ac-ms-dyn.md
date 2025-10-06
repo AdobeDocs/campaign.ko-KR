@@ -5,7 +5,7 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 3%
@@ -193,9 +193,9 @@ Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니�
 
 Adobe Campaign 데이터와 Microsoft CRM 간의 데이터를 동기화하려면 워크플로우를 만들고 **[!UICONTROL CRM connector]** 활동을 사용합니다.
 
-이 페이지[에서 데이터 동기화 &#x200B;](crm-data-sync.md)에 대해 자세히 알아보세요.
+이 페이지[에서 데이터 동기화 ](crm-data-sync.md)에 대해 자세히 알아보세요.
 
-이 페이지[에서 Campaign &#x200B;](../dev/enumerations.md)의 열거 관리에 대해 자세히 알아보세요.
+이 페이지[에서 Campaign ](../config/enumerations.md)의 열거 관리에 대해 자세히 알아보세요.
 
 ### 지원되는 필드 데이터 유형 {#ms-dyn-supported-types}
 

@@ -6,7 +6,7 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '1121'
 ht-degree: 75%
@@ -191,5 +191,5 @@ v8.6.1 릴리스부터 Campaign v8 사용자는 중앙 Adobe Experience Cloud �
 
 ## 추가 리소스
 
-* **[열거형으로 작업](../dev/enumerations.md)** - 더 빠르고 일관된 데이터 항목을 위해 필드 값을 미리 정의된 드롭다운 목록으로 표준화합니다.
+* **[열거형으로 작업](../config/enumerations.md)** - 더 빠르고 일관된 데이터 항목을 위해 필드 값을 미리 정의된 드롭다운 목록으로 표준화합니다.
 * **[스키마의 열거](../dev/schema-structure.md#enumerations)** - Campaign 개발자는 스키마의 자유, 고정 또는 데이터베이스 기반 열거 항목을 사용하여 필드 값을 제어합니다.

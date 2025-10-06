@@ -5,7 +5,7 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: ed390d5ddd817791dc4f5c2c1c621b594170a836
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 96%
@@ -219,7 +219,7 @@ ht-degree: 96%
    + 설정 {#settings}
       + [사용자 인터페이스 설정](config/ui-settings.md)
       + [폴더 및 보기 관리](audiences/folders-and-views.md)
-      + [열거형을 사용한 작업](dev/enumerations.md)
+      + [열거형을 사용한 작업](config/enumerations.md)
       + [트랜잭션 메시지 설정](config/transactional-msg-settings.md)
       + [Campaign SDK와 앱 통합 - 더 이상 사용되지 않는 페이지](config/push-config.md)
       + [외부 계정](config/external-accounts.md)

@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 1%
@@ -124,7 +124,7 @@ ht-degree: 1%
 
 데이터 형식은 **및** 요소의 **`<attribute>`** type **`<element>`** 특성을 통해 입력됩니다.
 
-자세한 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ko#configuring-campaign-classic){target="_blank"}를 참조하세요.
+자세한 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}를 참조하세요.
 
 이 특성이 채워지지 않으면 요소에 자식 요소가 들어 있지 않으면 **string**&#x200B;이(가) 기본 데이터 형식입니다. 이 경우 요소를 계층 구조화하는 데만 사용됩니다(이 예제에서는 **`<location>`** 요소).
 
@@ -223,7 +223,7 @@ ht-degree: 1%
 
 ### 열거형 {#enumerations}
 
-필드 값을 제어하려면 무료, 고정 또는 데이터베이스 기반 [열거형](../dev/enumerations.md)을 사용하세요. 보다 쉬운 입력, 일관된 데이터 및 유연한 스키마 디자인을 위한 드롭다운 목록을 제공합니다.
+필드 값을 제어하려면 무료, 고정 또는 데이터베이스 기반 [열거형](../config/enumerations.md)을 사용하세요. 보다 쉬운 입력, 일관된 데이터 및 유연한 스키마 디자인을 위한 드롭다운 목록을 제공합니다.
 
 #### 자유 열거형 {#free-enumeration}
 
