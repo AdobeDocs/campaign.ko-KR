@@ -6,7 +6,7 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 2%
@@ -22,14 +22,14 @@ ht-degree: 2%
 전체적으로 세 가지 유형의 비닝을 사용할 수 있습니다.
 
 1. 수동으로 정의된 값 범위 사용. (예: 연령, 평균 장바구니, 열린 게재 수 등). 자세한 내용은 [각 저장소 정의](#defining-each-bin)를 참조하세요.
-1. 동적으로 열거형의 값에 따라 열거형에 포함된 값만 표시하고 다른 모든 값은 &#39;기타&#39;로 그룹화합니다. 자세한 내용은 [동적으로 빈 관리](#dynamically-managing-bins)를 참조하세요.
+1. 동적으로 [열거형](../config/enumerations.md)의 값에 따라 열거형에 포함된 값만 표시하고 다른 모든 값은 &#39;기타&#39;로 그룹화합니다. 자세한 내용은 [동적으로 빈 관리](#dynamically-managing-bins)를 참조하세요.
 1. 값 범위를 사용하여 다른 모든 항목은 함께 그룹화됩니다. 예를 들어, 18세에서 25세, 26세에서 59세, 그리고 다른 사람들은. 자세한 내용은 [값 범위 만들기](#creating-value-ranges)를 참조하세요.
 
 비닝을 활성화하려면 차원을 생성할 때 해당 상자를 선택합니다.
 
 ![](assets/cube-class.png)
 
-저장소를 수동으로 만들거나 기존 열거형에 연결할 수 있습니다.
+BIN을 수동으로 만들거나 기존 [열거형](../config/enumerations.md)에 연결할 수 있습니다.
 
 Adobe Campaign은 자동 비닝을 위한 도우미도 제공합니다. 값은 N 개의 그룹으로 분류하거나 데이터베이스에서 가장 빈번한 값에 따라 그룹화할 수 있습니다.
 
@@ -47,7 +47,7 @@ Adobe Campaign은 자동 비닝을 위한 도우미도 제공합니다. 값은 N
 
 ![](assets/cube-add-new-bin-2.png)
 
-SQL 마스크를 사용하여 여러 값을 필터로 결합할 수 있습니다. 이렇게 하려면 **[!UICONTROL Use an SQL mask]** 열에서 **[!UICONTROL Yes]**&#x200B;을(를) 확인하고 **[!UICONTROL Value or expression]** 열에 적용할 SQL 필터를 입력하십시오.
+SQL 마스크를 사용하여 여러 값을 필터로 결합할 수 있습니다. 이렇게 하려면 **[!UICONTROL Yes]** 열에서 **[!UICONTROL Use an SQL mask]**&#x200B;을(를) 확인하고 **[!UICONTROL Value or expression]** 열에 적용할 SQL 필터를 입력하십시오.
 
 <!--In the example below, all email domains that start with **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.), or with **ymail** (ymail.com, ymail.eu, etc.) will be grouped under the label **YAHOO!**, as well as addresses with the **rocketmail.com** domain.-->
 
@@ -64,7 +64,7 @@ SQL 마스크를 사용하여 여러 값을 필터로 결합할 수 있습니다
 
    열거형 값이 업데이트될 때마다 일치하는 저장소는 자동으로 조정됩니다.
 
-[이 페이지](../../v8/config/ui-settings.md#enumerations)의 열거형에 대해 자세히 알아보세요.
+   [이 페이지](../config/enumerations.md)의 열거형에 대해 자세히 알아보세요.
 
 ### 값 범위 만들기 {#create-value-ranges}
 

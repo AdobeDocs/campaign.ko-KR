@@ -5,9 +5,9 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1248'
 ht-degree: 5%
 
 ---
@@ -94,11 +94,11 @@ Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 
 * **temp**: 임시 스키마에 예약됨
 * **crm**: CRM 커넥터 통합에 예약됨
 
-스키마의 식별 키는 네임스페이스와 콜론으로 구분된 이름을 사용하여 만든 문자열입니다(예: **nms:recipient**).
+스키마의 식별 키는 네임스페이스와 콜론으로 구분된 이름을 사용하여 만들어진 문자열입니다(예: **nms:recipient**).
 
 ## Campaign 스키마 만들기 또는 확장 {#create-or-extend-schemas}
 
-수신자 테이블(nms:recipient)과 같이, Campaign의 핵심 데이터 스키마 중 하나에 필드나 다른 요소를 추가하려면 해당 스키마를 확장해야 합니다.
+Campaign의 핵심 데이터 스키마 중 하나(예: 수신자 테이블(nms:recipient)에 필드 또는 다른 요소를 추가하려면 해당 스키마를 확장해야 합니다.
 
 자세한 내용은 [스키마 확장](extend-schema.md)을 참조하세요.
 
@@ -117,7 +117,7 @@ Adobe Campaign에 존재하지 않는 완전히 새로운 유형의 데이터(�
 
 예:
 
-```
+```xml
 <enumeration basetype="byte" name="exTransactionTypeEnum" default="store">
 <value label="Website" name="web" value="0"/>
 <value label="Call Center" name="phone" value="1"/>
@@ -127,7 +127,7 @@ Adobe Campaign에 존재하지 않는 완전히 새로운 유형의 데이터(�
 
 필드를 정의할 때 다음과 같이 이 열거형을 사용할 수 있습니다.
 
-```
+```xml
 <attribute desc="Type of Transaction" label="Transaction Type" name="transactionType" 
 type="string" enum="exTransactionTypeEnum"/>
 ```
@@ -178,7 +178,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 예:
 
-```
+```xml
 <key name="householdId" internal="true">
   <keyfield xpath="@householdId"/>
 </key>
@@ -198,33 +198,33 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ![](assets/schemaextension_2.png)
 
-전체 특성 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=ko#content-model){target="_blank"}의 `<attribute>` 요소 섹션에서 사용할 수 있습니다. 일반적으로 사용되는 특성 중 일부는 다음과 같습니다. **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull @required @ref @xml @type**, **&#x200B;**, **&#x200B;**, **&#x200B;**, **&#x200B;**.
+전체 특성 목록은 `<attribute>`Campaign Classic v7 설명서[의 ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"} 요소 섹션에서 사용할 수 있습니다. 일반적으로 사용되는 특성 중 일부는 다음과 같습니다. **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull @required @ref @xml @type**, ****, ****, ****, ****.
 
-각 특성에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ko#configuring-campaign-classic){target="_blank"}의 특성 설명을 참조하십시오.
+각 특성에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}의 특성 설명을 참조하십시오.
 
 ### 예제 {#examples}
 
 기본값을 정의하는 예:
 
-```
+```xml
 <attribute name="transactionDate" label="Transaction Date" type="datetime" default="GetDate()"/>
 ```
 
 필수로 표시된 필드의 템플릿으로 공통 속성을 사용하는 예:
 
-```
+```xml
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
 ```
 
 **@advanced** 특성을 사용하여 숨겨진 계산 필드의 예:
 
-```
+```xml
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
 SQL 필드에 저장되며 **@dataPolicy** 특성이 있는 XML 필드의 예입니다.
 
-```
+```xml
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
 ```
 
@@ -246,19 +246,19 @@ SQL 필드에 저장되며 **@dataPolicy** 특성이 있는 XML 필드의 예입
 
 수신자 테이블(기본 스키마)과 사용자 지정 트랜잭션 테이블 간의 1-N 링크의 예는 다음과 같습니다.
 
-```
+```xml
 <element label="Recipient" name="lnkRecipient" revLink="lnkTransactions" target="nms:recipient" type="link"/>
 ```
 
 사용자 지정 스키마 &quot;Car&quot;(&quot;cus&quot; 네임스페이스)와 수신자 테이블 간의 1-1 링크의 예:
 
-```
+```xml
 <element label="Car" name="lnkCar" revCardinality="single" revLink="recipient" target="cus:car" type="link"/>
 ```
 
 기본 키가 아닌 이메일 주소를 기반으로 수신자 테이블과 주소 테이블 간의 외부 조인 예:
 
-```
+```xml
 <element name="emailInfo" label="Email Info" revLink="recipient" target="nms:address" type="link" externalJoin="true">
   <join xpath-dst="@address" xpath-src="@email"/>
 </element>
@@ -272,7 +272,7 @@ SQL 필드에 저장되며 **@dataPolicy** 특성이 있는 XML 필드의 예입
 
 아래 예를 사용하여 생성 날짜, 데이터를 생성한 사용자, 날짜 및 테이블의 모든 데이터에 대한 마지막 수정 작성자와 관련된 필드를 포함할 수 있습니다.
 
-```
+```xml
 <element aggregate="xtk:common:auditTrail" name="auditTrail"/>
 ```
 

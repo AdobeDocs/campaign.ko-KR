@@ -6,7 +6,7 @@ feature: Campaigns, Templates
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 4%
@@ -133,7 +133,7 @@ ht-degree: 4%
 
 * **게재 개요**
 
-  이 모듈을 선택하면 **[!UICONTROL Documents]** 탭에 **[!UICONTROL Delivery outlines]** 하위 탭이 추가되어 캠페인에 대한 게재 개요를 정의합니다. [이 섹션](marketing-campaign-assets.md#delivery-outlines)에서 게재 개요에 대해 자세히 알아보세요.
+  이 모듈을 선택하면 **[!UICONTROL Delivery outlines]** 탭에 **[!UICONTROL Documents]** 하위 탭이 추가되어 캠페인에 대한 게재 개요를 정의합니다. [이 섹션](marketing-campaign-assets.md#delivery-outlines)에서 게재 개요에 대해 자세히 알아보세요.
 
   ![](assets/template-activate-4.png)
 
@@ -169,8 +169,7 @@ ht-degree: 4%
 * 템플릿의 **레이블**&#x200B;을(를) 입력하십시오. 레이블은 필수이며 이 템플릿을 기반으로 하는 모든 캠페인에 대한 기본 레이블입니다.
 * 드롭다운 목록에서 캠페인 **자연**&#x200B;을(를) 선택합니다. 이 목록에서 사용할 수 있는 값은 **[!UICONTROL natureOp]** 열거에 저장된 값입니다.
 
-[이 페이지](../../v8/config/ui-settings.md#enumerations)에서 열거형에 액세스하고 구성하는 방법을 알아보세요.
-
+  [이 페이지](../../v8/config/enumerations.md)에서 열거형에 액세스하고 구성하는 방법을 알아보세요.
 
 * **캠페인 유형**(고유, 반복 또는 정기)을 선택하십시오. 기본적으로 캠페인 템플릿은 고유한 캠페인에 적용됩니다. 반복 및 정기 캠페인은 [이 섹션](recurring-periodic-campaigns.md)에 자세히 설명되어 있습니다.
 * 캠페인 기간, 즉 캠페인이 진행될 일 수를 지정합니다. 이 템플릿을 기반으로 캠페인을 만들 때 캠페인 시작 및 종료 날짜가 자동으로 채워집니다.

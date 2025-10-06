@@ -3,7 +3,7 @@ title: Adobe Campaign 기본 제공 게재 보고서
 description: Adobe Campaign 기본 제공 게재 보고서
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 12%
@@ -44,7 +44,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->텍스트 형식의 전자 메일에 연결된 오류 여백으로 인해 메시지 열기를 기반으로 계산된 값은 항상 예상 값입니다. **[!UICONTROL Distinct opens/Sum of opens for the population reached]** 표시기는 이 오류 여백을 고려합니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-).
+>텍스트 형식의 전자 메일에 연결된 오류 여백으로 인해 메시지 열기를 기반으로 계산된 값은 항상 예상 값입니다. **[!UICONTROL Distinct opens/Sum of opens for the population reached]** 표시기는 이 오류 여백을 고려합니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-)
 
 ![](assets/tracking-report-synthesis.png)
 
@@ -83,7 +83,7 @@ ht-degree: 12%
 >
 >이 보고서에 표시되는 도메인 이름은 큐브 수준에서 사용되는 항목별 목록에 정의됩니다. 기본 도메인을 변경, 추가 또는 제거하려면 **[!UICONTROL Domains]** 항목별 목록을 편집하고 값과 별칭을 수정합니다. **[!UICONTROL Others]** 범주에 항목별 목록의 값에 속하지 않는 도메인 이름이 포함되어 있습니다.
 >
->[이 페이지](../config/ui-settings.md)에서 열거형에 액세스하고 구성하는 방법을 알아보세요.
+>[이 페이지](../config/enumerations.md)에서 열거형에 액세스하고 구성하는 방법을 알아보세요.
 
 
 **[!UICONTROL 4. Generated click streams]**
@@ -189,7 +189,7 @@ This chart shows the breakdown of cumulated clicks per day.
 
 이 보고서는 게재가 최대 효율에 도달하는 데 필요한 시간을 표시하는 값 테이블과 파레토 차트를 제공합니다. 다음 지표가 사용됩니다.
 
-* **[!UICONTROL Opens]**: 열린 총 메시지 수의 비율에 도달하는 데 필요한 시간을 예상합니다. 텍스트 형식의 이메일은 고려되지 않습니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-).
+* **[!UICONTROL Opens]**: 열린 총 메시지 수의 비율에 도달하는 데 필요한 시간을 예상합니다. 텍스트 형식의 이메일은 고려되지 않습니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-)
 * **[!UICONTROL Clicks]**: 기록된 총 클릭 수의 비율에 도달하는 데 필요한 시간을 예상합니다. 옵트아웃 링크 및 미러 페이지 클릭 수는 고려되지 않습니다.
 <!--
 * **[!UICONTROL Transactions]**: Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).

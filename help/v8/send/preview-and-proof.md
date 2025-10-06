@@ -5,9 +5,9 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '702'
 ht-degree: 16%
 
 ---
@@ -48,8 +48,9 @@ ht-degree: 16%
 **[!UICONTROL Targeting mode]** 드롭다운 목록에서 증명 대상 유형을 선택합니다.
 
 * **[!UICONTROL Definition of a specific proof target]** 옵션을 사용하여 데이터베이스의 수신자를 증명 대상으로 선택합니다.
-* **[!UICONTROL Substitution of the address]** 옵션을 사용하여 전자 메일 주소를 입력하고 대상 받는 사람 데이터를 사용하여 콘텐츠의 유효성을 검사합니다. 대체 주소는 수동으로 입력하거나 드롭다운 목록에서 선택할 수 있습니다. 연결된 열거형은 대체 주소(rcpAddress)입니다.
-기본적으로 대체는 임의로 수행되지만 **[!UICONTROL Detail]** 아이콘을 통해 기본 대상에서 특정 받는 사람을 선택할 수 있습니다.
+* **[!UICONTROL Substitution of the address]** 옵션을 사용하여 전자 메일 주소를 입력하고 대상 받는 사람 데이터를 사용하여 콘텐츠의 유효성을 검사합니다. 대체 주소는 수동으로 입력하거나 드롭다운 목록에서 선택할 수 있습니다. 연결된 [열거형](../config/enumerations.md)은(는) **대체 주소(rcpAddress)**&#x200B;입니다.
+
+  기본적으로 대체는 임의로 수행되지만 **[!UICONTROL Detail]** 아이콘을 통해 기본 대상에서 특정 받는 사람을 선택할 수 있습니다.
 
   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
@@ -62,7 +63,7 @@ ht-degree: 16%
 
   >[!NOTE]
   >
-  >시드 주소는 기본 수신자 테이블(nms:recipient)에 속하지 않으며, 별도의 테이블에 생성됩니다. 새 데이터로 수신자 테이블을 확장하는 경우 동일한 데이터로 시드 주소 테이블을 확장해야 합니다.
+  >시드 주소는 기본 받는 사람 테이블(nms:recipient)에 속하지 않으며, 별도의 테이블에서 만들어집니다. 새 데이터로 수신자 테이블을 확장하는 경우 동일한 데이터로 시드 주소 테이블을 확장해야 합니다.
 
   [이 섹션](../audiences/test-profiles.md)에서 시드 주소에 대해 자세히 알아보세요.
 
@@ -105,4 +106,4 @@ ht-degree: 16%
 
 이메일 게재에 대한 교정쇄를 보내고 확인하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447006?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

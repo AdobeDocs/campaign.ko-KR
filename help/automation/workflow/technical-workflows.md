@@ -6,7 +6,7 @@ feature: Workflows
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 
 **관리** 권한이 있는 운영자만 Campaign 기술 워크플로우를 시작하고 수정할 수 있습니다. 이 [전용 섹션](monitor-technical-workflows.md)에서 기술 워크플로우를 모니터링하는 방법을 알아봅니다.
 
-트리 구조의 **[!UICONTROL Administration > Production > Technical workflows]** 노드에서 사용자 지정 기술 워크플로우를 만들 수 있습니다. 기술 워크플로우를 만드는 데 기본 템플릿을 사용할 수 있습니다. 필요에 맞게 구성할 수 있습니다. 그러나 이 프로세스는 전문가 사용자용으로 예약되어 있습니다. 기술 워크플로우에서 사용할 수 있는 활동은 타겟팅 워크플로우와 동일합니다. [자세히 알아보기](targeting-workflows.md).
+트리 구조의 **[!UICONTROL Administration > Production > Technical workflows]** 노드에서 사용자 지정 기술 워크플로우를 만들 수 있습니다. 기술 워크플로우를 만드는 데 기본 템플릿을 사용할 수 있습니다. 필요에 맞게 구성할 수 있습니다. 그러나 이 프로세스는 전문가 사용자용으로 예약되어 있습니다. 기술 워크플로우에서 사용할 수 있는 활동은 타겟팅 워크플로우와 동일합니다. [자세히 알아보기](targeting-workflows.md)
 
 ## 내장 기술 워크플로우 {#list-technical-workflows}
 
@@ -43,7 +43,7 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 
 | 기술 워크플로 | 패키지 | 설명 |
 |------|--------|-----------|
-| **별칭 정리**(aliasCleaning) | 기본적으로 설치됨 | 이 워크플로우는 열거형 값을 표준화합니다. 기본적으로 매일 오전 3시에 트리거됩니다. |
+| **별칭 정리**(aliasCleaning) | 기본적으로 설치됨 | 이 워크플로는 [열거형](../../v8/config/enumerations.md#alias-cleansing) 값을 표준화합니다. 기본적으로 매일 오전 3시에 트리거됩니다. |
 | **청구**(청구) | 기본적으로 설치됨 | 이 워크플로우는 &#39;과금&#39; 운영자에게 이메일로 시스템 활동 보고서를 보냅니다. 마케팅 인스턴스에서 매월 25일에 트리거됩니다. |
 | **캠페인 작업**(operationMgt) | 기본적으로 설치됨 | 이 워크플로우는 마케팅 캠페인(론치 타기팅, 파일 추출 등)에 대한 작업을 관리합니다. 또한 반복 및 정기 캠페인과 관련된 워크플로우를 만듭니다. |
 | **HeatMap 서비스에 대한 데이터 수집**(collectDataHeatMapService) | 기본적으로 설치됨 | 이 워크플로우는 HeatMap 서비스에 필요한 데이터를 검색합니다. |

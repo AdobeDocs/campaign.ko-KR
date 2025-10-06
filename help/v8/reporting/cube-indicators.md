@@ -5,7 +5,7 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 03a6816b-e51a-4eaf-ab76-02d24f97ba46
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 3%
@@ -56,10 +56,10 @@ ht-degree: 3%
 
 큐브를 생성하려면 다음 단계를 적용합니다.
 
-1. 작업 테이블을 선택합니다. [자세히 알아보기](#select-the-work-table).
-1. 차원을 정의합니다. [자세히 알아보기](#define-dimensions).
-1. 측정값을 정의합니다. [자세히 알아보기](#build-indicators).
-1. 집계 만들기(선택 사항). [자세히 알아보기](customize-cubes.md#calculate-and-use-aggregates).
+1. 작업 테이블을 선택합니다. [자세히 알아보기](#select-the-work-table)
+1. 차원을 정의합니다. [자세히 알아보기](#define-dimensions)
+1. 측정값을 정의합니다. [자세히 알아보기](#build-indicators)
+1. 집계 만들기(선택 사항). [자세히 알아보기](customize-cubes.md#calculate-and-use-aggregates)
 
 아래 예에서는 보고서에서 간단한 큐브를 빠르게 생성하여 해당 측정 단위를 내보내는 방법을 알아봅니다.
 
@@ -91,7 +91,7 @@ ht-degree: 3%
 
 1. 이 예제에서는 받는 사람 **Age**&#x200B;을(를) 선택합니다. 이 필드의 경우, 나이를 그룹화하고 정보를 더 쉽게 읽을 수 있도록 비닝을 정의할 수 있습니다. 여러 개의 별도 값이 있을 가능성이 있는 경우 비닝을 사용하는 것이 좋습니다.
 
-이렇게 하려면 **[!UICONTROL Enable binning]** 옵션을 선택하십시오. [자세히 알아보기](customize-cubes.md#data-binning).
+이렇게 하려면 **[!UICONTROL Enable binning]** 옵션을 선택하십시오. [자세히 알아보기](customize-cubes.md#data-binning)
 
 1. **날짜** 유형 차원을 추가합니다. 여기에서는 수신자 프로필 생성 날짜를 표시하려고 합니다. 이렇게 하려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 받는 사람 테이블에서 **[!UICONTROL Creation date]** 필드를 선택합니다.
 날짜 표시 모드를 사용자 정의할 수 있습니다. 이렇게 하려면 사용할 계층과 생성할 레벨을 선택합니다.
@@ -102,7 +102,7 @@ ht-degree: 3%
 
 1. 수신자의 도시를 기준으로 데이터를 분석할 다른 차원을 만듭니다. 이렇게 하려면 새 차원을 추가하고 수신자 스키마의 **[!UICONTROL Location]** 노드에서 도시를 선택합니다.
 
-비닝을 활성화하면 정보를 더 쉽게 읽고 값을 열거에 연결할 수 있습니다.
+비닝을 사용하면 정보를 더 쉽게 읽고 값을 [열거형](../config/enumerations.md)에 연결할 수 있습니다.
 
 드롭다운 목록에서 열거형을 선택합니다. 이 열거형은 **[!UICONTROL Reserved for binning]**(으)로 정의해야 합니다.
 
@@ -125,7 +125,7 @@ ht-degree: 3%
 
    ![](assets/cube-new-measure.png)
 
-   **[!UICONTROL Filter the measure data...]** 링크를 사용하여 여성만 선택하십시오. [자세히 알아보기](customize-cubes.md#define-measures).
+   **[!UICONTROL Filter the measure data...]** 링크를 사용하여 여성만 선택하십시오. [자세히 알아보기](customize-cubes.md#define-measures)
 
    ![](assets/cube-filter-measure-data.png)
 
@@ -136,4 +136,4 @@ ht-degree: 3%
 1. 큐브를 저장합니다.
 
 
-이제 이 큐브를 기반으로 보고서를 만들 수 있습니다. [자세히 알아보기](cube-tables.md).
+이제 이 큐브를 기반으로 보고서를 만들 수 있습니다. [자세히 알아보기](cube-tables.md)

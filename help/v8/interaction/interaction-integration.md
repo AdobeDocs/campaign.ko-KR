@@ -5,9 +5,9 @@ description: 웹 페이지에 오퍼를 추가하는 방법 알아보기
 feature: Interaction, Offers
 role: User, Admin
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 
 
 ### 식별된 오퍼 제공 {#presenting-an-identified-offer}
 
-식별된 연락처에 오퍼를 제공하기 위한 프로세스는 이 섹션[&#128279;](#presenting-an-anonymous-offer)의 자세한 과(와) 유사합니다.
+식별된 연락처에 오퍼를 제공하기 위한 프로세스는 이 섹션[의 자세한 ](#presenting-an-anonymous-offer)과(와) 유사합니다.
 
 웹 페이지의 콘텐츠에서 오퍼 엔진 호출 중에 연락처를 식별하는 다음 스크립트를 추가해야 합니다.
 
@@ -343,7 +343,7 @@ SOAP을 통한 오퍼 제안에 대해 **nms:proposition#Propose** 명령과 다
 **nms:interaction#UpdateStatus** 명령을 URL에 추가한 다음 다음 매개 변수를 추가합니다.
 
 * **제안**: 문자열로, 오퍼 제안 중 출력으로 제공된 제안 ID가 포함되어 있습니다. [오퍼 제안](#offer-proposition)을 참조하세요.
-* **상태**: 문자열 형식이며 오퍼의 새 상태를 지정합니다. 가능한 값은 **nms:common** 스키마의 **propositionStatus** 열거형에 나열됩니다. 예를 들어, 기본적으로 숫자 3은 **수락됨** 상태에 해당합니다.
+* **상태**: 문자열 형식이며 오퍼의 새 상태를 지정합니다. 가능한 값은 **nms** 스키마의 [propositionStatus](../config/enumerations.md) **enumeration:common**&#x200B;에 나열됩니다. 예를 들어, 기본적으로 숫자 3은 **수락됨** 상태에 해당합니다.
 * **context**: XML 요소를 사용하면 공간 스키마에 컨텍스트 정보를 추가할 수 있습니다. 사용된 스키마가 **nms:interaction**&#x200B;인 경우 **`<empty>`**&#x200B;을(를) 추가해야 합니다.
 
 ### SOAP 호출 사용 예 {#example-using-a-soap-call}

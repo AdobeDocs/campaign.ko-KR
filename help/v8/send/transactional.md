@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 253f3be945cbfa304fa7342c68f0c73b079e2870
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,6 @@ Adobe Campaign에서 처리할 이벤트 유형을 만들려면 아래 단계를
 
 >[!NOTE]
 >
->[이 페이지](../../v8/config/ui-settings.md#enumerations)의 열거형에 대해 자세히 알아보세요.
+>[열거형](../config/enumerations.md)에 대해 자세히 알아보세요.
 
 다음 단계에서는 [트랜잭션 메시지용 템플릿을 만들고 게시](transactional-template.md)하는 방법을 알아봅니다.

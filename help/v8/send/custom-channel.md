@@ -4,7 +4,7 @@ description: Adobe Campaign 웹을 사용하여 사용자 지정 채널 게재�
 role: User
 level: Beginner, Intermediate
 exl-id: d2d92de6-3974-41c5-a0fd-09bbf6cf0020
-source-git-commit: e2c7529fb7dc033f35f9c0d2e73273d7f20bac64
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Adobe Campaign을 사용하면 서드파티와 통합된 사용자 지정 외부
 
 게재 만들기와 전송은 클라이언트 콘솔과 웹 UI 모두에서 수행할 수 있습니다. 하지만 사용자 지정 채널 구성은 클라이언트 콘솔에서만 수행됩니다.
 
-사용자 지정 채널을 기반으로 게재를 만들고 보내는 방법을 알아보려면 이 [페이지](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ko){target="_blank"}를 참조하세요.
+사용자 지정 채널을 기반으로 게재를 만들고 보내는 방법을 알아보려면 이 [페이지](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html){target="_blank"}를 참조하세요.
 
 다음은 클라이언트 콘솔에서 새 사용자 지정 채널을 구성하는 단계입니다. 이러한 단계는 사용자 지정 외부 및 API 채널에 공통됩니다.
 
@@ -33,7 +33,7 @@ Adobe Campaign을 사용하면 서드파티와 통합된 사용자 지정 외부
 
 1. Campaign 탐색기에서 **관리** > **구성** > **데이터 스키마**&#x200B;를 선택합니다.
 
-1. 스키마 확장을 만들어 messageType 열거형을 새 채널로 확장합니다.
+1. 스키마 확장을 만들어 새 채널로 **messageType** [enumeration](../config/enumerations.md)을(를) 확장합니다.
 
    예제:
 
@@ -90,7 +90,7 @@ Campaign 웹 UI에서 사용자 정의 화면 정의를 설정합니다.
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. 채널에 해당하는 탭을 선택하고 게재의 콘텐츠 화면에 필드가 표시되는 방법을 정의합니다. 화면 편집에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=ko#fields){target="_blank"}를 참조하세요.
+1. 채널에 해당하는 탭을 선택하고 게재의 콘텐츠 화면에 필드가 표시되는 방법을 정의합니다. 화면 편집에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}를 참조하세요.
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 

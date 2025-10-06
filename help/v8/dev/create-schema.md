@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
-source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
@@ -67,7 +67,7 @@ ht-degree: 2%
 
    가장 좋은 방법은 `dataSource="nms:extAccount:ffda"` 특성을 추가하여 Cloud 데이터베이스에서 테이블을 만드는 것입니다. 이 속성은 새 테이블을 만들 때 기본적으로 추가됩니다.
 
-   ```
+   ```xml
    <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
            label="Contracts" labelSingular="Contract" lastModified="YYYY-MM-DD HH:MM:SS.TZ"
            mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
@@ -87,7 +87,7 @@ ht-degree: 2%
 
    계약 열거형의 유형을 추가합니다.
 
-   ```
+   ```xml
    <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png" label="Contracts" labelSingular="Contract" AA-MM-DD HH:MM:SS.TZ"mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
       <enumeration basetype="byte" name="typeContract">
          <value label="Home" name="home" value="0"/>
