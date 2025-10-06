@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+source-git-commit: ed390d5ddd817791dc4f5c2c1c621b594170a836
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '787'
 ht-degree: 96%
 
 ---
@@ -201,25 +201,25 @@ ht-degree: 96%
       + [사용자 권한 관리](start/manage-permissions.md)
       + [폴더에 권한 추가](start/folder-permissions.md)
    + [컨트롤 패널](config/self-service.md)
-+ 아키텍처 및 구성 {#config}
-   + Campaign v8 아키텍처 {#architecture}
-      + [글로벌 원칙](architecture/general-architecture.md)
-      + [아키텍처 모델](architecture/architecture.md)
-      + [Campaign FDA 배포](architecture/fda-deployment.md)
-      + 엔터프라이즈(FFDA) 배포 {#ffda}
-         + [Campaign FFDA란?](architecture/enterprise-deployment.md)
-         + [키 관리 및 독자성](architecture/keys.md)
-         + [새 API](architecture/new-apis.md)
-         + [API 스테이징 메커니즘](architecture/staging.md)
-         + [복제 메커니즘](architecture/replication.md)
++ 아키텍처 {#architecture}
+   + [글로벌 원칙](architecture/general-architecture.md)
+   + [아키텍처 모델](architecture/architecture.md)
+   + [Campaign FDA 배포](architecture/fda-deployment.md)
+   + 엔터프라이즈(FFDA) 배포 {#ffda}
+      + [Campaign FFDA란?](architecture/enterprise-deployment.md)
+      + [키 관리 및 독자성](architecture/keys.md)
+      + [새 API](architecture/new-apis.md)
+      + [API 스테이징 메커니즘](architecture/staging.md)
+      + [복제 메커니즘](architecture/replication.md)
++ 구성 {#config}
    + 구현 {#implement}
       + [구현 단계](start/implement.md)
       + [인스턴스 사용자 정의](dev/customize.md)
-      + [열거형을 사용한 작업](dev/enumerations.md)
       + [데이터 모델 모범 사례](dev/datamodel-best-practices.md)
-   + 설정 및 구성 {#configuration}
+   + 설정 {#settings}
       + [사용자 인터페이스 설정](config/ui-settings.md)
       + [폴더 및 보기 관리](audiences/folders-and-views.md)
+      + [열거형을 사용한 작업](dev/enumerations.md)
       + [트랜잭션 메시지 설정](config/transactional-msg-settings.md)
       + [Campaign SDK와 앱 통합 - 더 이상 사용되지 않는 페이지](config/push-config.md)
       + [외부 계정](config/external-accounts.md)
