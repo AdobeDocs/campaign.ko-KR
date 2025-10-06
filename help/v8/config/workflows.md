@@ -27,7 +27,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Adobe Campaign 웹 사용자 인터페이스에는 워크플로우에 대한 재설계된 캔버스가 함께 제공되므로 보다 동적이고 개인화된 고객 여정을 만들 수 있습니다. 웹 UI용 워크플로에 대한 자세한 내용은 [Adobe Campaign 웹 UI 설명서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank}를 참조하세요.
+>Adobe Campaign 웹 사용자 인터페이스에는 워크플로우에 대한 재설계된 캔버스가 함께 제공되므로 보다 동적이고 개인화된 고객 여정을 만들 수 있습니다. 웹 UI용 워크플로에 대한 자세한 내용은 [Adobe Campaign 웹 UI 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/wf/gs-workflows){target=_blank}를 참조하세요.
 
 
 ## 워크플로 디자인 및 사용 {#gs-ac-wf}
@@ -38,11 +38,11 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기, 메시지
 
 * [워크플로 시작](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"}
 
-* [워크플로 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
+* [워크플로 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko){target="_blank"}
 
-* [기본 제공 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
+* [기본 제공 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ko){target="_blank"}
 
-* [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+* [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}
 
 * [마케팅 캠페인 워크플로우에서 대상자 만들기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko){target="_blank"}
 
@@ -52,10 +52,10 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기, 메시지
 
 워크플로우 활동은 범주별로 그룹화됩니다. 네 가지 활동 카테고리를 사용할 수 있습니다.
 
-* [타깃팅 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"}: 쿼리, 목록 읽기, 데이터 보강, 결합 등
-* [흐름 제어 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"}: 스케줄러, 포크, 경고, 외부 신호 등
-* [작업 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}: 크로스 채널 게재, Javascript 코드, CRM 활동, 업데이트 집계 등
-* [이벤트 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}: 파일 전송, 웹 다운로드 등
+* [타깃팅 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=ko){target="_blank"}: 쿼리, 목록 읽기, 데이터 보강, 결합 등
+* [흐름 제어 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=ko){target="_blank"}: 스케줄러, 포크, 경고, 외부 신호 등
+* [작업 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=ko){target="_blank"}: 크로스 채널 게재, Javascript 코드, CRM 활동, 업데이트 집계 등
+* [이벤트 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html?lang=ko){target="_blank"}: 파일 전송, 웹 다운로드 등
 
 <!--
 ### Change data source activity {#change-data-source-activity}
@@ -76,7 +76,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. Query your targeted recipients with a **[!UICONTROL Query]** activity. 
 
-    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}.
 
 1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
     
@@ -84,7 +84,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
 
-    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html){target="_blank"}.
+    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html?lang=ko){target="_blank"}.
 
 1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database. 
     
@@ -97,7 +97,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 워크플로우를 만든 후 추가 구성을 위해 **[!UICONTROL Properties]** 단추를 사용하여 추가 옵션에 액세스할 수 있습니다.
 
-**이 페이지**&#x200B;에서 [워크플로 속성](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html){target="_blank"}에 대해 자세히 알아보세요.
+**이 페이지**&#x200B;에서 [워크플로 속성](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
 
 워크플로우 **[!UICONTROL Execution]**&#x200B;의 **[!UICONTROL Properties]** 탭에서 워크플로우를 다른 웨어하우스에 연결하고 워크로드 관리를 최적화하도록 선택할 수 있습니다. **웨어하우스**&#x200B;에 대한 자세한 내용은 [Snowflake 설명서](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}를 참조하세요.
 
