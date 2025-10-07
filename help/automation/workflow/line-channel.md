@@ -5,7 +5,7 @@ description: LINE 채널
 feature: Workflows, Line App
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # LINE 채널{#line-channel}
 
-아래에 설명된 워크플로는 기본적으로 **LINE 채널** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 정보는 [이 페이지](../../v8/send/line.md)를 참조하세요.
+아래에 설명된 워크플로는 기본적으로 **LINE 채널** 모듈과 함께 설치됩니다. 이 모듈에 대한 자세한 정보는 [이 페이지](../../v8/send/line/line.md)를 참조하세요.
 
 <table> 
  <tbody> 

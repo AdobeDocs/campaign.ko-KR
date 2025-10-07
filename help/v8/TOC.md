@@ -5,7 +5,7 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 96%
@@ -82,7 +82,7 @@ ht-degree: 96%
          + [iOS 리치 푸시 게재 디자인](send/rich-push-ios.md)
       + [푸시 알림 채널 구성](send/push-settings.md)
       + [데이터 수집으로 푸시 알림 구성](send/push-data-collection.md)
-   + [LINE 메시지 보내기](send/line.md)
+   + [LINE 메시지 보내기](send/line/line.md)
    + [DM](send/direct-mail.md)
    + [X(Twitter)](send/twitter.md)
    + [사용자 정의 외부 채널](send/custom-channel.md)

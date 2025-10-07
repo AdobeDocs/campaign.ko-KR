@@ -5,10 +5,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
-source-wordcount: '1581'
-ht-degree: 98%
+source-wordcount: '1577'
+ht-degree: 97%
 
 ---
 
@@ -121,12 +121,12 @@ _2021년 9월 7일_
 
 **기타 변경 사항**
 
-* 이전에 사용 종료된 Microsoft CRM 커넥터(Office 365 및 온프레미스 배포)를 인터페이스에서 제거했습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html?lang=ko#configure-acc-for-microsoft)
+* 이전에 사용 종료된 Microsoft CRM 커넥터(Office 365 및 온프레미스 배포)를 인터페이스에서 제거했습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
 
 * Tomcat 8로 마이그레이션한 후 IIS 설정 스크립트를 업데이트하여 IIS 통합 문제를 해결했습니다. (NEO-31019)
 * [청구 기술 워크플로](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=ko#billing-report)를 마케팅 인스턴스에서만 실행할 수 있도록 하기 위해 가드레일이 추가되었습니다.
 * 워크플로 전환의 **모집단 보기** 창에서 데이터 및 스키마 탭에서 데이터 소스 식별이 개선되었습니다.
-* 데이터베이스 업데이트 문제를 방지하기 위해 누락된 데이터베이스 인덱스가 xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl 스키마에 추가되었습니다. 
+* 데이터베이스 업데이트 문제를 방지하기 위해 누락된 데이터베이스 인덱스가 다음 스키마에 추가되었습니다. xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
 **패치**
 
@@ -176,7 +176,7 @@ _2021년 7월 23일_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>이제 Campaign v8에서 <a href="../send/line.md">LINE 채널</a>을 사용할 수 있습니다. 이 채널을 <a href="../send/transactional.md">트랜잭션 메시지</a> 모듈과 결합하는 경우에 대해 다음과 같은 개선 사항이 있습니다.
+<td> <p>이제 Campaign v8에서 <a href="../send/line/line.md">LINE 채널</a>을 사용할 수 있습니다. 이 채널을 <a href="../send/transactional.md">트랜잭션 메시지</a> 모듈과 결합하는 경우에 대해 다음과 같은 개선 사항이 있습니다.
 <ul> 
 <li><p>LINE 게재에서 방문자가 타깃팅되지 않는 문제를 해결했습니다. 
 </p></li>

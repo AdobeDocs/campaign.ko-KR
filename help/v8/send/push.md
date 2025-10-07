@@ -4,8 +4,9 @@ description: Campaign에서 푸시 알림 시작
 feature: Push
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 6%
@@ -20,7 +21,7 @@ Adobe Campaign을 사용하여 푸시 알림 전송을 시작하기 전에 모�
 
 >[!CAUTION]
 >
->Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항이 2024년에 출시될 예정이며, 이는 Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 이미 확인하고 조치를 취할 수 있습니다. [자세히 알아보기](../../technotes/upgrades/push-technote.md).
+>Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항이 2024년에 출시될 예정이며, 이는 Adobe Campaign 구현에 영향을 줄 수 있습니다. 이 변경 사항을 지원하려면 Android 푸시 메시지에 대한 구독 서비스 구성을 업데이트해야 할 수 있습니다. 이미 확인하고 조치를 취할 수 있습니다. [자세히 알아보기](../../technotes/upgrades/push-technote.md)
 
 ## 첫 번째 푸시 알림 만들기 {#push-create}
 
@@ -56,7 +57,7 @@ iOS 디바이스에서 알림을 보내려면 다음 단계를 따르십시오.
 
    ![](assets/push_ios_3.png)
 
-1. **[!UICONTROL General notification (Alert, Sound, Badge)]**&#x200B;과(와) **[!UICONTROL Silent notification]** 중 **[!UICONTROL Notification type]**&#x200B;을(를) 선택하세요.
+1. **[!UICONTROL Notification type]**&#x200B;과(와) **[!UICONTROL General notification (Alert, Sound, Badge)]** 중 **[!UICONTROL Silent notification]**&#x200B;을(를) 선택하세요.
 
    ![](assets/push_ios_4.png)
 
@@ -68,7 +69,7 @@ iOS 디바이스에서 알림을 보내려면 다음 단계를 따르십시오.
 
    이 필드에서는 iOS 알림 페이로드의 **title** 매개 변수의 값을 정의할 수 있습니다.
 
-1. iOS 알림 페이로드의 **자막** 매개 변수의 **[!UICONTROL Subtitle]** 값을 추가할 수 있습니다.
+1. iOS 알림 페이로드의 **[!UICONTROL Subtitle]**&#x200B;자막&#x200B;**매개 변수의** 값을 추가할 수 있습니다.
 
 1. 마법사의 **[!UICONTROL Message content]** 섹션에 메시지 내용을 입력합니다.
 

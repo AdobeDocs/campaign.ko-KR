@@ -5,8 +5,9 @@ description: Adobe Campaign 웹을 사용하여 풍부한 푸시 알림 게재�
 feature: Push
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 4e52e596d4eb2a8e1a1799fcd7104dcd894b6c2d
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '1989'
 ht-degree: 3%
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->리치 푸시 알림을 디자인하기 전에 먼저 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)를 참조하세요.
+>리치 푸시 알림을 디자인하기 전에 먼저 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)를 참조하세요.
 
 Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에서 선택할 수 있습니다.
 
@@ -79,7 +80,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
-   알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
+   알림을 확장할 때 **[!UICONTROL Message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Expanded message]** 텍스트가 축소된 보기에 나타납니다.
 
    ![](assets/rich_push_basic_2.png)
 
@@ -124,7 +125,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
-   알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
+   알림을 확장할 때 **[!UICONTROL Message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Expanded message]** 텍스트가 축소된 보기에 나타납니다.
 
    ![](assets/rich_push_carousel_1.png)
 
@@ -183,7 +184,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
-   알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
+   알림을 확장할 때 **[!UICONTROL Message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Expanded message]** 텍스트가 축소된 보기에 나타납니다.
 
    ![](assets/rich_push_input_2.png)
 
@@ -212,7 +213,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
-   알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
+   알림을 확장할 때 **[!UICONTROL Message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Expanded message]** 텍스트가 축소된 보기에 나타납니다.
 
    ![](assets/rich_push_catalog_2.png)
 
@@ -252,7 +253,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
-   알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
+   알림을 확장할 때 **[!UICONTROL Message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Expanded message]** 텍스트가 축소된 보기에 나타납니다.
 
    ![](assets/rich_push_rating_2.png)
 
@@ -290,7 +291,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
-   알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
+   알림을 확장할 때 **[!UICONTROL Message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Expanded message]** 텍스트가 축소된 보기에 나타납니다.
 
    ![](assets/rich_push_timer_2.png)
 
@@ -316,7 +317,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
-   알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
+   알림을 확장할 때 **[!UICONTROL Message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Expanded message]** 텍스트가 축소된 보기에 나타납니다.
 
    ![](assets/rich_push_zero_2.png)
 
