@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 72e3f643d0e53c22c5007aab431689ebeca7403c
+source-git-commit: 24a5c4f1d73ea08e40d271db483da33bf5615fb2
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 ![](assets/filter_web_zone.png)
 
-표시할 데이터를 필터링하는 방법에는 몇 가지가 있습니다. 필요한 경우 함께 사용할 수 있습니다.
-
-* 폴더를 필터링합니다. [폴더별 필터링](#filter-by-folder)을 참조하세요.
-* 상태별로 필터링합니다. [상태별로 필터링](#filter-by-status)을 참조하세요.
-* 데이터 정렬입니다. [정렬 기준](#order-by)을 참조하세요.
-* 검색하십시오. [빠른 검색](#quick-search)을 참조하세요.
+표시할 데이터를 필터링하는 방법에는 몇 가지가 있습니다. 필요한 경우 함께 사용할 수 있습니다. 필터링 옵션에 대한 자세한 내용은 아래 탭을 참조하십시오.
 
 
 >[!BEGINTABS]
@@ -389,9 +384,9 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 이러한 통합 샘플에서 고급 쿼리를 작성하는 방법을 알아봅니다.
 
-* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}에서 간단한 받는 사람 특성을 타깃팅하는 방법에 대해 알아봅니다.
-* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=ko){target="_blank"}에서 지난 7일 동안 연락하지 않은 받는 사람을 필터링하는 방법을 알아보세요.
-* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ko){target="_blank"}에서 활성 계정으로 필터링할 수 있는 연산자 목록을 복구하는 방법을 알아봅니다.
+* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}에서 간단한 받는 사람 특성을 타깃팅하는 방법에 대해 알아봅니다.
+* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}에서 지난 7일 동안 연락하지 않은 받는 사람을 필터링하는 방법을 알아보세요.
+* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}에서 활성 계정으로 필터링할 수 있는 연산자 목록을 복구하는 방법을 알아봅니다.
 * [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ko){target="_blank"}에서 생일 전자 메일 대상자를 만드는 방법을 알아보세요.
 
 
