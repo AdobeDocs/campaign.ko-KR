@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
+source-git-commit: a05b1d7d9b35f8d9189046fd4288d0b80f30967a
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 1%
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 ## 콘텐츠 만들기{#create-message-content}
 
-트랜잭션 메시지 콘텐츠의 정의는 Adobe Campaign의 모든 게재와 동일합니다. 예를 들어 이메일 게재의 경우 HTML 또는 텍스트 형식으로 콘텐츠를 만들거나, 첨부 파일을 추가하거나, 게재 개체를 개인화할 수 있습니다. [자세히 알아보기](../start/create-message.md).
+트랜잭션 메시지 콘텐츠의 정의는 Adobe Campaign의 모든 게재와 동일합니다. 예를 들어 이메일 게재의 경우 HTML 또는 텍스트 형식으로 콘텐츠를 만들거나, 첨부 파일을 추가하거나, 게재 개체를 개인화할 수 있습니다. [자세히 알아보기](../start/create-message.md)
 
 >[!CAUTION]
 >
@@ -86,7 +86,7 @@ ht-degree: 1%
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. 테스트 데이터를 삽입합니다. [Campaign Classic v7 설명서에서 개인화 데이터에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-data.html){target="_blank"}
+1. 테스트 데이터를 삽입합니다. [Campaign Classic v7 설명서에서 개인화 데이터에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 
@@ -187,7 +187,7 @@ Publication lets you automatically create two message templates on the execution
 
 1. 트리의 **[!UICONTROL Message Center > Transactional message templates]** 폴더로 이동합니다.
 1. 게시할 템플릿을 선택하십시오<!--on your execution instances-->.
-1. **[!UICONTROL Publish]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/messagecenter_publish_template.png)
 
@@ -219,8 +219,8 @@ Publication lets you automatically create two message templates on the execution
 
 1. **[!UICONTROL Message Center > Transactional message templates]** 폴더를 찾습니다.
 1. 게시를 취소할 템플릿을 선택합니다.
-1. **[!UICONTROL Unpublish]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL Start]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Unpublish]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/message-center-unpublish.png)
 
