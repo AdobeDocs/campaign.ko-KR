@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: adea4eb54f3d519802119646bc501aae2ef5f831
 workflow-type: tm+mt
-source-wordcount: '3832'
+source-wordcount: '3845'
 ht-degree: 4%
 
 ---
@@ -416,9 +416,13 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 ### 8단계 - 데이터 미리보기 {#step-8---data-preview}
 
-내보내기 결과를 미리 보려면 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭합니다. 기본적으로 처음 200개의 줄이 표시됩니다. 이 값을 변경하려면 **[!UICONTROL Lines to display]** 필드 오른쪽에 있는 화살표를 클릭합니다.
+내보내기 결과를 미리 보려면 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/s_ncs_user_export_wizard07.png)
+
+>[!NOTE]
+>
+>콘솔에서 사용할 수 있는 모든 목록의 경우처럼 기본적으로 처음 200개의 줄만 **[!UICONTROL Data preview]** 창에 표시됩니다. 변경하려면 **[!UICONTROL Lines to display]** 상자에 숫자를 입력하고 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭합니다. [자세히 알아보기](../config/ui-settings.md#manage-and-customize-lists)
 
 열 결과 미리 보기에서 XML로 전환하려면 길잡이 아래쪽에 있는 탭을 클릭합니다. 생성된 SQL 쿼리를 볼 수도 있습니다.
 
