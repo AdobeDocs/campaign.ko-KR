@@ -48,7 +48,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 
 * 모바일 애플리케이션을 HTTP v1로 이동하려면 Android Firebase Admin SDK 서비스의 계정 JSON 파일이 필요합니다. [Google Firebase 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}에서 이 파일을 가져오는 방법을 알아보세요.
 
-* Campaign Classic v7의 경우 20.3.1 릴리스에서 HTTP v1에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 HTTP v1로 전환하기 위한 필수 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}(으)로 업그레이드하는 것입니다. Campaign v8의 경우 HTTP v1은 모든 릴리스에서 지원되며 업그레이드할 필요가 없습니다.
+* Campaign Classic v7의 경우 20.3.1 릴리스에서 HTTP v1에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 HTTP v1로 전환하기 위한 필수 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ko){target="_blank"}(으)로 업그레이드하는 것입니다. Campaign v8의 경우 HTTP v1은 모든 릴리스에서 지원되며 업그레이드할 필요가 없습니다.
 
 * Campaign Classic v7 온-프레미스 사용자는 마케팅 및 실시간 실행 서버를 모두 업그레이드해야 합니다.
 
@@ -56,7 +56,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 
 * Android 라우팅 외부 계정 정보:
 
-   * Campaign Classic v7 온-프레미스 또는 하이브리드 사용자는 Android 라우팅 외부 계정이 `androidPushConnectorV2.js`(으)로 구성되어 있는지 확인하세요. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}를 참조하세요.
+   * Campaign Classic v7 온-프레미스 또는 하이브리드 사용자는 Android 라우팅 외부 계정이 `androidPushConnectorV2.js`(으)로 구성되어 있는지 확인하세요. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}를 참조하세요.
 
    * 하이브리드, 호스팅 및 관리 Cloud Services 배포의 경우 Adobe 고객 지원 팀과 연결하여 중간 소싱 서버의 Android 라우팅 외부 계정에서 `androidPushConnectorV2.js (nms)` 커넥터가 선택되었는지 확인해야 합니다.
 
@@ -210,7 +210,7 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 토큰 기반 연결과 인�
 
 #### 필수 구성 요소 {#ios-transition-prerequisites}
 
-* Campaign Classic v7의 경우 20.2 릴리스에서 **토큰 기반 인증** 모드에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 필수 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}(으)로 업그레이드하는 것입니다. Campaign v8의 경우 **토큰 기반 인증** 모드가 모든 릴리스에서 지원되며 업그레이드할 필요가 없습니다.
+* Campaign Classic v7의 경우 20.2 릴리스에서 **토큰 기반 인증** 모드에 대한 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 필수 조건은 환경을 [최신 Campaign Classic 빌드](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ko){target="_blank"}(으)로 업그레이드하는 것입니다. Campaign v8의 경우 **토큰 기반 인증** 모드가 모든 릴리스에서 지원되며 업그레이드할 필요가 없습니다.
 
 * 서버에서 사용하는 토큰을 생성하려면 APNs 인증 토큰 서명 키가 필요합니다. [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}에 설명된 대로 Apple 개발자 계정에서 이 키를 요청합니다.
 
