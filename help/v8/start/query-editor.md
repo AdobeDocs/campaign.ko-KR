@@ -23,7 +23,7 @@ ht-degree: 5%
 ![쿼리 편집기에 액세스하여 테이블 선택](assets/query_editor_nveau_21.png)
 
 
-쿼리를 만드는 단계는 [이 페이지의 ](design-queries.md)에 자세히 설명되어 있습니다.
+쿼리를 만드는 단계는 [이 페이지의 &#x200B;](design-queries.md)에 자세히 설명되어 있습니다.
 
 <!--
 Contexts to use the query editor iin Campaign are listed below:
