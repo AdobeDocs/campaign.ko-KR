@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 449f24cb23afa2d6bd7d6f2ad7ff3ba65e0a1d5d
+source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '796'
 ht-degree: 95%
 
 ---
@@ -117,6 +117,7 @@ ht-degree: 95%
    + [프로필 및 대상자 시작](audiences/gs-audiences.md)
    + [대상자를 사용한 작업](start/audiences.md)
    + [프로필 액세스](audiences/view-profiles.md)
+   + [필터 작업](audiences/create-filters.md)
    + 프로필 추가 {#add-profiles}
       + [수동으로 프로필 만들기](audiences/create-profiles.md)
       + [파일에서 프로필 가져오기](audiences/import-profiles.md)
@@ -126,7 +127,6 @@ ht-degree: 95%
       + [테스트 프로필 만들기](audiences/test-profiles.md)
    + 대상자 만들기 {#create-audiences}
       + [연락처 목록 만들기](audiences/create-audiences.md)
-      + [필터 만들기 및 관리](audiences/create-filters.md)
       + [Adobe 솔루션으로 대상자 공유](start/shared-audiences.md)
    + [모범 사례](audiences/audiences-best-practices.md)
    + [구독 관리](start/subscriptions.md)

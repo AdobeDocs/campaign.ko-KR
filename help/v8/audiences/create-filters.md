@@ -6,22 +6,22 @@ role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
 
-# 필터 만들기 및 관리{#create-filters}
+# 필터 작업{#create-filters}
 
-데이터 필터링은 데이터 세트에서 작은 부분, 특정 기준과 일치하는 레코드만 선택하고 특정 작업(업데이트, 대상 만들기) 또는 분석에 해당 하위 집합을 사용하는 프로세스입니다.
+데이터 필터링은 데이터 세트를 특정 기준과 일치하는 레코드로만 좁히는 프로세스입니다. 그런 다음 이 하위 집합을 타겟팅된 작업(예: 업데이트 또는 대상 만들기) 또는 분석에 사용할 수 있습니다.
 
-**[!UICONTROL Explorer]**&#x200B;에서 Campaign을 검색할 때 데이터가 목록에 표시됩니다. 기존의 내장 필터를 사용하여 격리된 주소, 타겟팅되지 않은 수신자, 특정 연령 범위 또는 생성 날짜 등 이 데이터의 특정 하위 세트에 액세스할 수 있습니다.
+Campaign을 검색할 때 데이터가 목록에 표시됩니다. 기본 제공 필터를 적용하여 격리된 주소, 타깃팅되지 않은 수신자 또는 특정 기간 범위 또는 생성 날짜 내의 레코드와 같은 정의된 하위 집합에 빠르게 액세스할 수 있습니다.
 
-나만의 필터를 만들거나, 나중에 사용하기 위해 저장하거나, 다른 Campaign 사용자와 공유할 수도 있습니다.
+또한 사용자 정의 필터를 만들고 나중에 사용할 수 있도록 저장하고 다른 Campaign 사용자와 공유할 수 있습니다.
 
-필터 구성을 통해 **[!UICONTROL dynamically]** 목록에서 데이터를 선택할 수 있습니다. 데이터가 수정되면 필터링된 데이터가 업데이트됩니다.
+필터가 **동적으로** 적용됩니다. 데이터가 변경될 때마다 필터링된 결과가 자동으로 업데이트됩니다.
 
 >[!NOTE]
 >
@@ -29,7 +29,67 @@ ht-degree: 0%
 
 Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
+* [미리 정의된 필터](#predefined-filters)
+* [빠른 필터](#quick-filters)
+* [고급 사용자 정의 필터](#advanced-filters)
+
 ## 미리 정의된 필터{#predefined-filters}
+
+### 대시보드에 사전 정의된 필터
+
+기본적으로 Adobe Campaign은 연산자가 읽을 수 있는 권한이 있는 모든 데이터베이스 레코드를 표시합니다. 브라우저 창의 위쪽 섹션에서 사용할 수 있는 옵션을 사용하여 이 데이터를 필터링할 수 있습니다.
+
+![](assets/filter_web_zone.png)
+
+표시할 데이터를 필터링하는 방법에는 몇 가지가 있습니다. 필요한 경우 함께 사용할 수 있습니다.
+
+* 폴더를 필터링합니다. [폴더별 필터링](#filter-by-folder)을 참조하세요.
+* 상태별로 필터링합니다. [상태별로 필터링](#filter-by-status)을 참조하세요.
+* 데이터 정렬입니다. [정렬 기준](#order-by)을 참조하세요.
+* 검색하십시오. [빠른 검색](#quick-search)을 참조하세요.
+
+
+>[!BEGINTABS]
+
+>[!TAB 폴더별 필터링]
+
+폴더를 기준으로 데이터를 필터링하려면 **[!UICONTROL Folder]** 아이콘을 클릭하고 표시할 데이터가 들어 있는 폴더를 선택합니다.
+
+![](assets/filter_web_select_folder.png)
+
+폴더의 프로필만 표시됩니다.
+
+![](assets/filter_web_folder_display.png)
+
+폴더 선택 필드 오른쪽에 있는 십자형을 사용하여 기본 표시 모드로 돌아갑니다.
+
+>[!TAB 상태별로 필터링]
+
+표시되는 정보 유형에 따라 상태 또는 상태별로 필터를 적용할 수 있습니다.
+
+예를 들어 게재의 경우 아래와 같이 완료된 게재만 표시하도록 선택할 수 있습니다.
+
+![](assets/d_ncs_user_interface_filter_delivery.png)
+
+>[!TAB 정렬 기준]
+
+&#39;폴더별&#39; 필터링 필드 오른쪽에 있는 드롭다운 목록을 통해 페이지에 제공된 데이터의 정렬 순서를 선택할 수 있습니다. 이 필드의 내용은 페이지에 있는 데이터 유형에 따라 다릅니다.
+
+예를 들어, 우선순위, 생성 일자 또는 알파벳 순서로 작업을 정렬할 수 있습니다.
+
+![](assets/order_data_sample.png)
+
+>[!TAB 빠른 검색]
+
+검색 필드를 사용하여 원하는 항목에 빠르게 액세스할 수 있습니다. 표시할 항목의 레이블이나 내부 이름에 포함된 문자를 입력한 다음 페이지의 데이터에 자동 필터 적용을 확인합니다.
+
+![](assets/d_ncs_user_interface_filter_search.png)
+
+모든 항목을 다시 표시하려면 십자형을 클릭하여 검색 필드의 내용을 삭제합니다.
+
+>[!ENDTABS]
+
+### 탐색기에서 미리 정의된 필터
 
 미리 정의된 필터는 각 목록 위의 **필터** 단추에서 사용할 수 있습니다.
 
@@ -52,7 +112,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 ![](assets/built-in-filter-preview.png)
 
 
-+++  기본 제공 사전 정의된 필터
++++  사전 정의된 프로필 필터 내장
 
 <table> 
  <tbody> 
@@ -161,7 +221,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 +++
 
-### 기본 필터{#default-filters}
+#### 기본 필터{#default-filters}
 
 각 목록 위의 필드를 사용하면 이 목록에 대해 **미리 정의된 기본 필터**&#x200B;를 사용할 수 있습니다. 수신자 목록의 경우 기본적으로 이름과 이메일 주소를 필터링할 수 있습니다.
 
@@ -191,7 +251,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 ## 빠른 필터{#quick-filters}
 
-**빠른 필터**&#x200B;를 사용 및 결합하여 특정 필드에 필터를 정의합니다.
+**빠른 필터**&#x200B;를 설정하고 결합하여 특정 필드에 사용자 지정 필터를 만들 수 있습니다.
 
 추가되면 빠른 필터 필드가 데이터 목록 위에 차례로 표시됩니다. 이러한 파일은 서로 독립적으로 삭제할 수 있습니다.
 
@@ -199,7 +259,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 필터를 다시 사용해야 하는 경우 **고급 필터**&#x200B;를 만들어 저장합니다. [자세히 알아보기](#advanced-filters)
 
-**빠른 필터**&#x200B;를 만들려면 다음 단계를 수행합니다.
+**빠른 필터**&#x200B;를 만들려면 다음 단계를 수행하십시오.
 
 1. 필터링할 필드를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Filter on this field]**&#x200B;을(를) 선택합니다.
 
@@ -216,7 +276,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
    ![](assets/add-filter-above-the-list.png)
 
 
-양식에서 사용할 수 없는 필드를 필터링해야 하는 경우 열에서 필터링하고 해당 열에서 필터링합니다. 이렇게 하려면,
+양식에서 사용할 수 없고 열에서 사용할 수 없는 필드를 필터링해야 하는 경우 해당 열을 필터링합니다. 이렇게 하려면,
 
 1. **[!UICONTROL Configure list]** 아이콘을 클릭합니다.
 
@@ -236,7 +296,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 ## 고급 필터{#advanced-filters}
 
-**고급 필터**&#x200B;에서 복잡한 기준을 결합합니다. 이러한 필터를 사용하여 데이터에 대한 복잡한 쿼리 또는 쿼리 조합을 만들 수 있습니다. 이러한 필터는 저장하고 다른 Campaign 사용자와 공유할 수 있습니다.
+사용자 지정 **고급 필터**&#x200B;에서 복잡한 기준을 결합합니다. 이러한 필터를 사용하여 데이터에 대한 복잡한 쿼리 또는 쿼리 조합을 만들 수 있습니다. 이러한 필터는 저장하고 다른 Campaign 사용자와 공유할 수 있습니다.
 
 ### 고급 필터 만들기{#create-adv-filters}
 
@@ -329,9 +389,9 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 이러한 통합 샘플에서 고급 쿼리를 작성하는 방법을 알아봅니다.
 
-* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}에서 간단한 받는 사람 특성을 타깃팅하는 방법에 대해 알아봅니다.
-* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=ko){target="_blank"}에서 지난 7일 동안 연락하지 않은 받는 사람을 필터링하는 방법을 알아보세요.
-* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ko){target="_blank"}에서 활성 계정으로 필터링할 수 있는 연산자 목록을 복구하는 방법을 알아봅니다.
+* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}에서 간단한 받는 사람 특성을 타깃팅하는 방법에 대해 알아봅니다.
+* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}에서 지난 7일 동안 연락하지 않은 받는 사람을 필터링하는 방법을 알아보세요.
+* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}에서 활성 계정으로 필터링할 수 있는 연산자 목록을 복구하는 방법을 알아봅니다.
 * [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ko){target="_blank"}에서 생일 전자 메일 대상자를 만드는 방법을 알아보세요.
 
 
@@ -355,5 +415,3 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
    * SQL 테이블을 필터와 연결하여 테이블을 공유하는 모든 편집자에게 공통되도록 할 수 있습니다.
    * 사용자가 필터를 오버라이드하지 못하도록 하려면 **[!UICONTROL Do not restrict the filter]** 옵션을 선택하십시오. 예를 들어 이 옵션은 게재 마법사에서 사용할 수 있는 &quot;게재 수신자&quot; 및 &quot;폴더에 속한 게재 수신자&quot; 필터에 대해 활성화됩니다. 이러한 필터는 오버로드할 수 없습니다.
 
-
-### 연산자

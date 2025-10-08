@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
+source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 75%
+source-wordcount: '1128'
+ht-degree: 74%
 
 ---
 
@@ -192,4 +192,4 @@ v8.6.1 릴리스부터 Campaign v8 사용자는 중앙 Adobe Experience Cloud �
 ## 추가 리소스
 
 * **[열거형으로 작업](../config/enumerations.md)** - 더 빠르고 일관된 데이터 항목을 위해 필드 값을 미리 정의된 드롭다운 목록으로 표준화합니다.
-* **[스키마의 열거](../dev/schema-structure.md#enumerations)** - Campaign 개발자는 스키마의 자유, 고정 또는 데이터베이스 기반 열거 항목을 사용하여 필드 값을 제어합니다.
+* **[데이터 필터링](../audiences/create-filters.md)** - 기본 제공된 기존 필터를 검색하여 특정 Campaign 데이터 하위 집합에 액세스하거나 빠른 필터를 만드는 방법 또는 고급 필터를 직접 디자인하고 공유할 수 있습니다.
