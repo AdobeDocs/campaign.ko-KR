@@ -5,10 +5,10 @@ feature: PI, Privacy, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 주요 속성은 다음과 같습니다.
 
-* **[!UICONTROL visibleIf]**: 메타데이터에서 필드를 숨기므로 스키마 보기, 열 선택 또는 식 작성기 내에서 액세스할 수 없습니다. 그러나 필드 이름을 표현식에 수동으로 입력하면 값이 표시되는 데이터가 표시되지 않습니다.
+* **[!UICONTROL visibleIf]**: 메타데이터에서 필드를 숨기므로 스키마 보기, 열 선택 또는 [식 빌더](../../v8/start/filter-conditions.md#list-of-functions) 내에서 액세스할 수 없습니다. 그러나 필드 이름을 표현식에 수동으로 입력하면 값이 표시되는 데이터가 표시되지 않습니다.
 * **[!UICONTROL accessibleIf]**: 결과 쿼리에서 데이터를 숨깁니다(빈 값으로 바꾸기). visibleIf가 비어 있으면 **[!UICONTROL accessibleIf]**&#x200B;과(와) 동일한 표현식이 만들어집니다.
 
 다음은 Campaign에서 이 특성을 사용할 때의 결과입니다.
