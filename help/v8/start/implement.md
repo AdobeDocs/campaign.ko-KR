@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1145'
 ht-degree: 97%
 
 ---
@@ -87,7 +87,7 @@ Adobe Campaign에서 사용자를 추가하는 방법은 [이 섹션](../start/g
 
    [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"}에서 워크플로 템플릿을 구성하는 방법을 알아보세요.
 
-   [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko){target="_blank"}에서 전자 메일 템플릿에 대해 자세히 알아보세요.
+   이 [페이지](../send/create-templates.md)에서 전자 메일 템플릿에 대해 자세히 알아보세요.
 
 
 1. **유형 규칙 구성**

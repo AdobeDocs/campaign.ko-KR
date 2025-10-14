@@ -6,9 +6,9 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '566'
 ht-degree: 9%
 
 ---
@@ -41,7 +41,7 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 
 1. **템플릿 선택**
 
-   게재 템플릿을 선택한 다음 게재 이름을 지정합니다. 이 이름은 Adobe Campaign 콘솔의 사용자만 볼 수 있고 수신자는 볼 수 없지만 이 제목은 게재 목록에 표시됩니다. **[!UICONTROL Continue]**&#x200B;를 클릭합니다.
+   게재 템플릿을 선택한 다음 게재 이름을 지정합니다. 이 이름은 Adobe Campaign 콘솔의 사용자만 볼 수 있고 수신자는 볼 수 없지만 이 제목은 게재 목록에 표시됩니다. **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/dce_delivery_model.png)
 
@@ -91,7 +91,7 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 
 첫 번째 이메일 게재가 준비되었습니다. 이제 대상자를 정의하고 게재를 확인하고 전송해야 합니다.
 
-이 [사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ko){target="_blank"}에서 전자 메일 콘텐츠를 가져오는 워크플로우를 만드는 방법을 알아봅니다.
+이 [사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}에서 전자 메일 콘텐츠를 가져오는 워크플로우를 만드는 방법을 알아봅니다.
 
 >[!MORELIKETHIS]
 >
@@ -100,7 +100,7 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 >* [전자 메일 대상자 선택](../audiences/gs-audiences.md)
 >* [게재 확인 및 증명 보내기](preview-and-proof.md)
 >* [게재 구성 및 보내기](configure-and-send.md)
->* [게재 모범 사례](../start/delivery-best-practices.md)
+>* [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
 
 ## 이메일 테스트 및 유효성 검사
 

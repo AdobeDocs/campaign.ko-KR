@@ -6,7 +6,7 @@ feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 8%
@@ -62,7 +62,8 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 
 전자 메일 게재를 만들고 타겟팅된 모집단과 해당 컨텐츠까지 정의했으면 아래 단계를 따르십시오.
 
-게재 만들기, 디자인 및 타깃팅에 대한 자세한 내용은 [이 섹션](defining-the-email-content.md)을 참조하세요.
+게재 만들기, 디자인 및 타깃팅에 대한 자세한 내용은 이 [페이지](defining-the-email-content.md)를 참조하세요.
+
 
 1. 게재 상단 표시줄에서 **[!UICONTROL Inbox rendering]** 단추를 클릭합니다.
 

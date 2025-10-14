@@ -6,9 +6,9 @@ feature: Deliverability
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '742'
 ht-degree: 5%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 5%
 * [구독 취소 링크](#opt-out) 및 랜딩 페이지: 구독 취소 링크는 필수입니다. 표시 및 유효해야 하며 양식이 제대로 작동해야 합니다.
 * 미리 보기: Adobe Campaign에서 제공하는 도구를 사용하여 전자 메일 콘텐츠를 확인하고 최적화합니다([받은 편지함 렌더링](#message-responsiveness), [SpamAssassin](#spamassassin)).
 
-콘텐츠를 디자인할 때 게재 능력을 최적화하는 추가 팁은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=ko){target="_blank"}를 참조하세요.
+콘텐츠를 디자인할 때 게재 능력을 최적화하는 추가 팁은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
->전자 메일 콘텐츠 편집에 대한 자세한 내용은 [전자 메일 콘텐츠 정의](defining-the-email-content.md)를 참조하세요.
+>전자 메일 콘텐츠 편집에 대한 자세한 내용은 이 [페이지](defining-the-email-content.md)를 참조하세요.
 
 ## 보낸 사람 주소 {#sender-address}
 
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 인스턴스 수준(메뉴 **[!UICONTROL Tools > Advanced > deployment wizard...]**) 또는 가장 자주 사용하는 시나리오에서 올바른 주소가 지정되었는지 확인해야 합니다.
 
-보낸 사람의 주소를 정의하는 방법에 대한 자세한 내용은 [이 페이지](defining-the-email-content.md#sender)를 참조하세요.
+보낸 사람의 주소를 정의하는 방법에 대한 자세한 내용은 이 [페이지](defining-the-email-content.md#sender)를 참조하세요.
 
 ## 개인화 {#personalization}
 

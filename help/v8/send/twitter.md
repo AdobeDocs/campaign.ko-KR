@@ -4,9 +4,9 @@ description: Adobe Campaign 소셜 마케팅 모듈을 사용하여 X(이전 Twi
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '782'
 ht-degree: 4%
 
 ---
@@ -54,7 +54,7 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
    >[!NOTE]
    >
-   >모든 게재에 대해 동일한 X 테스트 계정을 사용하는 경우 **[!UICONTROL Resources > Templates > Delivery templates]** 노드를 통해 액세스되는 **[!UICONTROL Tweet]** 게재 템플릿에 증명 대상을 저장할 수 있습니다. 그러면 각 새 게재에 대해 기본적으로 증명 대상이 입력됩니다.
+   >모든 게재에 대해 동일한 X 테스트 계정을 사용하는 경우 **[!UICONTROL Tweet]** 노드를 통해 액세스되는 **[!UICONTROL Resources > Templates > Delivery templates]** 게재 템플릿에 증명 대상을 저장할 수 있습니다. 그러면 각 새 게재에 대해 기본적으로 증명 대상이 입력됩니다.
 
 1. 게시물의 콘텐츠 정의
 
@@ -118,7 +118,7 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
    >[!NOTE]
    >
-   >모든 DM 증명을 동일한 X 계정으로 보내려면 **[!UICONTROL Resources > Templates > Delivery templates]** 노드를 통해 액세스되는 **[!UICONTROL Tweet (Direct Message)]** 게재 템플릿에 증명 대상을 저장할 수 있습니다.
+   >모든 DM 증명을 동일한 X 계정으로 보내려면 **[!UICONTROL Tweet (Direct Message)]** 노드를 통해 액세스되는 **[!UICONTROL Resources > Templates > Delivery templates]** 게재 템플릿에 증명 대상을 저장할 수 있습니다.
 
 1. **[!UICONTROL Content]** 탭에 메시지 내용을 입력합니다.
 
@@ -149,7 +149,7 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
 >[!CAUTION]
 >
->하루에 250개 이상의 다이렉트 메시지를 보낼 수 없습니다. 이 임계값을 초과하지 않도록 하기 위해 를 웨이브로 제공할 수 있습니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ko#sending-using-multiple-waves){target="_blank"}를 참조하세요.
+>하루에 250개 이상의 다이렉트 메시지를 보낼 수 없습니다. 이 임계값을 초과하지 않도록 하기 위해 를 웨이브로 제공할 수 있습니다. 자세한 정보는 이 [섹션](configure-and-send.md#sending-using-multiple-waves)을 참조하십시오.
 
 
 ## 추적 데이터 액세스 {#tw-tracking}

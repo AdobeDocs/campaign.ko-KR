@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '797'
 ht-degree: 2%
 
 ---
@@ -31,9 +31,6 @@ ht-degree: 2%
 >[!NOTE]
 >
 >게재 상태는 실시간으로 표시되지 않습니다. 전자 메일 피드백 서비스 [에 대한 자세한 내용은 이 섹션](#email-feedback-service)을 참조하세요.
-
-
-[Campaign Classic v7 설명서에서 게재 모니터링에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ko){target="_blank"}
 
 ## 캠페인 MTA {#mta}
 
@@ -76,7 +73,7 @@ Domain Keys Identified Mail(DKIM)는 위조된 발신자 주소(일반적으로 
 
 Adobe Campaign에서 DKIM 이메일 인증 서명은 MTA에 의해 수행됩니다.
 
-DKIM에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#authentication){target="_blank"}를 참조하세요.
+DKIM에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}를 참조하세요.
 
 ## 이메일 피드백 서비스 {#email-feedback-service}
 
@@ -88,7 +85,7 @@ EFS(Campaign Email Feedback Service)는 Adobe Campaign을 통해 전송되는 �
 
 하드 바운스 메시지가 MTA에서 다시 보고되면 로그 상태가 **[!UICONTROL Taken into account by the service provider]**&#x200B;에서 **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->(으)로 변경됩니다.
 
-소프트 바운싱 메시지가 MTA에서 다시 보고되면 로그 상태가 변경되지 않은 상태로 유지됩니다(**[!UICONTROL Taken into account by the service provider]**). [오류 이유](delivery-failures.md#delivery-failure-reasons)만 업데이트됩니다<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. **[!UICONTROL Success]** 비율은 변경되지 않습니다. 그런 다음 소프트 바운싱 메시지가 게재 [유효 기간](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ko#defining-validity-period){target="_blank"} 동안 다시 시도됩니다.
+소프트 바운싱 메시지가 MTA에서 다시 보고되면 로그 상태가 변경되지 않은 상태로 유지됩니다(**[!UICONTROL Taken into account by the service provider]**). [오류 이유](delivery-failures.md#delivery-failure-reasons)만 업데이트됩니다<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. **[!UICONTROL Success]** 비율은 변경되지 않습니다. 그런 다음 소프트 바운싱 메시지가 게재 [유효 기간](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels){target="_blank"} 동안 다시 시도됩니다.
 
 * 유효 기간이 끝나기 전에 다시 시도하면 메시지 상태가 **[!UICONTROL Sent]**(으)로 변경되고 **[!UICONTROL Success]** 비율이 적절하게 증가합니다.
 

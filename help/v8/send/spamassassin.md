@@ -6,7 +6,7 @@ feature: Email, Deliverability
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 1%
@@ -35,7 +35,8 @@ SpamAssassin은 다음을 포함한 다양한 스팸 감지 기술을 활용합�
 
 이메일 게재를 만들고 콘텐츠를 정의했으면 아래 단계에 따라 위험을 평가합니다.
 
-게재 만들기 및 디자인에 대한 자세한 내용은 [이 섹션](defining-the-email-content.md)을 참조하세요.
+게재 만들기 및 디자인에 대한 자세한 내용은 이 [페이지](defining-the-email-content.md)를 참조하세요.
+
 
 1. **[!UICONTROL Preview]** 탭으로 이동합니다.
 1. 게재를 미리 볼 수신자를 선택하십시오.
