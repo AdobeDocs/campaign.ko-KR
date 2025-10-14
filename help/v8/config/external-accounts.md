@@ -146,7 +146,7 @@ Microsoft OAuth 2.0을 사용하여 외부 POP3을 구성하려면 **[!UICONTROL
 
    * **[!UICONTROL Encryption]**: **[!UICONTROL None]**&#x200B;과(와) **[!UICONTROL SSL]** 사이의 암호화 유형입니다.
 
-   * **[!UICONTROL Access key]**: **[!UICONTROL Access key]** Microsoft 설명서[에서 ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}을(를) 찾는 방법에 대해 알아보세요.
+   * **[!UICONTROL Access key]**: **[!UICONTROL Access key]** Microsoft 설명서[에서 &#x200B;](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}을(를) 찾는 방법에 대해 알아보세요.
 
 * **Microsoft 패브릭** - **Microsoft 패브릭** 외부 계정을 사용하면 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Microsoft 패브릭과 Adobe Campaign 간에 데이터를 가져오고 내보낼 수 있습니다. 이 통합을 구성하려면 다음 세부 정보를 제공합니다.
 
