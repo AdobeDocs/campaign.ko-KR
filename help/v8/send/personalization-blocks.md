@@ -4,8 +4,9 @@ description: 메시지 콘텐츠에서 기본 제공 개인화 블록을 사용�
 feature: Personalization
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 17%
@@ -18,7 +19,7 @@ ht-degree: 17%
 
 개인화된 콘텐츠 블록에 액세스하려면 탐색기의 **[!UICONTROL Resources > Campaign Management > Personalization blocks]** 노드로 이동하십시오. 기본 제공 개인화 블록은 [이 섹션](#ootb-personalization-blocks)에 나열됩니다.
 
-게재 개인화를 최적화하기 위해 새 블록을 정의할 수도 있습니다. [자세히 알아보기](#create-custom-personalization-blocks).
+게재 개인화를 최적화하기 위해 새 블록을 정의할 수도 있습니다. [자세히 알아보기](#create-custom-personalization-blocks)
 
 ## 개인화 블록 삽입 {#insert-personalization-blocks}
 
@@ -79,4 +80,4 @@ ht-degree: 17%
 
 다음 비디오에서는 다이내믹 콘텐츠 블록을 만드는 방법과 이 블록을 사용하여 이메일 게재 콘텐츠를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449013?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)
