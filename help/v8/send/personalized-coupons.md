@@ -5,10 +5,9 @@ description: 개인화된 쿠폰을 만들고 삽입하는 방법을 알아봅�
 feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
-exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: 33462c1e2af34000131ce81e23ac2360c2cc5a3a
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '888'
 ht-degree: 1%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 1%
 
 쿠폰 관리는 설치해야 하는 패키지를 사용합니다. 쿠폰 관리 기능이 있는지 확인하려면 **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**&#x200B;을(를) 확인하세요.
 
-쿠폰 데이터는 CSV 및 XML 포맷을 사용하여 가져오고 내보낼 수 있습니다. [자세히 알아보기](../../platform/using/get-started-data-import-export.md)
+쿠폰 데이터는 CSV 및 XML 포맷을 사용하여 가져오고 내보낼 수 있습니다. [자세히 알아보기](../start/import.md)
 
 ## 쿠폰 만들기 {#creating-a-coupon}
 
@@ -58,7 +57,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >개별 쿠폰은 일괄 수입이 가능합니다. 가져오기 및 내보내기에 대한 자세한 내용은 [이 섹션](../../platform/using/get-started-data-import-export.md)을 참조하세요.
+   >개별 쿠폰은 일괄 수입이 가능합니다. 가져오기 및 내보내기에 대한 자세한 내용은 [이 섹션](../start/import.md)을 참조하세요.
 
 ### 개별 쿠폰 구성 {#configuring-individual-coupons}
 
@@ -75,8 +74,7 @@ ht-degree: 1%
 
 ## 이메일 게재에 쿠폰 삽입 {#inserting-a-coupon-into-an-email-delivery}
 
-아래 예에서는 게재가 홈 페이지에서 생성됩니다. 게재를 만드는 방법에 대한 자세한 지침은 [이 섹션](about-email-channel.md)을 참조하세요. 워크플로우에서 게재에 쿠폰을 추가할 수도 있습니다.
-
+아래 예에서는 게재가 홈 페이지에서 생성됩니다. 게재를 만드는 방법에 대한 자세한 지침은 [이 섹션](email.md)을 참조하세요.
 1. **[!UICONTROL Campaigns]**(으)로 이동하여 **[!UICONTROL Deliveries]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
@@ -150,9 +148,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../../configuration/using/about-data-model.md#default-recipient-table)
+>기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../dev/datamodel.md#ootb-profiles)
 >
->이 페이지[에서 사용자 지정 받는 사람 테이블 &#x200B;](../../configuration/using/about-custom-recipient-table.md)을(를) 사용하는 방법을 알아보세요.
+>이 페이지[에서 사용자 지정 받는 사람 테이블 ](../dev/custom-recipient.md)을(를) 사용하는 방법을 알아보세요.
 
 ## 부족한 쿠폰 관리 {#managing-insufficient-coupons}
 
