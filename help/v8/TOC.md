@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
+source-git-commit: 0e2e96a37165b82829df7421760de761a2c2b1a5
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '806'
 ht-degree: 95%
 
 ---
@@ -92,6 +92,9 @@ ht-degree: 95%
       + [개인화 필드 추가](send/personalization-fields.md)
       + [개인화 블록 사용](send/personalization-blocks.md)
       + [조건 만들기](send/conditions.md)
+      + [개인화된 쿠폰](send/personalized-coupons.md)
+      + [개인화된 PDF 문서 생성](send/generating-personalized-pdf-documents.md)
+      + [이모티콘 목록 사용자 정의](send/customizing-emoticon-list.md)
    + 게재 유효성 검사 및 전송 {#validate}
       + [미리 보기 및 교정쇄](send/preview-and-proof.md)
       + [게재 분석](send/delivery-analysis.md)
