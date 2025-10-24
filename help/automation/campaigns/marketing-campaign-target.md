@@ -6,9 +6,9 @@ feature: Campaigns, Audiences
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 26829656f8e06434ca3207c0c7b62ba907765972
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 * 타겟 대상자입니다. [받는 사람 목록](#send-to-a-group)에 메시지를 보내거나 워크플로우에서 [대상자를 만들 수 있습니다](#build-the-main-target-in-a-workflow)
 * 컨트롤 그룹입니다. 메시지 게재 후 받는 사람 동작을 모니터링하기 위해 [컨트롤 그룹을 추가](#add-a-control-group)할 수 있습니다.
-* 시드 주소 - 자세한 내용은 [이 섹션](../../v8/audiences/test-profiles.md)을 참조하세요.—>
+* 시드 주소 - 자세한 내용은 [이 섹션](../../v8/audiences/test-profiles.md)을 참조하세요.
 
 이 정보 중 일부는 [캠페인 템플릿](marketing-campaign-templates.md#campaign-templates)에서 상속될 수 있습니다.
 
@@ -177,6 +177,10 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 컨트롤 그룹은 주 대상에서 추출되거나 특정 그룹 또는 쿼리에서 추출될 수 있습니다.
 
+>[!CAUTION]
+>
+>외부 파일에서 대상 모집단을 로드할 때 컨트롤 그룹을 사용할 수 없습니다.
+
 ### 캠페인에 대한 컨트롤 그룹 활성화 {#activate-the-control-group-for-a-campaign}
 
 캠페인 수준에서 컨트롤 그룹을 정의할 수 있습니다. 이 경우 컨트롤 그룹은 해당 캠페인의 각 게재에 적용됩니다.
@@ -248,4 +252,4 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ko){target="_blank"}에서 사용할 수 있습니다.
+추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}에서 사용할 수 있습니다.

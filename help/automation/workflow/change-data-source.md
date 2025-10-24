@@ -5,10 +5,10 @@ feature: Workflows, Data Management, Federated Data Access
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 26829656f8e06434ca3207c0c7b62ba907765972
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 2%
+source-wordcount: '304'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 워크플로우 **[!UICONTROL Working table]**&#x200B;은(는) 워크플로우 활동과 데이터를 처리하고 공유하는 데 사용됩니다.
 
-기본적으로 **[!UICONTROL Working table]**&#x200B;은(는) 쿼리해야 하는 데이터의 원본과 동일한 데이터베이스에 만들어집니다.
+기본적으로 **[!UICONTROL Working table]**은(는) 쿼리해야 하는 데이터의 원본과 동일한 데이터베이스에 만들어집니다.
 예를 들어 클라우드 데이터베이스에 저장된 **[!UICONTROL Recipients]** 테이블을 쿼리하는 경우 워크플로우는 동일한 클라우드 데이터베이스에 **[!UICONTROL Working table]**&#x200B;을(를) 만듭니다.
 
 **[!UICONTROL Change Data Source]** 활동을 사용하여 **[!UICONTROL Working table]**&#x200B;에 대해 다른 데이터 원본을 사용하십시오.
@@ -28,6 +28,10 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >**[!UICONTROL Change Dimension]** 및 **[!UICONTROL Change Data source]** 활동을 한 행에 추가해서는 안 됩니다. 두 활동을 연속해서 사용해야 하는 경우 두 활동 사이에 **[!UICONTROL Enrichement]** 활동을 포함해야 합니다. 이렇게 하면 적절한 실행이 보장되며 잠재적인 충돌 또는 오류가 방지됩니다.
+
+>[!NOTE]
+>
+>**데이터 변경 Source** 활동은 실행당 최대 100만 개의 레코드를 처리할 수 있습니다. 이 한도를 늘려야 하는 경우 Adobe 담당자에게 문의하십시오.
 
 **[!UICONTROL Change Data Source]** 활동을 사용하려면 다음을 수행해야 합니다.
 
