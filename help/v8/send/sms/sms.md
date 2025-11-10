@@ -5,10 +5,10 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 12%
+source-wordcount: '185'
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,8 @@ Adobe Campaign을 사용하여 모바일 장치에 SMS를 게재하려면 다음
 >[!NOTE]
 >
 >Adobe Campaign을 사용하여 [푸시 알림](../push.md) 및 [LINE](../line/line.md) 메시지를 모바일 장치로 보낼 수도 있습니다.
-
+>
+> 기존 SMS 커넥터를 사용하는 고객의 경우 기존 구현이 계속 지원됩니다. 그러나 새 커넥터로 이동하는 것이 좋습니다. 전환하려면 Adobe에 문의하십시오.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
