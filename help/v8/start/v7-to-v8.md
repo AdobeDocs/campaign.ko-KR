@@ -59,14 +59,14 @@ Campaign v8은 **하이브리드 아키텍처**&#x200B;를 사용합니다. Camp
 
 Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8 엔터프라이즈(FFDA) 배포는 이 새로운 아키텍처를 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 테이블을 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
 
-[!DNL Campaign]이 페이지[에서 ](../architecture/architecture.md) v8 아키텍처에 대해 자세히 알아보세요.
+[!DNL Campaign]이 페이지[에서 &#x200B;](../architecture/architecture.md) v8 아키텍처에 대해 자세히 알아보세요.
 
 
 ## Adobe ID를 사용하여 Campaign에 연결{#adobe-id}
 
 Campaign 사용자는 Adobe ID를 통해서만 연결합니다. 동일한 Adobe ID를 사용하여 모든 Adobe Experience Cloud 솔루션에 대해 하나의 계정과 연결된 모든 Adobe 플랜 및 제품을 유지합니다.
 
-[!DNL Campaign]이 페이지[에서 ](connect.md)에 연결하는 방법을 알아보세요.
+[!DNL Campaign]이 페이지[에서 &#x200B;](connect.md)에 연결하는 방법을 알아보세요.
 
 ## 큐브로 데이터 분석{#adobe-reporting}
 
