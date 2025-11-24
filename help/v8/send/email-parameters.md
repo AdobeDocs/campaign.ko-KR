@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 6b70ad987b828dc1c17bc4f0683046be4eff0408
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 10%
+source-wordcount: '862'
+ht-degree: 8%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 10%
 
 예를 들어 일본어 문자가 포함된 이메일을 보내려고 합니다. 모든 문자가 일본에 있는 수신자에게 올바르게 표시되도록 하려면 표준 UTF-8이 아닌 일본어 문자를 지원하는 인코딩을 사용할 수 있습니다.
 
-이렇게 하려면 **[!UICONTROL Character encoding]** 섹션에서 **[!UICONTROL Force the encoding used for messages]** 옵션을 선택하고 표시되는 드롭다운 목록에서 인코딩을 선택합니다.
+이렇게 하려면 **[!UICONTROL Force the encoding used for messages]** 섹션에서 **[!UICONTROL Character encoding]** 옵션을 선택하고 표시되는 드롭다운 목록에서 인코딩을 선택합니다.
 
 ![](assets/email-smtp-encoding.png)
 
@@ -76,11 +76,55 @@ ht-degree: 10%
 
 바운스 메일 관리에 대한 자세한 내용은 [이 섹션](delivery-failures.md#bounce-mail-management)을 참조하세요.
 
+## 원클릭 목록 구독 취소 활성화 {#one-click-list-unsubscribe}
+
+원클릭 목록 구독 취소 URL은 이메일 발신자 정보 옆에 표시되는 링크 또는 단추로서, 한 번의 클릭으로 수신자가 메일링 목록에서 즉시 옵트아웃할 수 있습니다. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
+
+ISP의 이메일 인터페이스에 **구독 취소** 링크로 표시됩니다. 예제:
+
+![](assets/email-list-unsubscribe-example.png)
+
+최적의 전달성 관리를 위해 List-Unsubscribe라는 SMTP 헤더를 추가해야 하며 &quot;스팸으로 보고&quot; 아이콘 대신 사용할 수 있습니다. 실제로 이 기능을 사용하면 컴플레인 비율이 낮아지고 평판이 보호됩니다.
+
+>[!IMPORTANT]
+>
+>이메일 헤더에 원클릭 구독 취소 URL을 표시하려면 수신자의 이메일 클라이언트가 이 기능을 지원해야 합니다.
+
+이 기능을 사용하려면 게재 속성의 **[!UICONTROL Addition of One-click List-Unsubscription Header]** 탭에서 **[!UICONTROL SMTP]** 옵션을 선택하십시오.
+
+>[!NOTE]
+>
+>이 옵션은 기본적으로 활성화되어 있습니다.
+
+![](assets/email-smtp-list-unsubscribe.png)
+
+<!--
+>[!WARNING]
+>
+>If you uncheck this option in the delivery template, it will still be enabled by default in the deliveries created from this template. You need to enable the option again at the delivery level.-->
+
+이메일 클라이언트와 옵트아웃을 수행하는 데 사용하는 방법에 따라 이메일 헤더의 **구독 취소** 링크를 클릭하면 다음과 같은 영향을 받을 수 있습니다.
+
+* 전자 메일 클라이언트가 **한 번의 클릭으로** 목록 구독 취소 메서드를 사용하는 경우 받는 사람이 직접 옵트아웃됩니다.
+
+  >[!NOTE]
+  >
+  >Google 및 Yahoo! 등 주요 ISP 보낸 사람이 **One-Click List-Unsubscribe**&#x200B;를 준수하도록 요청하고 있습니다.
+
+* 이메일 클라이언트가 One-Click List-Unsubscribe를 지원하지 않는 경우에도 **&quot;mailto&quot;** List-Unsubscribe 메서드를 사용할 수 있습니다. 이 메서드는 이메일 헤더에 지정된 구독 취소 주소로 미리 채워진 이메일을 보냅니다.
+
+  헤더에서 주소를 명시적으로 설정하거나 배포 마법사를 통해 설정할 수 있는 동적 주소(예: &lt;%=errorAddress%> 또는 옵션 &#39;NmsEmail_DefaultErrorAddr&#39; 사용)를 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>[한 번 클릭 목록 구독 취소](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} 및 [&quot;mailto&quot; 목록 구독 취소](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} 메서드를 수동으로 설정할 수도 있습니다. 자세한 단계는 Experience Cloud [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}에 설명되어 있습니다.
+
+
 ## SMTP 헤더 추가 {#adding-smtp-headers}
 
 게재에 SMTP 헤더를 추가할 수 있습니다. 이렇게 하려면 게재에서 **[!UICONTROL SMTP]** 탭의 관련 섹션을 사용합니다.
 
-이 창에 입력한 스크립트는 **name:value** 형식의 한 줄에 하나의 헤더를 참조해야 합니다.
+이 창에 입력한 스크립트는 **name:value** 형식의 줄당 하나의 헤더를 참조해야 합니다.
 
 필요한 경우 값이 자동으로 인코딩됩니다.
 
