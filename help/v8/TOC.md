@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 0e2e96a37165b82829df7421760de761a2c2b1a5
+source-git-commit: 0830dea0e04a67c2d0b4102e41c0e57d8c98302a
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '811'
 ht-degree: 95%
 
 ---
@@ -38,7 +38,8 @@ ht-degree: 95%
    + [구성 요소 및 프로세스](start/ac-components.md)
    + [Campaign Classic v7에서 v8로의 전환](start/v7-to-v8.md)
    + [Campaign Standard에서 v8로의 전환](start/acs-to-v8.md)
-   + [FAQ](start/campaign-faq.md)
+   + [자주 묻는 질문](start/campaign-faq-comprehensive.md)
+   + [자주 묻는 질문](start/campaign-faq.md)
 + 캠페인 관리 {#campaigns}
    + [캠페인 시작하기](start/campaigns.md)
    + [캠페인 오케스트레이션 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
@@ -232,7 +233,7 @@ ht-degree: 95%
       + [외부 계정](config/external-accounts.md)
 + 개발자 리소스 {#developer}
    + [Campaign 데이터 모델](dev/datamodel.md)
-   + 스키마 및 양식 {#shemas-forms}
+   + 스키마 및 양식 {#schemas-forms}
       + [스키마 작업](dev/schemas.md)
       + [스키마 만들기](dev/create-schema.md)
       + [스키마 확장](dev/extend-schema.md)
@@ -264,7 +265,7 @@ ht-degree: 95%
          + [프로필 검색](dev/api/retrieving-profiles.md)
          + [프로필 업데이트](dev/api/updating-profiles.md)
          + [프로필 만들기](dev/api/creating-profiles-api.md)
-      + 서비스 및 구독 관리 {#managing-services-and-subscriptiopns}
+      + 서비스 및 구독 관리 {#managing-services-and-subscriptions}
          + [서비스 만들기](dev/api/creating-a-service.md)
          + [구독 검색](dev/api/retrieving-subscriptions.md)
          + [구독 수행](dev/api/perform-subscriptions.md)
