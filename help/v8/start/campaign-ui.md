@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
+source-git-commit: df8ab43d9c7aee96c23240cd6c2775311da1abf2
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 74%
+source-wordcount: '1178'
+ht-degree: 69%
 
 ---
 
@@ -82,19 +82,17 @@ Campaign 클라이언트 콘솔에 연결되면 상단 섹션에서 탭을 탐�
 
 예를 들어 **[!UICONTROL Profiles and targets]** 탭으로 이동하면 수신자 목록, 구독 서비스, 기존 타기팅 워크플로 및 이러한 모든 구성 요소를 만들기 위한 바로 가기에 액세스할 수 있습니다.
 
-![](assets/overview-list.png)
+![프로필 및 대상 탭에서 목록에 액세스하는 방법을 보여 주는 Campaign 콘솔 사용자 인터페이스](assets/overview-list.png)
 
 화면에서 요소를 선택하면 콘텐츠를 쉽게 찾아볼 수 있도록 새 탭에 로드됩니다.
 
-![](assets/new-tab.png)
+![새 탭에서 목록을 편집하는 방법을 보여 주는 Campaign 콘솔 사용자 인터페이스](assets/new-tab.png)
 
 ### 요소 만들기 {#create-an-element}
 
 화면 왼쪽의 **[!UICONTROL Create]** 섹션에 있는 바로 가기를 사용하여 새 요소를 추가합니다. 목록 위에 있는 **[!UICONTROL Create]** 버튼을 사용하여 현재 목록에 새 요소를 추가할 수도 있습니다.
 
-예를 들어 게재 페이지에서 **[!UICONTROL Create]** 버튼을 사용하여 새 게재를 만듭니다.
-
-![](assets/new-recipient.png)
+![프로필 및 대상 화면에서 받는 사람을 만드는 방법을 보여 주는 Campaign 콘솔 사용자 인터페이스](assets/new-recipient.png)
 
 <!--
 ## Use a web browser {#web-browser}
@@ -109,7 +107,7 @@ The web access interface is similar to the console interface. From a browser, yo
 
 모든 Adobe Campaign 기능 및 설정에 액세스하려면 캠페인 탐색기를 탐색하세요.
 
-![](assets/explorer.png)
+![Campaign 메뉴에 초점을 맞춘 탐색기를 표시하는 Campaign 콘솔 사용자 인터페이스](assets/explorer.png)
 
 이 작업 영역을 사용하면 탐색기 트리에 액세스하여 모든 기능과 옵션을 찾아볼 수 있습니다.
 
@@ -153,7 +151,7 @@ v8.6.1 릴리스부터 Campaign v8 사용자는 중앙 Adobe Experience Cloud �
   >
   >설치 프로세스 중에 언어를 선택했으며 이후에 **변경할 수 없습니다**.
 
-* Campaign Web 사용자 인터페이스에서 지원하는 언어는 [이 페이지를 참조하세요](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=ko#language-pref){target="_blank"}.
+* Campaign 웹 사용자 인터페이스가 지원하는 언어에 대해서는 [Campaign 웹 사용자 인터페이스 설명서를 참조하십시오](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=ko#language-pref){target="_blank"}.
 
 ## 형식
 

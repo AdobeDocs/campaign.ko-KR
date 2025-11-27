@@ -4,8 +4,9 @@ description: Campaign v8 사용자에게 권한을 부여하는 방법 알아보
 feature: Permissions
 role: User, Admin
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
+source-git-commit: df8ab43d9c7aee96c23240cd6c2775311da1abf2
 workflow-type: tm+mt
 source-wordcount: '1618'
 ht-degree: 1%
@@ -68,7 +69,7 @@ Adobe에 새 제품 프로필을 추가하려면 먼저 Campaign 클라이언트
 #### Campaign에서 연산자 그룹 만들기{#create-op-group}
 
 1. Campaign에 연결하여 탐색기를 열고 **[!UICONTROL Administration > Access management > Operator groups]**(으)로 이동합니다.
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭하고 연산자 그룹의 이름을 정의하고 내부 이름(&#39;검토자&#39;)을 설정합니다.
+1. **[!UICONTROL New]**을(를) 클릭하고 연산자 그룹의 이름을 정의하고 내부 이름(&#39;검토자&#39;)을 설정합니다.
    ![](assets/new-op-group.png)
 1. 명명된 권한을 선택하여 관련 권한을 정의합니다. 명명된 권한은 [이 섹션](#use-named-rights)에 자세히 설명되어 있습니다.
 1. 새 연산자 그룹을 저장합니다.
@@ -148,7 +149,7 @@ Adobe Campaign에는 Adobe에서 환경을 활성화할 때 정의된 기본 제
 
 1. **[!UICONTROL Offer managers]**(오퍼)
 
-   이 그룹의 연산자는 상호 작용 추가 기능을 사용할 때 오퍼를 만들고 유지 관리할 수 있습니다. [자세히 알아보기](../interaction/interaction-operators.md).
+   이 그룹의 연산자는 상호 작용 추가 기능을 사용할 때 오퍼를 만들고 유지 관리할 수 있습니다. [자세히 알아보기](../interaction/interaction-operators.md)
 
    이 그룹에는 다음과 같은 명명된 권한이 포함되어 있습니다.
 
@@ -189,7 +190,7 @@ Adobe Campaign에는 사용자 및 사용자 그룹에 할당된 권한을 정�
 예를 들어, 배달 편집기의 **분석** 단추가 **배달 준비** 이름이 오른쪽에 있는 **배달 연산자** 그룹의 구성원에 대해 활성화됩니다
 
 * 폴더 액세스
-운영자 그룹의 멤버십은 폴더에 대한 보안 설정을 변경하여 폴더에 대한 액세스 권한을 부여하거나 제한할 수 있습니다. [자세히 알아보기](folder-permissions.md#restrict-access-to-a-folder).
+운영자 그룹의 멤버십은 폴더에 대한 보안 설정을 변경하여 폴더에 대한 액세스 권한을 부여하거나 제한할 수 있습니다. [자세히 알아보기](folder-permissions.md#restrict-access-to-a-folder)
 
   예를 들어 다음 항목에 영향을 줄 수 있습니다. **쓰기 액세스**(게재, 프로필 등), **읽기 액세스**(엔터티 사용), **액세스 삭제**(엔터티 삭제).
 
@@ -219,7 +220,7 @@ Adobe Campaign의 기본 명명된 권한은 다음과 같습니다.
 
 * **[!UICONTROL PREPARE DELIVERIES]**: 게재를 만들고 편집하고 저장할 수 있는 권한. **[!UICONTROL PREPARE DELIVERIES]** 권한이 있는 사용자는 게재 분석 프로세스를 시작할 수도 있습니다.
 
-* **[!UICONTROL PRIVACY DATA RIGHT]**: 개인 정보 데이터를 수집 및 삭제할 권한. [자세히 알아보기](privacy.md).
+* **[!UICONTROL PRIVACY DATA RIGHT]**: 개인 정보 데이터를 수집 및 삭제할 권한. [자세히 알아보기](privacy.md)
 
 * **[!UICONTROL PROGRAM EXECUTION]**: 다양한 프로그래밍 언어로 명령을 실행할 수 있는 권한.
 
@@ -229,7 +230,7 @@ Adobe Campaign의 기본 명명된 권한은 다음과 같습니다.
 
 * **[!UICONTROL START DELIVERIES]**: 이전에 분석된 게재를 승인할 수 있는 권한. 게재 분석 후 게재는 다양한 승인 단계에서 일시 중지되며 재개하려면 승인을 받아야 합니다. **[!UICONTROL START DELIVERIES]** 권한이 있는 사용자는 게재를 승인할 수 있습니다.
 
-* **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**: 작업 테이블을 만들고 채우기 위해 SQL 데이터 관리 활동을 사용하여 고유한 SQL 스크립트를 작성할 수 있는 권한. [자세히 알아보기](../../automation/workflow/sql-data-management.md).
+* **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**: 작업 테이블을 만들고 채우기 위해 SQL 데이터 관리 활동을 사용하여 고유한 SQL 스크립트를 작성할 수 있는 권한. [자세히 알아보기](../../automation/workflow/sql-data-management.md)
 
 * **[!UICONTROL WORKFLOW]**: 이 명명된 권한은 워크플로우에만 적용됩니다. 워크플로우를 만들고, 시작하고, 중지할 수 있습니다. 지정된 권한을 적용하려면 워크플로우 파일에 대한 읽기 권한이 필요합니다. 타겟팅 워크플로우의 경우 **[!UICONTROL Profiles and Targets]** 폴더에 대한 읽기 권한이 필요합니다.
 
