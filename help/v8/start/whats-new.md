@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 4b67d5f5427b1be8217f141a97c4de413f5e1f2e
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 97%
+source-wordcount: '1447'
+ht-degree: 69%
 
 ---
 
@@ -21,6 +21,22 @@ Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상
 ![](assets/home-page.png)
 
 ## 주요 기능{#key-capabilities}
+
+### Campaign Web 사용자 인터페이스{#new-web-ui}
+
+Adobe Campaign v8은 기존 클라이언트 콘솔과 함께 **새로운 웹 사용자 인터페이스**&#x200B;를 제공합니다. 이 현대적이고 직관적인 인터페이스는 더 빠른 캠페인 생성과 향상된 접근성을 필요로 하는 마케터를 위해 설계되었습니다.
+
+**주요 이점:**
+
+* **최신 디자인** - 모든 브라우저에서 액세스할 수 있는 깔끔하고 반응형 인터페이스
+* **간소화된 워크플로** - 능률화된 캠페인 생성 및 관리
+* **드래그 앤 드롭 기능** - 기술적 지식이 없는 시각적 콘텐츠 디자인
+* **신속한 온보딩** - 신규 사용자를 위한 최소 학습 곡선
+* **통합 경험** - 쉽게 전환할 수 있도록 Campaign Standard과 유사성을 공유합니다.
+
+Campaign v8.6부터 Adobe Experience Cloud을 통해 Campaign 웹 UI를 사용할 수 있으므로 모든 Adobe 솔루션에 원활하게 액세스할 수 있습니다.
+
+[Campaign 웹 사용자 인터페이스에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home){target="_blank"}
 
 ### 중앙 워크플로 관리{#central-wf-mgt}
 
@@ -92,6 +108,63 @@ Adobe Campaign은 이제 클라우드 규모 데이터베이스 기술을 활용
 
 [엔터프라이즈(FFDA) 배포에 대해 자세히 알아보기](../architecture/enterprise-deployment.md)
 
+### 규모에 맞는 성능 {#performance-metrics}
+
+Campaign v8 Enterprise는 대량의 마케팅 작업을 위한 탁월한 성능을 제공합니다.
+
+* 대규모 캠페인 실행에 대해 **일괄 처리** - 시간당 최대 **2천만 개의 작업**
+* 실시간 통신용 **트랜잭션 메시지** - **시간당 1백만 개의 메시지**
+* **빠른 대상 구축** - 수백만 개의 프로필을 몇 시간이 아닌 몇 분 안에 쿼리하고 세그먼트화합니다.
+* **클라우드 데이터베이스** - Snowflake 기술은 최대 작업 중 시스템 오버로드를 제거합니다.
+
+이러한 성능을 통해 조직은 속도 또는 안정성을 손상시키지 않고 복잡한 멀티 터치 캠페인을 전사적으로 실행할 수 있습니다.
+
+### 새로운 기능 및 향상된 기능 {#new-features}
+
+Campaign v8에는 다음과 같은 강력한 새로운 기능과 개선 사항이 도입되었습니다.
+
+**AI 어시스턴트**
+
+생성 AI를 활용하여 콘텐츠 생성 시간 단축:
+
+* 이메일, SMS 및 푸시 알림 콘텐츠를 자동으로 생성
+* 브랜드 음성 및 지침에 맞게 메시징 조정
+* 일관성을 보장하는 브랜드 정렬 점수
+* 품질을 유지하면서 컨텐츠 생성 시간 단축
+
+**리치 푸시 알림**
+
+매력적인 모바일 경험을 만들 수 있습니다.
+
+* 푸시 알림의 이미지, 비디오 및 회전 메뉴
+* 대화형 단추 및 타이머
+* iOS 및 Android에 대한 향상된 사용자 정의
+* 시각적 storytelling을 통해 참여도 개선
+
+**업그레이드된 SMS 인프라(v2.0)**
+
+* 안정성 및 게재율 향상
+* SMPP 커넥터와의 호환성 향상
+* 대량 SMS 캠페인의 처리량 향상
+* 고급 게재 모니터링 및 보고
+
+**향상된 통합**
+
+* **Adobe Experience Manager as a Cloud Service** - 원활한 컨텐츠 관리 및 자산 통합
+* **REST API** - 보다 쉬운 통합 및 개발을 위한 최신 API 아키텍처
+* **동적 보고** - v8로 전환하는 Campaign Standard 사용자를 위한 고급 분석 기능
+
+### 자동 업그레이드 및 유지 관리 {#automatic-upgrades}
+
+Campaign v8 Managed Cloud Services를 사용하면 수동 업그레이드 작업이 필요 없습니다.
+
+* **연속 게재 모델** - 안정적인 최신 버전으로 자동 업그레이드
+* **가동 중지 시간 제로** - 작업에 미치는 영향을 최소화하면서 업그레이드 수행
+* **즉시 액세스** - 릴리스되는 즉시 새로운 기능 및 보안 패치를 받으십시오.
+* **IT 부담 감소** - Adobe에서 모든 인프라 유지 관리 및 업데이트를 관리합니다.
+* **조정된 예약** - Adobe은 업그레이드 시간을 계획하기 위해 사용자와 함께 작업합니다.
+
+이 접근 방식을 사용하면 업그레이드 계획 및 실행을 위한 내부 IT 리소스 없이도 Campaign 인스턴스가 항상 안전하고, 최적화되며, 최신 기능을 갖출 수 있습니다.
 
 ## 셀프서비스 관리 인터페이스{#self-service-admin}
 
