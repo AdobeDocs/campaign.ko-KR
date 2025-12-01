@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 0830dea0e04a67c2d0b4102e41c0e57d8c98302a
+source-git-commit: 26fededf0ee83299477e45e891df30a46c6d40fe
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 95%
+source-wordcount: '816'
+ht-degree: 94%
 
 ---
 
@@ -248,6 +248,7 @@ ht-degree: 95%
       + [입력 양식](dev/forms.md)
    + [데이터 패키지 작업](dev/packages.md)
    + [Campaign API](dev/api.md)
+   + [queryDef를 사용하여 데이터베이스 쿼리](dev/query-api.md)
    + REST API {#apis}
       + [REST API 시작](dev/api/get-started-apis.md)
       + [권장 사항 및 제한 사항](dev/api/limitations.md)
