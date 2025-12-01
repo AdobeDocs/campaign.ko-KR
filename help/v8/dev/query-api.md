@@ -7,20 +7,52 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: 0fd39d6c-9e87-4b0f-a960-2aef76c9c8eb
-source-git-commit: 26fededf0ee83299477e45e891df30a46c6d40fe
+source-git-commit: ceab90331fab0725962a2a98f338ac3dc31a2588
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '1281'
 ht-degree: 1%
 
 ---
 
 # queryDef를 사용하여 데이터베이스 쿼리 {#query-database-api}
 
-[!DNL Adobe Campaign]은(는) `queryDef` 및 `NLWS`을(를) 사용하여 데이터베이스와 상호 작용하는 강력한 JavaScript 메서드를 제공합니다. 이러한 메서드를 사용하면 JSON, XML 또는 SQL을 사용하여 데이터를 로드, 생성, 업데이트 및 쿼리할 수 있습니다.
+[!DNL Adobe Campaign]은(는) `queryDef` 및 `NLWS` 개체를 사용하여 데이터베이스와 상호 작용하는 강력한 JavaScript 메서드를 제공합니다. 이러한 SOAP 기반 메서드를 사용하면 JSON, XML 또는 SQL을 사용하여 데이터를 로드, 생성, 업데이트 및 쿼리할 수 있습니다.
 
 >[!NOTE]
 >
 >이 설명서는 프로그래밍 방식으로 데이터베이스 쿼리를 위한 데이터 지향 API를 다룹니다. REST API의 경우 [REST API 시작](api/get-started-apis.md)을 참조하세요. 시각적 쿼리 작성에 대한 자세한 내용은 [쿼리 편집기 작업](../start/query-editor.md)을 참조하세요.
+
+## NLWS란? {#what-is-nlws}
+
+`NLWS`(Neolane Web Services)은 [!DNL Adobe Campaign]의 SOAP 기반 API 메서드에 액세스하는 데 사용되는 전역 JavaScript 개체입니다. 스키마는 `NLWS` 개체의 속성으로, 프로그래밍 방식으로 Campaign 엔터티와 상호 작용할 수 있습니다.
+
+[Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}에 따르면 &quot;스키마는 &#39;NLWS&#39; 전역 개체입니다.&quot; 스키마 메서드에 액세스하는 구문은 다음 패턴을 따릅니다.
+
+```javascript
+NLWS.<namespace><SchemaName>.<method>()
+```
+
+**예:**
+
+* `NLWS.nmsRecipient` - 수신자 스키마(`nms:recipient`)에 대한 액세스 메서드
+* `NLWS.nmsDelivery` - 게재 스키마(`nms:delivery`)에 대한 액세스 메서드
+* `NLWS.xtkQueryDef` - 데이터베이스 쿼리를 위해 queryDef 메서드에 액세스합니다.
+
+일반적인 API 메서드는 다음과 같습니다.
+
+* `load(id)` - 엔터티를 해당 ID로 로드합니다. [자세히 알아보기](https://experienceleague.adobe.com/developer/campaign-api/api/f-load.html){target="_blank"}
+* `create(data)` - 새 엔터티 만들기
+* `save()` - 엔터티에 변경 내용 저장
+
+**공식 설명서의 예:**
+
+```javascript
+var delivery = NLWS.nmsDelivery.load("12435")
+```
+
+>[!NOTE]
+>
+>**대체 구문:** 이전 버전과의 호환성을 위해 일부 문서에서 소문자 네임스페이스 구문을 확인할 수도 있습니다(예: `nms.recipient.create()`, `xtk.queryDef.create()`). 두 구문이 모두 작동하지만 `NLWS`은(는) 공식 Campaign JSAPI 참조에 문서화된 표준입니다.
 
 ## 필수 구성 요소 {#prerequisites}
 
@@ -30,11 +62,30 @@ queryDef 및 NLWS 메서드를 사용하기 전에 다음 사항에 익숙해야
 * [!DNL Adobe Campaign] 데이터 모델 및 스키마
 * 스키마 요소 탐색을 위한 XPath 표현식
 
-[이 페이지](datamodel.md)에서 Campaign 데이터 모델에 대해 자세히 알아보세요.
+**Campaign 데이터 모델 이해:**
 
-## 엔터티 스키마 정적 메서드 {#entity-schema-methods}
+Adobe Campaign에는 클라우드 데이터베이스에서 함께 연결된 테이블로 구성된 사전 정의된 데이터 모델이 포함되어 있습니다. 기본 구조에는 다음이 포함됩니다.
 
-[!DNL Adobe Campaign]의 각 스키마(예: `nms:recipient`, `nms:delivery`)에는 `NLWS` 개체를 통해 액세스할 수 있는 정적 메서드가 제공됩니다. 이러한 메서드는 데이터베이스 엔터티와 상호 작용하는 편리한 방법을 제공합니다.
+* **받는 사람 테이블**(`nmsRecipient`) - 마케팅 프로필을 저장하는 기본 테이블
+* **게재 테이블** (`nmsDelivery`) - 게재 작업 및 템플릿을 게재 수행을 위한 매개 변수와 함께 저장합니다.
+* **로그 테이블** - 저장소 실행 로그:
+   * `nmsBroadLogRcp` - 받는 사람에게 보낸 모든 메시지의 게재 로그
+   * `nmsTrackingLogRcp` - 수신자 반응(열기, 클릭)에 대한 추적 로그
+* **기술 테이블** - 연산자(`xtkGroup`), 세션(`xtkSessionInfo`), 워크플로우(`xtkWorkflow`)와 같은 시스템 데이터를 저장합니다.
+
+Campaign 인터페이스의 스키마 설명에 액세스하려면 **관리 > 구성 > 데이터 스키마**&#x200B;로 이동하여 리소스를 선택하고 **설명서** 탭을 클릭하십시오.
+
+## 엔티티 스키마 메서드 {#entity-schema-methods}
+
+[!DNL Adobe Campaign]의 각 스키마(예: `nms:recipient`, `nms:delivery`)에는 `NLWS` 개체를 통해 액세스할 수 있는 메서드가 제공됩니다. 이러한 메서드는 데이터베이스 엔터티와 상호 작용하는 편리한 방법을 제공합니다.
+
+### 정적 메서드 {#static-methods}
+
+정적 SOAP 메서드는 스키마를 나타내는 개체에서 메서드를 호출하여 액세스됩니다. 예를 들어 `NLWS.xtkWorkflow.PostEvent()`은(는) 정적 메서드를 호출합니다.
+
+### 비정적 메서드 {#non-static-methods}
+
+비정적 SOAP 메서드를 사용하려면 먼저 해당 스키마에서 `load` 또는 `create` 메서드를 사용하여 엔터티를 검색해야 합니다. 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html){target="_blank"}를 참조하세요.
 
 ### 엔티티 로드, 저장 및 생성 {#load-save-create}
 
@@ -87,7 +138,7 @@ recipient.save();
 * `getIfExists` - 단일 레코드를 검색하고, 찾을 수 없으면 null을 반환합니다.
 * `count` - 기준과 일치하는 레코드 수
 
-[Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=ko){target="_blank"}에서 queryDef 메서드에 대해 자세히 알아보세요.
+[Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}에서 queryDef 메서드에 대해 자세히 알아보세요.
 
 ## JSON을 사용한 쿼리 {#query-json}
 
@@ -209,9 +260,12 @@ for each(var delivery in deliveries.delivery) {
 
 >[!NOTE]
 >
->`lineCount` 매개 변수는 결과 수를 제한합니다. 이 기능이 없으면 기본 제한은 레코드 10,000개입니다.
+>**결과 제한:** Campaign은 메모리 문제를 방지하기 위해 쿼리 결과를 자동으로 제한합니다.
+>* 기본 제한은 컨텍스트에 따라 다릅니다(일반적으로 200~10,000개의 레코드).
+>* 최대 결과 수를 명시적으로 설정하려면 `lineCount`을(를) 사용하십시오.
+>* 대규모 데이터 세트(>1000개의 레코드)의 경우 queryDef 대신 워크플로우를 사용합니다. 워크플로우는 수백만 개의 행을 효율적으로 처리하도록 설계되었습니다.
 
-[ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+[ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"} 및 [쿼리 모범 사례](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}에 대해 자세히 알아보세요.
 
 ## 워크플로우 전환 데이터 쿼리 {#workflow-transition-data}
 
@@ -256,7 +310,7 @@ for each(var record in records.getElements()) {
 
 >[!CAUTION]
 >
->SQL 삽입 취약성을 방지하려면 항상 문자열의 경우 `$(sz)`을(를) 사용하고 정수의 경우 `$(l)`을(를) 사용하는 매개 변수가 있는 쿼리를 사용하십시오. 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html?lang=ko){target="_blank"}를 참조하세요.
+>SQL 삽입 취약성을 방지하려면 항상 문자열의 경우 `$(sz)`을(를) 사용하고 정수의 경우 `$(l)`을(를) 사용하는 매개 변수가 있는 쿼리를 사용하십시오. 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html){target="_blank"}를 참조하세요.
 
 ## 레코드 수 {#count-records}
 
@@ -349,6 +403,78 @@ for each(var result in d.get()) {
 }
 ```
 
+## 분석이 있는 쿼리 열거 {#analyze-enumerations}
+
+`analyze` 옵션은 열거형 값에 대해 사용자에게 친숙한 이름을 반환합니다. 숫자 값 대신 Campaign은 &quot;Name&quot; 및 &quot;Label&quot; 접미사를 사용하여 문자열 값과 레이블을 반환하기도 합니다.
+
+**열거형 분석을 사용한 쿼리 게재 매핑:**
+
+```javascript
+var query = NLWS.xtkQueryDef.create({
+  queryDef: {
+    schema: "nms:deliveryMapping",
+    operation: "get",
+    select: {
+      node: [
+        {expr: "@id"},
+        {expr: "@name"},
+        {expr: "[storage/@exclusionType]", analyze: true}  // Analyze enumeration
+      ]
+    },
+    where: {
+      condition: [{expr: "@name='mapRecipient'"}]
+    }
+  }
+});
+
+var mapping = query.ExecuteQuery();
+
+// Result includes:
+// - exclusionType: 2 (numeric value)
+// - exclusionTypeName: "excludeRecipient" (string value)
+// - exclusionTypeLabel: "Exclude recipient" (display label)
+logInfo("Type: " + mapping.$exclusionType);
+logInfo("Name: " + mapping.$exclusionTypeName);
+logInfo("Label: " + mapping.$exclusionTypeLabel);
+```
+
+[분석 옵션](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#the-analyze-option){target="_blank"}에 대해 자세히 알아보세요.
+
+## 쪽 매기기 {#pagination}
+
+`lineCount` 및 `startLine`을(를) 사용하여 큰 결과 집합의 페이지를 매깁니다.
+
+**페이지에서 레코드 검색:**
+
+```javascript
+// Get records 3 and 4 (skip first 2)
+var query = NLWS.xtkQueryDef.create({
+  queryDef: {
+    schema: "nms:recipient",
+    operation: "select",
+    lineCount: 2,     // Number of records per page
+    startLine: 2,     // Starting position (0-indexed)
+    select: {
+      node: [
+        {expr: "@id"},
+        {expr: "@email"}
+      ]
+    },
+    orderBy: {
+      node: [{expr: "@id"}]  // Critical: Always use orderBy for pagination
+    }
+  }
+});
+
+var recipients = query.ExecuteQuery();
+```
+
+>[!CAUTION]
+>
+>**페이지 매김에는 orderBy:**&#x200B;이(가) 필요합니다. `orderBy` 절이 없으면 쿼리 결과가 일관된 순서로 유지되지 않습니다. 후속 호출은 다른 페이지나 중복 레코드를 반환할 수 있습니다. 페이지 매김 사용 시 항상 `orderBy`을(를) 포함하십시오.
+
+[페이지 매김](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#pagination){target="_blank"}에 대해 자세히 알아보세요.
+
 ## 동적 쿼리 구성 {#dynamic-queries}
 
 프로그래밍 방식으로 조건을 추가하여 쿼리를 동적으로 빌드합니다.
@@ -435,7 +561,7 @@ logInfo("Generated SQL: " + sql);
 // Output: "SELECT iRecipientId, sEmail FROM NmsRecipient WHERE sEmail IS NOT NULL"
 ```
 
-[BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+[BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html){target="_blank"}에 대해 자세히 알아보세요.
 
 ### BuildQueryEx - 형식 문자열로 SQL 가져오기 {#build-query-ex}
 
@@ -460,7 +586,7 @@ logInfo("Format: " + format);
 var results = sqlSelect(format, sql);
 ```
 
-[BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+[BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html){target="_blank"}에 대해 자세히 알아보세요.
 
 ### SelectAll - 선택할 모든 필드를 추가합니다. {#select-all}
 
@@ -483,7 +609,7 @@ var result = query.ExecuteQuery();
 // Result contains all recipient fields
 ```
 
-[모두 선택](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+[모두 선택](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html){target="_blank"}에 대해 자세히 알아보세요.
 
 ### 갱신 - 일괄 갱신 레코드 {#mass-update}
 
@@ -513,7 +639,7 @@ logInfo("Mass update completed");
 >
 >대량 업데이트는 where 절과 일치하는 모든 레코드에 영향을 줍니다. 항상 선택 쿼리를 사용하여 where 조건을 먼저 테스트하여 영향을 받을 레코드를 확인합니다.
 
-[업데이트](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+[업데이트](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html){target="_blank"}에 대해 자세히 알아보세요.
 
 ### GetInstanceFromModel - 쿼리 템플릿 인스턴스 {#get-instance-from-model}
 
@@ -536,7 +662,7 @@ var query = NLWS.xtkQueryDef.create(
 var instance = query.GetInstanceFromModel("nms:delivery");
 ```
 
-[GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+[GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html){target="_blank"}에 대해 자세히 알아보세요.
 
 ## 일괄 처리 작업 {#batch-operations}
 
@@ -629,12 +755,14 @@ for each(var record in xml.collection) {
 
 queryDef 및 NLWS 메서드를 사용하여 작업하는 경우:
 
+* **대규모 데이터 세트에 대한 워크플로우 사용** - QueryDef은 대량 데이터 처리를 위해 디자인되지 않았습니다. 레코드가 1,000개가 넘는 데이터 세트의 경우 수백만 개의 행을 효율적으로 처리할 수 있는 워크플로우를 사용합니다. 자세한 내용은 [Campaign SDK 설명서](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}를 참조하세요
 * **매개 변수가 있는 쿼리 사용** - SQL 삽입을 방지하려면 항상 `$(sz)`과(와) 함께 바인딩된 매개 변수(`$(l)`, `sqlExec`)를 사용하십시오.
-* **lineCount 설정** - 필요한 경우 기본 10,000 레코드 제한을 재정의합니다(`lineCount: 999999999`).
+* **명시적 제한을 설정** - `lineCount`을(를) 사용하여 결과 크기를 제어하십시오. Campaign의 기본 제한은 컨텍스트에 따라 다릅니다(200~10,000개의 레코드)
+* **페이지 매김이 있는 orderBy 사용** - `orderBy` 및 `startLine`을(를) 사용할 때 항상 `lineCount` 절을 포함하여 페이지 매김을 일관되게 유지하세요.
 * **getIfExists 사용** - 예외가 발생하지 않도록 레코드가 없는 경우 `operation: "getIfExists"`을(를) 사용합니다.
+* **열거형에 대해 분석 사용** - 사용자에게 친숙한 열거형 이름 및 레이블을 가져올 노드를 선택하려면 `analyze: true`을(를) 추가하십시오.
 * **쿼리 최적화** - 결과 집합을 제한하려면 적절한 `where` 조건을 추가하십시오.
-* **일괄 처리 처리** - 시간 초과를 방지하기 위해 큰 데이터 세트를 일괄적으로 처리합니다.
-* **트랜잭션 안전성** - 여러 관련 업데이트에 트랜잭션을 사용하는 것이 좋습니다.
+* **일괄 처리** - 메모리 문제와 시간 제한을 방지하기 위해 여러 레코드를 일괄적으로 처리합니다.
 * **FFDA 인식** - [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)에서는 [!DNL Campaign]이(가) 두 개의 데이터베이스에서 작동한다는 것을 알아보세요.
 
 
@@ -772,9 +900,9 @@ if (count > 0 && count < 10000) {
 ## 관련 항목 {#related-topics}
 
 * [Campaign API 시작](api.md)
-* [queryDef API 참조](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=ko){target="_blank"}
-* [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ko){target="_blank"}
-* [데이터 모델](datamodel.md)
+* [Campaign JavaScript SDK - 쿼리 API](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
+* [queryDef API 참조](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
+* [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
 * [스키마 작업](schemas.md)
 * [쿼리 편집기 작업](../start/query-editor.md)
 
