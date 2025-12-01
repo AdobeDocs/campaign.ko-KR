@@ -111,7 +111,7 @@ Adobe 다운로드 센터에서 설치 프로그램과 클라이언트 콘솔을
 
 관리 사용자로 Adobe [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html){target="_blank"}에 액세스하여 Adobe Campaign을 다운로드합니다.
 
-이 페이지에서 [ 배포 센터에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}.
+이 페이지에서 [&#x200B; 배포 센터에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}.
 
 +++
 
@@ -212,7 +212,7 @@ Campaign v8은 현재 **관리 클라우드 서비스로만 사용할 수 있으
 
 +++ Campaign의 버전은 무엇입니까?
 
-Campaign 클라이언트 콘솔의 **도움말 > 정보...[ 메뉴에서 버전 및 빌드 번호](upgrades.md#version)를** 확인합니다.
+Campaign 클라이언트 콘솔의 **도움말 > 정보...[&#x200B; 메뉴에서 버전 및 빌드 번호](upgrades.md#version)를** 확인합니다.
 
 +++
 
@@ -301,7 +301,7 @@ Adobe은 인프라 업그레이드를 수행합니다. 서버에서 기술 작�
 
 예! IMS(Adobe Identity Management System)와의 통합 덕분에 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결합니다. 이 통합은 다음과 같은 이점을 제공합니다.
 
-*  모든 Experience Cloud 솔루션에 동일한 ID를 사용할 수 있습니다.
+* 모든 Experience Cloud 솔루션에 동일한 ID를 사용할 수 있습니다.
 * 서로 다른 통합으로 Adobe Campaign을 사용하는 경우 연결이 기억됩니다.
 * 보안 암호 관리 정책.
 * 페더레이션 ID 계정 사용(외부 ID 공급자).
@@ -479,7 +479,7 @@ Campaign 웹 사용자 인터페이스를 사용하여 랜딩 페이지를 만�
 
 전용 [게재 보고서](../reporting/delivery-reports.md)를 통해 Campaign v8로 전송된 게재를 추적한 다음 게재를 모니터링할 수 있습니다.
 
-이 페이지[에서 Campaign ](../start/tracking.md)의 추적 관리에 대해 자세히 알아보세요.
+이 페이지[에서 Campaign &#x200B;](../start/tracking.md)의 추적 관리에 대해 자세히 알아보세요.
 
 **관련 항목:**
 
