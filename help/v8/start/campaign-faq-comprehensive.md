@@ -8,9 +8,9 @@ keywords: FAQ, Campaign v8, 질문, 답변, 도움말, 지원, 문제 해결
 version: Campaign v8
 hide: true
 hidefromtoc: true
-source-git-commit: 7704b3ec07ccf76b8d561189ef559145bd353288
+source-git-commit: 90c8e5fdea8438d8a3c95ca753dc4a5042df24a3
 workflow-type: tm+mt
-source-wordcount: '12987'
+source-wordcount: '13073'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ Adobe Campaign v8에 대해 가장 일반적인 질문에 대한 빠른 답변�
 
 Campaign을 **처음 사용하시겠습니까?** 시작: [일반 질문](#general) 및 [주요 개념](#key-concepts).\
 **기술 지원이 필요하십니까?** [개발자](#developers) 및 [캠페인 설정](#settings)을 확인하세요.\
-**답변을 찾을 수 없습니까?** [커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko){target="_blank"}을 방문하거나 [지원 팀에 문의](#get-help)하세요.
+**답변을 찾을 수 없습니까?** [커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}을 방문하거나 [지원 팀에 문의](#get-help)하세요.
 
 **팁:** Ctrl+F(Mac의 Cmd+F)를 사용하여 이 페이지에서 특정 키워드를 검색합니다. 질문을 클릭하여 답변을 확장합니다.
 
@@ -32,9 +32,7 @@ Campaign을 **처음 사용하시겠습니까?** 시작: [일반 질문](#genera
 
 +++ Campaign v8에 연결하려면 어떻게 해야 합니까?
 
-Adobe Campaign에 연결하려면 Campaign 클라이언트 콘솔을 다운로드하여 설치해야 합니다.
-
-자세한 내용을 보려면 [여기](connect.md)를 클릭하십시오.
+Adobe Campaign에 연결하려면 Campaign 클라이언트 콘솔을 다운로드하여 설치해야 합니다. [자세히 알아보기](connect.md)
 
 Campaign v8.6 릴리스부터 중앙 Adobe Experience Cloud 환경을 통해 사용할 수 있는 **Campaign 웹 사용자 인터페이스**&#x200B;에 액세스할 수 있습니다. Experience Cloud은 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다.
 
@@ -82,9 +80,11 @@ Adobe Campaign은 정기적으로 업데이트됩니다. 일부 버전은 새로
 * **Adobe 담당자** - 새 버전을 사용할 수 있는 경우 직접 연락합니다.
 * **릴리스 정보** - [Campaign 릴리스 정보](release-notes.md)에 문서화된 모든 버전 및 변경 사항
 * 이메일 알림용 **Adobe 우선 순위 제품 업데이트** - [구독](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}
-* **Campaign 커뮤니티** - 초기 업데이트를 위해 [토론](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko){target="_blank"}에 참여
+* **Campaign 커뮤니티** - 초기 업데이트를 위해 [토론](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}에 참여
 
 Managed Cloud Services 사용자는 Adobe을 사용하여 업그레이드를 처리하고 시간 조정을 수행할 수 있습니다.
+
+**관련 항목:**
 
 [릴리스 정보](release-notes.md) | [새로운 기능](whats-new.md) | [Campaign 버전 및 업그레이드](upgrades.md)
 
@@ -102,6 +102,8 @@ Managed Cloud Services 사용자는 Adobe을 사용하여 업그레이드를 처
 * **새로운 기능** - 최신 기능, 향상된 Adobe Experience Cloud 통합, 최신 UI 개선 사항
 
 Adobe에서는 최신 버전을 실행하는 것이 좋습니다. Managed Cloud Services 고객은 Adobe에서 중단을 최소화하면서 업그레이드를 수행합니다.
+
+**관련 항목:**
 
 [Campaign 버전 및 업그레이드](upgrades.md) | [새로운 기능](whats-new.md) | [호환성 매트릭스](compatibility-matrix.md)
 
@@ -129,6 +131,8 @@ Managed Cloud Services 고객인 Adobe은 운영에 미치는 영향을 최소�
 
 Adobe은 인프라 업그레이드를 수행합니다. 서버에서 기술 작업을 수행할 필요가 없습니다.
 
+**관련 항목:**
+
 [Campaign 버전 및 업그레이드](upgrades.md) | [클라이언트 콘솔 업그레이드](connect.md#upgrade-ac-console) | [릴리스 정보](release-notes.md)
 
 +++
@@ -143,7 +147,7 @@ Adobe은 인프라 업그레이드를 수행합니다. 서버에서 기술 작�
 
 **관련 항목:**
 
-[전달성 정보](../send/about-deliverability.md) | [메시지 콘텐츠 제어](../send/control-message-content.md) | [게재 기능 모니터링](../send/monitoring-deliverability.md) | [SpamAssassin](../send/spamassassin.md)
+[게재 기능 시작](../send/about-deliverability.md) | [메시지 콘텐츠 제어](../send/control-message-content.md) | [게재 기능 모니터링](../send/monitoring-deliverability.md) | [SpamAssassin](../send/spamassassin.md)
 
 +++
 
@@ -181,15 +185,15 @@ Adobe은 인프라 업그레이드를 수행합니다. 서버에서 기술 작�
 
 예. Campaign은 워크플로우 실행을 모니터링하는 여러 도구를 제공합니다.
 
-* **[워크플로우 대시보드](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"}** - 각 워크플로우 활동에 대한 실시간 상태, 진행 상황 및 오류를 봅니다.
-* **[워크플로 로그](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution#displaying-logs){target="_blank"}** - 자세한 실행 로그에 액세스하여 문제를 해결합니다.
-* **[Heatmap](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/monitoring-workflows/heatmap){target="_blank"}** - 워크플로우 활동을 시각화하고 성능 병목 현상을 식별합니다.
+* **[워크플로우 대시보드](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"}** - 각 워크플로우 활동에 대한 실시간 상태, 진행 상황 및 오류를 봅니다.
+* **[워크플로 로그](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution#displaying-logs){target="_blank"}** - 자세한 실행 로그에 액세스하여 문제를 해결합니다.
+* **[Heatmap](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/heatmap){target="_blank"}** - 워크플로우 활동을 시각화하고 성능 병목 현상을 식별합니다.
 * **[감사 추적](../reporting/audit-trail.md)** - 워크플로에 대한 모든 수정 사항을 추적합니다.
-* **[경고](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators){target="_blank"}** - 워크플로 오류 또는 지연에 대한 알림 설정
+* **[경고](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators){target="_blank"}** - 워크플로 오류 또는 지연에 대한 알림 설정
 
 워크플로우를 모니터링하려면 워크플로우를 열고 **로그** 탭을 클릭합니다. 실패한 활동은 빨간색으로 강조 표시되며, 이를 클릭하여 오류 세부 정보를 볼 수 있습니다.
 
-[워크플로 실행 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} 및 [워크플로 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+[워크플로 실행 모니터링](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} 및 [워크플로 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}에 대해 자세히 알아보세요.
 
 +++
 
@@ -205,7 +209,7 @@ Adobe 다운로드 센터에서 설치 프로그램과 클라이언트 콘솔을
 
 관리 사용자로 Adobe [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html){target="_blank"}에 액세스하여 Adobe Campaign을 다운로드합니다.
 
-이 페이지에서 [&#x200B; 배포 센터에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}.
+이 페이지에서 [ 배포 센터에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}.
 
 +++
 
@@ -238,7 +242,7 @@ Campaign v8은 현재 **관리 클라우드 서비스로만 사용할 수 있으
 
 새 시스템에서는 올바른 권한을 가진 각 사용자에 대해 새 개인 계정이 필요합니다. Adobe ID로 로그인할 수 없는 경우 Experience League를 통해 액세스를 요청하면 고객 지원 팀에서 가능한 한 빨리 설정을 완료합니다. [자세히 알아보기](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
-Campaign 커뮤니티 가입: 기존 질문에서 답변을 검색하거나 전문가에게 질문할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko){target="_blank"}
+Campaign 커뮤니티 가입: 기존 질문에서 답변을 검색하거나 전문가에게 질문할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 +++
 
@@ -251,7 +255,7 @@ Campaign 커뮤니티 가입: 기존 질문에서 답변을 검색하거나 전�
 
 예! IMS(Adobe Identity Management System)와의 통합 덕분에 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결합니다. 이 통합은 다음과 같은 이점을 제공합니다.
 
-* 모든 Experience Cloud 솔루션에 동일한 ID를 사용할 수 있습니다.
+*  모든 Experience Cloud 솔루션에 동일한 ID를 사용할 수 있습니다.
 * 서로 다른 통합으로 Adobe Campaign을 사용하는 경우 연결이 기억됩니다.
 * 보안 암호 관리 정책.
 * 페더레이션 ID 계정 사용(외부 ID 공급자).
@@ -262,7 +266,7 @@ Adobe ID을 사용하여 Campaign v8에 액세스하는 방법에 대해 [자세
 
 +++ Campaign의 버전은 무엇입니까?
 
-Campaign 클라이언트 콘솔의 **도움말 > 정보...[&#x200B; 메뉴에서 버전 및 빌드 번호](upgrades.md#version)를** 확인합니다.
+Campaign 클라이언트 콘솔의 **도움말 > 정보...[ 메뉴에서 버전 및 빌드 번호](upgrades.md#version)를** 확인합니다.
 
 +++
 
@@ -324,7 +328,7 @@ Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체
 
 **관련 항목:**
 
-[워크플로우 시작](../config/workflows.md) | [첫 번째 워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"} | [워크플로우 사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}
+[워크플로우 시작](../config/workflows.md) | [첫 번째 워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"} | [워크플로우 사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 +++
 
@@ -437,7 +441,7 @@ Adobe Campaign 디지털 콘텐츠 편집기를 사용하여 랜딩 페이지를
 
 Campaign v8 설명서에서 [자세히 알아보기](../dev/landing-pages.md).
 
-Campaign 웹 사용자 인터페이스를 사용하여 랜딩 페이지를 만들고 게시할 수도 있습니다. - [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
+Campaign 웹 사용자 인터페이스를 사용하여 랜딩 페이지를 만들고 게시할 수도 있습니다. - [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}.
 
 +++
 
@@ -445,7 +449,7 @@ Campaign 웹 사용자 인터페이스를 사용하여 랜딩 페이지를 만�
 
 전용 [게재 보고서](../reporting/delivery-reports.md)를 통해 Campaign v8로 전송된 게재를 추적한 다음 게재를 모니터링할 수 있습니다.
 
-이 페이지[에서 Campaign &#x200B;](../start/tracking.md)의 추적 관리에 대해 자세히 알아보세요.
+이 페이지[에서 Campaign ](../start/tracking.md)의 추적 관리에 대해 자세히 알아보세요.
 
 **관련 항목:**
 
@@ -463,7 +467,9 @@ Campaign 웹 사용자 인터페이스를 사용하여 랜딩 페이지를 만�
 
 예. 양식 논리 및 유효성 검사를 완벽하게 제어하기 위해 **Campaign 웹 응용 프로그램 및 Forms**(클라이언트 콘솔)을 사용하여 웹 양식을 만들거나 구독 및 리드 생성을 위한 최신 드래그 앤 드롭 인터페이스와 함께 **Campaign 랜딩 페이지**(웹 UI)를 사용하십시오. 둘 다 데이터를 Campaign에 직접 수집하고 워크플로우와 통합하여 자동화된 작업을 수행합니다.
 
-[웹 응용 프로그램 및 양식에 대해 자세히 알아보기](../dev/webapps.md) | [Campaign 웹 UI 랜딩 페이지](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+**관련 항목:**
+
+[웹 응용 프로그램 및 양식에 대해 자세히 알아보기](../dev/webapps.md) | [Campaign 웹 UI 랜딩 페이지](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 +++
 
@@ -523,7 +529,7 @@ Campaign v8은 Adobe Campaign을 완전히 새롭게 디자인한 것으로, 최
 
 **관련 항목:**
 
-[Campaign Classic v7에서 v8로](v7-to-v8.md) | [v7에서 v8로의 전환 안내서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"} | [Campaign Standard에서 v8로](acs-to-v8.md) | [Campaign Standard 전환](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Campaign v8 채택 안내서](https://experienceleague.adobe.com/ko/docs/campaign-web/acs-to-ac/home){target="_blank"} | [Campaign v8 기능 매트릭스](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
+[Campaign Classic v7에서 v8로](v7-to-v8.md) | [v7에서 v8로의 전환 안내서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"} | [Campaign Standard에서 v8로](acs-to-v8.md) | [Campaign Standard 전환](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Campaign v8 채택 안내서](https://experienceleague.adobe.com/ko/docs/campaign-web/acs-to-ac/home){target="_blank"} | [Campaign v8 기능 매트릭스](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
 * [Campaign v8 아키텍처](../architecture/architecture.md)
 * [가드레일 및 제한 사항](ac-guardrails.md)
 
@@ -574,7 +580,7 @@ Campaign v8은 핵심 Campaign 기능을 유지하면서 다음과 같은 실질
 
 * Adobe은 마이그레이션 지원, 지침 및 도구를 제공합니다.
 * v8은 Cloud Service에서만 관리됩니다(온-프레미스 또는 하이브리드 배포 없음)
-* 일부 기술 구현은 다를 수 있습니다. [기능 매트릭스](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/capability-matrix){target="_blank"}를 검토하십시오.
+* 일부 기술 구현은 다를 수 있습니다. [기능 매트릭스](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}를 검토하십시오.
 * 데이터 마이그레이션 및 테스트에는 계획 및 자원이 필요합니다.
 * **Campaign Standard 사용자의 경우** - 워크플로가 중단되는 것을 최소화하면서 전환을 원활하게 수행할 수 있도록 설계되었습니다.
 
@@ -591,9 +597,9 @@ Adobe 담당자에게 문의하여 다음을 수행합니다.
 
 **Campaign Classic v7 사용자용:** [Campaign Classic v7에서 v8로](v7-to-v8.md) | [v7에서 v8 세부 안내서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}
 
-**Campaign Standard 사용자의 경우:** [Campaign Standard에서 v8로 전환](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Campaign v8 채택 안내서](https://experienceleague.adobe.com/ko/docs/campaign-web/acs-to-ac/home){target="_blank"} | [Campaign Standard에서 v8까지 개요](https://experienceleague.adobe.com/ko/docs/campaign-web/acs-to-ac/overview){target="_blank"} | [마케터용 시작하기](https://experienceleague.adobe.com/ko/docs/campaign-web/acs-to-ac/marketers){target="_blank"} | [관리자/개발자용 시작하기](https://experienceleague.adobe.com/ko/docs/campaign-web/acs-to-ac/admin-developers){target="_blank"}
+**Campaign Standard 사용자의 경우:** [Campaign Standard에서 v8로 전환](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Campaign v8 채택 안내서](https://experienceleague.adobe.com/ko/docs/campaign-web/acs-to-ac/home){target="_blank"} | [Campaign Standard에서 v8까지 개요](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/overview){target="_blank"} | [마케터용 시작하기](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/marketers){target="_blank"} | [관리자/개발자용 시작하기](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/admin-developers){target="_blank"}
 
-**일반 리소스:** [Campaign v8 기능 매트릭스](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
+**일반 리소스:** [Campaign v8 기능 매트릭스](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
 * [호환성 매트릭스](compatibility-matrix.md)
 
 +++
@@ -655,8 +661,9 @@ Campaign 웹 UI에서 다음 용어가 업데이트되었습니다(클라이언�
 
 **관련 항목:**
 
-[기능 매트릭스](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [호환성 매트릭스](compatibility-matrix.md) | [보호 기능 및 제한 사항](ac-guardrails.md) | [v7에서 v8로의 전환 안내서](v7-to-v8.md)
-* [Campaign Standard에서 v8로 전환](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"}
+[기능 매트릭스](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [호환성 매트릭스](compatibility-matrix.md) | [보호 기능 및 제한 사항](ac-guardrails.md) | [v7에서 v8로의 전환 안내서](v7-to-v8.md)
+
+[Campaign Standard에서 v8로 전환](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"}
 
 +++
 
@@ -668,6 +675,8 @@ Campaign 웹 UI에서 다음 용어가 업데이트되었습니다(클라이언�
 
 개별 프로필에 대해 클라이언트 콘솔에서 수동으로 수신자를 만들거나, 대량 추가를 위해 파일에서 가져오기(CSV/TXT), 자체 등록을 위해 웹 양식을 사용하거나, 외부 시스템의 API를 통해 통합할 수 있습니다. 가져오기 워크플로우를 사용하여 반복되는 데이터를 로드합니다.
 
+**관련 항목:**
+
 [수동으로 프로필 만들기](../audiences/create-profiles.md) | [파일에서 프로필 가져오기](../audiences/import-profiles.md) | [웹 양식으로 프로필 수집](../audiences/collect-profiles.md)
 
 +++
@@ -678,7 +687,9 @@ Campaign은 가져오기 마법사를 사용한 간단한 파일 가져오기, �
 
 파일 가져오기의 경우 데이터 파일(CSV/TXT, UTF-8 인코딩)을 준비하고, 가져오기 마법사 또는 워크플로우를 사용하고 열을 Campaign 필드에 매핑하고, 업데이트/삽입 규칙을 정의하고 작은 샘플로 먼저 테스트합니다. 반복 가져오기에 워크플로우를 사용하고 중복 제거 규칙을 적용합니다.
 
-[데이터 가져오기 안내서](../start/import.md) | [가져오기 워크플로우 반복](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=ko){target="_blank"} | [데이터 로드 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ko){target="_blank"}
+**관련 항목:**
+
+[데이터 가져오기 안내서](../start/import.md) | [가져오기 워크플로우 반복](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"} | [데이터 로드 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}
 
 +++
 
@@ -686,7 +697,7 @@ Campaign은 가져오기 마법사를 사용한 간단한 파일 가져오기, �
 
 Campaign은 시각적 기준으로 쿼리를 빌드하거나, 기존 목록 또는 세그먼트를 타겟팅하거나, 외부 파일(CSV, TXT)에서 수신자를 가져오거나, 사전 정의된 필터를 적용하는 등 다양한 타겟팅 방법을 제공합니다. AND/OR 논리와 기준을 결합하고, 특정 모집단을 제외하고, 제어 그룹을 사용하고, A/B 테스트를 위해 분할할 수 있습니다. 보내기 전에 항상 대상 모집단 크기를 미리 봅니다.
 
-[캠페인 대상 정의](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko){target="_blank"} | [쿼리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"} | [대상자 만들기](../audiences/create-audiences.md)
+[캠페인 대상 정의](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko){target="_blank"} | [쿼리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} | [대상자 만들기](../audiences/create-audiences.md)
 
 +++
 
@@ -704,7 +715,9 @@ Campaign은 시각적 기준으로 쿼리를 빌드하거나, 기존 목록 또�
 
 **팁:** 정기 업데이트가 필요한 목록에는 워크플로우를 사용하고 일회성 세그먼테이션을 수행하려면 수동으로 만드십시오.
 
-[대상자 만들기](../audiences/create-audiences.md) | [업데이트 활동 나열](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update.html?lang=ko){target="_blank"}
+**관련 항목:**
+
+[대상자 만들기](../audiences/create-audiences.md) | [업데이트 활동 나열](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update.html){target="_blank"}
 
 +++
 
@@ -714,7 +727,7 @@ Campaign은 시각적 기준으로 쿼리를 빌드하거나, 기존 목록 또�
 
 **팁:** 각 사용자가 메시지를 한 번만 받도록 하려면 보내기 전에 항상 중복 제거를 수행하세요.
 
-[중복 제거 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ko){target="_blank"}
+[중복 제거 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}에 대해 자세히 알아보기
 
 +++
 
@@ -728,7 +741,9 @@ Campaign은 정보 서비스를 통해 뉴스레터 구독을 자동으로 추�
 
 Campaign은 구독/구독 취소 기록을 추적하고 옵트인/옵트아웃을 자동으로 관리합니다.
 
-[구독 관리](../start/subscriptions.md) | [쿼리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}
+**관련 항목:**
+
+[구독 관리](../start/subscriptions.md) | [쿼리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
 
 +++
 
@@ -736,7 +751,7 @@ Campaign은 구독/구독 취소 기록을 추적하고 옵트인/옵트아웃�
 
 워크플로우에서 **[!UICONTROL Exclusion]** 활동을 사용하여 대상에서 원치 않는 프로필을 제거하십시오. 타겟팅 활동 뒤에 배치하고 제외할 모집단을 정의합니다.
 
-[제외 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/exclusion.html?lang=ko){target="_blank"}
+[제외 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/exclusion.html){target="_blank"}에 대해 자세히 알아보기
 
 +++
 
@@ -750,7 +765,7 @@ Campaign은 구독/구독 취소 기록을 추적하고 옵트인/옵트아웃�
 
 테스트 프로필은 프로덕션 데이터베이스에 영향을 주지 않고 증명을 보내고 게재를 확인하는 데 사용되는 특수 수신자입니다. **[!UICONTROL Profiles and Targets > Test profiles]**&#x200B;에서 만들거나 **[!UICONTROL Seed addresses]** 기능을 사용하여 품질 보증 및 받은 편지함 모니터링을 위해 게재에 테스트 수신자를 자동으로 추가하십시오.
 
-[테스트 프로필](../audiences/test-profiles.md)
+[테스트 프로필](../audiences/test-profiles.md)에 대해 자세히 알아보기
 
 +++
 
@@ -770,7 +785,7 @@ Campaign은 구독/구독 취소 기록을 추적하고 옵트인/옵트아웃�
 
 게재 템플릿은 여러 캠페인에서 재사용할 모든 설정 및 매개 변수를 저장하는 사전 구성된 게재입니다. 템플릿에는 타겟 규칙, 콘텐츠 디자인, 개인화, 기술 설정(발신자, 회신) 및 유형화 규칙이 포함됩니다. 한 번 만든 다음 재사용하여 일관성을 유지하고 캠페인 생성 속도를 높일 수 있습니다.
 
-[게재 템플릿 만들기](../send/create-templates.md)
+[게재 템플릿 만들기](../send/create-templates.md) 방법을 알아봅니다.
 
 +++
 
@@ -780,7 +795,7 @@ Campaign은 구독/구독 취소 기록을 추적하고 옵트인/옵트아웃�
 
 **팁:** 이메일 디자인 환경을 최적화하려면 Campaign 웹 UI에서 원시 Designer을 가져오는 대신 최신 드래그 앤 드롭 기능과 기본 제공 반응형 템플릿을 제공하는 **이메일 HTML**&#x200B;을(를) 사용하십시오.
 
-[HTML 콘텐츠 가져오기](../send/defining-the-email-content.md)
+[HTML 콘텐츠 가져오기](../send/defining-the-email-content.md) 방법 알아보기
 
 +++
 
@@ -788,7 +803,7 @@ Campaign은 구독/구독 취소 기록을 추적하고 옵트인/옵트아웃�
 
 예. Campaign의 정보 서비스를 사용하여 뉴스레터 구독을 관리합니다. 주요 기능에는 자동 옵트인/옵트아웃 처리, 구독 추적, 규정 준수 관리(GDPR, CAN-SPAM), 다중 뉴스레터 지원, 가입 양식을 위한 웹 통합 및 구독자에 대한 타겟팅 게재가 포함됩니다.
 
-[구독 관리](../start/subscriptions.md)
+[구독을 관리](../start/subscriptions.md)하는 방법 알아보기
 
 +++
 
@@ -805,6 +820,8 @@ Campaign은 수신자 데이터, 동작 및 환경 설정을 기반으로 관련
 
 보내기 전에 개인화를 테스트하여 병합 필드 및 조건부 논리가 올바르게 작동하는지 확인하십시오.
 
+**관련 항목:**
+
 [Personalization 안내서](../send/personalize.md) | [개인화 필드](../send/personalization-fields.md) | [조건부 콘텐츠](../send/conditions.md)
 
 +++
@@ -817,7 +834,7 @@ Campaign은 수신자 데이터, 동작 및 환경 설정을 기반으로 관련
 
 또한 클라이언트 콘솔은 조건부 콘텐츠 및 워크플로를 사용하여 다국어 콘텐츠를 지원하지만 더 많은 수동 구성이 필요합니다.
 
-[다국어 게재(웹 UI)](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/multilingual){target="_blank"} | [조건부 콘텐츠(클라이언트 콘솔)](../send/conditions.md)
+[다국어 게재(웹 UI)](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/multilingual){target="_blank"} | [조건부 콘텐츠(클라이언트 콘솔)](../send/conditions.md)
 
 +++
 
@@ -825,7 +842,7 @@ Campaign은 수신자 데이터, 동작 및 환경 설정을 기반으로 관련
 
 예. Campaign 웹 애플리케이션은 다국어 현지화 기능을 지원합니다. 수신자 프로필 또는 브라우저 설정을 기반으로 자동 언어 감지를 사용하여 모든 양식 요소(레이블, 버튼, 메시지, 오류 텍스트)에 대한 번역을 정의합니다. 단일 웹 애플리케이션 내에서 여러 언어 버전이 지원되며 필요한 경우 기본 언어로 대체됩니다.
 
-[웹 애플리케이션 로컬라이제이션](../dev/webapps.md)
+[웹 응용 프로그램 로컬라이제이션에 대해 자세히 알아보기](../dev/webapps.md)
 
 +++
 
@@ -843,7 +860,7 @@ Campaign은 수신자 데이터, 동작 및 환경 설정을 기반으로 관련
 
 **참고:** AI 도우미는 Campaign 웹 UI에서만 사용할 수 있으며 현재 영어만 지원합니다. 사용자는 적절한 권한이 필요하며 사용자 계약에 동의해야 합니다.
 
-[AI Assistant 개요](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [AI Assistant 사용 사례](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [브랜드 정렬](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
+[AI Assistant 개요](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [AI Assistant 사용 사례](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [브랜드 정렬](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
 
 +++
 
@@ -857,7 +874,7 @@ Campaign은 수신자 데이터, 동작 및 환경 설정을 기반으로 관련
 
 Campaign은 경고 및 오류를 표시하는 로그를 생성합니다. 오류는 전달을 차단하며 수정해야 합니다. 경고는 도움이 됩니다. 보내기 전에 항상 분석 로그를 검토하십시오.
 
-[게재 분석 안내서](../send/delivery-analysis.md)
+자세한 내용은 [게재 분석 안내서](../send/delivery-analysis.md)를 참조하세요.
 
 +++
 
@@ -867,7 +884,7 @@ Campaign은 경고 및 오류를 표시하는 로그를 생성합니다. 오류�
 
 증명을 사용하면 수천 명의 수신자에게 도달하기 전에 오류를 포착하고, 관련자 승인을 활성화하고, 받은 편지함 배치를 테스트할 수 있습니다. 여러 이메일 클라이언트 및 장치에 증명을 보내고, 프로덕션이 전송되기 전에 항상 승인을 받습니다.
 
-[증명 및 미리보기 안내서](../send/preview-and-proof.md)
+[증명 및 미리 보기 가이드](../send/preview-and-proof.md)에서 자세히 알아보기
 
 +++
 
@@ -882,7 +899,7 @@ Campaign은 경고 및 오류를 표시하는 로그를 생성합니다. 오류�
 
 **[!UICONTROL Resources > Campaign management > Seed addresses]**&#x200B;의 시드 주소를 관리합니다. 게재 지표에 영향을 주지 않도록 목록을 작게 유지합니다.
 
-[시드 주소 가이드](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery-control.html?lang=ko){target="_blank"}
+[시드 주소 가이드](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery-control.html){target="_blank"}
 
 +++
 
@@ -897,6 +914,8 @@ Campaign은 메시지를 보내기 전에 품질 기준을 충족하는 승인 �
 **독립 실행형 게재의 경우(캠페인에 포함되지 않음):**
 
 **증명을 승인 프로세스로 사용**. 확인을 위해 승인 그룹에 증명을 보내고, 관련자가 최신 버전을 검토하도록 변경한 후 항상 새 증명을 보냅니다.
+
+**관련 항목:**
 
 [게재 유효성 검사](../send/preview-and-proof.md) | [캠페인 승인](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=ko){target="_blank"}
 
@@ -929,7 +948,7 @@ Campaign은 메시지를 보내기 전에 품질 기준을 충족하는 승인 �
 
 대규모 캠페인에 웨이브를 사용하고, 계속하기 전에 첫 번째 웨이브 성능을 모니터링하고, 웨이브 간 충분한 시간을 사용하여 바운스 및 옵트아웃을 처리할 수 있습니다.
 
-[웨이브 전송 구성](../send/configure-and-send.md#sending-using-multiple-waves)
+[웨이브 전송을 구성](../send/configure-and-send.md#sending-using-multiple-waves)하는 방법에 대해 알아봅니다.
 
 +++
 
@@ -955,6 +974,8 @@ Campaign v8에서 이메일을 만드는 절차에는 게재 만들기, 타겟 �
 
 **팁:** 최신 디자인 도구를 사용하여 보다 빠르고 직관적인 이메일을 만들려면 Campaign 웹 UI를 사용하십시오. 복잡한 타겟팅 또는 고급 워크플로우 기반 캠페인에는 클라이언트 콘솔을 사용하십시오.
 
+**관련 항목:**
+
 [첫 번째 전자 메일 만들기](create-message.md) | [전자 메일 디자인 가이드](../send/email.md)
 
 +++
@@ -971,7 +992,7 @@ Campaign을 사용하면 향후 전송을 위해 게재를 예약하여 전송 �
 
 Campaign은 또한 연락 날짜 최적화(수신자당 가장 적합한 전송 시간)와 시간대 적응(모든 수신자에 대해 동일한 현지 시간)을 지원합니다.
 
-[게재 예약 보내기](../send/configure-and-send.md#schedule-delivery-sending)
+[게재 예약 전송](../send/configure-and-send.md#schedule-delivery-sending)하는 방법 알아보기
 
 +++
 
@@ -988,7 +1009,7 @@ Campaign은 또한 연락 날짜 최적화(수신자당 가장 적합한 전송 
 
 프로덕션 전송 전에 안전한 파일 형식(PDF, JPEG, PNG, DOCX)을 사용하고 시드 주소로 테스트합니다.
 
-[이메일 첨부 파일 안내서](../send/email.md#attachments)
+[전자 메일 첨부 파일 가이드](../send/email.md#attachments)에서 자세히 알아보기
 
 +++
 
@@ -1004,6 +1025,8 @@ Campaign은 이메일의 모든 URL을 추적된 링크로 자동 변환하여 �
 * **추적 형식** - 클릭 수, 열기 수 또는 둘 다 추적
 
 Campaign은 콘텐츠 링크, 미러 페이지 링크, 구독 취소 링크를 추적하며, 이메일 열기를 위한 선택적 추적 픽셀을 포함할 수 있습니다. 의미 있는 레이블 및 범주를 사용하여 보고를 단순화하고 높은 성과를 보이는 콘텐츠를 신속하게 식별할 수 있습니다.
+
+**관련 항목:**
 
 [링크 추적 가이드](../start/tracking.md) | [추적 모범 사례](../send/send.md)
 
@@ -1022,6 +1045,8 @@ Campaign은 콘텐츠 링크, 미러 페이지 링크, 구독 취소 링크를 �
 
 이러한 로그를 사용하여 게재 문제를 해결하고, 참여를 분석하고, 목록 위생 상태를 유지합니다.
 
+**관련 항목:**
+
 [게재 모니터링](../send/send.md) | [추적 가이드](../start/tracking.md)
 
 +++
@@ -1038,6 +1063,8 @@ Campaign은 게재 성과, 수신자 참여 및 캠페인 효과를 분석하는
 * **게재 불가** - 실패 이유가 있는 바운스 분석
 
 보고서는 클라이언트 콘솔과 최신 시각화가 포함된 Campaign 웹 UI 모두에서 사용할 수 있습니다.
+
+**관련 항목:**
 
 [기본 제공 게재 보고서](../reporting/delivery-reports.md) | [캠페인 보고](../reporting/gs-reporting.md)
 
@@ -1065,6 +1092,8 @@ Campaign은 각 주소에 대한 게재 오류를 추적합니다. 주소가 구
 
 **팁:** 격리 목록을 정기적으로 모니터링합니다. 검역률이 높아지면 보낸 사람의 신뢰도에 영향을 미치기 전에 주의가 필요한 데이터 품질 문제를 알리는 경우가 많습니다.
 
+**관련 항목:**
+
 [격리 관리 가이드](../send/quarantines.md) | [바운스 관리](../send/delivery-failures.md)
 
 +++
@@ -1088,7 +1117,7 @@ Campaign에서 마케팅 프로세스를 자동화하는 워크플로우 만들�
 
 **관련 항목:**
 
-[워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"} | [워크플로우 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"} | [워크플로우 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko){target="_blank"} | [워크플로우 사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
+[워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"} | [워크플로우 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"} | [워크플로우 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [워크플로우 사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
 
 +++
 
@@ -1116,7 +1145,7 @@ Campaign에서 마케팅 프로세스를 자동화하는 워크플로우 만들�
 
 **관련 항목:**
 
-[가져오기 모범 사례](../start/import.md) | [데이터 로드 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ko){target="_blank"} | [가져오기 워크플로우 반복](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=ko){target="_blank"}
+[가져오기 모범 사례](../start/import.md) | [데이터 로드 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [가져오기 워크플로우 반복](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html){target="_blank"}
 
 +++
 
@@ -1159,7 +1188,7 @@ Campaign 워크플로우는 거의 모든 마케팅 프로세스를 자동화할
 
 **관련 항목:**
 
-[워크플로우 사용 사례 라이브러리](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"} | [워크플로우 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko){target="_blank"} | [워크플로우 타깃팅](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ko){target="_blank"} | [데이터 관리 워크플로](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/about-data-management.html){target="_blank"}
+[워크플로우 사용 사례 라이브러리](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"} | [워크플로우 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [워크플로우 타깃팅](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"} | [데이터 관리 워크플로](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/about-data-management.html){target="_blank"}
 
 +++
 
@@ -1186,7 +1215,7 @@ Campaign 워크플로우는 거의 모든 마케팅 프로세스를 자동화할
 
 **관련 항목:**
 
-[데이터 활동 업데이트](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ko){target="_blank"} | [데이터 관리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
+[데이터 활동 업데이트](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"} | [데이터 관리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
 
 +++
 
@@ -1215,7 +1244,7 @@ Campaign의 데이터 관리 활동을 통해 복잡한 타겟팅 및 세그멘�
 
 **관련 항목:**
 
-[데이터 관리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [워크플로 타깃팅](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ko){target="_blank"} | [데이터 보강 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ko){target="_blank"}
+[데이터 관리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [워크플로 타깃팅](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"} | [데이터 보강 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
 
 +++
 
@@ -1242,7 +1271,7 @@ Campaign의 데이터 관리 활동을 통해 복잡한 타겟팅 및 세그멘�
 
 **관련 항목:**
 
-[Personalization 안내서](../send/personalize.md) | [워크플로우 사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ko){target="_blank"} | [데이터 보강 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ko){target="_blank"}
+[Personalization 안내서](../send/personalize.md) | [워크플로우 사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ko){target="_blank"} | [데이터 보강 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}
 
 +++
 
@@ -1269,7 +1298,7 @@ Campaign의 데이터 관리 활동을 통해 복잡한 타겟팅 및 세그멘�
 
 **관련 항목:**
 
-[활동 분할](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ko){target="_blank"} | [A/B 테스트 가이드](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
+[활동 분할](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"} | [A/B 테스트 가이드](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
 
 +++
 
@@ -1299,7 +1328,7 @@ Campaign의 데이터 관리 활동을 통해 복잡한 타겟팅 및 세그멘�
 
 **관련 항목:**
 
-[데이터 가져오기 안내서](../start/import.md) | [데이터 로드 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ko){target="_blank"} | [데이터 활동 업데이트](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ko){target="_blank"}
+[데이터 가져오기 안내서](../start/import.md) | [데이터 로드 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"} | [데이터 활동 업데이트](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}
 
 +++
 
@@ -1325,7 +1354,7 @@ Campaign의 데이터 관리 활동을 통해 복잡한 타겟팅 및 세그멘�
 
 **관련 항목:**
 
-[쿼리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"} | [집계 사용](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=ko){target="_blank"} | [시작 프로그램](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ko){target="_blank"}
+[쿼리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"} | [집계 사용](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"} | [시작 프로그램](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ko){target="_blank"}
 
 +++
 
@@ -1357,7 +1386,7 @@ Campaign의 데이터 관리 활동을 통해 복잡한 타겟팅 및 세그멘�
 
 **관련 항목:**
 
-[타깃팅 활동 참조](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=ko){target="_blank"} | [흐름 제어 활동 참조](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=ko){target="_blank"} | [작업 활동 참조](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=ko){target="_blank"} | [이벤트 활동 참조](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html?lang=ko){target="_blank"}
+[타깃팅 활동 참조](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"} | [흐름 제어 활동 참조](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"} | [작업 활동 참조](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"} | [이벤트 활동 참조](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}
 
 +++
 
@@ -1402,7 +1431,7 @@ Campaign의 데이터 관리 활동을 통해 복잡한 타겟팅 및 세그멘�
 
 **관련 항목:**
 
-[워크플로우 모범 사례 가이드](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko){target="_blank"} | [워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"} | [워크플로우 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}
+[워크플로우 모범 사례 가이드](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"} | [워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"} | [워크플로우 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 +++
 
@@ -1430,7 +1459,7 @@ Campaign의 데이터 관리 활동을 통해 복잡한 타겟팅 및 세그멘�
 
 **관련 항목:**
 
-[Campaign 웹 UI에서 언어 변경](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"} | [Campaign 클라이언트 콘솔 시작](connect.md)
+[Campaign 웹 UI에서 언어 변경](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"} | [Campaign 클라이언트 콘솔 시작](connect.md)
 
 +++
 
@@ -1456,7 +1485,7 @@ Campaign Campaign 컨트롤 패널은 Campaign 관리자가 Campaign 인스턴�
 
 **추가 리소스:**
 
-[Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/ko/docs/control-panel/using/control-panel-home){target="_blank"} | [Campaign 컨트롤 패널 자습서 비디오](https://experienceleague.adobe.com/ko/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
+[Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/ko/docs/control-panel/using/control-panel-home){target="_blank"} | [Campaign 컨트롤 패널 자습서 비디오](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
 
 +++
 
@@ -1585,7 +1614,7 @@ Campaign v8은 주요 엔터프라이즈 데이터베이스 시스템에 대한 
 
 **관련 항목:**
 
-[CRM 커넥터 구성](../connect/crm.md) | [워크플로 CRM 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html?lang=ko){target="_blank"}
+[CRM 커넥터 구성](../connect/crm.md) | [워크플로 CRM 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html){target="_blank"}
 
 +++
 
@@ -1705,7 +1734,7 @@ Campaign의 설명 분석 도구를 사용하여 모든 모집단 데이터에 �
 
 **공유:** 보고서를 Excel/PDF으로 내보내거나 적절한 권한으로 팀 액세스를 위해 **[!UICONTROL Reports]** 폴더에 저장합니다.
 
-[설명 분석](../reporting/built-in-reports.md)을 참조하세요.
+[설명 분석](../reporting/built-in-reports.md)에 대해 자세히 알아보기
 
 +++
 
@@ -1720,8 +1749,7 @@ Campaign은 고급 사용자 지정 보고서를 만들기 위한 두 가지 접
 * 조건부 서식 및 다이내믹 콘텐츠 디자인
 * 전체 Campaign 데이터 모델 및 외부 데이터베이스(FDA) 액세스
 
-
-[사용자 지정 보고서 만들기(클라이언트 콘솔)](../reporting/custom-reports.md)를 참조하십시오.
+[사용자 지정 보고서를 만드는 방법(클라이언트 콘솔)](../reporting/custom-reports.md)
 
 +++
 
@@ -1735,8 +1763,7 @@ Campaign은 고급 사용자 지정 보고서를 만들기 위한 두 가지 접
 * 데이터는 큐브 구성을 기반으로 자동으로 집계되고 계산됩니다
 * 결과를 피벗 테이블, 차트 또는 Excel로 내보낼 수 있습니다
 
-
-[큐브로 데이터 탐색](../reporting/gs-cubes.md)을 참조하세요.
+큐브를 사용하여 [데이터 탐색](../reporting/gs-cubes.md)하는 방법 알아보기
 
 +++
 
@@ -1770,7 +1797,7 @@ Campaign은 고급 사용자 지정 보고서를 만들기 위한 두 가지 접
 
 **관련 항목:**
 
-[설문 조사 시작](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [설문 조사 보고서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
+[설문 조사 시작](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [설문 조사 보고서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
 
 +++
 
@@ -1964,7 +1991,7 @@ Campaign의 쿼리 편집기는 SQL 지식 없이 데이터베이스 쿼리를 �
 
 **관련 항목:**
 
-[쿼리 편집기](../start/query-editor.md) | [워크플로우의 쿼리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}
+[쿼리 편집기](../start/query-editor.md) | [워크플로우의 쿼리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}
 
 +++
 
@@ -1995,8 +2022,7 @@ Campaign의 쿼리 편집기는 SQL 지식 없이 데이터베이스 쿼리를 �
 * 패키지 XML 파일에 버전 제어 사용
 * 주요 패키지를 가져오기 전에 인스턴스 백업
 
-
-[데이터 패키지 작업](../dev/packages.md)을 참조하세요.
+[데이터 패키지를 사용하여 작업](../dev/packages.md)하는 방법에 대해 자세히 알아보기
 
 +++
 
@@ -2060,7 +2086,7 @@ Campaign API를 사용하면 프로그래밍 방식으로 워크플로우 실행
 
 **모범 사례:** 포괄적인 워크플로우 거버넌스를 위해 API 모니터링과 워크플로우 감사 추적을 결합합니다. 외부 모니터링 도구를 사용하여 워크플로 SLA 및 성능 지표를 추적합니다.
 
-[API를 통해 워크플로우 제어](../dev/api/controlling-a-workflow.md)를 참조하십시오.
+[API를 통해 워크플로를 제어하는 방법](../dev/api/controlling-a-workflow.md)
 
 +++
 
@@ -2136,7 +2162,7 @@ Campaign은 데이터 주체 권한, 동의 및 데이터 보존을 관리하는
 
 데이터 제어자는 데이터 주체 요청을 처리하고, 동의 레코드를 유지 관리하며, 투명한 데이터 사용을 보장합니다.
 
-[개인 정보 관리](../start/privacy.md)를 참조하세요.
+[개인 정보 관리](../start/privacy.md)에 대해 자세히 알아보기
 
 +++
 
@@ -2154,7 +2180,7 @@ Campaign은 개인 정보 보호 규정을 준수하기 위한 도구를 제공�
 
 Campaign은 개인 정보 보호 핵심 서비스 통합, 동의 추적, 자동 삭제 워크플로우 및 규정 준수를 위한 감사 추적을 제공합니다.
 
-[개인 정보 관리](../start/privacy.md)를 참조하세요.
+[개인 정보 관리](../start/privacy.md)에 대해 자세히 알아보기
 
 +++
 
@@ -2242,15 +2268,15 @@ Campaign의 감사 추적은 삭제 이벤트와 새 프로필 생성을 모두 
 
 다른 Campaign 사용자 및 Adobe 전문가와 연결하여 지식을 공유하고 답변을 얻을 수 있습니다.
 
-* **[Adobe Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko){target="_blank"}** - 질문하고, 솔루션을 공유하고, Campaign 커뮤니티에 연결합니다.
-* **[Experience League 포럼](https://experienceleaguecommunities.adobe.com/?profile.language=ko){target="_blank"}** - 모든 Adobe 제품에서 토론 찾아보기
-* **[Campaign 커뮤니티 운영 시간](https://experienceleague.adobe.com/ko){target="_blank"}** - Adobe 전문가와 실시간 세션에 참여
+* **[Adobe Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}** - 질문하고, 솔루션을 공유하고, Campaign 커뮤니티에 연결합니다.
+* **[Experience League 포럼](https://experienceleaguecommunities.adobe.com/){target="_blank"}** - 모든 Adobe 제품에서 토론 찾아보기
+* **[Campaign 커뮤니티 운영 시간](https://experienceleague.adobe.com/){target="_blank"}** - Adobe 전문가와 실시간 세션에 참여
 
 ### 설명서 및 학습
 
 포괄적인 안내서, 튜토리얼 및 교육 자료를 이용할 수 있습니다.
 
-* **[캠페인 튜토리얼](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ko){target="_blank"}** - 단계별 비디오 가이드 및 실습 튜토리얼
+* **[캠페인 튜토리얼](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"}** - 단계별 비디오 가이드 및 실습 튜토리얼
 * **[새로운 기능](whats-new.md)** - 최신 기능
 * **[릴리스 정보](release-notes.md)** - 현재 및 이전 릴리스 정보
 * **[버전 및 업그레이드](upgrades.md)** - Campaign 버전, 업그레이드 및 버전 확인 방법에 대해 알아보기
@@ -2276,10 +2302,10 @@ Adobe 지원 팀의 도움을 받고 인스턴스를 관리합니다.
 
 공식 Adobe 교육 및 인증 프로그램을 통해 기술을 향상시키십시오.
 
-* **[Experience League 도움말](https://experienceleague.adobe.com/ko/browse/campaign/campaign-v8){target="_blank"}** - Campaign v8에 대한 도움말 리소스(웹 UI 및 클라이언트 콘솔)
+* **[Experience League 도움말](https://experienceleague.adobe.com/en/browse/campaign/campaign-v8){target="_blank"}** - Campaign v8에 대한 도움말 리소스(웹 UI 및 클라이언트 콘솔)
 * **[Adobe 디지털 학습 서비스](https://learning.adobe.com/){target="_blank"}** - 공식 강사 주도 및 자습형 교육 과정
-* **[Adobe Campaign 인증](https://experienceleague.adobe.com/docs/certification/program/overview.html?lang=ko){target="_blank"}** - 전문 인증을 통해 전문성 확인
-* **[Experience League 학습 경로](https://experienceleague.adobe.com/ko?lang=en#dashboard/learning){target="_blank"}** - 안내식 학습 여정
+* **[Adobe Campaign 인증](https://experienceleague.adobe.com/docs/certification/program/overview.html){target="_blank"}** - 전문 인증을 통해 전문성 확인
+* **[Experience League 학습 경로](https://experienceleague.adobe.com/?lang=en#dashboard/learning){target="_blank"}** - 안내식 학습 여정
 
 ### 기타 유용한 리소스
 
