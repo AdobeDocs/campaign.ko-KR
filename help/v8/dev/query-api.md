@@ -87,7 +87,7 @@ recipient.save();
 * `getIfExists` - 단일 레코드를 검색하고, 찾을 수 없으면 null을 반환합니다.
 * `count` - 기준과 일치하는 레코드 수
 
-[Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}에서 queryDef 메서드에 대해 자세히 알아보세요.
+[Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=ko){target="_blank"}에서 queryDef 메서드에 대해 자세히 알아보세요.
 
 ## JSON을 사용한 쿼리 {#query-json}
 
@@ -211,7 +211,7 @@ for each(var delivery in deliveries.delivery) {
 >
 >`lineCount` 매개 변수는 결과 수를 제한합니다. 이 기능이 없으면 기본 제한은 레코드 10,000개입니다.
 
-[ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html){target="_blank"}에 대해 자세히 알아보세요.
+[ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
 
 ## 워크플로우 전환 데이터 쿼리 {#workflow-transition-data}
 
@@ -256,7 +256,7 @@ for each(var record in records.getElements()) {
 
 >[!CAUTION]
 >
->SQL 삽입 취약성을 방지하려면 항상 문자열의 경우 `$(sz)`을(를) 사용하고 정수의 경우 `$(l)`을(를) 사용하는 매개 변수가 있는 쿼리를 사용하십시오. 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html){target="_blank"}를 참조하세요.
+>SQL 삽입 취약성을 방지하려면 항상 문자열의 경우 `$(sz)`을(를) 사용하고 정수의 경우 `$(l)`을(를) 사용하는 매개 변수가 있는 쿼리를 사용하십시오. 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 레코드 수 {#count-records}
 
@@ -435,7 +435,7 @@ logInfo("Generated SQL: " + sql);
 // Output: "SELECT iRecipientId, sEmail FROM NmsRecipient WHERE sEmail IS NOT NULL"
 ```
 
-[BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html){target="_blank"}에 대해 자세히 알아보세요.
+[BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
 
 ### BuildQueryEx - 형식 문자열로 SQL 가져오기 {#build-query-ex}
 
@@ -460,7 +460,7 @@ logInfo("Format: " + format);
 var results = sqlSelect(format, sql);
 ```
 
-[BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html){target="_blank"}에 대해 자세히 알아보세요.
+[BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
 
 ### SelectAll - 선택할 모든 필드를 추가합니다. {#select-all}
 
@@ -483,7 +483,7 @@ var result = query.ExecuteQuery();
 // Result contains all recipient fields
 ```
 
-[모두 선택](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html){target="_blank"}에 대해 자세히 알아보세요.
+[모두 선택](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
 
 ### 갱신 - 일괄 갱신 레코드 {#mass-update}
 
@@ -513,7 +513,7 @@ logInfo("Mass update completed");
 >
 >대량 업데이트는 where 절과 일치하는 모든 레코드에 영향을 줍니다. 항상 선택 쿼리를 사용하여 where 조건을 먼저 테스트하여 영향을 받을 레코드를 확인합니다.
 
-[업데이트](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html){target="_blank"}에 대해 자세히 알아보세요.
+[업데이트](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
 
 ### GetInstanceFromModel - 쿼리 템플릿 인스턴스 {#get-instance-from-model}
 
@@ -536,7 +536,7 @@ var query = NLWS.xtkQueryDef.create(
 var instance = query.GetInstanceFromModel("nms:delivery");
 ```
 
-[GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html){target="_blank"}에 대해 자세히 알아보세요.
+[GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
 
 ## 일괄 처리 작업 {#batch-operations}
 
@@ -772,8 +772,8 @@ if (count > 0 && count < 10000) {
 ## 관련 항목 {#related-topics}
 
 * [Campaign API 시작](api.md)
-* [queryDef API 참조](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
-* [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}
+* [queryDef API 참조](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=ko){target="_blank"}
+* [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ko){target="_blank"}
 * [데이터 모델](datamodel.md)
 * [스키마 작업](schemas.md)
 * [쿼리 편집기 작업](../start/query-editor.md)
