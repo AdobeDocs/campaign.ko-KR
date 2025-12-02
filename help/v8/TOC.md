@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 48c6dfc89fec6ad8cff7d17c1892f7c15b497f99
+source-git-commit: 16c9cc60041f41702b4983383954033b06ba1d99
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '816'
 ht-degree: 89%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 89%
          + [이벤트 수집 및 처리](send/event-processing.md)
          + [이벤트 설명 이해](send/event-description.md)
          + [메시지 전송 및 모니터링](send/delivery-execution.md)
-+ 프로필 및 대상자 관리 {#audience}
++ 프로필 및 대상자 {#audience}
    + [프로필 및 대상자 시작](audiences/gs-audiences.md)
    + [대상자를 사용한 작업](start/audiences.md)
    + [프로필 액세스](audiences/view-profiles.md)
@@ -143,12 +143,12 @@ ht-degree: 89%
    + [웹 앱 및 양식 디자인](dev/webapps.md)
 + 워크플로 {#workflows}
    + [워크플로 시작하기](config/workflows.md)
-   + [워크플로 설명서 완료 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
-+ 개인 정보 보호 및 보안 관리 {#privacy}
+   + [워크플로 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
++ 개인 정보 보호 및 보안 {#privacy}
    + [개인 정보 보호 요청 관리](start/privacy.md)
    + [보안 지침](config/security.md)
    + [향상된 보안 추가 기능](config/enhanced-security.md)
-+ 오퍼 관리 및 상호 작용 {#offers}
++ 오퍼 관리 - 상호 작용 {#offers}
    + [실시간 상호 작용 시작](interaction/interaction.md)
    + [환경 및 아키텍처](interaction/interaction-architecture.md)
    + [모범 사례](interaction/interaction-best-practices.md)
@@ -187,7 +187,6 @@ ht-degree: 89%
       + [쿼리 편집기 작업](start/query-editor.md)
       + [쿼리 디자인](start/design-queries.md)
       + [필터 조건 정의](start/filter-conditions.md)
-      + [대상 필터 작업](audiences/create-filters.md)
    + [데이터 가져오기](start/import.md)
    + [워크플로 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
 + 통합 {#connect}
