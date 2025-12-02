@@ -6,9 +6,9 @@ role: Data Engineer
 level: Intermediate
 badge: label="제한 공개" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
+source-git-commit: 11a9f17bc5c1ec8388de294395a6d7b7a5e8a7e6
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1353'
 ht-degree: 2%
 
 ---
@@ -55,37 +55,43 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 
 1. **[!UICONTROL Mobile Application Configuration]**&#x200B;에서 운영 체제를 선택합니다.
 
-   * **iOS용**
+>[!BEGINTABS]
 
-     ![](assets/push-config-2.png)
+>[!TAB iOS]
 
-      1. **[!UICONTROL App ID (iOS Bundle ID)]** 필드에 모바일 앱 **번들 ID**&#x200B;을(를) 입력하십시오.
+![](assets/push-config-2.png)
 
-         앱 번들 ID는 Apple 개발자 계정의 **XCode**&#x200B;에 있는 기본 대상의 **일반** 탭에서 찾을 수 있습니다.
+1. **필드에 모바일 앱**&#x200B;번들 ID **[!UICONTROL App ID (iOS Bundle ID)]**&#x200B;을(를) 입력하십시오.
 
-      1. 자격 증명을 추가하려면 **[!UICONTROL Push Credentials]**&#x200B;을(를) 켜세요.
+   앱 번들 ID는 Apple 개발자 계정의 **XCode**&#x200B;에 있는 기본 대상의 **일반** 탭에서 찾을 수 있습니다.
 
-      1. .p8 Apple 푸시 알림 인증 키 파일을 끌어서 놓습니다.
+1. 자격 증명을 추가하려면 **[!UICONTROL Push Credentials]**&#x200B;을(를) 켜세요.
 
-         이 키는 Apple 개발자 계정의 **인증서**, **식별자** 및 **프로필** 페이지에서 가져올 수 있습니다.
+1. .p8 Apple 푸시 알림 인증 키 파일을 끌어서 놓습니다.
 
-      1. **키 ID**&#x200B;을(를) 제공합니다. p8 인증 키를 만드는 동안 할당된 10개의 문자열입니다.
+   이 키는 Apple 개발자 계정의 **인증서**, **식별자** 및 **프로필** 페이지에서 가져올 수 있습니다.
 
-         Apple 개발자 계정의 **인증서**, **식별자** 및 **프로필** 페이지의 **키** 탭에서 찾을 수 있습니다.
+1. **키 ID**&#x200B;을(를) 제공합니다. p8 인증 키를 만드는 동안 할당된 10개의 문자열입니다.
 
-      1. **팀 ID**&#x200B;를 제공하십시오. **멤버십** 탭에서 찾을 수 있는 문자열 값입니다.
-
-   * **Android용**
-
-     ![](assets/push-config-3.png)
-
-      1. **[!UICONTROL App ID (Android package name)]** 입력. 일반적으로 패키지 이름은 `build.gradle` 파일의 앱 ID입니다.
-
-      1. 자격 증명을 추가하려면 **[!UICONTROL Push Credentials]**&#x200B;을(를) 전환하세요.
-
-      1. FCM 푸시 자격 증명을 끌어서 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}를 참조하세요.
+       Apple 개발자 계정의 **인증서**, **식별자** 및 **프로필** 페이지의 **키** 탭에서 찾을 수 있습니다.
+   
+1. **팀 ID**&#x200B;를 제공하십시오. **멤버십** 탭에서 찾을 수 있는 문자열 값입니다.
 
 1. 앱 구성을 만들려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+>[!TAB Android]
+
+![](assets/push-config-3.png)
+
+1. **[!UICONTROL App ID (Android package name)]** 입력. 일반적으로 패키지 이름은 `build.gradle` 파일의 앱 ID입니다.
+
+1. 자격 증명을 추가하려면 **[!UICONTROL Push Credentials]**&#x200B;을(를) 전환하세요.
+
+1. FCM 푸시 자격 증명을 끌어서 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}를 참조하세요.
+
+1. 앱 구성을 만들려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+>[!ENDTABS]
 
 ## Adobe Campaign에서 애플리케이션 설정 구성{#push-config-campaign}
 
@@ -121,11 +127,11 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 
 iOS 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
-1. 서비스에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create an iOS application]**&#x200B;을(를) 선택합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+1. 서비스에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create an iOS application]**&#x200B;을(를) 선택합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/push-config-6.png)
 
-1. **[!UICONTROL Launch app configurations list]** 창에서 이전에 이 섹션에서 만든 앱 표면을 선택합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Launch app configurations list]** 창에서 이전에 이 섹션에서 만든 앱 표면을 선택합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/push-config-7.png)
 
@@ -160,7 +166,7 @@ iOS 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 프로덕션 응용 프로그램 구성을 시작하고 위에 설명된 것과 동일한 단계를 수행합니다. 개발 버전(샌드박스) 및 응용 프로그램의 프로덕션 버전에는 동일한 **[!UICONTROL Integration key]**&#x200B;을(를) 사용할 수 없습니다.
 
-1. **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
 이제 iOS 애플리케이션을 Campaign에서 사용할 준비가 되었습니다.
 
@@ -168,7 +174,7 @@ iOS 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
-1. 서비스에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create an Android application]**&#x200B;을(를) 선택합니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+1. 서비스에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create an Android application]**&#x200B;을(를) 선택합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/push-config-10.png)
 
@@ -211,7 +217,7 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. 데이터 수집 홈페이지에서 태그 메뉴에 액세스합니다.
 
-1. **[!UICONTROL New Property]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL New Property]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/push-config-13.png)
 
@@ -233,12 +239,12 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. 인스턴스 세부 사항을 입력합니다.
 
-   * Campaign의 **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Deployment wizard]** 메뉴에서 **[!UICONTROL Registration endpoint]** 또는 **[!UICONTROL Tracking endpoint]** URL을 찾을 수 있습니다.
-   * [이 섹션](#create-app)에 구성된 모바일 앱에서 **[!UICONTROL Integration keys]**&#x200B;을(를) 찾을 수 있습니다.
+   * Campaign의 **[!UICONTROL Registration endpoint]** > **[!UICONTROL Tracking endpoint]** > **[!UICONTROL Tools]** 메뉴에서 **[!UICONTROL Advanced]** 또는 **[!UICONTROL Deployment wizard]** URL을 찾을 수 있습니다.
+   * **[!UICONTROL Integration keys]**&#x200B;이 섹션[에 구성된 모바일 앱에서 ](#create-app)을(를) 찾을 수 있습니다.
 
    ![](assets/push-config-17.png)
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 1. 이제 **[!UICONTROL Publishing flow]** 메뉴에서 구성을 게시해야 합니다. [자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 

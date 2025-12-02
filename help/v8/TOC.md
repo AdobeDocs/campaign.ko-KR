@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 26fededf0ee83299477e45e891df30a46c6d40fe
+source-git-commit: 48c6dfc89fec6ad8cff7d17c1892f7c15b497f99
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 94%
+source-wordcount: '823'
+ht-degree: 89%
 
 ---
 
@@ -40,10 +40,15 @@ ht-degree: 94%
    + [Campaign Standard에서 v8로의 전환](start/acs-to-v8.md)
    + [자주 묻는 질문](start/campaign-faq-comprehensive.md)
    + [자주 묻는 질문](start/campaign-faq.md)
++ 관리 및 권한 {#permissions}
+   + [사용 권한 시작](start/gs-permissions.md)
+   + [사용자 권한 관리](start/manage-permissions.md)
+   + [폴더에 권한 추가](start/folder-permissions.md)
+   + [컨트롤 패널](config/self-service.md)
 + 캠페인 관리 {#campaigns}
    + [캠페인 시작하기](start/campaigns.md)
-   + [캠페인 오케스트레이션 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
-+ 메시지 보내기{#send}
+   + [Campaign 오케스트레이션 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
++ 메시지 보내기 {#send}
    + [메시지 시작하기](start/gs-message.md)
    + [첫 게재 만들어 보기](start/create-message.md)
    + [게재 템플릿 작업](send/create-templates.md)
@@ -60,22 +65,20 @@ ht-degree: 94%
       + [이메일에 파일 첨부](send/attaching-files.md)
    + SMS {#sms}
       + [SMS 시작](send/sms/sms.md)
+      + [SMS 채널 특성](send/sms/sms-channel.md)
+      + [SMS 게재 만들기](send/sms/create-sms.md)
+      + [콘텐츠 정의](send/sms/sms-content.md)
+      + [대상자 선택](send/sms/sms-audience.md)
+      + [SMS 증명 보내기](send/sms/sms-proofs.md)
+      + [대상자에게 보내기](send/sms/sms-send.md)
+      + [SMS 모니터링 및 추적](send/sms/sms-monitor.md)
       + SMS 채널 구성 {#config-sms}
          + [SMS 게재 설정](send/sms/sms-delivery-settings.md)
          + [SMPP 외부 계정 설정](send/sms/smpp-external-account.md)
-         + [SMS 채널 특성](send/sms/sms-channel.md)
          + [SMPP 연결 유효성 검사](send/sms/smpp-connection.md)
          + [독립형 인스턴스](send/sms/sms-standalone-instance.md)
          + [중간 소싱 인프라](send/sms/sms-mid-sourcing.md)
          + [SMPP 커넥터 설명](send/sms/smpp-connector-delivery.md)
-      + SMS 만들기  {#create-sms}
-         + [SMS 게재 만들기](send/sms/create-sms.md)
-         + [콘텐츠 정의](send/sms/sms-content.md)
-         + [대상자 선택](send/sms/sms-audience.md)
-      + SMS 유효성 검사 및 전송 {#validate-sms}
-         + [SMS 증명 보내기](send/sms/sms-proofs.md)
-         + [대상자에게 보내기](send/sms/sms-send.md)
-      + [SMS 모니터링 및 추적](send/sms/sms-monitor.md)
    + 푸시 알림 {#push}
       + [푸시 알림 구성 및 전송](send/push.md)
       + 리치 푸시 {#rich-push}
@@ -83,10 +86,11 @@ ht-degree: 94%
          + [iOS 리치 푸시 게재 디자인](send/rich-push-ios.md)
       + [푸시 알림 채널 구성](send/push-settings.md)
       + [데이터 수집으로 푸시 알림 구성](send/push-data-collection.md)
-   + [LINE 메시지 보내기](send/line/line.md)
-   + [DM](send/direct-mail.md)
-   + [X(Twitter)](send/twitter.md)
-   + [사용자 정의 외부 채널](send/custom-channel.md)
+   + 기타 채널 {#other-channels}
+      + [LINE 메시지 보내기](send/line/line.md)
+      + [DM](send/direct-mail.md)
+      + [X(Twitter)](send/twitter.md)
+      + [사용자 정의 외부 채널](send/custom-channel.md)
    + 콘텐츠 개인화 {#personalize}
       + [개인화 시작하기](send/personalize.md)
       + [개인화 데이터](send/personalization-data.md)
@@ -134,21 +138,21 @@ ht-degree: 94%
       + [Adobe 솔루션으로 대상자 공유](start/shared-audiences.md)
    + [모범 사례](audiences/audiences-best-practices.md)
    + [구독 관리](start/subscriptions.md)
-+ 콘텐츠 관리 {#content}
++ 랜딩 페이지 및 웹 콘텐츠 {#content}
    + [랜딩 페이지 만들기](dev/landing-pages.md)
    + [웹 앱 및 양식 디자인](dev/webapps.md)
 + 워크플로 {#workflows}
    + [워크플로 시작하기](config/workflows.md)
-   + [워크플로 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
+   + [워크플로 설명서 완료 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
 + 개인 정보 보호 및 보안 관리 {#privacy}
    + [개인 정보 보호 요청 관리](start/privacy.md)
    + [보안 지침](config/security.md)
    + [향상된 보안 추가 기능](config/enhanced-security.md)
-+ 의사 결정 관리 {#offers}
++ 오퍼 관리 및 상호 작용 {#offers}
    + [실시간 상호 작용 시작](interaction/interaction.md)
    + [환경 및 아키텍처](interaction/interaction-architecture.md)
    + [모범 사례](interaction/interaction-best-practices.md)
-   + 설정 정의{#interaction-settings}
+   + 구성 설정 {#interaction-settings}
       + [운영자 만들기](interaction/interaction-operators.md)
       + [환경 만들기](interaction/interaction-env.md)
       + [사전 정의 필터 만들기](interaction/interaction-predefined-filters.md)
@@ -183,6 +187,7 @@ ht-degree: 94%
       + [쿼리 편집기 작업](start/query-editor.md)
       + [쿼리 디자인](start/design-queries.md)
       + [필터 조건 정의](start/filter-conditions.md)
+      + [대상 필터 작업](audiences/create-filters.md)
    + [데이터 가져오기](start/import.md)
    + [워크플로 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
 + 통합 {#connect}
@@ -203,12 +208,6 @@ ht-degree: 94%
       + [Campaign 및 SFDC 작업](connect/ac-sfdc.md)
       + [Campaign 및 Microsoft Dynamics 작업](connect/ac-ms-dyn.md)
       + [데이터 동기화](connect/crm-data-sync.md)
-+ 관리 {#admin}
-   + 사용자 및 권한 {#permissions}
-      + [사용 권한 시작](start/gs-permissions.md)
-      + [사용자 권한 관리](start/manage-permissions.md)
-      + [폴더에 권한 추가](start/folder-permissions.md)
-   + [컨트롤 패널](config/self-service.md)
 + 아키텍처 {#architecture}
    + [글로벌 원칙](architecture/general-architecture.md)
    + [아키텍처 모델](architecture/architecture.md)
@@ -252,10 +251,10 @@ ht-degree: 94%
    + REST API {#apis}
       + [REST API 시작](dev/api/get-started-apis.md)
       + [권장 사항 및 제한 사항](dev/api/limitations.md)
-      + [REST API의 장점](dev/api/why-using-campaign-standard-apis.md)
+      + [REST API 사용 시기](dev/api/why-using-campaign-standard-apis.md)
       + [API 액세스 설정](dev/api/setting-up-api-access.md)
       + 전반적 개념 {#global-concepts}
-         + [반드시 알아야 할 사항](dev/api/must-read.md)
+         + [기본 개념](dev/api/must-read.md)
          + [엔드포인트](dev/api/endpoints.md)
          + [메타데이터 메커니즘](dev/api/metadata-mechanism.md)
          + [동사](dev/api/verbs.md)
@@ -275,6 +274,7 @@ ht-degree: 94%
       + 워크플로 관리 {#managing-workflows}
          + [워크플로 제어](dev/api/controlling-a-workflow.md)
          + [신호 활동 트리거](dev/api/triggering-a-signal-activity.md)
-+ [Campaign 기술 노트 >](https://experienceleague.adobe.com/ko/docs/campaign/technotes-ac/technotes-home)
-+ [Campaign 웹 사용자 인터페이스 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home)
++ 추가 리소스 {#resources}
+   + [Campaign 기술 노트 >](https://experienceleague.adobe.com/ko/docs/campaign/technotes-ac/technotes-home)
+   + [Campaign 웹 사용자 인터페이스 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home)
 
