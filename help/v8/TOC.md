@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 16c9cc60041f41702b4983383954033b06ba1d99
+source-git-commit: d886072b3a21d5e5b70662c67919223cf9a1b68e
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 89%
+source-wordcount: '815'
+ht-degree: 90%
 
 ---
 
@@ -138,7 +138,7 @@ ht-degree: 89%
       + [Adobe 솔루션으로 대상자 공유](start/shared-audiences.md)
    + [모범 사례](audiences/audiences-best-practices.md)
    + [구독 관리](start/subscriptions.md)
-+ 랜딩 페이지 및 웹 콘텐츠 {#content}
++ 랜딩 페이지 및 Forms {#content}
    + [랜딩 페이지 만들기](dev/landing-pages.md)
    + [웹 앱 및 양식 디자인](dev/webapps.md)
 + 워크플로 {#workflows}
