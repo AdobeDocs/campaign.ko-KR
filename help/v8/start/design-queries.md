@@ -1,13 +1,13 @@
 ---
 title: Campaign v8에서 쿼리 디자인
-description: 쿼리를 만드는 방법 알아보기
+description: Campaign 클라이언트 콘솔에서 쿼리를 만드는 방법을 알아봅니다
 feature: Query Editor, Data Management
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: adea4eb54f3d519802119646bc501aae2ef5f831
+source-git-commit: edd495a377559007dad7158c9ab4a4917d89ae73
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '871'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ Campaign 데이터베이스를 쿼리하려면 **[일반 쿼리 편집기](query
 
 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택하면 **[!UICONTROL Target elements]** 섹션이 열립니다. 여기에서 수집할 데이터를 필터링하는 규칙을 정의할 수 있습니다.
 
-* 새 필터를 만들려면 조건을 만드는 데 필요한 필드, 연산자 및 값을 선택합니다. [이 페이지의 &#x200B;](filter-conditions.md)에 설명된 대로 여러 조건을 결합할 수도 있습니다.
+* 새 필터를 만들려면 조건을 만드는 데 필요한 필드, 연산자 및 값을 선택합니다. [이 페이지의 ](filter-conditions.md)에 설명된 대로 여러 조건을 결합할 수도 있습니다.
 
 * 기존 필터를 다시 사용하려면 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Predefined filter]**&#x200B;을(를) 선택한 다음 원하는 필터를 선택하십시오.
 
