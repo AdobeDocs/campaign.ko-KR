@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+source-git-commit: 57e177dc6c30502f2ed3bb08b18586fa5399e89c
 workflow-type: tm+mt
-source-wordcount: '3422'
+source-wordcount: '3410'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 5%
 
 **무시됨** 유형의 오류는 &quot;부재 중&quot;과 같은 일시적인 오류이거나 예를 들어 발신자 유형이 &quot;postmaster&quot;인 경우와 같은 기술적인 오류로 알려져 있습니다.
 
-피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 전달되는 모든 것을 차단할 수 있습니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않았더라도 차단 목록에 추가된으로 제공됩니다. 주소는 **상태의 (** NmsRecipient **) 받는 사람 테이블이 아니라 (** NmsAddress **[!UICONTROL Denylisted]**) 격리 테이블에 추가됩니다. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#feedback-loops){target="_blank"}에서 피드백 루프 메커니즘에 대해 자세히 알아보세요.
+피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 전달되는 모든 것을 차단할 수 있습니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않았더라도 차단 목록에 추가된으로 제공됩니다. 주소는 **상태의 (** NmsRecipient **) 받는 사람 테이블이 아니라 (** NmsAddress **[!UICONTROL Denylisted]**) 격리 테이블에 추가됩니다. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}에서 피드백 루프 메커니즘에 대해 자세히 알아보세요.
 
 ## 동기 및 비동기 오류 {#synchronous-and-asynchronous-errors}
 
@@ -67,7 +67,7 @@ Adobe Campaign에서 바운스 메일 자격이 처리되는 방식은 오류 �
 
 * **동기 오류**: MTA가 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 보냅니다. **[!UICONTROL Delivery log qualification]** 테이블의 반송 조건은 **동기** 게재 실패 오류 메시지에 사용되지 않습니다.
 
-* **비동기 오류**: Campaign에서 비동기 게재 실패를 확인하기 위해 사용하는 규칙이 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 노드에 나열됩니다. 비동기 바운스는 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 검증됩니다. 자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=ko#bounce-mail-qualification){target="_blank"}를 참조하세요.
+* **비동기 오류**: Campaign에서 비동기 게재 실패를 확인하기 위해 사용하는 규칙이 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 노드에 나열됩니다. 비동기 바운스는 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 검증됩니다.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -112,7 +112,7 @@ Campaign 게재의 유효 기간 설정이 **3.5일 이하**(으)로 제한됩�
 
 메시지가 3.5일 동안 MTA 큐에 있고 배달하지 못하면 시간이 초과되고 게재 로그에서 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 상태가 업데이트됩니다.
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ko#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## 이메일 오류 유형 {#email-error-types}
@@ -723,7 +723,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 **원인**: 전자 메일 내에 받는 사람에 대한 값이 두 개 이상인 개인화 필드 또는 블록이 있습니다. 개인화 블록을 사용 중이며 특정 수신자에 대해 두 개 이상의 레코드를 가져오고 있습니다.
 
-**해결 방법**: 사용된 개인화 데이터를 확인한 다음 해당 필드에 둘 이상의 항목이 있는 수신자의 대상을 확인하십시오. 게재 활동 이전에 타기팅 워크플로우에서 **[!UICONTROL Deduplication]** 활동을 사용하여 한 번에 하나의 개인화 필드만 있도록 할 수도 있습니다. 중복 제거에 대한 자세한 내용은 [워크플로 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ko){target="_blank"}를 참조하세요.
+**해결 방법**: 사용된 개인화 데이터를 확인한 다음 해당 필드에 둘 이상의 항목이 있는 수신자의 대상을 확인하십시오. 게재 활동 이전에 타기팅 워크플로우에서 **[!UICONTROL Deduplication]** 활동을 사용하여 한 번에 하나의 개인화 필드만 있도록 할 수도 있습니다. 중복 제거에 대한 자세한 내용은 [워크플로 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}를 참조하세요.
 
 ### 자동 회신 처리 {#auto-reply-handling}
 

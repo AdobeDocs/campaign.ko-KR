@@ -5,9 +5,9 @@ feature: Monitoring, Email
 role: User
 level: Beginner
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: 90ed82673b893b62a185227dd8cdfe80cc8f1455
+source-git-commit: 57e177dc6c30502f2ed3bb08b18586fa5399e89c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '455'
 ht-degree: 3%
 
 ---
@@ -78,7 +78,7 @@ Campaign 추적 기능을 사용하면 개인화할 수 있고 추적을 지원�
 
 이 예제를 통해 Adobe Campaign의 사용자/사용자와 수신자 간의 추적 차이를 더 잘 이해할 수 있습니다.
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=ko#reporting){target="_blank"}에서 사용자 및 받는 사람에 대해 자세히 알아보세요.
+[타겟팅된 사용자 및 수신자에 대해 자세히 알아보기](../reporting/metrics-calculation.md#targeted-persons---recipients)
 
 **지표 추적**
 
