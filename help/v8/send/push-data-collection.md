@@ -240,7 +240,7 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 1. 인스턴스 세부 사항을 입력합니다.
 
    * Campaign의 **[!UICONTROL Registration endpoint]** > **[!UICONTROL Tracking endpoint]** > **[!UICONTROL Tools]** 메뉴에서 **[!UICONTROL Advanced]** 또는 **[!UICONTROL Deployment wizard]** URL을 찾을 수 있습니다.
-   * **[!UICONTROL Integration keys]**&#x200B;이 섹션[에 구성된 모바일 앱에서 &#x200B;](#create-app)을(를) 찾을 수 있습니다.
+   * **[!UICONTROL Integration keys]**&#x200B;이 섹션[에 구성된 모바일 앱에서 ](#create-app)을(를) 찾을 수 있습니다.
 
    ![](assets/push-config-17.png)
 

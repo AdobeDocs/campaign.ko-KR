@@ -101,8 +101,8 @@ Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 �
 
 Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다.
 
-* 항상 수신자가 커뮤니케이션 수신에 동의하도록 합니다. 이를 위해서는 옵트아웃 요청을 최대한 빨리 준수하고 이중 옵트인 프로세스를 통해 동의를 확인하십시오. 자세한 내용은 [이중 옵트인](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}을 사용하여 구독 양식 만들기를 참조하십시오.
-* 사기성 목록을 가져와서 시드 주소로 사용하여 클라이언트 파일이 부정하게 사용되지 않고 있는지 확인하지 마십시오. 자세한 내용은 [시드 주소 정보](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}를 참조하십시오.
+* 항상 수신자가 커뮤니케이션 수신에 동의하도록 합니다. 이를 위해서는 옵트아웃 요청을 최대한 빨리 준수하고 이중 옵트인 프로세스를 통해 동의를 확인하십시오. 자세한 내용은 [이중 옵트인](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}을 사용하여 구독 양식 만들기를 참조하십시오.
+* 사기성 목록을 가져와서 시드 주소로 사용하여 클라이언트 파일이 부정하게 사용되지 않고 있는지 확인하지 마십시오. 자세한 내용은 [시드 주소 정보](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}를 참조하십시오.
 * 동의 및 권한 관리를 통해 수신자의 환경 설정을 추적할 수 있을 뿐만 아니라 조직 내에서 누가 어떤 데이터에 액세스할 수 있는지를 관리할 수 있습니다. 자세한 내용은 [이 섹션](#consent)을 참조하십시오.
 * 수신자의 개인 정보 보호 요청을 간편하게 지원하고 관리할 수 있습니다. 자세한 내용은 [이 섹션](#privacy-requests)을 참조하십시오.
 
@@ -123,7 +123,7 @@ Campaign의 주요 개인 정보 보호 기능과 여기에 관련된 페르소�
 
 * **동의 관리**: 구독 관리 프로세스를 통해 수신자의 환경 설정을 관리하고 어떤 수신자가 어떤 구독 유형을 옵트인했는지 추적할 수 있습니다. 자세한 내용은 [구독 정보](../../automation/workflow/subscription-services.md)를 참조하십시오.
 * **데이터 보존**: 모든 기본 제공 표준 로그 테이블에는 사전 설정된 보존 기간이 있으며 일반적으로 데이터 저장소를 6개월 이하로 제한합니다. 워크플로로 추가 보존 기간을 설정할 수 있습니다. 자세한 내용은 Adobe 컨설턴트나 기술 관리자에게 문의하십시오.
-* **권한 관리**: Adobe Campaign은 다양한 사전 설치 또는 사용자 지정 역할을 통해 다양한 캠페인 운영자에게 할당된 권한을 관리할 수 있는 기능을 제공합니다. 이를 통해 회사 내에서 다른 유형의 데이터에 액세스, 수정 또는 내보낼 수 있는 사용자를 관리할 수 있습니다. 자세한 내용은 [액세스 관리 정보](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}를 참조하십시오.
+* **권한 관리**: Adobe Campaign은 다양한 사전 설치 또는 사용자 지정 역할을 통해 다양한 캠페인 운영자에게 할당된 권한을 관리할 수 있는 기능을 제공합니다. 이를 통해 회사 내에서 다른 유형의 데이터에 액세스, 수정 또는 내보낼 수 있는 사용자를 관리할 수 있습니다. 자세한 내용은 [액세스 관리 정보](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}를 참조하십시오.
 
 ### 개인 정보 보호 요청 {#privacy-requests}
 
@@ -146,7 +146,7 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 * **session** 쿠키: **nlid** 쿠키에는 연락처로 보낸 전자 메일의 식별자&#x200B;**broadlogId**)와 메시지 템플릿의 식별자(**deliveryId**)가 포함됩니다. 이 URL은 연락처가 Adobe Campaign이 보낸 전자 메일에 포함된 URL을 클릭할 때 추가되며, 이를 통해 웹에서 해당 동작을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
 
 * **영구** 쿠키 2개:
-   * Adobe Experience Cloud 솔루션 간에 **UUID**(Universal Unique IDentifier) 쿠키가 공유됩니다. 새 값이 생성될 때 클라이언트 브라우저에서 사라질 때까지 한 번 설정됩니다. 이 쿠키를 사용하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 랜딩 페이지(알 수 없는 고객 활동을 수신자에게 연결)나 게재를 통해 보관할 수 있습니다. 이 쿠키의 설명은 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=ko#ec-cookies)에서 사용할 수 있습니다.
+   * Adobe Experience Cloud 솔루션 간에 **UUID**(Universal Unique IDentifier) 쿠키가 공유됩니다. 새 값이 생성될 때 클라이언트 브라우저에서 사라질 때까지 한 번 설정됩니다. 이 쿠키를 사용하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 랜딩 페이지(알 수 없는 고객 활동을 수신자에게 연결)나 게재를 통해 보관할 수 있습니다. 이 쿠키의 설명은 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html#ec-cookies)에서 사용할 수 있습니다.
    * **nllastdelid** 쿠키(Campaign Classic 20.3에서 도입됨)는 사용자가 링크를 클릭한 마지막 게재의 **deliveryId**&#x200B;가 포함된 영구 쿠키입니다. 이 쿠키는 세션 쿠키가 없을 때 사용될 추적 테이블을 식별하기 위해 사용됩니다.
 
 GDPR(일반 데이터 보호 규정)과 같은 규정에서는 회사가 쿠키를 설치하기 전에 웹 사이트 사용자의 계약을 요구하는 것을 명시합니다.
@@ -198,7 +198,7 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항
 
 * **웹 응용 프로그램에 captcha 추가**: 공개 랜딩 페이지 및 구독 페이지에 captcha를 추가합니다.
 
-자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ko#installing-campaign-classic){target="_blank"}를 참조하세요.
+자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}를 참조하세요.
 
 
 ## 개인화
@@ -293,4 +293,4 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항
 
 * **웹 응용 프로그램에 captcha 추가**: 공개 랜딩 페이지 및 구독 페이지에 captcha를 추가합니다.
 
-자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ko#installing-campaign-classic){target="_blank"}를 참조하세요.
+자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}를 참조하세요.

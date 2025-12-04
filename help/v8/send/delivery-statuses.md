@@ -94,7 +94,7 @@ Adobe Campaign 이메일의 전달성을 최적화하는 방법에 대해 알아
 
   동시 캠페인의 제한은 **[!UICONTROL NmsOperation_LimitConcurrency]** 옵션에 정의되어 있습니다. 기본값은 10입니다.
 
-  필요한 경우 Managed Cloud Services 사용자는 Adobe과 협력하여 이 제한을 조정할 수 있습니다. 옵션에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ko){target="_blank"}를 참조하세요.
+  필요한 경우 Managed Cloud Services 사용자는 Adobe과 협력하여 이 제한을 조정할 수 있습니다. 옵션에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html){target="_blank"}를 참조하세요.
 
 * **리소스 가용성 문제**
 

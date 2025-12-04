@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # 알려진 문제{#known-issues}
 
-이 페이지에는 **최신 Campaign v8 릴리스**&#x200B;에서 식별된 알려진 문제가 나열됩니다. 또한 Campaign v8에서 발생하는 제한 사항은 [이 페이지의 &#x200B;](ac-guardrails.md)에 나열되어 있습니다.
+이 페이지에는 **최신 Campaign v8 릴리스**&#x200B;에서 식별된 알려진 문제가 나열됩니다. 또한 Campaign v8에서 발생하는 제한 사항은 [이 페이지의 ](ac-guardrails.md)에 나열되어 있습니다.
 
 
 >[!NOTE]
@@ -86,7 +86,7 @@ Error:
 
 Campaign 관리자는 [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}에서 Campaign v8.3.1 클라이언트 콘솔을 다운로드할 수 있습니다.
 
-이 페이지[에서 Adobe 소프트웨어 배포 &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}에 액세스하는 방법을 알아보세요.
+이 페이지[에서 Adobe 소프트웨어 배포 ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}에 액세스하는 방법을 알아보세요.
 
 이 페이지에서 클라이언트 콘솔 [을(를) 업그레이드하는 방법](connect.md)
 
