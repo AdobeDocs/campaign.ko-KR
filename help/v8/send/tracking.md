@@ -78,7 +78,7 @@ Campaign 추적 기능을 사용하면 개인화할 수 있고 추적을 지원�
 
 이 예제를 통해 Adobe Campaign의 사용자/사용자와 수신자 간의 추적 차이를 더 잘 이해할 수 있습니다.
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html#reporting){target="_blank"}에서 사용자 및 받는 사람에 대해 자세히 알아보세요.
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=ko#reporting){target="_blank"}에서 사용자 및 받는 사람에 대해 자세히 알아보세요.
 
 **지표 추적**
 
