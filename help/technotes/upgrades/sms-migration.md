@@ -3,10 +3,8 @@ title: 새 SMS 커넥터 v2로 이동
 description: 새 SMS 커넥터 v2로 이동하는 방법 알아보기
 feature: Technote
 role: Admin
-hide: true
-hidefromtoc: true
 exl-id: 61a5a3e8-59f8-47ea-afc9-66ec243b8265
-source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
+source-git-commit: ed9e784c1610a6f042b99223ac0d4cc0cf312b09
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -23,7 +21,7 @@ ht-degree: 0%
 
 ## v1 및 v2 커넥터의 차이점
 
-Adobe Campaign v8의 전용 SMS 커넥터에는 MTA 기반 커넥터와 비교하여 몇 가지 아키텍처 변경 사항이 도입되었습니다. 한 가지 주요 차이점은 SMPP 송수신기 모드의 기본 사용인데, 이 모드는 송신 및 수신 기능을 결합하여 연결 수를 줄입니다. 공급자가 이 모드를 지원하지 않는 경우에도 개별 송신기 및 수신기 연결을 사용할 수 있습니다. MTA 커넥터와 달리 자동 답장을 활성화해도 연결 수에 영향을 주지 않으며 모든 수신자 연결은 모든 유형의 수신 메시지를 처리할 수 있습니다.
+Adobe Campaign v8의 전용 SMS 커넥터에는 MTA 기반 커넥터와 비교하여 몇 가지 아키텍처 변경 사항이 도입되었습니다. 한 가지 주요 차이점은 SMPP 송수신기 모드의 기본 사용인데, 이 모드는 송신 및 수신 기능을 결합하여 연결 수를 줄입니다. 공급자가 이 모드를 지원하지 않는 경우에도 별도의 송신기 및 수신기 연결을 사용할 수 있습니다. MTA 커넥터와 달리 자동 답장을 활성화해도 연결 수에 영향을 주지 않으며 모든 수신자 연결은 모든 유형의 수신 메시지를 처리할 수 있습니다.
 
 이제 연결 수가 다른 공식을 사용하여 계산됩니다.
 
