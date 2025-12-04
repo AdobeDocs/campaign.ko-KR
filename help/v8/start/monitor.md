@@ -51,7 +51,7 @@ Adobe Campaign은 프로세스, 게재 및 환경을 모니터링하여 최적�
 
 **다음 워크플로우 요소 모니터링:**
 
-**워크플로 실행 상태** - 워크플로가 실행 중인지, 일시 중지되었는지, 실패했는지 또는 완료되었는지 추적합니다. [워크플로우 실행에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+**워크플로 실행 상태** - 워크플로가 실행 중인지, 일시 중지되었는지, 실패했는지 또는 완료되었는지 추적합니다. [워크플로우 실행에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}
 
 **활동 실행 로그** - 각 워크플로우 활동에 대한 자세한 로그에 액세스하여 문제를 해결하고 성능을 최적화합니다.
 
@@ -82,13 +82,13 @@ Adobe Campaign은 프로세스, 게재 및 환경을 모니터링하여 최적�
 
 Campaign v8은 인스턴스 성능을 추적하고 최적의 작업을 보장하는 몇 가지 모니터링 기능을 제공합니다.
 
-**데이터베이스 모니터링** - Campaign 컨트롤 패널을 통해 데이터베이스 사용량 및 용량을 모니터링하여 최적의 성능과 저장소 관리를 보장합니다. [데이터베이스 모니터링에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
+**데이터베이스 모니터링** - Campaign 컨트롤 패널을 통해 데이터베이스 사용량 및 용량을 모니터링하여 최적의 성능과 저장소 관리를 보장합니다. [데이터베이스 모니터링에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html?lang=ko){target="_blank"}
 
-**활성 프로필 모니터링** - 계약 제한에 대해 활성 프로필 사용을 추적하여 규정 준수를 유지하고 리소스 할당을 최적화합니다. [활성 프로필에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}
+**활성 프로필 모니터링** - 계약 제한에 대해 활성 프로필 사용을 추적하여 규정 준수를 유지하고 리소스 할당을 최적화합니다. [활성 프로필에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ko){target="_blank"}
 
 **워크플로 모니터링** - 워크플로 실행 상태를 모니터링하여 오래 실행되는 워크플로를 식별하고 모든 기술 워크플로가 올바르게 실행되는지 확인합니다. [기술 워크플로우에 대해 자세히 알아보기](#technical-workflows)
 
-**게재 처리량 및 대기 시간** - Campaign 컨트롤 패널을 통한 트랜잭션 통신에 대한 게재 처리량(시간당 전송된 메시지) 및 대기 시간을 추적합니다. [처리량 모니터링에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
+**게재 처리량 및 대기 시간** - Campaign 컨트롤 패널을 통한 트랜잭션 통신에 대한 게재 처리량(시간당 전송된 메시지) 및 대기 시간을 추적합니다. [처리량 모니터링에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html?lang=ko){target="_blank"}
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Campaign v8은 인스턴스 성능을 추적하고 최적의 작업을 보장하
 | **게재 기능 업데이트** | 게재 가능성 규칙 및 스팸 필터 패턴 업데이트 |
 | **데이터베이스 정리** | 이전 게재 및 추적 로그 제거 |
 
-[기술 워크플로우](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}에 대해 자세히 알아보기
+[기술 워크플로우](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ko){target="_blank"}에 대해 자세히 알아보기
 
 ### Campaign 컨트롤 패널 {#control-panel}
 
