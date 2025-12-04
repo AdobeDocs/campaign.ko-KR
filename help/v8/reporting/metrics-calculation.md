@@ -2,11 +2,11 @@
 title: 기본 제공 보고서 지표 계산
 description: 기본 제공 보고서 지표 계산
 feature: Reporting
-role: Data Engineer
+role: Developer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '3048'
+source-wordcount: '3025'
 ht-degree: 3%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 3%
 
 이 보고서는 **[!UICONTROL Consolidated tracking]** 테이블(nms:trackingStats)을 기반으로 합니다. 이 집계 테이블은 보고서를 표시할 때 **[!UICONTROL Recipient tracking logs]** 테이블(nms:trackingLogRcp) 대신 성능상의 이유로 사용되며 실시간으로 계산되지 않습니다. 이 테이블은 추적 로그를 검색한 후 몇 분 후에 생성됩니다. 지표가 최신 상태이면 **지표 추적** 보고서의 지표와 같은 결과가 나옵니다. @totalclicks 표시기는 5분 동안 총 클릭 수를 표현합니다.
 
-## 게재 불가 및 이탈 {#non-deliverables-and-bounces-1}
+## 비게재 항목 및 바운스 {#non-deliverables-and-bounces-1}
 
 **오류 유형별 분류**
 
@@ -789,7 +789,7 @@ ht-degree: 3%
 
 ## 핫 클릭 {#hot-clicks-1}
 
-이 보고서는 Delivery(nms:delivery) 및 **[!UICONTROL Consolidated tracking]**(nms:trackingStats) 테이블을 기반으로 합니다.
+이 보고서는 배달(nms:delivery) 및 **[!UICONTROL Consolidated tracking]**(nms:trackingStats) 테이블을 기반으로 합니다.
 
 이 보고서에는 메시지 콘텐츠(HTML 및/또는 텍스트)와 각 링크의 링크 클릭 비율이 표시됩니다. 개인화 블록 구독 취소 링크 및 미러 페이지 링크는 누적된 총 클릭 수에서 고려되지만 보고서에 표시되지 않습니다.
 
@@ -912,7 +912,7 @@ ht-degree: 3%
 
 ## 기타 표시기 {#other-indicators}
 
-**게재(nms:delivery) > 표시기** 노드를 통해 액세스되는 **Sent** 표시기(@sent)는 서비스 공급자에게 보낸 총 SMS 수에 해당합니다. 이 지표는 SMS 게재에만 사용되며 다른 유형의 게재에는 사용할 수 없습니다(**@success** 및 **@processed** 지표와 혼동하지 마십시오).
+**게재(nms**) > 표시기&#x200B;**노드를 통해 액세스되는 :delivery전송됨** 표시기(@sent)는 서비스 공급자에게 보낸 총 SMS 수에 해당합니다. 이 지표는 SMS 게재에만 사용되며 다른 유형의 게재에는 사용할 수 없습니다(**@success** 및 **@processed** 지표와 혼동하지 마십시오).
 
 ## 표시기 동기화 {#indicator-synchronization}
 

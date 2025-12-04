@@ -4,13 +4,13 @@ description: Campaign v8 REST API로 마이그레이션할 때의 권장 사항 
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 mini-toc-levels: 1
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1046'
 ht-degree: 1%
 
 ---
@@ -107,11 +107,11 @@ Campaign v8에서 동일한 요청 본문 구조를 사용하고 &quot;차량&qu
 
 | 시나리오 | Campaign Standard | Campaign v8 |
 |  ---  |  ---  |  ---  |
-| 요청 본문에 잘못된 PKey 사용 | 500 - &#39;O5iRp40EGA&#39; 특성을 알 수 없습니다(&#39;Profiles (nms:recipient)&#39; 스키마 정의 참조). XTK-170036 표현식 &#39;@id = @O5iRp40EGA&#39;을(를) 구문 분석할 수 없습니다. | 404 - PKey를 해독할 수 없습니다. (PKey=@jksad) |
-| URI에 잘못된 PKey 사용 | 500 - &#39;O5iRp40EGA&#39; 특성을 알 수 없습니다(&#39;Profiles (nms:recipient)&#39; 스키마 정의 참조). XTK-170036 표현식 &#39;@id = @O5iRp40EGA&#39;을(를) 구문 분석할 수 없습니다. | 404 - PKey를 해독할 수 없습니다. (PKey=@jksad) 지원되지 않는 끝점입니다. (endpoint=rest/profileAndServices/profile/@jksad) |
+| 요청 본문에 잘못된 PKey 사용 | 500 - &#39;O5iRp40EGA&#39; 특성을 알 수 없습니다(&#39;프로필(nms:recipient)&#39; 스키마 정의 참조). XTK-170036 표현식 &#39;@id = @O5iRp40EGA&#39;을(를) 구문 분석할 수 없습니다. | 404 - PKey를 해독할 수 없습니다. (PKey=@jksad) |
+| URI에 잘못된 PKey 사용 | 500 - &#39;O5iRp40EGA&#39; 특성을 알 수 없습니다(&#39;프로필(nms:recipient)&#39; 스키마 정의 참조). XTK-170036 표현식 &#39;@id = @O5iRp40EGA&#39;을(를) 구문 분석할 수 없습니다. | 404 - PKey를 해독할 수 없습니다. (PKey=@jksad) 지원되지 않는 끝점입니다. (endpoint=rest/profileAndServices/profile/@jksad) |
 | URI 및 요청 본문에서 두 개의 서로 다른 원시 Pkey 사용 | 500 - RST-360011 오류가 발생했습니다. 관리자에게 문의하십시오. RST-360012 리소스 &#39;서비스&#39;에서 일관성이 없는 작업 - 키 &#39;SVC3&#39;을(를) &#39;SVC4&#39;로 업데이트할 수 없습니다. | 500 - 오류가 발생했습니다. 관리자에게 문의하십시오. |
 | URI에서 PKey를 사용하고 요청 본문에서 다른 원시 PKey 사용 | 500 - 동일한 키 &quot;SVC4&quot;의 &quot;서비스&quot;가 이미 있습니다. PGS-220000 PostgreSQL 오류: 오류: 중복 키 값이 고유 제약 조건 &quot;nmsservice_name&quot;을 위반합니다. DETAIL: 키(sname)=(SVC4)가 이미 있습니다. | 500 - 오류가 발생했습니다. 관리자에게 문의하십시오. |
-| URI에 존재하지 않는 원시 ID 사용 | 404 - RST-360011 오류가 발생했습니다. 관리자에게 문의하십시오. &#39;adobe_nl:0&#39; 키(스키마가 &#39;service&#39;이고 이름이 &#39;adobe_nl&#39;인 문서)에서 경로가 &#39;Service&#39;인 문서를 찾을 수 없음 | 404 - &#39;adobe_nl&#39; 키(스키마가 &#39;service&#39;이고 이름이 &#39;adobe_nl&#39;인 문서)에서 &#39;Service&#39; 경로가 있는 문서를 찾을 수 없음 |
+| URI에 존재하지 않는 원시 ID 사용 | 404 - RST-360011 오류가 발생했습니다. 관리자에게 문의하십시오. &#39;adobe_nl:0&#39; 키(스키마가 &#39;service&#39;이고 이름이 &#39;adobe_nl&#39;인 문서)에서 경로가 &#39;Service&#39;인 문서를 찾을 수 없습니다. | 404 - &#39;adobe_nl&#39; 키(스키마가 &#39;service&#39;이고 이름이 &#39;adobe_nl&#39;인 문서)에서 &#39;Service&#39; 경로가 있는 문서를 찾을 수 없음 |
 | 요청 본문에 존재하지 않는 원시 ID 사용 | 404 - RST-360011 오류가 발생했습니다. 관리자에게 문의하십시오. 경로가 &#39;Service&#39;인 문서를 &#39;adobe_nl&#39; 키(스키마가 &#39;service&#39;이고 이름이 &#39;adobe_nl&#39;인 문서)에서 찾을 수 없습니다. | 404 - &#39;adobe_nl&#39; 키(스키마가 &#39;service&#39;이고 이름이 &#39;adobe_nl&#39;인 문서)에서 &#39;Service&#39; 경로가 있는 문서를 찾을 수 없음 |
 | - | 500 - RST-360011 오류가 발생했습니다. 관리자에게 문의하십시오. | 500 - 오류가 발생했습니다. 관리자에게 문의하십시오. |
 | 잘못된 성별(또는 기타) 열거형 값이 있는 프로필/서비스 삽입 | 500 - RST-360011 오류가 발생했습니다. 관리자에게 문의하십시오. &#39;invalid&#39; 값은 &#39;@gender&#39; 필드의 &#39;nms:recipient:gender&#39; 열거에 사용할 수 없습니다. | 500 - 오류가 발생했습니다. 관리자에게 문의하십시오. |

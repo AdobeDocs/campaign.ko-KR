@@ -4,10 +4,10 @@ description: Campaign Standard API에 대한 액세스를 설정하는 방법을
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 6%
@@ -20,7 +20,7 @@ Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다
 
 >[!IMPORTANT]
 >
->[Adobe Developer](https://developer.adobe.com/)에서 인증서를 관리하려면 조직에 대한 **시스템 관리자** 권한 또는 Admin Console의 [개발자 계정](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html)이 있는지 확인하십시오.
+>[Adobe Developer](https://developer.adobe.com/)에서 인증서를 관리하려면 조직에 대한 **시스템 관리자** 권한 또는 Admin Console의 [개발자 계정](https://helpx.adobe.com/enterprise/using/manage-developers.html)이 있는지 확인하십시오.
 
 1. **디지털 인증서가 있는지 확인**&#x200B;하거나 필요한 경우 만드십시오. 인증서와 함께 제공되는 공개 및 개인 키는 다음 단계에서 필요합니다.
 1. **Adobe Developer**&#x200B;에서 [Adobe Campaign 서비스에 대한 새 통합을 만들고](https://developer.adobe.com/) 구성합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).

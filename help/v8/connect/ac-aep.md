@@ -2,10 +2,10 @@
 title: Adobe Experience Platform에서 대상자 및 프로필 속성 공유 및 동기화
 description: Adobe Experience Platform 대상자 및 프로필 속성을 Campaign과 동기화하는 방법 알아보기
 feature: Experience Platform Integration
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%

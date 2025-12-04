@@ -3,10 +3,10 @@ product: campaign
 title: 반복 가져오기 설정
 description: 반복 가져오기에 대한 워크플로우 템플릿을 구성하는 방법을 알아봅니다.
 feature: Workflows, Data Management
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 13f0091b-b62c-47df-9658-6631ba1cf03a
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    * **[!UICONTROL Name of the file to load]** 섹션에서 **[!UICONTROL Upload a file from the local machine]**&#x200B;을(를) 선택하고 필드를 비워 둡니다. 이 템플릿에서 새 워크플로우를 만들 때마다 정의된 구조에 해당하는 한 원하는 파일을 여기에서 지정할 수 있습니다.
 
-     옵션을 사용할 수 있지만 그에 따라 템플릿을 수정해야 합니다. 예를 들어 **[!UICONTROL Specified in the transition]**&#x200B;을(를) 선택하는 경우 FTP/SFTP 서버에서 가져올 파일을 검색하기 전에 **[!UICONTROL File Transfer]** 활동을 추가할 수 있습니다. S3 또는 SFTP 연결을 통해 Adobe Real-time Customer Data Platform을 사용하여 세그먼트 데이터를 Adobe Campaign으로 가져올 수도 있습니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ko){target="_blank"}를 참조하세요.
+     옵션을 사용할 수 있지만 그에 따라 템플릿을 수정해야 합니다. 예를 들어 **[!UICONTROL Specified in the transition]**&#x200B;을(를) 선택하는 경우 FTP/SFTP 서버에서 가져올 파일을 검색하기 전에 **[!UICONTROL File Transfer]** 활동을 추가할 수 있습니다. S3 또는 SFTP 연결을 통해 Adobe Real-time Customer Data Platform을 사용하여 세그먼트 데이터를 Adobe Campaign으로 가져올 수도 있습니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}를 참조하세요.
 
      ![](assets/import_template_example1.png)
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
    * 처음 두 하위 집합에서 선택되지 않은 모든 레코드가 **[!UICONTROL Complement]**&#x200B;에서 선택됩니다.
 
-1. 이전에 구성한 **[!UICONTROL Split]** 활동의 첫 번째 아웃바운드 전환 뒤에 있는 **[!UICONTROL Update data]** 활동을 구성합니다.
+1. 이전에 구성한 **[!UICONTROL Update data]** 활동의 첫 번째 아웃바운드 전환 뒤에 있는 **[!UICONTROL Split]** 활동을 구성합니다.
 
    * 인바운드 전환에 데이터베이스에 이미 있는 수신자만 포함되므로 **[!UICONTROL Update]**&#x200B;을(를) **[!UICONTROL Operation type]**(으)로 선택합니다.
    * **[!UICONTROL Record identification]** 섹션에서 **[!UICONTROL Using reconciliation keys]**&#x200B;을(를) 선택하고 타겟팅 차원과 **[!UICONTROL Enrichment]**&#x200B;에서 만들어진 링크 사이에 키를 정의합니다. 이 예제에서는 **CRM ID** 사용자 지정 필드가 사용됩니다.
@@ -95,7 +95,7 @@ ht-degree: 0%
 
    ![](assets/import_template_example7.png)
 
-1. 이전에 구성한 **[!UICONTROL Deduplication]** 활동 뒤에 있는 **[!UICONTROL Update data]** 활동을 구성하십시오.
+1. 이전에 구성한 **[!UICONTROL Update data]** 활동 뒤에 있는 **[!UICONTROL Deduplication]** 활동을 구성하십시오.
 
    * 인바운드 전환에 데이터베이스에 없는 수신자만 포함되므로 **[!UICONTROL Insert]**&#x200B;을(를) **[!UICONTROL Operation type]**(으)로 선택합니다.
    * **[!UICONTROL Record identification]** 섹션에서 **[!UICONTROL Directly using the targeting dimension]**&#x200B;을(를) 선택하고 **[!UICONTROL Recipients]** 차원을 선택합니다.

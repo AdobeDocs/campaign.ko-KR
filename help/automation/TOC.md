@@ -3,10 +3,10 @@ audience: user
 user-guide-title: Campaign 자동화 안내서
 user-guide-description: Campaign 자동화 안내서
 feature: Overview
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 78%
 
 + [Campaign 자동화 안내서](home.md)
 + 워크플로로 자동화 {#workflows}
-   + 워크플로 시작하기 {#introduction}
+   + 워크플로 시작 {#introduction}
       + [워크플로 정보](workflow/about-workflows.md)
       + 워크플로우 유형 {#wf-type}
          + [타겟팅 워크플로](workflow/targeting-workflows.md)
@@ -24,7 +24,7 @@ ht-degree: 78%
       + [워크플로 구축](workflow/build-a-workflow.md)
       + [모범 사례](workflow/workflow-best-practices.md)
       + [워크플로 데이터 사용](workflow/use-workflow-data.md)
-   + 워크플로우 실행 {#executing-a-workflow}
+   + 워크플로 실행 {#executing-a-workflow}
       + [워크플로 시작](workflow/start-a-workflow.md)
       + [워크플로 수명 주기](workflow/workflow-life-cycle.md)
       + [승인 설정](workflow/define-approvals.md)
@@ -65,7 +65,7 @@ ht-degree: 78%
          + [포크](workflow/fork.md)
          + [이동(시작점 및 끝점)](workflow/jump-start-point-and-end-point.md)
          + [시작 및 종료](workflow/start-and-end.md)
-         + [예약](workflow/scheduler.md)
+         + [스케줄러](workflow/scheduler.md)
          + [하위 워크플로](workflow/sub-workflow.md)
          + [테스트](workflow/test.md)
          + [시간 제한](workflow/time-constraint.md)
@@ -94,8 +94,8 @@ ht-degree: 78%
          + [인바운드 이메일](workflow/inbound-emails.md)
          + [인바운드 SMS](workflow/inbound-sms.md)
          + [웹 다운로드](workflow/web-download.md)
-   + 활용 사례 {#use-cases}
-      + [워크플로 사용 사례 기본 정보](workflow/workflow-use-cases.md)
+   + 사용 사례 {#use-cases}
+      + [워크플로 사용 사례 정보](workflow/workflow-use-cases.md)
       + 게재 {#deliveries}
          + [로컬 승인 활동 사용](workflow/local-approval-activity.md)
          + [생일 이메일 보내기](workflow/send-a-birthday-email.md)
@@ -133,7 +133,7 @@ ht-degree: 78%
       + [권한 관리](workflow/managing-rights.md)
       + [활동 이미지 변경](workflow/change-activity-images.md)
       + [표준 시간대 관리](workflow/managing-time-zones.md)
-+ 캠페인 오케스트레이션 {#campaign-orchestration}
++ Campaign 오케스트레이션 {#campaign-orchestration}
    + [마케팅 캠페인 시작](campaigns/set-up-campaigns.md)
    + [프로그램 및 캠페인 만들기](campaigns/marketing-campaign-create.md)
    + [템플릿 만들기 및 구성](campaigns/marketing-campaign-templates.md)
@@ -165,5 +165,5 @@ ht-degree: 78%
    + [캠페인 패키지 게시](distributed-marketing/publishing-the-campaign-package.md)
    + [캠페인 액세스](distributed-marketing/accessing-campaigns.md)
    + [캠페인 추적](distributed-marketing/tracking-a-campaign.md)
-   + [활용 사례](distributed-marketing/examples.md)
+   + [사용 사례](distributed-marketing/examples.md)
 + [&lt; Campaign v8 설명서로 돌아가기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)

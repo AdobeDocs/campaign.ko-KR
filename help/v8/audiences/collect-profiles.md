@@ -2,10 +2,10 @@
 title: 웹 양식으로 프로필 수집 및 업데이트
 description: 웹 양식을 사용하여 프로필을 수집하고 업데이트하는 방법을 알아봅니다
 feature: Audiences, Profiles, Web Forms
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: a228c0dc-80f5-4c51-b73b-ced0aa27a65a
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 24%

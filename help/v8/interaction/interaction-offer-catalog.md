@@ -2,10 +2,10 @@
 title: 캠페인 상호 작용 오퍼 카탈로그
 description: 오퍼 카탈로그를 만드는 방법에 대해 알아봅니다.
 feature: Interaction, Offers
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 911096e2-0307-46a8-873c-ee2248b8e3e8
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 2%
@@ -66,6 +66,6 @@ ht-degree: 2%
 
 1. 오퍼 카탈로그를 찾습니다.
 1. **[!UICONTROL Eligibility]** 탭을 클릭하고 **[!UICONTROL Always include this category in the recommendations]** 옵션을 선택합니다.
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/offer_cat_default_001.png)

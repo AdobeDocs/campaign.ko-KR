@@ -1,10 +1,10 @@
 ---
 title: API를 사용하여 서비스 만들기
 description: API를 사용하여 서비스를 만드는 방법을 알아봅니다
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%

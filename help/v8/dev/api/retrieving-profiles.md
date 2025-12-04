@@ -1,10 +1,10 @@
 ---
 title: 프로필 검색
 description: API를 사용하여 프로필을 검색하는 방법에 대해 자세히 알아보기
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 4%

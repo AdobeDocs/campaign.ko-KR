@@ -2,11 +2,11 @@
 title: Adobe Campaign을 사용하여 푸시 알림 보내기
 description: Campaign에서 푸시 알림 시작
 feature: Push
-role: Data Engineer
+role: Developer
 level: Intermediate
 badge: label="제한 공개" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 11a9f17bc5c1ec8388de294395a6d7b7a5e8a7e6
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 2%
@@ -240,7 +240,7 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 1. 인스턴스 세부 사항을 입력합니다.
 
    * Campaign의 **[!UICONTROL Registration endpoint]** > **[!UICONTROL Tracking endpoint]** > **[!UICONTROL Tools]** 메뉴에서 **[!UICONTROL Advanced]** 또는 **[!UICONTROL Deployment wizard]** URL을 찾을 수 있습니다.
-   * **[!UICONTROL Integration keys]**&#x200B;이 섹션[에 구성된 모바일 앱에서 &#x200B;](#create-app)을(를) 찾을 수 있습니다.
+   * **[!UICONTROL Integration keys]**&#x200B;이 섹션[에 구성된 모바일 앱에서 ](#create-app)을(를) 찾을 수 있습니다.
 
    ![](assets/push-config-17.png)
 

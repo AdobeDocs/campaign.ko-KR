@@ -4,10 +4,10 @@ description: API를 사용하여 프로필을 만드는 방법에 대해 자세�
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 ><b>orgUnit</b>을(를) 생성된 프로필에 연결하려면 이 필드로 프로필 리소스를 확장하고 확장을 게시한 후 <b>ProfileAndServicesExt</b> 끝점에서 POST 요청을 수행해야 합니다.
 >
->프로필의 리소스 확장에 대한 자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign 설명서</a>를 참조하세요.
+>프로필의 리소스 확장에 대한 자세한 내용은 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign 설명서</a>를 참조하세요.
 
 <br/>
 

@@ -4,10 +4,10 @@ description: Adobe Campaign 소셜 마케팅 모듈을 사용하여 X(이전 Twi
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 4%
+source-wordcount: '778'
+ht-degree: 3%
 
 ---
 
@@ -158,5 +158,5 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
 추적 데이터는 게재 보고서와 게재 및 서비스의 **[!UICONTROL Edit > Tracking]** 탭에서 볼 수 있습니다.
 
-추적 구성은 이메일 게재와 동일합니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ko){target="_blank"}를 참조하세요.
+추적 구성은 이메일 게재와 동일합니다. [추적](tracking.md)에 대해 자세히 알아보세요.
 

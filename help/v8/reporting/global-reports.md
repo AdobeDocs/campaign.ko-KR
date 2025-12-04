@@ -2,9 +2,9 @@
 title: Adobe Campaign 글로벌 보고서
 description: 글로벌 보고서에 액세스하고 사용하는 방법을 알아봅니다
 feature: Reporting, Monitoring
-role: User, Data Engineer
+role: User, Developer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1750'
 ht-degree: 7%
@@ -49,7 +49,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->[Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ko){target="_blank"}을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다.
+>[Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다.
 >
 >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel){target="_blank"}에 자세히 설명되어 있습니다.
 >
@@ -60,13 +60,13 @@ ht-degree: 7%
 
 다음 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL Opens]**: 열린 총 메시지 수입니다. 텍스트 형식의 이메일은 고려되지 않습니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-).
+* **[!UICONTROL Opens]**: 열린 총 메시지 수입니다. 텍스트 형식의 이메일은 고려되지 않습니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-)
 * **[!UICONTROL Clicks]**: 게재에서 링크를 클릭한 총 횟수입니다. 구독 취소 링크 및 미러 페이지에 대한 클릭은 고려되지 않습니다.
 <!--
 * **[!UICONTROL Transactions]**: Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 -->
 
-## 게재 불가 및 이탈 {#non-deliverables-and-bounces}
+## 비게재 항목 및 바운스 {#non-deliverables-and-bounces}
 
 이 보고서는 비게재 항목 분류와 인터넷 도메인별 바운스 수 분류를 보여줍니다.
 

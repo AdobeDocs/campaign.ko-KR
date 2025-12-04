@@ -3,9 +3,9 @@ product: campaign
 title: 이모티콘 목록 사용자 정의
 description: Adobe Campaign 사용 시 이모티콘 목록을 사용자 지정하는 방법 알아보기
 feature: Email, Push
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 2%
@@ -47,7 +47,7 @@ ht-degree: 2%
 
    ![](assets/emoticon_5.png)
 
-1. 구성이 완료되면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 구성이 완료되면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**을(를) 클릭합니다.
 새 이모티콘이 스토어에 자동으로 삽입됩니다.
 
 1. 게재의 **[!UICONTROL Insert emoticon]** 창에 표시하려면 새로 만든 이모티콘을 두 번 클릭하여 선택합니다.

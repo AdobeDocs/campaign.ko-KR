@@ -4,10 +4,10 @@ description: 추가 작업을 수행하는 방법에 대해 자세히 알아보�
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 1%
@@ -262,8 +262,8 @@ URL에서 GET 요청을 수행합니다. 프로필 리소스에 대한 필터 �
 
 자세한 내용은 Campaign Standard 설명서를 참조하십시오.
 
-* [필터 정의를 구성하는 중](https://helpx.adobe.com/kr/campaign/standard/developing/using/configuring-filter-definition.html).
-* [사용 사례: 복합 식별 키를 사용하여 리소스를 호출합니다](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=ko).
+* [필터 정의를 구성하는 중](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [사용 사례: 복합 식별 키를 사용하여 리소스를 호출합니다](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 

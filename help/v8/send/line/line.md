@@ -2,11 +2,11 @@
 title: Adobe Campaign으로 LINE 다이렉트 메시지 보내기
 description: LINE 메시지 시작
 feature: Line App
-role: Data Engineer
+role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 4%
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 인스턴트 메시지, 음성 및 영상 통화용 애플리케이션입니다. Adobe Campaign을 사용하여 LINE 메시지를 보낼 수 있습니다.
 
-[!DNL LINE]을(를) 트랜잭션 메시지 모듈과 결합하여 소비자 모바일 장치에 설치된 [!DNL LINE] 앱에서 실시간 메시지를 보낼 수도 있습니다. 자세한 내용은 Campaign Classic v7 설명서에서 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)를 참조하세요.
+[!DNL LINE]을(를) 트랜잭션 메시지 모듈과 결합하여 소비자 모바일 장치에 설치된 [!DNL LINE] 앱에서 실시간 메시지를 보낼 수도 있습니다. 자세한 내용은 Campaign Classic v7 설명서에서 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)를 참조하세요.
 
 ![](assets/line_message.png)
 

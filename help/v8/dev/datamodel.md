@@ -2,10 +2,10 @@
 title: Campaign 데이터 모델 시작하기
 description: Campaign 데이터 모델을 시작하고 소스의 데이터를 활용하여 더 나은 커뮤니케이션 및 마케팅 결과를 얻으십시오.
 feature: Data Model
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 5%
@@ -60,7 +60,7 @@ Adobe Campaign의 기본 제공 수신자 테이블(nmsrecipient)은 데이터 �
 
 [이 섹션](extend-schema.md)에서 기존 스키마를 확장하는 방법을 알아보세요.
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ko#extending-a-table){target="_blank"}에서 기본 제공 수신자 테이블 확장의 예를 살펴봅니다.
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}에서 기본 제공 수신자 테이블 확장의 예를 살펴봅니다.
 
 비즈니스 또는 기능 요구 사항에 더 잘 부합하도록 다른 수신자 테이블을 사용할 수도 있습니다. 이 메서드는 제한 사항이 있으며 [이 섹션](custom-recipient.md)에 설명되어 있습니다.
 

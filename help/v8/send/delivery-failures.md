@@ -4,10 +4,11 @@ description: Adobe Campaign으로 메시지를 보낼 때 발생할 수 있는 �
 feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
+source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
 workflow-type: tm+mt
-source-wordcount: '2976'
+source-wordcount: '3422'
 ht-degree: 5%
 
 ---
@@ -40,7 +41,7 @@ ht-degree: 5%
 
 **무시됨** 유형의 오류는 &quot;부재 중&quot;과 같은 일시적인 오류이거나 예를 들어 발신자 유형이 &quot;postmaster&quot;인 경우와 같은 기술적인 오류로 알려져 있습니다.
 
-피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 전달되는 모든 것을 차단할 수 있습니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않았더라도 차단 목록에 추가된으로 제공됩니다. 주소는 **상태의 (** NmsRecipient **) 받는 사람 테이블이 아니라 (** NmsAddress **[!UICONTROL Denylisted]**) 격리 테이블에 추가됩니다. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#feedback-loops){target="_blank"}에서 피드백 루프 메커니즘에 대해 자세히 알아보세요.
+피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 전달되는 모든 것을 차단할 수 있습니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않았더라도 차단 목록에 추가된으로 제공됩니다. 주소는 **상태의 (** NmsRecipient **) 받는 사람 테이블이 아니라 (** NmsAddress **[!UICONTROL Denylisted]**) 격리 테이블에 추가됩니다. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}에서 피드백 루프 메커니즘에 대해 자세히 알아보세요.
 
 ## 동기 및 비동기 오류 {#synchronous-and-asynchronous-errors}
 
@@ -48,7 +49,7 @@ ht-degree: 5%
 
 이러한 유형의 오류는 다음과 같이 관리됩니다.
 
-* **동기 오류**: Adobe Campaign 게재 서버가 접속한 원격 서버에서 즉시 오류 메시지를 반환합니다. 프로필 서버로 게재를 보낼 수 없습니다. MTA(메일 전송 에이전트)는 반송 유형을 결정하고 오류를 검증하며, 관련 이메일 주소를 격리해야 하는지 여부를 결정하기 위해 해당 정보를 Campaign으로 다시 보냅니다. [바운스 메일 선별](#bounce-mail-qualification)을 참조하십시오.
+* **동기 오류**: Adobe Campaign 게재 서버가 접속한 원격 서버에서 즉시 오류 메시지를 반환합니다. 프로필 서버로 게재를 보낼 수 없습니다. MTA(메일 전송 에이전트)는 반송 유형을 결정하고 오류를 검증하며, 관련 이메일 주소를 격리해야 하는지 여부를 결정하기 위해 해당 정보를 Campaign으로 다시 보냅니다. [바운스 이메일 선별](#bounce-mail-qualification)을 참조하십시오.
 
 * **비동기 오류**: 반송 메일 또는 SR이 나중에 수신 서버에 의해 다시 전송됩니다. 이 오류는 오류와 관련된 레이블로 확인됩니다. 게재를 보낸 후 1주일까지 비동기 오류가 발생할 수 있습니다.
 
@@ -66,7 +67,7 @@ Adobe Campaign에서 바운스 메일 자격이 처리되는 방식은 오류 �
 
 * **동기 오류**: MTA가 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 보냅니다. **[!UICONTROL Delivery log qualification]** 테이블의 반송 조건은 **동기** 게재 실패 오류 메시지에 사용되지 않습니다.
 
-* **비동기 오류**: Campaign에서 비동기 게재 실패를 확인하기 위해 사용하는 규칙이 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 노드에 나열됩니다. 비동기 바운스는 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 검증됩니다. 자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=ko#bounce-mail-qualification){target="_blank"}를 참조하세요.
+* **비동기 오류**: Campaign에서 비동기 게재 실패를 확인하기 위해 사용하는 규칙이 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** 노드에 나열됩니다. 비동기 바운스는 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 검증됩니다. 자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}를 참조하세요.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -111,12 +112,14 @@ Campaign 게재의 유효 기간 설정이 **3.5일 이하**(으)로 제한됩�
 
 메시지가 3.5일 동안 MTA 큐에 있고 배달하지 못하면 시간이 초과되고 게재 로그에서 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 상태가 업데이트됩니다.
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ko#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## 이메일 오류 유형 {#email-error-types}
 
 이메일 채널에 대해 게재 실패의 가능한 이유는 아래에 나와 있습니다.
+
++++ 이메일 오류 유형의 전체 목록을 보려면 클릭
 
 <table> 
  <tbody> 
@@ -249,7 +252,7 @@ Campaign 게재의 유효 기간 설정이 **3.5일 이하**(으)로 제한됩�
  </tbody> 
 </table>
 
-
++++
 
 ## 푸시 알림 오류 유형 {#push-error-types}
 
@@ -260,6 +263,8 @@ Campaign 게재의 유효 기간 설정이 **3.5일 이하**(으)로 제한됩�
 HTTP/V2 프로토콜을 통해 각 푸시 게재에 대한 직접 피드백 및 상태를 사용할 수 있습니다. HTTP/V2 프로토콜 커넥터를 사용하는 경우 **[!UICONTROL mobileAppOptOutMgt]** 워크플로우에서 더 이상 피드백 서비스를 호출하지 않습니다. 모바일 애플리케이션을 제거하거나 다시 설치하면 토큰이 등록 취소된 것으로 간주됩니다.
 
 동기적으로 APNs가 메시지에 대해 &quot;등록되지 않음&quot; 상태를 반환하면 대상 토큰이 즉시 격리됩니다.
+
++++ iOS 격리 시나리오를 보려면 클릭
 
 <table> 
  <tbody> 
@@ -346,6 +351,8 @@ HTTP/V2 프로토콜을 통해 각 푸시 게재에 대한 직접 피드백 및 
  </tbody> 
 </table>
 
++++
+
 ### Android 격리 {#android-quarantine}
 
 **Android V1용**
@@ -373,6 +380,8 @@ HTTP/V2 프로토콜을 통해 각 푸시 게재에 대한 직접 피드백 및 
 **Android V2용**
 
 Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용하므로 구독 및 제외 업데이트에도 동일하게 적용됩니다. 자세한 내용은 [Android V1](#android-quarantine) 섹션을 참조하세요.
+
++++ Android V2 격리 시나리오를 보려면 클릭
 
 <table> 
  <tbody> 
@@ -579,6 +588,8 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
  </tbody> 
 </table>
 
++++
+
 ## SMS 격리 {#sms-quarantines}
 
 **표준 커넥터용**
@@ -588,6 +599,8 @@ SMS 채널에 대한 특성은 아래에 나와 있습니다.
 >[!NOTE]
 >
 >**[!UICONTROL Delivery log qualification]** 테이블은 **확장된 일반 SMPP** 커넥터에 적용되지 않습니다.
+
++++ 표준 커넥터에 대한 SMS 오류 유형을 보려면 클릭
 
 <table> 
  <tbody> 
@@ -636,6 +649,8 @@ SMS 채널에 대한 특성은 아래에 나와 있습니다.
  </tbody> 
 </table>
 
++++
+
 **확장된 일반 SMPP 커넥터의 경우**
 
 SMPP 프로토콜을 사용하여 SMS 메시지를 전송하는 경우 오류 관리가 다르게 처리됩니다.
@@ -675,3 +690,61 @@ SR Generic DELIVRD 000|#MESSAGE#
 * 파이프 기호(|) 뒤에 오는 모든 항목은 **[!UICONTROL First text]** 테이블의 **[!UICONTROL Delivery log qualification]** 열에만 표시됩니다. 메시지가 표준화된 후 이 콘텐츠는 항상 **#MESSAGE#**(으)로 바뀝니다. 이 프로세스는 유사한 오류에 대해 여러 항목을 포함하지 않으며 이메일과 동일합니다.
 
 확장된 일반 SMPP 커넥터는 추론을 적용하여 합리적인 기본값을 찾습니다. 상태가 **DELIV**&#x200B;로 시작하는 경우 대부분의 공급자가 사용하는 일반적인 상태 **DELIVRD** 또는 **DELIVERED**&#x200B;와(과) 일치하므로 성공한 것으로 간주됩니다. 그 밖의 어떤 상황도 하드 장애로 이어집니다.
+
+## 게재 실패 문제 해결 {#troubleshooting}
+
+이 섹션에서는 일반적인 게재 실패 문제를 진단하고 해결하는 방법에 대한 지침을 제공합니다.
+
+### 실패한 상태 및 개인화 오류 {#personalization-errors}
+
+이메일 게재 상태가 **[!UICONTROL Failed]**&#x200B;인 경우 개인화 블록의 문제와 연결할 수 있습니다. 스키마가 게재 매핑과 일치하지 않으면 게재의 개인화 블록이 오류를 생성할 수 있습니다.
+
+게재 로그는 게재가 실패한 이유를 알아보는 중요한 요소입니다. 다음은 발생할 수 있는 일반적인 오류입니다.
+
+수신자 메시지가 다음 내용을 포함하는 &quot;연결할 수 없음&quot; 오류로 인해 실패:
+
+```
+Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
+```
+
+**원인**: HTML 내의 개인화가 업스트림 타겟팅 또는 게재 대상 매핑에서 정의되거나 매핑되지 않은 테이블 또는 필드를 호출하려고 합니다.
+
+**해결 방법**: 워크플로우 및 게재 콘텐츠를 검토하여 해당 테이블을 호출하려는 개인화를 구체적으로 결정하십시오. 그런 다음 HTML에서 이 테이블에 대한 호출을 제거하거나 게재에 대한 매핑을 수정합니다.
+
+[이 섹션](personalize.md)에서 개인화에 대해 자세히 알아보세요.
+
+### 여러 개인화 값 오류 {#multiple-values-error}
+
+게재가 실패하면 게재 로그에 다음 오류가 표시될 수 있습니다.
+
+```
+DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
+```
+
+**원인**: 전자 메일 내에 받는 사람에 대한 값이 두 개 이상인 개인화 필드 또는 블록이 있습니다. 개인화 블록을 사용 중이며 특정 수신자에 대해 두 개 이상의 레코드를 가져오고 있습니다.
+
+**해결 방법**: 사용된 개인화 데이터를 확인한 다음 해당 필드에 둘 이상의 항목이 있는 수신자의 대상을 확인하십시오. 게재 활동 이전에 타기팅 워크플로우에서 **[!UICONTROL Deduplication]** 활동을 사용하여 한 번에 하나의 개인화 필드만 있도록 할 수도 있습니다. 중복 제거에 대한 자세한 내용은 [워크플로 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}를 참조하세요.
+
+### 자동 회신 처리 {#auto-reply-handling}
+
+일부 게재는 다음을 진술하는 &quot;연결할 수 없음&quot; 오류와 함께 실패할 수 있습니다.
+
+```
+Inbound email bounce (rule 'Auto_replies' has matched this bounce).
+```
+
+**설명**: 게재는 성공했지만 Adobe Campaign이 받는 사람으로부터 &#39;자동 회신&#39; 인바운드 전자 메일 규칙과 일치하는 자동 회신(예: &quot;부재 중&quot; 회신)을 받았음을 의미합니다.
+
+자동 회신 이메일은 Adobe Campaign에서 무시되며 수신자 주소는 격리에 전송되지 않습니다. 이는 예상되는 동작이며 게재 실패를 의미하지 않습니다.
+
+## 관련 항목
+
+[게재 상태](delivery-statuses.md)에서는 게재가 라이프사이클 동안 가질 수 있는 다양한 상태를 설명합니다.
+
+[Campaign UI에서 게재 모니터링](delivery-dashboard.md)은(는) 게재 대시보드를 사용하여 게재 성능을 추적하고 문제를 진단하는 방법에 대한 지침을 제공합니다.
+
+[격리 관리](quarantines.md)에서는 Campaign에서 보낸 사람의 평판을 보호하기 위해 격리된 주소를 관리하는 방법을 설명합니다.
+
+[게재 가능성 모니터링](monitoring-deliverability.md)은(는) 올바른 게재 가능성 및 보낸 사람의 신뢰도를 유지하는 방법에 대한 지침을 제공합니다.
+
+[게재 모범 사례](../start/delivery-best-practices.md)에서는 Campaign에서 게재를 만들고 보내는 모범 사례를 다룹니다.

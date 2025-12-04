@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: d886072b3a21d5e5b70662c67919223cf9a1b68e
+source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 90%
+source-wordcount: '841'
+ht-degree: 87%
 
 ---
 
@@ -105,9 +105,11 @@ ht-degree: 90%
       + [게재 분석](send/delivery-analysis.md)
       + [게재 구성 및 보내기](send/configure-and-send.md)
       + [전송 시간 최적화](send/predictive.md)
-   + 실패, 바운스, 격리 {#failures}
-      + [격리](send/quarantines.md)
+   + 게재 모니터링 {#monitor}
+      + [Campaign UI에서 게재 모니터링](send/delivery-dashboard.md)
+      + [게재 상태](send/delivery-statuses.md)
       + [게재 실패](send/delivery-failures.md)
+      + [격리](send/quarantines.md)
    + 전달성 관리 {#deliverability-management}
       + [전달성의 정의](send/about-deliverability.md)
       + [메시지 콘텐츠 제어](send/control-message-content.md)
@@ -144,7 +146,7 @@ ht-degree: 90%
 + 워크플로 {#workflows}
    + [워크플로 시작하기](config/workflows.md)
    + [워크플로 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
-+ 개인 정보 보호 및 보안 {#privacy}
++ 개인 정보 및 보안 {#privacy}
    + [개인 정보 보호 요청 관리](start/privacy.md)
    + [보안 지침](config/security.md)
    + [향상된 보안 추가 기능](config/enhanced-security.md)
@@ -166,8 +168,15 @@ ht-degree: 90%
       + [익명 상호 작용 관리](interaction/anonymous-interactions.md)
    + [보고서 및 기록](interaction/interaction-tracking.md)
    + [활용 사례](interaction/interaction-use-cases.md)
-+ 보고 및 분석 {#analytics}
-   + [추적 및 모니터링](start/tracking.md)
++ 추적 및 분석 {#analytics}
+   + 메시지 추적 {#tracking}
+      + [추적 시작](send/tracking.md)
+      + [추적된 링크 구성](send/tracked-links.md)
+      + [URL 추적 옵션 구성](send/url-tracking.md)
+      + [개인화된 링크 추적](send/personalized-links.md)
+      + [추적 테스트](send/testing-tracking.md)
+      + [추적 로그 액세스](send/tracking-logs.md)
+   + [캠페인 모니터링 개요](start/monitor.md)
    + [감사 추적](reporting/audit-trail.md)
    + 보고서 작업{#reports}
       + [보고서 시작하기](reporting/gs-reporting.md)

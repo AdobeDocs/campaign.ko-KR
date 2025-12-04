@@ -3,10 +3,10 @@ title: Adobe Campaign 기본 제공 게재 보고서
 description: Adobe Campaign 기본 제공 게재 보고서
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 12%
+source-wordcount: '1019'
+ht-degree: 10%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 12%
 
 ## 지표 추적 {#tracking-indicators}
 
-이 보고서는 게재를 받을 때 수신자의 행동을 추적하기 위한 주요 지표를 결합합니다. 이렇게 하면 게재 및 수신 통계, 열람율 및 클릭스루 비율, 생성된 클릭스트림, 웹 추적 및 소셜 네트워크에 대한 공유 활동에 액세스할 수 있습니다.
+이 보고서는 게재를 받을 때 수신자의 행동을 추적하기 위한 주요 지표를 결합합니다. 게재 및 수신 통계, 열람 및 클릭스루 비율, 생성된 클릭 스트림에 대한 액세스 뿐만 아니라 소셜 네트워크에 대한 활동 공유를 제공합니다.
 
 >[!NOTE]
 >

@@ -2,13 +2,13 @@
 title: 이메일 전송 및 모니터링
 description: Adobe Campaign을 사용하여 이메일을 전송하는 범위와 특성에 대해 알아봅니다
 feature: Email
-role: Data Engineer
+role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: c7f139dd7f139ba421eb034f4d8911671b3b3332
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '802'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 2%
 메시지가 전송되면 **게재 대시보드**&#x200B;에서 게재 상태를 확인하고 게재 로그 및 보고서에 액세스하여 메시지가 올바르게 전송되었는지 확인하십시오.
 
 게재 대시보드에서 처리된 메시지 및 게재 감사 로그를 확인할 수 있습니다. 게재 로그에서 메시지 상태를 제어할 수도 있습니다.
+
+[게재 상태](delivery-statuses.md)에 대해 자세히 알아보세요.
 
 >[!NOTE]
 >
@@ -73,7 +75,7 @@ Domain Keys Identified Mail(DKIM)는 위조된 발신자 주소(일반적으로 
 
 Adobe Campaign에서 DKIM 이메일 인증 서명은 MTA에 의해 수행됩니다.
 
-DKIM에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#authentication){target="_blank"}를 참조하세요.
+DKIM에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}를 참조하세요.
 
 ## 이메일 피드백 서비스 {#email-feedback-service}
 

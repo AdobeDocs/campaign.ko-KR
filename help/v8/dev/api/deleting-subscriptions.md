@@ -1,10 +1,10 @@
 ---
 title: 구독 삭제
 description: API를 사용하여 구독을 삭제하는 방법 알아보기
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%

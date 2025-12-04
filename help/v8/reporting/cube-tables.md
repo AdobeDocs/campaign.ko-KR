@@ -3,10 +3,10 @@ product: campaign
 title: 큐브를 사용하여 데이터에 대한 보고서 만들기
 description: 큐브를 사용하여 보고서를 만드는 방법 알아보기
 feature: Reporting
-role: User, Data Engineer
+role: User, Developer
 level: Beginner
 exl-id: 7dbc66ab-a468-40ff-9db2-b33e4fd27754
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 1%
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 큐브를 사용하여 보고서를 만들고 데이터베이스에서 데이터를 식별하고 선택합니다. 다음을 수행할 수 있습니다.
 
-* 큐브를 기반으로 보고서를 만듭니다. [자세히 알아보기](#explore-the-data-in-a-report).
-* 데이터베이스에서 데이터를 수집하고 목록으로 그룹화합니다(예: 타겟 및 게재를 식별하고 빌드함). [자세히 알아보기](#build-a-target-population).
-* 피벗 테이블을 보고서에 삽입하고 기존 큐브를 참조합니다. [자세히 알아보기](#insert-a-pivot-table-into-a-report).
+* 큐브를 기반으로 보고서를 만듭니다. [자세히 알아보기](#explore-the-data-in-a-report)
+* 데이터베이스에서 데이터를 수집하고 목록으로 그룹화합니다(예: 타겟 및 게재를 식별하고 빌드함). [자세히 알아보기](#build-a-target-population)
+* 피벗 테이블을 보고서에 삽입하고 기존 큐브를 참조합니다. [자세히 알아보기](#insert-a-pivot-table-into-a-report)
 
 ## 보고서의 데이터 탐색 {#explore-the-data-in-a-report}
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 기존 큐브를 기반으로 보고서를 만들려면 아래 단계를 수행합니다.
 
-1. **[!UICONTROL Reports]** 탭의 **[!UICONTROL Create]** 단추를 클릭하고 방금 만든 큐브를 선택합니다.
+1. **[!UICONTROL Create]** 탭의 **[!UICONTROL Reports]** 단추를 클릭하고 방금 만든 큐브를 선택합니다.
 
    ![](assets/new-report-based-on-cube.png)
 
@@ -105,7 +105,7 @@ ht-degree: 1%
 
    ![](assets/cube-pivot-table-config.png)
 
-   그런 다음 측정값 레이블을 표시할지 여부를 선택할 수 있습니다. [자세히 알아보기](customize-cubes.md#configure-the-display).
+   그런 다음 측정값 레이블을 표시할지 여부를 선택할 수 있습니다. [자세히 알아보기](customize-cubes.md#configure-the-display)
 
 1. 기존 측정값을 기반으로 새 측정값을 작성할 수 있습니다. 이렇게 하려면 **[!UICONTROL Create a measure]**&#x200B;을(를) 클릭하고 구성하십시오.
 

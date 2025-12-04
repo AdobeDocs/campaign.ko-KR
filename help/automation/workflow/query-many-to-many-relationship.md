@@ -3,12 +3,12 @@ product: campaign
 title: 다대다 관계를 사용하여 쿼리
 description: 다대다 관계를 사용하여 쿼리를 수행하는 방법에 대해 알아봅니다
 feature: Query Editor
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: c320054d-7f67-4b12-aaa7-785945bf0c18
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 1. **[!UICONTROL Data filtering]** 창에서 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Target element]** 창에서 지난 7일 동안 추적 로그가 없는 프로필을 추출하기 위한 필터링 조건은 두 단계로 구성됩니다. 선택해야 하는 요소는 다대다 링크입니다.
 
-   * 첫 번째 **[!UICONTROL Value]** 열에 대한 **[!UICONTROL Recipient delivery logs (broadlog)]** 컬렉션 요소(주황색 노드)를 선택하여 시작합니다.
+   * 첫 번째 **[!UICONTROL Recipient delivery logs (broadlog)]** 열에 대한 **[!UICONTROL Value]** 컬렉션 요소(주황색 노드)를 선택하여 시작합니다.
 
      ![](assets/query_editor_nveau_67.png)
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
      ![](assets/query_editor_nveau_36.png)
 
-     **[!UICONTROL greater than or equal to]** 연산자로 **[!UICONTROL Event date]**&#x200B;을(를) 선택하십시오. **[!UICONTROL DaysAgo (7)]** 값을 선택합니다. 이렇게 하려면 **[!UICONTROL Value]** 필드에서 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Formula type]** 창에서 **[!UICONTROL Process on dates]** 및 **[!UICONTROL Current date minus n days]**&#x200B;을(를) 선택하고 &quot;7&quot;을(를) 값으로 지정합니다.
+     **[!UICONTROL Event date]** 연산자로 **[!UICONTROL greater than or equal to]**&#x200B;을(를) 선택하십시오. **[!UICONTROL DaysAgo (7)]** 값을 선택합니다. 이렇게 하려면 **[!UICONTROL Edit expression]** 필드에서 **[!UICONTROL Value]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Formula type]** 창에서 **[!UICONTROL Process on dates]** 및 **[!UICONTROL Current date minus n days]**&#x200B;을(를) 선택하고 &quot;7&quot;을(를) 값으로 지정합니다.
 
      ![](assets/query_editor_nveau_37.png)
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
      ![](assets/query_editor_nveau_38.png)
 
-1. **[!UICONTROL Data formatting]** 창에서 성을 대문자로 전환합니다. **[!UICONTROL Transformation]** 열에서 **[!UICONTROL Last name]** 줄을 클릭하고 드롭다운 메뉴에서 **[!UICONTROL Switch to upper case]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Data formatting]** 창에서 성을 대문자로 전환합니다. **[!UICONTROL Last name]** 열에서 **[!UICONTROL Transformation]** 줄을 클릭하고 드롭다운 메뉴에서 **[!UICONTROL Switch to upper case]**&#x200B;을(를) 선택합니다.
 
    ![](assets/query_editor_nveau_39.png)
 

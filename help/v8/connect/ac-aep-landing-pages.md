@@ -2,10 +2,10 @@
 title: Adobe Campaign 랜딩 페이지에서 Adobe Experience Platform 프로필 업데이트
 description: Adobe Campaign 랜딩 페이지 및 Adobe Experience Platform 프로필 속성을 동기화하는 방법 알아보기
 feature: Experience Platform Integration
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: 02d7909c409bd25cfa3cc7aad189247ce7b5176e
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 1%
@@ -56,7 +56,7 @@ OAuth 연결을 통해 다음 단계는 Adobe Experience Platform에서 **[!UICO
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. 필요에 따라 연결을 구성합니다. HTTP API 연결을 구성하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 소스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=ko){target="_blank"}를 참조하세요.
+1. 필요에 따라 연결을 구성합니다. HTTP API 연결을 구성하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 소스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}를 참조하세요.
 
    **[!UICONTROL Authentication]** 단계에서 OAuth 통합을 통해 이전에 생성된 액세스 토큰을 사용하여 인증하려면 **[!UICONTROL Enable authentication]** 옵션을 켜십시오.
 
@@ -98,7 +98,7 @@ HTTP API Source 연결이 구성되면 Adobe Campaign에 특정 옵션을 추가
 
 >[!TAB JavaScript 코드 활동을 사용하여 옵션 추가]
 
-랜딩 페이지 워크플로우를 실행할 때 이러한 옵션을 자동으로 구성하려면 아래 코드를 사용하여 워크플로우에 **[!UICONTROL JavaScript code]** 활동을 추가합니다. [JavaScript 코드 활동을 구성하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html?lang=ko#JavaScript-code){target="_blank"}.
+랜딩 페이지 워크플로우를 실행할 때 이러한 옵션을 자동으로 구성하려면 아래 코드를 사용하여 워크플로우에 **[!UICONTROL JavaScript code]** 활동을 추가합니다. [JavaScript 코드 활동을 구성하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}.
 
 워크플로우 실행 시 옵션은 제공된 값으로 Campaign 콘솔에 자동으로 만들어집니다.
 
@@ -134,7 +134,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
 
    ![](assets/ac-lp-script.png){width="70%"}
 
-+++  스크립트 1 - Experience Platform에서 프로필 속성 로드
+   +++  스크립트 1 - Experience Platform에서 프로필 속성 로드
 
    이 코드는 랜딩 페이지를 로드하기 전에 Adobe Experience Platform에 프로필이 있는지 확인합니다. 프로필 속성을 검색하고 랜딩 페이지의 해당 필드에 표시합니다.
 
@@ -155,9 +155,9 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
    }
    ```
 
-+++
+   +++
 
-+++ 스크립트 2 - Experience Platform 프로필 속성 업데이트
+   +++ 스크립트 2 - Experience Platform 프로필 속성 업데이트
 
    이 코드는 Adobe Experience Platform의 프로필 속성을 랜딩 페이지에 제출된 값으로 업데이트합니다.
 
@@ -203,7 +203,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
    }
    ```
 
-+++
+   +++
 
 이제 사용자 지정 JavaScript 코드가 Adobe Campaign에 생성되었으므로 데이터 동기화에 이러한 JavaScript 코드를 사용하도록 랜딩 페이지를 포함하는 워크플로우를 구성할 수 있습니다.
 
@@ -213,7 +213,7 @@ Adobe Campaign에 추가된 JavaScript 코드를 사용하여 **[!UICONTROL Java
 
 * 랜딩 페이지를 로드하기 전에 Experience Platform에서 데이터를 로드하려면 랜딩 페이지 활동 앞에 **[!UICONTROL JavaScript code]** 활동을 추가하고 붙여넣기 스크립트 1을 복사합니다.
 
-+++ 스크립트 1 - Experience Platform에서 프로필 속성 로드
+  +++ 스크립트 1 - Experience Platform에서 프로필 속성 로드
 
   ```javascript
   // Script code to read profile from AEP.
@@ -249,11 +249,11 @@ Adobe Campaign에 추가된 JavaScript 코드를 사용하여 **[!UICONTROL Java
   }
   ```
 
-+++
+  +++
 
 * Experience Platform 프로필 속성을 랜딩 페이지에 제출된 데이터로 업데이트하려면 랜딩 페이지 활동 뒤에 **[!UICONTROL JavaScript code]** 활동을 추가하고 붙여넣기 스크립트 2를 복사합니다.
 
-+++ 스크립트 2 - Experience Platform 프로필 속성 업데이트
+  +++ 스크립트 2 - Experience Platform 프로필 속성 업데이트
 
   ```javascript
   // Script code to update profile in AEP and ACC.
@@ -323,7 +323,7 @@ Adobe Campaign에 추가된 JavaScript 코드를 사용하여 **[!UICONTROL Java
   }
   ```
 
-+++
+  +++
 
 >[!CAUTION]
 >
@@ -344,5 +344,5 @@ Adobe Campaign에 추가된 JavaScript 코드를 사용하여 **[!UICONTROL Java
 ### 추가 정보
 
 * [JavaScript 코드 활동 구성](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [랜딩 페이지 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html?lang=ko){target="_blank"}
+* [랜딩 페이지 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
 * [구독 및 구독 취소 관리](../start/subscriptions.md)
