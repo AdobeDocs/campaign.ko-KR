@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Developer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: 7465cacc74b8b7df38c5eb10d2928749c70a87ea
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 10%
@@ -34,7 +34,7 @@ Campaign은 각 인스턴스가 전체 Campaign 환경을 나타내는 개별 �
 
 ### Campaign FDA 배포 {#ac-deployment-fda}
 
-[FDA 배포](fda-deployment.md)에서 [!DNL Adobe Campaign] v8을(를) [!DNL Snowflake]에 연결하여 Federated Data Access 기능을 통해 데이터에 액세스할 수 있습니다. Adobe Campaign 데이터의 구조를 변경하지 않고 [!DNL Snowflake] 데이터베이스에 저장된 외부 데이터 및 정보에 액세스하고 처리할 수 있습니다. PostgreSQL은 기본 데이터베이스이며, Snowflake을 보조 데이터베이스로 사용하여 데이터 모델을 확장한 다음 데이터를 Snowflake에 저장할 수 있습니다. 그런 다음 ETL, 세그먼테이션 및 뛰어난 성능이 포함된 대규모 데이터 세트에 대한 보고서를 실행할 수 있습니다.
+[FDA 배포](fda-deployment.md)에서 [!DNL Adobe Campaign] v8을(를) [!DNL Snowflake]에 연결하여 Federated Data Access 기능을 통해 데이터에 액세스할 수 있습니다. Adobe Campaign 데이터의 구조를 변경하지 않고 [!DNL Snowflake] 데이터베이스에 저장된 외부 데이터 및 정보에 액세스하고 처리할 수 있습니다. PostgreSQL은 기본 데이터베이스이며 Snowflake을 보조 데이터베이스로 사용하여 데이터 모델을 확장하고 데이터를 Snowflake에 저장할 수 있습니다. 그런 다음 ETL, 세그먼테이션 및 뛰어난 성능이 포함된 대규모 데이터 세트에 대한 보고서를 실행할 수 있습니다.
 
 
 ![](assets/P1-P3-architecture.png){zoomable="yes"}
@@ -63,7 +63,7 @@ Campaign v8 패키지에 따라 게재 실행을 담당하는 특정 수의 중�
 
 기본적으로 모든 채널의 외부 계정은 **[!UICONTROL Alternate]** 라우팅 모드를 사용합니다. 즉, 한 번에 하나의 게재가 각 중간 소싱(MID) 인스턴스에서 교대로 전송됩니다.
 
-속도와 규모 면에서 모두 더 나은 성능을 보장하기 위해 중간 소싱 인스턴스 간에 게재를 자동으로 분할하여 수신자에게 더 빨리 게재할 수 있습니다. 이 작업은 마케팅 인스턴스에서 게재를 실행할 때 투명합니다. 게재가 전송되면 모든 로그가 통합되어 마케팅 인스턴스로 다시 단일 게재 개체로 전송됩니다.
+속도와 규모 측면에서 모두 더 나은 성능을 보장하기 위해 게재를 중간 소싱 인스턴스 간에 자동으로 분할하여 수신자에게 더 빠르게 게재할 수 있도록 할 수 있습니다. 이 작업은 마케팅 인스턴스에서 게재를 실행할 때 투명합니다. 게재가 전송되면 모든 로그가 통합되어 마케팅 인스턴스로 다시 단일 게재 개체로 전송됩니다.
 
 이렇게 하려면 각 채널에 대한 프로비전 시 **[!UICONTROL Split]** 라우팅 모드를 사용하는 추가 외부 계정을 만듭니다.
 
