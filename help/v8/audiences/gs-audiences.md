@@ -34,4 +34,4 @@ Adobe Campaign을 프로필 데이터로 채우려면 다음을 수행할 수 �
 
 ![](assets/create-profile.png)
 
-가져온 후에는 메시지를 보낼 대상을 만들 수 있습니다. 이 섹션[에서 대상 ](create-audiences.md)을(를) 만드는 방법을 알아보세요.
+가져온 후에는 메시지를 보낼 대상을 만들 수 있습니다. 이 섹션[에서 대상 &#x200B;](create-audiences.md)을(를) 만드는 방법을 알아보세요.
