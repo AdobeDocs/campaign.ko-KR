@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
 version: Campaign v8, Campaign Classic v7
-source-git-commit: b24e05f152bc299ea7953856bfa71950b5cc9837
+source-git-commit: 050612f6d7ab20aed5880454eec9cfc6e5fc18c2
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 20%
@@ -34,6 +34,4 @@ Adobe Campaign을 프로필 데이터로 채우려면 다음을 수행할 수 �
 
 ![](assets/create-profile.png)
 
-<!--You can also select your message audience in an external file: recipients are stored not in the database, but in files. These are known as "external" deliveries. These contacts can be imported or not in Adobe Campaign. [Learn more](external-profiles.md).-->
-
-가져온 후에는 메시지를 보낼 대상을 만들 수 있습니다. 이 섹션[에서 대상 &#x200B;](create-audiences.md)을(를) 만드는 방법을 알아보세요.
+가져온 후에는 메시지를 보낼 대상을 만들 수 있습니다. 이 섹션[에서 대상 ](create-audiences.md)을(를) 만드는 방법을 알아보세요.
