@@ -5,10 +5,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 95%
+source-wordcount: '372'
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,15 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 
 ## 컨트롤 패널에는 어떻게 액세스하나요? {#ac-control-panel-access}
 
-컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 관리자에게만 액세스할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ko){target="_blank"}하십시오.
+컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 관리자 사용자만 액세스할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>기본적으로 Campaign 컨트롤 패널은 &quot;관리자&quot; 제품 프로필에 속하는 관리자 사용자가 액세스할 수 있습니다. 조직 구성에 따라 제품 프로필의 이름을 다르게 지정할 수 있습니다(&quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등). **이름에 &quot;admin&quot;이라는 단어가 포함된 모든 제품 프로필은 자동으로 Campaign 컨트롤 패널 액세스 권한을 부여합니다.**
+>
+>승인된 사용자만 Campaign 컨트롤 패널 액세스 권한을 갖도록 제품 프로필 이름 지정을 주의 깊게 검토하십시오.
+
+자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ko){target="_blank"}하십시오.
 
 ## 컨트롤 패널 FAQ {#ac-control-faq}
 

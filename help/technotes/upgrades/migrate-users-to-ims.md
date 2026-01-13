@@ -2,9 +2,9 @@
 title: 캠페인 운영자를 Adobe Identity Management System(IMS)으로 마이그레이션
 description: Campaign 연산자를 Adobe Identity Management System(IMS)으로 마이그레이션하는 방법에 대해 알아봅니다.
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
+source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1433'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,14 @@ Campaign v8을 사용하면 모든 일반 사용자가 이미 Adobe IMS(Identity
 조직의 운영자가 로그인/암호(예: )를 사용하여 Campaign 클라이언트 콘솔에 연결하는 경우 기본 인증)을 사용하는 경우 영향을 받게 되며 아래에 자세히 설명된 대로 이러한 연산자를 Adobe IMS로 마이그레이션해야 합니다.
 
 [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}로의 마이그레이션은 다른 Adobe Experience Cloud 솔루션과 앱의 대부분이 이미 IMS에 있으므로 환경을 안전하고 표준화하기 위해 반드시 필요한 보안입니다.
+
+>[!IMPORTANT]
+>
+>**Campaign 컨트롤 패널 액세스 영향**
+>
+>사용자를 IMS로 마이그레이션한 후에는 Adobe Admin Console의 제품 프로필 이름에 &quot;admin&quot;이라는 단어가 포함된 경우(&quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등)가 자동으로 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 부여한다는 것을 알고 있어야 합니다. Campaign 컨트롤 패널은 Campaign 인스턴스를 크게 변경할 수 있는 셀프서비스 도구입니다.
+>
+>제품 프로필 이름 지정 규칙을 주의 깊게 검토하여 승인된 사용자만 Campaign 컨트롤 패널에 액세스할 수 있도록 합니다. [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}에서 Campaign 컨트롤 패널 권한 관리에 대해 자세히 알아보세요.
 
 ## 마이그레이션 방법{#ims-migration-procedure}
 
@@ -95,9 +103,9 @@ Campaign 관리자는 클라이언트 콘솔에서 모든 기본 사용자에게
 
 1. 기본 인증 모드로 Campaign에 연결하는 모든 연산자를 CSV 파일로 추출할 워크플로우를 만듭니다. **쿼리** 활동 및 **데이터 추출(파일)** 활동을 사용하여 CSV 파일을 만드십시오. 각 연산자의 프로필 데이터를 기반으로 다음 열을 내보낼 수 있습니다. `Name, Label`.
 
-   [이 페이지](../../automation/workflow/query.md)에서 **쿼리** 활동에 대해 자세히 알아보기
+   **이 페이지**&#x200B;에서 [쿼리](../../automation/workflow/query.md) 활동에 대해 자세히 알아보기
 
-   [이 페이지](../../automation/workflow/extraction-file.md)에서 **데이터 추출(파일)** 활동에 대해 자세히 알아보기
+   **이 페이지**&#x200B;에서 [데이터 추출(파일)](../../automation/workflow/extraction-file.md) 활동에 대해 자세히 알아보기
 
 1. 연산자의 이메일이 포함된 새 열로 CSV 파일을 업데이트합니다.
 
@@ -109,13 +117,13 @@ Campaign 관리자는 클라이언트 콘솔에서 모든 기본 사용자에게
 
    ![](assets/data-loading-activity.png){width="70%"}
 
-   [이 페이지](../../automation/workflow/data-loading-file.md)에서 **데이터 로드(파일)** 활동에 대해 자세히 알아보세요.
+   **이 페이지**&#x200B;에서 [데이터 로드(파일)](../../automation/workflow/data-loading-file.md) 활동에 대해 자세히 알아보세요.
 
 1. **데이터 업데이트** 활동을 편집하고 아래 샘플에 따라 설정을 정의합니다. **업데이트된 차원**&#x200B;이 `Operators (xtk)`(으)로 변경되었습니다.
 
    ![](assets/update-data-activity.png){width="70%"}
 
-   [이 페이지](../../automation/workflow/update-data.md)에서 **데이터 업데이트** 활동에 대해 자세히 알아보기
+   **이 페이지**&#x200B;에서 [데이터 업데이트](../../automation/workflow/update-data.md) 활동에 대해 자세히 알아보기
 
 1. 워크플로우를 실행하고 결과를 확인합니다. 운영자의 프로필에 이메일 주소를 추가했습니다.
 
