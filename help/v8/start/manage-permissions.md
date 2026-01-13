@@ -107,7 +107,7 @@ Adobe Campaign에는 Adobe에서 환경을 활성화할 때 정의된 기본 제
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL Administrator]** 역할은 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 부여합니다. 이름에 &quot;admin&quot;이라는 단어가 포함된 Adobe Admin Console의 모든 제품 프로필(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등)은 Campaign 컨트롤 패널에 대한 액세스 권한을 부여합니다. [Campaign 컨트롤 패널 액세스 관리](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}에 대해 자세히 알아보세요.
+   >**[!UICONTROL Administrator]** 역할은 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 부여합니다. 이름에 &quot;admin&quot;이라는 단어가 포함된 Adobe Admin Console의 모든 제품 프로필(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등)은 Campaign 컨트롤 패널에 대한 액세스 권한을 부여합니다. [Campaign 컨트롤 패널 액세스 관리](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL Delivery operators]**(게재)
 
