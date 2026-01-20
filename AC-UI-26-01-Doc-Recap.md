@@ -18,7 +18,7 @@ ht-degree: 5%
 | DOCAC 검토 | 3 |
 | DOCAC 닫기 | 5 |
 
----
+&#x200B;---
 
 ## 📋 설명서 작업 계획
 
@@ -43,7 +43,7 @@ ht-degree: 5%
 | [NEO-91563](https://jira.corp.adobe.com/browse/NEO-91563) | 🔴 없음 | [DOCAC-13825](https://jira.corp.adobe.com/browse/DOCAC-13825) | ❌ 닫기 |
 | [NEO-92151](https://jira.corp.adobe.com/browse/NEO-92151) | 🔴 없음 | [DOCAC-13823](https://jira.corp.adobe.com/browse/DOCAC-13823) | ❌ 닫기 |
 
----
+&#x200B;---
 
 ## ⚠️ 주의 필요
 
