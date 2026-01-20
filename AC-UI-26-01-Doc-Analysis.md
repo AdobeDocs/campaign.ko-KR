@@ -50,7 +50,7 @@ ht-degree: 0%
 
 **컨텍스트:** 고객 기반(H&amp;M), ACS-ACC 패리티 요구 사항
 
-**참조:** [ACS 설명서](https://experienceleague.adobe.com/en/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
+**참조:** [ACS 설명서](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
 
 &#x200B;---
 
@@ -134,7 +134,7 @@ AEM 통합 간소화를 통해 AEM 게재 템플릿에서 라이브 카피 및 �
 
 **컨텍스트:** Microsoft 요구 사항, 작업이 Himanshu 팀으로 전송됨
 
-**참조:** [ACS 설명서](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html)
+**참조:** [ACS 설명서](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html?lang=ko)
 
 &#x200B;---
 
@@ -201,7 +201,7 @@ CSV 가져오기를 통해 다국어 푸시 알림 게재를 만들고 ACS 기�
 
 **컨텍스트:** 고객 기반(H&amp;M), ACS에서 ACC로의 패리티, 마이그레이션에 중요
 
-**참조:** [ACS 설명서](https://experienceleague.adobe.com/en/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
+**참조:** [ACS 설명서](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
 
 &#x200B;---
 
@@ -278,7 +278,7 @@ CSV 가져오기를 통해 다국어 푸시 알림 게재를 만들고 ACS 기�
 
 **컨텍스트:** 고객 중심(Pierre Fabre), Microsoft 요구 사항, 개발 완료 및 테스트 중
 
-**참조:** [클래식 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval), [그림 목마](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
+**참조:** [클래식 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval), [그림 목마](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
 
 &#x200B;---
 
