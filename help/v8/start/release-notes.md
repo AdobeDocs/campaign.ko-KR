@@ -34,7 +34,7 @@ _2026년 1월 27일_
 * 콘텐츠 실험 - A/B 테스트
 * 지속적인 게재 활동
 
-Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}를 참조하세요.
+Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko){target="_blank"}를 참조하세요.
 
 ### 보안 개선 사항 {#security-8-9-1}
 
