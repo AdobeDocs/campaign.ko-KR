@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: 6693bb8a62c0d126b871dc24a75b76de71b86f8d
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ PushEvents 사용 예:
 </urn:PushEvents>
 ```
 
-**`<rtevent>`** 및 **`<batchevent>`** 요소에는 특성 집합과 메시지 데이터 통합을 위한 필수 자식 요소 **`<ctx>`**&#x200B;이(가) 있습니다.
+**`<rtevent>`** 및 **`<batchEvent>`** 요소에는 특성 집합과 메시지 데이터 통합을 위한 필수 자식 요소 **`<ctx>`**&#x200B;이(가) 있습니다.
 
 >[!NOTE]
 >
->**`<batchevent>`** 요소를 사용하면 이벤트를 &quot;일괄 처리&quot; 큐에 추가할 수 있습니다. **`<rtevent>`**&#x200B;이(가) 이벤트를 &quot;실시간&quot; 큐에 추가합니다.
+>**`<batchEvent>`** 요소를 사용하면 이벤트를 &quot;일괄 처리&quot; 큐에 추가할 수 있습니다. **`<rtevent>`**&#x200B;이(가) 이벤트를 &quot;실시간&quot; 큐에 추가합니다.
 
-**`<rtevent>`** 및 **`<batchevent>`** 요소의 필수 특성은 @type 및 @email. @type 값은 실행 인스턴스를 구성할 때 정의된 항목별 목록 값과 동일해야 합니다. 이 값을 사용하면 게재 중에 이벤트의 콘텐츠에 연결할 템플릿을 정의할 수 있습니다.
+**`<rtevent>`** 및 **`<batchEvent>`** 요소의 필수 특성은 @type 및 @email. @type 값은 실행 인스턴스를 구성할 때 정의된 항목별 목록 값과 동일해야 합니다. 이 값을 사용하면 게재 중에 이벤트의 콘텐츠에 연결할 템플릿을 정의할 수 있습니다.
 
 `<rtevent> configuration example:`
 
