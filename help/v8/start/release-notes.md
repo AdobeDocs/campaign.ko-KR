@@ -3,10 +3,10 @@ title: Campaign v8 릴리스 정보
 description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 6693bb8a62c0d126b871dc24a75b76de71b86f8d
+source-git-commit: 981fa2029528cac5806da7c39aec3a2e6de0bf56
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 21%
+source-wordcount: '733'
+ht-degree: 20%
 
 ---
 
@@ -28,14 +28,14 @@ _2026년 1월 27일_
 
 이 릴리스에는 Campaign 웹 사용자 인터페이스에서 사용할 수 있는 기능 집합이 포함되어 있습니다.
 
-* [GA(다국어 게재 기능)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ko){target="_blank"}
-* [트랜잭션 메시지(GA)의 프로필 보강](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ko){target="_blank"}
-* [Adobe Experience Manager 라이브 및 언어 사본](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=ko){target="_blank"}
-* [콘텐츠 실험 - A/B 테스트](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=ko)
-* [연속 게재 활동](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=ko)
-* [캠페인 승인 관리](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=ko)
+* [GA(다국어 게재 기능)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [트랜잭션 메시지(GA)의 프로필 보강](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager 라이브 및 언어 사본](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [콘텐츠 실험 - A/B 테스트](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [연속 게재 활동](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [캠페인 승인 관리](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
-Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko){target="_blank"}를 참조하세요.
+Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}를 참조하세요.
 
 ### 보안 개선 사항 {#security-8-9-1}
 
@@ -84,3 +84,4 @@ Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campa
 * FFDA 배포의 수신자 테이블에서 느린 쿼리를 최적화했습니다. (NEO-89268)
 * 증분 쿼리 활동이 구성된 일정을 무시하는 문제를 해결했습니다. (NEO-89317)
 * 하이브리드 환경에서 캠페인을 열 때 발생하는 액세스 오류를 해결했습니다. (NEO-89320)
+* 추적 통계가 콘솔과 비교하여 다른 값을 표시하는 Campaign 웹 UI 보고서의 불일치를 수정했습니다. 이제 추적 표시기, 전송 요약 및 URL 클릭 스트림 보고서에 두 인터페이스에서 일관된 지표가 표시됩니다. (NEO-82339)
