@@ -3,10 +3,10 @@ title: Campaign v8 릴리스 정보
 description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 981fa2029528cac5806da7c39aec3a2e6de0bf56
+source-git-commit: 4fe8b8eaf88f763e796dbe06ef3c1477de12bad6
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 20%
+source-wordcount: '921'
+ht-degree: 18%
 
 ---
 
@@ -28,14 +28,14 @@ _2026년 1월 27일_
 
 이 릴리스에는 Campaign 웹 사용자 인터페이스에서 사용할 수 있는 기능 집합이 포함되어 있습니다.
 
-* [GA(다국어 게재 기능)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ko){target="_blank"}
-* [트랜잭션 메시지(GA)의 프로필 보강](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ko){target="_blank"}
-* [Adobe Experience Manager 라이브 및 언어 사본](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=ko){target="_blank"}
-* [콘텐츠 실험 - A/B 테스트](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=ko){target="_blank"}
-* [연속 게재 활동](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=ko){target="_blank"}
-* [캠페인 승인 관리](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=ko){target="_blank"}
+* [GA(다국어 게재 기능)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [트랜잭션 메시지(GA)의 프로필 보강](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager 라이브 및 언어 사본](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [콘텐츠 실험 - A/B 테스트](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [연속 게재 활동](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [캠페인 승인 관리](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
-Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko){target="_blank"}를 참조하세요.
+Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}를 참조하세요.
 
 ### 보안 개선 사항 {#security-8-9-1}
 
@@ -52,36 +52,43 @@ Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campa
 
 ### 수정 사항 {#fixes-8-9-1}
 
-* 특정 열로 그룹화할 때 동적 보고서에 잘못된 카운트가 표시되는 문제를 수정했습니다. (NEO-86898)
-* 동적 보고서와 실제 캠페인 데이터 간의 데이터 불일치가 해결되었습니다. (NEO-88068)
-* 쿼리에 예기치 않은 결과를 발생시키는 PostgreSQL &quot;char&quot; 필드 유형의 연결 문제를 해결했습니다. (NEO-87769)
-* JavaScript logInfo 명령이 특정 매개 변수를 제대로 처리하지 못하는 문제가 해결되었습니다. (NEO-88263)
-* 메시지 센터 실시간 이벤트 처리에서 동기화 중단 문제가 해결되었습니다. (NEO-88330)
-* 비주얼 편집기에서 자동으로 HTML 콘텐츠 형식이 변경되어 레이아웃이 변경되는 문제가 해결되었습니다. (NEO-88409)
-* 중복 제거 활동이 임시 스키마에서 제대로 작동하지 않는 문제를 해결했습니다. (NEO-88577)
-* 증명을 보낼 때 시드 주소가 생성되지 않던 문제를 수정했습니다. (NEO-88720)
-* 파티션 열 처리를 최적화하여 PostgreSQL 쿼리 성능이 개선되었습니다. (NEO-88771)
-* 파일 전송 활동에서 줄 연속 문자를 제대로 처리하지 못하는 문제가 해결되었습니다. (NEO-88812)
-* 대규모 데이터 세트에서 더 나은 성능을 위해 PostgreSQL 쿼리 최적화를 개선했습니다. (NEO-88885)
-* 하이브리드 캠페인이 열리지 않도록 하는 &quot;권한 거부&quot; 오류를 수정했습니다. (NEO-88955)
-* 더 긴 텍스트 문자열을 처리하기 위해 바코드 기능 지원을 확장했습니다. (NEO-88958)
-* 반복 게재에서 증명을 사용할 때 발생한 캠페인 로그 오류를 수정했습니다. (NEO-88976)
-* 특정 시나리오에서 이메일 전송 작업에 영향을 주는 문제를 해결했습니다. (NEO-89019)
-* 워크플로우 시작 모드가 즉시 (으)로 예기치 않게 변경되는 문제를 해결했습니다. (NEO-89025)
-* 특정 조건에서 데이터 업데이트 활동을 실행할 때 발생한 오류를 수정했습니다. (NEO-89031)
-* 데이터 업데이트 활동이 사용자 지정 스키마 메타데이터를 잃는 문제를 해결했습니다. (NEO-89056)
-* 게재를 준비하는 동안 발생한 유효성 검사 오류를 수정했습니다. (NEO-89063)
-* 쿼리에 1-1 링크 관계에 대한 필터가 포함된 경우 잘못된 SQL 생성이 해결되었습니다. (NEO-89065)
-* 증분 쿼리 활동이 구성된 크기 제한을 준수하지 않던 문제를 수정했습니다. (NEO-89066)
-* 대규모 작업을 위한 FFDA 배포의 워크플로우 성능이 개선되었습니다. (NEO-89098)
-* 워크플로우 프로세스를 위한 메모리 관리 및 안정성을 개선했습니다. (NEO-89105)
-* 데이터 불일치를 방지하기 위해 웹 양식에 대해 엄격한 열 유효성 검사를 활성화했습니다. (NEO-89111)
-* 처리 지연을 초래한 메시지 센터 동기화 문제가 해결되었습니다. (NEO-89138)
-* &quot;게재 능력을 위해 새로 고침&quot; 워크플로우에서 제대로 실행되지 않는 오류를 해결했습니다. (NEO-89160)
-* 워크플로우에서 JavaScript 코드 활동을 실행할 때 발생하는 오류를 수정했습니다. (NEO-89169)
-* 적절한 외부 계정 설정을 허용하도록 하드코딩된 Snowflake 웨어하우스 구성이 제거되었습니다. (NEO-89201)
-* 워크플로우 파일 전송 작업 중 발생한 403 금지된 오류를 수정했습니다. (NEO-89226)
-* FFDA 배포의 수신자 테이블에서 느린 쿼리를 최적화했습니다. (NEO-89268)
-* 증분 쿼리 활동이 구성된 일정을 무시하는 문제를 해결했습니다. (NEO-89317)
-* 하이브리드 환경에서 캠페인을 열 때 발생하는 액세스 오류를 해결했습니다. (NEO-89320)
+* sysFilter 변경 후 데이터베이스 구조를 업데이트할 수 없는 문제가 해결되었습니다. (NEO-93306)
+* 마이그레이션 후 동적 보고서 데이터가 누락되는 문제를 해결했습니다. (NEO-92962)
+* 게재 상태가 올바르게 업데이트되지 않는 문제를 해결했습니다. (NEO-92908)
+* Databricks FDA USE CATALOG 제한에 대한 해결 방법을 추가했습니다. (NEO-92900)
+* 비주얼 편집기가 Outlook Windows 데스크톱에서 HTML 레이아웃을 중단하던 문제를 해결했습니다. (NEO-92611)
+* 업그레이드 후 게재 기본 키가 중간 인스턴스에 복제되는 중요한 데이터 무결성 문제를 해결했습니다. (NEO-92424)
+* 게재의 추적 및 이미지 대화 상자에서 링크를 비활성화할 수 없는 문제를 해결했습니다. (NEO-92381)
+* nms.subscription.RecipientSubscribe() 함수가 일괄 구독에 대해 작동하지 않던 문제를 수정했습니다. (NEO-92308)
+* 업그레이드 후 게재 부분이 누락되어 게재 실패가 발생하는 문제를 해결했습니다. (NEO-92278)
+* 추적 워크플로우의 문제를 해결했습니다. (NEO-92239)
+* 워크플로우를 사용하여 목록을 만든 후 목록 XML에서 임시 열거형 참조가 누락되는 문제를 해결했습니다. (NEO-91158)
+* RT 게시/게시 취소 대화 상자가 닫히지 않고 정지되지 않던 문제를 수정했습니다. (NEO-91038)
+* &quot;서비스 공급자가 고려함&quot; 상태로 남아 있는 수신자가 모멘텀에 도달하지 못하는 문제를 해결했습니다. (NEO-90927)
+* 옵트아웃 링크용 v8에서 (구독 취소) 원본 이 누락되는 문제를 수정했습니다. (NEO-90714)
+* 쿠폰을 추가하면 게재 준비가 실패하는 문제를 수정했습니다. (NEO-90547)
+* [거부 카운트 삽입]이 [감사] 탭에 정확하게 반영되지 않던 문제를 수정했습니다. (NEO-90318)
+* 애플리케이션 서비스 거부를 초래할 수 있는 보안 문제를 해결했습니다. (NEO-89984)
+* 다운로드한 Hotclick 보고서의 PDF이 손상되는 문제가 해결되었습니다. (NEO-89954)
+* 업그레이드 후 발생한 SSL 오류를 해결했습니다. 오류를 읽는 동안 예기치 않은 EOF가 발생했습니다. (NEO-89108)
+* 업그레이드 후 데이터 스키마에서 데이터를 쿼리할 수 없는 문제를 해결했습니다. (NEO-88663)
+* PostgreSQL 15에서 &quot;char&quot; 필드를 연결할 때 발생하는 오류를 수정했습니다. (NEO-88028)
+* 템플릿을 저장하거나 복제할 때 게재 템플릿 변수의 순서가 변경되던 문제를 수정했습니다. (NEO-87845)
+* 새 데이터 라이브러리 스키마를 만들어 웹 인터페이스가 충돌하는 문제를 해결했습니다. (NEO-87816)
+* 중복 제거 활동의 보조 세트 세그먼트 코드가 작동하지 않는 문제를 해결했습니다. (NEO-87711)
+* X11 종속성 없이 설치 패키지에 대한 요청을 해결했습니다. (NEO-87471)
+* 세그먼트 코드를 동적 보고서에 사용할 수 없던 문제를 수정했습니다. (NEO-87276)
+* 데이터 업데이트 활동에서 워크플로우가 중단되는 문제를 해결했습니다. (NEO-87252)
+* BigQuery에서 잘못된 시간대를 사용하는 문제가 수정되었습니다. (NEO-86622)
+* &#39;mcSynch_mcExec1/jsReplicateUrl&#39; 스크립트를 평가하는 동안 발생한 JavaScript 오류를 수정했습니다. (NEO-86553)
+* 식별자 계산 메서드로 인해 eventHisto 테이블에 중복 이벤트가 발생하는 문제가 해결되었습니다. (NEO-86544)
+* 복사 시 iOS 푸시에 대한 고급 탭이 표시되지 않는 문제를 해결했습니다. (NEO-86231)
+* 참조 테이블 복제 워크플로우가 nms:delivery 스키마를 복제하지 못하는 문제를 해결했습니다. (NEO-85884)
+* 게재를 보내는 동안 MXIP 주소에 해당하는 null 도메인 오류가 오류 로그에 표시되는 문제를 수정했습니다. (NEO-85238)
+* 옵션에 대한 변경 내용이 적용된 후 기술 게재 템플릿을 새로 고치는 방법이 추가되었습니다. (NEO-84149)
+* 기본 청구 워크플로우의 오류를 수정했습니다. (NEO-83624)
+* 타깃팅된 레코드의 기본 키만 기준으로 중복 항목을 제외하는 문제가 해결되었습니다. (NEO-82910)
 * 추적 통계가 콘솔과 비교하여 다른 값을 표시하는 Campaign 웹 UI 보고서의 불일치를 수정했습니다. 이제 추적 표시기, 전송 요약 및 URL 클릭 스트림 보고서에 두 인터페이스에서 일관된 지표가 표시됩니다. (NEO-82339)
+* 데이터 업데이트 활동에서 레코드를 업데이트하지 않아도 마지막 수정 날짜가 변경되는 문제를 수정했습니다. (NEO-82002)
+* 목록에 새 속성을 추가하면 목록을 읽는 워크플로우가 실패하는 문제가 해결되었습니다. (NEO-80258)
+* 추적 지표 보고서에서 예외 항목을 해결했습니다. (NEO-79466)
