@@ -5,9 +5,9 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: a0aadd7e991dcceb5646f0afbc9cb1534e459e2c
+source-git-commit: 776a0e5eead9161b7e2c9d7746c72cba42ea42cb
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1280'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,7 @@ Adobe Campaign에서는 특정 프로세스를 활성화하고 실행하는 데 
 
 **바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는 데 사용할 수 있습니다.
 
-[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ko){target="_blank"}에서 인바운드 전자 메일에 대해 자세히 알아보세요.
+[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}에서 인바운드 전자 메일에 대해 자세히 알아보세요.
 
 ![](assets/bounce_external_1.png)
 
@@ -101,7 +101,7 @@ Microsoft OAuth 2.0을 사용하여 외부 POP3을 구성하려면 **[!UICONTROL
 >
 >Adobe Campaign v8과 호환되는 외부 데이터베이스는 [호환성 매트릭스](../start/compatibility-matrix.md)에 나열되어 있습니다. FDA 연결은 ODBC 드라이버를 사용합니다. Adobe Campaign Managed Cloud Services의 경우 ODBC 드라이버와 외부 계정 구성은 Adobe에 의해 설정됩니다.
 
-외부 계정 구성 설정은 데이터베이스 엔진에 따라 다릅니다. Adobe Campaign Managed Cloud Services을 사용하면 Adobe에서 외부 계정 구성을 수행합니다. [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}에서 이 구성에 대해 자세히 알아보세요.
+외부 계정 구성 설정은 데이터베이스 엔진에 따라 다릅니다. Adobe Campaign Managed Cloud Services을 사용하면 Adobe에서 외부 계정 구성을 수행합니다. [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}에서 이 구성에 대해 자세히 알아보세요.
 
 #### 데이터 블록 외부 계정 {#databricks-external-accounts}
 
@@ -113,7 +113,7 @@ Campaign의 서비스 사용자를 통해 OAuth2 인증을 구성하려면 다�
 
 1. Databricks 작업 영역 관리자는 Databricks 작업 영역에서 서비스 주도자를 활성화하고 자격 증명을 생성합니다. OAuth를 통해 Azure Databricks 리소스에 대한 액세스를 승인하려면 OAuth 비밀(인증을 위한 OAuth 액세스 토큰을 생성하는 데 사용됨)을 만듭니다.
 2. Adobe Campaign에서 Databricks 외부 계정을 만들거나 편집하고 **OAuth** 탭을 엽니다.
-3. 자격 증명을 Databricks 외부 계정의 OAuth 탭에 있는 **암호** 필드에 붙여넣습니다.
+3. 자격 증명을 Databricks 외부 계정의 OAuth 탭의 필드에 붙여넣습니다.
 4. **[!UICONTROL Test the connection]**&#x200B;을(를) 사용하여 구성의 유효성을 검사합니다.
 
 ### X(이전 Twitter라고 함) {#twitter-external-account}
@@ -137,7 +137,7 @@ Campaign의 서비스 사용자를 통해 OAuth2 인증을 구성하려면 다�
 
 ## 외부 계정 데이터 전송 {#transfer-data-external-accounts}
 
-이러한 외부 계정은 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보내는 데 사용할 수 있습니다. **이 페이지**&#x200B;에서 워크플로우의 [파일 전송](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+이러한 외부 계정은 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보내는 데 사용할 수 있습니다. **이 페이지**&#x200B;에서 워크플로우의 [파일 전송](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}에 대해 자세히 알아보세요.
 
 * **FTP 및 SFTP** - **FTP** 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 SFTP 또는 FTP 서버와 같은 외부 시스템과의 연결을 설정하려면 고유한 외부 계정을 만들 수 있습니다.
 
@@ -145,7 +145,7 @@ Campaign의 서비스 사용자를 통해 OAuth2 인증을 구성하려면 다�
 
   >[!NOTE]
   >
-  >이제 릴리스 8.5부터 SFTP 외부 계정을 구성할 때 개인 키를 사용하여 안전하게 인증할 수 있습니다. [키 관리에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ko){target="_blank"}.
+  >이제 릴리스 8.5부터 SFTP 외부 계정을 구성할 때 개인 키를 사용하여 안전하게 인증할 수 있습니다. [키 관리에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
 
 * **Amazon Simple Storage Service(S3)** - **AWS S3** 커넥터를 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 이 새 외부 계정을 설정할 때 다음 세부 사항을 제공해야 합니다.
 
@@ -165,7 +165,7 @@ Campaign의 서비스 사용자를 통해 OAuth2 인증을 구성하려면 다�
 
    * **[!UICONTROL Encryption]**: 암호화 유형: **[!UICONTROL None]** 또는 **[!UICONTROL SSL]**.
 
-   * **[!UICONTROL Access key]**: **[!UICONTROL Access key]** Microsoft 설명서[에서 &#x200B;](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}을(를) 찾는 방법에 대해 알아보세요.
+   * **[!UICONTROL Access key]**: **[!UICONTROL Access key]** Microsoft 설명서[에서 ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}을(를) 찾는 방법에 대해 알아보세요.
 
 * **Microsoft 패브릭** - **Microsoft 패브릭** 외부 계정을 사용하면 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Microsoft 패브릭과 Adobe Campaign 간에 데이터를 가져오고 내보낼 수 있습니다. 이 통합을 구성하려면 다음 세부 정보를 제공합니다.
 
