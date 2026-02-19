@@ -1,19 +1,21 @@
 ---
 title: Campaign 향상된 보안 추가 기능
-description: Campaign 향상된 보안 추가 기능 시작
+description: Campaign 향상된 보안 추가 기능에 대한 보안 구성 지침
 feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 3f36d7c425dd5a9a13e1de7a77371b29a462dbea
+source-git-commit: 925f8152d28f60f876c5ef4420064fa0d71cdb9d
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 3%
+source-wordcount: '743'
+ht-degree: 2%
 
 ---
 
 
 # Campaign 향상된 보안 추가 기능 {#enhanced-security}
+
+이 페이지는 Adobe v8용 [공개적으로 사용 가능한 권장 보안 구성 지침](security.md#public-guidance)의 일부입니다.
 
 네트워크 연결을 보다 안전하게 만들고 리소스에 향상된 보안을 제공하기 위해 [!DNL Adobe Campaign]에서는 새로운 **향상된 보안** 추가 기능을 제공합니다.
 
@@ -56,7 +58,7 @@ Campaign과 CMK 통합을 사용하려면 아래 단계를 따르십시오.
 1. Amazon EventBridge 규칙을 만들고 테스트하여 Adobe에서 키를 모니터링할 수 있습니다&#x200B;. [자세히 알아보기](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
 
 
-### 보호 기능 및 제한 사항 {#cmk-callouts}
+### 가드레일 및 제한 사항 {#cmk-callouts}
 
 Adobe Campaign v8과 CMK 통합에는 다음과 같은 보호 기능 및 제한 사항이 적용됩니다.
 
