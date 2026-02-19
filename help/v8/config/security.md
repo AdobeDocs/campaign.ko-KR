@@ -6,10 +6,10 @@ role: Developer
 level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
+source-git-commit: da2274cfd19bb067fcc1e990360093f161d5638a
 workflow-type: tm+mt
-source-wordcount: '2167'
-ht-degree: 67%
+source-wordcount: '2810'
+ht-degree: 52%
 
 ---
 
@@ -18,6 +18,22 @@ ht-degree: 67%
 Adobe에서는 디지털 경험에 대한 보안을 매우 중요하게 생각합니다. 보안 관행은 내부 소프트웨어 개발 및 운영 프로세스 및 도구에 깊이 배어있으며, 여러 분야의 다양한 팀이 협력하여 사건을 신속하게 예방, 감지 및 대응합니다.
 
 또한 파트너, 주요 연구원, 보안 연구 기관 및 기타 산업 조직과의 공동 작업을 통해 최신 위협 및 취약점을 최신 상태로 유지할 수 있으며, 고급 보안 기술을 제공하는 제품 및 서비스에 정기적으로 통합합니다.
+
+>[!NOTE]
+>
+>**Campaign v8 관리 클라우드 서비스:** 인프라(네트워크, 서버, TLS, 패치 작업)는 Adobe에서 관리합니다. 이 페이지에서는 사용자가 제어하는 테넌트 및 애플리케이션 수준 구성(액세스 관리, 인증, 인스턴스 설정, 데이터 보호, 코딩 및 운영 사례)에 중점을 둡니다.
+
+## 보안 검사 목록 {#security-checklist}
+
+이 체크리스트를 사용하여 구성을 권장 보안 기본값으로 맞춥니다.
+
+* [액세스 관리](#access-management): 보안 그룹 만들기, 적절한 권한 할당, 관리자 사용 제한, 사용자당 운영자 한 명, 정기적으로 검토
+* [인증 및 세션](#authentication-and-session): Adobe IMS, 강력한 ID 정책, 세션 시간 제한 사용
+* [인스턴스 및 네트워크 보안](#instance-and-network-security): Campaign 컨트롤 패널을 통한 IP 허용 목록, URL 권한, GPG 키
+* [데이터 및 PII 보호](#data-and-pii-protection): HTTPS, PII 보기 제한, 암호 제한, 중요 페이지 보호
+* [코딩 지침](#coding-guidelines): 하드 코딩된 암호가 없습니다. 입력, 매개 변수가 있는 SQL, captchas의 유효성을 검사합니다.
+* [데이터 제한](#data-restriction): 외부 계정의 암호 및 암호 필드에 대한 액세스를 제한합니다.
+* [운영 및 규정 준수](#operational-and-compliance): 이 기준선과 정기적으로 비교하려면 감사 추적을 사용하십시오
 
 ## 개인 정보
 
@@ -101,8 +117,8 @@ Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 �
 
 Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다.
 
-* 항상 수신자가 커뮤니케이션 수신에 동의하도록 합니다. 이를 위해서는 옵트아웃 요청을 최대한 빨리 준수하고 이중 옵트인 프로세스를 통해 동의를 확인하십시오. 자세한 내용은 [이중 옵트인](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}을 사용하여 구독 양식 만들기를 참조하십시오.
-* 사기성 목록을 가져와서 시드 주소로 사용하여 클라이언트 파일이 부정하게 사용되지 않고 있는지 확인하지 마십시오. 자세한 내용은 [시드 주소 정보](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}를 참조하십시오.
+* 항상 수신자가 커뮤니케이션 수신에 동의하도록 합니다. 이를 위해서는 옵트아웃 요청을 최대한 빨리 준수하고 이중 옵트인 프로세스를 통해 동의를 확인하십시오. 자세한 내용은 [이중 옵트인](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}을 사용하여 구독 양식 만들기를 참조하십시오.
+* 사기성 목록을 가져와서 시드 주소로 사용하여 클라이언트 파일이 부정하게 사용되지 않고 있는지 확인하지 마십시오. 자세한 내용은 [시드 주소 정보](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}를 참조하십시오.
 * 동의 및 권한 관리를 통해 수신자의 환경 설정을 추적할 수 있을 뿐만 아니라 조직 내에서 누가 어떤 데이터에 액세스할 수 있는지를 관리할 수 있습니다. 자세한 내용은 [이 섹션](#consent)을 참조하십시오.
 * 수신자의 개인 정보 보호 요청을 간편하게 지원하고 관리할 수 있습니다. 자세한 내용은 [이 섹션](#privacy-requests)을 참조하십시오.
 
@@ -123,7 +139,7 @@ Campaign의 주요 개인 정보 보호 기능과 여기에 관련된 페르소�
 
 * **동의 관리**: 구독 관리 프로세스를 통해 수신자의 환경 설정을 관리하고 어떤 수신자가 어떤 구독 유형을 옵트인했는지 추적할 수 있습니다. 자세한 내용은 [구독 정보](../../automation/workflow/subscription-services.md)를 참조하십시오.
 * **데이터 보존**: 모든 기본 제공 표준 로그 테이블에는 사전 설정된 보존 기간이 있으며 일반적으로 데이터 저장소를 6개월 이하로 제한합니다. 워크플로로 추가 보존 기간을 설정할 수 있습니다. 자세한 내용은 Adobe 컨설턴트나 기술 관리자에게 문의하십시오.
-* **권한 관리**: Adobe Campaign은 다양한 사전 설치 또는 사용자 지정 역할을 통해 다양한 캠페인 운영자에게 할당된 권한을 관리할 수 있는 기능을 제공합니다. 이를 통해 회사 내에서 다른 유형의 데이터에 액세스, 수정 또는 내보낼 수 있는 사용자를 관리할 수 있습니다. 자세한 내용은 [액세스 관리 정보](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}를 참조하십시오.
+* **권한 관리**: Adobe Campaign은 다양한 사전 설치 또는 사용자 지정 역할을 통해 다양한 캠페인 운영자에게 할당된 권한을 관리할 수 있는 기능을 제공합니다. 이를 통해 회사 내에서 다른 유형의 데이터에 액세스, 수정 또는 내보낼 수 있는 사용자를 관리할 수 있습니다. 자세한 내용은 [액세스 관리 정보](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}를 참조하십시오.
 
 ### 개인 정보 보호 요청 {#privacy-requests}
 
@@ -146,7 +162,7 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 * **session** 쿠키: **nlid** 쿠키에는 연락처로 보낸 전자 메일의 식별자&#x200B;**broadlogId**)와 메시지 템플릿의 식별자(**deliveryId**)가 포함됩니다. 이 URL은 연락처가 Adobe Campaign이 보낸 전자 메일에 포함된 URL을 클릭할 때 추가되며, 이를 통해 웹에서 해당 동작을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
 
 * **영구** 쿠키 2개:
-   * Adobe Experience Cloud 솔루션 간에 **UUID**(Universal Unique IDentifier) 쿠키가 공유됩니다. 새 값이 생성될 때 클라이언트 브라우저에서 사라질 때까지 한 번 설정됩니다. 이 쿠키를 사용하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 랜딩 페이지(알 수 없는 고객 활동을 수신자에게 연결)나 게재를 통해 보관할 수 있습니다. 이 쿠키의 설명은 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=ko#ec-cookies)에서 사용할 수 있습니다.
+   * Adobe Experience Cloud 솔루션 간에 **UUID**(Universal Unique IDentifier) 쿠키가 공유됩니다. 새 값이 생성될 때 클라이언트 브라우저에서 사라질 때까지 한 번 설정됩니다. 이 쿠키를 사용하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 랜딩 페이지(알 수 없는 고객 활동을 수신자에게 연결)나 게재를 통해 보관할 수 있습니다. 이 쿠키의 설명은 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html#ec-cookies)에서 사용할 수 있습니다.
    * **nllastdelid** 쿠키(Campaign Classic 20.3에서 도입됨)는 사용자가 링크를 클릭한 마지막 게재의 **deliveryId**&#x200B;가 포함된 영구 쿠키입니다. 이 쿠키는 세션 쿠키가 없을 때 사용될 추적 테이블을 식별하기 위해 사용됩니다.
 
 GDPR(일반 데이터 보호 규정)과 같은 규정에서는 회사가 쿠키를 설치하기 전에 웹 사이트 사용자의 계약을 요구하는 것을 명시합니다.
@@ -165,40 +181,60 @@ Adobe Campaign을 사용하면 보낸 이메일과 전달받는 사람의 동작
 >
 >웹 추적은 Campaign v8에서 사용할 수 없습니다. [이 페이지](../start/v7-to-v8.md#gs-unavailable-features)에서 사용할 수 없는 기능에 대해 자세히 알아보세요.
 
-<!--
-Privacy configuration and hardening is a key element of security optimization. Here are some best practices to follow regarding privacy:
+## 데이터 및 PII 보호 {#data-and-pii-protection}
 
-* Protect your customer Personal Information (PI) by using HTTPS instead of HTTP
-* Use [PI view restriction](../dev/restrict-pi-view.md) to protect privacy and prevent data from being misused
-* Make sure that encrypted passwords are restricted
-* Protect the pages that might contain personal information such as mirror pages, web applications, etc.
--->
+개인 정보 보호 구성 및 강화는 보안 최적화의 핵심 요소입니다. 다음 모범 사례를 따르십시오.
+
+* **모든 끝점에 HTTPS 사용** - Campaign에서 사용하는 모든 끝점(추적, 미러 페이지, 웹 응용 프로그램, API)이 HTTPS를 통해 제공되는지 확인합니다.
+* **PII 보기 제한** - 권한이 있는 운영자만 스키마와 화면에서 중요한 필드(예: 이메일, 휴대폰)를 볼 수 있도록 [PII 보기 제한](../dev/restrict-pi-view.md)을 사용합니다.
+* **암호화된 암호에 대한 액세스 제한** - 관리자 또는 최소 운영자 집합만 볼 수 있도록 외부 계정 및 기타 스키마의 암호 및 암호 필드에 대한 액세스를 제한합니다. 아래의 [데이터 제한](#data-restriction)을 참조하세요.
+* **중요한 페이지 보호** - PII를 표시하거나 수집하는 미러 페이지, 웹 응용 프로그램 및 랜딩 페이지에 대한 액세스를 제한하고, 연산자 및 폴더 권한을 사용하며, 적절한 경우 captchas 및 동의를 사용합니다.
 
 >[!NOTE]
 >
 >Adobe은 Managed Cloud Services 사용자의 경우 사용자와 협력하여 환경에 이러한 구성을 구현합니다.
 
+## 액세스 관리 {#access-management}
 
-## 액세스 관리
+액세스 관리는 보안 강화의 중요한 부분입니다. 주요 모범 사례는 다음과 같습니다.
 
-액세스 관리는 보안 강화의 중요한 부분입니다. 다음은 몇 가지 주요 모범 사례입니다.
+* **충분한 보안 그룹을 만듭니다** - 역할과 일치하는 연산자 그룹을 정의하고 각 역할에 필요한 권한만 할당합니다.
+* **각 연산자에게 적절한 액세스 권한이 있는지 확인** - 최소 권한의 원칙을 적용합니다. 기본적으로 ADMINISTRATION 또는 기타 광범위한 권한을 부여하지 마십시오.
+* **관리자 연산자를 사용하지 말고 관리자 그룹에 연산자가 너무 많지 않도록 하십시오** - 기본 제공 관리자 계정을 공유하지 마십시오. 책임 및 감사를 위해 실제 사용자당 한 명의 연산자를 만드십시오.
+* **실제 사용자당 한 명의 연산자** - 계정을 공유하지 않습니다. 감사 추적 및 로그가 부여되도록 1인당 1개의 Campaign 운영자(Adobe ID)를 만듭니다.
+* **높은 권한으로 명명된 권한 제한** - 신뢰할 수 있는 소수의 연산자에게만 **관리**, **프로그램 실행**(createProcess) 및 **SQL**&#x200B;을 부여합니다. 해당 연산자의 이름과 이유를 문서화합니다.
+* **정기적으로 액세스 검토** - 운영자, 운영자 그룹 및 폴더 권한을 정기적으로 검토합니다. 역할이 변경되거나 사용자가 나가면 액세스를 제거하거나 줄이세요.
+* **제품 프로필을 일관되게 사용** - Admin Console에서 제품 프로필(운영자 그룹)에 사용자를 할당하는 것을 선호하고, 이름을 일관되게 유지합니다(예: `campaign - <instance> - <group>`). [사용 권한 시작](../start/gs-permissions.md)을 참조하세요.
+* **Campaign 컨트롤 패널 액세스** - Campaign v8에서 이름에 &quot;admin&quot;이 포함된 제품 프로필 또는 명명된 권한은 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 부여할 수 있습니다. 해당 사용자에게 Campaign 컨트롤 패널 액세스 권한이 있어야 하는 경우가 아니면 프로필 또는 그룹 이름에 &quot;admin&quot;을 사용하지 마십시오.
 
-* 충분한 보안 그룹 만들기
-* 각 운영자에게 적절한 액세스 권한이 있는지 확인합니다
+[이 섹션](../start/gs-permissions.md)에서 권한에 대해 자세히 알아보십시오.
 
-[이 섹션](../start/gs-permissions.md)에서 사용 권한에 대해 자세히 알아보기
+## 인증 및 세션 {#authentication-and-session}
 
-## 코딩 지침
+* **Adobe IMS 사용** - 모든 사용자는 Adobe ID(IMS)로 로그인해야 합니다. 일상적인 연산자를 위해 기존 로그인/암호를 사용하지 마십시오.
+* **강력한 ID 및 암호 정책 사용** - MFA 및 암호 정책에 대해 Admin Console 또는 ID 공급자를 사용합니다. 인증된 사용자만 Campaign 제품 프로필에 할당되도록 하십시오.
+* **세션 시간 제한 구성** - 구성 가능한 경우(예: 클라이언트 콘솔) 적절한 세션 시간 제한을 설정하고 워크스테이션에서 나갈 때 화면을 잠급니다.
+
+## 인스턴스 및 네트워크 보안 {#instance-and-network-security}
+
+Campaign v8 제품 관리자는 [Campaign Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target="_blank"}을(를) 사용하여 인스턴스 수준 보안을 관리합니다.
+
+* **IP 허용 목록** - 인스턴스 액세스에 대한 IP 허용 목록을 관리합니다. 알려진 네트워크(예: 사무실, VPN)로 제한하고 가능한 경우 범위가 너무 넓어지지 않도록 합니다.
+* **URL 권한** - 서버측 요청 남용 위험을 줄이기 위해 인스턴스가 호출해야 하는 도메인(API, 추적, 외부 서비스)에 대해 URL 권한을 제한합니다.
+* **GPG 키** - 파일 전송 또는 기타 사용 사례에 암호화를 사용하는 경우 Campaign 컨트롤 패널을 통해 GPG 키를 관리하고 보안 정책에 따라 키를 회전합니다.
+
+## 코딩 지침 {#coding-guidelines}
 
 Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항상 다음 지침을 따르십시오.
 
-* **스크립팅**: SQL 문을 사용하지 않도록 하고, 문자열 연결 대신 매개 변수가 있는 함수를 사용하고, 허용 목록에 사용할 SQL 함수를 추가하여 SQL 삽입을 방지하십시오.
+* **스크립팅** - 원시 SQL을 사용하지 마십시오. 문자열 연결 대신 매개 변수가 있는 함수를 사용하십시오. 허용 목록에 필요한 SQL 함수만 추가하여 SQL 삽입을 방지합니다.
+* **데이터 모델 보안** - 명명된 권한을 사용하여 연산자 작업을 제한하고 시스템 필터(sysFilter)를 추가하십시오.
+* **웹 응용 프로그램에 CAPTCHA 추가** - 공용 랜딩 페이지 및 구독 페이지에 CAPTCHA를 추가합니다.
+* **암호를 하드코딩하지 마십시오** - 워크플로, JavaScript 또는 JSSP의 암호, API 키 또는 토큰을 하드코딩하지 마십시오. 외부 계정 또는 보안 구성을 사용하십시오.
+* **입력 유효성 검사 및 기밀 유지** - 웹 응용 프로그램 및 워크플로 매개 변수의 사용자 입력 유효성 검사 및 기밀 유지를 통해 주입 및 XSS 위험을 줄일 수 있습니다.
+* **SQL용 허용 목록 사용** - SQL 또는 스크립트 실행이 필요한 경우 허용된 SQL 함수에 허용 목록을 사용하고 문자열 연결을 통해 사용자 입력에서 쿼리를 작성하지 마십시오.
 
-* **데이터 모델 보안**: 명명된 권한을 사용하여 연산자 작업을 제한하고 시스템 필터(sysFilter)를 추가하십시오.
-
-* **웹 응용 프로그램에 captcha 추가**: 공개 랜딩 페이지 및 구독 페이지에 captcha를 추가합니다.
-
-자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ko#installing-campaign-classic){target="_blank"}를 참조하세요.
+자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}를 참조하세요.
 
 
 ## 개인화
@@ -211,7 +247,7 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항
 * `https://<%= sub-domain >.domain.tld/path`
 * `https://sub.domain<%= main domain %>/path`
 
-## 데이터 제한
+## 데이터 제한 {#data-restriction}
 
 권한이 낮은 인증된 사용자가 암호화된 암호에 액세스할 수 없도록 해야 합니다. 이를 위해 두 가지 기본 방법이 있습니다. 암호 필드에만 또는 전체 엔터티에 대한 액세스를 제한합니다.
 
@@ -273,24 +309,7 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항
    >
    >`$(loginId) = 0 or $(login) = 'admin'`을(를) `hasNamedRight('admin')`(으)로 바꾸면 관리자 권한이 있는 모든 사용자가 이러한 암호를 볼 수 있습니다.
 
+## 운영 및 규정 준수 {#operational-and-compliance}
 
-## 액세스 관리
-
-액세스 관리는 보안 강화의 중요한 부분입니다. 다음은 몇 가지 주요 모범 사례입니다.
-
-* 충분한 보안 그룹 만들기
-* 각 운영자에게 적절한 액세스 권한이 있는지 확인합니다
-
-[의 사용 권한에 대한 자세한 내용은 이 섹션](../start/gs-permissions.md)을 참조하세요.
-
-## 코딩 지침
-
-Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항상 다음 지침을 따르십시오.
-
-* **스크립팅**: SQL 문을 사용하지 않도록 하고, 문자열 연결 대신 매개 변수가 있는 함수를 사용하고, 허용 목록에 사용할 SQL 함수를 추가하여 SQL 삽입을 방지하십시오.
-
-* **데이터 모델 보안**: 명명된 권한을 사용하여 연산자 작업을 제한하고 시스템 필터(sysFilter)를 추가하십시오.
-
-* **웹 응용 프로그램에 captcha 추가**: 공개 랜딩 페이지 및 구독 페이지에 captcha를 추가합니다.
-
-자세한 내용은 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ko#installing-campaign-classic){target="_blank"}를 참조하세요.
+* **보안 기준선과 비교** - 연산자 그룹, 명명된 권한 및 폴더 권한을 주기적으로 이 페이지의 권장 사항과 비교하여(해당하는 경우 [향상된 보안 추가 기능](enhanced-security.md)) 권장 보안 기본값에 맞춥니다.
+* **감사 추적 사용** - 중요한 변경 사항(예: 워크플로우, 게재, 주요 구성)에 대해서는 Campaign의 감사 추적을 사용합니다. 규정 준수 및 보존 정책에 따라 로그를 유지하고 검토합니다.
