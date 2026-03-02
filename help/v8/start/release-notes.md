@@ -28,14 +28,14 @@ _2026년 1월 27일_
 
 이 릴리스에는 Campaign 웹 사용자 인터페이스에서 사용할 수 있는 기능 집합이 포함되어 있습니다.
 
-* [GA(다국어 게재 기능)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
-* [트랜잭션 메시지(GA)의 프로필 보강](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
-* [Adobe Experience Manager 라이브 및 언어 사본](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
-* [콘텐츠 실험 - A/B 테스트](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
-* [연속 게재 활동](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
-* [캠페인 승인 관리](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
+* [GA(다국어 게재 기능)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ko){target="_blank"}
+* [트랜잭션 메시지(GA)의 프로필 보강](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ko){target="_blank"}
+* [Adobe Experience Manager 라이브 및 언어 사본](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=ko){target="_blank"}
+* [콘텐츠 실험 - A/B 테스트](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=ko){target="_blank"}
+* [연속 게재 활동](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=ko){target="_blank"}
+* [캠페인 승인 관리](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=ko){target="_blank"}
 
-Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}를 참조하세요.
+Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko){target="_blank"}를 참조하세요.
 
 ### 보안 개선 사항 {#security-8-9-1}
 
