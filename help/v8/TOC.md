@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
+source-git-commit: a81ec247d3c44c06aad977c0c58ad7916d6aa2a6
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '844'
 ht-degree: 87%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 87%
       + [이메일에 파일 첨부](send/attaching-files.md)
    + SMS {#sms}
       + [SMS 시작](send/sms/sms.md)
-      + [SMS 커넥터](send/sms/sms-connectors.md)
+      + [SMS 커넥터 유형 기본 정보](send/sms/sms-connectors.md)
       + [SMS 채널 특성](send/sms/sms-channel.md)
       + [SMS 게재 만들기](send/sms/create-sms.md)
       + [콘텐츠 정의](send/sms/sms-content.md)
