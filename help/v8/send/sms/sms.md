@@ -5,10 +5,10 @@ feature: SMS
 role: User, Developer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 10%
+source-wordcount: '173'
+ht-degree: 12%
 
 ---
 
@@ -19,16 +19,15 @@ Adobe Campaign을 사용하여 모바일 장치에서 고객에게 문자 메시
 Adobe Campaign을 사용하여 모바일 장치에 SMS를 게재하려면 다음이 필요합니다.
 
 * **[!UICONTROL Mobile (SMS)]** 채널에 구성된 외부 계정입니다. [중간 소싱 인프라](sms-mid-sourcing.md)에서 SMS 채널을 구성하는 방법을 알아봅니다. 이 구성의 경우 [SMPP 외부 계정 매개 변수](smpp-external-account.md) 및 [SMS 채널 특성](sms-channel.md)을 이해해야 합니다.
-이 설정 후에 SMPP 연결을 확인하고 필요한 경우 문제를 해결하는 방법을 알아봅니다. [자세히 알아보기](smpp-connection.md)
+이 설정 후에 SMPP 연결을 확인하고 필요한 경우 문제를 해결하는 방법을 알아봅니다. [자세히 알아보기](smpp-connection.md).
 
 * 이 외부 계정에 올바르게 연결된 SMS 게재 템플릿입니다.
 
+Adobe Campaign은 고객에게 SMS 메시지를 전송하는 데 사용되는 2개의 SMS 커넥터를 지원합니다. [자세히 알아보기](sms-connectors.md).
 
 >[!NOTE]
 >
 >Adobe Campaign을 사용하여 [푸시 알림](../push.md) 및 [LINE](../line/line.md) 메시지를 모바일 장치로 보낼 수도 있습니다.
->
-> 기존 SMS 커넥터를 사용하는 고객의 경우 기존 구현이 계속 지원됩니다. 그러나 새 커넥터로 이동하는 것이 좋습니다. 전환하려면 Adobe에 문의하십시오.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
