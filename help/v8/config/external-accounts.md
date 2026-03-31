@@ -5,17 +5,17 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: d18c876de44b367c79abb04a65fce0698ff6ff78
+source-git-commit: fce4f85386c18d0919a85e938d3c1f2cca8d79b9
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 3%
+source-wordcount: '1758'
+ht-degree: 1%
 
 ---
 
 
 # 외부 계정 구성 {#config-external-accounts}
 
-Adobe Campaign에는 미리 정의된 외부 계정 집합이 포함되어 있습니다. 외부 시스템과의 연결을 설정하기 위해 새 외부 계정을 만들 수 있습니다.
+Adobe Campaign에는 사전 정의된 외부 계정 집합이 포함되어 있습니다. 외부 시스템과의 연결을 설정하려면 새 외부 계정을 만들 수 있습니다.
 
 외부 계정은 기술 워크플로 또는 캠페인 워크플로와 같은 기술 프로세스에서 사용됩니다. 예를 들어 워크플로우에서 파일 전송을 설정하거나 다른 애플리케이션(Adobe Target, Experience Manager 등)과의 데이터 교환을 설정할 때 외부 계정을 선택해야 합니다.
 
@@ -44,7 +44,7 @@ Adobe Campaign에서는 특정 프로세스를 활성화하고 실행하는 데 
 
 **바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는 데 사용할 수 있습니다.
 
-[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ko){target="_blank"}에서 인바운드 전자 메일에 대해 자세히 알아보세요.
+[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}에서 인바운드 전자 메일에 대해 자세히 알아보세요.
 
 ![](assets/bounce_external_1.png)
 
@@ -69,7 +69,7 @@ Adobe Campaign에서는 특정 프로세스를 활성화하고 실행하는 데 
 >Microsoft OAuth 2.0을 사용하여 POP3 외부 계정을 구성하기 전에 먼저 Azure 포털에 애플리케이션을 등록해야 합니다. 자세한 정보는 이 [페이지](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}를 참조하십시오.
 >
 
-Microsoft OAuth 2.0을 사용하여 외부 POP3을 구성하려면 **[!UICONTROL Microsoft OAuth 2.0]** 옵션을 선택하고 다음 필드를 채우십시오.
+Microsoft OAuth 2.0을 사용하여 POP3 외부 계정을 구성하려면 **[!UICONTROL Microsoft OAuth 2.0]** 옵션을 선택하고 다음 필드를 채우십시오.
 
 * **[!UICONTROL Azure tenant]** - Azure ID(또는 디렉터리(테넌트) ID)는 Azure 포털에 있는 응용 프로그램 개요의 **Essentials** 드롭다운에서 찾을 수 있습니다.
 
@@ -101,11 +101,37 @@ Microsoft OAuth 2.0을 사용하여 외부 POP3을 구성하려면 **[!UICONTROL
 >
 >Adobe Campaign v8과 호환되는 외부 데이터베이스는 [호환성 매트릭스](../start/compatibility-matrix.md)에 나열되어 있습니다. FDA 연결은 ODBC 드라이버를 사용합니다. Adobe Campaign Managed Cloud Services의 경우 ODBC 드라이버와 외부 계정 구성은 Adobe에 의해 설정됩니다.
 
-외부 계정 구성 설정은 데이터베이스 엔진에 따라 다릅니다. Adobe Campaign Managed Cloud Services을 사용하면 Adobe에서 외부 계정 구성을 수행합니다. [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}에서 이 구성에 대해 자세히 알아보세요.
+외부 계정 구성 설정은 데이터베이스 엔진에 따라 다릅니다. Adobe Campaign Managed Cloud Services을 사용하면 Adobe에서 외부 계정 구성을 수행합니다.
+
+Campaign 웹 사용자 인터페이스(v8)의 경우 다음을 참조하십시오.
+
+* [외부 계정 만들기](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/create-external-account){target="_blank"}
+* [외부 데이터베이스 계정](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database){target="_blank"}
+
+Campaign 웹 UI 페이지에서는 다음을 포함하여 **외부 데이터베이스** 공급자 유형의 보다 포괄적인 목록을 제공합니다.
+
+* **[Amazon Redshift](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#amazon-redshift){target="_blank"}** / **[Amazon Redshift(기존)](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#amazon-redshift-legacy){target="_blank"}** - AWS Redshift 클라우드 데이터 웨어하우스 환경에 Campaign 연결
+* **[Azure Synapse Analytics](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#azure-synapse-analytics){target="_blank"}** - Microsoft Azure Synapse 전용 SQL 풀에 Campaign 연결.
+* **[Databricks](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#databricks){target="_blank"}** - Campaign을 Databricks SQL 및 Lakehouse 워크로드에 연결합니다.
+* **[Google BigQuery](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#google-bigquery){target="_blank"}** - Campaign을 Google Cloud BigQuery 분석 데이터 세트에 연결합니다.
+* **[Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#microsoft-sql-server){target="_blank"}** - Campaign을 온-프레미스 또는 호스팅된 SQL Server 데이터베이스에 연결합니다.
+* **[MySQL](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#mysql){target="_blank"}** - 통합 쿼리 및 워크플로를 위해 Campaign을 MySQL 데이터베이스에 연결합니다.
+* **[Netezza](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#netezza){target="_blank"}** - IBM Netezza/성능 서버 시스템에 캠페인을 연결합니다.
+* **[ODBC(Sybase ASE, Sybase IQ)](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#odbc-sybase-ase-sybase-iq){target="_blank"}** - ODBC를 통해 Campaign을 Sybase 데이터베이스 엔진에 연결합니다.
+* **[원격 데이터베이스에 대한 HTTP 릴레이](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#http-relay-to-remote-database){target="_blank"}** - HTTP 릴레이 끝점을 통해 원격 데이터베이스에 연결합니다.
+* **[Oracle](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#oracle){target="_blank"}** - 페더레이션 액세스 사용 사례를 위해 Campaign을 Oracle 데이터베이스에 연결합니다.
+* **[PostgreSQL](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#postgresql){target="_blank"}** - FDA 외부 계정을 사용하여 Campaign을 PostgreSQL 데이터베이스에 연결합니다.
+* **[SAP HANA](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#sap-hana){target="_blank"}** - Campaign을 SAP HANA 메모리 내 데이터베이스 환경에 연결합니다.
+* **[Snowflake](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#snowflake){target="_blank"}** - Snowflake 클라우드 데이터 플랫폼 환경에 Campaign을 연결합니다.
+* **[Teradata](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#teradata){target="_blank"}** - Teradata 엔터프라이즈 데이터 웨어하우스 시스템에 Campaign을 연결합니다.
+* **[Vertica Analytics](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#vertica-analytics){target="_blank"}** - OpenText Vertica 분석 데이터베이스에 Campaign을 연결합니다.
+* **[Microsoft 패브릭](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#fabric){target="_blank"}** - Microsoft 패브릭 SQL 및 저장소 서비스에 Campaign을 연결합니다.
+
+기존 클라이언트 콘솔 세부 정보 및 추가 참조에 대해서는 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}를 참조하십시오.
 
 #### 데이터 블록 외부 계정 {#databricks-external-accounts}
 
-Databricks FDA 연결은 Databricks ODBC 드라이버를 사용합니다. Campaign v8.9.1부터 Databricks 외부 계정은 서비스 주체(비대화형 클라이언트 자격 증명 흐름)를 통해 OAuth2 인증을 지원하여 페더레이션 데이터 액세스에 대한 보안 인증을 제공합니다.
+Databricks FDA 연결은 Databricks ODBC 드라이버를 사용합니다. Campaign v8.9.1부터 Databricks 외부 계정은 서비스 주체(비대화형 클라이언트 자격 증명 흐름)를 통한 OAuth2 인증을 지원하여 페더레이션 데이터 액세스에 대한 보안 인증을 제공합니다.
 
 [Microsoft 설명서](https://learn.microsoft.com/en-us/azure/databricks/admin/users-groups/service-principals){target="_blank"}에서 서비스 주체에 대해 자세히 알아보세요.
 
@@ -148,7 +174,7 @@ Campaign에서 OAuth2 인증을 구성하려면 다음 단계를 수행하십시
 
 >[!CAUTION]
 >
->리디렉션 URL은 항상 HTTPS(포트 443)를 통해 Campaign 응용 프로그램 서버 컴퓨터의 `oauth.jsp`을(를) 대상으로 해야 합니다. 또한 OAuth를 사용할 때 밑줄이 있는 서버 도메인은 지원되지 않습니다. OAuth를 사용하려는 경우 밑줄 없이 서버 도메인을 사용하십시오.
+>리디렉션 URL은 항상 HTTPS(포트 443)를 통해 Campaign 응용 프로그램 서버 컴퓨터의 `oauth.jsp`을(를) 대상으로 해야 합니다. 또한 OAuth를 사용할 때 밑줄이 있는 서버 도메인은 지원되지 않습니다. OAuth를 사용하려면 밑줄 없이 서버 도메인을 사용하십시오.
 
 ### X(이전 Twitter라고 함) {#twitter-external-account}
 
@@ -171,7 +197,7 @@ Campaign에서 OAuth2 인증을 구성하려면 다음 단계를 수행하십시
 
 ## 외부 계정 데이터 전송 {#transfer-data-external-accounts}
 
-이러한 외부 계정은 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보내는 데 사용할 수 있습니다. **이 페이지**&#x200B;에서 워크플로우의 [파일 전송](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+이러한 외부 계정은 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보내는 데 사용할 수 있습니다. **이 페이지**&#x200B;에서 워크플로우의 [파일 전송](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}에 대해 자세히 알아보세요.
 
 * **FTP 및 SFTP** - **FTP** 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 SFTP 또는 FTP 서버와 같은 외부 시스템과의 연결을 설정하려면 고유한 외부 계정을 만들 수 있습니다.
 
@@ -179,9 +205,9 @@ Campaign에서 OAuth2 인증을 구성하려면 다음 단계를 수행하십시
 
   >[!NOTE]
   >
-  >이제 릴리스 8.5부터 SFTP 외부 계정을 구성할 때 개인 키를 사용하여 안전하게 인증할 수 있습니다. [키 관리에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ko){target="_blank"}.
+  >이제 릴리스 8.5부터 SFTP 외부 계정을 구성할 때 개인 키를 사용하여 안전하게 인증할 수 있습니다. [키 관리에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
 
-* **Amazon Simple Storage Service(S3)** - **AWS S3** 커넥터를 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 이 새 외부 계정을 설정할 때 다음 세부 사항을 제공해야 합니다.
+* **Amazon Simple Storage Service(S3)** - **AWS S3** 커넥터를 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 이 외부 계정을 설정할 때 다음 세부 정보를 제공해야 합니다.
 
    * **[!UICONTROL AWS S3 Account Server]**: `<S3bucket name>.s3.amazonaws.com/<s3object path>` 형식의 서버 URL입니다.
 
@@ -191,7 +217,7 @@ Campaign에서 OAuth2 인증을 구성하려면 다음 단계를 수행하십시
 
    * **[!UICONTROL AWS Region]**: [AWS 설명서](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}에서 Amazon 지역에 대해 자세히 알아보세요.
 
-   * **[!UICONTROL Use server side encryption]** 확인란을 사용하면 파일을 S3 암호화 모드로 저장할 수 있습니다. [Amazon 설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}에서 액세스 키 ID 및 비밀 액세스 키를 찾는 방법에 대해 알아봅니다.
+   * **[!UICONTROL Use server-side encryption]** 확인란을 사용하면 파일을 S3 암호화 모드로 저장할 수 있습니다. [Amazon 설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}에서 액세스 키 ID 및 비밀 액세스 키를 찾는 방법에 대해 알아봅니다.
 
 * **Azure Blob 저장소** - **Azure** 외부 계정을 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 통해 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. Adobe Campaign에서 작동하도록 **Azure** 외부 계정을 구성하려면 다음 세부 정보를 제공해야 합니다.
 
@@ -199,7 +225,7 @@ Campaign에서 OAuth2 인증을 구성하려면 다음 단계를 수행하십시
 
    * **[!UICONTROL Encryption]**: 암호화 유형: **[!UICONTROL None]** 또는 **[!UICONTROL SSL]**.
 
-   * **[!UICONTROL Access key]**: **[!UICONTROL Access key]** Microsoft 설명서[에서 &#x200B;](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}을(를) 찾는 방법에 대해 알아보세요.
+   * **[!UICONTROL Access key]**: **[!UICONTROL Access key]** Microsoft 설명서[에서 ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}을(를) 찾는 방법에 대해 알아보세요.
 
 * **Microsoft 패브릭** - **Microsoft 패브릭** 외부 계정을 사용하면 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Microsoft 패브릭과 Adobe Campaign 간에 데이터를 가져오고 내보낼 수 있습니다. 이 통합을 구성하려면 다음 세부 정보를 제공합니다.
 
