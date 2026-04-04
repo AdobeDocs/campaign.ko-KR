@@ -1837,7 +1837,7 @@ Adobe 지원 팀의 도움을 받고 인스턴스를 관리합니다.
 * **[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}** - 지원 사례 로그 및 사용자 관리
 * **[Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** - 지원 팀에 문의
 * **[Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target="_blank"}** - Campaign 인스턴스 설정 관리
-* **[시스템 상태](https://status.adobe.com/){target="_blank"}** - Adobe 서비스 상태 확인
+* **[시스템 상태](https://status.adobe.com/ko-kr/){target="_blank"}** - Adobe 서비스 상태 확인
 
 ### 교육 및 인증
 
