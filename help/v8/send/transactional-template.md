@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: a05b1d7d9b35f8d9189046fd4288d0b80f30967a
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 1%
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 ## 콘텐츠 만들기{#create-message-content}
 
-트랜잭션 메시지 콘텐츠의 정의는 Adobe Campaign의 모든 게재와 동일합니다. 예를 들어 이메일 게재의 경우 HTML 또는 텍스트 형식으로 콘텐츠를 만들거나, 첨부 파일을 추가하거나, 게재 개체를 개인화할 수 있습니다. [자세히 알아보기](../start/create-message.md)
+트랜잭션 메시지 콘텐츠의 정의는 Adobe Campaign의 모든 게재와 동일합니다. 예를 들어 이메일 게재의 경우 HTML 또는 텍스트 형식으로 콘텐츠를 만들거나, 첨부 파일을 추가하거나, 게재 개체를 개인화할 수 있습니다. [자세히 알아보기](../start/create-message.md).
 
 >[!CAUTION]
 >
@@ -86,7 +86,7 @@ ht-degree: 1%
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. 테스트 데이터를 삽입합니다. [Campaign Classic v7 설명서에서 개인화 데이터에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. 테스트 데이터를 삽입합니다. [Campaign Classic v7 설명서에서 개인화 데이터에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 
@@ -99,14 +99,13 @@ ht-degree: 1%
 주소가 생성되면 미리보기 및 개인화에 액세스할 수 있습니다.
 
 <!--
-
 ### Add personalization data{#personalization-data}
 
 You can add data in the message template to test transactional message personalization. This will allow you to generate a preview or send a proof. If you install the **Deliverability** module, this data allows you to display a rendering of the messages for various desktop, web or mobile clients.
 
 The purpose of this data is to test your messages before their final delivery. These messages do not coincide with actual data to be processed by Message Center.
 
-However, the XML structure must be identical to that of the event stored in the execution instance, as shown below. 
+However, the XML structure must be identical to that of the event stored in the execution instance, as shown below.
 
 ![](assets/messagecenter_create_custo_4.png)
 
@@ -175,11 +174,13 @@ This information enables you to personalize message content using personalizatio
 
 만든 메시지 템플릿 <!-- on the control instance-->이(가) 완료되면 게시할 수 있으며, 이를 통해 실시간 및 일괄 처리 이벤트에 연결된 메시지를 보낼 수 있습니다.
 
-<!--This process will also publish it on all execution instances.
+<!--
+This process will also publish it on all execution instances.
 
 NOTE: When publishing transactional message templates, typology rules are also automatically published on the execution instances.
 
-Publication lets you automatically create two message templates on the execution instances, which will allow you to send messages linked to real-time and batch events.-->
+Publication lets you automatically create two message templates on the execution instances, which will allow you to send messages linked to real-time and batch events.
+-->
 
 >[!CAUTION]
 >

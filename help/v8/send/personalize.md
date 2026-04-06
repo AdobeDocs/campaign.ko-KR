@@ -6,7 +6,7 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 48%
@@ -28,20 +28,21 @@ Adobe Campaign은 개인화를 간소화합니다. 단일 [메시지 템플릿](
 
 * 동적 **개인화 필드** 삽입
 
-  개인화 필드는 메시지의 첫 번째 수준 개인화에 사용됩니다. 개인화 편집기에서 데이터베이스에서 사용 가능한 모든 필드를 선택할 수 있습니다. 게재의 경우 수신자, 메시지 또는 게재와 관련된 모든 필드를 선택할 수 있습니다. 이러한 개인화 속성은 메시지의 제목 줄이나 본문에 삽입할 수 있습니다. [자세히 알아보기](personalization-fields.md)
+  개인화 필드는 메시지의 첫 번째 수준 개인화에 사용됩니다. 개인화 편집기에서 데이터베이스에서 사용 가능한 모든 필드를 선택할 수 있습니다. 게재의 경우 수신자, 메시지 또는 게재와 관련된 모든 필드를 선택할 수 있습니다. 이러한 개인화 속성은 메시지의 제목 줄이나 본문에 삽입할 수 있습니다. [자세히 알아보기](personalization-fields.md).
 
   다음 구문은 콘텐츠에 수신자의 도시를 삽입합니다. &lt;%= recipient.location.city %>
 
 * 미리 정의된 **콘텐츠 블록** 삽입
 
-  Campaign에는 게재에 삽입할 수 있는 특정 렌더링이 포함된 개인화 블록 세트가 제공됩니다. 예를 들어 로고, 인사말 메시지 또는 메시지 미러 페이지에 대한 링크를 추가할 수 있습니다. 콘텐츠 블록은 개인화 편집기의 전용 항목에서 사용할 수 있습니다. [자세히 알아보기](personalization-blocks.md)
+  Campaign에는 게재에 삽입할 수 있는 특정 렌더링이 포함된 개인화 블록 세트가 제공됩니다. 예를 들어 로고, 인사말 메시지 또는 메시지 미러 페이지에 대한 링크를 추가할 수 있습니다. 콘텐츠 블록은 개인화 편집기의 전용 항목에서 사용할 수 있습니다. [자세히 알아보기](personalization-blocks.md).
 
 * **조건부 콘텐츠** 만들기
 
-  예를 들어 조건부 콘텐츠를 구성하여 수신자 프로필을 기반으로 동적 개인화를 추가합니다. 특정 조건이 참 이면 텍스트 블록 및/또는 이미지가 삽입됩니다. [자세히 알아보기](conditions.md)
+  예를 들어 조건부 콘텐츠를 구성하여 수신자 프로필을 기반으로 동적 개인화를 추가합니다. 특정 조건이 참 이면 텍스트 블록 및/또는 이미지가 삽입됩니다. [자세히 알아보기](conditions.md).
 
-<!--* Add **personalized offers**
-    
+<!--
+* Add **personalized offers**
+
     Insert personalized offers in your message content, depending on the recipient location, the current weather, or the last purchase order.
 -->
 
@@ -71,4 +72,4 @@ Adobe Campaign은 개인화를 간소화합니다. 단일 [메시지 템플릿](
 다양한 유형의 다이내믹 콘텐츠를 파악하고 개인화 블록 및 조건문을 만들어 게재에 적용하는 방법을 알아봅니다.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3452875?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)

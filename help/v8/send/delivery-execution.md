@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 084607f6-47d8-40c0-89ba-bfbb88fc2e53
-source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 1%
@@ -37,13 +37,14 @@ ht-degree: 1%
 >매주 게재는 이벤트 생성 날짜가 아닌 최신 이벤트 업데이트를 기준으로 이벤트를 누적합니다. 따라서 제어 인스턴스에서 트랜잭션 메시지 게재 로그를 추출할 때 로그가 업데이트되면 각 게재 로그 ID와 연관된 게재 ID가 시간에 따라 변경될 수 있습니다(예: 이벤트에 대한 인바운드 바운스가 수신되면).
 
 <!--
-To monitor the activity and running of the execution instance(s), see [Transactional messaging reports](transactional-messaging-reports.md).-->
+To monitor the activity and running of the execution instance(s), see [Transactional messaging reports](transactional-messaging-reports.md).
+-->
 
 ## 보고{#reporting-transactional-msg}
 
 Adobe Campaign에서는 실행 인스턴스의 활동 및 원활한 실행을 제어할 수 있는 몇 가지 보고서를 제공합니다.
 
-이러한 메시지 센터 보고서는 **제어 인스턴스**&#x200B;의 **[!UICONTROL Reports]** 탭에서 액세스할 수 있습니다.
+이러한 메시지 센터 보고서는 **[!UICONTROL Reports]**&#x200B;제어 인스턴스&#x200B;**의** 탭에서 액세스할 수 있습니다.
 
 ![](assets/mc-reports.png)
 

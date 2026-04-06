@@ -3,7 +3,7 @@ title: Adobe Campaign 기본 제공 게재 보고서
 description: Adobe Campaign 기본 제공 게재 보고서
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 10%
@@ -44,7 +44,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->텍스트 형식의 전자 메일에 연결된 오류 여백으로 인해 메시지 열기를 기반으로 계산된 값은 항상 예상 값입니다. **[!UICONTROL Distinct opens/Sum of opens for the population reached]** 표시기는 이 오류 여백을 고려합니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-)
+>텍스트 형식의 전자 메일에 연결된 오류 여백으로 인해 메시지 열기를 기반으로 계산된 값은 항상 예상 값입니다. **[!UICONTROL Distinct opens/Sum of opens for the population reached]** 표시기는 이 오류 여백을 고려합니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-).
 
 ![](assets/tracking-report-synthesis.png)
 
@@ -101,9 +101,9 @@ ht-degree: 10%
 
 * **[!UICONTROL Visited pages]**: Number of web pages visited following message reception.
 * **[!UICONTROL Transactions]**: Number of purchases following message reception.
-* **[!UICONTROL Total amount]**: Total amount of purchases following message reception. 
-* **[!UICONTROL Average transaction amount]**: Average purchase made by distinct delivery recipients. 
-* **[!UICONTROL Articles]**: Number of articles purchased by the delivery recipients. 
+* **[!UICONTROL Total amount]**: Total amount of purchases following message reception.
+* **[!UICONTROL Average transaction amount]**: Average purchase made by distinct delivery recipients.
+* **[!UICONTROL Articles]**: Number of articles purchased by the delivery recipients.
 * **[!UICONTROL Average count of articles per transaction]**: Average number of items per purchase made by distinct recipients.
 * **[!UICONTROL Average amount per message]**: Average amount of purchases generated per message.
 
@@ -117,7 +117,7 @@ This section shows the number of messages shared on each social network. For mor
 
 ## URLs and click streams {#urls-and-click-streams}
 
-This report shows the list of pages visited following a delivery. 
+This report shows the list of pages visited following a delivery.
 
 ![](assets/s_ncs_user_url_report.png)
 
@@ -131,14 +131,14 @@ The following rates are displayed in the upper section of the report:
   >
   >For more information on tracking opens, refer to [this section](metrics-calculation.md#tracking-opens-).
 
-* **[!UICONTROL Distinct clicks]**: Number of distinct people having clicked at least once (excluding unsubscription link and mirror page) in a delivery. The rate displayed is calculated based on the number of messages delivered successfully. 
+* **[!UICONTROL Distinct clicks]**: Number of distinct people having clicked at least once (excluding unsubscription link and mirror page) in a delivery. The rate displayed is calculated based on the number of messages delivered successfully.
 * **[!UICONTROL Cumulated clicks]**: Total number of clicks by targeted recipients (excluding unsubscription link and mirror page). The rate displayed is calculated based on the number of messages forwarded successfully.
 
 **[!UICONTROL Platform average]**: This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
 
 The central table provides the following information:
 
-* **[!UICONTROL Clicks]**: Number of cumulated clicks, per link. 
+* **[!UICONTROL Clicks]**: Number of cumulated clicks, per link.
 * **[!UICONTROL Clicks (in %)]**: Breakdown of the number of clicks per link, in relation to the total number of cumulated clicks.
 
 **[!UICONTROL Breakdown of clicks in time]**
@@ -189,12 +189,11 @@ This chart shows the breakdown of cumulated clicks per day.
 
 이 보고서는 게재가 최대 효율에 도달하는 데 필요한 시간을 표시하는 값 테이블과 파레토 차트를 제공합니다. 다음 지표가 사용됩니다.
 
-* **[!UICONTROL Opens]**: 열린 총 메시지 수의 비율에 도달하는 데 필요한 시간을 예상합니다. 텍스트 형식의 이메일은 고려되지 않습니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-)
+* **[!UICONTROL Opens]**: 열린 총 메시지 수의 비율에 도달하는 데 필요한 시간을 예상합니다. 텍스트 형식의 이메일은 고려되지 않습니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-).
 * **[!UICONTROL Clicks]**: 기록된 총 클릭 수의 비율에 도달하는 데 필요한 시간을 예상합니다. 옵트아웃 링크 및 미러 페이지 클릭 수는 고려되지 않습니다.
 <!--
 * **[!UICONTROL Transactions]**: Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 -->
-
 
 ## 누적 보고서 {#cumulated-reports}
 

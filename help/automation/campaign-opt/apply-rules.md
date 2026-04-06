@@ -4,7 +4,7 @@ title: 유형화 규칙 적용
 description: 유형화 규칙을 적용하는 방법 알아보기
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 7%
@@ -52,7 +52,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->필터링 규칙의 경우 필터링 기준의 적용 조건을 선택할 수 있습니다. 적용 조건은 게재 또는 게재 아웃라인에 따라 달라질 수 있습니다. [자세히 알아보기](filtering-rules.md#condition-a-filtering-rule)
+>필터링 규칙의 경우 필터링 기준의 적용 조건을 선택할 수 있습니다. 적용 조건은 게재 또는 게재 아웃라인에 따라 달라질 수 있습니다. [자세히 알아보기](filtering-rules.md#condition-a-filtering-rule).
 
 ## 계산 빈도 조정 {#adjust-calculation-frequency}
 
@@ -134,7 +134,8 @@ ht-degree: 7%
 >**[!UICONTROL Filtering]** 유형화에는 선호도 관리가 적용되지 않습니다.
 
 <!--
->Affinities are defined in the instance configuration file, on the Adobe Campaign server. For more on this, refer to [this section](../../installation/using/about-initial-configuration.md).-->
+>Affinities are defined in the instance configuration file, on the Adobe Campaign server. For more on this, refer to [this section](../../installation/using/about-initial-configuration.md).
+-->
 
 ### 캠페인 최적화 및 분산 마케팅 {#campaign-optimization-and-distributed-marketing}
 

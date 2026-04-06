@@ -6,7 +6,7 @@ role: Developer
 level: Intermediate
 badge: label="제한 공개" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: 52ea7f0a7690ef656568cc75925b9982e1f475e9
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 2%
@@ -73,8 +73,8 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 
 1. **키 ID**&#x200B;을(를) 제공합니다. p8 인증 키를 만드는 동안 할당된 10개의 문자열입니다.
 
-       Apple 개발자 계정의 **인증서**, **식별자** 및 **프로필** 페이지의 **키** 탭에서 찾을 수 있습니다.
-   
+   Apple 개발자 계정의 **인증서**, **식별자** 및 **프로필** 페이지의 **키** 탭에서 찾을 수 있습니다.
+
 1. **팀 ID**&#x200B;를 제공하십시오. **멤버십** 탭에서 찾을 수 있는 문자열 값입니다.
 
 1. 앱 구성을 만들려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
@@ -240,7 +240,7 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 1. 인스턴스 세부 사항을 입력합니다.
 
    * Campaign의 **[!UICONTROL Registration endpoint]** > **[!UICONTROL Tracking endpoint]** > **[!UICONTROL Tools]** 메뉴에서 **[!UICONTROL Advanced]** 또는 **[!UICONTROL Deployment wizard]** URL을 찾을 수 있습니다.
-   * **[!UICONTROL Integration keys]**&#x200B;이 섹션[에 구성된 모바일 앱에서 &#x200B;](#create-app)을(를) 찾을 수 있습니다.
+   * **[!UICONTROL Integration keys]**&#x200B;이 섹션[에 구성된 모바일 앱에서 ](#create-app)을(를) 찾을 수 있습니다.
 
    ![](assets/push-config-17.png)
 
