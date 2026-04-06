@@ -29,7 +29,7 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
 1. Adobe Experience Platform 데이터 수집에서 [모바일 태그 속성](#launch-property)을 설정합니다.
 1. 이 페이지에서 [자세히](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}대로 Adobe Experience Platform Mobile SDK을 가져옵니다.
 1. (선택 사항) 로깅 및 라이프사이클 지표를 사용하도록 설정합니다(자세한 정보: 이 [페이지](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}).
-1. (선택 사항) 구현의 유효성을 검사하려면 [Adobe Experience Platform Assurance을 앱에 추가](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}하십시오. 이 페이지[에서 Adobe Experience Platform Assurance 확장 ](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}을(를) 구현하는 방법을 알아보세요.
+1. (선택 사항) 구현의 유효성을 검사하려면 [Adobe Experience Platform Assurance을 앱에 추가](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}하십시오. 이 페이지[에서 Adobe Experience Platform Assurance 확장 &#x200B;](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}을(를) 구현하는 방법을 알아보세요.
 1. 이 페이지의 [자세히](#push-service)로 Adobe Campaign에서 iOS 및 Android Mobile Services를 구성합니다.
 1. 모바일 속성에 [Adobe Campaign 확장](#configure-extension)을 설치하고 구성합니다.
 1. 앱에서 Adobe Experience Platform Mobile SDK를 설정하려면 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}를 따르십시오.
@@ -48,7 +48,7 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
 
 1. **[!DNL Admin Console]**&#x200B;에 액세스합니다.
 1. **[!UICONTROL Products]** 탭에서 **[!UICONTROL Adobe Experience Platform Data Collection]** 카드를 선택합니다.
-1. 기존 **[!UICONTROL Product Profile]**&#x200B;을(를) 선택하거나 **[!UICONTROL New profile]** 단추를 사용하여 새 을(를) 만듭니다. **[!UICONTROL New profile]** Admin Console 설명서[에서 새 ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}을(를) 만드는 방법을 알아보세요.
+1. 기존 **[!UICONTROL Product Profile]**&#x200B;을(를) 선택하거나 **[!UICONTROL New profile]** 단추를 사용하여 새 을(를) 만듭니다. **[!UICONTROL New profile]** Admin Console 설명서[에서 새 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}을(를) 만드는 방법을 알아보세요.
 1. **[!UICONTROL Permissions]** 탭에서, **[!UICONTROL Property Rights]**&#x200B;를 선택합니다.
 1. **[!UICONTROL Add all]**&#x200B;을(를) 클릭합니다. 이렇게 하면 제품 프로필에 다음 권한이 추가됩니다.
    * **[!UICONTROL Approve]**
@@ -142,7 +142,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 -->
 
-[!DNL Adobe Experience Platform Data Collection]Adobe Experience Platform 설명서[에서 ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"} 태그에 대해 자세히 알아보세요.
+[!DNL Adobe Experience Platform Data Collection]Adobe Experience Platform 설명서[에서 &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"} 태그에 대해 자세히 알아보세요.
 
 만든 후에는 새 태그 속성을 열고 라이브러리를 만듭니다. 방법은 다음과 같습니다.
 
