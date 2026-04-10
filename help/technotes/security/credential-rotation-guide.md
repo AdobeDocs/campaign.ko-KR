@@ -3,9 +3,8 @@ product: campaign
 title: 기술 노트 - 자격 증명 회전 안내서
 description: Adobe Campaign 기술 노트 - 자격 증명 회전 안내서
 hide: true
-hidefromtoc: true
 exl-id: 0848ee2d-3506-4167-9aea-a1589aa82805
-source-git-commit: 14e49a0b4de1b82239113bd670213449f464c27f
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 1%

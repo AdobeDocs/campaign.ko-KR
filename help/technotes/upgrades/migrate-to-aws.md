@@ -2,9 +2,8 @@
 title: Amazon Web Services으로 Campaign 전송 인프라 마이그레이션(AWS)
 description: Amazon Web Services으로 Campaign 전송 인프라 마이그레이션(AWS)
 hide: true
-hidefromtoc: true
 exl-id: 50279a2f-0296-43f5-8967-16cc6a0c88f6
-source-git-commit: 3e95a56825a143a4457ab7ee242208d7daaeb414
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%

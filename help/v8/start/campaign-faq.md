@@ -6,15 +6,14 @@ role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 hide: true
-hidefromtoc: true
-source-git-commit: 9c751429ac3da2a583990ba0d891744353bd65c8
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 96%
 
 ---
 
-# FAQ{#faq}
+# 자주 묻는 질문{#faq}
 
 Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변을 읽어 보세요.
 
@@ -86,7 +85,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
    Adobe 다운로드 센터에서 설치 프로그램과 클라이언트 콘솔을 다운로드할 수 있습니다.
 
-   관리 사용자로 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html){target="_blank"}에 액세스하여 Adobe Campaign을 다운로드합니다.
+   관리 사용자로 Adobe [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}에 액세스하여 Adobe Campaign을 다운로드합니다.
 
    [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}에서 배포 센터에 대해 자세히 알아볼 수 있습니다.
 

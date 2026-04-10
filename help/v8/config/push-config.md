@@ -5,9 +5,8 @@ feature: Push
 role: Admin, Developer
 level: Intermediate
 hide: true
-hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 1%
@@ -20,7 +19,7 @@ iOS 및 Android용 Campaign SDK를 사용하여 모바일 애플리케이션을 
 
 Android 및 iOS 지원 버전 및 Campaign v8용 Campaign SDK 호환 버전은 [호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK)에 나와 있습니다.
 
-캠페인 관리자는 [Experience Cloud 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/ko/campaign.html)에서 Campaign SDK를 다운로드할 수 있습니다. 자세한 내용은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+캠페인 관리자는 [Experience Cloud 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에서 Campaign SDK를 다운로드할 수 있습니다. 자세한 내용은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
 
 
 >[!NOTE]
@@ -186,7 +185,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 1. **사용자의 모바일 장치 토큰이 변경되면 Campaign에 알림**
 
-   `onTokenRefresh` 함수를 호출할 때 `registerDevice` 함수를 사용하여 사용자의 모바일 장치 토큰의 변경 사항을 Adobe Campaign에 알리는 것이 좋습니다.
+   `registerDevice` 함수를 호출할 때 `onTokenRefresh` 함수를 사용하여 사용자의 모바일 장치 토큰의 변경 사항을 Adobe Campaign에 알리는 것이 좋습니다.
 
    예제:
 
@@ -225,7 +224,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 1. **Firebase 메시징 서비스 구성**
 
-   `onMessageReceived` 콜백에서 `FirebaseMessagingService`을(를) 확장하여 메시지를 받습니다. 모바일 장치에서 알림 수신을 추적할 수 있도록 `onMessageReceived` 콜백이 호출될 때 `notifyReceive` 함수를 호출하는 것이 좋습니다. Adobe Campaign에서 이 함수를 **print** 알림이라고 합니다. OS에 알림을 표시하도록 요청하기 바로 전에 이 함수를 호출해야 합니다.
+   `FirebaseMessagingService` 콜백에서 `onMessageReceived`을(를) 확장하여 메시지를 받습니다. 모바일 장치에서 알림 수신을 추적할 수 있도록 `notifyReceive` 콜백이 호출될 때 `onMessageReceived` 함수를 호출하는 것이 좋습니다. Adobe Campaign에서 이 함수를 **print** 알림이라고 합니다. OS에 알림을 표시하도록 요청하기 바로 전에 이 함수를 호출해야 합니다.
 
    YourApplicationMessagingService.java
 
@@ -842,7 +841,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 >[!CAUTION]
 >
->Adobe iOS 및 Android의 경우 알림 크기가 4kB로 제한되므로 짧은 변수 이름을 선택하는 것이 좋습니다.
+>Adobe 및 Android의 경우 알림 크기가 4kB로 제한되므로 짧은 변수 이름을 선택하는 것이 좋습니다.
 
 ## 알림 서비스 확장 {#notification-service-extension}
 
