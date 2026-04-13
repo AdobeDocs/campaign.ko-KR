@@ -7,9 +7,9 @@ Role: User
 level: Experienced
 version: Campaign v8, Campaign Classic v7
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: c9098683077d4a01e269801b4434fcf5eb1f90a4
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '418'
 ht-degree: 3%
 
 ---
@@ -25,6 +25,16 @@ ht-degree: 3%
 * 활동은 원격 데이터 소스에만 사용할 수 있습니다.
 * 아웃바운드 스키마는 데이터베이스에 있어야 하며 FDA 데이터베이스에 연결되어 있어야 합니다.
 
+## 중요 정보 {#important-notes}
+
+8.9.1부터 **[!UICONTROL SQL code]** 및 **[!UICONTROL SQL Data Management]** 워크플로우 활동이 개선되어 PostgreSQL 데이터베이스를 더 잘 보호하고 Campaign에서 사용자 지정 SQL을 실행할 때 워크플로우가 원활하게 실행됩니다.
+
+오류가 발생한 경우 다음 두 가지 솔루션을 사용할 수 있습니다.
+
+* 솔루션 1 — `XtkSecurity_FeatureFlag_SqlSensitive`
+* 솔루션 2 — `XtkSecurity_SqlSensitive_Methods`
+
+자세한 내용과 모범 사례는 [SQL 코드](sql-code-and-javascript-code.md#important-notes)를 참조하세요.
 
 ## SQL 데이터 관리 활동 구성 {#configuring-the-sql-data-management-activity}
 
