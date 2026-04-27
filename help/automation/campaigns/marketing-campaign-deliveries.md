@@ -35,7 +35,7 @@ ht-degree: 1%
 
   워크플로우가 시작되면 게재가 캠페인 대시보드에 추가됩니다.
 
-이 페이지](marketing-campaign-approval.md)에서 게재 승인 흐름 [을(를) 설정하고 실행하는 방법을 알아보세요.
+이 페이지[&#128279;](marketing-campaign-approval.md)에서 게재 승인 흐름 을(를) 설정하고 실행하는 방법을 알아보세요.
 
 ## 게재 시작 {#start-a-delivery}
 

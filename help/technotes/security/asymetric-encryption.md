@@ -53,5 +53,5 @@ var decrypted = rsaPrivateDecrypt(
 
 **추가 리소스**
 
-* [ [!DNL Campaign] API 시작](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api){target="_blank"}
+* [&#x200B; [!DNL Campaign] API 시작](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api){target="_blank"}
 * [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}

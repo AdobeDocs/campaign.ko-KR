@@ -18,7 +18,7 @@ ht-degree: 9%
 
 Adobe Campaign v8에 대해 가장 일반적인 질문에 대한 빠른 답변을 얻으십시오. 이제 막 시작했거나 고급 구성 도움말을 찾고 있는 경우 아래 주제별로 구성된 답변을 찾을 수 있습니다.
 
-Campaign을 처음 사용하십니까?****&#x200B;필수 구성 요소를 알아보려면 [시작하기](#getting-started)로 시작하십시오.\
+Campaign을 처음 사용하십니까?**&#x200B;**&#x200B;필수 구성 요소를 알아보려면 [시작하기](#getting-started)로 시작하십시오.\
 **버전에 대한 도움이 필요하십니까?** 버전 정보 및 업그레이드 프로세스는 [업그레이드](#upgrades)를 확인하세요.\
 **v7 또는 Standard에서 마이그레이션하시겠습니까?** 차이점 및 전환 지침은 [Campaign v8과 이전 버전](#v7-differences)을 참조하세요.\
 **기술 도움이 필요하십니까?** [개발자](#developers) 및 [캠페인 설정](#settings)을 확인하세요.\
@@ -53,7 +53,7 @@ Adobe 다운로드 센터에서 설치 프로그램과 클라이언트 콘솔을
 
 관리 사용자로 Adobe [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}에 액세스하여 Adobe Campaign을 다운로드합니다.
 
-이 페이지에서 [ 배포 센터에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}.
+이 페이지에서 [&#x200B; 배포 센터에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}.
 
 +++
 
@@ -226,7 +226,7 @@ Campaign 버전을 확인하고 업그레이드 프로세스를 이해하며 새
 
 +++ Campaign의 버전은 무엇입니까?
 
-Campaign 클라이언트 콘솔의 **도움말 > 정보...[ 메뉴에서 버전 및 빌드 번호](upgrades.md#version)를** 확인합니다.
+Campaign 클라이언트 콘솔의 **도움말 > 정보...[&#x200B; 메뉴에서 버전 및 빌드 번호](upgrades.md#version)를** 확인합니다.
 
 +++
 
