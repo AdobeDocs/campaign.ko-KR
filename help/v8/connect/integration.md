@@ -34,9 +34,9 @@ Campaign v8은 다음 Adobe 솔루션과 연결할 수 있습니다. 사용 사�
 
 또한 에셋 공유 및 대상 공유 기능을 사용하여 Experience Cloud 솔루션 전체의 **대상** 및 **에셋**&#x200B;을 결합할 수 있습니다.
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}에서 Campaign과 Experience Cloud 솔루션 간 **대상 공유**&#x200B;에 대해 자세히 알아보세요.
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ko#integrating-with-adobe-experience-cloud){target="_blank"}에서 Campaign과 Experience Cloud 솔루션 간 **대상 공유**&#x200B;에 대해 자세히 알아보세요.
 
-Campaign과 Experience Cloud 솔루션 간의 **자산 공유**&#x200B;에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}를 참조하세요.
+Campaign과 Experience Cloud 솔루션 간의 **자산 공유**&#x200B;에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ko#integrating-with-adobe-experience-cloud){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >

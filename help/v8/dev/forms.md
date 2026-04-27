@@ -87,7 +87,7 @@ ht-degree: 0%
 
 기본적으로 각 필드는 한 줄에 표시되며 데이터 유형에 따라 사용 가능한 모든 공간을 차지합니다.
 
-모든 양식 특성은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}에 나와 있습니다.
+모든 양식 특성은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=ko){target="_blank"}에 나와 있습니다.
 
 ## 양식화 {#formatting}
 
