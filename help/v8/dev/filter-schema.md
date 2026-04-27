@@ -7,7 +7,7 @@ level: Intermediate, Experienced
 exl-id: e8ad021c-ce2e-4a74-b9bf-a989d8879fd1
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '401'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 * 읽기 및 쓰기 권한 제한:
 
-  여기서 필터는 모든 연산자에 대해 스키마에 대한 읽기 및 쓰기 권한을 모두 허용하지 않는 데 사용됩니다. 식 &quot;$(loginId)로 표시되는 **internal** 계정만!=0&quot;에는 이러한 권한이 있습니다.
+  여기서 필터는 모든 연산자에 대해 스키마에 대한 읽기 및 쓰기 권한을 모두 허용하지 않는 데 사용됩니다. &quot;$(loginId)!=0&quot; 식으로 표시되는 **internal** 계정에만 이러한 권한이 있습니다.
 
   ```
   <sysFilter name="readAccess"> 
@@ -64,7 +64,7 @@ ht-degree: 2%
 
 기본적으로 기본 제공 스키마는 관리 권한이 있는 연산자에 대한 쓰기 권한으로만 액세스할 수 있습니다.
 
-* ncm:게시
+* ncm:publishing
 * nl:monitoring
 * nms:calendar
 * xtk:builder

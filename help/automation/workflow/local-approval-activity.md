@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 31089026-3fc0-4491-8b70-0fb7fd1e3ac0
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1282'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 2%
 
    ![](assets/local_validation_data_distribution_1.png)
 
-1. **[!UICONTROL General]** 탭을 선택합니다. 
+1. **[!UICONTROL General]** 탭을 선택합니다.
 
    ![](assets/local_validation_data_distribution_2.png)
 
@@ -114,7 +114,7 @@ ht-degree: 2%
 
    ![](assets/local_validation_split_1bis.png)
 
-1. **[!UICONTROL Sort columns]** 섹션에서 정렬이 적용되는 필드를 추가합니다. 여기에서 **[!UICONTROL Email]** 필드를 선택했습니다. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Sort columns]** 섹션에서 정렬이 적용되는 필드를 추가합니다. 여기에서 **[!UICONTROL Email]** 필드를 선택했습니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/local_validation_split_2.png)
 

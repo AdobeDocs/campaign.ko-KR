@@ -7,7 +7,7 @@ level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
 source-git-commit: 925f8152d28f60f876c5ef4420064fa0d71cdb9d
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Campaign과 CMK 통합을 사용하려면 아래 단계를 따르십시오.
 
 1. [Amazon 리소스 이름(키 ARN)](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"}을(를) [!DNL Adobe Campaign]과(와) 공유합니다. 이렇게 하려면 Adobe 담당자에게 문의하십시오. <!--or Adobe transition manager?-->
 
-1. Amazon EventBridge 규칙을 만들고 테스트하여 Adobe에서 키를 모니터링할 수 있습니다&#x200B;. [자세히 알아보기](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
+1. Amazon EventBridge 규칙을 만들고 테스트하여 Adobe에서 키 모니터링을 사용하도록 설정합니다. [자세히 알아보기{1&#x200B;}.](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}
 
 
 ### 가드레일 및 제한 사항 {#cmk-callouts}
@@ -66,7 +66,7 @@ Adobe Campaign v8과 CMK 통합에는 다음과 같은 보호 기능 및 제한 
 
 * [AWS 키 관리 서비스](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"}(KMS) 키만 지원됩니다. KMS 외부의 고객 생성 키를 사용할 수 없습니다&#x200B;.
 
-* 다운타임은 처음 설치하는 동안 예상됩니다. &#x200B;다운타임 기간은 데이터베이스의 크기에 따라 다릅니다.
+* 다운타임은 처음 설치하는 동안 예상됩니다. 다운타임 기간&#x200B;은 데이터베이스의 크기에 따라 다릅니다.
 
 * 고객은 키를 소유하고 유지 관리합니다. 키가 변경되면 Adobe에 연락해야 합니다&#x200B;.
 

@@ -7,8 +7,8 @@ level: Experienced
 exl-id: ae1ef010-24d5-4be4-a30c-899e2b0040a4
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 79%
+source-wordcount: '151'
+ht-degree: 47%
 
 ---
 
@@ -43,17 +43,17 @@ Starting Campaign v8.6, the authentication process to Campaign v8 is being impro
     <td>
       <img src="../v8/assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>시작</strong><br/><a href="../v8/start/campaign-ui.md">사용자 인터페이스</a> - <a href="../v8/start/ac-components.md">구성 요소 및 프로세스</a> - <a href="../v8/start/v7-to-v8.md">Classic v7에서 v8로</a> - <a href="../v8/start/campaign-faq.md">FAQ</a>
+      <strong>시작하기</strong><br/><a href="../v8/start/campaign-ui.md">사용자 인터페이스</a> - <a href="../v8/start/ac-components.md">구성 요소 및 프로세스</a> - <a href="../v8/start/v7-to-v8.md">Classic v7에서 v8까지</a> - <a href="../v8/start/campaign-faq.md">FAQ</a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>고객 경험</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">워크플로로 자동화</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">캠페인 오케스트레이션</a> - <a href="../v8/interaction/interaction.md">의사 결정 관리</a> - <a href="../v8/send/personalize.md">개인화</a>
+      <strong>고객 경험</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">워크플로우 자동화</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">캠페인 오케스트레이션</a> - <a href="../v8/interaction/interaction.md">의사 결정 관리</a> - <a href="../v8/send/personalize.md">Personalization</a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>메시지 보내기</strong><br/><a href="../v8/start/create-message.md">시작</a> - <a href="../v8/send/preview-and-proof.md">미리 보기 및 교정쇄</a> - <a href="../v8/send/predictive.md">전송 시간 최적화</a> - <a href="../v8/reporting/gs-reporting.md">보고 및 분석</a>
+      <strong>메시지 보내기</strong><br/><a href="../v8/start/create-message.md">시작하기</a> - <a href="../v8/send/preview-and-proof.md">미리 보기 및 증명</a> - <a href="../v8/send/predictive.md">전송 시간 최적화</a> - <a href="../v8/reporting/gs-reporting.md">보고 및 분석</a>
     </td>
   </tr>
   <tr style="border: 0;">

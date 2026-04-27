@@ -7,7 +7,7 @@ level: Beginner
 exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
 source-git-commit: 6e465ec24f72d0b30c4fc287da5d4c4bcaeda05b
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '642'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 <%@ value object="myObject" xpath="@myField" %>
 ```
 
-이 명령은 `myField` 개체에서 `myObject` 필드의 값을 검색합니다.
+이 명령은 `myObject` 개체에서 `myField` 필드의 값을 검색합니다.
 
 ## URL 감지 {#url-detection}
 

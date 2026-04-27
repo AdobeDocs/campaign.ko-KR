@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 13%
+source-wordcount: '271'
+ht-degree: 12%
 
 ---
 
@@ -53,6 +53,6 @@ ht-degree: 13%
 
 이 비디오에서는 반복 게재 및 예약 활동을 구성하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27507?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ko){target="_blank"}에서 사용할 수 있습니다.
+추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}에서 사용할 수 있습니다.

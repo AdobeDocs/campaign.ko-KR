@@ -6,8 +6,8 @@ hide: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 97%
+source-wordcount: '1644'
+ht-degree: 93%
 
 ---
 
@@ -98,7 +98,7 @@ _2021년 10월 28일_
 * 마케팅 인스턴스에서 과금 워크플로가 충돌할 수 있는 문제를 해결했습니다.
 * FFDA Snowflake 기본 제공 테이블에서 키가 중복될 수 있는 문제를 해결했습니다. (NEO-38583)
 * 두 개의 중복 제거 활동을 차례로 편집할 때 워크플로 임시 스키마가 누락될 수 있는 문제를 해결했습니다. (NEO-34063)
-* Amazon Redshift HoursDiff 및 MinutesDiff 함수를 실행할 때 시간 구성 요소를 추출하려 하는 중 잘못된 결과를 반환하는 문제를 해결했습니다.(NEO-31673)
+* 시간 구성 요소를 추출하는 동안 Amazon Redshift HoursDiff 및 MinutesDiff 함수를 실행할 때 잘못된 결과를 반환하는 문제를 해결했습니다(NEO-31673).
 * 프록시 구성 문제로 인해 사용자가 콘솔에 로그인하지 못하는 문제를 해결했습니다. (NEO-38388)
 * **폴더 제거** 기능이 제대로 작동하지 못하게 하는 회귀 문제를 해결했습니다. (NEO-37459)
 * 워크플로에 첨부된 모바일 게재를 미리 볼 수 없는 문제를 해결했습니다.
@@ -110,17 +110,17 @@ _2021년 9월 7일 수요일_
 
 **향상된 보안 기능**
 
-* 디렉토리 순회 공격으로부터 보호를 강화하기 위해 보안 문제를 해결했습니다. (NEO-28547)
+* 디렉토리 횡단 공격으로부터 보호를 강화하기 위해 보안 문제를 해결했습니다. (NEO-28547)
 
 **개선 사항**
 
 * 수명 종료에 따라 Flash를 Campaign의 기능과 구성 요소에서 제거하고 HTML5로 대체했습니다. 차트의 **측정** 유형이 제거되었습니다. (NEO-30330) [자세히 보기](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=ko)
 * 이제 Windows에 클라이언트 콘솔을 설치할 때 설치 관리자에서 상위 레지스트리 노드가 있는지 확인하고 누락된 경우 클라이언트 콘솔을 만듭니다. 따라서 콘솔을 시작할 때 발생할 수 있는 문제를 방지할 수 있습니다. (NEO-34854)
-* 서드파티 도구(이메일 클라이언트, 인터넷 브라우저 등)에서 특수 문자를 처리하는 방식과 관련된 오류를 방지하기 위해 추적 서명 기능을 개선했습니다. 이제 URL 매개 변수가 인코딩됩니다.
+* 타사 도구(이메일 클라이언트, 인터넷 브라우저 등)와 연결된 오류를 방지하기 위해 추적 서명 기능이 개선되었습니다. 특수 문자를 처리합니다. 이제 URL 매개 변수가 인코딩됩니다.
 
 **기타 변경 사항**
 
-* 이전에 사용 종료된 Microsoft CRM 커넥터(Office 365 및 온프레미스 배포)를 인터페이스에서 제거했습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html?lang=ko#configure-acc-for-microsoft)
+* 이전에 사용 종료된 Microsoft CRM 커넥터(Office 365 및 온프레미스 배포)를 인터페이스에서 제거했습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
 
 * Tomcat 8로 마이그레이션한 후 IIS 설정 스크립트를 업데이트하여 IIS 통합 문제를 해결했습니다. (NEO-31019)
 * [청구 기술 워크플로](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=ko#billing-report)를 마케팅 인스턴스에서만 실행할 수 있도록 하기 위해 가드레일이 추가되었습니다.
@@ -136,7 +136,7 @@ _2021년 9월 7일 수요일_
 * 웹 API를 사용하여 Microsoft CRM에 연결할 때 발생하는 오류를 수정했습니다. 기능에 영향을 주지 않으므로 오류 메시지를 제거했습니다.
 * 추적과 마케팅 서버 간의 중계기로 Mid 서버가 설정되었을 때 발생하는 추적 로그 중복 제거 문제를 수정했습니다. (NEO-36285)
 * Vault가 특정 코드 저장소로 사용되지 않는 회귀 문제를 해결했습니다.
-* 수신 전환이 FDA 데이터 소스에서 온 경우 **데이터 보강** 워크플로 활동에서 변수를 사용할 수 없는 문제를 해결했습니다.
+* 수신되는 전환이 FDA 데이터 소스에서 온 경우 **데이터 보강** 워크플로 활동에서 변수를 사용할 수 없는 문제를 해결했습니다.
 * FFDA로 인해 운영자 그룹 및 권한이 제대로 복제되지 않는 문제를 해결했습니다.
 * 게재를 통해 잘못된 구독 취소 링크를 전송할 수 있는 문제를 해결했습니다.
 * 업그레이드 후 지속 시간에 영향을 주는 복제 관리 문제를 해결했습니다.

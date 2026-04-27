@@ -1,5 +1,5 @@
 ---
-title: 'Campaign v8 설명서 '
+title: Campaign v8 설명서
 description: Campaign v8 설명서의 최신 업데이트에 대해 알아봅니다.
 feature: Release Notes
 role: User

@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
 source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2571'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 입력 양식을 사용하면 Adobe Campaign 클라이언트 콘솔에서 데이터 스키마와 연결된 인스턴스를 편집할 수 있습니다. 양식은 이름과 네임스페이스로 식별됩니다.
 
-양식의 식별 키는 네임스페이스와 콜론으로 구분된 이름으로 구성된 문자열입니다(예: &quot;cus:contact&quot;).
+폼의 식별 키는 &quot;cus:contact&quot;과 같이 네임스페이스와 콜론으로 구분된 이름으로 구성된 문자열입니다.
 
 ## 입력 양식 편집
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 기본적으로 각 필드는 한 줄에 표시되며 데이터 유형에 따라 사용 가능한 모든 공간을 차지합니다.
 
-모든 양식 특성은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=ko){target="_blank"}에 나와 있습니다.
+모든 양식 특성은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}에 나와 있습니다.
 
 ## 양식화 {#formatting}
 
@@ -253,7 +253,7 @@ ht-degree: 0%
 조건 구문의 예:
 
 * **visibleIf=&quot;@email=&#39;peter.martinezATneeolane.net&#39;&quot;**: 문자열 유형 데이터의 같음을 테스트합니다. 비교 값은 따옴표로 묶어야 합니다.
-* **visibleIf=&quot;@gender >= 1 및 @gender!= 2&quot;**: 숫자 값에 대한 조건입니다.
+* **visibleIf=&quot;@gender >= 1 및 @gender != 2&quot;**: 숫자 값에 대한 조건입니다.
 * **visibleIf=&quot;@boolean1=true 또는 @boolean2=false&quot;**: 부울 필드를 테스트합니다.
 
 ### 조건부 표시(enabledGroup) {#enabling-container}

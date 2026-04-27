@@ -9,7 +9,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 75a57ddb-558e-4dd2-a684-e63e51545554
 source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1116'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->리치 푸시 알림을 디자인하기 전에 먼저 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)를 참조하세요.
+>리치 푸시 알림을 디자인하기 전에 먼저 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)를 참조하세요.
 
 ## iOS 알림의 콘텐츠 정의 {#push-message}
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 
    이 필드에서는 iOS 알림 페이로드의 **title** 매개 변수의 값을 정의할 수 있습니다.
 
-1. 선택적으로 iOS 알림 페이로드의 **[!UICONTROL Subtitle]**&#x200B;자막&#x200B;**매개 변수에 해당하는**&#x200B;을(를) 추가합니다.
+1. 선택적으로 iOS 알림 페이로드의 **자막** 매개 변수에 해당하는 **[!UICONTROL Subtitle]**&#x200B;을(를) 추가합니다.
 
 1. 마법사의 **[!UICONTROL Message content]** 섹션에 메시지 내용을 입력합니다.
 
@@ -74,11 +74,11 @@ ht-degree: 5%
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**,**[!UICONTROL Expanded message]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
-   알림을 확장할 때 **[!UICONTROL Message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Expanded message]** 텍스트가 축소된 보기에 나타납니다.
+   알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
 
    ![](assets/rich_push_ios_basic_2.png)
 
-1. 선택적으로 iOS 알림 페이로드의 **[!UICONTROL Subtitle]**&#x200B;자막&#x200B;**매개 변수에 해당하는**&#x200B;을(를) 추가합니다.
+1. 선택적으로 iOS 알림 페이로드의 **자막** 매개 변수에 해당하는 **[!UICONTROL Subtitle]**&#x200B;을(를) 추가합니다.
 
 1. 알림에 대한 사운드 및 배지 옵션과 같은 추가 설정을 사용자 지정하려면 **[!UICONTROL Sound and Badge]** 탭으로 이동합니다. [자세히 알아보기](#sound-badge)
 
@@ -116,7 +116,7 @@ ht-degree: 5%
 
 1. **[!UICONTROL Color options]** 메뉴에서 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Background]**&#x200B;에 대한 16진수 색상 코드를 입력합니다.
 
-1. **[!UICONTROL Carousel]** 탭에서 **[!UICONTROL Carousel options]**&#x200B;의 작동 방식 선택:
+1. **[!UICONTROL Carousel options]** 탭에서 **[!UICONTROL Carousel]**&#x200B;의 작동 방식 선택:
 
    * **[!UICONTROL Auto]**: 이미지를 슬라이드로 자동 순환하며 미리 정의된 간격으로 전환합니다.
    * **[!UICONTROL Manual]**: 사용자가 슬라이드 사이를 수동으로 스와이프하여 이미지를 탐색할 수 있습니다.
@@ -139,11 +139,11 @@ ht-degree: 5%
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**,**[!UICONTROL Expanded title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
-   알림을 확장할 때 **[!UICONTROL Message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Expanded message]** 텍스트가 축소된 보기에 나타납니다.
+   알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
 
    ![](assets/rich_push_ios_timer_2.png)
 
-1. 선택적으로 iOS 알림 페이로드의 **[!UICONTROL Subtitle]**&#x200B;자막&#x200B;**매개 변수에 해당하는**&#x200B;을(를) 추가합니다.
+1. 선택적으로 iOS 알림 페이로드의 **자막** 매개 변수에 해당하는 **[!UICONTROL Subtitle]**&#x200B;을(를) 추가합니다.
 
 1. 알림에 대한 사운드 및 배지 옵션과 같은 추가 설정을 사용자 지정하려면 **[!UICONTROL Sound and Badge]** 탭으로 이동합니다. [자세히 알아보기](#sound-badge)
 

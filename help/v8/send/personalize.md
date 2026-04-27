@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '474'
 ht-degree: 48%
 
 ---
@@ -53,7 +53,7 @@ Adobe Campaign은 개인화를 간소화합니다. 단일 [메시지 템플릿](
 
 게재 보호를 개선하기 위해 개인화 단계에 대한 시간 제한 기간을 설정할 수 있습니다.
 
-**[!UICONTROL Delivery]**&#x200B;의 **[!UICONTROL Delivery properties]** 탭에서 **[!UICONTROL Maximum personalization run time]** 옵션의 최대값(초)을 선택합니다.
+**[!UICONTROL Delivery properties]**&#x200B;의 **[!UICONTROL Delivery]** 탭에서 **[!UICONTROL Maximum personalization run time]** 옵션의 최대값(초)을 선택합니다.
 
 미리보기 또는 전송 중에 개인화 단계가 이 필드에서 설정한 최대 시간을 초과하는 경우 프로세스가 중단되고 오류 메시지가 표시되며 게재가 실패합니다.
 
@@ -72,4 +72,4 @@ Adobe Campaign은 개인화를 간소화합니다. 단일 [메시지 템플릿](
 다양한 유형의 다이내믹 콘텐츠를 파악하고 개인화 블록 및 조건문을 만들어 게재에 적용하는 방법을 알아봅니다.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3452875?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)

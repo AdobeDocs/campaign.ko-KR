@@ -7,7 +7,7 @@ role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
 source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1557'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 ### 문서 {#documents}
 
-순서를 생성할 때 로컬 엔티티 운영자가 문서(텍스트 파일, 스프레드시트, 이미지, 캠페인 설명 등)를 로컬 캠페인에 연결할 수 있도록 할 수 있습니다. **[!UICONTROL Advanced parameters for campaign entry...]** 링크를 사용하여 문서 수를 제한할 수 있습니다. 이렇게 하려면 **[!UICONTROL Number of documents]** 필드에 허용된 최대 수를 입력하기만 하면 됩니다.
+로컬 엔티티 운영자가 문서(텍스트 파일, 스프레드시트, 이미지, 캠페인 설명 등)를 연결할 수 있도록 할 수 있습니다. 주문을 생성할 때 로컬 캠페인에 사용됩니다. **[!UICONTROL Advanced parameters for campaign entry...]** 링크를 사용하여 문서 수를 제한할 수 있습니다. 이렇게 하려면 **[!UICONTROL Number of documents]** 필드에 허용된 최대 수를 입력하기만 하면 됩니다.
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 

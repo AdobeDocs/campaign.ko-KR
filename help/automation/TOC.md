@@ -5,8 +5,8 @@ user-guide-description: Campaign 자동화 안내서
 feature: Overview
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 81%
+source-wordcount: '462'
+ht-degree: 82%
 
 ---
 
@@ -166,4 +166,4 @@ ht-degree: 81%
    + [캠페인 액세스](distributed-marketing/accessing-campaigns.md)
    + [캠페인 추적](distributed-marketing/tracking-a-campaign.md)
    + [사용 사례](distributed-marketing/examples.md)
-+ [&lt; Campaign v8 설명서로 돌아가기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)
++ [&lt; Campaign v8 설명서로 이동](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)

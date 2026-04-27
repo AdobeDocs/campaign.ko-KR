@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
 source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '706'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
 
   워크플로우가 시작되면 게재가 캠페인 대시보드에 추가됩니다.
 
-이 페이지[&#128279;](marketing-campaign-approval.md)에서 게재 승인 흐름 을(를) 설정하고 실행하는 방법을 알아보세요.
+이 페이지](marketing-campaign-approval.md)에서 게재 승인 흐름 [을(를) 설정하고 실행하는 방법을 알아보세요.
 
 ## 게재 시작 {#start-a-delivery}
 

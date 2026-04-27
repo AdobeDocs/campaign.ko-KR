@@ -7,7 +7,7 @@ level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
 source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '435'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
 >
 >중요한 매개 변수(예: 복합 키의 매개 변수)에 **accessibleIf** 특성을 사용하면 숨겨진 데이터로 인해 데이터를 읽을 수 없는 사용자에게 오류가 발생할 수 있습니다. 이로 인해 쿼리 실패 또는 예기치 않은 동작이 발생할 수 있습니다. 중단을 방지하기 위해 필수 매개 변수에 액세스할 수 있는지 확인하십시오.
 
-## 추천 {#recommendations}
+## 권장 사항 {#recommendations}
 
 각 게재에서 전자 메일 주소가 **[!UICONTROL broadLog]** 및 **[!UICONTROL forecastLog]** 테이블에 복사됩니다. 따라서 해당 필드도 보호해야 합니다.
 

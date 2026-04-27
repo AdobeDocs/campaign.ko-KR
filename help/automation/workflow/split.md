@@ -7,8 +7,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1832'
-ht-degree: 3%
+source-wordcount: '1835'
+ht-degree: 4%
 
 ---
 
@@ -214,7 +214,7 @@ ht-degree: 3%
 
 **[!UICONTROL Enable overlapping of output populations]** 옵션을 사용하면 여러 하위 집합에 속하는 모집단을 관리할 수 있습니다.
 
-* 확인란을 선택하지 않으면 분할 활동은 수신자가 여러 하위 집합의 기준을 충족하더라도 여러 출력 전환에 표시되지 않습니다. 첫 번째 탭의 타겟에서 기준이 일치합니다.
+* 확인란을 선택하지 않으면 분할 활동은 수신자가 여러 하위 집합의 기준을 충족하더라도 여러 출력 전환에 표시되지 않습니다. 기준이 일치하는 첫 번째 탭의 대상에 포함됩니다.
 * 확인란을 선택하면 필터 조건을 충족하는 경우 여러 하위 집합에서 수신자를 찾을 수 있습니다. Adobe Campaign에서는 전용 기준을 사용할 것을 권장합니다.
 
 ## 입력 매개 변수 {#input-parameters}

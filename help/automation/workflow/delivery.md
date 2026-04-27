@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 58574983-86c7-46f5-b41b-bae90171048d
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '921'
 ht-degree: 1%
 
 ---
@@ -160,7 +160,7 @@ ht-degree: 1%
 * 스키마
 * recCount
 
-이 세 값 세트는 게재 결과 대상을 식별합니다. **[!UICONTROL tableName]**&#x200B;은(는) 대상 식별자를 기억시키는 테이블 이름이고, **[!UICONTROL schema]**&#x200B;은(는) 모집단 스키마(일반적으로 nms:recipient)이며, **[!UICONTROL recCount]**&#x200B;은(는) 테이블의 요소 수입니다.
+이 세 값 세트는 게재 결과 대상을 식별합니다. **[!UICONTROL tableName]**&#x200B;은(는) 대상 식별자를 기억시키는 테이블 이름이고, **[!UICONTROL schema]**&#x200B;은(는) 모집단 스키마(일반적으로 nms:recipient)이며 **[!UICONTROL recCount]**&#x200B;은(는) 테이블의 요소 수입니다.
 
 보체와 관련된 전환은 동일한 매개 변수를 갖는다.
 

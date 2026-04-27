@@ -5,9 +5,10 @@ feature: Configuration, Application Settings
 role: Developer
 version: Campaign v8, Campaign Classic v7
 level: Intermediate, Experienced
-source-git-commit: a1f479538a2d93a2ec13e35cb6813e09c8c4a5f8
+exl-id: 799978e7-025d-4ab0-b198-0e568e4f8ea9
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '804'
 ht-degree: 1%
 
 ---
@@ -59,7 +60,7 @@ ht-degree: 1%
 
 별칭을 만들려면 다음 단계를 수행하십시오.
 
-1. **[!UICONTROL Add]** 탭의 **[!UICONTROL Alias]** 단추를 클릭합니다.
+1. **[!UICONTROL Alias]** 탭의 **[!UICONTROL Add]** 단추를 클릭합니다.
 1. 변환할 별칭을 입력하고 드롭다운 목록에서 적용할 값을 선택합니다.
 
    ![새 별칭 만들기](assets/new-alias.png)
@@ -92,7 +93,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->**[!UICONTROL Hits]** 하위 탭의 **[!UICONTROL Alias]** 열에서 별칭 발생을 추적할 수 있습니다. 이 값이 입력된 횟수를 표시할 수 있습니다.  [자세히 알아보기](#calculate-entry-occurrences)
+>**[!UICONTROL Alias]** 하위 탭의 **[!UICONTROL Hits]** 열에서 별칭 발생을 추적할 수 있습니다. 이 값이 입력된 횟수를 표시할 수 있습니다.  [자세히 알아보기](#calculate-entry-occurrences).
 
 ### 데이터 정리 실행 {#running-data-cleansing}
 

@@ -6,7 +6,7 @@ feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
 source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
 workflow-type: tm+mt
-source-wordcount: '3126'
+source-wordcount: '3145'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 7%
 캠페인은 정의된 임계값 및 메시지 가중치를 기반으로 선택됩니다.
 
 * 임계값은 지정된 기간 내에 지정된 수신자에 대해 승인된 가장 높은 게재 수입니다. 또는 변수를 설정할 수 있습니다. 유형화 규칙 설정에서 설정되거나 계산됩니다. [자세히 알아보기](#maximum-number-of-messages).
-* 게재 가중치를 통해 압력 관리 프레임워크 내에서 최우선 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지에 우선 순위가 있습니다. [자세히 알아보기](#message-weight).
+* 게재 가중치를 통해 압력 관리 프레임워크 내에서 최우선 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지는 우선순위가 높습니다. [자세히 알아보기](#message-weight).
 
 중재에는 진행 중인 캠페인보다 비중이 큰 예약된 캠페인이 과도한 프로필 요청으로 이어지지 않도록 하는 것이 포함됩니다. 이 경우 프로필이 게재에서 제외됩니다.
 

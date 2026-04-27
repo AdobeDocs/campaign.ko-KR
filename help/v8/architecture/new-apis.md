@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
@@ -212,4 +212,4 @@ Campaign의 구독 관리는 [이 페이지](../start/subscriptions.md)에 설�
 
 **관련 항목**
 
-* [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ko){target="_blank"}
+* [캠페인 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html){target="_blank"}

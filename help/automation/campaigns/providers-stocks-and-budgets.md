@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
 source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1835'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
    ![](assets/supplier-new-template.png)
 
-1. 각 프로세스 유형(DM/이메일 등을 통한 게재)에 대한 비용 범주를 만듭니다. 또는 작업)을 참조하십시오. 이렇게 하려면 **[!UICONTROL Cost categories]** 탭을 클릭한 다음 **[!UICONTROL Add]** 단추를 클릭하고 각 비용 범주의 매개 변수를 입력합니다.
+1. 각 프로세스 유형(DM/이메일 등으로 전달 또는 작업)에 대한 비용 범주를 만듭니다. 이렇게 하려면 **[!UICONTROL Cost categories]** 탭을 클릭한 다음 **[!UICONTROL Add]** 단추를 클릭하고 각 비용 범주의 매개 변수를 입력합니다.
 
    ![](assets/add-cost-categories.png)
 
@@ -139,7 +139,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 서비스 공급자는 캠페인 게재와 연결됩니다. 게재 템플릿에서 참조되어 이 템플릿을 통해 만든 게재에서 서비스를 제공합니다.
 
-서비스를 선택하면 정의된 처리 옵션과 함께 게재 유형에 해당하는 비용 범주(DM, 이메일 등)가 중앙 표에 자동으로 표시됩니다.
+서비스를 선택하면 게재 유형(DM, 이메일 등)에 해당하는 비용 범주 정의된 처리 옵션과 함께 중앙 테이블에 자동으로 표시됩니다.
 
 >[!NOTE]
 >

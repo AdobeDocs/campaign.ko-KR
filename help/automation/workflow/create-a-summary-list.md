@@ -99,7 +99,7 @@ Phone;500;London 5
 이제 링크가 만들어졌으므로 &quot;스토어&quot; 스키마, 즉 &quot;우편번호 참조&quot; 필드에서 워크플로우의 작업 테이블에 열을 추가합니다.
 
 1. 데이터 보강 활동을 엽니다.
-1. **[!UICONTROL Edit additional data]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Edit additional data]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Output columns]**&#x200B;에 &quot;우편번호 참조&quot; 필드를 추가합니다.
 
 ![](assets/uc2_enrich_enrich5.png)
@@ -150,7 +150,7 @@ Phone;500;London 5
 
    ![](assets/uc2_enrich_enrich10.png)
 
-1. **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. 각 연락처에 대한 구매 총액을 계산하려면 다음 표현식을 추가합니다. &quot;Sum(@prodprice)&quot;
 
    ![](assets/uc2_enrich_enrich6.png)

@@ -6,8 +6,8 @@ role: User, Developer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1750'
-ht-degree: 7%
+source-wordcount: '1783'
+ht-degree: 8%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->[Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ko){target="_blank"}을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다.
+>[Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다.
 >
 >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel){target="_blank"}에 자세히 설명되어 있습니다.
 >
@@ -118,7 +118,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->이 보고서에 표시되는 도메인 이름은 큐브 수준에서 정의됩니다. 이 값을 변경하려면 **[!UICONTROL Delivery logs (broadlogrcp)]** 큐브를 편집하십시오. 자세한 정보는 [이 섹션](gs-cubes.md)을 참조하세요. **[!UICONTROL Others]** 범주에 특정 클래스에 속하지 않는 도메인 이름이 포함되어 있습니다.
+>이 보고서에 표시되는 도메인 이름은 큐브 수준에서 정의됩니다. 이 값을 변경하려면 **[!UICONTROL Delivery logs (broadlogrcp)]** 큐브를 편집하십시오. 이 작업에 대한 자세한 정보는 [이 섹션](gs-cubes.md)을 참조하십시오. **[!UICONTROL Others]** 범주에 특정 클래스에 속하지 않는 도메인 이름이 포함되어 있습니다.
 
 ## 브라우저 {#browsers}
 

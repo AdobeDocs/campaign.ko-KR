@@ -6,7 +6,7 @@ role: Developer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '3025'
+source-wordcount: '3090'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-이 보고서는 **[!UICONTROL Consolidated tracking]** 테이블(nms:trackingStats)을 기반으로 합니다. 이 집계 테이블은 보고서를 표시할 때 **[!UICONTROL Recipient tracking logs]** 테이블(nms:trackingLogRcp) 대신 성능상의 이유로 사용되며 실시간으로 계산되지 않습니다. 이 테이블은 추적 로그를 검색한 후 몇 분 후에 생성됩니다. 지표가 최신 상태이면 **지표 추적** 보고서의 지표와 같은 결과가 나옵니다. @totalclicks 표시기는 5분 동안 총 클릭 수를 표현합니다.
+이 보고서는 **[!UICONTROL Consolidated tracking]** 테이블(nms:trackingStats)을 기반으로 합니다. 이 집계 테이블은 보고서를 표시할 때 **[!UICONTROL Recipient tracking logs]** 테이블(nms:trackingLogRcp) 대신 성능상의 이유로 사용되며 실시간으로 계산되지 않습니다. 추적 로그가 검색되고 몇 분 후에 테이블이 생성됩니다. 지표가 최신 상태이면 **지표 추적** 보고서의 지표와 같은 결과가 나옵니다. @totalclicks 표시기는 5분 동안 총 클릭 수를 표현합니다.
 
 ## 비게재 항목 및 바운스 {#non-deliverables-and-bounces-1}
 
@@ -356,7 +356,7 @@ ht-degree: 3%
    <td> 새 연락처<br /> </td> 
    <td> @newContacts<br /> </td> 
    <td> 받는 사람에게 연결된 방문자 수 수입니다.<br /> </td> 
-   <td> 수식: count(@id)<br /> 필터: @recipient-id!= 0<br /> </td> 
+   <td> 수식: count(@id)<br /> 필터: @recipient-id != 0<br /> </td> 
   </tr> 
   <tr> 
    <td> 열기<br /> </td> 
@@ -912,7 +912,7 @@ ht-degree: 3%
 
 ## 기타 표시기 {#other-indicators}
 
-**게재(nms**) > 표시기&#x200B;**노드를 통해 액세스되는 :delivery전송됨** 표시기(@sent)는 서비스 공급자에게 보낸 총 SMS 수에 해당합니다. 이 지표는 SMS 게재에만 사용되며 다른 유형의 게재에는 사용할 수 없습니다(**@success** 및 **@processed** 지표와 혼동하지 마십시오).
+**게재(nms:delivery) > 표시기** 노드를 통해 액세스되는 **전송됨** 표시기(@sent)는 서비스 공급자에게 보낸 총 SMS 수에 해당합니다. 이 지표는 SMS 게재에만 사용되며 다른 유형의 게재에는 사용할 수 없습니다(**@success** 및 **@processed** 지표와 혼동하지 마십시오).
 
 ## 표시기 동기화 {#indicator-synchronization}
 

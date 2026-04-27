@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 예약
+title: 스케줄러
 description: 예약 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows
 role: User
@@ -8,12 +8,12 @@ version: Campaign v8, Campaign Classic v7
 exl-id: ed70d2d3-251e-4ee8-84d4-73ad03e8dd35
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '396'
 ht-degree: 8%
 
 ---
 
-# 예약 {#scheduler}
+# 스케줄러 {#scheduler}
 
 
 
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 **분기당 하나의 일정을 사용** - 워크플로우의 각 분기에는 하나의 **[!UICONTROL Scheduler]** 활동만 있어야 합니다. 워크플로우에서 활동을 사용하는 모범 사례에 대한 자세한 내용은 [워크플로우 모범 사례 페이지](workflow-best-practices.md#using-activities)를 참조하세요.
 
-**워크플로우 동시 실행 방지** - 워크플로우가 스케줄러에 의해 트리거되는 경우 워크플로우의 여러 인스턴스가 동시에 실행될 수 있음을 유의하십시오. 예를 들어 스케줄러가 매시간마다 워크플로우를 트리거하지만 워크플로우 실행이 한 시간 이상 걸리는 경우 실행이 중복될 수 있습니다. 이 문제를 방지하려면 여러 개의 동시 실행을 방지하는 확인 설정을 고려하십시오. [동시 여러 워크플로우 실행을 방지하는 방법을 알아봅니다](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
+**워크플로우 동시 실행 방지** - 워크플로우가 스케줄러에 의해 트리거되는 경우 워크플로우의 여러 인스턴스가 동시에 실행될 수 있음을 유의하십시오. 예를 들어 스케줄러가 매시간마다 워크플로우를 트리거하지만 워크플로우 실행이 1시간 이상 걸리는 경우 실행이 중복될 수 있습니다.이를 방지하려면 여러 개의 동시 실행을 방지하는 확인 설정을 고려하십시오. [동시 여러 워크플로우 실행을 방지하는 방법을 알아봅니다](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
 
 **지연된 전환에 대한 계정** - 워크플로우가 장기 실행 작업(가져오기 등)을 실행 중이거나 wfserver 모듈이 일시적으로 중지된 경우 스케줄러에 의해 트리거된 전환이 지연될 수 있습니다. 이를 완화하려면 스케줄러의 활성화 시간을 제한하여 작업이 정의된 시간 범위 내에서 실행되도록 합니다.
 

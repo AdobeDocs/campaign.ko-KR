@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 52d8e2a5-9fdf-498a-bdbd-13a9935a94d6
 source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Adobe Campaign과 Adobe Journey Optimizer 간의 통합을 통해 Adobe Journey 
 ![](assets/ajo-integration.png)
 
 
-[이 전체 샘플에서 이 통합을 살펴보세요](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}.
+[이 전체 샘플에서 이 통합을 살펴보세요](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}.
 
 
-[Journey Optimizer 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.
+[Journey Optimizer 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.

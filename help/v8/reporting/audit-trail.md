@@ -6,7 +6,7 @@ feature: Audit Trail, Monitoring, Workflows
 exl-id: 6a937575-42d4-4dc5-8168-43c25bb2cde6
 source-git-commit: b4b361a4aabd1b33554166c2638989b99a02baec
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '626'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ Adobe Campaign의 **[!UICONTROL Audit trail]** 기능은 인스턴스 내의 중
 
 * **옵션 감사 추적**&#x200B;을 통해 활동 및 옵션에 대한 마지막 수정 사항을 확인할 수 있습니다.
 
-  옵션에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)를 참조하세요.
+  옵션에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)를 참조하세요.
 
 * **게재 감사 추적**&#x200B;을 통해 활동 및 게재에 대한 마지막 수정 사항을 확인할 수 있습니다.
 
@@ -128,4 +128,4 @@ Adobe Campaign의 **[!UICONTROL Audit trail]** 기능은 인스턴스 내의 중
 
    ![](assets/audit-trail-4.png)
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.

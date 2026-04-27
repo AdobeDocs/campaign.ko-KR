@@ -8,7 +8,7 @@ exl-id: bf1ae889-9c07-4acf-8fd0-55b57151bc47
 version: Campaign v8, Campaign Classic v7
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1944'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ XML 문서는 `<package>` 요소로 시작하고 끝나야 합니다. 다음에 
 
    >[!CAUTION]
    >
-   >**[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** 또는 **[!UICONTROL Plan]** 형식 폴더를 내보내는 경우 일부 데이터가 손실될 수 있으므로 **xtk:folder**&#x200B;을(를) 선택하지 마십시오. 폴더 **nms:offerCategory**(오퍼 범주의 경우), **nms:offerEnv**(오퍼 환경의 경우), **nms:program**(프로그램의 경우), **nms:plan**(플랜의 경우)에 해당하는 엔터티를 선택하십시오.
+   >**[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** 또는 **[!UICONTROL Plan]** 형식 폴더를 내보내는 경우 일부 데이터가 손실될 수 있으므로 **xtk:folder**&#x200B;을(를) 선택하지 마십시오. 폴더에 해당하는 엔터티를 선택하십시오. 오퍼 범주의 경우 **nms:offerCategory**, 오퍼 환경의 경우 **nms:offerEnv**, 프로그램의 경우 **nms:program**, 플랜의 경우 **nms:plan**.
 
    종속성 메커니즘은 엔티티 내보내기 시퀀스를 제어합니다. 자세한 내용은 [종속성 관리](#manage-dependencies)를 참조하세요.
 

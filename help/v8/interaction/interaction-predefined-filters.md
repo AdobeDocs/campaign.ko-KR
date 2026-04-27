@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
 source-git-commit: c748654c76c6b6ce8ad4d4886a1f73004a41e7ac
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '166'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Adobe Campaign Web UI는 특정 요구 사항에 맞게 사전 정의된 필터를 손쉽게 관리하고 사용자 정의할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 만들고 나중에 사용할 수 있도록 저장하십시오. 웹 UI용 사전 정의된 필터에 대한 자세한 내용은 [Adobe Campaign 웹 UI 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/predefined-filters){target=_blank}를 참조하세요.
+>Adobe Campaign Web UI는 특정 요구 사항에 맞게 사전 정의된 필터를 손쉽게 관리하고 사용자 정의할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 만들고 나중에 사용할 수 있도록 저장하십시오. 웹 UI용 사전 정의된 필터에 대한 자세한 내용은 [Adobe Campaign 웹 UI 설명서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/predefined-filters){target=_blank}를 참조하세요.
 
 
 사전 정의된 필터를 만들려면 다음 프로세스를 적용합니다.
@@ -27,7 +27,7 @@ ht-degree: 7%
 
    ![](assets/offer_filter_create_005.png)
 
-1. **[!UICONTROL New]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/offer_filter_create_001.png)
 

@@ -8,15 +8,15 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 794de398-f35d-4c2b-af29-d6fd38eb9394
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
 
 # 파일 전송{#file-transfer}
 
-**파일 전송** 활동을 사용하면 파일을 받거나 보내고, 파일의 존재 여부를 테스트하거나, 서버에 있는 파일을 나열할 수 있습니다. 사용되는 프로토콜은 Azure Blob Storage, Amazon Simple Storage Service(S3), FTP 또는 SFTP입니다.
-S3, Azure Blob Storage 또는 SFTP 연결을 통해 Adobe Real-time Customer Data Platform을 사용하여 세그먼트 데이터를 Adobe Campaign으로 가져올 수도 있습니다. 자세한 정보는 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ko){target="_blank"}를 참조하세요.
+**파일 전송** 활동을 사용하면 파일을 받거나 보내고, 파일의 존재 여부를 테스트하거나, 서버에 있는 파일을 나열할 수 있습니다. 사용된 프로토콜은 Azure Blob Storage, Amazon Simple Storage Service(S3), FTP 또는 SFTP입니다.
+S3, Azure Blob Storage 또는 SFTP 연결을 통해 Adobe Real-time Customer Data Platform을 사용하여 세그먼트 데이터를 Adobe Campaign으로 가져올 수도 있습니다. 자세한 정보는 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}를 참조하세요.
 
 ## 속성 {#properties}
 
@@ -83,7 +83,7 @@ S3, Azure Blob Storage 또는 SFTP 연결을 통해 Adobe Real-time Customer Dat
 
 * **[!UICONTROL Display the session logs]**
 
-  Azure Blob 저장 공간, S3, FTP 또는 SFTP 전송 로그를 복구하고 워크플로우 로그에 포함할 수 있습니다.
+  Azure Blob 저장소, S3, FTP 또는 SFTP 전송의 로그를 복구하고 워크플로우 로그에 포함할 수 있습니다.
 
 * **[!UICONTROL Disable passive mode]**
 

@@ -8,8 +8,8 @@ badge: label="제한 공개" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
 source-git-commit: 52ea7f0a7690ef656568cc75925b9982e1f475e9
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 2%
+source-wordcount: '1424'
+ht-degree: 3%
 
 ---
 
@@ -61,7 +61,7 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 
 ![](assets/push-config-2.png)
 
-1. **필드에 모바일 앱**&#x200B;번들 ID **[!UICONTROL App ID (iOS Bundle ID)]**&#x200B;을(를) 입력하십시오.
+1. **[!UICONTROL App ID (iOS Bundle ID)]** 필드에 모바일 앱 **번들 ID**&#x200B;을(를) 입력하십시오.
 
    앱 번들 ID는 Apple 개발자 계정의 **XCode**&#x200B;에 있는 기본 대상의 **일반** 탭에서 찾을 수 있습니다.
 
@@ -239,8 +239,8 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. 인스턴스 세부 사항을 입력합니다.
 
-   * Campaign의 **[!UICONTROL Registration endpoint]** > **[!UICONTROL Tracking endpoint]** > **[!UICONTROL Tools]** 메뉴에서 **[!UICONTROL Advanced]** 또는 **[!UICONTROL Deployment wizard]** URL을 찾을 수 있습니다.
-   * **[!UICONTROL Integration keys]**&#x200B;이 섹션[에 구성된 모바일 앱에서 &#x200B;](#create-app)을(를) 찾을 수 있습니다.
+   * Campaign의 **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Deployment wizard]** 메뉴에서 **[!UICONTROL Registration endpoint]** 또는 **[!UICONTROL Tracking endpoint]** URL을 찾을 수 있습니다.
+   * [이 섹션](#create-app)에 구성된 모바일 앱에서 **[!UICONTROL Integration keys]**&#x200B;을(를) 찾을 수 있습니다.
 
    ![](assets/push-config-17.png)
 
@@ -252,7 +252,7 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 ## 모바일 애플리케이션에 Campaign Classic 추가 {#campaign-mobile-app}
 
-Adobe Experience Platform 모바일 SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 구동하는 데 도움이 됩니다. SDK 구성은 유연한 구성 및 확장 가능한 규칙 기반 통합을 위해 데이터 수집 UI를 통해 관리됩니다.
+Adobe Experience Platform 모바일 SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 구동하는 데 도움이 됩니다. SDK 구성은 데이터 수집 UI를 통해 관리되므로 유연한 구성과 확장 가능한 규칙 기반 통합을 이용할 수 있습니다.
 
 [Adobe Developer 설명서에서 자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
 

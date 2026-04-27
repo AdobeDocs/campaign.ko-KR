@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1110'
 ht-degree: 14%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->&quot;플랫&quot; 구조 파일만 지원됩니다(예: CSV, TXT 등). XML 형식은 사용하지 않는 것이 좋습니다. 클라이언트 콘솔을 사용하면 최대 150MB의 크기로 파일을 로드할 수 있습니다. 웹 사용자 인터페이스에서 파일 로드 활동의 제한은 50MB입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=ko){target="_blank"}
+>&quot;플랫&quot; 구조 파일만 지원됩니다(예: CSV, TXT 등). XML 형식은 사용하지 않는 것이 좋습니다. 클라이언트 콘솔을 사용하면 최대 150MB의 크기로 파일을 로드할 수 있습니다. 웹 사용자 인터페이스에서 파일 로드 활동의 제한은 50MB입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 

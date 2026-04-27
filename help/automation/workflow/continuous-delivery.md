@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '370'
 ht-degree: 10%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 10%
 * 스키마
 * recCount
 
-이 세 값 세트는 즉시 게재 시 발생하는 대상을 식별합니다. **[!UICONTROL tableName]**&#x200B;은(는) 대상 식별자를 기억시키는 테이블 이름이고, **[!UICONTROL schema]**&#x200B;은(는) 모집단 스키마(일반적으로 nms:recipient)이며, **[!UICONTROL recCount]**&#x200B;은(는) 테이블의 요소 수입니다.
+이 세 값 세트는 즉시 게재 시 발생하는 대상을 식별합니다. **[!UICONTROL tableName]**&#x200B;은(는) 대상 식별자를 기억시키는 테이블 이름이고, **[!UICONTROL schema]**&#x200B;은(는) 모집단의 스키마(일반적으로 nms:recipient)이며 **[!UICONTROL recCount]**&#x200B;은(는) 테이블의 요소 수입니다.
 
 보체와 관련된 전환은 동일한 매개 변수를 갖는다.
 
@@ -64,6 +64,6 @@ ht-degree: 10%
 
 이 비디오에서는 증분 쿼리를 사용하여 연속 게재를 구성하는 방법을 보여줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31881?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ko){target="_blank"}에서 사용할 수 있습니다.
+추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}에서 사용할 수 있습니다.

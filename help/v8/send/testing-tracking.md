@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
 source-git-commit: edbe7ab49a628436dfb4d27ae17122917d7371e9
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_user_email_del_tracking_param.png)
 
-[URL 추적 옵션에 대해 자세히 알아보기](url-tracking.md)
+   [URL 추적 옵션에 대해 자세히 알아보기](url-tracking.md)
 
 1. 테스트 수신자에게 게재를 보냅니다. [게재 전송에 대해 알아보기](configure-and-send.md)
 
@@ -77,9 +77,9 @@ ht-degree: 1%
    ![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 1. 추적 레코드가 다음과같이 표시되는지 확인합니다.
-   * **[!UICONTROL Mirror Page]** 열의 **[!UICONTROL Type]** 값
-   * 전자 메일 열기에 대한 **[!UICONTROL Open]** 열의 **[!UICONTROL Type]** 값
-   * 링크 클릭에 대한 **[!UICONTROL Email click]** 열의 **[!UICONTROL Type]** 값
+   * **[!UICONTROL Type]** 열의 **[!UICONTROL Mirror Page]** 값
+   * 전자 메일 열기에 대한 **[!UICONTROL Type]** 열의 **[!UICONTROL Open]** 값
+   * 링크 클릭에 대한 **[!UICONTROL Type]** 열의 **[!UICONTROL Email click]** 값
 
 ## 추적 테스트 문제 해결 {#troubleshooting-tracking-test}
 

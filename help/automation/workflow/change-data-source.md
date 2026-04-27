@@ -8,7 +8,7 @@ exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
 source-git-commit: 26829656f8e06434ca3207c0c7b62ba907765972
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 워크플로우 **[!UICONTROL Working table]**&#x200B;은(는) 워크플로우 활동과 데이터를 처리하고 공유하는 데 사용됩니다.
 
-기본적으로 **[!UICONTROL Working table]**&#x200B;은(는) 쿼리해야 하는 데이터의 원본과 동일한 데이터베이스에 만들어집니다.
+기본적으로 **[!UICONTROL Working table]**은(는) 쿼리해야 하는 데이터의 원본과 동일한 데이터베이스에 만들어집니다.
 예를 들어 클라우드 데이터베이스에 저장된 **[!UICONTROL Recipients]** 테이블을 쿼리하는 경우 워크플로우는 동일한 클라우드 데이터베이스에 **[!UICONTROL Working table]**&#x200B;을(를) 만듭니다.
 
 **[!UICONTROL Change Data Source]** 활동을 사용하여 **[!UICONTROL Working table]**&#x200B;에 대해 다른 데이터 원본을 사용하십시오.
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 **[!UICONTROL Change Data Source]** 활동을 사용하려면 다음을 수행해야 합니다.
 
-1. 워크플로우를 만듭니다.
+1. 워크플로 만들기.
 
 1. **[!UICONTROL Query]** 활동을 사용하여 타깃팅된 수신자를 쿼리합니다.
 

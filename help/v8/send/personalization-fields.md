@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 14a741dd-794e-4760-bfa3-bafbe993a3f7
 source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '329'
 ht-degree: 4%
 
 ---
@@ -65,4 +65,4 @@ ht-degree: 4%
 
 다음 비디오에서는 제목 줄과 이메일 게재 콘텐츠에 개인화 필드를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31879?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)

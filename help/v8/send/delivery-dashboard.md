@@ -5,9 +5,10 @@ feature: Monitoring
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+exl-id: 254765d3-f664-4200-9a70-f8876f2b2933
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1157'
 ht-degree: 3%
 
 ---
@@ -62,7 +63,7 @@ ht-degree: 3%
 
 ## 게재 보고서 {#delivery-reports}
 
-**[!UICONTROL Reports]** 탭에서 액세스할 수 있는 **[!UICONTROL Summary]** 링크를 사용하면 게재 작업과 관련된 보고서 세트(일반 게재 보고서, 자세한 보고서, 게재 보고서, 실패한 메시지 배포, 열람률, 클릭 수 및 트랜잭션 등)를 볼 수 있습니다.
+**[!UICONTROL Summary]** 탭에서 액세스할 수 있는 **[!UICONTROL Reports]** 링크를 사용하면 게재 작업과 관련된 보고서 세트(일반 게재 보고서, 자세한 보고서, 게재 보고서, 실패한 메시지 배포, 열람률, 클릭 수 및 트랜잭션 등)를 볼 수 있습니다.
 
 이 탭의 내용은 요구 사항에 따라 구성할 수 있습니다. 게재 보고서에 대한 자세한 정보는 [이 섹션](../reporting/delivery-reports.md)을 참조하세요.
 
@@ -164,4 +165,3 @@ ht-degree: 3%
 >[!NOTE]
 >
 >Campaign v8 Managed Cloud Services 사용자는 Adobe에서 서버 인프라 모니터링을 관리합니다. 게재 전송에서 지속적인 성능 문제가 발생하는 경우 게재 로그를 사용하여 Adobe 고객 지원 센터에 문의하십시오.
-

@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '2064'
-ht-degree: 0%
+source-wordcount: '2089'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 
 **관리** 권한이 있는 운영자만 Campaign 기술 워크플로우를 시작하고 수정할 수 있습니다. 이 [전용 섹션](monitor-technical-workflows.md)에서 기술 워크플로우를 모니터링하는 방법을 알아봅니다.
 
-트리 구조의 **[!UICONTROL Administration > Production > Technical workflows]** 노드에서 사용자 지정 기술 워크플로우를 만들 수 있습니다. 기술 워크플로우를 만드는 데 기본 템플릿을 사용할 수 있습니다. 필요에 맞게 구성할 수 있습니다. 그러나 이 프로세스는 전문가 사용자용으로 예약되어 있습니다. 기술 워크플로우에서 사용할 수 있는 활동은 타겟팅 워크플로우와 동일합니다. [자세히 알아보기](targeting-workflows.md)
+트리 구조의 **[!UICONTROL Administration > Production > Technical workflows]** 노드에서 사용자 지정 기술 워크플로우를 만들 수 있습니다. 기술 워크플로우를 만드는 데 기본 템플릿을 사용할 수 있습니다. 필요에 맞게 구성할 수 있습니다. 그러나 이 프로세스는 전문가 사용자용으로 예약되어 있습니다. 기술 워크플로우에서 사용할 수 있는 활동은 타겟팅 워크플로우와 동일합니다. [자세히 알아보기](targeting-workflows.md).
 
 ## 내장 기술 워크플로우 {#list-technical-workflows}
 
@@ -56,7 +56,7 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 | **FFDA를 즉시 배포**(ffdaDeploy) | 기본적으로 [Campaign Enterprise(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에만 설치됩니다. | 클라우드 데이터베이스에 대한 즉각적인 배포를 수행합니다. [데이터 복제에 대해 자세히 알아보기](../../v8/architecture/replication.md) |
 | **분산 마케팅 프로세스**(centralLocalMgt) | 중앙/로컬 마케팅(분산 마케팅) | 이 워크플로우는 분산 마케팅 모듈 사용과 관련된 처리를 시작합니다. 로컬 캠페인 생성을 시작하고 주문 및 캠페인 패키지 가용성과 관련된 알림을 관리합니다. |
 | **이벤트 제거**(webAnalyticsPurgeWebEvents) | 웹 분석 커넥터 | 이 워크플로우를 사용하면 수명 필드에 구성된 기간에 따라 데이터베이스 필드에서 모든 이벤트를 삭제할 수 있습니다. |
-| **Adobe Experience Cloud으로 대상 내보내기**(exportSharedAudience) | Adobe Experience Cloud과 통합 | 이 워크플로우에서는 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상은 사용하는 다른 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. |
+| **Adobe Experience Cloud으로 대상 내보내기**(exportSharedAudience) | Adobe Experience Cloud과 통합 | 이 워크플로우에서는 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상자는 사용하고 있는 여러 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. |
 | **예측**(예측) | 기본적으로 설치됨 | 이 워크플로우는 임시 캘린더에 저장된 게재를 분석합니다(임시 로그 생성). 기본적으로 매일 오전 1시에 트리거됩니다. |
 | **전체 집계 계산(propositionrcp 큐브)**(agg_nmspropositionrcp_full) | 오퍼 엔진(상호 작용) | 이 워크플로우는 오퍼 제안 큐브에 대한 전체 집계를 업데이트합니다. 기본적으로 매일 오전 6시에 트리거됩니다. 이 집계는 채널, 게재, 마케팅 오퍼 및 날짜 차원을 캡처합니다. 그런 다음 오퍼 제안 큐브를 사용하여 오퍼를 기반으로 보고서를 생성합니다. [이 섹션](../../v8/reporting/gs-cubes.md)에서 큐브에 대해 자세히 알아보세요. |
 | **변환된 연락처 식별**(webAnalyticsFindConverted) | 웹 분석 커넥터 | 이 워크플로우는 리마케팅 캠페인 후 구매를 완료한 사이트 방문자를 색인화합니다. 이 워크플로우에서 복구한 데이터는 리마케팅 효율성 보고서에서 액세스할 수 있습니다(이 페이지 참조). |
@@ -64,7 +64,7 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 | **캠페인의 게재에 대한 작업**(deliveryMgt) | 기본적으로 설치됨 | 이 워크플로우는 승인된 게재를 트리거하고 외부 게재에 대한 서비스 공급자의 사후 처리를 시작합니다. 승인 알림과 미리 알림도 보냅니다. |
 | 서비스 공급자의 **작업**(supplierMgt) | 기본적으로 설치됨 | 게재가 승인되면 이 워크플로우는 공급자 처리(라우터로의 이메일 전송 및 사후 처리)를 시작합니다. |
 | **MID에서 LineUserID로 마이그레이션**(MIDToUserIDMigration) | LINE 채널 | 이 워크플로우는 LINE V1에서 LINE V2로 마이그레이션할 LINE V2 사용자의 ID를 생성합니다. |
-| **메시지 센터 &lt;external_account_name>**(mcSynch_&lt;external_account_name>) | 트랜잭션 메시지 제어(메시지 센터 - 제어) | 이 워크플로우는 <ul><li>작업에서 처리된 이벤트 목록을 복구합니다.</li><li>게재 메시지 자격을 복구하려면 NmsBroadLogMsg 테이블과 동기화합니다.</li><li>nmsBroadLogMsg 테이블과의 동기화가 완료되는 즉시 이벤트 게재 로그를 복구합니다.</li><li>는 게재 URL에 대한 추적을 복구하기 위해 NmsTrackingUrl 테이블과 동기화합니다.</li><li>nmsTrackingUrl 테이블과의 동기화가 완료되는 즉시 이벤트 추적 URL을 복구합니다.</li><li>게재를 보낸 후 3시간마다 격리된 모든 이메일 주소를 복구할 수 있습니다.</li></ul> |
+| **메시지 센터 &lt;external_account_name>** (mcSynch_&lt;external_account_name>) | 트랜잭션 메시지 제어(메시지 센터 - 제어) | 이 워크플로우는 <ul><li>작업에서 처리된 이벤트 목록을 복구합니다.</li><li>게재 메시지 자격을 복구하려면 NmsBroadLogMsg 테이블과 동기화합니다.</li><li>nmsBroadLogMsg 테이블과의 동기화가 완료되는 즉시 이벤트 게재 로그를 복구합니다.</li><li>는 게재 URL에 대한 추적을 복구하기 위해 NmsTrackingUrl 테이블과 동기화합니다.</li><li>nmsTrackingUrl 테이블과의 동기화가 완료되는 즉시 이벤트 추적 URL을 복구합니다.</li><li>게재를 보낸 후 3시간마다 격리된 모든 이메일 주소를 복구할 수 있습니다.</li></ul> |
 | **MessageCenter 전체 집계 계산**(agg_messageCenter_full) | 트랜잭션 메시지 제어(메시지 센터 - 제어) | 이 워크플로우는 메시지 센터 큐브에 대한 전체 집계를 업데이트합니다. 기본적으로 매일 오전 3시에 트리거됩니다. 이 집계는 채널, 날짜, 상태 및 이벤트 유형과 같은 차원을 캡처합니다. 그런 다음 메시지 센터 큐브를 사용하여 이벤트를 기반으로 보고서를 생성합니다. 큐브에 대한 자세한 내용은에서 확인할 수 있습니다.  |
 | **중간 소싱(게재 카운터)**(defaultMidSourcingDlv) | 중간 소싱으로 전송 | 이 워크플로우는 중간 소싱 서버의 게재에 대한 카운트 정보를 수집합니다. 카운트 정보에는 전송된 게재 수 등과 같은 일반 게재 지표가 포함됩니다. 열림 등의 추적 정보는 포함되지 않습니다. 기본적으로 10분마다 트리거됩니다. |
 | **중간 소싱(게재 로그)**(defaultMidSourcingLog) | 중간 소싱으로 전송 | 이 워크플로우는 중간 소싱 서버에서 게재 로그를 수집합니다. 기본적으로 매시간 트리거됩니다. |
@@ -84,7 +84,7 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 | **참조 테이블 복제**(ffdaReplicateReferenceTables) | 기본적으로 [Campaign Enterprise(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에만 설치됩니다. | Campaign 로컬 데이터베이스(PostgreSQL) 및 클라우드 데이터베이스([!DNL Snowflake])에 있어야 하는 기본 제공 테이블의 자동 복제를 수행합니다. 매시간, 매일 실행되도록 예약되어 있습니다. **lastModified** 필드가 있으면 복제가 점진적으로 발생하고 그렇지 않으면 전체 테이블이 복제됩니다. [데이터 복제에 대해 자세히 알아보기](../../v8/architecture/replication.md) |
 | **스테이징 데이터 복제**(ffdaReplicateStagingData) | 기본적으로 [Campaign Enterprise(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에만 설치됩니다. | 단일 호출에 대한 스테이징 데이터를 복제합니다. 매시간, 매일 실행되도록 예약되어 있습니다. [데이터 복제에 대해 자세히 알아보기](../../v8/architecture/replication.md) |
 | **집계 보고**(reportingAggregates) | 게재 | 이 워크플로우는 보고서에 사용된 합계를 업데이트합니다. 기본적으로 매일 오전 2시에 트리거됩니다. |
-| **지표 및 캠페인 특성 전송**(webAnalyticsSendMetrics) | 웹 분석 커넥터 | 이 워크플로우를 사용하면 Adobe® Analytics 커넥터를 통해 Adobe Campaign에서 Adobe Experience Cloud Suite로 이메일 캠페인 지표를 보낼 수 있습니다. 관련 지표는 다음과 같습니다. 전송됨(iSent), 총 열람 수(iTotalRecipientOpen), 클릭한 총 수신자 수(iTotalRecipientClick), 오류(iError), 옵트아웃(optOut) |
+| **지표 및 캠페인 특성 전송**(webAnalyticsSendMetrics) | 웹 분석 커넥터 | 이 워크플로우를 사용하면 ® Analytics 커넥터를 통해 Adobe Campaign에서 Adobe Experience Cloud Suite로 이메일 캠페인 지표를 보낼 수 있습니다. 관련 지표는 다음과 같습니다. 전송됨(iSent), 총 열람 수(iTotalRecipientOpen), 클릭한 총 수신자 수(iTotalRecipientClick), 오류(iError), 옵트아웃(optOut) |
 | **재고: 주문 및 경고**(stockMgt) | 기본적으로 설치됨 | 이 워크플로우는 주문 라인에서 재고 계산을 시작하고 경고 경고 임계값을 관리합니다. |
 | **Adobe Experience Platform 데이터 수집에서 모바일 앱 동기화**(syncWithLaunch) | 기본적으로 설치됨, v8.5부터 | 이 워크플로우는 데이터 수집에서 모바일 속성을 Adobe Campaign에 자동으로 동기화합니다. |
 | **추적**(추적) | 기본적으로 설치됨 | 이 워크플로우는 추적 정보의 복구 및 통합을 수행합니다. 또한 특히 메시지 센터 아카이빙 워크플로우에서 사용하는 추적 및 게재 통계를 다시 계산할 수 있습니다. 기본적으로 시간당 한 번 트리거됩니다. |

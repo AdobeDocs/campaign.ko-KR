@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '998'
 ht-degree: 4%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 4%
 
 ![](assets/campaign-template-select-modules.png)
 
-기능을 선택하지 않으면 프로세스와 관련된 요소(메뉴, 아이콘, 옵션, 탭, 하위 탭 등)가 템플릿 인터페이스나 이 템플릿을 기반으로 하는 캠페인에 표시되지 않습니다. 캠페인 세부 정보의 왼쪽에 있는 탭과 사용 가능한 탭은 템플릿에서 선택한 기능과 일치합니다. 예를 들어 **경비 및 목표** 기능을 사용할 수 없으므로 이 템플릿을 기반으로 하는 캠페인에 해당 **[!UICONTROL Budget]** 탭이 표시되지 않습니다.
+기능을 선택하지 않으면 프로세스와 관련된 요소(메뉴, 아이콘, 옵션, 탭, 하위 탭 등)가 템플릿의 인터페이스 또는 이 템플릿을 기반으로 하는 캠페인에 나타나지 마십시오. 캠페인 세부 정보의 왼쪽에 있는 탭과 사용 가능한 탭은 템플릿에서 선택한 기능과 일치합니다. 예를 들어 **경비 및 목표** 기능을 사용할 수 없으므로 이 템플릿을 기반으로 하는 캠페인에 해당 **[!UICONTROL Budget]** 탭이 표시되지 않습니다.
 
 또한 구성 창에 대한 단축키가 캠페인 대시보드에 추가됩니다. 기능을 활성화하면 직접 링크를 통해 캠페인 대시보드에서 액세스할 수 있습니다.
 
@@ -133,13 +133,13 @@ ht-degree: 4%
 
 * **게재 개요**
 
-  이 모듈을 선택하면 **[!UICONTROL Delivery outlines]** 탭에 **[!UICONTROL Documents]** 하위 탭이 추가되어 캠페인에 대한 게재 개요를 정의합니다. [이 섹션](marketing-campaign-assets.md#delivery-outlines)에서 게재 개요에 대해 자세히 알아보세요.
+  이 모듈을 선택하면 **[!UICONTROL Documents]** 탭에 **[!UICONTROL Delivery outlines]** 하위 탭이 추가되어 캠페인에 대한 게재 개요를 정의합니다. [이 섹션](marketing-campaign-assets.md#delivery-outlines)에서 게재 개요에 대해 자세히 알아보세요.
 
   ![](assets/template-activate-4.png)
 
 * **타깃팅 및 워크플로**
 
-  **[!UICONTROL Targeting and workflows]** 모듈을 선택하면 이 템플릿을 기반으로 캠페인용 워크플로우를 하나 이상 만들 수 있는 탭이 추가됩니다. 이 템플릿을 기반으로 각 캠페인에 대해 개별적으로 워크플로우를 구성할 수도 있습니다. [이 섹션](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow)에서 캠페인 워크플로우에 대해 자세히 알아보세요.
+  **[!UICONTROL Targeting and workflows]** 모듈을 선택하면 이 템플릿을 기반으로 캠페인용 워크플로우를 하나 이상 만들 수 있는 탭이 추가됩니다. 이 템플릿을 기반으로 각 캠페인에 대해 개별적으로 워크플로우를 구성할 수도 있습니다.[이 섹션](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow)에서 캠페인 워크플로우에 대해 자세히 알아보세요.
 
   ![](assets/template-activate-5.png)
 
