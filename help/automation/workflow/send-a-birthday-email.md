@@ -192,6 +192,6 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 >
 >워크플로우를 실행하려면 Campaign 패키지와 관련된 기술 워크플로우를 시작해야 합니다. 자세한 내용은 [기술 워크플로우 목록](technical-workflows.md) 섹션을 참조하십시오.
 >
->캠페인에 대해 승인 단계를 활성화한 경우 이러한 단계를 확인한 후에만 게재가 전송됩니다. 자세한 내용은   섹션.
+>캠페인에 대해 승인 단계를 활성화한 경우 이러한 단계를 확인한 후에만 게재가 전송됩니다. 자세한 내용은 섹션을 참조하십시오.
 
 ![](assets/birthday-workflow_usecase_1.png)
