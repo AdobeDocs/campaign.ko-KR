@@ -98,4 +98,4 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 
 총 저장 용량은 기본 데이터베이스와 (선택 사항) Snowflake 보조 데이터베이스 간에 분할됩니다. 데이터가 저장되는 위치는 고객별 사용 사례에 따라 구현 또는 업그레이드 시 결정되어야 합니다.
 
-데이터베이스 사용량을 모니터링하는 방법은 [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}를 참조하세요.
+데이터베이스 사용량을 모니터링하는 방법은 [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=ko){target="_blank"}를 참조하세요.

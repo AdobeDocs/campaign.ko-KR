@@ -86,7 +86,7 @@ ht-degree: 1%
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. 테스트 데이터를 삽입합니다. [Campaign Classic v7 설명서에서 개인화 데이터에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. 테스트 데이터를 삽입합니다. [Campaign Classic v7 설명서에서 개인화 데이터에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 
