@@ -5,9 +5,9 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: fc0a610a2215db3bfc15c5df3a1a7d1d30783545
 workflow-type: tm+mt
-source-wordcount: '3682'
+source-wordcount: '3659'
 ht-degree: 3%
 
 ---
@@ -280,13 +280,13 @@ SR 형식은 SMPP 프로토콜 사양에 의해 엄격히 적용되지 않습니
 
 예를 들어 received_message_id 필드에서 ID를 캡처할 수 있습니다. 이를 위해 이 확인란을 활성화하면 다음 텍스트가 상태에 추가됩니다.
 
-0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739
+`0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739`
 
 이 예에서 0x001E는 선택적 필드의 태그이고 UUID는 필드의 값입니다.
 
 이제 이 값을 캡처하기 위해 SR 필드의 ID 추출 정규 표현식에서 다음 정규 표현식을 설정할 수 있습니다.
 
-\b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b
+`\b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b`
 
 >[!IMPORTANT]
 >
