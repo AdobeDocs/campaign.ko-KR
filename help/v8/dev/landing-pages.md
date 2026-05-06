@@ -7,8 +7,8 @@ level: Beginner
 exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
 source-git-commit: 465d5d4ba10596ad2c3ced1fe621a93327fc48ab
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 7%
+source-wordcount: '376'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->* Campaign 웹 사용자 인터페이스는 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다. [Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}에 대해 자세히 알아보세요.
+>* Campaign Web 사용자 인터페이스는 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다. [Adobe IMS(ID 관리 시스템)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}에 대해 자세히 알아보세요.
 >
 >* Campaign 웹 사용자 인터페이스에서 만드는 랜딩 페이지는 Campaign 클라이언트 콘솔에서 표시하거나 편집할 수 없습니다.
 >
@@ -57,11 +57,11 @@ ht-degree: 7%
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/lp-templates">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates">
 <img alt="유효성 검사" src="assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/lp-templates"><strong>랜딩 페이지 템플릿 작업</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates"><strong>랜딩 페이지 템플릿 작업</strong></a>
 </div>
 <p>
 </td>

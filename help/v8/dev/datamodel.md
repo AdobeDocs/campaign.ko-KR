@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '737'
 ht-degree: 5%
 
 ---
@@ -72,5 +72,5 @@ Campaign v8의 테이블 관리에 대한 더 나은 이해를 위해 [엔터프
 
 **관련 항목**
 
-[이 섹션](../start/import.md)에서 프로필을 가져오는 방법 살펴보기
+[이 섹션에서 프로필을 가져오는 방법을 알아보세요.](../start/import.md)
 [이 섹션](../start/audiences.md)에서 Campaign 대상에 대해 자세히 알아보기

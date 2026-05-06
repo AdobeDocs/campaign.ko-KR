@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '604'
 ht-degree: 3%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 3%
 
    ![](assets/wkf_cross-channel_9.png)
 
-1. 필터 설정의 **[!UICONTROL Behavior]** 드롭다운 목록에서 **[!UICONTROL Recipients who have not opened or clicked (email)]**&#x200B;을(를) 선택하고 게재 목록에서 보낼 오퍼가 포함된 이메일을 선택합니다. **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
+1. 필터 설정의 **[!UICONTROL Behavior]** 드롭다운 목록에서 **[!UICONTROL Recipients who have not opened or clicked (email)]**&#x200B;을(를) 선택하고 게재 목록에서 보낼 오퍼가 포함된 이메일을 선택합니다. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/wkf_cross-channel_10.png)
 

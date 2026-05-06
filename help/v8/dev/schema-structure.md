@@ -7,7 +7,7 @@ level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
 source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1447'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
 </srcSchema>
 ```
 
-데이터 스키마의 XML 문서에는 스키마 이름과 해당 네임스페이스를 채우려면 **`<srcschema>`**&#x200B;이름&#x200B;**및**&#x200B;네임스페이스&#x200B;**특성이 있는** 루트 요소가 있어야 합니다.
+데이터 스키마의 XML 문서에는 스키마 이름과 해당 네임스페이스를 채우려면 **이름** 및 **네임스페이스** 특성이 있는 **`<srcschema>`** 루트 요소가 있어야 합니다.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -122,7 +122,7 @@ ht-degree: 1%
 
 ## 데이터 유형 {#data-types}
 
-데이터 형식은 **및** 요소의 **`<attribute>`** type **`<element>`** 특성을 통해 입력됩니다.
+데이터 형식은 **`<attribute>`** 및 **`<element>`** 요소의 **type** 특성을 통해 입력됩니다.
 
 자세한 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ko#configuring-campaign-classic){target="_blank"}를 참조하세요.
 

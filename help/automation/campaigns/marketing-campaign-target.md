@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
 source-git-commit: 26829656f8e06434ca3207c0c7b62ba907765972
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1504'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 타겟팅은 스케줄(스케줄러) 또는 이벤트(외부 신호, 파일 가져오기 등)에 따라 자동 실행을 위해 프로그래밍될 수 있다.
 
-타깃팅 워크플로우 실행(실행, 중지, 일시 중지 등)과 관련된 작업은 **비동기** 프로세스입니다. 명령은 저장되며 서버에서 해당 명령을 적용할 수 있게 되면 즉시 적용됩니다.
+타겟팅 워크플로우 실행과 관련된 작업(실행, 중지, 일시 중지 등) **비동기** 프로세스입니다. 명령이 저장되며 서버에서 명령을 적용할 수 있는 즉시 적용됩니다.
 
 도구 모음 아이콘을 사용하면 타겟팅 워크플로우 실행에 관한 작업을 수행할 수 있습니다.
 

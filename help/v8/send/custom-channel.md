@@ -6,7 +6,7 @@ level: Beginner, Intermediate
 exl-id: d2d92de6-3974-41c5-a0fd-09bbf6cf0020
 source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '560'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Campaign 웹 UI에서 사용자 정의 화면 정의를 설정합니다.
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. 채널에 해당하는 탭을 선택하고 게재의 콘텐츠 화면에 필드가 표시되는 방법을 정의합니다. 화면 편집에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=ko#fields){target="_blank"}를 참조하세요.
+1. 채널에 해당하는 탭을 선택하고 게재의 콘텐츠 화면에 필드가 표시되는 방법을 정의합니다. 화면 편집에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}를 참조하세요.
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 

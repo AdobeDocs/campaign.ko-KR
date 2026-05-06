@@ -8,8 +8,8 @@ exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
 source-git-commit: adea4eb54f3d519802119646bc501aae2ef5f831
 workflow-type: tm+mt
-source-wordcount: '3845'
-ht-degree: 4%
+source-wordcount: '3864'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Campaign을 사용하면 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 불러오고, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 테이블에 직접 프로필 정보를 입력할 수 있습니다.
 
-프로필 가져오기는 **가져오기** 활동을 통해 워크플로를 통해 실행되는 전용 템플릿에서 구성됩니다. 일정에 따라 자동으로 반복될 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. [이 섹션](../../automation/workflow/recurring-import-workflow.md)에서 자세히 알아봅니다.
+프로필 가져오기는 **가져오기** 활동을 통해 워크플로를 통해 실행되는 전용 템플릿에서 구성됩니다. 일정에 따라 자동으로 반복될 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. [이 섹션](../../automation/workflow/recurring-import-workflow.md)에서 자세히 알아보십시오.
 
 ![](assets/import-wf.png)
 
@@ -56,7 +56,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 1. **[!UICONTROL Label]** 필드에 이 가져오기의 이름을 입력하십시오. 설명을 추가할 수 있습니다.
 1. 해당 필드에서 가져오기 유형을 선택합니다. 가져올 수 있는 유형에는 두 가지가 있습니다. **[!UICONTROL Simple import]**&#x200B;은(는) 한 개의 파일만 가져오고 **[!UICONTROL Multiple import]**&#x200B;은(는) 여러 개의 파일을 한 번에 가져옵니다.
 
-   여러 번 가져오려면 가져오기 도우미의 첫 번째 화면에 있는 **[!UICONTROL Multiple import]** 드롭다운 목록에서 **[!UICONTROL Import type]**&#x200B;을(를) 선택하십시오.
+   여러 번 가져오려면 가져오기 도우미의 첫 번째 화면에 있는 **[!UICONTROL Import type]** 드롭다운 목록에서 **[!UICONTROL Multiple import]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/s_ncs_user_import_wizard01_2.png)
 
@@ -262,7 +262,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
    1. 폴더로 가져오기
 
-      **[!UICONTROL Edit...]** 섹션의 **[!UICONTROL Import into a folder]** 링크를 사용하여 수신자를 가져올 폴더를 선택하거나 만들 수 있습니다. 기본적으로 정의된 파티션이 없으면 데이터를 연산자의 기본 폴더로 가져옵니다.
+      **[!UICONTROL Import into a folder]** 섹션의 **[!UICONTROL Edit...]** 링크를 사용하여 수신자를 가져올 폴더를 선택하거나 만들 수 있습니다. 기본적으로 정의된 파티션이 없으면 데이터를 연산자의 기본 폴더로 가져옵니다.
 
       >[!NOTE]
       >
@@ -282,7 +282,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
    1. 목록과 연결
 
-      **[!UICONTROL Edit...]** 섹션의 **[!UICONTROL Add recipients to a list]** 링크를 사용하여 수신자를 가져올 목록을 선택하거나 만들 수 있습니다.
+      **[!UICONTROL Add recipients to a list]** 섹션의 **[!UICONTROL Edit...]** 링크를 사용하여 수신자를 가져올 목록을 선택하거나 만들 수 있습니다.
 
       ![](assets/s_ncs_user_import_wizard05_5.png)
 
@@ -294,7 +294,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
    1. 서비스 구독
 
-      가져온 모든 수신자를 정보 서비스에 가입하려면 **[!UICONTROL Edit...]** 섹션의 **[!UICONTROL Subscribe recipients to a service]** 링크를 클릭하여 수신자가 가입할 정보 서비스를 선택하거나 만드십시오. **[!UICONTROL Send a confirmation message]** 옵션을 선택할 수 있습니다. 이 메시지의 내용은 구독 서비스와 연결된 게재 템플릿에 정의되어 있습니다.
+      가져온 모든 수신자를 정보 서비스에 가입하려면 **[!UICONTROL Subscribe recipients to a service]** 섹션의 **[!UICONTROL Edit...]** 링크를 클릭하여 수신자가 가입할 정보 서비스를 선택하거나 만드십시오. **[!UICONTROL Send a confirmation message]** 옵션을 선택할 수 있습니다. 이 메시지의 내용은 구독 서비스와 연결된 게재 템플릿에 정의되어 있습니다.
 
       ![](assets/s_ncs_user_import_wizard05_7.png)
 
@@ -316,7 +316,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 내보내기 작업을 사용하면 연락처, 클라이언트, 목록, 세그먼트 등 데이터베이스에서 데이터를 액세스하고 추출할 수 있습니다.
 
-예를 들어 스프레드시트에서 캠페인 추적 데이터(추적 내역 등)를 사용하는 것이 유용할 수 있습니다. 출력 데이터는 txt, CSV, TAB 또는 XML 형식일 수 있습니다.
+예를 들어 캠페인 추적 데이터(추적 내역 등)를 사용하는 것이 유용할 수 있습니다. 스프레드시트에서. 출력 데이터는 txt, CSV, TAB 또는 XML 형식일 수 있습니다.
 
 내보내기 도우미를 사용하여 내보내기를 구성하고, 해당 옵션을 정의하고, 실행을 시작할 수 있습니다. 수출의 유형(단순 또는 복수)과 운영자의 권리에 따라 그 내용이 달라지는 일련의 화면이다.
 
@@ -369,7 +369,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 * **[!UICONTROL Text]** 형식의 경우 구분 기호를 선택하여 열(탭, 쉼표, 세미콜론 또는 사용자 지정)과 문자열(작은 따옴표 또는 큰따옴표 또는 없음)을 구분합니다.
 * **[!UICONTROL text]** 및 **[!UICONTROL CSV]**&#x200B;의 경우 **[!UICONTROL Use first lines as column titles]** 옵션을 선택할 수 있습니다.
 * 날짜 형식과 숫자 형식을 나타냅니다. 이렇게 하려면 관련 필드의 **[!UICONTROL Edit]** 단추를 클릭하고 편집기를 사용합니다.
-* 열거형 값이 포함된 필드의 경우 **[!UICONTROL Export labels instead of internal values of enumerations]**&#x200B;을(를) 선택할 수 있습니다. 예를 들어 제목은 **1=Mr 형식으로 저장할 수 있습니다.**, **2=Miss**, **3=Mrs.**. 이 옵션을 선택하면 **Mr**, **Miss** 및 **Mrs**&#x200B;을(를) 내보냅니다.
+* 열거형 값이 포함된 필드의 경우 **[!UICONTROL Export labels instead of internal values of enumerations]**&#x200B;을(를) 선택할 수 있습니다. 예를 들어 제목은 **1=Mr**, **2=Miss**, **3=Mrs** 형식으로 저장할 수 있습니다. 이 옵션을 선택하면 **Mr**, **Miss** 및 **Mrs**&#x200B;을(를) 내보냅니다.
 
 ### 4단계 - 데이터 선택 {#step-4---data-selection}
 

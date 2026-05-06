@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1033'
 ht-degree: 18%
 
 ---
@@ -141,18 +141,18 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 다음 비디오에서는 임시 게재용 템플릿을 구성하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409249?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3409249?captions=kor&quality=12)
 
 ### 게재 템플릿 속성을 설정하는 방법
 
 다음 비디오는 게재 템플릿 속성을 설정하는 방법을 보여 주며 각 속성에 대해 자세히 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443408?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3443408?captions=kor&quality=12)
 
 ### 임시 게재 템플릿을 배포하는 방법
 
 이 비디오에서는 임시 이메일 게재 템플릿을 배포하는 방법을 설명하고 이메일 게재와 게재 워크플로우의 차이점을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3444964?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3444964?captions=kor&quality=12)
 
 추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ko){target="_blank"}에서 사용할 수 있습니다.

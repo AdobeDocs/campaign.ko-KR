@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1200'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 1%
 
    ![](assets/messagecenter_create_custo_1.png)
 
-1. **요소 이름** 구문을 사용하여 태그를 입력합니다.아래 표시된 것처럼 @**특성 이름**.
+1. 아래와 같이 **요소 이름**.@**특성 이름** 구문을 사용하여 태그를 채웁니다.
 
    ![](assets/messagecenter_create_custo_2.png)
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 1. 나중에 쉽게 선택할 수 있도록 레이블을 할당한 다음 시드 주소(통신 채널에 따라 이메일 또는 휴대폰)를 입력합니다.
 
-1. 외부 식별자 입력: 이 선택적 필드에서는 웹 사이트의 모든 애플리케이션에 공통적인 비즈니스 키(고유 ID, 이름 + 이메일 등)를 입력할 수 있습니다. 이 키는 프로필을 식별하는 데 사용됩니다. 이 필드가 Adobe Campaign 마케팅 데이터베이스에도 있는 경우 데이터베이스의 프로필과 이벤트를 조정할 수 있습니다.
+1. 외부 식별자 입력: 이 선택적 필드를 사용하면 비즈니스 키(고유 ID, 이름 + 이메일 등)를 입력할 수 있습니다. 이는 웹 사이트의 모든 애플리케이션에 공통적이며, 프로필을 식별하는 데 사용됩니다. 이 필드가 Adobe Campaign 마케팅 데이터베이스에도 있는 경우 데이터베이스의 프로필과 이벤트를 조정할 수 있습니다.
 
    ![](assets/messagecenter_create_seed_2.png)
 

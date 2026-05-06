@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 8bcaf367-5b1f-4d31-80c9-c77df43c6ed1
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 11%
+source-wordcount: '1356'
+ht-degree: 13%
 
 ---
 
@@ -78,7 +78,7 @@ Adobe에서는 전용 폴더에 워크플로우를 만들 것을 권장합니다
 ### 첫 번째 및 마지막 활동 {#first-and-last-activities}
 
 * 항상 **[!UICONTROL Start]** 활동 또는 **[!UICONTROL Scheduler]** 활동으로 워크플로우를 시작합니다. 관련성이 있는 경우 **[!UICONTROL External signal]** 활동을 사용할 수도 있습니다.
-* 워크플로우를 빌드할 때는 분기당 **[!UICONTROL Scheduler]** 활동을 하나만 사용하십시오. 워크플로우의 동일한 분기에 여러 개의 스케줄러(서로 연결됨)가 있는 경우 실행할 작업 수가 기하급수적으로 증가하여 데이터베이스가 상당히 과부하 됩니다. 이 규칙은 **[!UICONTROL Scheduling & History]** 탭이 있는 모든 활동에도 적용됩니다. [예약](scheduler.md)에 대해 자세히 알아보세요.
+* 워크플로우를 빌드할 때는 분기당 **[!UICONTROL Scheduler]** 활동을 하나만 사용하십시오. 워크플로의 동일한 분기에 여러 개의 스케줄러(서로 연결됨)가 있는 경우 실행할 작업 수가 기하급수적으로 증가하여 데이터베이스가 상당히 과부하 됩니다. 이 규칙은 **[!UICONTROL Scheduling & History]** 탭이 있는 모든 활동에도 적용됩니다. [예약](scheduler.md)에 대해 자세히 알아보세요.
 
   ![](assets/wf-scheduler.png)
 

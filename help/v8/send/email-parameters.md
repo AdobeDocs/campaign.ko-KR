@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 8%
+source-wordcount: '940'
+ht-degree: 9%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 8%
 
 예를 들어 일본어 문자가 포함된 이메일을 보내려고 합니다. 모든 문자가 일본에 있는 수신자에게 올바르게 표시되도록 하려면 표준 UTF-8이 아닌 일본어 문자를 지원하는 인코딩을 사용할 수 있습니다.
 
-이렇게 하려면 **[!UICONTROL Force the encoding used for messages]** 섹션에서 **[!UICONTROL Character encoding]** 옵션을 선택하고 표시되는 드롭다운 목록에서 인코딩을 선택합니다.
+이렇게 하려면 **[!UICONTROL Character encoding]** 섹션에서 **[!UICONTROL Force the encoding used for messages]** 옵션을 선택하고 표시되는 드롭다운 목록에서 인코딩을 선택합니다.
 
 ![](assets/email-smtp-encoding.png)
 
@@ -91,7 +91,7 @@ ISP의 이메일 인터페이스에 **구독 취소** 링크로 표시됩니다.
 >
 >이메일 헤더에 원클릭 구독 취소 URL을 표시하려면 수신자의 이메일 클라이언트가 이 기능을 지원해야 합니다.
 
-이 기능을 사용하려면 게재 속성의 **[!UICONTROL Addition of One-click List-Unsubscription Header]** 탭에서 **[!UICONTROL SMTP]** 옵션을 선택하십시오.
+이 기능을 사용하려면 게재 속성의 **[!UICONTROL SMTP]** 탭에서 **[!UICONTROL Addition of One-click List-Unsubscription Header]** 옵션을 선택하십시오.
 
 >[!NOTE]
 >

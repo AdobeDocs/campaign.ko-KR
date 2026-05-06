@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
 source-git-commit: 4c787abbf9b13c08263e602930bc532d73e08a5a
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '376'
 ht-degree: 6%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 기본적으로 전자 메일 및 SMS 게재 템플릿은 **[!UICONTROL Recipients]**&#x200B;을(를) 대상으로 합니다. 따라서 대상 매핑은 **nms:recipient** 테이블의 필드를 사용합니다.
 
-푸시 알림의 경우 기본 대상 매핑은 수신자 테이블에 연결된 **구독자 애플리케이션(nms:appSubscriptionRcp)**&#x200B;입니다.
+푸시 알림의 경우 기본 대상 매핑은 수신자 테이블에 연결된 **구독자 응용 프로그램(nms:appSubscriptionRcp)**&#x200B;입니다.
 
 게재에 다른 타겟 매핑을 사용하거나 새 타겟 매핑을 만들 수 있습니다.
 

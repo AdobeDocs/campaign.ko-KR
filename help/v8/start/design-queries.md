@@ -5,9 +5,10 @@ feature: Query Editor, Data Management
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: edd495a377559007dad7158c9ab4a4917d89ae73
+exl-id: d34b6073-a7e7-443a-a6d8-e74ef10a67e8
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 2%
 
 ---
@@ -48,7 +49,7 @@ Campaign 데이터베이스를 쿼리하려면 **[일반 쿼리 편집기](query
 
 ![](assets/query_editor_nveau_97.png)
 
-출력 열에 표시된 데이터를 그룹화할 수 있습니다. 이렇게 하려면 **[!UICONTROL Yes]** 창의 **[!UICONTROL Group]** 열에서 **[!UICONTROL Data to extract]**&#x200B;을(를) 선택합니다. 그러면 선택한 그룹화 축을 기준으로 결과가 집계됩니다. 그룹화를 사용하는 쿼리의 예제는 [이 섹션](../../automation/workflow/query-delivery-info.md)을 참조하세요.
+출력 열에 표시된 데이터를 그룹화할 수 있습니다. 이렇게 하려면 **[!UICONTROL Data to extract]** 창의 **[!UICONTROL Group]** 열에서 **[!UICONTROL Yes]**&#x200B;을(를) 선택합니다. 그러면 선택한 그룹화 축을 기준으로 결과가 집계됩니다. 그룹화를 사용하는 쿼리의 예제는 [이 섹션](../../automation/workflow/query-delivery-info.md)을 참조하세요.
 
 ![](assets/query_editor_nveau_56.png)
 

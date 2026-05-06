@@ -8,20 +8,20 @@ version: Campaign v8, Campaign Classic v7
 exl-id: c3e107b5-6d2e-408f-9c7d-a81a4756b4ef
 source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '2028'
 ht-degree: 1%
 
 ---
 
 # 이메일 콘텐츠 정의 {#defining-the-email-content}
 
-## 보낸 사람 {#sender}
+## 발신자 {#sender}
 
 보낸 메시지의 머리글에 표시할 보낸 사람의 이름과 주소를 정의하려면 **[!UICONTROL From]** 링크를 클릭하십시오.
 
 ![](assets/s_ncs_user_wizard_email02.png)
 
-이 창에서는 전자 메일 메시지 머리글을 만드는 데 필요한 모든 정보를 입력할 수 있습니다. 이 정보는 개인화할 수 있습니다. 이렇게 하려면 입력 필드 오른쪽에 있는 버튼을 사용하여 개인화 필드를 삽입합니다.
+이 창에서는 전자 메일 메시지 머리글을 만드는 데 필요한 모든 정보를 입력할 수 있습니다. 이러한 정보는 개인화할 수 있습니다. 이렇게 하려면 입력 필드 오른쪽에 있는 버튼을 사용하여 개인화 필드를 삽입합니다.
 
 개인화 필드를 삽입하고 사용하는 방법을 알아보려면 [이 섹션](personalize.md)을 참조하세요.
 
@@ -179,7 +179,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 1. 도구 모음에서 **[!UICONTROL Tracking & Images]** 아이콘을 클릭합니다.
    ![](assets/s_ncs_user_email_del_img_param.png)
 
-1. **[!UICONTROL Upload images]** 탭에서 **[!UICONTROL Images]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Images]** 탭에서 **[!UICONTROL Upload images]**&#x200B;을(를) 선택합니다.
 1. 그런 다음 이메일 메시지에 이미지를 포함할지 여부를 선택할 수 있습니다.
    ![](assets/s_ncs_user_email_del_img_upload.png)
 

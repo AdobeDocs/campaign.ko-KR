@@ -6,8 +6,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '2252'
-ht-degree: 7%
+source-wordcount: '2258'
+ht-degree: 5%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 7%
 
 타겟팅 중에 수행되는 모든 보강 및 모든 처리의 결과는 개인화 필드에 저장되고 액세스할 수 있습니다. 특히 개인화된 메시지를 만들 때 사용할 수 있습니다. 자세한 내용은 [대상 데이터](use-workflow-data.md#target-data)를 참조하세요.
 
-## 차원 타겟팅 및 필터링 {#targeting-and-filtering-dimensions}
+## 타기팅 및 필터링 차원 {#targeting-and-filtering-dimensions}
 
-데이터 세분화 작업 중에 타겟팅 키는 필터링 차원에 매핑됩니다. 타기팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타기팅하는 집단을 정의할 수 있습니다. 필터링 차원을 사용하면 약정 소유자, 뉴스레터 구독자 등 특정 기준에 따라 모집단을 선택할 수 있습니다.
+데이터 세분화 작업 중에 타겟팅 키는 필터링 차원에 매핑됩니다. 타겟팅 차원을 사용하면 작업에서 타겟팅한 모집단, 즉 수신자, 계약 수혜자, 운영자, 구독자 등을 정의할 수 있습니다. 필터링 차원을 사용하면 계약 소유자, 뉴스레터 구독자 등의 특정 기준을 기반으로 모집단을 선택할 수 있습니다.
 
 예를 들어, 5년 이상 생명 보험 계약을 보유한 클라이언트를 선택하려면 다음 대상 차원을 선택합니다. **클라이언트** 및 필터링 차원: **계약 소유자**. 그런 다음 쿼리 활동 내에 필터링 조건을 정의할 수 있습니다
 
@@ -109,7 +109,7 @@ ht-degree: 7%
 
 ### 추가 데이터로 조정 {#reconciliation-with-additional-data}
 
-데이터 조정 단계(**[!UICONTROL Union]**, **[!UICONTROL Intersection]** 등) 동안 활동)을 추가할 때 데이터 조정에 사용할 열을 선택할 수 있습니다. 이렇게 하려면 열 선택에 대한 조정을 구성하고 기본 세트를 지정합니다. 그런 다음 다음 다음 예와 같이 창의 아래쪽 열에 있는 열을 선택합니다.
+데이터 조정 단계(**[!UICONTROL Union]**, **[!UICONTROL Intersection]** 등 활동) 동안 추가 열에서 데이터 조정에 사용할 열을 선택할 수 있습니다. 이렇게 하려면 열 선택에 대한 조정을 구성하고 기본 세트를 지정합니다. 그런 다음 다음 다음 예와 같이 창의 아래쪽 열에 있는 열을 선택합니다.
 
 ![](assets/select-column-and-join.png)
 

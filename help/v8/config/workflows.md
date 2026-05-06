@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 4%
+source-wordcount: '643'
+ht-degree: 8%
 
 ---
 
@@ -97,9 +97,9 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 워크플로우를 만든 후 추가 구성을 위해 **[!UICONTROL Properties]** 단추를 사용하여 추가 옵션에 액세스할 수 있습니다.
 
-**이 페이지**&#x200B;에서 [워크플로 속성](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html?lang=ko){target="_blank"}에서 **워크플로 속성**&#x200B;에 대해 자세히 알아보세요.
 
-워크플로우 **[!UICONTROL Execution]**&#x200B;의 **[!UICONTROL Properties]** 탭에서 워크플로우를 다른 웨어하우스에 연결하고 워크로드 관리를 최적화하도록 선택할 수 있습니다. **웨어하우스**&#x200B;에 대한 자세한 내용은 [Snowflake 설명서](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}를 참조하세요.
+워크플로우 **[!UICONTROL Properties]**&#x200B;의 **[!UICONTROL Execution]** 탭에서 워크플로우를 다른 웨어하우스에 연결하고 워크로드 관리를 최적화하도록 선택할 수 있습니다. **웨어하우스**&#x200B;에 대한 자세한 내용은 [Snowflake 설명서](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}를 참조하세요.
 
 ![](assets/warehouse.png)
 
@@ -135,4 +135,4 @@ Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하
 
 ## 워크플로 전체 사용 사례{#end-to-end-uc}
 
-이 섹션[에서 캠페인 워크플로우 기능 &#x200B;](../../automation/workflow/workflow-use-cases.md)을(를) 활용하는 사용 사례를 통해 알아봅니다.
+이 섹션[&#128279;](../../automation/workflow/workflow-use-cases.md)에서 캠페인 워크플로우 기능 을(를) 활용하는 사용 사례를 통해 알아봅니다.

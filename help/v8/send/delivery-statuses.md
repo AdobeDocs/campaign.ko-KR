@@ -5,10 +5,11 @@ feature: Monitoring, Deliverability
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+exl-id: 90f2b7b2-db9e-42aa-aef2-e90aee5d208e
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 2%
+source-wordcount: '557'
+ht-degree: 4%
 
 ---
 
@@ -62,7 +63,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> 서비스 공급자가 고려함<br /> </td> 
-   <td> SMS 게재의 경우 SMS 서비스 공급자가 게재를 수신했습니다.<br /> 전자 메일 게재의 경우 메시지가 Campaign에서 MTA(메일 전송 에이전트)로 전달되었습니다.</td> 
+   <td> SMS 게재의 경우 SMS 서비스 공급자가 게재를 받았습니다.<br /> 이메일 게재의 경우 메시지가 Campaign에서 MTA(메일 전송 에이전트)로 정상적으로 전달되었습니다.</td> 
   </tr> 
   <tr> 
    <td> 모바일에서 수신됨<br /> </td> 
@@ -109,4 +110,3 @@ Adobe Campaign 이메일의 전달성을 최적화하는 방법에 대해 알아
 * [이메일 전송 및 모니터링](send.md#email-monitoring)
 * [게재 실패 이해](delivery-failures.md)
 * [Campaign 환경 모니터링](../start/monitor.md#monitor-deliveries)
-

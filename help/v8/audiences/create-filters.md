@@ -8,8 +8,8 @@ exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
 source-git-commit: ec1b41ccf532b044e75c69e795eabfb19a523ec2
 workflow-type: tm+mt
-source-wordcount: '1883'
-ht-degree: 0%
+source-wordcount: '1943'
+ht-degree: 1%
 
 ---
 
@@ -252,7 +252,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 빠른 필터는 각 연산자에 따라 다르며 연산자가 클라이언트 콘솔의 캐시를 지울 때마다 다시 초기화됩니다.
 
-필터를 다시 사용해야 하는 경우 **고급 필터**&#x200B;를 만들어 저장합니다. [자세히 알아보기](#advanced-filters)
+필터를 다시 사용해야 하는 경우 **고급 필터**&#x200B;를 만들어 저장합니다. [자세히 알아보기](#advanced-filters).
 
 **빠른 필터**&#x200B;를 만들려면 다음 단계를 수행하십시오.
 
@@ -303,7 +303,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 필터링 조건을 정의합니다. 아래 예에서는 계정 번호가 NL로 시작하지 않은 수신자 및 Paris 또는 Los Angeles에 사는 수신자를 필터링합니다.
 
-1. **[!UICONTROL Edit expression]** 열의 **[!UICONTROL Expression]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Expression]** 열의 **[!UICONTROL Edit expression]** 아이콘을 클릭합니다.
 
    ![](assets/edit-exp.png)
 

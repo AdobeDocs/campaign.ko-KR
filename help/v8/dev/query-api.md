@@ -8,7 +8,7 @@ hide: true
 exl-id: c2862f94-7d15-4a49-a74e-df90d0ea7bc9
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1421'
 ht-degree: 1%
 
 ---
@@ -171,7 +171,7 @@ recipient.save();
 
 **예외를 방지하려면 `getIfExists`을(를) 사용합니다.**
 
-레코드가 없는 경우 예외를 방지하려면 `operation: "getIfExists"` 대신 `get`을(를) 사용합니다.
+레코드가 없는 경우 예외를 방지하려면 `get` 대신 `operation: "getIfExists"`을(를) 사용합니다.
 
 ```javascript
 var query = NLWS.xtkQueryDef.create({
@@ -755,9 +755,9 @@ for each(var record in xml.collection) {
 queryDef 및 NLWS 메서드를 사용하여 작업하는 경우:
 
 * **대규모 데이터 세트에 대한 워크플로우 사용** - QueryDef은 대량 데이터 처리를 위해 디자인되지 않았습니다. 레코드가 1,000개가 넘는 데이터 세트의 경우 수백만 개의 행을 효율적으로 처리할 수 있는 워크플로우를 사용합니다. 자세한 내용은 [Campaign SDK 설명서](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}를 참조하세요
-* **매개 변수가 있는 쿼리 사용** - SQL 삽입을 방지하려면 항상 `$(sz)`과(와) 함께 바인딩된 매개 변수(`$(l)`, `sqlExec`)를 사용하십시오.
+* **매개 변수가 있는 쿼리 사용** - SQL 삽입을 방지하려면 항상 `sqlExec`과(와) 함께 바인딩된 매개 변수(`$(sz)`, `$(l)`)를 사용하십시오.
 * **명시적 제한을 설정** - `lineCount`을(를) 사용하여 결과 크기를 제어하십시오. Campaign의 기본 제한은 컨텍스트에 따라 다릅니다(200~10,000개의 레코드)
-* **페이지 매김이 있는 orderBy 사용** - `orderBy` 및 `startLine`을(를) 사용할 때 항상 `lineCount` 절을 포함하여 페이지 매김을 일관되게 유지하세요.
+* **페이지 매김이 있는 orderBy 사용** - `startLine` 및 `lineCount`을(를) 사용할 때 항상 `orderBy` 절을 포함하여 페이지 매김을 일관되게 유지하세요.
 * **getIfExists 사용** - 예외가 발생하지 않도록 레코드가 없는 경우 `operation: "getIfExists"`을(를) 사용합니다.
 * **열거형에 대해 분석 사용** - 사용자에게 친숙한 열거형 이름 및 레이블을 가져올 노드를 선택하려면 `analyze: true`을(를) 추가하십시오.
 * **쿼리 최적화** - 결과 집합을 제한하려면 적절한 `where` 조건을 추가하십시오.

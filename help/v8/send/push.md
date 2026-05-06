@@ -57,7 +57,7 @@ iOS 디바이스에서 알림을 보내려면 다음 단계를 따르십시오.
 
    ![](assets/push_ios_3.png)
 
-1. **[!UICONTROL Notification type]**&#x200B;과(와) **[!UICONTROL General notification (Alert, Sound, Badge)]** 중 **[!UICONTROL Silent notification]**&#x200B;을(를) 선택하세요.
+1. **[!UICONTROL General notification (Alert, Sound, Badge)]**&#x200B;과(와) **[!UICONTROL Silent notification]** 중 **[!UICONTROL Notification type]**&#x200B;을(를) 선택하세요.
 
    ![](assets/push_ios_4.png)
 
@@ -69,7 +69,7 @@ iOS 디바이스에서 알림을 보내려면 다음 단계를 따르십시오.
 
    이 필드에서는 iOS 알림 페이로드의 **title** 매개 변수의 값을 정의할 수 있습니다.
 
-1. iOS 알림 페이로드의 **[!UICONTROL Subtitle]**&#x200B;자막&#x200B;**매개 변수의** 값을 추가할 수 있습니다.
+1. iOS 알림 페이로드의 **자막** 매개 변수의 **[!UICONTROL Subtitle]** 값을 추가할 수 있습니다.
 
 1. 마법사의 **[!UICONTROL Message content]** 섹션에 메시지 내용을 입력합니다.
 

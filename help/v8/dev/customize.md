@@ -7,7 +7,7 @@ level: Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '525'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 * Campaign 애플리케이션 내에서 서로 다른 데이터 개체 간의 링크를 정의합니다.
 * 각 개체에 포함된 개별 필드 정의 및 설명
 
-예를 들어 수신자 테이블(nms:recipient)과 같은 기존 테이블에 필드를 추가하려면 해당 스키마를 확장해야 합니다.
+예를 들어 받는 사람 테이블(nms:recipient)과 같은 기존 테이블에 필드를 추가하려면 해당 스키마를 확장해야 합니다.
 
 두 가지 테이블 확장 모드를 사용할 수 있습니다.
 

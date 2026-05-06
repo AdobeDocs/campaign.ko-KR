@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: d2ec4d92-7f00-47c8-98e6-0613d6387de0
 source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,7 @@ SMS 게재에 대한 증명을 전송하여 유효성을 검사할 수 있습니
 
    ![](assets/proof_recipient.png){zoomable="yes"}
 
-1. **[!UICONTROL Analyze]** 단추를 클릭합니다.
+1. **[!UICONTROL Analyze]** 버튼을 클릭합니다.
 Adobe Campaign은 증명 전송을 확인하기 전에 모든 제어를 수행합니다. 분석이 끝나면 **[!UICONTROL Confirm delivery]** 단추를 클릭할 수 있습니다.
 
    ![](assets/proof_analyze.png){zoomable="yes"}

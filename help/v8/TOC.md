@@ -7,8 +7,8 @@ description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
 source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 84%
+source-wordcount: '893'
+ht-degree: 85%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 84%
    + [컨트롤 패널](config/self-service.md)
 + 캠페인 관리 {#campaigns}
    + [캠페인 시작하기](start/campaigns.md)
-   + [Campaign 오케스트레이션 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
+   + [Campaign Orchestration 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
 + 메시지 보내기 {#send}
    + [메시지 시작](start/gs-message.md)
    + [첫 게재 만들어 보기](start/create-message.md)
@@ -146,7 +146,7 @@ ht-degree: 84%
    + [웹 앱 및 양식 디자인](dev/webapps.md)
 + 워크플로 {#workflows}
    + [워크플로 시작](config/workflows.md)
-   + [워크플로 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
+   + [워크플로우 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
 + 개인 정보 및 보안 {#privacy}
    + [개인 정보 보호 요청 관리](start/privacy.md)
    + [보안 지침](config/security.md)
@@ -198,7 +198,7 @@ ht-degree: 84%
       + [쿼리 디자인](start/design-queries.md)
       + [필터 조건 정의](start/filter-conditions.md)
    + [데이터 가져오기](start/import.md)
-   + [워크플로 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
+   + [워크플로우 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
 + 통합 {#connect}
    + [캠페인을 다른 솔루션과 연결](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}

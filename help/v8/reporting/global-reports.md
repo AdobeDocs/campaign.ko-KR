@@ -6,8 +6,8 @@ role: User, Developer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1750'
-ht-degree: 7%
+source-wordcount: '1783'
+ht-degree: 8%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->이 보고서에 표시되는 도메인 이름은 큐브 수준에서 정의됩니다. 이 값을 변경하려면 **[!UICONTROL Delivery logs (broadlogrcp)]** 큐브를 편집하십시오. 자세한 정보는 [이 섹션](gs-cubes.md)을 참조하세요. **[!UICONTROL Others]** 범주에 특정 클래스에 속하지 않는 도메인 이름이 포함되어 있습니다.
+>이 보고서에 표시되는 도메인 이름은 큐브 수준에서 정의됩니다. 이 값을 변경하려면 **[!UICONTROL Delivery logs (broadlogrcp)]** 큐브를 편집하십시오. 이 작업에 대한 자세한 정보는 [이 섹션](gs-cubes.md)을 참조하십시오. **[!UICONTROL Others]** 범주에 특정 클래스에 속하지 않는 도메인 이름이 포함되어 있습니다.
 
 ## 브라우저 {#browsers}
 

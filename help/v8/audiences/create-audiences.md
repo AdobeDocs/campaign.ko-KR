@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
 source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '796'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
 이 비디오를 통해 Adobe Campaign의 목록 관리에 대해 자세히 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426462?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3426462?captions=kor&quality=12)
 
 
 ## 연락처 목록 만들기 {#create-a-list-of-contacts}

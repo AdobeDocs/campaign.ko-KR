@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: b5eb9eaa-0ca8-478c-9ed5-e5006e9b5609
 source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ SMS 연산자를 만들려면 아래 단계를 수행합니다.
    ![](assets/smsoperator_mid.png){zoomable="yes"}
 
 1. **[!UICONTROL Groups and named rights]** 부분에서 **[!UICONTROL Add]** 단추를 클릭합니다.
-새 창이 열리면 **[!UICONTROL Named rights]** 목록에서 **[!UICONTROL Folder]**&#x200B;을(를) 선택하고 오른쪽 목록에서 **[!UICONTROL ADMINISTRATION]**&#x200B;을(를) 선택합니다.
+새 창이 열리면 **[!UICONTROL Folder]** 목록에서 **[!UICONTROL Named rights]**&#x200B;을(를) 선택하고 오른쪽 목록에서 **[!UICONTROL ADMINISTRATION]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Ok]** 단추를 클릭합니다.
 

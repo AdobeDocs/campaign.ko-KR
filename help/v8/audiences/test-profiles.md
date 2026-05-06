@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
 source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '982'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 2%
 시드 주소를 만들려면 다음 단계를 수행합니다.
 
 1. 시드 주소 목록 위에 있는 **[!UICONTROL New]** 단추를 클릭합니다.
-1. **[!UICONTROL Recipient]** 탭의 일치하는 필드에 주소에 연결된 데이터를 입력합니다. 사용 가능한 필드는 게재 수신자 프로필의 표준 필드(nms:recipient table)(이름, 이름, 이메일 등)에 해당합니다.
+1. **[!UICONTROL Recipient]** 탭의 일치하는 필드에 주소에 연결된 데이터를 입력합니다. 사용 가능한 필드는 게재 수신자의 프로필(nms:recipient 테이블)에 있는 표준 필드(이름, 이름, 이메일 등)에 해당합니다.
 
    >[!NOTE]
    >

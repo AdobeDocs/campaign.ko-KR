@@ -7,7 +7,7 @@ level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1276'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 몇 가지 워크플로우 활동을 통해 오퍼를 표시하는 방법을 정의할 수 있습니다.
 
-* 보강
+* 데이터 보강
 * 오퍼 엔진
 * 셀별 오퍼
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 이렇게 하려면 아래 단계를 수행합니다.
 
-1. 활동의 **[!UICONTROL Add data]** 탭에서 **[!UICONTROL Enrichment]**&#x200B;을(를) 선택합니다.
+1. 활동의 **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;을(를) 선택합니다.
 1. 추가할 데이터 형식을 선택하는 창에서 **[!UICONTROL A link]**&#x200B;을(를) 선택합니다.
 1. 설정하려는 링크 유형과 대상을 선택합니다. 이 경우 타겟은 오퍼 스키마입니다.
 

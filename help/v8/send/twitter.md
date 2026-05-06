@@ -6,7 +6,7 @@ level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '783'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
    >[!NOTE]
    >
-   >모든 게재에 대해 동일한 X 테스트 계정을 사용하는 경우 **[!UICONTROL Tweet]** 노드를 통해 액세스되는 **[!UICONTROL Resources > Templates > Delivery templates]** 게재 템플릿에 증명 대상을 저장할 수 있습니다. 그러면 각 새 게재에 대해 기본적으로 증명 대상이 입력됩니다.
+   >모든 게재에 대해 동일한 X 테스트 계정을 사용하는 경우 **[!UICONTROL Resources > Templates > Delivery templates]** 노드를 통해 액세스되는 **[!UICONTROL Tweet]** 게재 템플릿에 증명 대상을 저장할 수 있습니다. 그러면 각 새 게재에 대해 기본적으로 증명 대상이 입력됩니다.
 
 1. 게시물의 콘텐츠 정의
 
@@ -118,7 +118,7 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
    >[!NOTE]
    >
-   >모든 DM 증명을 동일한 X 계정으로 보내려면 **[!UICONTROL Tweet (Direct Message)]** 노드를 통해 액세스되는 **[!UICONTROL Resources > Templates > Delivery templates]** 게재 템플릿에 증명 대상을 저장할 수 있습니다.
+   >모든 DM 증명을 동일한 X 계정으로 보내려면 **[!UICONTROL Resources > Templates > Delivery templates]** 노드를 통해 액세스되는 **[!UICONTROL Tweet (Direct Message)]** 게재 템플릿에 증명 대상을 저장할 수 있습니다.
 
 1. **[!UICONTROL Content]** 탭에 메시지 내용을 입력합니다.
 

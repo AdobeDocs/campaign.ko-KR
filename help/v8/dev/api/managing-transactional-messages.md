@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '744'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;조직>**: 개인 조직 ID. [이 섹션](must-read.md)을 참조하십시오.
+* **&lt;조직>**: 개인 조직 ID입니다. [이 섹션](must-read.md)을 참조하십시오.
 
 * **&lt;transactionalAPI>**: 트랜잭션 메시지 API 끝점입니다.
 

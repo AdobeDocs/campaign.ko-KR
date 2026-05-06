@@ -7,8 +7,8 @@ level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 source-git-commit: 75e0069ccd4e23dbf64b9052fd81817e438b333e
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 11%
+source-wordcount: '320'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->배포 모델에 따라 Campaign v8에서 REST API를 사용할 수도 있습니다. [자세히 알아보기](../dev/api/get-started-apis.md)
+>배포 모델에 따라 Campaign v8에서 REST API를 사용할 수도 있습니다. [자세히 알아보기](../dev/api/get-started-apis.md).
 
 [Campaign JavaScript API](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ko){target="_blank"}를 사용하여 Campaign 클라우드 데이터베이스에 쓰거나 데이터베이스에서 읽을 수 있습니다.
 

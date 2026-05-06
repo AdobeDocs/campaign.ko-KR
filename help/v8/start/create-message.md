@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 56d5628312ea3dedf9335dd0933811e4bf66eb97
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 99%
+source-wordcount: '1565'
+ht-degree: 93%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 99%
 
 일회성 게재를 만드는 주요 단계는 다음과 같습니다.
 
-1. **새 게재를 만듭니다**. [자세히 알아보기](#create-the-delivery)
+1. **새 게재를 만듭니다**. [자세히 보기](#create-the-delivery)
 
-1. **게재 콘텐츠를 정의합니다**.  [자세히 알아보기](#content-of-the-delivery)
+1. **게재 콘텐츠를 정의합니다**. [자세히 보기](#content-of-the-delivery)
 
-1. **대상 집단을 정의합니다**.  [자세히 알아보기](#target-population)
+1. **대상 집단을 정의합니다**. [자세히 보기](#target-population)
 
 그런 다음에는 Adobe Campaign으로 메시지를 준비, 테스트, 전송, 모니터링할 수 있습니다.
 
@@ -40,7 +40,7 @@ ht-degree: 99%
 
    ![](../send/assets/select-the-new-template.png)
 
-   이메일, 전화, 모바일 채널(푸시/SMS), 다이렉트 메일, X(Twitter) 등 설치한 채널마다 기본 제공 템플릿이 제공됩니다. 목록에서 사용할 수 있는 채널은 사용권 계약에 따라 다릅니다.
+   설치한 각 채널에 대해 이메일, 전화, 모바일 채널(푸시/SMS), DM, X(Twitter) 등 기본 제공 템플릿이 제공됩니다. 목록에서 사용할 수 있는 채널은 사용권 계약에 따라 다릅니다.
 
    필요에 따라 특정 매개 변수를 사전 구성하기 위해 새 게재 템플릿을 만들 수 있습니다.  [자세히 알아보기](../send/create-templates.md).
 
@@ -171,7 +171,7 @@ ht-degree: 99%
 
 ### 증명 메시지 수신자 선택 {#select-the-proof-target}
 
-이메일 게재의 경우 증명을 전송하여 메시지 내용을 확인할 수 있습니다. 증명을 보내면 옵트아웃 링크, 미러 페이지, 기타 링크를 확인하고, 메시지의 유효성을 검사하고, 이미지가 표시되는지 확인하고, 발생할 수 있는 오류를 감지하는 등의 작업을 수행할 수 있습니다. 다른 디바이스에서 디자인과 렌더링을 확인할 수도 있습니다.
+이메일 게재의 경우 증명을 전송하여 메시지 내용을 확인할 수 있습니다. 증명을 보내면 옵트아웃 링크, 미러 페이지 및 기타 링크를 확인하고, 메시지의 유효성을 검사하고, 이미지가 표시되는지 확인하고, 가능한 오류를 감지하는 등의 작업을 수행할 수 있습니다. 다른 장치에서 디자인과 렌더링을 확인할 수도 있습니다.
 
 증명은 메시지를 주 대상자에게 보내기 전에 테스트하기 위해 사용할 수 있는 전용 메시지입니다. 증명의 수신자는 메시지의 렌더링, 내용, 개인화 설정, 구성 등 요소를 승인해야 합니다.
 
@@ -182,7 +182,7 @@ ht-degree: 99%
 
 이 비디오에서는 기존 이메일에 시드 및 증명을 추가하는 방법과 이를 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447006?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3447006?captions=kor&quality=12)
 
 추가 Campaign Classic 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ko)에서 시청할 수 있습니다.
 
@@ -194,7 +194,7 @@ ht-degree: 99%
 
 1. **게재 분석**: 이 단계에서는 게재할 메시지를 준비할 수 있습니다. [자세히 알아보기](../send/delivery-analysis.md).
 
-1. **증명 보내기**: 이 단계에서는 내용, URL, 개인화 등을 제어할 수 있습니다. [자세히 알아보기](../send/preview-and-proof.md).
+1. **증명 보내기**: 이 단계에서는 콘텐츠, URL, 개인화 등을 제어할 수 있습니다. [자세히 알아보기](../send/preview-and-proof.md).
 
 >[!IMPORTANT]
 >

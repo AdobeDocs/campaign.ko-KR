@@ -47,7 +47,7 @@ ht-degree: 10%
 
 >[!CAUTION]
 >
->**Else** 및 **Else if** 조건을 추가한 후 **%> &lt;%**&#x200B;자를 삭제해야 합니다.
+>**%> &lt;%** 문자는 **Else** 및 **Else if** 조건을 추가한 후 삭제해야 합니다.
 
 
 ## 사용 사례: 다국어 이메일 만들기 {#creating-multilingual-email}
@@ -86,4 +86,4 @@ ht-degree: 10%
 
 다중 언어 뉴스레터의 예에 따라 게재에 조건부 콘텐츠를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446718?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3446718?captions=kor&quality=12)

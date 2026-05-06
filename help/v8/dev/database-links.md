@@ -7,7 +7,7 @@ level: Intermediate, Experienced
 exl-id: f7047c6e-f045-4534-b117-311dd90dd92b
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ FDA 테이블에 대한 자세한 내용은 [외부 데이터베이스 액세스
 
 ## 예: 역방향 링크 {#example-1}
 
-아래 예에서는 &quot;cus:company&quot; 스키마 테이블과 1-N 관계를 선언합니다.
+아래 예에서는 &quot;cus:company&quot; 스키마 테이블에 대해 1-N 관계를 선언합니다.
 
 ```sql
 <srcSchema name="recipient" namespace="cus">
@@ -112,7 +112,7 @@ FDA 테이블에 대한 자세한 내용은 [외부 데이터베이스 액세스
 
 외래 키는 대상 테이블의 관련 필드와 동일한 특성을 사용하는 요소에 자동으로 추가되며, 다음과 같은 명명 규칙이 적용됩니다. 대상 스키마 이름 뒤에 관련 필드 이름(&quot;회사 ID&quot;)이 표시됩니다.
 
-대상의 확장 스키마(&quot;cus:company&quot;):
+대상의 확장된 스키마(&quot;cus:company&quot;):
 
 ```sql
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
@@ -133,7 +133,7 @@ FDA 테이블에 대한 자세한 내용은 [외부 데이터베이스 액세스
 </schema>
 ```
 
-다음 매개 변수와 함께 &quot;cus:recipient&quot; 표에 대한 역방향 링크가 추가되었습니다.
+다음 매개 변수와 함께 &quot;cus:recipient&quot; 테이블에 대한 역방향 링크가 추가되었습니다.
 
 * **name**: 원본 스키마의 이름에서 자동으로 파생됩니다(원본 스키마의 링크 정의에 &quot;revLink&quot; 특성을 사용할 수 있음).
 * **revLink**: 역방향 링크의 이름
@@ -143,7 +143,7 @@ FDA 테이블에 대한 자세한 내용은 [외부 데이터베이스 액세스
 
 ## 예: 단순 링크 {#example-2}
 
-이 예제에서는 &quot;nms:address&quot; 스키마 테이블에 대한 링크를 선언합니다. 조인은 외부 조인이며 받는 사람의 이메일 주소와 연결된 테이블(&quot;nms:address&quot;)의 &quot;@address&quot; 필드로 명시적으로 채워집니다.
+이 예제에서는 &quot;nms:address&quot; 스키마 테이블에 대한 링크를 선언합니다. 조인은 외부 조인이며 받는 사람의 전자 메일 주소와 연결된 테이블(&quot;nms:address&quot;)의 &quot;@address&quot; 필드로 명시적으로 채워집니다.
 
 ```sql
 <srcSchema name="recipient" namespace="cus">

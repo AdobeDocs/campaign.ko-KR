@@ -5,7 +5,7 @@ feature: Release Notes
 exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '3472'
+source-wordcount: '3608'
 ht-degree: 33%
 
 ---
@@ -35,11 +35,11 @@ _2025년 10월 9일_
 
 >[!AVAILABILITY]
 >
->이 릴리스는 **LA(제한 공개)** 상태입니다. 
+>이 릴리스는 **LA(제한 공개)** 상태입니다.
 
 ### 새로운 기능 {#features-8-8-2}
 
-이제 **Campaign FFDA 배포**&#x200B;에 [새 SMS 전송 커넥터](../architecture/enterprise-deployment.md)를 사용할 수 있습니다. [자세한 설명서](../send/sms/sms.md)를 참조하세요.
+이제 [Campaign FFDA 배포](../architecture/enterprise-deployment.md)에 **새 SMS 전송 커넥터**&#x200B;를 사용할 수 있습니다. [자세한 설명서](../send/sms/sms.md)를 참조하세요.
 
 이 릴리스에는 Campaign 웹 사용자 인터페이스에서 사용할 수 있는 기능 집합도 포함되어 있습니다.
 
@@ -83,7 +83,7 @@ _2025년 7월 9일 목요일_
 
   >[!NOTE]
   >
-  >이 기능은 **Campaign FFDA 배포**&#x200B;에 사용할 수 있는 [없음](../architecture/enterprise-deployment.md)입니다.
+  >이 기능은 [Campaign FFDA 배포](../architecture/enterprise-deployment.md)에 사용할 수 있는 **없음**&#x200B;입니다.
 
 <!-- (from ACC rn, aleady in the product, to remove?) -->
 
@@ -140,7 +140,7 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 
   >[!NOTE]
   >
-  >이 기능은 **Campaign FFDA 배포**&#x200B;에 사용할 수 있는 [없음](../architecture/enterprise-deployment.md)입니다.
+  >이 기능은 [Campaign FFDA 배포](../architecture/enterprise-deployment.md)에 사용할 수 있는 **없음**&#x200B;입니다.
 
 * **한 번 클릭 목록 구독 취소** - 받는 사람이 한 번 클릭으로 즉시 옵트아웃할 수 있도록 하기 위해 보낸 사람이 필요한 주요 ISP의 경우 이제 사용자 인터페이스에서 전자 메일 템플릿 또는 게재 속성에서 바로 한 번 클릭 목록 구독 취소 헤더를 활성화할 수 있습니다. 이 옵션은 기본적으로 활성화되어 있습니다. [자세히 보기](../send/email-parameters.md#one-click-list-unsubscribe)
 
@@ -154,7 +154,7 @@ ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are
 위에 나열된 기능 외에도 이 릴리스에는 Campaign 웹 사용자 인터페이스에서 사용할 수 있는 기능 집합이 포함되어 있습니다.
 
 * [다국어 게재 만들기](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html?lang=ko#multilingual-delivery){target="_blank"}
-* [게재 경고](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html?lang=ko){target="_blank"}
+* [게재 알림](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html?lang=ko){target="_blank"}
 * [랜딩 페이지 개선 사항](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html?lang=ko){target="_blank"}
 * [동적 보고](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=ko){target="_blank"}(요청 시)
 * [중앙 브랜딩](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ko){target="_blank"}(온디맨드, 새 구현)
@@ -253,7 +253,7 @@ Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campa
 * DM 출력 파일을 미리 보기하면 대시보드가 비어 있는 문제가 해결되었습니다. 이제 파일 미리보기 후에 대시보드가 올바르게 표시됩니다. (NEO-75359)
 * 클릭 수 및 열기 수를 포함하는 푸시 알림에 대한 추적 지표가 개선되었습니다. 이제 `@recipientClick`, `@personClick` 및 `@totalRecipientClick` 등의 지표가 모바일 알림 클릭을 고려합니다. (NEO-75240)
 * 외부 취소 보류 상태인 게재 정리 워크플로우의 오류를 수정했습니다. 데이터베이스 레코드 검색 논리가 수정되었습니다. (NEO-74833)
-* :00 출력 시간이 잘못된 러시아(UTC+3`nlserver` 모스크바)의 시간대 불일치 문제를 해결했습니다. 시간 동기화 로직이 업데이트되었습니다. (NEO-74754)
+* `nlserver` 출력 시간이 잘못된 러시아(UTC+3:00 모스크바)의 시간대 불일치 문제를 해결했습니다. 시간 동기화 로직이 업데이트되었습니다. (NEO-74754)
 * MSSQL 데이터베이스에 대한 잘못된 SQL 구문으로 인해 `defaultMidSourcingDlvStat` 워크플로우에서 오류가 발생했습니다. 호환성을 위해 쿼리 생성 논리가 조정되었습니다. (NEO-74156)
 * 웹 프로세스의 여러 충돌을 해결했습니다. (NEO-73174)
 * 조건에 아포스트로피가 있을 때 BigQuery 쿼리가 실패하는 문제를 수정했습니다. 쿼리 처리 로직이 특수 문자를 올바르게 해석하도록 업데이트되었습니다. (NEO-72547)
@@ -275,7 +275,7 @@ _2025년 4월 25일 토요일_
 
 >[!AVAILABILITY]
 >
->이 릴리스는 **LA(제한 공개)** 상태입니다. 
+>이 릴리스는 **LA(제한 공개)** 상태입니다.
 
 ### 새로운 기능 {#features-8-6-5}
 
@@ -301,13 +301,13 @@ _2025년 4월 10일 금요일_
 
 >[!AVAILABILITY]
 >
->이 릴리스는 **제한 공개**(LA) 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
+>이 릴리스는 **LA(제한 공개)** 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 >
 >Campaign v8로 전환하는 Campaign Standard 사용자라면 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"}에서 전환 과정을 자세히 확인할 수 있습니다.
 
 ### 새로운 기능 {#features-8-7-4}
 
-* **SMS REST API 지원** - 이제 SMS 채널에서 트랜잭션 메시지 REST API를 사용할 수 있습니다. 페이로드에 이메일과 휴대폰이 모두 있는 경우 “wishedChannel” 필드를 사용하여 채널을 지정할 수 있습니다. 제공되지 않으면 wishedChannel에서 SMS를 명시적으로 요청하지 않는 한 기본적으로 이메일이 사용됩니다. 
+* **SMS REST API 지원** - 이제 SMS 채널에서 트랜잭션 메시지 REST API를 사용할 수 있습니다. 페이로드에 이메일과 휴대폰이 모두 있는 경우 “wishedChannel” 필드를 사용하여 채널을 지정할 수 있습니다. 제공되지 않으면 wishedChannel에서 SMS를 명시적으로 요청하지 않는 한 기본적으로 이메일이 사용됩니다.
 
 * **다국어 게재** - Campaign Web 사용자 인터페이스 4월 릴리스부터 다양한 언어로 여러 이메일 게재를 보내고 관련 동적 보고서에 액세스할 수 있습니다. 이 기능은 4월 말 Adobe Campaign Web 사용자 인터페이스에서만 사용할 수 있으며 서버를 Campaign v8.7.4로 업데이트해야 합니다.
 
@@ -323,7 +323,7 @@ _2025년 2월 14일_
 
 >[!AVAILABILITY]
 >
->이 릴리스는 **제한 공개**(LA) 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
+>이 릴리스는 **LA(제한 공개)** 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 >
 >Campaign v8로 전환하는 Campaign Standard 사용자라면 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"}에서 전환 과정을 자세히 확인할 수 있습니다.
 
@@ -366,7 +366,7 @@ _2025년 1월 15일_
 
 다음 FDA 커넥터가 추가되었습니다. 이 [페이지](compatibility-matrix.md#FederatedDataAccessFDA)를 참조하세요.
 
-* 이제 Databricks는 Adobe Campaign 페더레이션 데이터 액세스(FDA)를 통해 외부 데이터베이스로 지원됩니다. 
+* 이제 Databricks는 Adobe Campaign 페더레이션 데이터 액세스(FDA)를 통해 외부 데이터베이스로 지원됩니다.
 
 * 이제 새로운 Amazon Redshift FDA ODBC 커넥터를 사용할 수 있습니다. 개선된 연결성, 쉬운 유지 관리 및 향상된 호환성을 제공합니다. 이 신규 버전에는 다음과 같은 개선 사항이 포함되어 있습니다.
 

@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '769'
 ht-degree: 5%
 
 ---
@@ -51,7 +51,7 @@ Adobe Campaign에서 개인화 필드를 사용하는 방법에 대한 자세한
 
 보낼 때마다 옵트아웃 링크가 제대로 작동하는지 확인해야 합니다. 예를 들어 증명을 보낼 때 링크가 유효한지, 양식이 온라인 상태인지, 그리고 유효성을 검사하면 **[!UICONTROL No longer contact this recipient]** 필드의 값이 **[!UICONTROL Yes]**(으)로 변경되는지 확인하십시오. 링크를 입력하거나 양식을 변경할 때 사람의 오류가 항상 발생할 수 있으므로 이 검사를 체계적으로 수행해야 합니다.
 
-이 섹션[에서 옵트아웃 링크 &#x200B;](personalization-blocks.md#ootb-personalization-blocks)을(를) 삽입하는 방법을 알아봅니다.
+이 섹션[&#128279;](personalization-blocks.md#ootb-personalization-blocks)에서 옵트아웃 링크 을(를) 삽입하는 방법을 알아봅니다.
 
 게재를 시작한 후 구독 취소와 관련하여 문제가 감지되면, 선택 사항을 확인할 수 없는 경우에도 옵트아웃 링크를 클릭하는 수신자에 대해 수동으로 구독 취소를 수행할 수 있습니다(예: 대량 업데이트 기능 사용).
 

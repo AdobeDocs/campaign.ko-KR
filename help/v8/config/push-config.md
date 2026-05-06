@@ -8,8 +8,8 @@ hide: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 1%
+source-wordcount: '1271'
+ht-degree: 2%
 
 ---
 
@@ -185,7 +185,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 1. **사용자의 모바일 장치 토큰이 변경되면 Campaign에 알림**
 
-   `registerDevice` 함수를 호출할 때 `onTokenRefresh` 함수를 사용하여 사용자의 모바일 장치 토큰의 변경 사항을 Adobe Campaign에 알리는 것이 좋습니다.
+   `onTokenRefresh` 함수를 호출할 때 `registerDevice` 함수를 사용하여 사용자의 모바일 장치 토큰의 변경 사항을 Adobe Campaign에 알리는 것이 좋습니다.
 
    예제:
 
@@ -224,7 +224,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
 
 1. **Firebase 메시징 서비스 구성**
 
-   `FirebaseMessagingService` 콜백에서 `onMessageReceived`을(를) 확장하여 메시지를 받습니다. 모바일 장치에서 알림 수신을 추적할 수 있도록 `notifyReceive` 콜백이 호출될 때 `onMessageReceived` 함수를 호출하는 것이 좋습니다. Adobe Campaign에서 이 함수를 **print** 알림이라고 합니다. OS에 알림을 표시하도록 요청하기 바로 전에 이 함수를 호출해야 합니다.
+   `onMessageReceived` 콜백에서 `FirebaseMessagingService`을(를) 확장하여 메시지를 받습니다. 모바일 장치에서 알림 수신을 추적할 수 있도록 `onMessageReceived` 콜백이 호출될 때 `notifyReceive` 함수를 호출하는 것이 좋습니다. Adobe Campaign에서 이 함수를 **print** 알림이라고 합니다. OS에 알림을 표시하도록 요청하기 바로 전에 이 함수를 호출해야 합니다.
 
    YourApplicationMessagingService.java
 
@@ -497,7 +497,7 @@ Android 프로젝트에 Firebase를 추가하려면 [Google 설명서](https://f
    알림 메시지의 경우 추적 수신을 다음 두 가지 수준으로 구성해야 합니다.
 
    * `onMessageReceived`(응용 프로그램이 백그라운드에 없음): 이전 섹션에서 구현되었습니다.
-   * `onCreate` 실행 활동(또는 `click_action`함수가 사용되는 경우 타깃팅된 활동)(응용 프로그램이 백그라운드에 있지 않음) 중
+   * `onCreate` 실행 활동(또는 `click_action`함수가 사용되는 경우 타깃팅된 활동) (백그라운드에 응용 프로그램이 없음).
 
    열기/클릭 추적과 동시에 수행해야 합니다.
 

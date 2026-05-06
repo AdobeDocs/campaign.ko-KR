@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: c70a106d-3518-4eac-9944-6f7c93d85bac
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 14%
+source-wordcount: '193'
+ht-degree: 22%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 14%
 
 활동의 아웃바운드 전송 모집단은 활동의 인바운드 전환 중에서 기본 세트를 선택하여 결정됩니다.
 
-아웃바운드 전환은 인바운드 전환 모집단 중 하나만 포함할 수 있습니다. 활동이 구성되지 않은 경우 아웃바운드 전환은 인바운드 모집단 중 하나를 임의로 선택합니다.
+아웃바운드 전환에는 인바운드 전환 모집단 중 하나만 포함될 수 있습니다. 활동이 구성되지 않은 경우 아웃바운드 전환은 인바운드 모집단 중 하나를 임의로 선택합니다.
 
 >[!CAUTION]
 >

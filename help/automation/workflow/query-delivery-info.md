@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: d11a1992-c07b-4133-8f0a-65f1b7552a99
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1260'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 1%
 
      ![](assets/query_editor_nveau_18.png)
 
-     **[!UICONTROL Next]**&#x200B;를 클릭합니다.
+     **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    * **[!UICONTROL Primary key (@id)]** 필드를 선택합니다. **[!UICONTROL count (primary key)]** 출력 열이 구성되어 있습니다.
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 
      **[!UICONTROL greater than]** 연산자를 선택하십시오. **[!UICONTROL Value]** 열에서 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭하고 **[!UICONTROL Formula type]** 창에서 **[!UICONTROL Process on dates]**&#x200B;을(를) 선택합니다. 마지막으로 **[!UICONTROL Current date minus n days]**&#x200B;에서 &quot;15&quot;를 입력하십시오.
 
-     **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
+     **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
      ![](assets/query_editor_nveau_24.png)
 
@@ -91,7 +91,7 @@ ht-degree: 1%
 
      **[!UICONTROL less than]** 연산자를 선택하십시오. **[!UICONTROL Value]** 열에서 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭합니다. 날짜 처리를 위해 **[!UICONTROL Formula type]** 창으로 이동하여 **[!UICONTROL Current date minus n days]**&#x200B;에 &quot;1&quot;을(를) 입력하십시오.
 
-     **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
+     **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
      ![](assets/query_editor_nveau_65.png)
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 
    * 다른 필터링 조건을 만들려면 **[!UICONTROL Add]** 함수를 클릭하십시오. **[!UICONTROL Expression]** 열에서 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Field to select]** 창의 **[!UICONTROL Delivery]** 노드에서 **[!UICONTROL Label]**&#x200B;을(를) 선택합니다.
 
-     **[!UICONTROL Finish]**&#x200B;를 클릭합니다.
+     **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
      ![](assets/query_editor_nveau_66.png)
 
@@ -204,7 +204,7 @@ ht-degree: 1%
    ![](assets/query_editor_ex_04.png)
 
 1. **[!UICONTROL Subsets]** 탭에서 첫 번째 분할 분기를 정의합니다. 예를 들어 이 분기의 **클릭됨** 레이블을 입력합니다.
-1. **[!UICONTROL Add a filtering condition on the incoming population]** 옵션을 선택하십시오. **[!UICONTROL Edit]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Add a filtering condition on the incoming population]** 옵션을 선택합니다. **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Targeting and filtering dimension]** 창에서 **[!UICONTROL Recipients of a delivery]** 필터를 두 번 클릭합니다.
 
    ![](assets/query_editor_ex_05.png)

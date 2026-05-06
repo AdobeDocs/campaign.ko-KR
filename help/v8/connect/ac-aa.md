@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
 source-git-commit: e465b846b3144a2138bb912b4baa09238f8c5b4c
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 66%
+source-wordcount: '1429'
+ht-degree: 63%
 
 ---
 
@@ -49,13 +49,13 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
    ![](assets/analytics_connnector_1.png)
 
-1. **[!UICONTROL Report suites]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Report suites]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/analytics_connnector_2.png)
 
 1. **[!UICONTROL Report suite manager]** 페이지에서 **[!UICONTROL Create new]**&#x200B;를 클릭한 다음 **[!UICONTROL Report suite]**&#x200B;를 클릭합니다.
 
-   **[!UICONTROL Report suite]** 만들기에 대한 자세한 절차는 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=ko#prerequisites){target="_blank"}를 참조하세요.
+   **[!UICONTROL Report suite]** 만들기에 대한 자세한 절차는 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites){target="_blank"}를 참조하세요.
 
    ![](assets/analytics_connnector_3.png)
 
@@ -89,7 +89,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
    ![](assets/analytics_connnector_6.png)
 
-1. 구성을 완료하면 **[!UICONTROL Save]** 을(를) 클릭합니다.
+1. 완료하면 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
 1. 그런 다음 **[!UICONTROL Success events]**&#x200B;을(를) 만들려면 **[!UICONTROL Edit settings]** 버튼에서 **[!UICONTROL Conversion]** > **[!UICONTROL Success events]**&#x200B;을(를) 선택합니다.
 

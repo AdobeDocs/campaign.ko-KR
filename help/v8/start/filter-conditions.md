@@ -5,13 +5,13 @@ feature: Query Editor
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 3a521f7006ca833af96f1ef5d5b369c2c0568635
+exl-id: 18e49a15-dbb5-42d6-9379-367e769f319a
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '3323'
+source-wordcount: '3344'
 ht-degree: 33%
 
 ---
-
 
 # 필터 조건 정의{#filter-conditions}
 
@@ -313,7 +313,7 @@ ht-degree: 33%
 
 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Add]** 창에서 **[!UICONTROL Data to extract]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Formula type]** 창에서 수식 유형을 선택하여 식을 입력합니다.
+1. **[!UICONTROL Data to extract]** 창에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Formula type]** 창에서 수식 유형을 선택하여 식을 입력합니다.
 
    사용할 수 있는 수식의 유형은 **[!UICONTROL Field only]**, **[!UICONTROL Aggregate]**, **[!UICONTROL Expression]**&#x200B;입니다.
 

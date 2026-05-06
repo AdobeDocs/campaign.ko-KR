@@ -7,8 +7,8 @@ description: Campaign 기술 정보
 breadcrumb-title: 캠페인 기술 정보
 source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 17%
+source-wordcount: '85'
+ht-degree: 24%
 
 ---
 
@@ -31,4 +31,4 @@ ht-degree: 17%
    + 보안 {#security}
       + {hide-from-toc}[고객 자격 증명 순환](security/credential-rotation-guide.md)
       + {hide-from-toc}[비동기 암호화](security/asymetric-encryption.md)
-+ [&lt; Campaign v8 설명서로 돌아가기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)
++ [&lt; Campaign v8 설명서로 이동](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)

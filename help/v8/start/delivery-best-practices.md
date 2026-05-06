@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '3068'
-ht-degree: 3%
+source-wordcount: '3154'
+ht-degree: 2%
 
 ---
 
@@ -186,7 +186,7 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 구독 취소 링크는 필수입니다. 표시 및 유효해야 하며 양식이 제대로 작동해야 합니다. 기본적으로 메시지를 분석할 때 기본 제공 **[!UICONTROL Unsubscription link approval]** [유형화 규칙](../../automation/campaign-opt/control-rules.md)이(가) 옵트아웃 링크가 포함되어 있는지 확인하고 누락된 경우 경고를 생성합니다.
 
-이 섹션[에서 옵트아웃 링크 &#x200B;](../send/personalization-blocks.md)을(를) 삽입하는 방법을 알아봅니다.
+이 섹션[&#128279;](../send/personalization-blocks.md)에서 옵트아웃 링크 을(를) 삽입하는 방법을 알아봅니다.
 
 +++ **이 모범 사례 적용**
 
@@ -214,7 +214,7 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 ### SMS 길이 {#sms-length-check}
 
-기본적으로 SMS의 문자 수는 GSM(이동통신 글로벌 시스템) 표준을 충족합니다. GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, 또는 여러 부분으로 나누어 전송되는 메시지의 경우 153자로 제한됩니다.
+기본적으로 SMS의 글자 수는 GSM(이동통신 글로벌 시스템) 표준을 충족합니다. GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, 또는 여러 부분으로 나누어 전송되는 메시지의 경우 153자로 제한됩니다.
 
 
 +++ **모범 사례 몇 가지 읽기**
@@ -354,7 +354,7 @@ Learn more [in this section](inbox-rendering.md).
 
 ### 증명 메시지 {#proof-messages}
 
-증명을 보내면 옵트아웃 링크, 미러 페이지, 기타 링크를 확인하고, 메시지의 유효성을 검사하고, 이미지가 표시되는지 확인하고, 발생할 수 있는 오류를 감지하는 등의 작업을 수행할 수 있습니다. 다른 디바이스에서 디자인과 렌더링을 확인할 수도 있습니다.
+증명을 보내면 옵트아웃 링크, 미러 페이지 및 기타 링크를 확인하고, 메시지의 유효성을 검사하고, 이미지가 표시되는지 확인하고, 가능한 오류를 감지하는 등의 작업을 수행할 수 있습니다. 다른 장치에서 디자인과 렌더링을 확인할 수도 있습니다.
 
 <!--
 ### Set up A/B testing deliveries {#a-b-testing-deliveries}

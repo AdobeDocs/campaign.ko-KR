@@ -7,7 +7,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '641'
 ht-degree: 33%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 33%
 
 ![](assets/wf_execution_tab.png)
 
-### 예약 {#scheduler}
+### 스케줄러 {#scheduler}
 
 이 섹션은 캠페인 워크플로우에만 표시됩니다.
 

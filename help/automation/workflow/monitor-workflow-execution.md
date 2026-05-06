@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1937'
 ht-degree: 2%
 
 ---
@@ -230,7 +230,7 @@ instance.vars.isRunning = false
 
 **관리 > 프로덕션 > 기술 워크플로우** 노드를 통해 액세스할 수 있는 **데이터베이스 정리** 워크플로우를 사용하면 데이터베이스의 기하급수적인 증가를 방지하기 위해 오래된 데이터를 삭제할 수 있습니다. 워크플로우는 사용자의 개입 없이 자동으로 트리거됩니다.
 
-또한 특정 기술 워크플로우를 만들어 불필요한 데이터 사용 공간을 제거할 수도 있습니다. 을(를) 참조하십시오   이 [섹션](#purging-the-logs)과(와) 함께입니다.
+또한 특정 기술 워크플로우를 만들어 불필요한 데이터 사용 공간을 제거할 수도 있습니다. 및 이 [섹션](#purging-the-logs)을 참조하세요.
 
 ## 일시 중지된 워크플로우 처리 {#handling-of-paused-workflows}
 

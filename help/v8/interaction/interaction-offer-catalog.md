@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 911096e2-0307-46a8-873c-ee2248b8e3e8
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 2%
 
    * **[!UICONTROL Edit query]**: 오퍼 대상에 필터를 적용합니다.
 
-   * 자격 규칙을 다시 정리합니다. 보려면 **[!UICONTROL Schedule and eligibility rules of the offer]** 링크를 클릭하십시오.
+   * 자격 규칙에 대한 요약.이를 보려면 **[!UICONTROL Schedule and eligibility rules of the offer]** 링크를 클릭하십시오.
 
 ## 대체 범주 추가
 

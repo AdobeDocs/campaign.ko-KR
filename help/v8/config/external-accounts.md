@@ -7,7 +7,7 @@ level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 source-git-commit: fce4f85386c18d0919a85e938d3c1f2cca8d79b9
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '2133'
 ht-degree: 1%
 
 ---
@@ -197,7 +197,7 @@ Campaign에서 OAuth2 인증을 구성하려면 다음 단계를 수행하십시
 
 ## 외부 계정 데이터 전송 {#transfer-data-external-accounts}
 
-이러한 외부 계정은 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보내는 데 사용할 수 있습니다. **이 페이지**&#x200B;에서 워크플로우의 [파일 전송](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+이러한 외부 계정은 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보내는 데 사용할 수 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}에서 워크플로우의 **파일 전송**&#x200B;에 대해 자세히 알아보세요.
 
 * **FTP 및 SFTP** - **FTP** 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 SFTP 또는 FTP 서버와 같은 외부 시스템과의 연결을 설정하려면 고유한 외부 계정을 만들 수 있습니다.
 
@@ -225,7 +225,7 @@ Campaign에서 OAuth2 인증을 구성하려면 다음 단계를 수행하십시
 
    * **[!UICONTROL Encryption]**: 암호화 유형: **[!UICONTROL None]** 또는 **[!UICONTROL SSL]**.
 
-   * **[!UICONTROL Access key]**: **[!UICONTROL Access key]** Microsoft 설명서[에서 &#x200B;](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}을(를) 찾는 방법에 대해 알아보세요.
+   * **[!UICONTROL Access key]**: [Microsoft 설명서](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}에서 **[!UICONTROL Access key]**&#x200B;을(를) 찾는 방법에 대해 알아보세요.
 
 * **Microsoft 패브릭** - **Microsoft 패브릭** 외부 계정을 사용하면 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Microsoft 패브릭과 Adobe Campaign 간에 데이터를 가져오고 내보낼 수 있습니다. 이 통합을 구성하려면 다음 세부 정보를 제공합니다.
 
