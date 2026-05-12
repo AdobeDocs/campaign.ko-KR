@@ -6,9 +6,13 @@ feature: Email
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 27d13642-2971-466b-818d-39328c198b14
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+TQID: https://experienceleague.adobe.com/4GMBlA0-rTnn8kBciPmJLozcPU1qmwM9-5sTFhxkua4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: 1006
 ht-degree: 2%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. Campaign 옵션 목록에서 권장 임계값을 구성할 수 있습니다. [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ko#delivery)를 참조하세요.
+>성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. Campaign 옵션 목록에서 권장 임계값을 구성할 수 있습니다. [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery)를 참조하세요.
 
 두 가지 가능한 경우가 있습니다.
 
@@ -38,7 +42,7 @@ ht-degree: 2%
 
 Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 기본적으로 하나의 파일만 전자 메일에 첨부 파일로 추가할 수 있습니다. 이 임계값은 `NmsDelivery_MaxRecommendedAttachments` 옵션에서 구성할 수 있습니다.
 
-[Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ko#delivery)의 Campaign 옵션 목록에서 자세히 알아보세요.
+[Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery)의 Campaign 옵션 목록에서 자세히 알아보세요.
 
 ## 로컬 파일 첨부 {#attaching-a-local-file}
 

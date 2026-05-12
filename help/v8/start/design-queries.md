@@ -6,9 +6,14 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: d34b6073-a7e7-443a-a6d8-e74ef10a67e8
-source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
+TQID: https://experienceleague.adobe.com/-HhNQgwweCPn3ts3AAm6SjdFTxg-2zexCALMqS1Yjgc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: 872
 ht-degree: 2%
 
 ---
@@ -78,7 +83,7 @@ Campaign 데이터베이스를 쿼리하려면 **[일반 쿼리 편집기](query
 
 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택하면 **[!UICONTROL Target elements]** 섹션이 열립니다. 여기에서 수집할 데이터를 필터링하는 규칙을 정의할 수 있습니다.
 
-* 새 필터를 만들려면 조건을 만드는 데 필요한 필드, 연산자 및 값을 선택합니다. [이 페이지의 &#x200B;](filter-conditions.md)에 설명된 대로 여러 조건을 결합할 수도 있습니다.
+* 새 필터를 만들려면 조건을 만드는 데 필요한 필드, 연산자 및 값을 선택합니다. [이 페이지의 ](filter-conditions.md)에 설명된 대로 여러 조건을 결합할 수도 있습니다.
 
 * 기존 필터를 다시 사용하려면 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Predefined filter]**&#x200B;을(를) 선택한 다음 원하는 필터를 선택하십시오.
 

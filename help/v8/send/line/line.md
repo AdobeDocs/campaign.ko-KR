@@ -6,9 +6,15 @@ role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+TQID: https://experienceleague.adobe.com/urm8-2koO46hRe8XeCDoKYVU-WDqxM7tq0TwqDC8Sc0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: 1196
 ht-degree: 4%
 
 ---
@@ -17,7 +23,7 @@ ht-degree: 4%
 
 LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 인스턴트 메시지, 음성 및 영상 통화용 애플리케이션입니다. Adobe Campaign을 사용하여 LINE 메시지를 보낼 수 있습니다.
 
-[!DNL LINE]을(를) 트랜잭션 메시지 모듈과 결합하여 소비자 모바일 장치에 설치된 [!DNL LINE] 앱에서 실시간 메시지를 보낼 수도 있습니다. 자세한 내용은 Campaign Classic v7 설명서에서 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)를 참조하세요.
+[!DNL LINE]을(를) 트랜잭션 메시지 모듈과 결합하여 소비자 모바일 장치에 설치된 [!DNL LINE] 앱에서 실시간 메시지를 보낼 수도 있습니다. 자세한 내용은 Campaign Classic v7 설명서에서 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)를 참조하세요.
 
 ![](assets/line_message.png)
 

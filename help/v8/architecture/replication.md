@@ -5,13 +5,19 @@ feature: Workflows, FFDA
 role: Developer
 level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: b8f774ce507cff67163064b6bd1341b31512c08f
+TQID: https://experienceleague.adobe.com/2twe2j5Hff6hTUPBos45bAKXOYP2YSVFGWyTJlvFuvI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: e739ee2b-6228-412e-878f-45de0791417d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: 831
 ht-degree: 2%
 
 ---
-
 
 # 데이터 복제 {#wf-data-replication}
 
@@ -42,7 +48,7 @@ ht-degree: 2%
 
 Campaign v8은 특정 기술 워크플로우를 통해 예약된 데이터 복제를 관리합니다. 이러한 기술 워크플로우는 Campaign 탐색기의 **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** 노드에서 사용할 수 있습니다. **수정해서는 안 됩니다.**
 
-기술 워크플로우는 서버에서 정기적으로 예약된 프로세스 또는 작업을 실행합니다. 기술 워크플로우의 전체 목록은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다.
+기술 워크플로우는 서버에서 정기적으로 예약된 프로세스 또는 작업을 실행합니다. 기술 워크플로우의 전체 목록은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}에 자세히 설명되어 있습니다.
 
 데이터 복제를 보장하는 기술 워크플로우는 다음과 같습니다.
 
@@ -115,6 +121,6 @@ var xml = xtk.builder.CopyXxlData(
 
 이 비디오는 Adobe Campaign v8에서 사용하는 데이터베이스, 데이터를 복제하는 이유, 복제하는 데이터 및 복제 프로세스의 작동 방식에 대한 주요 개념을 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416867?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-추가 Campaign v8 클라이언트 콘솔 자습서는 [여기](https://experienceleague.adobe.com/ko/docs/campaign-learn/tutorials/overview)에서 확인할 수 있습니다.
+추가 Campaign v8 클라이언트 콘솔 자습서는 [여기](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview)에서 확인할 수 있습니다.

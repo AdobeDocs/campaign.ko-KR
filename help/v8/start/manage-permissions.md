@@ -6,9 +6,16 @@ role: User, Admin
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
+TQID: https://experienceleague.adobe.com/niDT5Lfk-5W5rbVB1CpLykFQFAx6bwxOzxKrsuRjCkE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: ce296ecd-3d06-45ab-83c3-37214e8ce31cid: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: efa38731-2723-4334-8d8b-a778af834835id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: 1734
 ht-degree: 1%
 
 ---
@@ -69,7 +76,7 @@ Adobe에 새 제품 프로필을 추가하려면 먼저 Campaign 클라이언트
 #### Campaign에서 연산자 그룹 만들기{#create-op-group}
 
 1. Campaign에 연결하여 탐색기를 열고 **[!UICONTROL Administration > Access management > Operator groups]**(으)로 이동합니다.
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭하고 연산자 그룹의 이름을 정의하고 내부 이름(&#39;검토자&#39;)을 설정합니다.
+1. **[!UICONTROL New]**을(를) 클릭하고 연산자 그룹의 이름을 정의하고 내부 이름(&#39;검토자&#39;)을 설정합니다.
    ![](assets/new-op-group.png)
 1. 명명된 권한을 선택하여 관련 권한을 정의합니다. 명명된 권한은 [이 섹션](#use-named-rights)에 자세히 설명되어 있습니다.
 1. 새 연산자 그룹을 저장합니다.
@@ -107,7 +114,7 @@ Adobe Campaign에는 Adobe에서 환경을 활성화할 때 정의된 기본 제
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL Administrator]** 역할은 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 부여합니다. 이름에 &quot;admin&quot;이라는 단어가 포함된 Adobe Admin Console의 모든 제품 프로필(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등) Campaign 컨트롤 패널 액세스 권한을 부여합니다. [Campaign 컨트롤 패널 액세스 관리](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+   >**[!UICONTROL Administrator]** 역할은 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 부여합니다. 이름에 &quot;admin&quot;이라는 단어가 포함된 Adobe Admin Console의 모든 제품 프로필(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등) Campaign 컨트롤 패널 액세스 권한을 부여합니다. [Campaign 컨트롤 패널 액세스 관리](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL Delivery operators]**(게재)
 

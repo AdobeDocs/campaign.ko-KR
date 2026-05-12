@@ -5,9 +5,13 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+TQID: https://experienceleague.adobe.com/FOcEqR6kXaTUyLHSjaxXk2AhErFunD7JNokBzNiOJVY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: 796
 ht-degree: 3%
 
 ---
@@ -26,7 +30,7 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
 이 비디오를 통해 Adobe Campaign의 목록 관리에 대해 자세히 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426462?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
 
 ## 연락처 목록 만들기 {#create-a-list-of-contacts}
@@ -103,7 +107,7 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
    ![](assets/targeting-wf-age-filter.png)
 
-   [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}의 워크플로우에서 쿼리를 만드는 방법을 알아봅니다.
+   [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}의 워크플로우에서 쿼리를 만드는 방법을 알아봅니다.
 
 1. 이 쿼리에 대한 레이블을 추가하고 변경 사항을 저장합니다.
 1. **[!UICONTROL List update]** 활동을 추가하고 편집합니다.
@@ -124,7 +128,7 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
    ![](assets/access-new-list.png)
 
-   워크플로우에 스케줄러를 추가하여 이 워크플로우를 반복적으로 수행할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ko){target="_blank"}.
+   워크플로우에 스케줄러를 추가하여 이 워크플로우를 반복적으로 수행할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
 
 ## 목록에서 프로필 제거 {#remove-a-profile-from-a-list}
 

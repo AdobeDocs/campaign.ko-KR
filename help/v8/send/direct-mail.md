@@ -6,9 +6,14 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+TQID: https://experienceleague.adobe.com/CDfK2RCVNzKde8WiEBdkq8ZB2JlPSjnFmP3cr9Nyox0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: 885
 ht-degree: 7%
 
 ---
@@ -71,11 +76,11 @@ DM 게재의 경우 **[!UICONTROL Edit the extraction file format...]** 링크�
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-추출 파일에 개인화된 URL을 삽입할 수 있습니다. 자세한 내용은 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=ko){target="_blank"}를 참조하세요.
+추출 파일에 개인화된 URL을 삽입할 수 있습니다. 자세한 내용은 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
->이 도우미에는 내보내기 도우미의 단계가 포함되어 있습니다. 자세한 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=ko){target="_blank"}..
+>이 도우미에는 내보내기 도우미의 단계가 포함되어 있습니다. 자세한 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}..
 
 ## 게재 유효성 검사{#validating}
 
