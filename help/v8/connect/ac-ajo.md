@@ -35,4 +35,4 @@ Adobe Campaign과 Adobe Journey Optimizer 간의 통합을 통해 Adobe Journey 
 [이 전체 샘플에서 이 통합을 살펴보세요](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}.
 
 
-[Journey Optimizer 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.
+[Journey Optimizer 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.
