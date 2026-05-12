@@ -7,10 +7,14 @@ level: Beginner
 hide: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
 TQID: https://experienceleague.adobe.com/7D4tw7qjozSda6AgqMGhijqZjWpQQWRaoF-P-4bC3ZI
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 408
@@ -20,7 +24,7 @@ ht-degree: 4%
 
 # 알려진 문제{#known-issues}
 
-이 페이지에는 **최신 Campaign v8 릴리스**&#x200B;에서 식별된 알려진 문제가 나열됩니다. 또한 Campaign v8에서 발생하는 제한 사항은 [이 페이지의 ](ac-guardrails.md)에 나열되어 있습니다.
+이 페이지에는 **최신 Campaign v8 릴리스**&#x200B;에서 식별된 알려진 문제가 나열됩니다. 또한 Campaign v8에서 발생하는 제한 사항은 [이 페이지의 &#x200B;](ac-guardrails.md)에 나열되어 있습니다.
 
 
 >[!NOTE]
@@ -90,7 +94,7 @@ Error:
 
 Campaign 관리자는 [Adobe 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}에서 Campaign v8.3.1 클라이언트 콘솔을 다운로드할 수 있습니다.
 
-이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}에서 Adobe 소프트웨어 배포 [에 액세스하는 방법을 알아보세요.
+이 페이지[&#128279;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ko){target="_blank"}에서 Adobe 소프트웨어 배포 에 액세스하는 방법을 알아보세요.
 
 이 페이지에서 클라이언트 콘솔 [을(를) 업그레이드하는 방법](connect.md)
 

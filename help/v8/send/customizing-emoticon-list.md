@@ -7,9 +7,13 @@ role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 8a714eef-ea72-48f3-86d9-5a98b8ddcc6f
 TQID: https://experienceleague.adobe.com/sCGiJu4peYEbt4i-NnuvOpfQp0WkG-iho-xz-4HNuvg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 463
@@ -52,7 +56,7 @@ ht-degree: 1%
 
    ![](assets/emoticon_5.png)
 
-1. 구성이 완료되면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**을(를) 클릭합니다.
+1. 구성이 완료되면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 새 이모티콘이 스토어에 자동으로 삽입됩니다.
 
 1. 게재의 **[!UICONTROL Insert emoticon]** 창에 표시하려면 새로 만든 이모티콘을 두 번 클릭하여 선택합니다.

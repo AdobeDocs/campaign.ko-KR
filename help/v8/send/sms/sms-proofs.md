@@ -7,9 +7,13 @@ level: Beginner, Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: d2ec4d92-7f00-47c8-98e6-0613d6387de0
 TQID: https://experienceleague.adobe.com/mAVky406-MXlkv76bqxfmolzhemVCUYKhQF1ESceRdE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 244
@@ -30,7 +34,7 @@ SMS 게재에 대한 증명을 전송하여 유효성을 검사할 수 있습니
    증명을 보낼 수 있는 모드가 여러 개 있습니다.
 
    * **[!UICONTROL Definition of a specific proof target]**: 데이터베이스의 주소를 증명 대상으로 필터링하여 쿼리할 수 있습니다.
-   * **[!UICONTROL Substitution of the address]**: 테스트 주소를 입력하고 대상 받는 사람 데이터를 사용하여 콘텐츠의 유효성을 검사할 수 있습니다. 대체 주소는 수동으로 입력하거나 드롭다운 목록에서 선택할 수 있습니다. 연결된 [열거형](../../config/enumerations.md)은(는) **[!UICONTROL Substitution address (rcpAddress)]**입니다.
+   * **[!UICONTROL Substitution of the address]**: 테스트 주소를 입력하고 대상 받는 사람 데이터를 사용하여 콘텐츠의 유효성을 검사할 수 있습니다. 대체 주소는 수동으로 입력하거나 드롭다운 목록에서 선택할 수 있습니다. 연결된 [열거형](../../config/enumerations.md)은(는) **[!UICONTROL Substitution address (rcpAddress)]**&#x200B;입니다.
 기본적으로 대체는 임의로 수행되지만 **[!UICONTROL Detail]** 아이콘을 통해 기본 대상에서 특정 받는 사람을 선택할 수 있습니다.
    * **[!UICONTROL Seed addresses]**: 증명 대상이 될 시드 주소에 액세스할 수 있도록 해줍니다. 이러한 주소는 파일에서 가져오거나 수동으로 입력할 수 있습니다.
    * **[!UICONTROL Specific target and Seed addresses]**: 받는 사람의 시드 주소와 주소를 결합할 수 있습니다.

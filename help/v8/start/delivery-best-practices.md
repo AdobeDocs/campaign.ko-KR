@@ -7,11 +7,20 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
 TQID: https://experienceleague.adobe.com/20Kh0O94OY8Vpy5SmhVUUgVOCkWy7DNZiJko3EeOx-E
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 3154
@@ -136,11 +145,11 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 * 개인화 설정 확인 - 메시지 콘텐츠가 개인화와 관련된 오류를 방지하기 위해 제대로 디자인되었는지 확인하십시오. Adobe Campaign 개인화 태그에는 항상 `<%=table.field%>` 형식이 있습니다. 개인화 블록에서 매개 변수를 잘못 사용하면 문제가 될 수 있습니다. 예를 들어 JavaScript의 변수는 다음과 같이 사용해야 합니다.
 
-  ``
+  &grave;&grave;
   <%
   var brand = "xxx"
   %>
-  ``
+  &grave;&grave;
 
   개인화 블록에 대한 자세한 내용은 [이 섹션](../send/personalization-blocks.md)을 참조하세요.
 
@@ -192,7 +201,7 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 구독 취소 링크는 필수입니다. 표시 및 유효해야 하며 양식이 제대로 작동해야 합니다. 기본적으로 메시지를 분석할 때 기본 제공 **[!UICONTROL Unsubscription link approval]** [유형화 규칙](../../automation/campaign-opt/control-rules.md)이(가) 옵트아웃 링크가 포함되어 있는지 확인하고 누락된 경우 경고를 생성합니다.
 
-이 섹션](../send/personalization-blocks.md)에서 옵트아웃 링크 [을(를) 삽입하는 방법을 알아봅니다.
+이 섹션[&#128279;](../send/personalization-blocks.md)에서 옵트아웃 링크 을(를) 삽입하는 방법을 알아봅니다.
 
 +++ **이 모범 사례 적용**
 

@@ -6,12 +6,19 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
 TQID: https://experienceleague.adobe.com/6mA-RBg1EohscNSZkxXng-e3ya4ePoAG66meI1zRVwE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2: id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2:
+  - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1295
@@ -205,7 +212,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ![](assets/schemaextension_2.png)
 
-전체 특성 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}의 `<attribute>` 요소 섹션에서 사용할 수 있습니다. 일반적으로 사용되는 특성 중 일부는 다음과 같습니다. **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull @required @ref @xml @type**, ****, ****, ****, ****.
+전체 특성 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}의 `<attribute>` 요소 섹션에서 사용할 수 있습니다. 일반적으로 사용되는 특성 중 일부는 다음과 같습니다. **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull @required @ref @xml @type**, **&#x200B;**, **&#x200B;**, **&#x200B;**, **&#x200B;**.
 
 각 특성에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}의 특성 설명을 참조하십시오.
 
