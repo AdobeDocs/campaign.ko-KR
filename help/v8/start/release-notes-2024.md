@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 25ce962e7c8b6a62fc2c1edb08a78afa839d264e
 workflow-type: tm+mt
-source-wordcount: 1679
+source-wordcount: 1669
 ht-degree: 89%
 
 ---
@@ -110,7 +110,7 @@ Campaign과 인바운드 통합을 구현한 경우 [이 설명서](https://deve
 
 ### 일반 개선 사항 {#improvements-8-7-1}
 
-* 여러 스키마가 32비트에서 64비트로 변경되었습니다. 이는 Campaign Standard에서 마이그레이션하는 고객에게만 적용됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=ko){target="_blank"}
+* 여러 스키마가 32비트에서 64비트로 변경되었습니다. 이는 Campaign Standard에서 마이그레이션하는 고객에게만 적용됩니다. [자세히 보기](../../technotes/upgrades/64-bit-tables.md)
 
 * 이제 Campaign 테이블에서 `lastModified` 및 `created` 속성에 기본적으로 서버 날짜 및 시간이 입력됩니다. 이제 `createdBy-id` 속성 값이 기본적으로 현재 로그인 ID로 채워집니다. API 호출에서 사용자가 제공한 값은 무시됩니다. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
@@ -194,7 +194,7 @@ _2024년 2월 14일_
 * 2024년 6월 1일부터 Google 및 Yahoo!는 발신자에게 원클릭 목록-구독 취소를 준수하도록 요구할 것입니다. 이제 Adobe Campaign에서 이 옵션을 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ko#list-unsubscribe){target="_blank"}
 
 
-### 해결 사항 {#fixes-8-6-1}
+### 수정 사항 {#fixes-8-6-1}
 
 이 릴리스에서는 다음 문제가 해결되었습니다.
 
@@ -210,7 +210,7 @@ _2024년 5월 28일 수요일_
 
 이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. [자세히 알아보기](#change-8-7-1)
 
-### 해결 사항 {#fixes-8-5-3}
+### 수정 사항 {#fixes-8-5-3}
 
 이 릴리스에서는 다음 문제가 해결되었습니다.
 
