@@ -12,9 +12,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 531670de4c2f740e4f0a4b96049b23eb8000e40d
 workflow-type: tm+mt
-source-wordcount: 1946
+source-wordcount: 1936
 ht-degree: 88%
 
 ---
@@ -96,7 +96,9 @@ _2022년 9월 30일 토요일_
 * 이러한 변경 사항은 GET URL에만 적용됩니다. POST URL을 포함한 다른 유형은 영향을 받지 않습니다.
 * 사용자 지정 코드를 사용하는 경우 보안 토큰은 더 이상 GET URL 보안 토큰 매개 변수에서 검색되지 않습니다. 다음의 JSSP 코드를 사용하여 새로운 보안 토큰을 생성해야 합니다.
 
-  ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
+  ```
+  getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);
+  ```
 
   로그인 API를 사용하여 보안 토큰을 가져올 수도 있습니다.
 * 세션 토큰 관리에는 변경 사항이 없습니다.

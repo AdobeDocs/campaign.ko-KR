@@ -14,7 +14,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 707
 ht-degree: 10%
@@ -61,11 +61,11 @@ ht-degree: 10%
 
   기본적으로 대체는 임의로 수행되지만 **[!UICONTROL Detail]** 아이콘을 통해 기본 대상에서 특정 받는 사람을 선택할 수 있습니다.
 
-  ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution-details.png){width="800"}
 
   **[!UICONTROL Select a profile (must be included in the target)]** 옵션을 선택하고 받는 사람을 선택하십시오.
 
-  ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution.png){width="800"}
 
 
 * 시드 주소를 증명 대상으로 사용하려면 **[!UICONTROL Seed addresses]** 옵션을 사용하십시오. 이러한 주소는 파일에서 가져오거나 수동으로 입력할 수 있습니다.
@@ -86,7 +86,7 @@ ht-degree: 10%
 1. **[!UICONTROL Send a proof]** 창에서 증명 수신자를 확인합니다.
 1. 증명 메시지 준비를 시작하려면 **[!UICONTROL Analyze]**&#x200B;을(를) 클릭하십시오.
 
-   ![](assets/send-proof-analyze.png){width="800" align="left"}
+   ![](assets/send-proof-analyze.png){width="800"}
 
 1. 게재 준비가 완료되면 **[!UICONTROL Confirm delivery]**&#x200B;을(를) 사용하여 증명 메시지를 보냅니다.
 
@@ -108,7 +108,7 @@ ht-degree: 10%
 
 기본적으로 증명 메시지는 제목의 `Proof #N` 언급에 의해 식별됩니다. 여기서 `N`은(는) 증명 번호입니다. 이 숫자는 각 증명 게재 분석과 함께 증가합니다. 필요에 따라 `proof` 접두사를 변경할 수 있습니다.
 
-![](assets/proof-parameters.png){width="800" align="left"}
+![](assets/proof-parameters.png){width="800"}
 
 
 ## 사용 방법 비디오 {#video-proof}

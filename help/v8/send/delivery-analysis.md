@@ -15,7 +15,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 693
 ht-degree: 5%
@@ -64,7 +64,7 @@ ht-degree: 5%
    * 노란색 아이콘은 중요하지 않은 처리 오류를 나타냅니다.
    * 빨간색 아이콘은 게재를 보낼 수 없는 심각한 오류를 나타냅니다.
 
-   ![](assets/delivery-analysis-results.png){width="800" align="left"}
+   ![](assets/delivery-analysis-results.png){width="800"}
 
 1. 오류가 있는 경우 오류를 수정하려면 **[!UICONTROL Close]**&#x200B;을(를) 클릭하십시오. 변경한 후 **[!UICONTROL Analyze]**&#x200B;을(를) 클릭하여 분석을 다시 시작합니다.
 
@@ -80,7 +80,7 @@ ht-degree: 5%
 
 게재 속성의 **[!UICONTROL Analysis]** 탭으로 이동하여 분석 단계 동안 메시지 준비에 대한 설정을 정의합니다.
 
-![](assets/delivery-properties-analysis-tab.png){width="800" align="left"}
+![](assets/delivery-properties-analysis-tab.png){width="800"}
 
 이 탭에서는 다음 옵션에 액세스할 수 있습니다.
 

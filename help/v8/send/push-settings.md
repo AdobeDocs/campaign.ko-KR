@@ -21,7 +21,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 1829
 ht-degree: 5%
@@ -176,7 +176,7 @@ To get the SDKs needed for push notification to work you will need the following
 
 1. **[!UICONTROL Profiles and Targets > Services and Subscriptions]** 탭으로 이동하여 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/new-service-push.png){width="800" align="left"}
+   ![](assets/new-service-push.png){width="800"}
 
 1. **[!UICONTROL Label]** 및 **[!UICONTROL Internal name]**&#x200B;을(를) 입력하고 **[!UICONTROL Mobile application]** 유형을 선택하십시오.
 
@@ -194,14 +194,14 @@ iOS 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL Create an iOS application]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 
-   ![](assets/new-ios-app.png){width="600" align="left"}
+   ![](assets/new-ios-app.png){width="600"}
 
 1. **[!UICONTROL Label]** 필드에 앱 이름을 입력합니다.
 1. (선택 사항) 일부 **[!UICONTROL Application variables]**&#x200B;을(를) 사용하여 푸시 메시지 콘텐츠를 보강할 수 있습니다. 이는 완전히 맞춤화가 가능하며 모바일 디바이스로 전송되는 메시지 페이로드의 일부입니다.
 
    아래 예에서는 **mediaURl** 및 **mediaExt** 변수가 추가되어 리치 푸시 알림을 만든 다음 응용 프로그램에 알림 내에 표시할 이미지를 제공합니다.
 
-   ![](assets/ios-app-parameters.png){width="600" align="left"}
+   ![](assets/ios-app-parameters.png){width="600"}
 
 1. **[!UICONTROL Subscription parameters]** 탭으로 이동하여 **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 스키마의 확장으로 매핑을 정의합니다.
 
@@ -244,7 +244,7 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL Create an Android application]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 
-   ![](assets/new-android-app.png){width="600" align="left"}
+   ![](assets/new-android-app.png){width="600"}
 
 1. **[!UICONTROL Label]** 필드에 앱 이름을 입력합니다.
 1. 통합 키는 각 애플리케이션에 따라 다릅니다. 모바일 애플리케이션을 Adobe Campaign에 연결합니다.
