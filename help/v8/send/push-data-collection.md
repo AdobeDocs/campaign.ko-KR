@@ -6,7 +6,7 @@ role: Developer
 level: Intermediate
 badge: label="제한 공개" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 52ea7f0a7690ef656568cc75925b9982e1f475e9
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 3%
@@ -105,7 +105,7 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 
 1. **[!UICONTROL Profiles and Targets > Services and Subscriptions]** 탭으로 이동하여 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/push-config-4.png){width="800" align="left"}
+   ![](assets/push-config-4.png){width="800"}
 
 1. **[!UICONTROL Label]** 및 **[!UICONTROL Internal name]**&#x200B;을(를) 입력하고 **[!UICONTROL Mobile application]** 유형을 선택하십시오.
 
