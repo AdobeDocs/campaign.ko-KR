@@ -7,15 +7,11 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
 TQID: https://experienceleague.adobe.com/gBiPYIxSPqG0ks8b680AjfJK4eY1uCovk61e3ORbKug
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 62f279d8b36160ff56f4fdc1f7fba0099bdbc8ad
 workflow-type: tm+mt
 source-wordcount: 370
 ht-degree: 1%
@@ -53,7 +49,7 @@ Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 보낸 �
 1. 캠페인 탐색기에서 게재 템플릿 폴더를 찾습니다. 기본적으로 게재 템플릿은 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 폴더에 저장됩니다.
 1. BCC로 업데이트할 게재 템플릿을 편집합니다.
 1. **[!UICONTROL Properties]** 버튼을 클릭합니다.
-1. **[!UICONTROL Delivery]** 탭에서 **[!UICONTROL Email BCC with enhanced Momentum]** 옵션을 선택합니다.
+1. **[!UICONTROL Delivery]** 탭에서 **[!UICONTROL Email BCC with Enhanced MTA]** 옵션을 선택합니다.
 
    ![](assets/email-bcc.png)
 
