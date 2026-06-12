@@ -12,7 +12,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: b285c321f3b905150b31621941ea99608d627739
 workflow-type: tm+mt
 source-wordcount: 275
 ht-degree: 100%
@@ -56,3 +56,4 @@ FFDA 배포를 위한 데이터 복제 관련 페이지가 재구성되었으며
 
 * 다이렉트 메일의 기본 postalAddress 필드를 정의하는 방법과 주소가 완전한지 확인하는 것이 중요한 이유에 관한 정보를 추가했습니다. [자세히 보기](../send/direct-mail.md)
 * Adobe Campaign v8 [설명서 홈](../campaign-home.md) 페이지가 다시 디자인되었습니다.
+
