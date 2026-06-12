@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 22b8f9904eb2ce99780de60d9946d5304301af8e
+source-git-commit: eacbd4a625626dcad724b2f74721256548baf850
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 86%
+source-wordcount: '896'
+ht-degree: 85%
 
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 86%
    + [Campaign Standard에서 v8로의 전환](start/acs-to-v8.md)
    + [자주 묻는 질문](start/campaign-faq-comprehensive.md)
    + {hide-from-toc}[자주 묻는 질문](start/campaign-faq.md)
+   + {hide-from-toc}[전자 메일 추적 픽셀 및 CNIL 지침](start/cnil-pixel-tracking.md)
 + 관리 및 권한 {#permissions}
    + [사용 권한 시작](start/gs-permissions.md)
    + [사용자 권한 관리](start/manage-permissions.md)
