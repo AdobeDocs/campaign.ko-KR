@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+source-git-commit: 22b8f9904eb2ce99780de60d9946d5304301af8e
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 85%
+source-wordcount: '890'
+ht-degree: 86%
 
 ---
 
@@ -30,7 +30,6 @@ ht-degree: 85%
    + {hide-from-toc}[알려진 문제](start/known-issues.md)
    + [호환성 매트릭스](start/compatibility-matrix.md)
    + {hide-from-toc}[설명서 업데이트](start/documentation-updates.md)
-   + [월별 업데이트 보고서](../../monthly-updates-report.md)
 + 시작 {#new}
    + [Adobe Campaign 시작](start/get-started.md)
    + [주요 기능](start/whats-new.md)
