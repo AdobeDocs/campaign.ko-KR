@@ -5,12 +5,13 @@ feature: Overview
 role: User
 level: Beginner
 hide: true
-source-git-commit: b285c321f3b905150b31621941ea99608d627739
+source-git-commit: 94d9f6725b0bfb458707c9900f5b6cb553d72daf
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 1%
 
 ---
+
 
 # 이메일 추적 픽셀에 대한 CNIL의 업데이트된 지침 이해
 
@@ -39,21 +40,27 @@ Adobe Journey Optimizer, Journey Optimizer B2B, Adobe Campaign 및 Marketo Engag
 고객은 CNIL 지침을 처리하기 위해 아키텍처를 구성할 때 Adobe Campaign의 기본 추적, 스키마 및 개인화 메커니즘을 사용하여 특정 요소를 처리할 수 있습니다.
 
 * **게재 분류.** `nms:delivery`을(를) `emailType` 특성(인증, 전달만 가능, 트랜잭션, 마케팅, 공개 서비스, B2B 전망)으로 확장합니다. 분류는 동의 없이 허용되는 픽셀을 구동합니다.
+
 * **동의 캡처.** 언어 버전, 타임스탬프, 캡처 원본 및 만료 정보를 포함하는 목적별 동의 구조로 `nms:recipient`을(를) 확장합니다. 등록 양식 및 기본 설정 센터를 확장하여 이메일 옵트인과 별도로 픽셀 동의를 수집합니다.
+
 * **픽셀 발광.** 픽셀 목적(인증, 전달성, 성능, 프로파일링, 사기 행위 탐지)당 하나의 `NmsTracking_OpenFormula`을(를) 정의합니다. 게재 유형화 규칙은 emailType 및 수신자의 용도별 동의를 기반으로 내보낼 수식을 선택합니다. 개인화 블록은 논리를 캡슐화하므로 개별 크리에이티브에서 활성화되지 않습니다.
+
 * **철회.** 구독 취소 링크와 별도로 모든 이메일 바닥글에 **추적기 환경 설정 관리** 링크를 추가합니다. 링크는 `idTracking`을(를) 통해 인증된 `nms:webApp` 랜딩 페이지를 가리킵니다. 수신자는 이메일 주소를 다시 입력하지 않고 한 번의 클릭으로 동의를 철회합니다. 표준 **추적** 워크플로에 추가된 필터 단계는 이전에 배달된 전자 메일의 다시 열기를 철회 후 사용하지 못하도록 합니다.
+
 * **동의 증명.** 추가 전용 로그(예: `pix:consentLog` 확장 네임스페이스)에서 각 동의 이벤트를 캡처합니다. 이때 단어 변경 후 검색을 위해 단어 버전은 별도로 저장됩니다. Adobe Campaign 탐색기를 통해 로그를 표시하고 정기적으로 내보냅니다.
 * **다시 요청 거버넌스입니다.** `lastPixelRefusalDate` 필드 및 필터링 유형화 규칙은 거부 후 최소 6개월 동안 다시 요청을 금지합니다. 주기적인 워크플로우는 동의 만료를 관리하는 데 도움이 될 수 있습니다.
+
 * **보고 중.** 기존 Adobe Campaign 보고는 코드를 변경하지 않고 새 필드(urlCategory, emailType, 동의 플래그)에 대해 계속 작동합니다.
 
 Adobe 이메일 마케팅 실행 애플리케이션의 이메일 추적에 대한 자세한 내용은 다음 설명서를 참조하십시오.
 
 | 제품 | 설명서 참조 |
 |---|---|
-| Campaign v8 | [메시지 추적](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
-| Campaign Classic | [메시지 추적 시작](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
-| Campaign Standard | [전자 메일 채널 구성](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel){target="_blank"} |
-| Journey Optimizer | [메시지 추적 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
-| Marketo Engage | [전자 메일 링크 추적 사용 안 함](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
-| Journey Optimizer | [전자 메일 설정 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
+| Campaign v8 | [메시지 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
+| Campaign Classic | [메시지 추적 시작](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
+| Campaign Standard | [전자 메일 채널 구성](https://experienceleague.adobe.com/en/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel){target="_blank"} |
+| Journey Optimizer | [메시지 추적 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
+| Marketo Engage | [전자 메일 링크 추적 사용 안 함](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
+| Journey Optimizer | [전자 메일 설정 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
+
 
