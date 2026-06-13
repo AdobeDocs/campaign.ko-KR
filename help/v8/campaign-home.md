@@ -15,10 +15,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 94d9f6725b0bfb458707c9900f5b6cb553d72daf
 workflow-type: tm+mt
-source-wordcount: 331
-ht-degree: 74%
+source-wordcount: 281
+ht-degree: 80%
 
 ---
 
@@ -90,17 +90,17 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>시작하기</strong><br/><a href="start/campaign-ui.md">사용자 인터페이스</a> - <a href="start/ac-components.md">구성 요소 및 프로세스</a> - <a href="start/v7-to-v8.md">Classic v7에서 v8까지</a> - <a href="start/campaign-faq.md">FAQ</a>
+      <strong>시작</strong><br/><a href="start/campaign-ui.md">사용자 인터페이스</a> - <a href="start/ac-components.md">구성 요소 및 프로세스</a> - <a href="start/v7-to-v8.md">Classic v7에서 v8로</a> - <a href="start/campaign-faq.md">FAQ</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>고객 경험</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">워크플로우 자동화</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">캠페인 오케스트레이션</a> - <a href="interaction/interaction.md">의사 결정 관리</a> - <a href="send/personalize.md">Personalization</a>
+      <strong>고객 경험</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">워크플로로 자동화</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">캠페인 오케스트레이션</a> - <a href="interaction/interaction.md">의사 결정 관리</a> - <a href="send/personalize.md">개인화</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>메시지 보내기</strong><br/><a href="start/create-message.md">시작하기</a> - <a href="send/preview-and-proof.md">미리 보기 및 증명</a> - <a href="send/predictive.md">전송 시간 최적화</a> - <a href="reporting/gs-reporting.md">보고 및 분석</a>
+      <strong>메시지 보내기</strong><br/><a href="start/create-message.md">시작</a> - <a href="send/preview-and-proof.md">미리 보기 및 교정쇄</a> - <a href="send/predictive.md">전송 시간 최적화</a> - <a href="reporting/gs-reporting.md">보고 및 분석</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -124,5 +124,5 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
 
 ## 추가 리소스
 
-[Adobe Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web 사용자 인터페이스 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"} - [튜토리얼](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ko){target="_blank"} - [[!DNL Adobe Campaign] 자동화 안내서](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko){target="_blank"} - [Campaign v8 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
+[Adobe Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"} - [자습서](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ko){target="_blank"} - [[!DNL Adobe Campaign] 자동화 안내서](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko){target="_blank"} - [Campaign v8용 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"} - [전자 메일 추적 픽셀 및 CNIL 지침](../v8/start/cnil-pixel-tracking.md)
 
