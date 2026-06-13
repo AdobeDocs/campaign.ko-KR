@@ -1,12 +1,9 @@
 ---
 title: 이메일 추적 픽셀 및 CNIL 지침
 description: 이메일 추적 픽셀 및 규정 준수 노력을 지원할 수 있는 Adobe Campaign 기능에 대한 CNIL의 업데이트된 지침을 이해합니다.
-feature: Overview
-role: User
-level: Beginner
 version: Campaign v8, Campaign Classic v7, Campaign Standard
 hide: true
-source-git-commit: d30c11b245b8ad7735a8e45efb2c5fdbe936a97b
+source-git-commit: fc92f46a1df96412cc86b9a8c0946132f79a2da8
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 1%
