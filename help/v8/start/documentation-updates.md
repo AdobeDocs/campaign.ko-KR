@@ -6,22 +6,23 @@ role: User
 level: Beginner
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
 TQID: https://experienceleague.adobe.com/3FTCgVEDf0XxbqOoqH1n5OxgwkEb4xDNk9MW-WTwIi4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b285c321f3b905150b31621941ea99608d627739
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: fc92f46a1df96412cc86b9a8c0946132f79a2da8
 workflow-type: tm+mt
-source-wordcount: 275
-ht-degree: 100%
+source-wordcount: 295
+ht-degree: 93%
 
 ---
 
 # 설명서 업데이트 {#latest-updates}
 
 이 페이지에는 [!DNL Campaign] v8(콘솔) 설명서의 모든 최신 업데이트가 나열됩니다.
+
+## 2026년 6월 {#june-2026}
+
+이메일 추적 픽셀 및 관련 Adobe Campaign 기능에 대한 CNIL 지침에 대한 페이지를 추가했습니다. [자세히 보기](cnil-pixel-tracking.md)
 
 ## 2025년 4월 {#april-2025}
 
