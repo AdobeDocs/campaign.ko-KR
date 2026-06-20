@@ -6,20 +6,15 @@ role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 TQID: https://experienceleague.adobe.com/cAHOzLoUPZ4sRNzKa1MYQg8E5zaBB3XuBdTxrSTBlPU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 382f297c4763e56f65b6f1acb7ff209cf59b71c2
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 96%
+source-wordcount: 519
+ht-degree: 91%
 
 ---
 
@@ -68,6 +63,8 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 ## 성능 모니터링
 
 컨트롤 패널은 인스턴스를 모니터링하고 최적의 성능을 보장하는 데 도움이 되는 몇 가지 기능을 제공합니다. [여기를 클릭하세요](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko){target="_blank"}
+
+Campaign v8 관리 클라우드 서비스의 경우 Adobe은 귀하를 대신하여 인프라, 플랫폼 및 소프트웨어 프로세스를 모니터링합니다. [Adobe 관리 모니터링](../start/monitor.md#adobe-cloud-monitoring)에 대해 자세히 알아보세요.
 
 
 ## 인스턴스 설정
