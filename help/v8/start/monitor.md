@@ -18,7 +18,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 4a626787cafd7cc9bfb1d26b26a703aa5fb86a58
+source-git-commit: e8438b85eec144e83b2660f9d66444c1a01863ab
 workflow-type: tm+mt
 source-wordcount: 2101
 ht-degree: 2%
@@ -27,11 +27,7 @@ ht-degree: 2%
 
 # 캠페인 모니터링 개요 {#monitor-campaign}
 
-Adobe Campaign은 개별 메시지가 전달되었는지 여부부터 워크플로우가 실패한 이유, 인스턴스가 남겨 둔 데이터베이스 용량까지 모든 수준에서 가시성을 제공합니다. 이 페이지는 모든 모니터링 기능을 매핑하므로 주의가 필요한 경우 살펴볼 위치를 알 수 있습니다.
-
->[!NOTE]
->
->Campaign 관리자는 [Campaign Campaign 컨트롤 패널](#control-panel)을(를) 사용하여 인스턴스를 모니터링하고, 성능을 관리하고, 셀프서비스 기능으로 설정을 구성할 수도 있습니다.
+Adobe Campaign은 개별 메시지가 전달되었는지 여부부터 워크플로우가 실패한 이유, 인스턴스가 남겨 둔 데이터베이스 용량까지 모든 수준에서 가시성을 제공합니다. 이 페이지는 모든 모니터링 기능을 매핑하므로 주의가 필요한 경우 살펴볼 위치를 알 수 있습니다. Campaign 관리자는 [Campaign Campaign 컨트롤 패널](#control-panel)을(를) 사용하여 인스턴스를 모니터링하고, 성능을 관리하고, 셀프서비스 기능으로 설정을 구성할 수도 있습니다.
 
 >[!TIP]
 >
