@@ -1,9 +1,9 @@
 ---
 title: 이메일 추적 픽셀 및 CNIL 지침
 description: 이메일 추적 픽셀 및 규정 준수 노력을 지원할 수 있는 Adobe Campaign 기능에 대한 CNIL의 업데이트된 지침을 이해합니다.
-version: Campaign v8, Campaign Classic v7, Campaign Standard
+version: Campaign v8, Campaign Classic v7
 hide: true
-source-git-commit: fc92f46a1df96412cc86b9a8c0946132f79a2da8
+source-git-commit: 6466434e6d91445dd12a81effde68d8ab6ba8960
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 1%
@@ -54,11 +54,11 @@ Adobe 이메일 마케팅 실행 애플리케이션의 이메일 추적에 대�
 
 | 제품 | 설명서 참조 |
 |---|---|
-| Campaign v8 | [메시지 추적](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
-| Campaign Classic | [메시지 추적 시작](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
-| Campaign Standard | [전자 메일 채널 구성](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel){target="_blank"} |
-| Journey Optimizer | [메시지 추적 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
-| Marketo Engage | [전자 메일 링크 추적 사용 안 함](https://experienceleague.adobe.com/ko/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
-| Journey Optimizer | [전자 메일 설정 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
+| Campaign v8 | [메시지 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
+| Campaign Classic | [메시지 추적 시작](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
+| Campaign Standard | [전자 메일 채널 구성](https://experienceleague.adobe.com/en/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel){target="_blank"} |
+| Journey Optimizer | [메시지 추적 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
+| Marketo Engage | [전자 메일 링크 추적 사용 안 함](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
+| Journey Optimizer | [전자 메일 설정 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
 
 
