@@ -16,8 +16,8 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 111
-ht-degree: 3%
+source-wordcount: 99
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 이제 SMS의 유효성을 검사하면 대상자에게 보낼 수 있습니다.
 
-1. **[!UICONTROL Send]** 버튼을 클릭합니다.
+1. **[!UICONTROL Send]** 단추를 클릭합니다.
 열려 있는 창에서 자신에게 맞는 작업을 선택합니다.
 
    아래 예제에서는 **[!UICONTROL Deliver it as soon as possible]**&#x200B;을(를) 선택하겠습니다. **[!UICONTROL Analyze]** 단추가 나타납니다. **[!UICONTROL Analyze]** 단추를 클릭합니다.

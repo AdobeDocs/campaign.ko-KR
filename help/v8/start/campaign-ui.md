@@ -64,7 +64,7 @@ Campaign에 연결되면 Adobe Campaign 홈 페이지에 액세스합니다. Cam
 
 >[!NOTE]
 >
->웹 사용자 인터페이스 카드가 표시되지 않으면 A[Adobe Experience Cloud 외부 계정](../config/external-accounts.md)에 **Server**, **Tenant**, **Callback server** 및 **연결 표시** 필드가 비어 있지 않은지 확인하십시오.
+>웹 사용자 인터페이스 카드가 표시되지 않으면 A[Adobe Experience Cloud 외부 계정](../config/external-accounts.md)에 **서버**, **테넌트**, **콜백 서버** 및 **연결 표시** 필드가 비어 있지 않은지 확인하십시오.
 
 홈페이지에서 [캠페인 Campaign 컨트롤 패널](../config/self-service.md)에 액세스할 수도 있습니다.
 
@@ -153,11 +153,11 @@ v8.6.1 릴리스부터 Campaign v8 사용자는 중앙 Adobe Experience Cloud �
 
 * Campaign 클라이언트 콘솔 인터페이스의 경우 지원되는 언어는 다음과 같습니다.
 
-   * 영어(영국)
-   * 영어(미국)
-   * 프랑스어
-   * 독일어
-   * 일본어
+  * 영어(영국)
+  * 영어(미국)
+  * 프랑스어
+  * 독일어
+  * 일본어
 
 
   >[!CAUTION]

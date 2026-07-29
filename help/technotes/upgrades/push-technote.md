@@ -57,9 +57,9 @@ Adobe Campaign Classic v7 및 Adobe Campaign v8은 이미 푸시 알림 메시�
 
 * Android 라우팅 외부 계정 정보:
 
-   * Campaign Classic v7 온-프레미스 또는 하이브리드 사용자는 Android 라우팅 외부 계정이 `androidPushConnectorV2.js`(으)로 구성되어 있는지 확인하세요. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}를 참조하세요.
+  * Campaign Classic v7 온-프레미스 또는 하이브리드 사용자는 Android 라우팅 외부 계정이 `androidPushConnectorV2.js`(으)로 구성되어 있는지 확인하세요. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}를 참조하세요.
 
-   * 하이브리드, 호스팅 및 관리 Cloud Services 배포의 경우 Adobe 고객 지원 팀과 연결하여 중간 소싱 서버의 Android 라우팅 외부 계정에서 `androidPushConnectorV2.js (nms)` 커넥터가 선택되었는지 확인해야 합니다.
+  * 하이브리드, 호스팅 및 관리 Cloud Services 배포의 경우 Adobe 고객 지원 팀과 연결하여 중간 소싱 서버의 Android 라우팅 외부 계정에서 `androidPushConnectorV2.js (nms)` 커넥터가 선택되었는지 확인해야 합니다.
 
 #### 전환 절차 {#fcm-transition-steps}
 
@@ -115,45 +115,45 @@ HTTP v1을 지원하는 버전으로 업그레이드하기 전에 만든 기존 
 
   HTTP v1을 지원하는 버전으로 업그레이드하기 전에 생성된 모든 게재 및 게재 템플릿을 패치하려면 다음 단계를 수행합니다.
 
-   1. 패치 작업 중에 예기치 않은 문제가 발생한 경우 복원할 수 있도록 기존 게재 및 게재 템플릿을 패키지로 내보냅니다.
-   1. Posgresql에서 다음 명령을 실행합니다.
+  1. 패치 작업 중에 예기치 않은 문제가 발생한 경우 복원할 수 있도록 기존 게재 및 게재 템플릿을 패키지로 내보냅니다.
+  1. Posgresql에서 다음 명령을 실행합니다.
 
-      ```sql
-      pg_dump -Fp -f /sftp/<db_name>-nmsdelivery-before_rd_script.sql -t nmsdelivery -d <db_name>
-      ```
+     ```sql
+     pg_dump -Fp -f /sftp/<db_name>-nmsdelivery-before_rd_script.sql -t nmsdelivery -d <db_name>
+     ```
 
-   1. 기본적으로 스크립트는 `dryrun` 모드에 있으며 해당 모드에서 시작하여 일부 게재를 패치해야 하는지 확인할 수 있습니다.
+  1. 기본적으로 스크립트는 `dryrun` 모드에 있으며 해당 모드에서 시작하여 일부 게재를 패치해야 하는지 확인할 수 있습니다.
 
-      명령
+     명령
 
-      ```sql
-      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js 
-      ```
+     ```sql
+     nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js 
+     ```
 
-      출력
+     출력
 
-      ```sql
-      ...
-      HH:MM:SS >   Processing delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
-      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
-      HH:MM:SS >   Processing delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
-      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
-      ...
-      HH:MM:SS >   Summary (XYZ processed deliverie(s) or delivery template(s)):
-      HH:MM:SS >>  - X had not patchable androidCheckParams formula!
-      HH:MM:SS >   - Y had androidCheckParams formula patched.
-      HH:MM:SS >   - Z ignored as alreading having androidCheckParams formula patched.
-      ```
+     ```sql
+     ...
+     HH:MM:SS >   Processing delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+     HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+     HH:MM:SS >   Processing delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+     HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+     ...
+     HH:MM:SS >   Summary (XYZ processed deliverie(s) or delivery template(s)):
+     HH:MM:SS >>  - X had not patchable androidCheckParams formula!
+     HH:MM:SS >   - Y had androidCheckParams formula patched.
+     HH:MM:SS >   - Z ignored as alreading having androidCheckParams formula patched.
+     ```
 
-      >[!NOTE]
-      >
-      >`not patchable` 게재를 수동으로 업데이트해야 합니다. 해당 ID는 로그에서 찾을 수 있습니다.
+     >[!NOTE]
+     >
+     >`not patchable` 게재를 수동으로 업데이트해야 합니다. 해당 ID는 로그에서 찾을 수 있습니다.
 
-   1. 다음과 같은 방법으로 실행 모드에서 스크립트를 실행하여 게재를 업데이트합니다.
+  1. 다음과 같은 방법으로 실행 모드에서 스크립트를 실행하여 게재를 업데이트합니다.
 
-      ```sql
-      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
-      ```
+     ```sql
+     nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
+     ```
 
   +++
 

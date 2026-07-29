@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ***샘플 요청***
 
-프로필 리소스의 레코드 1개를 표시하는 샘플 GET 요청.
+프로필 리소스의 1개 레코드를 표시하는 샘플 GET 요청.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \

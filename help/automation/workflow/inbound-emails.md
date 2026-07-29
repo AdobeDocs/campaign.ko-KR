@@ -38,21 +38,21 @@ ht-degree: 1%
 
      ![](assets/email_rec_edit_1b.png)
 
-      * **[!UICONTROL POP3 server]**
+     * **[!UICONTROL POP3 server]**
 
-        POP3 서버 이름.
+       POP3 서버 이름.
 
-      * **[!UICONTROL POP3 account]**
+     * **[!UICONTROL POP3 account]**
 
-        사용자 이름.
+       사용자 이름.
 
-      * **[!UICONTROL Password]**
+     * **[!UICONTROL Password]**
 
-        사용자 계정 암호.
+       사용자 계정 암호.
 
-      * **[!UICONTROL Port]**
+     * **[!UICONTROL Port]**
 
-        POP3 연결 포트 번호. 기본 포트는 110입니다.
+       POP3 연결 포트 번호. 기본 포트는 110입니다.
 
    * **[!UICONTROL Stop as soon as email is processed]**
 

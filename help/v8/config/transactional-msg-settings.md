@@ -104,9 +104,9 @@ Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대해
 
   가능한 이벤트 상태는 다음과 같습니다.
 
-   * **[!UICONTROL Pending]**: 이벤트가 큐에 있습니다. 메시지 템플릿이 아직 할당되지 않았습니다.
-   * **[!UICONTROL Pending delivery]**: 이벤트가 큐에 있고 메시지 템플릿이 할당되어 게재에 의해 처리되는 중입니다.
-   * **[!UICONTROL Sent]**: 이 상태는 게재 로그에서 복사됩니다. 게재가 전송되었음을 의미합니다.
-   * **[!UICONTROL Ignored by the delivery]**: 이 상태는 게재 로그에서 복사됩니다. 게재가 무시되었다는 뜻입니다.
-   * **[!UICONTROL Delivery failed]**: 이 상태는 게재 로그에서 복사됩니다. 게재에 실패했다는 뜻입니다.
-   * **[!UICONTROL Event not taken into account]**: 이벤트를 메시지 템플릿에 연결할 수 없습니다. 이벤트가 처리되지 않습니다.
+  * **[!UICONTROL Pending]**: 이벤트가 큐에 있습니다. 메시지 템플릿이 아직 할당되지 않았습니다.
+  * **[!UICONTROL Pending delivery]**: 이벤트가 큐에 있고 메시지 템플릿이 할당되어 게재에 의해 처리되는 중입니다.
+  * **[!UICONTROL Sent]**: 이 상태는 게재 로그에서 복사됩니다. 게재가 전송되었음을 의미합니다.
+  * **[!UICONTROL Ignored by the delivery]**: 이 상태는 게재 로그에서 복사됩니다. 게재가 무시되었다는 뜻입니다.
+  * **[!UICONTROL Delivery failed]**: 이 상태는 게재 로그에서 복사됩니다. 게재에 실패했다는 뜻입니다.
+  * **[!UICONTROL Event not taken into account]**: 이벤트를 메시지 템플릿에 연결할 수 없습니다. 이벤트가 처리되지 않습니다.

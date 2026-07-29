@@ -45,7 +45,7 @@ Adobe Campaign에는 다양한 리소스를 통해 데이터를 정의하는 데
 
 ***샘플 요청***
 
-확장된 profileAndServicesExt 리소스에 액세스하기 위한 샘플 GET 요청.
+확장된 profileAndServicesExt 리소스에 액세스하기 위한 샘플 GET 요청입니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\

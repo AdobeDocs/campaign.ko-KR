@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: 697
 ht-degree: 1%
 
 ---
@@ -49,8 +49,8 @@ Campaign 폴더는 탐색기 트리의 노드입니다. 유형에 따라 특정 
 
 * **명명 규칙을 정의하고 적용**&#x200B;합니다. 예를 들어 워크플로의 이름을 알파벳 순서로 지정하여 다음과 같이 실행 순서대로 정렬되도록 할 수 있습니다.
 
-  A1 - 수신자 가져오기, 10:00부터 시작;
-A2 - 11:00에 시작하는 티켓 가져오기.
+  A1 - 수신자 가져오기, 10:00에 시작;
+  A2 - 11:00에 시작하는 티켓 가져오기.
 
 ## 폴더 만들기{#create-a-folder}
 

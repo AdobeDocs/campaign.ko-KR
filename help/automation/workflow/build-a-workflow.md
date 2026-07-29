@@ -93,8 +93,8 @@ ht-degree: 4%
 
   진행률 및 로그 표시와 관련된 아이콘은 다음 섹션에 자세히 설명되어 있습니다.
 
-   * [진행 상황 표시](monitor-workflow-execution.md#displaying-progress)
-   * [로그 표시](monitor-workflow-execution.md#displaying-logs)
+  * [진행 상황 표시](monitor-workflow-execution.md#displaying-progress)
+  * [로그 표시](monitor-workflow-execution.md#displaying-logs)
 
 * **개체 정렬**
 

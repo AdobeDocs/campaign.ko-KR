@@ -172,7 +172,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
   공개 리소스는 Adobe Campaign 계층 구조의 **[!UICONTROL Resources > Online]** 노드를 통해 액세스할 수 있습니다. 라이브러리로 그룹화되고 이메일 메시지에 포함될 수 있지만, 캠페인이나 작업 또는 컨텐츠 관리에도 사용할 수 있습니다.
 
-* Adobe Experience Cloud과 공유된 에셋. [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ko)를 참조하세요.
+* Adobe Experience Cloud와 공유된 에셋입니다. [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ko)를 참조하세요.
 
 ### 이미지 삽입 및 관리 {#manage-images}
 

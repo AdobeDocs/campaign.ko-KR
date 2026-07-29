@@ -118,43 +118,43 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 * 시작 또는 재시작
 
-   * **[!UICONTROL Start]** 아이콘을 사용하면 타겟팅 워크플로우를 시작할 수 있습니다. 이 아이콘을 클릭하면 입력 전환이 없는 모든 활동이 활성화됩니다(끝점 이동 제외).
+  * **[!UICONTROL Start]** 아이콘을 사용하면 타겟팅 워크플로우를 시작할 수 있습니다. 이 아이콘을 클릭하면 입력 전환이 없는 모든 활동이 활성화됩니다(끝점 이동 제외).
 
-     ![](assets/start.png)
+    ![](assets/start.png)
 
-     서버가 요청을 고려합니다(상태: **[!UICONTROL Start as soon as possible]**).
+    서버가 요청을 고려합니다(상태: **[!UICONTROL Start as soon as possible]**).
 
-   * 적절한 도구 모음 아이콘을 통해 타겟팅 워크플로우를 다시 시작할 수 있습니다. 이 명령은 타겟팅 워크플로우 중지가 진행 중인 경우와 같이 **[!UICONTROL Start]** 아이콘을 사용할 수 없는 경우에 유용합니다. 이 경우 **[!UICONTROL Restart]** 아이콘을 클릭하여 다시 시작을 예상하세요. 서버에서 요청을 고려하며 상태는 **[!UICONTROL Restart requested]**&#x200B;입니다.
+  * 적절한 도구 모음 아이콘을 통해 타겟팅 워크플로우를 다시 시작할 수 있습니다. 이 명령은 타겟팅 워크플로우 중지가 진행 중인 경우와 같이 **[!UICONTROL Start]** 아이콘을 사용할 수 없는 경우에 유용합니다. 이 경우 **[!UICONTROL Restart]** 아이콘을 클릭하여 다시 시작을 예상하세요. 서버에서 요청을 고려하며 상태는 **[!UICONTROL Restart requested]**&#x200B;입니다.
 
 * 중지 또는 일시 중지
 
-   * 도구 모음 아이콘을 사용하면 진행 중인 타겟팅 워크플로우를 중지하거나 일시 중지할 수 있습니다.
+  * 도구 모음 아이콘을 사용하면 진행 중인 타겟팅 워크플로우를 중지하거나 일시 중지할 수 있습니다.
 
-     **[!UICONTROL Pause]**&#x200B;을(를) 클릭하면 진행 중인 작업 **[!UICONTROL are not]**&#x200B;이(가) 일시 중지되었지만 다음 다시 시작할 때까지 다른 작업이 시작되지 않습니다.
+    **[!UICONTROL Pause]**&#x200B;을(를) 클릭하면 진행 중인 작업 **[!UICONTROL are not]**&#x200B;이(가) 일시 중지되었지만 다음 다시 시작할 때까지 다른 작업이 시작되지 않습니다.
 
-     ![](assets/pause.png)
+    ![](assets/pause.png)
 
-     서버는 상태가 **[!UICONTROL Pause requested]**&#x200B;인 명령을 고려합니다.
+    서버는 상태가 **[!UICONTROL Pause requested]**&#x200B;인 명령을 고려합니다.
 
-     타겟팅 워크플로우 실행이 특정 활동에 도달하면 자동으로 일시 중지할 수도 있습니다. 이렇게 하려면 타겟팅 워크플로우를 일시 중지할 활동을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Enable but do not execute]**&#x200B;을(를) 선택합니다.
+    타겟팅 워크플로우 실행이 특정 활동에 도달하면 자동으로 일시 중지할 수도 있습니다. 이렇게 하려면 타겟팅 워크플로우를 일시 중지할 활동을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Enable but do not execute]**&#x200B;을(를) 선택합니다.
 
-     ![](assets/donotexecute.png)
+    ![](assets/donotexecute.png)
 
-     이 구성은 특수 아이콘으로 표시됩니다.
+    이 구성은 특수 아이콘으로 표시됩니다.
 
-     ![](assets/pause_activity.png)
+    ![](assets/pause_activity.png)
 
-     >[!NOTE]
-     >
-     >이 옵션은 고급 타겟팅 캠페인 디자인 및 테스트 단계 중에 유용합니다.
+    >[!NOTE]
+    >
+    >이 옵션은 고급 타겟팅 캠페인 디자인 및 테스트 단계 중에 유용합니다.
 
-     실행을 다시 시작하려면 **[!UICONTROL Start]**&#x200B;을(를) 클릭하십시오.
+    실행을 다시 시작하려면 **[!UICONTROL Start]**&#x200B;을(를) 클릭하십시오.
 
-   * 진행 중인 실행을 중지하려면 **[!UICONTROL Stop]** 아이콘을 클릭하십시오.
+  * 진행 중인 실행을 중지하려면 **[!UICONTROL Stop]** 아이콘을 클릭하십시오.
 
-     ![](assets/stop.png)
+    ![](assets/stop.png)
 
-     서버는 상태가 **[!UICONTROL Stop requested]**&#x200B;인 명령을 고려합니다.
+    서버는 상태가 **[!UICONTROL Stop requested]**&#x200B;인 명령을 고려합니다.
 
   실행이 활동에 도달하면 타겟팅 워크플로우를 자동으로 중지할 수도 있습니다. 이렇게 하려면 타깃팅 워크플로우가 중지될 활동을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Do not activate]**&#x200B;을(를) 선택합니다.
 

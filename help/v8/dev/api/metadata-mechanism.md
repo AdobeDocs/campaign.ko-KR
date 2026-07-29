@@ -18,7 +18,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: 205
 ht-degree: 1%
 
 ---
@@ -33,14 +33,14 @@ GET 요청에서 **resourceType**&#x200B;을(를) 사용하여 리소스 메타�
 
 * **Content** 노드가 리소스의 필드를 반환합니다. **content** 노드의 각 필드에 대해 다음 필드를 찾을 수 있습니다.
 
-   * &quot;apiName&quot;: API에 사용되는 특성의 이름입니다.
-   * &quot;type&quot;: 상위 수준 유형 정의(문자열, 숫자, 링크, 컬렉션, 열거형...)입니다.
-   * &quot;dataPolicy&quot;: 필드 값은 지정된 정책 규칙을 따라야 합니다. 예를 들어 dataPolicy 규칙이 &quot;email&quot;로 설정된 경우 값은 유효한 이메일이어야 합니다. PATCH 또는 POST 동안 dataPolicy는 값을 확인하거나 값을 수정하여 변환할 수 있습니다(예: smartCase).
-   * &quot;category&quot;: 쿼리 편집기에 있는 필드의 범주를 제공합니다.
-   * &quot;resType&quot;: 기술 유형입니다.
+  * &quot;apiName&quot;: API에 사용되는 특성의 이름입니다.
+  * &quot;type&quot;: 상위 수준 유형 정의(문자열, 숫자, 링크, 컬렉션, 열거형...)입니다.
+  * &quot;dataPolicy&quot;: 필드 값은 지정된 정책 규칙을 따라야 합니다. 예를 들어 dataPolicy 규칙이 &quot;email&quot;로 설정된 경우 값은 유효한 이메일이어야 합니다. PATCH 또는 POST 동안 dataPolicy는 값을 확인하거나 값을 수정하여 변환할 수 있습니다(예: smartCase).
+  * &quot;category&quot;: 쿼리 편집기에 있는 필드의 범주를 제공합니다.
+  * &quot;resType&quot;: 기술 유형입니다.
 
-     type이 &quot;link&quot; 또는 &quot;collection&quot; 값으로 완료된 경우 resTarget 값은 링크가 타깃팅한 리소스의 이름입니다.
-&quot;type&quot;이 &quot;enumeration&quot; 값으로 완료되면 &quot;values&quot; 필드가 추가되고 각 열거형 값은 **values** 노드에 자세히 표시됩니다.
+    type이 &quot;link&quot; 또는 &quot;collection&quot; 값으로 완료된 경우 resTarget 값은 링크가 타깃팅한 리소스의 이름입니다.
+    &quot;type&quot;이 &quot;enumeration&quot; 값으로 완료되면 &quot;values&quot; 필드가 추가되고 각 열거형 값은 **values** 노드에 자세히 표시됩니다.
 
 * **필터** 노드는 연결된 필터를 검색할 URL을 반환합니다. 필터에 대한 자세한 내용은 [이 섹션](sorting.md#filtering) 섹션을 참조하십시오.
 
@@ -55,7 +55,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien
 
 ***샘플 요청***
 
-리소스에 대해 GET 요청을 수행합니다.
+리소스에 대한 GET 요청을 수행합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \

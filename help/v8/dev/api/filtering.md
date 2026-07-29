@@ -46,7 +46,7 @@ ht-degree: 0%
   }
 ```
 
-URL에서 GET 요청을 수행합니다. 프로필 리소스에 대한 필터 목록을 반환하고 각 필터에 연결된 메타데이터를 반환합니다.
+URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필터 목록을 반환하고 각 필터에 연결된 메타데이터를 반환합니다.
 
 ```
 {
@@ -100,7 +100,7 @@ URL에서 GET 요청을 수행합니다. 프로필 리소스에 대한 필터 �
 
 ***샘플 요청***
 
-* &quot;email&quot; 유형의 &quot;service&quot; 리소스를 검색하기 위한 샘플 GET 요청.
+* &quot;email&quot; 유형의 &quot;service&quot; 리소스를 검색하기 위한 샘플 GET 요청입니다.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \

@@ -118,7 +118,7 @@ curl --location 'https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAban
 
 ### POST 요청에 대한 응답
 
-POST 응답은 트랜잭션 이벤트를 만든 시점의 상태를 반환합니다. 현재 상태(이벤트 데이터, 이벤트 상태...)를 검색하려면 GET 요청의 POST 응답에서 반환되는 기본 키를 사용하십시오.
+POST 응답은 트랜잭션 이벤트를 만든 시점의 상태를 반환합니다. 현재 상태(이벤트 데이터, 이벤트 상태...)를 검색하려면 GET 요청에서 POST 응답이 반환하는 기본 키를 사용하십시오.
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 

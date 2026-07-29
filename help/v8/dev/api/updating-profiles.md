@@ -34,7 +34,7 @@ ht-degree: 2%
 
 ***샘플 요청***
 
-프로필 검색을 위한 샘플 GET 요청.
+샘플 GET 요청으로 프로필을 검색할 수 있습니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\

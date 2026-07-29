@@ -63,7 +63,7 @@ Adobe Campaign v8은 기존 클라이언트 콘솔과 함께 **새로운 웹 사
 * **신속한 온보딩** - 신규 사용자를 위한 최소 학습 곡선
 * **통합 경험** - 쉽게 전환할 수 있도록 Campaign Standard과 유사성을 공유합니다.
 
-Campaign v8.6부터 Adobe Experience Cloud을 통해 Campaign 웹 UI를 사용할 수 있으므로 모든 Adobe 솔루션에 원활하게 액세스할 수 있습니다.
+Campaign v8.6부터 Adobe Experience Cloud를 통해 Campaign 웹 UI를 사용할 수 있으므로 모든 Adobe 솔루션에 원활하게 액세스할 수 있습니다.
 
 [Campaign 웹 사용자 인터페이스에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home){target="_blank"}
 

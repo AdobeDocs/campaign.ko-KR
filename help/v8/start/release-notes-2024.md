@@ -51,7 +51,7 @@ _2024년 9월 3일_
 
 >[!AVAILABILITY]
 >
->이 릴리스는 **LA(제한 공개)** 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
+>이 릴리스는 **제한 공개**(LA) 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 >
 >Campaign v8로 전환하는 Campaign Standard 사용자라면 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"}에서 전환 과정을 자세히 확인할 수 있습니다.
 
@@ -75,7 +75,7 @@ _2024년 5월 2일 금요일_
 
 >[!AVAILABILITY]
 >
->이 릴리스는 **LA(제한 공개)** 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
+>이 릴리스는 **제한 공개**(LA) 상태입니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 >
 >Campaign v8로 전환하는 Campaign Standard 사용자라면 [Campaign v8 웹 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"}에서 전환 과정을 자세히 확인할 수 있습니다.
 
@@ -97,8 +97,8 @@ _2024년 5월 2일 금요일_
 
 * 이제 새로운 Amazon Redshift FDA ODBC 커넥터를 사용할 수 있습니다. 개선된 연결성, 쉬운 유지 관리 및 향상된 호환성을 제공합니다. 이 신규 버전에는 다음과 같은 개선 사항이 포함되어 있습니다.
 
-   * 새 커넥터는 최신 FDA 커넥터에 맞는 ODBC 인터페이스를 기반으로 합니다. 이를 통해 장기적인 지원이 보장됩니다.
-   * 또한 s3 버킷을 사용하는 새로운 데이터 로드 메커니즘을 도입하여 성능이 크게 향상되었습니다.
+  * 새 커넥터는 최신 FDA 커넥터에 맞는 ODBC 인터페이스를 기반으로 합니다. 이를 통해 장기적인 지원이 보장됩니다.
+  * 또한 s3 버킷을 사용하는 새로운 데이터 로드 메커니즘을 도입하여 성능이 크게 향상되었습니다.
 
   레거시 커넥터는 계속 사용할 수 있습니다. 새로운 기능을 사용해 보려면 Adobe 담당자에게 문의하세요.
 

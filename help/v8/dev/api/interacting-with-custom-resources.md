@@ -45,7 +45,7 @@ ht-degree: 0%
 GET /customResources/resourceType/<customResourceName>
 ```
 
-만들기, 업데이트 또는 삭제를 수행하려면 GET, POST, PATCH, DELETE이 사용됩니다.
+만들기, 업데이트 또는 삭제를 수행하려면 GET, POST, PATCH, DELETE을 사용합니다.
 
 ```
 POST /customResources/<customResourceName>

@@ -5,7 +5,7 @@ role: Developer
 level: Experienced
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 }
 ```
 
-* **Adobe.io에 대한 요청을 수행하면 {&quot;code&quot;:500, &quot;message&quot;:&quot;죄송합니다. 문제가 발생했습니다. URI를 확인하고 다시 시도하십시오.&quot;}**
+* **Adobe.io에 대한 요청을 하면 {&quot;code&quot;:500, &quot;message&quot;:&quot;죄송합니다. 문제가 발생했습니다. URI를 확인하고 다시 시도하십시오.&quot;}**
 
 Adobe.io에서 잘못된 URI를 선언합니다. 요청하는 URI가 유효하지 않을 가능성이 높습니다. Adobe.io에서 Campaign 서비스를 선택하면 가능한 organization_ids 목록이 있는 선택기가 표시됩니다. 선택한 항목이 URL에 입력한 내용인지 확인해야 합니다.
 

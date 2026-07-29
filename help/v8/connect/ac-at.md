@@ -33,7 +33,7 @@ Campaign과 Target을 연결하여 Adobe Campaign 이메일 게재에 Adobe Targ
 >[!NOTE]
 >* 통합은 정적 이미지만 지원합니다. 다른 유형의 콘텐츠는 개인화할 수 없습니다.
 >
->* Managed Cloud Services 사용자는 [Adobe에 문의](../start/campaign-faq.md#support)하여 Campaign으로 Experience Cloud 트리거를 구현합니다.
+>* Managed Cloud Services 사용자는 Campaign을 사용하여 Experience Cloud 트리거를 구현하려면 [Adobe에 문의](../start/campaign-faq.md#support)하십시오.
 
 Adobe Target에서는 다음 유형의 데이터를 사용할 수 있습니다.
 

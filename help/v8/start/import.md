@@ -26,7 +26,7 @@ ht-degree: 5%
 
 Campaign을 사용하면 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 불러오고, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 테이블에 직접 프로필 정보를 입력할 수 있습니다.
 
-프로필 가져오기는 **가져오기** 활동을 통해 워크플로를 통해 실행되는 전용 템플릿에서 구성됩니다. 일정에 따라 자동으로 반복될 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. [이 섹션](../../automation/workflow/recurring-import-workflow.md)에서 자세히 알아보십시오.
+프로필 가져오기는 **가져오기** 활동을 통해 워크플로를 통해 실행되는 전용 템플릿에서 구성됩니다. 일정에 따라 자동으로 반복될 수 있습니다. 예를 들어 여러 정보 시스템 간의 데이터 교환을 자동화할 수 있습니다. [이 섹션](../../automation/workflow/recurring-import-workflow.md)에서 자세히 알아봅니다.
 
 ![](assets/import-wf.png)
 
@@ -269,45 +269,45 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 * **[!UICONTROL Edit]** 링크를 클릭하여 수신자를 연결하거나 구독할 폴더, 목록 또는 서비스를 선택합니다.
 
-   1. 폴더로 가져오기
+  1. 폴더로 가져오기
 
-      **[!UICONTROL Import into a folder]** 섹션의 **[!UICONTROL Edit...]** 링크를 사용하여 수신자를 가져올 폴더를 선택하거나 만들 수 있습니다. 기본적으로 정의된 파티션이 없으면 데이터를 연산자의 기본 폴더로 가져옵니다.
+     **[!UICONTROL Import into a folder]** 섹션의 **[!UICONTROL Edit...]** 링크를 사용하여 수신자를 가져올 폴더를 선택하거나 만들 수 있습니다. 기본적으로 정의된 파티션이 없으면 데이터를 연산자의 기본 폴더로 가져옵니다.
 
-      >[!NOTE]
-      >
-      >연산자의 기본 폴더는 연산자가 쓰기 액세스 권한을 갖는 첫 번째 폴더입니다. [폴더 및 보기 관리](../audiences/folders-and-views.md)에서 자세히 알아보세요.
+     >[!NOTE]
+     >
+     >연산자의 기본 폴더는 연산자가 쓰기 액세스 권한을 갖는 첫 번째 폴더입니다. [폴더 및 보기 관리](../audiences/folders-and-views.md)에서 자세히 알아보세요.
 
-      가져오기 폴더를 선택하려면 **[!UICONTROL Folder]** 필드 오른쪽에 있는 화살표를 클릭하고 관련 폴더를 선택합니다. **[!UICONTROL Select link]** 아이콘을 사용하여 새 창에 트리를 표시하거나 새 폴더를 만들 수도 있습니다.
+     가져오기 폴더를 선택하려면 **[!UICONTROL Folder]** 필드 오른쪽에 있는 화살표를 클릭하고 관련 폴더를 선택합니다. **[!UICONTROL Select link]** 아이콘을 사용하여 새 창에 트리를 표시하거나 새 폴더를 만들 수도 있습니다.
 
-      ![](assets/s_ncs_user_import_wizard05_2.png)
+     ![](assets/s_ncs_user_import_wizard05_2.png)
 
-      새 폴더를 만들려면 폴더를 추가할 노드를 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Create a new 'Recipients' folder]**&#x200B;을(를) 선택합니다.
+     새 폴더를 만들려면 폴더를 추가할 노드를 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Create a new 'Recipients' folder]**&#x200B;을(를) 선택합니다.
 
-      ![](assets/s_ncs_user_import_wizard05_3.png)
+     ![](assets/s_ncs_user_import_wizard05_3.png)
 
-      폴더가 현재 노드 아래에 추가됩니다. 새 폴더 이름을 입력하고 Enter 키를 눌러 확인한 다음 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
+     폴더가 현재 노드 아래에 추가됩니다. 새 폴더 이름을 입력하고 Enter 키를 눌러 확인한 다음 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
-      ![](assets/s_ncs_user_import_wizard05_4.png)
+     ![](assets/s_ncs_user_import_wizard05_4.png)
 
-   1. 목록과 연결
+  1. 목록과 연결
 
-      **[!UICONTROL Add recipients to a list]** 섹션의 **[!UICONTROL Edit...]** 링크를 사용하여 수신자를 가져올 목록을 선택하거나 만들 수 있습니다.
+     **[!UICONTROL Add recipients to a list]** 섹션의 **[!UICONTROL Edit...]** 링크를 사용하여 수신자를 가져올 목록을 선택하거나 만들 수 있습니다.
 
-      ![](assets/s_ncs_user_import_wizard05_5.png)
+     ![](assets/s_ncs_user_import_wizard05_5.png)
 
-      **[!UICONTROL Select link]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 이러한 받는 사람에 대한 새 목록을 만들 수 있습니다.
+     **[!UICONTROL Select link]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 이러한 받는 사람에 대한 새 목록을 만들 수 있습니다.
 
-      ![](assets/s_ncs_user_import_wizard05_6.png)
+     ![](assets/s_ncs_user_import_wizard05_6.png)
 
-      목록에 이미 있는 수신자에 수신자를 추가하거나 새 수신자가 있는 목록을 다시 만들도록 결정할 수 있습니다. 이 경우 목록에 수신자가 이미 포함되어 있으면 삭제되고 가져온 수신자로 바뀝니다.
+     목록에 이미 있는 수신자에 수신자를 추가하거나 새 수신자가 있는 목록을 다시 만들도록 결정할 수 있습니다. 이 경우 목록에 수신자가 이미 포함되어 있으면 삭제되고 가져온 수신자로 바뀝니다.
 
-   1. 서비스 구독
+  1. 서비스 구독
 
-      가져온 모든 수신자를 정보 서비스에 가입하려면 **[!UICONTROL Subscribe recipients to a service]** 섹션의 **[!UICONTROL Edit...]** 링크를 클릭하여 수신자가 가입할 정보 서비스를 선택하거나 만드십시오. **[!UICONTROL Send a confirmation message]** 옵션을 선택할 수 있습니다. 이 메시지의 내용은 구독 서비스와 연결된 게재 템플릿에 정의되어 있습니다.
+     가져온 모든 수신자를 정보 서비스에 가입하려면 **[!UICONTROL Subscribe recipients to a service]** 섹션의 **[!UICONTROL Edit...]** 링크를 클릭하여 수신자가 가입할 정보 서비스를 선택하거나 만드십시오. **[!UICONTROL Send a confirmation message]** 옵션을 선택할 수 있습니다. 이 메시지의 내용은 구독 서비스와 연결된 게재 템플릿에 정의되어 있습니다.
 
-      ![](assets/s_ncs_user_import_wizard05_7.png)
+     ![](assets/s_ncs_user_import_wizard05_7.png)
 
-      **[!UICONTROL Select link]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create]** 아이콘을 클릭하여 이러한 수신자에 대한 새 서비스를 만들 수 있습니다. 정보 서비스 관리는 [이 섹션](../start/subscriptions.md)에 나와 있습니다.
+     **[!UICONTROL Select link]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create]** 아이콘을 클릭하여 이러한 수신자에 대한 새 서비스를 만들 수 있습니다. 정보 서비스 관리는 [이 섹션](../start/subscriptions.md)에 나와 있습니다.
 
 * **[!UICONTROL Origin]** 필드를 사용하여 받는 사람의 원본 정보를 프로필에 추가하십시오. 이 정보는 다중 가져오기의 프레임워크 내에서 특히 유용합니다.
 
@@ -411,9 +411,9 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 * 필드의 레이블을 변경하려면 수정할 필드와 일치하는 **[!UICONTROL Label]** 열의 셀을 클릭하고 새 레이블을 입력합니다. 확인하려면 키보드에서 Enter 키를 누릅니다.
 * 필드의 내용에 대/소문자 변환을 적용하려면 **[!UICONTROL Transformation]** 열에서 선택합니다. 다음을 선택할 수 있습니다.
 
-   * 소문자로 전환
-   * 대문자로 전환
-   * 첫 글자를 대문자로
+  * 소문자로 전환
+  * 대문자로 전환
+  * 첫 글자를 대문자로
 
   ![](assets/s_ncs_user_export_wizard06.png)
 

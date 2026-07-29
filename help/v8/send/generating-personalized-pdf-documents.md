@@ -68,8 +68,8 @@ Adobe Campaign을 사용하면 LibreOffice 또는 Microsoft Word 문서의 이�
 
   개인화 블록 내에서 두 가지 유형의 선언을 구별해야 합니다.
 
-   * &quot;열기&quot; 및 &quot;닫힘&quot; V자형 화살표가 이스케이프 문자로 바뀌어야 하는 개인화 필드의 Adobe Campaign 코드(각각 `&lt;` 및 `&gt;`)입니다.
-   * 전체 OpenOffice XML 코드는 OpenOffice 문서에 복사됩니다.
+  * &quot;열기&quot; 및 &quot;닫힘&quot; V자형 화살표가 이스케이프 문자로 바뀌어야 하는 개인화 필드의 Adobe Campaign 코드(각각 `&lt;` 및 `&gt;`)입니다.
+  * 전체 OpenOffice XML 코드는 OpenOffice 문서에 복사됩니다.
 
 이 예에서 개인화 블록은 다음과 같습니다.
 

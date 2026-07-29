@@ -38,7 +38,7 @@ ht-degree: 2%
 
 ***샘플 요청***
 
-* 알파벳순으로 정렬된 데이터베이스에서 이메일을 검색하기 위한 샘플 GET 요청.
+* 알파벳순으로 정렬된 데이터베이스에서 이메일을 검색하기 위한 샘플 GET 요청입니다.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
@@ -63,7 +63,7 @@ ht-degree: 2%
   }
   ```
 
-* 데이터베이스에서 이메일을 내림차순으로 검색하기 위한 샘플 GET 요청입니다.
+* 데이터베이스에서 알파벳 내림차순으로 이메일을 검색하기 위한 샘플 GET 요청입니다.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
@@ -119,7 +119,7 @@ ht-degree: 2%
   }
 ```
 
-URL에서 GET 요청을 수행합니다. 프로필 리소스에 대한 필터 목록을 반환하고 각 필터에 연결된 메타데이터를 반환합니다.
+URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필터 목록을 반환하고 각 필터에 연결된 메타데이터를 반환합니다.
 
 ```
 {
@@ -173,7 +173,7 @@ URL에서 GET 요청을 수행합니다. 프로필 리소스에 대한 필터 �
 
 ***샘플 요청***
 
-* &quot;email&quot; 유형의 &quot;service&quot; 리소스를 검색하기 위한 샘플 GET 요청.
+* &quot;email&quot; 유형의 &quot;service&quot; 리소스를 검색하기 위한 샘플 GET 요청입니다.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
@@ -376,7 +376,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 }
 ```
 
-**count** 노드의 URL에서 GET 요청을 수행하여 결과 수를 검색합니다.
+**count** 노드의 URL에 대해 GET 요청을 수행하여 결과 수를 검색합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
@@ -410,7 +410,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 
 ***샘플 요청***
 
-프로필 리소스의 레코드 1개를 표시하는 샘플 GET 요청.
+프로필 리소스의 1개 레코드를 표시하는 샘플 GET 요청.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \

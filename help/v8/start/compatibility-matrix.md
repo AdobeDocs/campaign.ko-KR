@@ -19,7 +19,7 @@ topic_v2:
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 468
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -98,6 +98,6 @@ iOS 및 Android와 호환되는 버전은 [Adobe Developer 설명서](https://de
 * [Campaign 릴리스 업데이트](upgrades.md)
 * [Campaign 버전 확인](upgrades.md#version)
 * [Campaign 클라이언트 콘솔 설치](connect.md)
-* [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko){target="_blank"}
+* [컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko){target="_blank"}
 
 새로운 Experience Cloud 솔루션 릴리스에 대한 정보를 받으려면 [Adobe 주요 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}를 구독하세요.

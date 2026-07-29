@@ -57,8 +57,8 @@ Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다
 
 * **&lt;조직>**: 개인 조직 ID이며, Adobe에서 각 인스턴스에 대해 하나의 조직 ID를 제공합니다.
 
-   * &lt;조직> : 프로덕션 인스턴스,
-   * &lt;ORGANIZATION-mkt-stage>: 단계 인스턴스입니다.
+  * &lt;조직> : 프로덕션 인스턴스,
+  * &lt;ORGANIZATION-mkt-stage>: 단계 인스턴스입니다.
 
   조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 라이선스 목록에서 새 통합을 만들 때 Adobe I/O에서 검색할 수도 있습니다(<a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer 설명서</a> 참조).
 

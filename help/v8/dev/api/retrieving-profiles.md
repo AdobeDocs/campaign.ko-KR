@@ -56,7 +56,7 @@ ht-degree: 4%
   }
   ```
 
-* 처음 10개의 이메일 값을 검색하는 샘플 GET 요청.
+* 처음 10개의 이메일 값을 검색하는 샘플 GET 요청입니다.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \

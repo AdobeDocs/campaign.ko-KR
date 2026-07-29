@@ -301,10 +301,10 @@ ht-degree: 33%
 
   **[!UICONTROL Enumerations]** 유형 계산 필드에는 다음 4가지 조건이 포함될 수 있습니다.
 
-   * **[!UICONTROL Keep the source value]**&#x200B;은(는) 소스 값을 변경하지 않고 대상에 복원합니다.
-   * **[!UICONTROL Use the following value]**&#x200B;을(를) 사용하면 정의되지 않은 원본 값에 대한 기본 대상 값을 입력할 수 있습니다.
-   * **[!UICONTROL Generate a warning and continue]**&#x200B;은(는) 원본 값을 변경할 수 없음을 사용자에게 경고합니다.
-   * **[!UICONTROL Generate an error and reject the line]**&#x200B;을(를) 사용하면 줄을 계산 및 가져올 수 없습니다.
+  * **[!UICONTROL Keep the source value]**&#x200B;은(는) 소스 값을 변경하지 않고 대상에 복원합니다.
+  * **[!UICONTROL Use the following value]**&#x200B;을(를) 사용하면 정의되지 않은 원본 값에 대한 기본 대상 값을 입력할 수 있습니다.
+  * **[!UICONTROL Generate a warning and continue]**&#x200B;은(는) 원본 값을 변경할 수 없음을 사용자에게 경고합니다.
+  * **[!UICONTROL Generate an error and reject the line]**&#x200B;을(를) 사용하면 줄을 계산 및 가져올 수 없습니다.
 
 삽입된 필드의 세부 정보를 보려면 **[!UICONTROL Detail of calculated field]**&#x200B;을(를) 클릭하십시오.
 

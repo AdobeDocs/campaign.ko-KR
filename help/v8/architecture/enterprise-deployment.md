@@ -25,8 +25,8 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 1073
-ht-degree: 52%
+source-wordcount: 1045
+ht-degree: 49%
 
 ---
 
@@ -84,9 +84,9 @@ Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입�
 * 모든 기본 제공 참조 테이블(열거형, 국가 등) 저장 [!DNL Snowflake]에 복제됩니다.
 
   단, 다음과 같은 작업은 수행할 수 없습니다.
-   * 고객 데이터에 대한 사용자 정의를 만듭니다. 예를 들어 PostgreSQL에서 가정용 테이블을 만들지 않고 Snowflake에서만 가정용 테이블을 만듭니다
-   * FFDA 타겟팅 차원에 모든 게재 로그, 추적 로그 등을 저장합니다.
-   * 대량의 데이터를 저장합니다.
+  * 고객 데이터에 대한 사용자 정의를 만듭니다. 예를 들어 PostgreSQL에서 가정용 테이블을 만들지 않고 Snowflake에서만 가정용 테이블을 만듭니다
+  * FFDA 타겟팅 차원에 모든 게재 로그, 추적 로그 등을 저장합니다.
+  * 대량의 데이터를 저장합니다.
 
 
 중간 소싱 인스턴스의 PostgreSQL 데이터베이스를 사용하여 다음과 같은 작업을 수행할 수 있습니다.

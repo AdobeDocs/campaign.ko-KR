@@ -22,7 +22,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 2287
+source-wordcount: 2231
 ht-degree: 1%
 
 ---
@@ -204,8 +204,8 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 
    * Adobe Campaign 클라이언트 콘솔의 **[!UICONTROL Available content]** 링크입니다.
    * 알림 메시지의 링크.
-운영자는 콘텐츠를 캠페인 담당자에게 제출하기 전에 댓글을 추가할 수 있습니다.
-알림 메시지를 통해 검토자는 컨텐츠를 승인하거나 거부할 수 있습니다.
+     운영자는 콘텐츠를 캠페인 담당자에게 제출하기 전에 댓글을 추가할 수 있습니다.
+     알림 메시지를 통해 검토자는 컨텐츠를 승인하거나 거부할 수 있습니다.
 
 #### 외부 콘텐츠 승인 {#external-content-approval}
 

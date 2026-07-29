@@ -377,14 +377,14 @@ for each (var rcp in res.recipient)
 
 * **[!UICONTROL JavaScript code]** 활동의 기본 스크립트에서 워크플로우 인라인을 트리거할 수 있습니다.
 * 다른 작업이 완료되면 워크플로우를 트리거할 수 있습니다.
-   * 초기 워크플로의 **[!UICONTROL End]** 활동에 초기화 스크립트를 추가합니다.
-   * 대상 워크플로우의 시작 부분에 **[!UICONTROL External signal]** 활동을 추가합니다.
+  * 초기 워크플로의 **[!UICONTROL End]** 활동에 초기화 스크립트를 추가합니다.
+  * 대상 워크플로우의 시작 부분에 **[!UICONTROL External signal]** 활동을 추가합니다.
 
-     초기 워크플로가 완료되면 이벤트가 게시됩니다. 나가는 전환이 활성화되고 이벤트 변수가 채워집니다. 그런 다음 대상 워크플로우에서 이벤트를 수신합니다.
+    초기 워크플로가 완료되면 이벤트가 게시됩니다. 나가는 전환이 활성화되고 이벤트 변수가 채워집니다. 그런 다음 대상 워크플로우에서 이벤트를 수신합니다.
 
-     >[!TIP]
-     >
-     >활동에 스크립트를 추가할 때 활동 이름을 이중 하이픈(예: `-- end --`)으로 묶는 것이 좋습니다. 워크플로우 모범 사례에 대해 [자세히 알아보기](workflow-best-practices.md).
+    >[!TIP]
+    >
+    >활동에 스크립트를 추가할 때 활동 이름을 이중 하이픈(예: `-- end --`)으로 묶는 것이 좋습니다. 워크플로우 모범 사례에 대해 [자세히 알아보기](workflow-best-practices.md).
 
 `PostEvent` 메서드 구문:
 
@@ -624,9 +624,9 @@ xtk.session.Write(
 
 * [SOAP 호출 샘플](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ko){target="_blank"}
 * 방법:
-   * [만들기](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ko){target="_blank"}
-   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=ko){target="_blank"}
-   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ko){target="_blank"}
-   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ko){target="_blank"}
-   * [쓰기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=ko){target="_blank"}
+  * [만들기](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ko){target="_blank"}
+  * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=ko){target="_blank"}
+  * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ko){target="_blank"}
+  * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ko){target="_blank"}
+  * [쓰기](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=ko){target="_blank"}
 * [logInfo 함수](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ko){target="_blank"}

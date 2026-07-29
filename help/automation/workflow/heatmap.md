@@ -19,7 +19,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: 1112
 ht-degree: 3%
 
 ---
@@ -105,7 +105,7 @@ Campaign 워크플로우 HeatMap은 현재 실행 중인 모든 워크플로우�
 
 격자는 이러한 각 5분 기간에 대해 동시에 실행되는 모든 워크플로우를 표시합니다.
 
-아래 예에서 오전 8시와 오전 8:05am 사이에 세 개의 워크플로우가 실행 중입니다(개별 기간에 관계 없음).
+아래 예에서 오전 8시부터 오전 8시 5분 사이에 세 개의 워크플로우가 실행 중입니다(개별 기간에 관계 없음).
 
 ![](assets/wkf_monitoring_ex_8am.png)
 

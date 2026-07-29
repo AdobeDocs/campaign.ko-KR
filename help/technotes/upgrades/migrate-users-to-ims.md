@@ -29,7 +29,7 @@ Campaign v8을 사용하면 모든 일반 사용자가 이미 Adobe IMS(Identity
 
 조직의 운영자가 로그인/암호(예: )를 사용하여 Campaign 클라이언트 콘솔에 연결하는 경우 기본 인증)을 사용하는 경우 영향을 받게 되며 아래에 자세히 설명된 대로 이러한 연산자를 Adobe IMS로 마이그레이션해야 합니다.
 
-[Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}로의 마이그레이션은 다른 Adobe Experience Cloud 솔루션과 앱의 대부분이 이미 IMS에 있으므로 환경을 안전하고 표준화하기 위해 반드시 필요한 보안입니다.
+[IMS(Adobe Identity Management System)로 마이그레이션](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}은(는) 다른 Adobe Experience Cloud 솔루션 및 앱의 대부분이 이미 IMS에 있으므로 환경을 안전하고 표준화하도록 하는 데 필수적인 보안입니다.
 
 >[!IMPORTANT]
 >

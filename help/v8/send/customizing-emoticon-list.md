@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 463
-ht-degree: 1%
+source-wordcount: 406
+ht-degree: 2%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 1. 다음 필드를 채웁니다.
 
    * **[!UICONTROL U+]**: 새 이모티콘 코드. 이 [페이지](https://unicode.org/emoji/charts/full-emoji-list.html)에서 이모티콘 코드 목록을 찾을 수 있습니다.
-호환성 문제를 방지하기 위해 브라우저 및 모든 운영 체제에서 지원되는 이모티콘을 선택하는 것이 좋습니다.
+     호환성 문제를 방지하기 위해 브라우저 및 모든 운영 체제에서 지원되는 이모티콘을 선택하는 것이 좋습니다.
 
    * **[!UICONTROL Label]**: 새 이모티콘 레이블.
 

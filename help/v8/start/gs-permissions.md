@@ -16,8 +16,8 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 517
-ht-degree: 5%
+source-wordcount: 477
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Campaign에서 사용자는 **운영자**&#x200B;이고 **운영자 그룹
 주요 단계:
 
 * **1단계**: 연산자 그룹을 정의하고 Campaign 클라이언트 콘솔에서 권한을 할당합니다. [자세히 알아보기](manage-permissions.md#create-product-profile).
-기본 제공 연산자 그룹을 사용하여 를 시작할 수도 있습니다. 이러한 기본 그룹과 해당 권한은 [이 섹션](manage-permissions.md#ootb-productprofiles)에 나열됩니다.
+기본 제공 연산자 그룹을 사용하여 를 시작할 수도 있습니다. 이러한 기본 그룹과 해당 권한은 [이 섹션](manage-permissions.md#ootb-productprofiles)에 나열되어 있습니다.
 * **2단계**: Adobe Admin Console에서 해당 그룹과 일치하는 제품 프로필을 만듭니다. [자세히 알아보기](manage-permissions.md#create-product-profile).
 기본 제공 제품 프로필을 사용하여 시작할 수 있습니다. [자세히 알아보기](manage-permissions.md#ootb-productprofiles).
 * **3단계**: Adobe Admin Console에서 사용자를 만들고 제품 프로필에 할당합니다. [자세히 알아보기](manage-permissions.md#add-users).

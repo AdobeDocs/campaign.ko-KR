@@ -87,7 +87,7 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 * Campaign 탐색기의 **[!UICONTROL Administration > Production > Technical workflows > Campaign processes]** 폴더로 이동하여 **[!UICONTROL Jobs in discussion forums]** 워크플로가 오류 없이 시작되었는지 확인하십시오.
 * 게재 로그 확인:
 
-   * Adobe Campaign 홈페이지에서 **[!UICONTROL Campaigns > Navigation > Deliveries]**(으)로 이동한 다음 **[!UICONTROL Discussion forum notification]** 게재를 엽니다.
-   * Campaign 탐색기에서 **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**&#x200B;을(를) 찾은 다음 **[!UICONTROL Discussion forum notifications]**&#x200B;을(를) 클릭합니다.
+  * Adobe Campaign 홈페이지에서 **[!UICONTROL Campaigns > Navigation > Deliveries]**(으)로 이동한 다음 **[!UICONTROL Discussion forum notification]** 게재를 엽니다.
+  * Campaign 탐색기에서 **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**&#x200B;을(를) 찾은 다음 **[!UICONTROL Discussion forum notifications]**&#x200B;을(를) 클릭합니다.
 
   **[!UICONTROL Discussion forum notifications]** 상자의 게재 로그는 **[!UICONTROL Edit > Delivery]** 탭에 있습니다. **[!UICONTROL Tracking > Log]** 및 **[!UICONTROL Exclusion causes]** 탭도 볼 수 있습니다.

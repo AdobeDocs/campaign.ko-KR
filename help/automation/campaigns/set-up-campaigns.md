@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: 418
 ht-degree: 14%
 
 ---
@@ -56,7 +56,7 @@ Adobe Campaign에서 마케팅 캠페인을 만들고 실행하는 주요 단계
 검토자를 정의하고 타겟팅, 콘텐츠, 예산, 추출 및 증명 전송과 같은 캠페인 프로세스를 모니터링하고 제어하도록 승인 흐름을 구성합니다. 이 섹션[&#128279;](marketing-campaign-approval.md)에서 승인 을(를) 설정하는 방법을 알아보세요.
 
 1. **게재 모니터링**.
-대시보드에서 캠페인을 추적하고 Campaign UI에서 게재 상태 및 실행을 확인합니다. [자세히 알아보기](marketing-campaign-monitoring.md).
+대시보드에서 캠페인을 추적하고 Campaign UI에서 게재 상태 및 실행을 확인하십시오. [자세히 알아보기](marketing-campaign-monitoring.md).
 
 1. **예산, 재고 및 관련 비용을 추적합니다**.
 Adobe Campaign을 사용하여 예산 할당을 제어하고 공급자, 재고 및 비용을 관리합니다. [자세히 알아보기](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).

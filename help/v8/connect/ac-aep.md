@@ -32,16 +32,16 @@ Adobe Experience Platform 대상을 Adobe Campaign으로 보내고 게재 및 �
 
 * Adobe Campaign Managed Cloud Services **대상 연결**&#x200B;을(를) 사용하여 Experience Platform 세그먼트를 Adobe Campaign으로 보냅니다.
 
-   1. Adobe Experience Platform 대상 카탈로그에 액세스하고 새 **[!UICONTROL Adobe Campaign Managed Cloud Services]** 연결을 만듭니다.
-   1. 사용할 Campaign 인스턴스에 대한 세부 정보를 제공하고 **[!UICONTROL Audience sync]**&#x200B;을(를) 동기화 유형으로 선택하십시오.
+  1. Adobe Experience Platform 대상 카탈로그에 액세스하고 새 **[!UICONTROL Adobe Campaign Managed Cloud Services]** 연결을 만듭니다.
+  1. 사용할 Campaign 인스턴스에 대한 세부 정보를 제공하고 **[!UICONTROL Audience sync]**&#x200B;을(를) 동기화 유형으로 선택하십시오.
 
-      ![](assets/aep-audience-sync.png){width="800" align="center"}
+     ![](assets/aep-audience-sync.png){width="800" align="center"}
 
-   1. Adobe Campaign으로 전송할 세그먼트를 선택하십시오.
-   1. 대상에서 내보낼 속성을 구성합니다.
-   1. 흐름이 구성되면 선택한 대상을 Adobe Campaign에 활성화할 수 있습니다.
+  1. Adobe Campaign으로 전송할 세그먼트를 선택하십시오.
+  1. 대상에서 내보낼 속성을 구성합니다.
+  1. 흐름이 구성되면 선택한 대상을 Adobe Campaign에 활성화할 수 있습니다.
 
-      ![](assets/aep-destination.png){width="800" align="center"}
+     ![](assets/aep-destination.png){width="800" align="center"}
 
   대상을 구성하는 방법에 대한 자세한 내용은 [Adobe Campaign Managed Cloud Services 연결 설명서](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}를 참조하세요.
 

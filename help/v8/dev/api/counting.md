@@ -53,7 +53,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 }
 ```
 
-**count** 노드의 URL에서 GET 요청을 수행하여 결과 수를 검색합니다.
+**count** 노드의 URL에 대해 GET 요청을 수행하여 결과 수를 검색합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \

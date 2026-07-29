@@ -219,28 +219,28 @@ Campaign에서 OAuth2 인증을 구성하려면 다음 단계를 수행하십시
 
 * **Amazon Simple Storage Service(S3)** - **AWS S3** 커넥터를 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 이 외부 계정을 설정할 때 다음 세부 정보를 제공해야 합니다.
 
-   * **[!UICONTROL AWS S3 Account Server]**: `<S3bucket name>.s3.amazonaws.com/<s3object path>` 형식의 서버 URL입니다.
+  * **[!UICONTROL AWS S3 Account Server]**: `<S3bucket name>.s3.amazonaws.com/<s3object path>` 형식의 서버 URL입니다.
 
-   * **[!UICONTROL AWS access key ID]**: [Amazon 설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}에서 AWS 액세스 키 ID를 찾는 방법에 대해 알아봅니다.
+  * **[!UICONTROL AWS access key ID]**: [Amazon 설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}에서 AWS 액세스 키 ID를 찾는 방법에 대해 알아봅니다.
 
-   * **[!UICONTROL Secret access key to AWS]**: [Amazon 설명서](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"}에서 AWS에 대한 비밀 액세스 키를 찾는 방법에 대해 알아봅니다.
+  * **[!UICONTROL Secret access key to AWS]**: [Amazon 설명서](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"}에서 AWS에 대한 비밀 액세스 키를 찾는 방법에 대해 알아봅니다.
 
-   * **[!UICONTROL AWS Region]**: [AWS 설명서](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}에서 Amazon 지역에 대해 자세히 알아보세요.
+  * **[!UICONTROL AWS Region]**: [AWS 설명서](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}에서 Amazon 지역에 대해 자세히 알아보세요.
 
-   * **[!UICONTROL Use server-side encryption]** 확인란을 사용하면 파일을 S3 암호화 모드로 저장할 수 있습니다. [Amazon 설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}에서 액세스 키 ID 및 비밀 액세스 키를 찾는 방법에 대해 알아봅니다.
+  * **[!UICONTROL Use server-side encryption]** 확인란을 사용하면 파일을 S3 암호화 모드로 저장할 수 있습니다. [Amazon 설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}에서 액세스 키 ID 및 비밀 액세스 키를 찾는 방법에 대해 알아봅니다.
 
 * **Azure Blob 저장소** - **Azure** 외부 계정을 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 통해 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. Adobe Campaign에서 작동하도록 **Azure** 외부 계정을 구성하려면 다음 세부 정보를 제공해야 합니다.
 
-   * **[!UICONTROL Server]**: Azure Blob 저장소 서버의 URL입니다.
+  * **[!UICONTROL Server]**: Azure Blob 저장소 서버의 URL입니다.
 
-   * **[!UICONTROL Encryption]**: 암호화 유형: **[!UICONTROL None]** 또는 **[!UICONTROL SSL]**.
+  * **[!UICONTROL Encryption]**: 암호화 유형: **[!UICONTROL None]** 또는 **[!UICONTROL SSL]**.
 
-   * **[!UICONTROL Access key]**: [Microsoft 설명서](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}에서 **[!UICONTROL Access key]**&#x200B;을(를) 찾는 방법에 대해 알아보세요.
+  * **[!UICONTROL Access key]**: [Microsoft 설명서](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}에서 **[!UICONTROL Access key]**&#x200B;을(를) 찾는 방법에 대해 알아보세요.
 
 * **Microsoft 패브릭** - **Microsoft 패브릭** 외부 계정을 사용하면 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Microsoft 패브릭과 Adobe Campaign 간에 데이터를 가져오고 내보낼 수 있습니다. 이 통합을 구성하려면 다음 세부 정보를 제공합니다.
 
-   * **[!UICONTROL Server]**: Microsoft 패브릭 저장소 서버의 URL입니다.
+  * **[!UICONTROL Server]**: Microsoft 패브릭 저장소 서버의 URL입니다.
 
-   * **[!UICONTROL Application ID]**: Microsoft Fabric 리소스를 인증하고 액세스하는 데 사용되는 응용 프로그램의 고유 식별자입니다.
+  * **[!UICONTROL Application ID]**: Microsoft Fabric 리소스를 인증하고 액세스하는 데 사용되는 응용 프로그램의 고유 식별자입니다.
 
-   * **[!UICONTROL Client secret]**: Microsoft Fabric에 안전하게 연결하는 데 필요한 응용 프로그램과 연결된 인증 키 또는 암호입니다.
+  * **[!UICONTROL Client secret]**: Microsoft Fabric에 안전하게 연결하는 데 필요한 응용 프로그램과 연결된 인증 키 또는 암호입니다.

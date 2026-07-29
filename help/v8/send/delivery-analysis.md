@@ -94,9 +94,9 @@ ht-degree: 5%
 
   다음 승인 모드를 사용할 수 있습니다.
 
-   * **[!UICONTROL Manual]**: 분석 단계가 끝날 때 사용자는 전송을 확인해야 전송을 시작할 수 있습니다. 이렇게 하려면 **[!UICONTROL Start]** 단추를 클릭하여 게재를 시작합니다.
-   * **[!UICONTROL Semi-automatic]**: 분석 단계에서 경고 메시지가 생성되지 않으면 전송이 자동으로 시작됩니다.
-   * **[!UICONTROL Automatic]**: 결과에 관계없이 분석 단계가 끝날 때 전송이 자동으로 시작됩니다.
+  * **[!UICONTROL Manual]**: 분석 단계가 끝날 때 사용자는 전송을 확인해야 전송을 시작할 수 있습니다. 이렇게 하려면 **[!UICONTROL Start]** 단추를 클릭하여 게재를 시작합니다.
+  * **[!UICONTROL Semi-automatic]**: 분석 단계에서 경고 메시지가 생성되지 않으면 전송이 자동으로 시작됩니다.
+  * **[!UICONTROL Automatic]**: 결과에 관계없이 분석 단계가 끝날 때 전송이 자동으로 시작됩니다.
 
 * **[!UICONTROL Start job in a detached process]**: 이 옵션을 사용하면 배달 분석을 별도의 프로세스에서 시작할 수 있습니다. 분석 함수는 기본적으로 Adobe Campaign 애플리케이션 서버 프로세스(web nlserver)를 사용합니다. 이 옵션을 선택하면 애플리케이션 서버에 장애가 발생하더라도 분석이 완료됩니다.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]**: 이 옵션은 분석 단계 동안 SQL 쿼리 로그를 게재 저널에 추가합니다.

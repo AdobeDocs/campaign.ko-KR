@@ -35,7 +35,7 @@ Campaign을 처음 사용하십니까?**&#x200B;**&#x200B;필수 구성 요소�
 
 Adobe Campaign v8은 이메일, 모바일, 소셜 및 오프라인 채널 전반에서 개인화된 캠페인을 제작, 조정 및 제공할 수 있는 강력한 크로스채널 마케팅 자동화 플랫폼입니다. 강력한 마케팅 데이터베이스, 캠페인 오케스트레이션 엔진 및 실시간 상호 작용 기능을 결합하여 여정 전반에 걸쳐 고객을 참여시킵니다.
 
-**주요 기능:** 멀티채널 캠페인 관리, 대상자 세분화 및 타기팅, 워크플로우 자동화, 규모에 맞는 개인화, 실시간 및 일괄 메시징, 보고 및 분석, Adobe Experience Cloud과의 통합.
+**주요 기능:** 멀티채널 캠페인 관리, 대상자 세분화 및 타깃팅, 워크플로우 자동화, 규모에 맞는 개인화, 실시간 및 일괄 메시징, 보고 및 분석, Adobe Experience Cloud와의 통합.
 
 **v8의 고유한 기능:** 클라우드 기반 아키텍처(Managed Cloud Services만 해당), Snowflake 데이터베이스를 기반으로 하는 엔터프라이즈급 성능, 자동 업그레이드, 향상된 보안 및 Adobe Experience Platform과의 양방향 통합.
 
@@ -320,7 +320,7 @@ Campaign v8은 다음과 같이 대폭 향상된 최신 클라우드 기반 아�
 * **뛰어난 성능** - 시간당 최대 2,000만 개의 작업(FFDA(Full Federated Data Access) 아키텍처 사용)
 * **새로운 Campaign 웹 UI** - 클래식 콘솔과 함께 현대적이고 직관적인 인터페이스
 * **자동 업그레이드** - 가동 중지 시간 없이 항상 최신 버전
-* **향상된 기능** - AI Assistant, 리치 푸시 알림, 업그레이드된 SMS, Adobe Experience Cloud과의 통합 개선
+* **향상된 기능** - AI Assistant, 리치 푸시 알림, 업그레이드된 SMS, Adobe Experience Cloud와의 통합 기능 개선
 
 **Campaign Classic v7 사용자:** 아키텍처 변경 사항, 사용할 수 없는 기능 및 마이그레이션 고려 사항을 포함하여 [v7에서 v8로 전환](v7-to-v8.md)에 대해 알아봅니다.
 
@@ -345,7 +345,7 @@ Campaign v8은 Adobe의 플랫폼으로, 대량 캠페인(시간당 2천만 건)
 
 * 대용량 데이터 볼륨 또는 경험 성능 문제 처리
 * IT 오버헤드와 인프라 관리를 줄이고자 함
-* Adobe Experience Cloud/플랫폼 통합 필요
+* Adobe Experience Cloud/Platform 통합 필요
 * 자동 업데이트로 미래형 기술 필요
 
 **다음 단계:** Adobe 담당자에게 문의하여 마이그레이션 준비 상태를 평가하고 마이그레이션 도구에 액세스합니다.
@@ -1189,7 +1189,7 @@ Campaign Campaign 컨트롤 패널은 Campaign 관리자가 Campaign 인스턴�
 **액세스 요구 사항:**
 
 * **관리자 사용자만** - Campaign 컨트롤 패널은 관리자 권한이 있는 사용자로 제한됩니다.
-* **Adobe IMS 인증** - Adobe ID과 함께 Adobe Experience Cloud을 통해 액세스
+* **Adobe IMS 인증** - Adobe ID으로 Adobe Experience Cloud를 통해 액세스
 * **Campaign v8 관리 클라우드 서비스** - 호스팅된 인스턴스에만 사용할 수 있습니다.
 
 **추가 리소스:**

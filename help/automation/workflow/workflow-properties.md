@@ -80,8 +80,8 @@ ht-degree: 33%
 
   이 필드를 사용하면 워크플로 작업에 오류가 있는 경우 수행할 작업을 정의할 수 있습니다. 다음 두 가지 옵션을 사용할 수 있습니다.
 
-   * **[!UICONTROL Stop the process]**: 워크플로가 자동으로 일시 중지되었습니다. 워크플로 상태가 **[!UICONTROL Failed]**(으)로 변경됩니다. 문제가 해결되면 **[!UICONTROL Start]** 또는 **[!UICONTROL Restart]** 단추를 사용하여 워크플로우를 다시 시작하십시오.
-   * **[!UICONTROL Ignore]**: 오류를 트리거한 작업의 상태가 **[!UICONTROL Failed]**(으)로 변경되지만 워크플로는 **[!UICONTROL Started]** 상태를 유지합니다. 이 구성은 반복 작업과 관련되어 있습니다. 분기에 스케줄러가 포함되어 있으면 다음에 워크플로가 실행될 때 정상적으로 시작됩니다.
+  * **[!UICONTROL Stop the process]**: 워크플로가 자동으로 일시 중지되었습니다. 워크플로 상태가 **[!UICONTROL Failed]**(으)로 변경됩니다. 문제가 해결되면 **[!UICONTROL Start]** 또는 **[!UICONTROL Restart]** 단추를 사용하여 워크플로우를 다시 시작하십시오.
+  * **[!UICONTROL Ignore]**: 오류를 트리거한 작업의 상태가 **[!UICONTROL Failed]**(으)로 변경되지만 워크플로는 **[!UICONTROL Started]** 상태를 유지합니다. 이 구성은 반복 작업과 관련되어 있습니다. 분기에 스케줄러가 포함되어 있으면 다음에 워크플로가 실행될 때 정상적으로 시작됩니다.
 
 * **[!UICONTROL Consecutive errors]**
 

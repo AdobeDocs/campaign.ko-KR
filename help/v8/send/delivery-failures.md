@@ -29,7 +29,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 3442
+source-wordcount: 3422
 ht-degree: 6%
 
 ---
@@ -704,7 +704,7 @@ SR Generic DELIVRD 000|#MESSAGE#
 * 오류 메시지의 세 번째 부분(이 예에서는 **DELIVRD**)은 SMS 외부 계정에 정의된 상태 추출 정규식을 사용하여 SR에서 검색한 상태 코드에 해당합니다.
 
   이 정규식은 외부 계정의 **[!UICONTROL SMSC specificities]** 탭에 지정됩니다.
-기본적으로 정규 표현식은 **SMPP 3.4 사양**&#x200B;의 **부록 B** 섹션에서 정의한 **stat:** 필드를 추출합니다.
+  기본적으로 정규 표현식은 **SMPP 3.4 사양**&#x200B;의 **부록 B** 섹션에서 정의한 **stat:** 필드를 추출합니다.
 
 * 오류 메시지의 네 번째 부분(**000**)은 SMS 외부 계정에 정의된 오류 코드 추출 정규식을 사용하여 SR에서 추출된 오류 코드에 해당합니다.
 

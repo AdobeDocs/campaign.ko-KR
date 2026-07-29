@@ -1,5 +1,5 @@
 ---
-title: 사용자 지정 채널 시작
+title: 사용자 정의 채널 시작하기
 description: Adobe Campaign 웹을 사용하여 사용자 지정 채널 게재를 만들고 보내는 방법을 알아봅니다
 role: User
 level: Beginner, Intermediate
@@ -19,11 +19,11 @@ topic_v2:
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 560
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 사용자 지정 채널 시작 {#gs-custom-channel}
+# 사용자 정의 채널 시작하기 {#gs-custom-channel}
 
 Adobe Campaign을 사용하면 서드파티와 통합된 사용자 지정 외부 또는 API 채널을 만들 수 있습니다. 그런 다음 이러한 채널을 기반으로 게재를 오케스트레이션하고 실행할 수 있습니다.
 
