@@ -6,10 +6,14 @@ role: Developer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
 TQID: https://experienceleague.adobe.com/KikEyxXS3iB2EJUMm7D4XOxXRzflBGVlewWTvuu5LzA
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1326
@@ -27,7 +31,7 @@ ht-degree: 0%
 
   범주는 온라인 환경에서 수동으로 게시할 수도 있습니다.
 
-  오퍼 승인 프로세스는 이 섹션](interaction-offer.md#approve-offers)에 자세히 설명되어 있습니다.[
+  오퍼 승인 프로세스는 이 섹션[&#128279;](interaction-offer.md#approve-offers)에 자세히 설명되어 있습니다.
 
 * 디자인 환경의 승인된 오퍼와 디자인 환경에 구성된 다양한 오퍼 공간, 필터, 카테고리 및 규칙이 모두 있는 **live** 환경을 찾을 수 있습니다. 오퍼 엔진을 호출하는 동안 엔진은 항상 라이브 환경의 오퍼를 사용합니다.
 

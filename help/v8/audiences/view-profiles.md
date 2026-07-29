@@ -7,11 +7,16 @@ level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
 version: Campaign v8, Campaign Classic v7
 TQID: https://experienceleague.adobe.com/KjbdtHFlh5F0wXN2jV9C-sEOY2qry0KuRHhWe9MT9Yk
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 455
@@ -79,11 +84,11 @@ Adobe Campaign 데이터베이스에 저장된 수신자에 액세스하려면 *
 
   ![](assets/subscription-tab.png)
 
-  이 섹션](../start/subscriptions.md)에서 [구독에 대해 자세히 알아보세요.
+  이 섹션[&#128279;](../start/subscriptions.md)에서 구독에 대해 자세히 알아보세요.
 
 * 선택한 프로필의 모든 게재 로그에 대해 **게재**. 이 탭을 사용하여 연락처의 마케팅 기록(모든 채널을 통해 프로필에 지정된 모든 게재 작업의 레이블, 날짜 및 상태)에 액세스할 수 있습니다.
 
 
 * 선택한 프로필의 모든 추적 로그에 대해 **추적**&#x200B;합니다. 이 정보는 게재 후 프로필 동작을 추적하는 데 사용됩니다. 이 탭은 게재에서 추적된 모든 URL의 누적 합계를 보여줍니다. 목록은 구성할 수 있으며, 일반적으로 다음과 같은 항목이 포함됩니다. 클릭한 URL, 클릭한 날짜 및 시간, URL이 포함된 문서
 
-  이 섹션](../send/tracking.md)에서 [ 추적에 대해 자세히 알아보세요.
+  이 섹션[&#128279;](../send/tracking.md)에서  추적에 대해 자세히 알아보세요.

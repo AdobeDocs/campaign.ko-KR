@@ -6,9 +6,13 @@ feature: Interaction, Offers
 role: User, Admin
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
 TQID: https://experienceleague.adobe.com/KBMGNRM-vmeYoar4Bdr2uILvjiIBHA3KlkELyirtuvk
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1458
@@ -94,7 +98,7 @@ HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 
 
 ### 식별된 오퍼 제공 {#presenting-an-identified-offer}
 
-식별된 연락처에 오퍼를 제공하기 위한 프로세스는 이 섹션](#presenting-an-anonymous-offer)의 자세한 [과(와) 유사합니다.
+식별된 연락처에 오퍼를 제공하기 위한 프로세스는 이 섹션[&#128279;](#presenting-an-anonymous-offer)의 자세한 과(와) 유사합니다.
 
 웹 페이지의 콘텐츠에서 오퍼 엔진 호출 중에 연락처를 식별하는 다음 스크립트를 추가해야 합니다.
 
