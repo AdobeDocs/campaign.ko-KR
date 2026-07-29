@@ -7,14 +7,10 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
 TQID: https://experienceleague.adobe.com/wVcQzhDcvinh3rooWklkMsf-KQvWepqYcgcgrHlbdXg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 648
@@ -60,14 +56,14 @@ ht-degree: 3%
 
 * **[!UICONTROL Approval management]**
 
-   * 게재 템플릿과 이메일 알림에 사용할 제목을 선택합니다. 기본 템플릿을 사용할 수 있습니다. **[!UICONTROL Local approval notification]**. 승인 및 피드백 알림에서 수신자 목록 위에 표시되는 설명을 추가할 수도 있습니다.
-   * 승인 기한(승인 시작 날짜나 기한)에 해당하는 **[!UICONTROL Approval type]**&#x200B;을(를) 지정하십시오. 이 날짜에는 워크플로우가 다시 시작되며 승인되지 않은 수신자는 타겟팅에서 고려되지 않습니다. 알림이 전송되면 로컬 감독자가 해당 연락처를 승인할 수 있도록 활동이 큐에 대기합니다.
+  * 게재 템플릿과 이메일 알림에 사용할 제목을 선택합니다. 기본 템플릿을 사용할 수 있습니다. **[!UICONTROL Local approval notification]**. 승인 및 피드백 알림에서 수신자 목록 위에 표시되는 설명을 추가할 수도 있습니다.
+  * 승인 기한(승인 시작 날짜나 기한)에 해당하는 **[!UICONTROL Approval type]**&#x200B;을(를) 지정하십시오. 이 날짜에는 워크플로우가 다시 시작되며 승인되지 않은 수신자는 타겟팅에서 고려되지 않습니다. 알림이 전송되면 로컬 감독자가 해당 연락처를 승인할 수 있도록 활동이 큐에 대기합니다.
 
-     >[!NOTE]
-     >
-     >기본적으로 승인 프로세스가 시작되면 3일 동안 활동이 보류됩니다.
+    >[!NOTE]
+    >
+    >기본적으로 승인 프로세스가 시작되면 3일 동안 활동이 보류됩니다.
 
-     로컬 감독자에게 기한이 다가오고 있음을 알리는 하나 이상의 미리 알림을 추가할 수도 있습니다. 이렇게 하려면 **[!UICONTROL Add a reminder]** 링크를 클릭하십시오.
+    로컬 감독자에게 기한이 다가오고 있음을 알리는 하나 이상의 미리 알림을 추가할 수도 있습니다. 이렇게 하려면 **[!UICONTROL Add a reminder]** 링크를 클릭하십시오.
 
 * **[!UICONTROL Complementary set]**: **[!UICONTROL Generate complement]** 옵션을 사용하면 승인되지 않은 모든 대상을 포함하는 두 번째 집합을 생성할 수 있습니다.
 

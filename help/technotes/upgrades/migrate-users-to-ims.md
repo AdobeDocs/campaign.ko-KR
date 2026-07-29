@@ -29,7 +29,7 @@ Campaign v8을 사용하면 모든 일반 사용자가 이미 Adobe IMS(Identity
 
 조직의 운영자가 로그인/암호(예: )를 사용하여 Campaign 클라이언트 콘솔에 연결하는 경우 기본 인증)을 사용하는 경우 영향을 받게 되며 아래에 자세히 설명된 대로 이러한 연산자를 Adobe IMS로 마이그레이션해야 합니다.
 
-[Adobe IMS(Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}로의 마이그레이션은 다른 Adobe Experience Cloud 솔루션과 앱의 대부분이 이미 IMS에 있으므로 환경을 안전하고 표준화하기 위해 반드시 필요한 보안입니다.
+[IMS(Adobe Identity Management System)로 마이그레이션](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}은(는) 다른 Adobe Experience Cloud 솔루션 및 앱의 대부분이 이미 IMS에 있으므로 환경을 안전하고 표준화하도록 하는 데 필수적인 보안입니다.
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Campaign v8을 사용하면 모든 일반 사용자가 이미 Adobe IMS(Identity
 >
 >사용자를 IMS로 마이그레이션한 후에는 Adobe Admin Console의 제품 프로필에 이름에 &quot;admin&quot;이라는 단어가 포함되어 있는지 확인하십시오(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등). 는 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 자동으로 부여합니다. Campaign 컨트롤 패널은 Campaign 인스턴스를 크게 변경할 수 있는 셀프서비스 도구입니다.
 >
->제품 프로필 이름 지정 규칙을 주의 깊게 검토하여 승인된 사용자만 Campaign 컨트롤 패널에 액세스할 수 있도록 합니다. [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko){target="_blank"}에서 Campaign 컨트롤 패널 권한 관리에 대해 자세히 알아보세요.
+>제품 프로필 이름 지정 규칙을 주의 깊게 검토하여 승인된 사용자만 Campaign 컨트롤 패널에 액세스할 수 있도록 합니다. [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}에서 Campaign 컨트롤 패널 권한 관리에 대해 자세히 알아보세요.
 
 ## 마이그레이션 방법{#ims-migration-procedure}
 

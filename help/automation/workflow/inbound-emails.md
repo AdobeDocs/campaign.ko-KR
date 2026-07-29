@@ -7,10 +7,8 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 6cc2c415-1886-4f31-8020-dbaf97a3cc43
 TQID: https://experienceleague.adobe.com/5Kmhzi-ZkvEhkzJr6LGk-wPo8EPWsbUOjHwPymcNGtA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 342
@@ -38,21 +36,21 @@ ht-degree: 1%
 
      ![](assets/email_rec_edit_1b.png)
 
-      * **[!UICONTROL POP3 server]**
+     * **[!UICONTROL POP3 server]**
 
-        POP3 서버 이름.
+       POP3 서버 이름.
 
-      * **[!UICONTROL POP3 account]**
+     * **[!UICONTROL POP3 account]**
 
-        사용자 이름.
+       사용자 이름.
 
-      * **[!UICONTROL Password]**
+     * **[!UICONTROL Password]**
 
-        사용자 계정 암호.
+       사용자 계정 암호.
 
-      * **[!UICONTROL Port]**
+     * **[!UICONTROL Port]**
 
-        POP3 연결 포트 번호. 기본 포트는 110입니다.
+       POP3 연결 포트 번호. 기본 포트는 110입니다.
 
    * **[!UICONTROL Stop as soon as email is processed]**
 

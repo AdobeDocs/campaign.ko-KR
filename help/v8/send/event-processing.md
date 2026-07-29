@@ -6,14 +6,10 @@ role: User
 level: Intermediate
 exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
 TQID: https://experienceleague.adobe.com/Vg4aM-iHsB0c8MagdCuYkyseUBaN-T252-Lk9P5klB8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 681
@@ -89,8 +85,8 @@ ht-degree: 1%
 
 * **보류 중**
 
-   * 보류 중인 이벤트는 방금 수집되었으며 아직 처리되지 않은 이벤트일 수 있습니다. **[!UICONTROL Number of errors]** 열에 값 0이 표시됩니다. 이메일 템플릿이 아직 연결되지 않았습니다.
-   * 보류 중인 이벤트는 처리된 이벤트일 수도 있지만 확인 오류가 있는 이벤트입니다. **[!UICONTROL Number of errors]** 열에 0이 아닌 값이 표시됩니다. 이 이벤트가 다시 처리되는 시기를 확인하려면 **[!UICONTROL Process requested on]** 열을 참조하십시오.
+  * 보류 중인 이벤트는 방금 수집되었으며 아직 처리되지 않은 이벤트일 수 있습니다. **[!UICONTROL Number of errors]** 열에 값 0이 표시됩니다. 이메일 템플릿이 아직 연결되지 않았습니다.
+  * 보류 중인 이벤트는 처리된 이벤트일 수도 있지만 확인 오류가 있는 이벤트입니다. **[!UICONTROL Number of errors]** 열에 0이 아닌 값이 표시됩니다. 이 이벤트가 다시 처리되는 시기를 확인하려면 **[!UICONTROL Process requested on]** 열을 참조하십시오.
 
 * **보류 중인 게재**
 이벤트가 처리되고 게재 템플릿이 연결됩니다. 이메일이 게재 보류 중이며 클래식 게재 프로세스가 적용됩니다. 자세한 내용은 게재를 열 수 있습니다.

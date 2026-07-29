@@ -6,20 +6,14 @@ role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 TQID: https://experienceleague.adobe.com/vCnJYU3rJvZ5d5waVuycpPnBD-1dBJs25RLQjdZbBZU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 11%
+source-wordcount: 417
+ht-degree: 8%
 
 ---
 
@@ -43,15 +37,15 @@ Campaign v8은 다음 Adobe 솔루션과 연결할 수 있습니다. 사용 사�
 * Adobe Target. [자세히 알아보기](../connect/ac-at.md)
 * Adobe Workfront. [자세히 알아보기](../connect/ac-workfront.md)
 
-또한 에셋 공유 및 대상 공유 기능을 사용하여 Experience Cloud 솔루션 전체의 **대상** 및 **에셋**&#x200B;을 결합할 수 있습니다.
+또한 에셋 공유 및 대상 공유 기능을 사용하여 Experience Cloud 솔루션 전반의 **대상** 및 **에셋**&#x200B;을 결합할 수 있습니다.
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ko#integrating-with-adobe-experience-cloud){target="_blank"}에서 Campaign과 Experience Cloud 솔루션 간 **대상 공유**&#x200B;에 대해 자세히 알아보세요.
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}에서 Campaign과 Experience Cloud 솔루션 간 **대상 공유**&#x200B;에 대해 자세히 알아보세요.
 
-Campaign과 Experience Cloud 솔루션 간의 **자산 공유**&#x200B;에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ko#integrating-with-adobe-experience-cloud){target="_blank"}를 참조하세요.
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}에서 Campaign과 Experience Cloud 솔루션 간의 **자산 공유**&#x200B;에 대해 자세히 알아보세요.
 
 >[!NOTE]
 >
->Managed Cloud Services 사용자는 Campaign을 Adobe Experience Cloud 서비스 및 솔루션과 연결하려면 [Adobe에 문의](../start/campaign-faq.md#support)하십시오.
+>Managed Cloud Services 사용자는 Campaign을 Adobe Experience Cloud 서비스 및 솔루션에 연결하려면 [Adobe에 문의](../start/campaign-faq.md#support)하십시오.
 
 
 ## CRM 커넥터와 통합{#gs-crm-connectors}

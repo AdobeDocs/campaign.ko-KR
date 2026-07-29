@@ -6,16 +6,10 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 TQID: https://experienceleague.adobe.com/15Nn-l031JWcYJAEooiP6ZN4btvuwd9r1soU3a77Jqk
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 2133
@@ -54,7 +48,7 @@ Adobe Campaign에서는 특정 프로세스를 활성화하고 실행하는 데 
 
 **바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는 데 사용할 수 있습니다.
 
-[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ko){target="_blank"}에서 인바운드 전자 메일에 대해 자세히 알아보세요.
+[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}에서 인바운드 전자 메일에 대해 자세히 알아보세요.
 
 ![](assets/bounce_external_1.png)
 
@@ -137,7 +131,7 @@ Campaign 웹 UI 페이지에서는 다음을 포함하여 **외부 데이터베�
 * **[Vertica Analytics](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#vertica-analytics){target="_blank"}** - OpenText Vertica 분석 데이터베이스에 Campaign을 연결합니다.
 * **[Microsoft 패브릭](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#fabric){target="_blank"}** - Microsoft 패브릭 SQL 및 저장소 서비스에 Campaign을 연결합니다.
 
-기존 클라이언트 콘솔 세부 정보 및 추가 참조에 대해서는 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}를 참조하십시오.
+기존 클라이언트 콘솔 세부 정보 및 추가 참조에 대해서는 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}를 참조하십시오.
 
 #### 데이터 블록 외부 계정 {#databricks-external-accounts}
 
@@ -207,7 +201,7 @@ Campaign에서 OAuth2 인증을 구성하려면 다음 단계를 수행하십시
 
 ## 외부 계정 데이터 전송 {#transfer-data-external-accounts}
 
-이러한 외부 계정은 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보내는 데 사용할 수 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}에서 워크플로우의 **파일 전송**&#x200B;에 대해 자세히 알아보세요.
+이러한 외부 계정은 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보내는 데 사용할 수 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}에서 워크플로우의 **파일 전송**&#x200B;에 대해 자세히 알아보세요.
 
 * **FTP 및 SFTP** - **FTP** 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 SFTP 또는 FTP 서버와 같은 외부 시스템과의 연결을 설정하려면 고유한 외부 계정을 만들 수 있습니다.
 
@@ -215,32 +209,32 @@ Campaign에서 OAuth2 인증을 구성하려면 다음 단계를 수행하십시
 
   >[!NOTE]
   >
-  >이제 릴리스 8.5부터 SFTP 외부 계정을 구성할 때 개인 키를 사용하여 안전하게 인증할 수 있습니다. [키 관리에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ko){target="_blank"}.
+  >이제 릴리스 8.5부터 SFTP 외부 계정을 구성할 때 개인 키를 사용하여 안전하게 인증할 수 있습니다. [키 관리에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
 
 * **Amazon Simple Storage Service(S3)** - **AWS S3** 커넥터를 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 이 외부 계정을 설정할 때 다음 세부 정보를 제공해야 합니다.
 
-   * **[!UICONTROL AWS S3 Account Server]**: `<S3bucket name>.s3.amazonaws.com/<s3object path>` 형식의 서버 URL입니다.
+  * **[!UICONTROL AWS S3 Account Server]**: `<S3bucket name>.s3.amazonaws.com/<s3object path>` 형식의 서버 URL입니다.
 
-   * **[!UICONTROL AWS access key ID]**: [Amazon 설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}에서 AWS 액세스 키 ID를 찾는 방법에 대해 알아봅니다.
+  * **[!UICONTROL AWS access key ID]**: [Amazon 설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}에서 AWS 액세스 키 ID를 찾는 방법에 대해 알아봅니다.
 
-   * **[!UICONTROL Secret access key to AWS]**: [Amazon 설명서](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"}에서 AWS에 대한 비밀 액세스 키를 찾는 방법에 대해 알아봅니다.
+  * **[!UICONTROL Secret access key to AWS]**: [Amazon 설명서](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"}에서 AWS에 대한 비밀 액세스 키를 찾는 방법에 대해 알아봅니다.
 
-   * **[!UICONTROL AWS Region]**: [AWS 설명서](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}에서 Amazon 지역에 대해 자세히 알아보세요.
+  * **[!UICONTROL AWS Region]**: [AWS 설명서](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}에서 Amazon 지역에 대해 자세히 알아보세요.
 
-   * **[!UICONTROL Use server-side encryption]** 확인란을 사용하면 파일을 S3 암호화 모드로 저장할 수 있습니다. [Amazon 설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}에서 액세스 키 ID 및 비밀 액세스 키를 찾는 방법에 대해 알아봅니다.
+  * **[!UICONTROL Use server-side encryption]** 확인란을 사용하면 파일을 S3 암호화 모드로 저장할 수 있습니다. [Amazon 설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}에서 액세스 키 ID 및 비밀 액세스 키를 찾는 방법에 대해 알아봅니다.
 
 * **Azure Blob 저장소** - **Azure** 외부 계정을 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 통해 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. Adobe Campaign에서 작동하도록 **Azure** 외부 계정을 구성하려면 다음 세부 정보를 제공해야 합니다.
 
-   * **[!UICONTROL Server]**: Azure Blob 저장소 서버의 URL입니다.
+  * **[!UICONTROL Server]**: Azure Blob 저장소 서버의 URL입니다.
 
-   * **[!UICONTROL Encryption]**: 암호화 유형: **[!UICONTROL None]** 또는 **[!UICONTROL SSL]**.
+  * **[!UICONTROL Encryption]**: 암호화 유형: **[!UICONTROL None]** 또는 **[!UICONTROL SSL]**.
 
-   * **[!UICONTROL Access key]**: [Microsoft 설명서](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}에서 **[!UICONTROL Access key]**&#x200B;을(를) 찾는 방법에 대해 알아보세요.
+  * **[!UICONTROL Access key]**: [Microsoft 설명서](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}에서 **[!UICONTROL Access key]**&#x200B;을(를) 찾는 방법에 대해 알아보세요.
 
 * **Microsoft 패브릭** - **Microsoft 패브릭** 외부 계정을 사용하면 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Microsoft 패브릭과 Adobe Campaign 간에 데이터를 가져오고 내보낼 수 있습니다. 이 통합을 구성하려면 다음 세부 정보를 제공합니다.
 
-   * **[!UICONTROL Server]**: Microsoft 패브릭 저장소 서버의 URL입니다.
+  * **[!UICONTROL Server]**: Microsoft 패브릭 저장소 서버의 URL입니다.
 
-   * **[!UICONTROL Application ID]**: Microsoft Fabric 리소스를 인증하고 액세스하는 데 사용되는 응용 프로그램의 고유 식별자입니다.
+  * **[!UICONTROL Application ID]**: Microsoft Fabric 리소스를 인증하고 액세스하는 데 사용되는 응용 프로그램의 고유 식별자입니다.
 
-   * **[!UICONTROL Client secret]**: Microsoft Fabric에 안전하게 연결하는 데 필요한 응용 프로그램과 연결된 인증 키 또는 암호입니다.
+  * **[!UICONTROL Client secret]**: Microsoft Fabric에 안전하게 연결하는 데 필요한 응용 프로그램과 연결된 인증 키 또는 암호입니다.

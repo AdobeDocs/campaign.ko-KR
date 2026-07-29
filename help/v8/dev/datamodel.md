@@ -6,20 +6,12 @@ role: Developer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
 TQID: https://experienceleague.adobe.com/pUzg-KbbYOXppAjG0nQe9T16Co61ipNXywTjNaV76bU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: b5852c32-876b-41ae-92a7-9f588865ae52
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 737
@@ -39,9 +31,9 @@ Adobe Campaign 데이터 모델의 기본 구조는 다음과 같이 설명할 �
 
 * **로그 테이블**: 이 테이블은 캠페인 실행과 관련된 모든 로그를 저장합니다.
 
-   * 게재 로그는 모든 채널에서 수신자 또는 장치에 전송되는 모든 메시지를 의미합니다. 기본 게재 로그 테이블(**NmsBroadLogRcp**)에는 모든 수신자에 대한 게재 로그가 포함되어 있습니다.
-   * **nmsBroadlog** 테이블은 시스템에서 가장 큰 테이블입니다. 이 보고서는 보낸 메시지당 하나의 레코드를 저장하며, 이러한 레코드는 삽입되고 업데이트되어 게재 상태를 추적하며 기록이 삭제되면 삭제됩니다.
-   * 기본 추적 로그 테이블(**NmsTrackingLogRcp**)은 모든 수신자에 대한 추적 로그를 저장합니다. 추적 로그는 이메일 열기 및 클릭과 같은 수신자의 반응을 나타냅니다. 각 반응은 추적 로그에 해당합니다.
+  * 게재 로그는 모든 채널에서 수신자 또는 장치에 전송되는 모든 메시지를 의미합니다. 기본 게재 로그 테이블(**NmsBroadLogRcp**)에는 모든 수신자에 대한 게재 로그가 포함되어 있습니다.
+  * **nmsBroadlog** 테이블은 시스템에서 가장 큰 테이블입니다. 이 보고서는 보낸 메시지당 하나의 레코드를 저장하며, 이러한 레코드는 삽입되고 업데이트되어 게재 상태를 추적하며 기록이 삭제되면 삭제됩니다.
+  * 기본 추적 로그 테이블(**NmsTrackingLogRcp**)은 모든 수신자에 대한 추적 로그를 저장합니다. 추적 로그는 이메일 열기 및 클릭과 같은 수신자의 반응을 나타냅니다. 각 반응은 추적 로그에 해당합니다.
 
   게재 로그 및 추적 로그는 Adobe Campaign에 지정되며 수정할 수 있는 특정 기간 후에 삭제됩니다. 따라서 정기적으로 로그를 내보내는 것이 좋습니다.
 
@@ -75,7 +67,7 @@ Adobe Campaign의 기본 제공 수신자 테이블(nmsrecipient)은 데이터 �
 
 [이 섹션](extend-schema.md)에서 기존 스키마를 확장하는 방법을 알아보세요.
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ko#extending-a-table){target="_blank"}에서 기본 제공 수신자 테이블 확장의 예를 살펴봅니다.
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}에서 기본 제공 수신자 테이블 확장의 예를 살펴봅니다.
 
 비즈니스 또는 기능 요구 사항에 더 잘 부합하도록 다른 수신자 테이블을 사용할 수도 있습니다. 이 메서드는 제한 사항이 있으며 [이 섹션](custom-recipient.md)에 설명되어 있습니다.
 

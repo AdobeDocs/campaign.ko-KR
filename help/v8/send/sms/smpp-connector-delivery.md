@@ -6,15 +6,10 @@ role: User
 level: Beginner, Intermediate
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
 TQID: https://experienceleague.adobe.com/5LR9seZA5eFVn-ZKkO27EtqCZu6-9tKL2eyxZtwNHiU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1291
@@ -43,10 +38,10 @@ SMS 프로세스는 nms:extAccount을(를) 폴링하고 SMPP 커넥터에 새 �
 ### 메시지를 보내는 동안 데이터 흐름 {#sms-data-flow-sending-msg}
 
 * SMS 프로세스는 nms:delivery을(를) 스캔하여 활성 게재를 선택합니다. 다음의 경우 게재가 활성화됩니다.
-   * 상태는 메시지를 보낼 수 있음을 의미합니다
-   * 유효 기간이 만료되지 않았습니다.
-   * 실제로 게재입니다(예: 템플릿이 아니라 삭제되지 않음).
-   * SMPP 커넥터는 게재에 연결된 외부 계정에 대해 하나 이상의 연결을 열 수 있습니다
+  * 상태는 메시지를 보낼 수 있음을 의미합니다
+  * 유효 기간이 만료되지 않았습니다.
+  * 실제로 게재입니다(예: 템플릿이 아니라 삭제되지 않음).
+  * SMPP 커넥터는 게재에 연결된 외부 계정에 대해 하나 이상의 연결을 열 수 있습니다
 * 각 게재에 대해 SMS 프로세스는 게재 부분을 로드합니다. 게재 부분이 부분적으로 전송된 경우 SMS 프로세스는 광범위한 로그를 확인하여 이미 전송된 메시지를 확인합니다.
 * SMS 프로세스는 게재 부분의 개인화 데이터로 템플릿을 확장합니다.
 * SMPP 커넥터는 콘텐츠 및 기타 설정과 일치하는 MT(SUBMIT_SM PDU)를 생성합니다.

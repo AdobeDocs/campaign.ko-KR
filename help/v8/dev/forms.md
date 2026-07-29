@@ -6,18 +6,11 @@ role: Developer
 level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
 TQID: https://experienceleague.adobe.com/UPy2HysYfwHyRO2ESg3o6Ig-Fv0dkxWV7o6Jhg--4ok
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 2571
@@ -100,7 +93,7 @@ ht-degree: 0%
 
 기본적으로 각 필드는 한 줄에 표시되며 데이터 유형에 따라 사용 가능한 모든 공간을 차지합니다.
 
-모든 양식 특성은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=ko){target="_blank"}에 나와 있습니다.
+모든 양식 특성은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}에 나와 있습니다.
 
 ## 양식화 {#formatting}
 
@@ -333,9 +326,9 @@ ht-degree: 0%
 * **noAutoComplete**: 자동 완성 형식을 사용하지 않습니다(값 &quot;true&quot; 사용).
 * **createMode**: 링크가 없는 경우 바로 링크를 만듭니다. 가능한 값:
 
-   * **없음**: 만들기를 사용하지 않습니다. 링크가 없는 경우 오류 메시지가 표시됩니다
-   * **인라인**: 편집 필드에 콘텐츠가 있는 링크를 만듭니다.
-   * **편집**: 링크에 편집 양식을 표시합니다. 양식의 유효성을 검사하면 데이터가 저장됩니다(기본 모드).
+  * **없음**: 만들기를 사용하지 않습니다. 링크가 없는 경우 오류 메시지가 표시됩니다
+  * **인라인**: 편집 필드에 콘텐츠가 있는 링크를 만듭니다.
+  * **편집**: 링크에 편집 양식을 표시합니다. 양식의 유효성을 검사하면 데이터가 저장됩니다(기본 모드).
 
 * **noZoom**: 링크에 편집 양식이 없습니다(&quot;true&quot; 값 사용).
 * **form**: 대상 요소의 편집 양식을 오버로드합니다.

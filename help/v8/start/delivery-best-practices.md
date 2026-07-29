@@ -7,23 +7,14 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
 TQID: https://experienceleague.adobe.com/20Kh0O94OY8Vpy5SmhVUUgVOCkWy7DNZiJko3EeOx-E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 3154
+source-wordcount: 3055
 ht-degree: 2%
 
 ---
@@ -47,7 +38,7 @@ Campaign 게재 기능을 사용한 다음 모범 사례를 살펴보십시오.
 
 * 워크플로우 실행: 플랫폼 성능 문제를 방지하려면 워크플로우를 모니터링해야 합니다. 이 문서의 [에 나열된 지침](../../automation/workflow/workflow-best-practices.md#execution-and-performance)을(를) 따르십시오.
 
-* [Campaign Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/ko/docs/control-panel/using/discover-control-panel/key-features){target="_blank"}에 연결하여 [성능 모니터링](https://experienceleague.adobe.com/ko/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"} 기능을 사용하여 플랫폼을 모니터링합니다.
+* [Campaign Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/en/docs/control-panel/using/discover-control-panel/key-features){target="_blank"}에 연결하여 [성능 모니터링](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"} 기능을 사용하여 플랫폼을 모니터링합니다.
 
 #### 격리 관리 {#quarantine-management}
 
@@ -56,9 +47,9 @@ Campaign 게재 기능을 사용한 다음 모범 사례를 살펴보십시오.
 새 플랫폼에서 이메일을 보내기 시작할 때 정규화된 주소가 아닌 주소 목록을 사용할 수 있습니다. 잘못된 주소 또는 허니팟 주소(스패머를 속이기 위해 만들어진 사서함)로 보내는 경우 플랫폼의 신뢰도가 떨어지기 시작합니다. 훌륭한 격리 관리 프로세스는 주소 품질을 유지하고, 인터넷 액세스 제공업체의 차단 목록에 추가하다를 피하고, 오류율을 낮추어 게재 및 처리 속도를 높이는 데 도움이 됩니다.
 
 
-[Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/ko/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"}에서 새 플랫폼을 시작하는 방법에 대해 자세히 알아보세요.
+[Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"}에서 새 플랫폼을 시작하는 방법에 대해 자세히 알아보세요.
 
-기술 권장 사항은 [이 섹션](https://experienceleague.adobe.com/ko/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}에 나열되어 있습니다.
+기술 권장 사항은 [이 섹션](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}에 나열되어 있습니다.
 
 
 +++ **모범 사례 몇 가지 읽기**
@@ -96,7 +87,7 @@ Adobe은 잘못된 주소로 메시지를 보내지 않도록 하고 부적절�
 
 ### 하위 도메인 및 브랜딩 {#subdomains-and-branding}
 
-Adobe Campaign에서 여러 브랜드를 관리할 때에는 브랜드당 하나의 하위 도메인을 사용하는 것이 좋습니다. 예를 들어 은행은 각 지역 기관에 해당하는 여러 하위 도메인을 가질 수 있습니다. 은행이 bluebank.com 도메인을 소유하는 경우 해당 하위 도메인은 @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com 등이 될 수 있습니다. 하위 도메인당 하나의 게재 템플릿을 사용하면 각 브랜드에 대해 항상 올바른 사전 구성된 매개 변수를 사용할 수 있으므로 오류를 방지하고 시간을 절약할 수 있습니다. [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/ko/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}에서 하위 도메인 브랜딩에 대해 자세히 알아보세요.
+Adobe Campaign에서 여러 브랜드를 관리할 때에는 브랜드당 하나의 하위 도메인을 사용하는 것이 좋습니다. 예를 들어 은행은 각 지역 기관에 해당하는 여러 하위 도메인을 가질 수 있습니다. 은행이 bluebank.com 도메인을 소유하는 경우 해당 하위 도메인은 @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com 등이 될 수 있습니다. 하위 도메인당 하나의 게재 템플릿을 사용하면 각 브랜드에 대해 항상 올바른 사전 구성된 매개 변수를 사용할 수 있으므로 오류를 방지하고 시간을 절약할 수 있습니다. [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}에서 하위 도메인 브랜딩에 대해 자세히 알아보세요.
 
 ### 주소 구성 {#configure-addresses}
 
@@ -145,11 +136,11 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 * 개인화 설정 확인 - 메시지 콘텐츠가 개인화와 관련된 오류를 방지하기 위해 제대로 디자인되었는지 확인하십시오. Adobe Campaign 개인화 태그에는 항상 `<%=table.field%>` 형식이 있습니다. 개인화 블록에서 매개 변수를 잘못 사용하면 문제가 될 수 있습니다. 예를 들어 JavaScript의 변수는 다음과 같이 사용해야 합니다.
 
-  &grave;&grave;
+  ``
   <%
   var brand = "xxx"
   %>
-  &grave;&grave;
+  ``
 
   개인화 블록에 대한 자세한 내용은 [이 섹션](../send/personalization-blocks.md)을 참조하세요.
 
@@ -201,7 +192,7 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 구독 취소 링크는 필수입니다. 표시 및 유효해야 하며 양식이 제대로 작동해야 합니다. 기본적으로 메시지를 분석할 때 기본 제공 **[!UICONTROL Unsubscription link approval]** [유형화 규칙](../../automation/campaign-opt/control-rules.md)이(가) 옵트아웃 링크가 포함되어 있는지 확인하고 누락된 경우 경고를 생성합니다.
 
-이 섹션[&#128279;](../send/personalization-blocks.md)에서 옵트아웃 링크 을(를) 삽입하는 방법을 알아봅니다.
+이 섹션](../send/personalization-blocks.md)에서 옵트아웃 링크 [을(를) 삽입하는 방법을 알아봅니다.
 
 +++ **이 모범 사례 적용**
 
@@ -255,7 +246,7 @@ To avoid common formatting errors, check the following elements:
 
 * Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode.
 
-* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#authentication).
+* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
 -->
 
 ## 이미지 관리 {#manage-images}

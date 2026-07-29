@@ -7,14 +7,11 @@ role: User, Developer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
 TQID: https://experienceleague.adobe.com/52OZPf93IeD62Vo1-G68JRoM9aeIK1Qgbw885s9eHnI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: 1621
+source-wordcount: 1586
 ht-degree: 1%
 
 ---
@@ -26,7 +23,7 @@ ht-degree: 1%
 ## 쿼리 만들기 {#creating-a-query}
 
 쿼리를 사용하면 기준에 따라 대상을 선택할 수 있습니다. 쿼리 결과에 세그먼트 코드를 연결하고 추가 데이터를 삽입할 수 있습니다.
-[이 섹션](querying-recipient-table.md)에서 사용 사례를 통해 쿼리를 작성하는 방법을 알아봅니다. [쿼리 편집기](../../v8/start/query-editor.md)에 대한 섹션도 참조하세요.
+[이 섹션](querying-recipient-table.md)에서 사용 사례를 통해 쿼리를 작성하는 방법을 알아봅니다. [쿼리 편집기](../../v8/start/query-editor.md)에 대한 섹션을 참조하십시오.
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
@@ -216,11 +213,11 @@ SQL의 필터링 차원과 동등한 기능은 내부 조인입니다.
 * 프로덕션 플랫폼과 유사한 볼륨, 매개변수 및 아키텍처를 사용하는 개발 플랫폼을 구축합니다.
 * 개발 및 프로덕션 환경에 동일한 값을 사용합니다. 가능한 한 동일한 을 사용합니다.
 
-   * 운영 체제,
-   * 버전,
-   * 데이터,
-   * 애플리케이션,
-   * 볼륨.
+  * 운영 체제,
+  * 버전,
+  * 데이터,
+  * 애플리케이션,
+  * 볼륨.
 
   >[!NOTE]
   >

@@ -6,18 +6,11 @@ role: User
 level: Beginner
 exl-id: 2ad585f2-19bc-4391-8a19-9e892dbe01a3
 TQID: https://experienceleague.adobe.com/PjU1EFX5x4iB3yRsShGBWoR0k1D2-EI90-ss0FTcexE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 6cf587ecc9cc1e4cf9b3de0d2067e0c4562afe01
 workflow-type: tm+mt
 source-wordcount: 2206
@@ -39,7 +32,7 @@ Adobe Campaign은 개별 메시지가 전달되었는지 여부부터 워크플�
 >
 >- 마케터가 캠페인 → [게재 모니터링](#monitor-deliveries)을 확인합니다.
 >- 워크플로우 문제 해결 →[워크플로우 모니터링](#monitor-workflows)
->- 관리자가 인스턴스 상태를 확인하고 →0&rbrace;인스턴스 모니터링[&#128279;](#monitor-instance)
+>- 관리자가 인스턴스 상태를 확인하고 →0}인스턴스 모니터링](#monitor-instance)[
 
 ## 게재 모니터링 {#monitor-deliveries}
 
@@ -47,15 +40,15 @@ Adobe Campaign은 개별 메시지가 전달되었는지 여부부터 워크플�
 
 >[!NOTE]
 >
->Campaign을 처음 사용하십니까?**&#x200B;**&#x200B;게재 대시보드는 일상적인 화면입니다. 보낸 게재를 열고 **로그** 탭을 클릭하면 메시지를 받은 수신자, 제외된 이유, 클릭하거나 연 사람을 확인할 수 있습니다.
+>Campaign을 처음 사용하십니까?****&#x200B;게재 대시보드는 일상적인 화면입니다. 보낸 게재를 열고 **로그** 탭을 클릭하면 메시지를 받은 수신자, 제외된 이유, 클릭하거나 연 사람을 확인할 수 있습니다.
 
-**전자 메일 게재** - 전자 메일 게재 상태를 모니터링하고, 주요 지표를 추적하고, 자세한 로그에 액세스합니다. [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-dashboard), [게재 상태](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-statuses) 및 [이메일 게재 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/send#email-monitoring)에 대해 자세히 알아보세요.
+**전자 메일 게재** - 전자 메일 게재 상태를 모니터링하고, 주요 지표를 추적하고, 자세한 로그에 액세스합니다. [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard), [게재 상태](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses) 및 [이메일 게재 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/send#email-monitoring)에 대해 자세히 알아보세요.
 
-**SMS 게재** - SMS 게재 상태를 추적하고 SMS 게재 대시보드에서 주요 지표를 모니터링합니다. [SMS 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/sms/sms-monitor)에 대해 자세히 알아보세요.
+**SMS 게재** - SMS 게재 상태를 추적하고 SMS 게재 대시보드에서 주요 지표를 모니터링합니다. [SMS 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms-monitor)에 대해 자세히 알아보세요.
 
-**푸시 알림** - 푸시 알림 게재를 모니터링하여 모바일 앱 사용자에게 효과적으로 전달되도록 합니다. [푸시 알림 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push#push-test)에 대해 자세히 알아보세요.
+**푸시 알림** - 푸시 알림 게재를 모니터링하여 모바일 앱 사용자에게 효과적으로 전달되도록 합니다. [푸시 알림 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push#push-test)에 대해 자세히 알아보세요.
 
-**트랜잭션 메시지** - 이벤트에 의해 트리거된 메시지의 경우 이벤트 처리 상태, 메시지 실행 및 게재 상태를 모니터링합니다. [트랜잭션 메시지 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/event/delivery-execution#monitor-messages)에 대해 자세히 알아보세요.
+**트랜잭션 메시지** - 이벤트에 의해 트리거된 메시지의 경우 이벤트 처리 상태, 메시지 실행 및 게재 상태를 모니터링합니다. [트랜잭션 메시지 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution#monitor-messages)에 대해 자세히 알아보세요.
 
 **게재 실패** - 깨끗한 데이터베이스를 유지 관리하고 배달 가능성을 높이기 위해 게재 실패 이유를 이해하는 것이 중요합니다. 게재 실패는 세 가지 유형으로 분류됩니다. 차이를 이해하면 수행할 작업을 결정하는 데 도움이 됩니다.
 
@@ -65,7 +58,7 @@ Adobe Campaign은 개별 메시지가 전달되었는지 여부부터 워크플�
 | **소프트 바운스** | 일시적인 문제(전체 사서함, 서버를 일시적으로 사용할 수 없음) | 구성된 기간 동안 Campaign에서 자동으로 다시 시도 |
 | **무시됨** | 보내기 전에 주소가 이미 격리되었거나 차단 목록에 추가하다에 격리되었습니다. | 시도가 없습니다. 바운스와 별도로 계산됩니다. |
 
-[게재 실패 및 격리](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/delivery-failures)에 대해 자세히 알아보세요.
+[게재 실패 및 격리](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures)에 대해 자세히 알아보세요.
 
 ## 게재 기능 모니터링 {#monitor-deliverability}
 
@@ -75,7 +68,7 @@ Adobe Campaign은 개별 메시지가 전달되었는지 여부부터 워크플�
 
 게재 가능성 모니터링은 메시지가 수신자의 받은 편지함에 도달하는지 확인하고 스팸 필터를 방지하는 데 도움이 됩니다. Adobe Campaign은 게재 보고서, 받은 편지함 렌더링, SpamAssassin 테스트 및 브로드캐스트 통계를 포함하여 게재 가능성을 모니터링하고 개선하는 여러 기본 제공 도구를 제공합니다. 깔끔한 이메일 목록 유지, 보낸 사람의 신뢰도 모니터링 및 전송 도메인 인증과 같은 게재 가능성 모범 사례를 따르는 것이 우수한 게재율을 유지하는 데 중요합니다.
 
-[게재 가능성 모니터링 도구](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/deliverability-management/monitoring-deliverability) 및 [게재 가능성 모범 사례](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/deliverability-management/about-deliverability)에 대해 자세히 알아보세요.
+[게재 가능성 모니터링 도구](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/deliverability-management/monitoring-deliverability) 및 [게재 가능성 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/deliverability-management/about-deliverability)에 대해 자세히 알아보세요.
 
 ## 워크플로 모니터링 {#monitor-workflows}
 
@@ -93,11 +86,11 @@ Adobe Campaign은 개별 메시지가 전달되었는지 여부부터 워크플�
 
 **다음 워크플로우 요소 모니터링:**
 
-**워크플로 실행 상태** - 워크플로가 실행 중인지, 일시 중지되었는지, 실패했는지 또는 완료되었는지 추적합니다. [워크플로우 실행에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution#_blank)
+**워크플로 실행 상태** - 워크플로가 실행 중인지, 일시 중지되었는지, 실패했는지 또는 완료되었는지 추적합니다. [워크플로우 실행에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution#_blank)
 
 **활동 실행 로그** - 각 워크플로우 활동에 대한 자세한 로그에 액세스하여 문제를 해결하고 성능을 최적화합니다.
 
-**워크플로우 HeatMap** - 인스턴스에서 동시에 실행되는 모든 워크플로우에 대한 시각적 개요입니다. 이를 사용하여 최대 로드 기간을 식별하고, 불균형적인 리소스를 사용하는 스팟 워크플로우를 식별하며, 실행 충돌을 방지하기 위한 일정을 계획합니다. Campaign 관리자만 사용 가능합니다. [워크플로우 Heatmap에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/monitoring-workflows/heatmap#_blank)
+**워크플로우 HeatMap** - 인스턴스에서 동시에 실행되는 모든 워크플로우에 대한 시각적 개요입니다. 이를 사용하여 최대 로드 기간을 식별하고, 불균형적인 리소스를 사용하는 스팟 워크플로우를 식별하며, 실행 충돌을 방지하기 위한 일정을 계획합니다. Campaign 관리자만 사용 가능합니다. [워크플로우 Heatmap에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/heatmap#_blank)
 
 **워크플로 기록** - 시간에 따른 모든 워크플로 실행 및 수정 사항을 추적하여 워크플로 동작 및 성능을 파악합니다.
 
@@ -118,19 +111,19 @@ Adobe Campaign은 개별 메시지가 전달되었는지 여부부터 워크플�
 
 감사 추적은 Campaign 클라이언트 콘솔을 통해 액세스할 수 있으며 사용자가 수행한 작업에 대한 자세한 정보를 제공합니다.
 
-[감사 추적](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/audit-trail)에 대해 자세히 알아보기
+[감사 추적](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail)에 대해 자세히 알아보기
 
 ### 성능 모니터링 {#performance-monitoring}
 
 Campaign v8은 인스턴스 성능을 추적하고 최적의 작업을 보장하는 몇 가지 모니터링 기능을 제공합니다.
 
-**데이터베이스 모니터링** - Campaign 컨트롤 패널을 통해 데이터베이스 사용량 및 용량을 모니터링하여 최적의 성능과 저장소 관리를 보장합니다. [데이터베이스 모니터링에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring#_blank)
+**데이터베이스 모니터링** - Campaign 컨트롤 패널을 통해 데이터베이스 사용량 및 용량을 모니터링하여 최적의 성능과 저장소 관리를 보장합니다. [데이터베이스 모니터링에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring#_blank)
 
-**활성 프로필 모니터링** - 계약 제한에 대해 활성 프로필 사용을 추적하여 규정 준수를 유지하고 리소스 할당을 최적화합니다. [활성 프로필에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/control-panel/using/performance-monitoring/active-profiles-monitoring#_blank)
+**활성 프로필 모니터링** - 계약 제한에 대해 활성 프로필 사용을 추적하여 규정 준수를 유지하고 리소스 할당을 최적화합니다. [활성 프로필에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/active-profiles-monitoring#_blank)
 
 **워크플로 모니터링** - 워크플로 실행 상태를 모니터링하여 오래 실행되는 워크플로를 식별하고 모든 기술 워크플로가 올바르게 실행되는지 확인합니다. [기술 워크플로우에 대해 자세히 알아보기](#technical-workflows)
 
-**게재 처리량 및 대기 시간** - Campaign 컨트롤 패널을 통한 트랜잭션 통신에 대한 게재 처리량(시간당 전송된 메시지) 및 대기 시간을 추적합니다. [처리량 모니터링에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/control-panel/using/performance-monitoring/throughputs-latencies#_blank)
+**게재 처리량 및 대기 시간** - Campaign 컨트롤 패널을 통한 트랜잭션 통신에 대한 게재 처리량(시간당 전송된 메시지) 및 대기 시간을 추적합니다. [처리량 모니터링에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/throughputs-latencies#_blank)
 
 >[!NOTE]
 >
@@ -150,7 +143,7 @@ Adobe은 24/7 Campaign 네트워크의 모든 중요 네트워크 장비를 모�
 >
 >Adobe에서 수행한 일부 모니터링 작업이 **campaign-loginmonitor** 사용자 아래의 Campaign 로그에 나타납니다.
 
-Adobe의 내부 모니터링 외에 Campaign 클라이언트 콘솔 또는 [Campaign Campaign 컨트롤 패널](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/permissions/self-service)를 통해 직접 모니터링 기능에 액세스할 수 있습니다. Campaign 컨트롤 패널을 사용하면 인스턴스에 대한 실시간 경고를 구독하고 식별된 인시던트에 대한 권장 수정 단계를 받을 수 있습니다(예: 만료가 임박한 SSL 인증서).
+Adobe의 내부 모니터링 외에 Campaign 클라이언트 콘솔 또는 [Campaign Campaign 컨트롤 패널](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/self-service)를 통해 직접 모니터링 기능에 액세스할 수 있습니다. Campaign 컨트롤 패널을 사용하면 인스턴스에 대한 실시간 경고를 구독하고 식별된 인시던트에 대한 권장 수정 단계를 받을 수 있습니다(예: 만료가 임박한 SSL 인증서).
 
 **분류 모니터링**
 
@@ -198,7 +191,7 @@ Adobe은 다음 세 가지 계층에 걸쳐 환경을 모니터링합니다.
 | **게재 기능 업데이트** | 게재 가능성 규칙 및 스팸 필터 패턴 업데이트 | 규칙이 부실 해지고 필터링 정확성이 저하될 수 있습니다. |
 | **데이터베이스 정리** | 이전 게재 및 추적 로그 제거 | 로그 축적은 시간이 지남에 따라 쿼리 및 보고를 느리게 합니다. |
 
-[기술 워크플로우](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows#_blank)에 대해 자세히 알아보기
+[기술 워크플로우](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows#_blank)에 대해 자세히 알아보기
 
 ### Campaign 컨트롤 패널 {#control-panel}
 
@@ -210,7 +203,7 @@ Campaign Campaign 컨트롤 패널은 관리자가 Campaign 인스턴스를 모�
 | **인프라** | SFTP 스토리지 용량 모니터링, 하위 도메인 구성 추적, SSL 인증서 만료 모니터링, IP 허용 목록 관리 |
 | **인스턴스** | 빌드 버전 및 설치된 패키지 보기, 시스템 구성 모니터링, 승인된 외부 도메인 관리 |
 
-[Campaign 컨트롤 패널](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/permissions/self-service) 및 [Campaign 컨트롤 패널 성능 모니터링](https://experienceleague.adobe.com/ko/docs/control-panel/using/performance-monitoring/about-performance-monitoring#_blank)에 대해 자세히 알아보기
+[Campaign 컨트롤 패널](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/self-service) 및 [Campaign 컨트롤 패널 성능 모니터링](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/about-performance-monitoring#_blank)에 대해 자세히 알아보기
 
 >[!NOTE]
 >
@@ -238,7 +231,7 @@ Adobe Campaign은 게재 성과를 분석할 수 있는 포괄적인 보고서 �
 - **URL 및 클릭 스트림**: 게재에서 가장 많이 사용되는 링크
 - **핫 클릭**: 받는 사람이 전자 메일을 클릭한 위치를 시각적으로 표시합니다.
 
-[게재 보고서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports)에 대해 자세히 알아보기
+[게재 보고서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports)에 대해 자세히 알아보기
 
 ### 전반적 보고서 {#global-reports}
 
@@ -248,11 +241,11 @@ Adobe Campaign은 게재 성과를 분석할 수 있는 포괄적인 보고서 �
 - **게재 불가 및 바운스**: 실패한 게재 분석
 - **사용자 활동**: 모든 캠페인에서 열기, 클릭, 구독 취소
 
-[글로벌 보고서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports)에 대해 자세히 알아보기
+[글로벌 보고서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports)에 대해 자세히 알아보기
 
 ## 관련 항목 {#related-topics}
 
-- [게재 모범 사례](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/delivery-best-practices)
-- [격리 관리](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/monitor/quarantines)
-- [게재 구성 및 보내기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/validate/configure-and-send)
-- [보고 시작](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/reports/gs-reporting)
+- [게재 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-best-practices)
+- [격리 관리](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines)
+- [게재 구성 및 보내기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/validate/configure-and-send)
+- [보고 시작](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting)

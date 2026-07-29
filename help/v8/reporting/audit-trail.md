@@ -5,14 +5,9 @@ description: Campaign 감사 추적을 사용하여 인스턴스를 모니터링
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 6a937575-42d4-4dc5-8168-43c25bb2cde6
 TQID: https://experienceleague.adobe.com/0a5LrtW8EomSlw-mLwLTplBpEPovWLC-sXFdoSQYhV0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 626
@@ -37,14 +32,14 @@ Adobe Campaign의 **[!UICONTROL Audit trail]** 기능은 인스턴스 내의 중
 
 * **워크플로 감사 추적**&#x200B;은(는) 다음을 포함하여 워크플로와 관련된 모든 작업을 추적합니다.
 
-   * 시작
-   * 일시 정지
-   * 정지
-   * 다시 시작
-   * 정리 - 작업 삭제 내역에 해당합니다.
-   * 시뮬레이션 모드에서 시작 작업과 동일한 시뮬레이션
-   * 지금 대기 중인 작업 실행 작업과 동일한 절전 모드 해제
-   * 무조건 정지
+  * 시작
+  * 일시 정지
+  * 정지
+  * 다시 시작
+  * 정리 - 작업 삭제 내역에 해당합니다.
+  * 시뮬레이션 모드에서 시작 작업과 동일한 시뮬레이션
+  * 지금 대기 중인 작업 실행 작업과 동일한 절전 모드 해제
+  * 무조건 정지
 
   워크플로우에 대한 자세한 내용은 이 [페이지](../../automation/workflow/about-workflows.md)를 참조하세요.
 
@@ -52,7 +47,7 @@ Adobe Campaign의 **[!UICONTROL Audit trail]** 기능은 인스턴스 내의 중
 
 * **옵션 감사 추적**&#x200B;을 통해 활동 및 옵션에 대한 마지막 수정 사항을 확인할 수 있습니다.
 
-  옵션에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)를 참조하세요.
+  옵션에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)를 참조하세요.
 
 * **게재 감사 추적**&#x200B;을 통해 활동 및 게재에 대한 마지막 수정 사항을 확인할 수 있습니다.
 

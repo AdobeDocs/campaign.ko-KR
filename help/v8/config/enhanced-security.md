@@ -6,13 +6,9 @@ role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
 TQID: https://experienceleague.adobe.com/33R4OS8KQrMdktwwbwMUHJe5YG9gZbasiDwrcADS4f4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 801
@@ -56,7 +52,7 @@ Campaign과 CMK 통합을 사용하려면 아래 단계를 따르십시오.
 
 1. [Amazon Web Services(AWS)](https://aws.amazon.com/){target="_blank"} 계정에 연결합니다.
 
-1. AWS KMS(키 관리 서비스)를 사용하여 자동 순환이 설정된 키를 생성합니다. [방법을 알아보세요](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}.
+1. KMS(AWS Key Management Service)를 사용하여 자동 순환이 설정된 키를 생성합니다. [방법을 알아보세요](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}.
 
 1. 리소스에 대한 액세스 권한을 부여하려면 Adobe에서 제공한 정책을 AWS 계정에 적용하십시오. [자세히 알아보기](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}. <!--link TBC-->
 
@@ -71,7 +67,7 @@ Adobe Campaign v8과 CMK 통합에는 다음과 같은 보호 기능 및 제한 
 
 * Adobe은 [Amazon Web Services(AWS)](https://aws.amazon.com/){target="_blank"} 계정을 제공하지 않습니다. 자신의 AWS 계정이 있어야 하며, 이 계정을 설정하여 Adobe에서 키를 생성하고 공유해야 합니다.
 
-* [AWS 키 관리 서비스](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"}(KMS) 키만 지원됩니다. KMS 외부의 고객 생성 키를 사용할 수 없습니다&#x200B;.
+* [AWS Key Management Service](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"}(KMS) 키만 지원됩니다. KMS 외부의 고객 생성 키를 사용할 수 없습니다&#x200B;.
 
 * 다운타임은 처음 설치하는 동안 예상됩니다. 다운타임 기간&#x200B;은 데이터베이스의 크기에 따라 다릅니다.
 

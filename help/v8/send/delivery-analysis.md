@@ -6,15 +6,10 @@ role: User
 level: Beginner
 exl-id: 1526048d-9f02-4853-948f-8fb618670dbd
 TQID: https://experienceleague.adobe.com/A1EyDmVc2Y7okJFeFT7lsckZm8-IFDD-XFIqpb-Q7v8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 693
@@ -94,9 +89,9 @@ ht-degree: 5%
 
   다음 승인 모드를 사용할 수 있습니다.
 
-   * **[!UICONTROL Manual]**: 분석 단계가 끝날 때 사용자는 전송을 확인해야 전송을 시작할 수 있습니다. 이렇게 하려면 **[!UICONTROL Start]** 단추를 클릭하여 게재를 시작합니다.
-   * **[!UICONTROL Semi-automatic]**: 분석 단계에서 경고 메시지가 생성되지 않으면 전송이 자동으로 시작됩니다.
-   * **[!UICONTROL Automatic]**: 결과에 관계없이 분석 단계가 끝날 때 전송이 자동으로 시작됩니다.
+  * **[!UICONTROL Manual]**: 분석 단계가 끝날 때 사용자는 전송을 확인해야 전송을 시작할 수 있습니다. 이렇게 하려면 **[!UICONTROL Start]** 단추를 클릭하여 게재를 시작합니다.
+  * **[!UICONTROL Semi-automatic]**: 분석 단계에서 경고 메시지가 생성되지 않으면 전송이 자동으로 시작됩니다.
+  * **[!UICONTROL Automatic]**: 결과에 관계없이 분석 단계가 끝날 때 전송이 자동으로 시작됩니다.
 
 * **[!UICONTROL Start job in a detached process]**: 이 옵션을 사용하면 배달 분석을 별도의 프로세스에서 시작할 수 있습니다. 분석 함수는 기본적으로 Adobe Campaign 애플리케이션 서버 프로세스(web nlserver)를 사용합니다. 이 옵션을 선택하면 애플리케이션 서버에 장애가 발생하더라도 분석이 완료됩니다.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]**: 이 옵션은 분석 단계 동안 SQL 쿼리 로그를 게재 저널에 추가합니다.

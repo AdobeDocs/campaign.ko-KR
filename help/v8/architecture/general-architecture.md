@@ -6,28 +6,12 @@ role: Admin, Developer
 level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 TQID: https://experienceleague.adobe.com/j8EwT2TAYvpavC-CrlayZpNsgBhMc-bUrr1OR1s5bzw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
-  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-  - id: ede6e1ec-9279-415e-b828-a09735018d48
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: d7be2b01-dc9c-40f7-aace-a151707504edid: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: ede6e1ec-9279-415e-b828-a09735018d48
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1163
@@ -75,9 +59,9 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 
 * **워크플로 엔진**(nlserver wfserver) - 이 프로세스는 응용 프로그램에 정의된 워크플로 프로세스를 실행합니다. 또한 다음을 포함하여 주기적으로 실행되는 기술 워크플로우도 처리합니다.
 
-   * **추적**: 리디렉션 서버에서 로그를 검색하고 보고 모듈에서 사용하는 집계 지표를 만들 수 있도록 추적 로그를 복구하고 통합합니다.
-   * **정리**: 데이터베이스를 정리하고 이전 레코드를 지우고 데이터베이스가 기하급수적으로 증가하지 않도록 합니다.
-   * **청구**: 플랫폼에 대한 활동 보고서(데이터베이스 크기, 마케팅 작업 수 등)를 보냅니다.
+  * **추적**: 리디렉션 서버에서 로그를 검색하고 보고 모듈에서 사용하는 집계 지표를 만들 수 있도록 추적 로그를 복구하고 통합합니다.
+  * **정리**: 데이터베이스를 정리하고 이전 레코드를 지우고 데이터베이스가 기하급수적으로 증가하지 않도록 합니다.
+  * **청구**: 플랫폼에 대한 활동 보고서(데이터베이스 크기, 마케팅 작업 수 등)를 보냅니다.
 
 * **게재 서버**(nlserver mta) - Adobe Campaign에는 기본 전자 메일 브로드캐스트 기능이 있습니다. 이 프로세스는 SMTP 메일 전송 에이전트(MTA)로 작동합니다. 메시지의 &quot;일대일&quot; 개인화를 수행하고 실제 게재를 처리합니다. 게재 작업을 사용하여 실행되고 자동 재시도를 처리합니다. 또한 추적이 활성화되면 리디렉션 서버를 가리키도록 URL이 자동으로 바뀝니다. 이 프로세스는 사용자 지정 및 SMS, 팩스 및 DM용 서드파티 라우터로의 자동 전송을 처리할 수 있습니다.
 
@@ -121,4 +105,4 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 
 총 저장 용량은 기본 데이터베이스와 (선택 사항) Snowflake 보조 데이터베이스 간에 분할됩니다. 데이터가 저장되는 위치는 고객별 사용 사례에 따라 구현 또는 업그레이드 시 결정되어야 합니다.
 
-데이터베이스 사용량을 모니터링하는 방법은 [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=ko){target="_blank"}를 참조하세요.
+데이터베이스 사용량을 모니터링하는 방법은 [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}를 참조하세요.

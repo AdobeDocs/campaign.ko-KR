@@ -7,13 +7,9 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: f4a329e3-70d2-43cd-a04a-0bbd5e3ca390
 TQID: https://experienceleague.adobe.com/qfSKBHeQUkAYJb-PSeTxYMxGp-WicmITitT9qh8tHBs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 430
@@ -68,8 +64,8 @@ Adobe Campaign을 사용하면 LibreOffice 또는 Microsoft Word 문서의 이�
 
   개인화 블록 내에서 두 가지 유형의 선언을 구별해야 합니다.
 
-   * &quot;열기&quot; 및 &quot;닫힘&quot; V자형 화살표가 이스케이프 문자로 바뀌어야 하는 개인화 필드의 Adobe Campaign 코드(각각 `&lt;` 및 `&gt;`)입니다.
-   * 전체 OpenOffice XML 코드는 OpenOffice 문서에 복사됩니다.
+  * &quot;열기&quot; 및 &quot;닫힘&quot; V자형 화살표가 이스케이프 문자로 바뀌어야 하는 개인화 필드의 Adobe Campaign 코드(각각 `&lt;` 및 `&gt;`)입니다.
+  * 전체 OpenOffice XML 코드는 OpenOffice 문서에 복사됩니다.
 
 이 예에서 개인화 블록은 다음과 같습니다.
 

@@ -8,13 +8,9 @@ role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
 TQID: https://experienceleague.adobe.com/VHBQEKUthZcW2WrbNjmlIC7FzJFDqX0PykJg95sM-WI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1143
@@ -73,14 +69,14 @@ ht-degree: 0%
   이 작업은 중지된 후 워크플로우를 다시 시작합니다. 대부분의 경우 이를 통해 보다 빠르게 다시 시작할 수 있습니다. 중지하는 데 일정 시간이 걸리는 경우 다시 시작을 자동화하는 것도 유용합니다. 워크플로우를 중지하는 동안에는 &#39;중지&#39; 명령을 사용할 수 없기 때문입니다.
 
   **다시 시작** 작업은 **실행**, **중지** 및 **시작** 작업과 비교하여 워크플로 인스턴스 변수를 지우지 않습니다(시작 작업 시 발생하는 인스턴스 변수 지우기). 워크플로우를 다시 시작할 때 인스턴스 변수를 보존된 값과 함께 사용할 수 있습니다. 이를 지우려면 다음 중 하나를 수행합니다.
-   * **중지** 및 **시작** 작업을 수행합니다.
-   * 워크플로우 실행이 끝나면 아래 javascript 코드를 추가합니다.
+  * **중지** 및 **시작** 작업을 수행합니다.
+  * 워크플로우 실행이 끝나면 아래 javascript 코드를 추가합니다.
 
-     ```
-     var wkf = xtk.workflow.load(instance.id)
-     wkf.variables='<variables/>'
-     wkf.save()
-     ```
+    ```
+    var wkf = xtk.workflow.load(instance.id)
+    wkf.variables='<variables/>'
+    wkf.save()
+    ```
 
 * **[!UICONTROL Purge history]**
 
@@ -110,9 +106,9 @@ ht-degree: 0%
 
   워크플로우가 일시 중지된 상태가 되지 않도록 하려면 다음 작업을 수행하십시오.
 
-   * 예기치 않은 오류가 없는지 정기적으로 워크플로우를 확인하십시오.
-   * 대규모 워크플로우를 여러 다른 워크플로우로 분할하는 등 가능한 한 워크플로우를 단순하게 유지합니다. **[!UICONTROL External signal]** 활동을 사용하면 다른 워크플로우의 실행에 따라 실행을 트리거할 수 있습니다.
-   * 워크플로우에서 흐름이 있는 활동을 비활성화하여 스레드를 열어 두고 많은 공간을 사용할 수 있는 많은 임시 테이블로 이어지지 않도록 하십시오. 워크플로우에 **[!UICONTROL Do not enable]** 또는 **[!UICONTROL Enable but do not execute]** 상태의 활동을 유지하지 마십시오.
+  * 예기치 않은 오류가 없는지 정기적으로 워크플로우를 확인하십시오.
+  * 대규모 워크플로우를 여러 다른 워크플로우로 분할하는 등 가능한 한 워크플로우를 단순하게 유지합니다. **[!UICONTROL External signal]** 활동을 사용하면 다른 워크플로우의 실행에 따라 실행을 트리거할 수 있습니다.
+  * 워크플로우에서 흐름이 있는 활동을 비활성화하여 스레드를 열어 두고 많은 공간을 사용할 수 있는 많은 임시 테이블로 이어지지 않도록 하십시오. 워크플로우에 **[!UICONTROL Do not enable]** 또는 **[!UICONTROL Enable but do not execute]** 상태의 활동을 유지하지 마십시오.
 
 * **사용하지 않는 워크플로 중지**. 계속 실행되는 워크플로우는 데이터베이스에 대한 연결을 유지합니다.
 
