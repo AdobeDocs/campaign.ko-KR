@@ -260,6 +260,6 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 이 비디오에서는 캠페인에 컨트롤 그룹을 추가하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3446925?captions=kor&quality=12)
 
 추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ko){target="_blank"}에서 사용할 수 있습니다.
