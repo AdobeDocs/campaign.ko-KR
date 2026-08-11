@@ -99,7 +99,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 1. 이메일 캠페인의 영향을 측정하는 데 필요한 식별자, 즉, 내부 캠페인 이름(cid) 및 iNmsBroadlog(bid) 테이블 ID를 만들려면 **[!UICONTROL Add new]**&#x200B;를 클릭합니다.
 
-   **[!UICONTROL Conversion variables]**&#x200B;을(를) 편집하는 방법에 대해 알아보려면 이 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools){target="_blank"}를 참조하세요.
+   **[!UICONTROL Conversion variables]**&#x200B;을(를) 편집하는 방법에 대해 알아보려면 이 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=ko#admin-tools){target="_blank"}를 참조하세요.
 
    ![](assets/analytics_connnector_6.png)
 
@@ -122,7 +122,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   **[!UICONTROL Success events]**&#x200B;을(를) 구성하는 방법에 대해 알아보려면 이 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html)를 참조하세요.
+   **[!UICONTROL Success events]**&#x200B;을(를) 구성하는 방법에 대해 알아보려면 이 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html?lang=ko)를 참조하세요.
 
    ![](assets/analytics_connnector_8.png)
 
@@ -149,7 +149,7 @@ Adobe Analytics 2.0 API로 마이그레이션했으므로 Campaign에서 외부 
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-분류 세트에 대한 자세한 내용은 [Adobe Analytics 설명서](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}를 참조하세요.
+분류 세트에 대한 자세한 내용은 [Adobe Analytics 설명서](https://experienceleague.adobe.com/ko/docs/analytics/components/classifications/sets/create-set){target="_blank"}를 참조하세요.
 
 보고서 세트, 전환 변수, 성공 이벤트 및 분류 세트가 구성되면 Adobe Campaign에서 **[!UICONTROL External accounts]**&#x200B;을(를) 구성해야 합니다.
 
@@ -159,7 +159,7 @@ Adobe Analytics 2.0 API로 마이그레이션했으므로 Campaign에서 외부 
 
 외부 계정을 구성할 때 **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** 또는 **[!UICONTROL Success events]** 중 하나가 표시되지 않으면 사용자와 연결된 **[!UICONTROL Product profile]**&#x200B;에서 새로 만든 이 구성 요소에 대한 권한이 누락되었음을 의미합니다.
 
-자세한 내용은 [Adobe Analytics용 제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins){target="_blank"} 페이지를 참조하십시오.
+자세한 내용은 [Adobe Analytics용 제품 프로필](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ko#product-profile-admins){target="_blank"} 페이지를 참조하십시오.
 
 1. Adobe Campaign 탐색기 트리의 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** 폴더로 이동한 다음 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
@@ -183,7 +183,7 @@ Adobe Analytics 2.0 API로 마이그레이션했으므로 Campaign에서 외부 
 
    >[!NOTE]
    >
-   >Campaign ID 및 Broadload ID 필드는 랜딩 페이지의 JavaScript 또는 처리 규칙을 통해 수집됩니다. [처리 규칙에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >Campaign ID 및 Broadload ID 필드는 랜딩 페이지의 JavaScript 또는 처리 규칙을 통해 수집됩니다. [처리 규칙에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 
