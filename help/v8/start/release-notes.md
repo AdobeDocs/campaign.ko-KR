@@ -4,25 +4,33 @@ description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 TQID: https://experienceleague.adobe.com/Zdo52RLQFbxlRNgE54yLDn3yAMmmOqxKyRhnCJa0Xwg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ffeb9430b382b598af412555b1b0a6ff42bc68d0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
 workflow-type: tm+mt
-source-wordcount: 1747
-ht-degree: 6%
+source-wordcount: 1984
+ht-degree: 5%
 
 ---
 
 # 최신 릴리스 {#latest-release}
 
 이 페이지에는 Campaign v8(콘솔) **최신 릴리스**&#x200B;에 포함된 새로운 기능, 개선 사항 및 수정 사항이 나와 있습니다. Campaign 릴리스와 버전, 업그레이드에 대한 자세한 내용은 [이 페이지](upgrades.md)에서 알아보세요. 다른 릴리스는 이 설명서의 이전 릴리스 섹션에 나열되어 있습니다.
+
+## 릴리스 8.9.3 {#release-8-9-3}
+
+_2026년 8월 11일_
+
+이 릴리스에는 Adobe Analytics 커넥터를 Analytics 2.0 API로 업그레이드하는 것을 포함하여 몇 가지 제품 개선 사항 및 보안 수정 사항이 포함되어 있습니다.
+
+>[!NOTE]
+>
+> **[!UICONTROL Help > About...]** [메뉴](upgrades.md#version)(으)로 이동하여 빌드 9835 이상이 있는지 확인합니다.
+
+### Adobe Analytics 커넥터가 Analytics 2.0 API로 업그레이드됨 {#analytics-2-0-8-9-3}
+
+Adobe Analytics 1.4 API는 [수명이 종료됩니다](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}. 따라서 캠페인 지표와 분류 데이터를 Adobe Analytics으로 보내고 리마케팅 흐름을 지원하며 새 보고서 세트를 구성하는 데 사용되는 [Web Analytics 커넥터](../connect/ac-aa.md)가 이 릴리스의 일부로 Analytics 2.0 API로 업그레이드되었습니다. 호스팅된 Adobe은 이 마이그레이션을 알아서 처리하므로 별도의 구성이 필요하지 않습니다. 업그레이드는 커넥터(**[!UICONTROL webAnalyticsSendMetrics]** 및 **[!UICONTROL webAnalyticsGetWebEvents]**)를 구동하는 기본 제공 기술 워크플로를 다시 가져오고 기본 제공 Analytics JavaScript 파일을 업데이트하므로 이러한 워크플로 또는 이러한 파일을 참조하는 기본 제공 사용자 지정 워크플로 중 하나를 사용자 지정한 경우 업그레이드 후 해당 사용자 지정을 다시 적용하고 조정하십시오. 그렇지 않으면 덮어쓰거나 중단됩니다. 기본 제공 워크플로우를 직접 수정하지 않는 것이 좋습니다. 대신 별도의 사용자 지정 워크플로우에서 사용자 지정을 빌드하여 향후 업그레이드를 통해 덮어쓰지 않습니다. 업그레이드가 완료되면 의존하는 Adobe Analytics 사용 사례(해당되는 경우 지표 내보내기, 분류 내보내기 및 리마케팅)를 확인하여 데이터가 예상대로 계속 흘러가는지를 확인합니다.
 
 ## 릴리스 8.9.2 {#release-8-9-2}
 
@@ -115,14 +123,14 @@ _2026년 1월 27일_
 
 이 릴리스에는 Campaign 웹 사용자 인터페이스에서 사용할 수 있는 기능 집합이 포함되어 있습니다.
 
-* [다국어 게재 기능(GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ko){target="_blank"}
-* [트랜잭션 메시지(GA)의 프로필 보강](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ko){target="_blank"}
-* [Adobe Experience Manager 라이브 및 언어 사본](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=ko){target="_blank"}
-* [콘텐츠 실험 - A/B 테스트](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=ko){target="_blank"}
-* [연속 게재 활동](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=ko){target="_blank"}
-* [캠페인 승인 관리](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=ko){target="_blank"}
+* [다국어 게재 기능(GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [트랜잭션 메시지(GA)의 프로필 보강](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager 라이브 및 언어 사본](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [콘텐츠 실험 - A/B 테스트](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [연속 게재 활동](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [캠페인 승인 관리](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
-Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko){target="_blank"}를 참조하세요.
+Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}를 참조하세요.
 
 ### 보안 개선 사항 {#security-8-9-1}
 
