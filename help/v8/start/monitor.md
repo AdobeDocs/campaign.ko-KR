@@ -6,11 +6,18 @@ role: User
 level: Beginner
 exl-id: 2ad585f2-19bc-4391-8a19-9e892dbe01a3
 TQID: https://experienceleague.adobe.com/PjU1EFX5x4iB3yRsShGBWoR0k1D2-EI90-ss0FTcexE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
 workflow-type: tm+mt
 source-wordcount: 2206
@@ -32,7 +39,7 @@ Adobe Campaign은 개별 메시지가 전달되었는지 여부부터 워크플�
 >
 >- 마케터가 캠페인 → [게재 모니터링](#monitor-deliveries)을 확인합니다.
 >- 워크플로우 문제 해결 →[워크플로우 모니터링](#monitor-workflows)
->- 관리자가 인스턴스 상태를 확인하고 →0}인스턴스 모니터링](#monitor-instance)[
+>- 관리자가 인스턴스 상태를 확인하고 →0&rbrace;인스턴스 모니터링[&#128279;](#monitor-instance)
 
 ## 게재 모니터링 {#monitor-deliveries}
 
@@ -40,7 +47,7 @@ Adobe Campaign은 개별 메시지가 전달되었는지 여부부터 워크플�
 
 >[!NOTE]
 >
->Campaign을 처음 사용하십니까?****&#x200B;게재 대시보드는 일상적인 화면입니다. 보낸 게재를 열고 **로그** 탭을 클릭하면 메시지를 받은 수신자, 제외된 이유, 클릭하거나 연 사람을 확인할 수 있습니다.
+>Campaign을 처음 사용하십니까?**&#x200B;**&#x200B;게재 대시보드는 일상적인 화면입니다. 보낸 게재를 열고 **로그** 탭을 클릭하면 메시지를 받은 수신자, 제외된 이유, 클릭하거나 연 사람을 확인할 수 있습니다.
 
 **전자 메일 게재** - 전자 메일 게재 상태를 모니터링하고, 주요 지표를 추적하고, 자세한 로그에 액세스합니다. [Campaign UI에서 게재 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard), [게재 상태](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses) 및 [이메일 게재 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/send#email-monitoring)에 대해 자세히 알아보세요.
 
