@@ -18,10 +18,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 63%
+source-wordcount: 1595
+ht-degree: 56%
 
 ---
 
@@ -52,6 +52,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 1. [Adobe Analytics에서 보고서 세트 만들기](#report-suite-analytics)
 1. [전환 변수 및 성공 이벤트 구성](#configure-conversion-success)
+1. [분류 세트 만들기](#create-classification-set)
 1. [Adobe Campaign에서 외부 계정 구성](#external-account-ac)
 
 ## Analytics 보고서 세트 만들기 {#report-suite-analytics}
@@ -127,7 +128,30 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 1. 완료하면 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
-보고서 세트가 구성되면 Adobe Campaign에서 **[!UICONTROL External accounts]**&#x200B;을(를) 구성해야 합니다.
+## 분류 세트 만들기 {#create-classification-set}
+
+Adobe Analytics 2.0 API로 마이그레이션했으므로 Campaign에서 외부 계정을 구성하기 전에 Adobe Analytics에서 **[!UICONTROL Classification set]**&#x200B;을(를) 만들어야 합니다. 이 분류 세트는 방금 만든 전환 변수(내부 캠페인 이름)를 보고서 세트에 연결하므로 다음 단계에서 외부 계정을 구성할 때 Campaign에서 자동으로 검색하여 사용할 수 있습니다.
+
+분류 세트를 만들려면:
+
+1. [!DNL Adobe Analytics] 상단 메뉴 모음에서 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**&#x200B;을(를) 선택한 다음 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
+
+   ![](assets/analytics_connnector_16.png)
+
+1. **[!UICONTROL Add New Classification Set]** 대화 상자에서:
+
+   ![](assets/analytics_connnector_17.png)
+
+   * 분류 집합에 대한 **[!UICONTROL Name]**&#x200B;을(를) 입력하십시오.
+   * **[!UICONTROL Type]**&#x200B;을(를) **[!UICONTROL Primary]**(으)로 설정합니다.
+   * **[!UICONTROL Job notifications]**&#x200B;에서 분류 세트 작업의 성공 또는 실패에 대한 알림을 받을 사용자를 선택하고 해당 전자 메일 주소를 제공합니다.
+   * **[!UICONTROL Subscriptions]**&#x200B;에서 이전 단계에서 내부 캠페인 이름에 대해 만든 보고서 세트와 전환 변수를 선택합니다.
+
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+
+분류 세트에 대한 자세한 내용은 [Adobe Analytics 설명서](https://experienceleague.adobe.com/ko/docs/analytics/components/classifications/sets/create-set){target="_blank"}를 참조하세요.
+
+보고서 세트, 전환 변수, 성공 이벤트 및 분류 세트가 구성되면 Adobe Campaign에서 **[!UICONTROL External accounts]**&#x200B;을(를) 구성해야 합니다.
 
 ## Campaign 외부 계정 구성 {#external-account-ac}
 
