@@ -7,9 +7,9 @@ level: Beginner
 keywords: FAQ, Campaign v8, 질문, 답변, 도움말, 지원, 문제 해결
 version: Campaign v8
 exl-id: 8b4f6343-5dc5-4401-ad6f-9c1ddbb23168
-source-git-commit: da2274cfd19bb067fcc1e990360093f161d5638a
+source-git-commit: d25c5a40af9ac0594301f46f09a4cc07a8e1945e
 workflow-type: tm+mt
-source-wordcount: '11573'
+source-wordcount: '11541'
 ht-degree: 9%
 
 ---
@@ -147,12 +147,6 @@ Campaign v8에서 첫 번째 이메일을 만드는 것은 간단합니다. 템�
 **관련 항목:**
 
 [전자 메일 디자인 및 유효성 검사](../send/email.md) | [첫 번째 게재 만들기](create-message.md) | [게재 템플릿](../send/create-templates.md) | [콘텐츠 개인화](../send/personalize.md)
-
-+++
-
-+++ 오류 메시지를 번역하는 방법
-
-외국어로 오류 메시지가 표시됩니까? 모든 오류 메시지와 해당 번역이 [이 페이지](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko){target="_blank"}에 나열됩니다.
 
 +++
 
