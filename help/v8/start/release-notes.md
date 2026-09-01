@@ -4,19 +4,13 @@ description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 TQID: https://experienceleague.adobe.com/Zdo52RLQFbxlRNgE54yLDn3yAMmmOqxKyRhnCJa0Xwg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 7e14d410aba444e792a24c99a843f122a8fcedc6
 workflow-type: tm+mt
-source-wordcount: 1984
-ht-degree: 5%
+source-wordcount: 1998
+ht-degree: 6%
 
 ---
 
@@ -28,15 +22,21 @@ ht-degree: 5%
 
 _2026년 8월 11일_
 
-이 릴리스에는 Adobe Analytics 커넥터를 Analytics 2.0 API로 업그레이드하는 것을 포함하여 몇 가지 제품 개선 사항 및 보안 수정 사항이 포함되어 있습니다.
+<!-- CONFIRM: is a client console upgrade required for 8.9.3? If yes, add the >[!CAUTION] notice used in 8.9.2/8.9.1. If no, add an explicit one-line "no console upgrade required for this release" statement so the absence reads as intentional. -->
 
->[!NOTE]
->
-> **[!UICONTROL Help > About...]** [메뉴](upgrades.md#version)(으)로 이동하여 빌드 9835 이상이 있는지 확인합니다.
+### 보안 개선 사항 {#security-8-9-3}
+
+이 릴리스에는 Campaign 환경의 전체 보안 상태를 강화하는 보안 수정 사항이 포함되어 있습니다. 호스팅된 Adobe은 이러한 수정 사항을 업그레이드의 일부로 적용하므로 별도의 작업이 필요하지 않습니다.
 
 ### Adobe Analytics 커넥터가 Analytics 2.0 API로 업그레이드됨 {#analytics-2-0-8-9-3}
 
-Adobe Analytics 1.4 API는 [수명이 종료됩니다](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}. 따라서 캠페인 지표와 분류 데이터를 Adobe Analytics으로 보내고 리마케팅 흐름을 지원하며 새 보고서 세트를 구성하는 데 사용되는 [Web Analytics 커넥터](../connect/ac-aa.md)가 이 릴리스의 일부로 Analytics 2.0 API로 업그레이드되었습니다. 호스팅된 Adobe은 이 마이그레이션을 알아서 처리하므로 별도의 구성이 필요하지 않습니다. 업그레이드는 커넥터(**[!UICONTROL webAnalyticsSendMetrics]** 및 **[!UICONTROL webAnalyticsGetWebEvents]**)를 구동하는 기본 제공 기술 워크플로를 다시 가져오고 기본 제공 Analytics JavaScript 파일을 업데이트하므로 이러한 워크플로 또는 이러한 파일을 참조하는 기본 제공 사용자 지정 워크플로 중 하나를 사용자 지정한 경우 업그레이드 후 해당 사용자 지정을 다시 적용하고 조정하십시오. 그렇지 않으면 덮어쓰거나 중단됩니다. 기본 제공 워크플로우를 직접 수정하지 않는 것이 좋습니다. 대신 별도의 사용자 지정 워크플로우에서 사용자 지정을 빌드하여 향후 업그레이드를 통해 덮어쓰지 않습니다. 업그레이드가 완료되면 의존하는 Adobe Analytics 사용 사례(해당되는 경우 지표 내보내기, 분류 내보내기 및 리마케팅)를 확인하여 데이터가 예상대로 계속 흘러가는지를 확인합니다.
+Adobe Analytics 1.4 API가 [수명이 종료됨](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}이므로 이 릴리스의 일부로 [Web Analytics 커넥터](../connect/ac-aa.md)가 Analytics 2.0 API로 업그레이드되었습니다. 호스팅된 Adobe은 이 마이그레이션을 알아서 처리하므로 별도의 구성이 필요하지 않습니다.
+
++++ Analytics 2.0 업그레이드에 대해 자세히 알아보기
+
+[Web Analytics 커넥터](../connect/ac-aa.md)는 캠페인 지표와 분류 데이터를 Adobe Analytics으로 보내고, 리마케팅 흐름을 지원하고, 새 보고서 세트를 구성하는 데 사용됩니다. 업그레이드는 커넥터(**[!UICONTROL webAnalyticsSendMetrics]** 및 **[!UICONTROL webAnalyticsGetWebEvents]**)를 구동하는 기본 제공 기술 워크플로를 다시 가져오고 기본 제공 Analytics JavaScript 파일을 업데이트하므로 이러한 워크플로 또는 이러한 파일을 참조하는 기본 제공 사용자 지정 워크플로 중 하나를 사용자 지정한 경우 업그레이드 후 해당 사용자 지정을 다시 적용하고 조정하십시오. 그렇지 않으면 덮어쓰거나 중단됩니다. 기본 제공 워크플로우를 직접 수정하지 않는 것이 좋습니다. 대신 별도의 사용자 지정 워크플로우에서 사용자 지정을 빌드하여 향후 업그레이드를 통해 덮어쓰지 않습니다. 업그레이드가 완료되면 의존하는 Adobe Analytics 사용 사례(해당되는 경우 지표 내보내기, 분류 내보내기 및 리마케팅)를 확인하여 데이터가 예상대로 계속 흘러가는지를 확인합니다.
+
++++
 
 ## 릴리스 8.9.2 {#release-8-9-2}
 
@@ -61,35 +61,17 @@ _2026년 5월 3일_
 * 잘못된 조정 키로 인해 Android 앱 등록 토큰에 대해 언어 필드가 캡처되지 않는 문제를 해결했습니다. (NEO-93100)
 * 압력 규칙이 있는 사용자 지정 유형화 규칙을 적용할 때 게재 준비가 실패하는 문제를 해결했습니다. (NEO-94457)
 * 클라이언트 콘솔에서 HTTP 요청 처리 오류가 발생하는 문제를 해결했습니다. (NEO-94071)
-
-<!-- BUILD 8.9.2.9829.9669833 -->
-
 * 이제 연결 로그 삽입 오류를 방지하기 위해 FDA 모니터링이 기본적으로 비활성화됩니다. (NEO-94841)
 * 오퍼 상환에 사용된 상호 작용 SOAP 호출이 네임스페이스 해결 오류와 함께 실패할 수 있는 문제를 해결했습니다. (NEO-94787)
-<!-- infra * Fixed an issue where Snowflake connections using private key authentication could fail on ARM64 architectures. (NEO-94350) -->
 * 길이가 1인 문자열 필드로 인해 PostgreSQL 17의 워크플로우 임시 테이블에서 SQL 오류가 발생할 수 있는 문제를 해결했습니다. (NEO-94487)
-<!-- linked to previous build * Fixed an issue where the server could fail to restart after a Debian 13 build upgrade due to a missing dependency. (NEO-94598) -->
-
-<!-- BUILD 8.9.2.9829.c90aa36 -->
-
 * 클라이언트 콘솔 및 웹 UI의 **미러 페이지 표시** 옵션이 &quot;잘못된 미러 페이지&quot; 오류를 반환할 수 있는 문제를 해결했습니다. (NEO-93303)
-
-<!-- BUILD 8.9.2.9830.4a6f868 -->
-
 * FFDA 배포에서 다중 변형 패키지를 설치한 후 기본 **추적** 기술 워크플로우가 실패할 수 있는 문제를 해결했습니다. (NEO-94972)
 * 게재 템플릿에서 현재 게재를 참조하는 가중치 공식을 사용한 경우 게재 준비가 대상에 수신자를 추가하지 못하는 문제를 수정했습니다. (NEO-94892)
-<!-- hotfix -->
 * 업그레이드 후 2개의 연속된 1-N 링크에서 조인을 사용하는 워크플로우 보강이 SQL 오류로 인해 실패할 수 있는 문제를 해결했습니다. (NEO-94893)
-
-<!-- BUILD 8.9.2.9831.f53d3d2 -->
-
 * 시간이 지남에 따라 과도한 메모리 소모가 발생할 수 있는 이메일 파이프라인의 문제를 해결했습니다. (NEO-95088)
 * 시드 또는 증명 주소가 사용된 경우 충돌하는 이메일 유형화 규칙이 중복되지 않은 수신자를 게재 대상에서 잘못 제외할 수 있는 문제를 해결했습니다. (NEO-95026)
 * 업그레이드 후 기본 제공 **오퍼 알림** 기술 워크플로우가 실패할 수 있는 문제를 해결했습니다. (NEO-95064)
 * 빌드 업그레이드 중 추적 워크플로우 오류를 방지하기 위해 다변형 패키지 설치 프로세스가 개선되었습니다. (NEO-95018)
-
-<!-- BUILD 8.9.2.9831.11d1c68 -->
-
 * 서버가 반복적으로 충돌하여 인스턴스가 중단되는 문제를 해결했습니다. (NEO-95304)
 * 추적 및 미러 페이지 링크가 게재를 로드하지 못하는 문제를 해결했습니다. (NEO-95239)
 * IMS Single Sign-On으로 보호되는 Campaign 웹 애플리케이션에 로그인할 때 리디렉션 루프가 발생할 수 있는 문제를 해결했습니다. (NEO-95188)
@@ -98,22 +80,10 @@ _2026년 5월 3일_
 * **목록 읽기** 활동이 미리 정의된 목록 템플릿을 워크플로우가 생성한 목록 구조로 덮어써서 다운스트림 워크플로우에서 오류가 발생하는 문제를 해결했습니다. (NEO-95103)
 * 대량 게재를 처리할 때 푸시 알림 피드백 처리로 인해 서버가 충돌하는 문제를 해결했습니다. (NEO-95150)
 * 스키마 탐색기에서 `xtk:workflow` 스키마에서 **데이터** 탭을 열면 오류 메시지가 트리거되는 문제가 해결되었습니다. (NEO-94923)
-<!-- hotfixes -->
 * **데이터 보강** 활동이 더 이상 업스트림 **하위 워크플로우** 활동에서 출력 특성을 검색할 수 없어 워크플로우가 실패하는 문제를 해결했습니다. (NEO-95151)
 * 게재 상태 업데이트를 방지하고 다운스트림 메시지 처리를 차단할 수 있는 추적 데이터 수집 문제를 해결했습니다. (NEO-94666)
 * 오퍼 제안과 관련된 특정 클라이언트 콘솔 작업이 Snowflake 데이터베이스에서 장기 실행 쿼리를 트리거하여 잠금 및 지연을 일으킬 수 있는 문제를 해결했습니다. (NEO-92936)
 * Snowflake 외부 계정에 암호화된 키를 저장하기 위한 사용자 지정 옵션을 구성할 수 없는 문제를 해결했습니다. (NEO-93302)
-
-<!-- 
-Internal/non-customer-facing:
-* Internal test automation task added to cover NEO-94893. (NEO-94990) — autotest only
-Customer-specific hotfixes:
-* Fixed an issue affecting WhatsApp delivery preparation. (NEO-92480) — HeroMotoCorp only
-* Added a feature-flagged optimization to use dynamic shared memory in Customer Targeting Audience (CTA) processing. (NEO-93542) — DerTour only
-* Fixed an issue where the delivery alerting workflow could fire incorrect "long start pending" notifications even when deliveries were sent within the configured threshold. (NEO-93434) — non-ZDT hotfix, NORC only
-* Added a new parameter in the mobile SDK to allow identification of the source instance for push notifications. (NEO-94650) — ICICI only
-* Fixed an issue with the custom send time feature on the Web UI where deliveries waited until the contact date and time to execute instead of executing at the equivalent local time per recipient timezone, breaking parity with Campaign Standard behavior. (NEO-94762) — H&M only (in progress at time of writing)
--->
 
 ## 릴리스 8.9.1 {#release-8-9-1}
 
@@ -123,27 +93,28 @@ _2026년 1월 27일_
 >
 > 클라이언트 콘솔 업그레이드는 필수입니다. 이 [페이지](../start/connect.md#upgrade-ac-console)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
 
-### 새로운 기능 {#new-8-9-1}
-
-**새 SMS 전송 커넥터**&#x200B;를 이제 모든 고객(GA)이 사용할 수 있습니다. [자세한 설명서](../send/sms/sms.md)를 참조하세요.
-
-이 릴리스에는 Campaign 웹 사용자 인터페이스에서 사용할 수 있는 기능 집합이 포함되어 있습니다.
-
-* [다국어 게재 기능(GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ko){target="_blank"}
-* [트랜잭션 메시지(GA)의 프로필 보강](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ko){target="_blank"}
-* [Adobe Experience Manager 라이브 및 언어 사본](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=ko){target="_blank"}
-* [콘텐츠 실험 - A/B 테스트](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=ko){target="_blank"}
-* [연속 게재 활동](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=ko){target="_blank"}
-* [캠페인 승인 관리](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=ko){target="_blank"}
-
-Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko){target="_blank"}를 참조하세요.
-
 ### 보안 개선 사항 {#security-8-9-1}
 
 * 이제 Snowflake 외부 계정이 OAuth2 인증을 지원하므로 페더레이션 데이터 액세스 연결에 대한 현대적이고 안전한 인증 방법이 제공됩니다. (NEO-87013) [자세한 내용](../config/external-accounts.md#snowflake-external-accounts)
 * 이제 데이터 블록 외부 계정은 서비스 주체(비대화형 클라이언트 자격 증명 흐름)를 통한 OAuth2 인증을 지원하므로 페더레이션 데이터 액세스 연결에 대한 보안 인증 방법이 제공됩니다. 대화형 OAuth2 인증은 향후 릴리스에서 사용할 수 있습니다. (NEO-87422) [자세한 내용](../config/external-accounts.md#databricks-external-accounts)
 * 승인된 디렉터리로 작업을 제한하고 무단 액세스와 잠재적인 원격 코드 실행을 방지하여 워크플로우 파일 액세스 취약성을 해결했습니다. (NEO-88460)
 * 워크플로우 JavaScript 코드 활동에 FTP URL 허용 목록에 추가 컨트롤을 추가하여 승인된 주소로만 아웃바운드 FTP 연결을 제한했습니다. (NEO-89083)
+* 애플리케이션 서비스 거부를 초래할 수 있는 보안 문제를 해결했습니다. (NEO-89984)
+
+### 새로운 기능 {#new-8-9-1}
+
+**새 SMS 전송 커넥터**&#x200B;를 이제 모든 고객(GA)이 사용할 수 있습니다. [자세한 설명서](../send/sms/sms.md)를 참조하세요.
+
+이 릴리스에는 Campaign 웹 사용자 인터페이스에서 사용할 수 있는 기능 집합이 포함되어 있습니다.
+
+* [다국어 게재 기능(GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [트랜잭션 메시지(GA)의 프로필 보강](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager 라이브 및 언어 사본](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [콘텐츠 실험 - A/B 테스트](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [지속적인 게재 활동](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [Campaign 승인 관리](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
+
+Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}를 참조하세요.
 
 ### 기타 변경 사항 {#changes-8-9-1}
 
@@ -151,7 +122,6 @@ Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campa
 * Campaign 워크플로우에서 비대칭 암호화 및 암호 해독 기능에 대한 지원을 추가했습니다. (NEO-80257)
 * FFDA 배포에서 대용량 데이터 업로드를 위한 복제 에이전트 성능 및 메모리 복원력을 개선했습니다. (NEO-88430)
 * Campaign에서 사용자 지정 SQL을 실행할 때 PostgreSQL 데이터베이스를 더 잘 보호하고 워크플로우가 원활하게 실행되도록 **[!UICONTROL SQL code]** 및 **[!UICONTROL SQL Data Management]** 워크플로우 활동을 개선했습니다. 자세한 내용과 모범 사례는 [SQL 데이터 관리](../../automation/workflow/sql-data-management.md#important-notes) 및 [SQL 코드](../../automation/workflow/sql-code-and-javascript-code.md#important-notes)를 참조하세요. (NEO-86540)
-
 
 ### 수정 사항 {#fixes-8-9-1}
 
@@ -171,7 +141,6 @@ Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campa
 * 옵트아웃 링크에 대한 (구독 취소) 원본 이 누락되는 문제를 수정했습니다. (NEO-90714)
 * 쿠폰을 추가하면 게재를 준비하지 못하는 문제가 해결되었습니다. (NEO-90547)
 * [거부 카운트 삽입]이 [감사] 탭에 정확하게 반영되지 않던 문제를 수정했습니다. (NEO-90318)
-* 애플리케이션 서비스 거부를 초래할 수 있는 보안 문제를 해결했습니다. (NEO-89984)
 * 다운로드한 Hotclick 보고서의 PDF이 손상되는 문제를 해결했습니다. (NEO-89954)
 * 업그레이드 후 발생한 SSL 오류를 해결했습니다. 오류를 읽는 동안 예기치 않은 EOF가 발생했습니다. (NEO-89108)
 * 업그레이드 후 데이터 스키마에서 데이터를 쿼리할 수 없는 문제를 해결했습니다. (NEO-88663)
