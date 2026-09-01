@@ -92,7 +92,7 @@ Campaign 버전을 확인하려면 클라이언트 콘솔에서 **도움말 > �
 
 새로운 Experience Cloud 솔루션 릴리스 및 해당 콘텐츠에 대한 정보를 받으려면 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"} 커뮤니케이션에 가입하십시오.
 
-[Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}를 방문하여 릴리스 업데이트에 대한 정보를 받을 수도 있습니다.
+[Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=ko&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}를 방문하여 릴리스 업데이트에 대한 정보를 받을 수도 있습니다.
 
 ### 조직에 업그레이드가 필요한 이유는 무엇입니까? {#upgrades-1}
 
