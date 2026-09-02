@@ -4,9 +4,9 @@ title: Technote - Adobe Campaign의 비동기 암호화 및 암호 해독
 description: 기술 참고 사항 - Adobe Campaign의 비동기 암호화 및 암호 해독
 hide: true
 exl-id: 6ee8b05b-2a46-4adf-a036-82fdd4809d0d
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '155'
 ht-degree: 6%
 
 ---
@@ -53,5 +53,5 @@ var decrypted = rsaPrivateDecrypt(
 
 **추가 리소스**
 
-* [&#x200B; [!DNL Campaign] API 시작](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/api){target="_blank"}
-* [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ko){target="_blank"}
+* [ [!DNL Campaign] API 시작](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api){target="_blank"}
+* [Campaign JSAPI 설명서](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}

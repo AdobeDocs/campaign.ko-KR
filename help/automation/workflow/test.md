@@ -6,12 +6,11 @@ feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 0d4d13f6-7128-44d3-ad5c-4ed02257ee64
 TQID: https://experienceleague.adobe.com/dXkGOQ-OD-KUwWx29DcE7FqYzbDSF-M6ox8-8cTurjA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 4%
+source-wordcount: 192
+ht-degree: 1%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 4%
 
 ![](assets/edit_test.png)
 
-워크플로 JavaScript을 통해 액세스할 수 있는 응용 프로그램 서버의 모든 추가 JavaScript 함수 및 SOAP 메서드에 대한 자세한 내용은 [JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko){target="_blank"}를 참조하십시오.
+워크플로 JavaScript을 통해 액세스할 수 있는 응용 프로그램 서버의 모든 추가 JavaScript 함수 및 SOAP 메서드에 대한 자세한 내용은 [JSAPI 설명서](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}를 참조하십시오.
 
 이 편집기에서 직접 변수를 삽입할 수도 있습니다. 변수를 사용하여 작업하는 방법에 대한 자세한 내용은 [이 섹션](javascript-scripts-and-templates.md#variables)을 참조하세요.
 
