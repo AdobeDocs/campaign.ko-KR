@@ -43,7 +43,7 @@ ht-degree: 1%
 
 `NLWS`(Neolane Web Services)은 [!DNL Adobe Campaign]의 SOAP 기반 API 메서드에 액세스하는 데 사용되는 전역 JavaScript 개체입니다. 스키마는 `NLWS` 개체의 속성으로, 프로그래밍 방식으로 Campaign 엔터티와 상호 작용할 수 있습니다.
 
-[Campaign JSAPI 설명서](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}에 따르면 &quot;스키마는 &#39;NLWS&#39; 전역 개체입니다.&quot; 스키마 메서드에 액세스하는 구문은 다음 패턴을 따릅니다.
+[Campaign JSAPI 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}에 따르면 &quot;스키마는 &#39;NLWS&#39; 전역 개체입니다.&quot; 스키마 메서드에 액세스하는 구문은 다음 패턴을 따릅니다.
 
 ```javascript
 NLWS.<namespace><SchemaName>.<method>()
@@ -57,7 +57,7 @@ NLWS.<namespace><SchemaName>.<method>()
 
 일반적인 API 메서드는 다음과 같습니다.
 
-* `load(id)` - 엔터티를 해당 ID로 로드합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+* `load(id)` - 엔터티를 해당 ID로 로드합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}
 * `create(data)` - 새 엔터티 만들기
 * `save()` - 엔터티에 변경 내용 저장
 
@@ -102,7 +102,7 @@ Campaign 인터페이스의 스키마 설명에 액세스하려면 **관리 > �
 
 ### 비정적 메서드 {#non-static-methods}
 
-비정적 SOAP 메서드를 사용하려면 먼저 해당 스키마에서 `load` 또는 `create` 메서드를 사용하여 엔터티를 검색해야 합니다. 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}를 참조하세요.
+비정적 SOAP 메서드를 사용하려면 먼저 해당 스키마에서 `load` 또는 `create` 메서드를 사용하여 엔터티를 검색해야 합니다. 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}를 참조하세요.
 
 ### 엔티티 로드, 저장 및 생성 {#load-save-create}
 
@@ -155,7 +155,7 @@ recipient.save();
 * `getIfExists` - 단일 레코드를 검색하고, 찾을 수 없으면 null을 반환합니다.
 * `count` - 기준과 일치하는 레코드 수
 
-[Campaign JSAPI 설명서](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}에서 queryDef 메서드에 대해 자세히 알아보세요.
+[Campaign JSAPI 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}에서 queryDef 메서드에 대해 자세히 알아보세요.
 
 ## JSON을 사용한 쿼리 {#query-json}
 
@@ -282,7 +282,7 @@ for each(var delivery in deliveries.delivery) {
 >* 최대 결과 수를 명시적으로 설정하려면 `lineCount`을(를) 사용하십시오.
 >* 대규모 데이터 세트(>1000개의 레코드)의 경우 queryDef 대신 워크플로우를 사용합니다. 워크플로우는 수백만 개의 행을 효율적으로 처리하도록 설계되었습니다.
 
-[ExecuteQuery](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"} 및 [쿼리 모범 사례](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}에 대해 자세히 알아보세요.
+[ExecuteQuery](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"} 및 [쿼리 모범 사례](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}에 대해 자세히 알아보세요.
 
 ## 워크플로우 전환 데이터 쿼리 {#workflow-transition-data}
 
@@ -327,7 +327,7 @@ for each(var record in records.getElements()) {
 
 >[!CAUTION]
 >
->SQL 삽입 취약성을 방지하려면 항상 문자열의 경우 `$(sz)`을(를) 사용하고 정수의 경우 `$(l)`을(를) 사용하는 매개 변수가 있는 쿼리를 사용하십시오. 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}를 참조하세요.
+>SQL 삽입 취약성을 방지하려면 항상 문자열의 경우 `$(sz)`을(를) 사용하고 정수의 경우 `$(l)`을(를) 사용하는 매개 변수가 있는 쿼리를 사용하십시오. 자세한 내용은 [Campaign JSAPI 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}를 참조하세요.
 
 ## 레코드 수 {#count-records}
 
@@ -578,7 +578,7 @@ logInfo("Generated SQL: " + sql);
 // Output: "SELECT iRecipientId, sEmail FROM NmsRecipient WHERE sEmail IS NOT NULL"
 ```
 
-[BuildQuery](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}에 대해 자세히 알아보세요.
+[BuildQuery](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}에 대해 자세히 알아보세요.
 
 ### BuildQueryEx - 형식 문자열로 SQL 가져오기 {#build-query-ex}
 
@@ -603,7 +603,7 @@ logInfo("Format: " + format);
 var results = sqlSelect(format, sql);
 ```
 
-[BuildQueryEx](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}에 대해 자세히 알아보세요.
+[BuildQueryEx](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}에 대해 자세히 알아보세요.
 
 ### SelectAll - 선택할 모든 필드를 추가합니다. {#select-all}
 
@@ -626,7 +626,7 @@ var result = query.ExecuteQuery();
 // Result contains all recipient fields
 ```
 
-[모두 선택](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}에 대해 자세히 알아보세요.
+[모두 선택](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}에 대해 자세히 알아보세요.
 
 ### 갱신 - 일괄 갱신 레코드 {#mass-update}
 
@@ -656,7 +656,7 @@ logInfo("Mass update completed");
 >
 >대량 업데이트는 where 절과 일치하는 모든 레코드에 영향을 줍니다. 항상 선택 쿼리를 사용하여 where 조건을 먼저 테스트하여 영향을 받을 레코드를 확인합니다.
 
-[업데이트](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}에 대해 자세히 알아보세요.
+[업데이트](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}에 대해 자세히 알아보세요.
 
 ### GetInstanceFromModel - 쿼리 템플릿 인스턴스 {#get-instance-from-model}
 
@@ -679,7 +679,7 @@ var query = NLWS.xtkQueryDef.create(
 var instance = query.GetInstanceFromModel("nms:delivery");
 ```
 
-[GetInstanceFromModel](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}에 대해 자세히 알아보세요.
+[GetInstanceFromModel](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}에 대해 자세히 알아보세요.
 
 ## 일괄 처리 작업 {#batch-operations}
 
@@ -918,8 +918,8 @@ if (count > 0 && count < 10000) {
 
 * [Campaign API 시작](api.md)
 * [Campaign JavaScript SDK - 쿼리 API](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
-* [queryDef API 참조](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
-* [Campaign JSAPI 설명서](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+* [queryDef API 참조](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}
+* [Campaign JSAPI 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}
 * [스키마 작업](schemas.md)
 * [쿼리 편집기 작업](../start/query-editor.md)
 
