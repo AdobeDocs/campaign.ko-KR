@@ -18,9 +18,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: 2571
+source-wordcount: 2569
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 기본적으로 각 필드는 한 줄에 표시되며 데이터 유형에 따라 사용 가능한 모든 공간을 차지합니다.
 
-모든 양식 특성은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=ko){target="_blank"}에 나와 있습니다.
+모든 양식 특성은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}에 나와 있습니다.
 
 ## 양식화 {#formatting}
 

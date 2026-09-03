@@ -18,9 +18,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: 320
+source-wordcount: 314
 ht-degree: 10%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 10%
 >
 >배포 모델에 따라 Campaign v8에서 REST API를 사용할 수도 있습니다. [자세히 알아보기](../dev/api/get-started-apis.md).
 
-[Campaign JavaScript API](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ko){target="_blank"}를 사용하여 Campaign 클라우드 데이터베이스에 쓰거나 데이터베이스에서 읽을 수 있습니다.
+[Campaign JavaScript API](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}를 사용하여 Campaign 클라우드 데이터베이스에 쓰거나 데이터베이스에서 읽을 수 있습니다.
 
 * 게재, 워크플로우, 구독 등 각 오브젝트에 대해 작업을 수행할 수 있는 비즈니스별 API입니다. 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ko){target="_blank"}를 참조하세요.
 * `queryDef` 및 `NLWS` 개체를 사용하여 데이터 모델 데이터를 쿼리하기 위한 일반 데이터 액세스 API입니다. [queryDef를 사용하여 데이터베이스 쿼리](query-api.md)에서 자세히 알아보세요.
@@ -68,4 +68,4 @@ API를 사용하고 [!DNL Adobe Campaign]과(와) 상호 작용하려면 데이�
 
 <!-- * [Query the database with queryDef](query-api.md)-->
 * [데이터 모델 모범 사례](datamodel-best-practices.md)
-* [Campaign JSAPI 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ko){target="_blank"}
+* [Campaign JSAPI 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}

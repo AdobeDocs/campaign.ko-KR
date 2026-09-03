@@ -7,9 +7,9 @@ level: Beginner
 keywords: FAQ, Campaign v8, 질문, 답변, 도움말, 지원, 문제 해결
 version: Campaign v8
 exl-id: 8b4f6343-5dc5-4401-ad6f-9c1ddbb23168
-source-git-commit: d25c5a40af9ac0594301f46f09a4cc07a8e1945e
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: '11541'
+source-wordcount: '11539'
 ht-degree: 9%
 
 ---
@@ -1651,7 +1651,7 @@ Campaign v8은 SOAP API(클라이언트 콘솔 작업), REST API(최신 통합) 
 
 **일반적인 사용:** CRM/ERP와 통합, 캠페인 자동화, 데이터 동기화, 모니터링 솔루션 빌드, 외부 인터페이스 만들기.
 
-**액세스:** [Campaign v8 API 설명서](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko){target="_blank"}
+**액세스:** [Campaign v8 API 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}
 
 +++
 
@@ -1820,7 +1820,7 @@ Campaign의 감사 추적은 삭제 이벤트와 새 프로필 생성을 모두 
 
 자세한 기술 설명서 및 개발자 리소스를 확인하십시오.
 
-* **[캠페인 API](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ko){target="_blank"}** - 전체 API 참조 설명서
+* **[캠페인 API](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}** - 전체 API 참조 설명서
 * **[호환성 매트릭스](compatibility-matrix.md)** - 지원되는 시스템 및 버전
 * **[버전 및 업그레이드 FAQ](upgrades.md)** - 버전을 확인하고 업그레이드에 대해 알아봅니다.
 
