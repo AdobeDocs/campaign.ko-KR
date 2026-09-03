@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 2028
+source-wordcount: 2096
 ht-degree: 1%
 
 ---
@@ -71,6 +71,10 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >개인정보 보호를 위해 모든 외부 리소스에 HTTPS를 사용하는 것이 좋습니다.
+
+>[!IMPORTANT]
+>
+>릴리스 8.9.3에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 리소스가 중단 없이 계속 로드되도록 메시지 콘텐츠에 사용된 도메인이 인스턴스의 승인된 허용 목록에 추가되었는지 확인합니다. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
 
 메시지 콘텐츠는 게재 구성 창의 아래 섹션에 정의되어 있습니다.
 

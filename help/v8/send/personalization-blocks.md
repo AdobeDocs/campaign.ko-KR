@@ -15,10 +15,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 17%
+source-wordcount: 638
+ht-degree: 15%
 
 ---
 
@@ -63,6 +63,10 @@ ht-degree: 17%
 * **[!UICONTROL Unsubscription link]**: 모든 게재 구독 취소(차단 목록에 추가하다)를 가능하게 하는 링크를 삽입합니다. 기본 관련 콘텐츠는 다음과 같습니다. “귀하가 ***조직 이름***&#x200B;의 소식을 받고 있거나 제휴를 맺고 있기 때문에 이 메시지가 전송되었습니다. 더 이상 ***조직 이름***&#x200B;에서 메시지를 받지 않으려면 여기를 클릭하십시오.”
 
 ## 사용자 지정 개인화 블록 만들기 {#create-custom-personalization-blocks}
+
+>[!IMPORTANT]
+>
+>릴리스 8.9.3에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 사용자 지정 개인화 블록이 외부 URL(예: 외부에 호스팅된 이미지)을 참조하는 경우 리소스가 중단 없이 계속 로드되도록 허용 목록이 인스턴스의 승인된 도메인에 추가되었는지 확인하십시오. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
 
 개인화 아이콘에서 삽입할 새로운 개인화된 콘텐츠 블록을 정의할 수 있습니다.
 
