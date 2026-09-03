@@ -4,18 +4,12 @@ description: Campaign v8 최신 릴리스
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 TQID: https://experienceleague.adobe.com/Zdo52RLQFbxlRNgE54yLDn3yAMmmOqxKyRhnCJa0Xwg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 7e14d410aba444e792a24c99a843f122a8fcedc6
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 1998
+source-wordcount: 2098
 ht-degree: 6%
 
 ---
@@ -33,6 +27,12 @@ _2026년 8월 11일_
 ### 보안 개선 사항 {#security-8-9-3}
 
 이 릴리스에는 Campaign 환경의 전체 보안 상태를 강화하는 보안 수정 사항이 포함되어 있습니다. 호스팅된 Adobe은 이러한 수정 사항을 업그레이드의 일부로 적용하므로 별도의 작업이 필요하지 않습니다.
+
+### 외부 URL 허용 목록 업데이트 {#url-allow-list-update-8-9-3}
+
+이 릴리스에는 게재 콘텐츠 및 첨부 파일에 사용된 외부 URL 허용 목록 업데이트가 포함됩니다. 현재 참조하는 모든 도메인이 인스턴스의 승인된 허용 목록에 추가되었는지 확인합니다.
+
+Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 현재 게재에서 사용되는 외부 URL을 허용 목록에 추가하고 앞으로 진행될 모든 새 외부 URL에 대해 동일한 프로세스를 따릅니다. 영향을 받는 게재에 영향을 주지 않도록 2026년 9월 5일까지 이 활동을 완료하십시오. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
 
 ### Adobe Analytics 커넥터가 Analytics 2.0 API로 업그레이드됨 {#analytics-2-0-8-9-3}
 
@@ -113,14 +113,14 @@ _2026년 1월 27일_
 
 이 릴리스에는 Campaign 웹 사용자 인터페이스에서 사용할 수 있는 기능 집합이 포함되어 있습니다.
 
-* [다국어 게재 기능(GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ko){target="_blank"}
-* [트랜잭션 메시지(GA)의 프로필 보강](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ko){target="_blank"}
-* [Adobe Experience Manager 라이브 및 언어 사본](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=ko){target="_blank"}
-* [콘텐츠 실험 - A/B 테스트](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=ko){target="_blank"}
-* [지속적인 게재 활동](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=ko){target="_blank"}
-* [Campaign 승인 관리](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=ko){target="_blank"}
+* [다국어 게재 기능(GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [트랜잭션 메시지(GA)의 프로필 보강](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager 라이브 및 언어 사본](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [콘텐츠 실험 - A/B 테스트](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [지속적인 게재 활동](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [Campaign 승인 관리](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
-Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko){target="_blank"}를 참조하세요.
+Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html){target="_blank"}를 참조하세요.
 
 ### 기타 변경 사항 {#changes-8-9-1}
 

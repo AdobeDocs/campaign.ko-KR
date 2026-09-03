@@ -7,16 +7,12 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: f4a329e3-70d2-43cd-a04a-0bbd5e3ca390
 TQID: https://experienceleague.adobe.com/qfSKBHeQUkAYJb-PSeTxYMxGp-WicmITitT9qh8tHBs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: 500
 ht-degree: 1%
 
 ---
@@ -46,6 +42,10 @@ Adobe Campaign을 사용하면 LibreOffice 또는 Microsoft Word 문서의 이�
 * 표의 세 번째 줄과 마지막 줄에 있는 고리를 닫습니다.
 
 ## 외부 이미지 삽입 {#inserting-external-images}
+
+>[!IMPORTANT]
+>
+>릴리스 8.9.3에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 첨부 파일에서 외부 이미지에 사용된 도메인이 인스턴스의 승인된 허용 목록에 추가되어 리소스가 중단 없이 계속 로드되는지 확인하십시오. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
 
 외부 이미지 삽입은 예를 들어 수신자의 필드에 URL을 입력하는 이미지로 문서를 개인화하려는 경우에 유용합니다.
 

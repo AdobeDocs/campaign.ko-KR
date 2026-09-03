@@ -7,18 +7,13 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: c3e107b5-6d2e-408f-9c7d-a81a4756b4ef
 TQID: https://experienceleague.adobe.com/9TXL-RQE41IZCKWoh7jvGNLfBonStPosLB7qkIHZdKo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 2028
+source-wordcount: 2096
 ht-degree: 1%
 
 ---
@@ -72,13 +67,17 @@ ht-degree: 1%
 >
 >개인정보 보호를 위해 모든 외부 리소스에 HTTPS를 사용하는 것이 좋습니다.
 
+>[!IMPORTANT]
+>
+>릴리스 8.9.3에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 리소스가 중단 없이 계속 로드되도록 메시지 콘텐츠에 사용된 도메인이 인스턴스의 승인된 허용 목록에 추가되었는지 확인합니다. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
+
 메시지 콘텐츠는 게재 구성 창의 아래 섹션에 정의되어 있습니다.
 
 메시지는 기본적으로 수신자 기본 설정에 따라 HTML 또는 텍스트 형식으로 전송됩니다. 모든 메일 시스템에서 메시지가 올바르게 표시되도록 하려면 두 형식 모두의 콘텐츠를 만드는 것이 좋습니다. 자세한 내용은 [메시지 형식 선택](email-parameters.md#selecting-message-formats)을 참조하세요.
 
 * HTML 콘텐츠를 가져오려면 **[!UICONTROL Open]** 단추를 사용하십시오. 소스 코드를 **[!UICONTROL Source]** 하위 탭에 직접 붙여넣을 수도 있습니다.
 
-  DCE(디지털 콘텐츠 편집기)를 사용하는 경우 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html?lang=ko#step-3---selecting-a-content)를 참조하세요.
+  DCE(디지털 콘텐츠 편집기)를 사용하는 경우 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html#step-3---selecting-a-content)를 참조하세요.
 
   >[!IMPORTANT]
   >
@@ -161,7 +160,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
 성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100KB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션에서 변경할 수 있습니다. 그러나 Adobe에서는 이메일 게재에 큰 이미지를 사용하지 않는 것이 좋습니다.
 
-[Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ko#delivery)의 Campaign 옵션 목록에 대해 자세히 알아보세요.
+[Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery)의 Campaign 옵션 목록에 대해 자세히 알아보세요.
 
 ### 이미지 유형 {#img-types}
 
@@ -172,7 +171,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
   공개 리소스는 Adobe Campaign 계층 구조의 **[!UICONTROL Resources > Online]** 노드를 통해 액세스할 수 있습니다. 라이브러리로 그룹화되고 이메일 메시지에 포함될 수 있지만, 캠페인이나 작업 또는 컨텐츠 관리에도 사용할 수 있습니다.
 
-* Adobe Experience Cloud와 공유된 에셋입니다. [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ko)를 참조하세요.
+* Adobe Experience Cloud와 공유된 에셋입니다. [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html)를 참조하세요.
 
 ### 이미지 삽입 및 관리 {#manage-images}
 

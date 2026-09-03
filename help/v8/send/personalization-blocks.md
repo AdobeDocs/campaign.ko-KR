@@ -7,18 +7,14 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
 TQID: https://experienceleague.adobe.com/741rGWSBuFksbOfXbuszEXq56DOI-Pfg8tEiHQLhQf8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 17%
+source-wordcount: 638
+ht-degree: 15%
 
 ---
 
@@ -64,6 +60,10 @@ ht-degree: 17%
 
 ## 사용자 지정 개인화 블록 만들기 {#create-custom-personalization-blocks}
 
+>[!IMPORTANT]
+>
+>릴리스 8.9.3에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 사용자 지정 개인화 블록이 외부 URL(예: 외부에 호스팅된 이미지)을 참조하는 경우 리소스가 중단 없이 계속 로드되도록 허용 목록이 인스턴스의 승인된 도메인에 추가되었는지 확인하십시오. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
+
 개인화 아이콘에서 삽입할 새로운 개인화된 콘텐츠 블록을 정의할 수 있습니다.
 
 개인화 블록을 만들려면 아래 단계를 수행합니다.
@@ -89,4 +89,4 @@ ht-degree: 17%
 
 다음 비디오에서는 다이내믹 콘텐츠 블록을 만드는 방법과 이 블록을 사용하여 이메일 게재 콘텐츠를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449013?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)
