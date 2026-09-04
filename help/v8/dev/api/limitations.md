@@ -22,7 +22,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 66ed59f89f7e58ce0a04d1fe3e4bf34c81ce94cb
 workflow-type: tm+mt
 source-wordcount: 1053
 ht-degree: 1%
@@ -112,7 +112,7 @@ Campaign v8에서 동일한 요청 본문 구조를 사용하고 &quot;차량&qu
 아래 섹션에는 Campaign Standard과 v8 REST 응답 간의 사소한 차이점이 나열되어 있습니다.
 
 * 단일 GET 레코드의 경우, 응답은 응답에 href를 포함한다.
-* 속성을 사용하여 쿼리하면 Campaign v8은 응답에 개수 및 페이지 매김 기능을 제공합니다.
+* 속성을 사용하여 쿼리하면 Campaign v8은 응답에서 카운트 및 페이지 매김 기능을 제공합니다.
 * POST 작업 후 연결된 리소스의 값이 응답에서 반환됩니다.
 
 ## 오류 코드 및 메시지
