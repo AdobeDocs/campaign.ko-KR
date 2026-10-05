@@ -36,7 +36,7 @@ ht-degree: 0%
 
 Adobe Campaign은 **웹 양식**&#x200B;을 정의 및 게시하기 위한 그래픽 모듈을 통합하여 입력 및 선택 필드가 있는 페이지를 만들고 데이터베이스의 데이터를 포함할 수 있습니다. 이를 통해 사용자가 액세스하여 정보를 보거나 입력할 수 있는 웹 페이지를 디자인하고 게시할 수 있습니다.
 
-웹 양식을 만들고 게시하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html#designing-content){target="_blank"}를 참조하세요.
+웹 양식을 만들고 게시하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ko#designing-content){target="_blank"}를 참조하세요.
 
 ![](assets/sample.png)
 
@@ -44,4 +44,4 @@ Adobe Campaign은 **웹 양식**&#x200B;을 정의 및 게시하기 위한 그�
 
 엑스트라넷의 편집 양식과 같은 페이지 또는 테이블, 차트, 입력 양식 등이 있는 데이터베이스의 데이터를 포함하는 알림 양식을 만들 수 있습니다. 이 기능을 사용하면 사용자가 정보를 조회하거나 입력할 수 있는 웹 페이지를 디자인하고 게시할 수 있습니다.
 
-웹 응용 프로그램을 만들고 게시하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html#designing-content){target="_blank"}를 참조하세요.
+웹 응용 프로그램을 만들고 게시하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=ko#designing-content){target="_blank"}를 참조하세요.

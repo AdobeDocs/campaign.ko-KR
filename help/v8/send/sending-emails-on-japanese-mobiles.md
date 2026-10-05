@@ -40,7 +40,7 @@ Adobe Campaign은 모바일에서 이메일에 대한 세 가지 특정 일본�
 
 그러나 **[!UICONTROL Email format]** 옵션을 **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** 또는 **[!UICONTROL Text]**(으)로 두면 Adobe Campaign은 메시지가 올바르게 표시되도록 사용할 일본어 형식을 자동으로 검색합니다(전자 메일을 보낼 때).
 
-이 자동 검색 시스템은 **[!UICONTROL Management of Email Formats]** 메일 규칙 집합에 정의된 사전 정의된 도메인 목록을 기반으로 합니다. 전자 메일 형식 관리에 대한 자세한 내용은 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#managing-email-formats)를 참조하세요.
+이 자동 검색 시스템은 **[!UICONTROL Management of Email Formats]** 메일 규칙 집합에 정의된 사전 정의된 도메인 목록을 기반으로 합니다. 전자 메일 형식 관리에 대한 자세한 내용은 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=ko#managing-email-formats)를 참조하세요.
 
 ## 제한 사항 및 권장 사항 {#limitations-and-recommendations}
 

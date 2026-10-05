@@ -42,7 +42,7 @@ Adobe Campaign은 고객에게 SMS 메시지를 전송하는 데 사용되는 �
 
 v2 커넥터의 이점을 활용하는 방법을 알아보려면 [활성화](#activation) 섹션을 참조하세요.
 
-기존 SMS 커넥터 구성 및 사용에 대한 자세한 내용은 [Campaign Classic 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}를 참조하세요.
+기존 SMS 커넥터 구성 및 사용에 대한 자세한 내용은 [Campaign Classic 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}를 참조하세요.
 
 ## SMS 커넥터 v2 {#sms-connector-v2}
 
