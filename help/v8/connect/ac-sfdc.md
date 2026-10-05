@@ -105,6 +105,6 @@ Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니�
 
 Adobe Campaign 데이터와 SFDC 간에 데이터를 동기화하려면 워크플로우를 만들고 **[!UICONTROL CRM connector]** 활동을 사용합니다.
 
-이 페이지](crm-data-sync.md)에서 데이터 동기화 [에 대해 자세히 알아보세요.
+이 페이지[&#128279;](crm-data-sync.md)에서 데이터 동기화 에 대해 자세히 알아보세요.
 
-이 페이지](../config/enumerations.md)에서 Campaign [의 열거 관리에 대해 자세히 알아보세요.
+이 페이지[&#128279;](../config/enumerations.md)에서 Campaign 의 열거 관리에 대해 자세히 알아보세요.
