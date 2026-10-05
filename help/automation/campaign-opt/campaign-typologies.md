@@ -100,11 +100,11 @@ Campaign 최적화 추가 기능은 **유형화 규칙**&#x200B;의 두 가지 �
 
 이 비디오에서는 유형화 규칙을 활용하여 Adobe Campaign에서 피로도 관리를 구현하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/333787?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448338?captions=kor&quality=12)
 
 ### 사전 정의된 필터를 사용하여 피로도 관리 설정
 
 피로도 관리는 수신자의 과도한 요청을 방지하기 위해 메시지 빈도 및 수량을 제어합니다. 캠페인 인스턴스에 캠페인 최적화 모듈이 없는 경우 수신한 메시지 수별로 대상 모집단을 필터링하는 사전 정의된 필터를 구성할 수 있습니다
 이 비디오에서는 필터를 사용하여 Adobe Campaign에서 피로도 관리를 구현하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/333778?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444607?captions=kor&quality=12)
