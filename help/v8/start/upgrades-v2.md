@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: bd8e8abb2d53dd9b7b3afcc82c283aa25111a0ff
+source-git-commit: 2b29b51ec0ddb0331afe7e8222f1f2a466c71e6c
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1621'
 ht-degree: 7%
 ---
 # 버전, 업그레이드 및 보안 {#upgrades}
@@ -86,11 +86,11 @@ Campaign 버전을 확인하려면 클라이언트 콘솔에서 **도움말 > �
 >
 >클라이언트 콘솔에 대해 표시된 버전이 응용 프로그램 서버에 대해 표시된 버전과 일치하지 않으면 [클라이언트 콘솔을 최신 상태로 유지](#ac-upgrades)에 설명된 대로 콘솔을 업그레이드하십시오.
 
-### 새로운 릴리스에 대한 최신 정보 유지 {#upgrades-0}
+### 제품 릴리스 알림 {#upgrades-0}
 
 새 버전 및 변경 사항은 [릴리스 정보](release-notes.md)에 나열되어 있습니다.
 
-제품 릴리스 업데이트는 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}를 구독하거나 [Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=ko&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}를 방문하세요.
+제품 릴리스 업데이트는 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}를 구독하거나 [Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}를 방문하세요.
 
 보안 알림 및 보안 업데이트를 위한 조직 준비에 대한 지침은 [정보 유지](#security-staying-informed)를 참조하세요.
 
