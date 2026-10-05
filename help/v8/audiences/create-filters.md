@@ -6,24 +6,36 @@ role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
-TQID: https://experienceleague.adobe.com/ZhEye69T-u--8tgV8ONBX9nRkdJFUSvx8RIKqq0bFsI
+TQID: 'https://experienceleague.adobe.com/ZhEye69T-u--8tgV8ONBX9nRkdJFUSvx8RIKqq0bFsI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1943
+source-wordcount: '1943'
 ht-degree: 1%
-
 ---
-
 # 필터 작업{#create-filters}
 
 데이터 필터링은 데이터 세트를 특정 기준과 일치하는 레코드로만 좁히는 프로세스입니다. 그런 다음 이 하위 집합을 타겟팅된 작업(예: 업데이트 또는 대상 만들기) 또는 분석에 사용할 수 있습니다.
@@ -395,9 +407,9 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 이러한 통합 샘플에서 고급 쿼리를 작성하는 방법을 알아봅니다.
 
-* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}에서 간단한 받는 사람 특성을 타깃팅하는 방법에 대해 알아봅니다.
-* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=ko){target="_blank"}에서 지난 7일 동안 연락하지 않은 받는 사람을 필터링하는 방법을 알아보세요.
-* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ko){target="_blank"}에서 활성 계정으로 필터링할 수 있는 연산자 목록을 복구하는 방법을 알아봅니다.
+* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}에서 간단한 받는 사람 특성을 타깃팅하는 방법에 대해 알아봅니다.
+* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}에서 지난 7일 동안 연락하지 않은 받는 사람을 필터링하는 방법을 알아보세요.
+* [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}에서 활성 계정으로 필터링할 수 있는 연산자 목록을 복구하는 방법을 알아봅니다.
 * [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ko){target="_blank"}에서 생일 전자 메일 대상자를 만드는 방법을 알아보세요.
 
 

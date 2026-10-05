@@ -5,25 +5,38 @@ feature: Target Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67
-TQID: https://experienceleague.adobe.com/d5k2eJVXkyK0buudvJfqokZ5q9dPJhcDyiNcKImz-KE
+TQID: 'https://experienceleague.adobe.com/d5k2eJVXkyK0buudvJfqokZ5q9dPJhcDyiNcKImz-KE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Target integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 994
+source-wordcount: '994'
 ht-degree: 0%
-
 ---
-
 # Campaign 및 Adobe Target 작업
 
 Campaign과 Target을 연결하여 Adobe Campaign 이메일 게재에 Adobe Target의 오퍼를 포함합니다.
@@ -86,7 +99,7 @@ Adobe Campaign에서는 Target의 동적 이미지를 이메일에 삽입하는 
 * **[!UICONTROL Landing Page]**&#x200B;을(를) 사용하면 기본 이미지를 기본 랜딩 페이지로 리디렉션할 수 있습니다. 이 URL은 기본 이미지가 최종 이메일에 표시되는 경우에만 적용됩니다. 선택 사항입니다.
 * **[!UICONTROL Additional decision parameters]**&#x200B;은(는) Adobe Target 세그먼트에 정의된 필드와 Adobe Campaign 필드 간의 매핑을 정의합니다. 사용된 Adobe Campaign 필드는 rawbox에 지정했어야 합니다. 이 예제에서는 국가 필드를 추가했습니다.
 
-Adobe Target의 설정에서 Enterprise 권한을 사용하는 경우 이 필드에 해당 속성을 추가합니다. [Adobe Target 설명서](https://experienceleague.adobe.com/ko/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}에서 Target Enterprise 권한에 대해 자세히 알아보세요.
+Adobe Target의 설정에서 Enterprise 권한을 사용하는 경우 이 필드에 해당 속성을 추가합니다. [Adobe Target 설명서](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}에서 Target Enterprise 권한에 대해 자세히 알아보세요.
 
 ![](assets/target_13.png)
 
@@ -106,7 +119,7 @@ Adobe Target에서 오퍼의 다른 버전을 만들 수 있습니다. 각 사�
 
    ![](assets/target_6.png)
 
-1. 나머지 리디렉션 오퍼에 대해서도 동일한 절차를 수행합니다. 자세한 정보는 이 [Adobe Target 설명서](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ko#experiences){target="_blank"}를 참조하세요.
+1. 나머지 리디렉션 오퍼에 대해서도 동일한 절차를 수행합니다. 자세한 정보는 이 [Adobe Target 설명서](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences){target="_blank"}를 참조하세요.
 
 ### 대상자 만들기 {#audiences-target}
 

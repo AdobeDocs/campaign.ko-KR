@@ -6,27 +6,37 @@ feature: Workflows, Data Management
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 794de398-f35d-4c2b-af29-d6fd38eb9394
-TQID: https://experienceleague.adobe.com/VeDBB3FCIUIkD-IEdPlUtjhX9CKFiQptIH-eys-iG2o
+TQID: 'https://experienceleague.adobe.com/VeDBB3FCIUIkD-IEdPlUtjhX9CKFiQptIH-eys-iG2o'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 514
+source-wordcount: '578'
 ht-degree: 1%
-
 ---
-
 # 파일 전송{#file-transfer}
 
 **파일 전송** 활동을 사용하면 파일을 받거나 보내고, 파일의 존재 여부를 테스트하거나, 서버에 있는 파일을 나열할 수 있습니다. 사용된 프로토콜은 Azure Blob Storage, Amazon Simple Storage Service(S3), FTP 또는 SFTP입니다.
-S3, Azure Blob Storage 또는 SFTP 연결을 통해 Adobe Real-time Customer Data Platform을 사용하여 세그먼트 데이터를 Adobe Campaign으로 가져올 수도 있습니다. 자세한 정보는 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ko){target="_blank"}를 참조하세요.
+S3, Azure Blob Storage 또는 SFTP 연결을 통해 Adobe Real-time Customer Data Platform을 사용하여 세그먼트 데이터를 Adobe Campaign으로 가져올 수도 있습니다. 자세한 정보는 이 [설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html){target="_blank"}를 참조하세요.
 
 ## 속성 {#properties}
 

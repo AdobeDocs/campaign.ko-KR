@@ -5,26 +5,42 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-TQID: https://experienceleague.adobe.com/idHaE95v6L555qBtrbXNzpop003jU8zRAqMEBQ-W-SU
+TQID: 'https://experienceleague.adobe.com/idHaE95v6L555qBtrbXNzpop003jU8zRAqMEBQ-W-SU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: bae31391-3416-5fbd-bc4b-2cdcae2922db
+    internal-label: Architecture
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
+  - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
+    internal-label: Configuration guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Security
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: '644'
 ht-degree: 100%
-
 ---
-
 # Campaign 구성 요소 및 프로세스 이해 {#components-and-processes}
 
 Adobe Campaign은 이메일, 모바일, 소셜 및 오프라인 캠페인을 자동화하는 크로스 채널 마케팅 솔루션입니다. Adobe Campaign은 고객 데이터와 프로필에 액세스할 수 있는 중앙 집중식 공간을 제공합니다. Adobe Campaign을 사용하면 고객에 대한 일관된 경험을 오케스트레이션하고, 채널 전반에서 마케팅을 설계, 실행 및 개인화하는 동시에 모든 장치와 접점에서 고객 경험을 향상할 수 있습니다. Adobe Campaign을 사용하면 시각적 드래그 앤 드롭 워크플로 인터페이스를 통해 여러 데이터 소스를 관리하고, 대상 세그먼트를 정의하며, 여러 단계의 크로스 채널 캠페인을 계획 및 실행할 수 있습니다.

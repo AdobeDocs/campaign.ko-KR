@@ -5,27 +5,44 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-TQID: https://experienceleague.adobe.com/6mA-RBg1EohscNSZkxXng-e3ya4ePoAG66meI1zRVwE
+TQID: 'https://experienceleague.adobe.com/6mA-RBg1EohscNSZkxXng-e3ya4ePoAG66meI1zRVwE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+    internal-label: Schema extension
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+  - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
+    internal-label: Configuration guidelines
+  - id: a1681cd8-6b2e-4955-9113-33b5f7a22b8c
+    internal-label: Data model architecture
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1295
+source-wordcount: '1295'
 ht-degree: 5%
-
 ---
-
 # 스키마 작업{#gs-ac-schemas}
 
 애플리케이션에 포함된 데이터의 물리적 및 논리적 구조는 XML에 설명되어 있습니다. **schema**&#x200B;이라고 하는 Adobe Campaign 관련 문법을 따릅니다.
@@ -212,9 +229,9 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ![](assets/schemaextension_2.png)
 
-전체 특성 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=ko#content-model){target="_blank"}의 `<attribute>` 요소 섹션에서 사용할 수 있습니다. 일반적으로 사용되는 특성 중 일부는 다음과 같습니다. **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull @required @ref @xml @type**, **&#x200B;**, **&#x200B;**, **&#x200B;**, **&#x200B;**.
+전체 특성 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}의 `<attribute>` 요소 섹션에서 사용할 수 있습니다. 일반적으로 사용되는 특성 중 일부는 다음과 같습니다. **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull @required @ref @xml @type**, ****, ****, ****, ****.
 
-각 특성에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ko#configuring-campaign-classic){target="_blank"}의 특성 설명을 참조하십시오.
+각 특성에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}의 특성 설명을 참조하십시오.
 
 ### 예제 {#examples}
 

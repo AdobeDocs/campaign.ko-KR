@@ -6,21 +6,31 @@ role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
 version: Campaign v8, Campaign Classic v7
-TQID: https://experienceleague.adobe.com/0rN0mC1re8VV-oUscl9KqgnuEAxQ4wAnV5ubotmyZ3g
+TQID: 'https://experienceleague.adobe.com/0rN0mC1re8VV-oUscl9KqgnuEAxQ4wAnV5ubotmyZ3g'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 477
-ht-degree: 4%
-
+source-wordcount: '519'
+ht-degree: 5%
 ---
-
 # 사용 권한 시작{#gs-permissions}
 
 Adobe Campaign을 사용하면 사용자에게 할당된 권한을 정의하고 관리할 수 있습니다. 다음은 권한을 부여하거나 거부한 권한 및 제한 세트입니다.
@@ -43,7 +53,7 @@ Adobe Campaign에서 사용자는 **운영자**&#x200B;이고 **운영자 그룹
 주요 단계:
 
 * **1단계**: 연산자 그룹을 정의하고 Campaign 클라이언트 콘솔에서 권한을 할당합니다. [자세히 알아보기](manage-permissions.md#create-product-profile).
-기본 제공 연산자 그룹을 사용하여 를 시작할 수도 있습니다. 이러한 기본 그룹과 해당 권한은 [이 섹션](manage-permissions.md#ootb-productprofiles)에 나열되어 있습니다.
+기본 제공 연산자 그룹을 사용하여 를 시작할 수도 있습니다. 이러한 기본 그룹과 해당 권한은 [이 섹션](manage-permissions.md#ootb-productprofiles)에 나열됩니다.
 * **2단계**: Adobe Admin Console에서 해당 그룹과 일치하는 제품 프로필을 만듭니다. [자세히 알아보기](manage-permissions.md#create-product-profile).
 기본 제공 제품 프로필을 사용하여 시작할 수 있습니다. [자세히 알아보기](manage-permissions.md#ootb-productprofiles).
 * **3단계**: Adobe Admin Console에서 사용자를 만들고 제품 프로필에 할당합니다. [자세히 알아보기](manage-permissions.md#add-users).

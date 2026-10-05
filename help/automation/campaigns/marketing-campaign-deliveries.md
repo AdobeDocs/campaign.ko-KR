@@ -6,23 +6,32 @@ feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-TQID: https://experienceleague.adobe.com/2qo8UUeTbMxMJse13-8HOB0dJXoSk0AKpNJamGTaqxs
+TQID: 'https://experienceleague.adobe.com/2qo8UUeTbMxMJse13-8HOB0dJXoSk0AKpNJamGTaqxs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 8d5d4b17-44c6-5e7b-891c-b4277613013d
+    internal-label: Resource Management
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 706
+source-wordcount: '706'
 ht-degree: 1%
-
 ---
-
 # 마케팅 캠페인 게재 {#marketing-campaign-deliveries}
 
 캠페인에서 크로스 채널 게재 오케스트레이션: 개인화된 이메일, SMS, 푸시 알림 및 인앱 메시지를 통해 Adobe Campaign과의 커뮤니케이션을 간소화합니다. 비디오, 이모지 또는 GIF와 같은 리치 미디어를 사용하고 직접 통합할 수 있습니다.
@@ -45,7 +54,7 @@ ht-degree: 1%
 
   워크플로우가 시작되면 게재가 캠페인 대시보드에 추가됩니다.
 
-이 페이지[&#128279;](marketing-campaign-approval.md)에서 게재 승인 흐름 을(를) 설정하고 실행하는 방법을 알아보세요.
+이 페이지](marketing-campaign-approval.md)에서 게재 승인 흐름 [을(를) 설정하고 실행하는 방법을 알아보세요.
 
 ## 게재 시작 {#start-a-delivery}
 

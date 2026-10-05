@@ -4,13 +4,16 @@ title: Technote - Adobe Campaign - Apache 버전 보안 업데이트
 description: Adobe Campaign - Apache 버전 보안 업데이트
 hide: true
 exl-id: 68e42fe4-7fb6-4b53-9f39-e77374e3753d
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
-
 ---
-
 # Adobe Campaign - Apache 버전 보안 업데이트 {#apache-update}
 
 >[!CAUTION]
@@ -24,7 +27,7 @@ Adobe Campaign 팀은 이 Apache 취약성을 완화하고 인스턴스 환경�
 
 이 업그레이드는 정상 업무 시간 외에 자동으로 실행되므로 Campaign 서비스를 중단 없이 계속 사용할 수 있습니다.
 
-프로덕션 인스턴스를 업그레이드하기 전에 먼저 팀이 비프로덕션 인스턴스를 업그레이드합니다. Adobe이 소유한 자동 업그레이드 프로세스이므로 사용자 측에서 필요한 작업이 없습니다. 그러나 문제가 발생하는 경우 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
+프로덕션 인스턴스를 업그레이드하기 전에 먼저 팀이 비프로덕션 인스턴스를 업그레이드합니다. Adobe이 소유한 자동 업그레이드 프로세스이므로 사용자 측에서 필요한 작업이 없습니다. 그러나 문제가 발생하는 경우 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
 
 
 >[!NOTE]
@@ -52,7 +55,7 @@ Adobe Campaign 팀은 이 Apache 취약성을 완화하고 인스턴스 환경�
 
 * **고객이 실행해야 하는 유효성 검사는 무엇입니까?**
 
-  이 보안 업그레이드에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
+  이 보안 업그레이드에 특정 테스트가 필요하지 않습니다. 문제가 발생하는 경우 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
 
 
 * **예약된 보안 업그레이드 슬롯에 대한 날짜/시간 변경을 요청할 수 있습니까?**
@@ -60,4 +63,4 @@ Adobe Campaign 팀은 이 Apache 취약성을 완화하고 인스턴스 환경�
   이는 보안 수정 사항이므로 기존 일정에 적응하는 것이 좋습니다.
 
 
-기타 문의 사항은 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
+기타 문의 사항은 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}에 문의하십시오.

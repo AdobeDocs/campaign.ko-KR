@@ -7,32 +7,41 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-TQID: https://experienceleague.adobe.com/bplbMEDlQOL-EDthA4nuoWmFF-sB30MWKaG1f8F6P-A
+TQID: 'https://experienceleague.adobe.com/bplbMEDlQOL-EDthA4nuoWmFF-sB30MWKaG1f8F6P-A'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Troubleshooting
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: '448'
 ht-degree: 6%
-
 ---
-
 # API 액세스 설정 {#setting-up-api-access}
 
 Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다. 이러한 각 단계는 [Adobe Developer 설명서](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)에 자세히 설명되어 있습니다.
 
 >[!IMPORTANT]
 >
->[Adobe Developer](https://developer.adobe.com/)에서 인증서를 관리하려면 조직에 대한 **시스템 관리자** 권한 또는 Admin Console의 [개발자 계정](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html)이 있는지 확인하십시오.
+>[Adobe Developer](https://developer.adobe.com/)에서 인증서를 관리하려면 조직에 대한 **시스템 관리자** 권한 또는 Admin Console의 [개발자 계정](https://helpx.adobe.com/enterprise/using/manage-developers.html)이 있는지 확인하십시오.
 
 1. **디지털 인증서가 있는지 확인**&#x200B;하거나 필요한 경우 만드십시오. 인증서와 함께 제공되는 공개 및 개인 키는 다음 단계에서 필요합니다.
 1. [Adobe Developer](https://developer.adobe.com/)에서 **Adobe Campaign 서비스에 대한 새 통합을 만들고** 구성합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).

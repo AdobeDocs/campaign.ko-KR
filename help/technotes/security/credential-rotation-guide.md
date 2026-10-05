@@ -4,13 +4,16 @@ title: 기술 노트 - 자격 증명 회전 안내서
 description: Adobe Campaign 기술 노트 - 자격 증명 회전 안내서
 hide: true
 exl-id: 0848ee2d-3506-4167-9aea-a1589aa82805
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '389'
 ht-degree: 1%
-
 ---
-
 # 기술 참고: 자격 증명 회전 안내서 {#ac-customer-credentials}
 
 고객은 손상 위험을 완화하기 위해 자격 증명을 정기적으로 새 세트로 교체할 책임이 있습니다.
@@ -44,19 +47,19 @@ Adobe Campaign 탐색기에서 **관리 > 플랫폼 > 옵션** 노드를 사용�
 
 모바일 서비스 관련 개인 키 및 인증서 순환에 대해서는 아래 링크를 참조하십시오.
 
-* Android의 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}를 참조하세요.
+* Android의 경우 [이 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}를 참조하세요.
 **Android 모바일 애플리케이션 만들기 > API 버전 구성** 섹션으로 이동합니다.
 
-* iOS의 경우 [이 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}를 참조하세요.
+* iOS의 경우 [이 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}를 참조하세요.
 **iOS 모바일 앱 만들기->인증 모드** 섹션으로 이동합니다.
 
 ## GPG 키 {#ac-gpg-credentials}
 
 GPG 키를 회전하려면 다음 단계를 수행해야 합니다.
 
-1. 기존 키를 사용하여 기존 데이터를 해독합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
+1. 기존 키를 사용하여 기존 데이터를 해독합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
 
-1. 새 GPG 키 쌍을 만듭니다. [이 설명서](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}에서 GPG 키 관리에 대해 자세히 알아보세요.
+1. 새 GPG 키 쌍을 만듭니다. [이 설명서](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}에서 GPG 키 관리에 대해 자세히 알아보세요.
 
 1. 모든 워크플로우의 기존 GPG 키 사용을 새로 만든 키로 바꿉니다.
 

@@ -5,28 +5,40 @@ feature: Data Model
 role: Developer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-TQID: https://experienceleague.adobe.com/pUzg-KbbYOXppAjG0nQe9T16Co61ipNXywTjNaV76bU
+TQID: 'https://experienceleague.adobe.com/pUzg-KbbYOXppAjG0nQe9T16Co61ipNXywTjNaV76bU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
+  - id: a1681cd8-6b2e-4955-9113-33b5f7a22b8c
+    internal-label: Data model architecture
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 737
+source-wordcount: '737'
 ht-degree: 5%
-
 ---
-
 # Campaign 데이터 모델 시작하기 {#gs-ac-datamodel}
 
 Adobe Campaign은 사전 정의된 데이터 모델을 제공합니다. 이 섹션에서는 Adobe Campaign 데이터 모델의 기본 제공 테이블과 상호 작용에 대한 몇 가지 세부 정보를 제공합니다. Adobe Campaign은 함께 연결된 테이블이 포함된 클라우드 데이터베이스를 사용합니다.
@@ -75,7 +87,7 @@ Adobe Campaign의 기본 제공 수신자 테이블(nmsrecipient)은 데이터 �
 
 [이 섹션](extend-schema.md)에서 기존 스키마를 확장하는 방법을 알아보세요.
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ko#extending-a-table){target="_blank"}에서 기본 제공 수신자 테이블 확장의 예를 살펴봅니다.
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}에서 기본 제공 수신자 테이블 확장의 예를 살펴봅니다.
 
 비즈니스 또는 기능 요구 사항에 더 잘 부합하도록 다른 수신자 테이블을 사용할 수도 있습니다. 이 메서드는 제한 사항이 있으며 [이 섹션](custom-recipient.md)에 설명되어 있습니다.
 

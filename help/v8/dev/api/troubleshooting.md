@@ -3,13 +3,22 @@ title: API 문제 해결
 description: Campaign Standard API와 관련된 일반적인 문제에 대해 자세히 알아보기
 role: Developer
 level: Experienced
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 # API 문제 해결 {#troubleshooting}
 
 * **Adobe.io 콘솔로 이동하면 다음 오류가 발생합니다. &quot;Adobe I/O 콘솔은 엔터프라이즈 계정의 일부 구성원만 사용할 수 있습니다. 액세스 권한이 있다고 생각되면 시스템 관리자에게 문의하십시오.&quot;**

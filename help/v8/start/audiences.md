@@ -6,27 +6,34 @@ role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 version: Campaign v8, Campaign Classic v7
-TQID: https://experienceleague.adobe.com/7yA7UY-YeKjSgy6jUpDWdHpCHRuT-FFi4xTfhj3awu8
+TQID: 'https://experienceleague.adobe.com/7yA7UY-YeKjSgy6jUpDWdHpCHRuT-FFi4xTfhj3awu8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 533
+source-wordcount: '533'
 ht-degree: 18%
-
 ---
-
 # Campaign에서 대상자를 사용하여 작업{#gs-ac-audiences}
 
 프로필은 Adobe Campaign 데이터베이스에 저장된 연락처를 나타냅니다. 기본적으로 **받는 사람**&#x200B;은(는) 전자 메일, SMS 또는 DM과 같은 게재를 보낼 때 사용되는 기본 프로필입니다. 데이터베이스에 저장된 수신자 데이터를 사용하면 타겟 대상자를 정의 및 필터링하고 게재 콘텐츠를 개인화할 수 있습니다. 수신자 외에도 다른 프로필 유형이 특정 목적을 위해 존재합니다. 예를 들어 시드 프로필을 사용하면 실제 대상자에게 전송되기 전에 게재를 테스트할 수 있습니다.
@@ -58,7 +65,7 @@ ht-degree: 18%
 
 계약에 따라 각 캠페인 인스턴스에는 청구 용도로 계산되는 특정 양의 활성 프로필이 제공됩니다. 구입한 활성 프로필 수에 대한 자세한 내용은 최신 계약서를 참조하십시오. [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}에서 자세히 알아보세요.
 
-Campaign Campaign 컨트롤 패널에서 직접 인스턴스의 활성 프로필 수를 모니터링할 수 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ko){target="_blank"}를 참조하세요.
+Campaign Campaign 컨트롤 패널에서 직접 인스턴스의 활성 프로필 수를 모니터링할 수 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}를 참조하세요.
 
 
 다음과 같은 보호 기능 및 제한 사항이 적용됩니다.

@@ -6,22 +6,29 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-TQID: https://experienceleague.adobe.com/G8-4BinRvCMosfdiTD6FuEztviEDn6ea8hKeQd8QVSA
+TQID: 'https://experienceleague.adobe.com/G8-4BinRvCMosfdiTD6FuEztviEDn6ea8hKeQd8QVSA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '474'
 ht-degree: 48%
-
 ---
-
 # 개인화 시작하기 {#personalize-content}
 
 Adobe Campaign에서는 모든 마케팅 캠페인을 최대한 활용하기 위해 고객의 수준에 맞는 맞춤형 콘텐츠를 제공할 수 있습니다. 프로필 데이터를 기반으로 다양한 그룹 및 개인에 대한 사용자 지정 환경을 만드는 개인화 기능: 보유한 데이터 및 정보를 활용하여 메시지를 각 특정 수신자에게 적용할 수 있습니다. 이름, 관심사, 사는 곳, 산 물건 등이 될 수 있습니다.
@@ -81,4 +88,4 @@ Adobe Campaign은 개인화를 간소화합니다. 단일 [메시지 템플릿](
 다양한 유형의 다이내믹 콘텐츠를 파악하고 개인화 블록 및 조건문을 만들어 게재에 적용하는 방법을 알아봅니다.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3452875?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)

@@ -6,13 +6,22 @@ feature: Deliverability
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 5%
-
 ---
-
 # 메시지 콘텐츠 제어{#control-message-content}
 
 이메일이 수신자에게 도달하고 이메일 게재 가능성을 높이려면 많은 규칙을 준수해야 합니다. 그렇지 않으면 특정 메시지의 콘텐츠가 스팸으로 감지될 수 있습니다. Adobe Campaign은 콘텐츠가 이러한 규칙을 준수하도록 하는 몇 가지 도구를 제공합니다.
@@ -25,7 +34,7 @@ ht-degree: 5%
 * [구독 취소 링크](#opt-out) 및 랜딩 페이지: 구독 취소 링크는 필수입니다. 표시 및 유효해야 하며 양식이 제대로 작동해야 합니다.
 * 미리 보기: Adobe Campaign에서 제공하는 도구를 사용하여 전자 메일 콘텐츠를 확인하고 최적화합니다([받은 편지함 렌더링](#message-responsiveness), [SpamAssassin](#spamassassin)).
 
-콘텐츠를 디자인할 때 게재 능력을 최적화하는 추가 팁은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=ko){target="_blank"}를 참조하세요.
+콘텐츠를 디자인할 때 게재 능력을 최적화하는 추가 팁은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
@@ -51,7 +60,7 @@ Adobe Campaign에서 개인화 필드를 사용하는 방법에 대한 자세한
 
 보낼 때마다 옵트아웃 링크가 제대로 작동하는지 확인해야 합니다. 예를 들어 증명을 보낼 때 링크가 유효한지, 양식이 온라인 상태인지, 그리고 유효성을 검사하면 **[!UICONTROL No longer contact this recipient]** 필드의 값이 **[!UICONTROL Yes]**(으)로 변경되는지 확인하십시오. 링크를 입력하거나 양식을 변경할 때 사람의 오류가 항상 발생할 수 있으므로 이 검사를 체계적으로 수행해야 합니다.
 
-이 섹션[&#128279;](personalization-blocks.md#ootb-personalization-blocks)에서 옵트아웃 링크 을(를) 삽입하는 방법을 알아봅니다.
+이 섹션](personalization-blocks.md#ootb-personalization-blocks)에서 옵트아웃 링크 [을(를) 삽입하는 방법을 알아봅니다.
 
 게재를 시작한 후 구독 취소와 관련하여 문제가 감지되면, 선택 사항을 확인할 수 없는 경우에도 옵트아웃 링크를 클릭하는 수신자에 대해 수동으로 구독 취소를 수행할 수 있습니다(예: 대량 업데이트 기능 사용).
 

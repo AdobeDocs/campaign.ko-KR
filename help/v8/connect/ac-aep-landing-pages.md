@@ -5,26 +5,38 @@ feature: Experience Platform Integration
 role: Developer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-TQID: https://experienceleague.adobe.com/LWOsfmxhIhhcbbXp6SXq2MLpejPdfipyOllm0SBmVAo
+TQID: 'https://experienceleague.adobe.com/LWOsfmxhIhhcbbXp6SXq2MLpejPdfipyOllm0SBmVAo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Experience Platform integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1038
+source-wordcount: '1038'
 ht-degree: 1%
-
 ---
-
 # Adobe Campaign 랜딩 페이지에서 Adobe Experience Platform 프로필 업데이트 {#ac-aep-lp}
 
 Adobe Campaign과 Adobe Experience Platform을 통합하면 Adobe Campaign 랜딩 페이지와 Adobe Experience Platform 간에 프로필 데이터를 원활하게 동기화할 수 있습니다. 이 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
@@ -69,7 +81,7 @@ OAuth 연결을 통해 다음 단계는 Adobe Experience Platform에서 **[!UICO
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. 필요에 따라 연결을 구성합니다. HTTP API 연결을 구성하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 소스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=ko){target="_blank"}를 참조하세요.
+1. 필요에 따라 연결을 구성합니다. HTTP API 연결을 구성하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 소스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}를 참조하세요.
 
    **[!UICONTROL Authentication]** 단계에서 OAuth 통합을 통해 이전에 생성된 액세스 토큰을 사용하여 인증하려면 **[!UICONTROL Enable authentication]** 옵션을 켜십시오.
 
@@ -111,7 +123,7 @@ HTTP API Source 연결이 구성되면 Adobe Campaign에 특정 옵션을 추가
 
 >[!TAB JavaScript 코드 활동을 사용하여 옵션 추가]
 
-랜딩 페이지 워크플로우를 실행할 때 이러한 옵션을 자동으로 구성하려면 아래 코드를 사용하여 워크플로우에 **[!UICONTROL JavaScript code]** 활동을 추가합니다. [JavaScript 코드 활동을 구성하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html?lang=ko#JavaScript-code){target="_blank"}.
+랜딩 페이지 워크플로우를 실행할 때 이러한 옵션을 자동으로 구성하려면 아래 코드를 사용하여 워크플로우에 **[!UICONTROL JavaScript code]** 활동을 추가합니다. [JavaScript 코드 활동을 구성하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html#JavaScript-code){target="_blank"}.
 
 워크플로우 실행 시 옵션은 제공된 값으로 Campaign 콘솔에 자동으로 만들어집니다.
 
@@ -357,5 +369,5 @@ Adobe Campaign에 추가된 JavaScript 코드를 사용하여 **[!UICONTROL Java
 ### 추가 정보
 
 * [JavaScript 코드 활동 구성](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [랜딩 페이지 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html?lang=ko){target="_blank"}
+* [랜딩 페이지 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html){target="_blank"}
 * [구독 및 구독 취소 관리](../start/subscriptions.md)

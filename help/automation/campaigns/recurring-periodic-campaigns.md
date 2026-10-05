@@ -6,20 +6,27 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 68c5b903-5043-4e74-b3f6-90a7f2fb3b9a
-TQID: https://experienceleague.adobe.com/KvqJgnEmIVPmL4K5bSC2t02SQoZ1xskNzrgTTeESnVA
+TQID: 'https://experienceleague.adobe.com/KvqJgnEmIVPmL4K5bSC2t02SQoZ1xskNzrgTTeESnVA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
+  - id: 6641bfdc-d19c-56e4-9045-0f6d06e8a43b
+    internal-label: Programs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 791
+source-wordcount: '806'
 ht-degree: 0%
-
 ---
-
 # 반복 및 정기 캠페인 {#recurring-and-periodic-campaigns}
 
 **반복 캠페인**&#x200B;은(는) 연결된 일정에 따라 워크플로우를 실행하도록 구성된 특정 템플릿을 기반으로 하는 캠페인입니다. 타겟팅은 각 실행에 대해 복제되며, 다양한 프로세스 및 타겟 모집단을 추적합니다.  구성이 완료되면 반복 캠페인은 워크플로 템플릿을 복제하여 새 워크플로를 자동으로 만들고 실행합니다. 예를 들어 대상 세그먼트에 월별 미리 알림을 보내야 하는 경우 매년 초에 월별 하나씩 12개의 워크플로우를 만들도록 반복 캠페인을 구성합니다. [자세히 알아보기](#create-a-recurring-campaign)

@@ -5,25 +5,35 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-TQID: https://experienceleague.adobe.com/RcdMeKFZIeitseKyZb72sz6O1y7lhtwajxwAr5V9vLo
+TQID: 'https://experienceleague.adobe.com/RcdMeKFZIeitseKyZb72sz6O1y7lhtwajxwAr5V9vLo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 945
+source-wordcount: '945'
 ht-degree: 5%
-
 ---
-
 # 오퍼 만들기
 
 오퍼를 만들려면 아래 단계를 수행하십시오.
@@ -192,13 +202,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 이제 **Live** 환경에서 사용할 수 있도록 오퍼를 승인하고 활성화할 수 있습니다.
 
-자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=ko#approving-offer-content){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content){target="_blank"}를 참조하세요.
 
 ## 오퍼 프레젠테이션 관리{#offer-presentation}
 
 Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 제안의 흐름을 제어할 수 있습니다. Campaign Interaction에 해당하는 이러한 규칙은 **유형화 규칙**&#x200B;입니다. 수신자에게 이미 제안된 이력을 기반으로 오퍼를 제외할 수 있습니다. 환경에서 참조됩니다.
 
-자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=ko#managing-offers){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html#managing-offers){target="_blank"}를 참조하세요.
 
 ## 오퍼 시뮬레이션
 
@@ -206,4 +216,4 @@ Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 제안
 
 시뮬레이션은 오퍼에 이전에 적용된 컨텍스트 및 자격 규칙과 해당 프레젠테이션 규칙을 고려합니다. 시뮬레이션은 타겟팅된 수신자에게 영향을 주지 않으므로 실제로 오퍼를 사용하지 않거나 대상을 초과/요청하지 않고 오퍼 제안의 다양한 버전을 테스트하고 세분화할 수 있습니다.
 
-오퍼 시뮬레이션에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=ko){target="_blank"}를 참조하세요.
+오퍼 시뮬레이션에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html){target="_blank"}를 참조하세요.

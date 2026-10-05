@@ -4,13 +4,16 @@ title: 클라이언트 콘솔 32비트 사용 중단
 description: 클라이언트 콘솔 32비트 사용 중단
 hide: true
 exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 1%
-
 ---
-
 # 32비트 운영 체제에 대한 지원 종료 {#console-eol}
 
 클라이언트 콘솔의 32비트 버전은 8.5 릴리스에서 더 이상 사용되지 않습니다. 원활한 업그레이드를 위해 새로운 64비트 버전의 클라이언트 콘솔을 사용할 수 있습니다.

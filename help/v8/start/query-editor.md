@@ -6,22 +6,32 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 071274f1-7c60-445d-ac07-f5f4f229a489
-TQID: https://experienceleague.adobe.com/lK6pRjnRXZQImlY7JjrUtvGSHpw-ohay8pBTTu2NH14
+TQID: 'https://experienceleague.adobe.com/lK6pRjnRXZQImlY7JjrUtvGSHpw-ohay8pBTTu2NH14'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Data management
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 153
+source-wordcount: '153'
 ht-degree: 5%
-
 ---
-
 # Campaign 데이터베이스 쿼리
 
 쿼리 도구는 애플리케이션의 다양한 수준에서 사용할 수 있으며, 대상 모집단, 고객을 세그먼트화하고 추적 로그를 추출 및 필터링하고 필터를 만드는 데 사용할 수 있습니다.
@@ -33,7 +43,7 @@ ht-degree: 5%
 ![쿼리 편집기에 액세스하여 테이블 선택](assets/query_editor_nveau_21.png)
 
 
-쿼리를 만드는 단계는 [이 페이지의 &#x200B;](design-queries.md)에 자세히 설명되어 있습니다.
+쿼리를 만드는 단계는 [이 페이지의 ](design-queries.md)에 자세히 설명되어 있습니다.
 
 <!--
 Contexts to use the query editor iin Campaign are listed below:

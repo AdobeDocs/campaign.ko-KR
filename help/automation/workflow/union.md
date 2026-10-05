@@ -5,16 +5,25 @@ description: 결합 워크플로우 활동에 대해 자세히 알아보기
 feature: Workflows, Targeting Activity
 version: Campaign v8, Campaign Classic v7
 exl-id: 4109e198-bf9d-4dd2-92a1-16bbadbe30e8
-TQID: https://experienceleague.adobe.com/-P-pc2ps970pfhgXZfv8atoVKGB-vS0B8vBdrR0DLZQ
+TQID: 'https://experienceleague.adobe.com/-P-pc2ps970pfhgXZfv8atoVKGB-vS0B8vBdrR0DLZQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
+    internal-label: Targeting Activity
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 297
+source-wordcount: '297'
 ht-degree: 2%
-
 ---
-
 # 합집합{#union}
 
 **[!UICONTROL Union]**&#x200B;은(는) 여러 인바운드 활동의 결과를 하나의 타겟으로 그룹화합니다. 수신된 모든 결과와 함께 대상이 생성됩니다. 따라서 조합을 실행하려면 모든 이전 활동이 완료되어야 합니다.

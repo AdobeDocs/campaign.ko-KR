@@ -6,27 +6,39 @@ feature: Approvals, Campaigns
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
-TQID: https://experienceleague.adobe.com/YuwN3F1QHL4OR3KLaq2D2j-xxAGsuw4433TgKvMMzsI
+TQID: 'https://experienceleague.adobe.com/YuwN3F1QHL4OR3KLaq2D2j-xxAGsuw4433TgKvMMzsI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
+  - id: ce296ecd-3d06-45ab-83c3-37214e8ce31c
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2231
+source-wordcount: '2294'
 ht-degree: 1%
-
 ---
-
 # 승인 프로세스 설정 및 관리 {#approval-marketing-campaigns}
 
 마케팅 캠페인을 만들고 승인하는 방법 및 담당자는 각 조직마다 다릅니다. 캠페인 승인 프로세스에는 디지털 마케터, 게재 관리자, 콘텐츠 관리자, 파트너나 공급자와 같은 외부 소유자 등 여러 관련자를 조정하는 작업이 포함됩니다.

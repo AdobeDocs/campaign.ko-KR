@@ -5,22 +5,31 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 98613a0a-7a6d-41a5-9541-e045d4ca318f
-TQID: https://experienceleague.adobe.com/47AdBAmfUk8LOApirtY00zHx1cddAdH0xVoYUlqVctQ
+TQID: 'https://experienceleague.adobe.com/47AdBAmfUk8LOApirtY00zHx1cddAdH0xVoYUlqVctQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 206
+source-wordcount: '206'
 ht-degree: 19%
-
 ---
-
 # [!DNL Campaign Standard]에서 [!DNL Campaign] v8로 전환 {#acs-to-acv8}
 
 이제 Campaign Standard 사용자가 Campaign v8로 전환하면 새로운 버전의 Adobe Campaign Web User Interface와 강력한 v8 콘솔을 사용할 수 있습니다. 전환은 보여 주지 않으며 개인화된 크로스 채널 캠페인 생성을 단순화하기 위해 설계된 모든 직관적인 기능을 사용할 수 있습니다. 또한 Campaign 웹 사용자 인터페이스는 통합 경험을 위해 Adobe Experience Platform과 연결된 캔버스를 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/acs-migration){target="_blank"}.

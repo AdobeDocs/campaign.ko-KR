@@ -4,13 +4,22 @@ description: Adobe Developer 콘솔에서 Campaign 기술 연산자를 기술 �
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '1598'
 ht-degree: 0%
-
 ---
-
 # Campaign 기술 운영자를 Adobe Developer Console으로 마이그레이션 {#migrate-tech-users-to-ims}
 
 Campaign v8.5부터 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 이제 기술 운영자가 [IMS(Adobe Identity Management System)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 사용하여 Campaign에 연결할 수 있습니다. [Adobe Developer Console 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}에서 새 서버 간 인증 프로세스에 대해 자세히 알아보세요.
@@ -75,7 +84,7 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 
 프로젝트에 API를 추가하려면 다음 단계를 수행합니다.
 
-1. **API 추가**&#x200B;를 클릭하여 프로젝트에 추가할 API를 선택합니다.
+1. **API 추가**를 클릭하여 프로젝트에 추가할 API를 선택합니다.
    ![](assets/do-not-localize/ims-updates-01.png)
 1. Adobe Campaign API를 선택하고 프로젝트에 추가합니다. 카드를 마우스로 가리키면 표시되는 Adobe Campaign 카드의 오른쪽 상단 모서리에 있는 상자를 선택합니다
    ![](assets/do-not-localize/ims-updates-02.png)
@@ -213,7 +222,7 @@ curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?sch
 
 이 단계는 선택 사항이며 메시지 센터 인스턴스가 아닌 마케팅 인스턴스 내에서만 사용할 수 있습니다. 지정된 운영자 그룹을 통하지 않는 기술 운영자에 대해 특정 폴더 권한 또는 명명된 권한이 정의된 경우. 이제 Admin Console에서 새로 만든 기술 계정 사용자를 업데이트하여 필요한 폴더 권한 또는 명명된 권한을 부여해야 합니다.
 
-Campaign 인스턴스에 대한 API 호출이 하나 이상 만들어져야 IMS가 Campaign 내에서 사용자를 만들 수 있으므로 기술 계정 사용자는 Adobe Campaign에 존재하지 않습니다. Campaign 내에서 기술 사용자를 찾을 수 없는 경우 [단계 &#x200B;](#ims-migration-step-7)에 설명된 대로 API 호출을 성공적으로 보낼 수 있는지 확인하십시오.
+Campaign 인스턴스에 대한 API 호출이 하나 이상 만들어져야 IMS가 Campaign 내에서 사용자를 만들 수 있으므로 기술 계정 사용자는 Adobe Campaign에 존재하지 않습니다. Campaign 내에서 기술 사용자를 찾을 수 없는 경우 [단계 ](#ims-migration-step-7)에 설명된 대로 API 호출을 성공적으로 보낼 수 있는지 확인하십시오.
 
 1. 새 기술 계정 사용자에게 필요한 변경 사항을 적용하려면 Campaign 클라이언트 콘솔 내에서 이메일 주소로 해당 변경 사항을 찾습니다. 이 이메일 주소는 위의 프로젝트 만들기 및 인증 단계 동안 만들어졌습니다.
 

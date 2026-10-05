@@ -5,31 +5,44 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-TQID: https://experienceleague.adobe.com/3v1DvcZNzLHKRFApdOR2yXxh72EUP1mqDkR3-vbYglY
+TQID: 'https://experienceleague.adobe.com/3v1DvcZNzLHKRFApdOR2yXxh72EUP1mqDkR3-vbYglY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1403
+source-wordcount: '1429'
 ht-degree: 2%
-
 ---
-
 # Campaign을 Microsoft Dynamics 365와 함께 사용하기{#crm-ms-dynamics}
 
 크로스 채널 통신에서 CRM 데이터 활성화: **Microsoft Dynamics 365**&#x200B;에서 Adobe Campaign으로 연락처를 전달하고 Adobe Campaign 성능 데이터(전송, 열기, 클릭, 바운스)를 다시 Microsoft Dynamics 365로 공유하는 방법을 알아봅니다.
@@ -211,9 +224,9 @@ Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니�
 
 Adobe Campaign 데이터와 Microsoft CRM 간의 데이터를 동기화하려면 워크플로우를 만들고 **[!UICONTROL CRM connector]** 활동을 사용합니다.
 
-이 페이지[&#128279;](crm-data-sync.md)에서 데이터 동기화 에 대해 자세히 알아보세요.
+이 페이지](crm-data-sync.md)에서 데이터 동기화 [에 대해 자세히 알아보세요.
 
-이 페이지[&#128279;](../config/enumerations.md)에서 Campaign 의 열거 관리에 대해 자세히 알아보세요.
+이 페이지](../config/enumerations.md)에서 Campaign [의 열거 관리에 대해 자세히 알아보세요.
 
 ### 지원되는 필드 데이터 유형 {#ms-dyn-supported-types}
 

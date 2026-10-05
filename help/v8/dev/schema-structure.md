@@ -5,25 +5,44 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-TQID: https://experienceleague.adobe.com/RFayUnFrNC-V7ZsbldmoRTFt-hfNN5oPTvcxhXKt7e0
+TQID: 'https://experienceleague.adobe.com/RFayUnFrNC-V7ZsbldmoRTFt-hfNN5oPTvcxhXKt7e0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+    internal-label: Schema extension
+  - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
+    internal-label: Configuration guidelines
+  - id: a1681cd8-6b2e-4955-9113-33b5f7a22b8c
+    internal-label: Data model architecture
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1447
+source-wordcount: '1447'
 ht-degree: 1%
-
 ---
-
 # 스키마 구조{#schema-structure}
 
 `<srcschema>`의 기본 구조는 다음과 같습니다.
@@ -136,7 +155,7 @@ ht-degree: 1%
 
 데이터 형식은 **`<attribute>`** 및 **`<element>`** 요소의 **type** 특성을 통해 입력됩니다.
 
-자세한 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ko#configuring-campaign-classic){target="_blank"}를 참조하세요.
+자세한 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}를 참조하세요.
 
 이 특성이 채워지지 않으면 요소에 자식 요소가 들어 있지 않으면 **string**&#x200B;이(가) 기본 데이터 형식입니다. 이 경우 요소를 계층 구조화하는 데만 사용됩니다(이 예제에서는 **`<location>`** 요소).
 

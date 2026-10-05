@@ -6,13 +6,28 @@ role: Developer
 level: Intermediate
 badge: label="제한 공개" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 3%
-
 ---
-
 # 수정된 푸시 알림 구성 {#push-notifications-config}
 
 Campaign v8.5는 최신 첨단 기술을 기반으로 구축된 강력한 프레임워크를 기반으로 하는 최신 푸시 알림 서비스를 도입했습니다. 이 서비스는 새로운 차원의 확장성을 제공하도록 설계되었으므로, 원활한 효율성으로 더 많은 대상자에게 알림이 전달될 수 있습니다. 향상된 인프라와 최적화된 프로세스를 통해 더 높은 규모와 신뢰성을 기대할 수 있으며, 이전과 달리 모바일 앱 사용자를 참여시키고 연결할 수 있는 역량을 확보할 수 있습니다.

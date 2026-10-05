@@ -3,13 +3,16 @@ title: Campaign 이메일 전송 인프라 업그레이드
 description: Campaign 이메일 전송 인프라 업그레이드
 hide: true
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 1%
-
 ---
-
 # Campaign 이메일 전송 인프라 업그레이드 {#migrate-infra-to-aws}
 
 ## 어떤 기능이 업그레이드됩니까?{#aws-changes}
@@ -56,11 +59,11 @@ ht-degree: 1%
 
 * **고객에게 필요한 테스트는 무엇입니까?**
 
-  이 업그레이드 이벤트와 관련하여 고객이 어떤 테스트도 예상치 않습니다. 문제가 발생하는 경우 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
+  이 업그레이드 이벤트와 관련하여 고객이 어떤 테스트도 예상치 않습니다. 문제가 발생하는 경우 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
 
 
 * **예약된 보안 업그레이드 슬롯에 대한 날짜/시간 변경을 요청할 수 있습니까?**
 
   아니요. 기존 일정에 대해 요청된 수정 사항을 수용할 수 없습니다. 다른 고객에 대해 할당된 업그레이드 이벤트가 중단될 수 있기 때문입니다.
 
-기타 문의 사항은 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/ko?support-solution=Campaign#support){target="_blank"}에 문의하십시오.
+기타 문의 사항은 [Adobe 고객 지원 센터](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}에 문의하십시오.

@@ -6,34 +6,54 @@ role: User
 level: Beginner, Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-TQID: https://experienceleague.adobe.com/sAapnzXcpGvhnYG3J70n9Tq51KZCmvFlxMW4EfYh6Ck
+TQID: 'https://experienceleague.adobe.com/sAapnzXcpGvhnYG3J70n9Tq51KZCmvFlxMW4EfYh6Ck'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 3422
+source-wordcount: '3442'
 ht-degree: 6%
-
 ---
-
 # 게재 실패 이해 {#delivery-failures}
 
 바운스 수는 ISP가 백 실패 알림을 제공하는 게재 시도 및 실패의 결과입니다. 바운스 처리 프로세싱은 목록 안전 상태의 중요한 부분입니다. 지정된 이메일이 여러 번 연속적으로 반송된 후 이 프로세스는 해당 이메일에 대해 비표시 플래그를 지정합니다.
@@ -62,7 +82,7 @@ ht-degree: 6%
 
 **무시됨** 유형의 오류는 &quot;부재 중&quot;과 같은 일시적인 오류이거나 예를 들어 발신자 유형이 &quot;postmaster&quot;인 경우와 같은 기술적인 오류로 알려져 있습니다.
 
-피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 전달되는 모든 것을 차단할 수 있습니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않았더라도 차단 목록에 추가된으로 제공됩니다. 주소는 **[!UICONTROL Denylisted]** 상태의 (**NmsRecipient**) 받는 사람 테이블이 아니라 (**NmsAddress**) 격리 테이블에 추가됩니다. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#feedback-loops){target="_blank"}에서 피드백 루프 메커니즘에 대해 자세히 알아보세요.
+피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 전달되는 모든 것을 차단할 수 있습니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않았더라도 차단 목록에 추가된으로 제공됩니다. 주소는 **[!UICONTROL Denylisted]** 상태의 (**NmsRecipient**) 받는 사람 테이블이 아니라 (**NmsAddress**) 격리 테이블에 추가됩니다. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}에서 피드백 루프 메커니즘에 대해 자세히 알아보세요.
 
 ## 동기 및 비동기 오류 {#synchronous-and-asynchronous-errors}
 
@@ -137,7 +157,7 @@ Campaign 게재의 유효 기간 설정이 **3.5일 이하**(으)로 제한됩�
 
 메시지가 3.5일 동안 MTA 큐에 있고 배달하지 못하면 시간이 초과되고 게재 로그에서 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 상태가 업데이트됩니다.
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ko#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## 이메일 오류 유형 {#email-error-types}
@@ -748,7 +768,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 **원인**: 전자 메일 내에 받는 사람에 대한 값이 두 개 이상인 개인화 필드 또는 블록이 있습니다. 개인화 블록을 사용 중이며 특정 수신자에 대해 두 개 이상의 레코드를 가져오고 있습니다.
 
-**해결 방법**: 사용된 개인화 데이터를 확인한 다음 해당 필드에 둘 이상의 항목이 있는 수신자의 대상을 확인하십시오. 게재 활동 이전에 타기팅 워크플로우에서 **[!UICONTROL Deduplication]** 활동을 사용하여 한 번에 하나의 개인화 필드만 있도록 할 수도 있습니다. 중복 제거에 대한 자세한 내용은 [워크플로 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ko){target="_blank"}를 참조하세요.
+**해결 방법**: 사용된 개인화 데이터를 확인한 다음 해당 필드에 둘 이상의 항목이 있는 수신자의 대상을 확인하십시오. 게재 활동 이전에 타기팅 워크플로우에서 **[!UICONTROL Deduplication]** 활동을 사용하여 한 번에 하나의 개인화 필드만 있도록 할 수도 있습니다. 중복 제거에 대한 자세한 내용은 [워크플로 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}를 참조하세요.
 
 ### 자동 회신 처리 {#auto-reply-handling}
 

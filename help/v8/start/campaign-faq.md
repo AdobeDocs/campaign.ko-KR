@@ -6,20 +6,29 @@ role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 hide: true
-TQID: https://experienceleague.adobe.com/Cpc-97Lab93SQhsFloibdhpvCDFockj6afFSZUTgKoM
+TQID: 'https://experienceleague.adobe.com/Cpc-97Lab93SQhsFloibdhpvCDFockj6afFSZUTgKoM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b285c321f3b905150b31621941ea99608d627739
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 785
+source-wordcount: '785'
 ht-degree: 96%
-
 ---
-
 # 자주 묻는 질문{#faq}
 
 Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변을 읽어 보세요.
@@ -98,7 +107,7 @@ Campaign 작업 중 도움이 필요하신가요? 아래의 주요 질문/답변
 
 1. **Campaign 전문가와 소통할 수 있을까요?**
 
-   Campaign 커뮤니티 가입: 기존 질문에서 답변을 검색하거나 전문가에게 질문할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko){target="_blank"}
+   Campaign 커뮤니티 가입: 기존 질문에서 답변을 검색하거나 전문가에게 질문할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **문제에 대해 문의하는 방법은 무엇인가요?**

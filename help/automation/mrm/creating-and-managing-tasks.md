@@ -5,22 +5,28 @@ description: 작업 만들기 및 관리
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-TQID: https://experienceleague.adobe.com/LggpejZ5h1fYPh3efYx2f7x3DEhqVlvPndjgNkNUUCs
+TQID: 'https://experienceleague.adobe.com/LggpejZ5h1fYPh3efYx2f7x3DEhqVlvPndjgNkNUUCs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 8d5d4b17-44c6-5e7b-891c-b4277613013d
+    internal-label: Resource Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Implementation
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 3766
+source-wordcount: '3766'
 ht-degree: 0%
-
 ---
-
 # 작업 만들기 및 관리{#creating-and-managing-tasks}
 
 Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작업의 전체 주기를 직접 관리할 수 있습니다. 프로그램 및 캠페인 구현은 Adobe Campaign 운영자 또는 외부 서비스 공급자에게 할당된 작업으로 분류할 수 있습니다. 이 작업 모드를 사용하면 모든 프로그램 참여자와 외부 참여자를 포함하는 개방형 공동 작업 환경을 만들 수 있습니다.

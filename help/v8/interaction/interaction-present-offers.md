@@ -5,19 +5,27 @@ description: Campaign 상호 작용 모듈을 사용하여 최상의 오퍼를 �
 feature: Interaction, Offers
 role: User, Admin
 exl-id: d0137fa7-3d04-4205-b49c-46973e45a5b8
-TQID: https://experienceleague.adobe.com/aC-hN1JwwFkuGc6ZNV0M3uHpM7LcXTHpyC9wCbxKziQ
+TQID: 'https://experienceleague.adobe.com/aC-hN1JwwFkuGc6ZNV0M3uHpM7LcXTHpyC9wCbxKziQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Admin
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 209
+source-wordcount: '209'
 ht-degree: 8%
-
 ---
-
 # 최상의 오퍼 제공{#interaction-present-offers}
 
 [인바운드 또는 아웃바운드 채널](interaction-architecture.md#interaction-types)을 사용하여 다양한 오퍼 공간에서 오퍼를 표시할 수 있습니다. 이 장에서는 인바운드 채널에 대한 몇 가지 특정 기능을 자세히 설명합니다.
@@ -26,7 +34,7 @@ ht-degree: 8%
 
 오퍼 엔진에서 오퍼를 선택하려면 오퍼를 승인하고 라이브 환경에서 사용할 수 있어야 합니다.
 
-자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=ko#approving-offer-content){target="_blank"}를 참조하세요.
+자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content){target="_blank"}를 참조하세요.
 
 인바운드 연락처의 컨텍스트에서 페이지를 탐색하는 사용자를 웹 사이트로 식별하거나 식별하지 못할 수 있습니다. 오퍼 엔진은 식별된 프로필과 익명 프로필에 대해 서로 다른 오퍼를 제공합니다.
 

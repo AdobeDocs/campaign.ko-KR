@@ -5,29 +5,40 @@ feature: Monitoring
 role: User
 level: Beginner
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
-TQID: https://experienceleague.adobe.com/sCrSBuIMzs-KanEWOMDXuWTHjSnwNtkJe-PxOcumIBE
+TQID: 'https://experienceleague.adobe.com/sCrSBuIMzs-KanEWOMDXuWTHjSnwNtkJe-PxOcumIBE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: '627'
 ht-degree: 1%
-
 ---
-
 # 메시지 추적 테스트 {#testing-tracking}
 
 게재를 전체 대상자에게 보내기 전에 추적 기능을 테스트하여 모든 링크가 올바르게 작동하고 추적 데이터가 제대로 캡처되는지 확인해야 합니다. 이 확인 프로세스를 사용하면 캠페인이 시작되기 전에 추적 문제를 식별하고 수정하여 링크 리디렉션, 추적 픽셀 로드 또는 데이터 수집과 관련된 잠재적 문제를 방지할 수 있습니다.

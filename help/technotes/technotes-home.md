@@ -5,13 +5,22 @@ title: Adobe Campaign 기술 문서
 role: Developer
 level: Experienced
 exl-id: ae1ef010-24d5-4be4-a30c-899e2b0040a4
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 75%
-
+source-wordcount: '339'
+ht-degree: 21%
 ---
-
 # Adobe Campaign v8 기술 정보 {#campaign-technotes}
 
 이 섹션에서 최신 Campaign 기술 정보를 찾아보십시오. 이러한 기술 정보는 Campaign v8에 적용됩니다.
@@ -43,17 +52,17 @@ Starting Campaign v8.6, the authentication process to Campaign v8 is being impro
     <td>
       <img src="../v8/assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>시작</strong><br/><a href="../v8/start/campaign-ui.md">사용자 인터페이스</a> - <a href="../v8/start/ac-components.md">구성 요소 및 프로세스</a> - <a href="../v8/start/v7-to-v8.md">Classic v7에서 v8로</a> - <a href="../v8/start/campaign-faq.md">FAQ</a>
+      <strong>시작하기</strong><br/><a href="../v8/start/campaign-ui.md">사용자 인터페이스</a> - <a href="../v8/start/ac-components.md">구성 요소 및 프로세스</a> - <a href="../v8/start/v7-to-v8.md">Classic v7에서 v8까지</a> - <a href="../v8/start/campaign-faq.md">FAQ</a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>고객 경험</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">워크플로로 자동화</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">캠페인 오케스트레이션</a> - <a href="../v8/interaction/interaction.md">의사 결정 관리</a> - <a href="../v8/send/personalize.md">개인화</a>
+      <strong>고객 경험</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">워크플로우 자동화</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">캠페인 오케스트레이션</a> - <a href="../v8/interaction/interaction.md">의사 결정 관리</a> - <a href="../v8/send/personalize.md">Personalization</a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>메시지 보내기</strong><br/><a href="../v8/start/create-message.md">시작</a> - <a href="../v8/send/preview-and-proof.md">미리 보기 및 교정쇄</a> - <a href="../v8/send/predictive.md">전송 시간 최적화</a> - <a href="../v8/reporting/gs-reporting.md">보고 및 분석</a>
+      <strong>메시지 보내기</strong><br/><a href="../v8/start/create-message.md">시작하기</a> - <a href="../v8/send/preview-and-proof.md">미리 보기 및 증명</a> - <a href="../v8/send/predictive.md">전송 시간 최적화</a> - <a href="../v8/reporting/gs-reporting.md">보고 및 분석</a>
     </td>
   </tr>
   <tr style="border: 0;">

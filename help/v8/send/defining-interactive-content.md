@@ -6,21 +6,31 @@ feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 2a8b900b-ce0a-41b1-b4e4-b024ca93052e
-TQID: https://experienceleague.adobe.com/R-P0T4JskiBJcyqG-Mq9AilPcnHP-SglGbew0JGqJ-0
+TQID: 'https://experienceleague.adobe.com/R-P0T4JskiBJcyqG-Mq9AilPcnHP-SglGbew0JGqJ-0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1461
+source-wordcount: '1461'
 ht-degree: 3%
-
 ---
-
 # 대화형 콘텐츠 정의{#defining-interactive-content}
 
 Adobe Campaign을 사용하면 특정 조건에서 동적 이메일을 보낼 수 있는 대화형 [AMP for Email](https://amp.dev/about/email/) 형식을 사용할 수 있습니다.
@@ -206,4 +216,4 @@ AMP 콘텐츠와 대체 항목이 준비되고 호환되는 타겟을 정의하�
 
 아래 비디오에서는 Adobe Campaign에서 AMP를 활성화하는 방법을 설명하고 사용 사례를 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/36393?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)

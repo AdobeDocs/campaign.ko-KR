@@ -2,13 +2,16 @@
 title: 캠페인 운영자를 Adobe Identity Management System(IMS)으로 마이그레이션
 description: Campaign 연산자를 Adobe Identity Management System(IMS)으로 마이그레이션하는 방법에 대해 알아봅니다.
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 3%
-
 ---
-
 # 캠페인 운영자를 Adobe Identity Management System(IMS)으로 마이그레이션 {#migrate-users-to-ims}
 
 Campaign v8.6부터 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 모든 연산자는 [IMS(Adobe Identity Management System)를 사용합니다](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} **전용**. 사용자/암호(즉, 기본 인증)와의 연결은 더 이상 허용되지 않습니다. Adobe에서는 Campaign v8.5.2에서 이 마이그레이션을 수행하여 Campaign v8.6으로 원활하게 마이그레이션할 수 있도록 권장합니다.
@@ -37,7 +40,7 @@ Campaign v8을 사용하면 모든 일반 사용자가 이미 Adobe IMS(Identity
 >
 >사용자를 IMS로 마이그레이션한 후에는 Adobe Admin Console의 제품 프로필에 이름에 &quot;admin&quot;이라는 단어가 포함되어 있는지 확인하십시오(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등). 는 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 자동으로 부여합니다. Campaign 컨트롤 패널은 Campaign 인스턴스를 크게 변경할 수 있는 셀프서비스 도구입니다.
 >
->제품 프로필 이름 지정 규칙을 주의 깊게 검토하여 승인된 사용자만 Campaign 컨트롤 패널에 액세스할 수 있도록 합니다. [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko){target="_blank"}에서 Campaign 컨트롤 패널 권한 관리에 대해 자세히 알아보세요.
+>제품 프로필 이름 지정 규칙을 주의 깊게 검토하여 승인된 사용자만 Campaign 컨트롤 패널에 액세스할 수 있도록 합니다. [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}에서 Campaign 컨트롤 패널 권한 관리에 대해 자세히 알아보세요.
 
 ## 마이그레이션 방법{#ims-migration-procedure}
 

@@ -6,24 +6,32 @@ feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: d5af1f98-42e8-4909-b2e6-be65c50c9874
-TQID: https://experienceleague.adobe.com/RTn-nTK3YjtekmBU9BcSIK05n0eJX2EImRsJlHAUG48
+TQID: 'https://experienceleague.adobe.com/RTn-nTK3YjtekmBU9BcSIK05n0eJX2EImRsJlHAUG48'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 889
+source-wordcount: '889'
 ht-degree: 1%
-
 ---
-
 # 개인화된 쿠폰{#personalized-coupons}
 
 게재에 쿠폰을 추가하면 수신자에게 제품 및 서비스에 대한 향상된 가치를 제공할 수 있습니다. Campaign 쿠폰 모듈을 사용하여 예정된 마케팅 오퍼에 추가할 쿠폰 세트를 만들 수 있습니다. 게재를 만들 준비가 되면 해당 쿠폰을 할당합니다. 쿠폰은 선택 기간 동안 유효하므로 할당된 쿠폰은 해당 게재 메시지에 고유하게 연결됩니다. 또한 Campaign은 게재를 보내기 전에 메시지 수에 대한 쿠폰이 충분한지 확인합니다.
@@ -162,7 +170,7 @@ ht-degree: 1%
 >
 >기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../dev/datamodel.md#ootb-profiles).
 >
->이 페이지[&#128279;](../dev/custom-recipient.md)에서 사용자 지정 받는 사람 테이블 을(를) 사용하는 방법을 알아보세요.
+>이 페이지](../dev/custom-recipient.md)에서 사용자 지정 받는 사람 테이블 [을(를) 사용하는 방법을 알아보세요.
 
 ## 부족한 쿠폰 관리 {#managing-insufficient-coupons}
 
