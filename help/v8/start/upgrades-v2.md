@@ -19,7 +19,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 829f03234f4899643a7af4c8f21707f4dc7c5389
+source-git-commit: 8e5d8570e198b0e6db350ba82e521bee8a2f6d9e
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 7%
@@ -75,7 +75,7 @@ Campaign Managed Services 고객의 경우, 새로운 Campaign 버전을 사용�
 
 [보다 빠른 고객 보호: Adobe이 AI 가속 취약성 검색에 어떻게 대응하는지](https://blog.adobe.com/security/protecting-customers-faster-how-adobe-is-responding-to-ai-accelerated-vulnerability-discovery)에서 공유했듯이 Adobe 보안 팀은 AI 지원 도구를 사용하여 취약성을 보다 신속하게 식별하고 해결합니다. 당사는 Adobe Campaign을 포함한 당사 제품에 이 접근 방식을 적용합니다.
 
-이 게시물에서는 보안 문제를 평가하고 우선 순위를 지정하는 방법, 수정 사항을 배포하는 방법 및 그 의미에 대해 설명합니다.
+이 페이지에서는 보안 문제를 평가하고 우선 순위를 정하는 방법, 수정 사항을 배포하는 방법 및 사용자에게 의미하는 바를 설명합니다.
 
 ### 보안 문제를 평가하고 우선 순위를 정하는 방법 {#assess-security-issues}
 
@@ -91,8 +91,8 @@ Campaign Managed Services 고객의 경우, 새로운 Campaign 버전을 사용�
 
 업데이트 범위에 따라 다음 두 가지 배포 접근 방식 중 하나를 사용합니다.
 
-- 보안 스택 유지 관리: 빌드 번호를 변경하지 않거나 제품 기능에 의도된 변경 사항을 도입하지 않는 타겟팅된 업데이트입니다. 표준 구성을 사용하는 고객은 일반적으로 조치를 취할 필요가 없습니다.
-- 보안 기반 빌드 업그레이드: 빌드 번호를 변경하고 Adobe의 표준 알림, 릴리스 정보 및 롤아웃 프로세스를 따르는 업데이트입니다.
+* **보안 스택 유지 관리**: 빌드 번호를 변경하지 않거나 제품 기능에 의도한 변경 사항을 도입하지 않는 타깃팅된 업데이트입니다. 표준 구성을 사용하는 고객은 일반적으로 조치를 취할 필요가 없습니다.
+* **보안 기반 빌드 업그레이드**: 빌드 번호를 변경하고 Adobe의 표준 알림, 릴리스 정보 및 롤아웃 프로세스를 따르는 업데이트입니다.
 
 표준 기본 구성의 경우 통합 및 실행 중인 캠페인이 이전처럼 계속 작동합니다.
 
@@ -135,7 +135,7 @@ Campaign 버전을 확인하려면 클라이언트 콘솔에서 **도움말 > �
 
 새로운 Experience Cloud 솔루션 릴리스 및 해당 콘텐츠에 대한 정보를 받으려면 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"} 커뮤니케이션에 가입하십시오.
 
-[Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=ko&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}를 방문하여 릴리스 업데이트에 대한 정보를 받을 수도 있습니다.
+[Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}를 방문하여 릴리스 업데이트에 대한 정보를 받을 수도 있습니다.
 
 ### 조직에 업그레이드가 필요한 이유는 무엇입니까? {#upgrades-1}
 
