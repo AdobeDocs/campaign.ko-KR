@@ -4,13 +4,16 @@ title: 기술 노트 - 자격 증명 회전 안내서
 description: Adobe Campaign 기술 노트 - 자격 증명 회전 안내서
 hide: true
 exl-id: 0848ee2d-3506-4167-9aea-a1589aa82805
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '389'
 ht-degree: 1%
-
 ---
-
 # 기술 참고: 자격 증명 회전 안내서 {#ac-customer-credentials}
 
 고객은 손상 위험을 완화하기 위해 자격 증명을 정기적으로 새 세트로 교체할 책임이 있습니다.

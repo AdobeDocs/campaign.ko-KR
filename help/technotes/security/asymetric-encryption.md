@@ -4,13 +4,16 @@ title: Technote - Adobe Campaign의 비동기 암호화 및 암호 해독
 description: 기술 참고 사항 - Adobe Campaign의 비동기 암호화 및 암호 해독
 hide: true
 exl-id: 6ee8b05b-2a46-4adf-a036-82fdd4809d0d
-source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 6%
-
+ht-degree: 10%
 ---
-
 # 기술 정보: Adobe Campaign의 비대칭 암호화 및 암호 해독 {#asymetric-encryption}
 
 공개 키 암호화 또는 비대칭 암호는 관련 키 쌍을 사용하는 암호화 시스템의 필드입니다. 각 키 쌍은 **공개 키**&#x200B;와 해당 **개인 키**(으)로 구성됩니다.

@@ -5,25 +5,33 @@ description: Campaign 토론 포럼 사용 방법 알아보기
 feature: Campaigns, Resource Management
 role: User
 exl-id: c2336507-beea-4ddb-aa8c-1ec591eb5683
-TQID: https://experienceleague.adobe.com/I855vY4L1Lz8qBtecg-bvTf-Rh2ci6Wd8MCsKJ7UqVo
+TQID: 'https://experienceleague.adobe.com/I855vY4L1Lz8qBtecg-bvTf-Rh2ci6Wd8MCsKJ7UqVo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 8d5d4b17-44c6-5e7b-891c-b4277613013d
+    internal-label: Resource Management
 subfeature_v2:
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '527'
 ht-degree: 0%
-
 ---
-
 # 토론 포럼{#discussion-forums}
 
 Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 수 있습니다. 계획, 프로그램, 캠페인, 마케팅 리소스, 시뮬레이션, 재고 요소에는 각각 고유한 포럼이 있습니다. 각 연산자에는 개인 포럼도 있습니다. 모든 토론은 개인적인 토론회에서도 공개적입니다.

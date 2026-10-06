@@ -4,25 +4,31 @@ description: Adobe Campaign 소셜 마케팅 모듈을 사용하여 X(이전 Twi
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-TQID: https://experienceleague.adobe.com/VWrEUKs-J0gBHkhpyqKOQie5DFcweMywIzxq-dhW4AE
+TQID: 'https://experienceleague.adobe.com/VWrEUKs-J0gBHkhpyqKOQie5DFcweMywIzxq-dhW4AE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 783
+source-wordcount: '783'
 ht-degree: 3%
-
 ---
-
 # Adobe Campaign으로 X(Twitter)에 메시지 게시 {#post-tw-messages}
 
 Adobe Campaign에는 X(이전 Twitter)를 통해 고객 및 잠재 고객과 상호 작용할 수 있는 **소셜 마케팅** 모듈이 포함되어 있습니다.

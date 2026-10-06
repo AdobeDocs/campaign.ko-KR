@@ -4,25 +4,36 @@ description: 2021 Campaign v8 릴리스의 기능 및 개선 사항 목록
 feature: Release Notes
 hide: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-TQID: https://experienceleague.adobe.com/o497R5a6OnWWHLy-QJUic5Mps5OlRGrW7JvQCQJKhC0
+TQID: 'https://experienceleague.adobe.com/o497R5a6OnWWHLy-QJUic5Mps5OlRGrW7JvQCQJKhC0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b285c321f3b905150b31621941ea99608d627739
+    internal-label: Security
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1617
-ht-degree: 96%
-
+source-wordcount: '1644'
+ht-degree: 97%
 ---
-
 # 2021 릴리스 정보{#2021-release}
 
 이 페이지에서 **2021 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항, 버그 해결 사항 목록을 확인할 수 있습니다.
@@ -70,7 +81,7 @@ _2021년 10월 28일_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>[단일성 서비스]는 새로운 [클라우드 데이터베이스 관리자] 구성 요소입니다. 사용자가 클라우드 데이터베이스 테이블 내에서 고유 키 제약 조건의 무결성을 유지 및 모니터링하는 데 도움이 됩니다. 이를 통해 중복 키를 삽입할 위험을 줄일 수 있습니다.
+<td> <p>[단일성 서비스]는 [클라우드 데이터베이스 관리자]의 새로운 구성 요소입니다. [클라우드 데이터베이스] 테이블 내에서 고유 키 제약 조건의 무결성을 유지 및 모니터링하는 데 도움이 됩니다. 이를 통해 중복 키를 삽입할 위험을 줄일 수 있습니다.
 <p>[클라우드 데이터베이스]는 단일성 제약 조건을 적용하지 않으므로, [단일성 서비스]는 애플리케이션 수준에서 <b>여러 새로운 가드레일</b>을 도입함으로써 Adobe Campaign으로 데이터를 관리할 때 중복 키를 삽입하는 위험을 줄여 줍니다.</p> 
 <p>[단일성 서비스]는 <b>ffdaUnicity</b>라는 새로운 기본 제공 워크플로를 시작하여 단일성 제약 조건 및 중복이 검색되었을 때의 경고를 모니터링합니다.</p>
 <p>자세한 내용은 <a href="../architecture/keys.md">세부 설명서</a>를 참조하세요.</p>

@@ -2,13 +2,16 @@
 title: 캠페인 운영자를 Adobe Identity Management System(IMS)으로 마이그레이션
 description: Campaign 연산자를 Adobe Identity Management System(IMS)으로 마이그레이션하는 방법에 대해 알아봅니다.
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 3%
-
 ---
-
 # 캠페인 운영자를 Adobe Identity Management System(IMS)으로 마이그레이션 {#migrate-users-to-ims}
 
 Campaign v8.6부터 Campaign v8에 대한 인증 프로세스가 개선되고 있습니다. 모든 연산자는 [IMS(Adobe Identity Management System)를 사용합니다](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} **전용**. 사용자/암호(즉, 기본 인증)와의 연결은 더 이상 허용되지 않습니다. Adobe에서는 Campaign v8.5.2에서 이 마이그레이션을 수행하여 Campaign v8.6으로 원활하게 마이그레이션할 수 있도록 권장합니다.

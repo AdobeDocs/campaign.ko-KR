@@ -4,13 +4,16 @@ title: Chrome Firefox 및 Edge 브라우저의 Campaign 웹 구성 요소 및 �
 description: Chrome, Firefox 및 Edge 브라우저의 Campaign 웹 구성 요소 및 버전 100
 hide: true
 exl-id: 912ad71e-2b23-4b16-b5f9-47d547fc83d5
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 0%
-
 ---
-
 # 3자리 브라우저 버전이 Campaign 웹 구성 요소에 미치는 영향 {#version-100}
 
 Google과 Mozilla는 Chrome과 Firefox가 예정된 3자리 버전 때문에 일부 웹 사이트를 중단할 수 있다고 경고하고 있습니다.

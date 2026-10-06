@@ -6,20 +6,27 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-TQID: https://experienceleague.adobe.com/lxE52O9cAoD8RwzYdi5l4lRfkWcM8kZQ-T-fMZVKxaM
+TQID: 'https://experienceleague.adobe.com/lxE52O9cAoD8RwzYdi5l4lRfkWcM8kZQ-T-fMZVKxaM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
+  - id: 6641bfdc-d19c-56e4-9045-0f6d06e8a43b
+    internal-label: Programs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 14%
-
+source-wordcount: '472'
+ht-degree: 18%
 ---
-
 # 마케팅 캠페인 시작 {#gs-marketing-campaigns}
 
 Adobe Campaign을 사용하면 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석할 수 있습니다. Adobe Campaign은 마케팅 전략을 위한 통합 주문 및 실행 센터 역할을 합니다. 드래그 앤 드롭 시각적 워크플로우 인터페이스를 통해 여러 데이터 소스를 관리하고, 대상 세그먼트를 정의하고, 여러 단계로 구성된 크로스 채널 캠페인을 계획 및 실행합니다.
@@ -56,7 +63,7 @@ Adobe Campaign에서 마케팅 캠페인을 만들고 실행하는 주요 단계
 검토자를 정의하고 타겟팅, 콘텐츠, 예산, 추출 및 증명 전송과 같은 캠페인 프로세스를 모니터링하고 제어하도록 승인 흐름을 구성합니다. 이 섹션[&#128279;](marketing-campaign-approval.md)에서 승인 을(를) 설정하는 방법을 알아보세요.
 
 1. **게재 모니터링**.
-대시보드에서 캠페인을 추적하고 Campaign UI에서 게재 상태 및 실행을 확인하십시오. [자세히 알아보기](marketing-campaign-monitoring.md).
+대시보드에서 캠페인을 추적하고 Campaign UI에서 게재 상태 및 실행을 확인합니다. [자세히 알아보기](marketing-campaign-monitoring.md).
 
 1. **예산, 재고 및 관련 비용을 추적합니다**.
 Adobe Campaign을 사용하여 예산 할당을 제어하고 공급자, 재고 및 비용을 관리합니다. [자세히 알아보기](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).

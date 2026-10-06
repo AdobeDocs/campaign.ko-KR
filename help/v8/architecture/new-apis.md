@@ -5,22 +5,30 @@ feature: Architecture, API, FFDA
 role: Developer
 level: Intermediate
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
-TQID: https://experienceleague.adobe.com/QH0Vnh9hi9bHuaY16UTn26NkuIIsb04dyNMhzkrpVdQ
+TQID: 'https://experienceleague.adobe.com/QH0Vnh9hi9bHuaY16UTn26NkuIIsb04dyNMhzkrpVdQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: bae31391-3416-5fbd-bc4b-2cdcae2922db
+    internal-label: Architecture
+  - id: 702a1f63-4da5-5981-83b3-4d5b14e90420
+    internal-label: FFDA
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
+    internal-label: Intermediate
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 437
-ht-degree: 2%
-
+source-wordcount: '437'
+ht-degree: 4%
 ---
-
 # 특정 FFDA Campaign API{#gs-new-api}
 
 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md)의 컨텍스트에서 Campaign v8에는 Campaign 로컬 데이터베이스와 클라우드 데이터베이스 간의 데이터를 관리하기 위한 두 개의 특정 API가 포함되어 있습니다. 이를 사용하기 위한 사전 요구 사항은 스키마에서 스테이징 메커니즘을 활성화하는 것입니다. [자세히 알아보기](staging.md)

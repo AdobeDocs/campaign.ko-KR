@@ -3,25 +3,33 @@ keywords: Campaign Classic;home;popular topics
 description: Adobe Campaign v8 도움말 센터에서 도움말을 확인합니다. Campaign v8의 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.
 title: Adobe Campaign v8 제품 설명서
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-TQID: https://experienceleague.adobe.com/btc-anKUgS2PFCv86Pi7QRw8nrWMV4gZXvFwnWQvQVM
+TQID: 'https://experienceleague.adobe.com/btc-anKUgS2PFCv86Pi7QRw8nrWMV4gZXvFwnWQvQVM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 94d9f6725b0bfb458707c9900f5b6cb553d72daf
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 281
-ht-degree: 80%
-
+source-wordcount: '504'
+ht-degree: 45%
 ---
-
 # Adobe Campaign v8(콘솔) 설명서 {#campaign-documentation}
 
 ## 새로운 기능
@@ -90,17 +98,17 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>시작</strong><br/><a href="start/campaign-ui.md">사용자 인터페이스</a> - <a href="start/ac-components.md">구성 요소 및 프로세스</a> - <a href="start/v7-to-v8.md">Classic v7에서 v8로</a> - <a href="start/campaign-faq.md">FAQ</a>
+      <strong>시작하기</strong><br/><a href="start/campaign-ui.md">사용자 인터페이스</a> - <a href="start/ac-components.md">구성 요소 및 프로세스</a> - <a href="start/v7-to-v8.md">Classic v7에서 v8까지</a> - <a href="start/campaign-faq.md">FAQ</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>고객 경험</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">워크플로로 자동화</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">캠페인 오케스트레이션</a> - <a href="interaction/interaction.md">의사 결정 관리</a> - <a href="send/personalize.md">개인화</a>
+      <strong>고객 경험</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">워크플로우 자동화</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">캠페인 오케스트레이션</a> - <a href="interaction/interaction.md">의사 결정 관리</a> - <a href="send/personalize.md">Personalization</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>메시지 보내기</strong><br/><a href="start/create-message.md">시작</a> - <a href="send/preview-and-proof.md">미리 보기 및 교정쇄</a> - <a href="send/predictive.md">전송 시간 최적화</a> - <a href="reporting/gs-reporting.md">보고 및 분석</a>
+      <strong>메시지 보내기</strong><br/><a href="start/create-message.md">시작하기</a> - <a href="send/preview-and-proof.md">미리 보기 및 증명</a> - <a href="send/predictive.md">전송 시간 최적화</a> - <a href="reporting/gs-reporting.md">보고 및 분석</a>
     </td>
   </tr>
   <tr style="border: 0;">

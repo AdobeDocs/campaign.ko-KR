@@ -6,22 +6,29 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
-TQID: https://experienceleague.adobe.com/741rGWSBuFksbOfXbuszEXq56DOI-Pfg8tEiHQLhQf8
+TQID: 'https://experienceleague.adobe.com/741rGWSBuFksbOfXbuszEXq56DOI-Pfg8tEiHQLhQf8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 638
-ht-degree: 15%
-
+source-wordcount: '638'
+ht-degree: 17%
 ---
-
 # 개인화 블록 사용{#personalization-blocks}
 
 개인화 블록은 게재에 삽입할 수 있는 특정 렌더링을 포함하는 동적 콘텐츠입니다. 예를 들어 미러 페이지에 로고, 인사말 메시지 또는 링크를 추가할 수 있습니다.
@@ -66,7 +73,7 @@ ht-degree: 15%
 
 >[!IMPORTANT]
 >
->릴리스 8.9.3에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 사용자 지정 개인화 블록이 외부 URL(예: 외부에 호스팅된 이미지)을 참조하는 경우 리소스가 중단 없이 계속 로드되도록 허용 목록이 인스턴스의 승인된 도메인에 추가되었는지 확인하십시오. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하십시오.
+>릴리스 8.9.3에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 사용자 지정 개인화 블록이 외부 URL(예: 외부에 호스팅된 이미지)을 참조하는 경우 리소스가 중단 없이 계속 로드되도록 허용 목록이 인스턴스의 승인된 도메인에 추가되었는지 확인하십시오. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하세요.
 
 개인화 아이콘에서 삽입할 새로운 개인화된 콘텐츠 블록을 정의할 수 있습니다.
 

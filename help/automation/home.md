@@ -5,20 +5,28 @@ title: Adobe Campaign 자동화 홈
 feature: Overview
 description: 개요
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
-TQID: https://experienceleague.adobe.com/FtiYjkQl0glW5gi7Ar8DI4RVxoS7wd7Okh4vHdNdutU
+TQID: 'https://experienceleague.adobe.com/FtiYjkQl0glW5gi7Ar8DI4RVxoS7wd7Okh4vHdNdutU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Optimization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 195
+source-wordcount: '195'
 ht-degree: 36%
-
 ---
-
 # Adobe Campaign 자동화 {#automation-home}
 
 여러 마케팅 채널을 통해 고객과 통신하는 것은 귀하에게 또는 귀하에게 불리하게 작용할 수 있습니다. 서로 다른 채널이 함께 작동하지 않을 때는 소음과 혼란만 있을 뿐이다. 이러한 통합은 동기화되면 결합해 고객에게 브랜드에 대한 강력하고 보완적인 경험을 제공합니다.
