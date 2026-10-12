@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '526'
 ht-degree: 1%
 ---
 # 인스턴스 사용자 정의 {#gs-ac-custom}
@@ -65,7 +65,7 @@ Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 
 * **새 필드** 도우미를 사용하여 인터페이스를 통해
 
-  Campaign에서 새 필드를 빠르게 추가하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=ko#configuring-campaign-classic){target="_blank"}를 참조하세요.
+  Campaign에서 새 필드를 빠르게 추가하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}를 참조하세요.
 
 * 프로그래밍 방식으로 스키마를 확장하여 [이 섹션](../dev/extend-schema.md)에서 기존 스키마를 확장하는 방법을 알아보세요.
 
@@ -75,9 +75,9 @@ Adobe Campaign에 즉시 존재하지 않는 완전히 새로운 유형의 데�
 
 **관련 항목**
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ko#configuring-campaign-classic){target="_blank"}의 스키마 에디션의 예
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}의 스키마 에디션의 예
 
-사용 사례: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ko#uc-link){target="_blank"}에서 기존 참조 테이블에 필드를 연결합니다.
+사용 사례: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}에서 기존 참조 테이블에 필드를 연결합니다.
 
 
 ## 입력 양식 수정
@@ -92,7 +92,7 @@ Adobe Campaign 인터페이스는 많은 웹 애플리케이션을 사용하여 
 
 기본 제공 웹 응용 프로그램은 Explorer의 **관리 > 구성 > 웹 응용 프로그램** 폴더에 저장됩니다.
 
-Campaign에서 개요 페이지를 만드는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=ko#creating-a-single-page-web-application){target="_blank"}
+Campaign에서 개요 페이지를 만드는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-applications/use-cases-creating-overviews#creating-a-single-page-web-application){target="_blank"}
 
 
 ## 목록 사용자 지정 및 필터 만들기 {#gs-lists-and-filters}
