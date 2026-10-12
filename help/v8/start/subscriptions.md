@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '515'
 ht-degree: 10%
 ---
 # 구독 및 구독 취소 관리 {#optin-optout}
@@ -67,7 +67,7 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 
   ![](assets/web-app.png)
 
-  자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=ko#create-a-subscription--form-with-double-opt-in){target="_blank"}를 참조하세요.
+  자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in){target="_blank"}를 참조하세요.
 
 
 * 타깃팅 워크플로우를 만들고 **[!UICONTROL Subscription service]** 활동을 사용합니다.

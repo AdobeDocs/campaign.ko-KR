@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '526'
 ht-degree: 1%
 ---
 # 인스턴스 사용자 정의 {#gs-ac-custom}
@@ -92,7 +92,7 @@ Adobe Campaign 인터페이스는 많은 웹 애플리케이션을 사용하여 
 
 기본 제공 웹 응용 프로그램은 Explorer의 **관리 > 구성 > 웹 응용 프로그램** 폴더에 저장됩니다.
 
-Campaign에서 개요 페이지를 만드는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=ko#creating-a-single-page-web-application){target="_blank"}
+Campaign에서 개요 페이지를 만드는 방법: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-applications/use-cases-creating-overviews#creating-a-single-page-web-application){target="_blank"}
 
 
 ## 목록 사용자 지정 및 필터 만들기 {#gs-lists-and-filters}
