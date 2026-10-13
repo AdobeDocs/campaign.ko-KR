@@ -1,5 +1,5 @@
 ---
-title: Campaign 버전 및 업그레이드
+title: Campaign 버전, 업그레이드 및 보안
 description: Campaign 버전 및 업그레이드에 대해 자세히 알아보기
 feature: Release Notes
 role: User
@@ -28,12 +28,12 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: b5e9265db5409f3f0fada35c43cb08fafa1ec4e0
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 10%
+source-wordcount: '1621'
+ht-degree: 7%
 ---
-# 버전 및 업그레이드 {#upgrades}
+# 버전, 업그레이드 및 보안 {#upgrades}
 
 Adobe Campaign v8은 **관리 클라우드 서비스** 솔루션으로만 제공됩니다. Adobe은 모든 서버측 업그레이드를 관리하고 수행합니다. v8에는 온-프레미스 또는 하이브리드 배포가 없으며, 직접 예약하거나 수행할 수 있는 서버 업그레이드가 없습니다.
 
@@ -51,7 +51,7 @@ Managed Cloud Services 사용자는
 >
 >Adobe은 취약점을 최대한 신속하게 해결하기 위해 사전 통지 없이 언제든지 호스팅 환경에 중요한 보안 패치를 적용할 수 있는 권한을 보유합니다. 이러한 패치는 서비스 중단 없이 배포됩니다. 중요한 취약점을 해결하는 것이 사전 알림보다 우선합니다.
 
-## Campaign 버전 {#versions}
+## Campaign 버전 및 업그레이드 {#versions}
 
 Adobe Campaign은 Campaign 인프라의 성능, 보안, 논리 및 유용성을 향상시키는 제품 버전을 정기적으로 릴리스합니다.
 
@@ -61,11 +61,11 @@ Adobe Campaign은 Campaign 인프라의 성능, 보안, 논리 및 유용성을 
 * **작은 버전에서 다른 버전으로**(예: v8.5에서 v8.6으로) 작은 업그레이드입니다. 이러한 업그레이드는 개선 사항, 호환성 및 보안 업데이트 및 수정 사항을 제공합니다.
 * 패치 버전에서 다른 버전으로 **패치 업그레이드**(예: v8.5.1에서 v8.5.2로) 이러한 업그레이드는 보안 업데이트 및 수정 사항을 제공합니다.
 
-각 새 버전에 대한 자세한 내용은 [릴리스 정보](release-notes.md)에서 확인할 수 있습니다. 보안 관련 수정 사항은 각 릴리스의 릴리스 정보 내에서 호출됩니다. [새 버전의 릴리스에 대한 정보를 어떻게 알 수 있습니까?](#upgrades-0) 아래요.
+각 새 버전에 대한 자세한 내용은 [릴리스 정보](release-notes.md)에서 확인할 수 있습니다. 보안 관련 수정 사항은 각 릴리스의 릴리스 정보에서 확인할 수 있습니다. 보안 알림에 대한 자세한 내용은 [알림 상태 유지](#security-staying-informed)를 참조하십시오.
 
 Adobe에서는 안정적인 구성을 위해 모든 Campaign 서버에 **정확히 동일한 버전**&#x200B;을 설치할 것을 권장합니다. 또한 [릴리스 정보](release-notes.md)에서 별도로 언급되지 않는 한, 클라이언트 콘솔은 서버 인스턴스와 **정확히 동일한 버전**&#x200B;에 있어야 합니다. [이 페이지에서](../start/connect.md#upgrade-ac-console) 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
 
-## 클라이언트 콘솔을 최신 상태로 유지 {#ac-upgrades}
+### 클라이언트 콘솔을 최신 상태로 유지 {#ac-upgrades}
 
 Campaign Managed Services 고객의 경우, 새로운 Campaign 버전을 사용할 수 있게 되면 추가적인 조치 없이 Adobe에 의해 서버 인프라가 업그레이드됩니다.
 
@@ -78,9 +78,7 @@ Campaign Managed Services 고객의 경우, 새로운 Campaign 버전을 사용�
 
 또한 고객은 [호환성 매트릭스](compatibility-matrix.md)에 나열된 지원되는 최신 버전의 시스템을 사용하고 있는지 확인해야 합니다.
 
-## 자주 묻는 질문 {#upgrades-faq}
-
-### 내 Campaign 버전을 확인하는 방법 {#version}
+### Campaign 버전 확인 {#version}
 
 Campaign 버전을 확인하려면 클라이언트 콘솔에서 **도움말 > 정보...** 메뉴에 액세스합니다.
 
@@ -97,15 +95,15 @@ Campaign 버전을 확인하려면 클라이언트 콘솔에서 **도움말 > �
 >
 >클라이언트 콘솔에 대해 표시된 버전이 응용 프로그램 서버에 대해 표시된 버전과 일치하지 않으면 [클라이언트 콘솔을 최신 상태로 유지](#ac-upgrades)에 설명된 대로 콘솔을 업그레이드하십시오.
 
-### 새 버전의 릴리스에 대한 정보는 어떻게 얻을 수 있습니까? {#upgrades-0}
+### 제품 릴리스 알림 {#upgrades-0}
 
-보안 수정 사항을 포함한 새 버전 및 변경 사항이 [릴리스 정보](release-notes.md)에 나열됩니다. 새 버전을 사용할 수 있게 되면 Adobe 담당자가 연락하여 서버 환경을 업그레이드합니다. 클라이언트 콘솔을 별도로 업그레이드해야 합니다([클라이언트 콘솔을 최신 상태로 유지](#ac-upgrades) 참조).
+새 버전 및 변경 사항은 [릴리스 정보](release-notes.md)에 나열되어 있습니다.
 
-새로운 Experience Cloud 솔루션 릴리스 및 해당 콘텐츠에 대한 정보를 받으려면 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"} 커뮤니케이션에 가입하십시오.
+제품 릴리스 업데이트는 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}를 구독하거나 [Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}를 방문하세요.
 
-[Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=ko&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}를 방문하여 릴리스 업데이트에 대한 정보를 받을 수도 있습니다.
+보안 알림 및 보안 업데이트를 위한 조직 준비에 대한 지침은 [정보 유지](#security-staying-informed)를 참조하세요.
 
-### 조직에 업그레이드가 필요한 이유는 무엇입니까? {#upgrades-1}
+### 업그레이드의 이점 {#upgrades-1}
 
 업그레이드를 통해 취약성으로부터 계정을 안전하게 보호할 수 있으며 최신 성능 기술을 사용할 수 있습니다.
 
@@ -127,7 +125,7 @@ Campaign 버전을 확인하려면 클라이언트 콘솔에서 **도움말 > �
 
   클라이언트 콘솔은 동일한 버전을 실행하는 서버와만 안정적으로 통신할 수 있습니다. 서버를 업그레이드할 때마다 콘솔을 최신 상태로 유지하면 이 연결이 유지되고 그에 수반되는 보안 및 수정 사항이 그대로 유지됩니다.
 
-### 업그레이드의 프로세스와 타임라인은 무엇입니까? {#upgrades-2}
+### 업그레이드 프로세스 및 타임라인 {#upgrades-2}
 
 v8 고객의 경우 Adobe이 서버 업그레이드를 완벽하게 관리합니다.
 
@@ -140,3 +138,44 @@ v8 고객의 경우 Adobe이 서버 업그레이드를 완벽하게 관리합니
 >[!NOTE]
 >
 >중요한 보안 패치는 이 알림 주기를 벗어난 호스팅 환경에 적용될 수 있습니다. 이 페이지 상단의 참고 사항을 참조하십시오.
+
+## 더 빠른 Adobe Campaign 고객 보호: Adobe이 보안에 보조를 맞추는 방법 {#campaign-security}
+
+### 더 많이, 더 빨리 찾기 {#finding-more-faster}
+
+[보다 빠른 고객 보호: Adobe이 AI 가속 취약성 검색에 어떻게 대응하는지](https://blog.adobe.com/security/protecting-customers-faster-how-adobe-is-responding-to-ai-accelerated-vulnerability-discovery)에서 공유했듯이 Adobe 보안 팀은 AI 지원 도구를 사용하여 취약성을 보다 신속하게 식별하고 해결합니다. 당사는 Adobe Campaign을 포함한 당사 제품에 이 접근 방식을 적용합니다.
+
+이 섹션에서는 보안 문제를 평가하고 우선 순위를 지정하는 방법, 수정 사항을 배포하는 방법 및 이것이 귀하에게 의미하는 바를 설명합니다.
+
+### 보안 문제를 평가하고 우선 순위를 정하는 방법 {#assess-security-issues}
+
+모든 보안 문제가 동일한 위험을 수반하는 것은 아닙니다. Adobe은 심각도로 각 문제를 분류하며 해당 심각도는 우선순위 수준을 설정합니다.
+
+제로 데이 취약점은 이전에 알려지지 않은 결함으로, 공격자가 해결 방법이 나오기 전에 악용할 수 있으므로 정규 릴리스 일정 외에 긴급한 조치가 필요할 수 있습니다. 일반적으로 매월 두 번째, 네 번째 화요일에 게시되는 [Adobe 보안 게시판](https://www.adobe.com/trust/security/bulletins-and-advisories.html)을 통해 대부분의 다른 취약점을 해결합니다.
+
+우리의 대응 대상은 이 심각도 평가를 따릅니다. 가장 심각한 문제는 노출 창구를 먼저 닫고 나중에 할 수 있는 한 빨리 지원 세부 사항을 공유합니다. 이것이 일부 수정 사항이 사전 알림이 거의 없거나 전혀 없는 이유입니다. 그 시기는 취약성의 심각성에 의해 좌우된다. 긴급 업데이트를 포함한 모든 업데이트는 배송되기 전에 품질 유효성 검사를 거칩니다.
+
+### 수정 사항 배포 방법 {#deploy-security-fixes}
+
+릴리스 전에 보안 업데이트를 확인하고 변경 범위에 따라 배포 접근 방식을 선택합니다. 우리의 목표는 혼란을 최소화하는 것이다.
+
+업데이트 범위에 따라 다음 두 가지 배포 접근 방식 중 하나를 사용합니다.
+
+* **보안 스택 유지 관리**: 빌드 번호를 변경하지 않거나 제품 기능에 의도한 변경 사항을 도입하지 않는 타깃팅된 업데이트입니다. 표준 구성을 사용하는 고객은 일반적으로 조치를 취할 필요가 없습니다.
+* **보안 기반 빌드 업그레이드**: 빌드 번호를 변경하고 Adobe의 표준 알림, 릴리스 정보 및 롤아웃 프로세스를 따르는 업데이트입니다.
+
+표준 기본 구성의 경우 통합 및 실행 중인 캠페인이 이전처럼 계속 작동합니다.
+
+Dell은 표준 Adobe Campaign 구성과의 호환성을 유지하고 고객 운영 중단을 최소화하기 위해 보안 업데이트를 설계합니다. 환경에 사용자 정의 통합, 스크립트 또는 기타 수정 사항이 포함된 경우 빌드 업그레이드 후 조직의 유효성 검사 프로세스를 따르십시오. 예기치 않은 동작이 발생하는 경우 Adobe 고객 지원 센터에 문의하십시오.
+
+### 최신 정보 수신 {#security-staying-informed}
+
+즉각적인 조치를 취할 필요는 없지만 이러한 단계를 통해 조직은 최신 정보를 숙지하고 효율적으로 대응할 수 있습니다.
+
+* 알림이 적절한 사람에게 도달하도록 계정 및 기술 담당자를 Adobe Admin Console에 최신 상태로 유지하십시오.
+* 새 게시판 및 권고 조치에 대해 [Adobe 보안 알림](https://www.adobe.com/subscription/adobesecuritynotifications.html)을 구독하세요.
+* 보안 업데이트를 신속하게 평가하고 응답할 수 있도록 조직의 변경 관리 프로세스를 검토하십시오.
+
+### 우리의 약속 {#security-commitment}
+
+Adobe은 Adobe Campaign 환경을 보호하고 보안 문제가 발생할 때 신속하게 대처할 수 있도록 지원하기 위해 최선을 다하고 있습니다. Dell은 보안 프로세스를 지속적으로 강화하면서 운영 중단을 최소화하도록 노력하겠습니다.
