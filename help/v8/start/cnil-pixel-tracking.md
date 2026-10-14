@@ -1,6 +1,6 @@
 ---
-title: 이메일 추적 픽셀 및 CNIL 지침
-description: 이메일 추적 픽셀 및 규정 준수 노력을 지원할 수 있는 Adobe Campaign 기능에 대한 CNIL의 업데이트된 지침을 이해합니다.
+title: 이메일 추적 픽셀 관련 지침
+description: 규정 준수 활동을 지원할 수 있는 이메일 추적 픽셀 및 Adobe Campaign 기능과 관련된 규정 지침을 이해합니다.
 version: Campaign v8, Campaign Classic v7
 hide: true
 product_v2:
@@ -8,25 +8,23 @@ product_v2:
     internal-label: Campaign
   - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
     internal-label: Campaign v8
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 93335b46b1c706a9409f0816b2ced4ebc612d5fe
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 1%
+source-wordcount: '834'
+ht-degree: 0%
 ---
 
-# 이메일 추적 픽셀에 대한 CNIL의 업데이트된 지침 이해
+# 이메일 추적 픽셀 관련 지침
 
 이 게시물은 정보 제공용으로만 제공됩니다. 이는 법률적인 조언이 아니며, 해당 법률의 준수를 보증하지 않습니다. 아래에 설명된 Adobe Campaign 제품 기능은 적절하게 구성되고 작동되어 규정 준수 구현을 지원할 수 있는 기본 구성단위입니다. 각 고객은 해당 법률에 따라 의무를 결정하고 준수할 책임이 있습니다.
 
 ## 개요
 
-2026년 4월 14일, 프랑스의 데이터 보호 당국인 _Commission national de l&#39;informatique et des libertés_(CNIL)에서 [이메일 내의 픽셀 추적 사용에 대한 권장 사항](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf)을 게시했습니다. 안내서에서는 동의가 필요한 시기를 명확히 설명하고 이메일 픽셀 추적에 대한 적절한 동의 사례의 중요성을 강조합니다. 이 정책은 프랑스에 기반을 둔 구독자에게 이메일을 게재하는 모든 엔터티의 전송 사례에 영향을 줄 수 있습니다.
+2026년 4월 14일, 프랑스의 데이터 보호 당국인 _Commission national de l&#39;informatique et des libertés_(CNIL)에서 [이메일 내의 픽셀 추적 사용에 대한 권장 사항](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf)을 게시했습니다. 얼마 지나지 않아 이탈리아의 독립 데이터 보호 기관(&quot;Garante&quot;)은 규정 No를 공표하였다. 284(2026년 4월 17일 &quot;가란테 조항&quot;). 두 지침 문서 모두 법적 구속력이 없지만 동의가 필요한 시기를 명확히 하고 이메일 픽셀 추적에 대한 적절한 동의 방식의 중요성을 강조합니다. 이 정책은 적용 가능한 EU 개인 정보 보호법에 따라 가입자에게 이메일을 전달하는 엔티티의 전송 사례에 영향을 줄 수 있습니다.
 
-CNIL은 기업이 이메일 수신자(&#39;사용자&#39;)에게 추적 픽셀의 존재 여부, 목적, 사용자의 옵트아웃 권리 등을 알리도록 권고일로부터 3개월의 기간을 제공했다. 이 전환 기간 동안 고객은 픽셀 추적에 대해 사용자에게 알리고 필요한 경우 옵트아웃을 제공할 것으로 예상됩니다. CNIL은 2026년 7월 14일 이후 집행 활동을 시작할 것으로 예상된다.
+규제 당국이 픽셀 추적 및 관련 문제에 대한 지침을 계속 명확히 함에 따라 Adobe은 변경 사항을 계속 모니터링하고 Adobe Campaign을 비롯한 이메일 마케팅을 지원하는 Adobe 제품의 기술 기능을 고객에게 알릴 예정입니다. 이메일 추적 픽셀에 대한 Adobe의 설명서는 현재 규제 지침을 반영합니다. Adobe은 규정 요구 사항이 발전함에 따라 Adobe CXO 제품 사용에 영향을 미칠 수 있는 관련 변경 사항을 반영하기 위해 필요에 따라 설명서를 계속 업데이트할 예정입니다. 자료 업데이트 지연은 Adobe 대신 실패를 구성하지 않습니다.
 
-CNIL 및 기타 규제 기관이 픽셀 추적 및 관련 문제에 대한 지침을 명확히 함에 따라 Adobe은 업데이트를 계속 모니터링하고 Adobe Campaign을 비롯한 이메일 마케팅을 지원하는 Adobe 제품의 기술 기능을 고객에게 알릴 예정입니다.
-
-Adobe Journey Optimizer, Journey Optimizer B2B, Adobe Campaign 및 Marketo Engage을 포함한 Adobe 이메일 마케팅 실행 애플리케이션은 고객이 게재 또는 이메일 수준에서 열린 추적을 관리하는 데 도움이 되는 컨트롤을 제공합니다. 고객은 해당 CNIL 지침 및 기타 법률에 따라 자신의 규정 준수 의무를 결정할 책임이 있지만 이러한 기능은 고객 규정 준수 노력을 지원할 수 있습니다.
+Adobe Journey Optimizer, Journey Optimizer B2B, Adobe Campaign 및 Marketo Engage을 포함한 Adobe 이메일 마케팅 실행 애플리케이션은 고객이 게재 또는 이메일 수준에서 열린 추적을 관리하는 데 도움이 되는 컨트롤을 제공합니다. 고객은 해당 지침 및 기타 법률에 따라 자신의 규정 준수 의무를 결정할 책임이 있지만 이러한 기능은 고객 규정 준수 노력을 지원할 수 있습니다.
 
 ## 이메일 추적 픽셀이란 무엇입니까?
 
@@ -38,7 +36,7 @@ Adobe Journey Optimizer, Journey Optimizer B2B, Adobe Campaign 및 Marketo Engag
 
 ## 이메일 추적과 관련된 Adobe Campaign 기능
 
-고객은 CNIL 지침을 처리하기 위해 아키텍처를 구성할 때 Adobe Campaign의 기본 추적, 스키마 및 개인화 메커니즘을 사용하여 특정 요소를 처리할 수 있습니다.
+고객은 이메일 추적 픽셀 관련 지침을 처리하기 위해 아키텍처를 구성할 때 Adobe Campaign의 기본 추적, 스키마 및 개인화 메커니즘을 사용하여 특정 요소를 처리할 수 있습니다.
 
 * **게재 분류.** `nms:delivery`을(를) `emailType` 특성(인증, 전달만 가능, 트랜잭션, 마케팅, 공개 서비스, B2B 전망)으로 확장합니다. 분류는 동의 없이 허용되는 픽셀을 구동합니다.
 
