@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b5e9265db5409f3f0fada35c43cb08fafa1ec4e0
+source-git-commit: 7ae0ea8d334af5e3580b594d5ddc8b52b10fa5b6
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 7%
+source-wordcount: '1780'
+ht-degree: 6%
 ---
 # 버전, 업그레이드 및 보안 {#upgrades}
 
@@ -64,6 +64,16 @@ Adobe Campaign은 Campaign 인프라의 성능, 보안, 논리 및 유용성을 
 각 새 버전에 대한 자세한 내용은 [릴리스 정보](release-notes.md)에서 확인할 수 있습니다. 보안 관련 수정 사항은 각 릴리스의 릴리스 정보에서 확인할 수 있습니다. 보안 알림에 대한 자세한 내용은 [알림 상태 유지](#security-staying-informed)를 참조하십시오.
 
 Adobe에서는 안정적인 구성을 위해 모든 Campaign 서버에 **정확히 동일한 버전**&#x200B;을 설치할 것을 권장합니다. 또한 [릴리스 정보](release-notes.md)에서 별도로 언급되지 않는 한, 클라이언트 콘솔은 서버 인스턴스와 **정확히 동일한 버전**&#x200B;에 있어야 합니다. [이 페이지에서](../start/connect.md#upgrade-ac-console) 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
+
+### 핫픽스 {#hotflixes}
+
+예외적인 경우 Adobe은 표준 릴리스에서 수정 사항을 사용하기 전에 문제를 해결하기 위해 고객별 핫픽스를 제공할 수 있습니다. 핫픽스 요청은 사례별로 평가되며 표준 릴리스 주기의 일부가 아닙니다.
+
+핫픽스 요청은 Adobe 고객 지원 센터를 통해 제기되어야 합니다. 승인된 경우 영향을 받는 고객 및 제품 빌드를 위해 핫픽스가 준비됩니다. 핫픽스는 모든 고객을 위한 일반 릴리스가 아닙니다. Adobe은 검토 후 영향을 받는 다른 고객과 공유하는 것을 승인할 수 있습니다.
+
+핫픽스가 제공될 때 핫픽스 세부 사항이 공개 릴리스 정보에 포함되지 않을 수 있습니다. Adobe은 나중에 해당 버전에 대한 표준 릴리스에 핫픽스를 포함할 수 있습니다. 포함과 시기는 보장되지 않습니다. 각 표준 릴리스에 포함된 변경 사항에 대해서는 릴리스 노트를 참조하십시오.
+
+이 고객별 핫픽스 프로세스는 위에서 설명한 중요한 보안 패치 정책과는 별개이며, Adobe은 사전 통지 없이 중요한 보안 패치를 호스트된 환경에 적용할 수 있습니다.
 
 ### 클라이언트 콘솔을 최신 상태로 유지 {#ac-upgrades}
 
@@ -99,7 +109,7 @@ Campaign 버전을 확인하려면 클라이언트 콘솔에서 **도움말 > �
 
 새 버전 및 변경 사항은 [릴리스 정보](release-notes.md)에 나열되어 있습니다.
 
-제품 릴리스 업데이트는 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}를 구독하거나 [Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=ko&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}를 방문하세요.
+제품 릴리스 업데이트는 [Adobe 우선 순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html){target="_blank"}를 구독하거나 [Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}를 방문하세요.
 
 보안 알림 및 보안 업데이트를 위한 조직 준비에 대한 지침은 [정보 유지](#security-staying-informed)를 참조하세요.
 
