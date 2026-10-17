@@ -925,7 +925,7 @@ Adobe Campaign에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체
 
 **관련 항목:**
 
-[워크플로우 시작](../config/workflows.md) | [첫 번째 워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"} | [워크플로우 사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}
+[워크플로우 시작](../config/workflows.md) | [첫 번째 워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"} | [워크플로우 사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html?lang=ko){target="_blank"} | [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}
 
 +++
 
@@ -956,7 +956,7 @@ Campaign에서 마케팅 프로세스를 자동화하는 워크플로우 만들�
 
 **관련 항목:**
 
-[워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"} | [워크플로우 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"} | [워크플로우 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko){target="_blank"} | [워크플로우 사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
+[워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"} | [워크플로우 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html?lang=ko){target="_blank"} | [워크플로우 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko){target="_blank"} | [워크플로우 사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html?lang=ko){target="_blank"}
 
 +++
 
@@ -984,7 +984,7 @@ Campaign에서 마케팅 프로세스를 자동화하는 워크플로우 만들�
 
 **관련 항목:**
 
-[스케줄러 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ko){target="_blank"} | [반복 게재](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/sending-a-birthday-email.html){target="_blank"} | [Campaign 자동화](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko){target="_blank"}
+[스케줄러 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ko){target="_blank"} | [반복 게재](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=ko){target="_blank"} | [Campaign 자동화](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ko){target="_blank"}
 
 +++
 
@@ -1040,7 +1040,7 @@ Campaign에서 마케팅 프로세스를 자동화하는 워크플로우 만들�
 
 **관련 항목:**
 
-[워크플로우 사용 사례 라이브러리](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"} | [워크플로우 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko){target="_blank"}
+[워크플로우 사용 사례 라이브러리](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html?lang=ko){target="_blank"} | [워크플로우 구축](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"} | [워크플로우 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko){target="_blank"}
 
 +++
 
@@ -1054,7 +1054,7 @@ Campaign에서 마케팅 프로세스를 자동화하는 워크플로우 만들�
 
 **관련 항목:**
 
-[데이터 활동 업데이트](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ko){target="_blank"} | [데이터 관리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
+[데이터 활동 업데이트](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ko){target="_blank"} | [데이터 관리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html?lang=ko){target="_blank"}
 
 +++
 
@@ -1066,7 +1066,7 @@ Campaign에서 마케팅 프로세스를 자동화하는 워크플로우 만들�
 
 **관련 항목:**
 
-[데이터 관리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [데이터 보강 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ko){target="_blank"}
+[데이터 관리 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html?lang=ko){target="_blank"} | [데이터 보강 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ko){target="_blank"}
 
 +++
 
@@ -1090,7 +1090,7 @@ Campaign에서 마케팅 프로세스를 자동화하는 워크플로우 만들�
 
 **관련 항목:**
 
-[활동 분할](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ko){target="_blank"} | [A/B 테스트 안내서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
+[활동 분할](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ko){target="_blank"} | [A/B 테스트 안내서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html?lang=ko){target="_blank"}
 
 +++
 
@@ -1439,7 +1439,7 @@ Campaign은 기본 제공 보고서, 설명 분석, 클라이언트 콘솔의 �
 
 **관련 항목:**
 
-[보고 시작](../reporting/gs-reporting.md) | [Campaign 웹 UI 보고서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[보고 시작](../reporting/gs-reporting.md) | [Campaign 웹 UI 보고서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1564,7 +1564,7 @@ Campaign에서 폴더 권한 및 명명된 권한을 통해 보고서 가시성�
 
 **관련 항목:**
 
-[사용자 지정 보고서](../reporting/custom-reports.md) | [Campaign 웹 UI 보고서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[사용자 지정 보고서](../reporting/custom-reports.md) | [Campaign 웹 UI 보고서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
