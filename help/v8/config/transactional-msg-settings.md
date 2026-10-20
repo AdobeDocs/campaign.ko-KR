@@ -82,7 +82,7 @@ Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대해
                 <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
-                    <url>http://www.adobe.com</url>
+                    <url>http://www.adobe.com/kr</url>
                 </ctx>
               </rtEvent>
 

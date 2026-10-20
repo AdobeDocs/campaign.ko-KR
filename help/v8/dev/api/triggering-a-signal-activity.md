@@ -118,7 +118,7 @@ Campaign Standard API를 사용하면 워크플로우를 호출하는 **외부 �
 -d    "audience":"audience",
 -d    "email":"anna.varney@mail.com",
 -d    "template":"05",
--d    "contentURL":"http://www.adobe.com",
+-d    "contentURL":"http://www.adobe.com/kr",
 -d    "test":"true",
 -d    "segmentCode":"my segment",
 -d    "attribute":"2019-04-03 08:17:19.100Z"}
