@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 0ad8b1536e0bc065131ea64d6778dc18a0f27f04
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2184'
 ht-degree: 1%
 ---
 # 외부 계정 구성 {#config-external-accounts}
@@ -252,6 +252,10 @@ Campaign에서 OAuth2 인증을 구성하려면 다음 단계를 수행하십시
   * **[!UICONTROL Encryption]**: 암호화 유형: **[!UICONTROL None]** 또는 **[!UICONTROL SSL]**.
 
   * **[!UICONTROL Access key]**: [Microsoft 설명서](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}에서 **[!UICONTROL Access key]**&#x200B;을(를) 찾는 방법에 대해 알아보세요.
+
+  >[!NOTE]
+  >
+  >Azure Blob 저장소는 패턴이 아닌 이름 접두사로 파일을 필터링합니다. 파일 마스크에서 끝에 있는 별표(`*`)가 제거되므로 `TEST_EXPORT_AZURE_*`은(는) `TEST_EXPORT_AZURE_`(으)로 시작하는 모든 파일과 일치합니다. `TEST_EXPORT_AZURE_*.csv`에서와 같이 별표 뒤에 오는 문자는 지원되지 않습니다. [Microsoft 설명서에서 자세히 알아보기](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}.
 
 * **Microsoft 패브릭** - **Microsoft 패브릭** 외부 계정을 사용하면 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Microsoft 패브릭과 Adobe Campaign 간에 데이터를 가져오고 내보낼 수 있습니다. 이 통합을 구성하려면 다음 세부 정보를 제공합니다.
 

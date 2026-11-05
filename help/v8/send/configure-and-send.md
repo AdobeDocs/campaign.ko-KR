@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2d8aa27d6565e216cc0842ba22678c884479ff43
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1244'
 ht-degree: 9%
 ---
 # 게재 구성 및 보내기 {#configure-delivery}
@@ -98,6 +98,8 @@ ht-degree: 9%
 >* 마지막 전파가 **[!UICONTROL Validity]** 탭에 정의된 배달 기한을 초과하지 않도록 하십시오. 그렇지 않으면 일부 메시지가 전송되지 않을 수 있습니다. [이 섹션](delivery-failures.md#valid-period)에서 게재 유효 기간에 대해 자세히 알아보세요.
 >
 >* 마지막 웨이브를 구성할 때 재시도 시간도 충분히 설정해야 합니다. [이 섹션](delivery-failures.md#retries)에서 다시 시도에 대해 자세히 알아보세요.
+>
+>* 예약된 예약된 예약된 예약된 예약된 예약된 예약된 배송 날짜입니다. 예약된 하나 이상의 예약된 일괄 처리 시간 이후에 게재가 시작되면 예약된 일괄 처리가 모두 전송되지 않고 함께 전송됩니다.
 
 ### 예약된 일괄 처리 모니터링 {#monitor-waves}
 

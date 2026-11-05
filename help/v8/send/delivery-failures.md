@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f0e325102f748f6268a21a5397774a08a6994e51
 workflow-type: tm+mt
-source-wordcount: '3442'
+source-wordcount: '3475'
 ht-degree: 6%
 ---
 # 게재 실패 이해 {#delivery-failures}
@@ -156,6 +156,8 @@ Campaign 게재의 유효 기간 설정이 **3.5일 이하**(으)로 제한됩�
 예를 들어 Campaign에서 유효 기간을 기본값 5일로 설정하면 소프트 바운싱 메시지는 MTA 다시 시도 대기열로 이동하며 해당 메시지가 MTA에 도달한 시점부터 최대 3.5일 동안만 다시 시도됩니다. 이 경우 Campaign에 설정된 값은 사용되지 않습니다.
 
 메시지가 3.5일 동안 MTA 큐에 있고 배달하지 못하면 시간이 초과되고 게재 로그에서 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 상태가 업데이트됩니다.
+
+메시지는 다음 다시 시도가 만료 시간 후에 있을 때 유효 기간이 끝나기 전에 만료될 수 있습니다. 그러면 게재 로그에 마지막 게재 시도에 따른 실패가 표시됩니다.
 
 <!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ko#defining-validity-period){target="_blank"}.-->
 
