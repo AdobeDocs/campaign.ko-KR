@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: cb79282ed9b2b560201a001787c439a5da462ce1
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '921'
 ht-degree: 7%
 ---
 # DM 게재 만들기
@@ -90,11 +90,11 @@ DM 게재의 경우 **[!UICONTROL Edit the extraction file format...]** 링크�
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-추출 파일에 개인화된 URL을 삽입할 수 있습니다. 자세한 내용은 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=ko){target="_blank"}를 참조하세요.
+추출 파일에 개인화된 URL을 삽입할 수 있습니다. 자세한 내용은 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
->이 도우미에는 내보내기 도우미의 단계가 포함되어 있습니다. 자세한 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=ko){target="_blank"}..
+>이 도우미에는 내보내기 도우미의 단계가 포함되어 있습니다. 자세한 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}..
 
 ## 게재 유효성 검사{#validating}
 
@@ -138,3 +138,7 @@ DM 게재의 출력 파일은 게재 분석 중에 생성됩니다. 파일의 �
 확인이 지정된 파일에서 데이터 추출을 시작합니다.
 
 마케팅 캠페인의 컨텍스트에서 모든 승인이 승인되면 DM 게재가 추출 보류 중일 때 기본 구성에서 자동으로 시작되는 특수 워크플로우를 통해 추출 파일이 만들어집니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ko){target="_blank"}에서 자세히 알아보십시오.
+
+>[!NOTE]
+>
+>워크플로우에서 **[!UICONTROL Direct mail]** 활동을 사용하는 경우 해당 아웃바운드 전환에는 생성된 추출 파일이 아니라 타겟팅된 모집단이 전달됩니다. 파일을 서버로 보내려면 **[!UICONTROL Direct mail]** 활동 뒤에 **[!UICONTROL Data extraction]** 활동을 추가한 다음 **[!UICONTROL File transfer]** 활동을 추가합니다.
