@@ -70,7 +70,7 @@ Adobe Campaign에서는 특정 프로세스를 활성화하고 실행하는 데 
 
 **바운스 메일** 외부 계정은 전자 메일 서비스에 연결하는 데 사용할 외부 POP3 계정을 지정합니다. POP3 액세스용으로 구성된 모든 서버는 반송 메일을 수신하는 데 사용할 수 있습니다.
 
-[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}에서 인바운드 전자 메일에 대해 자세히 알아보세요.
+[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ko){target="_blank"}에서 인바운드 전자 메일에 대해 자세히 알아보세요.
 
 ![](assets/bounce_external_1.png)
 
@@ -131,29 +131,29 @@ Microsoft OAuth 2.0을 사용하여 POP3 외부 계정을 구성하려면 **[!UI
 
 Campaign 웹 사용자 인터페이스(v8)의 경우 다음을 참조하십시오.
 
-* [외부 계정 만들기](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/create-external-account){target="_blank"}
-* [외부 데이터베이스 계정](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database){target="_blank"}
+* [외부 계정 만들기](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/create-external-account){target="_blank"}
+* [외부 데이터베이스 계정](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database){target="_blank"}
 
 Campaign 웹 UI 페이지에서는 다음을 포함하여 **외부 데이터베이스** 공급자 유형의 보다 포괄적인 목록을 제공합니다.
 
-* **[Amazon Redshift](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#amazon-redshift){target="_blank"}** / **[Amazon Redshift(기존)](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#amazon-redshift-legacy){target="_blank"}** - AWS Redshift 클라우드 데이터 웨어하우스 환경에 Campaign 연결
-* **[Azure Synapse Analytics](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#azure-synapse-analytics){target="_blank"}** - Microsoft Azure Synapse 전용 SQL 풀에 Campaign 연결.
-* **[Databricks](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#databricks){target="_blank"}** - Campaign을 Databricks SQL 및 Lakehouse 워크로드에 연결합니다.
-* **[Google BigQuery](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#google-bigquery){target="_blank"}** - Campaign을 Google Cloud BigQuery 분석 데이터 세트에 연결합니다.
-* **[Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#microsoft-sql-server){target="_blank"}** - Campaign을 온-프레미스 또는 호스팅된 SQL Server 데이터베이스에 연결합니다.
-* **[MySQL](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#mysql){target="_blank"}** - 통합 쿼리 및 워크플로를 위해 Campaign을 MySQL 데이터베이스에 연결합니다.
-* **[Netezza](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#netezza){target="_blank"}** - IBM Netezza/성능 서버 시스템에 캠페인을 연결합니다.
-* **[ODBC(Sybase ASE, Sybase IQ)](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#odbc-sybase-ase-sybase-iq){target="_blank"}** - ODBC를 통해 Campaign을 Sybase 데이터베이스 엔진에 연결합니다.
-* **[원격 데이터베이스에 대한 HTTP 릴레이](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#http-relay-to-remote-database){target="_blank"}** - HTTP 릴레이 끝점을 통해 원격 데이터베이스에 연결합니다.
-* **[Oracle](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#oracle){target="_blank"}** - 페더레이션 액세스 사용 사례를 위해 Campaign을 Oracle 데이터베이스에 연결합니다.
-* **[PostgreSQL](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#postgresql){target="_blank"}** - FDA 외부 계정을 사용하여 Campaign을 PostgreSQL 데이터베이스에 연결합니다.
-* **[SAP HANA](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#sap-hana){target="_blank"}** - Campaign을 SAP HANA 메모리 내 데이터베이스 환경에 연결합니다.
-* **[Snowflake](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#snowflake){target="_blank"}** - Snowflake 클라우드 데이터 플랫폼 환경에 Campaign을 연결합니다.
-* **[Teradata](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#teradata){target="_blank"}** - Teradata 엔터프라이즈 데이터 웨어하우스 시스템에 Campaign을 연결합니다.
-* **[Vertica Analytics](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#vertica-analytics){target="_blank"}** - OpenText Vertica 분석 데이터베이스에 Campaign을 연결합니다.
-* **[Microsoft 패브릭](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#fabric){target="_blank"}** - Microsoft 패브릭 SQL 및 저장소 서비스에 Campaign을 연결합니다.
+* **[Amazon Redshift](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#amazon-redshift){target="_blank"}** / **[Amazon Redshift(기존)](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#amazon-redshift-legacy){target="_blank"}** - AWS Redshift 클라우드 데이터 웨어하우스 환경에 Campaign 연결
+* **[Azure Synapse Analytics](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#azure-synapse-analytics){target="_blank"}** - Microsoft Azure Synapse 전용 SQL 풀에 Campaign 연결.
+* **[Databricks](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#databricks){target="_blank"}** - Campaign을 Databricks SQL 및 Lakehouse 워크로드에 연결합니다.
+* **[Google BigQuery](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#google-bigquery){target="_blank"}** - Campaign을 Google Cloud BigQuery 분석 데이터 세트에 연결합니다.
+* **[Microsoft SQL Server](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#microsoft-sql-server){target="_blank"}** - Campaign을 온-프레미스 또는 호스팅된 SQL Server 데이터베이스에 연결합니다.
+* **[MySQL](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#mysql){target="_blank"}** - 통합 쿼리 및 워크플로를 위해 Campaign을 MySQL 데이터베이스에 연결합니다.
+* **[Netezza](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#netezza){target="_blank"}** - IBM Netezza/성능 서버 시스템에 캠페인을 연결합니다.
+* **[ODBC(Sybase ASE, Sybase IQ)](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#odbc-sybase-ase-sybase-iq){target="_blank"}** - ODBC를 통해 Campaign을 Sybase 데이터베이스 엔진에 연결합니다.
+* **[원격 데이터베이스에 대한 HTTP 릴레이](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#http-relay-to-remote-database){target="_blank"}** - HTTP 릴레이 끝점을 통해 원격 데이터베이스에 연결합니다.
+* **[Oracle](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#oracle){target="_blank"}** - 페더레이션 액세스 사용 사례를 위해 Campaign을 Oracle 데이터베이스에 연결합니다.
+* **[PostgreSQL](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#postgresql){target="_blank"}** - FDA 외부 계정을 사용하여 Campaign을 PostgreSQL 데이터베이스에 연결합니다.
+* **[SAP HANA](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#sap-hana){target="_blank"}** - Campaign을 SAP HANA 메모리 내 데이터베이스 환경에 연결합니다.
+* **[Snowflake](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#snowflake){target="_blank"}** - Snowflake 클라우드 데이터 플랫폼 환경에 Campaign을 연결합니다.
+* **[Teradata](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#teradata){target="_blank"}** - Teradata 엔터프라이즈 데이터 웨어하우스 시스템에 Campaign을 연결합니다.
+* **[Vertica Analytics](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#vertica-analytics){target="_blank"}** - OpenText Vertica 분석 데이터베이스에 Campaign을 연결합니다.
+* **[Microsoft 패브릭](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/administration/external-account-database#fabric){target="_blank"}** - Microsoft 패브릭 SQL 및 저장소 서비스에 Campaign을 연결합니다.
 
-기존 클라이언트 콘솔 세부 정보 및 추가 참조에 대해서는 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}를 참조하십시오.
+기존 클라이언트 콘솔 세부 정보 및 추가 참조에 대해서는 [Adobe Campaign Classic v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}를 참조하십시오.
 
 #### 데이터 블록 외부 계정 {#databricks-external-accounts}
 
@@ -223,7 +223,7 @@ Campaign에서 OAuth2 인증을 구성하려면 다음 단계를 수행하십시
 
 ## 외부 계정 데이터 전송 {#transfer-data-external-accounts}
 
-이러한 외부 계정은 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보내는 데 사용할 수 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}에서 워크플로우의 **파일 전송**&#x200B;에 대해 자세히 알아보세요.
+이러한 외부 계정은 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보내는 데 사용할 수 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ko){target="_blank"}에서 워크플로우의 **파일 전송**&#x200B;에 대해 자세히 알아보세요.
 
 * **FTP 및 SFTP** - **FTP** 외부 계정을 사용하여 Adobe Campaign 외부의 서버에 대한 액세스를 구성하고 테스트할 수 있습니다. 파일 전송에 사용되는 SFTP 또는 FTP 서버와 같은 외부 시스템과의 연결을 설정하려면 고유한 외부 계정을 만들 수 있습니다.
 
@@ -231,7 +231,7 @@ Campaign에서 OAuth2 인증을 구성하려면 다음 단계를 수행하십시
 
   >[!NOTE]
   >
-  >이제 릴리스 8.5부터 SFTP 외부 계정을 구성할 때 개인 키를 사용하여 안전하게 인증할 수 있습니다. [키 관리에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
+  >이제 릴리스 8.5부터 SFTP 외부 계정을 구성할 때 개인 키를 사용하여 안전하게 인증할 수 있습니다. [키 관리에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ko){target="_blank"}.
 
 * **Amazon Simple Storage Service(S3)** - **AWS S3** 커넥터를 사용하여 **[!UICONTROL Transfer file]** 워크플로우 활동을 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 이 외부 계정을 설정할 때 다음 세부 정보를 제공해야 합니다.
 
