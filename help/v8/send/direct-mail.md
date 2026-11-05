@@ -90,11 +90,11 @@ DM 게재의 경우 **[!UICONTROL Edit the extraction file format...]** 링크�
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-추출 파일에 개인화된 URL을 삽입할 수 있습니다. 자세한 내용은 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"}를 참조하세요.
+추출 파일에 개인화된 URL을 삽입할 수 있습니다. 자세한 내용은 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=ko){target="_blank"}를 참조하세요.
 
 >[!NOTE]
 >
->이 도우미에는 내보내기 도우미의 단계가 포함되어 있습니다. 자세한 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}..
+>이 도우미에는 내보내기 도우미의 단계가 포함되어 있습니다. 자세한 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=ko){target="_blank"}..
 
 ## 게재 유효성 검사{#validating}
 
