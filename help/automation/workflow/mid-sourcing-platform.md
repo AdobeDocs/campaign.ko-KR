@@ -18,10 +18,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8a7bf8408d15e0bd9e1c3e72f7846bf9a79c6885
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 4%
+source-wordcount: '112'
+ht-degree: 1%
 ---
 
 # 중간 소싱 플랫폼{#mid-sourcing-platform}
@@ -45,3 +45,6 @@ ht-degree: 4%
  </tbody> 
 </table>
 
+>[!NOTE]
+>
+>중간 소싱 서버의 로그 보존 기간은 게재 유효 기간에 **indicatorsDuration** 값을 더한 기간보다 길어야 합니다. 그렇지 않으면 이전 로그가 삭제되면 게재 지표가 감소하며 낮은 값이 마케팅 인스턴스와 동기화됩니다. 예를 들어 유효 기간이 5일이고 **indicatorsDuration**&#x200B;이 30일인 경우 유지 기간을 36일 이상으로 설정하십시오.
