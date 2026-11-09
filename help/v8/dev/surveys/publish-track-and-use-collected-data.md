@@ -103,7 +103,7 @@ URL 매개 변수에 대한 자세한 정보는 [이 페이지](../web/defining-
 
    보고서 데이터를 내보내려면 **[!UICONTROL Export]** 단추를 클릭하고 내보내기 형식을 선택합니다.
 
-   보고서 데이터 내보내기에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign){target="_blank"}을 참조하세요.
+   보고서 데이터 내보내기에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign){target="_blank"}을 참조하세요.
 
 1. 답변 내보내기
 
@@ -181,4 +181,4 @@ URL 매개 변수에 대한 자세한 정보는 [이 페이지](../web/defining-
 
 ## 데이터 표준화 {#standardizing-data}
 
-별칭을 사용하여 수집된 데이터에 대해 Adobe Campaign에서 표준화 프로세스를 설정할 수 있습니다. 이렇게 하면 데이터베이스에 저장된 데이터를 표준화할 수 있습니다. 이렇게 하려면 관련 정보가 포함된 항목별 목록에 별칭을 정의하십시오. [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.
+별칭을 사용하여 수집된 데이터에 대해 Adobe Campaign에서 표준화 프로세스를 설정할 수 있습니다. 이렇게 하면 데이터베이스에 저장된 데이터를 표준화할 수 있습니다. 이렇게 하려면 관련 정보가 포함된 항목별 목록에 별칭을 정의하십시오. [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}에서 **열거형으로 작업**&#x200B;하는 방법에 대해 자세히 알아보세요.

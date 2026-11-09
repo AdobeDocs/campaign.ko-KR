@@ -51,7 +51,7 @@ ht-degree: 12%
 >
 >가장 일반적인 사용 사례의 경우, Campaign 웹 사용자 인터페이스에서 랜딩 페이지를 만들어 손쉽게 디자인하고 게시할 수 있습니다. 이 섹션에 설명된 대로 클라이언트 콘솔에서 만든 랜딩 페이지는 더 많은 설정을 제공하고 더 많은 고급 사용 사례를 다룹니다.
 >
->[Campaign 웹 사용자 인터페이스의 랜딩 페이지에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[Campaign 웹 사용자 인터페이스의 랜딩 페이지에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 
 
@@ -82,24 +82,24 @@ Adobe Campaign의 웹 애플리케이션은 다음 기능에 액세스할 수 �
 * 그래픽 페이지 관리 인터페이스, 다중 열 페이지 레이아웃. 자세한 정보는 이 [페이지](designing-a-web-application.md)를 참조하십시오.
 * 개인화 및 필드 위치를 렌더링하고 있습니다. 자세한 정보는 이 [페이지](editing-content.md#adding-personalization-content)를 참조하십시오.
 * 응답에 따른 설문 필드의 조건부 표시. 자세한 정보는 이 [페이지](form-rendering.md#defining-fields-conditional-display)를 참조하십시오.
-* 무작위로 질문 표시. 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/building-a-survey#adding-questions){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+* 무작위로 질문 표시. 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/surveys/building-a-survey#adding-questions){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 * 조건부 페이지 표시. 자세한 정보는 이 [페이지](defining-web-forms-page-sequencing.md#conditional-page-display)를 참조하십시오.
 * 예상 데이터 유형(번호, 이메일 주소, 날짜 등)에 따라 유효성 검사 전 정보 확인 및 필수 필드. 자세한 정보는 이 [페이지](form-rendering.md#defining-control-settings)를 참조하십시오.
 * 이메일 초대 또는 알림. 자세한 정보는 이 [페이지](publishing-a-web-form.md#delivering-a-form-via-email)를 참조하십시오.
 * 오류 및 종료 메시지의 Personalization. 자세한 정보는 이 [페이지](defining-web-forms-properties.md#setting-up-an-error-page)를 참조하십시오.
 * 이미지, 비디오, 하이퍼텍스트 링크, captcha 등의 사용 자세한 정보는 이 [페이지](editing-content.md)를 참조하세요.
-* 실시간 응답 모니터링. 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#response-tracking){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+* 실시간 응답 모니터링. 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#response-tracking){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
 선택적 **설문 조사** 생성 모듈은 다음과 같은 추가 기능을 제공합니다.
 
-* 데이터베이스의 동적 확장: 초기 데이터 템플릿에 포함되지 않은 응답 만들기. 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/managing-answers#storing-collected-answers){target="_blank"}(Campaign v8 설명서)를 참조하세요.
-* 전용 보고서를 생성하고 있습니다. 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+* 데이터베이스의 동적 확장: 초기 데이터 템플릿에 포함되지 않은 응답 만들기. 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/surveys/managing-answers#storing-collected-answers){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+* 전용 보고서를 생성하고 있습니다. 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
 웹 응용 프로그램에 비해 설문 조사는 편집 컨트롤 수가 줄어든 간단한 그래픽 인터페이스를 제공합니다.
 
 >[!NOTE]
 >
->설문 조사는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
+>설문 조사는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
 >
 >Adobe Campaign에서 웹 양식의 전체 기능은 [이 섹션](about-web-forms.md)에 자세히 설명되어 있습니다.
 

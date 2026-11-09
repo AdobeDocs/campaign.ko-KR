@@ -47,7 +47,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->개인 정보가 포함될 수 있는 페이지는 항상 보호하십시오. [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy)을 참조하세요.
+>개인 정보가 포함될 수 있는 페이지는 항상 보호하십시오. [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html#privacy)을 참조하세요.
 
 이 템플릿은 웹 응용 프로그램의 유형을 결정합니다. 다음을 만들 수 있습니다.
 
@@ -65,7 +65,7 @@ ht-degree: 16%
 
 1. 설문 조사
 
-   Adobe Campaign을 사용하면 **설문 조사 관리자** 옵션을 통해 온라인 설문 조사를 디자인하고 관리하며 동적 필드 만들기, 점수 관리, 답변 내보내기 및 전용 보고서 등의 결과를 처리할 수 있습니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"}(Campaign v8 설명서)을 참조하세요.
+   Adobe Campaign을 사용하면 **설문 조사 관리자** 옵션을 통해 온라인 설문 조사를 디자인하고 관리하며 동적 필드 만들기, 점수 관리, 답변 내보내기 및 전용 보고서 등의 결과를 처리할 수 있습니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"}(Campaign v8 설명서)을 참조하세요.
 
    >[!CAUTION]
    >
@@ -73,7 +73,7 @@ ht-degree: 16%
 
 1. Facebook 애플리케이션
 
-   **소셜 마케팅** 옵션 덕분에 Adobe Campaign에서 Facebook 애플리케이션에 개인화된 콘텐츠를 게시할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}을 참조하십시오.
+   **소셜 마케팅** 옵션 덕분에 Adobe Campaign에서 Facebook 애플리케이션에 개인화된 콘텐츠를 게시할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}을 참조하십시오.
 
    >[!CAUTION]
    >

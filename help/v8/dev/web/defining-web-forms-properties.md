@@ -159,7 +159,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_admin_survey_access_login.png)
 
-로그인 및 암호는 Adobe Campaign 운영자가 사용하는 암호입니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}을 참조하십시오.
+로그인 및 암호는 Adobe Campaign 운영자가 사용하는 암호입니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}을 참조하십시오.
 
 **[!UICONTROL Use a specific account]** 옵션을 사용하면 양식에 액세스하는 연산자의 읽기 또는 쓰기 권한을 제한할 수 있습니다. 드롭다운 상자를 사용하여 이러한 권한 부여를 담당할 운영자 또는 운영자 그룹을 선택합니다.
 

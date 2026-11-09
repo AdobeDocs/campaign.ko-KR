@@ -332,7 +332,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->정보 서비스는 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}에 자세히 설명되어 있습니다.
+>정보 서비스는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}에 자세히 설명되어 있습니다.
 
 사용자는 해당 옵션을 선택하여 서비스에 가입한다.
 
