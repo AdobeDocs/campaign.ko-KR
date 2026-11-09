@@ -3,9 +3,9 @@ audience: user
 user-guide-title: Campaign 자동화 안내서
 user-guide-description: Campaign 자동화 안내서
 feature: Overview
-source-git-commit: 7e18801756113db5273f0108447c20d6b3ef85a3
+source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '477'
 ht-degree: 81%
 ---
 
@@ -164,4 +164,10 @@ ht-degree: 81%
   + [비용 제어](mrm/controlling-costs.md)
   + [마케팅 리소스 관리](mrm/managing-marketing-resources.md)
   + [토론 포럼](mrm/discussion-forums.md)
++ 응답 관리자(추가 기능) {#response-manager}
+  + [응답 관리자 시작](response/about-response-manager.md)
+  + [응답 관리자 구성](response/configure-response-manager.md)
+  + [가설 템플릿](response/hypothesis-templates.md)
+  + [가설 만들기](response/creating-hypotheses.md)
+  + [가설 추적](response/hypothesis-tracking.md)
 + [&lt; Campaign v8 설명서로 이동](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)

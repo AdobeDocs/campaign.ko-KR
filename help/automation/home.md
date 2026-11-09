@@ -22,9 +22,9 @@ subfeature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '197'
 ht-degree: 36%
 ---
 # Adobe Campaign 자동화 {#automation-home}
@@ -93,6 +93,10 @@ Adobe Campaign을 사용하면 캠페인 오케스트레이션을 위한 편리�
     <br>
     <div>
     <a href="mrm/about-marketing-resource-management.md">MRM(마케팅 리소스 관리)</a>
+    </div>
+    <br>
+    <div>
+    <a href="response/about-response-manager.md">응답 관리자</a>
     </div>
     <br>
   </td>
