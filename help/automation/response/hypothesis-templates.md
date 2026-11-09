@@ -84,7 +84,7 @@ ht-degree: 2%
   >
   >제어 그룹을 고려하도록 템플릿을 구성했지만 가설에 관련된 게재에 그룹이 정의되지 않은 경우 결과는 타겟팅된 수신자만 기반으로 합니다.
 
-  컨트롤 그룹 정의 및 구성에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target=_blank}를 참조하세요.
+  컨트롤 그룹 정의 및 구성에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko#add-a-control-group){target=_blank}를 참조하세요.
 
 * **[!UICONTROL Channel]**: 드롭다운 목록에서 **[!UICONTROL All channels]**&#x200B;을(를) 선택하여 Adobe Campaign 콘솔의 모든 채널에서 특정 채널을 선택하거나 가설 템플릿을 사용할 수 있도록 할 수 있습니다. 특정 채널에 대해 템플릿을 구성하는 경우 가설을 생성할 때 채널당 게재를 자동으로 필터링할 수 있습니다. [자세히 알아보기](creating-hypotheses.md)
 
@@ -134,7 +134,7 @@ ht-degree: 2%
 
 ### 거래 {#transactions}
 
-이 탭에는 트랜잭션 측면에서 수신자 반응 내역을 저장할 수 있는 다양한 필드와 테이블이 포함되어 있습니다. 응답 관리 전용 테이블에 대한 자세한 내용은 이 [섹션](https://experienceleague.adobe.com/en/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/about-schema-reference){target="_blank"}을 참조하세요.
+이 탭에는 트랜잭션 측면에서 수신자 반응 내역을 저장할 수 있는 다양한 필드와 테이블이 포함되어 있습니다. 응답 관리 전용 테이블에 대한 자세한 내용은 이 [섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/about-schema-reference){target="_blank"}을 참조하세요.
 
 * **[!UICONTROL Schema (reaction log storage)]**: 받는 사람 반응 테이블을 선택하십시오. Adobe Campaign의 기본 제공 테이블은 **NmsRemaMatchRcp**&#x200B;입니다.
 * **[!UICONTROL Transaction schema]**: 가설이 관련된 테이블(예: 트랜잭션 또는 구매 테이블)을 선택합니다.
