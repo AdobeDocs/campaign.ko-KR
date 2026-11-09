@@ -125,7 +125,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >**[!UICONTROL Advanced]** 탭의 옵션을 통해 각 필드 또는 질문에 대해 필요에 맞게 페이지 레이아웃을 조정할 수 있습니다. 설문 조사 화면의 레이아웃은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}에 자세히 설명되어 있습니다.
+  >**[!UICONTROL Advanced]** 탭의 옵션을 통해 각 필드 또는 질문에 대해 필요에 맞게 페이지 레이아웃을 조정할 수 있습니다. 설문 조사 화면의 레이아웃은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}에 자세히 설명되어 있습니다.
 
   세부 정보 화면에서 **[!UICONTROL Preview]** 탭을 클릭하여 방금 만든 설문 조사의 렌더링을 확인합니다.
 

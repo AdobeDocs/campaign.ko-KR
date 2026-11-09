@@ -36,7 +36,7 @@ ht-degree: 0%
 
 온라인 설문 조사는 고객의 요구 사항을 충족하도록 완벽하게 구성 및 사용자 정의할 수 있습니다. 등록 정보 창에 매개변수를 입력해야 합니다.
 
-사용 가능한 매개 변수는 [이 문서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties){target="_blank"}에 자세히 설명되어 있습니다.
+사용 가능한 매개 변수는 [이 문서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties){target="_blank"}에 자세히 설명되어 있습니다.
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 
