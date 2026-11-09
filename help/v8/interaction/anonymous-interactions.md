@@ -3,6 +3,7 @@ product: campaign
 title: 익명 프로필에 오퍼 제공(인바운드 상호 작용)
 description: 익명 프로필에 오퍼를 제공하는 방법을 알아봅니다
 feature: Interaction, Offers
+version: Campaign v8, Campaign Classic v7
 role: User, Admin
 exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
 TQID: 'https://experienceleague.adobe.com/rl7SIcS-OkMmLnxvPiEfjs51xouGSSyLJV4in-vsoCE'
@@ -21,7 +22,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -48,7 +49,7 @@ ht-degree: 0%
 
 인바운드 상호 작용은 아웃바운드 상호 작용과 마찬가지로 범주와 오퍼로 구성된 오퍼 카탈로그로 구성됩니다.
 
-카테고리 및 공간을 만들려면 식별된 방문자에 대해 과 동일한 프로세스를 적용합니다. [오퍼 범주 만들기](interaction-offer-catalog.md#creating-offer-categories) 및 [오퍼 환경 만들기](interaction-env.md#creating-an-offer-environment)를 참조하세요.
+카테고리 및 공간을 만들려면 식별된 방문자에 대해 과 동일한 프로세스를 적용합니다. [오퍼 범주 만들기](interaction-offer-catalog.md#creating-offer-categories) 및 [오퍼 환경 만들기](interaction-env.md#create-an-offer-environment)를 참조하세요.
 
 ## 익명 방문자 {#anonymous-visitors}
 
