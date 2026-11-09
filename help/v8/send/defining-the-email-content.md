@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2072'
 ht-degree: 2%
 ---
 # 이메일 콘텐츠 정의 {#defining-the-email-content}
@@ -92,7 +92,7 @@ ht-degree: 2%
 
 * HTML 콘텐츠를 가져오려면 **[!UICONTROL Open]** 단추를 사용하십시오. 소스 코드를 **[!UICONTROL Source]** 하위 탭에 직접 붙여넣을 수도 있습니다.
 
-  DCE(디지털 콘텐츠 편집기)를 사용하는 경우 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html?lang=ko#step-3---selecting-a-content)를 참조하세요.
+  DCE(디지털 콘텐츠 편집기)를 사용하는 경우 [이 섹션](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content)을 참조하세요.
 
   >[!IMPORTANT]
   >

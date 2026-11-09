@@ -29,10 +29,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 34%
+source-wordcount: '78'
+ht-degree: 24%
 ---
 # 웹 양식으로 프로필 수집 및 업데이트
 
@@ -40,4 +40,4 @@ Campaign을 사용하여 웹 양식을 만들고 쉽고 효율적으로 프로�
 
 ![](assets/web-form-page.png)
 
-웹 양식을 만드는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ko){target="_blank"}를 참조하세요.
+[이 섹션](../dev/web/about-web-forms.md)에서 웹 양식을 만드는 방법을 알아봅니다.

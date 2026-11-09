@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '537'
 ht-degree: 3%
 ---
 # 설문 조사 시작{#about-surveys}
@@ -53,13 +53,13 @@ Adobe Campaign에는 웹 애플리케이션을 정의하고 게시하는 그래�
 
 >[!NOTE]
 >
->* 표준 웹 양식을 만드는 자세한 단계는 [이 문서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}에서 확인할 수 있습니다.
+>* 표준 웹 양식을 만드는 자세한 단계는 [이 문서](../web/about-web-forms.md)에서 확인할 수 있습니다.
 >
->* 웹 응용 프로그램 관리에 대한 자세한 내용은 [이 문서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-applications/about-web-applications){target="_blank"}를 참조하세요. 자세한 내용은 이 장을 참조하십시오.
+>* 웹 응용 프로그램 관리에 대한 자세한 내용은 [이 문서](../web/about-web-applications.md)를 참조하세요. 자세한 내용은 이 장을 참조하십시오.
 
 ## 기능 범위 {#campaign-surveys-scope}
 
-Adobe Campaign에서 [웹 응용 프로그램](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}을 사용하여 다음을 수행할 수 있습니다.
+Adobe Campaign에서 [웹 응용 프로그램](../web/about-web-forms.md)을 사용하여 다음을 수행할 수 있습니다.
 
 * 여러 페이지로 구성된 양식 만들기,
 * 통합 번역 툴을 사용하여 다국어 양식을 관리하고,
@@ -90,7 +90,7 @@ Adobe Campaign에서 [웹 응용 프로그램](https://experienceleague.adobe.co
 1. 게시한 다음 설문조사를 수신자에게 전달합니다(예: 게재 또는 웹 사이트에 링크 포함).
 1. 응답을 모니터링하고 보고서를 봅니다.
 
-이 단계를 구성하고 순서를 지정하는 방법에 대한 자세한 내용은 [이 문서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}를 참조하세요. 설문 조사에 대한 구성만 이 장에 자세히 설명되어 있습니다.
+이 단계를 구성하고 순서를 지정하는 방법에 대한 자세한 내용은 [이 문서](../web/about-web-forms.md)를 참조하세요. 설문 조사에 대한 구성만 이 장에 자세히 설명되어 있습니다.
 
 >[!CAUTION]
 >
@@ -107,4 +107,4 @@ Adobe Campaign에서 [웹 응용 프로그램](https://experienceleague.adobe.co
 
 >[!NOTE]
 >
->설정 세부 정보는 [이 문서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}에서 사용할 수 있습니다.
+>설정 세부 정보는 [이 문서](../web/about-web-forms.md)에서 사용할 수 있습니다.

@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '797'
 ht-degree: 2%
 ---
 # 설문 조사 디자인{#building-a-survey}
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->웹 양식의 콘텐츠를 정의하고 화면 레이아웃을 만드는 방법에 대한 자세한 내용은 [이 문서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}를 참조하세요.
+>웹 양식의 콘텐츠를 정의하고 화면 레이아웃을 만드는 방법에 대한 자세한 내용은 [이 문서](../web/about-web-forms.md)를 참조하세요.
 
 ## 필드 추가 {#adding-fields}
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
-사용 가능한 필드 유형은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}에 자세히 설명되어 있습니다.
+사용 가능한 필드 유형은 [이 섹션](../web/about-web-forms.md)에 자세히 설명되어 있습니다.
 
 ## 설문 조사 관련 요소 {#survey-specific-elements}
 
@@ -106,7 +106,7 @@ ht-degree: 2%
 
 ### 질문 추가 {#adding-questions}
 
-컨테이너에는 표준 및 질문의 두 가지 유형이 있습니다. 표준 컨테이너는 페이지에서 페이지 레이아웃 및 조건부 표시를 구성하는 데 사용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+컨테이너에는 표준 및 질문의 두 가지 유형이 있습니다. 표준 컨테이너는 페이지에서 페이지 레이아웃 및 조건부 표시를 구성하는 데 사용됩니다. [자세히 알아보기](../web/about-web-forms.md).
 
 **질문** 컨테이너를 사용하여 페이지에 질문을 추가하고 계층 구조 아래에 가능한 답변을 삽입하십시오. 이러한 유형의 컨테이너에 배치된 질문에 대한 사용자 응답은 보고서에서 분석할 수 있습니다.
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->HTML 편집기 사용에 대한 자세한 내용은 [이 문서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}를 참조하십시오.
+>HTML 편집기 사용에 대한 자세한 내용은 [이 문서](../web/about-web-forms.md)를 참조하십시오.
 
 예제:
 

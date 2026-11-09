@@ -22,9 +22,9 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '896'
 ht-degree: 3%
 ---
 # 수집된 데이터 게시, 추적 및 사용{#publish-track-and-use-collected-data}
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Adobe Campaign의 설문 조사 수명 주기와 게시 및 게재 모드는 웹 양식의 수명 주기와 유사합니다. 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}을 참조하세요.
+>Adobe Campaign의 설문 조사 수명 주기와 게시 및 게재 모드는 웹 양식의 수명 주기와 유사합니다. 자세한 내용은 [이 섹션](../web/about-web-forms.md)을 참조하세요.
 
 ## 설문 조사 대시보드 {#survey-dashboard}
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 설문 조사를 편집하는 동안 설문 조사의 URL에 테스트 단계이며 아직 온라인 상태가 아님을 나타내는 **[!UICONTROL __uuid]** 매개 변수가 포함되어 있습니다. 이 URL을 통해 설문 조사에 액세스하면 생성된 레코드는 추적(보고서)에서 고려되지 않습니다. 원본이 **[!UICONTROL Adobe Campaign]** 값으로 강제 적용됩니다.
 
-URL 매개 변수에 대한 자세한 정보는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties#form-url-parameters){target="_blank"}를 참조하세요.
+URL 매개 변수에 대한 자세한 정보는 [이 페이지](../web/defining-web-forms-properties.md#form-url-parameters)를 참조하세요.
 
 ### 설문 조사 보고서 {#reports-on-surveys}
 

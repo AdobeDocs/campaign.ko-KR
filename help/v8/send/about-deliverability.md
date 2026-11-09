@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '790'
 ht-degree: 8%
 ---
 # 전달성의 정의{#about-deliverability}
@@ -74,7 +74,7 @@ Adobe Campaign은 플랫폼의 전달성 성능을 추적하고 개선하는 여
 
 Adobe은 잘못된 주소로 메시지를 보내지 않도록 하고 부적절한 커뮤니케이션을 제한하며 보낸 사람의 평판을 향상시키기 위해 이중 옵트인 메커니즘을 구현하는 것을 권장합니다. 이 방법을 사용하면 수신자가 의도적으로 구독했는지 확인할 수 있습니다.
 
-자세한 내용은 [이중 옵트인](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}을 사용하여 구독 양식 만들기를 참조하십시오.
+자세한 내용은 [이중 옵트인](../dev/web/use-cases-web-forms.md)을 사용하여 구독 양식 만들기를 참조하십시오.
 
 고객으로부터 데이터를 수집하는 모범 사례에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=ko#data-quality-and-hygiene){target="_blank"}를 참조하세요.
 

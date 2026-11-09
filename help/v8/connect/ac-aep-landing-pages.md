@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1024'
 ht-degree: 1%
 ---
 # Adobe Campaign 랜딩 페이지에서 Adobe Experience Platform 프로필 업데이트 {#ac-aep-lp}
@@ -369,5 +369,5 @@ Adobe Campaign에 추가된 JavaScript 코드를 사용하여 **[!UICONTROL Java
 ### 추가 정보
 
 * [JavaScript 코드 활동 구성](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [랜딩 페이지 만들기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html?lang=ko){target="_blank"}
+* [랜딩 페이지 만들기](../dev/web/creating-a-landing-page.md)
 * [구독 및 구독 취소 관리](../start/subscriptions.md)
