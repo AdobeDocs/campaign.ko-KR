@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 9%
@@ -38,7 +38,7 @@ ht-degree: 9%
 
 ![](assets/s_user_segmentation_inter.png)
 
-교차 활동 구성 및 사용에 대한 자세한 내용은 [공동 데이터 추출(교차)](targeting-workflows.md#extracting-joint-data--intersection-)을 참조하세요.
+교차 활동 구성 및 사용에 대한 자세한 내용은 [공동 데이터 추출(교차)](targeting-workflows.md#extract-joint-data--intersection-)을 참조하세요.
 
 나머지 모집단을 처리하려면 **[!UICONTROL Generate complement]** 옵션을 선택하십시오. 여집합에는 교차를 제외한 모든 인바운드 활동 결과의 합집합이 포함됩니다. 그러면 다음과 같이 추가 아웃바운드 전환이 활동에 추가됩니다.
 

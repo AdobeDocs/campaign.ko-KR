@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 8%
@@ -39,7 +39,7 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 
 >[!NOTE]
 >
->매력적인 개인화된 전자 메일을 만들려면 [웹 사용자 인터페이스](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui)로 이동하세요. Adobe Campaign에는 직관적인 드래그 앤 드롭 인터페이스인 이메일 Designer이 함께 제공되어 모든 이메일에 대한 모든 콘텐츠를 디자인하고 개선할 수 있습니다.
+>매력적인 개인화된 전자 메일을 만들려면 [웹 사용자 인터페이스](../start/campaign-ui.md#ac-web-ui)로 이동하세요. Adobe Campaign에는 직관적인 드래그 앤 드롭 인터페이스인 이메일 Designer이 함께 제공되어 모든 이메일에 대한 모든 콘텐츠를 디자인하고 개선할 수 있습니다.
 
 
 [이 페이지](../start/create-message.md)에서 게재를 만들고 구성하는 주요 단계를 알아봅니다.

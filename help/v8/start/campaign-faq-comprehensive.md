@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '11539'
+source-wordcount: '11533'
 ht-degree: 9%
 ---
 # 자주 묻는 질문 {#faq}
@@ -169,7 +169,7 @@ Campaign v8에서 첫 번째 이메일을 만드는 것은 간단합니다. 템�
 
 Adobe 고객 지원 센터에 문의하려면 [Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"}에 연결하여 서비스 케이스를 만들거나 채팅 세션을 시작하십시오.
 
-올바른 권한을 가진 개별 계정이 필요합니다. 로그인할 수 없는 경우 Experience League을 통해 액세스를 요청합니다. [자세히 알아보기](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
+올바른 권한을 가진 개별 계정이 필요합니다. 로그인할 수 없는 경우 Experience League을 통해 액세스를 요청합니다. [자세히 알아보기](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html){target="_blank"}
 
 또는 [Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko){target="_blank"}에 참여하여 답변을 검색하거나 전문가에게 질문해 보십시오.
 
@@ -212,7 +212,7 @@ Adobe이 v8을 향상함에 따라 이러한 제한 사항이 발전하고 있�
 
 **관련 항목:**
 
-[Campaign v7에서 v8로의 마이그레이션](../start/v7-to-v8.md#limitations) | [FFDA 아키텍처](../architecture/enterprise-deployment.md)
+[Campaign v7에서 v8로의 마이그레이션](../start/v7-to-v8.md) | [FFDA 아키텍처](../architecture/enterprise-deployment.md)
 
 +++
 
@@ -820,7 +820,7 @@ Campaign은 또한 연락 날짜 최적화(수신자당 가장 적합한 전송 
 
 프로덕션 전송 전에 안전한 파일 형식(PDF, JPEG, PNG, DOCX)을 사용하고 시드 주소로 테스트합니다.
 
-[전자 메일 첨부 파일 가이드](../send/email.md#attachments)에서 자세히 알아보기
+[전자 메일 첨부 파일 가이드](../send/email.md)에서 자세히 알아보기
 
 +++
 
@@ -1754,7 +1754,7 @@ Campaign은 동의 추적을 위해 구독 서비스, 환경 설정 센터, 옵�
 
 **관련 항목:**
 
-[구독 서비스](../start/subscriptions.md) | [개인 정보 및 동의](../start/privacy.md#consent-retention-roles) | [개인 정보 관리](../start/privacy.md)
+[구독 서비스](../start/subscriptions.md) | [개인 정보 및 동의](../start/privacy.md) | [개인 정보 관리](../start/privacy.md)
 
 +++
 
@@ -1819,7 +1819,7 @@ Campaign의 감사 추적은 삭제 이벤트와 새 프로필 생성을 모두 
 다른 Campaign 사용자 및 Adobe 전문가와 연결하여 지식을 공유하고 답변을 얻을 수 있습니다.
 
 * **[Adobe Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ko){target="_blank"}** - 질문하고, 솔루션을 공유하고, Campaign 커뮤니티에 연결합니다.
-* **[Experience League 포럼](https://experienceleaguecommunities.adobe.com/?profile.language=ko&lang=ko){target="_blank"}** - 모든 Adobe 제품에서 토론 찾아보기
+* **[Experience League 포럼](https://experienceleaguecommunities.adobe.com/?lang=ko){target="_blank"}** - 모든 Adobe 제품에서 토론 찾아보기
 * **[Campaign 커뮤니티 운영 시간](https://experienceleague.adobe.com/ko){target="_blank"}** - Adobe 전문가와 실시간 세션에 참여
 
 ### 설명서 및 학습
@@ -1839,12 +1839,12 @@ Campaign의 감사 추적은 삭제 이벤트와 새 프로필 생성을 모두 
 * **[호환성 매트릭스](compatibility-matrix.md)** - 지원되는 시스템 및 버전
 * **[버전 및 업그레이드 FAQ](upgrades.md)** - 버전을 확인하고 업그레이드에 대해 알아봅니다.
 
-### 지원 및 서비스
+### 지원 및 서비스 {#support}
 
 Adobe 지원 팀의 도움을 받고 인스턴스를 관리합니다.
 
 * **[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}** - 지원 사례 로그 및 사용자 관리
-* **[Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** - 지원 팀에 문의
+* **[Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html){target="_blank"}** - 지원 팀에 문의
 * **[Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target="_blank"}** - Campaign 인스턴스 설정 관리
 * **[시스템 상태](https://status.adobe.com/ko-kr/){target="_blank"}** - Adobe 서비스 상태 확인
 

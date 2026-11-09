@@ -1,5 +1,5 @@
 ---
-title: Campaign v8에서 쿼리 디자인
+title: Campaign 데이터베이스 쿼리
 description: Campaign 클라이언트 콘솔에서 쿼리를 만드는 방법을 알아봅니다
 feature: Query Editor, Data Management
 role: User
@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '887'
 ht-degree: 3%
 ---
 # Campaign 데이터베이스 쿼리
@@ -155,7 +155,7 @@ SQL 언어에 익숙한 사용자는 **[!UICONTROL Generate SQL query]**&#x200B;
 
 >[!NOTE]
 >
->콘솔에서 사용할 수 있는 모든 목록의 경우처럼 기본적으로 처음 200개의 줄만 **[!UICONTROL Data preview]** 창에 표시됩니다. 변경하려면 **[!UICONTROL Lines to display]** 상자에 숫자를 입력하고 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭합니다. [자세히 알아보기](../config/ui-settings.md#manage-and-customize-lists)
+>콘솔에서 사용할 수 있는 모든 목록의 경우처럼 기본적으로 처음 200개의 줄만 **[!UICONTROL Data preview]** 창에 표시됩니다. 변경하려면 **[!UICONTROL Lines to display]** 상자에 숫자를 입력하고 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭합니다. [자세히 알아보기](../config/ui-settings.md#customize-lists)
 
 
 

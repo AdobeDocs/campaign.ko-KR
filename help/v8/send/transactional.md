@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Managed Cloud Services 사용자는 [Adobe에 문의](../start/campaign-faq.md#support){target="_blank"}하여 환경에서 Campaign 트랜잭션 메시지를 구성하세요.
+>Managed Cloud Services 사용자는 [Adobe에 문의](../start/campaign-faq-comprehensive.md#support){target="_blank"}하여 환경에서 Campaign 트랜잭션 메시지를 구성하세요.
 
 트랜잭션 메시지는 다음을 전송하는 데 사용됩니다.
 

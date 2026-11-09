@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 4%
@@ -88,7 +88,7 @@ Adobe Campaign은 게재 실패 유형 및 이유에 따라 격리를 관리합�
 
 하드 오류와 달리 소프트 오류는 주소를 즉시 격리하지 않고, 대신 오류 카운터를 증가시킵니다. 오류 카운터가 제한 임계값에 도달하면 주소가 격리됩니다. [게재 실패 이해](delivery-failures.md)에서 다시 시도 및 오류 유형에 대해 자세히 알아보세요.
 
-10일 이상 전에 마지막으로 중요한 오류가 발생한 경우 오류 카운터가 다시 초기화됩니다. 그러면 주소 상태가 **[!UICONTROL Valid]**(으)로 변경되고 **[!UICONTROL Database cleanup]** 워크플로에 의해 격리 목록에서 삭제됩니다. [기술 워크플로우에 대해 자세히 알아보세요](../config/workflows.md#technical-workflows).
+10일 이상 전에 마지막으로 중요한 오류가 발생한 경우 오류 카운터가 다시 초기화됩니다. 그러면 주소 상태가 **[!UICONTROL Valid]**(으)로 변경되고 **[!UICONTROL Database cleanup]** 워크플로에 의해 격리 목록에서 삭제됩니다. [기술 워크플로우에 대해 자세히 알아보세요](../config/workflows.md).
 
 ## 격리된 주소 액세스 {#access-quarantined-addresses}
 

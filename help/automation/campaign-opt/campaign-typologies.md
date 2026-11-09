@@ -3,6 +3,7 @@ product: campaign
 title: 캠페인 유형화 시작
 description: 캠페인 유형화를 구성하고 구현하는 방법에 대해 알아봅니다
 feature: Typology Rules
+version: Campaign v8, Campaign Classic v7
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
 TQID: 'https://experienceleague.adobe.com/Pxzz3-z8BorlEgP1gGwLK--l6hEAGZ-DQhGuxsLk6oU'
 product_v2:
@@ -27,7 +28,7 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 19%
@@ -67,7 +68,7 @@ Campaign에는 기본 **필터링** 및 **제어** 규칙 집합이 있습니다
 Campaign 최적화 추가 기능은 **유형화 규칙**&#x200B;의 두 가지 추가 유형을 제공합니다.
 
 * 마케팅 피로를 제어할 수 있는 **압력** 규칙입니다. [자세히 알아보기](pressure-rules.md).
-* 최적의 처리 조건을 보장하기 위해 로드를 제한할 수 있는 **용량** 규칙입니다. [자세히 알아보기](consistency-rules.md#controlling-capacity).
+* 최적의 처리 조건을 보장하기 위해 로드를 제한할 수 있는 **용량** 규칙입니다. [자세히 알아보기](consistency-rules.md#control-capacity).
 
 
 >[!NOTE]

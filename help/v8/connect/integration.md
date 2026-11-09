@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 12%
@@ -63,7 +63,7 @@ Campaign v8은 다음 Adobe 솔루션과 연결할 수 있습니다. 사용 사�
 
 >[!NOTE]
 >
->Managed Cloud Services 사용자는 Campaign을 Adobe Experience Cloud 서비스 및 솔루션에 연결하려면 [Adobe에 문의](../start/campaign-faq.md#support)하십시오.
+>Managed Cloud Services 사용자는 Campaign을 Adobe Experience Cloud 서비스 및 솔루션에 연결하려면 [Adobe에 문의](../start/campaign-faq-comprehensive.md#support)하십시오.
 
 
 ## CRM 커넥터와 통합{#gs-crm-connectors}

@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '2969'
 ht-degree: 49%
 ---
 # Campaign 보안 모범 사례 {#ac-security}
@@ -172,7 +172,7 @@ Adobe Campaign은 개인 정보 관리를 위한 다양한 기능을 제공합�
 * 개인 정보 보호 요청(액세스 권한 및 잊혀질 권리). [이 섹션](#privacy-requests)을 참조하십시오.
 * 개인 정보 판매 옵트아웃 (CCPA-특정).
 
-Campaign의 주요 개인 정보 보호 기능과 여기에 관련된 페르소나의 예가 [이 섹션](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)에 제시되어 있습니다.
+Campaign의 주요 개인 정보 보호 기능과 여기에 관련된 페르소나의 예가 [이 섹션](#personal-data)에 제시되어 있습니다.
 
 ### 동의, 보존 및 역할 {#consent}
 

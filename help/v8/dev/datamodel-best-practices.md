@@ -2,6 +2,7 @@
 title: 데이터 모델 모범 사례
 description: Campaign 데이터 모델 확장 모범 사례 알아보기
 feature: Data Model
+version: Campaign v8, Campaign Classic v7
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
@@ -48,7 +49,7 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '2777'
 ht-degree: 5%

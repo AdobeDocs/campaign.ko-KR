@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Campaign과 Target을 연결하여 Adobe Campaign 이메일 게재에 Adobe Targ
 >[!NOTE]
 >* 통합은 정적 이미지만 지원합니다. 다른 유형의 콘텐츠는 개인화할 수 없습니다.
 >
->* Managed Cloud Services 사용자는 Campaign을 사용하여 Experience Cloud 트리거를 구현하려면 [Adobe에 문의](../start/campaign-faq.md#support)하십시오.
+>* Managed Cloud Services 사용자는 Campaign을 사용하여 Experience Cloud 트리거를 구현하려면 [Adobe에 문의](../start/campaign-faq-comprehensive.md#support)하십시오.
 
 Adobe Target에서는 다음 유형의 데이터를 사용할 수 있습니다.
 

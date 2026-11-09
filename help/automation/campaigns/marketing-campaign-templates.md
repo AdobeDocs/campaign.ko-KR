@@ -20,7 +20,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 4%
@@ -126,7 +126,7 @@ ht-degree: 4%
 
 * **컨트롤 그룹**
 
-  이 모듈을 선택하면 템플릿 및 이 템플릿을 기반으로 하는 캠페인의 고급 설정에 추가 탭이 추가됩니다. 템플릿을 통해 또는 각 캠페인에 대해 개별적으로 구성을 정의할 수 있습니다. [이 섹션](marketing-campaign-deliveries.md#defining-a-control-group)에서 컨트롤 그룹에 대해 자세히 알아보세요.
+  이 모듈을 선택하면 템플릿 및 이 템플릿을 기반으로 하는 캠페인의 고급 설정에 추가 탭이 추가됩니다. 템플릿을 통해 또는 각 캠페인에 대해 개별적으로 구성을 정의할 수 있습니다. [이 섹션](marketing-campaign-deliveries.md)에서 컨트롤 그룹에 대해 자세히 알아보세요.
 
   ![](assets/template-activate-1.png)
 
@@ -139,7 +139,7 @@ ht-degree: 4%
 
 * **문서**
 
-  이 모듈을 선택하면 템플릿의 **[!UICONTROL Edit]** 탭과 이 템플릿을 기반으로 하는 캠페인에 추가 탭이 추가됩니다. 첨부된 문서는 템플릿에서 또는 각 캠페인에 대해 개별적으로 추가할 수 있습니다. [이 섹션](marketing-campaign-deliveries.md#manage-associated-documents)의 문서에 대해 자세히 알아보세요.
+  이 모듈을 선택하면 템플릿의 **[!UICONTROL Edit]** 탭과 이 템플릿을 기반으로 하는 캠페인에 추가 탭이 추가됩니다. 첨부된 문서는 템플릿에서 또는 각 캠페인에 대해 개별적으로 추가할 수 있습니다. [이 섹션](marketing-campaign-deliveries.md)의 문서에 대해 자세히 알아보세요.
 
   ![](assets/template-activate-3.png)
 
@@ -151,7 +151,7 @@ ht-degree: 4%
 
 * **타깃팅 및 워크플로**
 
-  **[!UICONTROL Targeting and workflows]** 모듈을 선택하면 이 템플릿을 기반으로 캠페인용 워크플로우를 하나 이상 만들 수 있는 탭이 추가됩니다. 이 템플릿을 기반으로 각 캠페인에 대해 개별적으로 워크플로우를 구성할 수도 있습니다.[이 섹션](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow)에서 캠페인 워크플로우에 대해 자세히 알아보세요.
+  **[!UICONTROL Targeting and workflows]** 모듈을 선택하면 이 템플릿을 기반으로 캠페인용 워크플로우를 하나 이상 만들 수 있는 탭이 추가됩니다. 이 템플릿을 기반으로 각 캠페인에 대해 개별적으로 워크플로우를 구성할 수도 있습니다.[이 섹션](marketing-campaign-deliveries.md)에서 캠페인 워크플로우에 대해 자세히 알아보세요.
 
   ![](assets/template-activate-5.png)
 

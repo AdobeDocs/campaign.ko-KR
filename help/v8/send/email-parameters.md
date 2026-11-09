@@ -20,7 +20,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 9%
@@ -87,7 +87,7 @@ ht-degree: 9%
 
 ![](assets/email-smtp-bounce.png)
 
-바운스 메일 관리에 대한 자세한 내용은 [이 섹션](delivery-failures.md#bounce-mail-management)을 참조하세요.
+바운스 메일 관리에 대한 자세한 내용은 [이 섹션](delivery-failures.md#bounce-mail-qualification)을 참조하세요.
 
 ## 원클릭 목록 구독 취소 활성화 {#one-click-list-unsubscribe}
 

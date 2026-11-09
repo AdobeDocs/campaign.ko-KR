@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1599'
 ht-degree: 56%
 ---
 # Campaign 및 Adobe Analytics 작업 {#ac-aa}
@@ -49,7 +49,7 @@ Campaign과 Analytics를 통합하도록 Adobe Analytics을 구성할 수 있습
 
 >[!NOTE]
 >
->Managed Cloud Services 사용자는 Campaign을 Adobe Experience Cloud 서비스 및 솔루션에 연결하려면 [Adobe에 문의](../start/campaign-faq.md#support)하십시오. Web Analytics 커넥터 추가 기능은 전용 패키지를 통해 환경에 설치해야 합니다.
+>Managed Cloud Services 사용자는 Campaign을 Adobe Experience Cloud 서비스 및 솔루션에 연결하려면 [Adobe에 문의](../start/campaign-faq-comprehensive.md#support)하십시오. Web Analytics 커넥터 추가 기능은 전용 패키지를 통해 환경에 설치해야 합니다.
 
 Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상자를 측정하는 방법(웹 분석)이 있습니다. Adobe Campaign은 웹 분석 도구를 통해 지표와 캠페인 속성을 Analytics에 전달할 수 있습니다.
 
@@ -85,7 +85,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 1. **[!UICONTROL Report suite manager]** 페이지에서 **[!UICONTROL Create new]**&#x200B;를 클릭한 다음 **[!UICONTROL Report suite]**&#x200B;를 클릭합니다.
 
-   **[!UICONTROL Report suite]** 만들기에 대한 자세한 절차는 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites){target="_blank"}를 참조하세요.
+   **[!UICONTROL Report suite]** 만들기에 대한 자세한 절차는 [Adobe Analytics 설명서](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite#prerequisites){target="_blank"}를 참조하세요.
 
    ![](assets/analytics_connnector_3.png)
 

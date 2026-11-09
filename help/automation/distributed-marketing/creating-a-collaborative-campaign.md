@@ -3,12 +3,15 @@ product: campaign
 title: 공동 캠페인 만들기
 description: 공동 작업 캠페인을 만드는 방법 알아보기
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
 TQID: https://experienceleague.adobe.com/UrdZY0sxtcDwZZd5sfgOcsyCKn1lQ8tIs8UlS8rHV4Y
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -20,18 +23,16 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
-source-wordcount: 915
+source-wordcount: '915'
 ht-degree: 3%
-
 ---
-
 # 공동 캠페인 만들기{#creating-a-collaborative-campaign-intro}
 
 
 
-중앙 엔터티는 **분산 마케팅** 캠페인 템플릿에서 공동 캠페인을 만듭니다. [이 페이지](about-distributed-marketing.md#collaborative-campaign)를 참조하십시오.
+중앙 엔터티는 **분산 마케팅** 캠페인 템플릿에서 공동 캠페인을 만듭니다. [이 페이지](about-distributed-marketing.md)를 참조하십시오.
 
 ## 공동 캠페인 만들기 {#creating-a-collaborative-campaign}
 

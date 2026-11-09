@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 3%
@@ -99,7 +99,7 @@ Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니�
 
 1. 열거형을 가져오려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 
-1. 가져온 값을 확인하려면 **[!UICONTROL Administration > Platform > Enumerations]** 노드를 검색하십시오. [이 페이지](../config/ui-settings.md#enumerations)의 열거형에 대해 자세히 알아보세요.
+1. 가져온 값을 확인하려면 **[!UICONTROL Administration > Platform > Enumerations]** 노드를 검색하십시오. [이 페이지](../config/ui-settings.md)의 열거형에 대해 자세히 알아보세요.
 
 이제 Adobe Campaign 및 Salesforce.com이 연결되었습니다. 두 시스템 간에 데이터 동기화를 설정할 수 있습니다.
 

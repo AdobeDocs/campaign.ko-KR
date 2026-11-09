@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '3864'
 ht-degree: 5%
@@ -443,7 +443,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 >[!NOTE]
 >
->콘솔에서 사용할 수 있는 모든 목록의 경우처럼 기본적으로 처음 200개의 줄만 **[!UICONTROL Data preview]** 창에 표시됩니다. 변경하려면 **[!UICONTROL Lines to display]** 상자에 숫자를 입력하고 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭합니다. [자세히 알아보기](../config/ui-settings.md#manage-and-customize-lists)
+>콘솔에서 사용할 수 있는 모든 목록의 경우처럼 기본적으로 처음 200개의 줄만 **[!UICONTROL Data preview]** 창에 표시됩니다. 변경하려면 **[!UICONTROL Lines to display]** 상자에 숫자를 입력하고 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭합니다. [자세히 알아보기](../config/ui-settings.md#customize-lists)
 
 열 결과 미리 보기에서 XML로 전환하려면 길잡이 아래쪽에 있는 탭을 클릭합니다. 생성된 SQL 쿼리를 볼 수도 있습니다.
 

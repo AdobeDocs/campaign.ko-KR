@@ -25,14 +25,14 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 2%
 ---
 # 데이터 소스 변경 {#change-data-source}
 
-**[!UICONTROL Change data source]** 활동을 사용하여 [워크플로 작업 테이블](use-workflow-data.md#workflow-temporary-work-table)의 데이터 원본을 변경합니다. 이 활동을 통해 FDA(Federated Data Access), FFDA(Campaign Cloud Database) 및 Campaign 로컬 데이터베이스와 같은 다양한 데이터 소스에서 데이터를 보다 유연하게 관리할 수 있습니다.
+**[!UICONTROL Change data source]** 활동을 사용하여 [워크플로 작업 테이블](use-workflow-data.md#work-table)의 데이터 원본을 변경합니다. 이 활동을 통해 FDA(Federated Data Access), FFDA(Campaign Cloud Database) 및 Campaign 로컬 데이터베이스와 같은 다양한 데이터 소스에서 데이터를 보다 유연하게 관리할 수 있습니다.
 
 워크플로우 **[!UICONTROL Working table]**&#x200B;은(는) 워크플로우 활동과 데이터를 처리하고 공유하는 데 사용됩니다.
 
@@ -57,7 +57,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL Query]** 활동을 사용하여 타깃팅된 수신자를 쿼리합니다.
 
-   **[!UICONTROL Query]** 활동에 대한 자세한 내용은 이 [페이지](query.md#create-a-query)를 참조하세요.
+   **[!UICONTROL Query]** 활동에 대한 자세한 내용은 이 [페이지](query.md#creating-a-query)를 참조하세요.
 
 1. **[!UICONTROL Change data source]** 활동을 추가합니다.
 

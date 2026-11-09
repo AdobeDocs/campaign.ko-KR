@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 2%
@@ -62,7 +62,7 @@ ht-degree: 2%
 
 데이터 배포 템플릿을 사용하면 각 값을 로컬 감독자에게 지정할 수 있도록 하면서 데이터 그룹화에 따라 타겟팅으로 인한 모집단을 제한할 수 있습니다. 이 예제에서는 **[!UICONTROL Email address domain]** 필드를 배포 필드로 정의하고 각 로컬 감독자에게 도메인을 할당했습니다
 
-데이터 배포 템플릿을 만드는 방법에 대한 자세한 내용은 [데이터 배포당 하위 집합 레코드 수 제한](split.md#limiting-the-number-of-subset-records-per-data-distribution)을 참조하세요.
+데이터 배포 템플릿을 만드는 방법에 대한 자세한 내용은 [데이터 배포당 하위 집합 레코드 수 제한](split.md#limit-the-number-of-subset-records-per-data-distribution)을 참조하세요.
 
 1. 데이터 배포 템플릿을 만들려면 **[!UICONTROL Resources > Campaign management > Data distribution]** 노드로 이동하여 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 업스트림 타겟팅은 두 개의 쿼리, 하나의 교차 및 하나의 분할로 구성됩니다. 데이터 배포 템플릿을 사용하는 **[!UICONTROL Split]** 활동을 사용하여 타깃팅으로 인한 모집단을 제한할 수 있습니다.
 
-분할 활동 구성에 대한 자세한 내용은 [분할](split.md)을 참조하세요. 데이터 배포 템플릿 만들기에 대한 자세한 내용은 [데이터 배포당 하위 집합 레코드 수 제한](split.md#limiting-the-number-of-subset-records-per-data-distribution)을 참조하십시오.
+분할 활동 구성에 대한 자세한 내용은 [분할](split.md)을 참조하세요. 데이터 배포 템플릿 만들기에 대한 자세한 내용은 [데이터 배포당 하위 집합 레코드 수 제한](split.md#limit-the-number-of-subset-records-per-data-distribution)을 참조하십시오.
 
 쿼리에서 모집단을 제한하지 않으려면 **[!UICONTROL Query]**, **[!UICONTROL Intersection]** 및 **[!UICONTROL Split]** 활동을 사용하지 않아도 됩니다. 이 경우 첫 번째 **[!UICONTROL Local approval]** 활동에서 데이터 배포 템플릿을 완료하십시오.
 

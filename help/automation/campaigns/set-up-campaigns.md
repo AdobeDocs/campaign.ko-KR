@@ -22,7 +22,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 18%
@@ -54,7 +54,7 @@ Adobe Campaign에서 마케팅 캠페인을 만들고 실행하는 주요 단계
 캠페인은 게재, 타겟팅 규칙, 비용, 파일 내보내기, 관련 문서 등 마케팅 캠페인과 관련된 모든 요소를 중앙에서 관리합니다. 각 캠페인은 프로그램에 첨부됩니다. 이 섹션[&#128279;](marketing-campaign-create.md#create-a-campaign)에서  캠페인을 만드는 방법을 알아보세요.
 
 1. **대상자 선택**
-대상자는 목록에서 가져오거나 쿼리를 사용하여 캠페인 워크플로우에 빌드할 수 있습니다. 이 섹션[&#128279;](marketing-campaign-target.md#select-the-target-population)에서 캠페인 의 대상 대상자를 정의하는 방법을 알아보세요.
+대상자는 목록에서 가져오거나 쿼리를 사용하여 캠페인 워크플로우에 빌드할 수 있습니다. 이 섹션[&#128279;](marketing-campaign-target.md)에서 캠페인 의 대상 대상자를 정의하는 방법을 알아보세요.
 
 1. **게재 만들기**
 캠페인에서 크로스 채널 게재를 조정합니다. 개인화된 이메일, SMS, 푸시 알림 및 인앱 메시지를 통해 Adobe Campaign과의 커뮤니케이션을 간소화합니다. DM 게재를 추가할 수도 있습니다. 캠페인에서 게재를 만들고, 확인하고, 모니터링하는 방법은 이 섹션[&#128279;](marketing-campaign-deliveries.md)에서 알아볼 수 있습니다.
@@ -68,7 +68,7 @@ Adobe Campaign에서 마케팅 캠페인을 만들고 실행하는 주요 단계
 1. **예산, 재고 및 관련 비용을 추적합니다**.
 Adobe Campaign을 사용하여 예산 할당을 제어하고 공급자, 재고 및 비용을 관리합니다. [자세히 알아보기](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).
 
-이 단계를 완료하면 [게재를 시작](marketing-campaign-deliveries.md#start-a-delivery)하고, 게재와 관련된 데이터, 프로세스 및 정보를 확인하고, 필요한 경우 [관련 문서를 관리](marketing-campaign-deliveries.md#manage-associated-documents)할 수 있습니다. [캠페인 및 게재의 실행을 추적 및 모니터링](marketing-campaign-monitoring.md)할 수도 있습니다.
+이 단계를 완료하면 [게재를 시작](marketing-campaign-deliveries.md#start-a-delivery)하고, 게재와 관련된 데이터, 프로세스 및 정보를 확인하고, 필요한 경우 [관련 문서를 관리](marketing-campaign-deliveries.md)할 수 있습니다. [캠페인 및 게재의 실행을 추적 및 모니터링](marketing-campaign-monitoring.md)할 수도 있습니다.
 
 
 ## 비디오의 주요 개념 {#key-concepts-video}

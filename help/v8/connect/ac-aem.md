@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게
 
 >[!NOTE]
 >
->Managed Cloud Services 사용자는 [Adobe에 문의](../start/campaign-faq.md#support)하여 Adobe Experience Manager을 Campaign과 통합하세요.
+>Managed Cloud Services 사용자는 [Adobe에 문의](../start/campaign-faq-comprehensive.md#support)하여 Adobe Experience Manager을 Campaign과 통합하세요.
 
 ## Adobe Experience Manager에서 컨텐츠 가져오기 {#integrating-with-aem}
 

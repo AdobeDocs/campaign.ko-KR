@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '3162'
 ht-degree: 2%
@@ -336,7 +336,7 @@ Campaign에서 기본적으로 게재 템플릿은 **받는 사람**&#x200B;을(
 
 ### 외부 수신자 {#external-recipients}
 
-데이터베이스에 저장되지 않고 외부 파일에 저장된 수신자에게 전달할 수 있습니다. 자세한 내용은 [이 섹션](create-message.md#select-external-recipients-selecting-external-recipients)을 참조하세요.
+데이터베이스에 저장되지 않고 외부 파일에 저장된 수신자에게 전달할 수 있습니다. 자세한 내용은 [이 섹션](create-message.md#selecting-external-recipients)을 참조하세요.
 
 <!--
 ### Send to your subscribers {#send-to-subscribers}
@@ -348,7 +348,7 @@ To send messages to the subscribers of a newsletter, you can directly target the
 
 게재를 테스트하려면 주요 타겟에게 보내기 전에 증명을 사용하십시오.
 
-적절한 증명 수신자를 선택해야 합니다. 메시지 양식 및 내용의 유효성을 검사하기 때문입니다. 증명 수신자를 정의하는 단계는 [이 섹션](create-message.md#select-the-recipients-of-proof-messages-select-the-proof-target)에 나와 있습니다.
+적절한 증명 수신자를 선택해야 합니다. 메시지 양식 및 내용의 유효성을 검사하기 때문입니다. 증명 수신자를 정의하는 단계는 [이 섹션](create-message.md#select-the-proof-target)에 나와 있습니다.
 
 
 ### 주소 중복 제거 {#deduplicate-addresses}
