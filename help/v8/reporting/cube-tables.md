@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 1%
@@ -126,7 +126,7 @@ ht-degree: 1%
 
    ![](assets/cube-pivot-table-config.png)
 
-   그런 다음 측정값 레이블을 표시할지 여부를 선택할 수 있습니다. [자세히 알아보기](customize-cubes.md#configure-the-display).
+   그런 다음 측정값 레이블을 표시할지 여부를 선택할 수 있습니다. [자세히 알아보기](customize-cubes.md#configuring-the-display).
 
 1. 기존 측정값을 기반으로 새 측정값을 작성할 수 있습니다. 이렇게 하려면 **[!UICONTROL Create a measure]**&#x200B;을(를) 클릭하고 구성하십시오.
 

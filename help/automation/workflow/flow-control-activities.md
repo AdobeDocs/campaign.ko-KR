@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
@@ -42,4 +42,3 @@ ht-degree: 0%
 * **[Test](test.md)**: 테스트 결과를 기반으로 전환을 사용합니다.
 * **[시간 제한](time-constraint.md)**: 일정 기간 동안 작업을 일시 중지할 수 있습니다.
 * **[대기](wait.md)**: 지정된 시간 제한 후 아웃바운드 전환을 사용하도록 설정합니다.
-  <!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->

@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 4%
@@ -119,11 +119,11 @@ ht-degree: 4%
 
 각 캠페인에 대해 다음 기능을 사용할 수 있습니다.
 
-* 참조 문서 및 리소스: 문서(개요, 보고서, 이미지 등)를 캠페인과 연결할 수 있습니다. 모든 문서 형식이 지원됩니다. [자세히 알아보기](marketing-campaign-deliveries.md#manage-associated-documents).
-* 비용 정의: Adobe Campaign을 사용하면 각 캠페인에 대해 마케팅 캠페인을 생성할 때 사용할 수 있는 비용 입력 및 비용 계산 구조를 정의할 수 있습니다. 인쇄 비용, 외부 에이전시 사용, 객실 대여 등을 예로 들 수 있습니다. [자세히 알아보기](providers-stocks-and-budgets.md#defining-cost-categories).
+* 참조 문서 및 리소스: 문서(개요, 보고서, 이미지 등)를 캠페인과 연결할 수 있습니다. 모든 문서 형식이 지원됩니다. [자세히 알아보기](marketing-campaign-deliveries.md).
+* 비용 정의: Adobe Campaign을 사용하면 각 캠페인에 대해 마케팅 캠페인을 생성할 때 사용할 수 있는 비용 입력 및 비용 계산 구조를 정의할 수 있습니다. 인쇄 비용, 외부 에이전시 사용, 객실 대여 등을 예로 들 수 있습니다. [자세히 알아보기](providers-stocks-and-budgets.md#define-cost-categories).
 * 목표 정의: 구독자 수, 거래량 등과 같은 캠페인에 대한 수량 목표를 정의할 수 있습니다. 이 정보는 나중에 캠페인 보고서에 사용됩니다.
-* 시드 주소 및 컨트롤 그룹을 관리합니다. [자세히 알아보기](marketing-campaign-deliveries.md#defining-a-control-group).
-* 승인 관리: 승인할 처리를 선택하고 필요한 경우 검토 운영자 또는 운영자 그룹을 선택할 수 있습니다. [자세히 알아보기](marketing-campaign-approval.md#checking-and-approving-deliveries).
+* 시드 주소 및 컨트롤 그룹을 관리합니다. [자세히 알아보기](marketing-campaign-deliveries.md).
+* 승인 관리: 승인할 처리를 선택하고 필요한 경우 검토 운영자 또는 운영자 그룹을 선택할 수 있습니다. [자세히 알아보기](marketing-campaign-approval.md#review-and-approve-deliveries).
 
 >[!NOTE]
 >
@@ -218,11 +218,11 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 
 ![](assets/web-access-approval.png)
 
-알림 메시지에 포함된 링크를 사용할 수도 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](marketing-campaign-approval.md#checking-and-approving-deliveries)을 참조하십시오.
+알림 메시지에 포함된 링크를 사용할 수도 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](marketing-campaign-approval.md#review-and-approve-deliveries)을 참조하십시오.
 
 
 ## 튜토리얼 비디오 {#video}
 
 이 비디오에서는 마케팅 계획, 프로그램 및 캠페인을 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449909?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)

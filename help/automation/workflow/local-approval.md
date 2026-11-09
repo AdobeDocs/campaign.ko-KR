@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 3%
@@ -67,7 +67,7 @@ ht-degree: 3%
 
 * **[!UICONTROL Distribution context]**: 타깃팅된 모집단을 제한하기 위해 **[!UICONTROL Split]** 유형 활동을 사용하는 경우 **[!UICONTROL Specified in the transition]** 옵션을 선택하십시오. 이 경우 분배 템플릿은 분할 활동에 입력됩니다. 대상 모집단을 제한하지 않는 경우 여기에서 **[!UICONTROL Explicit]** 옵션을 선택하고 **[!UICONTROL Data distribution]** 필드에 배포 템플릿을 입력하십시오.
 
-  데이터 배포 템플릿을 만드는 방법에 대한 자세한 내용은 [데이터 배포당 하위 집합 레코드 수 제한](split.md#limiting-the-number-of-subset-records-per-data-distribution)을 참조하세요.
+  데이터 배포 템플릿을 만드는 방법에 대한 자세한 내용은 [데이터 배포당 하위 집합 레코드 수 제한](split.md#limit-the-number-of-subset-records-per-data-distribution)을 참조하세요.
 
 * **[!UICONTROL Approval management]**
 

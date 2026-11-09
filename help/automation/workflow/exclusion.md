@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->제외 활동 구성 및 사용에 대한 자세한 내용은 [모집단 제외(제외)](targeting-workflows.md#excluding-a-population--exclusion-)를 참조하십시오.
+>제외 활동 구성 및 사용에 대한 자세한 내용은 [모집단 제외(제외)](targeting-workflows.md#exclude-a-population--exclusion-)를 참조하십시오.
 
 나머지 모집단을 활용하려면 **[!UICONTROL Generate complement]** 옵션을 선택하십시오. 보조 항목에는 주 유입 인구에서 이탈 인구를 뺀 값이 포함됩니다. 그런 다음 다음과 같이 추가 출력 전환이 활동에 추가됩니다.
 

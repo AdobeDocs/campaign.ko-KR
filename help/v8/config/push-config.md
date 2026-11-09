@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1268'
 ht-degree: 2%
 ---
 # Campaign SDK와 앱 통합 {#integrate-campaign-sdk}
@@ -44,7 +44,7 @@ iOS 및 Android용 Campaign SDK를 사용하여 모바일 애플리케이션을 
 
 Android 및 iOS 지원 버전 및 Campaign v8용 Campaign SDK 호환 버전은 [호환성 매트릭스](../start/compatibility-matrix.md#MobileSDK)에 나와 있습니다.
 
-Campaign 관리자는 [Experience Cloud 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에서 Campaign SDK를 다운로드할 수 있습니다. 자세한 내용은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
+Campaign 관리자는 [Experience Cloud 소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)에서 Campaign SDK를 다운로드할 수 있습니다. 자세한 내용은 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
 
 
 >[!NOTE]

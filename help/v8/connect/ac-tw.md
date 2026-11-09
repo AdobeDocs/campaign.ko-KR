@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 2%
@@ -54,7 +54,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Managed Cloud Services 사용자는 Campaign을 X와 연결하려면 [Adobe에 문의](../start/campaign-faq.md#support)하십시오. **소셜 네트워크 관리(소셜 마케팅)** 추가 기능은 전용 패키지를 통해 환경에 설치해야 하며 Twitter 외부 계정을 구성해야 합니다.
+>Managed Cloud Services 사용자는 Campaign을 X와 연결하려면 [Adobe에 문의](../start/campaign-faq-comprehensive.md#support)하십시오. **소셜 네트워크 관리(소셜 마케팅)** 추가 기능은 전용 패키지를 통해 환경에 설치해야 하며 Twitter 외부 계정을 구성해야 합니다.
 
 
 X 계정에 트윗을 게시하도록 Adobe Campaign을 구성하려면 이러한 계정에 대해 Adobe Campaign에 쓰기 액세스 권한을 위임하십시오. 이렇게 하려면 다음을 수행해야 합니다.
@@ -69,7 +69,7 @@ X 계정에 트윗을 게시하도록 Adobe Campaign을 구성하려면 이러�
 
 이 통합을 시작하려면 [X 개발자 계정](https://developer.twitter.com){target="_blank"}에 등록해야 합니다.
 
-Campaign은 X API의 1.1 버전을 사용합니다. 이 기능을 사용하려면 개발자 포털을 통해 관리자 권한으로 액세스 권한을 신청해야 합니다. 이 페이지에서 [X 관리자 권한 &#x200B;](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}에 대해 자세히 알아보세요.
+Campaign은 X API의 1.1 버전을 사용합니다. 이 기능을 사용하려면 개발자 포털을 통해 관리자 권한으로 액세스 권한을 신청해야 합니다. 이 페이지에서 [X 관리자 권한 ](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}에 대해 자세히 알아보세요.
 
 ## X에서 응용 프로그램 만들기 {#create-an-app-on-twitter}
 
@@ -169,7 +169,7 @@ Campaign 인스턴스를 X 계정과 연결하려면 **Twitter** 서비스를 �
 
 ## X에서 테스트 계정 만들기 {#tw-test-account}
 
-X 계정 외에 [트윗 증명](../send/twitter.md#send-tw-proofs)을 보내는 데 사용할 수 있는 개인 X 계정을 만드십시오. 이렇게 하려면 아래 단계를 수행합니다.
+X 계정 외에 [트윗 증명](../send/twitter.md)을 보내는 데 사용할 수 있는 개인 X 계정을 만드십시오. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 새 X 계정을 만듭니다.
 1. **설정** 계정에 액세스하십시오.

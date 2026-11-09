@@ -1,5 +1,5 @@
 ---
-title: 카운팅
+title: 결과 계산
 description: 카운트 작업을 수행하는 방법을 알아봅니다.
 audience: developing
 content-type: reference
@@ -18,12 +18,12 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '89'
+ht-degree: 0%
 ---
-# 카운팅
+# 결과 계산
 
 Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니다. 이렇게 하려면 **count** 노드에서 반환된 URL을 사용합니다.
 

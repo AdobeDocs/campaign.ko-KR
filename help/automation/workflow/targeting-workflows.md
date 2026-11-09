@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '2258'
 ht-degree: 5%
@@ -86,11 +86,11 @@ ht-degree: 5%
 
 ### 추가 데이터 작업 {#select-data}
 
-**[!UICONTROL Query]** 활동을 사용하면 대상 모집단을 만들 기본 데이터를 선택할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](query.md#create-a-query)을 참조하십시오.
+**[!UICONTROL Query]** 활동을 사용하면 대상 모집단을 만들 기본 데이터를 선택할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](query.md#creating-a-query)을 참조하십시오.
 
 또한 다음 활동을 사용하여 데이터베이스에서 데이터를 쿼리하고 구체화할 수 있습니다. [증분 쿼리](incremental-query.md), [목록 읽기](read-list.md).
 
-워크플로우의 수명 주기 전체에 걸쳐 전달 및 처리할 추가 데이터를 수집할 수 있습니다. 자세한 내용은 [데이터 추가](query.md#add-data) 및 [추가 데이터 편집](#edit-additional-data)을 참조하세요.
+워크플로우의 수명 주기 전체에 걸쳐 전달 및 처리할 추가 데이터를 수집할 수 있습니다. 자세한 내용은 [데이터 추가](query.md#adding-data) 및 [추가 데이터 편집](#edit-additional-data)을 참조하세요.
 
 ### 추가 데이터 편집 {#edit-additional-data}
 

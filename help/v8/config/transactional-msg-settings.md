@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 4%
@@ -38,7 +38,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Managed Cloud Services 사용자는 [Adobe에 문의](../start/campaign-faq.md#support)하여 환경에 Campaign 트랜잭션 메시지를 설치하고 구성하세요.
+>Managed Cloud Services 사용자는 [Adobe에 문의](../start/campaign-faq-comprehensive.md#support)하여 환경에 Campaign 트랜잭션 메시지를 설치하고 구성하세요.
 
 ## 권한 정의 {#mc-permissions}
 
@@ -82,7 +82,7 @@ Adobe Cloud에서 호스팅되는 메시지 센터 실행 인스턴스에 대해
                 <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
-                    <url>http://www.adobe.com/kr</url>
+                    <url>http://www.adobe.com</url>
                 </ctx>
               </rtEvent>
 

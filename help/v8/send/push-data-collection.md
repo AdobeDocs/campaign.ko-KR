@@ -1,5 +1,5 @@
 ---
-title: Adobe Campaign을 사용하여 푸시 알림 보내기
+title: 데이터 수집으로 푸시 알림 구성
 description: Campaign에서 푸시 알림 시작
 feature: Push
 role: Developer
@@ -23,7 +23,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 3%

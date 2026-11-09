@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 3%
@@ -94,7 +94,7 @@ Campaign에는 [!DNL Snowflake] 데이터베이스에 중복 키가 삽입되지
 
 >[!NOTE]
 >
->이러한 보호 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)을 참조하세요.
+>이러한 보호 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](../start/compatibility-matrix.md)을 참조하세요.
 
 ### 게재 준비 {#remove-duplicates-delivery-preparation}
 

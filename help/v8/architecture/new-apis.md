@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 4%
@@ -224,7 +224,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 Campaign의 구독 관리는 [이 페이지](../start/subscriptions.md)에 설명되어 있습니다.
 
-구독 및 구독 취소 데이터 삽입은 Campaign 로컬 데이터베이스의 [스테이징 메커니즘](staging.md)을(를) 사용합니다. 가입자 정보는 로컬 데이터베이스의 스테이징 테이블에 임시로 저장되며 동기화 워크플로우는 이 데이터를 로컬 데이터베이스에서 클라우드 데이터베이스로 전송합니다. 따라서 구독 및 구독 취소 프로세스는 **비동기**&#x200B;입니다. 옵트인 및 옵트아웃 요청은 특정 기술 워크플로우를 통해 한 시간마다 처리됩니다. [자세히 알아보기](replication.md#tech-wf)
+구독 및 구독 취소 데이터 삽입은 Campaign 로컬 데이터베이스의 [스테이징 메커니즘](staging.md)을(를) 사용합니다. 가입자 정보는 로컬 데이터베이스의 스테이징 테이블에 임시로 저장되며 동기화 워크플로우는 이 데이터를 로컬 데이터베이스에서 클라우드 데이터베이스로 전송합니다. 따라서 구독 및 구독 취소 프로세스는 **비동기**&#x200B;입니다. 옵트인 및 옵트아웃 요청은 특정 기술 워크플로우를 통해 한 시간마다 처리됩니다. [자세히 알아보기](replication.md#workflows)
 
 
 **관련 항목**

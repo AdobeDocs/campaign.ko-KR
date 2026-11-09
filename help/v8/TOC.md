@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 9b9c573de6120f4b3da0d5eee98192b56b4754df
+source-git-commit: a4655bbf4566da21f097ae1106212c55965ef1bd
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '881'
 ht-degree: 85%
 ---
 
@@ -37,7 +37,6 @@ ht-degree: 85%
   + [Campaign Classic v7에서 v8로의 전환](start/v7-to-v8.md)
   + [Campaign Standard에서 v8로의 전환](start/acs-to-v8.md)
   + [자주 묻는 질문](start/campaign-faq-comprehensive.md)
-  + {hide-from-toc}[자주 묻는 질문](start/campaign-faq.md)
   + {hide-from-toc}[전자 메일 추적 픽셀 및 CNIL 지침](start/cnil-pixel-tracking.md)
 + 메시지 {#send}
   + [메시지 시작](start/gs-message.md)
@@ -158,6 +157,7 @@ ht-degree: 85%
     + [익명 상호 작용 관리](interaction/anonymous-interactions.md)
   + [보고서 및 기록](interaction/interaction-tracking.md)
   + [사용 사례](interaction/interaction-use-cases.md)
+  + [고급 설정](interaction/interaction-advanced-settings.md)
 + 쿼리 및 데이터 {#data}
   + 데이터베이스 쿼리 {#query}
     + [쿼리 편집기 작업](start/query-editor.md)

@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '2294'
 ht-degree: 1%
@@ -121,7 +121,7 @@ Adobe Campaign을 사용하면 캠페인에 대한 승인 흐름을 설정하고
 
 DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 보내기 전에 볼 수 있으며, 필요한 경우 형식을 변경하고 추출을 다시 시작할 수 있습니다. [자세히 알아보기](#approve-an-extraction-file).
 
-이러한 유효성 검사 단계가 완료되면 게재를 시작할 수 있습니다. [자세히 알아보기](marketing-campaign-deliveries.md#starting-a-delivery).
+이러한 유효성 검사 단계가 완료되면 게재를 시작할 수 있습니다. [자세히 알아보기](marketing-campaign-deliveries.md#start-a-delivery).
 
 >[!NOTE]
 >

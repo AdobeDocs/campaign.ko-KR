@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1518'
 ht-degree: 55%
@@ -116,7 +116,7 @@ Campaign v8.5.1은 최신 첨단 기술을 기반으로 구축된 강력한 프�
 **호환성 업데이트**
 
 * 이제 클라이언트 콘솔의 32비트 버전은 더 이상 사용되지 않습니다. 8.6부터 클라이언트 콘솔은 64비트로만 사용할 수 있습니다. 클라이언트 콘솔의 64비트 버전으로 원활하게 업그레이드됩니다. 운영 체제를 업그레이드하는 자세한 방법은 [기술 정보](../../technotes/upgrades/console.md)를 참조하십시오.
-* 이제 Campaign v8 인스턴스를 Azure Synapse 외부 데이터베이스에 연결할 수 있습니다. 이 연결은 새 외부 계정을 통해 관리됩니다. 자세한 내용은 [Campaign 호환성 매트릭스](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda)를 참조하세요.
+* 이제 Campaign v8 인스턴스를 Azure Synapse 외부 데이터베이스에 연결할 수 있습니다. 이 연결은 새 외부 계정을 통해 관리됩니다. 자세한 내용은 [Campaign 호환성 매트릭스](../start/compatibility-matrix.md#FederatedDataAccessFDA)를 참조하세요.
 
 
 **수정 사항**

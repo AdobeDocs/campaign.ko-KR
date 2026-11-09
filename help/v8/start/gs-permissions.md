@@ -26,7 +26,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 5%
@@ -73,7 +73,7 @@ Admin Console을 사용하여 사용자를 추가하고, 제품 프로필(운영
 
 Admin Console에서 Campaign용 각 Adobe Experience Cloud **제품 프로필**&#x200B;은(는) Campaign 클라이언트 콘솔의 **연산자 그룹**&#x200B;에 연결되어 있습니다.
 
-[이 페이지](manage-permissions.md#create-a-product-profile)에서 제품 프로필을 만들고 할당하는 방법을 알아보세요.
+[이 페이지](manage-permissions.md#create-product-profile)에서 제품 프로필을 만들고 할당하는 방법을 알아보세요.
 
 ## 캠페인 명명된 권한{#named-rights}
 

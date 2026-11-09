@@ -27,7 +27,7 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 1%
@@ -105,10 +105,10 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
 
    다음을 추가할 수 있습니다.
 
-   * 대상 모집단 또는 집계(지난 달 내 보류 중인 구매 수, 평균 입고 금액 등)에서 얻은 데이터를 기반으로 계산된 필드. 예를 들어 [데이터 선택](targeting-workflows.md#selecting-data)(으)로 이동합니다.
+   * 대상 모집단 또는 집계(지난 달 내 보류 중인 구매 수, 평균 입고 금액 등)에서 얻은 데이터를 기반으로 계산된 필드. 예를 들어 [데이터 선택](targeting-workflows.md)(으)로 이동합니다.
    * 출력 열 목록 오른쪽에 있는 **[!UICONTROL Add]** 단추를 사용하여 만든 새 필드입니다.
 
-     계약 목록, 최근 5회 게재 등 정보 컬렉션을 추가할 수도 있습니다. 컬렉션은 동일한 프로필(1-N 관계)에 대해 여러 값을 가질 수 있는 필드와 일치합니다. 자세한 내용은 [추가 데이터 편집](targeting-workflows.md#editing-additional-data)을 참조하세요.
+     계약 목록, 최근 5회 게재 등 정보 컬렉션을 추가할 수도 있습니다. 컬렉션은 동일한 프로필(1-N 관계)에 대해 여러 값을 가질 수 있는 필드와 일치합니다. 자세한 내용은 [추가 데이터 편집](targeting-workflows.md#edit-additional-data)을 참조하세요.
 
 대상 모집단에 연결된 정보 컬렉션을 추가하려면 다음을 수행합니다.
 
@@ -222,7 +222,7 @@ SQL의 필터링 차원과 동등한 기능은 내부 조인입니다.
 
 `select iRecipientId from nmsRecipient INNER JOIN nmsBroadLog ON (...)`
 
-차원 필터링에 대한 자세한 정보는 [이 섹션](build-a-workflow.md#targeting-and-filtering-dimensions)을 참조하세요.
+차원 필터링에 대한 자세한 정보는 [이 섹션](build-a-workflow.md)을 참조하세요.
 
 ### 아키텍처 {#architecture}
 

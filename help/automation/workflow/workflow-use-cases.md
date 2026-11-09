@@ -20,7 +20,7 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 55%
@@ -56,7 +56,7 @@ ht-degree: 55%
 * [요약 목록 만들기](create-a-summary-list.md)
 * [데이터 강화](enrich-data.md)
 * [집계 사용](using-aggregates.md)
-* [Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](use-workflow-data.md#use-case-gpg-encrypt)
+* [Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](use-workflow-data.md)
 * [증분 쿼리를 사용한 분기별 목록 업데이트](quarterly-list-update.md)
 * [중복 제거 활동의 병합 기능 사용](deduplication-merge.md)
 * [가져오기 반복 워크플로 설정](recurring-import-workflow.md)

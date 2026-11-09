@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 보낸 �
 
 >[!NOTE]
 >
->Managed Cloud Services 사용자는 보관에 사용할 BCC 전자 메일 주소를 전달하려면 [Adobe에 문의](../start/campaign-faq.md#support){target="_blank"}하십시오.
+>Managed Cloud Services 사용자는 보관에 사용할 BCC 전자 메일 주소를 전달하려면 [Adobe에 문의](../start/campaign-faq-comprehensive.md#support){target="_blank"}하십시오.
 
 ## 이메일 BCC 활성화 {#enable-bcc}
 

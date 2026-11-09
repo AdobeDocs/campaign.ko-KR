@@ -34,7 +34,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 2%
@@ -84,7 +84,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >기본적으로 사용자가 만든 스키마는 &#39;cus&#39; 네임스페이스에 저장됩니다. 자세한 내용은 [스키마 식별](extend-schema.md#identification-of-a-schema)을 참조하세요.
+   >기본적으로 사용자가 만든 스키마는 &#39;cus&#39; 네임스페이스에 저장됩니다. 자세한 내용은 [스키마 식별](extend-schema.md)을 참조하세요.
 
 1. 테이블의 내용을 만듭니다. 전용 도우미를 사용하여 설정이 누락되지 않았는지 확인하는 것이 좋습니다. 이렇게 하려면 **[!UICONTROL Insert]** 단추를 클릭하고 추가할 설정 유형을 선택합니다.
 

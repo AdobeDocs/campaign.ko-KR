@@ -27,7 +27,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 78%
@@ -115,7 +115,7 @@ Adobe Campaign에서는 중앙 엔터티(본사, 마케팅 부서 등) 간의 �
 
 >[!NOTE]
 >
->이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)을 참조하세요.
+>이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md)을 참조하세요.
 
 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko){target="_blank"}에서 Campaign 분산 마케팅 기능을 구성하고 사용하는 방법을 알아봅니다.
 
@@ -125,6 +125,6 @@ Adobe Campaign에서는 마케팅 캠페인의 성공 및 수익성을 측정하
 
 >[!NOTE]
 >
->이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)을 참조하세요.
+>이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md)을 참조하세요.
 
-[&#128279;](../assets/do-not-localize/book.png) [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ko){target="_blank"}에서 Campaign 응답 관리자를 구성하고 사용하는 방법을 알아봅니다.
+[](../assets/do-not-localize/book.png) [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ko){target="_blank"}에서 Campaign 응답 관리자를 구성하고 사용하는 방법을 알아봅니다.

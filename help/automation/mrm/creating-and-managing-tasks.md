@@ -3,6 +3,7 @@ product: campaign
 title: 작업 만들기 및 관리
 description: 작업 만들기 및 관리
 feature: Campaigns, Resource Management
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
 TQID: 'https://experienceleague.adobe.com/LggpejZ5h1fYPh3efYx2f7x3DEhqVlvPndjgNkNUUCs'
@@ -22,7 +23,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '3766'
 ht-degree: 0%
@@ -205,7 +206,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 >[!NOTE]
 >
->경비 및 예산에 대한 자세한 내용은 [이 섹션](../campaigns/providers-stocks-and-budgets.md#cost-commitment--calculation-and-charging)을 참조하세요.
+>경비 및 예산에 대한 자세한 내용은 [이 섹션](../campaigns/providers-stocks-and-budgets.md)을 참조하세요.
 
 이 창에서는 도달할 목표를 정의할 수도 있습니다. 목표는 해당 작업의 예측 매출로 표시됩니다.
 

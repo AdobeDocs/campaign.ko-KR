@@ -3,12 +3,15 @@ product: campaign
 title: 분산 마케팅 시작
 description: 분산 마케팅 시작
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
 TQID: https://experienceleague.adobe.com/Xic-o4WB0jDoHpUAdN2U9Uunuf8rAcQ7rrcpXIFLqSI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -27,13 +30,11 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
-source-wordcount: 1135
+source-wordcount: '1135'
 ht-degree: 0%
-
 ---
-
 # 분산 마케팅 시작{#about-distributed-marketing}
 
 Adobe Campaign에서는 중앙 엔터티(본사, 마케팅 부서 등) 간의 공동 캠페인을 구현하기 위한 **분산 마케팅** 응용 프로그램을 제공합니다. 및 로컬 엔티티(판매 지점, 지역 에이전시 등). 이러한 협력은 중앙에서 만든 캠페인 템플릿 및 인스턴스가 로컬 엔터티에 제공되는 공유 작업 공간(**[!UICONTROL list of campaign packages]**)을 기반으로 합니다.

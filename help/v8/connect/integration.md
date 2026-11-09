@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 12%
@@ -57,13 +57,13 @@ Campaign v8은 다음 Adobe 솔루션과 연결할 수 있습니다. 사용 사�
 
 또한 에셋 공유 및 대상 공유 기능을 사용하여 Experience Cloud 솔루션 전반의 **대상** 및 **에셋**&#x200B;을 결합할 수 있습니다.
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ko#integrating-with-adobe-experience-cloud){target="_blank"}에서 Campaign과 Experience Cloud 솔루션 간 **대상 공유**&#x200B;에 대해 자세히 알아보세요.
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}에서 Campaign과 Experience Cloud 솔루션 간 **대상 공유**&#x200B;에 대해 자세히 알아보세요.
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ko#integrating-with-adobe-experience-cloud){target="_blank"}에서 Campaign과 Experience Cloud 솔루션 간의 **자산 공유**&#x200B;에 대해 자세히 알아보세요.
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}에서 Campaign과 Experience Cloud 솔루션 간의 **자산 공유**&#x200B;에 대해 자세히 알아보세요.
 
 >[!NOTE]
 >
->Managed Cloud Services 사용자는 Campaign을 Adobe Experience Cloud 서비스 및 솔루션에 연결하려면 [Adobe에 문의](../start/campaign-faq.md#support)하십시오.
+>Managed Cloud Services 사용자는 Campaign을 Adobe Experience Cloud 서비스 및 솔루션에 연결하려면 [Adobe에 문의](../start/campaign-faq-comprehensive.md#support)하십시오.
 
 
 ## CRM 커넥터와 통합{#gs-crm-connectors}

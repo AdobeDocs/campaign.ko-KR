@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 리치 푸시 알림 게재 디자인
+title: Android 리치 푸시 게재 디자인
 description: Adobe Campaign 웹을 사용하여 풍부한 푸시 알림 게재를 디자인하는 방법을 알아봅니다
 feature: Push
 role: User
@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 3%
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->리치 푸시 알림을 디자인하기 전에 먼저 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)를 참조하세요.
+>리치 푸시 알림을 디자인하기 전에 먼저 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)를 참조하세요.
 
 Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에서 선택할 수 있습니다.
 

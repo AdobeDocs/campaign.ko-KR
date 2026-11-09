@@ -25,7 +25,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 3%
@@ -36,7 +36,7 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
 목록은 게재 작업에서 타겟팅되거나 가져오기 또는 다른 워크플로우 작업 중에 업데이트될 수 있는 정적 연락처 집합입니다. 예를 들어 쿼리를 통해 데이터베이스에서 추출한 모집단을 목록으로 저장할 수 있습니다.
 
-목록은 **[!UICONTROL Profiles and targets]** 탭의 **[!UICONTROL Lists]** 링크를 통해 만들고 관리합니다. 이러한 목록은 기본 Adobe Campaign 프로필 테이블(nms:recipient)을 기반으로 합니다. [자세히 알아보기](../dev/datamodel.md#ootb-profiles.md)
+목록은 **[!UICONTROL Profiles and targets]** 탭의 **[!UICONTROL Lists]** 링크를 통해 만들고 관리합니다. 이러한 목록은 기본 Adobe Campaign 프로필 테이블(nms:recipient)을 기반으로 합니다. [자세히 알아보기](../dev/datamodel.md#ootb-profiles)
 
 ![](assets/list-dashboard.png)
 
@@ -44,7 +44,7 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
 이 비디오를 통해 Adobe Campaign의 목록 관리에 대해 자세히 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426462?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
 
 ## 연락처 목록 만들기 {#create-a-list-of-contacts}
@@ -121,7 +121,7 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
    ![](assets/targeting-wf-age-filter.png)
 
-   [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}의 워크플로우에서 쿼리를 만드는 방법을 알아봅니다.
+   [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}의 워크플로우에서 쿼리를 만드는 방법을 알아봅니다.
 
 1. 이 쿼리에 대한 레이블을 추가하고 변경 사항을 저장합니다.
 1. **[!UICONTROL List update]** 활동을 추가하고 편집합니다.
@@ -142,7 +142,7 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
    ![](assets/access-new-list.png)
 
-   워크플로우에 스케줄러를 추가하여 이 워크플로우를 반복적으로 수행할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ko){target="_blank"}.
+   워크플로우에 스케줄러를 추가하여 이 워크플로우를 반복적으로 수행할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
 
 ## 목록에서 프로필 제거 {#remove-a-profile-from-a-list}
 

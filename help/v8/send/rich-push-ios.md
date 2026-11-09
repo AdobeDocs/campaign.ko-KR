@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 리치 푸시 알림 게재 디자인
+title: iOS 리치 푸시 게재 디자인
 description: Adobe Campaign 웹을 사용하여 iOS 리치 푸시 알림 전달을 디자인하는 방법을 알아봅니다
 feature: Push
 role: User
@@ -25,7 +25,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '1116'
 ht-degree: 5%
@@ -34,7 +34,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->리치 푸시 알림을 디자인하기 전에 먼저 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)를 참조하세요.
+>리치 푸시 알림을 디자인하기 전에 먼저 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)를 참조하세요.
 
 ## iOS 알림의 콘텐츠 정의 {#push-message}
 

@@ -38,7 +38,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 5%
@@ -221,7 +221,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 >
 >새 스키마를 생성하거나 스키마 확장 중에 전체 스키마에 대해 동일한 기본 키 시퀀스 값(@pkSequence)을 유지해야 합니다.
 
-[이 섹션](database-mapping.md#management-of-keys)의 키에 대해 자세히 알아보세요.
+[이 섹션](database-mapping.md)의 키에 대해 자세히 알아보세요.
 
 ## 속성(필드) {#attributes--fields-}
 
@@ -229,9 +229,9 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ![](assets/schemaextension_2.png)
 
-전체 특성 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=ko#content-model){target="_blank"}의 `<attribute>` 요소 섹션에서 사용할 수 있습니다. 일반적으로 사용되는 특성 중 일부는 다음과 같습니다. **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull @required @ref @xml @type**, **&#x200B;**, **&#x200B;**, **&#x200B;**, **&#x200B;**.
+전체 특성 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html#content-model){target="_blank"}의 `<attribute>` 요소 섹션에서 사용할 수 있습니다. 일반적으로 사용되는 특성 중 일부는 다음과 같습니다. **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull @required @ref @xml @type**, ****, ****, ****, ****.
 
-각 특성에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ko#configuring-campaign-classic){target="_blank"}의 특성 설명을 참조하십시오.
+각 특성에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}의 특성 설명을 참조하십시오.
 
 ### 예제 {#examples}
 

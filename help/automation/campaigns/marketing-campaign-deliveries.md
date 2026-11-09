@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 1%
@@ -54,7 +54,7 @@ ht-degree: 1%
 
   워크플로우가 시작되면 게재가 캠페인 대시보드에 추가됩니다.
 
-이 페이지[&#128279;](marketing-campaign-approval.md)에서 게재 승인 흐름 을(를) 설정하고 실행하는 방법을 알아보세요.
+이 페이지](marketing-campaign-approval.md)에서 게재 승인 흐름 [을(를) 설정하고 실행하는 방법을 알아보세요.
 
 ## 게재 시작 {#start-a-delivery}
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 모든 승인이 승인되면 게재 상태가 **[!UICONTROL Pending extraction]**(으)로 변경됩니다. 추출 파일은 DM 게재가 추출 보류 중일 때 기본 구성에서 자동으로 시작되는 전용 [기술 워크플로우](../workflow/technical-workflows.md)를 통해 만들어집니다. 프로세스가 진행 중이면 대시보드에 표시되고 해당 링크를 통해 편집할 수 있습니다.
 
-추출 워크플로우가 성공적으로 실행되면 추출 파일을 승인해야 합니다(게재 설정에서 추출 파일 승인을 선택한 경우). [자세히 알아보기](marketing-campaign-approval.md#approving-an-extraction-file).
+추출 워크플로우가 성공적으로 실행되면 추출 파일을 승인해야 합니다(게재 설정에서 추출 파일 승인을 선택한 경우). [자세히 알아보기](marketing-campaign-approval.md#approve-an-extraction-file).
 
 아래 단계에 따라 콘텐츠를 확인하고 파일을 공급자에게 보내십시오.
 

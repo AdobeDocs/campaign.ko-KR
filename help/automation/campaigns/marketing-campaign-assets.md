@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -134,4 +134,4 @@ ht-degree: 0%
 
 ![](assets/campaign-export-template.png)
 
-내보내기 모델은 관련 게재에 대해 선택한 서비스 공급자와 연결되어야 합니다. [이 섹션](providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)을 참조하세요.
+내보내기 모델은 관련 게재에 대해 선택한 서비스 공급자와 연결되어야 합니다. [이 섹션](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures)을 참조하세요.

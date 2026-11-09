@@ -27,7 +27,7 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -36,11 +36,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Managed Cloud Services 사용자는 Campaign을 사용하여 Experience Cloud 트리거를 구현하려면 [Adobe에 문의](../start/campaign-faq.md#support)하십시오.
+>Managed Cloud Services 사용자는 Campaign을 사용하여 Experience Cloud 트리거를 구현하려면 [Adobe에 문의](../start/campaign-faq-comprehensive.md#support)하십시오.
 
 Experience Cloud 트리거 를 사용하여 파이프라인을 사용하여 Adobe Campaign과 Adobe Analytics 간에 데이터를 연결할 수 있습니다. 파이프라인은 사용자의 작업 또는 트리거를 웹 사이트에서 검색합니다. 장바구니 포기는 트리거의 예입니다. 트리거는 거의 실시간으로 이메일을 보내기 위해 Adobe Campaign에서 처리됩니다.
 
-[이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=ko){target="_blank"}에서 Adobe Campaign 및 Experience Cloud 트리거에 대해 자세히 알아보세요.
+[이 페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html){target="_blank"}에서 Adobe Campaign 및 Experience Cloud 트리거에 대해 자세히 알아보세요.
 
-[Experience Cloud 트리거 만들기](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ko){target="_blank"}와(과) 중요한 소비자 행동을 식별, 정의 및 모니터링하는 방법을 알아봅니다.
+[Experience Cloud 트리거 만들기](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html){target="_blank"}와(과) 중요한 소비자 행동을 식별, 정의 및 모니터링하는 방법을 알아봅니다.
 

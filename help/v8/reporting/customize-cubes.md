@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 2%
@@ -133,7 +133,7 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 빈에 예약된 다른 열거형을 만들어 다른 큐브에서 사용할 수 있습니다. 모든 별칭 값은 첫 번째 열거형 탭에 지정된 빈에 다시 그룹화됩니다.
 
-[이 페이지](../../v8/config/ui-settings.md#enumerations)의 열거형에 대해 자세히 알아보세요.
+[이 페이지](../../v8/config/ui-settings.md)의 열거형에 대해 자세히 알아보세요.
 
 ## 큐브의 집계 {#calculate-and-use-aggregates}
 
