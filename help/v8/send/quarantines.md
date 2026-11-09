@@ -62,7 +62,7 @@ Adobe Campaign은 온라인 채널(이메일, SMS, 푸시 알림)에 대해 격�
 
 >[!NOTE]
 >
->[&quot;mailto&quot; List-Unsubscribe 메서드](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}를 통해 구독 취소된 수신자는 격리로 전송되지 않습니다. 게재에 대해 정의된 서비스가 없는 경우 게재와 연결된 [서비스](../start/subscriptions.md)을(를) 구독하거나 게재를 취소(프로필 **[!UICONTROL No longer contact]** 섹션에 표시됨)하는 차단 목록에 추가하다로 전송됩니다.
+>[&quot;mailto&quot; List-Unsubscribe 메서드](https://experienceleague.adobe.com/ko/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}를 통해 구독 취소된 수신자는 격리로 전송되지 않습니다. 게재에 대해 정의된 서비스가 없는 경우 게재와 연결된 [서비스](../start/subscriptions.md)을(를) 구독하거나 게재를 취소(프로필 **[!UICONTROL No longer contact]** 섹션에 표시됨)하는 차단 목록에 추가하다로 전송됩니다.
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 
@@ -78,7 +78,7 @@ Adobe Campaign은 게재 실패 유형 및 이유에 따라 격리를 관리합�
 격리된 주소 목록에서 **[!UICONTROL Error reason]** 필드는 선택한 주소가 격리된 이유를 나타냅니다. [자세히 알아보기](#non-deliverable-bounces).
 
 
-사용자가 이메일을 스팸 처리하면 메시지는 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL Denylisted]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은 푸시 차단 목록에 있지 않으므로 SMS 메시지와 알림을 계속 수신하게 됩니다. [게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}에서 피드백 루프에 대해 자세히 알아보세요.
+사용자가 이메일을 스팸 처리하면 메시지는 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL Denylisted]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은 푸시 차단 목록에 있지 않으므로 SMS 메시지와 알림을 계속 수신하게 됩니다. [게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#feedback-loops){target="_blank"}에서 피드백 루프에 대해 자세히 알아보세요.
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ Campaign 관리자는 **[!UICONTROL Administration > Campaign Management > Non d
 
 또한 이 홈 페이지의 **보고서** 섹션에서 사용할 수 있는 **[!UICONTROL Non-deliverables and bounces]** 기본 제공 보고서에는 격리된 주소, 발생한 오류 유형 및 도메인별 오류 분류에 대한 정보가 표시됩니다. 특정 게재에 대한 데이터를 필터링하거나 필요에 따라 이 보고서를 사용자 지정할 수 있습니다.
 
-[전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}에서 바운스 주소에 대해 자세히 알아보세요.
+[전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko){target="_blank"}에서 바운스 주소에 대해 자세히 알아보세요.
 
 ### 격리된 이메일 주소 {#quarantined-recipient}
 
