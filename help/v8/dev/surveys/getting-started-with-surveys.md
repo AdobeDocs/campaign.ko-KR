@@ -21,9 +21,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '944'
 ht-degree: 1%
 ---
 # 설문 조사 만들기의 주요 단계{#getting-started-with-surveys}
@@ -125,7 +125,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >**[!UICONTROL Advanced]** 탭의 옵션을 통해 각 필드 또는 질문에 대해 필요에 맞게 페이지 레이아웃을 조정할 수 있습니다. 설문 조사 화면의 레이아웃은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}에 자세히 설명되어 있습니다.
+  >**[!UICONTROL Advanced]** 탭의 옵션을 통해 각 필드 또는 질문에 대해 필요에 맞게 페이지 레이아웃을 조정할 수 있습니다. 설문 조사 화면의 레이아웃은 [이 섹션](../web/about-web-forms.md)에 자세히 설명되어 있습니다.
 
   세부 정보 화면에서 **[!UICONTROL Preview]** 탭을 클릭하여 방금 만든 설문 조사의 렌더링을 확인합니다.
 

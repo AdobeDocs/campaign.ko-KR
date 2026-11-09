@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cb79282ed9b2b560201a001787c439a5da462ce1
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 7%
+source-wordcount: '904'
+ht-degree: 8%
 ---
 # DM 게재 만들기
 
@@ -90,11 +90,11 @@ DM 게재의 경우 **[!UICONTROL Edit the extraction file format...]** 링크�
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-추출 파일에 개인화된 URL을 삽입할 수 있습니다. 자세한 내용은 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=ko){target="_blank"}를 참조하세요.
+추출 파일에 개인화된 URL을 삽입할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../dev/web/publishing-a-web-form.md)을 참조하십시오.
 
 >[!NOTE]
 >
->이 도우미에는 내보내기 도우미의 단계가 포함되어 있습니다. 자세한 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=ko){target="_blank"}..
+>이 도우미에는 내보내기 도우미의 단계가 포함되어 있습니다. 자세한 Adobe Campaign Classic [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}..
 
 ## 게재 유효성 검사{#validating}
 

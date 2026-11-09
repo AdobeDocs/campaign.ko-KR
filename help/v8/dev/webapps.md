@@ -27,16 +27,22 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '227'
 ht-degree: 0%
 ---
 # 웹 애플리케이션 및 웹 양식 시작{#gs-ac-web}
 
+>[!NOTE]
+>
+>가장 일반적인 사용 사례의 경우, Campaign 웹 사용자 인터페이스에서 랜딩 페이지를 만들어 손쉽게 디자인하고 게시할 수 있습니다. 이 섹션에 설명된 대로 클라이언트 콘솔에서 만든 랜딩 페이지는 더 많은 설정을 제공하고 더 많은 고급 사용 사례를 다룹니다.
+>
+>[Campaign 웹 사용자 인터페이스의 랜딩 페이지에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+
 Adobe Campaign은 **웹 양식**&#x200B;을 정의 및 게시하기 위한 그래픽 모듈을 통합하여 입력 및 선택 필드가 있는 페이지를 만들고 데이터베이스의 데이터를 포함할 수 있습니다. 이를 통해 사용자가 액세스하여 정보를 보거나 입력할 수 있는 웹 페이지를 디자인하고 게시할 수 있습니다.
 
-웹 양식을 만들고 게시하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ko#designing-content){target="_blank"}를 참조하세요.
+[이 섹션](web/about-web-forms.md)에서 웹 양식을 만들고 게시하는 방법을 알아봅니다.
 
 ![](assets/sample.png)
 
@@ -44,4 +50,4 @@ Adobe Campaign은 **웹 양식**&#x200B;을 정의 및 게시하기 위한 그�
 
 엑스트라넷의 편집 양식과 같은 페이지 또는 테이블, 차트, 입력 양식 등이 있는 데이터베이스의 데이터를 포함하는 알림 양식을 만들 수 있습니다. 이 기능을 사용하면 사용자가 정보를 조회하거나 입력할 수 있는 웹 페이지를 디자인하고 게시할 수 있습니다.
 
-웹 응용 프로그램을 만들고 게시하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=ko#designing-content){target="_blank"}를 참조하세요.
+[이 섹션](web/about-web-applications.md)에서 웹 응용 프로그램을 만들고 게시하는 방법에 대해 알아봅니다.
