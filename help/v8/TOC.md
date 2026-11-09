@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: b5e9265db5409f3f0fada35c43cb08fafa1ec4e0
+source-git-commit: 9b9c573de6120f4b3da0d5eee98192b56b4754df
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '882'
 ht-degree: 85%
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 85%
   + {hide-from-toc}[알려진 문제](start/known-issues.md)
   + [호환성 매트릭스](start/compatibility-matrix.md)
   + {hide-from-toc}[설명서 업데이트](start/documentation-updates.md)
-+ 시작 {#new}
++ 시작하기 {#new}
   + [Adobe Campaign 시작](start/get-started.md)
   + [주요 기능](start/whats-new.md)
   + [사용자 인터페이스 살펴보기](start/campaign-ui.md)
@@ -39,15 +39,7 @@ ht-degree: 85%
   + [자주 묻는 질문](start/campaign-faq-comprehensive.md)
   + {hide-from-toc}[자주 묻는 질문](start/campaign-faq.md)
   + {hide-from-toc}[전자 메일 추적 픽셀 및 CNIL 지침](start/cnil-pixel-tracking.md)
-+ 관리 및 권한 {#permissions}
-  + [사용 권한 시작](start/gs-permissions.md)
-  + [사용자 권한 관리](start/manage-permissions.md)
-  + [폴더에 권한 추가](start/folder-permissions.md)
-  + [컨트롤 패널](config/self-service.md)
-+ 캠페인 관리 {#campaigns}
-  + [캠페인 시작하기](start/campaigns.md)
-  + [Campaign Orchestration 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
-+ 메시지 보내기 {#send}
++ 메시지 {#send}
   + [메시지 시작](start/gs-message.md)
   + [첫 게재 만들어 보기](start/create-message.md)
   + [게재 템플릿 작업](send/create-templates.md)
@@ -139,17 +131,16 @@ ht-degree: 85%
     + {hide-from-toc}[Adobe 솔루션과 대상 공유](start/shared-audiences.md)
   + {hide-from-toc}[모범 사례](audiences/audiences-best-practices.md)
   + [구독 관리](start/subscriptions.md)
-+ 랜딩 페이지 및 Forms {#content}
++ 랜딩 페이지 및 양식 {#content}
   + [랜딩 페이지 만들기](dev/landing-pages.md)
   + [웹 앱 및 양식 디자인](dev/webapps.md)
++ 캠페인 {#campaigns}
+  + [캠페인 시작하기](start/campaigns.md)
+  + [Campaign Orchestration 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
 + 워크플로 {#workflows}
   + [워크플로 시작](config/workflows.md)
   + [워크플로우 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
-+ 개인 정보 및 보안 {#privacy}
-  + [개인 정보 보호 요청 관리](start/privacy.md)
-  + [보안 지침](config/security.md)
-  + [향상된 보안 추가 기능](config/enhanced-security.md)
-+ 오퍼 관리 - 상호 작용 {#offers}
++ 오퍼 및 상호 작용 {#offers}
   + [실시간 상호 작용 시작](interaction/interaction.md)
   + [환경 및 아키텍처](interaction/interaction-architecture.md)
   + [모범 사례](interaction/interaction-best-practices.md)
@@ -167,7 +158,13 @@ ht-degree: 85%
     + [익명 상호 작용 관리](interaction/anonymous-interactions.md)
   + [보고서 및 기록](interaction/interaction-tracking.md)
   + [사용 사례](interaction/interaction-use-cases.md)
-+ 추적 및 분석 {#analytics}
++ 쿼리 및 데이터 {#data}
+  + 데이터베이스 쿼리 {#query}
+    + [쿼리 편집기 작업](start/query-editor.md)
+    + [쿼리 디자인](start/design-queries.md)
+    + [필터 조건 정의](start/filter-conditions.md)
+  + [데이터 가져오기](start/import.md)
++ 보고 및 추적 {#analytics}
   + 메시지 추적 {#tracking}
     + [추적 시작](send/tracking.md)
     + [추적된 링크 구성](send/tracked-links.md)
@@ -190,13 +187,6 @@ ht-degree: 85%
       + [게재 보고서](reporting/delivery-reports.md)
       + [기본 제공 메트릭 계산](reporting/metrics-calculation.md)
     + [사용자 정의 보고서](reporting/custom-reports.md)
-+ 데이터 관리 {#data}
-  + 데이터베이스 쿼리 {#query}
-    + [쿼리 편집기 작업](start/query-editor.md)
-    + [쿼리 디자인](start/design-queries.md)
-    + [필터 조건 정의](start/filter-conditions.md)
-  + [데이터 가져오기](start/import.md)
-  + [워크플로우 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko)
 + 통합 {#connect}
   + [캠페인을 다른 솔루션과 연결](connect/integration.md)
   + Campaign + Experience Platform {#ac-aep}
@@ -215,6 +205,15 @@ ht-degree: 85%
     + [Campaign 및 SFDC 작업](connect/ac-sfdc.md)
     + [Campaign 및 Microsoft Dynamics 작업](connect/ac-ms-dyn.md)
     + [데이터 동기화](connect/crm-data-sync.md)
++ 관리 및 권한 {#permissions}
+  + [사용 권한 시작](start/gs-permissions.md)
+  + [사용자 권한 관리](start/manage-permissions.md)
+  + [폴더에 권한 추가](start/folder-permissions.md)
+  + [컨트롤 패널](config/self-service.md)
++ 개인 정보 및 보안 {#privacy}
+  + [개인 정보 보호 요청 관리](start/privacy.md)
+  + [보안 지침](config/security.md)
+  + [향상된 보안 추가 기능](config/enhanced-security.md)
 + 아키텍처 {#architecture}
   + [글로벌 원칙](architecture/general-architecture.md)
   + [아키텍처 모델](architecture/architecture.md)

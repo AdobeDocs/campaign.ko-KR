@@ -3,18 +3,27 @@ audience: user
 user-guide-title: Campaign 자동화 안내서
 user-guide-description: Campaign 자동화 안내서
 feature: Overview
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: 7e18801756113db5273f0108447c20d6b3ef85a3
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 82%
-
+source-wordcount: '459'
+ht-degree: 81%
 ---
-
 
 # Campaign 자동화 안내서 {#automation}
 
 + [Campaign 자동화 안내서](home.md)
-+ 워크플로로 자동화 {#workflows}
++ 캠페인 {#campaign-orchestration}
+  + [마케팅 캠페인 시작](campaigns/set-up-campaigns.md)
+  + [프로그램 및 캠페인 만들기](campaigns/marketing-campaign-create.md)
+  + [템플릿 만들기 및 구성](campaigns/marketing-campaign-templates.md)
+  + [게재 추가](campaigns/marketing-campaign-deliveries.md)
+  + [대상자 선택](campaigns/marketing-campaign-target.md)
+  + [문서 및 에셋 관리](campaigns/marketing-campaign-assets.md)
+  + [승인 설정 및 관리](campaigns/marketing-campaign-approval.md)
+  + [반복 및 정기 캠페인](campaigns/recurring-periodic-campaigns.md)
+  + [캠페인 모니터링](campaigns/marketing-campaign-monitoring.md)
+  + [공급자, 재고 및 예산](campaigns/providers-stocks-and-budgets.md)
++ 워크플로 {#workflows}
   + 워크플로 시작 {#introduction}
     + [워크플로 정보](workflow/about-workflows.md)
     + 워크플로우 유형 {#wf-type}
@@ -133,18 +142,7 @@ ht-degree: 82%
     + [권한 관리](workflow/managing-rights.md)
     + [활동 이미지 변경](workflow/change-activity-images.md)
     + [표준 시간대 관리](workflow/managing-time-zones.md)
-+ Campaign 오케스트레이션 {#campaign-orchestration}
-  + [마케팅 캠페인 시작](campaigns/set-up-campaigns.md)
-  + [프로그램 및 캠페인 만들기](campaigns/marketing-campaign-create.md)
-  + [템플릿 만들기 및 구성](campaigns/marketing-campaign-templates.md)
-  + [게재 추가](campaigns/marketing-campaign-deliveries.md)
-  + [대상자 선택](campaigns/marketing-campaign-target.md)
-  + [문서 및 에셋 관리](campaigns/marketing-campaign-assets.md)
-  + [승인 설정 및 관리](campaigns/marketing-campaign-approval.md)
-  + [반복 및 정기 캠페인](campaigns/recurring-periodic-campaigns.md)
-  + [캠페인 모니터링](campaigns/marketing-campaign-monitoring.md)
-  + [공급자, 재고 및 예산](campaigns/providers-stocks-and-budgets.md)
-+ Campaign 최적화(추가 기능){#campaign-optimization}
++ Campaign 최적화(추가 기능) {#campaign-optimization}
   + [캠페인 유형화 시작](campaign-opt/campaign-typologies.md)
   + [필터링 규칙](campaign-opt/filtering-rules.md)
   + [제어 규칙](campaign-opt/control-rules.md)
@@ -152,12 +150,6 @@ ht-degree: 82%
   + [일관성 규칙](campaign-opt/consistency-rules.md)
   + [규칙 적용](campaign-opt/apply-rules.md)
   + [캠페인 시뮬레이션](campaign-opt/campaign-simulations.md)
-+ 마케팅 리소스 관리(추가 기능){#mrm}
-  + [마케팅 리소스 관리 시작](mrm/about-marketing-resource-management.md)
-  + [작업 만들기 및 관리](mrm/creating-and-managing-tasks.md)
-  + [비용 제어](mrm/controlling-costs.md)
-  + [마케팅 리소스 관리](mrm/managing-marketing-resources.md)
-  + [토론 포럼](mrm/discussion-forums.md)
 + 분산 마케팅(추가 기능) {#distributed-marketing}
   + [분산 마케팅 시작](distributed-marketing/about-distributed-marketing.md)
   + [로컬 캠페인 만들기](distributed-marketing/creating-a-local-campaign.md)
@@ -166,4 +158,10 @@ ht-degree: 82%
   + [캠페인 액세스](distributed-marketing/accessing-campaigns.md)
   + [캠페인 추적](distributed-marketing/tracking-a-campaign.md)
   + [사용 사례](distributed-marketing/examples.md)
++ 마케팅 리소스 관리(추가 기능) {#mrm}
+  + [마케팅 리소스 관리 시작](mrm/about-marketing-resource-management.md)
+  + [작업 만들기 및 관리](mrm/creating-and-managing-tasks.md)
+  + [비용 제어](mrm/controlling-costs.md)
+  + [마케팅 리소스 관리](mrm/managing-marketing-resources.md)
+  + [토론 포럼](mrm/discussion-forums.md)
 + [&lt; Campaign v8 설명서로 이동](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)
