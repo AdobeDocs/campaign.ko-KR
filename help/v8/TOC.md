@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: a4655bbf4566da21f097ae1106212c55965ef1bd
+source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 85%
+source-wordcount: '921'
+ht-degree: 86%
 ---
 
 # Adobe Campaign v8(콘솔) 설명서 {#campaign-v8}
@@ -133,6 +133,15 @@ ht-degree: 85%
 + 랜딩 페이지 및 양식 {#content}
   + [랜딩 페이지 만들기](dev/landing-pages.md)
   + [웹 앱 및 양식 디자인](dev/webapps.md)
+  + 설문 조사 {#surveys}
+    + [설문 조사 시작](dev/surveys/about-surveys.md)
+    + [설문 조사 만들기의 주요 단계](dev/surveys/getting-started-with-surveys.md)
+    + [설문 조사 디자인](dev/surveys/building-a-survey.md)
+    + [답변 관리](dev/surveys/managing-answers.md)
+    + [수집된 데이터 게시, 추적 및 사용](dev/surveys/publish-track-and-use-collected-data.md)
+    + [설문 조사 구성](dev/surveys/configuring-surveys.md)
+    + [활용 사례: 참조 양식 만들기](dev/surveys/use-case-creating-a-refer-a-friend-form.md)
+    + [사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시](dev/surveys/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + 캠페인 {#campaigns}
   + [캠페인 시작하기](start/campaigns.md)
   + [Campaign Orchestration 설명서 >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko)
