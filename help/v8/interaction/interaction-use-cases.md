@@ -24,19 +24,19 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 1%
+source-wordcount: '42'
+ht-degree: 4%
 ---
 # 사용 사례
 
-Campaign Classic v7 설명서에 나와 있는 다음 단계별 사용 사례를 통해 Campaign 상호 작용 기능을 활용하십시오.
+다음과 같은 단계별 사용 사례를 통해 Campaign 상호 작용 기능을 활용합니다.
 
-[프레젠테이션 규칙 만들기 및 적용](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html?lang=ko){target="_blank"}
+[프레젠테이션 규칙 만들기 및 적용](presentation-rules.md)
 
-[이메일 오퍼 게재 보내기](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=ko){target="_blank"}
+[이메일 오퍼 게재 보내기](offers-on-an-outbound-channel.md)
 
-[익명 방문자에게 오퍼 제공](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=ko){target="_blank"}
+[익명 방문자에게 오퍼 제공](offers-on-an-inbound-channel.md#presenting-an-offer-to-an-anonymous-visitor)
 
-[오퍼 시뮬레이션 수행](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=ko){target="_blank"}
+[오퍼 시뮬레이션 수행](offers-on-an-outbound-channel.md#perform-an-offer-simulation)

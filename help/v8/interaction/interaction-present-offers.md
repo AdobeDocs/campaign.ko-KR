@@ -21,9 +21,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '187'
 ht-degree: 8%
 ---
 # 최상의 오퍼 제공{#interaction-present-offers}
@@ -34,7 +34,7 @@ ht-degree: 8%
 
 오퍼 엔진에서 오퍼를 선택하려면 오퍼를 승인하고 라이브 환경에서 사용할 수 있어야 합니다.
 
-자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=ko#approving-offer-content){target="_blank"}를 참조하세요.
+이 작업에 대한 자세한 정보는 [이 섹션](approving-and-activating-an-offer.md#approving-offer-content)을 참조하십시오.
 
 인바운드 연락처의 컨텍스트에서 페이지를 탐색하는 사용자를 웹 사이트로 식별하거나 식별하지 못할 수 있습니다. 오퍼 엔진은 식별된 프로필과 익명 프로필에 대해 서로 다른 오퍼를 제공합니다.
 

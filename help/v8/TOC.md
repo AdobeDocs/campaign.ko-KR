@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 86%
+source-wordcount: '1084'
+ht-degree: 88%
 ---
 
 # Adobe Campaign v8(콘솔) 설명서 {#campaign-v8}
@@ -133,6 +133,35 @@ ht-degree: 86%
 + 랜딩 페이지 및 양식 {#content}
   + [랜딩 페이지 만들기](dev/landing-pages.md)
   + [웹 앱 및 양식 디자인](dev/webapps.md)
+  + 웹 애플리케이션 {#web-applications}
+    + [웹 애플리케이션 시작](dev/web/about-web-applications.md)
+    + [새 웹 애플리케이션 만들기](dev/web/creating-a-new-web-application.md)
+    + [웹 애플리케이션 디자인](dev/web/designing-a-web-application.md)
+    + [활용 사례: 개요 만들기](dev/web/use-cases-creating-overviews.md)
+    + [웹 애플리케이션 번역](dev/web/translating-a-web-application.md)
+    + [웹 애플리케이션에서 방문 수 추적](dev/web/tracking-a-web-application.md)
+    + [웹 애플리케이션 추적 옵트아웃](dev/web/web-application-tracking-opt-out.md)
+  + HTML 콘텐츠 편집 {#editing-html-content}
+    + [HTML 편집기 시작](dev/web/about-campaign-html-editor.md)
+    + [템플릿 관리](dev/web/template-management.md)
+    + [콘텐츠 편집기 인터페이스](dev/web/content-editor-interface.md)
+    + [콘텐츠 편집](dev/web/editing-content.md)
+    + [콘텐츠 편집 모범 사례](dev/web/content-editing-best-practices.md)
+    + [랜딩 페이지 만들기](dev/web/creating-a-landing-page.md)
+    + [활용 사례: 이메일 게재 만들기](dev/web/use-case-creating-an-email-delivery.md)
+  + 웹 양식 {#web-forms}
+    + [웹 양식 시작](dev/web/about-web-forms.md)
+    + [웹 양식 템플릿 사용](dev/web/using-a-web-form-template.md)
+    + [웹 양식에 필드 추가](dev/web/adding-fields-to-a-web-form.md)
+    + [웹 양식의 정적 요소](dev/web/static-elements-in-a-web-form.md)
+    + [웹 양식 레이아웃 정의](dev/web/defining-web-forms-layout.md)
+    + [양식 렌더링](dev/web/form-rendering.md)
+    + [페이지 시퀀싱 정의](dev/web/defining-web-forms-page-sequencing.md)
+    + [웹 양식 답변 저장](dev/web/web-forms-answers.md)
+    + [웹 양식 게시](dev/web/publishing-a-web-form.md)
+    + [웹 양식 속성 정의](dev/web/defining-web-forms-properties.md)
+    + [웹 양식 번역](dev/web/translating-a-web-form.md)
+    + [활용 사례: 웹 양식](dev/web/use-cases-web-forms.md)
   + 설문 조사 {#surveys}
     + [설문 조사 시작](dev/surveys/about-surveys.md)
     + [설문 조사 만들기의 주요 단계](dev/surveys/getting-started-with-surveys.md)
@@ -164,9 +193,24 @@ ht-degree: 86%
     + [컨텍스트](interaction/interaction-present-offers.md)
     + [웹 페이지에서 오퍼 호출](interaction/interaction-integration.md)
     + [익명 상호 작용 관리](interaction/anonymous-interactions.md)
+  + 오퍼 카탈로그 관리 {#managing-an-offer-catalog}
+    + [오퍼 승인 및 활성화](interaction/approving-and-activating-an-offer.md)
+    + [오퍼 템플릿 관리](interaction/managing-offer-templates.md)
+    + [오퍼 프레젠테이션 관리](interaction/managing-offer-presentation.md)
+  + 오퍼 시뮬레이션 {#simulating-offers}
+    + [오퍼 시뮬레이션 정보](interaction/about-offers-simulation.md)
+    + [실행 설정](interaction/execution-settings.md)
+    + [시뮬레이션 범위](interaction/simulation-scope.md)
+    + [시뮬레이션 추적](interaction/simulation-tracking.md)
   + [보고서 및 기록](interaction/interaction-tracking.md)
   + [사용 사례](interaction/interaction-use-cases.md)
+  + 사용 사례 예 {#case-study}
+    + [프레젠테이션 규칙](interaction/presentation-rules.md)
+    + [인바운드 채널에 대한 오퍼](interaction/offers-on-an-inbound-channel.md)
+    + [아웃바운드 채널에 대한 오퍼](interaction/offers-on-an-outbound-channel.md)
   + [고급 설정](interaction/interaction-advanced-settings.md)
+  + 고급 매개 변수 {#advanced-parameters}
+    + [확장 예제](interaction/extension-example.md)
 + 쿼리 및 데이터 {#data}
   + 데이터베이스 쿼리 {#query}
     + [쿼리 편집기 작업](start/query-editor.md)
