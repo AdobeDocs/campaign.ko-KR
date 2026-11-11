@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 66d00cbaf20d714f56ab02bba593cff4a0d23571
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1071'
 ht-degree: 10%
 ---
 # Campaign 아키텍처 시작{#gs-ac-archi}
@@ -51,7 +51,7 @@ Campaign은 각 인스턴스가 전체 Campaign 환경을 나타내는 개별 �
 
 한 환경에서 다른 환경으로 패키지를 내보내고 가져올 수 있습니다.
 
-패키지에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ko){target="_blank"}를 참조하세요
+패키지에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}를 참조하세요
 
 ## 배포 모델 {#ac-deployment}
 
@@ -82,7 +82,7 @@ Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입�
 
 >[!AVAILABILITY]
 >
->이 기능은 여러 MID(중간 소싱) 인스턴스 구성이 있는 고객만 사용할 수 있습니다.
+>이 기능은 LA(Limited Availability)에 있으며 여러 MID(중간 소싱) 인스턴스 구성이 있는 고객만 사용할 수 있습니다.
 
 Campaign v8 패키지에 따라 게재 실행을 담당하는 특정 수의 중간 소싱 인스턴스가 제공됩니다.
 
