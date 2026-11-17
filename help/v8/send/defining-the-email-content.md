@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2111'
 ht-degree: 2%
 ---
 # 이메일 콘텐츠 정의 {#defining-the-email-content}
@@ -85,6 +85,10 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >릴리스 8.9.3에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 리소스가 중단 없이 계속 로드되도록 메시지 콘텐츠에 사용된 도메인이 인스턴스의 승인된 허용 목록에 추가되었는지 확인합니다. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하세요.
+
+>[!IMPORTANT]
+>
+>전자 메일 콘텐츠에 HTML `<base>` 태그를 사용하지 마십시오. 보안상의 이유로 이 태그는 지원되지 않으며, 콘텐츠를 콘텐츠 편집기에서 로드할 수 없습니다. 대신 링크 및 외부 리소스에 대한 절대 URL을 사용하십시오.
 
 메시지 콘텐츠는 게재 구성 창의 아래 섹션에 정의되어 있습니다.
 

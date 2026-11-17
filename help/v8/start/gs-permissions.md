@@ -26,9 +26,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '513'
 ht-degree: 5%
 ---
 # 사용 권한 시작{#gs-permissions}
@@ -69,9 +69,9 @@ Admin Console을 사용하여 사용자를 추가하고, 제품 프로필(운영
 
 ## 제품 프로필 기본 정보{#ootb-product-profiles}
 
-제품 프로필은 사용자에게 할당할 수 있는 제품 및 서비스 그룹입니다. Adobe Experience Cloud에서 권한은 사용자가 아닌 제품 프로필을 기반으로 합니다. 그러나 특정 사용자에게 관리 권한을 위임할 수 있습니다.
+제품 프로필은 사용자에게 할당할 수 있는 제품 및 서비스 그룹입니다. [!DNL Adobe CX Enterprise]에서 권한은 사용자가 아닌 제품 프로필을 기반으로 합니다. 그러나 특정 사용자에게 관리 권한을 위임할 수 있습니다.
 
-Admin Console에서 Campaign용 각 Adobe Experience Cloud **제품 프로필**&#x200B;은(는) Campaign 클라이언트 콘솔의 **연산자 그룹**&#x200B;에 연결되어 있습니다.
+Admin Console에서 Campaign에 대한 각 [!DNL CX Enterprise] **제품 프로필**&#x200B;은(는) Campaign 클라이언트 콘솔의 **연산자 그룹**&#x200B;에 연결됩니다.
 
 [이 페이지](manage-permissions.md#create-product-profile)에서 제품 프로필을 만들고 할당하는 방법을 알아보세요.
 

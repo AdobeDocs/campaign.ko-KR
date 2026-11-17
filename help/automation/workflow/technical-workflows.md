@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2240'
-ht-degree: 5%
+source-wordcount: '2237'
+ht-degree: 4%
 ---
 # 기술 워크플로{#about-technical-workflows}
 
@@ -90,11 +90,11 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 | **토론 포럼 프로세스**(뉴스그룹 관리) | 마케팅 리소스(MRM) | 이 워크플로우는 토론 포럼에서 알림 전달을 관리합니다. 승인 신호가 수신되면 트리거됩니다. |
 | **분산 마케팅 프로세스**(centralLocalMgt) | 중앙/로컬 마케팅(분산 마케팅) | 이 워크플로우는 분산 마케팅 모듈 사용과 관련된 처리를 시작합니다. 로컬 캠페인 생성을 시작하고 주문 및 캠페인 패키지 가용성과 관련된 알림을 관리합니다. |
 | **이벤트 제거**(webAnalyticsPurgeWebEvents) | 웹 분석 커넥터 | 이 워크플로우를 사용하면 수명 필드에 구성된 기간에 따라 데이터베이스 필드에서 모든 이벤트를 삭제할 수 있습니다. |
-| **Adobe Experience Cloud로 대상 내보내기**(exportSharedAudience) | Adobe Experience Cloud와 통합 | 이 워크플로우에서는 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상자는 사용하고 있는 여러 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. |
+| **Adobe Experience Cloud로 대상 내보내기**(exportSharedAudience) | Adobe Experience Cloud와 통합 | 이 워크플로우에서는 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상은 사용하는 다른 Adobe CX Enterprise 솔루션에서 사용할 수 있습니다. |
 | **예측**(예측) | 기본적으로 설치됨 | 이 워크플로우는 임시 캘린더에 저장된 게재를 분석합니다(임시 로그 생성). 기본적으로 매일 오전 1시에 트리거됩니다. |
 | **전체 집계 계산(propositionrcp 큐브)**(agg_nmspropositionrcp_full) | 오퍼 엔진(상호 작용) | 이 워크플로우는 오퍼 제안 큐브에 대한 전체 집계를 업데이트합니다. 기본적으로 매일 오전 6시에 트리거됩니다. 이 집계는 채널, 게재, 마케팅 오퍼 및 날짜 차원을 캡처합니다. 그런 다음 오퍼 제안 큐브를 사용하여 오퍼를 기반으로 보고서를 생성합니다. [이 섹션](../../v8/reporting/gs-cubes.md)에서 큐브에 대해 자세히 알아보세요. |
 | **변환된 연락처 식별**(webAnalyticsFindConverted) | 웹 분석 커넥터 | 이 워크플로우는 리마케팅 캠페인 후 구매를 완료한 사이트 방문자를 색인화합니다. 이 워크플로우에서 복구한 데이터는 리마케팅 효율성 보고서에서 액세스할 수 있습니다(이 페이지 참조). |
-| **Adobe Experience Cloud에서 대상 가져오기**(importSharedAudience) | Adobe Experience Cloud와 통합 | 이 워크플로우를 통해 다양한 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져올 수 있습니다. |
+| **Adobe Experience Cloud에서 대상 가져오기**(importSharedAudience) | Adobe Experience Cloud와 통합 | 이 워크플로우를 통해 다른 CX Enterprise 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져올 수 있습니다. |
 | **캠페인의 게재에 대한 작업**(deliveryMgt) | 기본적으로 설치됨 | 이 워크플로우는 승인된 게재를 트리거하고 외부 게재에 대한 서비스 공급자의 사후 처리를 시작합니다. 승인 알림과 미리 알림도 보냅니다. |
 | 서비스 공급자의 **작업**(supplierMgt) | 기본적으로 설치됨 | 게재가 승인되면 이 워크플로우는 공급자 처리(라우터로의 이메일 전송 및 사후 처리)를 시작합니다. |
 | **LINE V2 액세스 토큰 업데이트**(updateLineV2AccessToken) | LINE 채널 | 이 워크플로우는 액세스 토큰을 LINE V2로 새로 고칩니다. |
@@ -120,7 +120,7 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 | **참조 테이블 복제**(ffdaReplicateReferenceTables) | 기본적으로 [Campaign Enterprise(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에만 설치됩니다. | Campaign 로컬 데이터베이스(PostgreSQL) 및 클라우드 데이터베이스([!DNL Snowflake])에 있어야 하는 기본 제공 테이블의 자동 복제를 수행합니다. 매시간, 매일 실행되도록 예약되어 있습니다. **lastModified** 필드가 있으면 복제가 점진적으로 발생하고 그렇지 않으면 전체 테이블이 복제됩니다. [데이터 복제에 대해 자세히 알아보기](../../v8/architecture/replication.md) |
 | **스테이징 데이터 복제**(ffdaReplicateStagingData) | 기본적으로 [Campaign Enterprise(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에만 설치됩니다. | 단일 호출에 대한 스테이징 데이터를 복제합니다. 매시간, 매일 실행되도록 예약되어 있습니다. [데이터 복제에 대해 자세히 알아보기](../../v8/architecture/replication.md) |
 | **집계 보고**(reportingAggregates) | 게재 | 이 워크플로우는 보고서에 사용된 합계를 업데이트합니다. 기본적으로 매일 오전 2시에 트리거됩니다. |
-| **지표 및 캠페인 특성 전송**(webAnalyticsSendMetrics) | 웹 분석 커넥터 | 이 워크플로우를 사용하면 ® Analytics 커넥터를 통해 Adobe Campaign에서 Adobe Experience Cloud Suite로 이메일 캠페인 지표를 보낼 수 있습니다. 관련 지표는 다음과 같습니다. 전송됨(iSent), 총 열람 수(iTotalRecipientOpen), 클릭한 총 수신자 수(iTotalRecipientClick), 오류(iError), 옵트아웃(optOut) |
+| **지표 및 캠페인 특성 전송**(webAnalyticsSendMetrics) | 웹 분석 커넥터 | 이 워크플로우를 사용하면 ® Analytics 커넥터를 통해 Adobe Campaign에서 CX Enterprise으로 이메일 캠페인 지표를 보낼 수 있습니다. 관련 지표는 다음과 같습니다. 전송됨(iSent), 총 열람 수(iTotalRecipientOpen), 클릭한 총 수신자 수(iTotalRecipientClick), 오류(iError), 옵트아웃(optOut) |
 | **재고: 주문 및 경고**(stockMgt) | 기본적으로 설치됨 | 이 워크플로우는 주문 라인에서 재고 계산을 시작하고 경고 경고 임계값을 관리합니다. |
 | **Adobe Experience Platform 데이터 수집에서 모바일 앱 동기화**(syncWithLaunch) | 기본적으로 설치됨, v8.5부터 | 이 워크플로우는 데이터 수집에서 모바일 속성을 Adobe Campaign에 자동으로 동기화합니다. |
 | **Twitter 페이지 동기화**(syncTwitter) | 소셜 마케팅 | 이 워크플로우는 매일 오전 7시에 X명의 팔로워를 Adobe Campaign으로 가져옵니다. |

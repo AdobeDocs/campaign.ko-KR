@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2954'
-ht-degree: 49%
+source-wordcount: '2947'
+ht-degree: 48%
 ---
 # Campaign 보안 모범 사례 {#ac-security}
 
@@ -116,7 +116,7 @@ Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 �
 * **개인 데이터**&#x200B;는 살아있는 개인을 직접 또는 간접적으로 식별할 수 있는 정보입니다.
 * **중요한 개인 데이터**&#x200B;는 노동조합 멤버십뿐 아니라 개인의 인종, 정치적 관점, 종교적 신념, 범죄 기록, 유전자 정보, 건강 정보, 성적 선호도, 생체 인식 정보 등과 관련된 정보입니다.
 
-[Adobe Analytics](../connect/ac-aa.md), [Experience Cloud 대상](../start/shared-audiences.md), Campaign Standard 또는 [CRM 커넥터](../../automation/workflow/crm-connector.md)를 통한 다른 솔루션과 같이 대상을 다른 시스템으로 전송할 수 있는 다른 Experience Cloud 솔루션과 Campaign을 통합하면 개인 데이터 보호를 위해 추가 비용을 지불해야 합니다.
+[Adobe Analytics](../connect/ac-aa.md), [Experience Cloud 대상](../start/shared-audiences.md), Campaign Standard 또는 [CRM 커넥터](../../automation/workflow/crm-connector.md)를 통해 다른 솔루션과 같이 대상을 다른 시스템으로 전송할 수 있는 다른 [!DNL Adobe CX Enterprise] 솔루션과 Campaign을 통합하면 개인 데이터 보호를 위해 추가 비용을 지불해야 합니다.
 
 [기본 규정](#privacy-regulations)은 다음과 같이 데이터를 관리하는 서로 다른 엔터티를 의미합니다.
 
@@ -203,7 +203,7 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 * **session** 쿠키: **nlid** 쿠키에는 연락처로 보낸 전자 메일의 식별자&#x200B;**broadlogId**)와 메시지 템플릿의 식별자(**deliveryId**)가 포함됩니다. 이 URL은 연락처가 Adobe Campaign이 보낸 전자 메일에 포함된 URL을 클릭할 때 추가되며, 이를 통해 웹에서 해당 동작을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
 
 * **영구** 쿠키 2개:
-  * Adobe Experience Cloud 솔루션 간에 **UUID**(Universal Unique IDentifier) 쿠키가 공유됩니다. 새 값이 생성될 때 클라이언트 브라우저에서 사라질 때까지 한 번 설정됩니다. 이 쿠키를 사용하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 랜딩 페이지(알 수 없는 고객 활동을 수신자에게 연결)나 게재를 통해 보관할 수 있습니다. 이 쿠키의 설명은 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=ko#ec-cookies)에서 사용할 수 있습니다.
+  * [!DNL CX Enterprise] 솔루션 간에 **UUID**(Universal Unique IDentifier) 쿠키가 공유됩니다. 새 값이 생성될 때 클라이언트 브라우저에서 사라질 때까지 한 번 설정됩니다. 이 쿠키를 사용하면 웹 사이트를 방문할 때 [!DNL CX Enterprise] 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 랜딩 페이지(알 수 없는 고객 활동을 수신자에게 연결)나 게재를 통해 보관할 수 있습니다. 이 쿠키의 설명은 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=ko#ec-cookies)에서 사용할 수 있습니다.
   * **nllastdelid** 쿠키(Campaign Classic 20.3에서 도입됨)는 사용자가 링크를 클릭한 마지막 게재의 **deliveryId**&#x200B;가 포함된 영구 쿠키입니다. 이 쿠키는 세션 쿠키가 없을 때 사용될 추적 테이블을 식별하기 위해 사용됩니다.
 
 GDPR(일반 데이터 보호 규정)과 같은 규정에서는 회사가 쿠키를 설치하기 전에 웹 사이트 사용자의 계약을 요구하는 것을 명시합니다.

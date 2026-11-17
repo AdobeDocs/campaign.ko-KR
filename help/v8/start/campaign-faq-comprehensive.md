@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '11533'
-ht-degree: 9%
+source-wordcount: '11502'
+ht-degree: 8%
 ---
 # 자주 묻는 질문 {#faq}
 
@@ -50,7 +50,7 @@ Campaign을 처음 사용하십니까?**&#x200B;**&#x200B;필수 구성 요소�
 
 Adobe Campaign v8은 이메일, 모바일, 소셜 및 오프라인 채널 전반에서 개인화된 캠페인을 제작, 조정 및 제공할 수 있는 강력한 크로스채널 마케팅 자동화 플랫폼입니다. 강력한 마케팅 데이터베이스, 캠페인 오케스트레이션 엔진 및 실시간 상호 작용 기능을 결합하여 여정 전반에 걸쳐 고객을 참여시킵니다.
 
-**주요 기능:** 멀티채널 캠페인 관리, 대상자 세분화 및 타깃팅, 워크플로우 자동화, 규모에 맞는 개인화, 실시간 및 일괄 메시징, 보고 및 분석, Adobe Experience Cloud와의 통합.
+**주요 기능:** 멀티채널 캠페인 관리, 대상자 세분화 및 타기팅, 워크플로우 자동화, 규모에 맞는 개인화, 실시간 및 일괄 메시징, 보고 및 분석, [!DNL Adobe CX Enterprise]과의 통합.
 
 **v8의 고유한 기능:** 클라우드 기반 아키텍처(Managed Cloud Services만 해당), Snowflake 데이터베이스를 기반으로 하는 엔터프라이즈급 성능, 자동 업그레이드, 향상된 보안 및 Adobe Experience Platform과의 양방향 통합.
 
@@ -76,9 +76,9 @@ Adobe 다운로드 센터에서 설치 프로그램과 클라이언트 콘솔을
 
 Adobe Campaign에 연결하려면 Campaign 클라이언트 콘솔을 다운로드하여 설치해야 합니다. [자세히 알아보기](connect.md).
 
-Campaign v8.6 릴리스부터 중앙 Adobe Experience Cloud 환경을 통해 사용할 수 있는 **Campaign 웹 사용자 인터페이스**&#x200B;에 액세스할 수 있습니다. Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다.
+Campaign v8.6 릴리스를 시작하면 중앙 [!DNL CX Enterprise] 환경을 통해 사용할 수 있는 **Campaign 웹 사용자 인터페이스**&#x200B;에 액세스할 수 있습니다. [!DNL CX Enterprise]은(는) Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다.
 
-[이 페이지에서](campaign-ui.md#ac-web-ui) Adobe Experience Cloud에 연결하여 Adobe Campaign Web 인터페이스에 액세스하는 방법을 알아보십시오. [Adobe Campaign Web 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home){target="_blank"}에서 자세히 알아보십시오.
+[!DNL CX Enterprise]에 연결하고 이 페이지에서 [Adobe Campaign 웹 인터페이스에 액세스하는 방법](campaign-ui.md#ac-web-ui)을 알아보세요. [Adobe Campaign Web 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home){target="_blank"}에서 자세히 알아보십시오.
 
 
 **관련 항목:**
@@ -91,7 +91,7 @@ Campaign v8.6 릴리스부터 중앙 Adobe Experience Cloud 환경을 통해 사
 
 예! IMS(Adobe Identity Management System)와의 통합 덕분에 사용자는 Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결합니다. 이 통합은 다음과 같은 이점을 제공합니다.
 
-* 모든 Experience Cloud 솔루션에 동일한 ID를 사용할 수 있습니다.
+* 모든 [!DNL CX Enterprise] 솔루션에 동일한 ID를 사용할 수 있습니다.
 * 서로 다른 통합으로 Adobe Campaign을 사용하는 경우 연결이 기억됩니다.
 * 보안 암호 관리 정책.
 * 페더레이션 ID 계정 사용(외부 ID 공급자).
@@ -104,7 +104,7 @@ Adobe ID을 사용하여 Campaign v8에 액세스하는 방법에 대해 [자세
 
 Adobe Campaign 사용자 인터페이스 기본 사항에 대한 자세한 내용은 [이 섹션](campaign-ui.md)을 참조하세요.
 
-Campaign v8.6 릴리스부터 중앙 Adobe Experience Cloud 환경을 통해 사용할 수 있는 새로운 **Campaign 웹 사용자 인터페이스**&#x200B;에 액세스할 수 있습니다.
+Campaign v8.6 릴리스부터 중앙 [!DNL CX Enterprise] 환경을 통해 사용할 수 있는 새로운 **Campaign 웹 사용자 인터페이스**&#x200B;에 액세스할 수 있습니다.
 
 [Adobe Campaign 웹 사용자 인터페이스 설명서에서 자세히 알아보세요](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
@@ -183,7 +183,7 @@ Adobe 고객 지원 센터에 문의하려면 [Adobe Admin Console](https://admi
 
 +++ 다른 Adobe 솔루션과 함께 Campaign v8을 사용할 수 있습니까?
 
-예. Campaign v8은 통합 마케팅 에코시스템을 위해 Adobe Experience Cloud 솔루션과 원활하게 통합됩니다.
+예. Campaign v8은 통합 마케팅 에코시스템을 위해 [!DNL CX Enterprise] 솔루션과 원활하게 통합됩니다.
 
 **주요 통합:** Adobe Experience Platform(통합 프로필, 실시간 데이터), Adobe Analytics(성능 측정), Adobe Target(개인화), Adobe Experience Manager(컨텐츠 관리), Adobe Audience Manager(대상 세그먼트).
 
@@ -277,7 +277,7 @@ Managed Cloud Services 사용자는 Adobe을 사용하여 업그레이드를 처
 * **향상된 보안** - 취약점, 최신 패치, 향상된 데이터 보호 방지
 * **향상된 지원** - 문제 해결 시간 단축, 버그 수정 액세스, 최신 버전에 대한 우선 순위 지원
 * **향상된 성능** - 데이터베이스 및 워크플로 최적화, 향상된 확장성, 보다 안정적인 작업
-* **새로운 기능** - 최신 기능, 향상된 Adobe Experience Cloud 통합, 최신 UI 개선 사항
+* **새로운 기능** - 최신 기능, 개선된 [!DNL CX Enterprise] 통합, 최신 UI 개선 사항
 
 Adobe에서는 최신 버전을 실행하는 것이 좋습니다. Managed Cloud Services 고객은 Adobe에서 중단을 최소화하면서 업그레이드를 수행합니다.
 
@@ -329,7 +329,7 @@ Campaign v8은 다음과 같이 대폭 향상된 최신 클라우드 기반 아�
 * **뛰어난 성능** - 시간당 최대 2,000만 개의 작업(FFDA(Full Federated Data Access) 아키텍처 사용)
 * **새로운 Campaign 웹 UI** - 클래식 콘솔과 함께 현대적이고 직관적인 인터페이스
 * **자동 업그레이드** - 가동 중지 시간 없이 항상 최신 버전
-* **향상된 기능** - AI Assistant, 리치 푸시 알림, 업그레이드된 SMS, Adobe Experience Cloud와의 통합 기능 개선
+* **향상된 기능** - AI Assistant, 리치 푸시 알림, 업그레이드된 SMS, [!DNL CX Enterprise]과의 향상된 통합
 
 **Campaign Classic v7 사용자:** 아키텍처 변경 사항, 사용할 수 없는 기능 및 마이그레이션 고려 사항을 포함하여 [v7에서 v8로 전환](v7-to-v8.md)에 대해 알아봅니다.
 
@@ -354,7 +354,7 @@ Campaign v8은 Adobe의 플랫폼으로, 대량 캠페인(시간당 2천만 건)
 
 * 대용량 데이터 볼륨 또는 경험 성능 문제 처리
 * IT 오버헤드와 인프라 관리를 줄이고자 함
-* Adobe Experience Cloud/Platform 통합 필요
+* [!DNL CX Enterprise]/플랫폼 통합 필요
 * 자동 업데이트로 미래형 기술 필요
 
 **다음 단계:** Adobe 담당자에게 문의하여 마이그레이션 준비 상태를 평가하고 마이그레이션 도구에 액세스합니다.
@@ -1198,7 +1198,7 @@ Campaign Campaign 컨트롤 패널은 Campaign 관리자가 Campaign 인스턴�
 **액세스 요구 사항:**
 
 * **관리자 사용자만** - Campaign 컨트롤 패널은 관리자 권한이 있는 사용자로 제한됩니다.
-* **Adobe IMS 인증** - Adobe ID으로 Adobe Experience Cloud를 통해 액세스
+* **Adobe IMS 인증** - Adobe ID으로 [!DNL CX Enterprise]을(를) 통해 액세스
 * **Campaign v8 관리 클라우드 서비스** - 호스팅된 인스턴스에만 사용할 수 있습니다.
 
 **추가 리소스:**

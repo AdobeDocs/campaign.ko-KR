@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1599'
-ht-degree: 56%
+source-wordcount: '1590'
+ht-degree: 54%
 ---
 # Campaign 및 Adobe Analytics 작업 {#ac-aa}
 
@@ -49,7 +49,7 @@ Campaign과 Analytics를 통합하도록 Adobe Analytics을 구성할 수 있습
 
 >[!NOTE]
 >
->Managed Cloud Services 사용자는 Campaign을 Adobe Experience Cloud 서비스 및 솔루션에 연결하려면 [Adobe에 문의](../start/campaign-faq-comprehensive.md#support)하십시오. Web Analytics 커넥터 추가 기능은 전용 패키지를 통해 환경에 설치해야 합니다.
+>Managed Cloud Services 사용자는 [Adobe에 문의](../start/campaign-faq-comprehensive.md#support)하여 [!DNL Adobe CX Enterprise] 서비스 및 솔루션에 Campaign을 연결합니다. Web Analytics 커넥터 추가 기능은 전용 패키지를 통해 환경에 설치해야 합니다.
 
 Adobe Campaign에는 Adobe Analytics 커넥터를 사용하여 인터넷 대상자를 측정하는 방법(웹 분석)이 있습니다. Adobe Campaign은 웹 분석 도구를 통해 지표와 캠페인 속성을 Analytics에 전달할 수 있습니다.
 
@@ -254,7 +254,7 @@ Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작
 
 ![](assets/webanalytics_workflows.png)
 
-**[!UICONTROL Sending of indicators and campaign attributes]** 워크플로를 사용하면 Adobe Analytics 커넥터를 사용하여 Adobe Campaign을 통해 Adobe Experience Cloud로 이메일 캠페인 지표를 보낼 수 있습니다. 이 워크플로는 매일 오전 4시에 트리거되며 데이터를 Analytics에 전송하는 데 24시간이 걸릴 수 있습니다.
+**[!UICONTROL Sending of indicators and campaign attributes]** 워크플로를 사용하면 Adobe Analytics Connector를 사용하여 Adobe Campaign을 통해 [!DNL CX Enterprise]&#x200B;(으)로 이메일 캠페인 지표를 보낼 수 있습니다. 이 워크플로는 매일 오전 4시에 트리거되며 데이터를 Analytics에 전송하는 데 24시간이 걸릴 수 있습니다.
 
 이 워크플로를 다시 시작하지 않아야 합니다. 그렇지 않으면 Analytics 결과를 왜곡할 수 있는 모든 이전 데이터가 다시 전송됩니다.
 
@@ -288,7 +288,7 @@ Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작
 
 ## 게재 추적 {#tracking-deliveries-in-adobe-campaign}
 
-Adobe Campaign에서 게재를 보낸 후 Adobe Experience Cloud가 사이트에서 활동을 추적할 수 있도록 하려면 게재 속성에서 일치하는 커넥터를 참조해야 합니다. 그렇게 하려면 다음 단계를 적용합니다.
+Adobe Campaign에서 게재를 보낸 후 [!DNL CX Enterprise]에서 사이트에서 활동을 추적할 수 있게 하려면 게재 속성에서 일치하는 커넥터를 참조해야 합니다. 그렇게 하려면 다음 단계를 적용합니다.
 
 1. 추적할 캠페인 게재를 엽니다.
 

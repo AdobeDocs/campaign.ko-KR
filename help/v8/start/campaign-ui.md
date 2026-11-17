@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 70%
+source-wordcount: '1226'
+ht-degree: 67%
 ---
 # 사용자 인터페이스 살펴보기 {#ui-client-console}
 
@@ -48,7 +48,7 @@ ht-degree: 70%
 
 * **API** - 더 많은 사용 사례를 해결하기 위해 SOAP 프로토콜을 통해 노출된 웹 서비스 API를 사용하여 외부 애플리케이션에서 시스템을 호출할 수 있습니다. [이 페이지에서](../dev/api.md) Campaign API에 대해 자세히 알아봅니다.
 
-* **Web 사용자 인터페이스** - v8.6.1 릴리스를 시작하는 Campaign v8 사용자는 이제 중앙 Adobe Experience Cloud 사용자 인터페이스를 통해 제공되는 웹 환경에 액세스할 수 있습니다. 그런 다음 웹 브라우저에서 Adobe Campaign에 연결할 수 있습니다. 이 새 인터페이스를 사용하면 주요 마케팅 작업을 생성, 관리 및 실행할 수 있습니다. 그러나 모든 Campaign 기능을 사용할 수는 없습니다. [자세히 알아보기](#ac-web-ui).
+* **웹 사용자 인터페이스** - v8.6.1 릴리스를 시작하는 Campaign v8 사용자는 이제 중앙 [!DNL Adobe CX Enterprise] 사용자 인터페이스를 통해 사용할 수 있는 웹 환경에 액세스할 수 있습니다. 그런 다음 웹 브라우저에서 Adobe Campaign에 연결할 수 있습니다. 이 새 인터페이스를 사용하면 주요 마케팅 작업을 생성, 관리 및 실행할 수 있습니다. 그러나 모든 Campaign 기능을 사용할 수는 없습니다. [자세히 알아보기](#ac-web-ui).
 
   >[!AVAILABILITY]
   >
@@ -75,7 +75,7 @@ Campaign에 연결되면 Adobe Campaign 홈 페이지에 액세스합니다. Cam
 
 >[!NOTE]
 >
->웹 사용자 인터페이스 카드가 표시되지 않으면 A[Adobe Experience Cloud 외부 계정](../config/external-accounts.md)에 **서버**, **테넌트**, **콜백 서버** 및 **연결 표시** 필드가 비어 있지 않은지 확인하십시오.
+>웹 사용자 인터페이스 카드가 표시되지 않으면 [Adobe Experience Cloud 외부 계정](../config/external-accounts.md)에 **서버**, **테넌트**, **콜백 서버** 및 **연결 표시** 필드가 비어 있지 않은지 확인하십시오.
 
 홈페이지에서 [캠페인 Campaign 컨트롤 패널](../config/self-service.md)에 액세스할 수도 있습니다.
 
@@ -144,7 +144,7 @@ The web access interface is similar to the console interface. From a browser, yo
 
 ## Campaign Web 사용자 인터페이스 {#ac-web-ui}
 
-v8.6.1 릴리스부터 Campaign v8 사용자는 중앙 Adobe Experience Cloud 사용자 인터페이스를 통해 사용할 수 있는 웹 환경에 액세스할 수 있습니다. Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능, 서비스에 빠르게 액세스할 수 있습니다.
+v8.6.1 릴리스를 시작하는 Campaign v8 사용자는 중앙 [!DNL CX Enterprise] 사용자 인터페이스를 통해 사용할 수 있는 웹 환경에 액세스할 수 있습니다. [!DNL CX Enterprise]은(는) Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능, 서비스에 빠르게 액세스할 수 있습니다.
 
 ![Adobe Campaign Web 사용자 인터페이스 홈 페이지](assets/ac-web-home.png)
 

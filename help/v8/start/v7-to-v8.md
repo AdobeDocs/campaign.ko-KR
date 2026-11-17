@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 76%
+source-wordcount: '732'
+ht-degree: 73%
 ---
 # [!DNL Campaign Classic] v7에서 [!DNL Campaign] v8로 전환{#gs-matrix}
 
@@ -91,7 +91,7 @@ Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입�
 
 ## Adobe ID를 사용하여 Campaign에 연결{#adobe-id}
 
-Campaign 사용자는 Adobe ID를 통해서만 연결합니다. 동일한 Adobe ID를 사용하여 모든 Adobe Experience Cloud 솔루션에 대해 하나의 계정과 연결된 모든 Adobe 플랜 및 제품을 유지합니다.
+Campaign 사용자는 Adobe ID를 통해서만 연결합니다. 모든 [!DNL Adobe CX Enterprise] 솔루션에 대해 단일 계정과 연결된 모든 Adobe 계획 및 제품을 유지하는 데 동일한 Adobe ID이 사용됩니다.
 
 [이 페이지](connect.md)에서 [!DNL Campaign]에 연결하는 방법을 알아보세요.
 

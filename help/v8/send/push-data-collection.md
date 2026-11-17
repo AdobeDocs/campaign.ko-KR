@@ -23,10 +23,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 3%
+source-wordcount: '1421'
+ht-degree: 2%
 ---
 # 수정된 푸시 알림 구성 {#push-notifications-config}
 
@@ -267,7 +267,7 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 ## 모바일 애플리케이션에 Campaign Classic 추가 {#campaign-mobile-app}
 
-Adobe Experience Platform 모바일 SDK는 모바일 앱에서 Adobe의 Experience Cloud 솔루션 및 서비스를 구동하는 데 도움이 됩니다. SDK 구성은 데이터 수집 UI를 통해 관리되므로 유연한 구성과 확장 가능한 규칙 기반 통합을 이용할 수 있습니다.
+Adobe Experience Platform Mobile SDK은 모바일 앱에서 [!DNL Adobe CX Enterprise] 솔루션과 서비스를 제공하는 데 도움이 됩니다. SDK 구성은 데이터 수집 UI를 통해 관리되므로 유연한 구성과 확장 가능한 규칙 기반 통합을 이용할 수 있습니다.
 
 [Adobe Developer 설명서에서 자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
 

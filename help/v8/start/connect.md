@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 94%
+source-wordcount: '1103'
+ht-degree: 90%
 ---
 # Adobe Campaign v8에 연결{#gs-ac-connect}
 
@@ -146,14 +146,14 @@ Campaign 관리자는 운영자를 만들고 사용자와 해당 자격 증명�
 
 ### Web 사용자 인터페이스 {#connect-web-ui}
 
-이번 릴리스부터 중앙 Adobe Experience Cloud 환경을 통해 사용할 수 있는 새로운 **Campaign Web 사용자 인터페이스**&#x200B;에 액세스할 수 있습니다. Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능, 서비스에 빠르게 액세스할 수 있습니다.
+Campaign v8.6 릴리스를 시작하면 중앙 [!DNL Adobe CX Enterprise] 환경을 통해 사용할 수 있는 새로운 **Campaign 웹 사용자 인터페이스**&#x200B;에 액세스할 수 있습니다. [!DNL CX Enterprise]은(는) Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능, 서비스에 빠르게 액세스할 수 있습니다.
 
 >[!AVAILABILITY]
 >
 >Campaign Web 사용자 인터페이스는 Adobe ID을 사용하여 Adobe Campaign에 연결하는 사용자만 사용할 수 있습니다. [Adobe IMS(ID 관리 시스템)](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}에 대해 자세히 알아보세요.
 >
 
-[이 페이지에서](campaign-ui.md#ac-web-ui) Adobe Experience Cloud에 연결하여 Adobe Campaign Web 인터페이스에 액세스하는 방법을 알아보십시오.
+[!DNL CX Enterprise]에 연결하고 이 페이지에서 [Adobe Campaign 웹 인터페이스에 액세스하는 방법](campaign-ui.md#ac-web-ui)을 알아보세요.
 
 [Adobe Campaign Web 사용자 인터페이스 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home){target="_blank"}에서 자세히 알아보십시오.
 
