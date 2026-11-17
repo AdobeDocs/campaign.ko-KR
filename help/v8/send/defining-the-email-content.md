@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2111'
 ht-degree: 2%
 ---
 # 이메일 콘텐츠 정의 {#defining-the-email-content}
@@ -85,6 +85,10 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >릴리스 8.9.3에는 외부 URL 허용 목록 업데이트가 포함되어 있습니다. 리소스가 중단 없이 계속 로드되도록 메시지 콘텐츠에 사용된 도메인이 인스턴스의 승인된 허용 목록에 추가되었는지 확인합니다. Campaign 관리자는 Campaign 컨트롤 패널을 사용하여 허용 목록에 추가된 URL을 추가하고 관리합니다. 단계는 [URL 권한 추가](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}를 참조하세요.
+
+>[!IMPORTANT]
+>
+>전자 메일 콘텐츠에 HTML `<base>` 태그를 사용하지 마십시오. 보안상의 이유로 이 태그는 지원되지 않으며, 콘텐츠를 콘텐츠 편집기에서 로드할 수 없습니다. 대신 링크 및 외부 리소스에 대한 절대 URL을 사용하십시오.
 
 메시지 콘텐츠는 게재 구성 창의 아래 섹션에 정의되어 있습니다.
 
@@ -175,7 +179,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
 성능 문제를 방지하기 위해 이메일에 포함된 이미지는 100KB를 초과할 수 없습니다. 기본적으로 설정된 이 제한은 `NmsDelivery_MaxDownloadedImageSize` 옵션에서 변경할 수 있습니다. 그러나 Adobe에서는 이메일 게재에 큰 이미지를 사용하지 않는 것이 좋습니다.
 
-[Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ko#delivery)의 Campaign 옵션 목록에 대해 자세히 알아보세요.
+[Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery)의 Campaign 옵션 목록에 대해 자세히 알아보세요.
 
 ### 이미지 유형 {#img-types}
 
@@ -186,7 +190,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
   공개 리소스는 Adobe Campaign 계층 구조의 **[!UICONTROL Resources > Online]** 노드를 통해 액세스할 수 있습니다. 라이브러리로 그룹화되고 이메일 메시지에 포함될 수 있지만, 캠페인이나 작업 또는 컨텐츠 관리에도 사용할 수 있습니다.
 
-* Adobe Experience Cloud와 공유된 에셋입니다. [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ko)를 참조하세요.
+* Adobe Experience Cloud와 공유된 에셋입니다. [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html)를 참조하세요.
 
 ### 이미지 삽입 및 관리 {#manage-images}
 

@@ -51,9 +51,9 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1055'
 ht-degree: 87%
 ---
 # Adobe Campaign 시작{#gs-ac-v8}
@@ -129,7 +129,7 @@ Adobe Campaign에서는 강력한 기본 보고 템플릿 외에도 게재, 캠�
 
 [이 섹션](../reporting/gs-reporting.md)에서 보고서 및 추적 기능에 대해 자세히 알아보십시오.
 
-## Adobe Experience Cloud 통합 {#adobe-experience-cloud-integrations}
+## [!DNL Adobe CX Enterprise] 통합 {#adobe-experience-cloud-integrations}
 
 Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 경험을 개인화할 수 있도록 만들어진 솔루션 세트를 결합할 수 있습니다. 예를 들어 Adobe Experience Manager, Adobe Analytics, Adobe Target 또는 Adobe Experience Cloud 트리거를 사용할 수 있습니다.
 

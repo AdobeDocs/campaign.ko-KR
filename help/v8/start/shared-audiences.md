@@ -24,12 +24,12 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 76%
+source-wordcount: '255'
+ht-degree: 61%
 ---
-# Adobe Experience Cloud 솔루션으로 대상자 공유{#shared-audiences}
+# [!DNL Adobe CX Enterprise] 솔루션과 대상 공유{#shared-audiences}
 
 
 옵션 1: AEP 소스 및 대상
@@ -38,9 +38,9 @@ ht-degree: 76%
 
 **Adobe Campaign**&#x200B;을 **People 핵심 서비스** 또는 Adobe Audience Manager와 통합할 수 있습니다. 그러면 다음을 수행할 수 있습니다:
 
-* 다양한 Adobe Experience Cloud 솔루션의 공유 대상자/세그먼트를 Adobe Campaign으로 가져옵니다. Adobe Campaign의 목록을 통해 대상자를 가져올 수 있습니다.
+* 다른 [!DNL CX Enterprise] 솔루션의 공유 대상/세그먼트를 Adobe Campaign으로 가져옵니다. Adobe Campaign의 목록을 통해 대상자를 가져올 수 있습니다.
 
-* Adobe Experience Cloud 공유 대상자 양식으로 목록을 내보냅니다. 이러한 대상자는 사용하고 있는 여러 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. 대상자는 워크플로에서 타겟팅한 후 전용 **[!UICONTROL Update shared audience]** 활동을 사용하여 내보낼 수 있습니다.
+* [!DNL CX Enterprise]개의 공유 대상 양식으로 목록을 내보냅니다. 이러한 대상은 사용하는 다른 [!DNL CX Enterprise] 솔루션에서 사용할 수 있습니다. 대상자는 워크플로에서 타겟팅한 후 전용 **[!UICONTROL Update shared audience]** 활동을 사용하여 내보낼 수 있습니다.
 
 이 통합은 두 가지 유형의 Adobe Experience Cloud ID를 지원합니다:
 

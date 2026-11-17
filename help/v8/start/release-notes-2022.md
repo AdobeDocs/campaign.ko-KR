@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1946'
-ht-degree: 88%
+source-wordcount: '1947'
+ht-degree: 87%
 ---
 # 2022 릴리스 정보{#2022-rn}
 
@@ -207,7 +207,7 @@ _2022년 5월 18일 목요일_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>이제 Campaign v8이 Adobe 개인 정보 보호 핵심 서비스와 통합됩니다. 개인 정보 보호 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로를 통해 Campaign에서 자동으로 처리됩니다.</p>
+<td> <p>이제 Campaign v8이 Adobe 개인 정보 보호 핵심 서비스와 통합됩니다. 개인 정보 보호 핵심 서비스에서 모든 Adobe CX Enterprise 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로우를 통해 Campaign에서 자동으로 처리됩니다.</p>
 <p>자세한 내용은 <a href="privacy.md">세부 설명서</a>를 참조하세요.</p>
 </td> 
 </tr> 

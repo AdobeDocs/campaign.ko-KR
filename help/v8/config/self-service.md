@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 91%
+source-wordcount: '516'
+ht-degree: 90%
 ---
 # Campaign 컨트롤 패널 {#ac-control-panel}
 
@@ -51,7 +51,7 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 
 ## 컨트롤 패널에는 어떻게 액세스하나요? {#ac-control-panel-access}
 
-컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 관리자에게만 액세스할 수 있습니다.
+Campaign 컨트롤 패널은 [!DNL Adobe CX Enterprise]에서 바로 사용할 수 있습니다. 관리자에게만 액세스할 수 있습니다.
 
 >[!IMPORTANT]
 >
