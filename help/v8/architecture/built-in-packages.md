@@ -26,9 +26,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: b37128ff4180befd5655c0c16b9ff0834235a84a
+source-git-commit: 9f70a309a882347a0df658d00c47127f31d28eb9
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '820'
 ht-degree: 15%
 ---
 # 기본 제공 패키지 {#built-in-packages}
@@ -65,7 +65,7 @@ Campaign에서는 두 가지 종류의 패키지를 사용합니다. 올바른 �
 | 트랜잭션 메시지 제어 및 실행(메시지 센터) | 정보 시스템의 이벤트에서 생성된 트리거 메시지를 관리하여 가용성을 높이고 로드 관리를 개선합니다. [자세히 알아보기](../send/transactional.md) |
 | LINE 채널 | LINE 채널을 통해 게재를 전송합니다. [자세히 알아보기](../send/line/line.md) |
 | DM 채널 | DM 채널을 통해 게재를 전송합니다. [자세히 알아보기](../send/direct-mail.md) |
-| 모바일 채널(SMS) | 모바일 채널(SMS)을 통해 게재를 전송합니다. [자세히 알아보기](../send/sms/sms.md) |
+| 모바일 채널(SMS) | SMS 커넥터 v2(8.9.1 이후 일반적으로 사용 가능)를 포함하여 모바일 채널(SMS)을 통해 게재를 전송합니다. [자세히 알아보기](../send/sms/sms.md) |
 | 모바일 앱 채널 | 앱을 통해 iOS 및 Android 디바이스에 개인화된 알림을 보냅니다. [자세히 알아보기](../send/push.md) |
 | 콘텐츠 관리자 | 반복 뉴스레터 또는 웹 사이트를 만든 다음 메시지의 유효성을 검사하고 게시합니다. [자세히 알아보기](../../automation/workflow/content-management.md) |
 | 온라인 설문 조사(설문 조사 관리자) | 온라인 양식을 만들고 관리하여 프로필 정보를 추가 또는 수정하거나, 구독 또는 구독 취소하거나, 경쟁에 참여합니다. [자세히 알아보기](../dev/surveys/about-surveys.md) |
