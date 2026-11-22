@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 30b0f5eda9c80b72af5c8574e01cec6965b05564
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1949'
 ht-degree: 0%
 ---
 # 데이터 패키지 작업{#data-packages}
@@ -59,6 +59,8 @@ ht-degree: 0%
 데이터 패키지를 사용하여 플랫폼 사용자 지정 설정 및 데이터를 내보내고 가져올 수 있습니다. 패키지에는 필터링되거나 필터링되지 않은 다양한 유형의 구성 및 구성 요소가 포함될 수 있습니다.
 
 Campaign 데이터 패키지에서 Adobe Campaign 데이터베이스의 엔터티가 XML 파일로 표시됩니다. 패키지에서 각 엔티티는 모든 데이터로 표시됩니다.
+
+이 페이지에서는 만들고 관리하는 **사용자 지정** 데이터 패키지에 대해 설명합니다. Campaign 기능을 제공하는 패키지는 Adobe에서 설치 및 관리하는 **기본 제공 패키지**&#x200B;입니다. [기본 제공 패키지](../architecture/built-in-packages.md)에서 자세히 알아보세요.
 
 **데이터 패키지**&#x200B;의 원칙은 데이터 구성을 내보내고 다른 Adobe Campaign 환경에 통합하는 것입니다. 이 [섹션](#data-package-best-practices)에서 일관된 데이터 패키지 집합을 유지 관리하는 방법을 알아봅니다.
 
@@ -302,11 +304,9 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 가져오기를 시작하려면 **[!UICONTROL Next]** 및 **[!UICONTROL Start]**&#x200B;을(를) 클릭하십시오.
 
-### 기본 제공 패키지 설치 {#install-a-standard-package}
+### 기본 제공 패키지 {#install-a-standard-package}
 
-기본 제공 패키지(예: 표준 패키지)는 Adobe Campaign이 구성될 때 설치됩니다. 사용 권한, 배포 모델 및 제공 제품에 따라 새로운 표준 패키지를 가져올 수 있습니다.
-
-설치할 수 있는 패키지를 확인하려면 사용권 계약을 참조하십시오.
+Adobe은 Campaign v8에 기본 제공 패키지를 설치하고 관리합니다. [기본 제공 패키지](../architecture/built-in-packages.md)에서 자세히 알아보세요.
 
 ## 데이터 패키지 모범 사례 {#data-package-best-practices}
 

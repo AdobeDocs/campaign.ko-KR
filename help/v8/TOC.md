@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: b37128ff4180befd5655c0c16b9ff0834235a84a
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 88%
+source-wordcount: '1087'
+ht-degree: 87%
 ---
 
 # Adobe Campaign v8(콘솔) 설명서 {#campaign-v8}
@@ -270,6 +270,7 @@ ht-degree: 88%
 + 아키텍처 {#architecture}
   + [글로벌 원칙](architecture/general-architecture.md)
   + [아키텍처 모델](architecture/architecture.md)
+  + {hide-from-toc}[기본 제공 패키지](architecture/built-in-packages.md)
   + [Campaign FDA 배포](architecture/fda-deployment.md)
   + 엔터프라이즈(FFDA) 배포 {#ffda}
     + [Campaign FFDA란?](architecture/enterprise-deployment.md)
