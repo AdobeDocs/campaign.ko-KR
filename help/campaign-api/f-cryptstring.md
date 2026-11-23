@@ -8,7 +8,7 @@ ht-degree: 6%
 
 > 경고:
 >
-> 이 함수는 완전히 더 이상 사용되지 않습니다. 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/technotes/gcm-functions#deprecated-functions-headding-anchor-depracated-functions)를 참조하세요.
+> 이 함수는 완전히 더 이상 사용되지 않습니다. 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/technotes/gcm-functions#deprecated-functions-headding-anchor-depracated-functions)를 참조하세요.
 
 인스턴스 키 또는 다른 키로 문자 문자열을 암호화합니다.
 

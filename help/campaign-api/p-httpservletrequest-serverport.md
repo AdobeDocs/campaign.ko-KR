@@ -17,7 +17,7 @@ serverPort
 예: 다음 URL의 serverPort:
 
 ```javascript
-http://adobe.com:8080/nms/test.jst
+http://adobe.com/kr:8080/nms/test.jst
 ```
 
 는 다음 문자열을 반환합니다.

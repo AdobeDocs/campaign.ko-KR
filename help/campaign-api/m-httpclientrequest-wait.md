@@ -27,7 +27,7 @@ wait (requests,waitAll)
 이 함수는 쿼리에 적용되지 않지만 HttpClientRequest 빈의 함수입니다. 예:
 
 ```javascript
-var req = new HttpClientRequest("http://www.adobe.com/")
+var req = new HttpClientRequest("http://www.adobe.com/kr/")
 req.complete = function(req, context, status) { logInfo(status) }
 req.execute(false, true)
 

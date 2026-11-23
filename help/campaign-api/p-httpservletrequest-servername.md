@@ -17,7 +17,7 @@ serverName
 예: 다음 URL의 serverName:
 
 ```javascript
-      http://adobe.com:8080/nms/test.jst?id=1234&param=dummy#aFragment
+      http://adobe.com/kr:8080/nms/test.jst?id=1234&param=dummy#aFragment
 ```
 
 는 다음 문자열을 반환합니다.
