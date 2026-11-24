@@ -336,7 +336,7 @@ ht-degree: 86%
       + [워크플로 제어](dev/api/controlling-a-workflow.md)
       + [신호 활동 트리거](dev/api/triggering-a-signal-activity.md)
 + API 설명서 {#api-documentation}
-  + [Campaign API 설명서 >](https://experienceleague.adobe.com/en/docs/campaign/campaign-api/home)
+  + [Campaign API 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign/campaign-api/home)
 + 추가 리소스 {#resources}
   + [Campaign 기술 노트 >](https://experienceleague.adobe.com/ko/docs/campaign/technotes-ac/technotes-home)
   + [Campaign 웹 사용자 인터페이스 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home)
