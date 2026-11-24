@@ -24,7 +24,7 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 프레젠테이션 규칙 개요 {#presentation-rules-overview}
 
-상호 작용을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 제안의 흐름을 제어할 수 있습니다. 상호 작용에만 해당되는 이러한 규칙은 유형화 규칙입니다. 수신자에게 이미 제안된 이력을 기반으로 오퍼를 제외할 수 있습니다. 환경에서 참조됩니다
+상호 작용을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 제안의 흐름을 제어할 수 있습니다. 상호 작용에만 해당되는 이러한 규칙은 유형화 규칙입니다. 수신자에게 이미 제안된 이력을 기반으로 오퍼를 제외할 수 있습니다. 환경에서 참조됩니다.
 
 ## 오퍼 표시 규칙 만들기 및 참조 {#creating-and-referencing-an-offer-presentation-rule}
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ### 애플리케이션 기준 {#application-criteria-}
 
-**[!UICONTROL General]** 탭에서 사용할 수 있는 응용 프로그램 조건을 사용하여 프레젠테이션 규칙이 적용될 오퍼를 지정할 수 있습니다. 이렇게 하려면 아래 설명된 대로 쿼리를 만들고 관련 오퍼를 선택해야 합니다.
+**[!UICONTROL General]** 탭에서 사용할 수 있는 적용 조건을 사용하여 프레젠테이션 규칙이 적용될 오퍼를 지정할 수 있습니다. 이렇게 하려면 아래 설명된 대로 쿼리를 만들고 관련 오퍼를 선택해야 합니다.
 
 1. 유형화 규칙에서 **[!UICONTROL Edit the rule application conditions...]** 링크를 클릭하여 쿼리를 만듭니다.
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->비표준 테이블을 사용할 수도 있습니다. 특정 타겟팅 차원을 사용하려면 타겟 매핑을 사용하여 전용 환경뿐만 아니라 테이블을 만들어야 합니다. 자세한 내용은 [오퍼 환경 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+>비표준 테이블을 사용할 수도 있습니다. 특정 타겟팅 차원을 사용하려면 타겟 매핑을 사용하여 전용 환경뿐만 아니라 테이블을 만들어야 합니다. 자세한 내용은 [오퍼 환경 만들기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
 ### 기간 {#period}
 

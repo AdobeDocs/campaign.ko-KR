@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하여 수집하고 분석할 수 있습니다.
 
-다음 예제에서는 온라인 설문 조사에 대한 답변을 수집하여 피벗 테이블에 표시하려고 합니다
+다음 예제에서는 온라인 설문 조사에 대한 답변을 수집하여 피벗 테이블에 표시하려고 합니다.
 
 다음 단계를 적용합니다.
 
@@ -93,7 +93,7 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
 ## 2단계 - 큐브, 큐브 측정 단위 및 큐브 표시기 만들기 {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-그런 다음 큐브를 만들고 해당 측정 단위를 구성할 수 있습니다. 이 측정 단위는 보고서에 표시될 지표를 만드는 데 사용됩니다. 큐브를 만들고 구성하는 방법에 대한 자세한 내용은 [큐브 정보](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}를 참조하세요.
+그런 다음 큐브를 만들고 해당 측정 단위를 구성할 수 있습니다. 이 측정 단위는 보고서에 표시될 지표를 만드는 데 사용됩니다. 큐브를 만들고 구성하는 방법에 대한 자세한 내용은 [큐브 정보](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}를 참조하세요.
 
 이 예에서 큐브는 이전에 만든 워크플로우에서 제공한 목록의 데이터를 기반으로 합니다.
 

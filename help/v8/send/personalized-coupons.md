@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 1%
@@ -155,7 +155,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->배달 중 부족한 쿠폰을 관리하는 방법에 대한 지침은 [부족한 쿠폰 관리](#managing-insufficient-coupons)를 참조하세요.
+>배달 중 부족한 쿠폰을 관리하는 방법에 대한 지침은 [부족한 쿠폰 관리](#managing-insufficient-coupons)를 참조하십시오.
 
 게재가 성공했는지 확인하려면:
 
@@ -170,7 +170,7 @@ ht-degree: 1%
 >
 >기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../dev/datamodel.md#ootb-profiles).
 >
->이 페이지[&#128279;](../dev/custom-recipient.md)에서 사용자 지정 받는 사람 테이블 을(를) 사용하는 방법을 알아보세요.
+>이 페이지](../dev/custom-recipient.md)에서 사용자 지정 받는 사람 테이블 [을(를) 사용하는 방법을 알아보세요.
 
 ## 부족한 쿠폰 관리 {#managing-insufficient-coupons}
 

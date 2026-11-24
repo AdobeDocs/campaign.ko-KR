@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 9%
@@ -54,7 +54,7 @@ ht-degree: 9%
 >
 >* 중간 소싱에서는 이 옵션을 설정하지 않아야 합니다.
 >
->* [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ko#smtp-relay){target="_blank"}에서 SMTP 서버 구성에 대해 자세히 알아보세요.
+>* [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}에서 SMTP 서버 구성에 대해 자세히 알아보세요.
 
 ## 예약된 일괄 처리를 사용해 보내기 {#sending-using-multiple-waves}
 
@@ -103,7 +103,7 @@ ht-degree: 9%
 
 ### 예약된 일괄 처리 모니터링 {#monitor-waves}
 
-전송을 모니터링하려면 게재 로그를 찾습니다. [이 페이지](send.md) 보기
+전송을 모니터링하려면 게재 로그를 찾습니다. [이 페이지](send.md)를 참조하십시오.
 
 이미 처리된 웨이브에서 전송된 게재(**[!UICONTROL Sent]** 상태)와 나머지 웨이브에서 전송할 게재(**[!UICONTROL Pending]** 상태)를 볼 수 있습니다.
 

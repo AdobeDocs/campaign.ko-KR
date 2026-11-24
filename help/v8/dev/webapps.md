@@ -27,7 +27,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 >
 >가장 일반적인 사용 사례의 경우, Campaign 웹 사용자 인터페이스에서 랜딩 페이지를 만들어 손쉽게 디자인하고 게시할 수 있습니다. 이 섹션에 설명된 대로 클라이언트 콘솔에서 만든 랜딩 페이지는 더 많은 설정을 제공하고 더 많은 고급 사용 사례를 다룹니다.
 >
->[Campaign 웹 사용자 인터페이스의 랜딩 페이지에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[Campaign 웹 사용자 인터페이스의 랜딩 페이지에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 Adobe Campaign은 **웹 양식**&#x200B;을 정의 및 게시하기 위한 그래픽 모듈을 통합하여 입력 및 선택 필드가 있는 페이지를 만들고 데이터베이스의 데이터를 포함할 수 있습니다. 이를 통해 사용자가 액세스하여 정보를 보거나 입력할 수 있는 웹 페이지를 디자인하고 게시할 수 있습니다.
 

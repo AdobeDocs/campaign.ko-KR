@@ -25,7 +25,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1119'
 ht-degree: 5%
@@ -34,7 +34,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->리치 푸시 알림을 디자인하기 전에 먼저 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)를 참조하세요.
+>리치 푸시 알림을 디자인하기 전에 먼저 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)를 참조하세요.
 
 ## iOS 알림의 콘텐츠 정의 {#push-message}
 
@@ -153,7 +153,7 @@ ht-degree: 5%
 
    ![](assets/rich_push_ios_timer_1.png)
 
-1. 메시지를 작성하려면 **[!UICONTROL Title]**,**[!UICONTROL Expanded title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
+1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Expanded title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
    알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
 

@@ -18,9 +18,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '162'
 ht-degree: 1%
 ---
 # 쪽 매기기
@@ -82,4 +82,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->테이블 크기가 큰 것으로 간주되는 레코드 수는 Campaign Standard **XtkBigTableThreshold** 옵션에 정의되어 있습니다. 기본값은 100,000 레코드입니다.
+>테이블이 큰 것으로 간주되는 레코드 수는 Campaign Standard **XtkBigTableThreshold** 옵션에서 정의됩니다. 기본값은 100,000 레코드입니다.

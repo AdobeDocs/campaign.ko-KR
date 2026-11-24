@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '3848'
 ht-degree: 4%
@@ -453,7 +453,7 @@ Adobe Campaign을 사용하면 하나 이상의 파일에서 텍스트, CSV, TAB
 
 ![](assets/s_ncs_user_export_wizard08.png)
 
-그런 다음 가져오기 작업의 실행을 모니터링할 수 있습니다.
+그런 다음 내보내기 작업 실행을 모니터링할 수 있습니다.
 
 
 ## 웹 앱을 통해 프로필 수집

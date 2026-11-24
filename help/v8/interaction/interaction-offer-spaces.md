@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 1%
+ht-degree: 2%
 ---
 # 오퍼 공간 만들기{#creating-offer-spaces}
 
@@ -49,7 +49,7 @@ HTML 렌더링은 렌더링 기능을 통해 만들어집니다. 렌더링 함�
 
    ![](assets/offer_space_create_002.png)
 
-1. **[!UICONTROL Enable unitary mode]** 옵션 확인
+1. **[!UICONTROL Enable unitary mode]** 옵션을 선택합니다.
 
 1. **[!UICONTROL Content field]** 창으로 이동하여 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 

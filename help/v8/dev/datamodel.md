@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 5%
@@ -47,7 +47,7 @@ Adobe Campaign 데이터 모델의 기본 구조는 다음과 같이 설명할 �
 
 * **수신자 테이블**: 데이터 모델은 기본적으로 수신자 테이블(**nmsRecipient**)인 기본 테이블을 사용합니다. 이 표에는 모든 마케팅 프로필이 저장됩니다. [이 섹션](#ootb-profiles)에서 받는 사람 테이블에 대해 자세히 알아보세요.
 
-* **게재 테이블**: 이 테이블은 게재 작업당 하나의 레코드를 저장합니다. 일반적으로 게재 테이블(**NmsDelivery**)입니다. 이 테이블의 레코드는 게재 작업 또는 게재 템플릿을 나타냅니다. 여기에는 target, 콘텐츠 등 게재 수행에 필요한 모든 매개 변수가 포함되어 있습니다. 게재 진행 상황을 반영하도록 각 레코드가 여러 번 업데이트됩니다
+* **게재 테이블**: 이 테이블은 게재 작업당 하나의 레코드를 저장합니다. 일반적으로 게재 테이블(**NmsDelivery**)입니다. 이 테이블의 레코드는 게재 작업 또는 게재 템플릿을 나타냅니다. 여기에는 target, 콘텐츠 등 게재 수행에 필요한 모든 매개 변수가 포함되어 있습니다. 게재 진행 상황을 반영하도록 각 레코드가 여러 번 업데이트됩니다.
 
 * **로그 테이블**: 이 테이블은 캠페인 실행과 관련된 모든 로그를 저장합니다.
 
@@ -87,7 +87,7 @@ Adobe Campaign의 기본 제공 수신자 테이블(nmsrecipient)은 데이터 �
 
 [이 섹션](extend-schema.md)에서 기존 스키마를 확장하는 방법을 알아보세요.
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ko#extending-a-table){target="_blank"}에서 기본 제공 수신자 테이블 확장의 예를 살펴봅니다.
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}에서 기본 제공 수신자 테이블 확장의 예를 살펴봅니다.
 
 비즈니스 또는 기능 요구 사항에 더 잘 부합하도록 다른 수신자 테이블을 사용할 수도 있습니다. 이 메서드는 제한 사항이 있으며 [이 섹션](custom-recipient.md)에 설명되어 있습니다.
 

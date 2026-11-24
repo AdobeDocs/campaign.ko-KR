@@ -21,9 +21,9 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '625'
 ht-degree: 0%
 ---
 # 오퍼 승인 및 활성화{#approving-and-activating-an-offer}
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 오퍼 콘텐츠를 승인하려면 다음 단계를 적용합니다.
 
-1. **[!UICONTROL Approval]** 단추를 클릭하고 **[!UICONTROL Approve content]**&#x200B;을(를) 팝업으로 선택합니다.
+1. **[!UICONTROL Approval]** 단추를 클릭하고 팝업에서 **[!UICONTROL Approve content]**&#x200B;을(를) 선택합니다.
 
    ![](assets/offer_validate_002.png)
 

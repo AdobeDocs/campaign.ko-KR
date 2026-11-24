@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '624'
 ht-degree: 2%
 ---
 # 감사 추적{#audit-trail}
@@ -58,9 +58,9 @@ Adobe Campaign의 **[!UICONTROL Audit trail]** 기능은 인스턴스 내의 중
   * 일시 정지
   * 정지
   * 다시 시작
-  * 정리 - 작업 삭제 내역에 해당합니다.
+  * 정리 - 작업 삭제 내역과 같음
   * 시뮬레이션 모드에서 시작 작업과 동일한 시뮬레이션
-  * 지금 대기 중인 작업 실행 작업과 동일한 절전 모드 해제
+  * 지금 실행 보류 중인 작업 실행과 같은 절전 모드 해제
   * 무조건 정지
 
   워크플로우에 대한 자세한 내용은 이 [페이지](../../automation/workflow/about-workflows.md)를 참조하세요.
@@ -69,7 +69,7 @@ Adobe Campaign의 **[!UICONTROL Audit trail]** 기능은 인스턴스 내의 중
 
 * **옵션 감사 추적**&#x200B;을 통해 활동 및 옵션에 대한 마지막 수정 사항을 확인할 수 있습니다.
 
-  옵션에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)를 참조하세요.
+  옵션에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)를 참조하세요.
 
 * **게재 감사 추적**&#x200B;을 통해 활동 및 게재에 대한 마지막 수정 사항을 확인할 수 있습니다.
 
