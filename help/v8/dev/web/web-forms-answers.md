@@ -153,4 +153,4 @@ Professional 옵션을 선택하면 가시성 조건으로 표현된 대로 상�
 >
 >가능한 작업은 **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**&#x200B;입니다.\
 >연산자의 기본 폴더는 연산자에 쓰기 권한이 있는 첫 번째 폴더입니다.\
->[이 섹션](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}을 참조하십시오.
+>[이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}을 참조하십시오.
