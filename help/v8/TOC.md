@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: b37128ff4180befd5655c0c16b9ff0834235a84a
+source-git-commit: ffa29306eb4402ed20c7d04bdbbaffd4dde5bfe4
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 87%
+source-wordcount: '1100'
+ht-degree: 86%
 ---
 
 # Adobe Campaign v8(콘솔) 설명서 {#campaign-v8}
@@ -334,6 +334,8 @@ ht-degree: 87%
     + 워크플로 관리 {#managing-workflows}
       + [워크플로 제어](dev/api/controlling-a-workflow.md)
       + [신호 활동 트리거](dev/api/triggering-a-signal-activity.md)
++ API 설명서 {#api-documentation}
+  + [Campaign API 설명서 >](https://experienceleague.adobe.com/en/docs/campaign/campaign-api/home)
 + 추가 리소스 {#resources}
   + [Campaign 기술 노트 >](https://experienceleague.adobe.com/ko/docs/campaign/technotes-ac/technotes-home)
   + [Campaign 웹 사용자 인터페이스 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home)

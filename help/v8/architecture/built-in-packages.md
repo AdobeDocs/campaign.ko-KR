@@ -26,9 +26,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 9f70a309a882347a0df658d00c47127f31d28eb9
+source-git-commit: a2ca220e4be9dfb4a90465b69dd08a3552040a07
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '821'
 ht-degree: 15%
 ---
 # 기본 제공 패키지 {#built-in-packages}
@@ -57,7 +57,7 @@ Campaign에서는 두 가지 종류의 패키지를 사용합니다. 올바른 �
 
 | 패키지 | 설명 |
 |---|---|
-| 게재 | 게재 및 메시지를 보낼 때 발생하는 문제를 모니터링합니다. [자세히 알아보기](../start/monitor.md) |
+| 게재 | Adobe Campaign의 필수 코어 패키지. 게재를 보낼 수 있습니다. [자세히 알아보기](../start/gs-message.md) |
 | 마케팅 캠페인(Campaign) | 커뮤니케이션 및 마케팅 캠페인을 정의, 최적화, 실행 및 분석합니다. [자세히 알아보기](../start/campaigns.md) |
 | 마케팅 리소스(MRM) | 작업, 예산 및 마케팅 리소스의 관리 및 추적을 사용하여 공동 작업 모드에서 마케팅 작업을 제어합니다. [자세히 알아보기](../../automation/mrm/about-marketing-resource-management.md) |
 | 오퍼 엔진(상호 작용) | 하나 또는 여러 개의 오퍼를 조정하여 연락처와의 상호 작용 중에 실시간으로 응답합니다. [자세히 알아보기](../interaction/interaction.md) |

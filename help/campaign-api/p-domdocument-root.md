@@ -1,0 +1,33 @@
+---
+source-git-commit: ffa29306eb4402ed20c7d04bdbbaffd4dde5bfe4
+workflow-type: tm+mt
+source-wordcount: '35'
+ht-degree: 34%
+---
+# 루트
+
+문서의 루트 요소입니다. 이 속성은 [documentElement](p-domdocument-documentelement.md)과(와) 동의어입니다.
+
+```text
+root
+```
+
+## 기능
+
+**클래스의 속성:** [DOMDocument](c-domdocument.md)
+
+**읽기 전용:**
+
+예
+
+**다음 위치에서 사용 가능:**
+
+* 콘텐츠 관리
+* 게재 속성
+* 게재 메시지
+* 유형화 규칙
+* 가져오기
+* JSSP
+* SOAP 메서드
+* 웹 앱
+* 워크플로
