@@ -26,9 +26,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: a2ca220e4be9dfb4a90465b69dd08a3552040a07
+source-git-commit: 87e9b7ceb3c082407ac4534e0909c6f7db76e62a
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '811'
 ht-degree: 15%
 ---
 # 기본 제공 패키지 {#built-in-packages}
@@ -43,7 +43,6 @@ Campaign에서는 두 가지 종류의 패키지를 사용합니다. 올바른 �
 |---|---|---|
 | 목적 | 채널, 통합 및 추가 기능과 같은 Campaign 기능을 제공합니다. | 자체 구성 및 데이터를 내보내고 가져옵니다(예: 스테이징에서 프로덕션 환경으로). |
 | 누가 관리합니까 | Adobe이 설치하고 관리합니다. Managed Cloud Services를 사용하면 설치된 기본 제공 패키지를 수정할 수 없습니다. | 만들고 내보내고 가져옵니다. |
-| 자세한 내용 | 이 페이지입니다. | [데이터 패키지를 사용하여 작업](../dev/packages.md) |
 
 ## 설치된 패키지 확인 {#check-installed-packages}
 
