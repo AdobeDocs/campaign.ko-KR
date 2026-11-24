@@ -26,9 +26,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 7%
 ---
 # SMS 게재 대상 선택 {#sms-audience}
@@ -43,7 +43,7 @@ ht-degree: 7%
 
 1. 게재 편집기에서 **[!UICONTROL To]** 링크를 클릭합니다. **[!UICONTROL Select target]** 창이 열립니다.
 
-1. 대상자가 Adobe Campaign 데이터베이스에 저장되어 있으므로 **[!UICONTROL Main target]** 탭에서 **[!UICONTROL Defined in the database]** 옵션을 선택하십시오.
+1. 대상이 Adobe Campaign 데이터베이스에 저장되므로 **[!UICONTROL Main target]** 탭에서 **[!UICONTROL Defined in the database]** 옵션을 선택하십시오.
 
    ![](assets/audience_to.png){zoomable="yes"}
 
@@ -76,11 +76,11 @@ ht-degree: 7%
 
    ![](assets/audience_finish.png){zoomable="yes"}
 
-   **[!UICONTROL Add]** 단추를 다시 클릭하면 필요한 만큼 대상 모집단을 추가할 수 있습니다. 레이블 뒤에 있는 십자선을 클릭하여 일부 기호를 삭제할 수도 있습니다.
+   **[!UICONTROL Add]** 단추를 다시 클릭하여 필요한 만큼 대상 모집단을 추가할 수 있습니다. 레이블 뒤에 있는 십자선을 클릭하여 일부 기호를 삭제할 수도 있습니다.
 
 ## 외부 파일의 대상 {#external-audience}
 
-Adobe Campaign을 사용하여 데이터베이스가 아닌 외부 파일에 있는 대상자에 대해 게재를 보낼 수 있습니다.
+Adobe Campaign을 사용하여 데이터베이스가 아닌 외부 파일에 있는 대상에 게재를 보낼 수 있습니다.
 
 다음은 이에 대한 단계입니다.
 

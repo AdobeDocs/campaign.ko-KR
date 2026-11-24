@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '580'
 ht-degree: 0%
 ---
 # 중간 소싱 인프라의 SMS {#sms-mid}
@@ -55,7 +55,7 @@ SMS 연산자를 만들려면 아래 단계를 수행합니다.
 1. **[!UICONTROL Administration]** > **[!UICONTROL Access management]** > **[!UICONTROL Operators]**&#x200B;에서 **[!UICONTROL New]**&#x200B;을(를) 클릭하고 열린 새 창에서 양식을 채우십시오.
 
    * **[!UICONTROL Name (login)]** 및 **[!UICONTROL Label]**&#x200B;은(는) 필수입니다.
-   * 암호는 필수가 아니지만 보안을 위해 적극 권장합니다.
+   * 암호는 필수가 아니지만 보안을 위해 매우 권장됩니다.
 
    이름(로그인)은 나중에 중간 서버에서 SMPP 외부 계정의 이름을 지정하는 데 사용됩니다.
 

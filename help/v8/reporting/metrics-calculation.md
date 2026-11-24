@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3106'
-ht-degree: 4%
+source-wordcount: '3132'
+ht-degree: 3%
 ---
 # 기본 제공 보고서 지표 계산 {#metrics-calculation}
 
@@ -809,7 +809,7 @@ ht-degree: 4%
 
 이 보고서는 배달(nms:delivery) 및 **[!UICONTROL Consolidated tracking]**(nms:trackingStats) 테이블을 기반으로 합니다.
 
-이 보고서에는 메시지 콘텐츠(HTML 및/또는 텍스트)와 각 링크의 링크 클릭 비율이 표시됩니다. 개인화 블록 구독 취소 링크 및 미러 페이지 링크는 누적된 총 클릭 수에서 고려되지만 보고서에 표시되지 않습니다.
+이 보고서에는 메시지 콘텐츠(HTML 및/또는 텍스트)와 각 링크의 링크 클릭 비율이 표시됩니다. 개인화 블록, 구독 취소 링크 및 미러 페이지 링크는 누적된 총 클릭 수에서 고려되지만 보고서에 표시되지 않습니다.
 
 ## 추적 통계 {#tracking-statistics-1}
 
@@ -934,11 +934,13 @@ ht-degree: 4%
 
 ## 표시기 동기화 {#indicator-synchronization}
 
+**처리됨** 지표는 지표가 업데이트되는 동안 전송할 메시지 수를 일시적으로 초과할 수 있습니다(예: 다시 시도하거나 연결된 게재).
+
 특정 표시기에 대해 비동기화 또는 불일치가 발생하는 경우 Adobe Campaign 탐색기에서 관련 게재를 선택하고 마우스 오른쪽 단추를 클릭한 다음 **[!UICONTROL Action>Recompute delivery and tracking indicators]**&#x200B;을(를) 선택합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
 ## 열람 추적 {#tracking-opens-}
 
-Adobe Campaign에서 메시지 열기를 감지하려면 수신자가 이메일의 이미지를 다운로드해야 합니다. HTML 및 다중 파트/대체 이메일에는 열람된 메시지를 감지할 수 있는 0픽셀 이미지가 포함되어 있습니다. 텍스트 포맷의 메시지에는 이미지가 포함되어 있지 않으므로 열람되었는지 여부를 감지할 수 없습니다. 메시지 열람 수를 기준으로 계산된 값은 이미지 표시와 관련된 오차 범위로 인해 언제까지나 추정치에 불과합니다.
+Adobe Campaign에서 메시지 열기를 감지하려면 수신자가 이메일의 이미지를 다운로드해야 합니다. HTML 및 다중 파트/대체 이메일에는 열려 있는 메시지를 감지할 수 있는 0픽셀 이미지가 포함되어 있습니다. 텍스트 포맷의 메시지에는 이미지가 포함되어 있지 않으므로 열람되었는지 여부를 감지할 수 없습니다. 메시지 열람 수를 기준으로 계산된 값은 이미지 표시와 관련된 오차 범위로 인해 언제까지나 추정치에 불과합니다.
 
 ## 타겟팅된 사람/수신자 {#targeted-persons---recipients}
 

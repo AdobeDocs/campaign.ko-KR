@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '644'
 ht-degree: 8%
 ---
 # 워크플로 시작{#gs-with-workflows}
@@ -52,7 +52,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->Adobe Campaign 웹 사용자 인터페이스에는 워크플로우에 대한 재설계된 캔버스가 함께 제공되므로 보다 동적이고 개인화된 고객 여정을 만들 수 있습니다. 웹 UI용 워크플로에 대한 자세한 내용은 [Adobe Campaign 웹 UI 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/wf/gs-workflows){target=_blank}를 참조하세요.
+>Adobe Campaign 웹 여정 인터페이스에는 워크플로우에 대한 재설계된 캔버스가 함께 제공되므로 보다 역동적이고 개인화된 고객 사용자를 만들 수 있습니다. 웹 UI용 워크플로에 대한 자세한 내용은 [Adobe Campaign 웹 UI 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/wf/gs-workflows){target=_blank}를 참조하세요.
 
 
 ## 워크플로 디자인 및 사용 {#gs-ac-wf}
@@ -65,7 +65,7 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기, 메시지
 
 * [워크플로 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko){target="_blank"}
 
-* [기본 제공 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ko){target="_blank"}
+* [내장 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ko){target="_blank"}
 
 * [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}
 
@@ -142,7 +142,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 ## 반복 캠페인 설정
 
-워크플로우를 실행할 때마다 반복 워크플로우를 디자인하고 새 게재 인스턴스를 만듭니다. 예를 들어 워크플로우가 일주일에 한 번 실행되도록 디자인되면 1년 후 52회 게재가 됩니다. 즉, 로그가 각 게재 인스턴스에 의해 구분됩니다.
+반복 워크플로우를 디자인하고 워크플로우가 실행될 때마다 새 게재 인스턴스를 만듭니다. 예를 들어 워크플로우가 일주일에 한 번 실행되도록 디자인되면 1년 후 52회 게재가 됩니다. 즉, 로그가 각 게재 인스턴스에 의해 구분됩니다.
 
 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=ko){target="_blank"}에서 반복 캠페인을 만드는 방법을 알아보세요.
 

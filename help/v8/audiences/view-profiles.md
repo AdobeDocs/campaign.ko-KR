@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '456'
 ht-degree: 2%
 ---
 # 기존 프로필 보기 {#view-profiles}
@@ -66,7 +66,7 @@ Adobe Campaign 데이터베이스에 저장된 수신자에 액세스하려면 *
 
 * **[!UICONTROL General]**(모든 일반 프로필 데이터). 특히 성, 이름, 이메일 주소, 이메일 형식 등을 포함하고 있다.
 
-  이 탭에는 프로필에 대한 **옵트아웃** 플래그도 저장됩니다. **[!UICONTROL No longer contact (by any channel)]** 옵션을 선택하면 프로필이 차단 목록에 추가하다에 저장됩니다. 예를 들어 수신자가 뉴스레터에서 구독 취소 링크를 클릭한 경우 이 정보가 연락처 데이터에 추가됩니다. 이러한 수신자는 더 이상 어떤 채널(이메일, DM 등)에서도 타겟팅되지 않습니다. 자세한 정보는 이 [페이지](../send/quarantines.md)를 참조하십시오.
+  이 탭에는 프로필에 대한 **옵트아웃** 플래그도 저장됩니다. **[!UICONTROL No longer contact (by any channel)]** 옵션을 선택하면 프로필이 차단 목록에 추가하다에 있습니다. 예를 들어 수신자가 뉴스레터에서 구독 취소 링크를 클릭한 경우 이 정보가 연락처 데이터에 추가됩니다. 이러한 수신자는 더 이상 채널(이메일, DM 등)을 타겟팅하지 않습니다. 자세한 정보는 이 [페이지](../send/quarantines.md)를 참조하십시오.
 
 * **연락처 정보**(선택한 프로필의 DM 주소 포함).
 

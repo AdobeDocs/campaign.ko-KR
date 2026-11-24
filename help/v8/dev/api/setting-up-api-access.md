@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 6%
+ht-degree: 3%
 ---
 # API 액세스 설정 {#setting-up-api-access}
 
@@ -49,7 +49,7 @@ Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다
 
    >[!IMPORTANT]
    >
-   >현재 JWT(JSON 웹 토큰)의 지원 종료를 준비하고 있으며, 이를 OAuth로 대체하는 과정이 진행 중입니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행됩니다. 서비스 계정(JWT) 자격 증명이 더 이상 사용되지 않는 것으로 표시되었으며, 2025년 1월 27일까지 계속 작동합니다. 따라서 2025년 1월 27일 이전에 새 OAuth 서버 간 자격 증명을 사용하려면 애플리케이션이나 통합을 마이그레이션해야 합니다. OAuth 인증이 선호됩니다. 다음 페이지에서 JWT 인증에서 OAuth 인증으로 마이그레이션할 모든 요소를 찾을 수 있습니다.
+   >JWT(JSON 웹 토큰)는 현재 사용 중단 상태이며 OAuth로 대체되고 있습니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행됩니다. 서비스 계정(JWT) 자격 증명이 더 이상 사용되지 않는 것으로 표시되었습니다. 2025년 1월 27일까지 계속 작동합니다. 따라서 2025년 1월 27일 이전에 새 OAuth 서버 간 자격 증명을 사용하려면 애플리케이션이나 통합을 마이그레이션해야 합니다. OAuth 인증이 선호됩니다. 다음 페이지에서 JWT 인증에서 OAuth 인증으로 마이그레이션할 모든 요소를 찾을 수 있습니다.
    >* [마이그레이션](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
    >* [구현](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
    >* [사용 중단 JWT FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)

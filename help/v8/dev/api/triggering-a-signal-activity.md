@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '322'
 ht-degree: 2%
 ---
 # 신호 활동 트리거 {#triggering-a-signal-activity}
@@ -35,7 +35,7 @@ Campaign Standard API를 사용하면 워크플로우를 호출하는 **외부 �
 
 >[!NOTE]
 >
->외부 신호 활동은 10분보다 더 자주 트리거할 수 없으며 대상 워크플로우가 이미 실행 중이어야 합니다.
+>외부 신호 활동은 10분보다 더 자주 트리거될 수 없으며 대상 워크플로우가 이미 실행 중이어야 합니다.
 
 워크플로우를 트리거하려면 아래 단계를 수행합니다.
 

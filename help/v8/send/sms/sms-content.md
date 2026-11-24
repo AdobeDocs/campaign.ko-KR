@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 1%
@@ -42,7 +42,7 @@ SMS 게재의 콘텐츠를 구성하려면:
 
    ![](assets/sms_content.png){zoomable="yes"}
 
-1. 개인화 필드 삽입(예: 이름 추가) 또는 사전 정의된 개인화 블록 삽입(예: 인사 추가)을 통해 메시지를 개인화할 수 있습니다. 개인화 버튼을 클릭하여 다음 항목을 추가합니다.
+1. 개인화 필드 삽입(예: 이름 추가)이나 사전 정의된 개인화 블록 삽입(예: 인사 말 추가)을 통해 메시지를 개인화할 수 있습니다. 개인화 버튼을 클릭하여 다음 항목을 추가합니다.
 
    ![](assets/sms_perso.png){zoomable="yes"}
 

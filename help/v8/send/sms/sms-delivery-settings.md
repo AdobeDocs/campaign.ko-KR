@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '772'
 ht-degree: 1%
 ---
 # SMS 게재 설정 {#sms-settings}
@@ -42,7 +42,7 @@ SMS 게재에 필요한 기술 설정은 다음과 같습니다.
 * 메시지 라우팅을 위한 SMPP 외부 계정입니다. [자세히 알아보기](smpp-external-account.md#smpp-connection-settings)
 * SMS 탭을 구성합니다. [방법 알아보기](#sms-tab)
 
-각 SMS 게재 만들기에 대한 설정을 수행하지 않도록 게재 템플릿에서 이러한 모든 것을 설정할 수 있습니다.
+각 SMS 게재 만들기에 대한 설정이 수행되지 않도록 게재 템플릿에서 이러한 모든 설정을 수행할 수 있습니다.
 
 ## SMS 탭 구성 {#sms-tab}
 

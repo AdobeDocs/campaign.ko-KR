@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 78%
 ---
 # Campaign 구성 요소 및 프로세스 이해 {#components-and-processes}
 
@@ -63,7 +63,7 @@ Adobe Campaign 구성 요소 및 글로벌 아키텍처는 아래에 설명되�
 
 * 씬 클라이언트
 
-  Adobe Campaign 웹 액세스 기능을 사용하면 HTML 사용자 인터페이스를 통해 웹 브라우저에서 일부 Campaign 기능에 액세스할 수 있습니다. 이 웹 인터페이스를 사용하여 보고서 액세스, 메시지 제어 및 검증, 모니터링 대시보드 액세스 등이 가능합니다.  [Campaign 웹 액세스에 대해 자세히 알아보기](../start/connect.md).
+  Adobe Campaign 웹 액세스 기능을 사용하면 HTML 사용자 인터페이스를 사용하여 웹 브라우저에서 Campaign 기능의 하위 집합에 액세스할 수 있습니다. 이 웹 인터페이스를 사용하여 보고서 액세스, 메시지 제어 및 검증, 모니터링 대시보드 액세스 등이 가능합니다.  [Campaign 웹 액세스에 대해 자세히 알아보기](../start/connect.md).
 
 * API를 사용하는 외부 애플리케이션
 
@@ -71,13 +71,13 @@ Adobe Campaign 구성 요소 및 글로벌 아키텍처는 아래에 설명되�
 
 ### 지속성 계층{#persistance-layer}
 
-Campaign 데이터베이스는 지속성 계층으로 사용되며 Adobe Campaign에서 관리하는 거의 모든 정보와 데이터를 포함합니다. 여기에는 기능 데이터(예: 프로필, 구독, 콘텐츠), 기술 데이터(예: 게재 작업 및 로그), 추적 로그 및 작업 데이터(구매, 리드)가 포함됩니다.
+Campaign 데이터베이스는 지속성 레이어로 사용되며 Adobe Campaign에서 관리하는 거의 모든 정보 및 데이터를 포함합니다. 여기에는 기능 데이터(예: 프로필, 구독, 콘텐츠), 기술 데이터(예: 게재 작업 및 로그), 추적 로그 및 작업 데이터(구매, 리드)가 포함됩니다.
 
 대부분의 Adobe Campaign 구성 요소는 작업을 수행하기 위해 데이터베이스에 액세스해야 하므로(리디렉션 모듈 제외) 데이터베이스의 신뢰성이 가장 중요합니다.
 
 ### 논리적 애플리케이션 계층{#logical-app-layer}
 
-Campaign 논리적 애플리케이션 계층은 복잡한 비즈니스 요구를 충족하도록 쉽게 구성할 수 있습니다. Campaign을 다양한 애플리케이션이 포함된 단일 플랫폼으로 사용하여 개방적이고 확장 가능한 아키텍처를 만들 수 있습니다. 각 Campaign 인스턴스는 애플리케이션 계층의 프로세스 모음이며, 일부는 공유되고 일부는 전용입니다.
+Campaign 논리적 애플리케이션 계층은 복잡한 비즈니스 요구를 충족하도록 쉽게 구성할 수 있습니다. Campaign을 서로 다른 애플리케이션을 사용하는 단일 플랫폼으로 사용하여 개방적이고 확장 가능한 아키텍처를 만들 수 있습니다. 각 Campaign 인스턴스는 애플리케이션 계층의 프로세스 모음으로, 일부는 공유되고 일부는 전용입니다.
 
 ## Campaign 관리 클라우드 서비스{#ac-managed-services}
 
@@ -89,7 +89,7 @@ Campaign Web 서버는 Campaign Web 프로세스에 대한 액세스를 제어�
 
 ![](assets/do-not-localize/ac-processes.png)
 
-Campaign 클라이언트 콘솔은 HTTP를 통한 SOAP XML을 사용하여 웹 서버에 연결합니다. 웹 서버는 보안 계층을 제공하고 JavaScript를 사용하여 요청을 애플리케이션 계층에 전달하며 Campaign 내부 프로세스는 SQL을 사용하여 데이터베이스에 대한 액세스를 처리합니다.
+Campaign 클라이언트 콘솔은 HTTP를 통한 SOAP XML을 사용하여 웹 서버에 연결합니다. 웹 서버는 보안 계층을 제공하고 JavaScript를 사용하여 요청을 응용 프로그램 계층에 전달하고 Campaign 내부 프로세스는 SQL을 사용하여 데이터베이스에 액세스합니다.
 
 <!--
 The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.

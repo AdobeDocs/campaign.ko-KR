@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1947'
-ht-degree: 87%
+ht-degree: 84%
 ---
 # 2022 릴리스 정보{#2022-rn}
 
@@ -89,7 +89,7 @@ _2022년 9월 30일 토요일_
 <ul> 
 <li><p>X에서 메시지 보내기(이전의 Twitter): Adobe Campaign을 사용하면 X 계정에 직접 메시지를 게시할 수 있습니다. 모든 팔로워에게 직접 메시지를 보낼 수도 있습니다.
 </p></li>
-<li><p>새 연락처 수집: Adobe Campaign은 프로필 데이터를 자동으로 복구하여 타겟팅 캠페인을 수행하고 크로스 채널 전략을 구현할 수 있습니다.
+<li><p>새 연락처 수집: Adobe Campaign은 프로필 데이터를 자동으로 복구하여 타깃팅 캠페인을 수행하고 크로스 채널 전략을 구현할 수 있습니다.
 </p></li>
 </ul>
 <p><a href="../connect/ac-tw.md">자세한 설명서</a>에서 Campaign과 X를 연결하는 방법을 알아보세요.</p>
@@ -266,7 +266,7 @@ _2022년 5월 18일 목요일_
 **수정 사항**
 
 * 동일한 반복 게재에서 시드 및 컨트롤 그룹을 사용할 때 발생하는 문제를 해결했습니다. (NEO-41197)
-* 개인화 블록에 이러한 문자(`' & < > "`) 중 하나가 들어 있을 때 전송 프로세스(최대 256개) 중에 동일한 deliveryPart에 속하는 모든 수신자에 대해 이메일 전송이 차단되는 FFDA 문제를 해결했습니다. 이제 이러한 문자가 개인화 블록에서 지원됩니다(예: firstname=&quot;Brian O&#39;Neil&quot;) (NEO-43184)
+* 개인화 블록에 `' & < > "` 문자 중 하나가 들어 있을 때 전송 프로세스(최대 256개) 중에 동일한 deliveryPart에 속하는 모든 수신자에 대해 전자 메일 전송이 차단되는 FFDA 문제를 해결했습니다. 이제 이러한 문자가 개인화 블록에서 지원됩니다(예: firstname=&quot;Brian O&#39;Neil&quot;) (NEO-43184)
 * 사용자 지정 스키마를 대상 매핑으로 사용할 때 추적 워크플로가 실패하는 문제를 해결했습니다. 이제 대상 매핑 마법사를 통해 broadLog 스키마를 생성할 때 사용자 지정 타깃팅 스키마에 대한 외부 링크 유형이 올바른지 확인합니다. (NEO-43506)
 * 영어 이외 언어에 대해 FFDA 배포 워크플로가 실패할 수 있는 문제를 해결했습니다. (NEO-44561)
 

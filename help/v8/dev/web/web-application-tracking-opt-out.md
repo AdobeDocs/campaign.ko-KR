@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 2%
@@ -106,7 +106,7 @@ Adobe Campaign은 쿠키 값을 관리하고 사용자 환경 설정을 검색�
 
 * **NL.ClientWebTracking.allow()**: 옵트아웃 쿠키 값을 설정하여 웹 추적을 허용합니다. 웹 추적은 기본적으로 허용됩니다.
 * **NL.ClientWebTracking.forbid()**: 웹 추적을 금지하도록 옵트아웃 쿠키 값을 설정합니다. 웹 추적을 금지하려면 사용자 입력이 필요합니다.
-* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: 사용자가 수락 또는 거부 단추를 클릭한 후 옵트아웃 쿠키 배너를 닫습니다. (클릭 이벤트 버블링 단계 동안)
+* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: 사용자가 수락 또는 거부 단추를 클릭한 후(클릭 이벤트 버블링 단계 동안) 옵트아웃 쿠키 배너를 닫습니다.
 
   bannerDomElt {DOMElement} 제거해야 하는 쿠키 배너의 루트 DOM 요소
 

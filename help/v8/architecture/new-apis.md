@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '441'
 ht-degree: 4%
 ---
 # 특정 FFDA Campaign API{#gs-new-api}
@@ -88,7 +88,7 @@ logInfo(strUuid);
    </soapenv:Envelope>
    ```
 
-1. UUID가 다시 SOAP 응답으로 전송됩니다.
+1. UUID는 SOAP 응답에서 다시 전송됩니다.
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -164,7 +164,7 @@ logInfo(strUuid);
 
 ## 데이터 업데이트 또는 삭제{#data-update-api}
 
-**xtk.session.IngestExt** API가 데이터 업데이트/삭제에 최적화되었습니다. 삽입 전용의 경우 **xtk.session.ingest**&#x200B;를 선호합니다. 레코드 키가 준비 테이블에 없는지 여부에 관계없이 Insert가 작동합니다.
+**xtk.session.IngestExt** API가 데이터 업데이트/삭제에 최적화되었습니다. 삽입 전용의 경우 **xtk.session.ingest**&#x200B;를 선호합니다. 삽입 은 레코드 키가 스테이징 테이블에 없는 경우에 작동합니다.
 
 ### 삽입/업데이트
 
@@ -224,7 +224,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 Campaign의 구독 관리는 [이 페이지](../start/subscriptions.md)에 설명되어 있습니다.
 
-구독 및 구독 취소 데이터 삽입은 Campaign 로컬 데이터베이스의 [스테이징 메커니즘](staging.md)을(를) 사용합니다. 가입자 정보는 로컬 데이터베이스의 스테이징 테이블에 임시로 저장되며 동기화 워크플로우는 이 데이터를 로컬 데이터베이스에서 클라우드 데이터베이스로 전송합니다. 따라서 구독 및 구독 취소 프로세스는 **비동기**&#x200B;입니다. 옵트인 및 옵트아웃 요청은 특정 기술 워크플로우를 통해 한 시간마다 처리됩니다. [자세히 알아보기](replication.md#workflows)
+구독 및 구독 취소 데이터 삽입은 Campaign 로컬 데이터베이스의 [스테이징 메커니즘](staging.md)을(를) 사용합니다. 가입자 정보는 로컬 데이터베이스의 스테이징 테이블에 임시로 저장되고 동기화 워크플로우는 이 데이터를 로컬 데이터베이스에서 클라우드 데이터베이스로 전송합니다. 따라서 구독 및 구독 취소 프로세스는 **비동기**&#x200B;입니다. 옵트인 및 옵트아웃 요청은 특정 기술 워크플로우를 통해 한 시간마다 처리됩니다. [자세히 알아보기](replication.md#workflows)
 
 
 **관련 항목**

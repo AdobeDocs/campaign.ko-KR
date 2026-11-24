@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 2%
@@ -139,7 +139,7 @@ ht-degree: 2%
 
 ## 대화형 콘텐츠 정의 {#amp-for-email-format}
 
-Adobe Campaign을 사용하면 특정 조건에서 동적 전자 메일을 전송할 수 있는 새로운 대화형 [AMP for Email](https://amp.dev/about/email/) 형식을 시도할 수 있습니다.
+Adobe Campaign을 사용하면 특정 조건에서 동적 이메일을 보낼 수 있는 새로운 대화형 [AMP for Email](https://amp.dev/about/email/) 형식을 시도할 수 있습니다.
 
 자세한 내용은 [이 섹션](defining-interactive-content.md)을 참조하십시오.
 

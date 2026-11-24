@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1364'
 ht-degree: 4%
 ---
 # 격리 {#quarantine-management}
@@ -58,7 +58,7 @@ Adobe Campaign은 온라인 채널(이메일, SMS, 푸시 알림)에 대해 격�
 >
 >받는 사람이 메시지를 스팸으로 보고하거나 &quot;STOP&quot;과 같은 키워드를 사용하여 SMS 메시지에 회신하면 주소 또는 전화 번호가 **[!UICONTROL Denylisted]**(으)로 격리됩니다. 프로필이 그에 따라 업데이트됩니다.
 
-반면에 **프로필**&#x200B;은(는) 지정된 채널에 대한 구독(옵트아웃) 후처럼 **차단 목록 해제**&#x200B;에 있을 수 있습니다. 이는 해당 프로필이 더 이상 게재에 의해 타깃팅되지 않음을 의미합니다. 따라서 이메일 채널에 대한 차단 목록에 추가하다의 프로필에 두 개의 주소가 있는 경우 두 주소 모두 게재에서 제외됩니다. 프로필이 프로필의 **[!UICONTROL General]** 탭에 있는 **[!UICONTROL No longer contact]** 섹션에서 하나 이상의 채널에 대해 차단 목록에 추가하다에 있는지 확인할 수 있습니다. [자세히 알아보기](../audiences/view-profiles.md)
+반면에 **프로필**&#x200B;은(는) 지정된 채널에 대한 구독(옵트아웃) 후처럼 **차단 목록 해제**&#x200B;에 있을 수 있습니다. 이는 해당 프로필이 더 이상 게재에서 타깃팅되지 않음을 의미합니다. 따라서 이메일 채널에 대한 차단 목록에 추가하다의 프로필에 두 개의 주소가 있는 경우 두 주소 모두 게재에서 제외됩니다. 프로필이 프로필의 **[!UICONTROL General]** 탭에 있는 **[!UICONTROL No longer contact]** 섹션에서 하나 이상의 채널에 대해 차단 목록에 추가하다에 있는지 확인할 수 있습니다. [자세히 알아보기](../audiences/view-profiles.md)
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Adobe Campaign은 온라인 채널(이메일, SMS, 푸시 알림)에 대해 격�
 
 Adobe Campaign은 게재 실패 유형 및 이유에 따라 격리를 관리합니다. 오류 메시지 자격 조건 중에 할당됩니다. 이 페이지에서 [게재 오류 관리에 대해 자세히 알아보세요](delivery-failures.md).
 
-다음 두 가지 유형 또는 오류를 캡처할 수 있습니다.
+두 가지 유형의 오류를 캡처할 수 있습니다.
 
 * **하드 오류**: 전자 메일 주소, 전화 번호 또는 장치가 즉시 격리됩니다.
 * **소프트 오류**: 소프트 오류는 오류 카운터를 증가시키고 전자 메일, 전화 번호 또는 장치 토큰을 격리할 수 있습니다. Campaign에서 [다시 시도](delivery-failures.md#retries) 수행: 오류 카운터가 제한 임계값에 도달하면 주소, 전화 번호 또는 장치 토큰이 격리됩니다. [자세히 알아보기](delivery-failures.md#retries).
@@ -96,7 +96,7 @@ Adobe Campaign은 게재 실패 유형 및 이유에 따라 격리를 관리합�
 
 ### 게재 격리{#delivery-quarantines}
 
-격리 주소는 게재 준비 단계 동안 게재 대시보드의 게재 로그에 나열됩니다.
+격리된 주소는 게재 준비 단계 동안 게재 대시보드의 게재 로그에 나열됩니다.
 
 각 게재에 대해 **[!UICONTROL Delivery summary]** 보고서를 확인할 수도 있습니다. 이 보고서는 게재 대상에 격리된 주소 수를 표시하고 다음을 표시합니다.
 

@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2568'
 ht-degree: 0%
 ---
 # 입력 양식 시작 {#gs-ac-forms}
@@ -186,7 +186,7 @@ ht-degree: 0%
 
 **컨테이너**&#x200B;를 사용하여 컨트롤 집합을 그룹화합니다. **`<container>`** 요소에 의해 표시됩니다. 위에서 여러 열에 대한 컨트롤 서식을 지정하는 데 사용되었습니다.
 
-`<container>`의 **xpath** 특성을 사용하면 자식 컨트롤 참조를 단순화할 수 있습니다. 그런 다음 컨트롤 참조는 부모 `<container>` 부모를 기준으로 합니다.
+`<container>`의 **xpath** 특성을 사용하면 자식 컨트롤 참조를 단순화할 수 있습니다. 그런 다음 컨트롤 참조는 상위 `<container>`을(를) 기준으로 합니다.
 
 &quot;xpath&quot;가 없는 컨테이너의 예:
 
@@ -529,7 +529,7 @@ ht-degree: 0%
 <input xpath="@gender" readOnly="true"/>
 ```
 
-## 라디오 버튼 추가 {#radio-button}
+## 라디오 단추 추가 {#radio-button}
 
 라디오 버튼을 사용하면 여러 옵션 중에서 선택할 수 있습니다. **`<input>`** 태그는 가능한 옵션을 나열하는 데 사용되며 **checkedValue** 특성은 선택 항목과 연결된 값을 지정합니다.
 

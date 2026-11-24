@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3609'
-ht-degree: 33%
+source-wordcount: '3608'
+ht-degree: 31%
 ---
 # 2025 릴리스 정보 {#2025-rn}
 
@@ -233,7 +233,7 @@ Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campa
 * 푸시 게재에서 압력 규칙을 적절히 적용할 수 있도록 유형화 규칙 기능 문제를 해결했습니다. (NEO-84010)
 * 업그레이드 후 일치하지 않는 날짜 및 타임스탬프 비교로 인해 발생한 BigQuery 쿼리 오류를 해결하여 필터링 조건과의 호환성을 보장합니다. (NEO-83826)
 * 개인화 오류로 인해 일시 중지된 게재를 다시 시작할 때 게재 활동이 실패하는 문제를 해결했습니다. 이 수정 사항은 더 원활한 게재 워크플로우를 보장하며 일시 중지된 활동과 관련된 오류를 방지합니다. (NEO-83809)
-* &quot;대상 레코드 로드 쿼리&quot; 옵션을 사용할 때 FFDA의 문제를 해결했습니다. &quot;order by&quot; 및 &quot;where&quot; 절에 대한 지원이 추가되었습니다. (NEO-83793)
+* 타겟 레코드 로드 쿼리 옵션을 사용할 때 FFDA가 발생하는 문제를 해결했습니다. &quot;order by&quot; 및 &quot;where&quot; 절에 대한 지원이 추가되었습니다. (NEO-83793)
 * broadLogRcp 테이블의 null을 허용하지 않는 열에 null 값이 기록되어 발생하는 반복되는 게재 오류를 해결했습니다. 이 수정 사항은 게재 안정성을 개선하고 라이브 캠페인 중 오류를 방지합니다. (NEO-83729)
 * 게재를 준비하는 동안 시드 주소가 중복되어 메시지 수가 일치하지 않는 문제를 해결했습니다. 이 수정 사항은 정확한 타겟팅을 보장하며 중복 오류를 방지합니다. (NEO-83703)
 * 유효 기간이 지난 후 프로덕션 게재가 전송되어 법적 문제가 발생할 수 있는 중요한 문제를 해결했습니다. 이제 게재는 정의된 유효 기간을 엄격히 준수합니다. (NEO-83350)
@@ -312,7 +312,7 @@ _2025년 4월 25일 토요일_
 
 ### 새로운 기능 {#features-8-6-5}
 
-**새로운 SMS 전송 커넥터** - SMS 전송 커넥터가 최신화되고 개선되었습니다. 송수신기 모드 SMPP 연결 및 영구 SMPP 연결을 사용할 수 있으며 Adobe Campaign Standard에서 전환할 때 환경에 대해 보다 나은 호환성을 보장합니다. 이제 모든 새 SMS 구현에 새 SMS 외부 계정을 사용할 수 있습니다. 기존 구현도 여전히 지원하지만 새롭게 확장된 최신형 커넥터로 옮기는 것을 권장합니다. [자세히 보기](../send/sms/sms.md).
+**새로운 SMS 전송 커넥터** - SMS 전송 커넥터가 최신화되고 개선되었습니다. 송수신기 모드 SMPP 연결 및 영구 SMPP 연결을 사용할 수 있으며 Adobe Campaign Standard에서 전환할 때 환경에 대해 보다 나은 호환성을 보장합니다. 이제 모든 새 SMS 구현에 새 SMS 외부 계정을 사용할 수 있습니다. 기존 구현은 여전히 지원되지만 새로운 최신 및 확장 커넥터로 이동하는 것이 좋습니다. [자세히 보기](../send/sms/sms.md).
 
 ### 일반 개선 사항 {#improvements-8-6-5}
 
@@ -380,7 +380,7 @@ _2025년 1월 15일_
 
 * [엔터프라이즈(FFDA) 배포](../../v8/architecture/enterprise-deployment.md) 컨텍스트에서 게재 분석 중에 캠페인 애플리케이션 안정성이 향상되었습니다.
 * 이 릴리스에는 주요 관리, 스테이징 및 데이터 복제를 비롯한 향상된 FFDA 아키텍처 메커니즘이 함께 제공됩니다.
-* [엔터프라이즈(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에 새로운 기술 워크플로가 도입되었습니다. 이러한 워크플로는 병렬 복제 요청을 해당 테이블에 중앙 집중화하여 게재와 관련 데이터를 복제합니다. 이 워크플로는 `Replicate nms`(으)로 시작합니다. [자세히 보기](../architecture/replication.md)
+* [엔터프라이즈(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에 새로운 기술 워크플로가 도입되었습니다. 이러한 워크플로는 병렬 복제 요청을 해당 테이블에 중앙 집중화하여 게재와 관련 데이터를 복제합니다. 이러한 워크플로는 `Replicate nms`(으)로 시작합니다. [자세히 보기](../architecture/replication.md)
 * 이제 새로운 **워크플로를 영구적으로 실행할 수 있도록 워치도그 감독자 활성화** 옵션을 워크플로 속성에서 사용할 수 있습니다. 이 옵션을 활성화하면 오류가 발생한 후 워크플로가 자동으로 다시 시작됩니다. 워크플로에 여전히 오류가 있는 경우 기본적으로 30초마다 다시 시작됩니다. 이 간격을 조정하려면 새 `XtkWorkflow_WatchdogRestartTimerTimeout` 옵션을 만들고 Integer 데이터 유형을 설정하여 새 지연을 지정하면 됩니다. 이 옵션은 기술 워크플로에서만 활성화해야 합니다. [자세히 보기](../../automation/workflow/workflow-properties.md#execution)
 
 ### 보안 개선 사항 {#security-8-6-4}

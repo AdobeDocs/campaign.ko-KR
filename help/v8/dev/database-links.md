@@ -30,7 +30,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 * 카디널리티 1-N: 소스 테이블의 발생 항목 하나는 타겟 테이블의 여러 발생 항목을 가질 수 있지만, 타겟 테이블의 발생 항목 하나는 소스 테이블의 해당 발생 항목을 최대 한 개까지 가질 수 있습니다.
 * 카디널리티 N-N: 소스 테이블의 발생 항목 하나는 타겟 테이블의 여러 발생 항목을 가질 수 있으며, 그 반대의 경우도 가능합니다.
 
-사용 인터페이스에서 카디널리티는 특정 아이콘으로 표시됩니다.
+사용자 인터페이스에서 카디널리티는 특정 아이콘으로 표현됩니다.
 
 캠페인 테이블/데이터베이스와의 조인 관계의 경우:
 

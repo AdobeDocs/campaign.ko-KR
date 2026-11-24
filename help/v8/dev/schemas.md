@@ -38,10 +38,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 5%
+ht-degree: 6%
 ---
 # 스키마 작업{#gs-ac-schemas}
 
@@ -65,7 +65,7 @@ ht-degree: 5%
 
 Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 
-* 응용 프로그램 내의 데이터 개체가 기본 데이터베이스 테이블에 연결되는 방식을 정의합니다.
+* 애플리케이션 내의 데이터 개체가 기본 데이터베이스 테이블에 연결되어 있는 방식을 정의합니다.
 * Campaign 애플리케이션 내에서 서로 다른 데이터 개체 간의 링크를 정의합니다.
 * 각 개체에 포함된 개별 필드를 정의하고 설명합니다.
 

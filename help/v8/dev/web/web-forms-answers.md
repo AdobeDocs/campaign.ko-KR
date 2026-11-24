@@ -21,7 +21,7 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Edit a recipient]**
 
-  데이터베이스의 필드를 선택할 수 있습니다. 사용자의 답변은 이 필드에 저장됩니다. 각 사용자에 대해 마지막으로 입력한 값만 저장됩니다. 프로필에 추가됩니다. [데이터베이스에 데이터 저장](#storing-data-in-the-database)을 참조하십시오.
+  데이터베이스의 필드를 선택할 수 있습니다. 사용자의 답변은 이 필드에 저장됩니다. 각 사용자에 대해 마지막으로 입력한 값만 저장됩니다. 프로필에 추가됩니다. [데이터베이스에 데이터 저장](#storing-data-in-the-database)을 참조하세요.
 
 * **[!UICONTROL Variable]**
 

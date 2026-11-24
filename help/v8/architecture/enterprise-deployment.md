@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Reporting
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1073'
-ht-degree: 52%
+ht-degree: 44%
 ---
 # [!DNL Campaign] FFDA 배포 {#gs-ac-ffda}
 
@@ -67,7 +67,7 @@ Campaign v8 Enterprise(FFDA)는 타깃팅에서 최종 보고에 이르기까지
 
 >[!CAUTION]
 >
-> 고객 데이터는 [!DNL Campaign] 로컬 데이터베이스에 저장되지 않습니다. 따라서 모든 사용자 정의 테이블을 클라우드 데이터베이스에서 만들어야 합니다.
+> 고객 데이터는 [!DNL Campaign] 로컬 데이터베이스에 저장되지 않습니다. 따라서 모든 사용자 지정 테이블을 클라우드 데이터베이스에서 만들어야 합니다.
 >
 
 ## Campaign Enterprise(FFDA) 아키텍처{#ffda-archi}
@@ -144,9 +144,9 @@ Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입�
 
 이 ID는 문자열 기반이며 순차적이 아님에 유의하세요. 기본 키는 Campaign v8에서 숫자 값이 아니므로 스키마에서 **autouid** 및 **autok** 속성을 사용해야 합니다.
 
-Campaign Classic v7 및 이전 버전에서 스키마(즉 테이블) 내의 키 독자성은 데이터베이스 엔진 수준에서 처리됩니다. 일반적으로 PostgreSQL, Oracle 또는 SQL Server와 같은 클래식 데이터베이스 엔진에는 기본 키 및/또는 고유 인덱스를 통해 열 또는 열 세트를 기반으로 중복 행 삽입을 방지하는 기본 메커니즘이 포함되어 있습니다. 이 버전에서는 데이터베이스 수준에서 적절한 인덱스 및 기본 키를 설정한 경우 중복 ID가 존재하지 않습니다.
+Campaign Classic v7 및 이전 버전에서 스키마(즉 테이블) 내의 키 독자성은 데이터베이스 엔진 수준에서 처리됩니다. 일반적으로 PostgreSQL, Oracle 또는 SQL Server와 같은 클래식 데이터베이스 엔진에는 기본 키 및/또는 고유 인덱스를 통해 열 또는 열 세트를 기반으로 중복 행 삽입을 방지하는 기본 메커니즘이 포함되어 있습니다. 이러한 버전에서는 데이터베이스 수준에서 적절한 인덱스 및 기본 키를 설정한 경우 중복 ID가 존재하지 않습니다.
 
-Adobe Campaign v8에는 핵심 데이터베이스로 Snowflake가 포함되어 있습니다. 쿼리 크기가 크게 증가함에 따라 Snowflake 데이터베이스의 분산 아키텍처는 이와 같이 테이블 내에서 키 독자성을 관리하는 메커니즘을 제공하지 않습니다. 따라서 Adobe Campaign v8에서는 테이블에서 중복 키를 수집하는 것을 방지하는 장치가 없습니다. 이제 Adobe Campaign 데이터베이스 내의 키 독자성을 유지할 책임은 최종 사용자에게 있습니다. [자세히 알아보기](keys.md)
+Adobe Campaign v8에는 핵심 데이터베이스로 Snowflake가 포함되어 있습니다. 쿼리 크기가 크게 증가함에 따라 Snowflake 데이터베이스의 분산 아키텍처는 테이블 내에서 키의 독자성을 관리하고 적용하기 위한 메커니즘을 제공하지 않습니다. 따라서 Adobe Campaign v8에서는 테이블에서 중복 키를 수집하는 것을 방지하는 장치가 없습니다. 이제 Adobe Campaign 데이터베이스 내의 키 독자성을 유지할 책임은 최종 사용자에게 있습니다. [자세히 알아보기](keys.md)
 
 ### 기능 가용성 {#feature-availability}
 

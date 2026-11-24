@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 2%
+ht-degree: 4%
 ---
 # 이메일에 파일 첨부{#attaching-files}
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. Campaign 옵션 목록에서 권장 임계값을 구성할 수 있습니다. [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ko#delivery)를 참조하세요.
+>성능 문제를 방지하려면 이메일당 둘 이상의 첨부 파일을 포함하지 않는 것이 좋습니다. Campaign 옵션 목록에서 권장 임계값을 구성할 수 있습니다. [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ko#delivery)를 참조하세요.
 
 두 가지 가능한 경우가 있습니다.
 
@@ -59,7 +59,7 @@ Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 
 
 >[!NOTE]
 >
->여러 파일을 게재에 첨부할 수 있습니다. 첨부 파일은 모든 형식일 수 있으며 압축 형식이 포함되어 있습니다.
+>여러 파일을 게재에 첨부할 수 있습니다. 첨부 파일은 압축 형식을 비롯한 모든 형식으로 지정할 수 있습니다.
 
 1. **[!UICONTROL Attachments]** 링크를 클릭합니다.
 1. **[!UICONTROL Add]** 버튼을 클릭합니다.

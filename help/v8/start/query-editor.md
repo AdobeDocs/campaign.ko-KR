@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 5%
@@ -46,7 +46,7 @@ ht-degree: 5%
 쿼리를 만드는 단계는 [이 페이지의 &#x200B;](design-queries.md)에 자세히 설명되어 있습니다.
 
 <!--
-Contexts to use the query editor iin Campaign are listed below:
+Contexts to use the query editor in Campaign are listed below:
 
 |Usage|Example|
 |  ---  |  ---  |

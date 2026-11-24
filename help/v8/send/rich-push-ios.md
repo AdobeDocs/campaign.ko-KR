@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1119'
 ht-degree: 5%
 ---
 # iOS 리치 푸시 게재 디자인 {#rich-push}
@@ -189,7 +189,7 @@ ht-degree: 5%
 |---------|---------|
 | **[!UICONTROL Clean Badge]** | 배지 값을 새로 고치려면 이 옵션을 활성화합니다. |
 | **[!UICONTROL Value]** | 애플리케이션 아이콘에 읽지 않은 새 정보의 수를 직접 표시하는 데 사용할 숫자를 설정하십시오. |
-| **[!UICONTROL Critical alert mode]** | 사용자의 전화기가 포커스 모드로 설정되어 있거나 iPhone이 음소거된 경우에도 알림에 사운드를 추가하려면 이 옵션을 활성화합니다. |
+| **[!UICONTROL Critical alert mode]** | 사용자의 휴대폰이 포커스 모드로 설정되어 있거나 iPhone이 음소거된 경우에도 알림에 사운드를 추가하려면 이 옵션을 활성화합니다. |
 | **[!UICONTROL Name]** | 알림을 수신할 때 이동 단말기에서 재생할 사운드를 선택합니다. |
 | **[!UICONTROL Volume]** | 사운드의 볼륨을 0에서 100으로 설정합니다. 사운드는 애플리케이션에 포함되어야 하며 서비스를 만들 때 정의되어야 합니다. |
 
@@ -200,7 +200,7 @@ ht-degree: 5%
 | **[!UICONTROL Mutable content]** | 모바일 애플리케이션에서 미디어 콘텐츠를 다운로드하도록 하려면 이 옵션을 활성화합니다. |
 | **[!UICONTROL Thread-id]** | 관련 알림을 함께 그룹화하는 데 사용되는 식별자를 설정합니다. |
 | **[!UICONTROL Category]** | 작업 단추를 표시할 범주 ID의 이름을 설정합니다. 이러한 알림은 사용자가 애플리케이션을 열거나 탐색하지 않고도 알림에 응답하여 다른 작업을 보다 빠르게 수행할 수 있도록 합니다. |
-| **[!UICONTROL Target content ID]** | 알림을 열 때 앞으로 가져올 애플리케이션 창을 타겟팅하는 데 사용되는 식별자를 설정합니다. |
+| **[!UICONTROL Target content ID]** | 알림이 열릴 때 전달할 응용 프로그램 창을 타겟팅하는 데 사용되는 식별자를 설정합니다. |
 | **[!UICONTROL Launch image]** | 표시할 론치 이미지 파일의 이름을 설정합니다. 사용자가 응용 프로그램을 시작하도록 선택하면 응용 프로그램의 시작 화면 대신 선택한 이미지가 표시됩니다. |
 | **[!UICONTROL Click action]** | 사용자 알림의 사용자 클릭과 관련된 작업을 설정합니다. |
 | **[!UICONTROL Interruption level]** | <ul><li>활성: 기본적으로 설정되어 있으면 시스템에서 알림을 즉시 표시하고 화면을 켜며 사운드를 재생할 수 있습니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li>수동: 화면에 불이 들어오거나 소리가 재생되지 않고 알림 목록에 알림이 추가됩니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li> 시간에 민감함: 시스템에서 알림을 즉시 표시하고 화면을 켜며 사운드를 재생하고 포커스 모드를 중단할 수 있습니다. 이 수준에서는 Apple의 특별한 권한이 필요하지 않습니다.</li><li>심각: 시스템에서 알림을 즉시 표시하고 화면을 켜며 음소거 스위치나 포커스 모드를 무시합니다. 이 수준에는 Apple의 특별한 권한이 필요합니다.</li></ul> |

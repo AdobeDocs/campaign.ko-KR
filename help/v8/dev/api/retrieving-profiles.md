@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '233'
 ht-degree: 4%
 ---
 # API를 사용하여 프로필 검색 {#retrieving-profiles}
@@ -101,7 +101,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->검색은 대/소문자를 구분하며 접두사에 대해서만 수행됩니다. 예를 들어 성(성)의 성(성)을 사용하여 프로필을 찾을 수 없습니다.
+>검색은 대/소문자를 구분하며 접두사에 대해서만 수행됩니다. 예를 들어 성(성)의 성(성)을 사용하여 프로필을 조회할 수 없습니다.
 
 ***샘플 요청***
 

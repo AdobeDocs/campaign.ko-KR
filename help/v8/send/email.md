@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 8%
@@ -105,7 +105,7 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 
      [이 섹션](mirror-page.md#link-to-mirror-page)에서 미러 페이지 관리에 대해 자세히 알아보세요.
 
-1. BBC 주소로 메시지 사본 보내기, 메시지 형식 변경, 특정 인코딩 설정 등과 같은 이메일에 대한 추가 매개 변수를 정의할 수 있습니다. 자세한 내용은 [이 섹션](email-parameters.md)을 참조하세요.
+1. BCC 주소로 메시지 사본 전송, 메시지 형식 변경, 특정 인코딩 설정 등과 같은 이메일에 대한 추가 매개 변수를 정의할 수 있습니다. 자세한 내용은 [이 섹션](email-parameters.md)을 참조하세요.
 
 1. 콘텐츠가 준비되면 **저장**&#x200B;을 클릭합니다. 이제 콘텐츠가 **[!UICONTROL Campaigns > Deliveries]** 탭의 게재 목록에 표시됩니다.
 

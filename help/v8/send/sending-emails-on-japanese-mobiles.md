@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 1%
@@ -114,7 +114,7 @@ Campaign을 사용하여 일본어 이메일 형식으로 수신자에게 이메
 
 Adobe Campaign에서 도메인(**[!UICONTROL Unknown]**, **[!UICONTROL HTML]** 또는 **[!UICONTROL Text]**(으)로 정의된 전자 메일 형식의 프로필)에 따라 형식을 동적으로 관리하는 경우 모든 수신자에게 동일한 게재를 보낼 수 있습니다.
 
-일본어 모바일의 사용자에게 표준 수신자와 마찬가지로 메시지 연락처가 올바르게 표시됩니다.
+일본어 모바일의 사용자는 표준 수신자와 마찬가지로 메시지 콘텐츠가 올바르게 표시됩니다.
 
 >[!IMPORTANT]
 >

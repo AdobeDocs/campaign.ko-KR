@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '453'
 ht-degree: 13%
 ---
 # Campaign을 솔루션과 연결{#gs-ac-connectors}
@@ -47,7 +47,7 @@ Adobe Campaign에는 외부 애플리케이션과 통신하고, 데이터베이�
 
 Campaign v8은 다음 Adobe 솔루션과 연결할 수 있습니다. 사용 사례, 구성 및 지침에 대한 자세한 내용은 링크를 찾아보십시오.
 
-* Adobe Analytics.[자세히 알아보기](../connect/ac-aa.md)
+* Adobe Analytics. [자세히 알아보기](../connect/ac-aa.md)
 * Adobe Experience Cloud 트리거. [자세히 알아보기](../connect/ac-triggers.md)
 * Adobe Experience Manager. [자세히 알아보기](../connect/ac-aem.md)
 * Adobe Experience Platform. [자세히 알아보기](../connect/ac-aep.md)

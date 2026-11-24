@@ -14,7 +14,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -23,13 +23,13 @@ ht-degree: 0%
 
 * **Adobe.io 콘솔로 이동하면 다음 오류가 발생합니다. &quot;Adobe I/O 콘솔은 엔터프라이즈 계정의 일부 구성원만 사용할 수 있습니다. 액세스 권한이 있다고 생각되면 시스템 관리자에게 문의하십시오.&quot;**
 
-관리자는 조직의 API 키만 만들 수 있습니다. 이 메시지가 표시되고 API 키를 만들려고 하며 조직의 관리자 중 한 명에게 물어보려는 경우.
+관리자는 조직의 API 키만 만들 수 있습니다. 이 메시지가 표시되고 API 키를 만들려고 하며 조직의 관리자 중 한 명에게 물어보려는 경우
 
 * **Adobe.io에 대한 요청을 수행하면 {&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;프로필이 유효하지 않습니다&quot;}**
 
 즉, 특정 Campaign 제품의 IMS 프로비저닝에 문제가 있습니다. IMS 팀에서 이를 해결해야 합니다.
 
-자세한 내용을 보려면 토큰으로 IMS API를 호출하여 IMS 프로필의 모양을 확인할 수 있습니다. 요청을 라우팅하려면 organization_id가 Adobe.io에 대해 URL에 입력한 것과 동일한 prodCtx가 있어야 합니다.
+자세한 내용을 보려면 토큰으로 IMS API를 호출하여 IMS 프로필의 모양을 확인할 수 있습니다. 요청을 라우팅하려면 organization_id가 Adobe.io용 URL에 입력한 것과 동일한 prodCtx가 있어야 합니다.
 누락된 경우 IMS 프로비저닝을 수정해야 합니다.
 
 ```
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 * **Adobe.io에 대한 요청을 하면 {&quot;code&quot;:500, &quot;message&quot;:&quot;죄송합니다. 문제가 발생했습니다. URI를 확인하고 다시 시도하십시오.&quot;}**
 
-Adobe.io에서 잘못된 URI를 선언합니다. 요청하는 URI가 유효하지 않을 가능성이 높습니다. Adobe.io에서 Campaign 서비스를 선택하면 가능한 organization_ids 목록이 있는 선택기가 표시됩니다. 선택한 항목이 URL에 입력한 내용인지 확인해야 합니다.
+Adobe.io에서 잘못된 URI를 선언합니다. 요청하는 URI가 잘못된 것 같습니다. Adobe.io에서 Campaign 서비스를 선택하면 가능한 organization_ids 목록이 있는 선택기가 표시됩니다. 선택한 항목이 URL에 입력한 내용인지 확인해야 합니다.
 
 * **Adobe.io에 대한 요청을 수행하면 {&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth 토큰이 유효하지 않습니다&quot;}**
 

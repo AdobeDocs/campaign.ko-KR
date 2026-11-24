@@ -30,7 +30,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -125,4 +125,4 @@ XML의 필드를 채우려면 값이 &quot;true&quot;인 **xml** 특성을 관�
 
   html 유형을 사용하면 HTML 콘텐츠를 CDATA 태그에 저장하고 Adobe Campaign 클라이언트 인터페이스에 특별한 HTML 편집 확인을 표시할 수 있습니다.
 
-XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 필요 없이 필드를 추가할 수 있습니다. 또 다른 장점은 리소스(SQL 필드에 할당된 크기, 테이블당 필드 수 제한 등)를 적게 사용한다는 것입니다.
+XML 필드를 사용하면 데이터베이스의 물리적 구조를 수정할 필요 없이 필드를 추가할 수 있습니다. 또 다른 장점은 리소스(SQL 필드에 할당된 크기, 테이블당 필드 수 제한 등)가 적다는 것입니다.

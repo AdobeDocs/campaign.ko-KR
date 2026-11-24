@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 54%
+source-wordcount: '1592'
+ht-degree: 50%
 ---
 # Campaign 및 Adobe Analytics 작업 {#ac-aa}
 
@@ -199,7 +199,7 @@ Adobe Analytics 2.0 API로 마이그레이션했으므로 Campaign에서 외부 
 
    >[!NOTE]
    >
-   >Campaign ID 및 Broadload ID 필드는 랜딩 페이지의 JavaScript 또는 처리 규칙을 통해 수집됩니다. [처리 규칙에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >캠페인 ID 및 Broadlog ID 필드는 랜딩 페이지의 JavaScript 또는 처리 규칙을 통해 수집됩니다. [처리 규칙에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 
@@ -240,7 +240,7 @@ Adobe Analytics 2.0 API로 마이그레이션했으므로 Campaign에서 외부 
 1. **[!UICONTROL Advanced]** 탭에서는 더 많은 기술 설정을 구성하거나 수정할 수 있습니다.
 
    * **[!UICONTROL Lifespan]**: 기술 워크플로우로 Adobe Campaign에서 웹 이벤트가 복구되는 지연 시간(일)을 지정할 수 있도록 해줍니다. 기본값: 180일.
-   * **[!UICONTROL Persistence]**: 모든 웹 이벤트(예: 구매)가 리마케팅 캠페인에 귀속될 수 있는 기간을 지정할 수 있습니다. 기본값: 7일.
+   * **[!UICONTROL Persistence]**: 모든 웹 이벤트(예: 구매)가 리마케팅 캠페인에 귀속될 수 있는 기간을 지정할 수 있도록 해줍니다. 기본값: 7일.
 
 >[!NOTE]
 >
@@ -308,7 +308,7 @@ Adobe Campaign에서 게재를 보낸 후 [!DNL CX Enterprise]에서 사이트�
 
 Adobe Campaign이 초기 캠페인으로 타겟팅된 사람의 동작을 분석하는 세그먼트 복구를 완료하면 리마케팅 캠페인이 자동으로 시작됩니다. 구매하지 않고 장바구니 포기 또는 제품 보기를 하는 경우, 사이트 탐색으로 구매를 완료할 수 있도록 관련 수신자에게 게재가 전송됩니다.
 
-Adobe Campaign은 캠페인을 준비하기 위해 사용하거나 데이터베이스를 구축할 수 있는 개인화된 게재 템플릿을 제공합니다.
+Adobe Campaign은 캠페인을 준비하기 위해 사용하거나 기반으로 사용할 수 있는 개인화된 게재 템플릿을 제공합니다.
 
 1. **[!UICONTROL Explorer]**&#x200B;에서, Adobe Campaign 트리의 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 폴더로 이동합니다.
 1. **[!UICONTROL Email delivery (re-marketing)]** 템플릿 또는 Adobe Campaign에서 제공하는 리마케팅 템플릿 예제를 복제합니다.

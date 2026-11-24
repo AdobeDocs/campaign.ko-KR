@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 2%
 ---
 # Campaign HTML 편집기 시작{#about-campaign-html-editor}
@@ -68,7 +68,7 @@ ht-degree: 2%
 간단한 **웹 응용 프로그램**&#x200B;을 만들려면 다음을 수행해야 합니다.
 
 1. 웹 응용 프로그램 만들기 - [자세히 알아보기](creating-a-landing-page.md)
-1. 기존 콘텐츠를 선택하거나 표준 템플릿에서 콘텐츠를 만듭니다. [자세히 알아보기](template-management.md)
+1. 기존 콘텐츠를 선택하거나 표준 템플릿에서 콘텐츠를 만드십시오. - [자세히 알아보기](template-management.md)
 1. 콘텐츠 편집 및 구성 - [자세히 알아보기](editing-content.md)
 1. 웹 응용 프로그램 게시 - [자세히 알아보기](creating-a-landing-page.md#step-3---publishing-content)
 

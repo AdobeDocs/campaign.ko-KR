@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
    ![](assets/reporting_usecase_1_01.png)
 
-1. 추출할 열을 선택합니다(이 경우 선택: 모든 보관된 필드). 답변이 포함된 필드입니다.
+1. 추출할 열을 선택합니다(이 경우 보관된 필드를 모두 선택). 답변이 포함된 필드입니다.
 
    ![](assets/reporting_usecase_1_02.png)
 

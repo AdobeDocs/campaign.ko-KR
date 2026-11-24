@@ -39,9 +39,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '696'
 ht-degree: 1%
 ---
 # 폴더 및 보기 관리 {#folders-and-views}
@@ -137,7 +137,7 @@ Campaign 폴더는 탐색기 트리의 노드입니다. 유형에 따라 특정 
 
 ## 폴더의 데이터 필터링{#filter-data-in-a-folder}
 
-폴더에 저장된 데이터를 필터링하려면 폴더 속성에 액세스하여 제한 탭을 선택합니다.
+폴더에 저장된 데이터를 필터링하려면 폴더 속성에 액세스하고 제한 탭을 선택합니다.
 
 예를 들어 아래 폴더에는 이메일 주소가 있는 연락처만 포함되며 해당 연락처의 출처가 &#39;외부&#39; 또는 비어 있는 것으로 플래그가 지정되지 않습니다.
 

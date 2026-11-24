@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 85%
+ht-degree: 80%
 ---
 # Campaign의 개인 정보 보호 요청 관리 {#privacy}
 
@@ -75,7 +75,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. [ID 네임스페이스 서비스](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace?lang=ko){target="_blank"}에서 네임스페이스를 만듭니다.
 
-1. 조직에서 사용 가능한 [ID 네임스페이스를 나열](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}할 때 네임스페이스는 다음과 같은 세부 정보를 제공합니다.
+1. 조직에서 사용 가능한 [ID 네임스페이스를 나열](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}하면 다음과 같은 네임스페이스 세부 정보가 표시됩니다.
 
    ```
    {

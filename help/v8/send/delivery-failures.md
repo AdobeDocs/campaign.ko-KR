@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f0e325102f748f6268a21a5397774a08a6994e51
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3475'
+source-wordcount: '3476'
 ht-degree: 6%
 ---
 # 게재 실패 이해 {#delivery-failures}
@@ -64,7 +64,7 @@ ht-degree: 6%
 
 메시지가 전송되면 게재 로그에서 각 프로필에 대한 게재 상태 및 관련 실패 유형과 이유를 확인할 수 있습니다.
 
-이메일 주소가 격리되거나 프로필이 게재 중인 경우, 수신자는 게재 준비 단계에서 제외됩니다. 제외된 메시지는 게재 대시보드에 나열됩니다.
+이메일 주소가 격리되거나 프로필이 차단 목록 중인 경우, 수신자는 게재 준비 단계에서 제외됩니다. 제외된 메시지는 게재 대시보드에 나열됩니다.
 
 ## 메시지 게재가 실패한 이유 {#delivery-failure-reasons}
 
@@ -497,7 +497,7 @@ Android V2 격리 메커니즘은 Android V1과 동일한 프로세스를 사용
    <td> <br /> 없음 </td> 
   </tr> 
   <tr> 
-   <td> FCM 메시지 거부: 다른 모든 오류<br /> </td> 
+   <td> FCM 메시지 거부: 기타 모든 오류<br /> </td> 
    <td> 실패<br /> </td> 
    <td> Firebase Cloud Messaging 서버에 예기치 않은 오류 코드 반환됨: {1} </td> 
    <td> </td> 

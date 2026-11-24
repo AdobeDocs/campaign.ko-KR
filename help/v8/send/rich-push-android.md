@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 3%
@@ -211,7 +211,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. **[!UICONTROL Color options]** 메뉴에서 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Background]**&#x200B;에 대한 16진수 색상 코드를 입력합니다.
 
-1. **[!UICONTROL Input box options]** 메뉴에서 다음 옵션을 입력합니다.
+1. **[!UICONTROL Input box options]** 메뉴에서 다음 옵션을 입력하십시오.
 
    * **[!UICONTROL Input receiver name]**: 입력 받는 사람의 이름 또는 식별자를 입력합니다.
    * **[!UICONTROL Input text]**: **입력 상자**&#x200B;에 대한 텍스트를 입력하십시오.

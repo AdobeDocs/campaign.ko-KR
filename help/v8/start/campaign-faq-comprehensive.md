@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '11502'
 ht-degree: 8%
@@ -175,7 +175,7 @@ Adobe 고객 지원 센터에 문의하려면 [Adobe Admin Console](https://admi
 
 +++
 
-+++ 어떤 시스템과 구성 요소가 Campaign v8과 호환됩니까?
++++ Campaign v8과 호환되는 시스템과 구성 요소에는 무엇이 있나요?
 
 [Adobe Campaign 호환성 매트릭스](compatibility-matrix.md)에서 Campaign 최신 빌드에 대해 지원되는 모든 시스템 및 구성 요소 목록을 가져올 수 있습니다.
 
@@ -220,7 +220,7 @@ Adobe이 v8을 향상함에 따라 이러한 제한 사항이 발전하고 있�
 
 기존 Campaign Classic v7 환경에서의 자동 마이그레이션은 아직 불가능합니다.
 
-Campaign v8은 현재 **관리 클라우드 서비스로만 사용할 수 있으며** 온-프레미스 또는 하이브리드 환경에 배포할 수 없습니다.
+Campaign v8은 **전용**&#x200B;이며 관리 Cloud Service으로 사용할 수 있으며 온-프레미스 또는 하이브리드 환경에 배포할 수 없습니다.
 
 마이그레이션 프로세스에 대한 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
@@ -1852,7 +1852,7 @@ Adobe 지원 팀의 도움을 받고 인스턴스를 관리합니다.
 
 공식 Adobe 교육 및 인증 프로그램을 통해 기술을 향상시키십시오.
 
-* **[Experience League 도움말](https://experienceleague.adobe.com/ko/browse/campaign/campaign-v8){target="_blank"}** - Campaign v8에 대한 도움말 리소스(웹 UI 및 클라이언트 콘솔)
+* **[Experience League 도움말](https://experienceleague.adobe.com/ko/browse/campaign/campaign-v8){target="_blank"}** - Campaign v8(웹 UI 및 클라이언트 콘솔)에 대한 도움말 리소스
 * **[Adobe 디지털 학습 서비스](https://learning.adobe.com/){target="_blank"}** - 공식 강사 주도 및 자습형 교육 과정
 * **[Adobe Campaign 인증](https://experienceleague.adobe.com/docs/certification/program/overview.html?lang=ko){target="_blank"}** - 전문 인증을 통해 전문성 확인
 * **[Experience League 학습 경로](https://experienceleague.adobe.com/ko?lang=en#dashboard/learning){target="_blank"}** - 안내식 학습 여정

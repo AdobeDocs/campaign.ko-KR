@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게
 
    ![](assets/aem_authoring_3.png)
 
-1. Adobe Campaign의 개인화 필드와 같은 구성 요소를 추가하여 이메일 콘텐츠를 사용자 지정합니다. 자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=ko#editing-email-content){target="_blank"}를 참조하세요.
+1. Adobe Campaign의 개인화 필드와 같은 구성 요소를 추가하여 이메일 콘텐츠를 사용자 정의합니다. 자세한 내용은 [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=ko#editing-email-content){target="_blank"}를 참조하세요.
 
 1. 전자 메일이 준비되면 **[!UICONTROL Page information]** 메뉴로 이동하여 **[!UICONTROL Start workflow]**&#x200B;을(를) 클릭합니다.
 
@@ -114,7 +114,7 @@ Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게
 
 1. Experience Manager과 Campaign 간의 연결을 제거하려면 **[!UICONTROL Desynchronize]**&#x200B;을(를) 클릭합니다.
 
-이제 이메일을 대상자에게 보낼 준비가 되었습니다.
+이제 대상자에게 이메일을 보낼 준비가 되었습니다.
 
 ## Adobe Experience Manager Assets 라이브러리에서 자산 가져오기 {#assets-library}
 

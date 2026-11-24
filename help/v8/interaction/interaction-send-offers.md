@@ -24,14 +24,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1278'
 ht-degree: 2%
 ---
 # 오퍼 보내기{#send}
 
-오퍼 엔진에서 오퍼를 선택하려면 오퍼가 승인되어 **Live** 환경에서 사용할 수 있습니다. [자세히 알아보기](interaction-offer.md#approve-offers)
+오퍼 엔진에서 오퍼를 선택하려면 **Live** 환경에서 승인되고 사용할 수 있어야 합니다. [자세히 알아보기](interaction-offer.md#approve-offers)
 
 아웃바운드 통신 채널을 통한 오퍼 프레젠테이션은 DM, 이메일 또는 모바일 게재를 통해 수행됩니다. 트랜잭션 메시지(메시지 센터)와 함께 단일 모드를 사용할 수도 있습니다.
 

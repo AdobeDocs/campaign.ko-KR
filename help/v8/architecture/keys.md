@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '581'
 ht-degree: 3%
 ---
 # 키 관리 및 독자성 {#key-management}
@@ -56,7 +56,7 @@ Adobe Campaign v8에서는 [!DNL Snowflake]을(를) 핵심 데이터베이스로
 
 >[!CAUTION]
 >
->중복 키는 UUID로 제한되지 않습니다. 사용자 지정 테이블에서 생성된 사용자 지정 키를 포함하여 ID를 사용하면에서 발생할 수 있습니다.
+>중복 키는 UUID로 제한되지 않습니다. 이 문제는 사용자 지정 테이블에서 생성된 사용자 지정 키를 포함하여 ID를 통해 발생할 수 있습니다.
 
 
 ## 단일성 서비스{#unicity-service}
@@ -98,7 +98,7 @@ Campaign에는 [!DNL Snowflake] 데이터베이스에 중복 키가 삽입되지
 
 ### 게재 준비 {#remove-duplicates-delivery-preparation}
 
-Adobe Campaign은 게재를 준비하는 동안 대상에서 복제된 UUID를 자동으로 제거합니다. 이 메커니즘은 게재를 준비하는 동안 오류가 발생하지 않도록 합니다. 최종 사용자는 게재 로그에서 이 정보를 확인할 수 있습니다. 일부 수신자는 중복 키로 인해 기본 대상에서 제외될 수 있습니다. 이 경우 `Exclusion of duplicates (based on the primary key or targeted records)` 경고가 표시됩니다.
+Adobe Campaign은 게재를 준비하는 동안 대상에서 복제된 UUID를 자동으로 제거합니다. 이 메커니즘은 게재를 준비하는 동안 오류가 발생하지 않도록 합니다. 최종 사용자는 게재 로그에서 이 정보를 확인할 수 있습니다. 일부 수신자는 키가 중복되어 기본 대상에서 제외될 수 있습니다. 이 경우 `Exclusion of duplicates (based on the primary key or targeted records)` 경고가 표시됩니다.
 
 ![](assets/exclusion-duplicates-log.png)
 

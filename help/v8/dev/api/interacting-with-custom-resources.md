@@ -25,16 +25,16 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '145'
 ht-degree: 0%
 ---
 # 사용자 지정 리소스와 상호 작용 {#interacting-with-custom-resources}
 
 **/customResources** 끝점을 사용하면 REST의 Campaign 사용자 지정 리소스를 표시할 수 있습니다. 이 API를 기반으로 사용자 지정 엔티티와 외부 엔드포인트 간의 통합을 사용할 수 있습니다.
 
-/customResources 끝점의 동작은 /profileAndServices 끝점과 동일합니다.
+/customResources 끝점에는 /profileAndServices 끝점과 정확히 동일한 가 있습니다.
 
 이 API 내에 노출되는 사용자 지정 리소스는 다음과 같습니다.
 

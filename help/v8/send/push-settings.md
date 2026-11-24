@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1830'
 ht-degree: 5%
 ---
 # 푸시 알림 채널 구성 {#push-notification-configuration}
@@ -79,7 +79,7 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
 1. **[!UICONTROL Products]** 탭에서 **[!UICONTROL Adobe Experience Platform Data Collection]** 카드를 선택합니다.
 1. 기존 **[!UICONTROL Product Profile]**&#x200B;을(를) 선택하거나 **[!UICONTROL New profile]** 단추를 사용하여 새 을(를) 만듭니다. [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=ko#ui){target="_blank"}에서 새 **[!UICONTROL New profile]**&#x200B;을(를) 만드는 방법을 알아보세요.
 1. **[!UICONTROL Permissions]** 탭에서, **[!UICONTROL Property Rights]**&#x200B;를 선택합니다.
-1. **[!UICONTROL Add all]**&#x200B;을(를) 클릭합니다. 이렇게 하면 제품 프로필에 다음 권한이 추가됩니다.
+1. **[!UICONTROL Add all]**&#x200B;을(를) 클릭합니다. 제품 프로필에 다음 권한이 추가됩니다.
    * **[!UICONTROL Approve]**
    * **[!UICONTROL Develop]**
    * **[!UICONTROL Edit Property]**
@@ -182,7 +182,7 @@ To get the SDKs needed for push notification to work you will need the following
 
 ## Campaign에서 모바일 서비스 구성 {#push-service}
 
-[!DNL Adobe Experience Platform Data Collection]에서 모바일 앱을 설정한 후에는 **[!DNL Adobe Campaign]**&#x200B;에서 푸시 알림을 보낼 수 있도록 두 개의 서비스(iOS 디바이스용 서비스, Android 디바이스용 서비스)를 만들어야 합니다.
+[!DNL Adobe Experience Platform Data Collection]에서 모바일 앱을 설정한 후에는 **[!DNL Adobe Campaign]**&#x200B;에서 푸시 알림을 보낼 수 있도록 두 개의 서비스(iOS 장치용 서비스, Android 장치용 서비스)를 만들어야 합니다.
 
 푸시 알림은 전용 서비스를 통해 앱 사용자에게 전송됩니다. 사용자가 앱을 설치할 때 이 서비스에 가입합니다. Adobe Campaign은 이 서비스를 사용하여 앱 가입자만 타깃팅합니다. 이 서비스에서는 iOS 및 Android 앱을 추가하여 iOS 및 Android 디바이스에서 전송해야 합니다.
 
@@ -236,7 +236,7 @@ iOS 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
    >
    > 애플리케이션의 개발 버전(샌드박스)과 프로덕션 버전에는 동일한 인증서를 사용할 수 없습니다.
 
-1. 서비스의 모바일 애플리케이션을 개인화하려면 **[!UICONTROL Application icon]** 필드에서 아이콘을 선택하십시오.
+1. **[!UICONTROL Application icon]** 필드에서 아이콘을 선택하여 서비스의 모바일 애플리케이션을 개인화합니다.
 
 1. **[!UICONTROL Authentication mode]**&#x200B;을(를) 선택합니다. 두 가지 모드를 사용할 수 있습니다.
 

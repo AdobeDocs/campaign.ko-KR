@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 2%
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 ## 개요 {#overview}
 
-마케팅 사용자가 데이터 레코드에 액세스할 수 있지만 이름, 성 또는 이메일 주소와 같은 수신자 개인 정보(PI)를 볼 수 없도록 해야 하는 경우, 아래 지침을 적용하여 개인 정보를 보호하고 일반 캠페인 운영자가 데이터를 오용하지 않도록 합니다.
+마케팅 사용자가 데이터 레코드에 액세스할 수 있지만 이름, 성 또는 이메일 주소와 같은 수신자 개인 정보(PI)를 볼 수 없도록 해야 하는 경우 아래 지침을 적용하여 개인 정보를 보호하고 일반 캠페인 운영자가 데이터를 오용하지 않도록 합니다.
 
 ## 구현 {#implementation}
 
@@ -74,7 +74,7 @@ ht-degree: 2%
 주요 속성은 다음과 같습니다.
 
 * **[!UICONTROL visibleIf]**: 메타데이터에서 필드를 숨기므로 스키마 보기, 열 선택 또는 [식 빌더](../../v8/start/filter-conditions.md#list-of-functions) 내에서 액세스할 수 없습니다. 그러나 필드 이름을 표현식에 수동으로 입력하면 값이 표시되는 데이터가 표시되지 않습니다.
-* **[!UICONTROL accessibleIf]**: 결과 쿼리에서 데이터를 숨깁니다(빈 값으로 바꾸기). visibleIf가 비어 있으면 **[!UICONTROL accessibleIf]**&#x200B;과(와) 동일한 표현식이 만들어집니다.
+* **[!UICONTROL accessibleIf]**: 결과 쿼리에서 데이터를 숨깁니다(빈 값으로 바꾸기). visibleIf가 비어 있으면 **[!UICONTROL accessibleIf]**&#x200B;과(와) 동일한 식을 가져옵니다.
 
 다음은 Campaign에서 이 특성을 사용할 때의 결과입니다.
 

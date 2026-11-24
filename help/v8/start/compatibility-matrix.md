@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 96%
+ht-degree: 92%
 ---
 # Campaign v8 호환성 표 {#compat-matrix}
 
@@ -85,7 +85,7 @@ Adobe Campaign FDA(Federated Data Access) 모듈과 호환되는 외부 데이�
 
 
 >[!AVAILABILITY]
->또한 [향상된 보안 추가 기능](../config/enhanced-security.md#secure-vpn-tunneling)을 사용하면 보안 VPN 터널링을 통해 On-Premise 데이터베이스에 액세스할 수 있습니다. [자세히 알아보기](../config/enhanced-security.md)
+>또한 [향상된 보안 추가 기능](../config/enhanced-security.md#secure-vpn-tunneling)을 사용하면 보안 VPN 터널링을 통해 온-프레미스 데이터베이스에 액세스할 수 있습니다. [자세히 알아보기](../config/enhanced-security.md)
 
 ## 모바일 SDK {#MobileSDK}
 

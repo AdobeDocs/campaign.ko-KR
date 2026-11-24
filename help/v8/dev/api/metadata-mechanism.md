@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
@@ -49,7 +49,7 @@ GET 요청에서 **resourceType**&#x200B;을(를) 사용하여 리소스 메타�
     type이 &quot;link&quot; 또는 &quot;collection&quot; 값으로 완료된 경우 resTarget 값은 링크가 타깃팅한 리소스의 이름입니다.
     &quot;type&quot;이 &quot;enumeration&quot; 값으로 완료되면 &quot;values&quot; 필드가 추가되고 각 열거형 값은 **values** 노드에 자세히 표시됩니다.
 
-* **필터** 노드는 연결된 필터를 검색할 URL을 반환합니다. 필터에 대한 자세한 내용은 [이 섹션](sorting.md#filtering) 섹션을 참조하십시오.
+* **필터** 노드는 연결된 필터를 검색할 URL을 반환합니다. 필터에 대한 자세한 내용은 [이 섹션](sorting.md#filtering)을 참조하세요.
 
 <!-- créer une section au même niveau sur les liens -->
 <!--

@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 66d00cbaf20d714f56ab02bba593cff4a0d23571
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1073'
 ht-degree: 10%
 ---
 # Campaign 아키텍처 시작{#gs-ac-archi}
@@ -129,7 +129,7 @@ In addition, you can select split external accounts as the default routing provi
 
 [이 섹션](../send/transactional.md)에서 트랜잭션 메시지를 보내는 방법을 알아보세요.
 
-웹 사이트에서의 고객 동작에 대한 응답으로, 이벤트는 REST API를 통해 Campaign으로 전송되고, 메시지 템플릿은 API 호출을 통해 제공된 정보 또는 데이터로 채워지고, 트랜잭션 메시지는 실시간으로 고객에게 전송됩니다. 이러한 메시지는 이메일, SMS 또는 푸시 알림을 통해 개별적으로 또는 일괄적으로 전송할 수 있습니다.
+웹 사이트에서의 고객 동작에 대한 응답으로, REST API를 통해 이벤트가 Campaign으로 전송되고, 메시지 템플릿에 API 호출을 통해 제공된 정보나 데이터가 채워지고, 트랜잭션 메시지가 실시간으로 고객에게 전송됩니다. 이러한 메시지는 이메일, SMS 또는 푸시 알림을 통해 개별적으로 또는 일괄적으로 전송할 수 있습니다.
 
 이러한 특정 아키텍처에서는 실행 셀을 제어 인스턴스와 분리하여 고가용성 및 부하 관리를 보장합니다.
 

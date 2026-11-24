@@ -26,7 +26,7 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1583'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의�
 
 컬렉션 프로세스에서 번역이 이미 있음을 감지하면 이 번역이 문자열의 **[!UICONTROL Text]** 열에 표시됩니다. 문자열의 상태가 **[!UICONTROL Translated]**(으)로 바뀝니다.
 
-번역된 적이 없는 문자 문자열의 경우 **[!UICONTROL Text]** 필드가 비어 있고 상태는 **[!UICONTROL To translate]**&#x200B;입니다.
+번역된 적이 없는 문자열의 경우 **[!UICONTROL Text]** 필드가 비어 있고 상태는 **[!UICONTROL To translate]**&#x200B;입니다.
 
 ### 문자열 필터링 {#filtering-strings}
 
@@ -419,7 +419,7 @@ url의 언어 앞에 다른 매개 변수가 있는 경우. 예: **https://myser
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Waloon(wa)<br /> </td> 
+   <td> Walloon(wa)<br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 

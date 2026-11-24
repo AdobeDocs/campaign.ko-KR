@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1198'
 ht-degree: 4%
 ---
 # LINE 게재 만들기
@@ -160,7 +160,7 @@ LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 �
 
 ## 콘텐츠 유형 정의 {#defining-the-content}
 
-[!DNL LINE] 게재의 콘텐츠를 정의하려면 먼저 메시지 유형을 게재에 추가해야 합니다. 각 [!DNL LINE] 게재에는 최대 5개의 메시지가 포함될 수 있습니다.
+[!DNL LINE] 게재의 콘텐츠를 정의하려면 먼저 게재에 메시지 유형을 추가해야 합니다. 각 [!DNL LINE] 게재에는 최대 5개의 메시지가 포함될 수 있습니다.
 
 다음 세 가지 메시지 유형 중에서 선택할 수 있습니다.
 

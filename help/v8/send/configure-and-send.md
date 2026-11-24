@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 2d8aa27d6565e216cc0842ba22678c884479ff43
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 9%
@@ -75,7 +75,7 @@ ht-degree: 9%
 >
 >크기와 두 연속 예약된 예약된 예약된 일괄 처리 사이의 지연 시간만 정의할 수 있습니다. 각 웨이브에 대한 수신자 선택 기준을 구성할 수 없습니다.
 
-각 예약된 일괄 처리 크기를 정의하거나 달력에 추가할 수 있습니다.
+각 웨이브의 크기를 정의하거나 달력에 추가할 수 있습니다.
 
 * **각 웨이브의 크기를 정의합니다**. 예를 들어 해당 필드에 **[!UICONTROL 30%]**&#x200B;을(를) 입력하면 각 웨이브는 게재에 포함된 메시지의 30%를 나타냅니다. 단, 마지막 웨이브는 메시지의 10%를 나타냅니다.
 

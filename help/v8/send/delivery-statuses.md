@@ -35,9 +35,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 4%
 ---
 # 게재 상태 {#delivery-statuses}
@@ -70,7 +70,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> 무시됨<br /> </td> 
-   <td> 주소 오류로 인해 수신자에게 게재가 전송되지 않았습니다. 차단 목록, 격리, 제공되지 않거나 중복되었습니다. <br /> </td> 
+   <td> 주소 오류로 인해 수신자에게 게재가 전송되지 않았습니다. 차단 목록, 격리, 제공되지 않거나 중복되어 제공되었습니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> 실패<br /> </td> 

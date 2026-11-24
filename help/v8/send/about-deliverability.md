@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '791'
 ht-degree: 8%
 ---
 # 전달성의 정의{#about-deliverability}
@@ -84,7 +84,7 @@ Adobe Campaign은 지속적으로 발생하는 스팸 불만, 하드 바운스 �
 
 게재 가능성을 보호하기 위해 해당 목록에 있는 주소의 수신자는 이후 모든 게재에서 기본적으로 제외됩니다. 이러한 연락처로 보내면 전송 평판이 떨어질 수 있기 때문입니다.
 
-일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 이러한 공급자에 의해 차단 목록에 추가하다에 추가되는 것을 피할 수 있습니다.
+일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 이러한 제공자가 차단 목록에 추가하다에 추가하는 것을 피할 수 있습니다.
 
 자세한 내용은 다음 섹션을 참조하십시오.
 

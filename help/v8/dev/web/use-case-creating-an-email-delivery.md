@@ -34,9 +34,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '757'
 ht-degree: 1%
 ---
 # 활용 사례: 이메일 게재 만들기{#use-case-creating-an-email-delivery}
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 ## 2단계 - 템플릿 선택 {#step-2---selecting-a-template}
 
-게재 템플릿을 선택한 다음 게재 이름을 지정합니다. 이 이름은 Adobe Campaign 콘솔의 사용자만 볼 수 있고 수신자는 볼 수 없지만 이 제목은 게재 목록에 표시됩니다. **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
+게재 템플릿을 선택한 다음 게재 이름을 지정합니다. 이 이름은 Adobe Campaign 콘솔의 사용자만 볼 수 있고 수신자는 볼 수 없습니다. 하지만 이 제목은 게재 목록에 표시됩니다. **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/dce_delivery_model.png)
 

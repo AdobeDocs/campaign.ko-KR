@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 10%
+ht-degree: 8%
 ---
 # 게재 보고서 {#delivery-reports}
 
@@ -95,7 +95,7 @@ ht-degree: 10%
 * **[!UICONTROL Complaints]**: 받는 사람이 원치 않는 것으로 보고한 이 도메인에 대한 메시지 수입니다. 이 비율은 이 도메인에서 보낸 총 메시지 수를 기반으로 계산됩니다.
 * **[!UICONTROL Opens]**: 이 도메인에 대해 최소 한 번 이상 메시지를 연 고유한 대상 받는 사람의 수입니다. 이 비율은 이 도메인에서 보낸 총 메시지 수를 기반으로 계산됩니다.
 * **[!UICONTROL Clicks]**: 동일한 게재를 한 번 이상 클릭한 고유한 타깃팅된 받는 사람 수입니다. 이 비율은 이 도메인에서 보낸 총 메시지 수를 기반으로 계산됩니다
-* **[!UICONTROL Raw reactivity]**: 게재를 한 번 이상 클릭한 수신자 수와 게재를 한 번 이상 연 수신자 수의 백분율입니다.
+* **[!UICONTROL Raw reactivity]**: 게재를 한 번 이상 클릭한 수신자 수와 게재를 한 번 이상 연 수신자 수의 비율입니다.
 
 >[!NOTE]
 >
@@ -192,7 +192,7 @@ This chart shows the breakdown of cumulated clicks per day.
 
 ## 핫 클릭 {#hot-clicks}
 
-이 보고서에는 메시지 콘텐츠(HTML 및/또는 텍스트)와 각 링크의 링크 클릭 비율이 표시됩니다. 개인 맞춤화 블록 구독 취소 링크, 미러 페이지 링크 및 오퍼 링크는 총 누적 클릭 수 계산에 포함되지만 보고서에는 표시되지 않습니다.
+이 보고서에는 메시지 콘텐츠(HTML 및/또는 텍스트)와 각 링크의 링크 클릭 비율이 표시됩니다. 개인화 블록, 구독 취소 링크, 미러 페이지 링크 및 오퍼 링크는 누적된 총 클릭 수에서 고려되지만 보고서에 표시되지 않습니다.
 
 >[!NOTE]
 >

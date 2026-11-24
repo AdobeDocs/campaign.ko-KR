@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2947'
-ht-degree: 48%
+ht-degree: 47%
 ---
 # Campaign 보안 모범 사례 {#ac-security}
 
@@ -103,7 +103,7 @@ Adobe Campaign은 Adobe Experience Cloud 솔루션의 일부입니다. Campaign�
 
 * **Adobe Experience Cloud 사용에 대한 사용자의 개인 정보 보호 선택**
 
-  Adobe는 고객에게 다음과 같은 내용을 설명하는 개인정보 처리방침을 제공하도록 요구합니다.
+  Adobe에서 고객의 개인정보 처리방침을 다음과 같이 설명하도록 요청합니다.
 
   * Adobe Experience Cloud과 관련된 개인 정보 보호 사례
   * 사용자가 Adobe Experience Cloud과 관련하여 자신의 정보를 수집하거나 사용하는 것에 대한 환경 설정을 하는 방법
@@ -165,7 +165,7 @@ Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이�
 
 ## 개인 정보 보호 관리 {#privacy-management}
 
-개인 정보 관리는 개인 정보 보호 규정(GDPR, CPA 등)을 준수하는 데 도움이 되는 모든 프로세스 및 도구를 의미합니다.
+개인 정보 관리는 개인 정보 보호 규정(GDPR, CCPA 등)을 준수하는 데 도움이 되는 모든 프로세스 및 도구를 의미합니다.
 
 Adobe Campaign은 개인 정보 관리를 위한 다양한 기능을 제공합니다.
 * 동의 관리, 데이터 보존 및 사용자 역할. [이 섹션](#consent)을 참조하십시오.
@@ -292,7 +292,7 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항
 
 권한이 낮은 인증된 사용자가 암호화된 암호에 액세스할 수 없도록 해야 합니다. 이를 위해 두 가지 기본 방법이 있습니다. 암호 필드에만 또는 전체 엔터티에 대한 액세스를 제한합니다.
 
-이 제한 사항을 사용하면 암호 필드를 제거할 수 있지만 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있는 상태를 유지합니다. [이 페이지](../dev/restrict-pi-view.md)에서 자세히 알아보십시오.
+이 제한 사항을 사용하면 암호 필드를 제거할 수 있지만 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있는 상태로 둡니다. [이 페이지](../dev/restrict-pi-view.md)에서 자세히 알아보십시오.
 
 1. **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**&#x200B;에서 이동합니다.
 

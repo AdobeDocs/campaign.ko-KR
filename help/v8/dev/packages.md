@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 30b0f5eda9c80b72af5c8574e01cec6965b05564
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 데이터 패키지를 사용하여 플랫폼 사용자 지정 설정 및 데이터를 내보내고 가져올 수 있습니다. 패키지에는 필터링되거나 필터링되지 않은 다양한 유형의 구성 및 구성 요소가 포함될 수 있습니다.
 
-Campaign 데이터 패키지에서 Adobe Campaign 데이터베이스의 엔터티가 XML 파일로 표시됩니다. 패키지에서 각 엔티티는 모든 데이터로 표시됩니다.
+Campaign 데이터 패키지에서 Adobe Campaign 데이터베이스의 엔티티는 XML 파일에 표시됩니다. 패키지에서 각 엔티티는 모든 데이터로 표시됩니다.
 
 이 페이지에서는 만들고 관리하는 **사용자 지정** 데이터 패키지에 대해 설명합니다. Campaign 기능을 제공하는 패키지는 Adobe에서 설치 및 관리하는 **기본 제공 패키지**&#x200B;입니다. [기본 제공 패키지](../architecture/built-in-packages.md)에서 자세히 알아보세요.
 
@@ -119,7 +119,7 @@ XML 문서는 `<package>` 요소로 시작하고 끝나야 합니다. 다음에 
 * **단일 개체**&#x200B;를 내보내려면 해당 개체를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions > Export in a package]**&#x200B;을(를) 선택합니다.
 * **패키지 정의**&#x200B;를 사용하여 나중에 패키지에서 내보낼 개체를 추가하는 패키지 구조를 만듭니다. [자세히 알아보기](#manage-package-definitions)
 
-패키지를 내보내고 나면 해당 패키지와 추가된 모든 엔티티를 다른 Campaign 인스턴스로 가져올 수 있습니다.
+패키지를 내보내고 나면 패키지와 추가된 모든 엔티티를 다른 Campaign 인스턴스로 가져올 수 있습니다.
 
 ### 패키지의 개체 집합 내보내기 {#export-a-set-of-objects-in-a-package}
 
@@ -369,7 +369,7 @@ Adobe은 Campaign v8에 기본 제공 패키지를 설치하고 관리합니다.
 
 #### 엔티티 패키지 순서 {#entity-packages-order}
 
-가져오기를 지원하기 위해 엔티티 패키지는 가져와야 하는 대로 주문해야 합니다.
+가져오기를 지원하려면 엔티티 패키지를 가져와야 하는 순서대로 주문해야 합니다.
 
 예제:
 

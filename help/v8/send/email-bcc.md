@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 ## 이메일 BCC 정보 {#gs-bcc}
 
-플랫폼에서 전송된 이메일 사본을 유지하도록 Adobe Campaign을 구성할 수 있습니다. 이 옵션을 사용하면 외부 시스템을 사용하여 메시지를 처리하고 보관할 수 있는 전용 BCC(숨은 참조) 이메일 주소로 메시지를 보낼 수 있습니다.
+플랫폼에서 전송된 이메일 사본을 유지하도록 Adobe Campaign을 구성할 수 있습니다. 이 옵션을 사용하면 전용 BCC(숨은 참조) 이메일 주소로 메시지를 보낼 수 있으며, 외부 시스템을 사용하여 메시지를 처리하고 보관할 수 있습니다.
 
 >[!CAUTION]
 >

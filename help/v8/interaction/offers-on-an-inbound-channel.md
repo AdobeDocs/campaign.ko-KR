@@ -24,9 +24,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2144'
 ht-degree: 1%
 ---
 # 인바운드 채널에 대한 오퍼{#offers-on-an-inbound-channel}

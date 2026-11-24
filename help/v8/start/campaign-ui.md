@@ -31,14 +31,14 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 67%
+source-wordcount: '1224'
+ht-degree: 62%
 ---
 # 사용자 인터페이스 살펴보기 {#ui-client-console}
 
-클라이언트 콘솔 또는 Web 사용자 인터페이스를 통해 Adobe Campaign에 액세스할 수 있습니다. API를 사용하여 데이터를 관리하고 Campaign 플랫폼에서 작업을 수행할 수도 있습니다.
+클라이언트 콘솔 또는 웹 사용자 인터페이스를 통해 Adobe Campaign에 액세스할 수 있습니다. API를 사용하여 데이터를 관리하고 Campaign 플랫폼에서 작업을 수행할 수도 있습니다.
 
 * **클라이언트 콘솔** - Campaign 클라이언트 콘솔은 SOAP 및 HTTP와 같은 표준 인터넷 프로토콜을 통해 Adobe Campaign 애플리케이션 서버와 통신하는 기본 애플리케이션입니다. Campaign 클라이언트 콘솔은 모든 기능과 설정을 중앙 집중화하며 로컬 캐시에 의존하기 때문에 최소한의 대역폭만 필요합니다. 간편한 배포를 위해 설계된 Campaign 클라이언트 콘솔은 인터넷 브라우저에서 배포하고 자동으로 업데이트할 수 있으며, HTTP(S) 트래픽만 생성하므로 특정 네트워크 구성이 필요하지 않습니다. [자세히 알아보기](#ui-access)
 
@@ -103,7 +103,7 @@ Campaign 클라이언트 콘솔에 연결되면 상단 섹션에서 탭을 탐�
 
 각 기능에 대해 **[!UICONTROL Browsing]** 섹션의 주요 기능 집합에 액세스할 수 있습니다. **[!UICONTROL More]** 링크를 사용하여 다른 모든 구성 요소에 액세스할 수 있습니다.
 
-예를 들어 **[!UICONTROL Profiles and targets]** 탭으로 이동하면 수신자 목록, 구독 서비스, 기존 타기팅 워크플로 및 이러한 모든 구성 요소를 만들기 위한 바로 가기에 액세스할 수 있습니다.
+예를 들어 **[!UICONTROL Profiles and targets]** 탭으로 이동할 때 수신자 목록, 구독 서비스, 기존 타겟팅 워크플로 및 이러한 모든 구성 요소를 만들기 위한 바로 가기에 액세스할 수 있습니다.
 
 ![프로필 및 대상 탭에서 목록에 액세스하는 방법을 보여 주는 Campaign 콘솔 사용자 인터페이스](assets/overview-list.png)
 
@@ -120,7 +120,7 @@ Campaign 클라이언트 콘솔에 연결되면 상단 섹션에서 탭을 탐�
 <!--
 ## Use a web browser {#web-browser}
 
-You can also access a subset of Campaign capabilities through the a web browser.
+You can also access a subset of Campaign capabilities through a web browser.
 
 The web access interface is similar to the console interface. From a browser, you can use the same navigation and display features as in the console, but you can perform only a reduced set of actions on campaigns. For example, you can view and cancel campaigns, but you cannot modify campaigns.
 

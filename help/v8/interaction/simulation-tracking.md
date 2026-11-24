@@ -29,16 +29,16 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 8%
 ---
 # 시뮬레이션 추적{#simulation-tracking}
 
 
 
-시뮬레이션이 완료되면 시뮬레이션 창에 추가된 **[!UICONTROL Results]** 탭과 시뮬레이션 대시보드의 **[!UICONTROL Breakdown of offers by rank]** 보고서를 통해 결과를 분석할 수 있습니다.
+시뮬레이션이 완료되면 시뮬레이션 창에 추가된 **[!UICONTROL Results]** 탭과 시뮬레이션 대시보드를 통해 사용할 수 있는 **[!UICONTROL Breakdown of offers by rank]** 보고서를 통해 결과를 분석할 수 있습니다.
 
 시뮬레이션 결과에는 등급별 및 수신자별 제안 분류가 포함됩니다. 보고 축도 고려되며 이 탭에 표시됩니다.
 

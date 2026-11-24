@@ -26,7 +26,7 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 1%
@@ -85,7 +85,7 @@ Adobe Campaign은 웹 양식을 정의하고 게시하기 위한 그래픽 모�
 
 ## 웹 양식 디자인 기본 정보 {#about-web-forms-designing}
 
-양식의 페이지는 입력 영역(텍스트), 선택 필드(목록, 확인란 등)를 정의하고 구성할 수 있는 특정 편집기를 통해 만들어집니다 및 정적 요소(이미지, HTLM 콘텐츠 등)가 포함되어 있습니다. 컨테이너를 컨테이너로 그룹화하고 필요에 맞게 레이아웃을 변경할 수 있습니다. 자세한 내용은 [컨테이너 만들기](defining-web-forms-layout.md#creating-containers)를 참조하십시오.
+양식의 페이지는 입력 영역(텍스트), 선택 필드(목록, 확인란 등)를 정의하고 구성할 수 있는 특정 편집기를 통해 만들어집니다 및 정적 요소(이미지, HTML 컨텐츠 등)를 사용할 수 있습니다. 컨테이너를 컨테이너로 그룹화하고 필요에 맞게 레이아웃을 변경할 수 있습니다. 자세한 내용은 [컨테이너 만들기](defining-web-forms-layout.md#creating-containers)를 참조하십시오.
 
 다음 섹션에서는 양식 화면의 컨텐츠 및 레이아웃을 정의하는 방법에 대해 자세히 설명합니다.
 

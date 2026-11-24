@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '3162'
 ht-degree: 2%
@@ -143,7 +143,7 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 ### 컨트롤 그룹 설정 {#set-up-control-group}
 
-게재가 전송되면 제외된 수신자의 행동을 게재를 받은 수신자와 비교할 수 있습니다. 그런 다음 캠페인의 효율성을 측정할 수 있습니다. 컨트롤 그룹 [이 섹션](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)에 대해 자세히 알아보세요.
+게재가 전송되면 제외된 수신자의 행동을 게재를 받은 수신자와 비교할 수 있습니다. 그런 다음 캠페인의 효율성을 측정할 수 있습니다. [이 섹션](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)에서 컨트롤 그룹에 대해 자세히 알아보세요.
 
 ### 유형화를 사용하여 필터 또는 제어 규칙 적용 {#create-typologies}
 
@@ -173,7 +173,7 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
   개인화 블록에 대한 자세한 내용은 [이 섹션](../send/personalization-blocks.md)을 참조하세요.
 
-* 개인화 데이터 준비 - 워크플로우에서 개인화 데이터를 준비하여 게재 준비 분석을 개선할 수 있습니다. 개인화 데이터가 FDA(Federated Data Access)를 통해 외부 테이블에서 제공되는 경우 특별히 사용해야 합니다. 이 옵션은 이 [이 섹션](../send/personalization-data.md#optimize-personalization)에 설명되어 있습니다.
+* 개인화 데이터 준비 - 워크플로우에서 개인화 데이터를 준비하여 게재 준비 분석을 개선할 수 있습니다. 이는 특히 개인화 데이터가 FDA(Federated Data Access)를 통해 외부 테이블에서 가져온 경우 사용해야 합니다. 이 옵션은 [이 섹션](../send/personalization-data.md#optimize-personalization)에 설명되어 있습니다.
 +++
 
 ### 최적화된 컨텐츠 작성 {#build-optimized-content}
@@ -215,7 +215,7 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 ### 페이지 미러링 {#mirror-page-check}
 
-항상 미러 페이지 링크를 포함하십시오. 기본 위치는 이메일의 상단입니다. [이 페이지](../send/mirror-page.md)에서 미러 페이지에 대해 자세히 알아보기
+항상 미러 페이지 링크를 포함하십시오. 기본 위치는 이메일 맨 위에 있습니다. [이 페이지](../send/mirror-page.md)에서 미러 페이지에 대해 자세히 알아보기
 
 ### 구독 취소 링크 {#unsub-link-check}
 

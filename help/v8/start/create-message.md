@@ -35,10 +35,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1565'
-ht-degree: 93%
+ht-degree: 90%
 ---
 # 첫 게재 만들어 보기 {#create-a-msg}
 
@@ -129,7 +129,7 @@ ht-degree: 93%
 
      ![](assets/target-recipient-delivery.png)
 
-   * **[!UICONTROL Delivery recipients belonging to a folder]**: 특정 폴더에 포함된 수신자 게재에서 대상을 작성하려면 이 옵션을 사용합니다.
+   * **[!UICONTROL Delivery recipients belonging to a folder]**: 이 옵션을 사용하여 특정 폴더에 포함된 게재 수신자로부터 대상을 빌드합니다.
 
      ![](assets/target-delivery-folder.png)
 
@@ -146,7 +146,7 @@ ht-degree: 93%
      ![](assets/target-service.png)
 
    * **[!UICONTROL User filters]**: 이 옵션을 사용하면 미리 구성된 필터에 액세스하여 데이터베이스의 프로필에 대한 필터링 기준으로 사용할 수 있습니다. 미리 구성된 필터는 [이 섹션](../audiences/create-filters.md#default-filters)에 나와 있습니다.
-   * **[!UICONTROL Exclude recipients from this segment]** 옵션을 사용하면 정의된 대상 기준을 충족하지 않는 수신자를 타기팅할 수 있습니다. 이 옵션을 사용하려면 적절한 상자를 선택한 다음 앞에서 정의한 대로 타기팅을 적용하여 결과 프로필을 제외합니다.
+   * **[!UICONTROL Exclude recipients from this segment]** 옵션을 사용하면 정의된 대상 기준을 충족하지 않는 수신자를 타깃팅할 수 있습니다. 이 옵션을 사용하려면 적절한 상자를 선택한 다음 앞에서 정의한 대로 타기팅을 적용하여 결과 프로필을 제외합니다.
 
 1. **[!UICONTROL Label]** 필드에 이 타기팅의 이름을 입력합니다. 기본적으로 이 레이블은 첫 번째 타기팅 기준의 레이블입니다. 필터링 기준을 결합할 때는 명시적 이름을 사용하는 것이 좋습니다.
 1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭하여 타기팅 옵션을 확인합니다.
@@ -230,6 +230,6 @@ ht-degree: 93%
 
 ## 게재 구성 및 보내기 {#configuring-and-sending-the-delivery}
 
-게재 매개 변수에 액세스하여 더 많은 설정을 구성하고 메시지를 보내는 방법을 정의합니다. 게재 우선 순위를 정의하고, 예약된 일괄 처리 전송을 설정하고, 재시도 설정을 구성하고, 게재 전송을 테스트할 수 있습니다. 이 구성이 완료되면 전송을 확인할 수 있습니다. 그런 다음에는 메시지가 즉시 또는 게재 일정에 따라 전송됩니다.
+게재 매개 변수에 액세스하여 더 많은 설정을 구성하고 메시지를 보내는 방법을 정의합니다. 게재 우선 순위를 정의하고, 전송 예약된 일괄 처리를 설정하고, 다시 시도 설정을 구성하고, 게재 전송을 테스트할 수 있습니다. 이 구성이 완료되면 전송을 확인할 수 있습니다. 그런 다음에는 메시지가 즉시 또는 게재 일정에 따라 전송됩니다.
 
 [이 페이지](../send/configure-and-send.md)에서는 게재 설정을 구성하는 방법을 알아봅니다.

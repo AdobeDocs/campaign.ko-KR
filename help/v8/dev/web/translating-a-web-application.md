@@ -21,9 +21,9 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '365'
 ht-degree: 5%
 ---
 # 웹 애플리케이션 번역{#translating-a-web-application}
@@ -55,7 +55,7 @@ Adobe Campaign DCE(디지털 콘텐츠 편집기)로 만든 웹 애플리케이�
 
    다음과 같은 세 가지 특정 경우가 있습니다.
 
-   * 선택한 블록에 여러 문자열/블록이 포함되어 있으면 번역할 단일 문자열로 플래그가 지정됩니다. 문자열에는 가 포함되며 그 뒤에는 이 블록 내에 있는 요소의 HTML 코드가 포함됩니다.
+   * 선택한 블록에 여러 문자열/블록이 포함되어 있으면 번역할 단일 문자열로 플래그가 지정됩니다. 그러면 문자열에는 이 블록 내에 있는 요소의 HTML 코드가 포함됩니다.
    * 여러 문자열이 포함된 블록에 플래그를 지정하려는 경우 이러한 문자열 중 하나 이상에 이미 플래그가 지정되어 있으면 경고가 표시됩니다. 그런 다음 격리된 문자열에서 플래그를 제거하고 전체 블록을 추가할 수 있습니다.
 
      ![](assets/dce_translation_4.png)
@@ -69,7 +69,7 @@ Adobe Campaign DCE(디지털 콘텐츠 편집기)로 만든 웹 애플리케이�
 
    >[!NOTE]
    >
-   >문자열이 수집되면 DCE에서 번역 플래그를 제거해도 목록에서 제거되지 않습니다. 이렇게 하면 번역 메모리에 보관할 수 있습니다.
+   >문자열이 수집되면 DCE에서 번역 플래그를 제거해도 목록에서 제거되지 않습니다. 이를 통해 파일을 번역 메모리에 보관할 수 있습니다.
 
 1. 문자열을 번역하고 승인합니다.
 

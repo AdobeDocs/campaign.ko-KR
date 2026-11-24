@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1782'
 ht-degree: 8%
 ---
 # 전반적 보고서 {#global-reports}
@@ -118,7 +118,7 @@ ht-degree: 8%
 * **[!UICONTROL Inbox full]**: 5회 게재 시도 후 생성된 오류 유형은 받는 사람의 받은 편지함에 너무 많은 메시지가 있음을 나타냅니다.
 * **[!UICONTROL Account disabled]**: 주소가 더 이상 존재하지 않음을 나타내기 위해 게재를 보낼 때 오류 형식이 생성되었습니다.
 * **[!UICONTROL Rejected]**: 보안 규칙(스팸 방지 소프트웨어)을 적용한 다음 IAP(인터넷 액세스 공급자)에서 주소를 거부할 때 생성되는 오류 유형입니다.
-* **[!UICONTROL Unreachable]**: 메시지 배포 문자열에서 발생하는 오류 유형: SMTP 릴레이의 문제, 일시적으로 연결할 수 없는 도메인 등
+* **[!UICONTROL Unreachable]**: 메시지 배포 문자열에서 발생하는 오류 유형: SMTP 릴레이의 문제, 일시적으로 연결할 수 없는 도메인 등.
 * **[!UICONTROL Not connected]**: 전송 시 받는 사람의 휴대폰이 꺼져 있거나 네트워크 연결이 끊어져 있음을 나타내는 오류 형식입니다.
 
   >[!NOTE]

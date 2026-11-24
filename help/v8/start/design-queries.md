@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '886'
 ht-degree: 3%
 ---
 # Campaign 데이터베이스 쿼리
@@ -155,7 +155,7 @@ SQL 언어에 익숙한 사용자는 **[!UICONTROL Generate SQL query]**&#x200B;
 
 >[!NOTE]
 >
->콘솔에서 사용할 수 있는 모든 목록의 경우처럼 기본적으로 처음 200개의 줄만 **[!UICONTROL Data preview]** 창에 표시됩니다. 변경하려면 **[!UICONTROL Lines to display]** 상자에 숫자를 입력하고 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭합니다. [자세히 알아보기](../config/ui-settings.md#customize-lists)
+>콘솔에서 사용할 수 있는 모든 목록은 기본적으로 처음 200개의 줄만 **[!UICONTROL Data preview]** 창에 표시됩니다. 변경하려면 **[!UICONTROL Lines to display]** 상자에 숫자를 입력하고 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭합니다. [자세히 알아보기](../config/ui-settings.md#customize-lists)
 
 
 

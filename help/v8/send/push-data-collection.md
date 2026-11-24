@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1422'
 ht-degree: 2%
 ---
 # 수정된 푸시 알림 구성 {#push-notifications-config}
@@ -44,7 +44,7 @@ Campaign v8.5는 최신 첨단 기술을 기반으로 구축된 강력한 프레
 
 1. [Adobe Experience Platform 데이터 수집에서 모바일 속성 만들기 및 구성](#create-mobile-property)
 
-1. [Adobe Adobe Experience Platform Assurance 확장 추가](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}(권장)
+1. [Adobe Experience Platform Assurance 확장 추가](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}(권장)
 
 1. [모바일 애플리케이션에 Campaign Classic 추가](#campaign-mobile-ap)
 
@@ -177,7 +177,7 @@ iOS 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
    ![](assets/push-config-9.png)
 
-1. 서비스의 모바일 애플리케이션을 개인화하려면 **[!UICONTROL Application icon]** 필드에서 아이콘을 선택하십시오.
+1. **[!UICONTROL Application icon]** 필드에서 아이콘을 선택하여 서비스의 모바일 애플리케이션을 개인화합니다.
 
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 프로덕션 응용 프로그램 구성을 시작하고 위에 설명된 것과 동일한 단계를 수행합니다. 개발 버전(샌드박스) 및 응용 프로그램의 프로덕션 버전에는 동일한 **[!UICONTROL Integration key]**&#x200B;을(를) 사용할 수 없습니다.
 
