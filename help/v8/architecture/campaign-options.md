@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 36111995a9a550d5089107bbc1f734c204db8aff
+source-git-commit: 92bab89570eca3eb13d6010db0deec74e7860c91
 workflow-type: tm+mt
-source-wordcount: '2828'
+source-wordcount: '2849'
 ht-degree: 3%
 ---
 # 캠페인 옵션 {#campaign-options}
@@ -60,7 +60,7 @@ JavaScript 코드, 개인화 및 쿼리에서 옵션 값을 읽고 쓸 수 있�
 
 ## 사용 가능한 옵션 {#available-options}
 
-아래 표에는 영역별로 그룹화된 Campaign v8에서 사용할 수 있는 옵션이 나열되어 있습니다. 설명서의 다른 페이지에서 옵션을 설명하는 경우 해당 옵션이 표로 연결됩니다.
+아래 표에는 영역별로 그룹화된 Campaign v8에서 사용할 수 있는 옵션이 나열되어 있습니다. 설명서의 다른 페이지에서 옵션을 설명하는 경우 해당 옵션이 표로 연결됩니다. 일부 항목은 정보 제공 또는 유지 관리 옵션입니다. 옵션을 나열한다고 해서 변경해도 안전하다는 의미는 아니다.
 
 ### 게재 {#delivery-options}
 
@@ -83,7 +83,6 @@ JavaScript 코드, 개인화 및 쿼리에서 옵션 값을 읽고 쓸 수 있�
 | NmsMTA_Alert_Delay | 지연, 분 단위, 그 이후 게재가 지연된 것으로 간주됩니다. 기본값은 30분입니다. |
 | NmsServer_MirrorPageUrl | 미러 페이지 서버의 URL. 라우팅 정의에 URL이 지정되지 않은 경우 이메일 게재의 기본값입니다. 기본적으로 추적 서버 URL과 동일합니다. |
 | XtkBarcode_SpecialChar | Code128 바코드에 대한 특수 문자 지원을 활성화하거나 비활성화합니다. |
-| XtkSecurity_Restrict_EditXML | 게재 XML 코드 편집을 비활성화하려면 값을 0으로 추가합니다(XML 소스 편집 또는 Ctrl+F4). |
 | NMS_ActivateOwnerConfirmation | 게재 시작을 위해 특정 운영자 또는 그룹을 지정한 경우 게재 담당 운영자가 전송을 확인할 수 있도록 1로 설정합니다. 비활성화하려면 0으로 설정합니다. 지정된 운영자, 그룹 또는 관리자만 전송을 확인할 수 있습니다. |
 | NmsDelivery_senderAddressMask | 이메일 게재의 보낸 사람 이메일 필드에 허용된 발신자 주소를 쉼표로 구분한 목록입니다. 옵션에 값이 있으면 필드가 드롭다운 목록이 됩니다. 제한 사항은 전역입니다. 모든 브랜드 및 게재 템플릿에 적용되며 정적 주소만 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/options#restrict-sender-address){target="_blank"} |
 
@@ -164,6 +163,8 @@ JavaScript 코드, 개인화 및 쿼리에서 옵션 값을 읽고 쓸 수 있�
 
 정리 워크플로우는 오래된 레코드를 삭제하여 데이터베이스가 커지는 것을 방지합니다. 이러한 옵션은 Campaign에서 각 유형의 데이터를 유지하는 기간을 정의합니다. 인터페이스에서 지연을 변경하면 제거 지연 옵션이 자동으로 만들어집니다. 옵션 목록에서 편집하는 경우 값을 초 단위로 표현합니다. 자세한 내용은 [일반 아키텍처](general-architecture.md) 및 [보안 지침](../config/security.md#consent)을 참조하세요.
 
+관리자만 지우기 지연 옵션을 수정할 수 있습니다. 적절한 값은 환경에 따라 다르므로 인스턴스의 현재 값을 확인하고 범용 기본값을 가정하지 마십시오.
+
 | 옵션 | 설명 |
 |---|---|
 | NmsCleanup_BroadLogPurgeDelay | 게재 로그(브로드로그)가 지워진 후 지연됩니다. |
@@ -178,7 +179,6 @@ JavaScript 코드, 개인화 및 쿼리에서 옵션 값을 읽고 쓸 수 있�
 | NmsCleanup_RejectPurgeDelay | 거부가 지워지는 지연. |
 | NmsCleanup_VisitorPurgeDelay | 방문자가 지워진 후 지연됩니다. |
 | NmsCleanup_WorkflowResultPurgeDelay | 워크플로우 결과가 지워지는 지연 시간. |
-| XtkCleanup_NoStats | 정리 워크플로우가 데이터베이스 통계를 업데이트하지 않도록 1로 설정합니다. |
 | WdbcKillSessionPolicy | PostgreSQL에서 워크플로 무조건적 중지의 비헤이비어. 0 (기본값): 데이터베이스에 영향을 주지 않고 워크플로우 프로세스를 중지합니다. 1: 프로세스를 중지하고 쿼리를 취소합니다(pg_cancel_backend). 2: 프로세스를 중지하고 쿼리를 종료합니다(pg_terminate_backend). |
 | XtkSequence_AutoGeneration | 이 옵션이 설정된 후 생성된 사용자 정의 스키마에 적용되며, autopk=&quot;true&quot;이고 pkSequence 속성이 없습니다. Campaign은 시퀀스를 자동으로 생성합니다. |
 
@@ -201,8 +201,8 @@ JavaScript 코드, 개인화 및 쿼리에서 옵션 값을 읽고 쓸 수 있�
 | 옵션 | 설명 |
 |---|---|
 | NmsInteraction_UseDaemon | 제안에 대한 비동기 쓰기를 활성화하려면 1로 설정하고 비활성화하려면 0으로 설정합니다. |
-| NmsInteraction_MapWorkflowId | 생성된 모든 동기화 워크플로 목록입니다. 컨트롤 인스턴스의 유지 관리 옵션입니다. |
-| NmsExecutionInstanceId | 실행 인스턴스 식별자. 실행 인스턴스에서 사용할 수 있습니다. |
+| NmsInteraction_MapWorkflowId | 생성된 모든 동기화 워크플로 목록입니다. 제어 인스턴스의 정보 유지 관리 옵션: 수정하지 마십시오. |
+| NmsExecutionInstanceId | 실행 인스턴스 식별자. 실행 인스턴스에서 정보 옵션을 사용할 수 있습니다. 수정하지 마십시오. |
 
 다음 옵션도 제어 인스턴스의 유지 관리 옵션입니다.
 
