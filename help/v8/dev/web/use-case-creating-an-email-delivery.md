@@ -60,7 +60,7 @@ ht-degree: 1%
 
 ## 1단계 - 게재 만들기 {#step-1---creating-a-delivery}
 
-새 게재를 만들려면 **캠페인** 탭에 커서를 놓고 **게재**&#x200B;을 클릭합니다. 기존 게재 목록 위에 있는 **만들기** 단추를 클릭합니다. 게재 만들기에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}를 참조하세요.
+새 게재를 만들려면 **캠페인** 탭에 커서를 놓고 **게재**&#x200B;을 클릭합니다. 기존 게재 목록 위에 있는 **만들기** 단추를 클릭합니다. 게재 만들기에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}를 참조하세요.
 
 ![](assets/delivery_step_1.png)
 

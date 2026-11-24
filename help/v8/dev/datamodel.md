@@ -87,7 +87,7 @@ Adobe Campaign의 기본 제공 수신자 테이블(nmsrecipient)은 데이터 �
 
 [이 섹션](extend-schema.md)에서 기존 스키마를 확장하는 방법을 알아보세요.
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}에서 기본 제공 수신자 테이블 확장의 예를 살펴봅니다.
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ko#extending-a-table){target="_blank"}에서 기본 제공 수신자 테이블 확장의 예를 살펴봅니다.
 
 비즈니스 또는 기능 요구 사항에 더 잘 부합하도록 다른 수신자 테이블을 사용할 수도 있습니다. 이 메서드는 제한 사항이 있으며 [이 섹션](custom-recipient.md)에 설명되어 있습니다.
 

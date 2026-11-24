@@ -43,6 +43,6 @@ ht-degree: 19%
 * [이 설명서](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ko){target="_blank"}에서 새 Campaign 웹 사용자 인터페이스에 대해 자세히 알아보세요.
 
 <!--
-* Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in the [Campaign v8 Adoption Guide](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}.
+* Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in the [Campaign v8 Adoption Guide](https://experienceleague.adobe.com/ko/docs/campaign-web/acs-to-ac/home){target="_blank"}.
 -->
 

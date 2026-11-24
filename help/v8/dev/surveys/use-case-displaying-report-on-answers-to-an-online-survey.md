@@ -93,7 +93,7 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
 ## 2단계 - 큐브, 큐브 측정 단위 및 큐브 표시기 만들기 {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-그런 다음 큐브를 만들고 해당 측정 단위를 구성할 수 있습니다. 이 측정 단위는 보고서에 표시될 지표를 만드는 데 사용됩니다. 큐브를 만들고 구성하는 방법에 대한 자세한 내용은 [큐브 정보](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}를 참조하세요.
+그런 다음 큐브를 만들고 해당 측정 단위를 구성할 수 있습니다. 이 측정 단위는 보고서에 표시될 지표를 만드는 데 사용됩니다. 큐브를 만들고 구성하는 방법에 대한 자세한 내용은 [큐브 정보](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}를 참조하세요.
 
 이 예에서 큐브는 이전에 만든 워크플로우에서 제공한 목록의 데이터를 기반으로 합니다.
 
