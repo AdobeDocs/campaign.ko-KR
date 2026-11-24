@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
   범주는 온라인 환경에서 수동으로 게시할 수도 있습니다.
 
-  오퍼 승인 프로세스는 이 섹션[&#128279;](interaction-offer.md#approve-offers)에 자세히 설명되어 있습니다.
+  오퍼 승인 프로세스는 이 섹션](interaction-offer.md#approve-offers)에 자세히 설명되어 있습니다.[
 
 * 디자인 환경의 승인된 오퍼와 디자인 환경에 구성된 다양한 오퍼 공간, 필터, 카테고리 및 규칙이 모두 있는 **live** 환경을 찾을 수 있습니다. 오퍼 엔진을 호출하는 동안 엔진은 항상 라이브 환경의 오퍼를 사용합니다.
 
@@ -68,7 +68,7 @@ Adobe Campaign 상호 작용 모듈은 다음 두 가지 유형의 상호 작용
 
 ![](assets/interaction_powerbooster_schema.png)
 
-제어 인스턴스는 인바운드 채널 전용이며 카탈로그의 온라인 버전을 포함합니다. 모든 실행 인스턴스는 독립적이며 하나의 연락처 세그먼트에 전용으로 사용됩니다(예: 국가당 하나의 실행 인스턴스). 오퍼 엔진에 대한 호출은 실행 시 직접 수행해야 합니다(실행 인스턴스당 하나의 특정 URL). 인스턴스 간 동기화가 자동이 아니므로 동일한 연락처의 상호 작용은 동일한 인스턴스를 통해 전송되어야 합니다.
+실행 인스턴스는 인바운드 채널 전용이며 카탈로그의 온라인 버전을 포함합니다. 모든 실행 인스턴스는 독립적이며 하나의 연락처 세그먼트에 전용으로 사용됩니다(예: 국가당 하나의 실행 인스턴스). 오퍼 엔진에 대한 호출은 실행 시 직접 수행해야 합니다(실행 인스턴스당 하나의 특정 URL). 인스턴스 간 동기화가 자동이 아니므로 동일한 연락처의 상호 작용은 동일한 인스턴스를 통해 전송되어야 합니다.
 
 ### 동기화 {#synchronization}
 
@@ -102,7 +102,7 @@ Adobe Campaign 상호 작용 모듈은 다음 두 가지 유형의 상호 작용
 
 >[!NOTE]
 >
->패키지를 설치할 때 제안 ID와 같은 **nms:proposition** 테이블의 **long** 형식 필드는 **int64** 형식 필드가 됩니다. 이 유형의 데이터는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=ko#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}에 자세히 설명되어 있습니다.
+>패키지를 설치할 때 제안 ID와 같은 **nms:proposition** 테이블의 **long** 형식 필드는 **int64** 형식 필드가 됩니다. 이 유형의 데이터는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}에 자세히 설명되어 있습니다.
 
 데이터 보존 기간은 배포 마법사의 **[!UICONTROL Data purge]** 창을 통해 각 인스턴스에 구성됩니다. 실행 인스턴스에서 이 기간은 유형화 규칙(슬라이딩 기간) 및 자격 규칙을 계산하는 데 필요한 기록 깊이에 해당해야 합니다.
 
