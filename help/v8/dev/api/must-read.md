@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '378'
 ht-degree: 1%
 ---
 # 반드시 알아야 할 사항 {#must-read}
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 * 기본적으로 Adobe Campaign API는 관리자 컨텍스트를 사용하므로 조직 단위 및 역할은 적용되지 않습니다.
 * Adobe Campaign API는 역할 컨텍스트에서 제외됩니다.
-* 조직 단위 또는 역할을 사용하여 API를 구성하려면 먼저 Adobe 기술 담당자에게 문의하십시오.
+* 조직 단위 또는 역할을 사용하여 API를 구성하려면 먼저 Adobe 기술 담당자에게 확인하십시오.
 
 ## 리소스 표시
 

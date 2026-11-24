@@ -20,9 +20,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '941'
 ht-degree: 9%
 ---
 # 이메일 매개변수 {#email-parameters}
@@ -91,7 +91,7 @@ ht-degree: 9%
 
 ## 원클릭 목록 구독 취소 활성화 {#one-click-list-unsubscribe}
 
-원클릭 목록 구독 취소 URL은 이메일 발신자 정보 옆에 표시되는 링크 또는 단추로서, 한 번의 클릭으로 수신자가 메일링 목록에서 즉시 옵트아웃할 수 있습니다. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ko#list-unsubscribe){target="_blank"}-->
+원클릭 목록 구독 취소 URL은 이메일 발신자 정보 옆에 표시되는 링크 또는 단추로서, 한 번의 클릭으로 수신자가 메일링 목록에서 즉시 옵트아웃할 수 있습니다. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
 
 ISP의 이메일 인터페이스에 **구독 취소** 링크로 표시됩니다. 예제:
 
@@ -131,7 +131,7 @@ ISP의 이메일 인터페이스에 **구독 취소** 링크로 표시됩니다.
 
 >[!NOTE]
 >
->[한 번 클릭 목록 구독 취소](https://experienceleague.adobe.com/ko/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} 및 [&quot;mailto&quot; 목록 구독 취소](https://experienceleague.adobe.com/ko/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} 메서드를 수동으로 설정할 수도 있습니다. 자세한 단계는 Experience Cloud [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ko#list-unsubscribe){target="_blank"}에 설명되어 있습니다.
+>[한 번 클릭 목록 구독 취소](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} 및 [&quot;mailto&quot; 목록 구독 취소](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} 메서드를 수동으로 설정할 수도 있습니다. 자세한 단계는 Experience Cloud [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}에 설명되어 있습니다.
 
 
 ## SMTP 헤더 추가 {#adding-smtp-headers}

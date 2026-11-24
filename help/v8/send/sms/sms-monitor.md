@@ -28,9 +28,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '226'
 ht-degree: 0%
 ---
 # SMS 모니터링 및 추적
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ## SMS 게재 대시보드 이해
 
-게재 대시보드는 SMS에 대한 많은 정보를 제공합니다.
+게재 대시보드는 SMS에 대한 다양한 정보를 제공합니다.
 
 대시보드에 액세스하려면 게재 목록에서 게재를 두 번 클릭합니다.
 

@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 97%
+ht-degree: 92%
 ---
 # Campaign 구현 지침{#gs-implementation}
 
@@ -57,7 +57,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->**Campaign Managed Cloud Services**&#x200B;를 사용하면 Adobe가 라이선스 계약의 약관에 따라 환경 및 초기 구성을 설정합니다. 설치된 기본 제공 패키지, 기본 제공 스키마 또는 보고서는 수정할 수 없습니다.
+>**Campaign Managed Cloud Services**&#x200B;를 사용하면 Adobe이 라이선스 계약의 약관에 따라 환경 및 초기 구성을 설정합니다. 설치된 기본 제공 패키지, 기본 제공 스키마 또는 보고서는 수정할 수 없습니다.
 >
 >Campaign 추가 기능 또는 제공되지 않은 특정 기능을 사용해야 하는 경우 **Adobe 전환 관리자**&#x200B;에 문의해야 합니다.
 
@@ -67,7 +67,7 @@ ht-degree: 97%
 
 ### 개인 정보{#implementation-privacy}
 
-Adobe Campaign에는 적용 가능한 데이터 개인 정보 보호법 및 수신자 기본 설정을 준수하는 Campaign을 사용할 수 있는 프로세스와 설정이 포함되어 있습니다. 다음을 관리할 수 있습니다.
+Adobe Campaign에는 적용 가능한 데이터 개인정보 보호법 및 수신자 기본 설정을 준수하는 Campaign을 사용할 수 있는 프로세스와 설정이 포함되어 있습니다. 다음을 관리할 수 있습니다.
 
 * **데이터 수집**: Adobe Campaign을 사용하면 개인 및 중요 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다.
 
@@ -195,7 +195,7 @@ Campaign의 다양한 영역과 기능을 사용자 지정할 수 있습니다. 
 
 SSO(Single Sign-On)만 사용하여 Campaign에 접속할 수도 있습니다. [이 페이지](connect.md)에서 자세히 알아보십시오.
 
-Adobe Campaign과 통합할 수 있는 Adobe 솔루션의 전체 목록은 [이 페이지](../connect/integration.md)를 참조하십시오.
+이 페이지](../connect/integration.md)에서 Adobe Campaign [과(와) 통합할 수 있는 Adobe 솔루션의 전체 목록을 살펴보세요.
 
 ### 커넥터{#implementation-connectors}
 

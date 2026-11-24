@@ -36,7 +36,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 6%
@@ -56,7 +56,7 @@ Adobe Campaign에는 다음과 같은 기본 제공 대상 매핑이 포함되�
 | 이름 | 사용 대상 | 스키마 |
 |---|---|---|
 | 수신자 | 수신자에게 게재(기본 제공 수신자 테이블) | nms:recipient |
-| 방문자 | 참조(바이럴 마케팅)를 통해 프로필이 수집된 방문자에게 제공합니다. | mns:visitor |
+| 방문자 | 참조(바이럴 마케팅)를 통해 프로필이 수집된 방문자에게 제공합니다. | nms:visitor |
 | 구독 | 뉴스레터 등 정보 서비스를 구독한 수신자에게 게재 | nms:subscription |
 | 방문자 구독 | 정보 서비스를 구독한 방문자에게 게재 | nms:visitorSub |
 | 연산자 | Adobe Campaign 운영자에게 게재 | nms:operator |

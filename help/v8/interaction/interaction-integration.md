@@ -24,7 +24,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 0%
@@ -107,7 +107,7 @@ HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 
 
 ### 식별된 오퍼 제공 {#presenting-an-identified-offer}
 
-식별된 연락처에 오퍼를 제공하기 위한 프로세스는 이 섹션[&#128279;](#presenting-an-anonymous-offer)의 자세한 과(와) 유사합니다.
+식별된 연락처에 오퍼를 제공하기 위한 프로세스는 이 섹션의 [에 자세히 설명된 프로세스와 유사합니다](#presenting-an-anonymous-offer).
 
 웹 페이지의 콘텐츠에서 오퍼 엔진 호출 중에 연락처를 식별하는 다음 스크립트를 추가해야 합니다.
 
@@ -227,7 +227,7 @@ Campaign **상호 작용** 모듈을 사용하면 오퍼 엔진을 호출하는 
 
 1. **오퍼 수식을 확장하여 새 필드를 편집하고 기존 필드를 수정합니다**
 
-   **오퍼(nsm)** 입력 양식을 편집합니다.
+   **오퍼(nms)** 입력 양식을 편집합니다.
 
    &quot;보기&quot; 섹션에 다음 콘텐츠가 있는 두 개의 새 필드를 삽입합니다.
 

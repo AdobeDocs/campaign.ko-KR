@@ -21,9 +21,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 8%
 ---
 # 최상의 오퍼 제공{#interaction-present-offers}
@@ -36,7 +36,7 @@ ht-degree: 8%
 
 이 작업에 대한 자세한 정보는 [이 섹션](approving-and-activating-an-offer.md#approving-offer-content)을 참조하십시오.
 
-인바운드 연락처의 컨텍스트에서 페이지를 탐색하는 사용자를 웹 사이트로 식별하거나 식별하지 못할 수 있습니다. 오퍼 엔진은 식별된 프로필과 익명 프로필에 대해 서로 다른 오퍼를 제공합니다.
+인바운드 연락처의 컨텍스트에서 페이지를 탐색 중인 사용자를 웹 사이트로 식별하거나 식별하지 못할 수 있습니다. 오퍼 엔진은 식별된 프로필과 익명 프로필에 대해 서로 다른 오퍼를 제공합니다.
 
 인바운드 채널에 오퍼를 제공하기 전에 오퍼를 제공할 오퍼 엔진 호출을 구성해야 합니다. 대부분의 경우 인바운드 상호 작용의 경우 웹 페이지입니다.
 

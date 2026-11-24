@@ -26,14 +26,14 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 3%
 ---
 # 대화형 콘텐츠 정의{#defining-interactive-content}
 
-Adobe Campaign을 사용하면 특정 조건에서 동적 이메일을 보낼 수 있는 대화형 [AMP for Email](https://amp.dev/about/email/) 형식을 사용할 수 있습니다.
+Adobe Campaign을 사용하면 대화형 [AMP for Email](https://amp.dev/about/email/) 형식을 사용하여 특정 조건에서 동적 이메일을 보낼 수 있습니다.
 
 AMP for Email을 사용하면 다음과 같은 작업을 수행할 수 있습니다.
 * 적절하게 구성된 특정 주소에 AMP 이메일 전달을 테스트합니다.
@@ -216,4 +216,4 @@ AMP 콘텐츠와 대체 항목이 준비되고 호환되는 타겟을 정의하�
 
 아래 비디오에서는 Adobe Campaign에서 AMP를 활성화하는 방법을 설명하고 사용 사례를 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/36393?captions=kor&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)

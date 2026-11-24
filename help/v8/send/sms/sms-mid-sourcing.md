@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '580'
 ht-degree: 0%
 ---
 # 중간 소싱 인프라의 SMS {#sms-mid}
@@ -55,7 +55,7 @@ SMS 연산자를 만들려면 아래 단계를 수행합니다.
 1. **[!UICONTROL Administration]** > **[!UICONTROL Access management]** > **[!UICONTROL Operators]**&#x200B;에서 **[!UICONTROL New]**&#x200B;을(를) 클릭하고 열린 새 창에서 양식을 채우십시오.
 
    * **[!UICONTROL Name (login)]** 및 **[!UICONTROL Label]**&#x200B;은(는) 필수입니다.
-   * 암호는 필수가 아니지만 보안을 위해 적극 권장합니다.
+   * 암호는 필수가 아니지만 보안을 위해 매우 권장됩니다.
 
    이름(로그인)은 나중에 중간 서버에서 SMPP 외부 계정의 이름을 지정하는 데 사용됩니다.
 
@@ -119,7 +119,7 @@ SMS 연산자를 만들려면 아래 단계를 수행합니다.
    >내부 이름을 할당할 때 지정된 명명 규칙을 따라야 합니다. `SMS Operator Name_Internal Name of the Marketing SMS external account`.
    >
 
-   계정 유형을 **[!UICONTROL Routing]**(으)로 정의하고 **[!UICONTROL Enabled]** 상자를 선택한 다음 채널의 경우 **[!UICONTROL Mobile (SMS)]**&#x200B;을(를) 선택하고 게재 모드의 경우 **[!UICONTROL Bulk delivery]**&#x200B;을(를) 선택합니다.
+   계정 유형을 **[!UICONTROL Routing]**(으)로 정의하고 **[!UICONTROL Enabled]** 상자를 선택한 다음 채널의 경우 **[!UICONTROL Mobile (SMS)]**&#x200B;을(를) 선택하고 게재 모드의 경우 **[!UICONTROL Bulk delivery]**을(를) 선택합니다.
    ![](assets/mid_extaccount.png){zoomable="yes"}
 
 1. **[!UICONTROL Mobile]** 탭에서 **[!UICONTROL Extended generic SMPP]**&#x200B;을(를) **[!UICONTROL Connector]** 드롭다운 목록에 유지합니다.

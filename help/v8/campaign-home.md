@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 44%
+source-wordcount: '504'
+ht-degree: 43%
 ---
 # Adobe Campaign v8(콘솔) 설명서 {#campaign-documentation}
 
@@ -40,7 +40,7 @@ Adobe Campaign v8(클라이언트 콘솔) 제품 및 설명서의 최신 개선 
 
 >[!TAB Campaign v8.9 릴리스 정보]
 
-Adobe Campaign의 최신 버전이 공개되었습니다. 자세한 내용은 릴리스 정보를 참조하십시오.
+Adobe Campaign의 최신 버전이 공개되었습니다. 자세한 내용은 릴리스 정보 를 참조하십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
 

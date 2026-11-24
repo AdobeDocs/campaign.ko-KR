@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 1%
@@ -119,7 +119,7 @@ ht-degree: 1%
 
    디자인 단계가 완료되면 양식을 전달할 수 있습니다.
 
-   양식의 상태가 **[!UICONTROL Being edited]** 또는 **[!UICONTROL Pending publication]**&#x200B;인 경우 온라인이고 브라우저에서 웹 양식 URL을 통해 액세스할 수 있으려면 [게시됨](#publishing-a-form)이어야 합니다.
+   양식의 상태가 **[!UICONTROL Being edited]** 또는 **[!UICONTROL Pending publication]**&#x200B;인 경우 온라인에서 브라우저에서 웹 양식 URL을 통해 액세스할 수 있으려면 [게시됨](#publishing-a-form)이어야 합니다.
 
    게시되면 양식이 만료될 때까지 활성화됩니다.
 
@@ -203,7 +203,7 @@ ht-degree: 1%
 
   * 웹 양식이 새 인스턴스에 이미 있으면 새 버전의 양식으로 대체되며 이전 버전의 양식이 **[!UICONTROL Online]**&#x200B;인 경우에도 **[!UICONTROL Pending publication]** 상태를 사용합니다.
 
-  * 양식의 존재 여부에 관계없이 새 인스턴스에서 **[!UICONTROL Online]**&#x200B;이(가) 되고 브라우저에서 웹 양식 URL을 통해 액세스할 수 있도록 하려면 양식이 [게시됨](#publishing-a-form)이어야 합니다.
+  * 양식이 있는지 여부에 관계없이 새 인스턴스에서 **[!UICONTROL Online]**&#x200B;이(가) 되고 브라우저에서 웹 양식 URL을 통해 액세스할 수 있으려면 양식이 [게시됨](#publishing-a-form)이어야 합니다.
 
 * 내보낼 때 웹 양식 상태가 **[!UICONTROL Being edited]**&#x200B;인 경우:
 

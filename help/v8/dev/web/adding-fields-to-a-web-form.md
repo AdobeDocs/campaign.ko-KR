@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -332,7 +332,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->정보 서비스는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}에 자세히 설명되어 있습니다.
+>정보 서비스는 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}에 자세히 설명되어 있습니다.
 
 사용자는 해당 옵션을 선택하여 서비스에 가입한다.
 

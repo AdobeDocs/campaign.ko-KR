@@ -21,7 +21,7 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 2%
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 ## 컨테이너 만들기 {#creating-containers}
 
-컨테이너를 사용하여 페이지의 필드를 결합하고 레이아웃을 구성할 수 있습니다. 따라서 페이지에서 요소를 구성할 수 있습니다.
+컨테이너를 사용하여 페이지의 필드를 결합하고 레이아웃을 구성하고 페이지에서 요소를 구성할 수 있습니다.
 
 양식의 각 페이지에 대해 도구 모음의 **[!UICONTROL Containers]** 단추를 통해 컨테이너가 만들어집니다.
 

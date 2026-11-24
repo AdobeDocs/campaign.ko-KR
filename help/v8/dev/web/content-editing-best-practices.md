@@ -28,9 +28,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '563'
 ht-degree: 4%
 ---
 # 콘텐츠 편집 모범 사례{#content-editing-best-practices}
@@ -60,7 +60,7 @@ ht-degree: 4%
   ![](assets/dce_enchainement.png)
 
 * 페이지에 `<body> </body>`이(가) 하나만 있는지 확인하십시오.
-* CSS 또는 JS 파일이 업로드되면 .zip 파일 내에 포함된 이미지가 업로드되지 않습니다. 따라서 CSS에 있는 이러한 이미지에 대한 참조는 업데이트되지 않습니다.
+* CSS 또는 JS 파일을 업로드할 때 .zip 파일 내에 포함된 이미지는 업로드되지 않습니다. 따라서 CSS에 있는 이러한 이미지에 대한 참조는 업데이트되지 않습니다.
 
 ## 콘텐츠 편집기 지원 형식 {#content-editor-supported-formats}
 

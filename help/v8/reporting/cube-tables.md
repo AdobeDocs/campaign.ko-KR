@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 1%
@@ -114,7 +114,7 @@ ht-degree: 1%
 
    ![](assets/cube-measure-button.png)
 
-1. **[!UICONTROL Use a measure]** 단추에서 기존 측정값 중 하나를 선택합니다.
+1. **[!UICONTROL Use a measure]** 단추를 사용하여 기존 측정값 중 하나를 선택합니다.
 
    ![](assets/cube-add-measure.png)
 
@@ -160,7 +160,7 @@ ht-degree: 1%
 
    ![](assets/cube-add-to-cart.png)
 
-   이를 위해 필요한 만큼 여러 프로필을 수집합니다.
+   여러 프로필을 수집하는 데 필요한 횟수만큼 수행합니다.
 
 1. 내보내기를 실행하기 전에 콘텐츠를 보려면 **[!UICONTROL Show cart]** 단추를 클릭하십시오.
 

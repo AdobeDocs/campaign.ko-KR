@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1111'
 ht-degree: 3%
 ---
 # Adobe Campaign 기본 제공 보고서 {#ootb-reports}
@@ -292,7 +292,7 @@ Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 �
   </tr> 
   <tr> 
    <td> 예산의 누적 진화(budgetCumulativeEvolution)<br /> </td> 
-   <td> 누적 예산 비용이 커밋<br /> 연고 수준별로 분류되었습니다. </td> 
+   <td> 약정 수준별로 분류된 누적 예산 비용의 발전. </td> 
    <td> nms:budget<br /> </td> 
   </tr> 
   <tr> 

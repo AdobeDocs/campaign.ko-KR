@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1782'
 ht-degree: 8%
 ---
 # 전반적 보고서 {#global-reports}
@@ -74,7 +74,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->[Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ko){target="_blank"}을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다.
+>[Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다.
 >
 >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel){target="_blank"}에 자세히 설명되어 있습니다.
 >
@@ -118,7 +118,7 @@ ht-degree: 8%
 * **[!UICONTROL Inbox full]**: 5회 게재 시도 후 생성된 오류 유형은 받는 사람의 받은 편지함에 너무 많은 메시지가 있음을 나타냅니다.
 * **[!UICONTROL Account disabled]**: 주소가 더 이상 존재하지 않음을 나타내기 위해 게재를 보낼 때 오류 형식이 생성되었습니다.
 * **[!UICONTROL Rejected]**: 보안 규칙(스팸 방지 소프트웨어)을 적용한 다음 IAP(인터넷 액세스 공급자)에서 주소를 거부할 때 생성되는 오류 유형입니다.
-* **[!UICONTROL Unreachable]**: 메시지 배포 문자열에서 발생하는 오류 유형: SMTP 릴레이의 문제, 일시적으로 연결할 수 없는 도메인 등
+* **[!UICONTROL Unreachable]**: 메시지 배포 문자열에서 발생하는 오류 유형: SMTP 릴레이의 문제, 일시적으로 연결할 수 없는 도메인 등.
 * **[!UICONTROL Not connected]**: 전송 시 받는 사람의 휴대폰이 꺼져 있거나 네트워크 연결이 끊어져 있음을 나타내는 오류 형식입니다.
 
   >[!NOTE]

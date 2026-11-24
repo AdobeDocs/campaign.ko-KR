@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 3%
@@ -53,7 +53,7 @@ ht-degree: 3%
 
 * 인스턴스를 사용할 수 있고 키를 사용할 수 없는 경우 경고 를 계속 진행합니다.
 
-* VPN은 터널링하고 문제가 발생할 경우 경고를 계속 진행합니다.
+* VPN은 터널링되고, 문제가 발생하는 경우 경고를 계속 진행합니다.
 
 ## 안전한 고객 관리 키 통합 {#secure-cmk-integration}
 

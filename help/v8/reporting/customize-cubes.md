@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1444'
 ht-degree: 2%
 ---
 # 큐브 사용자 정의{#cube-custom}
@@ -255,7 +255,7 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
    ![](assets/cube_multiple_filters.png)
 
-필터가 수정 (추가, 제거, 변경)될 때마다 보고서는 다시 계산되어야 합니다.
+필터가 수정(추가, 제거, 변경)될 때마다 보고서를 다시 계산해야 합니다.
 
 선택 항목을 기반으로 필터를 만들 수도 있습니다. 이렇게 하려면 원본 셀, 줄 및 열을 선택한 다음 **[!UICONTROL Add a filter]** 아이콘을 클릭합니다.
 

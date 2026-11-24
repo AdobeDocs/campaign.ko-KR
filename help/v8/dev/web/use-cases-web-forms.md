@@ -25,9 +25,9 @@ subfeature_v2:
     internal-label: Landing pages
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '988'
 ht-degree: 1%
 ---
 # 활용 사례: 웹 양식{#use-cases-web-forms}
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 ### 1단계 - 정보 서비스 만들기 {#step-1---creating-information-services}
 
-1. 수신자에게 제공할 뉴스레터 구독 서비스를 만듭니다. 뉴스레터를 만드는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}을 참조하세요.
+1. 수신자에게 제공할 뉴스레터 구독 서비스를 만듭니다. 뉴스레터를 만드는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}을 참조하세요.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
 
@@ -63,7 +63,7 @@ ht-degree: 1%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. 이 게재 수신자가 승인을 확인하지 않았기 때문에 아직 데이터베이스 차단 목록에 추가하다에 있습니다. 이 사용자가 이 통신을 수신하려면 이 템플릿을 기반으로 하여 수신자를 타겟팅하는 게재를 차단 목록에 추가하다에서 승인해야 합니다.
+1. 이 게재 수신자가 승인을 확인하지 않았기 때문에 아직 데이터베이스 차단 목록에 추가하다에 있습니다. 이들이 이 통신을 수신하려면 차단 목록에 추가하다에서 수신자를 타겟팅하기 위해 이 템플릿을 기반으로 하는 게재를 승인해야 합니다.
 
    이렇게 하려면 **[!UICONTROL Exclusions]** 탭을 클릭합니다.
 

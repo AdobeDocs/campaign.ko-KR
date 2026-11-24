@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1518'
-ht-degree: 55%
+ht-degree: 53%
 ---
 # 2023 릴리스 정보 {#2023-rn}
 
@@ -195,5 +195,5 @@ _2023년 1월 27일 토요일_
 * log4j 라이브러리에 대한 나머지 참조를 Windows의 Campaign 설치에서 제거했습니다. (NEO-44851)
 * **쿼리** 워크플로 활동의 추가 데이터에 **열었던 수신자** (estimatedRecipientOpen) 지표를 추가할 때 오류가 발생하는 문제를 해결했습니다. (NEO-46665)
 * 성능을 개선하기 위해 여러 게재가 있는 워크플로의 추적 URL 관리를 개선했습니다. (NEO-50894) <!--OKKKK-->
-* Xtkfolder를 사용하는 스키마의 복제가 실패하는 문제를 해결했습니다. (NEO-46787) <!--OKKKK-->
-* NmsSubscription 테이블에서 “lastModified” 사용자 정의 열을 삭제하는 문제를 해결했습니다. (NEO-48402)
+* Xtkfolder를 사용하는 스키마 복제가 실패할 수 있는 문제를 해결했습니다. (NEO-46787) <!--OKKKK-->
+* &quot;lastModified&quot; 사용자 지정 열이 NmsSubscription 테이블에 삭제되는 문제를 해결했습니다. (NEO-48402)

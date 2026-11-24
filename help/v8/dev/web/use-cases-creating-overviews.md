@@ -31,7 +31,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 0%
@@ -56,7 +56,7 @@ ht-degree: 0%
 
    ![](assets/s_ncs_configuration_webapp_create.png)
 
-1. 페이지 제목 변경.
+1. 페이지 제목을 변경합니다.
 
    이 제목은 개요 헤더와 웹 애플리케이션 개요에 표시됩니다.
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >이 단계에서 웹 애플리케이션은 해당 애플리케이션 컨텍스트에 없으므로 폴더에서 필터를 테스트할 수 없습니다.
+   >이 단계에서 웹 응용 프로그램은 해당 응용 프로그램 컨텍스트에 없으므로 폴더에서 필터를 테스트할 수 없습니다.
 
 ## 새 웹 애플리케이션 구성을 위한 버튼 추가 {#adding-a-button-to-configure-a-new-web-application}
 

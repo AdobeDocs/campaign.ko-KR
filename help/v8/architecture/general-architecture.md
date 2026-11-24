@@ -50,9 +50,9 @@ topic_v2:
     internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1165'
 ht-degree: 7%
 ---
 # 일반 아키텍처{#general-architecture}
@@ -96,14 +96,14 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 * **워크플로 엔진**(nlserver wfserver) - 이 프로세스는 응용 프로그램에 정의된 워크플로 프로세스를 실행합니다. 또한 다음을 포함하여 주기적으로 실행되는 기술 워크플로우도 처리합니다.
 
   * **추적**: 리디렉션 서버에서 로그를 검색하고 보고 모듈에서 사용하는 집계 지표를 만들 수 있도록 추적 로그를 복구하고 통합합니다.
-  * **정리**: 데이터베이스를 정리하고 이전 레코드를 지우고 데이터베이스가 기하급수적으로 증가하지 않도록 합니다.
+  * **정리**: 데이터베이스를 정리하고 오래된 레코드를 삭제하며 데이터베이스가 기하급수적으로 증가하는 것을 방지합니다.
   * **청구**: 플랫폼에 대한 활동 보고서(데이터베이스 크기, 마케팅 작업 수 등)를 보냅니다.
 
 * **게재 서버**(nlserver mta) - Adobe Campaign에는 기본 전자 메일 브로드캐스트 기능이 있습니다. 이 프로세스는 SMTP 메일 전송 에이전트(MTA)로 작동합니다. 메시지의 &quot;일대일&quot; 개인화를 수행하고 실제 게재를 처리합니다. 게재 작업을 사용하여 실행되고 자동 재시도를 처리합니다. 또한 추적이 활성화되면 리디렉션 서버를 가리키도록 URL이 자동으로 바뀝니다. 이 프로세스는 사용자 지정 및 SMS, 팩스 및 DM용 서드파티 라우터로의 자동 전송을 처리할 수 있습니다.
 
 * **리디렉션 서버**(nlserver webmdl) - 이메일의 경우, Adobe Campaign에서 자동으로 열기 및 클릭 추적을 처리합니다(웹 사이트 수준의 트랜잭션 추적이 가능한 경우). 이를 위해 이메일 메시지에 포함된 URL이 이 모듈을 가리키도록 다시 작성됩니다. 이 모듈은 필요한 URL로 리디렉션하기 전에 인터넷 사용자의 전달을 등록합니다.
 
-  이 프로세스는 고가용성을 보장하기 위해 데이터베이스와 완전히 독립적입니다. 다른 서버 프로세스는 SOAP 호출(HTTP, HTTP(S) 및 XML)만 사용하여 데이터베이스와 통신합니다. 기술적으로 이 기능은 HTTP 서버의 확장 모듈(IIS의 ISAPI 확장 또는 DSO Apache 모듈 등)에서 구현됩니다. 및 는 Windows에서만 사용할 수 있습니다.
+  최고의 가용성을 보장하기 위해 이 프로세스는 데이터베이스와 완전히 독립적입니다. 다른 서버 프로세스는 SOAP 호출(HTTP, HTTP(S) 및 XML)만 사용하여 데이터베이스와 통신합니다. 기술적으로 이 기능은 HTTP 서버의 확장 모듈(IIS의 ISAPI 확장 또는 DSO Apache 모듈 등)에서 구현됩니다. 및 는 Windows에서만 사용할 수 있습니다.
 
 기타 추가 기술 프로세스도 사용할 수 있습니다.
 
@@ -119,7 +119,7 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 
 * **모듈 감독**(nlserver watchdog) - 이 기술 프로세스는 다른 모듈을 생성하는 기본 프로세스 역할을 합니다. 또한 이를 모니터링하고 장애 발생 시 자동으로 다시 실행하므로 최대 시스템 가동 시간을 유지합니다.
 
-* **통계 서버**(nlserver stat) - 이 프로세스는 연결 수, 메시지를 보내는 각 메일 서버에 대해 보낸 메시지 및 제한 사항(최대 동시 연결 수, 시간당 메시지 및/또는 연결)에 대한 통계를 유지 관리합니다. 또한 동일한 공개 IP 주소를 공유하는 경우 여러 인스턴스 또는 시스템을 페더레이션할 수 있습니다.
+* **통계 서버**(nlserver stat) - 이 프로세스는 연결 수, 메시지를 보내는 각 메일 서버에 대해 보낸 메시지 및 제한 사항(최대 동시 연결 수, 시간당 및/또는 연결당 메시지)에 대한 통계를 유지 관리합니다. 또한 동일한 공개 IP 주소를 공유하는 경우 여러 인스턴스 또는 시스템을 페더레이션할 수 있습니다.
 
 
 ## 데이터베이스 컨테이너 {#db-containers}
@@ -141,4 +141,4 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 
 총 저장 용량은 기본 데이터베이스와 (선택 사항) Snowflake 보조 데이터베이스 간에 분할됩니다. 데이터가 저장되는 위치는 고객별 사용 사례에 따라 구현 또는 업그레이드 시 결정되어야 합니다.
 
-데이터베이스 사용량을 모니터링하는 방법은 [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=ko){target="_blank"}를 참조하세요.
+데이터베이스 사용량을 모니터링하는 방법은 [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}를 참조하세요.

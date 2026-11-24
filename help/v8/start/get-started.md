@@ -51,18 +51,18 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 87%
+ht-degree: 81%
 ---
 # Adobe Campaign 시작{#gs-ac-v8}
 
 Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널을 실행할 수 있는 환경을 제공합니다.
 
-Adobe Campaign v8은 이메일, 푸시 알림, SMS, 다이렉트 메일 등 다양한 마케팅 채널을 위해 구축된 차세대 캠페인 도구입니다. 완벽한 캠페인을 제작 및 큐레이션하는 데 도움이 되는 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정을 핵심으로 집중하는 풍부한 멀티 터치 마케팅 프로그램을 제공합니다. 또한 암호 재설정, 주문 확인, 전자 수신 등 커뮤니케이션의 전반을 포함하는 페이로드를 기반으로, 마케팅 팀이 사전 정의된 메시지를 모든 IT 시스템에서 전송할 수 있도록 지원하는 확장 가능한 실시간 메시징 서버도 제공합니다.
+Adobe Campaign v8은 이메일, 푸시 알림, SMS, 다이렉트 메일 등 다양한 마케팅 채널을 위해 구축된 차세대 캠페인 도구입니다. 완벽한 캠페인을 제작 및 큐레이션하는 데 도움이 되는 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정을 핵심으로 집중하는 풍부한 멀티 터치 마케팅 프로그램을 제공합니다. 또한 마케팅 팀이 암호 재설정, 주문 확인, 전자 수신 등과 같은 커뮤니케이션을 위해 모든 IT 시스템의 모든 포함 페이로드를 기반으로 사전 정의된 메시지를 전송할 수 있도록 지원하는 확장 가능한 실시간 메시징 서버와 나란히 제공됩니다.
 
-Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상당히 개선되었습니다. 서비스와 사전 감독 및 시기적절한 변경을 결합한 **관리 클라우드 서비스**&#x200B;로 제공됩니다. [이 페이지에서](whats-new.md#acms-desc) Campaign Managed Cloud Services에 대해 자세히 알아보십시오.
+Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상당히 개선되었습니다. 서비스를 사전 관리 감독 및 적시 경고 기능과 결합하는 **관리 Cloud Service**(으)로 사용할 수 있습니다. [이 페이지에서](whats-new.md#acms-desc) Campaign Managed Cloud Services에 대해 자세히 알아보십시오.
 
 Campaign을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 

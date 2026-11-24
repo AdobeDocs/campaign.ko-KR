@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 5%
@@ -45,7 +45,7 @@ ht-degree: 5%
 
 1. 분석을 수동으로 시작하려면 **[!UICONTROL Analyze]**&#x200B;을(를) 클릭하십시오. 진행률 표시줄에는 분석 진행률이 표시됩니다.
 
-   게재 분석 시 설정된 확인 규칙이 적용됩니다. 이러한 규칙은 게재 속성의 **[!UICONTROL Typology]** 탭에서 선택한 **유형화**&#x200B;에 정의되어 있습니다. [이 섹션](../../automation/campaign-opt/campaign-typologies.md)에서 유형화에 대해 자세히 알아보세요.
+   게재 분석 시 일련의 확인 규칙이 적용됩니다. 이러한 규칙은 게재 속성의 **[!UICONTROL Typology]** 탭에서 선택한 **유형화**&#x200B;에 정의되어 있습니다. [이 섹션](../../automation/campaign-opt/campaign-typologies.md)에서 유형화에 대해 자세히 알아보세요.
 
    기본적으로 이메일의 경우, 분석은 다음 사항을 다룹니다.
 

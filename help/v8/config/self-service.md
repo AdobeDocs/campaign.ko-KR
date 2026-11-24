@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 90%
+source-wordcount: '517'
+ht-degree: 83%
 ---
 # Campaign 컨트롤 패널 {#ac-control-panel}
 
@@ -45,7 +45,7 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 * 상황별로 다양한 비즈니스 요구 사항에 따라 설정을 구성할 수 있습니다.
 * 필요에 따라 액세스 설정을 제어하여 보안을 강화할 수 있습니다.
 
-또한, Campaign 컨트롤 패널을 사용하여 IP 허용 목록, URL 권한, 인스턴스에 대한 정보 검색과 같은 인스턴스 설정을 구성할 수도 있습니다.
+또한 Campaign Campaign 컨트롤 패널을 사용하여 IP 허용 목록, URL 권한 등 인스턴스 설정을 구성하고 인스턴스에 대한 정보를 검색할 수 있습니다.
 
 자세한 내용은 [Campaign Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target="_blank"}를 참조하세요.
 
@@ -86,7 +86,7 @@ Campaign v8 관리 클라우드 서비스의 경우 Adobe은 귀하를 대신하
 
 ## 인스턴스 설정
 
-컨트롤 패널에서 Campaign 인스턴스 설정을 관리하는 방법을 알아봅니다.
+Campaign 컨트롤 패널에서 Campaign 인스턴스 설정을 관리하는 방법을 알아봅니다.
 * [허용 목록의 IP](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ko){target="_blank"}
 * [URL 권한](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ko){target="_blank"}
 * [인스턴스 세부 사항](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ko){target="_blank"}

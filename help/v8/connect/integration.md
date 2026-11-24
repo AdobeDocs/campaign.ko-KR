@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '453'
 ht-degree: 13%
 ---
 # Campaign을 솔루션과 연결{#gs-ac-connectors}
@@ -47,7 +47,7 @@ Adobe Campaign에는 외부 애플리케이션과 통신하고, 데이터베이�
 
 Campaign v8은 다음 Adobe 솔루션과 연결할 수 있습니다. 사용 사례, 구성 및 지침에 대한 자세한 내용은 링크를 찾아보십시오.
 
-* Adobe Analytics.[자세히 알아보기](../connect/ac-aa.md)
+* Adobe Analytics. [자세히 알아보기](../connect/ac-aa.md)
 * Adobe Experience Cloud 트리거. [자세히 알아보기](../connect/ac-triggers.md)
 * Adobe Experience Manager. [자세히 알아보기](../connect/ac-aem.md)
 * Adobe Experience Platform. [자세히 알아보기](../connect/ac-aep.md)
@@ -57,9 +57,9 @@ Campaign v8은 다음 Adobe 솔루션과 연결할 수 있습니다. 사용 사�
 
 자산 공유 및 대상 공유 기능을 사용하여 [!DNL CX Enterprise] 솔루션 전반에 걸쳐 **대상** 및 **자산**&#x200B;을 결합할 수도 있습니다.
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ko#integrating-with-adobe-experience-cloud){target="_blank"}에서 Campaign과 [!DNL CX Enterprise] 솔루션 간 **대상 공유**&#x200B;에 대해 자세히 알아보세요.
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}에서 Campaign과 [!DNL CX Enterprise] 솔루션 간 **대상 공유**&#x200B;에 대해 자세히 알아보세요.
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ko#integrating-with-adobe-experience-cloud){target="_blank"}에서 Campaign과 [!DNL CX Enterprise] 솔루션 간의 **자산 공유**&#x200B;에 대해 자세히 알아보세요.
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}에서 Campaign과 [!DNL CX Enterprise] 솔루션 간의 **자산 공유**&#x200B;에 대해 자세히 알아보세요.
 
 >[!NOTE]
 >

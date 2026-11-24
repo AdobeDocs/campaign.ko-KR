@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '749'
 ht-degree: 3%
 ---
 # 큐브 만들기{#create-a-cube}
@@ -77,7 +77,7 @@ ht-degree: 3%
 
 ## 큐브 작성{#cube-create}
 
-큐브 보고서 작성을 시작하기 전에 관련 차원 및 측정값을 식별하고 큐브에서 만듭니다.
+큐브 보고서를 작성하기 전에 관련 차원 및 측정 단위를 식별하고 큐브에서 만듭니다.
 
 큐브를 생성하려면 다음 단계를 적용합니다.
 

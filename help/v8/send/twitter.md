@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '784'
 ht-degree: 3%
 ---
 # Adobe Campaign으로 X(Twitter)에 메시지 게시 {#post-tw-messages}
@@ -81,7 +81,7 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
    >[!CAUTION]
    >
-   >X에 게시할 때 제한 사항이 적용됩니다.
+   >X에 게시할 때 다음과 같은 제한 사항이 적용됩니다.
    >
    >* 메시지는 140자를 초과할 수 없습니다.
    >* HTML 형식이 지원되지 않습니다.

@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '886'
 ht-degree: 3%
 ---
 # Campaign 데이터베이스 쿼리
@@ -97,7 +97,7 @@ Campaign 데이터베이스를 쿼리하려면 **[일반 쿼리 편집기](query
 
 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택하면 **[!UICONTROL Target elements]** 섹션이 열립니다. 여기에서 수집할 데이터를 필터링하는 규칙을 정의할 수 있습니다.
 
-* 새 필터를 만들려면 조건을 만드는 데 필요한 필드, 연산자 및 값을 선택합니다. [이 페이지의 &#x200B;](filter-conditions.md)에 설명된 대로 여러 조건을 결합할 수도 있습니다.
+* 새 필터를 만들려면 조건을 만드는 데 필요한 필드, 연산자 및 값을 선택합니다. [이 페이지의 ](filter-conditions.md)에 설명된 대로 여러 조건을 결합할 수도 있습니다.
 
 * 기존 필터를 다시 사용하려면 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Predefined filter]**&#x200B;을(를) 선택한 다음 원하는 필터를 선택하십시오.
 
@@ -155,7 +155,7 @@ SQL 언어에 익숙한 사용자는 **[!UICONTROL Generate SQL query]**&#x200B;
 
 >[!NOTE]
 >
->콘솔에서 사용할 수 있는 모든 목록의 경우처럼 기본적으로 처음 200개의 줄만 **[!UICONTROL Data preview]** 창에 표시됩니다. 변경하려면 **[!UICONTROL Lines to display]** 상자에 숫자를 입력하고 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭합니다. [자세히 알아보기](../config/ui-settings.md#customize-lists)
+>콘솔에서 사용할 수 있는 모든 목록은 기본적으로 처음 200개의 줄만 **[!UICONTROL Data preview]** 창에 표시됩니다. 변경하려면 **[!UICONTROL Lines to display]** 상자에 숫자를 입력하고 **[!UICONTROL Start the preview of the data]**&#x200B;을(를) 클릭합니다. [자세히 알아보기](../config/ui-settings.md#customize-lists)
 
 
 

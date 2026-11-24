@@ -62,16 +62,16 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1501'
-ht-degree: 70%
+ht-degree: 63%
 ---
 # Adobe Campaign v8 주요 기능 {#ac-gs-what-is-new}
 
-Adobe Campaign v8은 엔터프라이즈 규모의 크로스 채널 캠페인을 위한 업계 최고의 클라우드 솔루션을 필요로 하는 크로스 채널 마케터를 위해 설계되었습니다. 완벽한 캠페인을 제작 및 큐레이션하는 데 도움이 되는 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정을 핵심으로 집중하는 풍부한 멀티 터치 마케팅 프로그램을 제공합니다. 또한 마케팅 팀이 암호 재설정, 주문 확인, 전자 수신 등의 작업에 대해 모든 것을 포함하는 페이로드를 기반으로 사전 정의된 메시지를 모든 IT 시스템에서 전송할 수 있도록 지원하는 확장 가능한 실시간 메시징 서버와 나란히 제공됩니다.
+Adobe Campaign v8은 엔터프라이즈 규모의 크로스 채널 캠페인을 위한 업계 최고의 클라우드 솔루션을 필요로 하는 크로스 채널 마케터를 위해 설계되었습니다. 완벽한 캠페인을 제작 및 큐레이션하는 데 도움이 되는 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정을 핵심으로 집중하는 풍부한 멀티 터치 마케팅 프로그램을 제공합니다. 또한 마케팅 팀이 암호 재설정, 주문 확인, 전자 수신 등의 작업에 대해 모든 IT 시스템의 모든 포함 페이로드를 기반으로 사전 정의된 메시지를 전송할 수 있도록 지원하는 확장 가능한 실시간 메시징 서버와 나란히 제공됩니다.
 
-Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상당히 개선되었습니다. 서비스와 사전 감독 및 시기적절한 변경을 결합한 **관리 클라우드 서비스**&#x200B;로 제공됩니다. [이 섹션에서](#acms-desc) Campaign Managed Cloud Services에 대해 자세히 알아보십시오.
+Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상당히 개선되었습니다. 서비스를 사전 관리 감독 및 적시 경고 기능과 결합하는 **관리 Cloud Service**(으)로 사용할 수 있습니다. [이 섹션에서](#acms-desc) Campaign Managed Cloud Services에 대해 자세히 알아보십시오.
 
 ![](assets/home-page.png)
 
@@ -150,7 +150,7 @@ Campaign은 새로운 클라우드 아키텍처를 통해 프로세스를 간소
 
 >[!AVAILABILITY]
 >
->* Campaign v8은 현재 **관리 클라우드 서비스로만 사용할 수 있으며** 온-프레미스 또는 하이브리드 환경에 배포할 수 없습니다.
+>* Campaign v8은 **전용**&#x200B;이며 관리 Cloud Service으로 사용할 수 있으며 온-프레미스 또는 하이브리드 환경에 배포할 수 없습니다.
 >
 >* 기존 Campaign Classic v7 환경에서의 자동 마이그레이션은 아직 불가능합니다.
 
@@ -223,7 +223,7 @@ Campaign v8 Managed Cloud Services를 사용하면 수동 업그레이드 작업
 
 ## 셀프서비스 관리 인터페이스{#self-service-admin}
 
-제품 관리자는 **Campaign 컨트롤 패널**&#x200B;로 설정을 관리하고 각 Campaign v8 인스턴스 사용량을 추적할 수 있습니다.
+제품 관리자는 **Campaign Campaign 컨트롤 패널**&#x200B;을(를) 통해 설정을 관리하고 각 Campaign v8 인스턴스의 사용량을 추적할 수 있습니다.
 
 관리자는 직관적인 사용자 인터페이스를 통해 주요 자산의 사용량을 모니터링하고, IP 주소 허용 목록, SFTP 스토리지 모니터링, 키 관리 등의 고급 작업을 수행할 수 있습니다. 이 셀프 서비스 인터페이스는 보다 유연하고 다음과 같은 이점이 있습니다.
 

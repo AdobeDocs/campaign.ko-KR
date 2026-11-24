@@ -35,9 +35,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 4%
 ---
 # 게재 상태 {#delivery-statuses}
@@ -70,7 +70,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> 무시됨<br /> </td> 
-   <td> 주소 오류로 인해 수신자에게 게재가 전송되지 않았습니다. 차단 목록, 격리, 제공되지 않거나 중복되었습니다. <br /> </td> 
+   <td> 주소 오류로 인해 수신자에게 게재가 전송되지 않았습니다. 차단 목록, 격리, 제공되지 않거나 중복되어 제공되었습니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> 실패<br /> </td> 
@@ -122,7 +122,7 @@ Adobe Campaign 이메일의 전달성을 최적화하는 방법에 대해 알아
 
   동시 캠페인의 제한은 **[!UICONTROL NmsOperation_LimitConcurrency]** 옵션에 정의되어 있습니다. 기본값은 10입니다.
 
-  필요한 경우 Managed Cloud Services 사용자는 Adobe과 협력하여 이 제한을 조정할 수 있습니다. 옵션에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ko){target="_blank"}를 참조하세요.
+  필요한 경우 Managed Cloud Services 사용자는 Adobe과 협력하여 이 제한을 조정할 수 있습니다. 옵션에 대한 자세한 내용은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html){target="_blank"}를 참조하세요.
 
 * **리소스 가용성 문제**
 

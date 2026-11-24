@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '637'
 ht-degree: 17%
 ---
 # 개인화 블록 사용{#personalization-blocks}
@@ -66,7 +66,7 @@ ht-degree: 17%
 * **[!UICONTROL Registration link]**: 구독 링크를 삽입합니다. 이 링크는 인스턴스 설정에서 정의됩니다. 기본 콘텐츠는 “등록하려면 여기를 클릭하십시오.”입니다.
 * **[!UICONTROL Registration link (with referrer)]**: 구독 링크를 삽입하여 방문자와 게재를 식별할 수 있도록 합니다. 이 링크는 인스턴스 설정에서 정의됩니다.
 * **[!UICONTROL Registration page URL]**: 구독 URL을 삽입합니다
-* **[!UICONTROL Style of content emails]** 및 **[!UICONTROL Notification style]**: 미리 정의된 HTML 스타일을 사용하여 전자 메일의 서식을 지정하는 코드를 생성합니다.
+* **[!UICONTROL Style of content emails]** 및 **[!UICONTROL Notification style]**: 미리 정의된 HTML 스타일을 사용하여 전자 메일 형식을 지정하는 코드를 생성합니다.
 * **[!UICONTROL Unsubscription link]**: 모든 게재 구독 취소(차단 목록에 추가하다)를 가능하게 하는 링크를 삽입합니다. 기본 관련 콘텐츠는 다음과 같습니다. “귀하가 ***조직 이름***&#x200B;의 소식을 받고 있거나 제휴를 맺고 있기 때문에 이 메시지가 전송되었습니다. 더 이상 ***조직 이름***&#x200B;에서 메시지를 받지 않으려면 여기를 클릭하십시오.”
 
 ## 사용자 지정 개인화 블록 만들기 {#create-custom-personalization-blocks}
@@ -100,4 +100,4 @@ ht-degree: 17%
 
 다음 비디오에서는 다이내믹 콘텐츠 블록을 만드는 방법과 이 블록을 사용하여 이메일 게재 콘텐츠를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449013?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

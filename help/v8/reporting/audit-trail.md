@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 2%
 ---
 # 감사 추적{#audit-trail}
@@ -50,7 +50,7 @@ Adobe Campaign의 **[!UICONTROL Audit trail]** 기능은 인스턴스 내의 중
 
 * **스키마 감사 추적**: 스키마에 대한 변경 내용을 살펴보고 수정한 사람과 수정한 시기를 식별할 수 있습니다.
 
-  스키마에 대한 자세한 내용은 [페이지](../dev/schemas.md)를 참조하세요.
+  스키마에 대한 자세한 내용은 이 [페이지](../dev/schemas.md)를 참조하세요.
 
 * **워크플로 감사 추적**&#x200B;은(는) 다음을 포함하여 워크플로와 관련된 모든 작업을 추적합니다.
 
@@ -69,7 +69,7 @@ Adobe Campaign의 **[!UICONTROL Audit trail]** 기능은 인스턴스 내의 중
 
 * **옵션 감사 추적**&#x200B;을 통해 활동 및 옵션에 대한 마지막 수정 사항을 확인할 수 있습니다.
 
-  옵션에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)를 참조하세요.
+  옵션에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)를 참조하세요.
 
 * **게재 감사 추적**&#x200B;을 통해 활동 및 게재에 대한 마지막 수정 사항을 확인할 수 있습니다.
 
@@ -123,7 +123,7 @@ Adobe Campaign의 **[!UICONTROL Audit trail]** 기능은 인스턴스 내의 중
 
 >[!NOTE]
 >
->기본적으로 **[!UICONTROL Audit logs]**&#x200B;에 대해 보존 기간은 180일로 설정됩니다. 이 값은 배포 마법사에서 수정할 수 있습니다.
+>기본적으로 **[!UICONTROL Audit logs]**&#x200B;에 대한 보존 기간은 180일로 설정됩니다. 이 값은 배포 마법사에서 수정할 수 있습니다.
 
 ## 감사 추적 활성화/비활성화 {#enable-disable-audit-trail}
 

@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 5%
 ---
 # 오퍼 만들기
@@ -80,7 +80,7 @@ ht-degree: 5%
 
 엔진이 대상이 적합한 여러 오퍼 중에서 결정할 수 있도록 하려면 오퍼에 하나 이상의 가중치를 할당해야 합니다. 필요한 경우 대상에 필터를 적용하거나 가중치가 적용될 오퍼 공간을 제한할 수도 있습니다. 가중치가 더 낮은 오퍼보다 가중치가 더 큰 오퍼가 선호될 것입니다.
 
-예를 들어 기간, 특정 타겟 또는 오퍼 공간을 구분하도록 동일한 오퍼에 대해 여러 개의 가중치를 구성할 수 있습니다.
+동일한 오퍼에 대해 여러 개의 가중치를 구성할 수 있습니다. 예를 들어 하위 기간, 특정 타겟 또는 오퍼 공간을 구분할 수 있습니다.
 
 예를 들어, 오퍼는 18~25세의 연락처에 대해 A의 가중치를 가질 수 있고, 해당 범위 이상의 연락처에 대해 B의 가중치를 가질 수 있다. 여름 내내 오퍼를 받을 수 있다면 7월에 A의 가중치를, 8월에 B의 가중치를 가질 수도 있다.
 
@@ -141,7 +141,7 @@ ht-degree: 5%
    * **[!UICONTROL Title]**: 오퍼에 표시할 제목을 지정합니다. 경고: 이는 **[!UICONTROL General]** 탭에 정의된 오퍼의 레이블을 참조하지 않습니다.
    * **[!UICONTROL Destination URL]**: 오퍼의 URL을 지정하십시오. &quot;http://&quot; 또는 &quot;https://&quot;로 시작해야 합니다.
    * **[!UICONTROL Image URL]**: 오퍼 이미지에 대한 URL 또는 액세스 경로를 지정하십시오.
-   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: 원하는 탭에 오퍼의 본문을 입력합니다. 추적을 생성하려면 **[!UICONTROL HTML content]**&#x200B;을(를) `<div>` 형식 요소로 묶을 수 있는 HTML 요소로 구성해야 합니다. 예를 들어 HTML 페이지의 `<table>` 요소 결과는 다음과 같습니다.
+   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: 원하는 탭에 오퍼의 본문을 입력합니다. 추적을 생성하려면 **[!UICONTROL HTML content]**&#x200B;을(를) `<div>` 형식 요소로 묶을 수 있는 HTML 요소로 구성해야 합니다. 예를 들어 HTML 페이지에서 `<table>` 요소의 결과는 다음과 같습니다.
 
    ```
       <div> 

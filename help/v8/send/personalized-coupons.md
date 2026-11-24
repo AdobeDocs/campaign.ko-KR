@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 1%
 ---
 # 개인화된 쿠폰{#personalized-coupons}
@@ -58,7 +58,7 @@ ht-degree: 1%
    ![](assets/deliv_coup_01.png)
 
 1. **[!UICONTROL New]** 버튼을 클릭합니다.
-1. **[!UICONTROL Label]** 필드에 쿠폰 이름을 입력하십시오. **[!UICONTROL Coupon code]**&#x200B;에 고유 코드가 자동으로 입력되었습니다. 코드를 유지하거나 새 코드를 입력할 수 있습니다.
+1. **[!UICONTROL Label]** 필드에 쿠폰 이름을 입력합니다. **[!UICONTROL Coupon code]**&#x200B;에 고유 코드가 자동으로 입력되었습니다. 코드를 유지하거나 새 코드를 입력할 수 있습니다.
 
    ![](assets/deliv_coup_02.png)
 
@@ -170,7 +170,7 @@ ht-degree: 1%
 >
 >기본적으로 쿠폰 관리 모듈은 **nms:recipient** 테이블을 사용합니다. [자세히 알아보기](../dev/datamodel.md#ootb-profiles).
 >
->이 페이지[&#128279;](../dev/custom-recipient.md)에서 사용자 지정 받는 사람 테이블 을(를) 사용하는 방법을 알아보세요.
+>이 페이지](../dev/custom-recipient.md)에서 사용자 지정 받는 사람 테이블 [을(를) 사용하는 방법을 알아보세요.
 
 ## 부족한 쿠폰 관리 {#managing-insufficient-coupons}
 

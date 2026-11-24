@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 2%
@@ -92,11 +92,11 @@ Domain Keys Identified Mail(DKIM)는 위조된 발신자 주소(일반적으로 
 
 Adobe Campaign에서 DKIM 이메일 인증 서명은 MTA에 의해 수행됩니다.
 
-DKIM에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#authentication){target="_blank"}를 참조하세요.
+DKIM에 대한 자세한 내용은 [Adobe 게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication){target="_blank"}를 참조하세요.
 
 ## 이메일 피드백 서비스 {#email-feedback-service}
 
-EFS(Campaign Email Feedback Service)는 Adobe Campaign을 통해 전송되는 각 이메일 게재의 상태를 보고합니다.
+EFS(Campaign Email Feedback Service)는 Adobe Campaign과 함께 보낸 각 이메일 게재의 상태를 보고합니다.
 
 게재가 시작되면 메시지가 Campaign에서 MTA로 성공적으로 릴레이될 때 **[!UICONTROL Success]** 백분율에 변화가 없습니다. 게재 로그에 각 대상 주소의 **[!UICONTROL Taken into account by the service provider]** 상태가 표시됩니다.
 

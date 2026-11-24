@@ -24,14 +24,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1278'
 ht-degree: 2%
 ---
 # 오퍼 보내기{#send}
 
-오퍼 엔진에서 오퍼를 선택하려면 오퍼가 승인되어 **Live** 환경에서 사용할 수 있습니다. [자세히 알아보기](interaction-offer.md#approve-offers)
+오퍼 엔진에서 오퍼를 선택하려면 **Live** 환경에서 승인되고 사용할 수 있어야 합니다. [자세히 알아보기](interaction-offer.md#approve-offers)
 
 아웃바운드 통신 채널을 통한 오퍼 프레젠테이션은 DM, 이메일 또는 모바일 게재를 통해 수행됩니다. 트랜잭션 메시지(메시지 센터)와 함께 단일 모드를 사용할 수도 있습니다.
 
@@ -93,7 +93,7 @@ ht-degree: 2%
 
 ### 보강 {#enrichment}
 
-**데이터 보강** 활동을 통해 게재 수신자의 오퍼에 대한 오퍼 또는 링크를 추가할 수 있습니다.[자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ko){target="_blank"}.
+**데이터 보강** 활동을 통해 게재 수신자의 오퍼에 대한 오퍼 또는 링크를 추가할 수 있습니다.[자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}.
 
 예를 들어 게재 전에 수신자 쿼리에 대한 데이터를 보강할 수 있습니다.
 
@@ -180,7 +180,7 @@ ht-degree: 2%
 
 또한 **[!UICONTROL Offer engine]** 활동을 통해 게재 전에 오퍼 엔진에 대한 호출을 지정할 수 있습니다.
 
-**오퍼 엔진** 활동에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=ko){target="_blank"}를 참조하세요.
+**오퍼 엔진** 활동에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html){target="_blank"}를 참조하세요.
 
 이 활동은 게재 전에 엔진에서 계산한 오퍼로 인바운드 모집단 데이터를 보강하여 엔진 호출을 사용한 **데이터 보강** 활동과 동일한 원칙에서 작동합니다.
 
@@ -203,7 +203,7 @@ ht-degree: 2%
 
 **[!UICONTROL Offers by cell]** 활동을 사용하면 쿼리의 인바운드 모집단을 여러 세그먼트에 분산하고 이러한 각 세그먼트에 대해 제공할 오퍼를 지정할 수 있습니다.
 
-**셀별 오퍼** 활동에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=ko){target="_blank"}를 참조하세요.
+**셀별 오퍼** 활동에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html){target="_blank"}를 참조하세요.
 
 이렇게 하려면 다음 프로세스를 사용합니다.
 

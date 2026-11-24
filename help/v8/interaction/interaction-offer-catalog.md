@@ -22,7 +22,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 2%
@@ -43,7 +43,7 @@ ht-degree: 2%
 
 새 카테고리를 만들려면 아래 단계를 수행합니다.
 
-1. 브라우저를 **[!UICONTROL Offer catalog]** 폴더로 이동합니다.
+1. **[!UICONTROL Offer catalog]** 폴더를 찾습니다.
 
    ![](assets/offer_cat_create_001.png)
 
@@ -67,7 +67,7 @@ ht-degree: 2%
 
    * **[!UICONTROL Edit query]**: 오퍼 대상에 필터를 적용합니다.
 
-   * 자격 규칙에 대한 요약.이를 보려면 **[!UICONTROL Schedule and eligibility rules of the offer]** 링크를 클릭하십시오.
+   * 자격 규칙에 대한 요약. 이를 보려면 **[!UICONTROL Schedule and eligibility rules of the offer]** 링크를 클릭하십시오.
 
 ## 대체 범주 추가
 

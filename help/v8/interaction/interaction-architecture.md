@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1327'
 ht-degree: 0%
 ---
 # 캠페인 상호 작용 환경 및 아키텍처 이해
@@ -40,7 +40,7 @@ ht-degree: 0%
 
   범주는 온라인 환경에서 수동으로 게시할 수도 있습니다.
 
-  오퍼 승인 프로세스는 이 섹션[&#128279;](interaction-offer.md#approve-offers)에 자세히 설명되어 있습니다.
+  오퍼 승인 프로세스는 이 섹션](interaction-offer.md#approve-offers)에 자세히 설명되어 있습니다.[
 
 * 디자인 환경의 승인된 오퍼와 디자인 환경에 구성된 다양한 오퍼 공간, 필터, 카테고리 및 규칙이 모두 있는 **live** 환경을 찾을 수 있습니다. 오퍼 엔진을 호출하는 동안 엔진은 항상 라이브 환경의 오퍼를 사용합니다.
 
@@ -90,7 +90,7 @@ Adobe Campaign 상호 작용 모듈은 다음 두 가지 유형의 상호 작용
 
 * 익명 환경에서 식별된 환경으로 폴백 함수를 사용하는 경우 이러한 두 환경은 동일한 실행 인스턴스에 있어야 합니다.
 * 여러 실행 인스턴스 간의 동기화가 실시간으로 수행되지 않습니다. 동일한 연락처의 상호 작용을 동일한 인스턴스로 보내야 합니다. 제어 인스턴스는 아웃바운드 채널 전용이어야 합니다(실시간 없음).
-* 마케팅 데이터베이스는 자동으로 동기화되지 않습니다. 가중치 및 자격 규칙에 사용된 마케팅 데이터는 실행 인스턴스에 복제해야 합니다. 이 프로세스는 표준으로 제공되지 않으며 통합 기간 동안 개발해야 합니다.
+* 마케팅 데이터베이스는 자동으로 동기화되지 않습니다. 가중치 및 자격 규칙에 사용된 마케팅 데이터는 실행 인스턴스에 복제해야 합니다. 이 프로세스는 표준으로 제공되지 않으므로 통합 기간 동안 개발해야 합니다.
 * 제안 동기화는 FDA 연결에서만 수행됩니다.
 * 동일한 인스턴스에서 상호 작용 및 메시지 센터를 사용하는 경우 두 경우 모두 FDA 프로토콜을 통해 동기화가 발생합니다.
 
@@ -102,7 +102,7 @@ Adobe Campaign 상호 작용 모듈은 다음 두 가지 유형의 상호 작용
 
 >[!NOTE]
 >
->패키지를 설치할 때 제안 ID와 같은 **nms:proposition** 테이블의 **long** 형식 필드는 **int64** 형식 필드가 됩니다. 이 유형의 데이터는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=ko#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}에 자세히 설명되어 있습니다.
+>패키지를 설치할 때 제안 ID와 같은 **nms:proposition** 테이블의 **long** 형식 필드는 **int64** 형식 필드가 됩니다. 이 유형의 데이터는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}에 자세히 설명되어 있습니다.
 
 데이터 보존 기간은 배포 마법사의 **[!UICONTROL Data purge]** 창을 통해 각 인스턴스에 구성됩니다. 실행 인스턴스에서 이 기간은 유형화 규칙(슬라이딩 기간) 및 자격 규칙을 계산하는 데 필요한 기록 깊이에 해당해야 합니다.
 

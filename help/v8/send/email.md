@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 8%
@@ -105,13 +105,13 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 
      [이 섹션](mirror-page.md#link-to-mirror-page)에서 미러 페이지 관리에 대해 자세히 알아보세요.
 
-1. BBC 주소로 메시지 사본 보내기, 메시지 형식 변경, 특정 인코딩 설정 등과 같은 이메일에 대한 추가 매개 변수를 정의할 수 있습니다. 자세한 내용은 [이 섹션](email-parameters.md)을 참조하세요.
+1. BCC 주소로 메시지 사본 전송, 메시지 형식 변경, 특정 인코딩 설정 등과 같은 이메일에 대한 추가 매개 변수를 정의할 수 있습니다. 자세한 내용은 [이 섹션](email-parameters.md)을 참조하세요.
 
 1. 콘텐츠가 준비되면 **저장**&#x200B;을 클릭합니다. 이제 콘텐츠가 **[!UICONTROL Campaigns > Deliveries]** 탭의 게재 목록에 표시됩니다.
 
 첫 번째 이메일 게재가 준비되었습니다. 이제 대상자를 정의하고 게재를 확인하고 전송해야 합니다.
 
-이 [사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ko){target="_blank"}에서 전자 메일 콘텐츠를 가져오는 워크플로우를 만드는 방법을 알아봅니다.
+이 [사용 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}에서 전자 메일 콘텐츠를 가져오는 워크플로우를 만드는 방법을 알아봅니다.
 
 >[!MORELIKETHIS]
 >
@@ -120,7 +120,7 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 >* [전자 메일 대상자 선택](../audiences/gs-audiences.md)
 >* [게재 확인 및 증명 보내기](preview-and-proof.md)
 >* [게재 구성 및 보내기](configure-and-send.md)
->* [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ko){target="_blank"}
+>* [게재 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html){target="_blank"}
 
 ## 이메일 테스트 및 유효성 검사
 

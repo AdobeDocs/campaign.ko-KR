@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 1%
@@ -79,7 +79,7 @@ PKey 값 관리는 Campaign Standard과 Campaign v8에서 다릅니다. Campaign
 
 ## 필터링
 
-* REST API 페이로드에서 필터를 사용하려면 Campaign v8에서 편집하고 페이로드에 사용할 이름을 제공해야 합니다. 이렇게 하려면 **[!UICONTROL Parameters]** 탭에서 필터의 추가 매개 변수에 액세스하고 **[!UICONTROL Filter name in REST API]** 필드에 원하는 이름을 입력합니다.
+* REST API 페이로드에서 필터를 사용하려면 Campaign v8에서 편집하고 페이로드에 사용할 이름을 제공해야 합니다. 이렇게 하려면 **[!UICONTROL Parameters]** 탭에서 필터의 추가 매개 변수에 액세스하고 **[!UICONTROL Filter name in REST API]** 필드에 원하는 이름을 제공합니다.
 
   ![](assets/api-filtering.png)
 

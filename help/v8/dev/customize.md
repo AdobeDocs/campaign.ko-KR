@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 1%
 ---
 # 인스턴스 사용자 정의 {#gs-ac-custom}
@@ -65,7 +65,7 @@ Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 
 * **새 필드** 도우미를 사용하여 인터페이스를 통해
 
-  Campaign에서 새 필드를 빠르게 추가하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=ko#configuring-campaign-classic){target="_blank"}를 참조하세요.
+  Campaign에서 새 필드를 빠르게 추가하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}를 참조하세요.
 
 * 프로그래밍 방식으로 스키마를 확장하여 [이 섹션](../dev/extend-schema.md)에서 기존 스키마를 확장하는 방법을 알아보세요.
 
@@ -75,9 +75,9 @@ Adobe Campaign에 즉시 존재하지 않는 완전히 새로운 유형의 데�
 
 **관련 항목**
 
-[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ko#configuring-campaign-classic){target="_blank"}의 스키마 에디션의 예
+[Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}의 스키마 에디션의 예
 
-사용 사례: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ko#uc-link){target="_blank"}에서 기존 참조 테이블에 필드를 연결합니다.
+사용 사례: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}에서 기존 참조 테이블에 필드를 연결합니다.
 
 
 ## 입력 양식 수정

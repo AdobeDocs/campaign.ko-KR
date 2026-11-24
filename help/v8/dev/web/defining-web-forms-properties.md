@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 1%
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 양식에 사용된 로고는 자체 로고로 변경할 수 있습니다.
 
-웹 앱의 **[!UICONTROL Properties]** 내부의 **[!UICONTROL Rendering]** 탭에서 템플릿의 유리 아이콘 을 클릭합니다.
+웹 앱의 **[!UICONTROL Properties]** 내부의 **[!UICONTROL Rendering]** 탭에서 템플릿의 유리 아이콘을 클릭합니다.
 
 ![](assets/logo_glass.png)
 
@@ -115,7 +115,7 @@ ht-degree: 1%
 
 ![](assets/logo_pagelayout.png)
 
-여기에서 로고 이미지의 경로를 변경할 수 있습니다.
+여기서 로고 이미지의 경로를 변경할 수 있습니다.
 
 ![](assets/logo_path.png)
 
@@ -159,7 +159,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_admin_survey_access_login.png)
 
-로그인 및 암호는 Adobe Campaign 운영자가 사용하는 암호입니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}을 참조하십시오.
+로그인 및 암호는 Adobe Campaign 운영자가 사용하는 암호입니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}을 참조하십시오.
 
 **[!UICONTROL Use a specific account]** 옵션을 사용하면 양식에 액세스하는 연산자의 읽기 또는 쓰기 권한을 제한할 수 있습니다. 드롭다운 상자를 사용하여 이러한 권한 부여를 담당할 운영자 또는 운영자 그룹을 선택합니다.
 

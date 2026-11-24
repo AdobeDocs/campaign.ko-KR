@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1733'
 ht-degree: 1%
 ---
 # 사용자 권한 관리{#manage-permissions}
@@ -108,7 +108,7 @@ Adobe에 새 제품 프로필을 추가하려면 먼저 Campaign 클라이언트
 #### Campaign에서 연산자 그룹 만들기{#create-op-group}
 
 1. Campaign에 연결하여 탐색기를 열고 **[!UICONTROL Administration > Access management > Operator groups]**(으)로 이동합니다.
-1. **[!UICONTROL New]**&#x200B;을(를) 클릭하고 연산자 그룹의 이름을 정의하고 내부 이름(&#39;검토자&#39;)을 설정합니다.
+1. **[!UICONTROL New]**을(를) 클릭하고 연산자 그룹의 이름을 정의하고 내부 이름(&#39;검토자&#39;)을 설정합니다.
    ![](assets/new-op-group.png)
 1. 명명된 권한을 선택하여 관련 권한을 정의합니다. 명명된 권한은 [이 섹션](#use-named-rights)에 자세히 설명되어 있습니다.
 1. 새 연산자 그룹을 저장합니다.
@@ -146,7 +146,7 @@ Adobe Campaign에는 Adobe에서 환경을 활성화할 때 정의된 기본 제
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL Administrator]** 역할은 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 부여합니다. 이름에 &quot;admin&quot;이라는 단어가 포함된 Adobe Admin Console의 모든 제품 프로필(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등) Campaign 컨트롤 패널 액세스 권한을 부여합니다. [Campaign 컨트롤 패널 액세스 관리](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko){target="_blank"}에 대해 자세히 알아보세요.
+   >**[!UICONTROL Administrator]** 역할은 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 부여합니다. 이름에 &quot;admin&quot;이라는 단어가 포함된 Adobe Admin Console의 모든 제품 프로필(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등) Campaign 컨트롤 패널 액세스 권한을 부여합니다. [Campaign 컨트롤 패널 액세스 관리](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL Delivery operators]**(게재)
 
@@ -221,7 +221,7 @@ Admin Console을 사용하여 사용자 그룹을 만들고 사용자를 할당�
 
 사용자 그룹은 공유 권한 집합을 지정해야 하는 여러 사용자의 컬렉션입니다. [이 섹션](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}에서 사용자 그룹을 만드는 방법을 알아봅니다.
 
-사용자 그룹에 제품 프로필을 할당할 수 있습니다. 따라서 해당 그룹의 모든 사용자는 동일한 제품 권한 집합을 받게 됩니다.
+사용자 그룹에 제품 프로필을 할당할 수 있습니다. 따라서 해당 그룹의 모든 사용자는 동일한 제품 권한 집합을 받습니다.
 
 ## 명명된 권한{#use-named-rights}
 
@@ -259,7 +259,7 @@ Adobe Campaign의 기본 명명된 권한은 다음과 같습니다.
 
 * **[!UICONTROL LOCAL]**: 로컬 관리(Distributed Marketing)에 적합합니다.
 
-* **[!UICONTROL MERGE]**: 선택한 레코드를 하나로 병합할 수 있는 권한입니다. 수신자가 중복 항목으로 존재하는 경우 **[!UICONTROL MERGE]** 권한을 통해 사용자는 중복 항목을 선택하고 기본 수신자에게 병합할 수 있습니다.
+* **[!UICONTROL MERGE]**: 선택한 레코드를 하나로 병합할 수 있는 권한입니다. 수신자가 중복 항목일 경우 **[!UICONTROL MERGE]** 권한을 통해 사용자는 중복 항목을 선택하고 기본 수신자에게 병합할 수 있습니다.
 
 * **[!UICONTROL PREPARE DELIVERIES]**: 게재를 만들고 편집하고 저장할 수 있는 권한. **[!UICONTROL PREPARE DELIVERIES]** 권한이 있는 사용자는 게재 분석 프로세스를 시작할 수도 있습니다.
 

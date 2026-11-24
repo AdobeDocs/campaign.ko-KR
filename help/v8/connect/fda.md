@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 1%
@@ -81,7 +81,7 @@ Campaign에는 외부 데이터베이스의 데이터와 상호 작용하는 데
 
 >[!CAUTION]
 >
->이 유형의 구성은 데이터를 수집하기 위해 임시적으로만 사용해야 합니다. 다른 모든 용도에서는 외부 계정 구성을 선호해야 합니다.
+>이러한 유형의 구성은 데이터를 수집하기 위해 임시적으로만 사용해야 합니다. 다른 모든 용도에서는 외부 계정 구성을 선호해야 합니다.
 
 예를 들어 **[!UICONTROL Query]** 활동에서 다음과 같이 외부 데이터베이스에 대한 임시 연결을 정의할 수 있습니다.
 

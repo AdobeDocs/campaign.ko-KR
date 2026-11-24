@@ -25,7 +25,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -145,7 +145,7 @@ Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. �
 1. **[!UICONTROL Advanced settings]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Configuration]** 필드에 이름을 지정합니다.
 1. **[!UICONTROL OK]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-그런 다음 동일한 유형의 다른 폴더에 이 구성을 적용할 수 있습니다. [이 페이지](../audiences/folders-and-views.md)의 폴더에 대해 자세히 알아보세요.
+그런 다음 이 구성을 동일한 유형의 다른 폴더에 적용할 수 있습니다. [이 페이지](../audiences/folders-and-views.md)의 폴더에 대해 자세히 알아보세요.
 
 ### 목록 내보내기 {#exporting-a-list}
 

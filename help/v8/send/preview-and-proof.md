@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 10%
@@ -122,4 +122,4 @@ ht-degree: 10%
 
 이메일 게재에 대한 교정쇄를 보내고 확인하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447006?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

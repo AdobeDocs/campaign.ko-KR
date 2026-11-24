@@ -33,16 +33,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1198'
 ht-degree: 4%
 ---
 # LINE 게재 만들기
 
 LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 인스턴트 메시지, 음성 및 영상 통화용 애플리케이션입니다. Adobe Campaign을 사용하여 LINE 메시지를 보낼 수 있습니다.
 
-[!DNL LINE]을(를) 트랜잭션 메시지 모듈과 결합하여 소비자 모바일 장치에 설치된 [!DNL LINE] 앱에서 실시간 메시지를 보낼 수도 있습니다. 자세한 내용은 Campaign Classic v7 설명서에서 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)를 참조하세요.
+[!DNL LINE]을(를) 트랜잭션 메시지 모듈과 결합하여 소비자 모바일 장치에 설치된 [!DNL LINE] 앱에서 실시간 메시지를 보낼 수도 있습니다. 자세한 내용은 Campaign Classic v7 설명서에서 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)를 참조하세요.
 
 ![](assets/line_message.png)
 
@@ -160,7 +160,7 @@ LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 �
 
 ## 콘텐츠 유형 정의 {#defining-the-content}
 
-[!DNL LINE] 게재의 콘텐츠를 정의하려면 먼저 메시지 유형을 게재에 추가해야 합니다. 각 [!DNL LINE] 게재에는 최대 5개의 메시지가 포함될 수 있습니다.
+[!DNL LINE] 게재의 콘텐츠를 정의하려면 먼저 게재에 메시지 유형을 추가해야 합니다. 각 [!DNL LINE] 게재에는 최대 5개의 메시지가 포함될 수 있습니다.
 
 다음 세 가지 메시지 유형 중에서 선택할 수 있습니다.
 

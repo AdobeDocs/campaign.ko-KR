@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '572'
 ht-degree: 6%
 ---
 # 추적된 링크 구성 {#how-to-configure-tracked-links}
@@ -88,8 +88,8 @@ ht-degree: 6%
 * 대괄호 [ ]
 * 중괄호 { }
 
-이 예제에서는 URL https://www.adobe.com/kr 뒤에 세미콜론이 옵니다. 세미콜론은 수신자 이메일 클라이언트들에 의해 URL의 일부로서 해석될 수 있다. 그 결과 링크가 끊어질 수 있습니다. 이 문제를 방지하려면 다음 방법 중 하나로 URL을 구분 기호로 묶을 수 있습니다.
+이 예제에서는 URL https://www.adobe.com 뒤에 세미콜론이 옵니다. 세미콜론은 수신자 이메일 클라이언트들에 의해 URL의 일부로서 해석될 수 있다. 그 결과 링크가 끊어질 수 있습니다. 이 문제를 방지하려면 다음 방법 중 하나로 URL을 구분 기호로 묶을 수 있습니다.
 
-* (https://www.adobe.com/kr);
-* [https://www.adobe.com/kr];
-* {https://www.adobe.com/kr};
+* (https://www.adobe.com);
+* [https://www.adobe.com];
+* {https://www.adobe.com};

@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 90%
+ht-degree: 82%
 ---
 # Adobe Campaign v8에 연결{#gs-ac-connect}
 
@@ -57,7 +57,7 @@ Campaign을 처음 사용하는 경우 클라이언트 콘솔을 다운로드하
 
 1. Campaign 관리자는 Adobe [소프트웨어 배포](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html){target="_blank"}에 연결합니다.
 
-1. 최종 사용자의 경우, Campaign 관리자가 클라이언트 콘솔을 배포하여 전용 URL을 통해 사용할 수 있도록 합니다.
+1. Campaign 관리자는 최종 사용자를 위해 클라이언트 콘솔을 배포하고 전용 URL을 통해 사용할 수 있도록 합니다.
 
 클라이언트 콘솔 설치 프로그램이 다운로드되면 로컬 시스템에 설치합니다.
 
@@ -87,7 +87,7 @@ Campaign을 처음 사용하는 경우 클라이언트 콘솔을 다운로드하
 
 ## Adobe Campaign에 로그온 {#logon-to-ac}
 
-Campaign 사용자는 Adobe IMS(ID 관리 시스템)를 통해 Adobe ID를 사용하여 Adobe Campaign 콘솔에 연결합니다. 모든 Adobe 솔루션에서 동일한 ID를 사용할 수 있습니다. 다른 솔루션으로 Adobe Campaign을 사용하는 경우 연결이 저장됩니다. [이 페이지에서](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} Adobe IMS에 대해 자세히 알아봅니다.
+Campaign 사용자는 Adobe IMS(ID 관리 시스템)를 통해 Adobe ID를 사용하여 Adobe Campaign 콘솔에 연결합니다. 모든 Adobe 솔루션에 동일한 ID를 사용할 수 있습니다. 다른 솔루션으로 Adobe Campaign을 사용하는 경우 연결이 저장됩니다. [이 페이지에서](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} Adobe IMS에 대해 자세히 알아봅니다.
 
 인스턴스에 로그온하려면 아래 단계를 수행합니다.
 
@@ -173,4 +173,4 @@ Campaign v8.6 릴리스를 시작하면 중앙 [!DNL Adobe CX Enterprise] 환경
 
 웹 액세스는 유효성 검사 프로세스에서도 사용됩니다. 운영자는 승인 요청 이메일을 클릭하고 웹 브라우저를 통해 Campaign에 연결하여 게재 콘텐츠 또는 예산을 확인하거나 거부할 수 있습니다.
 
-웹에서 Campaign 인스턴스에 액세스하는 URL은 `https://<your adobe campaign server>:<port number>/view/home`입니다.
+웹에서 Campaign 인스턴스에 액세스하려면 URL은 `https://<your adobe campaign server>:<port number>/view/home`입니다.

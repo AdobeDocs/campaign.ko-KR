@@ -21,9 +21,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '943'
 ht-degree: 1%
 ---
 # 설문 조사 만들기의 주요 단계{#getting-started-with-surveys}
@@ -109,7 +109,7 @@ ht-degree: 1%
 
   ![](assets/s_ncs_admin_survey_add_qu.png)
 
-  질문의 레이블을 입력하고 답변 필드를 질문의 하위 분기로 삽입합니다. 이렇게 하려면 답변 필드를 만들 때 질문에 연결된 노드를 선택해야 합니다. 아래와 같이 **[!UICONTROL Selection controls]** 아이콘을 사용하거나 마우스 오른쪽 단추를 클릭하여 **[!UICONTROL drop-down listx]**&#x200B;을(를) 추가합니다.
+  질문의 레이블을 입력하고 답변 필드를 질문의 하위 분기로 삽입합니다. 이렇게 하려면 답변 필드를 만들 때 질문에 연결된 노드를 선택해야 합니다. 아래와 같이 **[!UICONTROL Selection controls]** 아이콘을 사용하거나 마우스 오른쪽 단추를 클릭하여 **[!UICONTROL drop-down list]**&#x200B;을(를) 추가합니다.
 
   ![](assets/s_ncs_admin_survey_add_list.png)
 

@@ -34,24 +34,24 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '322'
 ht-degree: 2%
 ---
 # Campaign API 스테이징 메커니즘
 
-[엔터프라이즈(FFDA) 배포](enterprise-deployment.md)의 컨텍스트에서는 성능(대기 시간 및 동시성)과 관련하여 단일 호출을 폭파하지 않는 것이 좋습니다. 매우 적은 볼륨을 보내는 경우가 아니면 일괄 처리 작업 **must**&#x200B;을(를) 사용할 수 있습니다. 성능을 개선하기 위해 수집 API는 로컬 데이터베이스로 리디렉션됩니다.
+[엔터프라이즈(FFDA) 배포](enterprise-deployment.md)의 컨텍스트에서는 성능(대기 시간 및 동시성)과 관련하여 단일 호출을 폭파하지 않는 것이 좋습니다. 매우 적은 볼륨을 보내는 경우가 아니면 일괄 처리 작업 **을(를) 사용해야 합니다**. 성능을 개선하기 위해 수집 API는 로컬 데이터베이스로 리디렉션됩니다.
 
 Campaign 스테이징 기능은 일부 기본 제공 스키마에서 기본적으로 활성화됩니다. 모든 사용자 지정 스키마에서 활성화할 수도 있습니다. 간단히 말해 스테이징 메커니즘:
 
 * 데이터 스키마 구조가 로컬 스테이징 테이블에 복제됨
 * 데이터 수집 전용 새 API는 로컬 스테이징 테이블로 직접 전송됩니다. [자세히 알아보기](new-apis.md)
-* 예약된 워크플로우는 매 시간마다 트리거되며 데이터를 클라우드 데이터베이스로 다시 동기화합니다. [자세히 알아보기](replication.md)
+* 예약된 워크플로우는 매 시간마다 트리거되고 데이터를 클라우드 데이터베이스에 다시 동기화합니다. [자세히 알아보기](replication.md)
 
 nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient와 같은 일부 내장 스키마는 기본적으로 준비됩니다.
 
-Campaign Classic v7 API는 계속 사용할 수 있지만 이 새로운 스테이징 메커니즘의 이점을 이용할 수 없습니다. API 호출은 클라우드 데이터베이스로 직접 전송됩니다. Adobe에서는 Campaign Cloud 데이터베이스에 대한 전체 압력과 지연을 줄이기 위해 가능한 한 새 스테이징 메커니즘을 사용하는 것이 좋습니다.
+Campaign Classic v7 API는 계속 사용할 수 있지만 이 새로운 스테이징 메커니즘을 활용할 수 없습니다. API 호출은 클라우드 데이터베이스로 직접 흐릅니다. Adobe에서는 Campaign Cloud 데이터베이스에 대한 전체 압력과 지연을 줄이기 위해 가능한 한 새로운 스테이징 메커니즘을 사용하는 것이 좋습니다.
 
 >[!CAUTION]
 >
