@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8(클라이언트 콘솔)의 제품 설�
 title: Adobe Campaign v8 설명서
 description: Campaign v8 설명서
 breadcrumb-title: Campaign v8 설명서
-source-git-commit: ffa29306eb4402ed20c7d04bdbbaffd4dde5bfe4
+source-git-commit: 2da6239843538ec459e7d3dfe0514a56e4a941be
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1102'
 ht-degree: 86%
 ---
 
@@ -271,6 +271,7 @@ ht-degree: 86%
   + [글로벌 원칙](architecture/general-architecture.md)
   + [아키텍처 모델](architecture/architecture.md)
   + {hide-from-toc}[기본 제공 패키지](architecture/built-in-packages.md)
+  + {hide-from-toc}[캠페인 옵션](architecture/campaign-options.md)
   + [Campaign FDA 배포](architecture/fda-deployment.md)
   + 엔터프라이즈(FFDA) 배포 {#ffda}
     + [Campaign FFDA란?](architecture/enterprise-deployment.md)
@@ -335,7 +336,7 @@ ht-degree: 86%
       + [워크플로 제어](dev/api/controlling-a-workflow.md)
       + [신호 활동 트리거](dev/api/triggering-a-signal-activity.md)
 + API 설명서 {#api-documentation}
-  + [Campaign API 설명서 >](https://experienceleague.adobe.com/en/docs/campaign/campaign-api/home)
+  + [Campaign API 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign/campaign-api/home)
 + 추가 리소스 {#resources}
   + [Campaign 기술 노트 >](https://experienceleague.adobe.com/ko/docs/campaign/technotes-ac/technotes-home)
   + [Campaign 웹 사용자 인터페이스 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/campaign-web-home)
