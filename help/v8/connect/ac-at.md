@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1244'
 ht-degree: 0%
 ---
 # Campaign 및 Adobe Target 작업
@@ -66,7 +66,7 @@ Adobe Target에서는 다음 유형의 데이터를 사용할 수 있습니다.
 * 이메일은 미국에서 열립니다.
 * 이러한 조건이 적용되지 않으면 기본 이미지가 표시됩니다.
 
-![](assets/target_4.png)
+![대상자별 이메일 변형: 기본값은 비행기, 프랑스어 에펠탑, 미국인의 자유의 여신상 표시](assets/target_4.png)
 
 Adobe Campaign 및 Adobe Target에서 다음 단계를 수행해야 합니다.
 
@@ -86,11 +86,11 @@ Adobe Campaign에서는 Target의 동적 이미지를 이메일에 삽입하는 
 
 * 디지털 콘텐츠 편집기를 사용하는 경우 기존 이미지를 선택하고 도구 모음에서 **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]**&#x200B;을(를) 선택합니다.
 
-  ![](assets/target_5.png)
+  ![이미지 도구 모음 메뉴에서 선택한 Adobe Target에서 제공하는 동적 이미지가 있는 디지털 콘텐츠 편집기](assets/target_5.png)
 
 * 표준 편집기를 사용하는 경우 이미지를 삽입할 위치에 커서를 놓고 개인화 드롭다운 메뉴에서 **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]**&#x200B;을(를) 선택합니다.
 
-  ![](assets/target_12.png)
+  ![개인화 메뉴에서 선택한 포함 및 Adobe Target에서 제공하는 동적 이미지가 포함된 표준 편집기](assets/target_12.png)
 
 그런 다음 이미지 매개 변수를 정의할 수 있습니다.
 
@@ -99,9 +99,9 @@ Adobe Campaign에서는 Target의 동적 이미지를 이메일에 삽입하는 
 * **[!UICONTROL Landing Page]**&#x200B;을(를) 사용하면 기본 이미지를 기본 랜딩 페이지로 리디렉션할 수 있습니다. 이 URL은 기본 이미지가 최종 이메일에 표시되는 경우에만 적용됩니다. 선택 사항입니다.
 * **[!UICONTROL Additional decision parameters]**&#x200B;은(는) Adobe Target 세그먼트에 정의된 필드와 Adobe Campaign 필드 간의 매핑을 정의합니다. 사용된 Adobe Campaign 필드는 rawbox에 지정했어야 합니다. 이 예제에서는 국가 필드를 추가했습니다.
 
-Adobe Target의 설정에서 Enterprise 권한을 사용하는 경우 이 필드에 해당 속성을 추가합니다. [Adobe Target 설명서](https://experienceleague.adobe.com/ko/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}에서 Target Enterprise 권한에 대해 자세히 알아보세요.
+Adobe Target의 설정에서 Enterprise 권한을 사용하는 경우 이 필드에 해당 속성을 추가합니다. [Adobe Target 설명서](https://experienceleague.adobe.com/en/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}에서 Target Enterprise 권한에 대해 자세히 알아보세요.
 
-![](assets/target_13.png)
+![기본 이미지, 대상 위치, 랜딩 페이지 및 결정 매개 변수와 함께 Adobe Target에서 제공하는 이미지를 삽입](assets/target_13.png)
 
 ### 리디렉션 오퍼 만들기 {#create-redirect-offers}
 
@@ -113,13 +113,13 @@ Adobe Target에서 오퍼의 다른 버전을 만들 수 있습니다. 각 사�
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Redirect Offer]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/target_9.png)
+   ![Adobe Target 오퍼 탭, 코드 오퍼, 만들기 메뉴 열기 및 리디렉션 오퍼 강조 표시](assets/target_9.png)
 
 1. 오퍼 이름과 이미지 URL을 입력합니다.
 
-   ![](assets/target_6.png)
+   ![Adobe Target 이름 필드가 프랑스어 대상자로 설정되고 리디렉션 URL 필드가 있는 리디렉션 오퍼 양식을 만듭니다](assets/target_6.png)
 
-1. 나머지 리디렉션 오퍼에 대해서도 동일한 절차를 수행합니다. 자세한 정보는 이 [Adobe Target 설명서](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ko#experiences){target="_blank"}를 참조하세요.
+1. 나머지 리디렉션 오퍼에 대해서도 동일한 절차를 수행합니다. 자세한 정보는 이 [Adobe Target 설명서](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html#experiences){target="_blank"}를 참조하세요.
 
 ### 대상자 만들기 {#audiences-target}
 
@@ -127,11 +127,11 @@ Adobe Target에서는 두 대상을 만들어 오퍼를 방문하는 사람을 �
 
 1. Target에서 새 대상을 만들려면 **[!UICONTROL Audiences]** 탭에서 **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/audiences_1.png)
+   대상 만들기 단추가 강조 표시된 ![Adobe Target 대상 탭](assets/audiences_1.png)
 
 1. 대상에 이름을 추가합니다.
 
-   ![](assets/audiences_2.png)
+   대상 이름 필드 및 규칙 추가 단추가 있는 ![Adobe Target 새 대상 대화 상자](assets/audiences_2.png)
 
 1. **[!UICONTROL Add a rule]**&#x200B;을(를) 클릭하고 범주를 선택합니다. 규칙은 특정 기준을 사용하여 방문자를 타깃팅합니다. 조건을 추가하거나 다른 범주에서 새 규칙을 만들어 규칙을 세분화할 수 있습니다.
 
@@ -145,17 +145,17 @@ Adobe Target에서 경험 타깃팅 활동을 만들고, 다양한 경험을 정
 
 1. 경험 타깃팅 활동을 만들려면 **[!UICONTROL Activities]** 탭에서 **[!UICONTROL Create Activity]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Experience Targeting]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/target_10.png)
+   ![활동 만들기 메뉴가 열려 있고 경험 타깃팅이 강조 표시된 Adobe Target 활동 탭](assets/target_10.png)
 
 1. **[!UICONTROL Form]**&#x200B;을(를) **[!UICONTROL Experience Composer]**(으)로 선택합니다.
 
 1. **[!UICONTROL Change audience]** 단추를 클릭하여 대상을 선택합니다.
 
-   ![](assets/target_10_2.png)
+   ![모든 방문자 대상 메뉴에서 대상 변경을 선택한 새 활동 경험 단계](assets/target_10_2.png)
 
 1. 이전 단계에서 만든 대상자를 선택합니다.
 
-   ![](assets/target_10_3.png)
+   ![모든 방문자와 다른 대상이 있는 대상 라이브러리를 나열하는 대상 선택 대화 상자](assets/target_10_3.png)
 
 1. **[!UICONTROL Add Experience Targeting]**&#x200B;을(를) 클릭하여 다른 경험을 만듭니다.
 
@@ -163,27 +163,27 @@ Adobe Target에서 경험 타깃팅 활동을 만들고, 다양한 경험을 정
 
 1. Adobe Campaign에서 동적 오퍼를 삽입할 때 선택한 위치 이름을 선택합니다.
 
-   ![](assets/target_15.png)
+   ![위치 선택 목록에서 v_rawbox 위치를 선택한 경험 타깃팅 활동](assets/target_15.png)
 
 1. 드롭다운 단추를 클릭하고 **[!UICONTROL Change Redirect Offer]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/target_content.png)
+   ![리디렉션 오퍼 변경이 강조 표시된 활동의 콘텐츠 메뉴](assets/target_content.png)
 
 1. 이전에 만든 리디렉션 오퍼를 선택합니다.
 
-   ![](assets/target_content_2.png)
+   ![프랑스어 대상 오퍼를 선택하고 저장 단추를 사용하여 리디렉션 오퍼 선택 대화 상자](assets/target_content_2.png)
 
 1. 두 번째 경험에 대해서도 동일한 단계를 수행합니다.
 
 **[!UICONTROL Target]** 창에 활동이 요약됩니다. 필요한 경우 다른 경험을 추가할 수 있습니다.
 
-![](assets/target_experience.png)
+![프랑스어 대상을 경험 A로 나열하고 미국 대상을 경험 B로 나열하는 대상 단계](assets/target_experience.png)
 
 **[!UICONTROL Goal & Settings]** 창을 사용하면 우선 순위, 목표 또는 기간을 설정하여 활동을 개인화할 수 있습니다.
 
 **[!UICONTROL Reporting Settings]** 섹션을 사용하면 작업을 선택하고 목표 달성 시기를 결정할 매개 변수를 편집할 수 있습니다.
 
-![](assets/target_experience_2.png)
+![목표 지표를 전환으로 설정하고 v6_rawbox에 대한 mbox 확인함](assets/target_experience_2.png)을(를) 사용하는 목표 및 설정 단계
 
 ## 메시지 미리 보기 및 보내기 {#preview-send-email}
 
@@ -193,4 +193,4 @@ Adobe Target에서 경험 타깃팅 활동을 만들고, 다양한 경험을 정
 
 이제 Target의 다이내믹 오퍼를 포함하여 이메일을 보낼 준비가 되었습니다.
 
-![](assets/target_20.png)
+![프랑스 대상자를 위해 Adobe Target에서 제공하는 에펠탑 이미지를 보여주는 Marie Dupont의 이메일 미리 보기](assets/target_20.png)

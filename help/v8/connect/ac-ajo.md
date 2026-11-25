@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '142'
 ht-degree: 0%
 ---
 # Campaign 및 Adobe Journey Optimizer 작업
@@ -40,10 +40,10 @@ Adobe Campaign과 Adobe Journey Optimizer 간의 통합을 통해 Adobe Journey 
 기본 단계는 Campaign에서 트랜잭션 메시지 템플릿을 만든 다음 Adobe Journey Optimizer에서 이벤트, 작업 및 여정 디자인을 만드는 것입니다.
 
 
-![](assets/ajo-integration.png)
+![ActionCampaign_v8 작업과 이메일, 이름 및 순서 매개 변수가 포함된 Journey Optimizer 여정 캔버스](assets/ajo-integration.png)
 
 
-[이 전체 샘플에서 이 통합을 살펴보세요](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/connect-systems/adobe-solutions/acc-action){target="_blank"}.
+[이 전체 샘플에서 이 통합을 살펴보세요](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/connect-systems/adobe-solutions/acc-action){target="_blank"}.
 
 
-[Journey Optimizer 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.
+[Journey Optimizer 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.

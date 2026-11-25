@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 3%
+source-wordcount: '403'
+ht-degree: 2%
 ---
 # Campaign 및 SFDC 작업{#crm-sfdc}
 
@@ -59,7 +59,7 @@ Salesforce 데이터를 Adobe Campaign으로 가져오고 내보내도록 전용
 1. **Type** 섹션에서 **[!UICONTROL Salesforce.com]** 외부 계정을 선택하십시오.
 1. 연결을 활성화하려면 설정을 입력하십시오.
 
-   ![](assets/sfdc-external-account.png)
+   ![계정, 암호, 보안 토큰 및 API 버전 필드가 있는 Salesforce CRM 외부 계정](assets/sfdc-external-account.png)
 
    Adobe Campaign에서 작동하도록 Salesforce CRM 외부 계정을 구성하려면 다음 세부 정보를 제공해야 합니다.
 
@@ -85,7 +85,7 @@ Salesforce 데이터를 Adobe Campaign으로 가져오고 내보내도록 전용
 
    Campaign에서 가져온 **Salesforce** 스키마의 예:
 
-   ![](assets/sfdc-schemas.png)
+   ![가져온 Salesforce CRM 원본 스키마를 표시하는 Salesforce에서 필터링된 데이터 스키마 목록](assets/sfdc-schemas.png)
 
 ## 열거형 동기화{#sfdc-enum-sync}
 
@@ -95,16 +95,16 @@ Salesforce 데이터를 Adobe Campaign으로 가져오고 내보내도록 전용
 1. Salesforce 열거와 일치하는 Adobe Campaign 열거를 선택합니다.
 Adobe Campaign 열거형의 모든 값을 CRM의 값으로 바꿀 수 있습니다. 이렇게 하려면 **[!UICONTROL Replace]** 열에서 **[!UICONTROL Yes]**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/sfdc-enum.png)
+   ![Replace 열이 있는 Campaign 열거형에 CRM 열거형을 매핑하는 열거형 대화 상자 동기화](assets/sfdc-enum.png)
 
 1. 열거형을 가져오려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 
-1. 가져온 값을 확인하려면 **[!UICONTROL Administration > Platform > Enumerations]** 노드를 검색하십시오. [이 페이지](../config/ui-settings.md)의 열거형에 대해 자세히 알아보세요.
+1. 가져온 값을 확인하려면 **[!UICONTROL Administration > Platform > Enumerations]** 노드를 검색하십시오. [Campaign 인터페이스 설정](../config/ui-settings.md)의 열거형에 대해 자세히 알아보세요.
 
 이제 Adobe Campaign 및 Salesforce.com이 연결되었습니다. 두 시스템 간에 데이터 동기화를 설정할 수 있습니다.
 
 Adobe Campaign 데이터와 SFDC 간에 데이터를 동기화하려면 워크플로우를 만들고 **[!UICONTROL CRM connector]** 활동을 사용합니다.
 
-이 페이지[&#128279;](crm-data-sync.md)에서 데이터 동기화 에 대해 자세히 알아보세요.
+이 페이지](crm-data-sync.md)에서 데이터 동기화 [에 대해 자세히 알아보세요.
 
-이 페이지[&#128279;](../config/enumerations.md)에서 Campaign 의 열거 관리에 대해 자세히 알아보세요.
+이 페이지](../config/enumerations.md)에서 Campaign [의 열거 관리에 대해 자세히 알아보세요.

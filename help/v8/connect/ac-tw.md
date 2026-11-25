@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 2%
+source-wordcount: '1168'
+ht-degree: 1%
 ---
 # Campaign을 X와 함께 사용하기(Twitter) {#tw-ac-ovv}
 
@@ -69,7 +69,7 @@ X 계정에 트윗을 게시하도록 Adobe Campaign을 구성하려면 이러�
 
 이 통합을 시작하려면 [X 개발자 계정](https://developer.twitter.com){target="_blank"}에 등록해야 합니다.
 
-Campaign은 X API의 1.1 버전을 사용합니다. 이 기능을 사용하려면 개발자 포털을 통해 관리자 권한으로 액세스 권한을 신청해야 합니다. 이 페이지에서 [X 관리자 권한 &#x200B;](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}에 대해 자세히 알아보세요.
+Campaign은 X API의 1.1 버전을 사용합니다. 이 기능을 사용하려면 개발자 포털을 통해 관리자 권한으로 액세스 권한을 신청해야 합니다. 이 페이지에서 [X 관리자 권한 ](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}에 대해 자세히 알아보세요.
 
 ## X에서 응용 프로그램 만들기 {#create-an-app-on-twitter}
 
@@ -81,15 +81,15 @@ Campaign은 X API의 1.1 버전을 사용합니다. 이 기능을 사용하려�
 1. X 도우미가 프로세스를 안내하도록 합니다.
 1. Adobe Campaign에서 계정에 게시물을 만들 수 있도록 하려면 앱의 사용자 인증 설정 섹션에서 **앱 권한**&#x200B;을 편집하세요. **읽기, 쓰기 및 다이렉트 메시지**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/tw-permissions.png)
+   ![읽기/쓰기 및 DM이 선택된 앱 사용 권한](assets/tw-permissions.png)
 
 1. **앱 유형** 섹션에서 **웹 앱, 자동화된 앱 또는 봇**&#x200B;을 선택합니다. **콜백 URL** 필드를 비워 두고 구성을 저장할 수 있습니다.
 
-   ![](assets/tw-app-type.png)
+   ![비밀 클라이언트로 선택된 웹 앱, 자동화된 앱 또는 봇이 있는 앱 유형](assets/tw-app-type.png)
 
 1. 앱 대시보드로 돌아가서 앱을 선택하고 **키 및 토큰** 탭으로 이동합니다. **액세스 토큰 및 암호**&#x200B;에서 **읽기, 쓰기 및 다이렉트 메시지** 권한이 언급되지 않은 경우 앱의 토큰 및 암호를 다시 생성해야 합니다. 생성 시 모든 키와 토큰을 저장해야 합니다. Campaign Twitter 서비스를 구성하려면 ID가 필요합니다.
 
-   ![](assets/tw-permissions-check.png)
+   ![읽기, 쓰기 및 DM 권한으로 만든 액세스 토큰 및 암호를 표시하는 인증 토큰](assets/tw-permissions-check.png)
 
 
 >[!NOTE]
@@ -122,7 +122,7 @@ Campaign 인스턴스를 X 계정과 연결하려면 **Twitter** 서비스를 �
 
 1. 기본적으로 팔로워는 **[!UICONTROL Visitors]** 폴더에 저장됩니다. **[!UICONTROL Visitor folder]** 필드에서 다른 위치를 선택할 수 있습니다. [자세히 알아보기](../send/twitter.md#direct-tw-messages)
 
-   ![](assets/tw-service-in-ac.png)
+   ![레이블, 유형 이메일, 방문자 폴더 및 OAuth 소비자 및 액세스 토큰 필드가 있는 새로운 오퍼 서비스](assets/tw-service-in-ac.png)
 
    >[!NOTE]
    >
@@ -138,7 +138,7 @@ Campaign 인스턴스를 X 계정과 연결하려면 **Twitter** 서비스를 �
 
 * 방금 만든 **Twitter** 서비스를 편집합니다.
 * **[!UICONTROL Twitter page]** 탭을 탐색합니다. Twitter 계정이 표시되어야 합니다.
-  ![](assets/tw-page.png)
+  ![연결된 Jane Marge 계정을 표시하는 Adobe Campaign 콘솔 서비스의 Twitter 페이지 탭](assets/tw-page.png)
 
 ## X 계정 동기화 {#synchro-tw-accounts}
 
@@ -148,7 +148,7 @@ Campaign 인스턴스를 X 계정과 연결하려면 **Twitter** 서비스를 �
 
 **[!UICONTROL Synchronization of Twitter accounts]** 기술 워크플로우는 Adobe Campaign의 X 계정을 동기화합니다. 이 워크플로우는 X 팔로우어 목록을 복구하여 사용자에게 다이렉트 메시지를 보낼 수 있습니다. [자세히 알아보기](../send/twitter.md#direct-tw-messages)
 
-기본적으로 이 워크플로우는 매주 목요일 오전 7시 30분에 트리거됩니다. 이 통합을 구현하고 있으므로 언제든지 **[!UICONTROL Execute pending task(s) now]** 옵션을 사용하여 워크플로를 시작할 수 있습니다.  스케줄러를 편집하여 워크플로 트리거 빈도를 변경할 수도 있습니다. [이 페이지](../../automation/workflow/scheduler.md)에서 자세히 알아보십시오.
+기본적으로 이 워크플로우는 매주 목요일 오전 7시 30분에 트리거됩니다. 이 통합을 구현하고 있으므로 언제든지 **[!UICONTROL Execute pending task(s) now]** 옵션을 사용하여 워크플로를 시작할 수 있습니다.  스케줄러를 편집하여 워크플로 트리거 빈도를 변경할 수도 있습니다. [스케줄러 활동 구성](../../automation/workflow/scheduler.md#configuring-scheduler-activity)에서 자세히 알아보세요.
 
 >[!CAUTION]
 >
@@ -175,6 +175,6 @@ X 계정 외에 [트윗 증명](../send/twitter.md)을 보내는 데 사용할 �
 1. **설정** 계정에 액세스하십시오.
 1. **개인 정보 보호 및 안전** 및 **대상자 및 태그 지정**&#x200B;으로 이동하여 **게시물 보호** 옵션을 확인하세요. 귀하의 게시물 및 기타 계정 정보는 귀하를 따르는 사람에게만 표시됩니다.
 
-![](assets/do-not-localize/social_tw_test_page.png)
+![X개 설정 게시물 보호 옵션이 선택된 대상, 미디어 및 태그 지정 페이지](assets/do-not-localize/social_tw_test_page.png)
 
 위에서 설명한 대로 이 테스트 계정으로 작동하도록 X 앱 및 Campaign 서비스를 구성합니다.
