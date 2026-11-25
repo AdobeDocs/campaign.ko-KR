@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 14%
+source-wordcount: '304'
+ht-degree: 13%
 ---
 # 파일에서 프로필 가져오기{#create-profiles}
 
@@ -47,13 +47,13 @@ Campaign 데이터베이스를 채우려면 아래 설명된 대로 [프로필�
 
 ### 목록의 데이터 사용: 목록 읽기 {#data-from-read-list}
 
-워크플로우로 가져올 데이터를 파일에 준비하고 구성합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=ko){target="_blank"}.
+워크플로우로 가져올 데이터를 파일에 준비하고 구성합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html){target="_blank"}.
 
 ### 파일에서 데이터 로드 {#data-from-a-file}
 
-워크플로우에서 처리된 데이터는 Adobe Campaign으로 가져올 수 있도록 구조화된 파일에서 추출할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file){target="_blank"}.
+워크플로우에서 처리된 데이터는 Adobe Campaign으로 가져올 수 있도록 구조화된 파일에서 추출할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file){target="_blank"}.
 
-데이터가 수집되면 워크플로우에서 사용할 수 있습니다. 예를 들어 게재를 보강하거나 데이터베이스를 업데이트할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=ko){target="_blank"}을 참조하십시오.
+데이터가 수집되면 워크플로우에서 사용할 수 있습니다. 예를 들어 게재를 보강하거나 데이터베이스를 업데이트할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html){target="_blank"}을 참조하십시오.
 
 ## 일회성 가져오기{#import-jobs}
 
@@ -61,6 +61,6 @@ Adobe Campaign은 일반 가져오기 기능을 제공하여 예를 들어 대�
 
 일반 가져오기는 Adobe Campaign 홈 페이지의 **[!UICONTROL Profiles and Targets > Jobs]** 메뉴에서 관리됩니다.
 
-![](assets/new-import-job.png)
+![새로 가져오기 및 새 내보내기에 대해 만들기 메뉴가 열려 있는 프로필 및 대상 아래의 작업 목록](assets/new-import-job.png)
 
 일반 가져오기를 수행하는 단계는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다.

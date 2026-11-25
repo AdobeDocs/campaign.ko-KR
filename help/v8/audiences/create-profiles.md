@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 3%
+source-wordcount: '134'
+ht-degree: 2%
 ---
 # 수동으로 프로필 만들기{#create-profiles-manual}
 
@@ -38,15 +38,15 @@ Campaign 데이터베이스를 채우려면 아래 설명된 대로 [프로필�
 
 1. **[!UICONTROL Profiles and targets]** 탭으로 이동하여 **[!UICONTROL Recipients]** 범주를 선택합니다.
 
-   ![](assets/profiles-and-targets.png)
+   ![홈 페이지에서 [받는 사람] 목록과 [만들기] 단추가 있는 [프로필 및 대상] 탭을 선택했습니다.](assets/profiles-and-targets.png)
 
    기본적으로 수신자는 트리의 **[!UICONTROL Profiles and Targets > Recipients]** 노드에 저장됩니다. 이 보기에서 수신자를 만들 수도 있습니다.
 
 1. **[!UICONTROL Create button]**&#x200B;을(를) 클릭합니다.
 1. 프로필의 데이터를 입력합니다.
 
-   ![](assets/new-recipient.png)
+   ![일반 탭이 입력된 수신자 양식: 이름, 성, 이메일, 상태 및 원본, 저장 및 취소.](assets/new-recipient.png)
 
-   [이 페이지](view-profiles.md#edit-a-profiles)에서 받는 사람의 기본 제공 양식에 대해 자세히 알아보세요.
+   [프로필 편집](view-profiles.md#edit-a-profiles)에서 받는 사람의 기본 제공 양식에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 프로필이 기본 받는 사람 폴더의 Campaign에 추가됩니다.

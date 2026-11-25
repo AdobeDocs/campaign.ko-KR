@@ -36,10 +36,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 6%
+source-wordcount: '449'
+ht-degree: 5%
 ---
 # 대상 매핑 작업{#gs-target-mappings}
 
@@ -71,7 +71,7 @@ Adobe Campaign에는 다음과 같은 기본 제공 대상 매핑이 포함되�
 * 사용자 지정 수신자 테이블을 사용하면
 * 대상 매핑 화면에서 기본 제공 타겟팅 차원과 다른 필터링 차원을 구성합니다.
 
-[이 페이지](../dev/custom-recipient.md)에서 사용자 지정 받는 사람 테이블에 대해 자세히 알아보세요.
+[기본 받는 사람 테이블 변경](../dev/custom-recipient.md)에서 사용자 지정 받는 사람 테이블에 대해 자세히 알아보세요.
 
 Adobe Campaign 대상 매핑 생성 마법사는 사용자 지정 대상 매핑을 사용하는 데 필요한 모든 스키마를 만드는 데 도움이 됩니다.
 
@@ -79,16 +79,16 @@ Adobe Campaign 대상 매핑 생성 마법사는 사용자 지정 대상 매핑�
 
 1. 새 타겟 매핑을 만들고 사용자 지정 스키마를 타겟팅 차원으로 선택합니다.
 
-   ![](assets/new-target-mapping.png)
+   ![레이블 클라이언트 및 타깃팅 차원 계약을 사용하여 새 대상 매핑 마법사의 타깃팅 차원 단계를 선택합니다.](assets/new-target-mapping.png)
 
 
 1. 성, 이름, 이메일, 주소 등 프로필 정보가 저장된 필드를 나타냅니다.
 
-   ![](assets/wf_new_mapping_define_join.png)
+   ![주소 양식 편집 단계. 여기서 전자 메일과 같은 각 게재 주소 필드는 새 차원의 필드에 연결됩니다.](assets/wf_new_mapping_define_join.png)
 
 1. 쉽게 식별할 수 있도록 확장 스키마의 접미사를 포함하여 정보 저장소에 대한 매개 변수를 지정합니다.
 
-   ![](assets/wf_new_mapping_define_names.png)
+   ![네임스페이스, 확장 스키마의 접미사 및 제외 및 메시지를 저장하는 제외 옵션을 사용하는 저장소 단계입니다.](assets/wf_new_mapping_define_names.png)
 
    메시지(**broadlog**)와 함께 제외(**excludelog**)를 저장할지 또는 별도의 테이블에 저장할지 선택할 수 있습니다.
 
@@ -96,6 +96,6 @@ Adobe Campaign 대상 매핑 생성 마법사는 사용자 지정 대상 매핑�
 
 1. 그런 다음 고려할 확장을 선택합니다. 확장 유형은 Campaign 설정 및 추가 기능에 따라 다릅니다.
 
-   ![](assets/wf_new_mapping_define_extensions.png)
+   ![오퍼 엔진에서 제안에 대한 저장소 스키마 생성 옵션을 사용하여 확장 단계를 수행합니다.](assets/wf_new_mapping_define_extensions.png)
 
    **[!UICONTROL Save]** 단추를 클릭하여 게재 매핑 만들기를 시작합니다. 연결된 모든 테이블은 선택한 매개 변수를 기반으로 자동으로 만들어집니다.

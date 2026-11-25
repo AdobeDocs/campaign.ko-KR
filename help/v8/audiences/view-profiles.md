@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 2%
+source-wordcount: '582'
+ht-degree: 0%
 ---
 # 기존 프로필 보기 {#view-profiles}
 
@@ -42,11 +42,11 @@ Adobe Campaign 데이터베이스에 저장된 수신자에 액세스하려면 *
 
 이 페이지에서 [새 받는 사람을 만들고](create-profiles.md)기존 받는 사람을 편집하고 해당 프로필 세부 정보에 액세스할 수 있습니다.
 
-![](assets/profiles-and-targets.png)
+![Campaign 홈 페이지의 프로필 및 대상 탭에서 [만들기] 단추가 있는 받는 사람 목록을 표시합니다.](assets/profiles-and-targets.png)
 
 고급 프로필 조작을 위해 Adobe Campaign 홈 페이지의 **[!UICONTROL Explorer]** 링크에서 캠페인 트리에 액세스합니다.
 
-![](assets/recipients-in-explorer.png)
+![받는 사람 폴더를 선택한 탐색기 트리, 받는 사람 목록 및 선택한 받는 사람의 세부 정보](assets/recipients-in-explorer.png)
 
 
 >[!CAUTION]
@@ -58,7 +58,7 @@ Adobe Campaign 데이터베이스에 저장된 수신자에 액세스하려면 *
 
 새 탭에 세부 정보를 표시할 프로필을 선택하십시오.
 
-![](assets/edit-a-profile.png)
+![일반, 연락처 정보, 기타, 구독, 게재 및 추적 섹션이 있는 받는 사람 프로필 탭](assets/edit-a-profile.png)
 
 프로필에 대한 데이터는 탭으로 그룹화됩니다. 이러한 탭과 해당 콘텐츠는 특정 설정 및 설치된 패키지에 따라 다릅니다.
 
@@ -66,7 +66,7 @@ Adobe Campaign 데이터베이스에 저장된 수신자에 액세스하려면 *
 
 * **[!UICONTROL General]**(모든 일반 프로필 데이터). 특히 성, 이름, 이메일 주소, 이메일 형식 등을 포함하고 있다.
 
-  이 탭에는 프로필에 대한 **옵트아웃** 플래그도 저장됩니다. **[!UICONTROL No longer contact (by any channel)]** 옵션을 선택하면 프로필이 차단 목록에 추가하다에 있습니다. 예를 들어 수신자가 뉴스레터에서 구독 취소 링크를 클릭한 경우 이 정보가 연락처 데이터에 추가됩니다. 이러한 수신자는 더 이상 채널(이메일, DM 등)을 타겟팅하지 않습니다. 자세한 정보는 이 [페이지](../send/quarantines.md)를 참조하십시오.
+  이 탭에는 프로필에 대한 **옵트아웃** 플래그도 저장됩니다. **[!UICONTROL No longer contact (by any channel)]** 옵션을 선택하면 프로필이 차단 목록에 추가하다에 있습니다. 예를 들어 수신자가 뉴스레터에서 구독 취소 링크를 클릭한 경우 이 정보가 연락처 데이터에 추가됩니다. 이러한 수신자는 더 이상 채널(이메일, DM 등)을 타겟팅하지 않습니다. 자세한 내용은 [Campaign의 격리 관리](../send/quarantines.md)를 참조하세요.
 
 * **연락처 정보**(선택한 프로필의 DM 주소 포함).
 
@@ -76,15 +76,15 @@ Adobe Campaign 데이터베이스에 저장된 수신자에 액세스하려면 *
 
   **[!UICONTROL Field properties…]** 상황별 메뉴를 사용하여 필드 이름을 변경하고 해당 형식을 정의합니다.
 
-  ![](assets/other-tab-field-properties.png)
+  ![부울 1 필드의 컨텍스트 메뉴에서 필드 속성 옵션을 선택한 받는 사람의 기타 탭](assets/other-tab-field-properties.png)
 
   다음과 같이 새 설정을 입력합니다.
 
-  ![](assets/change-field-properties.png)
+  레이블 필드가 Luma Gold 프로그램으로 설정되어 있고 설명 필드가 채워진 ![필드 속성 대화 상자](assets/change-field-properties.png)
 
   UI에서 업데이트를 확인합니다.
 
-  ![](assets/other-tab-updated.png)
+  ![이제 부울 1 필드가 예 또는 아니요 값을 가진 Luma Gold 프로그램으로 표시되는 받는 사람의 기타 탭](assets/other-tab-updated.png)
 
 
   >[!CAUTION]
@@ -94,13 +94,13 @@ Adobe Campaign 데이터베이스에 저장된 수신자에 액세스하려면 *
 
 * **구독**(서비스에 대한 모든 활성 구독). **내역** 탭을 사용하여 이 연락처의 구독 및 구독 취소에 대한 세부 정보에 액세스할 수 있습니다.
 
-  ![](assets/subscription-tab.png)
+  ![활성 구독을 나열하는 수신자의 구독 탭(활성 구독 및 내역 탭 포함)](assets/subscription-tab.png)
 
-  이 섹션[&#128279;](../start/subscriptions.md)에서 구독에 대해 자세히 알아보세요.
+  이 섹션](../start/subscriptions.md)에서 [구독에 대해 자세히 알아보세요.
 
 * 선택한 프로필의 모든 게재 로그에 대해 **게재**. 이 탭을 사용하여 연락처의 마케팅 기록(모든 채널을 통해 프로필에 지정된 모든 게재 작업의 레이블, 날짜 및 상태)에 액세스할 수 있습니다.
 
 
 * 선택한 프로필의 모든 추적 로그에 대해 **추적**&#x200B;합니다. 이 정보는 게재 후 프로필 동작을 추적하는 데 사용됩니다. 이 탭은 게재에서 추적된 모든 URL의 누적 합계를 보여줍니다. 목록은 구성할 수 있으며, 일반적으로 다음과 같은 항목이 포함됩니다. 클릭한 URL, 클릭한 날짜 및 시간, URL이 포함된 문서
 
-  이 섹션[&#128279;](../send/tracking.md)에서  추적에 대해 자세히 알아보세요.
+  이 섹션](../send/tracking.md)에서 [ 추적에 대해 자세히 알아보세요.

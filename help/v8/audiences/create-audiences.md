@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 3%
+source-wordcount: '987'
+ht-degree: 2%
 ---
 # 목록에서 대상자 만들기 {#create-segments}
 
@@ -38,13 +38,13 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
 목록은 **[!UICONTROL Profiles and targets]** 탭의 **[!UICONTROL Lists]** 링크를 통해 만들고 관리합니다. 이러한 목록은 기본 Adobe Campaign 프로필 테이블(nms:recipient)을 기반으로 합니다. [자세히 알아보기](../dev/datamodel.md#ootb-profiles)
 
-![](assets/list-dashboard.png)
+![기존 목록과 만들기 단추를 표시하는 프로필 및 대상 아래의 목록 페이지](assets/list-dashboard.png)
 
 워크플로우에서 **목록 업데이트** 활동을 사용하여 목록을 만들 수 있습니다. 이 활동은 결과 모집단을 목록에 저장합니다. 새 목록을 만들거나 기존 목록을 업데이트하는 데 사용합니다. 기본 제공 프로필 테이블 이외의 다른 유형의 데이터가 포함된 목록을 만들려면 워크플로우를 실행해야 합니다. 예를 들어 방문자 테이블에서 쿼리를 사용한 다음 목록을 업데이트하여 방문자 목록을 만들 수 있습니다. [자세히 알아보기](#create-a-list-wf).
 
 이 비디오를 통해 Adobe Campaign의 목록 관리에 대해 자세히 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426462?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
 
 ## 연락처 목록 만들기 {#create-a-list-of-contacts}
@@ -53,11 +53,11 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
 1. **[!UICONTROL Create]** 단추를 클릭하고 **[!UICONTROL New list]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/new-list.png)
+   ![새 목록 옵션을 사용하여 목록 페이지에 메뉴 만들기](assets/new-list.png)
 
 1. 목록 만들기 창의 **[!UICONTROL Edit]** 탭에 정보를 입력하십시오.
 
-   ![](assets/list-details.png)
+   ![레이블, 내부 이름, 목록 유형, 스키마 및 폴더 필드가 있는 목록 만들기 창의 편집 탭](assets/list-details.png)
 
    * **[!UICONTROL Label]** 필드에 목록 이름을 입력하고 필요한 경우 내부 이름을 변경합니다.
    * 이 목록에 대한 설명을 추가합니다.
@@ -66,7 +66,7 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
 1. **[!UICONTROL Content]** 탭에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 목록에 속한 프로필을 선택합니다.
 
-   ![](assets/add-profiles-to-a-list.png)
+   ![데이터 집합 폴더에서 선택한 여러 수신자와 목록 대화 상자에 수신자 추가](assets/add-profiles-to-a-list.png)
 
    새 프로필을 만든 후 **[!UICONTROL Create]** 아이콘을 사용하여 이 창에서 바로 목록에 추가할 수 있습니다. 프로필이 데이터베이스에 추가됩니다.
 
@@ -83,15 +83,15 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
 1. **[!UICONTROL Actions > Associate selection with a list...]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/add-selection-to-a-list.png)
+   ![선택한 받는 사람에 대한 선택 항목을 목록 옵션과 연결](assets/add-selection-to-a-list.png)이 포함된 작업 메뉴
 
 1. 기존 목록을 선택하거나 새 목록을 만들고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/select-the-list.png)
+   ![선택한 목록과 다음 단추가 있는 받는 사람 및 목록 마법사의 목록 단계 선택](assets/select-the-list.png)
 
 1. **[!UICONTROL Start]** 버튼을 클릭합니다.
 
-   ![](assets/record-a-list.png)
+   ![목록 다시 만들기 옵션과 시작 단추를 사용하여 마법사의 목록 단계에 기록](assets/record-a-list.png)
 
 **[!UICONTROL Recreate the list]** 옵션을 선택하여 목록에서 기존 콘텐츠를 삭제하고 목록 만들기를 최적화합니다(프로필이 이미 목록에 연결되어 있는지 확인하는 데 쿼리가 필요하지 않음).
 
@@ -111,22 +111,22 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 1. **[!UICONTROL Profiles and targets]**, **[!UICONTROL Targeting workflows]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Create]** 단추에서 새 워크플로우를 만듭니다.
 1. 이 워크플로의 레이블(예: &#39;25-40개 연락처&#39;)을 입력하고 설명을 추가한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/targeting-wf-sample.png)
+   ![25~40명의 연락처에 대해 레이블 및 설명을 입력한 타겟팅 워크플로우의 새 워크플로우 대화 상자](assets/targeting-wf-sample.png)
 
 1. **[!UICONTROL Query]** 활동을 삽입하여 대상 모집단을 정의하고 쿼리를 편집합니다.
 
-   ![](assets/targeting-wf-edit-query.png)
+   ![쿼리 편집 링크 및 필터링 조건을 포함한 타깃팅 및 필터링 차원 단계를 사용하여 쿼리 활동](assets/targeting-wf-edit-query.png)
 
 1. 다음과 같이 필터 조건을 정의합니다.
 
-   ![](assets/targeting-wf-age-filter.png)
+   ![나이가 25세 이상 40세 이하인 쿼리의 필터 단계](assets/targeting-wf-age-filter.png)
 
-   [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}의 워크플로우에서 쿼리를 만드는 방법을 알아봅니다.
+   [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}의 워크플로우에서 쿼리를 만드는 방법을 알아봅니다.
 
 1. 이 쿼리에 대한 레이블을 추가하고 변경 사항을 저장합니다.
 1. **[!UICONTROL List update]** 활동을 추가하고 편집합니다.
 
-   ![](assets/list-update-activity.png)
+   ![목록 만들기 및 폴더 옵션과 [확인] 단추를 사용하여 워크플로우에서 활동 설정을 나열합니다.](assets/list-update-activity.png)
 
 1. 활동에 대한 레이블을 입력합니다.
 1. **[!UICONTROL Create the list if necessary (Computed name)]** 옵션을 선택하면 첫 번째 워크플로우가 실행되면 목록이 만들어지고 다음 실행으로 업데이트됩니다.
@@ -140,9 +140,9 @@ Campaign 목록을 사용하여 대상자를 만들고 구성합니다.
 
    그러면 일치하는 수신자 목록이 만들어집니다. 홈 페이지의 **[!UICONTROL Lists]** 항목에서 이 목록에 액세스할 수 있습니다.
 
-   ![](assets/access-new-list.png)
+   ![목록 항목에서 도달한 새 25-40명의 대화 상대 목록을 맨 위에 표시하는 목록 페이지](assets/access-new-list.png)
 
-   워크플로우에 스케줄러를 추가하여 이 워크플로우를 반복적으로 수행할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ko){target="_blank"}.
+   워크플로우에 스케줄러를 추가하여 이 워크플로우를 반복적으로 수행할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
 
 ## 목록에서 프로필 제거 {#remove-a-profile-from-a-list}
 
