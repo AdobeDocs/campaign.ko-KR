@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 2%
+source-wordcount: '1044'
+ht-degree: 1%
 ---
 # 랜딩 페이지 만들기{#creating-a-landing-page}
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 >
 >가장 일반적인 사용 사례의 경우, Campaign 웹 사용자 인터페이스에서 랜딩 페이지를 만들어 손쉽게 디자인하고 게시할 수 있습니다. 이 섹션에 설명된 대로 클라이언트 콘솔에서 만든 랜딩 페이지는 더 많은 설정을 제공하고 더 많은 고급 사용 사례를 다룹니다.
 >
->[Campaign 웹 사용자 인터페이스의 랜딩 페이지에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[Campaign 웹 사용자 인터페이스의 랜딩 페이지에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 
 
@@ -56,24 +56,24 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 1. **[!UICONTROL Campaigns]** 탭으로 이동하여 **[!UICONTROL Web application]** 링크를 클릭한 다음 **[!UICONTROL Create]** 단추를 클릭합니다.
 1. **[!UICONTROL New landing page]** 템플릿을 선택하고 레이블을 입력한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/dce_uc1_newlandingpage.png)
+   ![새 랜딩 페이지 템플릿, 레이블 및 웹 응용 프로그램 폴더가 있는 새 웹 응용 프로그램 대화 상자](assets/dce_uc1_newlandingpage.png)
 
 1. **[!UICONTROL Edit]** 탭을 클릭합니다.
 1. **End** 활동을 삭제합니다.
 1. **[!UICONTROL Storage]** 활동 뒤에 **[!UICONTROL Page]** 활동을 추가합니다.
 1. **페이지 2** 활동을 편집한 다음 **[!UICONTROL Properties]** 탭에서 **[!UICONTROL Activate outbound transitions]** 옵션의 선택을 취소합니다.
 
-   ![](assets/dce_uc1_transition.png)
+   ![아웃바운드 전환 사용이 지워진 페이지 2의 페이지 활동 속성 탭](assets/dce_uc1_transition.png)
 
 1. 변경 사항을 저장합니다.
 
 그런 다음 다음 다음 순서를 가져옵니다.
 
-![](assets/dce_uc1_edition_activity.png)
+![웹 응용 프로그램 흐름: 순서대로 연결된 미리 로드, 페이지, 저장소 및 페이지 2 활동](assets/dce_uc1_edition_activity.png)
 
 >[!NOTE]
 >
->웹 응용 프로그램 만들기에 대한 자세한 내용은 [이 섹션](creating-a-new-web-application.md)을 참조하세요.
+>웹 응용 프로그램 만들기에 대한 자세한 내용은 [새 웹 응용 프로그램 만들기](creating-a-new-web-application.md)를 참조하세요.
 
 ## 1단계 - 템플릿 선택 및 로드 {#step-1---selecting-and-loading-templates}
 
@@ -90,7 +90,7 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 1. 웹 응용 프로그램의 첫 **[!UICONTROL Page]** 활동을 엽니다.
 1. 콘텐츠 템플릿을 가져오려면 **[!UICONTROL From a file]**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/dce_uc1_selectmodel.png)
+   ![템플릿을 나열하는 콘텐츠 대화 상자 선택: 파일에서, 연락처, 자세한 클릭스루, 클릭스루 및 획득](assets/dce_uc1_selectmodel.png)
 
 1. 사용할 HTML 파일을 선택합니다.
 1. 가져오기를 시작하려면 **열기**&#x200B;를 클릭하세요.
@@ -99,7 +99,7 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 
    가져오기가 완료되면 **[!UICONTROL Close]** 단추를 클릭합니다.
 
-   ![](assets/dce_uc1_import.png)
+   ![100% 성공 메시지로 끝나는 업로드된 CSS, 이미지 및 스크립트 파일의 리소스 로그 게시](assets/dce_uc1_import.png)
 
    >[!CAUTION]
    >
@@ -108,7 +108,7 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 1. **[!UICONTROL Properties]** 탭을 클릭합니다.
 1. 각 페이지에 대해 **레이블**&#x200B;을(를) 입력하십시오(예: Page 1= Collect, Page 2=Thank you).
 
-   ![](assets/dce_uc1_pagelabel.png)
+   ![레이블 컬렉션 및 아웃바운드 전환 활성화가 선택된 페이지 활동 속성 탭](assets/dce_uc1_pagelabel.png)
 
 웹 애플리케이션에 삽입된 각 페이지에 대해 다음 단계를 적용합니다.
 
@@ -120,7 +120,7 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 
 이 섹션에서는 가져온 콘텐츠를 조정하고 데이터베이스의 필드를 웹 페이지 양식에 연결합니다. 이전에 만든 웹 응용 프로그램은 다음과 같습니다.
 
-![](assets/dce_uc1_lp_enchainement.png)
+![미리 로드, 컬렉션, 저장 및 감사 활동이 순서대로 연결된 웹 응용 프로그램 흐름](assets/dce_uc1_lp_enchainement.png)
 
 ### 콘텐츠 수정 {#modifying-content}
 
@@ -132,11 +132,11 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 1. 새 배경색을 선택합니다.
 1. **확인**&#x200B;을 클릭하여 변경 내용을 확인합니다.
 
-   ![](assets/dce_uc1_changecolor.png)
+   ![선택한 하이퍼텍스트 링크 단추의 배경색을 변경하는 색 선택 대화 상자가 있는 페이지 편집기](assets/dce_uc1_changecolor.png)
 
 1. 동일한 프로세스를 적용하여 버튼의 색상을 변경합니다
 
-   ![](assets/dce_uc1_finalcolor.png)
+   ![이름, 전자 메일, 전화 번호 및 주소 필드가 있고 복구된 SEND IT 단추가 있는 등록 양식 페이지 결과](assets/dce_uc1_finalcolor.png)
 
 ### 양식 필드 연결 {#linking-form-fields}
 
@@ -146,13 +146,13 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 1. 편집기의 오른쪽에 있는 **[!UICONTROL Field]** 섹션을 편집합니다.
 1. 선택한 필드에 연결할 데이터베이스 필드를 선택합니다.
 
-   ![](assets/dce_uc1_mapping.png)
+   ![데이터베이스 필드에 입력 영역을 매핑하기 위해 선택한 이름이 있는 받는 사람 대화 상자의 필드](assets/dce_uc1_mapping.png)
 
 1. 페이지의 각 필드에 대해 이 프로세스를 반복합니다.
 
 필수 필드를 만들 수 있습니다. 예를 들어 **[!UICONTROL Email]** 필드를 클릭한 다음 **필수** 옵션을 사용하도록 설정합니다.
 
-![](assets/dce_uc1_fieldmandatory.png)
+![양식 데이터 섹션에서 필수 옵션이 예로 설정된 페이지 편집기 입력 영역 설정](assets/dce_uc1_fieldmandatory.png)
 
 ### 다음 페이지에 대한 링크 만들기 {#creating-a-link-to-the-next-page}
 
@@ -162,7 +162,7 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 1. **[!UICONTROL Action]** 드롭다운 메뉴를 클릭합니다.
 1. **[!UICONTROL Next page]** 작업을 선택하십시오.
 
-   ![](assets/dce_uc1_actionbouton.png)
+   ![작업 드롭다운을 열고 다음 페이지를 선택한 상태로 하이퍼텍스트 링크 설정](assets/dce_uc1_actionbouton.png)
 
 ### 개인화 필드 삽입 {#inserting-a-personalization-field}
 
@@ -173,21 +173,21 @@ Adobe Campaign에서 랜딩 페이지 구성을 시작하기 전에 HTML 페이�
 1. 도구 모음의 **[!UICONTROL Insert]** 메뉴에서 **[!UICONTROL Personalization field]**&#x200B;을(를) 선택합니다.
 1. 이름을 선택합니다.
 
-   ![](assets/dce_uc1_persochamp.png)
+   ![요소 삽입 대화 상자에서 Personalization 필드 및 이름 필드가 선택된 메뉴 삽입](assets/dce_uc1_persochamp.png)
 
 개인화 필드의 편집기에는 노란색 배경이 있습니다.
 
-![](assets/dce_uc1_edit_champperso.png)
+![이름 개인화 필드가 노란색으로 강조 표시된 감사합니다.](assets/dce_uc1_edit_champperso.png)
 
 ## 3단계 - 콘텐츠 게시 {#step-3---publishing-content}
 
 웹 애플리케이션 대시보드에서 콘텐츠가 게시됩니다. 실행하려면 **[!UICONTROL Publish]** 단추를 클릭하세요.
 
-![](assets/dce_uc1_pub_dashboard.png)
+![게시 단추와 응용 프로그램을 게시해야 한다는 메시지가 있는 웹 응용 프로그램 대시보드](assets/dce_uc1_pub_dashboard.png)
 
 게시 중에 로그가 표시됩니다. 게시 시스템은 웹 애플리케이션에서 발견되는 모든 콘텐츠를 분석합니다
 
-![](assets/dce_uc1_pub_dashboard_journal.png)
+![프로세스 완료(경고 포함) 및 닫기 단추로 끝나는 웹 응용 프로그램 게시 로그](assets/dce_uc1_pub_dashboard_journal.png)
 
 >[!NOTE]
 >

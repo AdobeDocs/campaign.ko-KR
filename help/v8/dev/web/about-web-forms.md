@@ -26,9 +26,9 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '623'
 ht-degree: 1%
 ---
 # 웹 양식 시작{#about-web-forms}
@@ -55,19 +55,19 @@ Adobe Campaign은 웹 양식을 정의하고 게시하기 위한 그래픽 모�
 
 웹 양식을 만들려면 웹 응용 프로그램 목록 위에 있는 **[!UICONTROL Create]** 단추를 클릭합니다.
 
-![](assets/webapp_create_new.png)
+![새 웹 양식을 시작하기 위해 [만들기] 단추가 강조 표시된 캠페인 아래의 웹 응용 프로그램 목록입니다.](assets/webapp_create_new.png)
 
 웹 양식 서식 파일(기본적으로 **[!UICONTROL newWebForm]**)을 선택하십시오.
 
-![](assets/s_ncs_admin_survey_select_template.png)
+![템플릿 목록에서 선택한 새 웹 폼(newWebForm) 템플릿을 사용하는 새 웹 응용 프로그램 대화 상자.](assets/s_ncs_admin_survey_select_template.png)
 
 이렇게 하면 양식의 대시보드로 이동합니다.
 
-![](assets/webapp_empty_dashboard.png)
+![상태, 스키마, 폴더, 공개 URL 및 게시 단추를 표시하는 새 웹 양식의 대시보드 탭.](assets/webapp_empty_dashboard.png)
 
 **[!UICONTROL Edit]** 탭에서는 콘텐츠를 만들 수 있습니다.
 
-![](assets/webapp_edit_tab.png)
+![활동 다이어그램(시작, 페이지, 테스트, 저장소, 끝)과 활동 팔레트를 표시하는 웹 양식의 편집 탭입니다.](assets/webapp_edit_tab.png)
 
 웹 양식의 구성 및 콘텐츠를 정의하려면 다음 단계를 적용합니다.
 
@@ -104,12 +104,12 @@ Adobe Campaign은 웹 양식을 정의하고 게시하기 위한 그래픽 모�
 
 도구 모음의 아이콘을 사용하거나 마우스 오른쪽 버튼을 클릭하여 입력 영역을 삽입할 수도 있습니다.
 
-![](assets/s_ncs_admin_webform_add_selection.png)
+![입력 필드를 추가하기 위한 페이지 편집기 도구 모음 메뉴: 콤보 상자, 확인란, 라디오 단추, 다중 선택, 날짜, 표](assets/s_ncs_admin_webform_add_selection.png)
 
 이 경우 추가할 필드 유형과 답변 저장 모드를 선택하여 시작합니다.
 
-![](assets/s_ncs_admin_webform_select_storage.png)
+![저장소 대화 상자: 받는 사람 또는 변수 편집을 선택한 다음 편집 식이 있는 데이터베이스 필드를 선택합니다.](assets/s_ncs_admin_webform_select_storage.png)
 
 선택을 승인하려면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
-![](assets/s_ncs_admin_webform_confirm_storage.png)
+![식 선택에서 인사말 필드를 선택하면 저장소 대화 상자의 데이터베이스 필드가 채워집니다. 확인을 클릭합니다.](assets/s_ncs_admin_webform_confirm_storage.png)

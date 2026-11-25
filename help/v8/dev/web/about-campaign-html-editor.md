@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '370'
 ht-degree: 2%
 ---
 # Campaign HTML 편집기 시작{#about-campaign-html-editor}
@@ -41,7 +41,7 @@ ht-degree: 2%
 >
 >가장 일반적인 사용 사례의 경우, Campaign 웹 사용자 인터페이스에서 랜딩 페이지를 만들어 손쉽게 디자인하고 게시할 수 있습니다. 이 섹션에 설명된 대로 클라이언트 콘솔에서 만든 랜딩 페이지는 더 많은 설정을 제공하고 더 많은 고급 사용 사례를 다룹니다.
 >
->[Campaign 웹 사용자 인터페이스의 랜딩 페이지에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[Campaign 웹 사용자 인터페이스의 랜딩 페이지에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->서버측 JavaScript 코드를 추가해야 하는 경우 개인화 블록을 사용합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ko){target="_blank"}를 참조하세요.
+>서버측 JavaScript 코드를 추가해야 하는 경우 개인화 블록을 사용합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.
 
 >[!CAUTION]
 >
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 일반적인 작업은 다음과 같습니다.
 
-![](assets/dce_schema.png)
+![랜딩 페이지와 전자 메일 게재를 디지털 콘텐츠 편집기를 거쳐 게시 또는 전송으로 이동](assets/dce_schema.png)
 
 간단한 **웹 응용 프로그램**&#x200B;을 만들려면 다음을 수행해야 합니다.
 
@@ -74,7 +74,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->웹 응용 프로그램의 컨텍스트에서 전체 구현 샘플을 [이 섹션](creating-a-landing-page.md)에서 사용할 수 있습니다.
+>웹 응용 프로그램 컨텍스트의 전체 구현 샘플은 [랜딩 페이지 만들기](creating-a-landing-page.md)에서 사용할 수 있습니다.
 
 **전자 메일 게재**&#x200B;를 만들려면 다음을 수행해야 합니다.
 

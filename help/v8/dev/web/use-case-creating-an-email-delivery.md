@@ -34,9 +34,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '866'
 ht-degree: 1%
 ---
 # 활용 사례: 이메일 게재 만들기{#use-case-creating-an-email-delivery}
@@ -60,15 +60,15 @@ ht-degree: 1%
 
 ## 1단계 - 게재 만들기 {#step-1---creating-a-delivery}
 
-새 게재를 만들려면 **캠페인** 탭에 커서를 놓고 **게재**&#x200B;을 클릭합니다. 기존 게재 목록 위에 있는 **만들기** 단추를 클릭합니다. 게재 만들기에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}를 참조하세요.
+새 게재를 만들려면 **캠페인** 탭에 커서를 놓고 **게재**&#x200B;을 클릭합니다. 기존 게재 목록 위에 있는 **만들기** 단추를 클릭합니다. 게재 만들기에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}를 참조하세요.
 
-![](assets/delivery_step_1.png)
+![새 게재를 시작하는 데 사용되는 만들기 단추가 있는 캠페인 탭의 게재 목록.](assets/delivery_step_1.png)
 
 ## 2단계 - 템플릿 선택 {#step-2---selecting-a-template}
 
 게재 템플릿을 선택한 다음 게재 이름을 지정합니다. 이 이름은 Adobe Campaign 콘솔의 사용자만 볼 수 있고 수신자는 볼 수 없습니다. 하지만 이 제목은 게재 목록에 표시됩니다. **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-![](assets/dce_delivery_model.png)
+![전자 메일 게재 템플릿, 레이블 필드 및 계속 단추가 있는 게재 만들기 대화 상자.](assets/dce_delivery_model.png)
 
 ## 3단계 - 콘텐츠 선택 {#step-3---selecting-a-content}
 
@@ -76,11 +76,11 @@ ht-degree: 1%
 
 사용할 콘텐츠 템플릿을 선택한 다음 **[!UICONTROL Start with the selected content]** 단추를 클릭하여 만들어진 게재에서 템플릿을 표시합니다.
 
-![](assets/dce_select_model.png)
+![선택한 콘텐츠로 시작 단추가 있는 콘텐츠 템플릿을 나열하는 게재 콘텐츠 단계.](assets/dce_select_model.png)
 
 **[!UICONTROL From a file]**&#x200B;을(를) 선택하여 Adobe Campaign 외부에서 만든 HTML 콘텐츠를 가져올 수도 있습니다.
 
-![](assets/dce_select_from_file_template.png)
+![파일에서 사용 옵션이 강조 표시된 콘텐츠 템플릿을 사용할 수 있습니다.](assets/dce_select_from_file_template.png)
 
 이 콘텐츠를 나중에 사용할 수 있도록 템플릿으로 저장할 수 있습니다. 개인화된 콘텐츠 템플릿이 생성되면 템플릿 목록에서 미리 볼 수 있습니다. 자세한 내용은 [템플릿 관리](template-management.md)를 참조하세요.
 
@@ -94,13 +94,13 @@ ht-degree: 1%
 
   수신자의 첫 번째 이름과 두 번째 이름을 게재의 텍스트 필드에 삽입하려면 선택한 텍스트 필드를 클릭한 다음, 표시할 위치에 커서를 놓습니다. 팝업 도구 모음에서 첫 번째 아이콘을 클릭한 다음 **[!UICONTROL Personalization block]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Greetings]**&#x200B;을(를) 선택한 다음 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
-  ![](assets/dce_personalizationblock_greetings.png)
+  ![도구 모음 메뉴에서 열린 Greetings 개인화 블록이 선택된 상태로 요소 대화 상자를 삽입합니다.](assets/dce_personalizationblock_greetings.png)
 
 * 이미지에 링크 삽입
 
   이미지를 통해 게재 수신자를 외부 주소로 보내려면 관련 이미지를 클릭하여 팝업 도구 모음을 표시하고 첫 번째 아이콘에 커서를 놓은 다음 **[!UICONTROL Link to an external URL]**&#x200B;을(를) 클릭합니다. 자세한 내용은 [링크 추가](editing-content.md#adding-a-link)를 참조하세요.
 
-  ![](assets/dce_externalpage.png)
+  ![외부 URL에 연결 옵션이 선택된 이미지 도구 모음 메뉴](assets/dce_externalpage.png)
 
   **https://www.myURL.com** 형식을 사용하여 **URL** 필드에 링크의 URL을 입력한 다음 확인하십시오.
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 
   게시된 링크를 볼 텍스트 필드를 클릭합니다. 팝업 도구 모음에서 첫 번째 아이콘을 클릭하고 **[!UICONTROL Personalization block]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Link to Mirror Page (MirrorPage)]**&#x200B;을(를) 선택합니다. **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 확인합니다.
 
-  ![](assets/dce_mirrorpage.png)
+  ![Personalization 차단 옵션이 선택된 텍스트 편집기의 도구 모음 메뉴](assets/dce_mirrorpage.png)
 
   >[!CAUTION]
   >
@@ -134,7 +134,7 @@ ht-degree: 1%
 
   웹 애플리케이션 링크에 대한 텍스트 필드를 선택한 다음 첫 번째 아이콘을 클릭합니다. **[!UICONTROL Link to a Web application]**&#x200B;을(를) 선택한 다음 **웹 응용 프로그램** 필드의 끝에 있는 아이콘을 클릭하여 원하는 응용 프로그램을 선택합니다.
 
-  ![](assets/dce_webapp.png)
+  ![레이블 및 웹 응용 프로그램 필드와 확인 단추가 있는 링크 대화 상자를 삽입합니다.](assets/dce_webapp.png)
 
   **저장**&#x200B;을 클릭하여 확인합니다.
 

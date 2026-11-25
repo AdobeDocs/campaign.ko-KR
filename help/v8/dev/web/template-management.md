@@ -25,10 +25,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 5%
+source-wordcount: '148'
+ht-degree: 4%
 ---
 # 템플릿 관리{#template-management}
 
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 랜딩 페이지 유형 웹 애플리케이션을 만들 때 사용자는 이러한 템플릿 중 하나를 선택할 수 있습니다. Adobe Campaign 외부에서 만든 HTML 템플릿을 가져올 수도 있습니다.
 
-![](assets/dce_popup_templatechoice.png)
+![파일, 연락처, 클릭스루 등 사용 가능한 콘텐츠 템플릿을 나열하는 콘텐츠 대화 상자를 선택합니다](assets/dce_popup_templatechoice.png)
 
 템플릿을 추가하려면 [전역 옵션](content-editor-interface.md#global-options)을 참조하세요.
 
@@ -48,6 +48,6 @@ ht-degree: 5%
 
 **캠페인** 탭에서 선택한 게재를 엽니다. **템플릿으로 저장** 단추를 클릭하고 템플릿 이름을 지정한 다음 저장합니다.
 
-![](assets/dce_save_model.png)
+![템플릿으로 저장 아이콘이 오른쪽 도구 모음에 강조 표시된 HTML 콘텐츠 편집기](assets/dce_save_model.png)
 
 새 템플릿은 탐색기의 **리소스 > 템플릿 > 콘텐츠 템플릿** 노드에 저장됩니다.

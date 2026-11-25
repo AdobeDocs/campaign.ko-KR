@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1364'
 ht-degree: 2%
 ---
 # 웹 양식의 정적 요소{#static-elements-in-a-web-form}
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 양식의 페이지에 사용자가 상호 작용하지 않는 요소를 포함할 수 있습니다. 이러한 요소는 이미지, HTML 컨텐츠, 가로 막대 또는 하이퍼텍스트 링크와 같은 정적 요소입니다. 이러한 요소는 도구 모음의 첫 번째 단추를 통해 **[!UICONTROL Static elements]**&#x200B;을(를) 선택하여 만듭니다.
 
-![](assets/s_ncs_admin_survey_add_static_element.png)
+![정적 요소에 대한 페이지 도구 모음 메뉴: 값, 링크, HTML, 이미지, 가로 막대, 추적 태그 및 스크립트](assets/s_ncs_admin_survey_add_static_element.png)
 
 다음 유형의 필드를 사용할 수 있습니다.
 
@@ -58,11 +58,11 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
 콘텐츠를 직접 입력하고 서식을 지정하거나 소스 코드 창을 표시하여 일부 외부 콘텐츠에 붙여넣을 수 있습니다. &quot;소스 코드&quot; 모드로 전환하려면 도구 모음에서 첫 번째 아이콘을 클릭합니다.
 
-![](assets/s_ncs_admin_survey_html_editor.png)
+![소스 코드 표시 단추가 강조 표시되고 HTML 소스가 표시된 페이지의 HTML 편집기](assets/s_ncs_admin_survey_html_editor.png)
 
 데이터베이스 필드를 삽입하려면 개인화 버튼을 사용합니다.
 
-![](assets/webapp_perso_button_in_html.png)
+![이름, 성 및 기본 키와 같은 수신자 필드를 제공하는 HTML 편집기 개인화 메뉴](assets/webapp_perso_button_in_html.png)
 
 >[!NOTE]
 >
@@ -74,14 +74,14 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
 하이퍼텍스트 링크를 추가하려면 **[!UICONTROL Static elements]** > **[!UICONTROL Link]**(으)로 이동합니다.
 
-![](assets/s_ncs_admin_survey_add_link.png)
+![링크 속성: Label, Action이 URL로 설정됨, mailto URL, Window, ToolTip 및 디스플레이 설정](assets/s_ncs_admin_survey_add_link.png)
 
 * **[!UICONTROL Label]**&#x200B;은(는) 양식 페이지에 표시되는 하이퍼텍스트 링크의 콘텐츠입니다.
-* **[!UICONTROL URL]**&#x200B;은(는) 원하는 주소입니다(예: 웹 사이트의 경우 [https://www.adobe.com/kr](https://www.adobe.com/kr), 메시지를 보낼 경우 [info@adobe.com](mailto:info@adobe.com)).
+* **[!UICONTROL URL]**&#x200B;은(는) 원하는 주소입니다(예: 웹 사이트의 경우 [https://www.adobe.com](https://www.adobe.com), 메시지를 보낼 경우 [info@adobe.com](mailto:info@adobe.com)).
 * **[!UICONTROL Window]** 필드를 사용하면 사이트의 경우 링크에 대한 표시 모드를 선택할 수 있습니다. 새 창, 현재 창 또는 다른 창에서 링크를 열도록 결정할 수 있습니다.
 * 아래와 같이 도구 설명을 추가할 수 있습니다.
 
-  ![](assets/s_ncs_admin_survey_send_an_email.png)
+  ![렌더링된 도구 설명이 있는 메시지 링크 보내기 전자 메일을 보내려면 여기를 클릭하세요](assets/s_ncs_admin_survey_send_an_email.png)
 
 * 링크를 버튼이나 이미지로 표시하도록 선택할 수 있습니다. 이렇게 하려면 **[!UICONTROL Type]** 필드에서 표시 유형을 선택합니다.
 
@@ -89,7 +89,7 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
 기본적으로 링크는 URL 유형 작업과 연결되므로 URL 필드에 링크 대상 주소를 입력할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_link_url.png)
+![Link 속성을 mailto URL로 설정하고 Window 필드를 새 창 및 ToolTip을 만들도록 설정합니다.](assets/s_ncs_admin_survey_link_url.png)
 
 링크에 대한 다른 작업을 정의하여 사용자가 링크를 클릭하여 다음을 수행할 수 있습니다.
 
@@ -97,33 +97,33 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
   이렇게 하려면 **[!UICONTROL Action]** 필드의 드롭다운 상자에서 **[!UICONTROL Refresh page]** 옵션을 선택합니다.
 
-  ![](assets/s_ncs_admin_survey_link_refresh.png)
+  ![없음, URL, 보기, 페이지 새로 고침, 다음 페이지 및 전환 활성화를 나열하는 링크 작업 드롭다운(페이지 새로 고침 선택)](assets/s_ncs_admin_survey_link_refresh.png)
 
 * 다음/이전 페이지 표시
 
   이렇게 하려면 **[!UICONTROL Action]** 필드의 드롭다운 상자에서 **[!UICONTROL Next page]** 또는 **[!UICONTROL Previous page]** 옵션을 선택합니다.
 
-  ![](assets/s_ncs_admin_survey_link_next.png)
+  다음 페이지로 레이블이 지정된 링크에 대해 다음 페이지를 선택한 ![링크 작업 드롭다운](assets/s_ncs_admin_survey_link_next.png)
 
   **[!UICONTROL Next]** 및/또는 **[!UICONTROL Back]** 단추를 링크로 대체하려면 숨길 수 있습니다. 이 [페이지](defining-web-forms-page-sequencing.md)를 참조하세요.
 
   링크는 기본적으로 사용되는 **[!UICONTROL Next]** 단추를 대체합니다.
 
-  ![](assets/s_ncs_admin_survey_link_next_ex.png)
+  ![이름, 성, 암호 필드가 있는 양식 페이지와 유효성 검사 도구 설명을 표시하는 다음 링크](assets/s_ncs_admin_survey_link_next_ex.png)
 
 * 다른 페이지 표시
 
   **[!UICONTROL Enable a transition]** 옵션을 사용하면 **[!UICONTROL Transition]** 필드에서 선택한 나가는 전환과 관련된 특정 페이지를 표시할 수 있습니다.
 
-  ![](assets/s_ncs_admin_survey_link_viral.png)
+  ![다음 및 친구에게 보낸 전환 목록을 제공하기 위해 동작 집합에 연결](assets/s_ncs_admin_survey_link_viral.png)
 
   기본적으로 페이지에는 출력 전환이 하나만 있습니다. 새 전환을 만들려면 페이지를 선택한 다음 아래와 같이 **[!UICONTROL Output transitions]** 섹션에서 **[!UICONTROL Add]** 단추를 클릭합니다.
 
-  ![](assets/s_ncs_admin_survey_add_transition.png)
+  ![아웃바운드 전환이 활성화된 시작 페이지 속성, 다음 목록, 바이럴(친구에게 보냄) 및 추가 단추](assets/s_ncs_admin_survey_add_transition.png)
 
   다이어그램에서 이 추가는 다음과 같이 표시됩니다.
 
-  ![](assets/s_ncs_admin_survey_add_transition_graph.png)
+  ![계약으로 회원님의 계정으로 연결되거나 친구에게 스폰서를 보낸 후 저장 및 종료로 연결되는 웹 폼 흐름](assets/s_ncs_admin_survey_add_transition_graph.png)
 
   >[!NOTE]
   >
@@ -133,7 +133,7 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
 이전 페이지에 기록된 데이터를 사용하여 양식 페이지의 HTML 콘텐츠를 개인화할 수 있습니다. 예를 들어, 첫 페이지에서 연락처 정보와 자동차 브랜드를 제공할 수 있는 자동차 보험 웹 양식을 만들 수 있습니다.
 
-![](assets/s_ncs_admin_survey_tag_ctx_1.png)
+![다음 단추로 제목, 이름, 전자 메일, 식별자 및 자동차 브랜드를 요청하는 양식 1/2](assets/s_ncs_admin_survey_tag_ctx_1.png)
 
 개인화 필드를 사용하여 사용자 이름과 선택한 브랜드를 다음 페이지에 다시 삽입합니다. 사용할 구문은 정보 저장 모드에 따라 다릅니다. 자세한 내용은 [수집된 정보 사용](web-forms-answers.md#using-collected-information)을 참조하세요.
 
@@ -143,7 +143,7 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
 이 예제에서 수신자의 이름과 성은 데이터베이스의 필드에 저장되는 반면 자동차 브랜드는 변수에 저장됩니다. 페이지 2에서 개인화된 메시지의 구문은 다음과 같습니다.
 
-![](assets/webapp_perso_vars_include.png)
+![받는 사람 이름, 성 및 자동차 브랜드 변수를 태그 구문을 사용하여 삽입한 개인 맞춤화된 메시지 HTML](assets/webapp_perso_vars_include.png)
 
 ```xml
 <P>Welcome <%= ctx.recipient.@firstName %> <%= ctx.recipient.@lastName %>,</P>
@@ -152,7 +152,7 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
 이렇게 하면 다음과 같은 결과가 생성됩니다.
 
-![](assets/s_ncs_admin_survey_tag_ctx_2.png)
+![이름과 브랜드별로 받는 사람에게 인사하는 양식 2/2페이지(모델 및 차량 등록 연도 선택)](assets/s_ncs_admin_survey_tag_ctx_2.png)
 
 ### 텍스트 변수 사용 {#using-text-variables}
 
@@ -167,11 +167,11 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 1. **[!UICONTROL Identifier]** 열에 변수 이름을 입력합니다
 1. **[!UICONTROL Text]** 열에 기본값을 입력합니다.
 
-   ![](assets/s_ncs_admin_survey_html_text.png)
+   ![Country 및 DateFormat 식별자를 텍스트 값으로 나열하는 HTML 요소 텍스트 탭](assets/s_ncs_admin_survey_html_text.png)
 
 1. HTML 콘텐츠에서 **&lt;%= $(Contact) %>** 구문을 통해 이 텍스트 변수를 삽입합니다.
 
-   ![](assets/s_ncs_admin_survey_html_content.png)
+   ![마지막으로 수정한 날짜 필드 옆에 연락처 텍스트 식별자가 삽입된 HTML 콘텐츠 편집기](assets/s_ncs_admin_survey_html_content.png)
 
    >[!CAUTION]
    >
@@ -179,7 +179,7 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
 1. 양식의 **[!UICONTROL Preview]** 레이블을 열어 HTML에 입력한 값을 확인합니다.
 
-   ![](assets/s_ncs_admin_survey_html_content_preview.png)
+   ![양식 페이지 2/2에 번역된 텍스트 식별자가 있는 마지막 연락처의 날짜가 표시됨](assets/s_ncs_admin_survey_html_content_preview.png)
 
 이 운영 모드에서는 웹 양식의 텍스트를 한 번만 정의하고 통합 번역 도구를 사용하여 번역을 관리할 수 있습니다. 자세한 내용은 [웹 양식 번역](translating-a-web-form.md)을 참조하세요.
 
@@ -191,7 +191,7 @@ HTML 편집기를 사용하여 양식 페이지에 삽입할 콘텐츠를 입력
 
 삽입할 이미지의 소스를 선택합니다. 이 소스는 공용 리소스 라이브러리에서 가져오거나 외부에서 액세스할 수 있는 외부 서버에 저장할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_add_img.png)
+![로고에 대한 이미지 요소 속성으로, 이미지 원본 목록에는 라이브러리 및 External이 제공됩니다](assets/s_ncs_admin_survey_add_img.png)
 
 라이브러리의 이미지인 경우 필드의 콤보 상자에서 이미지를 선택하고 외부 파일에 있는 경우 액세스 경로를 입력합니다. 레이블은 이미지(HTML의 ALT 필드와 일치함) 위에 커서를 놓거나 이미지가 표시되지 않을 때 표시됩니다.
 

@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 5%
+source-wordcount: '428'
+ht-degree: 3%
 ---
 # 웹 애플리케이션 번역{#translating-a-web-application}
 
@@ -36,18 +36,18 @@ Adobe Campaign DCE(디지털 콘텐츠 편집기)로 만든 웹 애플리케이�
 
 이 옵션을 사용하여 블록 콘텐츠를 번역해야 하는지 여부를 나타낼 수 있습니다.
 
-번역할 문자열은 응용 프로그램의 **[!UICONTROL Translations]** 탭을 통해 웹 응용 프로그램의 다른 문자열과 동일한 방식으로 수집됩니다. 자세한 정보는 이 [페이지](translating-a-web-form.md)를 참조하십시오.
+번역할 문자열은 응용 프로그램의 **[!UICONTROL Translations]** 탭을 통해 웹 응용 프로그램의 다른 문자열과 동일한 방식으로 수집됩니다. 자세한 내용은 [웹 양식 번역](translating-a-web-form.md)을 참조하세요.
 
 번역할 문자열에 플래그를 지정하려면 다음을 수행합니다.
 
 1. 웹 애플리케이션에서 DCE로 편집한 컨텐츠 페이지를 엽니다.
 
-   ![](assets/dce_translation_3.png)
+   ![페이지 활동이 미리 로드, 페이지, 저장소, 종료 흐름에서 강조 표시된 웹 응용 프로그램 편집기](assets/dce_translation_3.png)
 
 1. HTML 블록을 선택합니다.
 1. 오른쪽의 매개 변수 블록에서 **[!UICONTROL Localization]** 옵션을 사용하면 선택한 블록의 내용에 플래그를 지정할 수 있습니다. 기본적으로 페이지 제목만 번역됩니다.
 
-   ![](assets/dce_translation_1.png)
+   ![로컬라이제이션 섹션 및 해당 번역 예/아니요 토글이 강조 표시된 옵션 차단](assets/dce_translation_1.png)
 
    >[!NOTE]
    >
@@ -58,11 +58,11 @@ Adobe Campaign DCE(디지털 콘텐츠 편집기)로 만든 웹 애플리케이�
    * 선택한 블록에 여러 문자열/블록이 포함되어 있으면 번역할 단일 문자열로 플래그가 지정됩니다. 그러면 문자열에는 이 블록 내에 있는 요소의 HTML 코드가 포함됩니다.
    * 여러 문자열이 포함된 블록에 플래그를 지정하려는 경우 이러한 문자열 중 하나 이상에 이미 플래그가 지정되어 있으면 경고가 표시됩니다. 그런 다음 격리된 문자열에서 플래그를 제거하고 전체 블록을 추가할 수 있습니다.
 
-     ![](assets/dce_translation_4.png)
+     ![블록에 번역할 2개의 요소가 이미 포함되어 있음을 알리는 그룹화 확인 대화 상자 경고](assets/dce_translation_4.png)
 
    * 이미 플래그가 지정된 블록에 포함된 문자열에서 플래그를 제거하려면 문자열 번역 옵션을 직접 수정할 수 없습니다. 하지만 문자열을 포함하는 블록에 액세스하여 변경할 수 있습니다.
 
-     ![](assets/dce_translation_2.png)
+     ![지역화 섹션 경고: 요소가 번역할 블록에 이미 있으며 블록 선택 단추가 있음](assets/dce_translation_2.png)
 
 1. 문자열 플래그 지정을 마치면 웹 응용 프로그램으로 돌아가 **[!UICONTROL Translations]** 탭을 선택합니다.
 1. **[!UICONTROL Collect the strings to translate]**&#x200B;을(를) 선택합니다. DCE에 플래그가 지정된 문자열이 웹 애플리케이션의 문자열에 추가됩니다.

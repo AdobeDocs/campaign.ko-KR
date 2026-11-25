@@ -32,10 +32,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 4%
+source-wordcount: '511'
+ht-degree: 3%
 ---
 # 웹 애플리케이션에서 방문 수 추적{#tracking-a-web-application}
 
@@ -50,11 +50,11 @@ Adobe Campaign에서는 추적 태그를 삽입하여 웹 애플리케이션 페
 * 탐색 경로 정의(예: 구매, 구독, 반환 등)를 간소화하기 위해 여러 추적 태그를 동일한 페이지에 삽입할 수 있습니다.
 * 웹 애플리케이션 대시보드에서 여러 페이지의 탐색 경로 및 추적 태그 보기
 
-  ![](assets/trackers_1.png)
+  ![각 페이지의 전환 경로 및 추적 태그 단계를 나열하는 추적 태그 섹션이 있는 웹 응용 프로그램 대시보드](assets/trackers_1.png)
 
 * 전체 추적 보고서를 생성하고 있습니다.
 
-  ![](assets/trackers_5.png)
+  ![총 방문 횟수, 고유 방문자 수, 전환율, 바운스 비율 및 방문 횟수를 포함한 추적 태그 분석 보고서](assets/trackers_5.png)
 
   주요 지표는 다음과 같습니다.
 
@@ -71,7 +71,7 @@ Adobe Campaign에서는 추적 태그를 삽입하여 웹 애플리케이션 페
 1. 웹 애플리케이션 페이지에 대한 액세스 권한을 부여하기 위해 특정 게재 보내기: 이 경우 트래픽 소스는 이 게재입니다.
 1. 웹 애플리케이션을 전용 트래픽 소스에 연결: 이 경우 외부 &#39;트래픽 소스&#39; 유형 게재여야 합니다. 웹 애플리케이션 속성이나 대상 매핑에서 선택할 수 있습니다.
 
-   ![](assets/trackers_6.png)
+   ![트래픽 소스 필드가 웹 게재로 설정된 웹 응용 프로그램 속성의 고급 매개 변수 대화 상자](assets/trackers_6.png)
 
 웹 애플리케이션에서 트래픽 소스를 식별하기 위해 Adobe Campaign은 다음 정보를 지속적으로 찾습니다.
 
@@ -85,14 +85,14 @@ Adobe Campaign에서는 추적 태그를 삽입하여 웹 애플리케이션 페
 
 ## DCE(디지털 콘텐츠 편집기)로 디자인된 웹 애플리케이션 {#web-applications-designed-with-digital-content-editor--dce-}
 
-HTML 콘텐츠 편집기(**DCE(디지털 콘텐츠 편집기)**)를 사용하여 웹 응용 프로그램을 만들면 추적 태그가 편집기의 **[!UICONTROL Properties]** 탭에서 삽입됩니다. DCE(디지털 콘텐츠 편집기)에 대한 자세한 내용은 [이 섹션](about-campaign-html-editor.md)을 참조하세요.
+HTML 콘텐츠 편집기(**DCE(디지털 콘텐츠 편집기)**)를 사용하여 웹 응용 프로그램을 만들면 추적 태그가 편집기의 **[!UICONTROL Properties]** 탭에서 삽입됩니다. DCE(디지털 콘텐츠 편집기)에 대한 자세한 내용은 [Campaign HTML 편집기 시작](about-campaign-html-editor.md)을 참조하세요.
 
-![](assets/trackers_2.png)
+![추적 태그에 구독, 전환 또는 업데이트와 같은 목표가 지정되는 DCE 페이지 속성 탭](assets/trackers_2.png)
 
 웹 인터페이스를 사용하는 경우 페이지 속성에서 추적 태그를 삽입해야 합니다.
 
-![](assets/trackers_3.png)
+![단계 및 대상 작업과 함께 각 태그를 나열하는 페이지 대화 상자의 속성, 태그 추적 탭](assets/trackers_3.png)
 
 **[!UICONTROL Display blocks]** 아이콘을 사용하면 페이지에 대해 정의된 추적 태그 수를 볼 수 있습니다.
 
-![](assets/trackers_4.png)
+![페이지에 있는 2개의 추적 태그를 나타내는 도구 설명이 있는 웹 편집기의 블록 표시 아이콘](assets/trackers_4.png)

@@ -26,9 +26,9 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1823'
 ht-degree: 0%
 ---
 # 웹 양식 번역{#translating-a-web-form}
@@ -57,7 +57,7 @@ Adobe Campaign 콘솔에서 직접 번역을 수행하거나([편집기에서 �
 >
 >이 창에서는 기본 언어와 편집 언어를 변경할 수도 있습니다.
 
-![](assets/s_ncs_admin_survey_add_lang.png)
+![디자인 및 기본 언어와 프랑스어 및 스페인어가 포함된 웹 응용 프로그램 속성 로컬라이제이션 탭](assets/s_ncs_admin_survey_add_lang.png)
 
 웹 응용 프로그램의 번역 언어를 추가할 때(또는 기본 언어와 편집 언어가 다른 경우), 번역을 관리하기 위해 **[!UICONTROL Translation]** 하위 탭이 **[!UICONTROL Edit]** 탭에 추가됩니다.
 
@@ -73,7 +73,7 @@ Adobe Campaign에는 다국어 번역을 번역하고 관리하는 도구가 포
 
 Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의된 필드 및 문자열 레이블(HTML 블록, Javascript 등)을 수집합니다. 정적 요소는 [웹 양식의 정적 요소](static-elements-in-a-web-form.md)에 자세히 설명되어 있습니다.
 
-![](assets/s_ncs_admin_survey_trad_tab.png)
+![번역할 문자열 수집 링크 및 번역할 문자열](assets/s_ncs_admin_survey_trad_tab.png)이 포함된 웹 애플리케이션의 번역 탭
 
 >[!CAUTION]
 >
@@ -89,9 +89,9 @@ Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의�
 
 ### 문자열 필터링 {#filtering-strings}
 
-기본적으로 웹 애플리케이션의 각 번역 언어가 표시됩니다. 기본 필터에는 언어와 상태, 이렇게 두 가지가 있습니다. **[!UICONTROL Filters]** 단추를 클릭한 다음 **[!UICONTROL By language or status]**&#x200B;을(를) 클릭하여 일치하는 드롭다운 상자를 표시합니다. 고급 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+기본적으로 웹 애플리케이션의 각 번역 언어가 표시됩니다. 기본 필터에는 언어와 상태, 이렇게 두 가지가 있습니다. **[!UICONTROL Filters]** 단추를 클릭한 다음 **[!UICONTROL By language or status]**&#x200B;을(를) 클릭하여 일치하는 드롭다운 상자를 표시합니다. 고급 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
 
-![](assets/s_ncs_admin_survey_trad_tab_en.png)
+![언어 또는 상태별 번역 탭 필터 메뉴, 번역할 상태로 프랑스어 문자열 필터링](assets/s_ncs_admin_survey_trad_tab_en.png)
 
 번역 언어를 선택하려면 **[!UICONTROL Language]** 드롭다운 상자로 이동하십시오.
 
@@ -101,7 +101,7 @@ Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의�
 
 1. 단어를 번역하려면 문자열 목록에서 해당 줄을 두 번 클릭합니다.
 
-   ![](assets/s_ncs_admin_survey_trad_tab_add_term.png)
+   소스 문자열, 프랑스어 번역, 번역 승인 옵션 및 저장이 포함된 ![번역 대화 상자](assets/s_ncs_admin_survey_trad_tab_add_term.png)
 
    소스 문자열이 창의 위쪽 섹션에 표시됩니다.
 
@@ -125,7 +125,7 @@ Adobe Campaign 이외의 도구를 사용하여 문자 문자열을 내보내고
 
 1. 내보낼 문자열을 포함하는 웹 응용 프로그램을 선택하고 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Actions > Export strings for translation...]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/s_ncs_admin_survey_trad_export.png)
+   ![웹 응용 프로그램에서 번역용 내보내기 문자열이 강조 표시된 마우스 오른쪽 단추 클릭 동작 메뉴를 표시합니다](assets/s_ncs_admin_survey_trad_export.png)
 
 1. **[!UICONTROL Export strategy]** 선택:
 
@@ -146,7 +146,7 @@ Adobe Campaign 이외의 도구를 사용하여 문자 문자열을 내보내고
 1. 그런 다음 파일이 기록될 **[!UICONTROL Target folder]**&#x200B;을(를) 선택합니다.
 1. 파일 형식( **[!UICONTROL CSV]** 또는 **[!UICONTROL XLIFF]** )을 선택하고 **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 
-![](assets/s_ncs_admin_survey_trad_export_start.png)
+![언어, 대상 폴더, CSV 또는 XLIFF 형식 및 시작당 하나의 파일로 번역 마법사용 문자열 내보내기](assets/s_ncs_admin_survey_trad_export_start.png)
 
 >[!NOTE]
 >
@@ -164,11 +164,11 @@ Adobe Campaign 이외의 도구를 사용하여 문자 문자열을 내보내고
    >
    >번역과 관련된 웹 애플리케이션을 선택할 필요가 없습니다. 웹 애플리케이션 목록의 아무 곳에나 커서를 놓습니다.
 
-   ![](assets/s_ncs_admin_survey_trad_import.png)
+   ![웹 응용 프로그램에서 번역된 문자열 가져오기가 강조 표시된 마우스 오른쪽 단추 클릭 동작 메뉴를 표시합니다](assets/s_ncs_admin_survey_trad_import.png)
 
 1. 가져올 파일을 선택한 다음 **[!UICONTROL Upload]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/s_ncs_admin_survey_trad_import_start.png)
+   ![가져오기 및 업로드 단추를 위해 선택한 로컬 CSV 파일로 번역된 문자열 가져오기 마법사](assets/s_ncs_admin_survey_trad_import_start.png)
 
 >[!NOTE]
 >
@@ -188,7 +188,7 @@ Adobe Campaign 이외의 도구를 사용하여 문자 문자열을 내보내고
 &lang=xx
 ```
 
-url의 언어 앞에 다른 매개 변수가 있는 경우. 예: **https://myserver/webApp/APP34?status=1&lang=en**
+url의 언어 앞에 다른 매개 변수가 있는 경우. 예: **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 기본적으로 사용할 수 있는 번역 언어 및 사전은 아래에 나열되어 있습니다.
 
@@ -434,7 +434,7 @@ url의 언어 앞에 다른 매개 변수가 있는 경우. 예: **https://myser
 
 다음 웹 양식은 영어, 프랑스어, 독일어 및 스페인어의 4개 언어로 제공됩니다. 웹 양식의 **[!UICONTROL Translation]** 탭을 통해 모든 문자 문자열이 번역되었습니다. 기본 언어가 영어이므로 설문 조사가 게시되면 표준 URL을 사용하여 영어로 표시하십시오.
 
-![](assets/s_ncs_admin_survey_trad_sample_fr.png)
+![제목, 이름, 전자 메일, 전화 번호 및 주소 필드와 [다음] 단추가 있는 웹 폼 시작 페이지가 영어로 표시됨](assets/s_ncs_admin_survey_trad_sample_fr.png)
 
 URL 끝에 **?lang=fr**&#x200B;을(를) 추가하여 프랑스어로 표시합니다.
 
@@ -442,14 +442,14 @@ URL 끝에 **?lang=fr**&#x200B;을(를) 추가하여 프랑스어로 표시합�
 >
 >각 언어의 기호 목록은 [양식 표시 언어 변경](#changing-forms-display-language)에 자세히 설명되어 있습니다.
 
-![](assets/s_ncs_admin_survey_trad_sample_en.png)
+![lang 매개 변수가 강조 표시된 상태로 lang=fr을 URL에 추가한 후 프랑스어로 표시된 동일한 시작 페이지](assets/s_ncs_admin_survey_trad_sample_en.png)
 
 **?lang=es** 또는 **?lang=de**&#x200B;을(를) 추가하여 스페인어 또는 독일어로 표시할 수 있습니다.
 
 >[!NOTE]
 >
 >이 웹 응용 프로그램에 다른 매개 변수가 이미 사용된 경우 **&amp;lang=**&#x200B;을(를) 추가합니다.\
->예: **https://myserver/webApp/APP34?status=1&lang=en**
+>예: **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 ## 고급 번역 구성 {#advanced-translation-configuration}
 
@@ -463,18 +463,18 @@ URL 끝에 **?lang=fr**&#x200B;을(를) 추가하여 프랑스어로 표시합�
 
 웹 애플리케이션을 시스템 사전이 번역되지 않은 언어로 번역하면 일부 번역이 누락되었음을 알리는 경고 메시지가 나타납니다.
 
-![](assets/s_ncs_admin_survey_trad_error.png)
+![번역 탭의 경고: 시스템 사전의 es 및 fr 언어에 대한 번역이 27개 누락됨](assets/s_ncs_admin_survey_trad_error.png)
 
 언어를 추가하려면 다음 단계를 적용합니다.
 
 1. Adobe Campaign 트리로 이동하여 **[!UICONTROL Administration > Configuration > Global dictionary > System dictionary]** 을(를) 클릭합니다.
 1. 창의 위쪽 섹션에서 번역할 시스템 문자열을 선택한 다음 아래쪽 섹션에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/s_ncs_admin_survey_trad_system_translation.png)
+   ![buttonPrevious와 같은 문자열을 선택하고 [추가] 단추를 강조 표시한 전역 사전의 시스템 사전](assets/s_ncs_admin_survey_trad_system_translation.png)
 
 1. 번역 언어를 선택하고 문자열에 대한 번역을 입력합니다. **[!UICONTROL Translation approved]** 옵션을 선택하여 번역을 승인할 수 있습니다.
 
-   ![](assets/s_ncs_admin_survey_trad_system_translation2.png)
+   ![단추에 대한 번역 대화 상자프랑스어를 선택한 이전, 번역된 텍스트 및 번역 승인 옵션](assets/s_ncs_admin_survey_trad_system_translation2.png)
 
    >[!NOTE]
    >
@@ -490,8 +490,8 @@ URL 끝에 **?lang=fr**&#x200B;을(를) 추가하여 프랑스어로 표시합�
 
 1. Adobe Campaign 트리의 **[!UICONTROL Administration > Platform > Enumerations]** 노드를 클릭하고 목록에서 **[!UICONTROL Languages available for translation]**&#x200B;을(를) 선택합니다. 사용 가능한 번역 목록이 창의 아래 섹션에 표시됩니다.
 
-   ![](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
+   ![번역에 사용할 수 있는 언어(dictionaryLocale)가 선택되고 [추가] 단추가 강조 표시된 열거형 목록](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
 
 1. **[!UICONTROL Add]** 단추를 클릭한 다음 **[!UICONTROL Internal name]**, **[!UICONTROL Label]** 및 이미지 식별자(플래그)를 입력하십시오. 새 이미지를 추가하려면 관리자에게 문의하십시오.
 
-   ![](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)
+   ![내부 이름, 레이블 웨일스 및 이미지 필드가 있는 새 언어에 대한 열거형 값 대화 상자](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)

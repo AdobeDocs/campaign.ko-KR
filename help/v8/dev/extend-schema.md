@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 2%
+source-wordcount: '353'
+ht-degree: 1%
 ---
 # 스키마 확장{#extend-schemas}
 
@@ -54,32 +54,32 @@ Campaign 데이터 모델을 사용자 지정하는 주요 단계는 다음과 �
 >[!CAUTION]
 >기본 제공 스키마는 직접 수정할 수 없습니다. 기본 제공 스키마를 조정해야 하는 경우 확장해야 합니다.
 
-Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 [이 페이지](datamodel.md)를 참조하세요. [이 페이지](create-schema.md)에서 새 스키마를 만들 때의 권장 사항도 참조하세요.
+Campaign 기본 제공 테이블 및 상호 작용을 더 잘 이해하려면 [Campaign 데이터 모델 시작](datamodel.md)을 참조하세요. [Campaign에서 새 스키마 만들기](create-schema.md)에서 새 스키마를 만들 때의 권장 사항도 참조하십시오.
 
 스키마를 확장하려면 아래 단계를 수행합니다.
 
 1. 탐색기에서 **[!UICONTROL Administration > Configuration > Data schemas]** 폴더로 이동합니다.
 1. **새로 만들기** 단추를 클릭하고 **[!UICONTROL Extend the data in a table using an extension schema]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/extend-schema-option.png)
+   ![선택한 확장 스키마를 사용하여 테이블의 데이터를 확장하는 스키마 유형 단계](assets/extend-schema-option.png)
 
 1. 확장할 기본 제공 스키마를 식별하고 선택합니다.
 
-   ![](assets/extend-schema-select.png)
+   ![Source 스키마 선택 대화 상자가 받는 사람(nms)이 선택된 상태로 필터링됨](assets/extend-schema-select.png)
 
    규칙에 따라 확장 스키마의 이름을 기본 제공 스키마와 동일하게 지정하고 사용자 지정 네임스페이스를 사용합니다.  일부 네임스페이스는 내부용입니다. [자세히 알아보기](schemas.md#reserved-namespaces)
 
-   ![](assets/extend-schema-validate.png)
+   ![네임스페이스 cu, 이름 수신자 및 레이블 수신자를 사용하는 확장 스키마에 대한 스키마 매개 변수 단계](assets/extend-schema-validate.png)
 
 1. 스키마 편집기에서 상황별 메뉴를 사용하여 필요한 요소를 추가한 다음 저장합니다.
 
-   ![](assets/extend-schema-edit.png)
+   ![특성, 문자열, 부울, 정수, 날짜 및 기타 형식을 나열하는 [삽입] 메뉴가 열려 있는 스키마 편집기](assets/extend-schema-edit.png)
 
    아래 예제에서는 **MembershipYear** 특성을 추가하고 성에 대한 길이 제한을 지정하고(이 제한은 기본 제한을 덮어쓰게 됨) 기본 제공 스키마에서 생년월일을 제거합니다.
 
-   ![](assets/extend-schema-sample.png)
+   ![확장 스키마 XML에 MembershipYear, 50자 lastName 길이 및 birthDate 삭제](assets/extend-schema-sample.png)
 
-   ```
+   ```xml
    <srcSchema created="YYYY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
            img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YYYY-MM-DD"
            mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
@@ -93,7 +93,7 @@ Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 
 
 1. **[!UICONTROL Structure]** 탭에서 스키마 구조 업데이트를 확인하기 위해 연결을 끊고 Campaign에 다시 연결합니다.
 
-   ![](assets/extend-schema-structure.png)
+   필드 ](assets/extend-schema-structure.png)부터 새 멤버를 포함하여 필드를 나열하는 :recipient 스키마의 ![구조 탭
 
 1. 데이터베이스 구조를 업데이트하여 변경 사항을 적용합니다. [자세히 알아보기](update-database-structure.md)
 

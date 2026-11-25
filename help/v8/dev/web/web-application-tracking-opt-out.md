@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '740'
 ht-degree: 2%
 ---
 # 웹 애플리케이션 추적 옵트아웃{#web-application-tracking-opt-out}
@@ -47,13 +47,13 @@ Adobe Campaign을 사용하면 쿠키 또는 웹 비콘을 통해 행동 추적�
 
 >[!NOTE]
 >
->스크립팅할 때는 항상 [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/kr/campaign/kb/acc-security.html#dev)에 설명된 지침을 따릅니다.
+>스크립팅할 때는 항상 [보안 및 개인 정보 확인 목록](https://helpx.adobe.com/campaign/kb/acc-security.html#dev)에 설명된 지침을 따릅니다.
 
 ## 배너 구성 {#configuring-the-banner-}
 
 웹 애플리케이션이나 랜딩 페이지 내에 표시하려면 배너를 구성해야 합니다.
 
-Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너가 포함되어 있습니다. 이 배너 버전은 콘텐츠 모델 폴더에 있는 개인화 블록으로 표시됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ko){target="_blank"}를 참조하세요.
+Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너가 포함되어 있습니다. 이 배너 버전은 콘텐츠 모델 폴더에 있는 개인화 블록으로 표시됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.
 
 >[!IMPORTANT]
 >
@@ -66,11 +66,11 @@ Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너�
 * 배너 없음.
 * 각 페이지에서 수동으로 배너 구성: 이 옵션을 선택하고 페이지 속성의 각 페이지에서 배너를 선택합니다.
 
-  ![](assets/pageproperties.png)
+  ![아웃바운드 전환 사용 옵션이 선택된 페이지 속성 대화 상자 헤더입니다.](assets/pageproperties.png)
 
 * 모든 페이지에 배너를 자동으로 추가: 웹 애플리케이션 속성에서 직접 배너를 선택합니다.
 
-  ![](assets/optoutconfig.png)
+  ![옵트아웃 배너 옵션이 있는 웹 응용 프로그램 속성 일반 탭: 배너 없음, 페이지당 수동 또는 자동.](assets/optoutconfig.png)
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너�
 
 기본 배너에는 다음 구조가 있습니다.
 
-```
+```xml
 <div onClick="NL.ClientWebTracking.closeOptOutBanner(this);" id="defaultOptOutBanner">
   <p>Please insert your message here
    <a onClick="NL.ClientWebTracking.allow();" class="optout-accept">Accept</a>
@@ -90,7 +90,7 @@ Adobe Campaign에는 요구 사항에 맞게 조정해야 하는 샘플 배너�
 
 **여기에 메시지를 삽입하세요**. 추적 정보가 포함된 블록으로 바꿉니다. 이 대체는 옵트아웃 배너와 관련된 새 개인화 블록에서 실행해야 합니다.
 
-배너는 특정 CSS와 함께 제공됩니다. 그러나 웹 페이지를 만들고 구성할 때 스타일을 덮어쓸 수 있습니다. [이 페이지](content-editor-interface.md)를 참조하십시오.
+배너는 특정 CSS와 함께 제공됩니다. 그러나 웹 페이지를 만들고 구성할 때 스타일을 덮어쓸 수 있습니다. [콘텐츠 편집기 인터페이스](content-editor-interface.md)를 참조하세요.
 
 ## API를 사용하여 옵트아웃 쿠키 설정 {#setting-the-opt-out-cookie-using-api}
 
@@ -137,7 +137,7 @@ JSSP를 작성해야 하는 경우 서버측 API를 사용할 수 있습니다.
 
 JSSP 예:
 
-```
+```html
 <%@ page import="/nl/core/shared/nl.js" %>
 <!doctype html>
 <%

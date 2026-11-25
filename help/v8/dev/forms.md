@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2820'
 ht-degree: 0%
 ---
 # 입력 양식 시작 {#gs-ac-forms}
@@ -51,15 +51,15 @@ ht-degree: 0%
 
 클라이언트 콘솔의 **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** 폴더에서 입력 양식을 만들고 구성합니다.
 
-![](assets/form_arbo.png)
+![입력 양식 폴더가 선택된 구성 아래의 탐색기 트리](assets/form_arbo.png)
 
 편집 영역을 사용하면 입력 양식의 XML 내용을 입력할 수 있습니다.
 
-![](assets/form_edit.png)
+![birthDate, gender 및 전자 메일 입력이 있는 수신자(cus) 양식의 XML을 표시하는 입력 양식 편집기 편집 탭](assets/form_edit.png)
 
 미리 보기는 입력 양식의 표시를 생성합니다.
 
-![](assets/form_preview.png)
+![생년월일, 성별 및 전자 메일 필드를 표시하는 수신자(cus) 양식의 미리 보기 탭](assets/form_preview.png)
 
 ## 양식 구조
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 예제 스키마를 기반으로 하는 입력 양식:
 
-![](assets/do-not-localize/form_exemple1.png)
+![성별, 생년월일, 전자 메일을 3개의 스택 필드로 렌더링하는 입력 양식](assets/do-not-localize/form_exemple1.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 위의 예의 컨트롤을 두 열에 표시하려면 다음을 수행합니다.
 
-![](assets/do-not-localize/form_exemple2.png)
+![성별 및 생년월일이 나란히 표시된 입력 양식과 아래 전자 메일](assets/do-not-localize/form_exemple2.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -138,7 +138,7 @@ ht-degree: 0%
 
 컨트롤의 **colspan** 특성은 해당 값에 입력한 열 수만큼 컨트롤을 확장합니다.
 
-![](assets/do-not-localize/form_exemple3.png)
+![전자 메일 필드가 두 열로 확장된 2열 입력 양식](assets/do-not-localize/form_exemple3.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 컨테이너는 **type=&quot;frame&quot;** 특성을 채우면 **label** 특성에 포함된 레이블을 사용하여 자식 컨트롤 주위에 프레임을 추가합니다.
 
-![](assets/do-not-localize/form_exemple4.png)
+![성별, 생년월일 및 전자 메일 필드가 있는 두 열로 구성된 입력 양식에서 프레임이 표시되지 않음](assets/do-not-localize/form_exemple4.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -166,7 +166,7 @@ ht-degree: 0%
 
 **`<static>`** 요소를 사용하여 입력 양식 서식을 지정할 수 있습니다.
 
-![](assets/do-not-localize/form_exemple5.png)
+![성별, 날짜 및 전자 메일 필드와 그 아래의 정적 도움말 텍스트 줄이 있는 입력 양식](assets/do-not-localize/form_exemple5.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 탭에서 액세스할 수 있는 페이지의 데이터 서식을 지정하려면 **notebook** 컨테이너를 사용하십시오.
 
-![](assets/do-not-localize/form_exemple6.png)
+![성별, 날짜 및 전자 메일 필드 위에 일반 및 위치 탭이 있는 입력 양식](assets/do-not-localize/form_exemple6.png)
 
 ```xml
 <container type="notebook">
@@ -231,7 +231,7 @@ ht-degree: 0%
 
 컨트롤 아래에 탭 레이블의 세로 위치를 강제 적용하려면 **style=&quot;down&quot;** 특성을 추가하십시오. 이 속성은 선택 사항입니다. 기본값은 **&quot;up&quot;**&#x200B;입니다.
 
-![](assets/do-not-localize/form_exemple7.png)
+![일반 및 위치 탭 레이블이 성별, 날짜 및 전자 메일 필드 아래에 있는 입력 양식](assets/do-not-localize/form_exemple7.png)
 
 `<container style="down" type="notebook">  ... </container>`
 
@@ -239,7 +239,7 @@ ht-degree: 0%
 
 이 컨테이너를 사용하여 표시할 페이지를 선택할 수 있는 세로 아이콘 막대를 표시합니다.
 
-![](assets/do-not-localize/form_exemple8.png)
+![성별, 날짜 및 전자 메일 필드 옆에 일반 및 위치 페이지를 제공하는 세로 아이콘 막대가 있는 입력 양식](assets/do-not-localize/form_exemple8.png)
 
 ```xml
 <container type="iconbox">
@@ -308,7 +308,7 @@ ht-degree: 0%
 
 입력 양식에서 링크의 편집 컨트롤은 다음과 같습니다.
 
-![](assets/do-not-localize/form_exemple9.png)
+![Adobe이 선택된 링크에 대한 드롭다운 편집 컨트롤을 표시하는 회사 필드](assets/do-not-localize/form_exemple9.png)
 
 ```xml
 <input xpath="company"/>
@@ -421,7 +421,7 @@ ht-degree: 0%
 
 이 예제에서는 &quot;cus:recipient&quot; 스키마의 입력 양식으로 시작합니다. 목록에는 서비스 구독에 대한 연결이 표시되어야 하며 기존 서비스를 선택하여 구독을 추가할 수 있도록 허용해야 합니다.
 
-![](assets/do-not-localize/form_exemple12.png)
+![구독을 추가하려면 블랙리스트, MobApp, 뉴스레터 및 기타 서비스를 나열하는 서비스 대화 상자를 선택하십시오](assets/do-not-localize/form_exemple12.png)
 
 ```xml
 <input type="linklist" xpath="subscription" xpathChoiceTarget="service" xpathEditTarget="service" zoom="true">
@@ -522,7 +522,7 @@ ht-degree: 0%
 
 &quot;성별&quot; 필드의 예:
 
-![](assets/do-not-localize/form_exemple16.png)
+![성별 필드가 Male 값으로 드롭다운으로 표시됨](assets/do-not-localize/form_exemple16.png)
 
 ```xml
 <value value="@gender"/>
@@ -541,7 +541,7 @@ ht-degree: 0%
 <input type="RadioButton" xpath="@gender" checkedValue="2" label="Choice 3"/>
 ```
 
-![](assets/do-not-localize/form_exemple17.png)
+![선택 항목 1이 선택된 상태로 라디오 단추 선택 1, 선택 2 및 선택 3으로 표시되는 성별 필드](assets/do-not-localize/form_exemple17.png)
 
 ## 확인란 추가 {#checkbox}
 
@@ -552,7 +552,7 @@ ht-degree: 0%
 <input xpath="@field1" type="checkbox" checkedValue="Y"/>
 ```
 
-![](assets/do-not-localize/form_exemple20.png)
+![Boolean1 및 field1 레이블이 지정된 두 개의 선택 취소된 확인란](assets/do-not-localize/form_exemple20.png)
 
 ## 탐색 계층 편집 {#navigation-hierarchy-edit}
 
@@ -573,7 +573,7 @@ ht-degree: 0%
 </input>
 ```
 
-![](assets/do-not-localize/form_exemple18.png)
+![텍스트 필드와 부울 필드 그룹이 있는 트리 편집 컨트롤로 text1에서 text3까지 나열하고 Boolean1에서 Boolean3까지를 나열합니다](assets/do-not-localize/form_exemple18.png)
 
 ## 표현식 필드 추가 {#expression-field}
 

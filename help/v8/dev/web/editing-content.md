@@ -28,9 +28,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1581'
 ht-degree: 0%
 ---
 # 콘텐츠 편집{#editing-content}
@@ -43,13 +43,13 @@ ht-degree: 0%
 
 가시성 조건을 추가하려면 블록을 선택하고 표현식 편집기를 사용하여 **[!UICONTROL Visibility condition]** 필드에 조건을 입력합니다.
 
-![](assets/dce_add_condition.png)
+![가시성 조건 필드와 편집 아이콘이 오른쪽 블록 옵션 패널에 강조 표시된 콘텐츠 편집기](assets/dce_add_condition.png)
 
 >[!NOTE]
 >
->고급 표현식 편집은 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}에 표시됩니다(Campaign v8 설명서).
+>고급 표현식 편집은 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}에 표시됩니다(Campaign v8 설명서).
 
-![](assets/dce_popup_visibilitycondition.png)
+사용 가능한 필드 목록, 함수 목록 및 삽입 단추가 있는 ![식 편집기 대화 상자](assets/dce_popup_visibilitycondition.png)
 
 이러한 조건에서는 XTK 식 구문을 채택합니다(예: **ctx.recipient.@email != &quot;&quot;** 또는 **ctx.recipient.@status==&quot;0&quot;**). 기본적으로 모든 필드가 표시됩니다.
 
@@ -61,11 +61,11 @@ ht-degree: 0%
 
 선택한 블록에 **border**&#x200B;을(를) 추가할 수 있습니다. 테두리는 스타일, 크기 및 색상의 세 가지 옵션을 사용하여 정의됩니다.
 
-![](assets/dce_popup_border.png)
+![스타일, 크기, 색상 선택기가 있는 테두리 대화 상자 및 투명, 밝은 배경 및 어두운 배경이 있는 미리 보기](assets/dce_popup_border.png)
 
 색상 차트에서 색상을 선택하여 **배경색**&#x200B;을 정의할 수도 있습니다.
 
-![](assets/dce_popup_background.png)
+![색상 선택기, 불투명도 슬라이더 및 [투명], [밝게] 및 [어둡게] 옵션이 있는 미리 보기 옵션이 있는 뒤로 대화 상자](assets/dce_popup_background.png)
 
 ## 양식 편집 {#editing-forms}
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 데이터베이스 필드를 입력 영역, 라디오 버튼 또는 체크박스 유형 블록과 연결할 수 있습니다.
 
-![](assets/dce_sidebar_field.png)
+![양식 데이터 섹션, 필드가 데이터 없음으로 설정되어 있는 입력 영역(텍스트) 옵션 및 필수 예/아니요 토글](assets/dce_sidebar_field.png)
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 기본적으로 제공된 필드는 **nms:recipient** 표에 있는 필드입니다.
 
-![](assets/dce_field_selection.png)
+![nms를 나열하는 받는 사람 대화 상자의 필드:recipient 필드(전자 메일, 이름, 성 등)](assets/dce_field_selection.png)
 
 **필수 필드** 옵션을 사용하면 사용자가 해당 필드를 입력한 경우에만 페이지의 승인을 승인하도록 할 수 있습니다. 필수 필드를 입력하지 않으면 오류 메시지가 표시됩니다.
 
@@ -95,11 +95,11 @@ ht-degree: 0%
 
 * **[!UICONTROL Edit]** 아이콘을 클릭합니다.
 
-  ![](assets/dce_sidebar_options.png)
+  ![양식 데이터 섹션과 해당 편집 아이콘이 유형, 필드 및 필수 설정 위에 강조 표시된 확인란 옵션](assets/dce_sidebar_options.png)
 
 * **[!UICONTROL Value]** 필드에 항목별 목록 값(선택한 필드로 정의됨)을 입력하십시오.
 
-  ![](assets/dce_sidebar_completeoptionradio.png)
+  ![선택한 경우 값, 선택하지 않은 경우 값이 강조 표시된 양식 데이터 대화 상자](assets/dce_sidebar_completeoptionradio.png)
 
 ### 양식 필드 수정 {#modifying-form-fields}
 
@@ -111,13 +111,13 @@ ht-degree: 0%
 * **[!UICONTROL Duplicate]** 아이콘을 사용하여 새 블록을 만들어 선택한 필드를 복제합니다.
 * **[!UICONTROL Form data]** 창을 편집하여 **[!UICONTROL Edit]** 아이콘을 사용하여 데이터베이스 필드를 양식 영역에 연결합니다.
 
-  ![](assets/dce_toolbar_formblock_edition.png)
+  필드 선택기가 데이터 없음으로 설정되어 있고 필수 예/아니요 토글이 설정되어 있는 ![양식 데이터 대화 상자](assets/dce_toolbar_formblock_edition.png)
 
 ## 단추에 작업 추가 {#adding-an-action-to-a-button}
 
 사용자가 버튼을 클릭하면 관련 작업을 정의할 수 있습니다. 이렇게 하려면 드롭다운 목록에서 수행할 작업을 선택합니다.
 
-![](assets/dce_sidebar_button.png)
+![정의, 없음, 새로 고침, 다음 페이지 및 이전 단계를 나열하는 작업 드롭다운이 있는 하이퍼텍스트 링크 옵션](assets/dce_sidebar_button.png)
 
 사용 가능한 작업은 다음과 같습니다.
 
@@ -137,11 +137,11 @@ ht-degree: 0%
 
 이렇게 하려면 요소를 선택한 다음 팝업 메뉴에서 첫 번째 아이콘을 사용합니다.
 
-![](assets/dce_insertlink_icon.png)
+![삽입 아이콘이 강조 표시된 도구 모음 차단, 링크 메뉴를 여는 데 사용](assets/dce_insertlink_icon.png)
 
 이 아이콘을 사용하면 사용 가능한 모든 유형의 링크에 액세스할 수 있습니다.
 
-![](assets/dce_insertlink_menu.png)
+![외부 URL, 작업, 웹 응용 프로그램 등 Personalization 필드, Personalization 블록 및 링크 형식이 있는 삽입 메뉴](assets/dce_insertlink_menu.png)
 
 개인화 블록 및 필드는 텍스트 유형 블록에만 삽입할 수 있습니다.
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 **외부 URL에 연결** 옵션을 사용하면 소스 콘텐츠에서 모든 URL을 열 수 있습니다.
 
-![](assets/dce_toolbar_imgblock_externallink.png)
+![URL 및 대상 필드가 있는 외부 URL에 대한 링크 대화 상자 삽입](assets/dce_toolbar_imgblock_externallink.png)
 
 **URL** 필드에 해당 링크 주소를 입력합니다. URL 필드는 **https://www.myURL.com**(으)로 입력해야 합니다.
 
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 **웹 응용 프로그램에 연결** 옵션을 사용하면 Adobe Campaign 웹 응용 프로그램에 액세스할 수 있습니다.
 
-![](assets/dce_toolbar_imgblock_appweb.png)
+![웹 응용 프로그램 및 대상 필드가 있는 웹 응용 프로그램에 대한 링크 대화 상자 삽입](assets/dce_toolbar_imgblock_appweb.png)
 
 해당 필드에서 웹 애플리케이션을 선택합니다.
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 
 동작을 정의하는 **링크** 옵션을 사용하면 소스 요소를 클릭할 때 동작을 구성할 수 있습니다.
 
-![](assets/dce_toolbar_imgblock_action.png)
+![작업 및 대상 필드가 있는 작업에 대한 링크 대화 상자 삽입](assets/dce_toolbar_imgblock_action.png)
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ ht-degree: 0%
 
 텍스트 요소를 선택하면 글꼴 특성(스타일, 형식)을 수정할 수 있습니다.
 
-![](assets/dce_toolbar_txt.png)
+![텍스트 도구 모음 단추: 글꼴, 굵게, 기울임꼴, 밑줄, 맞춤, 배경색 및 글꼴 색을 확대하거나 축소합니다](assets/dce_toolbar_txt.png)
 
 사용 가능한 옵션은 다음과 같습니다.
 
@@ -235,11 +235,11 @@ ht-degree: 0%
 
 이미지를 삽입하려면 이미지 유형 블록을 선택하고 **이미지** 아이콘을 클릭합니다.
 
-![](assets/dce_insert_image.png)
+![이미지 삽입을 위해 이미지 아이콘이 강조 표시된 이미지 차단 도구 모음](assets/dce_insert_image.png)
 
 로컬에 저장된 이미지 파일을 선택하십시오.
 
-![](assets/dce_popup_imgupload.png)
+![로컬 이미지 파일을 선택할 수 있는 [찾아보기] 단추가 있는 이미지 선택 대화 상자](assets/dce_popup_imgupload.png)
 
 **삭제** 아이콘은 이미지가 포함된 태그를 삭제합니다.
 
@@ -256,7 +256,7 @@ ht-degree: 0%
 * **캡션**&#x200B;을 사용하면 이미지에 연결된 캡션을 정의할 수 있습니다(**alt** HTML 특성에 해당).
 * **차원**&#x200B;을 사용하면 이미지 크기를 픽셀 단위로 지정할 수 있습니다.
 
-  ![](assets/dce_popup_imgsize.png)
+  너비 및 높이 필드가 픽셀 단위로 있는 ![차원 대화 상자, 둘 다 96](assets/dce_popup_imgsize.png)(으)로 설정됨
 
 ## 개인화 콘텐츠 추가 {#adding-personalization-content}
 
@@ -264,7 +264,7 @@ ht-degree: 0%
 
 삽입 아이콘에 대한 **Personalization 필드** 옵션을 사용하면 수신자 이름과 같은 데이터베이스 필드를 콘텐츠에 추가할 수 있습니다. 이 옵션은 텍스트 유형 블록에만 사용할 수 있습니다.
 
-![](assets/dce_toolbar_textblock_persofield.png)
+![전자 메일, 이름, 성과 같은 받는 사람 필드를 나열하는 요소 대화 상자를 삽입합니다](assets/dce_toolbar_textblock_persofield.png)
 
 기본적으로 제공된 필드는 **[!UICONTROL Recipient]** 테이블에서 가져옵니다. 필요한 경우 웹 응용 프로그램 속성을 편집하여 다른 테이블을 선택합니다.
 
@@ -276,8 +276,8 @@ ht-degree: 0%
 
 **Personalization 블록** 옵션을 사용하면 동적이고 개인화된 블록을 콘텐츠에 삽입할 수 있습니다. 예를 들어 로고 또는 인사말 메시지를 추가할 수 있습니다. 텍스트 유형 블록에는 사용할 수 없습니다.
 
-![](assets/dce_toolbar_textblock_persoblock.png)
+![인사말, 로고 삽입 및 구독 취소 링크와 같은 개인화 블록을 나열하는 요소 대화 상자를 삽입합니다](assets/dce_toolbar_textblock_persoblock.png)
 
 삽입되면 개인화 블록 이름이 편집기에 노란색으로 강조 표시됩니다. 개인화가 생성되면 수신자 프로필에 자동으로 조정됩니다.
 
-기본 제공 개인화 블록과 사용자 지정 개인화 블록을 정의하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ko){target="_blank"}를 참조하세요.
+기본 제공 개인화 블록과 사용자 지정 개인화 블록을 정의하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}를 참조하세요.

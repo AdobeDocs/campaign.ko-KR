@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '3152'
 ht-degree: 0%
 ---
 # 웹 양식에 필드 추가{#adding-fields-to-a-web-form}
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 도우미를 사용하여 필드를 추가하면 필드 유형은 선택한 필드 또는 저장소 변수를 기반으로 자동으로 감지됩니다. **[!UICONTROL General]** 탭의 **[!UICONTROL Type]** 드롭다운 상자를 사용하여 편집할 수 있습니다.
 
-![](assets/s_ncs_admin_webform_change_type.png)
+필드를 콤보 상자에서 다른 필드 유형으로 변경하기 위한 유형 드롭다운이 열려 있는 ![페이지 대화 상자, 일반 탭](assets/s_ncs_admin_webform_change_type.png)
 
 도구 모음의 단추를 사용할 때 추가할 필드 유형을 선택합니다.
 
@@ -66,23 +66,23 @@ ht-degree: 0%
 
 양식의 각 페이지에 대해 도구 모음의 첫 번째 버튼을 통해 필드를 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL Add using the assistant]** 메뉴로 이동하십시오.
 
-![](assets/s_ncs_admin_survey_add_field_menu.png)
+![질문에 답변하고, 받는 사람을 편집하고, 변수를 추가하고, 기존 질문을 가져오는 기능을 제공하는 필드 만들기 마법사](assets/s_ncs_admin_survey_add_field_menu.png)
 
 만들려는 필드 유형을 선택합니다. 데이터베이스에 필드를 추가하거나 변수를 추가하거나 다른 양식에서 만들어 컨테이너에 수집된 필드 그룹을 가져올 수 있습니다.
 
 **[!UICONTROL Next]**&#x200B;을(를) 클릭하고 가져올 저장소 필드, 변수 또는 컨테이너를 선택합니다.
 
-![](assets/s_ncs_admin_webform_wz_confirm_db.png)
+![필드 만들기 마법사, 프로필 단계 편집, [마침]을 클릭하기 전에 [인사말 데이터베이스] 필드 선택](assets/s_ncs_admin_webform_wz_confirm_db.png)
 
 선택한 필드를 페이지에 삽입하려면 **[!UICONTROL Finish]**&#x200B;을(를) 클릭하십시오.
 
-![](assets/s_ncs_admin_webform_wz_insert_field.png)
+![마법사 후 시작 페이지에 삽입된 인사말 콤보 상자 필드를 표시하는 페이지 대화 상자](assets/s_ncs_admin_webform_wz_insert_field.png)
 
 ## 입력 필드 추가 {#adding-input-fields}
 
 입력 필드를 추가하려면 **[!UICONTROL Input control]** 단추를 클릭하고 추가할 필드 형식을 선택합니다.
 
-![](assets/s_ncs_admin_webform_select_field.png)
+![텍스트, 숫자, 암호, 여러 줄 텍스트 및 HTML 텍스트 필드 형식을 나열하는 입력 컨트롤 메뉴](assets/s_ncs_admin_webform_select_field.png)
 
 ### 입력 필드 유형 {#types-of-input-fields}
 
@@ -90,7 +90,7 @@ ht-degree: 0%
 
 * **텍스트**: 사용자가 한 줄에 텍스트를 입력할 수 있습니다.
 
-  ![](assets/s_ncs_admin_survey_txt_ex.png)
+  ![한 줄 값이 포함된 성에 레이블이 지정된 텍스트 필드](assets/s_ncs_admin_survey_txt_ex.png)
 
 * **숫자**: 사용자가 한 줄에 숫자를 입력할 수 있습니다. 자세한 내용은 [숫자 추가](#adding-numbers)를 참조하세요.
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 * **암호**: 사용자가 한 줄에 텍스트를 입력할 수 있습니다. 텍스트를 입력하는 동안 문자가 마침표로 대체됩니다.
 
-  ![](assets/s_ncs_admin_survey_passwd_ex.png)
+  ![렌더링된 암호 필드 레이블이 사용자 암호로 지정되어 있고 입력된 문자가 점으로 마스킹되어 있습니다](assets/s_ncs_admin_survey_passwd_ex.png)
 
   >[!CAUTION]
   >
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 * **여러 줄 텍스트**: 사용자가 여러 줄에 텍스트를 입력할 수 있습니다.
 
-  ![](assets/s_ncs_admin_survey_txtmulti_ex.png)
+  ![스크롤 막대와 샘플 텍스트가 있는 메시지 레이블이 지정된 다중 줄 텍스트 필드입니다](assets/s_ncs_admin_survey_txtmulti_ex.png)
 
   >[!CAUTION]
   >
@@ -115,21 +115,21 @@ ht-degree: 0%
 
 * **보강된 여러 줄 텍스트**: 사용자가 HTML 형식으로 저장되는 레이아웃으로 텍스트를 입력할 수 있습니다.
 
-  ![](assets/s_ncs_admin_survey_txthtmli_ex.png)
+  ![서식 지정 도구 모음, 굵게, 링크 및 삽입된 이미지를 사용하여 보강된 텍스트 편집기를 렌더링했습니다](assets/s_ncs_admin_survey_txthtmli_ex.png)
 
   사용자에게 제공되는 편집기 유형을 선택할 수 있습니다. 이렇게 하려면 **[!UICONTROL Advanced]** 탭에서 **[!UICONTROL HTML editor]** 필드의 드롭다운 상자를 사용합니다.
 
-  ![](assets/webapp_enrich_text_type.png)
+  ![HTML 편집기 드롭다운이 있는 고급 탭에 최소값, 기본, 중간 및 고급이 나열됩니다.1}](assets/webapp_enrich_text_type.png)
 
   표시되는 아이콘 수는 편집기 유형에 따라 다릅니다. **[!UICONTROL Advanced]** 편집기의 경우 렌더링은 다음과 같습니다.
 
-  ![](assets/webapp_enrich_text_max.png)
+  ![전체 도구 모음과 글꼴 크기 드롭다운이 열려 있는 양식 페이지의 고급 HTML 편집기](assets/webapp_enrich_text_max.png)
 
 ### 입력 필드 구성 {#configure-input-fields}
 
 입력 필드는 모두 다음 옵션을 사용하여 동일한 모드를 기반으로 구성됩니다.
 
-![](assets/s_ncs_admin_survey_txt_param.png)
+레이블, 필수, 저장소, 저장소 편집 링크 및 기본값이 있는 텍스트 입력 필드의 ![일반 탭](assets/s_ncs_admin_survey_txt_param.png)
 
 **[!UICONTROL General]** 탭에서는 필드 이름을 입력하고 필요한 경우 필드에 기본값을 지정할 수 있습니다.
 
@@ -145,17 +145,17 @@ ht-degree: 0%
 
 설문 조사 페이지에 드롭다운 목록을 삽입할 수 있습니다. 이렇게 하면 사용자가 드롭다운 메뉴의 오퍼에 있는 값에서 값을 선택할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_dropdown_sample.png)
+![Mister, Madam, Miss를 제공하는 Title이라는 레이블이 지정된 드롭다운 목록](assets/s_ncs_admin_survey_dropdown_sample.png)
 
 양식 페이지에 드롭다운 상자를 추가하려면 페이지 편집기의 도구 모음에서 **[!UICONTROL Selection controls > Drop-down list]** 단추를 클릭합니다.
 
-![](assets/s_ncs_admin_survey_create_dropdown.png)
+![콤보 상자, 확인란, 라디오 단추, 다중 선택, 날짜, 모눈을 사용한 페이지 편집기 도구 모음 메뉴 선택 컨트롤](assets/s_ncs_admin_survey_create_dropdown.png)
 
 응답 저장 모드를 선택하고 선택을 확인합니다.
 
 **[!UICONTROL General]** 탭의 아래 섹션에서 목록의 레이블과 값을 정의합니다. 정보가 데이터베이스의 기존 필드에 저장되어 있고 열거형 필드인 경우 아래와 같이 **[!UICONTROL Initialize the list of values from the database]**&#x200B;을(를) 클릭하여 값을 자동으로 채울 수 있습니다.
 
-![](assets/s_ncs_admin_survey_database_values.png)
+![데이터베이스 링크와 채워진 목록의 값 목록 초기화가 포함된 콤보 상자 일반 탭](assets/s_ncs_admin_survey_database_values.png)
 
 >[!NOTE]
 >
@@ -163,11 +163,11 @@ ht-degree: 0%
 
 데이터가 연결된 테이블에 저장된 경우 목록에서 제안할 값이 저장된 필드를 선택할 수 있습니다. 예를들어 국가 표를 선택하는 경우 **[!UICONTROL Initialize the list of values from the database...]**&#x200B;을(를) 클릭하고 원하는 필드를 선택합니다.
 
-![](assets/s_ncs_admin_survey_preload_values.png)
+![식 선택 대화 상자를 사용하여 국가 테이블에서 레이블 필드를 선택하는 웹 응용 프로그램 대화 상자](assets/s_ncs_admin_survey_preload_values.png)
 
 그런 다음 **[!UICONTROL Load]** 링크를 클릭하여 값을 검색합니다.
 
-![](assets/s_ncs_admin_survey_load_button.png)
+[로드]를 클릭한 후 국가 레이블 및 값의 미리 보기 목록이 있는 웹 응용 프로그램 대화 상자![1}](assets/s_ncs_admin_survey_load_button.png)
 
 >[!CAUTION]
 >
@@ -177,7 +177,7 @@ ht-degree: 0%
 
 사용자가 옵션을 선택하려면 확인란을 사용해야 합니다.
 
-![](assets/s_ncs_admin_survey_check_box.png)
+![렌더링된 확인란, 선택됨, 뉴스 레터를 받고 싶습니다 레이블이 있음](assets/s_ncs_admin_survey_check_box.png)
 
 양식에 확인란을 추가하려면 페이지 편집기의 도구 모음에서 **[!UICONTROL Selection controls > Checkbox...]** 아이콘을 클릭합니다.
 
@@ -185,33 +185,33 @@ ht-degree: 0%
 
 **[!UICONTROL General]** 탭의 **[!UICONTROL Label]** 필드에 상자의 레이블을 입력합니다.
 
-![](assets/s_ncs_admin_survey_check_box_edit.png)
+![레이블, 저장소, 기본적으로 선택됨, 값 및 빈 값 필드가 있는 확인란 일반 탭](assets/s_ncs_admin_survey_check_box_edit.png)
 
 확인란을 선택하면 확인란의 선택 여부에 따라 저장 영역 필드(또는 값)에 값을 할당할 수 있습니다. **[!UICONTROL Values]** 섹션을 사용하면 **[!UICONTROL Value]** 필드에서 상자를 선택한 경우 할당할 값을 입력하고, **[!UICONTROL Empty value]** 필드에서 상자를 선택하지 않은 경우 할당할 값을 입력할 수 있습니다. 이러한 값은 데이터 저장소 형식에 따라 다릅니다.
 
 저장소 필드(또는 변수)가 부울이면 상자를 선택하지 않았을 때 할당할 값이 자동으로 추론됩니다. 이 경우 아래와 같이 **[!UICONTROL Value if checked]** 필드만 제공됩니다.
 
-![](assets/s_ncs_admin_survey_check_box_enum.png)
+부울 필드에 대한 ![확인란 일반 탭(선택한 경우 값 제공 예 및 아니요](assets/s_ncs_admin_survey_check_box_enum.png))
 
 ## 예: 상자를 선택한 경우 필드에 값을 지정합니다. {#example--assign-a-value-to-a-field-if-a-box-is-checked}
 
 아래와 같이 양식에 확인란을 삽입하여 유지 관리 요청을 전송하려고 합니다.
 
-![](assets/s_ncs_admin_survey_check_box_ex.png)
+![제품 드롭다운, 배송 날짜 필드 및 선택된 유지 관리 필수 상자와 함께 양식 페이지를 렌더링했습니다](assets/s_ncs_admin_survey_check_box_ex.png)
 
 정보가 데이터베이스 및 기존 필드(이 경우 **[!UICONTROL Comment]** 필드)에 업로드됩니다.
 
-![](assets/s_ncs_admin_survey_check_box_ex_list.png)
+![유지 관리 필요 또는 유지 관리 필요 없음을 표시하는 주석 열이 있는 받는 사람 목록](assets/s_ncs_admin_survey_check_box_ex_list.png)
 
 &quot;유지 관리 필수&quot; 상자를 선택하면 **[!UICONTROL Comment]** 열에 &quot;유지 관리 필수&quot;가 포함됩니다. 확인란을 선택하지 않으면 열에 &quot;유지 관리가 필요하지 않음&quot;이 표시됩니다. 이 결과를 얻으려면 양식 페이지의 확인란에 다음 구성을 적용하십시오.
 
-![](assets/s_ncs_admin_survey_check_box_ex_edit.png)
+![값 및 빈 값 텍스트와 함께 댓글 필드에 저장된 유지 관리 필수 확인란](assets/s_ncs_admin_survey_check_box_ex_edit.png)
 
 ## 라디오 단추 추가 {#adding-radio-buttons}
 
 라디오 버튼을 사용하면 사용자에게 선택할 수 있는 일련의 독점적인 옵션을 제공할 수 있습니다. 이는 동일한 필드에 대해 서로 다른 값입니다.
 
-![](assets/s_ncs_admin_survey_radio_button.png)
+![라디오 단추를 렌더링했습니다. Mister, Madam, Miss(Madam이 선택됨)](assets/s_ncs_admin_survey_radio_button.png)
 
 라디오 단추를 개별적으로(단일 단추) 만들거나 다중 선택 목록을 통해 만들 수 있지만, 라디오 단추의 핵심은 한 옵션 또는 다른 옵션을 선택하는 것이므로 라디오 단추를 하나만 만드는 것이 아니라 항상 라디오 단추를 두 개 이상 만듭니다.
 
@@ -223,7 +223,7 @@ ht-degree: 0%
 
 양식 페이지에 라디오 단추를 추가하려면 페이지 편집기의 도구 모음에서 **[!UICONTROL Selection controls > Radio button]** 메뉴로 이동하여 저장 모드를 선택하십시오.
 
-![](assets/s_ncs_admin_survey_radio_button_sample.png)
+레이블 옵션 1, 변수 저장소, 기본적으로 선택됨 및 값이 있는 라디오 단추 필드의 ![일반 탭](assets/s_ncs_admin_survey_radio_button_sample.png)
 
 라디오 단추는 확인란과 유사한 방식으로 구성되어 있습니다([확인란 추가](#adding-checkboxes) 참조). 그러나 옵션을 선택하지 않으면 값이 할당되지 않습니다. 여러 개의 버튼이 상호 종속되도록 하려면(즉, 하나를 선택하면 다른 버튼이 자동으로 선택 해제되도록), 동일한 필드에 저장되어야 합니다. 데이터베이스에 저장되지 않은 경우 동일한 로컬 변수를 임시 저장소에 사용해야 합니다. [응답 저장소 필드](web-forms-answers.md#response-storage-fields)를 참조하세요.
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 
 목록을 통해 라디오 단추를 추가하려면 페이지 편집기의 도구 모음에 있는 **[!UICONTROL Selection controls>Multiple choice]** 메뉴로 이동하십시오.
 
-![](assets/s_ncs_admin_survey_radio_button_sample2.png)
+![옵션 1부터 옵션 3까지 값, 선택 항목 및 점수 열이 있는 다중 선택 필드 일반 탭](assets/s_ncs_admin_survey_radio_button_sample2.png)
 
 라디오 단추를 레이블만큼 추가합니다. 이 기능의 장점은 기존 필드(항목별 필드의 경우)에서 값을 가져와 사용자가 하나의 옵션을 선택할 수 있다는 것입니다. 하지만 버튼의 레이아웃은 유연성이 떨어집니다.
 
@@ -244,15 +244,15 @@ ht-degree: 0%
 
 그리드는 웹 애플리케이션에서 투표 페이지를 디자인하는 데 사용됩니다. 이렇게 하면 설문 조사 또는 평가 유형 웹 양식에 답변할 수 있는 라디오 단추 목록을 다음과 같이 제공할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_vote_param.png)
+![비디오 1에서 비디오 3까지 행과 라디오 단추를 사용하여 렌더링된 등급 그리드가 1에서 5까지 우수합니다](assets/s_ncs_admin_survey_vote_param.png)
 
 양식에서 이러한 유형의 요소를 사용하려면 간단한 격자를 만들고 평가할 각 요소에 대해 줄을 추가합니다.
 
-![](assets/s_ncs_admin_survey_vote_sample.png)
+![Notes 단순 눈금과 세 개의 눈금선, Video 1에서 Video 3까지, Rating 값 1에서 5](assets/s_ncs_admin_survey_vote_sample.png)까지 페이지 편집기
 
 그리드의 각 줄에 있는 라디오 단추의 수는 단순 그리드에 정의된 값의 수와 일치합니다.
 
-![](assets/s_ncs_admin_survey_vote_ex.png)
+![단순 눈금 머리글 행 1~5와 눈금 줄 3개가 있는 눈금을 렌더링했습니다. 한 줄에 하나의 라디오 단추를 선택했습니다](assets/s_ncs_admin_survey_vote_ex.png)
 
 격자선당 하나의 옵션만 선택할 수 있습니다.
 
@@ -266,17 +266,17 @@ ht-degree: 0%
 
 ### 날짜 추가 {#adding-dates}
 
-![](assets/s_ncs_admin_survey_date_calendar.png)
+![일정 선택기가 2017년 1월에 열리고 선택한 날이 있는 날짜 필드](assets/s_ncs_admin_survey_date_calendar.png)
 
 사용자가 양식 페이지에 날짜를 입력할 수 있도록 하려면 입력 필드를 추가하고 **[!UICONTROL Date...]** 유형을 선택하십시오.
 
 필드에 대한 레이블을 입력하고 데이터 저장 모드를 구성합니다.
 
-![](assets/s_ncs_admin_survey_date_edit.png)
+![날짜 형식 및 시간 형식 드롭다운이 있는 생일 필드의 일반 탭](assets/s_ncs_admin_survey_date_edit.png)
 
 창의 아래 섹션에서는 이 필드에 저장된 값에 대한 날짜 및 시간 포맷을 선택할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_date_edit_values.png)
+![날짜 형식 드롭다운 목록 형식(예: 2012년 12월 31일, 2012년 12월 31일 및 2012년 12월 31일)](assets/s_ncs_admin_survey_date_edit_values.png)
 
 날짜(또는 시간)를 표시하지 않도록 선택할 수도 있습니다.
 
@@ -288,37 +288,37 @@ ht-degree: 0%
 
 그러나 경우에 따라(예: 생년월일 입력) 드롭다운 목록을 사용하는 것이 더 쉬울 수 있습니다.
 
-![](assets/s_ncs_admin_survey_date_list_select.png)
+![일, 월, 연도의 드롭다운 목록을 3개 사용하여 생년월일 필드를 렌더링했습니다](assets/s_ncs_admin_survey_date_list_select.png)
 
 이렇게 하려면 **[!UICONTROL Advanced]** 탭을 클릭하고 **[!UICONTROL Drop-down lists]**&#x200B;을(를) 사용하여 입력 모드를 선택합니다.
 
-![](assets/s_ncs_admin_survey_date_selection.png)
+![일정 또는 드롭다운 목록을 사용하여 날짜 입력을 선택하는 입력 모드 드롭다운이 설정된 고급 탭](assets/s_ncs_admin_survey_date_selection.png)
 
 그런 다음 목록에 제공된 값에 대한 제한을 설정할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_date_first_last_y.png)
+![첫째 연도 및 마지막 연도 상자가 목록에 제공된 연도를 제한하는 날짜 필드 일반 탭](assets/s_ncs_admin_survey_date_first_last_y.png)
 
 ### 숫자 추가 {#adding-numbers}
 
 숫자 입력에 적합한 필드를 생성할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_number.png)
+![값 2 500을 포함하는 Points라는 숫자 필드가 렌더링되었습니다.](assets/s_ncs_admin_survey_number.png)
 
 숫자 필드에서는 숫자만 입력할 수 있습니다. 시작 컨트롤은 페이지가 승인될 때 자동으로 적용됩니다.
 
 데이터베이스에 데이터가 저장되는 필드에 따라, 특별한 포맷이나 특정 제한이 적용될 수 있다. 최대값과 최소값을 지정할 수도 있습니다. 이 유형의 필드는 다음과 같이 구성됩니다.
 
-![](assets/s_ncs_admin_survey_number_edit.png)
+![기본값, 최소값 및 최대값 승인 옵션이 있는 숫자 필드 일반 탭](assets/s_ncs_admin_survey_number_edit.png)
 
 기본값은 양식을 게시할 때 필드에 표시되는 값입니다. 사용자가 수정할 수 있습니다.
 
 아래와 같이 **[!UICONTROL Advanced]** 탭을 통해 숫자 필드에 접두사 및/또는 접미사를 추가할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_number_ex_conf.png)
+![접두사가 [사용자]로 설정되어 있고 접미사가 [점]으로 설정된 숫자 필드의 고급 탭](assets/s_ncs_admin_survey_number_ex_conf.png)
 
 양식에서 렌더링은 다음과 같습니다.
 
-![](assets/s_ncs_admin_survey_number_ex.png)
+![지정한 접두사, 값 10 및 접미사 점을 표시하는 숫자 필드를 렌더링했습니다](assets/s_ncs_admin_survey_number_ex.png)
 
 ## 구독 확인란 {#subscription-checkboxes}
 
@@ -326,17 +326,17 @@ ht-degree: 0%
 
 구독 확인란을 만들려면 **[!UICONTROL Advanced controls>Subscription]**&#x200B;을(를) 클릭합니다.
 
-![](assets/s_ncs_admin_survey_subscription_edit.png)
+선택할 정보 서비스를 나열하는 서비스 드롭다운이 있는 ![구독 필드 일반 탭](assets/s_ncs_admin_survey_subscription_edit.png)
 
 확인란의 레이블을 지정하고 **[!UICONTROL Service]** 드롭다운 상자를 사용하여 관련 정보 서비스를 선택합니다.
 
 >[!NOTE]
 >
->정보 서비스는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}에 자세히 설명되어 있습니다.
+>정보 서비스는 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}에 자세히 설명되어 있습니다.
 
 사용자는 해당 옵션을 선택하여 서비스에 가입한다.
 
-![](assets/s_ncs_admin_survey_subscribe.png)
+![뉴스레터 확인란과 유효성 검사 단추를 사용하여 프로필 확인 및 뉴스레터 양식 선택](assets/s_ncs_admin_survey_subscribe.png)
 
 >[!CAUTION]
 >
@@ -352,11 +352,11 @@ ht-degree: 0%
 
 양식에 Captcha를 삽입하려면 도구 모음에서 첫 번째 단추를 클릭하고 **[!UICONTROL Advanced controls>Captcha]**&#x200B;을(를) 선택합니다.
 
-![](assets/s_ncs_admin_survey_add_captcha.png)
+![파일, 구독, 상수 및 Captcha가 강조 표시된 고급 컨트롤 도구 모음 메뉴](assets/s_ncs_admin_survey_add_captcha.png)
 
 필드의 레이블을 입력합니다. 이 레이블은 Captcha 표시 영역 앞에 표시됩니다. **[!UICONTROL Advanced]** 탭에서 이 레이블의 위치를 변경할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_captcha_adv.png)
+![레이블 위치 드롭다운 오퍼가 상속된 Left, Right, Above, Below, Hidden](assets/s_ncs_admin_survey_captcha_adv.png)
 
 >[!NOTE]
 >
@@ -364,15 +364,15 @@ ht-degree: 0%
 
 Captcha는 시각적 개체 아래에 입력 필드가 있는 페이지에 삽입됩니다. 이 두 요소는 분리할 수 없으며 페이지 레이아웃의 목적으로 단일 항목으로 간주됩니다(단일 셀을 점유).
 
-![](assets/s_ncs_admin_survey_captcha_sample.png)
+![왜곡된 문자의 captcha 이미지와 아래에 입력 필드가 있는 양식 페이지를 렌더링했습니다](assets/s_ncs_admin_survey_captcha_sample.png)
 
 페이지가 확인되면 Captcha의 콘텐츠를 올바르게 입력하지 않은 경우 입력 필드가 빨간색으로 표시됩니다.
 
-![](assets/s_ncs_admin_survey_captcha_error.png)
+![입력한 문자가 captcha 이미지와 일치해야 한다는 빨간색 오류 메시지를 표시하는 양식 페이지](assets/s_ncs_admin_survey_captcha_error.png)
 
 표시할 오류 메시지를 만들 수 있습니다. 이렇게 하려면 **[!UICONTROL General]** 탭의 **[!UICONTROL Personalize the message]** 링크를 사용합니다.
 
-![](assets/s_ncs_admin_survey_captcha_error_msg.png)
+![메시지 개인화 대화 상자를 여는 메시지 링크를 사용하여 일반 탭](assets/s_ncs_admin_survey_captcha_error_msg.png)
 
 >[!NOTE]
 >
@@ -382,7 +382,7 @@ Captcha는 시각적 개체 아래에 입력 필드가 있는 페이지에 삽�
 
 페이지에 업로드 필드를 추가할 수 있습니다. 이 기능은 예를 들어 인트라넷 파일 공유에 유용할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_download_file.png)
+![렌더링된 업로드 필드에 [찾아보기] 단추를 사용하여 사진을 업로드합니다](assets/s_ncs_admin_survey_download_file.png)
 
 양식 페이지에 업로드 필드를 삽입하려면 페이지 편집기의 도구 모음에서 **[!UICONTROL Advanced controls > File...]** 메뉴를 선택합니다.
 
@@ -408,4 +408,4 @@ Captcha는 시각적 개체 아래에 입력 필드가 있는 페이지에 삽�
 
 다음 예제에서는 사용자가 이 페이지를 승인할 때마다 수신자 프로필의 **origin** 필드가 자동으로 채워집니다. 상수는 페이지에 표시되지 않습니다.
 
-![](assets/s_ncs_admin_survey_constante.png)
+![Origin이라는 상수 필드, 원본 데이터베이스 필드에 외부 값으로 저장됨](assets/s_ncs_admin_survey_constante.png)
