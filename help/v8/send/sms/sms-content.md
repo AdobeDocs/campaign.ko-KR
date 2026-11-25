@@ -58,7 +58,7 @@ SMS 게재의 콘텐츠를 구성하려면:
 
    개인화를 통해 SMS 미리보기를 확인할 수 있습니다.
 
-   ![이름이 받는 사람 값으로 바뀐 SMS 미리 보기(텍스트 및 휴대폰 모형에서 표시)1}](assets/sms_preview_phone.png){zoomable="yes"}
+   ![이름이 받는 사람 값으로 바뀐 SMS 미리 보기(텍스트 및 휴대폰 모형에서 표시)1&rbrace;](assets/sms_preview_phone.png){zoomable="yes"}
 
 >[!NOTE]
 >

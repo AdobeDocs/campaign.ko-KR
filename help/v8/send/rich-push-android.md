@@ -130,7 +130,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
    Android 앱 링크를 처리하는 방법에 대한 자세한 내용은 [Android 개발자 설명서](https://developer.android.com/training/app-links)를 참조하세요.
 
-   ![웹 URL 단추가 하나씩 있는 기본 알림 단추 표(지금 바로 보기)! ](assets/rich_push_basic_3.png)에 채워진 이후 필드 알림
+   ![웹 URL 단추가 하나씩 있는 기본 알림 단추 표(지금 바로 보기)! &#x200B;](assets/rich_push_basic_3.png)에 채워진 이후 필드 알림
 
 1. 푸시 알림을 추가로 개인화하려면 푸시 알림의 **[!UICONTROL Notification options]** 및 **[!UICONTROL HTTPv1 additional options]**&#x200B;을(를) 구성합니다. [자세히 알아보기](#push-advanced)
 
