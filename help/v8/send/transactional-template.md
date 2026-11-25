@@ -113,7 +113,7 @@ ht-degree: 0%
 
    레이블, 전자 메일 및 외부 식별자 필드를 채운 ![시드 주소 대화 상자](assets/messagecenter_create_seed_2.png)
 
-1. 테스트 데이터를 삽입합니다. [Campaign Classic v7 설명서에서 개인화 데이터에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. 테스트 데이터를 삽입합니다. [Campaign Classic v7 설명서에서 개인화 데이터에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![이벤트 컨텍스트에 대해 XML로 작성된 콘텐츠 섹션의 테스트 데이터가 포함된 시드 주소 대화 상자](assets/messagecenter_create_custo_3.png)
 

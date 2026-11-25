@@ -88,8 +88,8 @@ ht-degree: 6%
 * 대괄호 [ ]
 * 중괄호 { }
 
-이 예제에서는 URL https://www.adobe.com 뒤에 세미콜론이 옵니다. 세미콜론은 수신자 이메일 클라이언트들에 의해 URL의 일부로서 해석될 수 있다. 그 결과 링크가 끊어질 수 있습니다. 이 문제를 방지하려면 다음 방법 중 하나로 URL을 구분 기호로 묶을 수 있습니다.
+이 예제에서는 URL https://www.adobe.com/kr 뒤에 세미콜론이 옵니다. 세미콜론은 수신자 이메일 클라이언트들에 의해 URL의 일부로서 해석될 수 있다. 그 결과 링크가 끊어질 수 있습니다. 이 문제를 방지하려면 다음 방법 중 하나로 URL을 구분 기호로 묶을 수 있습니다.
 
-* (https://www.adobe.com);
-* [https://www.adobe.com];
-* {https://www.adobe.com};
+* (https://www.adobe.com/kr);
+* [https://www.adobe.com/kr];
+* {https://www.adobe.com/kr};
