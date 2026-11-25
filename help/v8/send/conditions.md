@@ -20,7 +20,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 10%
@@ -70,7 +70,7 @@ ht-degree: 10%
 1. 이메일을 만들고 대상 모집단을 선택합니다. 이 예제에서 한 버전 또는 다른 버전을 표시하는 조건은 받는 사람 프로필의 **Language** 값을 기반으로 합니다. 이 값은 **EN**, **FR**, **ES**(으)로 설정됩니다.
 1. 이메일 HTML 콘텐츠에서 **[!UICONTROL Source]** 탭을 클릭하고 다음 코드를 붙여넣습니다.
 
-   ```
+   ```html
    <% if (language == "EN" ) { %>
    <DIV id=en-version>Hello <%= recipient.firstName %>,</DIV>
    <DIV>Discover your new offers!</DIV>
@@ -99,4 +99,4 @@ ht-degree: 10%
 
 다중 언어 뉴스레터의 예에 따라 게재에 조건부 콘텐츠를 추가하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446718?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)

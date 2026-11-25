@@ -24,7 +24,7 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '2144'
 ht-degree: 1%
@@ -47,7 +47,7 @@ Neobank 사이트에서는 페이지를 검색하는 식별되지 않은 방문�
 
 ### 익명 환경 만들기 {#creating-an-anonymous-environment}
 
-[오퍼 환경 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}(Campaign v8 설명서)에 설명된 절차에 따라 **방문자** 차원을 기반으로 익명 환경을 만듭니다.
+[오퍼 환경 만들기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}(Campaign v8 설명서)에 설명된 절차에 따라 **방문자** 차원을 기반으로 익명 환경을 만듭니다.
 
 새 환경이 포함된 트리 구조를 가져옵니다.
 
@@ -81,7 +81,7 @@ Neobank 사이트에서는 페이지를 검색하는 식별되지 않은 방문�
 
 1. HTML 렌더링 함수를 편집합니다. 예를 들면 다음과 같습니다.
 
-   ```
+   ```javascript
    function (imageUrl, targetUrl, shortContent, htmlSource){
          var html = "<p><b>" + shortContent + "</b></p>";
          html += "<p>" + htmlSource + "</p>";
@@ -147,7 +147,7 @@ Neobank 사이트에서는 페이지를 검색하는 식별되지 않은 방문�
 
 ### 웹 사이트에서 웹 오퍼 공간 구성 {#configure-the-web-offer-space-on-the-website}
 
-방금 구성한 오퍼가 웹 사이트에 표시되도록 하려면 사이트의 HTML 페이지에 JavaScript 코드를 삽입하여 상호 작용 엔진을 호출합니다(자세한 내용은 [인바운드 채널 정보](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"}(Campaign v8 설명서).
+방금 구성한 오퍼가 웹 사이트에 표시되도록 하려면 사이트의 HTML 페이지에 JavaScript 코드를 삽입하여 상호 작용 엔진을 호출합니다(자세한 내용은 [인바운드 채널 정보](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"}(Campaign v8 설명서).
 
 1. HTML 페이지로 이동하여 이전에 만든 익명 오퍼 공간의 내부 이름과 일치하는 값이 있는 @id 특성을 삽입합니다([익명 오퍼 공간 만들기](#creating-anonymous-offer-spaces) 참조). 앞에 **i_**&#x200B;이(가) 있습니다.
 
@@ -211,7 +211,7 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
 ### 익명 연락처를 위한 환경 만들기 {#creating-an-environment-for-anonymous-contacts}
 
-1. 게재 매핑 도우미(**방문자** 매핑)를 통해 익명 인바운드 상호 작용을 위한 오퍼 환경을 만듭니다. 자세한 내용은 [오퍼 환경 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+1. 게재 매핑 도우미(**방문자** 매핑)를 통해 익명 인바운드 상호 작용을 위한 오퍼 환경을 만듭니다. 자세한 내용은 [오퍼 환경 만들기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
    ![](assets/offer_env_anonymous_003.png)
 

@@ -21,7 +21,7 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 0%
@@ -101,19 +101,19 @@ Professional 옵션을 선택하면 가시성 조건으로 표현된 대로 상�
 
 * 데이터베이스의 필드에 저장된 콘텐츠의 경우:
 
-  ```
+  ```html
   <%=ctx.recipient.@field name%
   ```
 
 * 로컬 변수에 저장된 콘텐츠의 경우:
 
-  ```
+  ```html
   <%= ctx.vars.variable name %
   ```
 
 * HTML 텍스트 필드에 저장된 콘텐츠의 경우:
 
-  ```
+  ```html
   <%== HTML field name %
   ```
 
@@ -153,4 +153,4 @@ Professional 옵션을 선택하면 가시성 조건으로 표현된 대로 상�
 >
 >가능한 작업은 **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**&#x200B;입니다.\
 >연산자의 기본 폴더는 연산자에 쓰기 권한이 있는 첫 번째 폴더입니다.\
->[이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}을 참조하십시오.
+>[이 섹션](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}을 참조하십시오.

@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 아래 샘플 페이로드는 서비스에서 프로필 구독을 취소하는 방법을 보여 줍니다. 먼저 GET 요청을 수행하여 프로필을 검색합니다.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 프로필에 대한 구독 URL을 반환합니다.
 
-```
+```json
   {
     ...
     "postalAddress":...,
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 구독 URL에 대해 GET 요청을 수행합니다.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 선택한 프로필에 대한 구독 목록을 각 구독한 서비스에 대한 URL과 함께 반환합니다.
 
-```
+```json
 ...
 "service": {
   "PKey": "<PKEY>",
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 원하는 서비스 URL에서 DELETE 요청을 수행합니다.
 
-```
+```bash
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 서비스 레코드를 검색합니다.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 서비스에 대한 구독 URL을 반환합니다.
 
-```
+```json
 {
   ...
   "messageType": "email",
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 구독 URL에 대해 GET 요청을 수행합니다.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -157,7 +157,7 @@ ht-degree: 0%
 
 각 프로필 구독에 대한 URL(href)과 함께 선택한 서비스에 대한 구독 목록을 반환합니다.
 
-```
+```json
 {
   "PKey": "<PKEY>",
   "created": "2019-03-26 08:58:04.764Z",
@@ -174,7 +174,7 @@ ht-degree: 0%
 
 원하는 프로필 구독 URL에 대해 DELETE 요청을 수행합니다.
 
-```
+```bash
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \

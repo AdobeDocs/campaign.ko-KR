@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 특정 속성을 사용하여 서비스를 만들기 위한 샘플 POST 요청.
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 업데이트된 속성으로 새로 생성된 서비스를 반환합니다.
 
-```
+```json
 {
     "PKey": "<PKEY>",
     "builtIn": false,

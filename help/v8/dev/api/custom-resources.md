@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 2%
@@ -54,7 +54,7 @@ Adobe Campaign에는 다양한 리소스를 통해 데이터를 정의하는 데
 
 확장된 profileAndServicesExt 리소스에 액세스하기 위한 샘플 GET 요청입니다.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -64,7 +64,7 @@ Adobe Campaign에는 다양한 리소스를 통해 데이터를 정의하는 데
 
 연결된 모든 사용자 지정 리소스 목록을 반환합니다. 그런 다음 리소스 URL을 사용하여 이 설명서에 설명된 API 작업을 수행할 수 있습니다.
 
-```
+```json
 {
 "apiName": "resourceType",
 "cusProduct": {

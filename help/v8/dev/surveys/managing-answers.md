@@ -19,7 +19,7 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 1%
@@ -106,13 +106,13 @@ Adobe Campaign의 모든 웹 양식에 공통되는 표준 저장소 모드(데�
 
 각 양식에 대해 제공된 답변을 필드나 레이블에 사용할 수 있습니다. 보관된 필드에 저장된 컨텐츠에 다음 구문을 사용합니다.
 
-```
+```html
 <%= ctx.webAppLogRcpData.name of the archived field %
 ```
 
 >[!NOTE]
 >
->다른 필드 형식의 경우 구문은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
+>다른 필드 형식의 경우 구문은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}에 자세히 설명되어 있습니다(Campaign v8 설명서).
 
 ### 저장소 설정 {#storage-settings}
 

@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 
 **messageType** 값이 &quot;sms&quot;인 모든 서비스를 계산하려면 **byChannel** 필터로 GET 요청을 수행하십시오.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -43,7 +43,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 
 필터에 해당하는 서비스를 반환합니다.
 
-```
+```json
 {
     "content": [
         {
@@ -64,7 +64,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 
 **count** 노드의 URL에 대해 GET 요청을 수행하여 결과 수를 검색합니다.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -74,7 +74,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 
 레코드 수를 반환합니다.
 
-```
+```json
 {
     "count": 26
 }

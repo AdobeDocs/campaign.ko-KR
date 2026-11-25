@@ -26,7 +26,7 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '1583'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Adobe Campaign은 모든 정적 요소의 **[!UICONTROL Texts]** 탭에 정의�
 
 ### 문자열 필터링 {#filtering-strings}
 
-기본적으로 웹 애플리케이션의 각 번역 언어가 표시됩니다. 기본 필터에는 언어와 상태, 이렇게 두 가지가 있습니다. **[!UICONTROL Filters]** 단추를 클릭한 다음 **[!UICONTROL By language or status]**&#x200B;을(를) 클릭하여 일치하는 드롭다운 상자를 표시합니다. 고급 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
+기본적으로 웹 애플리케이션의 각 번역 언어가 표시됩니다. 기본 필터에는 언어와 상태, 이렇게 두 가지가 있습니다. **[!UICONTROL Filters]** 단추를 클릭한 다음 **[!UICONTROL By language or status]**&#x200B;을(를) 클릭하여 일치하는 드롭다운 상자를 표시합니다. 고급 필터를 만들 수도 있습니다. 필터에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}를 참조하세요.
 
 ![](assets/s_ncs_admin_survey_trad_tab_en.png)
 
@@ -178,17 +178,17 @@ Adobe Campaign 이외의 도구를 사용하여 문자 문자열을 내보내고
 
 웹 폼은 웹 응용 프로그램 속성의 **[!UICONTROL Localization]** 탭에 지정된 기본 언어로 표시됩니다. 언어를 변경하려면 URL 끝에 다음 문자를 추가해야 합니다. 여기서 **xx**&#x200B;은(는) 언어 기호입니다.
 
-```
+```text
 ?lang=xx
 ```
 
 언어가 URL의 첫 번째 또는 유일한 매개 변수인 경우. 예: **https://myserver/webApp/APP34**
 
-```
+```text
 &lang=xx
 ```
 
-url의 언어 앞에 다른 매개 변수가 있는 경우. 예: **https://myserver/webApp/APP34?status=1&lang=en**
+url의 언어 앞에 다른 매개 변수가 있는 경우. 예: **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 기본적으로 사용할 수 있는 번역 언어 및 사전은 아래에 나열되어 있습니다.
 
@@ -449,7 +449,7 @@ URL 끝에 **?lang=fr**&#x200B;을(를) 추가하여 프랑스어로 표시합�
 >[!NOTE]
 >
 >이 웹 응용 프로그램에 다른 매개 변수가 이미 사용된 경우 **&amp;lang=**&#x200B;을(를) 추가합니다.\
->예: **https://myserver/webApp/APP34?status=1&lang=en**
+>예: **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 ## 고급 번역 구성 {#advanced-translation-configuration}
 

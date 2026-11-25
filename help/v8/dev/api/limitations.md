@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 1%
@@ -98,7 +98,7 @@ PKey 값 관리는 Campaign Standard과 Campaign v8에서 다릅니다. Campaign
 
 다음 요청 본문 형식을 사용할 때 &quot;vehicleOwner&quot;는 &quot;nms:recipient&quot;에 대한 링크를 나타냅니다.
 
-```
+```json
 {
     "vehicleNumber": "20009",
     "vehicleName": "Model E",
