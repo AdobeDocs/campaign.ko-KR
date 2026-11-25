@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 8%
+source-wordcount: '1058'
+ht-degree: 7%
 ---
 # 유형화 규칙 적용{#applying-rules}
 
@@ -45,14 +45,14 @@ ht-degree: 8%
 
 1. **[!UICONTROL Rules]** 탭으로 이동하여 **[!UICONTROL Add]** 버튼을 클릭하고 이 유형화에 적용할 규칙을 선택합니다.
 
-   ![](assets/campaign_opt_pressure_sample_1_6.png)
+   ![선택할 유형화 규칙이 나열된 [추가] 단추 및 [규칙 추가] 대화 상자가 있는 유형화 규칙 탭](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. 유형화 저장: 기존 유형화 목록에 추가됨.
 1. 규칙을 적용할 게재를 엽니다.
 1. 게재 속성을 찾아 **[!UICONTROL Typology]** 탭을 엽니다.
 1. 드롭다운 목록에서 유형을 선택합니다.
 
-   ![](assets/campaign_opt_pressure_sample_1_7.png)
+   ![게재 속성, 유형화 탭(클라이언트/잠재 고객 압력을 나열하는 유형화 드롭다운 포함)](assets/campaign_opt_pressure_sample_1_7.png)
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ ht-degree: 8%
 
 그런 다음 [쿼리 편집기](../../v8/start/query-editor.md)를 사용하여 필터링 조건을 정의합니다. 다음 예에서 용량 규칙은 레이블에 &#39;offer&#39;라는 단어가 포함된 게재 또는 2013년 4월 1일 전에 생성된 게재에만 관련됩니다.
 
-![](assets/campaign_opt_create_capacity_criterion.png)
+레이블에 대한 응용 프로그램 조건 쿼리가 있는 ![용량 규칙 일반 탭에 오퍼 및 생성 날짜가 포함됨](assets/campaign_opt_create_capacity_criterion.png)
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ ht-degree: 8%
 
 **[!UICONTROL Control]** 규칙의 경우 규칙이 적용되는 게재 수명 주기의 시점을 결정할 수 있습니다. 타겟팅 전 또는 후, 개인화 시작 시, 분석 종료 시. 유형화 규칙의 **[!UICONTROL General]** 탭에 있는 **[!UICONTROL Phase]** 필드의 드롭다운 목록에서 적용할 값을 선택합니다.
 
-![](assets/campaign_opt_define_control_phase.png)
+4개의 응용 프로그램 단계를 나열하는 단계 드롭다운이 있는 ![유형화 규칙 일반 탭](assets/campaign_opt_define_control_phase.png)
 
 가능한 값:
 
@@ -147,7 +147,7 @@ ht-degree: 8%
 
 옵션으로 **[!UICONTROL Managing affinities with IP addresses]** 필드를 사용하여 이 선호도를 MTA(게재 서버)에 게재할 수 있습니다. 이를 통해 시스템 또는 출력 주소에 대한 특정 게재에 대한 이메일 수를 제한할 수 있습니다.
 
-![](assets/campaign_opt_select_ip_affinity.png)
+IP 주소가 있는 선호도 관리 아래의 선호도 필드가 있는 ![유형화 일반 탭](assets/campaign_opt_select_ip_affinity.png)
 
 >[!NOTE]
 >
@@ -161,9 +161,9 @@ ht-degree: 8%
 
 **[!UICONTROL Distributed Marketing]** 탭에서는 공유 캠페인이 주문 및/또는 예약될 때 적용되는 유형화 및/또는 규칙의 다시 매핑을 정의할 수 있습니다. 로컬 엔티티에 대해 정의된 유형화/규칙(중앙 엔티티에 대해 정의된 유형화와 연결)이 중앙 엔티티에 대해 연결된 규칙/유형화를 대체합니다. 다시 매핑을 사용하면 중앙 엔티티 규칙을 캠페인을 정렬하는 로컬 엔티티에 맞게 조정할 수 있습니다.
 
-![](assets/simu_campaign_opti_distrib_mkg.png)
+![조직 엔터티 및 연결된 중앙 유형화 필드가 있는 유형화 분산 마케팅 탭](assets/simu_campaign_opti_distrib_mkg.png)
 
 >[!NOTE]
 >
 >라이선스에 다음 옵션이 포함된 경우 유형화 및 유형화 규칙에서 **[!UICONTROL Distributed Marketing]** 탭이 추가됩니다. 사용권 계약을 확인하십시오.\
->분산 마케팅에 대한 자세한 내용은 [이 섹션](../distributed-marketing/about-distributed-marketing.md)을 참조하세요.
+>분산 마케팅에 대한 자세한 내용은 [분산 마케팅 시작](../distributed-marketing/about-distributed-marketing.md)을 참조하세요.

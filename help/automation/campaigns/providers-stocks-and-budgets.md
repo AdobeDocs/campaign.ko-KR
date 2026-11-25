@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '2173'
 ht-degree: 1%
 ---
 # 공급자, 재고 및 예산{#providers-stocks-and-budgets}
@@ -66,7 +66,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 1. 서비스 공급자 목록 위에 있는 **[!UICONTROL New]** 단추를 클릭합니다.
 1. 창의 아래 섹션에서 서비스 공급자의 이름과 연락처 세부 정보를 지정합니다.
 
-   ![](assets/add-a-supplier.png)
+   ![레이블, 내부 이름 및 설명 필드가 있는 새 서비스 공급자 양식과 탐색기의 서비스 공급자 목록](assets/add-a-supplier.png)
 
 1. 서비스 공급자를 목록에 추가하려면 **[!UICONTROL Save]** 단추를 클릭하십시오.
 
@@ -80,11 +80,11 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 1. 서비스 공급자의 **[!UICONTROL Services]** 탭에서 **[!UICONTROL Add]** 단추를 클릭하고 서비스 템플릿의 이름을 입력합니다.
 
-   ![](assets/supplier-new-template.png)
+   ![레이블, 내부 이름 및 댓글 필드가 있는 새 서비스 템플릿, 일반 탭에 대한 서비스 대화 상자](assets/supplier-new-template.png)
 
 1. 각 프로세스 유형(DM/이메일 등으로 전달 또는 작업)에 대한 비용 범주를 만듭니다. 이렇게 하려면 **[!UICONTROL Cost categories]** 탭을 클릭한 다음 **[!UICONTROL Add]** 단추를 클릭하고 각 비용 범주의 매개 변수를 입력합니다.
 
-   ![](assets/add-cost-categories.png)
+   DM 범주 및 해당 비용 유형에 대한 [추가] 단추 및 [비용 범주] 대화 상자가 있는 ![비용 범주 탭](assets/add-cost-categories.png)
 
    * 이 비용 범주의 레이블을 입력하고 관련 프로세스 유형을 선택하십시오. **[!UICONTROL Direct mail]**, **[!UICONTROL Email]**, **[!UICONTROL Mobile]** 등
    * **[!UICONTROL Add]** 단추를 클릭하여 이 범주와 관련된 비용 유형을 정의합니다.
@@ -96,7 +96,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 1. 이 비용 범주의 값을 미리 선택할 수 있습니다. 이 값은 서비스 공급자 비용 범주의 기본값입니다(빈 값 대신). 이렇게 하려면 관련 범주 유형에 대해 **[!UICONTROL Selected]** 열에서 **예** 옵션을 활성화하십시오.
 
-   ![](assets/default-cost-type.png)
+   ![Letter 비용 형식에 대해 선택한 열에서 [예] 옵션이 활성화된 비용 범주 대화 상자](assets/default-cost-type.png)
 
    게재 수준에서 기본적으로 값이 선택됩니다.
 
@@ -106,7 +106,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 각 비용 범주 및 유형에 대한 비용 계산을 구성하려면 **[!UICONTROL Cost structure]** 탭을 클릭하십시오. **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 비용 구조를 입력합니다.
 
-![](assets/add-cost-structure.png)
+![추가 단추와 [비용 구조 정의] 대화 상자가 있는 [비용 구조] 탭(채널, 비용 범주, 계산)](assets/add-cost-structure.png)
 
 * 비용 구조를 생성하려면 계산 규칙이 적용될 비용 유형뿐만 아니라 드롭다운 목록에서 메시지 유형 및 관련 비용 범주를 선택합니다. 이러한 드롭다운 목록의 콘텐츠는 **[!UICONTROL Cost categories]** 탭을 통해 입력한 정보에서 가져옵니다.
 
@@ -126,7 +126,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 이 금액이 메시지 배치에 적용되는 경우 **[!UICONTROL for]** 필드에 관련된 메시지 수를 지정하십시오.
 
-![](assets/supplier_cost_structure_calc.png)
+![메시지 및 선형(Linear)을 선택한 비용 구조 대화 상자, 5단위 당 4.00 단위](assets/supplier_cost_structure_calc.png)
 
 
 #### 임계값에 따른 선형 구조 {#linear-structure-by-threshold}
@@ -135,7 +135,7 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 구성은 다음과 같습니다.
 
-![](assets/supplier-cost-structure-linear.png)
+![임계값 유형별 선형, 금액이 포함된 임계값 목록 및 초과 값이 포함된 비용 구조 대화 상자](assets/supplier-cost-structure-linear.png)
 
 임계값을 추가하려면 목록 오른쪽에 있는 **[!UICONTROL Add]** 단추를 클릭하십시오.
 
@@ -143,13 +143,13 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 마지막으로, 총 메시지 수에 따라 비용 계산을 구성할 수 있습니다. 이렇게 하려면 **[!UICONTROL Constant by threshold]** 계산 구조를 선택하십시오. 예를 들어 비용은 메시지 1개부터 100개까지 고정된 12.00, 메시지 101개부터 1000개까지 전달된 경우 100.00, 메시지 1000개를 초과하는 전달된 경우 500.00개로 설정됩니다(전체 메시지 수에 상관없이).
 
-![](assets/supplier-cost-structure-constant.png)
+![임계값 유형별 상수, 고정 금액이 있는 임계값 목록 및 초과 값이 포함된 비용 구조 대화 상자](assets/supplier-cost-structure-constant.png)
 
 ### 서비스와 연결된 작업 구성 {#configure-processes-associated-with-a-service}
 
 **[!UICONTROL Jobs]** 탭을 통해 서비스 공급자와 연결된 프로세스에 대한 정보를 연결할 수 있습니다. 이 섹션에서는 라우터로 정보를 전송하도록 구성할 수 있습니다.
 
-![](assets/cost-supplier-jobs.png)
+![파일 추출, 알림 전자 메일 및 사후 처리 워크플로 템플릿 설정을 표시하는 서비스의 작업 탭](assets/cost-supplier-jobs.png)
 
 * **[!UICONTROL File extraction]** 섹션은 이 서비스를 선택할 때 게재에 사용되는 내보내기 템플릿을 나타냅니다. **[!UICONTROL Extraction file]** 필드에 출력 파일의 이름을 나타낼 수 있습니다. 필드 오른쪽에 있는 버튼을 사용하여 변수를 삽입할 수 있습니다.
 
@@ -171,18 +171,18 @@ Adobe Campaign을 사용하면 캠페인 내에서 수행되는 작업에 참여
 
 * DM 게재의 경우 구성 창에서 서비스를 선택할 수 있습니다.
 
-  ![](assets/supplier-mail-delivery-select.png)
+  ![서비스 공급자 섹션이 강조 표시된 DM 게재: 서비스 필드 및 비용 범주 목록](assets/supplier-mail-delivery-select.png)
 
 * 모바일 채널에서 전송하는 경우에도 동일한 선택 모드가 적용됩니다.
 * 전자 메일 게재의 경우 다음 예제와 같이 게재 속성의 **[!UICONTROL Advanced]** 탭에서 서비스를 선택합니다.
 
-  ![](assets/supplier-email-delivery-select.png)
+  ![서비스 필드 및 비용 범주 목록을 표시하는 서비스 공급자 섹션이 있는 배달 속성, 고급 탭](assets/supplier-email-delivery-select.png)
 
 **[!UICONTROL Amount to surcharge]** 열을 사용하면 해당 게재 또는 작업의 컨텍스트에서 이 범주에 대한 비용을 추가할 수 있습니다.
 
 게재에 대한 비용 범주를 정의하는 동안 비용 유형의 필수 선택을 정의할 수 있습니다. 이렇게 하려면 **[!UICONTROL A cost type must be selected]**&#x200B;을(를) 선택합니다.
 
-![](assets/cost-type-must-be-selected.png)
+![비용 유형 목록 위에 있는 A 비용 유형이 포함된 비용 범주 대화 상자를 선택해야 합니다. 옵션을 선택해야 합니다.](assets/cost-type-must-be-selected.png)
 
 ## 재고 및 주문 관리 {#stock-and-order-management}
 
@@ -202,7 +202,7 @@ Adobe Campaign에서 재고 및 주문 관리를 설정하고, 납품할 물량�
 
 Adobe Campaign은 재고가 소진되거나 최소 임계값에 도달한 경우 운영자 그룹에 경고할 수 있습니다. 재고 수준은 탐색 영역의 **[!UICONTROL Other choices]** 링크를 통해 **[!UICONTROL Campaigns]** 탭의 **[!UICONTROL Stocks]** 링크를 통해 액세스할 수 있습니다.
 
-![](assets/stock-dashboard.png)
+![Adobe Campaign 홈, 캠페인 탭(재고 목록에 사용 가능한 재고가 표시됨](assets/stock-dashboard.png))
 
 #### 스톡 만들기 {#creating-a-stock}
 
@@ -217,17 +217,17 @@ Adobe Campaign은 재고가 소진되거나 최소 임계값에 도달한 경우
 
 주식을 만들 때 **[!UICONTROL Stock lines]** 탭을 클릭하여 새 줄을 추가합니다.
 
-![](assets/stock-new-lines.png)
+![재고 편집 화면, 재고 라인 탭, 초기 재고, 소비됨, 재고 및 경고 수준 열이 있는 재고 라인 나열](assets/stock-new-lines.png)
 
 스톡이 생성되면 대시보드를 사용하여 스톡 라인을 생성하고 모니터링합니다.
 
 새 재고 라인을 추가하려면 **[!UICONTROL Create]** 단추를 클릭하십시오.
 
-![](assets/add-stock-lines.png)
+![초기, 소비 및 재고 수량을 표시하는 재고 라인 목록 위에 만들기 단추가 있는 재고 대시보드](assets/add-stock-lines.png)
 
 * **[!UICONTROL Initial stock]** 필드에 초기 재고 수량을 나타냅니다. **[!UICONTROL Consumed]** 및 **[!UICONTROL In stock]** 필드는 캠페인 진행에 따라 자동으로 계산되고 업데이트됩니다.
 
-  ![](assets/create-new-stock-line.png)
+  ![재고 라인 대화 상자, 일반 탭, 초기 재고, 소비된 재고 수량 및 경고 수준 필드가 있는 경우](assets/create-new-stock-line.png)
 
 * 운영자가 주문 재고에 대한 알림을 받아야 하는 임계값을 **[!UICONTROL Alert level]** 필드에 지정합니다. 경고 수준에 도달하면 이 재고를 사용하는 게재의 승인 창에 경고 메시지가 표시됩니다.
 
@@ -235,7 +235,7 @@ Adobe Campaign은 재고가 소진되거나 최소 임계값에 도달한 경우
 
 특정 서비스 공급자의 경우 서비스에서 다음과 같이 비용 범주 중 하나에 의해 재고 라인을 참조할 수 있습니다.
 
-![](assets/select-stock-line-supplier.png)
+비용 유형의 재고 라인 드롭다운 목록에서 선택한 재고 라인이 있는 ![비용 범주 대화 상자](assets/select-stock-line-supplier.png)
 
 ### Stock 추적 {#stock-tracking}
 
@@ -243,7 +243,7 @@ Adobe Campaign은 재고가 소진되거나 최소 임계값에 도달한 경우
 
 게재에서 참조한 스톡이 부족하면 경고가 표시됩니다. 예를 들어 추출 파일이 승인되면 다음 경고가 표시됩니다.
 
-![](assets/stock-alert.png)
+![파일 승인 전에 수락 및 거부 옵션이 있는 재고 경고가 충분하지 않은 상태로 표시되는 게재 대화 상자의 작업](assets/stock-alert.png)
 
 #### 주문 {#orders}
 
@@ -251,7 +251,7 @@ Adobe Campaign은 재고가 소진되거나 최소 임계값에 도달한 경우
 
 주문을 저장하려면 대상 재고 라인을 편집하고 **[!UICONTROL Add]** 버튼을 클릭한 다음 배달 날짜와 주문 수량을 지정하십시오.
 
-![](assets/order-stocks.png)
+![추가 단추가 있는 재고 라인 주문 탭과 주문 필드의 배송 날짜 및 거래량이 포함된 재고 주문 대화 상자](assets/order-stocks.png)
 
 >[!NOTE]
 >

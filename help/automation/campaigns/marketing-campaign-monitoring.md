@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 2%
+source-wordcount: '271'
+ht-degree: 1%
 ---
 # 마케팅 캠페인 모니터링 {#monitor-marketing-campaigns}
 
@@ -38,11 +38,11 @@ ht-degree: 2%
 
 * **[!UICONTROL Audit]** 하위 탭에 활동 저널이 표시됩니다. 여기에는 워크플로우 생성 또는 시작, 승인, 추출, 재고 관리 등 캠페인에서 실행되는 작업이 포함됩니다.
 
-  ![](assets/campaign-audit-tab.png)
+  ![활동 저널 메시지 및 로그 유형을 나열하는 캠페인 편집 탭, 감사 섹션, 저널 하위 탭](assets/campaign-audit-tab.png)
 
 * **[!UICONTROL Deliveries]** 하위 탭에는 캠페인의 모든 게재가 포함되어 있습니다. 이 보기에서 편집할 수 있습니다. 이렇게 하려면 게재를 선택하고 **[!UICONTROL Detail]** 아이콘을 클릭합니다.
 
-  ![](assets/campaign-delivery-tab.png)
+  ![캠페인 감사 섹션, 채널, 상태, 타겟팅 상태 및 콘텐츠 상태를 나열하는 게재 하위 탭](assets/campaign-delivery-tab.png)
 
 * **[!UICONTROL Approvals]** 하위 탭에는 캠페인에 대한 모든 승인 프로세스가 포함되어 있습니다. 세부 정보 및 주석을 확인할 수 있습니다
 
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 게재 목록은 캠페인 노드의 **[!UICONTROL Deliveries]** 링크를 통해 사용할 수 있습니다.
 
-![](assets/filter-deliveries-from-homepage.png)
+![홈 페이지의 게재 목록 및 상태 필터 드롭다운 목록 편집 중, 진행 중 및 완료됨](assets/filter-deliveries-from-homepage.png)
 
 각 게재에 대해 상태, 타겟팅된 수신자 수, 연결된 캠페인 등의 주요 지표에 액세스할 수 있습니다.
 

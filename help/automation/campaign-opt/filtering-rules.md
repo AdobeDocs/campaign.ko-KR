@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 1%
+source-wordcount: '659'
+ht-degree: 0%
 ---
 # 필터링 규칙{#filtering-rules}
 
@@ -44,27 +44,27 @@ ht-degree: 1%
 1. Campaign 노출자의 **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** 폴더를 찾은 다음 **새로 만들기** 아이콘을 클릭하여 유형화 규칙을 만듭니다.
 1. 모든 채널에 적용할 수 있는 **[!UICONTROL Filtering]** 유형화 규칙을 만듭니다.
 
-   ![](assets/campaign_opt_create_filter_01.png)
+   ![규칙 유형으로 필터링을 사용하고 채널 목록에서 모든 채널 옵션을 선택한 새 유형화 규칙입니다.](assets/campaign_opt_create_filter_01.png)
 
 1. **필터** 탭에서 기본 타겟팅 차원을 **구독**(**nms:subscription**)으로 변경합니다.
 
-   ![](assets/campaign_opt_create_filter_02.png)
+   ![구독(nms) 스키마가 타겟팅 차원으로 선택된 필터 탭.](assets/campaign_opt_create_filter_02.png)
 
 1. **[!UICONTROL Edit the query from the targeting dimension...]** 링크를 사용하여 필터를 만듭니다.
 
-   ![](assets/campaign_opt_create_filter_03.png)
+   ![필터링 쿼리 편집 대화 상자, 대상 유형 단계(필터링 조건 선택)](assets/campaign_opt_create_filter_03.png)
 
 1. 수신자 날짜를 필터링하고 필터링 조건을 저장합니다.
 
-   ![](assets/campaign_opt_create_filter_03b.png)
+   ![Age(받는 사람/@age) 조건이 18세 이상인 필터링 쿼리 편집 대화 상자.](assets/campaign_opt_create_filter_03b.png)
 
 1. **유형화** 탭에서 이 규칙을 캠페인 유형화에 연결하고 저장합니다.
 
-   ![](assets/campaign_opt_create_filter_04.png)
+   ![유형화 추가 대화 상자 및 뉴스레터 유형화가 선택된 필터링 규칙의 유형화 탭](assets/campaign_opt_create_filter_04.png)
 
 게재에서 이 규칙을 사용하면 미성년자 구독자는 자동으로 제외됩니다. 특정 메시지는 규칙이 적용되는 시기를 나타냅니다.
 
-![](assets/campaign_opt_create_filter_05.png)
+![주소 제외 및 도메인 제외 규칙을 적용하는 줄에 화살표가 있는 게재 분석 로그입니다.](assets/campaign_opt_create_filter_05.png)
 
 ## 필터링 규칙 조건 {#condition-a-filtering-rule}
 
@@ -86,17 +86,17 @@ ht-degree: 1%
 
 **[!UICONTROL Filtering]** 유형화를 만들 수 있습니다. 유형화에는 필터링 규칙만 포함됩니다.
 
-![](assets/campaign_opt_create_typo_filtering.png)
+![유형 목록이 필터링으로 설정된 유형화와 적용할 필터링 규칙이 나열된 규칙 탭](assets/campaign_opt_create_typo_filtering.png)
 
 이러한 특정 유형화는 대상이 선택될 때 게재에 연결할 수 있습니다. 게재 마법사에서 **[!UICONTROL To]** 링크를 클릭한 다음 **[!UICONTROL Exclusions]** 탭을 클릭합니다.
 
-![](assets/campaign_opt_apply_typo_filtering.png)
+![필터링 규칙 아래의 필터링 규칙 추가 링크가 있는 대상 선택 대화 상자, 제외 탭](assets/campaign_opt_apply_typo_filtering.png)
 
 그런 다음 게재에 적용할 필터링 유형화를 선택합니다. 이렇게 하려면 **[!UICONTROL Add]** 단추를 클릭하고 적용할 유형화를 선택하십시오.
 
 유형화로 그룹화하지 않고 이 탭을 통해 필터링 규칙을 직접 연결할 수도 있습니다. 이렇게 하려면 창의 아래 섹션을 사용합니다.
 
-![](assets/campaign_opt_select_typo_filtering.png)
+![필터링 유형화와 두 개의 추가 단추를 통해 추가된 필터링 규칙이 있는 제외 탭](assets/campaign_opt_select_typo_filtering.png)
 
 >[!NOTE]
 >

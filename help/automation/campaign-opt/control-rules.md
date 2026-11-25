@@ -20,9 +20,9 @@ subfeature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '457'
 ht-degree: 0%
 ---
 # 제어 규칙{#control-rules}
@@ -52,11 +52,11 @@ ht-degree: 0%
 
 1. **[!UICONTROL Control]** 유형화 규칙을 만듭니다. **[!UICONTROL Warning]** 경고 수준을 선택하십시오.
 
-   ![](assets/campaign_opt_create_control_01.png)
+   ![유형화 규칙 만들기 대화 상자, 일반 탭: 제어 규칙 유형, SMS 채널, [경고]가 강조 표시된 수준 드롭다운.](assets/campaign_opt_create_control_01.png)
 
 1. **[!UICONTROL Code]** 탭에서 아래와 같이 원하는 임계값을 적용할 스크립트를 입력합니다.
 
-   ![](assets/campaign_opt_create_control_02.png)
+   ![게재 대상이 연락처가 100개를 초과할 때 경고를 기록하는 스크립트가 있는 유형화 규칙 코드 탭](assets/campaign_opt_create_control_02.png)
 
    이 스크립트는 게재 대상이 연락처 100개를 초과하는 경우 경고를 트리거합니다.
 
@@ -66,18 +66,18 @@ ht-degree: 0%
 
 1. 이 규칙을 캠페인 유형화에 연결하고 관련 SMS 게재에서 유형화를 참조합니다.
 
-   ![](assets/campaign_opt_create_control_03.png)
+   ![게재 속성, 유형화 탭: 사용 가능한 유형화에 모바일(최대 100개)을 나열하는 유형화 드롭다운 목록입니다.](assets/campaign_opt_create_control_03.png)
 
 1. 게재 분석 중에 규칙이 적용되고 해당하는 경우 경고가 생성됩니다.
 
-   ![](assets/campaign_opt_create_control_04.png)
+   ![규칙 +100개의 메시지에서 문제가 발견되었다는 경고를 표시하는 게재 분석 로그; 배달 사용 가능 여부 확인.](assets/campaign_opt_create_control_04.png)
 
    하지만 게재를 보낼 준비가 된 상태입니다.
 
    경고 수준을 늘리면 게재가 시작되지 않습니다.
 
-   ![](assets/campaign_opt_create_control_05.png)
+   ![수준 드롭다운이 열려 있고 경고 대신 오류가 선택된 유형화 규칙 일반 탭](assets/campaign_opt_create_control_05.png)
 
    분석이 끝나면 **[!UICONTROL Confirm delivery]** 단추를 사용할 수 없습니다.
 
-   ![](assets/campaign_opt_create_control_06.png)
+   ![게재 분석 로그가 오류로 끝나며 게재 확인 단추가 비활성화되었습니다.](assets/campaign_opt_create_control_06.png)

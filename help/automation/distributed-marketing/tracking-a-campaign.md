@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '581'
 ht-degree: 1%
 ---
 # 캠페인 추적{#tracking-a-campaign}
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 **[!UICONTROL Campaigns]** 탭에서 기존의 모든 Distributed Marketing 캠페인을 다시 그룹화하는 **[!UICONTROL Campaign packages]** 목록을 표시할 수 있습니다. 게시, 지연, 승인 보류 등 상태의 캠페인만 표시되도록 이 목록을 필터링할 수 있습니다. 이렇게 하려면 이 보기의 위쪽 섹션에 있는 링크를 클릭하거나 **[!UICONTROL Filter list]** 링크를 사용하고 표시할 캠페인 패키지 상태를 선택하십시오.
 
-![](assets/mkg_dist_catalog_filter.png)
+![상태 필터가 열려 있는 캠페인 패키지 목록: 편집 중, 승인 보류 중, 승인됨, 거부됨 등.](assets/mkg_dist_catalog_filter.png)
 
 ## 패키지 편집 {#edit-packages}
 
@@ -52,21 +52,21 @@ ht-degree: 1%
 
 이 정보는 모든 주문을 나열하는 **[!UICONTROL Campaign orders]** 보기에서도 제공됩니다.
 
-![](assets/mkg_dist_catalog_op_command_details.png)
+![각 주문을 로컬 엔터티, 캠페인 및 상태(사용 가능 또는 취소됨)와 함께 표시하는 캠페인 주문 목록입니다.](assets/mkg_dist_catalog_op_command_details.png)
 
 중앙 연산자는 순서를 편집할 수 있습니다. 두 가지 방법으로 이 작업을 수행할 수 있습니다.
 
 1. 연산자는 주문 이름을 클릭하여 편집할 수 있습니다. 이렇게 하면 주문 세부 사항이 표시됩니다.
 
-   ![](assets/mkg_dist_catalog_op_command_edit1.png)
+   ![Campaign 주문 목록에서 주문을 클릭하면 상태, 패키지, 로컬 엔터티 및 승인이 있는 대시보드가 열립니다.](assets/mkg_dist_catalog_op_command_edit1.png)
 
    **[!UICONTROL Edit > General]** 탭에서는 로컬 엔터티가 캠페인을 주문했을 때 입력한 정보를 볼 수 있습니다.
 
-   ![](assets/mkg_dist_catalog_op_command_edit1a.png)
+   ![Order Edit 탭, 일반: 레이블, 조직 엔터티, 할당된 연산자, 로컬 엔터티의 상태 및 댓글.](assets/mkg_dist_catalog_op_command_edit1a.png)
 
 1. 운영자는 캠페인 패키지 레이블을 클릭하여 편집하고 특정 설정을 변경할 수 있습니다.
 
-   ![](assets/mkg_dist_catalog_op_command_edit2.png)
+   ![목록에서 패키지를 연 다음 캠페인 주문 중 하나를 열고 각각 대시보드를 표시합니다.](assets/mkg_dist_catalog_op_command_edit2.png)
 
 ## 패키지 취소 {#cancel-a-package}
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 캠페인 패키지 **[!UICONTROL Dashboard]**&#x200B;에서 **[!UICONTROL Cancel]**&#x200B;을(를) 클릭합니다.
 
-![](assets/mkg_dist_cancel_op_from_dashboard.png)
+![패키지 대시보드의 패키지 취소 단추를 클릭하면 설명 필드가 있는 패키지에 대한 작업 대화 상자가 열립니다.](assets/mkg_dist_cancel_op_from_dashboard.png)
 
 **[!UICONTROL Comment]** 필드를 사용하면 취소를 강제 적용할 수 있습니다.
 
@@ -84,15 +84,15 @@ ht-degree: 1%
 
 1. 이 패키지와 관련된 모든 주문이 취소되었습니다.
 
-   ![](assets/mkg_dist_mutual_op_cancelled.png)
+   ![캠페인 주문을 나열하는 취소된 패키지 대시보드이며, 각각 취소됨 상태입니다.](assets/mkg_dist_mutual_op_cancelled.png)
 
 1. 참조 캠페인이 취소되고 모든 활성 프로세스(워크플로우, 게재)가 중지됩니다.
 
-   ![](assets/mkg_dist_mutual_op_cancelled1.png)
+   ![이메일 및 SMS 게재가 중지됨으로 표시된 취소된 참조 캠페인 대시보드입니다.](assets/mkg_dist_mutual_op_cancelled1.png)
 
 1. 관련 모든 로컬 엔티티에 알림이 전송됩니다.
 
-   ![](assets/mkg_dist_mutual_op_cancelled2.png)
+   ![로컬 엔터티에 캠페인이 중앙에서 취소되었음을 알리는 패키지 전자 메일을 취소합니다.](assets/mkg_dist_mutual_op_cancelled2.png)
 
 취소된 패키지는 여전히 필요한 경우 중앙 엔터티(아래 참조)에 의해 액세스하고 다시 초기화할 수 있습니다. 이 지표는 승인 및 시작되면 로컬 엔티티에 다시 대해서만 제공됩니다. 패키지 재초기화 프로세스는 아래에 나와 있습니다.
 
@@ -103,11 +103,11 @@ ht-degree: 1%
 1. 관련 패키지를 선택합니다.
 1. **[!UICONTROL Reinitialize the package to reuse it]** 링크를 클릭하고 **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/mkg_dist_mutual_op_reinit.png)
+   ![패키지 확인 대화 상자 다시 초기화: 상태가 편집 중이고 확인 단추가 표시됩니다.](assets/mkg_dist_mutual_op_reinit.png)
 
 1. 패키지 다시 초기화를 승인하려면 **[!UICONTROL Save]** 단추를 클릭하십시오.
 
-   ![](assets/mkg_dist_mutual_op_reinit2.png)
+   ![다시 초기화를 승인하기 위해 [저장] 단추가 강조 표시된 패키지 대시보드를 취소했습니다.](assets/mkg_dist_mutual_op_reinit2.png)
 
 1. 패키지 상태가 **[!UICONTROL Being edited]**(으)로 변경됩니다. 수정, 승인 및 다시 게시하여 캠페인 패키지 목록으로 복원합니다.
 

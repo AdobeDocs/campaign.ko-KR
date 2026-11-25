@@ -27,10 +27,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 1%
+source-wordcount: '861'
+ht-degree: 0%
 ---
 # 마케팅 캠페인 게재 {#marketing-campaign-deliveries}
 
@@ -44,39 +44,39 @@ ht-degree: 1%
 
 * 캠페인 대시보드의 **[!UICONTROL Add a delivery]** 링크에서.
 
-  ![](assets/campaign_op_add_delivery.png)
+  ![템플릿 및 레이블을 선택할 수 있는 게재 링크 및 새 게재 창이 있는 Campaign 대시보드](assets/campaign_op_add_delivery.png)
 
   저장되면 게재가 캠페인 대시보드에 추가됩니다.
 
 * 게재를 추가하여 캠페인 워크플로우의 **[!UICONTROL Targeting and workflows]** 탭에서.
 
-  ![](assets/campaign-wf-delivery.png)
+  ![게재 팔레트 및 게재 활동으로 끝나는 워크플로우가 있는 타기팅 및 워크플로우 탭.](assets/campaign-wf-delivery.png)
 
   워크플로우가 시작되면 게재가 캠페인 대시보드에 추가됩니다.
 
-이 페이지[&#128279;](marketing-campaign-approval.md)에서 게재 승인 흐름 을(를) 설정하고 실행하는 방법을 알아보세요.
+이 페이지](marketing-campaign-approval.md)에서 게재 승인 흐름 [을(를) 설정하고 실행하는 방법을 알아보세요.
 
 ## 게재 시작 {#start-a-delivery}
 
 모든 승인이 승인되면 게재를 보낼 수 있습니다. 게재 실행 프로세스는 채널에 따라 다릅니다.
 
-* 전자 메일 또는 모바일 채널 게재에 대해서는 [이 섹션](#start-an-online-delivery)을 참조하세요.
+* 전자 메일 또는 모바일 채널 게재에 대해서는 [전자 메일 또는 모바일 게재 시작](#start-an-online-delivery)을 참조하세요.
 
-* DM 게재의 경우 [이 섹션](#start-an-offline-delivery)을 참조하세요.
+* DM 게재의 경우 [DM 게재 시작](#start-an-offline-delivery)을 참조하세요.
 
 ### 이메일 또는 모바일 게재 시작 {#start-an-online-delivery}
 
 모든 승인 요청이 승인되면 게재 상태가 **[!UICONTROL Pending confirmation]**(으)로 변경되며 시작할 수 있습니다. 게재를 시작할 수 있는 검토자는 게재를 시작할 준비가 되었다는 알림을 받습니다.
 
-![](assets/confirm-delivery.png)
+![모든 승인이 승인되고 상태가 [보류 중]인 경우 표시되는 배달 확인 단추가 있는 배달 요약.](assets/confirm-delivery.png)
 
 이 정보는 캠페인 대시보드에도 표시됩니다. **[!UICONTROL Confirm delivery]** 링크를 사용하여 게재를 시작할 수 있습니다.
 
-![](assets/confirm-delivery-from-dashboard.png)
+![확인 보류 중인 게재에서 게재 확인 링크가 있는 Campaign 대시보드.](assets/confirm-delivery-from-dashboard.png)
 
 게재 확인은 관리자, 그리고 게재 또는 캠페인 속성에 명시적으로 언급된 운영자나 운영자 그룹으로 제한됩니다. 운영자가 디자인되지 않은 경우 관리자와 캠페인 소유자가 승인할 수 있습니다.
 
-![](assets/select-delivery-reviewers.png)
+![각 승인 및 게재 시작에 대한 검토자를 표시하는 게재 속성 승인 탭](assets/select-delivery-reviewers.png)
 
 그러나 게재 또는 캠페인 속성에 특정 검토자가 정의된 경우에도 캠페인 소유자가 전송을 확인하도록 허용할 수도 있습니다. 이렇게 하려면 관리자가 **NmsCampaign_Activate_OwnerConfirmation** 옵션을 만들어 **1**(으)로 설정합니다. 옵션은 Campaign 탐색기의 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** 폴더에서 관리됩니다.
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    이 단계는 고급 캠페인 매개 변수의 **[!UICONTROL Approvals]** 탭에서 **[!UICONTROL Enable the sending and validation of proofs (Direct mail)]** 옵션을 사용하도록 설정한 경우에만 사용할 수 있습니다.
 
-   ![](assets/enable-proof-validation.png)
+   ![증명(DM) 전송 및 유효성 검사를 사용하도록 설정하고 증명 그룹을 사용하여 증명 유효성 검사 창](assets/enable-proof-validation.png)
 
 1. 증명을 만들려면 **[!UICONTROL Send a proof]** 단추를 클릭하십시오.
 
@@ -115,17 +115,17 @@ ht-degree: 1%
 
 * **[!UICONTROL Budget]** 탭에서는 캠페인에 대한 예산을 관리할 수 있습니다. 총 비용 항목은 캠페인의 기본 탭과 해당 캠페인이 속한 프로그램의 **[!UICONTROL Calculated cost]** 필드에 표시됩니다. 금액은 캠페인 예산에도 반영됩니다.
 
-  ![](assets/campaign-budget-tab.png)
+  ![관련 예산, 계산된 비용 및 게재당 비용 라인 목록을 표시하는 캠페인 예산 탭](assets/campaign-budget-tab.png)
 
   실제 비용은 결국 라우터가 제공한 정보로부터 산출될 것이다. 실제로 전송된 메시지만 송장이 발행됩니다.
 
 * 트리의 **[!UICONTROL Administration > Campaign management > Stocks]** 노드에 재고가 정의되어 있습니다.
 
-  ![](assets/campaign-stocks.png)
+  ![Campaign 탐색기의 Sales Flyers Stock 대시보드와 해당 Stock 줄이 있는 Stocks 노드.](assets/campaign-stocks.png)
 
   **[!UICONTROL Administration > Campaign management > Service providers]** 노드의 비용 구조입니다.
 
-  ![](assets/campaign-service-providers.png)
+  ![블루프린트 공급자와 서비스 목록이 있는 Campaign 탐색기의 서비스 공급자 노드](assets/campaign-service-providers.png)
 
   재고 라인이 재고 섹션에 표시됩니다. 초기 재고를 정의하려면 재고 라인을 엽니다. 게재가 발생할 때마다 재고가 감소합니다. 경고 수준 및 알림을 정의할 수 있습니다.
 

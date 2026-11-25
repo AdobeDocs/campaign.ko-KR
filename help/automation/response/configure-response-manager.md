@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '820'
 ht-degree: 0%
 ---
 # 캠페인 응답 관리자 구성{#configuration}
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 다음 스키마는 구성이 완료되면 서로 다른 테이블 간의 조인을 보여 줍니다.
 
-![](assets/response_data_model.png)
+![응답 테이블의 데이터 모델: 반응에 연결된 게재, 게재 로그, 측정 가설 및 수신자](assets/response_data_model.png)
 
 ### 응답 관리 및 수신자 {#response-management-with-adobe-campaign-recipients}
 
@@ -89,17 +89,17 @@ ht-degree: 0%
 1. Adobe Campaign 탐색기를 통해 **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**&#x200B;을(를) 선택합니다.
 1. **받는 사람**&#x200B;을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Actions]** 및 **[!UICONTROL Modify the options of the targeting dimensions]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/delivery_mapping1.png)
+   ![작업 메뉴가 열려 있는 대상 매핑 목록 및 선택한 대상 차원의 옵션 수정](assets/delivery_mapping1.png)
 
 1. 다음 창에서 **[!UICONTROL Extension namespace]**&#x200B;을(를) 개인화한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/delivery_mapping2.png)
+   ![확장 스키마 필드의 확장 네임스페이스 및 접미사를 사용하는 대상 차원 옵션의 저장소 단계](assets/delivery_mapping2.png)
 
 1. **[!UICONTROL Response management]** 범주에서 **[!UICONTROL Generate a storage schema for reactions]** 상자가 선택되어 있는지 확인하십시오.
 
    그런 다음 **[!UICONTROL Define additional fields...]**&#x200B;을(를) 클릭하여 관련 트랜잭션 테이블을 선택하고 원하는 필드를 nms:remaMatchRcp 스키마의 확장에 추가합니다.
 
-   ![](assets/delivery_mapping3.png)
+   ![선택한 반응에 대한 저장소 스키마 생성 및 반응 스키마 대화 상자의 확장을 사용하는 확장 단계](assets/delivery_mapping3.png)
 
 생성된 스키마는 다음과 같습니다.
 

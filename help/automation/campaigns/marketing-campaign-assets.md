@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '881'
 ht-degree: 0%
 ---
 # 에셋 및 문서 관리 {#manage-assets-documents}
@@ -54,19 +54,19 @@ ht-degree: 0%
 
 문서는 **[!UICONTROL Edit > Documents]** 탭을 통해 프로그램 또는 캠페인에 연결됩니다.
 
-![](assets/op_add_document.png)
+![Campaign 편집 탭, 문서 하위 탭: 추가, 삭제 및 세부 정보 단추가 있는 첨부된 문서 목록입니다.](assets/op_add_document.png)
 
 대시보드의 전용 링크에서 캠페인에 문서를 추가할 수도 있습니다.
 
-![](assets/add_a_document_in_op.png)
+![문서 추가 링크 및 파일 업로드를 위한 마케팅 문서 대화 상자가 있는 Campaign 대시보드](assets/add_a_document_in_op.png)
 
 **[!UICONTROL Detail...]** 아이콘을 클릭하여 파일의 내용을 보고 정보를 추가합니다.
 
-![](assets/add_document_details.png)
+![세부 정보에서 문서 대화 상자를 열었습니다. 레이블, 버전, 특성, 업로드한 파일 링크 및 설명.](assets/add_document_details.png)
 
 대시보드에서 캠페인과 관련된 문서는 다음 예제와 같이 **[!UICONTROL Document(s)]** 섹션에 그룹화됩니다.
 
-![](assets/edit_documents.png)
+![캠페인에 첨부된 문서를 강조 표시하는 문서 섹션이 있는 캠페인 대시보드.](assets/edit_documents.png)
 
 이 보기에서 편집하고 수정할 수도 있습니다.
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 게재 개요를 만들려면 관련 캠페인의 **[!UICONTROL Edit > Documents]** 탭에서 **[!UICONTROL Delivery outlines]** 하위 탭을 클릭하십시오.
 
-![](assets/add-a-delivery-outline.png)
+![게재 개요 추가 링크가 있는 캠페인 편집 탭, 문서, 게재 개요 하위 탭](assets/add-a-delivery-outline.png)
 
 
 >[!NOTE]
@@ -98,33 +98,33 @@ ht-degree: 0%
 1. 트리의 루트를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL New > Delivery outlines]**&#x200B;을(를) 선택합니다.
 1. 방금 만든 윤곽선을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL New > Item]** 또는 **[!UICONTROL New > Personalization fields]**&#x200B;을(를) 선택합니다.
 
-![](assets/del-outline-add-new-item.png)
+![게재 개요 트리에 마우스 오른쪽 단추 클릭 메뉴: 새로 만들기 > 항목, 개인화 필드 또는 오퍼.](assets/del-outline-add-new-item.png)
 
 아웃라인에는 항목, 개인화 필드 및 오퍼가 포함될 수 있습니다.
 
 * 예를 들어, 여기에서 참조되고 설명되며 게재에 첨부될 실제 문서가 항목일 수 있습니다.
 * 개인화 필드를 사용하면 수신자가 아닌 게재와 관련된 개인화 요소를 만들 수 있습니다. 따라서 특정 대상(환영 오퍼, 할인 등)에 대한 게재에 사용할 값을 만들 수 있습니다. Adobe Campaign에서 만들어지고 **[!UICONTROL Import personalization fields...]** 링크를 통해 개요로 가져옵니다.
 
-  ![](assets/del-outline-perso-field.png)
+  ![개인화 필드 가져오기에서 열린 개인화 필드 목록 팩, Gold 및 Premium 대화 상자를 선택하십시오.](assets/del-outline-perso-field.png)
 
   목록 영역의 오른쪽에 있는 **[!UICONTROL Add]** 아이콘을 클릭하여 개요에서 바로 만들 수도 있습니다.
 
-  ![](assets/add-del-outline-button.png)
+  ![게재 개요에 입력한 값이 있는 개인화 필드가 나열되고 목록 오른쪽에 추가 아이콘이 표시됩니다.](assets/add-del-outline-button.png)
 
 
 ### 윤곽선 선택 {#select-an-outline}
 
 다음 예제와 같이 각 게재에 대해 추출 아웃라인에 예약된 섹션에서 연결할 아웃라인을 선택할 수 있습니다.
 
-![](assets/select-delivery-outline.png)
+![게재 개요 선택 대화 상자 목록 단위 B, 단위 C 및 단위 A가 있는 게재의 DM 탭.](assets/select-delivery-outline.png)
 
 그러면 선택한 아웃라인이 창의 아래 섹션에 표시됩니다. 필드 오른쪽에 있는 아이콘을 사용하여 편집하거나 드롭다운 목록을 사용하여 변경할 수 있습니다.
 
-![](assets/delivery-outline-selected.png)
+![게재 개요 필드가 강조 표시되고 장치 C가 표시되는 게재의 DM 탭.](assets/delivery-outline-selected.png)
 
 게재의 **[!UICONTROL Summary]** 탭에도 다음 정보가 표시됩니다.
 
-![](assets/delivery-outline-in-dashboard.png)
+![게재 개요 값, 단위 C를 가리키는 화살표가 있는 게재 요약 탭](assets/delivery-outline-in-dashboard.png)
 
 ### 추출 결과 {#extraction-result}
 
@@ -132,6 +132,6 @@ ht-degree: 0%
 
 다음 예제에서는 게재와 연결된 아웃라인에 대한 레이블, 예상 비용 및 설명을 추출 파일에 추가합니다.
 
-![](assets/campaign-export-template.png)
+![레이블(배달/배달 개요) 출력 열이 강조 표시된 내보내기 템플릿의 추출 단계를 위한 데이터입니다.](assets/campaign-export-template.png)
 
 내보내기 모델은 관련 게재에 대해 선택한 서비스 공급자와 연결되어야 합니다. [이 섹션](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures)을 참조하세요.

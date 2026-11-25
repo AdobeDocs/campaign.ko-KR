@@ -7,10 +7,10 @@ product_v2:
     internal-label: Campaign
   - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
     internal-label: Campaign v8
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 3%
+source-wordcount: '1592'
+ht-degree: 2%
 ---
 # 캠페인 운영자를 Adobe Identity Management System(IMS)으로 마이그레이션 {#migrate-users-to-ims}
 
@@ -24,7 +24,7 @@ Campaign Classic v7 Managed Services 고객은 Campaign v8로 마이그레이션
 
 Campaign v8을 사용하면 모든 일반 사용자가 이미 Adobe IMS(Identity Management System)를 통해 Adobe ID을 사용하여 Adobe Campaign 클라이언트 콘솔에 연결해야 합니다. 그러나 일부 이전 구성에서는 사용자/암호 연결을 계속 사용할 수 있었습니다. **Campaign v8.6.**&#x200B;을(를) 시작할 수 없습니다.
 
-또한 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 이제 Adobe Campaign 클라이언트 애플리케이션이 IMS 기술 계정 토큰을 사용하여 Campaign API를 직접 호출합니다. 기술 운영자에 대한 마이그레이션은 전용 문서에 자세히 설명되어 있습니다. [이 페이지](ims-migration.md)에서 확인할 수 있습니다.
+또한 보안 및 인증 프로세스를 강화하기 위한 노력의 일환으로 이제 Adobe Campaign 클라이언트 애플리케이션이 IMS 기술 계정 토큰을 사용하여 Campaign API를 직접 호출합니다. 기술 운영자에 대한 마이그레이션은 전용 문서에 자세히 설명되어 있습니다. [기술 사용자를 Adobe Developer 콘솔로 마이그레이션](ims-migration.md)에서 확인할 수 있습니다.
 
 이 변경 사항은 Campaign v8.5.2부터 적용되며 Campaign v8.6부터 **필수**&#x200B;입니다.
 
@@ -40,7 +40,7 @@ Campaign v8을 사용하면 모든 일반 사용자가 이미 Adobe IMS(Identity
 >
 >사용자를 IMS로 마이그레이션한 후에는 Adobe Admin Console의 제품 프로필에 이름에 &quot;admin&quot;이라는 단어가 포함되어 있는지 확인하십시오(예: &quot;Administrators&quot;, &quot;admin&quot;, &quot;admins&quot;, &quot;approval admin&quot; 등). 는 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 자동으로 부여합니다. Campaign 컨트롤 패널은 Campaign 인스턴스를 크게 변경할 수 있는 셀프서비스 도구입니다.
 >
->제품 프로필 이름 지정 규칙을 주의 깊게 검토하여 승인된 사용자만 Campaign 컨트롤 패널에 액세스할 수 있도록 합니다. [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko){target="_blank"}에서 Campaign 컨트롤 패널 권한 관리에 대해 자세히 알아보세요.
+>제품 프로필 이름 지정 규칙을 주의 깊게 검토하여 승인된 사용자만 Campaign 컨트롤 패널에 액세스할 수 있도록 합니다. [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}에서 Campaign 컨트롤 패널 권한 관리에 대해 자세히 알아보세요.
 
 ## 마이그레이션 방법{#ims-migration-procedure}
 
@@ -54,7 +54,7 @@ Campaign v8을 사용하면 모든 일반 사용자가 이미 Adobe IMS(Identity
 
 1. Adobe은 환경을 Campaign v8.5.2로 업그레이드합니다.
 1. 업그레이드 후에도 기본 사용자 또는 IMS와 같은 두 가지 방법을 사용하여 새 사용자를 만들 수 있습니다.
-1. 내부 Campaign 관리자는 Campaign 클라이언트 콘솔의 모든 기본 사용자에게 고유한 이메일을 추가하고, 완료되면 Adobe 전환 관리자에게 확인해야 합니다. 이 단계는 [이 섹션](#ims-migration-id)에 자세히 설명되어 있습니다.
+1. 내부 Campaign 관리자는 Campaign 클라이언트 콘솔의 모든 기본 사용자에게 고유한 이메일을 추가하고, 완료되면 Adobe 전환 관리자에게 확인해야 합니다. 이 단계는 [현재 기본 사용자의 전자 메일을 추가하는 방법](#ims-migration-id)에 자세히 설명되어 있습니다.
 1. Adobe과 협력하여 Adobe이 비기술 사용자(운영자) 및 제품 프로필에 대해 자동 마이그레이션을 실행할 수 있는 날짜를 확보하십시오. 이 단계에는 인스턴스에 대한 가동 중지 시간 없이 1시간 기간이 필요합니다.
 1. 내부 Campaign 관리자가 이러한 변경 사항을 확인하고 승인을 제공합니다. 이 마이그레이션 후에는 더 이상 이 로그인 및 암호로 인증하는 연산자를 만들지 않아야 합니다.
 
@@ -108,36 +108,36 @@ Campaign 관리자는 클라이언트 콘솔에서 모든 기본 사용자에게
 
    [이 페이지](../../automation/workflow/query.md)에서 **쿼리** 활동에 대해 자세히 알아보기
 
-   [이 페이지](../../automation/workflow/extraction-file.md)에서 **데이터 추출(파일)** 활동에 대해 자세히 알아보기
+   [데이터 추출(파일)](../../automation/workflow/extraction-file.md)에서 **데이터 추출(파일)** 활동에 대해 자세히 알아보기
 
 1. 연산자의 이메일이 포함된 새 열로 CSV 파일을 업데이트합니다.
 
 1. 워크플로우에서 **데이터 로드(파일)** 활동 및 **데이터 업데이트** 활동을 사용하여 업데이트된 데이터를 가져올 워크플로우를 만드십시오.
 
-   ![](assets/update-operators-wf.png){width="70%"}
+   ![연산자 업데이트 워크플로우: 데이터 업데이트 활동에 연결된 데이터 로드(파일) 활동입니다.](assets/update-operators-wf.png){width="70%"}
 
 1. **데이터 로드(파일)** 활동을 편집하고 아래 샘플에 따라 업데이트된 CSV 파일을 로드하도록 설정을 정의합니다.
 
-   ![](assets/data-loading-activity.png){width="70%"}
+   ![데이터 로드(파일) 활동 설정: 샘플 파일, 레이블, 이름 및 전자 메일 열, 파일 이름으로 미리 보기.](assets/data-loading-activity.png){width="70%"}
 
-   [이 페이지](../../automation/workflow/data-loading-file.md)에서 **데이터 로드(파일)** 활동에 대해 자세히 알아보세요.
+   [데이터 로드(파일)](../../automation/workflow/data-loading-file.md)에서 **데이터 로드(파일)** 활동에 대해 자세히 알아보기
 
 1. **데이터 업데이트** 활동을 편집하고 아래 샘플에 따라 설정을 정의합니다. **업데이트된 차원**&#x200B;이 `Operators (xtk)`(으)로 변경되었습니다.
 
-   ![](assets/update-data-activity.png){width="70%"}
+   ![연산자 차원의 조정 키로 데이터 활동을 업데이트하여 @email 및 @name 필드를 업데이트합니다.](assets/update-data-activity.png){width="70%"}
 
    [이 페이지](../../automation/workflow/update-data.md)에서 **데이터 업데이트** 활동에 대해 자세히 알아보기
 
 1. 워크플로우를 실행하고 결과를 확인합니다. 운영자의 프로필에 이메일 주소를 추가했습니다.
 
-   ![](assets/updated-operator.png){width="70%"}
+   ![연락처 지점의 전자 메일 필드가 강조 표시된 운영자 프로필로 추가된 전자 메일 주소를 표시합니다.](assets/updated-operator.png){width="70%"}
 
 +++
 
 
 ### IMS를 통해 Campaign에 로그인하는 방법 {#ims-migration-log}
 
-[이 섹션](../../v8/start/connect.md)에서 Adobe ID을 사용하여 Campaign에 연결하는 방법을 알아봅니다.
+[Campaign v8에 연결](../../v8/start/connect.md)에서 Adobe ID으로 Campaign에 연결하는 방법을 알아봅니다.
 
 ### 이 마이그레이션 도중 중단 시간이 발생합니까? {#ims-migration-downtime}
 
@@ -153,7 +153,7 @@ Adobe은 마이그레이션 기간 동안 모든 사용자를 로그오프할 �
 
 이 마이그레이션에는 최종 사용자 마이그레이션과 기술 사용자 마이그레이션(사용자 지정 코드의 API에 사용됨)의 두 가지 측면이 있습니다.
 
-모든 사용자(Campaign 운영자)가 IMS에 있는 경우 이 마이그레이션을 수행할 필요가 없습니다. 하지만 사용자 지정 코드에서 사용했을 수 있는 기술 사용자를 계속 마이그레이션해야 합니다. [이 페이지](ims-migration.md)에서 자세히 알아보십시오.
+모든 사용자(Campaign 운영자)가 IMS에 있는 경우 이 마이그레이션을 수행할 필요가 없습니다. 하지만 사용자 지정 코드에서 사용했을 수 있는 기술 사용자를 계속 마이그레이션해야 합니다. [기술 사용자를 Adobe Developer 콘솔로 마이그레이션](ims-migration.md)에서 자세히 알아보세요.
 
 이 마이그레이션이 완료되면 Adobe에서 마이그레이션을 완료할 수 있도록 Adobe 전환 관리자에게 문의해야 합니다.
 
@@ -165,15 +165,15 @@ Campaign에서 연산자의 인증 유형을 보는 방법을 알아봅니다.
 
 1. 머리글 행을 마우스 오른쪽 단추로 클릭하고 **목록 구성** 메뉴를 선택합니다.
 
-   ![](assets/ims_2.png)
+   마우스 오른쪽 단추 클릭 메뉴가 열리고 목록 구성 옵션이 강조 표시된 ![연산자 목록입니다.](assets/ims_2.png)
 
 1. **계정 사용 안 함** 및 **인증 유형**&#x200B;을(를) **출력 열**(으)로 추가하십시오.
 
-   ![](assets/ims_1.png)
+   ![계정이 비활성화되고 인증 유형이 출력 열에 추가된 목록 구성입니다.](assets/ims_1.png)
 
 이제 **연산자** 목록과 해당 **인증 유형**&#x200B;을 볼 수 있습니다.
 
-![](assets/ims_3.png)
+인증 유형 열이 강조 표시된 ![연산자 목록에서 각 연산자에 대해 네이티브 또는 IMS를 표시합니다.](assets/ims_3.png)
 
 ## 유용한 링크 {#ims-useful-links}
 

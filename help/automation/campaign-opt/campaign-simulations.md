@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1511'
 ht-degree: 1%
 ---
 # 캠페인 시뮬레이션{#campaign-simulations}
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 게재 속성의 **[!UICONTROL Typology]** 하위 탭에서 게재 모드가 선택됩니다.
 
-![](assets/simu_campaign_select_delivery_mode.png)
+![배달 모드 드롭다운에 세 가지 모드가 나열된 배달 속성 유형 탭](assets/simu_campaign_select_delivery_mode.png)
 
 
 ### 시뮬레이션 만들기 {#create-a-simulation}
@@ -52,19 +52,19 @@ ht-degree: 1%
 
 1. **[!UICONTROL Campaigns]** 탭을 열고 **[!UICONTROL Create]** 섹션 내에서 **[!UICONTROL More]** 링크를 클릭한 다음 **[!UICONTROL Simulation]** 옵션을 선택합니다.
 
-   ![](assets/simu_campaign_opti_01.png)
+   ![열기 및 시뮬레이션 만들기 아래의 기타 메뉴가 강조 표시된 Campaign 일정 홈 페이지](assets/simu_campaign_opti_01.png)
 
 1. 템플릿과 시뮬레이션 이름을 입력합니다. 시뮬레이션을 만들려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/simu_campaign_opti_02.png)
+   ![시뮬레이션 템플릿 및 레이블 필드가 강조 표시되고 저장 단추가 있는 시뮬레이션 만들기 대화 상자.](assets/simu_campaign_opti_02.png)
 
 1. **[!UICONTROL Edit]** 탭을 클릭하여 구성합니다.
 
-   ![](assets/simu_campaign_opti_edit.png)
+   ![일반, 범위, 계산 및 감사 섹션과 실행 설정이 있는 시뮬레이션의 편집 탭](assets/simu_campaign_opti_edit.png)
 
 1. **[!UICONTROL Scope]** 탭에서 이 시뮬레이션에 고려할 게재를 지정합니다. 이렇게 하려면 **[!UICONTROL Add]** 단추를 클릭하고 고려할 게재 선택 모드를 지정합니다.
 
-   ![](assets/simu_campaign_opti_edit_scope.png)
+   ![게재 선택 방법을 선택하기 위한 추가 단추와 시뮬레이션 항목 대화 상자가 있는 범위 섹션.](assets/simu_campaign_opti_edit_scope.png)
 
    각 게재를 하나씩 선택하거나 캠페인, 프로그램 또는 플랜별로 정렬할 수 있습니다.
 
@@ -74,17 +74,17 @@ ht-degree: 1%
    >  
    >이렇게 하지 않으면 시뮬레이션이 생성될 때 계획, 프로그램 또는 캠페인에서 사용할 수 없는 게재는 고려되지 않습니다. 나중에 추가된 게재는 무시됩니다.
 
-   ![](assets/simu_campaign_opti_edit_scope_update.png)
+   ![하나 이상의 프로그램에 대한 모든 게재 및 선택 항목 새로 고침 옵션이 선택된 시뮬레이션 항목 대화 상자.](assets/simu_campaign_opti_edit_scope_update.png)
 
 1. 시뮬레이션 범위에 포함할 요소를 선택합니다. 필요한 경우 Shift 키와 Ctrl 키를 사용하여 여러 요소를 선택합니다.
 
-   ![](assets/simu_campaign_opti_edit_scope_select.png)
+   ![여러 게재가 강조 표시된 게재 선택 대화 상자 및 [완료] 단추](assets/simu_campaign_opti_edit_scope_select.png)
 
    선택을 승인하려면 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
    선택한 게재 및 계획, 프로그램 또는 캠페인에 속하는 게재를 수동으로 결합할 수 있습니다.
 
-   ![](assets/simu_campaign_opti_edit_scope_save.png)
+   ![저장 단추와 동적 조건 편집 링크를 사용하여 프로그램, 캠페인 및 계획을 혼합하는 범위를 나열합니다.](assets/simu_campaign_opti_edit_scope_save.png)
 
    필요한 경우 **[!UICONTROL Edit the dynamic condition...]** 링크를 통해 동적 조건을 사용할 수 있습니다.
 
@@ -96,11 +96,11 @@ ht-degree: 1%
 
 1. **[!UICONTROL Calculations]** 탭에서 받는 사람 스키마와 같은 분석 차원을 선택합니다.
 
-   ![](assets/simu_campaign_opti_dimension.png)
+   ![스키마 선택 대화 상자가 열려 있고 받는 사람(nms)이 분석 차원으로 선택된 계산 섹션.](assets/simu_campaign_opti_dimension.png)
 
 1. 그런 다음 표현식을 추가할 수 있습니다.
 
-   ![](assets/simu_campaign_opti_dimension_02.png)
+   ![받는 사람(nms)을 분석 차원으로 사용하고 계정 및 상태 보고 축이 나열된 계산 섹션.](assets/simu_campaign_opti_dimension_02.png)
 
 ### 실행 설정 {#execution-settings}
 
@@ -118,11 +118,11 @@ ht-degree: 1%
 
 이렇게 하려면 시뮬레이션 대시보드를 열고 **[!UICONTROL Start simulation]**&#x200B;을(를) 클릭합니다.
 
-![](assets/simu_campaign_opti_start.png)
+![시뮬레이션 시작 단추가 있는 시뮬레이션 대시보드](assets/simu_campaign_opti_start.png)
 
 실행이 완료되면 시뮬레이션을 열고 **[!UICONTROL Results]** 탭을 클릭하여 각 게재에 대해 계산된 대상을 확인합니다.
 
-![](assets/simu_campaign_opti_results.png)
+![결과 탭, 게재 하위 탭에서 각 게재를 초기 개수 및 최종 개수와 함께 나열합니다.](assets/simu_campaign_opti_results.png)
 
 1. **[!UICONTROL Deliveries]** 하위 탭에는 시뮬레이션에서 고려하는 모든 게재가 나열됩니다. 여기에는 두 개의 카운트가 표시됩니다.
 
@@ -135,12 +135,12 @@ ht-degree: 1%
 
 1. **[!UICONTROL Exclusions]** 하위 탭을 사용하여 제외 분류를 볼 수 있습니다.
 
-   ![](assets/simu_campaign_opti_14.png)
+   ![결과 탭, 게재 및 규칙당 제외 수를 표시하는 제외 하위 탭.](assets/simu_campaign_opti_14.png)
 
 1. **[!UICONTROL Alerts]** 하위 탭은 시뮬레이션 중에 생성된 모든 경고 메시지를 그룹화합니다. 용량 과부하 시 경고 메시지를 보낼 수 있습니다(대상 받는 사람 수가 설정된 용량을 초과하는 경우).
 1. **[!UICONTROL Exploration of the exclusions]** 하위 탭을 사용하여 결과 분석 테이블을 만들 수 있습니다. 사용자는 횡축/누진 축에 변수를 표시해야 합니다.
 
-   분석 테이블을 만드는 예를 보려면 [이 섹션](#explore-results)의 끝을 참조하세요.
+   분석 테이블을 만드는 예를 보려면 [결과 탐색](#explore-results)의 끝을 참조하세요.
 
 ### 결과 보기 {#view-results}
 
@@ -148,7 +148,7 @@ ht-degree: 1%
 
 **[!UICONTROL Audit]** 탭에서는 시뮬레이션 실행을 모니터링할 수 있습니다. **[!UICONTROL SQL Logs]** 하위 탭은 전문가 사용자에게 유용합니다. 실행 로그를 SQL 형식으로 나열합니다. 이러한 로그는 시뮬레이션 실행 전에 **[!UICONTROL General]** 탭에서 **[!UICONTROL Save SQL queries in the log]** 옵션을 선택한 경우에만 표시됩니다.
 
-![](assets/simu_campaign_opti_11.png)
+![저널 및 SQL 로그 하위 탭이 있는 감사 섹션, 실행 쿼리를 표시하는 SQL 로그.](assets/simu_campaign_opti_11.png)
 
 #### 결과 탐색 {#explore-results}
 
@@ -180,7 +180,7 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 
 보고서에 액세스하려면 대시보드를 통해 타깃팅된 시뮬레이션의 **[!UICONTROL Reports]** 링크를 클릭하십시오.
 
-![](assets/campaign_opt_reporting_edit_from_board.png)
+![시뮬레이션 대시보드 보고서 보기에서 시뮬레이션 제외 세부 정보와 같은 보고서 타일을 나열합니다.](assets/campaign_opt_reporting_edit_from_board.png)
 
 시뮬레이션 대시보드에서 액세스할 수 있는 **[!UICONTROL Reports]** 링크를 사용하여 보고서를 편집할 수도 있습니다.
 
@@ -196,12 +196,12 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 1. **[!UICONTROL Reports]** 탭에서 사용 가능한 보고서 중 하나(예: **[!UICONTROL Detail of simulation exclusions]**)를 편집합니다.
 1. 보고서의 오른쪽 위에서 아이콘을 클릭하여 새 기록을 만듭니다.
 
-   ![](assets/campaign_opt_reporting_create_hist.png)
+   ![도구 모음에 새 기록 아이콘이 강조 표시된 시뮬레이션 제외 보고서의 세부 정보.](assets/campaign_opt_reporting_create_hist.png)
 
 1. 시뮬레이션을 닫고 유형화 **A**&#x200B;의 구성을 변경합니다.
 1. 시뮬레이션을 다시 실행하고 결과를 기록이 생성된 보고서에 표시된 결과와 비교합니다.
 
-   ![](assets/campaign_opt_reporting_edit_hist.png)
+   ![사용 가능한 기록 아이콘에서 열린 저장된 기록과 비교한 시뮬레이션 제외 보고서의 세부 정보.](assets/campaign_opt_reporting_edit_hist.png)
 
    보고서 기록을 필요한 만큼 저장할 수 있습니다.
 
@@ -221,7 +221,7 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 1. 보고 축을 정의하려면 **[!UICONTROL Analysis dimension]** 필드에서 처리할 정보가 포함된 테이블을 선택합니다. 이 정보는 필수입니다.
 1. 여기에서는 수신자 테이블의 세그먼트 필드를 선택하려고 합니다.
 
-   ![](assets/simu_campaign_opti_09.png)
+   ![받는 사람(nms)을 분석 차원으로 사용하고 NMS를 기반으로 상태 보고 축을 사용하는 계산 @status.](assets/simu_campaign_opti_09.png)
 
 1. 다음 옵션을 사용할 수 있습니다.
 
@@ -241,7 +241,7 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 
 게재 대상 중복은 시뮬레이션의 두 개 이상의 게재에서 타겟팅된 수신자를 나타냅니다.
 
-![](assets/simu_campaign_opti_13.png)
+![결과 탭, 각 게재, 동시 게재 및 중복 개수를 나열하는 중복 하위 탭.](assets/simu_campaign_opti_13.png)
 
 >[!NOTE]
 >

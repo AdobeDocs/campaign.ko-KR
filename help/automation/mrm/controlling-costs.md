@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '2429'
-ht-degree: 1%
+source-wordcount: '3051'
+ht-degree: 0%
 ---
 # 비용 제어{#controlling-costs}
 
@@ -40,7 +40,7 @@ Adobe Campaign을 사용하면 예약, 약정 및 인보이스 발행 마케팅 
 
 예산의 관리 및 추적은 Adobe Campaign 트리의 전용 노드에서 중앙 집중화됩니다. 이렇게 하면 모든 예산에 대해 동일한 보기에서 할당, 예약, 약정 및 지출 금액을 모니터링할 수 있습니다.
 
-![](assets/s_ncs_user_budget_node_02.png)
+![금액과 경비 범주를 표시하는 eMarketing 예산이 있는 캠페인 관리 트리의 예산 노드](assets/s_ncs_user_budget_node_02.png)
 
 MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해야 합니다.
 
@@ -62,11 +62,11 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 1. 시작 및 종료 일자를 입력하여 유효 기간을 정의합니다. 이 정보는 지시용입니다.
 1. 캠페인, 작업 등에 대해 이 예산에 할당된 비용을 연결할 수 있는 경비 범주를 만듭니다. [자세히 알아보기](#expense-categories).
 
-![](assets/s_ncs_user_budget_create_and_save.png)
+![레이블, 일정, 할당된 금액 및 디자인, 리소스 및 데이터 경비 범주가 포함된 새 예산 양식입니다.](assets/s_ncs_user_budget_create_and_save.png)
 
 >[!NOTE]
 >
->관련 예산을 선택할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](#linking-a-budget-to-another)을 참조하십시오.
+>관련 예산을 선택할 수 있습니다. 자세한 내용은 [다른 제품에 예산 연결](#linking-a-budget-to-another)을 참조하세요.
 >
 
 ### 금액 계산 {#calculating-amounts}
@@ -79,7 +79,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 캠페인의 경우 약정 수준에 따라 미래 작업을 위해 비용을 계획, 약정 또는 예약할 수 있습니다.
 
-![](assets/s_user_cost_op_engaged.png)
+![계획, 예약 및 커밋을 표시하는 약정 수준 목록이 열려 있는 캠페인 예산 섹션.](assets/s_user_cost_op_engaged.png)
 
 >[!CAUTION]
 >
@@ -89,11 +89,11 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 예를 들어 웹 캠페인의 예상 계획된 비용은 45,000유로입니다.
 
-![](assets/s_user_edit_budget_node_impact_0.png)
+![계획된 수준에서 웹 예산에 부과되는 예상 비용이 45,000원인 캠페인 예산 섹션.](assets/s_user_edit_budget_node_impact_0.png)
 
 캠페인의 경우 예산 생성 상태가 **[!UICONTROL Defined]**(으)로 설정되면 캠페인의 실제 비용(또는 없는 경우 계산된 비용)이 예산 합계에 이월됩니다.
 
-![](assets/s_user_budget_in_op_a.png)
+![캠페인 예산 섹션(프로세스 상태 필드가 정의로 설정되어 있어 실행 시 비용이 통합됨)](assets/s_user_budget_in_op_a.png)
 
 캠페인 예산의 약정 수준에 따라 **[!UICONTROL Planned]**, **[!UICONTROL Reserved]** 또는 **[!UICONTROL Committed]** 필드에 금액이 입력됩니다.
 
@@ -102,15 +102,15 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 * **campaign** 수준의 **[!UICONTROL Budget]** 창에서 **[!UICONTROL Edit]** 탭에 있습니다. 여기서 예산, 비용 및 경비가 구성됩니다.
 * **[!UICONTROL Expenses and revenues]** 창의 **작업** 수준에서.
 
-![](assets/s_user_op_engagement_level_costs.png)
+![경비 라인이 나열된 경비 탭 위에서 약정 수준 목록이 열려 있는 캠페인 예산 섹션.](assets/s_user_op_engagement_level_costs.png)
 
 예산이 **[!UICONTROL Reserved]**&#x200B;이면 청구된 예산에 대해 업데이트가 자동으로 수행됩니다.
 
-![](assets/s_user_edit_budget_node_impact_2.png)
+![캠페인 약정 수준이 예약됨으로 설정된 후 예약된 금액에 45,000이 표시되는 예산 양식입니다.](assets/s_user_edit_budget_node_impact_2.png)
 
 프로시저는 작업 수준에서 동일합니다.
 
-![](assets/s_user_edit_budget_node_impact_task.png)
+![계획, 예약 및 커밋이 표시된 약정 수준 목록이 열려 있는 작업 경비 및 수익 창.](assets/s_user_edit_budget_node_impact_task.png)
 
 지출이 청구서를 발생시키고 청구서가 지급되면 그 금액이 **[!UICONTROL Invoiced]** 필드에 입력됩니다.
 
@@ -120,7 +120,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 범주를 추가하려면 창의 아래 섹션에서 **[!UICONTROL Add]** 단추를 클릭하십시오.
 
-![](assets/s_user_budget_category.png)
+![디자인, 인쇄 및 웹 범주에 대한 경비 범주 목록의 추가 단추가 있는 예산 양식입니다.](assets/s_user_budget_category.png)
 
 기존 범주에서 범주를 선택하거나 필드에 직접 범주를 입력하여 새 범주를 정의할 수 있습니다. 입력을 확인하면 확인 메시지를 사용하여 이 범주를 기존 범주 목록에 추가하고 필요한 경우 자연어와 연결할 수 있습니다. 이 정보는 예산 보고서에 사용됩니다.
 
@@ -128,11 +128,11 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 예산을 주 예산에 연결할 수 있습니다. 이렇게 하려면 보조 예산의 **[!UICONTROL related budget]** 필드에서 기본 예산을 선택합니다.
 
-![](assets/budget_link.png)
+![관련 예산 필드가 기본 eMarketing 예산으로 설정된 보조 예산 양식입니다.](assets/budget_link.png)
 
 관련 예산 목록을 표시하기 위해 기본 예산에 추가 탭이 추가됩니다.
 
-![](assets/budget_link_new_tab.png)
+![연결된 예산을 나열하는 추가된 예산 탭이 있는 기본 예산.](assets/budget_link_new_tab.png)
 
 이 정보는 예산 보고서로 전달됩니다.
 
@@ -140,7 +140,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 경비 라인이 예산에 자동으로 추가됩니다. 게재 분석 도중 및 작업이 완료되면 생성됩니다.
 
-![](assets/s_ncs_user_budget_line_edit.png)
+![세부 정보 단추가 있는 예산 경비 탭에서 캠페인, 게재 및 비용 범주 분할로 경비 라인을 엽니다.](assets/s_ncs_user_budget_line_edit.png)
 
 각 캠페인, 게재 또는 태스크에 대해 생성된 원가는 부과된 예산의 경비 라인에 그룹화됩니다. 이러한 비용 라인은 관련 서비스 공급자의 비용 라인에 따라 생성되고 관련 비용 구조를 통해 계산됩니다.
 
@@ -156,15 +156,15 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 이 게재에 대한 비용 계산은 관련 서비스 공급업체에 대해 선택한 비용 범주를 기반으로 합니다.
 
-![](assets/s_user_edit_del_supplier_costs.png)
+![DM 탭에 서비스 공급자 비용 범주가 나열된 게재에 연결된 경비 줄.](assets/s_user_edit_del_supplier_costs.png)
 
 선택한 원가 범주에 따라 원가 라인을 계산하기 위해 해당 원가 구조가 적용됩니다. 이 예에서 관련 서비스 공급자의 비용 구조는 다음과 같습니다.
 
-![](assets/s_user_edit_node_supplier_costs.png)
+![그래픽이 포함된 서비스 비용 구조 탭 - 01 비용 구조 세부 정보: DM 채널, 메시지당, 선형](assets/s_user_edit_node_supplier_costs.png)
 
 >[!NOTE]
 >
->비용 범주 및 구조가 [이 페이지](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)에 표시됩니다.
+>비용 범주 및 구조는 [서비스 공급자와 해당 비용 범주를 만듭니다](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)에 나와 있습니다.
 
 ## 비용 약정, 계산 및 과금 {#cost-commitment--calculation-and-charging}
 
@@ -180,7 +180,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
    이 금액은 수동으로 입력되며 여러 경비 범주로 분류할 수 있습니다. 비용을 계산하려면 **[!UICONTROL Breakdown...]** 링크를 클릭한 다음 **[!UICONTROL Add]** 단추를 클릭하여 새 금액을 정의합니다.
 
-   ![](assets/s_user_edit_budget_tab_ventil.png)
+   ![예상 비용 분석 링크에서 비용 분석 창을 편집하여 비용을 범주별로 분할합니다.](assets/s_user_edit_budget_tab_ventil.png)
 
    비용 범주별 원가 분석을 나중에 관련 예산 및 예산 보고서에서 볼 수 있도록 각 원가를 범주와 연관시킬 수 있습니다.
 
@@ -223,29 +223,29 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 1. **[!UICONTROL Amounts]** 섹션의 **[!UICONTROL Allocated]** 필드에 10,000유로의 예산을 정의합니다. 창의 아래 섹션에 두 개의 경비 범주를 추가합니다.
 
-![](assets/s_user_cost_mgmt_sample_1.png)
+![10,000개가 할당된 예산 양식과 두 개의 경비 범주(첫 번째 범주와 두 번째 범주)가 있습니다.](assets/s_user_cost_mgmt_sample_1.png)
 
 #### 2단계 - 서비스 공급자 구성 및 원가 구조 정의 {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. **[!UICONTROL Administration > Campaigns]** 노드에서 비용 구조로 서비스 공급자와 서비스 템플릿을 만듭니다. 이 작업에 대한 자세한 정보는 [이 섹션](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)을 참조하십시오.
+1. **[!UICONTROL Administration > Campaigns]** 노드에서 비용 구조로 서비스 공급자와 서비스 템플릿을 만듭니다. 자세한 내용은 [서비스 공급자 및 비용 범주 만들기](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)를 참조하세요.
 
    DM 게재의 경우 비용 범주 **[!UICONTROL Envelopes]**(유형 114x229 및 162x229), **[!UICONTROL Postage]** 및 **[!UICONTROL Print]**(유형 A3 및 A4)을(를) 만듭니다. 그런 다음 다음과 같은 비용 구조를 생성합니다.
 
-   ![](assets/s_user_cost_mgmt_sample_2.png)
+   ![비용 구조 봉투 - 114x229, 우편 요금 - 표준 및 인쇄 - A4: Dm, 메시지당, 선형 금액.](assets/s_user_cost_mgmt_sample_2.png)
 
 1. 계산이 고정되어 있고 금액이 비어 있고(해당 비용 구조에서) 각 납품에 대해 개별적으로 지정되는 고정 비용(비용 범주 내)을 추가합니다.
 
-   ![](assets/s_user_cost_mgmt_sample_5.png)
+   ![비용 구조 고정 비용 - DM 채널, 고정 계산 및 빈 금액을 사용하여 디자인합니다.](assets/s_user_cost_mgmt_sample_5.png)
 
    작업의 경우 다음 두 가지 비용 범주를 생성합니다.
 
    * **[!UICONTROL Room reservation]**(Small Room 및 Large Room), 300유로 및 500유로 규모의 **고정** 비용 구조:
 
-   ![](assets/s_user_cost_mgmt_sample_6.png)
+   ![비용 구조 룸 예약 - 고정 계산과 500의 금액이 있는 작업 채널의 경우 큽니다.](assets/s_user_cost_mgmt_sample_6.png)
 
    * **[!UICONTROL Creation]**(**콘텐츠 템플릿** 형식), **일별** 비용 구조가 300유로:
 
-   ![](assets/s_user_cost_mgmt_sample_7.png)
+   ![비용 구조 디자인 - 일별 계산 및 금액이 300인 작업 채널의 콘텐츠 템플릿](assets/s_user_cost_mgmt_sample_7.png)
 
 #### 3단계 - 캠페인에서 예산 청구 {#step-3---charging-the-budget-in-the-campaign}
 
@@ -255,11 +255,11 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
    >
    >기본적으로 프로그램에 대해 선택된 예산은 프로그램의 모든 캠페인에 적용됩니다.
 
-   ![](assets/s_user_cost_mgmt_sample_4.png)
+   ![특별 작업, eMarketing 및 육성 프로그램을 표시하는 비용 목록이 열려 있는 캠페인 예산 섹션.](assets/s_user_cost_mgmt_sample_4.png)
 
 1. 다음과 같이 분류와 함께 예상 비용을 지정합니다.
 
-   ![](assets/s_user_cost_mgmt_sample_9.png)
+   ![비용 편집 창에서 첫 번째 범주와 두 번째 범주로 분류된 예상 예상 비용 3,000원.](assets/s_user_cost_mgmt_sample_9.png)
 
 1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭하여 이 정보를 확인합니다. 그런 다음 캠페인의 계산된 비용이 예상 예상 비용으로 업데이트됩니다.
 
@@ -271,7 +271,7 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 1. 봉투 비용을 대체하고 고정 비용을 추가합니다. 또한 이러한 비용에 관련된 범주를 선택합니다.
 
-   ![](assets/s_user_cost_mgmt_sample_3.png)
+   ![고정 비용 560을 포함한 서비스 공급자 비용 범주가 있는 워크플로의 카탈로그 배달.](assets/s_user_cost_mgmt_sample_3.png)
 
    >[!NOTE]
    >
@@ -279,19 +279,19 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 1. 분석을 시작하고 비용을 계산하기 위해 방금 만든 워크플로우를 시작합니다.
 
-   ![](assets/s_user_cost_mgmt_sample_10.png)
+   ![분석을 실행하고 비용을 계산하기 위해 [시작] 단추를 선택한 상태로 워크플로우 도구 모음을 타깃팅합니다.](assets/s_user_cost_mgmt_sample_10.png)
 
 1. 이 캠페인에 대해 예산 승인이 활성화된 경우 대시보드에서 예산을 승인합니다. 비용 범주의 승인을 확인할 수 있습니다.
 
-   ![](assets/s_user_cost_mgmt_sample_10b.png)
+   ![예산 승인이 포함된 게재 승인 메뉴에서 비용 분할 및 예산 승인이 포함된 게재 시 작업 대화 상자를 엽니다.](assets/s_user_cost_mgmt_sample_10b.png)
 
 게재와 관련된 경비 줄이 캠페인의 **[!UICONTROL Edit > Budget]** 탭에 추가됩니다. 이를 편집하여 계산의 세부 사항을 확인합니다.
 
-![](assets/s_user_cost_mgmt_sample_11.png)
+![게재 비용 라인과 비용 분할을 여는 세부 정보 단추가 있는 캠페인 예산 비용 탭](assets/s_user_cost_mgmt_sample_11.png)
 
 게재에 대해 계산된 비용이 다음 정보로 업데이트됩니다.
 
-![](assets/s_user_cost_mgmt_sample_12.png)
+![비용 구조에서 계산된 비용이 22,844인 배달 비용 및 매출 창](assets/s_user_cost_mgmt_sample_12.png)
 
 계산된 원가를 편집할 때 원가 분류 및 원가 계산 상태 및 일자를 확인할 수 있습니다.
 
@@ -305,11 +305,11 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 1. **[!UICONTROL Properties]** 탭에서 서비스 및 해당 비용 범주를 선택합니다.
 
-   ![](assets/s_user_cost_mgmt_sample_14.png)
+   ![방 예약 비용 범주 유형 목록이 열려 있는 작업 속성 창에서 크게, Medium, 작게 표시](assets/s_user_cost_mgmt_sample_14.png)
 
 1. 그런 다음 작업의 **[!UICONTROL Expenses and revenue]** 아이콘을 클릭하고 예상 비용을 지정합니다.
 
-   ![](assets/s_user_cost_mgmt_sample_15.png)
+   ![특수 작업에 청구된 예상 비용 5,500원이 포함된 작업 비용 및 수익 창](assets/s_user_cost_mgmt_sample_15.png)
 
    작업이 저장되면 계산된 비용은 예상 비용에 대해 입력된 값으로 지정됩니다.
 
@@ -317,23 +317,23 @@ MRM을 사용하여 예산 관리를 구현하려면 다음 단계를 적용해�
 
 1. 그런 다음 동일한 절차에 따라 두 번째 작업을 만듭니다. 5일 동안 예약되고 이전에 만든 비용 구조와 관련되어 있습니다.
 
-   ![](assets/s_user_cost_mgmt_sample_16.png)
+   ![작업 속성 창에 비용 범주 유형 목록이 열려 있는 두 번째 작업 콘텐츠 만들기](assets/s_user_cost_mgmt_sample_16.png)
 
    작업이 완료되면 계산된 비용이 관련 비용 구조의 값(예: 이 예에서는 1500유로(5일 x 300유로)으로 지정됩니다.
 
-   ![](assets/s_user_cost_mgmt_sample_17.png)
+   ![경비 및 수익 창에서 계산된 비용이 1,500원인 콘텐츠 만들기 작업을 마쳤습니다.](assets/s_user_cost_mgmt_sample_17.png)
 
 #### 6단계 - 캠페인 예산 상태 업데이트 {#step-6---update-the-campaign-budget-status}
 
 캠페인이 구성되면 **[!UICONTROL Specified]**(으)로 설정하여 해당 상태를 업데이트할 수 있습니다. 그런 다음 캠페인 계산된 비용에는 게재 계산된 비용과 캠페인 작업의 합계가 표시됩니다.
 
-![](assets/s_user_cost_mgmt_sample_18.png)
+![프로세스 상태 목록이 열려 있는 캠페인 예산 섹션: 비용 라인 위에서 편집, 정의 및 수행 중입니다.](assets/s_user_cost_mgmt_sample_18.png)
 
 #### 예산 승인 {#budget-approval}
 
 승인이 활성화되면 캠페인 대시보드에서 예산을 승인할 수 있는 특수 링크를 사용할 수 있습니다. 이 링크는 타겟팅 워크플로우가 시작되고 DM 게재를 승인해야 하는 경우 표시됩니다.
 
-![](assets/s_user_cost_mgmt_sample_19.png)
+![게재 승인 메뉴에서 예산 승인 옵션을 사용하여 게재 시 승인, 거부 및 예산 승인이 포함된 작업을 엽니다.](assets/s_user_cost_mgmt_sample_19.png)
 
 그런 다음 링크를 클릭하여 승인을 부여하거나 거부하거나, 이 캠페인에 대해 알림이 활성화된 경우 알림 이메일의 링크를 사용할 수 있습니다.
 
@@ -349,7 +349,7 @@ MRM의 컨텍스트에서는 서비스 공급자와 함께 주문을 저장하�
 
 주문 번호, 관련 서비스 공급자 및 주문 총액을 지정합니다.
 
-![](assets/s_user_cost_create_order.png)
+![MRM의 Orders 노드(주문 목록 및 주문 양식에서 번호, 서비스 공급자 및 금액이 표시됨)](assets/s_user_cost_create_order.png)
 
 ### 송장 발행 및 추적 {#issuing-and-tracking-invoices}
 
@@ -357,15 +357,15 @@ MRM의 컨텍스트에서는 서비스 공급자와 함께 주문을 저장하�
 
 인보이스가 만들어지고 Adobe Campaign 트리의 **[!UICONTROL MRM > Invoices]** 노드에 저장됩니다.
 
-![](assets/s_user_cost_create_invoice.png)
+![번호, 서비스 공급자, 예산, 금액 및 상태를 표시하는 송장 양식이 있는 MRM의 송장 노드.](assets/s_user_cost_create_invoice.png)
 
 송장은 합계가 금액을 자동으로 계산할 수 있도록 하는 송장 라인으로 구성됩니다. 이러한 줄은 **[!UICONTROL Invoice lines]** 탭에서 수동으로 만들어집니다. 주문에 연결하여 정보를 업로드할 수 있습니다.
 
-![](assets/s_user_cost_invoice_add_line.png)
+![주문, 금액 및 결제 옵션이 있는 송장 라인 양식을 여는 추가 단추가 있는 송장 라인 탭](assets/s_user_cost_invoice_add_line.png)
 
 각 서비스 공급자의 송장은 프로필의 **[!UICONTROL Invoices]** 탭에 표시됩니다.
 
-![](assets/s_ncs_user_invoice_from_supplier.png)
+![선택한 서비스 공급자의 송장을 나열하는 송장 탭이 있는 서비스 공급자 노드](assets/s_ncs_user_invoice_from_supplier.png)
 
 **[!UICONTROL Details]** 탭에서 인보이스 내용을 표시할 수 있습니다.
 

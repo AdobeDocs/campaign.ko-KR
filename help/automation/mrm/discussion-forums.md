@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '568'
 ht-degree: 0%
 ---
 # 토론 포럼{#discussion-forums}
@@ -43,13 +43,13 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 
 포럼에 액세스하려면 대시보드로 이동하여 오른쪽 상단의 **[!UICONTROL Forum]** 링크를 클릭하십시오.
 
-![](assets/mrm-forum-icon.png)
+![포럼 링크와 토론 목록을 가리키는 화살표가 있는 Campaign 대시보드.](assets/mrm-forum-icon.png)
 
 메시지와 해당 응답이 최신 항목부터 오래된 항목까지 표시됩니다.
 
 새 스레드를 시작하려면 오른쪽 상단의 **[!UICONTROL Add a discussion]** 단추를 클릭합니다. **[!UICONTROL Discussion forum]** 상자가 나타납니다(아래 참조).
 
-![](assets/mrm-forum-new-thread.png)
+![제목, 메시지, 알림 운영자, 문서 첨부 및 메시지 만들기가 포함된 토론 포럼 대화 상자.](assets/mrm-forum-new-thread.png)
 
 
 **[!UICONTROL Message]** 필드에 텍스트를 입력하고 **[!UICONTROL Subject]** 필드에 토론 제목을 입력합니다.
@@ -85,7 +85,7 @@ Adobe Campaign 운영자는 토론 포럼을 사용하여 정보를 공유할 �
 
 * 개인 대시보드에는 구독 중인 포럼이 나열됩니다. **[!UICONTROL Subscription to discussion forums]** 링크를 클릭하여 목록을 표시한 다음 원하는 항목을 클릭하여 해당 포럼에 액세스합니다.
 
-  ![](assets/forum-subscribed.png)
+  토론 포럼 구독 목록이 강조 표시된 ![운영자 대시보드.](assets/forum-subscribed.png)
 
 
 ## 알림 전달 문제 해결 {#checking-notification-delivery}

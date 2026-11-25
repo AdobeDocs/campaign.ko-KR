@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '2232'
 ht-degree: 1%
 ---
 # 로컬 캠페인 만들기{#creating-a-local-campaign}
@@ -52,15 +52,15 @@ ht-degree: 1%
 
 새 로컬 템플릿을 만들려면 기본 **[!UICONTROL Local campaign (opLocal)]** 템플릿을 복제하십시오.
 
-![](assets/mkg_dist_local_op_creation.png)
+![로컬 캠페인(opLocal) 컨텍스트 메뉴 및 복제 옵션이 강조 표시된 캠페인 템플릿 목록](assets/mkg_dist_local_op_creation.png)
 
 캠페인 템플릿 이름을 지정하고 사용 가능한 필드를 작성합니다.
 
-![](assets/mkg_dist_local_op_creation1.png)
+![레이블, 특성, 작업 유형, 기본 채널, 기간 및 설명 필드가 있는 새 마케팅 캠페인 대화 상자](assets/mkg_dist_local_op_creation1.png)
 
 캠페인 창에서 **[!UICONTROL Edit]** 탭을 클릭한 다음 **[!UICONTROL Advanced campaign parameters...]** 링크를 클릭합니다.
 
-![](assets/mkt_distr_4.png)
+속성 섹션에 고급 캠페인 매개 변수 링크가 있는 ![캠페인 편집 탭](assets/mkt_distr_4.png)
 
 ### 웹 인터페이스 {#web-interface}
 
@@ -70,17 +70,17 @@ ht-degree: 1%
 
 템플릿에서 만든 캠페인에 적용할 웹 인터페이스 유형을 선택합니다.
 
-![](assets/mkt_distr_1.png)
+![웹 인터페이스 유형 목록의 고급 설정 분산 마케팅 탭: 사전 설정, 간략히, 양식별, 외부 양식별](assets/mkt_distr_1.png)
 
 다음 네 가지 유형의 웹 인터페이스를 사용할 수 있습니다.
 
 * **[!UICONTROL By brief]**: 로컬 엔터티가 캠페인 구성을 설명하는 설명을 제공해야 합니다. 주문이 승인되면 중앙 엔티티는 캠페인 전체를 구성하고 실행합니다.
 
-  ![](assets/mkt_distr_6.png)
+  ![타깃팅 및 콘텐츠 설명 필드와 유효성 검사 버튼이 포함된 간단한 인터페이스용 Campaign 주문 웹 페이지](assets/mkt_distr_6.png)
 
 * **[!UICONTROL By form]**: 로컬 엔터티는 사용된 템플릿에 따라 콘텐츠, 대상, 최대 크기, 개인화 필드를 사용한 생성 및 추출 날짜를 편집할 수 있는 웹 양식에 액세스할 수 있습니다. 로컬 엔티티는 이 웹 양식에서 타겟을 평가하고 콘텐츠를 미리 볼 수 있습니다.
 
-  ![](assets/mkt_distr_8.png)
+  ![연락 날짜, 기본 채널, 연령 세그먼트, 이미지, 메시지 필드 및 평가 링크가 있는 캠페인 주문 웹 양식](assets/mkt_distr_8.png)
 
   제공된 양식이 템플릿의 **[!UICONTROL Advanced campaign parameters...]** 링크에 있는 **[!UICONTROL web Interface]** 필드의 드롭다운 목록에서 선택해야 하는 웹 응용 프로그램에 지정되었습니다. [로컬 캠페인 만들기(양식으로)](examples.md#creating-a-local-campaign--by-form-)를 참조하세요.
 
@@ -88,12 +88,12 @@ ht-degree: 1%
   >
   >이 예제에 사용된 웹 응용 프로그램이 예입니다. 양식을 사용하려면 특정 웹 앱을 만들어야 합니다.
 
-  ![](assets/mkt_distr_7.png)
+  ![Campaign 주문 개인화와 같은 웹 응용 프로그램을 나열하는 고급 설정 웹 인터페이스 드롭다운](assets/mkt_distr_7.png)
 
 * **[!UICONTROL By external form]**: 로컬 엔터티가 엑스트라넷의 캠페인 매개 변수에 액세스할 수 있습니다(Adobe Campaign 아님). 이러한 매개 변수는 **로컬 캠페인(양식 기준)**&#x200B;의 매개 변수와 동일합니다.
 * **[!UICONTROL Pre-set]**: 로컬 엔터티는 기본 양식을 현지화하지 않고 사용하여 캠페인을 주문합니다.
 
-  ![](assets/mkt_distr_5.png)
+  ![시작, 끝, 할당 대상, 검토자 1 및 2와 설명 필드 및 유효성 검사 단추가 있는 캠페인 주문 양식](assets/mkt_distr_5.png)
 
 ### 기본값 {#default-values}
 
@@ -103,21 +103,21 @@ ht-degree: 1%
 * 연락 및 추출 일자,
 * 대상 특성(연령 세그먼트 등).
 
-![](assets/mkg_dist_local_op_creation2.png)
+![기본 채널, 연락 날짜 및 요청 수량 값이 있는 기본 값 표](assets/mkg_dist_local_op_creation2.png)
 
 **[!UICONTROL Parent marketing program]** 및 **[!UICONTROL Charge]** 필드를 완료합니다.
 
-![](assets/mkg_dist_local_op_creation3.png)
+![기본 값 표 아래에 강조 표시된 상위 마케팅 프로그램 및 비용 필드를 사용하는 고급 설정](assets/mkg_dist_local_op_creation3.png)
 
 ### 승인 {#approvals}
 
 **[!UICONTROL Advanced parameters for campaign entry]** 링크에서 최대 검토자 수를 지정할 수 있습니다.
 
-![](assets/s_advuser_mkg_dist_add_valid_op1.png)
+![검토자 수 및 문서 수 필드가 있는 캠페인 항목 대화 상자의 고급 매개 변수](assets/s_advuser_mkg_dist_add_valid_op1.png)
 
 검토자는 캠페인 주문 시 로컬 엔티티에 의해 입력됩니다.
 
-![](assets/mkt_distr_5.png)
+![시작, 끝, 할당 대상, 검토자 1 및 2와 설명 필드 및 유효성 검사 단추가 있는 캠페인 주문 양식](assets/mkt_distr_5.png)
 
 캠페인에 대한 검토자의 이름을 지정하지 않으려면 0을 입력합니다.
 
@@ -125,11 +125,11 @@ ht-degree: 1%
 
 로컬 엔티티 운영자가 문서(텍스트 파일, 스프레드시트, 이미지, 캠페인 설명 등)를 연결할 수 있도록 할 수 있습니다. 주문을 생성할 때 로컬 캠페인에 사용됩니다. **[!UICONTROL Advanced parameters for campaign entry...]** 링크를 사용하여 문서 수를 제한할 수 있습니다. 이렇게 하려면 **[!UICONTROL Number of documents]** 필드에 허용된 최대 수를 입력하기만 하면 됩니다.
 
-![](assets/s_advuser_mkg_dist_local_docs.png)
+![문서 수 필드가 2로 설정됨, 순서를 만들 때 정의된 최대 문서 수](assets/s_advuser_mkg_dist_local_docs.png)
 
 캠페인 패키지를 주문할 때 양식에서 템플릿의 해당 필드에 표시된 만큼의 문서를 연결할 것을 제안합니다.
 
-![](assets/s_advuser_mkg_dist_add_docs.png)
+![문서 1 및 문서 2 파일 업로드 필드와 검토자 및 예산 필드가 있는 캠페인 주문 웹 양식](assets/s_advuser_mkg_dist_add_docs.png)
 
 문서 업로드 필드를 표시하지 않으려면 **[!UICONTROL Number of documents]** 필드에 **[!UICONTROL 0]**&#x200B;을(를) 입력하십시오.
 
@@ -137,43 +137,43 @@ ht-degree: 1%
 >
 >**[!UICONTROL Do not display the page used to enter the campaign parameters]**&#x200B;을(를) 확인하여 **[!UICONTROL Advanced parameters for campaign entry]**&#x200B;을(를) 비활성화할 수 있습니다.
 
-![](assets/s_advuser_mkg_dist_disable_op_parameters.png)
+![선택한 캠페인 매개 변수 옵션을 입력하는 데 사용되는 페이지를 표시하지 않음](assets/s_advuser_mkg_dist_disable_op_parameters.png)의 고급 설정
 
 ### 워크플로 {#workflow}
 
 **[!UICONTROL Targeting and workflows]** 탭에서 **[!UICONTROL Advanced campaign parameters...]**&#x200B;에 지정된 **[!UICONTROL Default values]**&#x200B;을(를) 수집하고 게재를 만드는 캠페인 워크플로우를 만듭니다.
 
-![](assets/mkg_dist_local_op_creation4b.png)
+![기본 워크플로가 있는 타기팅 및 워크플로 탭: 쿼리, 분할, 전자 메일 게재 및 DM으로 게재](assets/mkg_dist_local_op_creation4b.png)
 
 **[!UICONTROL Query]** 활동을 두 번 클릭하여 지정된 **[!UICONTROL Default values]**&#x200B;에 따라 구성합니다.
 
-![](assets/mkt_dist_local_campaign_localize_query.png)
+![쿼리 활동 편집 링크를 사용하여 나이 세그먼트가 현재 주문의 나이 세그먼트와 같은 필터를 여는 쿼리 활동](assets/mkt_dist_local_campaign_localize_query.png)
 
 ### 게재 {#delivery}
 
 **[!UICONTROL Audit]** 탭에서 **[!UICONTROL Detail...]** 아이콘을 클릭하여 선택한 게재에 대한 **[!UICONTROL Scheduling]**&#x200B;을(를) 봅니다.
 
-![](assets/mkg_dist_local_op_creation4c.png)
+![일정 아이콘이 강조 표시된 게재를 여는 세부 정보 단추가 있는 탭 게재 목록 감사](assets/mkg_dist_local_op_creation4c.png)
 
 **[!UICONTROL Scheduling]** 아이콘을 사용하면 게재의 연락처 및 실행 날짜를 구성할 수 있습니다.
 
-![](assets/mkg_dist_local_op_creation4d.png)
+![배달 예약 옵션이 선택된 예약 대화 상자 및 추가 필드를 기반으로 한 연락 날짜 계산](assets/mkg_dist_local_op_creation4d.png)
 
 필요한 경우 게재의 최대 크기를 구성합니다.
 
-![](assets/mkg_dist_local_op_creation4e.png)
+![대상 제외 선택 탭에서 열린 다음으로 게재 제한 필드가 포함된 제외 설정 대화 상자](assets/mkg_dist_local_op_creation4e.png)
 
 게재의 HTML을 찾습니다. 예를 들어 **[!UICONTROL Delivery > Current order > Additional fields]**&#x200B;에서 **[!UICONTROL Age segment]** 필드를 사용하여 대상 기간에 따라 게재를 찾습니다.
 
-![](assets/mkt_dist_local_campaign_localize_html.png)
+![메시지 및 기타를 통해 삽입된 세그먼트 코드 추가 데이터 필드를 표시하는 필드 선택 대화 상자](assets/mkt_dist_local_campaign_localize_html.png)
 
 캠페인 템플릿을 저장합니다. 이제 **[!UICONTROL Create]** 단추를 클릭하여 **[!UICONTROL Campaigns]** 탭의 **[!UICONTROL Campaign packages]** 보기에서 사용할 수 있습니다.
 
-![](assets/mkt_distr_9.png)
+![만들기 단추가 있는 캠페인 패키지 보기 템플릿 및 참조 캠페인이 포함된 캠페인 패키지 대화 상자를 여는 중](assets/mkt_distr_9.png)
 
 >[!NOTE]
 >
->캠페인 템플릿 및 일반 구성은 [이 페이지](../campaigns/marketing-campaign-templates.md)에 자세히 설명되어 있습니다.
+>캠페인 템플릿 및 일반 구성은 [마케팅 캠페인 템플릿](../campaigns/marketing-campaign-templates.md)에 자세히 설명되어 있습니다.
 
 ## 캠페인 패키지 만들기 {#creating-the-campaign-package}
 
@@ -184,7 +184,7 @@ ht-degree: 1%
 1. **캠페인** 페이지의 **[!UICONTROL Navigation]** 섹션에서 **[!UICONTROL Campaign packages]** 링크를 클릭합니다.
 1. **[!UICONTROL Create]** 버튼을 클릭합니다.
 
-   ![](assets/mkg_dist_add_an_entry.png)
+   템플릿, 참조 캠페인, 레이블, 폴더 및 실행 일정 필드가 있는 ![캠페인 패키지 대화 상자](assets/mkg_dist_add_an_entry.png)
 
 1. 창 위의 섹션에서 지정된 [이전](#creating-a-local-campaign-template) 캠페인 패키지 템플릿을 선택할 수 있습니다.
 
@@ -204,19 +204,19 @@ ht-degree: 1%
 
 이 정보는 아래와 같이 로컬 에이전시로 전송되는 알림 메시지에서 찾을 수 있습니다.
 
-![](assets/s_advuser_mkg_dist_local_notif.png)
+![캠페인 링크, 패키지 일정 및 캠페인 사용 가능 날짜를 주문하는 새 카탈로그 항목 알림 전자 메일](assets/s_advuser_mkg_dist_local_notif.png)
 
 ### 대상자 {#audience}
 
 로컬 캠페인의 경우 중앙 엔터티는 **[!UICONTROL Limit the package to a set of local entities]**&#x200B;을(를) 확인하여 관련된 로컬 엔터티를 지정할 수 있습니다.
 
-![](assets/s_advuser_mkg_dist_create_mutual_entry3.png)
+![로컬 엔터티 집합으로 패키지 제한 옵션이 강조 표시된 Campaign 패키지 대화 상자](assets/s_advuser_mkg_dist_create_mutual_entry3.png)
 
 ### 추가 설정 {#additional-settings}
 
 패키지가 저장되면 중앙 엔터티는 **[!UICONTROL Edit]** 탭에서 편집할 수 있습니다.
 
-![](assets/mkg_dist_edit_kit.png)
+![승인 매개 변수 링크, 주문 옵션 및 실행 일정이 있는 캠페인 패키지 편집 탭 일반 섹션](assets/mkg_dist_edit_kit.png)
 
 **[!UICONTROL General]** 탭에서 중앙 엔터티는 다음을 수행할 수 있습니다.
 
@@ -230,7 +230,7 @@ ht-degree: 1%
 >   
 >캠페인 패키지에서 여러 개의 로컬 캠페인을 만들 수 있도록 하려면 **[!UICONTROL Enable multiple creation]** 옵션을 선택하십시오.
 
-![](assets/mkg_dist_local_op_multi_crea.png)
+![여러 만들기 사용 및 로컬 엔터티 목록이 있는 Campaign 패키지 편집 탭](assets/mkg_dist_local_op_multi_crea.png)
 
 ### 알림 {#notifications}
 
@@ -244,7 +244,7 @@ ht-degree: 1%
 >
 >캠페인 패키지를 생성할 때 일부 로컬 엔티티를 지정한 경우 해당 엔티티만 알림을 받습니다. 로컬 엔티티를 지정하지 않은 경우 모든 로컬 엔티티에 알림이 전송됩니다.
 
-![](assets/mkg_dist_local_op_notification.png)
+![캠페인 링크 및 패키지 일정 세부 정보를 주문하여 새 패키지를 알리는 전자 메일을 사용할 수 있습니다](assets/mkg_dist_local_op_notification.png)
 
 중앙 엔티티가 제공하는 캠페인을 사용하려면 로컬 엔티티가 주문해야 합니다.
 
@@ -256,29 +256,29 @@ ht-degree: 1%
 
 1. 첫 페이지(주문 레이블 및 댓글)에 필요한 정보를 입력하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/mkg_dist_subscribe_step1.png)
+   ![주문 번호, 로컬 엔터티, 주문 레이블 및 주문 설명 필드 및 다음 단추가 있는 캠페인 주문 웹 페이지](assets/mkg_dist_subscribe_step1.png)
 
 1. 사용 가능한 매개 변수를 완료하고 주문을 승인합니다.
 
 1. 이 주문을 승인하려면 로컬 엔티티가 속한 조직 엔티티의 관리자에게 알림이 전송됩니다.
 
-   ![](assets/mkg_dist_subscribe_step3.png)
+   ![승인 및 거부 옵션, 댓글 필드 및 승인 단추가 있는 승인 웹 페이지 주문](assets/mkg_dist_subscribe_step3.png)
 
 1. 이 정보는 로컬 및 중앙 엔티티에 반환됩니다. 로컬 엔티티는 자체 주문만 볼 수 있지만, 중앙 엔티티는 아래와 같이 로컬 엔티티의 모든 주문을 볼 수 있습니다.
 
-   ![](assets/mkg_dist_subscribe_central_view.png)
+   ![사용 가능한 상태, 캠페인, 시작 및 종료 날짜가 있는 여름 판매 주문 4개를 나열하는 캠페인 패키지 주문 탭](assets/mkg_dist_subscribe_central_view.png)
 
    연산자는 주문 세부 사항을 표시할 수 있습니다.
 
-   ![](assets/mkg_dist_local_op_catalog_detail_1.png)
+   ![주문 목록에서 상태, 캠페인 패키지, 로컬 엔터티 및 캠페인 세부 정보와 함께 열린 주문 대시보드](assets/mkg_dist_local_op_catalog_detail_1.png)
 
    **[!UICONTROL Edit]** 탭에는 캠페인을 정렬할 때 로컬 엔터티에서 입력한 정보가 포함되어 있습니다.
 
-   ![](assets/mkg_dist_local_op_catalog_detail_1b.png)
+   ![레이블, 조직 엔터티, 상태 및 로컬 엔터티가 입력한 댓글이 있는 순서 편집 탭](assets/mkg_dist_local_op_catalog_detail_1b.png)
 
 1. 이 명령은 최종 확정되려면 중앙 기관의 승인을 받아야 한다.
 
-   ![](assets/mkg_dist_local_op_catalog_detail_3.png)
+   ![승인 보류 중 상태 및 구독 승인 단추를 사용하여 대시보드 주문](assets/mkg_dist_local_op_catalog_detail_3.png)
 
    자세한 내용은 [승인 프로세스](#approval-process) 섹션을 참조하세요.
 
@@ -286,7 +286,7 @@ ht-degree: 1%
 
    **[!UICONTROL Start targeting with order approval]** 옵션을 사용하면 로컬 엔터티에서 주문이 승인되는 즉시 캠페인을 실행할 수 있습니다.
 
-   ![](assets/mkg_dist_local_op_catalog_use.png)
+   ![게시된 로컬 패키지가 있는 캠페인 탭의 캠페인 패키지 목록](assets/mkg_dist_local_op_catalog_use.png)
 
 ## 주문 승인 {#approving-an-order}
 
@@ -304,19 +304,19 @@ ht-degree: 1%
 
 캠페인이 로컬 엔티티에 의해 주문되면 해당 검토자는 아래와 같이 이메일로 알림을 받습니다.
 
-![](assets/mkg_dist_valid_notif_email.png)
+![수락 또는 거부 링크, 주문 및 패키지 세부 정보 및 기한을 포함한 캠페인 주문 전자 메일 승인](assets/mkg_dist_valid_notif_email.png)
 
 >[!NOTE]
 >
 >검토자를 선택하면 [검토자](#reviewers) 섹션에 표시됩니다. 그들은 그 명령을 받아들이거나 거부할 수 있다.
 
-![](assets/mkg_dist_command_valid_web.png)
+![수락이 선택된 승인 웹 페이지 순서 지정, 댓글 및 승인 단추](assets/mkg_dist_command_valid_web.png)
 
 #### 클라이언트 콘솔을 통해 승인 {#approving-via-the-adobe-campaign-console}
 
 캠페인 주문 개요에서 클라이언트 콘솔을 통해 주문을 승인할 수도 있습니다. 주문을 승인하려면 주문을 선택하고 **[!UICONTROL Approve the order]**&#x200B;을(를) 클릭합니다.
 
-![](assets/mkg_dist_local_order_valid.png)
+![승인 또는 거부 승인 대화 상자를 여는 구독이 있는 콘솔에서 대시보드 정렬](assets/mkg_dist_local_order_valid.png)
 
 >[!NOTE]
 >
@@ -326,7 +326,7 @@ ht-degree: 1%
 
 캠페인 주문이 승인되면 로컬 엔티티에 의해 구성되고 실행될 수 있습니다.
 
-![](assets/mkg_dist_mutual_op_created.png)
+![Campaign 패키지 목록(승인됨, 거부됨 및 편집 중 상태), 캠페인 링크를 클릭 중](assets/mkg_dist_mutual_op_created.png)
 
 자세한 내용은 [캠페인 액세스](accessing-campaigns.md)를 참조하세요.
 
@@ -334,17 +334,17 @@ ht-degree: 1%
 
 승인을 담당하는 운영자는 주문이나 캠페인 패키지를 거부할 수 있습니다.
 
-![](assets/mkg_dist_do_not_valid.png)
+![거부 옵션, 댓글 필드 및 승인 단추가 선택된 패키지 작업 대화 상자](assets/mkg_dist_do_not_valid.png)
 
 검토자가 주문을 거부하면 관련 알림이 관련 로컬 엔티티에 자동으로 전송됩니다. 여기에는 승인을 거부한 운영자가 입력한 댓글이 표시됩니다.
 
 정보는 캠페인 패키지 목록 페이지 또는 캠페인 주문 페이지에 표시됩니다. Adobe Campaign 클라이언트 콘솔에 액세스할 수 있는 경우 로컬 엔티티에 이 거부에 대한 알림이 표시됩니다.
 
-![](assets/mkg_dist_do_not_valid_view.png)
+![로컬 캠페인 패키지에 거부됨 상태 배지가 강조 표시된 캠페인 패키지 목록](assets/mkg_dist_do_not_valid_view.png)
 
 캠페인 패키지의 **[!UICONTROL Edit]** 탭에서 관련 주석을 볼 수 있습니다.
 
-![](assets/mkg_dist_do_not_valid_tab.png)
+![거부된 작업을 표시하는 승인 저널이 있는 캠페인 패키지 감사 탭(댓글 열 포함)](assets/mkg_dist_do_not_valid_tab.png)
 
 ### 검토자 {#reviewers}
 
@@ -360,6 +360,6 @@ ht-degree: 1%
 
 중앙 에이전트에서 주문 대시보드에 있는 **[!UICONTROL Delete]** 버튼을 사용하여 주문을 취소할 수 있습니다.
 
-![](assets/mkg_dist_local_op_cancel.png)
+주문의 [동작] 메뉴 및 [삭제] 옵션이 강조 표시된 ![Campaign 패키지 대시보드](assets/mkg_dist_local_op_cancel.png)
 
 **[!UICONTROL Campaign orders]** 보기에서 캠페인을 취소합니다.
