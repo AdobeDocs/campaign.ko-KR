@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '3162'
+source-wordcount: '3182'
 ht-degree: 2%
 ---
 # 게재 모범 사례 {#delivery-best-practices}
@@ -60,7 +60,7 @@ Campaign 게재 기능을 사용한 다음 모범 사례를 살펴보십시오.
 
 서버 성능에 직접적인 영향을 주고 Campaign 플랫폼을 느리게 하는 몇 가지 요인이 있습니다.
 
-* [개인화](../send/personalize.md) 요소의 수와 유형: 전자 메일의 개인화는 각 수신자의 데이터를 데이터베이스에서 가져옵니다. 개인화 요소가 많은 경우 게재를 준비하는 데 필요한 데이터의 양이 더 많습니다. 이로 인해 플랫폼이 느려질 수 있습니다. [이 섹션](../send/personalize.md#perso-guardrails)에서 개인화 가드레일에 대해 자세히 알아보세요.
+* [개인화](../send/personalize.md) 요소의 수와 유형: 전자 메일의 개인화는 각 수신자의 데이터를 데이터베이스에서 가져옵니다. 개인화 요소가 많은 경우 게재를 준비하는 데 필요한 데이터의 양이 더 많습니다. 이로 인해 플랫폼이 느려질 수 있습니다. [보호 기능 및 권장 사항](../send/personalize.md#perso-guardrails)에서 개인화 보호 기능에 대해 자세히 알아보세요.
 
 * 서버 로드: 마케팅 서버가 여러 작업을 동시에 처리할 때 성능이 저하될 수 있습니다. 마케팅 서버는 모든 게재에 대해 들어오는 모든 데이터와 나가는 데이터를 조정하여 데이터가 정확하고 정시에 도착하는지 확인해야 합니다.
 이를 방지하려면 팀의 다른 멤버와 게재 일정을 조정하여 최상의 성능을 보장하십시오.
@@ -143,7 +143,7 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 ### 컨트롤 그룹 설정 {#set-up-control-group}
 
-게재가 전송되면 제외된 수신자의 행동을 게재를 받은 수신자와 비교할 수 있습니다. 그런 다음 캠페인의 효율성을 측정할 수 있습니다. [이 섹션](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)에서 컨트롤 그룹에 대해 자세히 알아보세요.
+게재가 전송되면 제외된 수신자의 행동을 게재를 받은 수신자와 비교할 수 있습니다. 그런 다음 캠페인의 효율성을 측정할 수 있습니다. [컨트롤 그룹 추가](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)에서 컨트롤 그룹에 대해 자세히 알아보세요.
 
 ### 유형화를 사용하여 필터 또는 제어 규칙 적용 {#create-typologies}
 
@@ -153,13 +153,13 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 예를 들어 아웃바운드 트래픽을 더 잘 제어하기 위해 하위 도메인당 하나의 선호도를 정의하고 선호도당 하나의 유형화를 만들어 사용할 수 있는 IP 주소를 정의할 수 있습니다. 관심도는 인스턴스의 구성 파일에 정의됩니다. Adobe Campaign 관리자에게 문의하십시오.
 
-유형화에 대한 자세한 내용은 [이 섹션](../../automation/campaign-opt/campaign-typologies.md)을 참조하세요.
+유형화에 대한 자세한 내용은 [캠페인 유형화 시작](../../automation/campaign-opt/campaign-typologies.md)을 참조하세요.
 
 ## 콘텐츠 최적화 {#optimize-content}
 
 ### 개인화된 콘텐츠 작성 {#perso-content}
 
-메시지를 개인화하기 위해 데이터베이스에 저장되거나 추적, 랜딩 페이지, 구독 등을 통해 수집된 수신자의 데이터를 사용할 수 있습니다. Personalization 기본 사항은 [이 섹션](../send/personalize.md)에 나와 있습니다.
+메시지를 개인화하기 위해 데이터베이스에 저장되거나 추적, 랜딩 페이지, 구독 등을 통해 수집된 수신자의 데이터를 사용할 수 있습니다. Personalization 기본 사항은 [개인화 시작](../send/personalize.md)에 나와 있습니다.
 
 +++ **모범 사례 몇 가지 읽기**
 
@@ -171,9 +171,9 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
   %>
   &grave;&grave;
 
-  개인화 블록에 대한 자세한 내용은 [이 섹션](../send/personalization-blocks.md)을 참조하세요.
+  개인화 블록에 대한 자세한 내용은 [개인화 블록 사용](../send/personalization-blocks.md)을 참조하세요.
 
-* 개인화 데이터 준비 - 워크플로우에서 개인화 데이터를 준비하여 게재 준비 분석을 개선할 수 있습니다. 이는 특히 개인화 데이터가 FDA(Federated Data Access)를 통해 외부 테이블에서 가져온 경우 사용해야 합니다. 이 옵션은 [이 섹션](../send/personalization-data.md#optimize-personalization)에 설명되어 있습니다.
+* 개인화 데이터 준비 - 워크플로우에서 개인화 데이터를 준비하여 게재 준비 분석을 개선할 수 있습니다. 이는 특히 개인화 데이터가 FDA(Federated Data Access)를 통해 외부 테이블에서 가져온 경우 사용해야 합니다. 이 옵션은 [개인화 최적화](../send/personalization-data.md#optimize-personalization)에 설명되어 있습니다.
 +++
 
 ### 최적화된 컨텐츠 작성 {#build-optimized-content}
@@ -215,7 +215,7 @@ Campaign 인터페이스에서 주소를 구성하려면 아래 단계를 따르
 
 ### 페이지 미러링 {#mirror-page-check}
 
-항상 미러 페이지 링크를 포함하십시오. 기본 위치는 이메일 맨 위에 있습니다. [이 페이지](../send/mirror-page.md)에서 미러 페이지에 대해 자세히 알아보기
+항상 미러 페이지 링크를 포함하십시오. 기본 위치는 이메일 맨 위에 있습니다. [미러 페이지에 링크 추가](../send/mirror-page.md)에서 미러 페이지에 대해 자세히 알아보세요.
 
 ### 구독 취소 링크 {#unsub-link-check}
 
@@ -320,7 +320,7 @@ Adobe에서는 메시지를 미리 보고 개인화와 수신자가 게재를 �
 
 ## 적합한 대상자 정의 {#define-the-right-audience}
 
-타겟팅된 모집단은 중요합니다. 목록을 신중하게 작성하고, 인기 있는 이메일 클라이언트 및 모바일 디바이스에서 이메일을 테스트하고, 이메일 목록이 최신 상태인지 확인합니다(알 수 없거나 오래된 주소는 없음). 전체 유효성 검사 주기를 설정하는 데 도움이 되는 증명을 보낼 수도 있습니다. [이 섹션](../audiences/gs-audiences.md)에서 대상자에 대해 자세히 알아보십시오.
+타겟팅된 모집단은 중요합니다. 목록을 신중하게 작성하고, 인기 있는 이메일 클라이언트 및 모바일 디바이스에서 이메일을 테스트하고, 이메일 목록이 최신 상태인지 확인합니다(알 수 없거나 오래된 주소는 없음). 전체 유효성 검사 주기를 설정하는 데 도움이 되는 증명을 보낼 수도 있습니다. [Campaign에서 프로필 및 대상자 시작](../audiences/gs-audiences.md)에서 대상자에 대해 자세히 알아보세요.
 
 ### 적합한 대상 타기팅 {#target-the-right-audience}
 

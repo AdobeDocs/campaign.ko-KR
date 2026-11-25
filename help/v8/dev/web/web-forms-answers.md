@@ -21,9 +21,9 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '1069'
 ht-degree: 0%
 ---
 # 웹 양식 답변{#web-forms-answers}
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 양식의 각 입력 필드에 대해 다음 저장소 옵션을 사용할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_select_storage.png)
+![저장소 편집 링크와 받는 사람 및 변수 편집 옵션을 보여 주는 저장소 대화 상자가 있는 성 입력 필드](assets/s_ncs_admin_survey_select_storage.png)
 
 * **[!UICONTROL Edit a recipient]**
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 데이터베이스의 기존 필드에 데이터를 저장하려면 **[!UICONTROL Edit expression]** 아이콘을 클릭하고 사용 가능한 필드 목록에서 선택합니다.
 
-![](assets/s_ncs_admin_survey_storage_type1.png)
+![필드 선택기를 여는 편집 식이 있는 저장소 대화 상자입니다. 여기서 성(@lastName)이 선택됩니다.](assets/s_ncs_admin_survey_storage_type1.png)
 
 >[!NOTE]
 >
@@ -61,15 +61,15 @@ ht-degree: 0%
 
 즉, 저장되지 않은 필드의 값을 사용하여 페이지에 옵션 그룹을 표시하는 권한을 부여할 수 있습니다. 아래 페이지에서 차량 유형은 데이터베이스에 저장되지 않습니다.
 
-![](assets/s_ncs_admin_survey_no_storage_variable.png)
+![저장 공간이 변수 typeV 및 저장소 편집 링크로 설정된 자동차 콤보 상자의 유형입니다.](assets/s_ncs_admin_survey_no_storage_variable.png)
 
 드롭다운 상자를 만들 때 또는 **[!UICONTROL Edit storage...]** 링크를 통해 선택해야 하는 변수에 저장됩니다.
 
-![](assets/s_ncs_admin_survey_no_storage_variable2.png)
+![변수 옵션과 자동차, 이동 트럭 및 개인용 자동차의 드롭다운 목록 유형이 포함된 저장 대화 상자.](assets/s_ncs_admin_survey_no_storage_variable2.png)
 
 **[!UICONTROL Edit variables...]** 링크를 통해 기존 변수를 표시하고 새 변수를 만들 수 있습니다. 새 변수를 만들려면 **[!UICONTROL Add]** 단추를 클릭하십시오.
 
-![](assets/s_ncs_admin_survey_add_a_variable.png)
+![자동차 에너지 레이블 및 이름이 있는 변수 목록 및 변수 편집 대화 상자에 텍스트를 입력하여 변수를 추가합니다.](assets/s_ncs_admin_survey_add_a_variable.png)
 
 추가된 변수는 페이지의 입력 필드가 만들어질 때 로컬 변수 목록에서 사용할 수 있습니다.
 
@@ -81,19 +81,19 @@ ht-degree: 0%
 
 위의 예에서는 가시성 조건에 표시된 대로 드롭다운 목록에서 **[!UICONTROL Private]** 옵션을 선택한 경우에만 개인 차량 관련 데이터가 포함된 컨테이너가 표시됩니다.
 
-![](assets/s_ncs_admin_survey_add_a_condition.png)
+![개인용 자동차 컨테이너 가시성 조건: 개인용 자동차 유형과 같은 자동차 유형](assets/s_ncs_admin_survey_add_a_condition.png)
 
 사용자가 개인 차량을 선택하면 웹 양식에서 다음 옵션을 제공합니다.
 
-![](assets/s_ncs_admin_survey_no_storage_conda.png)
+![차량 예약 양식 페이지에서 선택, 축소, 중간 및 표준으로 차량 유형 드롭다운 목록을 표시합니다.](assets/s_ncs_admin_survey_no_storage_conda.png)
 
 Professional 옵션을 선택하면 가시성 조건으로 표현된 대로 상용차 관련 데이터를 담는 컨테이너가 표시됩니다.
 
-![](assets/s_ncs_admin_survey_view_a_condition.png)
+![트럭/밴 컨테이너 가시성 조건: 원본이 트럭과 같습니다.](assets/s_ncs_admin_survey_view_a_condition.png)
 
 즉, 사용자가 상용 차량을 선택하면 양식에서 다음 옵션을 제공합니다.
 
-![](assets/s_ncs_admin_survey_no_storage_condb.png)
+![이동 트럭이 선택된 차량 예약 양식 및 클래스 드롭다운에 미니버스, 픽업, 화물차 및 20대 트럭이 나열됩니다.](assets/s_ncs_admin_survey_no_storage_condb.png)
 
 ## 수집된 정보 사용 {#using-collected-information}
 
@@ -101,19 +101,19 @@ Professional 옵션을 선택하면 가시성 조건으로 표현된 대로 상�
 
 * 데이터베이스의 필드에 저장된 콘텐츠의 경우:
 
-  ```
+  ```html
   <%=ctx.recipient.@field name%
   ```
 
 * 로컬 변수에 저장된 콘텐츠의 경우:
 
-  ```
+  ```html
   <%= ctx.vars.variable name %
   ```
 
 * HTML 텍스트 필드에 저장된 콘텐츠의 경우:
 
-  ```
+  ```html
   <%== HTML field name %
   ```
 
@@ -125,7 +125,7 @@ Professional 옵션을 선택하면 가시성 조건으로 표현된 대로 상�
 
 양식의 페이지에 수집된 정보를 저장하려면 다이어그램에 저장소 상자를 배치해야 합니다.
 
-![](assets/s_ncs_admin_survey_save_box.png)
+![시작 페이지, 가입, 저장소 및 종료 활동이 있고 저장소 상자가 강조 표시된 웹 폼 다이어그램입니다.](assets/s_ncs_admin_survey_save_box.png)
 
 이 상자를 사용하는 방법에는 두 가지가 있습니다.
 
@@ -139,13 +139,13 @@ Professional 옵션을 선택하면 가시성 조건으로 표현된 대로 상�
 
 * 데이터베이스에서 수신자 데이터를 보강하려면 저장소 상자를 편집하고 조정 키를 선택합니다. 내부 사용(일반적으로 인트라넷 시스템)이나 예를 들어 새 프로필을 만드는 데 사용되는 양식의 경우 조정 필드를 선택할 수 있습니다. 이 상자는 웹 응용 프로그램의 여러 페이지에 사용되는 데이터베이스의 모든 필드를 제공합니다.
 
-  ![](assets/s_ncs_admin_survey_save_box_edit.png)
+  ![받는 사람 필드와 검색 폴더 필드의 조정 옵션 트리가 있는 저장소 활동 대화 상자.](assets/s_ncs_admin_survey_save_box_edit.png)
 
 기본적으로 데이터는 **[!UICONTROL Update or insertion]** 작업을 통해 데이터베이스로 가져옵니다. 데이터베이스에 있으면 요소가 업데이트됩니다(예: 선택한 뉴스레터 또는 입력한 전자 메일 주소). 존재하지 않는 경우 정보가 추가됩니다.
 
 그러나 이 비헤이비어를 변경할 수 있습니다. 이렇게 하려면 요소의 루트를 선택하고 드롭다운 목록에서 수행할 작업을 선택합니다.
 
-![](assets/s_ncs_admin_survey_save_operation.png)
+![저장소 활동 작업 목록: 조정만, 업데이트 또는 삽입, 삽입, 업데이트 및 삭제.](assets/s_ncs_admin_survey_save_operation.png)
 
 조정을 위한 검색 폴더와 새 프로파일을 위한 생성 폴더를 선택할 수 있습니다. 이러한 필드가 비어 있으면 프로필이 검색되어 연산자의 기본 폴더에서 생성됩니다.
 

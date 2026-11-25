@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '3476'
+source-wordcount: '3478'
 ht-degree: 6%
 ---
 # 게재 실패 이해 {#delivery-failures}
@@ -714,7 +714,7 @@ SMPP 커넥터는 정규 표현식(정규 표현식)을 사용하여 반환되�
 
 생성된 메시지의 예:
 
-```
+```text
 SR Generic DELIVRD 000|#MESSAGE#
 ```
 
@@ -750,7 +750,7 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 수신자 메시지가 다음 내용을 포함하는 &quot;연결할 수 없음&quot; 오류로 인해 실패:
 
-```
+```text
 Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
 ```
 
@@ -758,13 +758,13 @@ Error while compiling script 'content htmlContent' line X: `[table]` is not defi
 
 **해결 방법**: 워크플로우 및 게재 콘텐츠를 검토하여 해당 테이블을 호출하려는 개인화를 구체적으로 결정하십시오. 그런 다음 HTML에서 이 테이블에 대한 호출을 제거하거나 게재에 대한 매핑을 수정합니다.
 
-[이 섹션](personalize.md)에서 개인화에 대해 자세히 알아보세요.
+[개인화 시작](personalize.md)에서 개인화에 대해 자세히 알아보세요.
 
 ### 여러 개인화 값 오류 {#multiple-values-error}
 
 게재가 실패하면 게재 로그에 다음 오류가 표시될 수 있습니다.
 
-```
+```text
 DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
 ```
 
@@ -776,7 +776,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 일부 게재는 다음을 진술하는 &quot;연결할 수 없음&quot; 오류와 함께 실패할 수 있습니다.
 
-```
+```text
 Inbound email bounce (rule 'Auto_replies' has matched this bounce).
 ```
 

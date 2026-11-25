@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 14%
+source-wordcount: '319'
+ht-degree: 12%
 ---
 # [!DNL Campaign] API 시작 {#gs-ac-api}
 
@@ -69,7 +69,7 @@ ht-degree: 14%
 API를 사용하고 [!DNL Adobe Campaign]과(와) 상호 작용하려면 데이터 모델도 잘 알고 있어야 합니다.
 
 >[!NOTE]
->데이터 모델에 대한 전체 설명을 생성할 수 있습니다. [이 페이지](datamodel.md)에서 자세히 알아보십시오.
+>데이터 모델에 대한 전체 설명을 생성할 수 있습니다. [Campaign 데이터 모델 시작](datamodel.md)에서 자세히 알아보세요.
 
 
 **관련 항목**

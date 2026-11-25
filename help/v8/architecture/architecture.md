@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 10%
+source-wordcount: '1166'
+ht-degree: 9%
 ---
 # Campaign 아키텍처 시작{#gs-ac-archi}
 
@@ -62,7 +62,7 @@ Campaign은 각 인스턴스가 전체 Campaign 환경을 나타내는 개별 �
 [FDA 배포](fda-deployment.md)에서 [!DNL Adobe Campaign] v8을(를) [!DNL Snowflake]에 연결하여 Federated Data Access 기능을 통해 데이터에 액세스할 수 있습니다. Adobe Campaign 데이터의 구조를 변경하지 않고 [!DNL Snowflake] 데이터베이스에 저장된 외부 데이터 및 정보에 액세스하고 처리할 수 있습니다. PostgreSQL은 기본 데이터베이스이며 Snowflake을 보조 데이터베이스로 사용하여 데이터 모델을 확장하고 데이터를 Snowflake에 저장할 수 있습니다. 그런 다음 ETL, 세그먼테이션 및 뛰어난 성능이 포함된 대규모 데이터 세트에 대한 보고서를 실행할 수 있습니다.
 
 
-![](assets/P1-P3-architecture.png){zoomable="yes"}
+![Campaign v8 FDA 아키텍처: 응용 프로그램 서버, Postgres 및 Snowflake 데이터베이스, 실시간 및 일괄 게재 서버](assets/P1-P3-architecture.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Campaign은 각 인스턴스가 전체 Campaign 환경을 나타내는 개별 �
 
 Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8 엔터프라이즈(FFDA) 배포는 이 새로운 아키텍처를 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 테이블을 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
 
-![](assets/P4-architecture.png){zoomable="yes"}
+![Campaign v8 FFDA 아키텍처: 애플리케이션 서버, Snowflake이 포함된 클라우드 데이터베이스, Postgres 복제, 게재 서버](assets/P4-architecture.png){zoomable="yes"}
 
 
 ## 분할 게재 실행 {#split}
@@ -97,7 +97,7 @@ Campaign v8 패키지에 따라 게재 실행을 담당하는 특정 수의 중�
 * 분할 게재 - iOS(splitDeliveryIOS)
 * 분할 게재 - Android(splitDeliveryAndroid)
 
-![](assets/splitted-delivery.png)
+![외부 계정 분할 게재 - 전자 메일: 라우팅 유형, 전자 메일 채널, 중간 소싱 게재 모드, 이름 splitDeliveryEmail](assets/splitted-delivery.png)
 
 >[!IMPORTANT]
 >
@@ -109,11 +109,11 @@ Campaign v8 패키지에 따라 게재 실행을 담당하는 특정 수의 중�
 
 1. **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Delivery templates]** 폴더로 이동하여 원하는 게재 템플릿을 엽니다. 이 예제에서는 이메일 게재 템플릿을 편집하려고 합니다.
 
-   ![](assets/split-default-list.png)
+   ![전자 메일 게재 템플릿(메일)이 선택된 리소스, 템플릿의 게재 템플릿 목록](assets/split-default-list.png)
 
 1. **[!UICONTROL Properties]** 단추를 클릭하고 라우팅 공급자를 해당 분할 게재 외부 계정으로 변경하십시오.
 
-   ![](assets/split-default-delivery.png)
+   ![라우팅 필드와 SplitEmail을 표시하는 외부 계정 목록이 있는 게재 속성 대화 상자](assets/split-default-delivery.png)
 
 1. 변경 내용을 저장합니다. 이제 템플릿을 사용하여 보낸 모든 게재는 기본적으로 분할 라우팅 모드를 사용하게 됩니다.
 
@@ -127,7 +127,7 @@ In addition, you can select split external accounts as the default routing provi
 
 트랜잭션 메시지(메시지 센터)는 트리거 메시지를 관리하기 위해 고안된 Campaign 모듈입니다.
 
-[이 섹션](../send/transactional.md)에서 트랜잭션 메시지를 보내는 방법을 알아보세요.
+[캠페인 트랜잭션 메시지](../send/transactional.md)에서 트랜잭션 메시지를 보내는 방법을 알아보세요.
 
 웹 사이트에서의 고객 동작에 대한 응답으로, REST API를 통해 이벤트가 Campaign으로 전송되고, 메시지 템플릿에 API 호출을 통해 제공된 정보나 데이터가 채워지고, 트랜잭션 메시지가 실시간으로 고객에게 전송됩니다. 이러한 메시지는 이메일, SMS 또는 푸시 알림을 통해 개별적으로 또는 일괄적으로 전송할 수 있습니다.
 
@@ -135,7 +135,7 @@ In addition, you can select split external accounts as the default routing provi
 
 * **제어 인스턴스**(또는 마케팅 인스턴스)는 마케터와 IT 팀에서 메시지 템플릿을 만들고 구성하고 게시하는 데 사용됩니다. 또한 이 인스턴스는 이벤트 모니터링 및 내역을 중앙 집중화합니다.
 
-  [이 섹션](../send/transactional.md)에서 메시지 템플릿을 만들고 게시하는 방법을 알아봅니다.
+  [캠페인 트랜잭션 메시지](../send/transactional.md)에서 메시지 템플릿을 만들고 게시하는 방법에 대해 알아봅니다.
 
 * **실행 인스턴스**&#x200B;는 들어오는 이벤트(예: 암호 재설정 또는 웹 사이트의 주문)를 검색하고 개인화된 메시지를 보냅니다. 로드 밸런서를 통해 메시지를 처리하고 최대 가용성을 위해 처리할 이벤트 수를 확장하기 위한 실행 인스턴스가 두 개 이상 있을 수 있습니다.
 
@@ -143,7 +143,7 @@ In addition, you can select split external accounts as the default routing provi
 >
 >제어 인스턴스와 실행 인스턴스를 다른 컴퓨터에 설치해야 합니다. 동일한 Campaign 인스턴스를 공유할 수 없습니다.
 
-![](assets/messagecenter_diagram.png)
+![메시지 센터: 웹 사이트 이벤트가 메시지를 보내는 제어 인스턴스 P 및 실행 인스턴스 E1~EN에 도달합니다](assets/messagecenter_diagram.png)
 
 ### 인증
 
@@ -156,4 +156,4 @@ Adobe 호스팅 메시지 센터 실행 인스턴스와 상호 작용할 때 외
 * 여러 실행 인스턴스
 로드 밸런서 뒤에 여러 실행 인스턴스가 있는 다중 셀 실행 아키텍처에서 외부 애플리케이션에서 호출한 로그온 메소드가 로드 밸런서를 거칩니다. 따라서 토큰 기반 인증을 사용할 수 없습니다. 사용자/암호 기반 인증이 필요합니다.
 
-[이 페이지](../send/event-processing.md)에서 트랜잭션 메시지 이벤트에 대해 자세히 알아보세요.
+[이벤트 수집 및 처리](../send/event-processing.md)에서 트랜잭션 메시지 이벤트에 대해 자세히 알아보세요.

@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '678'
 ht-degree: 2%
 ---
 # 감사 추적{#audit-trail}
@@ -105,7 +105,7 @@ Adobe Campaign의 **[!UICONTROL Audit trail]** 기능은 인스턴스 내의 중
 
 1. **[!UICONTROL Administration]** 메뉴에서 **[!UICONTROL Audit]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Audit Trail]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/audit-trail-1.png)
+   ![관리, 감사, 감사 추적이 선택된 탐색기 트리 및 감사된 엔터티 목록](assets/audit-trail-1.png)
 
 1. 엔터티 목록과 함께 **[!UICONTROL Audit trail]** 창이 열립니다. Adobe Campaign은 다른 엔티티에 대한 만들기, 편집 및 삭제 작업을 감사합니다.
 
@@ -119,7 +119,7 @@ Adobe Campaign의 **[!UICONTROL Audit trail]** 기능은 인스턴스 내의 중
    * **[!UICONTROL Action]**: 이 엔터티에서 마지막으로 수행한 작업(생성됨, 수정됨 또는 삭제됨)입니다.
    * **[!UICONTROL Modification date]**: 이 엔터티에서 마지막으로 수행한 작업의 날짜입니다.
 
-   ![](assets/audit-trail-2.png)
+   ![유형, 엔티티, 수정자, 작업 및 수정 날짜를 표시하는 감사 엔티티 세부 정보](assets/audit-trail-2.png)
 
 >[!NOTE]
 >
@@ -148,10 +148,10 @@ Adobe Campaign의 **[!UICONTROL Audit trail]** 기능은 인스턴스 내의 중
    * 연산자: **[!UICONTROL XtkAudit_Operator]**
    * 모든 엔터티: **[!UICONTROL XtkAudit_Enable_All]**
 
-   ![](assets/audit-trail-3.png)
+   ![관리 아래의 옵션 목록, XtkAudit_Delivery 옵션이 선택된 XtkAudit_에서 플랫폼이 필터링됨](assets/audit-trail-3.png)
 
 1. 엔터티를 활성화하려면 **[!UICONTROL Value]**&#x200B;을(를) 1로 변경하고, 비활성화하려면 0으로 변경합니다.
 
-   ![](assets/audit-trail-4.png)
+   ![값(정수) 필드가 1로 설정된 XtkAudit_Delivery 옵션을 사용하여 감사 추적을 사용하도록 설정합니다](assets/audit-trail-4.png)
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.

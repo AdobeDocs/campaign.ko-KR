@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '2111'
-ht-degree: 2%
+source-wordcount: '2528'
+ht-degree: 1%
 ---
 # 이메일 콘텐츠 정의 {#defining-the-email-content}
 
@@ -39,11 +39,11 @@ ht-degree: 2%
 
 보낸 메시지의 머리글에 표시할 보낸 사람의 이름과 주소를 정의하려면 **[!UICONTROL From]** 링크를 클릭하십시오.
 
-![](assets/s_ncs_user_wizard_email02.png)
+![시작 필드에 개인화 메뉴를 사용하여 시작 링크에서 전자 메일 헤더 매개 변수 대화 상자를 열었습니다](assets/s_ncs_user_wizard_email02.png)
 
 이 창에서는 전자 메일 메시지 머리글을 만드는 데 필요한 모든 정보를 입력할 수 있습니다. 이러한 정보는 개인화할 수 있습니다. 이렇게 하려면 입력 필드 오른쪽에 있는 버튼을 사용하여 개인화 필드를 삽입합니다.
 
-개인화 필드를 삽입하고 사용하는 방법을 알아보려면 [이 섹션](personalize.md)을 참조하세요.
+개인화 필드를 삽입하고 사용하는 방법을 알아보려면 [개인화 시작](personalize.md)을 참조하세요.
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ ht-degree: 2%
 >
 >메시지 제목은 필수입니다.
 
-![](assets/s_ncs_user_wizard_email_object.png)
+![받는 사람에게 개인 설정 메뉴를 열어 이름을 삽입할 수 있는 메시지 제목 편집 대화 상자](assets/s_ncs_user_wizard_email_object.png)
 
 필드 콘텐츠는 메시지를 보낼 때 수신자 프로필의 값으로 대체됩니다.
 
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->개인화 필드 사용은 [이 섹션](personalize.md)에 나와 있습니다.
+>개인화 필드 사용은 [개인화 시작](personalize.md)에 나와 있습니다.
 
 **[!UICONTROL Insert emoticon]** 팝업 창을 사용하여 제목 줄에 이모티콘을 삽입할 수도 있습니다.
 
@@ -96,7 +96,7 @@ ht-degree: 2%
 
 * HTML 콘텐츠를 가져오려면 **[!UICONTROL Open]** 단추를 사용하십시오. 소스 코드를 **[!UICONTROL Source]** 하위 탭에 직접 붙여넣을 수도 있습니다.
 
-  DCE(디지털 콘텐츠 편집기)를 사용하는 경우 [이 섹션](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content)을 참조하세요.
+  DCE(디지털 콘텐츠 편집기)를 사용하는 경우 [3단계 - 콘텐츠 선택](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content)을 참조하세요.
 
   >[!IMPORTANT]
   >
@@ -106,11 +106,11 @@ ht-degree: 2%
 
   도구 모음 버튼은 HTML 페이지의 표준 작업 및 형식 매개 변수에 대한 액세스를 제공합니다.
 
-  ![](assets/s_ncs_user_wizard_email01_138.png)
+  서식 도구 모음과 하이퍼텍스트 링크 삽입 단추가 강조 표시된 ![HTML 콘텐츠 탭](assets/s_ncs_user_wizard_email01_138.png)
 
   Adobe Campaign의 로컬 파일 또는 이미지 라이브러리의 메시지에 이미지를 삽입할 수 있습니다. 이렇게 하려면 **[!UICONTROL Image]** 아이콘을 클릭하고 적절한 옵션을 선택합니다.
 
-  ![](assets/s_ncs_user_wizard_email01_18.png)
+  ![로컬 파일에서 및 라이브러리에서 옵션이 있는 HTML 도구 모음의 이미지 단추 메뉴](assets/s_ncs_user_wizard_email01_18.png)
 
   폴더 트리의 **[!UICONTROL Resources>Online>Public resources]** 폴더를 통해 라이브러리 이미지에 액세스할 수 있습니다. [이미지 추가](#adding-images)도 참조하세요.
 
@@ -118,40 +118,40 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  >개인화 필드 사용은 [이 섹션](personalize.md)에 나와 있습니다.
+  >개인화 필드 사용은 [개인화 시작](personalize.md)에 나와 있습니다.
 
   페이지 하단에 있는 탭에서는 생성 중인 페이지의 HTML 코드를 표시하고 개인화와 함께 메시지 렌더링을 볼 수 있습니다. 이 표시를 시작하려면 **[!UICONTROL Preview]**&#x200B;을(를) 클릭하고 도구 모음의 **[!UICONTROL Test personalization]** 단추를 사용하여 받는 사람을 선택합니다. 정의된 대상에서 수신자를 선택하거나 다른 수신자를 선택할 수 있습니다.
 
-  ![](assets/s_ncs_user_wizard_email01_139.png)
+  ![HTML 콘텐츠 탭에서 미리 보기: 받는 사람, 시드 주소 또는 대상 모집단을 선택하는 개인화 메뉴](assets/s_ncs_user_wizard_email01_139.png)
 
   HTML 메시지의 유효성을 검사할 수 있습니다. 이메일 헤더의 콘텐츠를 볼 수도 있습니다.
 
-  ![](assets/s_ncs_user_wizard_email01_140.png)
+  ![선택한 받는 사람에 대한 HTML 미리 보기(개인 맞춤화된 제목과 콘텐츠 및 보낸 사람, 제목 및 크기 헤더 포함)](assets/s_ncs_user_wizard_email01_140.png)
 
 * 텍스트 콘텐츠를 가져오려면 **[!UICONTROL Open]** 단추 또는 **[!UICONTROL Text Content]** 탭을 사용하여 텍스트 형식으로 표시할 때 메시지의 내용을 입력합니다. 도구 모음 단추를 사용하여 콘텐츠에 대한 작업에 액세스합니다. 마지막 버튼을 사용하여 개인화 필드를 삽입할 수 있습니다.
 
-  ![](assets/s_ncs_user_wizard_email01_141.png)
+  일반 텍스트 메시지 원본과 개인화 필드가 있는 ![텍스트 콘텐츠 탭](assets/s_ncs_user_wizard_email01_141.png)
 
   HTML 형식인 경우 페이지 하단의 **[!UICONTROL Preview]** 탭을 클릭하여 개인화된 메시지 렌더링을 확인합니다.
 
-  ![](assets/s_ncs_user_wizard_email01_142.png)
+  ![선택한 받는 사람에 대한 텍스트 콘텐츠 미리 보기(개인 맞춤화된 텍스트와 미러 페이지 및 구독 취소 블록 포함)](assets/s_ncs_user_wizard_email01_142.png)
 
 
 ## 대화형 콘텐츠 정의 {#amp-for-email-format}
 
 Adobe Campaign을 사용하면 특정 조건에서 동적 이메일을 보낼 수 있는 새로운 대화형 [AMP for Email](https://amp.dev/about/email/) 형식을 시도할 수 있습니다.
 
-자세한 내용은 [이 섹션](defining-interactive-content.md)을 참조하십시오.
+자세한 내용은 [Adobe Campaign에서 대화형 콘텐츠 정의](defining-interactive-content.md)를 참조하십시오.
 
 ## 콘텐츠 관리 사용 {#using-content-management}
 
 콘텐츠 관리 양식을 사용하여 게재 도우미에서 직접 게재 콘텐츠를 정의할 수 있습니다. 이렇게 하려면 게재 속성의 **[!UICONTROL Advanced]** 탭에서 사용할 콘텐츠 관리의 게시 템플릿을 참조해야 합니다.
 
-![](assets/s_ncs_content_in_delivery.png)
+템플릿 필드에서 게시 템플릿을 선택한 ![게재 속성 고급 탭](assets/s_ncs_content_in_delivery.png)
 
 추가 탭에서는 콘텐츠 관리 규칙에 따라 자동으로 통합되고 형식이 지정된 콘텐츠를 입력할 수 있습니다.
 
-![](assets/s_ncs_content_in_delivery_edition_tab.png)
+![콘텐츠 템플릿을 사용하여 게재, 채울 콘텐츠 필드가 있는 편집 탭 표시](assets/s_ncs_content_in_delivery_edition_tab.png)
 
 >[!NOTE]
 >
@@ -164,7 +164,7 @@ Adobe Campaign을 사용하면 특정 조건에서 동적 이메일을 보낼 �
 1. **[!UICONTROL Insert emoticon]** 아이콘을 클릭합니다.
 1. 팝업 창에서 이모티콘을 선택합니다.
 
-   ![](assets/emoticon_4.png)
+   ![사용 가능한 이모티콘을 나열하는 이모티콘 팝업 창 삽입(HTML 콘텐츠에 대해 선택한 이모티콘 포함)](assets/emoticon_4.png)
 
 1. 완료되면 **[!UICONTROL Close]** 단추를 클릭합니다.
 
@@ -196,7 +196,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
 게재 도우미에서 로컬 이미지 또는 라이브러리에 저장된 이미지를 메시지 콘텐츠에 추가할 수 있습니다. 이렇게 하려면 HTML 콘텐츠 도구 모음에서 **[!UICONTROL Image]** 단추를 클릭합니다.
 
-![](assets/s_ncs_user_image_from_library.png)
+[라이브러리에서] 옵션이 선택된 HTML 도구 모음의 ![이미지 단추 메뉴](assets/s_ncs_user_image_from_library.png)
 
 >[!IMPORTANT]
 >
@@ -205,18 +205,18 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 게재 도우미를 통해 이미지를 관리하려면 다음을 수행하십시오.
 
 1. 도구 모음에서 **[!UICONTROL Tracking & Images]** 아이콘을 클릭합니다.
-   ![](assets/s_ncs_user_email_del_img_param.png)
+   ![게재 도구 모음에 강조 표시된 추적 및 이미지 단추](assets/s_ncs_user_email_del_img_param.png)
 
 1. **[!UICONTROL Images]** 탭에서 **[!UICONTROL Upload images]**&#x200B;을(를) 선택합니다.
 1. 그런 다음 이메일 메시지에 이미지를 포함할지 여부를 선택할 수 있습니다.
-   ![](assets/s_ncs_user_email_del_img_upload.png)
+   ![이미지 업로드가 선택된 이미지 탭과 아직 온라인 상태가 아닌 검색된 이미지 목록](assets/s_ncs_user_email_del_img_upload.png)
 
 * 게재 분석 단계를 기다리지 않고 이미지를 수동으로 업로드할 수 있습니다. 이렇게 하려면 **[!UICONTROL Upload the images straightaway...]** 링크를 클릭하십시오.
 * 추적 서버의 이미지에 액세스하기 위한 다른 경로를 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL Images URL]** 필드에 입력하십시오. 이 값은 설치 도우미의 매개 변수에 정의된 값을 재정의합니다.
 
 게재 도우미에 포함된 이미지가 있는 HTML 콘텐츠를 열면 메시지가 게재 매개 변수에 따라 이미지를 즉시 업로드할 수 있는 옵션을 제공합니다.
 
-![](assets/s_ncs_user_email_del_img_local.png)
+![예 및 아니요 단추를 사용하여 열려 있는 HTML 파일의 상대 이미지를 지금 게시할지 묻는 메시지 표시](assets/s_ncs_user_email_del_img_local.png)
 
 >[!IMPORTANT]
 >
@@ -227,11 +227,11 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
 다음은 네 가지 이미지가 포함된 게재 샘플입니다.
 
-![](assets/s_ncs_user_images_in_delivery_wiz_1.png)
+![4개의 이미지를 가리키는 화살표가 있는 게재의 HTML 콘텐츠](assets/s_ncs_user_images_in_delivery_wiz_1.png)
 
 이러한 이미지는 **[!UICONTROL Source]** 탭에서 확인할 수 있는 로컬 디렉터리 또는 웹 사이트에서 가져온 것입니다.
 
-![](assets/s_ncs_user_images_in_delivery_wiz_2.png)
+로컬 디렉터리 또는 웹 사이트의 이미지 경로를 표시하는 게재의 ![Source 탭, 화살표로 표시](assets/s_ncs_user_images_in_delivery_wiz_2.png)
 
 **[!UICONTROL Tracking & Images]** 아이콘을 클릭한 다음 **[!UICONTROL Images]** 탭을 클릭하여 메시지에서 이미지 검색을 시작합니다.
 
@@ -249,7 +249,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
 다른 Adobe Campaign 운영자가 볼 수 있도록 미리 작업하고 이미지를 업로드할 수 있습니다. 공동 작업을 하는 경우 이 기능이 유용할 수 있습니다. 이렇게 하려면 **[!UICONTROL Upload the images straightaway...]**&#x200B;을(를) 클릭하여 이미지를 서버에 업로드하십시오.
 
-![](assets/s_ncs_user_images_in_delivery_wiz_3.png)
+![아직 온라인 상태가 아닌 로컬 이미지 경로를 나열하는 이미지 탭과 바로 이미지 업로드 링크](assets/s_ncs_user_images_in_delivery_wiz_3.png)
 
 >[!NOTE]
 >
@@ -257,11 +257,11 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
 이미지가 온라인 상태이면 메시지의 **[!UICONTROL Source]** 탭에서 해당 이름과 경로에 대한 변경 내용을 볼 수 있습니다.
 
-![](assets/s_ncs_user_images_in_delivery_wiz_4.png)
+업로드 후 ![Source 탭(이미지 URL은 화살표로 표시된 새 경로로 대체됨](assets/s_ncs_user_images_in_delivery_wiz_4.png))
 
 **[!UICONTROL Include the images in the email]**&#x200B;을(를) 선택하면 해당 열에 포함할 이미지를 선택할 수 있습니다.
 
-![](assets/s_ncs_user_images_in_delivery_wiz_5.png)
+![선택한 전자 메일에 이미지 포함 및 이미지에 대한 전자 메일에 포함 옵션이 있는 이미지 탭](assets/s_ncs_user_images_in_delivery_wiz_5.png)
 
 >[!NOTE]
 >
@@ -275,7 +275,7 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
 이메일에 바코드를 삽입하려면 표시하려는 콘텐츠에 커서를 놓은 다음 개인화 버튼을 클릭합니다. **[!UICONTROL Include > Barcode...]**&#x200B;을(를) 선택합니다.
 
-![](assets/barcode_insert_14.png)
+포함 및 바코드 옵션이 선택된 HTML 편집기의 ![Personalization 메뉴](assets/barcode_insert_14.png)
 
 그런 다음 필요에 맞게 다음 요소를 구성합니다.
 
@@ -285,28 +285,28 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
      1D 바코드의 예:
 
-     ![](assets/barcode_insert_08.png)
+     ![번호가 아래에 있는 1D 바코드의 예](assets/barcode_insert_08.png)
 
    * DataMatrix 및 PDF417 유형은 2D 포맷과 관련이 있습니다.
 
      2D 바코드의 예:
 
-     ![](assets/barcode_insert_09.png)
+     ![2D DataMatrix 바코드의 예](assets/barcode_insert_09.png)
 
    * QR 코드를 삽입하려면 이 유형을 선택하고 적용할 오류 수정 비율을 입력합니다. 이 비율은 반복되는 정보의 양과 악화 허용 한도를 정의합니다.
 
-     ![](assets/barcode_insert_06.png)
+     ![QR 코드 형식의 바코드 설정, 개인화 필드가 있는 값 및 30% 오류 수정](assets/barcode_insert_06.png)
 
      QR 코드의 예:
 
-     ![](assets/barcode_insert_12.png)
+     ![QR 코드의 예](assets/barcode_insert_12.png)
 
 1. 이메일에 삽입할 바코드의 크기를 입력합니다. 크기를 구성하면 바코드의 크기를 x1에서 x10으로 늘리거나 줄일 수 있습니다.
 1. **[!UICONTROL Value]** 필드를 사용하면 바코드의 값을 정의할 수 있습니다. 값은 특별 오퍼와 일치할 수 있으며 기준의 함수가 될 수 있습니다. 이 값은 고객에 연결된 데이터베이스 필드의 값이 될 수 있습니다.
 
    이 예에서는 수신자의 계정 번호가 추가된 EAN-8 유형 바코드를 보여 줍니다. 이 계정 번호를 추가하려면 **[!UICONTROL Value]** 필드 오른쪽에 있는 개인화 단추를 클릭하고 **[!UICONTROL Recipient > Account number]**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/barcode_insert_15.png)
+   ![받는 사람 및 계정 번호가 선택된 바코드 값 필드 개인화 메뉴](assets/barcode_insert_15.png)
 
 1. **[!UICONTROL Height]** 필드를 사용하면 각 막대 사이의 간격을 변경하여 바코드의 너비를 변경하지 않고 바코드의 높이를 구성할 수 있습니다.
 
@@ -322,10 +322,10 @@ HTML 형식 이메일 게재에 이미지가 포함될 수 있습니다. 게재 
 
 이러한 요소가 구성되면 이메일을 마무리하여 보낼 수 있습니다. 오류를 방지하려면 게재를 수행하기 전에 **[!UICONTROL Preview]** 탭을 클릭하여 콘텐츠가 올바르게 표시되는지 항상 확인하십시오.
 
-![](assets/barcode_insert_10.png)
+![개인화된 메시지 콘텐츠의 끝에 QR 코드가 삽입된 게재 미리 보기](assets/barcode_insert_10.png)
 
 >[!NOTE]
 >
 >바코드의 값이 올바르지 않으면 비트맵이 빨간색으로 교차하여 표시됩니다.
 
-![](assets/barcode_insert_11.png)
+![잘못된 바코드 값이 빨간색으로 왜곡된 바코드를 표시하는 전자 메일 미리 보기](assets/barcode_insert_11.png)

@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '822'
 ht-degree: 1%
 ---
 # 열거형을 사용한 작업 {#enumerations}
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 정의된 값은 드롭다운 목록에 표시됩니다. 값을 직접 선택하거나 일치하는 항목을 제안하고 완료하는 예측 입력을 사용하여 입력할 수 있습니다. 일부 필드에는 사전 정의된 열거형이 포함되어 있으며, 필요한 경우 추가 열거형을 만들 수 있습니다.
 
-![](assets/enum_values.png)
+![언어 드롭다운이 열려 있고 열거형 값이 영어, 프랑스어, 이탈리아어, 러시아어 및 스페인어로 나열된 수신자 양식](assets/enum_values.png)
 
 
 ## 열거형 유형 {#types-of-enum}

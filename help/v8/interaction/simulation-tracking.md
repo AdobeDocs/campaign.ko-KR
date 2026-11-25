@@ -29,10 +29,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 8%
+source-wordcount: '198'
+ht-degree: 7%
 ---
 # 시뮬레이션 추적{#simulation-tracking}
 
@@ -46,10 +46,10 @@ ht-degree: 8%
 
 설명 분석 도우미에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"}을 참조하세요.
 
-![](assets/offer_simulation_012.png)
+![오퍼별 제안 분류 및 결과 설명 분석이 포함된 시뮬레이션 결과 탭](assets/offer_simulation_012.png)
 
 피벗 테이블을 사용하면 순위별 오퍼 분류를 빠르게 볼 수 있습니다. Adobe Campaign의 모든 보고서와 마찬가지로 웹 브라우저에서 내보내기, 인쇄, 보관 또는 표시할 수 있습니다.
 
 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}을 참조하십시오.
 
-![](assets/offer_simulation_013.png)
+![시뮬레이션 대시보드, 등급별 오퍼 분류 보고서, 오퍼 순위 표, 파이 차트 및 내보내기 도구 모음](assets/offer_simulation_013.png)

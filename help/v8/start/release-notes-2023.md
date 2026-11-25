@@ -38,14 +38,14 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1521'
 ht-degree: 53%
 ---
 # 2023 릴리스 정보 {#2023-rn}
 
-이 페이지에는 **2023 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 해결 사항이 나와 있습니다. 최신 릴리스는 [이 페이지](release-notes.md)를 참조하세요.
+이 페이지에는 **2023 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 해결 사항이 나와 있습니다. 최신 릴리스는 [Campaign v8 릴리스 정보](release-notes.md)를 참조하세요.
 
 새 구현이나 기존 환경으로 업그레이드하려면 [최신 릴리스](release-notes.md)를 설치하십시오.
 
@@ -105,7 +105,7 @@ Campaign v8.5.1은 최신 첨단 기술을 기반으로 구축된 강력한 프�
 
 * 이제 Adobe Experience Platform 대상 연결을 활용하여 Adobe Experience Platform과 Campaign v8 데이터베이스 간에 옵트아웃 데이터와 같은 프로필 속성을 동기화할 수 있습니다.
 * 모든 채널에서 게재 준비가 최적화되었습니다.
-* 기존 사용자/암호 인증 방식과 함께 SFTP 외부 계정에 대해 새로운 키 기반 인증 옵션이 추가되었습니다. 이제 사용자는 개인 키를 사용하여 안전하게 인증할 수 있으므로 보안을 강화하고 SFTP 액세스에 대한 대체 인증 메커니즘을 제공합니다. [이 섹션](../config/external-accounts.md)에서 자세히 알아보십시오.
+* 기존 사용자/암호 인증 방식과 함께 SFTP 외부 계정에 대해 새로운 키 기반 인증 옵션이 추가되었습니다. 이제 사용자는 개인 키를 사용하여 안전하게 인증할 수 있으므로 보안을 강화하고 SFTP 액세스에 대한 대체 인증 메커니즘을 제공합니다. [Campaign 외부 계정](../config/external-accounts.md)에서 자세히 알아보세요.
 
 **향상된 보안 기능**
 

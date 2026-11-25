@@ -33,10 +33,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 7%
+source-wordcount: '1158'
+ht-degree: 6%
 ---
 # 푸시 알림 구성 및 전송{#push-notifications-create}
 
@@ -59,7 +59,7 @@ Adobe Campaign을 사용하여 푸시 알림 전송을 시작하기 전에 모�
 
 새 게재를 만들려면 **[!UICONTROL Campaigns]** 탭으로 이동하여 **[!UICONTROL Deliveries]**&#x200B;을(를) 클릭하고 기존 게재 목록 위에 있는 **[!UICONTROL Create]** 단추를 클릭합니다.
 
-![](assets/delivery_step_1.png)
+![캠페인 탭의 게재 목록(게재 링크 강조 표시) 및 만들기 단추의 화살표](assets/delivery_step_1.png)
 
 
 기본적으로 Adobe Campaign에는 두 개의 게재 템플릿이 제공됩니다(iOS용 템플릿, Android용 템플릿). 이를 복제하여 자신만의 설정을 정의할 수 있습니다. 이러한 템플릿을 기반으로 푸시 게재를 구성하는 단계는 아래에 자세히 설명되어 있습니다.
@@ -72,19 +72,19 @@ iOS 디바이스에서 알림을 보내려면 다음 단계를 따르십시오.
 
 1. **[!UICONTROL Deliver on iOS]** 게재 템플릿을 선택하십시오.
 
-   ![](assets/push_ios_1.png)
+   ![계속을 클릭하기 전에 iOS(ios)에서 게재가 선택된 게재 템플릿 목록](assets/push_ios_1.png)
 
 1. 알림 대상을 정의하려면 **[!UICONTROL To]** 링크를 클릭한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/push_ios_2.png)
+   ![구독자 응용 프로그램 매핑이 포함된 대상 선택 대화 상자 및 배달 대상 모집단의 추가 단추](assets/push_ios_2.png)
 
 1. **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**&#x200B;을(를) 선택하고 모바일 응용 프로그램과 관련된 서비스를 선택한 다음 응용 프로그램의 iOS 버전을 선택합니다.
 
-   ![](assets/push_ios_3.png)
+   ![iOS 모바일 애플리케이션(iPhone, iPad)의 구독자를 선택한 대상 유형 단계](assets/push_ios_3.png)
 
 1. **[!UICONTROL General notification (Alert, Sound, Badge)]**&#x200B;과(와) **[!UICONTROL Silent notification]** 중 **[!UICONTROL Notification type]**&#x200B;을(를) 선택하세요.
 
-   ![](assets/push_ios_4.png)
+   알림 유형이 있는 ![일반 탭: 일반 알림(경고, 소리, 배지) 또는 자동 알림](assets/push_ios_4.png)
 
    >[!NOTE]
    >
@@ -115,7 +115,7 @@ iOS 디바이스에서 알림을 보내려면 다음 단계를 따르십시오.
      >사운드는 애플리케이션에 포함되어야 하며 서비스를 만들 때 정의되어야 합니다.
      >
 
-   ![](assets/push_ios_5.png)
+   ![배지 값, 정리 배지, 중요 경고 모드 및 사운드 이름 설정이 있는 사운드 및 배지 탭](assets/push_ios_5.png)
 
 1. **[!UICONTROL Application variables]** 탭에서 **[!UICONTROL Application variables]**&#x200B;이(가) 자동으로 추가됩니다. 알림 동작을 정의할 수 있습니다. 예를 들어, 사용자가 알림을 활성화할 때 특정 애플리케이션 화면이 표시되도록 구성할 수 있습니다.
 
@@ -127,7 +127,7 @@ iOS 디바이스에서 알림을 보내려면 다음 단계를 따르십시오.
 
    * **[!UICONTROL Category]**: 작업 단추를 표시할 범주 ID의 이름입니다. 이러한 알림은 사용자가 애플리케이션을 열거나 탐색하지 않고도 알림에 응답하여 다른 작업을 보다 빠르게 수행할 수 있도록 합니다.
 
-   ![](assets/push_ios_6.png)
+   ![변경 가능한 콘텐츠, 스레드 ID 및 범주 필드가 강조 표시된 고급 탭](assets/push_ios_6.png)
 
 1. 시간 구분 알림의 경우 다음 옵션을 지정할 수 있습니다.
 
@@ -147,11 +147,11 @@ iOS 디바이스에서 알림을 보내려면 다음 단계를 따르십시오.
 
    * **[!UICONTROL Relevance score]**: 관련성 점수를 0에서 100으로 설정합니다. 시스템은 이 옵션을 사용하여 알림 요약의 알림을 정렬합니다.
 
-   ![](assets/push_ios_7.png)
+   ![대상 콘텐츠 ID, 시작 이미지, 중단 수준 및 관련성 점수가 채워진 고급 탭](assets/push_ios_7.png)
 
 1. 알림이 구성되면 알림을 미리 보려면 **[!UICONTROL Preview]** 탭을 클릭하십시오.
 
-   ![](assets/push-ios-preview.png)
+   ![휴대폰 목차에서 iOS 푸시 알림 제목과 메시지를 표시하는 미리 보기 탭](assets/push-ios-preview.png)
 
 
 >[!TAB Android]
@@ -160,7 +160,7 @@ Android 디바이스에서 알림을 보내려면 다음 단계를 따르십시�
 
 1. **[!UICONTROL Deliver on Android (android)]** 게재 템플릿을 선택하십시오.
 
-   ![](assets/push-template-android.png)
+   ![계속을 클릭하기 전에 Android(android)에서 게재가 선택된 게재 템플릿 목록](assets/push-template-android.png)
 
    >[!NOTE]
    > 
@@ -169,15 +169,15 @@ Android 디바이스에서 알림을 보내려면 다음 단계를 따르십시�
 
 1. 알림 대상을 정의하려면 **[!UICONTROL To]** 링크를 클릭한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/push-android-select-target.png)
+   ![구독자 응용 프로그램 매핑이 포함된 대상 선택 대화 상자 및 Android 게재에 대한 추가 단추](assets/push-android-select-target.png)
 
 1. **[!UICONTROL Subscribers of an Android mobile application]**&#x200B;을(를) 선택하고 모바일 응용 프로그램과 관련된 서비스(이 경우 Neotrips)를 선택한 다음 응용 프로그램의 Android 버전을 선택합니다.
 
-   ![](assets/push-android-subscribers.png)
+   ![Android 모바일 응용 프로그램의 구독자가 선택된 대상 유형 단계](assets/push-android-subscribers.png)
 
 1. 그런 다음 알림 콘텐츠를 입력합니다.
 
-   ![](assets/push-android-content.png)
+   ![메시지 유형 옵션, 메시지 텍스트 및 응용 프로그램 변수 표가 있는 Android 게재 콘텐츠 탭](assets/push-android-content.png)
 
 1. 푸시 알림에 이모티콘을 삽입하려면 **[!UICONTROL Insert emoticon]** 아이콘을 클릭하세요.
 
@@ -194,9 +194,9 @@ Android 디바이스에서 알림을 보내려면 다음 단계를 따르십시�
 
 증명을 보내고 최종 게재를 보내려면 다른 게재와 동일한 프로세스를 사용합니다.
 
-[이 페이지](preview-and-proof.md)에서 게재의 유효성을 검사하는 방법을 알아보세요.
+[전자 메일 미리 보기 및 테스트](preview-and-proof.md)에서 게재의 유효성을 검사하는 방법을 알아봅니다.
 
-[이 페이지](send.md)에서 게재를 확인하고 보내는 방법을 알아보세요.
+[전자 메일 보내기 및 모니터링](send.md)에서 게재를 확인하고 보내는 방법을 알아봅니다.
 
-메시지를 보낸 후 게재를 모니터링하고 추적할 수 있습니다. [이 페이지](delivery-failures.md#push-error-types)에서 푸시 알림 게재 실패 이유에 대해 자세히 알아보세요.
+메시지를 보낸 후 게재를 모니터링하고 추적할 수 있습니다. [푸시 알림 오류 유형](delivery-failures.md#push-error-types)에서 푸시 알림 배달 실패 이유에 대해 자세히 알아보세요.
 

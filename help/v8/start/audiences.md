@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '541'
 ht-degree: 18%
 ---
 # Campaign에서 대상자를 사용하여 작업{#gs-ac-audiences}
@@ -44,13 +44,13 @@ ht-degree: 18%
 
 목록은 게재 작업에서 타겟팅되거나 가져오기 또는 다른 워크플로우 작업 중에 업데이트될 수 있는 정적 연락처 집합입니다. 예를 들어 쿼리를 통해 데이터베이스에서 추출한 모집단을 목록으로 저장할 수 있습니다.
 
-[이 페이지](../audiences/create-audiences.md)에서 목록을 만들고 관리하는 방법을 알아보세요.
+[Campaign에서 프로필 대상자 만들기](../audiences/create-audiences.md)에서 목록을 만들고 관리하는 방법을 알아봅니다.
 
 ## 데이터베이스 필터링{#filter-the-database}
 
 필터 구성을 통해 **[!UICONTROL dynamically]** 목록에서 데이터를 선택할 수 있습니다. 데이터가 수정되면 필터링된 데이터가 업데이트됩니다. 필터를 직접 만들거나 기본 제공 필터를 사용하여 타겟 대상자를 정의할 수 있습니다.
 
-[이 페이지](../audiences/create-filters.md)에서 필터를 만들고 관리하는 방법을 알아보세요.
+[Adobe Campaign에서 필터 작업](../audiences/create-filters.md)에서 필터를 만들고 관리하는 방법을 알아봅니다.
 
 ## 워크플로우에서 대상자 만들기
 

@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '3350'
-ht-degree: 33%
+source-wordcount: '3713'
+ht-degree: 30%
 ---
 # 필터 조건 정의{#filter-conditions}
 
@@ -37,7 +37,7 @@ ht-degree: 33%
 
 필터링 조건 내에서 연산자를 사용하여 두 값을 함께 연결해야 합니다.
 
-![](assets/query_editor_nveau_96.png)
+![연산자 드롭다운이 열려 있는 대상 요소 단계에서 같음, 보다 큼, 보다 작음 및 다른 연산자를 나열합니다.](assets/query_editor_nveau_96.png)
 
 다음은 사용 가능한 연산자 목록입니다.
 
@@ -143,24 +143,24 @@ ht-degree: 33%
 
 **[!UICONTROL And]**(기본적으로 제공됨)을(를) 클릭하고 드롭다운 목록에서 선택합니다.
 
-![](assets/query_condition_modif_01.png)
+![orange.co.uk과 같은 조건 아래의 드롭다운에 있는 And, Or 및 Except 링크 옵션](assets/query_condition_modif_01.png)
 
 * **[!UICONTROL And]**: 조건을 추가하고 오버필터링을 사용합니다.
 * **[!UICONTROL Or]**: 조건을 추가하고 오버필터링을 사용합니다.
 
   다음 예에서는 이메일 도메인에 &quot;orange.co.uk&quot;이 포함되어 있거나 게시물 코드가 &quot;NW&quot;로 시작하는 수신자를 찾을 수 있습니다.
 
-  ![](assets/query_condition_modif_02.png)
+  ![Or로 연결된 두 가지 조건: orange.co.uk 또는 Zip/Postcode와 같은 전자 메일 도메인이 NW로 시작합니다.](assets/query_condition_modif_02.png)
 
 * **[!UICONTROL Except]**: 필터가 두 개 있고 첫 번째 필터가 값을 반환하지 않는 경우 이 유형의 링크는 예외를 만듭니다.
 
   다음 예제에서는 수신자의 성이 &quot;Smith&quot;인 경우를 제외하고 이메일 도메인에 &quot;orange.co.uk&quot;가 포함된 수신자를 반환하려고 합니다.
 
-  ![](assets/query_condition_modif_03.png)
+  ![Except에 의해 연결된 두 가지 조건: 전자 메일 도메인이 orange.co.uk과 같음(성: Smith와 같음).](assets/query_condition_modif_03.png)
 
 이 예는 를 표시할 수 있는 필터를 보여 줍니다. 스페인어를 사용하거나 또는 모바일 번호를 가진 여성인 수신자 또는 계정 번호가 없고 회사 이름이 문자 &quot;N&quot;으로 시작하는 수신자입니다.
 
-![](assets/query_editor_nveau_31.png)
+![스페인어, 여성, 휴대폰 번호 및 N으로 시작하는 회사에 계좌 번호가 없는 언어를 결합하는 필터](assets/query_editor_nveau_31.png)
 
 ## 조건 우선 순위 지정 {#prioritizing-conditions}
 
@@ -169,7 +169,7 @@ ht-degree: 33%
 * 오른쪽을 가리키는 화살표를 사용하면 필터에 괄호 수준을 추가할 수 있습니다.
 * 왼쪽을 가리키는 화살표를 사용하면 선택한 괄호 수준을 필터에서 삭제할 수 있습니다.
 
-  ![](assets/query_condition_modif_04.png)
+  ![왼쪽 및 오른쪽 괄호 화살표와 위쪽 및 아래쪽 화살표가 강조 표시된 쿼리 편집기 도구 모음](assets/query_condition_modif_04.png)
 
 * 수직 화살표를 사용하면 조건을 이동하여 해당 실행 순서를 변경할 수 있습니다.
 
@@ -177,7 +177,7 @@ ht-degree: 33%
 
 **[!UICONTROL Gender (@gender) equal to Male]** 필터링 조건에 커서를 놓고 **[!UICONTROL Remove a parenthesis level]** 화살표를 클릭합니다.
 
-![](assets/query_editor_nveau_32.png)
+![괄호 수준을 제거하기 전후의 성별: Gender가 City가 London과 같은 수준으로 이동합니다.](assets/query_editor_nveau_32.png)
 
 **[!UICONTROL Gender (@gender) equal to Male]** 조건이 괄호에서 제외되었습니다. 그것은 &quot;런던과 동등한 도시&quot; 조건과 동일한 수준으로 이동했다. 이러한 조건은 함께 연결되어 있습니다(**[!UICONTROL And]**).
 
@@ -187,7 +187,7 @@ ht-degree: 33%
 
 선택한 필드의 세부 정보가 창 하단에 표시됩니다. 예를 들어 **[!UICONTROL Email domain]** 필드는 **[!UICONTROL Calculated SQL field]**&#x200B;이고 확장명은 **[!UICONTROL (@domain)]**&#x200B;입니다.
 
-![](assets/query_editor_nveau_59.png)
+![전자 메일 도메인을 사용하여 단계를 추출하기 위한 데이터를 선택했습니다. 아래 세부 정보가 SQL 계산 필드(@domain)를 읽습니다.](assets/query_editor_nveau_59.png)
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ ht-degree: 33%
 
 사용 가능한 필드를 더블 클릭하여 출력 열에 추가합니다. 쿼리가 끝나면 선택한 각 필드가 **[!UICONTROL Data preview]** 창에 열을 만듭니다.
 
-![](assets/query_editor_nveau_01.png)
+![나이, 기본 키, 전자 메일 도메인 및 구/군/시 데이터를 출력 열 목록에 추가하여 단계를 추출할 수 있습니다.](assets/query_editor_nveau_01.png)
 
 고급 필드는 기본적으로 표시되지 않습니다. 사용 가능한 필드의 오른쪽 아래 모서리에 있는 **[!UICONTROL Display advanced fields]**&#x200B;을(를) 클릭하여 모든 항목을 표시합니다. 이전 보기로 돌아가려면 다시 클릭합니다.
 
@@ -203,7 +203,7 @@ ht-degree: 33%
 
 다음 예제에서는 수신자 테이블의 고급 필드를 보여줍니다.
 
-![](assets/query_editor_nveau_53.png)
+![고급 필드가 강조 표시되고 오른쪽 하단에 고급 필드 표시 단추가 있는 사용 가능한 필드 목록입니다.](assets/query_editor_nveau_53.png)
 
 필드의 다양한 범주:
 
@@ -275,7 +275,7 @@ ht-degree: 33%
 
 >[!NOTE]
 >
->* **[!UICONTROL Add]** 단추(측면 아이콘 막대 위)를 사용하여 식을 편집할 출력 열을 추가합니다. 식 편집에 대한 자세한 정보는 [이 섹션](#building-expressions)을 참조하세요.
+>* **[!UICONTROL Add]** 단추(측면 아이콘 막대 위)를 사용하여 식을 편집할 출력 열을 추가합니다. 식 편집에 대한 자세한 내용은 [식 작성](#building-expressions)을 참조하세요.
 >* 빨간색 &#39;x&#39;(**Delete**)를 클릭하여 출력 열을 삭제합니다.
 >* 화살표를 사용하여 출력 열의 순서를 변경합니다.
 >* **[!UICONTROL Distribution of values]**&#x200B;은(는) 선택한 필드의 값 분포(예: 받는 사람 도시, 받는 사람 언어 등에 연결된 분포)를 보는 데 사용됩니다.
@@ -284,29 +284,29 @@ ht-degree: 33%
 
 필요한 경우 데이터 서식 지정 중에 열을 추가합니다. 계산된 필드는 데이터 미리보기 섹션에 열을 추가합니다. **[!UICONTROL Add a calculated field]**&#x200B;을(를) 클릭합니다.
 
-![](assets/query_editor_nveau_43.png)
+![계산된 필드 추가 단추와 계산된 필드 정의 대화 상자가 Type에 열려 있는 데이터 서식 단계](assets/query_editor_nveau_43.png)
 
 계산된 필드에는 네 가지 유형이 있습니다.
 
 * **[!UICONTROL Fixed string]**: 문자열을 추가할 수 있습니다.
 
-  ![](assets/query_editor_nveau_60.png)
+  ![고정 문자열 형식이 포함된 계산된 필드 정의 대화 상자 및 My 문자열이 입력한 텍스트를 내보냅니다.](assets/query_editor_nveau_60.png)
 
 * **[!UICONTROL String with JavaScript tags]**: 계산된 필드의 값은 문자열과 JavaScript 지시문을 결합합니다.
 
-  ![](assets/query_editor_nveau_61.png)
+  ![편집기에서 JavaScript 태그와 스크립트 태그를 사용하여 String 형식의 계산된 필드 정의 대화 상자를 내보냅니다.](assets/query_editor_nveau_61.png)
 
 * **[!UICONTROL JavaScript expression]**: 계산된 필드의 값은 JavaScript 함수 평가의 결과입니다. 반환된 값(숫자, 날짜 등)을 입력할 수 있습니다.
 
-  ![](assets/query_editor_nveau_62.png)
+  ![A 또는 B를 반환하는 if-else 스크립트와 JavaScript 식 유형을 사용하여 계산된 필드 정의 대화 상자를 내보냅니다.](assets/query_editor_nveau_62.png)
 
 * **[!UICONTROL Enumerations]**: 이 형식의 필드를 사용하면 새 열에 있는 출력 열 중 하나의 내용을 사용/수정할 수 있습니다.
 
   열의 소스 값을 사용하고 대상 값을 지정할 수 있습니다. 이 대상 값은 새 출력 열에 표시됩니다.
 
-  계산된 필드 형식 **[!UICONTROL Enumerations]**&#x200B;을(를) 추가하는 예제를 사용할 수 있습니다. [이 섹션](../../automation/workflow/adding-enumeration-type-calculated-field.md)을 참조하세요.
+  계산 필드 형식 **[!UICONTROL Enumerations]**&#x200B;을(를) 추가하는 예제를 사용할 수 있습니다. [열거형 형식 계산 필드 추가](../../automation/workflow/adding-enumeration-type-calculated-field.md)를 참조하세요.
 
-  ![](assets/query_editor_nveau_63.png)
+  ![Source 열 목록과 다른 경우에 사용할 수 있는 네 가지 옵션이 있는 계산된 필드 대화 상자입니다.](assets/query_editor_nveau_63.png)
 
   **[!UICONTROL Enumerations]** 유형 계산 필드에는 다음 4가지 조건이 포함될 수 있습니다.
 
@@ -319,7 +319,7 @@ ht-degree: 33%
 
 이 계산된 필드를 제거하려면 **[!UICONTROL Remove the calculated field]** 십자형을 클릭하십시오.
 
-![](assets/query_editor_nveau_58.png)
+![계산된 필드 [새로 만들기]를 선택하고 계산된 필드 [세부 정보] 단추가 강조 표시된 데이터 서식 단계입니다.](assets/query_editor_nveau_58.png)
 
 ## 표현식 작성 {#building-expressions}
 
@@ -335,15 +335,15 @@ ht-degree: 33%
 
    **[!UICONTROL Process on an aggregate function]** 및 **[!UICONTROL Count]**&#x200B;을(를) 선택합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/query_editor_nveau_54.png)
+   ![추출할 데이터 단계: 추가는 식 편집 단추가 강조 표시된 식 필드를 엽니다.](assets/query_editor_nveau_54.png)
 
 1. 기본 키가 계산됩니다.
 
-   ![](assets/query_editor_nveau_88.png)
+   ![count(기본 키) 식이 추가되고 강조 표시된 출력 열 목록입니다.](assets/query_editor_nveau_88.png)
 
 **[!UICONTROL Formula types]** 창에서 사용할 수 있는 선택 사항에 대한 자세한 보기는 다음과 같습니다.
 
-![](assets/query_editor_nveau_05.png)
+![집계 함수의 프로세스를 선택하고 계산 옵션을 선택한 수식 유형 창](assets/query_editor_nveau_05.png)
 
 1. **[!UICONTROL Field only]**&#x200B;을(를) 사용하면 **[!UICONTROL Field to select]** 창으로 돌아갈 수 있습니다.
 1. **[!UICONTROL Aggregate (Process on an aggregate function)]**. 다음은 집계 사용의 몇 가지 예입니다.
@@ -358,7 +358,7 @@ ht-degree: 33%
 
 1. **[!UICONTROL Expression]**&#x200B;이(가) **[!UICONTROL Edit the expression]** 창을 엽니다. 이렇게 하면 숫자가 너무 많아 입력 오류일 가능성이 있는 전화 번호를 감지할 수 있습니다.
 
-   ![](assets/query_editor_nveau_71.png)
+   ![휴대폰 길이 식이 있는 식 창을 편집하고 결과 필터 Phone이 10보다 큰 경우 &#x200B;](assets/query_editor_nveau_71.png)을(를) 편집합니다.
 
    사용 가능한 모든 함수 목록을 보려면 [함수 목록](#list-of-functions)을 참조하세요.
 
@@ -368,7 +368,7 @@ ht-degree: 33%
 
 표현식 편집기는 다음과 같습니다.
 
-![](assets/filter-define-expression.png)
+![사용 가능한 필드가 있는 식 창과 집계 및 문자열 등의 범주가 있는 함수 목록을 편집합니다.](assets/filter-define-expression.png)
 
 데이터베이스 테이블에서 필드를 선택하고 고급 함수를 추가할 수 있습니다. 다음 기능을 사용할 수 있습니다.
 

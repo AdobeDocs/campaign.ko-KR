@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '2820'
 ht-degree: 0%
 ---
 # 입력 양식 시작 {#gs-ac-forms}
@@ -51,15 +51,15 @@ ht-degree: 0%
 
 클라이언트 콘솔의 **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** 폴더에서 입력 양식을 만들고 구성합니다.
 
-![](assets/form_arbo.png)
+![입력 양식 폴더가 선택된 구성 아래의 탐색기 트리](assets/form_arbo.png)
 
 편집 영역을 사용하면 입력 양식의 XML 내용을 입력할 수 있습니다.
 
-![](assets/form_edit.png)
+![birthDate, gender 및 전자 메일 입력이 있는 수신자(cus) 양식의 XML을 표시하는 입력 양식 편집기 편집 탭](assets/form_edit.png)
 
 미리 보기는 입력 양식의 표시를 생성합니다.
 
-![](assets/form_preview.png)
+![생년월일, 성별 및 전자 메일 필드를 표시하는 수신자(cus) 양식의 미리 보기 탭](assets/form_preview.png)
 
 ## 양식 구조
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 입력 양식의 XML 문서에는 양식 이름과 네임스페이스를 채우려면 **이름** 및 **네임스페이스** 특성이 있는 `<form>` 루트 요소가 있어야 합니다.
 
-```
+```xml
 <form name="form_name" namespace="name_space">
 ...
 </form>
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 기본적으로 양식은 이름과 네임스페이스가 동일한 데이터 스키마와 연결됩니다. 양식을 다른 이름과 연결하려면 `<form>` 요소의 **entity-schema** 특성을 스키마 키의 이름으로 설정합니다. 입력 양식의 구조를 설명하기 위해 &quot;cus:recipient&quot; 예제 스키마를 사용하는 인터페이스를 설명하겠습니다.
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <enumeration name="gender" basetype="byte">    
     <value name="unknown" label="Not specified" value="0"/>    
@@ -93,9 +93,9 @@ ht-degree: 0%
 
 예제 스키마를 기반으로 하는 입력 양식:
 
-![](assets/do-not-localize/form_exemple1.png)
+![성별, 생년월일, 전자 메일을 3개의 스택 필드로 렌더링하는 입력 양식](assets/do-not-localize/form_exemple1.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <input xpath="@gender"/>
   <input xpath="@birthDate"/>
@@ -122,9 +122,9 @@ ht-degree: 0%
 
 위의 예의 컨트롤을 두 열에 표시하려면 다음을 수행합니다.
 
-![](assets/do-not-localize/form_exemple2.png)
+![성별 및 생년월일이 나란히 표시된 입력 양식과 아래 전자 메일](assets/do-not-localize/form_exemple2.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <container colcount="2">
     <input xpath="@gender"/>
@@ -138,9 +138,9 @@ ht-degree: 0%
 
 컨트롤의 **colspan** 특성은 해당 값에 입력한 열 수만큼 컨트롤을 확장합니다.
 
-![](assets/do-not-localize/form_exemple3.png)
+![전자 메일 필드가 두 열로 확장된 2열 입력 양식](assets/do-not-localize/form_exemple3.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <container colcount="2">
     <input xpath="@gender"/>
@@ -152,9 +152,9 @@ ht-degree: 0%
 
 컨테이너는 **type=&quot;frame&quot;** 특성을 채우면 **label** 특성에 포함된 레이블을 사용하여 자식 컨트롤 주위에 프레임을 추가합니다.
 
-![](assets/do-not-localize/form_exemple4.png)
+![성별, 생년월일 및 전자 메일 필드가 있는 두 열로 구성된 입력 양식에서 프레임이 표시되지 않음](assets/do-not-localize/form_exemple4.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <container colcount="2" type="frame" label="General">
     <input xpath="@gender"/>
@@ -166,9 +166,9 @@ ht-degree: 0%
 
 **`<static>`** 요소를 사용하여 입력 양식 서식을 지정할 수 있습니다.
 
-![](assets/do-not-localize/form_exemple5.png)
+![성별, 날짜 및 전자 메일 필드와 그 아래의 정적 도움말 텍스트 줄이 있는 입력 양식](assets/do-not-localize/form_exemple5.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <static type="separator" colspan="2" label="General"/>
   <input xpath="@gender"/>
@@ -190,7 +190,7 @@ ht-degree: 0%
 
 &quot;xpath&quot;가 없는 컨테이너의 예:
 
-```
+```xml
 <container colcount="2">
   <input xpath="location/@zipCode"/>
   <input xpath="location/@city"/>
@@ -199,7 +199,7 @@ ht-degree: 0%
 
 &quot;위치&quot;라는 요소에 &quot;xpath&quot;를 추가하는 예:
 
-```
+```xml
 <container colcount="2" xpath="location">
   <input xpath="@zipCode"/>
   <input xpath="@city"/>
@@ -212,9 +212,9 @@ ht-degree: 0%
 
 탭에서 액세스할 수 있는 페이지의 데이터 서식을 지정하려면 **notebook** 컨테이너를 사용하십시오.
 
-![](assets/do-not-localize/form_exemple6.png)
+![성별, 날짜 및 전자 메일 필드 위에 일반 및 위치 탭이 있는 입력 양식](assets/do-not-localize/form_exemple6.png)
 
-```
+```xml
 <container type="notebook">
   <container colcount="2" label="General">
     <input xpath="@gender"/>
@@ -231,7 +231,7 @@ ht-degree: 0%
 
 컨트롤 아래에 탭 레이블의 세로 위치를 강제 적용하려면 **style=&quot;down&quot;** 특성을 추가하십시오. 이 속성은 선택 사항입니다. 기본값은 **&quot;up&quot;**&#x200B;입니다.
 
-![](assets/do-not-localize/form_exemple7.png)
+![일반 및 위치 탭 레이블이 성별, 날짜 및 전자 메일 필드 아래에 있는 입력 양식](assets/do-not-localize/form_exemple7.png)
 
 `<container style="down" type="notebook">  ... </container>`
 
@@ -239,9 +239,9 @@ ht-degree: 0%
 
 이 컨테이너를 사용하여 표시할 페이지를 선택할 수 있는 세로 아이콘 막대를 표시합니다.
 
-![](assets/do-not-localize/form_exemple8.png)
+![성별, 날짜 및 전자 메일 필드 옆에 일반 및 위치 페이지를 제공하는 세로 아이콘 막대가 있는 입력 양식](assets/do-not-localize/form_exemple8.png)
 
-```
+```xml
 <container type="iconbox">
   <container colcount="2" label="General" img="xtk:properties.png">
     <input xpath="@gender"/>
@@ -266,7 +266,7 @@ ht-degree: 0%
 
 다음 예에서는 &quot;성별&quot; 필드의 값에 대한 컨트롤의 가시성을 보여 줍니다.
 
-```
+```xml
 <container type="visibleGroup" visibleIf="@gender=1">
   ...
 </container>
@@ -287,7 +287,7 @@ ht-degree: 0%
 
 이 컨테이너를 사용하여 동적 조건에서 데이터 세트를 활성화하거나 비활성화할 수 있습니다. 컨트롤을 비활성화하면 편집할 수 없습니다. 다음 예제에서는 &quot;Gender&quot; 필드의 값에서 컨트롤을 사용하는 방법을 보여 줍니다.
 
-```
+```xml
 <container type="enabledGroup" enabledIf="@gender=1">
   ...
 </container>
@@ -302,15 +302,15 @@ ht-degree: 0%
 
 링크는 다음과 같이 데이터 스키마에서 선언됩니다.
 
-```
+```xml
 <element label="Company" name="company" target="cus:company" type="link"/>
 ```
 
 입력 양식에서 링크의 편집 컨트롤은 다음과 같습니다.
 
-![](assets/do-not-localize/form_exemple9.png)
+![Adobe이 선택된 링크에 대한 드롭다운 편집 컨트롤을 표시하는 회사 필드](assets/do-not-localize/form_exemple9.png)
 
-```
+```xml
 <input xpath="company"/>
 ```
 
@@ -324,7 +324,7 @@ ht-degree: 0%
 
 입력 양식의 링크 정의에서 **`<sysfilter>`** 요소를 추가하여 대상 요소의 선택을 제한할 수 있습니다.
 
-```
+```xml
 <input xpath="company">
   <sysFilter>
     <condition expr="[location/@city] =  'Newton"/>
@@ -334,7 +334,7 @@ ht-degree: 0%
 
 **`<orderby>`** 요소를 사용하여 목록을 정렬할 수도 있습니다.
 
-```
+```xml
 <input xpath="company">
   <orderBy>
     <node expr="[location/@zipCode]"/>
@@ -362,7 +362,7 @@ ht-degree: 0%
 
 스키마의 컬렉션 링크 예:
 
-```
+```xml
 <element label="Events" name="rcpEvent" target="cus:event" type="link" unbound="true">
 ...
 </element>
@@ -370,7 +370,7 @@ ht-degree: 0%
 
 입력 양식의 목록:
 
-```
+```xml
  <input xpath="rcpEvent" type="linklist">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -391,7 +391,7 @@ ht-degree: 0%
 
 필터링 및 정렬은 목록이 로드될 때 적용할 수 있습니다.
 
-```
+```xml
  <input xpath="rcpEvent" type="linklist">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -412,7 +412,7 @@ ht-degree: 0%
 
 스키마의 관계 테이블 예:
 
-```
+```xml
 <srcSchema name="subscription" namespace="cus">
   <element name="recipient" type="link" target="cus:recipient" label="Recipient"/>
   <element name="service" type="link" target="cus:service" label="Subscription service"/>
@@ -421,9 +421,9 @@ ht-degree: 0%
 
 이 예제에서는 &quot;cus:recipient&quot; 스키마의 입력 양식으로 시작합니다. 목록에는 서비스 구독에 대한 연결이 표시되어야 하며 기존 서비스를 선택하여 구독을 추가할 수 있도록 허용해야 합니다.
 
-![](assets/do-not-localize/form_exemple12.png)
+![구독을 추가하려면 블랙리스트, MobApp, 뉴스레터 및 기타 서비스를 나열하는 서비스 대화 상자를 선택하십시오](assets/do-not-localize/form_exemple12.png)
 
-```
+```xml
 <input type="linklist" xpath="subscription" xpathChoiceTarget="service" xpathEditTarget="service" zoom="true">
   <input xpath="recipient"/>
   <input xpath="service"/>
@@ -457,7 +457,7 @@ ht-degree: 0%
 
 이 컨트롤에는 추가 및 삭제 단추가 포함된 도구 모음이 있는 편집 가능한 열 목록이 표시됩니다.
 
-```
+```xml
 <input xpath="rcpEvent" type="list">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -474,7 +474,7 @@ ht-degree: 0%
 
 도구 모음 단추를 가로로 정렬할 수 있습니다.
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -487,7 +487,7 @@ ht-degree: 0%
 
 목록의 데이터 삽입 및 편집은 별도의 편집 양식에 입력할 수 있습니다.
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true" zoomOnAdd="true">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -522,9 +522,9 @@ ht-degree: 0%
 
 &quot;성별&quot; 필드의 예:
 
-![](assets/do-not-localize/form_exemple16.png)
+![성별 필드가 Male 값으로 드롭다운으로 표시됨](assets/do-not-localize/form_exemple16.png)
 
-```
+```xml
 <value value="@gender"/>
 <input xpath="@gender" readOnly="true"/>
 ```
@@ -535,24 +535,24 @@ ht-degree: 0%
 
 &quot;성별&quot; 필드의 예:
 
-```
+```xml
 <input type="RadioButton" xpath="@gender" checkedValue="0" label="Choice 1"/>
 <input type="RadioButton" xpath="@gender" checkedValue="1" label="Choice 2"/>
 <input type="RadioButton" xpath="@gender" checkedValue="2" label="Choice 3"/>
 ```
 
-![](assets/do-not-localize/form_exemple17.png)
+![선택 항목 1이 선택된 상태로 라디오 단추 선택 1, 선택 2 및 선택 3으로 표시되는 성별 필드](assets/do-not-localize/form_exemple17.png)
 
 ## 확인란 추가 {#checkbox}
 
 확인란은 부울 상태(선택 여부에 상관없이)를 반영합니다. 기본적으로 이 컨트롤은 &quot;부울&quot;(true/false) 필드에 사용됩니다. 기본값이 0 또는 1인 변수를 이 단추와 연결할 수 있습니다. 이 값은 **checkValue** 특성을 통해 오버로드될 수 있습니다.
 
-```
+```xml
 <input xpath="@boolean1"/>
 <input xpath="@field1" type="checkbox" checkedValue="Y"/>
 ```
 
-![](assets/do-not-localize/form_exemple20.png)
+![Boolean1 및 field1 레이블이 지정된 두 개의 선택 취소된 확인란](assets/do-not-localize/form_exemple20.png)
 
 ## 탐색 계층 편집 {#navigation-hierarchy-edit}
 
@@ -560,7 +560,7 @@ ht-degree: 0%
 
 편집할 컨트롤은 트리 컨트롤의 **`<input>`** 태그 아래에 입력한 **`<container>`**(으)로 그룹화됩니다.
 
-```
+```xml
 <input nolabel="true" type="treeEdit">
   <container label="Text fields">
     <input xpath="@text1"/>
@@ -573,13 +573,13 @@ ht-degree: 0%
 </input>
 ```
 
-![](assets/do-not-localize/form_exemple18.png)
+![텍스트 필드와 부울 필드 그룹이 있는 트리 편집 컨트롤로 text1에서 text3까지 나열하고 Boolean1에서 Boolean3까지를 나열합니다](assets/do-not-localize/form_exemple18.png)
 
 ## 표현식 필드 추가 {#expression-field}
 
 식 필드는 식에서 필드를 동적으로 업데이트합니다. **`<input>`** 태그는 업데이트할 필드의 경로를 입력하는 **xpath** 특성과 업데이트 식을 포함하는 **expr** 특성과 함께 사용됩니다.
 
-```
+```xml
 <!-- Example: updating the boolean1 field from the value contained in the field with path /tmp/@flag -->
 <input expr="Iif([/tmp/@flag]=='On', true, false)" type="expr" xpath="@boolean1"/>
 <input expr="[/ignored/@action] == 'FCP'" type="expr" xpath="@launchFCP"/>
@@ -602,7 +602,7 @@ ht-degree: 0%
 
 **`<enter>`** 및 **`<leave>`** 태그를 통해 양식을 초기화하고 닫을 때 양식의 컨텍스트를 업데이트할 수 있습니다.
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <enter>
     <set...
@@ -624,7 +624,7 @@ ht-degree: 0%
 
 식이 확인된 경우 **`<if expr="<expression>" />`** 태그는 태그 아래에 지정된 명령을 실행합니다.
 
-```
+```xml
 <if expr="([/tmp/@test] == 'Test' or @lastName != 'Doe') and @boolean2 == true">
   <set xpath="@boolean1" expr="true"/>
 </if>
@@ -632,7 +632,7 @@ ht-degree: 0%
 
 **`<error>`** 태그와 결합된 **`<check expr="<condition>" />`** 태그는 양식의 유효성 검사를 방지하고 조건이 충족되지 않으면 오류 메시지를 표시합니다.
 
-```
+```xml
 <leave>
   <check expr="/tmp/@test != ''">
     <error>You must populate the 'Test' field!</error> 
@@ -646,7 +646,7 @@ ht-degree: 0%
 
 도우미를 추가하려면 다음 유형의 구조를 사용합니다.
 
-```
+```xml
 <form type="wizard" name="example" namespace="cus" img="nms:rcpgroup32.png" label="Wizard example" entity-schema="nms:recipient">
   <container title="Title of page 1" desc="Long description of page 1">
     <input xpath="@lastName"/>
@@ -669,7 +669,7 @@ SOAP 메서드 실행은 페이지 끝에 있는 채워진 **`<leave>`** 태그�
 
 **`<soapcall>`** 태그에는 다음 입력 매개 변수를 사용하는 메서드에 대한 호출이 포함되어 있습니다.
 
-```
+```xml
 <soapCall name="<name>" service="<schema>">
   <param type="<type>" exprIn="<xpath>"/>  
   ...
@@ -695,7 +695,7 @@ SOAP 메서드 실행은 페이지 끝에 있는 채워진 **`<leave>`** 태그�
 
 **예**:
 
-```
+```xml
 <leave>
   <soapCall name="RegisterGroup" service="nms:recipient">         
     <param type="DOMElement" exprIn="/tmp/entityList"/>         

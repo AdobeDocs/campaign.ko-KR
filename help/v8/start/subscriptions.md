@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 10%
+source-wordcount: '577'
+ht-degree: 7%
 ---
 # 구독 및 구독 취소 관리 {#optin-optout}
 
@@ -40,17 +40,17 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 
 * 받는 사람 프로필에 서비스를 수동으로 추가합니다. 이렇게 하려면 해당 프로필의 **[!UICONTROL Subscriptions]** 탭에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 관련 정보 서비스를 선택합니다.
 
-  ![](assets/subscribe-to-a-service.png)
+  ![Add에서 서비스 선택 대화 상자를 열어 수신자 프로필의 구독 탭](assets/subscribe-to-a-service.png)
 
   자세히 알아보기: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ko#deliveries-tab){target="_blank"}
 
 * 수신자 집합을 서비스에 자동으로 구독합니다. 수신자 목록은 필터링 작업, 그룹, 폴더, 가져오기 또는 직접 수동 선택에서 가져올 수 있습니다. 이러한 수신자를 구독하려면 프로필을 선택하고 마우스 오른쪽 단추를 클릭합니다. **[!UICONTROL Actions > Subscribe selection to a service...]**&#x200B;을(를) 선택합니다.
 
-  ![](assets/subscribe-selection.png)
+  ![선택한 수신자의 마우스 오른쪽 단추 클릭 메뉴(작업 > 서비스 선택 구독)](assets/subscribe-selection.png)
 
   관련 서비스를 선택하고 작업을 시작합니다.
 
-  ![](assets/subscribe-confirm.png)
+  ![서비스 구독 마법사, 확인 메시지 보내기 옵션이 포함된 서비스 선택 단계](assets/subscribe-confirm.png)
 
   자세히 알아보기: [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ko#deliveries-tab){target="_blank"}
 
@@ -61,18 +61,18 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 정보 서비스를 만들
 
 * 수신자가 서비스에 가입할 수 있도록 웹 양식을 사용하십시오.
 
-  ![](assets/opt-in-webapp.png)
+  ![뉴스레터 구독 웹 응용 프로그램 워크플로: 미리 로드, 구독, 저장 및 종료](assets/opt-in-webapp.png)
 
   Campaign에는 옵트인을 관리할 수 있는 기본 웹 양식이 포함되어 있습니다. 개인화하고 프로필 데이터를 매핑할 수 있습니다.
 
-  ![](assets/web-app.png)
+  ![이름, 전자 메일, 전화 번호, 동의 확인란 및 내가 구독 단추를 가진 구독 웹 양식의 페이지 편집기](assets/web-app.png)
 
-  [이 섹션](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)에서 자세히 알아보십시오.
+  [이중 옵트인으로 구독 양식 만들기](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)에서 자세히 알아보세요.
 
 
 * 타깃팅 워크플로우를 만들고 **[!UICONTROL Subscription service]** 활동을 사용합니다.
 
-  ![](assets/wf-subscription.png)
+  ![읽기 목록, 쿼리 및 파일 수집기 피딩 중복 제거 및 구독 서비스를 사용하는 워크플로](assets/wf-subscription.png)
 
   [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html?lang=ko){target="_blank"}에서 자세히 알아보십시오.
 

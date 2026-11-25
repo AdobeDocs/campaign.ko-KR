@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 3%
+source-wordcount: '682'
+ht-degree: 2%
 ---
 # 키 관리 및 독자성 {#key-management}
 
@@ -73,11 +73,11 @@ Adobe Campaign v8에서는 [!DNL Snowflake]을(를) 핵심 데이터베이스로
 
 이 워크플로우는 모든 사용자 지정 및 기본 제공 스키마를 확인하여 중복 행을 검색합니다.
 
-![](assets/unicity-alerting-wf.png)
+![단일성 경고(ffdaUnicity) 워크플로: 스키마 검사, 복제된 행이 테스트, 경고, 종료 및 정리 활동을 검색함](assets/unicity-alerting-wf.png)
 
 **[!UICONTROL Unicity alerting]**(ffdaUnicity) 워크플로에서 일부 중복 키를 감지하면 스키마 이름, 키 유형, 영향을 받은 행 수 및 날짜를 포함하는 특정 **감사 유니시티** 테이블에 추가됩니다. **[!UICONTROL Administration > Audit > Key Unicity]** 노드에서 중복 키에 액세스할 수 있습니다.
 
-![](assets/unicity-table.png)
+![스키마 Id, 키 정의, 키 유형, 중복된 값, 중복된 개수, 만든 날짜](assets/unicity-table.png)의 키 유니시티 목록
 
 데이터베이스 관리자는 SQL 활동을 사용하여 중복을 제거하거나 Adobe 고객 지원 센터에 자세한 지침을 문의할 수 있습니다.
 
@@ -85,7 +85,7 @@ Adobe Campaign v8에서는 [!DNL Snowflake]을(를) 핵심 데이터베이스로
 
 중복 키가 검색되면 특정 알림이 **[!UICONTROL Workflow Supervisors]** 연산자 그룹으로 전송됩니다. **[!UICONTROL Unicity alerting]** 워크플로우의 **경고** 활동에서 이 경고의 내용과 대상을 변경할 수 있습니다.
 
-![](assets/wf-alert-activity.png)
+![중복 키 메시지가 있는 워크플로우 감독자 그룹에 할당된 유니시티 경고의 경고 활동](assets/wf-alert-activity.png)
 
 
 ## 추가 보호 기능 {#duplicates-guardrails}
@@ -94,25 +94,25 @@ Campaign에는 [!DNL Snowflake] 데이터베이스에 중복 키가 삽입되지
 
 >[!NOTE]
 >
->이러한 보호 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](../start/compatibility-matrix.md)을 참조하세요.
+>이러한 보호 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [Campaign v8 호환성 매트릭스](../start/compatibility-matrix.md)를 참조하세요.
 
 ### 게재 준비 {#remove-duplicates-delivery-preparation}
 
 Adobe Campaign은 게재를 준비하는 동안 대상에서 복제된 UUID를 자동으로 제거합니다. 이 메커니즘은 게재를 준비하는 동안 오류가 발생하지 않도록 합니다. 최종 사용자는 게재 로그에서 이 정보를 확인할 수 있습니다. 일부 수신자는 키가 중복되어 기본 대상에서 제외될 수 있습니다. 이 경우 `Exclusion of duplicates (based on the primary key or targeted records)` 경고가 표시됩니다.
 
-![](assets/exclusion-duplicates-log.png)
+![중복 항목 제외 줄이 화살표로 강조 표시된 게재 로그(대상 레코드의 기본 키 기준)](assets/exclusion-duplicates-log.png)
 
 ### 워크플로우에서 데이터 업데이트 {#duplicates-update-data}
 
 [엔터프라이즈(FFDA) 배포](enterprise-deployment.md)의 컨텍스트에서는 내부 키(UUID)를 워크플로우에서 데이터를 업데이트할 필드로 선택할 수 없습니다.
 
-![](assets/update-data-no-internal-key.png)
+![내부 키 필드를 선택할 수 없는 받는 사람(nms:recipient)의 필드 선택기로 데이터 활동을 업데이트합니다.](assets/update-data-no-internal-key.png)
 
 ### 중복 항목을 포함하는 스키마 쿼리 {#query-with-duplicates}
 
 워크플로우가 스키마에서 쿼리 실행을 시작하면 Adobe Campaign은 [감사 유니시티 테이블](#unicity-wf)에 중복 레코드가 보고되는지 확인합니다. 이 경우 워크플로우에서는 중복 데이터에 대한 후속 작업이 워크플로우 결과에 영향을 줄 수 있으므로 경고를 기록합니다.
 
-![](assets/query-with-duplicates.png)
+![단일성 제약 조건을 위반했다는 경고가 있는 워크플로우 로그입니다. 스키마 NMS:recipient](assets/query-with-duplicates.png)에 중복된 데이터가 있습니다.
 
 이 검사는 다음 워크플로우 활동에서 수행됩니다.
 

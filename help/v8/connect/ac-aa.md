@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 50%
+source-wordcount: '1833'
+ht-degree: 44%
 ---
 # Campaign 및 Adobe Analytics 작업 {#ac-aa}
 
@@ -77,17 +77,17 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 1. [!DNL Adobe Analytics]에서 **[!UICONTROL Admin tab]**&#x200B;을 선택한 다음 **[!UICONTROL All admin]**&#x200B;를 클릭합니다.
 
-   ![](assets/analytics_connnector_1.png)
+   ![모든 관리자가 강조 표시된 Adobe Analytics 관리 메뉴](assets/analytics_connnector_1.png)
 
-1. **[!UICONTROL Report suites]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Report suites]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/analytics_connnector_2.png)
+   보고서 세트 링크가 강조 표시된 Adobe Analytics의 ![관리 페이지](assets/analytics_connnector_2.png)
 
 1. **[!UICONTROL Report suite manager]** 페이지에서 **[!UICONTROL Create new]**&#x200B;를 클릭한 다음 **[!UICONTROL Report suite]**&#x200B;를 클릭합니다.
 
    **[!UICONTROL Report suite]** 만들기에 대한 자세한 절차는 [Adobe Analytics 설명서](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite#prerequisites){target="_blank"}를 참조하세요.
 
-   ![](assets/analytics_connnector_3.png)
+   ![새 메뉴 만들기 및 보고서 세트 옵션이 열려 있는 보고서 세트 관리자](assets/analytics_connnector_3.png)
 
 1. 템플릿을 선택합니다.
 
@@ -99,7 +99,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
    * **[!UICONTROL Go Live Date]**
    * **[!UICONTROL Estimated Page Views Per Day]**
 
-   ![](assets/analytics_connnector_4.png)
+   ![ID, 사이트 제목, 표준 시간대, 라이브 날짜 및 페이지 보기로 새 보고서 세트 양식을 구성하세요](assets/analytics_connnector_4.png)
 
 1. 구성된 경우 **[!UICONTROL Create report suite]**&#x200B;를 클릭합니다.
 
@@ -111,19 +111,19 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
 1. **[!UICONTROL Edit settings]** 버튼에서, **[!UICONTROL Conversion]** > **[!UICONTROL Conversion variables]**&#x200B;를 선택합니다.
 
-   ![](assets/analytics_connnector_5.png)
+   ![전환 > 전환 변수가 강조 표시된 설정 편집 메뉴](assets/analytics_connnector_5.png)
 
 1. 이메일 캠페인의 영향을 측정하는 데 필요한 식별자, 즉, 내부 캠페인 이름(cid) 및 iNmsBroadlog(bid) 테이블 ID를 만들려면 **[!UICONTROL Add new]**&#x200B;를 클릭합니다.
 
    **[!UICONTROL Conversion variables]**&#x200B;을(를) 편집하는 방법에 대해 알아보려면 이 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=ko#admin-tools){target="_blank"}를 참조하세요.
 
-   ![](assets/analytics_connnector_6.png)
+   ![Campaign ID가 지정된 eVar 5와 Broadlog ID가 지정된 eVar 6이 있는 전환 변수 목록](assets/analytics_connnector_6.png)
 
-1. 구성을 완료하면 **[!UICONTROL Save]** 을(를) 클릭합니다.
+1. 완료하면 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
 1. 그런 다음 **[!UICONTROL Success events]**&#x200B;을(를) 만들려면 **[!UICONTROL Edit settings]** 버튼에서 **[!UICONTROL Conversion]** > **[!UICONTROL Success events]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/analytics_connnector_7.png)
+   ![전환 > 성공 이벤트가 강조 표시된 설정 편집 메뉴](assets/analytics_connnector_7.png)
 
 1. **[!UICONTROL Add new]**&#x200B;을(를) 클릭하여 다음 **[!UICONTROL Success events]**&#x200B;을(를) 구성합니다.
 
@@ -140,7 +140,7 @@ Campaign-Analytics 연결을 설정하려면 다음 작업을 수행해야 합�
 
    **[!UICONTROL Success events]**&#x200B;을(를) 구성하는 방법에 대해 알아보려면 이 [Adobe Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html?lang=ko)를 참조하세요.
 
-   ![](assets/analytics_connnector_8.png)
+   ![이벤트 7~16이 활성화된 사용자 지정 성공 이벤트 목록: 클릭됨, 열림, 전송됨, 가입 해지됨](assets/analytics_connnector_8.png)
 
 1. 완료하면 **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
@@ -152,11 +152,11 @@ Adobe Analytics 2.0 API로 마이그레이션했으므로 Campaign에서 외부 
 
 1. [!DNL Adobe Analytics] 상단 메뉴 모음에서 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]**&#x200B;을(를) 선택한 다음 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/analytics_connnector_16.png)
+   분류 집합이 강조 표시된 ![Adobe Analytics 구성 요소 메뉴](assets/analytics_connnector_16.png)
 
 1. **[!UICONTROL Add New Classification Set]** 대화 상자에서:
 
-   ![](assets/analytics_connnector_17.png)
+   ![이름, 기본 유형, 알림 및 보고서 세트 구독이 포함된 새 분류 세트 추가 대화 상자](assets/analytics_connnector_17.png)
 
    * 분류 집합에 대한 **[!UICONTROL Name]**&#x200B;을(를) 입력하십시오.
    * **[!UICONTROL Type]**&#x200B;을(를) **[!UICONTROL Primary]**(으)로 설정합니다.
@@ -179,11 +179,11 @@ Adobe Analytics 2.0 API로 마이그레이션했으므로 Campaign에서 외부 
 
 1. Adobe Campaign 탐색기 트리의 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** 폴더로 이동한 다음 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/analytics_connnector_9.png)
+   ![Campaign Explorer의 새 단추가 표시된 외부 계정 목록](assets/analytics_connnector_9.png)
 
 1. 드롭다운 목록을 사용하여 **[!UICONTROL Web Analytics]** 유형과 **[!UICONTROL Adobe Analytics]**&#x200B;을(를) **[!UICONTROL Integration]** 드롭다운에서 선택합니다.
 
-   ![](assets/analytics_connnector_10.png)
+   ![웹 분석 유형 및 Adobe Analytics 통합을 사용하는 새 외부 계정, 링크 구성](assets/analytics_connnector_10.png)
 
 1. **[!UICONTROL Integration]** 드롭다운 옆에 있는 **[!UICONTROL Configure]** 을(를) 클릭합니다.
 
@@ -201,7 +201,7 @@ Adobe Analytics 2.0 API로 마이그레이션했으므로 Campaign에서 외부 
    >
    >캠페인 ID 및 Broadlog ID 필드는 랜딩 페이지의 JavaScript 또는 처리 규칙을 통해 수집됩니다. [처리 규칙에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
-   ![](assets/analytics_connnector_11.png)
+   ![Adobe Analytics 탭 매핑 보고서 세트, eVar 및 성공 이벤트와 통합 구성](assets/analytics_connnector_11.png)
 
 1. **[!UICONTROL Events]** 카테고리에서 [!DNL Adobe Analytics]에 구성된 10개의 **[!UICONTROL Success events]**&#x200B;을(를) 매핑합니다.
 
@@ -213,7 +213,7 @@ Adobe Analytics 2.0 API로 마이그레이션했으므로 Campaign에서 외부 
 
    **[!UICONTROL Sync]** 버튼을 사용하면 [!DNL Adobe Campaign]이(가) [!DNL Adobe Analytics]에서 수행한 이름 변경 사항을 동기화합니다. 구성 요소가 [!DNL Adobe Analytics]에서 삭제되면 구성 요소는 [!DNL Adobe Campaign]에서 취소되거나 **을 찾을 수 없음** 메시지와 함께 표시됩니다.
 
-   ![](assets/analytics_connnector_12.png)
+   ![통합 eVar, 이벤트 및 분류를 나열하는 데이터 설정 탭(동기화 단추 포함)](assets/analytics_connnector_12.png)
 
    >[!NOTE]
    >
@@ -221,15 +221,15 @@ Adobe Analytics 2.0 API로 마이그레이션했으므로 Campaign에서 외부 
 
 1. **[!UICONTROL External account]**&#x200B;에서 **[!UICONTROL Enrich the formula...]** 링크를 클릭하여 URL 계산 공식을 변경해서 웹 분석 도구 통합 정보(캠페인 ID)와 활동을 추적해야 하는 사이트의 도메인을 지정합니다.
 
-   ![](assets/analytics_connnector_13.png)
+   ![수식 강화 링크가 강조 표시된 외부 계정](assets/analytics_connnector_13.png)
 
 1. 사이트의 도메인 이름을 지정합니다.
 
-   ![](assets/analytics_connnector_14.png)
+   ![도메인 필드가 있는 추적된 URL 대화 상자에 대한 계산 수식 보강](assets/analytics_connnector_14.png)
 
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하고 도메인 이름이 저장되었는지 확인합니다.
 
-   ![](assets/analytics_connnector_15.png)
+   ![수식 옵션 오버로드 및 추적 스크립트가 있는 계산 수식 편집기](assets/analytics_connnector_15.png)
 
 1. 필요한 경우 계산 공식에 과부하를 걸 수 있습니다. 이렇게 하려면 상자를 선택하고 창에서 바로 공식을 편집합니다.
 
@@ -252,7 +252,7 @@ Adobe Campaign과 Adobe Analytics 간의 데이터 교환은 백그라운드 작
 
 이 워크플로는 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]** 폴더 아래의 Campaign 탐색기 트리에서 사용할 수 있습니다.
 
-![](assets/webanalytics_workflows.png)
+![신호, 델타 계산 및 표시기 전송 단계를 사용하는 웹 분석 프로세스 기술 워크플로우](assets/webanalytics_workflows.png)
 
 **[!UICONTROL Sending of indicators and campaign attributes]** 워크플로를 사용하면 Adobe Analytics Connector를 사용하여 Adobe Campaign을 통해 [!DNL CX Enterprise]&#x200B;(으)로 이메일 캠페인 지표를 보낼 수 있습니다. 이 워크플로는 매일 오전 4시에 트리거되며 데이터를 Analytics에 전송하는 데 24시간이 걸릴 수 있습니다.
 
@@ -292,12 +292,12 @@ Adobe Campaign에서 게재를 보낸 후 [!DNL CX Enterprise]에서 사이트�
 
 1. 추적할 캠페인 게재를 엽니다.
 
-   ![](assets/webanalytics_delivery_properties_003.png)
+   ![게재 속성 단추에 대한 화살표가 있는 캠페인 워크플로우의 전자 메일 게재](assets/webanalytics_delivery_properties_003.png)
 
 1. 게재 속성을 엽니다.
 1. **[!UICONTROL Web Analytics]** 탭으로 이동하여 이전에 만든 외부 계정을 선택합니다. [Adobe Campaign에서 외부 계정 구성](#external-account-ac)을 참조하세요.
 
-   ![](assets/webanalytics_delivery_properties_002.png)
+   ![Adobe Analytics 통합을 보여 주는 Web Analytics 계정 목록이 있는 게재 속성 Web Analytics 탭](assets/webanalytics_delivery_properties_002.png)
 
 1. 이제 Adobe Analytics에서 게재를 보내고 보고서에 액세스할 수 있습니다.
 

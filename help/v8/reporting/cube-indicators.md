@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 3%
+source-wordcount: '1000'
+ht-degree: 1%
 ---
 # 큐브 만들기{#create-a-cube}
 
@@ -43,7 +43,7 @@ ht-degree: 3%
 
 큐브에 액세스하려면 캠페인 탐색기에서 **[!UICONTROL Administration > Configuration > Cubes]**&#x200B;을(를) 찾습니다.
 
-![](assets/cube-node.png)
+![큐브 목록과 선택한 큐브 세부 정보가 포함된 탐색기의 관리 > 구성 아래의 큐브 노드](assets/cube-node.png)
 
 큐브를 사용하여 다음을 수행할 수 있습니다.
 
@@ -51,21 +51,21 @@ ht-degree: 3%
 
   이렇게 하려면 새 보고서를 만들고 사용할 큐브를 선택합니다.
 
-  ![](assets/create-new-cube.png)
+  ![받는 사람을 선택하고 만들기 전에 레이블을 입력하여 사용 가능한 큐브 템플릿에서 새 보고서 만들기](assets/create-new-cube.png)
 
   큐브는 보고서를 작성하는 데 사용하는 템플릿처럼 표시됩니다. 템플릿을 선택한 후 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 새 보고서를 구성하고 봅니다.
 
   측정값을 조정하거나 표시 모드를 변경하거나 테이블을 구성한 다음 기본 단추를 사용하여 보고서를 표시할 수 있습니다.
 
-  ![](assets/display-cube-table.png)
+  ![큐브 기반의 새 보고서, 측정값, 나이 및 국가/지역 필드 및 피벗 테이블을 표시하는 단추가 포함된 보고서](assets/display-cube-table.png)
 
 * 아래와 같이 보고서의 **[!UICONTROL Query]** 상자에서 큐브를 참조하여 해당 지표를 사용합니다.
 
-  ![](assets/cube-report-query.png)
+  ![큐브 사용 옵션을 선택하고 큐브 필드에서 큐브를 선택한 보고서의 쿼리 활동](assets/cube-report-query.png)
 
 * 큐브를 기반으로 한 피벗 테이블을 보고서의 페이지에 삽입합니다. 이렇게 하려면 관련 페이지의 피벗 테이블의 **[!UICONTROL Data]** 탭에서 사용할 큐브를 참조합니다.
 
-  ![](assets/cube-in-a-report.png)
+  ![큐브 필드 및 나이 및 구/군/시 차원에서 큐브가 선택된 보고서 페이지의 피벗 테이블의 데이터 탭](assets/cube-in-a-report.png)
 
   자세한 내용은 [보고서의 데이터 탐색](cube-tables.md#explore-the-data-in-a-report)을 참조하세요.
 
@@ -94,14 +94,14 @@ ht-degree: 3%
 
 1. 큐브 목록 위에 있는 **[!UICONTROL New]** 단추를 클릭합니다.
 
-   ![](assets/create-a-cube.png)
+   ![팩트 원본 옵션, 팩트 스키마 필드, 레이블 및 저장 단추가 있는 새 큐브 대화 상자](assets/create-a-cube.png)
 
 1. 탐색할 요소(&#39;팩트 스키마&#39;라고도 함)가 포함된 스키마를 선택합니다. 이 예제에서는 기본 **받는 사람** 테이블을 선택합니다.
 1. 큐브를 만들려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. 큐브가 큐브 목록에 추가됩니다. 이제 탭을 사용하여 구성할 수 있습니다.
 
 1. **[!UICONTROL Filter the source data...]** 링크를 클릭하여 이 큐브의 계산을 데이터베이스의 데이터에 적용합니다.
 
-   ![](assets/cube-filter-source.png)
+   ![원본 데이터 필터링 링크가 포함된 큐브 일반 탭으로, [필터 편집] 대화 상자를 열고 [수명]이 18세 이상인 경우](assets/cube-filter-source.png)
 
 ### 차원 정의 {#define-dimensions}
 
@@ -112,7 +112,7 @@ ht-degree: 3%
 1. 큐브의 **[!UICONTROL Dimension]** 탭으로 이동한 다음 **[!UICONTROL Add]** 단추를 클릭하여 새 차원을 만듭니다.
 1. **[!UICONTROL Expression field]**&#x200B;에서 **[!UICONTROL Edit expression]** 아이콘을 클릭하여 관련 데이터가 포함된 필드를 선택합니다.
 
-   ![](assets/cube-add-dimension.png)
+   추가 단추와 새 차원 대화 상자가 있는 ![차원 탭; 표현식 편집 아이콘으로 필드가 선택됩니다](assets/cube-add-dimension.png)
 
 1. 이 예제에서는 받는 사람 **Age**&#x200B;을(를) 선택합니다. 이 필드의 경우, 나이를 그룹화하고 정보를 더 쉽게 읽을 수 있도록 비닝을 정의할 수 있습니다. 여러 개의 별도 값이 있을 가능성이 있는 경우 비닝을 사용하는 것이 좋습니다.
 
@@ -121,7 +121,7 @@ ht-degree: 3%
 1. **날짜** 유형 차원을 추가합니다. 여기에서는 수신자 프로필 생성 날짜를 표시하려고 합니다. 이렇게 하려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 받는 사람 테이블에서 **[!UICONTROL Creation date]** 필드를 선택합니다.
 날짜 표시 모드를 사용자 정의할 수 있습니다. 이렇게 하려면 사용할 계층과 생성할 레벨을 선택합니다.
 
-![](assets/cube-date-dimension.png)
+![옵션을 만들 수 있는 수준(연도, 분기, 월, 일 및 시간)이 있는 만든 날짜 차원 대화 상자](assets/cube-date-dimension.png)
 
 이 예제에서는 연도, 월, 일만 표시하려고 합니다. 주 및 학기/월을 동시에 사용하여 작업할 수 없습니다. 이러한 수준은 호환되지 않습니다.
 
@@ -131,11 +131,11 @@ ht-degree: 3%
 
 드롭다운 목록에서 열거형을 선택합니다. 이 열거형은 **[!UICONTROL Reserved for binning]**(으)로 정의해야 합니다.
 
-![](assets/cube-dimension-with-enum.png)
+![비닝을 사용하도록 설정하는 도시 차원, 값을 다른 값의 열거형 및 레이블에 동적으로 연결](assets/cube-dimension-with-enum.png)
 
 열거형의 값만 표시됩니다. 다른 항목은 **[!UICONTROL Label of the other values]** 필드에 정의된 레이블 아래에 그룹화됩니다.
 
-이 작업에 대한 자세한 정보는 [이 섹션](customize-cubes.md#dynamically-manage-bins)을 참조하십시오.
+자세한 내용은 [동적으로 빈 관리](customize-cubes.md#dynamically-manage-bins)를 참조하세요.
 
 ### 지표 작성 {#build-indicators}
 
@@ -148,15 +148,15 @@ ht-degree: 3%
 1. **[!UICONTROL Measures]** 탭으로 이동하여 **[!UICONTROL Add]** 단추를 클릭합니다.
 1. 적용할 측정 유형과 공식을 선택합니다. 이 예에서는 수신자 중 여성의 수를 세고 있습니다. 이 측정은 팩트 스키마를 기반으로 하며 **[!UICONTROL Count]** 연산자를 사용합니다.
 
-   ![](assets/cube-new-measure.png)
+   ![팩트 스키마, Count 연산자 및 측정값 데이터 필터 링크를 사용하여 정의된 측정값이 있는 새 측정값 대화 상자](assets/cube-new-measure.png)
 
    **[!UICONTROL Filter the measure data...]** 링크를 사용하여 여성만 선택하십시오. [자세히 알아보기](customize-cubes.md#define-measures).
 
-   ![](assets/cube-filter-measure-data.png)
+   ![Gender가 같고 Female 값이 값 목록에서 선택된 필터 대화 상자 편집](assets/cube-filter-measure-data.png)
 
 1. 측정값의 레이블을 입력하고 저장합니다.
 
-   ![](assets/cube-save-measure.png)
+   ![저장하기 전에 Count 연산자, Gender가 Female과 같은 필터 및 Label 필드로 완료된 Female을 측정합니다](assets/cube-save-measure.png)
 
 1. 큐브를 저장합니다.
 

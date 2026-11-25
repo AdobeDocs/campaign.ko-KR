@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 78%
+source-wordcount: '265'
+ht-degree: 76%
 ---
 # 제품 보호 기능{#guardrails}
 
@@ -47,4 +47,4 @@ ht-degree: 78%
 * [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)의 컨텍스트에서는 구독(옵트인) 및 구독 취소(옵트아웃) 메커니즘 및 모바일 등록은 비동기 프로세스입니다. 요청은 특정 기술 워크플로를 통해 한 시간에 한 번씩 처리됩니다. [자세히 알아보기](../architecture/replication.md#workflows)
 * [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)의 컨텍스트에서 중복은 최종 사용자가 수동으로 처리해야 합니다. [자세히 알아보기](../architecture/keys.md)
 * Adobe Campaign v8은 API 및 웹 애플리케이션에서 확장된 처리량을 지원하지 않습니다. 특정 요구 사항이 있는 경우 Adobe에 문의하여 안내를 받으시기 바랍니다.
-* [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)의 컨텍스트에서 Adobe Campaign 최적화 모듈은 압력 유형화 규칙의 예약된 게재를 고려하지 않습니다. [이 페이지](../../automation/campaign-opt/pressure-rules.md)에서 자세히 알아보기
+* [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)의 컨텍스트에서 Adobe Campaign 최적화 모듈은 압력 유형화 규칙의 예약된 게재를 고려하지 않습니다. [압력 규칙 구성](../../automation/campaign-opt/pressure-rules.md)에서 자세히 알아보기

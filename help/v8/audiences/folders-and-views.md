@@ -39,9 +39,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '793'
 ht-degree: 1%
 ---
 # 폴더 및 보기 관리 {#folders-and-views}
@@ -74,13 +74,13 @@ Campaign 폴더는 탐색기 트리의 노드입니다. 유형에 따라 특정 
 
 선택한 폴더와 동일한 유형의 폴더를 만들려면 상황별 메뉴에서 첫 번째 옵션을 선택합니다. 예를 들어 수신자 폴더에서 **[!UICONTROL Create a new 'Recipients' folder]**&#x200B;을(를) 선택합니다.
 
-![](assets/create-recipient-folder.png)
+![새 &#39;받는 사람&#39; 폴더 만들기 옵션이 강조 표시된 받는 사람 폴더의 컨텍스트 메뉴](assets/create-recipient-folder.png)
 
 필요에 따라 새 폴더를 끌어다 놓아 Campaign 탐색기 트리를 구성할 수 있습니다.
 
 다른 유형의 폴더를 만들려면 기존 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Add new folder]**&#x200B;을(를) 선택합니다. 저장할 데이터에 따라 모든 유형의 폴더를 만들 수 있습니다.
 
-![](assets/add-new-folder.png)
+![목록 폴더 유형이 선택된 데이터베이스 하위 메뉴를 표시하는 새 폴더 메뉴 추가](assets/add-new-folder.png)
 
 >[!CAUTION]
 >
@@ -109,15 +109,15 @@ Campaign 폴더는 탐색기 트리의 노드입니다. 유형에 따라 특정 
 1. 이 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Properties...]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Restriction]** 탭에서 **[!UICONTROL This folder is a view]**&#x200B;을(를) 선택합니다. 그러면 데이터베이스의 모든 게재가 표시됩니다.
 
-   ![](assets/this-folder-is-a-view.png)
+   ![이 폴더가 있는 미국 게재의 폴더 속성은 제한 탭에서 선택한 보기 옵션입니다](assets/this-folder-is-a-view.png)
 
 1. 창의 중앙 섹션에 있는 쿼리 편집기에서 필터 기준을 정의합니다. 필터에 해당하는 게재만 폴더에 표시됩니다.
 
-   ![](assets/filter-view.png)
+   ![보기를 내부 이름으로 정의하는 제한 탭 필터 조건](assets/filter-view.png)
 
    >[!NOTE]
    >
-   >[이 페이지](create-filters.md#advanced-filters)에서 쿼리를 디자인하는 방법을 알아보세요.
+   >[고급 필터](create-filters.md#advanced-filters)에서 쿼리를 디자인하는 방법을 알아봅니다.
 
 
 >[!CAUTION]
@@ -132,7 +132,7 @@ Campaign 폴더는 탐색기 트리의 노드입니다. 유형에 따라 특정 
 
 오른쪽에 있는 화살표를 사용하여 폴더를 이동하거나 **[!UICONTROL Sort the sub-folders in alphabetical order]** 옵션을 선택하여 폴더를 자동으로 정렬할 수 있습니다.
 
-![](assets/sort-folders.png)
+![아래로 이동 화살표와 알파벳순으로 정렬 옵션이 있는 폴더 속성의 하위 폴더 탭](assets/sort-folders.png)
 
 
 ## 폴더의 데이터 필터링{#filter-data-in-a-folder}
@@ -141,9 +141,9 @@ Campaign 폴더는 탐색기 트리의 노드입니다. 유형에 따라 특정 
 
 예를 들어 아래 폴더에는 이메일 주소가 있는 연락처만 포함되며 해당 연락처의 출처가 &#39;외부&#39; 또는 비어 있는 것으로 플래그가 지정되지 않습니다.
 
-![](assets/add-a-filter-to-a-folder.png)
+![내부 이름에 대해 필터링된 미국 게재 폴더 속성의 제한 탭](assets/add-a-filter-to-a-folder.png)
 
 
 ## 폴더에 대한 액세스 제한{#restrict-access-to-a-folder}
 
-폴더에 대한 권한을 사용하여 Campaign 데이터에 대한 액세스를 구성하고 제어합니다. [이 섹션](../start/folder-permissions.md)의 폴더에 대한 권한에 대해 자세히 알아보세요.
+폴더에 대한 권한을 사용하여 Campaign 데이터에 대한 액세스를 구성하고 제어합니다. [Campaign 폴더에 대한 권한 부여 및 제한](../start/folder-permissions.md)에서 폴더에 대한 권한에 대해 자세히 알아보세요.

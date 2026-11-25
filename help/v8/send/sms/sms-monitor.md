@@ -28,9 +28,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '311'
 ht-degree: 0%
 ---
 # SMS 모니터링 및 추적
@@ -47,25 +47,25 @@ ht-degree: 0%
 
 **[!UICONTROL Summary]** 탭에는 처리된 메시지 수 및 성공 횟수와 같은 기본 데이터가 있습니다.
 
-![](assets/sms_summary.png){zoomable="yes"}
+![전송, 처리 및 성공률, 게재 상태 메시지가 포함된 SMS 게재 대시보드 요약 탭](assets/sms_summary.png){zoomable="yes"}
 
 SMS를 보낸 후에는 변경 시 게재 콘텐츠에 대한 **[!UICONTROL SMS]** 탭에 더 이상 액세스할 수 없습니다.
 
 **[!UICONTROL Delivery]** 탭에는 게재 로그에 대한 정보가 있습니다. 연락한 각 주소에 대해 SMS가 전송되었는지 여부를 확인할 수 있습니다
 
-![](assets/sms_deliverylogs.png){zoomable="yes"}
+![연락한 각 주소에 대해 상태 및 이유와 함께 SMS 전송 여부를 표시하는 게재 탭 로그 목록](assets/sms_deliverylogs.png){zoomable="yes"}
 
 **[!UICONTROL Exclusions]** 탭에서 일부 주소가 대상에서 제외되는 이유에 대한 자세한 내용을 볼 수 있습니다.
 
-![](assets/sms_exclusions.png){zoomable="yes"}
+![이유(예: 차단 목록에 추가된 주소 또는 Double)가 있는 무시된 주소를 나열하는 배달 탭 제외 탭](assets/sms_exclusions.png){zoomable="yes"}
 
 **[!UICONTROL Tracking]** 탭은 추적에 대한 것입니다. 다음은 SMS 콘텐츠에서 추적된 URL의 예입니다.
 
-![](assets/sms_trackinglogs.png){zoomable="yes"}
+![SMS 콘텐츠에서 레이블, 유형 및 소스 URL과 함께 추적된 URL을 표시하는 추적 탭 URL 목록](assets/sms_trackinglogs.png){zoomable="yes"}
 
 마지막으로, 게재를 시작하는 동안 모든 세부 정보가 포함된 **[!UICONTROL Audit]** 탭입니다.
 
-![](assets/sms_audit.png){zoomable="yes"}
+![게재를 시작하는 동안 기록된 메시지를 나열하는 감사 탭 로그(날짜 및 메시지 열 포함)](assets/sms_audit.png){zoomable="yes"}
 
 ## SMS 오류 이해
 

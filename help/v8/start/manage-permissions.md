@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1816'
 ht-degree: 1%
 ---
 # 사용자 권한 관리{#manage-permissions}
@@ -62,16 +62,16 @@ ht-degree: 1%
 
 1. [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"} 홈 페이지에서 **사용자 추가**&#x200B;를 선택합니다.
 
-   ![](assets/add-a-user.png)
+   ![사용자 추가 빠른 링크가 강조 표시된 Admin Console 홈 페이지](assets/add-a-user.png)
 
 1. 사용자의 이메일 주소를 입력합니다.
 1. &#39;+&#39; 기호를 사용하여 사용자에게 할당할 제품 프로필 또는 사용자 그룹을 선택합니다.
 
-   ![](assets/add-a-product-profile.png)
+   ![Adobe Campaign 제품 프로필 목록이 있는 사용자 양식을 추가하여 사용자에 대해 선택하십시오](assets/add-a-product-profile.png)
 
-   Campaign 기본 제공 제품 프로필은 [이 섹션](#ootb-productprofiles)에 나열되어 있습니다.
+   Campaign 기본 제공 제품 프로필은 [기본 제품 프로필 및 연산자 그룹](#ootb-productprofiles)에 나열됩니다.
 
-   [이 섹션](#user-groups)에서 사용자 그룹을 만드는 방법을 알아봅니다.
+   [사용자 그룹 작업](#user-groups)에서 사용자 그룹을 만드는 방법을 알아봅니다.
 
 1. **저장**&#x200B;을 클릭합니다. 사용자가 추가되고 사용자 목록에 표시됩니다. 사용자에게 관리자 역할 또는 제품 프로필을 할당하면 사용자에게 이메일 알림이 전송됩니다. 사용자는 링크를 따라 프로필을 완료해야 합니다.
 
@@ -109,21 +109,21 @@ Adobe에 새 제품 프로필을 추가하려면 먼저 Campaign 클라이언트
 
 1. Campaign에 연결하여 탐색기를 열고 **[!UICONTROL Administration > Access management > Operator groups]**(으)로 이동합니다.
 1. **[!UICONTROL New]**&#x200B;을(를) 클릭하고 연산자 그룹의 이름을 정의하고 내부 이름(&#39;검토자&#39;)을 설정합니다.
-   ![](assets/new-op-group.png)
-1. 명명된 권한을 선택하여 관련 권한을 정의합니다. 명명된 권한은 [이 섹션](#use-named-rights)에 자세히 설명되어 있습니다.
+   ![새 검토자 연산자 그룹이 있는 Explorer의 연산자 그룹 목록](assets/new-op-group.png)
+1. 명명된 권한을 선택하여 관련 권한을 정의합니다. 명명된 권한은 [명명된 권한](#use-named-rights)에 자세히 설명되어 있습니다.
 1. 새 연산자 그룹을 저장합니다.
 
 #### Admin Console에서 제품 프로필 만들기{#create-profile-in-admin-console}
 
 1. [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}에 연결합니다.
 1. 홈 페이지의 **제품 및 서비스** 섹션에서 Campaign 제품을 엽니다.
-1. **새 프로필**&#x200B;을 클릭하고 [여기](#product-profiles)에 설명된 대로 정확한 구문을 사용하여 만들 제품 프로필의 이름을 입력합니다. 이 예제에서는 campaign - `<your-instance-name>` - 검토자를 입력합니다.
+1. **새 프로필**&#x200B;을 클릭하고 [제품 프로필 작업](#product-profiles)에 설명된 대로 정확한 구문을 사용하여 만들 제품 프로필의 이름을 입력합니다. 이 예제에서는 campaign - `<your-instance-name>` - 검토자를 입력합니다.
 
-   ![](assets/new-product-profile-ui.png)
+   ![제품 프로필 이름 필드를 채운 새 제품 프로필 페이지를 만듭니다](assets/new-product-profile-ui.png)
 
 1. 변경 내용을 저장합니다.
 
-이제 [이 섹션](#add-users)에 설명된 대로 이 새 제품 프로필에 사용자를 추가할 수 있습니다.
+이제 [사용자 추가](#add-users)에 설명된 대로 이 새 제품 프로필에 사용자를 추가할 수 있습니다.
 
 가장 좋은 방법은 사용자 그룹에 제품 프로필을 할당하는 것입니다. 사용자별 권한 관리는 지속가능한 모델이 아닙니다.
 
@@ -132,7 +132,7 @@ Adobe에 새 제품 프로필을 추가하려면 먼저 Campaign 클라이언트
 
 Adobe Campaign에는 Adobe에서 환경을 활성화할 때 정의된 기본 제공 **제품 프로필**&#x200B;이(가) 포함되어 있습니다.
 
-![](assets/ootb-product-profiles.png)
+![관리자 및 작업과 같은 기본 제공 Campaign 제품 프로필을 나열하는 Admin Console 제품 프로필 탭](assets/ootb-product-profiles.png)
 
 이러한 제품 프로필은 Campaign **운영자 그룹**&#x200B;과(와) 일치합니다. 기본 연산자 그룹과 [명명된 권한](#use-named-rights)이(가) 아래에 나열됩니다.
 
@@ -213,7 +213,7 @@ Adobe Campaign에는 Adobe에서 환경을 활성화할 때 정의된 기본 제
    >
    >**오퍼 관리자**&#x200B;는 검토자가 지정되지 않았거나 오퍼 템플릿에서 검토자로 설정된 경우에만 오퍼를 승인할 수 있습니다.
 
-   [이 페이지](../interaction/interaction-operators.md#recap-of-rights-according-to-operator)에서 환경별 오퍼 관리자 권한 매트릭스를 사용할 수 있습니다.
+   환경별 오퍼 관리자 권한 매트릭스는 [상호 작용 연산자별 권한 매트릭스](../interaction/interaction-operators.md#recap-of-rights-according-to-operator)에서 사용할 수 있습니다.
 
 ## 사용자 그룹 작업{#user-groups}
 

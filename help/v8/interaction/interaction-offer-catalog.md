@@ -22,10 +22,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 2%
+source-wordcount: '463'
+ht-degree: 1%
 ---
 # 오퍼 카탈로그 만들기
 
@@ -45,15 +45,15 @@ ht-degree: 2%
 
 1. **[!UICONTROL Offer catalog]** 폴더를 찾습니다.
 
-   ![](assets/offer_cat_create_001.png)
+   ![오퍼 - 디자인 및 환경 - 받는 사람에서 오퍼 카탈로그 폴더를 선택한 탐색기 트리](assets/offer_cat_create_001.png)
 
 1. 마우스 오른쪽 단추를 클릭하고 드롭다운 목록에서 **[!UICONTROL Create a new "Offer category" folder]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/offer_cat_create_002.png)
+   ![새 오퍼 범주 폴더 만들기 옵션이 강조 표시된 오퍼 카탈로그의 컨텍스트 메뉴](assets/offer_cat_create_002.png)
 
 1. 카테고리 이름을 다시 지정합니다. 나중에 **[!UICONTROL General]** 탭을 사용하여 레이블을 편집할 수 있습니다.
 
-   ![](assets/offer_cat_create_003.png)
+   ![Neobank라는 새 범주 폴더 - 오퍼 카탈로그 트리의 개인 뱅킹, 이름 변경 준비 완료](assets/offer_cat_create_003.png)
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ ht-degree: 2%
 
    * **[!UICONTROL Eligibility]** 탭에서 자격 날짜를 할당하십시오.
 
-     ![](assets/offer_cat_create_004.png)
+     ![시작 날짜 및 종료 날짜 필드가 있고 달력이 열려 있으며 대상 필터에 대한 쿼리 편집 링크가 있는 자격 탭](assets/offer_cat_create_004.png)
 
    * **[!UICONTROL Edit query]**: 오퍼 대상에 필터를 적용합니다.
 
@@ -83,4 +83,4 @@ ht-degree: 2%
 1. **[!UICONTROL Eligibility]** 탭을 클릭하고 **[!UICONTROL Always include this category in the recommendations]** 옵션을 선택합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/offer_cat_default_001.png)
+   ![선택한 권장 사항에 항상 이 범주를 포함하는 범주 자격 탭](assets/offer_cat_default_001.png)

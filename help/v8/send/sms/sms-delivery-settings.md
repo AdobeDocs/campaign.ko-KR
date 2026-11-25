@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '788'
 ht-degree: 1%
 ---
 # SMS 게재 설정 {#sms-settings}
@@ -46,7 +46,7 @@ SMS 게재에 필요한 기술 설정은 다음과 같습니다.
 
 ## SMS 탭 구성 {#sms-tab}
 
-![](assets/send_settings.png){zoomable="yes"}
+일반 매개 변수와 선택적 SMPP 매개 변수(TLV) 테이블을 포함한 게재 속성의 ![SMS 탭](assets/send_settings.png){zoomable="yes"}
 
 여기 이 양식에 기입해야 할 정보가 있습니다. 각 필드는 아래에 설명되어 있습니다.
 

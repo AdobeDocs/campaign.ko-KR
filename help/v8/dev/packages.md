@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '2026'
 ht-degree: 0%
 ---
 # 데이터 패키지 작업{#data-packages}
@@ -128,7 +128,7 @@ XML 문서는 `<package>` 요소로 시작하고 끝나야 합니다. 다음에 
 1. 탐색기의 **[!UICONTROL Tools > Advanced > Export package...]** 메뉴를 통해 패키지 내보내기 도우미로 이동합니다.
 1. [패키지 유형](#types-of-packages)을 선택하세요.
 
-   ![](assets/package_type.png)
+   ![사용자 패키지, 플랫폼 패키지 및 관리 패키지 옵션, 사용자 패키지가 선택된 패키지 내보내기 마법사](assets/package_type.png)
 
 1. 패키지로 내보낼 엔터티를 선택하려면 **추가** 단추를 클릭하십시오.
 
@@ -142,7 +142,7 @@ XML 문서는 `<package>` 요소로 시작하고 끝나야 합니다. 다음에 
 
    >[!NOTE]
    >
-   >쿼리 편집기가 [이 섹션](../../automation/workflow/query.md)에 표시됩니다.
+   >쿼리 편집기는 [쿼리 만들기](../../automation/workflow/query.md#creating-a-query)에 표시됩니다.
 
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하고 내보낸 데이터의 정렬 순서를 선택하십시오.
 
@@ -159,7 +159,7 @@ XML 문서는 `<package>` 요소로 시작하고 끝나야 합니다. 다음에 
 
 >[!NOTE]
 >
->스키마 요소에 연결된 무결성 유형이 [이 페이지](database-links.md)에 정의되어 있습니다.
+>스키마 요소에 연결된 무결성 유형이 [Campaign 스키마의 링크 관리](database-links.md)에 정의되어 있습니다.
 
 #### 캠페인 내보내기 {#export-a-campaign}
 
@@ -241,7 +241,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 패키지 정의를 만들려면 **[!UICONTROL New]** 단추를 클릭한 다음 패키지 정의 일반 정보를 입력하십시오.
 
-![](assets/packagedefinition_create.png)
+![새 단추와 일반 탭 필드가 있는 패키지 정의 폴더 레이블, 이름 및 배포자](assets/packagedefinition_create.png)
 
 그런 다음 패키지 정의에 엔티티를 추가하고 XML 파일 패키지로 내보낼 수 있습니다.
 
@@ -253,9 +253,9 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ### 패키지 정의에 엔티티 추가 {#add-entities-to-a-package-definition}
 
-**[!UICONTROL Content]** 탭에서 **[!UICONTROL Add]** 단추를 클릭하여 패키지로 내보낼 엔터티를 선택합니다. 엔터티를 선택할 때의 모범 사례는 [이 섹션](#export-a-set-of-objects-in-a-package)에 나와 있습니다.
+**[!UICONTROL Content]** 탭에서 **[!UICONTROL Add]** 단추를 클릭하여 패키지로 내보낼 엔터티를 선택합니다. 엔터티를 선택할 때의 모범 사례는 [패키지에서 개체 집합 내보내기](#export-a-set-of-objects-in-a-package)에 나와 있습니다.
 
-![](assets/packagedefinition_addentities.png)
+추가 단추가 있는 패키지 정의의 ![콘텐츠 탭에서 스키마를 나열하는 엔터티 내보내기 대화 상자를 엽니다](assets/packagedefinition_addentities.png)
 
 엔티티는 인스턴스의 해당 위치에서 패키지 정의에 직접 추가할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
@@ -263,13 +263,13 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 1. **[!UICONTROL Add to a package definition]**&#x200B;을(를) 선택한 다음 엔터티를 추가할 패키지 정의를 선택합니다.
 
-1. 엔터티가 패키지 정의에 추가되고 패키지와 함께 내보내집니다([이 섹션](#export-packages-from-a-package-definition) 참조).
+1. 엔터티가 패키지 정의에 추가되고 패키지와 함께 내보내집니다([패키지 정의에서 패키지 내보내기](#export-packages-from-a-package-definition) 참조).
 
 ### 패키지 정의 생성 구성 {#configure-package-definitions-generation}
 
 패키지 정의 **[!UICONTROL Content]** 탭에서 패키지 생성을 구성할 수 있습니다. 이렇게 하려면 **[!UICONTROL Generation parameters]** 링크를 클릭하십시오.
 
-![](assets/packagedefinition_generationparameters.png)
+![정의 포함, 설치 스크립트 포함 및 기본값 포함이 포함된 생성 매개 변수 대화 상자](assets/packagedefinition_generationparameters.png)
 
 * 패키지 정의에 현재 사용되는 정의를 포함하려면 **[!UICONTROL Include the definition]** 옵션을 사용하십시오.
 * 패키지 가져오기 시 실행할 Javascript 스크립트를 추가하려면 **[!UICONTROL Include an installation script]** 옵션을 사용하십시오. 선택하면 패키지 정의 화면에 **[!UICONTROL Script]** 탭이 추가됩니다.

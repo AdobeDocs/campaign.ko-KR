@@ -34,10 +34,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 2%
+source-wordcount: '515'
+ht-degree: 0%
 ---
 # 새 스키마 만들기 {#create-new-schema}
 
@@ -47,11 +47,11 @@ ht-degree: 2%
 >
 >기본 제공 데이터 스키마는 Adobe Campaign 콘솔의 관리자만 삭제할 수 있습니다.
 
-![](assets/schema_navtree.png)
+관리, 구성 및 데이터 스키마 노드가 강조 표시된 ![탐색기 트리.](assets/schema_navtree.png)
 
 **[!UICONTROL Edit]** 탭에는 스키마의 XML 콘텐츠가 표시됩니다.
 
-![](assets/schema_edition.png)
+![이름 및 레이블 필드와 스키마 XML 콘텐츠를 표시하는 Source 스키마 편집기, 편집 탭](assets/schema_edition.png)
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 **[!UICONTROL Preview]** 탭은 확장 스키마를 자동으로 생성합니다.
 
-![](assets/schema_edition2.png)
+![Source 스키마 편집기, 미리 보기 탭, 생성된 확장 스키마 XML을 표시합니다.](assets/schema_edition2.png)
 
 >[!NOTE]
 >
@@ -76,11 +76,11 @@ ht-degree: 2%
 1. Adobe Campaign 트리의 **[!UICONTROL Administration > Configuration > Data schemas]** 노드를 편집하고 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Create a new table in the data template]** 옵션을 선택하고 **[!UICONTROL Next]** 을(를) 클릭합니다.
 
-   ![](assets/create_new_schema.png)
+   ![데이터 서식 파일에서 새 테이블 만들기를 사용하여 데이터 스키마 마법사의 스키마 형식 페이지입니다.](assets/create_new_schema.png)
 
 1. 테이블 이름 및 네임스페이스를 지정합니다.
 
-   ![](assets/create_new_param.png)
+   ![네임스페이스 CU, 이름 계약, 레이블, 레이블(단수) 및 설명이 채워진 스키마 매개 변수 페이지](assets/create_new_param.png)
 
    >[!NOTE]
    >
@@ -88,7 +88,7 @@ ht-degree: 2%
 
 1. 테이블의 내용을 만듭니다. 전용 도우미를 사용하여 설정이 누락되지 않았는지 확인하는 것이 좋습니다. 이렇게 하려면 **[!UICONTROL Insert]** 단추를 클릭하고 추가할 설정 유형을 선택합니다.
 
-   ![](assets/create_new_content.png)
+   ![삽입 메뉴가 열려 있는 스키마 편집 페이지에 문자열 및 정수와 같은 특성 유형이 표시됩니다.](assets/create_new_content.png)
 
 1. 계약 테이블에 대한 설정을 정의합니다.
 
@@ -138,6 +138,6 @@ ht-degree: 2%
 
 1. 스키마를 저장하고 **[!UICONTROL Structure]** 탭을 클릭하여 구조를 생성합니다.
 
-   ![](assets/configuration_structure.png)
+   ![계약 스키마 목록 소유자, 공유자, 계약 번호 및 구독 날짜 특성의 구조 탭](assets/configuration_structure.png)
 
-1. 데이터베이스 구조를 업데이트하여 스키마가 연결될 테이블을 만듭니다. 이 작업에 대한 자세한 정보는 [이 섹션](update-database-structure.md)을 참조하십시오.
+1. 데이터베이스 구조를 업데이트하여 스키마가 연결될 테이블을 만듭니다. 자세한 내용은 [데이터베이스 구조 업데이트](update-database-structure.md)를 참조하세요.

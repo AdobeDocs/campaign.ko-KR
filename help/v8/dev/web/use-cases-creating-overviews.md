@@ -31,9 +31,9 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '1259'
 ht-degree: 0%
 ---
 # 사용 사례: 개요 페이지 만들기{#use-cases-creating-overviews}
@@ -48,13 +48,13 @@ ht-degree: 0%
 * 링크 편집 도구당 하나의 필터([링크 편집기를 사용하여 필터 만들기](#creating-a-filter-using-a-link-editor) 참조),
 * 새로 고침 링크([새로 고침 링크 만들기](#creating-a-refresh-link) 참조).
 
-![](assets/s_ncs_configuration_webapp_overview.png)
+![폴더 필터, 새 단추, 링크 편집기 필터, 링크 새로 고침, 목록, 세부 정보 레이블이 있는 웹 응용 프로그램 개요 페이지](assets/s_ncs_configuration_webapp_overview.png)
 
 ## 단일 페이지 웹 애플리케이션 만들기 {#creating-a-single-page-web-application}
 
 1. 단일 **[!UICONTROL Page]** 웹 응용 프로그램을 만들고 아웃바운드 전환 및 다음 페이지로의 전환을 사용하지 않도록 설정합니다.
 
-   ![](assets/s_ncs_configuration_webapp_create.png)
+   ![페이지 속성, 일반 탭(다음 페이지 사용 안 함 선택 및 아웃바운드 전환 사용 안 함)을 지웠습니다.](assets/s_ncs_configuration_webapp_create.png)
 
 1. 페이지 제목을 변경합니다.
 
@@ -62,19 +62,19 @@ ht-degree: 0%
 
 1. 웹 응용 프로그램 속성에서 **[!UICONTROL Single-page Web application]** 템플릿을 선택하여 응용 프로그램의 렌더링을 수정합니다.
 
-   ![](assets/s_ncs_configuration_webapp_rendering.png)
+   템플릿 목록에서 선택한 단일 페이지 웹 응용 프로그램 서식 파일이 있는 ![속성 대화 상자, 렌더링 탭.](assets/s_ncs_configuration_webapp_rendering.png)
 
 1. 웹 응용 프로그램의 **[!UICONTROL Page]** 활동을 열고 목록(**[!UICONTROL Static element > List]**)을 엽니다.
 1. 목록의 **[!UICONTROL Data]** 탭에서 **[!UICONTROL Web applications]** 문서 유형과 **[!UICONTROL Label]**, **[!UICONTROL Creation date]** 및 **[!UICONTROL Type of application]** 출력 열을 선택합니다.
 1. **[!UICONTROL Filter]** 하위 탭에서 웹 응용 프로그램만 표시하고 템플릿은 보기에서 제외하기 위해 아래 표시된 대로 다음 필터를 만듭니다.
 
-   ![](assets/s_ncs_configuration_webapp_filter.png)
+   ![목록 데이터 탭, 필터 하위 탭(조건이 [아니요]와 같고 기본 키가 0과 같지 않음).](assets/s_ncs_configuration_webapp_filter.png)
 
 1. 페이지의 구성 창을 닫고 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 
    데이터베이스에서 사용할 수 있는 웹 응용 프로그램 목록이 표시됩니다.
 
-   ![](assets/s_ncs_configuration_webapp_preview.png)
+   ![레이블별 웹 응용 프로그램 목록을 표시하는 웹 응용 프로그램의 미리 보기 탭](assets/s_ncs_configuration_webapp_preview.png)
 
 ## 폴더에 필터 추가 {#adding-a-filter-on-a-folder}
 
@@ -91,15 +91,15 @@ ht-degree: 0%
 
 1. 변수에 **[!UICONTROL XML]** 형식을 적용합니다.
 
-   ![](assets/s_ncs_configuration_webapp_variable_xml.png)
+   ![편집 저장소가 열려 있는 폴더 입력을 선택하고 XML 형식의 폴더 변수를 표시하는 분기를 편집합니다.](assets/s_ncs_configuration_webapp_variable_xml.png)
 
 1. **[!UICONTROL Refresh page]** 상호 작용을 선택합니다.
 
-   ![](assets/s_ncs_configuration_webapp_variable.png)
+   ![폴더를 선택할 때 수행할 작업에 대해 페이지 새로 고침 작업이 선택된 폴더 입력.](assets/s_ncs_configuration_webapp_variable.png)
 
 1. 커서를 목록에 놓고 **[!UICONTROL Advanced]** 탭에서 목록의 **[!UICONTROL Folder filter XPath]** 탭에서 이전에 만든 변수를 참조합니다. 폴더 링크와 관련된 요소의 이름(예: **folder**)을 사용해야 합니다.
 
-   ![](assets/s_ncs_configuration_webapp_variable002.png)
+   ![폴더 필터 XPath 필드가 저장소/필터링의 폴더로 설정된 고급 탭을 나열합니다.](assets/s_ncs_configuration_webapp_variable002.png)
 
    >[!NOTE]
    >
@@ -129,7 +129,7 @@ ht-degree: 0%
 
    이 스타일은 이전에 선택한 **[!UICONTROL Single-page Web application]** 템플릿에서 참조됩니다.
 
-   ![](assets/s_ncs_configuration_webapp_link.png)
+   ![새 웹 응용 프로그램 양식을 여는 URL과 Style 필드가 button으로 설정된 새 링크 요소입니다.](assets/s_ncs_configuration_webapp_link.png)
 
 ## 목록에 세부 사항 추가 {#adding-detail-to-a-list}
 
@@ -138,17 +138,17 @@ ht-degree: 0%
 1. 이전에 만든 목록 요소 위에 커서를 놓습니다.
 1. **[!UICONTROL General]** 탭의 드롭다운 목록에서 **[!UICONTROL Columns and additional detail]** 표시 모드를 선택합니다.
 
-   ![](assets/s_ncs_configuration_webapp_detail.png)
+   ![보기 옵션이 열 및 추가 세부 정보로 설정된 일반 목록 탭](assets/s_ncs_configuration_webapp_detail.png)
 
 1. **[!UICONTROL Data]** 탭에서 **[!UICONTROL Primary key]**, **[!UICONTROL Internal name]** 및 **[!UICONTROL Description]** 열을 추가하고 각 열에 대해 **[!UICONTROL Hidden field]** 옵션을 선택합니다.
 
-   ![](assets/s_ncs_configuration_webapp_detail002.png)
+   ![기본 키, 내부 이름 및 설명 출력 열이 숨겨진 필드로 표시된 데이터 탭을 나열합니다.](assets/s_ncs_configuration_webapp_detail002.png)
 
    이렇게 하면 각 항목의 세부 사항에서만 이 정보를 볼 수 있습니다.
 
 1. **[!UICONTROL Additional detail]** 탭에서 다음 코드를 추가합니다.
 
-   ```
+   ```html
    <div class="detailBox">
      <div class="actionBox">
        <span class="action"><img src="/xtk/img/fileEdit.png"/><a title="Open" class="linkAction" href="xtk://open/?schema=nms:webApp&form=nms:webApp&pk=
@@ -192,22 +192,22 @@ ht-degree: 0%
 1. **[!UICONTROL Page]** 요소에 커서를 놓고 **[!UICONTROL Container > Standard]**&#x200B;을(를) 선택합니다.
 1. 링크 편집기와 링크가 서로 옆에 있도록 열의 수를 **2**(으)로 설정하십시오.
 
-   ![](assets/s_ncs_configuration_webapp_container.png)
+   ![표시 형식 필드가 dottedFilter와 두 열로 설정된 필터 컨테이너.](assets/s_ncs_configuration_webapp_container.png)
 
-   요소 레이아웃에 대한 자세한 내용은 [이 섹션](about-web-forms.md)을 참조하세요.
+   요소 레이아웃에 대한 자세한 내용은 [웹 폼 시작](about-web-forms.md)을 참조하세요.
 
 1. **dottedFilter**&#x200B;을(를) 적용합니다.
 
    이 스타일은 이전에 선택한 **[!UICONTROL Single-page Web application]** 템플릿에서 참조됩니다.
 
-   ![](assets/s_ncs_configuration_webapp_container002.png)
+   ![표시 형식 스타일 필드가 dottedFilter로 설정된 필터 컨테이너 일반 탭](assets/s_ncs_configuration_webapp_container002.png)
 
 ### 링크 편집기를 사용하여 필터 만들기 {#creating-a-filter-using-a-link-editor}
 
 1. 이전 단계에서 만든 컨테이너에 커서를 놓고 **[!UICONTROL Advanced controls]** 메뉴를 통해 링크 편집기를 삽입합니다.
 1. 자동으로 열리는 저장소 창에서 **[!UICONTROL Variables]** 옵션을 선택한 다음 **[!UICONTROL Edit variables]** 링크를 클릭하고 데이터 필터링을 위한 XML 변수를 만듭니다.
 
-   ![](assets/s_ncs_configuration_webapp_variable003.png)
+   ![링크 편집기 입력: 저장소 편집, 변수 편집 및 var2 XML 변수를 만드는 변수 대화 상자를 표시합니다.](assets/s_ncs_configuration_webapp_variable003.png)
 
 1. 레이블을 수정합니다.
 
@@ -215,7 +215,7 @@ ht-degree: 0%
 
 1. 연산자 테이블을 응용 프로그램 스키마로 선택합니다.
 
-   ![](assets/s_ncs_configuration_webapp_linkeditor.png)
+   ![링크 편집기 레이블이 작성자, 연산자 응용 프로그램 스키마가 선택된 변수 var2에 저장](assets/s_ncs_configuration_webapp_linkeditor.png)
 
 1. 커서를 목록 요소에 놓고 **[!UICONTROL Data > Filter]** 탭을 통해 필터를 만듭니다.
 
@@ -224,7 +224,7 @@ ht-degree: 0%
    * **값:** 변수(변수)
    * **다음 경우 고려:** &#39;$(var2/@id)&#39;!=&#39;&#39;
 
-   ![](assets/s_ncs_configuration_webapp_filter002.png)
+   ![변수 ID가 설정된 경우에만 적용된 Created by 링크 키를 포함한 필터 조건을 나열합니다.](assets/s_ncs_configuration_webapp_filter002.png)
 
 >[!CAUTION]
 >
@@ -237,13 +237,13 @@ ht-degree: 0%
 1. **[!UICONTROL Refresh data in a list]**&#x200B;을(를) 선택합니다.
 1. 이전에 만든 목록을 추가합니다.
 
-   ![](assets/s_ncs_configuration_webapp_refreshlink.png)
+   ![목록 작업 및 새로 고칠 목록 아래에 선택된 목록 1에서 데이터 새로 고침이 포함된 링크를 새로 고칩니다.](assets/s_ncs_configuration_webapp_refreshlink.png)
 
 1. **[!UICONTROL Image]** 필드에 새로 고침 아이콘을 추가합니다. **/xtk/img/refresh.png**.
 1. 정렬 순서 화살표를 사용하여 아래와 같이 웹 응용 프로그램의 다양한 요소를 다시 구성합니다.
 
-   ![](assets/s_ncs_configuration_webapp_orderelements.png)
+   ![목록 1을 필터 요소 아래로 이동하기 위해 정렬 순서 화살표가 강조 표시된 페이지 요소 트리](assets/s_ncs_configuration_webapp_orderelements.png)
 
 이제 웹 응용 프로그램이 구성되었습니다. **[!UICONTROL Preview]** 탭을 클릭하여 미리 볼 수 있습니다.
 
-![](assets/s_ncs_configuration_webapp_result.png)
+![완료된 웹 응용 프로그램의 미리 보기: 폴더 필터, 새 링크, 필터로 만든 링크 및 목록 새로 고침.](assets/s_ncs_configuration_webapp_result.png)

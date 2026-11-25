@@ -26,9 +26,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '303'
 ht-degree: 1%
 ---
 # SMS 게재 증명 보내기 {#sms-proof}
@@ -39,7 +39,7 @@ SMS 게재에 대한 증명을 전송하여 유효성을 검사할 수 있습니
 
 1. **[!UICONTROL Send a proof]** 단추를 클릭하면 창이 열립니다.
 
-   ![](assets/proof_targeting.png){zoomable="yes"}
+   ![특정 증명 대상, 주소 대체, 시드 주소 또는 두 가지 모두와 같은 타겟팅 모드 목록이 있는 증명 대화 상자를 보냅니다](assets/proof_targeting.png){zoomable="yes"}
 
    증명을 보낼 수 있는 모드가 여러 개 있습니다.
 
@@ -53,12 +53,12 @@ SMS 게재에 대한 증명을 전송하여 유효성을 검사할 수 있습니
 
    아래 예제에서 **[!UICONTROL Definition of a specific proof target]**&#x200B;을(를) 선택하고 받는 사람을 추가합니다.
 
-   ![](assets/proof_recipient.png){zoomable="yes"}
+   ![한 명의 받는 사람이 추가되고 분석 단추가 있는 특정 증명 대상 모드의 정의에서 증명 대화 상자를 보냅니다](assets/proof_recipient.png){zoomable="yes"}
 
 1. **[!UICONTROL Analyze]** 버튼을 클릭합니다.
 Adobe Campaign은 증명 전송을 확인하기 전에 모든 제어를 수행합니다. 분석이 끝나면 **[!UICONTROL Confirm delivery]** 단추를 클릭할 수 있습니다.
 
-   ![](assets/proof_analyze.png){zoomable="yes"}
+   ![분석 후 증명 대화 상자 보내기: 준비가 완료됨, 전송할 메시지 1개, 분석 로그 및 게재 확인 단추](assets/proof_analyze.png){zoomable="yes"}
 
 1. SMS 게재 증명을 보내려면 **[!UICONTROL Confirm delivery]** 버튼을 클릭하세요.
 

@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 4%
+source-wordcount: '1529'
+ht-degree: 3%
 ---
 # 프로그램 및 캠페인 만들기{#create-programs-and-campaigns}
 
@@ -36,9 +36,9 @@ ht-degree: 4%
 
 마케팅 프로그램은 게재, 리소스 등으로 구성되는 캠페인으로 구성됩니다. 게재, 예산, 검토자 및 연결된 문서에 관한 모든 정보는 캠페인에 그룹화됩니다.
 
-![](assets/campaigns-create-from-home.png)
+![마케팅 캠페인 목록, 만들기 단추 및 캠페인 일정 메뉴가 있는 캠페인 홈 페이지](assets/campaigns-create-from-home.png)
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 프로그램 및 캠페인 살펴보기](#video)
+![프로그램 및 캠페인에 대한 비디오 재생 아이콘](assets/do-not-localize/how-to-video.png) [비디오에서 프로그램 및 캠페인 검색](#video)
 
 ## 프로그램 및 계획 작업{#work-with-plan-and-program}
 
@@ -52,18 +52,18 @@ ht-degree: 4%
 1. 계획을 생성할 폴더를 마우스 오른쪽 단추로 누릅니다.
 1. **새 폴더 추가 > 캠페인 관리 > 플랜**&#x200B;을 선택합니다.
 
-   ![](assets/create-new-plan-folder.png)
+   ![Campaign Management > 플랜을 선택한 상태로 탐색기에서 새 폴더 메뉴 추가](assets/create-new-plan-folder.png)
 
 1. 플랜 이름을 변경합니다.
 1. 새로 만든 계획을 마우스 오른쪽 단추로 클릭하고 **속성...**&#x200B;을 선택합니다.
 1. **일반** 탭에서 **내부 이름**&#x200B;을(를) 수정하여 패키지를 내보내는 동안 중복되지 않도록 합니다.
 
-   ![](assets/plan-properties.png)
+   ![폴더 속성 대화 상자, 일반 탭(레이블 및 내부 이름 필드와 저장 단추 포함)](assets/plan-properties.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 1. 새로 만든 계획을 마우스 오른쪽 단추로 클릭하고 **새 &#39;프로그램&#39; 폴더 만들기**&#x200B;를 선택합니다.
 
-   ![](assets/program-folder.png)
+   ![새 &#39;프로그램&#39; 폴더를 선택한 상태로 계획 폴더의 마우스 오른쪽 단추 클릭 메뉴](assets/program-folder.png)
 
 1. 위의 단계를 반복하여 새 프로그램 폴더와 해당 내부 이름의 이름을 변경합니다.
 
@@ -76,7 +76,7 @@ ht-degree: 4%
 
 * **편집** 탭에서는 이름, 시작 및 종료 날짜, 예산, 연결된 문서 등 프로그램을 개인화할 수 있습니다.
 
-  ![](assets/new-program-edit-tab.png)
+  ![레이블, 내부 이름, 일정 날짜, 관련 예산 및 목표가 있는 프로그램 편집 탭](assets/new-program-edit-tab.png)
 
 ## 캠페인 작업{#work-with-campaigns}
 
@@ -86,7 +86,7 @@ ht-degree: 4%
 
 **[!UICONTROL Program]** 필드를 사용하면 캠페인을 연결할 프로그램을 선택할 수 있습니다. 이 정보는 필수입니다.
 
-![](assets/new-campaign-settings.png)
+![템플릿, 레이블 및 프로그램 필드와 [확인] 단추가 있는 새 마케팅 캠페인 대화 상자](assets/new-campaign-settings.png)
 
 캠페인 또는 프로그램 달력에서 를 통해 캠페인을 만들 수도 있습니다. [자세히 알아보기](#campaign-calendar)
 
@@ -102,7 +102,7 @@ ht-degree: 4%
 
 이 모든 작업을 수행하면 캠페인 대시보드로 이동합니다.
 
-![](assets/campaigns-dashboard-approve.png)
+![콘텐츠 승인 및 타깃팅 승인을 제공하는 게재의 승인 메뉴가 있는 Campaign 대시보드](assets/campaigns-dashboard-approve.png)
 
 다음 섹션에 액세스하여 캠페인을 구성하는 방법을 알아보십시오.
 
@@ -133,17 +133,17 @@ ht-degree: 4%
 
 각 캠페인에 대해 작업, 리소스 및 게재는 대시보드에서 중앙 집중화됩니다. 이 인터페이스를 사용하여 마케팅 작업을 관리하고 오케스트레이션할 수 있습니다.
 
-Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양한 단계를 만들고 승인하기 위한 공동 작업 프로세스를 설정할 수 있습니다. 이 오케스트레이션은 [이 섹션](marketing-campaign-approval.md)에 자세히 설명되어 있습니다.
+Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양한 단계를 만들고 승인하기 위한 공동 작업 프로세스를 설정할 수 있습니다. 이 오케스트레이션은 [승인 프로세스 설정 및 관리](marketing-campaign-approval.md)에 자세히 설명되어 있습니다.
 
-![](assets/campaigns-dashboard-approval-tab.png)
+![승인 메뉴, 콘텐츠 및 타겟팅 상태가 있는 캠페인 대시보드의 게재 패널](assets/campaigns-dashboard-approval-tab.png)
 
 >[!NOTE]
 >
->캠페인에서 사용할 수 있는 구성 요소는 템플릿에 따라 다릅니다. 캠페인 템플릿 구성이 [이 섹션](marketing-campaign-templates.md#campaign-templates)에 표시됩니다.
+>캠페인에서 사용할 수 있는 구성 요소는 템플릿에 따라 다릅니다. 캠페인 템플릿 구성은 [캠페인 템플릿 만들기 및 구성](marketing-campaign-templates.md#campaign-templates)에 나와 있습니다.
 
 캠페인이 달성되면 **[!UICONTROL Reports]** 링크를 사용하여 캠페인 보고서에 액세스합니다.
 
-![](assets/campaigns-reports-dashboard.png)
+![캠페인 경비 및 게재 요약과 같은 캠페인 보고서를 나열하는 캠페인 대시보드 보고서 탭](assets/campaigns-reports-dashboard.png)
 
 ## 캠페인 캘린더 {#campaign-calendar}
 
@@ -151,11 +151,11 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 
 플랜, 프로그램, 캠페인 또는 게재를 편집하려면 일정에서 해당 이름을 찾은 다음 **[!UICONTROL Open]** 링크를 사용하세요. 그런 다음 아래와 같이 새 탭에 표시됩니다.
 
-![](assets/campaign-calendar.png)
+![열려 있는 링크, 일정 및 상태를 표시하는 캠페인용 팝업이 포함된 캠페인 일정](assets/campaign-calendar.png)
 
 캠페인 캘린더에 표시되는 정보를 필터링할 수 있습니다. 이렇게 하려면 **[!UICONTROL Filter]** 링크를 클릭하고 필터링 기준을 선택합니다.
 
-![](assets/campaign_planning_filter.png)
+![캠페인 일정 필터 링크를 통해 캠페인, 게재, 작업 및 프로그램에 대한 필터 옵션을 확장합니다](assets/campaign_planning_filter.png)
 
 >[!NOTE]
 >
@@ -167,11 +167,11 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 
 표시할 캠페인을 필터링하려면 **[!UICONTROL Filter]** 링크를 클릭하고 표시할 캠페인의 상태를 선택하십시오.
 
-![](assets/calendar-filter-options.png)
+![작업 드롭다운에 편집 중, 시작 및 완료와 같은 상태를 나열하는 캠페인 캘린더 필터](assets/calendar-filter-options.png)
 
 달력을 검색할 때 프로그램이나 캠페인을 만들 수도 있습니다.
 
-![](assets/campaign-create-from-calendar.png)
+![프로그램 추가 및 캠페인 추가를 제공하는 추가 메뉴가 있는 프로그램 일정 탭](assets/campaign-create-from-calendar.png)
 
 프로그램의 **[!UICONTROL Schedule]** 탭을 통해 캠페인을 만들면 해당 캠페인이 관련 프로그램에 자동으로 연결됩니다. 이 경우 **[!UICONTROL Program]** 필드가 숨겨집니다.
 
@@ -183,7 +183,7 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 1. 평소대로 https://`<your instance>:<port>/view/home`을(를) 통해 로그온합니다.
 1. 메뉴를 사용하여 개요에 액세스합니다.
 
-   ![](assets/web-access-campaigns.png)
+   ![웹 인터페이스의 마케팅 캠페인 목록과 캠페인 상태 및 작업 메뉴](assets/web-access-campaigns.png)
 
 캠페인 간 탐색 및 보기 외에도 다음 유형의 작업을 수행할 수 있습니다.
 
@@ -216,9 +216,9 @@ Adobe Campaign을 사용하면 예산, 타겟, 콘텐츠 등 캠페인의 다양
 
 타겟 또는 게재 콘텐츠의 승인은 웹 액세스를 통해 수행할 수 있습니다.
 
-![](assets/web-access-approval.png)
+![수락 및 거부 옵션과 댓글 필드가 있는 웹 인터페이스의 게재 대화 상자 작업](assets/web-access-approval.png)
 
-알림 메시지에 포함된 링크를 사용할 수도 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](marketing-campaign-approval.md#review-and-approve-deliveries)을 참조하십시오.
+알림 메시지에 포함된 링크를 사용할 수도 있습니다. 자세한 내용은 [게재 검토 및 승인](marketing-campaign-approval.md#review-and-approve-deliveries)을 참조하세요.
 
 
 ## 튜토리얼 비디오 {#video}

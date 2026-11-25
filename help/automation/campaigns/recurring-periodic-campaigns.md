@@ -22,9 +22,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '888'
 ht-degree: 0%
 ---
 # 반복 및 정기 캠페인 {#recurring-and-periodic-campaigns}
@@ -43,10 +43,10 @@ ht-degree: 0%
 
 1. 캠페인 탐색기를 열고 **[!UICONTROL Resources > Templates > Campaign templates]**(으)로 이동합니다.
 1. 기본 제공 **[!UICONTROL Recurring campaign]** 템플릿을 복제합니다.
-   ![](assets/recurring-campaign-duplicate.png)
+   ![반복 캠페인 템플릿의 컨텍스트 메뉴에서 중복 명령을 선택한 캠페인 템플릿 목록입니다.](assets/recurring-campaign-duplicate.png)
 1. 템플릿 이름과 캠페인 기간을 입력합니다.
 1. 이 유형의 캠페인에는 템플릿 실행 일정을 만들기 위해 **[!UICONTROL Schedule]** 탭이 추가됩니다. 이 탭을 사용하여 이 템플릿을 기반으로 하는 캠페인의 실행 날짜를 정의합니다.
-   ![](assets/recurring-campaign-schedule.png)
+   ![시작 날짜를 설정할 일정 선택기와 실행 일정 목록이 있는 캠페인 템플릿의 일정 탭](assets/recurring-campaign-schedule.png)
 
    실행 예약의 구성 모드가 워크플로의 **[!UICONTROL Scheduler]** 개체와 일치합니다. [자세히 알아보기](../workflow/scheduler.md).
 
@@ -61,7 +61,7 @@ ht-degree: 0%
    >
    >이 워크플로는 반복 워크플로 템플릿으로 저장해야 합니다. 이렇게 하려면 워크플로 속성을 편집하고 **[!UICONTROL Execution]** 탭에서 **[!UICONTROL Recurring workflow template]** 옵션을 선택합니다.
 
-   ![](assets/recurring-campaign-wf-properties.png)
+   ![워크플로 속성, 실행 탭(반복 워크플로 템플릿 옵션 선택)](assets/recurring-campaign-wf-properties.png)
 
 ### 반복 캠페인 만들기 {#create-the-recurring-campaign}
 
@@ -81,13 +81,13 @@ ht-degree: 0%
 
 1. 반복 워크플로우는 캠페인에 있는 워크플로 템플릿에서 자동으로 만들어집니다. 캠페인의 **[!UICONTROL Targeting and workflows]** 탭에 표시됩니다.
 
-   ![](assets/recurring-wf-created.png)
+   ![기본 워크플로와 해당 반복 인스턴스 번호가 매겨진 #1 및 반복 인스턴스를 나열하는 #2 및 워크플로 탭](assets/recurring-wf-created.png)
 
    반복 워크플로우 인스턴스의 레이블은 템플릿 레이블과 워크플로우 번호로 구성되며 # 문자는 그 사이에 있습니다.
 
    일정에서 만든 워크플로는 **[!UICONTROL Schedule]** 탭의 **[!UICONTROL Workflow]** 열에서 워크플로와 자동으로 연결됩니다.
 
-   ![](assets/recurring-wf-schedule-executed.png)
+   ![만든 워크플로를 일정 선에 연결하는 워크플로 열이 있는 일정 탭. 미리 만든 기간은 15d입니다.](assets/recurring-wf-schedule-executed.png)
 
    이 탭에서 각 워크플로우를 편집할 수 있습니다.
 

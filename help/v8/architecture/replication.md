@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '849'
 ht-degree: 2%
 ---
 # 데이터 복제 {#wf-data-replication}
@@ -93,19 +93,19 @@ Campaign v8은 특정 기술 워크플로우를 통해 예약된 데이터 복�
 
 * 다음 코드를 사용하여 특정 **Javascript 코드** 활동을 추가합니다.
 
-  ```
+  ```javascript
   nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
   ```
 
-  ![](assets/jscode.png)
+  ![demm에 대해 nms.replicationStrategy.StartReplicateStagingData 스크립트를 사용하는 JavaScript 코드 활동:sampleTable](assets/jscode.png)
 
 * 다음 명령을 사용하여 특정 **nlmodule** 활동을 추가합니다.
 
-  ```
+  ```bash
   nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
   ```
 
-  ![](assets/nlmodule.png)
+  ![ffdaReplicateStaging -stagingSchema -instance:acc1](assets/nlmodule.png) 매개 변수를 사용하는 nlserver 모듈 활동
 
 +++
 
@@ -121,7 +121,7 @@ API를 사용하면 Campaign 로컬 데이터베이스(PostgreSQL)에서 클라�
 
 예:
 
-```
+```javascript
 var dataSource = "nms:extAccount:ffda";
 var xml = xtk.builder.CopyXxlData(
     <params dataSource={dataSource} policy="xs">

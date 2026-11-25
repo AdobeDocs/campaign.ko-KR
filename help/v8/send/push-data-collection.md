@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1651'
 ht-degree: 2%
 ---
 # 수정된 푸시 알림 구성 {#push-notifications-config}
@@ -64,7 +64,7 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 
 1. 새 구성을 만들려면 **[!UICONTROL Create App Surface]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/push-config-1.png)
+   ![앱 표면 만들기 단추가 강조 표시된 데이터 수집의 앱 표면 목록](assets/push-config-1.png)
 
 1. 구성에 대한 **[!UICONTROL Name]**&#x200B;을(를) 입력하십시오.
 
@@ -74,7 +74,7 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 
 >[!TAB iOS]
 
-![](assets/push-config-2.png)
+![Apple iOS에 대한 앱 표면 만들기: 앱 ID, 푸시 자격 증명 스위치 및 p8 키 파일 드롭 영역](assets/push-config-2.png)
 
 1. **[!UICONTROL App ID (iOS Bundle ID)]** 필드에 모바일 앱 **번들 ID**&#x200B;을(를) 입력하십시오.
 
@@ -96,7 +96,7 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 
 >[!TAB Android]
 
-![](assets/push-config-3.png)
+![Android용 앱 표면 만들기: 앱 ID(Android 패키지 이름), 푸시 자격 증명 스위치 및 JSON 키 드롭 영역](assets/push-config-3.png)
 
 1. **[!UICONTROL App ID (Android package name)]** 입력. 일반적으로 패키지 이름은 `build.gradle` 파일의 앱 ID입니다.
 
@@ -120,17 +120,17 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 
 1. **[!UICONTROL Profiles and Targets > Services and Subscriptions]** 탭으로 이동하여 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/push-config-4.png){width="800"}
+   ![레이블, 내부 이름, 모바일 응용 프로그램 유형 및 구독자 응용 프로그램 대상 매핑이 있는 새 서비스 대화 상자](assets/push-config-4.png){width="800"}
 
 1. **[!UICONTROL Label]** 및 **[!UICONTROL Internal name]**&#x200B;을(를) 입력하고 **[!UICONTROL Mobile application]** 유형을 선택하십시오.
 
    >[!NOTE]
    >
-   >기본 **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** 대상 매핑이 받는 사람 테이블에 연결되어 있습니다. 다른 대상 매핑을 사용하려면 새 대상 매핑을 만들고 서비스의 **[!UICONTROL Target mapping]** 필드에 입력해야 합니다. [이 페이지](../audiences/target-mappings.md)에서 대상 매핑에 대해 자세히 알아보세요.
+   >기본 **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** 대상 매핑이 받는 사람 테이블에 연결되어 있습니다. 다른 대상 매핑을 사용하려면 새 대상 매핑을 만들고 서비스의 **[!UICONTROL Target mapping]** 필드에 입력해야 합니다. [대상 매핑 작업](../audiences/target-mappings.md)에서 대상 매핑에 대해 자세히 알아보세요.
 
 1. 오른쪽의 **[!UICONTROL Add]** 아이콘을 사용하여 이 서비스를 사용하는 모바일 응용 프로그램을 정의합니다.
 
-   ![](assets/push-config-5.png)
+   서비스를 사용하는 모바일 응용 프로그램을 정의하기 위해 [추가] 아이콘이 강조 표시된 ![서비스 대화 상자](assets/push-config-5.png)
 
 ### 모바일 애플리케이션 만들기 {#create-sapp}
 
@@ -144,17 +144,17 @@ iOS 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. 서비스에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create an iOS application]**&#x200B;을(를) 선택합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/push-config-6.png)
+   ![iOS 응용 프로그램 만들기가 선택된 모바일 응용 프로그램 만들기 마법사](assets/push-config-6.png)
 
 1. **[!UICONTROL Launch app configurations list]** 창에서 이전에 이 섹션에서 만든 앱 표면을 선택합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/push-config-7.png)
+   ![선택할 데모 앱 표면을 나열하는 앱 구성 시작 목록](assets/push-config-7.png)
 
 1. (선택 사항) 일부 **[!UICONTROL Application variables]**&#x200B;을(를) 사용하여 푸시 메시지 콘텐츠를 보강할 수 있습니다. 이는 완전히 맞춤화가 가능하며 모바일 디바이스로 전송되는 메시지 페이로드의 일부입니다.
 
    아래 예에서는 **mediaURl** 및 **mediaExt** 변수가 추가되어 리치 푸시 알림을 만든 다음 응용 프로그램에 알림 내에 표시할 이미지를 제공합니다.
 
-   ![](assets/push-config-8.png)
+   ![mediaURL 및 mediaExt 응용 프로그램 변수가 추가된 일반 매개 변수](assets/push-config-8.png)
 
 1. **[!UICONTROL Subscription parameters]** 탭으로 이동하여 **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 스키마의 확장으로 매핑을 정의합니다.
 
@@ -175,7 +175,7 @@ iOS 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
    >
    > 애플리케이션의 개발 버전(샌드박스)과 프로덕션 버전에는 동일한 인증서를 사용할 수 없습니다.
 
-   ![](assets/push-config-9.png)
+   ![iOS의 통합 키 및 응용 프로그램 아이콘 필드가 있는 개발 응용 프로그램 단계](assets/push-config-9.png)
 
 1. **[!UICONTROL Application icon]** 필드에서 아이콘을 선택하여 서비스의 모바일 애플리케이션을 개인화합니다.
 
@@ -191,11 +191,11 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. 서비스에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create an Android application]**&#x200B;을(를) 선택합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/push-config-10.png)
+   ![Android 응용 프로그램 만들기가 선택된 모바일 응용 프로그램 만들기 마법사](assets/push-config-10.png)
 
 1. **[!UICONTROL Launch app configurations list]** 창에서 이 섹션에서 만든 앱 표면을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/push-config-11.png)
+   ![Android 응용 프로그램의 데모 앱 표면을 나열하는 앱 구성 시작 목록](assets/push-config-11.png)
 
 1. 통합 키는 각 애플리케이션에 따라 다릅니다. 모바일 애플리케이션을 Adobe Campaign에 연결하며 Campaign 확장을 구성할 때 사용됩니다.
 
@@ -207,7 +207,7 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
    >
    > **[!UICONTROL Integration key]**&#x200B;은(는) 문자열 값으로 완전히 사용자 지정할 수 있지만 SDK에 지정된 값과 정확히 동일해야 합니다.
 
-   ![](assets/push-config-12.png)
+   ![통합 키, 응용 프로그램 아이콘 및 응용 프로그램 변수가 있는 Android의 일반 매개 변수](assets/push-config-12.png)
 
 1. 서비스의 모바일 애플리케이션을 개인화하려면 **[!UICONTROL Application icon]** 필드에서 아이콘을 선택하십시오.
 
@@ -234,11 +234,11 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL New Property]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/push-config-13.png)
+   ![새 속성 단추가 강조 표시된 데이터 컬렉션의 태그 속성 목록](assets/push-config-13.png)
 
 1. 속성의 이름을 입력하고 플랫폼으로 **[!UICONTROL Mobile]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/push-config-14.png)
+   ![이름이 입력되었고 모바일 플랫폼이 선택된 속성 양식을 만듭니다](assets/push-config-14.png)
 
 1. 모바일 속성을 만들려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -246,18 +246,18 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. 모바일 속성 대시보드에서 **[!UICONTROL Extensions]** 메뉴에 액세스한 다음 **[!UICONTROL Catalog]** 탭에 액세스합니다.
 
-   ![](assets/push-config-15.png)
+   카탈로그 탭이 강조 표시된 ![모바일 속성 확장 페이지](assets/push-config-15.png)
 
 1. **[!DNL Adobe Campaign Classic]** 확장을 설치합니다. [Campaign 확장에 대해 자세히 알아보기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configure-campaign-classic-extension)
 
-   ![](assets/push-config-16.png)
+   ![Adobe Campaign Classic 확장에 강조 표시된 설치 단추가 있는 확장 카탈로그](assets/push-config-16.png)
 
 1. 인스턴스 세부 사항을 입력합니다.
 
    * Campaign의 **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Deployment wizard]** 메뉴에서 **[!UICONTROL Registration endpoint]** 또는 **[!UICONTROL Tracking endpoint]** URL을 찾을 수 있습니다.
    * [이 섹션](#create-app)에 구성된 모바일 앱에서 **[!UICONTROL Integration keys]**&#x200B;을(를) 찾을 수 있습니다.
 
-   ![](assets/push-config-17.png)
+   ![등록 및 추적 끝점과 iOS 및 Android 통합 키가 있는 확장 페이지 설치](assets/push-config-17.png)
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -275,4 +275,4 @@ Adobe Experience Platform Mobile SDK은 모바일 앱에서 [!DNL Adobe CX Enter
 
 데이터 수집에서 모바일 애플리케이션을 성공적으로 구성했으면 이제 Adobe Campaign에서 푸시 알림을 만들고 전송할 수 있습니다.
 
-iOS 및 Android 알림 배달과 관련된 자세한 요소는 [이 페이지](push.md#push-create)를 참조하세요.
+iOS 및 Android 알림 배달과 관련된 자세한 요소는 [첫 번째 푸시 알림 만들기](push.md#push-create)를 참조하세요.

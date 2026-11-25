@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 7%
+source-wordcount: '244'
+ht-degree: 4%
 ---
 # 사전 정의 필터 만들기{#creating-pre-defined-filters}
 
@@ -45,24 +45,24 @@ ht-degree: 7%
 
 1. **[!UICONTROL Administration]** 폴더를 찾은 다음 **[!UICONTROL Pre-defined offer filters]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/offer_filter_create_005.png)
+   ![오퍼 - 관리에서 미리 정의된 오퍼 필터 노드가 선택된 트리 디자인](assets/offer_filter_create_005.png)
 
 1. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/offer_filter_create_001.png)
+   ![새 단추가 강조 표시되고 연령 필터가 나열된 사전 정의된 오퍼 필터 목록](assets/offer_filter_create_001.png)
 
 1. 나중에 필터를 식별할 수 있도록 레이블을 변경합니다.
 
-   ![](assets/offer_filter_create_002.png)
+   레이블 필드가 전자 메일 채널로 설정된 ![응용 프로그램 필터 대화 상자](assets/offer_filter_create_002.png)
 
 1. 필터링 조건과 관련된 필드를 선택합니다.
 
-   ![](assets/offer_filter_create_003.png)
+   ![받는 사람 필드에서 선택한 전자 메일 필드가 있는 식 대화 상자 선택](assets/offer_filter_create_003.png)
 
 1. 필요한 경우 연산자 및 값을 선택한 다음 쿼리를 저장합니다.
 
-   ![](assets/offer_filter_create_004.png)
+   ![연산자가 로 설정된 전자 메일 식의 필터 조건이 비어 있지 않습니다](assets/offer_filter_create_004.png)
 
 1. 필터 결과를 보려면 **[!UICONTROL Preview]**&#x200B;을(를) 클릭하십시오.
 
-   ![](assets/offer_filter_create_006.png)
+   ![필터와 일치하는 수신자를 나열하는 전자 메일 채널 필터의 미리 보기 탭](assets/offer_filter_create_006.png)

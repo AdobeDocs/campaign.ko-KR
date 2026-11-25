@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '770'
 ht-degree: 5%
 ---
 # 메시지 콘텐츠 제어{#control-message-content}
@@ -52,7 +52,7 @@ ht-degree: 5%
 
 Adobe Campaign을 사용하면 수신자의 경험을 개선하여 이메일을 열 수 있으므로 메시지를 개인화할 수 있습니다.
 
-Adobe Campaign에서 개인화 필드를 사용하는 방법에 대한 자세한 내용은 [이 섹션](personalization-fields.md)을 참조하세요.
+Adobe Campaign에서 개인화 필드를 사용하는 방법에 대한 자세한 내용은 [개인화 필드 추가](personalization-fields.md)를 참조하십시오.
 
 ## 옵트아웃 링크 및 양식 {#opt-out}
 

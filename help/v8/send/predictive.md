@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 56%
+source-wordcount: '817'
+ht-degree: 54%
 ---
 # 전송 시간 최적화 및 예측 참여 점수 책정{#optimize-message-delivery}
 
@@ -81,7 +81,7 @@ Adobe Campaign은 두 가지 새로운 기계 학습 모델을 제공합니다. 
 
 예측 전송 시간 최적화는 프로필 수준에서 저장됩니다.
 
-![](assets/sto-schema.png)
+![가장 클릭하여 열 수 있는 예측 전송 시간 최적화 필드가 있는 수신자 스키마 구조](assets/sto-schema.png)
 
 
 >[!NOTE]

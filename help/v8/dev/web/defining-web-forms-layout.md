@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 2%
+source-wordcount: '703'
+ht-degree: 1%
 ---
 # 웹 양식 레이아웃 정의{#defining-web-forms-layout}
 
@@ -36,19 +36,19 @@ ht-degree: 2%
 
 양식의 각 페이지에 대해 도구 모음의 **[!UICONTROL Containers]** 단추를 통해 컨테이너가 만들어집니다.
 
-![](assets/s_ncs_admin_survey_containers_add.png)
+![표준 컨테이너 옵션을 제공하는 컨테이너 도구 모음 단추가 열려 있는 웹 폼 페이지 편집기](assets/s_ncs_admin_survey_containers_add.png)
 
 최종 렌더링에 레이블을 추가하지 않고 컨테이너를 사용하여 페이지 요소를 그룹화합니다. 요소는 컨테이너 하위 트리로 그룹화됩니다. 표준 컨테이너를 사용하여 레이아웃을 관리할 수 있습니다.
 
 예제:
 
-![](assets/s_ncs_admin_survey_containers_std_arbo.png)
+![두 개의 컨테이너 트리, 일반 정보 및 계약과 해당 양식 필드가 있는 페이지 속성](assets/s_ncs_admin_survey_containers_std_arbo.png)
 
 레이블의 위치는 계층 구조에서 컨테이너 아래에 배치된 요소에 적용됩니다. 필요한 경우 각 요소에 대해 오버로드될 수 있습니다. 열을 추가하거나 제거하여 레이아웃을 변경합니다. [페이지에서 필드 위치 지정](#positioning-the-fields-on-the-page)을 참조하십시오.
 
 위의 예에서 렌더링은 다음과 같습니다.
 
-![](assets/s_ncs_admin_survey_containers_std_ex.png)
+![개인 세부 정보 필드와 계약 확인란 목록, 그리고 유효성 검사 단추 등 두 개의 컨테이너가 있는 렌더링된 양식 페이지](assets/s_ncs_admin_survey_containers_std_ex.png)
 
 ## 페이지에서 필드 위치 지정 {#positioning-the-fields-on-the-page}
 
@@ -58,33 +58,33 @@ ht-degree: 2%
 
 기본적으로 페이지는 단일 열에 작성되며 각 요소는 하나의 셀을 차지합니다. 즉, 아래와 같이 필드가 한 줄 아래에 표시되고 각 필드는 전체 줄을 차지합니다.
 
-![](assets/s_ncs_admin_survey_container_ex.png)
+![성별, 이름, 이름 및 전자 메일 필드가 별도의 줄에 스택된 단일 열 양식 페이지를 렌더링했습니다](assets/s_ncs_admin_survey_container_ex.png)
 
 다음 예에서는 기본 구성이 유지됩니다. 페이지는 4개의 컨테이너를 포함하는 단일 열을 차지합니다.
 
-![](assets/s_ncs_admin_survey_container_ex0.png)
+![4개의 컨테이너와 열 수가 강조 표시된 1로 설정된 페이지 속성](assets/s_ncs_admin_survey_container_ex0.png)
 
 각 컨테이너는 하나의 열을 차지하고 각 요소는 하나의 셀을 차지합니다.
 
-![](assets/s_ncs_admin_survey_container_ex0a.png)
+![셀 수가 1로 설정된 정보 요소 속성이 표시 설정에서 강조 표시됨](assets/s_ncs_admin_survey_container_ex0a.png)
 
 렌더링은 다음과 같습니다.
 
-![](assets/s_ncs_admin_survey_container_ex0_rend.png)
+![컨테이너가 4개인 단일 열 페이지 렌더링(각 컨테이너는 한 개의 열로 구성되어 있고, 수직으로 스택됨](assets/s_ncs_admin_survey_container_ex0_rend.png)
 
 디스플레이 매개변수를 조정하여 다음 렌더링을 얻을 수 있습니다.
 
-![](assets/s_ncs_admin_survey_container_ex1_rend.png)
+![컨테이너 1과 3이 왼쪽 열을 채우고 컨테이너 2와 4가 오른쪽 열을 채우는 2열 페이지 렌더링](assets/s_ncs_admin_survey_container_ex1_rend.png)
 
 위의 렌더링 예에서 각 입력 필드, 제목 및 이미지는 컨테이너의 열에서 하나의 셀을 차지합니다.
 
 각 컨테이너에서 서식을 수정할 수 있습니다. 이 예제에서는 컨테이너 4의 내용을 두 열에 분산하고 요소를 배포할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_container_ex2_rend.png)
+![2개의 열이 있는 컨테이너 4: 제목과 콤보 상자에는 각각 1개의 셀이 필요하며 확인란은 2개의 셀에 걸쳐 있습니다](assets/s_ncs_admin_survey_container_ex2_rend.png)
 
 제목과 목록은 각각 하나의 셀(따라서 컨테이너의 전체 라인)을 차지하며 확인란은 두 개의 셀에 걸쳐 있습니다. 입력 필드에 속하는 셀 수는 필드 유형에 따라 **[!UICONTROL General]** 탭 또는 **[!UICONTROL Advanced]** 탭에서 정의됩니다.
 
-![](assets/s_ncs_admin_survey_container_ex2.png)
+표시 설정에서 셀 수가 2로 설정된 확인란 요소의 ![고급 탭](assets/s_ncs_admin_survey_container_ex2.png)
 
 ## 레이블의 위치 정의 {#defining-the-position-of-labels}
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
 전체 양식에 대한 글로벌 표시 매개 변수는 양식 속성 상자에 지정됩니다. **[!UICONTROL Rendering]** 탭에서는 레이블의 위치를 선택할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_label_position.png)
+![웹 폼 속성 대화 상자, 렌더링 탭(레이블 위치 목록: 상속됨, 왼쪽, 오른쪽, 위, 아래, 숨겨짐)입니다.](assets/s_ncs_admin_survey_label_position.png)
 
 이 위치는 **[!UICONTROL Advanced]** 탭을 통해 각 페이지, 각 컨테이너 및 각 필드에 대해 오버로드될 수 있습니다.
 

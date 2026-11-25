@@ -21,10 +21,10 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 4%
+source-wordcount: '154'
+ht-degree: 3%
 ---
 # 실행 설정{#execution-settings}
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 이러한 설정은 나중에 시뮬레이션 창의 **[!UICONTROL General]** 탭에서 변경할 수 있습니다.
 
-![](assets/offer_simulation_008.png)
+![실행 설정이 있는 시뮬레이션의 일반 탭: 낮은 작업 예약, SQL 로깅 및 우선 순위 목록.](assets/offer_simulation_008.png)
 
 * **[!UICONTROL Schedule execution for a time of low activity]** : Adobe Campaign 성능을 최적화하기 위해 선택한 우선 순위(낮음, 평균 또는 높음)에 따라 시뮬레이션을 예약할 수 있습니다.
 * **[!UICONTROL Priority]** : 시뮬레이션을 예약하기 위해 시뮬레이션에 적용되는 수준입니다. **[!UICONTROL Schedule execution for a time of low activity]** 옵션을 선택하면 캠페인 처리 워크플로우가 활동이 적은 시간을 선택하여 캠페인을 시작합니다.

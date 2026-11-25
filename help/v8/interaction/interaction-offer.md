@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 5%
+source-wordcount: '1119'
+ht-degree: 2%
 ---
 # 오퍼 만들기
 
@@ -60,7 +60,7 @@ ht-degree: 5%
 
 오퍼의 **[!UICONTROL Eligibility]** 탭에서 오퍼의 자격 기간을 정의합니다. 드롭다운 목록을 사용하여 달력에서 시작 날짜와 종료 날짜를 선택합니다.
 
-![](assets/offer_eligibility_create_002.png)
+![오퍼 자격 기간에 대한 시작 및 종료 날짜 드롭다운 달력이 있는 자격 탭](assets/offer_eligibility_create_002.png)
 
 이 기간이 지나면 오퍼가 선택되지 않습니다. 오퍼 범주에 대한 자격 날짜를 구성한 경우 가장 제한적인 기간이 적용됩니다.
 
@@ -70,11 +70,11 @@ ht-degree: 5%
 
 이렇게 하려면 **[!UICONTROL Edit query]** 링크를 클릭하고 적용할 필터를 선택합니다.
 
-![](assets/offer_eligibility_create_003.png)
+![자격 탭의 쿼리 편집 링크에서 열려 있는 타깃팅 필터링 조건 선택 마법사입니다.](assets/offer_eligibility_create_003.png)
 
 미리 정의된 필터가 이미 만들어진 경우 사용자 필터 목록에서 해당 필터를 선택할 수 있습니다. [자세히 알아보기](interaction-predefined-filters.md)
 
-![](assets/offer_eligibility_create_004.png)
+![선택한 필터가 적용된 타겟팅 마법사의 사용자 필터 목록과 일치하는 수신자의 미리 보기를 표시합니다.](assets/offer_eligibility_create_004.png)
 
 ### 오퍼 가중치 설정 {#offer-weight}
 
@@ -92,11 +92,11 @@ ht-degree: 5%
 
 1. 오퍼의 **[!UICONTROL Eligibility]** 탭에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/offer_weight_create_001.png)
+   ![자격 탭과 [추가] 단추를 사용하여 [가중치] 대화 상자를 열어 오퍼 가중치를 만듭니다.](assets/offer_weight_create_001.png)
 
 1. 레이블을 변경하고 가중치를 할당합니다. 기본값은 1입니다.
 
-   ![](assets/offer_weight_create_006.png)
+   ![레이블 필드와 중재 섹션의 가중치 값이 있는 가중치 대화 상자.](assets/offer_weight_create_006.png)
 
    >[!CAUTION]
    >
@@ -104,19 +104,19 @@ ht-degree: 5%
 
 1. 주어진 기간에 가중치를 적용하려면 자격 일자를 정의합니다.
 
-   ![](assets/offer_weight_create_002.png)
+   ![자격 날짜 섹션에서 시작 날짜 및 종료 날짜가 설정된 가중치 대화 상자.](assets/offer_weight_create_002.png)
 
 1. 필요한 경우 가중치를 특정 오퍼 공간으로 제한합니다.
 
-   ![](assets/offer_weight_create_003.png)
+   ![가중치를 제한할 수 있는 공간을 나열하는 오퍼 공간 드롭다운이 있는 가중치 대화 상자.](assets/offer_weight_create_003.png)
 
 1. 대상에 필터를 적용합니다.
 
-   ![](assets/offer_weight_create_004.png)
+   ![강조 표시된 대상에 있는 필터의 쿼리 편집 링크가 있는 가중치 대화 상자.](assets/offer_weight_create_004.png)
 
 1. **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 가중치를 저장합니다.
 
-   ![](assets/offer_weight_create_005.png)
+   ![날짜 및 필터를 포함하여 새 Premium 가중치를 나열하는 자격 조건 탭 가중치 테이블입니다.](assets/offer_weight_create_005.png)
 
    >[!NOTE]
    >
@@ -128,13 +128,13 @@ ht-degree: 5%
 
 보려면 **[!UICONTROL Schedule and eligibility rules]** 링크를 클릭하십시오.
 
-![](assets/offer_eligibility_create_005.png)
+![일정 및 자격 규칙 링크가 강조 표시된 오퍼 대시보드입니다.](assets/offer_eligibility_create_005.png)
 
 ## 오퍼 콘텐츠 만들기 {#creating-the-offer-content}
 
 **[!UICONTROL Content]** 탭을 사용하여 오퍼 콘텐츠를 정의합니다.
 
-![](assets/offer_content_create_001.png)
+제목, 대상 URL, 이미지 URL 필드 및 HTML 콘텐츠 편집기가 있는 오퍼의 ![콘텐츠 탭.](assets/offer_content_create_001.png)
 
 1. 오퍼 컨텐츠의 다양한 매개 변수를 정의합니다.
 
@@ -143,7 +143,7 @@ ht-degree: 5%
    * **[!UICONTROL Image URL]**: 오퍼 이미지에 대한 URL 또는 액세스 경로를 지정하십시오.
    * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: 원하는 탭에 오퍼의 본문을 입력합니다. 추적을 생성하려면 **[!UICONTROL HTML content]**&#x200B;을(를) `<div>` 형식 요소로 묶을 수 있는 HTML 요소로 구성해야 합니다. 예를 들어 HTML 페이지에서 `<table>` 요소의 결과는 다음과 같습니다.
 
-   ```
+   ```xml
       <div> 
        <table>
         <tr>
@@ -158,13 +158,13 @@ ht-degree: 5%
       </div>
    ```
 
-   [이 섹션](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted)에서 수락 URL을 정의하는 방법을 알아봅니다.
+   제안이 수락될 때 [오퍼 상태에서 수락 URL을 정의하는 방법](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted)을 알아보세요.
 
-   ![](assets/offer_content_create_002.png)
+   ![제목, 대상 URL, 이미지 URL과 콘텐츠 정의 링크로 채워진 콘텐츠 탭.](assets/offer_content_create_002.png)
 
    오퍼 공간을 구성하는 동안 정의된 필수 필드를 찾으려면 **[!UICONTROL Content definitions]** 링크를 클릭하여 목록을 표시합니다. [자세히 알아보기](interaction-offer-spaces.md)
 
-   ![](assets/offer_content_create_003.png)
+   ![각 오퍼 공간에 대한 콘텐츠 정의 대화 상자에 필수 콘텐츠 필드가 나열됩니다.](assets/offer_content_create_003.png)
 
    이 예에서 오퍼는 제목, 이미지, HTML 컨텐츠 및 대상 URL을 포함해야 합니다.
 
@@ -176,11 +176,11 @@ ht-degree: 5%
 
 1. **[!UICONTROL Preview]** 탭을 클릭합니다.
 
-   ![](assets/offer_preview_create_001.png)
+   ![오퍼의 미리 보기 탭에서 각 오퍼 공간에 대해 미리 볼 표시를 나열합니다.](assets/offer_preview_create_001.png)
 
 1. 보려는 오퍼의 표현을 선택합니다.
 
-   ![](assets/offer_preview_create_002.png)
+   ![렌더링된 오퍼 콘텐츠를 표시하도록 확장된 전자 메일/클라이언트 표시를 사용하는 미리 보기 탭.](assets/offer_preview_create_002.png)
 
 1. 오퍼 콘텐츠를 개인화한 경우 오퍼 타겟을 선택하여 개인화를 확인하십시오.
 
@@ -202,13 +202,13 @@ Creating hypotheses is detailed in [this page](../../automation/response/about-r
 
 이제 **Live** 환경에서 사용할 수 있도록 오퍼를 승인하고 활성화할 수 있습니다.
 
-이 작업에 대한 자세한 정보는 [이 섹션](approving-and-activating-an-offer.md#approving-offer-content)을 참조하십시오.
+자세한 내용은 [오퍼 콘텐츠 승인](approving-and-activating-an-offer.md#approving-offer-content)을 참조하세요.
 
 ## 오퍼 프레젠테이션 관리{#offer-presentation}
 
 Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 제안의 흐름을 제어할 수 있습니다. Campaign Interaction에 해당하는 이러한 규칙은 **유형화 규칙**&#x200B;입니다. 수신자에게 이미 제안된 이력을 기반으로 오퍼를 제외할 수 있습니다. 환경에서 참조됩니다.
 
-이 작업에 대한 자세한 정보는 [이 섹션](managing-offer-presentation.md)을 참조하십시오.
+자세한 내용은 [오퍼 프레젠테이션 관리](managing-offer-presentation.md)를 참조하세요.
 
 ## 오퍼 시뮬레이션
 
@@ -216,4 +216,4 @@ Campaign을 사용하면 프레젠테이션 규칙을 사용하여 오퍼 제안
 
 시뮬레이션은 오퍼에 이전에 적용된 컨텍스트 및 자격 규칙과 해당 프레젠테이션 규칙을 고려합니다. 시뮬레이션은 타겟팅된 수신자에게 영향을 주지 않으므로 실제로 오퍼를 사용하지 않거나 대상을 초과/요청하지 않고 오퍼 제안의 다양한 버전을 테스트하고 세분화할 수 있습니다.
 
-오퍼 시뮬레이션에 대한 자세한 정보는 [이 섹션](about-offers-simulation.md)을 참조하세요.
+오퍼 시뮬레이션에 대한 자세한 정보는 [오퍼 시뮬레이션 정보](about-offers-simulation.md)를 참조하세요.

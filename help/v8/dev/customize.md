@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '513'
 ht-degree: 1%
 ---
 # 인스턴스 사용자 정의 {#gs-ac-custom}
@@ -67,7 +67,7 @@ Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 
   Campaign에서 새 필드를 빠르게 추가하는 방법은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=ko#configuring-campaign-classic){target="_blank"}를 참조하세요.
 
-* 프로그래밍 방식으로 스키마를 확장하여 [이 섹션](../dev/extend-schema.md)에서 기존 스키마를 확장하는 방법을 알아보세요.
+* 프로그래밍 방식으로 스키마를 확장하여 [Campaign 스키마 확장](../dev/extend-schema.md)에서 기존 스키마를 확장하는 방법을 알아봅니다.
 
 Campaign 데이터베이스에서 새 테이블을 만들고 기본 제공 데이터 모델을 확장할 수도 있습니다.
 
@@ -84,7 +84,7 @@ Adobe Campaign에 즉시 존재하지 않는 완전히 새로운 유형의 데�
 
 캠페인 입력 양식을 구현에 맞게 조정할 수 있습니다. XML 내용을 수정하여 양식 필드를 추가하거나 제거할 수 있습니다.
 
-[이 섹션](../dev/forms.md)에서 기존 입력 양식을 수정하거나 새 양식을 만드는 방법을 알아봅니다.
+[Campaign 입력 양식](../dev/forms.md)에서 기존 입력 양식을 수정하거나 새 양식을 만드는 방법을 알아봅니다.
 
 ## 대시보드 맞춤화{#gs-custom-dashboards}
 
@@ -92,7 +92,7 @@ Adobe Campaign 인터페이스는 많은 웹 애플리케이션을 사용하여 
 
 기본 제공 웹 응용 프로그램은 Explorer의 **관리 > 구성 > 웹 응용 프로그램** 폴더에 저장됩니다.
 
-[이 섹션](web/use-cases-creating-overviews.md#creating-a-single-page-web-application)에서 Campaign의 개요 페이지를 만드는 방법을 알아봅니다.
+[단일 페이지 웹 응용 프로그램 만들기](web/use-cases-creating-overviews.md#creating-a-single-page-web-application)에서 Campaign의 개요 페이지를 만드는 방법을 알아봅니다.
 
 
 ## 목록 사용자 지정 및 필터 만들기 {#gs-lists-and-filters}
@@ -101,8 +101,8 @@ Adobe Campaign 인터페이스는 많은 웹 애플리케이션을 사용하여 
 
 Adobe Campaign 탐색기 트리에서 탐색하면 데이터베이스에 포함된 데이터가 목록에 표시됩니다. 이러한 목록을 필터링하고, 검색을 실행하고, 정보를 추가하고, 데이터를 필터링하고 정렬할 수 있습니다.
 
-[이 페이지](../start/campaign-ui.md)에서 목록을 구성하고 목록 구성을 저장하는 방법을 알아보세요.
+[Campaign 사용자 인터페이스 검색](../start/campaign-ui.md)에서 목록을 구성하고 목록 구성을 저장하는 방법을 알아봅니다.
 
 이러한 목록에 필터를 적용하여 연산자에 필요한 데이터만 표시할 수 있습니다. 그런 다음 필터링된 데이터에 대해 작업을 실행할 수 있습니다. 필터 구성을 사용하면 목록에서 데이터를 동적으로 선택할 수 있습니다. 데이터가 수정되면 필터링된 데이터가 업데이트됩니다.
 
-[이 페이지](../audiences/create-filters.md)에서 필터링 옵션에 대해 자세히 알아보세요.
+[Adobe Campaign에서 필터 작업](../audiences/create-filters.md)에서 필터링 옵션에 대해 자세히 알아보세요.

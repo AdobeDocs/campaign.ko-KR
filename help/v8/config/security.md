@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '2947'
-ht-degree: 47%
+source-wordcount: '2990'
+ht-degree: 44%
 ---
 # Campaign 보안 모범 사례 {#ac-security}
 
@@ -82,7 +82,7 @@ Adobe Campaign은 현재 컴퓨터에서 읽을 수 있는 형식으로 권장 �
 
 ## 개인 정보
 
-개인 정보를 올바로 처리하고 개인 데이터를 관리하기 위해 운영하는 지역에 적용되는 법규 내에서 작업하십시오. Adobe Campaign의 기능을 통해 [이 페이지](../start/privacy.md)에 나열된 규정을 준수할 수 있습니다.
+개인 정보를 올바로 처리하고 개인 데이터를 관리하기 위해 운영하는 지역에 적용되는 법규 내에서 작업하십시오. Adobe Campaign의 기능을 사용하면 [Campaign의 개인 정보 보호 요청 관리](../start/privacy.md)에 나열된 규정을 준수할 수 있습니다.
 
 ### Adobe Experience Cloud 개인 정보 보호 {#experience-cloud-privacy}
 
@@ -98,7 +98,7 @@ Adobe Campaign은 Adobe Experience Cloud 솔루션의 일부입니다. Campaign�
 
 * **Adobe Experience Cloud을 정보를 수집하는 데 사용하는 방법**
 
-  * Adobe Experience Cloud 솔루션은 사용자가 정보를 수집할 수 있도록 쿠키 및 웹 비콘(태그 또는 픽셀로도 알려져 있음)과 같은 유사한 기술을 사용합니다. Adobe Campaign의 쿠키 및 추적 기능에 대한 자세한 내용은 [이 섹션](#tracking-capabilities)을 참조하십시오.
+  * Adobe Experience Cloud 솔루션은 사용자가 정보를 수집할 수 있도록 쿠키 및 웹 비콘(태그 또는 픽셀로도 알려져 있음)과 같은 유사한 기술을 사용합니다. Adobe Campaign의 쿠키 및 추적 기능에 대한 자세한 내용은 [추적 기능](#tracking-capabilities)을 참조하세요.
   * 또한 모바일 앱에서 Adobe Experience Cloud 기술을 사용할 수 있습니다. Campaign으로 모바일 게재를 보내는 방법에 대한 자세한 내용은 [SMS 채널](../send/sms/sms-channel.md) 및 모바일 앱 채널을 참조하십시오.
 
 * **Adobe Experience Cloud 사용에 대한 사용자의 개인 정보 보호 선택**
@@ -142,7 +142,7 @@ Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 �
 
 * **Adobe Campaign**&#x200B;은 **데이터 프로세서**&#x200B;입니다.
 
-![](assets/privacy-gdpr-flow.png)
+![개인 정보 보호 요청 흐름: Laura가 요청을 보내고, Anne가 Adobe Campaign을 쿼리하고, 결과가 반환되면, Anne가 Laura에 응답합니다.](assets/privacy-gdpr-flow.png)
 
 이 사용 사례의 일반적인 흐름은 다음과 같습니다.
 
@@ -160,19 +160,19 @@ Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이�
 
 * 항상 수신자가 커뮤니케이션 수신에 동의하도록 합니다. 이를 위해서는 옵트아웃 요청을 최대한 빨리 준수하고 이중 옵트인 프로세스를 통해 동의를 확인하십시오. 자세한 내용은 [이중 옵트인](../dev/web/use-cases-web-forms.md)을 사용하여 구독 양식 만들기를 참조하십시오.
 * 사기성 목록을 가져와서 시드 주소로 사용하여 클라이언트 파일이 부정하게 사용되지 않고 있는지 확인하지 마십시오. 자세한 내용은 [시드 주소 정보](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}를 참조하십시오.
-* 동의 및 권한 관리를 통해 수신자의 환경 설정을 추적할 수 있을 뿐만 아니라 조직 내에서 누가 어떤 데이터에 액세스할 수 있는지를 관리할 수 있습니다. 자세한 내용은 [이 섹션](#consent)을 참조하십시오.
-* 수신자의 개인 정보 보호 요청을 간편하게 지원하고 관리할 수 있습니다. 자세한 내용은 [이 섹션](#privacy-requests)을 참조하십시오.
+* 동의 및 권한 관리를 통해 수신자의 환경 설정을 추적할 수 있을 뿐만 아니라 조직 내에서 누가 어떤 데이터에 액세스할 수 있는지를 관리할 수 있습니다. 자세한 내용은 [동의, 보존 및 역할](#consent)을 참조하십시오.
+* 수신자의 개인 정보 보호 요청을 간편하게 지원하고 관리할 수 있습니다. 자세한 내용은 [개인 정보 보호 요청](#privacy-requests)을 참조하세요.
 
 ## 개인 정보 보호 관리 {#privacy-management}
 
 개인 정보 관리는 개인 정보 보호 규정(GDPR, CCPA 등)을 준수하는 데 도움이 되는 모든 프로세스 및 도구를 의미합니다.
 
 Adobe Campaign은 개인 정보 관리를 위한 다양한 기능을 제공합니다.
-* 동의 관리, 데이터 보존 및 사용자 역할. [이 섹션](#consent)을 참조하십시오.
-* 개인 정보 보호 요청(액세스 권한 및 잊혀질 권리). [이 섹션](#privacy-requests)을 참조하십시오.
+* 동의 관리, 데이터 보존 및 사용자 역할. [동의, 보존 및 역할](#consent)을 참조하세요.
+* 개인 정보 보호 요청(액세스 권한 및 잊혀질 권리). [개인 정보 보호 요청](#privacy-requests)을 참조하세요.
 * 개인 정보 판매 옵트아웃 (CCPA-특정).
 
-Campaign의 주요 개인 정보 보호 기능과 여기에 관련된 페르소나의 예가 [이 섹션](#personal-data)에 제시되어 있습니다.
+Campaign의 기본 개인 정보 보호 기능과 관련된 개인의 예가 [개인 데이터 및 가상 사용자](#personal-data)에 나와 있습니다.
 
 ### 동의, 보존 및 역할 {#consent}
 
@@ -190,9 +190,9 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 
 * **잊혀질 권리**(삭제 요청)는 데이터 주체가 자신의 개인 데이터를 삭제하도록 권한을 부여합니다.
 
-**액세스** 및 **삭제** 요청은 [이 섹션](../start/privacy.md)에서 다루고 있습니다.
+**액세스** 및 **삭제** 요청이 [Campaign의 개인 정보 보호 요청 관리](../start/privacy.md)에 표시됩니다.
 
-이러한 요청을 만드는 구현 단계는 [이 섹션](../start/privacy.md)에 자세히 설명되어 있습니다.
+이러한 요청을 만드는 구현 단계는 [Campaign의 개인 정보 보호 요청 관리](../start/privacy.md)에 자세히 설명되어 있습니다.
 
 ## 추적 기능 {#tracking-capabilities}
 
@@ -214,13 +214,13 @@ GDPR(일반 데이터 보호 규정)과 같은 규정에서는 회사가 쿠키�
 
 Adobe Campaign을 사용하면 보낸 이메일과 게재 수신자의 동작(열기, 링크 클릭, 구독 취소 등)을 추적할 수 있습니다. 자세한 내용은 [메시지 정보](../start/gs-message.md)를 참조하세요.
 
-이렇게 하려면 게재 대시보드의 추적 탭에서 게재 및 받는 사람 동작의 영향을 측정하기 위해 추적된 링크를 메시지에 추가합니다. 추적 데이터는 추적 표시기 보고서에 해석되어 있습니다. 추적에 대한 자세한 내용은 [이 페이지](../send/tracking.md)를 참조하세요.
+이렇게 하려면 게재 대시보드의 추적 탭에서 게재 및 받는 사람 동작의 영향을 측정하기 위해 추적된 링크를 메시지에 추가합니다. 추적 데이터는 추적 표시기 보고서에 해석되어 있습니다. 추적에 대한 자세한 내용은 [메시지 추적 시작](../send/tracking.md)을 참조하세요.
 
 ### 웹 추적 {#web-tracking}
 
 >[!AVAILABILITY]
 >
->웹 추적은 Campaign v8에서 사용할 수 없습니다. [이 페이지](../start/v7-to-v8.md#gs-unavailable-features)에서 사용할 수 없는 기능에 대해 자세히 알아보세요.
+>웹 추적은 Campaign v8에서 사용할 수 없습니다. [사용할 수 없는 기능](../start/v7-to-v8.md#gs-unavailable-features)에서 사용할 수 없는 기능에 대해 자세히 알아보세요.
 
 ## 데이터 및 PII 보호 {#data-and-pii-protection}
 
@@ -248,7 +248,7 @@ Adobe Campaign을 사용하면 보낸 이메일과 게재 수신자의 동작(�
 * **제품 프로필을 일관되게 사용** - Admin Console에서 제품 프로필(운영자 그룹)에 사용자를 할당하는 것을 선호하고, 이름을 일관되게 유지합니다(예: `campaign - <instance> - <group>`). [사용 권한 시작](../start/gs-permissions.md)을 참조하세요.
 * **Campaign 컨트롤 패널 액세스** - Campaign v8에서 이름에 &quot;admin&quot;이 포함된 제품 프로필 또는 명명된 권한은 Campaign Campaign 컨트롤 패널에 대한 액세스 권한을 부여할 수 있습니다. 해당 사용자에게 Campaign 컨트롤 패널 액세스 권한이 있어야 하는 경우가 아니면 프로필 또는 그룹 이름에 &quot;admin&quot;을 사용하지 마십시오.
 
-[이 섹션](../start/gs-permissions.md)에서 권한에 대해 자세히 알아보십시오.
+[Campaign v8에서 사용 권한 시작](../start/gs-permissions.md)에서 사용 권한에 대해 자세히 알아보세요.
 
 ## 인증 및 세션 {#authentication-and-session}
 
@@ -292,7 +292,7 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항
 
 권한이 낮은 인증된 사용자가 암호화된 암호에 액세스할 수 없도록 해야 합니다. 이를 위해 두 가지 기본 방법이 있습니다. 암호 필드에만 또는 전체 엔터티에 대한 액세스를 제한합니다.
 
-이 제한 사항을 사용하면 암호 필드를 제거할 수 있지만 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있는 상태로 둡니다. [이 페이지](../dev/restrict-pi-view.md)에서 자세히 알아보십시오.
+이 제한 사항을 사용하면 암호 필드를 제거할 수 있지만 모든 사용자의 인터페이스에서 외부 계정에 액세스할 수 있는 상태로 둡니다. [PI 보기 제한](../dev/restrict-pi-view.md)에서 자세히 알아보세요.
 
 1. **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**&#x200B;에서 이동합니다.
 
@@ -304,7 +304,7 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항
 
    주 요소(`<element name="extAccount" ... >`)를 다음과 같이 바꿀 수 있습니다.
 
-   ```
+   ```xml
    <element name="extAccount">
        <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
        <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
@@ -325,7 +325,7 @@ Adobe Campaign(워크플로우, Javascript, JSSP 등)에서 개발할 때는 항
 
    이렇게 확장된 srcSchema는 다음과 같이 표시됩니다.
 
-   ```
+   ```xml
    <...>
        <element name="extAccount">
            <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>

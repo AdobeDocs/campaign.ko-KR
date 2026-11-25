@@ -23,10 +23,10 @@ feature_v2:
     internal-label: Offers
   - id: baf8e746-117b-5e73-b179-0a83edc0295f
     internal-label: Templates
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 2%
+source-wordcount: '211'
+ht-degree: 1%
 ---
 # 오퍼 템플릿 관리{#managing-offer-templates}
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 1. **리소스** > **템플릿** > **오퍼 템플릿**(으)로 이동합니다.
 1. **새로 만들기** 아이콘을 클릭합니다.
 
-   ![](assets/offer_model_001.png)
+   ![새로 만들기 단추가 강조 표시되고 새 오퍼 일반 탭이 있는 탐색기의 오퍼 템플릿 폴더](assets/offer_model_001.png)
 
 1. 일반 오퍼와 동일한 프로세스를 적용하여 템플릿을 구성한 다음 **저장**&#x200B;을 클릭하여 저장합니다.
 
@@ -52,10 +52,10 @@ ht-degree: 2%
 1. **리소스 > 템플릿 > 오퍼 템플릿**(으)로 이동합니다.
 1. 마우스를 사용하여 복제할 템플릿을 마우스 오른쪽 버튼으로 클릭한 다음 드롭다운 메뉴에서 **복제**&#x200B;를 선택합니다.
 
-   ![](assets/offer_model_002.png)
+   ![복제 명령이 강조 표시된 오퍼 템플릿 상황에 맞는 메뉴](assets/offer_model_002.png)
 
 1. 필요한 경우 템플릿에 표시할 설정을 구성한 다음 **저장**&#x200B;을 클릭하여 템플릿을 저장합니다.
 
 이제 오퍼를 만들 때 이 템플릿이 제공됩니다.
 
-![](assets/offer_modelcreated_001.png)
+![오퍼 템플릿 폴더의 마케팅 오퍼 선택 대화 상자, 두 개의 오퍼 템플릿 나열](assets/offer_modelcreated_001.png)

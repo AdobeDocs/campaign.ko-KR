@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Reporting
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 44%
+source-wordcount: '1093'
+ht-degree: 42%
 ---
 # [!DNL Campaign] FFDA 배포 {#gs-ac-ffda}
 
@@ -76,11 +76,11 @@ Campaign v8 Enterprise(FFDA)는 타깃팅에서 최종 보고에 이르기까지
 
 Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다.
 
-로컬 및 클라우드 데이터베이스 간에 데이터를 관리하는 데 특정 API를 사용할 수 있습니다. [이 페이지](new-apis.md)에서는 이 새로운 API의 작동 방식과 사용법을 알아봅니다.
+로컬 및 클라우드 데이터베이스 간에 데이터를 관리하는 데 특정 API를 사용할 수 있습니다. [새 Campaign v8 API](new-apis.md)에서 이러한 새 API의 작동 방식과 사용 방법을 알아봅니다.
 
 서버와 프로세스 간의 일반적인 통신은 다음 스키마에 따라 수행됩니다.
 
-![](assets/architecture.png)
+![Snowflake 및 PgSQL을 사용하는 마케팅 인스턴스, 메시지 센터 및 중간 소싱 인스턴스, 소비자, 추적, 단계 1~4](assets/architecture.png)
 
 * 실행 및 바운스 관리 모듈은 인스턴스에서 비활성화됩니다.
 * 이 애플리케이션은 SOAP 호출을 사용하여 구동되는 원격 &quot;중간 소스&quot; 서버에서(HTTP 또는 HTTPS를 통해) 메시지 실행을 수행하도록 구성됩니다.

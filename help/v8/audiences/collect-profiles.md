@@ -29,15 +29,15 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 24%
+source-wordcount: '100'
+ht-degree: 19%
 ---
 # 웹 양식으로 프로필 수집 및 업데이트
 
 Campaign을 사용하여 웹 양식을 만들고 쉽고 효율적으로 프로필 데이터를 수집하고 관리할 수 있습니다. 연락 대상이 해당 정보를 쉽게 제공할 수 있도록 이 양식을 웹 사이트에 공유할 수 있습니다. 데이터는 프로필을 만들거나 업데이트하기 위해 Campaign으로 전송됩니다.
 
-![](assets/web-form-page.png)
+![웹 응용 프로그램 워크플로의 페이지 활동으로, 전자 메일 필드와 [보내기] 단추가 있는 Luma 뉴스레터 양식을 표시합니다.](assets/web-form-page.png)
 
-[이 섹션](../dev/web/about-web-forms.md)에서 웹 양식을 만드는 방법을 알아봅니다.
+[웹 양식 시작](../dev/web/about-web-forms.md)에서 웹 양식을 만드는 방법을 알아봅니다.

@@ -39,16 +39,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 1%
+source-wordcount: '1524'
+ht-degree: 0%
 ---
 # 스키마 구조{#schema-structure}
 
 `<srcschema>`의 기본 구조는 다음과 같습니다.
 
-```
+```xml
 <srcSchema>
     <enumeration>
         ...          //definition of enumerations
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 데이터 스키마의 XML 문서에는 스키마 이름과 해당 네임스페이스를 채우려면 **이름** 및 **네임스페이스** 특성이 있는 **`<srcschema>`** 루트 요소가 있어야 합니다.
 
-```
+```xml
 <srcSchema name="schema_name" namespace="namespace">
 ...
 </srcSchema>
@@ -96,7 +96,7 @@ ht-degree: 1%
 
 다음 XML 콘텐츠를 사용하여 데이터 스키마의 구조를 보여 드리겠습니다.
 
-```
+```xml
 <recipient email="John.doe@aol.com" created="AAAA/DD/MM" gender="1"> 
   <location city="London"/>
 </recipient>
@@ -104,7 +104,7 @@ ht-degree: 1%
 
 해당 데이터 스키마 포함:
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email"/>
@@ -123,7 +123,7 @@ ht-degree: 1%
 
 이 예제에서 기본 요소는 다음 줄로 표시됩니다.
 
-```
+```xml
 <element name="recipient">
 ```
 
@@ -131,7 +131,7 @@ ht-degree: 1%
 
 샘플 스키마에서는 다음과 같습니다.
 
-```
+```xml
 <attribute name="email"/>
 <attribute name="created"/>
 <attribute name="gender"/>
@@ -181,7 +181,7 @@ ht-degree: 1%
 
 다음은 입력한 유형이 포함된 예제 스키마입니다.
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email" type="string" length="80"/>
@@ -208,13 +208,13 @@ ht-degree: 1%
 
   **예**:
 
-  ```
+  ```xml
   <attribute name="email" type="string" length="80" label="Email"/>
   ```
 
   레이블은 Adobe Campaign 클라이언트 콘솔 입력 양식에서 볼 수 있습니다.
 
-  ![](assets/schema_label.png)
+  ![전자 메일 주소가 입력된 전자 메일 레이블로 콘솔의 전자 메일 입력 필드.](assets/schema_label.png)
 
 * **desc** 속성을 사용하면 긴 설명을 입력할 수 있습니다.
 
@@ -226,7 +226,7 @@ ht-degree: 1%
 
   **예**:
 
-  ```
+  ```xml
   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
   ```
 
@@ -234,7 +234,7 @@ ht-degree: 1%
 
 **default** 속성을 사용하면 콘텐츠 생성 시 기본값을 반환하는 식을 정의할 수 있습니다.
 
-값은 XPath 언어를 준수하는 표현식이어야 합니다. 이 작업에 대한 자세한 정보는 [이 섹션](#reference-with-xpath)을 참조하십시오.
+값은 XPath 언어를 준수하는 표현식이어야 합니다. 자세한 내용은 [XPath를 사용한 참조](#reference-with-xpath)를 참조하세요.
 
 **예**:
 
@@ -267,7 +267,7 @@ ht-degree: 1%
 
 다음 값은 입력 양식의 드롭다운 목록에 표시됩니다.
 
-![](assets/schema_user_enum.png)
+![사용자 열거형의 값 드롭다운 목록을 표시하는 입력 양식의 구/군/시 필드](assets/schema_user_enum.png)
 
 >[!NOTE]
 >
@@ -281,11 +281,11 @@ ht-degree: 1%
 
 열거형을 사용하면 일반 입력 필드에 값을 입력하는 대신 드롭다운 목록에서 값을 선택할 수 있습니다.
 
-![](assets/schema_enum.png)
+![지정된 없음, 남성 및 여성 값을 보여주는 성별 드롭다운 목록입니다.](assets/schema_enum.png)
 
 데이터 스키마의 열거 선언 예:
 
-```
+```xml
 <enumeration name="gender" basetype="byte" default="0">    
   <value name="unknown" label="Not specified" value="0"/>    
   <value name="male" label="male" value="1"/>   
@@ -317,13 +317,13 @@ ht-degree: 1%
 
   예를 들어 이 열거형은 캠페인의 특성을 지정하는 데 사용됩니다.
 
-  ![](assets/schema_dbenum.png)
+  ![Nature 드롭다운이 열려 있는 새 마케팅 캠페인 대화 상자에 지정된 항목 없음 및 리마케팅이 표시됩니다.](assets/schema_dbenum.png)
 
 ### 예제 {#example}
 
 다음은 속성이 채워진 예제 스키마입니다.
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <enumeration name="gender" basetype="byte">    
     <value name="unknown" label="Not specified" value="0"/>    
@@ -350,7 +350,7 @@ ht-degree: 1%
 
 **예**: 스키마에 있는 **`<group>`** 컬렉션 요소의 정의입니다.
 
-```
+```xml
 <element name="group" unbound="true" label="List of groups">
   <attribute name="label" type="string" label="Label"/>
 </element>
@@ -358,7 +358,7 @@ ht-degree: 1%
 
 XML 콘텐츠 투영 시:
 
-```
+```xml
 <group label="Group1"/>
 <group label="Group2"/>
 ```
@@ -396,7 +396,7 @@ XPath는 XML 문서의 트리에서 노드를 찾을 수 있는 구문입니다.
 
 Adobe Campaign 클라이언트 콘솔의 표현식 편집기를 통해 사용 가능한 함수 목록에 액세스할 수 있습니다.
 
-![](assets/schema_function.png)
+![집계, 문자열, 날짜 및 숫자 그룹(예: Abs, Ceil 및 Round)이 있는 표현식 편집기 함수 트리](assets/schema_function.png)
 
 **예**:
 
@@ -412,7 +412,7 @@ Adobe Campaign 클라이언트 콘솔의 표현식 편집기를 통해 사용 �
 
 **예**: 받는 사람 테이블의 계산 문자열입니다.
 
-```
+```xml
 <srcSchema name="recipient" namespace="nms">  
   <element name="recipient">
     <compute-string expr="@lastName + ' ' + @firstName +' (' + @email + ')' "/>

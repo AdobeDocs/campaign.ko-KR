@@ -24,9 +24,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1201'
 ht-degree: 0%
 ---
 # 오퍼 프레젠테이션 관리{#managing-offer-presentation}
@@ -42,24 +42,24 @@ ht-degree: 0%
 1. **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]** 노드로 이동합니다.
 1. 유형화 규칙을 만들고 **[!UICONTROL Offer presentation]** 유형을 선택합니다.
 
-   ![](assets/offer_typology_001.png)
+   ![새 규칙 양식과 오퍼 프레젠테이션을 표시하는 규칙 유형 목록이 있는 유형화 규칙 노드](assets/offer_typology_001.png)
 
 1. 규칙을 적용할 채널을 지정합니다.
 
-   ![](assets/offer_typology_002.png)
+   ![모든 채널이 강조 표시된 유형화 규칙의 채널 목록](assets/offer_typology_002.png)
 
 1. 규칙의 적용 기준을 구성합니다. 자세한 내용은 [프레젠테이션 규칙 설정](#presentation-rule-settings)을 참조하세요.
 1. **[!UICONTROL Administration]** > **[!UICONTROL Campaign execution]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typologies]** 노드로 이동하여 모든 **[!UICONTROL Offer presentation]** 유형 규칙을 그룹화하는 유형화를 만듭니다.
 
-   ![](assets/offer_typology_003.png)
+   ![오퍼 유형화가 선택되어 있고 일반 탭이 표시된 유형화 노드](assets/offer_typology_003.png)
 
 1. 유형화가 생성되면 유형화 규칙에 커서를 놓고 방금 생성한 유형화에서 그룹화합니다.
 
-   ![](assets/offer_typology_004.png)
+   선택한 오퍼 유형화를 나열하는 유형화 추가 대화 상자가 있는 규칙의 ![유형화 탭](assets/offer_typology_004.png)
 
 1. 오퍼 환경에서 드롭다운 목록을 사용하여 유형화를 참조합니다.
 
-   ![](assets/offer_typology_005.png)
+   ![환경의 자격 탭 - 방문자 오퍼 환경, 오퍼가 있는 오퍼 표시 유형화 목록](assets/offer_typology_005.png)
 
 ## 프레젠테이션 규칙 설정 {#presentation-rule-settings}
 
@@ -69,13 +69,13 @@ ht-degree: 0%
 
 1. 유형화 규칙에서 **[!UICONTROL Edit the rule application conditions...]** 링크를 클릭하여 쿼리를 만듭니다.
 
-   ![](assets/offer_typology_006.png)
+   ![규칙 응용 프로그램 조건 편집 링크가 강조 표시된 유형화 규칙의 일반 탭](assets/offer_typology_006.png)
 
 1. 쿼리 창에서 유형화 규칙을 적용할 오퍼에 필터를 적용할 수 있습니다.
 
    예를 들어 오퍼 카테고리를 선택할 수 있습니다.
 
-   ![](assets/offer_typology_008.png)
+   ![오퍼 트리에서 선택한 오퍼 범주와 같은 범주에 대한 쿼리](assets/offer_typology_008.png)
 
 ### 오퍼 차원 {#offer-dimensions}
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 **[!UICONTROL Targeting dimension]**&#x200B;은(는) 오퍼 제안을 받을 수신자 테이블(기본적으로 `nms:recipients`)과 일치합니다. **[!UICONTROL Storage dimension]**&#x200B;은(는) 대상 차원에 연결된 제안 기록을 포함하는 테이블과 일치합니다(기본적으로 `nms:propositionRcp`).
 
-![](assets/offer_typology_009.png)
+![타겟팅 차원 및 저장소 차원 필드가 강조 표시된 오퍼 프레젠테이션 탭](assets/offer_typology_009.png)
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 화살표를 사용하여 일 수를 변경하거나 기간(예: &quot;2d 6h&quot;)을 직접 입력합니다.
 
-![](assets/offer_typology_010.png)
+![슬라이딩 기간, 기간 고려 필드가 강조 표시된 오퍼 프레젠테이션 탭](assets/offer_typology_010.png)
 
 ### 제안 수 {#number-of-propositions}
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 
 화살표를 사용하여 오퍼 제안 수를 변경합니다.
 
-![](assets/offer_typology_011.png)
+![최대 제안 수, 수량 필드가 강조 표시된 오퍼 표시 탭](assets/offer_typology_011.png)
 
 ## 제안 및 수신자 정의 {#defining-propositions-and-recipients}
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
 필터링 기준을 선택하여 채널, 관련 오퍼 또는 이전에 할당된 제안의 상태를 기반으로 제안을 제외할 수 있습니다.
 
-![](assets/offer_typology_014.png)
+![같은 채널에 있는 섹션만 계산하는 제안, 오퍼 및 제안 상태 필터가 강조 표시됨](assets/offer_typology_014.png)
 
 이러한 기준은 프레젠테이션 규칙의 가장 빈번한 적용을 나타냅니다. 다른 기준을 사용하려면 **[!UICONTROL Limit propositions...]** 링크를 사용하여 쿼리를 만들 수 있습니다. 자세한 내용은 [제안에 대한 쿼리 만들기](#creating-a-query-on-propositions) 섹션을 참조하십시오.
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 수신자를 지정하려면 **[!UICONTROL Edit the query from the targeting dimension...]** 링크를 클릭하고 규칙에 관련된 수신자를 선택하십시오.
 
-![](assets/offer_typology_012.png)
+![필터링 쿼리 편집 마법사: 폴더에 포함된 수신자를 타겟팅 차원 쿼리로 선택](assets/offer_typology_012.png)
 
 ### 제안에 대한 쿼리 만들기 {#creating-a-query-on-propositions}
 
@@ -172,4 +172,4 @@ ht-degree: 0%
 
 다음 예제에서 두 개의 프레젠테이션 후에 계산되는 제안은 **콜 센터** 스페이스의 **특별 오퍼** 범주에 있는 제안이며, 가중치는 **20** 미만입니다.
 
-![](assets/offer_typology_013.png)
+![가중치, 오퍼 공간 및 제안에 대한 가중치가 20보다 작은 제안 쿼리 제한](assets/offer_typology_013.png)

@@ -21,20 +21,20 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 8%
+source-wordcount: '209'
+ht-degree: 0%
 ---
 # 최상의 오퍼 제공{#interaction-present-offers}
 
 [인바운드 또는 아웃바운드 채널](interaction-architecture.md#interaction-types)을 사용하여 다양한 오퍼 공간에서 오퍼를 표시할 수 있습니다. 이 장에서는 인바운드 채널에 대한 몇 가지 특정 기능을 자세히 설명합니다.
 
-![](assets/inbound-interactions.png)
+![인바운드 흐름: 사이트를 탐색하고, 쿠키 또는 로그인으로 방문자를 식별하며, 오퍼 엔진에서 카탈로그에서 최상의 오퍼를 선택합니다](assets/inbound-interactions.png)
 
 오퍼 엔진에서 오퍼를 선택하려면 오퍼를 승인하고 라이브 환경에서 사용할 수 있어야 합니다.
 
-이 작업에 대한 자세한 정보는 [이 섹션](approving-and-activating-an-offer.md#approving-offer-content)을 참조하십시오.
+자세한 내용은 [오퍼 콘텐츠 승인](approving-and-activating-an-offer.md#approving-offer-content)을 참조하세요.
 
 인바운드 연락처의 컨텍스트에서 페이지를 탐색 중인 사용자를 웹 사이트로 식별하거나 식별하지 못할 수 있습니다. 오퍼 엔진은 식별된 프로필과 익명 프로필에 대해 서로 다른 오퍼를 제공합니다.
 
@@ -44,4 +44,4 @@ ht-degree: 8%
 >
 >인바운드 상호 작용의 경우 하나 이상의 오퍼를 제시하고 업데이트하도록 오퍼 엔진을 구체적으로 구성해야 합니다.
 >
->또한 오퍼 공간에서 단일 모드를 활성화해야 합니다. 자세한 정보는 이 [페이지](interaction-offer-spaces.md)를 참조하십시오.
+>또한 오퍼 공간에서 단일 모드를 활성화해야 합니다. 자세한 내용은 [캠페인 상호 작용 오퍼 공간](interaction-offer-spaces.md)을 참조하세요.

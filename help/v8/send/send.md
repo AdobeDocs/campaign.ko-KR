@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '838'
 ht-degree: 2%
 ---
 # 이메일 전송 및 모니터링  {#send-and-monitor-emails}
@@ -77,7 +77,7 @@ MTA는 SMTP 바운스를 인증하고 캠페인 바운스 사유 및 자격에 �
 >
 >현재 **비동기** 바운스는 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 검증됩니다.
 
-[이 섹션](delivery-failures.md)에서 게재 실패에 대해 자세히 알아보세요.
+[Campaign의 게재 실패](delivery-failures.md)에 대해 자세히 알아보세요.
 
 
 ### 특정 MX 규칙
@@ -112,9 +112,9 @@ EFS(Campaign Email Feedback Service)는 Adobe Campaign과 함께 보낸 각 이�
 
 >[!NOTE]
 >
->하드 및 소프트 바운스에 대한 자세한 내용은 [이 섹션](delivery-failures.md#delivery-failure-reasons)을 참조하세요.
+>하드 및 소프트 바운스에 대한 자세한 내용은 [메시지 배달이 실패한 이유](delivery-failures.md#delivery-failure-reasons)를 참조하세요.
 >
->일시적 게재 실패 후 다시 시도에 대한 자세한 내용은 [이 섹션](delivery-failures.md#retries)을 참조하세요.
+>일시적 게재 실패 후 다시 시도에 대한 자세한 내용은 [관리 다시 시도](delivery-failures.md#retries)를 참조하십시오.
 
 아래 표는 전송 프로세스의 각 단계에서 KPI 및 전송 로그 상태를 업데이트하는 방법을 보여 줍니다.
 

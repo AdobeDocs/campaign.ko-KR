@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 13%
+source-wordcount: '460'
+ht-degree: 8%
 ---
 # 보고 시작{#gs-ac-reports}
 
@@ -51,11 +51,11 @@ Adobe Campaign은 이 페이지에 나와 있는 보고 도구 세트를 제공�
 
   Marketing Analytics 기능을 사용하여 데이터를 분석 및 측정하고, 통계를 계산하며, 보고서 작성 및 계산을 간소화 및 최적화합니다. 보고서를 만들고 대상 모집단을 빌드하여 Adobe Campaign에서 타깃팅 또는 세분화 작업에 사용할 수 있는 목록에 저장할 수 있습니다.
 
-  ![](assets/create-a-report.png)
+  ![사용 가능한 큐브 템플릿과 받는 사람 템플릿을 사용하여 새 보고서 페이지를 만드는 중](assets/create-a-report.png)
 
   쿼리, 계산 및 볼륨의 복잡성에 따라, 이러한 보고서에서 분석된 데이터는 쿼리를 통해 수집되고 목록(데이터 관리 유형 워크플로우) 또는 큐브(Marketing Analytics 사용)에서 미리 집계될 수 있습니다. 피벗 테이블 또는 그룹 목록 형식으로 표시됩니다.
 
-  이 작업에 대한 자세한 정보는 [이 섹션](gs-cubes.md)을 참조하십시오.
+  자세한 내용은 [Adobe Campaign 분석 보고서 시작](gs-cubes.md)을 참조하세요.
 
 * **기본 제공 보고서**
 
@@ -63,9 +63,9 @@ Adobe Campaign은 이 페이지에 나와 있는 보고 도구 세트를 제공�
 
   **보고서** 탭을 사용하여 이러한 보고서에 액세스합니다.
 
-  ![](assets/built-in-reports.png)
+  ![브로드캐스트 통계 및 브라우저와 같은 기본 제공 보고서의 전역 보고서 목록을 표시하는 보고서 탭](assets/built-in-reports.png)
 
-  이 작업에 대한 자세한 정보는 [이 섹션](built-in-reports.md)을 참조하십시오.
+  자세한 내용은 [Adobe Campaign 기본 제공 보고서](built-in-reports.md)를 참조하세요.
 
 * **설명 데이터 분석**
 
@@ -73,7 +73,7 @@ Adobe Campaign은 이 페이지에 나와 있는 보고 도구 세트를 제공�
 
   **[!UICONTROL Tools > Descriptive analysis...]** 메뉴를 사용하여 새 보고서를 만드십시오.
 
-  ![](assets/desc-analysis-report.png)
+  ![변수 정의 대화 상자를 열어 설명 분석 마법사 테이블 구성](assets/desc-analysis-report.png)
 
   Campaign 설명 분석 보고는 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ko){target="_blank"}에 나와 있습니다.
 

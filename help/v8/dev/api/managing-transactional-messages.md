@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '744'
-ht-degree: 1%
+ht-degree: 0%
 ---
 # 트랜잭션 메시지 관리 {#managing-transactional-messages}
 
@@ -47,11 +47,11 @@ ht-degree: 1%
 
 트랜잭션 이벤트는 다음 URL 구조의 POST 요청을 통해 전송됩니다.
 
-```
+```http
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;조직>**: 개인 조직 ID. [이 섹션](must-read.md)을 참조하십시오.
+* **&lt;조직>**: 개인 조직 ID. [읽어야 함](must-read.md)을 참조하세요.
 
 * **&lt;transactionalAPI>**: 트랜잭션 메시지 API 끝점입니다.
 
@@ -67,7 +67,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 문자 집합을 추가해야 합니다(예: **utf-8**). 이 값은 사용 중인 REST 응용 프로그램에 따라 다릅니다.
 
-```
+```bash
 -X POST \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \
@@ -100,7 +100,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 아래 예제는 SMS 통신이 트리거되는 페이로드를 보여 줍니다.
 
-```
+```bash
 curl --location 'https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment' \
 --header 'Authorization: Bearer <ACCESS_TOKEN>' \
 --header 'Cache-Control: no-cache' \
@@ -135,7 +135,7 @@ POST 응답은 트랜잭션 이벤트를 만든 시점의 상태를 반환합니
 
 이벤트를 전송하기 위한 POST 요청.
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \
@@ -161,7 +161,7 @@ POST 응답은 트랜잭션 이벤트를 만든 시점의 상태를 반환합니
 
 POST 요청에 대한 응답입니다.
 
-```
+```json
 {
   "PKey":"<PKEY>",
   "ctx":

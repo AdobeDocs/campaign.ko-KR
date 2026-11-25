@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '187'
 ht-degree: 1%
 ---
 # 캠페인 액세스{#accessing-campaigns}
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 일치하는 순서의 세부 정보에 추가되며 편집할 수 있습니다. 전체 대시보드를 사용하면 로컬 수준에서 관리할 수 있습니다.
 
-![](assets/mkg_dist_local_op_edit_new_op1.png)
+![로컬 캠페인이 대시보드에서 열려 있는 캠페인 패키지 목록, 게재 표시 및 게재 링크 추가](assets/mkg_dist_local_op_edit_new_op1.png)
 
 캠페인은 홈 페이지의 **[!UICONTROL Campaigns]** 링크를 통해 위치한 캠페인 개요에서 계속 액세스할 수 있습니다.
 

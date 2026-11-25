@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '748'
 ht-degree: 5%
 ---
 # 게재 분석 {#analyze-delivery}
@@ -41,11 +41,11 @@ ht-degree: 5%
 1. 게재 창에서 **[!UICONTROL Send]** 단추를 클릭합니다.
 1. 대상 계산 및 즉시 전송을 위한 콘텐츠 준비를 수행하려면 **[!UICONTROL Deliver as soon as possible]**&#x200B;을(를) 선택하십시오. 게재를 나중 날짜로 연기하거나 콘텐츠를 준비하지 않고 예상 모집단을 얻을 수도 있습니다.
 
-   ![](assets/delivery-analysis-start.png)
+   ![가능한 한 빨리 배달을 선택하고 분석 단추를 사용하여 기본 배달 대상 대화 상자로 보내기](assets/delivery-analysis-start.png)
 
 1. 분석을 수동으로 시작하려면 **[!UICONTROL Analyze]**&#x200B;을(를) 클릭하십시오. 진행률 표시줄에는 분석 진행률이 표시됩니다.
 
-   게재 분석 시 일련의 확인 규칙이 적용됩니다. 이러한 규칙은 게재 속성의 **[!UICONTROL Typology]** 탭에서 선택한 **유형화**&#x200B;에 정의되어 있습니다. [이 섹션](../../automation/campaign-opt/campaign-typologies.md)에서 유형화에 대해 자세히 알아보세요.
+   게재 분석 시 일련의 확인 규칙이 적용됩니다. 이러한 규칙은 게재 속성의 **[!UICONTROL Typology]** 탭에서 선택한 **유형화**&#x200B;에 정의되어 있습니다. [캠페인 유형화 시작](../../automation/campaign-opt/campaign-typologies.md)에서 유형화에 대해 자세히 알아보세요.
 
    기본적으로 이메일의 경우, 분석은 다음 사항을 다룹니다.
 
@@ -72,7 +72,7 @@ ht-degree: 5%
    * 노란색 아이콘은 중요하지 않은 처리 오류를 나타냅니다.
    * 빨간색 아이콘은 게재를 보낼 수 없는 심각한 오류를 나타냅니다.
 
-   ![](assets/delivery-analysis-results.png){width="800"}
+   ![분석 결과: 준비 완료, 전송할 메시지 22개, 경고와 함께 로그 및 게재 확인 단추](assets/delivery-analysis-results.png){width="800"}
 
 1. 오류가 있는 경우 오류를 수정하려면 **[!UICONTROL Close]**&#x200B;을(를) 클릭하십시오. 변경한 후 **[!UICONTROL Analyze]**&#x200B;을(를) 클릭하여 분석을 다시 시작합니다.
 
@@ -88,7 +88,7 @@ ht-degree: 5%
 
 게재 속성의 **[!UICONTROL Analysis]** 탭으로 이동하여 분석 단계 동안 메시지 준비에 대한 설정을 정의합니다.
 
-![](assets/delivery-properties-analysis-tab.png){width="800"}
+![레이블 및 코드 옵션, 승인 모드가 수동으로 설정된 배달 속성 분석 탭](assets/delivery-properties-analysis-tab.png){width="800"}
 
 이 탭에서는 다음 옵션에 액세스할 수 있습니다.
 

@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2636'
 ht-degree: 1%
 ---
 # 승인 프로세스 설정 및 관리 {#approval-marketing-campaigns}
@@ -51,25 +51,25 @@ Adobe Campaign을 사용하면 캠페인에 대한 승인 흐름을 설정하고
 운영자는 다음과 같은 여러 가지 방법으로 승인할 수 있습니다.
 
 * (알림 메시지에서 참조) 이메일의 링크는 운영자가 웹 브라우저를 통해 Campaign으로 이동할 수 있도록 합니다. 연결한 후 검토자는 콘텐츠를 승인할지 여부를 선택할 수 있습니다.
-  ![](assets/approval-content-email.png)
+  ![게재 콘텐츠 링크 및 게재 세부 정보를 승인 또는 거부하는 콘텐츠 승인 알림 전자 메일입니다.](assets/approval-content-email.png)
 
 * 캠페인 대시보드에서.
-  ![](assets/approval-from-dashboard.png)
+  ![클라이언트 콘솔의 Campaign 대시보드에 승인 메뉴가 열리고 타깃팅 승인 옵션이 강조 표시되어 있습니다.](assets/approval-from-dashboard.png)
 
 * 게재 대시보드에서.
-  ![](assets/approval-from-delivery-dashboard.png)
+  ![승인 메뉴가 열려 있는 게재 대시보드에서 콘텐츠 제출, 타깃팅 승인 및 예산 승인을 나열합니다.](assets/approval-from-delivery-dashboard.png)
 
 운영자는 승인 창에서 캠페인 및 게재에 액세스할 수 있습니다. 댓글을 입력할 수도 있습니다.
 
-![](assets/approval-target-confirm.png)
+![수락 또는 거부 옵션, 댓글 필드 및 Target 승인 단추가 있는 게재 창의 작업.](assets/approval-target-confirm.png)
 
 운영자가 유효성을 검사하면 캠페인 및 게재 대시보드와 로그에 정보가 표시됩니다.
 
-![](assets/approvals-from-delivery.png)
+![타겟팅이 승인되고 기한에 따라 승인할 예산이 표시되는 게재 대시보드 승인 섹션.](assets/approvals-from-delivery.png)
 
 이 정보는 게재 승인 로그 및 캠페인의 승인 저널에서도 사용할 수 있습니다. 이러한 로그는 **[!UICONTROL Edit > Audit > Approvals]** 탭을 통해 액세스할 수 있습니다.
 
-![](assets/approval-logs.png)
+![승인 마감 일정 및 타깃팅에 대한 승인 로그 항목이 있는 배달 감사 승인 탭.](assets/approval-logs.png)
 
 
 ## 승인 활성화{#enable-approvals}
@@ -84,24 +84,24 @@ Adobe Campaign을 사용하면 캠페인에 대한 승인 흐름을 설정하고
 
 다음 예에서는 게재 콘텐츠에 승인이 필요하지 않습니다.
 
-![](assets/approval-not-enabled.png)
+![대상 및 예산 승인이 사용되는 동안 콘텐츠 승인 사용이 지워진 게재 속성 승인 탭](assets/approval-not-enabled.png)
 
 
 >[!CAUTION]
 >
 >검토자에게 승인을 위한 **적절한 권한**&#x200B;이 있는지, 보안 영역이 올바르게 정의되어 있는지 확인하십시오. [자세히 알아보기](#selecting-reviewers).
 
-게재 승인 프로세스는 [이 섹션](#review-and-approve-deliveries)에 자세히 설명되어 있습니다.
+게재 승인 프로세스는 [게재 검토 및 승인](#review-and-approve-deliveries)에 자세히 설명되어 있습니다.
 
 ## 검토자 선택 {#select-reviewers}
 
 각 승인 유형에 대해 승인을 담당하는 운영자 또는 운영자 그룹이 게재의 드롭다운 목록에서 선택됩니다. **[!UICONTROL Edit...]** 링크를 사용하여 연산자를 더 추가할 수 있습니다. 이 창에서는 승인 마감일도 편집할 수 있습니다. 기본적으로 검토자는 프로세스를 승인하기 위해 제출 날짜부터 3일이 있습니다. 자동 미리 알림을 추가하려면 **[!UICONTROL Add a reminder]** 링크를 사용하세요.
 
-![](assets/add-reviewers.png)
+![추가 검토자가 있는 고급 설정 승인 탭과 검토자 편집 창, 지연 및 미리 알림 추가](assets/add-reviewers.png)
 
 검토자를 지정하지 않으면 캠페인 소유자가 승인을 담당하며 알림을 받습니다. 캠페인 소유자는 캠페인의 **[!UICONTROL Edit > Properties]** 탭에 지정됩니다.
 
-![](assets/campaign-owner.png)
+![캠페인 소유자를 설정하기 위해 할당 대상 필드가 강조 표시된 캠페인 편집 탭](assets/campaign-owner.png)
 
 **[!UICONTROL Administrator]** 권한이 있는 다른 모든 Adobe Campaign 연산자도 작업을 승인할 수 있지만 알림을 받지 못합니다.
 
@@ -112,7 +112,7 @@ Adobe Campaign을 사용하면 캠페인에 대한 승인 흐름을 설정하고
 
 검토자 목록이 정의된 경우 한 검토자가 승인하면 작업이 승인됩니다. 그러면 승인 링크는 캠페인 및 게재 대시보드에서 더 이상 사용할 수 없습니다. 알림 전송을 활성화할 때 다른 검토자가 알림 메시지에서 승인 링크를 클릭하면 다른 운영자가 작업을 이미 승인했다는 알림이 표시됩니다.
 
-![](assets/delivery-target-already-approved.png)
+![다른 운영자가 게재 타깃팅을 이미 승인했음을 확인하는 알림 전자 메일.](assets/delivery-target-already-approved.png)
 
 
 ## 게재 검토 및 승인 {#review-and-approve-deliveries}
@@ -132,7 +132,7 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 
 승인이 필요한 단계는 Campaign 대시보드에 표시됩니다(클라이언트 콘솔 또는 웹 인터페이스를 통해). 게재 추적 테이블 및 게재 대시보드에도 표시됩니다.
 
-![](assets/delivery-approval-actions.png)
+![콘텐츠 제출, 타깃팅 승인 및 예산 승인이 나열된 승인 메뉴가 있는 게재 요약.](assets/delivery-approval-actions.png)
 
 캠페인의 각 게재에 대해 다음 프로세스를 승인할 수 있습니다.
 
@@ -140,7 +140,7 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 
   승인 설정 창에서 **[!UICONTROL Enable target approval]**, **[!UICONTROL Enable content approval]** 또는 **[!UICONTROL Enable budget approval]** 옵션을 선택하면 캠페인 및 게재 대시보드에 관련 링크가 표시됩니다.
 
-  ![](assets/template-activate-6.png)
+  ![콘텐츠, 대상, 예산 및 추출 승인 옵션과 검토자를 사용할 수 있는 고급 설정 승인 탭](assets/template-activate-6.png)
 
   >[!NOTE]
   >
@@ -156,7 +156,7 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 
   **[!UICONTROL Approve file]** 옵션은 캠페인 및 게재 대시보드에서 사용할 수 있습니다.
 
-  ![](assets/approve-file-preview.png)
+  ![파일 승인 단추와 파일을 수락하거나 거부할 수 있는 배달 창의 작업이 있는 웹 배달 페이지입니다.](assets/approve-file-preview.png)
 
   유효성 검사 전에 출력 파일을 미리 볼 수 있습니다. 추출 파일 미리 보기에는 데이터 샘플만 표시됩니다. 전체 파일이 로드되지 않았습니다.
 
@@ -164,7 +164,7 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 
   **[!UICONTROL Enable individual approval of each associated delivery]** 옵션은 보조 게재와 연결된 하나의 기본 게재에 사용됩니다. 기본적으로 이 옵션은 기본 게재의 전체 승인을 수행할 수 있도록 선택되어 있지 않습니다. 이 옵션을 선택한 경우 각 게재를 개별적으로 승인해야 합니다.
 
-  ![](assets/enable-ind-approval.png)
+  ![연결된 각 게재에 대해 개별 승인을 선택한 상태로 고급 설정 승인 탭.](assets/enable-ind-approval.png)
 
 
 >[!NOTE]
@@ -252,20 +252,20 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 
 1. **[!UICONTROL Approve targeting]**&#x200B;을(를) 선택합니다.
 
-![](assets/target-validation-from-console.png)
+![승인 드롭다운이 열려 있고 콘텐츠 승인 및 타깃팅 승인 옵션이 있는 Campaign 대시보드.](assets/target-validation-from-console.png)
 
 1. 팝업 창에서 승인할 정보를 선택합니다.
 1. **[!UICONTROL Accept]** 또는 **[!UICONTROL Reject]**&#x200B;을(를) 선택하고 필요한 경우 댓글을 입력하십시오. 이 댓글은 유효성 검사 로그에 표시됩니다.
 1. **[!UICONTROL Target approval]** 단추를 사용하여 선택을 확인합니다.
 
-![](assets/confirm-validation-from-console.png)
+![[승인]을 선택한 상태로 게재 창에서 작업을 실행하고, 댓글을 입력하고, Target 승인 단추를 강조 표시합니다.](assets/confirm-validation-from-console.png)
 
 
 다른 운영자가 프로세스를 이미 승인한 경우 승인 링크를 사용할 수 없습니다.
 
 프로세스가 거부된 경우 게재 대시보드에 정보가 다음과 같이 표시됩니다.
 
-![](assets/target-approval-rejected.png)
+![타깃팅 승인 단추와 타깃팅 거부 상태로 대상 승인을 표시하는 게재 대시보드가 거부되었습니다.](assets/target-approval-rejected.png)
 
 
 ### 알림 메시지에서 승인 {#approval-via-notification-messages}
@@ -288,19 +288,19 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 
 * 캠페인 승인 로그에서 **[!UICONTROL Edit > Audit]** 탭의 **[!UICONTROL Approvals]** 하위 탭:
 
-  ![](assets/approval-tracking-from-campaign.png)
+  ![게재, 작업, 유형 및 승인자와 함께 승인 분개를 나열하는 캠페인 편집 > 감사 > 승인 하위 탭](assets/approval-tracking-from-campaign.png)
 
 * 캠페인 게재 로그에서 **[!UICONTROL Edit > Audit]** 탭의 **[!UICONTROL Deliveries]** 하위 탭:
 
-  ![](assets/approval-tracking-from-campaign-deliveries.png)
+  ![캠페인 편집 > 감사 > 게재 하위 탭에서 각 게재를 타겟팅 및 콘텐츠 상태와 함께 나열합니다.](assets/approval-tracking-from-campaign-deliveries.png)
 
 * 각 게재의 승인 상태는 **[!UICONTROL Summary]** 탭의 **[!UICONTROL Hide/display logs]** 옵션을 클릭하여 볼 수 있습니다.
 
-  ![](assets/approval-tracking-delivery-dashboard.png)
+  ![로그 숨기기/표시 링크가 강조 표시되고 승인 아래 승인 로그가 표시된 게재 요약 탭입니다.](assets/approval-tracking-delivery-dashboard.png)
 
 * 각 게재의 **[!UICONTROL Audit > Approvals]** 탭을 통해서도 이 정보에 액세스할 수 있습니다.
 
-  ![](assets/approval-tracking-delivery-tab.png)
+  ![배달 감사 > 승인 탭에서 승인 로그를 날짜, 작업, 유형, 승인자 및 댓글로 나열합니다.](assets/approval-tracking-delivery-tab.png)
 
 >[!NOTE]
 >
@@ -312,7 +312,7 @@ DM 게재의 경우 Adobe Campaign 운영자는 추출 파일을 라우터로 �
 
 승인 모드(수동 또는 자동)를 선택하려면 캠페인 또는 캠페인 템플릿의 **[!UICONTROL Edit > Properties]** 탭을 클릭한 다음, **[!UICONTROL Advanced campaign parameters...]** 및 **[!UICONTROL Approvals]** 탭을 차례로 클릭합니다.
 par
-![](assets/approval-mode.png)
+![승인 모드 드롭다운이 열려 있는 고급 설정 승인 탭에서 자동 및 수동 표시](assets/approval-mode.png)
 
 >[!NOTE]
 >
@@ -338,7 +338,7 @@ par
 
 이렇게 하려면 캠페인 또는 캠페인 템플릿의 승인 창(**[!UICONTROL Edit > Properties]** > **[!UICONTROL Advanced campaign parameters...]** > **[!UICONTROL Approvals]** 탭)을 편집하고 **[!UICONTROL Do not enable notification sending]**&#x200B;을(를) 선택합니다.
 
-![](assets/enable-disable-notifications.png)
+![알림 전송을 사용하도록 설정하지 않도록 선택한 고급 설정 승인 탭](assets/enable-disable-notifications.png)
 
 ### 알림 콘텐츠 {#notification-content}
 

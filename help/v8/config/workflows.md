@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '664'
 ht-degree: 8%
 ---
 # 워크플로 시작{#gs-with-workflows}
@@ -126,7 +126,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 워크플로우 **[!UICONTROL Properties]**&#x200B;의 **[!UICONTROL Execution]** 탭에서 워크플로우를 다른 웨어하우스에 연결하고 워크로드 관리를 최적화하도록 선택할 수 있습니다. **웨어하우스**&#x200B;에 대한 자세한 내용은 [Snowflake 설명서](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}를 참조하세요.
 
-![](assets/warehouse.png)
+웨어하우스 드롭다운이 열려 있는 ![워크플로 속성 실행 탭: 기본값, 캠페인, 가져오기/내보내기 및 캠페인 버스트](assets/warehouse.png)
 
 워크플로우의 목적에 따라 **[!UICONTROL Warehouse]** 드롭다운에서 다음 세 개의 웨어하우스 중에서 선택할 수 있습니다.
 
@@ -151,11 +151,11 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 Campaign 트랜잭션 메시지를 사용하여 정보 시스템에서 트리거된 이벤트에서 생성된 메시지를 자동화합니다. 이러한 트랜잭션 메시지는 예를 들어 송장, 주문 확인, 배송 확인, 암호 변경, 제품 불가능 알림, 계정 명세서 또는 웹 사이트 계정 생성일 수 있습니다. 이러한 메시지는 이메일, SMS 또는 푸시 알림을 통해 개별적으로 또는 일괄적으로 전송할 수 있습니다.
 
-[이 섹션](../send/transactional.md)에서 트랜잭션 메시지 기능에 대해 자세히 알아보세요.
+[캠페인 트랜잭션 메시지](../send/transactional.md)의 트랜잭션 메시지 기능에 대해 자세히 알아보세요.
 
 Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하고 거의 실시간으로 개인화된 메시지를 전송합니다.
 
-[이 섹션](../start/connect.md)에서 Campaign을 다른 솔루션과 통합하는 방법을 알아봅니다.
+[Campaign v8에 연결](../start/connect.md)에서 Campaign을 다른 솔루션과 통합하는 방법을 알아봅니다.
 
 
 ## 워크플로 전체 사용 사례{#end-to-end-uc}

@@ -62,10 +62,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 63%
+source-wordcount: '1531'
+ht-degree: 62%
 ---
 # Adobe Campaign v8 주요 기능 {#ac-gs-what-is-new}
 
@@ -73,7 +73,7 @@ Adobe Campaign v8은 엔터프라이즈 규모의 크로스 채널 캠페인을 
 
 Adobe Campaign v8은 인프라, 보안, 전달성 및 모니터링 기능이 상당히 개선되었습니다. 서비스를 사전 관리 감독 및 적시 경고 기능과 결합하는 **관리 Cloud Service**(으)로 사용할 수 있습니다. [이 섹션에서](#acms-desc) Campaign Managed Cloud Services에 대해 자세히 알아보십시오.
 
-![](assets/home-page.png)
+시작 메시지 및 Adobe Campaign Managed Cloud Services 카드가 포함된 ![Campaign 클라이언트 콘솔 홈 페이지](assets/home-page.png)
 
 ## 주요 기능{#key-capabilities}
 
@@ -231,7 +231,7 @@ Campaign v8 Managed Cloud Services를 사용하면 수동 업그레이드 작업
 * 상황별로 다양한 비즈니스 요구 사항에 따라 설정을 구성할 수 있습니다
 * 필요에 따라 액세스 설정을 제어하여 보안을 강화할 수 있습니다
 
-![](assets/subdomain1.png)
+![구성된 하위 도메인을 나열하는 Campaign 컨트롤 패널 하위 도메인 관리 페이지에 새 하위 도메인 설정이 강조 표시됨](assets/subdomain1.png)
 
 [Campaign Campaign 컨트롤 패널에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko){target="_blank"}
 

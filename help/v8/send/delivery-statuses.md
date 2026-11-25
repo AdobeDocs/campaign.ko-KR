@@ -35,16 +35,16 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '576'
 ht-degree: 4%
 ---
 # 게재 상태 {#delivery-statuses}
 
 게재가 전송되면 게재 대시보드에 전송 성공 여부를 모니터링할 수 있는 상태가 표시됩니다. 가능한 상태는 아래 섹션에 자세히 설명되어 있습니다.
 
-![](assets/delivery-status.png)
+![상태 필드가 강조 표시된 게재 대시보드 요약에 완료됨 및 완료 날짜가 표시됨](assets/delivery-status.png)
 
 발생할 수 있는 다양한 게재 실패와 이를 해결하는 방법에 대한 자세한 내용은 [게재 실패 이해](delivery-failures.md)를 참조하십시오.
 
@@ -108,7 +108,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-Adobe Campaign 이메일의 전달성을 최적화하는 방법에 대해 알아보려면 [이 섹션](about-deliverability.md)을 참조하세요. 전달성에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하세요.
+Adobe Campaign 이메일의 전달성을 최적화하는 방법에 대해 알아보려면 [Campaign에서 전달성 시작](about-deliverability.md)을 참조하세요. 전달성에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하세요.
 
 ## 보류 중인 상태 {#pending-status}
 

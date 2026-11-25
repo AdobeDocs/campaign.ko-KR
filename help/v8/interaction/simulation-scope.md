@@ -24,9 +24,9 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '271'
 ht-degree: 2%
 ---
 # 시뮬레이션 범위{#simulation-scope}
@@ -50,7 +50,7 @@ ht-degree: 2%
 
   수신자는 이 많은 제안을 받게 됩니다. 예를 들어 5를 입력하면 각 수신자는 최대 5개의 오퍼 제안을 받습니다.
 
-  ![](assets/offer_simulation_009.png)
+  ![연락일, 제안 수 및 폴더 추천 여행자 대상 쿼리가 있는 시뮬레이션 범위 탭](assets/offer_simulation_009.png)
 
 시뮬레이션을 위해 고려할 오퍼를 세분화하기 위해 하나 이상의 테마(카테고리에 미리 지정됨)를 추가할 수 있습니다.
 
@@ -66,4 +66,4 @@ ht-degree: 2%
 
 이렇게 하려면 **[!UICONTROL Add]** 단추를 클릭하고 적절한 필드를 선택합니다. 축은 시뮬레이션을 계산하는 데 사용되며 분석 보고서에 표시됩니다. 자세한 내용은 [시뮬레이션 추적](simulation-tracking.md)을 참조하세요.
 
-![](assets/offer_simulation_011.png)
+![표현식 선택 대화 상자가 있는 계산 탭에서 오퍼 보고 축을 추가할 종료 날짜를 선택합니다](assets/offer_simulation_011.png)

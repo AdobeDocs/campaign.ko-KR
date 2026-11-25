@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '563'
 ht-degree: 2%
 ---
 # 캠페인 패키지 게시{#publishing-the-campaign-package}
@@ -33,15 +33,15 @@ ht-degree: 2%
 
 검토자를 선택하려면 캠페인 패키지에서 **[!UICONTROL Approval parameters]** 링크를 클릭하고 드롭다운 목록에서 관련 검토자를 선택하십시오.
 
-![](assets/s_advuser_mkg_dist_define_valid.png)
+![검토자 필드가 중앙 관리 그룹으로 설정된 캠페인 패키지의 승인 매개 변수 대화 상자.](assets/s_advuser_mkg_dist_define_valid.png)
 
 **[!UICONTROL Submit for approval]**&#x200B;을(를) 클릭하여 승인 프로세스를 시작할 수 있습니다.
 
-![](assets/s_advuser_mkg_dist_valid_process.png)
+![Campaign 패키지 대시보드에서 승인을 위해 제출되고 패키지 승인 단추를 표시합니다.](assets/s_advuser_mkg_dist_valid_process.png)
 
 그런 다음 이 캠페인 패키지의 가용성을 확인하기 위해 검토자에게 알림 메시지가 전송됩니다. 메시지에는 웹 액세스를 통해 승인을 수락하거나 거부할 수 있는 링크가 포함되어 있습니다.
 
-![](assets/s_advuser_mkg_dist_valid_process1.png)
+![수락 또는 거부 링크가 있는 승인 전자 메일을 보내면 [수락] 및 [거부] 옵션이 있는 패키지 페이지에서 작업을 열 수 있습니다.](assets/s_advuser_mkg_dist_valid_process1.png)
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 캠페인 패키지의 **[!UICONTROL Approval parameters...]** 탭에 있는 **[!UICONTROL Edit...]** 링크에서 다른 검토자를 추가할 수 있습니다.
 
-![](assets/s_advuser_mkg_dist_select_op_valid.png)
+![추가 검토자 및 승인 일정과 함께 검토자 편집 창을 여는 승인 매개 변수의 링크 편집](assets/s_advuser_mkg_dist_select_op_valid.png)
 
 ## 승인 타임라인 {#approval-periods}
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 
 미리 알림은 지정된 날짜 및/또는 제출 날짜 후 **x**&#x200B;일에 보낼 수 있습니다. 미리 알림 유형은 미리 알림 테이블의 첫 번째 열에서 구성할 수 있습니다. 아래 예에서 검토자는 2023년 1월 11일에 미리 알림 메시지를 수신하게 됩니다. 즉, **[!UICONTROL Date]** 열에서 선택한 날짜의 2일 전, 승인 기간이 종료되기 1일 전, 즉 승인 날짜에 대한 제출 후 2일에 두 번째 미리 알림을 수신하게 됩니다.
 
-![](assets/s_advuser_mkg_dist_reminder_planning.png)
+![3d 승인 지연과 두 개의 미리 알림이 있는 검토자 편집 창: 승인 기한부터 지연 및 지정된 날짜까지 지연](assets/s_advuser_mkg_dist_reminder_planning.png)
 
 패키지가 정의되고 승인을 위해 패키지가 제출되면 **[!UICONTROL Audit]** 탭에 실행 일정이 표시됩니다. 이전 구성을 기반으로 계산된 처리 기한과 구성된 모든 미리 알림의 날짜가 표시됩니다.
 
@@ -69,6 +69,6 @@ ht-degree: 2%
 
 검토자가 지정되지 않았거나 통지된 운영자가 패키지를 승인하지 않은 경우 **[!UICONTROL Approve the package]** 버튼을 사용하면 캠페인 패키지 **[!UICONTROL Dashboard]** 또는 패키지 개요에서 바로 승인으로 진행할 수 있습니다.
 
-![](assets/s_advuser_mkg_dist_valid_button.png)
+![패키지 승인 단추를 사용하여 [수락] 또는 [거부] 옵션과 [주석] 필드가 있는 패키지에 대한 작업 대화 상자를 엽니다.](assets/s_advuser_mkg_dist_valid_button.png)
 
 승인 후 캠페인이 게시되고 목록에 추가되며, 사용 가능한 날짜에 도달하면 로컬 엔티티가 이를 사용할 수 있습니다. 캠페인을 생성할 때 로컬 엔티티가 지정된 경우 알림 그룹의 운영자에게 캠페인이 사용 가능함을 알리는 메시지가 전송됩니다. 미리 지정된 엔티티가 없는 경우 기본적으로 모든 로컬 엔티티가 이 캠페인을 사용할 수 있습니다. 자세한 내용은 [조직 엔터티](about-distributed-marketing.md#organizational-entities)를 참조하세요.

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '2046'
+source-wordcount: '2484'
 ht-degree: 3%
 ---
 # Android 리치 푸시 게재 디자인 {#rich-push}
@@ -79,17 +79,17 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. **[!UICONTROL Notification type]** 드롭다운에서 **[!UICONTROL Default]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/rich_push_default.png)
+   ![Android 콘텐츠 탭에서 기본값이 선택된 알림 유형 목록](assets/rich_push_default.png)
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]** 및 **[!UICONTROL Message]** 필드에 텍스트를 입력하십시오.
 
-   ![](assets/rich_push_default_2.png)
+   ![제목 및 메시지 필드가 프로모션 코드 오퍼로 채워진 기본 알림](assets/rich_push_default_2.png)
 
 1. 다이내믹 개인화 필드를 사용하여 콘텐츠를 정의하고, 데이터를 개인화하고, 다이내믹 콘텐츠를 추가합니다. [자세히 알아보기](../send/personalize.md)
 
 1. 푸시 알림을 추가로 개인화하려면 푸시 알림의 **[!UICONTROL Notification options]** 및 **[!UICONTROL HTTPv1 additional options]**&#x200B;을(를) 구성합니다. [자세히 알아보기](#push-advanced)
 
-   ![](assets/rich_push_default_3.png)
+   ![기본 알림에 대해 알림 옵션 및 HTTPv1 추가 옵션이 입력됨](assets/rich_push_default_3.png)
 
 메시지 콘텐츠를 정의했으면 테스트 구독자를 사용하여 메시지를 미리 보고 테스트할 수 있습니다.
 
@@ -97,13 +97,13 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. **[!UICONTROL Notification Type]** 드롭다운에서 **[!UICONTROL Basic]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/rich_push_basic.png)
+   ![Android 콘텐츠 탭에서 [기본]이 선택된 알림 유형 목록](assets/rich_push_basic.png)
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
    알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
 
-   ![](assets/rich_push_basic_2.png)
+   ![제목, 메시지 및 확장된 메시지 필드를 채운 기본 알림](assets/rich_push_basic_2.png)
 
 1. 다이내믹 개인화 필드를 사용하여 콘텐츠를 정의하고, 데이터를 개인화하고, 다이내믹 콘텐츠를 추가합니다. [자세히 알아보기](../send/personalize.md)
 
@@ -130,11 +130,11 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
    Android 앱 링크를 처리하는 방법에 대한 자세한 내용은 [Android 개발자 설명서](https://developer.android.com/training/app-links)를 참조하세요.
 
-   ![](assets/rich_push_basic_3.png)
+   ![웹 URL 단추가 하나씩 있는 기본 알림 단추 표(지금 바로 보기)! &#x200B;](assets/rich_push_basic_3.png)에 채워진 이후 필드 알림
 
 1. 푸시 알림을 추가로 개인화하려면 푸시 알림의 **[!UICONTROL Notification options]** 및 **[!UICONTROL HTTPv1 additional options]**&#x200B;을(를) 구성합니다. [자세히 알아보기](#push-advanced)
 
-   ![](assets/rich_push_basic_4.png)
+   ![기본 알림에 대해 알림 옵션 및 HTTPv1 추가 옵션이 입력됨](assets/rich_push_basic_4.png)
 
 메시지 콘텐츠를 정의했으면 테스트 구독자를 사용하여 메시지를 미리 보고 테스트할 수 있습니다.
 
@@ -142,13 +142,13 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. **[!UICONTROL Notification Type]** 드롭다운에서 **[!UICONTROL Carousel]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/rich_push_carousel.png)
+   ![Android 콘텐츠 탭에서 회전 메뉴가 선택된 알림 유형 목록](assets/rich_push_carousel.png)
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
    알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
 
-   ![](assets/rich_push_carousel_1.png)
+   ![제목, 메시지 및 확장된 메시지 필드를 채운 회전 알림](assets/rich_push_carousel_1.png)
 
 1. 표현식 편집기를 사용하여 콘텐츠를 정의하고, 데이터를 개인화하고, 다이내믹 콘텐츠를 추가합니다. [자세히 알아보기](../send/personalize.md)
 
@@ -165,11 +165,11 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
    최소 3개의 이미지와 최대 5개의 이미지를 포함해야 합니다.
 
-   ![](assets/rich_push_carousel_2.png)
+   ![슬라이드 레이아웃으로 수동 회전 옵션 설정 및 이미지 테이블에서 작업 URI가 있는 이미지 3개](assets/rich_push_carousel_2.png)
 
 1. 푸시 알림을 추가로 개인화하려면 푸시 알림의 **[!UICONTROL Notification options]** 및 **[!UICONTROL HTTPv1 additional options]**&#x200B;을(를) 구성합니다. [자세히 알아보기](#push-advanced)
 
-   ![](assets/rich_push_carousel_3.png)
+   ![알림 옵션 및 회전판 알림에 대해 HTTPv1 추가 옵션이 입력됨](assets/rich_push_carousel_3.png)
 
 메시지 콘텐츠를 정의했으면 테스트 구독자를 사용하여 메시지를 미리 보고 테스트할 수 있습니다.
 
@@ -177,11 +177,11 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. **[!UICONTROL Notification Type]** 드롭다운에서 **[!UICONTROL Icon buttons]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/rich_push_icon.png)
+   ![Android 콘텐츠 탭에서 아이콘 단추가 선택된 알림 유형 목록](assets/rich_push_icon.png)
 
 1. **[!UICONTROL Color options]** 메뉴에서 **[!UICONTROL Background]**&#x200B;에 대한 16진수 색상 코드를 입력합니다.
 
-   ![](assets/rich_push_icon_2.png)
+   ![배경색에 16진수 값을 입력한 아이콘 단추 알림](assets/rich_push_icon_2.png)
 
 1. **[!UICONTROL Cancel button image]**&#x200B;의 URL을 제공하십시오.
 
@@ -189,11 +189,11 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
    최소 3개의 이미지와 최대 5개의 버튼을 포함해야 합니다.
 
-   ![](assets/rich_push_icon_3.png)
+   ![3개의 웹 URL 단추가 있는 단추 이미지 URL 및 아이콘 이미지 단추 테이블 취소](assets/rich_push_icon_3.png)
 
 1. 푸시 알림을 추가로 개인화하려면 푸시 알림의 **[!UICONTROL Notification options]** 및 **[!UICONTROL HTTPv1 additional options]**&#x200B;을(를) 구성합니다. [자세히 알아보기](#push-advanced)
 
-   ![](assets/rich_push_icon_5.png)
+   ![알림 옵션 및 아이콘 단추 알림에 대해 HTTPv1 추가 옵션이 입력됨](assets/rich_push_icon_5.png)
 
 메시지 콘텐츠를 정의했으면 테스트 구독자를 사용하여 메시지를 미리 보고 테스트할 수 있습니다.
 
@@ -201,13 +201,13 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. **[!UICONTROL Notification Type]** 드롭다운에서 **[!UICONTROL Input box]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/rich_push_input.png)
+   ![Android 콘텐츠 탭에서 입력 상자를 선택한 알림 유형 목록](assets/rich_push_input.png)
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
    알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
 
-   ![](assets/rich_push_input_2.png)
+   ![제목, 메시지 및 확장된 메시지 필드를 채운 입력란 알림](assets/rich_push_input_2.png)
 
 1. **[!UICONTROL Color options]** 메뉴에서 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Background]**&#x200B;에 대한 16진수 색상 코드를 입력합니다.
 
@@ -218,11 +218,11 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
    * **[!UICONTROL Feedback text]**: 회신 뒤에 표시할 텍스트를 입력하십시오.
    * **[!UICONTROL Feedback image]**: 회신 뒤에 표시되는 이미지의 URL을 추가합니다.
 
-   ![](assets/rich_push_input_3.png)
+   ![입력 상자 옵션: 입력자 이름, 입력 텍스트, 피드백 텍스트 및 피드백 이미지가 입력됨](assets/rich_push_input_3.png)
 
 1. 푸시 알림을 추가로 개인화하려면 푸시 알림의 **[!UICONTROL Notification options]** 및 **[!UICONTROL HTTPv1 additional options]**&#x200B;을(를) 구성합니다. [자세히 알아보기](#push-advanced)
 
-   ![](assets/rich_push_input_4.png)
+   ![알림 옵션 및 HTTPv1 추가 옵션이 입력란 알림에 대해 채워짐](assets/rich_push_input_4.png)
 
 메시지 콘텐츠를 정의했으면 테스트 구독자를 사용하여 메시지를 미리 보고 테스트할 수 있습니다.
 
@@ -230,13 +230,13 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. **[!UICONTROL Notification Type]** 드롭다운에서 **[!UICONTROL Product catalog]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/rich_push_catalog.png)
+   ![Android 콘텐츠 탭에서 제품 카탈로그를 선택한 알림 유형 목록](assets/rich_push_catalog.png)
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
    알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
 
-   ![](assets/rich_push_catalog_2.png)
+   ![제목 및 메시지 필드가 채워진 제품 카탈로그 알림](assets/rich_push_catalog_2.png)
 
 1. **[!UICONTROL Color options]** 메뉴에서 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Background]**&#x200B;에 대한 16진수 색상 코드를 입력합니다.
 
@@ -248,7 +248,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
    * **[!UICONTROL Action button URI]**: 단추를 클릭할 때 실행할 URI를 지정합니다.
    * **[!UICONTROL Display type]**: 세로 또는 가로 표시 중에서 선택합니다.
 
-   ![](assets/rich_push_catalog_3.png)
+   ![제품 카탈로그 옵션: 동작 단추 텍스트, 동작 단추 색상, 동작 단추 URI 및 표시 유형](assets/rich_push_catalog_3.png)
 
 1. **[!UICONTROL Product catalog items]** 메뉴에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 각 항목에 대해 다음 세부 정보를 입력합니다.
 
@@ -260,7 +260,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
    최대 3개의 항목을 포함해야 합니다.
 
-   ![](assets/rich_push_catalog_4.png)
+   제목, 이미지, 가격 및 URI를 표시하는 세 개의 항목이 있는 ![제품 카탈로그 항목 테이블](assets/rich_push_catalog_4.png)
 
 1. 푸시 알림을 추가로 개인화하려면 푸시 알림의 **[!UICONTROL Notification options]** 및 **[!UICONTROL HTTPv1 additional options]**&#x200B;을(를) 구성합니다. [자세히 알아보기](#push-advanced)
 
@@ -270,19 +270,19 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. **[!UICONTROL Notification Type]** 드롭다운에서 **[!UICONTROL Product rating]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/rich_push_rating.png)
+   ![Android 콘텐츠 탭에서 제품 등급이 선택된 알림 유형 목록](assets/rich_push_rating.png)
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
    알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
 
-   ![](assets/rich_push_rating_2.png)
+   ![제목 및 메시지 필드가 채워진 제품 등급 알림](assets/rich_push_rating_2.png)
 
 1. **[!UICONTROL Color options]** 메뉴에서 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Background]**&#x200B;에 대한 16진수 색상 코드를 입력합니다.
 
 1. **[!UICONTROL Product rating options]** 메뉴에서 **[!UICONTROL Rating icon in unselected state]** 및 **[!UICONTROL Rating icon in selected state]**&#x200B;의 URL을 입력하십시오.
 
-   ![](assets/rich_push_rating_3.png)
+   ![선택되지 않은 상태와 선택한 상태의 등급 아이콘에 대한 이미지 URL이 있는 제품 등급 옵션](assets/rich_push_rating_3.png)
 
 1. **[!UICONTROL Product rating items]** 메뉴에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 **[!UICONTROL Link URI]**&#x200B;을(를) 입력한 다음 **[!UICONTROL Link type]**&#x200B;을(를) 선택합니다.
 
@@ -296,11 +296,11 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
    최소 3개의 값과 최대 5개의 값을 포함해야 합니다.
 
-   ![](assets/rich_push_rating_4.png)
+   ![웹 URL 형식의 링크 URI 항목이 3개인 제품 등급 항목 테이블](assets/rich_push_rating_4.png)
 
 1. 푸시 알림을 추가로 개인화하려면 푸시 알림의 **[!UICONTROL Notification options]** 및 **[!UICONTROL HTTPv1 additional options]**&#x200B;을(를) 구성합니다. [자세히 알아보기](#push-advanced)
 
-   ![](assets/rich_push_carousel_3.png)
+   ![알림 옵션 및 회전판 알림에 대해 HTTPv1 추가 옵션이 입력됨](assets/rich_push_carousel_3.png)
 
 메시지 콘텐츠를 정의했으면 테스트 구독자를 사용하여 메시지를 미리 보고 테스트할 수 있습니다.
 
@@ -308,23 +308,23 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. **[!UICONTROL Notification Type]** 드롭다운에서 **[!UICONTROL Timer]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/rich_push_timer.png)
+   ![Android 콘텐츠 탭에서 타이머가 선택된 알림 유형 목록](assets/rich_push_timer.png)
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
    알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
 
-   ![](assets/rich_push_timer_2.png)
+   ![제목 및 메시지 필드가 채워진 타이머 알림과 대체 메시지 필드](assets/rich_push_timer_2.png)
 
 1. **[!UICONTROL Alternate title]**, **[!UICONTROL Alternate message]** 및 **[!UICONTROL Alternate expanded message]** 필드에 타이머가 만료된 후 표시할 텍스트를 입력하십시오.
 
 1. **[!UICONTROL Color options]** 메뉴에서 **[!UICONTROL Title]**, **[!UICONTROL Message]**, **[!UICONTROL Background]** 및 **[!UICONTROL Timer]**&#x200B;에 대한 16진수 색상 코드를 입력합니다.
 
-   ![](assets/rich_push_timer_3.png)
+   ![타이머 알림 색 옵션: 제목 색, 메시지 색, 배경색 및 타이머 색](assets/rich_push_timer_3.png)
 
 1. **[!UICONTROL Timer duration]**(초) 또는 **[!UICONTROL Timer end timestamp]**&#x200B;을(를) 특정 에포크 타임스탬프로 설정하고 타이머가 만료된 후 표시될 **[!UICONTROL Alternate image]** URL을 추가하십시오.
 
-   ![](assets/rich_push_timer_4.png)
+   ![타이머 기간이 3600으로 설정되어 있고 대체 이미지 URL이 있는 타이머 옵션](assets/rich_push_timer_4.png)
 
 1. 푸시 알림을 추가로 개인화하려면 푸시 알림의 **[!UICONTROL Notification options]** 및 **[!UICONTROL HTTPv1 additional options]**&#x200B;을(를) 구성합니다. [자세히 알아보기](#push-advanced)
 
@@ -334,19 +334,19 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. **[!UICONTROL Notification Type]** 드롭다운에서 **[!UICONTROL Zero bezel]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/rich_push_bezel.png)
+   ![Android 콘텐츠 탭에서 베젤이 0인 알림 유형 목록](assets/rich_push_bezel.png)
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
    알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
 
-   ![](assets/rich_push_zero_2.png)
+   ![제목 및 메시지 필드가 채워진 제로 베젤 알림](assets/rich_push_zero_2.png)
 
 1. **[!UICONTROL Color options]** 메뉴에서 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Background]**&#x200B;에 대한 16진수 색상 코드를 입력합니다.
 
 1. **[!UICONTROL Zero bezel options]** 메뉴에서 **[!UICONTROL Collapsed notification style]** 필드에 이미지 URL을 추가합니다.
 
-   ![](assets/rich_push_zero_3.png)
+   ![축소된 알림 스타일의 이미지 URL이 있는 제로 베젤 옵션](assets/rich_push_zero_3.png)
 
 1. 푸시 알림을 추가로 개인화하려면 푸시 알림의 **[!UICONTROL Notification options]** 및 **[!UICONTROL HTTPv1 additional options]**&#x200B;을(를) 구성합니다. [자세히 알아보기](#push-advanced)
 

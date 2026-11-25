@@ -19,9 +19,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '140'
 ht-degree: 0%
 ---
 # 온라인 설문 조사 구성{#configuring-surveys}
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 사용 가능한 매개 변수는 [이 문서](../web/defining-web-forms-properties.md)에 자세히 설명되어 있습니다.
 
-![](assets/s_ncs_admin_survey_properties_general.png)
+![워크플로 위에 속성 단추가 강조 표시된 어린이 이벤트 웹 응용 프로그램 편집 탭](assets/s_ncs_admin_survey_properties_general.png)
 
 ## 설문 조사 데이터 저장소 {#survey-data-storage}
 

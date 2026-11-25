@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1077'
 ht-degree: 0%
 ---
 # Campaign 사용자 인터페이스 설정 {#ui-settings}
@@ -45,13 +45,13 @@ Adobe Campaign에서 기간(예: 리소스의 유효 기간, 작업의 승인 �
 
 Campaign 탐색기에 폴더를 추가하고 보기를 만들고 권한을 할당할 수 있습니다.
 
-[이 페이지](../audiences/folders-and-views.md)에서 폴더 및 보기를 관리하는 방법을 알아보세요.
+[폴더 및 보기](../audiences/folders-and-views.md)에서 폴더 및 보기를 관리하는 방법을 알아보세요.
 
 ## 목록 관리 및 사용자 지정 {#customize-lists}
 
 Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. 이러한 목록을 필요에 맞게 조정할 수 있습니다. 예를 들어 열을 추가하고, 데이터를 필터링하고, 레코드를 카운트하고, 설정을 저장하고 공유할 수 있습니다.
 
-또한 필터를 만들고 저장할 수 있습니다.  [이 페이지](../audiences/create-filters.md)에서 필터에 대해 자세히 알아보세요.
+또한 필터를 만들고 저장할 수 있습니다.  [Adobe Campaign에서 필터 작업](../audiences/create-filters.md)에서 필터에 대해 자세히 알아보세요.
 
 ### 레코드 수 {#number-of-records}
 
@@ -107,7 +107,7 @@ Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. �
 
 **[!UICONTROL Distribution of values]** 아이콘을 사용하여 현재 폴더에서 선택한 필드에 대한 값 재분할을 볼 수 있습니다.
 
-![](assets/value-distribution.png)
+![서비스 및 구독 폴더의 개수 및 백분율과 함께 각 유형을 나열하는 값 분포 대화 상자](assets/value-distribution.png)
 
 
 ### 새 열 만들기 {#create-a-new-column}
@@ -145,7 +145,7 @@ Campaign 클라이언트 콘솔에서 데이터가 목록에 표시됩니다. �
 1. **[!UICONTROL Advanced settings]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Configuration]** 필드에 이름을 지정합니다.
 1. **[!UICONTROL OK]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-그런 다음 이 구성을 동일한 유형의 다른 폴더에 적용할 수 있습니다. [이 페이지](../audiences/folders-and-views.md)의 폴더에 대해 자세히 알아보세요.
+그런 다음 이 구성을 동일한 유형의 다른 폴더에 적용할 수 있습니다. [폴더 및 보기](../audiences/folders-and-views.md)의 폴더에 대해 자세히 알아보세요.
 
 ### 목록 내보내기 {#exporting-a-list}
 

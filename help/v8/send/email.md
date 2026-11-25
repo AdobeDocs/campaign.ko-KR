@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 8%
+source-wordcount: '704'
+ht-degree: 7%
 ---
 # 이메일 디자인 및 보내기
 
@@ -42,13 +42,13 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 >매력적인 개인화된 전자 메일을 만들려면 [웹 사용자 인터페이스](../start/campaign-ui.md#ac-web-ui)로 이동하세요. Adobe Campaign에는 직관적인 드래그 앤 드롭 인터페이스인 이메일 Designer이 함께 제공되어 모든 이메일에 대한 모든 콘텐츠를 디자인하고 개선할 수 있습니다.
 
 
-[이 페이지](../start/create-message.md)에서 게재를 만들고 구성하는 주요 단계를 알아봅니다.
+[첫 번째 게재 만들기](../start/create-message.md)에서 게재를 만들고 구성하는 주요 단계를 알아봅니다.
 
 ## 이메일 게재 만들기
 
 나머지 고객 경험과 일관적인 개인화된 상황별 관련 이메일을 만들 수 있습니다.
 
-![](assets/new-email-content.png)
+![제목, HTML 콘텐츠 및 추적된 URL 목록이 아래에 표시된 전자 메일 게재 편집기](assets/new-email-content.png)
 
 
 다음 샘플에서는 개인화된 데이터, 외부 URL에 대한 링크 및 미러 페이지에 대한 링크가 포함된 Adobe Campaign에서의 이메일 게재를 디자인하는 단계를 배웁니다.
@@ -57,19 +57,19 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 
    새 게재를 만들려면 **캠페인** 탭으로 이동하여 **게재**&#x200B;를 클릭하고 기존 게재 목록 위에 있는 **만들기** 단추를 클릭하십시오.
 
-   ![](assets/delivery_step_1.png)
+   ![캠페인 탭의 게재 목록(게재 노드 및 만들기 단추 강조 표시)](assets/delivery_step_1.png)
 
 1. **템플릿 선택**
 
    게재 템플릿을 선택한 다음 게재 이름을 지정합니다. 이 이름은 Adobe Campaign 콘솔의 사용자만 볼 수 있고 수신자는 볼 수 없지만 이 제목은 게재 목록에 표시됩니다. **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/dce_delivery_model.png)
+   ![전자 메일 게재 템플릿을 선택하고 레이블을 입력한 다음 계속](assets/dce_delivery_model.png)
 
 1. **콘텐츠 가져오기**
 
    **Source** 탭을 클릭하여 HTML 콘텐츠를 붙여넣습니다.
 
-   ![](assets/paste-content.png)
+   ![붙여넣을 HTML 코드를 표시하는 Source 탭이 열린 전자 메일 게재 편집기](assets/paste-content.png)
 
    >[!NOTE]
    >
@@ -81,13 +81,13 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 
      대상 프로필의 이름과 성을 메시지 내용에 삽입하려면 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 **[!UICONTROL Include]**&#x200B;을(를) 클릭하고 **[!UICONTROL Greetings]**&#x200B;을(를) 선택합니다.
 
-     ![](assets/include-greetings.png)
+     ![이메일 HTML 콘텐츠에서 [포함] 및 [인사말]이 선택된 Personalization 메뉴](assets/include-greetings.png)
 
      미리보기 탭으로 이동하여 수신자를 선택하여 개인화를 확인합니다.
 
-     ![](assets/perso-check.png)
+     ![받는 사람이 선택되고 전자 메일 텍스트에 개인화된 인사말이 강조 표시된 미리 보기 탭](assets/perso-check.png)
 
-     [이 섹션](personalize.md)에서 개인화 옵션에 대해 자세히 알아보세요.
+     [개인화 시작](personalize.md)에서 개인화 옵션에 대해 자세히 알아보세요.
 
    * 추적된 링크 삽입
 
@@ -95,7 +95,7 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 
      **https://www.myURL.com** 형식을 사용하여 **URL** 필드에 링크의 URL을 입력한 다음 확인하십시오.
 
-     ![](assets/add-a-link.png)
+     ![선택한 텍스트 위에 URL과 추가 단추가 포함된 하이퍼텍스트 링크 추가 대화 상자](assets/add-a-link.png)
 
    * 미러 페이지 추가
 
@@ -103,9 +103,9 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 
      이 링크를 삽입할 위치에 커서를 놓고 도구 모음에서 마지막 아이콘을 클릭한 다음 **[!UICONTROL Include]**&#x200B;을(를) 클릭하고 **[!UICONTROL link to mirror page]**&#x200B;을(를) 선택합니다.
 
-     [이 섹션](mirror-page.md#link-to-mirror-page)에서 미러 페이지 관리에 대해 자세히 알아보세요.
+     [미러 페이지 링크 추가](mirror-page.md#link-to-mirror-page)에서 미러 페이지 관리에 대해 자세히 알아보세요.
 
-1. BCC 주소로 메시지 사본 전송, 메시지 형식 변경, 특정 인코딩 설정 등과 같은 이메일에 대한 추가 매개 변수를 정의할 수 있습니다. 자세한 내용은 [이 섹션](email-parameters.md)을 참조하세요.
+1. BCC 주소로 메시지 사본 전송, 메시지 형식 변경, 특정 인코딩 설정 등과 같은 이메일에 대한 추가 매개 변수를 정의할 수 있습니다. 자세한 내용은 [Adobe Campaign의 전자 메일 매개 변수](email-parameters.md)를 참조하세요.
 
 1. 콘텐츠가 준비되면 **저장**&#x200B;을 클릭합니다. 이제 콘텐츠가 **[!UICONTROL Campaigns > Deliveries]** 탭의 게재 목록에 표시됩니다.
 
@@ -124,7 +124,7 @@ Adobe Campaign을 사용하여 이메일 게재를 만들어 개인화된 이메
 
 ## 이메일 테스트 및 유효성 검사
 
-Campaign은 대상자에게 이메일을 보내기 전에 테스트하고 유효성을 검사하는 여러 가지 방법을 제공합니다. [이 섹션](../send/preview-and-proof.md)에서 전자 메일 콘텐츠를 미리 보고 테스트하는 방법을 알아보세요.
+Campaign은 대상자에게 이메일을 보내기 전에 테스트하고 유효성을 검사하는 여러 가지 방법을 제공합니다. [전자 메일 미리 보기 및 테스트](../send/preview-and-proof.md)에서 전자 메일 콘텐츠를 미리 보고 테스트하는 방법을 알아봅니다.
 
 다음을 수행할 수 있습니다.
 

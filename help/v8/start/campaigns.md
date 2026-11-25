@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 78%
+source-wordcount: '929'
+ht-degree: 70%
 ---
 # 업그레이드 시작하기 {#gs-ac-campaigns}
 
@@ -42,7 +42,7 @@ Adobe Campaign은 온라인과 오프라인의 모든 채널에서 캠페인을 
 
 Adobe Campaign을 사용하면 타기팅되고 개인화된 캠페인을 이메일, DM, SMS, 푸시 알림과 같은 다양한 채널에 디자인 및 오케스트레이션 할 수 있습니다. 단일 인터페이스는 모든 캠페인 및 커뮤니케이션을 일정 계획, 오케스트레이션, 구성, 개인화, 자동화, 실행 및 측정하는 데 필요한 모든 기능을 제공합니다.
 
-![](assets/campaign-tab.png)
+상태, 날짜 및 만들기 단추가 있는 마케팅 캠페인을 나열하는 홈 페이지의 ![캠페인 탭](assets/campaign-tab.png)
 
 ### 핵심 개념{#ac-core-concepts}
 
@@ -64,7 +64,7 @@ Adobe Campaign을 사용하면 타기팅되고 개인화된 캠페인을 이메�
 
 Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠페인을 생성, 구성, 실행 및 분석할 수 있습니다.
 
-![](assets/calendar.png)
+![충성도 프로그램 세부 정보 팝업과 함께 타임라인에 캠페인과 게재를 표시하는 캠페인 일정](assets/calendar.png)
 
 [이 섹션](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ko){target="_blank"}에서 마케팅 캠페인에 액세스하고 구현하는 방법을 알아봅니다.
 
@@ -88,7 +88,7 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 
    워크플로에서 대상자를 만들거나 수신자 목록, 뉴스레터 구독자, 이전 게재의 수신자 또는 필터링 조건 등과 같은 기존 그룹을 선택할 수 있습니다.
 
-   ![](assets/campaign-wf.png)
+   ![캠페인 워크플로: 여름 오퍼 게재를 쿼리하고 목록 피드를 읽은 다음 대기 및 모바일 게재를 쿼리](assets/campaign-wf.png)
 
    [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko){target="_blank"}에서는 메시지 대상자를 정의하는 방법을 알아봅니다.
 
@@ -96,11 +96,11 @@ Adobe Campaign을 사용하면 통합 제어 센터에서 모든 마케팅 캠�
 
    채널을 선택하고 메시지 컨텐츠를 정의하고 게재를 시작합니다.
 
-   ![](assets/campaign-dashboard.png)
+   ![상태, 일정, 문서, 작업 및 상태가 포함된 게재 목록이 있는 캠페인 대시보드](assets/campaign-dashboard.png)
 
-   [이 페이지](../../automation/campaigns/marketing-campaign-deliveries.md)에서는 마케팅 캠페인 게재를 만들고 시작하는 방법을 알아봅니다.
+   [게재 만들기](../../automation/campaigns/marketing-campaign-deliveries.md#create-deliveries) 및 [게재 시작](../../automation/campaigns/marketing-campaign-deliveries.md#start-a-delivery)에서 마케팅 캠페인 게재를 만들고 시작하는 방법을 알아봅니다.
 
-   보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인과 연결할 수 있습니다. [이 페이지](../../automation/campaigns/marketing-campaign-assets.md)에서 관련 문서에 대해 자세히 알아보세요.
+   보고서, 사진, 웹 페이지, 다이어그램 등 다양한 문서를 캠페인과 연결할 수 있습니다. [마케팅 캠페인 자산, 문서 및 게재 개요](../../automation/campaigns/marketing-campaign-assets.md)에서 관련 문서에 대해 자세히 알아보세요.
 
 1. **승인 프로세스 설정**
 
@@ -115,7 +115,7 @@ Adobe Campaign에서는 중앙 엔터티(본사, 마케팅 부서 등) 간의 �
 
 >[!NOTE]
 >
->이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md)을 참조하세요.
+>이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [Campaign v8 호환성 매트릭스](compatibility-matrix.md)를 참조하세요.
 
 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko){target="_blank"}에서 Campaign 분산 마케팅 기능을 구성하고 사용하는 방법을 알아봅니다.
 
@@ -125,6 +125,6 @@ Adobe Campaign에서는 마케팅 캠페인의 성공 및 수익성을 측정하
 
 >[!NOTE]
 >
->이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md)을 참조하세요.
+>이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [Campaign v8 호환성 매트릭스](compatibility-matrix.md)를 참조하세요.
 
 [&#128279;](../assets/do-not-localize/book.png) [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ko){target="_blank"}에서 Campaign 응답 관리자를 구성하고 사용하는 방법을 알아봅니다.

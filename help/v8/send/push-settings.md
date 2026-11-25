@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1890'
 ht-degree: 5%
 ---
 # 푸시 알림 채널 구성 {#push-notification-configuration}
@@ -71,7 +71,7 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
 
 >[!CAUTION]
 >
->푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현에 관련된 담당자에 따라 단일 제품 프로필에 전체 권한 집합을 할당하거나 앱 개발자와 **Adobe Campaign** 관리자 간에 권한을 공유해야 할 수 있습니다.
+>푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 관련 담당자에 따라 단일 제품 프로필에 전체 권한 세트를 할당해야 할 수 있습니다. 또는 앱 개발자와 **Adobe Campaign** 관리자 간에 권한을 공유합니다.
 
 **속성** 및 **회사** 권한을 할당하려면 아래 단계를 따르십시오.
 
@@ -182,7 +182,7 @@ To get the SDKs needed for push notification to work you will need the following
 
 ## Campaign에서 모바일 서비스 구성 {#push-service}
 
-[!DNL Adobe Experience Platform Data Collection]에서 모바일 앱을 설정한 후에는 **[!DNL Adobe Campaign]**&#x200B;에서 푸시 알림을 보낼 수 있도록 두 개의 서비스(iOS 장치용 서비스, Android 장치용 서비스)를 만들어야 합니다.
+모바일 앱을 [!DNL Adobe Experience Platform Data Collection]에 설정한 후에는 두 개의 서비스(iOS 장치용 서비스 및 Android 장치용 서비스)를 만드십시오. 이 서비스를 사용하면 **[!DNL Adobe Campaign]**&#x200B;에서 푸시 알림을 보낼 수 있습니다.
 
 푸시 알림은 전용 서비스를 통해 앱 사용자에게 전송됩니다. 사용자가 앱을 설치할 때 이 서비스에 가입합니다. Adobe Campaign은 이 서비스를 사용하여 앱 가입자만 타깃팅합니다. 이 서비스에서는 iOS 및 Android 앱을 추가하여 iOS 및 Android 디바이스에서 전송해야 합니다.
 
@@ -190,13 +190,13 @@ To get the SDKs needed for push notification to work you will need the following
 
 1. **[!UICONTROL Profiles and Targets > Services and Subscriptions]** 탭으로 이동하여 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/new-service-push.png){width="800"}
+   ![모바일 응용 프로그램 유형 및 구독자 응용 프로그램 대상 매핑이 포함된 새 서비스 대화 상자](assets/new-service-push.png){width="800"}
 
 1. **[!UICONTROL Label]** 및 **[!UICONTROL Internal name]**&#x200B;을(를) 입력하고 **[!UICONTROL Mobile application]** 유형을 선택하십시오.
 
    >[!NOTE]
    >
-   >기본 **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** 대상 매핑이 받는 사람 테이블에 연결되어 있습니다. 다른 대상 매핑을 사용하려면 새 대상 매핑을 만들고 서비스의 **[!UICONTROL Target mapping]** 필드에 입력해야 합니다. [이 페이지](../audiences/target-mappings.md)에서 대상 매핑에 대해 자세히 알아보세요.
+   >기본 **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** 대상 매핑이 받는 사람 테이블에 연결되어 있습니다. 다른 대상 매핑을 사용하려면 새 대상 매핑을 만들고 서비스의 **[!UICONTROL Target mapping]** 필드에 입력해야 합니다. [대상 매핑 작업](../audiences/target-mappings.md)에서 대상 매핑에 대해 자세히 알아보세요.
 
 1. 오른쪽의 **[!UICONTROL Add]** 아이콘을 사용하여 이 서비스를 사용하는 모바일 응용 프로그램을 정의합니다.
 
@@ -208,14 +208,14 @@ iOS 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL Create an iOS application]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 
-   ![](assets/new-ios-app.png){width="600"}
+   ![iOS 응용 프로그램 만들기가 선택되어 있고 [다음] 단추가 있는 모바일 응용 프로그램 만들기 마법사](assets/new-ios-app.png){width="600"}
 
 1. **[!UICONTROL Label]** 필드에 앱 이름을 입력합니다.
 1. (선택 사항) 일부 **[!UICONTROL Application variables]**&#x200B;을(를) 사용하여 푸시 메시지 콘텐츠를 보강할 수 있습니다. 이는 완전히 맞춤화가 가능하며 모바일 디바이스로 전송되는 메시지 페이로드의 일부입니다.
 
    아래 예에서는 **mediaURl** 및 **mediaExt** 변수가 추가되어 리치 푸시 알림을 만든 다음 응용 프로그램에 알림 내에 표시할 이미지를 제공합니다.
 
-   ![](assets/ios-app-parameters.png){width="600"}
+   ![mediaURL 및 mediaExt가 응용 프로그램 변수로 나열된 iOS 앱 마법사의 일반 매개 변수 단계](assets/ios-app-parameters.png){width="600"}
 
 1. **[!UICONTROL Subscription parameters]** 탭으로 이동하여 **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 스키마의 확장으로 매핑을 정의합니다.
 
@@ -258,7 +258,7 @@ Android 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL Create an Android application]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 
-   ![](assets/new-android-app.png){width="600"}
+   ![Android 응용 프로그램 만들기가 선택되어 있고 [다음] 단추가 있는 모바일 응용 프로그램 만들기 마법사](assets/new-android-app.png){width="600"}
 
 1. **[!UICONTROL Label]** 필드에 앱 이름을 입력합니다.
 1. 통합 키는 각 애플리케이션에 따라 다릅니다. 모바일 애플리케이션을 Adobe Campaign에 연결합니다.

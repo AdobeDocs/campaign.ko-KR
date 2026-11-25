@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1553'
 ht-degree: 3%
 ---
 # 대화형 콘텐츠 정의{#defining-interactive-content}
@@ -39,7 +39,7 @@ AMP for Email을 사용하면 다음과 같은 작업을 수행할 수 있습니
 * 적절하게 구성된 특정 주소에 AMP 이메일 전달을 테스트합니다.
 * 해당 공급자에 등록한 후 Gmail 또는 Mail.ru 주소로 AMP 이메일을 배달합니다.
 
-AMP 이메일 테스트 및 전송에 대한 자세한 내용은 [이 섹션](#targeting-amp-email)을 참조하세요.
+AMP 이메일 테스트 및 전송에 대한 자세한 내용은 [AMP 이메일 타겟팅](#targeting-amp-email)을 참조하십시오.
 
 이 기능은 Adobe Campaign의 전용 패키지를 통해 사용할 수 있습니다. 사용 권한 및 배포 모델에 따라 이 패키지를 설치하거나 Adobe에 연락하여 직접 설치할 수 있습니다.
 
@@ -56,7 +56,7 @@ AMP 이메일 테스트 및 전송에 대한 자세한 내용은 [이 섹션](#t
 
 AMP for Email 형식, 사양 및 요구 사항에 대한 자세한 내용은 [AMP 개발자 설명서](https://amp.dev/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email)를 참조하십시오.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#amp-email-video)
+![전자 메일 비디오용 AMP의 재생 아이콘](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#amp-email-video)
 
 ## Adobe Campaign에서 AMP for Email을 사용하는 주요 단계 {#key-steps-to-use-amp}
 
@@ -87,7 +87,7 @@ AMP 형식을 사용하여 이메일을 작성하려면 아래 단계를 따르�
 
 1. **[!UICONTROL AMP content]** 탭을 클릭합니다.
 
-   ![](assets/amp_tab.png)
+   ![AMP 콘텐츠 탭이 강조 표시되고 AMP 소스 코드가 표시된 이메일 게재](assets/amp_tab.png)
 
 1. 필요에 따라 AMP 콘텐츠를 편집합니다.
 
@@ -99,7 +99,7 @@ AMP 형식을 사용하여 이메일을 작성하려면 아래 단계를 따르�
 
 1. Adobe Campaign의 HTML 포맷과 마찬가지로 개인화 필드 및 개인화 블록을 사용하여 필요에 따라 AMP 콘텐츠를 개인화합니다.
 
-   ![](assets/amp_tab_perso.png)
+   ![코드에 강조 표시된 수신자 이름 개인화 필드가 있는 AMP 콘텐츠 편집기](assets/amp_tab_perso.png)
 
 1. 편집을 마치면 전체 AMP 콘텐츠를 선택하고 [AMP 웹 기반 유효성 검사기](https://validator.ampproject.org) 또는 유사한 웹 사이트에 복사하여 붙여 넣으십시오.
 
@@ -107,7 +107,7 @@ AMP 형식을 사용하여 이메일을 작성하려면 아래 단계를 따르�
    >
    >화면 상단의 드롭다운 목록에서 **AMP4 전자 메일**&#x200B;을(를) 선택해야 합니다.
 
-   ![](assets/amp_validator.png)
+   ![AMP4EMAIL 형식을 선택하고 유효성 검사 상태를 확인하지 못한 상대 URL을 나열하는 AMP 유효성 검사기](assets/amp_validator.png)
 
    오류는 인라인으로 플래그가 지정됩니다.
 
@@ -117,7 +117,7 @@ AMP 형식을 사용하여 이메일을 작성하려면 아래 단계를 따르�
 
 1. AMP 콘텐츠가 유효성 검사를 통과할 때까지 필요에 따라 수정하십시오.
 
-   ![](assets/amp_validator_pass.png)
+   ![AMP4EMAIL 형식이 선택되고 유효성 검사 상태가 [확인]인 AMP 유효성 검사기: 강조 표시된 통과](assets/amp_validator_pass.png)
 
 1. 콘텐츠를 미리 보려면 유효성이 확인된 콘텐츠를 [AMP 플레이그라운드](https://playground.amp.dev) 또는 유사한 웹 사이트에 복사하여 붙여 넣으십시오.
 
@@ -125,7 +125,7 @@ AMP 형식을 사용하여 이메일을 작성하려면 아래 단계를 따르�
    >
    >화면 상단의 드롭다운 목록에서 **AMP for Email**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/amp_playground.png)
+   ![AMP 플레이그라운드(AMP for Email 포함)를 선택하고 오른쪽에 렌더링된 이메일 미리 보기](assets/amp_playground.png)
 
    >[!NOTE]
    >
@@ -178,7 +178,7 @@ Gmail의 경우 먼저 타깃팅하는 Adobe Campaign 계정의 Gmail을 전달�
 
 자세한 내용은 [Gmail](https://developers.google.com/gmail/ampemail/testing-dynamic-email) 개발자 설명서를 참조하십시오.
 
-![](assets/amp_from_field.png)
+![AMP 콘텐츠 탭 위에 [보낸 사람] 필드가 강조 표시된 전자 메일 매개 변수](assets/amp_from_field.png)
 
 Mail.ru 주소로 AMP 전자 메일 전송을 테스트하려면 [Mail.ru 개발자 설명서](https://postmaster.mail.ru/amp/#howto)의 단계를 따릅니다(**사용자인 경우** 섹션).
 

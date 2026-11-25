@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1202'
 ht-degree: 0%
 ---
 # 분산 마케팅 시작{#about-distributed-marketing}
@@ -103,7 +103,7 @@ Adobe Campaign에서는 중앙 엔터티(본사, 마케팅 부서 등) 간의 �
 
 캠페인 패키지 목록은 **캠페인** 탭에서 액세스할 수 있습니다. **[!UICONTROL Campaign packages]** 링크를 클릭하십시오.
 
-![](assets/mkg_dist_home_local_op.png)
+![캠페인 탭: 검색 메뉴에서 캠페인 패키지를 클릭하면 캠페인 패키지 목록이 열립니다.](assets/mkg_dist_home_local_op.png)
 
 이 창에서는 모든 로컬 운영자가 로컬 에이전시에서 사용할 수 있는 캠페인을 볼 수 있습니다.
 
@@ -113,7 +113,7 @@ Adobe Campaign에서는 중앙 엔터티(본사, 마케팅 부서 등) 간의 �
 
 **[!UICONTROL Access management]** 폴더를 통해 중앙 및 로컬 엔터티 연산자를 지정하여 시작합니다.
 
-![](assets/s_advuser_mkg_dist_tree.png)
+![관리 > 액세스 관리가 포함된 탐색기 트리가 확장되어 연산자 및 조직 엔터티가 표시됩니다.](assets/s_advuser_mkg_dist_tree.png)
 
 ### 연산자 {#operators}
 
@@ -123,13 +123,13 @@ Central 연산자는 **[!UICONTROL Central management]** 연산자 그룹에 속
 
 로컬 연산자는 **[!UICONTROL Local management]** 연산자 그룹에 속하거나 **[!UICONTROL LOCAL]** 명명된 권한이 있어야 합니다. 또한 로컬 엔티티에 연결되어 있어야 합니다.
 
-![](assets/s_advuser_mkg_dist_local_create.png)
+![로컬 관리 및 중앙 관리 보안 그룹을 나열하는 운영자 액세스 권한 탭](assets/s_advuser_mkg_dist_local_create.png)
 
 ### 조직 엔티티 {#organizational-entities}
 
 조직 엔터티를 만들려면 **[!UICONTROL Administration > Access management > Organizational entities]** 폴더를 클릭하고 엔터티 목록 위에 있는 **[!UICONTROL New]** 아이콘을 클릭합니다.
 
-![](assets/s_advuser_mkg_dist_local_list.png)
+![엔터티 목록 위에 새 아이콘이 강조 표시된 조직 엔터티 폴더](assets/s_advuser_mkg_dist_local_list.png)
 
 각 조직 엔티티는 식별 정보(레이블, 내부 이름, 연락처 정보 등)를 포함합니다. 및 주문 승인 프로세스와 관련된 그룹입니다. 이는 **[!UICONTROL General]** 탭에 있는 **[!UICONTROL Notifications and approvals]** 섹션에 정의되어 있습니다.
 
@@ -152,7 +152,7 @@ Central 연산자는 **[!UICONTROL Central management]** 연산자 그룹에 속
 1. 로컬 엔티티를 생성합니다.
 1. 수신자를 로컬 엔티티를 관리하는 연산자와 연결합니다.
 
-   ![](assets/mkg_dist_local_entity_association.png)
+   ![원본 필드가 강조 표시된 받는 사람 양식으로 받는 사람을 로컬 엔터티에 연결합니다.](assets/mkg_dist_local_entity_association.png)
 
 1. 로컬 엔티티에 대한 권한 및 검색 규칙 지정
 1. 캠페인 현지화에 필요한 필드 세트를 지정합니다.

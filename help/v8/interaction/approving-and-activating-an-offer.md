@@ -21,9 +21,9 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '848'
 ht-degree: 0%
 ---
 # 오퍼 승인 및 활성화{#approving-and-activating-an-offer}
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 오퍼 대시보드의 배너는 오퍼가 승인 주기를 거쳐야 하는지 여부를 알려줍니다.
 
-![](assets/offer_validate_001.png)
+![승인 단추를 사용하여 오퍼가 승인 보류 중임을 알리는 오퍼 대시보드 배너입니다.](assets/offer_validate_001.png)
 
 ## 오퍼 콘텐츠 승인 {#approving-offer-content}
 
@@ -52,15 +52,15 @@ ht-degree: 0%
 
 1. **[!UICONTROL Approval]** 단추를 클릭하고 팝업에서 **[!UICONTROL Approve content]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/offer_validate_002.png)
+   ![콘텐츠 승인이 선택된 승인 메뉴에서 오퍼 대화 상자에서 작업을 엽니다.](assets/offer_validate_002.png)
 
 1. 드롭다운 목록을 사용하여 편집을 유지할 표현이나 라이브 환경에 게시할 표현을 선택한 다음 **[!UICONTROL Content approval]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/offer_validate_003.png)
+   ![오퍼 대화 상자의 작업: 편집 계속 또는 사용을 선택하고 댓글을 추가한 다음 콘텐츠 승인을 클릭합니다.](assets/offer_validate_003.png)
 
    오퍼 콘텐츠가 승인되면 오퍼 대시보드 표에 정보가 업데이트됩니다.
 
-   ![](assets/offer_validate_004.png)
+   ![승인 후 오퍼 대시보드: 표시에는 사용 가능, 승인 섹션에는 승인된 콘텐츠가 표시됩니다.](assets/offer_validate_004.png)
 
    >[!NOTE]
    >
@@ -76,33 +76,33 @@ ht-degree: 0%
 
 * **[!UICONTROL Schedule and eligibility rules]**&#x200B;을(를) 클릭하여 전체 규칙 목록을 볼 수 있습니다.
 
-  ![](assets/offer_validate_005.png)
+  ![가중치 및 날짜 범위가 포함된 일정 및 자격 규칙 목록을 승인 대화 상자에서 열었습니다.](assets/offer_validate_005.png)
 
 * 자격 규칙을 변경하려면 **[!UICONTROL Reject]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Eligibility approval]**&#x200B;을(를) 클릭합니다.
 
-  ![](assets/offer_validate_007.png)
+  ![[거부]가 선택된 자격 승인 대화 상자, 댓글 및 자격 승인 단추](assets/offer_validate_007.png)
 
   오퍼 대시보드에서 다양한 상태가 업데이트됩니다.
 
-  ![](assets/offer_validate_006.png)
+  ![거부 후 대시보드: 자격 승인이 거부되었습니다. 배너, 자격 제출 단추, 자격 거부됨.](assets/offer_validate_006.png)
 
 * 오퍼 자격 조건을 수락하려면 **[!UICONTROL Approve eligibility]**&#x200B;을(를) 클릭하십시오.
 
-  ![](assets/offer_validate_008.png)
+  ![승인 및 거부 옵션이 있는 오퍼 대화 상자에서 작업을 여는 자격 조건 제출 단추입니다.](assets/offer_validate_008.png)
 
   자격 조건을 승인하고 필요한 경우 댓글을 추가한 다음 **[!UICONTROL Eligibility approval]**&#x200B;을(를) 클릭합니다.
 
-  ![](assets/offer_validate_009.png)
+  ![승인이 선택된 자격 승인 대화 상자, 입력한 댓글 및 자격 승인 단추](assets/offer_validate_009.png)
 
   오퍼 대시보드에서 다양한 상태가 업데이트됩니다.
 
-  ![](assets/offer_validate_010.png)
+  ![자격이 승인되고 콘텐츠가 승인된 상태로 라이브 환경에 배포 보류 중인 오퍼를 표시하는 대시보드.](assets/offer_validate_010.png)
 
 ## 승인 추적 {#approval-tracking}
 
 승인 추적은 오퍼 대시보드에서 사용할 수 있습니다. 액세스하려면 **[!UICONTROL Hide/display logs]**&#x200B;을(를) 클릭하십시오.
 
-![](assets/offer_validate_012.png)
+![로그 숨기기/표시, 작업, 유형 및 승인자를 클릭한 후 승인 로그가 표시된 오퍼 대시보드입니다.](assets/offer_validate_012.png)
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ ht-degree: 0%
 1. **[!UICONTROL Edit]** 창이 나타나면 다시 시작할 승인을 선택한 다음 **[!UICONTROL Re-initialize approval to submit it again]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭하여 확인합니다.
 
-![](assets/offer_validate_013.png)
+![다시 제출하기 위해 승인을 다시 초기화하여 편집 창에 있는 승인 분개입니다.](assets/offer_validate_013.png)
 
 ## 오퍼 게시 {#publishing-the-offer}
 
@@ -124,11 +124,11 @@ ht-degree: 0%
 
 디자인 환경에서 사용할 수 있는 오퍼의 대시보드에는 라이브 환경에서 일치하는 오퍼의 이름을 포함하여 게시에 대한 정보가 포함되어 있습니다.
 
-![](assets/offer_golive_001.png)
+![오퍼 대시보드 디자인: 배포 날짜 배너, 게시된 상태의 오퍼 온라인 링크, 실시간 표시 온라인.](assets/offer_golive_001.png)
 
 라이브 환경에서 사용할 수 있는 오퍼를 표시하려면 오퍼 레이블을 클릭합니다. 라이브 오퍼에는 모든 관련 정보가 포함된 대시보드가 있습니다.
 
-![](assets/offer_golive_002.png)
+![온라인 상태, 환경, 일정 및 자격 규칙을 보여 주는 라이브 오퍼 대시보드에 연결합니다.](assets/offer_golive_002.png)
 
 ## 오퍼 비활성화 {#disabling-an-offer}
 
@@ -142,4 +142,4 @@ ht-degree: 0%
 >
 >오퍼가 디자인 환경에서 삭제되면 연결된 온라인 환경에서 자동으로 비활성화됩니다. 제안 유지 기간 후에 비활성화된 오퍼는 온라인 환경에서 삭제됩니다.
 
-![](assets/offer_preview_deactivate.png)
+![오퍼 대시보드에서 배포를 보류 중입니다. 오퍼 비활성화 단추를 사용하면 오퍼를 비활성화할 수 있습니다.](assets/offer_preview_deactivate.png)

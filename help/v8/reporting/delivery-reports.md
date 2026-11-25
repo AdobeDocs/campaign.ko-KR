@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 8%
+source-wordcount: '1071'
+ht-degree: 7%
 ---
 # 게재 보고서 {#delivery-reports}
 
@@ -38,7 +38,7 @@ ht-degree: 8%
 1. 액세스할 보고서의 게재 이름을 클릭합니다.
 1. **[!UICONTROL Summary]** 탭을 선택하고 **[!UICONTROL Reports]** 링크를 클릭하여 게재와 관련된 보고서에 액세스합니다.
 
-   ![](assets/detailed-report-2.png)
+   ![보고서 링크가 강조 표시된 게재 요약 탭에서 사용 가능한 게재 보고서를 나열합니다.](assets/detailed-report-2.png)
 
    기본적으로 다음 보고서를 사용할 수 있습니다.
 
@@ -64,7 +64,7 @@ ht-degree: 8%
 >
 >텍스트 형식의 전자 메일에 연결된 오류 여백으로 인해 메시지 열기를 기반으로 계산된 값은 항상 예상 값입니다. **[!UICONTROL Distinct opens/Sum of opens for the population reached]** 표시기는 이 오류 여백을 고려합니다. [자세히 알아보기](metrics-calculation.md#tracking-opens-).
 
-![](assets/tracking-report-synthesis.png)
+![게재 통계부터 생성된 클릭 스트림까지 네 개의 번호 섹션이 있는 추적 표시기 보고서](assets/tracking-report-synthesis.png)
 
 **[!UICONTROL 1. Delivery statistics]**
 
@@ -101,7 +101,7 @@ ht-degree: 8%
 >
 >이 보고서에 표시되는 도메인 이름은 큐브 수준에서 사용되는 항목별 목록에 정의됩니다. 기본 도메인을 변경, 추가 또는 제거하려면 **[!UICONTROL Domains]** 항목별 목록을 편집하고 값과 별칭을 수정합니다. **[!UICONTROL Others]** 범주에 항목별 목록의 값에 속하지 않는 도메인 이름이 포함되어 있습니다.
 >
->[이 페이지](../config/enumerations.md)에서 열거형에 액세스하고 구성하는 방법을 알아보세요.
+>[열거형 관리](../config/enumerations.md)에서 열거형에 액세스하고 구성하는 방법에 대해 알아봅니다.
 
 
 **[!UICONTROL 4. Generated click streams]**
@@ -168,7 +168,7 @@ This chart shows the breakdown of cumulated clicks per day.
 
 이 보고서는 게재에 대한 모든 기본 정보를 제공합니다.
 
-![](assets/user-report-summary.png)
+![초기 대상 모집단, 제외 이유 및 게재 통계 섹션이 포함된 게재 보고서 요약.](assets/user-report-summary.png)
 
 **[!UICONTROL Target population]**
 

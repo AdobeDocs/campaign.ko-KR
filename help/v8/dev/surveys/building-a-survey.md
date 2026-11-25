@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '996'
 ht-degree: 2%
 ---
 # 설문 조사 디자인{#building-a-survey}
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 설문 조사 템플릿(기본적으로 **[!UICONTROL newSurvey]**)을 선택합니다.
 
-![](assets/s_ncs_admin_survey_select_template.png)
+![설문 조사 또는 웹 양식 서식 파일을 선택할 수 있는 서식 파일 목록이 열려 있는 새 웹 응용 프로그램 대화 상자](assets/s_ncs_admin_survey_select_template.png)
 
 (텍스트) 입력 필드, 선택 필드(목록, 확인란 등)를 정의하고 구성할 수 있는 특수 편집기를 사용하여 양식의 페이지가 만들어집니다 및 정적 요소(이미지, HTML 컨텐츠 등)를 사용할 수 있습니다. &quot;컨테이너&quot;로 수집하고 요구 사항에 따라 배치할 수 있습니다. [자세히 알아보기](#adding-questions).
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 양식의 필드를 사용하면 정보를 입력하고 옵션을 선택할 수 있습니다. 양식의 각 페이지에 대해 **[!UICONTROL Add using the assistant]** 메뉴를 사용하여 도구 모음의 첫 번째 단추를 통해 만듭니다.
 
-![](assets/s_ncs_admin_survey_add_field_menu.png)
+![마법사를 사용하여 추가에서 필드 만들기 마법사를 열었으며, 가져올 질문에 답변에서 4개의 필드 옵션이 있습니다.](assets/s_ncs_admin_survey_add_field_menu.png)
 
 >[!NOTE]
 >
@@ -65,13 +65,13 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >저장소 모드 및 필드 가져오기는 [이 섹션](managing-answers.md#storing-collected-answers)에 자세히 설명되어 있습니다.
+   >저장소 모드 및 필드 가져오기는 [수집된 답변 저장](managing-answers.md#storing-collected-answers)에 자세히 설명되어 있습니다.
 
 추가할 필드의 특성(드롭다운 목록, 텍스트 필드, 확인란 등) 선택한 스토리지 모드에 맞게 조정됩니다. **[!UICONTROL General]** 탭의 **[!UICONTROL Type]** 필드를 사용하여 변경할 수 있지만 데이터 유형과 일관되게 유지되어야 합니다.
 
-![](assets/s_ncs_admin_survey_change_type.png)
+![다중 선택, 콤보 상자 및 기타 필드 유형을 표시하는 유형 목록이 열려 있는 페이지 편집기 일반 탭](assets/s_ncs_admin_survey_change_type.png)
 
-사용 가능한 필드 유형은 [이 섹션](../web/about-web-forms.md)에 자세히 설명되어 있습니다.
+[웹 양식 시작](../web/about-web-forms.md)에 사용 가능한 다양한 유형의 필드가 자세히 설명되어 있습니다.
 
 ## 설문 조사 관련 요소 {#survey-specific-elements}
 
@@ -81,11 +81,11 @@ ht-degree: 2%
 
 **[!UICONTROL Multiple choice]** 형식 컨트롤의 경우 최소 및 최대 선택 항목 수를 정의할 수 있습니다. 예를 들어 이 옵션을 사용하면 사용 가능한 옵션에서 최소 **2**&#x200B;개 값 및 최대 **4**&#x200B;개 값을 강제 선택할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_multichoice_ex1.png)
+![설문 조사 페이지 확인란, 3~4개의 옵션을 선택하여 관심 분야를 선택하십시오.](assets/s_ncs_admin_survey_multichoice_ex1.png)
 
 선택 항목 수가 너무 많거나 적으면 적절한 메시지가 표시됩니다.
 
-![](assets/s_ncs_admin_survey_multichoice_ex2.png)
+![관심 분야 설문 조사 페이지에 오류 메시지가 표시됩니다. 관심 분야를 4개 이상 선택하지 마십시오.](assets/s_ncs_admin_survey_multichoice_ex2.png)
 
 >[!NOTE]
 >
@@ -93,11 +93,11 @@ ht-degree: 2%
 
 해당 구성은 다음과 같습니다.
 
-![](assets/s_ncs_admin_survey_multichoice_ex3.png)
+![다중 선택을 허용하도록 설정된 다중 선택 필드(선택 항목 2개 필요, 선택 항목 4개 허용)](assets/s_ncs_admin_survey_multichoice_ex3.png)
 
 또한 이 입력 필드의 저장소 위치는 **[!UICONTROL Multiple values]** 형식 **보관된 필드**&#x200B;이어야 합니다.
 
-![](assets/s_ncs_admin_survey_multiple_values_field.png)
+![관심 분야 필드에 대해 다중 값 옵션이 선택된 상태로 새 보관된 필드 대화 상자를 만듭니다.](assets/s_ncs_admin_survey_multiple_values_field.png)
 
 >[!CAUTION]
 >
@@ -114,7 +114,7 @@ ht-degree: 2%
 >
 >**질문** 컨테이너를 계층 구조의 다른 **질문** 컨테이너 아래에 삽입하지 마십시오.
 
-![](assets/s_ncs_admin_question_label.png)
+![HTML 형식으로 제목 입력 옵션이 선택되어 있고 HTML 편집기가 표시된 질문 컨테이너 일반 탭](assets/s_ncs_admin_question_label.png)
 
 질문의 라벨이 라벨 필드에 입력됩니다. 이 경우 양식의 스타일 시트의 스타일이 적용됩니다. **[!UICONTROL Enter the title in HTML format]** 옵션을 선택하여 개인화합니다. 이렇게 하면 HTML 편집기에 액세스할 수 있습니다.
 
@@ -124,11 +124,11 @@ ht-degree: 2%
 
 예제:
 
-![](assets/s_ncs_admin_survey_containers_qu_arbo.png)
+![전자 메일 형식 및 계약에 대한 질문 컨테이너가 있는 페이지 트리 및 페이지 일반 탭 설정](assets/s_ncs_admin_survey_containers_qu_arbo.png)
 
 위의 예에서 렌더링은 다음과 같습니다.
 
-![](assets/s_ncs_admin_survey_containers_qu_ex.png)
+![필드, 전자 메일 형식 드롭다운 및 계약 확인란 질문이 있는 설문 조사 페이지를 렌더링했습니다.](assets/s_ncs_admin_survey_containers_qu_ex.png)
 
 >[!NOTE]
 >
@@ -136,11 +136,11 @@ ht-degree: 2%
 
 Adobe Campaign에서 무작위 질문 그리기를 활성화할 수 있습니다. 그런 다음 구성 창 하단에 있는 필드에 페이지에 표시할 질문 수를 지정할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_containers_qu_display.png)
+표시를 임의로 선택하고 표시할 질문 수를 1로 설정한 ![페이지 일반 탭](assets/s_ncs_admin_survey_containers_qu_display.png)
 
 렌더링은 다음과 같이 표시됩니다.
 
-![](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
+![무작위로 선택한 두 개의 질문(질문 2 및 질문 3)만 표시하는 렌더링된 페이지(다음 단추 포함)](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
 
 페이지를 새로 고칠 때 표시되는 질문이 동일하지 않습니다.
 

@@ -20,9 +20,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1626'
 ht-degree: 0%
 ---
 # 분산 마케팅 샘플{#distributed-marketing-samples}
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 캠페인 템플릿을 만들 때 **[!UICONTROL Advanced campaign parameters...]** 링크의 **[!UICONTROL Web interface]** 옵션 내에 있는 **[!UICONTROL Zoom]** 아이콘을 클릭하여 웹 애플리케이션의 세부 정보에 액세스합니다.
 
-![](assets/mkg_dist_local_op_form1.png)
+![고급 설정, 분산 마케팅 탭: 편집 링크 아이콘이 강조 표시된 웹 인터페이스 필드](assets/mkg_dist_local_op_form1.png)
 
 >[!NOTE]
 >
@@ -46,21 +46,21 @@ ht-degree: 0%
 
 **[!UICONTROL Edit]** 탭에서 **캠페인 순서** 활동을 선택한 다음 열어 콘텐츠에 액세스합니다.
 
-![](assets/mkg_dist_web_app1.png)
+![콘텐츠를 표시하기 위해 Campaign 주문 페이지 활동을 연 웹 응용 프로그램 워크플로우입니다.](assets/mkg_dist_web_app1.png)
 
 이 예제에서 **캠페인 순서** 활동은 다음을 포함합니다.
 
 * 주문하는 동안 로컬 엔티티가 입력할 필드,
 
-  ![](assets/mkg_dist_web_app2.png)
+  ![캠페인 순서 페이지 필드(연락일, 기본 채널, 연령 세그먼트, 이미지, 메시지) 및 웹 양식입니다.](assets/mkg_dist_web_app2.png)
 
 * 로컬 엔티티가 캠페인을 평가할 수 있도록 하는 링크(예: 타겟, 예산, 콘텐츠 등),
 
-  ![](assets/mkg_dist_web_app3.png)
+  ![페이지 및 웹 양식에서 타깃팅 평가, 예산 평가 및 콘텐츠 링크 평가](assets/mkg_dist_web_app3.png)
 
 * 이러한 평가의 결과를 계산하고 표시할 수 있는 스크립트.
 
-  ![](assets/mkg_dist_web_app4.png)
+  ![타깃팅 결과, 예산 결과 및 콘텐츠 결과 항목이 강조 표시된 페이지 트리.](assets/mkg_dist_web_app4.png)
 
 이 예에서는 다음 API가 사용됩니다.
 
@@ -113,15 +113,15 @@ ht-degree: 0%
 
 1. 캠페인에 참여하도록 선택한 로컬 엔티티에 이메일 알림이 전송됩니다.
 
-   ![](assets/mkg_dist_use_case_target_valid8.png)
+   ![연락처 목록 액세스 및 타깃팅 승인 링크가 있는 승인 이메일을 타깃팅합니다.](assets/mkg_dist_use_case_target_valid8.png)
 
 1. **[!UICONTROL Access your contact list and approve targeting]** 링크를 클릭하면 로컬 엔터티에 캠페인에 대해 선택한 클라이언트 목록에 대한 액세스 권한(웹 브라우저를 통해)이 부여됩니다.
 
-   ![](assets/mkg_dist_use_case_target_valid9.png)
+   ![확인란과 타깃팅 승인 단추가 있는 타깃팅된 연락처를 나열하는 타깃팅 승인 웹 페이지입니다.](assets/mkg_dist_use_case_target_valid9.png)
 
 1. 올해 초부터 유사한 오퍼에 대해 이미 연락되었으므로 로컬 엔티티는 목록에서 특정 연락처를 선택 취소합니다.
 
-   ![](assets/mkg_dist_use_case_target_valid10.png)
+   ![세 명의 대화 상대가 선택되지 않은 승인 페이지와 삭제 내용을 설명하는 댓글이 있습니다.](assets/mkg_dist_use_case_target_valid10.png)
 
 확인이 승인되면 캠페인이 자동으로 시작될 수 있습니다.
 
@@ -131,7 +131,7 @@ ht-degree: 0%
 
 1. 공동 작업 캠페인을 설정하려면(대상 승인별로) 먼저 **[!UICONTROL Data distribution activity]**&#x200B;을(를) 만들어야 합니다. Campaign 탐색기의 **[!UICONTROL Resources > Campaign management > Data distribution]** 폴더에서 **[!UICONTROL New]** 아이콘을 클릭합니다.
 
-   ![](assets/mkg_dist_use_case_target_valid3.png)
+   ![데이터 배포 일반 탭: 타겟팅 차원, 배포 필드 원본, 할당 유형 로컬 엔터티.](assets/mkg_dist_use_case_target_valid3.png)
 
 1. **[!UICONTROL General]** 탭에서 다음을 지정해야 합니다.
 
@@ -147,7 +147,7 @@ ht-degree: 0%
    * 로컬 엔터티 **[!UICONTROL label]**&#x200B;입니다.
    * **[!UICONTROL Size]**(고정 또는 백분율로 표시)입니다. **0 기본값**&#x200B;에는 로컬 엔터티에 연결된 모든 받는 사람을 선택하는 작업이 포함됩니다.
 
-   ![](assets/mkg_dist_use_case_target_valid4.png)
+   ![동부, 북부, 남부 및 서부의 배포 값과 로컬 엔터티를 나열하는 데이터 배포 분류 탭입니다.](assets/mkg_dist_use_case_target_valid4.png)
 
 1. 새 데이터 배포를 저장합니다.
 
@@ -156,7 +156,7 @@ ht-degree: 0%
 1. Campaign 탐색기의 **[!UICONTROL Campaign management > Campaign]** 폴더에서 새 **[!UICONTROL collaborative campaign (by target approval)]**&#x200B;을(를) 만듭니다.
 1. **[!UICONTROL Targeting and workflows]** 탭에서 캠페인에 대한 워크플로우를 만듭니다. **[!UICONTROL Data distribution]** 활동에 의해 **[!UICONTROL Record count limitation]**&#x200B;이(가) 정의된 **분할** 활동이 포함되어야 합니다.
 
-   ![](assets/mkg_dist_use_case_target_valid5.png)
+   ![로컬 엔터티 배포를 사용하여 분할 활동 레코드 수 제한을 데이터 배포별로 설정합니다.](assets/mkg_dist_use_case_target_valid5.png)
 
 1. 다음을 지정할 수 있는 **[!UICONTROL Local approval]** 작업을 추가합니다.
 
@@ -164,7 +164,7 @@ ht-degree: 0%
    * 승인 알림,
    * 캠페인에 대한 예상 처리입니다.
 
-   ![](assets/mkg_dist_use_case_target_valid7.png)
+   ![로컬 승인 활동: 로컬 엔터티에 대한 대상 승인 알림, 승인 유형, 템플릿 및 설명](assets/mkg_dist_use_case_target_valid7.png)
 
 1. 레코드를 저장합니다.
 
@@ -177,15 +177,15 @@ ht-degree: 0%
    * **수동** 모드에서 로컬 엔터티가 중앙 엔터티의 초대를 수락하면 캠페인에 참여합니다. 원하는 경우 사전 선택된 연락처를 삭제할 수 있으며 캠페인 참여를 확인하기 위해 관리자의 승인이 필요합니다.
    * **자동** 모드에서는 로컬 엔터티가 등록을 취소하지 않는 한 캠페인에 참여해야 합니다. 그들은 승인이 필요 없이 연락처를 삭제할 수 있습니다.
 
-   ![](assets/mkg_dist_use_case_target_valid.png)
+   ![참조 캠페인과 승인 모드 필드가 수동으로 설정된 캠페인 패키지 만들기 대화 상자.](assets/mkg_dist_use_case_target_valid.png)
 
 1. **[!UICONTROL Description]** 탭에서 캠페인에 대한 설명과 로컬 엔터티로 보낼 문서를 추가할 수 있습니다.
 
-   ![](assets/mkg_dist_use_case_target_valid1.png)
+   패키지 설명 및 첨부 문서 목록이 있는 ![캠페인 패키지 설명 탭.](assets/mkg_dist_use_case_target_valid1.png)
 
 1. 캠페인 패키지를 승인한 다음 워크플로를 시작하여 패키지를 게시하고 패키지 목록의 모든 로컬 엔티티에서 사용할 수 있도록 합니다.
 
-   ![](assets/mkg_dist_use_case_target_valid2.png)
+   ![패키지 승인 단추가 있는 패키지 대시보드에 편집 중 상태가 표시됩니다.](assets/mkg_dist_use_case_target_valid2.png)
 
 ## 공동 작업 캠페인 만들기(양식별) {#creating-a-collaborative-campaign--by-form-}
 
@@ -221,7 +221,7 @@ ht-degree: 0%
 
 1. 캠페인에 참여하도록 선택된 로컬 엔티티는 캠페인 참여를 알리는 이메일 알림을 수신합니다.
 
-   ![](assets/mkg_dist_use_case_form_7.png)
+   ![로컬 엔터티의 캠페인 등록 링크를 사용하여 캠페인 전자 메일을 등록합니다.](assets/mkg_dist_use_case_form_7.png)
 
 1. 로컬 엔티티가 개인화된 양식을 완료한 후 다음을 수행합니다.
 
@@ -229,35 +229,35 @@ ht-degree: 0%
    * 게재 콘텐츠 미리 보기,
    * 기여도를 승인합니다.
 
-     ![](assets/mkg_dist_use_case_form_8.png)
+     ![평가 링크, 이미지 미리 보기 및 유효성 검사 단추가 있는 캠페인 주문 웹 양식입니다.](assets/mkg_dist_use_case_form_8.png)
 
 1. 주문의 검증을 담당하는 운영자가 그 참여를 승인한다.
 
-   ![](assets/mkg_dist_use_case_form_9.png)
+   ![주문 세부 정보, 주문 설명 및 유효성 검사 단추가 있는 캠페인 주문 승인 페이지입니다.](assets/mkg_dist_use_case_form_9.png)
 
 ### 중앙 엔터티 측 {#central-entity-side-1}
 
 1. 공동 작업 캠페인(양식별)을 구현하려면 **공동 작업 캠페인(양식별)** 템플릿을 사용하여 캠페인을 만들어야 합니다.
 
-   ![](assets/mkg_dist_use_case_form_1.png)
+   ![공동 작업 캠페인(양식별) 템플릿을 사용하여 새 마케팅 캠페인 대화 상자를 만듭니다.](assets/mkg_dist_use_case_form_1.png)
 
 1. 캠페인의 **[!UICONTROL Edit]** 탭에서 **[!UICONTROL Advanced campaign parameters...]** 링크를 클릭하여 로컬 캠페인으로 구성합니다. [로컬 캠페인 만들기(양식으로)](#creating-a-local-campaign--by-form-)를 참조하세요.
 
-   ![](assets/mkg_dist_use_case_form_2.png)
+   ![고급 설정, 분산 마케팅 탭: 공동 작업 수준, 양식별 구성 가능, 기본값.](assets/mkg_dist_use_case_form_2.png)
 
 1. 캠페인 워크플로우와 웹 양식을 구성합니다. [로컬 캠페인 만들기(양식으로)](#creating-a-local-campaign--by-form-)를 참조하세요.
 1. 실행 일정 및 관련 로컬 엔티티를 지정하여 캠페인 패키지를 생성합니다.
 
-   ![](assets/mkg_dist_use_case_form_3.png)
+   ![참조 캠페인, 실행 일정, 기한 및 로컬 엔터티 목록과 함께 캠페인 패키지 대화 상자.](assets/mkg_dist_use_case_form_3.png)
 
 1. **[!UICONTROL Edit]** 탭에서 승인 모드를 선택하여 패키지 구성을 완료합니다.
 
-   ![](assets/mkg_dist_use_case_form_4.png)
+   ![수동 및 자동 승인 모드 드롭다운을 제공합니다.](assets/mkg_dist_use_case_form_4.png)
 
 1. **[!UICONTROL Description]** 탭에서 캠페인 패키지 설명, 패키지가 게시될 때 로컬 엔터티에 보낼 알림 메시지를 입력하고 캠페인 패키지에 모든 정보 문서를 첨부할 수 있습니다.
 
-   ![](assets/mkg_dist_use_case_form_5.png)
+   ![로컬 엔터티 및 첨부 문서에 대한 알림 전자 메일 옵션, 메시지가 포함된 패키지 설명 탭](assets/mkg_dist_use_case_form_5.png)
 
 1. 게시할 패키지를 승인합니다.
 
-   ![](assets/mkg_dist_use_case_form_6.png)
+   ![수락 및 거부 옵션이 있는 패키지에 대한 작업 대화 상자를 여는 패키지 승인 단추](assets/mkg_dist_use_case_form_6.png)

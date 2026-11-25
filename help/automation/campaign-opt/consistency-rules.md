@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 4%
+source-wordcount: '956'
+ht-degree: 2%
 ---
 # 일관성 규칙{#consistency-rules}
 
@@ -50,22 +50,22 @@ Adobe Campaign은 캠페인 유형화에 포함된 규칙 세트를 통해 일�
 1. **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** 폴더 아래에서 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Capacity]** 규칙 유형을 선택하십시오.
 
-   ![](assets/campaign_opt_create_capacity_01.png)
+   ![규칙 유형 드롭다운 목록에서 [용량] 옵션을 선택한 유형화 규칙 만들기 화면입니다.](assets/campaign_opt_create_capacity_01.png)
 
 1. **[!UICONTROL Capacity]** 탭에서 가용성 줄을 만듭니다. 이 예제에서 호출 가능한 기간입니다. 24시간 기간을 선택하고 초기 수량에 150을 입력하면 콜센터에서 하루 150건의 통화를 처리할 수 있다는 의미다.
 
-   ![](assets/campaign_opt_create_capacity_02.png)
+   ![시작, 종료 및 초기 수량을 입력할 수 있는 [가용성 라인 편집] 대화 상자가 있는 [용량] 탭](assets/campaign_opt_create_capacity_02.png)
 
    >[!NOTE]
    >
-   >가용성 라인은 정보 목적으로만 사용됩니다. 용량 한도에 도달했을 때 메시지를 제외해야 하는 경우 [이 섹션](#exclude-messages-when-capacity-limit-reached)을 참조하세요.
+   >가용성 라인은 정보 목적으로만 사용됩니다. 용량 한도에 도달했을 때 메시지를 제외해야 하는 경우 [용량 한도에 도달했을 때 메시지 제외](#exclude-messages-when-capacity-limit-reached)를 참조하십시오.
 
-1. 이 규칙을 유형화에 연결한 다음 해당 유형화를 게재에 참조하여 이 용량 규칙을 적용합니다. 이 작업에 대한 자세한 정보는 [이 섹션](apply-rules.md#apply-a-typology-to-a-delivery)을 참조하십시오.
+1. 이 규칙을 유형화에 연결한 다음 해당 유형화를 게재에 참조하여 이 용량 규칙을 적용합니다. 자세한 내용은 [게재에 유형화 적용](apply-rules.md#apply-a-typology-to-a-delivery)을 참조하세요.
 1. 규칙 **[!UICONTROL Consumptions]** 및 **[!UICONTROL Capacity]** 탭에서 사용량을 모니터링할 수 있습니다.
 
    게재에서 규칙을 사용할 때 **[!UICONTROL Consumed]** 및 **[!UICONTROL Remaining]** 열은 아래와 같이 로드에 대한 정보를 제공합니다.
 
-   ![](assets/campaign_opt_create_capacity_03.png)
+   ![초기 수량 150개, 소비된 수량 200개, 남은 수량 -50개의 가용성 라인을 표시하는 용량 탭입니다.](assets/campaign_opt_create_capacity_03.png)
 
    이 작업에 대한 자세한 정보는 [이 섹션](#monitor-consumption)을 참조하십시오.
 
@@ -77,7 +77,7 @@ Adobe Campaign은 캠페인 유형화에 포함된 규칙 세트를 통해 일�
 
 가용성 줄을 만들려면 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Add an availability line]**&#x200B;을(를) 선택합니다. 가용 기간과 가용 로드를 입력합니다.
 
-![](assets/campaign_opt_create_capacity_02.png)
+![시작, 끝 및 초기 수량 필드가 있는 추가 단추에서 사용 가능한 줄 편집 대화 상자가 열립니다.](assets/campaign_opt_create_capacity_02.png)
 
 처리 용량에 맞게 필요한 만큼 줄을 추가합니다.
 
@@ -87,25 +87,25 @@ Adobe Campaign은 캠페인 유형화에 포함된 규칙 세트를 통해 일�
 
 페이지 만들기 빈도를 자동화하려면 **[!UICONTROL Change]** 단추를 클릭하고 기간 일정을 정의합니다.
 
-![](assets/campaign_opt_create_capacity_07.png)
+![선택한 가용성 라인 집합 추가 및 예약을 위한 변경 단추가 있는 가용성 라인 편집 대화 상자.](assets/campaign_opt_create_capacity_07.png)
 
 예를 들어 오전 9시에서 오후 5시 사이에 모든 근무일에 대해 시간당 10회 호출의 비율로 가용성 기간을 생성하는 일정을 정의해 보겠습니다. 그렇게 하려면 다음 단계를 적용합니다.
 
 1. 주기 유형과 유효 기간(일, 시간)을 선택합니다.
 
-   ![](assets/campaign_opt_create_capacity_08.png)
+   ![일정에서 유효 시작 날짜와 종료 날짜가 선택된 편집 일정 마법사 유효 기간 페이지입니다.](assets/campaign_opt_create_capacity_08.png)
 
 1. 유효 일자를 나타냅니다.
 
-   ![](assets/campaign_opt_create_capacity_09.png)
+   ![일정에서 최종 유효 날짜가 선택된 편집 일정 마법사 유효 기간 페이지입니다.](assets/campaign_opt_create_capacity_09.png)
 
 1. 승인하기 전에 일정을 확인하십시오.
 
-   ![](assets/campaign_opt_create_capacity_10.png)
+   ![일정 설명 및 완료 전 시작 시간 목록이 포함된 편집 일정 마법사 요약 페이지입니다.](assets/campaign_opt_create_capacity_10.png)
 
 **[!UICONTROL Forecasting]** 워크플로에서는 일치하는 모든 줄을 자동으로 만듭니다.
 
-![](assets/campaign_opt_create_capacity_12.png)
+![일정으로 자동 생성된 가용성 라인을 나열하는 콜 센터 규칙의 용량 탭](assets/campaign_opt_create_capacity_12.png)
 
 >[!NOTE]
 >
@@ -115,17 +115,17 @@ Adobe Campaign은 캠페인 유형화에 포함된 규칙 세트를 통해 일�
 
 가용성 라인은 정보 목적으로만 사용됩니다. 초과 메시지를 제외하려면 **[!UICONTROL Exclude from the target messages in excess of capacity]** 옵션을 선택하십시오. 이렇게 하면 용량이 초과되는 것을 방지할 수 있습니다. 앞의 예와 동일한 모집단의 경우 소비 및 잔여 능력은 초기 수량을 초과할 수 없습니다.
 
-![](assets/campaign_opt_create_capacity_04.png)
+![선택한 용량을 초과하는 대상 메시지에서 제외가 있는 용량 탭: 100개 사용, 50개 남음](assets/campaign_opt_create_capacity_04.png)
 
 처리할 수 있는 최대 메시지 수는 정의된 가용성 범위에 걸쳐 고르게 분류됩니다. 이는 하루 최대 통화 수가 제한되어 있기 때문에 콜센터에 특히 유용합니다. 이메일 게재의 경우 **[!UICONTROL Do not limit instantaneous delivery capacity]** 옵션을 사용하면 이 가용성 범위를 무시하고 이메일을 동시에 보낼 수 있습니다.
 
-![](assets/campaign_opt_create_capacity_05.png)
+![즉시 게재 용량을 제한하지 않고 선택한 용량 탭으로, 150개가 소비되고 0개가 남았습니다.](assets/campaign_opt_create_capacity_05.png)
 
 >[!NOTE]
 >
 >과부하인 경우 저장된 메시지는 게재 속성에 정의된 수식에 따라 선택됩니다.
 
-![](assets/campaign_opt_create_capacity_06.png)
+![용량 설정이 있는 게재 속성 유형 탭: 콜 센터 채널 용량 및 중요도 수식](assets/campaign_opt_create_capacity_06.png)
 
 ## 사용량 모니터링 {#monitoring-consumption}
 
@@ -133,6 +133,6 @@ Adobe Campaign은 캠페인 유형화에 포함된 규칙 세트를 통해 일�
 
 소비를 모니터링하려면 유형화 규칙에서 **[!UICONTROL Capacity]** 탭의 **[!UICONTROL Consumed]** 열에 표시된 값을 확인합니다.
 
-![](assets/campaign_opt_create_capacity_04.png)
+![제외 옵션이 선택된 용량 탭으로, 초기 수량 150개 중 100개가 소비되고 50개가 남았습니다.](assets/campaign_opt_create_capacity_04.png)
 
 사용량 라인을 보려면 규칙에서 **[!UICONTROL Consumptions]** 탭을 클릭하십시오.

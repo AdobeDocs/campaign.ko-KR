@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 8%
+source-wordcount: '208'
+ht-degree: 7%
 ---
 # 첫 번째 SMS 게재 만들기 {#sms-delivery}
 
@@ -37,9 +37,9 @@ ht-degree: 8%
 
 1. 새 게재를 만들고 SMS 전송을 위해 만든 [SMS 게재 템플릿](sms-mid-sourcing.md#sms-delivery-template)을(를) 선택합니다.
 
-   ![](assets/sms_create.png){zoomable="yes"}
+   ![SMS 템플릿 SMPP(모바일로 보내기)가 강조 표시된 새 게재에 대한 게재 템플릿 목록](assets/sms_create.png){zoomable="yes"}
 
-   게재 만들기 단계는 [이 페이지](../../start/create-message.md)에 자세히 설명되어 있습니다.
+   게재 만들기 단계는 [첫 번째 게재 만들기](../../start/create-message.md)에 자세히 설명되어 있습니다.
 
 <!--
  * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
@@ -52,13 +52,13 @@ ht-degree: 8%
 
 1. 필요에 따라 모두 설정된 **[!UICONTROL Properties]** 단추를 확인할 수 있습니다. [SMS 탭에 대해 자세히 알아보기](sms-delivery-settings.md#sms-tab)
 
-   ![](assets/sms_settings.png){zoomable="yes"}
+   ![일반 탭, 라우팅 필드 및 SMS 탭이 강조 표시된 SMS 게재의 게재 속성](assets/sms_settings.png){zoomable="yes"}
 
 1. 게재의 [콘텐츠를 정의](sms-content.md)합니다.
 
 1. [대상자를 선택하십시오](sms-audience.md).
 
-대상자를 정의하는 단계는 [이 페이지](../../audiences/create-audiences.md)에 자세히 설명되어 있습니다.
+대상자를 정의하는 단계는 [Campaign에서 프로필 대상자 만들기](../../audiences/create-audiences.md)에 자세히 설명되어 있습니다.
 
 ## SMS 유효성 검사 및 전송 {#sms-validate}
 

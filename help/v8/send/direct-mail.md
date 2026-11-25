@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 8%
+source-wordcount: '985'
+ht-degree: 5%
 ---
 # DM 게재 만들기
 
@@ -52,14 +52,14 @@ DM 게재는 대상 모집단에서 데이터를 포함하는 추출 파일을 �
 
 >[!NOTE]
 >
->게재 만들기에 대한 전체 개념은 [이 섹션](../start/create-message.md)에 나와 있습니다.
+>게재 만들기에 대한 전체적인 개념은 [첫 번째 게재 만들기](../start/create-message.md)에 나와 있습니다.
 
 1. 게재 대시보드 등에서 새 게재를 만듭니다.
 1. 게재 템플릿 **DM(용지)으로 게재**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/direct_mail.png)
+   ![목록에서 선택한 DM(용지) 템플릿으로 새 게재 대화 상자](assets/direct_mail.png)
 
-1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../start/create-message.md#create-the-delivery)을 참조하십시오.
+1. 레이블, 코드 및 설명을 사용하여 게재를 식별합니다. 자세한 내용은 [게재 만들기](../start/create-message.md#create-the-delivery)를 참조하세요.
 1. **계속**&#x200B;을 클릭하여 이 정보를 확인하고 메시지 구성 창을 표시합니다.
 
 ## 대상자 정의{#defining-the-direct-mail-audience}
@@ -70,7 +70,7 @@ DM 게재는 대상 모집단에서 데이터를 포함하는 추출 파일을 �
 
 이름, ZIP/우편 번호 필드 및 구/군/시 필드가 비어 있지 않으면 주소는 완료된 것으로 간주됩니다. 주소가 불완전한 수신자는 DM 게재에서 제외됩니다.
 
-[이 섹션](../start/create-message.md#target-population)에서 자세히 알아보십시오.
+[대상 정의](../start/create-message.md#target-population)에서 자세히 알아보세요.
 
 ## 파일 내용 정의{#defining-the-direct-mail-content}
 
@@ -80,17 +80,17 @@ DM 게재는 대상 모집단에서 데이터를 포함하는 추출 파일을 �
 
 기본적으로 추출 파일이 생성되어 서버에 저장됩니다. 컴퓨터에 저장할 수 있습니다. 이렇게 하려면 **[!UICONTROL Download the generated file after the analysis of the delivery]**&#x200B;을(를) 확인하십시오. 이 경우 파일 이름과 로컬 저장소 디렉토리에 대한 액세스 경로를 표시해야 합니다.
 
-![](assets/s_ncs_user_mail_delivery_local_file.png)
+![추출 탭(생성된 파일 다운로드 옵션이 선택되어 있고 로컬 파일 경로가 입력됨](assets/s_ncs_user_mail_delivery_local_file.png))
 
 DM 게재의 경우 **[!UICONTROL Edit the extraction file format...]** 링크에 추출 콘텐츠가 정의되어 있습니다.
 
-![](assets/s_ncs_user_mail_delivery_format_link.png)
+![추출 파일 형식 편집 링크가 강조 표시된 추출 탭](assets/s_ncs_user_mail_delivery_format_link.png)
 
 이 링크를 사용하면 추출 도우미에 액세스하고 출력 파일로 내보낼 정보(열)를 정의할 수 있습니다.
 
-![](assets/s_ncs_user_mail_delivery_format_wz.png)
+![사용 가능한 필드에서 출력 열로 끌어온 필드가 있는 추출 마법사용 데이터](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-추출 파일에 개인화된 URL을 삽입할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../dev/web/publishing-a-web-form.md)을 참조하십시오.
+추출 파일에 개인화된 URL을 삽입할 수 있습니다. 자세한 내용은 [웹 양식 게시](../dev/web/publishing-a-web-form.md)를 참조하세요.
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ DM 게재의 경우 **[!UICONTROL Edit the extraction file format...]** 링크�
 
 마케팅 캠페인의 컨텍스트에서 추출 날짜에 추출 파일이 만들어집니다. 추출된 파일의 컨텐츠를 보거나 승인하거나 형식을 변경하고 필요한 경우 추출을 다시 시작할 수 있습니다. 파일이 승인되면 알림 이메일을 라우터로 보낼 수 있습니다. [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=ko){target="_blank"}에서 자세히 알아보십시오.
 
-게재 유효성 검사 시 전반적 개념은 [이 섹션](../start/create-message.md#validate-the-delivery)에 나와 있습니다.
+게재 유효성 검사 시 전반적 개념은 [게재 준비 및 유효성 검사](../start/create-message.md#validate-the-delivery)에 나와 있습니다.
 
 DM 게재의 출력 파일은 게재 분석 중에 생성됩니다. 파일의 내용은 선택한 출력 열에 따라 다릅니다(이 [섹션 파일](#defining-the-direct-mail-content) 참조).
 
@@ -116,7 +116,7 @@ DM 게재의 출력 파일은 게재 분석 중에 생성됩니다. 파일의 �
 
 전송 확인이 지정된 파일에서 데이터 추출을 시작합니다.
 
-![](assets/s_ncs_user_postal_del_send_confirm_postal.png)
+![보류 중 상태의 DM 게재에 대해 [확인]과 [취소]로 배달 확인 대화 상자를 시작합니다](assets/s_ncs_user_postal_del_send_confirm_postal.png)
 
 그런 다음 도우미를 닫고 게재 세부 정보를 통해 액세스할 수 있는 **[!UICONTROL Delivery]** 탭을 통해 게재 로그를 확인할 수 있습니다.
 

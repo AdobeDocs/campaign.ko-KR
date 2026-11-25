@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 1%
+source-wordcount: '534'
+ht-degree: 0%
 ---
 # 가설 추적{#hypothesis-tracking}
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 가설이 계산되면 몇 가지 측정 지표가 자동으로 업데이트됩니다. 가설의 **[!UICONTROL General]** 탭에서 사용할 수 있습니다.
 
-![](assets/response_hypothesis_delivery_example_010.png)
+![가설에 의해 계산된 지표가 강조 표시된 완료된 가설의 일반 탭](assets/response_hypothesis_delivery_example_010.png)
 
 이러한 지표는 다음과 같습니다.
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 전체 지표 목록을 보려면 **[!UICONTROL Display the list]** 링크를 클릭하십시오.
 
-![](assets/response_hypothesis_indicators_002.png)
+![표시기 읽기 전용 창이 열리면 목록을 표시하고 표시기와 해당 값의 전체 목록을 표시합니다.](assets/response_hypothesis_indicators_002.png)
 
 다음 정보는 표시기에서 제공됩니다.
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 1. 가설 계산이 완료되면 Adobe Campaign 트리의 **[!UICONTROL Campaign management > Measurement hypotheses]** 노드로 이동합니다.
 1. 원하는 가설을 선택하고 **[!UICONTROL Reactions]** 탭을 클릭하여 마케팅 캠페인 후에 구매할 가능성이 있는 수신자 목록을 확인합니다.
 
-   ![](assets/response_hypothesis_reactions_001.png)
+   ![응답자와 컨트롤 그룹에 속하는지 여부를 나열하는 가설의 반응 탭](assets/response_hypothesis_reactions_001.png)
 
 ## 보고서 {#reports}
 
@@ -96,8 +96,8 @@ ht-degree: 1%
 
 * **캠페인 수준에서**: 관련 캠페인의 **[!UICONTROL Reports]** 링크를 클릭하고 **[!UICONTROL Hypothesis report]**&#x200B;을(를) 선택합니다. 이 보고서에는 캠페인 게재 목록과 각 게재에 대해 계산된 가설이 포함되어 있습니다.
 
-  ![](assets/response_hypothesis_campaign_report_001.png)
+  ![각 게재에 대해 계산된 가설을 지표와 함께 나열하는 캠페인 수준의 가설 보고서.](assets/response_hypothesis_campaign_report_001.png)
 
 * **게재 수준에서**: 보고서에 액세스하려면 관련 게재를 열고 **[!UICONTROL Summary]** 탭에서 **[!UICONTROL Reports]**&#x200B;을(를) 클릭하고 **[!UICONTROL Hypothesis report]**&#x200B;을(를) 선택하십시오. 동일한 게재에 대해 여러 가설이 계산되었다면 보고서에는 모든 가설이 포함될 것이다.
 
-  ![](assets/response_hypothesis_delivery_report_001.png)
+  ![가설 세부 정보, 상태 및 계산된 지표를 보여 주는 게재 수준의 가설 보고서.](assets/response_hypothesis_delivery_report_001.png)

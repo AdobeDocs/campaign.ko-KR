@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1636'
 ht-degree: 1%
 ---
 # 실시간 상호 작용 관리
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 상호 작용을 사용하면 오퍼 카탈로그를 만들고 관리하고 여기에 연결된 자격 규칙 및 애플리케이션 테마를 구성할 수 있습니다. 선택한 채널에 따라 다양한 렌더링 기능으로 오퍼 콘텐츠를 개인화할 수 있습니다. 마지막으로 시뮬레이션 모듈을 사용하여 오퍼 표시의 영향을 계산할 수 있습니다.
 
-![](assets/interaction-cycle.png)
+![오퍼 엔진 주기: 엔진 호출, 카탈로그 호출, 선택 및 개인화, 기록, 오퍼 프레젠테이션](assets/interaction-cycle.png)
 
 먼저, 커뮤니케이션 채널을 통해 고객과 회사 간 접촉이 발생합니다. 웹 사이트(인바운드 상호 작용), 이메일, SMS, 푸시 알림(아웃바운드 상호 작용)일 수 있습니다. [자세히 알아보기](#interaction-types)
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 1. 인바운드 상호 작용에 대한 오퍼 엔진을 구성하여 하나 또는 여러 오퍼를 제시하고 업데이트합니다.
 
-   다양한 통합 모드가 [이 섹션](interaction-present-offers.md)에 자세히 설명되어 있습니다.
+   다양한 통합 모드는 [오퍼 제공(인바운드 상호 작용)](interaction-present-offers.md)에 자세히 설명되어 있습니다.
 
    >[!NOTE]
    >

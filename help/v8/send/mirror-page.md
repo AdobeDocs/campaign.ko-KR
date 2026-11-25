@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 56%
+source-wordcount: '482'
+ht-degree: 50%
 ---
 # 미러 페이지로 가는 링크 {#mirror-page}
 
@@ -51,7 +51,7 @@ Adobe Campaign에서 생성한 미러 페이지에는 모든 개인화 데이터
 
 Adobe Campaign에서는 전용 **개인 맞춤화 블록**&#x200B;을 사용하여 이메일 콘텐츠에 미러 페이지에 대한 링크를 삽입할 수 있습니다. 기본 제공 **미러 페이지 링크** 개인 맞춤화 블록은 이메일 콘텐츠에 다음 코드를 삽입합니다. `<%@ include view='MirrorPage' %>`
 
-![](assets/mirror-page-insert.png){width="800"}
+![포함 후 미러 페이지에 대한 링크가 선택된 전자 메일 편집기 개인화 메뉴](assets/mirror-page-insert.png){width="800"}
 
 
 개인화 콘텐츠 블록 삽입에 대한 자세한 내용은 [개인화 블록](personalization-blocks.md)을 참조하세요.
@@ -65,7 +65,7 @@ Adobe Campaign에서는 전용 **개인 맞춤화 블록**&#x200B;을 사용하�
 1. 전자 메일 속성의 **[!UICONTROL Validity]** 탭으로 이동합니다.
 1. **미러 페이지 관리** 섹션에서 **[!UICONTROL Mode]** 드롭다운 목록을 확인하십시오.
 
-![](assets/mirror-page-generation.png){width="800"}
+미러 페이지 관리 모드 드롭다운이 있는 ![유효성 탭에 4개의 생성 옵션이 나열됨](assets/mirror-page-generation.png){width="800"}
 
 기본 모드 외에 다음 옵션을 사용할 수 있습니다.
 
@@ -83,6 +83,6 @@ Adobe Campaign에서는 전용 **개인 맞춤화 블록**&#x200B;을 사용하�
 
 1. 받는 사람을 선택하고 **[!UICONTROL Display the mirror page for this message...]** 링크를 클릭합니다.
 
-   ![](assets/mirror-page-display.png){width="800"}
+   ![로그를 선택한 게재 로그 및 왼쪽 하단의 이 메시지 링크에 대한 미러 페이지 표시](assets/mirror-page-display.png){width="800"}
 
    선택한 수신자에 대한 개인화 데이터가 포함된 전용 화면에 미러 페이지가 표시됩니다.

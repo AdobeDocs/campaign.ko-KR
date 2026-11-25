@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 1%
+source-wordcount: '1850'
+ht-degree: 0%
 ---
 # 캠페인 대상자 선택 {#marketing-campaign-deliveries}
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 * 타겟 대상자입니다. [받는 사람 목록](#send-to-a-group)에 메시지를 보내거나 워크플로우에서 [대상자를 만들 수 있습니다](#build-the-main-target-in-a-workflow)
 * 컨트롤 그룹입니다. 메시지 게재 후 받는 사람 동작을 모니터링하기 위해 [컨트롤 그룹을 추가](#add-a-control-group)할 수 있습니다.
-* 시드 주소 - 자세한 내용은 [이 섹션](../../v8/audiences/test-profiles.md)을 참조하세요.
+* 시드 주소 - [Campaign에서 테스트 프로필 만들기](../../v8/audiences/test-profiles.md)에서 자세히 알아보세요.
 
 이 정보 중 일부는 [캠페인 템플릿](marketing-campaign-templates.md#campaign-templates)에서 상속될 수 있습니다.
 
@@ -54,16 +54,16 @@ To build the delivery target, you can define filtering criteria for the recipien
 1. 게재를 편집하고 **[!UICONTROL To]** 링크를 클릭하여 대상 모집단을 변경합니다.
 1. **[!UICONTROL Main target]** 탭에서 **[!UICONTROL Defined via the database]** 옵션을 선택하고 **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 수신자를 선택합니다.
 
-   ![](assets/select-main-target.png)
+   ![대상 선택 대화 상자, 주 대상 탭(데이터베이스에서 정의됨) 및 대상 모집단의 추가 링크 선택](assets/select-main-target.png)
 
 1. **[!UICONTROL A list of recipients]**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/target-a-list.png)
+   ![제한 필터 목록에서 선택한 수신자 목록이 있는 대상 요소 선택 대화 상자, 대상 유형 단계](assets/target-a-list.png)
 
 
 1. 목록을 선택하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
 
-   ![](assets/select-the-list.png)
+   ![목록 폴더에서 선택한 목록이 있는 대상 요소 선택 대화 상자, 대상 요소 단계](assets/select-the-list.png)
 
    새 필터링 기준을 추가하여 대상을 세분화할 수 있습니다.
 
@@ -81,7 +81,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 타겟팅은 워크플로우의 그래픽 시퀀스에서 필터링 조건의 조합을 통해 만들 수 있습니다. 요구 사항에 따라 타겟팅할 모집단과 하위 모집단을 만들 수 있습니다. 워크플로우 편집기를 표시하려면 캠페인 대시보드에서 **[!UICONTROL Targeting and workflows]** 탭을 클릭합니다.
 
-![](assets/targeting-and-wf-tab.png)
+![대시보드 및 편집 탭 옆에 타겟팅 및 워크플로 탭이 강조 표시된 Campaign 대시보드](assets/targeting-and-wf-tab.png)
 
 대상 모집단은 워크플로우에 배치된 하나 이상의 쿼리를 통해 Adobe Campaign 데이터베이스에서 추출됩니다. [이 섹션](../workflow/query.md)에서 쿼리를 작성하는 방법을 알아봅니다.
 
@@ -89,7 +89,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 작업공간 왼쪽에 있는 목록에서 객체를 선택하고 링크하여 대상을 구성합니다.
 
-![](assets/campaign-wf.png)
+![다이어그램이 있는 타깃팅 및 워크플로 탭: 쿼리 A와 B, 통합, 중복 제거, 데이터 보강, 분할, 게재](assets/campaign-wf.png)
 
 다이어그램에서 대상 구성에 필요한 타깃팅 및 예약 쿼리를 다이어그램에 연결합니다. 구축이 진행되는 동안 타깃팅을 실행하여 데이터베이스에서 추출한 모집단을 확인할 수 있습니다.
 
@@ -101,7 +101,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 타겟팅 워크플로우 실행 및 서식 지정 기능은 다이어그램 편집기 도구 모음을 통해 액세스할 수 있습니다.
 
-![](assets/wf-diagram.png)
+![타깃팅 다이어그램 위에 있는 가로 정렬 단추를 가리키는 화살표가 있는 워크플로 다이어그램 도구 모음](assets/wf-diagram.png)
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 1. 워크플로우 만들기 영역의 왼쪽 상단 섹션으로 이동하여 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Add]**&#x200B;을(를) 선택합니다. 이 영역 위에 있는 **[!UICONTROL New]** 단추도 사용할 수 있습니다.
 
-   ![](assets/add-a-wf.png)
+   ![추가 옵션이 강조 표시된 타깃팅 및 워크플로 탭의 기본 워크플로에서 마우스 오른쪽 단추 클릭 메뉴](assets/add-a-wf.png)
 
 1. **[!UICONTROL New workflow]** 템플릿을 선택하고 이 워크플로의 이름을 지정하십시오.
 1. **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 워크플로 만들기를 확인한 다음 이 워크플로에 대한 다이어그램을 만듭니다.
@@ -130,7 +130,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
   * **[!UICONTROL Start]** 아이콘을 사용하면 타겟팅 워크플로우를 시작할 수 있습니다. 이 아이콘을 클릭하면 입력 전환이 없는 모든 활동이 활성화됩니다(끝점 이동 제외).
 
-    ![](assets/start.png)
+    ![시작 아이콘이 강조 표시되고 시작 도구 설명이 표시된 워크플로 도구 모음](assets/start.png)
 
     서버가 요청을 고려합니다(상태: **[!UICONTROL Start as soon as possible]**).
 
@@ -142,17 +142,17 @@ To build the delivery target, you can define filtering criteria for the recipien
 
     **[!UICONTROL Pause]**&#x200B;을(를) 클릭하면 진행 중인 작업 **[!UICONTROL are not]**&#x200B;이(가) 일시 중지되었지만 다음 다시 시작할 때까지 다른 작업이 시작되지 않습니다.
 
-    ![](assets/pause.png)
+    ![일시 중지 아이콘이 강조 표시되고 일시 중지 도구 설명이 표시된 워크플로 도구 모음](assets/pause.png)
 
     서버는 상태가 **[!UICONTROL Pause requested]**&#x200B;인 명령을 고려합니다.
 
     타겟팅 워크플로우 실행이 특정 활동에 도달하면 자동으로 일시 중지할 수도 있습니다. 이렇게 하려면 타겟팅 워크플로우를 일시 중지할 활동을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Enable but do not execute]**&#x200B;을(를) 선택합니다.
 
-    ![](assets/donotexecute.png)
+    ![사용 하지만 실행하지 않음 옵션이 강조 표시된 활동 컨텍스트 메뉴](assets/donotexecute.png)
 
     이 구성은 특수 아이콘으로 표시됩니다.
 
-    ![](assets/pause_activity.png)
+    ![사용 후에 중복 제거 활동이 일시 중지 아이콘을 표시하지만 실행되지 않는 워크플로 다이어그램입니다.](assets/pause_activity.png)
 
     >[!NOTE]
     >
@@ -162,17 +162,17 @@ To build the delivery target, you can define filtering criteria for the recipien
 
   * 진행 중인 실행을 중지하려면 **[!UICONTROL Stop]** 아이콘을 클릭하십시오.
 
-    ![](assets/stop.png)
+    ![중지 아이콘이 강조 표시되고 중지 도구 설명이 표시된 워크플로 도구 모음](assets/stop.png)
 
     서버는 상태가 **[!UICONTROL Stop requested]**&#x200B;인 명령을 고려합니다.
 
   실행이 활동에 도달하면 타겟팅 워크플로우를 자동으로 중지할 수도 있습니다. 이렇게 하려면 타깃팅 워크플로우가 중지될 활동을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Do not activate]**&#x200B;을(를) 선택합니다.
 
-  ![](assets/donotactivate.png)
+  사용 안 함 옵션이 강조 표시된 ![활동 컨텍스트 메뉴](assets/donotactivate.png)
 
   이 구성은 특수 아이콘으로 표시됩니다.
 
-  ![](assets/unactivation.png)
+  ![사용 안 함 다음에 중복 제거 활동에 빨간색 금지 아이콘이 표시되는 워크플로 다이어그램](assets/unactivation.png)
 
 
   >[!NOTE]
@@ -185,7 +185,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
   **[!UICONTROL Actions]** 아이콘을 클릭하고 **[!UICONTROL Unconditional]** 중지를 선택하여 워크플로우를 무조건적으로 중지할 수 있습니다. 이 작업은 캠페인 워크플로우를 종료합니다.
 
-  ![](assets/stop_unconditional.png)
+  ![무조건적 중지 옵션이 강조 표시된 워크플로우 작업 메뉴](assets/stop_unconditional.png)
 
   >[!CAUTION]
   >
@@ -208,14 +208,14 @@ To build the delivery target, you can define filtering criteria for the recipien
 1. 관련 캠페인을 편집하고 **[!UICONTROL Edit]** 탭을 클릭합니다.
 1. **[!UICONTROL Advanced campaign parameters...]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/enable-control-group.png)
+   ![고급 설정, 컨트롤 모집단 탭(컨트롤 그룹 구성 사용 및 편집 및 링크 편집 선택)](assets/enable-control-group.png)
 
 1. **[!UICONTROL Enable and edit control group configuration]** 옵션을 선택합니다.
 1. 컨트롤 그룹을 구성하려면 **[!UICONTROL Edit...]**&#x200B;을(를) 클릭하십시오.
 
-   ![](assets/edit-control-group.png)
+   ![모집단 대화 상자, 제한 단계 유형(임의 샘플링 선택 및 추가 모집단 제어 그룹 목록](assets/edit-control-group.png))
 
-전체 프로시저는 [이 섹션](#extract-the-control-group-from-the-main-target)에 자세히 설명되어 있습니다. [이 섹션](#add-a-population)에서 컨트롤 그룹에 대해 자세히 알아보세요.
+전체 프로시저는 [기본 대상에서 컨트롤 그룹 추출](#extract-the-control-group-from-the-main-target)에 자세히 설명되어 있습니다. [새 모집단을 컨트롤 그룹으로 사용](#add-a-population)에서 컨트롤 그룹에 대해 자세히 알아보세요.
 
 ### 게재에 대한 컨트롤 그룹 활성화 {#activate-the-control-group-for-a-delivery}
 
@@ -230,11 +230,11 @@ To build the delivery target, you can define filtering criteria for the recipien
 1. 관련 게재를 편집한 다음 **[!UICONTROL To]** 링크를 클릭합니다.
 1. **[!UICONTROL Control group]** 탭을 클릭한 다음 **[!UICONTROL Enable and edit control group configuration]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/enable-control-group-for-a-delivery.png)
+   ![컨트롤 그룹 구성 및 편집 링크를 선택하고 대상 선택 대화 상자, 컨트롤 그룹 탭](assets/enable-control-group-for-a-delivery.png)
 
 1. 컨트롤 그룹을 구성하려면 **[!UICONTROL Edit...]**&#x200B;을(를) 클릭하십시오.
 
-전체 프로시저는 [이 섹션](#extract-the-control-group-from-the-main-target)에 자세히 설명되어 있습니다.
+전체 프로시저는 [기본 대상에서 컨트롤 그룹 추출](#extract-the-control-group-from-the-main-target)에 자세히 설명되어 있습니다.
 
 ### 새 모집단을 컨트롤 그룹으로 사용 {#add-a-population}
 
@@ -242,17 +242,17 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 이 모집단은 수신자 목록에서 가져오거나 특정 쿼리를 통해 정의할 수 있습니다.
 
-![](assets/new-population-as-control-group.png)
+![추가 모집단 섹션이 강조 표시된 컨트롤 모집단 대화 상자: 컨트롤 그룹 목록 및 동적 조건](assets/new-population-as-control-group.png)
 
 >[!NOTE]
 >
->Adobe Campaign 쿼리 편집기가 [이 섹션](../../v8/start/query-editor.md)에 표시됩니다.
+>Adobe Campaign 쿼리 편집기는 [쿼리 편집기 작업](../../v8/start/query-editor.md)에 표시됩니다.
 
 ### 주 대상에서 컨트롤 그룹 추출 {#extract-the-control-group-from-the-main-target}
 
 게재의 기본 대상에서 수신자를 추출할 수도 있습니다. 이 경우 수신자는 이 구성의 영향을 받는 게재 작업 대상에서 제거됩니다. 이 추출은 무작위적이거나 수신자를 정렬한 결과일 수 있습니다.
 
-![](assets/extract-control-group-from-target.png)
+![대상 추출 섹션에서 선택한 정렬 후 첫 번째 레코드만 보관](assets/extract-control-group-from-target.png)을 사용하여 모집단 대화 상자 제어
 
 컨트롤 그룹을 추출하려면 캠페인 또는 게재에 컨트롤 그룹을 사용하도록 설정하고 **[!UICONTROL Activate random sampling]** 또는 **[!UICONTROL Keep only the first records after sorting]** 옵션 중 하나를 선택합니다.
 
@@ -261,7 +261,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 정렬 순서를 정의하고(필요한 경우) 수신자 제한 모드를 선택합니다.
 
-![](assets/limit-control-group.png)
+![크기가 5.00으로 설정된 비율로 설정된 모집단 제한 단계, 고정 크기 및 데이터 그룹별 옵션 제어](assets/limit-control-group.png)
 
 이 구성은 워크플로우의 **[!UICONTROL Split]** 활동과 동일하며, 이를 통해 대상을 하위 집합으로 나눌 수 있습니다. 컨트롤 그룹은 이러한 하위 집합 중 하나입니다.
 

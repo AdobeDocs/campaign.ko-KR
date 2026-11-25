@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1780'
-ht-degree: 15%
+source-wordcount: '1796'
+ht-degree: 14%
 ---
 # 버전, 업그레이드 및 보안 {#upgrades}
 
@@ -43,7 +43,7 @@ Managed Cloud Services 사용자는
 
 * Campaign 서버 인스턴스는 Adobe에 의해 모든 새 버전으로 업그레이드되며 자동으로 별도의 조치 없이도 업그레이드됩니다.
 * 업그레이드 전 Adobe 담당자가 연락하여 환경에 영향을 줄 수 있습니다.
-* **클라이언트 콘솔은 현재 상태를 유지하는 구성 요소입니다.** Campaign 서버와 동일한 버전으로 업그레이드해야 합니다. [이 페이지](../start/connect.md#upgrade-ac-console)에서 클라이언트 콘솔을 업그레이드하는 방법을 알아보십시오.
+* **클라이언트 콘솔은 현재 상태를 유지하는 구성 요소입니다.** Campaign 서버와 동일한 버전으로 업그레이드해야 합니다. [클라이언트 콘솔 업그레이드](../start/connect.md#upgrade-ac-console)에서 클라이언트 콘솔을 업그레이드하는 방법에 대해 알아봅니다.
 
 또한 고객은 [호환성 매트릭스](compatibility-matrix.md)에 나열된 최신 지원 버전의 시스템을 사용하고 있는지 확인하십시오.
 
@@ -92,7 +92,7 @@ Campaign Managed Services 고객의 경우, 새로운 Campaign 버전을 사용�
 
 Campaign 버전을 확인하려면 클라이언트 콘솔에서 **도움말 > 정보...** 메뉴에 액세스합니다.
 
-![](assets/ac-version.png)
+![클라이언트 콘솔 및 응용 프로그램 서버 버전을 표시하는 클라이언트 콘솔의 대화 상자 정보](assets/ac-version.png)
 
 확인할 수 있는 정보:
 

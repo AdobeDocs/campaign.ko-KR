@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 1%
+source-wordcount: '657'
+ht-degree: 0%
 ---
 # 사용 사례: 온라인 설문 조사 응답에 대한 보고서 표시{#use-case-displaying-report-on-answers-to-an-online-survey}
 
@@ -63,27 +63,27 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
 설문 조사에 대한 답변을 수집하려면 다음 단계를 적용합니다.
 
-1. 워크플로우를 만들고 **[!UICONTROL Answers to a survey]** 활동을 배치합니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](publish-track-and-use-collected-data.md#using-the-collected-data)을 참조하세요.
+1. 워크플로우를 만들고 **[!UICONTROL Answers to a survey]** 활동을 배치합니다. 이 활동 사용에 대한 자세한 내용은 [수집된 데이터 사용](publish-track-and-use-collected-data.md#using-the-collected-data)을 참조하세요.
 1. 활동을 편집하고 분석할 답변이 있는 설문 조사를 선택합니다.
 1. 모든 정보를 수집하려면 **[!UICONTROL Select all the answer data]** 옵션을 활성화하십시오.
 
-   ![](assets/reporting_usecase_1_01.png)
+   ![온라인 설문 조사 워크플로우에서 설문 조사를 선택하고 모든 응답 데이터 선택을 사용하도록 설정한 설문 조사 응답 활동.](assets/reporting_usecase_1_01.png)
 
 1. 추출할 열을 선택합니다(이 경우 보관된 필드를 모두 선택). 답변이 포함된 필드입니다.
 
-   ![](assets/reporting_usecase_1_02.png)
+   ![출력 열에 추가할 보관된 필드를 선택할 수 있는 추가 열 선택 대화 상자](assets/reporting_usecase_1_02.png)
 
 1. 답변 컬렉션 상자가 구성되면 데이터를 저장할 **[!UICONTROL List update]** 유형 활동을 배치합니다.
 
-   ![](assets/reporting_usecase_1_04.png)
+   ![설문 조사 응답 활동이 목록 업데이트 활동으로 전환되어 연결된 워크플로우입니다.](assets/reporting_usecase_1_04.png)
 
    이 활동에서 업데이트할 목록을 지정하고 **[!UICONTROL Purge and re-use the list if it exists (otherwise add to the list)]** 옵션의 선택을 취소하십시오. 답변이 기존 표에 추가됩니다. 이 옵션을 사용하면 큐브의 목록을 참조할 수 있습니다. 각 업데이트에 대해 목록에 연결된 스키마가 다시 생성되지 않으므로 이 목록을 사용하는 큐브의 무결성을 보장합니다.
 
-   ![](assets/reporting_usecase_1_03.png)
+   ![목록 업데이트 대화 상자 삭제 및 목록 사용 옵션이 삭제되어 목록에 응답이 추가됩니다.](assets/reporting_usecase_1_03.png)
 
 1. 워크플로우를 시작하여 구성을 확인합니다.
 
-   ![](assets/reporting_usecase_1_05.png)
+   ![목록 업데이트에 연결된 설문 조사 응답이 있는 온라인 설문 조사 워크플로 다이어그램, 시작할 준비가 되었습니다.](assets/reporting_usecase_1_05.png)
 
    지정된 목록이 생성되고 설문 조사 응답에 대한 스키마를 포함합니다.
 
@@ -97,11 +97,11 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
 이 예에서 큐브는 이전에 만든 워크플로우에서 제공한 목록의 데이터를 기반으로 합니다.
 
-![](assets/reporting_usecase_2_01.png)
+![선택한 목록과 WEB REP 목록을 팩트 목록으로 사용하여 큐브 대화 상자가 온라인 설문 조사에 응답합니다.](assets/reporting_usecase_2_01.png)
 
 보고서에 표시할 차원 및 측정값을 정의합니다. 여기에서는 계약일자와 피신청인의 국가를 표시하고자 한다.
 
-![](assets/reporting_usecase_2_02.png)
+![국가 및 차트가 있는 큐브 차원 탭과 답변이 있는 측정값 탭, 2016년 계약 및 2017년 계약](assets/reporting_usecase_2_02.png)
 
 **[!UICONTROL Preview]** 탭에서는 보고서의 렌더링을 제어할 수 있습니다.
 
@@ -109,8 +109,8 @@ Adobe Campaign 설문 조사에 대한 답변은 전용 보고서를 사용하�
 
 그런 다음 이 큐브를 기반으로 보고서를 만들고 데이터 및 정보를 처리할 수 있습니다.
 
-![](assets/reporting_usecase_3_01.png)
+![Answers Online 설문 조사 큐브 서식 파일을 선택하고 만들기 단추를 사용하여 새 보고서 페이지를 만듭니다.](assets/reporting_usecase_3_01.png)
 
 필요에 따라 정보를 표시하도록 조정하십시오.
 
-![](assets/reporting_usecase_3_02.png)
+![국가별 2016 및 2017 계약 건수의 온라인 설문 조사 보고서 테이블(행에 국가 차원 포함).](assets/reporting_usecase_3_02.png)

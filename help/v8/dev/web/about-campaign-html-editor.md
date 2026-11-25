@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '370'
 ht-degree: 2%
 ---
 # Campaign HTML 편집기 시작{#about-campaign-html-editor}
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 일반적인 작업은 다음과 같습니다.
 
-![](assets/dce_schema.png)
+![랜딩 페이지와 전자 메일 게재를 디지털 콘텐츠 편집기를 거쳐 게시 또는 전송으로 이동](assets/dce_schema.png)
 
 간단한 **웹 응용 프로그램**&#x200B;을 만들려면 다음을 수행해야 합니다.
 
@@ -74,7 +74,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->웹 응용 프로그램의 컨텍스트에서 전체 구현 샘플을 [이 섹션](creating-a-landing-page.md)에서 사용할 수 있습니다.
+>웹 응용 프로그램 컨텍스트의 전체 구현 샘플은 [랜딩 페이지 만들기](creating-a-landing-page.md)에서 사용할 수 있습니다.
 
 **전자 메일 게재**&#x200B;를 만들려면 다음을 수행해야 합니다.
 

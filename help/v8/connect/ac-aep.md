@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '627'
 ht-degree: 0%
 ---
 # Adobe Experience Platform과 대상자 공유 및 동기화 {#gs-ac-aep}
@@ -44,13 +44,13 @@ Adobe Experience Platform 대상을 Adobe Campaign으로 보내고 게재 및 �
   1. Adobe Experience Platform 대상 카탈로그에 액세스하고 새 **[!UICONTROL Adobe Campaign Managed Cloud Services]** 연결을 만듭니다.
   1. 사용할 Campaign 인스턴스에 대한 세부 정보를 제공하고 **[!UICONTROL Audience sync]**&#x200B;을(를) 동기화 유형으로 선택하십시오.
 
-     ![](assets/aep-audience-sync.png){width="800" align="center"}
+     ![동기화 유형 선택을 Audience 동기화로 설정하여 Experience Platform에서 새 대상 페이지를 구성합니다](assets/aep-audience-sync.png){width="800" align="center"}
 
   1. Adobe Campaign으로 전송할 세그먼트를 선택하십시오.
   1. 대상에서 내보낼 속성을 구성합니다.
   1. 흐름이 구성되면 선택한 대상을 Adobe Campaign에 활성화할 수 있습니다.
 
-     ![](assets/aep-destination.png){width="800" align="center"}
+     ![동기화된 세그먼트 및 대상 세부 정보를 표시하는 AEP 대상 폴더의 Adobe Campaign 콘솔 목록](assets/aep-destination.png){width="800" align="center"}
 
   대상을 구성하는 방법에 대한 자세한 내용은 [Adobe Campaign Managed Cloud Services 연결 설명서](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}를 참조하세요.
 
@@ -58,7 +58,7 @@ Adobe Experience Platform 대상을 Adobe Campaign으로 보내고 게재 및 �
 
   이렇게 하려면 새 Adobe Campaign Managed Cloud Services **Source 연결**&#x200B;을 구성하여 Campaign 이벤트를 Adobe Experience Platform으로 수집합니다. 사용할 Campaign 인스턴스 및 스키마에 대한 세부 정보를 제공하고, 데이터를 수집해야 하는 데이터 세트를 선택한 다음 검색할 필드를 구성합니다. [Adobe Campaign Managed Cloud Services 소스 연결을 만드는 방법을 알아봅니다](https://www.adobe.com/go/sources-campaign-ui-en)
 
-  ![](assets/aep-logs.png){width="800" align="center"}
+  ![Adobe Campaign 추적 로그 데이터 세트 활동 페이지(수집된 레코드, 배치 및 성공 상태 포함)1&rbrace;](assets/aep-logs.png){width="800" align="center"}
 
 ## Adobe Experience Platform과 Adobe Campaign 간 프로필 속성 동기화 {#profile}
 
@@ -75,7 +75,7 @@ Adobe Experience Platform 프로필 속성을 Adobe Campaign과 동기화하는 
 1. Adobe Experience Platform 대상 카탈로그에 액세스하고 새 **[!UICONTROL Adobe Campaign Managed Cloud Services]** 연결을 만듭니다.
 1. 사용할 Campaign 인스턴스에 대한 세부 정보를 제공하고 **[!UICONTROL Profile sync (Update only)]**&#x200B;을(를) 동기화 유형으로 선택하십시오.
 
-   ![](assets/aep-profile-sync.png){width="800" align="center"}
+   ![동기화 유형 선택을 프로필 동기화로 설정하여 Experience Platform에서 새 대상 페이지를 구성합니다(업데이트만 해당)](assets/aep-profile-sync.png){width="800" align="center"}
 
 1. Adobe Campaign 데이터베이스로 업데이트할 프로필을 타겟팅하는 세그먼트를 선택합니다.
 1. Adobe Campaign으로 업데이트할 프로필 속성을 구성합니다.

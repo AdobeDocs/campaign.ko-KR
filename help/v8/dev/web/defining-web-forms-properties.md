@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 1%
+source-wordcount: '1710'
+ht-degree: 0%
 ---
 # 웹 양식 속성 정의{#defining-web-forms-properties}
 
@@ -39,13 +39,13 @@ ht-degree: 1%
 
 속성 창은 웹 양식의 도구 모음에서 **[!UICONTROL Properties]** 단추를 통해 액세스할 수 있습니다. 이 창에서는 웹 양식과 관련된 다양한 설정에 액세스할 수 있습니다. 일부 설정은 템플릿 구성에서 비롯될 수 있습니다.
 
-![](assets/s_ncs_admin_survey_properties_general.png)
+![도구 모음에 강조 표시된 양식 속성 창을 여는 속성 단추가 있는 웹 응용 프로그램 편집기](assets/s_ncs_admin_survey_properties_general.png)
 
 ## 전체 양식 속성 {#overall-form-properties}
 
 속성 창의 **[!UICONTROL General]** 탭에서 양식의 **레이블**&#x200B;을(를) 수정할 수 있습니다. **내부 이름**&#x200B;을 변경하지 않는 것이 좋습니다.
 
-![](assets/s_ncs_admin_survey_properties_general_tab.png)
+![레이블, 내부 이름, 특성, 상태, 시작 및 종료 날짜, 액세스 제어가 있는 양식 속성 창의 일반 탭](assets/s_ncs_admin_survey_properties_general_tab.png)
 
 양식 템플릿은 양식을 작성하는 동안 선택됩니다. 나중에 변경할 수 없습니다. 양식 서식 파일 만들기 및 관리에 대한 자세한 내용은 [웹 양식 서식 파일 사용](using-a-web-form-template.md)을 참조하세요.
 
@@ -63,11 +63,11 @@ ht-degree: 1%
 
 기본적으로 다음 정보가 표시됩니다.
 
-![](assets/s_ncs_admin_survey_default_error_page.png)
+![기본 오류 메시지를 표시하는 브라우저 페이지: 오류가 발생했습니다. 이 문제가 지속되면 관리자에게 문의하십시오](assets/s_ncs_admin_survey_default_error_page.png)
 
 표시되는 문자열의 내용은 속성 창의 **[!UICONTROL Error page]** 탭에 정의됩니다. **[!UICONTROL HTML]** 탭에는 렌더링이 표시되고 **[!UICONTROL Texts]** 탭에서는 텍스트 문자열을 수정하고 필요한 경우 일부 텍스트를 추가할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_error_page.png)
+![오류 메시지의 줄1 및 줄2 문자열을 나열하는 텍스트 탭이 있는 속성의 오류 페이지 탭](assets/s_ncs_admin_survey_error_page.png)
 
 ## 양식 현지화 {#form-localization}
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 링크 또는 버튼을 통해 탐색하도록 선택할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_wz_02_navig_type.png)
+![탐색 옵션: 다음 단추 및 다음 링크, 양식 페이지 간 이동하는 두 가지 방법](assets/s_ncs_admin_survey_wz_02_navig_type.png)
 
 단추는 기본적으로 탐색 요소입니다. 이를 통해 다음 작업을 수행할 수 있습니다.
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 샘플 렌더링은 속성 창의 아래쪽에 표시됩니다. **[!UICONTROL Edit link]** 아이콘을 사용하면 선택한 테마의 구성을 볼 수 있습니다.
 
-![](assets/s_ncs_admin_survey_properties_render.png)
+![링크 편집 아이콘으로 속성 탭 또는 링크 사용, 레이블 위치 및 템플릿 미리 보기 표시](assets/s_ncs_admin_survey_properties_render.png)
 
 ## 양식의 로고 {#logo-in-the-form}
 
@@ -109,15 +109,15 @@ ht-degree: 1%
 
 웹 앱의 **[!UICONTROL Properties]** 내부의 **[!UICONTROL Rendering]** 탭에서 템플릿의 유리 아이콘을 클릭합니다.
 
-![](assets/logo_glass.png)
+![서식 파일 필드 옆에 돋보기 아이콘이 강조 표시된 속성의 렌더링 탭에서 서식 파일을 엽니다](assets/logo_glass.png)
 
 새 창에서 **[!UICONTROL Page layout]** 링크를 클릭합니다.
 
-![](assets/logo_pagelayout.png)
+![페이지 레이아웃 링크가 강조 표시된 양식 생성 템플릿 창](assets/logo_pagelayout.png)
 
 여기서 로고 이미지의 경로를 변경할 수 있습니다.
 
-![](assets/logo_path.png)
+![로고 아래의 이미지 필드가 강조 표시된 페이지 레이아웃 창으로 로고 이미지의 경로를 고정합니다](assets/logo_path.png)
 
 사용 가능한 이미지는 **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]**&#x200B;에 있습니다. 여기에 로고를 추가할 수 있습니다.
 
@@ -141,7 +141,7 @@ ht-degree: 1%
 
 유효 기간은 **[!UICONTROL Start]** 날짜부터 **[!UICONTROL End date]**&#x200B;까지 실행됩니다. 이 필드에 날짜를 지정하지 않으면 양식에 영구 유효성이 생깁니다.
 
-![](assets/s_ncs_admin_survey_properties_date.png)
+![양식의 유효 중지 날짜를 선택하기 위해 종료 날짜 달력이 열려 있는 속성의 일반 탭](assets/s_ncs_admin_survey_properties_date.png)
 
 >[!NOTE]
 >
@@ -153,17 +153,17 @@ ht-degree: 1%
 
 예를 들어 인트라넷 사이트에서 양식을 전달할 때 사용자를 인증하기 위해 양식 표시에 대한 액세스 제어를 활성화할 수 있습니다. 이렇게 하려면 관련 양식의 **[!UICONTROL Properties]** 창을 표시하고 아래와 같이 **[!UICONTROL Enable access control]** 옵션을 클릭합니다.
 
-![](assets/s_ncs_admin_survey_access_ctrl.png)
+액세스 제어에서 액세스 제어 사용 옵션이 선택된 속성의 ![일반 탭](assets/s_ncs_admin_survey_access_ctrl.png)
 
 페이지에 액세스하면 다음 인증 양식이 표시됩니다.
 
-![](assets/s_ncs_admin_survey_access_login.png)
+![로그인 및 암호 필드와 로그인 단추가 있는 인증 양식이 액세스 제어를 사용할 때 표시됨](assets/s_ncs_admin_survey_access_login.png)
 
 로그인 및 암호는 Adobe Campaign 운영자가 사용하는 암호입니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}을 참조하십시오.
 
 **[!UICONTROL Use a specific account]** 옵션을 사용하면 양식에 액세스하는 연산자의 읽기 또는 쓰기 권한을 제한할 수 있습니다. 드롭다운 상자를 사용하여 이러한 권한 부여를 담당할 운영자 또는 운영자 그룹을 선택합니다.
 
-![](assets/s_ncs_admin_survey_access_op_select.png)
+![선택할 연산자를 나열하는 연산자 드롭다운과 함께 특정 계정 옵션을 선택합니다](assets/s_ncs_admin_survey_access_op_select.png)
 
 ## 양식 URL 매개 변수 {#form-url-parameters}
 
@@ -194,7 +194,7 @@ ht-degree: 1%
 
 폼의 속성 창에서 **[!UICONTROL Parameters...]** 탭을 통해 매개 변수를 추가할 수 있습니다. 아래와 같이 필수로 지정할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_properties_param.png)
+![회사, 성별 및 상태를 나열하는 매개 변수 탭(필수 매개 변수 옵션 상태 선택)](assets/s_ncs_admin_survey_properties_param.png)
 
 매개변수 값을 검색할 저장소 위치를 지정해야 합니다. 이렇게 하려면 저장소 옵션 중 하나를 선택한 다음 **[!UICONTROL Storage]** 탭을 클릭하여 필드 또는 관련 변수를 선택합니다. 저장소 옵션은 [응답 저장소 필드](web-forms-answers.md#response-storage-fields)에 자세히 설명되어 있습니다.
 
@@ -202,20 +202,20 @@ ht-degree: 1%
 
 1. 고객의 홈 페이지(**상태=1**):
 
-   ![](assets/s_ncs_admin_survey_test_client.png)
+   ![URL 매개 변수 상태=1 및 ID 필드로 열려 있는 양식의 클라이언트 홈 페이지](assets/s_ncs_admin_survey_test_client.png)
 
 1. 잠재 고객의 홈 페이지(**상태=0**):
 
-   ![](assets/s_ncs_admin_survey_test_prospect.png)
+   ![URL 매개 변수 상태=0과 이름, 전자 메일 및 captcha 필드로 열려 있는 양식의 잠재 고객 홈 페이지](assets/s_ncs_admin_survey_test_prospect.png)
 
 1. 다른 프로필의 홈 페이지(예: **상태=12**):
 
-   ![](assets/s_ncs_admin_survey_test_other.png)
+   ![URL 매개 변수 상태=12와 이름, 전자 메일 및 메시지 필드를 사용하여 연 양식의 연락처 홈 페이지](assets/s_ncs_admin_survey_test_other.png)
 
 이 양식을 구성하려면 테스트 상자를 만들어 아래 표시된 대로 다이어그램의 시작 부분에 배치합니다.
 
-![](assets/s_ncs_admin_survey_test.png)
+![Client/Prospect/Contact 테스트 상자가 Prospect, Client 및 Contact 홈 페이지로 분기되는 폼 다이어그램](assets/s_ncs_admin_survey_test.png)
 
 테스트 상자를 사용하여 페이지 시퀀싱 조건을 구성할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_test_box.png)
+![상태별로 분기가 정의된 테스트 상자 대화 상자. 여기서 상태 변수는 컨텍스트 필드에서 선택됩니다](assets/s_ncs_admin_survey_test_box.png)

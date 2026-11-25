@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1339'
 ht-degree: 1%
 ---
 # 마케팅 리소스 관리{#managing-marketing-resources}
@@ -43,9 +43,9 @@ Adobe Campaign을 통해 관리되는 각 마케팅 리소스에 대해 언제�
 1. **[!UICONTROL Campaigns]** 탭으로 이동하여 **[!UICONTROL Marketing resouces]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Create]** 버튼을 클릭합니다.
-   ![](assets/add-a-mkt-resource.png)
+   ![캠페인 탭의 마케팅 리소스 목록에서 [만들기] 단추가 강조 표시되어 있습니다.](assets/add-a-mkt-resource.png)
 1. 마케팅 리소스 창에서 파일을 끌어다 놓아 Campaign 서버에 업로드합니다. **[!UICONTROL Upload file to server...]** 링크를 사용할 수도 있습니다.
-   ![](assets/mkt-resource-creation.png)
+   ![서버에 파일 업로드 링크가 있는 마케팅 리소스 만들기 창에서 파일을 추가합니다.](assets/mkt-resource-creation.png)
 
 업로드가 완료되면 리소스가 사용 가능한 리소스 목록에 추가됩니다.
 
@@ -53,11 +53,11 @@ Adobe Campaign을 통해 관리되는 각 마케팅 리소스에 대해 언제�
 
 업로드되면 마케팅 리소스를 모든 Adobe Campaign 운영자가 사용할 수 있습니다. 보거나 사본을 만들어 수정하거나 서버에서 파일을 업데이트할 수 있습니다.
 
-![](assets/open-a-marketing-resource.png)
+![대시보드, 편집 및 미리 보기 탭, 상태, 파일 및 할당된 연산자가 있는 마케팅 리소스 대시보드.](assets/open-a-marketing-resource.png)
 
 **[!UICONTROL Edit]** 탭의 **[!UICONTROL Assigned to]** 드롭다운 목록을 사용하여 리소스를 담당하는 연산자를 선택합니다.
 
-![](assets/assign-a-mkt-resource.png)
+![연산자 드롭다운 목록이 열려 있는 마케팅 리소스의 편집 탭.](assets/assign-a-mkt-resource.png)
 
 리소스 유효성 검사와 리소스 게시를 담당하는 연산자 또는 연산자 그룹을 선택할 수도 있습니다. 이러한 옵션에 액세스하려면 **[!UICONTROL Advanced parameters]** 링크를 클릭하십시오.
 
@@ -83,18 +83,18 @@ Adobe Campaign을 통해 관리되는 각 마케팅 리소스에 대해 언제�
 
 리소스를 잠그려면 리소스 대시보드에서 **[!UICONTROL Lock]** 단추를 클릭해야 합니다.
 
-![](assets/lock-a-resource.png)
+![잠금 단추를 가리키는 화살표가 있는 마케팅 리소스 대시보드](assets/lock-a-resource.png)
 
 
 리소스가 업데이트되면 리소스 대시보드의 **[!UICONTROL Lock]** 단추를 클릭하여 모든 운영자가 다시 사용할 수 있도록 합니다.
 
 특수 메시지는 액세스를 시도하는 모든 운영자에게 알립니다:
 
-![](assets/mkt-resource-locked.png)
+![파일이 서버에 있고 다른 연산자에 의해 편집되고 있다는 탭 메시지를 편집합니다.](assets/mkt-resource-locked.png)
 
 **[!UICONTROL Tracking]** 탭은 리소스를 잠근 연산자의 이름을 나타냅니다.
 
-![](assets/mkt-resource-audit-tab.png)
+![저널에 증명 판독기, 사용 가능 날짜, 소유자 및 잠금 항목이 있는 마케팅 리소스의 감사 탭입니다.](assets/mkt-resource-audit-tab.png)
 
 
 >[!NOTE]
@@ -105,7 +105,7 @@ Adobe Campaign을 통해 관리되는 각 마케팅 리소스에 대해 언제�
 
 각 리소스에 대해 **[!UICONTROL Forum]** 탭을 사용하여 참가자가 정보를 공유할 수 있습니다.
 
-![](assets/mkt-resource-forum.png)
+필드를 통지할 제목, 메시지 및 연산자가 있는 마케팅 리소스에 대한 ![토론 포럼 대화 상자.](assets/mkt-resource-forum.png)
 
 자세한 내용은 [토론 포럼](discussion-forums.md) 섹션을 참조하세요.
 
@@ -115,13 +115,13 @@ Adobe Campaign을 통해 관리되는 각 마케팅 리소스에 대해 언제�
 
 리소스를 승인하려면 대시보드에서 **[!UICONTROL Approve the resource]** 단추를 클릭하십시오.
 
-![](assets/mkt-resouce-approve.png)
+![리소스 승인 단추를 가리키는 화살표가 있는 마케팅 리소스 대시보드.](assets/mkt-resouce-approve.png)
 
 그런 다음 승인된 운영자는 승인을 수락하거나 거부할 수 있습니다. 이 작업은 알림 메시지의 링크를 클릭하여 전송된 전자 메일 메시지를 통해 또는 **[!UICONTROL Approve]** 버튼을 클릭하여 클라이언트 콘솔을 통해 수행할 수 있습니다.
 
 승인 창에서 설명을 입력할 수 있습니다.
 
-![](assets/mkt-resource-approval-confirmation.png)
+![수락 및 거부 옵션이 있는 리소스 대화 상자의 작업, 댓글 필드 및 승인 단추](assets/mkt-resource-approval-confirmation.png)
 
 **[!UICONTROL Tracking]** 탭으로 이동하여 승인을 확인합니다.
 
@@ -135,7 +135,7 @@ Adobe Campaign을 통해 관리되는 각 마케팅 리소스에 대해 언제�
 
 리소스를 게시하려면 마케팅 리소스 대시보드의 편집 영역에서 **[!UICONTROL Publish]** 단추를 클릭하십시오.
 
-![](assets/mkt-resource-publish.png)
+![게시 단추를 가리키는 화살표가 있는 승인된 마케팅 리소스 대시보드입니다.](assets/mkt-resource-publish.png)
 
 워크플로우를 통해 리소스 게시를 자동화할 수도 있습니다.
 
@@ -143,7 +143,7 @@ Adobe Campaign을 통해 관리되는 각 마케팅 리소스에 대해 언제�
 
 Adobe Campaign을 게시하려면 적절한 워크플로우를 만들어 리소스에 연결해야 합니다. 이렇게 하려면 리소스의 **[!UICONTROL Advanced settings...]** 상자를 연 다음 **[!UICONTROL Post-processing]** 필드에서 원하는 워크플로우를 선택합니다.
 
-![](assets/mkt-resource-post-processing-wf.png)
+![리소스 게시 아래의 사후 처리 워크플로 필드가 있는 고급 매개 변수 대화 상자입니다.](assets/mkt-resource-post-processing-wf.png)
 
 워크플로가 실행됩니다.
 
@@ -160,7 +160,7 @@ Adobe Campaign을 게시하려면 적절한 워크플로우를 만들어 리소�
 
 캠페인 대시보드의 **[!UICONTROL Edit > Documents > Resources]** 탭으로 이동한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 관련 리소스를 선택합니다.
 
-![](assets/link-a-mkt-resource-to-a-campaign.png)
+![추가 단추와 마케팅 리소스 선택 대화 상자가 있는 캠페인의 리소스 탭입니다.](assets/link-a-mkt-resource-to-a-campaign.png)
 
 상태, 특성 또는 유형별로 리소스를 필터링하거나 개인화된 필터를 적용할 수 있습니다.
 
@@ -170,15 +170,15 @@ Adobe Campaign을 게시하려면 적절한 워크플로우를 만들어 리소�
 
 마케팅 리소스는 게재 개요를 통해 게재와 연결할 수 있습니다.
 
-[이 섹션](../campaigns/marketing-campaign-deliveries.md)에서 게재 개요에 대해 자세히 알아보세요.
+[마케팅 캠페인 게재](../campaigns/marketing-campaign-deliveries.md)에서 게재 개요에 대해 자세히 알아보세요.
 
 이렇게 하려면 게재 개요를 마우스 오른쪽 단추로 클릭하고 **새로 만들기 > 리소스**&#x200B;를 선택합니다.
 
-![](assets/mkt-resource-add-in-del-outline.png)
+![새로 만들기 및 리소스 옵션이 선택된 상황에 맞는 메뉴를 게재 개요합니다.](assets/mkt-resource-add-in-del-outline.png)
 
 에셋의 이름을 입력하고 **마케팅 리소스** 드롭다운 목록에서 선택하십시오.
 
-![](assets/mkt-resource-select-in-del-outline.png)
+![선택할 수 있는 리소스를 표시하는 게재 개요 마케팅 리소스 드롭다운 목록입니다.](assets/mkt-resource-select-in-del-outline.png)
 
 
 ## 재고 관리 {#stock-management}
@@ -188,11 +188,11 @@ Adobe Campaign을 게시하려면 적절한 워크플로우를 만들어 리소�
 
 마케팅 리소스를 주식과 연결하려면 아래 단계를 따르십시오.
 
-1. 재고를 편집하거나 새 재고를 생성합니다. [이 섹션](../campaigns/providers-stocks-and-budgets.md#stock-management)에서 주식에 대해 자세히 알아보세요.
+1. 재고를 편집하거나 새 재고를 생성합니다. [재고 관리](../campaigns/providers-stocks-and-budgets.md#stock-management)의 주식에 대해 자세히 알아보세요.
 
 1. 재고 라인을 추가하고 해당 마케팅 리소스를 선택합니다.
 
-   ![](assets/mkt-resource-in-a-stock-line.png)
+   ![마케팅 리소스 필드, 초기 재고 및 경고 수준이 있는 재고 라인 대화 상자.](assets/mkt-resource-in-a-stock-line.png)
 
    리소스 오른쪽에 있는 **[!UICONTROL Edit the link]** 아이콘을 사용하여 선택한 리소스를 편집할 수 있습니다.
 

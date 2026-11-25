@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1071'
 ht-degree: 1%
 ---
 # 권장 사항 및 제한 사항 {#limitations}
@@ -81,7 +81,7 @@ PKey 값 관리는 Campaign Standard과 Campaign v8에서 다릅니다. Campaign
 
 * REST API 페이로드에서 필터를 사용하려면 Campaign v8에서 편집하고 페이로드에 사용할 이름을 제공해야 합니다. 이렇게 하려면 **[!UICONTROL Parameters]** 탭에서 필터의 추가 매개 변수에 액세스하고 **[!UICONTROL Filter name in REST API]** 필드에 원하는 이름을 제공합니다.
 
-  ![](assets/api-filtering.png)
+  ![REST API 필드의 필터 이름이 byEmailNotEmpty로 설정된 사전 정의된 필터의 고급 매개 변수 대화 상자](assets/api-filtering.png)
 
 
 * 사용자 지정 필터를 사용하는 데 필요한 &quot;by&quot; 접두사는 더 이상 필요하지 않습니다. 필터 이름은 요청에 있는 그대로 사용해야 합니다.
@@ -98,7 +98,7 @@ PKey 값 관리는 Campaign Standard과 Campaign v8에서 다릅니다. Campaign
 
 다음 요청 본문 형식을 사용할 때 &quot;vehicleOwner&quot;는 &quot;nms:recipient&quot;에 대한 링크를 나타냅니다.
 
-```
+```json
 {
     "vehicleNumber": "20009",
     "vehicleName": "Model E",

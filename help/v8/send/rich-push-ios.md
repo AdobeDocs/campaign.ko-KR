@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 5%
+source-wordcount: '1338'
+ht-degree: 4%
 ---
 # iOS 리치 푸시 게재 디자인 {#rich-push}
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 
 1. **[!UICONTROL Notification Type]** 드롭다운에서 **[!UICONTROL Default]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/rich_push_ios_default_1.png)
+   기본, 기본, 회전 메뉴 및 타이머를 표시하는 알림 유형 드롭다운이 있는 ![일반 탭](assets/rich_push_ios_default_1.png)
 
 1. 알림 센터에서 사용할 수 있는 알림 목록에 표시할 제목의 레이블을 **[!UICONTROL Title]** 필드에 입력합니다.
 
@@ -66,17 +66,17 @@ ht-degree: 5%
 
 1. 마법사의 **[!UICONTROL Message content]** 섹션에 메시지 내용을 입력합니다.
 
-   ![](assets/rich_push_ios_default_2.png)
+   ![기본 알림 유형, 제목 및 메시지 내용이 채워진 일반 탭](assets/rich_push_ios_default_2.png)
 
 1. 알림에 대한 사운드 및 배지 옵션과 같은 추가 설정을 사용자 지정하려면 **[!UICONTROL Sound and Badge]** 탭으로 이동합니다. [자세히 알아보기](#sound-badge)
 
-   ![](assets/rich_push_ios_default_3.png)
+   ![정리 배지가 선택된 사운드 및 배지 탭, 중요 경고 모드 및 사운드 이름 설정](assets/rich_push_ios_default_3.png)
 
 1. **[!UICONTROL Application variables]** 탭에서 **[!UICONTROL Application variables]**&#x200B;이(가) 자동으로 추가됩니다. 알림 동작을 정의할 수 있습니다. 예를 들어, 사용자가 알림을 활성화할 때 특정 애플리케이션 화면이 표시되도록 구성할 수 있습니다.
 
 1. 추가 사용자 지정을 위해 푸시 알림에 사용할 수 있는 **[!UICONTROL Advanced options]**&#x200B;을(를) 살펴보십시오. [자세히 알아보기](#push-advanced)
 
-   ![](assets/rich_push_ios_default_4.png)
+   ![스레드 ID, 범주, 대상 콘텐츠 ID, 시작 이미지 및 관련성 점수 필드가 있는 고급 탭](assets/rich_push_ios_default_4.png)
 
 1. 알림이 구성되면 알림을 미리 보려면 **[!UICONTROL Preview]** 탭을 클릭하십시오.
 
@@ -86,13 +86,13 @@ ht-degree: 5%
 
 1. **[!UICONTROL Notification Type]** 드롭다운에서 **[!UICONTROL Basic]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/rich_push_ios_basic_1.png)
+   ![기본 항목을 선택한 알림 유형 드롭다운, 확장된 제목 및 확장된 메시지 필드 추가](assets/rich_push_ios_basic_1.png)
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**,**[!UICONTROL Expanded message]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
    알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
 
-   ![](assets/rich_push_ios_basic_2.png)
+   ![제목, 확장된 제목, 메시지 및 확장된 메시지 필드를 채운 기본 알림](assets/rich_push_ios_basic_2.png)
 
 1. 선택적으로 iOS 알림 페이로드의 **자막** 매개 변수에 해당하는 **[!UICONTROL Subtitle]**&#x200B;을(를) 추가합니다.
 
@@ -102,11 +102,11 @@ ht-degree: 5%
 
 1. 추가 사용자 지정을 위해 푸시 알림에 사용할 수 있는 **[!UICONTROL Advanced options]**&#x200B;을(를) 살펴보십시오. [자세히 알아보기](#push-advanced)
 
-   ![](assets/rich_push_ios_default_4.png)
+   ![스레드 ID, 범주, 대상 콘텐츠 ID, 시작 이미지 및 관련성 점수 필드가 있는 고급 탭](assets/rich_push_ios_default_4.png)
 
 1. **[!UICONTROL Color options]** 메뉴에서 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Background]**&#x200B;에 대한 16진수 색상 코드를 입력합니다.
 
-   ![](assets/rich_push_ios_basic_3.png)
+   ![제목 색, 메시지 색 및 배경색 필드가 있는 색 옵션 탭](assets/rich_push_ios_basic_3.png)
 
 메시지 콘텐츠를 정의했으면 테스트 구독자를 사용하여 메시지를 미리 보고 테스트할 수 있습니다.
 
@@ -116,17 +116,17 @@ ht-degree: 5%
 
 1. **[!UICONTROL Notification Type]** 드롭다운에서 **[!UICONTROL Carousel]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/rich_push_ios_carousel_1.png)
+   ![캐러셀을 선택한 알림 유형 드롭다운, 색상 옵션 및 캐러셀 옵션 탭 추가](assets/rich_push_ios_carousel_1.png)
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Expanded Title]** 및 **[!UICONTROL Message]** 필드에 텍스트를 입력하십시오.
 
-   ![](assets/rich_push_ios_carousel_2.png)
+   ![제목, 확장된 제목 및 메시지 필드를 채운 회전 메뉴 알림](assets/rich_push_ios_carousel_2.png)
 
 1. 알림에 대한 사운드 및 배지 옵션과 같은 추가 설정을 사용자 지정하려면 **[!UICONTROL Sound and Badge]** 탭으로 이동합니다. [자세히 알아보기](#sound-badge)
 
 1. **[!UICONTROL Application variables]** 탭에서 **[!UICONTROL Application variables]**&#x200B;이(가) 자동으로 추가됩니다. 알림 동작을 정의할 수 있습니다. 예를 들어, 사용자가 알림을 활성화할 때 특정 애플리케이션 화면이 표시되도록 구성할 수 있습니다.
 
-   ![](assets/rich_push_ios_carousel_4.png)
+   ![스레드 ID, 대상 콘텐츠 ID 및 클릭 동작 필드가 있는 회전 알림의 고급 탭](assets/rich_push_ios_carousel_4.png)
 
 1. 추가 사용자 지정을 위해 푸시 알림에 사용할 수 있는 **[!UICONTROL Advanced options]**&#x200B;을(를) 살펴보십시오. [자세히 알아보기](#push-advanced)
 
@@ -141,7 +141,7 @@ ht-degree: 5%
 
    최소 3개의 이미지와 최대 5개의 이미지를 포함해야 합니다.
 
-   ![](assets/rich_push_ios_carousel_3.png)
+   ![수동 작업 모드가 포함된 회전 메뉴 옵션 탭과 작업 URI가 포함된 이미지 목록](assets/rich_push_ios_carousel_3.png)
 
 메시지 콘텐츠를 정의했으면 테스트 구독자를 사용하여 메시지를 미리 보고 테스트할 수 있습니다.
 
@@ -151,13 +151,13 @@ ht-degree: 5%
 
 1. **[!UICONTROL Notification Type]** 드롭다운에서 **[!UICONTROL Timer]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/rich_push_ios_timer_1.png)
+   ![[타이머]를 선택한 상태로 알림 유형 드롭다운, [색상 옵션] 및 [타이머 옵션] 탭 추가](assets/rich_push_ios_timer_1.png)
 
 1. 메시지를 작성하려면 **[!UICONTROL Title]**, **[!UICONTROL Expanded title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Expanded message]** 필드에 텍스트를 입력하십시오.
 
    알림을 확장할 때 **[!UICONTROL Expanded message]**&#x200B;이(가) 표시되는 동안 **[!UICONTROL Message]** 텍스트가 축소된 보기에 나타납니다.
 
-   ![](assets/rich_push_ios_timer_2.png)
+   ![제목, 확장된 제목 및 메시지 필드가 채워진 타이머 알림](assets/rich_push_ios_timer_2.png)
 
 1. 선택적으로 iOS 알림 페이로드의 **자막** 매개 변수에 해당하는 **[!UICONTROL Subtitle]**&#x200B;을(를) 추가합니다.
 
@@ -169,13 +169,13 @@ ht-degree: 5%
 
 1. **[!UICONTROL Color options]** 메뉴에서 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Background]**&#x200B;에 대한 16진수 색상 코드를 입력합니다.
 
-   ![](assets/rich_push_ios_timer_4.png)
+   ![제목 색, 메시지 색, 배경색 및 타이머 색 필드가 있는 색 옵션 탭](assets/rich_push_ios_timer_4.png)
 
 1. **[!UICONTROL Timer]** 탭에서 **[!UICONTROL Timer duration]**(초) 또는 **[!UICONTROL Timer end timestamp]**&#x200B;을(를) 특정 에포크 타임스탬프로 설정합니다.
 
 1. **[!UICONTROL Alternate title]**, **[!UICONTROL Alternate message]** 및 **[!UICONTROL Alternate image]** 필드에 타이머가 만료된 후 표시할 텍스트와 이미지를 입력하십시오.
 
-   ![](assets/rich_push_ios_timer_3.png)
+   대체 제목, 타이머 기간, 대체 이미지 및 대체 메시지 필드가 있는 ![타이머 옵션 탭](assets/rich_push_ios_timer_3.png)
 
 메시지 콘텐츠를 정의했으면 테스트 구독자를 사용하여 메시지를 미리 보고 테스트할 수 있습니다.
 

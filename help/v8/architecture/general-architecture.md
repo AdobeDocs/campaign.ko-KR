@@ -50,9 +50,9 @@ topic_v2:
     internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1180'
 ht-degree: 7%
 ---
 # 일반 아키텍처{#general-architecture}
@@ -128,7 +128,7 @@ Adobe Campaign 모듈에는 세 가지 유형이 있습니다.
 
 사전 정의된 데이터베이스 및 스키마를 사용하여 Adobe Campaign을 배포할 수 있으며 필요한 경우 이 사전 정의된 환경을 확장할 수 있습니다. 데이터 마트 내의 모든 데이터는 SQL 호출을 통해 Adobe Campaign에서 액세스합니다. 또한 Adobe Campaign은 추출 변환 및 로드(ETL) 도구를 완전히 보완하여 데이터를 시스템으로 가져오거나 시스템에서 내보낼 수 있습니다.
 
-![](assets/data-flow-diagram.png)
+![클라이언트 컴퓨터, 추적 및 MTA를 사용하는 전면 서버, 응용 프로그램 서버, 데이터베이스, 바운스 사서함 간의 트래픽](assets/data-flow-diagram.png)
 
 
 >[!CAUTION]

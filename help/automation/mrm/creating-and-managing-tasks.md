@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '3766'
+source-wordcount: '4562'
 ht-degree: 0%
 ---
 # 작업 만들기 및 관리{#creating-and-managing-tasks}
@@ -40,7 +40,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 이들은 자신이 속한 프로그램의 일정에 표시될 수 있다.
 
-![](assets/campaign-calendar.png)
+![작업 1, 작업 2 및 작업 3과 함께 겨울 캠페인 및 마케팅 캠페인을 표시하는 캠페인 일정 타임라인](assets/campaign-calendar.png)
 
 ## 작업 액세스 {#accessing-tasks}
 
@@ -48,7 +48,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 작업은 **[!UICONTROL Campaigns]** 탭을 통해 액세스할 수 있는 작업 목록에 표시됩니다.
 
-![](assets/campaign-task-dashboard.png)
+![만들기 단추가 있는 캠페인, 필터 및 상태와 진행률을 표시하는 세 가지 작업 목록.](assets/campaign-task-dashboard.png)
 
 현재 연산자의 모든 작업을 볼 수 있습니다.
 
@@ -62,7 +62,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 편집할 작업을 클릭합니다.
 
-![](assets/edit-a-task.png)
+![상태, 우선 순위, 일정, 할당자 및 캠페인을 표시하는 작업 3에 대한 작업 요약 창에 [취소] 단추가 있습니다.](assets/edit-a-task.png)
 
 ## 새 작업 만들기 {#creating-a-new-task}
 
@@ -70,17 +70,17 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 1. **[!UICONTROL Campaigns]** 탭에서 **[!UICONTROL Tasks]** 링크로 이동하여 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/create-a-task-from-dashboard.png)
+   새 작업을 추가하는 데 사용되는 만들기 단추를 가리키는 화살표가 있는 ![작업 목록.](assets/create-a-task-from-dashboard.png)
 
 1. 작업의 이름을 입력하고 연결된 캠페인을 선택합니다.
 1. 시작 및 종료 날짜를 설정합니다.
 1. 작업을 만들려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
 
-   ![](assets/new-task-edit.png)
+   ![템플릿, 레이블, 피할당자, 캠페인, 시작 및 종료 날짜, 작업 부하 및 설명, 저장이 포함된 새 작업 양식입니다.](assets/new-task-edit.png)
 
 캠페인의 대시보드를 통해 작업을 생성할 수도 있습니다. 이 경우 작업이 생성된 캠페인에 자동으로 연결됩니다.
 
-![](assets/add-a-task-in-a-campaign.png)
+![캠페인 작업 목록 위에 작업 추가 링크를 가리키는 화살표가 있는 캠페인 대시보드.](assets/add-a-task-in-a-campaign.png)
 
 작업이 생성되면 캠페인 일정, 캠페인 대시보드 및 작업 목록에 추가됩니다. 작업을 편집하려면 작업 목록에서 해당 이름을 클릭하거나 일정 또는 캠페인 대시보드에서 선택한 다음 **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다.
 
@@ -92,7 +92,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 [검토자](#reviewers) 및 [참조 문서](#documents-referenced)를 추가할 수도 있습니다.
 
-작업 수명 주기가 [이 섹션](#life-cycle)에 표시됩니다.
+작업 수명 주기가 [수명 주기](#life-cycle)에 표시됩니다.
 
 ### 관리자 및 참가자 {#manager-and-participants}
 
@@ -100,11 +100,11 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 **[!UICONTROL Assigned to]** 드롭다운 목록에서 다른 연산자를 선택할 수 있습니다.
 
-![](assets/task-assigned-to.png)
+![다른 연산자를 선택하기 위해 할당 대상 드롭다운 목록이 열려 있는 작업 일반 탭](assets/task-assigned-to.png)
 
 >[!NOTE]
 >
->연산자 관리는 [이 섹션](../../v8/start/gs-permissions.md)에 자세히 설명되어 있습니다.
+>연산자 관리는 [Campaign v8에서 사용 권한 시작](../../v8/start/gs-permissions.md)에 자세히 설명되어 있습니다.
 >
 >업무를 담당하는 운영자만 휴업을 할 수 있도록 하고 있다.
 
@@ -114,12 +114,12 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 1. 작업 도구 모음에서 **[!UICONTROL Resources]** 아이콘을 클릭합니다.
 
-   ![](assets/add-task-resources.png)
+   도구 모음의 리소스 아이콘을 가리키는 화살표가 있는 ![작업 일반 탭.](assets/add-task-resources.png)
 
 1. **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 관련 연산자를 선택합니다.
 1. 사용률을 입력합니다. 이 값은 작업 실행 기간 동안 운영자에게 할당된 작업량을 나타냅니다. 이 비율은 표시 전용이며 백분율로 표시됩니다.
 
-   ![](assets/define-operator-task-workload.png)
+   ![사용 비율, 계획된 작업 부하, 수행된 작업 부하를 가진 연산자를 나열하는 리소스 창.](assets/define-operator-task-workload.png)
 
    예를 들어 실행 일정이 10일로 설정된 작업의 경우 사용률이 50%인 운영자는 10일 동안 작업 시간의 절반 동안 이 작업에 동원됩니다.
 
@@ -127,7 +127,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 1. **[!UICONTROL Add a reminder...]** 링크에서 미리 알림을 구성할 수 있습니다. 종료 날짜 이전에 작업에 관련된 모든 운영자에게 이메일 알림이 전송됩니다.
 
-   ![](assets/task-op-add-a-reminder.png)
+   ![미리 알림 목록과 드롭다운 제공 요청이 있는 리소스 창(승인 기한 또는 지정 날짜부터 지연)](assets/task-op-add-a-reminder.png)
 
 1. 작업이 시작되기 전에 알림을 보낼 수도 있습니다. 이를 설정하려면 **[!UICONTROL Initial notification]** 필드에서 날짜를 선택하십시오.
 1. 종료 날짜에 도달하고 작업이 종료되지 않은 경우 **[!UICONTROL Assignee]** 드롭다운 목록에서 선택한 피할당자 또는 피할당자 그룹에 알림을 보낼 수 있습니다.
@@ -135,7 +135,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 연산자 대시보드를 사용하면 작업 로드(진행 중인 다른 작업)를 확인할 수 있습니다.
 
-![](assets/operator-dashboard.png)
+![각 작업과 상태를 표시하는 연산자 목록에 할당된 작업이 있는 연산자 대시보드.](assets/operator-dashboard.png)
 
 ### 작업 승인 {#reviewers}
 
@@ -145,7 +145,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 연산자 목록을 지정하려면 첫 번째 검토자의 오른쪽에 있는 **[!UICONTROL Edit...]** 링크를 클릭하고 아래와 같이 필요한 만큼 연산자를 추가합니다.
 
-![](assets/enable-task-approval.png)
+![추가 검토자를 나열하는 [작업 승인 사용]이 선택된 리소스 창 및 [검토자 편집] 대화 상자가 있습니다.](assets/enable-task-approval.png)
 
 구성 창의 아래 섹션에서 태스크에 대한 승인 일정을 정의할 수 있습니다. 기본적으로 검토자는 작업을 승인하기 위해 제출 날짜로부터 3일을 받습니다. 미리 알림을 추가할 수도 있습니다. 이 미리 알림은 승인 기한 전에 관련 운영자에게 자동으로 전송됩니다.
 
@@ -159,14 +159,14 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 1. 작업을 열고 작업 도구 모음에서 **[!UICONTROL Documents]** 아이콘을 클릭합니다.
 
-   ![](assets/add-documents-to-a-task.png)
+   도구 모음의 문서 아이콘을 가리키는 화살표가 있는 ![작업 일반 탭입니다.](assets/add-documents-to-a-task.png)
 
 1. **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 작업에 추가할 문서를 선택하십시오. 마케팅 리소스에 동일한 프로세스를 적용합니다.
 
 
 참조된 문서가 작업과 관련된 운영자에게 전송된 알림에 추가됩니다. 작업 대시보드에도 추가됩니다.
 
-![](assets/s_ncs_user_task_notification_documents.png)
+![문서 행에서 참조된 문서 Brief.pdf 및 Central Agency.pdf가 강조 표시된 작업 대시보드.](assets/s_ncs_user_task_notification_documents.png)
 
 ### 실행 일정 {#execution-schedule}
 
@@ -178,17 +178,17 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 **[!UICONTROL Workload performed]** 필드도 일 및 시간 단위로 표시되므로 예약된 작업 로드와 관련된 작업의 진행 상황을 수동으로 업데이트할 수 있습니다.
 
-![](assets/s_ncs_user_task_percentage_done_enter.png)
+진행률(%) 필드를 가리키는 화살표가 있는 ![작업 일반 탭이 35.](assets/s_ncs_user_task_percentage_done_enter.png)(으)로 설정되어 있습니다.
 
 백분율로 표시된 작업의 **[!UICONTROL Progress status]**&#x200B;은(는) 관련된 운영자가 수행하는 작업에 따라 자동으로 업데이트됩니다. 수동으로 입력할 수 있습니다.
 
 이 정보는 작업 대시보드에서 볼 수 있습니다.
 
-![](assets/s_ncs_user_task_percentage_done_from_dashboard.png)
+![진행률 값 35%를 가리키는 화살표가 있는 작업 대시보드](assets/s_ncs_user_task_percentage_done_from_dashboard.png)
 
 캠페인 탭에도 표시됩니다.
 
-![](assets/s_ncs_user_task_percentage_done_from_op.png)
+![작업의 35% 진행률 표시줄을 가리키는 화살표가 있는 캠페인 작업 목록입니다.](assets/s_ncs_user_task_percentage_done_from_op.png)
 
 작업 실행 일정 종료 날짜에 도달했지만 작업이 완료되지 않은 경우 작업은 **[!UICONTROL Late]**&#x200B;이(가) 됩니다. 경고 운영자에게 경고 메시지도 표시됩니다.
 
@@ -200,13 +200,13 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 이 정보를 지정하려면 작업 도구 모음에서 **[!UICONTROL Expenses and revenue]** 아이콘을 클릭합니다.
 
-![](assets/s_ncs_user_task_edit_costs.png)
+![도구 모음에서 경비 및 수익 창을 열어 요금, 약정 수준, 비용 및 목표 추가를 표시합니다.](assets/s_ncs_user_task_edit_costs.png)
 
 기본적으로 부과된 예산은 작업이 첨부된 캠페인의 예산입니다. 작업 세부 정보에 표시됩니다.
 
 >[!NOTE]
 >
->경비 및 예산에 대한 자세한 내용은 [이 섹션](../campaigns/providers-stocks-and-budgets.md)을 참조하세요.
+>경비 및 예산에 대한 자세한 내용은 [공급자, 재고 및 예산](../campaigns/providers-stocks-and-budgets.md)을 참조하세요.
 
 이 창에서는 도달할 목표를 정의할 수도 있습니다. 목표는 해당 작업의 예측 매출로 표시됩니다.
 
@@ -218,7 +218,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 작업 실행과 관련된 비용 범주를 선택합니다. 이를 위해 비용 유형을 선택하고 필요한 경우 추가 비용에 금액을 추가합니다.
 
-![](assets/s_ncs_user_task_edit_simple_costs_tab.png)
+![추가 요금으로 서비스 공급자 필드와 비용 범주가 나열된 작업 속성 창](assets/s_ncs_user_task_edit_simple_costs_tab.png)
 
 >[!NOTE]
 >
@@ -226,7 +226,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 서비스 공급자를 선택하면 작업 대시보드에 표시됩니다.
 
-![](assets/s_ncs_user_task_supplier_view.png)
+![선택한 서비스를 표시하는 서비스 공급자 행을 가리키는 화살표가 있는 작업 대시보드.](assets/s_ncs_user_task_supplier_view.png)
 
 ### 지연된 작업 {#late-tasks}
 
@@ -234,19 +234,19 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 **[!UICONTROL Resources]** 상자로 이동하여 **[!UICONTROL Assignation]** 필드에 연산자를 추가하십시오. 여러 사람에게 알리려면 연산자 그룹을 선택합니다.
 
-![](assets/mrm_task_alert_if_late.png)
+![작업 종료 날짜가 초과된 경우 알림에 피할당자 필드가 강조 표시된 리소스 창.](assets/mrm_task_alert_if_late.png)
 
 ### 초기 알림 {#initial-notifications}
 
 시작일이 미래인 작업을 만들거나 수정할 때, Adobe Campaign에서는 작업 담당자에게 이메일을 보내어 시작일을 알려 준다고 제안합니다.
 
-![](assets/mrm_task_first_notif.png)
+![예 및 아니요 단추를 사용하여 예약된 작업에 대한 초기 알림을 보낼지 여부를 묻는 메시지를 표시합니다.](assets/mrm_task_first_notif.png)
 
 하지만 만들고 있는 작업이 너무 먼 경우에는 작업이 시작되기 전에 알림을 보내도록 예약하는 것이 좋습니다. 예를 들어 한 달 후에 작업이 시작되면 작업이 시작되기 1주일 전에 담당자에게 알릴 수 있습니다.
 
 알림을 예약하려면 **[!UICONTROL Resources]** 상자로 이동하여 **[!UICONTROL Initial notification]** 필드를 사용하십시오.
 
-![](assets/mrm_task_alert_before.png)
+![작업 시작 날짜 섹션 아래에 초기 알림 필드가 강조 표시된 리소스 창.](assets/mrm_task_alert_before.png)
 
 * 캠페인 내의 작업에 대해 특정 날짜 및 시간을 선택합니다.
 * 캠페인 템플릿 내의 작업의 경우 알림 시간은 작업이 시작되기 전까지 남은 시간으로 표시됩니다(예: **[!UICONTROL Initial notification]** 필드에 2d를 입력하면 작업 시작 날짜보다 2일 전에 이메일이 전송됨).
@@ -264,19 +264,19 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 1. 이 창에서 **[!UICONTROL Open]**&#x200B;을(를) 클릭합니다. 프로그램 일정이 열립니다.
 1. 오른쪽의 일정 위에 있는 **[!UICONTROL Add]** 단추를 클릭한 다음 **[!UICONTROL Add a task]**&#x200B;을(를) 클릭합니다.
 
-![](assets/mrm_task_create_from_prg.png)
+![추가 메뉴가 열려 있고 작업 추가 옵션이 선택된 프로그램 일정.](assets/mrm_task_create_from_prg.png)
 
 ### 운영자 가용성 {#operator-availability}
 
 작업 대시보드에서 운영자 이름 옆에 있는 아이콘은 작업이 적용되는 기간 동안 다른 작업 또는 이벤트에서 이미 작업 중임을 나타냅니다. 운영자가 담당하거나 관련된 작업이 **[!UICONTROL Assigned to]** 필드 또는 **[!UICONTROL Resources]** 작업 상자에 나타납니다.
 
-![](assets/mrm_task_alert_operator_busy.png)
+![할당 대상 행에서 연산자를 가리키는 화살표가 있는 작업 대시보드.](assets/mrm_task_alert_operator_busy.png)
 
 ### 워크플로우의 작업 {#task-in-a-workflow}
 
 캠페인 워크플로우에서 **[!UICONTROL Task]** 요소를 사용하면 작업 승인 여부에 따라 두 가지 시나리오를 정의할 수 있습니다.
 
-![](assets/mrm_task_in_workflow.png)
+![완료 시 작업 활동이 DM 배달로 연결되거나 완료 안 되면 대기 후 회신으로 연결되는 워크플로우입니다.](assets/mrm_task_in_workflow.png)
 
 캠페인 워크플로우에서 **[!UICONTROL Task]** 활동이 **[!UICONTROL Flow control]** 탭에 있습니다.
 
@@ -284,7 +284,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 캠페인을 통해 작업을 만들 때 특정 작업을 만들 수 있습니다. 선택한 템플릿에 작업 유형이 정의되어 있습니다.
 
-![](assets/s_ncs_user_task_select_template.png)
+![컨트롤, 그룹화, 마케팅 리소스 만들기, 알림 및 표준 작업 서식 파일이 있는 작업 서식 파일 목록입니다.](assets/s_ncs_user_task_select_template.png)
 
 다음 작업을 예약할 수 있습니다.
 
@@ -302,11 +302,11 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 **[!UICONTROL Control task]**&#x200B;이(가) 게재 승인(타기팅, 콘텐츠, 추출 파일, 예산 또는 증명 승인)에 연결되어 있습니다.
 
-![](assets/s_ncs_user_task_new_control.png)
+![Target, 콘텐츠, 예산, 추출 파일 및 증명 승인을 표시하는 승인 유형 목록이 있는 작업 양식을 제어합니다.](assets/s_ncs_user_task_new_control.png)
 
 작업이 생성되면 캠페인 대시보드에 작업이 추가됩니다.
 
-![](assets/s_ncs_user_task_edit_from_board.png)
+![Campaign 대시보드([작업] 목록에서 [열기], [승인] 및 [거부]가 있는 새 컨트롤 작업을 가리키는 화살표가 있음)](assets/s_ncs_user_task_edit_from_board.png)
 
 그런 다음 편집하고 매개 변수를 지정할 수 있습니다.
 
@@ -337,7 +337,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 작업을 검토하는 사람은 리소스에 정의된 콘텐츠를 검토하는 사람과 같지 않습니다. 그러나 **[!UICONTROL Publish the marketing resource]** 옵션을 선택하면(아래 참조) 작업을 완료하면 리소스가 자동으로 승인되므로(또는 검토자가 정의되지 않은 경우 작업 관리자) 작업 검토자는 리소스 콘텐츠를 승인할 수 있습니다.
 
-![](assets/mrm_task_asset_creation.png)
+![마케팅 리소스 필드가 있는 마케팅 리소스 만들기 작업과 마케팅 리소스 게시를 선택했습니다.](assets/mrm_task_asset_creation.png)
 
 **[!UICONTROL Marketing resource]** 필드에서 이 작업을 통해 관리할 리소스를 정의합니다. 다음을 수행할 수 있습니다.
 
@@ -348,7 +348,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 **[!UICONTROL Publish the resource]** 단추를 사용할 수 있고 리소스 게시 검토자는 게시 준비가 되었음을 알리는 알림 이메일을 수신합니다. **[!UICONTROL Edit > Tracking]** 탭에서 작업 검토자의 검토 및 게시가 표시됩니다. 리소스 사후 처리 워크플로우가 정의된 경우 이제 실행됩니다.
 
-![](assets/mrm_resource_audit_tab.png)
+![승인 및 게시 항목을 포함하는 승인 및 게시 분개를 표시하는 마케팅 리소스 감사 탭](assets/mrm_resource_audit_tab.png)
 
 ### 그룹 작업 {#grouping-task}
 
@@ -362,11 +362,11 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 그룹화 작업을 기반으로 그룹화된 작업을 만들려면 캠페인 대시보드로 이동하여 그룹화 작업의 이름을 클릭하여 설명을 표시한 다음 **[!UICONTROL Add a task]**&#x200B;을(를) 클릭합니다.
 
-![](assets/mrm_task_grouped_create.png)
+그룹화 작업이 확장되고 작업 추가 링크를 가리키는 화살표가 있는 ![Campaign 대시보드.](assets/mrm_task_grouped_create.png)
 
 그러나 그룹화 작업에 연결할 작업을 이미 만든 경우 **[!UICONTROL Properties]** 상자의 **[!UICONTROL Linked to]** 필드를 통해 해당 작업을 수행할 수 있습니다.
 
-![](assets/s_ncs_user_task_group_with.png)
+![작업 간 링크 정의에서 연결된 대상 필드가 다른 작업으로 설정된 작업 속성 창](assets/s_ncs_user_task_group_with.png)
 
 ### 알림 작업 {#notification-task}
 
@@ -376,7 +376,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 알림 작업은 승인이 필요하지 않습니다. 즉, 라이프 사이클이 표준 작업보다 간단합니다.
 
-![](assets/mrm_task_notif_lifecycle.png)
+![알림 작업 수명 주기: 전자 메일이 전송되는 시작 날짜까지 예약되어 진행 중이었다가 종료 날짜에 완료됨](assets/mrm_task_notif_lifecycle.png)
 
 알림 작업에는 다음과 같은 상태가 있을 수 있습니다.
 
@@ -386,7 +386,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 #### 구성 {#configuration}
 
-![](assets/mrm_task_notif_dashboard.png)
+![템플릿, 레이블, 할당 대상, 시작 및 종료 날짜 및 작업 설명이 있는 알림 작업 양식입니다.](assets/mrm_task_notif_dashboard.png)
 
 만드는 동안 작업에 다음 요소를 입력해야 합니다.
 
@@ -395,7 +395,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 * **작업 종료 날짜**: 작업 상태가 **[!UICONTROL Finished]**(으)로 변경되는 날짜. 기본적으로 종료 날짜는 시작 날짜와 동일합니다. 그러나 작업에 기간을 할당하면 필요한 경우 운영자가 일정에서 수행해야 하는 시간을 상징할 수 있습니다.
 * **[!UICONTROL Description]**: 여기에 입력한 텍스트가 알림 전자 메일의 본문에 나타납니다.
 
-  ![](assets/mrm_task_notif_dashboard_msg.png)
+  ![예약된 상태, 알림 유형, 할당자, 캠페인 및 설명 텍스트를 표시하는 알림 작업 요약입니다.](assets/mrm_task_notif_dashboard_msg.png)
 
 작업 및 알림 이메일에 첨부 파일을 추가할 수 있습니다. 이렇게 하려면 오른쪽 상단의 도구 모음에서 **[!UICONTROL Documents]** 아이콘을 클릭합니다.
 
@@ -411,21 +411,21 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 다음 예에서는 타겟팅 승인이 네 개의 하위 작업으로 분류됩니다.
 
-![](assets/s_ncs_user_task_linked_tasks.png)
+![스타일 업데이트 작업, Target 유효성 검사 작업 및 연결된 하위 작업 4개가 있는 캠페인 작업 목록입니다.](assets/s_ncs_user_task_linked_tasks.png)
 
 각 하위 과제는 주 과제와 연계되는 표준 과제이다.
 
-![](assets/s_ncs_user_task_depends_on.png)
+![Target 유효성 검사 상위 작업에 설정된 종속 대상 필드를 가리키는 화살표가 있는 작업 양식입니다.](assets/s_ncs_user_task_depends_on.png)
 
 #### 작업 그룹화 {#grouping-tasks}
 
 **[!UICONTROL Grouped to]** 필드를 사용하여 작업 실행이 다른 작업 실행에 따라 달라지도록 합니다.
 
-![](assets/s_ncs_user_task_group_with.png)
+![작업 간 링크 정의에서 연결된 대상 필드가 다른 작업으로 설정된 작업 속성 창](assets/s_ncs_user_task_group_with.png)
 
 작업 간의 종속성은 캠페인 대시보드의 화살표로 표시됩니다.
 
-![](assets/s_ncs_user_task_dependencies_from_board.png)
+![Campaign 작업 목록 및 화살표에 Target 유효성 검사 작업에 종속된 두 개의 하위 작업이 표시됩니다.](assets/s_ncs_user_task_dependencies_from_board.png)
 
 그룹화된 작업의 경우 Adobe Campaign은 상위 작업의 종료 날짜를 하위 작업에 시작 날짜로 자동 할당합니다. 예를 들어 **초대 만들기** 작업이 10월 15일 오후 3시 30분에 끝나는 경우 **초대 이메일 보내기** 하위 작업은 10월 15일 오후 3시 30분에 시작됩니다.
 
@@ -437,7 +437,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 상위 작업을 연기하겠습니다. 이제 10월 11일 오후 1시에 종료됩니다. A 작업만 연기되어 10월 11일 오후 1시에 시작됩니다.
 
-![](assets/mrm_task_parent_postpones_child.png)
+![상위 작업의 보기 전후에 하위 작업 A의 시작은 이동하지만 하위 작업 B는 이동하지 않는 &#x200B;](assets/mrm_task_parent_postpones_child.png)
 
 ### 작업 실행 상태 {#execution-status-of-a-task}
 
@@ -473,7 +473,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
    **앞으로 예약된 작업**&#x200B;을(를) 만들고 편집할 때(작업 시작 날짜에 도달하지 않은 경우) 참가자 및 관리자에게 알림을 보내 새 작업이 예약되었음을 알릴 수 있습니다.
 
-   ![](assets/s_ncs_user_task_planed_send_message.png)
+   ![화살표를 사용하여 예약된 작업에 대한 초기 알림을 보낼지 여부를 묻는 메시지 표시(아니요.](assets/s_ncs_user_task_planed_send_message.png))
 
    이 첫 번째 알림을 보내려면 **[!UICONTROL Yes]**&#x200B;을(를) 클릭합니다. 이 알림은 다음 작업에 대해 알려주며 콘텐츠에 대한 세부 정보와 마감까지 남은 일 수를 포함합니다.
 
@@ -485,21 +485,21 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
    * 알림 이메일을 통해
    * 클라이언트 콘솔 또는 웹 인터페이스를 통해 작업 대시보드를 만듭니다.
 
-     ![](assets/s_ncs_user_task_start_rea.png)
+     ![참가자가 작업을 승인할 수 있도록 작업 수행 및 거부 단추가 포함된 작업 요약.](assets/s_ncs_user_task_start_rea.png)
 
 1. 참가자가 작업을 승인할 때마다 작업의 진행 상태가 업데이트됩니다.
 
-   ![](assets/s_ncs_user_task_percentage_done_op.png)
+   ![댓글이 있는 작업 대화 상자의 작업 및 작업 수행 단추 수행 후 진행률이 34%로 업데이트되었습니다.](assets/s_ncs_user_task_percentage_done_op.png)
 
 1. 검토자는 운영자가 자신에게 할당된 섹션을 완료했다는 알림 이메일을 수신합니다.
 
    작업 대시보드의 진행률을 따를 수 있습니다.
 
-   ![](assets/s_ncs_user_task_follow_from_dashboard.png)
+   ![작업 대시보드에 34% 진행률이 표시되며 참가자가 이미 제공한 승인을 가리키는 화살표가 표시됩니다.](assets/s_ncs_user_task_follow_from_dashboard.png)
 
 1. 작업 책임자가 작업이 완료되었다고 결정하면 작업을 시작할 때 전송된 알림 이메일의 링크, 클라이언트 콘솔 또는 인터페이스를 사용하여 작업을 닫을 수 있습니다.
 
-   ![](assets/s_ncs_user_task_console_ressource_validation.png)
+   ![작업 요약 완료 단추를 클릭하면 댓글이 있는 작업 대화 상자에 작업이 표시되고 작업 완료 단추가 표시됩니다.](assets/s_ncs_user_task_console_ressource_validation.png)
 
    >[!NOTE]
    >
@@ -511,11 +511,11 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
    캠페인 대시보드를 통해 다음 작업을 수행할 수 있습니다.
 
-   ![](assets/s_ncs_user_task_console_validation.png)
+   ![승인 보류 중인 작업이 선택되고 승인 단추를 가리키는 화살표가 있는 Campaign 대시보드.](assets/s_ncs_user_task_console_validation.png)
 
    또한 작업 승인 버튼을 사용할 수도 있습니다.
 
-   ![](assets/s_ncs_user_task__validation.png)
+   ![보류 중 상태, 100% 진행 상태 및 작업 승인 단추의 작업 요약.](assets/s_ncs_user_task__validation.png)
 
    >[!NOTE]
    >

@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '820'
 ht-degree: 1%
 ---
 # 트랜잭션 메시지 보내기 및 모니터링 {#delivery-execution}
@@ -71,7 +71,7 @@ Adobe Campaign에서는 실행 인스턴스의 활동 및 원활한 실행을 �
 
 이러한 메시지 센터 보고서는 **제어 인스턴스**&#x200B;의 **[!UICONTROL Reports]** 탭에서 액세스할 수 있습니다.
 
-![](assets/mc-reports.png)
+![보고서 탭의 글로벌 보고서 페이지(메시지 센터 보고서 세 개가 강조 표시됨)](assets/mc-reports.png)
 
 ### 메시지 센터 이벤트 내역 {#history-events}
 
@@ -86,7 +86,7 @@ Adobe Campaign에서는 실행 인스턴스의 활동 및 원활한 실행을 �
 
 **[!UICONTROL Message Center processing time]** 보고서에는 실시간 큐와 관련된 기본 지표가 표시됩니다. 이 보고서는 컨트롤 인스턴스의 **[!UICONTROL Monitoring]** 탭을 통해서도 액세스할 수 있습니다.
 
-![](assets/mc-processing-time-report.png)
+![채널, 인스턴스 및 기간 필터, 표시기 및 차트가 있는 메시지 센터 처리 시간 보고서](assets/mc-processing-time-report.png)
 
 전역 통계를 표시하거나 특정 실행 인스턴스와 관련된 통계를 표시하도록 선택할 수 있습니다. 또한 특정 기간 동안 채널 및 을 기준으로 데이터를 필터링할 수도 있습니다.
 
@@ -135,4 +135,4 @@ Adobe Campaign에서는 실행 인스턴스의 활동 및 원활한 실행을 �
 1. **실행 인스턴스**&#x200B;에서 배포 마법사를 열고 **[!UICONTROL Message Center]** 페이지로 이동합니다.
 1. 화살표를 사용하여 임계값을 변경합니다.
 
-   ![](assets/mc-thresholds.png)
+   ![실행 인스턴스 설정 및 경고 및 경고 임계값을 사용하는 메시지 센터 구성 마법사](assets/mc-thresholds.png)

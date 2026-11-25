@@ -24,16 +24,16 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '603'
 ht-degree: 4%
 ---
 # 트랜잭션 메시지 설정 {#mc-settings}
 
-트랜잭션 메시지(메시지 센터)는 트리거된 메시지를 관리하기 위해 고안된 캠페인 모듈입니다. [이 섹션](../send/transactional.md)에서 트랜잭션 메시지에 대해 자세히 알아보세요.
+트랜잭션 메시지(메시지 센터)는 트리거된 메시지를 관리하기 위해 고안된 캠페인 모듈입니다. [캠페인 트랜잭션 메시지](../send/transactional.md)에서 트랜잭션 메시지에 대해 자세히 알아보세요.
 
-[이 페이지](../architecture/architecture.md#transac-msg-archi)의 트랜잭션 메시지 아키텍처를 이해합니다.
+[메시지 센터 아키텍처](../architecture/architecture.md#transac-msg-archi)의 트랜잭션 메시지 아키텍처를 이해합니다.
 
 
 >[!NOTE]

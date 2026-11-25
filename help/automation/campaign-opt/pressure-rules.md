@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '3145'
-ht-degree: 7%
+source-wordcount: '3612'
+ht-degree: 6%
 ---
 # 압력 규칙{#pressure-rules}
 
@@ -67,17 +67,17 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 
 1. 캠페인 유형화 규칙 목록에서 목록 위에 있는 **[!UICONTROL New]** 아이콘을 선택합니다.
 
-   ![](assets/campaign_opt_create_a_rule_01.png)
+   ![목록 위에 새 아이콘이 강조 표시된 관리 폴더의 유형화 규칙 목록입니다.](assets/campaign_opt_create_a_rule_01.png)
 
 1. 새 규칙의 **[!UICONTROL General]** 탭에서 **Pressure** 유형 규칙을 선택하고 이름과 설명을 입력합니다.
 
-   ![](assets/campaign_opt_create_a_rule_02.png)
+   ![규칙 유형 목록에서 [압력]이 선택된 새 유형화 규칙, 일반 탭](assets/campaign_opt_create_a_rule_02.png)
 
 1. 필요한 경우 실행 순서를 변경합니다. 여러 유형화 규칙을 **[!UICONTROL Typology]** 집합으로 적용하면 순서가 낮은 규칙이 먼저 적용됩니다. [자세히 알아보기](apply-rules.md#execution-order).
 1. **[!UICONTROL Calculation parameters]** 섹션에서 다음 일별 재중재 실행 이후에 타깃팅을 저장하려면 빈도를 정의하세요. [자세히 알아보기](apply-rules.md#adjust-calculation-frequency).
 1. **[!UICONTROL Pressure]** 탭을 클릭하고 유형화 규칙이 적용되는 일정 기간을 선택합니다.
 
-   ![](assets/campaign_opt_create_a_rule_03.png)
+   ![슬라이딩 기간 섹션과 그룹화 옵션을 표시하는 기간 유형 목록이 있는 압력 탭](assets/campaign_opt_create_a_rule_03.png)
 
    해당 기간에 연락 날짜가 포함된 게재에 규칙이 적용됩니다.
 
@@ -91,11 +91,11 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 
    기본적으로 임계값은 일정하며 규칙에서 허가한 최대 메시지 수를 표시해야 합니다.
 
-   ![](assets/campaign_opt_create_a_rule_03b.png)
+   ![임계값 유형이 상수로 설정되어 있고 수량이 4.](assets/campaign_opt_create_a_rule_03b.png)인 압력 탭
 
    변수 임계값을 정의하려면 **[!UICONTROL Type of threshold]** 필드에서 **[!UICONTROL Depends on the recipient]** 값을 선택하고 오른쪽에 있는 아이콘을 사용하여 표현식 편집기를 엽니다.
 
-   ![](assets/campaign_opt_create_a_rule_04.png)
+   ![상수 및 종속 항목을 표시하는 임계값 유형 목록입니다.](assets/campaign_opt_create_a_rule_04.png)
 
    자세한 정보는 [최대 메시지 수](#maximum-number-of-messages)를 참조하세요.
 
@@ -110,7 +110,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 
      다음 예제에서는 **NewContacts** 폴더에 저장된 수신자만 고려하며 **Newsletter**(으)로 시작하는 게재를 고려합니다.
 
-   ![](assets/campaign_opt_create_a_rule_05.png)
+   ![NewRecipients에 대한 폴더 쿼리와 Newsletter로 시작하는 레이블에 대한 게재 쿼리가 있는 계산할 메시지 섹션.](assets/campaign_opt_create_a_rule_05.png)
 
 1. **[!UICONTROL Typologies]** 탭에서는 이 규칙을 적용하거나 하나 이상의 기존 유형화에 연결하는 캠페인 유형화를 볼 수 있습니다. [자세히 알아보기](campaign-typologies.md#apply-typologies).
 
@@ -122,7 +122,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 
 임계값은 일정하거나 변수가 있는 공식으로 계산할 수 있습니다. 즉, 특정 기간 동안 임계값은 수신자마다 또는 동일한 수신자에 대해 다를 수 있습니다.
 
-![](assets/campaign_opt_create_a_rule_threshold.png)
+![Pressure 탭의 최대 메시지 수 섹션, 강조 표시, 상수 임계값 1.](assets/campaign_opt_create_a_rule_threshold.png)
 
 >[!CAUTION]
 >
@@ -132,7 +132,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 
 수신자가 속한 세그먼트에 따라 허용된 메시지 수를 인덱싱할 수 있습니다. 즉, 웹 세그먼트에 속하는 수신자가 다른 수신자보다 더 많은 메시지를 받을 수 있습니다. **[!UICONTROL Iif (@origin='Web', 5, 3)]** 형식 수식은 받는 사람에게 5개의 메시지를 배달하고 다른 세그먼트의 경우 3개의 메시지를 배달하도록 허용합니다. 구성은 다음과 같습니다.
 
-![](assets/campaign_opt_pressure_sample.png)
+![임계값 유형은 Iif(origin이 &#39;Web&#39;, 5, 3과 같음) 수식을 사용하는 받는 사람에 따라 다릅니다.](assets/campaign_opt_pressure_sample.png)
 
 임계값을 정의하려면 타겟팅 차원에 연결된 차원을 사용할 수 있습니다. 예를 들어, [방문자 테이블](../../v8/audiences/target-mappings.md)에 저장된 수신자 프로필에 전달된 메시지를 포함하거나, 수신자 프로필에 연결된 차원에서 식별된 동일한 가구(여러 이메일 주소를 의미할 수 있음)에 매주 두 개 이상의 메시지를 보내지 않도록 할 수 있습니다.
 
@@ -156,7 +156,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 1. 수신자 성향 점수를 저장할 새 필드를 만듭니다. 이 경우 필드 **@Music**&#x200B;은(는) 설문 조사 및 온라인 설문 조사에 대한 답변, 수집된 추적 데이터 등으로 보강됩니다.
 1. 이 필드를 기반으로 메시지 가중치를 계산하는 유형화 규칙을 만듭니다.
 
-   ![](assets/campaign_opt_pressure_weight_sample.png)
+   ![사용 가능한 필드에 음악 필드가 선택되어 있는 가중치 공식에서 열린 식 대화 상자를 선택합니다.](assets/campaign_opt_pressure_weight_sample.png)
 
 1. 뉴스레터, 특별 오퍼 등의 주제를 가진 메시지에 이 규칙을 적용합니다. 이러한 게재의 가중치 및 따라서 우선 순위 수준은 각 수신자의 성향 점수에 따라 달라집니다.
 
@@ -191,19 +191,19 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 
 2주 기간 동안 권유를 3개의 메시지로 제한하고 해당 달로 그룹화하는 압력 규칙을 만들려고 합니다.
 
-![](assets/campaign_opt_pressure_period_sample_1a.png)
+![15d 기간, 월별 그룹화 및 3개 메시지의 일정한 임계값이 있는 압력 탭.](assets/campaign_opt_pressure_period_sample_1a.png)
 
 05/30, 06/3, 06/8, 06/12, 06/22 및 06/30으로 예정된 6개의 뉴스레터를 동일한 가중치로 사용해 보겠습니다.
 
-![](assets/campaign_opt_pressure_period_sample_0.png)
+![2016년 11월 달력 두 개. 두 번째 달력은 3번째, 8번째, 12번째, 22번째, 30번째 배달 날짜를 강조 표시합니다.](assets/campaign_opt_pressure_period_sample_0.png)
 
 6월 12일과 30일로 예약된 게재는 전송되지 않습니다. 06/12 게재는 2주 기간당 3개의 메시지 임계값을 초과하며 30일 게재는 월별 승인된 통신의 임계값을 초과합니다.
 
-![](assets/campaign_opt_pressure_period_sample_1.png)
+![보류 중, 실패 및 편집 중 상태, 대상 및 보낼 수 있는 게재 목록입니다.](assets/campaign_opt_pressure_period_sample_1.png)
 
 이러한 게재에 대한 모든 수신자는 분석 단계 중 중재에 의해 제외됩니다.
 
-![](assets/campaign_opt_pressure_period_sample_2.png)
+![중재 후 제외된 이유가 있는 받는 사람을 나열하는 게재의 제외 로그.](assets/campaign_opt_pressure_period_sample_2.png)
 
 동일한 규칙의 경우 분기별 게재를 그룹화하는 경우 **뉴스레터 번호 5**&#x200B;의 수신자도 제외되며 전송되지 않습니다.
 
@@ -223,7 +223,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 
 이 수가 임계값을 초과하는 경우 캠페인 유형화에 정의된 중재 규칙이 적용되고 수신자는 가중치가 낮은 캠페인에서 제외됩니다.
 
-![](assets/campaign_opt_pressure_exclusion.png)
+![전송 대상이 12개인 게재 요약 및 중재 후 제외된 제외 로그가 포함된 &#x200B;](assets/campaign_opt_pressure_exclusion.png)
 
 >[!NOTE]
 >
@@ -244,21 +244,21 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 
    계산 수식을 정의하려면 **[!UICONTROL Advanced parameters]** 단추를 클릭하십시오.
 
-   ![](assets/campaign_opt_pressure_sample_1_1.png)
+   ![상태 필드가 선택된 상태에서 수식 필드에서 열린 식 대화 상자를 선택합니다.](assets/campaign_opt_pressure_sample_1_1.png)
 
 1. **[!UICONTROL Edit the formula using an expression]** 옵션을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/campaign_opt_pressure_sample_1_2.png)
+   ![식 옵션을 사용하여 수식 편집 옵션을 선택한 수식 유형 단계입니다.](assets/campaign_opt_pressure_sample_1_2.png)
 
 1. 함수 목록에서 **[!UICONTROL Others]** 노드의 **Iif** 함수를 두 번 클릭합니다.
 
    그런 다음 **[!UICONTROL Available fields]** 섹션에서 받는 사람의 **상태**&#x200B;를 선택합니다.
 
-   ![](assets/campaign_opt_pressure_sample_1_3.png)
+   ![기타 항목의 Iif 함수와 수식의 상태 필드를 사용하여 식 대화 상자를 편집합니다.](assets/campaign_opt_pressure_sample_1_3.png)
 
    수식 **Iif(@status=0,2,4)**&#x200B;을(를) 입력하십시오.
 
-   ![](assets/campaign_opt_pressure_sample_1_4.png)
+   ![완료된 수식 Iif(@status=0,2,4)로 식 대화 상자를 편집합니다.](assets/campaign_opt_pressure_sample_1_4.png)
 
    이 수식을 사용하면 상태가 0인 경우 값 2를 할당하고 다른 모든 상태에 대해 값 4를 할당할 수 있습니다.
 
@@ -266,7 +266,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 
 1. 규칙이 적용되는 기간(이 경우 7일)을 지정하여 주당 메시지 수를 계산합니다.
 
-   ![](assets/campaign_opt_pressure_sample_1_5.png)
+   ![받는 사람 상태에 따라 기간 유형 목록과 수식이 있는 압력 탭입니다.](assets/campaign_opt_pressure_sample_1_5.png)
 
 1. 규칙을 저장하여 생성을 승인합니다.
 
@@ -275,13 +275,13 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 1. 캠페인 유형화를 만듭니다.
 1. **[!UICONTROL Rules]** 탭으로 이동하여 **[!UICONTROL Add]** 버튼을 클릭하고 방금 만든 규칙을 선택합니다.
 
-   ![](assets/campaign_opt_pressure_sample_1_6.png)
+   선택할 유형화 규칙이 나열된 규칙 추가 대화 상자가 있는 새 유형화의 ![규칙 탭.](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. 유형화 저장: 기존 유형화 목록에 추가됨.
 
 게재에서 이 유형화를 사용하려면 아래와 같이 **[!UICONTROL Typology]** 탭의 게재 속성에서 선택합니다.
 
-![](assets/campaign_opt_pressure_sample_1_7.png)
+![게재 속성, 유형화 탭(클라이언트/잠재 고객 압력 유형화가 유형화 목록에 선택된 경우).](assets/campaign_opt_pressure_sample_1_7.png)
 
 >[!NOTE]
 >
@@ -291,15 +291,15 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 
 * 분석 결과 보기:
 
-  ![](assets/campaign_opt_pressure_sample_1_8.png)
+  ![완료된 준비 로그와 주소 제외 규칙이 강조 표시된 게재 분석 창.](assets/campaign_opt_pressure_sample_1_8.png)
 
 * 게재를 편집하고 **[!UICONTROL Delivery]** 탭과 **[!UICONTROL Exclusions]** 하위 탭을 클릭합니다.
 
-  ![](assets/campaign_opt_pressure_sample_1_9.png)
+  ![게재 탭, 제외 하위 탭, 중재 후 제외된 제외 로그가 있음.](assets/campaign_opt_pressure_sample_1_9.png)
 
 * **[!UICONTROL Audit]** 탭을 클릭한 다음 **[!UICONTROL Causes of exclusions]** 하위 탭을 클릭하여 제외 수와 적용된 유형화 규칙을 표시합니다.
 
-  ![](assets/campaign_opt_pressure_sample_1_10.png)
+  ![감사 탭, 유형화 규칙당 제외 볼륨을 포함하는 제외 원인 하위 탭입니다.](assets/campaign_opt_pressure_sample_1_10.png)
 
 ### 비헤이비어를 기반으로 게재 가중치 계산 {#calculate-the-delivery-weight-based-on-behavior}
 
@@ -314,15 +314,15 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 1. 새 **압력** 유형 유형화 규칙을 만듭니다.
 1. **[!UICONTROL Pressure]** 탭을 편집합니다. 각 개별 수신자를 기준으로 하는 임계값 수식을 만들려고 합니다. **[!UICONTROL Weight formula]** 필드 오른쪽에 있는 **[!UICONTROL Edit expression]** 아이콘을 클릭합니다.
 
-   ![](assets/campaign_opt_pressure_sample_2_1.png)
+   ![가중치 수식 필드 옆에 식 편집 아이콘이 강조 표시된 압력 탭입니다.](assets/campaign_opt_pressure_sample_2_1.png)
 
 1. 기본적으로 **5** 값은 식 편집기의 위쪽 섹션에 표시됩니다. 각 수신자의 성향 점수를 이 가중치에 추가하려고 합니다. 커서를 5의 오른쪽에 놓고 **+** 문자를 입력한 다음 **성향** 필드를 선택합니다.
 
-   ![](assets/campaign_opt_pressure_sample_2_2.png)
+   ![가중치 수식 5+@Affinity과 선호도 필드를 선택한 상태로 식 대화 상자를 편집합니다.](assets/campaign_opt_pressure_sample_2_2.png)
 
 1. 그런 다음 이미 구매한 수신자에 대해 더 높은 값을 추가합니다. 이들에게는 배송의 무게가 5만큼 증가해야 하는 반면, 다른 이들에게는 4만큼 증가하는 데 그친다.
 
-   ![](assets/campaign_opt_pressure_sample_2_3.png)
+   ![관심 분야에 대한 필드 및 Iif 조건을 추가하는 가중치 수식으로 식 대화 상자를 편집합니다.](assets/campaign_opt_pressure_sample_2_3.png)
 
 1. 이 규칙을 저장하려면 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 1. 규칙을 캠페인 유형화에 연결하고 게재에서 이 유형화를 참조하여 승인합니다.
@@ -338,7 +338,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 1. 압력 규칙을 만듭니다. [자세히 알아보기](#create-a-pressure-rule).
 1. **[!UICONTROL General]** 탭에서 **[!UICONTROL Re-apply the rule at the start of personalization]** 옵션을 선택합니다.
 
-   ![](assets/campaign_opt_pressure_example_5.png)
+   ![개인화 시작 시 규칙을 다시 적용하는 옵션을 선택한 압력 규칙의 일반 탭](assets/campaign_opt_pressure_example_5.png)
 
    이 옵션은 **[!UICONTROL Frequency]** 필드에 정의된 값을 오버규칙하고 개인화 단계 동안 규칙을 자동으로 적용합니다. [자세히 알아보기](apply-rules.md#adjust-calculation-frequency).
 
@@ -353,17 +353,17 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 1. 워크플로우에 **[!UICONTROL Email delivery]** 활동을 추가하고 엽니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](../workflow/delivery.md)을 참조하세요.
 1. **[!UICONTROL Delivery properties]**&#x200B;의 **[!UICONTROL Approvals]** 탭으로 이동하여 모든 승인을 비활성화합니다.
 
-   ![](assets/campaign_opt_pressure_example_2.png)
+   ![게재 속성, 승인 탭(모든 승인 옵션 및 게재 확인 삭제).](assets/campaign_opt_pressure_example_2.png)
 
 1. **[!UICONTROL Delivery properties]**&#x200B;의 **[!UICONTROL Typology]** 탭에서 규칙을 적용할 캠페인 유형화를 참조합니다. 게재 가중치를 정의합니다.
 
-   ![](assets/campaign_opt_pressure_example_3.png)
+   ![Typology 필드 및 Delivery 가중치가 10인 Delivery 속성, Typology 탭](assets/campaign_opt_pressure_example_3.png)
 
 1. 게재에서 **[!UICONTROL Scheduling]**&#x200B;을(를) 클릭하고 **[!UICONTROL Schedule delivery (automatic execution when the scheduled date is reached)]**&#x200B;을(를) 선택합니다. 이 예제에서는 **[!UICONTROL Use a calculation formula]** 옵션을 선택합니다.
 1. 추출 날짜를 10분 (현재 날짜 + 10분)으로 설정합니다.
 1. 연락 날짜를 다음 날(현재 날짜 + 1일)로 설정합니다.
 
-   ![](assets/campaign_opt_pressure_example_4.png)
+   ![현재 날짜로 추출 설정, 10분, 현재 날짜로 연락하는 날짜, 1일로 설정된 예약 대화 상자](assets/campaign_opt_pressure_example_4.png)
 
    압력 규칙 제외가 성공적으로 구현되도록 하려면 연락 날짜 및 시간 이전과 야간 중재가 다시 적용되기 전에 추출 날짜 및 시간을 설정해야 합니다. [자세히 알아보기](#exclusion-after-arbitration).
 

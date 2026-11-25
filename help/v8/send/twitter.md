@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 3%
+source-wordcount: '895'
+ht-degree: 2%
 ---
 # Adobe Campaign으로 X(Twitter)에 메시지 게시 {#post-tw-messages}
 
@@ -40,7 +40,7 @@ Adobe Campaign에는 X(이전 Twitter)를 통해 고객 및 잠재 고객과 상
 * 프로필 데이터를 복구하여 새 연락처를 수집하면 타겟팅 캠페인을 수행하고 가능한 경우 크로스 채널 전략을 구현할 수 있습니다. 이 작업을 수행하려면 사용자의 동의가 필요합니다.
 
 
-X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../connect/ac-tw.md)에 설명되어 있습니다.
+X 계정을 Adobe Campaign과 통합하는 구성 단계는 [Campaign 및 X(Twitter)와 함께 작업](../connect/ac-tw.md)에 설명되어 있습니다.
 
 ## X 게시물 만들기 및 게시 {#publish-on-tw}
 
@@ -50,13 +50,13 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
    **[!UICONTROL Tweet (twitter)]** 게재 템플릿을 기반으로 새 게재를 만듭니다.
 
-   ![](assets/tw-new-delivery.png)
+   ![템플릿 목록에서 선택한 트윗(twitter) 게재 템플릿을 사용한 새 게재 대화 상자](assets/tw-new-delivery.png)
 
 1. 주 대상 선택
 
    게시물을 보낼 계정을 선택합니다.
 
-   ![](assets/tw-define-target.png)
+   ![Twitter 계정 대상과 [추가] 단추가 강조 표시된 기본 대상 탭의 대상 선택 대화 상자](assets/tw-define-target.png)
 
    1. **[!UICONTROL To]** 링크를 클릭합니다.
    1. **[!UICONTROL Add]** 버튼을 클릭합니다.
@@ -77,7 +77,7 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
    **[!UICONTROL Content]** 탭에 게시물의 내용을 입력합니다.
 
-   ![](assets/tw-delivery-content.png)
+   ![게시물 텍스트와 개인화 필드가 있는 트윗 게재의 콘텐츠 탭](assets/tw-delivery-content.png)
 
    >[!CAUTION]
    >
@@ -91,7 +91,7 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
    게시물의 렌더링을 확인하려면 **[!UICONTROL Preview]** 탭을 검색하세요.
 
-   ![](assets/tw-delivery-preview.png)
+   ![서비스 이름으로 렌더링된 게시물 텍스트를 표시하는 트윗 게재의 미리 보기 탭](assets/tw-delivery-preview.png)
 
    1. **[!UICONTROL Preview]** 탭을 클릭합니다.
    1. **[!UICONTROL Test personalization]** 드롭다운 메뉴를 클릭하고 **[!UICONTROL Service]**&#x200B;을(를) 선택합니다.
@@ -118,7 +118,7 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
 1. 주 대상 선택
 
-   ![](assets/tw-dm-define-target.png)
+   ![방문자 구독 매핑이 포함된 대상 선택 대화 상자 및 다이렉트 메시지에 대해 강조 표시된 추가 단추](assets/tw-dm-define-target.png)
 
    1. **[!UICONTROL To]** 링크 및 **[!UICONTROL Add]** 단추를 선택합니다.
 
@@ -126,7 +126,7 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
       * 모든 팔로워에게 다이렉트 메시지를 보내려면 **[!UICONTROL Twitter subscribers]**&#x200B;을(를) 선택하세요.
 
-      * 쿼리를 정의하고 결과를 보려면 **[!UICONTROL Filter conditions]**&#x200B;을(를) 선택하십시오. [이 섹션](../audiences/create-filters.md#advanced-filters)에서 필터를 만드는 방법을 알아봅니다.
+      * 쿼리를 정의하고 결과를 보려면 **[!UICONTROL Filter conditions]**&#x200B;을(를) 선택하십시오. [고급 필터](../audiences/create-filters.md#advanced-filters)에서 필터를 만드는 방법을 알아봅니다.
 
 1. **[!UICONTROL Target of the proofs]** 탭에서 증명 대상을 선택하십시오. 이 계정은 다이렉트 메시지의 증명을 받게 됩니다.
 
@@ -139,15 +139,15 @@ X 계정을 Adobe Campaign과 통합하는 구성 단계는 [이 페이지](../c
 
 1. **[!UICONTROL Content]** 탭에 메시지 내용을 입력합니다.
 
-   ![](assets/tw-dm-content.png)
+   ![개인화된 메시지 텍스트가 있는 Twitter 다이렉트 메시지 게재의 콘텐츠 탭](assets/tw-dm-content.png)
 
-   개인화 필드는 이메일 게재와 동일한 방식으로 사용할 수 있습니다(예: 메시지 본문에 팔로워의 이름을 추가). [이 섹션](../send/personalize.md)에서 자세히 알아보십시오.
+   개인화 필드는 이메일 게재와 동일한 방식으로 사용할 수 있습니다(예: 메시지 본문에 팔로워의 이름을 추가). [개인화 시작](../send/personalize.md)에서 자세히 알아보세요.
 
 1. 메시지 미리 보기
 
    게시물의 렌더링을 확인하려면 **[!UICONTROL Preview]** 탭을 검색하세요.
 
-   ![](assets/tw-dm-preview.png)
+   ![선택한 구독자에 대해 개인화된 텍스트를 표시하는 Twitter 쪽지의 미리 보기 탭](assets/tw-dm-preview.png)
 
    1. **[!UICONTROL Preview]** 탭을 클릭합니다.
    1. **[!UICONTROL Test personalization]** 드롭다운 메뉴를 클릭하고 **[!UICONTROL Visitor Subscription]**&#x200B;을(를) 선택합니다.

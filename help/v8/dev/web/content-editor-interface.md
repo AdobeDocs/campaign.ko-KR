@@ -25,9 +25,9 @@ subfeature_v2:
     internal-label: Landing pages
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
     internal-label: Email design
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '661'
 ht-degree: 3%
 ---
 # 콘텐츠 편집기 인터페이스{#content-editor-interface}
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 DCE 편집 창은 세 개의 서로 다른 섹션으로 분류됩니다. 이를 통해 콘텐츠의 상태를 보고, 수정하고, 확인할 수 있습니다.
 
-![](assets/dce_decoupe_window_nb.png)
+![상태 메시지, 콘텐츠 영역 및 오른쪽 옵션 패널의 세 개의 번호 매기기 섹션이 있는 DCE 편집 창](assets/dce_decoupe_window_nb.png)
 
 1. **top** 섹션은 사용자에게 보내는 메시지를 표시하는 영역입니다. 이러한 메시지는 만들어지는 웹 애플리케이션 또는 게재의 상태와 콘텐츠와 관련된 경고 및 오류 메시지를 나타냅니다. 자세한 내용은 [HTML 콘텐츠 상태](content-editing-best-practices.md#html-content-statuses)를 참조하세요.
 1. 창의 **left** 섹션은 콘텐츠를 편집하는 영역입니다. 이 영역에서 사용자는 팝업 도구 모음을 사용하여 콘텐츠와 직접 상호 작용할 수 있습니다. 이미지에 링크 삽입, 글꼴 변경, 필드 삭제 등 자세한 내용은 [양식 편집](editing-content.md#editing-forms)을 참조하세요.
@@ -48,17 +48,17 @@ DCE 편집 창은 세 개의 서로 다른 섹션으로 분류됩니다. 이를 
 
 편집기의 오른쪽 상단 섹션에서는 현재 만들어지는 콘텐츠를 제어할 수 있는 글로벌 옵션에 액세스할 수 있습니다.
 
-![](assets/dce_global_options.png)
+![블록 옵션 패널 위에 4개의 전역 옵션 아이콘이 있는 편집기의 오른쪽 상단](assets/dce_global_options.png)
 
 여기에는 네 개의 아이콘이 있습니다.
 
-![](assets/dce_icons_sidebar.png)
+![전역 옵션 아이콘: 블록 표시/숨기기, 다른 콘텐츠 선택, 템플릿으로 저장 및 페이지의 속성](assets/dce_icons_sidebar.png)
 
 * **블록 표시/숨기기** 아이콘을 사용하면 콘텐츠 블록 주위에 파란색 프레임을 표시할 수 있습니다(`<div>` HTML 태그에 해당됨).
 
 * **다른 콘텐츠 선택** 아이콘을 사용하면 템플릿(기존 템플릿 또는 기본 제공 템플릿)에서 새 콘텐츠를 로드할 수 있습니다.
 
-  ![](assets/dce_popup_templatechoice.png)
+  ![연락처 및 클릭스루와 같은 사용 가능한 템플릿과 파일에서 콘텐츠 대화 상자를 선택합니다](assets/dce_popup_templatechoice.png)
 
   >[!CAUTION]
   >
@@ -66,15 +66,15 @@ DCE 편집 창은 세 개의 서로 다른 섹션으로 분류됩니다. 이를 
 
 * **템플릿으로 저장** 아이콘을 사용하면 현재 콘텐츠를 템플릿으로 저장할 수 있습니다. 템플릿의 레이블과 내부 이름을 입력해야 합니다. 템플릿이 **[!UICONTROL Resources > Templates > Content templates]** 노드에 저장됩니다.
 
-  ![](assets/dce_popup_savetemplate.png)
+  ![레이블, 내부 이름 및 폴더 필드가 있는 템플릿으로 저장 대화 상자](assets/dce_popup_savetemplate.png)
 
   저장하면 템플릿을 사용할 수 있으며, 새 콘텐츠를 만들 때 선택할 수 있습니다.
 
-  ![](assets/dce_create_fromtemplate.png)
+  ![저장된 음악 및 예술 템플릿을 사용하여 전자 메일 게재 HTML 콘텐츠 탭에서 콘텐츠 템플릿을 사용할 수 있습니다](assets/dce_create_fromtemplate.png)
 
 * **페이지 속성** 아이콘을 사용하면 HTML 페이지 맨 위에서 콘텐츠 정보를 선택할 수 있습니다.
 
-  ![](assets/dce_popup_headerhtml.png)
+  ![HTML 페이지 헤더의 제목, 키워드 및 설명 필드가 있는 페이지 대화 상자의 속성](assets/dce_popup_headerhtml.png)
 
   >[!NOTE]
   >
@@ -86,7 +86,7 @@ DCE 편집 창은 세 개의 서로 다른 섹션으로 분류됩니다. 이를 
 
 편집기 오른쪽에 있는 섹션에는 콘텐츠에 따라 작업을 수행할 수 있는 기본 옵션이 그룹화되어 있습니다. 이러한 옵션을 표시하려면 블록을 선택해야 합니다. 이러한 옵션의 특성은 선택한 블록에 따라 다릅니다.
 
-![](assets/dce_right_section.png)
+![블록 옵션이 있는 편집기의 오른쪽 섹션: 표시 조건, 테두리 및 배경색](assets/dce_right_section.png)
 
 다음을 수행할 수 있습니다.
 

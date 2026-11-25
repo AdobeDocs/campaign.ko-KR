@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 3%
+source-wordcount: '367'
+ht-degree: 2%
 ---
 # 오퍼 시뮬레이션 정보{#about-offers-simulation}
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 오퍼를 시뮬레이션하는 방법을 알아보려면 아래 단계를 참조하십시오.
 
-![](assets/how-to-video.png) 이 [비디오](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com)도 볼 수 있습니다.
+![비디오 재생](assets/how-to-video.png) 이 [비디오](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com)도 볼 수 있습니다.
 
 ## 시뮬레이션을 만드는 주요 단계 {#main-steps-for-creating-a-simulation}
 
@@ -46,14 +46,14 @@ ht-degree: 3%
 
 1. **[!UICONTROL Profiles and Targets]** 탭에서 **[!UICONTROL Simulations]** 링크를 클릭한 다음 **[!UICONTROL Create]** 단추를 클릭합니다.
 
-   ![](assets/offer_simulation_001.png)
+   템플릿, 레이블 및 폴더가 있는 새 오퍼 시뮬레이션 대화 상자를 여는 만들기 단추가 있는 ![시뮬레이션 목록](assets/offer_simulation_001.png)
 
 1. 방금 만든 시뮬레이션을 저장하고 편집합니다.
 1. **[!UICONTROL Edit]** 탭으로 이동하여 실행 설정을 지정하십시오.
 
    자세한 내용은 [실행 설정](execution-settings.md)을 참조하세요.
 
-   ![](assets/offer_simulation_003.png)
+   ![시뮬레이션 일반 탭, 실행 설정: 낮은 작업 예약, SQL 로깅 및 우선 순위 목록](assets/offer_simulation_003.png)
 
    >[!NOTE]
    >
@@ -63,21 +63,21 @@ ht-degree: 3%
 
    자세한 내용은 [범위의 정의](simulation-scope.md#definition-of-the-scope)를 참조하세요.
 
-   ![](assets/offer_simulation_004.png)
+   ![환경, 오퍼 공간, 연락 날짜, 제안 및 폴더 추천 대상이 있는 시뮬레이션 범위 탭](assets/offer_simulation_004.png)
 
 1. 보고 축을 추가하여 **[!UICONTROL Offer distribution by rank]** 보고서를 개선하십시오(선택 사항).
 
    자세한 내용은 [보고 축 추가](simulation-scope.md#adding-reporting-axes)를 참조하세요.
 
-   ![](assets/offer_simulation_005.png)
+   ![대상 및 오퍼에 보고 축이 있는 시뮬레이션 계산 탭 및 추가 단추](assets/offer_simulation_005.png)
 
 1. 시뮬레이션 설정을 기록하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
 1. 대시보드를 통해 시뮬레이션을 시작합니다.
 
-   ![](assets/offer_simulation_006.png)
+   ![시뮬레이션 시작 단추가 강조 표시된 시뮬레이션 대시보드](assets/offer_simulation_006.png)
 
 1. 시뮬레이션 결과를 확인하고 분석 보고서를 표시합니다.
 
    자세한 내용은 [시뮬레이션 추적](simulation-tracking.md)을 참조하세요.
 
-   ![](assets/offer_simulation_007.png)
+   ![결과 탭 및 등급별 오퍼 분류 보고서(오퍼 순위 테이블 및 파이 차트 포함)](assets/offer_simulation_007.png)

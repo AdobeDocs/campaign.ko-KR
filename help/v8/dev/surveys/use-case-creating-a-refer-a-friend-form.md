@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '820'
 ht-degree: 0%
 ---
 # 활용 사례: 참조 양식 만들기{#use-case-creating-a-refer-a-friend-form}
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 이 예제에서는 데이터베이스의 수신자에게 경쟁을 제공하려고 합니다. 웹 양식에는 답변을 입력하는 섹션이 있고 이메일 주소를 입력하여 친구를 참조하는 섹션이 있습니다.
 
-![](assets/s_ncs_admin_survey_viral_sample_0.png)
+![식별 영역, 무작위 질문이 있는 퀴즈 영역, 친구를 추천할 초대 영역이 있는 경쟁 양식](assets/s_ncs_admin_survey_viral_sample_0.png)
 
 식별 및 경쟁 블록은 이전에 설명된 프로세스를 사용하여 생성된다.
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 질문과 친구의 연락처 정보를 입력할 수 있는 필드가 있는 경쟁 웹 양식을 아래와 같이 만듭니다.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_2.png)
+   ![친구 연락처 필드가 있는 ID, 게임 및 추천 섹션이 있는 경쟁 양식 구조](assets/s_ncs_admin_survey_viral_sample_2.png)
 
    **메시지** 필드를 사용하면 심판에 대한 메시지를 입력할 수 있습니다. 레퍼러는 **성**, **이름** 및 **전자 메일**&#x200B;도 입력해야 합니다.
 
@@ -65,7 +65,7 @@ ht-degree: 0%
    >
    >이 예에서는 수신자를 타겟팅하여 레퍼러가 권장하는 대회에 참가하도록 제안하려고 합니다. 그러나 이 메시지에서는 당사의 정보 서비스 중 하나에 대한 구독을 제공하고자 합니다. 구독하는 경우 데이터베이스에 저장할 수 있습니다.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_5.png)
+   ![친구 참조 섹션에서 His 성 필드가 있는 양식 구조](assets/s_ncs_admin_survey_viral_sample_5.png)
 
    심판과 관련된 필드의 콘텐츠는 프로필 만들기 스크립트와 심판에 전송된 메시지에 사용됩니다.
 
@@ -73,9 +73,9 @@ ht-degree: 0%
 
    여기에는 다음 지침이 포함되어 있습니다.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_4.png)
+   ![기본 설정 정보 스크립트 상자가 열려 방문자 ID, 전달 URL 및 레퍼러 필드를 설정하는 양식 다이어그램](assets/s_ncs_admin_survey_viral_sample_4.png)
 
-   ```
+   ```javascript
    ctx.recipient.visitor.@id = xtk.session.GetNewIds(1)
    ctx.recipient.visitor.@forwardUrl = "APP5"
    ctx.recipient.visitor.@referrerEmail = ctx.recipient.@email
@@ -89,23 +89,23 @@ ht-degree: 0%
 
 1. 저장소 상자에서는 정보를 수집하여 데이터베이스에 저장할 수 있습니다.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_4b.png)
+   ![조정 옵션에서 선택한 방문자 요소가 있는 저장소 상자 대화 상자 대화 상자를 선택하여 주심을 저장합니다](assets/s_ncs_admin_survey_viral_sample_4b.png)
 
 1. 그런 다음 1단계에서 만든 정보 서비스에 연결된 게재 템플릿을 만듭니다. 정보 서비스의 **[!UICONTROL Choose scenario]** 필드에서 선택합니다.
 
    추천 오퍼 메시지를 생성하는 데 사용되는 게재 템플릿에는 다음 정보가 포함됩니다.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_7.png)
+   ![제목 및 개인화 필드를 사용하는 HTML 콘텐츠로 친구 게재 템플릿 초대](assets/s_ncs_admin_survey_viral_sample_7.png)
 
    이 템플릿에는 다음과 같은 특성이 있습니다.
 
    * 방문자 테이블을 대상 매핑으로 선택합니다.
 
-     ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
+     ![게재의 대상 매핑으로 선택된 방문자(nms:visitor)가 있는 대상 선택 대화 상자](assets/s_ncs_admin_survey_viral_sample_7b.png)
 
    * 레퍼러에 대한 정보뿐만 아니라 심판의 연락처 정보를 방문자 테이블에서 가져옵니다. 개인화 버튼을 사용하여 삽입됩니다.
 
-     ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
+     ![게재 콘텐츠의 Personalization 메뉴, 성, 이름, 이메일 및 레퍼러 필드를 나열하는 방문자 하위 메뉴](assets/s_ncs_admin_survey_viral_sample_7a.png)
 
    * 이 템플릿에는 뉴스레터를 구독하기 위한 심판용 구독 링크와 경쟁 양식에 대한 링크가 포함되어 있습니다.
 
@@ -119,9 +119,9 @@ ht-degree: 0%
 
 1. 구독 메시지를 게재하는 두 번째 스크립트를 만듭니다.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_7c.png)
+   ![주심에 대한 참조 전자 메일 알림을 큐에 대기시키는 코드와 함께 스크립트 상자 주심 저장 및 메시지 전송](assets/s_ncs_admin_survey_viral_sample_7c.png)
 
-   ```
+   ```javascript
    // Updtate visitor to have a link to the referrer recipient
    ctx.recipient.visitor.@referrerId = ctx.recipient.@id
    ctx.recipient.visitor.@xtkschema = "nms:visitor"
@@ -146,10 +146,10 @@ ht-degree: 0%
 
 1. 경쟁 양식을 게시하고 초기 대상의 수신자에게 초대를 보냅니다. 둘 중 한 명이 친구를 초대하면 **추천 오퍼** 템플릿을 기반으로 게재가 만들어집니다.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_8.png)
+   ![친구 초대 섹션 및 게재 진행 중인 게재를 표시하는 게재 목록과 함께 퀴즈 페이지를 완료했습니다.](assets/s_ncs_admin_survey_viral_sample_8.png)
 
    **[!UICONTROL Administration > Visitors node]**&#x200B;의 방문자 폴더에 심판이 추가됩니다.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_9.png)
+   ![주심을 나열하는 방문자 폴더, 이름, 전자 메일 및 레퍼러를 표시하는 방문자 일반 탭](assets/s_ncs_admin_survey_viral_sample_9.png)
 
    프로필에는 레퍼러가 입력한 정보가 포함됩니다. 양식 스크립트에 입력한 구성을 기반으로 저장됩니다. 뉴스레터를 구독하기로 결정한 경우 수신자 표에 저장됩니다.

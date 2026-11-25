@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 4%
+source-wordcount: '347'
+ht-degree: 3%
 ---
 # 웹 애플리케이션 디자인{#designing-a-web-application}
 
@@ -47,21 +47,21 @@ ht-degree: 4%
 
 웹 응용 프로그램에 차트를 포함할 수 있습니다. 이렇게 하려면 작업 막대의 차트 드롭다운 목록을 사용하여 삽입할 차트 유형을 선택합니다.
 
-![](assets/s_ncs_admin_webapps_bar_graph.png)
+![히스토그램, 파이, 레이더, 영역, 곡선 및 Funnel을 나열하는 페이지 편집기 도구 모음 차트 드롭다운 목록](assets/s_ncs_admin_webapps_bar_graph.png)
 
 **[!UICONTROL Add a chart]** 메뉴도 선택할 수 있습니다.
 
-![](assets/s_ncs_admin_webapps_graph.png)
+![막대 그래프, 원형, 방사형, 영역, 곡선 및 Funnel을 나열하는 차트 하위 메뉴를 추가하는 페이지 컨텍스트 메뉴](assets/s_ncs_admin_webapps_graph.png)
 
 ## 웹 응용 프로그램에 표 삽입 {#inserting-tables-in-a-web-application}
 
 테이블을 추가하려면 작업 표시줄의 테이블 드롭다운 목록을 사용하여 사용할 테이블 유형을 선택합니다.
 
-![](assets/s_ncs_admin_webapps_bar_table.png)
+![피벗 테이블, 그룹이 있는 목록 및 배포를 나열하는 페이지 편집기 도구 모음 테이블 드롭다운.](assets/s_ncs_admin_webapps_bar_table.png)
 
 드롭다운 메뉴에서 테이블 유형을 선택할 수도 있습니다.
 
-![](assets/s_ncs_admin_webapps_table.png)
+![피벗 테이블, 그룹 및 배포를 포함하는 목록, 테이블 하위 메뉴를 추가하는 페이지 컨텍스트 메뉴](assets/s_ncs_admin_webapps_table.png)
 
 ## 개요 유형 웹 애플리케이션 {#overview-type-web-applications}
 

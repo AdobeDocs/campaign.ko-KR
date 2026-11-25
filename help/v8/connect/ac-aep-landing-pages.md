@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1161'
 ht-degree: 1%
 ---
 # Adobe Campaign 랜딩 페이지에서 Adobe Experience Platform 프로필 업데이트 {#ac-aep-lp}
@@ -69,7 +69,7 @@ Adobe Cloud Platform API는 인증 및 권한 부여에 OAuth 2.0 프로토콜�
    * `CLIENT SECRET`
    * `ORGANIZATION ID`
 
-   ![](assets/ac-lp-oauth.png){width="70%"}
+   ![Experience Platform API 및 OAuth 서버 간 자격 증명이 포함된 Adobe Developer Console 프로젝트](assets/ac-lp-oauth.png){width="70%"}
 
 OAuth 연결이 구성되었으므로 이제 새 **[!UICONTROL HTTP API]** Source 연결을 만들고 구성하여 Adobe Campaign을 Adobe Experience Platform에 연결합니다.
 
@@ -79,21 +79,21 @@ OAuth 연결을 통해 다음 단계는 Adobe Experience Platform에서 **[!UICO
 
 1. Adobe Experience Platform **[!UICONTROL Sources]**(으)로 이동하여 **[!UICONTROL HTTP API]** 원본을 검색한 다음 **[!UICONTROL Add data]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/ac-lp-source.png){width="70%"}
+   ![HTTP API 원본 데이터 추가 단추를 사용하여 Experience Platform 원본 카탈로그에서 http를 검색함](assets/ac-lp-source.png){width="70%"}
 
 1. 필요에 따라 연결을 구성합니다. HTTP API 연결을 구성하는 방법에 대한 자세한 내용은 [Adobe Experience Platform 소스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=ko){target="_blank"}를 참조하세요.
 
    **[!UICONTROL Authentication]** 단계에서 OAuth 통합을 통해 이전에 생성된 액세스 토큰을 사용하여 인증하려면 **[!UICONTROL Enable authentication]** 옵션을 켜십시오.
 
-   ![](assets/ac-lp-source-authentication.png){width="70%"}
+   ![인증 사용 토글이 켜진 상태로 HTTP API 계정 단계 연결](assets/ac-lp-source-authentication.png){width="70%"}
 
 1. 소스 연결이 구성되면 스트리밍 끝점이 표시됩니다. 이 끝점은 데이터를 Adobe Experience Platform에 수집하는 데 필요합니다.
 
-   ![](assets/ac-lp-endpoint.png){width="70%"}
+   스트리밍 끝점 필드가 강조 표시된 ![HTTP API 원본 세부 정보 페이지](assets/ac-lp-endpoint.png){width="70%"}
 
    **[!UICONTROL Dataflows]** 탭에서 새로 만든 데이터 흐름을 열어 Adobe Experience Platform에 수집된 데이터 형식 샘플에 액세스할 수도 있습니다.
 
-   ![](assets/ac-lp-schema.png){width="70%"}
+   ![스키마 페이로드 복사 옵션이 강조 표시된 HTTP API 데이터 흐름 페이지](assets/ac-lp-schema.png){width="70%"}
 
 HTTP API Source 연결이 설정되었으므로 이제 Adobe Experience Platform에 연결할 수 있도록 Adobe Campaign에 특정 옵션을 추가해야 합니다.
 
@@ -115,7 +115,7 @@ HTTP API Source 연결이 구성되면 Adobe Campaign에 특정 옵션을 추가
    * IMS_ORG_ID = 조직 ID
    * IMS_CLIENT_API_KEY = cryptString(클라이언트 ID)
 
-   ![](assets/ac-lp-xtk.png){width="70%"}
+   ![IMS_CLIENT_API_KEY, IMS_CLIENT_ID, IMS_CLIENT_SECRET 및 IMS_ORG_ID가 선택된 캠페인 옵션 목록](assets/ac-lp-xtk.png){width="70%"}
 
    >[!NOTE]
    >
@@ -157,7 +157,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
    >
    >액세스 토큰 및 인증 데이터는 이전에 설정한 옵션에서 자동으로 검색됩니다.
 
-   ![](assets/ac-lp-script.png){width="70%"}
+   ![AEP에서 프로필을 업데이트하는 사용자 지정 aepAPI 코드가 포함된 Campaign JavaScript 코드 목록](assets/ac-lp-script.png){width="70%"}
 
    +++  스크립트 1 - Experience Platform에서 프로필 속성 로드
 
@@ -358,13 +358,13 @@ Adobe Campaign에 추가된 JavaScript 코드를 사용하여 **[!UICONTROL Java
 
 다음은 랜딩 페이지 전후에 JavaScript 코드 활동을 사용하는 샘플 워크플로우입니다.
 
-![](assets/ac-lp-wkf.png){width="70%"}
+![랜딩 페이지 워크플로: 미리 로드, AEP에서 프로필 세부 정보 로드, 옵트아웃/옵트인 웹 페이지, 프로필 업데이트, 종료](assets/ac-lp-wkf.png){width="70%"}
 
 다음은 Adobe Experience Platform에서 프로필 속성을 업데이트하도록 구성된 랜딩 페이지 및 JavaScript 코드 활동의 예입니다.
 
-![](assets/ac-lp-example.png){width="70%"}
+![이메일, SMS 및 푸시 확인란에서 옵트아웃 및 전송 단추가 있는 랜딩 페이지 미리 보기](assets/ac-lp-example.png){width="70%"}
 
-![](assets/ac-lp-code.png){width="70%" zoomable="yes"}
+![프로필 옵트아웃 값을 Experience Platform에 보내는 코드로 프로필 스크립트 활동 업데이트](assets/ac-lp-code.png){width="70%" zoomable="yes"}
 
 ### 추가 정보
 

@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 4%
+source-wordcount: '599'
+ht-degree: 3%
 ---
 # 콘텐츠 편집 모범 사례{#content-editing-best-practices}
 
@@ -45,19 +45,19 @@ ht-degree: 4%
 
   템플릿의 HTML 코드 예제:
 
-  ```
+  ```xml
   <input id="email" type="email" name="email"/>
   ```
 
   **&#39;type&#39;** 특성은 다음 형식의 인터페이스에 표시됩니다.
 
-  ![](assets/dce_sidebar_inputtypechanges.png)
+  ![양식 데이터 섹션, 필드 선택기 및 필수 예/아니요 토글이 있는 입력 영역(전자 메일) 사이드바 패널](assets/dce_sidebar_inputtypechanges.png)
 
   &#39;type&#39; 특성의 공식 목록은 [이 웹 사이트](https://www.w3schools.com/tags/att_input_type.asp)에서 사용할 수 있습니다.
 
 * DCE를 사용하여 종료 페이지를 시뮬레이션하는 단계:
 
-  ![](assets/dce_enchainement.png)
+  ![미리 로드, 페이지, 저장소 및 페이지 2 상자가 순차적으로 있는 양식 다이어그램, 종료 페이지 시뮬레이션](assets/dce_enchainement.png)
 
 * 페이지에 `<body> </body>`이(가) 하나만 있는지 확인하십시오.
 * CSS 또는 JS 파일을 업로드할 때 .zip 파일 내에 포함된 이미지는 업로드되지 않습니다. 따라서 CSS에 있는 이러한 이미지에 대한 참조는 업데이트되지 않습니다.

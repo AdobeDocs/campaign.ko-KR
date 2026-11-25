@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 18%
+source-wordcount: '333'
+ht-degree: 17%
 ---
 # 폴더 권한 관리{#manage-folder-permissions}
 
@@ -40,14 +40,14 @@ ht-degree: 18%
 
 폴더에 대한 권한을 사용하여 Campaign 데이터에 대한 액세스를 구성하고 제어합니다.
 
-폴더 관리는 [이 페이지](../audiences/folders-and-views.md)에 자세히 설명되어 있습니다.
+폴더 관리는 [폴더 및 보기](../audiences/folders-and-views.md)에 자세히 설명되어 있습니다.
 
 특정 Campaign 폴더에 대한 권한을 편집하려면 아래 단계를 따르십시오.
 
 1. 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Properties...]**&#x200B;을(를) 선택합니다.
 1. 이 폴더에 대한 권한을 보려면 **[!UICONTROL Security]** 탭으로 이동하십시오.
 
-   ![](assets/folder-permissions.png)
+   ![연산자 또는 그룹 및 읽기, 쓰기 및 삭제 데이터 권한을 가진 폴더 속성 보안 탭](assets/folder-permissions.png)
 
 * **그룹 또는 연산자를 승인**&#x200B;하려면 **[!UICONTROL Add]** 단추를 클릭하고 이 폴더에 대한 승인을 할당할 그룹 또는 연산자를 선택하십시오.
 * **그룹 또는 연산자를 금지하려면** **[!UICONTROL Delete]**&#x200B;을(를) 클릭하고 그룹 또는 연산자를 선택하여 이 폴더에 대한 권한을 제거하십시오.

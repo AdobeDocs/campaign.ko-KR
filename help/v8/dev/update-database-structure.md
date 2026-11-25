@@ -25,24 +25,24 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '153'
 ht-degree: 0%
 ---
 # 데이터베이스 구조 업데이트 {#updating-the-database-structure}
 
 스키마에 대한 수정 사항을 적용하려면 데이터베이스 업데이트 마법사를 시작합니다. 이 도우미는 **[!UICONTROL Tools > Advanced > Update database structure]**&#x200B;을(를) 통해 액세스할 수 있습니다. 데이터베이스의 물리적 구조가 논리적 설명과 일치하는지 확인하고 SQL 업데이트 스크립트를 실행합니다.
 
-![](assets/schema_update.png)
+![데이터베이스 업데이트 마법사 자동 검색 프로세스를 시작하는 [다음] 단추를 사용하여 매개 변수 업데이트 페이지](assets/schema_update.png)
 
 데이터베이스의 모듈은 자동으로 채워지고 활성화됩니다.
 
-![](assets/schema_update_select2.png)
+![데이터베이스 업데이트 마법사 테이블 편집 페이지에 테이블이 나열되며 CusContracts 테이블이 동기화되도록 설정되어 있습니다](assets/schema_update_select2.png)
 
 다음 단계에 따라 데이터베이스 업데이트 SQL 스크립트를 봅니다.
 
-![](assets/schema_update2.png)
+![CusContracts용 SQL CREATE TABLE 스크립트가 있는 데이터베이스 업데이트 마법사 업데이트 스크립트 페이지](assets/schema_update2.png)
 
 >[!NOTE]
 >
@@ -50,4 +50,4 @@ ht-degree: 0%
 
 그런 다음 데이터베이스 업데이트를 시작합니다.
 
-![](assets/schema_update3.png)
+![데이터베이스 업데이트 마법사: 업데이트가 100%에서 완료되었음을 보여주는 로그가 있는 데이터베이스 업데이트 시작 페이지](assets/schema_update3.png)

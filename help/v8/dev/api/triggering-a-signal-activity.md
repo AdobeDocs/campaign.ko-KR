@@ -22,7 +22,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -47,7 +47,7 @@ Campaign Standard API를 사용하면 워크플로우를 호출하는 **외부 �
 
 매개 변수를 사용하여 워크플로우를 호출하려면 **&quot;parameters&quot;** 특성을 사용하여 페이로드에 추가하십시오. 구문은 매개 변수의 이름 뒤에 해당 값으로 구성됩니다. 지원되는 유형은 **string**, **number**, **boolean** 및 **date/time**&#x200B;입니다.
 
-```
+```bash
   -X POST <TRIGGER_URL>
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
   -H 'Cache-Control: no-cache' \
@@ -76,7 +76,7 @@ Campaign Standard API를 사용하면 워크플로우를 호출하는 **외부 �
 
 워크플로우에서 GET 요청을 수행합니다.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -86,7 +86,7 @@ Campaign Standard API를 사용하면 워크플로우를 호출하는 **외부 �
 
 워크플로우 신호 활동 및 연결된 트리거 URL을 반환합니다.
 
-```
+```json
 {
 "PKey": "<PKEY>",
 "activities": {
@@ -105,7 +105,7 @@ Campaign Standard API를 사용하면 워크플로우를 호출하는 **외부 �
 
 신호 활동을 트리거하려면 &quot;source&quot;를 사용하여 트리거 URL에 대한 POST 요청을 수행합니다. 매개 변수를 사용하여 워크플로우를 호출하려면 &quot;매개 변수&quot; 속성을 추가합니다.
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -129,7 +129,7 @@ Campaign Standard API를 사용하면 워크플로우를 호출하는 **외부 �
 
 매개 변수 중 하나가 외부 신호 활동에서 선언되지 않으면 POST 요청에서 누락된 매개 변수를 나타내는 아래 오류를 반환합니다.
 
-```
+```text
 RST-360011 An error has occurred - please contact your administrator.
 'contentURL' parameter isn't defined in signal activity.
 XTK-170006 Unable to parse expression 'HandleTrigger(@name, $(source), $({parameters}))'.

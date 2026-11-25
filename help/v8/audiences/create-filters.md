@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '1944'
-ht-degree: 1%
+source-wordcount: '2392'
+ht-degree: 0%
 ---
 # 필터 작업{#create-filters}
 
@@ -62,7 +62,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 기본적으로 Adobe Campaign은 연산자가 읽을 수 있는 권한이 있는 모든 데이터베이스 레코드를 표시합니다. 브라우저 창의 위쪽 섹션에서 사용할 수 있는 옵션을 사용하여 이 데이터를 필터링할 수 있습니다.
 
-![](assets/filter_web_zone.png)
+필터 영역이 강조 표시된 ![받는 사람 대시보드: 폴더 아이콘, 빠른 검색 필드 및 정렬 목록](assets/filter_web_zone.png)
 
 표시할 데이터를 필터링하는 방법에는 몇 가지가 있습니다. 필요한 경우 함께 사용할 수 있습니다. 필터링 옵션에 대한 자세한 내용은 아래 탭을 참조하십시오.
 
@@ -73,11 +73,11 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 폴더를 기준으로 데이터를 필터링하려면 **[!UICONTROL Folder]** 아이콘을 클릭하고 표시할 데이터가 들어 있는 폴더를 선택합니다.
 
-![](assets/filter_web_select_folder.png)
+![폴더 메뉴가 프로필 및 대상에서 받는 사람, 클라이언트 및 새로 만들기](assets/filter_web_select_folder.png)(으)로 확장됨
 
 폴더의 프로필만 표시됩니다.
 
-![](assets/filter_web_folder_display.png)
+![프로필 및 대상 > 수신자 > 클라이언트 > 새 폴더에서 필터링된 수신자 목록](assets/filter_web_folder_display.png)
 
 폴더 선택 필드 오른쪽에 있는 십자형을 사용하여 기본 표시 모드로 돌아갑니다.
 
@@ -87,7 +87,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 예를 들어 게재의 경우 아래와 같이 완료된 게재만 표시하도록 선택할 수 있습니다.
 
-![](assets/filter_delivery.png)
+![모든 상태, 편집 중, 완료됨 및 기타 상태를 나열하는 게재 대시보드 상태 드롭다운](assets/filter_delivery.png)
 
 >[!TAB 정렬 기준]
 
@@ -95,13 +95,13 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 예를 들어, 우선순위, 생성 일자 또는 알파벳 순서로 작업을 정렬할 수 있습니다.
 
-![](assets/order_data_sample.png)
+![A부터 Z까지 레이블, 가장 최근 작업, 가장 오래된 작업, 우선 순위별 작업 대시보드 정렬 드롭다운](assets/order_data_sample.png)
 
 >[!TAB 빠른 검색]
 
 검색 필드를 사용하여 원하는 항목에 빠르게 액세스할 수 있습니다. 표시할 항목의 레이블이나 내부 이름에 포함된 문자를 입력한 다음 페이지의 데이터에 자동 필터 적용을 확인합니다.
 
-![](assets/filter_search.png)
+![검색 필드에 뉴스를 입력하여 필터링된 게재 대시보드](assets/filter_search.png)
 
 모든 항목을 다시 표시하려면 십자형을 클릭하여 검색 필드의 내용을 삭제합니다.
 
@@ -113,7 +113,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 예를 들어 프로필의 경우 다음과 같은 내장 필터를 사용할 수 있습니다.
 
-![](assets/built-in-filters.png)
+![열었지만 클릭하지 않은 것과 같은 기본 제공 필터를 표시하는 받는 사람 목록의 필터 드롭다운](assets/built-in-filters.png)
 
 탐색기의 **[!UICONTROL Profiles and Targets > Pre-defined filters]** 노드에서 필터 세부 정보에 액세스할 수 있습니다.
 
@@ -123,11 +123,11 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 필터를 선택하여 해당 정의를 표시합니다.
 
-![](assets/predefined-filter-list.png)
+![열려 있는 필터가 선택되어 있고 필터 조건이 표시된 탐색기에서 미리 정의된 필터 노드](assets/predefined-filter-list.png)
 
 마지막 탭을 사용하여 필터링된 데이터를 미리 봅니다.
 
-![](assets/built-in-filter-preview.png)
+![최소 연령 25세와 최대 연령 45세 및 일치하는 수신자를 포함하여 연령 범위별로 미리 정의된 필터의 미리 보기 탭](assets/built-in-filter-preview.png)
 
 
 +++  사전 정의된 프로필 필터 내장
@@ -243,7 +243,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 각 목록 위의 필드를 사용하면 이 목록에 대해 **미리 정의된 기본 필터**&#x200B;를 사용할 수 있습니다. 수신자 목록의 경우 기본적으로 이름과 이메일 주소를 필터링할 수 있습니다.
 
-![](assets/filter-recipient-name.png)
+![기본 성 필드에 Lucas로 필터링된 받는 사람 목록, 두 개의 프로필 반환](assets/filter-recipient-name.png)
 
 
 >[!NOTE]
@@ -259,12 +259,12 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 1. 기본적으로 사용할 필터를 선택합니다.
 1. **[!UICONTROL Parameters]** 탭을 클릭하고 **[!UICONTROL Default filter for the associated document type]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/change-default-filter.png)
+   ![연결된 문서 형식에 대한 기본 필터가 선택된 미리 정의된 필터의 매개 변수 탭](assets/change-default-filter.png)
 
 1. 현재 기본 사전 정의된 필터에 대해 동일한 옵션의 선택을 취소합니다.
 1. 필터를 적용하려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
 1. 받는 사람 폴더로 이동하여 현재 필터의 오른쪽에 있는 **[!UICONTROL Remove this filter]** 아이콘을 클릭합니다. 새 기본 필터를 사용할 수 있습니다.
-   ![](assets/updated-default-filter.png)
+   ![구독별 기본 필터 및 해당 서비스 필드 드롭다운이 있는 받는 사람 목록](assets/updated-default-filter.png)
 
 
 ## 빠른 필터{#quick-filters}
@@ -281,36 +281,36 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 1. 필터링할 필드를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Filter on this field]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/quick-filter-on-this-field.png)
+   ![언어 필드의 마우스 오른쪽 단추 클릭 메뉴, 이 필드의 필터 강조 표시](assets/quick-filter-on-this-field.png)
 
    기본 필터 필드가 목록 위에 표시됩니다.
 
-   ![](assets/quick-filter-above-list.png)
+   ![영어와 같은 언어 필터가 있는 받는 사람 목록이 목록 위에 추가됨](assets/quick-filter-above-list.png)
 
 1. 필터 옵션을 선택합니다.
 1. 필요한 경우 필터 오른쪽에 있는 회색 아이콘을 사용하여 제거합니다.
 1. 필터를 결합하여 필터를 구체화할 수 있습니다.
 
-   ![](assets/add-filter-above-the-list.png)
+   ![언어 및 전자 메일 빠른 필터를 목록 위에 결합하고 전자 메일 연산자 드롭다운을 엽니다](assets/add-filter-above-the-list.png)
 
 
 양식에서 사용할 수 없지만 열에 있는 필드를 필터링해야 하는 경우 해당 열을 필터링합니다. 이렇게 하려면,
 
 1. **[!UICONTROL Configure list]** 아이콘을 클릭합니다.
 
-   ![](assets/configure-list.png)
+   ![목록의 오른쪽 아래에 목록 구성 아이콘이 있는 받는 사람 목록](assets/configure-list.png)
 
 1. 표시할 열(예: 받는 사람의 나이)을 선택하고 **확인**&#x200B;을 클릭합니다.
 
-   ![](assets/add-age-column.png)
+   ![나이 필드가 있는 목록 구성 대화 상자가 출력 열에 추가됨](assets/add-age-column.png)
 
 1. 받는 사람 목록에서 **나이** 열을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Filter on this column]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/age-filter-on-this-column.png)
+   ![받는 사람 목록에서 마우스 오른쪽 단추를 클릭하여 이 열의 필터를 강조 표시하고 나이 열을 표시합니다](assets/age-filter-on-this-column.png)
 
    그런 다음 연령 필터링 옵션을 선택할 수 있습니다. 페이지에 다른 필터를 추가하여 범위를 정의합니다.
 
-   ![](assets/filter-on-age.png)
+   ![20세 이상 30세 미만의 연령 필터 두 개, 받는 사람 4명 반환](assets/filter-on-age.png)
 
 ## 고급 필터{#advanced-filters}
 
@@ -320,7 +320,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 **고급 필터**&#x200B;을(를) 만들려면 **[!UICONTROL Filters]** 단추를 클릭하고 **[!UICONTROL Advanced filter...]**&#x200B;을(를) 선택하십시오.
 
-![](assets/adv-filter.png)
+![받는 사람 목록의 고급 필터 드롭다운... 아래에 강조 표시됨](assets/adv-filter.png)
 
 데이터 목록을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Advanced filter...]**&#x200B;을(를) 선택할 수도 있습니다.
 
@@ -328,16 +328,16 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 1. **[!UICONTROL Expression]** 열의 **[!UICONTROL Edit expression]** 아이콘을 클릭합니다.
 
-   ![](assets/edit-exp.png)
+   식 열에 식 편집 아이콘이 있는 ![고급 필터 대화 상자](assets/edit-exp.png)
 
 1. 필터링할 필드를 선택합니다.
 1. 드롭다운 목록에서 적용할 연산자를 선택합니다.
 
-   ![](assets/select-operator.png)
+   ![계정 # 식과 연산자 드롭다운을 사용하는 고급 필터 대화 상자](assets/select-operator.png)
 
 1. **[!UICONTROL Value]** 열에서 예상 값을 선택하십시오. 여러 필터를 결합하여 쿼리를 구체화할 수 있습니다. 필터 조건을 추가하려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/add-an-exp.png)
+   ![계정 번호가 NL로 시작하는 고급 필터 대화 상자와 새 And 행이 추가되었습니다](assets/add-an-exp.png)
 
    >[!NOTE]
    >
@@ -345,13 +345,13 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 1. 식을 결합하는 데 다음 세 가지 연산자를 사용할 수 있습니다. **And**, **Or**, **Except**. **Or**(으)로 전환하려면 화살표를 클릭하십시오.
 
-   ![](assets/select-or-operator.png)
+   ![두 번째 도시 조건에서 And, Or 및 Except 연산자 목록이 열려 있는 고급 필터 대화 상자](assets/select-or-operator.png)
 
 1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭하여 필터를 만들고 현재 목록에 적용합니다.
 
 적용된 필터가 목록 위에 표시됩니다.
 
-![](assets/adv-filter-link.png)
+![고급 필터가 적용된 받는 사람 목록이 목록 위에 파란색 링크로 표시됨](assets/adv-filter-link.png)
 
 이 필터를 편집하거나 수정하려면 목록 위의 파란색으로 표시된 설명 링크를 클릭합니다.
 
@@ -365,15 +365,15 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 1. 편집하려면 필터 설명을 클릭합니다.
 1. 창의 오른쪽 위에 있는 **[!UICONTROL Save as filter]** 아이콘을 클릭합니다.
 
-   ![](assets/save-as-filter.png)
+   ![오른쪽 위에 있는 필터 아이콘으로 고급 필터 대화 상자](assets/save-as-filter.png)
 
 1. 이 필터의 이름을 입력하고 저장합니다.
 
-   ![](assets/application-filter-save.png)
+   ![Paris - LA 신규 사용자 및 필터 조건 레이블이 있는 응용 프로그램 필터 대화 상자](assets/application-filter-save.png)
 
 필터가 [미리 정의된 필터](#predefined-filters)에 추가됩니다. 이 노드에서 업데이트할 수 있습니다.
 
-![](assets/added-to-predefined-filters.png)
+![새 Paris - LA 새 사용자 필터를 정의로 나열하는 사전 정의된 필터 노드](assets/added-to-predefined-filters.png)
 
 >[!NOTE]
 >
@@ -383,7 +383,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 이 필터는 수신자 목록의 사전 정의된 필터에서도 사용할 수 있습니다.
 
-![](assets/access-to-new-predefined-filter.png)
+![새 Paris - LA 새 사용자 필터가 강조 표시된 받는 사람 목록의 필터 드롭다운](assets/access-to-new-predefined-filter.png)
 
 
 
@@ -393,7 +393,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 저장하면 **[!UICONTROL User filters]** 섹션에서 메시지의 대상 모집단을 선택할 때 고급 필터를 사용할 수 있습니다.
 
-![](assets/adv-filter-target-type.png)
+![사용자 필터에서 선택한 저장된 Paris - LA 새 사용자 필터가 있는 대상 유형 대화 상자](assets/adv-filter-target-type.png)
 
 
 >[!NOTE]
@@ -425,7 +425,7 @@ Adobe Campaign에서는 다음 유형의 필터를 사용할 수 있습니다.
 
 * 필터링 기준을 선택할 양식을 정의하려면 **[!UICONTROL Use parameter entry form]** 옵션을 선택합니다. **[!UICONTROL Form]** 탭에서 이 양식을 XML 형식으로 입력해야 합니다. 예를 들어 받는 사람 목록에서 사용할 수 있는 기본 제공 미리 정의된 필터 **[!UICONTROL Recipients who have opened]**&#x200B;에는 필터를 적용할 게재를 선택할 수 있는 필터 필드가 표시됩니다.
 
-![](assets/predefined-filters-parameters.png)
+![필터 옵션을 제한하지 않음](assets/predefined-filters-parameters.png)이 포함된 미리 정의된 필터 및 고급 매개 변수 대화 상자의 매개 변수 탭
 
 
 * **[!UICONTROL Advanced parameters]** 링크를 사용하여 추가 설정을 정의할 수 있습니다.

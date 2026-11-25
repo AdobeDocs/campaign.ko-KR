@@ -27,14 +27,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '255'
 ht-degree: 3%
 ---
 # 운영자 프로필 {#operator-profiles}
 
-두 가지 유형의 연산자는 캠페인 상호 작용을 사용할 수 있습니다. **오퍼 관리자** 및 **배달 관리자**. 각 속성에는 특정 권한 및 제한 사항이 있습니다. [이 페이지](../start/gs-permissions.md)에서 Campaign 연산자 및 권한에 대해 자세히 알아보세요.
+두 가지 유형의 연산자는 캠페인 상호 작용을 사용할 수 있습니다. **오퍼 관리자** 및 **배달 관리자**. 각 속성에는 특정 권한 및 제한 사항이 있습니다. [Campaign v8에서 사용 권한 시작](../start/gs-permissions.md)에서 Campaign 연산자 및 사용 권한에 대해 자세히 알아보세요.
 
 * **[!UICONTROL Offer manager]**&#x200B;에서 오퍼를 만들고 유지 관리합니다.
 * **[!UICONTROL Delivery manager]**&#x200B;이(가) 오퍼를 승인하고 사용합니다
@@ -44,7 +44,7 @@ ht-degree: 3%
 1. 연산자를 만듭니다. [자세히 알아보기](../start/manage-permissions.md#add-users)
 1. **[!UICONTROL Groups and named rights]** 창으로 이동하여 **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 **[!UICONTROL Offer manager]** 그룹을 선택합니다.
 
-오퍼 관리자에 연결된 권한은 [여기](../start/manage-permissions.md#ootb-productprofiles)에 설명되어 있습니다.
+오퍼 관리자에 연결된 권한은 [기본 제품 프로필 및 운영자 그룹](../start/manage-permissions.md#ootb-productprofiles)에 설명되어 있습니다.
 
 ## 게재 관리자 연산자 만들기 {#delivery-manager}
 

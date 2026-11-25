@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 2%
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 아래에서 이 사용을 보여주는 수신자 스키마 확장 샘플을 찾을 수 있습니다.
 
-```
+```xml
 <srcSchema desc="Recipient table (profiles" entitySchema="xtk:srcSchema" extendedSchema="xxl:nmsRecipientXl"
            img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
            name="recipient" namespace="sec" xtkschema="xtk:srcSchema">
@@ -97,7 +97,7 @@ ht-degree: 2%
 
 다음은 이를 구현하기 위한 로그 테이블 확장의 샘플입니다.
 
-```
+```xml
 <srcSchema entitySchema="xtk:srcSchema" extendedSchema="nms:broadLogRcp" img="nms:broadLog.png"
            label="Recipient delivery logs" labelSingular="Recipient delivery log"
            name="broadLogRcp" namespace="sec" xtkschema="xtk:srcSchema">

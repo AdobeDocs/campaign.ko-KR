@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 7%
+source-wordcount: '524'
+ht-degree: 6%
 ---
 # SMS 게재 대상 선택 {#sms-audience}
 
@@ -45,7 +45,7 @@ ht-degree: 7%
 
 1. 대상이 Adobe Campaign 데이터베이스에 저장되므로 **[!UICONTROL Main target]** 탭에서 **[!UICONTROL Defined in the database]** 옵션을 선택하십시오.
 
-   ![](assets/audience_to.png){zoomable="yes"}
+   ![데이터베이스에 정의됨 옵션이 선택된 대상 선택 대화 상자, 대상 링크에서 열림](assets/audience_to.png){zoomable="yes"}
 
 1. 드롭다운 목록에서 **[!UICONTROL Target mapping]**&#x200B;을(를) 선택합니다. Adobe Campaign 기본 대상 매핑은 **[!UICONTROL nms:recipient]** 스키마를 기반으로 하는 수신자입니다.
 
@@ -55,7 +55,7 @@ ht-degree: 7%
 
    그런 다음 적용할 필터링 유형을 선택할 수 있습니다.
 
-   ![](assets/audience_filters.png){zoomable="yes"}
+   ![선택할 대상 유형과 사용자 필터를 나열하는 대상 요소 선택 대화 상자](assets/audience_filters.png){zoomable="yes"}
 
    대상 유형을 사용하려면 해당 유형을 선택하고 **[!UICONTROL Next]** 단추를 클릭하십시오.
 
@@ -74,7 +74,7 @@ ht-degree: 7%
 
 1. 레이블 필드에 대상자의 이름을 입력하고 **[!UICONTROL Finish]** 단추를 클릭하여 대상자의 유효성을 검사하십시오.
 
-   ![](assets/audience_finish.png){zoomable="yes"}
+   ![모바일 레이블의 대상 요소 정의가 비어 있지 않으며, 모바일에 대한 필터이며, 강조 표시된 완료입니다](assets/audience_finish.png){zoomable="yes"}
 
    **[!UICONTROL Add]** 단추를 다시 클릭하여 필요한 만큼 대상 모집단을 추가할 수 있습니다. 레이블 뒤에 있는 십자선을 클릭하여 일부 기호를 삭제할 수도 있습니다.
 
@@ -88,7 +88,7 @@ Adobe Campaign을 사용하여 데이터베이스가 아닌 외부 파일에 있
 
 1. **[!UICONTROL Defined in an external file]** 옵션을 선택합니다.
 
-   ![](assets/audience_externalfile.png){zoomable="yes"}
+   ![외부 파일에 정의됨 옵션을 선택하고 파일 형식 정의 링크가 있는 대상 선택 대화 상자](assets/audience_externalfile.png){zoomable="yes"}
 
 1. 기본적으로 수신자는 데이터베이스에서 가져옵니다. 이 경우 **[!UICONTROL Target mapping]**&#x200B;을(를) 선택해야 합니다. 대상 매핑에 대한 자세한 내용은 [대상 매핑 작업](../../audiences/target-mappings.md)을 참조하세요.
 

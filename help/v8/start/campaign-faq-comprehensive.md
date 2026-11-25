@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '11502'
+source-wordcount: '11508'
 ht-degree: 8%
 ---
 # 자주 묻는 질문 {#faq}
@@ -102,7 +102,7 @@ Adobe ID을 사용하여 Campaign v8에 액세스하는 방법에 대해 [자세
 
 +++ 알아야 하는 Campaign 사용자 인터페이스 개념은 무엇입니까?
 
-Adobe Campaign 사용자 인터페이스 기본 사항에 대한 자세한 내용은 [이 섹션](campaign-ui.md)을 참조하세요.
+Adobe Campaign 사용자 인터페이스 기본 사항에 대한 자세한 내용은 [Campaign 사용자 인터페이스 검색](campaign-ui.md)을 참조하세요.
 
 Campaign v8.6 릴리스부터 중앙 [!DNL CX Enterprise] 환경을 통해 사용할 수 있는 새로운 **Campaign 웹 사용자 인터페이스**&#x200B;에 액세스할 수 있습니다.
 
@@ -534,7 +534,7 @@ Campaign은 구독/구독 취소 기록을 추적하고 옵트인/옵트아웃�
 
 +++ Campaign에서 전자 메일을 디자인하는 우수 사례는 무엇입니까?
 
-주요 지침: 모바일 반응형 디자인 확인, 인라인 CSS와 함께 HTML 4.0/XHTML 호환 코드 사용, 대체 텍스트로 이미지 최적화(100KB 미만), 개인화 병합 필드 사용, 보내기 전에 이메일 클라이언트 간 테스트, 일반 텍스트 버전 포함. 최적의 전달성을 위해 500KB 미만의 총 이메일 크기를 목표로 합니다.
+주요 지침: 모바일 반응형 디자인을 보장하고 인라인 CSS와 함께 HTML 4.0/XHTML 호환 코드를 사용합니다. 대체 텍스트로 이미지 최적화(100KB 미만), 개인화 병합 필드 사용, 보내기 전에 이메일 클라이언트 간 테스트 및 일반 텍스트 버전 포함. 최적의 전달성을 위해 500KB 미만의 총 이메일 크기를 목표로 합니다.
 
 **관련 항목:**
 
@@ -1212,7 +1212,7 @@ Campaign Campaign 컨트롤 패널은 Campaign 관리자가 Campaign 인스턴�
 Adobe Campaign v8에서는 최상위 관리 계정 및 권한 있는 계정의 현재 설정을 모두 권장 보안 기본값과 비교하는 기능을 제공합니다.
 
 * **현재 설정(전체 가시성):** 관리 및 권한 있는 계정에 대한 모든 설정은 **[!UICONTROL Administration]** > **[!UICONTROL Access management]**(클라이언트 콘솔 또는 Campaign 웹 UI): **[!UICONTROL Operators]**, **[!UICONTROL Operator groups]**, **[!UICONTROL Named rights]**(예: 관리, 승인 관리) 및 폴더 수준 권한에서 검토할 수 있습니다. 제품 관리자는 [Campaign Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target="_blank"}에서 인스턴스 수준 설정(IP 권한, URL 권한, 인스턴스 세부 정보 등)을 검토할 수도 있습니다.
-* **권장 보안 기본값:** [보안 지침](../config/security.md)은(는) 충분한 보안 그룹을 만들고, 연산자별로 적절한 액세스 권한을 할당하고, 관리 연산자 및 관리 그룹의 사용을 제한하는 등 관리 및 권한 있는 계정의 권장 보안 기준을 정의합니다. 해당되는 경우 네트워크 및 암호화 강화에 대한 [향상된 보안 추가 기능](../config/enhanced-security.md)도 참조하십시오.
+* **권장 보안 기본값:** [보안 지침](../config/security.md)은(는) 관리 및 권한 있는 계정의 권장 보안 기준을 정의합니다. 충분한 보안 그룹을 만들고, 운영자별로 적절한 액세스 권한을 할당하고, 관리자 운영자 및 관리자 그룹의 사용을 제한하는 것이 좋습니다. 해당되는 경우 네트워크 및 암호화 강화에 대한 [향상된 보안 추가 기능](../config/enhanced-security.md)도 참조하십시오.
 * **비교:** 관리자는 현재 구성을 이러한 문서화된 권장 사항과 비교하여 차이점을 식별하고 보안 기본값에 맞춥니다.
 
 **관련 항목:**

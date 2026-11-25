@@ -38,14 +38,14 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '3608'
-ht-degree: 31%
+source-wordcount: '3632'
+ht-degree: 30%
 ---
 # 2025 릴리스 정보 {#2025-rn}
 
-이 페이지에는 **2025 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 해결 사항이 나와 있습니다. 최신 릴리스는 [이 페이지](release-notes.md)를 참조하세요.
+이 페이지에는 **2025 Campaign v8 릴리스**&#x200B;의 새로운 기능, 개선 사항 및 해결 사항이 나와 있습니다. 최신 릴리스는 [Campaign v8 릴리스 정보](release-notes.md)를 참조하세요.
 
 새 구현이나 기존 환경으로 업그레이드하려면 [최신 릴리스](release-notes.md)를 설치하십시오.
 
@@ -112,7 +112,7 @@ _2025년 7월 9일 목요일_
 
 이전에 소규모 고객을 위해 릴리스된 다음 기능은 이제 모든 Campaign FDA 환경에서 사용할 수 있습니다.
 
-* **새 SMS 전송 커넥터** - SMS 전송 커넥터가 현대화되고 개선되어 송수신기 모드 SMPP 연결을 활성화하고 영구 SMPP 연결을 활성화하며 더 나은 호환성을 보장합니다. 이제 모든 새 SMS 구현에 새 SMS 외부 계정을 사용할 수 있습니다. 기존 구현은 여전히 지원되지만 새로운 최신 및 확장 커넥터로 이동하는 것이 좋습니다. 새 커넥터로 전환하려면 Adobe에 문의하십시오. [자세히 보기](../send/sms/sms.md)
+* **새 SMS 전송 커넥터** - SMS 전송 커넥터가 현대화되고 개선되어 송수신기 모드 SMPP 연결을 활성화하고 영구 SMPP 연결을 활성화하며 더 나은 호환성을 보장합니다. 이제 모든 새 SMS 구현에 새 SMS 외부 계정을 사용할 수 있습니다. 기존 구현은 여전히 지원되지만 새로운 최신 및 확장 커넥터로 이동하는 것이 좋습니다. 새 커넥터로 전환하려면 Adobe에 문의하십시오. [Adobe Campaign으로 SMS 보내기](../send/sms/sms.md)
 
   >[!NOTE]
   >
@@ -169,13 +169,13 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 * **Dynamic Reporting for Multilingual** - Dynamic reporting is now available for multilingual email deliveries. For more information, refer to the [detailed documentation](../reporting/global-reports.md).
 -->
 
-* **Rest API** - 이제 Rest API를 사용하여 Adobe Campaign을 위한 통합을 만들고 Adobe Campaign과 사용하는 기술 패널을 연결하여 고유한 에코시스템을 구축할 수 있습니다. 트랜잭션 메시지 REST API는 SMS 채널에도 사용할 수 있습니다. 페이로드에 이메일과 휴대폰이 모두 있는 경우 “wishedChannel” 필드를 사용하여 채널을 지정할 수 있습니다. 제공되지 않으면 wishedChannel에서 SMS를 명시적으로 요청하지 않는 한 기본적으로 이메일이 사용됩니다. 이벤트 기반 트랜잭션 API는 이메일에도 사용할 수 있습니다. [자세히 보기](../dev/api/get-started-apis.md)
+* **Rest API** - 이제 Rest API를 사용하여 Adobe Campaign을 위한 통합을 만들고 Adobe Campaign과 사용하는 기술 패널을 연결하여 고유한 에코시스템을 구축할 수 있습니다. 트랜잭션 메시지 REST API는 SMS 채널에도 사용할 수 있습니다. 페이로드에 이메일과 휴대폰이 모두 있는 경우 “wishedChannel” 필드를 사용하여 채널을 지정할 수 있습니다. 제공되지 않으면 wishedChannel에서 SMS를 명시적으로 요청하지 않는 한 기본적으로 이메일이 사용됩니다. 이벤트 기반 트랜잭션 API는 이메일에도 사용할 수 있습니다. [Campaign REST API 시작](../dev/api/get-started-apis.md)
 
   >[!NOTE]
   >
   >이 기능은 [Campaign FFDA 배포](../architecture/enterprise-deployment.md)에 사용할 수 있는 **없음**&#x200B;입니다.
 
-* **한 번 클릭 목록 구독 취소** - 받는 사람이 한 번 클릭으로 즉시 옵트아웃할 수 있도록 하기 위해 보낸 사람이 필요한 주요 ISP의 경우 이제 사용자 인터페이스에서 전자 메일 템플릿 또는 게재 속성에서 바로 한 번 클릭 목록 구독 취소 헤더를 활성화할 수 있습니다. 이 옵션은 기본적으로 활성화되어 있습니다. [자세히 보기](../send/email-parameters.md#one-click-list-unsubscribe)
+* **한 번 클릭 목록 구독 취소** - 받는 사람이 한 번 클릭으로 즉시 옵트아웃할 수 있도록 하기 위해 보낸 사람이 필요한 주요 ISP의 경우 이제 사용자 인터페이스에서 전자 메일 템플릿 또는 게재 속성에서 바로 한 번 클릭 목록 구독 취소 헤더를 활성화할 수 있습니다. 이 옵션은 기본적으로 활성화되어 있습니다. [한 번의 클릭으로 목록 구독 취소 사용](../send/email-parameters.md#one-click-list-unsubscribe)
 
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
@@ -196,11 +196,11 @@ Campaign 웹 UI [릴리스 노트](https://experienceleague.adobe.com/docs/campa
 
 ### 일반 개선 사항 {#improvements-8-8-1}
 
-* Microsoft Fabric 은 이제 Adobe Campaign FDA(Federated Data Access)를 통해 외부 데이터베이스로 지원됩니다. [자세히 보기](../config/external-accounts.md#transfer-data-external-accounts)
-* 이제 Campaign v8에서 푸시 알림용 Android 15 및 iOS 18을 지원합니다. [자세히 보기](../start/compatibility-matrix.md#MobileSDK)
-* 이제 Secure Virtual Private Network 터널링을 위한 온프레미스 데이터베이스 외에 클라우드 데이터베이스가 지원됩니다. [자세히 보기](../config/enhanced-security.md#vpn-databases)
-* SMS 2.0 커넥터의 &quot;들어오는 트래픽&quot; 섹션에 &quot;공급자 ID&quot; 필드 집합이 새로 추가되었습니다. [자세히 보기](../send/sms/smpp-external-account.md#incoming-traffic)
-* &quot;mailto&quot; 목록 구독 취소 메서드를 통해 구독 취소된 수신자는 더 이상 격리로 전송되지 않습니다. 게재와 연계된 서비스를 구독하거나 게재에 대해 정의된 서비스가 없는 경우 차단 목록 취소(프로필의 &quot;더 이상 연락 안 함&quot; 섹션)로 전송됩니다. [자세히 보기](../send/quarantines.md)
+* Microsoft Fabric 은 이제 Adobe Campaign FDA(Federated Data Access)를 통해 외부 데이터베이스로 지원됩니다. [외부 계정 데이터 전송](../config/external-accounts.md#transfer-data-external-accounts)
+* 이제 Campaign v8에서 푸시 알림용 Android 15 및 iOS 18을 지원합니다. [모바일 SDK](../start/compatibility-matrix.md#MobileSDK)
+* 이제 Secure Virtual Private Network 터널링을 위한 온프레미스 데이터베이스 외에 클라우드 데이터베이스가 지원됩니다. [지원되는 데이터베이스 및 장치](../config/enhanced-security.md#vpn-databases)
+* SMS 2.0 커넥터의 &quot;들어오는 트래픽&quot; 섹션에 &quot;공급자 ID&quot; 필드 집합이 새로 추가되었습니다. [들어오는 트래픽](../send/sms/smpp-external-account.md#incoming-traffic)
+* &quot;mailto&quot; 목록 구독 취소 메서드를 통해 구독 취소된 수신자는 더 이상 격리로 전송되지 않습니다. 게재와 연계된 서비스를 구독하거나 게재에 대해 정의된 서비스가 없는 경우 차단 목록 취소(프로필의 &quot;더 이상 연락 안 함&quot; 섹션)로 전송됩니다. [Campaign의 격리 관리](../send/quarantines.md)
 * 받은 편지함 렌더링 보고서의 개선된 버전을 이제 Adobe Campaign 클라이언트 콘솔에서 사용할 수 있습니다.
 * `setup-client.exe` 파일이 `ac-client.msi` 파일로 대체되어 관리자가 사용자 개입 없이 대량 업그레이드를 더 간단하게 수행할 수 있습니다.
 
@@ -312,7 +312,7 @@ _2025년 4월 25일 토요일_
 
 ### 새로운 기능 {#features-8-6-5}
 
-**새로운 SMS 전송 커넥터** - SMS 전송 커넥터가 최신화되고 개선되었습니다. 송수신기 모드 SMPP 연결 및 영구 SMPP 연결을 사용할 수 있으며 Adobe Campaign Standard에서 전환할 때 환경에 대해 보다 나은 호환성을 보장합니다. 이제 모든 새 SMS 구현에 새 SMS 외부 계정을 사용할 수 있습니다. 기존 구현은 여전히 지원되지만 새로운 최신 및 확장 커넥터로 이동하는 것이 좋습니다. [자세히 보기](../send/sms/sms.md).
+**새로운 SMS 전송 커넥터** - SMS 전송 커넥터가 최신화되고 개선되었습니다. 송수신기 모드 SMPP 연결 및 영구 SMPP 연결을 사용할 수 있으며 Adobe Campaign Standard에서 전환할 때 환경에 대해 보다 나은 호환성을 보장합니다. 이제 모든 새 SMS 구현에 새 SMS 외부 계정을 사용할 수 있습니다. 기존 구현은 여전히 지원되지만 새로운 최신 및 확장 커넥터로 이동하는 것이 좋습니다. [Adobe Campaign으로 SMS 보내기](../send/sms/sms.md).
 
 ### 일반 개선 사항 {#improvements-8-6-5}
 
@@ -364,7 +364,7 @@ _2025년 2월 14일_
 
 * **트랜잭션 메시지에 대한 Dynamic Reporting** - 이제 Dynamic Reporting 사용자 인터페이스에서 트랜잭션 메시지를 모니터링할 수 있습니다. 이러한 보고서는 마케터가 템플릿을 통해 실시간으로 전송된 게재 분류와 트랜잭션 메시지의 모든 보고 지표와 차원을 볼 수 있는 기능을 제공합니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=ko){target="_blank"}
 
-* **트랜잭션 메시지 REST API** - 이벤트 기반 트랜잭션 API를 이제 이메일에 사용할 수 있습니다. [자세히 보기](../dev/api/get-started-apis.md)
+* **트랜잭션 메시지 REST API** - 이벤트 기반 트랜잭션 API를 이제 이메일에 사용할 수 있습니다. [Campaign REST API 시작](../dev/api/get-started-apis.md)
 
 ### 해결 사항 {#fixes-8-7-3}
 
@@ -380,8 +380,8 @@ _2025년 1월 15일_
 
 * [엔터프라이즈(FFDA) 배포](../../v8/architecture/enterprise-deployment.md) 컨텍스트에서 게재 분석 중에 캠페인 애플리케이션 안정성이 향상되었습니다.
 * 이 릴리스에는 주요 관리, 스테이징 및 데이터 복제를 비롯한 향상된 FFDA 아키텍처 메커니즘이 함께 제공됩니다.
-* [엔터프라이즈(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에 새로운 기술 워크플로가 도입되었습니다. 이러한 워크플로는 병렬 복제 요청을 해당 테이블에 중앙 집중화하여 게재와 관련 데이터를 복제합니다. 이러한 워크플로는 `Replicate nms`(으)로 시작합니다. [자세히 보기](../architecture/replication.md)
-* 이제 새로운 **워크플로를 영구적으로 실행할 수 있도록 워치도그 감독자 활성화** 옵션을 워크플로 속성에서 사용할 수 있습니다. 이 옵션을 활성화하면 오류가 발생한 후 워크플로가 자동으로 다시 시작됩니다. 워크플로에 여전히 오류가 있는 경우 기본적으로 30초마다 다시 시작됩니다. 이 간격을 조정하려면 새 `XtkWorkflow_WatchdogRestartTimerTimeout` 옵션을 만들고 Integer 데이터 유형을 설정하여 새 지연을 지정하면 됩니다. 이 옵션은 기술 워크플로에서만 활성화해야 합니다. [자세히 보기](../../automation/workflow/workflow-properties.md#execution)
+* [엔터프라이즈(FFDA) 배포](../../v8/architecture/enterprise-deployment.md)에 새로운 기술 워크플로가 도입되었습니다. 이러한 워크플로는 병렬 복제 요청을 해당 테이블에 중앙 집중화하여 게재와 관련 데이터를 복제합니다. 이러한 워크플로는 `Replicate nms`(으)로 시작합니다. [데이터 복제](../architecture/replication.md)
+* 이제 새로운 **워크플로를 영구적으로 실행할 수 있도록 워치도그 감독자 활성화** 옵션을 워크플로 속성에서 사용할 수 있습니다. 이 옵션을 활성화하면 오류가 발생한 후 워크플로가 자동으로 다시 시작됩니다. 워크플로에 여전히 오류가 있는 경우 기본적으로 30초마다 다시 시작됩니다. 이 간격을 조정하려면 새 `XtkWorkflow_WatchdogRestartTimerTimeout` 옵션을 만들고 Integer 데이터 유형을 설정하여 새 지연을 지정하면 됩니다. 이 옵션은 기술 워크플로에서만 활성화해야 합니다. [실행](../../automation/workflow/workflow-properties.md#execution)
 
 ### 보안 개선 사항 {#security-8-6-4}
 

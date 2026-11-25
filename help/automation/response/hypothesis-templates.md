@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 2%
+source-wordcount: '1828'
+ht-degree: 1%
 ---
 # 가설 템플릿{#hypothesis-templates}
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 1. Adobe Campaign 탐색기에서 **[!UICONTROL Resources>Templates>Hypothesis templates]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/response_hypothesis_model_creation_001.png)
+   ![리소스 > 템플릿 > 가설 템플릿을 선택하고 [일반] 탭에 가설 템플릿이 열려 있는 탐색기](assets/response_hypothesis_model_creation_001.png)
 
 1. 템플릿 목록에서 **[!UICONTROL New]**&#x200B;을(를) 클릭하거나 마우스 오른쪽 단추를 클릭하고 드롭다운 목록에서 **[!UICONTROL New]**&#x200B;을(를) 선택합니다.
 1. 가설 레이블을 입력합니다.
@@ -88,7 +88,7 @@ ht-degree: 2%
 
 * **[!UICONTROL Channel]**: 드롭다운 목록에서 **[!UICONTROL All channels]**&#x200B;을(를) 선택하여 Adobe Campaign 콘솔의 모든 채널에서 특정 채널을 선택하거나 가설 템플릿을 사용할 수 있도록 할 수 있습니다. 특정 채널에 대해 템플릿을 구성하는 경우 가설을 생성할 때 채널당 게재를 자동으로 필터링할 수 있습니다. [자세히 알아보기](creating-hypotheses.md)
 
-  ![](assets/response_properties_001.png)
+  ![채널 드롭다운이 열려 있고 모든 채널이 강조 표시된 가설 템플릿 일반 탭](assets/response_properties_001.png)
 
 * **[!UICONTROL Execution folder]**: 가설에 대한 실행 폴더를 지정할 수 있습니다.
 * **[!UICONTROL Taken into account in campaign ROI calculation]**: 관련 캠페인에 대한 ROI 계산에서 가설 결과를 고려합니다.
@@ -99,29 +99,29 @@ ht-degree: 2%
 
 * **[!UICONTROL Schedule execution for a time of low activity]**: 가설 시작을 예약하여 Adobe Campaign 성능을 최적화할 수 있습니다. 이 옵션을 선택하면 캠페인 처리 워크플로우가 중단 시간 동안 가설 계산을 실행합니다.
 
-  ![](assets/response_exec_settings_002.png)
+  ![활동이 적은 시간에 실행 일정을 설정하는 가설 템플릿 실행 설정을 확인했습니다.](assets/response_exec_settings_002.png)
 
 * **[!UICONTROL Priority]**: 동시 실행이 있는 경우 가설 계산 순서 공간을 확보하기 위해 가설에 적용되는 레벨입니다.
 
-  ![](assets/response_exec_settings_003.png)
+  ![가설 템플릿 우선 순위 드롭다운 목록에 낮음, 평균 및 높음](assets/response_exec_settings_003.png)
 
 * **[!UICONTROL Automatic execution]**: 필요한 경우 가설 다시 계산을 예약할 수 있도록 해 줍니다(예: 게재가 끝날 때까지 지표를 정기적으로 업데이트하려는 경우).
 
-  ![](assets/response_exec_settings_001.png)
+  ![실행 빈도 링크 및 [변경] 단추를 사용한 가설 대화 상자를 사용하여 자동 실행이 확인되었습니다.](assets/response_exec_settings_001.png)
 
   스케줄을 지정하려면 다음 프로세스를 적용합니다.
 
   1. **[!UICONTROL Frequency of execution...]** 링크를 클릭한 다음 **[!UICONTROL Change...]** 단추를 클릭합니다.
 
-     ![](assets/response_frequency_execution_001.png)
+     ![작업 일정을 나타내는 가설 대화 상자가 정의되지 않았습니다. [변경] 단추를 사용하여 빈도를 정의하십시오.](assets/response_frequency_execution_001.png)
 
   1. 빈도, 관련 이벤트 및 유효 기간을 구성합니다.
 
-     ![](assets/response_frequency_execution_002.png)
+     ![일정 편집 마법사: 주별 빈도, 수요일 및 금요일이 선택되었으며 유효 기간부터 유효합니다.](assets/response_frequency_execution_002.png)
 
   1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭하여 일정을 저장합니다.
 
-     ![](assets/response_frequency_execution_003.png)
+     ![시작 시간을 나열하는 예약 편집 마법사 요약 단계(마침 단추 포함)](assets/response_frequency_execution_003.png)
 
 * **[!UICONTROL Log SQL queries in journal]**: 이 함수는 전문가 사용자용으로 예약되어 있습니다. 측정 가설 감사에 탭을 추가하여 SQL 쿼리를 표시할 수 있습니다. 이를 통해 시뮬레이션이 오류로 종료될 경우 발생 가능한 오동작을 감지할 수 있다.
 * **[!UICONTROL Keep execution workflow]**: 가설 계산이 시작될 때 자동으로 생성된 워크플로를 유지할 수 있습니다. 이 옵션이 선택된 템플릿에서 생성된 가설에서 생성된 워크플로는 프로세스를 따를 수 있습니다.
@@ -146,19 +146,19 @@ ht-degree: 2%
 
   가설이 게재에 연결되면 측정은 DM 게재의 경우 연락일로부터 며칠 후 또는 이메일 또는 SMS 게재의 경우 게재일 후에 자동으로 트리거됩니다.
 
-  ![](assets/response_measurement_001.png)
+  ![트랜잭션 날짜 필드와 계산 시작 및 계산 기간 끝이 있는 트랜잭션 탭](assets/response_measurement_001.png)
 
   가설이 즉시 실행되면 즉시 트리거하려면 강제 적용할 수 있습니다. 그렇지 않으면 구성된 계산 종료일을 기준으로 자동으로 트리거되며, 이는 가설 생성일을 기준으로 합니다. [자세히 알아보기](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)).
 
 * **[!UICONTROL Transaction/Margin amount]**: 이 필드는 선택 사항이며 회전율 지표를 자동으로 계산할 수 있습니다. [자세히 알아보기](hypothesis-tracking.md#indicators)
 * **[!UICONTROL Unit amount]**: 수익 계산을 위한 금액을 설정할 수 있습니다. [자세히 알아보기](hypothesis-tracking.md#indicators)
 
-  ![](assets/response_transactions_001.png)
+  ![트랜잭션 금액이 @amount으로 설정되어 있고 단위 금액 필드를 가리키는 화살표가 있는 트랜잭션 탭입니다.](assets/response_transactions_001.png)
 
 * **[!UICONTROL Additional measures and data]**: 다른 테이블의 필드에서 추가 보고 측정값 또는 축을 지정할 수 있습니다.
 * **[!UICONTROL Update offer proposition status]**: 오퍼 받는 사람이 가설에 의해 식별되는 경우 오퍼 제안의 상태를 변경할 수 있습니다.
 
-  ![](assets/response_offer_status_001.png)
+  ![오퍼 제안 업데이트 상태를 확인하고 상태 드롭다운을 연 트랜잭션 탭 제안 섹션.](assets/response_offer_status_001.png)
 
 ### 가설 경계 {#hypothesis-perimeter}
 
@@ -168,29 +168,29 @@ ht-degree: 2%
 
   1. **[!UICONTROL Edit query]** 링크를 클릭합니다.
 
-     ![](assets/response_scope_filtering_001.png)
+     ![반응에 연결된 트랜잭션 필터링 아래의 쿼리 편집 링크가 있는 범위 탭](assets/response_scope_filtering_001.png)
 
   1. 필터링 조건을 지정합니다.
 
-     ![](assets/response_scope_filtering_002.png)
+     ![쿼리 편집 마법사: 필터링 조건을 선택한 다음 표현식 편집 단추 및 필드 선택 트리를 선택합니다.](assets/response_scope_filtering_002.png)
 
   1. 가설에 관한 트랜잭션을 선택합니다.
 
-     ![](assets/response_scope_filtering_003.png)
+     ![쿼리 필터 조건 편집: 구매 항목이 값과 같은 구매 라인이 있습니다.](assets/response_scope_filtering_003.png)
 
 * **받는 사람 필터링**: **[!UICONTROL Scope]** 탭에서 메시지에 연결된 정보(게재, 받는 사람, 전자 메일 주소, 서비스 등)로 가설을 제한할 수 있습니다.
 
   1. **[!UICONTROL Add a filter]** 링크를 클릭한 다음 **[!UICONTROL Edit query]**&#x200B;을(를) 클릭합니다.
 
-     ![](assets/response_scope_filtering_004.png)
+     ![게재 메시지 필터링 아래의 필터 추가 링크 및 쿼리 편집 링크가 있는 범위 탭](assets/response_scope_filtering_004.png)
 
   1. 필터링 조건을 지정합니다.
 
-     ![](assets/response_scope_filtering_005.png)
+     ![전자 메일이 포함된 받는 사람 게재 로그 스키마의 쿼리 편집 마법사에 필터 조건이 있습니다.](assets/response_scope_filtering_005.png)
 
   1. 쿼리를 저장하려면 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
-     ![](assets/response_scope_filtering_006.png)
+     ![저장된 게재 메시지 필터를 표시하는 범위 탭, 쿼리: 전자 메일이 들어 있음, 강조 표시됨.](assets/response_scope_filtering_006.png)
 
 * **스크립트**: JavaScript 스크립트를 사용하여 실행 중에 가설 설정을 동적으로 오버로드할 수 있습니다.
 
@@ -200,7 +200,7 @@ ht-degree: 2%
   >
   >이 옵션은 전문 사용자용입니다.
 
-  ![](assets/response_hypothesis_model_creation_011.png)
+  ![초기화 스크립트가 입력된 고급 설정 대화 상자가 범위 탭의 고급 설정 링크에서 열립니다.](assets/response_hypothesis_model_creation_011.png)
 
 ## 예: 게재에 대한 가설 템플릿 만들기 {#example--creating-a-hypothesis-template-on-a-delivery}
 
@@ -209,11 +209,11 @@ ht-degree: 2%
 1. Adobe Campaign 탐색기에서 **[!UICONTROL Resources > Templates > Hypothesis templates]** 노드로 이동합니다.
 1. 템플릿을 만들려면 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/response_hypothesis_model_example_001.png)
+   ![[새로 만들기] 단추가 강조 표시되고 [일반] 탭에서 새 템플릿이 열려 있는 가설 템플릿 목록입니다.](assets/response_hypothesis_model_example_001.png)
 
 1. 템플릿 레이블을 변경합니다.
 
-   ![](assets/response_hypothesis_model_example_002.png)
+   ![가설 유형으로 구매 및 게재에 대한 가설 레이블이 변경된 템플릿 일반 탭](assets/response_hypothesis_model_example_002.png)
 
 1. **[!UICONTROL Deliveries]**&#x200B;을(를) 가설 유형으로 선택하십시오.
 1. 관련 상자를 선택하여 게재에 컨트롤 그룹을 포함할 수 있도록 지정합니다.
@@ -225,33 +225,33 @@ ht-degree: 2%
 
 1. **[!UICONTROL Transactions]** 탭에서 수신자 반응 테이블을 선택합니다.
 
-   ![](assets/response_hypothesis_model_example_006.png)
+   ![스키마 선택 대화 상자 및 수신자 스키마의 반응이 선택된 트랜잭션 탭](assets/response_hypothesis_model_example_006.png)
 
 1. **[!UICONTROL Transactions schema]** 필드에서 구매 테이블을 선택합니다.
 
-   ![](assets/response_hypothesis_model_example_007.png)
+   ![구매 및 구매 선택 시 필터링된 문서 선택 대화 상자가 있는 트랜잭션 탭](assets/response_hypothesis_model_example_007.png)
 
 1. **[!UICONTROL Querying schema]** 필드에서 구매 라인을 선택합니다.
 
-   ![](assets/response_hypothesis_model_example_008.png)
+   ![구매 줄, 구매 및 받는 사람의 반응을 나열하는 스키마 드롭다운을 쿼리하고 있습니다.](assets/response_hypothesis_model_example_008.png)
 
 1. 구매 테이블에 연결된 수신자를 선택합니다.
 
-   ![](assets/response_hypothesis_model_example_009.png)
+   ![[구매]에서 [받는 사람] 링크를 선택한 개인 항목에 연결할 식 대화 상자를 선택하십시오.](assets/response_hypothesis_model_example_009.png)
 
 1. 구매 날짜에 연결된 필드를 선택합니다.
 
    이를 통해 가설을 위한 시간대를 정의할 수 있습니다. 이 단계는 필수는 아니지만 권장됩니다.
 
-   ![](assets/response_hypothesis_model_example_010.png)
+   ![구매 날짜 필드가 선택된 트랜잭션 날짜에 대한 식 대화 상자를 선택하십시오.](assets/response_hypothesis_model_example_010.png)
 
 1. 5일에서 25일 동안 계산 기간을 구성합니다.
 
-   ![](assets/response_hypothesis_model_example_005.png)
+   ![계산 시작이 5d로 설정되어 있고 계산 종료가 25d로 설정되어 있는 [트랜잭션] 탭이 강조 표시되어 있습니다.](assets/response_hypothesis_model_example_005.png)
 
 1. **[!UICONTROL Scope]** 탭에서 **[!UICONTROL Edit query]**&#x200B;을(를) 클릭하여 가설에 대한 필터를 만듭니다.
 
-   ![](assets/response_hypothesis_model_example_011.png)
+   ![쿼리 편집을 클릭한 범위 탭과 필터 유형을 나열하는 쿼리 편집 마법사, 선택한 제품별 필터링](assets/response_hypothesis_model_example_011.png)
 
    이렇게 만들어진 템플릿을 사용하면 구매 테이블의 제품이나 문서에 대한 가설을 실행할 수 있습니다.
 

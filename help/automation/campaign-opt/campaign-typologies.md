@@ -28,16 +28,16 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 19%
+source-wordcount: '508'
+ht-degree: 17%
 ---
 # 캠페인 유형화 시작{#about-campaign-typologies}
 
 **캠페인 최적화**&#x200B;은(는) 게재 전송을 제어, 필터링 및 모니터링할 수 있는 Adobe Campaign 모듈입니다. 캠페인 간의 충돌을 방지하기 위해 Adobe Campaign은 특정 제한 조건을 적용하여 다양한 조합을 테스트할 수 있습니다. 이를 통해 회사 커뮤니케이션 정책을 준수하면서 고객의 요구 사항과 기대치에 가장 적합한 메시지를 보내도록 보장합니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#typologies-video)
+![유형화 비디오에 대한 재생 단추 아이콘](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#typologies-video)
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ ht-degree: 19%
 
 각 유형화에 대해 **[!UICONTROL Rules]** 탭에서 적용할 유형화 규칙을 추가, 삭제 또는 볼 수 있습니다.
 
-![](assets/campaign_opt_rules_tab.png)
+![유형화 하나를 선택한 유형화 목록과 적용할 유형화 규칙을 나열하는 해당 규칙 탭](assets/campaign_opt_rules_tab.png)
 
 유형화 규칙이 만들어지면 게재에서 참조되는 **유형화** 캠페인으로 유형화 규칙이 그룹화됩니다. [자세히 알아보기](#apply-typologies).
 
@@ -93,7 +93,7 @@ Campaign 최적화 추가 기능은 **유형화 규칙**&#x200B;의 두 가지 �
 
 게재를 준비하는 동안 기준이 충족되면 수신자가 제외됩니다. 로그를 확인하여 제외 사항을 모니터링할 수 있습니다.
 
-압력 유형화 규칙에 대한 샘플 사용 사례는 [이 페이지](pressure-rules.md#use-cases-on-pressure-rules)에서 확인할 수 있습니다.
+압력 유형화 규칙에 대한 샘플 사용 사례는 [압력 규칙에 대한 사용 사례](pressure-rules.md#use-cases-on-pressure-rules)에서 사용할 수 있습니다.
 
 ## 튜토리얼 비디오 {#typologies-video}
 

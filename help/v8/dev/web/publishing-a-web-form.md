@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 1%
+source-wordcount: '1481'
+ht-degree: 0%
 ---
 # 웹 양식 게시{#publishing-a-web-form}
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 
 * **[!UICONTROL DES encryption]**
 
-  ![](assets/s_ncs_admin_survey_preload_methods_001.png)
+  ![DES 암호화, DES 키 필드 및 ID가 없는 경우 미리 로드 건너뛰기로 메서드가 설정된 ID 섹션을 미리 로드합니다](assets/s_ncs_admin_survey_preload_methods_001.png)
 
   이 암호화 방법은 외부에서 제공되는 식별자(ID)를 사용하며, Adobe Campaign 및 외부 공급자에 의해 공유되는 키에 연결됩니다. **[!UICONTROL Des key]** 필드를 사용하면 이 암호화 키를 입력할 수 있습니다.
 
@@ -57,7 +57,7 @@ ht-degree: 1%
 
   이 옵션을 사용하면 양식의 현재 컨텍스트에 있는 필드 중에서 데이터베이스에서 해당 프로필을 찾는 데 사용할 필드를 선택할 수 있습니다.
 
-  ![](assets/s_ncs_admin_survey_preload_methods_002.png)
+  ![필드 목록 메서드 및 전자 메일 필드가 식별자로 선택된 ID 섹션 미리 로드](assets/s_ncs_admin_survey_preload_methods_002.png)
 
   **[!UICONTROL Parameters]** 탭을 통해 필드를 양식 속성에 추가할 수 있습니다([매개 변수 추가](defining-web-forms-properties.md#adding-parameters) 참조). 양식 URL 또는 입력 영역에 배치됩니다.
 
@@ -69,11 +69,11 @@ ht-degree: 1%
 
   URL에는 암호화되지 않은 이메일 주소가 포함될 수 있으며, 이 경우 사용자는 관련된 페이지에 직접 액세스할 수 있습니다.
 
-  ![](assets/s_ncs_admin_survey_preload_methods_003.png)
+  ![전자 메일 주소가 포함된 웹 폼 URL로 미리 채워진 클라이언트 정보 양식을 직접 엽니다](assets/s_ncs_admin_survey_preload_methods_003.png)
 
   그렇지 않으면 암호를 입력하라는 메시지가 표시됩니다.
 
-  ![](assets/s_ncs_admin_survey_preload_methods_004.png)
+  ![전자 메일이 없는 웹 폼 URL, 암호를 묻는 암호 입력 페이지 열기](assets/s_ncs_admin_survey_preload_methods_004.png)
 
   >[!CAUTION]
   >
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 예를 들어 수신자의 성별을 미리 로드하고 테스트 상자를 통해 자동으로 해당 페이지로 안내할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_preload_ex.png)
+![성별 필드를 로드한 후 일치하는 페이지로 받는 사람을 보내는 테스트 상자를 로드하는 중](assets/s_ncs_admin_survey_preload_ex.png)
 
 ## 웹 양식 게재 및 추적 관리 {#managing-web-forms-delivery-and-tracking}
 
@@ -137,13 +137,13 @@ ht-degree: 1%
 
 양식의 게시 상태가 양식 목록에 표시됩니다.
 
-![](assets/s_ncs_admin_survey_status.png)
+![각 양식의 게시 상태를 표시하는 웹 응용 프로그램 목록(예: 온라인 및 편집 중)](assets/s_ncs_admin_survey_status.png)
 
 ### 양식 게시 {#publishing-a-form}
 
 양식의 상태를 변경하려면 양식을 게시해야 합니다. 이렇게 하려면 웹 양식 목록 위에 있는 **[!UICONTROL Publication]** 단추를 클릭하고 드롭다운 상자에서 상태를 선택합니다.
 
-![](assets/webapp_publish_webform.png)
+![게시 단추가 있는 웹 폼 대시보드로 이동하여 시작 단추가 있는 웹 응용 프로그램 게시 대화 상자로 이어짐](assets/webapp_publish_webform.png)
 
 ### 온라인에서 양식 사용 가능 {#making-a-form-available-online}
 
@@ -151,7 +151,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Project]** 섹션의 필드를 사용하여 양식의 시작 날짜와 종료 날짜를 입력하십시오.
 
-  ![](assets/webapp_availability_date.png)
+  프로젝트 섹션에 시작 및 종료 날짜 필드가 있고 종료 날짜 달력이 열려 있는 속성의 ![일반 탭](assets/webapp_availability_date.png)
 
 * **[!UICONTROL Personalize the message displayed if the form is closed...]** 링크를 클릭하여 양식이 유효하지 않은 상태에서 사용자가 양식에 액세스하려고 할 경우 표시할 오류 메시지를 정의합니다.
 
@@ -161,7 +161,7 @@ ht-degree: 1%
 
 전자 메일을 통해 초대를 전달할 때 데이터 조정에 **[!UICONTROL Adobe Campaign Encryption]** 옵션을 사용할 수 있습니다. 이렇게 하려면 게재 도우미로 이동하여 다음 매개 변수를 추가하여 양식에 대한 링크를 조정합니다.
 
-```
+```xml
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">
 ```
 
@@ -169,21 +169,21 @@ ht-degree: 1%
 
 이 경우 레코드 상자에서 **[!UICONTROL Update the preloaded record]** 옵션을 선택해야 합니다. 자세한 내용은 [웹 양식 답변 저장](web-forms-answers.md#saving-web-forms-answers)을 참조하세요.
 
-![](assets/s_ncs_admin_survey_save_box_option.png)
+![미리 로드된 레코드 업데이트 옵션이 선택된 저장소 상자 대화 상자](assets/s_ncs_admin_survey_save_box_option.png)
 
 ### 로그 응답 {#log-responses}
 
 응답 추적은 전용 탭에서 활성화하여 웹 양식의 영향을 모니터링할 수 있습니다. 이렇게 하려면 양식 속성 창에서 **[!UICONTROL Advanced parameters...]** 링크를 클릭하고 **[!UICONTROL Log responses]** 옵션을 선택합니다.
 
-![](assets/s_ncs_admin_survey_trace.png)
+![로그 응답 옵션이 선택된 고급 매개 변수 대화 상자, 양식 속성에서 열림](assets/s_ncs_admin_survey_trace.png)
 
 응답자의 ID를 볼 수 있는 **[!UICONTROL Responses]** 탭이 나타납니다.
 
-![](assets/s_ncs_admin_survey_trace_tab.png)
+![각 양식 응답의 날짜와 수신자를 나열하는 웹 양식의 응답 탭](assets/s_ncs_admin_survey_trace_tab.png)
 
 받는 사람을 선택하고 **[!UICONTROL Detail...]** 단추를 클릭하여 제공된 응답을 봅니다.
 
-![](assets/s_ncs_admin_survey_trace_edit.png)
+![받는 사람이 입력한 답변이 있는 양식 응답 창을 여는 응답 탭의 세부 정보 단추](assets/s_ncs_admin_survey_trace_edit.png)
 
 예를 들어, 미리 알림을 전송할 때 응답자가 아닌 사람만 타겟팅하거나 응답자에게만 특정 커뮤니케이션을 제공하기 위해 쿼리에 제공된 응답 로그를 처리할 수 있습니다.
 
@@ -191,7 +191,7 @@ ht-degree: 1%
 
 인스턴스에서 다른 인스턴스로(예: 스테이지에서 프로덕션으로) 웹 양식을 포함하는 패키지를 내보내고 가져올 때 새 인스턴스의 웹 양식 상태는 여러 조건에 따라 달라질 수 있습니다. 다른 사례는 아래에 나열되어 있습니다.
 
-[이 섹션](#life-cycle-of-a-form)에서 웹 양식의 다양한 상태에 대해 자세히 알아보세요.
+[양식의 수명 주기](#life-cycle-of-a-form)에서 웹 양식의 다양한 상태에 대해 자세히 알아보세요.
 
 >[!NOTE]
 >

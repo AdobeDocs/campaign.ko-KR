@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 9%
+source-wordcount: '212'
+ht-degree: 3%
 ---
 # URL 추적 옵션 구성 {#personalizing-url-tracking}
 
@@ -45,7 +45,7 @@ ht-degree: 9%
 >
 >이메일의 이미지 관리도 이 창에서 구성됩니다. [이미지 추가](defining-the-email-content.md#adding-images)를 참조하세요.
 
-![](assets/s_ncs_user_email_del_tracking_ico.png)
+![도구 모음에 강조 표시된 추적 및 이미지 아이콘을 사용한 전자 메일 게재](assets/s_ncs_user_email_del_tracking_ico.png)
 
 추적 옵션을 구성할 수 있습니다.
 
@@ -57,15 +57,15 @@ ht-degree: 9%
 
 * 메시지 열기에 대한 추적 활성화/비활성화
 
-![](assets/s_ncs_user_email_del_tracking_param.png)
+![추적 및 이미지 창, 추적 탭(추적 활성화 및 열기 추적 옵션 포함) 및 추적된 URL 트리](assets/s_ncs_user_email_del_tracking_param.png)
 
 추적된 URL은 트리 양식으로 중앙 창에 나열됩니다.
 
-메시지의 각 URL에 대해 개별적으로 추적을 활성화하거나 비활성화할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](tracked-links.md)을 참조하십시오.
+메시지의 각 URL에 대해 개별적으로 추적을 활성화하거나 비활성화할 수 있습니다. 자세한 내용은 [추적된 링크 구성](tracked-links.md)을 참조하세요.
 
 **[!UICONTROL Advanced]** 탭에서는 추적된 URL과 열린 URL의 계산 수식을 개인화할 수 있습니다.
 
-![](assets/s_ncs_user_email_del_tracking_param_adv.png)
+![추적 및 이미지 창, 고급 탭(추적 URL 및 Open URL 계산 수식 포함)](assets/s_ncs_user_email_del_tracking_param_adv.png)
 
 >[!CAUTION]
 >

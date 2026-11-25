@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 3%
+source-wordcount: '143'
+ht-degree: 2%
 ---
 # 대상자에게 SMS 게재 보내기 {#sms-send-audience}
 
@@ -40,10 +40,10 @@ ht-degree: 3%
 
    아래 예제에서는 **[!UICONTROL Deliver it as soon as possible]**&#x200B;을(를) 선택하겠습니다. **[!UICONTROL Analyze]** 단추가 나타납니다. **[!UICONTROL Analyze]** 단추를 클릭합니다.
 
-   ![](assets/send_action.png){zoomable="yes"}
+   ![가능한 한 빨리 배달을 선택하고 [분석]을 강조 표시한 상태로 주 게재 대상 대화 상자로 보내기](assets/send_action.png){zoomable="yes"}
 
    Adobe Campaign은 증명 전송을 확인하기 전에 모든 제어를 수행합니다. 여러분은 실제 관객의 양을 보게 될 것입니다. 분석이 끝나면 **[!UICONTROL Confirm delivery]** 단추를 클릭할 수 있습니다.
 
-   ![](assets/send_analyze.png){zoomable="yes"}
+   ![전송할 메시지 수와 배달 확인 단추를 표시하는 배달 분석을 완료했습니다](assets/send_analyze.png){zoomable="yes"}
 
 1. 대상자에게 SMS 게재를 보내려면 **[!UICONTROL Confirm delivery]** 버튼을 클릭하세요.

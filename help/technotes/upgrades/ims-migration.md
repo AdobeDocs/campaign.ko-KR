@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1763'
 ht-degree: 0%
 ---
 # Campaign 기술 운영자를 Adobe Developer Console으로 마이그레이션 {#migrate-tech-users-to-ims}
@@ -73,7 +73,7 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 
 새 프로젝트를 만들려면 Adobe Developer Console의 기본 화면에서 **새 프로젝트 만들기**&#x200B;를 클릭합니다.
 
-![](assets/New-Project.png)
+![새 프로젝트 만들기 빠른 시작 옵션이 강조 표시된 Adobe Developer Console 홈 페이지입니다.](assets/New-Project.png)
 
 **프로젝트 편집** 단추를 사용하여 이 프로젝트의 이름을 바꿀 수 있습니다.
 
@@ -85,16 +85,16 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 프로젝트에 API를 추가하려면 다음 단계를 수행합니다.
 
 1. **API 추가**&#x200B;를 클릭하여 프로젝트에 추가할 API를 선택합니다.
-   ![](assets/do-not-localize/ims-updates-01.png)
+   ![API 추가, 이벤트 추가 및 플러그 인 추가 옵션을 사용하여 Adobe Developer Console의 빈 프로젝트 페이지를 새로 만듭니다.](assets/do-not-localize/ims-updates-01.png)
 1. Adobe Campaign API를 선택하고 프로젝트에 추가합니다. 카드를 마우스로 가리키면 표시되는 Adobe Campaign 카드의 오른쪽 상단 모서리에 있는 상자를 선택합니다
-   ![](assets/do-not-localize/ims-updates-02.png)
+   ![Experience Cloud에서 선택한 Adobe Campaign 카드와 [다음] 단추를 사용하여 API 화면을 추가합니다.](assets/do-not-localize/ims-updates-02.png)
 1. 화면 하단의 **다음**&#x200B;을 클릭합니다.
 
 ### 3단계 - 인증 유형 선택  {#ims-migration-step-3}
 
 **API 구성** 화면에서 필요한 인증 유형을 선택합니다. 이 프로젝트에는 **OAuth 서버 간** 인증이 필요합니다. 선택되었는지 확인하고 화면 하단의 **다음**&#x200B;을(를) 클릭합니다.
 
-![](assets/do-not-localize/ims-updates-03.png)
+![OAuth 서버 간, 자격 증명 이름 필드 및 다음 단추를 선택한 상태로 API 화면을 구성합니다.](assets/do-not-localize/ims-updates-03.png)
 
 <!--
 Once your project is created in the Adobe Developer Console, add an API that uses Server-to-Server authentication. Learn how to set up the OAuth Server-to-Server credential in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
@@ -129,17 +129,17 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 프로젝트 화면에서 **[!UICONTROL + Add to Project]**&#x200B;을(를) 클릭하고 화면 왼쪽 상단의 **[!UICONTROL API]**&#x200B;을(를) 선택하여 이 프로젝트에 I/O 관리 API를 추가합니다.
 
-![](assets/do-not-localize/ims-updates-04.png)
+![프로젝트에 추가 메뉴가 열려 API, 이벤트 및 플러그 인을 표시하는 Adobe Campaign API 페이지.](assets/do-not-localize/ims-updates-04.png)
 
 **API 추가** 화면에서 아래로 스크롤하여 **I/O 관리 API** 카드를 찾습니다. 카드 위에 마우스를 가져다 대면 나타나는 확인란을 클릭하여 선택합니다. 그런 다음 화면 하단의 **다음**&#x200B;을 클릭합니다.
 
-![](assets/do-not-localize/ims-updates-05.png)
+![I/O 관리 API 카드를 선택하고 [다음] 단추를 사용하여 API 화면을 추가합니다.](assets/do-not-localize/ims-updates-05.png)
 
 
 **API 구성** 화면에서 OAuth 서버 간 인증이 이미 있습니다. 화면 하단의 **구성된 API 저장**&#x200B;을 클릭합니다.
 
 
-![](assets/do-not-localize/ims-updates-06.png)
+![기존 OAuth 서버 간 자격 증명을 표시하는 API 화면을 구성하고 구성된 API 단추를 저장합니다.](assets/do-not-localize/ims-updates-06.png)
 
 이렇게 하면 새로 생성된 프로젝트의 I/O 관리 API 내의 프로젝트 화면으로 돌아갑니다. 화면 상단의 경로에서 프로젝트 이름을 클릭하여 기본 프로젝트 세부 정보 페이지로 돌아갑니다.
 
@@ -148,7 +148,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 프로젝트를 검토하여 제품 및 서비스 섹션에 표시되는 **I/O 관리 API** 및 **Adobe Campaign API**&#x200B;와 자격 증명 섹션에 표시되는 **OAuth 서버 간**&#x200B;이(가) 아래와 유사한지 확인하십시오.
 
-![](assets/do-not-localize/ims-updates-07.png)
+![제품 및 서비스의 I/O 관리 API 및 Adobe Campaign과 OAuth 서버 간 연결을 나열하는 프로젝트 개요](assets/do-not-localize/ims-updates-07.png)
 
 
 ### 7단계 - 구성 유효성 검사 {#ims-migration-step-7}
@@ -228,11 +228,11 @@ Campaign 인스턴스에 대한 API 호출이 하나 이상 만들어져야 IMS�
 
    프로젝트의 **자격 증명** 섹션에서 **OAuth 서버 간** 제목을 클릭하여 이 전자 메일 주소를 찾을 수 있습니다.
 
-   ![](assets/do-not-localize/ims-updates-07.png)
+   ![자격 증명 섹션에서 선택할 OAuth 서버 간 자격 증명이 포함된 프로젝트 개요.](assets/do-not-localize/ims-updates-07.png)
 
    자격 증명 화면에서 아래로 스크롤하여 **기술 계정 전자 메일** 찾은 다음 **복사** 단추를 클릭합니다.
 
-   ![](assets/do-not-localize/ims-updates-08.png)
+   ![액세스 토큰 생성 단추, 클라이언트 ID 및 클라이언트 암호를 사용한 서버 간 자격 증명 세부 정보](assets/do-not-localize/ims-updates-08.png)
 
 1. 이제 Adobe Campaign 클라이언트 콘솔에서 새로 만든 기술 연산자를 업데이트해야 합니다. 기존 기술 운영자 폴더 권한을 새 기술 운영자에게 적용해야 합니다.
 

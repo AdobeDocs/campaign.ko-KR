@@ -38,10 +38,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 6%
+source-wordcount: '1376'
+ht-degree: 5%
 ---
 # 스키마 작업{#gs-ac-schemas}
 
@@ -69,7 +69,7 @@ Adobe Campaign은 데이터 스키마를 사용하여 다음을 수행합니다.
 * Campaign 애플리케이션 내에서 서로 다른 데이터 개체 간의 링크를 정의합니다.
 * 각 개체에 포함된 개별 필드를 정의하고 설명합니다.
 
-Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 [이 섹션](datamodel.md)을 참조하세요.
+Campaign 기본 제공 테이블 및 상호 작용을 더 잘 이해하려면 [Campaign 데이터 모델 시작](datamodel.md)을 참조하세요.
 
 >[!CAUTION]
 >
@@ -81,7 +81,7 @@ Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 
 
 첫 번째 **`<element>`** 하위 요소는 엔터티의 루트와 일치합니다.
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">  
     <attribute name="lastName"/>
@@ -97,7 +97,7 @@ Campaign 기본 제공 테이블과 상호 작용에 대한 자세한 내용은 
 >
 >엔티티의 루트 요소는 스키마와 동일한 이름을 갖습니다.
 
-![](assets/schema_and_entity.png)
+![스키마는 받는 사람 데이터의 XML 구조를 정의하며 엔터티는 그 뒤에 오는 특정 레코드입니다.](assets/schema_and_entity.png)
 
 **`<element>`** 태그는 엔터티 요소의 이름을 정의합니다. 스키마의 **`<attribute>`** 태그는 연결된 **`<element>`** 태그의 특성 이름을 정의합니다.
 
@@ -137,7 +137,7 @@ Adobe Campaign에 존재하지 않는 완전히 새로운 유형의 데이터(�
 
 자세한 내용은 [새 스키마 만들기](create-schema.md)를 참조하세요.
 
-![](assets/schemaextension_1.png)
+![데이터 스키마 만들기 마법사, 스키마 유형 단계(새 테이블 및 스키마 옵션 확장명 강조 표시)](assets/schemaextension_1.png)
 
 
 작업할 스키마를 만들거나 확장한 후에는 아래에 표시된 것과 동일한 순서로 해당 XML 콘텐츠 요소를 정의하는 것이 가장 좋습니다.
@@ -221,13 +221,13 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 >
 >새 스키마를 생성하거나 스키마 확장 중에 전체 스키마에 대해 동일한 기본 키 시퀀스 값(@pkSequence)을 유지해야 합니다.
 
-[이 섹션](database-mapping.md)의 키에 대해 자세히 알아보세요.
+[Campaign 데이터베이스 매핑](database-mapping.md)의 키에 대해 자세히 알아보세요.
 
 ## 속성(필드) {#attributes--fields-}
 
-속성을 사용하면 데이터 개체를 구성하는 필드를 정의할 수 있습니다. 스키마 편집 도구 모음의 **[!UICONTROL Insert]** 단추를 사용하여 커서가 있는 XML에 빈 특성 템플릿을 놓을 수 있습니다. [이 섹션](create-schema.md)에서 자세히 알아보십시오.
+속성을 사용하면 데이터 개체를 구성하는 필드를 정의할 수 있습니다. 스키마 편집 도구 모음의 **[!UICONTROL Insert]** 단추를 사용하여 커서가 있는 XML에 빈 특성 템플릿을 놓을 수 있습니다. [Campaign에서 새 스키마 만들기](create-schema.md)에서 자세히 알아보세요.
 
-![](assets/schemaextension_2.png)
+![삽입 메뉴가 열려 있는 스키마 단계를 편집하여 String, Boolean, Integer 또는 Date와 같은 특성을 추가합니다.](assets/schemaextension_2.png)
 
 전체 특성 목록은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=ko#content-model){target="_blank"}의 `<attribute>` 요소 섹션에서 사용할 수 있습니다. 일반적으로 사용되는 특성 중 일부는 다음과 같습니다. **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull @required @ref @xml @type**, **&#x200B;**, **&#x200B;**, **&#x200B;**, **&#x200B;**.
 
@@ -311,9 +311,9 @@ SQL 필드에 저장되며 **@dataPolicy** 특성이 있는 XML 필드의 예입
 
 변경 사항이 완료되고 저장되면 SQL 구조에 영향을 줄 수 있는 모든 변경 사항을 데이터베이스에 적용해야 합니다. 이렇게 하려면 Database Update Assistant를 사용합니다.
 
-![](assets/schemaextension_3.png)
+![스키마 변경 내용을 적용하려면 [데이터베이스 구조 업데이트]를 선택한 콘솔의 [도구], [고급] 메뉴를 선택합니다.](assets/schemaextension_3.png)
 
-이 작업에 대한 자세한 정보는 [이 섹션](update-database-structure.md)을 참조하십시오.
+자세한 내용은 [데이터베이스 구조 업데이트](update-database-structure.md)를 참조하세요.
 
 >[!NOTE]
 >

@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 4%
+source-wordcount: '1290'
+ht-degree: 3%
 ---
 # 이메일에 파일 첨부{#attaching-files}
 
@@ -65,21 +65,21 @@ Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 
 1. **[!UICONTROL Add]** 버튼을 클릭합니다.
 1. 게재에 첨부할 파일을 선택하려면 **[!UICONTROL File...]**&#x200B;을(를) 클릭하십시오.
 
-   ![](assets/s_ncs_user_wizard_email_attachement.png)
+   ![추가 메뉴가 열려 있는 첨부 파일 편집 대화 상자 및 파일... 파일을 전자 메일 게재에 첨부하도록 선택함](assets/s_ncs_user_wizard_email_attachement.png)
 
 배달 **[!UICONTROL Attachments]** 필드에 파일을 직접 끌어서 놓거나 배달 도우미 도구 모음에서 **[!UICONTROL Attach]** 아이콘을 사용할 수도 있습니다.
 
-![](assets/s_ncs_user_wizard_add_file_ico.png)
+![게재 도우미 도구 모음의 전자 메일 매개 변수 섹션 옆에 있는 아이콘 첨부](assets/s_ncs_user_wizard_add_file_ico.png)
 
 파일이 선택되면 즉시 서버에 업로드되어 게재 시 사용할 수 있게 됩니다. **[!UICONTROL Attachments]** 필드에 나열됩니다.
 
-![](assets/s_ncs_user_wizard_email_attachement_e.png)
+![첨부 파일 필드에 업로드된 파일이 있는 전자 메일 매개 변수](assets/s_ncs_user_wizard_email_attachement_e.png)
 
 ## 계산된 첨부 파일 만들기 {#creating-a-calculated-attachment}
 
 계산된 첨부 파일을 생성할 때 첨부 파일의 이름은 각 메시지의 분석 또는 게재 중에 계산되며 수신자에 따라 달라질 수 있습니다. 또한 개인화하고 PDF으로 변환할 수 있습니다.
 
-![](assets/s_ncs_user_wizard_attachment.png)
+![추가 메뉴가 열려 있는 첨부 파일 편집 대화 상자 및 계산된 첨부 파일... 선택됨](assets/s_ncs_user_wizard_attachment.png)
 
 개인화된 첨부 파일을 생성하려면 다음 단계를 수행합니다.
 
@@ -87,7 +87,7 @@ Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 
 1. **[!UICONTROL Add]** 단추를 클릭한 다음 **[!UICONTROL Calculated attachment]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Type]** 드롭다운 목록에서 계산 유형을 선택합니다.
 
-![](assets/s_ncs_user_wizard_email01_136.png)
+4개의 계산된 첨부 파일 옵션을 표시하는 유형 드롭다운 목록이 있는 ![첨부 파일 정의 대화 상자](assets/s_ncs_user_wizard_email01_136.png)
 
 다음 옵션을 사용할 수 있습니다.
 
@@ -103,11 +103,11 @@ Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 
 1. **[!UICONTROL Local file]** 필드에서 업로드할 파일을 선택하십시오.
 1. 필요한 경우 레이블을 지정합니다. 이 레이블은 메시징 시스템에서 볼 때 파일 이름을 대체합니다. 아무것도 지정하지 않으면 기본적으로 파일 이름이 사용됩니다.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
+   ![유형, 레이블 및 로컬 파일 필드와 서버에 있는 파일 업로드 옵션이 있는 첨부 파일 정의 일반 탭](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
 
 1. 필요한 경우 **[!UICONTROL Upload file on the server]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Update on server]**&#x200B;을(를) 클릭하여 전송을 시작합니다.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
+   ![로그 메시지를 나열하고 서버로의 파일 전송을 보여 주는 업로드 진행 창](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
 그런 다음 서버에서 이 템플릿에서 만든 다른 게재에 첨부할 파일을 사용할 수 있습니다.
 
@@ -115,7 +115,7 @@ Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 
 
 **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** 옵션을 사용하면 의도한 수신자의 성 및 이름과 같은 개인화 필드가 있는 파일을 선택할 수 있습니다.
 
-![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
+![PDF 첨부 파일에 대한 받는 사람 이름 및 성 개인화 필드가 포함된 워드 프로세서 문서](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 
 이 유형의 첨부 파일에 대해 다음 구성 단계를 적용합니다.
 
@@ -124,13 +124,13 @@ Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 
 1. **[!UICONTROL Upload file on the server]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Update on server]**&#x200B;을(를) 클릭하여 전송을 시작합니다.
 1. 미리보기를 표시할 수 있습니다. 이렇게 하려면 수신자를 선택합니다.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
+   ![미리 보기 목록에서 선택한 받는 사람에 대해 개인 맞춤화된 PDF을 미리 보는 첨부 파일 정의 대화 상자](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
 
 1. 게재를 분석한 다음 시작합니다.
 
    각 수신자는 게재에 첨부된 개인화된 PDF을 수신합니다.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
+   ![개인 맞춤화된 PDF 첨부 파일이 있는 전자 메일을 받았습니다. 인사말에 받는 사람 이름을 표시하기 위해 열었습니다.](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
 
 
@@ -149,13 +149,13 @@ Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 
    >
    >파일이 서버에 있어야 합니다.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_04.png)
+   ![게재 분석 중에 파일 경로와 이름(날짜 포함)을 계산하는 스크립트를 사용한 첨부 파일 정의](assets/s_ncs_user_wizard_email_calc_attachement_04.png)
 
 1. 분석을 수행한 다음 게재를 시작합니다.
 
    파일 이름 계산은 분석 로그에서 볼 수 있습니다.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
+   ![계산 첨부 파일 이름 결과를 표시하는 줄이 있는 게재 분석 로그](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
 
 ### 개인화된 파일 첨부 {#attach-a-personalized-file}
 
@@ -168,7 +168,7 @@ Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 
 1. 첨부 파일에 적용할 레이블을 지정합니다.
 1. 정의 창에서 파일의 액세스 경로와 정확한 이름을 지정합니다. 파일 이름이 개인화된 경우 관련 값에 대한 개인화 필드를 사용할 수 있습니다.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
+   ![파일 경로에 받는 사람의 성을 사용하여 받는 사람마다 다른 파일을 선택하는 첨부 파일 정의](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
 
    >[!IMPORTANT]
    >
@@ -178,21 +178,21 @@ Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 
 
    아래 예에서 첨부 파일은 병합 필드를 사용하여 정의된 이름에 따라 선택되었습니다.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_011.png)
+   ![이름이 받는 사람의 성으로 만들어진 첨부 파일이 있는 전자 메일을 받았습니다.](assets/s_ncs_user_wizard_email_calc_attachement_011.png)
 
 ### 첨부 파일 설정 {#attachment-settings}
 
 처음 두 옵션은 적절한 옵션을 선택하여 **[!UICONTROL Upload file on the server]**&#x200B;을(를) 선택할 수 있습니다. **[!UICONTROL Update the file on the server]** 링크를 사용하여 업로드를 시작할 수 있습니다.
 
-![](assets/s_ncs_user_wizard_email01_137.png)
+![첨부 파일 정의 일반 탭(선택한 서버의 파일 업로드 및 서버 링크 업데이트 포함)](assets/s_ncs_user_wizard_email01_137.png)
 
 파일이 서버에 업로드되었다는 메시지가 표시됩니다.
 
-![](assets/s_ncs_user_wizard_email01_1371.png)
+![파일을 표시하는 첨부 파일 정의가 서버 메시지에 이미 있음](assets/s_ncs_user_wizard_email01_1371.png)
 
 파일을 변경하면 다음과 같은 경고 메시지가 표시됩니다.
 
-![](assets/s_ncs_user_wizard_email01_1372.png)
+![로컬 파일이 서버에 있는 파일과 같지 않다는 경고를 표시하는 첨부 파일 정의](assets/s_ncs_user_wizard_email01_1372.png)
 
 **[!UICONTROL Advanced]** 탭에서는 첨부 파일에 고급 옵션을 정의할 수 있습니다.
 
@@ -201,4 +201,4 @@ Adobe은 첨부 파일의 크기와 수를 제한하는 것을 권장합니다. 
 
   창에 텍스트를 입력하고 드롭다운 목록에서 사용할 수 있는 개인화 필드를 사용합니다. 다음 예제에서는 파일 이름이 오늘의 날짜와 수신자의 이름을 포함하도록 개인화됩니다.
 
-  ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)
+  첨부 파일 이름을 개인화하는 스크립트가 있는 ![고급 탭과 결과 이름을 표시하는 전자 메일](assets/s_ncs_user_wizard_email_calc_attachement_09.png)

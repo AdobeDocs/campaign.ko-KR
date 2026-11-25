@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '1159'
 ht-degree: 1%
 ---
 # 개인화된 쿠폰{#personalized-coupons}
@@ -55,12 +55,12 @@ ht-degree: 1%
 
 1. 캠페인 트리에서 **[!UICONTROL Resources > Campaign management > Coupons]**(으)로 이동합니다.
 
-   ![](assets/deliv_coup_01.png)
+   ![리소스, 캠페인 관리가 확장되고 쿠폰 노드가 선택된 캠페인 트리](assets/deliv_coup_01.png)
 
 1. **[!UICONTROL New]** 버튼을 클릭합니다.
 1. **[!UICONTROL Label]** 필드에 쿠폰 이름을 입력합니다. **[!UICONTROL Coupon code]**&#x200B;에 고유 코드가 자동으로 입력되었습니다. 코드를 유지하거나 새 코드를 입력할 수 있습니다.
 
-   ![](assets/deliv_coup_02.png)
+   ![레이블, 쿠폰 코드, 쿠폰 유형, 시작 날짜 및 종료 날짜 필드가 있는 쿠폰의 쿠폰 목록 및 일반 탭](assets/deliv_coup_02.png)
 
 1. 쿠폰의 유효 기간을 설정하려면 **[!UICONTROL Start date]** 및 **[!UICONTROL End date]**&#x200B;을(를) 선택하십시오.
 1. **[!UICONTROL Coupon type]**&#x200B;에서 익명 또는 개인을 선택하십시오.
@@ -77,11 +77,11 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >개별 쿠폰은 일괄 수입이 가능합니다. 가져오기 및 내보내기에 대한 자세한 내용은 [이 섹션](../start/import.md)을 참조하세요.
+   >개별 쿠폰은 일괄 수입이 가능합니다. 가져오기 및 내보내기에 대한 자세한 내용은 [프로필 시작](../start/import.md)을 참조하세요.
 
 ### 개별 쿠폰 구성 {#configuring-individual-coupons}
 
-![](assets/deliv_coup_03.png)
+![개별 쿠폰 코드를 나열하는 쿠폰의 쿠폰 탭(각각 사용 가능 상태 포함)](assets/deliv_coup_03.png)
 
 쿠폰 탭은 개별 쿠폰에서만 사용할 수 있습니다. 쿠폰이 게재와 연계되면 쿠폰 탭에서 다음 세부 정보를 확인할 수 있습니다.
 
@@ -94,64 +94,64 @@ ht-degree: 1%
 
 ## 이메일 게재에 쿠폰 삽입 {#inserting-a-coupon-into-an-email-delivery}
 
-아래 예에서는 게재가 홈 페이지에서 생성됩니다. 게재를 만드는 방법에 대한 자세한 지침은 [이 섹션](email.md)을 참조하세요.
+아래 예에서는 게재가 홈 페이지에서 생성됩니다. 게재를 만드는 방법에 대한 자세한 지침은 [Adobe Campaign으로 전자 메일 보내기](email.md)를 참조하세요.
 1. **[!UICONTROL Campaigns]**(으)로 이동하여 **[!UICONTROL Deliveries]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/deliv_coup_04.png)
+   ![[만들기] 단추가 강조 표시된 캠페인 탭의 게재 목록](assets/deliv_coup_04.png)
 
 1. **[!UICONTROL Label]**&#x200B;에 이름을 입력하고 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 1. 수신자를 추가하려면 **[!UICONTROL To]**&#x200B;을(를) 클릭하십시오.
 1. **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 게재할 수신자를 선택합니다. 받는 사람을 선택한 후 **[!UICONTROL Ok]**&#x200B;을(를) 클릭하여 게재로 돌아갑니다.
 
-   ![](assets/deliv_coup_05.png)
+   ![기본 대상 탭의 대상 선택 대화 상자에서 추가 단추를 강조 표시함](assets/deliv_coup_05.png)
 
 1. 제목을 입력하고 메시지에 내용을 추가하십시오.
 
-   ![](assets/deliv_coup_06.png)
+   ![쿠폰 전자 메일에 대한 제목과 HTML 콘텐츠가 있는 게재 편집기](assets/deliv_coup_06.png)
 
 1. 도구 모음에서 **[!UICONTROL Properties]**&#x200B;을(를) 클릭하고 **[!UICONTROL Advanced]** 탭을 선택합니다.
 1. **[!UICONTROL Coupon management]**&#x200B;의 폴더 아이콘을 클릭합니다.
 
-   ![](assets/deliv_coup_07.png)
+   ![쿠폰 관리의 쿠폰 필드 옆에 있는 폴더 아이콘이 강조 표시된 배달 속성 고급 탭](assets/deliv_coup_07.png)
 
 1. 쿠폰을 선택하고 **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Ok]**&#x200B;을(를) 다시 클릭합니다.
 
-   ![](assets/deliv_coup_08.png)
+   ![선택한 축구 쿠폰이 있는 쿠폰 문서를 나열하는 쿠폰 선택 대화 상자](assets/deliv_coup_08.png)
 
 1. 메시지를 클릭하여 쿠폰을 놓을 위치를 선택합니다.
 
-   ![](assets/deliv_coup_09.png)
+   ![쿠폰 코드를 삽입할 위치에 커서가 있는 HTML 콘텐츠 편집기](assets/deliv_coup_09.png)
 
 1. 개인화 아이콘을 클릭하여 쿠폰 유형에 따라 다음 중 하나를 선택합니다.
 
    * 익명 쿠폰: **[!UICONTROL Coupon > Coupon code]**
 
-     ![](assets/deliv_coup_10.png)
+     ![쿠폰을 선택한 다음 쿠폰 코드를 선택한 Personalization 메뉴, 익명 쿠폰](assets/deliv_coup_10.png)
 
    * 개별 쿠폰: **[!UICONTROL Coupon value > Coupon code]**
 
-     ![](assets/deliv_coup_11.png)
+     ![쿠폰 값이 선택된 Personalization 메뉴, 개별 쿠폰에 대한 쿠폰 코드](assets/deliv_coup_11.png)
 
      쿠폰은 지정한 이름이 아닌 코드로 메시지에 삽입됩니다. 이 코드는 Campaign ootb 데이터 모델 내에서 사용됩니다.
 
-   ![](assets/deliv_coup_12.png)
+   ![삽입된 쿠폰 코드 스크립트 couponValue.couponCode가 강조 표시된 이메일 콘텐츠](assets/deliv_coup_12.png)
 
 1. 테스트를 실행하여 쿠폰에 할당한 이름을 확인합니다. **[!UICONTROL Preview]** 탭으로 이동하여 **[!UICONTROL Test personalization]**&#x200B;을(를) 클릭합니다. 테스트 수신자를 선택합니다.
 
-   ![](assets/deliv_coup_13.png)
+   테스트 개인화 메뉴가 열리고 받는 사람 옵션이 강조 표시된 ![미리 보기 탭](assets/deliv_coup_13.png)
 
    테스트에 따라 쿠폰이 코드가 아닌 지정된 이름으로 표시되어야 합니다.
 
-   ![](assets/deliv_coup_14.png)
+   ![메시지 본문에 표시되는 쿠폰 코드 Trynow가 포함된 전자 메일 미리 보기](assets/deliv_coup_14.png)
 
 1. 도구 모음에서 **[!UICONTROL Send]**(왼쪽 상단)을 클릭하고 게재를 보낼 방법을 선택합니다.
 
-   ![](assets/deliv_coup_15.png)
+   ![가능한 한 빨리 배달 옵션과 분석 단추가 있는 기본 배달 대상 대화 상자로 보내기](assets/deliv_coup_15.png)
 
 1. **[!UICONTROL Analyze]**&#x200B;을(를) 클릭합니다. 분석 로그에서 모든 받는 사람에 대한 쿠폰이 충분하다고 확인되면 **[!UICONTROL Confirm delivery]**&#x200B;을(를) 클릭하여 보내세요.
 
-   ![](assets/deliv_coup_16.png)
+   ![2개의 쿠폰을 재생하고 배달 확인 단추를 사용할 수 있는 배달 분석 로그](assets/deliv_coup_16.png)
 
 >[!NOTE]
 >
@@ -162,7 +162,7 @@ ht-degree: 1%
 1. **[!UICONTROL Explorer > Resources > Campaign management > Coupons]**(으)로 이동합니다.
 1. **[!UICONTROL Deliveries]** 탭을 클릭합니다.
 
-   ![](assets/deliv_coup_17.png)
+   ![상태 및 메시지 수와 함께 사용하는 게재를 나열하는 쿠폰의 게재 탭](assets/deliv_coup_17.png)
 
    상태가 성공적으로 배달될 수 있도록 **[!UICONTROL Finished]**(으)로 읽혀집니다.
 
@@ -180,12 +180,12 @@ ht-degree: 1%
 1. **[!UICONTROL To]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Select target]**&#x200B;에서 **[!UICONTROL Exclusions]** 탭으로 이동합니다.
 
-   ![](assets/deliv_coup_18.png)
+   ![제외 탭이 강조 표시되고 제외 설정에 대한 편집 링크가 있는 대상 선택 대화 상자](assets/deliv_coup_18.png)
 
 1. 제외 설정 섹션에서 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Limit delivery to...messages]**&#x200B;에 보낼 메시지 수를 입력하고 **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다. 게재를 보낼 수 있습니다.
 
-   ![](assets/deliv_coup_19.png)
+   ![필드 배달 제한이 강조 표시된 20개의 메시지로 설정된 제외 설정 대화 상자](assets/deliv_coup_19.png)
 
 >[!NOTE]
 >

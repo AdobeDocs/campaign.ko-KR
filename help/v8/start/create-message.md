@@ -35,22 +35,22 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 90%
+source-wordcount: '1710'
+ht-degree: 78%
 ---
 # 첫 게재 만들어 보기 {#create-a-msg}
 
-이 페이지에서는 일회성 단일 게재를 만드는 방법을 알아봅니다. 사용 사례를 구축하기 위한 다른 유형의 게재를 만들 수 있습니다. [이 페이지](gs-message.md)에서는 게재의 다양한 유형과 이를 만드는 방법을 자세히 알아봅니다.
+이 페이지에서는 일회성 단일 게재를 만드는 방법을 알아봅니다. 사용 사례를 구축하기 위한 다른 유형의 게재를 만들 수 있습니다. [메시지 시작](gs-message.md)에서 다양한 유형의 게재와 이를 만드는 방법에 대해 자세히 알아보세요.
 
 일회성 게재를 만드는 주요 단계는 다음과 같습니다.
 
-1. **새 게재를 만듭니다**. [자세히 보기](#create-the-delivery)
+1. **새 게재를 만듭니다**. [게재 만들기](#create-the-delivery)
 
-1. **게재 콘텐츠를 정의합니다**. [자세히 보기](#content-of-the-delivery)
+1. **게재 콘텐츠를 정의합니다**. [게재 콘텐츠 정의](#content-of-the-delivery)
 
-1. **대상 집단을 정의합니다**. [자세히 보기](#target-population)
+1. **대상 집단을 정의합니다**. [대상 대상 정의](#target-population)
 
 그런 다음에는 Adobe Campaign으로 메시지를 준비, 테스트, 전송, 모니터링할 수 있습니다.
 
@@ -65,7 +65,7 @@ ht-degree: 90%
 1. 게재 목록으로 이동해 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 1. 게재 채널을 선택합니다. 이렇게 하려면 드롭다운 목록에서 적절한 게재 템플릿을 선택합니다.
 
-   ![](../send/assets/select-the-new-template.png)
+   ![선택할 전자 메일, SMS, 트윗 및 기타 게재 템플릿을 나열하는 게재 템플릿 드롭다운](../send/assets/select-the-new-template.png)
 
    설치한 각 채널에 대해 이메일, 전화, 모바일 채널(푸시/SMS), DM, X(Twitter) 등 기본 제공 템플릿이 제공됩니다. 목록에서 사용할 수 있는 채널은 사용권 계약에 따라 다릅니다.
 
@@ -110,32 +110,32 @@ ht-degree: 90%
 1. 게재 편집기에서 **[!UICONTROL To]**&#x200B;을(를) 선택합니다.
 1. 수신자가 데이터베이스에 저장되어 있는 경우 첫 번째 옵션을 선택합니다.
 
-   ![](../send/sms/assets/audience_to.png){zoomable="yes"}
+   ![대상 링크 및 데이터베이스에 정의됨 옵션이 선택된 대상 선택 대화 상자](../send/sms/assets/audience_to.png){zoomable="yes"}
 
 1. **[!UICONTROL Target mapping]** 드롭다운 목록에서 [대상 매핑](../audiences/target-mappings.md)을 선택합니다.
 1. **[!UICONTROL Add]** 버튼을 클릭하여 제한 필터를 정의합니다.
 
-   ![](assets/target-type.png){width="60%" zoomable="yes"}
+   ![폴더에 포함된 받는 사람과 같은 제한 필터를 나열하는 대상 유형 대화 상자](assets/target-type.png){width="60%" zoomable="yes"}
 
    필터 유형을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 조건을 정의합니다. **[!UICONTROL Preview]** 탭에서 필터링된 수신자를 표시할 수 있습니다. 대상 유형에 따라 **[!UICONTROL Refine target]** 버튼을 사용하여 여러 타기팅 기준을 결합할 수 있습니다.
 
    다음과 같은 대상 유형을 사용할 수 있습니다.
 
-   * **[!UICONTROL Filtering conditions]**: 이 옵션을 사용하여 수신자를 검색할 사용자 지정 쿼리를 정의합니다. [이 섹션](../start/query-editor.md)에서 쿼리를 디자인하는 방법을 알아보십시오.
-   * **[!UICONTROL A list of recipients]**: 프로필 목록을 타기팅하려면 이 옵션을 사용합니다. 목록에 대한 자세한 내용은 [이 섹션](../audiences/create-audiences.md)을 참조하십시오.
+   * **[!UICONTROL Filtering conditions]**: 이 옵션을 사용하여 수신자를 검색할 사용자 지정 쿼리를 정의합니다. [쿼리 편집기 작업](../start/query-editor.md)에서 쿼리를 디자인하는 방법을 알아봅니다.
+   * **[!UICONTROL A list of recipients]**: 프로필 목록을 타기팅하려면 이 옵션을 사용합니다. [Campaign에서 프로필 대상자 만들기](../audiences/create-audiences.md)에서 목록에 대해 자세히 알아보세요.
    * **[!UICONTROL A recipient]**: 데이터베이스의 특정 프로필을 선택하려면 이 옵션을 사용합니다.
    * **[!UICONTROL Recipients included in a folder]**: 특정 폴더에 포함된 모든 프로필을 타기팅하려면 이 옵션을 사용합니다.
    * **[!UICONTROL Recipients of a delivery]**: 게재 수신자를 사용하여 대상을 작성하려면 이 옵션을 사용합니다. 그 다음에는 목록에서 게재를 선택해야 합니다.
 
-     ![](assets/target-recipient-delivery.png)
+     ![동작 필터를 사용하여 수신자가 타겟팅된 게재를 선택하는 대상 요소 대화 상자](assets/target-recipient-delivery.png)
 
    * **[!UICONTROL Delivery recipients belonging to a folder]**: 이 옵션을 사용하여 특정 폴더에 포함된 게재 수신자로부터 대상을 빌드합니다.
 
-     ![](assets/target-delivery-folder.png)
+     ![게재 폴더를 선택하기 위한 대상 요소 대화 상자(동작 및 하위 폴더 포함 옵션 포함)](assets/target-delivery-folder.png)
 
      드롭다운 목록에서 수신자의 행동을 선택하여 필터링할 수 있습니다.
 
-     ![](assets/target-filter-behavior.png)
+     ![열림 또는 클릭함, 열리지 않음, 실패한 메시지 등 받는 사람 필터를 나열하는 동작 드롭다운](assets/target-filter-behavior.png)
 
      >[!NOTE]
      >
@@ -143,9 +143,9 @@ ht-degree: 90%
 
    * **[!UICONTROL Subscribers of an information service]** : 이 옵션을 사용하면 수신자가 구독해야 하는 특정 뉴스레터가 만드는 게재에서 타기팅되도록 선택할 수 있습니다.
 
-     ![](assets/target-service.png)
+     ![대상 구독자에게 뉴스레터와 같은 정보 서비스를 나열하는 대상 요소 대화 상자](assets/target-service.png)
 
-   * **[!UICONTROL User filters]**: 이 옵션을 사용하면 미리 구성된 필터에 액세스하여 데이터베이스의 프로필에 대한 필터링 기준으로 사용할 수 있습니다. 미리 구성된 필터는 [이 섹션](../audiences/create-filters.md#default-filters)에 나와 있습니다.
+   * **[!UICONTROL User filters]**: 이 옵션을 사용하면 미리 구성된 필터에 액세스하여 데이터베이스의 프로필에 대한 필터링 기준으로 사용할 수 있습니다. 미리 구성된 필터가 [기본 필터](../audiences/create-filters.md#default-filters)에 표시됩니다.
    * **[!UICONTROL Exclude recipients from this segment]** 옵션을 사용하면 정의된 대상 기준을 충족하지 않는 수신자를 타깃팅할 수 있습니다. 이 옵션을 사용하려면 적절한 상자를 선택한 다음 앞에서 정의한 대로 타기팅을 적용하여 결과 프로필을 제외합니다.
 
 1. **[!UICONTROL Label]** 필드에 이 타기팅의 이름을 입력합니다. 기본적으로 이 레이블은 첫 번째 타기팅 기준의 레이블입니다. 필터링 기준을 결합할 때는 명시적 이름을 사용하는 것이 좋습니다.
@@ -153,7 +153,7 @@ ht-degree: 90%
 
    정의된 타기팅 기준은 주 대상 구성 탭의 중앙 섹션에 요약되어 있습니다. 기준을 클릭하여 해당 콘텐츠(구성 및 미리보기)를 봅니다. 기준을 삭제하려면 기준의 레이블 다음에 있는 십자표를 클릭합니다.
 
-   ![](assets/target-remove-criterion.png)
+   ![대상 모집단에서 타깃팅 기준 뒤에 교차 삭제가 있는 주 대상 탭](assets/target-remove-criterion.png)
 
 ### 외부 수신자 선택 {#selecting-external-recipients}
 
@@ -184,13 +184,13 @@ ht-degree: 90%
 
 기본 구성을 수정하려면 **[!UICONTROL Edit...]** 링크를 클릭합니다.
 
-![](assets/target-exclusion-settings.png)
+![차단 목록에 추가된 및 격리된 받는 사람 제외 및 중복 유지를 포함한 제외 설정 옵션](assets/target-exclusion-settings.png)
 
 +++ 사용 가능한 옵션 보기
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**: 이 옵션은 기본적으로 활성화되어 있으며 게재하는 동안 중복 이메일 주소를 제거합니다. 적용되는 전략은 Adobe Campaign 사용 방식과 데이터베이스의 데이터 유형에 따라 달라질 수 있습니다. 각 게재 템플릿마다 옵션의 값을 구성할 수 있습니다.
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]**, 즉 이메일 주소가 차단 목록에 있는 수신자(&#39;옵트아웃&#39;). e-마케팅의 직업 윤리를 준수하기 위해 이 옵션을 선택한 상태로 두어야 합니다.
-* **[!UICONTROL Exclude quarantined recipients]**: 이 옵션을 사용하면 격리된 주소가 있는 모든 프로필을 대상에서 제외할 수 있습니다. 이 옵션은 계속 선택해 두는 것을 강력하게 권장합니다. 격리 관리에 대한 자세한 내용은 [이 섹션](../send/quarantines.md)을 참조하십시오.
+* **[!UICONTROL Exclude quarantined recipients]**: 이 옵션을 사용하면 격리된 주소가 있는 모든 프로필을 대상에서 제외할 수 있습니다. 이 옵션은 계속 선택해 두는 것을 강력하게 권장합니다. [Campaign의 격리 관리](../send/quarantines.md)에서 격리 관리에 대해 자세히 알아보세요.
 * **[!UICONTROL Limit delivery]** 옵션은 게재를 지정한 메시지 수로 제한합니다. 이 옵션에서는 전송할 최대 메시지 수를 입력할 수 있습니다. 타깃 대상자의 수가 지정한 메시지 수를 초과하면 대상에 무작위 선택이 적용됩니다. 모든 메시지를 보내려면 이 값을 &#39;0&#39;으로 유지합니다.
 * **[!UICONTROL Keep duplicate records (same identifier)]**: 이 옵션을 사용하면 여러 타기팅 기준을 충족하는 수신자에게 여러 게재를 보낼 수 있습니다.
 +++
@@ -202,7 +202,7 @@ ht-degree: 90%
 
 증명은 메시지를 주 대상자에게 보내기 전에 테스트하기 위해 사용할 수 있는 전용 메시지입니다. 증명의 수신자는 메시지의 렌더링, 내용, 개인화 설정, 구성 등 요소를 승인해야 합니다.
 
-증명 수신자 및 전송에 대한 자세한 내용은 [이 섹션](../send/preview-and-proof.md#send-proofs)을 참조합니다.
+증명 수신자 및 전송에 대한 자세한 내용은 [증명 보내기](../send/preview-and-proof.md#send-proofs)를 참조하십시오.
 
 
 #### 튜토리얼 비디오 {#seeds-and-proofs-video}
@@ -232,4 +232,4 @@ ht-degree: 90%
 
 게재 매개 변수에 액세스하여 더 많은 설정을 구성하고 메시지를 보내는 방법을 정의합니다. 게재 우선 순위를 정의하고, 전송 예약된 일괄 처리를 설정하고, 다시 시도 설정을 구성하고, 게재 전송을 테스트할 수 있습니다. 이 구성이 완료되면 전송을 확인할 수 있습니다. 그런 다음에는 메시지가 즉시 또는 게재 일정에 따라 전송됩니다.
 
-[이 페이지](../send/configure-and-send.md)에서는 게재 설정을 구성하는 방법을 알아봅니다.
+[Adobe Campaign으로 전자 메일 구성](../send/configure-and-send.md)에서 게재 설정을 구성하는 방법을 알아봅니다.

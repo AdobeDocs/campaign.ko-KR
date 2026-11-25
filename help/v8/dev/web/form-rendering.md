@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 2%
+source-wordcount: '1298'
+ht-degree: 1%
 ---
 # 양식 렌더링{#form-rendering}
 
@@ -39,17 +39,17 @@ ht-degree: 2%
 
 양식 설정을 사용하여 페이지를 생성하는 데 사용되는 템플릿을 선택할 수 있습니다. 액세스하려면 양식 세부 정보 도구 모음에서 **[!UICONTROL Properties]** 단추를 클릭하고 **[!UICONTROL Rendering]** 탭을 선택하십시오. 기본적으로 사용할 수 있는 템플릿(스타일 시트)이 여러 개 있습니다.
 
-![](assets/s_ncs_admin_survey_rendering_select.png)
+![템플릿 목록이 열려 있는 양식 속성 렌더링 탭에서 표준 양식 및 테마 1에서 테마 7까지 표시](assets/s_ncs_admin_survey_rendering_select.png)
 
 편집기의 맨 아래 섹션에서 선택한 템플릿의 렌더링을 볼 수 있습니다.
 
 확대/축소 기능을 사용하여 선택한 템플릿을 편집할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_render_edit.png)
+![페이지 레이아웃 링크 및 CSS 설정이 있는 양식 생성 템플릿 테마 5 대화 상자](assets/s_ncs_admin_survey_render_edit.png)
 
 이러한 템플릿을 수정하거나 재정의할 수 있습니다. 이렇게 하려면 **[!UICONTROL Page layout...]** 링크를 클릭하고 정보를 개인화합니다.
 
-![](assets/s_ncs_admin_survey_render_edit_param.png)
+![페이지 레이아웃 대화 상자, 로고 이미지, 너비 및 높이, 미리 보기 이미지 경로가 포함된 속성 탭](assets/s_ncs_admin_survey_render_edit_param.png)
 
 다음을 수행할 수 있습니다.
 
@@ -58,19 +58,19 @@ ht-degree: 2%
 
 **[!UICONTROL Headers/Footers]** 탭에서는 이 템플릿을 사용하여 각 양식 페이지의 머리글과 바닥글에 표시되는 정보를 변경할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_render_edit_header.png)
+![페이지 레이아웃 대화 상자, 머리글/바닥글 탭, 페이지 머리글 및 페이지 바닥글 행과 위치 필드](assets/s_ncs_admin_survey_render_edit_header.png)
 
 **[!UICONTROL Page headers]** 및 **[!UICONTROL Page footers]** 섹션의 각 줄은 HTML 페이지의 줄에 해당합니다. 새 줄을 만들려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
 기존 줄을 선택하고 **[!UICONTROL Detail]** 단추를 클릭하여 개인 설정합니다.
 
-![](assets/s_ncs_admin_survey_render_edit_header_detail.png)
+![페이지 레이아웃, 테두리 및 글꼴 탭, 왼쪽 및 오른쪽 영역 콘텐츠가 있는 페이지 머리글 세부 정보 대화 상자.](assets/s_ncs_admin_survey_render_edit_header_detail.png)
 
 관련 탭을 통해 선의 내용을 변경하고, 테두리를 추가하고, 글꼴 속성을 변경할 수 있습니다. **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 변경 내용을 확인합니다.
 
 **[!UICONTROL Position]** 필드를 사용하면 페이지 머리글과 바닥글에서 요소의 위치를 정의할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_render_edit_header_position.png)
+![머리글 및 바닥글에 대한 위치 목록이 있는 머리글/바닥글 탭으로서, 페이지 바깥쪽에 숨겨진 머리글을 제공합니다.](assets/s_ncs_admin_survey_render_edit_header_position.png)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ ht-degree: 2%
 
 이렇게 하려면 **[!UICONTROL Advanced]** 탭을 사용합니다.
 
-![](assets/s_ncs_admin_survey_advanced_tab.png)
+![셀 수 및 세로 맞춤과 같은 표시 설정이 있는 양식 요소의 고급 탭](assets/s_ncs_admin_survey_advanced_tab.png)
 
 이를 통해 다음 속성을 정의할 수 있습니다.
 
@@ -98,7 +98,7 @@ ht-degree: 2%
 * **[!UICONTROL Lines]**: **[!UICONTROL Multi-line text]** 형식 영역에 대한 줄 수,
 * **[!UICONTROL Style inline]**: 추가 설정으로 CSS 스타일 시트를 오버로드할 수 있습니다. 아래 예와 같이 **;**&#x200B;자를 사용하여 구분됩니다.
 
-  ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
+  ![스타일 인라인 값이 font-size:16pt; background: blue.](assets/s_ncs_admin_survey_advanced_tab_inline.png)(으)로 설정된 고급 탭
 
 ### 머리글 및 바닥글 정의 {#defining-headers-and-footers}
 
@@ -106,7 +106,7 @@ ht-degree: 2%
 
 창 제목은 양식 속성 창의 **[!UICONTROL Page]** 탭에 입력해야 합니다. 설정된 콘텐츠를 페이지 머리글과 바닥글에 추가할 수도 있습니다(이 정보는 모든 페이지에 표시됨). 이 콘텐츠는 아래와 같이 **[!UICONTROL Texts]** 탭의 일치하는 섹션에 입력됩니다.
 
-![](assets/s_ncs_admin_survey_titles_config.png)
+![창 제목, 페이지 머리글 및 페이지 바닥글 콘텐츠가 있는 양식 속성 페이지 탭입니다.](assets/s_ncs_admin_survey_titles_config.png)
 
 ### HTML 헤더에 요소 추가 {#adding-elements-to-html-header}
 
@@ -114,7 +114,7 @@ ht-degree: 2%
 
 예를 들어 페이지의 제목 표시줄에 표시할 아이콘을 참조할 수 있습니다.
 
-![](assets/webform_header_page_tab.png)
+![바로 가기 아이콘에 대한 링크 요소가 있는 페이지 헤더 탭이 HTML 헤더에 추가되었습니다.](assets/webform_header_page_tab.png)
 
 ## 컨트롤 설정 정의 {#defining-control-settings}
 
@@ -124,19 +124,19 @@ ht-degree: 2%
 
 특정 필드를 필수 항목으로 만들려면 필드를 만들 때 이 옵션을 선택합니다.
 
-![](assets/s_ncs_admin_survey_required_field.png)
+![성 필드에 대해 필수 옵션이 선택된 필드 일반 탭](assets/s_ncs_admin_survey_required_field.png)
 
 사용자가 필드에 입력하지 않고 이 페이지를 승인하면 다음 메시지가 표시됩니다.
 
-![](assets/s_ncs_admin_survey_required_default_msg.png)
+![기본 오류 메시지 필드 &#39;성&#39;을 표시하는 양식 페이지는 필수 필드이며 빈 필드는 강조 표시되어 있습니다.](assets/s_ncs_admin_survey_required_default_msg.png)
 
 **[!UICONTROL Personalize this message]** 링크를 클릭하여 이 메시지를 개인화할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_required_custom_msg.png)
+![빈 필수 필드에 대한 사용자 지정 텍스트로 메시지를 개인화에서 메시지 개인화 대화 상자를 열었습니다.](assets/s_ncs_admin_survey_required_custom_msg.png)
 
 사용자가 필드에 입력하지 않고 이 페이지를 승인하면 다음 메시지가 표시됩니다.
 
-![](assets/s_ncs_admin_survey_required_custom_msg2.png)
+![강조 표시된 빈 필드 위에 사용자 지정 필수 필드 메시지를 표시하는 양식 페이지입니다.](assets/s_ncs_admin_survey_required_custom_msg2.png)
 
 ### 데이터 형식 확인 {#checking-data-format}
 
@@ -146,7 +146,7 @@ ht-degree: 2%
 
 예를 들어 **[!UICONTROL Number]**&#x200B;을(를) 만드는 경우 아래와 같이 클라이언트 번호를 저장합니다.
 
-![](assets/s_ncs_admin_survey_choose_format.png)
+![클라이언트 변수에 해당 값을 저장하는 숫자 형식 필드이며 저장소 및 편집 분기 대화 상자에 정수 형식이 표시됩니다.](assets/s_ncs_admin_survey_choose_format.png)
 
 양식 필드에 정수를 입력해야 합니다.
 
@@ -156,13 +156,13 @@ ht-degree: 2%
 
 페이지의 각 요소에 대해 **[!UICONTROL Visibility]** 섹션을 사용하여 표시 조건을 정의할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_condition_edit.png)
+![가시성 편집 링크가 있는 컨테이너 일반 탭으로 가시성 조건 대화 상자가 열립니다.](assets/s_ncs_admin_survey_condition_edit.png)
 
 조건은 데이터베이스 필드 또는 변수의 값과 관련이 있을 수 있습니다.
 
 필드 선택 창에서 다음 데이터 중에서 선택할 수 있습니다.
 
-![](assets/s_ncs_admin_survey_condition_select.png)
+![식별자, 언어, 원본, 받는 사람 및 변수가 있는 컨텍스트 트리를 표시하는 필드 대화 상자를 선택하십시오.](assets/s_ncs_admin_survey_condition_select.png)
 
 * 기본 트리에는 양식 컨텍스트의 매개 변수가 포함되어 있습니다. 기본 매개 변수는 식별자(수신자의 암호화된 식별자와 일치), 언어 및 원본입니다.
 
@@ -186,11 +186,11 @@ ht-degree: 2%
 
 1. 하나 이상의 요소를 삽입할 페이지를 편집한 다음 도구 모음에서 **[!UICONTROL Import an existing block]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/s_ncs_admin_survey_import_block.png)
+   ![기존 블록 가져오기 단추가 강조 표시된 페이지 편집기 도구 모음](assets/s_ncs_admin_survey_import_block.png)
 
 1. 가져올 필드가 포함된 웹 양식을 선택하고 가져올 컨테이너 및 필드를 선택합니다.
 
-   ![](assets/s_ncs_admin_survey_import_block_selection.png)
+   ![원본 웹 응용 프로그램과 함께 기존 블록 대화 상자 가져오기 및 가져올 블록을 가져왔습니다.](assets/s_ncs_admin_survey_import_block_selection.png)
 
    >[!NOTE]
    >
@@ -198,4 +198,4 @@ ht-degree: 2%
 
 1. 삽입을 확인하려면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/s_ncs_admin_survey_import_block_rendering.png)
+   ![가져오기 후 페이지 트리에 성, 국가, 계정 번호 및 전자 메일 필드가 포함되어 있습니다.](assets/s_ncs_admin_survey_import_block_rendering.png)
