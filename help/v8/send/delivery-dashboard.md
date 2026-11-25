@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1279'
 ht-degree: 3%
 ---
 # Campaign UI에서 게재 모니터링 {#delivery-dashboard}
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 트리의 **[!UICONTROL Campaign Management > Deliveries]** 노드를 통해 게재 목록에서 게재에 액세스할 수 있습니다.
 
-![](assets/deliveries-list.png)
+![Campaign Management의 게재 목록(상태 및 메시지 수 포함) 및 선택한 게재 대시보드 아래](assets/deliveries-list.png)
 
 기본적으로 게재 목록에는 선택한 노드에서 만든 게재의 이름과 상태가 포함됩니다. 전송, 처리 및 성공적으로 전송된 메시지 수도 표시됩니다.
 
@@ -73,7 +73,7 @@ ht-degree: 3%
 * [게재 렌더링](#delivery-rendering)
 * [게재 감사](#delivery-audit-)
 
-![](assets/s_ncs_user_del_details.png)
+![전송, 처리 및 성공 수치, 상태 및 전자 메일 구성을 포함하는 게재 대시보드 요약 탭](assets/s_ncs_user_del_details.png)
 
 **관련 항목:**
 
@@ -90,9 +90,9 @@ ht-degree: 3%
 
 **[!UICONTROL Summary]** 탭에서 액세스할 수 있는 **[!UICONTROL Reports]** 링크를 사용하면 게재 작업과 관련된 보고서 세트(일반 게재 보고서, 자세한 보고서, 게재 보고서, 실패한 메시지 배포, 열람률, 클릭 수 및 트랜잭션 등)를 볼 수 있습니다.
 
-이 탭의 내용은 요구 사항에 따라 구성할 수 있습니다. 게재 보고서에 대한 자세한 정보는 [이 섹션](../reporting/delivery-reports.md)을 참조하세요.
+이 탭의 내용은 요구 사항에 따라 구성할 수 있습니다. 게재 보고서에 대한 자세한 내용은 [Adobe Campaign 기본 제공 게재 보고서](../reporting/delivery-reports.md)를 참조하세요.
 
-![](assets/delivery-report.png)
+![사용 가능한 게재 보고서를 나열하는 게재 요약 탭의 보고서 보기](assets/delivery-report.png)
 
 ## 게재 로그, 내역 및 제외 {#delivery-logs-and-history}
 
@@ -102,15 +102,15 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->게재 로그를 표시하는 목록은 Campaign의 모든 목록과 같이 사용자 지정할 수 있습니다. 예를 들어 게재에서 각 이메일을 전송한 IP 주소를 알기 위한 열을 추가할 수 있습니다. 목록 표시 구성에 대한 자세한 내용은 [이 섹션](../config/ui-settings.md#customize-lists)을 참조하세요.
+>게재 로그를 표시하는 목록은 Campaign의 모든 목록과 같이 사용자 지정할 수 있습니다. 예를 들어 게재에서 각 이메일을 전송한 IP 주소를 알기 위한 열을 추가할 수 있습니다. 목록 표시 구성에 대한 자세한 내용은 [목록 관리 및 사용자 지정](../config/ui-settings.md#customize-lists)을 참조하세요.
 
-![](assets/s_ncs_user_delivery_delivery_tab.png)
+![게재 로그 상태를 나열하는 상태 필터 드롭다운이 있는 게재 탭 로그 하위 탭](assets/s_ncs_user_delivery_delivery_tab.png)
 
 **[!UICONTROL Display the mirror page for this message...]** 링크를 사용하면 새 창의 목록에서 선택한 게재 내용에 대한 미러 페이지를 볼 수 있습니다.
 
 미러 페이지는 HTML 콘텐츠가 정의된 게재에 대해서만 사용할 수 있습니다. 자세한 내용은 [미러 페이지에 연결](mirror-page.md)을 참조하세요.
 
-![](assets/s_ncs_user_wizard_miror_page_link.png)
+![이 메시지 링크에 대한 미러 페이지 표시가 강조 표시된 게재 로그 목록](assets/s_ncs_user_wizard_miror_page_link.png)
 
 ## 게재 추적 로그 및 내역 {#tracking-logs}
 
@@ -122,9 +122,9 @@ ht-degree: 3%
 
 추적 구성은 게재 도우미의 적절한 단계에서 수행됩니다. [추적된 링크를 구성하는 방법](tracking.md)을 참조하세요.
 
-**[!UICONTROL Tracking]** 데이터가 게재 보고서에 해석되어 있습니다. [이 섹션](../reporting/delivery-reports.md)을 참조하십시오.
+**[!UICONTROL Tracking]** 데이터가 게재 보고서에 해석되어 있습니다. [Adobe Campaign 기본 제공 게재 보고서](../reporting/delivery-reports.md)를 참조하세요.
 
-![](assets/s_ncs_user_delivery_tracking_tab.png)
+![추적 탭 로그 하위 탭에 날짜, 레이블, 유형 및 받는 사람과 함께 추적된 열기 및 클릭이 나열됨](assets/s_ncs_user_delivery_tracking_tab.png)
 
 ## 받은 편지함 렌더링 {#delivery-rendering}
 
@@ -132,7 +132,7 @@ ht-degree: 3%
 
 이렇게 하면 메시지가 다양한 웹 클라이언트, 웹 메일 및 디바이스에서 최적의 방식으로 수신자에게 표시되도록 할 수 있습니다.
 
-받은 편지함 렌더링에 대한 자세한 정보는 [이 페이지](inbox-rendering.md)를 참조하세요.
+받은 편지함 렌더링에 대한 자세한 내용은 [Campaign의 받은 편지함 렌더링](inbox-rendering.md)을 참조하세요.
 
 
 ## 게재 감사 {#delivery-audit-}
@@ -145,9 +145,9 @@ ht-degree: 3%
 
 **[!UICONTROL Proofs]** 하위 탭에서는 보낸 증명 목록을 볼 수 있습니다.
 
-![](assets/s_ncs_user_delivery_log_tab.png)
+![보내기, 처리 및 성공할 메시지가 있는 게재를 위해 보낸 증명을 나열하는 감사 탭 증명 하위 탭](assets/s_ncs_user_delivery_log_tab.png)
 
-표시할 열을 선택하여 이 창과 **[!UICONTROL Delivery]** 및 **[!UICONTROL Tracking]** 탭의 정보를 수정할 수 있습니다. 이렇게 하려면 오른쪽 하단에 있는 **[!UICONTROL Configure list]** 아이콘을 클릭합니다. 목록 표시 구성에 대한 자세한 내용은 [이 섹션](../config/ui-settings.md#customize-lists)을 참조하세요.
+표시할 열을 선택하여 이 창과 **[!UICONTROL Delivery]** 및 **[!UICONTROL Tracking]** 탭의 정보를 수정할 수 있습니다. 이렇게 하려면 오른쪽 하단에 있는 **[!UICONTROL Configure list]** 아이콘을 클릭합니다. 목록 표시 구성에 대한 자세한 내용은 [목록 관리 및 사용자 지정](../config/ui-settings.md#customize-lists)을 참조하세요.
 
 ## 게재 대시보드 동기화 {#delivery-dashboard-synchronization}
 

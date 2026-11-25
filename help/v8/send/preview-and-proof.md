@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 10%
+source-wordcount: '829'
+ht-degree: 9%
 ---
 # 이메일 미리 보기 및 테스트 {#preview-test}
 
@@ -41,11 +41,11 @@ ht-degree: 10%
 1. 게재의 **미리 보기** 탭으로 이동합니다.
 1. 개인화 데이터를 채울 프로필을 선택하려면 **[!UICONTROL Test personalization]** 단추를 클릭하십시오. 데이터베이스에서 특정 수신자를 선택하거나 시드 주소를 선택하거나 대상 모집단에서 프로필을 선택할 수 있습니다(이미 정의된 경우). 개인화하지 않고 콘텐츠를 확인할 수도 있습니다.
 
-   ![](assets/test-personalization.png)
+   ![미리 보기 탭의 개인화 테스트 메뉴: 받는 사람, 시드 주소, 게재 대상 모집단, 개인화 없음](assets/test-personalization.png)
 
 1. 메시지 렌더링을 확인할 수 있도록 미리 보기가 생성됩니다. 메시지 미리 보기에서 개인화된 요소는 선택한 테스트 프로필 데이터로 바뀝니다.
 
-   ![](assets/test-personalization-with-a-recipient.png)
+   ![선택한 테스트 프로필의 이름으로 개인화된 제목과 머리글을 사용하여 전자 메일 미리 보기](assets/test-personalization-with-a-recipient.png)
 
 1. 다른 테스트 프로필을 선택하여 메시지의 각 변형에 대한 이메일 렌더링을 미리 봅니다.
 
@@ -59,7 +59,7 @@ ht-degree: 10%
 
 증명 타겟은 게재 템플릿에서 정의하거나 게재별로 정의할 수 있습니다. 두 경우 모두 **[!UICONTROL To]** 링크에서 대상 정의 화면으로 이동한 다음 **[!UICONTROL Target of the proofs]** 탭을 선택합니다.
 
-![](assets/target-of-proofs.png)
+![대상 선택 대화 상자, 증명 탭의 대상, 타깃팅 모드 드롭다운 및 추가 단추](assets/target-of-proofs.png)
 
 **[!UICONTROL Targeting mode]** 드롭다운 목록에서 증명 대상 유형을 선택합니다.
 
@@ -68,11 +68,11 @@ ht-degree: 10%
 
   기본적으로 대체는 임의로 수행되지만 **[!UICONTROL Detail]** 아이콘을 통해 기본 대상에서 특정 받는 사람을 선택할 수 있습니다.
 
-  ![](assets/target-of-proofs-substitution-details.png){width="800"}
+  ![특정 프로필을 선택하는 데 사용되는 세부 정보 아이콘으로 증명 주소를 나열하는 주소 모드 대체](assets/target-of-proofs-substitution-details.png){width="800"}
 
   **[!UICONTROL Select a profile (must be included in the target)]** 옵션을 선택하고 받는 사람을 선택하십시오.
 
-  ![](assets/target-of-proofs-substitution.png){width="800"}
+  ![프로필 선택 옵션과 목록에서 선택한 수신자가 포함된 기본 제공 증명 수신자 대화 상자](assets/target-of-proofs-substitution.png){width="800"}
 
 
 * 시드 주소를 증명 대상으로 사용하려면 **[!UICONTROL Seed addresses]** 옵션을 사용하십시오. 이러한 주소는 파일에서 가져오거나 수동으로 입력할 수 있습니다.
@@ -81,7 +81,7 @@ ht-degree: 10%
   >
   >시드 주소는 기본 받는 사람 테이블(nms:recipient)에 속하지 않으며, 별도의 테이블에서 만들어집니다. 새 데이터로 수신자 테이블을 확장하는 경우 동일한 데이터로 시드 주소 테이블을 확장해야 합니다.
 
-  [이 섹션](../audiences/test-profiles.md)에서 시드 주소에 대해 자세히 알아보세요.
+  [Campaign에서 테스트 프로필 만들기](../audiences/test-profiles.md)에서 시드 주소에 대해 자세히 알아보세요.
 
 * 시드 주소와 특정 이메일 주소를 조합하려면 **[!UICONTROL Specific target and Seed addresses]** 옵션을 사용하십시오. 그런 다음 관련 구성이 두 개의 개별 하위 탭에서 정의됩니다.
 
@@ -93,7 +93,7 @@ ht-degree: 10%
 1. **[!UICONTROL Send a proof]** 창에서 증명 수신자를 확인합니다.
 1. 증명 메시지 준비를 시작하려면 **[!UICONTROL Analyze]**&#x200B;을(를) 클릭하십시오.
 
-   ![](assets/send-proof-analyze.png){width="800"}
+   ![분석을 클릭한 후 대체 주소와 게재 분석 로그가 실행되는 증명 창을 보냅니다](assets/send-proof-analyze.png){width="800"}
 
 1. 게재 준비가 완료되면 **[!UICONTROL Confirm delivery]**&#x200B;을(를) 사용하여 증명 메시지를 보냅니다.
 
@@ -115,11 +115,11 @@ ht-degree: 10%
 
 기본적으로 증명 메시지는 제목의 `Proof #N` 언급에 의해 식별됩니다. 여기서 `N`은(는) 증명 번호입니다. 이 숫자는 각 증명 게재 분석과 함께 증가합니다. 필요에 따라 `proof` 접두사를 변경할 수 있습니다.
 
-![](assets/proof-parameters.png){width="800"}
+증명 옵션과 레이블 접두사 필드가 Proof로 설정된 고급 탭의 ![증명 속성 대화 상자](assets/proof-parameters.png){width="800"}
 
 
 ## 사용 방법 비디오 {#video-proof}
 
 이메일 게재에 대한 교정쇄를 보내고 확인하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447006?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

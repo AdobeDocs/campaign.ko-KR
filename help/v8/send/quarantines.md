@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1417'
 ht-degree: 4%
 ---
 # 격리 {#quarantine-management}
@@ -62,7 +62,7 @@ Adobe Campaign은 온라인 채널(이메일, SMS, 푸시 알림)에 대해 격�
 
 >[!NOTE]
 >
->[&quot;mailto&quot; List-Unsubscribe 메서드](https://experienceleague.adobe.com/ko/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}를 통해 구독 취소된 수신자는 격리로 전송되지 않습니다. 게재에 대해 정의된 서비스가 없는 경우 게재와 연결된 [서비스](../start/subscriptions.md)을(를) 구독하거나 게재를 취소(프로필 **[!UICONTROL No longer contact]** 섹션에 표시됨)하는 차단 목록에 추가하다로 전송됩니다.
+>[&quot;mailto&quot; List-Unsubscribe 메서드](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}를 통해 구독 취소된 수신자는 격리로 전송되지 않습니다. 게재에 대해 정의된 서비스가 없는 경우 게재와 연결된 [서비스](../start/subscriptions.md)을(를) 구독하거나 게재를 취소(프로필 **[!UICONTROL No longer contact]** 섹션에 표시됨)하는 차단 목록에 추가하다로 전송됩니다.
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 
@@ -78,7 +78,7 @@ Adobe Campaign은 게재 실패 유형 및 이유에 따라 격리를 관리합�
 격리된 주소 목록에서 **[!UICONTROL Error reason]** 필드는 선택한 주소가 격리된 이유를 나타냅니다. [자세히 알아보기](#non-deliverable-bounces).
 
 
-사용자가 이메일을 스팸 처리하면 메시지는 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL Denylisted]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은 푸시 차단 목록에 있지 않으므로 SMS 메시지와 알림을 계속 수신하게 됩니다. [게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#feedback-loops){target="_blank"}에서 피드백 루프에 대해 자세히 알아보세요.
+사용자가 이메일을 스팸 처리하면 메시지는 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL Denylisted]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은 푸시 차단 목록에 있지 않으므로 SMS 메시지와 알림을 계속 수신하게 됩니다. [게재 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}에서 피드백 루프에 대해 자세히 알아보세요.
 
 >[!NOTE]
 >
@@ -103,13 +103,13 @@ Adobe Campaign은 게재 실패 유형 및 이유에 따라 격리를 관리합�
 * 게재 분석 중 격리된 주소 수
 * 게재 작업 후 격리된 주소 수입니다.
 
-[이 섹션](../reporting/gs-reporting.md)에서 게재 보고서에 대해 자세히 알아보십시오.
+[Adobe Campaign 보고 도구 시작](../reporting/gs-reporting.md)에서 게재 보고서에 대해 자세히 알아보세요.
 
 ### 비게재 항목 및 바운스 주소{#non-deliverable-bounces}
 
 Campaign 관리자는 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**(으)로 이동하여 전체 플랫폼 **에 대해 격리된 주소**&#x200B;을(를) 볼 수 있습니다. 이 섹션에는 **전자 메일**, **SMS** 및 **푸시 알림** 채널에 대해 격리된 요소가 나열됩니다.
 
-![](assets/tech-quarantine.png)
+![격리 상태, 오류 이유, 오류 텍스트 및 게재 작업으로 격리된 주소 레코드](assets/tech-quarantine.png)
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ Campaign 관리자는 **[!UICONTROL Administration > Campaign Management > Non d
 
 또한 이 홈 페이지의 **보고서** 섹션에서 사용할 수 있는 **[!UICONTROL Non-deliverables and bounces]** 기본 제공 보고서에는 격리된 주소, 발생한 오류 유형 및 도메인별 오류 분류에 대한 정보가 표시됩니다. 특정 게재에 대한 데이터를 필터링하거나 필요에 따라 이 보고서를 사용자 지정할 수 있습니다.
 
-[전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko){target="_blank"}에서 바운스 주소에 대해 자세히 알아보세요.
+[전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}에서 바운스 주소에 대해 자세히 알아보세요.
 
 ### 격리된 이메일 주소 {#quarantined-recipient}
 
@@ -131,7 +131,7 @@ Campaign 관리자는 **[!UICONTROL Administration > Campaign Management > Non d
 
 각 폴더에 대해 아래와 같이 **[!UICONTROL Quarantined email address]** 기본 제공 필터를 사용하여 전자 메일 주소가 격리된 수신자만 표시할 수 있습니다.
 
-![](assets/quarantine-filter.png)
+![격리된 전자 메일 주소 기본 제공 필터가 강조 표시된 받는 사람 목록 필터 메뉴](assets/quarantine-filter.png)
 
 
 ## 격리된 주소 제거 {#remove-a-quarantined-address}
@@ -143,7 +143,7 @@ Campaign 관리자는 **[!UICONTROL Administration > Campaign Management > Non d
 다음과 같은 경우 주소가 격리 목록에서 자동으로 제거됩니다.
 
 * **[!UICONTROL With errors]** 상태의 주소는 성공적으로 배달되면 격리 목록에서 제거됩니다.
-* 마지막 소프트 바운스가 10일 이상 전에 발생한 경우 **[!UICONTROL With errors]** 상태의 주소가 격리 목록에서 제거됩니다. 소프트 오류 관리에 대한 자세한 내용은 [이 섹션](#soft-error-management)을 참조하세요.
+* 마지막 소프트 바운스가 10일 이상 전에 발생한 경우 **[!UICONTROL With errors]** 상태의 주소가 격리 목록에서 제거됩니다. 소프트 오류 관리에 대한 자세한 내용은 [소프트 오류 관리](#soft-error-management)를 참조하십시오.
 * **[!UICONTROL Mailbox full]** 오류와 함께 반송된 **[!UICONTROL With errors]** 상태의 주소는 30일 후 격리 목록에서 제거됩니다.
 
 상태가 **[!UICONTROL Valid]**(으)로 변경됩니다.
@@ -156,7 +156,7 @@ Campaign 관리자는 **[!UICONTROL Administration > Campaign Management > Non d
 
 격리 목록에서 주소를 수동으로 제거할 수도 있습니다. 격리에서 주소를 수동으로 제거하려면 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** 노드에서 해당 상태를 **[!UICONTROL Valid]**(으)로 변경할 수 있습니다.
 
-![](assets/tech-quarantine-status.png)
+![상태 드롭다운 목록이 열려 있고 올바른 상태가 선택된 주소 레코드를 격리에서 제거하기 위해 선택합니다](assets/tech-quarantine-status.png)
 
 ### 벌크 업데이트 {#unquarantine-bulk}
 

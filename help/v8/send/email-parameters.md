@@ -20,10 +20,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 9%
+source-wordcount: '1048'
+ht-degree: 8%
 ---
 # 이메일 매개변수 {#email-parameters}
 
@@ -31,13 +31,13 @@ ht-degree: 9%
 
 ## 이메일 숨은 참조 사용 {#email-bcc}
 
-플랫폼에서 전송된 이메일 사본을 유지하도록 Adobe Campaign을 구성할 수 있습니다. 이 옵션은 [이 페이지](email-bcc.md)에 자세히 설명되어 있습니다.
+플랫폼에서 전송된 이메일 사본을 유지하도록 Adobe Campaign을 구성할 수 있습니다. 이 옵션은 [BCC 주소로 메시지 복사본 보내기](email-bcc.md)에 자세히 설명되어 있습니다.
 
 ## 메시지 형식 선택 {#selecting-message-formats}
 
 보낸 이메일 메시지 형식을 변경할 수 있습니다. 이렇게 하려면 게재 속성을 편집하고 **[!UICONTROL Delivery]** 탭을 클릭하십시오.
 
-![](assets/email-message-format.png)
+![메일 형식 섹션이 강조 표시된 배달 속성의 배달 탭과 세 가지 형식 옵션](assets/email-message-format.png)
 
 창의 아래 섹션에서 전자 메일 형식을 선택합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 9%
 
 이렇게 하려면 **[!UICONTROL Character encoding]** 섹션에서 **[!UICONTROL Force the encoding used for messages]** 옵션을 선택하고 표시되는 드롭다운 목록에서 인코딩을 선택합니다.
 
-![](assets/email-smtp-encoding.png)
+![선택한 메시지에 사용된 인코딩을 강제로 사용하고 인코딩 드롭다운 목록이 열려 있는 SMTP 탭](assets/email-smtp-encoding.png)
 
 ## 바운스 이메일 관리 {#managing-bounce-emails}
 
@@ -83,19 +83,19 @@ ht-degree: 9%
 
 * **[!UICONTROL Bounce address]**: 처리되지 않은 반송된 전자 메일이 전달되는 다른 주소를 정의할 수도 있습니다. 이 주소를 사용하면 애플리케이션에서 이메일을 자동으로 검증할 수 없을 때 반송 원인을 조사할 수 있습니다.
 
-이러한 각 필드는 전용 아이콘을 사용하여 개인화할 수 있습니다. [이 섹션](personalization-fields.md)의 개인화 필드에 대해 자세히 알아보세요.
+이러한 각 필드는 전용 아이콘을 사용하여 개인화할 수 있습니다. [개인화 필드 추가](personalization-fields.md)의 개인화 필드에 대해 자세히 알아보세요.
 
-![](assets/email-smtp-bounce.png)
+바운스 메일 섹션이 강조 표시된 ![SMTP 탭: 오류 수신 주소 및 바운스 주소 필드](assets/email-smtp-bounce.png)
 
-바운스 메일 관리에 대한 자세한 내용은 [이 섹션](delivery-failures.md#bounce-mail-qualification)을 참조하세요.
+바운스 메일 관리에 대한 자세한 내용은 [반송 메일 조건](delivery-failures.md#bounce-mail-qualification)을 참조하세요.
 
 ## 원클릭 목록 구독 취소 활성화 {#one-click-list-unsubscribe}
 
-원클릭 목록 구독 취소 URL은 이메일 발신자 정보 옆에 표시되는 링크 또는 단추로서, 한 번의 클릭으로 수신자가 메일링 목록에서 즉시 옵트아웃할 수 있습니다. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ko#list-unsubscribe){target="_blank"}-->
+원클릭 목록 구독 취소 URL은 이메일 발신자 정보 옆에 표시되는 링크 또는 단추로서, 한 번의 클릭으로 수신자가 메일링 목록에서 즉시 옵트아웃할 수 있습니다. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
 
 ISP의 이메일 인터페이스에 **구독 취소** 링크로 표시됩니다. 예제:
 
-![](assets/email-list-unsubscribe-example.png)
+![보낸 사람 주소 옆에 구독 취소 링크가 표시된 전자 메일 클라이언트 줄](assets/email-list-unsubscribe-example.png)
 
 최적의 전달성 관리를 위해 List-Unsubscribe라는 SMTP 헤더를 추가해야 하며 &quot;스팸으로 보고&quot; 아이콘 대신 사용할 수 있습니다. 실제로 이 기능을 사용하면 컴플레인 비율이 낮아지고 평판이 보호됩니다.
 
@@ -109,7 +109,7 @@ ISP의 이메일 인터페이스에 **구독 취소** 링크로 표시됩니다.
 >
 >이 옵션은 기본적으로 활성화되어 있습니다.
 
-![](assets/email-smtp-list-unsubscribe.png)
+원클릭 목록 구독 취소 섹션이 포함된 ![SMTP 탭과 헤더 옵션이 기본적으로 선택됨](assets/email-smtp-list-unsubscribe.png)
 
 <!--
 >[!WARNING]
@@ -131,7 +131,7 @@ ISP의 이메일 인터페이스에 **구독 취소** 링크로 표시됩니다.
 
 >[!NOTE]
 >
->[한 번 클릭 목록 구독 취소](https://experienceleague.adobe.com/ko/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} 및 [&quot;mailto&quot; 목록 구독 취소](https://experienceleague.adobe.com/ko/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} 메서드를 수동으로 설정할 수도 있습니다. 자세한 단계는 Experience Cloud [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ko#list-unsubscribe){target="_blank"}에 설명되어 있습니다.
+>[한 번 클릭 목록 구독 취소](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} 및 [&quot;mailto&quot; 목록 구독 취소](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} 메서드를 수동으로 설정할 수도 있습니다. 자세한 단계는 Experience Cloud [게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}에 설명되어 있습니다.
 
 
 ## SMTP 헤더 추가 {#adding-smtp-headers}
@@ -148,11 +148,11 @@ ISP의 이메일 인터페이스에 **구독 취소** 링크로 표시됩니다.
 >
 >이 스크립트의 구문은 다음과 같은 이 콘텐츠 형식의 요구 사항을 준수해야 합니다: 사용하지 않은 공간, 빈 줄 등이 없음.
 
-![](assets/email-smtp-headers.png)
+![추가 SMTP 헤더 스크립트 영역이 강조 표시된 SMTP 탭(이름 사용):value 형식](assets/email-smtp-headers.png)
 
 
 ## 미러 페이지 생성 {#generating-mirror-page}
 
 미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 콘텐츠는 이메일과 동일합니다. 받은 편지함에서 전자 메일을 보려고 할 때 수신자에게 렌더링 문제가 발생하거나 이미지가 손상된 경우 유용합니다.
 
-[이 섹션](mirror-page.md)에서 미러 페이지에 대한 링크를 삽입하는 방법을 알아봅니다.
+[미러 페이지에 링크 추가](mirror-page.md)에서 미러 페이지에 링크를 삽입하는 방법을 알아봅니다.

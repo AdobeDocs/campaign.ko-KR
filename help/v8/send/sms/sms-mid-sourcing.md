@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '762'
 ht-degree: 0%
 ---
 # 중간 소싱 인프라의 SMS {#sms-mid}
@@ -59,22 +59,22 @@ SMS 연산자를 만들려면 아래 단계를 수행합니다.
 
    이름(로그인)은 나중에 중간 서버에서 SMPP 외부 계정의 이름을 지정하는 데 사용됩니다.
 
-   ![](assets/smsoperator_mid.png){zoomable="yes"}
+   ![이름(로그인), 암호 및 레이블, 권한에 대한 추가 단추가 있는 중간 서버의 새 SMS 연산자 양식](assets/smsoperator_mid.png){zoomable="yes"}
 
 1. **[!UICONTROL Groups and named rights]** 부분에서 **[!UICONTROL Add]** 단추를 클릭합니다.
 새 창이 열리면 **[!UICONTROL Folder]** 목록에서 **[!UICONTROL Named rights]**&#x200B;을(를) 선택하고 오른쪽 목록에서 **[!UICONTROL ADMINISTRATION]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Ok]** 단추를 클릭합니다.
 
-   ![](assets/smsoperator_rights.png){zoomable="yes"}
+   ![권한 관리가 선택된 그룹 또는 명명된 권한 추가 대화 상자](assets/smsoperator_rights.png){zoomable="yes"}
 
 1. **[!UICONTROL Save]** 단추를 클릭하여 SMS 연산자 만들기를 완료합니다.
 
-   ![](assets/smsoperator_save.png){zoomable="yes"}
+   관리 권한이 추가되고 저장 단추가 강조 표시된 ![SMS 연산자 양식](assets/smsoperator_save.png){zoomable="yes"}
 
 이제 연산자 목록에서 확인할 수 있습니다.
 
-![](assets/smsoperator_list.png){zoomable="yes"}
+![새 중간 sms 연산자(smsOperator)를 표시하는 연산자 목록](assets/smsoperator_list.png){zoomable="yes"}
 
 ## 마케팅 서버에 SMS 외부 계정 만들기 {#sms-external-account}
 
@@ -86,17 +86,17 @@ SMS 연산자를 만들려면 아래 단계를 수행합니다.
 
 1. **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**&#x200B;에서 **[!UICONTROL New]** 아이콘을 클릭합니다
 
-   ![](assets/sms_extaccount.png){zoomable="yes"}
+   ![새 아이콘이 강조 표시된 관리 > 플랫폼의 외부 계정 목록](assets/sms_extaccount.png){zoomable="yes"}
 
 1. 외부 계정의 **[!UICONTROL Label]** 및 **[!UICONTROL Internal name]**&#x200B;을(를) 설정합니다. 계정 유형을 **[!UICONTROL Routing]**(으)로 정의하고 **[!UICONTROL Enabled]** 상자를 선택한 다음 채널의 경우 **[!UICONTROL Mobile (SMS)]**&#x200B;을(를) 선택하고 게재 모드의 경우 **[!UICONTROL Mid-sourcing]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/mid_smsextaccount.png){zoomable="yes"}
+   ![외부 계정 일반 탭: 라우팅 유형, 사용, 모바일(SMS) 채널 및 중간 소싱 게재 모드](assets/mid_smsextaccount.png){zoomable="yes"}
 
 1. **[!UICONTROL Mid-sourcing]** 탭에서 이전에 중간 서버에서 만든 중간 소싱 서버 URL 및 SMS 연산자로 양식을 채웁니다.
 
    **[!UICONTROL Test the connection]** 단추를 클릭하여 연결을 확인합니다.
 
-   ![](assets/midtab_smsextaccount.png){zoomable="yes"}
+   ![서버 URL, SMS 연산자 계정, 암호를 사용하고 연결 단추를 테스트하는 중간 소싱 탭](assets/midtab_smsextaccount.png){zoomable="yes"}
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -119,14 +119,14 @@ SMS 연산자를 만들려면 아래 단계를 수행합니다.
    >내부 이름을 할당할 때 지정된 명명 규칙을 따라야 합니다. `SMS Operator Name_Internal Name of the Marketing SMS external account`.
    >
 
-   계정 유형을 **[!UICONTROL Routing]**(으)로 정의하고 **[!UICONTROL Enabled]** 상자를 선택한 다음 채널의 경우 **[!UICONTROL Mobile (SMS)]**&#x200B;을(를) 선택하고 게재 모드의 경우 **[!UICONTROL Bulk delivery]**&#x200B;을(를) 선택합니다.
-   ![](assets/mid_extaccount.png){zoomable="yes"}
+   계정 유형을 **[!UICONTROL Routing]**(으)로 정의하고 **[!UICONTROL Enabled]** 상자를 선택한 다음 채널의 경우 **[!UICONTROL Mobile (SMS)]**&#x200B;을(를) 선택하고 게재 모드의 경우 **[!UICONTROL Bulk delivery]**을(를) 선택합니다.
+   ![중간 서버 외부 계정 일반 탭: 라우팅 유형, 사용, 모바일(SMS) 채널 및 대량 게재 모드](assets/mid_extaccount.png){zoomable="yes"}
 
 1. **[!UICONTROL Mobile]** 탭에서 **[!UICONTROL Extended generic SMPP]**&#x200B;을(를) **[!UICONTROL Connector]** 드롭다운 목록에 유지합니다.
 
    기본적으로 **[!UICONTROL Send messages through a dedicated process]** 상자가 선택되어 있습니다.
 
-   ![](assets/sms_extaccount_connector.png){zoomable="yes"}
+   ![확장된 일반 SMPP 커넥터가 있는 모바일 탭 및 전용 프로세스를 통해 메시지 전송 확인](assets/sms_extaccount_connector.png){zoomable="yes"}
 
    연결을 설정하려면 이 양식의 탭을 채워야 합니다. 자세한 내용은 [SMPP 외부 계정에 대해 자세히 알아보세요](smpp-external-account.md#smpp-connection-settings).
 
@@ -136,18 +136,18 @@ SMS 게재를 쉽게 만들려면 모든 설정을 참조하는 SMS 게재 템�
 
 마케팅 서버의 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**&#x200B;에서 기존 모바일 게재 템플릿을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 
-![](assets/sms_template_duplicate.png){zoomable="yes"}
+![모바일(SMS) 템플릿에 대한 컨텍스트 메뉴에서 중복이 선택된 게재 템플릿 목록](assets/sms_template_duplicate.png){zoomable="yes"}
 
 템플릿의 **[!UICONTROL Label]** 및 **[!UICONTROL Internal name]**&#x200B;을(를) 쉽게 인식하도록 변경하고 **[!UICONTROL Properties]** 단추를 클릭하십시오.
 
-![](assets/sms_template_name.png){zoomable="yes"}
+![레이블 및 내부 이름 필드와 속성 버튼이 강조 표시된 중복 게재 템플릿](assets/sms_template_name.png){zoomable="yes"}
 
 **[!UICONTROL General]** 탭의 **[!UICONTROL Routing]**&#x200B;에서 SMPP 외부 계정을 선택합니다.
 
-![](assets/mid_template.png){zoomable="yes"}
+![라우팅 필드가 SMPP 외부 계정으로 설정된 배달 속성 일반 탭](assets/mid_template.png){zoomable="yes"}
 
 **[!UICONTROL SMS]** 탭에서 선택적 매개 변수를 템플릿에 추가할 수 있습니다.
 
-![](assets/sms_template_properties.png){zoomable="yes"}
+![일반 매개 변수와 선택적 SMPP 매개 변수(TLV)가 있는 배달 속성 SMS 탭](assets/sms_template_properties.png){zoomable="yes"}
 
 [이 SMS 탭 구성에 대해 자세히 알아보세요](sms-delivery-settings.md).

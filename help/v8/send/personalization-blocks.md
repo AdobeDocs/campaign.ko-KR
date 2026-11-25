@@ -24,16 +24,16 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 17%
+source-wordcount: '689'
+ht-degree: 16%
 ---
 # 개인화 블록 사용{#personalization-blocks}
 
 개인화 블록은 게재에 삽입할 수 있는 특정 렌더링을 포함하는 동적 콘텐츠입니다. 예를 들어 미러 페이지에 로고, 인사말 메시지 또는 링크를 추가할 수 있습니다.
 
-개인화된 콘텐츠 블록에 액세스하려면 탐색기의 **[!UICONTROL Resources > Campaign Management > Personalization blocks]** 노드로 이동하십시오. 기본 제공 개인화 블록은 [이 섹션](#ootb-personalization-blocks)에 나열됩니다.
+개인화된 콘텐츠 블록에 액세스하려면 탐색기의 **[!UICONTROL Resources > Campaign Management > Personalization blocks]** 노드로 이동하십시오. 기본 제공 개인화 블록은 [기본 제공 개인화 블록](#ootb-personalization-blocks)에 나열됩니다.
 
 게재 개인화를 최적화하기 위해 새 블록을 정의할 수도 있습니다. [자세히 알아보기](#create-custom-personalization-blocks).
 
@@ -44,7 +44,7 @@ ht-degree: 17%
 1. 게재 마법사의 콘텐츠 편집기에서 개인화 아이콘을 클릭하고 **[!UICONTROL Include]** 메뉴를 선택합니다.
 1. 목록에서 개인화 블록을 선택하거나 **[!UICONTROL Other...]** 메뉴를 클릭하여 전체 목록에 액세스합니다.
 
-   ![](assets/perso-content-block.png)
+   ![맨 끝에 미러 페이지에 연결...과 같은 블록을 나열하는 개인화 메뉴의 하위 메뉴를 포함합니다](assets/perso-content-block.png)
 
 1. 그런 다음 개인화 블록이 스크립트로 삽입됩니다. 개인화가 생성되면 수신자 프로필에 자동으로 조정됩니다.
 1. **[!UICONTROL Preview]** 탭으로 이동하여 특정 받는 사람에 대한 이 블록의 콘텐츠를 볼 받는 사람을 선택하십시오.
@@ -82,11 +82,11 @@ ht-degree: 17%
 1. Campaign 탐색기의 **[!UICONTROL Resources > Campaign Management > Personalization blocks]** 폴더를 찾습니다.
 1. 기본 제공 블록 목록 위에서 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/perso-new-block.png)
+   ![새 단추에 화살표가 있는 Campaign 탐색기의 개인화 블록 목록](assets/perso-new-block.png)
 
 1. 개인화 블록의 설정을 입력합니다.
 
-   ![](assets/perso-custom-block.png)
+   ![옵트아웃 링크에 대한 레이블, 내부 이름, 콘텐츠 형식 및 스크립트 콘텐츠가 있는 새 개인화 블록 양식](assets/perso-custom-block.png)
 
    * 블록의 레이블을 입력합니다. 이 레이블은 개인화 필드 삽입 창에 표시됩니다.
    * **게재** 콘텐츠 형식을 선택하십시오.
@@ -100,4 +100,4 @@ ht-degree: 17%
 
 다음 비디오에서는 다이내믹 콘텐츠 블록을 만드는 방법과 이 블록을 사용하여 이메일 게재 콘텐츠를 개인화하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449013?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

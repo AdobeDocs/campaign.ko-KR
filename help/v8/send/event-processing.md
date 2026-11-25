@@ -26,14 +26,14 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '744'
 ht-degree: 1%
 ---
 # 이벤트 처리 {#event-processing}
 
-트랜잭션 메시지의 컨텍스트에서는 외부 정보 시스템에서 이벤트를 생성하여 **[!UICONTROL PushEvent]** 및 **[!UICONTROL PushEvents]** 메서드를 통해 Adobe Campaign으로 전송됩니다. 이러한 메서드는 [이 섹션](event-description.md)에 설명되어 있습니다.
+트랜잭션 메시지의 컨텍스트에서는 외부 정보 시스템에서 이벤트를 생성하여 **[!UICONTROL PushEvent]** 및 **[!UICONTROL PushEvents]** 메서드를 통해 Adobe Campaign으로 전송됩니다. 이러한 메서드는 [이벤트 설명 이해](event-description.md)에 설명되어 있습니다.
 
 이 이벤트에는 다음과 같이 이벤트에 연결된 데이터가 포함되어 있습니다.
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 이벤트 데이터의 예:
 
-![](assets/mc-event-request.png)
+![예제 이벤트 XML: 이벤트 데이터 특성(유형, 이메일, 원본) 및 ctx 요소의 개인화된 이벤트 데이터](assets/mc-event-request.png)
 
 트랜잭션 메시지 이벤트를 처리하기 위해 실행 인스턴스에 다음 단계가 적용됩니다.
 
@@ -65,11 +65,11 @@ ht-degree: 1%
 
 이벤트가 수집되면 [메시지 템플릿](transactional-template.md)에 연결되기를 기다리는 동안 실행 인스턴스의 실시간 큐와 일괄 처리 큐 사이의 기술 워크플로우로 이벤트가 분류됩니다.
 
-![](assets/mc-event-queues.png)
+![실행 인스턴스의 메시지 센터 폴더: 실시간 이벤트 및 기본 폴더 아래의 일괄 처리 이벤트](assets/mc-event-queues.png)
 
 >[!NOTE]
 >
->실행 인스턴스에서는 액세스 권한 문제가 발생할 수 있으므로 **[!UICONTROL Real time events]** 또는 **[!UICONTROL Batch events]** 폴더를 보기로 설정하지 않아야 합니다. 폴더를 보기로 설정하는 방법에 대한 자세한 내용은 [이 섹션](../audiences/folders-and-views.md#turn-a-folder-to-a-view)을 참조하세요.
+>실행 인스턴스에서는 액세스 권한 문제가 발생할 수 있으므로 **[!UICONTROL Real time events]** 또는 **[!UICONTROL Batch events]** 폴더를 보기로 설정하지 않아야 합니다. 폴더를 보기로 설정하는 방법에 대한 자세한 내용은 [폴더를 보기로 전환](../audiences/folders-and-views.md#turn-a-folder-to-a-view)을 참조하세요.
 
 ## 템플릿에 이벤트 전송 {#event-to-template}
 
@@ -79,11 +79,11 @@ ht-degree: 1%
 
 * 이벤트 자체의 속성에 지정된 이벤트 유형:
 
-  ![](assets/event-type-sample.png)
+  ![이벤트 유형 특성이 purchase_order로 설정된 일괄 처리 이벤트 XML](assets/event-type-sample.png)
 
 * 메시지 템플릿 속성에 지정된 이벤트 유형:
 
-  ![](assets/event-type-select.png)
+  ![purchase 및 purchase_def를 표시하는 이벤트 유형 목록이 있는 메시지 템플릿 마법사](assets/event-type-select.png)
 
 기본적으로 라우팅은 다음 정보를 사용합니다.
 

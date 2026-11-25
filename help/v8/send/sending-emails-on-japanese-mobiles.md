@@ -23,24 +23,24 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '849'
 ht-degree: 1%
 ---
 # 일본어 모바일에서 이메일 보내기 {#sending-emails-on-japanese-mobiles}
 
 ## 일본어 모바일의 이메일 형식 {#email-formats-for-japanese-mobiles}
 
-Adobe Campaign은 모바일에서 이메일에 대한 세 가지 특정 일본어 형식을 관리합니다. **Deco-mail**(DoCoMo 모바일), **Decore 메일**(Softbank 모바일) 및 **Decoration 메일**(KDDI AU 모바일). 이러한 형식에는 특정 코딩, 구조 및 크기 제한이 적용됩니다. [이 섹션](#limitations-and-recommendations)에서 제한 사항 및 권장 사항에 대해 자세히 알아보세요.
+Adobe Campaign은 모바일에서 이메일에 대한 세 가지 특정 일본어 형식을 관리합니다. **Deco-mail**(DoCoMo 모바일), **Decore 메일**(Softbank 모바일) 및 **Decoration 메일**(KDDI AU 모바일). 이러한 형식에는 특정 코딩, 구조 및 크기 제한이 적용됩니다. [제한 및 권장 사항](#limitations-and-recommendations)에서 제한 및 권장 사항에 대해 자세히 알아보세요.
 
 받는 사람이 이러한 형식 중 하나로 메시지를 올바르게 받으려면 해당 프로필에서 **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** 또는 **[!UICONTROL Decoration Mail (KDDI AU)]**&#x200B;을(를) 선택하는 것이 좋습니다.
 
-![](assets/deco-mail_03.png)
+![전자 메일 형식 목록이 열려 있는 받는 사람 일반 탭: 알 수 없음, 텍스트, HTML, 데코 메일, 데코 메일, 메일 디코어](assets/deco-mail_03.png)
 
 그러나 **[!UICONTROL Email format]** 옵션을 **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** 또는 **[!UICONTROL Text]**(으)로 두면 Adobe Campaign은 메시지가 올바르게 표시되도록 사용할 일본어 형식을 자동으로 검색합니다(전자 메일을 보낼 때).
 
-이 자동 검색 시스템은 **[!UICONTROL Management of Email Formats]** 메일 규칙 집합에 정의된 사전 정의된 도메인 목록을 기반으로 합니다. 전자 메일 형식 관리에 대한 자세한 내용은 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=ko#managing-email-formats)를 참조하세요.
+이 자동 검색 시스템은 **[!UICONTROL Management of Email Formats]** 메일 규칙 집합에 정의된 사전 정의된 도메인 목록을 기반으로 합니다. 전자 메일 형식 관리에 대한 자세한 내용은 [Campaign Classic 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#managing-email-formats)를 참조하세요.
 
 ## 제한 사항 및 권장 사항 {#limitations-and-recommendations}
 
@@ -73,7 +73,7 @@ Adobe Campaign을 사용하면 메시지 형식이 일본어 모바일로 전송
 * 메시지의 이미지 수가 형식에 지정된 제한을 초과하지 않는지 확인합니다(이미지 20개).
 * 총 메시지 크기 확인(100kB 미만)
 
-  ![](assets/deco-mail_06.png)
+  ![지원되지 않는 태그 및 100kB 크기 제한에 대한 경고를 나열하는 데코 메일 진단 탭이 있는 결과 창 미리 보기](assets/deco-mail_06.png)
 
 ### 유형화 규칙 실행 {#running-typology-rule}
 
@@ -91,14 +91,14 @@ Adobe Campaign을 사용하면 메시지 형식이 일본어 모바일로 전송
 
 예를 들어, 이 프로필에 대한 이메일 형식이 **[!UICONTROL Decore Mail (Softbank)]**&#x200B;에 미리 정의된 경우 프로필 주소를 test@softbank.ne.jp으로 바꿀 수 있습니다.
 
-![](assets/deco-mail_05.png)
+![softbank.ne.jp 테스트 주소가 프로필에 매핑된 주소 모드 대신 증명 대화 상자를 보냅니다](assets/deco-mail_05.png)
 
 ## 메시지 보내기 {#sending-messages}
 
 Campaign을 사용하여 일본어 이메일 형식으로 수신자에게 이메일을 보내려면 다음 두 가지 옵션을 사용할 수 있습니다.
 
-* 일본어 수신자에 대해서만 배달 메시지를 만들고 다른 수신자에 대해 배달 메시지를 만듭니다. [이 섹션](#designing-a-specific-delivery-for-japanese-formats)을 참조하세요.
-* 단일 게재를 만들면 Adobe Campaign에서 사용할 형식을 자동으로 검색합니다. [이 섹션](#designing-a-delivery-for-all-formats)을 참조하세요.
+* 일본어 수신자에게만 배달 메시지를 만들고 다른 수신자에게만 배달 메시지를 만듭니다. [일본어 형식에 대한 특정 배달 디자인](#designing-a-specific-delivery-for-japanese-formats)을 참조하세요.
+* 단일 게재를 만들면 Adobe Campaign에서 사용할 형식을 자동으로 검색합니다. [모든 형식에 대한 게재 디자인](#designing-a-delivery-for-all-formats)을 참조하세요.
 
 ### 일본어 형식에 대한 특정 게재 디자인 {#designing-a-specific-delivery-for-japanese-formats}
 
@@ -106,9 +106,9 @@ Campaign을 사용하여 일본어 이메일 형식으로 수신자에게 이메
 
 이렇게 하려면 워크플로우에서 **[!UICONTROL Split]** 활동을 사용하고 일본어 전자 메일 형식(Deco-mail, Decoration Mail 및 Decore Mail)을 필터링 조건으로 정의합니다.
 
-![](assets/deco-mail_08.png)
+![Deco-mail, Decoration Mail 및 Decore Mail의 세 가지 전자 메일 형식 조건이 Or로 결합된 필터 대화 상자](assets/deco-mail_08.png)
 
-![](assets/deco-mail_07.png)
+![워크플로: 쿼리, 중복 제거, 일본어 모바일 게재 및 표준 게재에 대한 전자 메일 형식별 분할](assets/deco-mail_07.png)
 
 ### 모든 형식에 대한 게재 디자인 {#designing-a-delivery-for-all-formats}
 
@@ -118,4 +118,4 @@ Adobe Campaign에서 도메인(**[!UICONTROL Unknown]**, **[!UICONTROL HTML]** �
 
 >[!IMPORTANT]
 >
->각 일본어 전자 메일 형식(데코 메일, 데코 메일 및 데코 메일)과 관련된 특수 기능을 준수해야 합니다. 제한 사항에 대한 자세한 내용은 [이 섹션](#limitations-and-recommendations)을 참조하세요.
+>각 일본어 전자 메일 형식(데코 메일, 데코 메일 및 데코 메일)과 관련된 특수 기능을 준수해야 합니다. 제한 사항에 대한 자세한 내용은 [제한 사항 및 권장 사항](#limitations-and-recommendations)을 참조하세요.

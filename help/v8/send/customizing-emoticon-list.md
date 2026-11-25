@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '532'
 ht-degree: 1%
 ---
 # 이모티콘 목록 사용자 정의 {#customize-emoticons}
@@ -55,7 +55,7 @@ ht-degree: 1%
    >
    >기본 열거형은 Adobe Campaign Classic 콘솔의 관리자만 관리할 수 있습니다.
 
-   ![](assets/emoticon_1.png)
+   ![관리, 플랫폼 및 열거형이 선택된 탐색기와 이모티콘 목록 열거형이 강조 표시된](assets/emoticon_1.png)
 
 1. **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
@@ -66,9 +66,9 @@ ht-degree: 1%
 
    * **[!UICONTROL Label]**: 새 이모티콘 레이블.
 
-   ![](assets/emoticon_5.png)
+   새 이모티콘에 대한 U+ 코드 및 레이블 필드가 포함된 ![열거형 값 대화 상자](assets/emoticon_5.png)
 
-1. 구성이 완료되면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 구성이 완료되면 **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Save]**을(를) 클릭합니다.
 새 이모티콘이 스토어에 자동으로 삽입됩니다.
 
 1. 게재의 **[!UICONTROL Insert emoticon]** 창에 표시하려면 새로 만든 이모티콘을 두 번 클릭하여 선택합니다.
@@ -77,7 +77,7 @@ ht-degree: 1%
 
    <br>이 예제에서 표시 순서 번호 61을 선택했습니다. 즉, 항목에 이미 이 순서가 있는 경우 자동으로 저장소로 이동되고 새 항목이 열거형 목록에 배치됩니다.
 
-   ![](assets/emoticon_2.png)
+   ![U+ 코드, 레이블 및 표시 순서 필드가 61](assets/emoticon_2.png)(으)로 설정된 열거형 값 대화 상자
 
 1. 이제 새 이모티콘이 **[!UICONTROL Insert emoticon list]** 기본 제공 열거형에 추가되었습니다. 언제든지 **[!UICONTROL Display order]**&#x200B;을(를) 변경하거나 더 이상 필요하지 않은 경우 스토어로 이동할 수 있습니다.
 
@@ -85,8 +85,8 @@ ht-degree: 1%
 
 1. 이제 이전 단계에서 구성한 대로 61번째 위치의 **[!UICONTROL Insert emoticon]** 팝업 창에서 게재에서 새 이모티콘을 찾을 수 있습니다. 게재에서 이모티콘을 사용하는 방법에 대한 자세한 내용은 이 [섹션](defining-the-email-content.md#inserting-emoticons)을 참조하세요.
 
-   ![](assets/emoticon_4.png)
+   ![마지막 위치에 새 이모티콘이 추가된 이모티콘 팝업 창 삽입](assets/emoticon_4.png)
 
 1. **[!UICONTROL Insert emoticon]** 팝업 창에 다음 이모티콘이 나타나면 해당 이모티콘이 올바르게 구성되지 않은 것입니다. **[!UICONTROL Emoticon list]**&#x200B;에서 **[!UICONTROL U+]** 코드 또는 **[!UICONTROL Display order]**&#x200B;이(가) 올바른지 확인하십시오.
 
-   ![](assets/emoticon_6.png)
+   ![잘못 구성된 이모티콘을 표시하는 두 개의 빨간색 십자가 아이콘이 있는 이모티콘 팝업 창 삽입](assets/emoticon_6.png)

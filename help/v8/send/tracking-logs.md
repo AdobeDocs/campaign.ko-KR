@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '372'
 ht-degree: 0%
 ---
 # 추적 로그 액세스 {#accessing-the-tracking-logs}
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 이 정보는 다음 예제와 같이 게재 대상의 받는 사람 프로필의 **[!UICONTROL Tracking]** 탭에 나타납니다.
 
-![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
+![추적된 클릭 수를 나열하는 받는 사람 프로필의 추적 탭과 날짜, 레이블, 유형 및 게재를 표시하는 열기](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 이 탭에는 다음을 포함하여 수신자가 추적하고 클릭한 모든 URL이 표시됩니다.
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 게재의 **[!UICONTROL Tracking]** 탭을 통해 추적 정보에 액세스할 수도 있습니다.
 
-![](assets/s_ncs_user_select_tracking_tab_from_del.png)
+![날짜, 레이블, 유형 및 받는 사람이 포함된 게재 추적 로그를 나열하는 추적 탭](assets/s_ncs_user_select_tracking_tab_from_del.png)
 
 이 탭에서 다음을 볼 수 있습니다.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->게재의 **[!UICONTROL Tracking]** 탭이 표시되지 않으면 추적이 활성화되지 않은 것입니다. 추적을 구성하는 방법에 대해 알아보려면 [이 섹션](tracked-links.md)을 참조하세요.
+>게재의 **[!UICONTROL Tracking]** 탭이 표시되지 않으면 추적이 활성화되지 않은 것입니다. 추적을 구성하는 방법에 대해 알아보려면 [추적된 링크 구성](tracked-links.md)을 참조하세요.
 
 ### 추적 기술 워크플로우 확인 {#check-tracking-workflow}
 

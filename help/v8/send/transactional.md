@@ -30,9 +30,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '468'
 ht-degree: 0%
 ---
 # 트랜잭션 메시지 시작{#send-transactional-messages}
@@ -49,9 +49,9 @@ ht-degree: 0%
 * 고객 행동에 대한 개별 실시간 응답
 * 비프로모션 콘텐츠
 
-트랜잭션 메시지 설정은 [이 섹션](../config/transactional-msg-settings.md)에 자세히 설명되어 있습니다.
+트랜잭션 메시지 설정은 [캠페인 트랜잭션 메시지 설정](../config/transactional-msg-settings.md)에 자세히 설명되어 있습니다.
 
-[이 페이지](../architecture/architecture.md#transac-msg-archi)의 트랜잭션 메시지 아키텍처를 이해합니다.
+[메시지 센터 아키텍처](../architecture/architecture.md#transac-msg-archi)의 트랜잭션 메시지 아키텍처를 이해합니다.
 
 ## 트랜잭션 메시지 작동 원리 {#transactional-messaging-operating-principle}
 
@@ -86,7 +86,7 @@ Adobe Campaign에서 처리할 이벤트 유형을 만들려면 아래 단계를
 1. 목록에서 **[!UICONTROL Event type]** 열거형을 선택합니다.
 1. 열거형 값을 만들려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다. 주문 확인, 암호 변경, 주문 게재 변경 등이 될 수 있습니다.
 
-   ![](assets/messagecenter_eventtype_enum_001.png)
+   ![추가 및 열거형 값 대화 상자를 사용하여 관리 > 플랫폼 > 열거형의 이벤트 유형 열거형](assets/messagecenter_eventtype_enum_001.png)
 
    >[!CAUTION]
    >

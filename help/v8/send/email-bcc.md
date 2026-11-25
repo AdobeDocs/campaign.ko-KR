@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '383'
 ht-degree: 1%
 ---
 # BCC 주소로 메시지 사본 보내기 {#bcc}
@@ -62,7 +62,7 @@ Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 보낸 �
 1. **[!UICONTROL Properties]** 버튼을 클릭합니다.
 1. **[!UICONTROL Delivery]** 탭에서 **[!UICONTROL Email BCC with Enhanced MTA]** 옵션을 선택합니다.
 
-   ![](assets/email-bcc.png)
+   ![향상된 모멘텀이 있는 전자 메일 BCC 옵션이 강조 표시된 게재 속성 게재 탭](assets/email-bcc.png)
 
 1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭하여 확인합니다.
 

@@ -19,20 +19,20 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 9%
+source-wordcount: '1440'
+ht-degree: 7%
 ---
 # 게재 구성 및 보내기 {#configure-delivery}
 
-게재 매개 변수에 액세스하여 더 많은 설정을 구성하고 메시지를 보내는 방법을 정의합니다. 게재 [우선 순위](#delivery-priority)를 정의하고 [예약된 일괄 처리](#sending-using-multiple-waves)를 설정하고 게재 전송을 테스트할 수 있습니다. 이 구성이 완료되면 [이 섹션](#confirm-delivery)에 설명된 대로 전송을 확인할 수 있습니다. 그러면 메시지가 즉시 전송되거나 게재 [일정](#schedule-delivery-sending)을(를) 기반으로 전송됩니다.
+게재 매개 변수에 액세스하여 더 많은 설정을 구성하고 메시지를 보내는 방법을 정의합니다. 게재 [우선 순위](#delivery-priority)를 정의하고 [예약된 일괄 처리](#sending-using-multiple-waves)를 설정하고 게재 전송을 테스트할 수 있습니다. 이 구성이 완료되면 [게재 확인](#confirm-delivery)에 설명된 대로 전송을 확인할 수 있습니다. 그러면 메시지가 즉시 전송되거나 게재 [일정](#schedule-delivery-sending)을(를) 기반으로 전송됩니다.
 
 ## 추가 매개 변수 설정 {#delivery-additional-parameters}
 
 게재를 보내기 전에 **[!UICONTROL Delivery]** 탭을 통해 게재 속성에서 전송 매개 변수를 정의할 수 있습니다.
 
-![](assets/delivery-properties-delivery.png)
+![우선 순위, 예약된 일괄 처리, 다시 시도, 개인화 및 메일 형식 설정이 있는 배달 속성 배달 탭](assets/delivery-properties-delivery.png)
 
 ### 게재 우선 순위 {#delivery-priority}
 
@@ -54,7 +54,7 @@ ht-degree: 9%
 >
 >* 중간 소싱에서는 이 옵션을 설정하지 않아야 합니다.
 >
->* [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ko#smtp-relay){target="_blank"}에서 SMTP 서버 구성에 대해 자세히 알아보세요.
+>* [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}에서 SMTP 서버 구성에 대해 자세히 알아보세요.
 
 ## 예약된 일괄 처리를 사용해 보내기 {#sending-using-multiple-waves}
 
@@ -67,7 +67,7 @@ ht-degree: 9%
 1. 게재 속성을 열고 **[!UICONTROL Delivery]** 탭으로 이동합니다.
 1. **[!UICONTROL Send using multiple waves]** 옵션을 사용하도록 설정하고 **[!UICONTROL Define waves...]** 링크를 클릭합니다.
 
-   ![](assets/delivery-define-waves.png)
+   ![예약된 일괄 처리를 사용하여 전송을 선택하고 예약된 일괄 처리 정의 링크를 강조 표시한 게재 탭](assets/delivery-define-waves.png)
 
 ### 웨이브 구성 {#config-waves}
 
@@ -81,29 +81,29 @@ ht-degree: 9%
 
   **[!UICONTROL Period]** 필드에서 연속되는 두 예약된 일괄 처리 시작 사이의 지연 시간을 지정합니다. 예를 들어, **[!UICONTROL 2d]**&#x200B;을(를) 입력하면 첫 번째 웨이브가 즉시 시작되고, 두 번째 웨이브가 2일 후에 시작되고, 세 번째 웨이브가 4일 후에 시작됩니다.
 
-  ![](assets/delivery-waves-size.png)
+  ![동일한 크기의 예약된 예약된 일괄 처리를 사용하는 예약된 일괄 처리 정의 대화 상자 및 예약된 일괄 처리 사이의 2d 기간](assets/delivery-waves-size.png)
 
 * **각 웨이브를 보낼 일정을 정의합니다**.  예를 들어 첫 번째 파는 게재에 포함된 총 메시지 수의 25%를 나타내며 즉시 시작됩니다. 다음 두 파동은 배달을 완료하고 6시간 간격으로 시작하도록 설정된다.
 
   **[!UICONTROL Start]** 열에서 연속되는 두 예약된 일괄 처리 시작 사이의 지연 시간을 지정합니다. **[!UICONTROL Size]** 열에 고정 숫자 또는 백분율을 입력합니다.
 
-  ![](assets/delivery-waves-calendar.png)
+  ![예약된 예약된 예약된 일괄 처리(0에 25%, 6시간에 50%, 6시간에 25%)가 포함된 예약된 일괄 처리 정의 대화 상자](assets/delivery-waves-calendar.png)
 
 ### 예약된 일괄 처리 확인 {#check-waves}
 
-특정 유형화 규칙 **[!UICONTROL Wave scheduling check]**&#x200B;은(는) 게재 유효성 검사 제한 전에 마지막 웨이브가 계획되도록 합니다. 게재 속성의 **[!UICONTROL Typology]** 탭에서 구성된 캠페인 유형 및 규칙이 [이 섹션](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->에 표시됩니다.
+특정 유형화 규칙 **[!UICONTROL Wave scheduling check]**&#x200B;은(는) 게재 유효성 검사 제한 전에 마지막 웨이브가 계획되도록 합니다. 게재 속성의 **[!UICONTROL Typology]** 탭에서 구성된 캠페인 유형화 및 해당 규칙은 [유형화 규칙 및 유형화](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->에 표시됩니다.
 
 >[!IMPORTANT]
 >
->* 마지막 전파가 **[!UICONTROL Validity]** 탭에 정의된 배달 기한을 초과하지 않도록 하십시오. 그렇지 않으면 일부 메시지가 전송되지 않을 수 있습니다. [이 섹션](delivery-failures.md#valid-period)에서 게재 유효 기간에 대해 자세히 알아보세요.
+>* 마지막 전파가 **[!UICONTROL Validity]** 탭에 정의된 배달 기한을 초과하지 않도록 하십시오. 그렇지 않으면 일부 메시지가 전송되지 않을 수 있습니다. [유효 기간](delivery-failures.md#valid-period)에서 게재의 유효 기간에 대해 자세히 알아보세요.
 >
->* 마지막 웨이브를 구성할 때 재시도 시간도 충분히 설정해야 합니다. [이 섹션](delivery-failures.md#retries)에서 다시 시도에 대해 자세히 알아보세요.
+>* 마지막 웨이브를 구성할 때 재시도 시간도 충분히 설정해야 합니다. [관리 다시 시도](delivery-failures.md#retries)에서 다시 시도에 대해 자세히 알아보세요.
 >
 >* 예약된 예약된 예약된 예약된 예약된 예약된 예약된 배송 날짜입니다. 예약된 하나 이상의 예약된 일괄 처리 시간 이후에 게재가 시작되면 예약된 일괄 처리가 모두 전송되지 않고 함께 전송됩니다.
 
 ### 예약된 일괄 처리 모니터링 {#monitor-waves}
 
-전송을 모니터링하려면 게재 로그를 찾습니다. [이 페이지](send.md)를 참조하십시오.
+전송을 모니터링하려면 게재 로그를 찾습니다. [전자 메일 보내기 및 모니터링](send.md)을 참조하세요.
 
 이미 처리된 웨이브에서 전송된 게재(**[!UICONTROL Sent]** 상태)와 나머지 웨이브에서 전송할 게재(**[!UICONTROL Pending]** 상태)를 볼 수 있습니다.
 
@@ -120,7 +120,7 @@ ht-degree: 9%
 
   이렇게 하려면 **[!UICONTROL Schedule waves according to a calendar]** 옵션을 사용합니다. 예를 들어 첫 번째 물결을 10%로 설정하고 두 번째 물결을 15%로 설정하는 식입니다.
 
-  ![](assets/delivery-waves-ex-ramp-up.png)
+  ![예약된 일괄 처리 크기가 10%에서 30%로 12시간 간격으로 5개 예약된 일괄 처리 정의 달력](assets/delivery-waves-ex-ramp-up.png)
 
 * **콜 센터가 있는 캠페인**
 
@@ -130,7 +130,7 @@ ht-degree: 9%
 
   이렇게 하려면 **[!UICONTROL Schedule multiple waves of the same size]** 옵션을 선택하십시오. **[!UICONTROL Period]** 필드에 웨이브의 크기로 **[!UICONTROL 20]**&#x200B;을(를) 입력하고 **[!UICONTROL 1d]**&#x200B;을(를) 입력합니다.
 
-  ![](assets/delivery-waves-ex-call-center.png)
+  ![메시지 크기가 20개이고 1d 기간이 같은 예약된 예약된 예약된 일괄 처리 정의 대화 상자](assets/delivery-waves-ex-call-center.png)
 
 ## 게재 확인 {#confirm-delivery}
 
@@ -143,13 +143,13 @@ ht-degree: 9%
    * 게재를 즉시 보내려면 **[!UICONTROL Deliver as soon as possible]**&#x200B;을(를) 선택합니다.
    * 전송을 나중에 예약하려면 **[!UICONTROL Postpone the delivery]**&#x200B;을(를) 선택하십시오. [자세히 알아보기](#schedule-delivery-sending)
 
-1. **[!UICONTROL Analyze]**&#x200B;을(를) 클릭합니다. 자세한 내용은 [이 섹션](delivery-analysis.md)을 참조하십시오.
+1. **[!UICONTROL Analyze]**&#x200B;을(를) 클릭합니다. 자세한 내용은 [게재 분석](delivery-analysis.md)을 참조하세요.
 
-   ![](assets/delivery-send-analyze.png)
+   ![가능한 한 빨리 배달을 선택하고 [분석] 단추를 강조 표시한 상태로 기본 배달 대상 대화 상자로 보내기](assets/delivery-send-analyze.png)
 
 1. 완료되면 **[!UICONTROL Confirm delivery]**&#x200B;을(를) 클릭하여 메시지 배달을 시작합니다.
 
-   ![](assets/delivery-send-confirm.png)
+   ![분석 후 [배달 확인] 단추가 강조 표시된 기본 배달 대상 대화 상자로 보내기](assets/delivery-send-confirm.png)
 
 1. 게재 마법사를 닫고 이 게재의 세부 정보 또는 게재 목록을 통해 액세스할 수 있는 **[!UICONTROL Delivery]** 탭에서 게재 실행을 추적할 수 있습니다.
 
@@ -168,7 +168,7 @@ ht-degree: 9%
 
 1. **[!UICONTROL Contact date]** 필드에 시작 날짜를 지정하십시오.
 
-   ![](assets/delivery-send-postpone.png)
+   ![선택한 게재 연기 및 연락 날짜가 입력된 기본 게재 대상 대화 상자로 보내기](assets/delivery-send-postpone.png)
 
 1. 게재 분석을 시작하고 게재 전송을 확인합니다. 그러나 게재 전송은 **[!UICONTROL Contact date]** 필드에 지정된 날짜까지 시작되지 않습니다.
 
@@ -176,13 +176,13 @@ ht-degree: 9%
    >
    >분석을 시작하면 정의한 연락 날짜가 수정됩니다. 이 날짜를 수정하는 경우 수정 사항을 고려하기 위해 분석을 다시 시작해야 합니다.
 
-   ![](assets/delivery-send-scheduled.png)
+   ![예약된 배달 날짜와 배달 확인 단추를 표시하는 배달 준비 완료 메시지](assets/delivery-send-scheduled.png)
 
 게재 목록에 게재가 **[!UICONTROL Pending]** 상태로 나타납니다.
 
 게재의 **[!UICONTROL Scheduling]** 단추를 통해 업스트림으로 일정을 구성할 수도 있습니다.
 
-![](assets/delivery-scheduling-button.png)
+![일정 배달(자동 실행 안 함)이 선택된 상태로 [예약] 단추에서 [예약] 대화 상자가 열림](assets/delivery-scheduling-button.png)
 
 이 옵션을 사용하면 게재를 나중 날짜로 연기하거나 임시 캘린더에 게재를 저장할 수 있습니다.
 
@@ -198,7 +198,7 @@ ht-degree: 9%
 
 예를 들어 런던 시간 8시에 자동으로 게재를 실행하도록 예약하는 경우 시간은 선택한 시간대로 자동 변환됩니다.
 
-![](assets/delivery-schedule-time-zone.png)
+![표준 시간대 드롭다운 목록이 열려 있는 예약 대화 상자를 열어 연락 날짜를 다른 표준 시간대로 변환](assets/delivery-schedule-time-zone.png)
 
 <!--
 ## Adjust delivery failure management {#delivery-failure-management}

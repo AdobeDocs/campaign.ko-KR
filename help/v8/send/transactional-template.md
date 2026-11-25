@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 1%
+source-wordcount: '1491'
+ht-degree: 0%
 ---
 # 트랜잭션 메시지를 위한 템플릿 만들기 및 게시{#template-transactional-messages}
 
@@ -50,16 +50,16 @@ ht-degree: 1%
 1. Adobe Campaign 트리의 **[!UICONTROL Message Center >Transactional message templates]** 폴더로 이동합니다.
 1. 트랜잭션 메시지 템플릿 목록에서 마우스 오른쪽 단추를 클릭하고 드롭다운 메뉴에서 **[!UICONTROL New]**&#x200B;을(를) 선택하거나 트랜잭션 메시지 템플릿 목록 위에 있는 **[!UICONTROL New]** 단추를 클릭합니다.
 
-   ![](assets/messagecenter_create_model_001.png)
+   ![트랜잭션 메시지 템플릿 목록에 있는 새 단추로, 메시지 템플릿을 만드는 데 사용됨](assets/messagecenter_create_model_001.png)
 
 1. 게재 창에서 사용할 채널에 적합한 게재 템플릿을 선택합니다.
 
-   ![](assets/messagecenter_create_model_002.png)
+   ![Android, DM, 전자 메일, iOS 및 모바일 트랜잭션 메시지 템플릿이 포함된 게재 템플릿 목록](assets/messagecenter_create_model_002.png)
 
 1. 필요한 경우 레이블을 변경합니다.
 1. 보내려는 메시지와 일치하는 이벤트 유형을 선택합니다. Adobe Campaign에서 처리하도록 지정된 이벤트 유형은 미리 만들어야 합니다. [자세히 알아보기](../send/transactional.md#create-event-types)
 
-   ![](assets/messagecenter_create_model_003.png)
+   ![새 트랜잭션 메시지 게재 창의 이벤트 유형 드롭다운에서 구매 및 명령 이벤트 유형을 나열합니다](assets/messagecenter_create_model_003.png)
 
    >[!CAUTION]
    >
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 메시지 콘텐츠를 정의한 후에는 이벤트 정보를 메시지 본문에 통합하고 개인화할 수 있습니다. 이벤트 정보는 개인화 태그 덕분에 텍스트 본문에 삽입됩니다.
 
-![](assets/messagecenter_create_content.png)
+![트랜잭션 메시지에 개인화 필드를 삽입하기 위한 메시지 메뉴가 열린 HTML 콘텐츠 편집기](assets/messagecenter_create_content.png)
 
 * 모든 개인화 필드는 페이로드에서 가져옵니다.
 * 트랜잭션 메시지에서 하나 또는 여러 개인화 블록을 참조할 수 있습니다. <!--The block content will be added to the delivery content during the publication to the execution instance.-->
@@ -91,11 +91,11 @@ ht-degree: 1%
 1. 메시지 본문을 입력합니다.
 1. 텍스트 본문에서 **[!UICONTROL Real time events>Event XML]** 메뉴를 사용하여 태그를 삽입합니다.
 
-   ![](assets/messagecenter_create_custo_1.png)
+   ![HTML 콘텐츠에 이벤트 개인화 태그를 삽입하기 위해 이벤트 XML을 선택한 실시간 이벤트 메뉴](assets/messagecenter_create_custo_1.png)
 
 1. 아래와 같이 **요소 이름**.@**특성 이름** 구문을 사용하여 태그를 채웁니다.
 
-   ![](assets/messagecenter_create_custo_2.png)
+   ![요소 이름과 특성 구문을 사용하는 HTML 콘텐츠의 이벤트 개인화 태그, 밑줄이 있는 태그 하나](assets/messagecenter_create_custo_2.png)
 
 ## 트랜잭션 메시지 템플릿 테스트 {#test-message-template}
 
@@ -105,23 +105,23 @@ ht-degree: 1%
 
 1. 트랜잭션 메시지 템플릿에서 **[!UICONTROL Seed addresses]** 탭을 클릭한 다음 **[!UICONTROL Add]** 단추를 클릭합니다.
 
-   ![](assets/messagecenter_create_seed_1.png)
+   ![추가 단추가 강조 표시된 템플릿의 시드 주소 탭](assets/messagecenter_create_seed_1.png)
 
 1. 나중에 쉽게 선택할 수 있도록 레이블을 할당한 다음 시드 주소(통신 채널에 따라 이메일 또는 휴대폰)를 입력합니다.
 
 1. 외부 식별자 입력: 이 선택적 필드를 사용하면 비즈니스 키(고유 ID, 이름 + 이메일 등)를 입력할 수 있습니다. 이는 웹 사이트의 모든 애플리케이션에 공통적이며, 프로필을 식별하는 데 사용됩니다. 이 필드가 Adobe Campaign 마케팅 데이터베이스에도 있는 경우 데이터베이스의 프로필과 이벤트를 조정할 수 있습니다.
 
-   ![](assets/messagecenter_create_seed_2.png)
+   레이블, 전자 메일 및 외부 식별자 필드를 채운 ![시드 주소 대화 상자](assets/messagecenter_create_seed_2.png)
 
-1. 테스트 데이터를 삽입합니다. [Campaign Classic v7 설명서에서 개인화 데이터에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. 테스트 데이터를 삽입합니다. [Campaign Classic v7 설명서에서 개인화 데이터에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
-   ![](assets/messagecenter_create_custo_3.png)
+   ![이벤트 컨텍스트에 대해 XML로 작성된 콘텐츠 섹션의 테스트 데이터가 포함된 시드 주소 대화 상자](assets/messagecenter_create_custo_3.png)
 
 1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭하여 시드 주소 만들기를 확인합니다.
 
 1. 필요한 수만큼 주소를 만들려면 이 프로세스를 반복합니다.
 
-   ![](assets/messagecenter_create_seed_6.png)
+   ![구매 게재 템플릿에 대해 만들어진 시드 주소 3개를 나열하는 시드 주소 탭](assets/messagecenter_create_seed_6.png)
 
 주소가 생성되면 미리보기 및 개인화에 액세스할 수 있습니다.
 
@@ -150,11 +150,11 @@ This information enables you to personalize message content using personalizatio
 
 1. 메시지 템플릿에서 **[!UICONTROL Preview]** 탭을 클릭한 다음 드롭다운 목록에서 **[!UICONTROL A seed address]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/messagecenter_preview_1.png)
+   테스트 개인화 메뉴가 열려 있고 시드 주소가 선택된 ![미리 보기 탭](assets/messagecenter_preview_1.png)
 
 1. 이전에 만든 시드 주소를 선택하여 개인화된 메시지를 표시합니다.
 
-   ![](assets/messagecenter_create_seed_7.png)
+   ![시드 주소 선택 대화 상자 및 개인화된 메시지 콘텐츠를 표시하는 미리 보기](assets/messagecenter_create_seed_7.png)
 
 ### 교정쇄 보내기 {#send-proof}
 
@@ -162,7 +162,7 @@ This information enables you to personalize message content using personalizatio
 
 증명 보내기에는 게재의 프로세스와 동일한 프로세스가 포함됩니다.
 
-[이 섹션](../send/preview-and-proof.md#proofs-send)에서 증명에 대해 자세히 알아보세요.
+[증명 보내기](../send/preview-and-proof.md#proofs-send)에서 증명에 대해 자세히 알아보세요.
 
 하지만 트랜잭션 메시지의 증명을 보내려면 다음 작업을 수행해야 합니다.
 
@@ -175,15 +175,15 @@ This information enables you to personalize message content using personalizatio
 1. 게재 분석.
 1. 오류를 수정하고 게재를 확인합니다.
 
-   ![](assets/messagecenter_send_proof_001.png)
+   ![전송할 메시지 및 배달 확인 단추가 포함된 게재 준비 완료를 표시하는 증명 대화 상자 보내기](assets/messagecenter_send_proof_001.png)
 
 1. 메시지가 시드 주소로 전달되었고 해당 콘텐츠가 구성을 준수하는지 확인합니다.
 
-   ![](assets/messagecenter_send_proof_002.png)
+   ![밑줄이 그어진 시드 주소 데이터의 개인화 값이 있는 증명 전자 메일을 받았습니다](assets/messagecenter_send_proof_002.png)
 
 **[!UICONTROL Audit]** 탭을 통해 각 템플릿에서 증명에 액세스할 수 있습니다.
 
-![](assets/messagecenter_send_proof_003.png)
+![전송된 증명과 함께 보낼 메시지, 처리된 메시지 및 성공 횟수를 나열하는 템플릿의 감사 탭](assets/messagecenter_send_proof_003.png)
 
 #### [!DNL Campaign Classic] v7에서 전환 {#transition-from-v7}
 
@@ -193,7 +193,7 @@ This information enables you to personalize message content using personalizatio
 
 따라서 트랜잭션 메시지 템플릿에 대한 증명을 보내려면 내부 전자 메일 게재에서 **중간 소싱 라우팅 계정**(으)로 라우팅을 변경해야 합니다.
 
-![](assets/messagecenter_send_proof_004.png)
+![라우팅 필드와 중간 소싱 계정을 사용한 전자 메일 라우팅이 선택된 배달 속성 일반 탭](assets/messagecenter_send_proof_004.png)
 
 증명을 보낸 후에는 트랜잭션 메시지 템플릿을 게시하기 전에 다시 내부 이메일 게재로 라우팅을 변경해야 합니다.
 
@@ -217,11 +217,11 @@ Publication lets you automatically create two message templates on the execution
 1. 게시할 템플릿을 선택하십시오<!--on your execution instances-->.
 1. **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/messagecenter_publish_template.png)
+   ![게시를 클릭한 후 프로세스가 완료되고 게시 로그가 있는 템플릿 대화 상자 게시](assets/messagecenter_publish_template.png)
 
 게시가 완료되면 일괄 처리에 적용할 메시지 템플릿과 실시간 유형 이벤트가 모두 **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** 폴더에 만들어집니다.
 
-![](assets/messagecenter_deployed_model.png)
+![목록에 게시된 템플릿과 메시지 센터 실행 폴더에 배포된 두 개의 템플릿](assets/messagecenter_deployed_model.png)
 
 템플릿이 게시되면 해당 이벤트가 트리거되면 Adobe Campaign<!--execution instance-->이(가) 이벤트를 받고 트랜잭션 템플릿에 연결하고 각 받는 사람에게 해당 트랜잭션 메시지를 보냅니다.
 
@@ -250,7 +250,7 @@ Publication lets you automatically create two message templates on the execution
 1. **[!UICONTROL Unpublish]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 
-![](assets/message-center-unpublish.png)
+![게시된 템플릿의 게시 취소 단추에서 열린 시작 단추가 있는 템플릿 대화 상자 게시 취소](assets/message-center-unpublish.png)
 
 트랜잭션 메시지 템플릿 상태가 **[!UICONTROL Published]**&#x200B;에서 **[!UICONTROL Being edited]**(으)로 다시 변경됩니다.
 

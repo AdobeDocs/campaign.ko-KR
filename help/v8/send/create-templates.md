@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 18%
+source-wordcount: '1153'
+ht-degree: 16%
 ---
 # 게재 템플릿 작업 {#work-with-delivery-template}
 
@@ -59,7 +59,7 @@ ht-degree: 18%
 * 콘텐츠, 회사 로고 또는 서명
 * 리소스 유효성, 재시도 매개 변수 또는 격리 설정 등 다른 게재 속성입니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#delivery-template-video)
+![비디오 링크 재생 아이콘](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#delivery-template-video)
 
 게재 템플릿은 Explorer의 **[!UICONTROL Resources > Templates > Delivery templates]** 폴더에 저장됩니다. Adobe Campaign에서는 두 가지 유형의 템플릿으로 작업할 수 있습니다.
 
@@ -88,15 +88,15 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 1. 기본 제공 게재 템플릿을 선택합니다. 기본 제공 템플릿은 목록에서 굵게 표시됩니다.
 1. 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/duplicate-built-in-template.png)
+   ![기본 제공 템플릿에서 마우스 오른쪽 버튼 클릭 메뉴가 열리고 복제가 선택된 게재 템플릿 목록](assets/duplicate-built-in-template.png)
 
 1. 템플릿 설정을 정의하고 새 템플릿을 저장합니다.
 
-   ![](assets/delivery-template-new.png)
+   ![중복 전자 메일 템플릿의 속성(레이블: 보낸 사람 주소, 제목 및 HTML 콘텐츠 포함)](assets/delivery-template-new.png)
 
 템플릿이 게재 템플릿 목록에 추가됩니다. 이제 새 게재를 만들면 선택할 수 있습니다.
 
-![](assets/select-the-new-template.png)
+![기본 제공 템플릿 및 새 사용자 지정 템플릿 공지 이메일 게재를 나열하는 게재 템플릿 드롭다운](assets/select-the-new-template.png)
 
 ### 기존 게재를 템플릿으로 전환 {#convert-an-existing-delivery}
 
@@ -108,11 +108,11 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 1. 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Actions > Save as template...]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/save-as-template.png)
+   ![작업 및 템플릿으로 저장이 선택된 게재 목록 마우스 오른쪽 단추 클릭 메뉴](assets/save-as-template.png)
 
 1. 게재 속성을 편집하고 새 템플릿을 저장해야 하는 폴더(**[!UICONTROL Folder]** 필드)와 이 템플릿을 기반으로 만들어진 게재를 만들어야 하는 폴더(**[!UICONTROL Execution folder]** 필드)를 선택합니다.
 
-   ![](assets/template-select-folders.png)
+   ![새 템플릿의 실행 폴더, 폴더 및 라우팅 필드가 있는 게재 속성](assets/template-select-folders.png)
 
 ### 새 템플릿 만들기 {#create-a-new-template}
 
@@ -140,11 +140,11 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 기존 템플릿을 기반으로 게재를 만들려면 사용 가능한 게재 템플릿 목록에서 템플릿을 선택합니다.
 
-![](assets/select-the-new-template.png)
+![기본 제공 템플릿 및 새 사용자 지정 템플릿 공지 이메일 게재를 나열하는 게재 템플릿 드롭다운](assets/select-the-new-template.png)
 
 템플릿을 볼 수 없는 경우 필드 오른쪽의 **[!UICONTROL Select link]** 폴더를 클릭하여 Campaign 폴더를 찾습니다.
 
-![](assets/browse-templates.png)
+![게재 템플릿을 표시하는 폴더 선택 대화 상자가 게재 템플릿 필드에서 열림](assets/browse-templates.png)
 
 **[!UICONTROL Folder]** 필드에서 원하는 디렉터리를 선택하거나 **[!UICONTROL Display sub-levels]** 아이콘을 클릭하여 현재 디렉터리의 하위 트리에 있는 디렉터리의 내용을 표시합니다.
 
@@ -152,7 +152,7 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 ### 템플릿 실행 {#execute-a-template}
 
-먼저 게재를 만들지 않고 템플릿 목록에서 직접 템플릿 실행을 시작할 수 있습니다. [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/action-activities/delivery)에 설명된 대로 게재 템플릿을 수동으로 실행하거나 아래에 자세히 설명하거나 이벤트에 의해 트리거할 수 있습니다(서버에서 파일을 사용할 수 있을 때 설정된 시간에 실행됨).
+먼저 게재를 만들지 않고 템플릿 목록에서 직접 템플릿 실행을 시작할 수 있습니다. [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery)에 설명된 대로 게재 템플릿을 수동으로 실행하거나 아래에 자세히 설명하거나 이벤트에 의해 트리거할 수 있습니다(서버에서 파일을 사용할 수 있을 때 설정된 시간에 실행됨).
 
 템플릿을 수동으로 실행하려면 다음 단계를 수행하십시오.
 
@@ -160,7 +160,7 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
    **[!UICONTROL File>Actions>Execute the delivery template...]**&#x200B;을(를) 사용할 수도 있습니다.
 
-   ![](assets/execute-delivery-template.png)
+   ![게재 템플릿 실행 메뉴 옵션이 선택된 게재 템플릿 목록](assets/execute-delivery-template.png)
 
 1. 게재 매개 변수를 입력하고 **[!UICONTROL Send]**&#x200B;을(를) 클릭합니다.
 
@@ -172,18 +172,18 @@ Campaign에는 각 채널용 이메일, 푸시, SMS, DM 등의 기본 제공 템
 
 다음 비디오에서는 임시 게재용 템플릿을 구성하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409249?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342082?quality=12)
 
 ### 게재 템플릿 속성을 설정하는 방법
 
 다음 비디오는 게재 템플릿 속성을 설정하는 방법을 보여 주며 각 속성에 대해 자세히 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443408?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
 
 ### 임시 게재 템플릿을 배포하는 방법
 
 이 비디오에서는 임시 이메일 게재 템플릿을 배포하는 방법을 설명하고 이메일 게재와 게재 워크플로우의 차이점을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3444964?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ko){target="_blank"}에서 사용할 수 있습니다.
+추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}에서 사용할 수 있습니다.

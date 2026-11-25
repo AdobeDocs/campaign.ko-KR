@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '688'
 ht-degree: 1%
 ---
 # 메시지 추적 테스트 {#testing-tracking}
@@ -59,7 +59,7 @@ ht-degree: 1%
 1. 추적할 링크를 사용하여 이메일 콘텐츠를 디자인합니다. [전자 메일 콘텐츠 디자인에 대해 알아보기](defining-the-email-content.md)
 1. 이메일 콘텐츠에 미러 페이지 개인화 블록을 추가합니다. [개인화 블록에 대해 알아보기](personalization-blocks.md)
 
-   ![](assets/mirror-page-insert.png)
+   전자 메일 콘텐츠 편집기에서 포함 및 미러 페이지에 대한 링크가 선택된 ![Personalization 메뉴](assets/mirror-page-insert.png)
 
 1. 이메일을 받을 사용자를 지정합니다. 이 사용자는 이메일을 열고 이메일에 포함된 링크를 클릭해야 하므로 제어할 테스트 수신자 주소를 선택해야 합니다. [테스트 프로필에 대해 알아보기](../audiences/test-profiles.md)
 
@@ -71,7 +71,7 @@ ht-degree: 1%
    * **[!UICONTROL Activate tracking]**&#x200B;이(가) 선택되었는지 확인
    * 열기를 추적하려면 **[!UICONTROL Opens tracking]**&#x200B;을(를) 선택해야 합니다.
 
-   ![](assets/s_ncs_user_email_del_tracking_param.png)
+   추적 활성화 및 열기 추적 확인과 추적된 URL 목록이 포함된 ![추적 및 이미지 대화 상자](assets/s_ncs_user_email_del_tracking_param.png)
 
    [URL 추적 옵션에 대해 자세히 알아보기](url-tracking.md)
 
@@ -92,7 +92,7 @@ ht-degree: 1%
    * **[!UICONTROL Tracking]** 탭 선택
    * 클릭한 URL 및 기타 추적 이벤트와 함께 추적 로그 목록이 표시되는지 확인합니다
 
-   ![](assets/s_ncs_user_delivery_tracking_tab.png)
+   ![레이블, 클릭 및 열기 형식, 받는 사람을 표시하는 추적 로그 목록이 있는 게재 추적 탭](assets/s_ncs_user_delivery_tracking_tab.png)
 
 ## 4단계: 수신자 추적 탭 확인 {#check-recipient-tracking}
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL Tracking]** 탭을 선택합니다. [추적 로그에 대해 자세히 알아보기](tracking-logs.md)
 
-   ![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
+   ![날짜, 레이블, 유형 및 게재가 포함된 추적 로그를 나열하는 수신자 프로필 추적 탭](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 1. 추적 레코드가 다음과같이 표시되는지 확인합니다.
    * **[!UICONTROL Type]** 열의 **[!UICONTROL Mirror Page]** 값

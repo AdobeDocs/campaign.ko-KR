@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 9%
+source-wordcount: '793'
+ht-degree: 8%
 ---
 # 받은 편지함 렌더링{#inbox-rendering}
 
@@ -72,7 +72,7 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 
 사용 가능한 나머지 토큰 수가 [받은 편지함 렌더링 보고서](#inbox-rendering-report)에 표시됩니다.
 
-![](assets/s_tn_inbox_rendering_tokens.png)
+월별 패키지에서 사용된 토큰 수가 강조 표시된 ![받은 편지함 렌더링 결과 보고서](assets/s_tn_inbox_rendering_tokens.png)
 
 일반적으로 받은 편지함 렌더링 기능은 새로 디자인된 이메일의 HTML 프레임워크를 테스트하는 데 사용됩니다. 각 렌더링에는 일반적으로 테스트되는 환경의 수에 따라 약 최대 70개의 토큰이 필요합니다. 그러나 경우에 따라 게재를 완전히 테스트하기 위해 여러 받은 편지함 렌더링 보고서가 필요할 수 있습니다. 따라서 여러 검사를 완료하는 데 더 많은 토큰이 필요할 수 있습니다.
 
@@ -87,17 +87,17 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 
 1. 캡처 프로세스를 시작하려면 **[!UICONTROL Analyze]**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/s_tn_inbox_rendering_button.png)
+   ![게재 도구 모음의 받은 편지함 렌더링 단추 및 받은 편지함 렌더링 대화 상자의 분석 단추](assets/s_tn_inbox_rendering_button.png)
 
-   증명이 전송되었습니다. 이메일을 보낸 후 몇 분 후에 해당 증명에서 렌더링 축소판에 액세스할 수 있습니다. 증명 전송에 대한 자세한 내용은 [이 섹션](preview-and-proof.md#send-proofs)을 참조하세요.
+   증명이 전송되었습니다. 이메일을 보낸 후 몇 분 후에 해당 증명에서 렌더링 축소판에 액세스할 수 있습니다. 증명 전송에 대한 자세한 내용은 [증명 보내기](preview-and-proof.md#send-proofs)를 참조하십시오.
 
 1. 전송되면 게재 목록에 증명이 표시됩니다. 두 번 클릭합니다.
 
-   ![](assets/s_tn_inbox_rendering_delivery_list.png)
+   ![전송 후 선택한 전자 메일 게재 증명이 포함된 게재 목록](assets/s_tn_inbox_rendering_delivery_list.png)
 
 1. 증명의 **받은 편지함 렌더링** 탭으로 이동합니다.
 
-   ![](assets/s_tn_inbox_rendering_tab.png)
+   ![보고서 요약 및 모바일 섹션과 함께 강조 표시된 증명의 받은 편지함 렌더링 탭](assets/s_tn_inbox_rendering_tab.png)
 
    받은 편지함 렌더링 보고서가 표시됩니다.
 
@@ -107,14 +107,14 @@ Adobe Campaign에서 크레딧은 사용 가능한 렌더링(토큰으로 알려
 
 상단 섹션은 받은 메시지, 원치 않는 메시지(스팸), 받지 못한 메시지 또는 보류 중인 수신 수를 그래픽 색상으로 구분된 표현을 통해 다시 분할합니다.
 
-![](assets/s_tn_inbox_rendering_summary.png){width="40%"}
+![받은 편지함, 스팸, 받지 못함 및 수신 대기 중, 받지 못함 및 대기 중](assets/s_tn_inbox_rendering_summary.png){width="40%"} 원형 차트
 
 차트 위로 마우스를 가져가면 각 색상에 대한 세부 정보가 표시됩니다. 목록에서 항목을 클릭하여 차트에서 해당 범주를 숨기거나 표시합니다.
 
 보고서의 본문은 **[!UICONTROL Mobile]**, **[!UICONTROL Desktop]**, **[!UICONTROL Webmails]** 세 부분으로 나뉘어져 있습니다. 보고서를 아래로 스크롤하여 이 세 가지 범주로 그룹화된 모든 렌더링을 표시합니다.
 
-![](assets/s_tn_inbox_rendering_report.png)
+![각 웹 메일 및 브라우저 조합에 대한 카드가 있는 받은 편지함 렌더링 보고서의 웹 메일 섹션](assets/s_tn_inbox_rendering_report.png)
 
 각 보고서에 대한 세부 정보를 보려면 해당 카드를 클릭합니다. 선택한 수신 방법에 대해 렌더링이 표시됩니다.
 
-![](assets/s_tn_inbox_rendering_example.png)
+![보고서의 카드에서 연 Chrome의 Gmail에서 전자 메일을 자세히 렌더링합니다](assets/s_tn_inbox_rendering_example.png)

@@ -19,10 +19,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 3%
+source-wordcount: '315'
+ht-degree: 2%
 ---
 # SpamAssassin{#spamassassin}
 
@@ -52,7 +52,7 @@ SpamAssassin은 다음을 포함한 다양한 스팸 감지 기술을 활용합�
 1. **[!UICONTROL Preview]** 탭으로 이동합니다.
 1. 게재를 미리 볼 수신자를 선택하십시오.
 
-   ![](assets/s_tn_del_preview_spamassassin_recipient.png)
+   ![받는 사람 목록이 열려 있는 게재 미리 보기 탭에서 스팸 방지 확인을 위한 받는 사람을 선택합니다](assets/s_tn_del_preview_spamassassin_recipient.png)
 
    >[!NOTE]
    >
@@ -60,13 +60,13 @@ SpamAssassin은 다음을 포함한 다양한 스팸 감지 기술을 활용합�
 
 1. 경고 메시지는 테스트 결과를 제공합니다. 높은 수준의 위험이 감지되면 다음과 같은 경고 메시지가 표시됩니다.
 
-   ![](assets/s_tn_del_preview_spamassassin_ko.png)
+   ![미리 보기 탭 경고: 스팸 방지 확인에서 기타 링크를 사용하는 이 전자 메일에 대한 높은 위험을 감지했습니다](assets/s_tn_del_preview_spamassassin_ko.png)
 
 1. 경고 옆에 있는 **[!UICONTROL More...]** 링크를 클릭합니다.
 1. **[!UICONTROL Anti-spam checking]** 탭을 선택합니다.
 1. 이 위험의 이유를 보려면 **[!UICONTROL Points / Rule / Description]** 섹션으로 이동하십시오.
 
-   ![](assets/s_tn_del_msg_spamassassin_ko.png)
+   ![스팸 점수, 최대 인증 점수 및 점수/규칙/설명 목록이 있는 스팸 방지 확인 탭](assets/s_tn_del_msg_spamassassin_ko.png)
 
 >[!NOTE]
 >

@@ -33,18 +33,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 4%
+source-wordcount: '1578'
+ht-degree: 2%
 ---
 # LINE 게재 만들기
 
 LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 인스턴트 메시지, 음성 및 영상 통화용 애플리케이션입니다. Adobe Campaign을 사용하여 LINE 메시지를 보낼 수 있습니다.
 
-[!DNL LINE]을(를) 트랜잭션 메시지 모듈과 결합하여 소비자 모바일 장치에 설치된 [!DNL LINE] 앱에서 실시간 메시지를 보낼 수도 있습니다. 자세한 내용은 Campaign Classic v7 설명서에서 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)를 참조하세요.
+[!DNL LINE]을(를) 트랜잭션 메시지 모듈과 결합하여 소비자 모바일 장치에 설치된 [!DNL LINE] 앱에서 실시간 메시지를 보낼 수도 있습니다. 자세한 내용은 Campaign Classic v7 설명서에서 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)를 참조하세요.
 
-![](assets/line_message.png)
+![LINE 앱 대화에서 상점 계정으로부터 받은 문자 메시지를 표시합니다](assets/line_message.png)
 
 [!DNL LINE] 채널을 사용하는 단계는 다음과 같습니다.
 
@@ -69,13 +69,13 @@ LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 �
 
 1. 왼쪽 메뉴에서 **[!UICONTROL Services and Subscriptions]**&#x200B;을(를) 선택하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/line_service_1.png)
+   ![만들기 단추가 강조 표시된 서비스 및 구독 목록](assets/line_service_1.png)
 
 1. 새 서비스에 **[!UICONTROL Label]** 및 **[!UICONTROL Internal name]**&#x200B;을(를) 추가합니다.
 
 1. **[!UICONTROL Type]** 드롭다운에서 **[!UICONTROL LINE]** 선택.
 
-   ![](assets/line_service_2.png)
+   ![유형 드롭다운에서 선택한 LINE을 사용한 서비스 만들기 대화 상자](assets/line_service_2.png)
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -89,11 +89,11 @@ LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 �
 
 1. 기본 제공 **[!UICONTROL LINE V2 routing]** 외부 계정을 선택하십시오.
 
-   ![](assets/line_config.png)
+   ![기본 제공 LINE V2 라우팅 계정이 선택된 외부 계정 목록](assets/line_config.png)
 
 1. 외부 계정의 구성을 시작하려면 외부 계정에서 **[!UICONTROL LINE]** 탭을 클릭하십시오. 다음 필드를 채웁니다.
 
-   ![](assets/line_config_2.png)
+   ![채널 ID, 비밀 키, 액세스 토큰 및 LINE 구독 서비스 필드가 있는 외부 계정의 LINE 탭](assets/line_config_2.png)
 
    * **[!UICONTROL Channel Alias]**: **[!UICONTROL Channels]** > **[!UICONTROL Technical configuration]** 탭에서 [!DNL LINE] 계정을 통해 제공됩니다.
    * **[!UICONTROL Channel ID]**: **[!UICONTROL Channels]** > **[!UICONTROL Basic Information panel]** 탭에서 [!DNL LINE] 계정을 통해 제공됩니다.
@@ -118,37 +118,37 @@ LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 �
 
 1. **[!UICONTROL Campaigns]** 탭에서 **[!UICONTROL Deliveries]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Create]** 단추를 클릭합니다.
 
-   ![](assets/line_message_07.png)
+   ![[만들기] 단추가 강조 표시된 캠페인 탭의 게재 목록](assets/line_message_07.png)
 
 1. **[!UICONTROL LINE V2 delivery]** 게재 템플릿을 선택하십시오.
 
-   ![](assets/line_message_01.png)
+   ![LINE V2 게재 템플릿이 선택된 새 게재 대화 상자](assets/line_message_01.png)
 
-1. **[!UICONTROL Label]**, **[!UICONTROL Delivery code]** 및 **[!UICONTROL Description]**(으)로 게재를 식별합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../start/create-message.md#create-the-delivery)을 참조하십시오.
+1. **[!UICONTROL Label]**, **[!UICONTROL Delivery code]** 및 **[!UICONTROL Description]**(으)로 게재를 식별합니다. 자세한 내용은 [게재 만들기](../../start/create-message.md#create-the-delivery)를 참조하세요.
 
 1. **[!UICONTROL Continue]**&#x200B;을(를) 클릭하여 게재를 만듭니다.
 
 1. 게재 편집기에서 **[!UICONTROL To]**&#x200B;을(를) 선택하여 [!DNL LINE] 게재의 수신자를 타겟팅합니다. 타깃팅은 **[!UICONTROL Visitor subscriptions (nms:visitorSub)]**&#x200B;에 수행됩니다.
 
-   자세한 정보는 [이 페이지](../../audiences/target-mappings.md)를 참조하십시오.
+   자세한 내용은 [대상 매핑 작업](../../audiences/target-mappings.md)을 참조하세요.
 
-   ![](assets/line_message_08.png)
+   ![받는 사람 링크가 강조 표시된 LINE V2 게재 및 빈 LINE 메시지 목록](assets/line_message_08.png)
 
 1. **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 **[!UICONTROL Delivery target population]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/line_message_09.png)
+   ![게재 대상 모집단의 추가 단추를 사용하여 대상 선택 대화 상자, 기본 대상 탭](assets/line_message_09.png)
 
 1. [!DNL LINE] 구독자를 직접 타겟팅할지 또는 [!DNL LINE] 구독에 따라 사용자를 타겟팅할지 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다. 이 예제에서는 **[!UICONTROL By LINE V2 subscription]**&#x200B;을(를) 선택했습니다.
 
 1. **[!UICONTROL Folder]** 드롭다운에서 **[!UICONTROL Line-V2]**&#x200B;을(를) 선택한 다음 [!DNL LINE] 서비스를 선택합니다. 게재를 개인화하려면 **[!UICONTROL Finish]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/line_message_10.png)
+   ![LINE-V2 폴더 및 LINEVC 서비스가 선택된 대상 요소 대화 상자](assets/line_message_10.png)
 
 1. 게재 편집기에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 하나 이상의 메시지를 추가하고 **[!UICONTROL Content type]**&#x200B;을(를) 선택합니다.
 
    사용 가능한 다른 **[!UICONTROL Content type]**&#x200B;에 대한 자세한 내용은 [콘텐츠 형식 정의](#defining-the-content)를 참조하세요.
 
-   ![](assets/line_message_11.png)
+   ![LINE 메시지 섹션에서 [추가] 단추가 강조 표시된 서비스 구독자를 대상으로 하는 LINE V2 게재](assets/line_message_11.png)
 
 1. 게재가 올바르게 생성 및 구성되면 이전에 정의된 타겟으로 보낼 수 있습니다.
 
@@ -176,7 +176,7 @@ LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 �
 
 **[!UICONTROL Text message]** [!DNL LINE] 게재는 텍스트 양식으로 받는 사람에게 보내는 메시지입니다.
 
-![](assets/line_message_02.png)
+![콘텐츠 탭에 텍스트 메시지 유형 및 3단락 홍보 텍스트가 있는 LINE 메시지 편집기](assets/line_message_02.png)
 
 이 유형의 메시지에 대한 구성은 전자 메일의 **[!UICONTROL Text]** 구성과 유사합니다. 자세한 정보는 이 [페이지](../defining-the-email-content.md#message-content)를 참조하세요.
 
@@ -192,11 +192,11 @@ LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 �
   >
   >**%SIZE%** 변수를 사용하여 받는 사람의 모바일 장치의 화면 크기에 따라 이미지 표시를 최적화할 수 있습니다.
 
-  ![](assets/line_message_04.png)
+  ![개인 설정된 이미지가 선택된 이미지 및 링크 메시지, 이미지 URL 및 대체 텍스트 필드 강조 표시](assets/line_message_04.png)
 
 * 장치 화면 크기당 **[!UICONTROL Image URL]**,
 
-  ![](assets/line_message_03.png)
+  ![장치 화면 크기별 이미지 정의 및 해상도별 이미지 URL 필드 4개가 선택된 이미지 및 링크 메시지](assets/line_message_03.png)
 
   **[!UICONTROL Define images per device screen size]** 옵션을 사용하면 다양한 이미지 해상도를 사용하여 모바일 장치에서 게재 가시성을 최적화할 수 있습니다. 높이와 너비가 같은 이미지만 지원됩니다.
 
@@ -218,7 +218,7 @@ LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 �
 
   **[!UICONTROL Links]** 섹션을 사용하면 클릭 가능한 여러 영역에 이미지를 분할할 다른 레이아웃 중에서 선택할 수 있습니다. 그런 다음 각 사용자에게 전용 **[!UICONTROL Link URL]**&#x200B;을(를) 할당할 수 있습니다.
 
-  ![](assets/line_message_05.png)
+  ![3개 지역 레이아웃이 선택된 링크 섹션과 각 지역 A, B, C에 대한 링크 URL 필드](assets/line_message_05.png)
 
 ### 비디오 메시지 게재 구성 {#configuring-a-video-message-delivery}
 
@@ -230,7 +230,7 @@ LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 �
 
 일부 장치에서 재생할 때 넓은 비디오나 높은 비디오를 자를 수 있습니다.
 
-![](assets/line_message_06.png)
+![미리 보기 이미지 URL 및 비디오 이미지 URL 필드가 있는 비디오 메시지 콘텐츠](assets/line_message_06.png)
 
 ## 보고서 액세스 {#accessing-reports}
 
@@ -240,11 +240,11 @@ LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 �
 >
 >추적 보고서는 클릭스루 비율을 나타냅니다. [!DNL LINE]은(는) 열람율을 고려하지 않습니다.
 
-![](assets/line_reports_01.png)
+일반 옆에 보고서 탭이 강조 표시된 ![LINE 게재 요약](assets/line_reports_01.png)
 
 [!DNL LINE] 서비스 보고서의 경우 **[!UICONTROL Explorer]** 탭에서 **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Services and Subscriptions]** > **[!UICONTROL LINE-V2]** 메뉴에 액세스합니다. 그런 다음 [!DNL LINE] 서비스에서 **[!UICONTROL Reports]** 아이콘을 클릭합니다.
 
-![](assets/line_reports.png)
+일반 옆에 보고서 탭이 강조 표시된 ![LINEVC 서비스 대시보드](assets/line_reports.png)
 
 ## 예: 개인화된 LINE 메시지 만들기 및 보내기 {#example--create-and-send-a-personalized-line-message}
 
@@ -252,43 +252,43 @@ LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 �
 
 1. **[!UICONTROL Campaign]** 탭에서 **[!UICONTROL Create]** 단추를 클릭하여 [!DNL LINE] 게재를 만듭니다.
 
-   ![](assets/line_usecase.png)
+   ![[만들기] 단추가 강조 표시된 캠페인 탭의 게재 목록](assets/line_usecase.png)
 
 1. **[!UICONTROL LINE V2 delivery]** 게재 템플릿을 선택하고 게재 이름을 지정합니다.
 
-   ![](assets/line_usecase_01.png)
+   ![드롭다운에서 선택한 LINE V2 게재 템플릿으로 새 게재 대화 상자](assets/line_usecase_01.png)
 
 1. 게재 구성 창에서 대상 모집단을 선택합니다.
 
    자세한 내용은 [대상 모집단 식별](../../start/create-message.md#target-population)을 참조하세요.
 
-   ![](assets/line_usecase_02.png)
+   대상 모집단을 정의할 추가 단추를 표시하는 대상 링크 및 대상 선택 대화 상자를 포함하는 ![게재](assets/line_usecase_02.png)
 
 1. **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 메시지를 만들고 **[!UICONTROL Content type]**&#x200B;을(를) 선택합니다.
 
    먼저 **[!UICONTROL Text message]**&#x200B;을(를) 만듭니다.
 
-   ![](assets/line_usecase_03.png)
+   ![메시지 유형이 [문자 메시지]로 설정된 LINE 메시지 편집기 및 프로모션 코드가 포함된 시작 텍스트](assets/line_usecase_03.png)
 
 1. 개인화된 텍스트를 삽입할 위치에 커서를 놓고 드롭다운 아이콘을 클릭한 다음 **[!UICONTROL Visitor]** > **[!UICONTROL First name]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/line_usecase_05.png)
+   ![방문자가 있는 Personalization 메뉴 및 텍스트에 이름을 삽입하도록 선택한 이름](assets/line_usecase_05.png)
 
 1. 동일한 절차에 따라 이미지를 추가하고 **[!UICONTROL Message type]** 드롭다운에서 **[!UICONTROL Image and links]**&#x200B;을(를) 선택합니다.
 
    **[!UICONTROL Image URL]**&#x200B;을(를) 추가합니다.
 
-   ![](assets/line_usecase_07.png)
+   ![메시지 유형, 이미지 URL 및 대체 텍스트가 있는 이미지 및 링크 메시지 20% 해제](assets/line_usecase_07.png)
 
 1. **[!UICONTROL Links]** 섹션에서 클릭 가능한 여러 영역에 이미지를 분할할 레이아웃을 선택합니다.
 
 1. 이미지의 각 영역에 URL을 지정합니다.
 
-   ![](assets/line_usecase_08.png)
+   ![각각 고유한 링크 URL이 강조 표시된 두 영역 A와 B가 있는 이미지 및 링크 메시지](assets/line_usecase_08.png)
 
 1. 게재를 저장한 다음 **[!UICONTROL Send]**&#x200B;을(를) 클릭하여 분석하여 타겟으로 보냅니다.
 
    게재가 타겟에게 전송됩니다.
 
-   ![](assets/line_usecase_06.png)
+   ![개인 맞춤화된 인사말, 프로모션 코드 텍스트 및 20% 할인 신발 이미지가 포함된 LINE 메시지를 받았습니다](assets/line_usecase_06.png)
 

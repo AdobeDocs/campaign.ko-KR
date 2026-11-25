@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: '3734'
 ht-degree: 3%
 ---
 # SMPP 외부 계정 설정 {#smpp-external-account}
@@ -53,7 +53,7 @@ SMS 서비스 공급자 측의 네트워크 장비는 종종 SMSC라고 합니�
 
 ## 연결 설정 {#smpp-connection-settings}
 
-![](assets/smpp_connection_settings.png){zoomable="yes"}
+![SMPP 외부 계정의 연결 설정 탭: 서버, 포트, 계정, 암호 및 연결 모드](assets/smpp_connection_settings.png){zoomable="yes"}
 
 다음은 연결을 설정하는 데 필요한 매개 변수와 해당 역할입니다.
 
@@ -75,7 +75,7 @@ SMS 서비스 공급자 측의 네트워크 장비는 종종 SMSC라고 합니�
 
 **송수신기 모드**&#x200B;에서 총 연결 수입니다.
 
-**송신기+수신기 모드**&#x200B;에서 송신기+수신기 쌍의 수를 정의합니다(한 쌍 = 한 송신기+한 수신기).
+**송신기+수신기 모드**에서 송신기+수신기 쌍의 수를 정의합니다(한 쌍 = 한 송신기+한 수신기).
 송신기와 수신기 사이의 균형을 바꿀 수 있는 방법은 없다.
 
 * **전용 프로세스를 통해 메시지 보내기**:
@@ -94,7 +94,7 @@ Adobe Campaign v8.7.2 이상의 경우 이 옵션은 항상 활성화되어 있�
 
 ## SMPP 채널 설정 {#smpp-channel-settings}
 
-![](assets/smpp_channel_settings.png){zoomable="yes"}
+![SMPP 채널 설정 탭: 음역 옵션, 원본 번호, 원본 및 대상 TON/NPI, 서비스 유형](assets/smpp_channel_settings.png){zoomable="yes"}
 
 ### 문자 음역 승인 {#smpp-transliteration}
 
@@ -124,7 +124,7 @@ TON(숫자 유형) 및 NPI(번호 매기기 계획 표시기)(SMPP 3.4 사양의
 
 ## 처리량 및 지연 {#smpp-delays}
 
-![](assets/smpp_throughput.png){zoomable="yes"}
+![처리량 및 지연 탭: 전송 창, 최대 MT 처리량, 다시 연결, 만료, 바인딩 시간 초과, inquire_link](assets/smpp_throughput.png){zoomable="yes"}
 
 이 설정은 SMPP 채널의 모든 타이밍 측면을 제어합니다. 일부 공급자는 메시지 속도, 창 및 다시 시도 시간을 매우 정확하게 제어해야 하므로 이러한 설정은 공급자의 용량과 계약에 표시된 조건에 일치하는 값으로 설정해야 합니다.
 
@@ -134,7 +134,7 @@ TON(숫자 유형) 및 NPI(번호 매기기 계획 표시기)(SMPP 3.4 사양의
 
 최대 4개의 창을 사용하는 전송의 예:
 
-![](assets/sms_sending_window.png){zoomable="yes"}
+![Campaign과 SMSC 간의 시퀀스: SUBMIT_SM 요청 및 SUBMIT_SM_RESP 회신(창 4](assets/sms_sending_window.png){zoomable="yes"})
 
 이 창은 네트워크 링크의 지연 시간이 길면 처리량을 늘리는 데 도움이 됩니다. 이 창의 값은 SMS/s 수에 링크 대기 시간을 곱한 값(초)이어야 합니다. 그러면 커넥터는 다음 메시지를 보내기 전에 SUBMIT_SM_RESP를 기다리지 않습니다.
 
@@ -199,7 +199,7 @@ UCS-2는 Campaign에서 지원되는 모든 문자를 인코딩할 수 있으므
 
 ## SMSC 특성 {#smsc-specificities}
 
-![](assets/smsc_specificities.png){zoomable="yes"}
+![message_payload, bind TON/NPI, 상태 정규 표현식, ID 형식 및 TLS 옵션이 있는 SMSC 특성 탭](assets/smsc_specificities.png){zoomable="yes"}
 
 ### message_payload 활성화
 
@@ -347,7 +347,7 @@ SR 형식은 SMPP 프로토콜 사양에 의해 엄격히 적용되지 않습니
 
 ## 수신 트래픽 {#incoming-traffic}
 
-![](assets/incoming_traffic.png){zoomable="yes"}
+![들어오는 트래픽 탭: MO의 선택적 SMPP 매개 변수(TLV) 및 MO에 대한 자동 회신 테이블](assets/incoming_traffic.png){zoomable="yes"}
 
 ### MO의 선택적 SMPP 매개 변수(TLV)
 

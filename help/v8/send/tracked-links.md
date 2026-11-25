@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '621'
 ht-degree: 6%
 ---
 # 추적된 링크 구성 {#how-to-configure-tracked-links}
@@ -39,17 +39,17 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->개인화가 포함된 이메일 콘텐츠의 링크는 추적할 특정 구문이 필요합니다. [이 섹션](personalized-links.md)에서 개인화할 수 있고 추적을 지원하는 전자 메일에 링크를 추가하는 방법에 대해 자세히 알아보세요.
+>개인화가 포함된 이메일 콘텐츠의 링크는 추적할 특정 구문이 필요합니다. [개인화된 링크 추적](personalized-links.md)에서 추적을 지원하고 개인화할 수 있는 전자 메일에 링크를 추가하는 방법에 대해 자세히 알아보세요.
 
 메시지 추적은 기본적으로 활성화되어 있습니다. URL을 추적하는 방법을 개인화하려면 아래 단계를 따르십시오.
 
 1. 메시지 콘텐츠 아래 배달 도우미의 아래 섹션에서 **[!UICONTROL Display URLs]** 옵션을 선택합니다.
 
-   ![](assets/s_ncs_user_email_del_display_urls.png)
+   ![컨텐츠 아래에 URL 표시 옵션이 있는 HTML 컨텐츠 배달, 아직 선택되지 않음](assets/s_ncs_user_email_del_display_urls.png)
 
    추적된 URL 목록에서 URL을 선택하면 게재 콘텐츠에서 강조 표시됩니다. 단, 미러 페이지의 링크 및 기본적으로 제공되는 구독 취소 링크는 예외입니다.
 
-   ![](assets/s_ncs_user_email_del_show_urls.png)
+   ![선택한 URL과 일치하는 링크가 게재 콘텐츠에서 강조 표시된 추적 URL 목록](assets/s_ncs_user_email_del_show_urls.png)
 
 1. 메시지의 각 URL에 대해 추적을 활성화할지 여부를 선택합니다.
 
@@ -67,7 +67,7 @@ ht-degree: 6%
 
 1. 필요한 경우 추적 모드를 변경하고 **[!UICONTROL Tracking]** 열에서 아래 표시된 대로 대상 링크와 일치하는 새 모드를 선택하십시오.
 
-   ![](assets/s_ncs_user_select_tracking_mode.png)
+   ![URL의 추적 모드를 사용 가능에서 미러 페이지로 나열하는 추적 열 드롭다운](assets/s_ncs_user_select_tracking_mode.png)
 
    각 개별 URL에 대해 추적 모드를 다음 값 중 하나로 설정할 수 있습니다.
 
@@ -78,7 +78,7 @@ ht-degree: 6%
    * **[!UICONTROL Opt-out]**: 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
    * **[!UICONTROL Mirror page]**: 이 URL을 미러 페이지 URL로 간주합니다.
 
-1. 또한 **[!UICONTROL Category]** 열의 드롭다운 목록에서 각 추적된 URL의 범주를 선택할 수 있습니다. 이러한 범주는 **[!UICONTROL URLs and click streams]** 보고서([이 섹션](../reporting/delivery-reports.md#urls-and-click-streams) 참조)와 같이 보고서에 표시할 수 있습니다. 특정 열거형에 범주가 정의되어 있습니다. **[!UICONTROL urlCategory]**. [이 섹션](../config/enumerations.md)에서 열거형으로 작업하는 방법에 대해 자세히 알아보세요.
+1. 또한 **[!UICONTROL Category]** 열의 드롭다운 목록에서 각 추적된 URL의 범주를 선택할 수 있습니다. 이러한 범주는 **[!UICONTROL URLs and click streams]** 보고서([URL 및 클릭 스트림](../reporting/delivery-reports.md#urls-and-click-streams) 참조)와 같이 보고서에 표시할 수 있습니다. 특정 열거형에 범주가 정의되어 있습니다. **[!UICONTROL urlCategory]**. [열거형 관리](../config/enumerations.md)에서 열거형으로 작업하는 방법에 대해 자세히 알아보세요.
 
 ## URL 구분 기호에 대한 우수 사례 {#url-delimiters}
 
@@ -88,8 +88,8 @@ ht-degree: 6%
 * 대괄호 [ ]
 * 중괄호 { }
 
-이 예제에서는 URL https://www.adobe.com/kr 뒤에 세미콜론이 옵니다. 세미콜론은 수신자 이메일 클라이언트들에 의해 URL의 일부로서 해석될 수 있다. 그 결과 링크가 끊어질 수 있습니다. 이 문제를 방지하려면 다음 방법 중 하나로 URL을 구분 기호로 묶을 수 있습니다.
+이 예제에서는 URL https://www.adobe.com 뒤에 세미콜론이 옵니다. 세미콜론은 수신자 이메일 클라이언트들에 의해 URL의 일부로서 해석될 수 있다. 그 결과 링크가 끊어질 수 있습니다. 이 문제를 방지하려면 다음 방법 중 하나로 URL을 구분 기호로 묶을 수 있습니다.
 
-* (https://www.adobe.com/kr);
-* [https://www.adobe.com/kr];
-* {https://www.adobe.com/kr};
+* (https://www.adobe.com);
+* [https://www.adobe.com];
+* {https://www.adobe.com};

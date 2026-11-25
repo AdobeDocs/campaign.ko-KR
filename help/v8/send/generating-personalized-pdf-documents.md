@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '517'
 ht-degree: 4%
 ---
 # 개인화된 PDF 문서 생성{#generating-personalized-pdf-documents}
@@ -75,7 +75,7 @@ Adobe Campaign을 사용하면 LibreOffice 또는 Microsoft Word 문서의 이�
 * &quot;My_Logo&quot;를 내부 이름으로 사용하여 새 &quot;내 로고&quot; 개인화 블록을 만듭니다.
 * **[!UICONTROL Advanced parameters...]** 링크를 클릭한 다음 **[!UICONTROL "The content of the block is included in an attachment"]** 옵션을 선택합니다. 이렇게 하면 개인화 블록의 정의를 OpenOffice 파일의 콘텐츠에 직접 복사할 수 있습니다.
 
-  ![](assets/s_ncs_pdf_bloc_option.png)
+  ![콘텐츠 형식 및 편집기의 OpenOffice XML 정의가 있는 내 로고 개인화 블록](assets/s_ncs_pdf_bloc_option.png)
 
   개인화 블록 내에서 두 가지 유형의 선언을 구별해야 합니다.
 

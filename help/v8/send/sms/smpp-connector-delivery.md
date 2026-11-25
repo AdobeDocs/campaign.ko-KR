@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1322'
 ht-degree: 2%
 ---
 # SMPP 커넥터 설명 {#smpp-connector-desc}
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 다음은 SMS 프로세스가 해당 환경과 상호 작용하는 방법을 요약하는 높은 수준의 블록 다이어그램입니다.
 
-![](assets/smsv2_highlevel.png){zoomable="yes"}
+![Campaign 데이터베이스 및 SMPP 공급자에 연결된 SMPP 커넥터 및 SR 조정을 사용하는 SMS 프로세스](assets/smsv2_highlevel.png){zoomable="yes"}
 
 SMS 프로세스는 SMPP 공급자와의 통신을 처리하는 SMPP 커넥터 자체와 SR 조정을 위한 백그라운드 작업이라는 두 가지 중요한 구성 요소를 호스팅합니다.
 
@@ -91,7 +91,7 @@ SMS 프로세스는 nms:extAccount을(를) 폴링하고 SMPP 커넥터에 새 �
 
 다음은 전체 프로세스를 설명하는 다이어그램입니다.
 
-![](assets/message_processing.png){zoomable="yes"}
+![broad log, providerMsgId, providerMsgStatus, SMPP 커넥터 및 공급자 간의 세 단계의 시퀀스 다이어그램](assets/message_processing.png){zoomable="yes"}
 
 **단계 1**
 
