@@ -36,7 +36,7 @@ ht-degree: 1%
 1. 워크플로우 시작 부분에 우선 순위가 1인 **[!UICONTROL Jump (end point)]** 활동을 삽입합니다. &quot;끝점&quot; 유형 점프가 여러 개 있는 경우 Adobe Campaign에서 가장 낮은 숫자의 &quot;끝점&quot; 점프를 사용합니다.
 1. 워크플로우 끝에 우선 순위가 2인 **[!UICONTROL Jump (start point)]** 활동을 삽입합니다. &quot;시작 지점&quot; 유형 점프가 여러 개 있는 경우 Adobe Campaign에서 가장 높은 숫자의 &quot;시작 지점&quot; 점프를 사용합니다.
 
-   ![쿼리와 유니온 주변에서 [이동](끝점) 1로 시작하고 [이동](시작점) 2로 끝나는 하위 워크플로 다이어그램입니다.](assets/subworkflow_jumps.png)
+   ![쿼리와 유니온 주변에서 [이동] (끝점) 1로 시작하고 [이동] (시작점) 2로 끝나는 하위 워크플로 다이어그램입니다.](assets/subworkflow_jumps.png)
 
    >[!NOTE]
    >
