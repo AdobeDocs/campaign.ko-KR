@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '355'
 ht-degree: 2%
 ---
 # 데이터 소스 변경 {#change-data-source}
@@ -61,22 +61,22 @@ ht-degree: 2%
 
 1. **[!UICONTROL Change data source]** 활동을 추가합니다.
 
-   ![](assets/change-data-source.png)
+   ![시작 및 쿼리가 있는 워크플로 및 팔레트에서 강조 표시된 데이터 변경 Source 활동](assets/change-data-source.png)
 
 1. **[!UICONTROL Change data source]** 활동을 편집하여 **[!UICONTROL Default data source]**&#x200B;을(를) 선택하십시오.
 
    그러면 쿼리 결과가 포함된 작업 테이블이 기본 Campaign 로컬 데이터베이스로 이동합니다.
 
-   ![](assets/change-data-source_2.png)
+   ![기본 데이터 원본 옵션이 선택된 상태에서 Data Source 활동 변경](assets/change-data-source_2.png)
 
 1. 작업 테이블에서 단일 작업을 수행하려면 **[!UICONTROL JavaScript code]** 활동을 추가하십시오.
 
-   **[!UICONTROL JavaScript code]** 활동에 대한 자세한 내용은 [이 페이지](sql-code-and-javascript-code.md#javascript-code)를 참조하세요.
+   **[!UICONTROL JavaScript code]** 활동에 대한 자세한 내용은 [JavaScript 코드 및 고급 JavaScript 코드](sql-code-and-javascript-code.md#javascript-code)를 참조하십시오.
 
 1. 클라우드 데이터베이스로 다시 전환하려면 다른 **[!UICONTROL Change data source]** 활동을 추가하십시오.
 
 1. 이 활동을 편집하고 **[!UICONTROL Active FDA external account]** 및 해당 **[!UICONTROL External database]** 외부 계정을 선택합니다.
 
-   ![](assets/change-data-source_3.png)
+   ![활성 FDA 외부 계정을 선택하고 목록에서 강조 표시된 Snowflake을 사용하여 데이터 Source 활동 변경](assets/change-data-source_3.png)
 
 1. 이제 워크플로우를 시작할 수 있습니다.

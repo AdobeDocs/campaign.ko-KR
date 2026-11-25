@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 8%
+source-wordcount: '473'
+ht-degree: 7%
 ---
 # 스케줄러 {#scheduler}
 
@@ -50,22 +50,22 @@ ht-degree: 8%
 
 스케줄러는 전환의 활성화 일정을 정의합니다. 이를 구성하려면 그래픽 개체를 두 번 클릭한 다음 **[!UICONTROL Change...]**&#x200B;을(를) 클릭합니다
 
-![](assets/s_user_segmentation_scheduler.png)
+실행 빈도를 정의하는 데 사용되는 변경 단추가 있는 ![스케줄러 활동 대화 상자](assets/s_user_segmentation_scheduler.png)
 
 마법사를 사용하여 활동의 빈도와 유효 기간을 정의할 수 있습니다. 구성 단계는 다음과 같습니다.
 
 1. 활성화 빈도를 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/s_user_segmentation_scheduler2.png)
+   ![일정 편집 마법사, 빈도 유형 선택: 하루에 여러 번, 매일, 주별, 월별, 한 번](assets/s_user_segmentation_scheduler2.png)
 
 1. 활성화 시간 및 일을 지정합니다. 이 단계의 매개 변수는 이전 단계에서 선택한 빈도에 따라 다릅니다. 하루에 여러 번 활동을 시작하도록 선택하는 경우 구성 옵션은 다음과 같습니다.
 
-   ![](assets/s_user_segmentation_scheduler3.png)
+   ![일정 편집 마법사, 하루에 여러 번: 선택한 시간에 대한 시간 선택 및 평일이 포함된 일 선택](assets/s_user_segmentation_scheduler3.png)
 
 1. 일정의 유효 기간을 정의하거나 실행할 횟수를 지정합니다.
 
-   ![](assets/s_user_segmentation_scheduler4.png)
+   ![일정 편집 마법사, 유효 기간: 영구 유효, 유효 시작 및 종료 날짜 또는 최대 반복 횟수](assets/s_user_segmentation_scheduler4.png)
 
 1. 구성을 확인하고 **[!UICONTROL Finish]**&#x200B;을(를) 클릭하여 저장합니다.
 
-   ![](assets/s_user_segmentation_scheduler5.png)
+   ![일정 편집 마법사, 요약: 일정 설명 및 다음 실행 시간 목록(마침 단추 포함)](assets/s_user_segmentation_scheduler5.png)

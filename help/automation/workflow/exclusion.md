@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 1%
+source-wordcount: '404'
+ht-degree: 0%
 ---
 # 제외{#exclusion}
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 이 활동을 구성하려면 해당 레이블을 입력하고 기본 수신자 세트를 선택합니다. 기본 세트의 모집단을 사용하면 결과를 구성할 수 있습니다. 기본 세트와 하나 이상의 시작 활동에 의해 공유된 프로필은 제외됩니다.
 
-![](assets/s_user_segmentation_exclu.png)
+![기본 세트, 제외 규칙, 결과 레이블 및 보조 항목 생성 옵션이 있는 제외 활동.](assets/s_user_segmentation_exclu.png)
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 나머지 모집단을 활용하려면 **[!UICONTROL Generate complement]** 옵션을 선택하십시오. 보조 항목에는 주 유입 인구에서 이탈 인구를 뺀 값이 포함됩니다. 그런 다음 다음과 같이 추가 출력 전환이 활동에 추가됩니다.
 
-![](assets/s_user_segmentation_exclu_compl.png)
+![Result 및 Complement 레이블이 지정된 아웃바운드 전환이 두 개인 제외 활동](assets/s_user_segmentation_exclu_compl.png)
 
 ## 제외 예 {#exclusion-examples}
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 1. 제외 구성을 승인한 다음 업데이트 목록 활동을 결과에 삽입합니다. 필요한 경우 보충 자료에 추가 목록 업데이트를 삽입할 수도 있습니다.
 1. 워크플로우를 실행합니다. 이 예에서 결과는 18세에서 30세 사이의 수신자로 구성되지만 파리에 거주하는 수신자는 제외되어 보충 자료로 전송됩니다.
 
-   ![](assets/exclusion_example.png)
+   ![18-30 및 Paris 쿼리가 있는 워크플로우에서는 목록 업데이트로 이동하는 결과를 사용하여 제외를 제공하고 다음을 보완합니다.](assets/exclusion_example.png)
 
 ## 입력 매개 변수 {#input-parameters}
 

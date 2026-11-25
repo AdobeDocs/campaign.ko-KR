@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 10%
+source-wordcount: '388'
+ht-degree: 8%
 ---
 # 지속적인 게재{#continuous-delivery}
 
@@ -34,11 +34,11 @@ ht-degree: 10%
 
 **연속 게재** 유형 작업을 사용하면 기존 게재에 새 수신자를 추가할 수 있습니다. 이 게재 유형은 매번 새 게재를 만들 필요가 없습니다. 특히 필요할 때 저볼륨 경고 또는 알림을 보내는 경우 이 모드가 더 효율적입니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#continuous-delivery-video)
+![비디오 재생 아이콘](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#continuous-delivery-video)
 
 게재 템플릿 수준에서 관련 게재의 레이블(및 캠페인 폴더)을 계산하는 스크립트를 지정할 수 있습니다. 스크립트가 아직 존재하지 않는 게재를 계산하는 경우 바로 생성됩니다.
 
-![](assets/edit_diffusion_fil.png)
+![템플릿 필드 및 받는 사람 옵션과 오류 처리 확인란이 있는 연속 게재 활동](assets/edit_diffusion_fil.png)
 
 **[!UICONTROL Process errors]** 옵션은 오류가 발생하면 활성화될 특정 전환을 표시합니다. 이 경우 워크플로우는 오류 모드로 전환되지 않고 계속 실행됩니다.
 

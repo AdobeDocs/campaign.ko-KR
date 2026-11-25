@@ -22,10 +22,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 4%
+source-wordcount: '2149'
+ht-degree: 3%
 ---
 # 분할{#split}
 
@@ -37,9 +37,9 @@ ht-degree: 4%
 >
 >소스가 다른 테이블에 대해서는 분할 작업을 수행할 수 없습니다. 이를 위해 **분할** 활동 전에 **데이터 보강** 활동을 추가해야 합니다.
 
-* 사용 중인 분할 활동의 예를 보려면 [이 섹션](targeting-workflows.md#create-subsets-using-the-split-activity)을 참조하세요.
-* 필터링 조건을 사용하여 Split 활동을 사용하여 대상을 다른 모집단으로 세분화하는 방법에 대한 예제는 [이 섹션](cross-channel-delivery-workflow.md)에 설명되어 있습니다.
-* 분할 활동에서 인스턴스 변수를 사용하는 방법을 보여 주는 예는 [이 섹션](javascript-scripts-and-templates.md)에서 확인할 수 있습니다.
+* 사용 중인 분할 활동의 예를 보려면 [분할 활동을 사용하여 하위 집합 만들기](targeting-workflows.md#create-subsets-using-the-split-activity)를 참조하십시오.
+* 필터링 조건을 사용하여 Split 활동을 사용하여 대상을 다른 모집단으로 분할하는 방법에 대한 예는 [크로스 채널 게재 워크플로우](cross-channel-delivery-workflow.md)에 설명되어 있습니다.
+* 분할 활동에서 인스턴스 변수를 사용하는 방법을 보여주는 예는 [JavaScript 스크립트 및 템플릿](javascript-scripts-and-templates.md)에서 사용할 수 있습니다.
 
 이 활동을 구성하려면 **[!UICONTROL Subsets]** 탭에서 하위 집합 콘텐츠와 레이블을 정의한 다음 **[!UICONTROL General]** 탭에서 대상 차원을 선택합니다.
 
@@ -62,11 +62,11 @@ ht-degree: 4%
 
    마법사를 사용하여 이 하위 집합의 레코드에 대한 선택 모드를 선택할 수 있습니다. [자세히 알아보기](#limit-the-number-of-subset-records).
 
-   ![](assets/s_user_segmentation_partage4.png)
+   ![하위 집합 1이 있는 하위 집합 탭, 선택한 레코드 제한 및 제한 마법사를 여는 편집 링크](assets/s_user_segmentation_partage4.png)
 
 1. 원하는 경우 **[!UICONTROL Add]** 단추를 사용하여 **다른 하위 집합을 추가**&#x200B;할 수 있습니다.
 
-   ![](assets/s_user_segmentation_partage_add.png)
+   ![추가 단추가 있는 하위 집합 탭과 하단의 하위 집합 1, 하위 집합 2 및 하위 집합 3 탭](assets/s_user_segmentation_partage_add.png)
 
    >[!NOTE]
    >
@@ -74,7 +74,7 @@ ht-degree: 4%
 
    생성된 각 하위 세트에 대해 아웃바운드 전환이 분할 활동에 추가됩니다.
 
-   ![](assets/s_user_segmentation_partage_add2.png)
+   ![하위 집합당 하나의 아웃바운드 전환을 사용하는 분할 활동: 하위 집합 1, 하위 집합 2 및 하위 집합 3](assets/s_user_segmentation_partage_add2.png)
 
    단일 아웃바운드 전환을 생성하도록 선택하고(예: 세그먼트 코드를 사용하여 집합 식별), 이렇게 하려면 **[!UICONTROL General]** 탭에서 **[!UICONTROL Generate subsets in the same table]** 옵션을 선택합니다.
 
@@ -93,15 +93,15 @@ ht-degree: 4%
 
      예를 들어 **[!UICONTROL Age]** 필드를 정렬 기준으로 선택한 다음 제한을 100개로 정의한 경우 데이터베이스의 가장 최연소 수신자 2000명이 모두 18개이면 2000명 중 100명의 수신자가 임의로 선택됩니다.
 
-   ![](assets/s_user_segmentation_partage_wz1.png)
+   ![제한 마법사 단계 유형: 임의 샘플링, 정렬 후 첫 번째 레코드 또는 정렬 후 첫 번째 레코드(기준, 임의)](assets/s_user_segmentation_partage_wz1.png)
 
 1. 정렬 기준을 정의하려면 추가 단계를 통해 열과 정렬 순서를 정의할 수 있습니다.
 
-   ![](assets/s_user_segmentation_partage_wz1.1.png)
+   ![타겟팅 및 필터링 차원과 정렬 열을 포함하는 정렬 마법사 단계 만들기 날짜 및 회사, 내림차순](assets/s_user_segmentation_partage_wz1.1.png)
 
 1. 그런 다음 데이터 제한 방법을 선택합니다.
 
-   ![](assets/s_user_segmentation_partage_wz2.png)
+   ![크기(%)가 선택되어 있고 10.00으로 설정된 마법사 단계 및 기타 데이터 제한 옵션](assets/s_user_segmentation_partage_wz2.png)
 
    다음과 같은 몇 가지 방법이 있습니다.
 
@@ -125,15 +125,15 @@ ht-degree: 4%
 
 1. 데이터 제한 값을 선택한 후 **[!UICONTROL By data grouping]** 또는 **[!UICONTROL By data grouping (as a %)]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/s_user_segmentation_partage_wz3.png)
+   ![데이터 그룹별 데이터 그룹화를 선택하고 다음을 클릭하여 추가 정보를 입력하라는 메시지가 표시되는 마법사 단계 제한](assets/s_user_segmentation_partage_wz3.png)
 
 1. 그런 다음 그룹화 필드(인스턴스의 경우 **[!UICONTROL Language]** 필드)를 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/s_user_segmentation_partage_wz4.png)
+   ![언어 필드를 그룹화 식으로 나열하는 데이터 그룹화 마법사 단계](assets/s_user_segmentation_partage_wz4.png)
 
 1. 마지막으로 데이터 그룹화 임계값을 지정합니다(이전에 선택한 그룹화 방법에 따라 고정된 값 또는 백분율을 사용). 각 언어에 대한 레코드 수를 10개로 설정하려면 **[!UICONTROL All data groupings are the same size]** 옵션을 선택하십시오. 모든 값에 대해 다른 제한을 설정하려면 **[!UICONTROL Limitations by grouping value]** 옵션을 선택하십시오. 이렇게 하면 영어, 프랑스어 등에 대한 다른 제한을 선택할 수 있습니다.
 
-   ![](assets/s_user_segmentation_partage_wz5.png)
+   ![모든 데이터 그룹화가 있는 데이터 그룹화 단계가 선택한 크기와 값이 같습니다.](assets/s_user_segmentation_partage_wz5.png)
 
 1. 제한을 승인하고 분할 활동 편집으로 돌아가려면 **[!UICONTROL Finish]**&#x200B;을(를) 클릭하십시오.
 
@@ -141,9 +141,9 @@ ht-degree: 4%
 
 그룹화 필드에 너무 많은 값이 포함되어 있거나 모든 새 분할 활동에 대해 값을 재설정하지 않으려는 경우 Adobe Campaign을 사용하여 데이터 분포별로 제한을 만들 수 있습니다. [데이터 제한 값](#create-subsets) 섹션)을 선택하는 경우 **[!UICONTROL By data distribution]** 옵션을 선택하고 드롭다운 메뉴에서 템플릿을 선택합니다. 데이터 배포 템플릿 만들기는 아래에 나와 있습니다.
 
-배포 템플릿을 사용하는 **[!UICONTROL Local approval]** 활동의 예를 보려면 [이 페이지](local-approval-activity.md)를 참조하세요.
+배포 템플릿을 사용하는 **[!UICONTROL Local approval]** 활동의 예를 보려면 [로컬 승인 활동 사용](local-approval-activity.md)을 참조하세요.
 
-![](assets/s_user_segmentation_partage_wz6.png)
+![데이터 배포 기준 이 선택되고 템플릿 배포가 수신자에게 적용되는 마법사 단계 제한](assets/s_user_segmentation_partage_wz6.png)
 
 >[!CAUTION]
 >
@@ -153,11 +153,11 @@ ht-degree: 4%
 
 1. 데이터 배포 템플릿을 만들려면 **[!UICONTROL Resources > Campaign management > Data distribution]** 노드로 이동하여 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/local_validation_data_distribution_1.png)
+   리소스 및 캠페인 관리 아래에 데이터 배포 노드가 있는 ![탐색기 트리 및 새로 만들기 단추](assets/local_validation_data_distribution_1.png)
 
 1. **[!UICONTROL General]** 탭에서 배포의 레이블 및 실행 컨텍스트(타깃팅 차원, 배포 필드)를 입력할 수 있습니다.
 
-   ![](assets/local_validation_data_distribution_2.png)
+   ![타깃팅 차원, 배포 필드, 배포 유형 및 승인 저장소가 있는 데이터 배포 일반 탭](assets/local_validation_data_distribution_2.png)
 
    다음 필드를 입력해야 합니다.
 
@@ -171,7 +171,7 @@ ht-degree: 4%
 
 1. [로컬 승인](local-approval.md) 활동을 사용하는 경우 배포 템플릿에 대한 **[!UICONTROL Advanced settings]**&#x200B;을(를) 입력하십시오.
 
-   ![](assets/local_validation_data_distribution_3.png)
+   ![타겟팅된 메시지, 게재 레이블, 그룹화 필드 및 웹 인터페이스 설정을 승인하는 고급 매개 변수](assets/local_validation_data_distribution_3.png)
 
    다음 필드를 입력해야 합니다.
 
@@ -181,21 +181,21 @@ ht-degree: 4%
      >
      >이 옵션은 기본적으로 선택되어 있습니다.
 
-     ![](assets/local_validation_notification.png)
+     ![승인할 받는 사람의 승인 알림 목록(각 목록에 빨간색 강조 표시 확인란 포함)](assets/local_validation_notification.png)
 
    * **[!UICONTROL Delivery label]**: 반환 알림에 게재 레이블을 표시하는 식을 정의할 수 있습니다. 기본 표현식은 게재의 표준 레이블(계산 문자열)에 대한 정보를 제공합니다. 이 표현식은 수정할 수 있습니다.
 
-     ![](assets/local_validation_notification_3.png)
+     배달 레이블을 빨간색으로 강조 표시한 배달 줄 관련 ![배달 피드백 알림](assets/local_validation_notification_3.png)
 
    * **[!UICONTROL Grouping field]**: 이 필드를 사용하면 승인 및 반송 알림에 수신자를 표시하는 데 사용되는 그룹화를 정의할 수 있습니다.
 
-     ![](assets/local_validation_notification_4.png)
+     ![빨간색으로 강조 표시된 남성 및 여성 머리글 아래에 수신자를 그룹화하는 승인 목록](assets/local_validation_notification_4.png)
 
    * **[!UICONTROL Web Interface]**: 웹 응용 프로그램을 받는 사람 목록에 연결할 수 있습니다. 승인 및 반환 알림에서 각 수신자는 클릭할 수 있고 선택한 웹 애플리케이션에 연결됩니다. **[!UICONTROL Parameters]** 필드(예: **[!UICONTROL recipientId]**)를 사용하면 URL 및 웹 애플리케이션에서 사용할 추가 매개 변수를 구성할 수 있습니다.
 
 1. **[!UICONTROL Breakdown]** 탭에서는 배포 값 목록을 정의할 수 있습니다.
 
-   ![](assets/local_validation_data_distribution_4.png)
+   ![배포 필드 값을 백분율, 레이블, 그룹 또는 연산자와 함께 나열하는 분류 탭](assets/local_validation_data_distribution_4.png)
 
    * **[!UICONTROL Value]**: 배포 값을 입력하십시오.
    * **[!UICONTROL Percentage / Set]**: 각 값에 연결된 레코드 제한(고정 또는 백분율)을 입력하십시오.
@@ -215,11 +215,11 @@ ht-degree: 4%
 
 **[!UICONTROL General]** 탭을 클릭하여 활동 레이블을 입력합니다. 이 분할에 대한 대상 및 필터 차원을 선택합니다. 필요한 경우 주어진 하위 집합에 대해 이러한 차원을 변경할 수 있습니다.
 
-![](assets/s_user_segmentation_partage_general.png)
+![타깃팅 및 필터링 차원을 사용한 분할 활동 및 보조 항목 생성 옵션의 일반 탭](assets/s_user_segmentation_partage_general.png)
 
 나머지 모집단을 활용하려면 **[!UICONTROL Generate complement]** 옵션을 선택하십시오. 보수는 인바운드 대상에서 하위 집합의 결합을 뺀 것입니다. 그러면 다음과 같이 추가 아웃바운드 전환이 활동에 추가됩니다.
 
-![](assets/s_user_segmentation_partage_compl.png)
+![아웃바운드 전환으로 활동 분할 하위 집합 1, 하위 집합 2, 하위 집합 3 및 추가 보완 전환](assets/s_user_segmentation_partage_compl.png)
 
 이 옵션이 제대로 작동하려면 인바운드 데이터에 기본 키가 있어야 합니다.
 

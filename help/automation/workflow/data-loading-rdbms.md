@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 3%
+source-wordcount: '232'
+ht-degree: 2%
 ---
 # 데이터 로딩(RDBMS){#data-loading-rdbms}
 
@@ -43,15 +43,15 @@ ht-degree: 3%
 
 1. 목록에서 데이터 소스를 선택하고 추출할 데이터가 포함된 표의 이름을 입력합니다.
 
-   ![](assets/s_advuser_wf_sgbd_sample_1.png)
+   ![공유 외부 데이터 원본과 nmsrecipient 테이블 이름이 선택된 RDBMS(데이터 로드) 활동](assets/s_advuser_wf_sgbd_sample_1.png)
 
    해당 필드에 입력한 테이블 이름은 외부 데이터베이스에서 데이터를 수집하기 위한 템플릿으로 사용됩니다. 워크플로우에서 처리한 테이블의 이름은 데이터 로드 활동의 인바운드 전환으로 계산되거나 전달될 수 있습니다. 사용할 테이블을 선택하려면 **[!UICONTROL Advanced..]**&#x200B;을(를) 클릭하십시오. **[!UICONTROL Specified in the transition]** 또는 **[!UICONTROL Explicit]** 옵션을 연결하고 선택하십시오.
 
-   ![](assets/s_advuser_wf_sgbd_sample_5.png)
+   ![테이블 이름 선택을 위한 고급 매개 변수: 템플릿에 동일하며, 전환에 지정됨, 명시적.](assets/s_advuser_wf_sgbd_sample_5.png)
 
 1. 데이터베이스에서 수집할 데이터를 선택하려면 **[!UICONTROL Select the columns to extract...]** 링크를 클릭하십시오.
 
-   ![](assets/s_advuser_wf_sgbd_sample_2.png)
+   ![사용 가능한 필드와 추출을 위해 선택한 출력 열을 나열하는 추가 열 창을 선택하십시오.](assets/s_advuser_wf_sgbd_sample_2.png)
 
 1. 이 데이터에 대한 필터를 정의할 수 있습니다. 이렇게 하려면 **[!UICONTROL Edit query....]** 링크를 클릭하십시오.
 

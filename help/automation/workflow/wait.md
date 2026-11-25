@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '206'
+ht-degree: 0%
 ---
 # 대기{#wait}
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 아래 예와 같이 편집기를 사용하여 레이블 및 대기 시간을 입력할 수 있습니다.
 
-![](assets/edit_wait.png)
+![대기 활동 편집기 레이블 Wait 90s, 지속 시간 1m 30s입니다.](assets/edit_wait.png)
 
 **[!UICONTROL Duration]** 필드에서 값을 원하는 단위로 표현할 수 있습니다(연산자의 지역 설정에 따라).
 

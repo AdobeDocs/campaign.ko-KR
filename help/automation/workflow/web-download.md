@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '573'
 ht-degree: 1%
 ---
 # 웹 다운로드{#web-download}
@@ -47,23 +47,23 @@ ht-degree: 1%
 
    * 다운로드할 파일의 URL을 직접 입력하려면 **[!UICONTROL Explicit URL]** 옵션을 선택하고 해당 필드에 URL을 지정하십시오. 이 URL은 변수 데이터로 구성할 수 있습니다.
 
-     ![](assets/download_web_edit.png)
+     ![명시적 URL 옵션이 선택되어 있고 빈 URL 필드가 있는 웹 다운로드 활동.](assets/download_web_edit.png)
 
    * **[!UICONTROL External account]**&#x200B;을(를) 사용하려면 드롭다운 목록에서 계정을 선택하고 다운로드할 파일을 지정합니다.
 
      외부 계정은 Adobe Campaign 트리의 **[!UICONTROL Administration > Platform > External accounts]** 노드에서 구성됩니다. 계정 매개 변수는 **[!UICONTROL Edit link]** 아이콘을 통해 편집할 수 있습니다.
 
-     ![](assets/download_web_edit_external.png)
+     ![외부 계정이 있는 웹 파일 섹션(다운로드할 계정 및 파일 이름 포함)을 선택했습니다.](assets/download_web_edit_external.png)
 
    * Adobe Campaign 인스턴스에서 파일을 다운로드하려면 **[!UICONTROL Adobe Campaign Instance]** 옵션을 선택합니다.
 
-     ![](assets/download_web_edit_instance.png)
+     ![Adobe Campaign 인스턴스가 선택된 웹 파일 섹션과 변수를 사용하는 파일 이름.](assets/download_web_edit_instance.png)
 
 1. **파일 기록**
 
    **[!UICONTROL File historization settings...]** 링크를 사용하여 파일 저장소 디렉터리 및 이 디렉터리의 제거 빈도를 지정할 수 있습니다.
 
-   ![](assets/download_web_edit_hist.png)
+   ![저장소 디렉터리, 파일 수 및 최대 크기(MB) 제거 설정이 있는 내역 설정 대화 상자.](assets/download_web_edit_hist.png)
 
    다음 옵션을 사용할 수 있습니다.
 
@@ -85,7 +85,7 @@ ht-degree: 1%
    * **[!UICONTROL Add the HTTP headers to the file]**: 경우에 따라 파일에 추가 HTTP 헤더를 추가할 수 있습니다. 가장 일반적으로 이러한 헤더는 문제 해결 목적으로 [CORS(원본 간 리소스 공유)](https://developer.mozilla.org/docs/Web/HTTP/CORS)에 대한 추가 정보를 제공하거나 특정 캐싱 지침을 설정하는 데 사용됩니다.
    * **[!UICONTROL Ignore the HTTP return code]**: HTTP 상태 코드라고도 하는 HTTP 반환 코드는 HTTP 요청의 결과를 나타냅니다.
 
-   ![](assets/download_web_edit_advanced.png)
+   ![리디렉션 팔로우, 파일에 HTTP 헤더를 추가하고 HTTP 반환 코드를 무시하는 고급 매개 변수 대화 상자.](assets/download_web_edit_advanced.png)
 
    **[!UICONTROL Process errors]** 옵션은 [처리 오류](monitor-workflow-execution.md#processing-errors)에 자세히 설명되어 있습니다.
 

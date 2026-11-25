@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '559'
 ht-degree: 0%
 ---
 # 파일 수집기{#file-collector}
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 **[!UICONTROL File collector]** 활동의 첫 번째 탭에서는 소스 디렉터리를 선택하고 필요한 경우 수집된 파일을 필터링할 수 있습니다. 다른 탭은 [인바운드 전자 메일](inbound-emails.md)(**[!UICONTROL Schedule]** 및 **[!UICONTROL Expiry]** 탭)에 자세히 설명되어 있습니다.
 
-![](assets/file_collect_edit.png)
+![파일이 처리되는 즉시 디렉터리, 필터 및 중지가 포함된 파일 수집기 디렉터리 탭](assets/file_collect_edit.png)
 
 1. **파일 다운로드**
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 파일 처리 순서를 결정할 수 없습니다. 파일 집합을 순차적으로 처리하려면 **[!UICONTROL Stop as soon as a file has been processed]** 옵션을 사용하고 루프를 만듭니다. 이 경우 파일은 알파벳순으로 처리됩니다. **[!UICONTROL Process file nonexistence]** 옵션을 사용하면 반복을 완료할 수 있습니다.
 
-![](assets/file_collect_loop.png)
+![파일 없음 전환에 대한 경고 활동을 사용하여 파일 컬렉터로 다시 가져오기에서 워크플로우 반복](assets/file_collect_loop.png)
 
 ## 출력 매개 변수 {#output-parameters}
 

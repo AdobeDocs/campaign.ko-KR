@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '180'
 ht-degree: 2%
 ---
 # 게재 제어{#delivery-control}
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 전환에 지정된 게재, 명시적으로 선택한 게재 또는 스크립트로 계산된 게재가 될 수 있습니다. 자세한 내용은 [배달](delivery.md)을 참조하세요.
 
-![](assets/edit_diffusion_act.png)
+![게재를 사용한 게재 제어 활동 전환, 작업 시작 및 아웃바운드 전환 생성에 지정됨](assets/edit_diffusion_act.png)
 
 **[!UICONTROL Start]**&#x200B;을(를) 선택하면 활동이 게재를 시작하는 데 필요한 모든 단계(대상 계산, 콘텐츠 준비, 게재)를 수행합니다. 이전 워크플로우 활동에서 이러한 단계 중 일부를 이미 수행한 경우에는 다시 수행되지 않습니다. 예를 들어 **[!UICONTROL Delivery]** 유형 활동([게재](delivery.md) 참조)에 의해 대상 추정이 이미 수행된 경우 **[!UICONTROL Act on the delivery]** 활동에서 나머지 단계(콘텐츠 준비 및 게재)를 시작합니다.
 

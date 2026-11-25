@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 22%
+source-wordcount: '212'
+ht-degree: 16%
 ---
 # AND-결합{#and-join}
 
@@ -34,7 +34,7 @@ ht-degree: 22%
 
 예를 들어 콘텐츠 작성 및 게재 전송 자동화 컨텍스트에서 AND-join 활동을 사용하여 타겟 쿼리 및 콘텐츠 업데이트 단계가 완료된 후에만 게재가 시작되도록 할 수 있습니다. 전용 사용 사례는에서 사용할 수 있습니다.
 
-![](assets/and-join-usage.png)
+![포크가 쿼리 및 콘텐츠 관리를 게재 전에 AND-join으로 동시에 실행하는 워크플로우입니다.](assets/and-join-usage.png)
 
 >[!NOTE]
 >
@@ -46,4 +46,4 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->**AND-join** 형식 활동의 경우 이벤트 변수가 병합되지만 동일한 변수가 두 번 정의되어 있으면 충돌이 발생하고 값이 확인되지 않습니다. 이 작업에 대한 자세한 정보는 [이 섹션](javascript-scripts-and-templates.md#event-variables)을 참조하십시오.
+>**AND-join** 형식 활동의 경우 이벤트 변수가 병합되지만 동일한 변수가 두 번 정의되어 있으면 충돌이 발생하고 값이 확인되지 않습니다. 자세한 내용은 [이벤트 변수](javascript-scripts-and-templates.md#event-variables)를 참조하세요.

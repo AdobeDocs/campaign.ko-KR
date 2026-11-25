@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 9%
+source-wordcount: '440'
+ht-degree: 8%
 ---
 # 교차{#intersection}
 
@@ -36,13 +36,13 @@ ht-degree: 9%
 
 교차를 통해 모든 인바운드 활동 결과에 공통인 모집단만 추출할 수 있습니다. 모든 결과가 수신된 타겟이 생성됩니다. 따라서 교차를 실행하려면 모든 이전 활동이 완료되어야 합니다. 이 활동을 구성하려면 활동에 대한 레이블과 결과에 대한 옵션을 입력해야 합니다.
 
-![](assets/s_user_segmentation_inter.png)
+![조정 기능이 키로만 설정된 교차 활동, 결과 레이블 및 보조 항목 생성 옵션](assets/s_user_segmentation_inter.png)
 
 교차 활동 구성 및 사용에 대한 자세한 내용은 [공동 데이터 추출(교차)](targeting-workflows.md#extract-joint-data--intersection-)을 참조하세요.
 
 나머지 모집단을 처리하려면 **[!UICONTROL Generate complement]** 옵션을 선택하십시오. 여집합에는 교차를 제외한 모든 인바운드 활동 결과의 합집합이 포함됩니다. 그러면 다음과 같이 추가 아웃바운드 전환이 활동에 추가됩니다.
 
-![](assets/s_user_segmentation_inter_compl.png)
+![두 개의 아웃바운드 전환, 결과 및 보완 작업이 있는 교차 활동](assets/s_user_segmentation_inter_compl.png)
 
 ## 교차 예 {#intersection-example}
 
@@ -60,7 +60,7 @@ ht-degree: 9%
 
    교차 결과가 첫 번째 목록 업데이트로 전송됩니다. 보조 기능을 사용하도록 선택한 경우 보조 목록 업데이트로도 전송됩니다.
 
-   ![](assets/intersection_example.png)
+   ![결과 및 보수가 두 목록 업데이트 활동으로 이동하는 교차를 제공하는 세 개의 쿼리](assets/intersection_example.png)
 
 ## 입력 매개 변수 {#input-parameters}
 

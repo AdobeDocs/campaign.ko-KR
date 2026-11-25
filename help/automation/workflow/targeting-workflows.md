@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '2258'
-ht-degree: 5%
+source-wordcount: '2646'
+ht-degree: 3%
 ---
 # 타겟팅 워크플로 만들기{#target-data}
 
@@ -46,11 +46,11 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->타깃팅 활동이 [이 섹션](activities.md)에 자세히 설명되어 있습니다.
+>타겟팅 활동에 대해서는 [워크플로우 활동 정보](activities.md)에 자세히 설명되어 있습니다.
 
 타깃팅 워크플로는 Adobe Campaign 트리의 **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** 노드 또는 홈 페이지의 **[!UICONTROL Profiles and Targets > Targeting workflows]** 메뉴를 통해 만들고 편집할 수 있습니다.
 
-![](assets/target_wf.png)
+![프로필 및 대상 아래의 클라이언트 콘솔에 있는 타깃팅 워크플로 목록(기존 워크플로 및 만들기 버튼 사용)입니다.](assets/target_wf.png)
 
 캠페인 프레임워크 내의 타겟팅 워크플로우는 모든 캠페인 워크플로우와 함께 저장됩니다.
 
@@ -76,17 +76,17 @@ ht-degree: 5%
 
 예를 들어 수신자(**recipient**)의 경우 다음 필터링 차원을 사용할 수 있습니다.
 
-![](assets/query-filter-dimensions.png)
+![대상 차원 수신자와 필터링 차원 목록이 열려 있는 쿼리 대화 상자가 열리고 받는 사람 게재 로그가 표시됩니다.](assets/query-filter-dimensions.png)
 
 **방문자**&#x200B;의 경우 다음 필터링 차원이 목록에 포함됩니다.
 
-![](assets/query-filter-dimension-2.png)
+![타깃팅 차원 방문자와 필터링 차원 목록이 열려 있는 쿼리 대화 상자에 방문자 구독이 표시됩니다.](assets/query-filter-dimension-2.png)
 
 ## 쿼리 만들기 {#create-queries}
 
 ### 추가 데이터 작업 {#select-data}
 
-**[!UICONTROL Query]** 활동을 사용하면 대상 모집단을 만들 기본 데이터를 선택할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](query.md#creating-a-query)을 참조하십시오.
+**[!UICONTROL Query]** 활동을 사용하면 대상 모집단을 만들 기본 데이터를 선택할 수 있습니다. 자세한 내용은 [쿼리 만들기](query.md#creating-a-query)를 참조하세요.
 
 또한 다음 활동을 사용하여 데이터베이스에서 데이터를 쿼리하고 구체화할 수 있습니다. [증분 쿼리](incremental-query.md), [목록 읽기](read-list.md).
 
@@ -98,19 +98,19 @@ ht-degree: 5%
 
 **[!UICONTROL Edit additional data...]** 링크를 사용하여 추가된 데이터를 보고 수정하거나 추가할 수 있습니다.
 
-![](assets/edit-additional-data.png)
+![추가 데이터 편집 링크가 보조 정보 아래에 강조 표시된 쿼리 활동.](assets/edit-additional-data.png)
 
 이전에 정의한 출력 열에 데이터를 추가하려면 사용 가능한 필드 목록에서 해당 데이터를 선택합니다. 새 출력 열을 만들려면 **[!UICONTROL Add]** 아이콘을 클릭한 다음 필드를 선택하고 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭합니다.
 
-![](assets/query_add_an_output_column.png)
+![사용 가능한 필드, 출력 열 및 [추가] 아이콘이 강조 표시되어 출력 열을 만드는 추가 열 창](assets/query_add_an_output_column.png)
 
 **고급 선택** 단추를 클릭합니다.
 
-![](assets/query_add_an_output_column_formula.png)
+![맨 아래에 고급 선택 단추가 있는 받는 사람 필드를 나열하는 식 창을 선택하십시오.](assets/query_add_an_output_column_formula.png)
 
 추가할 필드(예: 집계)에 대한 계산 모드를 정의합니다.
 
-![](assets/query_add_aggregate.png)
+![집계 함수에서 프로세스를 선택하고 합계 옵션을 선택한 수식 유형 단계입니다.](assets/query_add_aggregate.png)
 
 **[!UICONTROL Add a sub-item]** 옵션을 사용하면 계산된 데이터를 컬렉션에 첨부할 수 있습니다. 이렇게 하면 컬렉션에서 추가 데이터를 선택하거나 컬렉션 요소에 대한 집계 계산을 정의할 수 있습니다.
 
@@ -122,23 +122,23 @@ ht-degree: 5%
 
 수집된 추가 데이터를 사용하면 데이터베이스에서 데이터 필터링을 세분화할 수 있습니다. 이렇게 하려면 **[!UICONTROL Refine the target using additional data...]** 링크를 클릭합니다. 이렇게 하면 추가된 데이터를 오버 필터링할 수 있습니다.
 
-![](assets/wf_add_data_use_additional_data.png)
+![추가 데이터 링크를 강조 표시하여 대상 세분화를 통해 쿼리 활동.](assets/wf_add_data_use_additional_data.png)
 
 ### 데이터 균질화 {#homogenize-data}
 
 **[!UICONTROL Union]** 또는 **[!UICONTROL Intersection]** 유형 활동에서는 데이터를 일관되게 유지하기 위해 공유된 추가 데이터만 유지하도록 선택할 수 있습니다. 이 경우 이 활동의 임시 출력 작업 테이블에는 모든 인바운드 세트에서 찾은 추가 데이터만 포함됩니다.
 
-![](assets/use-common-add-data-only.png)
+![일반 추가 데이터만 사용 옵션이 강조 표시되고 선택된 교차 활동.](assets/use-common-add-data-only.png)
 
 ### 추가 데이터로 조정 {#reconciliation-with-additional-data}
 
 데이터 조정 단계(**[!UICONTROL Union]**, **[!UICONTROL Intersection]** 등 활동) 동안 추가 열에서 데이터 조정에 사용할 열을 선택할 수 있습니다. 이렇게 하려면 열 선택에 대한 조정을 구성하고 기본 세트를 지정합니다. 그런 다음 다음 다음 예와 같이 창의 아래쪽 열에 있는 열을 선택합니다.
 
-![](assets/select-column-and-join.png)
+![선택한 열, 기본 집합 및 조인 목록에 사용된 열이 있는 교차 활동.](assets/select-column-and-join.png)
 
 표현식을 선택하고 확인합니다.
 
-![](assets/select-column-and-join-2.png)
+![계정 번호가 선택된 타겟팅 차원의 필드를 나열하는 교차의 식 창을 선택하십시오.](assets/select-column-and-join-2.png)
 
 
 ### 하위 집합 만들기 {#create-subsets}
@@ -147,7 +147,7 @@ ht-degree: 5%
 
 필터링 조건으로 추가 데이터만 사용하거나 대상 데이터 외에 다른 데이터를 사용하여 대상을 여러 하위 집합으로 분할할 수 있습니다. **Federated Data Access** 옵션을 구입한 경우 외부 데이터를 사용할 수도 있습니다.
 
-이 작업에 대한 자세한 정보는 [이 섹션](#create-subsets-using-the-split-activity)을 참조하십시오.
+자세한 내용은 [분할 활동을 사용하여 하위 집합 만들기](#create-subsets-using-the-split-activity)를 참조하세요.
 
 ## 세그먼트 데이터 {#segment-data}
 
@@ -155,7 +155,7 @@ ht-degree: 5%
 
 결합 활동을 사용하면 여러 활동의 결과를 하나의 전환 내에서 결합할 수 있습니다. 세트가 반드시 동질적일 필요는 없습니다.
 
-![](assets/union-keys-only.png)
+![조정 옵션 키만 사용하는 결합 활동, 모든 공유 열 및 열 선택](assets/union-keys-only.png)
 
 다음 데이터 조정 옵션을 사용할 수 있습니다.
 
@@ -175,7 +175,7 @@ ht-degree: 5%
 
   기본 세트(소스 데이터가 포함된 세트)를 선택한 다음 가입에 사용할 열을 선택합니다.
 
-  ![](assets/join-reconciliation-options.png)
+  ![선택 열, 기본 집합 및 조인 열 계정 및 원본이 선택된 유니온 활동.](assets/join-reconciliation-options.png)
 
   >[!CAUTION]
   >
@@ -187,11 +187,11 @@ ht-degree: 5%
 
   레코드는 목록의 첫 번째 인바운드 전환의 모집단에서 먼저 가져온 다음 최대값에 도달하지 않은 경우 두 번째 인바운드 전환의 모집단에서 가져옵니다.
 
-  ![](assets/join_limit_nb_priority.png)
+  ![생성된 모집단의 크기 및 인바운드 모집단의 우선 순위를 제한하고 유니온 활동.](assets/join_limit_nb_priority.png)
 
 ### 관절 데이터 추출(교차) {#extract-joint-data--intersection-}
 
-![](assets/traitements.png)
+![모집단 A, B, C와 함께 유니온, 교집합 및 제외가 적용되는 영역을 표시하는 윤곽선이 있습니다.](assets/traitements.png)
 
 교차를 사용하면 인바운드 전환 모집단에서 공유한 줄만 복구할 수 있습니다. 이 활동은 유니온 활동과 같이 구성해야 합니다.
 
@@ -207,7 +207,7 @@ ht-degree: 5%
 
 데이터 조정은 식별자, 축 변경 또는 조인을 통해 수행됩니다.
 
-![](assets/exclusion-add-rule.png)
+![예외 정의 대화 상자가 열려 있는 제외 활동(제외 집합 및 차원 옵션 변경 포함)입니다.](assets/exclusion-add-rule.png)
 
 ### 분할 활동을 사용하여 하위 집합 만들기 {#create-subsets-using-the-split-activity}
 
@@ -221,15 +221,15 @@ ht-degree: 5%
 1. **[!UICONTROL General]** 탭에서 원하는 옵션을 선택합니다. **[!UICONTROL Use data from the target and additional data]**, **[!UICONTROL Use the additional data only]** 또는 **[!UICONTROL Use external data]**.
 1. **[!UICONTROL Use data from the target and additional data]** 옵션을 선택하면 타겟팅 차원을 사용하여 인바운드 전환에서 전달하는 모든 데이터를 사용할 수 있습니다.
 
-   ![](assets/split-general-tab-options.png)
+   ![대상 및 추가 데이터 사용 옵션과 필터링 차원 목록이 있는 작업 분할 일반 탭입니다.](assets/split-general-tab-options.png)
 
    서브셋이 생성되면 앞서 언급된 필터링 파라미터가 사용된다.
 
    필터링 조건을 정의하려면 **[!UICONTROL Add a filtering condition on the inbound population]** 옵션을 선택하고 **[!UICONTROL Edit...]** 링크를 클릭합니다. 그런 다음 이 하위 집합을 만들기 위한 필터링 조건을 지정합니다.
 
-   ![](assets/split-subset-config-all-data.png)
+   ![선택한 인바운드 모집단 및 편집 링크에서 필터링 조건을 추가하여 활동 하위 집합 분할 탭입니다.](assets/split-subset-config-all-data.png)
 
-   **[!UICONTROL Split]** 활동에서 필터링 조건을 사용하여 대상을 다른 모집단으로 분할하는 방법을 보여 주는 예는 [이 섹션](cross-channel-delivery-workflow.md)에 설명되어 있습니다.
+   **[!UICONTROL Split]** 활동에서 필터링 조건을 사용하여 대상을 다른 모집단으로 분할하는 방법을 보여 주는 예는 [크로스 채널 게재 워크플로우](cross-channel-delivery-workflow.md)에 설명되어 있습니다.
 
    **[!UICONTROL Label]** 필드를 사용하면 새로 만든 하위 집합에 아웃바운드 전환과 일치하는 이름을 지정할 수 있습니다.
 
@@ -237,7 +237,7 @@ ht-degree: 5%
 
    필요한 경우 만들려는 각 하위 세트에 대해 개별적으로 타겟팅 및 필터링 차원을 변경할 수 있습니다. 이렇게 하려면 하위 집합의 필터링 조건을 편집하고 **[!UICONTROL Use a specific filtering dimension]** 옵션을 선택하십시오.
 
-   ![](assets/split-subset-config-specific-filtering.png)
+   ![특정 필터링 차원 사용 옵션이 선택된 상태로 타겟팅 및 필터링 차원 위에 있는 쿼리 대화 상자.](assets/split-subset-config-specific-filtering.png)
 
 1. **[!UICONTROL Use the additional data only]** 옵션을 선택하면 하위 집합 필터링에 추가 데이터만 제공됩니다.
 
@@ -247,21 +247,21 @@ ht-degree: 5%
 
 1. **[!UICONTROL Add]** 단추를 클릭하고 필터링 조건을 정의합니다.
 
-   ![](assets/wf_split_add_a_tab.png)
+   ![활동 하위 집합 분할 탭을 선택하고 [추가] 단추를 강조 표시하여 [하위 집합] 옆에 새 하위 집합 탭을 만듭니다.](assets/wf_split_add_a_tab.png)
 
 1. 활동의 **[!UICONTROL General]** 탭에서 필터링 차원을 정의합니다(위 참조). 기본적으로 모든 하위 집합에 적용됩니다.
 
-   ![](assets/wf_split_edit_filtering.png)
+   ![하위 집합 A, B 및 C 탭과 하위 집합 B에 대한 필터링 조건 옵션을 표시하는 활동 하위 집합 분할 탭](assets/wf_split_edit_filtering.png)
 
 1. 필요한 경우 각 하위 세트에 대한 필터링 차원을 개별적으로 변경할 수 있습니다. 이렇게 하면 모든 골드 카드 소유자에 대한 세트를 작성할 수 있습니다. 하나는 최신 뉴스레터를 클릭한 모든 수신자에 대한 세트이고 다른 하나는 지난 30일 이내에 매장 구매를 한 18~25세의 모든 수신자에 대한 세트로서, 모두 동일한 분할 활동을 사용합니다. 이렇게 하려면 **[!UICONTROL Use a specific filtering dimension]** 옵션을 선택하고 데이터 필터링 컨텍스트를 선택하십시오.
 
 하위 집합이 만들어지면 기본적으로 분할 활동은 하위 집합이 있는 수만큼 출력 전환을 표시합니다.
 
-![](assets/wf_split_multi_outputs.png)
+![분할 활동에 세 개의 아웃바운드 전환(하위 집합 1, 하위 집합 2 및 하위 집합 3)이 있는 워크플로우에서 활동을 구분합니다.](assets/wf_split_multi_outputs.png)
 
 이러한 모든 하위 집합을 단일 출력 전환으로 그룹화할 수 있습니다. 이 경우 각 하위 집합에 대한 링크는 예를 들어 세그먼트 코드에 표시됩니다. 이렇게 하려면 **[!UICONTROL Generate all subsets in the same table]** 옵션을 선택하십시오.
 
-![](assets/wf_split_single_output.png)
+![같은 테이블에 있는 모든 하위 집합 생성 옵션이 선택되어 있고 강조 표시된 작업 분할 일반 탭입니다.](assets/wf_split_single_output.png)
 
 예를 들어 단일 게재 활동을 배치하고 각 수신자 세트의 세그먼트 코드를 기반으로 게재 콘텐츠를 개인화할 수 있습니다.
 
@@ -306,7 +306,7 @@ Adobe Campaign에서는 이러한 작업을 구현하기 위해 다음을 제공
 
 ### 데이터 강화 및 수정 {#enrich-and-modify-data}
 
-필터링 차원을 사용하면 타겟팅 차원 외에도 수집된 데이터의 특성을 지정할 수 있습니다. [이 섹션](targeting-workflows.md#targeting-and-filtering-dimensions)을 참조하십시오.
+필터링 차원을 사용하면 타겟팅 차원 외에도 수집된 데이터의 특성을 지정할 수 있습니다. [차원 타기팅 및 필터링](targeting-workflows.md#targeting-and-filtering-dimensions)을 참조하세요.
 
 식별되고 수집된 데이터는 대상 구성을 최적화하기 위해 보강, 집계 및 조작될 수 있다. 이렇게 하려면 [이 섹션](#segmen-data)에 자세히 설명된 데이터 조작 활동 외에 다음을 사용하십시오.
 

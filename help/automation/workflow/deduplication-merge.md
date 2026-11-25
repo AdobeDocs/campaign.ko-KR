@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 12%
+source-wordcount: '745'
+ht-degree: 10%
 ---
 # 중복 제거 활동의 병합 기능 사용 {#deduplication-merge}
 
@@ -36,7 +36,7 @@ ht-degree: 12%
 
 이 사용 사례에서는 **[!UICONTROL Deduplication]** 활동에서 **[!UICONTROL Merge]** 기능을 사용하는 방법을 설명합니다.
 
-이 기능에 대한 자세한 내용은 [이 섹션](deduplication.md#merging-fields-into-single-record)을 참조하세요.
+이 기능에 대한 자세한 내용은 [필드를 단일 데이터 레코드로 병합](deduplication.md#merging-fields-into-single-record)을 참조하십시오.
 
 **[!UICONTROL Deduplication]** 활동은 데이터 집합에서 중복 행을 제거하는 데 사용됩니다. 이 사용 사례에서는 아래에 표시된 데이터가 이메일 필드를 기반으로 복제됩니다.
 
@@ -57,11 +57,11 @@ ht-degree: 12%
 
 1. 중복 제거에 사용할 조정 필드를 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다. 이 예제에서는 이메일 필드를 기반으로 중복을 제거하려고 합니다.
 
-   ![](assets/uc_merge_edit.png)
+   ![수신자가 선택되고 전자 메일 조정 필드가 선택된 중복 제거 대상 차원 창.](assets/uc_merge_edit.png)
 
 1. **[!UICONTROL Advanced parameters]** 링크를 클릭한 다음 **[!UICONTROL Merge records]** 및 **[!UICONTROL Use several record merging criteria]** 옵션을 활성화합니다.
 
-   ![](assets/uc_merge_advanced_parameters.png)
+   ![레코드 병합 및 여러 레코드 병합 기준 사용 옵션이 있는 중복 제거 매개 변수 대화 상자가 선택되어 있습니다.](assets/uc_merge_advanced_parameters.png)
 
 1. **[!UICONTROL Merge]** 탭이 **[!UICONTROL Deduplication]** 구성 화면에 추가됩니다. 이 탭을 사용하여 중복 제거를 수행할 때 병합할 데이터를 지정합니다.
 
@@ -78,31 +78,31 @@ ht-degree: 12%
 
 1. **[!UICONTROL Merge]** 탭을 열고 **[!UICONTROL Add]** 단추를 클릭합니다.
 
-   ![](assets/uc_merge_add.png)
+   ![중복 제거 활동의 병합 탭을 병합된 데이터의 빈 목록 위에 있는 추가 단추와 연결합니다.](assets/uc_merge_add.png)
 
 1. 병합할 필드 그룹의 식별자와 레이블을 지정합니다.
 
-   ![](assets/uc_merge_identifier.png)
+   ![병합할 데이터 선택 마법사의 식별자 및 레이블 단계에서 식별자 이름과 레이블 이름을 입력했습니다.](assets/uc_merge_identifier.png)
 
 1. 고려할 레코드를 선택하는 조건을 나타냅니다.
 
-   ![](assets/uc_merge_filter.png)
+   ![병합할 레코드를 선택할 수 있도록 이름이 비어 있지 않고 성이 비어 있지 않은 필터 단계.](assets/uc_merge_filter.png)
 
 1. 가장 최근 이름을 선택하려면 마지막 수정 날짜를 기준으로 정렬합니다.
 
-   ![](assets/uc_merge_sort.png)
+   ![가장 최근 레코드를 선택하기 위해 수정 날짜가 내림차순으로 정렬된 정렬 단계입니다.](assets/uc_merge_sort.png)
 
 1. 병합할 필드를 선택합니다. 이 예제에서는 이름과 성 필드를 유지하려고 합니다.
 
-   ![](assets/uc_merge_keep.png)
+   ![성과 이름이 출력 열로 선택된 상태로 유지할 필드.](assets/uc_merge_keep.png)
 
 1. 필드는 병합할 데이터 집합에 추가되고 새 요소는 워크플로 스키마에 추가됩니다.
 
    휴대폰 및 휴대폰 필드를 구성하려면 다음 단계를 반복하십시오.
 
-   ![](assets/dedup8.png)
+   ![병합된 그룹 이름, 휴대폰 및 별칭과 사용 가능한 조건 목록을 표시하는 병합 탭](assets/dedup8.png)
 
-   ![](assets/dedup9.png)
+   ![모바일, 이름 및 휴대폰 노드를 사용한 중복 제거의 생성된 데이터 구조를 보여 주는 스키마 탭](assets/dedup9.png)
 
 ## 결과 {#results}
 

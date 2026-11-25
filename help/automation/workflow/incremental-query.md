@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '409'
 ht-degree: 3%
 ---
 # 증분 쿼리{#incremental-query}
@@ -54,15 +54,15 @@ ht-degree: 3%
 
    **[!UICONTROL Schedule editing wizard]** 창에서 빈도 유형, 이벤트 반복 및 이벤트 유효 기간을 구성할 수 있습니다.
 
-   ![](assets/s_user_segmentation_wizard_11.png)
+   ![일정 편집 마법사: 주별 빈도, 목요일 선택, 유효 시작 및 종료 날짜가 포함된 유효 기간.](assets/s_user_segmentation_wizard_11.png)
 
 1. **[!UICONTROL Finish]**&#x200B;을(를) 클릭하여 일정을 저장합니다.
 
-   ![](assets/s_user_segmentation_wizard_valid.png)
+   ![일정 설명, 시작 시간 목록 및 완료 단추가 있는 편집 예약 마법사 요약 페이지입니다.](assets/s_user_segmentation_wizard_valid.png)
 
 1. **[!UICONTROL Scheduling & History]** 탭의 아래 섹션에서 내역에서 고려할 일수를 선택할 수 있습니다.
 
-   ![](assets/edit_request_inc.png)
+   ![계획 실행이 선택되어 있고 일 수 기록 필드가 10으로 설정된 증분 쿼리 예약 및 기록 탭](assets/edit_request_inc.png)
 
    * **[!UICONTROL History in days]**
 

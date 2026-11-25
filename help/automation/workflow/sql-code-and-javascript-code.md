@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 9%
+source-wordcount: '436'
+ht-degree: 8%
 ---
 # SQL 코드 및 JavaScript 코드{#sql-code-and-javascript-code}
 
@@ -36,7 +36,7 @@ ht-degree: 9%
 
 **[!UICONTROL SQL code]** 활동은 SQL 스크립트를 실행합니다. 스크립트는 JST 템플릿입니다.
 
-![](assets/sql_code.png)
+레이블 필드, SQL 스크립트 편집기 및 오류 처리 옵션이 있는 ![SQL 코드 작업 대화 상자](assets/sql_code.png)
 
 * **[!UICONTROL Script]**
 
@@ -79,7 +79,7 @@ VACUUM FULL, REINDEX, CREATE INDEX, DROP INDEX와 같은 다른 방법도 데이
 
 ### JavaScript 코드 {#js-code-desc}
 
-![](assets/javascript_code.png)
+레이블, 다음 시간 이후의 실행 중지 및 스크립트 필드와 오류 처리 옵션이 있는 ![JavaScript 코드 활동 대화 상자](assets/javascript_code.png)
 
 * **[!UICONTROL Script]**: 편집기의 중앙 영역에 실행할 스크립트가 있습니다.
 
@@ -87,7 +87,7 @@ VACUUM FULL, REINDEX, CREATE INDEX, DROP INDEX와 같은 다른 방법도 데이
 
 ### 고급 JavaScript 코드 {#adv-js-code-desc}
 
-![](assets/advanced_javascript_code.png)
+![첫 번째 호출 및 다음 호출 스크립트 편집기와 확인 전환이 있는 고급 JavaScript 코드 활동](assets/advanced_javascript_code.png)
 
 * **[!UICONTROL First call]**: 편집기의 첫 번째 영역에 첫 번째 호출 중에 실행할 스크립트가 있습니다.
 * **[!UICONTROL Next calls]**: 편집기의 두 번째 영역에 다음 호출 중에 실행할 스크립트가 있습니다.

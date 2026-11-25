@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 4%
+source-wordcount: '175'
+ht-degree: 3%
 ---
 # 시작 및 종료{#start-and-end}
 
@@ -32,14 +32,14 @@ ht-degree: 4%
 
   워크플로우 실행은 인바운드 전환 및 시작 유형 활동 없이 활동으로 시작합니다.
 
-  ![](assets/s_user_segmentation_start_stop.png)
+  ![시작 활동, 게재, 승인, 게재 제어 및 두 개의 종료 활동이 있는 워크플로(승인 결과당 하나)](assets/s_user_segmentation_start_stop.png)
 
 * **[!UICONTROL End]**
 
   진행 중인 모든 작업을 중단하도록 **[!UICONTROL End]** 활동을 구성할 수 있습니다. 이렇게 하려면 활동을 두 번 클릭하여 속성을 표시한 다음 적절한 옵션을 선택합니다.
 
-  ![](assets/s_user_segmentation_end.png)
+  ![진행 중인 모든 작업 중지 옵션이 선택된 상태로 활동 속성을 종료합니다.](assets/s_user_segmentation_end.png)
 
   종료 활동이 활성화되면 작업 테이블의 데이터가 자동으로 삭제됩니다. 필요하지 않고 불필요한 로드를 방지하기 위해 마지막 활동 출력에서 전환을 비활성화하도록 선택할 수 있습니다. 예를 들어 게재 출력에서 프로세스가 예약되지 않은 경우 다음과 같이 관련 옵션의 선택을 취소합니다.
 
-  ![](assets/s_advuser_delivery_option_no_output.png)
+  ![아웃바운드 전환 생성 옵션이 있는 게재 활동 속성이 지워졌습니다.](assets/s_advuser_delivery_option_no_output.png)

@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2271'
 ht-degree: 4%
 ---
 # 기술 워크플로{#about-technical-workflows}
@@ -51,17 +51,17 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 
 기본적으로 기술 워크플로우는 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** 노드의 하위 폴더에서 사용할 수 있습니다.
 
-![](assets/navtree.png){width="50%" zoomable="yes"}
+![관리 > 프로덕션이 확장되고 기술 워크플로우 폴더가 선택된 탐색기 트리](assets/navtree.png){width="50%" zoomable="yes"}
 
 >[!NOTE]
 >
->* 각 모듈과 함께 설치된 기술 워크플로우 목록은 [이 섹션](#list-technical-workflows)에서 사용할 수 있습니다.
+>* 각 모듈과 함께 설치된 기술 워크플로우 목록은 [기본 제공 기술 워크플로우](#list-technical-workflows)에서 사용할 수 있습니다.
 >
 >* 메시지 센터 추가 기능과 관련된 기술 워크플로는 기본적으로 **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** 노드에 저장됩니다.
 
 **[!UICONTROL Campaign process]** 하위 폴더는 캠페인 내에서 프로세스를 실행하는 데 필요한 워크플로(작업 알림, 재고 관리, 비용 계산 등)를 중앙 집중화합니다.
 
-![](assets/campaign-processes-wf.png)
+![기술 워크플로우 트리에서 워크플로우 목록 및 다이어그램이 있는 캠페인 프로세스 폴더를 선택했습니다.](assets/campaign-processes-wf.png)
 
 ## 기술 워크플로우 관리 및 만들기 {#manage-tech-workflows}
 
@@ -92,7 +92,7 @@ Adobe Campaign에는 기술 워크플로우가 내장되어 있습니다. 서버
 | **이벤트 제거**(webAnalyticsPurgeWebEvents) | 웹 분석 커넥터 | 이 워크플로우를 사용하면 수명 필드에 구성된 기간에 따라 데이터베이스 필드에서 모든 이벤트를 삭제할 수 있습니다. |
 | **Adobe Experience Cloud로 대상 내보내기**(exportSharedAudience) | Adobe Experience Cloud와 통합 | 이 워크플로우에서는 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상은 사용하는 다른 Adobe CX Enterprise 솔루션에서 사용할 수 있습니다. |
 | **예측**(예측) | 기본적으로 설치됨 | 이 워크플로우는 임시 캘린더에 저장된 게재를 분석합니다(임시 로그 생성). 기본적으로 매일 오전 1시에 트리거됩니다. |
-| **전체 집계 계산(propositionrcp 큐브)**(agg_nmspropositionrcp_full) | 오퍼 엔진(상호 작용) | 이 워크플로우는 오퍼 제안 큐브에 대한 전체 집계를 업데이트합니다. 기본적으로 매일 오전 6시에 트리거됩니다. 이 집계는 채널, 게재, 마케팅 오퍼 및 날짜 차원을 캡처합니다. 그런 다음 오퍼 제안 큐브를 사용하여 오퍼를 기반으로 보고서를 생성합니다. [이 섹션](../../v8/reporting/gs-cubes.md)에서 큐브에 대해 자세히 알아보세요. |
+| **전체 집계 계산(propositionrcp 큐브)**(agg_nmspropositionrcp_full) | 오퍼 엔진(상호 작용) | 이 워크플로우는 오퍼 제안 큐브에 대한 전체 집계를 업데이트합니다. 기본적으로 매일 오전 6시에 트리거됩니다. 이 집계는 채널, 게재, 마케팅 오퍼 및 날짜 차원을 캡처합니다. 그런 다음 오퍼 제안 큐브를 사용하여 오퍼를 기반으로 보고서를 생성합니다. 큐브에 대한 자세한 내용은 [Adobe Campaign 분석 보고서 시작](../../v8/reporting/gs-cubes.md)을 참조하세요. |
 | **변환된 연락처 식별**(webAnalyticsFindConverted) | 웹 분석 커넥터 | 이 워크플로우는 리마케팅 캠페인 후 구매를 완료한 사이트 방문자를 색인화합니다. 이 워크플로우에서 복구한 데이터는 리마케팅 효율성 보고서에서 액세스할 수 있습니다(이 페이지 참조). |
 | **Adobe Experience Cloud에서 대상 가져오기**(importSharedAudience) | Adobe Experience Cloud와 통합 | 이 워크플로우를 통해 다른 CX Enterprise 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져올 수 있습니다. |
 | **캠페인의 게재에 대한 작업**(deliveryMgt) | 기본적으로 설치됨 | 이 워크플로우는 승인된 게재를 트리거하고 외부 게재에 대한 서비스 공급자의 사후 처리를 시작합니다. 승인 알림과 미리 알림도 보냅니다. |

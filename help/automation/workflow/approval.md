@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '609'
 ht-degree: 0%
 ---
 # 승인{#approval}
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 * 단일 연산자를 선택하려면 **[!UICONTROL Assignment type]** 필드에서 **[!UICONTROL Operator]** 값을 선택하고 **[!UICONTROL Assignee]** 필드의 드롭다운 목록에서 관련 연산자를 선택합니다.
 
-  ![](assets/s_advuser_validation_box_assign.png)
+  ![할당 유형 목록이 열려 있고 연산자가 강조 표시된 승인 활동](assets/s_advuser_validation_box_assign.png)
 
   >[!CAUTION]
   >
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 * 승인 연산자를 필터링할 쿼리를 정의할 수 있습니다. 이렇게 하려면 **[!UICONTROL Assignment type]** 필드에서 **[!UICONTROL Filter]** 값을 선택하고 **[!UICONTROL Advanced parameters...]** 링크를 클릭하여 다음 예제와 같이 필터링 조건을 정의합니다.
 
-  ![](assets/s_advuser_validation_box_filter.png)
+  ![승인 활동이 필터링으로 설정되었으며, 고급 매개 변수 필터링 조건이 있습니다. 여기서 Department는 값과 같음](assets/s_advuser_validation_box_filter.png)
 
 1회 승인 시 운영자 선택에 해당하는 전환이 활성화되고 작업이 종료됨: 다른 운영자는 회신할 수 없음.
 
@@ -69,13 +69,13 @@ ht-degree: 0%
 
 **승인** 유형 작업은 **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** 노드에서 액세스할 수 있습니다. 운영자는 이 보기를 통해 승인 양식에 직접 액세스할 수 있습니다.
 
-![](assets/s_advuser_validation_from_console.png)
+![작업 승인 창에 메시지, 선택 예 또는 아니요 및 승인 버튼이 표시된 승인 보류 목록](assets/s_advuser_validation_from_console.png)
 
 ## 속성 {#properties}
 
 사용자 지정 변수는 검토자에게 보내는 메시지에 사용할 수 있습니다. 메시지 제목이나 본문에 삽입할 수 있습니다.
 
-![](assets/edit_validation.png)
+![활동 및 이벤트 변수를 제목 필드에 삽입하는 데 사용되는 개인화 메뉴를 사용하는 승인 활동](assets/edit_validation.png)
 
 이 **[!UICONTROL Title]** 필드에는 메시지의 제목이 포함됩니다. 보낸 전자 메일 메시지의 제목입니다. 제목과 메시지 본문은 JavaScript 템플릿이므로 워크플로우의 컨텍스트에 따라 계산된 값을 포함할 수 있습니다.
 

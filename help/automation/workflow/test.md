@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 4%
+source-wordcount: '210'
+ht-degree: 3%
 ---
 # 테스트{#test}
 
@@ -30,11 +30,11 @@ ht-degree: 4%
 
 조건은 &#39;true&#39; 또는 &#39;false&#39;로 평가해야 하는 JavaScript 표현식입니다. 식을 입력하려면 조건 이름 오른쪽에 있는 아이콘을 클릭한 다음 **[!UICONTROL Edit...]**&#x200B;을(를) 선택합니다.
 
-![](assets/edit_test.png)
+![편집 옵션에서 개인화 메뉴를 열고 기본 연결 사용 상자를 사용하여 활동 조건 표를 테스트합니다](assets/edit_test.png)
 
 워크플로 JavaScript을 통해 액세스할 수 있는 응용 프로그램 서버의 모든 추가 JavaScript 함수 및 SOAP 메서드에 대한 자세한 내용은 [JSAPI 설명서](https://experienceleague.adobe.com/ko/tools/campaign-api){target="_blank"}를 참조하십시오.
 
-이 편집기에서 직접 변수를 삽입할 수도 있습니다. 변수를 사용하여 작업하는 방법에 대한 자세한 내용은 [이 섹션](javascript-scripts-and-templates.md#variables)을 참조하세요.
+이 편집기에서 직접 변수를 삽입할 수도 있습니다. 변수를 사용하여 작업하는 방법에 대한 자세한 내용은 [변수](javascript-scripts-and-templates.md#variables)를 참조하세요.
 
 활동 속성 편집 창에서 조건을 추가, 삭제 또는 정렬할 수 있지만 전환에서 수정할 수도 있습니다.
 

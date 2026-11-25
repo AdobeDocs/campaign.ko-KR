@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 6%
+source-wordcount: '146'
+ht-degree: 4%
 ---
 # 인바운드 SMS{#inbound-sms}
 
@@ -41,7 +41,7 @@ ht-degree: 6%
 
 ## 속성 {#properties}
 
-![](assets/sms_rec_edit.png)
+![외부 계정 필드, 처리할 필터 메시지 및 스크립트 영역을 사용하는 인바운드 SMS 활동.](assets/sms_rec_edit.png)
 
 **인바운드 SMS** 활동의 첫 번째 탭에서는 SMS 메시지의 라우팅 매개 변수를 입력하고 각 메시지를 받을 때 실행할 스크립트를 입력할 수 있습니다. 두 번째 탭에서는 활동에 일정을 할당할 수 있고 세 번째 탭에서는 활동의 만료 조건을 정의할 수 있습니다.
 
@@ -49,7 +49,7 @@ ht-degree: 6%
 1. **[!UICONTROL Script]**
 1. **[!UICONTROL Schedule]**
 
-   ![](assets/sms_rec_edit_2.png)
+   ![플랜 실행이 확인된 인바운드 SMS 일정 탭과 SMS를 받는 즉시 일정 중지](assets/sms_rec_edit_2.png)
 
 1. **[!UICONTROL Expiration]**
 

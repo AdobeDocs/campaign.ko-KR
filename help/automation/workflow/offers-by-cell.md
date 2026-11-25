@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 7%
+source-wordcount: '173'
+ht-degree: 6%
 ---
 # 셀별 오퍼{#offers-by-cell}
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 
 **[!UICONTROL Offers by cell]** 활동을 사용하면 쿼리의 인바운드 모집단을 여러 세그먼트에 분산하고 이러한 각 세그먼트에 대해 제공할 오퍼를 지정할 수 있습니다.
 
-이 활동은 **상호 작용**&#x200B;에서만 사용할 수 있습니다. [이 섹션](../../v8/interaction/interaction.md)에서 오퍼 관리에 대해 자세히 알아보세요.
+이 활동은 **상호 작용**&#x200B;에서만 사용할 수 있습니다. [캠페인 상호 작용 - 오퍼 관리](../../v8/interaction/interaction.md)에서 오퍼 관리에 대해 자세히 알아보세요.
 
 방법은 다음과 같습니다.
 
@@ -47,6 +47,6 @@ ht-degree: 7%
    * 사용 가능한 필터링 및 제한 규칙을 사용하여 하위 집합 모집단을 지정합니다.
    * 그런 다음 하위 세트에 제공할 오퍼를 선택합니다. 사용 가능한 오퍼는 이전 단계에서 선택한 오퍼 공간에 적합한 오퍼입니다.
 
-     ![](assets/int_offer_per_cell1.png)
+     ![셀별 오퍼의 하위 집합 창: 필터링 및 레코드 제한 옵션, 오퍼 공간 및 오퍼 목록.](assets/int_offer_per_cell1.png)
 
 1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [크로스 채널 게재](cross-channel-deliveries.md)를 참조하세요.

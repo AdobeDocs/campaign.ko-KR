@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '100'
 ht-degree: 3%
 ---
 # 경고{#alert}
@@ -32,6 +32,6 @@ ht-degree: 3%
 
 **Alert** 활동이 연산자 그룹에 메시지를 보냅니다. 승인 활동과 동일하게 운영되나 이 경우 어떠한 반응도 예상되지 않는다.
 
-![](assets/edit_alerte.png)
+![할당 유형 그룹, 할당자, 메시지 제목 및 본문이 있는 경고 활동.](assets/edit_alerte.png)
 
 경고는 영구적이지 않으므로 클라이언트 콘솔에서 볼 수 없습니다. 알림을 받으려면 할당된 그룹의 운영자에게 전체 이메일 주소가 있어야 합니다. 이 활동의 구성은 **승인**&#x200B;의 구성과 유사합니다. 운영자에게 경고하는 데 사용되는 기본 게재 템플릿은 &#39;alertAssignee&#39;입니다.

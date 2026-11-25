@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1729'
 ht-degree: 1%
 ---
 # 보강{#enrichment}
@@ -36,24 +36,24 @@ ht-degree: 1%
 
 **[!UICONTROL Enrichment]** 활동을 사용하면 프로필 목록에 정보를 추가하고 기존 테이블에 대한 링크를 추가할 수 있습니다(새 조인 만들기). 데이터베이스에 프로필이 있는 조정 기준도 정의할 수 있습니다.
 
-![](assets/enrichment_design.png)
+![상위 1000개 활동을 제공하는 3개의 뉴스레터 및 레이블 서비스와 같은 데이터 보강 활동이 포함된 워크플로 다이어그램입니다.](assets/enrichment_design.png)
 
 ## 정의 {#definitions}
 
 데이터 보강 활동을 사용하려면 데이터를 추가할 때 사용할 수 있는 다양한 옵션에 익숙해야 합니다.
 
-![](assets/enrichment_edit.png)
+![데이터 보강 활동 데이터 추가 링크를 열어 추가할 5가지 데이터 유형으로 추가 데이터 마법사를 엽니다.](assets/enrichment_edit.png)
 
 **[!UICONTROL Data linked to the filtering dimension]** 옵션을 사용하면 다음에 액세스할 수 있습니다.
 
 * 필터링 차원의 데이터: 작업 테이블 데이터에 액세스
 * 필터링 차원에 연결된 데이터: 작업 테이블에 연결된 데이터에 액세스
 
-![](assets/wf_enrich_linkoptions.png)
+![필터링 차원의 데이터 및 필터링 차원 옵션에 연결된 데이터가 있는 페이지를 추가할 필드를 선택하십시오.](assets/wf_enrich_linkoptions.png)
 
 **[!UICONTROL A link]** 옵션을 사용하면 데이터베이스의 모든 테이블에 조인을 만들 수 있습니다.
 
-![](assets/wf_enrich_linkstype.png)
+![컬렉션 정의가 선택된 네 개의 링크 형식과 링크 대상 섹션이 나열된 링크 정의 페이지입니다.](assets/wf_enrich_linkstype.png)
 
 링크에는 네 가지 유형이 있습니다.
 
@@ -83,27 +83,27 @@ ht-degree: 1%
 
 **[!UICONTROL Add data]** 링크를 클릭하고 추가할 데이터 형식을 선택합니다. 제공되는 데이터 유형 목록은 플랫폼에 설치된 모듈 및 옵션에 따라 다릅니다. 최소 구성에서는 항상 필터링 차원에 연결된 데이터와 링크를 추가할 수 있습니다.
 
-![](assets/enrichment_edit.png)
+![데이터 보강 활동 데이터 추가 링크를 열어 추가할 5가지 데이터 유형으로 추가 데이터 마법사를 엽니다.](assets/enrichment_edit.png)
 
 아래 예에서 아웃바운드 전환은 타겟팅된 프로필의 나이에 대한 정보로 보강됩니다.
 
-![](assets/enrichment_add_data.png)
+![연령 필드가 있는 페이지를 추가할 데이터(타겟팅 차원에서 선택되었고 출력 열에 나열됨)](assets/enrichment_add_data.png)
 
 데이터 보강 활동의 인바운드 전환을 마우스 오른쪽 단추로 클릭하여 데이터 보강 단계 전에 데이터를 조회합니다.
 
-![](assets/enrichment_content_before.png)
+![대상 표시 옵션이 강조 표시된 유니온 2 이후의 전환에 대한 상황에 맞는 메뉴](assets/enrichment_content_before.png)
 
 작업 테이블에는 다음 데이터와 관련 스키마가 포함되어 있습니다.
 
-![](assets/enrichment_content_before_a.png)
+![데이터 보강 전에 작업 테이블 데이터가 있는 모집단과 기본 키 및 타깃팅 차원이 있는 해당 스키마를 봅니다.](assets/enrichment_content_before_a.png)
 
 데이터 보강 단계 출력에서 이 작업을 반복합니다.
 
-![](assets/enrichment_content_after.png)
+![대상 표시 옵션이 강조 표시된 데이터 보강 3 활동 이후의 전환에 대한 상황에 맞는 메뉴](assets/enrichment_content_after.png)
 
 프로필 나이 관련 데이터가 추가되었음을 알 수 있습니다.
 
-![](assets/enrichment_content_after_a.png)
+![추가된 사용 기간 열이 있는 모집단과 사용 기간, 기본 키 및 타깃팅 차원이 있는 보강된 스키마를 봅니다.](assets/enrichment_content_after_a.png)
 
 일치하는 스키마도 보강되었습니다.
 
@@ -111,11 +111,11 @@ ht-degree: 1%
 
 이전에 정의한 추가 데이터를 유지하지 않으려면 **[!UICONTROL Keep all additional data from the main set]** 옵션을 선택 취소합니다. 이 경우 데이터 보강 활동에서 선택한 추가 열만 송신 작업 표에 추가됩니다. 활동 업스트림에 추가된 추가 정보는 저장되지 않습니다.
 
-![](assets/enrichment_edit_without_additional.png)
+기본 집합의 모든 추가 데이터를 지우고 나이(타깃팅 차원)만 나열한 상태로 ![데이터 보강 탭.](assets/enrichment_edit_without_additional.png)
 
 데이터 보강 단계 출력의 데이터 및 스키마는 다음과 같습니다.
 
-![](assets/enrichment_content_after_without_additional.png)
+![주 집합 추가 데이터 없이 데이터 보강 후 나이 열과 스키마가 있는 모집단 보기 창.](assets/enrichment_content_after_without_additional.png)
 
 ## 링크 만들기 {#creating-a-link}
 
@@ -140,19 +140,19 @@ ht-degree: 1%
 
 1. 데이터 보강 활동을 편집하고 **데이터 추가...** 링크를 클릭하여 Country 테이블로 조인을 만듭니다.
 
-   ![](assets/enrichment_edit_after_file_box.png)
+   ![데이터 보강 활동의 데이터 추가 링크를 사용하여 파일 수집기, 데이터 로드(파일) 및 보강이 포함된 워크플로우입니다.](assets/enrichment_edit_after_file_box.png)
 
 1. **[!UICONTROL Link definition]** 옵션을 선택하고 **[!UICONTROL Next]** 단추를 클릭합니다. 만들 링크의 유형을 지정합니다. 이 예제에서는 파일 수신자의 국가를 데이터베이스의 전용 테이블에 있는 사용 가능한 국가 목록에 있는 국가와 조정하려고 합니다. **[!UICONTROL Define a link by searching for a reference among several options]** 옵션을 선택합니다. **[!UICONTROL Target schema]** 필드에서 국가 테이블을 선택합니다.
 
-   ![](assets/enrichment_add_a_link_select_option4.png)
+   ![링크 정의를 사용하여 여러 옵션 및 국가(nms) 대상 간의 참조를 검색하여 링크를 정의합니다.](assets/enrichment_add_a_link_select_option4.png)
 
 1. 마지막으로 소스 파일 값을 데이터베이스의 값과 연결할 필드를 선택합니다.
 
-   ![](assets/enrichment_add_a_link_select_join.png)
+   ![원본 국가를 국가 스키마의 영어 레이블 필드에 매핑하는 링크 정의 조인 조건](assets/enrichment_add_a_link_select_join.png)
 
 이 데이터 보강 활동의 출력에서 임시 스키마에는 국가 테이블에 대한 링크가 포함됩니다.
 
-![](assets/enrichment_external_link_schema.png)
+![외래 키와 국가 링크 및 해당 필드가 있는 생성된 구조를 표시하는 결과 창 스키마 탭입니다.](assets/enrichment_external_link_schema.png)
 
 ## 데이터 조정 {#data-reconciliation}
 
@@ -162,7 +162,7 @@ ht-degree: 1%
 
 조정 기준을 하나 이상 사용할 수 있습니다.
 
-![](assets/enrichment_reconciliations_tab_01.png)
+![작업 데이터와 원본 및 대상 식에서 문서를 식별하는 조정 탭](assets/enrichment_reconciliations_tab_01.png)
 
 여러 조인 조건이 지정된 경우 데이터를 함께 연결할 수 있도록 모두 를 확인해야 합니다.
 
@@ -174,7 +174,7 @@ ht-degree: 1%
 
 예를 들어 게재 전에 수신자 쿼리에 대한 데이터를 보강할 수 있습니다.
 
-![](assets/int_enrichment_offer1.png)
+![쿼리 활동, 데이터 보강 활동 및 DM 게재 활동이 순차적으로 연결된 워크플로우입니다.](assets/int_enrichment_offer1.png)
 
 쿼리를 구성한 후([섹션](query.md) 참조):
 
@@ -182,18 +182,18 @@ ht-degree: 1%
 1. **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;을(를) 선택합니다.
 1. 추가할 데이터 형식에서 **[!UICONTROL An offer proposition]**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/int_enrichment_offer2.png)
+   ![오퍼 제안이 선택된 페이지를 추가할 데이터 형식을 선택하십시오.](assets/int_enrichment_offer2.png)
 
 1. 추가할 제안에 대한 레이블과 식별자를 지정합니다.
 1. 오퍼 선택을 지정합니다. 다음과 같은 두 가지 옵션이 있습니다.
 
    * **[!UICONTROL Search for the best offer in a category]**: 이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마, 연락 날짜, 유지할 오퍼 수)를 지정하십시오. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드를 동시에 완료하지 않는 것이 좋습니다.
 
-     ![](assets/int_enrichment_offer3.png)
+     ![최상의 오퍼 검색을 위해 식별자, 레이블, 공간, 오퍼 범주 및 연락처 날짜 필드가 있는 오퍼 제안 페이지](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL A predefined offer]**: 이 옵션을 선택하고 오퍼 스페이스, 특정 오퍼 및 연락 날짜를 지정하여 오퍼 엔진을 호출하지 않고 추가하려는 오퍼를 직접 구성하십시오.
 
-     ![](assets/int_enrichment_offer4.png)
+     ![사전 정의된 오퍼에 대한 식별자, 레이블, 공간, 특정 오퍼 및 연락 날짜가 포함된 오퍼 제안 페이지.](assets/int_enrichment_offer4.png)
 
 1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [크로스 채널 게재](cross-channel-deliveries.md)를 참조하세요.
 
@@ -211,11 +211,11 @@ ht-degree: 1%
 1. 추가할 데이터 형식을 선택하는 창에서 **[!UICONTROL A link]**&#x200B;을(를) 선택합니다.
 1. 설정하려는 링크 유형과 대상을 선택합니다. 이 경우 타겟은 오퍼 스키마입니다.
 
-   ![](assets/int_enrichment_link1.png)
+   ![대상을 항상 사용할 수 있고 마케팅 오퍼(nms)를 대상 스키마로 사용하는 링크가 있는 링크 정의 페이지입니다.](assets/int_enrichment_link1.png)
 
 1. 데이터 보강 활동의 인바운드 테이블 데이터(여기서 수신자 테이블)와 오퍼 테이블 간의 조인을 지정합니다. 예를 들어 오퍼 코드를 수신자에게 연결할 수 있습니다.
 
-   ![](assets/int_enrichment_link2.png)
+   ![식별자 오퍼를 사용하여 소스 cryptedId를 오퍼 코드에 연결하는 링크 정의 조인 조건](assets/int_enrichment_link2.png)
 
 1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [크로스 채널 게재](cross-channel-deliveries.md)를 참조하세요.
 
@@ -234,11 +234,11 @@ ht-degree: 1%
 1. 쿼리 후 게재 활동 전에 수행한 데이터 보강 활동에서 오퍼 엔진에 대한 호출을 만듭니다.
 1. 활동의 기본 창에서 **[!UICONTROL Edit additional data...]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/ita_enrichment_rankweight_1.png)
+   ![추가 데이터 편집 링크가 강조 표시된 오퍼 제안 열을 나열하는 데이터 보강 탭](assets/ita_enrichment_rankweight_1.png)
 
 1. 순위에는 **[!UICONTROL @rank]** 열을 추가하고 오퍼 가중치는 **[!UICONTROL @weight]**&#x200B;을(를) 추가합니다.
 
-   ![](assets/ita_enrichment_rankweight_2.png)
+   ![하위 항목 추가를 사용하여 제안에 가중치 및 순위 열이 추가된 추가 열 창을 선택하십시오.](assets/ita_enrichment_rankweight_2.png)
 
 1. 추가를 확인하고 워크플로우를 저장합니다.
 

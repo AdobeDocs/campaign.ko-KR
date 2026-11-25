@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '376'
 ht-degree: 2%
 ---
 # 포크{#fork}
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 1. **[!UICONTROL Fork]** 활동을 열고 아웃바운드 전환의 이름과 레이블을 정의합니다.
 
-   ![](assets/s_user_segmentation_fork.png)
+   ![4개의 전환과 전환 4의 이름 및 레이블을 편집하는 데 사용되는 전환 창이 있는 포크 활동.](assets/s_user_segmentation_fork.png)
 
 1. 각 아웃바운드 전환을 열고 구성합니다.
 1. 아웃바운드 전환에 참여하려면 AND-join 활동을 추가합니다(선택 사항). [자세히 알아보기](and-join.md).

@@ -25,10 +25,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 4%
+source-wordcount: '170'
+ht-degree: 3%
 ---
 # 오퍼 엔진{#offer-engine}
 
@@ -36,7 +36,7 @@ ht-degree: 4%
 
 이 활동은 게재 전에 엔진에서 계산한 오퍼로 인바운드 모집단 데이터를 보강하여 엔진 호출을 사용한 보강 활동과 동일한 원리로 작동합니다.
 
-![](assets/int_offerengine_activity2.png)
+![쿼리와 DM 게재 사이에 오퍼 엔진 활동이 있는 워크플로 다이어그램입니다.](assets/int_offerengine_activity2.png)
 
 쿼리를 구성한 후([섹션](query.md) 참조):
 
@@ -47,6 +47,6 @@ ht-degree: 4%
    >
    >이 활동을 사용하는 경우 게재에 사용된 오퍼 제안만 저장됩니다.
 
-   ![](assets/int_offerengine_activity1.png)
+   ![오퍼 공간, 오퍼 범주, 테마, 계산할 제안 수 및 연락 날짜가 포함된 오퍼 엔진 활동.](assets/int_offerengine_activity1.png)
 
 1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [크로스 채널 게재](cross-channel-deliveries.md)를 참조하세요.

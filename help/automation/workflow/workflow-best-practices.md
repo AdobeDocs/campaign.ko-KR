@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1391'
 ht-degree: 13%
 ---
 # 워크플로 모범 사례{#workflow-best-practices}
@@ -95,7 +95,7 @@ Adobe에서는 전용 폴더에 워크플로우를 만들 것을 권장합니다
 * 항상 **[!UICONTROL Start]** 활동 또는 **[!UICONTROL Scheduler]** 활동으로 워크플로우를 시작합니다. 관련성이 있는 경우 **[!UICONTROL External signal]** 활동을 사용할 수도 있습니다.
 * 워크플로우를 빌드할 때는 분기당 **[!UICONTROL Scheduler]** 활동을 하나만 사용하십시오. 워크플로의 동일한 분기에 여러 개의 스케줄러(서로 연결됨)가 있는 경우 실행할 작업 수가 기하급수적으로 증가하여 데이터베이스가 상당히 과부하 됩니다. 이 규칙은 **[!UICONTROL Scheduling & History]** 탭이 있는 모든 활동에도 적용됩니다. [예약](scheduler.md)에 대해 자세히 알아보세요.
 
-  ![](assets/wf-scheduler.png)
+  ![분기당 하나의 스케줄러와 허용되지 않는 것으로 표시된 한 분기의 두 스케줄러를 사용하여 레이아웃을 수정합니다.](assets/wf-scheduler.png)
 
 * 모든 워크플로우에 **[!UICONTROL End]** 활동을 사용합니다. 이를 통해 Adobe Campaign은 워크플로우 내에서 계산에 사용되는 임시 공간을 확보할 수 있습니다. 자세한 내용은 [시작 및 끝](start-and-end.md)을 참조하세요.
 
@@ -158,4 +158,4 @@ JavaScript 메서드 **[!UICONTROL logInfo()]**&#x200B;은(는) 워크플로우�
 
 프로덕션 환경에서는 엔진에서 워크플로우를 실행하지 마십시오. **[!UICONTROL Workflow properties]**&#x200B;에서 **[!UICONTROL Execute in the engine]** 옵션을 선택하면 워크플로가 우선하며 이 옵션이 완료될 때까지 다른 모든 워크플로는 워크플로 엔진에 의해 중지됩니다.
 
-![](assets/wf-execute-in-engine.png)
+![엔진에서 실행(프로덕션 사용 안 함)이 선택된 워크플로우 속성 실행 탭](assets/wf-execute-in-engine.png)

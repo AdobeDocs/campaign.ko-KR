@@ -25,10 +25,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 2%
 ---
 # 스키마 편집{#edit-schema}
 
@@ -38,10 +38,10 @@ ht-degree: 3%
 
 이 활동은 작업 테이블의 데이터를 변경하지 않고 해당 스키마(데이터의 논리적 보기)만 변경합니다.
 
-![](assets/wf_manipulation_box.png)
+![Avg로 계산된 Order Average 열을 포함하여 출력 열 및 식이 있는 스키마 활동 편집](assets/wf_manipulation_box.png)
 
 **[!UICONTROL Links]** 탭을 통해 다른 작업 테이블과 조인을 만들 수도 있습니다.
 
-![](assets/wf_manipulation_box_link_tab.png)
+![대상 스키마와 조인 조건을 표시하는 링크 정의 대화 상자가 있는 스키마 편집의 링크 탭](assets/wf_manipulation_box_link_tab.png)
 
 아래 섹션에서는 조인 조건 목록(두 테이블의 데이터를 조정하는 데 사용되는 기준)을 구성할 수 있습니다.

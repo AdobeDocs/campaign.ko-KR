@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 9%
+source-wordcount: '138'
+ht-degree: 7%
 ---
 # CRM 커넥터{#crm-connector}
 
@@ -39,10 +39,10 @@ ht-degree: 9%
 * CRM에서 삭제된 오브젝트 가져오기
 * CRM의 오브젝트 삭제
 
-![](assets/crm_task_select_op.png)
+![가져오기, 내보내기 및 삭제 옵션과 Salesforce CRM 계정을 표시하는 유형 목록이 열려 있는 CRM 커넥터 활동](assets/crm_task_select_op.png)
 
 동기화를 구성할 CRM과 일치하는 외부 계정을 선택한 다음 동기화할 개체(계정, 기회, 연락처 등)를 선택합니다.
 
-![](assets/crm_task_select_obj.png)
+![CRM에서 가져오기를 사용하는 CRM 커넥터 활동 및 [연락처]가 강조 표시된 원격 개체 목록이 열려 있음](assets/crm_task_select_obj.png)
 
 Adobe Campaign의 CRM 커넥터에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=ko){target="_blank"}을 참조하세요.

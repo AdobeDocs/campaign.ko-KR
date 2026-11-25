@@ -30,24 +30,24 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 2%
+source-wordcount: '166'
+ht-degree: 1%
 ---
 # 셀{#cells}
 
 **[!UICONTROL Cells]** 활동은 다양한 하위 집합의 보기를 데이터 열로 제공합니다. 하위 집합 조작을 용이하게 하고 개인화 기능을 활용하도록 설계되었습니다.
 
-![](assets/wf_split_cells.png)
+![필터, 제한, 제외 및 세그먼트 코드 열이 있는 하위 집합 1-3을 나열하는 셀 활동의 셀 탭](assets/wf_split_cells.png)
 
 이 활동은 사용자 요구에 따라 특정 매개 변수를 입력하도록 구성할 수 있습니다. 기본적으로 각 하위 집합의 세부 정보는 **[!UICONTROL Cells]** 및 **[!UICONTROL Advanced]** 탭을 통해 전용 창에 자세히 표시됩니다.
 
-![](assets/wf_split_cells_with_customization.png)
+선택한 하위 집합의 세부 정보를 열기 위해 [세부 정보] 단추가 강조 표시된 ![셀 탭.](assets/wf_split_cells_with_customization.png)
 
 아래 예에서는 입력 양식이 수정되었습니다. 각 하위 집합에 대해 오퍼와 우선 순위 수준을 연결할 수 있도록 **[!UICONTROL Data]** 탭이 추가되었습니다.
 
-![](assets/cells-activity-sample.png)
+![세그먼트 코드, 우선 순위, 셀 식별자 및 오퍼 필드를 포함하는 사용자 지정 데이터 탭을 사용하여 하위 집합 세부 정보.](assets/cells-activity-sample.png)
 
 이 구성의 경우 Adobe Campaign 탐색기의 **[!UICONTROL Administration > Configurations > Input forms]** 노드에서 다음 정보가 워크플로 양식에 추가되었습니다.
 

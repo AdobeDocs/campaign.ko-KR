@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '1005'
 ht-degree: 4%
 ---
 # 워크플로 구축 {#build-a-workflow}
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 * 탐색기의 **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** 노드 또는 홈 페이지의 **[!UICONTROL Profiles and Targets]** 탭에서 **[!UICONTROL Targeting workflows]** 하위 탭을 통해 [타깃팅 워크플로](#targeting-workflows)를 만듭니다.
 
-  ![](assets/create-targeting-wf.png)
+  ![프로필 및 대상 탭의 타겟팅 워크플로 목록 및 [만들기] 버튼이 강조 표시됨](assets/create-targeting-wf.png)
 
 * 캠페인의 **[!UICONTROL Targeting and workflows]** 탭에서 [캠페인 워크플로](#campaign-workflows) 만들기
 
@@ -39,7 +39,7 @@ ht-degree: 4%
 
 워크플로 목록 위에 있는 **[!UICONTROL New]** 단추를 클릭합니다.
 
-![](assets/create_a_wf_icon.png)
+![목록 위에 새 단추가 강조 표시된 워크플로 목록 타깃팅](assets/create_a_wf_icon.png)
 
 레이블을 입력하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 4%
 
 이제 다양한 활동을 정의하고 이를 다이어그램에서 서로 연결해야 합니다. 이 구성 단계에서는 다이어그램 레이블 및 워크플로 상태(편집 진행 중)를 볼 수 있습니다. 창의 아래 섹션은 다이어그램을 편집하는 데만 사용됩니다. 여기에는 도구 모음, 활동 팔레트(왼쪽) 및 다이어그램 자체(오른쪽)가 포함되어 있습니다.
 
-![](assets/new-workflow-2.png)
+![레이블이 있는 워크플로우 편집기, 편집 중 상태, 도구 모음, 활동 팔레트 및 빈 다이어그램 영역](assets/new-workflow-2.png)
 
 >[!NOTE]
 >
@@ -66,17 +66,17 @@ ht-degree: 4%
 
    **시작** 활동을 추가한 다음 다이어그램에 **배달** 활동을 추가하십시오.
 
-   ![](assets/new-workflow-3.png)
+   ![시작 활동 및 게재 활동이 있는 다이어그램에 끌어 놓기](assets/new-workflow-3.png)
 
 1. **시작** 활동 전환을 끌어서 **게재** 활동에 놓아 활동을 함께 연결합니다.
 
-   ![](assets/new-workflow-4.png)
+   ![게재 활동으로 전환하여 연결된 활동 시작](assets/new-workflow-4.png)
 
    전환 끝에 새 활동을 배치하여 활동을 이전 활동에 자동으로 연결할 수 있습니다.
 
 1. 아래 다이어그램에 표시된 대로 필요한 활동을 추가하고 함께 연결합니다.
 
-   ![](assets/new-workflow-5.png)
+   ![시작, 게재, 승인, 게재 제어 및 예/아니요 전환으로 끝을 연결하는 워크플로 다이어그램](assets/new-workflow-5.png)
 
 >[!CAUTION]
 >
@@ -88,11 +88,11 @@ ht-degree: 4%
 
   다이어그램 편집 도구 모음을 사용하면 워크플로우의 레이아웃 및 실행 기능에 액세스할 수 있습니다.
 
-  ![](assets/wf-toolbar.png)
+  ![쿼리, 통합, 중복 제거, 분할 및 게재를 사용하는 워크플로 위에 강조 표시된 다이어그램 편집 도구 모음](assets/wf-toolbar.png)
 
   이렇게 하면 팔레트 표시와 그래픽 객체의 개요, 크기 및 정렬과 같은 편집 도구의 레이아웃을 조정할 수 있습니다.
 
-  ![](assets/s_user_segmentation_toolbar.png)
+  ![도구 모음 그룹: 표시 및 레이아웃, 추적 및 실행과 속성 단추](assets/s_user_segmentation_toolbar.png)
 
   진행률 및 로그 표시와 관련된 아이콘은 다음 섹션에 자세히 설명되어 있습니다.
 
@@ -115,17 +115,17 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->캠페인 워크플로우 활동에 대해서는 [이 섹션](activities.md)에 자세히 설명되어 있습니다.
+>캠페인 워크플로우 활동에 대한 자세한 내용은 [워크플로우 활동 정보](activities.md)를 참조하세요.
 
 첫 번째 탭에는 기본 구성이 포함되어 있습니다. **[!UICONTROL Advanced]** 탭에는 추가 매개 변수가 포함되어 있습니다. 이 매개 변수는 특히 오류가 발생할 때 동작을 정의하고, 활동의 실행 기간을 지정하고, 초기화 스크립트를 입력하는 데 사용됩니다.
 
 활동을 더 잘 이해하고 워크플로우 가독성을 높이기 위해 활동에 주석을 입력할 수 있습니다.
 
-![](assets/example1-comment.png)
+![댓글 필드에 입력한 댓글이 있는 쿼리 활동 고급 탭](assets/example1-comment.png)
 
 이러한 주석은 운영자가 활동을 스크롤할 때 자동으로 표시됩니다.
 
-![](assets/example2-comment.png)
+![포인터가 다이어그램의 분할 작업 위에 있을 때 도구 설명에 표시되는 주석 텍스트입니다](assets/example2-comment.png)
 
 
 ## 워크플로 템플릿 {#workflow-templates}
@@ -138,7 +138,7 @@ ht-degree: 4%
 
 일반적인 워크플로우 속성 외에도 템플릿 속성을 사용하여 이 템플릿을 기반으로 만든 워크플로우의 실행 파일을 지정할 수 있습니다.
 
-![](assets/wf-template-properties.png)
+![워크플로우 폴더에서 실행 폴더 선택기가 열려 있는 워크플로우 속성 일반 탭](assets/wf-template-properties.png)
 
 ## 중복 워크플로우 {#duplicate-workflows}
 
@@ -149,7 +149,7 @@ Adobe에서는 활동의 복사/붙여넣기를 수행하지 않고 워크플로
 1. 워크플로우를 마우스 오른쪽 버튼으로 클릭합니다.
 1. **복제**&#x200B;를 클릭합니다.
 
-   ![](assets/duplicate-workflows.png)
+   마우스 오른쪽 단추 클릭 메뉴가 열리고 복제 옵션이 강조 표시된 ![워크플로 목록](assets/duplicate-workflows.png)
 
 1. 워크플로우 창에서 워크플로우 레이블을 변경합니다.
 1. **저장**&#x200B;을 클릭합니다.

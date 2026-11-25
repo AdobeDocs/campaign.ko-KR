@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '329'
 ht-degree: 1%
 ---
 # 워크플로우 권한 관리{#managing-rights}
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 또한 영향을 줄 워크플로에서 수행한 작업(수신자 가져오기, 파일 액세스, Fusion, SQL 스크립트 실행 등)과 일치하는 명명된 권한에도 매핑해야 합니다.
 
-연산자 및 권한 관리에 대한 자세한 내용은 [이 섹션](../../v8/start/gs-permissions.md)을 참조하세요.
+연산자 및 권한 관리에 대한 자세한 내용은 [Campaign v8에서 권한 시작](../../v8/start/gs-permissions.md)을 참조하세요.
 
 ## 운영자 그룹 {#operator-groups-wf}
 

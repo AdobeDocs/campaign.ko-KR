@@ -24,20 +24,20 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 2%
+source-wordcount: '1246'
+ht-degree: 1%
 ---
 # 요약 목록 만들기{#creating-a-summary-list}
 
 이 사용 사례에서는 파일을 수집하고 몇 가지 개선 사항을 수행한 후 요약 목록을 만들 수 있는 워크플로우 만들기에 대해 자세히 설명합니다. 이 예제는 스토어에서 구입한 연락처 목록을 기반으로 합니다.
 
-![](assets/uc2_enrich_overview.png)
+![워크플로 다이어그램: 파일 수집기, 데이터 로드(파일), 데이터 보강, 데이터 업데이트, 데이터 보강 2, 목록 업데이트 및 대기.](assets/uc2_enrich_overview.png)
 
 다음 데이터 구조가 사용됩니다.
 
-![](assets/uc2_enrich_data.png)
+![데이터 구조: 구매 및 연락처 테이블이 연결되어 있고 refStoreName 및 zipCodeRef가 있는 별도의 스토어 테이블이 있습니다.](assets/uc2_enrich_data.png)
 
 목적은 다음과 같습니다.
 
@@ -73,21 +73,21 @@ Phone;500;London 5
 
    **파일 수집기** 활동을 사용하면 Adobe Campaign 서버에서 파일을 수집하여 보낼 수 있습니다.
 
-   **데이터 로드(파일)** 활동을 사용하면 수집된 데이터로 워크플로우의 작업 테이블을 보강할 수 있습니다. 이 활동에 대한 자세한 정보는 [이 페이지](data-loading-file.md)를 참조하세요.
+   **데이터 로드(파일)** 활동을 사용하면 수집된 데이터로 워크플로우의 작업 테이블을 보강할 수 있습니다. 이 활동에 대한 자세한 내용은 [데이터 로드(파일)](data-loading-file.md)를 참조하세요.
 
 1. 선택한 디렉터리에서 텍스트(&#42;.txt) 형식 파일을 수집하도록 **파일 수집기** 활동을 구성하십시오.
 
-   ![](assets/uc2_enrich_collecteur.png)
+   ![파일 수집기 활동: *.txt 필터 및 프로세스 파일 없음 옵션이 선택된 디렉터리 탭.](assets/uc2_enrich_collecteur.png)
 
    **파일 수집기** 활동을 사용하면 원본 디렉터리에 파일이 없는 것을 관리할 수 있습니다. 이렇게 하려면 **[!UICONTROL Process file nonexistence]** 옵션을 선택하십시오. 이 워크플로우에서는 **대기** 활동이 추가되어 수집 시 디렉터리에서 누락된 다른 파일 수집을 시도할 수 있습니다.
 
 1. 가져올 데이터와 같은 형식의 샘플 파일을 사용하여 **데이터 로드(파일)** 활동을 구성하십시오.
 
-   ![](assets/uc2_enrich_chargement1.png)
+   ![Purchases.txt를 샘플 파일로 사용하는 데이터 로드(파일) 활동 및 productName, productPrice, storeName의 미리 보기](assets/uc2_enrich_chargement1.png)
 
    **[!UICONTROL Click here to change the file format...]** 링크를 클릭하여 &quot;구매&quot; 테이블의 내부 이름과 레이블을 사용하여 열 이름을 변경합니다.
 
-   ![](assets/uc2_enrich_chargement2.png)
+   ![productName, productPrice 및 storeName 열, 세미콜론 구분 기호 및 첫 줄이 헤더로 있는 파일 형식 창](assets/uc2_enrich_chargement2.png)
 
 데이터를 가져오면 &quot;저장소&quot; 스키마와 일치하는 참조 테이블에 대한 링크를 생성하여 데이터 보강이 수행됩니다.
 
@@ -95,22 +95,22 @@ Phone;500;London 5
 
 1. **데이터 로드(파일)** 활동에서 데이터로 구성된 기본 집합을 선택하십시오.
 
-   ![](assets/uc2_enrich_enrich1.png)
+   ![데이터 로드(파일)를 기본 집합으로 사용하고 데이터 추가 및 추가 데이터 편집 링크를 사용하여 데이터 보강 활동.](assets/uc2_enrich_enrich1.png)
 
 1. **[!UICONTROL Add data]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL A link]** 옵션을 선택합니다.
 
-   ![](assets/uc2_enrich_enrich2.png)
+   ![A 링크 옵션이 선택된 창을 추가할 데이터 형식을 선택하십시오.](assets/uc2_enrich_enrich2.png)
 
 1. **[!UICONTROL Define a collection]** 옵션을 선택합니다.
 1. 대상으로 &quot;저장소&quot; 스키마를 선택합니다.
 
-   ![](assets/uc2_enrich_enrich3.png)
+   ![링크 정의: 저장소 스키마를 대상 스키마로 사용하여 선택한 컬렉션을 링크 유형으로 정의합니다.](assets/uc2_enrich_enrich3.png)
 
 다양한 유형의 링크에 대한 자세한 내용은 [데이터 보강 및 수정](targeting-workflows.md#enrich-and-modify-data)을 참조하세요.
 
 다음 창에서 데이터 조정을 구성하려면 (주 집합에서) 소스 필드와 (&quot;저장소&quot; 스키마에 속하는) 대상 필드를 선택하여 조인 조건을 생성해야 합니다.
 
-![](assets/uc2_enrich_enrich4.png)
+![원본 필드 storeName과 대상 필드 refStoreName이 일치하는 링크 정의 조인 조건](assets/uc2_enrich_enrich4.png)
 
 이제 링크가 만들어졌으므로 &quot;스토어&quot; 스키마, 즉 &quot;우편번호 참조&quot; 필드에서 워크플로우의 작업 테이블에 열을 추가합니다.
 
@@ -118,11 +118,11 @@ Phone;500;London 5
 1. **[!UICONTROL Edit additional data]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Output columns]**&#x200B;에 &quot;우편번호 참조&quot; 필드를 추가합니다.
 
-![](assets/uc2_enrich_enrich5.png)
+![저장소 링크의 우편 번호 참조 필드가 데이터 보강의 출력 열에 추가되었습니다.](assets/uc2_enrich_enrich5.png)
 
 데이터 보강 후 워크플로우의 작업 테이블에 있는 데이터는 다음과 같습니다.
 
-![](assets/uc2_enrich_population1.png)
+![데이터 보강 후 작업 테이블 데이터(productName, productPrice 및 storeName 옆에 우편 번호 참조 열 포함)](assets/uc2_enrich_population1.png)
 
 ## 2단계: &#39;구매&#39; 표에 보강된 데이터 쓰기 {#step-2--writing-enriched-data-to-the--purchases--table}
 
@@ -136,7 +136,7 @@ Phone;500;London 5
 1. &quot;구매&quot; 테이블(이 경우 &quot;상점 이름&quot; 필드)의 데이터에 대한 &quot;대상 표현식&quot;을 선택합니다.
 1. **[!UICONTROL Keep unreconciled data coming from the work table]** 옵션을 선택합니다.
 
-![](assets/uc2_enrich_reconciliation.png)
+![구매 대상 차원과 storeName이 일치하는 조정 탭@storeName.](assets/uc2_enrich_reconciliation.png)
 
 **데이터 업데이트** 활동에서는 다음 구성이 필요합니다.
 
@@ -160,23 +160,23 @@ Phone;500;London 5
 1. **[!UICONTROL Select fields to add]** 창에서 **[!UICONTROL Data linked to the filtering dimension]** 옵션을 클릭합니다.
 1. **[!UICONTROL Purchases]** 노드를 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/uc2_enrich_enrich9.png)
+   ![필터링 차원에 연결된 데이터가 있고 구매 노드가 강조 표시된 창을 추가할 필드를 선택하십시오.](assets/uc2_enrich_enrich9.png)
 
 1. **[!UICONTROL Aggregates]** 옵션을 선택하여 **[!UICONTROL Collected data]** 필드를 변경합니다.
 
-   ![](assets/uc2_enrich_enrich10.png)
+   ![수집된 데이터 필드가 [집계]로 설정된 Purchases 컬렉션의 일반 매개 변수.](assets/uc2_enrich_enrich10.png)
 
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. 각 연락처에 대한 구매 총액을 계산하려면 다음 표현식을 추가합니다. &quot;Sum(@prodprice)&quot;
 
-   ![](assets/uc2_enrich_enrich6.png)
+   ![Sum(제품 가격) 식이 총 구매에 대한 출력 열로 정의된 창을 추가할 데이터.](assets/uc2_enrich_enrich6.png)
 
 요약 목록을 준비하려면 &quot;구매&quot; 필드 및 첫 번째 데이터 보강인 &quot;우편번호 참조&quot; 필드에서 필드를 추가해야 합니다.
 
 1. 데이터 보강 활동에서 **[!UICONTROL Edit additional data...]** 링크를 클릭합니다.
 1. &quot;스토어 이름&quot; 및 &quot;구매 / 우편 번호 참조&quot; 필드를 추가합니다.
 
-   ![](assets/uc2_enrich_enrich7.png)
+   ![데이터 보강의 출력 열 2: 구매 링크, Sum(productPrice), storeName 및 우편번호 참조 필드.](assets/uc2_enrich_enrich7.png)
 
 1. **[!UICONTROL Properties]** 탭을 클릭합니다.
 1. 두 번째 링크를 변경하여 한 줄만 만듭니다.
@@ -196,4 +196,4 @@ Phone;500;London 5
 * &quot;스토어 이름&quot; 열,
 * 스토어 참조 스키마에 포함된 모든 스토어에 대해 입력한 &quot;우편번호 참조&quot; 열.
 
-![](assets/uc2_enrich_listfinal.png)
+![연락처, Sum(productPrice), 스토어 이름 및 우편번호 열이 있는 최종 목록 컨텐츠입니다.](assets/uc2_enrich_listfinal.png)

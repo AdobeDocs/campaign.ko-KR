@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '373'
 ht-degree: 2%
 ---
 # 게재 콘텐츠 로드{#loading-delivery-content}
@@ -39,7 +39,7 @@ ht-degree: 2%
 
    다음은 S3 외부 계정의 예입니다.
 
-   ![](assets/delivery_loadcontent_filetransfertexamples3.png)
+   ![유형이 AWS S3, 서버, AWS 액세스 키 ID 및 비밀 액세스 키 필드인 외부 계정 만들기 양식](assets/delivery_loadcontent_filetransfertexamples3.png)
 
 1. 새 워크플로(예: **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**&#x200B;에서)를 만드십시오.
 1. 워크플로우에 **[!UICONTROL File transfer]** 활동을 추가하고 다음을 지정하여 구성하십시오.
@@ -47,7 +47,7 @@ ht-degree: 2%
    * S3 또는 (S)FTP 서버에 연결하는 데 사용할 외부 계정입니다.
    * S3 또는 (S)FTP 서버에 있는 파일의 경로입니다.
 
-   ![](assets/delivery_loadcontent_filetransfertexample.png)
+   ![외부 계정 및 HTML 파일에 대한 서버 폴더 경로를 사용하여 파일 다운로드로 설정된 파일 전송 활동](assets/delivery_loadcontent_filetransfertexample.png)
 
 1. **[!UICONTROL Delivery]** 활동을 추가하고 **[!UICONTROL File transfer]** 활동의 아웃바운드 전환에 연결합니다. 다음과 같이 구성합니다.
 
@@ -56,7 +56,7 @@ ht-degree: 2%
    * 컨텐츠: 이전 활동에서 컨텐츠를 가져왔더라도 **[!UICONTROL Specified in the delivery]**&#x200B;을(를) 선택하십시오. 원격 서버에 있는 파일에서 직접 콘텐츠를 가져오기 때문에 워크플로우에서 처리할 때 해당 콘텐츠에 대한 식별자가 없으며 인바운드 이벤트에서 온 것으로 식별할 수 없습니다.
    * 수행할 작업: **[!UICONTROL Save]**&#x200B;을(를) 선택하여 게재를 저장하고 워크플로우를 실행한 후 **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**&#x200B;에서 액세스할 수 있습니다.
 
-   ![](assets/delivery_loadcontent_activityexample.png)
+   ![템플릿에서 새 게재를 사용한 게재 활동, 게재 및 작업 저장에 지정된 콘텐츠](assets/delivery_loadcontent_activityexample.png)
 
 1. **[!UICONTROL Delivery]** 활동의 **[!UICONTROL Script]** 탭에서 다음 명령을 추가하여 가져온 파일의 내용을 게재에 로드합니다.
 
@@ -64,7 +64,7 @@ ht-degree: 2%
    delivery.content.html.source=loadFile(vars.filename)
    ```
 
-   ![](assets/delivery_loadcontent_script.png)
+   ![delivery.content.html.source=loadFile(vars.filename)](assets/delivery_loadcontent_script.png) 명령을 사용한 배달 활동의 스크립트 탭
 
 1. 워크플로우를 저장하고 실행합니다. **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**&#x200B;에서 로드된 콘텐츠가 있는 새 게재가 만들어집니다.
 

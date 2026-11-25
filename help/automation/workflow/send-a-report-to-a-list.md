@@ -24,16 +24,16 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 3%
+source-wordcount: '796'
+ht-degree: 2%
 ---
 # 목록으로 보고서 보내기{#send-a-report-to-a-list}
 
 이 사용 사례에서는 PDF 형식으로 기본 제공되는 월별 **[!UICONTROL Tracking indicators]** 보고서를 생성하는 방법과 이를 수신자 목록으로 보내는 방법을 자세히 설명합니다.
 
-![](assets/use_case_report_intro.png)
+![스케줄러, JavaScript 코드 및 게재를 사용한 월별 보고서 워크플로우와 indicators.pdf가 첨부된 전자 메일](assets/use_case_report_intro.png)
 
 이 사용 사례의 주요 구현 단계는 다음과 같습니다.
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 1. **[!UICONTROL Create]** 버튼을 클릭합니다.
 1. **[!UICONTROL New list]**&#x200B;을(를) 선택하고 보고서를 보낼 받는 사람 목록을 새로 만드세요.
 
-목록 만들기에 대한 자세한 내용은 [이 섹션](../../v8/audiences/create-audiences.md)을 참조하세요.
+목록 만들기에 대한 자세한 내용은 [Campaign에서 프로필 대상자 만들기](../../v8/audiences/create-audiences.md)를 참조하세요.
 
 ## 2단계: 게재 템플릿 만들기 {#step-2--create-the-delivery-template}
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 
 1. Adobe Campaign 탐색기의 **[!UICONTROL Resources > Templates > Delivery templates]** 노드로 이동하여 **[!UICONTROL Email delivery]** 기본 제공 템플릿을 복제합니다.
 
-   게재 템플릿 만들기에 대한 자세한 내용은 [이 섹션](../../v8/send/create-templates.md)을 참조하세요.
+   게재 템플릿 만들기에 대한 자세한 내용은 [게재 템플릿 작업](../../v8/send/create-templates.md)을 참조하세요.
 
 1. 템플릿 매개 변수(레이블, 대상(이전에 만든 수신자 목록), 제목 및 컨텐츠)를 입력합니다.
 
@@ -67,17 +67,17 @@ ht-degree: 3%
 
    * **[!UICONTROL Attachments]** 링크를 클릭하고 **[!UICONTROL Add]** 단추 옆에 있는 화살표를 클릭합니다. **[!UICONTROL Calculated attachment...]**&#x200B;을(를) 선택합니다.
 
-     ![](assets/use_case_report_4.png)
+     ![추가 메뉴가 열려 있고 계산된 첨부 파일이 선택된 첨부 파일 편집 창](assets/use_case_report_4.png)
 
    * **[!UICONTROL Type]** 드롭다운 목록에서 최신 옵션 **[!UICONTROL File name is computed during delivery of each message (it may then depend on the recipient profile)]**&#x200B;을(를) 선택합니다.
 
-     ![](assets/use_case_report_5.png)
+     ![각 메시지 및 레이블 보고서에 대해 배달하는 동안 계산된 파일 이름으로 유형이 설정된 첨부 파일 정의.](assets/use_case_report_5.png)
 
      **[!UICONTROL Label]** 필드에 입력한 값이 최종 게재에 표시되지 않습니다.
 
    * 텍스트 영역에 파일의 액세스 경로와 이름을 입력합니다.
 
-     ![](assets/use_case_report_6.png)
+     ![파일 경로 /tmp/indicators.pdf이 텍스트 영역에 입력된 첨부 파일 정의 일반 탭입니다.](assets/use_case_report_6.png)
 
      >[!CAUTION]
      >
@@ -85,13 +85,13 @@ ht-degree: 3%
 
    * **[!UICONTROL Advanced]** 탭을 선택하고 **[!UICONTROL Script the name of the file name displayed in the mails sent]**&#x200B;을(를) 확인합니다. 텍스트 영역에 최종 게재에 있는 첨부 파일의 이름을 입력합니다.
 
-     ![](assets/use_case_report_6b.png)
+     ![파일 이름을 선택하고 latest-report.pdf를 입력한 스크립트가 있는 첨부 파일 정의 고급 탭](assets/use_case_report_6b.png)
 
 ## 3단계: 워크플로우 만들기 {#step-3--creating-the-workflow}
 
 이 사용 사례에 대해 다음 워크플로우를 만듭니다.
 
-![](assets/use_case_report_8.png)
+![워크플로우 월별 보고서 지표: 스케줄러, JavaScript 코드, 게재.](assets/use_case_report_8.png)
 
 세 가지 활동을 사용합니다.
 
@@ -104,17 +104,17 @@ ht-degree: 3%
 1. Campaign 탐색기의 **[!UICONTROL Administration > Production > Technical workflows]** 노드로 이동하여 워크플로우를 저장할 새 폴더를 만드십시오.
 1. 새 워크플로우를 만듭니다.
 
-   ![](assets/use_case_report_7.png)
+   ![레이블 필드 및 저장 단추가 있는 관리 > 프로덕션 > 기술 워크플로우의 새 워크플로우 대화 상자](assets/use_case_report_7.png)
 
 1. **[!UICONTROL Scheduler]** 형식 활동을 추가하여 시작하여 워크플로우가 그 달의 첫 번째 월요일에 실행되도록 구성하십시오.
 
-   ![](assets/use_case_report_9.png)
+   ![스케줄러 활동이 매월 첫 번째 월요일 오전 12:00:시에 트리거를 보여 줍니다.](assets/use_case_report_9.png)
 
    스케줄러 구성에 대한 자세한 내용은 [스케줄러](scheduler.md)를 참조하십시오.
 
 1. 그런 다음 **[!UICONTROL JavaScript code]** 형식 활동을 추가합니다.
 
-   ![](assets/use_case_report_10.png)
+   ![reportName, path, exportFormat 및 xtk.report.export 호출을 정의하는 스크립트가 있는 JavaScript 코드 활동.](assets/use_case_report_10.png)
 
    편집 영역에 다음 코드를 입력합니다.
 
@@ -137,14 +137,14 @@ ht-degree: 3%
 
      >[!CAUTION]
      >
-     >파일을 서버에 저장해야 합니다. 자세한 [여기](#step-2--create-the-delivery-template))와 같이 계산된 첨부 파일에 대한 편집 창의 **[!UICONTROL General]** 탭에 있는 것과 동일한 경로와 이름을 입력해야 합니다.
+     >파일을 서버에 저장해야 합니다. 자세한 [2단계: 게재 템플릿 만들기](#step-2--create-the-delivery-template))와 같이 계산된 첨부 파일에 대한 편집 창의 **[!UICONTROL General]** 탭에 있는 것과 동일한 경로와 이름을 입력해야 합니다.
 
    * **var exportFormat**: 파일의 내보내기 형식(&quot;PDF&quot;)을 입력하십시오.
    * **var _ctx**(컨텍스트): 이 경우 글로벌 컨텍스트에서 **[!UICONTROL Tracking indicators]** 보고서를 사용하고 있습니다.
 
 1. 다음 옵션을 사용하여 **[!UICONTROL Delivery]** 활동을 추가하여 완료합니다.
 
-   ![](assets/use_case_report_11.png)
+   ![게재 활동: 템플릿에서 새로 만들기, 준비 및 시작, 아웃바운드 전환 및 프로세스 오류가 선택되지 않았습니다.](assets/use_case_report_11.png)
 
    * **[!UICONTROL Delivery]**: **[!UICONTROL New, created from a template]**&#x200B;을(를) 선택하고 이전에 만든 게재 템플릿을 선택합니다.
    * **[!UICONTROL Recipients]** 및 **[!UICONTROL Content]** 필드에 대해 **[!UICONTROL Specified in the delivery]**&#x200B;을(를) 선택합니다.

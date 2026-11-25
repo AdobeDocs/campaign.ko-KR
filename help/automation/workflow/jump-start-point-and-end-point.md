@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 15%
+source-wordcount: '153'
+ht-degree: 11%
 ---
 # 이동(시작점 및 끝점){#jump-start-point-and-end-point}
 
@@ -36,12 +36,12 @@ ht-degree: 15%
 
 다음 예제와 같이 한 활동에서 다른 활동으로 이동합니다.
 
-![](assets/s_user_segmentation_jump_sample.png)
+![시작점 점프가 긴 전환을 두 끝점으로 대체하여 유니온 및 중복 제거를 제공하는 워크플로우입니다.](assets/s_user_segmentation_jump_sample.png)
 
 각 &quot;시작점&quot; 유형 전환에 대해 &quot;끝점&quot; 유형 전환을 배치해야 합니다.
 
 동일한 워크플로우에서 여러 개의 시작점 및 끝점 점프를 삽입할 수 있습니다. 매개 변수에 입력해야 하는 숫자로 식별됩니다.
 
-![](assets/s_user_segmentation_jump_in.png)
+레이블 필드와 [이동 번호] 필드가 1로 설정된 ![이동(시작점) 활동](assets/s_user_segmentation_jump_in.png)
 
 다이어그램의 가독성을 높이기 위해 점프와 연관된 이미지를 변경하여 관련 숫자를 표시할 수 있습니다. [활동 이미지 변경](change-activity-images.md)을 참조하세요.

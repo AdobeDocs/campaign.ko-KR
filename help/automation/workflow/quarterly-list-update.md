@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 5%
+source-wordcount: '294'
+ht-degree: 4%
 ---
 # 증분 쿼리를 사용한 분기별 목록 업데이트 {#quarterly-list-update}
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 
 이러한 캠페인은 매 시즌이 시작될 때 관련 스포츠 활동을 제공하기 위해 시작되므로, 이러한 목록은 분기마다 업데이트됩니다. 단, 여기에서 수신자는 이 캠페인에 의해 9개월에 한 번만 타겟팅되어야 합니다. 이를 통해 수신자의 자격 빈도를 확장하고 년 간 다양한 시즌에 대한 활동을 제공할 수 있습니다.
 
-![](assets/incremental_query_example.png)
+![결과 전환에 의해 목록 업데이트 활동으로 연결된 증분 쿼리 활동이 있는 워크플로](assets/incremental_query_example.png)
 
 1. 증분 쿼리와 목록 업데이트 활동을 새 워크플로우에 추가합니다.
 1. [쿼리 만들기](query.md#creating-a-query)에 지정된 대로 활동의 **[!UICONTROL Incremental query]** 탭을 구성하십시오.

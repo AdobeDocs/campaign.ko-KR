@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 14%
+source-wordcount: '1332'
+ht-degree: 11%
 ---
 # 중복 제거{#deduplication}
 
@@ -66,7 +66,7 @@ ht-degree: 14%
 * **유니온** 활동을 만들어 각 인바운드 흐름을 통합하십시오.
 * **결합** 활동 후에 **중복 제거** 활동을 만듭니다.
 
-![](assets/dedup-best-practice.png)
+![유니온에 의해 결합된 쿼리 두 개, 중복 제거 활동 및 목록 업데이트](assets/dedup-best-practice.png)
 
 ## 구성 {#configuration}
 
@@ -74,7 +74,7 @@ ht-degree: 14%
 
 1. 중복 제거 모드를 정의하려면 **[!UICONTROL Edit configuration...]** 링크를 클릭하십시오.
 
-   ![](assets/s_user_segmentation_dedup_param.png)
+   ![중복 제거 매개 변수에 구성 편집 링크가 있는 중복 제거 활동 창](assets/s_user_segmentation_dedup_param.png)
 
 1. 이 활동에 대한 대상 유형(기본적으로 중복 제거는 수신자에게 연결됨)과 사용할 기준(즉, 동일한 값을 사용하여 중복을 식별할 수 있는 필드)을 선택합니다.
 
@@ -84,30 +84,30 @@ ht-degree: 14%
    >
    >다음 단계에서는 **[!UICONTROL Other]** 옵션을 사용하여 사용할 기준을 선택할 수 있습니다.
 
-   ![](assets/s_user_segmentation_dedup_param2.png)
+   ![전자 메일, SMS, 전화, 팩스, 우편 주소 및 기타 옵션을 사용하여 차원 단계 타깃팅](assets/s_user_segmentation_dedup_param2.png)
 
 1. 다음 단계에서는 **[!UICONTROL Other]** 옵션을 사용하여 동일한 값의 경우에 사용할 기준을 선택할 수 있습니다.
 
-   ![](assets/s_user_segmentation_dedup_param3.png)
+   ![식 선택 창 및 생년월일 필드가 선택된 중복 항목 식별 단계](assets/s_user_segmentation_dedup_param3.png)
 
 1. 드롭다운 목록에서 사용할 중복 제거 방법을 선택하고, 유지할 중복 항목 수를 입력합니다.
 
-   ![](assets/s_user_segmentation_dedup_param4.png)
+   ![중복 제거 방법 단계(Double을 사용하여 유지) 및 메서드 목록에 네 가지 메서드가 표시됨](assets/s_user_segmentation_dedup_param4.png)
 
    다음 방법을 사용할 수 있습니다.
 
    * **[!UICONTROL Choose for me]**: 중복 중에서 유지할 레코드를 임의로 선택합니다.
    * **[!UICONTROL Following a list of values]**: 하나 이상의 필드에 대한 값 우선 순위를 정의할 수 있습니다. 값을 정의하려면 필드를 선택하거나 표현식을 만든 다음 해당 테이블에 값을 추가합니다. 새 필드를 정의하려면 값 목록 위에 있는 **[!UICONTROL Add]** 버튼을 클릭합니다.
 
-     ![](assets/s_user_segmentation_dedup_param5.png)
+     ![우선 순위 목록 및 기타 값 옵션에서 영어 및 프랑스어를 사용하는 값 목록 메서드를 따릅니다](assets/s_user_segmentation_dedup_param5.png)
 
    * **[!UICONTROL Non-empty value]**: 선택한 표현식의 값이 비어 있지 않은 레코드를 우선 순위로 유지할 수 있습니다.
 
-     ![](assets/s_user_segmentation_dedup_param6.png)
+     ![식 필드와 계정 번호 필드가 선택된 비어 있지 않은 값 메서드](assets/s_user_segmentation_dedup_param6.png)
 
    * **[!UICONTROL Using an expression]**: 지정된 식의 가장 낮은(또는 가장 높은) 값을 가진 레코드를 유지할 수 있습니다.
 
-     ![](assets/s_user_segmentation_dedup_param7.png)
+     ![Status가 있는 식 메서드를 식으로 사용하고 가장 큰 값이 선택된 레코드를 유지](assets/s_user_segmentation_dedup_param7.png)
 
    >[!NOTE]
    >
@@ -119,11 +119,11 @@ ht-degree: 14%
 
    활동 편집기 창의 아래 섹션에서 그래픽 객체의 아웃바운드 전환에 대한 레이블을 수정하고 활동 결과와 연결할 세그먼트 코드를 입력할 수 있습니다. 이 코드는 나중에 타깃팅 기준으로 사용할 수 있습니다.
 
-   ![](assets/s_user_segmentation_dedup_param8.png)
+   ![결과 레이블 Target, 세그먼트 코드 PRO 및 보조 항목 생성이 선택된 중복 제거 활동](assets/s_user_segmentation_dedup_param8.png)
 
 1. 나머지 모집단을 활용하려면 **[!UICONTROL Generate complement]** 옵션을 선택하십시오. 보완은 모든 중복으로 구성됩니다. 그런 다음 다음과 같이 추가 전환이 활동에 추가됩니다.
 
-   ![](assets/s_user_segmentation_dedup_param9.png)
+   ![중복 제거, 중복 및 Target 출력을 두 개의 목록 업데이트 활동으로 전송하는 세 개의 프로필 쿼리](assets/s_user_segmentation_dedup_param9.png)
 
 ## 예: 게재 전 중복 항목 식별 {#example--identify-the-duplicates-before-a-delivery}
 
@@ -133,7 +133,7 @@ ht-degree: 14%
 
 식별된 복제본은 전용 복제 목록에도 통합되어 필요한 경우 재사용할 수 있습니다.
 
-![](assets/deduplication_example.png)
+![3개의 프로필 쿼리, 중복 제거, 게재 및 Complement 전환에 대한 목록 업데이트가 결합된 워크플로](assets/deduplication_example.png)
 
 1. 위에 표시된 대로 워크플로우가 작동하는 데 필요한 다양한 활동을 추가하고 연결합니다.
 
@@ -157,23 +157,23 @@ ht-degree: 14%
 
 예를 들어 중복 레코드 집합이 있는 경우 가장 오래된 전화 번호나 가장 최근 이름을 유지하도록 선택할 수 있습니다.
 
-이 기능을 활용하는 사용 사례는 [이 섹션](deduplication-merge.md)에서 사용할 수 있습니다.
+이 기능을 활용하는 사용 사례는 [중복 제거 활동의 병합 기능을 사용](deduplication-merge.md)할 수 있습니다.
 
 이렇게 하려면 다음 단계를 수행합니다.
 
 1. **[!UICONTROL Deduplication method]** 선택 단계에서 **[!UICONTROL Advanced Parameters]** 링크를 클릭합니다.
 
-   ![](assets/dedup1.png)
+   고급 매개 변수 링크가 강조 표시된 ![중복 제거 방법 단계](assets/dedup1.png)
 
 1. 기능을 활성화하려면 **[!UICONTROL Merge records]** 옵션을 선택하십시오.
 
    각 병합 조건에서 여러 데이터 필드를 그룹화하려면 **[!UICONTROL Use several record merging criteria]** 옵션을 활성화합니다.
 
-   ![](assets/dedup2.png)
+   ![레코드 병합 및 여러 레코드 병합 기준 사용 옵션을 선택한 고급 매개 변수](assets/dedup2.png)
 
 1. 기능을 활성화하면 **[!UICONTROL Merge]** 탭이 **[!UICONTROL Deduplication]** 활동에 추가됩니다. 병합할 필드 그룹과 관련 규칙을 정의할 수 있습니다.
 
-   자세한 내용은 [이 섹션](deduplication-merge.md)에서 사용 가능한 전용 사용 사례를 참조하세요.
+   자세한 내용은 [중복 제거 활동의 병합 기능 사용](deduplication-merge.md)에서 사용 가능한 전용 사용 사례를 참조하십시오.
 
 ## 입력 매개 변수 {#input-parameters}
 

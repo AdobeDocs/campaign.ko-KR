@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 4%
+source-wordcount: '206'
+ht-degree: 2%
 ---
 # 중복 수신자 필터링 {#filtering-duplicated-recipients}
 
@@ -37,19 +37,19 @@ ht-degree: 4%
 1. 워크플로우에서 **[!UICONTROL Query]** 활동을 끌어다 놓고 활동을 엽니다.
 1. **[!UICONTROL Edit query]**&#x200B;을(를) 클릭하고 대상 및 필터링 차원을 **[!UICONTROL Recipients]**(으)로 설정합니다.
 
-   ![](assets/query_recipients_1.png)
+   ![수신자가 선택된 쿼리 활동의 타겟팅 및 필터링 차원 단계, 필터링 조건 강조 표시.](assets/query_recipients_1.png)
 
 1. 게재 로그에 존재하는 수신자를 타겟팅하려면 다음 필터 조건을 정의하십시오. **식** 열에서 **받는 사람 게재 로그(broadlog)**&#x200B;를 선택하고 **연산자** 열에서 **존재(예:**)를 선택합니다.
 
-   ![](assets/query_recipients_2.png)
+   ![받는 사람 게재 로그(broadLog) 조건 및 연산자를 사용하는 필터 단계..](assets/query_recipients_2.png)
 
 1. 게재를 타겟팅할 다음 필터 조건을 정의합니다. 식 열에서 **[!UICONTROL Internal name]**&#x200B;을(를) 선택하고 연산자 열에서 **[!UICONTROL equal to]**&#x200B;을(를) 선택합니다.
 1. 값 열에서 타겟팅된 게재의 내부 이름을 추가합니다.
 
-   ![](assets/query_recipients_3.png)
+   ![다음과 같이 존재하는 경우 게재의 내부 이름에 summer_delivery_sales 값과 같은 조건을 필터링합니다.](assets/query_recipients_3.png)
 
 1. **[!UICONTROL AND]** 연산자를 사용하여 다른 게재를 대상으로 동일한 작업을 반복합니다.
 
-   ![](assets/query_recipients_4.png)
+   ![summer_delivery_sales 및 summer_delivery_new_collection을 대상으로 하여 And가 가입한 조건과 같은 두 가지 조건이 있습니다.](assets/query_recipients_4.png)
 
 아웃바운드 전환에는 게재에서 타겟팅한 중복 수신자가 포함됩니다.

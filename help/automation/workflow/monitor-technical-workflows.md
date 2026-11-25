@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '513'
 ht-degree: 5%
 ---
 # 기술 워크플로 모니터링 {#monitoring-technical-workflows}
@@ -37,7 +37,7 @@ ht-degree: 5%
 
 **[!UICONTROL Monitoring]** 탭을 통해 인스턴스 모니터링 대시보드에 액세스할 수 있습니다.
 
-![](assets/monitoring_technical_workflows1.png)
+![프로세스 목록, 실패한 워크플로우 및 게재, 시스템 표시기 링크가 있는 인스턴스 모니터링 대시보드](assets/monitoring_technical_workflows1.png)
 
 시스템 표시기 및 코어 파일에서 빨간색으로 강조 표시된 표시기가 없는지 확인합니다. 이 경우 일부 고객은 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -75,7 +75,7 @@ ht-degree: 5%
 
 **[!UICONTROL Workflow supervisors]** 그룹에는 실패를 알려야 하고 적시에 조치를 취할 수 있는 운영자가 포함되어야 합니다.
 
-![](assets/monitoring_technical_workflows3.png)
+![감독자 필드에서 워크플로 감독자가 선택된 워크플로 속성 일반 탭](assets/monitoring_technical_workflows3.png)
 
 문제가 발생하면 경고를 생성하고 올바른 그룹으로 보내야 합니다.
 
@@ -93,7 +93,7 @@ ht-degree: 5%
 * 모니터링 담당 운영자.
 * 오류 발생 시 수행할 작업에 대한 지침
 
-![](assets/monitoring_technical_workflows4.png)
+![각 워크플로 빈도, 시작, 기간, 폴더, 이름, 중요도 및 종속성을 나열하는 유지 관리 워크시트](assets/monitoring_technical_workflows4.png)
 
 ## 모니터링 계획 및 자동화 {#planning-and-automation-of-monitoring}
 

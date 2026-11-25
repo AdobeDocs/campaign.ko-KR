@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '1067'
 ht-degree: 0%
 ---
 # 데이터 강화{#enriching-data}
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 이 사용 사례에서는 타기팅 워크플로우에서 **[!UICONTROL Enrichment]** 활동을 사용할 수 있는 방법을 자세히 설명합니다. **[!UICONTROL Enrichment]** 활동 사용에 대한 자세한 내용은 [데이터 보강](enrichment.md)을 참조하세요.
 
-사용자 지정 날짜를 사용하여 전자 메일 게재를 보강하는 방법에 대한 사용 사례는 [이 섹션](email-enrichment-with-custom-date-fields.md)에서도 확인할 수 있습니다.
+사용자 지정 날짜를 사용하여 전자 메일 배달을 보강하는 방법에 대한 사용 사례는 [사용자 지정 날짜 필드를 사용한 전자 메일 강화](email-enrichment-with-custom-date-fields.md)에서도 사용할 수 있습니다.
 
 마케팅 데이터베이스의 연락처에게는 웹 애플리케이션을 통해 대회 참가 초대장이 전송됩니다. 대회 결과는 **[!UICONTROL Competition results]** 테이블에서 복구됩니다. 이 테이블은 연락처 테이블(**[!UICONTROL Recipients]**)에 연결되어 있습니다. **[!UICONTROL Competition results]** 테이블에는 다음 필드가 포함되어 있습니다.
 
@@ -47,17 +47,17 @@ ht-degree: 0%
 * 체험판 번호(@trial)
 * 점수(@score)
 
-![](assets/uc1_enrich_1.png)
+![수신자 표가 경쟁 이름, 평가판 번호 및 점수 필드가 있는 경쟁 결과 표에 1-n 연결되었습니다.](assets/uc1_enrich_1.png)
 
 **[!UICONTROL Recipients]** 테이블에 있는 연락처를 **[!UICONTROL Competition results]** 테이블의 여러 줄에 연결할 수 있습니다. 이 두 테이블 간의 관계는 1-n 형식입니다. 다음은 수신자에 대한 결과 로그의 예입니다.
 
-![](assets/uc1_enrich_2.png)
+![경쟁업체 이름, 평가판 번호 및 점수가 있는 3개의 경쟁업체 결과 줄을 나열하는 수신자의 경쟁업체 탭](assets/uc1_enrich_2.png)
 
 이 사용 사례의 목적은 가장 높은 점수에 따라 최신 대회에 참가한 사람에게 개인화된 게재를 보내는 것입니다. 가장 높은 점수를 받은 수상자는 1등, 두 번째로 높은 점수를 받은 수상자는 위로금을 받고, 그 외의 모든 수상자는 다음 번에 더 좋은 행운을 기원하는 메시지를 받습니다.
 
 이 사용 사례를 설정하기 위해 다음과 같은 타겟팅 워크플로우를 만들었습니다.
 
-![](assets/uc1_enrich_3.png)
+![타깃팅 워크플로: 두 개의 쿼리가 교차를 제공한 다음 데이터 보강 및 분할을 수행하여 세 개의 게재 활동을 만듭니다.](assets/uc1_enrich_3.png)
 
 워크플로우를 만들려면 다음 단계를 적용합니다.
 
@@ -70,11 +70,11 @@ ht-degree: 0%
 
 첫 번째 쿼리는 지난 6개월 내에 데이터베이스에 추가된 수신자를 타겟팅하는 데 사용됩니다.
 
-![](assets/uc1_enrich_4.png)
+![MonthsAgo(-6) 또는 그 이후에 필터 생성 날짜(@created)가 있는 최근 구독자를 쿼리합니다.](assets/uc1_enrich_4.png)
 
 두 번째 쿼리는 마지막 대회에 참가한 수신자를 타겟팅하는 데 사용됩니다.
 
-![](assets/uc1_enrich_5.png)
+![가장 약한 링크와 같은 경쟁 제품 이름과 같은 경쟁 제품에 대한 쿼리 활동 필터링이 있습니다.](assets/uc1_enrich_5.png)
 
 그런 다음 지난 6개월 내에 데이터베이스에 추가된 수신자와 마지막 경쟁에 참여한 수신자를 타겟팅하기 위해 **[!UICONTROL Intersection]** 유형 활동이 추가됩니다.
 
@@ -84,62 +84,62 @@ ht-degree: 0%
 
 1. 데이터 보강 활동의 편집 화면에서 **[!UICONTROL Add data]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Data linked to the filtering dimension]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/uc1_enrich_6.png)
+   ![필터링 차원 옵션에 연결된 데이터를 선택하고 다음을 강조 표시한 추가 데이터 대화 상자.](assets/uc1_enrich_6.png)
 
 1. **[!UICONTROL Data linked to the filtering dimension]** 옵션을 선택하고 **[!UICONTROL Competition results]** 테이블을 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/uc1_enrich_7.png)
+   ![필터링 차원에 연결된 데이터 아래에서 경쟁 결과 링크가 선택된 화면을 추가할 필드를 선택하십시오.](assets/uc1_enrich_7.png)
 
 1. ID와 레이블을 입력하고 **[!UICONTROL Data collected]** 필드에서 **[!UICONTROL Limit the line count]** 옵션을 선택합니다. **[!UICONTROL Lines to retrieve]** 필드에서 &#39;1&#39;을 값으로 선택합니다. 데이터 보강 활동은 각 받는 사람에 대해 **[!UICONTROL Competition results]** 테이블의 한 줄을 워크플로의 작업 테이블에 추가합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/uc1_enrich_8.png)
+   ![수집된 데이터가 1로 설정된 일반 매개 변수 화면(줄 수 제한 및 검색할 줄 수 제한)입니다.](assets/uc1_enrich_8.png)
 
 1. 이 예제에서는 수신자의 가장 높은 점수를 복구하려고 하지만, 마지막 대회에서만 복구하려고 합니다. 이렇게 하려면 **[!UICONTROL Competition name]** 필드에 필터를 추가하여 이전 대회와 관련된 모든 줄을 제외합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/uc1_enrich_9.png)
+   ![경쟁사 이름(@game) 조건이 가장 약한 링크와 같은 화면을 필터링합니다.](assets/uc1_enrich_9.png)
 
 1. **[!UICONTROL Sort]** 화면으로 이동하여 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Score]** 필드를 선택한 다음 **[!UICONTROL descending]** 열의 확인란을 선택하여 **[!UICONTROL Score]** 필드의 항목을 내림차순으로 정렬합니다. 각 수신자에 대해 데이터 보강 활동은 마지막 게임의 가장 높은 점수와 일치하는 라인을 추가합니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/uc1_enrich_10.png)
+   ![가장 높은 점수를 유지하기 위해 내림차순을 선택한 상태로 점수 필드가 추가되는 정렬 화면입니다.](assets/uc1_enrich_10.png)
 
 1. **[!UICONTROL Data to add]** 창에서 **[!UICONTROL Score]** 필드를 두 번 클릭합니다. 데이터 보강 활동은 각 받는 사람에 대해 **[!UICONTROL Score]** 필드만 추가합니다. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/uc1_enrich_11.png)
+   ![출력 열의 점수(@score) 필드만 강조 표시된 화면을 추가할 데이터입니다.](assets/uc1_enrich_11.png)
 
 데이터 보강 활동의 인바운드 전환을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Display the target]**&#x200B;을(를) 선택합니다. 작업 표에는 다음 데이터가 포함되어 있습니다.
 
-![](assets/uc1_enrich_13.png)
+![대상 표시, 기본 키 및 대상 차원을 점수 없이 나열하는 모집단 보기 창이 열렸습니다.](assets/uc1_enrich_13.png)
 
 연결된 스키마는 다음과 같습니다.
 
-![](assets/uc1_enrich_15.png)
+![기본 키 및 타깃팅 차원과의 교차를 표시하는 인바운드 모집단의 스키마 탭입니다.](assets/uc1_enrich_15.png)
 
 데이터 보강 활동의 아웃바운드 전환 시 이 작업을 갱신합니다. 수신자 점수와 연계된 데이터가 추가된 것을 알 수 있다. 각 수신자의 최고 점수가 복구되었습니다.
 
-![](assets/uc1_enrich_12.png)
+![데이터 보강 후 모집단 보기 창에서 각 수신자의 점수가 가장 높은 점수 열을 나열합니다.](assets/uc1_enrich_12.png)
 
 일치하는 스키마도 보강되었습니다.
 
-![](assets/uc1_enrich_14.png)
+점수 필드가 추가된 경쟁 결과를 보여 주는 풍부한 모집단의 ![스키마 탭.](assets/uc1_enrich_14.png)
 
 ## 3단계: 분할 및 게재 {#step-3--split-and-delivery}
 
 점수를 기준으로 수신자를 정렬하려면 데이터 보강 후 **[!UICONTROL Split]** 활동이 추가됩니다.
 
-![](assets/uc1_enrich_18.png)
+![3개의 아웃바운드 전환을 사용하는 분할 활동을 게재 활동 1위, 2위로 나누어 다시 시도하십시오.](assets/uc1_enrich_18.png)
 
 1. 점수가 가장 높은 받는 사람을 포함하도록 첫 번째(**우승자**) 하위 집합이 정의되었습니다. 이렇게 하려면 레코드 수 제한을 정의하고 점수에 내림차순 정렬을 적용한 다음 레코드 수를 1로 제한합니다.
 
-   ![](assets/uc1_enrich_16.png)
+   ![분할 하위 집합 우승자가 하나의 레코드로 제한되며 점수(추가 데이터/경쟁 결과) 내림차순으로 정렬됩니다.](assets/uc1_enrich_16.png)
 
 1. 두 번째(**두 번째**) 하위 집합에는 두 번째로 높은 점수를 받은 수신자가 포함됩니다. 구성은 첫 번째 하위 집합과 동일합니다.
 
-   ![](assets/uc1_enrich_17.png)
+   ![우승자와 같이 구성된 분할 하위 집합 2위: 내림차순으로 정렬되며 1로 제한됩니다.](assets/uc1_enrich_17.png)
 
 1. 세 번째(**패자**) 하위 집합에는 다른 모든 수신자가 포함됩니다. **[!UICONTROL General]** 탭으로 이동하여 **[!UICONTROL Generate complement]** 상자를 선택하여 두 개의 최고 점수를 달성하지 못한 모든 수신자를 타겟팅합니다.
 
-   ![](assets/uc1_enrich_19.png)
+   ![일반 탭 분할(보조 항목 생성이 확인되고 보조 항목 레이블이 손실됩니다.](assets/uc1_enrich_19.png)
 
 1. 각 하위 집합에 대해 서로 다른 게재 템플릿을 사용하여 **[!UICONTROL Delivery]** 형식 활동을 추가합니다.
 
-   ![](assets/uc1_enrich_20.png)
+   ![배달 활동 1순위가 템플릿 1순위 배달(DM41)에서 만들어졌습니다.](assets/uc1_enrich_20.png)

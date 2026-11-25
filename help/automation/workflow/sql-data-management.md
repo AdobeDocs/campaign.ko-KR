@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '436'
 ht-degree: 3%
 ---
 # SQL 데이터 관리{#sql-data-management}
@@ -73,7 +73,7 @@ ht-degree: 3%
 
    그렇지 않으면 전용 영역에 SQL 스크립트를 입력하거나 복사하여 붙여넣습니다.
 
-   ![](assets/sql_datamanagement.png)
+   ![아웃바운드 스키마 받는 사람 및 들어오는 전환 테이블 이름을 사용하는 SQL 스크립트를 사용하는 SQL 데이터 관리 작업](assets/sql_datamanagement.png)
 
    활동을 통해 스크립트에서 다음 변수를 사용할 수 있습니다.
 

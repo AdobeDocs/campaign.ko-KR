@@ -25,9 +25,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '532'
 ht-degree: 1%
 ---
 # 목록 업데이트{#list-update}
@@ -36,13 +36,13 @@ ht-degree: 1%
 
 **목록 업데이트** 활동은 전환에 지정된 모집단을 받는 사람 목록에 저장합니다.
 
-![](assets/s_user_segmentation_update_group.png)
+![목록 업데이트 활동 편집기(명시적으로 선택됨, 목록 폴더 및 저장 유형 옵션)를 선택합니다.](assets/s_user_segmentation_update_group.png)
 
 기존 그룹 목록에서 목록을 선택할 수 있습니다.
 
 **[!UICONTROL Create the list if necessary (Computed name)]** 및 **[!UICONTROL Create the list if necessary (Computed Folder and Name)]** 옵션을 사용하여 만들 수도 있습니다. 이러한 옵션을 사용하면 목록에서 원하는 레이블을 선택하고 나중에 저장할 폴더를 선택할 수 있습니다. 동적 필드 또는 스크립트를 삽입하여 레이블을 자동으로 생성할 수도 있습니다. 레이블 오른쪽에 있는 팝업 메뉴에서 다양한 동적 필드를 사용할 수 있습니다.
 
-![](assets/s_user_segmentation_update_list_calc.png)
+![목록 업데이트 활동을 필요에 따라 목록 만들기(계산된 이름)를 선택하고 계산된 레이블 스크립트를 사용합니다.](assets/s_user_segmentation_update_list_calc.png)
 
 목록이 이미 있으면 **[!UICONTROL Purge the list if it exists (otherwise add to the list)]** 옵션을 선택하지 않으면 수신자가 기존 콘텐츠에 추가됩니다. 이 경우 업데이트 전에 목록의 콘텐츠가 삭제됩니다.
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 일반적으로 대상을 목록에 저장하면 워크플로우의 끝이 표시됩니다. 따라서 기본적으로 **[!UICONTROL List update]** 활동에는 아웃바운드 전환이 없습니다. 옵션을 추가하려면 **[!UICONTROL Generate an outbound transition]** 옵션을 선택하십시오.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 탐색기의 받는 사람 목록을 만드는 방법을 알아봅니다](#video)
+![비디오 링크에 대한 재생 단추 아이콘](assets/do-not-localize/how-to-video.png) [비디오에서 탐색기의 받는 사람 목록을 만드는 방법을 알아봅니다](#video)
 
 ## 예: 목록 업데이트 {#example--list-update}
 
@@ -71,7 +71,7 @@ ht-degree: 1%
 1. **[!UICONTROL Generate an outbound transition]** 옵션을 선택하지 않은 상태로 둡니다.
 1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭한 다음 워크플로를 시작합니다.
 
-   ![](assets/s_user_segmentation_update_list_calc_example.png)
+   ![목록 폴더에 목록 M_WestUS_18-30을 만들기 위한 목록 업데이트 활동 집합입니다. 비우기 및 재사용이 확인되었습니다.](assets/s_user_segmentation_update_list_calc_example.png)
 
    그러면 일치하는 수신자 목록이 생성되거나 업데이트됩니다.
 

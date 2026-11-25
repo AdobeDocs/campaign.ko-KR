@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '277'
 ht-degree: 0%
 ---
 # 집계 계산 수행 {#performing-aggregate-computing}
@@ -48,12 +48,12 @@ ht-degree: 0%
 
 1. **[!UICONTROL Data to extract]**&#x200B;에서 기본 키의 개수를 정의합니다(이전 예제와 같이). 출력 열에 **[!UICONTROL Gender]** 필드를 추가합니다. **[!UICONTROL Gender]** 열에서 **[!UICONTROL Group]** 옵션을 선택하십시오. 이렇게 하면 수신자를 성별에 따라 그룹화합니다.
 
-   ![](assets/query_editor_nveau_27.png)
+   ![count(기본 키)와 성별 열을 사용하여 추출할 데이터 및 성별에 대해 그룹이 예로 설정된 경우](assets/query_editor_nveau_27.png)
 
 1. **[!UICONTROL Sorting]** 창에서 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다. 여기에는 정렬이 필요하지 않습니다.
 1. 데이터 필터링을 구성합니다. 여기서는 런던에 거주하는 연락처로 선택을 제한합니다.
 
-   ![](assets/query_editor_22.png)
+   ![대상 요소 필터: 쿼리 요약이 강조 표시된 런던과 같은 도시(위치/@city)입니다.](assets/query_editor_22.png)
 
    >[!NOTE]
    >
@@ -64,4 +64,4 @@ ht-degree: 0%
 
    성별을 기준으로 정렬되는 각 값에는 세 개의 값이 있습니다. 여성의 경우 **2**, 남성의 경우 **1**, 성별을 알 수 없는 경우 **0**. 이 예에서는 여성 10명, 남성 16명, 성별이 알려지지 않은 2명의 명단이 포함되어 있다.
 
-   ![](assets/query_editor_agregat_04.png)
+   ![성별 값 2, 1, 0에 대해 10, 16, 2를 보여 주는 데이터 미리 보기.](assets/query_editor_agregat_04.png)

@@ -28,16 +28,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 3%
+source-wordcount: '822'
+ht-degree: 2%
 ---
 # 로컬 승인{#local-approval}
 
 **[!UICONTROL Local approval]** 활동을 타겟팅 워크플로우에 통합하면 게재를 보내기 전에 받는 사람 승인 프로세스를 설정할 수 있습니다.
 
-![](assets/local_validation_0.png)
+![로컬 승인 활동(대상 승인 알림 작업, 승인 관리 및 보조 항목 생성 옵션 포함)](assets/local_validation_0.png)
 
 >[!CAUTION]
 >
@@ -47,23 +47,23 @@ ht-degree: 3%
 
 활동 및 **[!UICONTROL Action to execute]** 필드에 대한 레이블을 입력하여 시작하십시오.
 
-![](assets/local_validation_1.png)
+![로컬 승인 활동 레이블 및 수행할 작업: Target 승인 알림 또는 게재 피드백 보고서.](assets/local_validation_1.png)
 
 * **[!UICONTROL Target approval notification]** 옵션을 선택하여 게재 전에 로컬 관리자에게 알림 전자 메일을 보내 할당된 받는 사람을 승인하도록 요청합니다.
 
 * **증분 쿼리**: 쿼리를 수행하고 실행 계획을 세울 수 있습니다. [증분 쿼리](incremental-query.md) 섹션을 참조하십시오.
 
-  ![](assets/local_validation_intro_3.png)
+  성별별 수신자의 게재 피드백 목록과 상태(전송, 열림, 클릭)가 포함된 ![로컬 유효성 검사 웹 페이지](assets/local_validation_intro_3.png)
 
 ## 대상 승인 미리 알림 {#target-approval-notification}
 
 이 경우 **[!UICONTROL Local approval]** 활동은 업스트림 타겟팅과 게재 사이에 배치됩니다.
 
-![](assets/local_validation_2.png)
+![쿼리 1과 배달 사이에 로컬 유효성 검사 활동이 있는 워크플로우입니다.](assets/local_validation_2.png)
 
 대상 승인을 위한 알림의 경우 입력할 필드는 다음과 같습니다.
 
-![](assets/local_validation_3.png)
+![대상 승인 알림에 대한 로컬 승인 필드: 배포 컨텍스트, 승인 유형, 템플릿, 미리 알림.](assets/local_validation_3.png)
 
 * **[!UICONTROL Distribution context]**: 타깃팅된 모집단을 제한하기 위해 **[!UICONTROL Split]** 유형 활동을 사용하는 경우 **[!UICONTROL Specified in the transition]** 옵션을 선택하십시오. 이 경우 분배 템플릿은 분할 활동에 입력됩니다. 대상 모집단을 제한하지 않는 경우 여기에서 **[!UICONTROL Explicit]** 옵션을 선택하고 **[!UICONTROL Data distribution]** 필드에 배포 템플릿을 입력하십시오.
 
@@ -90,11 +90,11 @@ ht-degree: 3%
 
 이 경우 **[!UICONTROL Local approval]** 활동은 게재 후에 배치됩니다.
 
-![](assets/local_validation_4.png)
+![게재 활동 후에 대기 및 로컬 유효성 검사 2 활동이 있는 워크플로우입니다.](assets/local_validation_4.png)
 
 게재 피드백 보고서의 경우 다음 필드를 입력해야 합니다.
 
-![](assets/local_validation_workflow_4.png)
+![로컬 승인이 전환 배달 옵션 및 템플릿에 지정된 배달 피드백 보고서로 설정되었습니다.](assets/local_validation_workflow_4.png)
 
 * 이전 활동 중에 게재를 입력한 경우 **[!UICONTROL Specified in the transition]** 옵션을 선택합니다. 로컬 승인 활동에서 게재를 지정하려면 **[!UICONTROL Explicit]**&#x200B;을(를) 선택하십시오.
 * 게재 템플릿과 알림 이메일의 오브젝트를 선택합니다. 기본 템플릿 **[!UICONTROL Local approval notification]**&#x200B;이(가) 있습니다.
@@ -111,22 +111,22 @@ ht-degree: 3%
 
   게재를 승인하려면 관련 링크를 클릭하고 Adobe Campaign 클라이언트 콘솔에 로그온합니다.
 
-  ![](assets/new-workflow-valid-webaccess.png)
+  ![574명의 받는 사람을 승인할지 여부를 묻는 승인 요청 전자 메일과 회신하려면 여기를 클릭하세요.](assets/new-workflow-valid-webaccess.png)
 
   선택하고 **[!UICONTROL Submit]** 단추를 클릭합니다.
 
-  ![](assets/new-workflow-valid-webaccess-confirm.png)
+  ![설명 필드, 예/아니요 선택 및 제출 단추가 있는 승인 웹 페이지입니다.](assets/new-workflow-valid-webaccess-confirm.png)
 
 * 클라이언트 콘솔을 통한 승인
 
   트리 구조에서 **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** 노드에는 현재 연결된 운영자가 승인할 작업 목록이 포함되어 있습니다. 목록에 한 줄이 표시됩니다. 응답하려면 이 줄을 두 번 클릭하십시오. 다음 창이 표시됩니다.
 
-![](assets/new-workflow-7.png)
+![클라이언트 콘솔의 승인 보류 중인 노드와 [예]를 선택하고 [승인] 단추를 사용하는 작업 승인 창.](assets/new-workflow-7.png)
 
 **예**&#x200B;를 선택한 다음 **[!UICONTROL Approve]**&#x200B;을(를) 클릭합니다. 응답이 기록되었음을 알리는 메시지가 표시됩니다.
 
 워크플로우 화면으로 돌아갑니다. 10초 정도 지나면 다음과 같이 다이어그램이 표시됩니다.
 
-![](assets/new-workflow-8.png)
+![승인 후 워크플로 다이어그램: 게재, 승인, 게재 제어 및 종료(예 분기 사용).](assets/new-workflow-8.png)
 
 워크플로에서 **[!UICONTROL Delivery control]** 작업을 실행했습니다. 이 경우 이전에 만든 게재를 시작하는 것입니다. 워크플로우가 오류 없이 완료되었습니다.
