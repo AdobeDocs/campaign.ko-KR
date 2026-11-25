@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1189'
 ht-degree: 3%
 ---
 # Adobe Campaign 기본 제공 보고서 {#ootb-reports}
@@ -57,32 +57,32 @@ Campaign 기본 제공 보고서에 액세스하려면:
 
 1. Adobe Campaign 인터페이스의 **[!UICONTROL Reports]** 탭을 선택합니다.
 
-   ![](assets/reporting-access-from-home.png)
+   ![Campaign 홈에서 강조 표시된 보고서 탭으로 기본 제공 보고서의 전역 보고서 목록을 표시합니다.](assets/reporting-access-from-home.png)
 
 1. 검색 필드를 사용하여 표시된 보고서를 필터링합니다.
 
 1. 그런 다음 표시할 보고서를 클릭합니다.
 
-   ![](assets/edit-a-report.png)
+   ![예산에 검색 필드로 필터링된 전역 보고서 목록에서 일치하는 보고서를 열어 봅니다.](assets/edit-a-report.png)
 
 1. 보고서 목록으로 돌아가려면 화면 상단의 **[!UICONTROL Back]** 링크를 클릭합니다.
 
-   ![](assets/back-button.png)
+   ![보고서 목록으로 돌아가려면 오른쪽 상단에 [뒤로] 단추가 강조 표시된 비용 분석 보고서입니다.](assets/back-button.png)
 
 캠페인 또는 게재와 관련된 보고서는 해당 대시보드를 통해 액세스할 수 있습니다.
 
-![](assets/reporting-on-delivery.png)
+![보고서 링크가 강조 표시된 게재 대시보드로 게재 보고서를 나열합니다.](assets/reporting-on-delivery.png)
 
 원칙은 아래와 같이 목록, 서비스, 오퍼 등에 대해 동일합니다.
 
-![](assets/reporting-on-offer.png)
+![목록 보고서에 액세스하기 위해 보고서 링크가 강조 표시된 목록 대시보드입니다.](assets/reporting-on-offer.png)
 
 
 ## 게재 보고서 {#reports-on-deliveries}
 
 Adobe Campaign에서 제공하는 기본 제공 보고서는 아래 표에서 확인할 수 있습니다.
 
-이 보고서의 내용에 대한 자세한 정보는 [이 섹션](delivery-reports.md)을 참조하세요.
+이러한 보고서의 내용에 대한 자세한 내용은 [Adobe Campaign 기본 제공 게재 보고서](delivery-reports.md)를 참조하세요.
 
 <table> 
  <tbody> 

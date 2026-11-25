@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 2%
+source-wordcount: '1786'
+ht-degree: 1%
 ---
 # 큐브 사용자 정의{#cube-custom}
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 비닝을 활성화하려면 차원을 생성할 때 해당 상자를 선택합니다.
 
-![](assets/cube-class.png)
+![비닝 구성에서 비닝 사용 옵션이 선택된 Dimension 만들기 대화 상자.](assets/cube-class.png)
 
 BIN을 수동으로 만들거나 기존 [열거형](../config/enumerations.md)에 연결할 수 있습니다.
 
@@ -56,15 +56,15 @@ Adobe Campaign은 자동 비닝을 위한 도우미도 제공합니다. 값은 N
 
 각 저장소를 개별적으로 만들려면 **[!UICONTROL Define each bin]** 옵션을 선택하고 표를 사용하여 다양한 저장소를 만드십시오.
 
-![](assets/cube-binning.png)
+![각 저장소 정의 옵션이 선택되어 있고 빈 저장소 테이블이 있는 Dimension 빈 설정입니다.](assets/cube-binning.png)
 
 새 저장소를 만들고 저장소로 그룹화할 값을 나열하려면 **[!UICONTROL Add]** 단추를 클릭하십시오.
 
-![](assets/cube-add-new-bin.png)
+![값 목록, 프랑스어 및 이탈리아어, 추가 단추가 있는 새 빈 대화 상자와 더 많은 값을 나열합니다.](assets/cube-add-new-bin.png)
 
 다음 예제에서는 언어가 영어/독일어/네덜란드어, 프랑스어/이탈리아어/스페인어, 기타 세 가지 범주로 그룹화됩니다.
 
-![](assets/cube-add-new-bin-2.png)
+![프랑스어, 이탈리아어, 스페인어 및 영어, 독일어, 네덜란드어, 기타 값(기타)이 있는 언어 차원.](assets/cube-add-new-bin-2.png)
 
 SQL 마스크를 사용하여 여러 값을 필터로 결합할 수 있습니다. 이렇게 하려면 **[!UICONTROL Use an SQL mask]** 열에서 **[!UICONTROL Yes]**&#x200B;을(를) 확인하고 **[!UICONTROL Value or expression]** 열에 적용할 SQL 필터를 입력하십시오.
 
@@ -79,11 +79,11 @@ SQL 마스크를 사용하여 여러 값을 필터로 결합할 수 있습니다
 1. 새 차원을 만들고 비닝을 활성화합니다.
 1. **[!UICONTROL Dynamically link the values to an enumeration]** 옵션을 선택하고 일치하는 열거형을 선택하십시오.
 
-   ![](assets/cube-link-to-enum.png)
+   ![사용 가능한 열거형 목록을 열어 선택한 열거형 옵션에 값을 동적으로 연결합니다.](assets/cube-link-to-enum.png)
 
    열거형 값이 업데이트될 때마다 일치하는 저장소는 자동으로 조정됩니다.
 
-   [이 페이지](../config/enumerations.md)의 열거형에 대해 자세히 알아보세요.
+   [열거형 관리](../config/enumerations.md)에서 열거형에 대해 자세히 알아보세요.
 
 ### 값 범위 만들기 {#create-value-ranges}
 
@@ -115,11 +115,11 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 또한 Adobe Campaign에서는 다음 예와 같이 데이터베이스에 있는 모든 연락처의 이메일 도메인 목록을 ISP별로 다시 그룹화하여 표시할 수 있도록 하는 도메인에 대한 열거형을 제공합니다.
 
-![](assets/nmx_report_sample.png)
+![ISP(AOL, Free, Gmail, Microsoft, Yahoo, 기타)별로 그룹화된 전자 메일 도메인이 있는 클라이언트 원본 및 전자 메일 도메인 보고서입니다.](assets/nmx_report_sample.png)
 
 이 템플릿은 다음 템플릿을 사용하여 빌드됩니다.
 
-![](assets/nmx_enum_domain.png)
+![값(AOL, Free, Gmail, Microsoft, Yahoo) 및 도메인 별칭을 사용하여 비닝 시 예약된 도메인 열거형으로 설정합니다.](assets/nmx_enum_domain.png)
 
 이 열거형을 사용하여 보고서를 만들려면 **[!UICONTROL Email domain]** 차원을 사용하여 큐브를 만드십시오. **[!UICONTROL Enable binning]** 옵션을 선택한 다음 **[!UICONTROL Dynamically link the values to an enumeration]**&#x200B;을(를) 선택하십시오. 그런 다음 위와 같이 **도메인** 열거형을 선택합니다. 지정된 별칭이 없는 모든 값은 **기타** 레이블 아래에 다시 그룹화됩니다.
 
@@ -127,13 +127,13 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 관련 보고서를 업데이트하려면 열거형만 수정하면 됩니다. 예를 들어 **Adobe** 값을 만들고 **adobe.com** 별칭을 추가하면 보고서가 열거형 수준에서 Adobe 값으로 자동 업데이트됩니다.
 
-![](assets/nmx_add_alias.png)
+![보고서에 Neolane 줄을 추가하는 도메인 열거형에 neolane.com 별칭을 추가합니다.](assets/nmx_add_alias.png)
 
 **[!UICONTROL Domains]** 열거형은 도메인 목록을 표시하는 기본 제공 보고서를 생성하는 데 사용됩니다. 이러한 보고서의 콘텐츠를 조정하기 위해 이 목록을 편집할 수 있습니다.
 
 빈에 예약된 다른 열거형을 만들어 다른 큐브에서 사용할 수 있습니다. 모든 별칭 값은 첫 번째 열거형 탭에 지정된 빈에 다시 그룹화됩니다.
 
-[이 페이지](../../v8/config/ui-settings.md)의 열거형에 대해 자세히 알아보세요.
+[Campaign 인터페이스 설정](../../v8/config/ui-settings.md)의 열거형에 대해 자세히 알아보세요.
 
 ## 큐브의 집계 {#calculate-and-use-aggregates}
 
@@ -143,7 +143,7 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 합계는 각 큐브의 관련 탭에 정의됩니다.
 
-![](assets/cube-agregate.png)
+![추가 단추를 사용하여 큐브 합계를 나열하는 탐색기에 있는 큐브의 합계 탭](assets/cube-agregate.png)
 
 >[!NOTE]
 >
@@ -156,7 +156,7 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 1. 차원 및 레벨을 선택합니다. 각 차원 및 각 레벨에 대해 이 프로세스를 반복합니다.
 1. 집계 워크플로우를 만들려면 **[!UICONTROL Workflow]** 탭을 클릭하십시오.
 
-   * **[!UICONTROL Scheduler]** 활동을 통해 계산 업데이트 빈도를 정의할 수 있습니다. 스케줄러는 [이 섹션](../../automation/workflow/scheduler.md)에 자세히 설명되어 있습니다.
+   * **[!UICONTROL Scheduler]** 활동을 통해 계산 업데이트 빈도를 정의할 수 있습니다. 스케줄러는 [스케줄러 활동 구성](../../automation/workflow/scheduler.md#configuring-scheduler-activity)에 자세히 설명되어 있습니다.
    * **[!UICONTROL Aggregate update]** 활동을 사용하면 적용할 업데이트 모드를 전체 또는 일부 중에서 선택할 수 있습니다.
 
      기본적으로 각 계산 중에 전체 업데이트가 수행됩니다. 부분 업데이트를 활성화하려면 관련 옵션을 선택하고 업데이트 조건을 정의합니다.
@@ -171,15 +171,15 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 1. 측정값 목록 위에 있는 **[!UICONTROL Add]** 단추를 클릭하고 측정값 유형과 계산할 공식을 선택합니다.
 
-   ![](assets/cube-create-a-measure.png)
+   ![연산자 목록이 열려 있는 측정값 만들기 대화 상자(Count, Sum, Minimum, Maximum, Average 등)](assets/cube-create-a-measure.png)
 
 1. 필요한 경우 연산자에 따라 연산에 관련된 표현식을 선택합니다.
 
-   **[!UICONTROL Advanced selection]** 단추를 사용하면 복잡한 계산 공식을 만들 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../automation/workflow/query.md)을 참조하십시오.
+   **[!UICONTROL Advanced selection]** 단추를 사용하면 복잡한 계산 공식을 만들 수 있습니다. 자세한 내용은 [쿼리](../../automation/workflow/query.md)를 참조하세요.
 
 1. **[!UICONTROL Filter the measure data...]** 링크를 사용하면 계산 필드를 제한하고 데이터베이스의 특정 데이터에만 적용할 수 있습니다.
 
-   ![](assets/cube-create-measure-2.png)
+   ![BasketMusic 식에서 연산자 목록이 열려 있는 측정값의 조건을 필터링합니다.](assets/cube-create-measure-2.png)
 
 1. 측정값의 레이블을 입력하고 설명을 추가한 다음 **[!UICONTROL Finish]**&#x200B;을(를) 클릭하여 만듭니다.
 
@@ -197,7 +197,7 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 표시 순서를 변경하려면 선을 이동합니다. 다음 예에서 프랑스어 데이터는 목록의 맨 아래로 이동됩니다. 즉, 마지막 열에 표시됩니다.
 
-![](assets/cube-in-report-settings.png)
+![프랑스어 측정값을 끝으로 드래그하면 보고서에서 해당 열이 마지막으로 이동하는 측정값 구성 창](assets/cube-in-report-settings.png)
 
 ### 디스플레이 구성 {#configuring-the-display}
 
@@ -207,17 +207,17 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
   측정값의 레이블을 표시할지 여부를 선택하고 해당 레이아웃(선 또는 열)을 구성할 수 있습니다.
 
-![](assets/cube-pivot-table-config-details.png)
+![방향 목록(행, 열), 레이블, 맞춤 및 캡션 옵션이 있는 피벗 테이블 구성 대화 상자](assets/cube-pivot-table-config-details.png)
 
 색상 옵션을 사용하면 쉽게 읽을 수 있도록 중요한 값을 강조 표시할 수 있습니다.
 
-![](assets/cube-pivot-table-color.png)
+![색상 섹션을 사용한 피벗 테이블 구성: 활성화, 사용한 측정값, 하한, 상한 및 색조.](assets/cube-pivot-table-color.png)
 
 ### 표시되는 측정 유형 변경 {#changing-the-type-of-measure-displayed}
 
 각 측정값 내에서 적용할 단위 및 서식을 정의할 수 있습니다.
 
-![](assets/cube-pivot-table-config-units.png)
+![측정값에 대한 레이블, 서식, 소수 자릿수, 단위 및 단위 배치를 사용하여 측정값 창을 구성합니다.](assets/cube-pivot-table-config-units.png)
 
 ## 보고서 공유 {#share-a-report}
 
@@ -225,7 +225,7 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 이렇게 하려면 **[!UICONTROL Show the report properties]** 아이콘을 클릭하고 **[!UICONTROL Share this report]** 옵션을 활성화합니다.
 
-![](assets/cube_share_option.png)
+![보고서 공유 옵션이 예로 설정되어 있고 범주 및 관련성 필드가 있는 보고서 속성 대화 상자](assets/cube_share_option.png)
 
 보고서가 속한 범주 및 해당 관련성을 지정합니다. <!--For more on this, refer in [this page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) to the **Display sequence** and **Defining the filtering options** sections.-->
 
@@ -239,13 +239,13 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 1. **[!UICONTROL Add a filter]** 아이콘을 클릭합니다.
 
-   ![](assets/cube_add_filter.png)
+   ![회사별 클라이언트 피벗 테이블 위에 강조 표시된 필터 추가 아이콘으로 보고서 도구 모음.](assets/cube_add_filter.png)
 
 1. 필터에 대한 차원 선택
 
 1. 필터 유형과 전체 자릿수를 선택합니다.
 
-   ![](assets/cube_ceate_filter.png)
+   ![유지 기간 등 유지할 값 범위를 선택하려면 확인란이 포함된 필터 대화 상자를 추가하십시오.](assets/cube_ceate_filter.png)
 
 1. 필터가 생성되면 보고서 위에 표시됩니다.
 
@@ -253,7 +253,7 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
    필터를 필요한 수만큼 결합할 수 있습니다. 모든 필터가 이 영역에 표시됩니다.
 
-   ![](assets/cube_multiple_filters.png)
+   ![보고서 위의 필터 영역에 구/군/시, 회사 및 연령의 세 가지 필터가 결합되었습니다.](assets/cube_multiple_filters.png)
 
 필터가 수정(추가, 제거, 변경)될 때마다 보고서를 다시 계산해야 합니다.
 
@@ -261,8 +261,8 @@ Adobe Campaign을 사용하면 보고서의 관련성과 가독성을 개선하�
 
 라인, 열 또는 셀을 선택하려면 마우스 왼쪽 단추로 클릭합니다. 선택을 취소하려면 다시 클릭합니다.
 
-![](assets/cube_create_filter_from_selection.png)
+![런던 회선이 선택되고 선택 아이콘의 필터가 강조 표시된 내 클라이언트 보고서.](assets/cube_create_filter_from_selection.png)
 
 필터가 자동으로 적용되며 보고서 위의 필터 영역에 추가됩니다.
 
-![](assets/cube_create_filter_display.png)
+![London에서 필터링된 보고서로, City = London 필터가 보고서 위의 필터 영역에 표시됩니다.](assets/cube_create_filter_display.png)

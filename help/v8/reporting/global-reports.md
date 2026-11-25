@@ -31,20 +31,20 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1782'
-ht-degree: 8%
+source-wordcount: '1984'
+ht-degree: 6%
 ---
 # 전반적 보고서 {#global-reports}
 
 이러한 보고서는 전체 데이터베이스의 데이터 활동과 관련이 있습니다. 보고서 대시보드를 보려면 **[!UICONTROL Reports]** 탭으로 이동하십시오.
 
-![](assets/reports-tab.png)
+![보고서 타일이 있는 글로벌 보고서 대시보드를 표시하는 Adobe Campaign 홈 페이지의 보고서 탭](assets/reports-tab.png)
 
 보고서를 표시하려면 보고서 이름을 클릭합니다. 기본적으로 다음 보고서를 사용할 수 있습니다.
 
-![](assets/report-global-list.png)
+![사용자 활동, 게재 처리량 및 브라우저와 같은 기본 보고서를 표시하는 전역 보고서 목록](assets/report-global-list.png)
 
 >[!NOTE]
 >
@@ -68,13 +68,13 @@ ht-degree: 8%
 
 이 보고서에는 주어진 기간 동안 전체 플랫폼의 게재 처리량에 대한 정보가 포함되어 있습니다. 메시지가 게재되는 속도를 측정하기 위한 기준은 시간당 전송된 메시지 수와 메시지 크기(초당 비트 수)입니다. 아래 예에서는 첫 번째 그래프에 성공한 게재 수는 파란색으로, 잘못된 게재 수는 주황색으로 표시됩니다.
 
-![](assets/report-toolbar.png)
+![매개 변수 시간 범위, 새로 고침 링크 및 시간당 성공 및 오류 차트를 포함하는 게재 처리량 보고서](assets/report-toolbar.png)
 
 시간 표시 막대를 변경하여 표시되는 값을 구성할 수 있습니다(1시간 보기, 3시간 보기, 24시간 보기 등). **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하여 선택 내용을 확인합니다.
 
 >[!NOTE]
 >
->[Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ko){target="_blank"}을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다.
+>[Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html){target="_blank"}을(를) 사용하여 시간당 전송된 게재 수를 모니터링할 수도 있습니다.
 >
 >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel){target="_blank"}에 자세히 설명되어 있습니다.
 >
@@ -139,11 +139,11 @@ ht-degree: 8%
 
 [+] 기호를 클릭하여 값 테이블의 각 줄을 열 수 있습니다. 각 도메인 유형에 대해 오류 유형별로 오류 메시지 분류를 표시할 수 있습니다.
 
-![](assets/errors-report-details.png)
+![확장 가능한 도메인 행에 오류 유형별 오류 수를 표시하는 도메인 테이블당 오류 분류](assets/errors-report-details.png)
 
 >[!NOTE]
 >
->이 보고서에 표시되는 도메인 이름은 큐브 수준에서 정의됩니다. 이 값을 변경하려면 **[!UICONTROL Delivery logs (broadlogrcp)]** 큐브를 편집하십시오. 이 작업에 대한 자세한 정보는 [이 섹션](gs-cubes.md)을 참조하십시오. **[!UICONTROL Others]** 범주에 특정 클래스에 속하지 않는 도메인 이름이 포함되어 있습니다.
+>이 보고서에 표시되는 도메인 이름은 큐브 수준에서 정의됩니다. 이 값을 변경하려면 **[!UICONTROL Delivery logs (broadlogrcp)]** 큐브를 편집하십시오. 자세한 내용은 [Adobe Campaign 분석 보고서 시작](gs-cubes.md)을 참조하세요. **[!UICONTROL Others]** 범주에 특정 클래스에 속하지 않는 도메인 이름이 포함되어 있습니다.
 
 ## 브라우저 {#browsers}
 
@@ -157,7 +157,7 @@ ht-degree: 8%
 
 브라우저 사용에 대한 전역 통계는 값 테이블 및 차트 형태로 표시됩니다.
 
-![](assets/browser-report.png)
+![방문자 표, 열람한 페이지 및 브라우저당 사용률과 도넛 차트가 포함된 인터넷 브라우저 보고서](assets/browser-report.png)
 
 다음 지표가 사용됩니다.
 
@@ -169,7 +169,7 @@ ht-degree: 8%
 
 글로벌 통계 값 테이블에서 각 브라우저 이름을 눌러 해당 사용 통계를 볼 수 있습니다.
 
-![](assets/browser-report-info.png)
+![한 브라우저에 대한 통계(기록 곡선, 버전별 분석 차트, 전역 비율 및 상대 비율 포함)를 ](assets/browser-report-info.png)
 
 통계는 곡선, 도표 및 값 표의 형태로 제시된다.
 
@@ -247,7 +247,7 @@ The following indicators are used:
 
 운영 체제의 전역 사용 통계는 값 표 및 차트 형태로 제공됩니다.
 
-![](assets/os-report.png)
+![방문자 표, 본 페이지 및 시스템당 사용률과 도넛 차트가 포함된 운영 체제 보고서](assets/os-report.png)
 
 다음 지표가 사용됩니다.
 
@@ -259,7 +259,7 @@ The following indicators are used:
 
 글로벌 통계 값 테이블에서 각 운영 체제의 이름을 눌러 운영 체제별 통계를 확인합니다.
 
-![](assets/os-report-details.png)
+![기록 곡선, 버전별 분석 차트 및 버전별 전역 비율 및 상대 비율이 포함된 Windows 통계 페이지](assets/os-report-details.png)
 
 통계는 곡선, 도표 및 값 표의 형태로 제시된다.
 
@@ -276,11 +276,11 @@ The following indicators are used:
 
 이 보고서를 사용하면 정보 서비스 구독을 모니터링할 수 있습니다. 여기에는 구독 및 구독 취소가 표시됩니다.
 
-![](assets/service-report.png)
+![구독 테이블의 전반적인 진행 상황과 구독 진행 상황을 포함한 구독 추적 보고서](assets/service-report.png)
 
 홈 페이지의 **[!UICONTROL Profiles and targets > Services and subscriptions]** 노드 또는 탐색기를 클릭하여 구독용으로 표시할 수 있습니다. 원하는 구독을 선택한 다음 **[!UICONTROL Reports]** 탭을 클릭합니다. **[!UICONTROL Subscriptions tracking]** 보고서는 기본적으로 사용할 수 있습니다. 일정 기간 동안의 구독 및 구독 취소 트렌드와 충성도 비율을 확인할 수 있습니다. 드롭다운 목록을 통해 이 데이터의 표현을 구성할 수 있습니다. 선택한 구성의 유효성을 검사하려면 **[!UICONTROL Refresh]**&#x200B;을(를) 클릭하십시오.
 
-자세한 내용은 [이 페이지](../start/subscriptions.md)를 참조하세요.
+자세한 내용은 [Campaign에서 구독 및 구독 취소 관리](../start/subscriptions.md)를 참조하세요.
 
 **[!UICONTROL Number subscribed to date]**&#x200B;은(는) 현재 구독한 총 사용자 수를 나타냅니다.
 
@@ -302,7 +302,7 @@ The following indicators are used:
 
 이 보고서는 인터넷 도메인별, 처리 및 전송된 모든 메시지, 하드 및 소프트 바운스, 열기, 클릭 및 구독 취소에 대한 분류를 보여줍니다.
 
-![](assets/broadcast-report.png)
+![이메일 도메인별로 처리된 이메일, 배달된 이메일, 바운스, 열기, 클릭 수, 구독 취소를 보여주는 게재 통계 보고서](assets/broadcast-report.png)
 
 다음 지표가 사용됩니다.
 
@@ -313,7 +313,7 @@ The following indicators are used:
 
   >[!NOTE]
   >
-  >하드 및 소프트 바운스에 대한 자세한 내용은 [이 페이지](../send/quarantines.md)를 참조하세요.
+  >하드 및 소프트 바운스에 대한 자세한 내용은 [Campaign의 격리 관리](../send/quarantines.md)를 참조하세요.
 
 * **[!UICONTROL Opens]**: 처리된 메시지 수와 비교하여 메시지를 한 번 이상 연 대상 받는 사람 수의 비율입니다.
 * **[!UICONTROL Clicks]**: 게재를 한 번 이상 클릭한 사람 수와 성공적으로 처리된 메시지 수의 비율입니다.
@@ -323,9 +323,9 @@ The following indicators are used:
 
 이 보고서는 해당 기간에 대한 운영 체제, 장치 및 브라우저별 열기 분석을 보여 줍니다. 각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째 차트에는 모바일 디바이스에서의 열람과 관련된 통계만 표시됩니다.
 
-열기 횟수는 열린 총 메시지 수에 해당합니다. 텍스트 형식 이메일은 카운트되지 않습니다. 열림 추적에 대한 자세한 내용은 [이 섹션](metrics-calculation.md#tracking-opens-)을 참조하세요.
+열기 횟수는 열린 총 메시지 수에 해당합니다. 텍스트 형식 이메일은 카운트되지 않습니다. 열림 추적에 대한 자세한 내용은 [열림 추적](metrics-calculation.md#tracking-opens-)을 참조하세요.
 
-![](assets/user-agent-report.png)
+![모든 열림 및 모바일 열림에 대한 운영 체제, 장치 및 브라우저의 파이 차트가 있는 열기 보고서 분류](assets/user-agent-report.png)
 
 >[!NOTE]
 >
