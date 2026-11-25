@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '664'
 ht-degree: 8%
 ---
 # 워크플로 시작{#gs-with-workflows}
@@ -52,7 +52,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->Adobe Campaign 웹 여정 인터페이스에는 워크플로우에 대한 재설계된 캔버스가 함께 제공되므로 보다 역동적이고 개인화된 고객 사용자를 만들 수 있습니다. 웹 UI용 워크플로에 대한 자세한 내용은 [Adobe Campaign 웹 UI 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/wf/gs-workflows){target=_blank}를 참조하세요.
+>Adobe Campaign 웹 여정 인터페이스에는 워크플로우에 대한 재설계된 캔버스가 함께 제공되므로 보다 역동적이고 개인화된 고객 사용자를 만들 수 있습니다. 웹 UI용 워크플로에 대한 자세한 내용은 [Adobe Campaign 웹 UI 설명서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank}를 참조하세요.
 
 
 ## 워크플로 디자인 및 사용 {#gs-ac-wf}
@@ -63,11 +63,11 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기, 메시지
 
 * [워크플로 시작](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ko){target="_blank"}
 
-* [워크플로 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ko){target="_blank"}
+* [워크플로 모범 사례](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
-* [내장 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ko){target="_blank"}
+* [내장 기술 워크플로우](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
 
-* [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ko){target="_blank"}
+* [워크플로우 실행 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 * [마케팅 캠페인 워크플로우에서 대상자 만들기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ko){target="_blank"}
 
@@ -77,10 +77,10 @@ Adobe Campaign 워크플로우를 사용하여 세그먼트 만들기, 메시지
 
 워크플로우 활동은 범주별로 그룹화됩니다. 네 가지 활동 카테고리를 사용할 수 있습니다.
 
-* [타깃팅 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=ko){target="_blank"}: 쿼리, 목록 읽기, 데이터 보강, 결합 등
-* [흐름 제어 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=ko){target="_blank"}: 스케줄러, 포크, 경고, 외부 신호 등
-* [작업 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=ko){target="_blank"}: 크로스 채널 게재, Javascript 코드, CRM 활동, 업데이트 집계 등
-* [이벤트 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html?lang=ko){target="_blank"}: 파일 전송, 웹 다운로드 등
+* [타깃팅 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"}: 쿼리, 목록 읽기, 데이터 보강, 결합 등
+* [흐름 제어 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"}: 스케줄러, 포크, 경고, 외부 신호 등
+* [작업 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}: 크로스 채널 게재, Javascript 코드, CRM 활동, 업데이트 집계 등
+* [이벤트 활동](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}: 파일 전송, 웹 다운로드 등
 
 <!--
 ### Change data source activity {#change-data-source-activity}
@@ -101,7 +101,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. Query your targeted recipients with a **[!UICONTROL Query]** activity.
 
-    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ko){target="_blank"}.
+    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
 
@@ -109,7 +109,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
 
-    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html?lang=ko){target="_blank"}.
+    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html){target="_blank"}.
 
 1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database.
 
@@ -122,11 +122,11 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 워크플로우를 만든 후 추가 구성을 위해 **[!UICONTROL Properties]** 단추를 사용하여 추가 옵션에 액세스할 수 있습니다.
 
-[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html?lang=ko){target="_blank"}에서 **워크플로 속성**&#x200B;에 대해 자세히 알아보세요.
+[이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html){target="_blank"}에서 **워크플로 속성**&#x200B;에 대해 자세히 알아보세요.
 
 워크플로우 **[!UICONTROL Properties]**&#x200B;의 **[!UICONTROL Execution]** 탭에서 워크플로우를 다른 웨어하우스에 연결하고 워크로드 관리를 최적화하도록 선택할 수 있습니다. **웨어하우스**&#x200B;에 대한 자세한 내용은 [Snowflake 설명서](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}를 참조하세요.
 
-![](assets/warehouse.png)
+웨어하우스 드롭다운이 열려 있는 ![워크플로 속성 실행 탭: 기본값, 캠페인, 가져오기/내보내기 및 캠페인 버스트](assets/warehouse.png)
 
 워크플로우의 목적에 따라 **[!UICONTROL Warehouse]** 드롭다운에서 다음 세 개의 웨어하우스 중에서 선택할 수 있습니다.
 
@@ -151,13 +151,13 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 Campaign 트랜잭션 메시지를 사용하여 정보 시스템에서 트리거된 이벤트에서 생성된 메시지를 자동화합니다. 이러한 트랜잭션 메시지는 예를 들어 송장, 주문 확인, 배송 확인, 암호 변경, 제품 불가능 알림, 계정 명세서 또는 웹 사이트 계정 생성일 수 있습니다. 이러한 메시지는 이메일, SMS 또는 푸시 알림을 통해 개별적으로 또는 일괄적으로 전송할 수 있습니다.
 
-[이 섹션](../send/transactional.md)에서 트랜잭션 메시지 기능에 대해 자세히 알아보세요.
+[캠페인 트랜잭션 메시지](../send/transactional.md)의 트랜잭션 메시지 기능에 대해 자세히 알아보세요.
 
 Adobe Campaign 및 Adobe Analytics을 연결하여 사용자 작업을 검색하고 거의 실시간으로 개인화된 메시지를 전송합니다.
 
-[이 섹션](../start/connect.md)에서 Campaign을 다른 솔루션과 통합하는 방법을 알아봅니다.
+[Campaign v8에 연결](../start/connect.md)에서 Campaign을 다른 솔루션과 통합하는 방법을 알아봅니다.
 
 
 ## 워크플로 전체 사용 사례{#end-to-end-uc}
 
-이 섹션[&#128279;](../../automation/workflow/workflow-use-cases.md)에서 캠페인 워크플로우 기능 을(를) 활용하는 사용 사례를 통해 알아봅니다.
+이 섹션](../../automation/workflow/workflow-use-cases.md)에서 캠페인 워크플로우 기능 [을(를) 활용하는 사용 사례를 통해 알아봅니다.
