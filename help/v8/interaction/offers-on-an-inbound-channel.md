@@ -24,7 +24,7 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
 workflow-type: tm+mt
 source-wordcount: '2144'
 ht-degree: 1%
@@ -415,7 +415,7 @@ Neobank 회사의 웹 사이트에는 **최상의 오퍼** 범주의 은행 관�
 
    ![](assets/offer_inbound_fallback_example_049.png)
 
-   URL에 식별된 환경의 내부 이름인 **EnvNeobankRecip**&#x200B;이(가) 포함되어 있습니다.
+   URL에 식별된 환경의 내부 이름인 **EnvNeobankIdnRecip**&#x200B;이(가) 포함되어 있습니다.
 
 웹 페이지를 열면 스크립트를 사용하여 상호 작용 엔진을 호출하여 웹 페이지의 관련 공간에 오퍼 콘텐츠를 표시할 수 있습니다. Adobe Campaign 서버에 대한 단일 호출에서 엔진은 선택할 환경, 오퍼 공간 및 범주를 결정합니다.
 

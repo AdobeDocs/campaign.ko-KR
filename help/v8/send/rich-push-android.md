@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: '2046'
 ht-degree: 3%
 ---
 # Android 리치 푸시 게재 디자인 {#rich-push}
@@ -240,7 +240,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. **[!UICONTROL Color options]** 메뉴에서 **[!UICONTROL Title]**, **[!UICONTROL Message]** 및 **[!UICONTROL Background]**&#x200B;에 대한 16진수 색상 코드를 입력합니다.
 
-1. **[!UICONTROL Product catalog options]** 메뉴에서 다음 옵션을 입력하십시오.
+1. **[!UICONTROL Product catalog options]** 메뉴에서 다음 옵션을 입력합니다.
 
    * **[!UICONTROL Action button text]**: 단추에 표시되는 텍스트입니다.
    * **[!UICONTROL Action button text color]**: 작업 단추 텍스트의 색입니다.

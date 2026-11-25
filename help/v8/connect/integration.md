@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 13%
@@ -79,7 +79,7 @@ CRM 커넥터를 사용하면 빠르고 간편하게 데이터를 통합할 수 
 
 FDA 커넥터(Federated Data Access)를 사용하여 Campaign을 하나 이상의 **외부 데이터베이스**&#x200B;에 연결하고 Campaign Cloud 데이터베이스 데이터에 영향을 주지 않고 저장된 정보를 처리합니다.
 
-[이 페이지](fda.md)에서 자세히 알아보기
+[이 페이지](fda.md)에서 자세히 알아보십시오.
 
 ## 소셜 미디어로 작업{#gs-social}
 

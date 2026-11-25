@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 1%
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 ![](assets/interaction-cycle.png)
 
-먼저, 커뮤니케이션 채널을 통해 고객과 회사 간 접촉이 발생합니다. 웹 사이트(아웃바운드 상호 작용), 이메일, SMS, 푸시 알림(인바운드 상호 작용)일 수 있습니다. [자세히 알아보기](#interaction-types)
+먼저, 커뮤니케이션 채널을 통해 고객과 회사 간 접촉이 발생합니다. 웹 사이트(인바운드 상호 작용), 이메일, SMS, 푸시 알림(아웃바운드 상호 작용)일 수 있습니다. [자세히 알아보기](#interaction-types)
 
 이 연락처는 오퍼 엔진을 호출합니다. (1)
 

@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1833'
 ht-degree: 5%
 ---
 # 푸시 알림 채널 구성 {#push-notification-configuration}
@@ -219,7 +219,7 @@ iOS 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL Subscription parameters]** 탭으로 이동하여 **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 스키마의 확장으로 매핑을 정의합니다.
 
-1. **[!UICONTROL Sounds]** 탭으로 이동하여 재생할 소리를 정의합니다. **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 응용 프로그램에 포함된 파일 이름 또는 시스템 사운드 이름을 포함해야 하는 **[!UICONTROL Internal name]** 필드를 채웁니다.
+1. **[!UICONTROL Sounds]** 탭으로 이동하여 재생할 소리를 정의합니다. **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 응용 프로그램에 포함된 파일 이름 또는 시스템 사운드 이름이 포함되어야 하는 **[!UICONTROL Internal name]** 필드를 채웁니다.
 
 1. 개발 응용 프로그램 구성을 시작하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
 

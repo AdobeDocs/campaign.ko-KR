@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '4458'
 ht-degree: 0%
@@ -229,7 +229,7 @@ Adobe Campaign은 동일한 외부 계정에서 여러 짧은 코드 처리를 �
 * 공급자에 TCP 연결을 수행할 수 있도록 네트워크가 올바르게 구성되었는지 확인합니다.
 * 공급자에게 Adobe Campaign 인스턴스의 IP 주소를 올바르게 허용했는지 확인하도록 요청합니다(대부분의 공급자가 이를 요구함).
 * 외부 계정 설정을 확인합니다. 일부 필드의 값이 확실하지 않은 경우 공급자에게 문의하십시오.
-* 연결이 성공했지만 불안정한 경우 [연결이 불안정한 문제](#unstable-connections)를 확인하십시오. 아래 섹션.
+* 연결이 성공했지만 불안정한 경우 아래의 [연결이 불안정한 문제](#unstable-connections) 섹션을 확인하십시오.
 * 연결 문제를 진단하기 어려운 경우 네트워크 캡처를 통해 많은 정보를 얻을 수 있습니다. 네트워크 캡처가 동시에 실행되면서 문제가 나타나므로 효율적으로 분석할 수 있어야 합니다. 또한 문제가 나타나는 정확한 시간을 알아야 네트워크 캡처에서 문제를 더 쉽게 찾을 수 있습니다.
 
 #### 연결이 불안정한 문제 {#unstable-connections}

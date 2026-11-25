@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1425'
 ht-degree: 2%
 ---
 # 수정된 푸시 알림 구성 {#push-notifications-config}
@@ -100,7 +100,7 @@ Adobe이 사용자를 대신하여 푸시 알림을 전송하도록 승인하려
 
 1. **[!UICONTROL App ID (Android package name)]** 입력. 일반적으로 패키지 이름은 `build.gradle` 파일의 앱 ID입니다.
 
-1. 자격 증명을 추가하려면 **[!UICONTROL Push Credentials]**&#x200B;을(를) 전환하세요.
+1. 자격 증명을 추가하려면 **[!UICONTROL Push Credentials]**&#x200B;을(를) 켜세요.
 
 1. FCM 푸시 자격 증명을 끌어서 놓습니다. 푸시 자격 증명을 가져오는 방법에 대한 자세한 내용은 [Google 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}를 참조하세요.
 
@@ -158,7 +158,7 @@ iOS 디바이스용 앱을 만들려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL Subscription parameters]** 탭으로 이동하여 **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** 스키마의 확장으로 매핑을 정의합니다.
 
-1. **[!UICONTROL Sounds]** 탭으로 이동하여 재생할 소리를 정의합니다. **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 응용 프로그램에 포함된 파일 이름 또는 시스템 사운드 이름을 포함해야 하는 **[!UICONTROL Internal name]** 필드를 채웁니다.
+1. **[!UICONTROL Sounds]** 탭으로 이동하여 재생할 소리를 정의합니다. **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 응용 프로그램에 포함된 파일 이름 또는 시스템 사운드 이름이 포함되어야 하는 **[!UICONTROL Internal name]** 필드를 채웁니다.
 
 1. 개발 응용 프로그램 구성을 시작하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
 

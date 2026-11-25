@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 0%
@@ -263,7 +263,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 1. **[!UICONTROL Add to a package definition]**&#x200B;을(를) 선택한 다음 엔터티를 추가할 패키지 정의를 선택합니다.
 
-1. 엔터티가 패키지 정의에 추가되면 패키지와 함께 내보내집니다([이 섹션](#export-packages-from-a-package-definition) 참조).
+1. 엔터티가 패키지 정의에 추가되고 패키지와 함께 내보내집니다([이 섹션](#export-packages-from-a-package-definition) 참조).
 
 ### 패키지 정의 생성 구성 {#configure-package-definitions-generation}
 

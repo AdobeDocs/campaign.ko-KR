@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 2%
@@ -87,7 +87,7 @@ Campaign v8은 특정 기술 워크플로우를 통해 예약된 데이터 복�
 
 필요한 경우 데이터 동기화를 수동으로 시작할 수 있습니다. 이렇게 하려면 **스케줄러** 활동을 마우스 오른쪽 단추로 클릭하고 **지금 보류 중인 작업 실행**&#x200B;을 선택합니다.
 
-기본 제공 **참조 테이블 복제** 기술 워크플로우 외에 다음 방법 중 하나를 사용하여 워크플로우에서 데이터 복제를 강제 적용할 수 있습니다
+기본 제공 **참조 테이블 복제** 기술 워크플로우 외에 다음 방법 중 하나를 사용하여 워크플로우에서 데이터 복제를 강제 적용할 수 있습니다.
 
 +++데이터 복제 강제 수행 방법
 

@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 3%
@@ -65,7 +65,7 @@ Campaign 기본 제공 보고서에 액세스하려면:
 
    ![](assets/edit-a-report.png)
 
-1. 화면 상단의 **[!UICONTROL Back]** 링크를 클릭하면 보고서 목록으로 돌아갑니다.
+1. 보고서 목록으로 돌아가려면 화면 상단의 **[!UICONTROL Back]** 링크를 클릭합니다.
 
    ![](assets/back-button.png)
 

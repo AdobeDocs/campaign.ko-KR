@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 8%
@@ -133,7 +133,7 @@ DM 게재의 출력 파일은 게재 분석 중에 생성됩니다. 파일의 �
 
 ## 게재 시작{#start-delivery}
 
-추출 파일의 유효성을 검사하면 **게재 확인**&#x200B;을 클릭합니다. 확인 메시지를 통해 게재를 시작할 수 있습니다.
+추출 파일의 유효성을 검사했으면 **배달 확인**&#x200B;을 클릭합니다. 확인 메시지를 통해 게재를 시작할 수 있습니다.
 
 확인이 지정된 파일에서 데이터 추출을 시작합니다.
 

@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 7%
+source-wordcount: '171'
+ht-degree: 8%
 ---
 # 첫 번째 SMS 게재 만들기 {#sms-delivery}
 
@@ -48,7 +48,7 @@ ht-degree: 7%
 
 1. **[!UICONTROL Label]** 필드에서 게재 이름을 바꾸고 추적에 필요한 경우 **[!UICONTROL Delivery code]** 필드 및 **[!UICONTROL Nature]** 목록에 정보를 추가합니다. 게재에 **[!UICONTROL Description]**&#x200B;을(를) 추가할 수도 있습니다.
 
-1. **[!UICONTROL Continue]** 단추를 클릭합니다. 이제 게재에 템플릿의 모든 설정이 포함됩니다.
+1. **[!UICONTROL Continue]** 버튼을 클릭합니다. 이제 게재에 템플릿의 모든 설정이 포함됩니다.
 
 1. 필요에 따라 모두 설정된 **[!UICONTROL Properties]** 단추를 확인할 수 있습니다. [SMS 탭에 대해 자세히 알아보기](sms-delivery-settings.md#sms-tab)
 

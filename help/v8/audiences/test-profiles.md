@@ -42,7 +42,7 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 2%
@@ -132,7 +132,7 @@ DM 게재의 경우 추출 파일 형식은 다음 제한 사항을 준수해야
 
 ## 시드 주소 및 사용자 지정 테이블 {#using-an-external-recipient-table}
 
-게재 테이블이 외부 테이블인 경우 추가 구성을 수행해야 합니다. **[!UICONTROL nms:seedmember]** 스키마를 확장해야 합니다. 적절한 필드를 정의하기 위해 시드 주소에 탭이 추가됩니다
+게재 테이블이 외부 테이블인 경우 추가 구성을 수행해야 합니다. **[!UICONTROL nms:seedmember]** 스키마를 확장해야 합니다. 적절한 필드를 정의하기 위해 시드 주소에 탭이 추가됩니다.
 
 이 경우 게재에 시드 주소를 추가하려면 일치 탭에 직접 해당 필드를 입력하거나 주소 템플릿을 가져옵니다.
 
