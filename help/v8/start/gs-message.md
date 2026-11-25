@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 71%
+source-wordcount: '1057'
+ht-degree: 66%
 ---
 # 메시지 시작하기 {#gs-ac-msg}
 
@@ -60,21 +60,21 @@ Adobe Campaign에서는 이메일, SMS, 푸시 알림 및 DM 등 크로스 채�
 
 >[!NOTE]
 >
->게재를 만들 때 템플릿을 선택해야 합니다. 각 채널에 기본 템플릿을 사용할 수 있습니다. [이 페이지](../send/create-templates.md)에서 게재 템플릿에 대해 자세히 알아보세요.
+>게재를 만들 때 템플릿을 선택해야 합니다. 각 채널에 기본 템플릿을 사용할 수 있습니다. [게재 템플릿 작업](../send/create-templates.md)에서 게재 템플릿에 대해 자세히 알아보세요.
 
-1. **일회성 메시지** - 대상자에게 일회성 메시지를 보낼 수 있습니다. [이 섹션](create-message.md)에서 첫 번째 메시지를 보내는 방법을 알아보세요.
+1. **일회성 메시지** - 대상자에게 일회성 메시지를 보낼 수 있습니다. [첫 번째 게재를 만들기](create-message.md)에서 첫 번째 메시지를 보내는 방법을 알아봅니다.
 
-   ![](assets/send-email.png)
+   ![보낸 사람, 보낸 사람 및 제목 필드, HTML 콘텐츠 및 보내기 단추가 있는 전자 메일 게재 편집기](assets/send-email.png)
 
-1. **마케팅 캠페인의 메시지** - [마케팅 캠페인](campaigns.md)의 컨텍스트에서 메시지를 보내고, 승인 프로세스를 정의하고, 통합 대시보드에서 메시지를 보내고, 추적할 수 있습니다. [이 섹션](../../automation/campaigns/marketing-campaign-deliveries.md)에서 방법을 알아보세요.
+1. **마케팅 캠페인의 메시지** - [마케팅 캠페인](campaigns.md)의 컨텍스트에서 메시지를 보내고, 승인 프로세스를 정의하고, 통합 대시보드에서 메시지를 보내고, 추적할 수 있습니다. [마케팅 캠페인 게재](../../automation/campaigns/marketing-campaign-deliveries.md)의 방법을 알아보세요.
 
-   ![](assets/deliveries-in-a-campaign.png)
+   ![승인 및 제출 대상 등 승인 상태의 게재를 나열하는 Campaign 대시보드](assets/deliveries-in-a-campaign.png)
 
-1. **워크플로우의 메시지** - [워크플로우](../config/workflows.md)를 통해 메시지를 보내고 게재를 자동화할 수 있습니다. [이 페이지](../../automation/workflow/delivery.md)에서 방법을 알아보세요.
+1. **워크플로우의 메시지** - [워크플로우](../config/workflows.md)를 통해 메시지를 보내고 게재를 자동화할 수 있습니다. [게재](../../automation/workflow/delivery.md)에서 방법을 알아보세요.
 
-   ![](assets/send-in-a-wf.png)
+   ![여름 오퍼 게재, 대기 및 모바일 게재를 제공하는 쿼리 및 읽기 목록 캠페인 워크플로](assets/send-in-a-wf.png)
 
-1. **트리거된 메시지** - 이벤트에서 [메시지를 트리거](../send/transactional.md)할 수 있습니다. 트랜잭션 메시지(메시지 센터)는 트리거 메시지를 관리하기 위해 고안된 Campaign 모듈입니다. 트랜잭션 메시지를 구성하고 보내는 자세한 단계: [이 페이지](../send/transactional.md)
+1. **트리거된 메시지** - 이벤트에서 [메시지를 트리거](../send/transactional.md)할 수 있습니다. 트랜잭션 메시지(메시지 센터)는 트리거 메시지를 관리하기 위해 고안된 Campaign 모듈입니다. 트랜잭션 메시지를 구성하고 보내는 단계는 [캠페인 트랜잭션 메시지](../send/transactional.md)에 자세히 설명되어 있습니다.
 
 ## 커뮤니케이션 채널 {#gs-channel}
 
@@ -111,7 +111,7 @@ Campaign에는 세 가지 유형의 게재 개체가 있습니다.
 
 게재를 만들려면 게재 목록에서 만들거나, [게재](../../automation/workflow/delivery.md) 활동을 통해 워크플로 내에서 만들 수 있습니다.
 
-또한 워크플로는 사용할 채널 유형에 따라 특정한 게재 활동을 제공합니다. 이 활동에 대한 자세한 정보는 [이 섹션](../../automation/workflow/cross-channel-deliveries.md)을 참조하십시오.
+또한 워크플로는 사용할 채널 유형에 따라 특정한 게재 활동을 제공합니다. 이러한 활동에 대한 자세한 내용은 [크로스 채널 게재](../../automation/workflow/cross-channel-deliveries.md)를 참조하세요.
 
 ### 반복 게재 {#recurring-delivery}
 

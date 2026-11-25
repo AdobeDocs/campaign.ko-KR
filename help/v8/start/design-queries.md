@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 3%
+source-wordcount: '1109'
+ht-degree: 2%
 ---
 # Campaign 데이터베이스 쿼리
 
@@ -52,7 +52,7 @@ Adobe Campaign에서 쿼리를 작성하는 단계는 다음과 같습니다.
 
 Campaign 데이터베이스를 쿼리하려면 **[일반 쿼리 편집기](query-editor.md)**&#x200B;를 열고 **[!UICONTROL Document type]** 창에서 쿼리할 데이터가 포함된 테이블을 선택하십시오.
 
-![](assets/query_editor_nveau_21.png)
+![문서 형식 창을 여는 일반 쿼리 편집기와 함께 목록에 수신자 스키마가 있는 도구 메뉴](assets/query_editor_nveau_21.png)
 
 필요한 경우 필터 필드 또는 **[!UICONTROL Filters]** 단추를 사용하여 데이터를 필터링합니다.
 
@@ -62,19 +62,19 @@ Campaign 데이터베이스를 쿼리하려면 **[일반 쿼리 편집기](query
 
 예를 들어 **[!UICONTROL Age]**, **[!UICONTROL Primary key]**, **[!UICONTROL Email domain]** 및 **[!UICONTROL City]**&#x200B;을(를) 선택할 수 있습니다. 출력은 이 선택에 따라 구조화됩니다. 열의 순서를 조정하려면 창 오른쪽에 있는 파란색 화살표를 사용합니다.
 
-![](assets/query_editor_nveau_01.png)
+![나이, 기본 키, 전자 메일 도메인 및 구/군/시 데이터를 출력 열 목록에 추가하여 단계를 추출할 수 있습니다.](assets/query_editor_nveau_01.png)
 
 수식을 추가하거나 집계 함수에 프로세스를 적용하여 표현식을 수정할 수 있습니다. 표현식을 편집하려면 **[!UICONTROL Expression]** 열 필드를 클릭한 다음 **[!UICONTROL Edit expression]**&#x200B;을(를) 선택합니다.
 
-![](assets/query_editor_nveau_97.png)
+표현식 편집 단추가 강조 표시된 출력 열의 표현식 열 필드 ![입니다.](assets/query_editor_nveau_97.png)
 
-출력 열에 표시된 데이터를 그룹화할 수 있습니다. 이렇게 하려면 **[!UICONTROL Data to extract]** 창의 **[!UICONTROL Group]** 열에서 **[!UICONTROL Yes]**&#x200B;을(를) 선택합니다. 그러면 선택한 그룹화 축을 기준으로 결과가 집계됩니다. 그룹화를 사용하는 쿼리의 예제는 [이 섹션](../../automation/workflow/query-delivery-info.md)을 참조하세요.
+출력 열에 표시된 데이터를 그룹화할 수 있습니다. 이렇게 하려면 **[!UICONTROL Data to extract]** 창의 **[!UICONTROL Group]** 열에서 **[!UICONTROL Yes]**&#x200B;을(를) 선택합니다. 그러면 선택한 그룹화 축을 기준으로 결과가 집계됩니다. 그룹화를 사용한 쿼리의 예제는 [게재 정보 쿼리](../../automation/workflow/query-delivery-info.md)를 참조하십시오.
 
-![](assets/query_editor_nveau_56.png)
+![그룹 열이 강조 표시된 단계를 추출할 데이터이며 각 출력 열에 대해 아니요로 설정합니다.](assets/query_editor_nveau_56.png)
 
 * **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** 옵션을 사용하면 결과를 그룹화하고 해당 그룹에 조건을 적용할 수 있습니다. 출력 열의 모든 필드에 적용됩니다. 예를 들어, 출력 열의 값을 그룹화한 다음 결과를 필터링하여 35세에서 50세 사이의 수신자와 같은 특정 정보만 검색할 수 있습니다.
 
-  이 작업에 대한 자세한 정보는 [이 섹션](../../automation/workflow/query-grouping-management.md)을 참조하십시오.
+  자세한 내용은 [그룹 관리를 사용하여 쿼리](../../automation/workflow/query-grouping-management.md)를 참조하세요.
 
 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 옵션은 출력에서 동일한 행을 제거합니다(중복 제거). 예를 들어 **성**, **이름** 및 **전자 메일**&#x200B;을(를) 출력 열로 선택하면 세 필드 모두에서 값이 같은 모든 레코드가 중복 항목으로 간주됩니다. 각 연락처가 한 번만 표시되도록 하기 위해 하나의 인스턴스만 결과에 유지됩니다.
 
@@ -87,21 +87,21 @@ Campaign 데이터베이스를 쿼리하려면 **[일반 쿼리 편집기](query
 
 이 예제에서 데이터는 수신자 연령을 기준으로 오름차순으로 정렬됩니다.
 
-![](assets/query_editor_nveau_57.png)
+![정렬 및 내림차순 정렬 열이 아니요로 설정된 상태로 연령, 기본 키, 전자 메일 도메인 및 구/군/시를 나열하는 정렬 단계](assets/query_editor_nveau_57.png)
 
 ## 4단계 - 데이터 필터링 {#step-4---filter-data}
 
 쿼리 편집기를 사용하면 데이터를 필터링하여 결과를 좁힐 수 있습니다. 사용 가능한 필터는 쿼리하는 테이블에 따라 다릅니다.
 
-![](assets/query_editor_nveau_09.png)
+![아래의 제한 필터 및 사용자 필터 목록에서 필터링 조건을 선택한 데이터 필터링 단계입니다.](assets/query_editor_nveau_09.png)
 
 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택하면 **[!UICONTROL Target elements]** 섹션이 열립니다. 여기에서 수집할 데이터를 필터링하는 규칙을 정의할 수 있습니다.
 
-* 새 필터를 만들려면 조건을 만드는 데 필요한 필드, 연산자 및 값을 선택합니다. [이 페이지의 &#x200B;](filter-conditions.md)에 설명된 대로 여러 조건을 결합할 수도 있습니다.
+* 새 필터를 만들려면 조건을 만드는 데 필요한 필드, 연산자 및 값을 선택합니다. [이 페이지의 ](filter-conditions.md)에 설명된 대로 여러 조건을 결합할 수도 있습니다.
 
 * 기존 필터를 다시 사용하려면 **[!UICONTROL Add]** 단추를 클릭하고 **[!UICONTROL Predefined filter]**&#x200B;을(를) 선택한 다음 원하는 필터를 선택하십시오.
 
-  ![](assets/query_editor_15.png)
+  ![Target 요소 단계에서 미리 정의된 필터가 열려 있는 메뉴를 추가하여 블랙리스트에 추가된 전자 메일 주소 및 기타 필터를 나열합니다.](assets/query_editor_15.png)
 
 **[!UICONTROL Generic query editor]**&#x200B;에서 만든 필터는 다른 쿼리 응용 프로그램에서 다시 사용할 수 있으며, 그 반대도 마찬가지입니다. 나중에 사용할 수 있도록 필터를 저장하려면 **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
@@ -111,7 +111,7 @@ Campaign 데이터베이스를 쿼리하려면 **[일반 쿼리 편집기](query
 
 다음 예제와 같이 모든 영어권 수신자를 복구하려면 &quot;받는 사람 언어 **같음** EN&quot;을 선택하십시오.
 
-![](assets/query_editor_nveau_89.png)
+![필터링 조건을 선택한 다음 Language 조건이 EN과 같은 Target 요소를 선택합니다.](assets/query_editor_nveau_89.png)
 
 >[!NOTE]
 >
@@ -119,11 +119,11 @@ Campaign 데이터베이스를 쿼리하려면 **[일반 쿼리 편집기](query
 
 필터링 조건의 결과를 보려면 **[!UICONTROL Preview]** 탭을 클릭하십시오. 이 경우 모든 영어권 수신자는 이름, 이름 및 이메일 주소와 함께 표시됩니다.
 
-![](assets/query_editor_nveau_98.png)
+![필터와 일치하는 수신자를 나열하는 대상 요소 단계의 미리 보기 탭](assets/query_editor_nveau_98.png)
 
 SQL 언어에 익숙한 사용자는 **[!UICONTROL Generate SQL query]**&#x200B;을(를) 클릭하여 SQL에서 쿼리를 볼 수 있습니다.
 
-![](assets/query_editor_nveau_99.png)
+![EN과 같은 언어에 대한 필터에서 생성된 네이티브 SQL 쿼리를 여는 SQL 쿼리 링크가 생성되었습니다.](assets/query_editor_nveau_99.png)
 
 ## 5단계 - 데이터 서식 지정 {#step-5---format-data}
 
@@ -135,7 +135,7 @@ SQL 언어에 익숙한 사용자는 **[!UICONTROL Generate SQL query]**&#x200B;
 
 선택하지 않은 열은 데이터 미리 보기 창에서 숨겨집니다.
 
-![](assets/query_editor_nveau_10.png)
+![나이, 기본 키, 전자 메일 도메인 및 구/군/시를 나열하는 데이터 서식 단계이며 전자 메일 도메인 열이 선택 취소되어 있습니다.](assets/query_editor_nveau_10.png)
 
 **[!UICONTROL Transformation]** 열을 사용하면 열 레이블을 대문자 또는 소문자로 변경할 수 있습니다. 열을 선택하고 **[!UICONTROL Transformation]** 열을 클릭합니다. 다음을 선택할 수 있습니다.
 
@@ -143,7 +143,7 @@ SQL 언어에 익숙한 사용자는 **[!UICONTROL Generate SQL query]**&#x200B;
 * **[!UICONTROL Switch to upper case]**,
 * **[!UICONTROL First letter in upper case]**.
 
-![](assets/query_editor_nveau_42.png)
+![없음, 소문자로 전환, 대소문자로 전환, 대소문자로 전환](assets/query_editor_nveau_42.png)을 포함하는 변환 드롭다운
 
 ## 6단계 - 데이터 미리보기 {#step-6---preview-data}
 
@@ -151,7 +151,7 @@ SQL 언어에 익숙한 사용자는 **[!UICONTROL Generate SQL query]**&#x200B;
 
 이 예제에서 데이터는 수신자 연령을 기준으로 오름차순으로 정렬됩니다.
 
-![](assets/query_editor_nveau_11.png)
+![데이터 미리 보기 단계: 나이, 기본 키 및 구/군/시 값 테이블에 채워진 데이터의 미리 보기를 시작합니다.](assets/query_editor_nveau_11.png)
 
 >[!NOTE]
 >

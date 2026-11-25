@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 62%
+source-wordcount: '1240'
+ht-degree: 59%
 ---
 # 사용자 인터페이스 살펴보기 {#ui-client-console}
 
@@ -42,7 +42,7 @@ ht-degree: 62%
 
 * **클라이언트 콘솔** - Campaign 클라이언트 콘솔은 SOAP 및 HTTP와 같은 표준 인터넷 프로토콜을 통해 Adobe Campaign 애플리케이션 서버와 통신하는 기본 애플리케이션입니다. Campaign 클라이언트 콘솔은 모든 기능과 설정을 중앙 집중화하며 로컬 캐시에 의존하기 때문에 최소한의 대역폭만 필요합니다. 간편한 배포를 위해 설계된 Campaign 클라이언트 콘솔은 인터넷 브라우저에서 배포하고 자동으로 업데이트할 수 있으며, HTTP(S) 트래픽만 생성하므로 특정 네트워크 구성이 필요하지 않습니다. [자세히 알아보기](#ui-access)
 
-  [이 섹션](../start/connect.md)에서 Campaign 클라이언트 콘솔을 다운로드하고 구성하는 방법에 대해 알아보십시오.
+  [Campaign v8에 연결](../start/connect.md)에서 Campaign 클라이언트 콘솔을 설치하고 구성하는 방법에 대해 알아봅니다.
 
 * **웹 액세스** - Adobe Campaign 웹 액세스 기능을 사용하면 HTML 사용자 인터페이스를 사용하여 웹 브라우저에서 Campaign 기능의 하위 집합에 액세스할 수 있습니다. 이 웹 인터페이스를 사용하여 보고서 액세스, 메시지 제어 및 검증, 모니터링 대시보드 액세스 등이 가능합니다.  [이 섹션에서](../start/connect.md#web-access) Campaign Web 액세스에 대해 자세히 알아봅니다.
 
@@ -95,7 +95,7 @@ Campaign에 연결되면 액세스 기능, 설명서, 지원 웹 사이트 및 C
 
 Campaign 클라이언트 콘솔에 연결되면 상단 섹션에서 탭을 탐색하여 Campaign 주요 기능에 액세스합니다.
 
-![](assets/overview-home.png)
+![캠페인, 프로필 및 대상, 모니터링 및 보고서 탭이 강조 표시된 캠페인 홈 페이지](assets/overview-home.png)
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ The web access interface is similar to the console interface. From a browser, yo
 
 이 작업 영역을 사용하면 탐색기 트리에 액세스하여 모든 기능과 옵션을 찾아볼 수 있습니다.
 
-* 왼쪽 섹션에는 캠페인 탐색기 트리가 표시되며, 사용자 권한에 따라 인스턴스의 모든 구성 요소와 설정을 살펴볼 수 있습니다. [이 페이지](../audiences/folders-and-views.md)에 설명된 대로 폴더를 추가하고 사용자 정의할 수 있습니다.
+* 왼쪽 섹션에는 캠페인 탐색기 트리가 표시되며, 사용자 권한에 따라 인스턴스의 모든 구성 요소와 설정을 살펴볼 수 있습니다. [폴더 및 보기](../audiences/folders-and-views.md)에 설명된 대로 폴더를 추가하고 사용자 지정할 수 있습니다.
 
 * 상단 섹션에는 현재 폴더의 레코드 목록이 표시됩니다. 이러한 목록은 완전히 사용자 정의할 수 있습니다. [자세히 알아보기](../config/ui-settings.md)
 

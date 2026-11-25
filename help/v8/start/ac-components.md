@@ -36,22 +36,22 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 78%
+source-wordcount: '675'
+ht-degree: 73%
 ---
 # Campaign 구성 요소 및 프로세스 이해 {#components-and-processes}
 
 Adobe Campaign은 이메일, 모바일, 소셜 및 오프라인 캠페인을 자동화하는 크로스 채널 마케팅 솔루션입니다. Adobe Campaign은 고객 데이터와 프로필에 액세스할 수 있는 중앙 집중식 공간을 제공합니다. Adobe Campaign을 사용하면 고객에 대한 일관된 경험을 오케스트레이션하고, 채널 전반에서 마케팅을 설계, 실행 및 개인화하는 동시에 모든 장치와 접점에서 고객 경험을 향상할 수 있습니다. Adobe Campaign을 사용하면 시각적 드래그 앤 드롭 워크플로 인터페이스를 통해 여러 데이터 소스를 관리하고, 대상 세그먼트를 정의하며, 여러 단계의 크로스 채널 캠페인을 계획 및 실행할 수 있습니다.
 
-Campaign의 주요 기능에 대한 자세한 내용은 [이 페이지](../start/get-started.md)에서 알아보세요.
+[Campaign v8 시작](../start/get-started.md)에서 Campaign 주요 기능에 대해 자세히 알아보세요.
 
 ## 캠페인 구성 요소 {#ac-components}
 
 Adobe Campaign 구성 요소 및 글로벌 아키텍처는 아래에 설명되어 있습니다.
 
-![](assets/do-not-localize//ac-components.png)
+![아키텍처: 통합, 프레젠테이션, 논리 응용 프로그램 및 지속성 계층과 전자 메일, 메일 및 SMS 실행](assets/do-not-localize//ac-components.png)
 
 ### 프레젠테이션 계층{#presentation-layer}
 
@@ -87,7 +87,7 @@ Adobe Campaign v8이 Managed Service로 배포됩니다. 사용자 인터페이�
 
 Campaign Web 서버는 Campaign Web 프로세스에 대한 액세스를 제어합니다. JavaScript는 핵심 제품 기능 및 사용자 지정에 사용되는 서버측 언어입니다. Tomcat은 백엔드 엔진이며 웹 프로세스의 일부로 Campaign 제품에 포함되어 있습니다. 예를 들어 JavaScript는 JSP 또는 JSSP 페이지에서 다이내믹 콘텐츠를 렌더링하는 데 사용됩니다.
 
-![](assets/do-not-localize/ac-processes.png)
+![클라이언트 콘솔 및 기타 응용 프로그램에서 웹 서버 및 웹 프로세스를 호출하여 SQL을 통해 데이터베이스에 액세스합니다](assets/do-not-localize/ac-processes.png)
 
 Campaign 클라이언트 콘솔은 HTTP를 통한 SOAP XML을 사용하여 웹 서버에 연결합니다. 웹 서버는 보안 계층을 제공하고 JavaScript를 사용하여 요청을 응용 프로그램 계층에 전달하고 Campaign 내부 프로세스는 SQL을 사용하여 데이터베이스에 액세스합니다.
 

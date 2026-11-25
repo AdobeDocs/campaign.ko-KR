@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 78%
+source-wordcount: '1114'
+ht-degree: 77%
 ---
 # Campaign의 개인 정보 보호 요청 관리 {#privacy}
 
@@ -52,7 +52,7 @@ Campaign에서 개인 정보 요청을 관리하려면 먼저 [네임스페이�
 
 >[!NOTE]
 >
->이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [이 섹션](compatibility-matrix.md)을 참조하세요.
+>이 기능은 Campaign v8.3부터 사용할 수 있습니다. 버전을 확인하려면 [Campaign v8 호환성 매트릭스](compatibility-matrix.md)를 참조하세요.
 
 ## 네임스페이스 정의 {#namespaces}
 
@@ -77,7 +77,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. 조직에서 사용 가능한 [ID 네임스페이스를 나열](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}하면 다음과 같은 네임스페이스 세부 정보가 표시됩니다.
 
-   ```
+   ```json
    {
            "updateTime": 1632903236731,
            "code": "lumanamespace",
@@ -94,7 +94,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. Adobe Campaign에서 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]**(으)로 이동한 다음 **[!UICONTROL New]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/privacy-namespaces-new.png)
+   ![새로 만들기 단추가 강조 표시된 탐색기 경로 관리 > 플랫폼 > 네임스페이스](assets/privacy-namespaces-new.png)
 
 1. **[!UICONTROL Label]**&#x200B;을(를) 입력합니다.
 
@@ -104,7 +104,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
    * **[!UICONTROL Internal name]**&#x200B;은(는) &quot;code&quot; 속성과 일치해야 합니다.
    * **[!UICONTROL Reconciliation key]**&#x200B;은(는) &quot;idType&quot; 속성과 일치해야 합니다
 
-   ![](assets/privacy-namespaces-details.png)
+   ![AEC 네임스페이스 ID, 내부 이름 및 조정 키 필드가 강조 표시된 새 네임스페이스 양식](assets/privacy-namespaces-details.png)
 
    **[!UICONTROL Reconciliation key]** 필드는 Adobe Campaign 데이터베이스의 데이터 주체를 식별하는 데 사용됩니다.
 

@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 82%
+source-wordcount: '1164'
+ht-degree: 76%
 ---
 # Adobe Campaign v8에 연결{#gs-ac-connect}
 
@@ -93,7 +93,7 @@ Campaign 사용자는 Adobe IMS(ID 관리 시스템)를 통해 Adobe ID를 사�
 
 1. 콘솔을 시작하고 오른쪽 모서리에서 링크를 찾아 연결 구성 화면에 액세스합니다.
 
-   ![](assets/connectToCampaign.png)
+   ![Adobe ID으로 연결 옵션이 선택된 상태로 로그인 화면에서 연결 대화 상자가 열림](assets/connectToCampaign.png)
 
 1. 로그인해야 하는 Campaign 인스턴스를 선택합니다.
 
@@ -101,7 +101,7 @@ Campaign 사용자는 Adobe IMS(ID 관리 시스템)를 통해 Adobe ID를 사�
 
 그런 다음 Adobe ID로 Campaign에 로그인할 수 있습니다.
 
-![](assets/adobeID.png)
+이메일 필드 및 계속 단추가 있는 Campaign 클라이언트 콘솔의 ![Adobe ID 로그인 화면](assets/adobeID.png)
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ Adobe Campaign을 사용하면 다양한 운영자에 할당된 권한을 정의
 
 Campaign 관리자는 운영자를 만들고 사용자와 해당 자격 증명을 공유할 책임이 있습니다.
 
-[이 섹션](gs-permissions.md)에서 사용자에 대해 자세히 알아보고 사용 권한을 정의하는 방법을 알아보세요.
+[Campaign v8에서 사용 권한 시작](gs-permissions.md)에서 사용자 및 사용 권한을 정의하는 방법에 대해 자세히 알아보세요.
 
 
 ## 웹 브라우저로 Campaign 액세스 {#connect-web-ac}
@@ -165,11 +165,11 @@ Campaign v8.6 릴리스를 시작하면 중앙 [!DNL Adobe CX Enterprise] 환경
 
 예를 들어 특정 운영자의 경우 캠페인이 콘솔에 다음 옵션과 함께 표시됩니다.
 
-![](assets/campaign-from-console.png)
+![전체 편집 탭 및 작업을 사용할 수 있는 클라이언트 콘솔의 Campaign 대시보드](assets/campaign-from-console.png)
 
 반면 웹 액세스에서는 옵션이 주로 다음 보기를 활성화합니다.
 
-![](assets/campaign-from-web.png)
+주로 옵션을 보는 웹 액세스에서 ![Campaign 대시보드](assets/campaign-from-web.png)
 
 웹 액세스는 유효성 검사 프로세스에서도 사용됩니다. 운영자는 승인 요청 이메일을 클릭하고 웹 브라우저를 통해 Campaign에 연결하여 게재 콘텐츠 또는 예산을 확인하거나 거부할 수 있습니다.
 

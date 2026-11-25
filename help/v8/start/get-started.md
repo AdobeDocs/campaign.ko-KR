@@ -51,10 +51,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 81%
+source-wordcount: '1099'
+ht-degree: 71%
 ---
 # Adobe Campaign 시작{#gs-ac-v8}
 
@@ -70,7 +70,7 @@ Campaign을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 * 이메일, 모바일, 온라인 및 오프라인 채널을 고객 여정에 **통합**
 * 의미 있고 시의적절한 메시지 및 오퍼 게재 **자동화**
 
-![](assets/do-not-localize/ac-capabilities.png)
+![고객 프로필 및 세분화에서 오케스트레이션, 전자 메일 및 모바일, 보고에 이르는 Campaign 기능](assets/do-not-localize/ac-capabilities.png)
 
 
 >[!AVAILABILITY]
@@ -85,9 +85,9 @@ Campaign을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
 Adobe Campaign에서 수신자는 게재(전자 메일, SMS 등)를 보낼 타겟팅된 기본 프로필입니다. 데이터베이스에 저장된 수신자 데이터 덕분에 주어진 게재를 받을 대상을 필터링하고 게재 콘텐츠에 개인화 데이터를 추가할 수 있습니다. 데이터베이스에 다른 유형의 프로필이 있습니다. 다양한 용도로 디자인되어 있습니다. 예를 들어 최종 대상으로 전송되기 전에 시드 프로필을 테스트하여 게재를 테스트합니다.
 
-프로필 관리에 대한 기본 사항은 [이 섹션](audiences.md)에 설명되어 있습니다.
+프로필 관리 기본 사항은 [Campaign에서 대상자와 함께 작업](audiences.md)에서 설명합니다.
 
-Campaign에 프로필을 추가하는 방법은 [이 섹션](import.md)에서 알아보십시오.
+[프로필 시작](import.md)에서 Campaign에 프로필을 추가하는 방법을 알아봅니다.
 
 ## 타기팅된 세분화 {#targeted-segmentation}
 
@@ -95,13 +95,13 @@ Adobe Campaign은 고도로 타기팅되고 차별화된 오퍼를 만들 수 �
 
 고급 데이터 관리 기능은 데이터 처리 기능을 확장합니다. 데이터 마트에서 모델링되지 않은 데이터를 포함하여 타겟팅 프로세스를 단순화하고 최적화합니다.
 
-[이 섹션](audiences.md)에서 세분화와 대상자를 만드는 방법을 알아봅니다.
+[Campaign에서 대상자와 작업](audiences.md)에서 세분화 및 대상자 만들기에 대해 자세히 알아보세요.
 
 ## 크로스 채널 캠페인 오케스트레이션 {#cross-channel-campaign-orchestration}
 
 Adobe Campaign을 사용하면 타기팅되고 개인화된 캠페인을 이메일, DM, SMS, 푸시 알림과 같은 다양한 채널에 디자인 및 오케스트레이션 할 수 있습니다. 단일 인터페이스는 모든 캠페인 및 커뮤니케이션을 일정 계획, 오케스트레이션, 구성, 개인화, 자동화, 실행 및 측정하는 데 필요한 모든 기능을 제공합니다.
 
-[이 섹션](campaigns.md)에서 캠페인을 디자인, 예약 및 실행하는 방법을 알아보십시오.
+[캠페인 시작](campaigns.md)에서 캠페인을 디자인, 예약 및 실행하는 방법을 알아봅니다.
 
 ## 워크플로 {#wf-gsv8}
 
@@ -116,7 +116,7 @@ Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등을 포
 * 데이터를 Campaign 데이터베이스로 가져옵니다.
 * 데이터베이스 정리, 추적 정보 복구 등의 기술 프로세스
 
-[이 섹션](../config/workflows.md)에서 워크플로를 디자인하고 실행하는 방법을 알아보십시오.
+[Adobe Campaign 워크플로를 사용하여 프로세스 관리 및 자동화](../config/workflows.md)에서 워크플로를 디자인하고 실행하는 방법에 대해 알아봅니다.
 
 ## 보고 및 분석 {#analysis-and-reporting}
 
@@ -127,19 +127,19 @@ Adobe Campaign에서는 강력한 기본 보고 템플릿 외에도 게재, 캠�
 캠페인 보고 기능을 사용하면 동적 보고서를 쉽게 만들 수 있습니다. 드래그 앤 드롭 변수를 사용하여 보고서를 사용자 정의하고 캠페인의 성공을 분석할 수 있습니다. 쿼리 및 계산의 복잡성에 따라 데이터를 목록 보기로 집계하거나 마케팅 분석 보고서를 쉽게 생성할 수 있는 형식으로 액세스할 수 있습니다.
 
 
-[이 섹션](../reporting/gs-reporting.md)에서 보고서 및 추적 기능에 대해 자세히 알아보십시오.
+[Adobe Campaign 보고 도구 시작](../reporting/gs-reporting.md)에서 보고서 및 추적 기능에 대해 자세히 알아보세요.
 
 ## [!DNL Adobe CX Enterprise] 통합 {#adobe-experience-cloud-integrations}
 
 Adobe Campaign의 게재 기능 및 고급 캠페인 관리 기능과 사용자 경험을 개인화할 수 있도록 만들어진 솔루션 세트를 결합할 수 있습니다. 예를 들어 Adobe Experience Manager, Adobe Analytics, Adobe Target 또는 Adobe Experience Cloud 트리거를 사용할 수 있습니다.
 
-[이 섹션](../connect/integration.md)에서 Adobe 서비스 및 솔루션과 통합하는 방법을 알아보십시오.
+[솔루션과 Campaign 연결](../connect/integration.md)에서 Adobe 서비스 및 솔루션과 통합하는 방법을 알아봅니다.
 
 ## Campaign 기능에 대한 자세한 정보 {#core-capabilities-and-add-ons}
 
 Adobe Campaign은 요구 사항과 아키텍처에 따라 대화형 마케팅 기능을 구현하고 최적화하는 데 도움이 되는 기능의 집합을 제공합니다. 일부는 핵심 기능이며 일부는 패키지 설치 및 구성에 따라 다릅니다. 자세한 제품 설명은 [Adobe Campaign v8 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)에 나와 있습니다.
 
-Campaign Classic에 대해 이미 잘 알고 계신가요? [이 페이지](v7-to-v8.md)에서 Campaign Classic과 Campaign v8 간의 주요 차이점을 알아봅니다.
+Campaign Classic에 대해 이미 잘 알고 계신가요? [Campaign Classic v7에서 Campaign v8로 전환](v7-to-v8.md)에서 Campaign Classic과 Campaign v8 간의 주요 차이점을 알아봅니다.
 
 **참조 항목**
 
