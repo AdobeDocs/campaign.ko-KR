@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '345'
 ht-degree: 2%
 ---
 # Campaign API 스테이징 메커니즘
@@ -66,7 +66,7 @@ Campaign Classic v7 API는 계속 사용할 수 있지만 이 새로운 스테�
 
 1. Campaign Cloud 데이터베이스에 샘플 사용자 지정 스키마를 만듭니다. 이 단계에서 활성화된 스테이징이 없습니다.
 
-   ```
+   ```xml
    <srcSchema _cs="Sample Table (dem)" created="YYYY-DD-MM"
            entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Sample Table"
            lastModified="YYYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
@@ -79,13 +79,13 @@ Campaign Classic v7 API는 계속 사용할 수 있지만 이 새로운 스테�
    </srcSchema>
    ```
 
-   [이 페이지](../dev/create-schema.md)에서 사용자 지정 스키마 만들기에 대해 자세히 알아보세요.
+   [Campaign에서 새 스키마 만들기](../dev/create-schema.md)에서 사용자 지정 스키마 만들기에 대해 자세히 알아보세요.
 
 1. 데이터베이스 구조를 저장하고 업데이트합니다.  [자세히 알아보기](../dev/update-database-structure.md)
 
 1. **autoStg=&quot;true&quot;** 매개 변수를 추가하여 스키마 정의에서 스테이징 메커니즘을 사용하도록 설정하십시오.
 
-   ```
+   ```xml
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"
            entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Sample Table"
            lastModified="YYYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
@@ -100,6 +100,6 @@ Campaign Classic v7 API는 계속 사용할 수 있지만 이 새로운 스테�
 
 1. 수정 사항을 저장합니다. 초기 스키마의 로컬 복사본인 새 스테이징 스키마를 사용할 수 있습니다.
 
-   ![](assets/staging-mechanism.png)
+   초기 스키마의 로컬 복사본인 샘플 테이블(준비)에 대한 ![생성된 준비 스키마 수요의 XML 원본:sampleTableStg](assets/staging-mechanism.png)
 
 1. 데이터베이스 구조를 업데이트합니다. 스테이징 테이블이 Campaign 로컬 데이터베이스에 만들어집니다.

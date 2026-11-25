@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '348'
 ht-degree: 0%
 ---
 # [!DNL Campaign] FDA 배포{#gs-fda}
@@ -69,6 +69,6 @@ Campaign FDA(기본값) 배포에서 [!DNL Adobe Campaign] v8을(를) [!DNL Snow
 
 서버와 프로세스 간의 일반적인 통신은 다음 스키마에 따라 수행됩니다.
 
-![](assets/fda-architecture.png)
+![FDA 데이터 흐름: Campaign 마케팅 서버, Snowflake, PgSQL, 메시지 센터 및 중간 소싱 서버, 단계 1~5](assets/fda-architecture.png) 번호 매기기
 
 PostgreSQL은 기본 데이터베이스이고 Snowflake을 보조 데이터베이스로 사용할 수 있습니다. 데이터 모델을 확장하여 Snowflake에 데이터를 저장할 수 있습니다. 그런 다음 ETL, 세그먼테이션 및 뛰어난 성능이 포함된 대규모 데이터 세트에 대한 보고서를 실행할 수 있습니다.

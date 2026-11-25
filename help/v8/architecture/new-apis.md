@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 4%
+source-wordcount: '492'
+ht-degree: 3%
 ---
 # 특정 FFDA Campaign API{#gs-new-api}
 
@@ -53,7 +53,7 @@ ht-degree: 4%
 
 **Javascript 코드** 활동에서 다음 코드를 사용하여 조정 없이 클라우드 데이터베이스에 데이터를 삽입합니다.
 
-```
+```javascript
 var xmlStagingSampleTable = <sampleTableStg
                                 testcol1="testValue1"
                                 testcol2="testValue2"
@@ -70,7 +70,7 @@ logInfo(strUuid);
 1. 인증 토큰을 가져옵니다.
 1. API를 트리거합니다. 페이로드는
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -90,7 +90,7 @@ logInfo(strUuid);
 
 1. UUID는 SOAP 응답에서 다시 전송됩니다.
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default">
@@ -102,7 +102,7 @@ logInfo(strUuid);
 
 그 결과 스테이징 테이블이 예상대로 제공됩니다.
 
-![](assets/no-reconciliation.png)
+![테스트 열 1 및 테스트 열 2 값이 있는 4개의 레코드를 나열하는 스테이징 스키마 샘플 테이블(스테이징) 콘텐츠](assets/no-reconciliation.png)
 
 ### 조정과 함께 삽입
 
@@ -110,7 +110,7 @@ logInfo(strUuid);
 
 **Javascript 코드** 활동에서 다음 코드를 사용하여 조정으로 클라우드 데이터베이스에 데이터를 삽입합니다.
 
-```
+```javascript
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
                               testcol1="testValue1"
                               testcol2="testValue2"
@@ -122,7 +122,7 @@ logInfo(strUuid);
 
 워크플로우가 실행되면 스테이징 테이블이 예상대로 제공됩니다.
 
-![](assets/with-reconciliation.png)
+![이제 ABC12345 및 ABDCD321을 포함한 6개의 레코드를 나열하는 스테이징 스키마 샘플 테이블(스테이징) 콘텐츠](assets/with-reconciliation.png)
 
 
 **SOAP 호출에서**
@@ -130,7 +130,7 @@ logInfo(strUuid);
 1. 인증 토큰을 가져옵니다.
 1. API를 트리거합니다. 페이로드는
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -150,7 +150,7 @@ logInfo(strUuid);
 
 1. 이 경우 UUID는 페이로드에 제공되었으므로 응답에 다시 제공되지 않습니다. 응답은 다음과 같습니다.
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default">
@@ -172,7 +172,7 @@ logInfo(strUuid);
 
 **Javascript 코드** 활동에서 다음 코드를 사용하여 클라우드 데이터베이스의 데이터를 업데이트합니다.
 
-```
+```javascript
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
                               testcol1="testValue A (updated)"
                               testcol2="testValue B (updated)"
@@ -183,14 +183,14 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 워크플로우가 실행되면 스테이징 테이블이 예상대로 업데이트됩니다.
 
-![](assets/updated-data.png)
+![레코드 ABC12345이 현재 testValue A(업데이트됨)와 testValue B(업데이트됨)를 표시하는 스테이징 테이블 콘텐츠](assets/updated-data.png)
 
 **SOAP 호출에서**
 
 1. 인증 토큰을 가져옵니다.
 1. API를 트리거합니다. 페이로드는
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -210,7 +210,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 1. SOAP 응답은 다음과 같습니다.
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestExtResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default"/>
@@ -222,7 +222,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 ## 구독 관리 {#sub-apis}
 
-Campaign의 구독 관리는 [이 페이지](../start/subscriptions.md)에 설명되어 있습니다.
+Campaign의 구독 관리는 [Campaign의 구독 및 구독 취소 관리](../start/subscriptions.md)에 설명되어 있습니다.
 
 구독 및 구독 취소 데이터 삽입은 Campaign 로컬 데이터베이스의 [스테이징 메커니즘](staging.md)을(를) 사용합니다. 가입자 정보는 로컬 데이터베이스의 스테이징 테이블에 임시로 저장되고 동기화 워크플로우는 이 데이터를 로컬 데이터베이스에서 클라우드 데이터베이스로 전송합니다. 따라서 구독 및 구독 취소 프로세스는 **비동기**&#x200B;입니다. 옵트인 및 옵트아웃 요청은 특정 기술 워크플로우를 통해 한 시간마다 처리됩니다. [자세히 알아보기](replication.md#workflows)
 

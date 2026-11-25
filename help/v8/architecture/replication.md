@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '849'
 ht-degree: 2%
 ---
 # 데이터 복제 {#wf-data-replication}
@@ -74,7 +74,7 @@ ht-degree: 2%
 
 Campaign v8은 특정 기술 워크플로우를 통해 예약된 데이터 복제를 관리합니다. 이러한 기술 워크플로우는 Campaign 탐색기의 **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** 노드에서 사용할 수 있습니다. **수정해서는 안 됩니다.**
 
-기술 워크플로우는 서버에서 정기적으로 예약된 프로세스 또는 작업을 실행합니다. 기술 워크플로우의 전체 목록은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ko){target="_blank"}에 자세히 설명되어 있습니다.
+기술 워크플로우는 서버에서 정기적으로 예약된 프로세스 또는 작업을 실행합니다. 기술 워크플로우의 전체 목록은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}에 자세히 설명되어 있습니다.
 
 데이터 복제를 보장하는 기술 워크플로우는 다음과 같습니다.
 
@@ -97,7 +97,7 @@ Campaign v8은 특정 기술 워크플로우를 통해 예약된 데이터 복�
   nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
   ```
 
-  ![](assets/jscode.png)
+  ![demm에 대해 nms.replicationStrategy.StartReplicateStagingData 스크립트를 사용하는 JavaScript 코드 활동:sampleTable](assets/jscode.png)
 
 * 다음 명령을 사용하여 특정 **nlmodule** 활동을 추가합니다.
 
@@ -105,7 +105,7 @@ Campaign v8은 특정 기술 워크플로우를 통해 예약된 데이터 복�
   nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
   ```
 
-  ![](assets/nlmodule.png)
+  ![ffdaReplicateStaging -stagingSchema -instance:acc1](assets/nlmodule.png) 매개 변수를 사용하는 nlserver 모듈 활동
 
 +++
 
@@ -147,6 +147,6 @@ var xml = xtk.builder.CopyXxlData(
 
 이 비디오는 Adobe Campaign v8에서 사용하는 데이터베이스, 데이터를 복제하는 이유, 복제하는 데이터 및 복제 프로세스의 작동 방식에 대한 주요 개념을 소개합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416867?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-추가 Campaign v8 클라이언트 콘솔 자습서는 [여기](https://experienceleague.adobe.com/ko/docs/campaign-learn/tutorials/overview)에서 확인할 수 있습니다.
+추가 Campaign v8 클라이언트 콘솔 자습서는 [여기](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview)에서 확인할 수 있습니다.
