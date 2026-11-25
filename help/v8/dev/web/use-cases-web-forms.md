@@ -45,7 +45,7 @@ ht-degree: 1%
 
 ### 1단계 - 정보 서비스 만들기 {#step-1---creating-information-services}
 
-1. 수신자에게 제공할 뉴스레터 구독 서비스를 만듭니다. 뉴스레터를 만드는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}을 참조하세요.
+1. 수신자에게 제공할 뉴스레터 구독 서비스를 만듭니다. 뉴스레터를 만드는 방법에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}을 참조하세요.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
 
