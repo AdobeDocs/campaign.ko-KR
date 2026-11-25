@@ -17,9 +17,9 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '467'
 ht-degree: 2%
 ---
 # 운영자에게 개인화된 경고 보내기{#sending-personalized-alerts-to-operators}
@@ -37,7 +37,7 @@ ht-degree: 2%
 1. **[!UICONTROL Test]** 활동을 사용하여 모집단 수를 확인합니다.
 1. **[!UICONTROL Test]** 활동 결과에 따라 **[!UICONTROL Alert]** 활동을 사용하여 운영자에게 경고를 보냅니다.
 
-![](assets/uc_operator_1.png)
+![쿼리, JavaScript 코드 및 테스트 활동이 있는 워크플로우. True 분기는 경고 활동, False에서 종료 2로 연결됩니다.](assets/uc_operator_1.png)
 
 ## 인스턴스 변수에 모집단 저장 {#saving-the-population-to-the-instance-variable}
 
@@ -60,21 +60,21 @@ Javascript 코드가 워크플로우 정보에 해당하는지 확인합니다.
 * **[!UICONTROL queryDef schema]** 태그는 쿼리 활동에 사용된 타겟팅 차원의 이름과 일치해야 합니다.
 * **[!UICONTROL node expr]** 태그는 검색할 필드의 이름과 일치해야 합니다.
 
-![](assets/uc_operator_3.png)
+![queryDef 스키마 temp:query이(가) 있고 target firstName 및 lastName 노드가 강조 표시된 JavaScript 코드 스크립트](assets/uc_operator_3.png)
 
 이러한 정보를 검색하려면 아래 단계를 수행합니다.
 
 1. **[!UICONTROL Query]** 활동에서 아웃바운드 전환을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Display the target]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/uc_operator_4.png)
+   ![선택한 대상을 표시하는 쿼리 활동의 아웃바운드 전환에 대한 마우스 오른쪽 단추 클릭 메뉴](assets/uc_operator_4.png)
 
 1. 목록을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Configure list]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/uc_operator_5.png)
+   ![마우스 오른쪽 단추 클릭 메뉴가 열리고 목록 구성이 선택된 대상 목록의 레코드.](assets/uc_operator_5.png)
 
 1. 쿼리 타겟팅 차원 및 필드 이름이 목록에 표시됩니다.
 
-   ![](assets/uc_operator_6.png)
+   ![쿼리 temp를 표시하는 목록 열 탭 구성:query 루트 요소 및 해당 타깃팅 차원 필드 구성](assets/uc_operator_6.png)
 
 ## 모집단 수 테스트 {#testing-the-population-count}
 
@@ -84,7 +84,7 @@ Javascript 코드가 워크플로우 정보에 해당하는지 확인합니다.
 var.recCount>0
 ```
 
-![](assets/uc_operator_7.png)
+![조건 vars.recCount>0과 기본 False 분기를 사용하여 True 조건부 포크로 활동을 테스트합니다.](assets/uc_operator_7.png)
 
 ## 경고 설정 {#setting-up-the-alert}
 
@@ -108,4 +108,4 @@ for each (var item in items){
 >**[!UICONTROL <%= item.target.recipient.@fieldName %>]** 명령을 사용하면 **[!UICONTROL JavaScript code]** 활동을 통해 인스턴스 변수에 저장된 필드 중 하나를 추가할 수 있습니다.\
 >JavaScript 코드에 삽입된 필드만 원하는 만큼 추가할 수 있습니다.
 
-![](assets/uc_operator_8.png)
+![연산자에게 경고 활동이 할당되었습니다. 이 활동에는 저장된 항목을 순환하여 이름과 성을 나열하는 메시지가 표시됩니다.](assets/uc_operator_8.png)

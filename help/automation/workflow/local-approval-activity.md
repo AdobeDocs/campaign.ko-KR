@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 2%
+source-wordcount: '1640'
+ht-degree: 1%
 ---
 # 로컬 승인 활동 사용{#using-the-local-approval-activity}
 
@@ -38,13 +38,13 @@ ht-degree: 2%
 
 이 사용 사례를 설정하기 위해 다음과 같은 타겟팅 워크플로우를 만들었습니다.
 
-![](assets/local_validation_workflow.png)
+![타겟팅 워크플로: 쿼리 두 개, 교차, 분할, 승인 알림, 게재, 대기, 피드백 알림, 종료](assets/local_validation_workflow.png)
 
 로컬 승인 프로세스의 주요 단계는 다음과 같습니다.
 
 1. 데이터 배포 모델을 사용하는 **[!UICONTROL Split]** 형식 활동 덕분에 타깃팅으로 인한 모집단을 제한할 수 있습니다.
 
-   ![](assets/local_validation_intro_1.png)
+   ![도메인당 10%의 데이터 배포 목록(워크플로우에서 3,332명에서 333명의 수신자로 분할 출력 제한](assets/local_validation_intro_1.png)
 
 1. 그러면 **[!UICONTROL Local approval]** 활동이 이 역할을 인수하여 각 로컬 감독자에게 알림 전자 메일을 보냅니다. 각 지역 감독자가 자신에게 할당된 수신자를 승인할 때까지 활동이 보류됩니다.
 
@@ -54,7 +54,7 @@ ht-degree: 2%
    >
    >기한에 도달하면 승인되지 않은 수신자는 타겟팅에서 제외됩니다.
 
-   ![](assets/local_validation_intro_6.png)
+   ![유효성 검사 알림 후 대기 활동 전에 게재 활동이 강조 표시된 워크플로](assets/local_validation_intro_6.png)
 
 1. 며칠 후 두 번째 **[!UICONTROL Local approval]** 유형 활동은 각 로컬 감독자에게 연락처(클릭, 열기 등)가 수행한 작업의 요약을 알리는 알림 이메일을 보냅니다.
 
@@ -66,18 +66,18 @@ ht-degree: 2%
 
 1. 데이터 배포 템플릿을 만들려면 **[!UICONTROL Resources > Campaign management > Data distribution]** 노드로 이동하여 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/local_validation_data_distribution_1.png)
+   ![리소스 > 캠페인 관리 > 데이터 배포의 탐색기 트리(새로 만들기 단추가 강조 표시됨)](assets/local_validation_data_distribution_1.png)
 
 1. **[!UICONTROL General]** 탭을 선택합니다.
 
-   ![](assets/local_validation_data_distribution_2.png)
+   ![레이블, 타깃팅 차원, 배포 필드 및 유형, 승인 저장소가 있는 데이터 배포 일반 탭](assets/local_validation_data_distribution_2.png)
 
 1. **[!UICONTROL Label]** 및 **[!UICONTROL Distribution context]**&#x200B;을(를) 입력하십시오. 이 예제에서는 **[!UICONTROL Recipient]** 타깃팅 스키마와 **[!UICONTROL Email domain]** 필드를 배포 필드로 선택했습니다. 수신자 목록은 도메인별로 분류됩니다.
 1. **[!UICONTROL Distribution type]** 필드에서 **[!UICONTROL Distribution]** 탭에서 대상 제한 값을 표시할 방법을 선택합니다. 여기에서 **[!UICONTROL Percentage]**&#x200B;을(를) 선택했습니다.
 1. **[!UICONTROL Approval storage]** 필드에 사용 중인 대상 스키마와 일치하는 승인의 저장소 스키마를 입력합니다. 여기에서는 기본 저장소 스키마 **[!UICONTROL Local approval of recipients]**&#x200B;을(를) 사용합니다.
 1. **[!UICONTROL Advanced parameters]** 링크를 클릭합니다.
 
-   ![](assets/local_validation_data_distribution_3.png)
+   ![고급 매개 변수: 타겟팅된 메시지, 게재 레이블, 그룹화 필드 및 타겟팅된 메시지 편집](assets/local_validation_data_distribution_3.png)
 
 1. 승인할 수신자 목록에서 모든 수신자가 미리 선택되도록 **[!UICONTROL Approve the targeted messages]** 옵션을 선택된 상태로 유지합니다.
 1. **[!UICONTROL Delivery label]** 필드에 기본 식(게재의 계산 문자열)을 남겼습니다. 게재의 표준 레이블은 피드백 알림에 사용됩니다.
@@ -85,7 +85,7 @@ ht-degree: 2%
 1. **[!UICONTROL Edit targeted messages]** 섹션에서 **[!UICONTROL Edit recipients]** 웹 응용 프로그램과 **[!UICONTROL recipientId]** 매개 변수를 선택했습니다. 승인 및 피드백 알림에서 수신자는 클릭할 수 있고 웹 애플리케이션의 URL을 가리킵니다. 추가 URL 매개 변수는 **[!UICONTROL recipientId]**&#x200B;입니다.
 1. **[!UICONTROL Distribution]** 탭을 클릭합니다. 각 도메인에 대해 다음 필드를 입력합니다.
 
-   ![](assets/local_validation_data_distribution_4.png)
+   ![백분율, 레이블 및 지정된 그룹 또는 연산자와 함께 각 도메인을 나열하는 분류 탭](assets/local_validation_data_distribution_4.png)
 
    * **[!UICONTROL Value]**: 도메인 이름의 값을 입력하십시오.
    * **[!UICONTROL Percentage / Fixed]**: 각 도메인에 대해 최대값을 입력하십시오. 게재를 보낼 수신자 수입니다. 이 예제에서는 도메인당 게재를 10%로 제한하려고 합니다.
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 이 사용 사례를 설정하기 위해 다음과 같은 타겟팅 워크플로우를 만들었습니다.
 
-![](assets/local_validation_workflow.png)
+![타겟팅 워크플로: 쿼리 두 개, 교차, 분할, 승인 알림, 게재, 대기, 피드백 알림, 종료](assets/local_validation_workflow.png)
 
 다음 활동이 추가되었습니다.
 
@@ -123,23 +123,23 @@ ht-degree: 2%
 
 1. **[!UICONTROL Record count limitation]** 섹션에서 **[!UICONTROL Limit the selected records]** 옵션을 선택하고 **[!UICONTROL Edit]** 링크를 클릭합니다.
 
-   ![](assets/local_validation_split_1.png)
+   ![선택한 레코드 제한 옵션이 선택된 하위 집합 분할 탭과 레코드 수 제한의 편집 링크](assets/local_validation_split_1.png)
 
 1. **[!UICONTROL Keep only the first records after sorting]** 옵션을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/local_validation_split_1bis.png)
+   ![선택한 정렬 후 첫 번째 레코드만 유지하는 제한 단계 유형](assets/local_validation_split_1bis.png)
 
 1. **[!UICONTROL Sort columns]** 섹션에서 정렬이 적용되는 필드를 추가합니다. 여기에서 **[!UICONTROL Email]** 필드를 선택했습니다. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/local_validation_split_2.png)
+   전자 메일 열이 정렬 열과 다음 단추에 추가된 ![정렬 단계](assets/local_validation_split_2.png)
 
 1. **[!UICONTROL By data distribution]** 옵션을 선택하고 이전에 만든 배포 템플릿을 선택한 다음([1단계: 데이터 배포 템플릿 만들기](#step-1--creating-the-data-distribution-template-) 참조) **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/local_validation_split_3.png)
+   ![데이터 배포별 단계가 선택되었고 받는 사람 템플릿에 배포가 적용된 제한 단계](assets/local_validation_split_3.png)
 
 배포 템플릿에서 그룹화 값당 10%로 모집단을 제한하도록 선택했습니다. 이는 워크플로우에 표시된 값(입력으로 340, 출력으로 34)과 일치합니다.
 
-![](assets/local_validation_intro_1.png)
+![도메인당 10%의 데이터 배포 목록(워크플로우에서 3,332명에서 333명의 수신자로 분할 출력 제한](assets/local_validation_intro_1.png)
 
 ### 승인 알림 {#approval-notification}
 
@@ -147,7 +147,7 @@ ht-degree: 2%
 
 **[!UICONTROL Local approval]** 활동 구성에 대한 자세한 내용은 [로컬 승인](local-approval.md)을 참조하세요.
 
-![](assets/local_validation_workflow_2.png)
+![로컬 승인 활동이 Target 승인 알림으로 설정됨, 전환에 지정됨, 3d 지연 및 미리 알림](assets/local_validation_workflow_2.png)
 
 다음 필드를 입력해야 합니다.
 
@@ -165,13 +165,13 @@ ht-degree: 2%
 
 대기 활동을 통해 게재 피드백 알림을 전송할 두 번째 로컬 승인 활동의 시작을 연기할 수 있습니다. **[!UICONTROL Duration]** 필드에 **[!UICONTROL 5d]** 값(5일)을 입력했습니다. 게재 전송 후 5일 동안 수신자가 수행한 작업은 피드백 알림에 포함됩니다.
 
-![](assets/local_validation_workflow_3.png)
+![기간 필드가 5d로 설정된 대기 활동](assets/local_validation_workflow_3.png)
 
 ### 피드백 알림 {#feedback-notification}
 
 두 번째 **[!UICONTROL Local approval]** 활동을 통해 각 로컬 감독자에게 게재 피드백 알림을 보낼 수 있습니다.
 
-![](assets/local_validation_workflow_4.png)
+![로컬 승인 활동이 전환에 지정된 게재가 있는 게재 피드백 보고서로 설정됨](assets/local_validation_workflow_4.png)
 
 다음 필드를 입력해야 합니다.
 
@@ -181,7 +181,7 @@ ht-degree: 2%
 
 대기 활동에 구성된 기한에 도달하면 두 번째 **[!UICONTROL Local approval]** 유형 활동에서 각 로컬 감독자에게 다음 알림 이메일을 보냅니다.
 
-![](assets/local_validation_intro_3.png)
+성별별 수신자의 게재 피드백 목록과 상태(전송, 열림, 클릭)가 포함된 ![로컬 유효성 검사 웹 페이지](assets/local_validation_intro_3.png)
 
 ### 관리자에 의한 승인 추적 {#approval-tracking-by-the-administrator}
 
@@ -189,15 +189,15 @@ ht-degree: 2%
 
 캠페인의 타겟팅 워크플로우로 이동하여 **[!UICONTROL Local approval tasks]** 탭을 클릭합니다.
 
-![](assets/local_validation_admin_1.png)
+![작업, 승인 기한, 워크플로 및 캠페인이 나열된 캠페인 워크플로의 로컬 승인 작업 탭](assets/local_validation_admin_1.png)
 
 로컬 승인 작업 목록은 데이터 배포 템플릿의 **[!UICONTROL Approval tasks]** 탭을 통해서도 액세스할 수 있습니다.
 
-![](assets/local_validation_admin_2.png)
+![로컬 승인 작업 및 대상 메시지를 나열하는 데이터 배포 템플릿의 승인 작업 탭](assets/local_validation_admin_2.png)
 
 모니터링할 작업을 선택하고 **[!UICONTROL Detail]** 단추를 클릭합니다. 로컬 승인 작업의 **[!UICONTROL General]** 탭에서 작업에 대한 정보를 볼 수 있습니다. 필요한 경우 승인 및 미리 알림 날짜를 변경할 수 있습니다.
 
-![](assets/local_validation_admin_3.png)
+![레이블, 식별자, 배포, 워크플로, 캠페인, 승인 및 미리 알림 날짜가 있는 로컬 승인 작업 일반 탭](assets/local_validation_admin_3.png)
 
 이 탭에는 다음 정보가 표시됩니다.
 
@@ -209,11 +209,11 @@ ht-degree: 2%
 
 작업의 **[!UICONTROL Distribution]** 탭에서는 게재를 승인한 운영자뿐만 아니라 승인 로그, 상태, 타겟팅된 메시지 수, 승인 날짜도 볼 수 있습니다.
 
-![](assets/local_validation_admin_4.png)
+![로컬 승인 로그를 상태, 대상 메시지, 유효성 검사 날짜 및 승인자로 나열하는 작업 분류 탭](assets/local_validation_admin_4.png)
 
 승인 로그를 선택하고 **[!UICONTROL Detail]** 단추를 클릭하여 자세한 정보를 표시합니다. 로컬 승인 로그의 **[!UICONTROL General]** 탭에서는 일반 로그 정보를 볼 수 있습니다. 승인 상태를 변경할 수도 있습니다.
 
-![](assets/local_validation_admin_5.png)
+![승인 작업, 상태, 승인자, 승인 날짜 및 메시지가 타겟팅되고 승인된 승인 로그 일반 탭](assets/local_validation_admin_5.png)
 
 이 탭에는 다음 정보가 표시됩니다.
 
@@ -225,4 +225,4 @@ ht-degree: 2%
 
 승인 로그의 **[!UICONTROL Targeted]** 탭에 타겟팅된 수신자 목록과 승인 상태가 표시됩니다. 필요한 경우 이 상태를 변경할 수 있습니다.
 
-![](assets/local_validation_admin_6.png)
+![편집 가능한 승인이 있는 대상 받는 사람을 나열하는 승인 로그 대상 탭 예 또는 아니요 확인란](assets/local_validation_admin_6.png)

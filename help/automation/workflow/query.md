@@ -27,9 +27,9 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1915'
 ht-degree: 1%
 ---
 # 쿼리{#query}
@@ -39,9 +39,9 @@ ht-degree: 1%
 ## 쿼리 만들기 {#creating-a-query}
 
 쿼리를 사용하면 기준에 따라 대상을 선택할 수 있습니다. 쿼리 결과에 세그먼트 코드를 연결하고 추가 데이터를 삽입할 수 있습니다.
-[이 섹션](querying-recipient-table.md)에서 사용 사례를 통해 쿼리를 작성하는 방법을 알아봅니다. [쿼리 편집기](../../v8/start/query-editor.md)에 대한 섹션도 참조하세요.
+[받는 사람 테이블 쿼리](querying-recipient-table.md)에서 사용 사례를 통해 쿼리를 작성하는 방법을 알아봅니다. [쿼리 편집기](../../v8/start/query-editor.md)에 대한 섹션도 참조하세요.
 
-![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
+![쿼리 편집, 데이터 추가, 추가 데이터 편집, 결과 레이블 및 세그먼트 코드 필드가 포함된 쿼리 활동 대화 상자.](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -57,15 +57,15 @@ ht-degree: 1%
 
    자세한 내용은 [차원 타기팅 및 필터링](targeting-workflows.md#targeting-and-filtering-dimensions)을 참조하세요.
 
-   ![](assets/targeting-filtering-dimensions.png){width="70%" align="center" zoomable="yes"}
+   ![수신자를 타겟팅 차원으로 사용하고 수신자를 필터링 차원으로 사용하는 타겟팅 및 필터링 차원 단계.](assets/targeting-filtering-dimensions.png){width="70%" align="center" zoomable="yes"}
 
    필요한 경우 타겟팅 및 필터링 차원을 선택할 때 **[!UICONTROL Temporary schema]**&#x200B;을(를) 선택하여 인바운드 전환의 데이터를 기반으로 쿼리를 만들 수 있습니다.
 
-   ![](assets/query_temporary_table.png){width="70%" align="center" zoomable="yes"}
+   ![임시 스키마 옵션을 선택하고 스키마 쿼리 A를 선택한 상태에서 차원 단계 타깃팅 및 필터링.](assets/query_temporary_table.png){width="70%" align="center" zoomable="yes"}
 
 1. 마법사를 사용하여 모집단을 정의합니다. 입력할 필드는 대상 유형에 따라 다를 수 있습니다. **[!UICONTROL Preview]** 탭을 사용하여 현재 기준으로 타겟팅된 모집단을 미리 볼 수 있습니다.
 
-   ![](assets/query-sample.png){width="70%" align="center" zoomable="yes"}
+   ![조건으로 선택된 폴더, 게재 및 정보 서비스와 미리 보기 탭을 사용하는 쿼리 필터 단계](assets/query-sample.png){width="70%" align="center" zoomable="yes"}
 
 1. 1단계에서 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택하거나 **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]** 옵션을 사용하는 경우 나중에 필터링 기준을 수동으로 추가해야 합니다.
 
@@ -81,11 +81,11 @@ ht-degree: 1%
 
 **[!UICONTROL Add data...]** 링크를 사용하여 수집할 추가 데이터를 선택할 수 있습니다.
 
-![](assets/wf_add_data_link.png){width="70%" align="center" zoomable="yes"}
+![보조 정보 섹션의 데이터 추가 링크가 강조 표시된 쿼리 활동 대화 상자.](assets/wf_add_data_link.png){width="70%" align="center" zoomable="yes"}
 
 추가할 데이터 유형을 선택하여 시작합니다.
 
-![](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
+![필터링 차원, 외부 데이터 및 오퍼 제안에 연결된 데이터 옵션을 포함하는 추가 데이터 마법사.](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
 
 * **[!UICONTROL Data linked to the filtering dimension]**&#x200B;을(를) 선택하여 Adobe Campaign 데이터베이스의 데이터를 선택합니다.
 * 외부 데이터베이스에서 데이터를 추가하려면 **[!UICONTROL External data]**&#x200B;을(를) 선택하십시오. 이 옵션은 **Federated Data Access** 옵션을 구입한 경우에만 사용할 수 있습니다. 자세한 내용은 [외부 데이터베이스 액세스(FDA)](accessing-an-external-database-fda.md)를 참조하세요.
@@ -97,11 +97,11 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
 
 1. 추가할 데이터 유형을 선택합니다. 필터링 차원에 속하는 데이터이거나 연결된 테이블에 저장된 데이터일 수 있습니다.
 
-   ![](assets/query_add_columns.png){width="70%" align="center" zoomable="yes"}
+   ![선택한 필터링 차원의 데이터와 필터링 차원에 연결된 데이터를 사용하여 단계를 추가할 필드를 선택하십시오.](assets/query_add_columns.png){width="70%" align="center" zoomable="yes"}
 
 1. 데이터가 쿼리의 필터링 차원에 속하는 경우 사용 가능한 필드 목록에서 해당 데이터를 선택하여 출력 열에 표시하면 됩니다.
 
-   ![](assets/wf_add_data_field_selection.png){width="70%" align="center" zoomable="yes"}
+   ![받는 사람 필드를 사용 가능한 필드와 선택한 출력 열로 나열하는 단계에 추가할 데이터(회사 포함)](assets/wf_add_data_field_selection.png){width="70%" align="center" zoomable="yes"}
 
    다음을 추가할 수 있습니다.
 
@@ -115,7 +115,7 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
 1. 마법사의 첫 번째 단계에서 **[!UICONTROL Data linked to the filtering dimension]** 옵션을 선택합니다.
 1. 수집할 정보가 포함된 테이블을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/wf_add_data_linked_table.png){width="70%" align="center" zoomable="yes"}
+   ![선택한 필터링 차원에 연결된 데이터와 연결된 테이블의 트리를 사용하여 단계를 추가할 필드를 선택하십시오.](assets/wf_add_data_linked_table.png){width="70%" align="center" zoomable="yes"}
 
 1. 필요한 경우 **[!UICONTROL Data collected]** 필드의 값 중 하나를 선택하여 유지할 컬렉션의 요소 수를 지정합니다. 기본적으로 컬렉션의 모든 행은 복구된 다음 다음 단계에서 지정된 조건에 따라 필터링됩니다.
 
@@ -130,11 +130,11 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
    * 여러 줄(**[!UICONTROL Limit the line count]**)을 복구하도록 선택한 경우 수집할 줄 수를 지정할 수 있습니다.
    * 수집된 열에 선언된 실패 수, 사이트의 평균 비용 등과 같은 합계가 들어 있는 경우 **[!UICONTROL Aggregates]** 값을 사용할 수 있습니다.
 
-   ![](assets/query_add_collection_param.png){width="70%" align="center" zoomable="yes"}
+   ![수집된 데이터 목록을 연 일반 매개 변수 단계: 모든 행, 줄 수 제한, 집계, 병합](assets/query_add_collection_param.png){width="70%" align="center" zoomable="yes"}
 
 1. 컬렉션의 하위 선택 항목을 지정합니다.
 
-   ![](assets/query_add_columns_collection_filter.png){width="70%" align="center" zoomable="yes"}
+   ![조건이 있는 컬렉션에 대한 필터 단계 레이블에 지정된 날짜 이후의 오퍼 및 만들기 날짜가 포함됩니다.](assets/query_add_columns_collection_filter.png){width="70%" align="center" zoomable="yes"}
 
 1. **[!UICONTROL Limit the line count]** 옵션을 선택한 경우 수집된 데이터를 필터링할 순서를 정의합니다. 수집된 라인 수가 유지하도록 지정한 라인 수보다 많으면 필터링 순서를 통해 유지할 라인을 지정할 수 있습니다.
 
@@ -144,7 +144,7 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
 
 >[!NOTE]
 >
->추가 쿼리 샘플이 [이 섹션](querying-recipient-table.md)에 표시됩니다.
+>추가 쿼리 샘플이 [받는 사람 테이블 쿼리](querying-recipient-table.md)에 표시됩니다.
 
 1. 쿼리 이름을 지정한 다음 **[!UICONTROL Edit query...]** 링크를 선택합니다.
 1. 사용 가능한 필터 형식 목록에서 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택하십시오.
@@ -155,20 +155,20 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
    * 18세 이상의 수신자.
    * 프랑스에 사는 수신자.
 
-   ![](assets/query_example.png){width="70%" align="center" zoomable="yes"}
+   ![성별이 남성과 같고, 나이가 18~30세이며, 미국 지역이 서부와 같은 쿼리 필터](assets/query_example.png){width="70%" align="center" zoomable="yes"}
 
    기준 조합과 일치하는 SQL을 볼 수 있습니다.
 
-   ![](assets/query_example_sql.png){width="70%" align="center" zoomable="yes"}
+   ![성별, 연령 및 지역에 대한 필터 기준에서 생성된 네이티브 SQL 쿼리입니다.](assets/query_example_sql.png){width="70%" align="center" zoomable="yes"}
 
 1. 관련 탭에서 쿼리와 일치하는 수신자를 미리 보고 기준이 올바른지 확인할 수 있습니다.
 
-   ![](assets/query_example_preview.png){width="70%" align="center" zoomable="yes"}
+   ![일치하는 받는 사람 3명을 나열하는 쿼리의 미리 보기 탭(개수 3.](assets/query_example_preview.png){width="70%" align="center" zoomable="yes"})
 
 1. 나중에 **[!UICONTROL Finish]** > **[!UICONTROL OK]**&#x200B;을(를) 클릭하여 필터를 다시 사용할 수 있도록 저장합니다.
 1. 워크플로우에 다른 활동을 추가하여 계속 편집할 수 있습니다. 시작한 후 이전 쿼리 단계가 완료되면 발견된 수신자 수가 표시됩니다. 마우스 팝업 메뉴(**[!UICONTROL Display the target...]** > 전환 마우스 오른쪽 단추 클릭)를 사용하여 자세한 내용을 표시할 수 있습니다.
 
-   ![](assets/query_example_result.png){width="70%" align="center" zoomable="yes"}
+   ![아웃바운드 전환 레이블이 3인 워크플로우 쿼리 활동 - 검색된 수신자 수를 보여 주는 결과.](assets/query_example_result.png){width="70%" align="center" zoomable="yes"}
 
 ## 출력 매개 변수 {#output-parameters}
 
@@ -208,7 +208,7 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
 
 &quot;다음과 같이 존재함&quot; 연산자 대신 쿼리의 필터링 차원을 사용합니다.
 
-![](assets/optimize-queries-filtering.png){width="70%" align="center" zoomable="yes"}
+![받는 사람 게재 로그(broadLog)를 사용하여 조건 필터링(예: 내부 이름이 게재와 같음)](assets/optimize-queries-filtering.png){width="70%" align="center" zoomable="yes"}
 
 쿼리에서 필터에 &quot;과 같이 존재함&quot; 조건은 효율적이지 않습니다. SQL의 하위 쿼리와 동일합니다.
 
@@ -216,13 +216,13 @@ Adobe Campaign 데이터베이스에서 데이터를 추가하려면 다음을 �
 
 가장 좋은 방법은 쿼리의 필터링 차원을 대신 사용하는 것입니다.
 
-![](assets/optimize-queries-filtering2.png){width="70%" align="center" zoomable="yes"}
+![받는 사람 게재 로그로 필터링 차원이 설정된 차원 받는 사람을 타깃팅합니다.](assets/optimize-queries-filtering2.png){width="70%" align="center" zoomable="yes"}
 
 SQL의 필터링 차원과 동등한 기능은 내부 조인입니다.
 
 `select iRecipientId from nmsRecipient INNER JOIN nmsBroadLog ON (...)`
 
-차원 필터링에 대한 자세한 정보는 [이 섹션](build-a-workflow.md)을 참조하세요.
+차원 필터링에 대한 자세한 내용은 [워크플로 빌드](build-a-workflow.md)를 참조하세요.
 
 ### 아키텍처 {#architecture}
 

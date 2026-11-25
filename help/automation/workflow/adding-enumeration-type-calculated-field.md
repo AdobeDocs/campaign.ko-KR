@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '566'
 ht-degree: 0%
 ---
 # 열거형 유형 계산 필드 추가 {#adding-an-enumeration-type-calculated-field}
@@ -50,23 +50,23 @@ ht-degree: 0%
 1. [일반 쿼리 편집기](../../v8/start/query-editor.md)를 열고 받는 사람 테이블(**[!UICONTROL nms:recipient]**)을 선택합니다.
 1. **[!UICONTROL Data to extract]** 창에서 **[!UICONTROL Last name]**, **[!UICONTROL First name]** 및 **[!UICONTROL Gender]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/query_editor_nveau_73.png)
+   ![출력 열 목록에 성, 이름, 성별이 있는 창을 추출할 데이터입니다.](assets/query_editor_nveau_73.png)
 
 1. **[!UICONTROL Sorting]** 창에서 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다. 이 예제에서는 정렬이 필요하지 않습니다.
 1. **[!UICONTROL Data filtering]**&#x200B;에서 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Target element]** 창에서 필터 조건을 설정하여 영어를 사용하는 수신자를 수집합니다.
 
-   ![](assets/query_editor_nveau_74.png)
+   ![필터 조건 언어(@language)가 EN과 같은 대상 요소 창](assets/query_editor_nveau_74.png)
 
 1. **[!UICONTROL Data formatting]** 창에서 **[!UICONTROL Add a calculated field]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/query_editor_nveau_75.png)
+   ![계산된 필드 추가 단추가 강조 표시된 데이터 서식 창.](assets/query_editor_nveau_75.png)
 
 1. **[!UICONTROL Export calculated field definition]** 창의 **[!UICONTROL Type]** 창으로 이동하여 **[!UICONTROL Enumerations]**&#x200B;을(를) 선택합니다.
 
    새 계산된 필드가 참조해야 하는 열을 정의합니다. 이렇게 하려면 **[!UICONTROL Source column]** 필드의 드롭다운 메뉴에서 **[!UICONTROL Gender]** 열을 선택합니다. 대상 값은 **[!UICONTROL Gender]** 열과 일치합니다.
 
-   ![](assets/query_editor_nveau_76.png)
+   ![형식이 열거형으로 설정되고 Source 열이 젠더로 설정된 계산된 필드 정의](assets/query_editor_nveau_76.png)
 
    **Source** 및 **대상** 값을 정의합니다. 대상 값을 사용하면 쿼리 결과를 더 쉽게 읽을 수 있습니다. 이 쿼리는 수신자 성별을 반환해야 하며 결과는 0, 1 또는 2가 됩니다.
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    계산된 필드를 승인하려면 **[!UICONTROL OK]**&#x200B;을(를) 클릭하십시오.
 
-   ![](assets/query_editor_nveau_77.png)
+   ![소스 0, 1 및 2를 표시 안 됨, 남성 및 여성으로 매핑하는 열거형 값. 소스 값을 선택된 상태로 유지합니다.](assets/query_editor_nveau_77.png)
 
 1. **[!UICONTROL Data formatting]** 창에서 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. 미리 보기 창에서 **[!UICONTROL start the preview of the data]**.
@@ -90,12 +90,12 @@ ht-degree: 0%
    * &quot;Male&quot;의 경우 1
    * &quot;Female&quot;의 경우 2
 
-   ![](assets/query_editor_nveau_78.png)
+   ![성별 및 성별 사양 열이 있는 데이터 미리 보기(예: 남성 1개, 표시 안 됨 0개)](assets/query_editor_nveau_78.png)
 
    예를 들어 **[!UICONTROL List of enumeration values]**&#x200B;에 성별 &quot;2&quot;를 입력하지 않고 **[!UICONTROL In other cases]** 필드의 **[!UICONTROL Generate a warning and continue]** 함수를 선택하면 경고 로그가 표시됩니다. 이 로그는 성별 &quot;2&quot;(여성)가 입력되지 않았음을 나타냅니다. 데이터 미리 보기 창의 **[!UICONTROL Logs generated during export]** 필드에 표시됩니다.
 
-   ![](assets/query_editor_nveau_79.png)
+   ![플래그가 지정된 성별 2 행이 있는 데이터 미리 보기 및 로그 열거 값 2가 열 @gender에 없습니다.](assets/query_editor_nveau_79.png)
 
    다른 예를 들어 열거형 값 &quot;2&quot;가 입력되지 않았다고 가정해 보겠습니다. **[!UICONTROL Generate an error and reject the line]** 함수 선택: 모든 성별 &quot;2&quot; 받는 사람이 예외 항목 및 기타 정보(성 및 이름 등)를 줄바꿈합니다. 은(는) 내보내지지 않습니다. 데이터 미리 보기 창의 **[!UICONTROL Logs generated during export]** 필드에 오류 로그가 표시됩니다. 이 로그는 열거형 값 &quot;2&quot;가 입력되지 않았음을 나타냅니다.
 
-   ![](assets/query_editor_nveau_80.png)
+   ![거부된 성별 2 행에 오류 아이콘이 있고 로그 열거형 값 2가 없는 데이터 미리 보기입니다.](assets/query_editor_nveau_80.png)

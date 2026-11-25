@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '194'
 ht-degree: 2%
 ---
 # 외부 신호{#external-signal}
@@ -38,7 +38,7 @@ PostEvent 함수에 대한 자세한 내용은 SOAP 호출과 관련된 온라�
 
 신호가 수신되지 않은 경우 이벤트를 정의하기 위해 이 활동을 구성할 수 있습니다. 이렇게 하려면 활동을 편집하고 **[!UICONTROL Expiration]** 탭을 클릭하십시오. 이벤트를 만들고 구성하려면 **[!UICONTROL Insert]** 단추를 클릭하십시오.
 
-![](assets/edit_signal.png)
+![만료 세부 정보 창이 열려 있는 세 번의 만료를 나열하는 외부 신호 만료 탭](assets/edit_signal.png)
 
 만료 구성은 [만료](define-approvals.md)에 자세히 설명되어 있습니다.
 
@@ -46,4 +46,4 @@ PostEvent 함수에 대한 자세한 내용은 SOAP 호출과 관련된 온라�
 
 각 행은 만료 유형을 나타내며 전환과 일치합니다.
 
-![](assets/external_sign_diag.png)
+![아웃바운드 전환 만료, 만료 2, 만료 3 및 새로운 외부 신호 활동](assets/external_sign_diag.png)

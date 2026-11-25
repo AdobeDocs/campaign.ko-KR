@@ -21,9 +21,9 @@ subfeature_v2:
     internal-label: Targeting Activity
   - id: 2454f09c-f028-5647-8fef-1e986ec2d4e5
     internal-label: Subscription Services Activity
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '430'
 ht-degree: 1%
 ---
 # 구독 서비스{#subscription-services}
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 이를 구성하려면 다음 예와 같이 활동을 편집하고 해당 레이블을 입력한 다음 실행할 작업(구독 또는 구독 취소)과 관련 서비스를 선택합니다.
 
-![](assets/edit_service_inscription.png)
+![등록 또는 구독 취소가 포함된 구독 서비스 활동, 확인 메시지 옵션 및 서비스 목록](assets/edit_service_inscription.png)
 
 1. 활동의 레이블을 입력합니다.
 1. 실행 종료 시 전환을 만들려면 **[!UICONTROL Generate an outbound transition]**&#x200B;을(를) 선택합니다.
@@ -56,7 +56,7 @@ ht-degree: 1%
 >
 >수신자를 서비스에 수동으로 가입하기 전에 이러한 수신자가 사용자의 통신 수신에 동의하는지 확인하십시오.
 
-![](assets/subscription_services_example.png)
+![3개의 쿼리가 교차를 제공한 다음 목록 업데이트 및 구독 서비스 활동을 제공합니다](assets/subscription_services_example.png)
 
 1. 다음 세 개의 쿼리를 추가합니다.
 

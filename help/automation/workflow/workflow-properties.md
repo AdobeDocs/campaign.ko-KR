@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 33%
+source-wordcount: '684'
+ht-degree: 31%
 ---
 # 워크플로 속성{#workflow-properties}
 
@@ -35,7 +35,7 @@ ht-degree: 33%
 
 워크플로우에서 **[!UICONTROL Properties]** 창의 **[!UICONTROL Execution]** 탭은 세 개의 섹션으로 분류됩니다.
 
-![](assets/wf_execution_tab.png)
+![워크플로 속성의 스케줄러, 실행 및 오류 관리 섹션이 있는 실행 탭입니다.](assets/wf_execution_tab.png)
 
 ### 스케줄러 {#scheduler}
 
@@ -65,7 +65,7 @@ ht-degree: 33%
 
   쿼리는 옵션이 활성화된 경우 워크플로우(캠페인 워크플로우 제외) 및 **[!UICONTROL Properties]** 활동에 추가된 **[!UICONTROL SQL logs]** 탭에 표시됩니다. **[!UICONTROL Audit]** 탭에는 SQL 쿼리도 포함됩니다.
 
-  ![](assets/wf_tab_log_sql.png)
+  ![다이어그램 및 감사 탭 옆에 SQL 로그 탭이 강조 표시된 워크플로 창](assets/wf_tab_log_sql.png)
 
 * **[!UICONTROL Execute in the engine]**
 
@@ -102,7 +102,7 @@ ht-degree: 33%
 
   해당 운영자는 프로필에 이메일 주소가 있는 경우 이메일로 알림을 받게 됩니다. 워크플로 감독자를 정의하려면 속성의 **[!UICONTROL Supervisor(s)]** 필드(**[!UICONTROL General]** 탭)로 이동합니다.
 
-  ![](assets/wf-properties_select-supervisors.png)
+  감독자 드롭다운 목록이 열려 있고 워크플로 감독자가 강조 표시된 ![일반 탭.](assets/wf-properties_select-supervisors.png)
 
   **[!UICONTROL Notification to a workflow supervisor]** 기본 템플릿에는 수신자가 로그인한 후 문제를 처리할 수 있도록 웹을 통해 Adobe Campaign 클라이언트 콘솔에 액세스하기 위한 링크가 포함되어 있습니다.
 

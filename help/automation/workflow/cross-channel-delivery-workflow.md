@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 3%
+source-wordcount: '797'
+ht-degree: 1%
 ---
 # 크로스 채널 게재 워크플로{#cross-channel-delivery-workflow}
 
@@ -47,18 +47,18 @@ ht-degree: 3%
    * 이메일을 열었지만 오퍼에 대한 링크를 클릭하지 않은 수신자에게 SMS를 보냅니다.
    * 이메일을 열고 링크를 클릭한 수신자를 데이터베이스에 추가합니다.
 
-![](assets/wkf_cross-channel_7.png)
+![대기 및 분할을 통한 골드 멤버 쿼리 및 전자 메일의 워크플로와 미리 알림 전자 메일, SMS 및 목록 업데이트](assets/wkf_cross-channel_7.png)
 
 ## 1단계: 대상 구축 {#step-1--build-the-audience}
 
 대상을 정의하려면 수신자를 식별하는 쿼리를 만듭니다.
 
-1. 캠페인을 만듭니다. [이 페이지](../campaigns/marketing-campaign-create.md)에서 자세히 알아보십시오.
+1. 캠페인을 만듭니다. 자세한 내용은 [마케팅 캠페인 만들기](../campaigns/marketing-campaign-create.md)를 참조하세요.
 1. 캠페인의 **[!UICONTROL Targeting and workflows]** 탭에서 **쿼리** 활동을 워크플로우에 추가합니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](query.md)을 참조하세요.
 1. 게재를 받을 수신자를 정의합니다. 예를 들어 &#39;골드&#39; 멤버를 대상 차원으로 선택합니다.
 1. 쿼리에 필터링 조건을 추가합니다. 이 예에서는 전자 메일 주소와 휴대폰 번호가 있는 수신자를 선택합니다.
 
-   ![](assets/wkf_cross-channel_3.png)
+   ![조건이 있는 목록 골드 회원에 대한 필터 창이 비어 있지 않습니다. 전자 메일이 비어 있지 않고 모바일이 비어 있지 않습니다.](assets/wkf_cross-channel_3.png)
 
 1. 변경 내용을 저장합니다.
 
@@ -67,21 +67,21 @@ ht-degree: 3%
 1. 이메일 게재를 만듭니다.
 1. 메시지를 디자인하고 오퍼를 포함하는 링크를 콘텐츠에 삽입합니다.
 
-   ![](assets/wkf_cross-channel_1.png)
+   ![오퍼 선택 옵션, 오퍼 공간 필드 및 부적격 수신자 제외가 포함된 오퍼 관리 창](assets/wkf_cross-channel_1.png)
 
-   오퍼를 메시지 본문에 통합하는 방법에 대한 자세한 내용은 [이 페이지](../../v8/send/email.md)를 참조하세요.
+   오퍼를 메시지 본문에 통합하는 방법에 대한 자세한 내용은 [Adobe Campaign을 사용하여 전자 메일 보내기](../../v8/send/email.md)를 참조하세요.
 
 1. 변경 내용을 저장합니다.
 1. **[!UICONTROL Email delivery]** 활동을 마우스 오른쪽 단추로 클릭하여 엽니다.
 1. 모집단과 추적 로그를 복구하려면 **[!UICONTROL Generate an outbound transition]** 옵션을 선택하십시오.
 
-   ![](assets/wkf_cross-channel_2.png)
+   ![아웃바운드 전환 생성이 선택된 전자 메일 게재 활동](assets/wkf_cross-channel_2.png)
 
    이렇게 하면 첫 번째 이메일을 받을 때 이 정보를 사용하여 수신자의 행동에 따라 다른 게재를 보낼 수 있습니다.
 
 1. 받는 사람이 며칠 동안 전자 메일을 열 수 있도록 하려면 **[!UICONTROL Wait]** 활동을 추가하세요.
 
-   ![](assets/wkf_cross-channel_4.png)
+   ![기간 필드가 3d로 설정된 대기 활동](assets/wkf_cross-channel_4.png)
 
 ## 3단계: 결과 대상자 세그먼트화 {#step-3--segment-the-resulting-audience}
 
@@ -90,32 +90,32 @@ ht-degree: 3%
 1. 워크플로우에 **분할** 활동을 추가하고 엽니다. 이 활동 사용에 대한 자세한 내용은 [이 섹션](split.md)을 참조하세요.
 1. 쿼리에서 업스트림으로 계산한 모집단에서 3개의 세그먼트를 만듭니다.
 
-   ![](assets/wkf_cross-channel_6.png)
+   ![세 개의 하위 집합으로 활동 하위 집합 분할 탭: 이메일을 열지 않았습니다, 열었지만 링크를 클릭하지 않았습니다.](assets/wkf_cross-channel_6.png)
 
 1. 첫 번째 하위 집합에 대해 **[!UICONTROL Add a filtering condition on the inbound population]** 옵션을 선택하고 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/wkf_cross-channel_8.png)
+   ![분할 하위 집합이 인바운드 모집단 및 편집 링크에서 필터링 조건을 추가하여 전자 메일을 열지 않았습니다](assets/wkf_cross-channel_8.png)
 
 1. **[!UICONTROL Recipients of a delivery]**&#x200B;을(를) 제한 필터로 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/wkf_cross-channel_9.png)
+   ![제한 필터 목록에서 선택한 게재 수신자가 있는 차원 창 타깃팅 및 필터링](assets/wkf_cross-channel_9.png)
 
 1. 필터 설정의 **[!UICONTROL Behavior]** 드롭다운 목록에서 **[!UICONTROL Recipients who have not opened or clicked (email)]**&#x200B;을(를) 선택하고 게재 목록에서 보낼 오퍼가 포함된 이메일을 선택합니다. **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/wkf_cross-channel_10.png)
+   ![열거나 클릭하지 않고(전자 메일) 게재를 선택한 수신자로 동작이 설정된 대상 요소 창](assets/wkf_cross-channel_10.png)
 
 1. 두 번째 하위 집합도 유사하게 진행하고 **[!UICONTROL Behavior]** 드롭다운 목록에서 **[!UICONTROL Recipients who have not clicked (email)]**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/wkf_cross-channel_11.png)
+   ![클릭하지 않은 받는 사람(전자 메일)이 선택된 상태로 동작 목록이 열림](assets/wkf_cross-channel_11.png)
 
 1. 세 번째 하위 집합의 경우 **[!UICONTROL Add a filtering condition on the inbound population]**&#x200B;을(를) 선택하고 **[!UICONTROL Edit]**&#x200B;을(를) 클릭한 후 **[!UICONTROL Use a specific filtering dimension]** 옵션을 선택하십시오.
 1. **[!UICONTROL Filtering dimension]** 드롭다운 목록에서 **[!UICONTROL Recipient tracking log]**&#x200B;을(를) 선택하고 **[!UICONTROL List of restriction filters]**&#x200B;에서 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 강조 표시한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/wkf_cross-channel_12.png)
+   ![받는 사람 추적 로그로 설정된 필터링 차원과 함께 선택된 특정 필터링 차원 사용](assets/wkf_cross-channel_12.png)
 
 1. 다음과 같이 필터 조건을 선택합니다.
 
-   ![](assets/wkf_cross-channel_13.png)
+   ![필터 조건: 전자 메일 클릭과 같은 유형, 겨울 오퍼와 같은 게재 레이블 및 겨울 오퍼를 제공하는 전자 메일](assets/wkf_cross-channel_13.png)
 
 1. 변경 내용을 저장하려면 **[!UICONTROL Finish]**&#x200B;을(를) 클릭합니다.
 

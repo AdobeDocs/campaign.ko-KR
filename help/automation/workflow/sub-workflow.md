@@ -17,9 +17,9 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '507'
 ht-degree: 1%
 ---
 # 하위 워크플로{#sub-workflow}
@@ -30,13 +30,13 @@ ht-degree: 1%
 
 단일 워크플로우에서 여러 하위 워크플로우를 호출할 수 있습니다. 하위 워크플로우는 동기적으로 실행됩니다.
 
-아래 예에서 기본 워크플로우는 점프를 사용하여 하위 워크플로를 호출하는 것입니다. 점프 형식 그래픽 개체에 대한 자세한 내용은 [이 섹션](jump-start-point-and-end-point.md)을 참조하세요.
+아래 예에서 기본 워크플로우는 점프를 사용하여 하위 워크플로를 호출하는 것입니다. 이동 유형 그래픽 개체에 대한 자세한 내용은 [이동(시작점 및 끝점)](jump-start-point-and-end-point.md)을 참조하십시오.
 
 1. 다른 워크플로우에서 하위 워크플로우로 사용할 워크플로우를 만듭니다.
 1. 워크플로우 시작 부분에 우선 순위가 1인 **[!UICONTROL Jump (end point)]** 활동을 삽입합니다. &quot;끝점&quot; 유형 점프가 여러 개 있는 경우 Adobe Campaign에서 가장 낮은 숫자의 &quot;끝점&quot; 점프를 사용합니다.
 1. 워크플로우 끝에 우선 순위가 2인 **[!UICONTROL Jump (start point)]** 활동을 삽입합니다. &quot;시작 지점&quot; 유형 점프가 여러 개 있는 경우 Adobe Campaign에서 가장 높은 숫자의 &quot;시작 지점&quot; 점프를 사용합니다.
 
-   ![](assets/subworkflow_jumps.png)
+   ![쿼리와 유니온 주변에서 [이동](끝점) 1로 시작하고 [이동](시작점) 2로 끝나는 하위 워크플로 다이어그램입니다.](assets/subworkflow_jumps.png)
 
    >[!NOTE]
    >
@@ -49,12 +49,12 @@ ht-degree: 1%
 1. **[!UICONTROL Sub-workflow]** 활동을 삽입하고 엽니다.
 1. **[!UICONTROL Workflow template]** 드롭다운 목록에서 사용할 워크플로를 선택합니다.
 
-   ![](assets/subworkflow_selection.png)
+   ![워크플로 템플릿 드롭다운이 있는 하위 워크플로 활동으로 사용 가능한 워크플로, 하위 워크플로(WKF55)가 선택되었습니다.](assets/subworkflow_selection.png)
 
 1. 구성 스크립트를 추가하여 참조된 워크플로우를 변경할 수도 있습니다.
 1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다. 선택한 워크플로우에서 **[!UICONTROL Jump (start point)]** 활동의 레이블을 사용하는 아웃바운드 전환을 자동으로 만듭니다.
 
-   ![](assets/subworkflow_outbound.png)
+   ![호출 하위 워크플로와 Jump(시작 지점) 레이블이 지정된 아웃바운드 전환이 있는 기본 워크플로 2.](assets/subworkflow_outbound.png)
 
 1. 워크플로우를 실행합니다.
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 * 중간 모집단 수를 표시할 수 없습니다.
 * 하위 워크플로우 로그는 기본 워크플로우에 표시됩니다.
 
-  ![](assets/subworkflow_logs.png)
+  ![결과 쿼리에 대한 하위 워크플로 로그 메시지를 표시하는 기본 워크플로의 감사 탭.](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >

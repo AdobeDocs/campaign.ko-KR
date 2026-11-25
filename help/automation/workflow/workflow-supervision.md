@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '772'
 ht-degree: 0%
 ---
 # 사용 사례: 워크플로우 관리{#supervising-workflows}
@@ -49,7 +49,7 @@ ht-degree: 0%
 >
 >워크플로우 외에도 Campaign **워크플로우 Heatmap**&#x200B;을(를) 사용하면 현재 실행 중인 워크플로우를 자세히 분석할 수 있습니다. 자세한 내용은 [전용 섹션](heatmap.md)을 참조하세요.
 >
->**워크플로우의 실행을 모니터링하는 방법**&#x200B;에 대한 자세한 내용은 [이 섹션](monitor-workflow-execution.md)을 참조하세요.
+>**워크플로우 실행을 모니터링하는 방법**&#x200B;에 대한 자세한 내용은 [워크플로우 실행 모니터링](monitor-workflow-execution.md)을 참조하십시오.
 
 ## 1단계: 모니터링 워크플로우 만들기 {#step-1--creating-the-monitoring-workflow}
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 다음 스키마는 활동의 순서를 보여 줍니다.
 
-![](assets/uc_monitoring_workflow_overview.png)
+![전환에 의해 연결된 시작, JavaScript 코드, 테스트, 배달 및 대기 활동이 있는 감독 워크플로](assets/uc_monitoring_workflow_overview.png)
 
 이 워크플로우는 다음과 같이 구성됩니다.
 
@@ -137,11 +137,11 @@ vars.strWorkflowStop = strStop;
 
 세 개의 이벤트 변수 &quot;vars.strWorkflowError&quot;, &quot;vars.strWorkflowPaused&quot; 또는 &quot;vars.strWorkflowStop&quot; 중 하나 이상이 비어 있지 않은 경우, 감독자 **에게 게재가 전송됩니다.**
 
-![](assets/uc_monitoring_workflow_test.png)
+![True 조건으로 활동을 테스트하여 세 개의 워크플로 변수 길이가 0이고 False 기본값인지 확인](assets/uc_monitoring_workflow_test.png)
 
 정기적인 간격으로 모니터링 워크플로우를 다시 시작하도록 &quot;대기&quot; 활동을 구성할 수 있습니다. 이 사용 사례의 경우 **대기 시간이 1시간으로 설정되어 있습니다**.
 
-![](assets/uc_monitoring_workflow_attente.png)
+![기간 필드가 1시간](assets/uc_monitoring_workflow_attente.png)(으)로 설정된 대기 활동
 
 ## 4단계: 게재 준비 {#step-4--preparing-the-delivery}
 
@@ -152,7 +152,7 @@ vars.strWorkflowStop = strStop;
 * **감독자의 전자 메일 주소**.
 * 개인화된 텍스트를 삽입하기 위한 **HTML 콘텐츠**
 
-  ![](assets/uc_monitoring_workflow_variables_diffusion.png)
+  ![WF_Stop, WF_Error 및 WF_Paused를 텍스트 변수로 나열하는 게재 템플릿의 변수 탭](assets/uc_monitoring_workflow_variables_diffusion.png)
 
   선언된 세 변수(WF_Stop, WF_Paused, WF_Error)는 세 워크플로우 이벤트 변수와 일치합니다.
 
@@ -162,7 +162,7 @@ vars.strWorkflowStop = strStop;
 
   게재 템플릿에는 다음 콘텐츠가 있습니다.
 
-  ![](assets/uc_monitoring_workflow_model_diffusion.png)
+  ![오류, 일시 중지 및 중지된 워크플로 제목 및 변수가 있는 게재 템플릿의 HTML 콘텐츠.WF_ 태그](assets/uc_monitoring_workflow_model_diffusion.png)
 
 템플릿을 만들고 승인했으면 **게재** 활동을 다음과 같이 구성해야 합니다.
 
@@ -176,13 +176,13 @@ vars.strWorkflowStop = strStop;
 * 실행할 작업: **준비 및 시작**&#x200B;을(를) 선택합니다.
 * **오류 처리** 옵션을 선택 취소합니다.
 
-  ![](assets/uc_monitoring_workflow_optionmodel.png)
+  ![새로 만들기, 템플릿에서 만들어짐, 게재 및 준비 및 시작 선택](assets/uc_monitoring_workflow_optionmodel.png)
 
 * **배달** 활동의 **스크립트** 탭으로 이동하여 개인화 필드 메뉴를 통해 세 개의 **문자열** 형식 변수를 추가하십시오.
 
-  ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
+  ![게재 시 개인화 메뉴가 열려 있는 게재 활동의 스크립트 탭 및 기타 옵션](assets/uc_monitoring_workflow_selectlinkvariables.png)
 
-  ![](assets/uc_monitoring_workflow_linkvariables.png)
+  ![변수가 선택되어 있고 값(텍스트) 필드가 강조 표시된 사용 가능한 필드 창](assets/uc_monitoring_workflow_linkvariables.png)
 
   선언된 세 가지 변수는 다음과 같습니다.
 

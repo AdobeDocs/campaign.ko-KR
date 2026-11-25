@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 4%
+source-wordcount: '128'
+ht-degree: 3%
 ---
 # 캠페인 워크플로 {#campaign-workflows}
 
 각 캠페인에 대해 **[!UICONTROL Targeting and workflows]** 탭에서 실행할 워크플로우를 만들 수 있습니다. 이러한 워크플로우는 캠페인에만 적용됩니다.
 
-![](assets/wf-in-op-edit-delivery-tab.png)
+![쿼리, 분할 및 게재가 있는 워크플로우 목록과 다이어그램을 표시하는 캠페인의 타기팅 및 워크플로우 탭](assets/wf-in-op-edit-delivery-tab.png)
 
 이 탭에는 모든 워크플로우와 동일한 활동이 포함되어 있습니다. [자세히 알아보기](#implementation-steps-)
 
@@ -47,6 +47,6 @@ ht-degree: 4%
 
 모든 캠페인 워크플로는 **[!UICONTROL Administration > Production > Objects created automatically > Campaign workflows]** 노드에서 중앙 집중화됩니다.
 
-![](assets/campaigns_wf.png)
+![관리자 > 프로덕션 > 자동으로 만들어진 개체 > 캠페인 워크플로우 노드가 선택된 탐색기](assets/campaigns_wf.png)
 
-캠페인 워크플로 및 구현 예제는 [이 섹션](../campaigns/marketing-campaign-target.md)에 자세히 설명되어 있습니다.
+캠페인 워크플로우 및 구현 예제는 [마케팅 캠페인 대상](../campaigns/marketing-campaign-target.md)에 자세히 설명되어 있습니다.

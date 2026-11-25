@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '285'
 ht-degree: 4%
 ---
 # 표준 시간대 관리{#managing-time-zones}
@@ -46,7 +46,7 @@ Adobe Campaign을 사용하면 동일한 인스턴스로 관련된 다양한 국
 
 모든 예약된 작업, 즉 예약 옵션이 있는 모든 활동에 대해 적용할 시간대를 선택할 수 있습니다. 관련 활동의 **[!UICONTROL Advanced]** 탭을 통해 시간대를 선택합니다.
 
-![](assets/wf-timezone-in-a-box.png)
+![표준 시간대 드롭다운이 열려 있는 [스케줄러 고급] 탭에 기본, 서버, 연산자 및 데이터베이스 표준 시간대가 나열됩니다.](assets/wf-timezone-in-a-box.png)
 
 가능한 값:
 

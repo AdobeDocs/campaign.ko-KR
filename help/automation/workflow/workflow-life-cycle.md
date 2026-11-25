@@ -17,9 +17,9 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '279'
 ht-degree: 2%
 ---
 # 워크플로 수명 주기 {#workflow-life-cycle}
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 예를 들어, 아래 워크플로우에서 **승인** 활동이 깜박이는 동안 **시작** 및 **게재** 활동의 윤곽이 표시됩니다.
 
-![](assets/new-workflow-6.png)
+![시작 및 게재 활동이 요약되어 있고 승인 활동이 실행 중인 워크플로우, 게재 제어 및 종료](assets/new-workflow-6.png)
 
 즉, 처음 두 활동이 성공적으로 실행되었으며 승인이 진행 중입니다. 즉, 생성되었지만 아직 완료되지 않았습니다.
 
@@ -50,4 +50,4 @@ ht-degree: 2%
 
 워크플로우가 시작되어 **승인** 활동에 지정된 그룹에 속한 연산자의 결정을 기다리는 중입니다. 그룹에 속하고 이메일 주소 또는 휴대폰 번호를 가진 운영자에게 알립니다.
 
-워크플로우를 모니터링하는 방법에 대한 자세한 내용은 [이 섹션](monitor-workflow-execution.md)을 참조하세요.
+워크플로우를 모니터링하는 방법에 대한 자세한 내용은 [워크플로우 실행 모니터링](monitor-workflow-execution.md)을 참조하십시오.

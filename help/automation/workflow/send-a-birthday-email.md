@@ -20,9 +20,9 @@ subfeature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '1036'
 ht-degree: 2%
 ---
 # 생일 이메일 보내기{#sending-a-birthday-email}
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 이 사용 사례를 설정하기 위해 다음과 같은 타겟팅 워크플로우를 만들었습니다.
 
-![](assets/birthday-workflow_usecase_1.png)
+![생일 워크플로: 스케줄러, 쿼리, 3월 1일 테스트, 윤년 쿼리로 포크, 결합, 배달.](assets/birthday-workflow_usecase_1.png)
 
 이 (일일 실행) 워크플로우는 현재 날짜에 생일이 있는 모든 수신자를 선택합니다.
 
@@ -48,20 +48,20 @@ ht-degree: 2%
 1. **[!UICONTROL Query]** 활동을 워크플로우에 끌어다 놓고 두 번 클릭합니다.
 1. **쿼리 편집** 링크를 클릭하고 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/s_ncs_user_create_exp_exple00.png)
+   ![수신자가 선택되고 필터링 조건이 강조 표시된 차원 창 타기팅 및 필터링.](assets/s_ncs_user_create_exp_exple00.png)
 
 1. **[!UICONTROL Expression]** 열의 첫 번째 셀을 클릭하고 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭하여 표현식 편집기를 엽니다.
 
-   ![](assets/s_ncs_user_create_exp_exple.png)
+   ![표현식 셀이 비어 있고 표현식 편집 단추가 표시된 필터 조건 편집기입니다.](assets/s_ncs_user_create_exp_exple.png)
 
 1. 필터링 모드를 선택하려면 **[!UICONTROL Advanced selection]**&#x200B;을(를) 클릭하십시오.
 
-   ![](assets/s_ncs_user_create_exp_exple_a.png)
+   ![고급 선택 단추가 강조 표시된 수신자 필드를 나열하는 창을 선택할 필드입니다.](assets/s_ncs_user_create_exp_exple_a.png)
 
 1. 표현식 편집기를 표시하려면 **[!UICONTROL Edit the formula using an expression]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. 함수 목록에서 **[!UICONTROL Date]** 노드를 통해 액세스할 수 있는 **[!UICONTROL Day]**&#x200B;을(를) 두 번 클릭합니다. 이 함수는 매개 변수로 전달된 날짜에 해당하는 일을 나타내는 숫자를 반환합니다.
 
-   ![](assets/s_ncs_user_create_exp_exple01.png)
+   ![편집 영역에 Day()가 있고 함수 목록에서 Day 함수가 선택된 식 창을 편집합니다.](assets/s_ncs_user_create_exp_exple01.png)
 
 1. 사용 가능한 필드 목록에서 **[!UICONTROL Birth date]**&#x200B;을(를) 두 번 클릭합니다. 그런 다음 편집기의 상단 섹션에 다음 수식이 표시됩니다.
 
@@ -73,13 +73,13 @@ ht-degree: 2%
 
 1. 쿼리 편집기의 **[!UICONTROL Operator]** 열의 첫 번째 셀에서 **[!UICONTROL equal to]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/s_ncs_user_create_exp_exple02.png)
+   ![생년월일이 표현식으로 표시된 조건을 필터링하고 연산자 드롭다운이 선택된 날짜와 같도록 열립니다.](assets/s_ncs_user_create_exp_exple02.png)
 
 1. 그런 다음 두 번째 열(**[!UICONTROL Value]**)의 첫 번째 셀을 클릭하고 **[!UICONTROL Edit expression]**&#x200B;을 클릭하여 식 편집기를 엽니다.
 1. 함수 목록에서 **[!UICONTROL Date]** 노드를 통해 액세스할 수 있는 **[!UICONTROL Day]**&#x200B;을(를) 두 번 클릭합니다.
 1. 현재 날짜를 검색하려면 **[!UICONTROL GetDate]** 함수를 두 번 클릭하십시오.
 
-   ![](assets/s_ncs_user_create_exp_exple04.png)
+   ![함수 목록에 Day 및 GetDate 함수가 강조 표시된 Day(GetDate())를 표시하는 식 창을 편집합니다.](assets/s_ncs_user_create_exp_exple04.png)
 
    편집기의 상단 섹션에는 다음 수식이 표시됩니다.
 
@@ -93,7 +93,7 @@ ht-degree: 2%
 
    전체 쿼리는 다음과 같습니다.
 
-   ![](assets/s_ncs_user_create_exp_exple03.png)
+   ![쿼리 완료: 생년월일이 현재 날짜의 일자와 같고 생년월일이 현재 날짜의 월과 같습니다.](assets/s_ncs_user_create_exp_exple03.png)
 
 **[!UICONTROL Query]** 활동 결과를 **[!UICONTROL Email delivery]** 활동에 연결하여 생일에 받는 사람 목록으로 전자 메일을 보냅니다.
 
@@ -121,7 +121,7 @@ ht-degree: 2%
 >
 >당해 연도가 윤년이면 2월 29일에 출생한 수급자 전원이 자동 포함된다.
 
-![](assets/birthday-workflow_usecase_2.png)
+![월+생년월일을 현재 날짜와 같도록 하는 쿼리 활동 필터(생년월일과 생년월일을 오늘로 일치)를 지정합니다.](assets/birthday-workflow_usecase_2.png)
 
 생일이 현재 날짜에 해당하는 수신자를 선택하면 [생일이 현재 날짜인 수신자 식별](#identifying-recipients-whose-birthday-it-is) 섹션에 표시됩니다.
 
@@ -175,7 +175,7 @@ vars.firstOfMarch = 1;
 }
 ```
 
-![](assets/birthday-workflow_usecase_3.png)
+![isLeapYear 함수를 정의하는 초기화 스크립트가 있는 테스트 활동의 고급 탭](assets/birthday-workflow_usecase_3.png)
 
 **[!UICONTROL Conditional forks]** 섹션에 다음 조건을 추가하십시오.
 
@@ -183,7 +183,7 @@ vars.firstOfMarch = 1;
 vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 ```
 
-![](assets/birthday-workflow_usecase_4.png)
+![테스트 탭 3월 1일(윤년이 아님), True 조건 vars.currentIsALeapYear == 0 &amp;&amp; vars.firstOfMarch == 1.](assets/birthday-workflow_usecase_4.png)
 
 ### 3단계: 2월 29일에 태어난 수신자 선택 {#step-3--select-any-recipients-born-on-february-29th}
 
@@ -191,7 +191,7 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 
 이 질의에서는 생년월일이 2월 29일인 모든 수신자를 선택합니다.
 
-![](assets/birthday-workflow_usecase_5.png)
+![2월 29일에 태어난 받는 사람을 선택하는 쿼리: 생년월일이 2월이고 생년월일이 29일입니다.](assets/birthday-workflow_usecase_5.png)
 
 결과를 **[!UICONTROL Union]** 활동과 결합합니다.
 
@@ -207,4 +207,4 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 >
 >캠페인에 대해 승인 단계를 활성화한 경우 이러한 단계를 확인한 후에만 게재가 전송됩니다. 자세한 내용은 섹션을 참조하십시오.
 
-![](assets/birthday-workflow_usecase_1.png)
+![생일 워크플로: 스케줄러, 쿼리, 3월 1일 테스트, 윤년 쿼리로 포크, 결합, 배달.](assets/birthday-workflow_usecase_1.png)

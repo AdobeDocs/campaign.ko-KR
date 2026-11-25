@@ -25,9 +25,9 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '621'
 ht-degree: 0%
 ---
 # 목록 읽기{#read-list}
@@ -38,15 +38,15 @@ ht-degree: 0%
 
 처리할 목록은 선택한 옵션 및 **[!UICONTROL Read list]** 활동에 정의된 매개 변수에 따라 스크립트로 계산되거나 동적으로 현지화되도록 명시적으로 지정할 수 있습니다.
 
-![](assets/list_edit_select_option_01.png)
+![명시적으로 지정된 목록 활동 읽기, 선택한 목록 및 Source 필터링 아래의 쿼리 편집 링크](assets/list_edit_select_option_01.png)
 
 목록을 명시적으로 지정하지 않은 경우 템플릿으로 사용할 목록을 제공하여 해당 구조를 찾아야 합니다.
 
-![](assets/s_advuser_list_template_select.png)
+![선택한 스크립트로 계산된 이름이 있는 목록 활동 읽기 및 목록 드롭다운 열기](assets/s_advuser_list_template_select.png)
 
 목록 선택이 구성되면 **[!UICONTROL Edit query]** 옵션을 사용하여 필터를 추가하여 다음 워크플로우의 모집단 일부를 유지할 수 있습니다.
 
-![](assets/wf_readlist_1.png)
+![가격에 대한 쿼리 편집 필터를 사용하여 목록 읽기 활동이 선택한 목록에 적용되지 않음](assets/wf_readlist_1.png)
 
 >[!CAUTION]
 >
@@ -58,21 +58,21 @@ ht-degree: 0%
 
 다음 예에서는 이메일 주소 목록을 사용하여 이메일 게재 대상에서 제외할 수 있습니다.
 
-![](assets/s_advuser_list_read_sample_1.png)
+![목록 읽기 및 새 연락처 파일 쿼리가 제외에 연결된 다음 배달 및 대기 3일이 포함된 워크플로](assets/s_advuser_list_read_sample_1.png)
 
 **새 연락처** 폴더에 포함된 프로필은 게재 작업에 의해 타겟팅되어야 합니다. 대상에서 제외할 이메일 주소는 외부 목록에 저장됩니다. 이 예제에서는 이메일 주소에 대한 정보만 제외에 필요합니다.
 
 1. **새 연락처** 폴더 선택 쿼리를 사용하면 선택한 프로필의 전자 메일 주소를 로드할 수 있어야 목록의 정보에 맞게 정렬할 수 있습니다.
 
-   ![](assets/s_advuser_list_read_sample_0.png)
+   ![전자 메일 필드가 있는 새 연락처 쿼리 활동이 보조 정보 아래에 추가됨](assets/s_advuser_list_read_sample_0.png)
 
 1. 여기서 목록은 **목록** 폴더에 저장되고 해당 레이블은 계산됩니다.
 
-   ![](assets/s_advuser_list_read_sample_2.png)
+   ![목록 폴더와 블랙리스트 파일에 대한 계산된 레이블을 사용하여 목록 활동을 읽습니다](assets/s_advuser_list_read_sample_2.png)
 
 1. 외부 목록의 전자 메일 주소를 기본 대상에서 제외하려면 제외 활동을 구성하고 **새 연락처** 폴더에 보관할 데이터가 포함되도록 지정해야 합니다. 이 집합과 제외 활동의 다른 인바운드 집합 사이의 공동 데이터는 대상에서 삭제됩니다.
 
-   ![](assets/s_advuser_list_read_sample_3.png)
+   ![새 연락처 파일을 기본 집합으로 설정하고 제외 규칙 테이블을 사용하는 제외 활동](assets/s_advuser_list_read_sample_3.png)
 
    제외 규칙은 편집 도구의 중앙 섹션에 구성됩니다. **[!UICONTROL Add]** 단추를 클릭하여 적용할 제외 유형을 정의합니다.
 
@@ -82,6 +82,6 @@ ht-degree: 0%
 
    이 예제에서는 조인에 대한 제외가 있습니다. 목록에 포함된 데이터는 이메일 주소가 포함된 필드를 통해 기본 세트의 데이터와 조정됩니다. 조인을 구성하려면 **[!UICONTROL Change dimension]** 필드에서 **[!UICONTROL Joins]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/s_advuser_list_read_sample_4.png)
+   ![예외 정의(제외 집합으로 목록 읽기 및 변경 차원의 조인 옵션 포함](assets/s_advuser_list_read_sample_4.png))
 
 1. 그런 다음 두 세트(Source 및 대상)에서 이메일 주소에 해당하는 필드를 선택합니다. 그러면 열이 연결되고 이메일 주소가 가져온 주소 목록에 있는 수신자는 대상에서 제외됩니다.

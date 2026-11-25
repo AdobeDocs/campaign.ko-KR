@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 4%
+source-wordcount: '329'
+ht-degree: 3%
 ---
 # 그룹 관리를 사용한 쿼리 {#querying-using-grouping-management}
 
@@ -50,32 +50,32 @@ ht-degree: 4%
 
 1. **[!UICONTROL Generic query editor]**&#x200B;을(를) 열고 수신자 테이블(**nms:recipient**)을 선택합니다.
 
-   ![](assets/query_editor_02.png)
+   ![nms(받는 사람)가 선택된 일반 쿼리 편집기의 문서 형식 화면입니다.](assets/query_editor_02.png)
 
 1. **[!UICONTROL Data to extract]** 창에서 **[!UICONTROL Email domain]** 및 **[!UICONTROL Primary key]** 필드를 선택합니다. **[!UICONTROL Primary key]** 필드에서 개수를 실행합니다.
 
 1. **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** 상자를 선택합니다.
 
-   ![](assets/query_editor_nveau_29.png)
+   ![전자 메일 도메인과 계산(기본 키) 열이 있는 화면을 추출할 데이터, 그룹화 처리(그룹화 기준 + 있음) 확인.](assets/query_editor_nveau_29.png)
 
 1. **[!UICONTROL Sorting]** 창에서 전자 메일 도메인을 내림차순으로 정렬합니다. 이렇게 하려면 **[!UICONTROL Descending sort]** 열에서 **[!UICONTROL Yes]**&#x200B;을(를) 확인하십시오. **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/query_editor_nveau_70.png)
+   ![정렬 및 내림차순 정렬 열을 표시하는 전자 메일 도메인이 정렬된 정렬 화면입니다.](assets/query_editor_nveau_70.png)
 
 1. **[!UICONTROL Data filtering]**&#x200B;에서 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택합니다. **[!UICONTROL Target elements]** 창으로 이동하여 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Data grouping]** 창에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 **[!UICONTROL Email domain]**&#x200B;을(를) 선택합니다.
 
    이 데이터 그룹화 창은 **[!UICONTROL Handle groupings (GROUP BY + HAVING]** 상자를 선택한 경우에만 표시됩니다.
 
-   ![](assets/query_editor_blocklist_04.png)
+   ![전자 메일 도메인(@domain)을 GROUP BY 절의 그룹 열로 나열하는 데이터 그룹화 화면입니다.](assets/query_editor_blocklist_04.png)
 
 1. 30번 이상 타겟팅된 전자 메일 도메인만 결과로 반환되기를 원하므로 **[!UICONTROL Grouping condition]** 창에서 기본 키 수를 30보다 크게 지정하십시오.
 
    **[!UICONTROL Manage groupings (GROUP BY + HAVING)]** 상자를 선택하면 이 창이 나타납니다. 이 창에서 그룹화 결과가 필터링됩니다(HAVING).
 
-   ![](assets/query_editor_blocklist_05.png)
+   ![HAVING 절의 개수(기본 키)가 30보다 큰 그룹화 조건 화면.](assets/query_editor_blocklist_05.png)
 
 1. **[!UICONTROL Data formatting]** 창에서 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다. 여기에는 서식이 필요하지 않습니다.
 1. 데이터 미리 보기 창에서 **[!UICONTROL Launch data preview]**&#x200B;을(를) 클릭합니다. 여기에서 30번 이상 타깃팅된 세 개의 다른 전자 메일 도메인이 반환됩니다.
 
-   ![](assets/query_editor_blocklist_06.png)
+   ![미리 보기가 시작된 후 두 개의 전자 메일 도메인을 반환하는 데이터 미리 보기 화면입니다.](assets/query_editor_blocklist_06.png)

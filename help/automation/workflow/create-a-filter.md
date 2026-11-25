@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '296'
 ht-degree: 2%
 ---
 # 필터 만들기 {#creating-a-filter}
@@ -41,19 +41,19 @@ Adobe Campaign에서 사용할 수 있는 필터는 [쿼리 편집기](../../v8/
 
 예를들어 연산자 목록은 **[!UICONTROL Active accounts]**(으)로 필터링될 수 있습니다.
 
-![](assets/query_editor_filter_sample_1.png)
+필터 메뉴가 열리고 활성 계정 필터가 선택된 ![연산자 목록](assets/query_editor_filter_sample_1.png)
 
 일치하는 필터에 **[!UICONTROL Operators]** 스키마의 **[!UICONTROL Account disabled]** 값에 대한 쿼리가 포함되어 있습니다.
 
-![](assets/query_editor_filter_sample_2.png)
+![로그인 또는 레이블 기준 필터가 선택된 미리 정의된 필터 목록(레이블, 내부 이름 및 문서 유형 표시)](assets/query_editor_filter_sample_2.png)
 
 동일한 목록의 경우 **[!UICONTROL By login or label]** 필터를 사용하여 필터 필드에 입력한 값을 기준으로 목록의 데이터를 필터링할 수 있습니다.
 
-![](assets/query_editor_filter_sample_3.png)
+![로그인 또는 레이블 포함 필드에 입력된 에이전시로 필터링된 연산자 목록에서 연산자 하나를 반환합니다](assets/query_editor_filter_sample_3.png)
 
 다음과 같이 빌드됩니다.
 
-![](assets/query_editor_filter_sample_4.png)
+![레이블, 이름 및 설명에 대한 세 가지 필터 조건을 사용하여 로그인 또는 레이블 필터 정의별](assets/query_editor_filter_sample_4.png)
 
 필터링 조건을 일치시키려면 연산자 계정은 다음 조건 중 하나를 확인해야 합니다.
 
@@ -67,7 +67,7 @@ Adobe Campaign에서 사용할 수 있는 필터는 [쿼리 편집기](../../v8/
 
 **[!UICONTROL Taken into account if]** 열을 사용하면 이러한 필터링 조건에 대한 응용 프로그램 조건을 정의할 수 있습니다. 여기서 **$(/tmp/@text)**&#x200B;자는 필터에 연결된 입력 필드의 내용을 나타냅니다.
 
-![](assets/query_editor_filter_sample_5.png)
+로그인 또는 레이블 포함 필드에 입력한 에이전시가 있는 연산자 목록 ![런던 에이전시를 반환합니다.](assets/query_editor_filter_sample_5.png)
 
 여기, **$(/tmp/@text)=&#39;agency&#39;**
 

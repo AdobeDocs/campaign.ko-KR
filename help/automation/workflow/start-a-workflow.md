@@ -27,9 +27,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1180'
 ht-degree: 0%
 ---
 # 워크플로우 시작, 일시 중지, 중지 {#starting-a-workflow}
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 도구 모음의 **[!UICONTROL Actions]** 단추를 사용하면 선택한 워크플로우의 추가 실행 옵션에 액세스할 수 있습니다. **[!UICONTROL File > Actions]** 메뉴를 사용하거나 워크플로를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]**&#x200B;을(를) 선택할 수도 있습니다.
 
-![](assets/purge_historique.png)
+![시작, 일시 중지, 중지 및 다시 시작 옵션 중에서 작업 메뉴가 열리고 제거 기록이 강조 표시된 워크플로 목록입니다.](assets/purge_historique.png)
 
 * **[!UICONTROL Start]**
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 하나 이상의 워크플로우 활동을 선택한 경우 마우스 오른쪽 버튼을 클릭하여 선택 작업을 수행할 수 있습니다.
 
-![](assets/contextual_menu.png)
+![표시 로그가 강조 표시된 워크플로우 활동에서 마우스 오른쪽 단추 클릭 메뉴, 열기, 잘라내기, 복사, 삭제 및 저장 옵션.](assets/contextual_menu.png)
 
 마우스 오른쪽 버튼 클릭 메뉴에서 사용할 수 있는 옵션은 다음과 같습니다.
 

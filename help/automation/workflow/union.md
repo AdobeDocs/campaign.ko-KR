@@ -19,20 +19,20 @@ subfeature_v2:
     internal-label: Workflows
   - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
     internal-label: Targeting Activity
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '333'
 ht-degree: 2%
 ---
 # 합집합{#union}
 
 **[!UICONTROL Union]**&#x200B;은(는) 여러 인바운드 활동의 결과를 하나의 타겟으로 그룹화합니다. 수신된 모든 결과와 함께 대상이 생성됩니다. 따라서 조합을 실행하려면 모든 이전 활동이 완료되어야 합니다.
 
-![](assets/s_user_segmentation_union.png)
+![조정 옵션이 있는 유니온 활동, 생성된 모집단 크기 제한 확인란 및 결과 레이블](assets/s_user_segmentation_union.png)
 
 >[!NOTE]
 >
->**[!UICONTROL Union]** 활동 구성 및 사용에 대한 자세한 내용은 [이 페이지](targeting-workflows.md#combine-several-targets--union-)를 참조하세요.
+>**[!UICONTROL Union]** 활동 구성 및 사용에 대한 자세한 내용은 [여러 대상 결합(Union)](targeting-workflows.md#combine-several-targets--union-)을 참조하세요.
 
 ## 결합 예 {#union-example}
 
@@ -49,7 +49,7 @@ ht-degree: 2%
 1. **[!UICONTROL Union]** 활동을 승인한 다음 [목록 업데이트](list-update.md) 활동을 구성하십시오.
 1. 워크플로를 시작합니다. 결과 수가 표시되고 목록 업데이트 활동에 정의된 목록이 생성되거나 업데이트됩니다. 이 목록에는 두 쿼리 모두에 대한 수신자 집합 또는 해당하는 경우 이전 단계에서 정의된 숫자가 포함됩니다.
 
-   ![](assets/union_example.png)
+   ![두 쿼리가 목록 업데이트 활동에 5개의 결과를 출력하는 유니온 활동을 제공하는 워크플로](assets/union_example.png)
 
 ## 입력 매개 변수 {#input-parameters}
 

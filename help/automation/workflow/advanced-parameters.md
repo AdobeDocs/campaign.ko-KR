@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 5%
+source-wordcount: '527'
+ht-degree: 4%
 ---
 # 고급 매개 변수{#advanced-parameters}
 
@@ -39,11 +39,11 @@ ht-degree: 5%
 
 * 간소화된 버전(예: **[!UICONTROL Start]** 및 **[!UICONTROL End]** 활동)
 
-  ![](assets/wf-advanced-basic.png)
+  ![이름, 이미지, 초기화 스크립트 및 설명 필드가 있는 시작 활동의 간소화된 고급 탭입니다.](assets/wf-advanced-basic.png)
 
 * 더 자세한 버전(예: **[!UICONTROL Query]** 활동)
 
-  ![](assets/wf-advanced-full.png)
+  ![실행, 선호도, 동작, 시간대 및 오류 관리 필드가 있는 쿼리 활동의 세부 고급 탭입니다.](assets/wf-advanced-full.png)
 
 **[!UICONTROL Advanced]** 탭에 입력할 필드는 다음 섹션에 자세히 설명되어 있습니다.
 

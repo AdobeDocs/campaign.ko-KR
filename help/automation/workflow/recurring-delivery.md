@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 12%
+source-wordcount: '292'
+ht-degree: 10%
 ---
 # 반복 게재{#recurring-delivery}
 
@@ -34,7 +34,7 @@ ht-degree: 12%
 
 **[!UICONTROL Recurring delivery]** 활동을 사용하면 캠페인에 관련된 게재 템플릿 발생을 구성할 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#recurring-delivery-video)
+![비디오 링크에 대한 재생 단추 아이콘](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#recurring-delivery-video)
 
 이 활동은 캠페인에 있는 **[!UICONTROL Targeting and workflows]** 탭에서만 사용할 수 있습니다.
 
@@ -42,7 +42,7 @@ ht-degree: 12%
 
 1. 활동의 기반이 될 게재 템플릿을 선택합니다.
 
-   ![](assets/recurring_delivery_001.png)
+   ![게재 템플릿 드롭다운이 열려 있고 전자 메일 게재(메일)가 선택된 게재 창.](assets/recurring_delivery_001.png)
 
 1. 게재 템플릿을 구성합니다.
 
@@ -68,6 +68,6 @@ ht-degree: 12%
 
 이 비디오에서는 반복 게재 및 예약 활동을 구성하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27507?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ko){target="_blank"}에서 사용할 수 있습니다.
+추가 캠페인 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}에서 사용할 수 있습니다.

@@ -22,10 +22,10 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 7%
+source-wordcount: '1003'
+ht-degree: 6%
 ---
 # 데이터 업데이트{#update-data}
 
@@ -43,7 +43,7 @@ ht-degree: 7%
 * **[!UICONTROL Update and merge collections]**: 데이터를 업데이트하고 기본 레코드를 선택한 다음 이 기본 레코드의 중복에 연결된 요소를 연결합니다. 그런 다음 고아 첨부 요소를 만들지 않고 중복을 삭제할 수 있습니다.
 * **[!UICONTROL Delete]**: 데이터를 삭제합니다.
 
-![](assets/s_advuser_update_data_1.png)
+![작업 유형 목록이 열려 있는 상태에서 데이터 활동을 업데이트하여 Delete를 통해 삽입 또는 업데이트를 표시합니다.](assets/s_advuser_update_data_1.png)
 
 **[!UICONTROL Batch size]** 필드를 사용하면 업데이트할 인바운드 전환 요소의 수를 선택할 수 있습니다. 예를 들어 500이라고 지정하면 처음 처리된 500개의 레코드가 업데이트됩니다.
 
@@ -57,17 +57,17 @@ ht-degree: 7%
 
 * 그렇지 않으면 데이터베이스의 데이터를 식별하거나 조정 키를 직접 사용할 수 있는 링크를 하나 이상 지정합니다.
 
-![](assets/s_advuser_update_data_2.png)
+![데이터 활동 업데이트, 레코드 식별: 업데이트된 차원으로 수신자 스키마 선택](assets/s_advuser_update_data_2.png)
 
 ## 업데이트할 필드 선택 {#selecting-the-fields-to-be-updated}
 
 Adobe Campaign에서 업데이트할 필드를 자동으로 식별하려면 **[!UICONTROL Automatically associate fields with the same name]** 옵션을 사용하십시오.
 
-![](assets/s_advuser_update_data_3b.png)
+![필드를 같은 이름으로 자동 연결하는 자동 선택 단추에 의해 채워진 테이블을 업데이트하는 필드](assets/s_advuser_update_data_3b.png)
 
 **[!UICONTROL Insert]** 아이콘을 사용하여 업데이트할 데이터베이스 필드를 수동으로 선택할 수도 있습니다.
 
-![](assets/s_advuser_update_data_3.png)
+![행을 업데이트할 새 필드의 표현식 단추를 편집하여 수신자 문서에 대한 필드 선택기를 엽니다.](assets/s_advuser_update_data_3.png)
 
 업데이트할 모든 필드를 선택하고 필요한 경우 업데이트를 수행할 항목에 따라 조건을 추가합니다. 이렇게 하려면 **[!UICONTROL Taken into account if]**&#x200B;열을 사용합니다. 조건이 순서대로 적용되며 목록의 순서에 따라 적용됩니다. 업데이트 순서를 변경하려면 오른쪽의 화살표를 사용합니다.
 
@@ -75,7 +75,7 @@ Adobe Campaign에서 업데이트할 필드를 자동으로 식별하려면 **[!
 
 **[!UICONTROL Insert or update]** 작업 내에서 적용할 캠페인을 개별적으로 또는 각 필드에 대해 선택할 수 있습니다. 이렇게 하려면 **[!UICONTROL Operation]** 열에서 원하는 값을 선택합니다.
 
-![](assets/s_advuser_update_data_5.png)
+![모두, 삽입 및 업데이트 옵션을 사용하여 테이블을 업데이트하는 필드의 작업 열](assets/s_advuser_update_data_5.png)
 
 **[!UICONTROL modifiedDate]**, **[!UICONTROL modifiedBy]**, **[!UICONTROL createdDate]** 및 **[!UICONTROL createdBy]** 필드는 해당 관리 모드가 필드 업데이트 테이블에 특별히 구성되어 있지 않은 한 데이터 업데이트 중에 자동으로 업데이트됩니다.
 
@@ -108,11 +108,11 @@ Adobe Campaign에서 업데이트할 필드를 자동으로 식별하려면 **[!
 
 1. **[!UICONTROL Update and merge collections]** 작업을 선택하십시오.
 
-   ![](assets/update_and_merge_collections1.png)
+   ![작업 유형 목록에서 컬렉션 업데이트 및 병합 작업 유형을 선택하여 데이터 활동을 업데이트합니다.](assets/update_and_merge_collections1.png)
 
 1. 링크의 우선 순위를 선택합니다. 이를 통해 기본 레코드를 식별할 수 있습니다. 사용 가능한 링크는 인바운드 전환에 따라 달라집니다.
 
-   ![](assets/update_and_merge_collections2.png)
+   ![기본 레코드를 찾는 데 사용되는 링크를 우선 순위별로 나열하는 레코드 식별 섹션.](assets/update_and_merge_collections2.png)
 
 1. 기본 레코드로 이동할 컬렉션과 업데이트할 필드를 선택합니다.
 
@@ -126,7 +126,7 @@ Adobe Campaign에서 업데이트할 필드를 자동으로 식별하려면 **[!
 
 1. **[!UICONTROL Advanced parameters]** > **[!UICONTROL Duplicates]**&#x200B;을(를) 선택하여 보조 레코드를 처리할 순서를 지정하십시오.
 
-   ![](assets/update_and_merge_collections3.png)
+   ![Source 식을 사용하여 업데이트할 대상 레코드의 필드 및 컬렉션이며 열을 고려합니다.](assets/update_and_merge_collections3.png)
 
 정의된 규칙을 적용할 수 있는 경우 보조 레코드의 데이터는 기본 레코드와 연결됩니다. 선택한 업데이트 유형에 따라 보조 레코드를 삭제할 수 있습니다.
 

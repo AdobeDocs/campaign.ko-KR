@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '407'
 ht-degree: 1%
 ---
 # 데이터 추출(파일){#extraction-file}
@@ -46,29 +46,29 @@ ht-degree: 1%
 1. 출력 파일의 이름을 지정합니다. 이 이름에는 필드 오른쪽의 개인화 버튼을 통해 삽입된 변수를 포함할 수 있습니다.
 1. 추출할 데이터를 선택하려면 **[!UICONTROL Edit the file format...]**&#x200B;을(를) 클릭하십시오.
 
-   ![](assets/s_advuser_extract_file_param.png)
+   ![파일 형식 편집 링크에서 추출 파일 형식 창을 연 상태에서 데이터 추출(파일) 활동.](assets/s_advuser_extract_file_param.png)
 
    **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** 옵션은 특정 구매 주문 유형, 10번 이상 주문한 고객 등 집계의 최종 결과를 필터링하기 위한 추가 단계를 추가합니다.
 
 1. 필요한 경우 출력 파일에 계산 또는 처리 결과와 같은 새 열을 추가할 수 있습니다. 이렇게 하려면 **[!UICONTROL Add]** 아이콘을 클릭합니다.
 
-   ![](assets/s_advuser_extract_file_add_col.png)
+   ![출력 열 목록 오른쪽에 추가 아이콘이 강조 표시된 추출 파일 형식 창](assets/s_advuser_extract_file_add_col.png)
 
    추가 행에서 **[!UICONTROL Edit expression]** 아이콘을 클릭하여 새 열의 내용을 정의합니다.
 
-   ![](assets/s_advuser_extract_file_add_exp.png)
+   ![만든 날짜 열에 표현식 편집 아이콘이 있는 출력 열 목록.](assets/s_advuser_extract_file_add_exp.png)
 
    그런 다음 선택 창에 액세스합니다. 데이터에 적용할 프로세스를 선택하려면 **[!UICONTROL Advanced selection]**&#x200B;을(를) 클릭하십시오.
 
-   ![](assets/s_advuser_extract_file_advanced_selection.png)
+   ![받는 사람 필드를 나열하는 창을 선택할 필드이며 고급 선택 단추가 강조 표시되어 있습니다.](assets/s_advuser_extract_file_advanced_selection.png)
 
    목록에서 원하는 공식을 선택합니다.
 
-   ![](assets/s_advuser_extract_file_agregate_values.png)
+   ![집계 함수에서 프로세스를 선택하고 최대값 옵션을 선택한 수식 유형 창](assets/s_advuser_extract_file_agregate_values.png)
 
 데이터 추출 중에 실행할 후 프로세스를 정의하여 파일을 압축하거나 암호화할 수 있습니다. 이렇게 하려면 활동의 **[!UICONTROL Script]** 탭에 원하는 명령을 추가해야 합니다.
 
-![](assets/postprocessing_dataextraction.png)
+![사후 프로세스 명령을 추가하기 위해 [스크립트] 탭이 강조 표시된 데이터 추출(파일) 작업입니다.](assets/postprocessing_dataextraction.png)
 
 ## 집계 함수 목록 {#list-of-aggregate-functions}
 

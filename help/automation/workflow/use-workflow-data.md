@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 9%
+source-wordcount: '898'
+ht-degree: 6%
 ---
 # 워크플로 데이터 사용{#how-to-use-workflow-data}
 
 워크플로우 활동을 사용하여 여러 작업을 수행할 수 있습니다. 아래 사용 샘플을 찾아 목록을 만들고, 구독을 관리하고, 워크플로우를 통해 메시지를 보내거나, 게재 및 대상자를 보강하여 데이터베이스를 업데이트합니다.
 
-[이 섹션](workflow-use-cases.md)에서 일련의 워크플로우 사용 사례를 사용할 수 있습니다.
+[워크플로 사용 사례](workflow-use-cases.md)에서 일련의 워크플로 사용 사례를 사용할 수 있습니다.
 
 ## 데이터 수명 주기 {#data-life-cycle}
 
@@ -42,7 +42,7 @@ ht-degree: 9%
 
 해당 전환을 마우스 오른쪽 버튼으로 클릭하여 이 데이터를 표시하고 분석할 수 있습니다.
 
-![](assets/wf-right-click-analyze.png)
+![대상 표시 및 대상 분석 옵션을 표시하는 전환에 마우스 오른쪽 단추 클릭 메뉴를 사용하는 워크플로](assets/wf-right-click-analyze.png)
 
 이렇게 하려면 관련 메뉴를 선택합니다.
 
@@ -50,13 +50,13 @@ ht-degree: 9%
 
   이 메뉴는 대상 모집단에서 사용 가능한 데이터를 표시합니다.
 
-  ![](assets/wf-right-click-display.png)
+  ![모집단 보기 창, 데이터 탭에서 대상 레코드를 해당 필드와 함께 나열합니다.](assets/wf-right-click-display.png)
 
   **[!UICONTROL Schema]** 탭에서 작업 테이블의 구조에 액세스할 수 있습니다.
 
-  ![](assets/wf-right-click-schema.png)
+  ![모집단 보기 창, 스키마 탭, 임시 작업 테이블 구조 표시:enrich 작업 테이블 및 해당 필드 표시](assets/wf-right-click-schema.png)
 
-  이 작업에 대한 자세한 정보는 [이 섹션](monitor-workflow-execution.md#worktables-and-workflow-schema)을 참조하십시오.
+  자세한 내용은 [작업 테이블 및 워크플로 스키마](monitor-workflow-execution.md#worktables-and-workflow-schema)를 참조하세요.
 
 * **[!UICONTROL Analyze target...]**
 
@@ -66,7 +66,7 @@ ht-degree: 9%
 
 워크플로우가 실행되면 대상 데이터가 제거됩니다. 마지막 작업 테이블만 액세스할 수 있습니다. 모든 작업 표에 액세스할 수 있도록 워크플로를 구성할 수 있습니다. 워크플로 속성에서 **[!UICONTROL Keep the result of interim populations between two executions]** 옵션을 선택하십시오.
 
-![](assets/wf-purge-data-option.png)
+![두 실행 사이에 중간 모집단 결과 유지 옵션이 선택된 워크플로우 속성](assets/wf-purge-data-option.png)
 
 >[!CAUTION]
 >
@@ -89,7 +89,7 @@ ht-degree: 9%
 
 1. 정보를 수집할 워크플로우를 만들고 데이터베이스에 이미 있는 데이터와 조정한 다음 게재를 시작합니다.
 
-   ![](assets/wf-targetdata-sample-1.png)
+   ![데이터 로드(파일), 데이터 보강 및 게재 활동이 순차적으로 연결된 워크플로우입니다.](assets/wf-targetdata-sample-1.png)
 
 1. 이 예제에서 파일 콘텐츠는 다음과 같습니다.
 
@@ -105,15 +105,15 @@ ht-degree: 9%
 
    파일을 로드하려면 다음과 같이 **[!UICONTROL Data loading (file)]** 활동을 구성하십시오.
 
-   ![](assets/wf-targetdata-sample-2.png)
+   ![샘플 CSV 파일, 해당 열의 미리 보기 및 로컬 컴퓨터에서 파일을 업로드하는 데이터 로드(파일) 활동.](assets/wf-targetdata-sample-2.png)
 
 1. 수집된 데이터를 Adobe Campaign 데이터베이스에 이미 있는 데이터와 조정하도록 **[!UICONTROL Enrichment]** 활동을 구성합니다. 여기서 조정 키는 계정 번호입니다.
 
-   ![](assets/wf-targetdata-sample-3.png)
+   ![데이터 보강 활동, 조정 탭(원본 표현식 계정이 대상 계정과 @account.](assets/wf-targetdata-sample-3.png)
 
 1. **[!UICONTROL Delivery]**&#x200B;을(를) 구성하십시오. 템플릿으로 만들고 인바운드 전환으로 받는 사람을 지정합니다.
 
-   ![](assets/wf-targetdata-sample-4.png)
+   ![인바운드 이벤트 및 준비 작업에 의해 지정된 수신자와 함께 템플릿에서 게재 활동을 만들었습니다.](assets/wf-targetdata-sample-4.png)
 
    >[!CAUTION]
    >
@@ -123,13 +123,13 @@ ht-degree: 9%
 
    이렇게 하려면 **[!UICONTROL Target extension]** 형식 개인화 필드를 삽입합니다.
 
-   ![](assets/wf-targetdata-sample-5.png)
+   ![Target 확장이 열려 있는 게재 편집기 개인화 메뉴에서 음악, 계정 및 카드와 같은 필드를 나열합니다.](assets/wf-targetdata-sample-5.png)
 
    여기에서는 워크플로우에서 수집한 파일에 명시된 대로 고객이 좋아하는 음악 장르와 미디어 유형(CD 또는 DVD)을 삽입하려고 합니다.
 
    추가로, 우리는 충성도 카드 소지자, 즉 &#39;카드&#39; 값이 1인 수신자를 위한 쿠폰을 추가할 것입니다.
 
-   ![](assets/wf-targetdata-sample-6.png)
+   ![targetData.Card가 1이고 targetData.Music 개인 설정이 있는 경우 10% 할인이 추가되는 스크립트가 있는 게재 콘텐츠.](assets/wf-targetdata-sample-6.png)
 
    **[!UICONTROL Target extension]**(targetData) 유형 데이터는 모든 개인화 필드와 동일한 특성을 사용하여 게재에 삽입됩니다. 제목, 링크 레이블 또는 링크 자체에서도 사용할 수 있습니다.
 
@@ -146,7 +146,7 @@ ht-degree: 9%
 
   기존 목록을 선택하거나 만들 수 있습니다. 이 경우 이름과 레코드 폴더가 계산됩니다.
 
-  ![](assets/s_user_create_list.png)
+  ![목록을 명시적으로 지정한 업데이트 활동을 나열, 고유 테이블로 타겟팅 차원 데이터베이스에 저장했습니다.](assets/s_user_create_list.png)
 
   [목록 업데이트](list-update.md)를 참조하세요.
 

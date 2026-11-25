@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 14%
+source-wordcount: '1287'
+ht-degree: 12%
 ---
 # 데이터 로딩(파일){#data-loading-file}
 
@@ -45,13 +45,13 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->&quot;플랫&quot; 구조 파일만 지원됩니다(예: CSV, TXT 등). XML 형식은 사용하지 않는 것이 좋습니다. 클라이언트 콘솔을 사용하면 최대 150MB의 크기로 파일을 로드할 수 있습니다. 웹 사용자 인터페이스에서 파일 로드 활동의 제한은 50MB입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=ko){target="_blank"}
+>&quot;플랫&quot; 구조 파일만 지원됩니다(예: CSV, TXT 등). XML 형식은 사용하지 않는 것이 좋습니다. 클라이언트 콘솔을 사용하면 최대 150MB의 크기로 파일을 로드할 수 있습니다. 웹 사용자 인터페이스에서 파일 로드 활동의 제한은 50MB입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
-![](assets/s_advuser_wf_etl_file.png)
+![샘플 파일이 있는 데이터 로드(파일) 활동, 열 미리 보기, 파일 이름 옵션 및 거부 관리.](assets/s_advuser_wf_etl_file.png)
 
 예를 들어, 서버에서 파일의 압축을 풀지 않고(따라서 압축 해제된 파일에 대한 공간을 절약할 필요가 없음) 파일 처리 시 압축 해제를 포함할 수 있도록 파일 가져오기 중에 실행할 사전 프로세스를 정의할 수 있습니다. **[!UICONTROL Pre-process the file]** 옵션을 선택하고 **[!UICONTROL None]**, **[!UICONTROL Decompression]**(zcat) 또는 **[!UICONTROL Decrypt]**(gpg) 옵션 중 하나를 선택합니다.
 
-![](assets/preprocessing-dataloading.png)
+![선택한 파일 전처리와 명령 목록을 사용하여 데이터 로드(파일): 없음, 압축 해제, 암호 해독.](assets/preprocessing-dataloading.png)
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ ht-degree: 14%
 
 이렇게 하려면 **[!UICONTROL Data loading (file)]** 활동의 기본 창에서 **[!UICONTROL Click here to change the file format...]**&#x200B;을(를) 선택하십시오. 포맷 세부 정보 창이 열립니다.
 
-![](assets/file_loading_columns_format.png)
+![일반 파일 설정이 있는 파일 형식 창 및 데이터 형식이 있는 열 테이블, NULL 허용 및 길이](assets/file_loading_columns_format.png)
 
 그런 다음 파일의 일반 서식과 각 열의 서식을 수정할 수 있습니다.
 
@@ -108,7 +108,7 @@ ht-degree: 14%
 
 다음 예제에서는 매일 서버에서 파일을 수집하고, 콘텐츠를 로드하고, 포함된 정보에 따라 데이터베이스의 데이터를 업데이트할 수 있도록 해줍니다. 수집 대상 파일에는 (3,000유로 이상 또는 미만) 구매를 하거나, 구매 시 환불을 요청하거나, 아무 것도 구매하지 않고 해당 매장을 방문했을 수 있는 고객 정보가 포함되어 있습니다. 이 정보에 따라 데이터베이스의 프로필에 다양한 프로세스가 적용됩니다.
 
-![](assets/s_advuser_load_file_sample_0.png)
+![파일 수집기, 데이터 로드(파일) 및 분할을 사용하는 워크플로우로 인해 구매 유형별로 4개의 데이터 업데이트 활동이 발생합니다.](assets/s_advuser_load_file_sample_0.png)
 
 1. 파일 컬렉터를 사용하면 지정된 빈도에 따라 디렉토리에 저장된 파일을 복구할 수 있습니다.
 
@@ -116,13 +116,13 @@ ht-degree: 14%
 
    **[!UICONTROL File collector]** 사용에 대해서는 [파일 수집기](file-collector.md) 섹션에 자세히 설명되어 있습니다.
 
-   ![](assets/s_advuser_load_file_sample_1.png)
+   ![서버 디렉터리 및 고객 텍스트 파일에 대한 필터가 있는 파일 수집기 디렉터리 탭.](assets/s_advuser_load_file_sample_1.png)
 
    **[!UICONTROL Schedule]** 탭에서는 수집기 실행을 예약할 수 있습니다. 즉, 이러한 파일의 존재를 확인할 빈도를 지정할 수 있습니다.
 
    여기서는 매일 오후 9시에 컬렉터를 트리거하고 싶습니다.
 
-   ![](assets/s_advuser_load_file_sample_2.png)
+   ![계획 실행이 확인된 파일 수집기 일정 탭과 매일 오후 9시 트리거에 변경 단추가 추가됩니다.](assets/s_advuser_load_file_sample_2.png)
 
    이렇게 하려면 편집 도구의 오른쪽 아래 섹션에 있는 **[!UICONTROL Change...]** 단추를 클릭하고 일정을 구성합니다.
 
@@ -130,7 +130,7 @@ ht-degree: 14%
 
 1. 그런 다음 데이터 로드(파일) 활동을 구성하여 수집된 파일을 읽는 방법을 나타냅니다. 이렇게 하려면 로드할 파일과 구조가 같은 샘플 파일을 선택합니다.
 
-   ![](assets/s_advuser_load_file_sample_3.png)
+   ![샘플 파일과 이벤트, 성, 이름 및 기타 열의 미리 보기가 있는 데이터 로드(파일) 작업입니다.](assets/s_advuser_load_file_sample_3.png)
 
    여기에서 파일에는 5개의 열이 포함되어 있습니다.
 
@@ -143,15 +143,15 @@ ht-degree: 14%
 
    분할 활동은 섹션에 자세히 설명되어 있습니다.
 
-   ![](assets/s_advuser_load_file_sample_4.png)
+   ![하위 집합을 구매 없음으로 분할합니다. 편집 링크를 클릭하면 이벤트 필드가 식으로 선택됩니다.](assets/s_advuser_load_file_sample_4.png)
 
    각 하위 집합에 대해 **Event** 열에 값 중 하나를 지정합니다.
 
-   ![](assets/s_advuser_load_file_sample_5.png)
+   ![하위 집합에 대해 표현식 이벤트(이벤트)가 0인 쿼리 필터 조건](assets/s_advuser_load_file_sample_5.png)
 
    따라서 **[!UICONTROL Split]** 활동에는 다음 정보가 포함됩니다.
 
-   ![](assets/s_advuser_load_file_sample_6.png)
+   ![3000개 미만의 구매, 구매 없음, 반품 및 3000개 이상의 구매에 대해 하위 집합 탭을 사용하여 활동 분할; 표시된 구매 없음.](assets/s_advuser_load_file_sample_6.png)
 
 1. 그런 다음 각 모집단 유형에 대해 수행할 프로세스를 지정합니다. 이 예제에서는 데이터베이스의 **[!UICONTROL Update the data]**&#x200B;을(를) 만듭니다. 이렇게 하려면 분할 활동에서 각 아웃바운드 전환 끝에 **[!UICONTROL Update data]** 활동을 배치합니다.
 

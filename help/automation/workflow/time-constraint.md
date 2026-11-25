@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 4%
+source-wordcount: '117'
+ht-degree: 3%
 ---
 # 시간 제한{#time-constraint}
 
@@ -30,4 +30,4 @@ ht-degree: 4%
 
 **[!UICONTROL Try again later if outside of execution period]** 옵션을 선택하면 실행 시간대를 벗어나서 작업을 다시 시작할 수 있습니다. 일시 중단 후 워크플로우 작업을 중단하려면 이 옵션을 선택 취소합니다.
 
-![](assets/s_user_scheduled_wait.png)
+![시작 및 종료 시간이 있는 시간 제한 활동이며 실행 기간이 아닌 경우 나중에 다시 시도하십시오.](assets/s_user_scheduled_wait.png)

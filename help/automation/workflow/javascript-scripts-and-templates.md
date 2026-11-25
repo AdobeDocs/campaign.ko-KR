@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1377'
 ht-degree: 2%
 ---
 # JavaScript 스크립트 및 템플릿{#javascript-scripts-and-templates}
@@ -39,7 +39,7 @@ ht-degree: 2%
 * &#39;테스트&#39; 활동은 적절한 전환을 활성화하기 위해 JavaScript 표현식을 평가합니다.
 * 대부분의 텍스트 필드는 JavaScript 템플릿입니다. JavaScript 표현식은 &lt;%=~%> 사이에 포함될 수 있습니다. 이러한 필드에는 표현식 입력에 도움이 되는 드롭다운 목록을 여는 버튼이 있습니다.
 
-  ![](assets/script-button.png)
+  ![식에 사용할 수 있는 속성을 나열하는 텍스트 필드 오른쪽에 드롭다운 화살표가 있는 단추입니다.](assets/script-button.png)
 
 ## 오브젝트 노출됨 {#objects-exposed}
 
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 이 예제와 다음 예제에서는 다음 다이어그램과 같이 **JavaScript 코드** 활동 및 **End** 활동을 포함하는 워크플로우를 만듭니다.
 
-![](assets/script-1.png)
+![확인 전환으로 JavaScript 코드 활동이 있는 워크플로우가 종료 활동으로 연결되었습니다.](assets/script-1.png)
 
 **JavaScript 코드** 활동을 두 번 클릭하고 다음 스크립트를 삽입합니다.
 
@@ -104,7 +104,7 @@ logInfo("Start date: " + task.creationDate)
 
 >[!NOTE]
 >
->추가 워크플로우 사용 사례는 [이 섹션](workflow-use-cases.md)에서 확인할 수 있습니다.
+>[워크플로 사용 사례](workflow-use-cases.md)에서 추가 워크플로 사용 사례를 사용할 수 있습니다.
 
 **예 1**
 
@@ -116,7 +116,7 @@ logInfo("Start date: " + task.creationDate)
 
    예: `instance.vars.segmentpercent = 10;`
 
-   ![](assets/js_ex1.png)
+   ![스크립트 필드에 입력한 스크립트 instance.vars.segmentpercent = 10이 있는 JavaScript 코드 활동.](assets/js_ex1.png)
 
 1. 필요에 따라 쿼리 활동을 추가하고 수신자를 타겟팅합니다.
 
@@ -124,7 +124,7 @@ logInfo("Start date: " + task.creationDate)
 
    이전에 정의된 인스턴스 변수 덕분에 동적으로 업데이트되는 이 백분율입니다.
 
-   ![](assets/js_ex2.png)
+   ![선택한 레코드를 제한하고 임의 샘플링을 50%로 제한하여 활동 하위 집합 분할 탭](assets/js_ex2.png)
 
 1. 분할 활동의 고급 탭에 있는 초기화 스크립트 섹션 내에서 JS 조건을 정의합니다. JS 조건은 분할 활동에서 나오는 첫 번째 전환의 무작위 샘플링 백분율을 선택하고 이전에 만든 인스턴스 변수에 의해 설정된 값으로 업데이트합니다.
 
@@ -132,13 +132,13 @@ logInfo("Start date: " + task.creationDate)
    activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;
    ```
 
-   ![](assets/js_ex3.png)
+   ![초기화 스크립트 설정 제한기를 사용하여 작업 분할 고급 탭.%를 instance.vars.segmentpercent.](assets/js_ex3.png)
 
 1. 보충 항목이 분할 활동의 개별 전환에서 생성되었는지 확인하고 각 아웃바운드 전환 후 종료 활동을 추가합니다.
 
 1. 워크플로우를 저장하고 실행합니다. 동적 샘플링은 인스턴스 변수에 따라 적용됩니다.
 
-   ![](assets/js_ex4.png)
+   ![JavaScript 코드, 쿼리 및 분할을 사용하는 워크플로우로서 두 개의 최종 활동으로 첫 번째 설정 및 보완 전환을 사용합니다.](assets/js_ex4.png)
 
 **예 2**
 
@@ -180,7 +180,7 @@ logInfo("Start date: " + task.creationDate)
 
 1. **[!UICONTROL JavaScript code]**&#x200B;을(를) 통해 게재의 내부 이름을 정의하는 인스턴스 변수를 만듭니다. **instance.vars.deliveryIN = &quot;DM42&quot;**.
 
-   ![](assets/wkf_js_activity_1.png)
+   ![스크립트 필드에 스크립트 instance.vars.deliveryIN = &#39;DM42&#39;가 있는 JavaScript 코드 활동.](assets/wkf_js_activity_1.png)
 
 1. 타겟팅 및 필터링 차원이 수신자인 쿼리를 만듭니다. 조건에서 변수에 의해 지정된 게재를 보낸 모든 수신자를 찾도록 지정합니다.
 
@@ -190,7 +190,7 @@ logInfo("Start date: " + task.creationDate)
 
    이 워크플로우는 DM42 게재 수신자를 반환합니다.
 
-   ![](assets/wkf_var_in_query.png)
+   ![게재 내부 이름이 instance/vars/deliveryIN의 값과 같은 받는 사람 게재 로그에 대한 쿼리 필터.](assets/wkf_var_in_query.png)
 
 ## 고급 함수 {#advanced-functions}
 

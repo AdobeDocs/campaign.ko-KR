@@ -23,9 +23,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '382'
 ht-degree: 1%
 ---
 # 인바운드 이메일{#inbound-emails}
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 **인바운드 이메일** 활동을 통해 POP3 메일 서버에서 이메일 메시지를 다운로드하고 처리할 수 있습니다.
 
-![](assets/email_rec_edit_1.png)
+![POP3 서버, 외부 계정 및 스크립트 필드가 있는 인바운드 전자 메일 활동 대화 상자](assets/email_rec_edit_1.png)
 
 **인바운드 전자 메일** 활동의 첫 번째 탭에서는 POP3 서버의 매개 변수를 입력하고 각 메시지를 받을 때 실행할 스크립트를 입력할 수 있습니다. 두 번째 탭에서는 활동에 일정을 지정할 수 있으며 세 번째 탭에서는 활동 만료 조건을 정의합니다.
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
      이 옵션을 선택하지 않으면 다음 매개 변수를 지정해야 합니다.
 
-     ![](assets/email_rec_edit_1b.png)
+     ![POP3 서버, POP3 계정, 암호 및 포트 필드가 있는 POP3 서버 섹션](assets/email_rec_edit_1b.png)
 
      * **[!UICONTROL POP3 server]**
 
@@ -91,6 +91,6 @@ ht-degree: 1%
 
    **[!UICONTROL Expiration]** 탭을 통해 만료 지연을 정의할 수 있습니다.
 
-   ![](assets/email_rec_edit_3.png)
+   ![지연 및 만료 옵션을 표시하는 만료 형식 목록이 있는 인바운드 전자 메일 만료 탭](assets/email_rec_edit_3.png)
 
    구성은 예약 활동과 동일합니다. [만료](define-approvals.md)을 참조하세요.

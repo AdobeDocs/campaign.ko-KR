@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '2288'
 ht-degree: 2%
 ---
 # 워크플로 실행 모니터링 {#monitoring-workflow-execution}
 
 이 섹션에서는 워크플로우 실행을 모니터링하는 방법에 대해 설명합니다.
 
-[이 섹션](workflow-supervision.md#supervising-workflows)에서 &quot;일시 중지됨&quot;, &quot;중지됨&quot; 또는 &quot;오류 있음&quot;인 워크플로 집합의 상태를 모니터링할 수 있는 워크플로를 만드는 방법에 대한 사용 사례도 확인할 수 있습니다.
+워크플로를 만드는 방법에 대한 사용 사례로, &quot;일시 중지됨&quot;, &quot;중지됨&quot; 또는 &quot;오류 있음&quot;인 워크플로 집합의 상태를 모니터링할 수 있습니다. [사용 사례: 워크플로를 관리](workflow-supervision.md#supervising-workflows)할 수도 있습니다.
 
 또한 인스턴스 관리자는 **감사 추적**&#x200B;을 사용하여 워크플로우에 수행된 활동 및 마지막 수정 사항, 즉 워크플로우의 상태를 확인할 수 있습니다. 이 [페이지](../../v8/reporting/audit-trail.md){target="_blank"}에서 감사 추적에 대해 자세히 알아보세요.
 
@@ -51,11 +51,11 @@ ht-degree: 2%
 
 **[!UICONTROL Display progress information]** 아이콘을 사용하면 실행 화면에 상태와 활동 결과를 표시할 수 있습니다.
 
-![](assets/s_user_segmentation_toolbar_progr.png)
+![워크플로 도구 모음에 진행 정보 아이콘 표시](assets/s_user_segmentation_toolbar_progr.png)
 
 이 옵션을 선택하면 실행된 활동은 파란색으로 표시되고, 보류 중인 활동은 깜박이며, 경고는 주황색으로 표시되고, 오류는 빨간색으로 표시됩니다. 이 옵션은 또한 아웃바운드 전환의 활동 결과를 표시한 다음 활동 속성에 정의된 결과의 레이블과 1초를 초과하는 경우 작업 기간을 표시합니다
 
-![](assets/s_user_segmentation_results.png)
+![활동의 아웃바운드 전환에 결과 수 및 레이블이 표시된 워크플로 다이어그램](assets/s_user_segmentation_results.png)
 
 ## 로그 표시 {#displaying-logs}
 
@@ -63,11 +63,11 @@ ht-degree: 2%
 
 * 세부 정보에서 **[!UICONTROL Tracking]** 탭을 선택합니다. 이 목록에는 모든 워크플로우 메시지가 포함되어 있습니다.
 
-  ![](assets/new-workflow-display-log-tab.png)
+  ![저널에 메시지를 표시하는 선택한 워크플로의 감사 탭이 있는 워크플로 목록](assets/new-workflow-display-log-tab.png)
 
 * 활동별로 로그 메시지를 필터링합니다. 이렇게 하려면 다이어그램 위에 있는 도구 모음에서 **[!UICONTROL Display the tasks and the log]**&#x200B;을(를) 클릭하여 다이어그램 아래에 **[!UICONTROL Log]** 및 **[!UICONTROL Tasks]** 탭을 표시합니다. 모든 관련 메시지를 볼 활동을 선택하십시오. 이 목록에는 활동을 선택하지 않은 경우 모든 메시지가 포함됩니다.
 
-  ![](assets/new-workflow-display-log-activity.png)
+  ![승인 활동이 선택되어 있고 저널 탭이 해당 활동에서 필터링된 워크플로우 다이어그램](assets/new-workflow-display-log-activity.png)
 
   >[!NOTE]
   >
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 * 주어진 작업에 연결된 메시지만 봅니다. 이렇게 하려면 **[!UICONTROL Tasks]** 탭을 선택한 다음 목록을 제한하기 위해 다이어그램에서 활동을 선택합니다. 작업을 두 번 눌러 정보를 표시합니다. 창의 마지막 탭에 로그가 포함됩니다.
 
-  ![](assets/new-workflow-display-tasks-activity.png)
+  ![승인 활동이 선택되고 작업이 나열된 작업 탭이 있는 워크플로 다이어그램](assets/new-workflow-display-tasks-activity.png)
 
   **[!UICONTROL Details...]** 단추를 사용하면 활동 실행에 대한 모든 추가 정보를 표시할 수 있습니다. 예를 들어 유효성 검사 연산자와 적용 가능한 경우 승인 중에 입력한 설명을 볼 수 있습니다.
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 
   타겟팅 캠페인이 실행되면 **[!UICONTROL Tracking]** 탭을 클릭하여 실행 추적을 확인합니다.
 
-  ![](assets/s_user_segmentation_journal.png)
+  ![날짜, 활동 이름 및 메시지가 있는 저널에 메시지를 나열하는 워크플로우의 감사 보기](assets/s_user_segmentation_journal.png)
 
   모든 캠페인 메시지가 표시됩니다. 캠페인은 물론 경고 또는 오류도 수행됩니다.
 
@@ -99,17 +99,17 @@ ht-degree: 2%
 
   1. 타깃팅된 활동을 선택하고 **[!UICONTROL Display the tasks and the log]** 아이콘을 클릭합니다.
 
-     ![](assets/s_user_segmentation_show_logs.png)
+     ![워크플로 도구 모음에 작업 및 로그 아이콘을 표시합니다](assets/s_user_segmentation_show_logs.png)
 
      다이어그램의 아래 섹션에는 로그와 작업, 이렇게 두 개의 탭이 표시됩니다.
 
      다이어그램 내에서 선택한 활동은 로그 및 작업 목록에서 필터 역할을 합니다.
 
-     ![](assets/s_user_segmentation_logs.png)
+     ![선택한 활동에서 필터링된 저널 및 작업 탭이 아래에 있는 워크플로 다이어그램](assets/s_user_segmentation_logs.png)
 
   1. 타깃팅된 활동을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Display logs]**&#x200B;을(를) 선택합니다.
 
-     ![](assets/s_user_segmentation_logs_menu.png)
+     ![로그 표시 옵션이 강조 표시된 활동의 마우스 오른쪽 단추 클릭 메뉴](assets/s_user_segmentation_logs_menu.png)
 
      로그는 별도의 창에 표시됩니다.
 
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 워크플로우 내역은 자동으로 삭제되지 않습니다. 기본적으로 모든 메시지가 유지됩니다. **[!UICONTROL File > Actions]** 메뉴를 사용하거나 목록 위의 도구 모음에 있는 **[!UICONTROL Actions]** 단추를 클릭하여 기록을 삭제할 수 있습니다. **[!UICONTROL Purge history]**&#x200B;을(를) 선택합니다. **[!UICONTROL Actions]** 메뉴에서 사용할 수 있는 옵션은 [작업 도구 모음](start-a-workflow.md) 섹션에 자세히 설명되어 있습니다.
 
-![](assets/purge_historique.png)
+![작업 내역 제거 옵션이 강조 표시된 워크플로 목록의 작업 메뉴](assets/purge_historique.png)
 
 ## 작업 테이블 및 워크플로 스키마 {#worktables-and-workflow-schema}
 
@@ -131,31 +131,31 @@ ht-degree: 2%
 
 오류가 발생하면 워크플로가 일시 중지되고 오류가 발생하면 실행 중인 활동이 빨간색으로 깜박입니다. 워크플로 개요에서 **[!UICONTROL Monitoring]** 탭 - **[!UICONTROL Workflows]** 링크 아래에 아래와 같이 오류만 있는 워크플로를 표시할 수 있습니다.
 
-![](assets/wf-global-view_filter_only_errors.png)
+![모니터링 탭, 상태 드롭다운 목록과 실패 옵션이 선택된 워크플로우 페이지](assets/wf-global-view_filter_only_errors.png)
 
 Adobe Campaign 탐색기에서 기본적으로 워크플로 목록에 **[!UICONTROL Failed]** 열이 표시됩니다.
 
-![](assets/wf-explorer_errors_col.png)
+![실패한 열이 강조 표시된 탐색기의 워크플로 목록](assets/wf-explorer_errors_col.png)
 
 워크플로우가 오류일 때 워크플로우 감독 그룹에 속하는 운영자는 이메일 주소가 프로필에 나열되어 있는 한 이메일로 알림을 받게 됩니다. 이 그룹은 워크플로 속성의 **[!UICONTROL Supervisor(s)]** 필드에서 선택됩니다.
 
-![](assets/wf-properties_select-supervisors.png)
+![감독자 필드 목록 및 워크플로 감독자가 선택된 워크플로 속성, 일반 탭](assets/wf-properties_select-supervisors.png)
 
 알림 콘텐츠가 **[!UICONTROL Workflow manager notification]** 기본 템플릿에 구성되어 있습니다. 이 템플릿은 워크플로 속성의 **[!UICONTROL Execution]** 탭에서 선택됩니다. 알림에 오류 워크플로우의 이름과 관련 작업이 표시됩니다.
 
 알림 예:
 
-![](assets/wf-notification_error-msg.png)
+![워크플로 세부 정보에 대한 여기를 클릭하여 워크플로를 중지했다는 오류 알림 전자 메일](assets/wf-notification_error-msg.png)
 
 이 링크를 사용하면 웹 모드에서 Adobe Campaign 클라이언트 콘솔에 액세스하고 로그인한 후 오류 워크플로우를 작업할 수 있습니다.
 
-![](assets/wf-notification_error-console.png)
+![워크플로를 표시하는 웹 콘솔 페이지가 실패했습니다. 워크플로 시작 및 중지 단추](assets/wf-notification_error-console.png)
 
 오류 발생 시 실행을 일시 중지하지 않고 계속하도록 워크플로를 구성할 수 있습니다. 이렇게 하려면 **[!UICONTROL Properties]** 워크플로우를 편집하고 **[!UICONTROL Error management]** 섹션에서 **[!UICONTROL In case of error]** 필드의 **[!UICONTROL Ignore]** 옵션을 선택합니다. 그런 다음에는 프로세스가 일시 중지되기 전에 무시할 수 있는 연속 오류 수를 지정할 수 있습니다.
 
 이 경우 오류 작업이 중단됩니다. 이 모드는 나중에 캠페인을 다시 시도하도록 설계된 워크플로우(주기적 작업)에 특히 적합합니다.
 
-![](assets/wf_edit_properties_for_error_mgt.png)
+![워크플로 속성, 실행 탭, 오류 관리 섹션(오류가 무시로 설정된 경우)](assets/wf_edit_properties_for_error_mgt.png)
 
 >[!NOTE]
 >
@@ -187,15 +187,15 @@ Adobe Campaign 탐색기에서 기본적으로 워크플로 목록에 **[!UICONT
 
 이 페이지에 액세스하려면 **[!UICONTROL Monitoring]** 탭으로 이동하여 **[!UICONTROL General view]** 링크를 클릭하십시오.
 
-![](assets/wf-monitoring_from-homepage.png)
+![프로세스 목록과 워크플로우 및 게재 패널을 사용하여 인스턴스 페이지 모니터링](assets/wf-monitoring_from-homepage.png)
 
 모든 워크플로를 표시하려면 **[!UICONTROL Workflows]** 링크를 클릭하십시오. 드롭다운 목록을 사용하여 상태에 따라 플랫폼의 워크플로우를 표시합니다.
 
-![](assets/wf-monitoring_edit-wf.png)
+상태 드롭다운 목록과 선택된 상태로 모니터링 탭의 ![워크플로 페이지](assets/wf-monitoring_edit-wf.png)
 
 오류가 있는 워크플로우의 링크를 클릭하여 워크플로우를 열고 로그를 확인합니다.
 
-![](assets/wf-monitoring_edit-task-wf.png)
+![실패한 워크플로우가 목록에서 열려 실패한 활동 및 저널 메시지와 함께 해당 다이어그램을 표시합니다](assets/wf-monitoring_edit-task-wf.png)
 
 ## 동시 다중 실행 방지 {#preventing-simultaneous-multiple-executions}
 
@@ -207,17 +207,17 @@ Adobe Campaign 탐색기에서 기본적으로 워크플로 목록에 **[!UICONT
 
 일반적인 원칙은 다음과 같습니다.
 
-![](assets/workflow-reentrancy-protection-principle.png)
+![잠금 원칙: 잠금이 설정되어 있으면 건너뛰고, 그렇지 않으면 잠금을 설정하고 보호된 단계를 실행한 다음 잠금 해제](assets/workflow-reentrancy-protection-principle.png)
 
 해결 방법은 인스턴스 변수를 사용하는 것입니다. 인스턴스 변수는 워크플로우의 모든 병렬 실행에 의해 공유됩니다.
 
 다음은 간단한 테스트 워크플로입니다.
 
-![](assets/wkf_simultaneous_execution1.png)
+![스케줄러, continue라는 테스트 활동, 대기 활동 및 두 개의 종료 활동이 있는 워크플로우](assets/wkf_simultaneous_execution1.png)
 
 **[!UICONTROL Scheduler]**&#x200B;이(가) 매 분마다 이벤트를 트리거하고 있습니다. 다음 **[!UICONTROL Test]** 활동은 **isRunning** 인스턴스 변수를 테스트하여 실행을 계속할지 여부를 결정합니다.
 
-![](assets/wkf_simultaneous_execution2.png)
+![yes 조건 !instance.vars.isRunning과 레이블이 no](assets/wkf_simultaneous_execution2.png)인 기본 분기를 사용하여 활동을 테스트합니다.
 
 >[!NOTE]
 >
@@ -279,7 +279,7 @@ Campaign Classic 인터페이스를 사용하면 사전 정의된 **보기**&#x2
 * **[!UICONTROL Failed]**: 실패한 모든 워크플로를 나열합니다.
 * ** ).
 
-![](assets/workflow-monitoring-views.png)
+![탐색기 트리, 관리 > 감사 > 실행 중, 시작 보류 중, 일시 중지 및 실패한 보기가 있는 워크플로 상태 노드](assets/workflow-monitoring-views.png)
 
 기본적으로 이러한 보기는 **[!UICONTROL Audit]** 폴더에서 액세스할 수 있습니다. 그러나 폴더 트리에서 선택한 위치에 다시 만들 수 있습니다. 이렇게 하면 관리 권한이 없는 표준 사용자가 사용할 수 있습니다.
 
@@ -287,7 +287,7 @@ Campaign Classic 인터페이스를 사용하면 사전 정의된 **보기**&#x2
 
 1. 보기를 추가할 폴더를 마우스 오른쪽 단추로 클릭합니다.
 1. **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**&#x200B;에서 추가할 보기를 선택합니다.
-1. 폴더가 트리에 추가되면 해당 원래 폴더가 무엇이든 간에 모든 워크플로우를 표시할 수 있도록 해당 폴더를 보기로 구성해야 합니다. 보기를 구성하는 방법에 대한 자세한 내용은 [이 페이지](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view)를 참조하세요.
+1. 폴더가 트리에 추가되면 해당 원래 폴더가 무엇이든 간에 모든 워크플로우를 표시할 수 있도록 해당 폴더를 보기로 구성해야 합니다. 보기를 구성하는 방법에 대한 자세한 내용은 [폴더를 보기로 전환](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view)을 참조하세요.
 
 이러한 보기 외에 필터 폴더를 설정하여 실행 상태에 따라 워크플로 목록을 필터링할 수 있습니다. 방법은 다음과 같습니다.
 
@@ -295,6 +295,6 @@ Campaign Classic 인터페이스를 사용하면 사전 정의된 **보기**&#x2
 1. 워크플로우의 **[!UICONTROL @status]** 필드가 선택한 상태와 같도록 필터를 구성합니다.
 1. 필터를 저장하고 필터 이름을 지정합니다. 그런 다음 필터 목록에서 바로 사용할 수 있습니다.
 
-![](assets/workflow-monitoring-filter.png)
+![실제 상태(@status)가 일시 중단됨이고 저장 아이콘이 강조 표시된 고급 필터 대화 상자](assets/workflow-monitoring-filter.png)
 
 자세한 내용은 다음 섹션을 참조하십시오.

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 3%
+source-wordcount: '213'
+ht-degree: 2%
 ---
 # 활동 이미지 변경{#change-activity-images}
 
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 * 배경 이미지를 변경하려면 원하는 타겟팅 워크플로우를 선택한 다음 **[!UICONTROL Properties]** 탭을 클릭합니다.
 
-  ![](assets/s_user_segmentation_properties_tab.png)
+  ![워크플로 속성, 고급 탭: 링크 선택 아이콘이 강조 표시된 배경 이미지 필드](assets/s_user_segmentation_properties_tab.png)
 
   사용할 이미지를 선택하려면 **[!UICONTROL Background image]** 필드 오른쪽에 있는 **[!UICONTROL Select link]** 아이콘을 클릭합니다.
 
@@ -49,7 +49,7 @@ ht-degree: 3%
   >
   >배경 이미지의 너비(픽셀 단위)는 4의 배수여야 합니다.
 
-  ![](assets/s_user_segmentation_background_select.png)
+  ![확인을 위해 backgrounds/grid.png과 같은 배경 이미지를 나열하는 이미지 선택 창](assets/s_user_segmentation_background_select.png)
 
   **[!UICONTROL Edit link]** 아이콘을 사용하면 선택한 이미지를 볼 수 있습니다.
 
@@ -57,11 +57,11 @@ ht-degree: 3%
 
   사용할 이미지를 선택하려면 **[!UICONTROL Image]** 필드 오른쪽에 있는 **[!UICONTROL Select link]** 아이콘을 클릭합니다.
 
-  ![](assets/s_user_segmentation_activity_image.png)
+  ![이미지 필드가 강조 표시된 활동의 고급 탭에서 activities/dedup.png으로 설정합니다.](assets/s_user_segmentation_activity_image.png)
 
   **[!UICONTROL Edit link]** 아이콘을 사용하면 선택한 이미지를 볼 수 있습니다.
 
-  ![](assets/s_user_segmentation_activity_image_select.png)
+  ![선택한 이미지 미리 보기(nms):activities/dedup.png, 링크 편집 아이콘으로 표시.](assets/s_user_segmentation_activity_image_select.png)
 
 >[!NOTE]
 >

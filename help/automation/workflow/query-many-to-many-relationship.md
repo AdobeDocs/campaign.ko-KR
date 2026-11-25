@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '541'
 ht-degree: 0%
 ---
 # 다대다 관계를 사용하여 쿼리 {#querying-using-a-many-to-many-relationship}
@@ -53,36 +53,36 @@ ht-degree: 0%
 1. 제네릭 쿼리 편집기를 열고 받는 사람 테이블 **[!UICONTROL (nms:recipient)]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Data to extract]** 창에서 **[!UICONTROL Primary key]**, **[!UICONTROL First name]**, **[!UICONTROL Last name]** 및 **[!UICONTROL Email]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/query_editor_nveau_33.png)
+   ![기본 키, 이름, 성 및 전자 메일이 출력 열로 나열된 추출 창에 대한 데이터](assets/query_editor_nveau_33.png)
 
 1. 정렬 창에서 이름을 알파벳순으로 정렬합니다.
 
-   ![](assets/query_editor_nveau_34.png)
+   ![성 열에 대해 정렬 옵션이 예로 설정된 정렬 창](assets/query_editor_nveau_34.png)
 
 1. **[!UICONTROL Data filtering]** 창에서 **[!UICONTROL Filtering conditions]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Target element]** 창에서 지난 7일 동안 추적 로그가 없는 프로필을 추출하기 위한 필터링 조건은 두 단계로 구성됩니다. 선택해야 하는 요소는 다대다 링크입니다.
 
    * 첫 번째 **[!UICONTROL Value]** 열에 대한 **[!UICONTROL Recipient delivery logs (broadlog)]** 컬렉션 요소(주황색 노드)를 선택하여 시작합니다.
 
-     ![](assets/query_editor_nveau_67.png)
+     ![받는 사람 게재 로그(broadLog) 수집 요소가 선택된 창을 선택할 필드](assets/query_editor_nveau_67.png)
 
      **[!UICONTROL do not exist as]** 연산자를 선택하십시오. 이 행에서 두 번째 값을 선택할 필요는 없습니다.
 
    * 두 번째 필터링 조건의 콘텐츠는 첫 번째 필터링 조건에 따라 달라집니다. **[!UICONTROL Event date]** 필드는 이 테이블에 대한 링크가 있으므로 **[!UICONTROL Recipient delivery logs]** 테이블에서 직접 제공됩니다.
 
-     ![](assets/query_editor_nveau_36.png)
+     ![이벤트 날짜(@eventDate)가 강조 표시된 수신자 게재 로그 필드를 나열하는 창을 선택하는 필드](assets/query_editor_nveau_36.png)
 
      **[!UICONTROL greater than or equal to]** 연산자로 **[!UICONTROL Event date]**&#x200B;을(를) 선택하십시오. **[!UICONTROL DaysAgo (7)]** 값을 선택합니다. 이렇게 하려면 **[!UICONTROL Value]** 필드에서 **[!UICONTROL Edit expression]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Formula type]** 창에서 **[!UICONTROL Process on dates]** 및 **[!UICONTROL Current date minus n days]**&#x200B;을(를) 선택하고 &quot;7&quot;을(를) 값으로 지정합니다.
 
-     ![](assets/query_editor_nveau_37.png)
+     ![날짜 및 현재 날짜에서 n일을 뺀 프로세스가 설정된 수식 유형 창](assets/query_editor_nveau_37.png)
 
      필터 조건이 구성되었습니다.
 
-     ![](assets/query_editor_nveau_38.png)
+     ![필터가 있는 대상 요소 창: 7일 전 또는 그 이후의 이벤트 날짜와 같은 게재 로그가 없습니다](assets/query_editor_nveau_38.png)
 
 1. **[!UICONTROL Data formatting]** 창에서 성을 대문자로 전환합니다. **[!UICONTROL Transformation]** 열에서 **[!UICONTROL Last name]** 줄을 클릭하고 드롭다운 메뉴에서 **[!UICONTROL Switch to upper case]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/query_editor_nveau_39.png)
+   ![성, 대문자로 전환 옵션이 강조 표시된 데이터 서식 창](assets/query_editor_nveau_39.png)
 
 1. **[!UICONTROL Add a calculated field]** 함수를 사용하여 데이터 미리 보기 창에 열을 삽입합니다.
 
@@ -93,7 +93,7 @@ ht-degree: 0%
    return rep
    ```
 
-   ![](assets/query_editor_nveau_40.png)
+   ![두 필드를 연결하는 스크립트가 있는 이름 - 성 열에 대한 JavaScript 식 편집기](assets/query_editor_nveau_40.png)
 
    **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Data formatting]** 창이 구성되었습니다.
 
@@ -101,4 +101,4 @@ ht-degree: 0%
 
 1. 결과는 **[!UICONTROL Data preview]** 창에 표시됩니다. 지난 7일 동안 연락을 하지 않은 수신자는 알파벳순으로 표시됩니다. 이름은 대문자로 표시되고 이름과 성이 있는 열이 생성됩니다.
 
-   ![](assets/query_editor_nveau_41.png)
+   ![이름 - 성 열이 추가된 수신자를 나열하는 데이터 미리 보기 창](assets/query_editor_nveau_41.png)

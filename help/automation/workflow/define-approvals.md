@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 3%
+source-wordcount: '885'
+ht-degree: 2%
 ---
 # 승인 정의 {#defining-approvals}
 
@@ -43,11 +43,11 @@ ht-degree: 3%
 
 승인에는 운영자가 선택할 수 있는 여러 옵션이 포함될 수 있습니다. 다만, 타기팅 수행 등 수행하고자 하는 과제를 운영자에게 제출하기 위해서는 선택횟수를 1회로 제한할 수 있다. 그러면 작업자는 작업이 수행된 후 응답할 수 있습니다(그런 다음 프로세스가 다시 시작됨). 다음 예에서는 이러한 승인 유형을 보여 줍니다.
 
-![](assets/validation-1.png)
+![전송, 거부 알림 및 수정 요청 알림으로 이어지는 게재 유효성 검사 승인이 있는 워크플로](assets/validation-1.png)
 
 운영에서 승인이 필요한 모든 단계는 동일한 원칙에 기반한다.
 
-![](assets/validation-1-in-op.png)
+![콘텐츠 승인 및 타깃팅 승인을 표시하는 승인 메뉴가 있는 캠페인 게재 차단(모두 승인 보류 중)](assets/validation-1-in-op.png)
 
 연산자는 두 가지 방법 중 하나로 응답할 수 있습니다. 즉, 이메일 메시지에 연결된 웹 페이지를 사용하거나 콘솔을 통해 확인합니다.
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 기술 워크플로우의 경우 사용자가 승인할 수 있는 작업은 **[!UICONTROL Administration > Production > Objects created automatically > Pending approvals]** 폴더의 트리 구조에서 액세스할 수 있습니다.
 
-![](assets/validation-node.png)
+![관리 > 프로덕션 > 자동으로 만들어지는 개체 > 선택한 승인 보류 중인 탐색기 트리](assets/validation-node.png)
 
 ## 그룹 {#groups}
 
@@ -86,7 +86,7 @@ ht-degree: 3%
 
 활동 승인 속성의 두 번째 탭에서는 하나 이상의 만료를 정의할 수 있습니다. 실제로 여러 만료 유형을 정의할 수 있습니다.
 
-![](assets/expiration.png)
+![만료 세부 정보 창과 지연 옵션의 만료 유형 목록이 있는 승인 만료 탭](assets/expiration.png)
 
 새 만료를 추가하려면 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다. 생성된 각 만료에 전환이 추가됩니다. 다음을 수행할 수 있습니다.
 

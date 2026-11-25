@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 4%
+source-wordcount: '360'
+ht-degree: 3%
 ---
 # 데이터 업데이트 조정{#coordinating-data-updates}
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 다른 업데이트 작업을 실행하기 전에 업데이트 프로세스가 종료되었는지 확인하는 것이 목적입니다. 이를 위해 인스턴스 변수를 설정하고, 인스턴스가 실행 중인지 워크플로 테스트를 수행하여 워크플로 실행을 계속하고 업데이트를 수행할지 여부를 결정합니다.
 
-![](assets/uc_dataupdate_wkf.png)
+![워크플로: 스케줄러가 실행 중입니까? 예, 쿼리, 데이터 업데이트 및 종료 2에 대한 테스트 종료.](assets/uc_dataupdate_wkf.png)
 
 이 워크플로우는 다음과 같이 구성됩니다.
 
@@ -55,19 +55,19 @@ ht-degree: 4%
    >
    >&quot;isRunning&quot;은 이 예제에 대해 선택한 인스턴스 변수 이름입니다. 기본 제공 변수가 아닙니다.
 
-   ![](assets/uc_dataupdate_test.png)
+   ![이(가) 실행 중입니까? yes 조건 instance.vars.isRunning 및 No.](assets/uc_dataupdate_test.png)(으)로 레이블이 지정된 기본 분기를 사용하여 활동을 테스트합니다.
 
 1. **End** 활동을 **No** 포크에 추가하십시오. 이 방법에서는 워크플로우가 이미 실행 중인 경우 아무것도 실행되지 않습니다.
 1. **예** 포크에 원하는 활동을 추가합니다. 이 예제에서는 **쿼리** 및 **데이터 업데이트** 활동을 수행합니다.
 1. 첫 번째 활동을 연 다음 **[!UICONTROL Advanced]** 탭에서 **instance.vars.isRunning = true** 명령을 추가합니다. 이 방법으로 인스턴스 변수는 실행 중으로 설정됩니다.
 
-   ![](assets/uc_dataupdate_query.png)
+   ![초기화 스크립트 instance.vars.isRunning = true인 쿼리 활동의 고급 탭](assets/uc_dataupdate_query.png)
 
 1. **[!UICONTROL Yes]** 포크의 끝에 **End** 활동을 추가한 다음 **[!UICONTROL Advanced]** 탭에서 **instance.vars.isRunning = false** 명령을 추가합니다.
 
    이 방법을 사용하면 워크플로우가 실행되는 동안에는 작업이 실행되지 않습니다.
 
-   ![](assets/uc_dataupdate_end.png)
+   ![초기화 스크립트 instance.vars.isRunning = false.](assets/uc_dataupdate_end.png)이(가) 있는 종료 2 활동의 고급 탭
 
 **관련 항목:**
 

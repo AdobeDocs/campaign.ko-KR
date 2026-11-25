@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 3%
+source-wordcount: '1305'
+ht-degree: 2%
 ---
 # 워크플로 히트맵 {#workflow-heatmap}
 
@@ -64,7 +64,7 @@ Campaign 워크플로우 HeatMap은 현재 실행 중인 모든 워크플로우�
 
 1. **[!UICONTROL Monitoring]**(으)로 이동하여 **[!UICONTROL Workflow HeatMap]** 링크를 클릭하여 **[!UICONTROL Campaign Workflow HeatMap]** 페이지를 표시합니다.
 
-   ![](assets/wkf_monitoring_path.png)
+   ![워크플로우 HeatMap 링크가 선택된 모니터링 탭에서 캠페인 워크플로우 HeatMap 그리드를 엽니다.](assets/wkf_monitoring_path.png)
 
 1. 달력을 클릭하여 날짜를 선택합니다.
 
@@ -76,15 +76,15 @@ Campaign 워크플로우 HeatMap은 현재 실행 중인 모든 워크플로우�
 
 1. **[!UICONTROL Filters]** 버튼을 클릭합니다.
 
-   ![](assets/wkf_monitoring_filters.png)
+   ![도움말 및 데이터 로드 옆에 필터 단추가 강조 표시된 캠페인 워크플로우 HeatMap 페이지](assets/wkf_monitoring_filters.png)
 
 1. 슬라이더를 사용하여 최소 지속 시간을 0초에서 1시간으로 설정합니다. 이를 통해 특정 시간(초 또는 분) 이상 실행 중인 워크플로우만 검색할 수 있습니다.
 
-   ![](assets/wkf_monitoring_filters_duration.png)
+   ![최소 기간 슬라이더가 30분으로 설정된 HeatMap 필터 패널, 워크플로우 및 워크플로우 유형 필드 위에 있습니다.](assets/wkf_monitoring_filters_duration.png)
 
 1. **[!UICONTROL Workflows]** 드롭다운 목록에서 특정 워크플로를 선택할 수도 있습니다.
 
-   ![](assets/wkf_monitoring_filters_workflows.png)
+   ![HeatMap 필터의 워크플로우 드롭다운 목록에서 데이터베이스 정리, 예측 및 기타 워크플로우를 모두 표시합니다.](assets/wkf_monitoring_filters_workflows.png)
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ Campaign 워크플로우 HeatMap은 현재 실행 중인 모든 워크플로우�
 
 색상 코드가 적용되는 방법과 HeatMap을 탐색하는 방법을 알아보려면 **[!UICONTROL Help]** 단추를 클릭하십시오.
 
-![](assets/wkf_monitoring_legend.png)
+![키보드 컨트롤 및 색상 범례를 나열하는 HeatMap 도움말 패널(1개 워크플로우의 경우 녹색에서 50개 워크플로우의 경우 빨간색으로 표시)](assets/wkf_monitoring_legend.png)
 
 각 행은 하루의 한 시간을 나타내고 각 셀은 해당 시간의 5분을 나타냅니다.
 
@@ -116,11 +116,11 @@ Campaign 워크플로우 HeatMap은 현재 실행 중인 모든 워크플로우�
 
 아래 예에서 오전 8시부터 오전 8시 5분 사이에 세 개의 워크플로우가 실행 중입니다(개별 기간에 관계 없음).
 
-![](assets/wkf_monitoring_ex_8am.png)
+![08h 행, 00m 열 셀이 강조 표시된 HeatMap 그리드로 오전 8시에서 오전 8시 5분 사이에 3개의 워크플로우가 실행됩니다.](assets/wkf_monitoring_ex_8am.png)
 
 1. 색상이 지정된 셀을 눌러 이 기간 동안 실행되는 모든 동시 작업 과정의 세부 정보를 표시합니다.
 
-   ![](assets/wkf_monitoring_details.png)
+   ![08h 셀을 선택한 HeatMap과 활동 및 기간이 있는 세 개의 동시 작업 과정이 나열된 표](assets/wkf_monitoring_details.png)
 
    각 워크플로우에 대해 포함된 모든 활동이 해당 기간과 함께 나열됩니다.
 
@@ -139,7 +139,7 @@ Campaign 관리자는 워크플로우 HeatMap을 통해 인스턴스의 로드�
 1. 지속 시간을 몇 초 또는 몇 분으로 설정합니다.
 1. 기간 필터를 늘려 중요하지 않은 가장 짧은 워크플로를 제외합니다.
 
-   ![](assets/wkf_monitoring_short_duration.png)
+   ![최소 기간 슬라이더가 3분(189초)으로 설정된 HeatMap 필터를 사용하여 가장 짧은 워크플로를 제외합니다.](assets/wkf_monitoring_short_duration.png)
 
 1. 결과를 탐색하여 인스턴스의 로드를 이해하고 적절한 조치를 취합니다.
 
@@ -153,7 +153,7 @@ Campaign 관리자는 워크플로우 HeatMap을 사용하여 활동을 느리�
 1. **[!UICONTROL Campaign Workflow HeatMap]** 보기에서 **[!UICONTROL Filters]** 단추를 클릭합니다.
 1. 기간을 1시간으로 설정합니다.
 
-   ![](assets/wkf_monitoring_long_duration.png)
+   ![최소 기간 슬라이더가 최대 1시간(3,600초)으로 설정된 히트맵 필터](assets/wkf_monitoring_long_duration.png)
 
 1. **[!UICONTROL Min duration]** 필터를 줄여 더 많은 결과를 포함하십시오.
 1. 결과를 탐색하여 서버 및 데이터베이스 리소스(CPU, RAM, 네트워크, IOPS 등)에 더 많은 영향을 미칠 수 있는 가장 긴 워크플로우를 찾아보십시오.
@@ -173,7 +173,7 @@ Campaign 관리자는 워크플로우 HeatMap을 사용하여 활동을 느리�
 1. **[!UICONTROL Workflow type]** 필터를 **[!UICONTROL Marketing]**(으)로 설정합니다.
 1. HeatMap 그리드에서 다음을 확인합니다.
 
-   ![](assets/wkf_monitoring_without.png)
+   ![기간 필터가 없는 HeatMap 그리드로 10시간 행에는 최대 50개의 워크플로우가 있고 14시간 이후에는 셀이 거의 없습니다.](assets/wkf_monitoring_without.png)
 
    * 오전 10시에 50개의 오래 지속되는(5분 이상) 캠페인 워크플로우가 실행됩니다.
    * 대부분의 경우 보류 중 상태입니다(기본적으로 동시성 제한은 20으로 설정됨).
@@ -184,7 +184,7 @@ Campaign 관리자는 워크플로우 HeatMap을 사용하여 활동을 느리�
 1. **[!UICONTROL Campaign Workflow HeatMap]** 페이지로 돌아가서 **[!UICONTROL Reload data]** 단추를 클릭합니다.
 1. 이제 다음을 확인하십시오.
 
-   ![](assets/wkf_monitoring_with.png)
+   ![기간 필터가 적용된 HeatMap 그리드로 피크가 18개의 워크플로우로 줄어든 다른 분포를 표시합니다.](assets/wkf_monitoring_with.png)
 
    * 18개의 오래 지속되는 캠페인 워크플로우만 오전 10시에 계속 실행됩니다.
    * 더 이상 워크플로가 보류 상태가 아닙니다(동시성 한도가 여전히 20으로 설정됨).

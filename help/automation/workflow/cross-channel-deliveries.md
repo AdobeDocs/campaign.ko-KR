@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 3%
+source-wordcount: '337'
+ht-degree: 2%
 ---
 # 크로스 채널 게재{#cross-channel-deliveries}
 
@@ -46,26 +46,26 @@ ht-degree: 3%
    >
    >푸시 알림의 경우 **구독자 애플리케이션** 대상 차원을 사용하십시오.
 
-   ![](assets/cross_channel_delivery_1.png)
+   ![필터링할 문서로 선택한 구독자 응용 프로그램 스키마를 사용하여 활동을 쿼리합니다.](assets/cross_channel_delivery_1.png)
 
 1. 쿼리에 필터 조건을 추가합니다. 이 경우 휴대폰 번호 또는 이메일 주소가 있는 수신자를 선택합니다.
 
-   ![](assets/cross_channel_delivery_2.png)
+   ![모바일의 쿼리 필터가 비어 있지 않고 전자 메일의 Or 조건이 비어 있지 않습니다.](assets/cross_channel_delivery_2.png)
 
 1. 워크플로우에 **[!UICONTROL Split]** 활동을 추가하여 휴대폰 번호가 있는 수신자와 이메일 주소가 있는 수신자를 나눕니다.
 1. **[!UICONTROL Delivery]** 탭에서 각 대상에 대한 게재를 선택합니다.
 
    워크플로우에서 게재 활동을 두 번 클릭하여 클래식 게재 마법사와 동일한 방식으로 게재를 만듭니다.
 
-   ![](assets/cross_channel_delivery_3.png)
+   ![모바일 게재와 이메일 게재로 이어지는 쿼리와 분할이 있는 캠페인 워크플로우입니다.](assets/cross_channel_delivery_3.png)
 
 1. 받는 사람이 한 번에 너무 많은 게재를 받지 않도록 **[!UICONTROL Wait]** 활동을 추가하고 구성하십시오.
 1. **[!UICONTROL Split]** 활동을 추가하여 iOS 또는 Android 모바일 애플리케이션의 구독자를 나눕니다.
 
    각 운영 체제에 대한 서비스를 선택합니다.
 
-   ![](assets/cross_channel_delivery_4.png)
+   ![타깃팅 차원으로 구독자 응용 프로그램을 사용하고 Android 모바일 앱 구독자를 선택한 쿼리 대화 상자.](assets/cross_channel_delivery_4.png)
 
 1. 각 운영 체제에 대한 모바일 애플리케이션 제공을 선택하고 구성합니다.
 
-   ![](assets/cross_channel_delivery_5.png)
+   ![대기 활동에 참여하는 전자 메일 및 SMS 게재를 포함하는 워크플로우와 iOS 푸시 및 Android 게재로 분할합니다.](assets/cross_channel_delivery_5.png)

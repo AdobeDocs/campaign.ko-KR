@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 4%
+source-wordcount: '281'
+ht-degree: 3%
 ---
 # 로딩(SOAP){#loading-soap}
 
@@ -42,17 +42,17 @@ ht-degree: 4%
 
    다음 예제는 메시지 센터 모듈의 기술 워크플로우에서 가져온 것입니다.
 
-   ![](assets/load_soap_002.png)
+   ![예제 XML, 결과 예제 및 초기화 스크립트를 사용하여 (SOAP) 활동을 로드합니다.](assets/load_soap_002.png)
 
 1. XML 예제의 경우 샘플 파일을 선택합니다. 파일을 분석하여 결과 예제를 설정합니다.
 
    WSDL의 경우 일치하는 액세스 URL을 입력한 다음 골격 코드를 생성합니다. 선택한 서비스 및 호출이 자동으로 업데이트되어 표시됩니다.
 
-   ![](assets/soap_load_003.png)
+   ![WSDL 사용, 액세스 URL 필드 및 골격 코드 생성 링크가 선택된 결과 형식](assets/soap_load_003.png)
 
 1. 식별된 각 열을 지정하려면 **[!UICONTROL Click here to view and edit analysis results]**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/soap_load_001.png)
+   ![식별된 열을 선택한 열의 레이블, 데이터 형식 및 내부 이름으로 나열하는 파일 형식 창입니다.](assets/soap_load_001.png)
 
    예제를 업데이트하려면 **[!UICONTROL Re-analyze the example]**&#x200B;을(를) 선택합니다.
 

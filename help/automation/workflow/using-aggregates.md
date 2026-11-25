@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 3%
+source-wordcount: '682'
+ht-degree: 2%
 ---
 # 집계 사용{#using-aggregates}
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 1. 각 수신자를 집계 함수에 연결하면 동일한 스키마가 생성됩니다.
 1. 편집된 스키마를 통해 집계를 사용하여 수신자를 필터링합니다.
 
-![](assets/datamanagement_usecase_1.png)
+![워크플로: 수신자 및 DateMax 쿼리는 스키마 편집 활동을 제공한 다음 분할 활동 및 종료를 제공합니다.](assets/datamanagement_usecase_1.png)
 
 ## 1단계: 집계 결과 계산 {#step-1--calculating-the-aggregate-result}
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 1. 열려 있는 창에서 **[!UICONTROL Data linked to the filtering dimension]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Filtering dimension data]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Data to add]** 창에서 수신자 테이블의 **생성 날짜** 필드에 대한 최대값을 계산하는 열을 추가합니다. 표현식 편집기를 사용하거나 **[!UICONTROL Expression]** 열의 필드에 직접 **max(@created)**&#x200B;을(를) 입력할 수 있습니다. **[!UICONTROL Finish]** 단추를 클릭합니다.
 
-   ![](assets/datamanagement_usecase_2.png)
+   ![식 열에 출력 열 Max(생성 날짜)가 있고 [완료] 단추가 있는 창을 추가할 데이터입니다.](assets/datamanagement_usecase_2.png)
 
 1. **[!UICONTROL Edit additional data]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Advanced parameters...]**&#x200B;을(를) 클릭합니다. **[!UICONTROL Disable automatic adding of the primary keys of the targeting dimension]** 옵션을 선택합니다.
 
@@ -65,7 +65,7 @@ ht-degree: 3%
    * 집계 결과를 주 집합의 모든 받는 사람에게 연결하려면 **[!UICONTROL Use a simple join]**&#x200B;을(를) 선택하십시오.
    * 마지막으로 링크가 **[!UICONTROL Type 11 simple link]**&#x200B;임을 지정합니다.
 
-   ![](assets/datamanagement_usecase_3.png)
+   ![임시 스키마 DateMax를 사용한 링크 정의, 단순 조인을 사용하고 Type 11 단순 링크를 선택했습니다.](assets/datamanagement_usecase_3.png)
 
 따라서 집계 결과는 모든 수신자에게 연결됩니다.
 
@@ -86,7 +86,7 @@ ht-degree: 3%
    * **[!UICONTROL Expression]**: `toDate([target/@created])`.
    * **[!UICONTROL Value]**: `toDate([datemax/expr####])`. 여기서 expr####은 집계 함수 쿼리에 지정된 집계와 관련이 있습니다.
 
-   ![](assets/datamanagement_usecase_4.png)
+   ![대상 요소 필터: ToDate 대상/@created이 DateOnly(Max(생성 날짜))와 같습니다.](assets/datamanagement_usecase_4.png)
 
 따라서 분할 활동의 결과는 마지막으로 알려진 생성 날짜와 동일한 날짜에 생성된 수신자와 관련이 있습니다.
 

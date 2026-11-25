@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '1128'
 ht-degree: 1%
 ---
 # 게재{#delivery}
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 이를 구성하려면 활동을 편집하고 게재 옵션을 입력합니다.
 
-![](assets/edit_diffusion.png)
+![섹션 및 아웃바운드 전환을 수행하기 위한 게재, 수신자, 콘텐츠 및 작업이 포함된 게재 활동 창](assets/edit_diffusion.png)
 
 1. **게재**
 
@@ -53,27 +53,27 @@ ht-degree: 1%
 
      다음 예에서는 게재가 처음으로 생성됩니다. 모집단과 콘텐츠는 나중에 정의됩니다. 다음으로, 인바운드 전환을 사용하여 이 세 요소에 대한 정보를 새 게재 활동에 다시 입력하여 전송할 수 있습니다.
 
-     ![](assets/specified_transition_option_exemple.png)
+     ![게재 활동 만들기가 전환에 지정된 두 번째 게재 활동을 피딩하는 워크플로](assets/specified_transition_option_exemple.png)
 
    * 관련 게재를 직접 선택합니다. 이렇게 하려면 **[!UICONTROL Explicit]** 옵션을 선택하고 **[!UICONTROL Delivery]** 필드의 드롭다운 목록에서 게재를 선택합니다.
 
      목록에는 기본적으로 **게재** 폴더에 포함된 완료되지 않은 게재가 표시됩니다. 다른 캠페인에 액세스하려면 **[!UICONTROL Select link]** 아이콘을 클릭하십시오.
 
-     ![](assets/diffusion_edit_1.png)
+     ![명시적으로 선택한 게재 섹션과 게재 필드 옆에 있는 링크 선택 아이콘](assets/diffusion_edit_1.png)
 
      **[!UICONTROL Folder]** 필드의 드롭다운 목록에서 캠페인을 선택하거나 **[!UICONTROL Display sub-levels]**&#x200B;을(를) 클릭하여 하위 폴더에 포함된 모든 게재를 표시합니다.
 
-     ![](assets/diffusion_edit_2.png)
+     ![폴더 필드가 게재로 설정되어 있고 하위 수준 표시 아이콘이 있는 게재 선택 창](assets/diffusion_edit_2.png)
 
      게재 작업을 선택한 후 **[!UICONTROL Edit link]** 아이콘을 클릭하여 콘텐츠를 표시할 수 있습니다.
 
    * 게재를 계산하는 스크립트를 만듭니다. 이렇게 하려면 **[!UICONTROL Computed by a script]** 옵션을 선택하고 스크립트를 입력합니다. **[!UICONTROL Edit...]** 옵션을 클릭하여 입력 창을 열 수 있습니다. 다음 예제에서는 게재 식별자를 복구합니다.
 
-     ![](assets/diffusion_edit_3.png)
+     ![표현식 vars.deliveryId를 표시하는 스크립트 편집 창이 있는 스크립트 옵션으로 계산](assets/diffusion_edit_3.png)
 
    * 새 게재를 만듭니다. 이렇게 하려면 **[!UICONTROL New, created from a template]** 옵션을 선택하고 게재의 기반이 되는 게재 템플릿을 선택하십시오.
 
-     ![](assets/diffusion_edit_4.png)
+     ![새로 만들기, 게재 템플릿과 링크 편집 아이콘을 선택한 템플릿 옵션에서 만들기](assets/diffusion_edit_4.png)
 
      **[!UICONTROL Select link]** 아이콘을 클릭하여 폴더를 찾은 다음 선택한 템플릿의 내용을 보려면 **[!UICONTROL Edit link]** 아이콘을 클릭합니다.
 
@@ -81,19 +81,19 @@ ht-degree: 1%
 
    수신자는 파일 가져오기 등의 인바운드 이벤트에 의해 지정되거나 게재 작업에 지정될 수 있습니다. 하나 이상의 파일에 저장할 수도 있습니다.
 
-   ![](assets/diffusion_edit_5.png)
+   ![인바운드 이벤트에 의해 지정된 옵션이 있는 수신자 섹션, 지정된 게재 및 파일에 지정됨](assets/diffusion_edit_5.png)
 
 1. **컨텐츠**
 
    메시지 콘텐츠는 게재 또는 인바운드 이벤트에서 정의할 수 있습니다.
 
-   ![](assets/diffusion_edit_6.png)
+   ![인바운드 이벤트에 의해 지정되고 배달 옵션에 지정된 콘텐츠 섹션](assets/diffusion_edit_6.png)
 
 1. **실행할 작업**
 
    게재를 만들고, 준비하고, 시작하고, 대상을 추정하거나, 증명을 보낼 수 있습니다.
 
-   ![](assets/diffusion_edit_7.png)
+   ![저장 후 준비 및 시작, 아웃바운드 전환 생성 옵션에 대한 옵션을 수행하는 동작](assets/diffusion_edit_7.png)
 
    수행할 작업 유형을 선택합니다.
 
@@ -121,13 +121,13 @@ ht-degree: 1%
 
    **스크립트** 탭에서는 게재 매개 변수를 수정할 수 있습니다.
 
-   ![](assets/edit_diffusion_fil_script.png)
+   게재 개체 수정 스크립트를 사용하여 게재 활동의 ![스크립트 탭에서 게재 레이블 설정](assets/edit_diffusion_fil_script.png)
 
 ## 예: 게재 워크플로우 {#example--delivery-workflow}
 
 아래 그래픽에 표시된 대로 새 워크플로우를 만들고 활동을 추가합니다.
 
-![](assets/new-workflow-5.png)
+![시작, 게재 및 승인 활동이 포함된 워크플로, 예 및 아니요 ](assets/new-workflow-5.png)에서 게재 제어
 
 **Delivery** 활동을 열고 속성을 다음과 같이 정의합니다.
 
@@ -135,7 +135,7 @@ ht-degree: 1%
 * **[!UICONTROL Recipients]** 섹션에서 **[!UICONTROL Specified in the delivery]**&#x200B;을(를) 선택합니다.
 * **[!UICONTROL Action to execute]** 섹션에서 **[!UICONTROL Prepare]** 옵션을 유지합니다.
 
-![](assets/new-workflow-param-delivery.png)
+![새로 만들기, 템플릿에서 만들어짐, 게재 받는 사람 및 선택한 항목 준비에 지정됨](assets/new-workflow-param-delivery.png)
 
 속성 창을 닫으려면 **[!UICONTROL OK]**&#x200B;을(를) 클릭하십시오. 타겟이 지정될 게재 템플릿을 기반으로 새 게재를 만들고 준비하는 단계로 구성된 활동을 방금 구성했습니다.
 
@@ -150,7 +150,7 @@ ht-degree: 1%
 
    JavaScript에 작성된 식을 포함하는 메시지입니다. **[!UICONTROL vars.recCount]**&#x200B;은(는) 이전 작업 게재의 대상이 되는 받는 사람 수를 나타냅니다. JavaScript 표현식에 대한 자세한 내용은 [JavaScript 스크립트 및 템플릿](javascript-scripts-and-templates.md)을 참조하세요.
 
-   ![](assets/new-workflow-param-validation.png)
+   ![그룹 할당 유형의 승인 활동 및 vars.recCount를 사용하여 대상 승인을 요청하는 메시지](assets/new-workflow-param-validation.png)
 
    승인 작업이 [승인](approval.md)에 자세히 설명되어 있습니다.
 
