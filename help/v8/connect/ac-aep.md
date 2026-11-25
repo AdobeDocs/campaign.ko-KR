@@ -58,7 +58,7 @@ Adobe Experience Platform 대상을 Adobe Campaign으로 보내고 게재 및 �
 
   이렇게 하려면 새 Adobe Campaign Managed Cloud Services **Source 연결**&#x200B;을 구성하여 Campaign 이벤트를 Adobe Experience Platform으로 수집합니다. 사용할 Campaign 인스턴스 및 스키마에 대한 세부 정보를 제공하고, 데이터를 수집해야 하는 데이터 세트를 선택한 다음 검색할 필드를 구성합니다. [Adobe Campaign Managed Cloud Services 소스 연결을 만드는 방법을 알아봅니다](https://www.adobe.com/go/sources-campaign-ui-en)
 
-  ![Adobe Campaign 추적 로그 데이터 세트 활동 페이지(수집된 레코드, 배치 및 성공 상태 포함)1}](assets/aep-logs.png){width="800" align="center"}
+  ![Adobe Campaign 추적 로그 데이터 세트 활동 페이지(수집된 레코드, 배치 및 성공 상태 포함)1&rbrace;](assets/aep-logs.png){width="800" align="center"}
 
 ## Adobe Experience Platform과 Adobe Campaign 간 프로필 속성 동기화 {#profile}
 

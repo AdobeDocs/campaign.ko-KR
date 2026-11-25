@@ -149,7 +149,7 @@ Microsoft Dynamics 및 Salesforce.com에서 가져올 원격 필드를 오름차
 
 목록의 열 순서는 정렬 순서입니다.
 
-![수준별 정렬 대화 상자 내림차순으로 정렬한 다음 MailingCity__1}](assets/crm-import-order.png)
+![수준별 정렬 대화 상자 내림차순으로 정렬한 다음 MailingCity__1&rbrace;](assets/crm-import-order.png)
 
 ### 레코드 식별 {#record-identification}
 
