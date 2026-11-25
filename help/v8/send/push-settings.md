@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1890'
 ht-degree: 5%
 ---
 # 푸시 알림 채널 구성 {#push-notification-configuration}
@@ -58,7 +58,7 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
 1. Adobe Experience Platform 데이터 수집에서 [모바일 태그 속성](#launch-property)을 설정합니다.
 1. 이 페이지에서 [자세히](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}대로 Adobe Experience Platform Mobile SDK을 가져옵니다.
 1. (선택 사항) 로깅 및 라이프사이클 지표를 사용하도록 설정합니다(자세한 정보: 이 [페이지](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}).
-1. (선택 사항) 구현의 유효성을 검사하려면 [Adobe Experience Platform Assurance을 앱에 추가](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}하십시오. 이 페이지[&#128279;](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}에서 Adobe Experience Platform Assurance 확장 을(를) 구현하는 방법을 알아보세요.
+1. (선택 사항) 구현의 유효성을 검사하려면 [Adobe Experience Platform Assurance을 앱에 추가](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}하십시오. 이 페이지](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}에서 Adobe Experience Platform Assurance 확장 [을(를) 구현하는 방법을 알아보세요.
 1. 이 페이지의 [자세히](#push-service)로 Adobe Campaign에서 iOS 및 Android Mobile Services를 구성합니다.
 1. 모바일 속성에 [Adobe Campaign 확장](#configure-extension)을 설치하고 구성합니다.
 1. 앱에서 Adobe Experience Platform Mobile SDK를 설정하려면 [Adobe Experience Platform Mobile SDK 설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}를 따르십시오.
@@ -67,17 +67,17 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
 
 ### 권한 설정 {#setup-permissions}
 
-모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform의 태그에 대한 올바른 사용자 권한이 있는지 확인하거나 사용자에게 할당해야 합니다. Adobe Experience Platform의 태그에 대한 사용자 권한은 Adobe Admin Console을 통해 사용자에게 할당됩니다. 자세한 내용은 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ko){target="_blank"}를 참조하세요.
+모바일 애플리케이션을 만들기 전에 먼저 Adobe Experience Platform의 태그에 대한 올바른 사용자 권한이 있는지 확인하거나 사용자에게 할당해야 합니다. Adobe Experience Platform의 태그에 대한 사용자 권한은 Adobe Admin Console을 통해 사용자에게 할당됩니다. 자세한 내용은 [태그 설명서](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}를 참조하세요.
 
 >[!CAUTION]
 >
->푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 이 구현에 관련된 담당자에 따라 단일 제품 프로필에 전체 권한 집합을 할당하거나 앱 개발자와 **Adobe Campaign** 관리자 간에 권한을 공유해야 할 수 있습니다.
+>푸시 구성은 전문가 사용자가 수행해야 합니다. 구현 모델 및 관련 담당자에 따라 단일 제품 프로필에 전체 권한 세트를 할당해야 할 수 있습니다. 또는 앱 개발자와 **Adobe Campaign** 관리자 간에 권한을 공유합니다.
 
 **속성** 및 **회사** 권한을 할당하려면 아래 단계를 따르십시오.
 
 1. **[!DNL Admin Console]**&#x200B;에 액세스합니다.
 1. **[!UICONTROL Products]** 탭에서 **[!UICONTROL Adobe Experience Platform Data Collection]** 카드를 선택합니다.
-1. 기존 **[!UICONTROL Product Profile]**&#x200B;을(를) 선택하거나 **[!UICONTROL New profile]** 단추를 사용하여 새 을(를) 만듭니다. [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=ko#ui){target="_blank"}에서 새 **[!UICONTROL New profile]**&#x200B;을(를) 만드는 방법을 알아보세요.
+1. 기존 **[!UICONTROL Product Profile]**&#x200B;을(를) 선택하거나 **[!UICONTROL New profile]** 단추를 사용하여 새 을(를) 만듭니다. [Admin Console 설명서](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}에서 새 **[!UICONTROL New profile]**&#x200B;을(를) 만드는 방법을 알아보세요.
 1. **[!UICONTROL Permissions]** 탭에서, **[!UICONTROL Property Rights]**&#x200B;를 선택합니다.
 1. **[!UICONTROL Add all]**&#x200B;을(를) 클릭합니다. 제품 프로필에 다음 권한이 추가됩니다.
    * **[!UICONTROL Approve]**
@@ -109,7 +109,7 @@ Adobe Experience Platform Mobile SDK를 사용하여 앱을 설정하려면 다�
 
    >[!NOTE]
    >
-   >사용자가 이전에 Admin Console에서 만들어진 것이 아니라면 [사용자 추가 설명서](https://helpx.adobe.com/kr/enterprise/using/manage-users-individually.html#add-users){target="_blank"}를 참조하세요.
+   >사용자가 이전에 Admin Console에서 만들어진 것이 아니라면 [사용자 추가 설명서](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"}를 참조하세요.
 
 ### 앱 구성 {#configure-app}
 
@@ -171,7 +171,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 -->
 
-[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=ko){target="_blank"}에서 [!DNL Adobe Experience Platform Data Collection] 태그에 대해 자세히 알아보세요.
+[Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}에서 [!DNL Adobe Experience Platform Data Collection] 태그에 대해 자세히 알아보세요.
 
 만든 후에는 새 태그 속성을 열고 라이브러리를 만듭니다. 방법은 다음과 같습니다.
 
@@ -182,7 +182,7 @@ To get the SDKs needed for push notification to work you will need the following
 
 ## Campaign에서 모바일 서비스 구성 {#push-service}
 
-[!DNL Adobe Experience Platform Data Collection]에서 모바일 앱을 설정한 후에는 **[!DNL Adobe Campaign]**&#x200B;에서 푸시 알림을 보낼 수 있도록 두 개의 서비스(iOS 장치용 서비스, Android 장치용 서비스)를 만들어야 합니다.
+모바일 앱을 [!DNL Adobe Experience Platform Data Collection]에 설정한 후에는 두 개의 서비스(iOS 장치용 서비스 및 Android 장치용 서비스)를 만드십시오. 이 서비스를 사용하면 **[!DNL Adobe Campaign]**&#x200B;에서 푸시 알림을 보낼 수 있습니다.
 
 푸시 알림은 전용 서비스를 통해 앱 사용자에게 전송됩니다. 사용자가 앱을 설치할 때 이 서비스에 가입합니다. Adobe Campaign은 이 서비스를 사용하여 앱 가입자만 타깃팅합니다. 이 서비스에서는 iOS 및 Android 앱을 추가하여 iOS 및 Android 디바이스에서 전송해야 합니다.
 

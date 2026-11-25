@@ -24,9 +24,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '2986'
+source-wordcount: '2989'
 ht-degree: 1%
 ---
 # 인바운드 채널에 대한 오퍼{#offers-on-an-inbound-channel}
@@ -47,7 +47,7 @@ Neobank 사이트에서는 페이지를 검색하는 식별되지 않은 방문�
 
 ### 익명 환경 만들기 {#creating-an-anonymous-environment}
 
-[오퍼 환경 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}(Campaign v8 설명서)에 설명된 절차에 따라 **방문자** 차원을 기반으로 익명 환경을 만듭니다.
+[오퍼 환경 만들기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}(Campaign v8 설명서)에 설명된 절차에 따라 **방문자** 차원을 기반으로 익명 환경을 만듭니다.
 
 새 환경이 포함된 트리 구조를 가져옵니다.
 
@@ -147,7 +147,7 @@ Neobank 사이트에서는 페이지를 검색하는 식별되지 않은 방문�
 
 ### 웹 사이트에서 웹 오퍼 공간 구성 {#configure-the-web-offer-space-on-the-website}
 
-방금 구성한 오퍼가 웹 사이트에 표시되도록 하려면 사이트의 HTML 페이지에 JavaScript 코드를 삽입하여 상호 작용 엔진을 호출합니다(자세한 내용은 [인바운드 채널 정보](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"}(Campaign v8 설명서).
+방금 구성한 오퍼가 웹 사이트에 표시되도록 하려면 JavaScript 코드를 사이트의 HTML 페이지에 삽입합니다. 이 코드는 상호 작용 엔진을 호출합니다. 자세한 내용은 [인바운드 채널 정보](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
 1. HTML 페이지로 이동하여 이전에 만든 익명 오퍼 공간의 내부 이름과 일치하는 값이 있는 @id 특성을 삽입합니다([익명 오퍼 공간 만들기](#creating-anonymous-offer-spaces) 참조). 앞에 **i_**&#x200B;이(가) 있습니다.
 
@@ -157,7 +157,7 @@ Neobank 사이트에서는 페이지를 검색하는 식별되지 않은 방문�
 
    ![env=liveVisitor 및 th=financing 매개 변수가 강조 표시된 interactionProposal.js에 대한 HTML 스크립트 호출](assets/offer_inbound_anonymous_example_020.png)
 
-   위의 파란색 URL 상자는 인스턴스 이름, 환경의 내부 이름([익명 환경 만들기](#creating-an-anonymous-environment) 참조) 및 범주에 연결된 테마([오퍼 범주 및 테마 만들기](#creating-an-offer-category-and-a-theme))에 해당합니다. 후자는 선택 사항입니다.
+   위의 파란색 URL 상자는 인스턴스 이름, 환경의 내부 이름 및 범주에 연결된 테마에 해당합니다. 자세한 내용은 [익명 환경 만들기](#creating-an-anonymous-environment) 및 [오퍼 범주 및 테마 만들기](#creating-an-offer-category-and-a-theme)를 참조하세요. 테마는 선택 사항입니다.
 
 방문자가 웹 사이트의 홈 페이지에 액세스하면 **재무** 테마를 사용하는 오퍼가 HTML 페이지에 구성된 대로 표시됩니다.
 
@@ -211,7 +211,7 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
 ### 익명 연락처를 위한 환경 만들기 {#creating-an-environment-for-anonymous-contacts}
 
-1. 게재 매핑 도우미(**방문자** 매핑)를 통해 익명 인바운드 상호 작용을 위한 오퍼 환경을 만듭니다. 자세한 내용은 [오퍼 환경 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+1. 게재 매핑 도우미(**방문자** 매핑)를 통해 익명 인바운드 상호 작용을 위한 오퍼 환경을 만듭니다. 자세한 내용은 [오퍼 환경 만들기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
    ![디자인 트리 및 환경 제공 - 방문자 속성, 들어오는 익명 상호 작용을 위한 환경](assets/offer_env_anonymous_003.png)
 
@@ -290,7 +290,7 @@ Neobank 회사는 두 개의 다른 타겟에 대한 마케팅 오퍼를 생성�
 
 1. **[!UICONTROL Eligibility]** 탭으로 이동하여 이 범주의 첫 번째 오퍼에 적용한 것과 동일한 가중치를 적용하여 오퍼가 웹 사이트에 연속적으로 표시되도록 합니다.
 
-   ![홈 페이지의 가중치가 3인 두 번째 파트너 오퍼의 자격 탭입니다. 첫 번째 &#x200B;](assets/offer_inbound_fallback_example_036.png)
+   ![홈 페이지의 가중치가 3인 두 번째 파트너 오퍼의 자격 탭입니다. 첫 번째 ](assets/offer_inbound_fallback_example_036.png)
 
 1. 각 오퍼에 대한 승인 주기를 실행하여 실행을 시작합니다. 콘텐츠를 승인할 때는 오퍼에 따라 **파트너** 또는 **최상의 오퍼** 오퍼 공간을 활성화하십시오.
 
@@ -409,7 +409,7 @@ Neobank 회사의 웹 사이트에는 **최상의 오퍼** 범주의 은행 관�
 
    ![interactionTarget 변수가 페이지 스크립트에서 로그인한 사용자의 전자 메일로 설정됨](assets/offer_inbound_fallback_example_043.png)
 
-   개인의 식별은 브라우저 쿠키, URL의 읽기 매개 변수, 이메일 또는 개인의 식별자를 기반으로 할 수 있습니다. 기본 키 이외의 받는 사람 테이블의 필드를 사용하는 경우 공간의 고급 매개 변수에서 정의해야 합니다([식별된 오퍼 공간의 고급 설정 지정](#specifying-the-advanced-settings-of-the-identified-offer-spaces) 참조).
+   개인의 식별은 브라우저 쿠키, URL의 읽기 매개 변수, 이메일 또는 개인의 식별자를 기반으로 할 수 있습니다. 기본 키 이외의 수신자 테이블의 필드를 사용하는 경우 공간의 고급 매개 변수에서 필드를 정의합니다. 자세한 내용은 [식별된 오퍼 공간의 고급 설정 지정](#specifying-the-advanced-settings-of-the-identified-offer-spaces)을 참조하세요.
 
 1. 호출 URL을 삽입합니다.
 
@@ -419,6 +419,6 @@ Neobank 회사의 웹 사이트에는 **최상의 오퍼** 범주의 은행 관�
 
 웹 페이지를 열면 스크립트를 사용하여 상호 작용 엔진을 호출하여 웹 페이지의 관련 공간에 오퍼 콘텐츠를 표시할 수 있습니다. Adobe Campaign 서버에 대한 단일 호출에서 엔진은 선택할 환경, 오퍼 공간 및 범주를 결정합니다.
 
-이 예에서 엔진은 식별된 환경(**EnvNeobankIdnRecip**)을 인식합니다. 웹 페이지의 첫 번째 및 두 번째 오퍼 공간에 대한 오퍼 공간(**OSWebBestOfferIdentified**) 및 **최상의 오퍼** 카테고리(**CatBestOffer**)와 사이트의 세 번째 오퍼 공간에 대한 오퍼 공간(**OSWebPartnerIdentified**) 및 **파트너** 카테고리(**CatPartner**)를 식별합니다.
+이 예에서 엔진은 식별된 환경(**EnvNeobankIdnRecip**)을 인식합니다. 웹 페이지에서 첫 번째 및 두 번째 오퍼 공간에 대한 오퍼 공간(**OSWebBestOfferIdentified**)과 **최상의 오퍼** 범주(**CatBestOffer**)를 식별합니다. 세 번째 오퍼 공간의 경우 오퍼 공간(**OSWebPartnerIdentified**)과 **Partner** 범주(**CatPartner**)를 식별합니다.
 
 엔진에서 수신자를 식별할 수 없으면 식별된 오퍼 공간에서 참조된 익명 오퍼 공간으로 전환하고 스크립트에 지정된 익명 범주(**CatPartner** 및 **CatPartnerAnonym**)로 전환합니다.
