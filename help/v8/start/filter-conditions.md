@@ -358,7 +358,7 @@ ht-degree: 30%
 
 1. **[!UICONTROL Expression]**&#x200B;이(가) **[!UICONTROL Edit the expression]** 창을 엽니다. 이렇게 하면 숫자가 너무 많아 입력 오류일 가능성이 있는 전화 번호를 감지할 수 있습니다.
 
-   ![휴대폰 길이 식이 있는 식 창을 편집하고 결과 필터 Phone이 10보다 큰 경우 ](assets/query_editor_nveau_71.png)을(를) 편집합니다.
+   ![휴대폰 길이 식이 있는 식 창을 편집하고 결과 필터 Phone이 10보다 큰 경우 &#x200B;](assets/query_editor_nveau_71.png)을(를) 편집합니다.
 
    사용 가능한 모든 함수 목록을 보려면 [함수 목록](#list-of-functions)을 참조하세요.
 
