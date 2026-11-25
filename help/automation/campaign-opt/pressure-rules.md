@@ -223,7 +223,7 @@ Adobe Campaign을 사용하여 캠페인 간의 중재를 설정하려면 먼저
 
 이 수가 임계값을 초과하는 경우 캠페인 유형화에 정의된 중재 규칙이 적용되고 수신자는 가중치가 낮은 캠페인에서 제외됩니다.
 
-![전송 대상이 12개인 게재 요약 및 중재 후 제외된 제외 로그가 포함된 ](assets/campaign_opt_pressure_exclusion.png)
+![전송 대상이 12개인 게재 요약 및 중재 후 제외된 제외 로그가 포함된 &#x200B;](assets/campaign_opt_pressure_exclusion.png)
 
 >[!NOTE]
 >

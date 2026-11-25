@@ -437,7 +437,7 @@ Adobe Campaign을 사용하면 작업을 만들고 애플리케이션에서 작�
 
 상위 작업을 연기하겠습니다. 이제 10월 11일 오후 1시에 종료됩니다. A 작업만 연기되어 10월 11일 오후 1시에 시작됩니다.
 
-![상위 작업의 보기 전후에 하위 작업 A의 시작은 이동하지만 하위 작업 B는 이동하지 않는 ](assets/mrm_task_parent_postpones_child.png)
+![상위 작업의 보기 전후에 하위 작업 A의 시작은 이동하지만 하위 작업 B는 이동하지 않는 &#x200B;](assets/mrm_task_parent_postpones_child.png)
 
 ### 작업 실행 상태 {#execution-status-of-a-task}
 
