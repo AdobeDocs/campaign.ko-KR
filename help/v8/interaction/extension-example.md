@@ -26,9 +26,9 @@ feature_v2:
 subfeature_v2:
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '193'
 ht-degree: 3%
 ---
 # 확장 예제{#extension-example}
@@ -41,12 +41,12 @@ ht-degree: 3%
 
   다음 예에서는 추가된 기준이 국가 코드 및 마지막으로 방문한 페이지입니다.
 
-  ![](assets/s_ncs_configuration_offer_schemas.png)
+  ![국가 코드 및 마지막으로 방문한 페이지 특성이 있는 상호 작용 데이터 스키마를 추가했습니다.](assets/s_ncs_configuration_offer_schemas.png)
 
 * 그런 다음 자격 기준 정의를 정의할 때 이전에 생성한 속성을 사용할 수 있습니다.
 
   다음 예제에서는 사용자의 국가 또는 마지막으로 본 웹 페이지를 기반으로 오퍼를 표시하는 자격 조건을 만들 수 있습니다.
 
-  ![](assets/s_ncs_configuration_offer_context.png)
+  ![국가 코드 및 마지막으로 방문한 페이지 상호 작용 필드를 기준으로 선택할 수 있는 자격 쿼리 편집기.](assets/s_ncs_configuration_offer_context.png)
 
-* SOAP 호출을 구성할 때는 상호 작용 스키마에 추가된 컨텍스트 정보를 참조하도록 **context** XML 요소를 삽입합니다. 자세한 내용은 [SOAP을 통한 통합(서버측)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"}(Campaign v8 설명서)을 참조하십시오.
+* SOAP 호출을 구성할 때는 상호 작용 스키마에 추가된 컨텍스트 정보를 참조하도록 **context** XML 요소를 삽입합니다. 자세한 내용은 [SOAP을 통한 통합(서버측)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"}(Campaign v8 설명서)을 참조하십시오.

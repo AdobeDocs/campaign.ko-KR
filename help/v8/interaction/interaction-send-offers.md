@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 2%
+source-wordcount: '1565'
+ht-degree: 1%
 ---
 # 오퍼 보내기{#send}
 
@@ -41,37 +41,37 @@ ht-degree: 2%
 
 1. 게재 창에서 **오퍼** 아이콘을 클릭합니다.
 
-   ![](assets/offer_delivery_001.png)
+   ![오퍼 단추를 사용하여 전자 메일 배달, 빈 오퍼 공간 필드가 있는 오퍼 관리 대화 상자 열기](assets/offer_delivery_001.png)
 
 1. 오퍼 환경과 일치하는 공간을 선택합니다.
 
-   ![](assets/offer_delivery_002.png)
+   ![사용 가능한 전자 메일 오퍼 공간을 나열하는 오퍼 관리 대화 상자의 오퍼 공간 드롭다운](assets/offer_delivery_002.png)
 
 1. 엔진의 오퍼 선택을 세분화하려면 표시할 오퍼가 속한 범주 또는 하나/여러 테마를 선택합니다. 제한 사항이 오버로드되지 않도록 한 번에 이러한 필드 중 하나만 사용하는 것이 좋습니다.
 
-   ![](assets/offer_delivery_003.png)
+   ![오퍼 카탈로그 범주를 나열하는 범주 드롭다운이 있는 오퍼 관리 대화 상자](assets/offer_delivery_003.png)
 
-   ![](assets/offer_delivery_004.png)
+   테마 필드가 채워진 ![오퍼 관리 대화 상자](assets/offer_delivery_004.png)
 
 1. 게재 본문에 삽입할 오퍼 수를 지정합니다.
 
-   ![](assets/offer_delivery_005.png)
+   ![메시지 필드당 제안 수가 2](assets/offer_delivery_005.png)(으)로 설정된 오퍼 관리 대화 상자
 
 1. 필요한 경우 **[!UICONTROL Exclude non-eligible recipients]** 옵션을 선택하십시오. [자세히 알아보기](#parameters-for-calling-offer-engine)
 
-   ![](assets/offer_delivery_006.png)
+   ![부적격 수신자 제외 옵션이 선택된 오퍼 관리 대화 상자](assets/offer_delivery_006.png)
 
 1. 필요한 경우 **[!UICONTROL Do not display anything if no offers are selected]** 옵션을 선택합니다. [자세히 알아보기](#parameters-for-calling-offer-engine)
 
-   ![](assets/offer_delivery_007.png)
+   ![선택한 오퍼가 없는 경우 아무 것도 표시하지 않음 옵션이 있는 오퍼 관리 대화 상자](assets/offer_delivery_007.png)
 
 1. 병합 필드를 사용하여 게재 콘텐츠에 속성을 삽입합니다. 사용 가능한 제안 수는 엔진 호출이 구성되는 방식에 따라 다르며 오퍼 순서는 오퍼의 우선 순위에 따라 다릅니다.
 
-   ![](assets/offer_delivery_008.png)
+   ![게재 콘텐츠 메뉴 경로 제안, 제안 2, 렌더링 기능, HTML 렌더링](assets/offer_delivery_008.png)
 
 1. 콘텐츠를 완료하고 테스트하여 게재를 전송합니다.
 
-   ![](assets/offer_delivery_010.png)
+   ![두 개의 제안이 있는 전자 메일 게재 콘텐츠에는 스크립트와 [보내기] 버튼이 강조 표시됨](assets/offer_delivery_010.png)
 
 
 ### 오퍼 엔진의 매개변수 {#parameters-for-calling-offer-engine}
@@ -93,11 +93,11 @@ ht-degree: 2%
 
 ### 보강 {#enrichment}
 
-**데이터 보강** 활동을 통해 게재 수신자의 오퍼에 대한 오퍼 또는 링크를 추가할 수 있습니다.[자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ko){target="_blank"}.
+**데이터 보강** 활동을 통해 게재 수신자의 오퍼에 대한 오퍼 또는 링크를 추가할 수 있습니다.[자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}.
 
 예를 들어 게재 전에 수신자 쿼리에 대한 데이터를 보강할 수 있습니다.
 
-![](assets/int_enrichment_offer1.png)
+![결과 전환으로 연결된 쿼리, 데이터 보강 및 DM 게재 활동이 있는 워크플로](assets/int_enrichment_offer1.png)
 
 오퍼 제안을 지정하는 방법에는 두 가지가 있습니다.
 
@@ -112,18 +112,18 @@ ht-degree: 2%
 1. **[!UICONTROL Enrichment]** 탭에서 **[!UICONTROL Add data]**&#x200B;을(를) 선택합니다.
 1. 추가할 데이터 형식에서 **[!UICONTROL An offer proposition]**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/int_enrichment_offer2.png)
+   ![오퍼 제안 옵션이 선택된 추가 데이터 마법사](assets/int_enrichment_offer2.png)
 
 1. 추가할 제안에 대한 레이블과 식별자를 지정합니다.
 1. 오퍼 선택을 지정합니다. 다음과 같은 두 가지 옵션이 있습니다.
 
    * **[!UICONTROL Search for the best offer in a category]**: 이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마, 연락 날짜, 유지할 오퍼 수)를 지정하십시오. 엔진은 이러한 매개 변수에 따라 추가할 오퍼를 자동으로 계산합니다. **[!UICONTROL Category]** 또는 **[!UICONTROL Theme]** 필드를 동시에 완료하지 않는 것이 좋습니다.
 
-     ![](assets/int_enrichment_offer3.png)
+     ![유지할 공간, 범주 및 오퍼가 있는 범주에서 최상의 오퍼를 검색하도록 오퍼 제안 단계 설정](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL A pre-defined offer]**: 이 옵션을 선택하고 오퍼 스페이스, 특정 오퍼 및 연락 날짜를 지정하여 오퍼 엔진을 호출하지 않고 추가하려는 오퍼를 직접 구성하십시오.
 
-     ![](assets/int_enrichment_offer4.png)
+     ![스페이스 및 오퍼 필드가 있는 사전 정의된 오퍼로 설정된 오퍼 제안 단계](assets/int_enrichment_offer4.png)
 
 1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [자세히 알아보기](#offer-into-a-delivery)
 
@@ -141,11 +141,11 @@ ht-degree: 2%
 1. 추가할 데이터 형식을 선택하는 창에서 **[!UICONTROL A link]**&#x200B;을(를) 선택합니다.
 1. 설정하려는 링크 유형과 대상을 선택합니다. 이 경우 타겟은 오퍼 스키마입니다.
 
-   ![](assets/int_enrichment_link1.png)
+   ![대상을 항상 사용할 수 있는 링크와 마케팅 오퍼 스키마를 대상으로 하는 링크 정의 단계](assets/int_enrichment_link1.png)
 
 1. 데이터 보강 활동의 인바운드 테이블 데이터(여기서 수신자 테이블)와 오퍼 테이블 간의 조인을 지정합니다. 예를 들어 오퍼 코드를 수신자에게 연결할 수 있습니다.
 
-   ![](assets/int_enrichment_link2.png)
+   ![cryptedId 원본 필드와 대상 코드 필드가 일치하는 링크 정의 조인 조건](assets/int_enrichment_link2.png)
 
 1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [자세히 알아보기](#offer-into-a-delivery)
 
@@ -166,11 +166,11 @@ ht-degree: 2%
 1. 쿼리 후 게재 활동 전에 수행한 데이터 보강 활동에서 오퍼 엔진에 대한 호출을 만듭니다. [자세히 알아보기](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. 활동의 기본 창에서 **[!UICONTROL Edit additional data...]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/ita_enrichment_rankweight_1.png)
+   ![추가 데이터 편집 링크가 강조 표시된 데이터 보강 활동으로 제안 데이터를 나열합니다](assets/ita_enrichment_rankweight_1.png)
 
 1. 순위에는 **[!UICONTROL @rank]** 열을 추가하고 오퍼 가중치는 **[!UICONTROL @weight]**&#x200B;을(를) 추가합니다.
 
-   ![](assets/ita_enrichment_rankweight_2.png)
+   ![제안 아래에 가중치 및 순위 출력 열이 추가된 추가 열 선택 대화 상자](assets/ita_enrichment_rankweight_2.png)
 
 1. 추가를 확인하고 워크플로우를 저장합니다.
 
@@ -180,11 +180,11 @@ ht-degree: 2%
 
 또한 **[!UICONTROL Offer engine]** 활동을 통해 게재 전에 오퍼 엔진에 대한 호출을 지정할 수 있습니다.
 
-**오퍼 엔진** 활동에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=ko){target="_blank"}를 참조하세요.
+**오퍼 엔진** 활동에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html){target="_blank"}를 참조하세요.
 
 이 활동은 게재 전에 엔진에서 계산한 오퍼로 인바운드 모집단 데이터를 보강하여 엔진 호출을 사용한 **데이터 보강** 활동과 동일한 원칙에서 작동합니다.
 
-![](assets/int_offerengine_activity2.png)
+![결과 전환으로 연결된 쿼리, 오퍼 엔진 및 DM 게재 활동이 있는 워크플로](assets/int_offerengine_activity2.png)
 
 **쿼리** 활동을 구성한 후:
 
@@ -195,7 +195,7 @@ ht-degree: 2%
    >
    >이 활동을 사용하는 경우 게재에 사용된 오퍼 제안만 저장됩니다.
 
-   ![](assets/int_offerengine_activity1.png)
+   ![계산할 오퍼 공간, 오퍼 범주 및 제안 수가 있는 오퍼 엔진 활동](assets/int_offerengine_activity1.png)
 
 1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다. [자세히 알아보기](#inserting-an-offer-proposition-into-a-delivery)
 
@@ -203,7 +203,7 @@ ht-degree: 2%
 
 **[!UICONTROL Offers by cell]** 활동을 사용하면 쿼리의 인바운드 모집단을 여러 세그먼트에 분산하고 이러한 각 세그먼트에 대해 제공할 오퍼를 지정할 수 있습니다.
 
-**셀별 오퍼** 활동에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=ko){target="_blank"}를 참조하세요.
+**셀별 오퍼** 활동에 대한 자세한 내용은 [이 페이지](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html){target="_blank"}를 참조하세요.
 
 이렇게 하려면 다음 프로세스를 사용합니다.
 
@@ -214,7 +214,7 @@ ht-degree: 2%
    * 사용 가능한 필터링 및 제한 규칙을 사용하여 하위 집합 모집단을 지정합니다.
    * 그런 다음 하위 세트에 제공할 오퍼를 선택합니다. 사용 가능한 오퍼는 이전 단계에서 선택한 오퍼 환경에서 적격한 오퍼입니다.
 
-     ![](assets/int_offer_per_cell1.png)
+     ![사용 가능한 오퍼를 나열하는 전자 메일 오퍼 공간 및 오퍼 드롭다운이 있는 하위 집합 활동](assets/int_offer_per_cell1.png)
 
 1. 그런 다음 선택한 채널에 해당하는 게재 활동을 구성합니다.
 

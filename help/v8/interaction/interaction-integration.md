@@ -24,9 +24,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1566'
 ht-degree: 0%
 ---
 # 웹 페이지에 오퍼 추가{#add-an-offer-in-web}
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 URL을 호출하는 스크립트는 다음과 같습니다.
 
-```
+```xml
 <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=" type="text/javascript"></script>
 ```
 
@@ -61,13 +61,13 @@ HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 
 
 이 예에서 @id 속성은 &quot;i_SPC12&quot; 값을 수신하며, 여기서 &quot;SPC12&quot;는 이전에 만든 오퍼 공간의 내부 이름입니다.
 
-```
+```xml
 <div id="i_SPC12"></div>
 ```
 
 이 예에서 스크립트를 호출하는 URL은 다음과 같습니다(&quot;OE3&quot;는 라이브 환경의 내부 이름입니다).
 
-```
+```xml
 <script id="interactionProposalScript" src="https://instance.adobe.org:8080/nl/interactionProposal.js?env=OE3" type="text/javascript"></script>
 ```
 
@@ -83,7 +83,7 @@ HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 
 
 오퍼 표시 콘텐츠는 오퍼 엔진에 의해 HTML 페이지로 반환됩니다.
 
-```
+```xml
 <div id="banner_header">
  <div id="i_SPC12">
    <table>
@@ -111,7 +111,7 @@ HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 
 
 웹 페이지의 콘텐츠에서 오퍼 엔진 호출 중에 연락처를 식별하는 다음 스크립트를 추가해야 합니다.
 
-```
+```xml
 <script type="text/javascript">
   interactionTarget = <contact_identifier>;
 </script>
@@ -119,7 +119,7 @@ HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 
 
 1. 웹 페이지에서 호출할 오퍼 공간으로 이동하여 **[!UICONTROL Advanced parameters]**&#x200B;을(를) 클릭하고 ID 키를 하나 이상 추가합니다.
 
-   ![](assets/interaction_htmlmode_001.png)
+   ![키 경로 @email 및 성 필드가 두 번째 키로 추가되는 고급 매개 변수 대상 식별 탭](assets/interaction_htmlmode_001.png)
 
    이 예제에서 식별 키는 이메일과 수신자 이름을 기반으로 하므로 합성 키입니다.
 
@@ -127,7 +127,7 @@ HTML 페이지에는 만든 오퍼 공간(&quot;i_internal name space&quot;)의 
 
    다음 예에서는 연락처가 웹 사이트에 로그온했으며 이메일 및 이름 덕분에 오퍼 엔진 호출 중에 인식되었습니다.
 
-   ```
+   ```xml
    <script type="text/javascript">
      interactionTarget = myEmail|myName;
    </script>
@@ -141,7 +141,7 @@ HTML 오퍼 표현을 자동으로 생성하려면 렌더링 함수를 사용할
 1. **[!UICONTROL Overload the HTML rendering function]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL HTML rendering]** 탭으로 이동하여 오퍼 콘텐츠에 대해 정의된 필드와 일치하는 변수를 오퍼 공간에 삽입합니다.
 
-   ![](assets/interaction_htmlmode_002.png)
+   ![HTML 렌더링 기능 옵션 및 스크립트 오버로드를 사용하여 오퍼 공간 편집 기능 대화 상자, HTML 렌더링 탭](assets/interaction_htmlmode_002.png)
 
    이 예제에서 오퍼는 웹 페이지에 배너 형태로 표시되며 클릭 가능한 이미지와 오퍼 콘텐츠에 정의된 필드와 일치하는 제목으로 구성됩니다.
 
@@ -153,7 +153,7 @@ Campaign **상호 작용** 모듈을 사용하면 오퍼 엔진을 호출하는 
 
 오퍼 엔진에 대한 호출은 다음과 같습니다.
 
-```
+```xml
 <script type="text/javascript" id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=&cb="></script>
 ```
 
@@ -171,7 +171,7 @@ Campaign **상호 작용** 모듈을 사용하면 오퍼 엔진을 호출하는 
 
 반환된 XML 노드는 다음과 같습니다.
 
-```
+```xml
 <propositions>
  <proposition id="" offer-id="" weight="" rank="" space="" div=""> //proposition identifiers
    ...XML content defined in Adobe Campaign...
@@ -184,9 +184,9 @@ Campaign **상호 작용** 모듈을 사용하면 오퍼 엔진을 호출하는 
 
 1. **환경 및 오퍼 공간 만들기**
 
-   환경 만들기에 대한 자세한 내용은 [이 페이지](interaction-env.md)를 참조하세요.
+   환경 만들기에 대한 자세한 내용은 [Campaign 상호 작용 환경에서 작업](interaction-env.md)을 참조하세요.
 
-   오퍼 공간을 만드는 방법에 대한 자세한 내용은 [이 페이지](interaction-offer-spaces.md)를 참조하세요.
+   오퍼 공간을 만드는 방법에 대한 자세한 내용은 [캠페인 상호 작용 오퍼 공간](interaction-offer-spaces.md)을 참조하세요.
 
 1. **오퍼 스키마를 확장하여 새 필드 추가**
 
@@ -194,7 +194,7 @@ Campaign **상호 작용** 모듈을 사용하면 오퍼 엔진을 호출하는 
 
    예제의 스키마 이름은 **cus:offer**&#x200B;입니다.
 
-   ```
+   ```xml
    <srcSchema _cs="Marketing offers (cus)" created="2013-01-18 17:14:20.762Z" createdBy-id="0"
               desc="" entitySchema="xtk:srcSchema" extendedSchema="nms:offer" img="nms:offer.png"
               label="Marketing offers" labelSingular="Marketing offers" lastModified="2013-01-18 15:20:18.373Z"
@@ -231,7 +231,7 @@ Campaign **상호 작용** 모듈을 사용하면 오퍼 엔진을 호출하는 
 
    &quot;보기&quot; 섹션에 다음 콘텐츠가 있는 두 개의 새 필드를 삽입합니다.
 
-   ```
+   ```xml
    <input label="Title 2" margin-right="5" prebuildSubForm="false" type="subFormLink" xpath="title2_jst">
         <form label="Edit title 2" name="editForm" nothingToSave="true">
             <input nolabel="true" toolbarAlign="horizontal" type="jstEdit" xpath="." xpathInsert="/ignored/customizeTitle2">
@@ -256,7 +256,7 @@ Campaign **상호 작용** 모듈을 사용하면 오퍼 엔진을 호출하는 
 
    대상 URL 필드를 주석 처리합니다.
 
-   ![](assets/interaction_xmlmode_form_001.png)
+   ![대상 URL 입력 블록이 있는 오퍼 표시 양식 XML을 주석 처리했습니다](assets/interaction_xmlmode_form_001.png)
 
    >[!CAUTION]
    >
@@ -264,17 +264,17 @@ Campaign **상호 작용** 모듈을 사용하면 오퍼 엔진을 호출하는 
 
    오퍼 표시 양식의 렌더링은 다음과 같습니다.
 
-   ![](assets/interaction_xmlmode_form.png)
+   ![HTML 콘텐츠 편집기 위에 빈 제목, 대상 URL 및 이미지 URL 필드가 있는 오퍼 콘텐츠 탭](assets/interaction_xmlmode_form.png)
 
    **[!UICONTROL Title 2]** 및 **[!UICONTROL Price]** 필드가 추가되었으며 **[!UICONTROL Destination URL]** 필드가 더 이상 표시되지 않습니다.
 
 1. **오퍼 만들기**
 
-   오퍼 만들기에 대한 자세한 내용은 [이 페이지](interaction-offer.md)를 참조하세요.
+   오퍼 만들기에 대한 자세한 내용은 [캠페인 상호 작용 오퍼](interaction-offer.md)를 참조하세요.
 
    다음 사용 사례에서는 오퍼를 다음과 같이 입력합니다.
 
-   ![](assets/interaction_xmlmode_offer.png)
+   ![제목, 대상 URL 및 이미지 URL이 채워진 오퍼 콘텐츠 탭과 recipient.firstName을 사용하는 HTML 콘텐츠](assets/interaction_xmlmode_offer.png)
 
 1. **오퍼 승인**
 
@@ -284,7 +284,7 @@ Campaign **상호 작용** 모듈을 사용하면 오퍼 엔진을 호출하는 
 
    HTML 페이지의 오퍼 엔진에 대한 호출은 다음과 같습니다.
 
-   ```
+   ```xml
    <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=OE7&cb=alert" type="text/javascript">
    ```
 
@@ -294,7 +294,7 @@ Campaign **상호 작용** 모듈을 사용하면 오퍼 엔진을 호출하는 
 
    오퍼 엔진에서 반환된 XML 노드는 다음과 같습니다.
 
-   ```
+   ```xml
    <propositions>
     <proposition id="a28002" offer-id="10322005" weight="1" rank="1" space="SPC14" div="i_SPC14">
      <xmlOfferView>
@@ -320,14 +320,14 @@ XML 렌더링 함수를 사용하여 오퍼 프레젠테이션을 만들 수 있
 
    함수는 다음과 같이 표시될 수 있습니다.
 
-   ```
+   ```javascript
    function (proposition) {
      delete proposition.@id;
      proposition.@newAttribute = "newValue";
    } 
    ```
 
-![](assets/interaction_xmlmode_001.png)
+![XML 렌더링 함수 옵션 및 스크립트 오버로드를 사용하여 오퍼 공간 편집 함수 대화 상자, XML 렌더링 탭](assets/interaction_xmlmode_001.png)
 
 ## SOAP 통합 설정
 
@@ -367,7 +367,7 @@ SOAP을 통한 오퍼 제안에 대해 **nms:proposition#Propose** 명령과 다
 
 다음은 SOAP 호출에 대한 코드의 예입니다.
 
-```
+```html
 <%
   var space = request.parameters.sp
   var cnx = new HttpSoapConnection(

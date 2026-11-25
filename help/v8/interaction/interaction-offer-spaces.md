@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 2%
+source-wordcount: '1015'
+ht-degree: 0%
 ---
 # 오퍼 공간 만들기{#creating-offer-spaces}
 
@@ -37,27 +37,27 @@ ht-degree: 2%
 
 HTML 렌더링은 렌더링 기능을 통해 만들어집니다. 렌더링 함수에 정의된 필드의 시퀀스는 콘텐츠에 구성된 시퀀스와 동일해야 합니다.
 
-![](assets/offer_space_create_009.png)
+![이미지 URL, 대상 URL, 제목 및 일치하는 HTML 렌더링 함수가 있는 오퍼 공간 속성](assets/offer_space_create_009.png)
 
 새 오퍼 공간을 만들려면 아래 단계를 수행하십시오.
 
 1. 오퍼 공간 목록에서 **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/offer_space_create_001.png)
+   ![새 단추가 강조 표시되고 전자 메일 오퍼 공간이 선택된 오퍼 공간 목록](assets/offer_space_create_001.png)
 
 1. 사용할 채널을 선택하고 오퍼 공간의 레이블을 변경합니다.
 
-   ![](assets/offer_space_create_002.png)
+   ![전자 메일/클라이언트로 레이블이 설정되고 전자 메일로 채널이 설정된 오퍼 공간 속성 탭](assets/offer_space_create_002.png)
 
 1. **[!UICONTROL Enable unitary mode]** 옵션을 선택합니다.
 
 1. **[!UICONTROL Content field]** 창으로 이동하여 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/offer_space_create_003.png)
+   ![오퍼 콘텐츠 필드 목록 옆에 추가 단추가 있는 오퍼 공간 속성](assets/offer_space_create_003.png)
 
 1. **[!UICONTROL Content]** 노드로 이동하여 **[!UICONTROL Title]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]**, **[!UICONTROL Destination URL]** 순서로 필드를 선택합니다.
 
-   ![](assets/offer_space_create_004.png)
+   ![이미지 URL, 텍스트 콘텐츠 및 제목 등의 콘텐츠 필드를 나열하는 식 대화 상자를 선택합니다](assets/offer_space_create_004.png)
 
 1. 각 필드를 필수 항목으로 만들려면 **[!UICONTROL Required]** 옵션을 선택하십시오.
 
@@ -65,7 +65,7 @@ HTML 렌더링은 렌더링 기능을 통해 만들어집니다. 렌더링 함�
    >
    >이 옵션은 미리보기에서 사용되며 필수 필드 중 하나가 오퍼에서 누락된 경우 게시할 때 오퍼 공백을 유효하지 않게 합니다. 그러나 오퍼가 이미 오퍼 공간에 있는 경우 이러한 기준은 고려되지 않습니다.
 
-   ![](assets/offer_space_create_005.png)
+   ![제목, 이미지 URL, HTML 컨텐츠 및 대상 URL이 있는 오퍼 컨텐츠 필드 목록, 모두 필수](assets/offer_space_create_005.png)
 
 1. 렌더링 함수를 만들려면 **[!UICONTROL Edit functions]**&#x200B;을(를) 클릭하십시오.
 
@@ -73,12 +73,12 @@ HTML 렌더링은 렌더링 기능을 통해 만들어집니다. 렌더링 함�
 
    **참고** - XML 형식은 이 버전의 제품에서 사용할 수 없는 인바운드 상호 작용으로 제한됩니다. [자세히 알아보기](../start/v7-to-v8.md#gs-unavailable-features)
 
-   ![](assets/offer_space_create_006.png)_
+   ![렌더링 함수 아래의 함수 편집 링크가 강조 표시된 오퍼 공간 속성](assets/offer_space_create_006.png)_
 
 1. **[!UICONTROL HTML rendering]** 탭으로 이동하여 **[!UICONTROL Overload the HTML rendering function]**&#x200B;을(를) 선택합니다.
 1. 렌더링 함수를 삽입합니다.
 
-   ![](assets/offer_space_create_007.png)
+   ![HTML 렌더링 기능 오버로드 옵션 및 샘플 함수가 있는 HTML 렌더링 탭](assets/offer_space_create_007.png)
 
 ## 오퍼 제안 상태 {#offer-proposition-statuses}
 
@@ -116,7 +116,7 @@ HTML 렌더링은 렌더링 기능을 통해 만들어집니다. 렌더링 함�
 1. 원하는 스페이스의 **[!UICONTROL Storage]** 탭으로 이동합니다.
 1. 제안이 생성될 때 적용할 상태를 선택합니다.
 
-   ![](assets/offer_update_status_001.png)
+   ![제안 상태 목록이 열려 있고 표시된 상태가 선택된 저장소 탭](assets/offer_update_status_001.png)
 
 ### 제안이 수락될 때의 오퍼 상태 {#configuring-the-status-when-the-proposition-is-accepted}
 
@@ -127,20 +127,20 @@ HTML 렌더링은 렌더링 기능을 통해 만들어집니다. 렌더링 함�
 1. 원하는 스페이스의 **[!UICONTROL Storage]** 탭으로 이동합니다.
 1. 제안이 수락될 때 적용할 상태를 선택합니다.
 
-   ![](assets/offer_update_status_002.png)
+   ![수락 상태 목록이 열려 있고 수락됨 상태가 선택된 저장소 탭](assets/offer_update_status_002.png)
 
 
 **인바운드 상호 작용**
 
 **[!UICONTROL Storage]** 탭에서는 **제안** 및 **수락** 오퍼 제안에 대한 상태만 정의할 수 있습니다. 인바운드 상호 작용의 경우 인터페이스를 통해서가 아니라 오퍼 엔진을 호출하기 위한 URL에 오퍼 제안 상태를 직접 지정해야 합니다. 이렇게 하면 오퍼 제안이 거부되는 등의 다른 경우에 적용할 상태를 지정할 수 있습니다.
 
-```
+```xml
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
 ```
 
 예를 들어 **Neobank** 사이트에 표시된 **홈 보험** 오퍼와 일치하는 제안(식별자 **40004**)에는 다음 URL이 포함되어 있습니다.
 
-```
+```xml
 <BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">
 ```
 
@@ -150,13 +150,13 @@ HTML 렌더링은 렌더링 기능을 통해 만들어집니다. 렌더링 함�
 >
 >URL에 다른 상태를 지정하려면(예: 오퍼 제안이 거부된 경우) 원하는 상태에 해당하는 값을 사용하십시오. 예: **[!UICONTROL Rejected]** = &quot;5&quot;, **[!UICONTROL Presented]** = &quot;1&quot; 등.
 >
->상태 및 해당 값은 **[!UICONTROL Offer propositions (nms)]** 데이터 스키마에서 검색할 수 있습니다. 자세한 정보는 이 [페이지](../dev/create-schema.md)를 참조하십시오.
+>상태 및 해당 값은 **[!UICONTROL Offer propositions (nms)]** 데이터 스키마에서 검색할 수 있습니다. 자세한 내용은 [Campaign에서 새 스키마 만들기](../dev/create-schema.md)를 참조하세요.
 
 **아웃바운드 상호 작용**
 
 게재에 링크가 포함된 경우 오퍼 제안에 **[!UICONTROL Interested]** 상태를 자동으로 적용할 수 있습니다. 링크에 **_urlType=&quot;11&quot;** 값을 추가하기만 하면 됩니다.
 
-```
+```xml
 <a _urlType="11" href="<DEST_URL>">Link inserted into the delivery</a>
 ```
 
@@ -164,13 +164,13 @@ HTML 렌더링은 렌더링 기능을 통해 만들어집니다. 렌더링 함�
 
 **[!UICONTROL Preview]** 탭에서 선택한 방법을 통해 수신자에게 적합한 오퍼를 볼 수 있습니다. 아래 예에서 수신자는 메일을 통해 3개의 오퍼 제안을 받을 수 있습니다.
 
-![](assets/offer_space_overview_002.png)
+![가중치로 순위가 매겨진 3개의 적격 오퍼와 렌더링된 오퍼 콘텐츠가 있는 오퍼 공간 미리 보기 탭](assets/offer_space_overview_002.png)
 
 수신자가 오퍼에 적합하지 않은 경우 미리보기에 표시됩니다.
 
-![](assets/offer_space_overview_001.png)
+![오퍼 공간 미리 보기 탭에서 오퍼 없음 메시지를 표시합니다.](assets/offer_space_overview_001.png)
 
 
 컨텍스트가 공백으로 제한되면 미리보기에서 해당 컨텍스트를 무시할 수 있습니다. 이는 인바운드 채널을 사용하여 스페이스에서 참조된 필드를 추가하기 위해 상호 작용 스키마를 확장한 경우입니다.
 
-자세한 정보는 [이 섹션](extension-example.md)에서 이 샘플을 참조하세요.
+자세한 내용은 [확장 예제](extension-example.md)에서 이 샘플을 참조하세요.

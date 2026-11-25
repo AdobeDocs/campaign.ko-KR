@@ -22,9 +22,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '448'
 ht-degree: 0%
 ---
 # 익명의 상호 작용 {#anonymous-interactions}
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 **[!UICONTROL Visitor folder]** 필드가 나타납니다. **[!UICONTROL Visitors]** 폴더에 연결하려면 자동으로 완료됩니다. 이 필드에서는 방문자 프로필을 저장할 위치를 선택할 수 있습니다.
 
-![](assets/anonymous_environment_option.png)
+![선택한 수신 익명 상호 작용 및 방문자 폴더 필드를 사용하는 환경을 사용하는 오퍼 환경](assets/anonymous_environment_option.png)
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 이 분석을 실행하려면 오퍼 공간에 대해 **[!UICONTROL Implicitly identify the individual based on their browser history]** 옵션을 선택하십시오.
 
-![](assets/identification_anonymous_visitors.png)
+![암시적으로 브라우저 기록 옵션을 선택한 개인을 식별하는 기능을 사용하여 오퍼 공간을 제공합니다](assets/identification_anonymous_visitors.png)
 
 ## 미확인된 익명 방문자 처리 중 {#processing-unidentified-anonymous-visitors}
 
@@ -69,4 +69,4 @@ ht-degree: 0%
 
 이렇게 하려면 **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]**&#x200B;을(를) 확인한 다음 오퍼 공간을 지정할 때 **[!UICONTROL Linked anonymous space]**&#x200B;에서 이러한 미확인 방문자 전용 환경을 지정하십시오.
 
-![](assets/anonymous_to_anonymous_environment.png)
+![익명 환경 폴백 옵션을 선택하고 연결된 익명 공간 필드를 사용하여 공간을 제공합니다](assets/anonymous_to_anonymous_environment.png)

@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1269'
 ht-degree: 0%
 ---
 # 상호 작용 모범 사례 {#interaction-best-practices}
@@ -77,13 +77,13 @@ Adobe Campaign에서 오퍼를 관리하려면 효율적으로 운영되기 위�
 
 아래 예제에서 게재에서 선택한 오퍼 공간은 **[!UICONTROL Email (Environment - Recipient)]**&#x200B;입니다.
 
-![](assets/Interaction-best-practices-offer-space-selected.png)
+![오퍼 공간 필드가 전자 메일(환경 - 수신자)로 설정된 게재의 오퍼 선택 섹션.](assets/Interaction-best-practices-offer-space-selected.png)
 
 게재에서 선택한 오퍼 공간에 HTML 렌더링 기능이 설정되어 있지 않으면 게재 메뉴에 표시되지 않고 선택할 수 없습니다. 이는 **데이터 보강** 활동에서 선택한 오퍼 공간과 관련이 없습니다.
 
 아래 예에서는 게재에서 선택한 오퍼 공간에 렌더링 기능이 있으므로 드롭다운 목록에서 HTML 렌더링 기능을 사용할 수 있습니다.
 
-![](assets/Interaction-best-practices-HTML-rendering.png)
+제안, 제안 및 HTML 렌더링 옵션이 강조 표시된 ![Personalization 필드 메뉴.](assets/Interaction-best-practices-HTML-rendering.png)
 
 이 함수는 `<%@ include proposition="targetData.proposition" view="rendering/html" %>`과(와) 같은 코드를 삽입합니다.
 
@@ -99,7 +99,7 @@ Adobe Campaign에서 오퍼를 관리하려면 효율적으로 운영되기 위�
 
 오퍼 공간에는 제안이 생성되거나 수락될 때 제안 테이블에 데이터를 저장할 수 있는 기능이 있습니다.
 
-![](assets/Interaction-best-practices-offer-space-storage.png)
+![제안 및 수락 상태 및 저장소 경로 식이 있는 오퍼 공간의 저장소 탭입니다.](assets/Interaction-best-practices-offer-space-storage.png)
 
 그러나 이는 인바운드 상호 작용에만 적용됩니다.
 
@@ -109,15 +109,15 @@ Adobe Campaign에서 오퍼를 관리하려면 효율적으로 운영되기 위�
 
 예를 들어 **데이터 보강** 워크플로우 활동에서 수동으로(상호 작용 없이) 오퍼를 선택할 때 표준 필드는 다음과 같이 정의됩니다.
 
-![](assets/Interaction-best-practices-manual-offer-std-fields.png)
+![수동으로 선택한 오퍼에 대한 표준 필드가 있는 데이터 보강 활동의 출력 열입니다.](assets/Interaction-best-practices-manual-offer-std-fields.png)
 
 `@rank` 필드와 같은 추가 필드를 추가할 수 있습니다.
 
-![](assets/Interaction-best-practices-manual-offer-add-fields.png)
+![제안에 대한 순위 필드가 추가된 데이터 보강 활동의 출력 열입니다.](assets/Interaction-best-practices-manual-offer-add-fields.png)
 
 제안 테이블에 `@rank`(이)라는 필드가 있으므로 워크플로 임시 테이블의 값이 복사됩니다.
 
-제안 테이블에 추가 필드를 저장하는 방법에 대한 자세한 내용은 [이 섹션](interaction-send-offers.md#storing-offer-rankings-and-weights)을 참조하세요.
+제안 테이블에 추가 필드를 저장하는 방법에 대한 자세한 내용은 [오퍼 순위 및 가중치 저장](interaction-send-offers.md#storing-offer-rankings-and-weights)을 참조하세요.
 
 상호 작용이 있는 아웃바운드 오퍼의 경우 여러 오퍼를 선택하고 이를 이메일에 표시할 순서를 기록하려는 경우 유용합니다.
 
@@ -127,7 +127,7 @@ Adobe Campaign에서 오퍼를 관리하려면 효율적으로 운영되기 위�
 
 상호 작용을 사용하고 오퍼를 수동으로 선택할 때 사용자는 두 접근 방식을 모두 결합할 수 있습니다. 예를 들어, 사용자는 수동으로 선택한 오퍼에 대해 `@rank` 필드를 1로 수동으로 설정하고 상호 작용에서 반환된 오퍼에 대해 `"1 + @rank"`과(와) 같은 표현식을 사용할 수 있습니다. 상호 작용에서 세 개의 오퍼를 선택한다고 가정할 경우 두 접근 방식으로 반환된 오퍼의 등급은 1~4입니다.
 
-![](assets/Interaction-best-practices-manual-offer-combined.png)
+![오퍼 상호 작용을 1 + 등급 식과 결합하여 등급을 수동으로 설정하는 출력 열입니다.](assets/Interaction-best-practices-manual-offer-combined.png)
 
 ### nms:offer 스키마 확장 {#extending-nms-offer-schema}
 
@@ -135,7 +135,7 @@ nms:offer 스키마를 확장할 때 이미 설정된 기본 구조를 따라야
 * `<element name="view">` 아래에 콘텐츠 저장소에 대한 새 필드를 정의하십시오.
 * 각 새 필드를 두 번 정의해야 합니다. 한 번은 일반 XML 필드로 사용하고 한 번은 이름에 &quot;_jst&quot;가 추가된 CDATA XML 필드로 사용합니다. 예제:
 
-  ```
+  ```xml
   <element label="Price" name="price" type="long" xml="true"/>
   <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
   ```

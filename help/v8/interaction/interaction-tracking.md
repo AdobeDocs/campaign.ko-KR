@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 4%
+source-wordcount: '232'
+ht-degree: 2%
 ---
 # 실시간 상호 작용 내역 및 보고
 
@@ -44,15 +44,15 @@ ht-degree: 4%
 
 * 오퍼 수준의 **[!UICONTROL Edit]** 탭에서 **[!UICONTROL Propositions]**&#x200B;을(를) 클릭합니다.
 
-  ![](assets/offer_followup_006.png)
+  ![이벤트 날짜, 공간 및 상태가 있는 오퍼에 대한 제안을 나열하는 오퍼의 제안 탭](assets/offer_followup_006.png)
 
 * 받는 사람의 프로필에서 **[!UICONTROL Propositions]** 탭을 클릭합니다.
 
-  ![](assets/offer_followup_002.png)
+  ![이벤트 날짜, 상태, 오퍼 공간 및 게재가 있는 오퍼를 나열하는 받는 사람 프로필의 제안 탭](assets/offer_followup_002.png)
 
 * 오퍼 공간 수준에서 **[!UICONTROL Propositions]** 탭을 클릭합니다.
 
-  ![](assets/offer_space_prop_001_b.png)
+  ![순위, 가중치 및 상태로 만들어진 제안을 나열하는 오퍼 공간 제안 탭](assets/offer_space_prop_001_b.png)
 
 ## 오퍼 분석 보고서{#offer-analysis-report}
 
@@ -62,14 +62,14 @@ ht-degree: 4%
 
 * 날짜별:
 
-  ![](assets/offer_report_perdate.png)
+  ![오퍼 분석 보고서, 날짜별 통계, 제안 수, 수락 및 거부된 비율 및 차트](assets/offer_report_perdate.png)
 
 * 스페이스별:
 
-  ![](assets/offer_report_perspaces.png)
+  ![오퍼 분석 보고서, 공간별 통계(채널 및 막대 차트별 허용 및 거부 비율 포함)](assets/offer_report_perspaces.png)
 
 * 게재별:
 
-  ![](assets/offer_report_perdeliveries.png)
+  ![오퍼 분석 보고서, 게재당 통계(제안 포함), 게재별 수락 및 거부 카운트](assets/offer_report_perdeliveries.png)
 
 데이터는 보고서의 상단 섹션에서 사용할 수 있는 다양한 기준을 기반으로 필터링할 수 있습니다. 원하는 기준을 선택하면 **[!UICONTROL Refresh]** 링크를 클릭하여 보고서에 적용합니다.

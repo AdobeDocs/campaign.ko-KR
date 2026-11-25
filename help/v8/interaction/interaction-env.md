@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '478'
 ht-degree: 1%
 ---
 # 환경 작업{#work-with-environments}
@@ -41,7 +41,7 @@ ht-degree: 1%
 * 편집 중이며 변경할 수 있는 오퍼가 포함된 **[!UICONTROL Design]** 오퍼 환경입니다. 이러한 오퍼는 승인 주기를 거치지 않았으므로 연락처에 전달되지 않습니다.
 * **[!UICONTROL Live]**&#x200B;개의 오퍼 환경에 승인된 오퍼가 연락처에 표시될 때 포함됩니다. 이 환경의 오퍼는 읽기 전용입니다.
 
-![](assets/offer_environments_overview_001.png)
+![디자인 및 라이브 오퍼 환경이 있으며 각각 오퍼 공간과 관리 폴더가 있는 탐색기 트리](assets/offer_environments_overview_001.png)
 
 각 **[!UICONTROL Design]** 환경은 **[!UICONTROL Live]** 환경에 연결되어 있습니다. 오퍼가 완료되면 해당 콘텐츠 및 자격 규칙이 승인 주기에 영향을 받습니다. 이 주기가 완료되면 관련 오퍼가 **[!UICONTROL Live]** 환경에 자동으로 배포됩니다. 지금부터는 배달이 가능할 겁니다.
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 >
 >수신자 테이블을 타겟팅하려면 타겟 매핑 도우미를 사용하여 환경을 만들어야 합니다. [자세히 알아보기](#creating-an-offer-environment).
 
-![](assets/offer_environments_overview_002.png)
+![디자인 유형 및 연결된 라이브 환경 필드가 강조 표시된 디자인 환경 일반 탭.](assets/offer_environments_overview_002.png)
 
 게재 관리자는 **[!UICONTROL Live]** 환경만 보고 오퍼를 활용하여 게재할 수 있습니다. 오퍼 관리자는 **[!UICONTROL Design]** 환경을 보고 사용할 수 있으며 **[!UICONTROL Live]** 환경을 볼 수 있습니다. [자세히 알아보기](interaction-operators.md)
 
@@ -63,11 +63,11 @@ ht-degree: 1%
 
 1. **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**(으)로 이동한 다음 사용할 대상 매핑을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]**&#x200B;을(를) 선택합니다.
 
-   ![](assets/offer_env_anonymous_001.png)
+   ![작업 메뉴가 있는 대상 매핑 목록 및 선택한 대상 차원의 옵션을 수정합니다.](assets/offer_env_anonymous_001.png)
 
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하고 **[!UICONTROL Generate a storage schema for propositions]** 옵션을 선택한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   ![](assets/offer_env_anonymous_002.png)
+   ![선택한 제안에 대한 저장소 스키마 생성과 함께 마법사의 확장 단계입니다.](assets/offer_env_anonymous_002.png)
 
    >[!NOTE]
    >
@@ -81,7 +81,7 @@ ht-degree: 1%
 
 예를 들어 수신자 환경 오퍼 공간(확인된 연락처)을 방문자 환경(미확인된 연락처)과 일치하는 오퍼 공간과 연결할 수 있습니다. 이러한 방식으로, 이 연락처가 식별되는지 여부에 따라 연락처가 다른 오퍼를 사용할 수 있게 됩니다. 자세한 내용은 [오퍼 공간 만들기](interaction-offer-spaces.md)를 참조하세요.
 
-![](assets/offer_env_anonymous_003.png)
+![방문자는 들어오는 익명 상호 작용 전용 옵션을 선택하여 라이브 환경을 디자인합니다.](assets/offer_env_anonymous_003.png)
 
 >[!NOTE]
 >
