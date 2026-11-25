@@ -119,7 +119,7 @@ ht-degree: 0%
 
   사용자에게 제공되는 편집기 유형을 선택할 수 있습니다. 이렇게 하려면 **[!UICONTROL Advanced]** 탭에서 **[!UICONTROL HTML editor]** 필드의 드롭다운 상자를 사용합니다.
 
-  ![HTML 편집기 드롭다운이 있는 고급 탭에 최소값, 기본, 중간 및 고급이 나열됩니다.1}](assets/webapp_enrich_text_type.png)
+  ![HTML 편집기 드롭다운이 있는 고급 탭에 최소값, 기본, 중간 및 고급이 나열됩니다.1&rbrace;](assets/webapp_enrich_text_type.png)
 
   표시되는 아이콘 수는 편집기 유형에 따라 다릅니다. **[!UICONTROL Advanced]** 편집기의 경우 렌더링은 다음과 같습니다.
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 
 그런 다음 **[!UICONTROL Load]** 링크를 클릭하여 값을 검색합니다.
 
-[로드]를 클릭한 후 국가 레이블 및 값의 미리 보기 목록이 있는 웹 응용 프로그램 대화 상자![1}](assets/s_ncs_admin_survey_load_button.png)
+[로드]를 클릭한 후 국가 레이블 및 값의 미리 보기 목록이 있는 웹 응용 프로그램 대화 상자![1&rbrace;](assets/s_ncs_admin_survey_load_button.png)
 
 >[!CAUTION]
 >

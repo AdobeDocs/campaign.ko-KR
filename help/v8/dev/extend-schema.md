@@ -93,7 +93,7 @@ Campaign 기본 제공 테이블 및 상호 작용을 더 잘 이해하려면 [C
 
 1. **[!UICONTROL Structure]** 탭에서 스키마 구조 업데이트를 확인하기 위해 연결을 끊고 Campaign에 다시 연결합니다.
 
-   필드 ](assets/extend-schema-structure.png)부터 새 멤버를 포함하여 필드를 나열하는 :recipient 스키마의 ![구조 탭
+   필드 ![&#128279;](assets/extend-schema-structure.png)부터 새 멤버를 포함하여 필드를 나열하는 :recipient 스키마의 구조 탭
 
 1. 데이터베이스 구조를 업데이트하여 변경 사항을 적용합니다. [자세히 알아보기](update-database-structure.md)
 

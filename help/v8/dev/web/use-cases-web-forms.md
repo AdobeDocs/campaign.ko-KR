@@ -127,7 +127,7 @@ ht-degree: 0%
    ctx.recipient.@blackList=1
    ```
 
-   스크립트 ctx.recipient.@blackList=1.](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)이 포함된 ![스크립트 활동
+   스크립트 ctx.recipient.@blackList=1.![&#128279;](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)이 포함된 스크립트 활동
 
    두 번째 **[!UICONTROL Script]** 활동은 사용자에게 전송할 게재를 승인하고 뉴스레터를 구독합니다. 스크립트의 마지막 두 줄을 사용하면 임시 폴더에서 다른 폴더로 수신자를 전송하고 구독을 확인하는 즉시 기존 프로필과 조정할 수 있습니다.
 
