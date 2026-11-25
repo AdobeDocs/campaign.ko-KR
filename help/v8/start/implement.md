@@ -195,7 +195,7 @@ Campaign의 다양한 영역과 기능을 사용자 지정할 수 있습니다. 
 
 SSO(Single Sign-On)만 사용하여 Campaign에 접속할 수도 있습니다. 자세한 내용은 [Campaign v8에 연결](connect.md)을 참조하세요.
 
-이 페이지](../connect/integration.md)에서 Adobe Campaign [과(와) 통합할 수 있는 Adobe 솔루션의 전체 목록을 살펴보세요.
+이 페이지[&#128279;](../connect/integration.md)에서 Adobe Campaign 과(와) 통합할 수 있는 Adobe 솔루션의 전체 목록을 살펴보세요.
 
 ### 커넥터{#implementation-connectors}
 
