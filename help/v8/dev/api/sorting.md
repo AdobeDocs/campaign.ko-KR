@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 2%
+ht-degree: 1%
 ---
 # 추가 작업 {#additional-operations}
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 정렬은 기본적으로 오름차순으로 사용할 수 있습니다. 내림차순으로 정렬하려면 **%20desc**&#x200B;을(를) **_order** 매개 변수 값에 추가하십시오.
 
-필드를 정렬할 수 있는지 확인하려면 리소스 메타데이터에 &quot;정렬 가능한&quot; 매개 변수를 확인하십시오. 이 작업에 대한 자세한 정보는 [이 섹션](metadata-mechanism.md)을 참조하십시오.
+필드를 정렬할 수 있는지 확인하려면 리소스 메타데이터에 &quot;정렬 가능한&quot; 매개 변수를 확인하십시오. 자세한 내용은 [메타데이터 메커니즘](metadata-mechanism.md)을 참조하세요.
 
 <br/>
 
@@ -49,7 +49,7 @@ ht-degree: 2%
 
 * 알파벳순으로 정렬된 데이터베이스에서 이메일을 검색하기 위한 샘플 GET 요청입니다.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -59,7 +59,7 @@ ht-degree: 2%
 
   요청에 대한 응답입니다.
 
-  ```
+  ```json
   {
   "content": [
       "adam@email.com",
@@ -74,7 +74,7 @@ ht-degree: 2%
 
 * 데이터베이스에서 알파벳 내림차순으로 이메일을 검색하기 위한 샘플 GET 요청입니다.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -84,7 +84,7 @@ ht-degree: 2%
 
   요청에 대한 응답입니다.
 
-  ```
+  ```json
   {
   "content": [
       "tombinder@example.com",
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 ### 필터 메타데이터 검색 중
 
-필터는 각 리소스에 사용할 수 있습니다. 리소스와 연결된 필터를 식별하려면 리소스 메타데이터에 대해 GET 요청을 수행해야 합니다. 이 요청은 주어진 리소스에 대해 모든 필터가 정의된 URL을 반환합니다. 메타데이터에 대한 자세한 정보는 [이 섹션](metadata-mechanism.md)을 참조하세요.
+필터는 각 리소스에 사용할 수 있습니다. 리소스와 연결된 필터를 식별하려면 리소스 메타데이터에 대해 GET 요청을 수행해야 합니다. 이 요청은 주어진 리소스에 대해 모든 필터가 정의된 URL을 반환합니다. 메타데이터에 대한 자세한 내용은 [메타데이터 메커니즘](metadata-mechanism.md)을 참조하세요.
 
 필터의 메타데이터를 식별하고 사용 방법을 결정하려면 이전에 반환된 URL에 대해 GET 요청을 수행해야 합니다.
 
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 아래의 샘플 페이로드는 &quot;profile&quot; 리소스에 대한 &quot;byText&quot; 필터 메타데이터를 검색하는 방법을 보여 줍니다. 먼저 &quot;프로필&quot; 리소스 메타데이터에 대한 GET 요청을 수행합니다.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 필터가 설명된 URL을 반환합니다.
 
-```
+```json
 {
 "filters": {
         "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/<PKEY>/filters/"
@@ -130,7 +130,7 @@ ht-degree: 2%
 
 URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필터 목록을 반환하고 각 필터에 연결된 메타데이터를 반환합니다.
 
-```
+```json
 {
 "birthday": {
         "PKey": "@FL-CbDFXbnHbXcVpeCGWL46VXJLn1LqxLMPagt2vz8sCxQ52lvB15KiUaxXkxJYQw-tZXYrgUWG6K8QcB4gxVY9RKoba5bRFY3294YFshDmorRr8",
@@ -156,7 +156,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
 필터 메타데이터 구조 샘플:
 
-```
+```json
 "byText": {
         "PKey": "...",
         "category": "99_none",
@@ -184,7 +184,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
 * &quot;email&quot; 유형의 &quot;service&quot; 리소스를 검색하기 위한 샘플 GET 요청입니다.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -194,7 +194,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
   요청에 대한 응답입니다.
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -217,7 +217,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 * 에 &quot;Doe&quot;가 포함된 &quot;profile&quot; 리소스를 검색하기 위한 샘플 GET 요청
 이메일 또는 성 필드(byText 필터는 이메일 및 성 필드를 모두 검색합니다).
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -227,7 +227,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
   요청에 대한 응답입니다.
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -245,7 +245,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
 * 유형이 &quot;email&quot;이고 레이블이 &quot;sport&quot;인 서비스 리소스를 검색하기 위한 샘플 GET 요청입니다.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -255,7 +255,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
   요청에 대한 응답입니다.
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -283,8 +283,8 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
 자세한 내용은 Campaign Standard 설명서를 참조하십시오.
 
-* [필터 정의를 구성하는 중](https://helpx.adobe.com/kr/campaign/standard/developing/using/configuring-filter-definition.html).
-* [사용 사례: 복합 식별 키를 사용하여 리소스를 호출합니다](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=ko).
+* [필터 정의를 구성하는 중](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [사용 사례: 복합 식별 키를 사용하여 리소스를 호출합니다](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
@@ -292,7 +292,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
 트랜잭션 금액이 100$ 이상인 &quot;프로필&quot; 리소스를 검색하기 위한 샘플 GET 요청. Adobe Campaign Standard 인터페이스에서 &quot;byAmount&quot; 필터를 처음 정의하고 &quot;Transaction&quot; 사용자 지정 테이블에 연결했습니다.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -356,7 +356,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 
 **messageType** 값이 &quot;sms&quot;인 모든 서비스를 계산하려면 **byChannel** 필터로 GET 요청을 수행하십시오.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -366,7 +366,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 
 필터에 해당하는 서비스를 반환합니다.
 
-```
+```json
 {
     "content": [
         {
@@ -387,7 +387,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 
 **count** 노드의 URL에 대해 GET 요청을 수행하여 결과 수를 검색합니다.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -397,7 +397,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 
 레코드 수를 반환합니다.
 
-```
+```json
 {
     "count": 26
 }
@@ -421,7 +421,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 
 프로필 리소스의 1개 레코드를 표시하는 샘플 GET 요청.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -431,7 +431,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 
 페이지 매김을 수행할 **next** 노드를 사용한 요청에 대한 응답입니다.
 
-```
+```json
 {
     "content": [
         {
@@ -452,7 +452,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 
 기본적으로 **next** 노드는 많은 양의 데이터가 있는 테이블과 상호 작용할 때 사용할 수 없습니다. 페이지 매김을 수행하려면 호출 URL에 **_forcePagination=true** 매개 변수를 추가해야 합니다.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \

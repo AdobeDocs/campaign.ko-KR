@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 92%
+source-wordcount: '1252'
+ht-degree: 81%
 ---
 # Campaign 구현 지침{#gs-implementation}
 
@@ -77,7 +77,7 @@ Adobe Campaign에는 적용 가능한 데이터 개인정보 보호법 및 수�
 
   [Campaign Classic v7 개인 정보 보호 문서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ko#consent){target="_blank"}에서 자세히 알아보기
 
-* **개인 정보 보호 및 데이터 보호 규정**: 개인 정보 보호 요구 사항 및 이러한 규정이 조직과 Adobe Campaign에 미치는 영향에 대한 정보를 알아보려면 [이 섹션](privacy.md)을 참조하세요.
+* **개인 정보 보호 및 데이터 보호 규정**: 개인 정보 보호 요구 사항 및 이러한 규정이 조직과 Adobe Campaign에 미치는 영향에 대한 자세한 내용은 [Campaign의 개인 정보 보호 요청 관리](privacy.md)를 참조하십시오.
 
 ### 보안
 
@@ -89,7 +89,7 @@ Adobe Campaign에는 적용 가능한 데이터 개인정보 보호법 및 수�
 
 수동으로 Campaign에 사용자를 추가하고 역할 계층 구조에 맞게 그룹과 연결할 수 있습니다. 그러면 사용자는 로그인하여 자신에게 적합한 데이터와 권한에 액세스할 수 있습니다.
 
-Adobe Campaign에서 사용자를 추가하는 방법은 [이 섹션](../start/gs-permissions.md)을 참조하세십시오.
+[Campaign v8에서 사용 권한 시작](../start/gs-permissions.md)에서 Adobe Campaign에 사용자를 추가하는 방법을 알아봅니다.
 
 ### Campaign 클라이언트 콘솔 설치{#implementation-install-console}
 
@@ -145,17 +145,17 @@ Campaign의 다양한 영역과 기능을 사용자 지정할 수 있습니다. 
 
    [Campaign 기본 제공 데이터 모델](../dev/datamodel.md)에 대한 자세한 내용은 이 섹션을 참조하십시오.
 
-   기존 스키마를 확장하거나 새 스키마를 처음부터 만들 수 있습니다. [이 페이지](../dev/customize.md)에서 자세히 알아보십시오.
+   기존 스키마를 확장하거나 새 스키마를 처음부터 만들 수 있습니다. [인스턴스 사용자 지정](../dev/customize.md)에서 자세히 알아보세요.
 
 1. **대시보드 및 목록**
 
    목록을 쉽게 구성하고 필드를 추가 및 제거하고 열을 사용자 정의할 수 있습니다.
 
-   Campaign의 필터 및 목록을 관리하는 방법은 [이 페이지](../dev/customize.md#gs-lists-and-filters)를 참조하십시오.
+   [목록 사용자 지정 및 필터 만들기](../dev/customize.md#gs-lists-and-filters)에서 Campaign의 필터 및 목록을 관리하는 방법을 알아봅니다.
 
    필요에 따라 새 대시보드를 만들어 Campaign 데이터를 표시할 수도 있습니다.
 
-   [이 페이지](../dev/customize.md#gs-custom-dashboards)에서 자세히 알아보십시오.
+   [대시보드 사용자 지정](../dev/customize.md#gs-custom-dashboards)에서 자세히 알아보세요.
 
 1. **보고서**
 
@@ -163,7 +163,7 @@ Campaign의 다양한 영역과 기능을 사용자 지정할 수 있습니다. 
 
    기본 제공 보고서 외에도 Adobe Campaign을 사용하면 다양한 컨텍스트에서 보고서를 생성하여 다양한 요구를 충족할 수 있습니다. 사용 및 구현 모드의 원칙은 이 문서에 자세히 설명되어 있습니다.
 
-   Campaign의 보고 기능에 대한 자세한 내용은 [이 페이지](../reporting/gs-reporting.md)를 참조하십시오.
+   [Adobe Campaign 보고 도구 시작](../reporting/gs-reporting.md)에서 Campaign의 보고 기능에 대해 자세히 알아보세요.
 
 
 ## 캠페인 자동화 설정{#implementation-automation}
@@ -172,7 +172,7 @@ Campaign의 다양한 영역과 기능을 사용자 지정할 수 있습니다. 
 
 * **워크플로**&#x200B;를 사용하여 프로세스 및 데이터를 관리합니다. 자세한 내용은 [이 설명서](../../automation/workflow/about-workflows.md)를 참조하세요
 
-* **구독** 프로세스 및 **랜딩 페이지**&#x200B;를 설정합니다.  [이 페이지](../start/subscriptions.md)에서 자세히 알아보기
+* **구독** 프로세스 및 **랜딩 페이지**&#x200B;를 설정합니다.  [Campaign에서 구독 및 구독 취소 관리](../start/subscriptions.md)에서 자세히 알아보기
 
 * **유형화 규칙**&#x200B;을 구성하여 피로도를 정의하고 및 관리를 제어합니다.  자세한 내용은 [이 설명서](../../automation/campaign-opt/campaign-typologies.md)를 참조하세요
 
@@ -193,24 +193,24 @@ Campaign의 다양한 영역과 기능을 사용자 지정할 수 있습니다. 
 * Campaign - Analytics 데이터 커넥터
 
 
-SSO(Single Sign-On)만 사용하여 Campaign에 접속할 수도 있습니다. [이 페이지](connect.md)에서 자세히 알아보십시오.
+SSO(Single Sign-On)만 사용하여 Campaign에 접속할 수도 있습니다. 자세한 내용은 [Campaign v8에 연결](connect.md)을 참조하세요.
 
-이 페이지[&#128279;](../connect/integration.md)에서 Adobe Campaign 과(와) 통합할 수 있는 Adobe 솔루션의 전체 목록을 살펴보세요.
+이 페이지](../connect/integration.md)에서 Adobe Campaign [과(와) 통합할 수 있는 Adobe 솔루션의 전체 목록을 살펴보세요.
 
 ### 커넥터{#implementation-connectors}
 
 Adobe Campaign을 타사 시스템과 연계하여 다양한 기능을 통합하고 프로세스를 자동화할 수 있습니다.
 
-사용 가능한 커넥터에 대한 자세한 내용은 [이 섹션](../connect/integration.md)을 참조하십시오.
+[솔루션과 Campaign 연결](../connect/integration.md)에서 사용 가능한 커넥터에 대해 자세히 알아보세요.
 
 **CRM을 Campaign에 연결하기**
 
 Adobe Campaign 플랫폼을 타사 CRM 시스템에 연결하여 연락처, 계정, 구매 등의 데이터를 동기화할 수 있습니다.
 
-[이 섹션](../connect/integration.md#gs-crm-connectors)에서 CRM 시스템을 Campaign에 연결하는 방법을 알아보십시오.
+[CRM 커넥터와 통합](../connect/integration.md#gs-crm-connectors)에서 CRM 시스템을 Campaign에 연결하는 방법을 알아봅니다.
 
 **외부 데이터베이스에 연결하기**
 
 FDA(Federated Data Access) 모듈을 통해 Campaign Cloud 데이터베이스를 외부 시스템에 연결할 수 있습니다.
 
-액세스 매개 변수를 정의하도록 Campaign FDA 모듈을 구성하는 방법은 [이 섹션](../connect/integration.md#gs-fda)에서 알아보십시오.
+[페더레이션 데이터 액세스와 서드파티 연결](../connect/integration.md#gs-fda)에서 액세스 매개 변수를 정의하도록 Campaign FDA 모듈을 구성하는 방법을 알아봅니다

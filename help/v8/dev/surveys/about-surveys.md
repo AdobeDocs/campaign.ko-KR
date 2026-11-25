@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '541'
 ht-degree: 3%
 ---
 # 설문 조사 시작{#about-surveys}
@@ -49,7 +49,7 @@ Adobe Campaign에는 웹 애플리케이션을 정의하고 게시하는 그래�
 
 이 장에서는 **설문 조사**, 필드 및 페이지 관리, 저장소 모드 및 레코드를 만들고 관리하는 방법에 대해 자세히 설명합니다.
 
-[이 페이지](getting-started-with-surveys.md)에서 첫 번째 설문 조사를 만드는 방법을 알아보세요.
+[설문 조사를 만드는 주요 단계](getting-started-with-surveys.md)에서 첫 번째 설문 조사를 만드는 방법을 알아보세요.
 
 >[!NOTE]
 >

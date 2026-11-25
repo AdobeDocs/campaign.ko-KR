@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '355'
 ht-degree: 0%
 ---
 # API 문제 해결 {#troubleshooting}
@@ -32,7 +32,7 @@ ht-degree: 0%
 자세한 내용을 보려면 토큰으로 IMS API를 호출하여 IMS 프로필의 모양을 확인할 수 있습니다. 요청을 라우팅하려면 organization_id가 Adobe.io용 URL에 입력한 것과 동일한 prodCtx가 있어야 합니다.
 누락된 경우 IMS 프로비저닝을 수정해야 합니다.
 
-```
+```bash
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -42,13 +42,13 @@ ht-degree: 0%
 
 다음 오류를 반환합니다.
 
-```
+```json
 {"error_code":"403023","message":"Profile is not valid"}
 ```
 
 이 요청을 사용하여 IMS 프로필을 확인합니다.
 
-```
+```bash
 -X GET https://ims-na1.adobelogin.com/ims/profile/v1 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 응답에서 ORGANIZATION_ID 값은 첫 번째 GET 요청에서 동일해야 합니다.
 
-```
+```json
 {
   "countryCode": "FR",
   "mrktPermEmail": null,
@@ -91,7 +91,7 @@ Adobe.io에서 잘못된 URI를 선언합니다. 요청하는 URI가 잘못된 �
 
 * **만든 후 내 프로필이 표시되지 않음**
 
-인스턴스 구성에 따라 만들어진 프로필을 **orgUnit**&#x200B;에 연결해야 합니다. 생성 시 이 필드를 추가하는 방법을 이해하려면 [이 섹션](creating-profiles-api.md)을 참조하세요.
+인스턴스 구성에 따라 만들어진 프로필을 **orgUnit**&#x200B;에 연결해야 합니다. 만들기에서 이 필드를 추가하는 방법을 이해하려면 [API를 사용하여 프로필 만들기](creating-profiles-api.md)를 참조하십시오.
 
 <!--
  * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)

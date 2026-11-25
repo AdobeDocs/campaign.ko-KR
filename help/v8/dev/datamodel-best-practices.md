@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '2776'
-ht-degree: 5%
+source-wordcount: '2783'
+ht-degree: 4%
 ---
 # 데이터 모델 모범 사례 {#data-model-best-practices}
 
@@ -60,11 +60,11 @@ ht-degree: 5%
 
 Adobe Campaign 시스템은 매우 유연하며 초기 구현 이상으로 확장할 수 있습니다. 그러나 가능성은 무한하지만 현명한 결정을 내리고 데이터 모델 디자인을 시작하기 위한 강력한 기반을 구축하는 것이 중요합니다.
 
-Campaign 기본 제공 표와 표 간의 관계를 더 잘 이해하려면 [이 섹션](datamodel.md)을 참조하세요.
+Campaign 기본 제공 테이블과 서로 관련되는 방식에 대한 자세한 내용은 [Campaign 데이터 모델 시작](datamodel.md)을 참조하세요.
 
-Campaign 스키마를 시작하려면 [이 섹션](schemas.md)을(를) 읽으십시오.
+Campaign 스키마를 시작하려면 [Campaign 스키마 작업](schemas.md)을 읽어 보세요.
 
-[이 페이지](extend-schema.md)에서 Adobe Campaign 데이터베이스의 개념 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법을 알아봅니다.
+[Campaign 스키마 확장](extend-schema.md)에서 Adobe Campaign 데이터베이스의 개념 데이터 모델을 확장하기 위해 확장 스키마를 구성하는 방법을 알아봅니다.
 
 ## 데이터 모델 아키텍처 {#data-model-architecture}
 
@@ -136,7 +136,7 @@ Adobe Campaign 리소스에는 세 개의 식별자가 있으며, 식별자를 �
 
 [엔터프라이즈(FFDA) 배포](../architecture/enterprise-deployment.md)의 컨텍스트에서 Adobe Campaign 기본 키는 모든 기본 제공 테이블에 대해 자동 생성된 UUID입니다. UUID는 사용자 지정 테이블에도 사용할 수 있습니다. [자세히 알아보기](../architecture/keys.md)
 
-ID 수가 무한대인 경우에도 최적의 성능을 보장하기 위해 데이터베이스의 크기를 고려해야 합니다. 문제를 방지하려면 인스턴스 제거 설정을 조정해야 합니다. 자세한 내용은 [이 섹션](#data-retention)을 참조하십시오.
+ID 수가 무한대인 경우에도 최적의 성능을 보장하기 위해 데이터베이스의 크기를 고려해야 합니다. 문제를 방지하려면 인스턴스 제거 설정을 조정해야 합니다. 자세한 내용은 [데이터 보존](#data-retention)을 참조하세요.
 
 
 ## 사용자 정의 내부 키 {#custom-internal-keys}

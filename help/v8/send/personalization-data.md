@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 0%
 ---
 # Personalization 데이터 소스{#personalization-data}
@@ -53,7 +53,7 @@ Personalization 데이터는 Campaign 데이터베이스 데이터 소스, 외�
 
 [페더레이션 데이터 액세스](../connect/fda.md)를 통해 외부 테이블에서 Personalization 데이터를 가져올 수 있습니다.  외부 데이터베이스의 데이터를 사용하여 게재에서 개인화를 수행하려면 워크플로우에서 사용할 데이터를 수집하여 임시 테이블에서 사용할 수 있도록 하십시오.
 
-이렇게 하려면 타깃팅 워크플로우에서 **쿼리** 활동을 추가하고 **데이터 추가...** 링크를 사용하여 외부 데이터베이스를 선택하십시오. 자세한 프로세스는 [이 섹션](../../automation/workflow/query.md#adding-data)에서 확인할 수 있습니다.
+이렇게 하려면 타깃팅 워크플로우에서 **쿼리** 활동을 추가하고 **데이터 추가...** 링크를 사용하여 외부 데이터베이스를 선택하십시오. 자세한 프로세스는 [데이터 추가](../../automation/workflow/query.md#adding-data)에서 확인할 수 있습니다.
 
 그런 다음 임시 테이블의 데이터를 사용하여 게재를 개인화합니다. 쿼리 활동이 구성되면 **Target 확장** 항목에서 개인화 옵션의 외부 데이터에 액세스합니다.
 
@@ -87,4 +87,4 @@ FDA에서 액세스한 외부 데이터를 사용하는 경우 아래 설명된 
 
 워크플로우 컨텍스트에서 게재를 만들 때 임시 워크플로우 테이블의 데이터를 사용할 수 있습니다. 워크플로우 임시 작업 테이블에 저장된 데이터는 개인화 작업에 사용할 수 있습니다. 개인화 필드에서 데이터를 사용할 수 있습니다.
 
-이 데이터는 **[!UICONTROL Target extension]** 메뉴에 그룹화되어 있습니다. 자세한 정보는 [이 섹션](../../automation/workflow/use-workflow-data.md#target-data)을 참조하세요.
+이 데이터는 **[!UICONTROL Target extension]** 메뉴에 그룹화되어 있습니다. 자세한 내용은 [대상 데이터 활용](../../automation/workflow/use-workflow-data.md#target-data)을 참조하세요.

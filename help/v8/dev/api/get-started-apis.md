@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 59%
+source-wordcount: '246'
+ht-degree: 53%
 ---
 # Campaign REST API 시작 {#get-started-apis}
 
@@ -54,7 +54,7 @@ Adobe Campaign REST API를 사용하면 다음 기능에 액세스할 수 있습
 </tr></table>
 
 Campaign REST API를 사용하려면 Adobe I/O 계정이 필요합니다. 이는 API 기능을 앞으로 나아가고 검색하기 위한 필수 첫 단계입니다.
-이 작업에 대한 자세한 정보는 [이 섹션](setting-up-api-access.md)을 참조하십시오.
+자세한 내용은 [API 액세스 설정](setting-up-api-access.md)을 참조하세요.
 
 Adobe가 제공하는 API는 REST 인터페이스 및 JSON 페이로드와 함께 **표준 개념**&#x200B;을 사용합니다.
 

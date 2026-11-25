@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 70%
+source-wordcount: '744'
+ht-degree: 65%
 ---
 # [!DNL Campaign Classic] v7에서 [!DNL Campaign] v8로 전환{#gs-matrix}
 
@@ -62,7 +62,7 @@ Adobe Campaign 관리 클라우드 서비스는 크로스 채널 고객 경험�
 * **서비스 경험** — 사전 예방적 가용성, 용량, 성능 모니터링 및 응답으로 중단을 방지하고, 장애 해결 속도를 높이고, 정기적으로 서비스를 검토하여 지속적으로 개선됩니다.
 * **심층적인 Campaign 전문 지식** — 전문 고객 엔지니어링 팀의 높은 친화성 서비스로 기능, 기술 또는 게재 능력 요구 사항을 충족하고 배포 위험을 줄이고 변경 관리를 개선합니다.
 
-이전 [!DNL Campaign Classic] 사용자는 대부분의 [!DNL Campaign Classic] v7 기능을 [!DNL Campaign] v8에서도 사용할 수 있습니다(일부 예외 사항: [이 섹션](#gs-removed) 참조).
+이전 [!DNL Campaign Classic] 사용자는 [!DNL Campaign Classic] v7 기능 중 대부분을 [!DNL Campaign] v8에서 사용할 수 있습니다. 단, 일부 기능은 [지원되지 않는 기능](#gs-removed)에 나열되어 있습니다.
 
 >새로운 클라우드 아키텍처를 통해 Campaign은 프로세스를 간소화하고, 비용을 절감하고, 위험을 관리하고, 데이터 보안을 개선할 수 있습니다. Campaign v8 환경에는 사전 구성된 전용 VPC(Virtual Private Cloud)가 포함되어 있습니다.
 
@@ -77,7 +77,7 @@ Campaign v8은 **하이브리드 아키텍처**&#x200B;를 사용합니다. Camp
 * 게재 상태가 즉시 업데이트되지 않음 - 마케팅 인스턴스에서 기술 프로세스가 실행되어 게재 상태가 적시에 업데이트됩니다.
 
 
-[이 페이지](../send/transactional-template.md#transition-from-v7)에서 v7에서 전환할 때 트랜잭션 메시지 증명을 보내는 방법에 대해 자세히 알아보세요.
+[Campaign Classic v7에서 전환](../send/transactional-template.md#transition-from-v7)할 때 v7에서 전환할 때 트랜잭션 메시지 증명을 보내는 방법에 대해 자세히 알아보세요.
 
 
 ## [!DNL Campaign] 및 [!DNL Snowflake] {#ac-gs-snowflake}
@@ -86,20 +86,20 @@ Campaign v8은 **하이브리드 아키텍처**&#x200B;를 사용합니다. Camp
 
 Campaign v8 Enterprise는 **FFDA(Full Federated Data Access)** 개념을 도입했습니다. 이제 모든 데이터는 클라우드 데이터베이스에서 원격으로 사용할 수 있습니다. Campaign v8 엔터프라이즈(FFDA) 배포는 이 새로운 아키텍처를 통해 데이터 관리를 간소화하므로 클라우드 데이터베이스에 인덱스를 작성할 필요가 없습니다. 테이블을 만들고 데이터를 복사하기만 하면 바로 시작할 수 있습니다. 클라우드 데이터베이스 기술은 성능 수준을 보장하기 위해 특정한 유지 관리가 필요 없습니다.
 
-[이 페이지](../../v8/architecture/architecture.md)에서 [!DNL Campaign] v8 아키텍처에 대해 자세히 알아보세요.
+[Campaign 아키텍처 시작](../../v8/architecture/architecture.md)에서 [!DNL Campaign] v8 아키텍처에 대해 자세히 알아봅니다.
 
 
 ## Adobe ID를 사용하여 Campaign에 연결{#adobe-id}
 
 Campaign 사용자는 Adobe ID를 통해서만 연결합니다. 모든 [!DNL Adobe CX Enterprise] 솔루션에 대해 단일 계정과 연결된 모든 Adobe 계획 및 제품을 유지하는 데 동일한 Adobe ID이 사용됩니다.
 
-[이 페이지](connect.md)에서 [!DNL Campaign]에 연결하는 방법을 알아보세요.
+[Campaign v8에 연결](connect.md)에서 [!DNL Campaign]에 연결하는 방법을 알아봅니다.
 
 ## 큐브로 데이터 분석{#adobe-reporting}
 
 Marketing Analytics 모듈을 사용하여 데이터를 분석 및 측정하고, 통계를 계산하며, 보고서 작성 및 계산을 간소화 및 최적화합니다. 또한 보고서를 만들고 대상 모집단을 빌드합니다. 식별되면 Adobe Campaign에서 사용할 수 있는 목록(타겟팅, 세그멘테이션 등)에 저장됩니다.
 
-Adobe Campaign v8에서 큐브 보고서는 최적화되어 있으며 Campaign Classic v7보다 더 나은 확장 기능을 제공합니다. 해당 특정 배포 모델에서는 큐브에 대한 이전 제한 사항이 Campaign v8에 적용되지 않습니다. 큐브에 대한 자세한 내용은[이 섹션](../../v8/reporting/gs-cubes.md)을 참조하십시오.
+Adobe Campaign v8에서 큐브 보고서는 최적화되어 있으며 Campaign Classic v7보다 더 나은 확장 기능을 제공합니다. 해당 특정 배포 모델에서는 큐브에 대한 이전 제한 사항이 Campaign v8에 적용되지 않습니다. 큐브에 대한 자세한 내용은 [Adobe Campaign 분석 보고서 시작](../../v8/reporting/gs-cubes.md)을 참조하세요.
 
 ## 사용할 수 없는 기능{#gs-unavailable-features}
 

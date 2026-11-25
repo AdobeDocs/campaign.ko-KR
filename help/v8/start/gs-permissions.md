@@ -26,9 +26,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '517'
 ht-degree: 5%
 ---
 # 사용 권한 시작{#gs-permissions}
@@ -48,12 +48,12 @@ Adobe Campaign에서 사용자는 **운영자**&#x200B;이고 **운영자 그룹
 
 ## 권한을 부여하는 주요 단계{#key-steps-permissions}
 
-제품 관리자는 조직의 사용자에게 권한을 부여할 수 있습니다. 권한은 Adobe Admin Console 및 Campaign 클라이언트 콘솔을 통해 부여됩니다. 사용자가 Adobe ID으로 Adobe Campaign에 로그온합니다. [이 페이지](connect.md)에서 Adobe Campaign에 연결하는 방법을 알아보세요.
+제품 관리자는 조직의 사용자에게 권한을 부여할 수 있습니다. 권한은 Adobe Admin Console 및 Campaign 클라이언트 콘솔을 통해 부여됩니다. 사용자가 Adobe ID으로 Adobe Campaign에 로그온합니다. [Campaign v8에 연결](connect.md)에서 Adobe Campaign에 연결하는 방법을 알아봅니다.
 
 주요 단계:
 
 * **1단계**: 연산자 그룹을 정의하고 Campaign 클라이언트 콘솔에서 권한을 할당합니다. [자세히 알아보기](manage-permissions.md#create-product-profile).
-기본 제공 연산자 그룹을 사용하여 를 시작할 수도 있습니다. 이러한 기본 그룹과 해당 권한은 [이 섹션](manage-permissions.md#ootb-productprofiles)에 나열됩니다.
+기본 제공 연산자 그룹을 사용하여 를 시작할 수도 있습니다. 이러한 기본 그룹과 해당 권한은 [기본 제품 프로필 및 연산자 그룹](manage-permissions.md#ootb-productprofiles)에 나열됩니다.
 * **2단계**: Adobe Admin Console에서 해당 그룹과 일치하는 제품 프로필을 만듭니다. [자세히 알아보기](manage-permissions.md#create-product-profile).
 기본 제공 제품 프로필을 사용하여 시작할 수 있습니다. [자세히 알아보기](manage-permissions.md#ootb-productprofiles).
 * **3단계**: Adobe Admin Console에서 사용자를 만들고 제품 프로필에 할당합니다. [자세히 알아보기](manage-permissions.md#add-users).
@@ -65,7 +65,7 @@ Adobe Admin Console은 조직 전체에서 Adobe 권한을 관리하기 위한 �
 
 Admin Console을 사용하여 사용자를 추가하고, 제품 프로필(운영자 역할 그룹)을 만들고 할당할 수 있습니다.
 
-[이 페이지](manage-permissions.md#add-users)에서 사용자를 추가하는 방법을 알아보세요.
+[사용자 추가](manage-permissions.md#add-users)에서 사용자를 추가하는 방법을 알아보세요.
 
 ## 제품 프로필 기본 정보{#ootb-product-profiles}
 
@@ -73,10 +73,10 @@ Admin Console을 사용하여 사용자를 추가하고, 제품 프로필(운영
 
 Admin Console에서 Campaign에 대한 각 [!DNL CX Enterprise] **제품 프로필**&#x200B;은(는) Campaign 클라이언트 콘솔의 **연산자 그룹**&#x200B;에 연결됩니다.
 
-[이 페이지](manage-permissions.md#create-product-profile)에서 제품 프로필을 만들고 할당하는 방법을 알아보세요.
+[제품 프로필 만들기](manage-permissions.md#create-product-profile)에서 제품 프로필을 만들고 할당하는 방법을 알아보세요.
 
 ## 캠페인 명명된 권한{#named-rights}
 
 제품 프로필(즉, 운영자 그룹)의 멤버인 사용자는 &#39;명명된 권한&#39;이라고 하는 작업을 수행할 수 있는 권한이 있으며 데이터에 대한 읽기 및/또는 쓰기 액세스 권한이 있습니다. 연산자는 여러 연산자 그룹의 멤버일 수 있습니다. 권한 및 액세스 권한은 가산됩니다.
 
-[이 섹션](manage-permissions.md#use-named-rights)에서 명명된 권한에 대해 자세히 알아보세요.
+[명명된 권한](manage-permissions.md#use-named-rights)에서 명명된 권한에 대해 자세히 알아보세요.

@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Data quality
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 6%
+ht-degree: 5%
 ---
 # 게재 가능성 모니터링{#monitoring-deliverability}
 
@@ -44,7 +44,7 @@ Adobe Campaign에서는 아래 나열된 게재 기능 도구에 액세스할 �
 
 ### 게재 처리량 {#throughput-reports}
 
-**[!UICONTROL Delivery throughput]** 보고서는 지정된 기간 동안 전체 플랫폼의 처리량에 대한 개요를 제공합니다. 자세한 내용은 [이 섹션](../reporting/global-reports.md#delivery-throughput)을 참조하십시오.
+**[!UICONTROL Delivery throughput]** 보고서는 지정된 기간 동안 전체 플랫폼의 처리량에 대한 개요를 제공합니다. 자세한 내용은 [게재 처리량](../reporting/global-reports.md#delivery-throughput)을 참조하세요.
 
 ### 브로드캐스트 통계 {#broadcast-statistics}
 

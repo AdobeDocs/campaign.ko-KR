@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 필터 메타데이터 검색 중
 
-필터는 각 리소스에 사용할 수 있습니다. 리소스와 연결된 필터를 식별하려면 리소스 메타데이터에 대해 GET 요청을 수행해야 합니다. 이 요청은 주어진 리소스에 대해 모든 필터가 정의된 URL을 반환합니다. 메타데이터에 대한 자세한 정보는 [이 섹션](metadata-mechanism.md)을 참조하세요.
+필터는 각 리소스에 사용할 수 있습니다. 리소스와 연결된 필터를 식별하려면 리소스 메타데이터에 대해 GET 요청을 수행해야 합니다. 이 요청은 주어진 리소스에 대해 모든 필터가 정의된 URL을 반환합니다. 메타데이터에 대한 자세한 내용은 [메타데이터 메커니즘](metadata-mechanism.md)을 참조하세요.
 
 필터의 메타데이터를 식별하고 사용 방법을 결정하려면 이전에 반환된 URL에 대해 GET 요청을 수행해야 합니다.
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 아래의 샘플 페이로드는 &quot;profile&quot; 리소스에 대한 &quot;byText&quot; 필터 메타데이터를 검색하는 방법을 보여 줍니다. 먼저 &quot;프로필&quot; 리소스 메타데이터에 대한 GET 요청을 수행합니다.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 필터가 설명된 URL을 반환합니다.
 
-```
+```json
 {
 "filters": {
         "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/<PKEY>/filters/"
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필터 목록을 반환하고 각 필터에 연결된 메타데이터를 반환합니다.
 
-```
+```json
 {
 "birthday": {
         "PKey": "@FL-CbDFXbnHbXcVpeCGWL46VXJLn1LqxLMPagt2vz8sCxQ52lvB15KiUaxXkxJYQw-tZXYrgUWG6K8QcB4gxVY9RKoba5bRFY3294YFshDmorRr8",
@@ -83,7 +83,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
 필터 메타데이터 구조 샘플:
 
-```
+```json
 "byText": {
         "PKey": "...",
         "category": "99_none",
@@ -111,7 +111,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
 * &quot;email&quot; 유형의 &quot;service&quot; 리소스를 검색하기 위한 샘플 GET 요청입니다.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -121,7 +121,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
   요청에 대한 응답입니다.
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -144,7 +144,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 * 에 &quot;Doe&quot;가 포함된 &quot;profile&quot; 리소스를 검색하기 위한 샘플 GET 요청
 이메일 또는 성 필드(byText 필터는 이메일 및 성 필드를 모두 검색합니다).
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -154,7 +154,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
   요청에 대한 응답입니다.
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -172,7 +172,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
 * 유형이 &quot;email&quot;이고 레이블이 &quot;sport&quot;인 서비스 리소스를 검색하기 위한 샘플 GET 요청입니다.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -182,7 +182,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
   요청에 대한 응답입니다.
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -210,8 +210,8 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
 자세한 내용은 Campaign Standard 설명서를 참조하십시오.
 
-* [필터 정의를 구성하는 중](https://helpx.adobe.com/kr/campaign/standard/developing/using/configuring-filter-definition.html).
-* [사용 사례: 복합 식별 키를 사용하여 리소스를 호출합니다](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=ko).
+* [필터 정의를 구성하는 중](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [사용 사례: 복합 식별 키를 사용하여 리소스를 호출합니다](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
@@ -219,7 +219,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
 트랜잭션 금액이 100$ 이상인 &quot;프로필&quot; 리소스를 검색하기 위한 샘플 GET 요청. Adobe Campaign Standard 인터페이스에서 &quot;byAmount&quot; 필터를 처음 정의하고 &quot;Transaction&quot; 사용자 지정 테이블에 연결했습니다.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \

@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1947'
-ht-degree: 84%
+source-wordcount: '1949'
+ht-degree: 83%
 ---
 # 2022 릴리스 정보{#2022-rn}
 
@@ -106,7 +106,7 @@ _2022년 9월 30일 토요일_
 * 이러한 변경 사항은 GET URL에만 적용됩니다. POST URL을 포함한 다른 유형은 영향을 받지 않습니다.
 * 사용자 지정 코드를 사용하는 경우 보안 토큰은 더 이상 GET URL 보안 토큰 매개 변수에서 검색되지 않습니다. 다음의 JSSP 코드를 사용하여 새로운 보안 토큰을 생성해야 합니다.
 
-  ```
+  ```javascript
   getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);
   ```
 
@@ -254,14 +254,14 @@ _2022년 5월 18일 목요일_
 
 **개선 사항**
 
-* 이제 Campaign에서 POP3용 Microsoft Exchange Online OAuth 2.0 인증이 지원됩니다. [자세히 보기](../config/external-accounts.md#bounce-mails-external-account)
+* 이제 Campaign에서 POP3용 Microsoft Exchange Online OAuth 2.0 인증이 지원됩니다. [바운스 메일](../config/external-accounts.md#bounce-mails-external-account)
 * Microsoft Dynamics Connector 웹 API에 대해 중요한 문제를 해결했습니다.
 * 사용자가 연산자(xtk:operator) 및 연산자 그룹(xtk:group) 스키마를 삽입, 업데이트 및 삭제할 수 있도록 하기 위해 이름이 right인 새로운 연산자 및 그룹 스키마 쓰기(operatorWrite)가 추가되었습니다.
   <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * 이제 단일 중간 소싱에 여러 LINE 활성 계정을 구성할 수 있습니다.
 * 웹 프로세스에 대한 기본 연결 수가 50개에서 150개로 증가했습니다.
-* Campaign에는 Snowflake 데이터베이스에 중복되는 키가 삽입되지 않도록 하는 새 보호 기능 세트가 포함되어 있습니다. [자세히 보기](../architecture/keys.md)
+* Campaign에는 Snowflake 데이터베이스에 중복되는 키가 삽입되지 않도록 하는 새 보호 기능 세트가 포함되어 있습니다. [Campaign의 키 관리](../architecture/keys.md)
 
 **수정 사항**
 

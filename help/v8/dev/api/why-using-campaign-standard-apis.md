@@ -22,10 +22,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 1%
+source-wordcount: '491'
+ht-degree: 0%
 ---
 # Campaign Standard API의 장점 {#why-using-campaign-standard-apis}
 
@@ -72,7 +72,7 @@ Campaign Standard API 요청을 숙지하는 데 도움이 되는 요청 컬렉�
 
    ![대체 텍스트](assets/postman_collection.png)
 
-1. **프로필 만들기** 요청을 선택한 다음 POST 요청과 **헤더** 탭을 사용자 정보(&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>)로 업데이트하십시오. 이 작업에 대한 자세한 정보는 [이 섹션](setting-up-api-access.md)을 참조하십시오.
+1. **프로필 만들기** 요청을 선택한 다음 POST 요청과 **헤더** 탭을 사용자 정보(&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>)로 업데이트하십시오. 자세한 내용은 [API 액세스 설정](setting-up-api-access.md)을 참조하세요.
 
    ![대체 텍스트](assets/postman_uc1.png)
 

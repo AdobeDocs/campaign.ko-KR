@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '3476'
+source-wordcount: '3478'
 ht-degree: 6%
 ---
 # 게재 실패 이해 {#delivery-failures}
@@ -82,7 +82,7 @@ ht-degree: 6%
 
 **무시됨** 유형의 오류는 &quot;부재 중&quot;과 같은 일시적인 오류이거나 예를 들어 발신자 유형이 &quot;postmaster&quot;인 경우와 같은 기술적인 오류로 알려져 있습니다.
 
-피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 전달되는 모든 것을 차단할 수 있습니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않았더라도 차단 목록에 추가된으로 제공됩니다. 주소는 **[!UICONTROL Denylisted]** 상태의 (**NmsRecipient**) 받는 사람 테이블이 아니라 (**NmsAddress**) 격리 테이블에 추가됩니다. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#feedback-loops){target="_blank"}에서 피드백 루프 메커니즘에 대해 자세히 알아보세요.
+피드백 루프는 바운스 이메일과 같이 작동합니다. 사용자가 이메일을 스팸 처리하면 Adobe Campaign에서 이메일 규칙을 구성하여 이 사용자에게 전달되는 모든 것을 차단할 수 있습니다. 이러한 사용자의 주소는 구독 취소 링크를 클릭하지 않았더라도 차단 목록에 추가된으로 제공됩니다. 주소는 **[!UICONTROL Denylisted]** 상태의 (**NmsRecipient**) 받는 사람 테이블이 아니라 (**NmsAddress**) 격리 테이블에 추가됩니다. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}에서 피드백 루프 메커니즘에 대해 자세히 알아보세요.
 
 ## 동기 및 비동기 오류 {#synchronous-and-asynchronous-errors}
 
@@ -159,7 +159,7 @@ Campaign 게재의 유효 기간 설정이 **3.5일 이하**(으)로 제한됩�
 
 메시지는 다음 다시 시도가 만료 시간 후에 있을 때 유효 기간이 끝나기 전에 만료될 수 있습니다. 그러면 게재 로그에 마지막 게재 시도에 따른 실패가 표시됩니다.
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ko#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## 이메일 오류 유형 {#email-error-types}
@@ -714,7 +714,7 @@ SMPP 커넥터는 정규 표현식(정규 표현식)을 사용하여 반환되�
 
 생성된 메시지의 예:
 
-```
+```text
 SR Generic DELIVRD 000|#MESSAGE#
 ```
 
@@ -750,7 +750,7 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 수신자 메시지가 다음 내용을 포함하는 &quot;연결할 수 없음&quot; 오류로 인해 실패:
 
-```
+```text
 Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
 ```
 
@@ -758,25 +758,25 @@ Error while compiling script 'content htmlContent' line X: `[table]` is not defi
 
 **해결 방법**: 워크플로우 및 게재 콘텐츠를 검토하여 해당 테이블을 호출하려는 개인화를 구체적으로 결정하십시오. 그런 다음 HTML에서 이 테이블에 대한 호출을 제거하거나 게재에 대한 매핑을 수정합니다.
 
-[이 섹션](personalize.md)에서 개인화에 대해 자세히 알아보세요.
+[개인화 시작](personalize.md)에서 개인화에 대해 자세히 알아보세요.
 
 ### 여러 개인화 값 오류 {#multiple-values-error}
 
 게재가 실패하면 게재 로그에 다음 오류가 표시될 수 있습니다.
 
-```
+```text
 DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
 ```
 
 **원인**: 전자 메일 내에 받는 사람에 대한 값이 두 개 이상인 개인화 필드 또는 블록이 있습니다. 개인화 블록을 사용 중이며 특정 수신자에 대해 두 개 이상의 레코드를 가져오고 있습니다.
 
-**해결 방법**: 사용된 개인화 데이터를 확인한 다음 해당 필드에 둘 이상의 항목이 있는 수신자의 대상을 확인하십시오. 게재 활동 이전에 타기팅 워크플로우에서 **[!UICONTROL Deduplication]** 활동을 사용하여 한 번에 하나의 개인화 필드만 있도록 할 수도 있습니다. 중복 제거에 대한 자세한 내용은 [워크플로 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ko){target="_blank"}를 참조하세요.
+**해결 방법**: 사용된 개인화 데이터를 확인한 다음 해당 필드에 둘 이상의 항목이 있는 수신자의 대상을 확인하십시오. 게재 활동 이전에 타기팅 워크플로우에서 **[!UICONTROL Deduplication]** 활동을 사용하여 한 번에 하나의 개인화 필드만 있도록 할 수도 있습니다. 중복 제거에 대한 자세한 내용은 [워크플로 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}를 참조하세요.
 
 ### 자동 회신 처리 {#auto-reply-handling}
 
 일부 게재는 다음을 진술하는 &quot;연결할 수 없음&quot; 오류와 함께 실패할 수 있습니다.
 
-```
+```text
 Inbound email bounce (rule 'Auto_replies' has matched this bounce).
 ```
 
