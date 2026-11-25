@@ -45,7 +45,7 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->&quot;플랫&quot; 구조 파일만 지원됩니다(예: CSV, TXT 등). XML 형식은 사용하지 않는 것이 좋습니다. 클라이언트 콘솔을 사용하면 최대 150MB의 크기로 파일을 로드할 수 있습니다. 웹 사용자 인터페이스에서 파일 로드 활동의 제한은 50MB입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
+>&quot;플랫&quot; 구조 파일만 지원됩니다(예: CSV, TXT 등). XML 형식은 사용하지 않는 것이 좋습니다. 클라이언트 콘솔을 사용하면 최대 150MB의 크기로 파일을 로드할 수 있습니다. 웹 사용자 인터페이스에서 파일 로드 활동의 제한은 50MB입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=ko){target="_blank"}
 
 ![샘플 파일이 있는 데이터 로드(파일) 활동, 열 미리 보기, 파일 이름 옵션 및 거부 관리.](assets/s_advuser_wf_etl_file.png)
 

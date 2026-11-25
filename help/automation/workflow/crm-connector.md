@@ -45,4 +45,4 @@ ht-degree: 7%
 
 ![CRM에서 가져오기를 사용하는 CRM 커넥터 활동 및 [연락처]가 강조 표시된 원격 개체 목록이 열려 있음](assets/crm_task_select_obj.png)
 
-Adobe Campaign의 CRM 커넥터에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}을 참조하세요.
+Adobe Campaign의 CRM 커넥터에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=ko){target="_blank"}을 참조하세요.
