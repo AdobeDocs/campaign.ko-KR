@@ -113,7 +113,7 @@ ht-degree: 0%
 
    ![아메리카 범주와 메시지당 2개의 제안을 포함하는 전자 메일 게재의 오퍼 관리 대화 상자](assets/offer_typology_example_016.png)
 
-1. 메시지 본문에 오퍼를 삽입하고 게재를 보냅니다. 자세한 내용은 [아웃바운드 채널 정보](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"}(Campaign v8 설명서)를 참조하세요.
+1. 메시지 본문에 오퍼를 삽입하고 게재를 보냅니다. 자세한 내용은 [아웃바운드 채널 정보](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"}(Campaign v8 설명서)를 참조하세요.
 
    수신자가 적격한 오퍼를 수신했습니다.
 
