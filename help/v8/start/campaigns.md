@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
+source-git-commit: 7d3481d1a8453d0663d67765c664c60ed988aee6
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 70%
+source-wordcount: '933'
+ht-degree: 67%
 ---
 # 업그레이드 시작하기 {#gs-ac-campaigns}
 
@@ -40,7 +40,7 @@ Adobe Campaign은 온라인과 오프라인의 모든 채널에서 캠페인을 
 
 ## 크로스 채널 캠페인 오케스트레이션{#cross-channel-orchestration}
 
-Adobe Campaign을 사용하면 타기팅되고 개인화된 캠페인을 이메일, DM, SMS, 푸시 알림과 같은 다양한 채널에 디자인 및 오케스트레이션 할 수 있습니다. 단일 인터페이스는 모든 캠페인 및 커뮤니케이션을 일정 계획, 오케스트레이션, 구성, 개인화, 자동화, 실행 및 측정하는 데 필요한 모든 기능을 제공합니다.
+Adobe Campaign을 사용하면 타겟팅되고 개인화된 캠페인을 이메일, DM, SMS, 푸시 알림, LINE 및 사용자 지정 채널과 같은 여러 채널에 디자인 및 오케스트레이션할 수 있습니다. 단일 인터페이스는 모든 캠페인 및 커뮤니케이션을 일정 계획, 오케스트레이션, 구성, 개인화, 자동화, 실행 및 측정하는 데 필요한 모든 기능을 제공합니다.
 
 상태, 날짜 및 만들기 단추가 있는 마케팅 캠페인을 나열하는 홈 페이지의 ![캠페인 탭](assets/campaign-tab.png)
 
