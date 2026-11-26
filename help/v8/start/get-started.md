@@ -51,10 +51,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
+source-git-commit: 7d3481d1a8453d0663d67765c664c60ed988aee6
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 71%
+source-wordcount: '1103'
+ht-degree: 68%
 ---
 # Adobe Campaign 시작{#gs-ac-v8}
 
@@ -99,7 +99,7 @@ Adobe Campaign은 고도로 타기팅되고 차별화된 오퍼를 만들 수 �
 
 ## 크로스 채널 캠페인 오케스트레이션 {#cross-channel-campaign-orchestration}
 
-Adobe Campaign을 사용하면 타기팅되고 개인화된 캠페인을 이메일, DM, SMS, 푸시 알림과 같은 다양한 채널에 디자인 및 오케스트레이션 할 수 있습니다. 단일 인터페이스는 모든 캠페인 및 커뮤니케이션을 일정 계획, 오케스트레이션, 구성, 개인화, 자동화, 실행 및 측정하는 데 필요한 모든 기능을 제공합니다.
+Adobe Campaign을 사용하면 타겟팅되고 개인화된 캠페인을 이메일, DM, SMS, 푸시 알림, LINE 및 사용자 지정 채널과 같은 여러 채널에 디자인 및 오케스트레이션할 수 있습니다. 단일 인터페이스는 모든 캠페인 및 커뮤니케이션을 일정 계획, 오케스트레이션, 구성, 개인화, 자동화, 실행 및 측정하는 데 필요한 모든 기능을 제공합니다.
 
 [캠페인 시작](campaigns.md)에서 캠페인을 디자인, 예약 및 실행하는 방법을 알아봅니다.
 
