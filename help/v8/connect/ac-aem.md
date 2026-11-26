@@ -30,16 +30,27 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
+source-git-commit: 765af3342eb29f27dafa12f72634f5d91361bed5
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '982'
 ht-degree: 0%
 ---
 # Campaign 및 Adobe Experience Manager 작업 {#ac-aem}
 
 Adobe Campaign과 Adobe Experience Manager 간의 통합을 통해 이메일 게재의 콘텐츠와 양식을 Adobe Experience Manager에서 직접 관리할 수 있습니다.
 
-[Campaign 웹 인터페이스 내에서 Adobe Experience Manager as Cloud Service 콘텐츠를 편집하는 방법을 알아봅니다](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html?lang=ko){target="_blank"}.
+## Campaign 웹 사용자 인터페이스와 함께 Adobe Experience Manager as a Cloud Service 사용 {#aem-cs-web-ui}
+
+Campaign 웹 사용자 인터페이스를 사용하면 Adobe Experience Manager as a Cloud Service 환경을 연결하여 콘텐츠를 중앙 집중화할 수 있습니다. 에셋 및 템플릿에 대한 신뢰할 수 있는 단일 소스는 채널 간에 이메일을 일관되게 유지하고 두 솔루션 간에 콘텐츠가 중복되지 않도록 합니다.
+
+* **Assets**: Adobe Experience Manager Assets에서 자산을 관리하고 이메일 콘텐츠에서 직접 재사용합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/integrations/aem-assets){target="_blank"}
+* **템플릿**: Adobe Experience Manager as a Cloud Service에서 전자 메일 템플릿을 만들고 승인한 다음 게재에서 콘텐츠 템플릿으로 사용합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/integrations/aem-content){target="_blank"}
+
+연결은 클라이언트 콘솔에 구성된 **[!UICONTROL AEM]** 외부 계정을 사용합니다. [외부 계정](../config/external-accounts.md)을 참조하세요.
+
+## 클라이언트 콘솔에서 Adobe Experience Manager 사용 {#aem-console}
+
+아래 섹션에서는 Campaign 클라이언트 콘솔의 통합에 대해 설명합니다.
 
 [이 문서에서 Adobe Experience Manager에 대해 자세히 알아보세요](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=ko#aem-and-adobe-campaign-integration-workflow){target="_blank"}.
 

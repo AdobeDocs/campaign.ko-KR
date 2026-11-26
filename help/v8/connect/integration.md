@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: 765af3342eb29f27dafa12f72634f5d91361bed5
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 12%
+source-wordcount: '489'
+ht-degree: 11%
 ---
 # Campaign을 솔루션과 연결{#gs-ac-connectors}
 
@@ -49,7 +49,7 @@ Campaign v8은 다음 Adobe 솔루션과 연결할 수 있습니다. 사용 사�
 
 * Adobe Analytics. [자세히 알아보기](../connect/ac-aa.md)
 * Adobe Experience Cloud 트리거. [자세히 알아보기](../connect/ac-triggers.md)
-* Adobe Experience Manager. [자세히 알아보기](../connect/ac-aem.md)
+* Adobe Experience Manager(Campaign 웹 사용자 인터페이스의 Adobe Experience Manager as a Cloud Service 자산 및 템플릿 포함). [자세히 알아보기](../connect/ac-aem.md)
 * Adobe Experience Platform. [자세히 알아보기](../connect/ac-aep.md)
 * Adobe Journey Optimizer. [자세히 알아보기](../connect/ac-ajo.md)
 * Adobe Target. [자세히 알아보기](../connect/ac-at.md)
